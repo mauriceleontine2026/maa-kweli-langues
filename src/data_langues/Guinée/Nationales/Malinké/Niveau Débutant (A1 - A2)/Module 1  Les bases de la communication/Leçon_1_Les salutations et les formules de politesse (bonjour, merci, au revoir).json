@@ -4,287 +4,284 @@
   "module_number": 1,
   "module_title": "Les bases de la communication",
   "lesson_number": 1,
-  "title": "Les salutations et les formules de politesse",
+  "title": "Les salutations et les formules de politesse (bonjour, merci, au revoir)",
   "learning_objectives": [
-    "Savoir saluer de manière appropriée selon chaque moment de la journée",
-    "Exprimer le remerciement, la gratitude et les formules de politesse de base",
-    "Répondre correctement aux salutations rituelles en fonction de son genre"
+    "Saluer une personne selon le moment de la journée (matin, journée, soir, nuit)",
+    "Répondre correctement à une salutation en malinké",
+    "Utiliser les formules de politesse de base : merci, oui, non, d'accord",
+    "Prendre congé poliment (au revoir, à demain)"
   ],
   "phonetic_focus": {
-    "key_sounds": "Le malinké possède sept voyelles orales (a, e, ɛ, i, o, ɔ, u). Les lettres 'ɛ' (/ɛ/) et 'ɔ' (/ɔ/) sont ouvertes. La longueur vocalique est primordiale : doubler une voyelle prolonge sa durée d'émission et change le sens du mot (ex: 'ba' mère vs 'baa' chèvre).",
-    "common_pitfalls": "Ne pas nasaliser les voyelles simples. Le 'n' en fin de mot ou de syllabe ne s'articule pas comme le 'n' français, mais indique une nasalisation de la voyelle précédente, proche du son 'ng' (/ŋ/)."
+    "key_sounds": [
+      "Le ton (haut/bas/montant/descendant) qui distingue le sens des mots (ex. bà = mère/chèvre selon le ton)",
+      "La consonne nasale finale des voyelles nasalisées (an, en, in, on) : ne pas la détacher comme une consonne à part",
+      "Le [ɲ] écrit « ny » (ex. nyari = chat)"
+    ],
+    "common_pitfalls": [
+      "Confondre 'i ni sɔɔma' (bonjour du matin) avec 'i ni tele' (bonjour de la journée) — chacun est lié à un moment précis",
+      "Oublier que la réponse aux salutations diffère selon le sexe du locuteur (nba pour un homme, nsee/nse pour une femme)",
+      "Prononcer le ton de façon plate alors qu'il change le sens du mot"
+    ]
   },
   "vocabulary": [
     {
-      "word_id": "v1_1",
-      "term": "Sɔgɔma",
-      "phonetic_api": "/sɔ.ɡɔ.ma/",
-      "phonetic_simple": "SƆ-GƆ-MA",
-      "translation": "Le matin / La matinée",
-      "example_sentence": "I ni sɔgɔma",
-      "example_phonetic": "/i ni sɔ.ɡɔ.ma/",
-      "example_translation": "Bonjour (litt. Toi et le matin)"
+      "word_id": "v1",
+      "term": "i ni sɔɔma",
+      "phonetic_api": "[i ni sɔːma]",
+      "phonetic_simple": "i-ni-so-o-ma",
+      "translation": "bonjour (le matin)",
+      "example_sentence": "Cè, i ni sɔɔma !",
+      "example_phonetic": "[tʃɛ i ni sɔːma]",
+      "example_translation": "Camarade, bonjour (le matin) !"
     },
     {
-      "word_id": "v1_2",
-      "term": "Tile",
-      "phonetic_api": "/ti.le/",
-      "phonetic_simple": "TI-LÉ",
-      "translation": "Le soleil / La journée",
-      "example_sentence": "I ni tile",
-      "example_phonetic": "/i ni ti.le/",
-      "example_translation": "Bonjour (le milieu de la journée)"
+      "word_id": "v2",
+      "term": "i ni tele",
+      "phonetic_api": "[i ni tele]",
+      "phonetic_simple": "i-ni-té-lé",
+      "translation": "bonjour (la journée)",
+      "example_sentence": "N ma, i ni tele.",
+      "example_phonetic": "[n ma i ni tele]",
+      "example_translation": "Bonjour madame."
     },
     {
-      "word_id": "v1_3",
-      "term": "Wula",
-      "phonetic_api": "/wu.la/",
-      "phonetic_simple": "OU-LA",
-      "translation": "L'après-midi / Le crépuscule",
-      "example_sentence": "I ni wula",
-      "example_phonetic": "/i ni wu.la/",
-      "example_translation": "Bonjour / Bonsoir (l'après-midi)"
+      "word_id": "v3",
+      "term": "i ni wula",
+      "phonetic_api": "[i ni wula]",
+      "phonetic_simple": "i-ni-wou-la",
+      "translation": "bonsoir (fin d'après-midi/soir)",
+      "example_sentence": "I ni wula, karamoo.",
+      "example_phonetic": "[i ni wula karamoː]",
+      "example_translation": "Bonsoir, maître."
     },
     {
-      "word_id": "v1_4",
-      "term": "Su",
-      "phonetic_api": "/su/",
-      "phonetic_simple": "SOU",
-      "translation": "La nuit",
-      "example_sentence": "I ni su",
-      "example_phonetic": "/i ni su/",
-      "example_translation": "Bonsoir / Bonne nuit"
+      "word_id": "v4",
+      "term": "barika",
+      "phonetic_api": "[barika]",
+      "phonetic_simple": "ba-ri-ka",
+      "translation": "merci",
+      "example_sentence": "Barika, i la duruki jèlè.",
+      "example_phonetic": "[barika i la duruki dʒɛlɛ]",
+      "example_translation": "Merci, voici ta chemise."
     },
     {
-      "word_id": "v1_5",
-      "term": "Baara",
-      "phonetic_api": "/baː.ra/",
-      "phonetic_simple": "BAA-RA",
-      "translation": "Le travail / Travailler",
-      "example_sentence": "I ni baara",
-      "example_phonetic": "/i ni baː.ra/",
-      "example_translation": "Bon courage pour ton travail / Merci pour l'effort"
+      "word_id": "v5",
+      "term": "awa",
+      "phonetic_api": "[awa]",
+      "phonetic_simple": "a-wa",
+      "translation": "oui, d'accord",
+      "example_sentence": "Awa, n bada lolu bo a la.",
+      "example_phonetic": "[awa n bada lolu bo a la]",
+      "example_translation": "D'accord, je diminue de cinq."
     },
     {
-      "word_id": "v1_6",
-      "term": "Tana",
-      "phonetic_api": "/ta.na/",
-      "phonetic_simple": "TA-NA",
-      "translation": "Le mal / Le problème / L'anomalie",
-      "example_sentence": "Tana t'i la ?",
-      "example_phonetic": "/ta.na t‿i la/",
-      "example_translation": "Il n'y a pas de problème chez toi ?"
+      "word_id": "v6",
+      "term": "ntè / kaari",
+      "phonetic_api": "[n.tɛ] / [kaːri]",
+      "phonetic_simple": "n-tè / ka-a-ri",
+      "translation": "non",
+      "example_sentence": "Ntè, n ta le tè.",
+      "example_phonetic": "[n.tɛ n ta le tɛ]",
+      "example_translation": "Non, ce n'est pas à moi."
     },
     {
-      "word_id": "v1_7",
-      "term": "Kɛnɛ",
-      "phonetic_api": "/kɛ.nɛ/",
-      "phonetic_simple": "KƐ-NƐ",
-      "translation": "La santé / Être bien portant",
-      "example_sentence": "I bɛ kɛnɛma ?",
-      "example_phonetic": "/i bɛ kɛ.nɛ.ma/",
-      "example_translation": "Es-tu en bonne santé ?"
+      "word_id": "v7",
+      "term": "kola / an bè kola",
+      "phonetic_api": "[kola]",
+      "phonetic_simple": "ko-la",
+      "translation": "au revoir (litt. 'nous restons')",
+      "example_sentence": "N ba, an bè kola.",
+      "example_phonetic": "[n ba an bɛ kola]",
+      "example_translation": "D'accord, au revoir."
     },
     {
-      "word_id": "v1_8",
-      "term": "Sugu",
-      "phonetic_api": "/su.ɡu/",
-      "phonetic_simple": "SOU-GOU",
-      "translation": "Le marché",
-      "example_sentence": "I ni sugu",
-      "example_phonetic": "/i ni su.ɡu/",
-      "example_translation": "Salutation adressée à quelqu'un qui est ou revient du marché"
-    },
-    {
-      "word_id": "v1_9",
-      "term": "Hɛra",
-      "phonetic_api": "/hɛ.ra/",
-      "phonetic_simple": "HƐ-RA",
-      "translation": "La paix / La tranquillité",
-      "example_sentence": "Hɛra bɛ i si la ?",
-      "example_phonetic": "/hɛ.ra bɛ i si la/",
-      "example_translation": "La paix est-elle avec ton coucher ? (As-tu bien dormi ?)"
-    },
-    {
-      "word_id": "v1_10",
-      "term": "Baro",
-      "phonetic_api": "/ba.ro/",
-      "phonetic_simple": "BA-RO",
-      "translation": "La causerie / La discussion",
-      "example_sentence": "I ni baro",
-      "example_phonetic": "/i ni ba.ro/",
-      "example_translation": "Salutation adressée à un groupe qui discute"
+      "word_id": "v8",
+      "term": "an bè sinin",
+      "phonetic_api": "[an bɛ sinin]",
+      "phonetic_simple": "an-bè-si-nin",
+      "translation": "à demain",
+      "example_sentence": "An bè sinin, teri.",
+      "example_phonetic": "[an bɛ sinin teri]",
+      "example_translation": "À demain, ami."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p1_1",
-      "original": "I ni kɛ !",
-      "phonetic_api": "/i ni kɛ/",
-      "phonetic_simple": "I NI KƐ",
-      "translation": "Merci ! / Bravo !",
-      "context": "Formule générique de remerciement pour un service rendu ou un effort."
+      "phrase_id": "p1",
+      "original": "I ni sɔɔma",
+      "phonetic_api": "[i ni sɔːma]",
+      "phonetic_simple": "i-ni-so-o-ma",
+      "translation": "Bonjour (le matin)",
+      "context": "Salutation utilisée uniquement le matin, avant midi"
     },
     {
-      "phrase_id": "p1_2",
-      "original": "Tana t'an na.",
-      "phonetic_api": "/ta.na t‿an na/",
-      "phonetic_simple": "TA-NA T'AN NA",
-      "translation": "Il n'y a pas de mal chez nous. (Tout va bien)",
-      "context": "Réponse standard et indispensable à la plupart des questions de salutation."
+      "phrase_id": "p2",
+      "original": "Tana ma sii ?",
+      "phonetic_api": "[tana ma siː]",
+      "phonetic_simple": "ta-na-ma-si-i",
+      "translation": "Comment ça va ? (litt. 'le mal n'a-t-il pas passé la nuit ?')",
+      "context": "Question de courtoisie après la salutation initiale"
     },
     {
-      "phrase_id": "p1_3",
-      "original": "I somogo lu bɛ di ?",
-      "phonetic_api": "/i so.mo.ɡo lu bɛ di/",
-      "phonetic_simple": "I SO-MO-GO LOU BƐ DI",
-      "translation": "Comment vont les gens de ta maison ? (La famille)",
-      "context": "Étape obligatoire de la politesse après la première salutation."
+      "phrase_id": "p3",
+      "original": "Tana sii tè",
+      "phonetic_api": "[tana siː tɛ]",
+      "phonetic_simple": "ta-na-si-i-tè",
+      "translation": "Ça va bien (litt. 'le mal n'a pas passé la nuit')",
+      "context": "Réponse standard à 'Tana ma sii ?'"
     },
     {
-      "phrase_id": "p1_4",
-      "original": "A lu bɛ kɛnɛma.",
-      "phonetic_api": "/a lu bɛ kɛ.nɛ.ma/",
-      "phonetic_simple": "A LOU BƐ KƐ-NƐ-MA",
-      "translation": "Ils sont en bonne santé.",
-      "context": "Réponse pour indiquer que la famille va bien."
+      "phrase_id": "p4",
+      "original": "I too di ?",
+      "phonetic_api": "[i toː di]",
+      "phonetic_simple": "i-to-o-di",
+      "translation": "Comment t'appelles-tu ?",
+      "context": "Question pour demander le nom, après les salutations"
     },
     {
-      "phrase_id": "p1_5",
-      "original": "K'an bɛn tile do.",
-      "phonetic_api": "/k'an bɛn ti.le do/",
-      "phonetic_simple": "K'AN BƐN TI-LÉ DO",
-      "translation": "Au revoir et à un de ces jours.",
-      "context": "Formule pour prendre congé en milieu de journée."
+      "phrase_id": "p5",
+      "original": "N too le ...",
+      "phonetic_api": "[n toː le]",
+      "phonetic_simple": "n-to-o-lé",
+      "translation": "Je m'appelle ...",
+      "context": "Réponse pour donner son nom"
     },
     {
-      "phrase_id": "p1_6",
-      "original": "Ala k'an si hɛra la.",
-      "phonetic_api": "/a.la k'an si hɛ.ra la/",
-      "phonetic_simple": "A-LA K'AN SI HƐ-RA LA",
-      "translation": "Que Dieu nous fasse passer la nuit en paix. (Bonne nuit)",
-      "context": "Bénédiction de séparation avant d'aller se coucher."
+      "phrase_id": "p6",
+      "original": "Barika tè i ma",
+      "phonetic_api": "[barika tɛ i ma]",
+      "phonetic_simple": "ba-ri-ka-tè-i-ma",
+      "translation": "De rien / pas de quoi",
+      "context": "Réponse polie à 'barika' (merci)"
     },
     {
-      "phrase_id": "p1_7",
-      "original": "Hɛra dɔrɔn.",
-      "phonetic_api": "/hɛ.ra dɔ.rɔn/",
-      "phonetic_simple": "HƐ-RA DƆ-RƆN",
-      "translation": "La paix seulement. / Rien que la paix.",
-      "context": "Réponse spirituelle et polie à une demande de nouvelles."
+      "phrase_id": "p7",
+      "original": "Nba",
+      "phonetic_api": "[n.ba]",
+      "phonetic_simple": "n-ba",
+      "translation": "oui (réponse d'un homme à un appel/salutation)",
+      "context": "Interjection de réponse utilisée par les hommes"
     },
     {
-      "phrase_id": "p1_8",
-      "original": "I ni cɛ !",
-      "phonetic_api": "/i ni t͡ʃɛ/",
-      "phonetic_simple": "I NI TCHƐ",
-      "translation": "Salutations à toi (litt. Toi et l'effort / l'action)",
-      "context": "Variante très courante de 'I ni kɛ' pour remercier ou encourager."
+      "phrase_id": "p8",
+      "original": "Nsee",
+      "phonetic_api": "[n.seː]",
+      "phonetic_simple": "n-sé-é",
+      "translation": "oui (réponse d'une femme à un appel/salutation)",
+      "context": "Interjection de réponse utilisée par les femmes"
     }
   ],
   "grammar_points": [
     {
-      "concept": "Le mécanisme de salutation nominale avec la structure 'ni'",
-      "explanation": "En malinké, la majorité des salutations temporelles ou situationnelles n'utilisent pas de verbe. Elles sont formées par l'association d'un pronom personnel, de la conjonction 'ni' (et / avec) et d'un nom désignant le moment ou l'action.",
+      "concept": "Les salutations liées au moment de la journée",
+      "explanation": "En malinké, il n'existe pas une salutation unique pour 'bonjour' : la formule change selon l'heure (matin, journée, soir, nuit). La structure de base est 'i ni' + nom du moment.",
       "rules": [
-        "Structure standard au singulier : Pronom de la 2e personne du singulier 'I' + coordonnant 'ni' + Nom du repère temporel ou de l'activité.",
-        "Structure standard au pluriel ou honorifique : Pronom de la 2e personne du pluriel 'A' (ou 'Alu') + coordonnant 'ni' + Nom."
+        "i ni sɔɔma = bonjour le matin",
+        "i ni tele = bonjour pendant la journée",
+        "i ni wula = bonsoir (fin d'après-midi/soir)",
+        "On répond généralement en reprenant la même salutation ou par une interjection (nba/nsee)"
       ],
       "examples": [
         {
-          "structure": "I + ni + sɔgɔma",
-          "phonetic_api": "/i ni sɔ.ɡɔ.ma/",
-          "meaning": "Toi avec le matin (Bonjour)"
-        },
-        {
-          "structure": "Alu + ni + baara",
-          "phonetic_api": "/a.lu ni baː.ra/",
-          "meaning": "Vous avec le travail (Bon courage à vous)"
-        }
-      ]
-    },
-    {
-      "concept": "La négation de la possession ou de la présence avec 'tɛ... la'",
-      "explanation": "Pour demander si une anomalie existe ou pour nier la présence d'un problème ('tana'), on emploie la postposition locative 'la' combinée avec le marqueur de négation contracté 'tɛ' (dérivé de 'bɛ' + 'te').",
-      "rules": [
-        "Le mot 'tana' (mal) se place en tête.",
-        "'t'' ou 'tɛ' est la négation, suivie du pronom objet.",
-        "'la' ferme la proposition pour indiquer le lieu ou l'attribution."
-      ],
-      "examples": [
-        {
-          "structure": "Tana t'i la ?",
-          "phonetic_api": "/ta.na t‿i la/",
-          "meaning": "Le mal n'est pas en toi ? (Tout va bien ?)"
-        },
-        {
-          "structure": "Tana t'an na",
-          "phonetic_api": "/ta.na t‿an na/",
-          "meaning": "Le mal n'est pas en nous ('na' remplace 'la' après une nasale 'an')"
+          "structure": "i ni + [moment]",
+          "phonetic_api": "[i ni sɔːma]",
+          "meaning": "bonjour + moment de la journée (ex. le matin)"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Lamine (Homme)",
-      "text": "I ni sɔgɔma, Sira.",
-      "phonetic_api": "/i ni sɔ.ɡɔ.ma si.ra/",
-      "phonetic_simple": "I NI SƆ-GƆ-MA SI-RA",
-      "translation": "Bonjour du matin, Sira."
+      "speaker": "Sékou",
+      "text": "Cè, i ni sɔɔma !",
+      "phonetic_api": "[tʃɛ i ni sɔːma]",
+      "phonetic_simple": "tchè, i-ni-so-o-ma",
+      "translation": "Camarade, bonjour !"
     },
     {
-      "speaker": "Sira (Femme)",
-      "text": "Nse, Lamine. Hɛra bɛ i si la ?",
-      "phonetic_api": "/n̩.se la.min hɛ.ra bɛ i si la/",
-      "phonetic_simple": "N-SÉ, LA-MINE. HƐ-RA BƐ I SI LA ?",
-      "translation": "Bonjour Lamine (réponse féminine). La paix a-t-elle accompagné ton coucher ?"
+      "speaker": "Aminata",
+      "text": "I ni sɔɔma. Tana ma sii ?",
+      "phonetic_api": "[i ni sɔːma tana ma siː]",
+      "phonetic_simple": "i-ni-so-o-ma, ta-na-ma-si-i",
+      "translation": "Bonjour. Comment ça va ?"
     },
     {
-      "speaker": "Lamine (Homme)",
-      "text": "Hɛra dɔrɔn, tana t'an na. I somogo lu bɛ di ?",
-      "phonetic_api": "/hɛ.ra dɔ.rɔn ta.na t‿an na i so.mo.ɡo lu bɛ di/",
-      "phonetic_simple": "HƐ-RA DƆ-RƆN, TA-NA T'AN NA. I SO-MO-GO LOU BƐ DI ?",
-      "translation": "La paix seulement, aucun mal chez nous. Comment va ta famille ?"
+      "speaker": "Sékou",
+      "text": "Tana sii tè, barika.",
+      "phonetic_api": "[tana siː tɛ barika]",
+      "phonetic_simple": "ta-na-si-i-tè, ba-ri-ka",
+      "translation": "Ça va bien, merci."
     },
     {
-      "speaker": "Sira (Femme)",
-      "text": "A lu bɛ kɛnɛma, tana t'a lu la. I ni baara !",
-      "phonetic_api": "/a lu bɛ kɛ.nɛ.ma ta.na t‿a lu la i ni baː.ra/",
-      "phonetic_simple": "A LOU BƐ KƐ-NƐ-MA, TA-NA T'A LOU LA. I NI BAA-RA !",
-      "translation": "Ils sont en bonne santé, pas de problème chez eux. Bon courage pour ton travail !"
+      "speaker": "Aminata",
+      "text": "I too di ?",
+      "phonetic_api": "[i toː di]",
+      "phonetic_simple": "i-to-o-di",
+      "translation": "Comment t'appelles-tu ?"
     },
     {
-      "speaker": "Lamine (Homme)",
-      "text": "Nba, i ni kɛ. K'an bɛn tile do.",
-      "phonetic_api": "/n̩.ba i ni kɛ k'an bɛn ti.le do/",
-      "phonetic_simple": "N-BA, I NI KƐ. K'AN BƐN TI-LÉ DO",
-      "translation": "Merci (réponse masculine), merci à toi. Au revoir et à un de ces jours."
+      "speaker": "Sékou",
+      "text": "N too le Sékou. I le don ?",
+      "phonetic_api": "[n toː le seku i le dɔn]",
+      "phonetic_simple": "n-to-o-lé sé-kou, i-lé-don",
+      "translation": "Je m'appelle Sékou. Et toi ?"
+    },
+    {
+      "speaker": "Aminata",
+      "text": "N too le Aminata. Awa, an bè kola !",
+      "phonetic_api": "[n toː le aminata awa an bɛ kola]",
+      "phonetic_simple": "n-to-o-lé A-mi-na-ta, a-wa, an-bè-ko-la",
+      "translation": "Je m'appelle Aminata. D'accord, au revoir !"
     }
   ],
   "cultural_notes": [
-    "La distinction des genres dans les mots de réponse est l'un des piliers de la langue et du respect sociétal mandingue. Un homme répondra TOUJOURS 'Nba' (venant de 'N ba', ma mère) lorsqu'il reçoit une salutation. Une femme répondra TOUJOURS 'Nse' (venant de 'N se', mon pouvoir/ma force). Inverser ces deux termes est considéré comme une faute majeure de langage.",
-    "Les salutations en Afrique de l'Ouest ne sont pas de simples formalités rapides : elles durent plusieurs minutes et constituent un rituel social obligatoire avant de commercer ou de demander un service."
+    "Les salutations occupent une place centrale dans la culture malinké : il est considéré impoli de commencer une conversation ou une transaction (au marché, chez le médecin) sans échanger d'abord les formules de politesse ([Malinkuia](https://fr.scribd.com/document/499114939/Malinkuia)).",
+    "Les questions de politesse portent souvent sur la santé de la famille et des proches, et pas seulement sur celle de l'interlocuteur ([An ka taa](https://www.ankataa.com/maninka-greetings-and-phrases)).",
+    "Les interjections de réponse 'nba' (homme) et 'nsee' (femme) marquent le genre du locuteur, une distinction typique du parler courant malinké."
   ],
   "exercises": [
     {
-      "exercise_id": "A1_M1_L1_ex1",
-      "type": "multiple_choice",
-      "question": "Si vous êtes une femme et qu'un homme vous dit 'I ni sɔgɔma', que devez-vous répondre en premier ?",
+      "exercise_id": "e1",
+      "type": "choix_multiple",
+      "question": "Quelle formule utilise-t-on pour dire bonjour LE MATIN ?",
       "options": [
-        "Nba",
-        "Nse",
-        "Tana t'an na"
+        "i ni tele",
+        "i ni sɔɔma",
+        "i ni wula",
+        "barika"
       ],
-      "correct_answer": "Nse",
-      "explanation": "'Nse' est la réponse codifiée et respectueuse réservée exclusivement aux femmes."
+      "correct_answer": "i ni sɔɔma",
+      "explanation": "'i ni sɔɔma' est réservé à la salutation du matin ; 'i ni tele' se dit en journée."
     },
     {
-      "exercise_id": "A1_M1_L1_ex2",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "I ni [ ___ ] (Bonjour pour le moment le plus chaud de la journée, vers midi/14h).",
-      "correct_answer": "tile",
-      "hint": "Ce mot désigne également le soleil physique."
+      "exercise_id": "e2",
+      "type": "traduction",
+      "question": "Traduisez en malinké : 'Merci'",
+      "correct_answer": "Barika",
+      "explanation": "'Barika' est la formule générale de remerciement en malinké."
+    },
+    {
+      "exercise_id": "e3",
+      "type": "texte_a_trous",
+      "sentence_with_blank": "I too ___ ?  (Comment t'appelles-tu ?)",
+      "correct_answer": "di",
+      "hint": "C'est le mot interrogatif qui signifie 'quoi/comment' à la fin de la question sur le nom."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Malinkuia — Introduction à la langue malinké (grammaire complète, variété du Wulada, Haute-Guinée)",
+      "url": "https://fr.scribd.com/document/499114939/Malinkuia"
+    },
+    {
+      "label": "An ka taa — Maninka/Malinké greetings and phrases",
+      "url": "https://www.ankataa.com/maninka-greetings-and-phrases"
+    },
+    {
+      "label": "An ka taa — Yes/No and other essentials in Maninka",
+      "url": "https://www.ankataa.com/blog/2026/3/16/yes-no-and-other-essentials-in-maninka"
+    }
+  ],
+  "confidence": "élevée",
+  "confidence_note": "Vocabulaire et phrases directement attestés dans la grammaire Malinkuia (variété du Wulada, Haute-Guinée) et dans le site linguistique An ka taa consacré spécifiquement au maninka. Les tons indiqués suivent les conventions décrites dans les sources ; en l'absence d'enregistrement audio, la transcription phonétique API reste une approximation raisonnable."
 }

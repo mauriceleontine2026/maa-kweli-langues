@@ -6,243 +6,244 @@
   "lesson_number": 1,
   "title": "Parler de sa maison, de son logement et de sa ville",
   "learning_objectives": [
-    "Décrire les pièces et les objets principaux de la maison",
-    "Exprimer des relations spatiales avancées et de localisation (dans, sur, sous, devant)",
-    "Présenter sa ville et ses caractéristiques urbaines majeures"
+    "Décrire sa maison ou sa case avec des adjectifs qualitatifs",
+    "Distinguer 'bon' (case/maison), 'luma' (maison) et 'so'/'soba' (village/ville)",
+    "Utiliser la possession aliénable pour parler de son logement",
+    "Situer des lieux les uns par rapport aux autres dans une ville"
   ],
   "phonetic_focus": {
-    "key_sounds": "Le mot 'so' (maison/ville) possède une voyelle courte et fermée. Le mot 'bila' (mettre/poser) demande une articulation brève. Le phonème 'l' entre deux voyelles (ex: 'kɔnɔla') est souvent très fluide et léger.",
-    "common_pitfalls": "Ne pas confondre 'so' (maison) avec 'soo' (le cheval), dont la voyelle est longue et étirée. Gardez les voyelles de 'kɔnɔ' (dans/intérieur) bien ouvertes (/kɔ.nɔ/)."
+    "key_sounds": [
+      "Le ton descendant de 'bon' (maison/case), à ne pas confondre avec 'bonba' (très grand)",
+      "La voyelle longue de 'soba' (ville), dérivée de 'so' + 'ba' (augmentatif)",
+      "La liaison 'na bon' après pronom nasal (ma maison)"
+    ],
+    "common_pitfalls": [
+      "Confondre 'so' (village) et 'soba' (ville, litt. 'grand village')",
+      "Oublier le relateur 'la'/'na' pour la possession aliénable du logement : 'N na bon' et non 'N bon'"
+    ]
   },
   "vocabulary": [
     {
-      "word_id": "v10_1",
-      "term": "So",
-      "phonetic_api": "/so/",
-      "phonetic_simple": "SO",
-      "translation": "Maison / Case / Ville / Habitation",
-      "example_sentence": "N bɛ n so la",
-      "example_phonetic": "/n̩ bɛ n̩ so la/",
-      "example_translation": "Je suis à la maison."
+      "word_id": "v1",
+      "term": "bon",
+      "phonetic_api": "[bon]",
+      "phonetic_simple": "bon",
+      "translation": "maison, case",
+      "example_sentence": "N na bon kenyin.",
+      "example_phonetic": "[n na bon kɛɲin]",
+      "example_translation": "Ma maison est belle."
     },
     {
-      "word_id": "v10_2",
-      "term": "Bwɔn",
-      "phonetic_api": "/bwã/",
-      "phonetic_simple": "BWON",
-      "translation": "Chambre / Pièce",
-      "example_sentence": "N ka bwɔn ka bon",
-      "example_phonetic": "/n̩ ka bwã ka bõ/",
-      "example_translation": "Ma chambre est grande."
+      "word_id": "v2",
+      "term": "luma",
+      "phonetic_api": "[luma]",
+      "phonetic_simple": "lou-ma",
+      "translation": "maison (variante)",
+      "example_sentence": "A ye luma la.",
+      "example_phonetic": "[a je luma la]",
+      "example_translation": "Il est dans la maison."
     },
     {
-      "word_id": "v10_3",
-      "term": "Gbanan",
-      "phonetic_api": "/ɡ͡ba.nã/",
-      "phonetic_simple": "GBAN-AN",
-      "translation": "Cuisine",
-      "example_sentence": "N ba bɛ gbanan kɔnɔ",
-      "example_phonetic": "/n̩ ba bɛ ɡ͡ba.nã kɔ.nɔ/",
-      "example_translation": "Ma mère est dans la cuisine."
+      "word_id": "v3",
+      "term": "so",
+      "phonetic_api": "[so]",
+      "phonetic_simple": "so",
+      "translation": "village",
+      "example_sentence": "So do ye kô koma.",
+      "example_phonetic": "[so do je ko koma]",
+      "example_translation": "Il y a un village sur l'autre rive."
     },
     {
-      "word_id": "v10_4",
-      "term": "Kɔnɔla",
-      "phonetic_api": "/kɔ.nɔ.la/",
-      "phonetic_simple": "KƆ-NƆ-LA",
-      "translation": "L'intérieur / Dedans",
-      "example_sentence": "Ta so kɔnɔla",
-      "example_phonetic": "/ta so kɔ.nɔ.la/",
-      "example_translation": "Va à l'intérieur de la maison."
+      "word_id": "v4",
+      "term": "soba",
+      "phonetic_api": "[soba]",
+      "phonetic_simple": "so-ba",
+      "translation": "ville (litt. 'grand village')",
+      "example_sentence": "N nye bola soba do le.",
+      "example_phonetic": "[n ɲe bola soba do le]",
+      "example_translation": "Je viens d'une ville."
     },
     {
-      "word_id": "v10_5",
-      "term": "Kɛnɛma",
-      "phonetic_api": "/kɛ.nɛ.ma/",
-      "phonetic_simple": "KƐ-NƐ-MA",
-      "translation": "La cour / L'extérieur / Dehors",
-      "example_sentence": "Den lu bɛ kɛnɛma la",
-      "example_phonetic": "/dẽ lu bɛ kɛ.nɛ.ma la/",
-      "example_translation": "Les enfants sont dans la cour."
+      "word_id": "v5",
+      "term": "duu",
+      "phonetic_api": "[duː]",
+      "phonetic_simple": "dou-ou",
+      "translation": "terre, sol, village",
+      "example_sentence": "Duu nin diman sènè la.",
+      "example_phonetic": "[duː nin diman sɛnɛ la]",
+      "example_translation": "Cette terre est bonne pour la culture."
     },
     {
-      "word_id": "v10_6",
-      "term": "Lalan",
-      "phonetic_api": "/la.lã/",
-      "phonetic_simple": "LA-LAN",
-      "translation": "Le lit",
-      "example_sentence": "Donki bɛ lalan sanfɛ",
-      "example_phonetic": "/doŋ.ki bɛ la.lã san.fɛ/",
-      "example_translation": "Le vêtement est sur le lit."
+      "word_id": "v6",
+      "term": "tabali",
+      "phonetic_api": "[tabali]",
+      "phonetic_simple": "ta-ba-li",
+      "translation": "table",
+      "example_sentence": "Moso bada cinin sii tabali la.",
+      "example_phonetic": "[moso bada tʃinin siː tabali la]",
+      "example_translation": "La femme a posé le riz sur la table."
     },
     {
-      "word_id": "v10_7",
-      "term": "Sanfɛ",
-      "phonetic_api": "/san.fɛ/",
-      "phonetic_simple": "SAN-FƐ",
-      "translation": "Au-dessus / Sur / En haut",
-      "example_sentence": "A bila lalan sanfɛ",
-      "example_phonetic": "/a bi.la la.lã san.fɛ/",
-      "example_translation": "Pose-le sur le lit."
+      "word_id": "v7",
+      "term": "kenyin",
+      "phonetic_api": "[kɛɲin]",
+      "phonetic_simple": "kè-nyin",
+      "translation": "beau, joli",
+      "example_sentence": "N na bon kenyin i ta di.",
+      "example_phonetic": "[n na bon kɛɲin i ta di]",
+      "example_translation": "Ma case est plus belle que la tienne."
     },
     {
-      "word_id": "v10_8",
-      "term": "Duguma",
-      "phonetic_api": "/du.ɡu.ma/",
-      "phonetic_simple": "DOU-GOU-MA",
-      "translation": "Par terre / Sol / En bas",
-      "example_sentence": "Samara bɛ duguma",
-      "example_phonetic": "/sa.ma.ra bɛ du.ɡu.ma/",
-      "example_translation": "Les chaussures sont par terre."
-    },
-    {
-      "word_id": "v10_9",
-      "term": "Soba",
-      "phonetic_api": "/so.ba/",
-      "phonetic_simple": "SO-BA",
-      "translation": "Grande ville / Capitale",
-      "example_sentence": "Conakry na soba ra",
-      "example_phonetic": "/ko.na.kri na so.ba ra/",
-      "example_translation": "Conakry est une grande ville."
-    },
-    {
-      "word_id": "v10_10",
-      "term": "Sigiyɔrɔ",
-      "phonetic_api": "/si.ɡi.jɔ.rɔ/",
-      "phonetic_simple": "SI-GUI-YƆ-RƆ",
-      "translation": "Lieu de résidence / Chaise / Siège",
-      "example_sentence": "N ka sigiyɔrɔ ka ɲi",
-      "example_phonetic": "/n̩ ka si.ɡi.jɔ.rɔ ka ɲi/",
-      "example_translation": "Mon lieu de résidence est agréable."
+      "word_id": "v8",
+      "term": "bonba",
+      "phonetic_api": "[bonba]",
+      "phonetic_simple": "bon-ba",
+      "translation": "très grande maison (bon + augmentatif -ba)",
+      "example_sentence": "Ka bon dôwara.",
+      "example_phonetic": "[ka bon dôwara]",
+      "example_translation": "Agrandir la surface intérieure d'une maison."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p10_1",
-      "original": "I bɛ sigi la so juman kɔnɔ ?",
-      "phonetic_api": "/i bɛ si.ɡi la so d͡ʒu.man kɔ.nɔ/",
-      "phonetic_simple": "I BƐ SI-GUI LA SO DJOU-MAN KƆ-NƆ ?",
-      "translation": "Dans quelle ville habites-tu ?",
-      "context": "Interroger quelqu'un sur son lieu de résidence urbain."
+      "phrase_id": "p1",
+      "original": "N na bon kenyin",
+      "phonetic_api": "[n na bon kɛɲin]",
+      "phonetic_simple": "n-na-bon-kè-nyin",
+      "translation": "Ma maison est belle",
+      "context": "Décrire sa maison"
     },
     {
-      "phrase_id": "p10_2",
-      "original": "N ka so bɛ lɔgɔfe dafɛ.",
-      "phonetic_api": "/n̩ ka so bɛ lɔ.ɡɔ.fe da.fɛ/",
-      "phonetic_simple": "N KA SO BƐ LƆ-GƆ-FÉ DA-FƐ.",
-      "translation": "Ma maison se trouve à côté du marché.",
-      "context": "Donner des précisions géographiques sur son logement."
+      "phrase_id": "p2",
+      "original": "N na bon kenyin i ta di",
+      "phonetic_api": "[n na bon kɛɲin i ta di]",
+      "phonetic_simple": "n-na-bon-kè-nyin-i-ta-di",
+      "translation": "Ma case est plus belle que la tienne",
+      "context": "Comparaison avec 'di' après le second terme"
     },
     {
-      "phrase_id": "p10_3",
-      "original": "Bwɔn jeli bɛ i ka so la ?",
-      "phonetic_api": "/bwã d͡ʒe.li bɛ i ka so la/",
-      "phonetic_simple": "BWON DJÉ-LI BƐ I KA SO LA ?",
-      "translation": "Combien de chambres y a-t-il dans ta maison ?",
-      "context": "Demander la taille ou la description d'un logement."
+      "phrase_id": "p3",
+      "original": "So do ye kô koma",
+      "phonetic_api": "[so do je ko koma]",
+      "phonetic_simple": "so-do-yé-ko-ko-ma",
+      "translation": "Il y a un village sur l'autre rive",
+      "context": "Situer un village par rapport à un fleuve"
     },
     {
-      "phrase_id": "p10_4",
-      "original": "A bɛ lalan duguma fɛ.",
-      "phonetic_api": "/a bɛ la.lã du.ɡu.ma fɛ/",
-      "phonetic_simple": "A BƐ LA-LAN DOU-GOU-MA FƐ.",
-      "translation": "C'est en dessous du lit / par terre vers le lit.",
-      "context": "Indiquer l'emplacement précis d'un objet perdu."
+      "phrase_id": "p4",
+      "original": "N nye bola soba le",
+      "phonetic_api": "[n ɲe bola soba le]",
+      "phonetic_simple": "n-nyé-bo-la-so-ba-lé",
+      "translation": "Je viens d'une ville",
+      "context": "Indiquer son origine urbaine plutôt que rurale"
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'expression des relations spatiales avec 'kɔnɔ' et 'sanfɛ'",
-      "explanation": "En malinké, pour situer un objet par rapport à un espace clos ou une surface, on utilise des noms de localisation postposés comme 'kɔnɔ' (intérieur / dans) ou 'sanfɛ' (haut / sur), placés directement après le nom repère.",
+      "concept": "Le comparatif avec 'di'",
+      "explanation": "Pour comparer deux éléments, le malinké ajoute 'di' après le second terme de comparaison (celui à qui on compare).",
       "rules": [
-        "Structure : [Nom Repère] + [Nom de localisation].",
-        "Aucune préposition ne précède le nom repère."
+        "Structure : [Sujet] + [Adjectif] + [Second terme] + di",
+        "N na bon kenyin i ta di = ma case est plus belle que la tienne (litt. 'que la tienne')"
       ],
       "examples": [
         {
-          "structure": "So kɔnɔ",
-          "phonetic_api": "/so kɔ.nɔ/",
-          "meaning": "Dans la maison (Maison + intérieur)"
-        },
-        {
-          "structure": "Lalan sanfɛ",
-          "phonetic_api": "/la.lã san.fɛ/",
-          "meaning": "Sur le lit (Lit + surface supérieure)"
+          "structure": "[Adjectif] + [terme comparé] + di",
+          "phonetic_api": "[di]",
+          "meaning": "plus [adjectif] que [terme comparé]"
         }
       ]
     },
     {
-      "concept": "La possession aliénable avec la marque 'ka'",
-      "explanation": "Contrairement aux éléments d'identité ou aux parents proches, les biens matériels acquis comme une maison ('so') ou un lit ('lalan') requièrent la particule de possession aliénable 'ka' entre le pronom et le nom.",
+      "concept": "L'augmentatif '-ba' et le diminutif '-nin'",
+      "explanation": "Le suffixe '-ba' marque l'augmentatif (grandeur, importance) et '-nin' le diminutif (petitesse). Ils s'attachent directement au nom.",
       "rules": [
-        "Structure : Pronom personnel + 'ka' + Objet possédé."
+        "so + ba = soba (ville, 'grand village')",
+        "bon + ba = bonba (très grande maison)",
+        "Comparer avec le diminutif : bon + nin = bonnin (petite case)"
       ],
       "examples": [
         {
-          "structure": "N ka so",
-          "phonetic_api": "/n̩ ka so/",
-          "meaning": "Ma maison"
-        },
-        {
-          "structure": "I ka lalan",
-          "phonetic_api": "/i ka la.lã/",
-          "meaning": "Ton lit"
+          "structure": "[Nom] + ba",
+          "phonetic_api": "[ba]",
+          "meaning": "augmentatif : grand [nom]"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Lamine",
-      "text": "Moussa, i ka so bɛ mi bi ? I bɛ so juman kɔnɔ ?",
-      "phonetic_api": "/mu.sa i ka so bɛ mi bi i bɛ so d͡ʒu.man kɔ.nɔ/",
-      "phonetic_simple": "MOUS-SA, I KA SO BƐ MI BI ? I BƐ SO DJOU-MAN KƆ-NƆ ?",
-      "translation": "Moussa, où se trouve ta maison aujourd'hui ? Dans quelle ville habites-tu ?"
+      "speaker": "Aminata",
+      "text": "I na bon ye min ?",
+      "phonetic_api": "[i na bon je min]",
+      "phonetic_simple": "i-na-bon-yé-min",
+      "translation": "Où est ta maison ?"
     },
     {
-      "speaker": "Moussa",
-      "text": "N bɛ Kankan soba kɔnɔ. N ka so bɛ lɔgɔfe dafɛ.",
-      "phonetic_api": "/n̩ bɛ kan.kan so.ba kɔ.nɔ n̩ ka so bɛ lɔ.ɡɔ.fe da.fɛ/",
-      "phonetic_simple": "N BƐ KAN-KAN SO-BA KƆ-NƆ. N KA SO BƐ LƆ-GƆ-FÉ DA-FƐ.",
-      "translation": "J'habite dans la grande ville de Kankan. Ma maison est située juste à côté du marché."
+      "speaker": "Sékou",
+      "text": "N na bon ye soba do le kono.",
+      "phonetic_api": "[n na bon je soba do le kono]",
+      "phonetic_simple": "n-na-bon-yé-so-ba-do-lé-ko-no",
+      "translation": "Ma maison est à l'intérieur d'une ville."
     },
     {
-      "speaker": "Lamine",
-      "text": "A bɛnna. Bwɔn saba bɛ i ka so la ko ?",
-      "phonetic_api": "/a bɛn.na bwã sa.ba bɛ i ka so la ko/",
-      "phonetic_simple": "A BƐN-NA. BWON SA-BA BƐ I KA SO LA KO ?",
-      "translation": "C'est bien. Y a-t-il trois chambres dans ta maison ?"
+      "speaker": "Aminata",
+      "text": "A kenyin ?",
+      "phonetic_api": "[a kɛɲin]",
+      "phonetic_simple": "a-kè-nyin",
+      "translation": "Est-elle belle ?"
     },
     {
-      "speaker": "Moussa",
-      "text": "Ayi, bwɔn fila dɔrɔn bɛ n ka so la, ni gbanan kelen ra.",
-      "phonetic_api": "/a.ji bwã fi.la dɔ.rɔn bɛ n̩ ka so la ni ɡ͡ba.nã ke.lẽ ra/",
-      "phonetic_simple": "A-YI, BWON FI-LA DƆ-RƆN BƐ N KA SO LA, NI GBAN-AN KÉ-LEN RA.",
-      "translation": "Non, il y a deux chambres seulement dans ma maison, avec une cuisine."
+      "speaker": "Sékou",
+      "text": "Awa, n na bon kenyin i ta di !",
+      "phonetic_api": "[awa n na bon kɛɲin i ta di]",
+      "phonetic_simple": "a-wa, n-na-bon-kè-nyin-i-ta-di",
+      "translation": "Oui, ma maison est plus belle que la tienne !"
     }
   ],
   "cultural_notes": [
-    "L'architecture traditionnelle mandingue se composait historiquement de concessions familiales regroupant plusieurs cases rondes ('so') en banco au toit de chaume, entourées d'une cour commune ('kɛnɛma'). Aujourd'hui, bien que l'urbanisme ait évolué, la concession demeure le cœur social de l'entraide familiale élargie."
+    "En Haute-Guinée, la distinction entre 'so' (village) et 'soba' (ville) reflète une organisation sociale où la taille et le statut administratif du lieu de résidence sont culturellement significatifs ([Malinkuia](https://fr.scribd.com/document/499114939/Malinkuia)).",
+    "La case traditionnelle ronde en terre ('bon') reste un habitat courant en zone rurale, à côté des maisons en dur dans les centres urbains comme Kankan."
   ],
   "exercises": [
     {
-      "exercise_id": "B1_M1_L1_ex1",
-      "type": "multiple_choice",
-      "question": "Comment dit-on 'Dans la cuisine' en malinké ?",
-      "options": [
-        "Gbanan sanfɛ",
-        "Gbanan kɔnɔ",
-        "Gbanan duguma"
-      ],
-      "correct_answer": "Gbanan kɔnɔ",
-      "explanation": "'Gbanan' signifie cuisine et 'kɔnɔ' exprime l'intérieur ou le fait d'être dedans."
+      "exercise_id": "e1",
+      "type": "traduction",
+      "question": "Traduisez : 'Ma maison est plus belle que la tienne.'",
+      "correct_answer": "N na bon kenyin i ta di.",
+      "explanation": "Comparatif formé avec 'di' après le second terme ('i ta' = la tienne)."
     },
     {
-      "exercise_id": "B1_M1_L1_ex2",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "N [ ___ ] so ka ɲi (Ma maison est belle).",
-      "correct_answer": "ka",
-      "hint": "C'est le marqueur obligatoire de la possession aliénable."
+      "exercise_id": "e2",
+      "type": "choix_multiple",
+      "question": "Que signifie 'soba' ?",
+      "options": [
+        "petit village",
+        "ville",
+        "case",
+        "table"
+      ],
+      "correct_answer": "ville",
+      "explanation": "'soba' = 'so' (village) + '-ba' (augmentatif) = ville, litt. 'grand village'."
+    },
+    {
+      "exercise_id": "e3",
+      "type": "texte_a_trous",
+      "sentence_with_blank": "N na bon ___ .  (Ma maison est belle.)",
+      "correct_answer": "kenyin",
+      "hint": "C'est l'adjectif qui signifie 'beau/joli'."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Malinkuia — Introduction à la langue malinké (grammaire complète, variété du Wulada, Haute-Guinée)",
+      "url": "https://fr.scribd.com/document/499114939/Malinkuia"
+    },
+    {
+      "label": "Diané & Vydrin, « Propositions pour l'orthographe du maninka (Guinée) », Mandenkan 52 (2014)",
+      "url": "https://shs.hal.science/halshs-01096594v1/document"
+    }
+  ],
+  "confidence": "élevée",
+  "confidence_note": "Vocabulaire et structures comparatives directement attestés dans la grammaire Malinkuia (sections 'Comparatif', 'Substantifs complexes' et 'Lexique de base')."
 }

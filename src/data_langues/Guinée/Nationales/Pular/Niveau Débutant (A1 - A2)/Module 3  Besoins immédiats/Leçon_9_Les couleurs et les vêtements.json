@@ -6,266 +6,219 @@
   "lesson_number": 9,
   "title": "Les couleurs et les vêtements",
   "learning_objectives": [
-    "Identifier et nommer les couleurs de base (blanc, noir, rouge) en pular",
-    "Connaître le lexique des vêtements courants et traditionnels",
-    "Décrire un habit simple en associant sa couleur"
+    "Nommer les couleurs de base en pular",
+    "Nommer les vêtements traditionnels et courants",
+    "Décrire un vêtement par sa couleur"
   ],
   "phonetic_focus": {
-    "key_sounds": "La consonne double 'ee' (/eː/) est longue dans 'dan_eejo'. Le son 'b' implosif 'ɓ' (/ɓ/) se retrouve dans 'ɓoorugol' (se déshabiller). Marquez bien la tension sur le 'g' de 'wunngo' (/wunːɡo/).",
-    "common_pitfalls": "Les adjectifs de couleur s'accordent lourdement avec la classe nominale du vêtement. Ne dites pas 'doloke dan_eejo' au hasard, car 'doloke' impose un accord de classe spécifique."
+    "key_sounds": "Les adjectifs de couleur en pular sont souvent des adjectifs irréguliers accordés en classe nominale, se terminant par des suffixes qui varient selon le nom qualifié (ex. -eejo, -ejo pour les personnes/animés).",
+    "common_pitfalls": "Le mot pour 'bleu' est un emprunt (mbulu/bule) car cette couleur n'a pas de racine ancienne dans la langue ; les francophones sont parfois surpris que certaines couleurs (rouge/orange/rose/marron) soient couvertes par un seul terme de base, 'boðeejo'."
   },
   "vocabulary": [
     {
-      "word_id": "v9_1",
-      "term": "doloke",
+      "word_id": "v1",
+      "term": "daneejo",
+      "phonetic_api": "/daneːdʒo/",
+      "phonetic_simple": "DA-NÉÉ-DJO",
+      "translation": "blanc",
+      "example_sentence": "Dolokke daneejo.",
+      "example_phonetic": "/doloke daneːdʒo/",
+      "example_translation": "Un boubou blanc."
+    },
+    {
+      "word_id": "v2",
+      "term": "åaleejo",
+      "phonetic_api": "/ɓaleːdʒo/",
+      "phonetic_simple": "BA-LÉÉ-DJO",
+      "translation": "noir",
+      "example_sentence": "Paðe åaleeje.",
+      "example_phonetic": "/paɗe ɓaleːdʒe/",
+      "example_translation": "Des chaussures noires."
+    },
+    {
+      "word_id": "v3",
+      "term": "boðeejo",
+      "phonetic_api": "/boɗeːdʒo/",
+      "phonetic_simple": "BO-DÉÉ-DJO",
+      "translation": "rouge (couvre aussi orange, rose, marron)",
+      "example_sentence": "Gude boðeeje.",
+      "example_phonetic": "/ɡude boɗeːdʒe/",
+      "example_translation": "Des pagnes rouges."
+    },
+    {
+      "word_id": "v4",
+      "term": "oolo",
+      "phonetic_api": "/oːlo/",
+      "phonetic_simple": "OO-LO",
+      "translation": "jaune",
+      "example_sentence": "Toggoore oolo.",
+      "example_phonetic": "/togoːre oːlo/",
+      "example_translation": "Une chemise jaune."
+    },
+    {
+      "word_id": "v5",
+      "term": "haako",
+      "phonetic_api": "/haːko/",
+      "phonetic_simple": "HAA-KO",
+      "translation": "vert (litt. couleur des feuilles)",
+      "example_sentence": "Sirla haako.",
+      "example_phonetic": "/sirla haːko/",
+      "example_translation": "Un pantalon vert."
+    },
+    {
+      "word_id": "v6",
+      "term": "dolokke",
       "phonetic_api": "/doloke/",
-      "phonetic_simple": "DO-LO-KE",
-      "translation": "boubou, tunique, vêtement",
-      "example_sentence": "Mido jogii doloke moƴƴo.",
-      "example_phonetic": "/mido d͡ʒoɡiː doloke moʔɟːo/",
-      "example_translation": "J'ai une belle tunique."
+      "phonetic_simple": "DO-LOK-KÉ",
+      "translation": "boubou, tunique",
+      "example_sentence": "Ko dolokke makko nii.",
+      "example_phonetic": "/ko doloke makːo niː/",
+      "example_translation": "C'est son boubou."
     },
     {
-      "word_id": "v9_2",
-      "term": "dan_eejo",
-      "phonetic_api": "/daneːd͡ʒo/",
-      "phonetic_simple": "DAN-EE-JO",
-      "translation": "blanc (couleur, classe humaine/générale)",
-      "example_sentence": "Omo jogii doloke dan_eejo.",
-      "example_phonetic": "/omo d͡ʒoɡiː doloke daneːd͡ʒo/",
-      "example_translation": "Il a un boubou blanc."
+      "word_id": "v7",
+      "term": "paðal / paðe",
+      "phonetic_api": "/paɗal/, /paɗe/",
+      "phonetic_simple": "PA-DAL / PA-DÉ",
+      "translation": "chaussure / chaussures",
+      "example_sentence": "Paðe an ko åaleeje.",
+      "example_phonetic": "/paɗe an ko ɓaleːdʒe/",
+      "example_translation": "Mes chaussures sont noires."
     },
     {
-      "word_id": "v9_3",
-      "term": "ɓaleejo",
-      "phonetic_api": "/ɓaleːd͡ʒo/",
-      "phonetic_simple": "BHA-LEE-JO",
-      "translation": "noir (couleur)",
-      "example_sentence": "Mbabba makko ko ɓaleejo.",
-      "example_phonetic": "/mbabːa makːo ko ɓaleːd͡ʒo/",
-      "example_translation": "Son âne est noir."
-    },
-    {
-      "word_id": "v9_4",
-      "term": "woodeejo",
-      "phonetic_api": "/woːdeːd͡ʒo/",
-      "phonetic_simple": "WOO-DEE-JO",
-      "translation": "rouge (couleur)",
-      "example_sentence": "Omo yidi saaya woodeejo.",
-      "example_phonetic": "/omo jidi saːja woːdeːd͡ʒo/",
-      "example_translation": "Elle veut une robe rouge."
-    },
-    {
-      "word_id": "v9_5",
-      "term": "saaya",
-      "phonetic_api": "/saːja/",
-      "phonetic_simple": "SAA-YA",
-      "translation": "robe, pagne, jupe",
-      "example_sentence": "Saaya makko no laabi.",
-      "example_phonetic": "/saːja makːo no laːbi/",
-      "example_translation": "Sa robe est propre."
-    },
-    {
-      "word_id": "v9_6",
-      "term": "paddorgol",
-      "phonetic_api": "/padːorɡol/",
-      "phonetic_simple": "PAD-DOR-GOL",
-      "translation": "ceinture",
-      "example_sentence": "Paddorgol ngol no tiiɗi.",
-      "example_phonetic": "/padːorɡol nɡol no tiːɗi/",
-      "example_translation": "La ceinture est solide."
-    },
-    {
-      "word_id": "v9_7",
-      "term": "fado",
-      "phonetic_api": "/ɸado/",
-      "phonetic_simple": "FA-DO",
-      "translation": "chaussure (pad_e au pluriel)",
-      "example_sentence": "Fado am no teewi.",
-      "example_phonetic": "/ɸado am no teːwi/",
-      "example_translation": "Ma chaussure est déchirée."
-    },
-    {
-      "word_id": "v9_8",
-      "term": "wunngo",
-      "phonetic_api": "/wunːɡo/",
-      "phonetic_simple": "WOUN-GO",
-      "translation": "chapeau, bonnet traditionnel",
-      "example_sentence": "Baaba am no jogii wunngo Fouta.",
-      "example_phonetic": "/baːba am no d͡ʒoɡiː wunːɡo ɸuːta/",
-      "example_translation": "Mon père a un chapeau du Fouta."
-    },
-    {
-      "word_id": "v9_9",
-      "term": "hollugol",
-      "phonetic_api": "/holːuɡol/",
-      "phonetic_simple": "HOL-LOU-GOL",
-      "translation": "montrer, exhiber",
-      "example_sentence": "Hollu mi doloke maa.",
-      "example_phonetic": "/holːu mi doloke maː/",
-      "example_translation": "Montre-moi ton boubou."
-    },
-    {
-      "word_id": "v9_10",
-      "term": "limce",
-      "phonetic_api": "/limt͡ʃe/",
-      "phonetic_simple": "LIM-TCHE",
-      "translation": "les habits, les vêtements (pluriel général)",
-      "example_sentence": "Limce makko no moƴƴi.",
-      "example_phonetic": "/limt͡ʃe makːo no moʔɟːi/",
-      "example_translation": "Ses habits sont de bonne qualité."
+      "word_id": "v8",
+      "term": "sallabi",
+      "phonetic_api": "/salabi/",
+      "phonetic_simple": "SAL-LA-BI",
+      "translation": "foulard, voile",
+      "example_sentence": "Sallabi daneejo no muusa.",
+      "example_phonetic": "/salabi daneːdʒo no muːsa/",
+      "example_translation": "Le foulard blanc est joli."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p9_1",
-      "original": "Mido yidi lootude limce am.",
-      "phonetic_api": "/mido jidi loːtude limt͡ʃe am/",
-      "phonetic_simple": "MI-DO YI-DI LOO-TOU-DE LIM-TCHE AM",
-      "translation": "Je veux laver mes vêtements.",
-      "context": "Indiquer une tâche ménagère quotidienne."
+      "phrase_id": "p1",
+      "original": "Ko honðun noorewol nii?",
+      "phonetic_api": "/ko honɗun noːrewol niː/",
+      "phonetic_simple": "KO HON-DOUNE NOO-RÉ-OUOL NI-I",
+      "translation": "Quelle est cette couleur ?",
+      "context": "Pour demander le nom d'une couleur."
     },
     {
-      "phrase_id": "p9_2",
-      "original": "Honto fado am ɓaleejo woni ?",
-      "phonetic_api": "/honto ɸado am ɓaleːd͡ʒo woni/",
-      "phonetic_simple": "HON-TO FA-DO AM BHA-LEE-JO WO-NI ?",
-      "translation": "Où est ma chaussure noire ?",
-      "context": "Chercher un accessoire avant de sortir de la maison."
+      "phrase_id": "p2",
+      "original": "Miðo yiði dolokke boðeejo.",
+      "phonetic_api": "/miɗo jiɗi doloke boɗeːdʒo/",
+      "phonetic_simple": "MI-DO YI-DI DO-LOK-KÉ BO-DÉÉ-DJO",
+      "translation": "J'aime le boubou rouge.",
+      "context": "Pour exprimer une préférence vestimentaire."
     },
     {
-      "phrase_id": "p9_3",
-      "original": "Doloke dan_eejo ngon no laabi sanne.",
-      "phonetic_api": "/doloke daneːd͡ʒo nɡon no laːbi sanːe/",
-      "phonetic_simple": "DO-LO-KE DAN-EE-JO NGON NO LAA-BI SAN-NE",
-      "translation": "Le boubou blanc est très propre.",
-      "context": "Valider la propreté d'une tenue d'apparat."
-    },
-    {
-      "phrase_id": "p9_4",
-      "original": "Ko jelu saaya woodeejo o woni ?",
-      "phonetic_api": "/ko d͡ʒelu saːja woːdeːd͡ʒo o woni/",
-      "phonetic_simple": "KO DJE-LOU SAA-YA WOO-DEE-JO O WO-NI ?",
-      "translation": "Combien coûte cette jupe/robe rouge ?",
-      "context": "Marchander un vêtement chez un tailleur ou au marché."
-    },
-    {
-      "phrase_id": "p9_5",
-      "original": "Baaba am no ɓorni wunngo Fouta.",
-      "phonetic_api": "/baːba am no ɓorni wunːɡo ɸuːta/",
-      "phonetic_simple": "BAA-BA AM NO BHOR-NI WOUN-GO FOU-TA",
-      "translation": "Mon père a mis (porte) son chapeau du Fouta.",
-      "context": "Décrire la tenue traditionnelle d'un ancien."
-    },
-    {
-      "phrase_id": "p9_6",
-      "original": "Limce makko fow ko ɓaleeje.",
-      "phonetic_api": "/limt͡ʃe makːo fow ko ɓaleːd͡ʒe/",
-      "phonetic_simple": "LIM-TCHE MAK-KO FOW KO BHA-LEE-JE",
-      "translation": "Tous ses vêtements sont noirs.",
-      "context": "Remarquer le style vestimentaire de quelqu'un."
-    },
-    {
-      "phrase_id": "p9_7",
-      "original": "Hollu mi pad_e maa nayee ɗen.",
-      "phonetic_api": "/holːu mi pad_e maː najeː ɗen/",
-      "phonetic_simple": "HOL-LOU MI PA-DE MAA NAY-EE DHEN",
-      "translation": "Montre-moi tes quatre chaussures.",
-      "context": "Discuter d'une collection ou d'un achat de chaussures."
-    },
-    {
-      "phrase_id": "p9_8",
-      "original": "Mido ɓoora doloke am hande.",
-      "phonetic_api": "/mido ɓoːra doloke am hande/",
-      "phonetic_simple": "MI-DO BHOO-RA DO-LO-KE AM HAN-DE",
-      "translation": "J'enlève mon boubou aujourd'hui.",
-      "context": "Se changer après une journée de travail."
+      "phrase_id": "p3",
+      "original": "Ko dolokke daneejo mi yiði.",
+      "phonetic_api": "/ko doloke daneːdʒo mi jiɗi/",
+      "phonetic_simple": "KO DO-LOK-KÉ DA-NÉÉ-DJO MI YI-DI",
+      "translation": "C'est le boubou blanc que je préfère.",
+      "context": "Pour préciser un choix en utilisant la particule 'ko'."
     }
   ],
   "grammar_points": [
     {
-      "concept": "Les verbes de revêtement vestimentaire",
-      "explanation": "En pular, porter un vêtement se décline en deux actions : l'action d'enfiler l'habit ('ɓornugol') et l'action de l'ôter ('ɓoorugol'). L'état statique ('il porte') utilise la forme accomplie.",
+      "concept": "L'accord des adjectifs de couleur en classe nominale",
+      "explanation": "Comme beaucoup d'adjectifs en pular, les couleurs varient de forme selon la classe nominale du nom qu'elles qualifient (personnes/animés en -eejo au singulier, -eeåe au pluriel personnes ; -eejo/-eeje pour objets selon la classe).",
       "rules": [
-        "Omo ɓorni = il a enfilé (donc il porte actuellement).",
-        "Mido ɓoora = je suis en train d'enlever."
+        "daneejo (blanc, singulier) → daneeåe (blanc, pluriel personnes) / daneeje (blanc, pluriel objets, classe -de/-e)",
+        "L'adjectif suit généralement le nom qu'il qualifie"
       ],
       "examples": [
         {
-          "structure": "Sujet + ɓorni + Vêtement",
-          "phonetic_api": "/omo ɓorni wunːɡo/",
-          "meaning": "Il porte un chapeau"
-        }
-      ]
-    },
-    {
-      "concept": "L'accord morphologique des adjectifs de couleur",
-      "explanation": "Les trois couleurs primaires traditionnelles (blanc: dan-, noir: ɓal-, rouge: wood-) sont des radicaux adjectivaux qui prennent obligatoirement le suffixe de la classe nominale de l'objet qualifié.",
-      "rules": [
-        "Classe humaine (O) : dan_eejo.",
-        "Classe des objets pluriels (ƊEN) : dan_eeje / ɓaleeje."
-      ],
-      "examples": [
+          "structure": "dolokke daneejo",
+          "phonetic_api": "/doloke daneːdʒo/",
+          "meaning": "un boubou blanc (singulier)"
+        },
         {
-          "structure": "limce (pluriel) + ɓaleeje",
-          "phonetic_api": "/limt͡ʃe ɓaleːd͡ʒe/",
-          "meaning": "Des vêtements noirs"
+          "structure": "paðe åaleeje",
+          "phonetic_api": "/paɗe ɓaleːdʒe/",
+          "meaning": "des chaussures noires (pluriel)"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Asmaou (Acheteuse)",
-      "text": "Saliou, hollu mi saaya woodeejo ngon. Mido yidi larde mo.",
-      "phonetic_api": "/saliu holːu mi saːja woːdeːd͡ʒo nɡon mido jidi larde mo/",
-      "phonetic_simple": "SA-LIOU, HOL-LOU MI SAA-YA WOO-DEE-JO NGON. MI-DO YI-DI LAR-DE MO.",
-      "translation": "Saliou, montre-moi cette robe rouge. Je veux la regarder."
+      "speaker": "Aissatou",
+      "text": "Ko honðun noorewol nii, dolokke maa?",
+      "phonetic_api": "/ko honɗun noːrewol niː doloke maː/",
+      "phonetic_simple": "KO HON-DOUNE NOO-RÉ-OUOL NI-I, DO-LOK-KÉ MAA",
+      "translation": "Quelle est la couleur de ton boubou ?"
     },
     {
-      "speaker": "Saliou (Marchand)",
-      "text": "Ngal ko saaya maa. No moƴƴi sanne ! Mido jogii kadi doloke dan_eejo.",
-      "phonetic_api": "/nɡal ko saːja maː no moʔɟːi sanːe mido d͡ʒoɡiː doloke daneːd͡ʒo/",
-      "phonetic_simple": "NGAL KO SAA-YA MAA. NO MOY-YO SAN-NE ! MI-DO DJO-GII DO-LO-KE DAN-EE-JO.",
-      "translation": "Voici ta robe. Elle est de très bonne qualité ! J'ai aussi un boubou blanc."
+      "speaker": "Ibrahima",
+      "text": "Ko boðeejo. Miðo yiði boðeejo buy.",
+      "phonetic_api": "/ko boɗeːdʒo miɗo jiɗi boɗeːdʒo buj/",
+      "phonetic_simple": "KO BO-DÉÉ-DJO. MI-DO YI-DI BO-DÉÉ-DJO BOUY",
+      "translation": "Il est rouge. J'aime beaucoup le rouge."
     },
     {
-      "speaker": "Asmaou (Acheteuse)",
-      "text": "Alaa, mido yidi saaya ngon tun. Koni hiba e joggol fado ɓaleejo ?",
-      "phonetic_api": "/alaː mido jidi saːja nɡon tun koni hiba e d͡ʒoɡːol ɸado ɓaleːd͡ʒo/",
-      "phonetic_simple": "A-LAA, MI-DO YI-DI SAA-YA NGON TOUN. KO-NI HI-BA E DJOG-GOL FA-DO BHA-LEE-JO ?",
-      "translation": "Non, je veux la robe seulement. Est-ce que tu as une chaussure noire ?"
-    },
-    {
-      "speaker": "Saliou (Marchand)",
-      "text": "Eyyo, fado ɓaleejo o no ɗoo. Ko sappo e nayee fow !",
-      "phonetic_api": "/ejːo ɸado ɓaleːd͡ʒo o no ɗoː ko sapːo e najeː ɸow/",
-      "phonetic_simple": "EY-YO, FA-DO BHA-LEE-JO O NO DHOO. KO SAP-PO E NAY-EE FOW !",
-      "translation": "Oui, la chaussure noire est ici. Le tout fait quatorze (en unité monétaire) !"
+      "speaker": "Aissatou",
+      "text": "An le, ko dolokke daneejo mi yiði.",
+      "phonetic_api": "/an le ko doloke daneːdʒo mi jiɗi/",
+      "phonetic_simple": "AN LÉ, KO DO-LOK-KÉ DA-NÉÉ-DJO MI YI-DI",
+      "translation": "Moi, c'est le boubou blanc que je préfère."
     }
   ],
   "cultural_notes": [
-    "Le couvre-chef traditionnel peul, le 'Poutorou' ou 'wunngo Fouta' (bonnet brodé de motifs géométriques colorés), est un symbole de dignité, de sagesse et de statut social pour les hommes. Les vêtements amples et de couleur blanche sont privilégiés pour les jours de fête religieuse (Tabaski, Korité) et la prière du vendredi."
+    "Les termes de couleurs de base du pular (daneejo/blanc, åaleejo/noir, boðeejo/rouge) couvrent traditionnellement un spectre plus large que leurs équivalents français : boðeejo peut désigner le rouge, le rose, l'orange ou le marron selon le contexte (source : Maneno Matamu, Pulaar: the colour spectrum).",
+    "Le mot pour 'bleu' est un emprunt récent (mbulu, de l'anglais/français 'blue'), les couleurs vives comme le bleu synthétique n'étant pas traditionnellement nommées par une racine peule ancienne.",
+    "Le boubou (dolokke) reste la tenue traditionnelle valorisée pour les grandes occasions religieuses et cérémonielles au Fouta-Djalon."
   ],
   "exercises": [
     {
-      "exercise_id": "ex9_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Que signifie l'expression 'doloke dan_eejo' ?",
+      "question": "Que signifie 'åaleejo' ?",
       "options": [
-        "Un boubou blanc",
-        "Une chaussure noire",
-        "Un chapeau rouge"
+        "Blanc",
+        "Noir",
+        "Jaune"
       ],
-      "correct_answer": "Un boubou blanc",
-      "explanation": "'Doloke' désigne la tunique/boubou et 'dan_eejo' est la couleur blanche accordée."
+      "correct_answer": "Noir",
+      "explanation": "åaleejo signifie noir ; daneejo signifie blanc."
     },
     {
-      "exercise_id": "ex9_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Baaba am no [ ___ ] wunngo Fouta (Mon père porte un chapeau du Fouta).",
-      "correct_answer": "ɓorni",
-      "hint": "Forme verbale accomplie du verbe signifiant enfiler / s'habiller."
+      "sentence_with_blank": "Dolokke [ ___ ] no muusa. (Le boubou rouge est joli.)",
+      "correct_answer": "boðeejo",
+      "hint": "C'est la couleur qui couvre aussi le rose, l'orange et le marron."
+    },
+    {
+      "exercise_id": "ex3",
+      "type": "multiple_choice",
+      "question": "Comment dit-on 'chaussures' en pular ?",
+      "options": [
+        "Sallabi",
+        "Paðe",
+        "Dolokke"
+      ],
+      "correct_answer": "Paðe",
+      "explanation": "Paðe (forme plurielle de paðal) signifie chaussures."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Learner's Guide to Pular (Fuuta Jallon) — Peace Corps Guinée (Herb Caudill & Ousmane Besseko Diallo)",
+      "url": "https://ibamba.net/pular/manual.pdf"
+    },
+    {
+      "label": "Maneno Matamu — Pulaar: the colour spectrum",
+      "url": "https://manenomatamu.wordpress.com/2011/12/06/pulaar-the-colour-spectrum-english-translation/"
+    },
+    {
+      "label": "MasterAnyLanguage — Fula Language (Pulaar, Fulani) Clothing/Colors/Idioms",
+      "url": "https://www.masteranylanguage.com/c/r/en/Fula/IdiomsProverbs/1"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Le vocabulaire des vêtements (dolokke, paðal) est confirmé par le manuel Peace Corps ; les couleurs et certains vêtements additionnels (sallabi, toggoore) proviennent de sources secondaires en ligne (blogs spécialisés Pulaar/Fula) qui ne précisent pas toujours la variété exacte (Fouta-Djalon vs Pulaar du Sénégal), d'où une confiance modérée sur ces éléments précis."
 }

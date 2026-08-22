@@ -6,211 +6,250 @@
   "lesson_number": 9,
   "title": "Les couleurs et les vêtements",
   "learning_objectives": [
-    "Identifier et nommer les trois couleurs de base traditionnelles malinké",
-    "Décrire un vêtement ou un tissu courant sur un marché",
-    "Associer un qualificatif de couleur à un élément de garde-robe"
+    "Nommer les couleurs de base (blanc, noir, rouge)",
+    "Comprendre le système maninka des 3 couleurs fondamentales polysémiques",
+    "Nommer des vêtements courants (chemise, pantalon)",
+    "Décrire un vêtement par sa couleur"
   ],
   "phonetic_focus": {
-    "key_sounds": "La couleur 'fin' (noir) comporte une voyelle nasale claire. Le mot 'wulen' (rouge) demande d'élider doucement la transition semi-vocalique. Le mot 'gbe' (blanc) est la consonne co-articulée /ɡ͡be/ qu'il faut maintenant parfaitement maîtriser.",
-    "common_pitfalls": "Ne pas prononcer 'fin' comme le mot français 'fin'. C'est une voyelle fermée nasale africaine, proche de la coloration d'un 'n' expiré du fond du palais."
+    "key_sounds": [
+      "Le [ɡ͜b] vélaire-labial de 'gbèman' (blanc), à ne pas simplifier en [b]",
+      "La nasale finale de 'finman' (noir) et 'wulenman' (rouge)",
+      "Le suffixe adjectival '-man', marqueur de qualité affirmative"
+    ],
+    "common_pitfalls": [
+      "Croire que chaque nuance de couleur a un mot dédié : en maninka, trois racines fondamentales (clair/sombre/vif) couvrent un spectre large de nuances",
+      "Oublier le suffixe '-man' qui transforme la racine de couleur en adjectif qualificatif"
+    ]
   },
   "vocabulary": [
     {
-      "word_id": "v3_1",
-      "term": "Gbe",
-      "phonetic_api": "/ɡ͡be/",
-      "phonetic_simple": "GBÉ",
-      "translation": "Blanc / Lumineux / Clair",
-      "example_sentence": "Donki gbe",
-      "example_phonetic": "/doŋ.ki ɡ͡be/",
-      "example_translation": "Un vêtement blanc."
+      "word_id": "v1",
+      "term": "gbèman",
+      "phonetic_api": "[ɡ͜bɛman]",
+      "phonetic_simple": "gbè-man",
+      "translation": "blanc, clair",
+      "example_sentence": "Finman baa gbèman ?",
+      "example_phonetic": "[finman baː ɡ͜bɛman]",
+      "example_translation": "La noire ou la blanche ?"
     },
     {
-      "word_id": "v3_2",
-      "term": "Fin",
-      "phonetic_api": "/fĩ/",
-      "phonetic_simple": "FIN",
-      "translation": "Noir / Sombre",
-      "example_sentence": "Wulu fin",
-      "example_phonetic": "/wu.lu fĩ/",
-      "example_translation": "Un chien noir."
+      "word_id": "v2",
+      "term": "finman",
+      "phonetic_api": "[finman]",
+      "phonetic_simple": "fin-man",
+      "translation": "noir, sombre",
+      "example_sentence": "N nye gbèman ne jè.",
+      "example_phonetic": "[n ɲe ɡ͜bɛman ne dʒɛ]",
+      "example_translation": "C'est du blanc que je veux (opposé à finman)."
     },
     {
-      "word_id": "v3_3",
-      "term": "Wulen",
-      "phonetic_api": "/wu.lẽ/",
-      "phonetic_simple": "OU-LEN",
-      "translation": "Rouge / Chaud",
-      "example_sentence": "Muruba wulen",
-      "example_phonetic": "/mu.ru.ba wu.lẽ/",
-      "example_translation": "Un couteau rouge."
+      "word_id": "v3",
+      "term": "wulenman",
+      "phonetic_api": "[wulɛnman]",
+      "phonetic_simple": "wou-lèn-man",
+      "translation": "rouge, vif",
+      "example_sentence": "Duruki wulenman diman.",
+      "example_phonetic": "[duruki wulɛnman diman]",
+      "example_translation": "La chemise rouge est belle."
     },
     {
-      "word_id": "v3_4",
-      "term": "Donki",
-      "phonetic_api": "/doŋ.ki/",
-      "phonetic_simple": "DON-KI",
-      "translation": "Le vêtement / La boubou / La chemise",
-      "example_sentence": "N bɛ n ka donki san la",
-      "example_phonetic": "/n̩ bɛ n̩ ka doŋ.ki sã la/",
-      "example_translation": "J'achète mon vêtement."
+      "word_id": "v4",
+      "term": "baalama",
+      "phonetic_api": "[baːlama]",
+      "phonetic_simple": "ba-a-la-ma",
+      "translation": "bleu",
+      "example_sentence": "Kulusi baalama.",
+      "example_phonetic": "[kulusi baːlama]",
+      "example_translation": "Le pantalon bleu."
     },
     {
-      "word_id": "v3_5",
-      "term": "Kurusi",
-      "phonetic_api": "/ku.ru.si/",
-      "phonetic_simple": "KOU-ROU-SI",
-      "translation": "Le pantalon",
-      "example_sentence": "Kurusi fin bɛ n na",
-      "example_phonetic": "/ku.ru.si fĩ bɛ n̩ na/",
-      "example_translation": "Je porte un pantalon noir."
+      "word_id": "v5",
+      "term": "gbèrèlama",
+      "phonetic_api": "[ɡ͜bɛrɛlama]",
+      "phonetic_simple": "gbè-rè-la-ma",
+      "translation": "marron",
+      "example_sentence": "Sabara gbèrèlama.",
+      "example_phonetic": "[sabara ɡ͜bɛrɛlama]",
+      "example_translation": "Les chaussures marron."
     },
     {
-      "word_id": "v3_6",
-      "term": "Fani",
-      "phonetic_api": "/fa.ni/",
-      "phonetic_simple": "FA-NI",
-      "translation": "Le pagne / Le tissu",
-      "example_sentence": "Fani wulen nin ka ɲi",
-      "example_phonetic": "/fa.ni wu.lẽ nĩ ka ɲi/",
-      "example_translation": "Ce pagne rouge est beau."
+      "word_id": "v6",
+      "term": "duruki",
+      "phonetic_api": "[duruki]",
+      "phonetic_simple": "dou-rou-ki",
+      "translation": "chemise",
+      "example_sentence": "Jeli ye duruki di ?",
+      "example_phonetic": "[dʒeli je duruki di]",
+      "example_translation": "Combien coûte la chemise ?"
     },
     {
-      "word_id": "v3_7",
-      "term": "Samara",
-      "phonetic_api": "/sa.ma.ra/",
-      "phonetic_simple": "SA-MA-RA",
-      "translation": "Les chaussures / Les sandales",
-      "example_sentence": "N samara lu bɛ so da",
-      "example_phonetic": "/n̩ sa.ma.ra lu bɛ so da/",
-      "example_translation": "Mes chaussures sont à la porte de la maison."
+      "word_id": "v7",
+      "term": "kulusi",
+      "phonetic_api": "[kulusi]",
+      "phonetic_simple": "kou-lou-si",
+      "translation": "pantalon",
+      "example_sentence": "Kulusi nin kenyin.",
+      "example_phonetic": "[kulusi nin kɛɲin]",
+      "example_translation": "Ce pantalon est beau."
     },
     {
-      "word_id": "v3_8",
-      "term": "San",
-      "phonetic_api": "/sã/",
-      "phonetic_simple": "SAN",
-      "translation": "Acheter",
-      "example_sentence": "N bɛ fani san fɛ",
-      "example_phonetic": "/n̩ bɛ fa.ni sã fɛ/",
-      "example_translation": "Je veux acheter un pagne."
-    },
-    {
-      "word_id": "v3_9",
-      "term": "Dila",
-      "phonetic_api": "/di.la/",
-      "phonetic_simple": "DI-LA",
-      "translation": "Fabriquer / Confectionner / Préparer",
-      "example_sentence": "Mirila bɛ donki dila la",
-      "example_phonetic": "/mi.ri.la bɛ doŋ.ki di.la la/",
-      "example_translation": "Le tailleur coud le vêtement."
-    },
-    {
-      "word_id": "v3_10",
-      "term": "Ɲi",
-      "phonetic_api": "/ɲi/",
-      "phonetic_simple": "NYI",
-      "translation": "Être beau / Bon / Agréable",
-      "example_sentence": "I ka donki ka ɲi",
-      "example_phonetic": "/i ka doŋ.ki ka ɲi/",
-      "example_translation": "Ton vêtement est beau."
+      "word_id": "v8",
+      "term": "sabara",
+      "phonetic_api": "[sabara]",
+      "phonetic_simple": "sa-ba-ra",
+      "translation": "chaussure",
+      "example_sentence": "Sabara nin diman.",
+      "example_phonetic": "[sabara nin diman]",
+      "example_translation": "Cette chaussure est belle/bonne."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p9_1",
-      "original": "I ka donki ka ɲi kpe !",
-      "phonetic_api": "/i ka doŋ.ki ka ɲi k͡pe/",
-      "phonetic_simple": "I KA DON-KI KA NYI KPÉ !",
-      "translation": "Ton vêtement est vraiment très beau !",
-      "context": "Compliment traditionnel de politesse sur la tenue de quelqu'un."
+      "phrase_id": "p1",
+      "original": "Finman baa gbèman ?",
+      "phonetic_api": "[finman baː ɡ͜bɛman]",
+      "phonetic_simple": "fin-man-ba-a-gbè-man",
+      "translation": "La noire ou la blanche ?",
+      "context": "Question du vendeur sur le choix de couleur"
     },
     {
-      "phrase_id": "p9_2",
-      "original": "N bɛ fani gbe fɛ.",
-      "phonetic_api": "/n̩ bɛ fa.ni ɡ͡be fɛ/",
-      "phonetic_simple": "N BƐ FA-NI GBÉ FƐ.",
-      "translation": "Je veux le pagne blanc.",
-      "context": "Indiquer sa préférence de couleur lors d'un achat chez le marchand."
+      "phrase_id": "p2",
+      "original": "N nye gbèman ne jè",
+      "phonetic_api": "[n ɲe ɡ͜bɛman ne dʒɛ]",
+      "phonetic_simple": "n-nyé-gbè-man-né-djè",
+      "translation": "C'est le blanc que je veux",
+      "context": "Exprimer une préférence de couleur"
     },
     {
-      "phrase_id": "p9_3",
-      "original": "Samara nin jeli bɛ ?",
-      "phonetic_api": "/sa.ma.ra nĩ d͡ʒe.li bɛ/",
-      "phonetic_simple": "SA-MA-RA NIN DJÉ-LI BƐ ?",
-      "translation": "Combien coûtent ces chaussures ?",
-      "context": "Négociation de chaussures au marché."
+      "phrase_id": "p3",
+      "original": "Jeli ye duruki di ?",
+      "phonetic_api": "[dʒeli je duruki di]",
+      "phonetic_simple": "dié-li-yé-dou-rou-ki-di",
+      "translation": "Combien coûte la chemise ?",
+      "context": "Demande de prix pour un vêtement"
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Barika, i la duruki jèlè",
+      "phonetic_api": "[barika i la duruki dʒɛlɛ]",
+      "phonetic_simple": "ba-ri-ka-i-la-dou-rou-ki-djè-lè",
+      "translation": "Merci, voici ta chemise",
+      "context": "Formule de remise de l'article acheté"
     }
   ],
   "grammar_points": [
     {
-      "concept": "La position de l'adjectif qualificatif de couleur",
-      "explanation": "En malinké, l'adjectif qualificatif, y compris les trois couleurs fondamentales, se place systématiquement immédiatement APRÈS le nom qu'il modifie, formant un bloc nominal soudé.",
+      "concept": "Le suffixe '-man' des couleurs",
+      "explanation": "Les racines de couleur en maninka (gbè=clair, fin=sombre, wulen=vif) deviennent des adjectifs qualificatifs grâce au suffixe '-man', qui exprime une qualité affirmée.",
       "rules": [
-        "Structure : Nom + Couleur.",
-        "Exemple : 'Fani' (pagne) + 'fin' (noir) = 'Fani fin' (pagne noir)."
+        "Racine de couleur + -man = adjectif de couleur",
+        "gbè + man = gbèman (blanc) ; fin + man = finman (noir) ; wulen + man = wulenman (rouge)"
       ],
       "examples": [
         {
-          "structure": "Kurusi wulen",
-          "phonetic_api": "/ku.ru.si wu.lẽ/",
-          "meaning": "Un pantalon rouge"
+          "structure": "[Racine] + man",
+          "phonetic_api": "[man]",
+          "meaning": "adjectif de couleur correspondant"
+        }
+      ]
+    },
+    {
+      "concept": "Le système des trois couleurs fondamentales",
+      "explanation": "Le maninka organise les couleurs autour de trois racines polysémiques qui couvrent un large spectre : gbɛ (clair : blanc, gris clair), fin (sombre : noir, bleu foncé, vert foncé), wulen (vif : rouge, orange, jaune).",
+      "rules": [
+        "Chaque racine peut fonctionner comme nom, verbe qualitatif ou adjectif selon le contexte",
+        "Des noms de couleur secondaires (baalama=bleu, gbèrèlama=marron) existent pour préciser certaines teintes"
+      ],
+      "examples": [
+        {
+          "structure": "wùlén / fìn / gbɛ́",
+          "phonetic_api": "[wulɛn] / [fin] / [ɡ͜bɛ]",
+          "meaning": "vif-rouge / sombre-noir / clair-blanc : les trois racines fondamentales"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "L'Acheteuse",
-      "text": "I ni tile, n cɛ. Fani nin jeli bɛ ?",
-      "phonetic_api": "/i ni ti.le n̩ t͡ʃɛ fa.ni nĩ d͡ʒe.li bɛ/",
-      "phonetic_simple": "I NI TI-LÉ, N TCHƐ. FA-NI NIN DJÉ-LI BƐ ?",
-      "translation": "Bonjour mon cher. Combien coûte ce pagne ?"
+      "speaker": "Vendeur",
+      "text": "Finman baa gbèman ?",
+      "phonetic_api": "[finman baː ɡ͜bɛman]",
+      "phonetic_simple": "fin-man-ba-a-gbè-man",
+      "translation": "La noire ou la blanche ?"
     },
     {
-      "speaker": "Le Marchand",
-      "text": "Nba, i ni tile. Fani juman ? Fani fin ko fani wulen ?",
-      "phonetic_api": "/n̩.ba i ni ti.le fa.ni d͡ʒu.man fa.ni fĩ ko fa.ni wu.lẽ/",
-      "phonetic_simple": "N-BA, I NI TI-LÉ. FA-NI DJOU-MAN ? FA-NI FIN KO FA-NI OU-LEN ?",
-      "translation": "Bonjour. Quel pagne ? Le pagne noir ou bien le pagne rouge ?"
+      "speaker": "Cliente",
+      "text": "N nye gbèman ne jè.",
+      "phonetic_api": "[n ɲe ɡ͜bɛman ne dʒɛ]",
+      "phonetic_simple": "n-nyé-gbè-man-né-djè",
+      "translation": "C'est le blanc que je veux."
     },
     {
-      "speaker": "L'Acheteuse",
-      "text": "N bɛ fani wulen fɛ. A ka ɲi kpe, n bɛ a san fɛ bi.",
-      "phonetic_api": "/n̩ bɛ fa.ni wu.lẽ fɛ a ka ɲi k͡pe n̩ bɛ a sã fɛ bi/",
-      "phonetic_simple": "N BƐ FA-NI OU-LEN FƐ. A KA NYI KPÉ, N BƐ A SAN FƐ BI.",
-      "translation": "Je préfère le pagne rouge. Il est très beau, je veux l'acheter aujourd'hui."
+      "speaker": "Vendeur",
+      "text": "Jeli ye duruki di ?",
+      "phonetic_api": "[dʒeli je duruki di]",
+      "phonetic_simple": "dié-li-yé-dou-rou-ki-di",
+      "translation": "Combien coûte la chemise ?"
     },
     {
-      "speaker": "Le Marchand",
-      "text": "A bɛnna. Fani wulen nin na tan dɔrɔn ra !",
-      "phonetic_api": "/a bɛn.na fa.ni wu.lẽ nĩ na tã dɔ.rɔn ra/",
-      "phonetic_simple": "A BƐN-NA. FA-NI OU-LEN NIN NA TAN DƆ-RƆN RA !",
-      "translation": "C'est parfait. Ce pagne rouge vaut dix unités seulement !"
+      "speaker": "Cliente",
+      "text": "Wa kelen ni cèmè lolu.",
+      "phonetic_api": "[wa kelen ni tʃɛmɛ lolu]",
+      "phonetic_simple": "wa-ké-lèn-ni-tchè-mè-lo-lou",
+      "translation": "1 500."
+    },
+    {
+      "speaker": "Vendeur",
+      "text": "Barika, i la duruki jèlè.",
+      "phonetic_api": "[barika i la duruki dʒɛlɛ]",
+      "phonetic_simple": "ba-ri-ka-i-la-dou-rou-ki-djè-lè",
+      "translation": "Merci, voici ta chemise."
     }
   ],
   "cultural_notes": [
-    "Dans l'univers chromatique traditionnel africain et mandingue, la perception se structure historiquement autour de trois couleurs symboliques majeures : 'Gbe' (la clarté, la pureté, le blanc), 'Fin' (le sombre, le mystère, le noir) et 'Wulen' (l'énergie, la chaleur, le sang, le rouge). Les autres nuances modernes sont souvent nommées par analogie avec des éléments de la nature (ex: la couleur de la feuille pour le vert)."
+    "Le maninka ne découpe pas le spectre des couleurs comme le français : trois racines fondamentales (wùlén, fìn, gbɛ́) couvrent des nuances que le français distingue en plusieurs mots (rouge/orange/jaune sous 'wùlén'), ce qui reflète une vision culturelle différente des couleurs ([Diané, Mandenkan 48](https://www.llacan.cnrs.fr/PDF/Mandenkan48/48Diane.pdf)).",
+    "Le blanc et le noir (gbèman/finman) ont souvent une valeur symbolique forte dans le choix des tissus traditionnels (boubous, foulards) portés lors de cérémonies."
   ],
   "exercises": [
     {
-      "exercise_id": "A1_M3_L9_ex1",
-      "type": "multiple_choice",
-      "question": "Que signifie l'expression 'Donki gbe' ?",
-      "options": [
-        "Un pantalon rouge",
-        "Un boubou blanc",
-        "Des chaussures noires"
-      ],
-      "correct_answer": "Un boubou blanc",
-      "explanation": "'Donki' est le terme pour vêtement/boubou et 'gbe' signifie blanc."
+      "exercise_id": "e1",
+      "type": "traduction",
+      "question": "Traduisez : 'la chemise rouge'",
+      "correct_answer": "Duruki wulenman",
+      "explanation": "'wulenman' est l'adjectif de couleur formé sur la racine 'wulen' (vif/rouge)."
     },
     {
-      "exercise_id": "A1_M3_L9_ex2",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Kurusi [ ___ ] (Un pantalon noir).",
-      "correct_answer": "fin",
-      "hint": "Mot signifiant sombre ou noir, se terminant par une nasale."
+      "exercise_id": "e2",
+      "type": "choix_multiple",
+      "question": "Quel suffixe transforme une racine de couleur en adjectif ?",
+      "options": [
+        "-la",
+        "-man",
+        "-ni",
+        "-ba"
+      ],
+      "correct_answer": "-man",
+      "explanation": "Le suffixe '-man' marque la qualité affirmative, y compris pour les couleurs."
+    },
+    {
+      "exercise_id": "e3",
+      "type": "texte_a_trous",
+      "sentence_with_blank": "N nye ___ ne jè.  (C'est le blanc que je veux.)",
+      "correct_answer": "gbèman",
+      "hint": "C'est l'adjectif de couleur signifiant 'blanc/clair'."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Malinkuia — Introduction à la langue malinké (grammaire complète, variété du Wulada, Haute-Guinée)",
+      "url": "https://fr.scribd.com/document/499114939/Malinkuia"
+    },
+    {
+      "label": "Diané, « Les couleurs en maninka », Mandenkan 48 (LLACAN/CNRS)",
+      "url": "https://www.llacan.cnrs.fr/PDF/Mandenkan48/48Diane.pdf"
+    }
+  ],
+  "confidence": "élevée",
+  "confidence_note": "Le système des trois couleurs fondamentales (wùlén/fìn/gbɛ́) provient d'une étude académique dédiée au maninka (Diané, Mandenkan 48), et le vocabulaire de vêtements/couleurs pratiques provient de la grammaire Malinkuia. Les formes secondaires (baalama, gbèrèlama) sont issues de Malinkuia uniquement et n'ont pas été recoupées par la source académique, d'où une prudence sur leur usage exact."
 }

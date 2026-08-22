@@ -4,273 +4,265 @@
   "module_number": 1,
   "module_title": "Les bases de la communication",
   "lesson_number": 1,
-  "title": "Les salutations et les formules de politesse",
+  "title": "Les salutations et les formules de politesse (bonjour, merci, au revoir)",
   "learning_objectives": [
-    "Savoir saluer de manière appropriée selon chaque moment de la journée (matin, après-midi, soir)",
-    "Maîtriser les réponses rituelles obligatoires basées sur le concept de paix (jam)",
-    "Exprimer la gratitude, le remerciement et prendre congé poliment dans un cadre formel ou familier"
+    "Saluer une personne selon son âge et son statut (registre familier vs respectueux)",
+    "Utiliser les formules de politesse de base (merci, excusez-moi, s'il vous plaît)",
+    "Prendre congé poliment en pular"
   ],
   "phonetic_focus": {
-    "key_sounds": "La consonne 'j' se prononce systématiquement /d͡ʒ/, comme le 'j' en anglais (ex: jam). La lettre 'ñ' représente la nasale palatale /ɲ/, identique au 'gn' français dans 'gagner'. Les voyelles doublées (aa, ee, ii, oo, uu) indiquent une longueur vocalique phonologiquement pertinente qui doit durer deux fois plus longtemps qu'une voyelle simple.",
-    "common_pitfalls": "Éviter absolument de prononcer le 'j' à la française (/ʒ/). Ne pas abréger les voyelles longues : prononcer 'jaam' (paix) avec une voyelle courte peut en modifier le sens ou rendre le mot incompréhensible. Veiller à ne pas omettre l'aspiration du 'h' qui est toujours expiré en pular."
+    "key_sounds": "Le pular possède trois consonnes implosives propres à la langue : å (b implosif), ð (d implosif) et ý (y/j implosif, parfois noté ƴ). On trouve aussi le ø vélaire (comme 'ng' dans 'sing') et le ñ palatal (comme le 'gn' français). Les voyelles doublées (aa, ee, ii, oo, uu) indiquent une durée longue, et les consonnes doublées (bb, cc, tt...) indiquent une consonne renforcée.",
+    "common_pitfalls": "Les francophones ont tendance à prononcer å, ð et ý comme de simples b, d, y, sans le mouvement implosif (le larynx qui descend). Ils confondent aussi souvent les voyelles courtes et longues (jam vs jaam), ce qui peut changer le sens d'un mot."
   },
   "vocabulary": [
     {
-      "word_id": "v1_1",
-      "term": "jam",
-      "phonetic_api": "/d͡ʒam/",
-      "phonetic_simple": "DJAM",
-      "translation": "paix, santé, bien-être",
-      "example_sentence": "Aalii e jam ?",
-      "example_phonetic": "/aːliː e d͡ʒam/",
-      "example_translation": "As-tu passé la nuit en paix ?"
-    },
-    {
-      "word_id": "v1_2",
-      "term": "tan",
-      "phonetic_api": "/tan/",
-      "phonetic_simple": "TAN",
-      "translation": "seulement, uniquement",
-      "example_sentence": "Jam tan, alhamdulillaahi.",
-      "example_phonetic": "/d͡ʒam tan alhamdulilːaːhi/",
-      "example_translation": "La paix seulement, Dieu soit loué."
-    },
-    {
-      "word_id": "v1_3",
+      "word_id": "v1",
       "term": "jaraama",
-      "phonetic_api": "/d͡ʒaraːma/",
+      "phonetic_api": "/dʒaˈraːma/",
       "phonetic_simple": "DJA-RAA-MA",
-      "translation": "merci (à une personne)",
-      "example_sentence": "Jaraama, ko a gorko moƴƴo.",
-      "example_phonetic": "/d͡ʒaraːma ko a ɡorko moʔɟːo/",
-      "example_translation": "Merci, tu es un homme bon."
+      "translation": "salut / bonjour (littéralement « je te salue »)",
+      "example_sentence": "A jaraama.",
+      "example_phonetic": "/a dʒaˈraːma/",
+      "example_translation": "Bonjour (à toi, forme familière)."
     },
     {
-      "word_id": "v1_4",
+      "word_id": "v2",
       "term": "on jaraama",
-      "phonetic_api": "/on d͡ʒaraːma/",
+      "phonetic_api": "/on dʒaˈraːma/",
       "phonetic_simple": "ON DJA-RAA-MA",
-      "translation": "merci (pluriel ou marque de respect)",
-      "example_sentence": "On jaraama e wallitande nden.",
-      "example_phonetic": "/on d͡ʒaraːma e walːitande nden/",
-      "example_translation": "Merci pour l'aide."
+      "translation": "bonjour (forme respectueuse ou au pluriel)",
+      "example_sentence": "On jaraama, mawåe.",
+      "example_phonetic": "/on dʒaˈraːma ˈmawɓe/",
+      "example_translation": "Bonjour (avec respect), grand(s)-parent(s)/personne âgée."
     },
     {
-      "word_id": "v1_5",
-      "term": "mbolee",
-      "phonetic_api": "/mboleː/",
-      "phonetic_simple": "MBO-LEE",
-      "translation": "salut (très familier, entre jeunes)",
-      "example_sentence": "Mbolee, ko honno wa'i ?",
-      "example_phonetic": "/mboleː ko honːo waʔi/",
-      "example_translation": "Salut, comment ça va ?"
+      "word_id": "v3",
+      "term": "jam tun",
+      "phonetic_api": "/dʒam tun/",
+      "phonetic_simple": "DJAM TOUNE",
+      "translation": "paix seulement (réponse standard à « comment ça va »)",
+      "example_sentence": "No wa'i? Jam tun.",
+      "example_phonetic": "/no waʔi? dʒam tun/",
+      "example_translation": "Comment ça va ? Ça va bien (litt. la paix seulement)."
     },
     {
-      "word_id": "v1_6",
-      "term": "ko honno",
-      "phonetic_api": "/ko honːo/",
-      "phonetic_simple": "KO HON-NO",
-      "translation": "comment",
-      "example_sentence": "Ko honno saare nden wa'i ?",
-      "example_phonetic": "/ko honːo saːre nden waʔi/",
-      "example_translation": "Comment va la famille ?"
+      "word_id": "v4",
+      "term": "albarka / barka'alla",
+      "phonetic_api": "/albarka/, /barkaʔalla/",
+      "phonetic_simple": "AL-BAR-KA / BAR-KA-AL-LA",
+      "translation": "merci / de rien (bénédiction de Dieu)",
+      "example_sentence": "Albarka!",
+      "example_phonetic": "/albarka/",
+      "example_translation": "Merci ! (litt. bénédiction)"
     },
     {
-      "word_id": "v1_7",
-      "term": "cellal",
-      "phonetic_api": "/t͡ʃelːal/",
-      "phonetic_simple": "TCHEL-LAL",
-      "translation": "la santé",
-      "example_sentence": "Cellal no ɗon ?",
-      "example_phonetic": "/t͡ʃelːal no ɗon/",
-      "example_translation": "La santé est-elle là ?"
-    },
-    {
-      "word_id": "v1_8",
+      "word_id": "v5",
       "term": "en jango",
-      "phonetic_api": "/en d͡ʒanɡo/",
+      "phonetic_api": "/en dʒaŋgo/",
       "phonetic_simple": "EN DJAN-GO",
       "translation": "à demain",
-      "example_sentence": "A jallataa e jam ? En jango.",
-      "example_phonetic": "/a d͡ʒalːataː e d͡ʒam en d͡ʒanɡo/",
-      "example_translation": "Passe une bonne journée. À demain."
+      "example_sentence": "Awa, en jango.",
+      "example_phonetic": "/awa en dʒaŋgo/",
+      "example_translation": "Bon, à demain."
     },
     {
-      "word_id": "v1_9",
-      "term": "accu jam",
-      "phonetic_api": "/at͡t͡ʃu d͡ʒam/",
-      "phonetic_simple": "AT-TCHOU DJAM",
-      "translation": "au revoir (litt. laisse la paix)",
-      "example_sentence": "Accu jam, mi yahi.",
-      "example_phonetic": "/at͡t͡ʃu d͡ʒam mi jahi/",
-      "example_translation": "Au revoir, je m'en vais."
+      "word_id": "v6",
+      "term": "accee hakkee",
+      "phonetic_api": "/atʃːe hakːe/",
+      "phonetic_simple": "AT-TCHÉ-É HAK-KÉ-É",
+      "translation": "excusez-moi / pardon",
+      "example_sentence": "Accee hakkee, mi majjii.",
+      "example_phonetic": "/atʃːe hakːe mi madʒːiː/",
+      "example_translation": "Excusez-moi, je me suis perdu."
     },
     {
-      "word_id": "v1_10",
-      "term": "booto",
-      "phonetic_api": "/boːto/",
-      "phonetic_simple": "BOO-TO",
-      "translation": "bénédiction, bonne continuation",
-      "example_sentence": "Yo en jallu e booto.",
-      "example_phonetic": "/jo en d͡ʒalːu e boːto/",
-      "example_translation": "Que nous passions la journée avec bénédiction."
+      "word_id": "v7",
+      "term": "awa",
+      "phonetic_api": "/awa/",
+      "phonetic_simple": "A-OUA",
+      "translation": "bon, d'accord, alors (particule de transition)",
+      "example_sentence": "Awa, on jaraama.",
+      "example_phonetic": "/awa on dʒaˈraːma/",
+      "example_translation": "Bon, au revoir / bonjour."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p1_1",
-      "original": "Jam weeti ?",
-      "phonetic_api": "/d͡ʒam weːti/",
-      "phonetic_simple": "DJAM WEE-TI ?",
-      "translation": "Bonjour ? (Le matin, litt. 'La paix s'est-elle levée ?')",
-      "context": "Matin / Cadre formel et familier. Première salutation de la journée."
-    },
-    {
-      "phrase_id": "p1_2",
-      "original": "Jam ñalli ?",
-      "phonetic_api": "/d͡ʒam ɲalːi/",
-      "phonetic_simple": "DJAM NYAL-LI ?",
-      "translation": "Bon après-midi ? (Litt. 'La paix a-t-elle passé la journée ?')",
-      "context": "Du milieu de la matinée jusqu'au milieu de l'après-midi."
-    },
-    {
-      "phrase_id": "p1_3",
-      "original": "Jam hiiri ?",
-      "phonetic_api": "/d͡ʒam hiːri/",
-      "phonetic_simple": "DJAM HII-RI ?",
-      "translation": "Bonsoir ? (Litt. 'La paix a-t-elle passé la soirée ?')",
-      "context": "À partir du crépuscule et pendant la nuit."
-    },
-    {
-      "phrase_id": "p1_4",
-      "original": "On waalii e jam ?",
-      "phonetic_api": "/on waːliː e d͡ʒam/",
-      "phonetic_simple": "ON WAA-LII E DJAM ?",
-      "translation": "Avez-vous passé la nuit en paix ? (Forme de politesse / Pluriel)",
-      "context": "Salutation matinale respectueuse adressée à un aîné ou un groupe."
-    },
-    {
-      "phrase_id": "p1_5",
-      "original": "Tana alaa ?",
-      "phonetic_api": "/tana alaː/",
-      "phonetic_simple": "TA-NA A-LAA ?",
-      "translation": "Il n'y a pas de mal ?",
-      "context": "Formule incontournable imbriquée dans la série de salutations."
-    },
-    {
-      "phrase_id": "p1_6",
-      "original": "Tana alaa e maa ?",
-      "phonetic_api": "/tana alaː e maː/",
-      "phonetic_simple": "TA-NA A-LAA E MAA ?",
-      "translation": "Il n'y a pas de mal en toi ?",
-      "context": "Salutation singulière plus ciblée pour prendre des nouvelles."
-    },
-    {
-      "phrase_id": "p1_7",
-      "original": "Hiba e jam ?",
-      "phonetic_api": "/hiba e d͡ʒam/",
-      "phonetic_simple": "HI-BA E DJAM ?",
-      "translation": "Es-tu en paix ?",
-      "context": "Question de suivi pour s'assurer du bien-être de l'interlocuteur."
-    },
-    {
-      "phrase_id": "p1_8",
-      "original": "No wa'i ?",
+      "phrase_id": "p1",
+      "original": "No wa'i?",
       "phonetic_api": "/no waʔi/",
-      "phonetic_simple": "NO WA-I ?",
-      "translation": "Comment ça va ? / Quoi de neuf ?",
-      "context": "Cadre très informel, entre amis ou collègues proches."
+      "phonetic_simple": "NO OUA-I",
+      "translation": "Quoi de neuf ? / Comment ça va ?",
+      "context": "Salutation informelle très courante entre jeunes ou amis."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Tanaa alaa?",
+      "phonetic_api": "/tanaː alaː/",
+      "phonetic_simple": "TA-NAA A-LAA",
+      "translation": "Il n'y a pas de mal ? (formule de salutation)",
+      "context": "Se dit en arrivant chez quelqu'un ou en le rencontrant après une absence."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Åeyngure nden no e jam?",
+      "phonetic_api": "/ɓeyŋɡure nden no e dʒam/",
+      "phonetic_simple": "BÉYN-GOU-RÉ NDÈNE NO É DJAM",
+      "translation": "La famille va bien ?",
+      "context": "Question polie après les salutations initiales, très importante socialement."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "On åelike e jam?",
+      "phonetic_api": "/on ɓelike e dʒam/",
+      "phonetic_simple": "ON BÉ-LI-KÉ É DJAM",
+      "translation": "Avez-vous bien dormi ?",
+      "context": "Salutation du matin, forme respectueuse."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Pular an lannii!",
+      "phonetic_api": "/pular an lanːiː/",
+      "phonetic_simple": "POU-LAR AN LAN-NI-I",
+      "translation": "C'est tout le pular que je connais !",
+      "context": "Phrase utile pour un débutant qui plaisante sur son niveau."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "Miðo waawi Pular seeða tun.",
+      "phonetic_api": "/miɗo waːwi pular seːɗa tun/",
+      "phonetic_simple": "MI-DO OUAA-OUI POU-LAR SÉÉ-DA TOUNE",
+      "translation": "Je parle pular petit-petit (un tout petit peu).",
+      "context": "Expression humble utilisée par les apprenants."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "Si Alla jaåi.",
+      "phonetic_api": "/si alla dʒaɓi/",
+      "phonetic_simple": "SI AL-LA DJA-BI",
+      "translation": "Si Dieu le veut / Inch'Allah.",
+      "context": "S'utilise après toute promesse ou tout projet, même le plus certain — quasi obligatoire."
     }
   ],
   "grammar_points": [
     {
-      "concept": "Le système de salutation par parfait inaccompli/accompli",
-      "explanation": "Les salutations temporelles (weeti, ñalli, hiiri) reposent sur des bases verbales conjuguées à l'accompli (passé). On demande littéralement si l'action temporelle s'est déjà réalisée sous le signe de la paix.",
+      "concept": "Le registre de politesse : pronoms singulier/pluriel comme marque de respect",
+      "explanation": "Comme en français (tu/vous), le pular utilise le pronom pluriel pour marquer le respect envers une personne âgée, une autorité, ou un inconnu : on utilise 'a' (tu) avec un familier mais 'on' (vous) avec une personne à respecter, même si l'on ne s'adresse qu'à une seule personne.",
       "rules": [
-        "Le radical verbal reçoit le suffixe '-i' pour indiquer la troisième personne du singulier de l'accompli actif d'un verbe d'état.",
-        "La structure est figée : Substantif de l'état (Jam) + Verbe temporel à l'accompli (weeti / ñalli / hiiri)."
+        "A jaraama = bonjour (à un ami, un enfant, un pair)",
+        "On jaraama = bonjour (à une personne âgée, à plusieurs personnes, ou par respect)",
+        "Cette règle de respect s'applique aussi à la troisième personne : on peut dire 'ils dorment' par respect au lieu de 'il dort' en parlant de son père."
       ],
       "examples": [
         {
-          "structure": "jam + weeti",
-          "phonetic_api": "/d͡ʒam weːti/",
-          "meaning": "La paix s'est levée (Bonjour le matin)"
+          "structure": "A jaraama.",
+          "phonetic_api": "/a dʒaˈraːma/",
+          "meaning": "Bonjour (familier, à une personne)"
         },
         {
-          "structure": "jam + hiiri",
-          "phonetic_api": "/d͡ʒam hiːri/",
-          "meaning": "La paix est devenue soir (Bonsoir)"
-        }
-      ]
-    },
-    {
-      "concept": "La négation existentielle avec 'alaa'",
-      "explanation": "Pour exprimer l'absence de quelque chose (l'inexistence du mal par exemple), on utilise l'auxiliaire de négation stative 'alaa'.",
-      "rules": [
-        "Placer le nom (sujet du manque) avant 'alaa'.",
-        "Ajouter le pronom indirect prépositionnel (ex: 'e maa' - en toi) en fin de structure pour cibler la négation."
-      ],
-      "examples": [
-        {
-          "structure": "Tana + alaa",
-          "phonetic_api": "/tana alaː/",
-          "meaning": "Le mal n'existe pas / Pas de mal"
+          "structure": "On jaraama.",
+          "phonetic_api": "/on dʒaˈraːma/",
+          "meaning": "Bonjour (respectueux, ou à plusieurs personnes)"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Alpha",
-      "text": "Saliou, jam weeti ?",
-      "phonetic_api": "/saliu d͡ʒam weːti/",
-      "phonetic_simple": "SA-LIOU, DJAM WEE-TI ?",
-      "translation": "Saliou, bonjour (la paix s'est-elle levée) ?"
+      "speaker": "Binta",
+      "text": "A jaraama!",
+      "phonetic_api": "/a dʒaˈraːma/",
+      "phonetic_simple": "A DJA-RAA-MA",
+      "translation": "Bonjour !"
     },
     {
-      "speaker": "Saliou",
-      "text": "Jam tan, hiba e jam ?",
-      "phonetic_api": "/d͡ʒam tan hiba e d͡ʒam/",
-      "phonetic_simple": "DJAM TAN, HI-BA E DJAM ?",
-      "translation": "La paix seulement, es-tu en paix ?"
+      "speaker": "Aliu",
+      "text": "A jaraama. No wa'i?",
+      "phonetic_api": "/a dʒaˈraːma. no waʔi/",
+      "phonetic_simple": "A DJA-RAA-MA. NO OUA-I",
+      "translation": "Bonjour. Quoi de neuf ?"
     },
     {
-      "speaker": "Alpha",
-      "text": "Jam tan. Tana alaa ?",
-      "phonetic_api": "/d͡ʒam tan tana alaː/",
-      "phonetic_simple": "DJAM TAN. TA-NA A-LAA ?",
-      "translation": "La paix seulement. Aucun mal ?"
+      "speaker": "Binta",
+      "text": "Jam tun. Åeyngure nden no e jam?",
+      "phonetic_api": "/dʒam tun. ɓeyŋɡure nden no e dʒam/",
+      "phonetic_simple": "DJAM TOUNE. BÉYN-GOU-RÉ NDÈNE NO É DJAM",
+      "translation": "Ça va bien. La famille va bien ?"
     },
     {
-      "speaker": "Saliou",
-      "text": "Tana alaa. On jaraama.",
-      "phonetic_api": "/tana alaː on d͡ʒaraːma/",
-      "phonetic_simple": "TA-NA A-LAA. ON DJA-RAA-MA.",
-      "translation": "Aucun mal. Merci à vous."
+      "speaker": "Aliu",
+      "text": "Jam tun, albarka.",
+      "phonetic_api": "/dʒam tun albarka/",
+      "phonetic_simple": "DJAM TOUNE, AL-BAR-KA",
+      "translation": "Ça va bien, merci."
+    },
+    {
+      "speaker": "Binta",
+      "text": "Awa, en jango.",
+      "phonetic_api": "/awa en dʒaŋɡo/",
+      "phonetic_simple": "A-OUA, EN DJAN-GO",
+      "translation": "Bon, à demain."
+    },
+    {
+      "speaker": "Aliu",
+      "text": "Si Alla jaåi. Oo-o!",
+      "phonetic_api": "/si alla dʒaɓi oːo/",
+      "phonetic_simple": "SI AL-LA DJA-BI. O-O",
+      "translation": "Si Dieu le veut. Au revoir !"
     }
   ],
   "cultural_notes": [
-    "Chez les Fulbe (Peuls), écourter les salutations est perçu comme un signe d'impolitesse grave ou de colère. On enchaîne systématiquement plusieurs questions sur la paix, l'absence de mal (tana), la santé (cellal) et la famille avant d'aborder l'objet réel de la discussion."
+    "Les salutations sont un rituel social essentiel chez les Peuls du Fouta-Djalon : il est impoli d'aborder un sujet sérieux sans d'abord échanger les formules de salutation complètes, incluant les nouvelles de la famille, du travail et de la santé (source : Learner's Guide to Pular, Peace Corps Guinée).",
+    "Le respect envers les aînés se manifeste par l'usage du pluriel de politesse et par des gestes comme éviter le contact visuel direct ou serrer l'avant-bras plutôt que la main.",
+    "La formule 'Si Alla jaåi' (si Dieu le veut) accompagne presque systématiquement toute mention du futur, même une simple promesse de se revoir."
   ],
   "exercises": [
     {
-      "exercise_id": "ex1_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quelle est la réponse standard et obligatoire à l'expression 'Jam weeti ?' ?",
+      "question": "Comment dit-on « bonjour » à une personne âgée, par respect ?",
       "options": [
-        "Jaraama",
-        "Jam tan",
-        "En jango"
+        "A jaraama",
+        "On jaraama",
+        "Jam tun"
       ],
-      "correct_answer": "Jam tan",
-      "explanation": "En pular, la formule rituelle veut que l'on réponde par 'Jam tan' (La paix seulement) pour valider le souhait de paix."
+      "correct_answer": "On jaraama",
+      "explanation": "On utilise la forme plurielle 'on' pour marquer le respect envers les aînés, même en s'adressant à une seule personne."
     },
     {
-      "exercise_id": "ex1_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Tana [ ___ ] e maa ? (Il n'y a pas de mal en toi ?)",
-      "correct_answer": "alaa",
-      "hint": "Le mot pular exprimant la négation existentielle (il n'y a pas)."
+      "sentence_with_blank": "No wa'i? — [ ___ ].",
+      "correct_answer": "Jam tun",
+      "hint": "C'est la réponse standard signifiant « la paix seulement », équivalent de « ça va bien »."
+    },
+    {
+      "exercise_id": "ex3",
+      "type": "multiple_choice",
+      "question": "Que signifie « Albarka » ?",
+      "options": [
+        "Au revoir",
+        "Merci / bénédiction",
+        "Comment allez-vous ?"
+      ],
+      "correct_answer": "Merci / bénédiction",
+      "explanation": "Albarka est une formule de remerciement qui invoque la bénédiction divine."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Learner's Guide to Pular (Fuuta Jallon) — Peace Corps Guinée (Herb Caudill & Ousmane Besseko Diallo)",
+      "url": "https://ibamba.net/pular/manual.pdf"
+    },
+    {
+      "label": "Live Lingua Project — Peace Corps Manual of Fulfulde",
+      "url": "https://www.livelingua.com/course/peace-corps/manual-of-fulfulde"
+    },
+    {
+      "label": "Lexilogos — Dictionnaire peul (pular, fulfulde) en ligne",
+      "url": "https://www.lexilogos.com/peul_dictionnaire.htm"
+    }
+  ],
+  "confidence": "élevée",
+  "confidence_note": "Vocabulaire et dialogues directement extraits du chapitre 'Greetings' du manuel Peace Corps Guinée (Learner's Guide to Pular, Fuuta Jallon), source de référence pour cette variété."
 }

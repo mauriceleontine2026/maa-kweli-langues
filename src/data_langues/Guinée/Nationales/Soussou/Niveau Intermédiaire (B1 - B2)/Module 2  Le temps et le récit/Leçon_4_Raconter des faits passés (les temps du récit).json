@@ -6,304 +6,246 @@
   "lesson_number": 4,
   "title": "Raconter des faits passés (les temps du récit)",
   "learning_objectives": [
-    "Maîtriser l'usage du parfait accompli en '-xi' pour relater un fait passé achevé",
-    "Utiliser le passé imparfait en '-nu' pour décrire des actions habituelles ou des décors en arrière-plan",
-    "Structurer une narration chronologique simple avec des connecteurs temporels du passé"
+    "Distinguer les trois marqueurs de passé : 'naxa' (narratif), 'bara' (accompli récent), 'nE' (passé simple ponctuel)",
+    "Utiliser des expressions temporelles du passé (xoro=hier, lçxE dangixi=la semaine dernière)",
+    "Raconter une suite d'événements passés dans l'ordre chronologique"
   ],
   "phonetic_focus": {
-    "key_sounds": "Cette leçon est centrée sur la prononciation du suffixe d'accompli /-xi/ et de l'imparfait /-nu/. Le /x/ de '-xi' doit conserver sa nature de fricative vélaire sourde. Le groupe nominal contenant 'xoro' (hier) exige une diction brève sans allongement.",
-    "common_pitfalls": "Ne prononcez pas le suffixe '-xi' comme un '-chi' ou '-ksi' français. Maintenez le râlement doux au fond de la gorge. Ne confondez pas le '-nu' de l'imparfait avec la négation clitique 'mu'."
+    "key_sounds": "Le marqueur 'naxa' contient le 'x' guttural en position centrale ; il ne faut pas le confondre avec 'nana' (sans 'x'), qui n'a pas de valeur grammaticale équivalente.",
+    "common_pitfalls": "Les francophones ont tendance à utiliser un seul marqueur de passé pour tout traduire, alors que le soussou distingue précisément le récit historique ('naxa'), l'action déjà accomplie ('bara') et le fait ponctuel simple ('nE')."
   },
   "vocabulary": [
     {
-      "word_id": "v13_1",
-      "term": "Xoro",
+      "word_id": "v1",
+      "term": "naxa",
+      "phonetic_api": "/naxa/",
+      "phonetic_simple": "NA-kha",
+      "translation": "marqueur de passé narratif (récit d'un fait accompli)",
+      "example_sentence": "A naxa siga makiti.",
+      "example_phonetic": "/a naxa siɡa makiti/",
+      "example_translation": "Il/elle est allé(e) au marché."
+    },
+    {
+      "word_id": "v2",
+      "term": "bara",
+      "phonetic_api": "/bara/",
+      "phonetic_simple": "BA-ra",
+      "translation": "marqueur de passé accompli récent (déjà fait)",
+      "example_sentence": "A bara mini tande.",
+      "example_phonetic": "/a bara mini tande/",
+      "example_translation": "Il/elle est déjà sorti(e)."
+    },
+    {
+      "word_id": "v3",
+      "term": "nE",
+      "phonetic_api": "/nɛ/",
+      "phonetic_simple": "NÈ",
+      "translation": "marqueur de passé simple ponctuel",
+      "example_sentence": "N siga nE makiti.",
+      "example_phonetic": "/n siɡa nɛ makiti/",
+      "example_translation": "Je suis allé(e) au marché."
+    },
+    {
+      "word_id": "v4",
+      "term": "xoro",
       "phonetic_api": "/xoro/",
-      "phonetic_simple": "KHO-RO",
-      "translation": "Hier",
-      "example_sentence": "N fatoxi xoro nan na.",
-      "example_phonetic": "/n fatoxi xoro naⁿ na/",
-      "example_translation": "Je suis arrivé hier."
+      "phonetic_simple": "kho-RO",
+      "translation": "hier",
+      "example_sentence": "Xoro, n Bubakari to nE taakui.",
+      "example_phonetic": "/xoro, n bubakari to nɛ taːkui/",
+      "example_translation": "Hier, j'ai vu Bubakari en ville."
     },
     {
-      "word_id": "v13_2",
-      "term": "Singe",
-      "phonetic_api": "/siⁿdʒɛ/",
-      "phonetic_simple": "SIN-DJÉ",
-      "translation": "Avant / Jadis / Premièrement",
-      "example_sentence": "Singe, n nu sabatixi Boké nan na.",
-      "example_phonetic": "/siⁿdʒɛ n nu sabatixi boke naⁿ na/",
-      "example_translation": "Avant, j'habitais à Boké."
+      "word_id": "v5",
+      "term": "xoro bora xanbi",
+      "phonetic_api": "/xoro bora xanbi/",
+      "phonetic_simple": "kho-RO bo-ra khan-BI",
+      "translation": "avant-hier (littéralement 'deux jours en arrière d'hier')",
+      "example_sentence": "Xoro bora xanbi, n naxa siga labitani.",
+      "example_phonetic": "/xoro bora xanbi, n naxa siɡa labitani/",
+      "example_translation": "Avant-hier, je suis allé à l'hôpital."
     },
     {
-      "word_id": "v13_3",
-      "term": "Dangi",
-      "phonetic_api": "/daⁿɡi/",
-      "phonetic_simple": "DAN-GUI",
-      "translation": "Passer / Dépasser / S'écouler",
-      "example_sentence": "Kike naxan dangixi.",
-      "example_phonetic": "/kikɛ naxaⁿ daⁿɡixi/",
-      "example_translation": "Le mois qui est passé (le mois dernier)."
+      "word_id": "v6",
+      "term": "lçxE xun dangixi",
+      "phonetic_api": "/lɔxɛ xun danɡixi/",
+      "phonetic_simple": "LO-khè khoun dan-GUI-khi",
+      "translation": "la semaine dernière",
+      "example_sentence": "LçxE xun dangixi, muxu naxa siga Konakiri.",
+      "example_phonetic": "/lɔxɛ xun danɡixi, muxu naxa siɡa konakiri/",
+      "example_translation": "La semaine dernière, nous sommes allés à Conakry."
     },
     {
-      "word_id": "v13_4",
-      "term": "Wali",
-      "phonetic_api": "/wali/",
-      "phonetic_simple": "WA-LI",
-      "translation": "Travailler / Faire (action passée)",
-      "example_sentence": "N walixi gbe ra xoro.",
-      "example_phonetic": "/n walixi ɡbɛ ra xoro/",
-      "example_translation": "J'ai beaucoup travaillé hier."
+      "word_id": "v7",
+      "term": "kike dangixi",
+      "phonetic_api": "/kike danɡixi/",
+      "phonetic_simple": "KI-ké dan-GUI-khi",
+      "translation": "le mois dernier",
+      "example_sentence": "Kike dangixi, a naxa futixiri rabama.",
+      "example_phonetic": "/kike danɡixi, a naxa futixiri rabama/",
+      "example_translation": "Le mois dernier, il/elle s'est marié(e)."
     },
     {
-      "word_id": "v13_5",
-      "term": "Siga",
-      "phonetic_api": "/siɡa/",
-      "phonetic_simple": "SI-GA",
-      "translation": "Aller / Se déplacer",
-      "example_sentence": "A sigaxi kire ma xoro ségé.",
-      "example_phonetic": "/a siɡaxi kirɛ ma xoro seɡe/",
-      "example_translation": "Il est allé au marché hier matin."
-    },
-    {
-      "word_id": "v13_6",
-      "term": "Nu",
-      "phonetic_api": "/nu/",
-      "phonetic_simple": "NOU",
-      "translation": "Particule / Suffixe du passé imparfait",
-      "example_sentence": "N nu na donse donfe.",
-      "example_phonetic": "/n nu na doⁿsɛ doⁿfɛ/",
-      "example_translation": "J'étais en train de manger."
-    },
-    {
-      "word_id": "v13_7",
-      "term": "Kolon",
-      "phonetic_api": "/koloⁿ/",
-      "phonetic_simple": "KO-LON",
-      "translation": "Savoir / Connaître",
-      "example_sentence": "N nu a kolonxi.",
-      "example_phonetic": "/n nu a koloⁿxi/",
-      "example_translation": "Je le savais."
-    },
-    {
-      "word_id": "v13_8",
-      "term": "To",
-      "phonetic_api": "/to/",
-      "phonetic_simple": "TO",
-      "translation": "Voir / Apercevoir (au passé)",
-      "example_sentence": "N i toxi kire ma.",
-      "example_phonetic": "/n i toxi kirɛ ma/",
-      "example_translation": "Je t'ai vu au marché."
-    },
-    {
-      "word_id": "v13_9",
-      "term": "Na dangi",
-      "phonetic_api": "/na daⁿɡi/",
-      "phonetic_simple": "NA DAN-GUI",
-      "translation": "Après cela / Ensuite (connecteur)",
-      "example_sentence": "Na dangi, n sigama banxi ma.",
-      "example_phonetic": "/na daⁿɡi n siɡama baⁿxi ma/",
-      "example_translation": "Après cela, je suis rentré à la maison."
-    },
-    {
-      "word_id": "v13_10",
-      "term": "Wati ma",
-      "phonetic_api": "/wati ma/",
-      "phonetic_simple": "WA-TI MA",
-      "translation": "Au moment de / À l'époque où",
-      "example_sentence": "Na wati ma, n nu findi xaranmudi ra.",
-      "example_phonetic": "/na wati ma n nu fiⁿdi xaraⁿmudi ra/",
-      "example_translation": "À ce moment-là, j'étais étudiant."
+      "word_id": "v8",
+      "term": "¯E dangixi",
+      "phonetic_api": "/ɲɛ danɡixi/",
+      "phonetic_simple": "GNÈ dan-GUI-khi",
+      "translation": "l'année dernière",
+      "example_sentence": "¯E dangixi, muxu nu na Konakiri.",
+      "example_phonetic": "/ɲɛ danɡixi, muxu nu na konakiri/",
+      "example_translation": "L'année dernière, nous étions à Conakry."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p13_1",
-      "original": "Xoro, n sigaxi Conakry nan na.",
-      "phonetic_api": "/xoro n siɡaxi Conakry naⁿ na/",
-      "phonetic_simple": "KHO-RO, N SI-GA-KHI CO-NA-KRY NAN NA",
-      "translation": "Hier, je suis allé à Conakry.",
-      "context": "Relater un déplacement précis effectué la veille."
+      "phrase_id": "p1",
+      "original": "A naxa siga makiti",
+      "phonetic_api": "/a naxa siɡa makiti/",
+      "phonetic_simple": "a NA-kha SI-ga ma-KI-ti",
+      "translation": "Il/elle est allé(e) au marché",
+      "context": "Passé narratif utilisé pour raconter un fait accompli dans un récit."
     },
     {
-      "phrase_id": "p13_2",
-      "original": "Singe, n nu sabatixi Kindia ma.",
-      "phonetic_api": "/siⁿdʒɛ n nu sabatixi kiⁿdia ma/",
-      "phonetic_simple": "SIN-DJÉ, N NOU SA-BA-TI-KHI KIN-DIA MA",
-      "translation": "Autrefois, j'habitais à Kindia.",
-      "context": "Décrire son ancien lieu de résidence ou une habitude révolue."
+      "phrase_id": "p2",
+      "original": "A bara mini tande",
+      "phonetic_api": "/a bara mini tande/",
+      "phonetic_simple": "a BA-ra MI-ni TAN-dé",
+      "translation": "Il/elle est déjà sorti(e)",
+      "context": "Passé accompli qui insiste sur le fait que l'action est déjà terminée au moment où l'on parle."
     },
     {
-      "phrase_id": "p13_3",
-      "original": "I munse walixi xoro ma ?",
-      "phonetic_api": "/i muⁿsɛ walixi xoro ma/",
-      "phonetic_simple": "I MOUN-SÈ WA-LI-KHI KHO-RO MA ?",
-      "translation": "Qu'as-tu fait hier ?",
-      "context": "Interroger un ami sur ses activités passées."
+      "phrase_id": "p3",
+      "original": "N siga nE makiti",
+      "phonetic_api": "/n siɡa nɛ makiti/",
+      "phonetic_simple": "n SI-ga NÈ ma-KI-ti",
+      "translation": "Je suis allé(e) au marché",
+      "context": "Passé simple ponctuel, pour une action passée sans insister sur l'accompli ou le récit."
     },
     {
-      "phrase_id": "p13_4",
-      "original": "N nu na i xili xaranfe wati ma.",
-      "phonetic_api": "/n nu na i xili xaraⁿfɛ wati ma/",
-      "phonetic_simple": "N NOU NA I KHI-LI KHA-RAN-FÈ WA-TI MA",
-      "translation": "J'étais en train de lire ton nom à ce moment-là.",
-      "context": "Expliquer une action continue qui se déroulait en arrière-plan."
+      "phrase_id": "p4",
+      "original": "Xoro, n Bubakari to nE taakui",
+      "phonetic_api": "/xoro, n bubakari to nɛ taːkui/",
+      "phonetic_simple": "kho-RO, n bou-ba-ka-RI to NÈ TAA-koui",
+      "translation": "Hier, j'ai vu Bubakari en ville",
+      "context": "Pour situer un événement passé daté par un repère temporel précis."
     },
     {
-      "phrase_id": "p13_5",
-      "original": "Kike naxan dangixi, n nba toxi.",
-      "phonetic_api": "/kikɛ naxaⁿ daⁿɡixi n ⁿba toxi/",
-      "phonetic_simple": "KI-KÈ NA-KHAN DAN-GUI-KHI, N N-BA TO-KHI",
-      "translation": "Le mois dernier, j'ai vu mon père.",
-      "context": "Situer une rencontre ponctuelle dans le calendrier passé."
-    },
-    {
-      "phrase_id": "p13_6",
-      "original": "Na dangi, won sigaxi donse donfe.",
-      "phonetic_api": "/na daⁿɡi woⁿ siɡaxi doⁿsɛ doⁿfɛ/",
-      "phonetic_simple": "NA DAN-GUI, WON SI-GA-KHI DON-SÈ DON-FÈ",
-      "translation": "Ensuite, nous sommes allés manger.",
-      "context": "Enchaîner des actions au sein d'une narration chronologique."
-    },
-    {
-      "phrase_id": "p13_7",
-      "original": "N nu a kolonxi alɔ i fatoxi.",
-      "phonetic_api": "/n nu a koloⁿxi alɔ i fatoxi/",
-      "phonetic_simple": "N NOU A KO-LON-KHI A-LO I FA-TO-KHI",
-      "translation": "Je savais que tu étais arrivé.",
-      "context": "Exprimer une connaissance ou un état cognitif antérieur."
-    },
-    {
-      "phrase_id": "p13_8",
-      "original": "A sare findixi fu ra xoro ma.",
-      "phonetic_api": "/a sarɛ fiⁿdixi fu ra xoro ma/",
-      "phonetic_simple": "A SA-RÈ FIN-DI-KHI FOU RA KHO-RO MA",
-      "translation": "Son prix était de dix hier.",
-      "context": "Rappeler un coût ou un état financier antérieur."
+      "phrase_id": "p5",
+      "original": "Muxu naxa siga muxu...",
+      "phonetic_api": "/muxu naxa siɡa muxu/",
+      "phonetic_simple": "MOU-khou NA-kha SI-ga MOU-khou",
+      "translation": "Nous sommes allés (à/chez)...",
+      "context": "Début typique d'un récit collectif au passé narratif."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'aspect accompli du passé avec le suffixe '-xi'",
-      "explanation": "En soussou intermédiaire, le passé composé ou le parfait se construit en ajoutant le suffixe '-xi' directement à la base du verbe. Cela indique qu'une action est terminée au moment où l'on parle et que son résultat est acté.",
+      "concept": "Les trois marqueurs de passé : naxa, bara, nE",
+      "explanation": "Le soussou distingue plusieurs nuances du passé. 'Naxa' introduit un fait accompli dans un cadre narratif (récit d'événements successifs). 'Bara' marque une action déjà accomplie, avec insistance sur le résultat présent de cette action passée (proche du passé composé français avec 'déjà'). 'NE' (souvent postposé) marque un fait passé ponctuel, plus neutre.",
       "rules": [
-        "Prendre la racine du verbe d'action (ex: siga = aller).",
-        "Ajouter le suffixe '-xi' sans espace.",
-        "La structure reste identique pour toutes les personnes, c'est le pronom sujet qui change."
+        "Structure narrative : Sujet + naxa + Verbe + Complément",
+        "Structure accompli : Sujet + bara + Verbe + Complément",
+        "Structure passé simple : Sujet + Verbe + Complément + nE (nE est postposé, après le complément)"
       ],
       "examples": [
         {
-          "structure": "N + siga + xi",
-          "phonetic_api": "/n siɡaxi/",
-          "meaning": "Je suis allé / Je suis parti."
+          "structure": "A naxa siga makiti",
+          "phonetic_api": "/a naxa siɡa makiti/",
+          "meaning": "Il est allé au marché (récit)"
         },
         {
-          "structure": "I + wali + xi",
-          "phonetic_api": "/i walixi/",
-          "meaning": "Tu as travaillé."
+          "structure": "A bara mini tande",
+          "phonetic_api": "/a bara mini tande/",
+          "meaning": "Il est déjà sorti (accompli)"
+        },
+        {
+          "structure": "N siga nE makiti",
+          "phonetic_api": "/n siɡa nɛ makiti/",
+          "meaning": "Je suis allé au marché (fait ponctuel)"
         }
       ]
     },
     {
-      "concept": "L'imparfait descriptif et habituel avec la particule 'nu'",
-      "explanation": "Pour traduire l'imparfait français (une habitude passée, un état continu ou une action en train de se dérouler dans le passé), le soussou place la particule préverbale ou l'auxiliaire 'nu' juste avant le verbe ou le groupe progressif.",
+      "concept": "Les expressions temporelles du passé",
+      "explanation": "Les repères temporels du passé se construisent souvent à partir de 'xoro' (hier) et 'dangixi' (dernier/passé), combinés au nom de la période (lçxE xun=semaine, kike=mois, ¯E=année).",
       "rules": [
-        "Placer le pronom sujet.",
-        "Insérer la marque du passé imperfectif 'nu'.",
-        "Ajouter le verbe ou la structure progressive en '-fe'."
+        "[Période] + dangixi = '[période] dernier/dernière' (ex. kike dangixi = le mois dernier)",
+        "xoro bora xanbi = avant-hier (structure composée signifiant littéralement 'hier, deux jours en arrière')"
       ],
       "examples": [
         {
-          "structure": "N + nu + sabatixi",
-          "phonetic_api": "/n nu sabatixi/",
-          "meaning": "J'habitais / J'étais installé."
-        },
-        {
-          "structure": "N + nu + na + donse + don + fe",
-          "phonetic_api": "/n nu na doⁿsɛ doⁿfɛ/",
-          "meaning": "J'étais en train de manger."
+          "structure": "lçxE xun dangixi",
+          "phonetic_api": "/lɔxɛ xun danɡixi/",
+          "meaning": "la semaine dernière"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Moussa",
-      "text": "Marie, i kéna ! I munse walixi xoro ma ? N mu i toxi.",
-      "phonetic_api": "/mari i kéna i muⁿsɛ walixi xoro ma n mu i toxi/",
-      "phonetic_simple": "MA-RI, I KÉ-NA ! I MOUN-SÈ WA-LI-KHI KHO-RO MA ? N MOU I TO-KHI.",
-      "translation": "Marie, salut ! Qu'as-tu fait hier ? Je ne t'ai pas vue."
+      "speaker": "Salifu",
+      "text": "Xoro, n Bubakari to nE taakui.",
+      "phonetic_api": "/xoro, n bubakari to nɛ taːkui/",
+      "phonetic_simple": "kho-RO, n bou-ba-ka-RI to NÈ TAA-koui",
+      "translation": "Hier, j'ai vu Bubakari en ville."
     },
     {
-      "speaker": "Marie",
-      "text": "I kéna Moussa. Xoro ma, n sigaxi kire ma ségé ma. N nu wama donse sarafe.",
-      "phonetic_api": "/i kéna musa xoro ma n siɡaxi kirɛ ma seɡe ma n nu wama doⁿsɛ sarafɛ/",
-      "phonetic_simple": "I KÉ-NA MOUS-SA. KHO-RO MA, N SI-GA-KHI KI-RÈ MA SÉ-GUÉ MA. N NOU WA-MA DON-SÈ SA-RA-FÈ.",
-      "translation": "Salut Moussa. Hier, je suis allée au marché le matin. Je voulais acheter de la nourriture."
+      "speaker": "Fode",
+      "text": "A naxa siga munfera?",
+      "phonetic_api": "/a naxa siɡa munfera/",
+      "phonetic_simple": "a NA-kha SI-ga moun-FÉ-ra",
+      "translation": "Pourquoi est-il allé (là) ?"
     },
     {
-      "speaker": "Moussa",
-      "text": "Nba ! I donma gbeengbe fan saraxi mɛnni ?",
-      "phonetic_api": "/ⁿba i doⁿma ɡbeːnɡbɛ faⁿ saraxi mɛnni/",
-      "phonetic_simple": "N-BA ! I DON-MA GBÉÉN-GBÈ FAN SA-RA-KHI MÈN-NI ?",
-      "translation": "D'accord ! Tu as acheté ce beau vêtement rouge là-bas ?"
+      "speaker": "Salifu",
+      "text": "A bara mini a xa wali ma. LçxE xun dangixi, a naxa wali ratanga fode.",
+      "phonetic_api": "/a bara mini a xa wali ma, lɔxɛ xun danɡixi, a naxa wali ratanga fode/",
+      "phonetic_simple": "a BA-ra MI-ni a kha WA-li ma, LO-khè khoun dan-GUI-khi, a NA-kha WA-li ra-TAN-ga FO-dé",
+      "translation": "Il a déjà quitté son travail. La semaine dernière, il a arrêté de travailler."
     },
     {
-      "speaker": "Marie",
-      "text": "Iyo. Na dangi, n toxi n nga xon. Won nu na xonori minfe tete ma.",
-      "phonetic_api": "/iyo na daⁿɡi n toxi n ⁿɡa xoⁿ woⁿ nu na xonori miⁿfɛ tetɛ ma/",
-      "phonetic_simple": "I-YO. NA DAN-GUI, N TO-KHI N N-GA KHON. WON NOU NA KHO-NO-RI MIN-FÈ TÉ-TÈ MA.",
-      "translation": "Oui. Après cela, j'ai vu ma mère. Nous étions en train d'écouter de la musique dans la cour."
-    },
-    {
-      "speaker": "Moussa",
-      "text": "Na findixi loxi fanyi ra gbe ra ! N fan nu na walife banxi ma.",
-      "phonetic_api": "/na fiⁿdixi loxi faɲi ra ɡbɛ ra n faⁿ nu na walifɛ baⁿxi ma/",
-      "phonetic_simple": "NA FIN-DI-KHI LO-KHI FAN-YI RA GBÈ RA ! N FAN NOU NA WA-LI-FÈ BAN-KHI MA.",
-      "translation": "C'était une excellente journée ! Moi, j'étais en train de travailler à la maison."
+      "speaker": "Fode",
+      "text": "N siga nE a bE xoro bora xanbi.",
+      "phonetic_api": "/n siɡa nɛ a bɛ xoro bora xanbi/",
+      "phonetic_simple": "n SI-ga NÈ a bè kho-RO bo-ra khan-BI",
+      "translation": "Je suis allé le voir avant-hier."
     }
   ],
   "cultural_notes": [
-    "Dans la tradition orale de la Basse-Guinée, la manière de structurer le récit et d'alterner les faits accomplis ('-xi') et les cadres d'arrière-plan ('nu') est essentielle. Les conteurs et les anciens utilisent abondamment ces structures pour dissocier clairement l'action principale du décor, captivant ainsi l'auditoire lors des veillées traditionnelles."
+    "Dans la culture soussou comme dans de nombreuses sociétés africaines, le passé occupe une place plus importante que le futur dans les échanges quotidiens, le futur étant traditionnellement laissé 'entre les mains de Dieu'.",
+    "Raconter un événement passé de manière détaillée et chronologique (avec 'naxa' pour enchaîner les faits) est une compétence sociale valorisée dans la tradition orale soussou."
   ],
   "exercises": [
     {
-      "exercise_id": "ex13_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel suffixe s'attache directement au verbe pour marquer une action passée entièrement achevée ?",
+      "question": "Quel marqueur de passé insiste sur le fait qu'une action est déjà accomplie ?",
       "options": [
-        "-nu",
-        "-fe",
-        "-xi"
+        "bara",
+        "naxa",
+        "nE"
       ],
-      "correct_answer": "-xi",
-      "explanation": "Le suffixe '-xi' est la marque de l'aspect accompli du passé en soussou."
+      "correct_answer": "bara",
+      "explanation": "'Bara' exprime l'accompli, comme dans 'A bara mini tande' (il est déjà sorti)."
     },
     {
-      "exercise_id": "ex13_2",
-      "type": "multiple_choice",
-      "question": "Que signifie la particule préverbale 'nu' insérée dans un récit ?",
-      "options": [
-        "Le futur",
-        "L'imparfait / une habitude passée",
-        "La négation absolue"
-      ],
-      "correct_answer": "L'imparfait / une habitude passée",
-      "explanation": "'Nu' sert d'auxiliaire de temps pour exprimer l'imparfait descriptif."
-    },
-    {
-      "exercise_id": "ex13_3",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Xoro, n siga[ ___ ] Conakry nan na. (Hier, je suis allé...)",
-      "correct_answer": "xi",
-      "hint": "C'est le suffixe de l'accompli passé à accoler au verbe d'action."
-    },
-    {
-      "exercise_id": "ex13_4",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Na [ ___ ], won sigaxi donse donfe. (Ensuite / après cela...)",
-      "correct_answer": "dangi",
-      "hint": "Ce mot dérive du verbe 'passer' pour former le connecteur chronologique 'ensuite'."
+      "sentence_with_blank": "'Hier' se dit : [ ___ ]",
+      "correct_answer": "xoro",
+      "hint": "C'est le repère temporel de base pour le jour précédent."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Peace Corps Guinée — Xarandi Xa Buki, Livre du stagiaire Sosoxui (Susu Language Lessons)",
+      "url": "https://fsi-languages.yojik.eu/languages/PeaceCorps/Susu/susu-language-course.pdf"
+    },
+    {
+      "label": "Live Lingua Project — Peace Corps Susu Language Lessons",
+      "url": "https://www.livelingua.com/course/peace_corps/susu_language_lessons"
+    }
+  ],
+  "confidence": "élevée",
+  "confidence_note": "Les trois marqueurs de passé (naxa, bara, nE) et les expressions temporelles associées sont directement extraits et traduits dans la Compétence n°9 du manuel Peace Corps Susu."
 }

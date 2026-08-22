@@ -6,224 +6,250 @@
   "lesson_number": 3,
   "title": "Exprimer ses goûts, ses préférences et ses sentiments",
   "learning_objectives": [
-    "Formuler l'appréciation ou le rejet d'une situation ou d'un objet",
-    "Utiliser la structure comparative de base pour exprimer une préférence",
-    "Nommer les états sentimentaux fondamentaux (joie, tristesse, colère)"
+    "Exprimer une préférence avec 'ka diya' (plaire) et 'ka kanun' (aimer)",
+    "Exprimer la colère, la joie, le regret",
+    "Utiliser les états physiques/émotionnels avec la construction 'attraper' (mina/bada)",
+    "Nuancer un sentiment avec des adverbes d'intensité (kosobè = beaucoup)"
   ],
   "phonetic_focus": {
-    "key_sounds": "La structure de goût 'ka di' possède des voyelles courtes. L'expression de la colère 'dusu' contient des voyelles fermées /u/ à bien projeter vers l'avant.",
-    "common_pitfalls": "Veillez à ne pas étirer le 'di' de 'ka di' de façon excessive. Respectez la coupe rythmique de la postposition d'attribution 'ye' (/de/)."
+    "key_sounds": [
+      "Le [ɲ] de 'nyaalin' (réjouir), à articuler nettement",
+      "Le ton de 'monè' (se fâcher), distinct de mots similaires",
+      "La liaison 'bada n mina' (m'a attrapé), fréquente pour les états physiques et émotionnels"
+    ],
+    "common_pitfalls": [
+      "Traduire littéralement 'j'ai peur/faim/sommeil' avec un verbe 'avoir' : le malinké utilise la construction '[état] + bada + [personne] + mina' (l'état m'a attrapé)",
+      "Confondre 'ka diya' (plaire à) et 'ka kanun' (aimer), qui ont des constructions syntaxiques différentes"
+    ]
   },
   "vocabulary": [
     {
-      "word_id": "v12_1",
-      "term": "Ka di",
-      "phonetic_api": "/ka di/",
-      "phonetic_simple": "KA DI",
-      "translation": "Être agréable / Plaire / Être bon",
-      "example_sentence": "Nin ka di n ye",
-      "example_phonetic": "/nĩ ka di n̩ de/",
-      "example_translation": "Ceci me plaît."
+      "word_id": "v1",
+      "term": "ka diya",
+      "phonetic_api": "[ka dija]",
+      "phonetic_simple": "ka-di-ya",
+      "translation": "plaire (à quelqu'un)",
+      "example_sentence": "A ye n diyala.",
+      "example_phonetic": "[a je n dijala]",
+      "example_translation": "Cela me plaît."
     },
     {
-      "word_id": "v12_2",
-      "term": "Ka go",
-      "phonetic_api": "/ka ɡo/",
-      "phonetic_simple": "KA GO",
-      "translation": "Être désagréable / Déplaire / Être mauvais",
-      "example_sentence": "Baara nin ka go n ye",
-      "example_phonetic": "/baː.ra nĩ ka ɡo n̩ de/",
-      "example_translation": "Ce travail me déplaît."
+      "word_id": "v2",
+      "term": "ka kanun",
+      "phonetic_api": "[ka kanun]",
+      "phonetic_simple": "ka-ka-noun",
+      "translation": "aimer",
+      "example_sentence": "N ye a kanunna.",
+      "example_phonetic": "[n je a kanunna]",
+      "example_translation": "Je l'aime."
     },
     {
-      "word_id": "v12_3",
-      "term": "Fisa ni",
-      "phonetic_api": "/fi.sa ni/",
-      "phonetic_simple": "FI-SA NI",
-      "translation": "Valoir mieux que / Préférer",
-      "example_sentence": "Nin fisa ni n do ra",
-      "example_phonetic": "/nĩ fi.sa ni n̩ do ra/",
-      "example_translation": "Ceci vaut mieux que cela (Je préfère ceci)."
+      "word_id": "v3",
+      "term": "ka monè",
+      "phonetic_api": "[ka monɛ]",
+      "phonetic_simple": "ka-mo-nè",
+      "translation": "se fâcher",
+      "example_sentence": "N di monè sisèn.",
+      "example_phonetic": "[n di monɛ sisɛn]",
+      "example_translation": "Je me fâcherai tout de suite."
     },
     {
-      "word_id": "v12_4",
-      "term": "Sewu",
-      "phonetic_api": "/se.wu/",
-      "phonetic_simple": "SÉ-OU",
-      "translation": "La joie / Être joyeux",
-      "example_sentence": "Sewu bɛ n na bi",
-      "example_phonetic": "/se.wu bɛ n̩ na bi/",
-      "example_translation": "Je suis dans la joie aujourd'hui."
+      "word_id": "v4",
+      "term": "ka nyaalin",
+      "phonetic_api": "[ka ɲaːlin]",
+      "phonetic_simple": "ka-nya-a-lin",
+      "translation": "réjouir, rendre heureux",
+      "example_sentence": "Kuma nin ka n nyaalin.",
+      "example_phonetic": "[kuma nin ka n ɲaːlin]",
+      "example_translation": "Cette parole m'a réjoui."
     },
     {
-      "word_id": "v12_5",
-      "term": "Dusukun",
-      "phonetic_api": "/du.su.kũ/",
-      "phonetic_simple": "DOU-SOU-KOUN",
-      "translation": "Le cœur / Le siège des émotions / Sentiments",
-      "example_sentence": "N dusukun ka di",
-      "example_phonetic": "/n̩ du.su.kũ ka di/",
-      "example_translation": "Mon cœur est en paix (Je suis content)."
+      "word_id": "v5",
+      "term": "ka nimisa",
+      "phonetic_api": "[ka nimisa]",
+      "phonetic_simple": "ka-ni-mi-sa",
+      "translation": "regretter",
+      "example_sentence": "A ye nimisala.",
+      "example_phonetic": "[a je nimisala]",
+      "example_translation": "Il regrette."
     },
     {
-      "word_id": "v12_6",
-      "term": "Dusu bɔ",
-      "phonetic_api": "/du.su bɔ/",
-      "phonetic_simple": "DOU-SOU BƆ",
-      "translation": "Se fâcher / Être en colère (litt. Le cœur sort)",
-      "example_sentence": "A dusu bɔra kpe",
-      "example_phonetic": "/a du.su bɔ.ra k͡pe/",
-      "example_translation": "Il s'est mis violemment en colère."
+      "word_id": "v6",
+      "term": "kosobè",
+      "phonetic_api": "[kosobɛ]",
+      "phonetic_simple": "ko-so-bè",
+      "translation": "beaucoup, très",
+      "example_sentence": "A ye baarala kosobè.",
+      "example_phonetic": "[a je baːrala kosobɛ]",
+      "example_translation": "Il travaille beaucoup."
     },
     {
-      "word_id": "v12_7",
-      "term": "Kasi",
-      "phonetic_api": "/ka.si/",
-      "phonetic_simple": "KA-SI",
-      "translation": "Pleurer / La tristesse",
-      "example_sentence": "Denmuso bɛ kasi la",
-      "example_phonetic": "/dẽ.mu.so bɛ ka.si la/",
-      "example_translation": "La petite fille pleure."
+      "word_id": "v7",
+      "term": "sinoo",
+      "phonetic_api": "[sinoː]",
+      "phonetic_simple": "si-no-o",
+      "translation": "sommeil",
+      "example_sentence": "Sinoo bada n mina.",
+      "example_phonetic": "[sinoː bada n mina]",
+      "example_translation": "J'ai sommeil (litt. le sommeil m'a attrapé)."
     },
     {
-      "word_id": "v12_8",
-      "term": "Lafili",
-      "phonetic_api": "/la.fi.li/",
-      "phonetic_simple": "LA-FI-LI",
-      "translation": "L'inquiétude / Être inquiet / Égaré",
-      "example_sentence": "Lafili bɛ i la ko ?",
-      "example_phonetic": "/la.fi.li bɛ i la ko/",
-      "example_translation": "Es-tu inquiet ?"
-    },
-    {
-      "word_id": "v12_9",
-      "term": "Kanfeya",
-      "phonetic_api": "/kan.fe.ja/",
-      "phonetic_simple": "KAN-FÉ-YA",
-      "translation": "L'amour / Affection",
-      "example_sentence": "Kanfeya bɛ an tɛ",
-      "example_phonetic": "/kan.fe.ja bɛ an tɛ/",
-      "example_translation": "Il y a de l'affection entre nous."
-    },
-    {
-      "word_id": "v12_10",
-      "term": "Hali",
-      "phonetic_api": "/ha.li/",
-      "phonetic_simple": "HA-LI",
-      "translation": "Même / Vraiment / Très (intensificateur)",
-      "example_sentence": "A ka di hali kpe",
-      "example_phonetic": "/a ka di ha.li k͡pe/",
-      "example_translation": "C'est vraiment très bon."
+      "word_id": "v8",
+      "term": "konko",
+      "phonetic_api": "[kɔnkɔ]",
+      "phonetic_simple": "kon-ko",
+      "translation": "faim",
+      "example_sentence": "Konko bada n mina.",
+      "example_phonetic": "[kɔnkɔ bada n mina]",
+      "example_translation": "J'ai faim."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p12_1",
-      "original": "Malo domo ka di n ye fisa ni sogo ra.",
-      "phonetic_api": "/ma.lo do.mo ka di n̩ de fi.sa ni so.ɡɔ ra/",
-      "phonetic_simple": "MA-LO DO-MO KA DI N YE FI-SA NI SO-GƆ RA.",
-      "translation": "Je préfère manger du riz plutôt que de la viande.",
-      "context": "Exprimer un choix ou une préférence alimentaire avancée."
+      "phrase_id": "p1",
+      "original": "A ye n diyala",
+      "phonetic_api": "[a je n dijala]",
+      "phonetic_simple": "a-yé-n-di-ya-la",
+      "translation": "Cela me plaît",
+      "context": "Exprimer une préférence positive"
     },
     {
-      "phrase_id": "p12_2",
-      "original": "Dusu bɔra n na bi baara fɛ.",
-      "phonetic_api": "/du.su bɔ.ra n̩ na bi baː.ra fɛ/",
-      "phonetic_simple": "DOU-SOU BƆ-RA N NA BI BAA-RA FƐ.",
-      "translation": "Je me suis mis en colère aujourd'hui à cause du travail.",
-      "context": "Confier ses sentiments ou humeurs négatives à un proche."
+      "phrase_id": "p2",
+      "original": "N di monè sisèn",
+      "phonetic_api": "[n di monɛ sisɛn]",
+      "phonetic_simple": "n-di-mo-nè-si-sèn",
+      "translation": "Je me fâcherai tout de suite",
+      "context": "Exprimer une émotion négative au futur"
     },
     {
-      "phrase_id": "p12_3",
-      "original": "Lafili mu n na, sewu dɔrɔn bɛ.",
-      "phonetic_api": "/la.fi.li mu n̩ na se.wu dɔ.rɔn bɛ/",
-      "phonetic_simple": "LA-FI-LI MOU N NA, SÉ-OU DƆ-RƆN BƐ.",
-      "translation": "Je n'ai aucune inquiétude, je n'ai que de la joie.",
-      "context": "Rassurer quelqu'un sur son état d'esprit émotionnel."
+      "phrase_id": "p3",
+      "original": "Sinoo bada n mina",
+      "phonetic_api": "[sinoː bada n mina]",
+      "phonetic_simple": "si-no-o-ba-da-n-mi-na",
+      "translation": "J'ai sommeil",
+      "context": "Construction figée pour les états physiques (le sommeil m'a attrapé)"
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Tara bada n mina",
+      "phonetic_api": "[tara bada n mina]",
+      "phonetic_simple": "ta-ra-ba-da-n-mi-na",
+      "translation": "J'ai chaud",
+      "context": "Même construction pour la chaleur"
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Nènè ye n na",
+      "phonetic_api": "[nɛnɛ je n na]",
+      "phonetic_simple": "nè-nè-yé-n-na",
+      "translation": "J'ai froid",
+      "context": "Variante avec 'ye ... na' pour les états"
     }
   ],
   "grammar_points": [
     {
-      "concept": "La formulation des goûts subjectifs avec l'adjectif qualificatif verbalisé et 'ye'",
-      "explanation": "En malinké, pour dire qu'on apprécie ou qu'on déteste quelque chose, on utilise l'adjectif d'état 'ka di' (être doux/bon) ou 'ka go' (être amer/mauvais) suivi de la postposition d'attribution 'ye' (pour / à l'égard de).",
+      "concept": "La construction des états physiques/émotionnels avec 'bada ... mina'",
+      "explanation": "Pour exprimer des sensations comme la faim, la soif, le sommeil ou la chaleur, le malinké personnifie l'état, qui 'attrape' la personne, plutôt que d'utiliser un verbe 'avoir'.",
       "rules": [
-        "Structure : [Objet / Action] + 'ka di' / 'ka go' + [Pronom] + 'ye'."
+        "Structure : [État] + bada + [Personne] + mina",
+        "Variante plus courte : [État] + ye + [Personne] + na"
       ],
       "examples": [
         {
-          "structure": "Foli ka di n ye",
-          "phonetic_api": "/fo.li ka di n̩ de/",
-          "meaning": "La musique me plaît (La musique est douce pour moi)."
+          "structure": "[État] bada [personne] mina",
+          "phonetic_api": "[bada mina]",
+          "meaning": "[Personne] a [état] (litt. l'état l'a attrapé)"
         }
       ]
     },
     {
-      "concept": "L'expression de la comparaison préférentielle avec 'fisa ni... ra'",
-      "explanation": "Pour formuler une préférence nette entre deux options, le malinké intègre le syntagme 'fisa ni' (mieux que) inséré entre les deux éléments comparés.",
+      "concept": "Le verbe 'ka diya' pour exprimer une préférence",
+      "explanation": "'Ka diya' (plaire) construit la préférence à l'inverse du français : c'est la chose qui plaît au sujet, et non le sujet qui aime la chose (structure proche de l'anglais 'it pleases me').",
       "rules": [
-        "Structure : [Option A] + ka di + [Sujet] + ye + 'fisa ni' + [Option B] + 'ra'."
+        "Structure : [Chose] + ye + [Personne] + diyala",
+        "'A ye n diyala' = cela me plaît (litt. 'ça plaît-moi')"
       ],
       "examples": [
         {
-          "structure": "Ji ka di n ye fisa ni dolo ra",
-          "phonetic_api": "/d͡ʒi ka di n̩ de fi.sa ni do.lo ra/",
-          "meaning": "Je préfère l'eau à la bière."
+          "structure": "[Chose] ye [personne] diyala",
+          "phonetic_api": "[dijala]",
+          "meaning": "[chose] plaît à [personne]"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Fanta",
-      "text": "Aminata, i dusukun ka di bi ko ? N bɛ i kasi la la ?",
-      "phonetic_api": "/a.mi.na.ta i du.su.kũ ka di bi ko n̩ bɛ i ka.si la la/",
-      "phonetic_simple": "A-MI-NA-TA, I DOU-SOU-KOUN KA DI BI KO ? N BƐ I KA-SI LA LA ?",
-      "translation": "Aminata, ton cœur est-il en joie aujourd'hui ? J'ai l'impression que tu as pleuré ?"
+      "speaker": "Mamadou",
+      "text": "Sinoo bada n mina, n di la.",
+      "phonetic_api": "[sinoː bada n mina n di la]",
+      "phonetic_simple": "si-no-o-ba-da-n-mi-na, n-di-la",
+      "translation": "J'ai sommeil, je vais me coucher."
     },
     {
-      "speaker": "Aminata",
-      "text": "Ayi Fanta, lafili bɛ n na. Baara nin ka go n ye hali kpe.",
-      "phonetic_api": "/a.ji fan.ta la.fi.li bɛ n̩ na baː.ra nĩ ka ɡo n̩ de ha.li k͡pe/",
-      "phonetic_simple": "A-YI FAN-TA, LA-FI-LI BƐ N NA. BAA-RA NIN KA GO N YE HA-LI KPÉ.",
-      "translation": "Non Fanta, je suis inquiète. Ce travail me déplaît vraiment énormément."
+      "speaker": "Fatou",
+      "text": "Awa. Konko bada n mina, n di damun.",
+      "phonetic_api": "[awa kɔnkɔ bada n mina n di damun]",
+      "phonetic_simple": "a-wa. kon-ko-ba-da-n-mi-na, n-di-da-moun",
+      "translation": "D'accord. J'ai faim, je vais manger."
     },
     {
-      "speaker": "Fanta",
-      "text": "O tana mu na. Lafya do fisa ni baara go ra. Lafya la !",
-      "phonetic_api": "/o ta.na mu na la.fja do fi.sa ni baː.ra ɡo ra la.fja la/",
-      "phonetic_simple": "O TA-NA MOU NA. LA-FYA DO FI-SA NI BAA-RA GO RA. LA-FYA LA !",
-      "translation": "Ce n'est pas un problème insurmontable. Un jour de repos vaut mieux qu'un mauvais travail. Repose-toi !"
+      "speaker": "Mamadou",
+      "text": "A ye n diyala : n bè damunna kosobè.",
+      "phonetic_api": "[a je n dijala n bɛ damunna kosobɛ]",
+      "phonetic_simple": "a-yé-n-di-ya-la: n-bè-da-moun-na-ko-so-bè",
+      "translation": "Ça me plaît : je mange souvent beaucoup."
     },
     {
-      "speaker": "Aminata",
-      "text": "I ni cɛ Fanta, i ka foli ka di n ye. Sewu bɛ n na nɛ !",
-      "phonetic_api": "/i ni t͡ʃɛ fan.ta i ka fo.li ka di n̩ de se.wu bɛ n̩ na nɛ/",
-      "phonetic_simple": "I NI TCHƐ FAN-TA, I KA FO-LI KA DI N YE. SÉ-OU BƐ N NA NƐ !",
-      "translation": "Merci Fanta, tes paroles me font du bien. Me voilà maintenant dans la joie !"
+      "speaker": "Fatou",
+      "text": "Awa, n fana konko bada n mina kosobè.",
+      "phonetic_api": "[awa n fana kɔnkɔ bada n mina kosobɛ]",
+      "phonetic_simple": "a-wa, n-fa-na-kon-ko-ba-da-n-mi-na-ko-so-bè",
+      "translation": "D'accord, moi aussi j'ai vraiment très faim."
     }
   ],
   "cultural_notes": [
-    "Dans la pudeur de l'expression des sentiments en Afrique de l'Ouest, les états émotionnels passent beaucoup par des métaphores liées aux organes physiques internes, en particulier le cœur ('dusu' ou 'dusukun'). Dire 'mon cœur est sorti' ('n dusu bɔra') signifie être fâché, tandis que 'mon cœur est doux' ('n dusukun ka di') signifie être comblé de bonheur."
+    "La personnification des états physiques (le sommeil, la faim, la chaleur 'attrapent' la personne) est une caractéristique typique du malinké et de plusieurs langues mandingues, révélant une conception différente de la sensation par rapport au français ([Malinkuia](https://fr.scribd.com/document/499114939/Malinkuia))."
   ],
   "exercises": [
     {
-      "exercise_id": "B1_M1_L3_ex1",
-      "type": "multiple_choice",
-      "question": "Que signifie l'expression idiomatique 'N dusu bɔra' ?",
-      "options": [
-        "Je suis tombé amoureux",
-        "Je me suis mis en colère",
-        "J'ai faim"
-      ],
-      "correct_answer": "Je me suis mis en colère",
-      "explanation": "La 'sortie du cœur' est l'image culturelle mandingue pour matérialiser l'explosion de la colère."
+      "exercise_id": "e1",
+      "type": "traduction",
+      "question": "Traduisez : 'J'ai faim.'",
+      "correct_answer": "Konko bada n mina.",
+      "explanation": "Construction figée : [état] + bada + [personne] + mina."
     },
     {
-      "exercise_id": "B1_M1_L3_ex2",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Nin ka [ ___ ] n ye (Ceci me déplaît/est mauvais pour moi).",
-      "correct_answer": "go",
-      "hint": "C'est l'exact antonyme de 'di'."
+      "exercise_id": "e2",
+      "type": "choix_multiple",
+      "question": "Que signifie 'ka monè' ?",
+      "options": [
+        "se réjouir",
+        "se fâcher",
+        "regretter",
+        "plaire"
+      ],
+      "correct_answer": "se fâcher",
+      "explanation": "'ka monè' signifie 'se fâcher, se mettre en colère'."
+    },
+    {
+      "exercise_id": "e3",
+      "type": "texte_a_trous",
+      "sentence_with_blank": "A ye n ___ .  (Cela me plaît.)",
+      "correct_answer": "diyala",
+      "hint": "C'est le verbe 'plaire' au présent progressif."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Malinkuia — Introduction à la langue malinké (grammaire complète, variété du Wulada, Haute-Guinée)",
+      "url": "https://fr.scribd.com/document/499114939/Malinkuia"
+    },
+    {
+      "label": "Diané & Vydrin, « Propositions pour l'orthographe du maninka (Guinée) », Mandenkan 52 (2014)",
+      "url": "https://shs.hal.science/halshs-01096594v1/document"
+    }
+  ],
+  "confidence": "élevée",
+  "confidence_note": "Toutes les constructions d'états physiques et émotionnels ('bada...mina', 'ye...na', 'ka diya') sont directement attestées avec exemples dans la grammaire Malinkuia (sections 'États physiques' et 'Verbes courants')."
 }

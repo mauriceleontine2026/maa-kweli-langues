@@ -6,302 +6,291 @@
   "lesson_number": 4,
   "title": "La famille et les relations proches",
   "learning_objectives": [
-    "Identifier et nommer avec précision tous les membres de la famille nucléaire et élargie",
-    "Présenter son entourage et décrire les liens de parenté immédiats",
-    "Maîtriser l'usage des pronoms possessifs de filiation directe"
+    "Nommer les membres proches de sa famille (père, mère, frère, sœur, grands-parents)",
+    "Utiliser les adjectifs possessifs 'naturels' (n, i, a...) avec les termes de parenté",
+    "Utiliser le verbe 'avoir' (na... yi) pour parler de sa famille"
   ],
   "phonetic_focus": {
-    "key_sounds": "Cette leçon met l'accent sur l'articulation de la consonne nasale prénasalisée /ⁿb/ au début de mots très fréquents comme 'nba' ou 'nbore'. Le son se produit par une impulsion nasale qui s'ouvre instantanément sur une occlusion bilabiale. Le 'x' de 'maxamɛ' est la fricative vélaire sourde /x/.",
-    "common_pitfalls": "Attention à ne pas scinder le groupe /ⁿb/ en créant une voyelle imaginaire. Ne dites pas 'un-ba' ou 'é-n-ba', mais commencez à fredonner par le nez juste avant de relâcher les lèvres pour le 'b'."
+    "key_sounds": "Le mot 'xunya' (petit frère/petite sœur) combine le 'x' guttural et la voyelle nasale 'un' ; 'tara' (frère/sœur aîné·e) a un 'r' roulé bref, différent du 'r' français.",
+    "common_pitfalls": "Les francophones ont tendance à ne pas distinguer 'tara' (aîné) et 'xunya' (cadet), alors que le soussou différencie systématiquement les liens de fraternité selon l'âge relatif."
   },
   "vocabulary": [
     {
-      "word_id": "v4_1",
-      "term": "Nba",
-      "phonetic_api": "/ⁿba/",
-      "phonetic_simple": "N-BA",
-      "translation": "Mon père",
-      "example_sentence": "Nba findi mixi fanyi ra.",
-      "example_phonetic": "/ⁿba fiⁿdi mixi faɲi ra/",
-      "example_translation": "Mon père est une bonne personne."
+      "word_id": "v1",
+      "term": "baba",
+      "phonetic_api": "/baba/",
+      "phonetic_simple": "BA-ba",
+      "translation": "père",
+      "example_sentence": "N baba xili Jibiriba.",
+      "example_phonetic": "/n baba xili dʒibiriba/",
+      "example_translation": "Mon père s'appelle Jibiriba."
     },
     {
-      "word_id": "v4_2",
-      "term": "Nga",
-      "phonetic_api": "/ⁿɡa/",
-      "phonetic_simple": "N-GA",
-      "translation": "Ma mère",
-      "example_sentence": "Nga na sabatitofe banxi ma.",
-      "example_phonetic": "/ⁿɡa na sabatitofɛ baⁿxi ma/",
-      "example_translation": "Ma mère est en train de se reposer à la maison."
+      "word_id": "v2",
+      "term": "nga",
+      "phonetic_api": "/nga/",
+      "phonetic_simple": "N-ga",
+      "translation": "mère",
+      "example_sentence": "N nga xili Fatu.",
+      "example_phonetic": "/n nga xili fatu/",
+      "example_translation": "Ma mère s'appelle Fatou."
     },
     {
-      "word_id": "v4_3",
-      "term": "Maxamɛ",
-      "phonetic_api": "/maxamɛ/",
-      "phonetic_simple": "MA-KHA-MÈ",
-      "translation": "Frère",
-      "example_sentence": "N maxamɛ kérén nan na n ma.",
-      "example_phonetic": "/n maxamɛ kerɛn naⁿ na n ma/",
-      "example_translation": "J'ai un seul frère."
+      "word_id": "v3",
+      "term": "tara xamEma",
+      "phonetic_api": "/tara xamɛma/",
+      "phonetic_simple": "TA-ra kha-MÈ-ma",
+      "translation": "grand frère (frère aîné)",
+      "example_sentence": "Tela na n baba ra.",
+      "example_phonetic": "/tela na n baba ra/",
+      "example_translation": "Mon père est tailleur."
     },
     {
-      "word_id": "v4_4",
-      "term": "Maginɛ",
-      "phonetic_api": "/maɡinɛ/",
-      "phonetic_simple": "MA-GUI-NÈ",
-      "translation": "Sœur",
-      "example_sentence": "I maginɛ findi doti ra.",
-      "example_phonetic": "/i maɡinɛ fiⁿdi doti ra/",
-      "example_translation": "Ta sœur est médecin."
+      "word_id": "v4",
+      "term": "tara ginEma",
+      "phonetic_api": "/tara ginɛma/",
+      "phonetic_simple": "TA-ra gui-NÈ-ma",
+      "translation": "grande sœur (sœur aînée)",
+      "example_sentence": "Xaranderaba na n nga ra.",
+      "example_phonetic": "/xaranderaba na n nga ra/",
+      "example_translation": "Ma mère est enseignante."
     },
     {
-      "word_id": "v4_5",
-      "term": "Di",
-      "phonetic_api": "/di/",
-      "phonetic_simple": "DI",
-      "translation": "Enfant / Fils / Fille",
-      "example_sentence": "N xamɛ di firini na n ma.",
-      "example_phonetic": "/n xamɛ di firini na n ma/",
-      "example_translation": "J'ai deux enfants de sexe masculin (fils)."
+      "word_id": "v5",
+      "term": "xunya",
+      "phonetic_api": "/xuɲa/",
+      "phonetic_simple": "khou-GNA",
+      "translation": "petit frère / petite sœur (cadet·te)",
+      "example_sentence": "Tara nun xunya na i yi?",
+      "example_phonetic": "/tara nun xuɲa na i ji/",
+      "example_translation": "As-tu des frères et sœurs (aînés et cadets) ?"
     },
     {
-      "word_id": "v4_6",
-      "term": "Bore",
-      "phonetic_api": "/borɛ/",
-      "phonetic_simple": "BO-RÈ",
-      "translation": "Ami / Proche / Compagnon",
-      "example_sentence": "N bore nan na ki ra.",
-      "example_phonetic": "/n borɛ naⁿ na ki ra/",
-      "example_translation": "C'est mon ami intime ici."
+      "word_id": "v6",
+      "term": "tanun",
+      "phonetic_api": "/tanun/",
+      "phonetic_simple": "ta-NOUN",
+      "translation": "grand-père",
+      "example_sentence": "N tanun na Konakiri.",
+      "example_phonetic": "/n tanun na konakiri/",
+      "example_translation": "Mon grand-père est à Conakry."
     },
     {
-      "word_id": "v4_7",
-      "term": "Xamɛ",
-      "phonetic_api": "/xamɛ/",
-      "phonetic_simple": "KHA-MÈ",
-      "translation": "Homme / Époux / Masculin",
-      "example_sentence": "N xamɛ na walife ki.",
-      "example_phonetic": "/n xamɛ na walifɛ ki/",
-      "example_translation": "Mon mari est en train de travailler ici."
-    },
-    {
-      "word_id": "v4_8",
-      "term": "Ginɛ",
-      "phonetic_api": "/ɡinɛ/",
-      "phonetic_simple": "GUI-NÈ",
-      "translation": "Femme / Épouse / Féminin",
-      "example_sentence": "A ginɛ findi karamoxo ra.",
-      "example_phonetic": "/a ɡinɛ fiⁿdi karamoxo ra/",
-      "example_translation": "Sa femme est enseignante."
-    },
-    {
-      "word_id": "v4_9",
-      "term": "Benba",
-      "phonetic_api": "/beⁿba/",
-      "phonetic_simple": "BEN-BA",
-      "translation": "Grand-père / Ancêtre",
-      "example_sentence": "N benba fatoxi Boké nan na.",
-      "example_phonetic": "/n beⁿba fatoxi boke naⁿ na/",
-      "example_translation": "Mon grand-père est originaire de Boké."
-    },
-    {
-      "word_id": "v4_10",
-      "term": "Mama",
+      "word_id": "v7",
+      "term": "mama",
       "phonetic_api": "/mama/",
-      "phonetic_simple": "MA-MA",
-      "translation": "Grand-mère",
-      "example_sentence": "N mama na subé gbe ra.",
-      "example_phonetic": "/n mama na sube ɡbɛ ra/",
-      "example_translation": "Ma grand-mère est en très bonne santé."
+      "phonetic_simple": "MA-ma",
+      "translation": "grand-mère",
+      "example_sentence": "N mama nan yiki.",
+      "example_phonetic": "/n mama nan jiki/",
+      "example_translation": "C'est ma grand-mère."
+    },
+    {
+      "word_id": "v8",
+      "term": "denbaya",
+      "phonetic_api": "/denbaja/",
+      "phonetic_simple": "den-BA-ya",
+      "translation": "la famille",
+      "example_sentence": "N xa denbaya sabatixi Konakiri.",
+      "example_phonetic": "/n xa denbaja sabatixi konakiri/",
+      "example_translation": "Ma famille vit à Conakry."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p4_1",
-      "original": "I nba na naxan na ?",
-      "phonetic_api": "/i ⁿba na naxaⁿ na/",
-      "phonetic_simple": "I N-BA NA NA-KHAN NA",
-      "translation": "Où se trouve ton père ?",
-      "context": "Demander des nouvelles physiques d'un proche lors d'une visite."
+      "phrase_id": "p1",
+      "original": "I baba xili di?",
+      "phonetic_api": "/i baba xili di/",
+      "phonetic_simple": "i BA-ba KHI-li di",
+      "translation": "Comment s'appelle ton père ?",
+      "context": "Pour demander le nom du père de son interlocuteur."
     },
     {
-      "phrase_id": "p4_2",
-      "original": "I nga tana mou gna ?",
-      "phonetic_api": "/i ⁿɡa tana mu ɲa/",
-      "phonetic_simple": "I N-GA TA-NA MOU NYA",
-      "translation": "Comment se porte ta mère ? (Pas de mal pour elle ?)",
-      "context": "Formule de courtoisie indispensable pour prendre des nouvelles."
+      "phrase_id": "p2",
+      "original": "Tara nun xunya na i yi?",
+      "phonetic_api": "/tara nun xuɲa na i ji/",
+      "phonetic_simple": "TA-ra noun khou-GNA na i yi",
+      "translation": "As-tu des frères et sœurs ?",
+      "context": "Question générale sur la fratrie, sans précision d'âge."
     },
     {
-      "phrase_id": "p4_3",
-      "original": "N bore nan findi i ra.",
-      "phonetic_api": "/n borɛ naⁿ fiⁿdi i ra/",
-      "phonetic_simple": "N BO-RÈ NAN FIN-DI I RA",
-      "translation": "Tu es mon ami.",
-      "context": "Expression de fraternité ou d'affection amicale."
+      "phrase_id": "p3",
+      "original": "Tara nun xunya yeri na i yi?",
+      "phonetic_api": "/tara nun xuɲa jeri na i ji/",
+      "phonetic_simple": "TA-ra noun khou-GNA yé-ri na i yi",
+      "translation": "Combien de frères et sœurs as-tu ?",
+      "context": "Pour demander le nombre exact de frères et sœurs."
     },
     {
-      "phrase_id": "p4_4",
-      "original": "N maxamɛ sabatixi Conakry nan na.",
-      "phonetic_api": "/n maxamɛ sabatixi Conakry naⁿ na/",
-      "phonetic_simple": "N MA-KHA-MÈ SA-BA-TI-KHI CO-NA-KRY NAN NA",
-      "translation": "Mon frère réside à Conakry.",
-      "context": "Présenter la situation géographique d'un membre de la famille."
+      "phrase_id": "p4",
+      "original": "I baba munse wali rabama?",
+      "phonetic_api": "/i baba munse wali rabama/",
+      "phonetic_simple": "i BA-ba moun-sé wa-li ra-BA-ma",
+      "translation": "Que fait ton père comme travail ?",
+      "context": "Pour demander la profession du père."
     },
     {
-      "phrase_id": "p4_5",
-      "original": "Di muxe na i ma ?",
-      "phonetic_api": "/di muxɛ na i ma/",
-      "phonetic_simple": "DI MOU-KHÈ NA I MA",
-      "translation": "Combien d'enfants as-tu ?",
-      "context": "Discussion conviviale sur la descendance."
+      "phrase_id": "p5",
+      "original": "I xa mixie na minden?",
+      "phonetic_api": "/i xa mixie na minden/",
+      "phonetic_simple": "i kha MI-xi-é na min-DEN",
+      "translation": "Où vivent tes parents ?",
+      "context": "Pour demander le lieu de résidence de la famille."
     },
     {
-      "phrase_id": "p4_6",
-      "original": "N maginɛ na i salifé.",
-      "phonetic_api": "/n maɡinɛ na i salifɛ/",
-      "phonetic_simple": "N MA-GUI-NÈ NA I SA-LI-FÉ",
-      "translation": "Ma sœur te salue chaleureusement.",
-      "context": "Transmettre les salutations d'un proche."
-    },
-    {
-      "phrase_id": "p4_7",
-      "original": "A ginɛ xili Fanta.",
-      "phonetic_api": "/a ɡinɛ xili faⁿta/",
-      "phonetic_simple": "A GUI-NÈ KHI-LI FAN-TA",
-      "translation": "Sa femme s'appelle Fanta.",
-      "context": "Identification nominale de l'épouse de quelqu'un."
-    },
-    {
-      "phrase_id": "p4_8",
-      "original": "E fan na tana mou ra banxi ma.",
-      "phonetic_api": "/e faⁿ na tana mu ra baⁿxi ma/",
-      "phonetic_simple": "É FAN NA TA-NA MOU RA BAN-KHI MA",
-      "translation": "Eux aussi vont bien à la maison.",
-      "context": "Rassurer globalement sur l'état du foyer."
+      "phrase_id": "p6",
+      "original": "N ma mixie na Konakiri",
+      "phonetic_api": "/n ma mixie na konakiri/",
+      "phonetic_simple": "n ma MI-xi-é na ko-na-KI-ri",
+      "translation": "Mes parents vivent à Conakry",
+      "context": "Réponse type pour indiquer le lieu de résidence familiale."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'expression des relations de parenté inaliénables sans déterminant complexe",
-      "explanation": "Pour les membres de la famille très proches (liens d'affiliation inaliénables comme père, mère, frère, sœur), le pronom possessif de la première personne se fusionne ou s'appose directement au nom.",
+      "concept": "Les adjectifs possessifs 'naturels' avec les termes de parenté",
+      "explanation": "Les pronoms personnels sujets (n, i, a, muxu, won, wo, e) jouent aussi le rôle d'adjectifs possessifs lorsqu'ils précèdent un nom considéré comme une possession 'naturelle', catégorie qui inclut les parties du corps et certains liens de parenté proches (père, mère, frères et sœurs).",
       "rules": [
-        "L'attaque nasale 'N' fusionne directement devant 'ba' (père) et 'ga' (mère) pour former une seule unité sémantique prénasalisée.",
-        "Pour 'maxamɛ' (frère) ou 'maginɛ' (sœur), le 'N' reste une particule possessive stable immédiatement juxtaposée devant la racine nominale."
+        "Structure : Pronom + nom de parenté (ex. n + baba = 'mon père')",
+        "Cette forme s'oppose aux possessifs 'contractuels' (n ma, i xa...) utilisés pour les biens acquis ou les liens plus éloignés.",
+        "Le pluriel du nom se forme en ajoutant '-e' (tara → tarae, 'frères/sœurs')."
       ],
       "examples": [
         {
-          "structure": "Nba",
-          "phonetic_api": "/ⁿba/",
-          "meaning": "Mon père (litt. N + ba)"
+          "structure": "N baba",
+          "phonetic_api": "/n baba/",
+          "meaning": "mon père"
         },
         {
-          "structure": "N maxamɛ",
-          "phonetic_api": "/n maxamɛ/",
-          "meaning": "Mon frère"
+          "structure": "I nga",
+          "phonetic_api": "/i nga/",
+          "meaning": "ta mère"
+        },
+        {
+          "structure": "Wo bore",
+          "phonetic_api": "/wo bore/",
+          "meaning": "votre ami"
         }
       ]
     },
     {
-      "concept": "La distinction de genre pour les descendants : 'xamɛ di' et 'ginɛ di'",
-      "explanation": "Le mot 'di' désigne l'enfant de manière neutre. Pour spécifier le genre d'un fils ou d'une fille, la grammaire soussou accole les déterminants de sexe 'xamɛ' (mâle) ou 'ginɛ' (femelle) juste avant le substantif.",
+      "concept": "Le verbe 'avoir' : na + pronom + yi",
+      "explanation": "Pour exprimer la possession (avoir un frère, avoir une maison), le soussou utilise la construction 'na' + pronom + 'yi', placée après le nom possédé.",
       "rules": [
-        "Structure : [Possessif] + [Genre] + di",
-        "Ne pas inverser l'ordre des composants."
+        "Structure affirmative : [Nom] + na + [pronom] + yi",
+        "Structure négative (forme courante) : [Nom] + mu + [pronom] + yi"
       ],
       "examples": [
         {
-          "structure": "N xamɛ di",
-          "phonetic_api": "/n xamɛ di/",
-          "meaning": "Mon fils (litt. Mon mâle enfant)"
+          "structure": "Tara na n yi",
+          "phonetic_api": "/tara na n ji/",
+          "meaning": "J'ai un frère/une sœur"
         },
         {
-          "structure": "N ginɛ di",
-          "phonetic_api": "/n ɡinɛ di/",
-          "meaning": "Ma fille (litt. Ma femelle enfant)"
+          "structure": "Tara mu n yi",
+          "phonetic_api": "/tara mu n ji/",
+          "meaning": "Je n'ai pas de frère/sœur"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Moussa",
-      "text": "I kéna, Fanta ! I nba na naxan na ?",
-      "phonetic_api": "/i kéna faⁿta i ⁿba na naxaⁿ na/",
-      "phonetic_simple": "I KÉ-NA, FAN-TA ! I N-BA NA NA-KHAN NA",
-      "translation": "Salut Fanta ! Où est ton père ?"
+      "speaker": "A",
+      "text": "I baba xili di?",
+      "phonetic_api": "/i baba xili di/",
+      "phonetic_simple": "i BA-ba KHI-li di",
+      "translation": "Comment s'appelle ton père ?"
     },
     {
-      "speaker": "Fanta",
-      "text": "Nba na sabatitofe banxi ma, Moussa. Tana mou gna ?",
-      "phonetic_api": "/ⁿba na sabatitofɛ baⁿxi ma musa tana mu ɲa/",
-      "phonetic_simple": "N-BA NA SA-BA-TI-TO-FÈ BAN-KHI MA, MOUS-SA. TA-NA MOU NYA",
-      "translation": "Mon père se repose à la maison, Moussa. Tout va bien chez toi ?"
+      "speaker": "B",
+      "text": "N baba xili Jibiriba.",
+      "phonetic_api": "/n baba xili dʒibiriba/",
+      "phonetic_simple": "n BA-ba KHI-li dji-bi-RI-ba",
+      "translation": "Mon père s'appelle Jibiriba."
     },
     {
-      "speaker": "Moussa",
-      "text": "Tana mou febe. I maxamɛ fan na di ?",
-      "phonetic_api": "/tana mu fɛbɛ i maxamɛ faⁿ na di/",
-      "phonetic_simple": "TA-NA MOU FÈ-BÈ. I MA-KHA-MÈ FAN NA DI ?",
-      "translation": "Aucun mal. Et ton frère, comment va-t-il ?"
+      "speaker": "A",
+      "text": "Tara nun xunya na i yi?",
+      "phonetic_api": "/tara nun xuɲa na i ji/",
+      "phonetic_simple": "TA-ra noun khou-GNA na i yi",
+      "translation": "As-tu des frères et sœurs ?"
     },
     {
-      "speaker": "Fanta",
-      "text": "A na walife Conakry. A ginɛ fan na tana mou ra.",
-      "phonetic_api": "/a na walifɛ Conakry a ɡinɛ faⁿ na tana mu ra/",
-      "phonetic_simple": "A NA WA-LI-FÈ CO-NA-KRY. A GUI-NÈ FAN NA TA-NA MOU RA",
-      "translation": "Il est en train de travailler à Conakry. Sa femme aussi va bien."
+      "speaker": "B",
+      "text": "Iyo, tara nun xunya na n yi.",
+      "phonetic_api": "/ijo, tara nun xuɲa na n ji/",
+      "phonetic_simple": "i-yo, TA-ra noun khou-GNA na n yi",
+      "translation": "Oui, j'ai des frères et sœurs (aînés et cadets)."
     },
     {
-      "speaker": "Moussa",
-      "text": "I nouwali, Fanta. Ala m'mali.",
-      "phonetic_api": "/i nuwali faⁿta ala mːali/",
-      "phonetic_simple": "I NOU-WA-LI, FAN-TA. A-LA M-MA-LI",
-      "translation": "Merci pour les nouvelles, Fanta. Que Dieu nous protège."
+      "speaker": "A",
+      "text": "I baba munse wali rabama?",
+      "phonetic_api": "/i baba munse wali rabama/",
+      "phonetic_simple": "i BA-ba moun-sé wa-li ra-BA-ma",
+      "translation": "Que fait ton père comme travail ?"
+    },
+    {
+      "speaker": "B",
+      "text": "Tela na n baba ra.",
+      "phonetic_api": "/tela na n baba ra/",
+      "phonetic_simple": "TÉ-la na n BA-ba ra",
+      "translation": "Mon père est tailleur."
+    },
+    {
+      "speaker": "A",
+      "text": "I xa mixie na minden?",
+      "phonetic_api": "/i xa mixie na minden/",
+      "phonetic_simple": "i kha MI-xi-é na min-DEN",
+      "translation": "Où vivent tes parents ?"
+    },
+    {
+      "speaker": "B",
+      "text": "N ma mixie na Konakiri.",
+      "phonetic_api": "/n ma mixie na konakiri/",
+      "phonetic_simple": "n ma MI-xi-é na ko-na-KI-ri",
+      "translation": "Mes parents vivent à Conakry."
     }
   ],
   "cultural_notes": [
-    "Dans la structure sociétale soussou en Guinée, la famille élargie joue un rôle central. Saluer les parents et s'informer précisément de l'état de l'épouse ('ginɛ') ou des aïeux ('benba', 'mama') témoigne d'un profond alignement avec les valeurs traditionnelles de respect mutuel et de solidarité communautaire."
+    "Chez les Soussou comme dans la plupart des sociétés africaines, la notion de 'famille' (denbaya) désigne généralement la famille élargie et non le seul foyer nucléaire.",
+    "Le soussou distingue toujours les frères/sœurs aînés ('tara') des cadets ('xunya'), ce qui reflète l'importance sociale de l'aînesse dans la culture soussou."
   ],
   "exercises": [
     {
-      "exercise_id": "ex4_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel terme désigne de façon précise 'ma mère' en combinant la possession directe ?",
+      "question": "Comment dit-on 'mon père' en soussou ?",
       "options": [
-        "Nba",
-        "Nga",
-        "Mama"
+        "N baba",
+        "N ma baba",
+        "Baba n na"
       ],
-      "correct_answer": "Nga",
-      "explanation": "'Nga' est la contraction directe pour 'ma mère', tandis que 'nba' signifie 'mon père'."
+      "correct_answer": "N baba",
+      "explanation": "Les termes de parenté proche utilisent le possessif 'naturel' direct : pronom + nom, sans particule intermédiaire."
     },
     {
-      "exercise_id": "ex4_2",
-      "type": "multiple_choice",
-      "question": "Comment traduit-on l'expression 'mon fils' en explicitant le genre ?",
-      "options": [
-        "N ginɛ di",
-        "N maxamɛ",
-        "N xamɛ di"
-      ],
-      "correct_answer": "N xamɛ di",
-      "explanation": "'Xamɛ' (mâle) placé devant 'di' (enfant) spécifie qu'il s'agit d'un fils."
-    },
-    {
-      "exercise_id": "ex4_3",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "N [ ___ ] xili Fanta. (Sa femme s'appelle Fanta.)",
-      "correct_answer": "ginɛ",
-      "hint": "Ce mot désigne l'épouse ou la femme en soussou."
-    },
-    {
-      "exercise_id": "ex4_4",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "N [ ___ ] findi mixi fanyi ra. (Mon père est une bonne personne.)",
-      "correct_answer": "ba",
-      "hint": "La racine pour père complétée par la nasale de possession donne N..."
+      "sentence_with_blank": "Pour dire 'j'ai un frère', on dit : Tara na n [ ___ ].",
+      "correct_answer": "yi",
+      "hint": "C'est la particule qui accompagne le verbe 'avoir' en soussou."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Peace Corps Guinée — Xarandi Xa Buki, Livre du stagiaire Sosoxui (Susu Language Lessons)",
+      "url": "https://fsi-languages.yojik.eu/languages/PeaceCorps/Susu/susu-language-course.pdf"
+    },
+    {
+      "label": "Live Lingua Project — Peace Corps Susu Language Lessons",
+      "url": "https://www.livelingua.com/course/peace_corps/susu_language_lessons"
+    },
+    {
+      "label": "Wikivoyage — Susu phrasebook",
+      "url": "https://en.wikivoyage.org/wiki/Susu_phrasebook"
+    }
+  ],
+  "confidence": "élevée",
+  "confidence_note": "Vocabulaire de parenté et dialogue directement issus de la Compétence n°2 (Denbaya) du manuel Peace Corps Susu, avec confirmation croisée du lexique familial du Wikivoyage Susu phrasebook (nba/baba, nga, tanun, mama)."
 }

@@ -6,218 +6,274 @@
   "lesson_number": 8,
   "title": "La nourriture et les boissons (commander au marché ou au restaurant)",
   "learning_objectives": [
-    "Nommer les aliments fondamentaux et les boissons courantes",
-    "Exprimer la faim, la soif et le désir de consommer",
-    "Passer une commande simple au marché ou dans un lieu de restauration"
+    "Nommer les aliments et boissons de base (riz, eau, sauce, fruits)",
+    "Demander le prix d'un produit au marché",
+    "Négocier un prix simplement (do bo a la = diminue un peu)",
+    "Exprimer la faim et la soif"
   ],
   "phonetic_focus": {
-    "key_sounds": "Le mot 'ji' (eau) possède une consonne affriquée sonore nette /d͡ʒi/. Le mot 'malo' (riz) comporte des voyelles courtes. L'expression 'dolo' (boisson fermentée/bière) doit être bien articulée avec un 'o' moyen stable.",
-    "common_pitfalls": "Veillez à ne pas prononcer le 'g' de 'sogo' (viande) de manière trop agressive. C'est une articulation douce entre deux voyelles identiques."
+    "key_sounds": [
+      "Le [dʒ] de 'jeli' (combien/prix) vs le [j] de 'ji' (eau)",
+      "La voyelle longue de 'saa' à distinguer d'autres mots courts",
+      "Le ton descendant de 'kagbèlèn' (cher)"
+    ],
+    "common_pitfalls": [
+      "Confondre 'ji' (eau) et 'jeli' (combien/griot selon contexte)",
+      "Oublier la formule de politesse avant de négocier un prix"
+    ]
   },
   "vocabulary": [
     {
-      "word_id": "v8_1",
-      "term": "Ji",
-      "phonetic_api": "/d͡ʒi/",
-      "phonetic_simple": "DJI",
-      "translation": "L'eau",
-      "example_sentence": "Ji bɛ yan ?",
-      "example_phonetic": "/d͡ʒi bɛ d͡ʒan/",
-      "example_translation": "Y a-t-il de l'eau ici ?"
+      "word_id": "v1",
+      "term": "ji",
+      "phonetic_api": "[dʒi]",
+      "phonetic_simple": "dji",
+      "translation": "eau",
+      "example_sentence": "Ji di n ma.",
+      "example_phonetic": "[dʒi di n ma]",
+      "example_translation": "Donne-moi de l'eau."
     },
     {
-      "word_id": "v8_2",
-      "term": "Malo",
-      "phonetic_api": "/ma.lo/",
-      "phonetic_simple": "MA-LO",
-      "translation": "Le riz (cuit ou grain)",
-      "example_sentence": "N bɛ malo fɛ",
-      "example_phonetic": "/n̩ bɛ ma.lo fɛ/",
-      "example_translation": "Je veux du riz."
+      "word_id": "v2",
+      "term": "malo / cinin",
+      "phonetic_api": "[malo] / [tʃinin]",
+      "phonetic_simple": "ma-lo / tchi-nin",
+      "translation": "riz / plat de riz cuit",
+      "example_sentence": "Moso bada cinin sii tabali la.",
+      "example_phonetic": "[moso bada tʃinin siː tabali la]",
+      "example_translation": "La femme a posé le riz sur la table."
     },
     {
-      "word_id": "v8_3",
-      "term": "Sogo",
-      "phonetic_api": "/so.ɡɔ/",
-      "phonetic_simple": "SO-GƆ",
-      "translation": "La viande",
-      "example_sentence": "Sogo jeli bɛ ?",
-      "example_phonetic": "/so.ɡɔ d͡ʒe.li bɛ/",
-      "example_translation": "Combien coûte la viande ?"
+      "word_id": "v3",
+      "term": "manfen",
+      "phonetic_api": "[manfɛn]",
+      "phonetic_simple": "man-fèn",
+      "translation": "sauce",
+      "example_sentence": "Manfen diman.",
+      "example_phonetic": "[manfɛn diman]",
+      "example_translation": "La sauce est bonne."
     },
     {
-      "word_id": "v8_4",
-      "term": "Jɛgɛ",
-      "phonetic_api": "/d͡ʒɛ.ɡɛ/",
-      "phonetic_simple": "DJƐ-GƐ",
-      "translation": "Le poisson",
-      "example_sentence": "N muso bɛ jɛgɛ san la",
-      "example_phonetic": "/n̩ mu.so bɛ d͡ʒɛ.ɡɛ sã la/",
-      "example_translation": "Ma femme achète du poisson."
+      "word_id": "v4",
+      "term": "yirije",
+      "phonetic_api": "[jiridʒe]",
+      "phonetic_simple": "yi-ri-djé",
+      "translation": "papaye",
+      "example_sentence": "Yirije ye jeli di ?",
+      "example_phonetic": "[jiridʒe je dʒeli di]",
+      "example_translation": "Combien coûte la papaye ?"
     },
     {
-      "word_id": "v8_5",
-      "term": "Nɔnɔ",
-      "phonetic_api": "/nɔ.nɔ/",
-      "phonetic_simple": "NƆ-NƆ",
-      "translation": "Le lait",
-      "example_sentence": "Nɔnɔ gbe bɛ yan",
-      "example_phonetic": "/nɔ.nɔ ɡ͡be bɛ d͡ʒan/",
-      "example_translation": "Il y a du lait frais ici."
+      "word_id": "v5",
+      "term": "lemunun",
+      "phonetic_api": "[lemunun]",
+      "phonetic_simple": "lé-mou-noun",
+      "translation": "orange (fruit)",
+      "example_sentence": "Moso ye lemunun dila a den ma.",
+      "example_phonetic": "[moso je lemunun dila a dɛn ma]",
+      "example_translation": "La femme donne une orange à son enfant."
     },
     {
-      "word_id": "v8_6",
-      "term": "Buruyidi",
-      "phonetic_api": "/bu.ru.ji.di/",
-      "phonetic_simple": "BOU-ROU-YI-DI",
-      "translation": "Le pain",
-      "example_sentence": "N bɛ buruyidi san la",
-      "example_phonetic": "/n̩ bɛ bu.ru.ji.di sã la/",
-      "example_translation": "J'achète du pain."
+      "word_id": "v6",
+      "term": "namasa",
+      "phonetic_api": "[namasa]",
+      "phonetic_simple": "na-ma-sa",
+      "translation": "banane",
+      "example_sentence": "Namasa diman.",
+      "example_phonetic": "[namasa diman]",
+      "example_translation": "La banane est bonne."
     },
     {
-      "word_id": "v8_7",
-      "term": "Na",
-      "phonetic_api": "/na/",
-      "phonetic_simple": "NA",
-      "translation": "La sauce",
-      "example_sentence": "Na nin ka di",
-      "example_phonetic": "/na nĩ ka di/",
-      "example_translation": "Cette sauce est bonne."
+      "word_id": "v7",
+      "term": "barika",
+      "phonetic_api": "[barika]",
+      "phonetic_simple": "ba-ri-ka",
+      "translation": "merci",
+      "example_sentence": "Barika, i la duruki jèlè.",
+      "example_phonetic": "[barika i la duruki dʒɛlɛ]",
+      "example_translation": "Merci, voici ta chemise."
     },
     {
-      "word_id": "v8_8",
-      "term": "Kɔngɔ",
-      "phonetic_api": "/kɔŋ.ɡɔ/",
-      "phonetic_simple": "KƆNG-GO",
-      "translation": "La faim",
-      "example_sentence": "Kɔngɔ bɛ n na",
-      "example_phonetic": "/kɔŋ.ɡɔ bɛ n̩ na/",
-      "example_translation": "J'ai faim (litt. La faim est en moi)."
-    },
-    {
-      "word_id": "v8_9",
-      "term": "Min",
-      "phonetic_api": "/mĩ/",
-      "phonetic_simple": "MIN",
-      "translation": "Boire",
-      "example_sentence": "N bɛ ji min la",
-      "example_phonetic": "/n̩ bɛ d͡ʒi mĩ la/",
-      "example_translation": "Je bois de l'eau."
-    },
-    {
-      "word_id": "v8_10",
-      "term": "Domo",
-      "phonetic_api": "/do.mo/",
-      "phonetic_simple": "DO-MO",
-      "translation": "Manger / Consumer",
-      "example_sentence": "An bɛ malo domo la",
-      "example_phonetic": "/an bɛ ma.lo do.mo la/",
-      "example_translation": "Nous mangeons du riz."
+      "word_id": "v8",
+      "term": "sara",
+      "phonetic_api": "[sara]",
+      "phonetic_simple": "sa-ra",
+      "translation": "payer",
+      "example_sentence": "Mafèlèli sara, wa lolu le.",
+      "example_phonetic": "[mafɛlɛli sara wa lolu le]",
+      "example_translation": "La consultation coûte 5 000."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p8_1",
-      "original": "Kɔngɔ bɛ n na !",
-      "phonetic_api": "/kɔŋ.ɡɔ bɛ n̩ na/",
-      "phonetic_simple": "KƆNG-GO BƐ N NA !",
-      "translation": "J'ai faim !",
-      "context": "Formule indispensable pour signaler son besoin de manger."
+      "phrase_id": "p1",
+      "original": "Yirije ye jeli di ?",
+      "phonetic_api": "[jiridʒe je dʒeli di]",
+      "phonetic_simple": "yi-ri-djé-yé-dié-li-di",
+      "translation": "Combien coûte la papaye ?",
+      "context": "Demande de prix au marché"
     },
     {
-      "phrase_id": "p8_2",
-      "original": "Ji jeli bɛ ?",
-      "phonetic_api": "/d͡ʒi d͡ʒe.li bɛ/",
-      "phonetic_simple": "DJI DJÉ-LI BƐ ?",
-      "translation": "Combien coûte l'eau ?",
-      "context": "Demander le prix d'une bouteille ou d'un sachet d'eau."
+      "phrase_id": "p2",
+      "original": "Bilolu le",
+      "phonetic_api": "[bilolu le]",
+      "phonetic_simple": "bi-lo-lou-lé",
+      "translation": "C'est cinquante (francs)",
+      "context": "Réponse indiquant un prix"
     },
     {
-      "phrase_id": "p8_3",
-      "original": "N bɛ malo do ni sogo fɛ.",
-      "phonetic_api": "/n̩ bɛ ma.lo do ni so.ɡɔ fɛ/",
-      "phonetic_simple": "N BƐ MA-LO DO NI SO-GƆ FƐ.",
-      "translation": "Je voudrais du riz avec de la viande.",
-      "context": "Passer commande auprès d'un restaurateur."
+      "phrase_id": "p3",
+      "original": "Wo kasiya",
+      "phonetic_api": "[wo kasija]",
+      "phonetic_simple": "wo-ka-si-ya",
+      "translation": "C'est beaucoup (cher)",
+      "context": "Exprimer que le prix demandé est trop élevé"
     },
     {
-      "phrase_id": "p8_4",
-      "original": "Nin ka di kpe !",
-      "phonetic_api": "/nĩ ka di k͡pe/",
-      "phonetic_simple": "NIN KA DI KPÉ !",
-      "translation": "C'est très bon !",
-      "context": "Complimenter la personne qui a préparé le repas."
+      "phrase_id": "p4",
+      "original": "Do bo a la",
+      "phonetic_api": "[do bo a la]",
+      "phonetic_simple": "do-bo-a-la",
+      "translation": "Diminue un peu",
+      "context": "Formule de négociation au marché"
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Awa, n bada lolu bo a la",
+      "phonetic_api": "[awa n bada lolu bo a la]",
+      "phonetic_simple": "a-wa-n-ba-da-lo-lou-bo-a-la",
+      "translation": "D'accord, je diminue de cinq",
+      "context": "Réponse du vendeur à une négociation"
+    },
+    {
+      "phrase_id": "p6",
+      "original": "A kaari-kaari ye jeli di ?",
+      "phonetic_api": "[a kaːri kaːri je dʒeli di]",
+      "phonetic_simple": "a-ka-a-ri-ka-a-ri-yé-dié-li-di",
+      "translation": "Ton dernier prix, c'est combien ?",
+      "context": "Demande finale de négociation"
+    },
+    {
+      "phrase_id": "p7",
+      "original": "Wo kagbèlèn",
+      "phonetic_api": "[wo kaɡ͜bɛlɛn]",
+      "phonetic_simple": "wo-ka-gbè-lèn",
+      "translation": "C'est cher",
+      "context": "Réaction du client au prix annoncé"
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'expression des états physiques internes (faim, soif)",
-      "explanation": "En malinké, la faim ('kɔngɔ') ou la soif ('minto') ne sont pas exprimées par un verbe d'action équivalent à 'avoir', mais traités comme des entités physiques réelles qui résident ou s'exercent 'dans/sur' la personne à l'aide du locatif 'la' (qui devient 'na' après une consonne nasale).",
+      "concept": "Demander un prix avec 'jeli' (combien)",
+      "explanation": "La structure interrogative de prix place 'jeli' (combien) suivi de 'di' à la fin de la question, après le nom du produit.",
       "rules": [
-        "Structure : [Sensation] + bɛ + [Pronom objet] + la/na."
+        "Structure : [Produit] + ye + jeli + di ?",
+        "Réponse : [Nombre] + le"
       ],
       "examples": [
         {
-          "structure": "Kɔngɔ bɛ n na",
-          "phonetic_api": "/kɔŋ.ɡɔ bɛ n̩ na/",
-          "meaning": "La faim est en moi (J'ai faim)"
+          "structure": "[Produit] ye jeli di ?",
+          "phonetic_api": "[jeli di]",
+          "meaning": "Combien coûte [produit] ?"
+        }
+      ]
+    },
+    {
+      "concept": "Négocier un prix",
+      "explanation": "Le marchandage est une pratique normale : 'do bo a la' (diminue un peu) et 'a kaari-kaari' (dernier prix) sont des formules figées de négociation.",
+      "rules": [
+        "'do' = un peu, une partie ; 'bo a la' = enlève-en (du prix)",
+        "'kaari-kaari' insiste sur le caractère final/ultime du prix"
+      ],
+      "examples": [
+        {
+          "structure": "Do bo a la",
+          "phonetic_api": "[do bo a la]",
+          "meaning": "Enlève-en un peu (du prix)"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Le Client",
-      "text": "I ni tile, n ba. Kɔngɔ bɛ n na kpe. Malo bɛ yan ?",
-      "phonetic_api": "/i ni ti.le n̩ ba kɔŋ.ɡɔ bɛ n̩ na k͡pe ma.lo bɛ d͡ʒan/",
-      "phonetic_simple": "I NI TI-LÉ, N BA. KƆNG-GO BƐ N NA KPÉ. MA-LO BƐ YAN ?",
-      "translation": "Bonjour maman. J'ai vraiment très faim. Y a-t-il du riz ici ?"
+      "speaker": "Client",
+      "text": "N ma, i ni tele. Yirije ye jeli di ?",
+      "phonetic_api": "[n ma i ni tele jiridʒe je dʒeli di]",
+      "phonetic_simple": "n-ma, i-ni-té-lé. yi-ri-djé-yé-dié-li-di",
+      "translation": "Bonjour madame. Combien coûte la papaye ?"
     },
     {
-      "speaker": "La Restauratrice",
-      "text": "Nse, denkɛ. Malo bɛ yan. I bɛ sogo fɛ ko jɛgɛ ?",
-      "phonetic_api": "/n̩.se dẽ.kɛ ma.lo bɛ d͡ʒan i bɛ so.ɡɔ fɛ ko d͡ʒɛ.ɡɛ/",
-      "phonetic_simple": "N-SÉ, DEN-KƐ. MA-LO BƐ YAN. I BƐ SO-GƆ FƐ KO DJƐ-GƐ ?",
-      "translation": "Bonjour mon fils. Le riz est disponible. Veux-tu de la viande ou bien du poisson ?"
+      "speaker": "Vendeuse",
+      "text": "Bilolu le.",
+      "phonetic_api": "[bilolu le]",
+      "phonetic_simple": "bi-lo-lou-lé",
+      "translation": "C'est cinquante."
     },
     {
-      "speaker": "Le Client",
-      "text": "N bɛ sogo fɛ. I ni kɛ. Ji bɛ yan min la ?",
-      "phonetic_api": "/n̩ bɛ so.ɡɔ fɛ i ni kɛ d͡ʒi bɛ d͡ʒan mĩ la/",
-      "phonetic_simple": "N BƐ SO-GƆ FƐ. I NI KƐ. DJI BƐ YAN MIN LA ?",
-      "translation": "Je veux de la viande. Merci. Y a-t-il de l'eau à boire ici ?"
+      "speaker": "Client",
+      "text": "Wo kasiya. Do bo a la.",
+      "phonetic_api": "[wo kasija do bo a la]",
+      "phonetic_simple": "wo-ka-si-ya. do-bo-a-la",
+      "translation": "C'est beaucoup. Diminue un peu."
     },
     {
-      "speaker": "La Restauratrice",
-      "text": "Ji gbe bɛ yan. Malo nin laila i bolo, domo !",
-      "phonetic_api": "/d͡ʒi ɡ͡be bɛ d͡ʒan ma.lo nĩ lai.la i bo.lo do.mo/",
-      "phonetic_simple": "DJI GBÉ BƐ YAN. MA-LO NIN LAI-LA I BO-LO, DO-MO !",
-      "translation": "De l'eau pure est là. Voici ton assiette de riz, mange !"
+      "speaker": "Vendeuse",
+      "text": "Awa, n bada lolu bo a la.",
+      "phonetic_api": "[awa n bada lolu bo a la]",
+      "phonetic_simple": "a-wa, n-ba-da-lo-lou-bo-a-la",
+      "translation": "D'accord, je diminue de cinq."
+    },
+    {
+      "speaker": "Client",
+      "text": "Barika !",
+      "phonetic_api": "[barika]",
+      "phonetic_simple": "ba-ri-ka",
+      "translation": "Merci !"
     }
   ],
   "cultural_notes": [
-    "Le repas en communauté mandingue est hautement sacré. Traditionnellement, le plat est servi dans une grande calebasse ou un grand bol unique où tout le monde mange ensemble avec la main droite. Avant et après le repas, proposer de l'eau propre pour laver les mains est une obligation d'hospitalité absolue."
+    "Le marchandage est une pratique sociale valorisée dans les marchés de Haute-Guinée : refuser de négocier peut même être perçu comme un manque d'intérêt pour l'échange ([Malinkuia](https://fr.scribd.com/document/499114939/Malinkuia)).",
+    "Le riz ('malo'/'cinin') constitue l'aliment de base de la cuisine guinéenne, accompagné de sauces ('manfen') à base d'arachide, de feuilles ou de poisson."
   ],
   "exercises": [
     {
-      "exercise_id": "A1_M3_L8_ex1",
-      "type": "multiple_choice",
-      "question": "Que signifie littéralement 'Kɔngɔ bɛ n na' ?",
-      "options": [
-        "Je veux boire de l'eau",
-        "La faim est en moi",
-        "Le plat est très cher"
-      ],
-      "correct_answer": "La faim est en moi",
-      "explanation": "'Kɔngɔ' (la faim) est le sujet réel de la phrase nominale locative d'état."
+      "exercise_id": "e1",
+      "type": "traduction",
+      "question": "Traduisez : 'Combien coûte la papaye ?'",
+      "correct_answer": "Yirije ye jeli di ?",
+      "explanation": "Structure '[produit] + ye + jeli + di ?'"
     },
     {
-      "exercise_id": "A1_M3_L8_ex2",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "N bɛ [ ___ ] min la (Je bois de l'eau).",
-      "correct_answer": "ji",
-      "hint": "C'est l'élément liquide vital de base."
+      "exercise_id": "e2",
+      "type": "choix_multiple",
+      "question": "Comment demande-t-on de baisser un prix ?",
+      "options": [
+        "Barika",
+        "Do bo a la",
+        "Ji di n ma",
+        "Wo kagbèlèn"
+      ],
+      "correct_answer": "Do bo a la",
+      "explanation": "C'est la formule figée de négociation signifiant 'diminue un peu'."
+    },
+    {
+      "exercise_id": "e3",
+      "type": "texte_a_trous",
+      "sentence_with_blank": "___ di n ma.  (Donne-moi de l'eau.)",
+      "correct_answer": "Ji",
+      "hint": "C'est le mot pour 'eau'."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Malinkuia — Introduction à la langue malinké (grammaire complète, variété du Wulada, Haute-Guinée)",
+      "url": "https://fr.scribd.com/document/499114939/Malinkuia"
+    },
+    {
+      "label": "Diané & Vydrin, « Propositions pour l'orthographe du maninka (Guinée) », Mandenkan 52 (2014)",
+      "url": "https://shs.hal.science/halshs-01096594v1/document"
+    }
+  ],
+  "confidence": "élevée",
+  "confidence_note": "Vocabulaire et dialogue de marché directement issus de la section 'Au marché' de la grammaire Malinkuia, une source spécifique au malinké de Haute-Guinée avec exemples de négociation authentiques."
 }

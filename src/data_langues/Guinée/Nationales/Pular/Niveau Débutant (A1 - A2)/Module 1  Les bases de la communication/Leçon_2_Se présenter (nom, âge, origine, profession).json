@@ -4,268 +4,287 @@
   "module_number": 1,
   "module_title": "Les bases de la communication",
   "lesson_number": 2,
-  "title": "Se présenter",
+  "title": "Se présenter (nom, âge, origine, profession)",
   "learning_objectives": [
-    "Savoir décliner son prénom (innde), son patronyme (yettoore) et son âge",
-    "Exprimer son origine géographique et sa nationalité",
-    "Énoncer sa profession ou son statut d'activité principal"
+    "Donner et demander le nom d'une personne",
+    "Indiquer sa nationalité, son origine et son âge",
+    "Nommer sa profession en utilisant la particule 'ko'"
   ],
   "phonetic_focus": {
-    "key_sounds": "La consonne pré-nasalisée 'nd' (/nd/) exige l'émission simultanée d'un son nasal léger avant l'occlusive dentale. Le son 'y' (/j/) est semi-vocalique, glissant. La consonne implosive 'ɗ' (/ɗ/) se réalise en aspirant légèrement l'air vers le larynx lors du relâchement.",
-    "common_pitfalls": "Veiller à ne pas détacher le 'n' du 'd' dans 'innde' (ne pas dire ine-de, mais bien inn-de). L'implosive dans 'inneteɗaa' doit être distincte d'un 'd' ordinaire sous peine de masquer la forme passive du verbe."
+    "key_sounds": "La particule de mise en relief 'ko' (c'est) et sa négation 'wonaa' (ce n'est pas) sont essentielles pour se présenter. Le son 'c' se prononce 'tch' comme en italien (cello), et le 'j' se prononce comme le 'dj' anglais de 'jump'.",
+    "common_pitfalls": "Les francophones oublient souvent la particule 'ko' devant le nom ou la profession ('Ko Salyu mi innete' et non 'Salyu mi innete'), car le français n'a pas d'équivalent direct pour cette mise en relief systématique."
   },
   "vocabulary": [
     {
-      "word_id": "v2_1",
+      "word_id": "v1",
       "term": "innde",
       "phonetic_api": "/inːde/",
-      "phonetic_simple": "INN-DE",
-      "translation": "prénom, nom de baptême",
-      "example_sentence": "Innde am ko Ousmane.",
-      "example_phonetic": "/inːde am ko usmaːne/",
-      "example_translation": "Mon prénom est Ousmane."
+      "phonetic_simple": "INNE-DÉ",
+      "translation": "nom (prénom)",
+      "example_sentence": "Innde maa?",
+      "example_phonetic": "/inːde maː/",
+      "example_translation": "Ton nom (prénom) ?"
     },
     {
-      "word_id": "v2_2",
+      "word_id": "v2",
       "term": "yettoore",
       "phonetic_api": "/jetːoːre/",
-      "phonetic_simple": "YET-TOO-RE",
-      "translation": "nom de famille, clan patronymique",
-      "example_sentence": "Yettoore makko ko Sow.",
-      "example_phonetic": "/jetːoːre makːo ko sow/",
-      "example_translation": "Son nom de famille est Sow."
+      "phonetic_simple": "YÈT-TOO-RÉ",
+      "translation": "nom de famille",
+      "example_sentence": "Yettoore maa?",
+      "example_phonetic": "/jetːoːre maː/",
+      "example_translation": "Ton nom de famille ?"
     },
     {
-      "word_id": "v2_3",
-      "term": "duuɓi",
+      "word_id": "v3",
+      "term": "jannoowo",
+      "phonetic_api": "/dʒanːoːwo/",
+      "phonetic_simple": "DJANN-OO-WO",
+      "translation": "enseignant, professeur",
+      "example_sentence": "Ko mi jannoowo.",
+      "example_phonetic": "/ko mi dʒanːoːwo/",
+      "example_translation": "Je suis enseignant."
+    },
+    {
+      "word_id": "v4",
+      "term": "gine'enjo",
+      "phonetic_api": "/gineʔendʒo/",
+      "phonetic_simple": "GUI-NÉ-ÈNE-DJO",
+      "translation": "Guinéen",
+      "example_sentence": "Ko a Gine'enjo?",
+      "example_phonetic": "/ko a gineʔendʒo/",
+      "example_translation": "Es-tu Guinéen ?"
+    },
+    {
+      "word_id": "v5",
+      "term": "pullo-fuuta",
+      "phonetic_api": "/pulːo fuːta/",
+      "phonetic_simple": "POUL-LO FOU-TA",
+      "translation": "Peul du Fouta (Fouta-Djalon)",
+      "example_sentence": "Ko o Pullo-Fuuta.",
+      "example_phonetic": "/ko o pulːo fuːta/",
+      "example_translation": "Il/elle est Peul du Fouta."
+    },
+    {
+      "word_id": "v6",
+      "term": "duuåi",
       "phonetic_api": "/duːɓi/",
-      "phonetic_simple": "DUU-BHI",
-      "translation": "années, âge",
-      "example_sentence": "Mi jogii duuɓi nogas.",
-      "example_phonetic": "/mi d͡ʒoɡiː duːɓi noɡas/",
-      "example_translation": "J'ai vingt ans."
+      "phonetic_simple": "DOU-BI",
+      "translation": "années (âge)",
+      "example_sentence": "Ko duuåi jelu maruðaa?",
+      "example_phonetic": "/ko duːɓi dʒelu maruɗaː/",
+      "example_translation": "Quel âge as-tu ? (litt. combien d'années as-tu)"
     },
     {
-      "word_id": "v2_4",
-      "term": "gorko",
-      "phonetic_api": "/ɡorko/",
-      "phonetic_simple": "GOR-KO",
-      "translation": "homme, individu mâle",
-      "example_sentence": "O gorko no daritii.",
-      "example_phonetic": "/o ɡorko no daritiː/",
-      "example_translation": "Cet homme est grand de taille."
+      "word_id": "v7",
+      "term": "iwugol",
+      "phonetic_api": "/iwugol/",
+      "phonetic_simple": "I-OU-GOL",
+      "translation": "venir de, provenir de",
+      "example_sentence": "Ko Amerik mi iwi.",
+      "example_phonetic": "/ko amerik mi iwi/",
+      "example_translation": "Je viens d'Amérique."
     },
     {
-      "word_id": "v2_5",
-      "term": "debbo",
-      "phonetic_api": "/debːo/",
-      "phonetic_simple": "DEB-BO",
-      "translation": "femme, individu femelle",
-      "example_sentence": "Ko o debbo jangoowo.",
-      "example_phonetic": "/ko o debːo d͡ʒanɡoːwo/",
-      "example_translation": "C'est une femme étudiante."
-    },
-    {
-      "word_id": "v2_6",
-      "term": "iiral",
-      "phonetic_api": "/iːral/",
-      "phonetic_simple": "II-RAL",
-      "translation": "provenance, origine",
-      "example_sentence": "Iiral am ko Labe.",
-      "example_phonetic": "/iːral am ko labe/",
-      "example_translation": "Mon origine est Labé."
-    },
-    {
-      "word_id": "v2_7",
-      "term": "jangoowo",
-      "phonetic_api": "/d͡ʒanɡoːwo/",
-      "phonetic_simple": "DJAN-GOO-WO",
-      "translation": "élève, étudiant, apprenant",
-      "example_sentence": "Mi jangoowo pular.",
-      "example_phonetic": "/mi d͡ʒanɡoːwo pular/",
-      "example_translation": "Je suis étudiant en pular."
-    },
-    {
-      "word_id": "v2_8",
-      "term": "gollottooɗo",
-      "phonetic_api": "/ɡolːotːoːɗo/",
-      "phonetic_simple": "GOL-LOT-TOO-DHO",
-      "translation": "travailleur, employé",
-      "example_sentence": "Ko mi gollottooɗo ɗoo.",
-      "example_phonetic": "/ko mi ɡolːotːoːɗo ɗoː/",
-      "example_translation": "Je suis travailleur ici."
-    },
-    {
-      "word_id": "v2_9",
-      "term": "leydi",
-      "phonetic_api": "/lejdi/",
-      "phonetic_simple": "LEY-DI",
-      "translation": "pays, terre, patrie",
-      "example_sentence": "Leydi am ko Guinee.",
-      "example_phonetic": "/lejdi am ko ɡineː/",
-      "example_translation": "Mon pays est la Guinée."
-    },
-    {
-      "word_id": "v2_10",
-      "term": "hoɗo",
-      "phonetic_api": "/hoɗo/",
-      "phonetic_simple": "HO-DHO",
-      "translation": "résidence, habitation",
-      "example_sentence": "Honto woni hoɗo maa ?",
-      "example_phonetic": "/honto woni hoɗo maː/",
-      "example_translation": "Où se trouve ta résidence ?"
+      "word_id": "v8",
+      "term": "hoðugol",
+      "phonetic_api": "/hoɗugol/",
+      "phonetic_simple": "HO-DOU-GOL",
+      "translation": "habiter, vivre (à un endroit)",
+      "example_sentence": "Ko Maamu mi hoði.",
+      "example_phonetic": "/ko maːmu mi hoɗi/",
+      "example_translation": "J'habite à Mamou."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p2_1",
-      "original": "Ko honno inneteɗaa ?",
+      "phrase_id": "p1",
+      "original": "Ko honno inneteða?",
       "phonetic_api": "/ko honːo inːeteɗaː/",
-      "phonetic_simple": "KO HON-NO IN-NE-TEE-DHAA ?",
+      "phonetic_simple": "KO HONNO INNÉ-TÉ-DAA",
       "translation": "Comment t'appelles-tu ?",
-      "context": "Rencontre initiale, formule standard pour s'enquérir de l'identité."
+      "context": "Question standard pour demander le prénom."
     },
     {
-      "phrase_id": "p2_2",
-      "original": "Innde am ko Kouman.",
-      "phonetic_api": "/inːde am ko kuman/",
-      "phonetic_simple": "INN-DE AM KO KOU-MAN",
-      "translation": "Mon prénom est Kouman.",
-      "context": "Réponse déclinant le prénom."
+      "phrase_id": "p2",
+      "original": "Ko [nom] mi innete.",
+      "phonetic_api": "/ko [nom] mi inːete/",
+      "phonetic_simple": "KO [NOM] MI INNÉ-TÉ",
+      "translation": "Je m'appelle [nom].",
+      "context": "Réponse standard pour se présenter."
     },
     {
-      "phrase_id": "p2_3",
-      "original": "Yettoore am ko Diallo.",
-      "phonetic_api": "/jetːoːre am ko d͡ʒalːo/",
-      "phonetic_simple": "YET-TOO-RE AM KO DIAL-LO",
-      "translation": "Mon nom de famille est Diallo.",
-      "context": "Réponse déclinant le nom de famille clanique."
+      "phrase_id": "p3",
+      "original": "Ko honto iwuðaa?",
+      "phonetic_api": "/ko honto iwuɗaː/",
+      "phonetic_simple": "KO HON-TO I-OU-DAA",
+      "translation": "D'où viens-tu ?",
+      "context": "Pour demander l'origine géographique."
     },
     {
-      "phrase_id": "p2_4",
-      "original": "Honto iireɗaa ?",
-      "phonetic_api": "/honto iːreɗaː/",
-      "phonetic_simple": "HON-TO II-REE-DHAA ?",
-      "translation": "D'où viens-tu ? / Quelle est ton origine ?",
-      "context": "Interrogation sur la localité ou le pays d'origine."
+      "phrase_id": "p4",
+      "original": "Ko honðun gollataa?",
+      "phonetic_api": "/ko honɗun golːataː/",
+      "phonetic_simple": "KO HON-DOUNE GOL-LA-TAA",
+      "translation": "Que fais-tu (comme travail) ?",
+      "context": "Pour demander la profession de quelqu'un."
     },
     {
-      "phrase_id": "p2_5",
-      "original": "Ko mi jeyaaɗo Guinee.",
-      "phonetic_api": "/ko mi d͡ʒejaːɗo ɡineː/",
-      "phonetic_simple": "KO MI JEY-AA-DHO GINEE",
-      "translation": "Je suis originaire de Guinée.",
-      "context": "Affirmation de l'origine nationale."
+      "phrase_id": "p5",
+      "original": "An le?",
+      "phonetic_api": "/an le/",
+      "phonetic_simple": "AN LÉ",
+      "translation": "Et toi ?",
+      "context": "Pour relancer la question vers son interlocuteur."
     },
     {
-      "phrase_id": "p2_6",
-      "original": "Honto hoɗuɗaa ?",
-      "phonetic_api": "/honto hoɗuɗaː/",
-      "phonetic_simple": "HON-TO HO-DHOU-DHAA ?",
-      "translation": "Où habites-tu actuellement ?",
-      "context": "Question sur le lieu de vie présent."
+      "phrase_id": "p6",
+      "original": "Wonaa mi jannoowo.",
+      "phonetic_api": "/wonaː mi dʒanːoːwo/",
+      "phonetic_simple": "WO-NAA MI DJANN-OO-WO",
+      "translation": "Je ne suis pas enseignant.",
+      "context": "Pour nier une affirmation avec 'ko' (négation : wonaa)."
     },
     {
-      "phrase_id": "p2_7",
-      "original": "Ko mi gollottooɗo e lopital.",
-      "phonetic_api": "/ko mi ɡolːotːoːɗo e lopital/",
-      "phonetic_simple": "KO MI GOL-LOT-TOO-DHO E LO-PI-TAL",
-      "translation": "Je suis un travailleur à l'hôpital (un soignant).",
-      "context": "Déclaration de son secteur d'activité."
-    },
-    {
-      "phrase_id": "p2_8",
-      "original": "Ko honno golle maa wa'i ?",
-      "phonetic_api": "/ko honːo ɡolːe maː waʔi/",
-      "phonetic_simple": "KO HON-NO GOL-LE MAA WA-I ?",
-      "translation": "Comment se passe ton travail ?",
-      "context": "Formule de suivi courante pour s'intéresser à la vie professionnelle."
+      "phrase_id": "p7",
+      "original": "Tigi tigi, ko Besseko mi iwi.",
+      "phonetic_api": "/tigi tigi ko beseko mi iwi/",
+      "phonetic_simple": "TI-GUI TI-GUI, KO BÈSSÉ-KO MI I-OUI",
+      "translation": "En fait, je viens de Bessèko.",
+      "context": "'Tigi tigi' insiste sur la précision de l'information donnée."
     }
   ],
   "grammar_points": [
     {
-      "concept": "Le pronom d'identité exclusif 'Ko'",
-      "explanation": "Pour les phrases équationnelles ('A est B', 'Je suis X'), le pular n'utilise pas de verbe d'existence semblable au français 'être'. Il déploie la particule focus de prédication 'ko'.",
+      "concept": "La particule 'ko' (identification) et sa négation 'wonaa'",
+      "explanation": "En pular, 'ko' remplace le verbe être pour identifier ou décrire quelqu'un ('c'est'). On l'utilise systématiquement devant le nom, la nationalité ou la profession. Sa forme négative est 'wonaa' (aussi prononcée wanaa, hinaa ou naa selon les régions).",
       "rules": [
-        "Placer invariablement la particule 'ko' devant l'attribut de l'identité.",
-        "Lorsque le sujet est un pronom personnel de première personne ('mi'), la structure régulière devient : 'Ko mi + Nom/Titre'."
+        "Ko + [nom/profession/nationalité] + pronom + verbe = structure affirmative d'identification",
+        "wonaa remplace ko à la forme négative",
+        "Exemple : Ko mi jannoowo (Je suis enseignant) / Wonaa mi jannoowo (Je ne suis pas enseignant)"
       ],
       "examples": [
         {
-          "structure": "Ko mi + jangoowo",
-          "phonetic_api": "/ko mi d͡ʒanɡoːwo/",
-          "meaning": "Je suis étudiant"
+          "structure": "Ko mi Amerikenjo.",
+          "phonetic_api": "/ko mi amerikendʒo/",
+          "meaning": "Je suis Américain."
+        },
+        {
+          "structure": "Wonaa o Amerikenjo. Ko o Faranseejo.",
+          "phonetic_api": "/wonaː o amerikendʒo, ko o faranseːdʒo/",
+          "meaning": "Il n'est pas Américain. Il est Français."
         }
       ]
     },
     {
-      "concept": "La conjugaison du passif à l'accompli interrogatif : '-eteɗaa'",
-      "explanation": "L'expression 'inneteɗaa' (tu t'appelles) est morphologiquement construite sur le radical verbal 'innoore' (nommer) combiné au suffixe passif inaccompli interrogatif de la deuxième personne du singulier.",
+      "concept": "Les pronoms personnels sujets et indépendants",
+      "explanation": "Le pular distingue le pronom sujet court (mi, a, o...) et le pronom indépendant (min, an, kanko...) utilisé pour insister ou en début de phrase. Il n'existe pas de distinction masculin/féminin à la 3e personne : 'o' signifie aussi bien 'il' que 'elle'.",
       "rules": [
-        "Le suffixe '-ete-' porte la marque du passif synthétique.",
-        "Le morphème final '-ɗaa' fusionne le pronom de la deuxième personne 'a' et la flexion verbale interrogative."
+        "mi (je) / min (moi) — a (tu) / an (toi) — o (il/elle) / kanko (lui/elle, insistance)",
+        "Il existe un « nous » inclusif (en, qui inclut l'interlocuteur) et un « nous » exclusif (men, qui l'exclut)"
       ],
       "examples": [
         {
-          "structure": "inn- + -eteɗaa",
-          "phonetic_api": "/inːeteɗaː/",
-          "meaning": "Comment es-tu nommé ? (Comment t'appelles-tu ?)"
+          "structure": "An, ko a jannoowo?",
+          "phonetic_api": "/an ko a dʒanːoːwo/",
+          "meaning": "Toi, es-tu enseignant ?"
+        },
+        {
+          "structure": "Min, ko mi Amerikenjo.",
+          "phonetic_api": "/min ko mi amerikendʒo/",
+          "meaning": "Moi, je suis Américain."
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Mamadou",
-      "text": "Mbolee ! Ko honno inneteɗaa ?",
-      "phonetic_api": "/mboleː ko honːo inːeteɗaː/",
-      "phonetic_simple": "MBO-LEE ! KO HON-NO IN-NE-TEE-DHAA ?",
-      "translation": "Salut ! Comment t'appelles-tu ?"
+      "speaker": "Susan",
+      "text": "Ko honno inneteða?",
+      "phonetic_api": "/ko honːo inːeteɗaː/",
+      "phonetic_simple": "KO HONNO INNÉ-TÉ-DAA",
+      "translation": "Comment t'appelles-tu ?"
     },
     {
-      "speaker": "Aissatou",
-      "text": "Innde am ko Aissatou, yettoore am ko Barry. Ko honno inneteɗaa tun ?",
-      "phonetic_api": "/inːde am ko ajsatu jetːoːre am ko barːi ko honːo inːeteɗaː tun/",
-      "phonetic_simple": "INN-DE AM KO AIS-SA-TOU, YET-TOO-RE AM KO BAR-RY. KO HON-NO IN-NE-TEE-DHAA TOUN ?",
-      "translation": "Mon prénom est Aissatou, mon nom est Barry. Et toi, comment t'appelles-tu ?"
+      "speaker": "Saliu",
+      "text": "Ko Saliu mi innete. An, ko a Faranseejo?",
+      "phonetic_api": "/ko saliu mi inːete. an ko a faranseːdʒo/",
+      "phonetic_simple": "KO SA-LI-OU MI INNÉ-TÉ. AN, KO A FA-RAN-SÉÉ-DJO",
+      "translation": "Je m'appelle Saliou. Et toi, es-tu Français ?"
     },
     {
-      "speaker": "Mamadou",
-      "text": "Innde am ko Mamadou, yettoore am ko Diallo. Honto iireɗaa, Aissatou ?",
-      "phonetic_api": "/inːde am ko mamadu jetːoːre am ko d͡ʒalːo honto iːreɗaː ajsatu/",
-      "phonetic_simple": "INN-DE AM KO MA-MA-DOU, YET-TOO-RE AM KO DIAL-LO. HON-TO II-REE-DHAA, AIS-SA-TOU ?",
-      "translation": "Mon prénom est Mamadou, mon nom est Diallo. D'où viens-tu, Aissatou ?"
+      "speaker": "Susan",
+      "text": "O'owooye. Min, ko mi Amerikenjo. An le?",
+      "phonetic_api": "/oʔowoːje. min ko mi amerikendʒo. an le/",
+      "phonetic_simple": "O-O-WO-O-YÉ. MIN, KO MI A-MÉ-RI-KÈNE-DJO. AN LÉ",
+      "translation": "Non. Moi, je suis Américaine. Et toi ?"
     },
     {
-      "speaker": "Aissatou",
-      "text": "Ko mi jeyaaɗo Labe, kono mi hoɗi ko Conakry. Ko mi jangoowo.",
-      "phonetic_api": "/ko mi d͡ʒejaːɗo labe kono mi hoɗi ko konakri ko mi d͡ʒanɡoːwo/",
-      "phonetic_simple": "KO MI JEY-AA-DHO LA-BE, KO-NO MI HO-DHI KO CO-NA-KRY. KO MI DJAN-GOO-WO.",
-      "translation": "Je suis originaire de Labé, mais j'habite à Conakry. Je suis étudiante."
+      "speaker": "Saliu",
+      "text": "Ko mi Gine'enjo. Ko honðun gollataa?",
+      "phonetic_api": "/ko mi gineʔendʒo. ko honɗun golːataː/",
+      "phonetic_simple": "KO MI GUI-NÉ-ÈNE-DJO. KO HON-DOUNE GOL-LA-TAA",
+      "translation": "Je suis Guinéen. Que fais-tu comme travail ?"
+    },
+    {
+      "speaker": "Susan",
+      "text": "Ko mi jannoowo Matematik.",
+      "phonetic_api": "/ko mi dʒanːoːwo matematik/",
+      "phonetic_simple": "KO MI DJANN-OO-WO MA-TÉ-MA-TIK",
+      "translation": "Je suis professeure de mathématiques."
     }
   ],
   "cultural_notes": [
-    "Le système patronymique peul repose principalement sur quatre grands noms de clans fondamentaux : Diallo, Barry, Sow et Bah. Énoncer sa 'yettoore' engendre immédiatement chez l'interlocuteur l'identification du lignage et déclenche fréquemment le 'dendiraagal' (parenté à plaisanterie), un pilier social facilitant l'intégration et désamorçant les tensions."
+    "Demander le nom de famille (yettoore) a une importance sociale particulière au Fouta-Djalon : certains noms comme Diallo, Bah, Sow et Barry sont liés à des relations de 'sanakuyaagal' (blague inter-claniques traditionnelle) où deux clans se taquinent mutuellement (source : Learner's Guide to Pular, Peace Corps Guinée).",
+    "Se présenter comme volontaire ou enseignant (jannoowo) est très valorisé socialement dans la culture peule du Fouta-Djalon."
   ],
   "exercises": [
     {
-      "exercise_id": "ex2_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel terme pular désigne spécifiquement le 'nom de famille patronymique' ?",
+      "question": "Comment dit-on « Je m'appelle Alfa » ?",
       "options": [
-        "Innde",
-        "Yettoore",
-        "Leydi"
+        "Ko Alfa mi innete",
+        "Alfa ko mi",
+        "Mi Alfa innete"
       ],
-      "correct_answer": "Yettoore",
-      "explanation": "'Yettoore' renvoie exclusivement au nom de clan familial, tandis que 'innde' qualifie le prénom donné au baptême."
+      "correct_answer": "Ko Alfa mi innete",
+      "explanation": "La structure correcte utilise 'ko' devant le nom pour l'identification."
     },
     {
-      "exercise_id": "ex2_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Innde am [ ___ ] Alpha. (Mon prénom est Alpha).",
-      "correct_answer": "ko",
-      "hint": "La particule invariable d'identité remplaçant le verbe être."
+      "sentence_with_blank": "An, ko a jannoowo? — O'o, [ ___ ] jannoowo.",
+      "correct_answer": "wonaa mi",
+      "hint": "Utilisez la négation de 'ko' pour dire « je ne suis pas »."
+    },
+    {
+      "exercise_id": "ex3",
+      "type": "multiple_choice",
+      "question": "Que signifie 'Ko honto iwuðaa?'",
+      "options": [
+        "Comment t'appelles-tu ?",
+        "D'où viens-tu ?",
+        "Quel âge as-tu ?"
+      ],
+      "correct_answer": "D'où viens-tu ?",
+      "explanation": "'Iwugol' signifie 'venir de' ; la question porte donc sur l'origine géographique."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Learner's Guide to Pular (Fuuta Jallon) — Peace Corps Guinée (Herb Caudill & Ousmane Besseko Diallo)",
+      "url": "https://ibamba.net/pular/manual.pdf"
+    },
+    {
+      "label": "Live Lingua Project — Peace Corps Manual of Fulfulde",
+      "url": "https://www.livelingua.com/course/peace-corps/manual-of-fulfulde"
+    },
+    {
+      "label": "Fula Fular pula Pular Pulaar Fulfulde (FULA FR) — lexique et grammaire",
+      "url": "https://fulapula.wordpress.com/grandvoc/"
+    }
+  ],
+  "confidence": "élevée",
+  "confidence_note": "Vocabulaire, dialogues et structures grammaticales tirés directement du chapitre 'Introductions' du manuel Peace Corps Guinée."
 }

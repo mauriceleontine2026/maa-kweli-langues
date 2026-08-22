@@ -4,285 +4,282 @@
   "module_number": 1,
   "module_title": "Les bases de la communication",
   "lesson_number": 2,
-  "title": "Se présenter",
+  "title": "Se présenter (nom, âge, origine, profession)",
   "learning_objectives": [
-    "Déclarer son prénom (tɔgɔ) et son nom de famille clanique (jamu)",
-    "Exprimer sa provenance géographique à l'aide du verbe de mouvement 'bɔ'",
-    "Formuler sa profession ou son activité principale"
+    "Donner son nom et demander celui d'un interlocuteur",
+    "Indiquer son âge",
+    "Dire d'où l'on vient (sa ville d'origine)",
+    "Nommer sa profession simplement"
   ],
   "phonetic_focus": {
-    "key_sounds": "La lettre 'c' représente une consonne affriquée palatale sourde (/t͡ʃ/). Elle se prononce exactement comme le groupe 'tch' en français dans 'mouche' ou 'tchad'. La lettre 'j' représente l'affriquée sonore (/d͡ʒ/), similaire au 'dj' dans 'djembé'.",
-    "common_pitfalls": "Ne pas prononcer 'c' comme un /k/ ou un /s/. Dire /ka.ma.ra/ pour 'Camara' est correct car c'est un 'k' orthographique, mais le terme 'cɛ' se prononce strictement 'tchè'."
+    "key_sounds": [
+      "Le [l] roulé léger dans 'lè'/'le' (copule 'c'est')",
+      "La distinction entre 'bolo' (main/avoir) et les autres mots à ton similaire",
+      "La nasale finale dans 'jeli' (combien) à ne pas confondre avec le mot 'griot' (même graphie, contexte différent)"
+    ],
+    "common_pitfalls": [
+      "Oublier la particule 'le' (copule) après le nom ou la profession : 'Sènèkèla le' et non simplement 'Sènèkèla'",
+      "Confondre 'n too le' (je m'appelle) avec 'n san jeli' (j'ai ... ans), deux structures différentes"
+    ]
   },
   "vocabulary": [
     {
-      "word_id": "v2_1",
-      "term": "Tɔgɔ",
-      "phonetic_api": "/tɔ.ɡɔ/",
-      "phonetic_simple": "TƆ-GƆ",
-      "translation": "Prénom / Nom d'une entité",
-      "example_sentence": "N tɔgɔ Alama",
-      "example_phonetic": "/n̩ tɔ.ɡɔ a.la.ma/",
-      "example_translation": "Mon prénom est Alama."
+      "word_id": "v1",
+      "term": "too",
+      "phonetic_api": "[toː]",
+      "phonetic_simple": "to-o",
+      "translation": "nom",
+      "example_sentence": "N too le Morigbè.",
+      "example_phonetic": "[n toː le morigbɛ]",
+      "example_translation": "Je m'appelle Morigbé."
     },
     {
-      "word_id": "v2_2",
-      "term": "Jamu",
-      "phonetic_api": "/d͡ʒa.mu/",
-      "phonetic_simple": "DJA-MOU",
-      "translation": "Nom de famille / Nom de clan ancestral",
-      "example_sentence": "I jamu di ?",
-      "example_phonetic": "/i d͡ʒa.mu di/",
-      "example_translation": "Quel est ton nom de famille ?"
+      "word_id": "v2",
+      "term": "san",
+      "phonetic_api": "[san]",
+      "phonetic_simple": "san",
+      "translation": "année, âge",
+      "example_sentence": "N san jeli le ye n bolo.",
+      "example_phonetic": "[n san dʒeli le je n bolo]",
+      "example_translation": "J'ai vingt ans (litt. 'mon nombre d'années est à ma main')."
     },
     {
-      "word_id": "v2_3",
-      "term": "Bɔ",
-      "phonetic_api": "/bɔ/",
-      "phonetic_simple": "BƆ",
-      "translation": "Sortir / Provenir de",
-      "example_sentence": "N bɔra Kankan",
-      "example_phonetic": "/n̩ bɔ.ra kan.kan/",
-      "example_translation": "Je viens de / Je suis natif de Kankan."
+      "word_id": "v3",
+      "term": "bola",
+      "phonetic_api": "[bola]",
+      "phonetic_simple": "bo-la",
+      "translation": "venir de, être originaire de",
+      "example_sentence": "N nye bola Kankan le.",
+      "example_phonetic": "[n ɲe bola kankan le]",
+      "example_translation": "Je viens de Kankan."
     },
     {
-      "word_id": "v2_4",
-      "term": "Karamɔgɔ",
-      "phonetic_api": "/ka.ra.mɔ.ɡɔ/",
-      "phonetic_simple": "KA-RA-MƆ-GƆ",
-      "translation": "Enseignant / Professeur / Savant",
-      "example_sentence": "N na karamɔgɔ ra",
-      "example_phonetic": "/n̩ na ka.ra.mɔ.ɡɔ ra/",
-      "example_translation": "Je suis enseignant."
+      "word_id": "v4",
+      "term": "sènèkèla",
+      "phonetic_api": "[sɛnɛkɛla]",
+      "phonetic_simple": "sè-nè-kè-la",
+      "translation": "cultivateur, agriculteur",
+      "example_sentence": "Sènèkèla le.",
+      "example_phonetic": "[sɛnɛkɛla le]",
+      "example_translation": "C'est un cultivateur."
     },
     {
-      "word_id": "v2_5",
-      "term": "Kalanden",
-      "phonetic_api": "/ka.lan.dẽ/",
-      "phonetic_simple": "KA-LAN-DEN",
-      "translation": "Élève / Étudiant (litt. Enfant de la lecture)",
-      "example_sentence": "A bɛ kalandenya la",
-      "example_phonetic": "/a bɛ ka.lan.dẽ.ja la/",
-      "example_translation": "Il est étudiant / Il étudie."
+      "word_id": "v5",
+      "term": "karamoo",
+      "phonetic_api": "[karamoː]",
+      "phonetic_simple": "ka-ra-mo-o",
+      "translation": "maître d'étude, enseignant",
+      "example_sentence": "A karamoo le.",
+      "example_phonetic": "[a karamoː le]",
+      "example_translation": "Il est enseignant."
     },
     {
-      "word_id": "v2_6",
-      "term": "Sugufeela",
-      "phonetic_api": "/su.ɡu.feː.la/",
-      "phonetic_simple": "SOU-GOU-FÉE-LA",
-      "translation": "Commerçant / Vendeur au marché",
-      "example_sentence": "N na sugufeela ra",
-      "example_phonetic": "/n̩ na su.ɡu.feː.la ra/",
-      "example_translation": "Je suis commerçant."
+      "word_id": "v6",
+      "term": "dootoro",
+      "phonetic_api": "[doːtoro]",
+      "phonetic_simple": "do-o-to-ro",
+      "translation": "médecin, docteur",
+      "example_sentence": "N too le Sékou, dootoro le.",
+      "example_phonetic": "[n toː le seku doːtoro le]",
+      "example_translation": "Je m'appelle Sékou, je suis médecin."
     },
     {
-      "word_id": "v2_7",
-      "term": "Dankala",
-      "phonetic_api": "/dan.ka.la/",
-      "phonetic_simple": "DAN-KA-LA",
-      "translation": "Pays / Patrie / Territoire national",
-      "example_sentence": "I bɔra dankala juman la ?",
-      "example_phonetic": "/i bɔ.ra dan.ka.la d͡ʒu.man la/",
-      "example_translation": "De quel pays viens-tu ?"
+      "word_id": "v7",
+      "term": "jeli",
+      "phonetic_api": "[dʒeli]",
+      "phonetic_simple": "dié-li",
+      "translation": "combien (interrogatif de quantité)",
+      "example_sentence": "I san jeli le ?",
+      "example_phonetic": "[i san dʒeli le]",
+      "example_translation": "Quel âge as-tu ? (litt. 'combien d'années')"
     },
     {
-      "word_id": "v2_8",
-      "term": "So",
-      "phonetic_api": "/so/",
-      "phonetic_simple": "SO",
-      "translation": "Maison / Ville / Village d'origine",
-      "example_sentence": "N so bɛ Siguiri",
-      "example_phonetic": "/n̩ so bɛ si.ɡi.ri/",
-      "example_translation": "Ma ville d'origine est Siguiri."
-    },
-    {
-      "word_id": "v2_9",
-      "term": "Faranfasi",
-      "phonetic_api": "/fa.ran.fa.si/",
-      "phonetic_simple": "FA-RAN-FA-SI",
-      "translation": "Français / La France",
-      "example_sentence": "N bɔra Faranfasi",
-      "example_phonetic": "/n̩ bɔ.ra fa.ran.fa.si/",
-      "example_translation": "Je viens de France."
-    },
-    {
-      "word_id": "v2_10",
-      "term": "Ɲɛ",
-      "phonetic_api": "/ɲɛ/",
-      "phonetic_simple": "NYƐ",
-      "translation": "Année / Âge",
-      "example_sentence": "Ɲɛ tannisaba bɛ n na",
-      "example_phonetic": "/ɲɛ tan.ni.sa.ba bɛ n̩ na/",
-      "example_translation": "J'ai trente ans."
+      "word_id": "v8",
+      "term": "le",
+      "phonetic_api": "[le]",
+      "phonetic_simple": "lé",
+      "translation": "copule 'c'est' (marque d'identification)",
+      "example_sentence": "N too le Aminata.",
+      "example_phonetic": "[n toː le aminata]",
+      "example_translation": "Je m'appelle Aminata (litt. 'mon nom, c'est Aminata')."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p2_1",
-      "original": "I tɔgɔ di ?",
-      "phonetic_api": "/i tɔ.ɡɔ di/",
-      "phonetic_simple": "I TƆ-GƆ DI",
-      "translation": "Quel est ton prénom ?",
-      "context": "Question immédiate posée pour l'état civil ou de manière amicale."
+      "phrase_id": "p1",
+      "original": "I too di ?",
+      "phonetic_api": "[i toː di]",
+      "phonetic_simple": "i-to-o-di",
+      "translation": "Comment t'appelles-tu ?",
+      "context": "Demande du nom"
     },
     {
-      "phrase_id": "p2_2",
-      "original": "N tɔgɔ Moussa.",
-      "phonetic_api": "/n̩ tɔ.ɡɔ mu.sa/",
-      "phonetic_simple": "N TƆ-GƆ MOUS-SA",
-      "translation": "Mon prénom est Moussa.",
-      "context": "Façon la plus grammaticale et authentique d'énoncer son prénom."
+      "phrase_id": "p2",
+      "original": "N too le ...",
+      "phonetic_api": "[n toː le]",
+      "phonetic_simple": "n-to-o-lé",
+      "translation": "Je m'appelle ...",
+      "context": "Réponse pour donner son nom"
     },
     {
-      "phrase_id": "p2_3",
-      "original": "I bɔra mi ?",
-      "phonetic_api": "/i bɔ.ra mi/",
-      "phonetic_simple": "I BƆ-RA MI",
-      "translation": "D'où viens-tu ? / Où es-tu né ?",
-      "context": "Utilisé pour demander l'origine géographique nationale ou régionale."
+      "phrase_id": "p3",
+      "original": "I san jeli le ?",
+      "phonetic_api": "[i san dʒeli le]",
+      "phonetic_simple": "i-san-dié-li-lé",
+      "translation": "Quel âge as-tu ?",
+      "context": "Demande de l'âge"
     },
     {
-      "phrase_id": "p2_4",
-      "original": "N bɔra Conakry nɛ.",
-      "phonetic_api": "/n̩ bɔ.ra ko.na.kri nɛ/",
-      "phonetic_simple": "N BƆ-RA CO-NA-KRY NƐ",
-      "translation": "Je viens de Conakry.",
-      "context": "Réponse avec la particule affirmative 'nɛ' insistant sur le lieu."
+      "phrase_id": "p4",
+      "original": "I ye bola min ?",
+      "phonetic_api": "[i je bola min]",
+      "phonetic_simple": "i-yé-bo-la-min",
+      "translation": "D'où viens-tu ?",
+      "context": "Demande de l'origine géographique"
     },
     {
-      "phrase_id": "p2_5",
-      "original": "I jamu di ?",
-      "phonetic_api": "/i d͡ʒa.mu di/",
-      "phonetic_simple": "I DJA-MOU DI",
-      "translation": "Quel es ton nom de clan (nom de famille) ?",
-      "context": "Question culturelle majeure pour identifier la lignée de l'interlocuteur."
+      "phrase_id": "p5",
+      "original": "N nye bola ... le",
+      "phonetic_api": "[n ɲe bola ... le]",
+      "phonetic_simple": "n-nyé-bo-la...lé",
+      "translation": "Je viens de ...",
+      "context": "Réponse à la question d'origine, ex. 'N nye bola Kindiya le' = je viens de Kindia"
     },
     {
-      "phrase_id": "p2_6",
-      "original": "N jamu Keita.",
-      "phonetic_api": "/n̩ d͡ʒa.mu ke.i.ta/",
-      "phonetic_simple": "N DJA-MOU KEI-TA",
-      "translation": "Mon nom de famille est Keita.",
-      "context": "Annonce de son patronyme."
+      "phrase_id": "p6",
+      "original": "I le don ?",
+      "phonetic_api": "[i le dɔn]",
+      "phonetic_simple": "i-lé-don",
+      "translation": "Et toi ?",
+      "context": "Renvoyer la question à l'interlocuteur"
     },
     {
-      "phrase_id": "p2_7",
-      "original": "I bɛ baara juman la ?",
-      "phonetic_api": "/i bɛ baː.ra d͡ʒu.man la/",
-      "phonetic_simple": "I BƐ BAA-RA DJOU-MAN LA",
-      "translation": "Quel travail fais-tu ? (litt. Tu es dans quel travail ?)",
-      "context": "S'informer du statut professionnel de quelqu'un."
-    },
-    {
-      "phrase_id": "p2_8",
-      "original": "N na dɔkɔtɔrɔ ra.",
-      "phonetic_api": "/n̩ na dɔ.kɔ.tɔ.rɔ ra/",
-      "phonetic_simple": "N NA DƆ-KƆ-TƆ-RƆ RA",
-      "translation": "Je suis médecin.",
-      "context": "Déclaration d'activité avec la structure d'état."
+      "phrase_id": "p7",
+      "original": "Den ye i bolo ?",
+      "phonetic_api": "[dɛn je i bolo]",
+      "phonetic_simple": "dèn-yé-i-bo-lo",
+      "translation": "As-tu des enfants ?",
+      "context": "Question fréquente lors d'une présentation complète"
     }
   ],
   "grammar_points": [
     {
-      "concept": "La possession inaliénable avec l'identité",
-      "explanation": "Le malinké distingue la possession de choses que l'on peut acquérir/perdre (possession aliénable) et les éléments intrinsèques comme l'identité (prénom, nom, parties du corps, famille proche). Pour ces derniers, la structure est directe sans marqueur de possession ('ka').",
+      "concept": "La copule 'le' pour l'identification",
+      "explanation": "Pour dire 'je suis X' ou 'c'est X', le malinké place le mot 'le' après l'élément identifié, sans verbe équivalent à 'être'.",
       "rules": [
-        "Structure : Pronom personnel + Nom inaliénable.",
-        "Les pronoms sujet courts utilisés sont : 'N' (Je), 'I' (Tu), 'A' (Il/Elle), 'An' (Nous), 'A lu' (Vous/Ils)."
+        "Structure : [Nom/Attribut] + le = 'c'est [Nom/Attribut]'",
+        "N too le + nom = 'mon nom, c'est ...' (je m'appelle ...)",
+        "[Profession] + le = 'c'est un/une [profession]'"
       ],
       "examples": [
         {
-          "structure": "N + tɔgɔ",
-          "phonetic_api": "/n̩ tɔ.ɡɔ/",
-          "meaning": "Mon prénom (et non pas 'N ka tɔgɔ')"
+          "structure": "N too le [Nom]",
+          "phonetic_api": "[n toː le]",
+          "meaning": "Je m'appelle [Nom]"
         },
         {
-          "structure": "I + jamu",
-          "phonetic_api": "/i d͡ʒa.mu/",
-          "meaning": "Ton nom de famille"
+          "structure": "[Profession] le",
+          "phonetic_api": "[le]",
+          "meaning": "C'est un/une [profession]"
         }
       ]
     },
     {
-      "concept": "L'expression du métier avec la structure équative 'na... ra'",
-      "explanation": "Pour déclarer une fonction, une profession ou une identité de statut social stable, le malinké encadre le nom de métier par la particule de focalisation positive 'na' (ou 'la') et la postposition finale d'état ou d'instrument 'ra' (ou 'la').",
+      "concept": "Exprimer l'origine avec 'bola'",
+      "explanation": "Le verbe 'bola' (venir de) s'utilise avec le présent progressif 'nye ... la' et se termine par la copule 'le' pour insister sur le lieu.",
       "rules": [
-        "Structure : Sujet + na + Nom du métier + ra.",
-        "Si le mot se termine par un son nasal ou selon les variantes régionales, 'ra' se transforme harmoniquement en 'la'."
+        "Structure : Sujet + nye bola + [Lieu] + le",
+        "La question correspondante utilise 'min' (où) : Sujet + ye bola + min ?"
       ],
       "examples": [
         {
-          "structure": "N + na + karamɔgɔ + ra",
-          "phonetic_api": "/n̩ na ka.ra.mɔ.ɡɔ ra/",
-          "meaning": "Je suis enseignant."
-        },
-        {
-          "structure": "A + na + sugufeela + ra",
-          "phonetic_api": "/a na su.ɡu.feː.la ra/",
-          "meaning": "Il/Elle est commerçant(e)."
+          "structure": "N nye bola [Lieu] le",
+          "phonetic_api": "[n ɲe bola le]",
+          "meaning": "Je viens de [Lieu]"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Fodé",
-      "text": "I ni tile ! I tɔgɔ di ?",
-      "phonetic_api": "/i ni ti.le i tɔ.ɡɔ di/",
-      "phonetic_simple": "I NI TI-LÉ ! I TƆ-GƆ DI ?",
-      "translation": "Bonjour ! Quel est ton prénom ?"
+      "speaker": "Mamadou",
+      "text": "I ni tele. I too di ?",
+      "phonetic_api": "[i ni tele i toː di]",
+      "phonetic_simple": "i-ni-té-lé, i-to-o-di",
+      "translation": "Bonjour. Comment t'appelles-tu ?"
     },
     {
-      "speaker": "Fanta",
-      "text": "Nse, n tɔgɔ Fanta. I jamu di ?",
-      "phonetic_api": "/n̩.se n̩ tɔ.ɡɔ fan.ta i d͡ʒa.mu di/",
-      "phonetic_simple": "N-SÉ, N TƆ-GƆ FAN-TA. I DJA-MOU DI ?",
-      "translation": "Bonjour, mon prénom est Fanta. Quel est ton nom de famille ?"
+      "speaker": "Fatou",
+      "text": "N too le Fatou. I le don ?",
+      "phonetic_api": "[n toː le fatu i le dɔn]",
+      "phonetic_simple": "n-to-o-lé Fa-tou, i-lé-don",
+      "translation": "Je m'appelle Fatou. Et toi ?"
     },
     {
-      "speaker": "Fodé",
-      "text": "N jamu Camara. Fanta, i bɔra mi ?",
-      "phonetic_api": "/n̩ d͡ʒa.mu ka.ma.ra fan.ta i bɔ.ra mi/",
-      "phonetic_simple": "N DJA-MOU KA-MA-RA. FAN-TA, I BƆ-RA MI ?",
-      "translation": "Mon nom de famille est Camara. Fanta, d'où viens-tu ?"
+      "speaker": "Mamadou",
+      "text": "N too le Mamadou. I ye bola min ?",
+      "phonetic_api": "[n toː le mamadu i je bola min]",
+      "phonetic_simple": "n-to-o-lé Ma-ma-dou, i-yé-bo-la-min",
+      "translation": "Je m'appelle Mamadou. D'où viens-tu ?"
     },
     {
-      "speaker": "Fanta",
-      "text": "N bɔra Mali dankala la, Koutiala. I tan, i na sugufeela ra ?",
-      "phonetic_api": "/n̩ bɔ.ra ma.li dan.ka.la la ku.tja.la i tã i na su.ɡu.feː.la ra/",
-      "phonetic_simple": "N BƆ-RA MA-LI DAN-KA-LA LA, KOU-TIA-LA. I TAN, I NA SOU-GOU-FÉE-LA RA ?",
-      "translation": "Je viens du pays du Mali, de Koutiala. Et toi, es-tu commerçant ?"
+      "speaker": "Fatou",
+      "text": "N nye bola Kankan le. I san jeli le ?",
+      "phonetic_api": "[n ɲe bola kankan le i san dʒeli le]",
+      "phonetic_simple": "n-nyé-bo-la Kan-kan-lé, i-san-dié-li-lé",
+      "translation": "Je viens de Kankan. Quel âge as-tu ?"
     },
     {
-      "speaker": "Fodé",
-      "text": "Ayi, n na karamɔgɔ ra kalanso la Kankan.",
-      "phonetic_api": "/a.ji n̩ na ka.ra.mɔ.ɡɔ ra ka.lan.so la kan.kan/",
-      "phonetic_simple": "A-YI, N NA KA-RA-MƆ-GƆ RA KA-LAN-SO LA KAN-KAN.",
-      "translation": "Non, je suis enseignant à l'école à Kankan."
+      "speaker": "Mamadou",
+      "text": "N san jeli le ye n bolo. Sènèkèla le.",
+      "phonetic_api": "[n san dʒeli le je n bolo sɛnɛkɛla le]",
+      "phonetic_simple": "n-san-dié-li-lé-yé-n-bo-lo, sè-nè-kè-la-lé",
+      "translation": "J'ai vingt ans. Je suis cultivateur."
     }
   ],
   "cultural_notes": [
-    "Le 'jamu' (nom clanique) comme Keita, Camara, Souaré, Condé ou Dioubaté est le marqueur de la place historique d'un individu dans l'empire du Mandingue. Entre deux personnes possédant des noms alliés historiquement, s'active automatiquement le 'Sinankunya' : une relation de parenté à plaisanterie obligatoire où l'on s'insulte amicalement pour désamorcer les tensions et sceller la fraternité sociale."
+    "L'origine géographique (village ou ville) reste une composante importante de l'identité personnelle en Haute-Guinée, souvent mentionnée juste après le nom lors d'une présentation ([Malinkuia](https://fr.scribd.com/document/499114939/Malinkuia)).",
+    "Les métiers traditionnels (cultivateur, forgeron, griot) restent des marqueurs identitaires forts dans les présentations en société malinké, à côté des professions modernes (médecin, enseignant)."
   ],
   "exercises": [
     {
-      "exercise_id": "A1_M1_L2_ex1",
-      "type": "multiple_choice",
-      "question": "Traduisez fidèlement la proposition 'Je suis enseignant' en malinké :",
-      "options": [
-        "N tɔgɔ karamɔgɔ",
-        "N na karamɔgɔ ra",
-        "N bɔra karamɔgɔ"
-      ],
-      "correct_answer": "N na karamɔgɔ ra",
-      "explanation": "La structure équative d'état pour une profession exige l'emploi des marqueurs 'na... ra' entourant l'attribut."
+      "exercise_id": "e1",
+      "type": "traduction",
+      "question": "Traduisez : 'Je m'appelle Aminata.'",
+      "correct_answer": "N too le Aminata.",
+      "explanation": "Structure 'N too le' + nom."
     },
     {
-      "exercise_id": "A1_M1_L2_ex2",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "N [ ___ ] bɔra Siguiri (Je viens de Siguiri).",
-      "correct_answer": "bora",
-      "hint": "C'est le verbe provenir conjugué à l'aspect accompli du passé."
+      "exercise_id": "e2",
+      "type": "choix_multiple",
+      "question": "Comment demande-t-on 'D'où viens-tu ?' en malinké ?",
+      "options": [
+        "I too di ?",
+        "I san jeli le ?",
+        "I ye bola min ?",
+        "Tana ma sii ?"
+      ],
+      "correct_answer": "I ye bola min ?",
+      "explanation": "'min' est le mot interrogatif de lieu ('où'), utilisé avec 'bola' (venir de)."
+    },
+    {
+      "exercise_id": "e3",
+      "type": "texte_a_trous",
+      "sentence_with_blank": "Sènèkèla ___ .  (C'est un cultivateur.)",
+      "correct_answer": "le",
+      "hint": "C'est la copule d'identification placée après le nom de métier."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Malinkuia — Introduction à la langue malinké (grammaire complète, variété du Wulada, Haute-Guinée)",
+      "url": "https://fr.scribd.com/document/499114939/Malinkuia"
+    },
+    {
+      "label": "Diané & Vydrin, « Propositions pour l'orthographe du maninka (Guinée) », Mandenkan 52 (2014)",
+      "url": "https://shs.hal.science/halshs-01096594v1/document"
+    }
+  ],
+  "confidence": "élevée",
+  "confidence_note": "Toutes les phrases et le vocabulaire proviennent directement des dialogues de présentation attestés dans la grammaire Malinkuia (section 'Présentation' et 'Lexique de base'), une source spécifique au malinké de Haute-Guinée."
 }

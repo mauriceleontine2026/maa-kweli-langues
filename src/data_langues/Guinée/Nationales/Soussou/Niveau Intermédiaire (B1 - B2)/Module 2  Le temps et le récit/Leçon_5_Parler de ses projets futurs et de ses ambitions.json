@@ -6,297 +6,232 @@
   "lesson_number": 5,
   "title": "Parler de ses projets futurs et de ses ambitions",
   "learning_objectives": [
-    "Maîtriser l'expression du futur proche et lointain en utilisant l'auxiliaire 'fama'",
-    "Exprimer un souhait, une ambition professionnelle ou un projet de vie",
-    "Formuler des intentions claires et planifier des actions à venir dans le temps"
+    "Conjuguer un verbe au futur avec le suffixe '-ma'",
+    "Utiliser des repères temporels du futur (tina=demain, lçxE xun naxan fama=la semaine prochaine)",
+    "Exprimer une condition simple pour un projet futur avec 'xa' (si)"
   ],
   "phonetic_focus": {
-    "key_sounds": "Cette leçon met en avant la prononciation de l'auxiliaire de futur 'fama' /fama/ et de la particule de souhait 'wama' /wama/. Une attention particulière doit être accordée à la double voyelle longue /eː/ de 'bɛbɛ' ou aux finales nasales des verbes d'intention.",
-    "common_pitfalls": "Ne prononcez pas 'fama' comme s'il s'agissait du mot français 'femme'. Les deux voyelles /a/ doivent être claires, ouvertes et brèves. Veillez également à ne pas omettre la postposition 'ra' après le verbe de souhait."
+    "key_sounds": "Le suffixe du futur '-ma' est bref et non accentué ; il ne faut pas le prononcer comme une syllabe pleine séparée mais bien l'attacher au radical verbal (siga+ma = sigama, prononcé SI-ga-ma).",
+    "common_pitfalls": "Les francophones oublient souvent le suffixe '-ma' du futur en fin de phrase, alors qu'il est indispensable pour distinguer une action future d'une action présente/habituelle."
   },
   "vocabulary": [
     {
-      "word_id": "v14_1",
-      "term": "Fama",
+      "word_id": "v1",
+      "term": "sigama",
+      "phonetic_api": "/siɡama/",
+      "phonetic_simple": "SI-ga-ma",
+      "translation": "ira / va aller (futur du verbe 'siga', aller)",
+      "example_sentence": "Xa n kçbiri sçtç, n sigama Bahamas.",
+      "example_phonetic": "/xa n kɔbiri sɔtɔ, n siɡama bahamas/",
+      "example_translation": "Si j'ai de l'argent, j'irai aux Bahamas."
+    },
+    {
+      "word_id": "v2",
+      "term": "fama",
       "phonetic_api": "/fama/",
-      "phonetic_simple": "FA-MA",
-      "translation": "Venir (utilisé comme auxiliaire obligatoire pour le futur)",
-      "example_sentence": "N fama i malife tina.",
-      "example_phonetic": "/n fama i malifɛ tina/",
-      "example_translation": "Je viendrai t'aider demain (Je vais t'aider)."
+      "phonetic_simple": "FA-ma",
+      "translation": "viendra / va venir (futur du verbe 'fa', venir)",
+      "example_sentence": "N boree fama n xEbuide banxi.",
+      "example_phonetic": "/n borːe fama n xɛbuide banxi/",
+      "example_translation": "Mes amis vont venir me saluer à la maison."
     },
     {
-      "word_id": "v14_2",
-      "term": "Wama",
-      "phonetic_api": "/wama/",
-      "phonetic_simple": "WA-MA",
-      "translation": "Vouloir / Désirer / Avoir l'intention de",
-      "example_sentence": "N wama findi doti ra babilong.",
-      "example_phonetic": "/n wama fiⁿdi doti ra babiloⁿ/",
-      "example_translation": "Je veux devenir médecin plus tard."
-    },
-    {
-      "word_id": "v14_3",
-      "term": "Tina",
+      "word_id": "v3",
+      "term": "tina",
       "phonetic_api": "/tina/",
-      "phonetic_simple": "TI-NA",
-      "translation": "Demain / L'avenir",
-      "example_sentence": "Tina fama fanfe n bɛ.",
-      "example_phonetic": "/tina fama faⁿfɛ n bɛ/",
-      "example_translation": "L'avenir sera beau pour moi."
+      "phonetic_simple": "TI-na",
+      "translation": "demain",
+      "example_sentence": "Tina, n sigama xarandebanxi.",
+      "example_phonetic": "/tina, n siɡama xarandebanxi/",
+      "example_translation": "Demain, j'irai à l'école."
     },
     {
-      "word_id": "v14_4",
-      "term": "Babilong",
-      "phonetic_api": "/babiloⁿ/",
-      "phonetic_simple": "BA-BI-LONG",
-      "translation": "Plus tard / À l'avenir / Dans le futur",
-      "example_sentence": "N fama sigafe France babilong.",
-      "example_phonetic": "/n fama siɡafɛ fraⁿsɛ babiloⁿ/",
-      "example_translation": "J'irai en France plus tard."
+      "word_id": "v4",
+      "term": "tina bora",
+      "phonetic_api": "/tina bora/",
+      "phonetic_simple": "TI-na BO-ra",
+      "translation": "après-demain",
+      "example_sentence": "Tina bora, muxu sigama Konakiri.",
+      "example_phonetic": "/tina bora, muxu siɡama konakiri/",
+      "example_translation": "Après-demain, nous irons à Conakry."
     },
     {
-      "word_id": "v14_5",
-      "term": "Xaran",
-      "phonetic_api": "/xaraⁿ/",
-      "phonetic_simple": "KHA-RAN",
-      "translation": "Étudier / Apprendre / Lire",
-      "example_sentence": "N fama Soso xui xaranfe gbe ra.",
-      "example_phonetic": "/n fama soso xui xaraⁿfɛ ɡbɛ ra/",
-      "example_translation": "Je vais beaucoup étudier la langue soussou."
+      "word_id": "v5",
+      "term": "lçxE xun naxan fama",
+      "phonetic_api": "/lɔxɛ xun naxan fama/",
+      "phonetic_simple": "LO-khè khoun na-KHAN FA-ma",
+      "translation": "la semaine prochaine (littéralement 'la semaine qui vient')",
+      "example_sentence": "LçxE xun naxan fama, n xaranma.",
+      "example_phonetic": "/lɔxɛ xun naxan fama, n xaranma/",
+      "example_translation": "La semaine prochaine, j'étudierai."
     },
     {
-      "word_id": "v14_6",
-      "term": "Yire",
-      "phonetic_api": "/yirɛ/",
-      "phonetic_simple": "YI-RÈ",
-      "translation": "Pays / Région / Lieu (selon contexte)",
-      "example_sentence": "N wama n yire mali ra.",
-      "example_phonetic": "/n wama n yirɛ mali ra/",
-      "example_translation": "Je veux aider mon pays."
+      "word_id": "v6",
+      "term": "kike ¯çnyi",
+      "phonetic_api": "/kike ɲɔɲi/",
+      "phonetic_simple": "KI-ké GNO-gni",
+      "translation": "à la fin du mois",
+      "example_sentence": "Kike ¯çnyi, n kçbiri sçtçma.",
+      "example_phonetic": "/kike ɲɔɲi, n kɔbiri sɔtɔma/",
+      "example_translation": "À la fin du mois, j'aurai de l'argent."
     },
     {
-      "word_id": "v14_7",
-      "term": "Findi",
-      "phonetic_api": "/fiⁿdi/",
-      "phonetic_simple": "FIN-DI",
-      "translation": "Devenir / Se transformer en",
-      "example_sentence": "A fama findife karamoxo ra.",
-      "example_phonetic": "/a fama fiⁿdifɛ karamoxo ra/",
-      "example_translation": "Il va devenir enseignant."
+      "word_id": "v7",
+      "term": "xa",
+      "phonetic_api": "/xa/",
+      "phonetic_simple": "kha",
+      "translation": "si (particule conditionnelle)",
+      "example_sentence": "Xa n kçbiri sçtç, n sigama Bahamas.",
+      "example_phonetic": "/xa n kɔbiri sɔtɔ, n siɡama bahamas/",
+      "example_translation": "Si j'obtiens de l'argent, j'irai aux Bahamas."
     },
     {
-      "word_id": "v14_8",
-      "term": "Wali",
-      "phonetic_api": "/wali/",
-      "phonetic_simple": "WA-LI",
-      "translation": "Travailler / Entreprendre",
-      "example_sentence": "N fama walife Conakry.",
-      "example_phonetic": "/n fama walifɛ conakry/",
-      "example_translation": "Je vais travailler à Conakry."
-    },
-    {
-      "word_id": "v14_9",
-      "term": "Fe",
-      "phonetic_api": "/fɛ/",
-      "phonetic_simple": "FÈ",
-      "translation": "Chose / Projet / Affaire",
-      "example_sentence": "Fe fanyi nan na ki ra.",
-      "example_phonetic": "/fɛ faɲi naⁿ na ki ra/",
-      "example_translation": "C'est un bon projet."
-    },
-    {
-      "word_id": "v14_10",
-      "term": "Mali",
-      "phonetic_api": "/mali/",
-      "phonetic_simple": "MA-LI",
-      "translation": "Aider / Soutenir / Développer",
-      "example_sentence": "Won fama n yire malife.",
-      "example_phonetic": "/woⁿ fama n yirɛ malifɛ/",
-      "example_translation": "Nous allons développer notre pays."
+      "word_id": "v8",
+      "term": "sçtç",
+      "phonetic_api": "/sɔtɔ/",
+      "phonetic_simple": "so-TO",
+      "translation": "obtenir, trouver, avoir accès à",
+      "example_sentence": "N kçbiri sçtçma kike ¯çnyi.",
+      "example_phonetic": "/n kɔbiri sɔtɔma kike ɲɔɲi/",
+      "example_translation": "J'obtiendrai de l'argent à la fin du mois."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p14_1",
-      "original": "Munse findi i xon ambition ra babilong ?",
-      "phonetic_api": "/muⁿsɛ fiⁿdi i xoⁿ aⁿbitioⁿ ra babiloⁿ/",
-      "phonetic_simple": "MOUN-SÈ FIN-DI I KHON AM-BI-TION RA BA-BI-LONG ?",
-      "translation": "Quelle est ton ambition pour plus tard ?",
-      "context": "Questionner un étudiant ou un proche sur ses projets d'avenir."
+      "phrase_id": "p1",
+      "original": "Xa n kçbiri sçtç, n sigama Bahamas",
+      "phonetic_api": "/xa n kɔbiri sɔtɔ, n siɡama bahamas/",
+      "phonetic_simple": "kha n ko-BI-ri so-TO, n SI-ga-ma ba-ha-MAS",
+      "translation": "Si j'ai de l'argent, j'irai aux Bahamas",
+      "context": "Structure conditionnelle simple pour exprimer un projet futur soumis à condition."
     },
     {
-      "phrase_id": "p14_2",
-      "original": "N fama findife doti ra babilong.",
-      "phonetic_api": "/n fama fiⁿdifɛ doti ra babiloⁿ/",
-      "phonetic_simple": "N FA-MA FIN-DI-FÈ DO-TI RA BA-BI-LONG",
-      "translation": "Je vais devenir médecin plus tard.",
-      "context": "Affirmer son projet professionnel d'avenir."
+      "phrase_id": "p2",
+      "original": "I nde dandanfe banxi?",
+      "phonetic_api": "/i nde dandanfe banxi/",
+      "phonetic_simple": "i N-dé dan-DAN-fé BAN-khi",
+      "translation": "Qui vas-tu voir à la maison ?",
+      "context": "Question portant sur un projet ou une intention proche."
     },
     {
-      "phrase_id": "p14_3",
-      "original": "N wama Soso xui xaranfe gbe ra tina.",
-      "phonetic_api": "/n wama soso xui xaraⁿfɛ ɡbɛ ra tina/",
-      "phonetic_simple": "N WA-MA SO-SO KHOU-I KHA-RAN-FÈ GBÈ RA TI-NA",
-      "translation": "Je veux étudier la langue soussou en profondeur à l'avenir.",
-      "context": "Exprimer un objectif d'apprentissage à moyen terme."
+      "phrase_id": "p3",
+      "original": "N fama banxi",
+      "phonetic_api": "/n fama banxi/",
+      "phonetic_simple": "n FA-ma BAN-khi",
+      "translation": "Je viendrai à la maison",
+      "context": "Réponse affirmative simple au futur."
     },
     {
-      "phrase_id": "p14_4",
-      "original": "Won fama walife tete ma tina ma ségé.",
-      "phonetic_api": "/woⁿ fama walifɛ tetɛ ma tina ma seɡe/",
-      "phonetic_simple": "WON FA-MA WA-LI-FÈ TÉ-TÈ MA TI-NA MA SÉ-GUÉ",
-      "translation": "Nous allons travailler dans la cour demain matin.",
-      "context": "Planifier une tâche collective à court terme."
-    },
-    {
-      "phrase_id": "p14_5",
-      "original": "N fama sigafe yire ma babilong ma.",
-      "phonetic_api": "/n fama siɡafɛ yirɛ ma babiloⁿ ma/",
-      "phonetic_simple": "N FA-MA SI-GA-FÈ YI-RÈ MA BA-BI-LONG MA",
-      "translation": "Je vais voyager à l'étranger plus tard.",
-      "context": "Évoquer un projet de déplacement lointain."
-    },
-    {
-      "phrase_id": "p14_6",
-      "original": "Ala m'mali, n fama n xon banxi rabafe.",
-      "phonetic_api": "/ala mːali n fama n xoⁿ banxi rabafɛ/",
-      "phonetic_simple": "A-LA M-MA-LI, N FA-MA N KHON BAN-KHI RA-BA-FÈ",
-      "translation": "Si Dieu m'aide, je vais agrandir ma propre maison.",
-      "context": "Formuler un vœu de construction ou de développement matériel."
-    },
-    {
-      "phrase_id": "p14_7",
-      "original": "A wama a denbaya malife fe birin ra.",
-      "phonetic_api": "/a wama a deⁿbaya malifɛ fɛ biriⁿ ra/",
-      "phonetic_simple": "A WA-MA A DEN-BA-YA MA-LI-FÈ FÈ BI-RIN RA",
-      "translation": "Il veut aider sa famille dans tous ses projets.",
-      "context": "Décrire les intentions bienveillantes d'une tierce personne."
-    },
-    {
-      "phrase_id": "p14_8",
-      "original": "Tina fama findife loxi fanyi ra won birin bɛ.",
-      "phonetic_api": "/tina fama fiⁿdifɛ loxi faɲi ra woⁿ biriⁿ bɛ/",
-      "phonetic_simple": "TI-NA FA-MA FIN-DI-FÈ LO-KHI FAN-YI RA WON BI-RIN BÈ",
-      "translation": "L'avenir sera radieux (un bon jour) pour nous tous.",
-      "context": "Formule d'encouragement et d'espoir partagé."
+      "phrase_id": "p4",
+      "original": "Tina, n sigama xarandebanxi",
+      "phonetic_api": "/tina, n siɡama xarandebanxi/",
+      "phonetic_simple": "TI-na, n SI-ga-ma kha-ran-dé-BAN-khi",
+      "translation": "Demain, j'irai à l'école",
+      "context": "Exemple de projet futur daté avec 'tina' (demain)."
     }
   ],
   "grammar_points": [
     {
-      "concept": "La construction du futur avec l'auxiliaire 'fama'",
-      "explanation": "Pour exprimer une action future ou un projet à venir, le soussou emploie l'auxiliaire aspectuel 'fama' (qui dérive du verbe 'fa', venir). Cet auxiliaire se place obligatoirement entre le pronom sujet et le verbe principal, lequel prend la marque du progressif '-fe'.",
+      "concept": "La formation du futur avec le suffixe '-ma'",
+      "explanation": "Le futur en soussou se forme en ajoutant le suffixe '-ma' au radical verbal, sans auxiliaire distinct (contrairement au français). Ce suffixe s'attache directement au verbe.",
       "rules": [
-        "Structure : [Pronom Sujet] + fama + [Verbe principal] + fe.",
-        "Si l'action comporte un complément d'objet, celui-ci s'insère directement entre 'fama' et le verbe."
+        "Structure affirmative : Sujet + Verbe-ma + Complément",
+        "Structure négative : Sujet + mu + Verbe-ma + Complément (le 'mu' de négation précède le verbe)"
       ],
       "examples": [
         {
-          "structure": "N + fama + walife",
-          "phonetic_api": "/n fama walifɛ/",
-          "meaning": "Je vais travailler / Je travaillerai."
+          "structure": "N sigama xarandebanxi",
+          "phonetic_api": "/n siɡama xarandebanxi/",
+          "meaning": "J'irai à l'école"
         },
         {
-          "structure": "N + fama + Soso xui + xaranfe",
-          "phonetic_api": "/n fama soso xui xaraⁿfɛ/",
-          "meaning": "Je vais apprendre la langue soussou."
+          "structure": "N mu sigama taakui",
+          "phonetic_api": "/n mu siɡama taːkui/",
+          "meaning": "Je n'irai pas en ville"
         }
       ]
     },
     {
-      "concept": "L'expression de l'ambition avec 'wama findife... ra'",
-      "explanation": "Pour exprimer son ambition de devenir quelque chose (un métier, un statut), on combine le verbe d'intention 'wama' (vouloir) avec le verbe d'état 'findi' (devenir) au progressif, le tout fermé par la postposition de rôle 'ra'.",
+      "concept": "La condition simple avec 'xa' (si)",
+      "explanation": "'Xa' introduit une proposition conditionnelle. Le verbe de la proposition introduite par 'xa' reste souvent au radical simple (sans marqueur de futur), tandis que le verbe de la proposition principale prend le suffixe futur '-ma'.",
       "rules": [
-        "Structure : [Sujet] + wama + findife + [Métier] + ra.",
-        "Le nom de la profession s'insère obligatoirement juste avant la postposition finale 'ra'."
+        "Structure : Xa + Sujet + Verbe(radical) + Complément, + Sujet + Verbe-ma + Complément",
+        "La proposition conditionnelle introduite par 'xa' se place généralement en tête de phrase"
       ],
       "examples": [
         {
-          "structure": "N + wama + findife + doti + ra",
-          "phonetic_api": "/n wama fiⁿdifɛ doti ra/",
-          "meaning": "Je veux devenir médecin."
+          "structure": "Xa n kçbiri sçtç, n sigama Bahamas",
+          "phonetic_api": "/xa n kɔbiri sɔtɔ, n siɡama bahamas/",
+          "meaning": "Si j'obtiens de l'argent, j'irai aux Bahamas"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Sékou",
-      "text": "Marie, i kéna ! Munse findi i xon ambition ra babilong ma ?",
-      "phonetic_api": "/mari i kéna muⁿsɛ fiⁿdi i xoⁿ aⁿbitioⁿ ra babiloⁿ ma/",
-      "phonetic_simple": "MA-RI, I KÉ-NA ! MOUN-SÈ FIN-DI I KHON AM-BI-TION RA BA-BI-LONG MA ?",
-      "translation": "Marie, salut ! Quelle est ton ambition pour l'avenir ?"
+      "speaker": "Georges",
+      "text": "I munse rabama tina?",
+      "phonetic_api": "/i munse rabama tina/",
+      "phonetic_simple": "i MOUN-sé ra-BA-ma TI-na",
+      "translation": "Que feras-tu demain ?"
     },
     {
-      "speaker": "Marie",
-      "text": "I kéna Sékou. N wama findife doti ra babilong. N fama xaranfe gbe ra Conakry.",
-      "phonetic_api": "/i kéna seku n wama fiⁿdifɛ doti ra babiloⁿ n fama xaraⁿfɛ ɡbɛ ra Conakry/",
-      "phonetic_simple": "I KÉ-NA SÉ-KOU. N WA-MA FIN-DI-FÈ DO-TI RA BA-BI-LONG. N FA-MA KHA-RAN-FÈ GBÈ RA CO-NA-KRY.",
-      "translation": "Salut Sékou. Je veux devenir médecin plus tard. Je vais beaucoup étudier à Conakry."
+      "speaker": "Mike",
+      "text": "Tina, n sigama xarandebanxi. LçxE xun naxan fama, n xaranma dangi.",
+      "phonetic_api": "/tina, n siɡama xarandebanxi, lɔxɛ xun naxan fama, n xaranma danɡi/",
+      "phonetic_simple": "TI-na, n SI-ga-ma kha-ran-dé-BAN-khi, LO-khè khoun na-KHAN FA-ma, n kha-RAN-ma DAN-gui",
+      "translation": "Demain, j'irai à l'école. La semaine prochaine, j'étudierai davantage."
     },
     {
-      "speaker": "Sékou",
-      "text": "Fe fanyi nan na gbe ra ! N tan fama findife karamoxo ra. N wama n yire malife.",
-      "phonetic_api": "/fɛ faɲi naⁿ na ɡbɛ ra n taⁿ fama fiⁿdifɛ karamoxo ra n wama n yirɛ malifɛ/",
-      "phonetic_simple": "FÈ FAN-YI NAN NA GBÈ RA ! N TAN FA-MA FIN-DI-FÈ KA-RA-MO-KHO RA. N WA-MA N YI-RÈ MA-LI-FÈ.",
-      "translation": "C'est un excellent projet ! Moi, je vais devenir enseignant. Je veux aider mon pays."
+      "speaker": "Georges",
+      "text": "Xa i kçbiri sçtç, i sigama minden?",
+      "phonetic_api": "/xa i kɔbiri sɔtɔ, i siɡama minden/",
+      "phonetic_simple": "kha i ko-BI-ri so-TO, i SI-ga-ma min-DEN",
+      "translation": "Si tu obtiens de l'argent, où iras-tu ?"
     },
     {
-      "speaker": "Marie",
-      "text": "I bɔɲɛ fan gbe ra, Sékou. Won birin fama walife tina ma fe fanyi ra.",
-      "phonetic_api": "/i bɔɲɛ faⁿ ɡbɛ ra seku woⁿ biriⁿ fama walifɛ tina ma fɛ faɲi ra/",
-      "phonetic_simple": "I BO-NYÈ FAN GBÈ RA, SÉ-KOU. WON BI-RIN FA-MA WA-LI-FÈ TI-NA MA FÈ FAN-YI RA.",
-      "translation": "Tu as un très bon cœur, Sékou. Nous allons tous travailler à l'avenir pour de bons projets."
-    },
-    {
-      "speaker": "Sékou",
-      "text": "Iyo Marie. Ala m'mali, won projetsé fama findife fe yati ra.",
-      "phonetic_api": "/iyo mari ala mːali woⁿ projɛtse fama fiⁿdifɛ fɛ yati ra/",
-      "phonetic_simple": "I-YO MA-RI. A-LA M-MA-LI, WON PRO-JET-SÉ FA-MA FIN-DI-FÈ FÈ YA-TI RA.",
-      "translation": "Oui Marie. Si Dieu nous aide, nos projets vont devenir une réalité."
+      "speaker": "Mike",
+      "text": "Xa n kçbiri sçtç, n sigama Bahamas.",
+      "phonetic_api": "/xa n kɔbiri sɔtɔ, n siɡama bahamas/",
+      "phonetic_simple": "kha n ko-BI-ri so-TO, n SI-ga-ma ba-ha-MAS",
+      "translation": "Si j'obtiens de l'argent, j'irai aux Bahamas."
     }
   ],
   "cultural_notes": [
-    "Dans la société soussou, l'évocation de l'avenir et des projets personnels s'accompagne systématiquement d'une marque d'humilité et de déférence spirituelle. On introduit très fréquemment ses ambitions par la formule 'Ala m'mali' (Si Dieu nous aide) pour signifier que la réussite finale dépend d'une bénédiction collective et divine. L'ambition d'aider son pays ('n yire mali') ou sa famille élargie reste la motivation principale des projets de vie."
+    "Comme le notent les concepteurs du manuel Peace Corps, le futur est traditionnellement perçu dans la société soussou comme relevant de la volonté divine ('Ala tin'=si Dieu le veut), ce qui explique la fréquence de formules comme 'Ala xa a balo' associées aux projets d'avenir.",
+    "Annoncer un projet futur précis sans nuance de type 'si Dieu le veut' peut être perçu comme présomptueux dans certains contextes traditionnels."
   ],
   "exercises": [
     {
-      "exercise_id": "ex14_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel auxiliaire de temps devez-vous obligatoirement insérer devant le verbe pour exprimer le futur ?",
+      "question": "Comment forme-t-on le futur en soussou ?",
       "options": [
-        "nu",
-        "fama",
-        "wama"
+        "Radical + suffixe -ma",
+        "nu + radical",
+        "bara + radical"
       ],
-      "correct_answer": "fama",
-      "explanation": "'Fama' dérive du verbe venir et sert de marque syntaxique pour le futur en soussou."
+      "correct_answer": "Radical + suffixe -ma",
+      "explanation": "Le futur s'obtient en ajoutant '-ma' au radical verbal, comme dans 'siga' (aller) → 'sigama' (ira)."
     },
     {
-      "exercise_id": "ex14_2",
-      "type": "multiple_choice",
-      "question": "Que signifie de manière temporelle l'adverbe composé 'Babilong' ?",
-      "options": [
-        "Hier matin",
-        "Tout de suite",
-        "Plus tard / À l'avenir"
-      ],
-      "correct_answer": "Plus tard / À l'avenir",
-      "explanation": "'Babilong' est l'indicateur temporel utilisé pour situer un projet dans l'avenir lointain."
-    },
-    {
-      "exercise_id": "ex14_3",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "N fama findi[ ___ ] karamoxo ra babilong.",
-      "correct_answer": "fe",
-      "hint": "C'est le suffixe du progressif continu indispensable avec l'auxiliaire fama."
-    },
-    {
-      "exercise_id": "ex14_4",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "N wama findife doti [ ___ ]. (Je veux devenir médecin.)",
-      "correct_answer": "ra",
-      "hint": "C'est la postposition finale obligatoire qui clôture la structure d'attribution findi... ra."
+      "sentence_with_blank": "'Si' (condition) se traduit par la particule : [ ___ ]",
+      "correct_answer": "xa",
+      "hint": "C'est une particule courte de deux lettres."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Peace Corps Guinée — Xarandi Xa Buki, Livre du stagiaire Sosoxui (Susu Language Lessons)",
+      "url": "https://fsi-languages.yojik.eu/languages/PeaceCorps/Susu/susu-language-course.pdf"
+    },
+    {
+      "label": "Live Lingua Project — Peace Corps Susu Language Lessons",
+      "url": "https://www.livelingua.com/course/peace_corps/susu_language_lessons"
+    }
+  ],
+  "confidence": "élevée",
+  "confidence_note": "Le futur en '-ma' et la structure conditionnelle 'xa' sont directement extraits et traduits dans la Compétence n°7-8 du manuel Peace Corps Susu, avec plusieurs exemples parallèles anglais/soussou."
 }

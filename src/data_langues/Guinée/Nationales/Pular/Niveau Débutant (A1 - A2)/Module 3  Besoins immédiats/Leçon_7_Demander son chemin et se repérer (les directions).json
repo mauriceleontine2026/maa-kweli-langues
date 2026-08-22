@@ -4,267 +4,263 @@
   "module_number": 3,
   "module_title": "Besoins immédiats",
   "lesson_number": 7,
-  "title": "Demander son chemin et se repérer",
+  "title": "Demander son chemin et se repérer (les directions)",
   "learning_objectives": [
-    "Savoir demander la localisation d'un lieu public (marché, gare, hôpital)",
-    "Comprendre et utiliser les indicateurs de direction fondamentaux (droite, gauche, tout droit)",
-    "Exprimer la notion de distance et de proximité"
+    "Demander son chemin et indiquer une direction (gauche, droite, tout droit)",
+    "Utiliser les verbes de mouvement de base (aller, tourner, suivre)",
+    "Comprendre les expressions pour dire qu'on est perdu"
   ],
   "phonetic_focus": {
-    "key_sounds": "La consonne implosive 'ɗ' (/ɗ/) apparaît dans 'ɗoo' (ici). La semi-voyelle 'ƴ' (/ʄ/) s'entend dans 'ɲaawoore' (orientation/jugement). Faites attention au groupe 'ñ' (/ɲ/) dans 'ñamo' (droite).",
-    "common_pitfalls": "Veillez à ne pas prononcer 'ko ɗoo' comme 'ko doo'. L'implosion du 'ɗ' est la seule marque permettant de distinguer 'ici' de termes voisins."
+    "key_sounds": "Le mot 'ñaamo' (droite) et 'nano' (gauche) ne doivent pas être confondus avec 'ñaamugol' (manger) malgré leur ressemblance sonore. Le 'ww' de 'woðði' (loin) est une consonne géminée à bien marquer.",
+    "common_pitfalls": "Les francophones confondent facilement nano (gauche) et ñaamo (droite), qui n'ont pourtant aucun lien étymologique avec des mots français."
   },
   "vocabulary": [
     {
-      "word_id": "v7_1",
-      "term": "laawol",
-      "phonetic_api": "/laːwol/",
-      "phonetic_simple": "LAA-WOL",
-      "translation": "chemin, route, rue",
-      "example_sentence": "Honto woni laawol luumo nden ?",
-      "example_phonetic": "/honto woni laːwol luːmo nden/",
-      "example_translation": "Où est le chemin du marché ?"
-    },
-    {
-      "word_id": "v7_2",
-      "term": "luumo",
-      "phonetic_api": "/luːmo/",
-      "phonetic_simple": "LUU-MO",
-      "translation": "marché",
-      "example_sentence": "Luumo nden no woɗɗi.",
-      "example_phonetic": "/luːmo nden no woɗːi/",
-      "example_translation": "Le marché est loin."
-    },
-    {
-      "word_id": "v7_3",
-      "term": "ñamo",
-      "phonetic_api": "/ɲamo/",
-      "phonetic_simple": "NYA-MO",
-      "translation": "droite (direction)",
-      "example_sentence": "Yahu ka ñamo maa.",
-      "example_phonetic": "/jahu ka ɲamo maː/",
-      "example_translation": "Va vers ta droite."
-    },
-    {
-      "word_id": "v7_4",
+      "word_id": "v1",
       "term": "nano",
       "phonetic_api": "/nano/",
       "phonetic_simple": "NA-NO",
-      "translation": "gauche (direction)",
-      "example_sentence": "Selu ka nano joni.",
-      "example_phonetic": "/selu ka nano d͡ʒoni/",
-      "example_translation": "Tourne à gauche maintenant."
+      "translation": "gauche",
+      "example_sentence": "Selir ka nano.",
+      "example_phonetic": "/selir ka nano/",
+      "example_translation": "Tourne à gauche."
     },
     {
-      "word_id": "v7_5",
-      "term": "yeeso",
-      "phonetic_api": "/jeːso/",
-      "phonetic_simple": "YEE-SO",
-      "translation": "devant, tout droit",
-      "example_sentence": "Yahu yeeso tun.",
-      "example_phonetic": "/jahu jeːso tun/",
-      "example_translation": "Va tout droit seulement."
+      "word_id": "v2",
+      "term": "ñaamo",
+      "phonetic_api": "/ɲaːmo/",
+      "phonetic_simple": "GNAA-MO",
+      "translation": "droite",
+      "example_sentence": "Selir ka ñaamo.",
+      "example_phonetic": "/selir ka ɲaːmo/",
+      "example_translation": "Tourne à droite."
     },
     {
-      "word_id": "v7_6",
-      "term": "ɗoo",
-      "phonetic_api": "/ɗoː/",
-      "phonetic_simple": "DHOO",
-      "translation": "ici",
-      "example_sentence": "Lopital nden no ɗoo.",
-      "example_phonetic": "/lopital nden no ɗoː/",
-      "example_translation": "L'hôpital est ici."
+      "word_id": "v3",
+      "term": "selugol",
+      "phonetic_api": "/seluɡol/",
+      "phonetic_simple": "SÉ-LOU-GOL",
+      "translation": "tourner",
+      "example_sentence": "Selu ka ñaamo.",
+      "example_phonetic": "/selu ka ɲaːmo/",
+      "example_translation": "Tourne à droite."
     },
     {
-      "word_id": "v7_7",
-      "term": "ɗoya",
-      "phonetic_api": "/ɗoja/",
-      "phonetic_simple": "DHO-YA",
-      "translation": "là-bas",
-      "example_sentence": "Gare nden no ɗoya.",
-      "example_phonetic": "/ɡare nden no ɗoja/",
-      "example_translation": "La gare est là-bas."
+      "word_id": "v4",
+      "term": "jokkugol",
+      "phonetic_api": "/dʒokːuɡol/",
+      "phonetic_simple": "DJOK-KOU-GOL",
+      "translation": "suivre",
+      "example_sentence": "Jokku ngol laawol ðoo.",
+      "example_phonetic": "/dʒokːu ŋɡol laːwol ɗoː/",
+      "example_translation": "Suis ce chemin-ci."
     },
     {
-      "word_id": "v7_8",
-      "term": "woɗɗi",
-      "phonetic_api": "/woɗːi/",
-      "phonetic_simple": "WOD-DHI",
-      "translation": "loin (être loin)",
-      "example_sentence": "Suudu nden no woɗɗi ɗoo.",
-      "example_phonetic": "/suːdu nden no woɗːi ɗoː/",
-      "example_translation": "La maison est loin d'ici."
+      "word_id": "v5",
+      "term": "laawol",
+      "phonetic_api": "/laːwol/",
+      "phonetic_simple": "LAA-OU-OL",
+      "translation": "chemin, route",
+      "example_sentence": "Ko laawol Seetare nii?",
+      "example_phonetic": "/ko laːwol seːtare niː/",
+      "example_translation": "C'est le chemin de Sétaré ?"
     },
     {
-      "word_id": "v7_9",
-      "term": "ɓadii",
-      "phonetic_api": "/ɓadiː/",
-      "phonetic_simple": "BHA-DII",
-      "translation": "proche (être près / proche)",
-      "example_sentence": "Longe makko no ɓadii.",
-      "example_phonetic": "/lonɡe makːo no ɓadiː/",
-      "example_translation": "Son logement est proche."
+      "word_id": "v6",
+      "term": "woððugol",
+      "phonetic_api": "/woɗːuɡol/",
+      "phonetic_simple": "WOD-DOU-GOL",
+      "translation": "être loin",
+      "example_sentence": "No woðði?",
+      "example_phonetic": "/no woɗɗi/",
+      "example_translation": "Est-ce loin ?"
     },
     {
-      "word_id": "v7_10",
-      "term": "honto",
-      "phonetic_api": "/honto/",
-      "phonetic_simple": "HON-TO",
-      "translation": "où ? (interrogatif)",
-      "example_sentence": "Honto woni suudu maa ?",
-      "example_phonetic": "/honto woni suudu maː/",
-      "example_translation": "Où se trouve ta maison ?"
+      "word_id": "v7",
+      "term": "hewtugol",
+      "phonetic_api": "/hewtuɡol/",
+      "phonetic_simple": "HÈOU-TOU-GOL",
+      "translation": "arriver",
+      "example_sentence": "A hewtay Seetare.",
+      "example_phonetic": "/a hewtaj seːtare/",
+      "example_translation": "Tu arriveras à Sétaré."
+    },
+    {
+      "word_id": "v8",
+      "term": "majjugol",
+      "phonetic_api": "/madʒːuɡol/",
+      "phonetic_simple": "MADJ-JOU-GOL",
+      "translation": "se perdre",
+      "example_sentence": "Mi majjii.",
+      "example_phonetic": "/mi madʒːiː/",
+      "example_translation": "Je me suis perdu."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p7_1",
-      "original": "Honto laawol luumo nden woni ?",
-      "phonetic_api": "/honto laːwol luːmo nden woni/",
-      "phonetic_simple": "HON-TO LAA-WOL LUU-MO NDEN WO-NI ?",
-      "translation": "Où se trouve le chemin du marché ?",
-      "context": "Interroger un passant dans la rue pour s'orienter."
+      "phrase_id": "p1",
+      "original": "Ko honto yahataa?",
+      "phonetic_api": "/ko honto jahataː/",
+      "phonetic_simple": "KO HON-TO YA-HA-TAA",
+      "translation": "Où vas-tu ?",
+      "context": "Question courante rencontrée sur la route."
     },
     {
-      "phrase_id": "p7_2",
-      "original": "Mido lara laawol gare nden.",
-      "phonetic_api": "/mido lara laːwol ɡare nden/",
-      "phonetic_simple": "MI-DO LA-RA LAA-WOL GA-RE NDEN",
-      "translation": "Je cherche le chemin de la gare.",
-      "context": "Expliquer son besoin d'orientation."
+      "phrase_id": "p2",
+      "original": "Ko honno mi yahirta Tensira?",
+      "phonetic_api": "/ko honːo mi jahirta tensira/",
+      "phonetic_simple": "KO HONNO MI YA-HIR-TA TEN-SI-RA",
+      "translation": "Comment fais-je pour aller à Tensira ?",
+      "context": "Pour demander son chemin vers un lieu précis."
     },
     {
-      "phrase_id": "p7_3",
-      "original": "Koni luumo nden no woɗɗi ?",
-      "phonetic_api": "/koni luːmo nden no woɗːi/",
-      "phonetic_simple": "KO-NI LUU-MO NDEN NO WOD-DHI ?",
-      "translation": "Est-ce que le marché est loin ?",
-      "context": "S'informer sur la distance avant de marcher."
+      "phrase_id": "p3",
+      "original": "No woðði?",
+      "phonetic_api": "/no woɗɗi/",
+      "phonetic_simple": "NO OUOD-DI",
+      "translation": "Est-ce loin ?",
+      "context": "Pour se renseigner sur la distance."
     },
     {
-      "phrase_id": "p7_4",
-      "original": "Alaa, luumo nden no ɓadii ɗoo.",
-      "phonetic_api": "/alaː luːmo nden no ɓadiː ɗoː/",
-      "phonetic_simple": "A-LAA, LUU-MO NDEN NO BHA-DII DHOO",
-      "translation": "Non, le marché est proche d'ici.",
-      "context": "Rassurer quelqu'un sur la proximité d'un lieu."
+      "phrase_id": "p4",
+      "original": "Woððaa.",
+      "phonetic_api": "/woɗɗaː/",
+      "phonetic_simple": "OUOD-DAA",
+      "translation": "Ce n'est pas loin.",
+      "context": "Réponse rassurante à 'No woðði?'."
     },
     {
-      "phrase_id": "p7_5",
-      "original": "Yahu yeeso, refti selu ka ñamo.",
-      "phonetic_api": "/jahu jeːso refti selu ka ɲamo/",
-      "phonetic_simple": "YA-HOU YEE-SO, REF-TI SE-LOU KA NYA-MO",
-      "translation": "Va tout droit, puis tourne à droite.",
-      "context": "Donner un itinéraire par étapes."
+      "phrase_id": "p5",
+      "original": "Jokku ngol laawol ðoo.",
+      "phonetic_api": "/dʒokːu ŋɡol laːwol ɗoː/",
+      "phonetic_simple": "DJOK-KOU NGOL LAA-OU-OL DOO",
+      "translation": "Suis ce chemin-ci.",
+      "context": "Instruction de base pour indiquer une direction."
     },
     {
-      "phrase_id": "p7_6",
-      "original": "Suudu nden no yeeso makko.",
-      "phonetic_api": "/suːdu nden no jeːso makːo/",
-      "phonetic_simple": "SUU-DOU NDEN NO YEE-SO MAK-KO",
-      "translation": "Le bâtiment est en face de lui / elle.",
-      "context": "Préciser la position exacte d'une maison."
+      "phrase_id": "p6",
+      "original": "Mi majjii.",
+      "phonetic_api": "/mi madʒːiː/",
+      "phonetic_simple": "MI MADJ-JI-I",
+      "translation": "Je me suis perdu.",
+      "context": "Pour signaler qu'on ne retrouve plus son chemin."
     },
     {
-      "phrase_id": "p7_7",
-      "original": "Honto mi selat joni ?",
-      "phonetic_api": "/honto mi selat d͡ʒoni/",
-      "phonetic_simple": "HON-TO MI SE-LAT DJO-NI ?",
-      "translation": "Où dois-je tourner maintenant ?",
-      "context": "Demander une précision en arrivant à un carrefour."
-    },
-    {
-      "phrase_id": "p7_8",
-      "original": "On jaraama e laawol ngol.",
-      "phonetic_api": "/on d͡ʒaraːma e laːwol nɡol/",
-      "phonetic_simple": "ON DJA-RAA-MA E LAA-WOL NGOL",
-      "translation": "Merci pour l'indication du chemin.",
-      "context": "Remercier poliment la personne qui vous a guidé."
+      "phrase_id": "p7",
+      "original": "Yo Alla welnu laawol ngol.",
+      "phonetic_api": "/jo alla welnu laːwol ŋɡol/",
+      "phonetic_simple": "YO AL-LA OUÈL-NOU LAA-OU-OL NGOL",
+      "translation": "Que Dieu facilite ton chemin.",
+      "context": "Formule traditionnelle de bon voyage."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'interrogatif locatif 'Honto'",
-      "explanation": "Pour poser une question sur le lieu, le pular emploie l'adverbe interrogatif 'honto' (où). Il se place obligatoirement en tête de phrase.",
+      "concept": "L'impératif des verbes de mouvement",
+      "explanation": "L'impératif singulier des verbes en -ugol se forme généralement en retirant la terminaison -gol et en ajustant la voyelle finale. C'est la forme utilisée pour donner des indications directement.",
       "rules": [
-        "Placer 'honto' au début de la proposition.",
-        "Le verbe d'existence ou de position 'woni' (être/se trouver) se positionne après le groupe nominal sujet."
+        "selugol (tourner) → Selu! (Tourne !) / Selir ka ñaamo! (Tourne à droite !)",
+        "jokkugol (suivre) → Jokku! (Suis !)",
+        "yahugol (aller) → Yahu! (Va !)"
       ],
       "examples": [
         {
-          "structure": "Honto + Sujet + woni ?",
-          "phonetic_api": "/honto luːmo nden woni/",
-          "meaning": "Où se trouve le marché ?"
-        }
-      ]
-    },
-    {
-      "concept": "Les prépositions de direction avec 'ka'",
-      "explanation": "Pour indiquer la direction ou le lieu cible d'un mouvement (à, vers, chez), le pular utilise fréquemment la préposition locative générale 'ka'.",
-      "rules": [
-        "Faire suivre 'ka' par le repère spatial (nano, ñamo) ou le nom du lieu."
-      ],
-      "examples": [
+          "structure": "Selir ka nano.",
+          "phonetic_api": "/selir ka nano/",
+          "meaning": "Tourne à gauche."
+        },
         {
-          "structure": "ka + ñamo",
-          "phonetic_api": "/ka ɲamo/",
-          "meaning": "À droite / Vers la droite"
+          "structure": "Yahu hara a selaali.",
+          "phonetic_api": "/jahu hara a selaːli/",
+          "meaning": "Va sans tourner (continue tout droit)."
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Gariibu (Voyageur)",
-      "text": "Jam weeti. Honto laawol lopital nden woni, jaraama ?",
-      "phonetic_api": "/d͡ʒam weːti honto laːwol lopital nden woni d͡ʒaraːma/",
-      "phonetic_simple": "DJAM WEE-TI. HON-TO LAA-WOL LO-PI-TAL NDEN WO-NI, DJA-RAA-MA ?",
-      "translation": "Bonjour. Où se trouve le chemin de l'hôpital, s'il vous plaît ?"
+      "speaker": "Voyageur",
+      "text": "Ee! A jaraama! Ko honto yahataa?",
+      "phonetic_api": "/eː a dʒaˈraːma ko honto jahataː/",
+      "phonetic_simple": "ÉÉ ! A DJA-RAA-MA ! KO HON-TO YA-HA-TAA",
+      "translation": "Bonjour ! Où vas-tu ?"
     },
     {
-      "speaker": "Hoɗo (Habitant)",
-      "text": "Jam tan. Lopital nden no woɗɗi seeda. Yahu yeeso tun.",
-      "phonetic_api": "/d͡ʒam tan lopital nden no woɗːi seːda jahu jeːso tun/",
-      "phonetic_simple": "DJAM TAN. LO-PI-TAL NDEN NO WOD-DHI SEE-DA. YA-HOU YEE-SO TOUN.",
-      "translation": "La paix seulement. L'hôpital est un peu loin. Va tout droit."
+      "speaker": "Habitant",
+      "text": "Ko Seetare mi yahata.",
+      "phonetic_api": "/ko seːtare mi jahata/",
+      "phonetic_simple": "KO SÉÉ-TA-RÉ MI YA-HA-TA",
+      "translation": "Je vais à Sétaré."
     },
     {
-      "speaker": "Gariibu (Voyageur)",
-      "text": "Koni mi selat ka nano walla ka ñamo ?",
-      "phonetic_api": "/koni mi selat ka nano walːa ka ɲamo/",
-      "phonetic_simple": "KO-NI MI SE-LAT KA NA-NO WAL-LA KA NYA-MO ?",
-      "translation": "Est-ce que je dois tourner à gauche ou à droite ?"
+      "speaker": "Voyageur",
+      "text": "Ko laawol Seetare nii? No woðði?",
+      "phonetic_api": "/ko laːwol seːtare niː no woɗɗi/",
+      "phonetic_simple": "KO LAA-OU-OL SÉÉ-TA-RÉ NI-I ? NO OUOD-DI",
+      "translation": "C'est le chemin de Sétaré ? Est-ce loin ?"
     },
     {
-      "speaker": "Hoɗo (Habitant)",
-      "text": "Selu ka ñamo maa. Gare nden no yeeso maa, lopital nden no ɗoya.",
-      "phonetic_api": "/selu ka ɲamo maː ɡare nden no jeːso maː lopital nden no ɗoja/",
-      "phonetic_simple": "SE-LOU KA NYA-MO MAA. GA-RE NDEN NO YEE-SO MAA, LO-PI-TAL NDEN NO DHO-YA.",
-      "translation": "Tourne à ta droite. La gare sera en face de toi, l'hôpital est juste là-bas."
+      "speaker": "Habitant",
+      "text": "Hii-hi, ko nii. Jokko ngol laawol ðoo haa ka ðate cele, selir ka nano.",
+      "phonetic_api": "/hiː-hi ko niː dʒokːo ŋɡol laːwol ɗoː haː ka ɗate tʃele selir ka nano/",
+      "phonetic_simple": "HI-HI, KO NI-I. DJOK-KO NGOL LAA-OU-OL DOO HAA KA DA-TÉ TCHÉ-LÉ, SÉ-LIR KA NA-NO",
+      "translation": "Oui, c'est cela. Suis ce chemin jusqu'à la bifurcation, tourne à gauche."
+    },
+    {
+      "speaker": "Voyageur",
+      "text": "Awa. Yo Alla welnu laawol ngol.",
+      "phonetic_api": "/awa jo alla welnu laːwol ŋɡol/",
+      "phonetic_simple": "A-OUA. YO AL-LA OUÈL-NOU LAA-OU-OL NGOL",
+      "translation": "D'accord. Que Dieu facilite mon chemin."
     }
   ],
   "cultural_notes": [
-    "Dans l'espace public au Fouta-Djallon, donner une direction s'accompagne presque toujours d'une estimation temporelle ou de repères visuels majeurs (un grand manguier, une mosquée ou une boutique connue). Refuser de guider un étranger égaré est considéré comme une entorse grave à l'hospitalité traditionnelle ('jaatigi')."
+    "Il est habituel et poli d'accompagner une demande d'itinéraire d'un échange complet de salutations avant d'entrer dans le vif du sujet (source : Learner's Guide to Pular, chapitre Travel & Directions).",
+    "La formule 'Yo Alla welnu laawol ngol' (que Dieu facilite ton chemin) est couramment échangée avant un départ, quelle que soit la distance du trajet."
   ],
   "exercises": [
     {
-      "exercise_id": "ex7_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Que signifie l'indicateur de direction 'ka nano' ?",
+      "question": "Comment dit-on « tourne à droite » ?",
       "options": [
-        "À droite",
-        "À gauche",
-        "Tout droit"
+        "Selir ka nano",
+        "Selir ka ñaamo",
+        "Jokku ngol laawol"
       ],
-      "correct_answer": "À gauche",
-      "explanation": "'Nano' est le terme pular invariable pour désigner la gauche."
+      "correct_answer": "Selir ka ñaamo",
+      "explanation": "'Ñaamo' signifie droite ; 'nano' signifie gauche."
     },
     {
-      "exercise_id": "ex7_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Gare nden no [ ___ ]. (La gare est là-bas).",
-      "correct_answer": "ɗoya",
-      "hint": "Adverbe de lieu indiquant l'éloignement visuel."
+      "sentence_with_blank": "No woðði? — [ ___ ]. (Ce n'est pas loin.)",
+      "correct_answer": "Woððaa",
+      "hint": "C'est la forme négative de 'woððugol' (être loin)."
+    },
+    {
+      "exercise_id": "ex3",
+      "type": "multiple_choice",
+      "question": "Que signifie « Mi majjii » ?",
+      "options": [
+        "Je suis arrivé",
+        "Je me suis perdu",
+        "Je vais tourner"
+      ],
+      "correct_answer": "Je me suis perdu",
+      "explanation": "'Majjugol' signifie se perdre ; à la forme conjuguée, 'Mi majjii' = je me suis perdu."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Learner's Guide to Pular (Fuuta Jallon) — Peace Corps Guinée (Herb Caudill & Ousmane Besseko Diallo)",
+      "url": "https://ibamba.net/pular/manual.pdf"
+    },
+    {
+      "label": "Live Lingua Project — Peace Corps Manual of Fulfulde",
+      "url": "https://www.livelingua.com/course/peace-corps/manual-of-fulfulde"
+    }
+  ],
+  "confidence": "élevée",
+  "confidence_note": "Vocabulaire, dialogues et phrasebook directement issus du chapitre 'Travel & Directions' du manuel Peace Corps Guinée."
 }

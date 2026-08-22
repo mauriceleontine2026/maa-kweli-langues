@@ -6,139 +6,213 @@
   "lesson_number": 1,
   "title": "L'utilisation des temps complexes et des modes avancés",
   "learning_objectives": [
-    "Maîtriser les nuances sémantiques induites par les extensions verbales complexes (itératif, causatif, réciproque)",
-    "Employer le mode subjonctif-injonctif avancé et le prétérit accompli de second degré",
-    "Différencier l'usage des focalisateurs de sujet, d'objet et de verbe dans un récit littéraire"
+    "Maîtriser le système complet des formes verbales pular : perfective/imperfective, active/réflexive/passive",
+    "Distinguer les formes 'préterite' (passé antérieur, -no-) des formes perfectives simples",
+    "Utiliser la forme focalisée (focus) et la forme narrative/séquentielle correctement"
   ],
   "phonetic_focus": {
-    "key_sounds": "La distinction entre voyelles longues géminées et brèves est ici critique (ex: 'gollidande' /ɡolːidande/ vs 'gollindore' /ɡolːindore/). L'articulation de l'implosive palatale 'ƴ' (/ʄ/) combinée à un coup de glotte initial demande une tension maximale du larynx.",
-    "common_pitfalls": "Veiller à ne pas élider le suffixe complexe '-ino-dee' /inodes/ qui marque l'antériorité itérative. Une mauvaise articulation aplatit la richesse aspectuelle du verbe."
+    "key_sounds": "Le pular n'a aucun verbe irrégulier : toutes les nuances de temps/mode/voix s'expriment par des suffixes systématiques ajoutés à la racine verbale. Le marqueur '-no-' inséré avant la terminaison indique le préterite (passé dans le passé, ex. -unoo, -inoo, -anoo).",
+    "common_pitfalls": "Les francophones cherchent souvent des auxiliaires séparés (comme 'avoir' + participe) pour le passé composé ; en pular, tout est intégré dans la terminaison du verbe lui-même. Ne pas confondre la forme active (-ugol), réflexive (-agol) et passive (-egol), qui ont chacune leur propre série complète de terminaisons."
   },
   "vocabulary": [
     {
-      "word_id": "v19_1",
-      "term": "naftoraagol",
-      "phonetic_api": "/naɸtoraːɡol/",
-      "phonetic_simple": "NAF-TO-RAA-GOL",
-      "translation": "exploiter au maximum, faire usage de manière instrumentale (extension -or-)",
-      "example_sentence": "Omo naftoroo ngal laawol e cuuɗi makko.",
-      "example_phonetic": "/omo naɸtoroː nɡal laːwol e cuːɗi makːo/",
-      "example_translation": "Il tire pleinement profit de cette méthode pour ses habitations."
+      "word_id": "v1",
+      "term": "yahugol",
+      "phonetic_api": "/jahuɡol/",
+      "phonetic_simple": "YA-HOU-GOL",
+      "translation": "aller (infinitif actif)",
+      "example_sentence": "O yahii.",
+      "example_phonetic": "/o jahiː/",
+      "example_translation": "Elle est allée (perfective asserté)."
     },
     {
-      "word_id": "v19_2",
-      "term": "gollidandeen",
-      "phonetic_api": "/ɡolːidandeːn/",
-      "phonetic_simple": "GOL-LI-DAN-DEEN",
-      "translation": "la collaboration bilatérale ou collective (dérivé de gollidugol)",
-      "example_sentence": "Gollidandeen meɗen no addi mbiilu mawndo.",
-      "example_phonetic": "/ɡolːidandeːn meɗen no adːi mbiːlu mawnːdo/",
-      "example_translation": "Notre collaboration a apporté un rendement immense."
+      "word_id": "v2",
+      "term": "lootagol",
+      "phonetic_api": "/loːtaɡol/",
+      "phonetic_simple": "LO-O-TA-GOL",
+      "translation": "se laver (infinitif réflexif)",
+      "example_sentence": "O lootike.",
+      "example_phonetic": "/o loːtike/",
+      "example_translation": "Elle s'est lavée."
     },
     {
-      "word_id": "v19_3",
-      "term": "tawti",
-      "phonetic_api": "/tawti/",
-      "phonetic_simple": "TAW-TI",
-      "translation": "trouver de surcroît, s'avérer que (accompli de second degré)",
-      "example_sentence": "Ndee mi hewtii, mi tawti omo lanniino.",
-      "example_phonetic": "/ndeː mi hewtiː mi tawti omo lanːiːno/",
-      "example_translation": "Quand je suis arrivé, il s'est avéré qu'il avait déjà terminé."
+      "word_id": "v3",
+      "term": "piyegol",
+      "phonetic_api": "/pijeɡol/",
+      "phonetic_simple": "PI-YÉ-GOL",
+      "translation": "être battu (infinitif passif)",
+      "example_sentence": "O piyaama.",
+      "example_phonetic": "/o pijaːma/",
+      "example_translation": "Il a été battu."
     },
     {
-      "word_id": "v19_4",
-      "term": "laawaleeji",
-      "phonetic_api": "/laːwaleːd͡ʒi/",
-      "phonetic_simple": "LAA-WA-LEE-JI",
-      "translation": "les principes directeurs, les règles systémiques (pluriel de laawal)",
-      "example_sentence": "Haa_e mbolden e dow laawaleeji laabi.",
-      "example_phonetic": "/haːʔe mbolden e dow laːwaleːd͡ʒi laːbi/",
-      "example_translation": "Il faut que nous parlions selon des principes clairs."
+      "word_id": "v4",
+      "term": "himo yahi (stative)",
+      "phonetic_api": "/himo jahi/",
+      "phonetic_simple": "HI-MO YA-HI",
+      "translation": "il/elle est parti(e) (état résultant)",
+      "example_sentence": "Himo yahi ka saare.",
+      "example_phonetic": "/himo jahi ka saːre/",
+      "example_translation": "Il est parti en ville (et y reste)."
     },
     {
-      "word_id": "v19_5",
-      "term": "mawnindorgo",
-      "phonetic_api": "/mawnindoɾɡo/",
-      "phonetic_simple": "MAW-NIN-DOR-GO",
-      "translation": "se glorifier mutuellement par un intermédiaire",
-      "example_sentence": "Ɓe mawnindoroo ko haala muɗen.",
-      "example_phonetic": "/ɓe mawnindoroː ko haːla muɗen/",
-      "example_translation": "C'est par leur propre éloquence qu'ils se glorifient mutuellement."
+      "word_id": "v5",
+      "term": "o yahunoo (préterite)",
+      "phonetic_api": "/o jahunoː/",
+      "phonetic_simple": "O YA-HOU-NO-O",
+      "translation": "il/elle était allé(e) (passé dans le passé)",
+      "example_sentence": "O yahunoo ado mi arde.",
+      "example_phonetic": "/o jahunoː ado mi arde/",
+      "example_translation": "Il était déjà allé avant que je vienne."
+    },
+    {
+      "word_id": "v6",
+      "term": "o imike, o yahi (narrative)",
+      "phonetic_api": "/o imike o jahi/",
+      "phonetic_simple": "O I-MI-KÉ, O YA-HI",
+      "translation": "il s'est levé et est parti (séquence narrative)",
+      "example_sentence": "O imike, o yahi, o arti.",
+      "example_phonetic": "/o imike o jahi o arti/",
+      "example_translation": "Il s'est levé, est parti, et est revenu."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p19_1",
-      "original": "Ndee mi hewtitinoo ka gollirde, mi tawti ɓe lannidinoo golle ɗen.",
-      "phonetic_api": "/ndeː mi hewtitinoː ka ɡollirde mi tawti ɓe lanːidinoː ɡolːe ɗen/",
-      "phonetic_simple": "NDEE MI HEW-TI-TI-NOO KA GOL-LIR-DE, MI TAW-TI BHE LAN-NI-DI-NOO GOL-LE DHEN",
-      "translation": "Lorsque je fus enfin retourné au bureau, j'ai constaté qu'ils avaient déjà parachevé collectivement tout le travail.",
-      "context": "Narration complexe d'actions antérieures imbriquées dans un cadre formel."
+      "phrase_id": "p1",
+      "original": "Ko ka saare o yahi.",
+      "phonetic_api": "/ko ka saːre o jahi/",
+      "phonetic_simple": "KO KA SA-A-RÉ O YA-HI",
+      "translation": "C'est en ville qu'elle est allée.",
+      "context": "Forme focalisée (focus) : met en relief le complément de lieu."
     },
     {
-      "phrase_id": "p19_2",
-      "original": "Ko ngal fahu naftortoodaa pour mawninde gollal maa ngal ka fadande.",
-      "phonetic_api": "/ko nɡal ɸahu naɸtortoːdaː pour mawninde ɡolːal maː nɡal ka ɸadande/",
-      "phonetic_simple": "KO NGAL FA-HOU NAF-TOR-TOO-DHAA POUR MAW-NIN-DE GOL-LAL MAA NGAL KA FA-DAN-DE",
-      "translation": "C'est de cet objectif précis que tu devras tirer profit pour pérenniser ton projet à l'avenir.",
-      "context": "Discours d'orientation stratégique employant la focalisation d'objet."
+      "phrase_id": "p2",
+      "original": "O yahaali.",
+      "phonetic_api": "/o jahaːli/",
+      "phonetic_simple": "O YA-HA-A-LI",
+      "translation": "Elle n'est pas allée.",
+      "context": "Forme négative perfective active."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Himo yahude.",
+      "phonetic_api": "/himo jahude/",
+      "phonetic_simple": "HI-MO YA-HOU-DÉ",
+      "translation": "Elle est en train d'aller / elle va (imperfective progressive).",
+      "context": "Forme imperfective négative-infinitive utilisée au présent progressif."
     }
   ],
   "grammar_points": [
     {
-      "concept": "La combinatoire des extensions verbales (-id- et -or-)",
-      "explanation": "En pular avancé, les extensions verbales s'accumulent sur le radical pour densifier le sens. L'extension associative/completive '-id-' (faire ensemble / complètement) peut fusionner avec l'extension modale/instrumentale '-or-' (faire d'une certaine manière / avec un outil).",
+      "concept": "Le système complet des voix et aspects verbaux (tableau de référence)",
+      "explanation": "Le pular structure chaque verbe selon trois voix (active -ugol, réflexive -agol, passive -egol) croisées avec deux aspects majeurs (perfective : action accomplie ; imperfective : action habituelle/future/en cours), eux-mêmes subdivisés en formes assertée, stative, simple/focus, inversée et négative.",
       "rules": [
-        "Le radical reçoit d'abord l'extension de complétude '-id-' puis l'extension instrumentale '-or-'.",
-        "Exemple : 'goll-' (travailler) -> 'gollid-' (travailler ensemble) -> 'gollidor-' (coopérer par un moyen spécifique)."
+        "PERFECTIVE asserté (passé simple avec pronom actif) : yahugol → o yahii (elle est allée)",
+        "PERFECTIVE stative (état résultant, avec pronom statif) : yahugol → himo yahi (elle est/reste partie)",
+        "IMPERFECTIVE asserté (futur/habituel) : yahugol → o yahay (elle ira/va habituellement)",
+        "Chaque voix (active/réflexive/passive) possède sa propre série complète de terminaisons parallèles"
       ],
       "examples": [
         {
-          "structure": "Radical + -id- + -or- + Suffixe",
-          "phonetic_api": "/ɡolːidortoːen/",
-          "meaning": "Nous coopérons par ce moyen"
+          "structure": "o yahii / himo yahi / o yahay",
+          "phonetic_api": "/o jahiː/, /himo jahi/, /o jahaj/",
+          "meaning": "elle est allée / elle est partie (état) / elle ira"
+        }
+      ]
+    },
+    {
+      "concept": "Le préterite (marqueur -no-) : le passé dans le passé",
+      "explanation": "Pour exprimer qu'une action était déjà accomplie ou en cours avant un autre point de référence dans le passé (équivalent du plus-que-parfait français), le pular insère l'infixe '-no-' entre la racine verbale et la terminaison habituelle.",
+      "rules": [
+        "Perfective asserté + no : -ii → -iino (o yahii → o yahiino, elle était déjà allée)",
+        "Perfective simple + no : -i → -unoo (o yahi → o yahunoo)",
+        "Ce marqueur s'applique systématiquement aux trois voix (active, réflexive, passive)"
+      ],
+      "examples": [
+        {
+          "structure": "O yahunoo ado mi arde.",
+          "phonetic_api": "/o jahunoː ado mi arde/",
+          "meaning": "Il était déjà parti avant que je vienne (préterite)."
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Mawɗo (Directeur)",
-      "text": "Alpha, no saɗitinoo gollidandeen meɗen ndee naftortooden ngal kandit_al kesal ?",
-      "phonetic_api": "/alɸa no saɗitinoː ɡolːidandeːn meɗen ndeː naɸtortoːden nɡal kandital kesal/",
-      "phonetic_simple": "AL-PHA, NO SA-DHI-TI-NOO GOL-LI-DAN-DEEN ME-DHEN NDEE NAF-TOR-TOO-DEN NGAL KAN-DI-TAL KE-SAL ?",
-      "translation": "Alpha, notre collaboration s'était-elle avérée ardue lorsque nous dussions exploiter ce nouveau protocole algorithmique ?"
+      "speaker": "Alpha",
+      "text": "Ko ka saare o yahi, walla ko ka suudu?",
+      "phonetic_api": "/ko ka saːre o jahi walːa ko ka suːdu/",
+      "phonetic_simple": "KO KA SA-A-RÉ O YA-HI, OUAL-LA KO KA SOU-DOU",
+      "translation": "C'est en ville qu'elle est allée, ou c'est à la maison ?"
     },
     {
-      "speaker": "Alpha (Ingénieur)",
-      "text": "Alaa, mi tawti ngal laawol no newitinoo sanne, gila huwwitoraynden cuuɗi meɗen fow e laabi laabi.",
-      "phonetic_api": "/alaː mi tawti nɡal laːwol no newitinoː sanːe ɡila huːwitorajnden cuːɗi meɗen ɸow e laːbi laːbi/",
-      "phonetic_simple": "A-LAA, MI TAW-TI NGAL LAA-WOL NO NE-WI-TI-NOO SAN-NE, GI-LA HUU-WI-TO-RAY-NDEN TCHUU-DHI ME-DHEN FOW E LAA-BI LAA-BI.",
-      "translation": "Non, j'ai réalisé que cette méthode s'était révélée d'une grande fluidité, dès lors que nous eûmes instrumentalisé l'ensemble de nos structures immobilières selon les règles de l'art."
+      "speaker": "Binta",
+      "text": "O yahunoo ka saare ado mi arde.",
+      "phonetic_api": "/o jahunoː ka saːre ado mi arde/",
+      "phonetic_simple": "O YA-HOU-NO-O KA SA-A-RÉ A-DO MI AR-DÉ",
+      "translation": "Elle était déjà allée en ville avant que je vienne."
+    },
+    {
+      "speaker": "Alpha",
+      "text": "Himo yahi jooni, walla himo yahude tan?",
+      "phonetic_api": "/himo jahi dʒoːni walːa himo jahude tan/",
+      "phonetic_simple": "HI-MO YA-HI DJO-O-NI, OUAL-LA HI-MO YA-HOU-DÉ TAN",
+      "translation": "Est-elle partie maintenant, ou est-elle juste en train de partir ?"
+    },
+    {
+      "speaker": "Binta",
+      "text": "O imike, o yahi.",
+      "phonetic_api": "/o imike o jahi/",
+      "phonetic_simple": "O I-MI-KÉ, O YA-HI",
+      "translation": "Elle s'est levée et elle est partie (séquence narrative)."
     }
   ],
   "cultural_notes": [
-    "Le registre soutenu du pular utilise de manière quasi systématique les extensions verbales complexes. Un orateur habile au sein des conseils de notables ('pootal mawɓe') évite les périphrases et synthétise sa pensée en un seul verbe lourdement étendu, ce qui constitue la quintessence de l'élégance linguistique ('haala laabi')."
+    "Le manuel Peace Corps souligne que le pular n'a aucun verbe irrégulier ni conjugaison au sens français : toute la richesse temporelle et modale repose sur un système de suffixes réguliers et prévisibles, ce qui le rend paradoxalement plus simple à mémoriser malgré son apparente complexité (source : Learner's Guide to Pular, Tables de référence 1 et 2)."
   ],
   "exercises": [
     {
-      "exercise_id": "ex19_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quelle nuance apporte l'extension '-id-' ajoutée à un radical verbal ?",
+      "question": "Quel infixe marque le préterite (passé dans le passé) en pular ?",
       "options": [
-        "L'action de faire seul en secret",
-        "La simultanéité collective ou la complétude absolue de l'action",
-        "L'annulation rétroactive d'un fait passé"
+        "-no-",
+        "-ay-",
+        "-aa-"
       ],
-      "correct_answer": "La simultanéité collective ou la complétude absolue de l'action",
-      "explanation": "L'extension '-id-' indique soit la globalité de l'objet ou de l'action (complétude), soit que l'action est menée conjointement par plusieurs acteurs."
+      "correct_answer": "-no-",
+      "explanation": "L'infixe -no- s'insère avant la terminaison habituelle pour marquer une action antérieure à un autre point du passé."
     },
     {
-      "exercise_id": "ex19_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Ndee mi hewtii, mi [ ___ ] omo yahiino. (Quand je suis arrivé, j'ai constaté de surcroît qu'il était déjà parti).",
-      "correct_answer": "tawti",
-      "hint": "Verbe d'état accompli de second degré marquant la constatation d'une situation préexistante."
+      "sentence_with_blank": "O yah[ ___ ] ado mi arde. (Il était déjà parti avant que je vienne)",
+      "correct_answer": "unoo",
+      "hint": "Utilisez la terminaison perfective simple + le marqueur préterite -no-."
+    },
+    {
+      "exercise_id": "ex3",
+      "type": "multiple_choice",
+      "question": "Quelle forme met en relief un élément de la phrase (comme 'c'est... que') ?",
+      "options": [
+        "La forme narrative",
+        "La forme focalisée (focus)",
+        "La forme négative"
+      ],
+      "correct_answer": "La forme focalisée (focus)",
+      "explanation": "La forme simple/focus (ex. 'ko ka saare o yahi') met en relief le complément mis en avant."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Learner's Guide to Pular (Fuuta Jallon) — Peace Corps Guinée (Herb Caudill & Ousmane Besseko Diallo)",
+      "url": "https://ibamba.net/pular/manual.pdf"
+    },
+    {
+      "label": "Live Lingua Project — Peace Corps Manual of Fulfulde",
+      "url": "https://www.livelingua.com/course/peace-corps/manual-of-fulfulde"
+    }
+  ],
+  "confidence": "élevée",
+  "confidence_note": "Système verbal complet (tableaux de référence 1 et 2, avec toutes les voix et aspects) directement issu du manuel Peace Corps Guinée, source académique de référence pour le pular du Fouta-Djalon."
 }

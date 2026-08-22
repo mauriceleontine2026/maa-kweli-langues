@@ -6,292 +6,187 @@
   "lesson_number": 7,
   "title": "Comprendre et analyser des textes littéraires ou historiques",
   "learning_objectives": [
-    "Analyser la structure narrative et sémantique des épopées historiques de la Basse-Guinée",
-    "Décoder le lexique poétique et les archaïsmes littéraires employés par les griots",
-    "Extraire et restituer la portée philosophique d'un récit historique en langue soussou"
+    "Situer les grandes étapes de l'histoire de l'écrit soussou (adjami, latin, N'Ko, Adlam, Koré Sèbèli)",
+    "Identifier le vocabulaire de base lié à l'écriture et au livre en soussou",
+    "Comprendre le contexte historique de la première œuvre écrite connue en soussou"
   ],
   "phonetic_focus": {
-    "key_sounds": "Cette leçon met l'accent sur les modulations tonales mélancoliques propres aux récits épiques d'Afrique de l'Ouest. Le redoublement consonantique dans 'singe' exige une transition fluide sans rupture glottale. L'allongement de la voyelle double /oː/ dans 'koro' (ancien) marque le respect historique.",
-    "common_pitfalls": "L'erreur consiste à gommer le relief rythmique des termes anciens. Les archaïsmes grammaticaux ou lexicaux doivent être prononcés avec solennité, en insistant sur les tons hauts des particules relatives."
+    "key_sounds": "Le vocabulaire de l'écriture emprunte largement au français ('sEbE' pour écrire vient d'un radical mandé, mais 'kitabu'/'liivu' pour livre montrent des emprunts arabes ou européens selon les sources) ; il faut prêter attention à l'origine mixte de ce lexique.",
+    "common_pitfalls": "Il n'existe pas, dans les sources consultées pour cette recherche, de corpus de textes littéraires soussou originaux traduits phrase par phrase ; cette leçon se limite donc à présenter le contexte historique et le vocabulaire lié à l'écrit, sans inventer d'extrait littéraire qui ne serait pas attesté."
   },
   "vocabulary": [
     {
-      "word_id": "v25_1",
-      "term": "Taruxu koro",
-      "phonetic_api": "/taruxu koro/",
-      "phonetic_simple": "TA-ROU-KHOU KO-RO",
-      "translation": "Chronique ancienne / Épopée historique / Récit des temps anciens",
-      "example_sentence": "Taruxu koro na won ma benbaé ma wali fanyié matonfe.",
-      "example_phonetic": "/taruxu koro na woⁿ ma beⁿbae ma wali faɲie matoⁿfɛ/",
-      "example_translation": "La chronique ancienne témoigne des hauts faits de nos ancêtres."
+      "word_id": "v1",
+      "term": "sEbE",
+      "phonetic_api": "/sɛbɛ/",
+      "phonetic_simple": "sè-BÈ",
+      "translation": "écrire, écriture",
+      "example_sentence": "A nu sEbEfe kEdi.",
+      "example_phonetic": "/a nu sɛbɛfe kɛdi/",
+      "example_translation": "Il/elle était en train d'écrire une lettre."
     },
     {
-      "word_id": "v25_2",
-      "term": "Yatagi yati",
-      "phonetic_api": "/yataɡi yati/",
-      "phonetic_simple": "YA-TA-GUI YA-TI",
-      "translation": "La substance même / Le témoignage direct / L'authenticité historique",
-      "example_sentence": "Won xa siga na yatagi yati xun ma.",
-      "example_phonetic": "/woⁿ xa siɡa na yataɡi yati xuⁿ ma/",
-      "example_translation": "Remontons à la source même de ce témoignage direct."
+      "word_id": "v2",
+      "term": "xaranyi",
+      "phonetic_api": "/xaraɲi/",
+      "phonetic_simple": "kha-RAN-gni",
+      "translation": "l'étude, l'apprentissage, l'éducation",
+      "example_sentence": "Xaranyi fanyi mixi birin bE.",
+      "example_phonetic": "/xaraɲi faɲi mixi birin bɛ/",
+      "example_translation": "L'éducation est bonne pour tout le monde."
     },
     {
-      "word_id": "v25_3",
-      "term": "Masenyi foraxi",
-      "phonetic_api": "/maseɲi foraxi/",
-      "phonetic_simple": "MA-SÈ-NYI FO-RA-KHI",
-      "translation": "Discours hermétique / Parole cryptée / Métaphore ancienne",
-      "example_sentence": "Karamoxo na masenyi foraxi rabafe won bɛ.",
-      "example_phonetic": "/karamoxo na maseɲi foraxi rabafɛ woⁿ bɛ/",
-      "example_translation": "Le maître est en train de décoder une parole cryptée pour nous."
+      "word_id": "v3",
+      "term": "xaranderaba",
+      "phonetic_api": "/xaranderaba/",
+      "phonetic_simple": "kha-ran-dé-RA-ba",
+      "translation": "enseignant, professeur",
+      "example_sentence": "Xaranderaba na nu nga ra.",
+      "example_phonetic": "/xaranderaba na nu nɡa ra/",
+      "example_translation": "Ma mère était enseignante."
     },
     {
-      "word_id": "v25_4",
-      "term": "Nɔ",
-      "phonetic_api": "/nɔ/",
-      "phonetic_simple": "NO (ouvert)",
-      "translation": "Interpréter / Saisir la quintessence / Triompher de l'obscurité du texte",
-      "example_sentence": "Mixi mu nɔma na taruxu fahaamufe naxanba tinnafiixɛ mu na.",
-      "example_phonetic": "/mixi mu nɔma na taruxu fahaːmufɛ naxaⁿba tiⁿnafiːxɛ mu na/",
-      "example_translation": "Nul ne peut saisir la quintessence de ce récit si l'honnêteté fait défaut."
+      "word_id": "v4",
+      "term": "sEbEli",
+      "phonetic_api": "/sɛbɛli/",
+      "phonetic_simple": "sè-BÈ-li",
+      "translation": "l'écrit, le texte, le document (dérivé de sEbE)",
+      "example_sentence": "SEbEli nakhan na banxi ma, a to.",
+      "example_phonetic": "/sɛbɛli naxan na banxi ma, a to/",
+      "example_translation": "Le document qui est dans la maison, il l'a vu."
     },
     {
-      "word_id": "v25_5",
-      "term": "Singe yati",
-      "phonetic_api": "/siⁿdʒɛ yati/",
-      "phonetic_simple": "SIN-DJÉ YA-TI",
-      "translation": "À l'origine absolue / Au premier commencement des temps",
-      "example_sentence": "Singe yati, won ma taaé nu ɲɛndɛxi fanyi ra.",
-      "example_phonetic": "/siⁿdʒɛ yati woⁿ ma taːe nu ɲɛndɛxi faɲi ra/",
-      "example_translation": "Au tout premier commencement, nos cités étaient rigoureusement structurées."
-    },
-    {
-      "word_id": "v25_6",
-      "term": "Tinnafiixɛ kanyé",
-      "phonetic_api": "/tiⁿnafiːxɛ kaɲe/",
-      "phonetic_simple": "TIN-NA-FII-KHÈ KA-NYÉ",
-      "translation": "L'homme intègre / L'historien juste / Le gardien de la vérité",
-      "example_sentence": "Tinnafiixɛ kanyé nan na taruxu koro masɛbɛxi.",
-      "example_phonetic": "/tiⁿnafiːxɛ kaɲe naⁿ na taruxu koro masɛbɛxi/",
-      "example_translation": "C'est un gardien de la vérité qui a consigné cette chronique ancienne."
-    },
-    {
-      "word_id": "v25_7",
-      "term": "Taalɛ foraxi",
-      "phonetic_api": "/taːlɛ foraxi/",
-      "phonetic_simple": "TAA-LÈ FO-RA-KHI",
-      "translation": "Parabole obscure / Allégorie complexe / Enigme historique",
-      "example_sentence": "Na taalɛ foraxi sare gbo won ma bɔɲɛé bɛ.",
-      "example_phonetic": "/na taːlɛ foraxi sarɛ ɡbo woⁿ ma bɔɲɛe bɛ/",
-      "example_translation": "Cette énigme historique possède une valeur immense pour nos esprits."
-    },
-    {
-      "word_id": "v25_8",
-      "term": "Moni",
-      "phonetic_api": "/moni/",
-      "phonetic_simple": "MO-NI",
-      "translation": "Réfuter l'altération / Préserver de l'oubli / Sauvegarder",
-      "example_sentence": "Won xa won ma taruxu moni alɔ a mu xa ɔlɔ babilong.",
-      "example_phonetic": "/woⁿ xa woⁿ ma taruxu moni alɔ a mu xa ɔlɔ babiloⁿ/",
-      "example_translation": "Il nous faut sauvegarder notre histoire afin qu'elle ne soit pas altérée à l'avenir."
-    },
-    {
-      "word_id": "v25_9",
-      "term": "Xari",
-      "phonetic_api": "/xari/",
-      "phonetic_simple": "KHA-RI",
-      "translation": "Héritage immatériel / Grâce historique / Destin légué",
-      "example_sentence": "Na xari dɔxɔxi won ma saranxun ma babilong yati ma.",
-      "example_phonetic": "/na xari dɔxɔxi woⁿ ma saraⁿxuⁿ ma babiloⁿ yati ma/",
-      "example_translation": "Cet héritage immatériel est établi au sein de notre conseil pour l'éternité."
-    },
-    {
-      "word_id": "v25_10",
-      "term": "Fe yati nan na ra alɔ",
-      "phonetic_api": "/fɛ yati naⁿ na ra alɔ/",
-      "phonetic_simple": "FÈ YA-TI NAN NA RA A-LO",
-      "translation": "Il appert de fait que / L'évidence historique démontre que",
-      "example_sentence": "Fe yati nan na ra alɔ won fama nɔfe babilong yati ma.",
-      "example_phonetic": "/fɛ yati naⁿ na ra alɔ woⁿ fama nɔfɛ babiloⁿ yati ma/",
-      "example_translation": "L'évidence historique démontre que nous triompherons à travers les âges."
+      "word_id": "v5",
+      "term": "tarikhi",
+      "phonetic_api": "/tarixi/",
+      "phonetic_simple": "ta-RI-khi",
+      "translation": "l'histoire (le récit du passé, emprunt arabe attesté dans plusieurs langues de Guinée)",
+      "example_sentence": "Fori nan tarikhi kolon.",
+      "example_phonetic": "/fori nan tarixi kolon/",
+      "example_translation": "C'est l'ancien qui connaît l'histoire."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p25_1",
-      "original": "Taruxu koro naxan masɛbɛxi, na findi fe yati ra alɔ tinnafiixɛ kanyéé nu a fala ki naxan ma.",
-      "phonetic_api": "/taruxu koro naxaⁿ masɛbɛxi na fiⁿdi fɛ yati ra alɔ tiⁿnafiːxɛ kaɲeː nu a fala ki naxaⁿ ma/",
-      "phonetic_simple": "TA-ROU-KHOU KO-RO NA-KHAN MA-SÈ-BÈ-KHI, NA FIN-DI FÈ YA-TI RA A-LO TIN-NA-FII-KHÈ KA-NYÉÉ NOU A FA-LA KI NA-KHAN MA",
-      "translation": "La chronique ancienne qui a été consignée s'avère être la pure réalité, conformément à la déclamation des gardiens de la vérité.",
-      "context": "Introduire l'analyse critique d'un document ou d'un récit épique traditionnel."
+      "phrase_id": "p1",
+      "original": "A nu sEbEfe kEdi",
+      "phonetic_api": "/a nu sɛbɛfe kɛdi/",
+      "phonetic_simple": "a nou sè-BÈ-fé KÈ-di",
+      "translation": "Il/elle était en train d'écrire une lettre",
+      "context": "Reprend la structure progressive passée déjà vue au Module 1, appliquée au champ lexical de l'écrit."
     },
     {
-      "phrase_id": "p25_2",
-      "original": "Naxan ma fe ra, won xa masenyi foraxi birin maton saranxun ma alɔ won xa fe xun yati fahaamu.",
-      "phonetic_api": "/naxaⁿ ma fɛ ra woⁿ xa maseɲi foraxi biriⁿ matoⁿ saraⁿxuⁿ ma alɔ woⁿ xa fɛ xuⁿ yati fahaːmu/",
-      "phonetic_simple": "NA-KHAN MA FÈ RA, WON KHA MA-SÈ-NYI FO-RA-KHI BI-RIN MA-TON SA-RAN-KHOUN MA A-LO WON KHA FÈ KHOUN YA-TI FA-HA-A-MOU",
-      "translation": "C'est pourquoi il nous faut impérativement décoder toutes les paroles cryptées devant l'assemblée afin d'en saisir la source exacte.",
-      "context": "Exhorter un conseil de lettrés ou de sages à approfondir l'exégèse d'un texte ancien."
+      "phrase_id": "p2",
+      "original": "Fori nan tarikhi kolon",
+      "phonetic_api": "/fori nan tarixi kolon/",
+      "phonetic_simple": "FO-ri nan ta-RI-khi ko-LON",
+      "translation": "C'est l'ancien qui connaît l'histoire",
+      "context": "Rappelle le rôle de la tradition orale (portée par les anciens) comme principale gardienne de l'histoire, en l'absence d'une longue tradition écrite largement diffusée."
     },
     {
-      "phrase_id": "p25_3",
-      "original": "Hali yati na taalɛ foraxi xa gbo, won fama a ma xari tongo fe babilong yati ma.",
-      "phonetic_api": "/hali yati na taːlɛ foraxi xa ɡbo woⁿ fama a ma xari toⁿɡo fɛ babiloⁿ yati ma/",
-      "phonetic_simple": "HA-LI YA-TI NA TAA-LÈ FO-RA-KHI KHA GBO, WON FA-MA A MA KHA-RI TON-GO FÈ BA-BI-LONG YA-TI MA",
-      "translation": "Quand bien même cette parabole obscure s'avérerait complexe, nous allons recueillir son héritage immatériel pour l'éternité.",
-      "context": "Affirmer la valeur universelle et intemporelle d'un texte littéraire complexe."
+      "phrase_id": "p3",
+      "original": "Xaranyi fanyi mixi birin bE",
+      "phonetic_api": "/xaraɲi faɲi mixi birin bɛ/",
+      "phonetic_simple": "kha-RAN-gni FA-gni MI-khi bi-RIN bè",
+      "translation": "L'éducation est bonne pour tout le monde",
+      "context": "Phrase générale utile pour introduire une réflexion sur l'importance de l'écrit et de l'étude dans la transmission culturelle."
     },
     {
-      "phrase_id": "p25_4",
-      "original": "Singe yati, won ma benbaé mu nu wama gɔfɛ nun sare matiféfe ra naxan nu fama taruxu ɔlɔfe.",
-      "phonetic_api": "/siⁿdʒɛ yati woⁿ ma beⁿbae mu nu wama ɡɔfɛ nuⁿ sarɛ matifɛfɛ ra naxaⁿ nu fama taruxu ɔlɔfɛ/",
-      "phonetic_simple": "SIN-DJÉ YA-TI, WON MA BEN-BA-É MOU NOU WA-MA GO-FÈ NOUN SA-RÈ MA-TI-FÉ-FÈ RA NA-KHAN NOU FA-MA TA-ROU-KHOU O-LO-FÈ",
-      "translation": "Au premier commencement des temps, nos ancêtres ne recherchaient point le gain matériel qui aurait fini par corrompre l'histoire.",
-      "context": "Rappeler les fondements éthiques des récits anciens lors d'un plaidoyer culturel."
-    },
-    {
-      "phrase_id": "p25_5",
-      "original": "Na fe ma, won xa fe foraxi birin moni alɔ won ma xari dɔxɔxi mu xa kere babilong.",
-      "phonetic_api": "/na fɛ ma woⁿ xa fɛ foraxi biriⁿ moni alɔ woⁿ ma xari dɔxɔxi mu xa kerɛ babiloⁿ/",
-      "phonetic_simple": "NA FÈ MA, WON KHA FÈ FO-RA-KHI BI-RIN MO-NI A-LO WON MA KHA-RI DO-KHO-KHI MOU KHA KÉ-RÈ BA-BI-LONG",
-      "translation": "À ce sujet, il nous faut prémunir le récit de toute altération afin que notre héritage immatériel ne s'effondre pas à l'avenir.",
-      "context": "Justifier des mesures de conservation ou de transmission rigoureuse des chroniques."
-    },
-    {
-      "phrase_id": "p25_6",
-      "original": "Naxanba won xa na yatagi yati ɲɛndɛ, na findi fe ra naxan won fama nɔfe masenyi birin ma.",
-      "phonetic_api": "/naxaⁿba woⁿ xa na yataɡi yati ɲɛndɛ na fiⁿdi fɛ ra naxaⁿ woⁿ fama nɔfɛ maseɲi biriⁿ ma/",
-      "phonetic_simple": "NA-KHAN-BA WON KHA NA YA-TA-GUI YA-TI NYÈN-DÈ, NA FIN-DI FÈ RA NA-KHAN WON FA-MA NO-FÈ MA-SÈ-NYI BI-RIN MA",
-      "translation": "Au cas où nous structurerions ce témoignage authentique, ce qui implique que nous triompherons de toutes les obscurités du discours.",
-      "context": "Démontrer la valeur d'une méthode analytique rigoureuse appliquée à l'histoire."
-    },
-    {
-      "phrase_id": "p25_7",
-      "original": "Fe yati nan na ra alɔ won bɔɲɛé maxaxi na taruxu koro ma marasiyati ra.",
-      "phonetic_api": "/fɛ yati naⁿ na ra alɔ woⁿ bɔɲɛe maxaxi na taruxu koro ma marasiyati ra/",
-      "phonetic_simple": "FÈ YA-TI NAN NA RA A-LO WON BO-NYÈÈ MA-KHA-KHI NA TA-ROU-KHOU KO-RO MA MA-RA-SI-YA-TI RA",
-      "translation": "Il appert de fait que nos esprits sont purifiés et éclairés par l'enseignement suprême de cette chronique ancienne.",
-      "context": "Exprimer l'impact philosophique et moral tiré de l'analyse d'un texte sacré."
-    },
-    {
-      "phrase_id": "p25_8",
-      "original": "Babilong yati ma, na ɲɛndɛxi fanyi ra, won fama n ma masenyié sankafe taaé birin ma.",
-      "phonetic_api": "/babiloⁿ yati ma na ɲɛndɛxi faɲi ra woⁿ fama n ma maseɲie saⁿkafɛ taːe biriⁿ ma/",
-      "phonetic_simple": "BA-BI-LONG YA-TI MA, NA NYÈN-DÈ-KHI FAN-YI RA, WON FA-MA N MA MA-SÈ-NYI-É SAN-KA-FÈ TAA-É BI-RIN MA",
-      "translation": "En dernière analyse, cela étant rigoureusement ordonné, nous défendrons nos discours à travers toutes les cités.",
-      "context": "Clore un exposé académique ou littéraire sur une affirmation de pérennité."
+      "phrase_id": "p4",
+      "original": "SEbEli nakhan na banxi ma, a to",
+      "phonetic_api": "/sɛbɛli naxan na banxi ma, a to/",
+      "phonetic_simple": "sè-BÈ-li na-KHAN na BAN-khi ma, a to",
+      "translation": "Le document qui est dans la maison, il l'a vu",
+      "context": "Exemple d'usage du mot 'sEbEli' (écrit/document) dans une phrase relative simple."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'usage sémantique du qualificatif postposé 'koro' pour marquer l'historicité mythique",
-      "explanation": "Au niveau de maîtrise totale, l'adjectif 'koro' dépasse le simple sens physique de 'vieux'. Placé directement après un substantif abstrait ou textuel comme 'taruxu' (récit), il élève l'objet au rang de chronique sacrée, d'épopée fondatrice ou de monument historique inaltérable.",
+      "concept": "Contexte historique de l'écrit en langue soussou",
+      "explanation": "Le soussou est resté une langue à transmission majoritairement orale pendant l'essentiel de son histoire. D'après Wikipédia, la première œuvre connue en soussou est une traduction des sept premiers chapitres de l'Évangile de Matthieu par le missionnaire John Godfrey Wilhelm, publiée à Londres sous le titre 'Lingjili Matthew' en 1816 — mais seule cette petite partie du Nouveau Testament semble avoir été imprimée. Le soussou a ensuite été transcrit successivement avec l'alphabet arabe (adjami, probablement introduit à l'époque de l'Imamat du Fouta Djalon), avec l'alphabet latin (formalisé sous le gouvernement de Sékou Touré après l'indépendance de 1958, puis révisé en 1988-89 pour se rapprocher de l'alphabet africain de référence), ainsi qu'avec les écritures N'Ko et Adlam. Une écriture plus récente, le Koré Sèbèli (ou Wakara), a été créée en 2009 par le sociologue guinéen Mohamed Bentoura Bangoura à partir de symboles traditionnels de sociétés secrètes.",
       "rules": [
-        "Structure : [Texte/Concept] + koro.",
-        "Le groupe nominal ainsi formé rejette les déterminants familiers et exige un registre de phrase solennel."
+        "Ordre historique des systèmes d'écriture : adjami (arabe, dès le XVIIIe siècle) → latin (XIXe siècle, formalisé 1958-1988/89) → N'Ko et Adlam (XXe siècle) → Koré Sèbèli/Wakara (2009)",
+        "La quasi-absence de corpus écrit ancien largement disponible explique la prédominance de la tradition orale (contes, proverbes) comme vecteur principal de la culture soussou"
       ],
       "examples": [
         {
-          "structure": "Taruxu + koro",
-          "phonetic_api": "/taruxu koro/",
-          "meaning": "La chronique ancienne / L'épopée sacrée des temps fondateurs."
-        }
-      ]
-    },
-    {
-      "concept": "La construction de l'exégèse par l'outil de focalisation textuelle 'Na yatagi yati'",
-      "explanation": "Pour désigner l'essence textuelle, la preuve littérale ou la substance même d'un écrit historique lors d'une analyse critique, le style de niveau C2 emploie le groupe nominal focalisé discontinu 'Na yatagi yati' (ce témoignage direct en son essence même).",
-      "rules": [
-        "La locution se place en position de complément ou de sujet logique.",
-        "Elle est fréquemment associée à la postposition 'xun ma' (vers la source de) pour introduire l'effort d'analyse."
-      ],
-      "examples": [
-        {
-          "structure": "Na yatagi yati + xun + ma",
-          "phonetic_api": "/na yataɡi yati xuⁿ ma/",
-          "meaning": "Vers l'essence même / À la source littérale de ce témoignage direct."
+          "structure": "Lingjili Matthew (1816)",
+          "phonetic_api": "/liɲɟili matʲu/",
+          "meaning": "Première œuvre connue en soussou : traduction partielle de l'Évangile de Matthieu par J.G. Wilhelm"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Le Professeur (Karamoxo)",
-      "text": "Marie, i kéna ! Ala xa i mali. Won ma malanyi dɔxɔxi to ma won xa taruxu koro ki fahaamu fanyi ra.",
-      "phonetic_api": "/mari i kéna ala xa i mali woⁿ ma malaɲi dɔxɔxi to ma woⁿ xa taruxu koro ki fahaːmu faɲi ra/",
-      "phonetic_simple": "MA-RI, I KÉ-NA ! A-LA KHA I MA-LI. WON MA MA-LAN-YI DO-KHO-KHI TO MA WON KHA TA-ROU-KHOU KO-RO KI FA-HA-A-MOU FAN-YI RA.",
-      "translation": "Marie, bonjour ! Que Dieu t'assiste. Notre assemblée est consacrée aujourd'hui à l'analyse et à la parfaite compréhension de cette chronique ancienne."
+      "speaker": "L'étudiant",
+      "text": "Xaranderaba, susu sEbEli sifa nakhan singe ra?",
+      "phonetic_api": "/xaranderaba, susu sɛbɛli sifa naxan sinɡe ra/",
+      "phonetic_simple": "kha-ran-dé-RA-ba, SOU-sou sè-BÈ-li SI-fa na-KHAN SIN-gué ra",
+      "translation": "Professeur, quel a été le premier type d'écrit soussou ?"
     },
     {
-      "speaker": "Marie",
-      "text": "I nuwali, n karamoxo. N na n ma bɔɲɛ ɲɛndɛfe alɔ n xa na yatagi yati xun ma siga. Koni, na masenyi foraxi gbo gbe ra.",
-      "phonetic_api": "/i nuwali n karamoxo n na n ma bɔɲɛ ɲɛndɛfɛ alɔ n xa na yataɡi yati xuⁿ ma siɡa koni na maseɲi foraxi ɡbo ɡbɛ ra/",
-      "phonetic_simple": "I NOU-WA-LI, N KA-RA-MO-KHO. N NA N MA BO-NYÈ NYÈN-DÈ-FÈ A-LO N KHA NA YA-TA-GUI YA-TI KHOUN MA SI-GA. KO-NI, NA MA-SÈ-NYI FO-RA-KHI GBO GBÈ RA.",
-      "translation": "Merci, mon maître. Je prépare mon esprit afin de remonter à la source littérale de ce témoignage authentique. Cependant, cette parole cryptée s'avère d'une grande complexité."
+      "speaker": "Le professeur (Xaranderaba)",
+      "text": "A nu xaranyi keren, mixi keren yi tinkhi Matiye kitabu xui-firin nun solomasaxan.",
+      "phonetic_api": "/a nu xaraɲi keren, mixi keren ji tinxi matie kitabu xui firin nun solomasaxan/",
+      "phonetic_simple": "a nou kha-RAN-gni ké-RÈN, MI-khi ké-RÈN yi TIN-khi ma-ti-YÉ ki-TA-bou khoui fi-RIN noun so-lo-ma-sa-KHAN",
+      "translation": "Ce fut un enseignement particulier : une personne a traduit les sept premiers chapitres du livre de Matthieu."
     },
     {
-      "speaker": "Le Professeur (Karamoxo)",
-      "text": "Fe yati nan na ra. Koni yati, naxanba won xa tinnafiixɛ kanyéé ma masenyié tongo, won fama nɔfe na taalɛ foraxi ma.",
-      "phonetic_api": "/fɛ yati naⁿ na ra koni yati naxaⁿba woⁿ xa tiⁿnafiːxɛ kaɲeː ma maseɲie toⁿɡo woⁿ fama nɔfɛ na taːlɛ foraxi ma/",
-      "phonetic_simple": "FÈ YA-TI NAN NA RA. KO-NI YA-TI, NA-KHAN-BA WON KHA TIN-NA-FII-KHÈ KA-NYÉÉ MA MA-SÈ-NYI-É TON-GO, WON FA-MA NO-FÈ NA TAA-LÈ FO-RA-KHI MA.",
-      "translation": "Il en est de fait. Néanmoins, au cas où nous adopterions les enseignements des gardiens de la vérité, nous triompherons de l'obscurité de cette parabole."
+      "speaker": "L'étudiant",
+      "text": "Fori nan tarikhi kolon. N wama a xaranfe fanyi.",
+      "phonetic_api": "/fori nan tarixi kolon, n wama a xaranfe faɲi/",
+      "phonetic_simple": "FO-ri nan ta-RI-khi ko-LON, n WA-ma a kha-RAN-fé FA-gni",
+      "translation": "Ce sont les anciens qui connaissent l'histoire. Je veux bien l'étudier."
     },
     {
-      "speaker": "Marie",
-      "text": "Naxan ma fe ra, won xa fe foraxi birin moni alɔ won ma xari dɔxɔxi mu xa kere babilong yati ma.",
-      "phonetic_api": "/naxaⁿ ma fɛ ra woⁿ xa fɛ foraxi biriⁿ moni alɔ woⁿ ma xari dɔxɔxi mu xa kerɛ babiloⁿ yati ma/",
-      "phonetic_simple": "NA-KHAN MA FÈ RA, WON KHA FÈ FO-RA-KHI BI-RIN MO-NI A-LO WON MA KHA-RI DO-KHO-KHI MOU KHA KÉ-RÈ BA-BI-LONG YA-TI MA.",
-      "translation": "C'est pourquoi il nous faut sauvegarder le texte de toute altération obscure afin que notre héritage immatériel ne s'effondre pas à travers les générations futures."
-    },
-    {
-      "speaker": "Le Professeur (Karamoxo)",
-      "text": "I fala fisa fe birin ra. Singe yati, na taruxu koro nan na won ma saranxun sankafe. Won xa na marasiyati tongo !",
-      "phonetic_api": "/i fala fisa fɛ biriⁿ ra siⁿdʒɛ yati na taruxu koro naⁿ na woⁿ ma saraⁿxuⁿ saⁿkafɛ woⁿ xa na marasiyati toⁿɡo/",
-      "phonetic_simple": "I FA-LA FI-SA FÈ BI-RIN RA. SIN-DJÉ YA-TI, NA TA-ROU-KHOU KO-RO NAN NA WON MA SA-RAN-KHOUN SAN-KA-FÈ. WON KHA NA MA-RA-SI-YA-TI TON-GO !",
-      "translation": "Ta parole l'emporte de loin. Depuis le premier commencement des temps, c'est cette chronique ancienne qui protège notre conseil. Intégrons ce précepte ancestral !"
+      "speaker": "Le professeur (Xaranderaba)",
+      "text": "Xaranyi fanyi mixi birin bE. I xa a xaran na fanyi.",
+      "phonetic_api": "/xaraɲi faɲi mixi birin bɛ, i xa a xaran na faɲi/",
+      "phonetic_simple": "kha-RAN-gni FA-gni MI-khi bi-RIN bè, i kha a kha-RAN na FA-gni",
+      "translation": "L'éducation est bonne pour tout le monde. Tu dois bien l'étudier."
     }
   ],
   "cultural_notes": [
-    "Au niveau C1-C2 de maîtrise totale, l'analyse des textes ne sépare jamais la rigueur philologique de la déférence sacrée envers le patrimoine de la Basse-Guinée. Les épopées historiques ('taruxu koro') ne sont pas de simples chroniques chronologiques, mais des vecteurs d'éthique et de philosophie politique. Saisir la substance ('yatagi yati') d'une parole cryptée ('masenyi foraxi') exige une droiture d'esprit ('tinnafiixɛ') et le respect scrupuleux des formules de transmission léguées par les ancêtres sous le contrôle du conseil des sages."
+    "L'histoire de l'écrit soussou est marquée par une succession de systèmes graphiques (adjami, latin, N'Ko, Adlam, Koré Sèbèli) reflétant les influences religieuses (islam), coloniales/missionnaires (christianisme, alphabet latin) et les mouvements identitaires panafricains (N'Ko créé en 1949 par le Guinéen Souleymane Kanté, Koré Sèbèli créé en 2009 par Mohamed Bentoura Bangoura).",
+    "La politique linguistique du président Sékou Touré après l'indépendance de 1958 a joué un rôle décisif dans la formalisation de l'alphabet latin du soussou, utilisé alors dans l'enseignement des langues nationales guinéennes entre 1966 et 1984.",
+    "Faute de corpus littéraire ancien largement numérisé ou traduit, l'essentiel du patrimoine narratif soussou (contes, récits historiques, généalogies) demeure transmis oralement par les anciens ('fori'), ce qui explique la prudence de cette leçon quant à l'analyse de « textes » proprement dits."
   ],
   "exercises": [
     {
-      "exercise_id": "ex25_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel adjectif honorifique postposé élève un récit au rang d'épopée ou de chronique historique sacrée ?",
+      "question": "Quelle a été la première œuvre écrite connue en soussou, publiée en 1816 ?",
       "options": [
-        "maxa",
-        "koro",
-        "gbéingbé"
+        "Une traduction partielle de l'Évangile de Matthieu",
+        "Un dictionnaire soussou-français",
+        "Un recueil de proverbes"
       ],
-      "correct_answer": "koro",
-      "explanation": "Le terme 'koro' appliqué à un récit abstrait comme 'taruxu' désigne l'ancienneté mythique et l'historicité sacrée."
+      "correct_answer": "Une traduction partielle de l'Évangile de Matthieu",
+      "explanation": "'Lingjili Matthew', traduit par John Godfrey Wilhelm et publié à Londres en 1816, est considéré comme la première littérature en soussou."
     },
     {
-      "exercise_id": "ex25_2",
-      "type": "multiple_choice",
-      "question": "Que désigne métaphoriquement l'expression avancée 'Masenyi foraxi' au cours d'une analyse littéraire ?",
-      "options": [
-        "Un poème d'amour",
-        "Un document comptable",
-        "Une parole cryptée / un discours hermétique / une métaphore ancienne"
-      ],
-      "correct_answer": "Une parole cryptée / un discours hermétique / une métaphore ancienne",
-      "explanation": "'Foraxi' (sombre/mûr) qualifie une parole dont le sens est profond, caché ou crypté, nécessitant une exégèse."
-    },
-    {
-      "exercise_id": "ex25_3",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Won xa siga na [ ___ ] yati xun ma. (Remontons à la source de ce témoignage authentique...)",
-      "correct_answer": "yatagi",
-      "hint": "Ce substantif compose la locution avancée désignant la substance ou le témoignage direct du texte."
-    },
-    {
-      "exercise_id": "ex25_4",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "[ ___ ] yati, won ma taaé nu ɲɛndɛxi. (Au tout premier commencement des temps...)",
-      "correct_answer": "Singe",
-      "hint": "Ce terme renforcé par 'yati' sert à situer l'origine absolue ou le commencement mythique de la chronique."
+      "sentence_with_blank": "'C'est l'ancien qui connaît l'histoire' se dit : Fori nan [ ___ ] kolon.",
+      "correct_answer": "tarikhi",
+      "hint": "C'est le mot emprunté à l'arabe qui signifie 'histoire'."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Wikipedia — Susu language (grammar, phonology, pronouns, tense markers)",
+      "url": "https://en.wikipedia.org/wiki/Susu_language"
+    },
+    {
+      "label": "BBC Afrique — Comment la langue soussou en Guinée en est venue à être écrite (histoire des écritures : adjami, latin, N'Ko, Adlam, Koré Sèbèli)",
+      "url": "https://www.bbc.com/afrique/region-61151402"
+    },
+    {
+      "label": "Peace Corps Guinée — Xarandi Xa Buki, Livre du stagiaire Sosoxui (Susu Language Lessons)",
+      "url": "https://fsi-languages.yojik.eu/languages/PeaceCorps/Susu/susu-language-course.pdf"
+    }
+  ],
+  "confidence": "faible",
+  "confidence_note": "Le contexte historique (dates, noms, systèmes d'écriture) est bien attesté par Wikipedia et par un article de BBC Afrique consacré spécifiquement à l'histoire de l'écrit soussou. En revanche, aucune source consultée ne fournit d'extrait de texte littéraire ou historique original en soussou avec traduction phrase par phrase ; le vocabulaire et le dialogue de cette leçon restent donc des constructions pédagogiques prudentes bâties sur des mots réels (sEbE, xaranyi, tarikhi) plutôt que la citation d'une œuvre existante, d'où une confiance globale qualifiée de faible sur le contenu proprement « textuel » de la leçon."
 }

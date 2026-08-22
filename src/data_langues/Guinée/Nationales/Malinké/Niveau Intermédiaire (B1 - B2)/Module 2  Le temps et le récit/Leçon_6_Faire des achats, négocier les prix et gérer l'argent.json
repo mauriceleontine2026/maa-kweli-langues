@@ -6,217 +6,250 @@
   "lesson_number": 6,
   "title": "Faire des achats, négocier les prix et gérer l'argent",
   "learning_objectives": [
-    "Maîtriser le lexique commercial et le comptage de la monnaie (Wari)",
-    "Utiliser les expressions rituelles de marchandage et de négociation",
-    "Demander un rabais ou conclure une transaction commerciale avec politesse"
+    "Utiliser les verbes 'ka san' (acheter), 'ka fere' (vendre), 'ka sara' (payer)",
+    "Reprendre les grands nombres pour indiquer un prix",
+    "Négocier un prix avec des formules idiomatiques déjà connues",
+    "Comprendre et utiliser le mot 'wodi/wari' (argent)"
   ],
   "phonetic_focus": {
-    "key_sounds": "Le mot 'wari' (argent) possède une consonne initiale fluide /wa/. Le verbe 'dɔgɔya' (diminuer) demande de bien ouvrir la première voyelle /dɔ.ɡɔ.ja/.",
-    "common_pitfalls": "Veillez à ne pas confondre 'wari' (argent) avec 'wula' (soir). Évitez également d'élider le 'ka' de structure qualitative dans 'ka jan' ou 'ka bon'."
+    "key_sounds": [
+      "Distinction entre 'san' (acheter) et 'san' (année) — homophones à distinguer par contexte",
+      "Le [r] intervocalique de 'wari/wodi' (argent)",
+      "Le ton de 'fere' (vendre), à ne pas confondre avec d'autres verbes courts"
+    ],
+    "common_pitfalls": [
+      "Confondre 'san' (acheter, verbe) et 'san' (année, nom) : seul le contexte de la phrase permet de trancher",
+      "Oublier que 'wodi di' (donne l'argent) s'utilise aussi bien pour payer que pour réclamer un paiement"
+    ]
   },
   "vocabulary": [
     {
-      "word_id": "v6_1",
-      "term": "Wari",
-      "phonetic_api": "/wa.ri/",
-      "phonetic_simple": "OUA-RI",
-      "translation": "L'argent / La monnaie / La devise",
-      "example_sentence": "Wari bɛ i bolo ?",
-      "example_phonetic": "/wa.ri bɛ i bo.lo/",
-      "example_translation": "As-tu de l'argent sur toi (dans tes mains) ?"
+      "word_id": "v1",
+      "term": "ka san",
+      "phonetic_api": "[ka san]",
+      "phonetic_simple": "ka-san",
+      "translation": "acheter",
+      "example_sentence": "N nye a san.",
+      "example_phonetic": "[n ɲe a san]",
+      "example_translation": "Je l'achète."
     },
     {
-      "word_id": "v6_2",
-      "term": "Da",
-      "phonetic_api": "/da/",
-      "phonetic_simple": "DA",
-      "translation": "Le prix / La valeur financière (contexte d'achat)",
-      "example_sentence": "A da ka bon",
-      "example_phonetic": "/a da ka bõ/",
-      "example_translation": "Son prix est élevé (grand)."
+      "word_id": "v2",
+      "term": "ka fere",
+      "phonetic_api": "[ka fere]",
+      "phonetic_simple": "ka-fé-ré",
+      "translation": "vendre",
+      "example_sentence": "A ye mankoron ferela.",
+      "example_phonetic": "[a je mankoron ferela]",
+      "example_translation": "Il vend des mangues."
     },
     {
-      "word_id": "v6_3",
-      "term": "Dɔgɔya",
-      "phonetic_api": "/dɔ.ɡɔ.ja/",
-      "phonetic_simple": "DƆ-GƆ-YA",
-      "translation": "Diminuer / Rabaisser / Réduire",
-      "example_sentence": "A da dɔgɔya n ye",
-      "example_phonetic": "/a da dɔ.ɡɔ.ja n̩ de/",
-      "example_translation": "Diminue le prix pour moi."
+      "word_id": "v3",
+      "term": "ka sara",
+      "phonetic_api": "[ka sara]",
+      "phonetic_simple": "ka-sa-ra",
+      "translation": "payer",
+      "example_sentence": "Mafèlèli sara, wa lolu le.",
+      "example_phonetic": "[mafɛlɛli sara wa lolu le]",
+      "example_translation": "La consultation coûte 5 000."
     },
     {
-      "word_id": "v6_4",
-      "term": "San",
-      "phonetic_api": "/sã/",
-      "phonetic_simple": "SAN",
-      "translation": "Acheter",
-      "example_sentence": "N bɛ fani san la",
-      "example_phonetic": "/n̩ bɛ fa.ni sã la/",
-      "example_translation": "Je vais acheter un tissu."
+      "word_id": "v4",
+      "term": "wodi / wari",
+      "phonetic_api": "[wodi] / [wari]",
+      "phonetic_simple": "wo-di / wa-ri",
+      "translation": "argent",
+      "example_sentence": "Wodi di.",
+      "example_phonetic": "[wodi di]",
+      "example_translation": "Donne l'argent."
     },
     {
-      "word_id": "v6_5",
-      "term": "Feere",
-      "phonetic_api": "/feː.re/",
-      "phonetic_simple": "FÉE-RE",
-      "translation": "Vendre",
-      "example_sentence": "A bɛ malo feere la",
-      "example_phonetic": "/a bɛ ma.lo feː.re la/",
-      "example_translation": "Il vend du riz."
+      "word_id": "v5",
+      "term": "a da le wo di",
+      "phonetic_api": "[a da le wo di]",
+      "phonetic_simple": "a-da-lé-wo-di",
+      "translation": "c'est le prix",
+      "example_sentence": "A da le wo di.",
+      "example_phonetic": "[a da le wo di]",
+      "example_translation": "C'est le prix."
     },
     {
-      "word_id": "v6_6",
-      "term": "Ka bon",
-      "phonetic_api": "/ka bõ/",
-      "phonetic_simple": "KA BON",
-      "translation": "Être grand / Cher (en parlant d'un prix)",
-      "example_sentence": "A da ka bon kpe",
-      "example_phonetic": "/a da ka bõ k͡pe/",
-      "example_translation": "Le prix est trop cher."
+      "word_id": "v6",
+      "term": "jula",
+      "phonetic_api": "[dʒula]",
+      "phonetic_simple": "dju-la",
+      "translation": "marchand, commerçant",
+      "example_sentence": "Jula le, a bè feerela.",
+      "example_phonetic": "[dʒula le a bɛ feːrela]",
+      "example_translation": "C'est un commerçant, il vend."
     },
     {
-      "word_id": "v6_7",
-      "term": "Ka dɔgɔ",
-      "phonetic_api": "/ka dɔ.ɡɔ/",
-      "phonetic_simple": "KA DƆ-GƆ",
-      "translation": "Être petit / Bon marché",
-      "example_sentence": "Nin da ka dɔgɔ",
-      "example_phonetic": "/nĩ da ka dɔ.ɡɔ/",
-      "example_translation": "Le prix de ceci est bas."
+      "word_id": "v7",
+      "term": "monbili",
+      "phonetic_api": "[mɔnbili]",
+      "phonetic_simple": "mon-bi-li",
+      "translation": "véhicule, voiture",
+      "example_sentence": "N nye afi ka monbili ta.",
+      "example_phonetic": "[n ɲe afi ka mɔnbili ta]",
+      "example_translation": "Je veux prendre l'auto."
     },
     {
-      "word_id": "v6_8",
-      "term": "Sɔsɔ",
-      "phonetic_api": "/sɔ.sɔ/",
-      "phonetic_simple": "SƆ-SƆ",
-      "translation": "Discuter / Marchander / Contester",
-      "example_sentence": "An bɛ da sɔsɔ la",
-      "example_phonetic": "/an bɛ da sɔ.sɔ la/",
-      "example_translation": "Nous sommes en train de marchander le prix."
-    },
-    {
-      "word_id": "v6_9",
-      "term": "Dila",
-      "phonetic_api": "/di.la/",
-      "phonetic_simple": "DI-LA",
-      "translation": "Payer / Régler / Conclure",
-      "example_sentence": "N bɛ wari dila sisan",
-      "example_phonetic": "/n̩ bɛ wa.ri di.la si.sã/",
-      "example_translation": "Je paie l'argent maintenant."
-    },
-    {
-      "word_id": "v6_10",
-      "term": "Bɛnna",
-      "phonetic_api": "/bɛn.na/",
-      "phonetic_simple": "BƐN-NA",
-      "translation": "C'est d'accord / Entendu / Validé",
-      "example_sentence": "A da bɛnna",
-      "example_phonetic": "/a da bɛn.na/",
-      "example_translation": "Le prix est convenu."
+      "word_id": "v8",
+      "term": "wa",
+      "phonetic_api": "[wa]",
+      "phonetic_simple": "wa",
+      "translation": "mille (unité monétaire de compte)",
+      "example_sentence": "Wa kelen ni cèmè lolu.",
+      "example_phonetic": "[wa kelen ni tʃɛmɛ lolu]",
+      "example_translation": "1 500."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p6_1",
-      "original": "A da ka bon kpe ! A dɔgɔya n ye.",
-      "phonetic_api": "/a da ka bõ k͡pe a dɔ.ɡɔ.ja n̩ de/",
-      "phonetic_simple": "A DA KA BON KPÉ ! A DƆ-GƆ-YA N YE.",
-      "translation": "C'est trop cher ! Diminue le prix pour moi.",
-      "context": "Phrase culte indispensable lors de tout achat sur un marché traditionnel."
+      "phrase_id": "p1",
+      "original": "Wodi di",
+      "phonetic_api": "[wodi di]",
+      "phonetic_simple": "wo-di-di",
+      "translation": "Donne l'argent",
+      "context": "Réclamer un paiement"
     },
     {
-      "phrase_id": "p6_2",
-      "original": "Wari jeli bɛ i bolo nin la ?",
-      "phonetic_api": "/wa.ri d͡ʒe.li bɛ i bo.lo nĩ la/",
-      "phonetic_simple": "OUA-RI DJÉ-LI BƐ I BO-LO NIN LA ?",
-      "translation": "Combien d'argent demandes-tu pour ceci ?",
-      "context": "S'informer du montant requis pour valider une vente."
+      "phrase_id": "p2",
+      "original": "A da le wo di",
+      "phonetic_api": "[a da le wo di]",
+      "phonetic_simple": "a-da-lé-wo-di",
+      "translation": "C'est le prix",
+      "context": "Confirmer un prix fixé"
     },
     {
-      "phrase_id": "p6_3",
-      "original": "A bɛnna, n bɛ a san la.",
-      "phonetic_api": "/a bɛn.na n̩ bɛ a sã la/",
-      "phonetic_simple": "A BƐN-NA, N BƐ A SAN LA.",
-      "translation": "C'est d'accord, je l'achète.",
-      "context": "Clôturer positivement l'étape du marchandage."
+      "phrase_id": "p3",
+      "original": "N nye afi ka monbili ta",
+      "phonetic_api": "[n ɲe afi ka mɔnbili ta]",
+      "phonetic_simple": "n-nyé-a-fi-ka-mon-bi-li-ta",
+      "translation": "Je veux prendre l'auto",
+      "context": "Exprimer une intention d'achat de service (transport)"
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Ni donin tè i bolo",
+      "phonetic_api": "[ni donin tɛ i bolo]",
+      "phonetic_simple": "ni-do-nin-tè-i-bo-lo",
+      "translation": "Sans bagage",
+      "context": "Précision lors d'une négociation de transport"
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Mafèlèli sara, wa lolu le",
+      "phonetic_api": "[mafɛlɛli sara wa lolu le]",
+      "phonetic_simple": "ma-fè-lè-li-sa-ra, wa-lo-lou-lé",
+      "translation": "La consultation coûte 5 000",
+      "context": "Indiquer le prix d'un service"
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'expression de la possession monétaire immédiate avec 'bolo'",
-      "explanation": "En malinké, posséder de l'argent liquide sur soi ne s'exprime pas par un verbe équivalent à 'avoir'. On utilise le nom de partie du corps 'bolo' (la main/le bras) comme postposition locative pour signifier que l'argent est physiquement détenu par l'acheteur.",
+      "concept": "Les verbes de la transaction commerciale",
+      "explanation": "Trois verbes structurent l'échange commercial : 'ka san' (acheter, du point de vue du client), 'ka fere' (vendre, du point de vue du marchand) et 'ka sara' (payer, l'action de régler la somme).",
       "rules": [
-        "Structure : [Monnaie/Wari] + bɛ + [Acheteur] + 'bolo'."
+        "Structure : [Sujet] + [temps] + [COD] + [verbe de transaction]",
+        "'san' et 'fere' sont réciproques : celui qui achète 'san', celui qui vend 'fere'"
       ],
       "examples": [
         {
-          "structure": "Wari bɛ n bolo",
-          "phonetic_api": "/wa.ri bɛ n̩ bo.lo/",
-          "meaning": "J'ai de l'argent sur moi (L'argent est dans ma main)."
+          "structure": "[Sujet] ye [Objet] san-na",
+          "phonetic_api": "[san]",
+          "meaning": "[Sujet] achète [objet]"
+        }
+      ]
+    },
+    {
+      "concept": "Compter l'argent en grandes unités ('wa')",
+      "explanation": "Les prix élevés se comptent en 'wa' (mille), combiné avec les nombres déjà appris (cf. leçon sur les chiffres) et 'cèmè' (cent) pour les sommes intermédiaires.",
+      "rules": [
+        "wa + [nombre] = [nombre] milliers",
+        "wa kelen ni cèmè lolu = mille + cinq cents = 1 500"
+      ],
+      "examples": [
+        {
+          "structure": "wa [nombre] ni cèmè [nombre]",
+          "phonetic_api": "[wa ni tʃɛmɛ]",
+          "meaning": "[nombre] mille [nombre] cents"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "L'Acheteur",
-      "text": "I ni tile, n ba. Fani wulen nin da jeli bɛ ?",
-      "phonetic_api": "/i ni ti.le n̩ ba fa.ni wu.lẽ nĩ da d͡ʒe.li bɛ/",
-      "phonetic_simple": "I NI TI-LÉ, N BA. FA-NI OU-LEN NIN DA DJÉ-LI BƐ ?",
-      "translation": "Bonjour maman. Combien coûte ce pagne rouge ?"
+      "speaker": "Client",
+      "text": "N nye a san. Jeli le wo di ?",
+      "phonetic_api": "[n ɲe a san dʒeli le wo di]",
+      "phonetic_simple": "n-nyé-a-san. dié-li-lé-wo-di",
+      "translation": "Je l'achète. Combien ça coûte ?"
     },
     {
-      "speaker": "La Vendeuse",
-      "text": "Nse denkɛ. A da ka bon dɔɔni, a da na tan ra.",
-      "phonetic_api": "/n̩.se dẽ.kɛ a da ka bõ dɔː.ni a da na tã ra/",
-      "phonetic_simple": "N-SÉ DEN-KƐ. A DA KA BON DƆƆ-NI, A DA NA TAN RA.",
-      "translation": "Bonjour mon fils. Son prix est un peu élevé, il vaut dix unités."
+      "speaker": "Vendeur",
+      "text": "Wa kelen ni cèmè saba le.",
+      "phonetic_api": "[wa kelen ni tʃɛmɛ saba le]",
+      "phonetic_simple": "wa-ké-lèn-ni-tchè-mè-sa-ba-lé",
+      "translation": "1 300."
     },
     {
-      "speaker": "L'Acheteur",
-      "text": "Ayi ! A da ka bon kpe kpe ! A dɔgɔya n ye, n bɛ loolu dila la.",
-      "phonetic_api": "/a.ji a da ka bõ k͡pe k͡pe a dɔ.ɡɔ.ja n̩ de n̩ bɛ loː.lu di.la la/",
-      "phonetic_simple": "A-YI ! A DA KA BON KPÉ KPÉ ! A DƆ-GƆ-YA N YE, N BƐ LOO-LOU DI-LA LA.",
-      "translation": "Ah non ! C'est vraiment beaucoup trop cher ! Diminue-le pour moi, je vais te payer cinq unités."
+      "speaker": "Client",
+      "text": "Wodi di.",
+      "phonetic_api": "[wodi di]",
+      "phonetic_simple": "wo-di-di",
+      "translation": "Voici l'argent (litt. 'donne l'argent')."
     },
     {
-      "speaker": "La Vendeuse",
-      "text": "Loolu mu se la ! Kɔni a dɔgɔya, a bila seegin la. A bɛnna ?",
-      "phonetic_api": "/loː.lu mu se la kɔ.ni a dɔ.ɡɔ.ja a bi.la seː.ɡĩ la a bɛn.na/",
-      "phonetic_simple": "LOO-LOU MOU SÉ LA ! KƆ-NI A DƆ-GƆ-YA, A BI-LA SÉE-GUIN LA. A BƐN-NA ?",
-      "translation": "Cinq ce n'est pas possible ! Cependant je réduis, laissons-le à huit. On est d'accord ?"
-    },
-    {
-      "speaker": "L'Acheteur",
-      "text": "A bɛnna. Wari bɛ n bolo, inu feere la !",
-      "phonetic_api": "/a bɛn.na wa.ri bɛ n̩ bo.lo i.nu feː.re la/",
-      "phonetic_simple": "A BƐN-NA. OUA-RI BƐ N BO-LO, I-NOU FÉE-RE LA !",
-      "translation": "C'est d'accord. J'ai l'argent sur moi, merci pour la vente !"
+      "speaker": "Vendeur",
+      "text": "Barika, a da le wo di.",
+      "phonetic_api": "[barika a da le wo di]",
+      "phonetic_simple": "ba-ri-ka, a-da-lé-wo-di",
+      "translation": "Merci, c'est le bon prix."
     }
   ],
   "cultural_notes": [
-    "Dans l'espace économique de l'Afrique de l'Ouest mandingue, le marchandage ('da sɔsɔ') est un art social complet et une marque de respect mutuel entre vendeur et acheteur. Accepter le tout premier prix sans s'engager dans une négociation amicale est parfois perçu comme un désintérêt pour l'échange humain qui sous-tend le commerce."
+    "Le franc guinéen se compte traditionnellement en 'wa' (mille), une unité de référence encore largement utilisée dans les échanges quotidiens, y compris pour les transports en commun et les consultations médicales ([Malinkuia](https://fr.scribd.com/document/499114939/Malinkuia))."
   ],
   "exercises": [
     {
-      "exercise_id": "B1_M2_L6_ex1",
-      "type": "multiple_choice",
-      "question": "Que devez-vous dire pour demander un rabais au marché ?",
-      "options": [
-        "A da ka bon",
-        "A dɔgɔya n ye",
-        "Wari mu n bolo"
-      ],
-      "correct_answer": "A dɔgɔya n ye",
-      "explanation": "Cette formule ordonne poliment la réduction du prix de la marchandise."
+      "exercise_id": "e1",
+      "type": "traduction",
+      "question": "Traduisez : 'Donne l'argent.'",
+      "correct_answer": "Wodi di.",
+      "explanation": "'wodi'/'wari' = argent ; 'di' = donner à l'impératif."
     },
     {
-      "exercise_id": "B1_M2_L6_ex2",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Wari bɛ n [ ___ ] (J'ai de l'argent sur moi).",
-      "correct_answer": "bolo",
-      "hint": "Désigne la main en tant que réceptacle physique de la monnaie."
+      "exercise_id": "e2",
+      "type": "choix_multiple",
+      "question": "Quel verbe signifie 'vendre' ?",
+      "options": [
+        "ka san",
+        "ka fere",
+        "ka sara",
+        "ka ta"
+      ],
+      "correct_answer": "ka fere",
+      "explanation": "'ka fere' est le verbe du côté du vendeur, opposé à 'ka san' (acheter)."
+    },
+    {
+      "exercise_id": "e3",
+      "type": "texte_a_trous",
+      "sentence_with_blank": "Mafèlèli ___, wa lolu le.  (La consultation coûte 5 000.)",
+      "correct_answer": "sara",
+      "hint": "C'est le verbe qui signifie 'payer/coûter'."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Malinkuia — Introduction à la langue malinké (grammaire complète, variété du Wulada, Haute-Guinée)",
+      "url": "https://fr.scribd.com/document/499114939/Malinkuia"
+    },
+    {
+      "label": "Diané & Vydrin, « Propositions pour l'orthographe du maninka (Guinée) », Mandenkan 52 (2014)",
+      "url": "https://shs.hal.science/halshs-01096594v1/document"
+    }
+  ],
+  "confidence": "élevée",
+  "confidence_note": "Vocabulaire et dialogues d'achat directement attestés dans les sections 'Au marché' et 'Voyage' de la grammaire Malinkuia, avec des exemples de prix concrets en contexte guinéen."
 }

@@ -6,140 +6,222 @@
   "lesson_number": 6,
   "title": "Le registre soutenu et le langage formel (cérémonies, contes, traditions)",
   "learning_objectives": [
-    "Employer le lexique honorifique et les formules protocolaires des cérémonies traditionnelles (baptêmes, mariages)",
-    "Comprendre la structure narrative complexe et les tournures archaïques des contes peuls ('taalol')",
-    "Maîtriser les expressions de bénédiction de haut niveau pour s'adresser aux autorités coutumières"
+    "Utiliser les formules de bénédiction rituelle (Yo Alla...) lors des cérémonies",
+    "Comprendre le vocabulaire des trois grandes cérémonies : baptême, mariage, funérailles",
+    "Employer l'infixe causatif -in- pour un registre plus élaboré"
   ],
   "phonetic_focus": {
-    "key_sounds": "L'articulation du groupe prénasalisé géminé 'nd' (/ndː/) dans 'ñannde' et l'aspiration continue du 'h' dans 'hiri' ou 'hoɗo' sont essentielles. Notez le son glottal dans 'taalol' (/taːlol/).",
-    "common_pitfalls": "L'erreur classique dans le registre solennel est d'utiliser des contractions familières urbaines. Il faut détacher chaque morphème, respecter scrupuleusement les voyelles longues de 'malal' ou 'duuɓi'.",
-    "vocabulary": [
-      {
-        "word_id": "v24_1",
-        "term": "taalol",
-        "phonetic_api": "/taːlol/",
-        "phonetic_simple": "TAA-LOL",
-        "translation": "conte traditionnel, récit mythologique, fable (taali au pluriel)",
-        "example_sentence": "Neene am no fuka taalol moƴƴo.",
-        "example_phonetic": "/neːne am no ɸuka taːlol moʔɟːo/",
-        "example_translation": "Ma mère narre un conte magnifique."
-      },
-      {
-        "word_id": "v24_2",
-        "term": "malal",
-        "phonetic_api": "/malal/",
-        "phonetic_simple": "MA-LAL",
-        "translation": "bénédiction divine, grâce, félicité spirituelle",
-        "example_sentence": "Yo malal won e dow al_umma nden.",
-        "example_phonetic": "/jo malal won e dow alʔumːa nden/",
-        "example_translation": "Que la grâce divine repose sur ce peuple."
-      },
-      {
-        "word_id": "v24_3",
-        "term": "ñanndeji",
-        "phonetic_api": "/ɲanːded͡ʒi/",
-        "phonetic_simple": "NYAN-DEE-JI",
-        "translation": "les grands jours mémorables, les célébrations historiques",
-        "example_sentence": "Ñanndeji saare nden no weli reesude.",
-        "example_phonetic": "/ɲanːded͡ʒi saːre nden no weli reːsude/",
-        "example_translation": "Les jours de célébration de cette communauté sont mémorables à commémorer."
-      },
-      {
-        "word_id": "v24_4",
-        "term": "teddugal",
-        "phonetic_api": "/tedːuɡal/",
-        "phonetic_simple": "TED-DOU-GAL",
-        "translation": "le respect suprême, la déférence protocolaire, l'honneur honorifique",
-        "example_sentence": "Teddugal mawngal no ɗon e maa.",
-        "example_phonetic": "/tedːuɡal mawnɡal no ɗon e maː/",
-        "example_translation": "Une déférence absolue t'est due."
-      },
-      {
-        "word_id": "v24_5",
-        "term": "mawninde",
-        "phonetic_api": "/mawninde/",
-        "phonetic_simple": "MAW-NIN-DE",
-        "translation": "solenniser, célébrer avec faste, magnifier",
-        "example_sentence": "Yo en mawnin ñannde hande nden.",
-        "example_phonetic": "/jo en mawnin ɲanːde hande nden/",
-        "example_translation": "Magnifions solennellement cette journée d'aujourd'hui."
-      }
-    ],
-    "common_phrases": [
-      {
-        "phrase_id": "p24_1",
-        "original": "Yo Alla addu malal e dow ngal pootal mawninde saare nden.",
-        "phonetic_api": "/jo alːa adːu malal e dow nɡal pootal mawninde saːre nden/",
-        "phonetic_simple": "YO ALLA AD-DOU MA-LAL E DOW NGAL POO-TAL MAW-NIN-DE SAA-RE NDEN",
-        "translation": "Que Dieu apporte Sa grâce suprême sur cette assemblée visant à magnifier notre communauté.",
-        "context": "Formule d'ouverture solennelle lors d'un grand conseil ou d'une cérémonie de baptême."
-      },
-      {
-        "phrase_id": "p24_2",
-        "original": "Teddugal meɗen fow ko reesugol laawaleeji pulaaku e nder taali.",
-        "phonetic_api": "/tedːuɡal meɗen ɸow ko reːsuɡol laːwaleːd͡ʒi pulaːku e nder taali/",
-        "phonetic_simple": "TED-DOU-GAL ME-DHEN FOW KO REE-SOU-GOL LAA-WA-LEE-JI POU-LAA-KOU E NDER TAA-LI",
-        "translation": "Notre honneur à tous consiste à préserver les principes du Pulaaku véhiculés à travers nos fables.",
-        "context": "Allocution de clôture d'un festival culturel ou d'une veillée de contes."
-      }
-    ],
-    "grammar_points": [
-      {
-        "concept": "L'impératif de bénédiction ou d'optatif avec 'Yo'",
-        "explanation": "Dans le langage formel et protocolaire des cérémonies, la formulation des vœux n'utilise jamais l'indicatif. On emploie de manière obligatoire la particule optative 'Yo' combinée à une base verbale non suffixée à l'inaccompli pour projeter la bénédiction dans l'éternité.",
-        "rules": [
-          "Placer 'Yo' en tête de phrase.",
-          "Faire suivre immédiatement du nom divin (Alla) ou de l'entité dispensatrice (malal), puis du verbe à l'infinitif tronqué."
-        ],
-        "examples": [
-          {
-            "structure": "Yo + Alla + addu + Substance",
-            "phonetic_api": "/jo alːa adːu d͡ʒam/",
-            "meaning": "Que Dieu propage la paix"
-          }
-        ]
-      }
-    ],
-    "dialogue": [
-      {
-        "speaker": "Mawɗo Cérémonie (Maître du protocole)",
-        "text": "Al_umma, yo Alla okku en malal. Hande ko ñannde mawnde pour mawninde saare meɗen ngon. Teddugal no ɗon e dow mawɓe meɗen !",
-        "phonetic_api": "/alʔumːa jo alːa okku en malal hande ko ɲanːde mawnːde pour mawninde saːre meɗen nɡon tedːuɡal no ɗon e dow mawːɓe meɗen/",
-        "phonetic_simple": "AL-UM-MA, YO ALLA OK-KOU EN MA-LAL. HAN-DE KO NYAN-DE MAWN-DE POUR MAW-NIN-DE SAA-RE ME-DHEN NGON. TED-DOU-GAL NO DHON E DOW MAW-BHE ME-DHEN !",
-        "translation": "Chers concitoyens, que Dieu nous accorde Sa grâce suprême. Aujourd'hui est un jour historique pour magnifier solennellement notre noble communauté. Tout notre respect s'adresse à nos vénérables sages !"
-      },
-      {
-        "speaker": "Griot (Poète traditionnel)",
-        "text": "Aamiin ! Wano taali meɗen tinndiniri, pulaaku meɗen ngon lannat_aa lah. Saabi ngal haala, yo en reesu finnde nden !",
-        "phonetic_api": "/aːmiːn wano taːli meɗen tinːdiniri pulaːku meɗen nɡon lanːataː lah saːbi nɡal haːla jo en reːsu ɸinːde nden/",
-        "phonetic_simple": "AA-MIIN ! WA-NO TAA-LI ME-DHEN TINN-DIN-I-RI, POU-LAA-KOU ME-DHEN NGON LAN-NA-TAA LAH. SAA-BI NGAL HAA-LA, YO EN REE-SOU FINN-DE NDEN !",
-        "translation": "Amen ! À l'instar de ce que nos contes nous enseignent, notre dignité collective ne s'éteindra jamais. En raison de cette vérité absolue, gardons précieusement en mémoire notre sagesse ancestrale !"
-      }
-    ],
-    "cultural_notes": [
-      "Les cérémonies de mariage, de baptême ('innoore') ou d'intronisation traditionnelle au Fouta sont hautement codifiées sur le plan linguistique. Le langage formel y fait un grand usage de mots d'emprunt à l'arabe hautement pularisés (malal, al_umma) pour conférer une dimension sacrée et solennelle aux échanges. Les griots et maîtres de la parole orchestrent les préséances e le respect du protocole."
-    ],
-    "exercises": [
-      {
-        "exercise_id": "ex24_1",
-        "type": "multiple_choice",
-        "question": "Quel terme pular désigne spécifiquement une fable ou un conte traditionnel ?",
-        "options": [
-          "Balndol",
-          "Taalol",
-          "Teddugal"
-        ],
-        "answer_option": "Taalol",
-        "correct_answer": "Taalol",
-        "explanation": "'Taalol' (pluriel : taali) qualifie le genre littéraire du conte ou de la fable morale, tandis que 'balndol' est le proverbe."
-      },
-      {
-        "exercise_id": "ex24_2",
-        "type": "fill_in_the_blanks",
-        "sentence_with_blank": "Yo Alla addu [ ___ ] e dow saare nden. (Que Dieu apporte Sa grâce/bénédiction divine sur la famille).",
-        "correct_answer": "malal",
-        "hint": "Substantif abstrait du registre soutenu désignant la félicité spirituelle ou la bénédiction."
-      }
-    ]
-  }
+    "key_sounds": "Les bénédictions rituelles commencent systématiquement par 'Yo Alla' (que Dieu...) suivi d'un verbe au désidératif ; la réponse rituelle correcte est toujours 'Amina' (qu'il en soit ainsi), à ne jamais omettre dans un contexte cérémoniel.",
+    "common_pitfalls": "L'infixe causatif '-in-' modifie parfois irrégulièrement la racine verbale (ex. hulugol → hulɓingol, jangugol → jannugol) ; il faut apprendre chaque forme causative comme un cas particulier plutôt que d'appliquer une règle mécanique."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "dennaboo",
+      "phonetic_api": "/denːaboː/",
+      "phonetic_simple": "DÈN-NA-BO-O",
+      "translation": "cérémonie de baptême/nomination (à une semaine de vie)",
+      "example_sentence": "Ko yontere ka debbo on jibini, dennaboo on waɗetee.",
+      "example_phonetic": "/ko jontere ka debːo on dʒibini denːaboː on waɗeteː/",
+      "example_translation": "C'est une semaine après la naissance que le baptême est célébré."
+    },
+    {
+      "word_id": "v2",
+      "term": "dewgal",
+      "phonetic_api": "/dewɡal/",
+      "phonetic_simple": "DÈOU-GAL",
+      "translation": "mariage",
+      "example_sentence": "Ko adii kon ko fii ɗamal.",
+      "example_phonetic": "/ko adiː kon ko fiː ɗamal/",
+      "example_translation": "Ce qui vient en premier, c'est la demande en mariage."
+    },
+    {
+      "word_id": "v3",
+      "term": "faatunde",
+      "phonetic_api": "/faːtunde/",
+      "phonetic_simple": "FA-A-TOUN-DÉ",
+      "translation": "funérailles",
+      "example_sentence": "Si mayde waɗii e galle, ko yimɓe ɓen wullata.",
+      "example_phonetic": "/si majde waɗiː e ɡale ko jimɓe ɓen wulːata/",
+      "example_translation": "Si un décès survient dans la famille, ce sont les gens qui pleurent."
+    },
+    {
+      "word_id": "v4",
+      "term": "Yo Alla...",
+      "phonetic_api": "/jo alːa/",
+      "phonetic_simple": "YO AL-LA",
+      "translation": "Que Dieu... (formule d'ouverture de toute bénédiction)",
+      "example_sentence": "Yo Alla wurnu boobo on, barkina.",
+      "example_phonetic": "/jo alːa wurnu boːbo on barkina/",
+      "example_translation": "Que Dieu fasse vivre longtemps ce bébé et le bénisse."
+    },
+    {
+      "word_id": "v5",
+      "term": "amina",
+      "phonetic_api": "/amina/",
+      "phonetic_simple": "A-MI-NA",
+      "translation": "amen, qu'il en soit ainsi (réponse rituelle obligatoire)",
+      "example_sentence": "Yo Alla joɗɗiniɓe jiidi e jawdi. — Amina.",
+      "example_phonetic": "/jo alːa dʒoɗːiniɓe dʒiːdi e dʒawdi amina/",
+      "example_translation": "Que Dieu vous accorde des enfants et des biens. — Amen."
+    },
+    {
+      "word_id": "v6",
+      "term": "juulirde",
+      "phonetic_api": "/dʒuːlirde/",
+      "phonetic_simple": "DJOU-LIR-DÉ",
+      "translation": "mosquée, lieu de prière",
+      "example_sentence": "Almaami juulirde nden ari.",
+      "example_phonetic": "/almaːmi dʒuːlirde nden ari/",
+      "example_translation": "L'imam de la mosquée est arrivé."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Yo Alla wurnu boobo on, barkina.",
+      "phonetic_api": "/jo alːa wurnu boːbo on barkina/",
+      "phonetic_simple": "YO AL-LA OUR-NOU BO-O-BO ON, BAR-KI-NA",
+      "translation": "Que Dieu fasse vivre longtemps ce bébé et le bénisse.",
+      "context": "Bénédiction rituelle prononcée lors du baptême (dennaboo)."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Yo Alla tawu ko jom balɗe torii jom balɗe.",
+      "phonetic_api": "/jo alːa tawu ko dʒom balɗe toriː dʒom balɗe/",
+      "phonetic_simple": "YO AL-LA TA-OU KO DJOM BAL-DÉ TO-RI-I DJOM BAL-DÉ",
+      "translation": "Que Dieu nous fasse témoigner de ce jour encore de nombreuses années.",
+      "context": "Bénédiction rituelle prononcée lors du mariage (dewgal)."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Yo Alla hinno mo yaafoo.",
+      "phonetic_api": "/jo alːa hinːo mo jaːfoː/",
+      "phonetic_simple": "YO AL-LA HIN-NO MO YA-A-FO-O",
+      "translation": "Que Dieu ait pitié de lui/elle et lui pardonne.",
+      "context": "Bénédiction rituelle prononcée lors de funérailles (faatunde)."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Kori a hettike e jam?",
+      "phonetic_api": "/kori a hetːike e dʒam/",
+      "phonetic_simple": "KO-RI A HÈT-TI-KÉ É DJAM",
+      "translation": "As-tu accouché sans difficulté ?",
+      "context": "Question rituelle de politesse adressée à une nouvelle mère lors du baptême."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'infixe causatif -in-",
+      "explanation": "L'infixe '-in-' transforme un verbe intransitif ou d'état en verbe causatif ('faire faire', 'faire devenir'), et modifie parfois la racine du verbe de façon irrégulière. Il est très fréquent dans le registre soutenu et cérémoniel.",
+      "rules": [
+        "andugol (savoir) → andingol (informer, faire savoir)",
+        "wulugol (être chaud) → wulnugol (chauffer, faire chauffer)",
+        "hersugol (avoir honte) → hersingol (faire honte à quelqu'un)",
+        "jangugol (étudier) → jannugol (enseigner, faire étudier) — modification irrégulière de la racine"
+      ],
+      "examples": [
+        {
+          "structure": "Feeñugol (apparaître) → feeññingol (annoncer)",
+          "phonetic_api": "/feɲːuɡol/, /feɲːiŋɡol/",
+          "meaning": "Faire apparaître publiquement = annoncer (registre cérémoniel)."
+        }
+      ]
+    },
+    {
+      "concept": "La formule rituelle Yo Alla... / Amina",
+      "explanation": "Toute bénédiction formelle en contexte cérémoniel pular commence par 'Yo Alla' (Que Dieu) suivi d'un verbe au désidératif, et appelle systématiquement la réponse rituelle 'Amina' (amen/qu'il en soit ainsi).",
+      "rules": [
+        "Yo Alla + [verbe désidératif] = formule de bénédiction",
+        "Réponse obligatoire : Amina"
+      ],
+      "examples": [
+        {
+          "structure": "Yo Alla dandu en wano mun. — Amina.",
+          "phonetic_api": "/jo alːa dandu en wano mun amina/",
+          "meaning": "Que Dieu nous protège d'une telle chose. — Amen."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Feññinoowo (annonceur)",
+      "text": "Ko hewtini en ɗoo ko innugol boobo on. Boobo on innaama Salimatu.",
+      "phonetic_api": "/ko hewtini en ɗoː ko inːuɡol boːbo on boːbo on inːaːma salimatu/",
+      "phonetic_simple": "KO HÈOU-TI-NI ÈNE DO-O KO IN-NOU-GOL BO-O-BO ON. BO-O-BO ON IN-NA-A-MA SA-LI-MA-TOU",
+      "translation": "Ce qui nous réunit ici, c'est pour nommer le bébé. Le bébé a été nommé Salimatu."
+    },
+    {
+      "speaker": "Assemblée",
+      "text": "Yo Alla wurnu boobo on, barkina!",
+      "phonetic_api": "/jo alːa wurnu boːbo on barkina/",
+      "phonetic_simple": "YO AL-LA OUR-NOU BO-O-BO ON, BAR-KI-NA",
+      "translation": "Que Dieu fasse vivre longtemps ce bébé et le bénisse !"
+    },
+    {
+      "speaker": "Père du bébé",
+      "text": "Amina! On jaɓɓaama, ɓee!",
+      "phonetic_api": "/amina on dʒaɓːaːma ɓeː/",
+      "phonetic_simple": "A-MI-NA! ON DJAB-BA-A-MA, BÉÉ",
+      "translation": "Amen ! Vous êtes tous les bienvenus !"
+    },
+    {
+      "speaker": "Assemblée",
+      "text": "Yo Alla joɗɗiniɓe jiidi e jawdi.",
+      "phonetic_api": "/jo alːa dʒoɗːiniɓe dʒiːdi e dʒawdi/",
+      "phonetic_simple": "YO AL-LA DJOD-DI-NI-BÉ DJI-I-DI É DJA-OU-DI",
+      "translation": "Que Dieu vous accorde des enfants et des biens."
+    }
+  ],
+  "cultural_notes": [
+    "Le manuel Peace Corps consacre un chapitre entier ('Text 1 Ceremonies') aux trois grandes cérémonies du Fouta-Djalon : le dennaboo (baptême/nomination une semaine après la naissance), le dewgal (mariage, avec ses étapes de demande, fiançailles et cérémonie) et la faatunde (funérailles), chacune avec son phrasebook de bénédictions rituelles spécifiques (source : Learner's Guide to Pular, Texte 1 Ceremonies).",
+    "Toute bénédiction (du'aa) commence par 'Yo Alla' et la réponse appropriée est toujours 'Amina' (qu'il en soit ainsi), règle explicitement notée dans le manuel comme une convention sociale incontournable.",
+    "Il est de coutume d'apporter un présent (argent, cola, tissu) aux cérémonies, l'argent liquide étant le choix le plus sûr et le plus neutre socialement (source : Learner's Guide to Pular, note culturelle 'Gifts at ceremonies')."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Quelle est la réponse rituelle obligatoire après une bénédiction 'Yo Alla...' ?",
+      "options": [
+        "Kono",
+        "Amina",
+        "Sabu"
+      ],
+      "correct_answer": "Amina",
+      "explanation": "Toute bénédiction commençant par 'Yo Alla' appelle la réponse rituelle 'Amina' (qu'il en soit ainsi)."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "[ ___ ] on waɗetee yontere ka debbo jibini. (Le baptême est célébré une semaine après la naissance)",
+      "correct_answer": "Dennaboo",
+      "hint": "Utilisez le mot désignant la cérémonie de nomination du nouveau-né."
+    },
+    {
+      "exercise_id": "ex3",
+      "type": "multiple_choice",
+      "question": "Que fait l'infixe causatif '-in-' à un verbe comme 'andugol' (savoir) ?",
+      "options": [
+        "Il le rend négatif",
+        "Il le transforme en 'faire savoir/informer'",
+        "Il le met au futur"
+      ],
+      "correct_answer": "Il le transforme en 'faire savoir/informer'",
+      "explanation": "L'infixe causatif -in- transforme andugol (savoir) en andingol (faire savoir, informer)."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Learner's Guide to Pular (Fuuta Jallon) — Peace Corps Guinée (Herb Caudill & Ousmane Besseko Diallo)",
+      "url": "https://ibamba.net/pular/manual.pdf"
+    },
+    {
+      "label": "Live Lingua Project — Peace Corps Manual of Fulfulde",
+      "url": "https://www.livelingua.com/course/peace-corps/manual-of-fulfulde"
+    }
+  ],
+  "confidence": "élevée",
+  "confidence_note": "Vocabulaire et formules rituelles des trois cérémonies (baptême, mariage, funérailles) ainsi que la grammaire de l'infixe causatif -in- directement issus du Texte 1 'Ceremonies' du manuel Peace Corps Guinée, source primaire et académique de référence pour le pular du Fouta-Djalon."
 }

@@ -6,253 +6,258 @@
   "lesson_number": 3,
   "title": "L'alphabet et les sons spécifiques de la langue",
   "learning_objectives": [
-    "Reconnaître et discriminer les caractères de l'alphabet latin harmonisé malinké",
-    "Prononcer avec exactitude les consonnes doubles et co-articulées (gb, ny)",
-    "Identifier l'impact sémantique direct du ton et de la nasalisation sur un mot"
+    "Reconnaître les lettres absentes du malinké (q, v, x, z)",
+    "Prononcer les consonnes complexes propres au malinké : c, j, ny, gb",
+    "Distinguer les voyelles brèves, longues et nasales",
+    "Comprendre le rôle du ton dans la distinction du sens des mots"
   ],
   "phonetic_focus": {
-    "key_sounds": "La consonne 'gb' (/ɡ͡b/) est un digraphe représentant un son co-articulé vélo-labial unique. Il faut fermer la gorge (voile du palais) et les lèvres en même temps, puis relâcher simultanément sans séparer le 'g' du 'b'. La lettre 'ɲ' (souvent notée ny) est une occlusive nasale palatale sonore (/ɲ/), comme dans le mot français 'gagner'.",
-    "common_pitfalls": "Ne séparez jamais les lettres de 'gb' en prononçant un 'g' puis un 'b' indépendant. Évitez aussi de prononcer 'ŋ' comme un 'n' alvéolaire simple; l'arrière de la langue doit toucher le palais comme pour finir le mot anglais 'sing'."
+    "key_sounds": [
+      "gb : consonne vélaire-labiale sonore, prononcée en insistant sur le [g] plutôt que sur le [b] (ex. gbolo = peau)",
+      "c : se prononce comme dans l'espagnol 'muchacho', parfois noté 'ty' (ex. cè = homme)",
+      "j : se prononce [dʒ] comme 'dj', parfois noté 'dy' (ex. jara = lion)",
+      "ny : représente le son [ɲ] du français 'gn' (ex. nyari = chat)",
+      "Voyelles longues (aa, ee, ɛɛ, oo...) issues de la chute d'une consonne entre deux voyelles identiques (ex. saga > saa = mouton)",
+      "Voyelles nasales an/en/èn/in/on/ɔn/un : ne jamais prononcer le 'n' comme une consonne séparée"
+    ],
+    "common_pitfalls": [
+      "Prononcer 'gb' comme un simple 'b', ce qui peut changer le sens du mot (gálan ≠ gbálan)",
+      "Ignorer le ton, qui distingue par exemple bà (chèvre, ton bas) de bá (mère, ton haut)",
+      "Ajouter les lettres q, v, x, z qui n'existent pas en malinké"
+    ]
   },
   "vocabulary": [
     {
-      "word_id": "v3_1",
-      "term": "Gbe",
-      "phonetic_api": "/ɡ͡be/",
-      "phonetic_simple": "GBÉ",
-      "translation": "Blanc / Pur / Limpide",
-      "example_sentence": "Ji gbe",
-      "example_phonetic": "/d͡ʒi ɡ͡be/",
-      "example_translation": "De l'eau pure / limpide."
+      "word_id": "v1",
+      "term": "gbolo",
+      "phonetic_api": "[ɡ͜bolo]",
+      "phonetic_simple": "gbo-lo",
+      "translation": "peau",
+      "example_sentence": "Gbolo nin kèndè.",
+      "example_phonetic": "[ɡ͜bolo nin kɛndɛ]",
+      "example_translation": "Cette peau est saine."
     },
     {
-      "word_id": "v3_2",
-      "term": "Ɲa",
-      "phonetic_api": "/ɲa/",
-      "phonetic_simple": "NYA",
-      "translation": "L'œil / Le visage / La vue",
-      "example_sentence": "N ɲa lu",
-      "example_phonetic": "/n̩ ɲa lu/",
-      "example_translation": "Mes yeux."
+      "word_id": "v2",
+      "term": "cè",
+      "phonetic_api": "[tʃɛ]",
+      "phonetic_simple": "tchè",
+      "translation": "homme, garçon, camarade",
+      "example_sentence": "Cè, i ni sɔɔma !",
+      "example_phonetic": "[tʃɛ i ni sɔːma]",
+      "example_translation": "Camarade, bonjour !"
     },
     {
-      "word_id": "v3_3",
-      "term": "Ŋana",
-      "phonetic_api": "/ŋa.na/",
-      "phonetic_simple": "NGA-NA",
-      "translation": "Héros / Personne valeureuse",
-      "example_sentence": "Kɛlɛ ŋana",
-      "example_phonetic": "/kɛ.lɛ ŋa.na/",
-      "example_translation": "Un vaillant guerrier."
+      "word_id": "v3",
+      "term": "jara",
+      "phonetic_api": "[dʒara]",
+      "phonetic_simple": "dja-ra",
+      "translation": "lion",
+      "example_sentence": "Jara nin kabon.",
+      "example_phonetic": "[dʒara nin kabɔn]",
+      "example_translation": "Ce lion est grand."
     },
     {
-      "word_id": "v3_4",
-      "term": "Baa",
-      "phonetic_api": "/baː/",
-      "phonetic_simple": "BAA",
-      "translation": "La chèvre / Le grand fleuve (voyelle longue)",
-      "example_sentence": "Baa bɛ dankan la",
-      "example_phonetic": "/baː bɛ dan.kan la/",
-      "example_translation": "La chèvre est au bord de l'eau."
+      "word_id": "v4",
+      "term": "nyari",
+      "phonetic_api": "[ɲari]",
+      "phonetic_simple": "nya-ri",
+      "translation": "chat",
+      "example_sentence": "Nyari tèrè lanin kudun do.",
+      "example_phonetic": "[ɲari tɛrɛ lanin kudun do]",
+      "example_translation": "Le chat était couché dans un fauteuil."
     },
     {
-      "word_id": "v3_5",
-      "term": "Ba",
-      "phonetic_api": "/ba/",
-      "phonetic_simple": "BA",
-      "translation": "Mère / Maman (voyelle brève)",
-      "example_sentence": "N ba bɛ so",
-      "example_phonetic": "/n̩ ba bɛ so/",
-      "example_translation": "Ma maman est à la maison."
+      "word_id": "v5",
+      "term": "yiri",
+      "phonetic_api": "[jiri]",
+      "phonetic_simple": "yi-ri",
+      "translation": "arbre, bois",
+      "example_sentence": "Yiri nin too le ko walisa.",
+      "example_phonetic": "[jiri nin toː le ko walisa]",
+      "example_translation": "Cet arbre-ci s'appelle le chêne."
     },
     {
-      "word_id": "v3_6",
-      "term": "Kan",
-      "phonetic_api": "/kã/",
-      "phonetic_simple": "KAN",
-      "translation": "Le cou / La voix / La langue parlée",
-      "example_sentence": "Malinké kan",
-      "example_phonetic": "/ma.liŋ.ke kã/",
-      "example_translation": "La langue malinké."
+      "word_id": "v6",
+      "term": "saa",
+      "phonetic_api": "[saː]",
+      "phonetic_simple": "sa-a",
+      "translation": "mouton (voyelle longue, de 'saga')",
+      "example_sentence": "Saa ye n bolo.",
+      "example_phonetic": "[saː je n bolo]",
+      "example_translation": "J'ai un mouton."
     },
     {
-      "word_id": "v3_7",
-      "term": "Dɔɔni",
-      "phonetic_api": "/dɔː.ni/",
-      "phonetic_simple": "DƆƆ-NI",
-      "translation": "Un peu / Lentement",
-      "example_sentence": "A fala dɔɔni dɔɔni",
-      "example_phonetic": "/a fa.la dɔː.ni dɔː.ni/",
-      "example_translation": "Parle très doucement."
+      "word_id": "v7",
+      "term": "tan",
+      "phonetic_api": "[tan]",
+      "phonetic_simple": "tan (nasalisé)",
+      "translation": "dix (voyelle nasale 'an')",
+      "example_sentence": "Den tan ye n bolo.",
+      "example_phonetic": "[dɛn tan je n bolo]",
+      "example_translation": "J'ai dix enfants."
     },
     {
-      "word_id": "v3_8",
-      "term": "Xui",
-      "phonetic_api": "/χui/",
-      "phonetic_simple": "KHOUI",
-      "translation": "La voix / Le son / Le bruit",
-      "example_sentence": "I xui rate",
-      "example_phonetic": "/i χui ra.te/",
-      "example_translation": "Hausse la voix (litt. Élève ton bruit)."
-    },
-    {
-      "word_id": "v3_9",
-      "term": "Da",
-      "phonetic_api": "/da/",
-      "phonetic_simple": "DA",
-      "translation": "La bouche / La porte / Créer",
-      "example_sentence": "So da",
-      "example_phonetic": "/so da/",
-      "example_translation": "La porte de la maison."
-    },
-    {
-      "word_id": "v3_10",
-      "term": "Faham",
-      "phonetic_api": "/fa.ham/",
-      "phonetic_simple": "FA-HAM",
-      "translation": "Comprendre / Saisir le sens",
-      "example_sentence": "N mu a faham",
-      "example_phonetic": "/n̩ mu a fa.ham/",
-      "example_translation": "Je ne comprends pas."
+      "word_id": "v8",
+      "term": "bibi",
+      "phonetic_api": "[bibi]",
+      "phonetic_simple": "bi-bi",
+      "translation": "aigle",
+      "example_sentence": "Bibi ye kono lè.",
+      "example_phonetic": "[bibi je kono lɛ]",
+      "example_translation": "L'aigle est un oiseau."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p3_1",
-      "original": "Nin bɛ fɔ di malinké kan la ?",
-      "phonetic_api": "/nĩ bɛ fɔ di ma.liŋ.ke kan la/",
-      "phonetic_simple": "NIN BƐ FƆ DI MA-LIN-KÉ KAN LA ?",
-      "translation": "Comment dit-on ceci en langue malinké ?",
-      "context": "Utile pour pointer un objet du doigt et demander sa traduction."
+      "phrase_id": "p1",
+      "original": "A ye fo di ?",
+      "phonetic_api": "[a je fo di]",
+      "phonetic_simple": "a-yé-fo-di",
+      "translation": "Comment ça se dit ?",
+      "context": "Demander la prononciation ou la traduction d'un mot"
     },
     {
-      "phrase_id": "p3_2",
-      "original": "N mu a faham dya.",
-      "phonetic_api": "/n̩ mu a fa.ham d͡ʒa/",
-      "phonetic_simple": "N MOU A FA-HAM DJA",
-      "translation": "Je n'ai pas bien compris du tout.",
-      "context": "À prononcer en cas de blocage lors d'une discussion."
+      "phrase_id": "p2",
+      "original": "A makaran",
+      "phonetic_api": "[a makaran]",
+      "phonetic_simple": "a-ma-ka-ran",
+      "translation": "Répète-le / relis-le",
+      "context": "Demander à quelqu'un de répéter un mot pour bien l'entendre"
     },
     {
-      "phrase_id": "p3_3",
-      "original": "A fala dɔɔni, n bɛ kalanso la.",
-      "phonetic_api": "/a fa.la dɔː.ni n̩ bɛ ka.lan.so la/",
-      "phonetic_simple": "A FA-LA DƆƆ-NI, N BƐ KA-LAN-SO LA",
-      "translation": "Dis-le lentement, je suis en plein apprentissage.",
-      "context": "Demander l'indulgence d'un locuteur natif qui parle trop vite."
+      "phrase_id": "p3",
+      "original": "Kono",
+      "phonetic_api": "[kɔnɔ]",
+      "phonetic_simple": "ko-no",
+      "translation": "oiseau (indéfini, ton haut-bas)",
+      "context": "Exemple classique du rôle du ton : 'konô' (ventre) vs 'kono' (oiseau)"
     },
     {
-      "phrase_id": "p3_4",
-      "original": "I xui rate n mu i mɛn la.",
-      "phonetic_api": "/i χui ra.te n̩ mu i mɛn la/",
-      "phonetic_simple": "I KHOUI RA-TÉ N MOU I MƐN LA",
-      "translation": "Hausse la voix, je ne t'entends pas.",
-      "context": "En milieu bruyant ou au marché."
-    },
-    {
-      "phrase_id": "p3_5",
-      "original": "A fala koten.",
-      "phonetic_api": "/a fa.la ko.tẽ/",
-      "phonetic_simple": "A FA-LA KO-TEN",
-      "translation": "Dis-le encore une fois. / Répète.",
-      "context": "Demander la répétition exacte d'un mot difficile à capter."
+      "phrase_id": "p4",
+      "original": "Konô",
+      "phonetic_api": "[konô]",
+      "phonetic_simple": "ko-nô",
+      "translation": "ventre / un oiseau (selon le ton et le contexte)",
+      "context": "Montre la paire minimale tonale avec 'kono'"
     }
   ],
   "grammar_points": [
     {
-      "concept": "Le contraste de longueur vocalique et son rôle syntaxique",
-      "explanation": "En malinké, la durée d'une voyelle change de manière radicale le sens lexical d'un mot. Graphiquement, la voyelle longue s'écrit en doublant la lettre.",
+      "concept": "L'alphabet latin du malinké",
+      "explanation": "Le malinké utilise l'alphabet latin sans les lettres q, v, x, z. Il ajoute des lettres/digraphes propres à ses sons : c, j, ny, gb, ainsi que les voyelles ɛ et ɔ.",
       "rules": [
-        "Voyelle brève : Temps d'articulation standard sec.",
-        "Voyelle longue : Maintien continu du flux d'air doublé."
+        "Consonnes simples identiques au français : b, d, f, g, h, k, l, m, n, p, r, s, t, w, y",
+        "Consonnes complexes propres au malinké : c [tʃ], j [dʒ], ny [ɲ], gb [ɡ͜b]",
+        "r ne se trouve jamais en début de mot ; il alterne parfois avec d entre deux voyelles identiques (bara/bada)"
       ],
       "examples": [
         {
-          "structure": "Ba",
-          "phonetic_api": "/ba/",
-          "meaning": "Mère / Maman"
+          "structure": "gb + voyelle",
+          "phonetic_api": "[ɡ͜b]",
+          "meaning": "consonne vélaire-labiale (ex. gbolo = peau)"
         },
         {
-          "structure": "Baa",
-          "phonetic_api": "/baː/",
-          "meaning": "Chèvre / cours d'eau"
+          "structure": "ny + voyelle",
+          "phonetic_api": "[ɲ]",
+          "meaning": "consonne nasale palatale (ex. nyari = chat)"
         }
       ]
     },
     {
-      "concept": "La négation verbale du présent avec 'mu...'",
-      "explanation": "Pour annuler une action ou un état cognitif immédiat (comme le verbe 'faham', comprendre), on utilise la particule négative restrictive générale 'mu' positionnée directement après le sujet.",
+      "concept": "Les tons et leur valeur distinctive",
+      "explanation": "Le malinké est une langue à tons : ton haut, ton bas, ton montant, ton descendant. Deux mots peuvent s'écrire de façon identique en orthographe courante mais avoir un sens différent selon le ton prononcé.",
       "rules": [
-        "Structure : Sujet + 'mu' + Verbe d'action + (Complément / Particule d'insistance 'dya')."
+        "Le ton n'est généralement pas noté à l'écrit ; le contexte permet de lever l'ambiguïté",
+        "Exemple classique : bà (ton bas) = chèvre ; bá (ton haut) = mère"
       ],
       "examples": [
         {
-          "structure": "N mu a faham",
-          "phonetic_api": "/n̩ mu a fa.ham/",
-          "meaning": "Je ne le comprends pas."
+          "structure": "bà / bá",
+          "phonetic_api": "[bà] / [bá]",
+          "meaning": "chèvre (ton bas) / mère (ton haut)"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "L'étudiant",
-      "text": "Karamɔgɔ, nin bɛ fɔ di ? N mu a faham dya.",
-      "phonetic_api": "/ka.ra.mɔ.ɡɔ nĩ bɛ fɔ di n̩ mu a fa.ham d͡ʒa/",
-      "phonetic_simple": "KA-RA-MƆ-GƆ, NIN BƐ FƆ DI ? N MOU A FA-HAM DJA.",
-      "translation": "Maître, comment dit-on ceci ? Je n'ai pas du tout compris."
+      "speaker": "Karamoo",
+      "text": "A makaran : gbolo.",
+      "phonetic_api": "[a makaran ɡ͜bolo]",
+      "phonetic_simple": "a-ma-ka-ran, gbo-lo",
+      "translation": "Répète : peau."
     },
     {
-      "speaker": "Le Maître",
-      "text": "A fɔ ko 'gbe'. I ɲa bɛ a la ? 'Gbe'.",
-      "phonetic_api": "/a fɔ ko ɡ͡be i ɲa bɛ a la ɡ͡be/",
-      "phonetic_simple": "A FƆ KO GBÉ. I NYA BƐ A LA ? GBÉ.",
-      "translation": "Dis 'gbe'. Tes yeux sont-ils fixés dessus ? 'Gbe'."
+      "speaker": "Karanden",
+      "text": "Gbolo. A ye fo di, 'lion' ?",
+      "phonetic_api": "[ɡ͜bolo a je fo di]",
+      "phonetic_simple": "gbo-lo, a-yé-fo-di",
+      "translation": "Peau. Comment dit-on 'lion' ?"
     },
     {
-      "speaker": "L'étudiant",
-      "text": "N a mɛn nɛ, 'gbe'. A fala dɔɔni koten, karamɔgɔ.",
-      "phonetic_api": "/n̩ a mɛn nɛ ɡ͡be a fa.la dɔː.ni ko.tẽ ka.ra.mɔ.ɡɔ/",
-      "phonetic_simple": "N A MƐN NƐ, GBÉ. A FA-LA DƆƆ-NI KO-TEN, KA-RA-MƆ-GƆ.",
-      "translation": "Je l'ai entendu, 'gbe'. Dis-le lentement encore une fois, maître."
+      "speaker": "Karamoo",
+      "text": "Jara le.",
+      "phonetic_api": "[dʒara le]",
+      "phonetic_simple": "dja-ra-lé",
+      "translation": "C'est 'jara'."
     },
     {
-      "speaker": "Le Maître",
-      "text": "G-b-e. I xui rate, a fala i kelen !",
-      "phonetic_api": "/ɡ͡be i χui ra.te a fa.la i ke.lẽ/",
-      "phonetic_simple": "GBÉ. I KHOUI RA-TÉ, A FA-LA I KÉ-LEN !",
-      "translation": "Gbe. Hausse ta voix, dis-le tout seul !"
-    },
-    {
-      "speaker": "L'étudiant",
-      "text": "Gbe ! I ni kɛ, n a fahamya nɛ !",
-      "phonetic_api": "/ɡ͡be i ni kɛ n̩ a fa.ham.ja nɛ/",
-      "phonetic_simple": "GBÉ ! I NI KƐ, N A FA-HAM-YA NÈ !",
-      "translation": "Gbe ! Merci beaucoup, je l'ai parfaitement assimilé !"
+      "speaker": "Karanden",
+      "text": "Jara. Barika, karamoo.",
+      "phonetic_api": "[dʒara barika karamoː]",
+      "phonetic_simple": "dja-ra, ba-ri-ka ka-ra-mo-o",
+      "translation": "Jara. Merci, maître."
     }
   ],
   "cultural_notes": [
-    "Le malinké s'écrit officiellement avec l'alphabet latin unifié depuis les conférences d'harmonisation de Bamako. Cependant, pour capter les nuances tonales complexes sans surcharger l'écriture de diacritiques, la communauté mandingue utilise l'écriture N'ko, créée par Solomana Kante. Le N'ko possède ses propres règles d'encodage des tons et se lit de droite à gauche, s'étendant à travers toute l'Afrique de l'Ouest pour préserver le patrimoine oral."
+    "Le malinké est avant tout une langue orale ; les règles orthographiques latines ne sont pas totalement fixées et varient selon les régions ([Malinkuia](https://fr.scribd.com/document/499114939/Malinkuia)).",
+    "Une orthographe scientifique standardisée a été proposée par les linguistes Diané et Vydrin pour le maninka de Guinée, precisant l'usage des voyelles ɛ/ɔ et de la consonne gb ([Mandenkan 52](https://shs.hal.science/halshs-01096594v1/document)).",
+    "Le N'Ko, écriture inventée par Solomana Kanté en 1949 à Kankan, est une alternative à l'alphabet latin encore utilisée aujourd'hui pour transcrire le maninka et marquer les tons ([Wikipedia N'Ko](https://en.wikipedia.org/wiki/N%27Ko_script))."
   ],
   "exercises": [
     {
-      "exercise_id": "A1_M1_L3_ex1",
-      "type": "multiple_choice",
-      "question": "Que se passe-t-il au niveau sonore si vous lisez le digraphe 'gb' ?",
+      "exercise_id": "e1",
+      "type": "choix_multiple",
+      "question": "Laquelle de ces lettres n'existe PAS en malinké ?",
       "options": [
-        "On prononce d'abord le G puis le B séparément",
-        "On bloque la gorge et les lèvres en même temps pour un relâchement simultané",
-        "Le G devient totalement muet"
+        "k",
+        "gb",
+        "v",
+        "ny"
       ],
-      "correct_answer": "On bloque la gorge et les lèvres en même temps pour un relâchement simultané",
-      "explanation": "'gb' est une consonne co-articulée complexe qui demande un mouvement articulatoire synchrone."
+      "correct_answer": "v",
+      "explanation": "Le malinké ne possède pas les lettres q, v, x, z."
     },
     {
-      "exercise_id": "A1_M1_L3_ex2",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "A fala [ ___ ] dɔɔni (Parle très lentement).",
-      "correct_answer": "dooni",
-      "hint": "C'veut dire 'un peu', répété deux fois pour accentuer la lenteur."
+      "exercise_id": "e2",
+      "type": "texte_a_trous",
+      "sentence_with_blank": "___ari = chat (consonne nasale palatale [ɲ])",
+      "correct_answer": "Ny",
+      "hint": "C'est le digraphe qui transcrit le son du 'gn' français."
+    },
+    {
+      "exercise_id": "e3",
+      "type": "vrai_faux",
+      "question": "Le ton peut changer le sens d'un mot en malinké (ex. bà=chèvre vs bá=mère).",
+      "correct_answer": "Vrai",
+      "explanation": "Le malinké est une langue tonale ; le ton haut ou bas peut totalement changer le sens d'un même mot."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Malinkuia — Introduction à la langue malinké (grammaire complète, variété du Wulada, Haute-Guinée)",
+      "url": "https://fr.scribd.com/document/499114939/Malinkuia"
+    },
+    {
+      "label": "Diané & Vydrin, « Propositions pour l'orthographe du maninka (Guinée) », Mandenkan 52 (2014)",
+      "url": "https://shs.hal.science/halshs-01096594v1/document"
+    },
+    {
+      "label": "Wikipedia — N'Ko script (Solomana Kanté, 1949, Kankan, Guinée)",
+      "url": "https://en.wikipedia.org/wiki/N%27Ko_script"
+    }
+  ],
+  "confidence": "élevée",
+  "confidence_note": "Les règles orthographiques et phonologiques proviennent directement d'une source académique dédiée (Diané & Vydrin, Mandenkan 52) et de la grammaire Malinkuia, toutes deux spécifiques au maninka de Guinée. Les transcriptions API sont des approximations construites à partir des descriptions phonologiques des sources, en l'absence d'enregistrement audio direct."
 }

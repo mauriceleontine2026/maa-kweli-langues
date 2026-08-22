@@ -6,299 +6,225 @@
   "lesson_number": 1,
   "title": "Parler de sa maison, de son logement et de sa ville",
   "learning_objectives": [
-    "Décrire de façon détaillée l'architecture de son logement et l'agencement des pièces",
-    "Localiser précisément des objets et des espaces dans la concession et le quartier",
-    "Exprimer son avis sur les commodités, les infrastructures et la vie dans sa ville"
+    "Décrire son logement (banxi) et ses pièces principales",
+    "Situer un lieu par rapport à des repères dans la ville (taa)",
+    "Utiliser le verbe 'na' (être/se trouver) pour localiser une maison ou un lieu"
   ],
   "phonetic_focus": {
-    "key_sounds": "Cette leçon met l'accent sur la distinction nette entre la fricative vélaire sourde /x/ (comme dans 'banxi') et la vibrante alvéolaire /r/ (comme des 'taa'). L'accentuation dynamique se porte sur la première syllabe pour marquer les composants de la concession.",
-    "common_pitfalls": "Ne prononcez pas 'banxi' comme 'ban-ksi' ou 'ban-zi'. Le 'x' est un grattement doux de la gorge. Veillez également à bien étirer la voyelle double de 'taa' (ville/village) pour ne pas la confondre avec la particule brève 'ta'."
+    "key_sounds": "'banxi' (maison) combine le 'x' guttural avec le groupe consonantique 'nx' ; 'taa' (ville/village) comporte une voyelle longue qu'il faut allonger nettement, différente de 'ta' bref.",
+    "common_pitfalls": "Les francophones prononcent souvent 'taa' comme un simple 'ta' court, alors que la longueur vocalique peut changer le sens en soussou."
   },
   "vocabulary": [
     {
-      "word_id": "v10_1",
-      "term": "Banxi",
+      "word_id": "v1",
+      "term": "banxi",
       "phonetic_api": "/banxi/",
-      "phonetic_simple": "BAN-KHI",
-      "translation": "Maison / Bâtiment / Édifice",
-      "example_sentence": "N banxi findi banxi gbe ra.",
-      "example_phonetic": "/n banxi fiⁿdi banxi ɡbɛ ra/",
-      "example_translation": "Ma maison est une grande maison."
+      "phonetic_simple": "BAN-khi",
+      "translation": "la maison",
+      "example_sentence": "Banxi na n yi.",
+      "example_phonetic": "/banxi na n ji/",
+      "example_translation": "J'ai une maison."
     },
     {
-      "word_id": "v10_2",
-      "term": "Xonbiri",
-      "phonetic_api": "/xoⁿbiri/",
-      "phonetic_simple": "KHON-BI-RI",
-      "translation": "Chambre / Pièce privée / Espace clos",
-      "example_sentence": "N na xonbiri firini nan masɛbɛfe.",
-      "example_phonetic": "/n na xoⁿbiri firini naⁿ masɛbɛfɛ/",
-      "example_translation": "Je décris mes deux chambres."
-    },
-    {
-      "word_id": "v10_3",
-      "term": "Taa",
+      "word_id": "v2",
+      "term": "taa",
       "phonetic_api": "/taː/",
-      "phonetic_simple": "TAA (long)",
-      "translation": "Ville / Agglomération / Village d'origine",
-      "example_sentence": "Conakry findi taa gbe ra Guinea.",
-      "example_phonetic": "/Conakry fiⁿdi taː ɡbɛ ra ɡuinɛa/",
-      "example_translation": "Conakry est une grande ville en Guinée."
+      "phonetic_simple": "TAA",
+      "translation": "la ville, le village",
+      "example_sentence": "N taa xili Konakiri.",
+      "example_phonetic": "/n taː xili konakiri/",
+      "example_translation": "Ma ville s'appelle Conakry."
     },
     {
-      "word_id": "v10_4",
-      "term": "Tete",
-      "phonetic_api": "/tetɛ/",
-      "phonetic_simple": "TÉ-TÈ",
-      "translation": "Cour / Clôture / Concession familiale",
-      "example_sentence": "Dié na bɔlɔfe tete ma.",
-      "example_phonetic": "/die na bɔlɔfɛ tetɛ ma/",
-      "example_translation": "Les enfants jouent dans la cour de la concession."
+      "word_id": "v3",
+      "term": "banxi xanbira",
+      "phonetic_api": "/banxi xanbira/",
+      "phonetic_simple": "BAN-khi khan-BI-ra",
+      "translation": "derrière la maison",
+      "example_sentence": "Labitani na banxi xanbira.",
+      "example_phonetic": "/labitani na banxi xanbira/",
+      "example_translation": "L'hôpital est derrière la maison."
     },
     {
-      "word_id": "v10_5",
-      "term": "Kude",
-      "phonetic_api": "/kude/",
-      "phonetic_simple": "KOU-DÉ",
-      "translation": "Cuisine / Lieu de préparation des repas",
-      "example_sentence": "N nga na kude ma donse ragɛfe.",
-      "example_phonetic": "/n ⁿɡa na kude ma doⁿsɛ raɡɛfɛ/",
-      "example_translation": "Ma mère est à la cuisine pour préparer le repas."
+      "word_id": "v4",
+      "term": "banxi maxç",
+      "phonetic_api": "/banxi maxɔ/",
+      "phonetic_simple": "BAN-khi ma-KHO",
+      "translation": "l'emplacement/la position de la maison",
+      "example_sentence": "N banxi maxç fan.",
+      "example_phonetic": "/n banxi maxɔ fan/",
+      "example_translation": "L'emplacement de ma maison est bon."
     },
     {
-      "word_id": "v10_6",
-      "term": "Maxa",
-      "phonetic_api": "/maxa/",
-      "phonetic_simple": "MA-KHA",
-      "translation": "Propre / Lavé / Assaini",
-      "example_sentence": "Yire maxaxi fan gbe ra.",
-      "example_phonetic": "/yirɛ maxaxi faⁿ ɡbɛ ra/",
-      "example_translation": "Un endroit propre est une excellente chose."
+      "word_id": "v5",
+      "term": "sççpi",
+      "phonetic_api": "/sɔːpi/",
+      "phonetic_simple": "SO-pi",
+      "translation": "la boutique, le magasin",
+      "example_sentence": "Sççpi na banxi mabirin.",
+      "example_phonetic": "/sɔːpi na banxi mabirin/",
+      "example_translation": "La boutique est près de la maison."
     },
     {
-      "word_id": "v10_7",
-      "term": "Saranxun",
-      "phonetic_api": "/saraⁿxuⁿ/",
-      "phonetic_simple": "SA-RAN-KHOUN",
-      "translation": "Quartier / Secteur / Voisinage",
-      "example_sentence": "Munse findi i saranxun xili ra ?",
-      "example_phonetic": "/muⁿsɛ fiⁿdi i saraⁿxuⁿ xili ra/",
-      "example_translation": "Quel est le nom de ton quartier ?"
+      "word_id": "v6",
+      "term": "xarandebanxi",
+      "phonetic_api": "/xarandebanxi/",
+      "phonetic_simple": "kha-ran-dé-BAN-khi",
+      "translation": "l'école",
+      "example_sentence": "Banki na xarandebanxi nun yami tagi.",
+      "example_phonetic": "/banki na xarandebanxi nun jami tagi/",
+      "example_translation": "La banque est entre l'école et la mosquée."
     },
     {
-      "word_id": "v10_8",
-      "term": "Marafangbe",
-      "phonetic_api": "/marafaⁿɡbɛ/",
-      "phonetic_simple": "MA-RA-FAN-GBÈ",
-      "translation": "Proximité / Alentours / Environnement direct",
-      "example_sentence": "Marafangbe fanyi na yanbɛ.",
-      "example_phonetic": "/marafaⁿɡbɛ faɲi na yaⁿbɛ/",
-      "example_translation": "Les alentours sont agréables ici."
+      "word_id": "v7",
+      "term": "sinema banxi",
+      "phonetic_api": "/sinema banxi/",
+      "phonetic_simple": "si-né-ma BAN-khi",
+      "translation": "le cinéma",
+      "example_sentence": "Sinema banxi na taa tagi ma.",
+      "example_phonetic": "/sinema banxi na taː tagi ma/",
+      "example_translation": "Le cinéma est au centre-ville."
     },
     {
-      "word_id": "v10_9",
-      "term": "Raba",
-      "phonetic_api": "/raba/",
-      "phonetic_simple": "RA-BA",
-      "translation": "Ouvrir / Élargir / Aménager",
-      "example_sentence": "Naadɛ raba n bɛ.",
-      "example_phonetic": "/naːdɛ raba n bɛ/",
-      "example_translation": "Ouvre-moi la porte."
-    },
-    {
-      "word_id": "v10_10",
-      "term": "Igbo",
-      "phonetic_api": "/iɡbo/",
-      "phonetic_simple": "I-GBO",
-      "translation": "Être vaste / Spacieux / Grand (en volume)",
-      "example_sentence": "Tete igboxi gbe ra.",
-      "example_phonetic": "/tetɛ iɡboxi ɡbɛ ra/",
-      "example_translation": "La cour est extrêmement vaste."
+      "word_id": "v8",
+      "term": "mabirin",
+      "phonetic_api": "/mabirin/",
+      "phonetic_simple": "ma-bi-RIN",
+      "translation": "près de, à côté de",
+      "example_sentence": "Sççpi na banxi mabirin.",
+      "example_phonetic": "/sɔːpi na banxi mabirin/",
+      "example_translation": "La boutique est près de la maison."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p10_1",
-      "original": "N banxi na saranxun fanyi ma.",
-      "phonetic_api": "/n banxi na saraⁿxuⁿ faɲi ma/",
-      "phonetic_simple": "N BAN-KHI NA SA-RAN-KHOUN FAN-YI MA",
-      "translation": "Ma maison se trouve dans un bon quartier.",
-      "context": "Décrire son cadre résidentiel lors d'une discussion amicale."
+      "phrase_id": "p1",
+      "original": "I banxi na minden?",
+      "phonetic_api": "/i banxi na minden/",
+      "phonetic_simple": "i BAN-khi na min-DEN",
+      "translation": "Où se trouve ta maison ?",
+      "context": "Pour demander l'emplacement du logement de quelqu'un."
     },
     {
-      "phrase_id": "p10_2",
-      "original": "Xonbiri muxe na i xon banxi ma ?",
-      "phonetic_api": "/xoⁿbiri muxɛ na i xoⁿ banxi ma/",
-      "phonetic_simple": "KHON-BI-RI MOU-KHÈ NA I KHON BAN-KHI MA ?",
-      "translation": "Combien de chambres y a-t-il dans ta maison ?",
-      "context": "S'enquérir des détails et des dimensions du logement de quelqu'un."
+      "phrase_id": "p2",
+      "original": "N banxi na xarandebanxi nun yami tagi",
+      "phonetic_api": "/n banxi na xarandebanxi nun jami tagi/",
+      "phonetic_simple": "n BAN-khi na kha-ran-dé-BAN-khi noun YA-mi TA-gui",
+      "translation": "Ma maison est entre l'école et la mosquée",
+      "context": "Pour situer sa maison par rapport à deux repères connus."
     },
     {
-      "phrase_id": "p10_3",
-      "original": "Tete igboxi, koni kude mu gbo.",
-      "phonetic_api": "/tetɛ iɡboxi koni kude mu ɡbo/",
-      "phonetic_simple": "TÉ-TÈ I-GBO-KHI, KO-NI KOU-DÉ MOU GBO",
-      "translation": "La cour est spacieuse, mais la cuisine n'est pas grande.",
-      "context": "Établir un comparatif d'espace sur les pièces de son logement."
+      "phrase_id": "p3",
+      "original": "Banxi maxç fan",
+      "phonetic_api": "/banxi maxɔ fan/",
+      "phonetic_simple": "BAN-khi ma-KHO fan",
+      "translation": "L'emplacement de la maison est bon",
+      "context": "Pour apprécier la situation géographique d'un logement."
     },
     {
-      "phrase_id": "p10_4",
-      "original": "Conakry taa fan, koni a a sare gbe ra.",
-      "phonetic_api": "/Conakry taː faⁿ koni a a sarɛ ɡbɛ ra/",
-      "phonetic_simple": "CO-NA-KRY TAA FAN, KO-NI A A SA-RÈ GBÈ RA",
-      "translation": "La ville de Conakry est belle, mais son coût de la vie est cher.",
-      "context": "Donner son point de vue argumenté sur la vie urbaine."
+      "phrase_id": "p4",
+      "original": "I taa xili di?",
+      "phonetic_api": "/i taː xili di/",
+      "phonetic_simple": "i TAA khi-li di",
+      "translation": "Comment s'appelle ta ville/ton village ?",
+      "context": "Pour demander le nom de la ville ou du village d'origine."
     },
     {
-      "phrase_id": "p10_5",
-      "original": "Muxie na tete ma ki, e na marafangbe matofé.",
-      "phonetic_api": "/muxie na tetɛ ma ki e na marafangbɛ matofé/",
-      "phonetic_simple": "MOU-KHIE NA TÉ-TÈ MA KI, É NA MA-RA-FAN-GBÈ MA-TO-FÉ",
-      "translation": "Les gens sont dans la cour ici, ils regardent les alentours.",
-      "context": "Décrire l'animation et l'activité de la concession."
-    },
-    {
-      "phrase_id": "p10_6",
-      "original": "Yire maxaxi nan na n xon banxi ma.",
-      "phonetic_api": "/yirɛ maxaxi naⁿ na n xoⁿ banxi ma/",
-      "phonetic_simple": "YI-RÈ MA-KHA-KHI NAN NA N KHON BAN-KHI MA",
-      "translation": "C'est un endroit très propre dans ma maison.",
-      "context": "Valoriser la propreté et la tenue de son foyer."
-    },
-    {
-      "phrase_id": "p10_7",
-      "original": "Kira na saranxun ma, a raba gbe ra.",
-      "phonetic_api": "/kira na saraⁿxuⁿ ma a raba ɡbɛ ra/",
-      "phonetic_simple": "KI-RA NA SA-RAN-KHOUN MA, A RA-BA GBÈ RA",
-      "translation": "Il y a une route dans le quartier, elle est très large.",
-      "context": "Décrire les infrastructures de son secteur géographique."
-    },
-    {
-      "phrase_id": "p10_8",
-      "original": "N sabatixi taa fanyi ma.",
-      "phonetic_api": "/n sabatixi taː faɲi ma/",
-      "phonetic_simple": "N SA-BA-TI-KHI TAA FAN-YI MA",
-      "translation": "Je réside dans une ville agréable.",
-      "context": "Affirmer son attachement à son lieu de résidence actuel."
+      "phrase_id": "p5",
+      "original": "N taa na Basse-GinE",
+      "phonetic_api": "/n taː na base gine/",
+      "phonetic_simple": "n TAA na bass gui-NÉ",
+      "translation": "Ma ville est en Basse-Guinée",
+      "context": "Pour indiquer la région d'origine, la Basse-Guinée étant la région historique des Soussou."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'expression de la qualification d'état avec le suffixe accompli '-xi'",
-      "explanation": "Au niveau intermédiaire, pour décrire l'état physique durable d'un logement ou d'un espace (vaste, propre, ouvert), on utilise le suffixe statif '-xi' rattaché à la racine verbale qualificative, suivi de la particule affirmative ou d'insistance.",
+      "concept": "Le verbe 'na' pour localiser (être/se trouver)",
+      "explanation": "Le verbe 'na' sert à situer un lieu, un objet ou une personne dans l'espace. Il se place entre le sujet et le complément de lieu, souvent suivi d'une préposition de lieu (mabirin, xanbira, tagi, kui...).",
       "rules": [
-        "Prendre le verbe qualificatif (ex: igbo = être grand, raba = ouvrir).",
-        "Ajouter le suffixe '-xi' pour marquer l'état figé résultant de la transformation.",
-        "Le groupe se place après le sujet ou en fonction d'épithète."
+        "Structure : Sujet + na + [complément de lieu] + [préposition]",
+        "Pour situer entre deux repères : Sujet + na + Repère1 + nun + Repère2 + tagi (entre)"
       ],
       "examples": [
         {
-          "structure": "Tete + igbo + xi",
-          "phonetic_api": "/tetɛ iɡboxi/",
-          "meaning": "La cour est devenue vaste / est spacieuse."
+          "structure": "Banxi na taa tagi ma",
+          "phonetic_api": "/banxi na taː tagi ma/",
+          "meaning": "La maison est au centre-ville"
         },
         {
-          "structure": "Yire + maxa + xi",
-          "phonetic_api": "/yirɛ maxaxi/",
-          "meaning": "L'endroit est propre (assaini)."
-        }
-      ]
-    },
-    {
-      "concept": "La coordination de propositions contrastées avec 'koni'",
-      "explanation": "Pour articuler un avis nuancé ou opposer deux caractéristiques de son environnement urbain ou résidentiel, on emploie la conjonction de coordination adversative 'koni' (mais / cependant) placée de façon charnière entre deux propositions autonomes.",
-      "rules": [
-        "Énoncer la première caractéristique positive ou neutre.",
-        "Placer la conjonction 'koni' marquant la rupture.",
-        "Énoncer la seconde caractéristique contrastée."
-      ],
-      "examples": [
-        {
-          "structure": "Taa fan, koni a sare gbe ra",
-          "phonetic_api": "/taː faⁿ koni a sarɛ ɡbɛ ra/",
-          "meaning": "La ville est belle, mais son coût est élevé."
+          "structure": "Sççpi na banxi mabirin",
+          "phonetic_api": "/sɔːpi na banxi mabirin/",
+          "meaning": "La boutique est près de la maison"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Marie",
-      "text": "Sékou, i banxi na mi i ra ? N wama i saranxun kolonfe.",
-      "phonetic_api": "/sɛku i banxi na mi i ra n wama i saraⁿxuⁿ koloⁿfɛ/",
-      "phonetic_simple": "SÉ-KOU, I BAN-KHI NA MI I RA ? N WA-MA I SA-RAN-KHOUN KO-LON-FÈ.",
-      "translation": "Sékou, où se trouve ta maison ? Je veux connaître ton quartier."
+      "speaker": "Amara",
+      "text": "I banxi na minden?",
+      "phonetic_api": "/i banxi na minden/",
+      "phonetic_simple": "i BAN-khi na min-DEN",
+      "translation": "Où se trouve ta maison ?"
     },
     {
-      "speaker": "Sékou",
-      "text": "N banxi na taa marafangbe ma. Saranxun xili findi Kaloum ra.",
-      "phonetic_api": "/n banxi na taː marafangbɛ ma saraⁿxuⁿ xili fiⁿdi Kaloum ra/",
-      "phonetic_simple": "N BAN-KHI NA TAA MA-RA-FAN-GBÈ MA. SA-RAN-KHOUN KHI-LI FIN-DI KA-LOUM RA.",
-      "translation": "Ma maison est dans les alentours de la ville. Le nom du quartier est Kaloum."
+      "speaker": "Fatoumata",
+      "text": "N banxi na xarandebanxi nun yami tagi.",
+      "phonetic_api": "/n banxi na xarandebanxi nun jami tagi/",
+      "phonetic_simple": "n BAN-khi na kha-ran-dé-BAN-khi noun YA-mi TA-gui",
+      "translation": "Ma maison est entre l'école et la mosquée."
     },
     {
-      "speaker": "Marie",
-      "text": "Kaloum findi yire gbe ra ! I xonbiri na mi i ra mɛnni ?",
-      "phonetic_api": "/Kaloum fiⁿdi yirɛ ɡbɛ ra i xoⁿbiri na mi i ra mɛnni/",
-      "phonetic_simple": "KA-LOUM FIN-DI YI-RÈ GBÈ RA ! I KHON-BI-RI NA MI I RA MÈN-NI ?",
-      "translation": "Kaloum est un grand endroit ! Où se trouve ta chambre là-bas ?"
+      "speaker": "Amara",
+      "text": "A makuya taa tagi ra?",
+      "phonetic_api": "/a makuja taː tagi ra/",
+      "phonetic_simple": "a ma-KOU-ya TAA TA-gui ra",
+      "translation": "Est-ce loin du centre-ville ?"
     },
     {
-      "speaker": "Sékou",
-      "text": "N xonbiri na tete ma. Banxi igboxi nan na, koni kude mu gbo gbe ra.",
-      "phonetic_api": "/n xoⁿbiri na tetɛ ma banxi iɡboxi naⁿ na koni kude mu ɡbo ɡbɛ ra/",
-      "phonetic_simple": "N KHON-BI-RI NA TÉ-TÈ MA. BAN-KHI I-GBO-KHI NAN NA, KO-NI KOU-DÉ MOU GBO GBÈ RA.",
-      "translation": "Ma chambre donne sur la cour. C'est un bâtiment spacieux, mais la cuisine n'est pas très grande."
-    },
-    {
-      "speaker": "Marie",
-      "text": "Yire maxaxi na i xon banxi ma, na findi fe fanyi ra gbe ra.",
-      "phonetic_api": "/yirɛ maxaxi na n xoⁿ banxi ma na fiⁿdi fɛ faɲi ra ɡbɛ ra/",
-      "phonetic_simple": "YI-RÈ MA-KHA-KHI NA I KHON BAN-KHI MA, NA FIN-DI FÈ FAN-YI RA GBÈ RA.",
-      "translation": "C'est un endroit propre dans ta maison, c'est une excellente chose."
+      "speaker": "Fatoumata",
+      "text": "Ade, a makçrE. Sççpi na n banxi mabirin.",
+      "phonetic_api": "/ade, a makɔrɛ, sɔːpi na n banxi mabirin/",
+      "phonetic_simple": "a-dé, a ma-KO-rè, SO-pi na n BAN-khi ma-bi-RIN",
+      "translation": "Non, c'est proche. La boutique est près de chez moi."
     }
   ],
   "cultural_notes": [
-    "En Guinée, l'organisation spatiale traditionnelle s'articule autour de la 'concession' ('tete'). C'est un grand espace clos où cohabitent plusieurs générations ou branches d'une même famille. La cour est le cœur de la vie sociale, où l'on reçoit les invités, où les enfants jouent et où s'organisent les discussions communautaires, tandis que la cuisine ('kude') demeure le domaine partagé des femmes."
+    "La Basse-Guinée (côtière) et la ville de Conakry sont les principaux foyers historiques du peuple soussou, dont le nom local est 'Sosoe'.",
+    "Dans les villes soussou, les habitations sont traditionnellement regroupées autour d'une cour familiale commune plutôt qu'isolées, refletant l'importance de la famille élargie."
   ],
   "exercises": [
     {
-      "exercise_id": "ex10_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel mot désigne l'espace clos partagé de la cour ou de la concession familiale ?",
+      "question": "Que signifie 'banxi' en soussou ?",
       "options": [
-        "Xonbiri",
-        "Tete",
-        "Saraxun"
+        "la maison",
+        "la ville",
+        "l'école"
       ],
-      "correct_answer": "Tete",
-      "explanation": "'Tete' désigne spécifiquement la cour ou la concession qui regroupe les habitations."
+      "correct_answer": "la maison",
+      "explanation": "'Banxi' désigne la maison ou l'habitation ; 'taa' désigne la ville ou le village."
     },
     {
-      "exercise_id": "ex10_2",
-      "type": "multiple_choice",
-      "question": "Que signifie exactement la tournure descriptive suffixée 'Banxi igboxi' ?",
-      "options": [
-        "La maison est petite",
-        "La maison est en construction",
-        "La maison est spacieuse / grande"
-      ],
-      "correct_answer": "La maison est spacieuse / grande",
-      "explanation": "La racine 'igbo' indique le volume spacieux, et '-xi' confirme cet état qualitatif actuel."
-    },
-    {
-      "exercise_id": "ex10_3",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "N nga na [ ___ ] ma donse ragɛfe. (Ma mère est à la cuisine...)",
-      "correct_answer": "kude",
-      "hint": "C'est le lieu d'élaboration culinaire au sein de la concession."
-    },
-    {
-      "exercise_id": "ex10_4",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Taa fan, [ ___ ] a sare gbe ra. (...mais son prix est cher.)",
-      "correct_answer": "koni",
-      "hint": "C'est la conjonction intermédiaire indispensable pour marquer le contraste ou l'opposition."
+      "sentence_with_blank": "Pour dire 'près de la maison', on dit : banxi [ ___ ]",
+      "correct_answer": "mabirin",
+      "hint": "C'est la préposition qui exprime la proximité."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Peace Corps Guinée — Xarandi Xa Buki, Livre du stagiaire Sosoxui (Susu Language Lessons)",
+      "url": "https://fsi-languages.yojik.eu/languages/PeaceCorps/Susu/susu-language-course.pdf"
+    },
+    {
+      "label": "Wikivoyage — Susu phrasebook",
+      "url": "https://en.wikivoyage.org/wiki/Susu_phrasebook"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Le vocabulaire de base (banxi, taa, sççpi, xarandebanxi, sinema banxi) est attesté dans le manuel Peace Corps (Compétences 3-4-13), mais celui-ci ne détaille pas le vocabulaire des pièces intérieures d'un logement (salon, chambre, cuisine) ; ces éléments n'ont donc pas été inclus afin de ne pas inventer de vocabulaire non attesté."
 }

@@ -6,299 +6,210 @@
   "lesson_number": 4,
   "title": "Les proverbes, dictons et expressions imagées de la culture",
   "learning_objectives": [
-    "Comprendre et décoder la portée philosophique des proverbes traditionnels soussou",
-    "Utiliser des expressions métaphoriques et imagées pour enrichir un discours public",
-    "Intégrer les maximes populaires pour valider ou clore un argumentaire de manière respectueuse"
+    "Comprendre le sens littéral et le sens figuré de plusieurs proverbes soussou attestés",
+    "Identifier la structure imagée typique des proverbes (image concrète animale/naturelle → leçon morale abstraite)",
+    "Employer un proverbe à bon escient dans une conversation ou un discours pour illustrer un argument"
   ],
   "phonetic_focus": {
-    "key_sounds": "Cette leçon repose sur la cadence rythmique et poétique des proverbes. Le mot 'taalɛ' exige un allongement distinct de la voyelle double /aː/. La prononciation du caractère ouvert /ɔ/ dans 'bɔrɛ' et 'dɔxɔ' doit être parfaitement maîtrisée pour préserver l'impact phonologique de la sentence oratoire.",
-    "common_pitfalls": "L'erreur consiste à réciter les dictons sur un ton monocorde. Les proverbes soussou possèdent une mélodie ascendante dans la première proposition (la condition) et descendante dans la seconde (la morale)."
+    "key_sounds": "Les proverbes emploient souvent un vocabulaire rare ou archaïque absent des leçons de base (noms d'animaux, de parties du corps, de gestes) ; il faut prêter attention aux sons 'kh' (vélaire sourde, noté 'x' dans le manuel Peace Corps) qui reviennent fréquemment.",
+    "common_pitfalls": "Deux sources orthographient ce même son différemment : le manuel Peace Corps utilise 'x' (xaranderaba) alors que les recueils de proverbes en ligne (Kirinapost, Calaméo) utilisent 'kh' (khali, khoni) ; il s'agit du même son /x/ et non de deux sons distincts — ne pas les confondre."
   },
   "vocabulary": [
     {
-      "word_id": "v22_1",
-      "term": "Taalɛ",
-      "phonetic_api": "/taːlɛ/",
-      "phonetic_simple": "TAA-LÈ",
-      "translation": "Proverbe / Parabole / Maxime / Adage",
-      "example_sentence": "Benbaé taalɛ fanyi fala won bɛ.",
-      "example_phonetic": "/beⁿbae taːlɛ faɲi fala woⁿ bɛ/",
-      "example_translation": "Les ancêtres nous ont transmis un proverbe magnifique."
+      "word_id": "v1",
+      "term": "taalie / talié",
+      "phonetic_api": "/taːlie/",
+      "phonetic_simple": "TA-li-é",
+      "translation": "proverbe, dicton",
+      "example_sentence": "Susu talié keren.",
+      "example_phonetic": "/susu taːlie keren/",
+      "example_translation": "Un proverbe soussou."
     },
     {
-      "word_id": "v22_2",
-      "term": "Masenyi",
-      "phonetic_api": "/maseɲi/",
-      "phonetic_simple": "MA-SÈ-NYI",
-      "translation": "Parole imagée / Allégorie / Discours poétique",
-      "example_sentence": "A ma masenyi na fe yati masɛbɛfe.",
-      "example_phonetic": "/a ma maseɲi na fɛ yati masɛbɛfɛ/",
-      "example_translation": "Son discours poétique décrit la réalité profonde."
+      "word_id": "v2",
+      "term": "khali / xali",
+      "phonetic_api": "/xali/",
+      "phonetic_simple": "kha-LI",
+      "translation": "vautour",
+      "example_sentence": "Khali Youbè sanyi guirakhi.",
+      "example_phonetic": "/xali jube saɲi ɡuiraxi/",
+      "example_translation": "Le vautour même le pied cassé."
     },
     {
-      "word_id": "v22_3",
-      "term": "Kanyé",
-      "phonetic_api": "/kaɲe/",
-      "phonetic_simple": "KA-NYÉ",
-      "translation": "Possesseur / Détenteur / Gardien (souvent suffixé)",
-      "example_sentence": "Fe kolon kanyé mu fama ɔlɔfe.",
-      "example_phonetic": "/fɛ koloⁿ kaɲe mu fama ɔlɔfɛ/",
-      "example_translation": "Le détenteur du savoir ne va pas gâcher les projets."
+      "word_id": "v3",
+      "term": "khoni / xoni",
+      "phonetic_api": "/xoni/",
+      "phonetic_simple": "kho-NI",
+      "translation": "oiseau",
+      "example_sentence": "Khoni gabélanyi malankhi na nan khwi gbo.",
+      "example_phonetic": "/xoni ɡabelaɲi malanxi na nan xwi ɡbo/",
+      "example_translation": "L'oiseau qui rassemble ses ailes à beaucoup de voix (l'union fait la force)."
     },
     {
-      "word_id": "v22_4",
-      "term": "Bari",
-      "phonetic_api": "/bari/",
-      "phonetic_simple": "BA-RI",
-      "translation": "Enfanter / Produire / Donner naissance (sens figuré)",
-      "example_sentence": "Wali fanyi fama sewa barife.",
-      "example_phonetic": "/wali faɲi fama sewa barifɛ/",
-      "example_translation": "Le bon travail donnera naissance à la joie."
+      "word_id": "v4",
+      "term": "mikhi / mixi",
+      "phonetic_api": "/mixi/",
+      "phonetic_simple": "MI-khi",
+      "translation": "personne, être humain",
+      "example_sentence": "Ha i mou mikhi kolön, a falaabè n'tara.",
+      "example_phonetic": "/ha i mu mixi kolɔn, a falaːbɛ n tara/",
+      "example_translation": "Si tu ne connais pas quelqu'un, appelle-le grand frère."
     },
     {
-      "word_id": "v22_5",
-      "term": "Ɲɛmɛ",
-      "phonetic_api": "/ɲɛmɛ/",
-      "phonetic_simple": "NYÈ-MÈ",
-      "translation": "Penser / Méditer / Réfléchir profondément",
-      "example_sentence": "A wasaxi won bɛ won xa ɲɛmɛ taalɛ ma.",
-      "example_phonetic": "/a wasaxi woⁿ bɛ woⁿ xa ɲɛmɛ taːlɛ ma/",
-      "example_translation": "Il nous faut méditer sur la parabole."
+      "word_id": "v5",
+      "term": "fori",
+      "phonetic_api": "/fori/",
+      "phonetic_simple": "FO-ri",
+      "translation": "le vieillard, l'ancien, le sage",
+      "example_sentence": "Fori nan sé-fori gan ki kolon.",
+      "example_phonetic": "/fori nan se fori ɡan ki kolon/",
+      "example_translation": "Un vieux connaît l'histoire des choses passées."
     },
     {
-      "word_id": "v22_6",
-      "term": "Xiri",
-      "phonetic_api": "/xiri/",
-      "phonetic_simple": "KHI-RI",
-      "translation": "Nouer / Attacher (sens figuré : sceller un accord social)",
-      "example_sentence": "Won ma tinnafiixɛ na fe xirife.",
-      "example_phonetic": "/woⁿ ma tiⁿnafiːxɛ na fɛ xirifɛ/",
-      "example_translation": "Notre sincérité est en train de sceller l'entente."
-    },
-    {
-      "word_id": "v22_7",
-      "term": "Dɔxɔ",
-      "phonetic_api": "/dɔxɔ/",
-      "phonetic_simple": "DO-KHO (ouvert)",
-      "translation": "S'asseoir / S'installer / Être stable",
-      "example_sentence": "Tɔɲɛ yati dɔxɔxi yanbɛ.",
-      "example_phonetic": "/tɔɲɛ yati dɔxɔxi yaⁿbɛ/",
-      "example_translation": "La règle absolue est installée de façon stable ici."
-    },
-    {
-      "word_id": "v22_8",
-      "term": "Fatamani",
-      "phonetic_api": "/fatamani/",
-      "phonetic_simple": "FA-TA-MA-NI",
-      "translation": "Éclair / Lueur soudaine (utilisé pour la vivacité d'esprit)",
-      "example_sentence": "A ma xui findi fatamani ra won bɛ.",
-      "example_phonetic": "/a ma xui fiⁿdi fatamani ra woⁿ bɛ/",
-      "example_translation": "Sa parole est une lueur soudaine pour nous."
-    },
-    {
-      "word_id": "v22_9",
-      "term": "Bɔrɛ",
-      "phonetic_api": "/bɔrɛ/",
-      "phonetic_simple": "BO-RÈ (ouvert)",
-      "translation": "Semblable / Pair / Égal / Prochain",
-      "example_sentence": "I mu xa i bɔrɛ ɔlɔ fe yo ma.",
-      "example_phonetic": "/i mu xa i bɔrɛ ɔlɔ fɛ yo ma/",
-      "example_translation": "Tu ne dois pas nuire à ton prochain pour quelque raison que ce soit."
-    },
-    {
-      "word_id": "v22_10",
-      "term": "Xun",
-      "phonetic_api": "/xuⁿ/",
-      "phonetic_simple": "KHOUN",
-      "translation": "L'origine / La source / La tête d'un problème",
-      "example_sentence": "Won xa siga fe xun ma.",
-      "example_phonetic": "/woⁿ xa siɡa fɛ xuⁿ ma/",
-      "example_translation": "Remontons à la source de l'affaire."
+      "word_id": "v6",
+      "term": "Ala",
+      "phonetic_api": "/ala/",
+      "phonetic_simple": "a-LA",
+      "translation": "Dieu",
+      "example_sentence": "Mukhuian fé natama, kono Alla a ragirima.",
+      "example_phonetic": "/muxuian fe natama, kono alla a raɡirima/",
+      "example_translation": "Nous faisons des projets, mais Dieu dirige."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p22_1",
-      "original": "Taalɛ naxan falaxi, na findi fe yati ra alɔ won birin kolon.",
-      "phonetic_api": "/taːlɛ naxaⁿ falaxi na fiⁿdi fɛ yati ra alɔ woⁿ biriⁿ koloⁿ/",
-      "phonetic_simple": "TAA-LÈ NA-KHAN FA-LA-KHI, NA FIN-DI FÈ YA-TI RA A-LO WON BI-RIN KO-LON",
-      "translation": "Le proverbe qui a été énoncé s'avère être la pure vérité, comme nous le savons tous.",
-      "context": "Valider l'intervention d'un ancien en s'appuyant sur l'adage qu'il a cité."
+      "phrase_id": "p1",
+      "original": "Khali Youbè sanyi guirakhi, fo a siga soubé fakhadé",
+      "phonetic_api": "/xali jube saɲi ɡuiraxi, fo a siɡa sube faxade/",
+      "phonetic_simple": "kha-LI you-BÈ SA-gni gui-ra-KHI, fo a SI-ga sou-BÉ fa-kha-DÉ",
+      "translation": "Le vautour même le pied cassé ira quand même à l'abattoir",
+      "context": "S'emploie pour dire que certaines choses (ici, une fin funeste ou un devoir) sont inévitables, quel que soit l'état ou l'excuse de la personne."
     },
     {
-      "phrase_id": "p22_2",
-      "original": "Bɔlɔ kérén mu nɔma mixi yuru bɔlɔfe, naxan ma fe ra won xa xiri.",
-      "phonetic_api": "/bɔlɔ kerɛn mu nɔma mixi yuru bɔlɔfɛ naxaⁿ ma fɛ ra woⁿ xa xiri/",
-      "phonetic_simple": "BO-LO KÉ-RÉN MOU NO-MA MI-XI YOU-RO BO-LO-FÈ, NA-KHAN MA FÈ RA WON KHA KHI-RI",
-      "translation": "Une seule main ne peut pas applaudir (laver le corps d'une personne) ; c'est pourquoi nous devons nous unir (nous nouer).",
-      "context": "Expression imagée incontournable pour appeler à l'union collective et à la solidarité."
+      "phrase_id": "p2",
+      "original": "Ha i mou mikhi kolön, a falaabè n'tara",
+      "phonetic_api": "/ha i mu mixi kolɔn, a falaːbɛ n tara/",
+      "phonetic_simple": "ha i mou MI-khi ko-LON, a fa-la-A-bè n TA-ra",
+      "translation": "Si tu ne connais pas quelqu'un, appelle-le grand frère",
+      "context": "Conseil de politesse et de prudence sociale : par respect, on s'adresse à un inconnu comme à un aîné plutôt que de présumer son statut."
     },
     {
-      "phrase_id": "p22_3",
-      "original": "Hali fatamani xa fan ki ma, kike nan dɔxɔxi babilong yati ma.",
-      "phonetic_api": "/hali fatamani xa faⁿ ki ma kikɛ naⁿ dɔxɔxi babiloⁿ yati ma/",
-      "phonetic_simple": "HA-LI FA-TA-MA-NI KHA FAN KI MA, KI-KÈ NAN DO-KHO-KHI BA-BI-LONG YA-TI MA",
-      "translation": "Même si l'éclair est éclatant à présent, c'est la lune qui demeure stable dans le destin ultime.",
-      "context": "Sentence métaphorique rappelant que la patience durable l'emporte sur l'éclat éphémère."
+      "phrase_id": "p3",
+      "original": "Khoni gabélanyi malankhi na nan khwi gbo",
+      "phonetic_api": "/xoni ɡabelaɲi malanxi na nan xwi ɡbo/",
+      "phonetic_simple": "kho-NI ga-bé-LA-gni ma-LAN-khi na nan khwi gbo",
+      "translation": "L'oiseau qui rassemble ses ailes à beaucoup de voix (l'union fait la force)",
+      "context": "Utilisé pour encourager la solidarité et l'action collective face à une difficulté."
     },
     {
-      "phrase_id": "p22_4",
-      "original": "Fe kolon kanyé mu fama masenyi foraxi falafe won ma malanyi ma.",
-      "phonetic_api": "/fɛ koloⁿ kaɲe mu fama maseɲi foraxi falafɛ woⁿ ma malaɲi ma/",
-      "phonetic_simple": "FÈ KO-LON KA-NYÉ MOU FA-MA MA-SÈ-NYI FO-RA-KHI FA-LA-FÈ WON MA MA-LAN-YI MA",
-      "translation": "Le sage (gardien du savoir) ne prononcera pas de paroles sombres (trompeuses) au sein de notre assemblée.",
-      "context": "Garantir l'intégrité morale des débats lors d'un conseil coutumier."
+      "phrase_id": "p4",
+      "original": "Mukhuian fé natama, kono Alla a ragirima",
+      "phonetic_api": "/muxuian fe natama, kono alla a raɡirima/",
+      "phonetic_simple": "mou-khou-YAN fé na-TA-ma, KO-no A-la a ra-gui-RI-ma",
+      "translation": "Nous faisons des projets, mais Dieu dirige",
+      "context": "Expression de fatalisme religieux tempéré, invoquée après avoir énoncé un projet, pour marquer l'humilité devant l'incertitude du futur."
     },
     {
-      "phrase_id": "p22_5",
-      "original": "Naxanba i wama i bɔrɛ mali ra, i xa ɲɛmɛ a xun yati ma.",
-      "phonetic_api": "/naxaⁿba i wama i bɔrɛ mali ra i xa ɲɛmɛ a xuⁿ yati ma/",
-      "phonetic_simple": "NA-KHAN-BA I WA-MA I BO-RÈ MA-LI RA, I KHA NYÈ-MÈ A KHOUN YA-TI MA",
-      "translation": "Au cas où tu désirerais aider ton prochain, tu dois méditer sur la source exacte de son besoin.",
-      "context": "Donner une recommandation philosophique sur l'altruisme et la bienveillance."
-    },
-    {
-      "phrase_id": "p22_6",
-      "original": "A luden ma, taalɛé na won bɔɲɛé ɲɛndɛfe fe fanyi ra.",
-      "phonetic_api": "/a ludɛⁿ ma taːlɛe na woⁿ ma bɔɲɛe ɲɛndɛfɛ fɛ faɲi ra/",
-      "phonetic_simple": "A LOU-DÈN MA, TAA-LÈ-É NA WON BO-NYÈÈ NYÈN-DÈ-FÈ FÈ FAN-YI RA",
-      "translation": "De plus, les maximes structurent nos cœurs pour de nobles aspirations.",
-      "context": "Valoriser l'impact éducatif et moral de la tradition orale."
-    },
-    {
-      "phrase_id": "p22_7",
-      "original": "Koni yati, n na n ma sikaé monife alɔ fe mu xa ɔlɔ babilong.",
-      "phonetic_api": "/koni yati n na n ma sikae monifɛ alɔ fɛ mu xa ɔlɔ babiloⁿ/",
-      "phonetic_simple": "KO-NI YA-TI, N NA N MA SI-KA-É MO-NI-FÈ A-LO FÈ MOU KHA O-LO BA-BI-LONG",
-      "translation": "Néanmoins, je préviens (j'écarte) mes propres doutes afin que l'avenir ne soit pas gâté.",
-      "context": "Rassurer l'assemblée sur ses intentions après avoir émis des réserves."
-    },
-    {
-      "phrase_id": "p22_8",
-      "original": "Wali fanyi nan na tinnafiixɛ barife won ma saranxun ma.",
-      "phonetic_api": "/wali faɲi naⁿ na tiⁿnafiːxɛ barifɛ woⁿ ma saraⁿxuⁿ ma/",
-      "phonetic_simple": "WA-LI FAN-YI NAN NA TIN-NA-FII-KHÈ BA-RI-FÈ WON MA SA-RAN-KHOUN MA",
-      "translation": "C'est le travail rigoureux qui enfante la sincérité absolue au sein de notre communauté.",
-      "context": "Conclure une harangue publique sur l'éthique de l'effort collectif."
+      "phrase_id": "p5",
+      "original": "Fori nan sé-fori gan ki kolon",
+      "phonetic_api": "/fori nan se fori ɡan ki kolon/",
+      "phonetic_simple": "FO-ri nan sé-FO-ri gan ki ko-LON",
+      "translation": "Un vieux connaît l'histoire des choses passées",
+      "context": "S'emploie pour justifier qu'on consulte un ancien avant de prendre une décision importante."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'usage du suffixe de maîtrise '-kanyé' dans le lexique abstrait",
-      "explanation": "Au niveau C1, la désignation des statuts moraux ou intellectuels utilise fréquemment le suffixe dénominal ou déverbal '-kanyé' (le possesseur / le détenteur de). Rattaché à un concept abstrait, il forge un nom qualifiant la personne qui incarne cette vertu ou cette compétence.",
+      "concept": "La structure imagée du proverbe soussou",
+      "explanation": "Le proverbe (taalie) associe presque toujours une image concrète tirée du monde animal, végétal ou domestique à une leçon morale abstraite, sans qu'un lien logique explicite (comme 'donc' ou 'c'est pourquoi') ne soit énoncé : c'est à l'auditeur de faire l'inférence. Cette économie de moyens est une marque du registre soutenu et de l'art oratoire traditionnel.",
       "rules": [
-        "Prendre le concept ou le syntagme de base (ex: fe kolon = savoir les choses).",
-        "Ajouter le suffixe '-kanyé' pour désigner l'agent détenteur de cette qualité.",
-        "Le mot obtenu est un substantif autonome sujet ou complément."
+        "Structure typique : [Image concrète, sujet animal/objet] + [action ou état] + (,) + [conséquence ou vérité générale implicite]",
+        "Le proverbe s'insère dans un discours sans marqueur d'introduction obligatoire, mais peut être précédé d'une formule comme 'nos anciens disaient...' à l'oral"
       ],
       "examples": [
         {
-          "structure": "Fe kolon + kanyé",
-          "phonetic_api": "/fɛ koloⁿ kaɲe/",
-          "meaning": "Le détenteur du savoir / Le sage."
+          "structure": "Khali Youbè sanyi guirakhi, fo a siga soubé fakhadé",
+          "phonetic_api": "/xali jube saɲi ɡuiraxi, fo a siɡa sube faxade/",
+          "meaning": "Image du vautour blessé qui se rend malgré tout à l'abattoir → leçon : certaines fins sont inévitables"
         },
         {
-          "structure": "Wali + kanyé",
-          "phonetic_api": "/wali kaɲe/",
-          "meaning": "L'artisan / Le travailleur émérite."
-        }
-      ]
-    },
-    {
-      "concept": "L'extension sémantique métaphorique des verbes d'action physique ('bari', 'xiri')",
-      "explanation": "La rhétorique élaborée s'appuie sur le déplacement des verbes concrets vers des sphères abstraites. Le verbe 'bari' (enfanter/accoucher) s'emploie pour désigner la causalité logique et morale (générer une conséquence). Le verbe 'xiri' (nouer) traduit l'action de sceller un pacte ou de stabiliser une décision sociale.",
-      "rules": [
-        "Le sujet du verbe déplace sa nature physique vers une entité abstraite (ex: le travail).",
-        "Le complément d'objet direct devient un sentiment ou un état (ex: la joie, l'entente).",
-        "Les suffixes temporels complexes s'appliquent normalement."
-      ],
-      "examples": [
-        {
-          "structure": "Wali + na + sewa + bari + fe",
-          "phonetic_api": "/wali na sewa barifɛ/",
-          "meaning": "Le travail enfante la joie (Le travail génère le bonheur)."
+          "structure": "Khoni gabélanyi malankhi na nan khwi gbo",
+          "phonetic_api": "/xoni ɡabelaɲi malanxi na nan xwi ɡbo/",
+          "meaning": "Image des ailes rassemblées de l'oiseau → leçon : l'union fait la force"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "L'Ancien (Gardiens du verbe)",
-      "text": "Marie, i kéna ! Ala xa i mali. N wama taalɛ kérén falafe i bɛ to, won ma malanyi ma fe ra.",
-      "phonetic_api": "/mari i kéna ala xa i mali n wama taːlɛ kerɛn falafɛ i bɛ to woⁿ ma malaɲi ma fɛ ra/",
-      "phonetic_simple": "MA-RI, I KÉ-NA ! A-LA KHA I MA-LI. N WA-MA TAA-LÈ KÉ-RÉN FA-LA-FÈ I BÈ TO, WON MA MA-LAN-YI MA FÈ RA.",
-      "translation": "Marie, bonjour ! Que Dieu t'assiste. Je souhaite énoncer une parabole pour toi aujourd'hui, à l'occasion de notre assemblée."
+      "speaker": "Le sage (Fori)",
+      "text": "Di, i lo bata bali nakha kabi lçxE saxan. I mu wali sotokhi.",
+      "phonetic_api": "/di, i lo bata bali naxa kabi lɔxɛ saxan, i mu wali sotoxi/",
+      "phonetic_simple": "di, i lo BA-ta ba-LI na-kha KA-bi LO-khè sa-KHAN, i mou WA-li so-to-KHI",
+      "translation": "Mon enfant, cela fait trois jours que tu es assis là. Tu n'as pas trouvé de travail."
     },
     {
-      "speaker": "Marie",
-      "text": "I nuwali, n benba fanyi. N na n ma bɔɲɛ ɲɛndɛfe alɔ n na i ma masenyi tongo.",
-      "phonetic_api": "/i nuwali n beⁿba faɲi n na n ma bɔɲɛ ɲɛndɛfɛ alɔ n na i ma maseɲi toⁿɡo/",
-      "phonetic_simple": "I NOU-WA-LI, N BEN-BA FAN-YI. N NA N MA BO-NYÈ NYÈN-DÈ-FÈ A-LO N NA I MA MA-SÈ-NYI TON-GO.",
-      "translation": "Merci, mon noble aîné. J'organise mon cœur (je me prépare spirituellement) afin de recevoir ta parole imagée."
+      "speaker": "Le jeune homme",
+      "text": "Nondi n'ara, fori. Kono n laxi a ra a sigama fanyi.",
+      "phonetic_api": "/nondi n ara, fori, kono n laxi a ra a siɡama faɲi/",
+      "phonetic_simple": "NON-di n A-ra, FO-ri, KO-no n LA-khi a ra a SI-ga-ma FA-gni",
+      "translation": "C'est vrai, ancien. Mais je pense que cela va s'arranger."
     },
     {
-      "speaker": "L'Ancien (Gardiens du verbe)",
-      "text": "Benbaé naxan fala : 'Bɔlɔ kérén mu nɔma mixi yuru bɔlɔfe'. Na findi fe yati ra. Naxan ma fe ra, won xa xiri.",
-      "phonetic_api": "/beⁿbae naxan fala bɔlɔ kerɛn mu nɔma mixi yuru bɔlɔfɛ na fiⁿdi fɛ yati ra naxaⁿ ma fɛ ra woⁿ xa xiri/",
-      "phonetic_simple": "BEN-BA-É NA-KHAN FA-LA : 'BO-LO KÉ-RÉN MOU NO-MA MI-XI YOU-RO BO-LO-FÈ'. NA FIN-DI FÈ YA-TI RA. NA-KHAN MA FÈ RA, WON KHA KHI-RI.",
-      "translation": "Les ancêtres ont dit : 'Une seule main ne peut laver le corps d'une personne (applaudir)'. C'est la pure vérité. C'est pourquoi nous devons sceller notre entente (nous nouer)."
+      "speaker": "Le sage (Fori)",
+      "text": "Mukhuian fé natama, kono Alla a ragirima. Khoni gabélanyi malankhi na nan khwi gbo : fa n xa bore ma, muxu wali kerenna.",
+      "phonetic_api": "/muxuian fe natama, kono alla a raɡirima, xoni ɡabelaɲi malanxi na nan xwi ɡbo, fa n xa bore ma, muxu wali kerenna/",
+      "phonetic_simple": "mou-khou-YAN fé na-TA-ma, KO-no A-la a ra-gui-RI-ma, kho-NI ga-bé-LA-gni ma-LAN-khi na nan khwi gbo, fa n kha bo-RÉ ma, MOU-khou WA-li ké-RÈN-na",
+      "translation": "Nous faisons des projets, mais Dieu dirige. L'union fait la force : viens chez mes amis, nous travaillerons ensemble."
     },
     {
-      "speaker": "Marie",
-      "text": "A luden ma, hali fatamani xa fan ki ma, kike nan dɔxɔxi babilong yati ma. N mu wama sika ra fe yo ma.",
-      "phonetic_api": "/a ludɛⁿ ma hali fatamani xa faⁿ ki ma kikɛ naⁿ dɔxɔxi babiloⁿ yati ma n mu wama sika ra fɛ yo ma/",
-      "phonetic_simple": "A LOU-DÈN MA, HA-LI FA-TA-MA-NI KHA FAN KI MA, KI-KÈ NAN DO-KHO-KHI BA-BI-LONG YA-TI MA. N MOU WA-MA SI-KA RA FÈ YO MA.",
-      "translation": "En outre, même si l'éclair est éclatant à présent, c'est la lune qui demeure stable dans le destin ultime. Je n'émets plus aucun doute sur cette affaire."
-    },
-    {
-      "speaker": "L'Ancien (Gardiens du verbe)",
-      "text": "I findi fe kolon kanyé ra, Marie. Tinnafiixɛ xa na won ma, won ma wali mu fama ɔlɔfe babilong. Won tina !",
-      "phonetic_api": "/i fiⁿdi fɛ koloⁿ kaɲe ra mari tiⁿnafiːxɛ xa na woⁿ ma woⁿ ma wali mu fama ɔlɔfɛ babiloⁿ woⁿ tina/",
-      "phonetic_simple": "I FIN-DI FÈ KO-LON KA-NYÉ RA, MA-RI. TIN-NA-FII-KHÈ KHA NA WON MA, WON MA WA-LI MOU FA-MA O-LO-FÈ BA-BI-LONG. WON TI-NA !",
-      "translation": "Tu es devenue une détentrice du savoir, Marie. Si la sincérité absolue nous guide, notre labeur ne sera jamais gâté à l'avenir. À demain !"
+      "speaker": "Le jeune homme",
+      "text": "I nu wali, fori. I falade nan n xa bali.",
+      "phonetic_api": "/i nu wali, fori, i falade nan n xa bali/",
+      "phonetic_simple": "i nou WA-li, FO-ri, i fa-la-DÉ nan n kha ba-LI",
+      "translation": "Merci, ancien. Tes paroles me donnent du courage."
     }
   ],
   "cultural_notes": [
-    "Dans la culture soussou, l'usage des proverbes ('taalɛ') est le marqueur suprême de l'intelligence rhétorique et de l'autorité coutumière. Un orateur qui maîtrise les métaphores comme 'bɔlɔ kérén mu nɔma mixi yuru bɔlɔfe' (illustrant l'indispensable solidarité communautaire face à l'impuissance de l'individualisme) capte immédiatement le respect. Ces images animalières, célestes ou anatomiques permettent d'énoncer des vérités éthiques absolues sans jamais nommer directement les fautes des individus, préservant ainsi la paix et la cohésion du clan."
+    "Chez les Soussou comme dans la plupart des cultures ouest-africaines, le proverbe est un outil rhétorique de premier plan : il permet de faire une critique, un conseil ou un reproche de façon indirecte et respectueuse, sans confrontation directe.",
+    "Le recueil traditionnel de proverbes soussou compilé dans les grammaires anciennes comporte une centaine d'exemples classés par thème (patience, prudence, solidarité, respect des anciens), signe de la richesse de cette tradition orale.",
+    "Citer un proverbe pertinent au bon moment est perçu comme une marque d'éloquence et de sagesse, particulièrement valorisée chez les anciens ('fori') dans les palabres familiales ou villageoises."
   ],
   "exercises": [
     {
-      "exercise_id": "ex22_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel substantif désigne de façon formelle un proverbe ou une maxime philosophique traditionnelle ?",
+      "question": "Que signifie le proverbe 'Khoni gabélanyi malankhi na nan khwi gbo' ?",
       "options": [
-        "Masenyi",
-        "Taalɛ",
-        "Saranxun"
+        "L'union fait la force",
+        "Le temps guérit tout",
+        "Il ne faut jamais mentir"
       ],
-      "correct_answer": "Taalɛ",
-      "explanation": "'Taalɛ' est le terme précis pour désigner les paraboles, adages et proverbes de la sagesse populaire."
+      "correct_answer": "L'union fait la force",
+      "explanation": "L'image de l'oiseau qui rassemble ses ailes symbolise la solidarité collective."
     },
     {
-      "exercise_id": "ex22_2",
-      "type": "multiple_choice",
-      "question": "Que signifie métaphoriquement l'expression 'Bɔlɔ kérén mu nɔma mixi yuru bɔlɔfe' ?",
-      "options": [
-        "Il faut se laver les mains souvent",
-        "L'individualisme est une force",
-        "L'union et la solidarité collective sont indispensables (une seule main ne suffit pas)"
-      ],
-      "correct_answer": "L'union et la solidarité collective sont indispensables (une seule main ne suffit pas)",
-      "explanation": "Cette image fondamentale illustre l'obligation d'entraide, un individu isolé ne pouvant accomplir de grandes œuvres."
-    },
-    {
-      "exercise_id": "ex22_3",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Fe kolon [ ___ ] mu fama masenyi foraxi falafe. (Le sage / détenteur du savoir ne parlera pas...)",
-      "correct_answer": "kanyé",
-      "hint": "C'est le suffixe honorifique de maîtrise ou de possession appliqué à un concept abstrait."
-    },
-    {
-      "exercise_id": "ex22_4",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Wali fanyi nan na tinnafiixɛ [ ___ ]fe won ma saranxun ma. (...est en train d'enfanter/générer la sincérité...)",
-      "correct_answer": "bari",
-      "hint": "Ce verbe signifiant physiquement accoucher s'emploie de façon imagée pour désigner la causalité morale."
+      "sentence_with_blank": "'Nous faisons des projets, mais Dieu dirige' se dit : Mukhuian fé natama, [ ___ ] Alla a ragirima.",
+      "correct_answer": "kono",
+      "hint": "C'est le connecteur d'opposition 'mais'."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Kirinapost — 5 proverbes guinéens (proverbes en Soussou avec traduction française)",
+      "url": "https://kirinapost.com/5-proverbes-guineens/"
+    },
+    {
+      "label": "Calaméo — Grammaire et Dictionnaire Français-Soussou et Soussou-Français (proverbes, salutations, conjonctions)",
+      "url": "https://www.calameo.com/books/000061616e6f8234fccef"
+    },
+    {
+      "label": "Peace Corps Guinée — Xarandi Xa Buki, Livre du stagiaire Sosoxui (Susu Language Lessons)",
+      "url": "https://fsi-languages.yojik.eu/languages/PeaceCorps/Susu/susu-language-course.pdf"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Les deux premiers proverbes proviennent de Kirinapost et les trois suivants d'un recueil de grammaire Calaméo distinct, tous deux attestant un large corpus réel de proverbes soussou. Toutefois ces sources utilisent une orthographe francisée ('kh', accents) différente de celle du manuel Peace Corps ('x', sans accents) : les termes ont donc été présentés ici avec les deux graphies quand cela était pertinent, et la transcription phonétique API reste une reconstruction prudente plutôt qu'une source directement vérifiée par un locuteur natif."
 }

@@ -6,203 +6,248 @@
   "lesson_number": 3,
   "title": "L'alphabet et les sons spécifiques de la langue",
   "learning_objectives": [
-    "Identifier visuellement et reproduire acoustiquement les consonnes implosives propres au pular (ɓ, ɗ, ƴ)",
-    "Différencier l'articulation des consonnes prénasalisées complexes (mb, nd, nj, ng)",
-    "Comprendre l'impact sémantique de la gémination consonantique et du coup de glotte"
+    "Reconnaître les 5 voyelles et les consonnes implosives propres au pular (å, ð, ý)",
+    "Distinguer les voyelles/consonnes courtes et longues",
+    "Prononcer correctement les sons vélaire (ø) et palatal (ñ)"
   ],
   "phonetic_focus": {
-    "key_sounds": "L'alphabet pular normalisé intègre des graphèmes spécifiques pour ses articulations injectives : 'ɓ' (implosive bilabiale), 'ɗ' (implosive alvéo-dentale), 'ƴ' (implosive palatale). Le coup de glotte /ʔ/ est matérialisé par une apostrophe ('). Les complexes prénasalisés comme 'ng' (/ŋɡ/) lient intimement la résonance du voile du palais à l'occlusion.",
-    "common_pitfalls": "Substituer une implosive par une occlusive pulmonaire ordinaire (ex: prononcer 'b' à la place de 'ɓ') invalide la compréhension lexicale. Par exemple, 'baba' (oncle paternel en sous-dialecte / confusion) diffère fondamentalement de 'ɓidɗo' (enfant) par son mécanisme d'ingression d'air."
+    "key_sounds": "L'orthographe du pular adoptée lors de la conférence UNESCO de Bamako (1966) suit le principe « un symbole = un son ». Les 5 voyelles (a, e, i, o, u) se prononcent comme en espagnol ou en italien. Trois consonnes implosives sont uniques au pular : å (comme un 'b' avec le larynx qui descend), ð (un 'd' implosif) et ý (un 'y' implosif, parfois noté ƴ). Le ø se prononce comme 'ng' dans 'sing', et le ñ comme 'gn' en français ou 'ny' en espagnol.",
+    "common_pitfalls": "Les francophones prononcent souvent å, ð, ý comme de simples b, d, y car ces sons n'existent pas en français. Ils confondent aussi les voyelles/consonnes longues et courtes (ex: 'a' vs 'aa', 'b' vs 'bb'), alors que cette distinction peut totalement changer le sens d'un mot (ex: bullal = épine, åullal = gonflement)."
   },
   "vocabulary": [
     {
-      "word_id": "v3_1",
-      "term": "ɓidɗo",
-      "phonetic_api": "/ɓiɗːo/",
-      "phonetic_simple": "BHID-DHO",
-      "translation": "enfant, rejeton, fils ou fille",
-      "example_sentence": "Omo jogii ɓidɗo gorko.",
-      "example_phonetic": "/omo d͡ʒoɡiː ɓiɗːo ɡorko/",
-      "example_translation": "Il a un enfant garçon (un fils)."
+      "word_id": "v1",
+      "term": "å (funky b)",
+      "phonetic_api": "/ɓ/",
+      "phonetic_simple": "B IMPLOSIF",
+      "translation": "consonne implosive, ex. dans 'åeyngu' (épouse)",
+      "example_sentence": "åeyngu",
+      "example_phonetic": "/ɓeyŋgu/",
+      "example_translation": "épouse"
     },
     {
-      "word_id": "v3_2",
-      "term": "ɗon",
-      "phonetic_api": "/ɗon/",
-      "phonetic_simple": "DHON",
-      "translation": "ici, là, marqueur de présence",
-      "example_sentence": "Baaba am no ɗon.",
-      "example_phonetic": "/baːba am no ɗon/",
-      "example_translation": "Mon père est présent / est là."
+      "word_id": "v2",
+      "term": "ð (funky d)",
+      "phonetic_api": "/ɗ/",
+      "phonetic_simple": "D IMPLOSIF",
+      "translation": "consonne implosive, ex. dans 'ðatal' (chemin)",
+      "example_sentence": "ðatal",
+      "example_phonetic": "/ɗatal/",
+      "example_translation": "chemin, sentier"
     },
     {
-      "word_id": "v3_3",
-      "term": "ƴande",
-      "phonetic_api": "/ʄande/",
-      "phonetic_simple": "Y'AN-DE",
-      "translation": "front (anatomie)",
-      "example_sentence": "Ƴande makko no yaaji.",
-      "example_phonetic": "/ʄande makːo no jaːd͡ʒi/",
-      "example_translation": "Son front est large."
+      "word_id": "v3",
+      "term": "ý (funky y)",
+      "phonetic_api": "/ʄ/",
+      "phonetic_simple": "Y IMPLOSIF",
+      "translation": "consonne implosive, ex. dans 'ýi'al' (os)",
+      "example_sentence": "ýi'al",
+      "example_phonetic": "/ʄiʔal/",
+      "example_translation": "os"
     },
     {
-      "word_id": "v3_4",
-      "term": "ndiyam",
-      "phonetic_api": "/ndijam/",
-      "phonetic_simple": "NDI-YAM",
-      "translation": "eau, liquide hydraulique",
-      "example_sentence": "Okku mi ndiyam mi yara.",
-      "example_phonetic": "/okːu mi ndijam mi jara/",
-      "example_translation": "Donne-moi de l'eau que je boive."
+      "word_id": "v4",
+      "term": "ø",
+      "phonetic_api": "/ŋ/",
+      "phonetic_simple": "NG COMME DANS 'SING'",
+      "translation": "consonne vélaire nasale, ex. dans 'øari' (beauté)",
+      "example_sentence": "øari",
+      "example_phonetic": "/ŋari/",
+      "example_translation": "beauté"
     },
     {
-      "word_id": "v3_5",
-      "term": "mbabba",
-      "phonetic_api": "/mbabːa/",
-      "phonetic_simple": "MBAB-BA",
-      "translation": "âne, bourricot",
-      "example_sentence": "Mbabba ɗon no dunya.",
-      "example_phonetic": "/mbabːa ɗon no dunja/",
-      "example_translation": "L'âne là-bas pousse la charge."
+      "word_id": "v5",
+      "term": "ñ",
+      "phonetic_api": "/ɲ/",
+      "phonetic_simple": "GN COMME EN FRANÇAIS 'AGNEAU'",
+      "translation": "consonne palatale, ex. dans 'ñaari' (chat)",
+      "example_sentence": "ñaari",
+      "example_phonetic": "/ɲaːri/",
+      "example_translation": "chat"
     },
     {
-      "word_id": "v3_6",
-      "term": "ngesa",
-      "phonetic_api": "/nɡesa/",
-      "phonetic_simple": "NGE-SA",
-      "translation": "champ, espace cultivé",
-      "example_sentence": "O yahi e ngesa makko.",
-      "example_phonetic": "/o jahi e nɡesa makːo/",
-      "example_translation": "Il est allé dans son champ."
+      "word_id": "v6",
+      "term": "c",
+      "phonetic_api": "/tʃ/",
+      "phonetic_simple": "TCH COMME DANS 'CELLO' ITALIEN",
+      "translation": "consonne, ex. dans 'coggu' (prix)",
+      "example_sentence": "coggu",
+      "example_phonetic": "/tʃoɡːu/",
+      "example_translation": "prix"
     },
     {
-      "word_id": "v3_7",
-      "term": "njallu",
-      "phonetic_api": "/nd͡ʒalːu/",
-      "phonetic_simple": "NJAL-LOU",
-      "translation": "passer la journée (radical impératif)",
-      "example_sentence": "Yo en njallu e jam.",
-      "example_phonetic": "/jo en nd͡ʒalːu e d͡ʒam/",
-      "example_translation": "Passons la journée en paix."
-    },
-    {
-      "word_id": "v3_8",
-      "term": "wa'oore",
-      "phonetic_api": "/waʔoːre/",
-      "phonetic_simple": "WA-OORE",
-      "translation": "état, manière d'être",
-      "example_sentence": "No wa'i ? (Coup de glotte bref sur le ')",
-      "example_phonetic": "/no waʔi/",
-      "example_translation": "Comment cela se présente-t-il ?"
-    },
-    {
-      "word_id": "v3_9",
-      "term": "laabi",
-      "phonetic_api": "/laːbi/",
-      "phonetic_simple": "LAA-BI",
-      "translation": "propreté, clarté, pureté",
-      "example_sentence": "Pular makko no laabi.",
-      "example_phonetic": "/pular makːo no laabi/",
-      "example_translation": "Son pular est pur/clair."
-    },
-    {
-      "word_id": "v3_10",
-      "term": "harfeere",
-      "phonetic_api": "/harɸeːre/",
-      "phonetic_simple": "HAR-FEE-RE",
-      "translation": "lettre de l'alphabet, caractère",
-      "example_sentence": "Ngal harfeere no saɗi prononcing.",
-      "example_phonetic": "/nɡal harɸeːre no saɗi/",
-      "example_translation": "Cette lettre est difficile à prononcer."
+      "word_id": "v7",
+      "term": "voyelles doublées (aa, ee, ii, oo, uu)",
+      "phonetic_api": "/aː, eː, iː, oː, uː/",
+      "phonetic_simple": "VOYELLE LONGUE",
+      "translation": "marquent une durée vocalique longue, ex. 'baaba' (père) vs 'a' court",
+      "example_sentence": "baaba",
+      "example_phonetic": "/baːba/",
+      "example_translation": "père"
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p3_1",
-      "original": "Ɗum no ɓuri moƴƴude.",
-      "phonetic_api": "/ɗum no ɓuri moʔɟːude/",
-      "phonetic_simple": "DHUM NO BHOU-RI MOY-YUDE",
-      "translation": "C'est cela qui est le meilleur (C'est excellent).",
-      "context": "Validation forte d'une idée ou d'une situation."
+      "phrase_id": "p1",
+      "original": "Ko honno ðun innete e Pular?",
+      "phonetic_api": "/ko honːo ɗun inːete e pular/",
+      "phonetic_simple": "KO HONNO DOUNE INNÉ-TÉ É POU-LAR",
+      "translation": "Comment cela s'appelle-t-il en pular ?",
+      "context": "Pour demander la traduction d'un mot."
     },
     {
-      "phrase_id": "p3_2",
-      "original": "Mido jogii ɓiɓɓe ɗiɗo.",
-      "phonetic_api": "/mido d͡ʒoɡiː ɓiɓːe ɗiɗo/",
-      "phonetic_simple": "MI-DO DJO-GII BHIBH-BHE DHI-DHO",
-      "translation": "J'ai deux enfants.",
-      "context": "Description de sa situation familiale."
+      "phrase_id": "p2",
+      "original": "Haliree ðoy.",
+      "phonetic_api": "/halireː ɗoj/",
+      "phonetic_simple": "HA-LI-RÉÉ DOY",
+      "translation": "Parlez lentement.",
+      "context": "Pour demander à son interlocuteur de ralentir son débit."
     },
     {
-      "phrase_id": "p3_3",
-      "original": "Ko nguu woni pular laabi.",
-      "phonetic_api": "/ko nɡuː woni pular laːbi/",
-      "phonetic_simple": "KO NGOUU WO-NI POU-LAR LAA-BI",
-      "translation": "C'est ceci le pular authentique.",
-      "context": "Compliment adressé à quelqu'un maîtrisant parfaitement les sons."
+      "phrase_id": "p3",
+      "original": "Fillitee.",
+      "phonetic_api": "/filːiteː/",
+      "phonetic_simple": "FIL-LI-TÉÉ",
+      "translation": "Répétez, s'il vous plaît.",
+      "context": "Pour demander une répétition."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Mi faamaali.",
+      "phonetic_api": "/mi faːmaːli/",
+      "phonetic_simple": "MI FAA-MAA-LI",
+      "translation": "Je n'ai pas compris.",
+      "context": "Pour signaler une incompréhension."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Miðo ekitaade.",
+      "phonetic_api": "/miɗo ekitaːde/",
+      "phonetic_simple": "MI-DO É-KI-TAA-DÉ",
+      "translation": "Je suis en train d'apprendre.",
+      "context": "Réponse humble typique d'un débutant."
     }
   ],
   "grammar_points": [
     {
-      "concept": "La Tension Articulatoire ou Gémination Consonantique",
-      "explanation": "Le redoublement orthographique des consonnes (ll, mm, tt, ɓɓ) traduit une gémination phonétique : l'occlusion ou la friction est maintenue deux fois plus longtemps, bloquant brièvement l'émission d'air avant l'explosion.",
+      "concept": "L'opposition consonnes implosives vs consonnes ordinaires",
+      "explanation": "Le pular oppose systématiquement des paires de consonnes qui se distinguent par le mécanisme implosif : b/å, d/ð, y/ý. Cette opposition est phonémique, c'est-à-dire qu'elle change le sens des mots ; elle doit donc être exagérée par le débutant pour bien la fixer.",
       "rules": [
-        "La gémination possède une valeur distinctive indispensable : elle permet d'opposer des bases verbales ou nominales (ex: ɓidɗo au singulier devient ɓiɓɓe au pluriel, l'implosive se géminant et changeant de point d'articulation)."
+        "b (explosif, comme en français) ≠ å (implosif, air aspiré vers l'intérieur)",
+        "d (explosif) ≠ ð (implosif)",
+        "y (explosif) ≠ ý (implosif)"
       ],
       "examples": [
         {
-          "structure": "ɓidɗo (singulier) -> ɓiɓɓe (pluriel)",
-          "phonetic_api": "/ɓiɓːe/",
-          "meaning": "Enfants"
+          "structure": "habbagol (attendre) / haååagol (se lier)",
+          "phonetic_api": "/habːaɡol/ vs /haɓːaɡol/",
+          "meaning": "paire minimale illustrant b/å"
+        },
+        {
+          "structure": "bullal (épine) / åullal (gonflement)",
+          "phonetic_api": "/bulːal/ vs /ɓulːal/",
+          "meaning": "paire minimale illustrant b/å"
+        }
+      ]
+    },
+    {
+      "concept": "Durée vocalique et consonantique (courte vs longue)",
+      "explanation": "Une voyelle ou consonne doublée dans l'écriture indique une durée plus longue à l'oral. Cette différence de durée peut, comme les consonnes implosives, changer complètement le sens d'un mot.",
+      "rules": [
+        "aa, ee, ii, oo, uu = voyelle longue (deux fois la durée d'une voyelle simple)",
+        "bb, cc, dd, tt, etc. = consonne renforcée / géminée"
+      ],
+      "examples": [
+        {
+          "structure": "yaawugol (être rapide) / yawugol (mépriser)",
+          "phonetic_api": "/jaːwuɡol/ vs /jawuɡol/",
+          "meaning": "paire minimale illustrant a/aa"
+        },
+        {
+          "structure": "sokugol (fermer à clé) / sokkugol (trop manger)",
+          "phonetic_api": "/sokuɡol/ vs /sokːuɡol/",
+          "meaning": "paire minimale illustrant k/kk"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Jannginoowo (Maître)",
-      "text": "Janngu ngal harfeere ngal : ɓ. Etu windude 'ɓidɗo'.",
-      "phonetic_api": "/d͡ʒanːɡinoːwo d͡ʒanɡu nɡal harɸeːre nɡal ɓ etu windude ɓiɗːo/",
-      "phonetic_simple": "DJAN-GIN-OO-WO : DJAN-GOU NGAL HAR-FEE-RE NGAL : BH. E-TOU WIN-DOU-DE 'BHID-DHO'.",
-      "translation": "Lis cette lettre : ɓ. Essaie d'écrire 'enfant'."
+      "speaker": "Formateur",
+      "text": "Ko honno ðun innete e Pular?",
+      "phonetic_api": "/ko honːo ɗun inːete e pular/",
+      "phonetic_simple": "KO HONNO DOUNE INNÉ-TÉ É POU-LAR",
+      "translation": "Comment cela s'appelle-t-il en pular ?"
     },
     {
-      "speaker": "Karanden (Élève)",
-      "text": "Ɓidɗo. Mido refti prononcing ndiyam kadi. No laabi ?",
-      "phonetic_api": "/karanden ɓiɗːo mido refti ndijam kadi no laːbi/",
-      "phonetic_simple": "KA-RAN-DEN : BHID-DHO. MI-DO REF-TI NDI-YAM KA-DI. NO LAA-BI ?",
-      "translation": "Enfant. Je répète aussi la prononciation de 'ndiyam' (eau). Est-ce correct/pur ?"
+      "speaker": "Apprenant",
+      "text": "Mi faamaali. Fillitee, tan.",
+      "phonetic_api": "/mi faːmaːli. filːiteː tan/",
+      "phonetic_simple": "MI FAA-MAA-LI. FIL-LI-TÉÉ, TAN",
+      "translation": "Je n'ai pas compris. Répétez, s'il vous plaît."
     },
     {
-      "speaker": "Jannginoowo (Maître)",
-      "text": "Eyyo, pular maa no laabi sanne. A jaraama.",
-      "phonetic_api": "/ejːo pular maː no laːbi sanːe a d͡ʒaraːma/",
-      "phonetic_simple": "EY-YO, POU-LAR MAA NO LAA-BI SAN-NE. A DJA-RAA-MA.",
-      "translation": "Oui, ton pular est très clair/pur. Félicitations (merci)."
+      "speaker": "Formateur",
+      "text": "Haliree ðoy: å-e-y-n-g-u.",
+      "phonetic_api": "/halireː ɗoj/",
+      "phonetic_simple": "HA-LI-RÉÉ DOY",
+      "translation": "Parlez... je veux dire, épelons lentement : å-e-y-n-g-u."
+    },
+    {
+      "speaker": "Apprenant",
+      "text": "Awa, miðo ekitaade seeða seeða.",
+      "phonetic_api": "/awa miɗo ekitaːde seːɗa seːɗa/",
+      "phonetic_simple": "A-OUA, MI-DO É-KI-TAA-DÉ SÉÉ-DA SÉÉ-DA",
+      "translation": "Bon, j'apprends petit à petit."
     }
   ],
   "cultural_notes": [
-    "L'alphabet officiel de la langue pular utilise les caractères latins codifiés sous l'égide de l'UNESCO pour unifier les transcriptions d'Afrique de l'Ouest. Parallèlement, l'écriture trans-saharienne historique 'Ajami' (caractères arabes adaptés aux structures phonologiques africaines) demeure active au sein des éruditions traditionnelles du Fouta-Djallon."
+    "L'orthographe latine harmonisée du pular a été fixée lors d'une conférence UNESCO à Bamako en 1966 ; elle coexiste avec une tradition ancienne d'écriture en caractères arabes (ajami), toujours utilisée par de nombreux lettrés peuls (source : Learner's Guide to Pular, Peace Corps Guinée).",
+    "Apprendre à différencier les sons 'funky' (å, ð, ý) est considéré par les Peuls comme un signe de sérieux dans l'apprentissage de leur langue, et suscite souvent des encouragements chaleureux."
   ],
   "exercises": [
     {
-      "exercise_id": "ex3_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel type de son représente l'association de consonnes 'mb' dans 'mbabba' ?",
+      "question": "Quel son est une consonne implosive propre au pular ?",
       "options": [
-        "Une consonne implosive",
-        "Une consonne prénasalisée",
-        "Un coup de glotte"
+        "b",
+        "å",
+        "t"
       ],
-      "correct_answer": "Une consonne prénasalisée",
-      "explanation": "'mb' combine une résonance nasale initiale immédiatement suivie d'une explosion bilabiale."
+      "correct_answer": "å",
+      "explanation": "å (avec ð et ý) est l'une des trois consonnes implosives caractéristiques du pular, absentes du français."
     },
     {
-      "exercise_id": "ex3_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Baaba am no [ ___ ]. (Mon père est là/présent).",
-      "correct_answer": "ɗon",
-      "hint": "Mot utilisant l'implosive dentale pour indiquer la présence ici."
+      "sentence_with_blank": "Une voyelle doublée comme dans 'baaba' (père) indique une voyelle [ ___ ].",
+      "correct_answer": "longue",
+      "hint": "Pensez à la durée de prononciation."
+    },
+    {
+      "exercise_id": "ex3",
+      "type": "multiple_choice",
+      "question": "Comment se prononce le 'ñ' du pular ?",
+      "options": [
+        "Comme 'n' en français",
+        "Comme 'gn' dans 'agneau'",
+        "Comme 'ng' dans 'sing'"
+      ],
+      "correct_answer": "Comme 'gn' dans 'agneau'",
+      "explanation": "Le ñ palatal du pular correspond au son 'gn' français ou 'ny' espagnol."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Learner's Guide to Pular (Fuuta Jallon) — Peace Corps Guinée (Herb Caudill & Ousmane Besseko Diallo)",
+      "url": "https://ibamba.net/pular/manual.pdf"
+    },
+    {
+      "label": "Live Lingua Project — Peace Corps Manual of Fulfulde",
+      "url": "https://www.livelingua.com/course/peace-corps/manual-of-fulfulde"
+    }
+  ],
+  "confidence": "élevée",
+  "confidence_note": "Tableau phonétique et exemples de paires minimales directement issus de la section 'Spelling and pronunciation' du manuel Peace Corps Guinée, qui documente précisément l'orthographe UNESCO 1966."
 }

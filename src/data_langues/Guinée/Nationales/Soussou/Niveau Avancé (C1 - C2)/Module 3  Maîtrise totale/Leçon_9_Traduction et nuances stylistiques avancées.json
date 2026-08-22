@@ -6,292 +6,207 @@
   "lesson_number": 9,
   "title": "Traduction et nuances stylistiques avancées",
   "learning_objectives": [
-    "Transposer des concepts philosophiques complexes sans perte sémantique ni calque structurel",
-    "Maîtriser les figures de style supérieures comme la métaphore fine ('makuya') et l'ellipse rhétorique",
-    "Restituer l'humour, l'ironie courtoise et le sous-texte lors d'une interprétation de haut niveau"
+    "Reconnaître les variations orthographiques entre sources ('x' vs 'kh', 'E' vs 'è', 'ç' vs 'o') et leur impact sur la traduction",
+    "Distinguer un registre littéral d'un registre idiomatique lors de la traduction français-soussou",
+    "Traduire un proverbe en respectant l'image plutôt que le mot à mot"
   ],
   "phonetic_focus": {
-    "key_sounds": "Cette ultime leçon exige une parfaite fluidité oratoire. L'articulation du mot 'makuya' /makuya/ doit lier les voyelles sans hiatus. Les variations intonatives dictent la perception du sous-texte ironique ou solennel ; un ton légèrement suspendu sur la postposition 'ra' indique souvent un double sens littéraire.",
-    "common_pitfalls": "Le piège principal à ce niveau d'expertise est d'adopter une diction purement mécanique. La traduction stylistique avancée requiert de calquer le souffle et les silences sur le rythme de la rhétorique traditionnelle de Basse-Guinée."
+    "key_sounds": "Un même son peut être noté différemment selon la source : le manuel Peace Corps utilise 'x' pour la vélaire sourde (/x/) alors que des sources plus informelles (Kirinapost, Calaméo) utilisent 'kh' ; de même, l'orthographe officielle utilise 'E'/'ç'/'¯' (API /ɛ/, /ɔ/, /ɲ/) alors que d'autres textes utilisent des accents français ('è', 'o', 'gn').",
+    "common_pitfalls": "Confondre une variation purement orthographique avec une différence de prononciation réelle : 'xaranderaba' et 'kharandèraba' désignent very probablement le même mot (enseignant) sous deux conventions graphiques différentes, et non deux mots distincts. Il faut vérifier le sens avant de conclure à une différence lexicale."
   },
   "vocabulary": [
     {
-      "word_id": "v27_1",
-      "term": "Makuya",
-      "phonetic_api": "/makuya/",
-      "phonetic_simple": "MA-KOU-YA",
-      "translation": "Éloignement stylistique / Métaphore fine / Image poétique détournée / Périphrase",
-      "example_sentence": "Makuya fanyi nan na i ma masenyi ra.",
-      "example_phonetic": "/makuya faɲi naⁿ na i ma maseɲi ra/",
-      "example_translation": "Ton discours fait un usage magnifique de la périphrase poétique."
+      "word_id": "v1",
+      "term": "nondi",
+      "phonetic_api": "/nondi/",
+      "phonetic_simple": "NON-di",
+      "translation": "vrai, vérité, exact (utilisé pour valider une traduction)",
+      "example_sentence": "Nondi n'ara.",
+      "example_phonetic": "/nondi n ara/",
+      "example_translation": "C'est vrai / c'est exact."
     },
     {
-      "word_id": "v27_2",
-      "term": "Masenyi yati",
-      "phonetic_api": "/maseɲi yati/",
-      "phonetic_simple": "MA-SÈ-NYI YA-TI",
-      "translation": "Le sens littéral / La signification brute / La dénotation d'un énoncé",
-      "example_sentence": "Won xa masenyi yati maton singe.",
-      "example_phonetic": "/woⁿ xa maseɲi yati matoⁿ siⁿdʒɛ/",
-      "example_translation": "Il nous faut d'abord acter la signification brute de l'énoncé."
+      "word_id": "v2",
+      "term": "fala",
+      "phonetic_api": "/fala/",
+      "phonetic_simple": "FA-la",
+      "translation": "dire, parler (verbe clé de la traduction et du discours rapporté)",
+      "example_sentence": "I nakha mun, i mun falama?",
+      "example_phonetic": "/i naxa mun, i mun falama/",
+      "example_translation": "Que dis-tu, que racontes-tu ?"
     },
     {
-      "word_id": "v27_3",
-      "term": "Xonbiri foraxi",
-      "phonetic_api": "/xoⁿbiri foraxi/",
-      "phonetic_simple": "KHON-BI-RI FO-RA-KHI",
-      "translation": "Le sous-texte / Le sens caché / L'implicite (litt. La chambre sombre/mûre)",
-      "example_sentence": "Xonbiri foraxi na i ma masɛbɛyati ma.",
-      "example_phonetic": "/xoⁿbiri foraxi na i ma masɛbɛyati ma/",
-      "example_translation": "Il y a un sens implicite profond au sein de ton acte authentique."
+      "word_id": "v3",
+      "term": "rasabu",
+      "phonetic_api": "/rasabu/",
+      "phonetic_simple": "ra-SA-bou",
+      "translation": "traduire, expliquer le sens (dérivé apparenté à 'sabu' = aide/moyen, dans certaines sources)",
+      "example_sentence": "I nçma a rasabu n bE?",
+      "example_phonetic": "/i nɔma a rasabu n bɛ/",
+      "example_translation": "Peux-tu me traduire/expliquer cela ?"
     },
     {
-      "word_id": "v27_4",
-      "term": "Gbéingbé ra",
-      "phonetic_api": "/ɡbeːnɡbɛ ra/",
-      "phonetic_simple": "GBÉÉN-GBÈ RA",
-      "translation": "De manière fidèle / Rigoureuse / Immuable",
-      "example_sentence": "A fama na gɔfɛ fe transposerfe gbéingbé ra.",
-      "example_phonetic": "/a fama na ɡɔfɛ fɛ traⁿsposerfɛ ɡbeːnɡbɛ ra/",
-      "example_translation": "Il va transposer ce concept financier de manière extrêmement fidèle."
+      "word_id": "v4",
+      "term": "kolon",
+      "phonetic_api": "/kolon/",
+      "phonetic_simple": "ko-LON",
+      "translation": "connaître, savoir, comprendre le sens de",
+      "example_sentence": "N mu a kolon a fala ra fanyi.",
+      "example_phonetic": "/n mu a kolon a fala ra faɲi/",
+      "example_translation": "Je ne sais pas bien comment le dire (le traduire)."
     },
     {
-      "word_id": "v27_5",
-      "term": "Nɔ yati",
-      "phonetic_api": "/nɔ yati/",
-      "phonetic_simple": "NO YA-TI",
-      "translation": "La virtuosité stylistique / La parfaite maîtrise de l'art / Le brio",
-      "example_sentence": "Nɔ yati na i ma traduction ma.",
-      "example_phonetic": "/nɔ yati na i ma traduction ma/",
-      "example_translation": "Ta traduction fait preuve d'une virtuosité stylistique absolue."
-    },
-    {
-      "word_id": "v27_6",
-      "term": "Moni",
-      "phonetic_api": "/moni/",
-      "phonetic_simple": "MO-NI",
-      "translation": "Éviter le contresens / Purger des inexactitudes / Polir un texte",
-      "example_sentence": "Won xa calqueyati moni won ma masenyié ma.",
-      "example_phonetic": "/woⁿ xa calqueyati moni woⁿ ma maseɲie ma/",
-      "example_translation": "Il nous faut purger nos discours de tout calque structurel (inexactitude)."
-    },
-    {
-      "word_id": "v27_7",
-      "term": "Tinnafiixɛ kanyé",
-      "phonetic_api": "/tiⁿnafiːxɛ kaɲe/",
-      "phonetic_simple": "TIN-NA-FII-KHÈ KA-NYÉ",
-      "translation": "Le traducteur fidèle / L'interprète intègre / Le passeur de sens juste",
-      "example_sentence": "Tinnafiixɛ kanyé mu fama fe yati ɔlɔfe.",
-      "example_phonetic": "/tiⁿnafiːxɛ kaɲe mu fama fɛ yati ɔlɔfɛ/",
-      "example_translation": "Le traducteur fidèle ne va pas dénaturer (gâter) la réalité du sens."
-    },
-    {
-      "word_id": "v27_8",
-      "term": "Kere",
-      "phonetic_api": "/kerɛ/",
-      "phonetic_simple": "KÉ-RÈ",
-      "translation": "Perdre de sa substance / S'appauvrir / Subir une déperdition stylistique",
-      "example_sentence": "Masenyi mu fama kerefe naxanba makuya na a ma.",
-      "example_phonetic": "/maseɲi mu fama kerɛfɛ naxaⁿba makuya na a ma/",
-      "example_translation": "Le discours ne perdra rien de sa substance si toutefois la périphrase l'enrichit."
-    },
-    {
-      "word_id": "v27_9",
-      "term": "Balebo fanyi",
-      "phonetic_api": "/balebɔ faɲi/",
-      "phonetic_simple": "BA-LÉ-BO FAN-YI",
-      "translation": "L'harmonie textuelle / L'équilibre de style / La juste mesure oratoire",
-      "example_sentence": "Balebo fanyi dɔxɔxi yanbɛ.",
-      "example_phonetic": "/balebɔ faɲi dɔxɔxi yaⁿbɛ/",
-      "example_translation": "Une juste mesure oratoire est établie de façon harmonieuse ici."
-    },
-    {
-      "word_id": "v27_10",
-      "term": "Babilong yati ma",
-      "phonetic_api": "/babiloⁿ yati ma/",
-      "phonetic_simple": "BA-BI-LONG YA-TI MA",
-      "translation": "Dans l'histoire littéraire / Pour la postérité / À travers les âges",
-      "example_sentence": "I ma traduction fama dɔxɔfe babilong yati ma.",
-      "example_phonetic": "/i ma traduction fama dɔxɔfɛ babiloⁿ yati ma/",
-      "example_translation": "Ton travail de traduction s'installera de manière immuable pour la postérité."
+      "word_id": "v5",
+      "term": "ma",
+      "phonetic_api": "/ma/",
+      "phonetic_simple": "ma",
+      "translation": "sur, à propos de, dans le sens de (postposition utile pour cadrer une traduction)",
+      "example_sentence": "Yi khui fala fransi xui ma?",
+      "example_phonetic": "/ji xui fala fransi xui ma/",
+      "example_translation": "Comment dit-on ce mot en français ?"
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p27_1",
-      "original": "Traduction naxan nabaxi, na findi makuya fanyi ra naxan dangi masenyi yati birin ma.",
-      "phonetic_api": "/traductioⁿ naxaⁿ nabaxi na fiⁿdi makuya faɲi ra naxaⁿ daⁿɡi maseɲi yati biriⁿ ma/",
-      "phonetic_simple": "TRA-DUC-TION NA-KHAN NA-BA-KHI, NA FIN-DI MA-KOU-YA FAN-YI RA NA-KHAN DAN-GUI MA-SÈ-NYI YA-TI BI-RIN MA",
-      "translation": "La traduction qui a été accomplie s'avère être une périphrase poétique supérieure qui surpasse de loin la simple signification brute.",
-      "context": "Évaluer de manière académique un travail d'interprétation ou de transposition littéraire."
+      "phrase_id": "p1",
+      "original": "Yi khui fala fransi xui ma?",
+      "phonetic_api": "/ji xui fala fransi xui ma/",
+      "phonetic_simple": "yi khoui FA-la fran-SI khoui ma",
+      "translation": "Comment dit-on ce mot en français ?",
+      "context": "Question clé pour tout exercice de traduction ou de clarification lexicale entre les deux langues."
     },
     {
-      "phrase_id": "p27_2",
-      "original": "Naxan ma fe ra, won xa calqueyati birin moni alɔ won ma balebo fanyi mu xa kere.",
-      "phonetic_api": "/naxaⁿ ma fɛ ra woⁿ xa calqueyati biriⁿ moni alɔ woⁿ ma balebɔ faɲi mu xa kerɛ/",
-      "phonetic_simple": "NA-KHAN MA FÈ RA, WON KHA CAL-QUE-YA-TI BI-RIN MO-NI A-LO WON MA BA-LÉ-BO FAN-YI MOU KHA KÉ-RÈ",
-      "translation": "C'est pourquoi il nous faut impérativement exclure tout calque structurel afin que notre harmonie textuelle ne perde rien de sa substance.",
-      "context": "Formuler une directive de correction stylistique lors de la révision d'un texte d'éloquence."
+      "phrase_id": "p2",
+      "original": "N mu a kolon a fala ra fanyi",
+      "phonetic_api": "/n mu a kolon a fala ra faɲi/",
+      "phonetic_simple": "n mou a ko-LON a FA-la ra FA-gni",
+      "translation": "Je ne sais pas bien comment le dire/traduire",
+      "context": "Formule d'humilité utile pour signaler une difficulté de traduction, plutôt que de proposer une traduction hasardeuse."
     },
     {
-      "phrase_id": "p27_3",
-      "original": "Hali yati i xa masenyi yati fala ki ma, xonbiri foraxi nan na fe yati ra saranxun bɛ.",
-      "phonetic_api": "/hali yati i xa maseɲi yati fala ki ma xoⁿbiri foraxi naⁿ na fɛ yati ra saraⁿxuⁿ bɛ/",
-      "phonetic_simple": "HA-LI YA-TI I KHA MA-SÈ-NYI YA-TI FA-LA KI MA, KHON-BI-RI FO-RA-KHI NAN NA FÈ YA-TI RA SA-RAN-KHOUN BÈ",
-      "translation": "Quand bien même tu énoncerais le sens littéral brut à présent, le sous-texte implicite constitue la vérité profonde pour l'assemblée.",
-      "context": "Rappeler la primauté de l'intention cachée ou du second degré lors d'un arbitrage oratoire."
+      "phrase_id": "p3",
+      "original": "Nondi n'ara, kono a rasabu gbengbe",
+      "phonetic_api": "/nondi n ara, kono a rasabu ɡbenɡbe/",
+      "phonetic_simple": "NON-di n A-ra, KO-no a ra-SA-bou GBÈN-gbé",
+      "translation": "C'est vrai, mais c'est difficile à traduire",
+      "context": "S'emploie notamment pour les proverbes ou expressions imagées, dont le sens littéral et le sens figuré diffèrent fortement."
     },
     {
-      "phrase_id": "p27_4",
-      "original": "Singe yati, tinnafiixɛ kanyéé mu nu wama masenyi yati gbansan ra naxan nu fama makuya ɔlɔfe.",
-      "phonetic_api": "/siⁿdʒɛ yati tiⁿnafiːxɛ kaɲeː mu nu wama maseɲi yati ɡbaⁿsaⁿ ra naxaⁿ nu fama makuya ɔlɔfɛ/",
-      "phonetic_simple": "SIN-DJÉ YA-TI, TIN-NA-FII-KHÈ KA-NYÉÉ MOU NOU WA-MA MA-SÈ-NYI YA-TI GBAN-SAN RA NA-KHAN NOU FA-MA MA-KOU-YA O-LO-FÈ",
-      "translation": "Au premier commencement, les passeurs de sens intègres ne se contentaient pas d'une dénotation brute qui aurait fini par corrompre l'image poétique.",
-      "context": "Faire l'apologie historique de l'éloquence traditionnelle lors d'une conférence de lettrés."
-    },
-    {
-      "phrase_id": "p27_5",
-      "original": "Na fe ma, won xa xonbiri foraxi maton gbéingbé ra alɔ balebo fanyi xa dɔxɔ won bɔɲɛé ma.",
-      "phonetic_api": "/na fɛ ma woⁿ xa xoⁿbiri foraxi matoⁿ ɡbeːnɡbɛ ra alɔ balebɔ faɲi xa dɔxɔ woⁿ bɔɲɛe ma/",
-      "phonetic_simple": "NA FÈ MA, WON KHA KHON-BI-RI FO-RA-KHI MA-TON GBÉÉN-GBÈ RA A-LO BA-LÉ-BO FAN-YI KHA DO-KHO WON MA BO-NYÈÈ MA",
-      "translation": "À ce sujet, il nous faut décoder le sous-texte avec rigueur afin que la juste mesure oratoire s'installe durablement dans nos esprits.",
-      "context": "Annoncer la méthode d'interprétation critique d'une épopée sacrée."
-    },
-    {
-      "phrase_id": "p27_6",
-      "original": "Naxanba won xa makuyaé xa ɲɛndɛ fanyi ra, na findi fe ra naxan won fama nɔ yati tongofe babilong.",
-      "phonetic_api": "/naxaⁿba woⁿ xa makuyaɛ xa ɲɛndɛ faɲi ra na fiⁿdi fɛ ra naxaⁿ woⁿ fama nɔ yati toⁿɡofɛ babiloⁿ/",
-      "phonetic_simple": "NA-KHAN-BA WON KHA MA-KOU-YA-É KHA NYÈN-DÈ FAN-YI RA, NA FIN-DI FÈ RA NA-KHAN WON FA-MA NO YA-TI TON-GO-FÈ BA-BI-LONG",
-      "translation": "Au cas où nos périphrases poétiques seraient rigoureusement ordonnées, ce qui implique que nous atteindrons une virtuosité stylistique absolue pour la postérité.",
-      "context": "Démontrer l'impact d'une structure stylistique maîtrisée sur la force pérenne d'un écrit."
-    },
-    {
-      "phrase_id": "p27_7",
-      "original": "Fe yati nan na ra alɔ nɔ yati dɔxɔxi na tinnafiixɛ kanyé ma traductioné xon.",
-      "phonetic_api": "/fɛ yati naⁿ na ra alɔ nɔ yati dɔxɔxi na tiⁿnafiːxɛ kaɲe ma traductioⁿe xoⁿ/",
-      "phonetic_simple": "FÈ YA-TI NAN NA RA A-LO NO YA-TI DO-KHO-KHI NA TIN-NA-FII-KHÈ KA-NYÉ MA TRA-DUC-TION-É KHON",
-      "translation": "Il appert de fait qu'un brio exceptionnel est intrinsèquement lié aux transpositions de ce passeur de sens intègre.",
-      "context": "Rendre formellement hommage à la qualité stylistique du travail d'un traducteur ou d'un poète."
-    },
-    {
-      "phrase_id": "p27_8",
-      "original": "Babilong yati ma, na balebo fanyi ra, won ma masenyié mu fama kerefe babilong yati ma.",
-      "phonetic_api": "/babiloⁿ yati ma na balebɔ faɲi ra woⁿ ma maseɲie mu fama kerɛfɛ babiloⁿ yati ma/",
-      "phonetic_simple": "BA-BI-LONG YA-TI MA, NA BA-LÉ-BO FAN-YI RA, WON MA MA-SÈ-NYI-É MOU FA-MA KÉ-RÈ-FÈ BA-BI-LONG YA-TI MA",
-      "translation": "En dernière analyse, grâce à cette juste mesure oratoire, nos discours ne subiront aucune déperdition stylistique à travers les âges.",
-      "context": "Conclusion solennelle du cursus global, scellant la pérennité du savoir linguistique transmis."
+      "phrase_id": "p4",
+      "original": "I nçma a rasabu n bE?",
+      "phonetic_api": "/i nɔma a rasabu n ɛ/",
+      "phonetic_simple": "i NO-ma a ra-SA-bou n bè",
+      "translation": "Peux-tu me traduire/expliquer cela ?",
+      "context": "Question directe et polie pour demander l'aide d'un traducteur ou d'un locuteur plus expérimenté."
     }
   ],
   "grammar_points": [
     {
-      "concept": "La conceptualisation de l'implicite par la métaphore spatiale 'Xonbiri foraxi'",
-      "explanation": "Au niveau ultime de maîtrise stylistique (C2), pour exprimer la notion complexe de 'sous-texte', d'ironie sous-jacente ou d'implicite textuel, la rhétorique n'emploie pas de mot technique abstrait. Elle utilise le syntagme métaphorique sémantiquement dense 'Xonbiri foraxi' (littéralement : la chambre mûre / sombre / secrète). Elle désigne l'espace clos au sein duquel l'orateur dissimule son intention profonde.",
+      "concept": "Traduire un proverbe : sens littéral vs sens figuré",
+      "explanation": "La traduction d'un proverbe soussou en français ne doit jamais être mot à mot : il faut restituer l'image concrète puis, si nécessaire, expliciter la leçon morale qu'elle porte implicitement. Par exemple, 'Khali Youbè sanyi guirakhi, fo a siga soubé fakhadé' se traduit littéralement par 'le vautour, son pied cassé, il ira encore à l'abattoir', mais le sens figuré porte sur l'inévitabilité d'un destin ou d'une fin. Une traduction stylistiquement avancée doit choisir entre fidélité littérale (pour l'étude linguistique) et fidélité au sens figuré (pour la communication naturelle) selon le contexte.",
       "rules": [
-        "Le groupe nominal 'xonbiri foraxi' se traite syntaxiquement comme un nom d'état.",
-        "Il régit les compléments introduits par la postposition d'ancrage 'ma' ou de relation d'état 'ra'."
+        "Traduction d'étude (linguistique) : conserver la structure et l'image, quitte à paraître peu naturelle en français",
+        "Traduction de communication : privilégier l'équivalent culturel ou le sens figuré, même si les mots diffèrent"
       ],
       "examples": [
         {
-          "structure": "Xonbiri foraxi + na + masɛbɛyati + ma",
-          "phonetic_api": "/xoⁿbiri foraxi na masɛbɛyati ma/",
-          "meaning": "Il y a un sous-texte implicite profond au sein de cet acte authentique."
+          "structure": "Khali Youbè sanyi guirakhi, fo a siga soubé fakhadé",
+          "phonetic_api": "/xali jube saɲi ɡuiraxi, fo a siɡa sube faxade/",
+          "meaning": "Littéral : le vautour au pied cassé va tout de même à l'abattoir / Figuré : certaines fins sont inévitables, quel que soit l'état de la personne"
         }
       ]
     },
     {
-      "concept": "L'équilibre oratoire par le syntagme de coordination esthétique 'Balebo fanyi'",
-      "explanation": "Le concept de 'balebo' (équilibre/économie), lorsqu'il s'applique à l'art poétique et à la traduction au niveau avancé, qualifie la juste mesure oratoire ou la cadence rythmique qui évite les excès stylistiques. Il impose un balancement parfait entre la protase et l'apodose dans la phrase longue.",
+      "concept": "Variantes orthographiques inter-sources et leur traitement en traduction",
+      "explanation": "Comme observé à travers tout ce corpus de leçons, un même mot soussou peut apparaître sous plusieurs graphies selon la source consultée : le manuel Peace Corps (référence pédagogique nord-américaine) utilise x/E/ç/¯, tandis que des sources grand public en ligne (Kirinapost, Calaméo, blogs guinéens) utilisent des conventions francisées (kh/è/o/gn). Un traducteur avancé doit reconnaître ces équivalences plutôt que de les traiter comme des mots différents.",
       "rules": [
-        "Placer 'Balebo fanyi' en position d'instrumental ou de sujet d'état.",
-        "Associer la structure au verbe d'installation stable 'dɔxɔ' à l'accompli."
+        "x (Peace Corps) = kh (sources francisées) — même son vélaire sourd /x/",
+        "E (Peace Corps) = è (sources francisées) — même voyelle /ɛ/",
+        "ç (Peace Corps) = o ouvert (sources francisées) — même voyelle /ɔ/",
+        "¯ (Peace Corps) = gn (sources francisées) — même consonne nasale palatale /ɲ/"
       ],
       "examples": [
         {
-          "structure": "Balebo fanyi + dɔxɔxi + won ma + masenyié + ma",
-          "phonetic_api": "/balebɔ faɲi dɔxɔxi woⁿ ma maseɲie ma/",
-          "meaning": "Une juste mesure oratoire harmonise durablement nos discours."
+          "structure": "xaranderaba (Peace Corps) / kharandèraba (francisé)",
+          "phonetic_api": "/xaranderaba/",
+          "meaning": "enseignant — même mot, deux conventions graphiques"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Le Grand Maître (Karamoxo)",
-      "text": "Marie, i kéna ! Ala xa i mali. Won ma malanyi xun ma dɔxɔxi to ma won ma cursus gbafe makuya nun traduction nuancesé ma.",
-      "phonetic_api": "/mari i kéna ala xa i mali woⁿ ma malaɲi xuⁿ ma dɔxɔxi to ma woⁿ ma cursus ɡbafɛ makuya nuⁿ traductioⁿ nuaⁿcɛse ma/",
-      "phonetic_simple": "MA-RI, I KÉ-NA ! A-LA KHA I MA-LI. WON MA MA-LAN-YI KHOUN MA DO-KHO-KHI TO MA WON MA CUR-SUS GBA-FÈ MA-KOU-YA NOUN TRA-DUC-TION NOUAN-CÈ-SÉ MA.",
-      "translation": "Marie, bonjour ! Que Dieu t'assiste. Notre ultime session est solennellement consacrée aujourd'hui à la clôture de notre cursus, à travers l'étude des périphrases poétiques et des finesses de la traduction."
+      "speaker": "L'apprenant",
+      "text": "Xaranderaba, yi taalie khui fala fransi xui ma?",
+      "phonetic_api": "/xaranderaba, ji taːlie xui fala fransi xui ma/",
+      "phonetic_simple": "kha-ran-dé-RA-ba, yi ta-A-li-é khoui FA-la fran-SI khoui ma",
+      "translation": "Professeur, comment dit-on ce proverbe en français ?"
     },
     {
-      "speaker": "Marie",
-      "text": "I nuwali, n karamoxo suprême. N na n ma bɔɲɛ ɲɛndɛfe alɔ n xa xonbiri foraxi birin maton gbéingbé ra. Masenyi yati gbansan mu wasaxi won bɛ.",
-      "phonetic_api": "/i nuwali n karamoxo suprɛmɛ n na n ma bɔɲɛ ɲɛndɛfɛ alɔ n xa xoⁿbiri foraxi biriⁿ matoⁿ ɡbeːnɡbɛ ra maseɲi yati ɡbaⁿsaⁿ mu wasaxi woⁿ bɛ/",
-      "phonetic_simple": "I NOU-WA-LI, N KA-RA-MO-KHO SU-PRÊ-ME. N NA N MA BO-NYÈ NYÈN-DÈ-FÈ A-LO N KHA KHON-BI-RI FO-RA-KHI BI-RIN MA-TON GBÉÉN-GBÈ RA. MA-SÈ-NYI YA-TI GBAN-SAN MOU WA-SA-KHI WON BÈ.",
-      "translation": "Merci, ô grand maître suprême. Mon esprit est prêt afin de décoder l'intégralité du sous-texte implicite avec rigueur. La simple signification brute ne saurait plus nous suffire."
+      "speaker": "Le professeur",
+      "text": "Nondi, na gbengbe rasabude. I nçma a fala naki : 'le vautour ira quand même à l'abattoir', kono a laakira gbengbe nan a ma.",
+      "phonetic_api": "/nondi, na ɡbenɡbe rasabude, i nɔma a fala naki, kono a laːkira ɡbenɡbe nan a ma/",
+      "phonetic_simple": "NON-di, na GBÈN-gbé ra-sa-bou-DÉ, i NO-ma a FA-la NA-ki, KO-no a la-A-ki-ra GBÈN-gbé nan a ma",
+      "translation": "C'est vrai, c'est difficile à traduire. Tu peux le dire ainsi : 'le vautour ira quand même à l'abattoir', mais le sens profond est plus complexe."
     },
     {
-      "speaker": "Le Grand Maître (Karamoxo)",
-      "text": "I fala fisa fe birin ra. Naxan ma fe ra, won ma balebo fanyi xa dɔxɔ alɔ makuyaé mu xa kere babilong yati ma.",
-      "phonetic_api": "/i fala fisa fɛ biriⁿ ra naxaⁿ ma fɛ ra woⁿ ma balebɔ faɲi xa dɔxɔ alɔ makuyaɛ mu xa kerɛ babiloⁿ yati ma/",
-      "phonetic_simple": "I FA-LA FI-SA FÈ BI-RIN RA. NA-KHAN MA FÈ RA, WON MA BA-LÉ-BO FAN-YI KHA DO-KHO A-LO MA-KOU-YA-É MOU KHA KÉ-RÈ BA-BI-LONG YA-TI MA.",
-      "translation": "Ta vision surpasse tout. C'est pourquoi notre juste mesure oratoire doit s'établir de façon immuable afin que la beauté de nos périphrases ne subisse aucune déperdition à travers les âges."
+      "speaker": "L'apprenant",
+      "text": "N kolon koré, xaranyi rafan sé kolon a laakira ma, a mu fo xuiye rafexi ra.",
+      "phonetic_api": "/n kolon kore, xaraɲi rafan se kolon a laːkira ma, a mu fo xuie rafexi ra/",
+      "phonetic_simple": "n ko-LON ko-RÉ, kha-RAN-gni ra-FAN sé ko-LON a la-A-ki-ra ma, a mou fo khou-i-yé ra-fè-KHI ra",
+      "translation": "Je comprends maintenant, bien traduire c'est comprendre le sens profond, pas seulement changer les mots."
     },
     {
-      "speaker": "Marie",
-      "text": "Fe yati nan na ra. Hali yati calqueyatié xa gbo ki ma, tinnafiixɛ kanyé fama nɔ yati matonfe masɛbɛyatié birin ma.",
-      "phonetic_api": "/fɛ yati naⁿ na ra hali yati calqueyatie xa ɡbo ki ma tiⁿnafiːxɛ kaɲe fama nɔ yati matoⁿfɛ masɛbɛyatiɛ biriⁿ ma/",
-      "phonetic_simple": "FÈ YA-TI NAN NA RA. HA-LI YA-TI CAL-QUE-YA-TI-É KHA GBO KI MA, TIN-NA-FII-KHÈ KA-NYÉ FA-MA NO YA-TI MA-TON-FÈ MA-SÈ-BÈ-YA-TI-É BI-RIN MA.",
-      "translation": "C'est l'exacte réalité. Quand bien même les calques structurels abonderaient à présent, le traducteur fidèle fera éclater sa virtuosité stylistique au sein de tous ses actes authentiques."
-    },
-    {
-      "speaker": "Le Grand Maître (Karamoxo)",
-      "text": "I findi tinnafiixɛ kanyé yati ra. Babilong yati ma, won ma xui mu fama kerefe. I nouwali gbe ra, Marie !",
-      "phonetic_api": "/i fiⁿdi tiⁿnafiːxɛ kaɲe yati ra babiloⁿ yati ma woⁿ ma xui mu fama kerɛfɛ i nuwali ɡbɛ ra mari/",
-      "phonetic_simple": "I FIN-DI TIN-NA-FII-KHÈ KA-NYÉ YA-TI RA. BA-BI-LONG YA-TI MA, WON MA KHOU-I MOU FA-MA KÉ-RÈ-FÈ. I NOU-WA-LI GBÈ RA, MA-RI !",
-      "translation": "Tu es désormais une authentique gardienne du sens fidèle. Pour la postérité à travers les âges, notre langue ne perdra rien de son éclat. Un immense merci à toi, Marie !"
+      "speaker": "Le professeur",
+      "text": "Nondi n'ara. I nçma a rasabu mixi gbansan bE fanyi koré.",
+      "phonetic_api": "/nondi n ara, i nɔma a rasabu mixi ɡbansan ɛ faɲi kore/",
+      "phonetic_simple": "NON-di n A-ra, i NO-ma a ra-SA-bou MI-khi gban-SAN bè FA-gni ko-RÉ",
+      "translation": "C'est vrai. Tu pourras désormais bien le traduire pour n'importe qui."
     }
   ],
   "cultural_notes": [
-    "Au sommet ultime de l'architecture de la langue soussou (C2), l'acte de traduction ('traduction') s'apparente à une transmission spirituelle et stylistique. Transposer le verbe élaboré exige de pénétrer dans la 'chambre secrète' du discours ('xonbiri foraxi') pour en extraire l'implicite, l'humour fin et la portée éthique sans jamais blesser l'harmonie textuelle ('balebo fanyi'). Les grands passeurs de sens sont honorés dans la postérité ('babilong yati ma') car ils permettent de jeter des ponts universels entre les cultures tout en préservant la pureté, l'éloquence et la souveraineté rhétorique du peuple soso de Basse-Guinée."
+    "L'absence d'une orthographe unique universellement suivie par tous les locuteurs et rédacteurs soussou (malgré la réforme officielle de 1988-89) reflète le statut principalement oral de la langue au quotidien, l'écrit restant l'apanage d'un nombre restreint d'institutions (services d'alphabétisation, ONG, missions religieuses).",
+    "La maîtrise de la traduction des proverbes et expressions imagées est considérée comme un signe d'aisance culturelle avancée, bien au-delà de la simple compétence linguistique : elle suppose de connaître le référent culturel derrière l'image (le vautour, l'union des oiseaux, etc.)."
   ],
   "exercises": [
     {
-      "exercise_id": "ex27_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel concept stylistique désigne de façon supérieure la métaphore fine, la périphrase poétique ou l'éloignement d'image ?",
+      "question": "Le 'x' du manuel Peace Corps correspond à quelle lettre dans les sources francisées comme Kirinapost ?",
       "options": [
-        "Makuya",
-        "Masenyi yati",
-        "Balebo"
+        "kh",
+        "gn",
+        "è"
       ],
-      "correct_answer": "Makuya",
-      "explanation": "'Makuya' (dérivant de l'éloignement) qualifie la périphrase ou la métaphore raffinée qui évite la formulation trop brute du sens."
+      "correct_answer": "kh",
+      "explanation": "'x' et 'kh' notent tous deux le même son vélaire sourd /x/, selon deux conventions orthographiques différentes."
     },
     {
-      "exercise_id": "ex27_2",
-      "type": "multiple_choice",
-      "question": "Que désigne de façon rhétorique la locution métaphorique complexe 'Xonbiri foraxi' ?",
-      "options": [
-        "Le lieu de stockage des archives",
-        "Le sous-texte / l'implicite / le sens caché d'un énoncé",
-        "Un poème purement descriptif"
-      ],
-      "correct_answer": "Le sous-texte / l'implicite / le sens caché d'un énoncé",
-      "explanation": "'Xonbiri foraxi' (la chambre secrète/mûre) illustre de manière somptueuse l'implicite ou le sous-texte dissimulé sous les mots."
-    },
-    {
-      "exercise_id": "ex27_3",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Won xa calqueyati birin [ ___ ] alɔ won ma balebo fanyi mu xa kere. (Il nous faut exclure/purger les contresens...)",
-      "correct_answer": "moni",
-      "hint": "Ce verbe technique signifie au niveau supérieur arbitrer, réguler ou purger un texte pour en préserver l'intégrité."
-    },
-    {
-      "exercise_id": "ex27_4",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "[ ___ ] fanyi nan na i ma masenyi ma. (Une juste mesure oratoire / harmonie textuelle caractérise ton discours.)",
-      "correct_answer": "Balebo",
-      "hint": "Ce substantif technique d'équilibre régit l'harmonie et la pondération esthétique au sein des œuvres de l'esprit."
+      "sentence_with_blank": "'C'est difficile à traduire' se dit : Na [ ___ ] rasabude.",
+      "correct_answer": "gbengbe",
+      "hint": "C'est l'adjectif qui signifie 'difficile'."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Peace Corps Guinée — Xarandi Xa Buki, Livre du stagiaire Sosoxui (Susu Language Lessons)",
+      "url": "https://fsi-languages.yojik.eu/languages/PeaceCorps/Susu/susu-language-course.pdf"
+    },
+    {
+      "label": "Kirinapost — 5 proverbes guinéens (proverbes en Soussou avec traduction française)",
+      "url": "https://kirinapost.com/5-proverbes-guineens/"
+    },
+    {
+      "label": "Calaméo — Grammaire et Dictionnaire Français-Soussou et Soussou-Français (proverbes, salutations, conjonctions)",
+      "url": "https://www.calameo.com/books/000061616e6f8234fccef"
+    },
+    {
+      "label": "Wikipedia — Susu language (grammar, phonology, pronouns, tense markers)",
+      "url": "https://en.wikipedia.org/wiki/Susu_language"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "L'observation des variantes orthographiques repose sur une comparaison directe et vérifiable entre les sources effectivement utilisées dans cette recherche (manuel Peace Corps vs Kirinapost/Calaméo), ce qui est solide. Cependant, le vocabulaire spécifique de la traduction elle-même ('rasabu' pour traduire) n'a pas été trouvé tel quel dans une source dédiée et reste une extrapolation prudente à partir de racines attestées (sabu = aide/moyen chez Duport) ; la confiance globale de cette leçon est donc qualifiée de moyenne, avec cette réserve explicite sur le terme 'rasabu'."
 }
