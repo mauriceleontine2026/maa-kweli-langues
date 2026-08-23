@@ -4,120 +4,219 @@
   "module_number": 2,
   "module_title": "Le quotidien et l'entourage",
   "lesson_number": 6,
-  "title": "Les jours, les mois et l'heure",
+  "title": "Les jours de la semaine, les mois et dire l'heure",
   "learning_objectives": [
-    "Nommer les jours principaux de la semaine",
-    "Exprimer des notions temporelles simples (aujourd'hui, demain)"
+    "Nommer les jours de la semaine dans la langue apparentée kpele de Guinée",
+    "Comprendre les jours culturellement marqués (jour de marché, jour de danse)",
+    "Exprimer des repères temporels simples (aujourd'hui, demain, hier)"
   ],
   "phonetic_focus": {
-    "key_sounds": "La labio-dentale /v/ et la semi-voyelle /w/ doivent rester distinctes. Le mot pour jour possède une voyelle ouverte.",
-    "common_pitfalls": "Attention à la durée de la voyelle dans les adverbes de temps."
+    "key_sounds": "Les noms de jours en kpele/kono intègrent souvent des emprunts phonologiquement adaptés depuis les langues de commerce régionales (mandingue, français), reconnaissables à leur structure syllabique simplifiée.",
+    "common_pitfalls": "Le manque de données Kono directement attestées pour les jours de la semaine oblige à la prudence : cette leçon combine kpele apparenté (confiance moyenne) et vocabulaire temporel kono attesté (confiance élevée)."
   },
   "vocabulary": [
     {
-      "word_id": "v6_1",
-      "term": "zaà",
-      "phonetic_api": "/zaː/",
-      "phonetic_simple": "ZAA",
-      "translation": "jour",
-      "example_sentence": "zaà dóó",
-      "example_phonetic": "/zaː dóː/",
-      "example_translation": "un jour"
+      "word_id": "v1",
+      "term": "tíŋaá",
+      "phonetic_api": "/tíŋaː/",
+      "phonetic_simple": "TIN-GA-A",
+      "translation": "demain (kono attesté)",
+      "example_sentence": "Hɛ́ní wɛɛ̀́ pá klô kɛ́ tińaá.",
+      "example_phonetic": "/hɛ́ní wɛ̀ːpá klô kɛ́ tíŋaː/",
+      "example_translation": "Hɛni travaillera demain."
     },
     {
-      "word_id": "v6_2",
-      "term": "wɔ́lɔ́wɔ́lɔ́",
-      "phonetic_api": "/wɔ́lɔ́wɔ́lɔ́/",
-      "phonetic_simple": "WO-LO-WO-LO",
-      "translation": "matin (très tôt)",
-      "example_sentence": "ń yé líí wɔ́lɔ́wɔ́lɔ́ kɔ́ɔ́.",
-      "example_phonetic": "/ń jé líː wɔ́lɔ́wɔ́lɔ́ kɔ́ː/",
-      "example_translation": "Je pars tôt le matin."
+      "word_id": "v2",
+      "term": "kɛ́ɛ",
+      "phonetic_api": "/kɛ́ː/",
+      "phonetic_simple": "KÉ-É",
+      "translation": "aujourd'hui, ici-maintenant (kono attesté, sens spatio-temporel)",
+      "example_sentence": "Ɲá gáa kɛ́ɛ.",
+      "example_phonetic": "/ɲá gáː kɛ́ː/",
+      "example_translation": "Je suis ici (maintenant)."
     },
     {
-      "word_id": "v6_3",
-      "term": "sìnà",
-      "phonetic_api": "/sìnà/",
-      "phonetic_simple": "SI-NA",
-      "translation": "demain",
-      "example_sentence": "Ń yé líí sìnà.",
-      "example_phonetic": "/ń jé líː sìnà/",
-      "example_translation": "Je pars demain."
+      "word_id": "v3",
+      "term": "sàrá",
+      "phonetic_api": "/sàrá/",
+      "phonetic_simple": "SA-RA",
+      "translation": "mercredi, jour de marché (kpele, jour culturellement marqué)",
+      "example_sentence": "Sàrá nú lúu kɔ́lɔ.",
+      "example_phonetic": "/sàrá nú lúː kɔ́lɔ/",
+      "example_translation": "Mercredi est le jour du grand marché."
+    },
+    {
+      "word_id": "v4",
+      "term": "sííbi",
+      "phonetic_api": "/síːbi/",
+      "phonetic_simple": "SI-I-BI",
+      "translation": "samedi, jour de danse (kpele, jour culturellement marqué)",
+      "example_sentence": "Sííbi nú lɔ̀ɔ kɔ́lɔ.",
+      "example_phonetic": "/síːbi nú lɔ̀ː kɔ́lɔ/",
+      "example_translation": "Samedi est le jour de la grande danse."
+    },
+    {
+      "word_id": "v5",
+      "term": "lúu",
+      "phonetic_api": "/lúː/",
+      "phonetic_simple": "LOU",
+      "translation": "marché (kpele apparenté)",
+      "example_sentence": "Ɲá gáa lúu pɔ́.",
+      "example_phonetic": "/ɲá gáː lúːpɔ́/",
+      "example_translation": "Je vais au marché."
+    },
+    {
+      "word_id": "v6",
+      "term": "lɔ̀ɔ",
+      "phonetic_api": "/lɔ̀ː/",
+      "phonetic_simple": "LO-O",
+      "translation": "danse (kpele apparenté)",
+      "example_sentence": "Dèe gáa lɔ̀ɔ kɛ́i.",
+      "example_phonetic": "/dèː gáː lɔ̀ː kɛ́ì/",
+      "example_translation": "L'enfant est en train de danser."
+    },
+    {
+      "word_id": "v7",
+      "term": "wɛɛ̀́",
+      "phonetic_api": "/wɛ̀ː/",
+      "phonetic_simple": "OUÉ-É",
+      "translation": "marqueur du futur (kono attesté, « va » + verbe)",
+      "example_sentence": "Hɛ́ní wɛɛ̀́ pá.",
+      "example_phonetic": "/hɛ́ní wɛ̀ːpá/",
+      "example_translation": "Hɛni viendra."
+    },
+    {
+      "word_id": "v8",
+      "term": "kɔ́lɔ",
+      "phonetic_api": "/kɔ́lɔ/",
+      "phonetic_simple": "KO-LO",
+      "translation": "grand, important (kpele apparenté, ex. « grand jour »)",
+      "example_sentence": "Lúu kɔ́lɔ.",
+      "example_phonetic": "/lúː kɔ́lɔ/",
+      "example_translation": "Le grand marché."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p6_1",
-      "original": "Zaà mìɛ̀ le zã́ ?",
-      "phonetic_api": "/zaː mìɛ̀ le zã́/",
-      "phonetic_simple": "ZAA MIE LE ZAN ?",
-      "translation": "Quel jour sommes-nous aujourd'hui ?",
-      "context": "S'informer sur le calendrier."
+      "phrase_id": "p1",
+      "original": "Sàrá nú lúu kɔ́lɔ.",
+      "phonetic_api": "/sàrá nú lúː kɔ́lɔ/",
+      "phonetic_simple": "SA-RA NOU LOU KO-LO",
+      "translation": "Mercredi est le jour du grand marché.",
+      "context": "Phrase culturelle typique pour indiquer le jour de marché hebdomadaire principal."
     },
     {
-      "phrase_id": "p6_2",
-      "original": "Télé a lii.",
-      "phonetic_api": "/télé a liː/",
-      "phonetic_simple": "TE-LE A LII",
-      "translation": "Le soleil est couché (Il est tard).",
-      "context": "Constater l'heure de la fin de journée."
+      "phrase_id": "p2",
+      "original": "Hɛ́ní wɛɛ̀́ pá klô kɛ́ tíŋaá.",
+      "phonetic_api": "/hɛ́ní wɛ̀ːpá klô kɛ́ tíŋaː/",
+      "phonetic_simple": "HÉ-NI OUÉ-É PA KLO KÉ TIN-GA-A",
+      "translation": "Hɛni travaillera demain.",
+      "context": "Exemple attesté en kono du marqueur de futur wɛɛ̀́ combiné à tíŋaá « demain »."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Ɲá gáa kɛ́ɛ.",
+      "phonetic_api": "/ɲá gáː kɛ́ː/",
+      "phonetic_simple": "NYA GA-A KÉ-É",
+      "translation": "Je suis ici, maintenant.",
+      "context": "Repère temporel présent, attesté en kono."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "É wɛɛ̀́ pá dɛ́ hɛ̀rɛ̀?",
+      "phonetic_api": "/é wɛ̀ːpá dɛ́ hɛ̀rɛ̀/",
+      "phonetic_simple": "É-OUÉ-É PA DÉ HÈ-RÈ",
+      "translation": "Tu viendras quel jour ?",
+      "context": "Question utile pour organiser un rendez-vous ou planifier une activité selon les jours de la semaine."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'adverbe de temps en début de proposition",
-      "explanation": "Pour focaliser une action dans le temps, l'adverbe temporel (comme sìnà - demain) se place de préférence en tête de la phrase.",
+      "concept": "Le marqueur de futur wɛɛ̀́",
+      "explanation": "Le kono forme le futur à l'aide d'un marqueur préverbal wɛɛ̀́ (« va, sera ») placé entre le sujet et le verbe, souvent accompagné d'un complément temporel comme tíŋaá « demain ». C'est une construction attestée dans le système TAM (Temps-Aspect-Mode) décrit par Konoshenko (2017).",
       "rules": [
-        "Il n'altère pas l'ordre sujet-verbe-objet qui lui succède.",
-        "Un léger coup de glotte peut séparer l'adverbe s'il se termine par une voyelle brève."
+        "Sujet + wɛɛ̀́ + Verbe (+ Complément temporel) = futur.",
+        "tíŋaá « demain » se place généralement en fin de phrase.",
+        "kɛ́ɛ « ici, maintenant » marque le présent immédiat sans marqueur verbal supplémentaire."
       ],
       "examples": [
         {
-          "structure": "sìnà + ń yé líí",
-          "phonetic_api": "/sìnà ń jé líː/",
-          "meaning": "Demain, je pars."
+          "structure": "Sujet + wɛɛ̀́ + Verbe + tíŋaá",
+          "phonetic_api": "/wɛ̀ː/",
+          "meaning": "Sujet fera Verbe demain"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Koli",
-      "text": "I yé líí zaà mìɛ̀ pɔ́ ?",
-      "phonetic_api": "/i jé líː zaː mìɛ̀ pɔ́/",
-      "phonetic_simple": "I YE LII ZAA MIE PO ?",
-      "translation": "Quel jour veux-tu partir ?"
+      "speaker": "Sèni",
+      "text": "Sàrá nú lúu kɔ́lɔ, ɓié dɛ́?",
+      "phonetic_api": "/sàrá nú lúː kɔ́lɔ ɓjé dɛ́/",
+      "phonetic_simple": "SA-RA NOU LOU KO-LO, BIÉ DÉ",
+      "translation": "Mercredi est le jour du grand marché, et toi ?"
     },
     {
-      "speaker": "Sia",
-      "text": "Ń yé líí sìnà wɔ́lɔ́wɔ́lɔ́.",
-      "phonetic_api": "/ń jé líː sìnà wɔ́lɔ́wɔ́lɔ́/",
-      "phonetic_simple": "N YE LII SI-NA WO-LO-WO-LO",
-      "translation": "Je veux partir demain très tôt."
+      "speaker": "Bala",
+      "text": "Ɲá wɛɛ̀́ pá lúu pɔ́ tíŋaá.",
+      "phonetic_api": "/ɲá wɛ̀ːpá lúːpɔ́ tíŋaː/",
+      "phonetic_simple": "NYA OUÉ-É PA LOU PO TIN-GA-A",
+      "translation": "J'irai au marché demain."
+    },
+    {
+      "speaker": "Sèni",
+      "text": "Sííbi nú lɔ̀ɔ kɔ́lɔ!",
+      "phonetic_api": "/síːbi nú lɔ̀ː kɔ́lɔ/",
+      "phonetic_simple": "SI-I-BI NOU LO-O KO-LO",
+      "translation": "Samedi c'est le jour de la grande danse !"
+    },
+    {
+      "speaker": "Bala",
+      "text": "Ěe, ŋa klɔŋ́!",
+      "phonetic_api": "/ěː ŋá klɔ́ŋ/",
+      "phonetic_simple": "É-É NGA KLONG",
+      "translation": "Oui, je sais !"
     }
   ],
   "cultural_notes": [
-    "Dans l'aire Konon, le temps est historiquement rythmé par les travaux agricoles et les grands jours de marché hebdomadaire (notamment celui de Lola)."
+    "Dans de nombreuses communautés mandées de Guinée forestière, les jours de la semaine sont culturellement marqués par des activités précises : mercredi est traditionnellement jour de grand marché, samedi jour de danse et de festivités.",
+    "Aucune donnée directement attestée en Kono de Guinée pour l'ensemble des sept jours de la semaine n'a été trouvée dans les sources académiques consultées ; cette leçon s'appuie donc avec prudence sur le kpele apparenté pour les noms de jours, en confiance moyenne."
   ],
   "exercises": [
     {
-      "exercise_id": "ex6_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Que signifie l'adverbe 'sìnà' ?",
+      "question": "Quel jour est traditionnellement le « jour de marché » dans cette région ?",
       "options": [
-        "Aujourd'hui",
-        "Demain",
-        "Hier"
+        "Sàrá (mercredi)",
+        "Sííbi (samedi)",
+        "Kɛ́ɛ (aujourd'hui)"
       ],
-      "correct_answer": "Demain",
-      "explanation": "'sìnà' désigne le jour qui suit le jour présent."
+      "correct_answer": "Sàrá (mercredi)",
+      "explanation": "Sàrá désigne le mercredi, jour de grand marché dans la tradition kpele/kono de la région."
     },
     {
-      "exercise_id": "ex6_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "[ ___ ] a lii (Le soleil est couché).",
-      "correct_answer": "Télé",
-      "hint": "Le soleil / Le jour clément."
+      "sentence_with_blank": "Hɛ́ní wɛɛ̀́ pá klô kɛ́ ___. (Hɛni travaillera demain.)",
+      "correct_answer": "tíŋaá",
+      "hint": "Mot kono attesté signifiant « demain »."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Maria Konoshenko, « Field Notes on Kono, a Southwestern Mande Lect of Forest Guinea », Mandenkan 57 (2017), pp. 77-107",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan57/konoshenko57.pdf"
+    },
+    {
+      "label": "Maria Konoshenko, « Dictionnaire kpele de la Guinée (guerzé) – français », Mandenkan 62 (2019/2020)",
+      "url": "https://journals.openedition.org/mandenkan/2091"
+    },
+    {
+      "label": "Wikipédia (FR) — « Kpèllé (langue) »",
+      "url": "https://fr.wikipedia.org/wiki/Kp%C3%A8ll%C3%A9_(langue)"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Peu de lexique Kono publié couvre ce champ sémantique précis. Le contenu s'appuie ici avec prudence sur le Kpelle de Guinée (guerzé, gkp), langue mandée du sud-ouest très proche du Kono (90% de cognats lexicaux selon Konoshenko 2017) et documentée par un dictionnaire académique de 3000 entrées. Les mots kpele sont signalés comme tels et pourraient différer légèrement du Kono authentique sur certains points de phonologie ou de lexique. Les repères temporels de base (demain, aujourd'hui, futur) sont attestés en kono ; les noms des jours de la semaine reposent sur le kpele apparenté, faute d'attestation directe en kono dans nos sources."
 }

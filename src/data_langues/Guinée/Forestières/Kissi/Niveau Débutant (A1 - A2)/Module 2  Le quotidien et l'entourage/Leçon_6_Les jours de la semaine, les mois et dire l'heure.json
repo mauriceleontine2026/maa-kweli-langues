@@ -6,137 +6,211 @@
   "lesson_number": 6,
   "title": "Les jours de la semaine, les mois et dire l'heure",
   "learning_objectives": [
-    "Nommer les jours principaux de la semaine",
-    "Se situer dans le temps (aujourd'hui, demain, hier)",
-    "Demander et donner l'heure de manière simplifiée"
+    "Utiliser les termes attestés liés au temps et aux moments de la journée en kissi",
+    "Nommer la semaine (hɔ́kliyó) et un mois calendaire (saa)",
+    "Reconnaître les limites documentaires sur les noms précis des jours de la semaine en kissi"
   ],
   "phonetic_focus": {
-    "key_sounds": "L'accentuation temporelle repose sur des voyelles ouvertes glissées /ɔwɔ/. Le mot 'tana' (jour) utilise un ton moyen-haut régulier.",
-    "common_pitfalls": "Attention à ne pas prononcer le 'h' aspiré de 'habia' comme une consonne muette. Il doit être expiré nettement comme en anglais."
+    "key_sounds": "Le mot 'hɔ́kliyó' (semaine) combine un ton haut marqué (á) avec un groupe consonantique 'kl', peu fréquent en français.",
+    "common_pitfalls": "Les francophones ont tendance à insérer une voyelle entre 'k' et 'l' (dire 'ho-ke-li-yo' au lieu de 'hɔ́k-li-yó')."
   },
   "vocabulary": [
     {
-      "word_id": "v6_1",
-      "term": "tana",
-      "phonetic_api": "/ta.na/",
-      "phonetic_simple": "TA-NA",
-      "translation": "jour / journée",
-      "example_sentence": "Tana bɛndɛ.",
-      "example_phonetic": "/ta.na bɛⁿdɛ/",
-      "example_translation": "Un grand jour."
+      "word_id": "v1",
+      "term": "hɔ́kliyó",
+      "phonetic_api": "/hɔkliːjo/",
+      "phonetic_simple": "hôk-li-yo",
+      "translation": "semaine",
+      "example_sentence": "Hɔ́kliyó pilɛ.",
+      "example_phonetic": "/hɔkliːjo pilɛ/",
+      "example_translation": "Une semaine."
     },
     {
-      "word_id": "v6_2",
-      "term": "haala",
-      "phonetic_api": "/haː.la/",
-      "phonetic_simple": "HAA-LA",
-      "translation": "aujourd'hui",
-      "example_sentence": "Haala i co kpou.",
-      "example_phonetic": "/haː.la i tʃo kpu/",
-      "example_translation": "Aujourd'hui tout va bien."
+      "word_id": "v2",
+      "term": "saa",
+      "phonetic_api": "/saː/",
+      "phonetic_simple": "saa",
+      "translation": "mois (littéralement, le mois autour d'octobre)",
+      "example_sentence": "Saa pilɛ.",
+      "example_phonetic": "/saː pilɛ/",
+      "example_translation": "Un mois."
     },
     {
-      "word_id": "v6_3",
-      "term": "cɔwɔ̄",
-      "phonetic_api": "/tʃɔ.wɔ̄/",
-      "phonetic_simple": "TCHO-WO",
-      "translation": "demain",
-      "example_sentence": "Hana cɔwɔ̄.",
-      "example_phonetic": "/ha.na tʃɔ.wɔ̄/",
-      "example_translation": "À demain."
+      "word_id": "v3",
+      "term": "pug",
+      "phonetic_api": "/puɡ/",
+      "phonetic_simple": "poug",
+      "translation": "tôt, le matin",
+      "example_sentence": "Pug, nikene.",
+      "example_phonetic": "/puɡ nikene/",
+      "example_translation": "Tôt le matin, bonjour."
     },
     {
-      "word_id": "v6_4",
-      "term": "tele",
-      "phonetic_api": "/te.le/",
-      "phonetic_simple": "TÉ-LÉ",
-      "translation": "heure / moment / temps",
-      "example_sentence": "Tele yɛŋ o co ?",
-      "example_phonetic": "/te.le jɛŋ o tʃo/",
-      "example_translation": "Quelle heure est-il ?"
+      "word_id": "v4",
+      "term": "fitiló",
+      "phonetic_api": "/fitilo/",
+      "phonetic_simple": "fi-ti-lo",
+      "translation": "crépuscule, début de soirée",
+      "example_sentence": "Fitiló, ndu hunɔɔ.",
+      "example_phonetic": "/fitilo ndu hunɔː/",
+      "example_translation": "Au crépuscule, il/elle vient."
+    },
+    {
+      "word_id": "v5",
+      "term": "bilafɔ̀ɔsɔ́",
+      "phonetic_api": "/bilafɔːsɔ/",
+      "phonetic_simple": "bi-la-fô-sô",
+      "translation": "midi, pause de midi",
+      "example_sentence": "Bilafɔ̀ɔsɔ́, wana dio.",
+      "example_phonetic": "/bilafɔːsɔ wana djo/",
+      "example_translation": "À midi, les gens mangent."
+    },
+    {
+      "word_id": "v6",
+      "term": "yum",
+      "phonetic_api": "/jum/",
+      "phonetic_simple": "youm",
+      "translation": "nuit",
+      "example_sentence": "Yum, hinilaŋ.",
+      "example_phonetic": "/jum hinilaŋ/",
+      "example_translation": "La nuit, on dort."
+    },
+    {
+      "word_id": "v7",
+      "term": "tumaa",
+      "phonetic_api": "/tumaː/",
+      "phonetic_simple": "tou-maa",
+      "translation": "temps (notion générale)",
+      "example_sentence": "Tumaa ndá?",
+      "example_phonetic": "/tumaː nda/",
+      "example_translation": "Quelle heure/quel temps est-il ?"
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p6_1",
-      "original": "Tele yɛŋ o co ?",
-      "phonetic_api": "/te.le jɛŋ o tʃo/",
-      "phonetic_simple": "TÉ-LÉ YENG O TCHO",
-      "translation": "Quelle heure est-il ?",
-      "context": "Demander l'heure au quotidien"
+      "phrase_id": "p1",
+      "original": "Pug, nikene.",
+      "phonetic_api": "/puɡ nikene/",
+      "phonetic_simple": "poug, ni-ké-né",
+      "translation": "Bonjour, de bon matin.",
+      "context": "Salutation matinale précoce."
     },
     {
-      "phrase_id": "p6_2",
-      "original": "Tele puu o co.",
-      "phonetic_api": "/te.le puː o tʃo/",
-      "phonetic_simple": "TÉ-LÉ POUU O TCHO",
-      "translation": "Il est dix heures.",
-      "context": "Donner l'heure exacte"
+      "phrase_id": "p2",
+      "original": "Bilafɔ̀ɔsɔ́, wana dio.",
+      "phonetic_api": "/bilafɔːsɔ wana djo/",
+      "phonetic_simple": "bi-la-fô-sô, wa-na djo",
+      "translation": "À midi, les gens mangent.",
+      "context": "Pour parler du repas de midi."
     },
     {
-      "phrase_id": "p6_3",
-      "original": "Haala o co tana pilɔ.",
-      "phonetic_api": "/haː.la o tʃo ta.na pi.lɔ/",
-      "phonetic_simple": "HAA-LA O TCHO TA-NA PI-LO",
-      "translation": "Aujourd'hui est le premier jour.",
-      "context": "Situer le jour"
+      "phrase_id": "p3",
+      "original": "Fitiló hu.",
+      "phonetic_api": "/fitilo hu/",
+      "phonetic_simple": "fi-ti-lo hou",
+      "translation": "Le crépuscule arrive.",
+      "context": "Pour indiquer la fin de journée."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Yum, hinilaŋ.",
+      "phonetic_api": "/jum hinilaŋ/",
+      "phonetic_simple": "youm, hi-ni-lang",
+      "translation": "La nuit, on dort.",
+      "context": "Pour évoquer la nuit et le sommeil."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Hɔ́kliyó pilɛ.",
+      "phonetic_api": "/hɔkliːjo pilɛ/",
+      "phonetic_simple": "hôk-li-yo pi-lè",
+      "translation": "Une semaine.",
+      "context": "Pour évoquer une durée d'une semaine."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'interrogatif de quantité et de temps 'yɛŋ'",
-      "explanation": "Pour poser une question portant sur l'heure, le nombre ou la mesure temporelle, le morphème interrogatif 'yɛŋ' suit directement le substantif concerné.",
+      "concept": "Le découpage du temps par moments de la journée plutôt que par heures fixes",
+      "explanation": "Les sources attestées pour le kissi donnent surtout des repères qualitatifs du temps (pug = tôt le matin, bilafɔ̀ɔsɔ́ = midi, fitiló = crépuscule, yum = nuit) plutôt qu'un système de l'heure chiffrée à l'occidentale. Cela reflète un mode traditionnel d'organisation du temps par moments de la journée, fréquent dans les langues d'Afrique de l'Ouest avant l'introduction des horloges.",
       "rules": [
-        "Le mot interrogatif ne se place jamais en début de phrase.",
-        "Le verbe d'état 'co' clôture la proposition interrogative courte."
+        "Les moments de la journée (pug, bilafɔ̀ɔsɔ́, fitiló, yum) s'emploient en début de phrase comme complément de temps.",
+        "'tumaa' (temps) sert de terme générique quand on veut demander 'quel moment/quelle heure' sans précision.",
+        "Aucune liste fiable des sept jours de la semaine en kissi n'a pu être trouvée dans les sources disponibles ; hɔ́kliyó désigne la semaine comme unité globale, pas ses jours individuels."
       ],
       "examples": [
         {
-          "structure": "Nom temporel + yɛŋ + o co",
-          "phonetic_api": "/te.le jɛŋ o tʃo/",
-          "meaning": "Quelle heure est-il ?"
+          "structure": "[moment de la journée], [proposition]",
+          "phonetic_api": "/... .../",
+          "meaning": "au moment X, il se passe Y"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Faya",
-      "text": "Maaluon, tele yɛŋ o co ?",
-      "phonetic_api": "/maː.lu.õ te.le jɛŋ o tʃo/",
-      "phonetic_simple": "MAA-LOU-ONN TÉ-LÉ YENG O TCHO",
-      "translation": "S'il te plaît, quelle heure est-il ?"
+      "speaker": "Voisin",
+      "text": "Pug, nikene!",
+      "phonetic_api": "/puɡ nikene/",
+      "phonetic_simple": "poug, ni-ké-né",
+      "translation": "Bonjour, de bon matin !"
     },
     {
-      "speaker": "Tamba",
-      "text": "Tele hiɔɔlulaŋ o co.",
-      "phonetic_api": "/te.le hjɔː.lu.lã o tʃo/",
-      "phonetic_simple": "TÉ-LÉ HYOO-LOU-LANN O TCHO",
-      "translation": "Il est cinq heures."
+      "speaker": "Voisine",
+      "text": "Mbaa. Tumaa ndá?",
+      "phonetic_api": "/mbaː tumaː nda/",
+      "phonetic_simple": "mbaa, tou-maa nda",
+      "translation": "(réponse). Quelle heure est-il ?"
+    },
+    {
+      "speaker": "Voisin",
+      "text": "Bilafɔ̀ɔsɔ́ hu le.",
+      "phonetic_api": "/bilafɔːsɔ hu le/",
+      "phonetic_simple": "bi-la-fô-sô hou lé",
+      "translation": "Midi n'est pas encore arrivé."
+    },
+    {
+      "speaker": "Voisine",
+      "text": "Baleka. Fitiló, ndu hunɔɔ.",
+      "phonetic_api": "/baleka fitilo ndu hunɔː/",
+      "phonetic_simple": "ba-lé-ka, fi-ti-lo ndou hou-nô",
+      "translation": "Merci. Je viendrai au crépuscule."
     }
   ],
   "cultural_notes": [
-    "Dans le milieu traditionnel rural kissi, l'heure est souvent corrélée aux positions du soleil (matin précoce, zénith, crépuscule) ou au chant du coq, bien que l'expression moderne calque le décompte horaire international."
+    "Le terme 'saa', qui désigne un mois situé autour d'octobre selon Childs (2002), suggère un calendrier traditionnel lié aux saisons agricoles (récolte du riz) plutôt qu'à un calendrier grégorien abstrait — cohérent avec l'image des Kissi comme 'gens du riz' donnée par Denise Paulme.",
+    "Le repère 'bilafɔ̀ɔsɔ́' (pause de midi) souligne l'importance sociale de la pause du repas de midi dans l'organisation traditionnelle de la journée en Guinée forestière."
   ],
   "exercises": [
     {
-      "exercise_id": "ex6_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Que signifie 'cɔwɔ̄' ?",
+      "question": "Que signifie 'fitiló' ?",
       "options": [
-        "Aujourd'hui",
-        "Demain",
-        "Hier"
+        "crépuscule, début de soirée",
+        "matin très tôt",
+        "milieu de nuit"
       ],
-      "correct_answer": "Demain",
-      "explanation": "'cɔwɔ̄' renvoie au jour suivant."
+      "correct_answer": "crépuscule, début de soirée",
+      "explanation": "Attesté par Childs (2002) dans le champ lexical du temps."
     },
     {
-      "exercise_id": "ex6_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Tele [ ___ ] o co. (Il est dix heures)",
-      "correct_answer": "puu",
-      "hint": "Le chiffre 10"
+      "sentence_with_blank": "[ ___ ], wana dio. (À midi, les gens mangent.)",
+      "correct_answer": "Bilafɔ̀ɔsɔ́",
+      "hint": "Terme attesté pour 'midi, pause de midi'."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "G. Tucker Childs, « Borrowings into Kisi as Evidence of Mande Expansionism and Influence », Journal of West African Languages 29-2 (2002)",
+      "url": "https://scispace.com/pdf/borrowings-into-kisi-as-evidence-of-mande-expansionism-and-3zquof59kt.pdf"
+    },
+    {
+      "label": "Denise Paulme, Les Gens du riz : les Kissi de Haute-Guinée, chap. 6 (WebGuinée)",
+      "url": "https://www.webguinee.net/bibliotheque/ethnographie/kisi/dpaulme/chap06.html"
+    }
+  ],
+  "confidence": "faible",
+  "confidence_note": "Seuls des repères qualitatifs de temps (matin, midi, crépuscule, nuit, semaine, mois) sont attestés par Childs (2002) ; aucune source consultée ne fournit les noms des sept jours de la semaine ni des douze mois en kissi, ce qui constitue une lacune documentaire reconnue explicitement plutôt que comblée par invention."
 }

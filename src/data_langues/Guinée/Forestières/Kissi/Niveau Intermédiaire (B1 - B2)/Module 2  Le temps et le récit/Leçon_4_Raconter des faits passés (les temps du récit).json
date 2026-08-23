@@ -1,132 +1,199 @@
 {
   "lesson_id": "B1_M2_L4",
-  "level": "Niveau Intermédiaire (B1-B2)",
+  "level": "Intermédiaire (B1-B2)",
   "module_number": 2,
   "module_title": "Le temps et le récit",
   "lesson_number": 4,
   "title": "Raconter des faits passés (les temps du récit)",
   "learning_objectives": [
-    "Utiliser les marqueurs temporels du passé",
-    "Structurer un récit chronologique simple",
-    "Exprimer une action achevée dans le passé"
+    "Utiliser l'auxiliaire passé 'wá' documenté par Childs pour marquer un fait accompli",
+    "Reconnaître la négation post-posée du kissi (lé/té/ló) dans un récit au passé",
+    "Distinguer le perfectif et l'imperfectif à l'aide des exemples attestés (cmbú vs cmbɔ)"
   ],
   "phonetic_focus": {
-    "key_sounds": "L'expression du passé implique souvent l'allongement de la voyelle finale du verbe ou l'ajout d'une particule suffixée à ton bas, comme le suffixe /-a/.",
-    "common_pitfalls": "Ne confondez pas le ton haut du présent progressif avec le ton bas descendant utilisé pour marquer l'accompli dans le récit."
+    "key_sounds": "L'auxiliaire 'wá' (passé) porte un ton haut qui le distingue d'autres monosyllabes du kissi ; sa brièveté contraste avec les noms plus longs qui l'entourent.",
+    "common_pitfalls": "Les francophones ont tendance à omettre les auxiliaires courts comme 'wá' en début ou milieu de phrase, alors qu'ils portent une information grammaticale essentielle (le passé) selon Sarah Rose/Childs."
   },
   "vocabulary": [
     {
-      "word_id": "v13_1",
-      "term": "gbɛɛ",
-      "phonetic_api": "/g͡bɛː/",
-      "phonetic_simple": "GBÈÈ",
-      "translation": "hier",
-      "example_sentence": "I lo ciao gbɛɛ.",
-      "example_phonetic": "/i lo tʃja.o g͡bɛː/",
-      "example_translation": "Je suis allé au marché hier."
+      "word_id": "v1",
+      "term": "wá",
+      "phonetic_api": "/wa/",
+      "phonetic_simple": "wa (ton haut)",
+      "translation": "auxiliaire du passé ; être, rester, demeurer",
+      "example_sentence": "Ndu wá kɔ Kisiadu.",
+      "example_phonetic": "/ndu wa kɔ kisiadu/",
+      "example_translation": "Il/elle est allé(e) à Kissidougou (dans le passé)."
     },
     {
-      "word_id": "v13_2",
-      "term": "tele",
-      "phonetic_api": "/te.le/",
-      "phonetic_simple": "TÉ-LÉ",
-      "translation": "temps / époque / moment",
-      "example_sentence": "Tele o hɔn.",
-      "example_phonetic": "/te.le o hɔn/",
-      "example_translation": "Le temps est passé."
+      "word_id": "v2",
+      "term": "có",
+      "phonetic_api": "/tʃo/",
+      "phonetic_simple": "tcho",
+      "translation": "auxiliaire présent/futur, copule réaliste",
+      "example_sentence": "Ndu có kɔ.",
+      "example_phonetic": "/ndu tʃo kɔ/",
+      "example_translation": "Il/elle va (aller), au présent."
     },
     {
-      "word_id": "v13_3",
-      "term": "hɔn",
-      "phonetic_api": "/hɔn/",
-      "phonetic_simple": "HONT",
-      "translation": "passer / s'écouler (temps)",
-      "example_sentence": "Tana o hɔn.",
-      "example_phonetic": "/ta.na o hɔn/",
-      "example_translation": "Le jour est passé."
+      "word_id": "v3",
+      "term": "lé",
+      "phonetic_api": "/le/",
+      "phonetic_simple": "lé",
+      "translation": "négateur postposé après une voyelle finale",
+      "example_sentence": "Ndu wá kɔ lé.",
+      "example_phonetic": "/ndu wa kɔ le/",
+      "example_translation": "Il/elle n'est pas allé(e)."
+    },
+    {
+      "word_id": "v4",
+      "term": "té",
+      "phonetic_api": "/te/",
+      "phonetic_simple": "té",
+      "translation": "négateur postposé après une consonne finale",
+      "example_sentence": "Ndu wá hunɔɔ té.",
+      "example_phonetic": "/ndu wa hunɔː te/",
+      "example_translation": "Il/elle n'est pas venu(e)."
+    },
+    {
+      "word_id": "v5",
+      "term": "nî",
+      "phonetic_api": "/ni/",
+      "phonetic_simple": "ni",
+      "translation": "maintenant, déjà (marqueur temporel)",
+      "example_sentence": "Ndu wá kɔ nî.",
+      "example_phonetic": "/ndu wa kɔ ni/",
+      "example_translation": "Il/elle est déjà allé(e)."
+    },
+    {
+      "word_id": "v6",
+      "term": "dímí",
+      "phonetic_api": "/dimi/",
+      "phonetic_simple": "di-mi",
+      "translation": "dire",
+      "example_sentence": "Ndu wá dímí.",
+      "example_phonetic": "/ndu wa dimi/",
+      "example_translation": "Il/elle a dit (cela)."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p13_1",
-      "original": "I wali gbɛɛ.",
-      "phonetic_api": "/i wa.li g͡bɛː/",
-      "phonetic_simple": "I WA-LI GBÈÈ",
-      "translation": "J'ai travaillé hier.",
-      "context": "Raconter sa journée précédente"
+      "phrase_id": "p1",
+      "original": "Ndu wá kɔ Kisiadu.",
+      "phonetic_api": "/ndu wa kɔ kisiadu/",
+      "phonetic_simple": "ndou wa kô ki-sia-dou",
+      "translation": "Il/elle est allé(e) à Kissidougou.",
+      "context": "Pour raconter un déplacement passé."
     },
     {
-      "phrase_id": "p13_2",
-      "original": "O lo lebol ning gbɛɛ.",
-      "phonetic_api": "/o lo le.bol niŋ g͡bɛː/",
-      "phonetic_simple": "O LO LÉ-BOL NING GBÈÈ",
-      "translation": "Il est allé en ville hier.",
-      "context": "Rapporter les mouvements d'un tiers"
+      "phrase_id": "p2",
+      "original": "Ndu wá kɔ lé.",
+      "phonetic_api": "/ndu wa kɔ le/",
+      "phonetic_simple": "ndou wa kô lé",
+      "translation": "Il/elle n'y est pas allé(e).",
+      "context": "Pour nier un fait passé."
     },
     {
-      "phrase_id": "p13_3",
-      "original": "I mɛl mɛŋ kpou.",
-      "phonetic_api": "/i mɛl mɛ̃ k͡pu/",
-      "phonetic_simple": "I MEL MENG KPOU",
-      "translation": "J'ai bu toute l'eau.",
-      "context": "Confirmer une action passée et terminée"
+      "phrase_id": "p3",
+      "original": "Ndu wá dímí.",
+      "phonetic_api": "/ndu wa dimi/",
+      "phonetic_simple": "ndou wa di-mi",
+      "translation": "Il/elle a dit (cela).",
+      "context": "Pour rapporter une parole passée."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Ndu wá hunɔɔ nî.",
+      "phonetic_api": "/ndu wa hunɔː ni/",
+      "phonetic_simple": "ndou wa hou-nô ni",
+      "translation": "Il/elle est déjà venu(e).",
+      "context": "Pour insister sur l'antériorité d'un fait."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'aspect accompli (le passé simple historique)",
-      "explanation": "Pour exprimer qu'une action est complètement terminée, le kissi utilise le verbe à sa forme radicale nue ou légèrement modifiée en fin de mot, souvent accompagné d'un adverbe temporel comme 'gbɛɛ'.",
+      "concept": "L'auxiliaire wá et la négation postposée",
+      "explanation": "Selon la description de Sarah Rose (synthétisant Childs, 1995), le kissi marque le passé par l'auxiliaire 'wá' placé avant le verbe principal, contrastant avec 'có', auxiliaire du présent/futur réaliste. La négation, elle, ne se place pas avant le verbe comme en français mais après la phrase, sous forme de particule postposée : 'lé' après une finale vocalique, 'té' après une finale consonantique, et 'ló' comme forme emphatique.",
       "rules": [
-        "L'auxiliaire de présent 'co' disparaît complètement.",
-        "Le verbe d'action colle directement au pronom sujet."
+        "wá + [verbe] = fait accompli, passé",
+        "có + [verbe] = présent ou futur réaliste",
+        "[phrase] + lé/té = négation du fait exprimé, le choix entre lé et té dépendant du son final du mot précédent",
+        "'nî' peut s'ajouter pour insister sur le caractère déjà accompli de l'action"
       ],
       "examples": [
         {
-          "structure": "Sujet + Verbe d'action + (Complément)",
-          "phonetic_api": "/i lo tʃja.o/",
-          "meaning": "Je suis allé au marché."
+          "structure": "ndu wá + [verbe] + lé/té",
+          "phonetic_api": "/ndu wa ... le/te/",
+          "meaning": "il/elle n'a pas [verbe]"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Tamba",
-      "text": "Saa, o lo vɛ gbɛɛ ?",
-      "phonetic_api": "/saː o lo vɛ g͡bɛː/",
-      "phonetic_simple": "SAA, O LO VÈ GBÈÈ ?",
-      "translation": "Saa, où es-tu allé hier ?"
+      "speaker": "Grand-mère",
+      "text": "I wá kɔ Kisiadu?",
+      "phonetic_api": "/i wa kɔ kisiadu/",
+      "phonetic_simple": "i wa kô ki-sia-dou",
+      "translation": "Es-tu allé(e) à Kissidougou ?"
     },
     {
-      "speaker": "Saa",
-      "text": "I lo ciao gbɛɛ. I nɔŋ biyɛ.",
-      "phonetic_api": "/i lo tʃja.o g͡bɛː i nɔŋ bi.jɛ/",
-      "phonetic_simple": "I LO TCHIA-O GBÈÈ. I NONG BI-YÈ.",
-      "translation": "Je suis allé au marché hier. J'ai acheté du riz."
+      "speaker": "Petit-fils",
+      "text": "Naam, ndu wá kɔ nî.",
+      "phonetic_api": "/naːm ndu wa kɔ ni/",
+      "phonetic_simple": "naam, ndou wa kô ni",
+      "translation": "Oui, j'y suis déjà allé."
+    },
+    {
+      "speaker": "Grand-mère",
+      "text": "I wá dímí a keke?",
+      "phonetic_api": "/i wa dimi a keke/",
+      "phonetic_simple": "i wa di-mi a ké-ké",
+      "translation": "L'as-tu dit à ton père ?"
+    },
+    {
+      "speaker": "Petit-fils",
+      "text": "Ndu wá dímí lé.",
+      "phonetic_api": "/ndu wa dimi le/",
+      "phonetic_simple": "ndou wa di-mi lé",
+      "translation": "Je ne l'ai pas dit."
     }
   ],
   "cultural_notes": [
-    "Le récit des événements passés revêt une importance capitale lors des conseils de notables ou réunions de famille. On prend toujours le temps de poser le cadre chronologique exact en s'appuyant sur des faits mémorables de la communauté."
+    "La distinction grammaticale entre 'wá' (passé) et 'có' (présent/futur réaliste) illustre un système temps-aspect-mode riche, typique des langues Atlantique-Congo, où le récit oral traditionnel (contes, généalogies de clans documentées par Paulme) s'appuie sur ces marqueurs pour ordonner les événements.",
+    "La négation post-posée du kissi contraste fortement avec le français (qui encadre le verbe de 'ne...pas') ; ce trait typologique se retrouve dans plusieurs langues Mel voisines et mérite une attention particulière à l'oral."
   ],
   "exercises": [
     {
-      "exercise_id": "ex13_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Que signifie l'adverbe 'gbɛɛ' ?",
+      "question": "Quel auxiliaire marque le passé en kissi ?",
       "options": [
-        "Aujourd'hui",
-        "Demain",
-        "Hier"
+        "wá",
+        "có",
+        "nî"
       ],
-      "correct_answer": "Hier",
-      "explanation": "'gbɛɛ' est le marqueur de temps exclusif pour désigner le jour précédent."
+      "correct_answer": "wá",
+      "explanation": "Attesté par Sarah Rose (synthèse de Childs, 1995) : wá = auxiliaire passé."
     },
     {
-      "exercise_id": "ex13_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "I [ ___ ] ciao gbɛɛ. (Je suis allé au marché hier)",
-      "correct_answer": "lo",
-      "hint": "Verbe aller / se déplacer"
+      "sentence_with_blank": "Ndu wá kɔ [ ___ ]. (Il/elle n'y est pas allé(e), négation après voyelle finale.)",
+      "correct_answer": "lé",
+      "hint": "Négateur postposé après une voyelle finale."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Sarah Rose, « Kisi » (chapitre synthétisant Childs 1995), Memorial University of Newfoundland",
+      "url": "https://www.mun.ca/linguistics/media/production/memorial/academic/faculty-of-humanities-and-social-sciences/linguistics/media-library/more/e-books/Kisi_Chapter_Sixteen_Sarah_Rose.pdf"
+    },
+    {
+      "label": "G. Tucker Childs, A Grammar of Kisi: A Southern Atlantic Language (Mouton de Gruyter, 1995)",
+      "url": "https://dokumen.pub/a-grammar-of-kisi-a-southern-atlantic-language-9783110810882-9783110143560.html"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Le système temps-aspect (wá=passé, có=présent/futur) et la négation postposée (lé/té/ló) sont directement attestés dans le résumé académique de la grammaire de Childs par Sarah Rose ; les phrases combinatoires restent cependant des constructions raisonnées à partir de ces règles, non des citations exactes de corpus."
 }

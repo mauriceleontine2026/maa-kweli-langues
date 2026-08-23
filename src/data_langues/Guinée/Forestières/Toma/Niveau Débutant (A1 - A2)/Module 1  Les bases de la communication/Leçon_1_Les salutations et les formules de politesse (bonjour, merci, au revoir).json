@@ -4,151 +4,298 @@
   "module_number": 1,
   "module_title": "Les bases de la communication",
   "lesson_number": 1,
-  "title": "Les salutations et les formules de politesse",
+  "title": "Les salutations et les formules de politesse (bonjour, merci, au revoir)",
   "learning_objectives": [
-    "Savoir saluer selon le moment de la journée",
-    "Exprimer la politesse et le remerciement dans un cadre quotidien"
+    "Saluer une personne le matin, en journée et le soir en toma/loma",
+    "Remercier et répondre à un remerciement",
+    "Utiliser des formules de politesse de base (excuse, s'il vous plaît, oui/non)"
   ],
   "phonetic_focus": {
-    "key_sounds": "La lettre 'ɛ' se prononce comme le 'è' français. Les tons sont cruciaux : un accent circonflexe indique un ton descendant, tandis qu'un accent aigu indique un ton haut.",
-    "common_pitfalls": "Ne pas prononcer le 'e' final comme un 'e' muet français; toutes les voyelles écrites doivent être distinctement audibles."
+    "key_sounds": "Le toma/loma comporte des voyelles nasales et longues, deux tons (haut et bas) et des consonnes rares en français comme l'implosive /ɓ/, la fricative vélaire /ɣ/ (proche du 'r' grasseyé) et les occlusives labio-vélaires /kp/ et /gb/ prononcées d'un seul coup.",
+    "common_pitfalls": "Les francophones ont tendance à ignorer les tons (haut ˦ vs bas ˨), qui changent le sens des mots, et à prononcer /ɣ/ comme un simple 'g' au lieu d'un son fricatif proche du 'r' guttural."
   },
   "vocabulary": [
     {
-      "word_id": "v1_1",
-      "term": "Pele",
-      "phonetic_api": "/pe.le/",
-      "phonetic_simple": "PE-LE",
-      "translation": "Bonjour / Salut",
-      "example_sentence": "Pele, i vaza?",
-      "example_phonetic": "/pe.le i va.za/",
-      "example_translation": "Bonjour, tu vas bien ?"
+      "word_id": "v1",
+      "term": "E nhungo",
+      "phonetic_api": "/e ɳuŋɔ/",
+      "phonetic_simple": "É-NOUN-GO",
+      "translation": "Bonjour (salutation du matin)",
+      "example_sentence": "E nhungo, boi!",
+      "example_phonetic": "/e ɳuŋɔ bɔi/",
+      "example_translation": "Bonjour, mon ami !"
     },
     {
-      "word_id": "v1_2",
-      "term": "Mamiô",
-      "phonetic_api": "/ma.mi.ɔ̂/",
-      "phonetic_simple": "MA-MI-O",
-      "translation": "Merci",
-      "example_sentence": "Mamiô, na loi.",
-      "example_phonetic": "/ma.mi.ɔ̂ na loi/",
-      "example_translation": "Merci, mon enfant."
+      "word_id": "v2",
+      "term": "Ya na",
+      "phonetic_api": "/ja na/",
+      "phonetic_simple": "YA-NA",
+      "translation": "Bonjour/bonsoir (salutation de l'après-midi ou du soir)",
+      "example_sentence": "Ya na, wa na.",
+      "example_phonetic": "/ja na wa na/",
+      "example_translation": "Bonsoir (à vous tous)."
     },
     {
-      "word_id": "v1_3",
-      "term": "Baika",
-      "phonetic_api": "/bai.ka/",
-      "phonetic_simple": "BAÏ-KA",
-      "translation": "S'il te plaît / S'il vous plaît",
-      "example_sentence": "Baika, pɛ̀ fɛ.",
-      "example_phonetic": "/bai.ka pɛ̀ fɛ/",
-      "example_translation": "S'il te plaît, donne-moi ça."
+      "word_id": "v3",
+      "term": "De gha subu",
+      "phonetic_api": "/de ɣa subu/",
+      "phonetic_simple": "DÉ-RA SOU-BOU",
+      "translation": "Bonne nuit",
+      "example_sentence": "De gha subu, na woi.",
+      "example_phonetic": "/de ɣa subu na wɔi/",
+      "example_translation": "Bonne nuit, mon ami."
     },
     {
-      "word_id": "v1_4",
-      "term": "Kua lo",
-      "phonetic_api": "/kua lo/",
-      "phonetic_simple": "KOUA LO",
+      "word_id": "v4",
+      "term": "De gha",
+      "phonetic_api": "/de ɣa/",
+      "phonetic_simple": "DÉ-RA",
       "translation": "Au revoir",
-      "example_sentence": "Kua lo, na li ma.",
-      "example_phonetic": "/kua lo na li ma/",
-      "example_translation": "Au revoir, je m'en vais."
+      "example_sentence": "De gha, gava oinaa.",
+      "example_phonetic": "/de ɣa ga va ɔinaː/",
+      "example_translation": "Au revoir, je viendrai demain."
+    },
+    {
+      "word_id": "v5",
+      "term": "E mama",
+      "phonetic_api": "/e mama/",
+      "phonetic_simple": "É-MA-MA",
+      "translation": "Merci",
+      "example_sentence": "E mama, e mama.",
+      "example_phonetic": "/e mama e mama/",
+      "example_translation": "Merci, merci (remerciement insistant)."
+    },
+    {
+      "word_id": "v6",
+      "term": "Owoi",
+      "phonetic_api": "/ɔwɔi/",
+      "phonetic_simple": "O-WOÏ",
+      "translation": "Oui",
+      "example_sentence": "Owoi, ga ta wolo.",
+      "example_phonetic": "/ɔwɔi ga ta wɔlɔ/",
+      "example_translation": "Oui, un petit peu."
+    },
+    {
+      "word_id": "v7",
+      "term": "Bha",
+      "phonetic_api": "/ɓa/",
+      "phonetic_simple": "BHA",
+      "translation": "Non",
+      "example_sentence": "Bha, ge le koni.",
+      "example_phonetic": "/ɓa ge le kɔni/",
+      "example_translation": "Non, je ne sais pas."
+    },
+    {
+      "word_id": "v8",
+      "term": "Mava ye",
+      "phonetic_api": "/mava je/",
+      "phonetic_simple": "MA-VA-YÉ",
+      "translation": "Excusez-moi",
+      "example_sentence": "Mava ye, kpaki gi ghe mine?",
+      "example_phonetic": "/mava je kpaki gi ɣe mine/",
+      "example_translation": "Excusez-moi, où sont les toilettes ?"
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p1_1",
-      "original": "I liizɛ̀ vaza?",
-      "phonetic_api": "/i liː.zɛ̀ va.za/",
-      "phonetic_simple": "I LII-ZE VA-ZA",
-      "translation": "Tu t'es réveillé en paix ? (Bonjour le matin)",
-      "context": "Salutation standard du matin pour une personne."
+      "phrase_id": "p1",
+      "original": "Va bhe su?",
+      "phonetic_api": "/va ɓe su/",
+      "phonetic_simple": "VA-BHÉ-SOU",
+      "translation": "Comment ça va ?",
+      "context": "Formule courante pour demander des nouvelles de quelqu'un."
     },
     {
-      "phrase_id": "p1_2",
-      "original": "Wa liizɛ̀ vaza?",
-      "phonetic_api": "/wa liː.zɛ̀ va.za/",
-      "phonetic_simple": "OUA LII-ZE VA-ZA",
-      "translation": "Vous vous êtes réveillés en paix ? (Bonjour le matin)",
-      "context": "Salutation du matin destinée à un groupe de personnes ou marque de respect."
+      "phrase_id": "p2",
+      "original": "Fa youn le su",
+      "phonetic_api": "/fa jun le su/",
+      "phonetic_simple": "FA-YOUN-LÉ-SOU",
+      "translation": "Ça va bien (réponse à 'comment ça va')",
+      "context": "Réponse standard à la question sur la santé/l'état."
     },
     {
-      "phrase_id": "p1_3",
-      "original": "I gbelee vaza?",
-      "phonetic_api": "/i ɡbe.leː va.za/",
-      "phonetic_simple": "I GBE-LEE VA-ZA",
-      "translation": "Tu as passé une bonne journée ? (Bonsoir l'après-midi/soir)",
-      "context": "Utilisé à partir du milieu de la journée pour prendre des nouvelles."
+      "phrase_id": "p3",
+      "original": "Elotozu wodove?",
+      "phonetic_api": "/elɔtɔzu wɔdɔve/",
+      "phonetic_simple": "É-LO-TO-ZOU WO-DO-VÉ",
+      "translation": "Comment vas-tu ? (litt. ton corps est-il en bon état ?)",
+      "context": "Salutation formelle utilisée dans le manuel Peace Corps."
     },
     {
-      "phrase_id": "p1_4",
-      "original": "A vaza ge bii.",
-      "phonetic_api": "/a va.za ɡe biː/",
-      "phonetic_simple": "A VA-ZA GUE BII",
-      "translation": "Que la paix soit sur cette nuit.",
-      "context": "Formule pour souhaiter une bonne nuit au moment du coucher."
+      "phrase_id": "p4",
+      "original": "Dotozu wodove",
+      "phonetic_api": "/dɔtɔzu wɔdɔve/",
+      "phonetic_simple": "DO-TO-ZOU WO-DO-VÉ",
+      "translation": "Je vais bien",
+      "context": "Réponse à 'Elotozu wodove ?'."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Gala mama",
+      "phonetic_api": "/gala mama/",
+      "phonetic_simple": "GA-LA MA-MA",
+      "translation": "Grâce à Dieu / merci à Dieu",
+      "context": "Réponse polie et courante après une question sur sa santé."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "E nitama",
+      "phonetic_api": "/e nitama/",
+      "phonetic_simple": "É-NI-TA-MA",
+      "translation": "Bienvenue",
+      "context": "Formule d'accueil quand quelqu'un arrive."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "Ku zu nevhe ga ge e woen",
+      "phonetic_api": "/ku zu nevɛ ga ge e wɔen/",
+      "phonetic_simple": "KOU-ZOU-NÉ-VÉ-GA-GUÉ-É-WO-ÈNE",
+      "translation": "Enchanté de te rencontrer",
+      "context": "Formule de politesse à la première rencontre."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "Ya ga ghaze?",
+      "phonetic_api": "/ja ga ɣaze/",
+      "phonetic_simple": "YA-GA-RA-ZÉ",
+      "translation": "Tu comprends ?",
+      "context": "Vérifier la compréhension pendant une conversation."
     }
   ],
   "grammar_points": [
     {
-      "concept": "Les pronoms personnels sujets au singulier",
-      "explanation": "En toma, le pronom sujet précède immédiatement le verbe ou le prédicat de salutation. Ils changent de forme selon le ton de la phrase.",
+      "concept": "Structure des salutations selon le moment de la journée",
+      "explanation": "Le toma/loma distingue une salutation du matin (E nhungo) d'une salutation valable l'après-midi et le soir (Ya na, wa na), suivie souvent d'une question sur l'état de la personne (Va bhe su ? / Elotozu wodove ?) à laquelle on répond par une formule fixe suivie d'un remerciement à Dieu (Gala mama), reflétant l'importance culturelle de la religion dans les échanges quotidiens.",
       "rules": [
-        "Le pronom 'Na' ou 'N' représente la première personne du singulier (Je).",
-        "Le pronom 'I' représente la deuxième personne du singulier (Tu)."
+        "La salutation change selon le moment de la journée (matin vs après-midi/soir).",
+        "Une salutation est presque toujours suivie d'une question sur la santé/l'état.",
+        "La réponse polie inclut fréquemment une référence à Dieu (Gala/Galama)."
       ],
       "examples": [
         {
-          "structure": "N'vaza",
-          "phonetic_api": "/n̩.va.za/",
-          "meaning": "Je vais bien"
+          "structure": "E nhungo? — Fa youn le su.",
+          "phonetic_api": "/e ɳuŋɔ — fa jun le su/",
+          "meaning": "Bonjour ? — Ça va bien."
         },
         {
-          "structure": "I vaza",
-          "phonetic_api": "/i va.za/",
-          "meaning": "Tu vas bien"
+          "structure": "Elotozu wodove? — Dotozu wodove, gala mama.",
+          "phonetic_api": "/elɔtɔzu wɔdɔve — dɔtɔzu wɔdɔve gala mama/",
+          "meaning": "Comment vas-tu ? — Je vais bien, grâce à Dieu."
+        }
+      ]
+    },
+    {
+      "concept": "Le marqueur de politesse et la formule de départ",
+      "explanation": "Pour prendre congé, le toma/loma utilise 'De gha' (au revoir) qui peut être renforcé par 'De gha subu' pour la nuit. Le remerciement 'E mama' peut être doublé ('E mama, e mama') pour insister sur la gratitude, un procédé de répétition fréquent dans les langues mandé pour marquer l'intensité.",
+      "rules": [
+        "La répétition d'un mot renforce son intensité (ex: E mama, e mama = merci beaucoup).",
+        "'Subu' ajouté à une formule de départ la spécialise pour la nuit."
+      ],
+      "examples": [
+        {
+          "structure": "E mama, e mama.",
+          "phonetic_api": "/e mama e mama/",
+          "meaning": "Merci beaucoup (littéralement : merci, merci)."
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Tokpa",
-      "text": "Pele, Sia! I liizɛ̀ vaza?",
-      "phonetic_api": "/pe.le si.a i liː.zɛ̀ va.za/",
-      "phonetic_simple": "PE-LE, SI-A! I LII-ZE VA-ZA?",
-      "translation": "Salut Sia ! Tu t'es réveillée en paix ?"
+      "speaker": "Folomo",
+      "text": "E nhungo, boi!",
+      "phonetic_api": "/e ɳuŋɔ bɔi/",
+      "phonetic_simple": "É-NOUN-GO BOÏ",
+      "translation": "Bonjour, mon ami !"
     },
     {
-      "speaker": "Sia",
-      "text": "Owo, n'vaza. Mamiô.",
-      "phonetic_api": "/o.wo n̩.va.za ma.mi.ɔ̂/",
-      "phonetic_simple": "O-OUO, N-VA-ZA. MA-MI-O.",
-      "translation": "Oui, je vais bien. Merci."
+      "speaker": "Kezeli",
+      "text": "E nhungo! Va bhe su?",
+      "phonetic_api": "/e ɳuŋɔ va ɓe su/",
+      "phonetic_simple": "É-NOUN-GO VA-BHÉ-SOU",
+      "translation": "Bonjour ! Comment ça va ?"
+    },
+    {
+      "speaker": "Folomo",
+      "text": "Fa youn le su, e mama. Elotozu wodove?",
+      "phonetic_api": "/fa jun le su e mama elɔtɔzu wɔdɔve/",
+      "phonetic_simple": "FA-YOUN-LÉ-SOU É-MA-MA É-LO-TO-ZOU WO-DO-VÉ",
+      "translation": "Ça va bien, merci. Et toi, comment vas-tu ?"
+    },
+    {
+      "speaker": "Kezeli",
+      "text": "Dotozu wodove, gala mama.",
+      "phonetic_api": "/dɔtɔzu wɔdɔve gala mama/",
+      "phonetic_simple": "DO-TO-ZOU WO-DO-VÉ GA-LA MA-MA",
+      "translation": "Je vais bien, grâce à Dieu."
+    },
+    {
+      "speaker": "Folomo",
+      "text": "De gha, gava oinaa.",
+      "phonetic_api": "/de ɣa ga va ɔinaː/",
+      "phonetic_simple": "DÉ-RA GA-VA O-I-NA",
+      "translation": "Au revoir, je viendrai demain."
+    },
+    {
+      "speaker": "Kezeli",
+      "text": "De gha subu.",
+      "phonetic_api": "/de ɣa subu/",
+      "phonetic_simple": "DÉ-RA SOU-BOU",
+      "translation": "Bonne nuit."
     }
   ],
   "cultural_notes": [
-    "Chez les Tomas, la salutation est un acte communautaire majeur. Refuser de saluer ou omettre de demander des nouvelles de la santé est perçu comme une grave impolitesse ou un signe d'hostilité."
+    "Chez les Loma/Toma, saluer et demander des nouvelles de la santé est une étape essentielle avant toute conversation ou toute transaction ; ignorer cette étape est perçu comme impoli.",
+    "Les réponses de politesse font souvent référence à Dieu ('Gala mama' - grâce à Dieu), reflet de l'importance du religieux dans la vie quotidienne en Guinée forestière et au Libéria.",
+    "La poignée de main accompagne généralement la salutation, comme dans de nombreuses cultures d'Afrique de l'Ouest."
   ],
   "exercises": [
     {
-      "exercise_id": "ex1_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quelle formule utilise-on pour saluer spécifiquement un groupe le matin ?",
+      "question": "Comment dit-on « merci » en toma/loma ?",
       "options": [
-        "Pele",
-        "Wa liizɛ̀ vaza?",
-        "A vaza ge bii"
+        "De gha",
+        "E mama",
+        "Owoi"
       ],
-      "correct_answer": "Wa liizɛ̀ vaza?",
-      "explanation": "'Wa' désigne la deuxième personne du pluriel, requise pour s'adresser à un groupe le matin."
+      "correct_answer": "E mama",
+      "explanation": "'E mama' signifie merci, attesté dans les listes de phrases utiles en loma (Omniglot)."
     },
     {
-      "exercise_id": "ex1_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Pele, i [ ___ ] ?",
-      "correct_answer": "vaza",
-      "hint": "Mot pour dire 'bien' ou 'en paix'."
+      "sentence_with_blank": "Va bhe su ? — Fa youn le [ ___ ].",
+      "correct_answer": "su",
+      "hint": "C'est la fin de la formule de réponse standard 'ça va bien'."
+    },
+    {
+      "exercise_id": "ex3",
+      "type": "multiple_choice",
+      "question": "Que répond-on traditionnellement après avoir dit qu'on va bien ?",
+      "options": [
+        "Gala mama (grâce à Dieu)",
+        "Bha (non)",
+        "Motee (voiture)"
+      ],
+      "correct_answer": "Gala mama (grâce à Dieu)",
+      "explanation": "Le manuel Peace Corps (Dwyer et al.) documente cette formule de politesse religieuse fréquente."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Omniglot, \"Useful phrases in Loma\" (dialecte Guizima)",
+      "url": "https://www.omniglot.com/language/phrases/loma.htm"
+    },
+    {
+      "label": "Dwyer, Bodegie & Bague, \"A Learner Directed Approach to Lorma\" (Peace Corps/Michigan State University, 1981)",
+      "url": "https://files.eric.ed.gov/fulltext/ED247766.pdf"
+    },
+    {
+      "label": "Wesley Sadler, \"A Complete Analysis of the Lɔɔma Language\", Mandenkan 42 (LLACAN/CNRS)",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan42/sadler.pdf"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Formules attestées dans le dialecte Gizima du loma libérien (Omniglot, contribution Balla Koevogui) et dans le manuel Peace Corps pour le Lorma du Libéria ; Le toma de Guinée forestière et le loma/lorma du Libéria (dialecte Gizima) forment un continuum dialectal du même groupe Mande du Sud (Mende-Loma) ; les formes citées ici proviennent des meilleures sources disponibles pour ce continuum linguistique (grammaire de Sadler et manuel Peace Corps de Dwyer), la documentation publiée spécifique au parler de Guinée étant plus rare."
 }

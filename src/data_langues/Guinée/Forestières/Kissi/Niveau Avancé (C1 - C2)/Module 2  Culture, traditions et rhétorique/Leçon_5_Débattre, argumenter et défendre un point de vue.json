@@ -1,114 +1,192 @@
 {
   "lesson_id": "C1_M2_L5",
-  "level": "Niveau Avancé (C1-C2)",
+  "level": "Avancé (C1-C2)",
   "module_number": 2,
   "module_title": "Culture, traditions et rhétorique",
   "lesson_number": 5,
   "title": "Débattre, argumenter et défendre un point de vue",
   "learning_objectives": [
-    "Exprimer un désaccord formel et courtois dans une assemblée",
-    "Introduire des arguments hiérarchisés (premièrement, de plus, enfin)",
-    "Réfuter une affirmation en apportant des preuves logiques"
+    "Mobiliser le lieu et le vocabulaire du débat traditionnel kissi (wasyo=place publique de palabre)",
+    "Utiliser les connecteurs logiques déjà vus (kani, ke, bee) dans une structure argumentative",
+    "Exprimer un accord ou un désaccord respectueux (laalagndó/laalagndó lé) dans un cadre de palabre"
   ],
   "phonetic_focus": {
-    "key_sounds": "Les connecteurs d'argumentation avancée reposent sur des structures consonantiques appuyées comme /g͡b/ et /ⁿd/. Le ton d'insistance monte d'un demi-ton sur le connecteur pivot.",
-    "common_pitfalls": "Attention à ne pas élever la voix de manière agressive lors d'un débat. Le ton doit rester égal et posé, le relief phonétique se faisant uniquement sur les mots logiques pivots."
+    "key_sounds": "Le mot 'wasyo' comporte une semi-consonne glissée [j] entre 'a' et 'o', qu'il faut lier sans la transformer en syllabe séparée.",
+    "common_pitfalls": "Les francophones ont tendance à insérer une voyelle entre 's' et 'y', ce qui alourdit artificiellement le mot 'wasyo' par rapport à sa prononciation attestée."
   },
   "vocabulary": [
     {
-      "word_id": "v23_1",
-      "term": "pilɔɔ",
-      "phonetic_api": "/pi.lɔː/",
-      "phonetic_simple": "PI-LOO",
-      "translation": "premièrement / en premier lieu (variante d'énumération)",
-      "example_sentence": "Pilɔɔ, i lo le bana i wali.",
-      "example_phonetic": "/pi.lɔː i lo le ba.na i wa.li/",
-      "example_translation": "Premièrement, je n'y suis pas allé parce que je travaillais."
+      "word_id": "v1",
+      "term": "wasyo",
+      "phonetic_api": "/wasjo/",
+      "phonetic_simple": "wa-syo",
+      "translation": "place publique du village où se tiennent les palabres/débats",
+      "example_sentence": "Wana o wasyo.",
+      "example_phonetic": "/wana o wasjo/",
+      "example_translation": "Ils sont sur la place publique (en débat)."
     },
     {
-      "word_id": "v23_2",
-      "term": "fassa",
-      "phonetic_api": "/fa.sa/",
-      "phonetic_simple": "FAS-SA",
-      "translation": "argument / point de vue / côté de l'explication",
-      "example_sentence": "Fassa nio o co pilɔ.",
-      "example_phonetic": "/fa.sa njo o tʃo pi.lɔ/",
-      "example_translation": "Mon point de vue est le premier / est simple."
+      "word_id": "v2",
+      "term": "diambɔ́ɔ",
+      "phonetic_api": "/djambɔː/",
+      "phonetic_simple": "dyam-bô",
+      "translation": "discours, plaidoirie, argumentation",
+      "example_sentence": "Ndu có diambɔ́ɔ o wasyo.",
+      "example_phonetic": "/ndu tʃo djambɔː o wasjo/",
+      "example_translation": "Il/elle va argumenter sur la place publique."
+    },
+    {
+      "word_id": "v3",
+      "term": "laalagndó",
+      "phonetic_api": "/laːlaɡndo/",
+      "phonetic_simple": "laa-lagn-do",
+      "translation": "être convaincu, croire, être d'accord",
+      "example_sentence": "Yá laalagndó ndu wo.",
+      "example_phonetic": "/ja laːlaɡndo ndu wo/",
+      "example_translation": "J'en suis convaincu(e), je suis d'accord."
+    },
+    {
+      "word_id": "v4",
+      "term": "kani",
+      "phonetic_api": "/kani/",
+      "phonetic_simple": "ka-ni",
+      "translation": "parce que (pour justifier un argument)",
+      "example_sentence": "Kani ndu sawaa.",
+      "example_phonetic": "/kani ndu sawaː/",
+      "example_translation": "Parce que c'est la loi."
+    },
+    {
+      "word_id": "v5",
+      "term": "masaa",
+      "phonetic_api": "/masaː/",
+      "phonetic_simple": "ma-saa",
+      "translation": "chef (souvent arbitre/président du débat traditionnel)",
+      "example_sentence": "Masaa có dímí.",
+      "example_phonetic": "/masaː tʃo dimi/",
+      "example_translation": "Le chef va parler/trancher."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p23_1",
-      "original": "I tchie fassa noo, kɛ i co fassa pilɔ lɔ loolu.",
-      "phonetic_api": "/i tʃje fa.sa noː kɛ i tʃo fa.sa pi.lɔ lɔ loː.lu/",
-      "phonetic_simple": "I TCHI-É FAS-SA NOO, KÈ I TCHO FAS-SA PI-LO LO LOO-LOU",
-      "translation": "Je comprends ton point de vue, mais je vais suivre une autre option / un autre argument.",
-      "context": "Nuancer poliment lors d'un débat d'idées"
+      "phrase_id": "p1",
+      "original": "Wana o wasyo, wana diambɔ́ɔ.",
+      "phonetic_api": "/wana o wasjo wana djambɔː/",
+      "phonetic_simple": "wa-na o wa-syo, wa-na dyam-bô",
+      "translation": "Ils sont sur la place publique, ils débattent.",
+      "context": "Pour introduire une scène de palabre collective."
     },
     {
-      "phrase_id": "p23_2",
-      "original": "Fassa noo o co fiaa kɛ o nɔ ndoo le.",
-      "phonetic_api": "/fa.sa noː o tʃo fjaː kɛ o nɔ ⁿdoː le/",
-      "phonetic_simple": "FAS-SA NOO O TCHO FIA-A KÈ O NO NDOO LÉ",
-      "translation": "Ton argument est grand mais il n'a pas de fondement (litt. n'a pas de chemin).",
-      "context": "Réfuter logiquement une idée adverse"
+      "phrase_id": "p2",
+      "original": "Yá laalagndó ndu wo, kani ndu sawaa.",
+      "phonetic_api": "/ja laːlaɡndo ndu wo kani ndu sawaː/",
+      "phonetic_simple": "ya laa-lagn-do ndou wo, ka-ni ndou sa-waa",
+      "translation": "J'en suis convaincu(e), parce que c'est la loi.",
+      "context": "Pour appuyer son propre argument sur la légitimité légale/coutumière."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Yá laalagndó lé, ke masaa có dímí.",
+      "phonetic_api": "/ja laːlaɡndo le ke masaː tʃo dimi/",
+      "phonetic_simple": "ya laa-lagn-do lé, ké ma-saa tcho di-mi",
+      "translation": "Je ne suis pas convaincu(e), mais le chef va trancher.",
+      "context": "Pour exprimer un désaccord tout en respectant l'autorité arbitrale."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Bee kani ndu tanaa, yá n diambɔ́ɔ.",
+      "phonetic_api": "/beː kani ndu tanaː ja n djambɔː/",
+      "phonetic_simple": "béé ka-ni ndou ta-naa, ya n dyam-bô",
+      "translation": "Justement parce que c'est un interdit, je dois argumenter (m'exprimer).",
+      "context": "Pour justifier son intervention dans un débat par la gravité du sujet."
     }
   ],
   "grammar_points": [
     {
-      "concept": "La subordination concessive complexe",
-      "explanation": "Pour exprimer la concession ou l'articulation logique d'un contre-argument, on imbrique la conjonction d'opposition 'kɛ' (mais) directement suivie d'un énoncé structuré en cause autonome avec 'bana'.",
+      "concept": "L'argumentation structurée par les connecteurs et le lieu institutionnel du débat",
+      "explanation": "L'argumentation en contexte traditionnel kissi se déroule typiquement au 'wasyo', la place publique villageoise documentée par Denise Paulme, où le chef ('masaa') joue souvent un rôle d'arbitre. Les connecteurs logiques déjà attestés (kani=parce que, ke=mais, bee=même/justement) structurent la prise de position, tandis que le verbe 'laalagndó' (être convaincu) permet d'exprimer directement son accord ou son désaccord.",
       "rules": [
-        "La concession se place au milieu de l'énoncé complexe.",
-        "Chaque bloc de phrase conserve ses marqueurs aspectuels et ses particules négatives."
+        "[opinion] + kani + [justification] = [opinion] parce que [justification]",
+        "laalagndó + lé = ne pas être convaincu, marquer un désaccord poli",
+        "Le débat se clôt souvent par l'intervention du masaa (chef), dont la parole (dímí = dire) fait autorité."
       ],
       "examples": [
         {
-          "structure": "Argument A + kɛ + Argument B",
-          "phonetic_api": "/o tʃo bɛⁿdɛ kɛ i phee ni le/",
-          "meaning": "C'est grand/important mais je ne l'approuve pas."
+          "structure": "[opinion] + kani + [justification]",
+          "phonetic_api": "/... kani .../",
+          "meaning": "[opinion] parce que [justification]"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Saa",
-      "text": "Tamba, cando nɔŋ sola o co bɛndɛ. I nɔ i nɔŋ haala.",
-      "phonetic_api": "/ta.ᵐba tʃa.ⁿdo nɔŋ so.la o tʃo bɛⁿdɛ i nɔ i nɔŋ haː.la/",
-      "phonetic_simple": "TAM-BA, TCHAN-DO NONG SO-LA O TCHO BEN-DE. I NO I NONG HAA-LA.",
-      "translation": "Tamba, le prix d'achat de la maison est grand. Je dois l'acheter aujourd'hui."
+      "speaker": "Premier débatteur",
+      "text": "Yá laalagndó ndu wo, kani ndu sawaa.",
+      "phonetic_api": "/ja laːlaɡndo ndu wo kani ndu sawaː/",
+      "phonetic_simple": "ya laa-lagn-do ndou wo, ka-ni ndou sa-waa",
+      "translation": "J'en suis convaincu, parce que c'est la loi (coutumière)."
     },
     {
-      "speaker": "Tamba",
-      "text": "I tchie fassa noo. Kɛ pilɔɔ, o nɔ gbalaŋ kpou le. Te o nɔŋ, o co gbalaŋ le loolu.",
-      "phonetic_api": "/i tʃje fa.sa noː kɛ pi.lɔː o nɔ g͡ba.laŋ k͡pu le te o nɔŋ o tʃo g͡ba.laŋ le loː.lu/",
-      "phonetic_simple": "I TCHI-É FAS-SA NOO. KÈ PI-LOO, O NO GBA-LANG KPOU LÉ. TÉ O NONG, O TCHO GBA-LANG LÉ LOO-LOU.",
-      "translation": "Je comprends ton point de vue. Mais premièrement, tu n'as pas tout l'argent. Si tu achètes, tu n'auras plus d'argent."
+      "speaker": "Second débatteur",
+      "text": "Yá laalagndó lé, kani ndu bana kpede.",
+      "phonetic_api": "/ja laːlaɡndo le kani ndu bana kpede/",
+      "phonetic_simple": "ya laa-lagn-do lé, ka-ni ndou ba-na kpé-dé",
+      "translation": "Je ne suis pas convaincu, parce que c'est trop coûteux/grave."
+    },
+    {
+      "speaker": "Masaa (chef)",
+      "text": "Baleka, wana diambɔ́ɔ kendé. Yá có dímí ni.",
+      "phonetic_api": "/baleka wana djambɔː kende ja tʃo dimi ni/",
+      "phonetic_simple": "ba-lé-ka, wa-na dyam-bô kèn-dé. ya tcho di-mi ni",
+      "translation": "Merci, vous avez bien argumenté tous les deux. Je vais trancher maintenant."
+    },
+    {
+      "speaker": "Assemblée",
+      "text": "Naam, wana laalagndó masaa ndu kɔ́naa.",
+      "phonetic_api": "/naːm wana laːlaɡndo masaː ndu kɔnaː/",
+      "phonetic_simple": "naam, wa-na laa-lagn-do ma-saa ndou kô-naa",
+      "translation": "Oui, tous se rangent à la décision (au message) du chef."
     }
   ],
   "cultural_notes": [
-    "L'art de l'éloquence et du débat public est central dans la société kissi lors de l'arbre à palabres. Savoir convaincre sans élever la voix, en empilant des arguments clairs ('fassa') tout en ménageant la sensibilité de la partie adverse, définit la stature d'un leader respecté."
+    "Le 'wasyo', place centrale du village décrite par Denise Paulme, est le lieu institutionnel où se règlent les différends et se déroulent les grandes discussions collectives, un équivalent fonctionnel de l'agora dans la société kissi traditionnelle.",
+    "Le rôle du 'masaa' (chef) comme arbitre final du débat reflète une organisation sociale où l'autorité politique traditionnelle a aussi une fonction judiciaire et rhétorique, la parole du chef closant symboliquement la discussion."
   ],
   "exercises": [
     {
-      "exercise_id": "ex23_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Que signifie le mot 'fassa' dans le cadre d'une discussion ?",
+      "question": "Que désigne 'wasyo' ?",
       "options": [
-        "Un vêtement",
-        "Un argument / un point de vue",
-        "Le marché central"
+        "la place publique du village pour les palabres",
+        "le marché",
+        "la rizière"
       ],
-      "correct_answer": "Un argument / un point de vue",
-      "explanation": "'Fassa' désigne le côté, la direction d'une idée ou l'argumentation défendue."
+      "correct_answer": "la place publique du village pour les palabres",
+      "explanation": "Attesté par l'ethnographie de Denise Paulme sur la société kissi."
     },
     {
-      "exercise_id": "ex23_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "[ ___ ], i lo le bana i wali. (Premièrement, je n'y suis pas allé...)",
-      "correct_answer": "Pilɔɔ",
-      "hint": "Adverbe ordinal utilisé pour débuter une énumération argumentative"
+      "sentence_with_blank": "Yá laalagndó [ ___ ]. (Je ne suis pas convaincu(e).)",
+      "correct_answer": "lé",
+      "hint": "Particule de négation postposée."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Denise Paulme, Les Gens du riz : les Kissi de Haute-Guinée, chap. 9 (WebGuinée)",
+      "url": "https://webguine.site/bibliotheque/ethnographie/kisi/dpaulme/chap09.html"
+    },
+    {
+      "label": "G. Tucker Childs, « Borrowings into Kisi as Evidence of Mande Expansionism and Influence », Journal of West African Languages 29-2 (2002)",
+      "url": "https://scispace.com/pdf/borrowings-into-kisi-as-evidence-of-mande-expansionism-and-3zquof59kt.pdf"
+    },
+    {
+      "label": "Denise Paulme, Les Gens du riz : les Kissi de Haute-Guinée, chap. 6 (WebGuinée)",
+      "url": "https://www.webguinee.net/bibliotheque/ethnographie/kisi/dpaulme/chap06.html"
+    }
+  ],
+  "confidence": "faible",
+  "confidence_note": "Le lieu du débat (wasyo) et l'autorité arbitrale du chef (masaa) sont attestés par l'ethnographie de Paulme ; les connecteurs et le verbe de conviction proviennent de Childs (2002). Aucune source ne fournit un exemple réel de débat transcrit en kissi : les échanges dialogués sont donc des constructions raisonnées à partir d'éléments lexicaux et institutionnels vérifiés séparément."
 }

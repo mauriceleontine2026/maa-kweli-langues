@@ -6,155 +6,216 @@
   "lesson_number": 5,
   "title": "Les chiffres, les nombres et le comptage",
   "learning_objectives": [
-    "Compter de 1 à 10 en kissi",
-    "Exprimer des quantités simples d'objets du quotidien",
-    "Comprendre la structure de base des nombres complexes"
+    "Compter de un à quatre en kissi avec les formes attestées",
+    "Utiliser les grands nombres empruntés (cent, mille) attestés par Childs",
+    "Prendre conscience des lacunes documentaires sur le système numéral complet du kissi"
   ],
   "phonetic_focus": {
-    "key_sounds": "Les chiffres en kissi mettent en avant des groupements de consonnes nasales pré-articulées comme /ŋp/ dans 'ŋpûm'. Le ton sur le chiffre modifie l'accord avec la classe nominale du mot compté.",
-    "common_pitfalls": "Attention à ne pas assimiler le son de 'ŋpûm' à un simple 'p'. La résonance nasale initiale /ŋ/ doit être entendue juste avant l'occlusion des lèvres."
+    "key_sounds": "Les numéraux kissi comme 'hiɔɔlu' (quatre) combinent diphtongue et voyelle longue ɔɔ, un schéma vocalique peu présent en français.",
+    "common_pitfalls": "Les francophones ont tendance à raccourcir les voyelles longues ɔɔ/uu en une seule more, ce qui peut créer des confusions de sens."
   },
   "vocabulary": [
     {
-      "word_id": "v5_1",
-      "term": "pilɔ",
-      "phonetic_api": "/pi.lɔ/",
-      "phonetic_simple": "PI-LO",
-      "translation": "un / une",
-      "example_sentence": "Wana pilɔ.",
-      "example_phonetic": "/wa.na pi.lɔ/",
-      "example_translation": "Une personne."
+      "word_id": "v1",
+      "term": "pilɛ",
+      "phonetic_api": "/pilɛ/",
+      "phonetic_simple": "pi-lè",
+      "translation": "un (1)",
+      "example_sentence": "Wana pilɛ.",
+      "example_phonetic": "/wana pilɛ/",
+      "example_translation": "Une (seule) personne."
     },
     {
-      "word_id": "v5_2",
-      "term": "miɔɔŋ",
-      "phonetic_api": "/mjɔːŋ/",
-      "phonetic_simple": "MYOONG",
-      "translation": "deux",
-      "example_sentence": "Gbɛŋgbɛ miɔɔŋ.",
-      "example_phonetic": "/g͡bɛŋ.g͡bɛ mjɔːŋ/",
-      "example_translation": "Deux chaises."
+      "word_id": "v2",
+      "term": "diiŋ",
+      "phonetic_api": "/diːŋ/",
+      "phonetic_simple": "dii-ng",
+      "translation": "deux (2)",
+      "example_sentence": "Wana diiŋ.",
+      "example_phonetic": "/wana diːŋ/",
+      "example_translation": "Deux personnes."
     },
     {
-      "word_id": "v5_3",
-      "term": "ngbaaŋ",
-      "phonetic_api": "/ⁿg͡baːŋ/",
-      "phonetic_simple": "NGBAANG",
-      "translation": "trois",
-      "example_sentence": "Cando ngbaaŋ.",
-      "example_phonetic": "/tʃa.ⁿdo ⁿg͡baːŋ/",
-      "example_translation": "Trois cases."
+      "word_id": "v3",
+      "term": "yaa",
+      "phonetic_api": "/jaː/",
+      "phonetic_simple": "yaa",
+      "translation": "trois (3)",
+      "example_sentence": "Wana yaa.",
+      "example_phonetic": "/wana jaː/",
+      "example_translation": "Trois personnes."
     },
     {
-      "word_id": "v5_4",
-      "term": "hiɔɔlulaŋ",
-      "phonetic_api": "/hjɔː.lu.lã/",
-      "phonetic_simple": "HYOO-LOU-LANN",
-      "translation": "cinq",
-      "example_sentence": "Wana hiɔɔlulaŋ.",
-      "example_phonetic": "/wa.na hjɔː.lu.lã/",
-      "example_translation": "Cinq personnes."
+      "word_id": "v4",
+      "term": "hiɔɔlu",
+      "phonetic_api": "/hiɔːlu/",
+      "phonetic_simple": "hi-ô-lou",
+      "translation": "quatre (4)",
+      "example_sentence": "Wana hiɔɔlu.",
+      "example_phonetic": "/wana hiɔːlu/",
+      "example_translation": "Quatre personnes."
     },
     {
-      "word_id": "v5_5",
-      "term": "puu",
-      "phonetic_api": "/puː/",
-      "phonetic_simple": "POUU",
-      "translation": "dix",
-      "example_sentence": "Oolɛ puu.",
-      "example_phonetic": "/oː.lɛ puː/",
-      "example_translation": "Dix ans."
+      "word_id": "v5",
+      "term": "kemɛ",
+      "phonetic_api": "/kemɛ/",
+      "phonetic_simple": "ké-mè",
+      "translation": "cent (100)",
+      "example_sentence": "Kaniei kemɛ.",
+      "example_phonetic": "/kanjei kemɛ/",
+      "example_translation": "Cent (unités d')argent."
+    },
+    {
+      "word_id": "v6",
+      "term": "waa",
+      "phonetic_api": "/waː/",
+      "phonetic_simple": "waa",
+      "translation": "mille (1000)",
+      "example_sentence": "Kaniei waa.",
+      "example_phonetic": "/kanjei waː/",
+      "example_translation": "Mille (unités d')argent."
+    },
+    {
+      "word_id": "v7",
+      "term": "kaniei",
+      "phonetic_api": "/kanjei/",
+      "phonetic_simple": "ka-nyèi",
+      "translation": "argent (monnaie)",
+      "example_sentence": "Yá kaniei ndu pilɛ.",
+      "example_phonetic": "/ja kanjei ndu pilɛ/",
+      "example_translation": "J'ai une (unité d')argent."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p5_1",
-      "original": "Mɛŋ kɔlɔ miɔɔŋ.",
-      "phonetic_api": "/mɛ̃ kɔ.lɔ mjɔːŋ/",
-      "phonetic_simple": "MENG KOLO MYOONG",
-      "translation": "Deux verres d'eau.",
-      "context": "Commander ou demander au marché"
+      "phrase_id": "p1",
+      "original": "Pilɛ.",
+      "phonetic_api": "/pilɛ/",
+      "phonetic_simple": "pi-lè",
+      "translation": "Un.",
+      "context": "Compter à partir de un."
     },
     {
-      "phrase_id": "p5_2",
-      "original": "Wana yɛŋ o lo wa ?",
-      "phonetic_api": "/wa.na jɛŋ o lo wa/",
-      "phonetic_simple": "WA-NA YENG O LO WA",
-      "translation": "Combien de personnes sont là ?",
-      "context": "Compter l'entourage"
+      "phrase_id": "p2",
+      "original": "Diiŋ.",
+      "phonetic_api": "/diːŋ/",
+      "phonetic_simple": "dii-ng",
+      "translation": "Deux.",
+      "context": "Compter jusqu'à deux."
     },
     {
-      "phrase_id": "p5_3",
-      "original": "O co wana ngbaaŋ.",
-      "phonetic_api": "/o tʃo wa.na ⁿg͡baːŋ/",
-      "phonetic_simple": "O TCHO WA-NA NGBAANG",
-      "translation": "Ils sont trois personnes.",
-      "context": "Répondre sur une quantité"
+      "phrase_id": "p3",
+      "original": "Yaa.",
+      "phonetic_api": "/jaː/",
+      "phonetic_simple": "yaa",
+      "translation": "Trois.",
+      "context": "Compter jusqu'à trois."
     },
     {
-      "phrase_id": "p5_4",
-      "original": "Co mi lɔŋ puu.",
-      "phonetic_api": "/tʃo mi lɔŋ puː/",
-      "phonetic_simple": "TCHO MI LONG POUU",
-      "translation": "Donne-moi dix francs/unités.",
-      "context": "Transaction simple"
+      "phrase_id": "p4",
+      "original": "Hiɔɔlu.",
+      "phonetic_api": "/hiɔːlu/",
+      "phonetic_simple": "hi-ô-lou",
+      "translation": "Quatre.",
+      "context": "Compter jusqu'à quatre."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Kemɛ, waa.",
+      "phonetic_api": "/kemɛ waː/",
+      "phonetic_simple": "ké-mè, waa",
+      "translation": "Cent, mille.",
+      "context": "Grands nombres utilisés notamment pour l'argent et le commerce."
     }
   ],
   "grammar_points": [
     {
-      "concept": "La place du numéral dans le groupe nominal",
-      "explanation": "En kissi, les adjectifs numéraux cardinaux se placent systématiquement après le nom qu'ils qualifient.",
+      "concept": "Un système numéral partiellement documenté",
+      "explanation": "Les sources disponibles (lexique Wiktionary des langues atlantiques de Guinée) n'attestent que les numéraux de un à quatre pour le kissi (pilɛ, diiŋ, yaa, hiɔɔlu) ; le numéral 'cinq' n'y figure pas. Les grands nombres 'cent' (kemɛ) et 'mille' (waa) sont en revanche attestés séparément par Childs (2002) dans un contexte commercial et monétaire.",
       "rules": [
-        "Le nom reste en premier sans morphologie plurielle obligatoire si le nombre clarifie la quantité.",
-        "L'accord se fait de manière invisible via l'harmonie des tons."
+        "Le nombre suit généralement le nom qu'il quantifie (wana pilɛ = une personne, littéralement 'personne un').",
+        "Les numéraux au-delà de quatre ne sont pas confirmés dans les sources consultées pour cette leçon ; ne pas inventer de forme.",
+        "kemɛ (cent) et waa (mille) s'utilisent notamment pour les sommes d'argent (kaniei)."
       ],
       "examples": [
         {
-          "structure": "Nom + Chiffre",
-          "phonetic_api": "/wa.na pi.lɔ/",
-          "meaning": "Une personne"
+          "structure": "[nom] + pilɛ",
+          "phonetic_api": "/... pilɛ/",
+          "meaning": "un seul [nom]"
+        },
+        {
+          "structure": "kaniei + [numéral]",
+          "phonetic_api": "/kanjei .../",
+          "meaning": "[numéral] unités d'argent"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Tamba",
-      "text": "Gbɛŋgbɛ yɛŋ o co wa ?",
-      "phonetic_api": "/g͡bɛŋ.g͡bɛ jɛŋ o tʃo wa/",
-      "phonetic_simple": "GBENG-GBÉ YENG O TCHO WA",
-      "translation": "Combien de chaises sont ici ?"
+      "speaker": "Vendeuse",
+      "text": "Kaniei ndá? Pilɛ, diiŋ, yaa?",
+      "phonetic_api": "/kanjei nda pilɛ diːŋ jaː/",
+      "phonetic_simple": "ka-nyèi nda ? pi-lè, dii-ng, yaa ?",
+      "translation": "Combien d'argent ? Un, deux, trois ?"
     },
     {
-      "speaker": "Sia",
-      "text": "Gbɛŋgbɛ hiɔɔlulaŋ o co wa.",
-      "phonetic_api": "/g͡bɛŋ.g͡bɛ hjɔː.lu.lã o tʃo wa/",
-      "phonetic_simple": "GBENG-GBÉ HYOO-LOU-LANN O TCHO WA",
-      "translation": "Il y a cinq chaises ici."
+      "speaker": "Client",
+      "text": "Yaa, yandii.",
+      "phonetic_api": "/jaː jandiː/",
+      "phonetic_simple": "yaa, yan-dii",
+      "translation": "Trois, s'il te plaît."
+    },
+    {
+      "speaker": "Vendeuse",
+      "text": "Baleka. Kemɛ pilɛ.",
+      "phonetic_api": "/baleka kemɛ pilɛ/",
+      "phonetic_simple": "ba-lé-ka, ké-mè pi-lè",
+      "translation": "Merci. Cent, un (soit cent un)."
+    },
+    {
+      "speaker": "Client",
+      "text": "Waa, ndu kendé.",
+      "phonetic_api": "/waː ndu kende/",
+      "phonetic_simple": "wa, ndou kèn-dé",
+      "translation": "D'accord (oui), c'est bon."
     }
   ],
   "cultural_notes": [
-    "Le système de comptage traditionnel kissi repose sur une base quinaire (base 5), liée aux doigts de la main. Les nombres au-delà de 5 se construisent par addition (5+1, 5+2), bien que l'usage moderne intègre les structures décimales courantes."
+    "L'usage attesté de 'kemɛ' (cent) et 'waa' (mille) spécifiquement dans un contexte d'argent et de commerce (intérêt, dépenses, crédit) souligne l'ancienneté des échanges monétaires dans la société kissi, documentée par G. Tucker Childs à travers l'étude des emprunts au mandingue.",
+    "L'absence de numéraux au-delà de quatre dans les sources disponibles pour cette leçon illustre une limite réelle et honnête de la documentation publique du kissi ; les linguistes de terrain (Childs, Welmers) ont néanmoins documenté un système plus complet dans leurs ouvrages non intégralement accessibles en ligne."
   ],
   "exercises": [
     {
-      "exercise_id": "ex5_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Comment dit-on le chiffre 'deux' en kissi ?",
+      "question": "Comment dit-on « trois » en kissi ?",
       "options": [
-        "Pilɔ",
-        "Miɔɔŋ",
-        "Puu"
+        "yaa",
+        "diiŋ",
+        "hiɔɔlu"
       ],
-      "correct_answer": "Miɔɔŋ",
-      "explanation": "'Miɔɔŋ' est la traduction exacte du chiffre 2."
+      "correct_answer": "yaa",
+      "explanation": "« yaa » = trois, attesté par le lexique Wiktionary des langues atlantiques de Guinée."
     },
     {
-      "exercise_id": "ex5_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Wana [ ___ ] signifie 'Une personne'.",
-      "correct_answer": "pilɔ",
-      "hint": "Le premier chiffre"
+      "sentence_with_blank": "[ ___ ] = mille, utilisé pour l'argent (kaniei).",
+      "correct_answer": "waa",
+      "hint": "Attesté par Childs (2002) dans le champ lexical du commerce."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Wiktionary — Appendix:Word lists of Atlantic languages of Guinea (Kissi)",
+      "url": "https://en.wiktionary.org/wiki/Appendix:Word_lists_of_Atlantic_languages_of_Guinea"
+    },
+    {
+      "label": "G. Tucker Childs, « Borrowings into Kisi as Evidence of Mande Expansionism and Influence », Journal of West African Languages 29-2 (2002)",
+      "url": "https://scispace.com/pdf/borrowings-into-kisi-as-evidence-of-mande-expansionism-and-3zquof59kt.pdf"
+    }
+  ],
+  "confidence": "faible",
+  "confidence_note": "Seuls les numéraux 1 à 4 (pilɛ, diiŋ, yaa, hiɔɔlu) et les grands nombres cent/mille (kemɛ, waa) sont attestés dans les sources consultées ; le numéral 'cinq' et les nombres intermédiaires n'ont pas pu être vérifiés malgré plusieurs recherches, ce qui limite la couverture de cette leçon par rapport à un système numéral complet."
 }

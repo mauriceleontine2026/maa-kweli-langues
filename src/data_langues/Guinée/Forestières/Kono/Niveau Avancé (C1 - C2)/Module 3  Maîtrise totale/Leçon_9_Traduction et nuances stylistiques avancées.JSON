@@ -1,170 +1,218 @@
 {
   "lesson_id": "C1_M3_L9",
-  "level": "Niveau Avancé (C1-C2)",
+  "level": "Avancé (C1-C2)",
   "module_number": 3,
   "module_title": "Maîtrise totale",
   "lesson_number": 9,
   "title": "Traduction et nuances stylistiques avancées",
   "learning_objectives": [
-    "Maîtriser l'art de la transposition stylistique entre le français et le kono",
-    "Utiliser les figures de style avancées (euphémismes, hyperboles traditionnelles, parallélismes)",
-    "Distinguer les variations fines de sens induites par le rythme et la focalisation discursive"
+    "Identifier les pièges de traduction liés aux différences typologiques entre le français et le kono",
+    "Restituer les nuances tonales et aspectuelles perdues dans une traduction en français",
+    "Adapter le registre d'une traduction selon le contexte culturel"
   ],
   "phonetic_focus": {
-    "key_sounds": "La particule de focalisation ultime 'gɓɛ́-lɛ́' exige une tension labio-vélaire maximale sur le premier phonème /g͡b/, immédiatement suivie d'une harmonisation tonale haute. L'allongement de la voyelle finale dans 'tìɛ̀-tìɛ̀' (vérité absolue) doit être pur et sans diphtongaison.",
-    "common_pitfalls": "Le piège majeur à ce niveau est d'adopter un débit monotone. Le kono de haut style utilise des pauses dramatiques et des accélérations rythmiques calquées sur la structure syllabique pour surcharger sémantiquement les mots clés."
+    "key_sounds": "La traduction orale doit restituer le ton exact du kono, car un mot mal tonalisé peut changer complètement de sens (ex. klɔ́ŋ 'savoir, présent' vs klɔ̀ŋ 'savoir, passé') — un défi que l'écrit français ne rencontre pas.",
+    "common_pitfalls": "Perdre les nuances aspectuelles (progressif -i, futur wɛɛ̀́) en traduisant systématiquement par un présent français neutre, ce qui aplatit les distinctions temporelles fines du kono."
   },
   "vocabulary": [
     {
-      "word_id": "v9_1",
-      "term": "tìɛ̀-tìɛ̀",
-      "phonetic_api": "/tìɛ̀.tìɛ̀/",
-      "phonetic_simple": "TIEE-TIEE",
-      "translation": "la vérité pure / l'authenticité absolue / l'essence des choses",
-      "example_sentence": "wóò nìí á káá tìɛ̀-tìɛ̀ le",
-      "phonetic_api_example": "/wóː nìː á káː tìɛ̀.tìɛ̀ le/",
-      "example_translation": "Cette parole est l'expression même de la vérité absolue."
+      "word_id": "v1",
+      "term": "traduction littérale vs. traduction libre",
+      "phonetic_api": "—",
+      "phonetic_simple": "—",
+      "translation": "distinction méthodologique essentielle : le kono privilégie souvent des constructions locatives ou sérielles qui perdraient leur sens en traduction mot-à-mot",
+      "example_sentence": "Kɔ̀ndí gáa ɲá pɔ́ → littéral : 'la faim est sur moi' ; libre : 'j'ai faim'.",
+      "example_phonetic": "/kɔ̀ndí gáː ɲá pɔ́/",
+      "example_translation": "Illustration du choix entre fidélité structurelle et fluidité du sens."
     },
     {
-      "word_id": "v9_2",
-      "term": "gɓɛ́-lɛ́",
-      "phonetic_api": "/g͡ɓɛ́.lɛ́/",
-      "phonetic_simple": "GBE-LE",
-      "translation": "particule de focalisation exclusive (uniquement / précisément / en personne)",
-      "example_sentence": "ń ɓáá gɓɛ́-lɛ́ le nà-ò",
-      "phonetic_api_example": "/ń ɓáː ɡ͡ɓɛ́.lɛ́ le nà.ò/",
-      "example_translation": "C'est mon père en personne qui est venu."
+      "word_id": "v2",
+      "term": "klɔ́ŋ / klɔ̀ŋ",
+      "phonetic_api": "/klɔ́ŋ/ ~ /klɔ̀ŋ/",
+      "phonetic_simple": "KLONG haut/bas",
+      "translation": "paire minimale tonale illustrant une nuance temporelle intraduisible sans contexte en français écrit (kono attesté)",
+      "example_sentence": "Ŋa klɔ́ŋ (je sais) / Ŋa klɔ̀ŋ (je savais).",
+      "example_phonetic": "/ŋá klɔ́ŋ/ ~ /ŋá klɔ̀ŋ/",
+      "example_translation": "Seul le ton distingue le présent du passé ici."
     },
     {
-      "word_id": "v9_3",
-      "term": "lɔ́-wòò-kɛ́ɛ́",
-      "phonetic_api": "/lɔ̀.wòː.kɛ́ː/",
-      "phonetic_simple": "LO-WOO-KEE",
-      "translation": "l'éloquence / la haute rhétorique / l'art de ciseler le discours",
-      "example_sentence": "á lɔ́-wòò-kɛ́ɛ́ káá gboi kpaán",
-      "phonetic_api_example": "/á lɔ̀.wòː.kɛ́ː káː ɡ͡ɓo.i k͡pāːn/",
-      "example_translation": "Son art oratoire est d'une puissance et d'une richesse remarquables."
+      "word_id": "v3",
+      "term": "gáa...kɛ́i",
+      "phonetic_api": "/gáː … kɛ́ì/",
+      "phonetic_simple": "GA-A ... KÉ-I",
+      "translation": "construction progressive (kpele apparenté), nuance souvent aplatie en français par un simple présent",
+      "example_sentence": "Ɲá gáa klô kɛ́i → 'je travaille' (perd la nuance de 'en train de').",
+      "example_phonetic": "/ɲá gáː klô kɛ́ì/",
+      "example_translation": "Un traducteur avisé rendra cette nuance par 'je suis en train de travailler'."
     },
     {
-      "word_id": "v9_4",
-      "term": "mɛ̀lɛ̀-wòò",
-      "phonetic_api": "/mɛ̀.lɛ̀.wòː/",
-      "phonetic_simple": "ME-LE-WOO",
-      "translation": "l'allusion subtile / la métaphore cachée / l'euphémisme poétique",
-      "example_sentence": "á bɛ́ mɛ̀lɛ̀-wòò ɓɔ́á ɓɔ́",
-      "phonetic_api_example": "/á ɓɛ́ mɛ̀.lɛ̀.wòː ɓɔ́.á ɓɔ́/",
-      "example_translation": "Il s'exprime par le biais d'allusions subtiles ici."
+      "word_id": "v4",
+      "term": "kaá / ɓié",
+      "phonetic_api": "/kaá/, /ɓjé/",
+      "phonetic_simple": "KAA / BIÉ",
+      "translation": "distinction vous (pluriel/respect) vs tu (singulier), plus systématique en kono qu'en français familier moderne",
+      "example_sentence": "Kaá dɛ́? (respectueux) vs Ɓié dɛ́? (familier).",
+      "example_phonetic": "/kaá dɛ́/ ~ /ɓjé dɛ́/",
+      "example_translation": "Un traducteur doit choisir 'vous' ou 'tu' selon le contexte social, absent du kono source lui-même si mal interprété."
+    },
+    {
+      "word_id": "v5",
+      "term": "hɛ́ɣɛ",
+      "phonetic_api": "/hɛ́ɣɛ/",
+      "phonetic_simple": "HÉ-GHÉ",
+      "translation": "intensificateur (kono attesté) dont la portée exacte (« beaucoup », « vraiment », « fortement ») dépend du contexte et complique la traduction univoque",
+      "example_sentence": "Ŋa klɔ́ŋ hɛ́ɣɛ → 'je sais beaucoup' ou 'j'en suis fortement convaincu' selon le contexte.",
+      "example_phonetic": "/ŋá klɔ́ŋ hɛ́ɣɛ/",
+      "example_translation": "Nuance à choisir selon le registre du texte source."
+    },
+    {
+      "word_id": "v6",
+      "term": "dɔ́mɔ́",
+      "phonetic_api": "/dɔ́mɔ́/",
+      "phonetic_simple": "DO-MO",
+      "translation": "connecteur polysémique (« aussi », « ensuite », « plus que »), dont la traduction varie fortement selon la construction (kpele apparenté)",
+      "example_sentence": "Ɲá lɔ́ɔ X dɔ́mɔ́ Y (plus que) vs Ɲá klô kɛ́, dɔ́mɔ́ ŋa súku kɛ́ (aussi).",
+      "example_phonetic": "/dɔ́mɔ́/",
+      "example_translation": "Un même mot source à traduire différemment selon le contexte syntaxique."
+    },
+    {
+      "word_id": "v7",
+      "term": "wɛɛ̀́",
+      "phonetic_api": "/wɛ̀ː/",
+      "phonetic_simple": "OUÉ-É",
+      "translation": "marqueur de futur (kono attesté), à ne pas confondre avec un simple futur français neutre : porte souvent une nuance de certitude/planification",
+      "example_sentence": "Ɲá wɛɛ̀́ pá → 'je viendrai' (futur planifié, plus fort qu'un futur hypothétique).",
+      "example_phonetic": "/ɲá wɛ̀ːpá/",
+      "example_translation": "Nuance de certitude à restituer si possible en traduction ('je viendrai certainement')."
+    },
+    {
+      "word_id": "v8",
+      "term": "registre",
+      "phonetic_api": "—",
+      "phonetic_simple": "—",
+      "translation": "niveau de langue (familier, courant, soutenu) à adapter lors de la traduction selon le contexte culturel du texte source kono/kpele",
+      "example_sentence": "É- (singulier) vs Ka- (pluriel/respect) signalent déjà un registre dans le texte source à respecter en traduction.",
+      "example_phonetic": "—",
+      "example_translation": "Le traducteur doit choisir un registre français cohérent avec les marques de politesse kono."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p9_1",
-      "original": "í máá lɔ́-wòò nìí mɛ̀lɛ̀ nìí gíí, á gbíán káá tìɛ̀-tìɛ̀ yíé",
-      "phonetic_api": "/í máː lɔ̀.wòː nìː mɛ̀.lɛ̀ nìː ɡíː á ɡ͡ɓí.án káː tìɛ̀.tìɛ̀ jí.é/",
-      "phonetic_simple": "I MAA LO-WOO NII ME-LE NII GII A GBIAN KAA TIEE-TIEE YIEE",
-      "translation": "N'interprète pas cette déclaration de manière superficielle, son fondement réside dans la vérité pure.",
-      "context": "Guider un traducteur ou un auditeur vers le sens ésotérique d'un texte sacré."
+      "phrase_id": "p1",
+      "original": "Kɔ̀ndí gáa ɲá pɔ́.",
+      "phonetic_api": "/kɔ̀ndí gáː ɲá pɔ́/",
+      "phonetic_simple": "KON-DI GA-A NYA PO",
+      "translation": "J'ai faim. (traduction libre) / 'La faim est sur moi.' (traduction littérale)",
+      "context": "Exemple classique de choix traductologique entre fidélité structurelle et naturel de la langue cible."
     },
     {
-      "phrase_id": "p9_2",
-      "original": "á lɔ́-wòò-kɛ́ɛ́ nìí gɓɛ́-lɛ́ le á kɛ́-ò àá lɔ́ gbàn-wòò yíé míé",
-      "phonetic_api": "/á lɔ̀.wòː.kɛ́ː nìː ɡ͡ɓɛ́.lɛ́ le á kɛ́.ò àː lɔ́ ɡ͡ɓàn.wòː jí.é mí.é/",
-      "phonetic_simple": "A LO-WOO-KEE NII GBE-LE LE A KE-O AA LO GBAN-WOO YIEE MIEE",
-      "translation": "C'est précisément sa haute éloquence qui nous a permis de parvenir au consensus à présent.",
-      "context": "Louer les compétences diplomatiques d'un médiateur à la fin d'une crise majeure."
+      "phrase_id": "p2",
+      "original": "Ŋa klɔ́ŋ hɛ́ɣɛ.",
+      "phonetic_api": "/ŋá klɔ́ŋ hɛ́ɣɛ/",
+      "phonetic_simple": "NGA KLONG HÉ-GHÉ",
+      "translation": "J'en suis fortement convaincu. / Je le sais très bien.",
+      "context": "Deux traductions possibles selon que hɛ́ɣɛ porte sur l'intensité épistémique ou sur la simple quantité de savoir."
     },
     {
-      "phrase_id": "p9_3",
-      "original": "tɛ́ɛ́-mɔ̀ɔ̀ bɛ́ mɛ̀lɛ̀-wòò kɛ́á mbɔ́-ò-lá gbɛ́lɛ́-wóò tɛ́ sɔ̀sɔ́á lá",
-      "phonetic_api": "/tɛ́ː.mɔ̀ː ɓɛ́ mɛ̀.lɛ̀.wòː kɛ́.á mɓɔ́.ò.lá ɡ͡ɓɛ́.lɛ́.wóː tɛ́ sɔ̀.sɔ́.á lá/",
-      "phonetic_simple": "TEE-MOO BE ME-LE-WOO KEA MBO-O-LA GBE-LE-WOO TE SOSOA LA",
-      "translation": "Le sage s'exprime par métaphores subtiles parce que la parole solennelle ne saurait être contredite directement.",
-      "context": "Expliquer les règles de la bienséance rhétorique lors des rituels traditionnels de Lola."
+      "phrase_id": "p3",
+      "original": "Ɲá gáa klô kɛ́i.",
+      "phonetic_api": "/ɲá gáː klô kɛ́ì/",
+      "phonetic_simple": "NYA GA-A KLO KÉ-I",
+      "translation": "Je suis en train de travailler. (et non simplement 'je travaille')",
+      "context": "Restitution nécessaire de la nuance progressive, souvent perdue par un traducteur pressé."
     },
     {
-      "phrase_id": "p9_4",
-      "original": "fɔ́ àá lɔ́-wòò-gbíán nìí scɛ́ gíàn-gìàn à tìɛ̀-tìɛ̀ lá kpaán",
-      "phonetic_api": "/fɔ́ àː lɔ̀.wòː.ɡ͡ɓí.án nìː sɛ́ ɡí.àn.ɡì.àn à tìɛ̀.tìɛ̀ lá k͡pāːn/",
-      "phonetic_simple": "FO AA LO-WOO-GBIAN NII SE GIAN-GIAN A TIEE-TIEE LA KPAAN",
-      "translation": "Il est indispensable de transcrire cette langue originelle en respectant scrupuleusement son authenticité absolue.",
-      "context": "Déclaration d'intention scientifique ou patrimoniale sur la préservation du kono littéraire."
+      "phrase_id": "p4",
+      "original": "Kaá dɛ́?",
+      "phonetic_api": "/kaá dɛ́/",
+      "phonetic_simple": "KAA DÉ",
+      "translation": "Et vous ? (registre respectueux) — à ne jamais traduire par 'et toi' dans un contexte formel",
+      "context": "Illustration du choix de registre en traduction, guidé par la morphologie kono elle-même."
     }
   ],
   "grammar_points": [
     {
-      "concept": "La focalisation restrictive exclusive avec 'gɓɛ́-lɛ́'",
-      "explanation": "Au niveau C2, pour isoler un sujet ou une cause de manière catégorique et rejeter toute autre alternative, on insère la particule d'emphase 'gɓɛ́-lɛ́' immédiatement après l'élément à mettre en relief, suivie de la particule de focalisation de base 'le'.",
+      "concept": "Les pièges de traduction liés aux différences typologiques",
+      "explanation": "Le kono, comme les autres langues mandées, exprime par des constructions locatives, sérielles et tonales des nuances que le français encode différemment (verbes dédiés, temps grammaticaux séparés, adverbes). Une traduction de qualité doit donc analyser la fonction grammaticale réelle de chaque élément kono avant de choisir l'équivalent français le plus fidèle au sens ET au registre, plutôt que de traduire mécaniquement mot à mot.",
       "rules": [
-        "Sujet / Cause + gɓɛ́-lɛ́ + le + Reste de la proposition."
+        "Identifier si une construction locative (gáa + pɔ́) est utilisée au sens propre (lieu) ou figuré (sentiment, état) avant de traduire.",
+        "Restituer les nuances aspectuelles (progressif -i, futur wɛɛ̀́) par des moyens grammaticaux français adaptés plutôt que par un temps neutre.",
+        "Respecter les marques de registre (é- singulier vs ka- pluriel/respect) en choisissant 'tu' ou 'vous' de façon cohérente en français."
       ],
       "examples": [
         {
-          "structure": "nìí gɓɛ́-lɛ́ le...",
-          "phonetic_api": "/nìː ɡ͡ɓɛ́.lɛ́ le/",
-          "meaning": "C'est ceci et rien d'autre que..."
-        }
-      ]
-    },
-    {
-      "concept": "Le redoublement sémantique d'absoluité ('tìɛ̀-tìɛ̀')",
-      "explanation": "Pour élever un concept nominal ou qualificatif au rang d'absolu philosophique ou d'invariance totale, la racine lexicale subit un redoublement tonal bas complet, éliminant toute nuance de relativité.",
-      "rules": [
-        "Racine à ton bas + Racine identique à ton bas = Concept absolu."
-      ],
-      "examples": [
-        {
-          "structure": "tìɛ̀ (vrai) -> tìɛ̀-tìɛ̀",
-          "phonetic_api": "/tìɛ̀.tìɛ̀/",
-          "meaning": "L'authentique vérité (la vérité absolue)"
+          "structure": "Construction locative figurée",
+          "phonetic_api": "/gáː … pɔ́/",
+          "meaning": "à traduire par un état/sentiment, non par une localisation physique"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Le Maître Orateur",
-      "text": "Ń lóŋ, í lɔ́-wòò-kɛ́ɛ́ nìí káá lɔ́ gboi, kɔ̀nùn fɔ́ í á lɔ́-wòò-gbíán kálá á tìɛ̀-tìɛ̀ lá kpaán.",
-      "phonetic_api": "/ń lóŋ í lɔ̀.wòː.kɛ́ː nìː káː lɔ́ ɡ͡ɓo.i kɔ̀n.ùn fɔ́ í á lɔ̀.wòː.ɡ͡ɓí.án ká.lá á tìɛ̀.tìɛ̀ lá k͡pāːn/",
-      "phonetic_simple": "N LONG I LO-WOO-KEE NII KAA LO GBOI KONOUN FO I A LO-WOO-GBIAN KALA A TIEE-TIEE LA KPAAN",
-      "translation": "Mon enfant, ton éloquence est d'un grand poids, cependant tu dois impérativement analyser la langue originelle dans son authenticité absolue."
+      "speaker": "Traducteur",
+      "text": "Comment rendre 'Kɔ̀ndí gáa ɲá pɔ́' en français soutenu ?",
+      "phonetic_api": "—",
+      "phonetic_simple": "—",
+      "translation": "Question méthodologique typique d'un exercice de traduction avancée."
     },
     {
-      "speaker": "Le Disciple",
-      "text": "Ń ɓáá, ń bɛ́ mɛ̀lɛ̀-wòò mɛ̀ɛ̀á gíàn-gìàn. Àá ɓáá-ò wó wóò gɓɛ́-lɛ́ le ń bɛ́ á fɛ́ɛ́á.",
-      "phonetic_api": "/ń ɓáː ń ɓɛ́ mɛ̀.lɛ̀.wòː mɛ̀ː.á ɡí.àn.ɡì.àn àː ɓáː.ò wó wóː ɡ͡ɓɛ́.lɛ́ le ń ɓɛ́ á fɛ́ː.á/",
-      "phonetic_simple": "N BHAA N BE ME-LE-WOO MEEA GIAN-GIAN AA BHAA-O WO WOO GBE-LE LE N BE A FEE-A",
-      "translation": "Mon père, j'intègre sagement tes allusions subtiles. C'est précisément la parole même de nos ancêtres que je cherche à appréhender."
+      "speaker": "Formateur",
+      "text": "En registre soutenu : 'La faim me tenaille.' En registre courant : 'J'ai faim.' Le choix dépend du contexte du texte source.",
+      "phonetic_api": "—",
+      "phonetic_simple": "—",
+      "translation": "Illustration de l'adaptation du registre en traduction."
     },
     {
-      "speaker": "Le Maître Orateur",
-      "text": "Kénɛ̀ le kpaán ! Kpɛ́á í kɛ́-ò nìí gíí-gíí, vóòn wá màyá-màyá ɓɔ́ í yíé. Wóò nìí á lɔ́-ò lɔ́ kpaán !",
-      "phonetic_api": "/kɛ́nɛ̀ le k͡pāːn k͡pɛ́.á í kɛ́.ò nìː ɡíː.ɡíː vóːn wá mà.já.mà.já ɓɔ́ í jí.é wóː nìː á lɔ́.ò lɔ́ k͡pāːn/",
-      "phonetic_simple": "KENE LE KPAAN KPE-A I KE-O NII GII-GII VOON WA MA-YA-MA-YA BO I YIEE WOO NII A LO-O LO KPAAN",
-      "translation": "C'est admirable ! Si tu agis exactement de la sorte, que les ancêtres répandent leurs bénédictions sur toi. Cette parole est éternellement scellée !"
+      "speaker": "Traducteur",
+      "text": "Et pour 'Ɲá wɛɛ̀́ pá', qui porte une nuance de certitude ?",
+      "phonetic_api": "—",
+      "phonetic_simple": "—",
+      "translation": "Question sur la restitution des nuances modales du futur kono."
+    },
+    {
+      "speaker": "Formateur",
+      "text": "On peut préciser : 'Je viendrai, c'est certain' plutôt qu'un simple 'je viendrai', pour restituer la force du marqueur wɛɛ̀́.",
+      "phonetic_api": "—",
+      "phonetic_simple": "—",
+      "translation": "Stratégie de compensation traductologique pour une nuance modale."
     }
   ],
   "cultural_notes": [
-    "Au pinacle de la tradition konon dans la région forestière de Lola, la parole ultime se love dans le secret et le raffinement. Les grands initiés ne s'abaissent jamais au langage littéral ou direct lorsqu'ils abordent des sujets d'importance vitale. Ils déploient le 'mɛ̀lɛ̀-wòò' (l'allusion poétique), un style hautement chiffré qui protège le savoir sacré des profanes et exige du récepteur une culture immense et une écoute fine pour en décoder la structure et la vérité pure ('tìɛ̀-tìɛ̀')."
+    "La traduction depuis une langue à tradition orale comme le kono vers une langue à forte tradition écrite comme le français pose des défis méthodologiques particuliers : de nombreuses nuances tonales, aspectuelles et pragmatiques n'ont pas d'équivalent structurel direct et exigent des choix de compensation stylistique réfléchis.",
+    "Le respect du registre social encodé dans la morphologie même du kono (formes plurielles de politesse) est une dimension culturelle importante que toute traduction sérieuse doit chercher à préserver, sous peine d'aplatir des nuances de respect essentielles dans la société source."
   ],
   "exercises": [
     {
-      "exercise_id": "ex9_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quelle nuance stylistique majeure apporte le redoublement dans 'tìɛ̀-tìɛ̀' ?",
+      "question": "Quelle nuance est perdue si on traduit 'Ɲá gáa klô kɛ́i' simplement par 'je travaille' ?",
       "options": [
-        "Il indique une répétition ennuyeuse",
-        "Il transforme le concept en une vérité ou authenticité absolue",
-        "Il marque le doute et l'hésitation"
+        "La nuance progressive ('en train de')",
+        "Le genre du sujet",
+        "Le nombre (singulier/pluriel)"
       ],
-      "correct_answer": "Il transforme le concept en une vérité ou authenticité absolue",
-      "explanation": "Le redoublement à ton bas en kono supérieur sert d'intensificateur philosophique pour désigner l'essence absolue et pure d'une réalité."
+      "correct_answer": "La nuance progressive ('en train de')",
+      "explanation": "Le suffixe -i associé à gáa marque l'aspect progressif, une nuance perdue par une traduction au présent simple neutre."
     },
     {
-      "exercise_id": "ex9_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "á [ ___ ] nìí gɓɛ́-lɛ́ le á kɛ́-ò àá lɔ́ gbàn-wòò yíé (C'est précisément sa haute éloquence qui nous a menés à l'accord)",
-      "correct_answer": "lɔ́-wòò-kɛ́ɛ́",
-      "hint": "Le concept nominal désignant la haute rhétorique ou l'art oratoire ciselé"
+      "sentence_with_blank": "Ŋa klɔ́ŋ (présent) vs Ŋa ___ (passé) : seul le ___ change.",
+      "correct_answer": "klɔ̀ŋ ; ton",
+      "hint": "Le contraste tonal haut/bas distingue le présent du passé pour ce verbe."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Maria Konoshenko, « Field Notes on Kono, a Southwestern Mande Lect of Forest Guinea », Mandenkan 57 (2017), pp. 77-107",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan57/konoshenko57.pdf"
+    },
+    {
+      "label": "Maria Konoshenko, « Dictionnaire kpele de la Guinée (guerzé) – français », Mandenkan 62 (2019/2020)",
+      "url": "https://journals.openedition.org/mandenkan/2091"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Peu de lexique Kono publié couvre ce champ sémantique précis. Le contenu s'appuie ici avec prudence sur le Kpelle de Guinée (guerzé, gkp), langue mandée du sud-ouest très proche du Kono (90% de cognats lexicaux selon Konoshenko 2017) et documentée par un dictionnaire académique de 3000 entrées. Les mots kpele sont signalés comme tels et pourraient différer légèrement du Kono authentique sur certains points de phonologie ou de lexique. Les phénomènes grammaticaux cités (ton, progressif, registre) sont attestés en kono ; leur traitement en tant que problématique de traduction stylistique est une réflexion méthodologique construite pour ce cours, non un contenu directement issu d'une source académique dédiée à la traductologie du kono."
 }

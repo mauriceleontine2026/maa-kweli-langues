@@ -1,114 +1,193 @@
 {
   "lesson_id": "C1_M3_L9",
-  "level": "Niveau Avancé (C1-C2)",
+  "level": "Avancé (C1-C2)",
   "module_number": 3,
   "module_title": "Maîtrise totale",
   "lesson_number": 9,
   "title": "Traduction et nuances stylistiques avancées",
   "learning_objectives": [
-    "Traduire des concepts abstraits complexes depuis le français vers le kissi",
-    "Maîtriser les subtilités d'expression pour restituer l'élégance stylistique",
-    "Éviter les contresens lors du passage d'un registre formel à un autre"
+    "Comparer deux styles de traduction attestés (biblique/juridique international) en kissi",
+    "Identifier les choix stylistiques des traducteurs (réemploi lexical, structure en deux volets)",
+    "Formuler une réflexion critique sur les limites de la traduction en langue peu dotée"
   ],
   "phonetic_focus": {
-    "key_sounds": "L'élégance suprême du style kissi repose sur la modulation des tons fins en fin de période oratoire. Le ton descendant-haut exprime la nuance poétique ou l'ironie courtoise.",
-    "common_pitfalls": "Veillez à ne pas aplatir les structures tonales lors de la traduction de concepts abstraits, ce qui viderait le discours de son authenticité émotionnelle."
+    "key_sounds": "Le style soutenu des textes traduits (Omniglot, Master Any Language) enchaîne des propositions à l'aide de connecteurs (dee, kani, baa) qui doivent être liés en un débit continu, sans pause artificielle entre les propositions coordonnées.",
+    "common_pitfalls": "Les francophones marquent souvent une pause après chaque connecteur comme en français écrit, alors que le kissi oral attesté lie plus étroitement les propositions coordonnées par 'dee'."
   },
   "vocabulary": [
     {
-      "word_id": "v27_1",
-      "term": "kɔ̄lndɔwɔ",
-      "phonetic_api": "/kɔ̄l.ⁿdɔ.wɔ/",
-      "phonetic_simple": "KOL-NDO-WO",
-      "translation": "sagesse profonde / paix intérieure / réflexion mûrie",
-      "example_sentence": "Wana kɔ̄lndɔwɔ o nɔ fassa pilɔ.",
-      "example_phonetic": "/wa.na kɔ̄l.ⁿdɔ.wɔ o nɔ fa.sa pi.lɔ/",
-      "example_translation": "L'homme de sagesse a une approche claire."
+      "word_id": "v1",
+      "term": "dee",
+      "phonetic_api": "/deː/",
+      "phonetic_simple": "dèè",
+      "translation": "et (coordination, style soutenu/écrit)",
+      "example_sentence": "Ndu i lándíí dee ndu kɔlɔ́ɔ.",
+      "example_phonetic": "/ndu i landiː deː ndu kɔlɔː/",
+      "example_translation": "Il/elle est libre et digne."
     },
     {
-      "word_id": "v27_2",
-      "term": "dimulndɔ",
-      "phonetic_api": "/di.mul.ⁿdɔ/",
-      "phonetic_simple": "DEE-MOUL-NDO",
-      "translation": "l'art de traduire / interprétation / transmission fidèle de la parole",
-      "example_sentence": "Dimulndɔ nio o co kpou.",
-      "example_phonetic": "/di.mul.ⁿdɔ njo o tʃo kpu/",
-      "example_translation": "Ma traduction / mon interprétation est fidèle (bonne)."
+      "word_id": "v2",
+      "term": "lándíí",
+      "phonetic_api": "/landiː/",
+      "phonetic_simple": "lan-dii",
+      "translation": "libre (adjectif attesté dans le texte de la DUDH)",
+      "example_sentence": "Wanaa wo ndu i lándíí.",
+      "example_phonetic": "/wanaː wo ndu i landiː/",
+      "example_translation": "Les êtres humains naissent libres."
+    },
+    {
+      "word_id": "v3",
+      "term": "sɔɔnun",
+      "phonetic_api": "/sɔːnun/",
+      "phonetic_simple": "sô-noun",
+      "translation": "confie-toi (style religieux, impératif)",
+      "example_sentence": "Sɔɔnun Mɛlɛka.",
+      "example_phonetic": "/sɔːnun mɛlɛka/",
+      "example_translation": "Confie-toi en l'Éternel."
+    },
+    {
+      "word_id": "v4",
+      "term": "kindin",
+      "phonetic_api": "/kindin/",
+      "phonetic_simple": "kin-din",
+      "translation": "reconnais (style religieux, impératif)",
+      "example_sentence": "Kindin le hɛnan Mɛlɛka-o.",
+      "example_phonetic": "/kindin le hɛnan mɛlɛkao/",
+      "example_translation": "Reconnais-le dans toutes tes voies."
+    },
+    {
+      "word_id": "v5",
+      "term": "diambɔ́ɔ",
+      "phonetic_api": "/djambɔː/",
+      "phonetic_simple": "dyam-bô",
+      "translation": "discours, style, manière de parler (au sens large de registre)",
+      "example_sentence": "Ndu diambɔ́ɔ ndu sawaa.",
+      "example_phonetic": "/ndu djambɔː ndu sawaː/",
+      "example_translation": "Son style/discours est celui du droit (registre juridique)."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p27_1",
-      "original": "Kɔ̄lndɔwɔ o co cando bɛndɛ ning.",
-      "phonetic_api": "/kɔ̄l.ⁿdɔ.wɔ o tʃo tʃa.ⁿdo bɛⁿdɛ niŋ/",
-      "phonetic_simple": "KOL-NDO-WO O TCHO TCHAN-DO BEN-DÈ NING",
-      "translation": "La haute sagesse habite au cœur de la grande lignée.",
-      "context": "Maxime philosophique soutenue"
+      "phrase_id": "p1",
+      "original": "Wanaa wo ndu kposɔ dee ndu i lándíí, dee ndu kɔlɔ́ɔ.",
+      "phonetic_api": "/wanaː wo ndu kposɔ deː ndu i landiː deː ndu kɔlɔː/",
+      "phonetic_simple": "wa-naa wo ndou kpo-sô dèè ndou i lan-dii, dèè ndou kô-lô",
+      "translation": "Tous les êtres humains naissent libres et égaux en dignité (style juridique international, Omniglot).",
+      "context": "Exemple de style juridique/philosophique traduit."
     },
     {
-      "phrase_id": "p27_2",
-      "original": "Co mi dimulndɔ pɔndɔ maaluon.",
-      "phonetic_api": "/tʃo mi di.mul.ⁿdɔ pɔ.ⁿdɔ maː.lu.õ/",
-      "phonetic_simple": "TCHO MEE DEE-MOUL-NDO PON-DO MAA-LOU-ONN",
-      "translation": "Donne-moi une explication/traduction claire (blanche), s'il te plaît.",
-      "context": "Demander une clarification stylistique lors d'une palabre"
+      "phrase_id": "p2",
+      "original": "Sɔɔnun Mɛlɛka o ba a kɔl nɔmndo kpow.",
+      "phonetic_api": "/sɔːnun mɛlɛka o ba a kɔl nɔmndo kpow/",
+      "phonetic_simple": "sô-noun mè-lè-ka o ba a kôl nôm-ndo kpow",
+      "translation": "Confie-toi en l'Éternel de tout ton cœur (style religieux/proverbial, Master Any Language).",
+      "context": "Exemple de style religieux traduit, à comparer avec le style juridique."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Ndu diambɔ́ɔ ndu sawaa, ke ndu diambɔ́ɔ ndu Mɛlɛka ndu bɛ lé.",
+      "phonetic_api": "/ndu djambɔː ndu sawaː ke ndu djambɔː ndu mɛlɛka ndu bɛ le/",
+      "phonetic_simple": "ndou dyam-bô ndou sa-waa, ké ndou dyam-bô ndou mè-lè-ka ndou bè lé",
+      "translation": "Son style est celui du droit, mais ce n'est pas le même style que celui de la religion.",
+      "context": "Phrase d'analyse comparative entre deux registres de traduction."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Kindin le hɛnan Mɛlɛka-o.",
+      "phonetic_api": "/kindin le hɛnan mɛlɛkao/",
+      "phonetic_simple": "kin-din lé hè-nan mè-lè-ka-o",
+      "translation": "Reconnais-le dans toutes tes voies (registre religieux, impératif).",
+      "context": "Second exemple de style religieux à comparer au style juridique."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'expression stylistique de l'abstraction pure",
-      "explanation": "Les notions abstraites (justice, paix, sagesse) se construisent en kissi en associant le nom de l'organe siège du sentiment ou de la pensée ('kɔ̄l' le cœur) à des suffixes de qualification passive étendue comme '-ndɔwɔ'.",
+      "concept": "Deux styles de traduction attestés : juridique international et religieux traditionnel",
+      "explanation": "La comparaison des deux seuls grands corpus de textes traduits disponibles en kissi — la Déclaration universelle des droits de l'homme (Omniglot, registre juridique international, phrases nominales coordonnées par 'dee') et des proverbes bibliques (Master Any Language, registre religieux, verbes à l'impératif comme 'sɔɔnun'/'kindin') — révèle deux stratégies stylistiques distinctes : le premier privilégie l'énumération de qualités abstraites coordonnées, le second l'injonction directe suivie d'une promesse ou conséquence.",
       "rules": [
-        "Le substantif concret sert de base.",
-        "Le suffixe complexe bascule le mot dans le champ sémantique de l'abstraction pure."
+        "Le style juridique traduit (DUDH) enchaîne des qualités par 'dee' (et) dans une structure nominale (X naît Y et Z).",
+        "Le style religieux traduit (proverbes) utilise l'impératif direct (sɔɔnun=confie-toi, kindin=reconnais) suivi d'une conséquence introduite implicitement.",
+        "L'analyse stylistique avancée consiste à repérer ces patterns récurrents pour catégoriser un texte kissi inconnu selon son registre probable."
       ],
       "examples": [
         {
-          "structure": "Kɔ̄l + ndɔwɔ",
-          "phonetic_api": "/kɔ̄l.ⁿdɔ.wɔ/",
-          "meaning": "La sagesse / la réflexion profonde"
+          "structure": "[sujet] + [verbe] + dee + [qualité2]",
+          "phonetic_api": "/... deː .../",
+          "meaning": "structure du registre juridique/philosophique traduit"
+        },
+        {
+          "structure": "[impératif] + [complément], [conséquence implicite]",
+          "phonetic_api": "/... /",
+          "meaning": "structure du registre religieux/proverbial traduit"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "L'Orateur",
-      "text": "Simbo, dimulndɔ noo o nɔ kɔ̄lndɔwɔ fiaa fassa wa.",
-      "phonetic_api": "/si.ᵐbo di.mul.ⁿdɔ noː o nɔ kɔ̄l.ⁿdɔ.wɔ fjaː fa.sa wa/",
-      "phonetic_simple": "SEEM-BO, DEE-MOUL-NDO NOO O NO KOL-NDO-WO FIA-A FAS-SA WA.",
-      "translation": "Vénérable, ton interprétation recèle une immense sagesse de ce côté."
+      "speaker": "Étudiant",
+      "text": "Diambɔ́ɔ 'wanaa wo ndu kposɔ dee ndu i lándíí' ndu diambɔ́ɔ ndá?",
+      "phonetic_api": "/djambɔː wanaː wo ndu kposɔ deː ndu i landiː ndu djambɔː nda/",
+      "phonetic_simple": "dyam-bô wa-naa wo ndou kpo-sô dèè ndou i lan-dii ndou dyam-bô nda",
+      "translation": "Ce discours 'tous les êtres humains naissent libres' est de quel style ?"
     },
     {
-      "speaker": "L'Interprète",
-      "text": "Bale fiaa. I co cando traditional lɔ loolu kpou kpou.",
-      "phonetic_api": "/ba.le fjaː i tʃo tʃa.ⁿdo tra.di.tʃo.nal lɔ loː.lu k͡pu k͡pu/",
-      "phonetic_simple": "BA-LÉ FIA-A. EE TCHO TCHAN-DO TRA-DI-TION-NAL LO LOO-LOU KPOU KPOU.",
-      "translation": "Merci infiniment. Je vais suivre fidèlement et entièrement la voie traditionnelle."
+      "speaker": "Professeur",
+      "text": "Ndu diambɔ́ɔ ndu sawaa, kani ndu bɛ Déclaration universelle.",
+      "phonetic_api": "/ndu djambɔː ndu sawaː kani ndu bɛ deklarasjɔ̃ ynivɛrsɛl/",
+      "phonetic_simple": "ndou dyam-bô ndou sa-waa, ka-ni ndou bè déclaration universelle",
+      "translation": "C'est le style juridique, parce que c'est celui de la Déclaration universelle."
+    },
+    {
+      "speaker": "Étudiant",
+      "text": "Bee 'sɔɔnun Mɛlɛka' ndu diambɔ́ɔ ndu bɛ lé?",
+      "phonetic_api": "/beː sɔːnun mɛlɛka ndu djambɔː ndu bɛ le/",
+      "phonetic_simple": "béé sô-noun mè-lè-ka ndou dyam-bô ndou bè lé",
+      "translation": "Et 'confie-toi en l'Éternel', ce n'est pas le même style ?"
+    },
+    {
+      "speaker": "Professeur",
+      "text": "Naam, halli ndu diambɔ́ɔ ndu Mɛlɛka, ndu ndɔ̀ɔ ndu sawaa lé.",
+      "phonetic_api": "/naːm hali ndu djambɔː ndu mɛlɛka ndu ndɔː ndu sawaː le/",
+      "phonetic_simple": "naam, ha-li ndou dyam-bô ndou mè-lè-ka, ndou ndô ndou sa-waa lé",
+      "translation": "Non, c'est justement le style religieux, ce n'est pas celui du droit."
     }
   ],
   "cultural_notes": [
-    "La traduction de concepts juridiques modernes ou d'œuvres littéraires mondiales vers la langue kissi exige de recourir à des métaphores ancestrales. La clarté d'un propos est toujours qualifiée de 'blanche' ('pɔndɔ'), symbole de vérité, de paix et de transparence morale."
+    "L'existence de deux corpus traduits aussi différents (DUDH institutionnelle en kissi via Omniglot, et proverbes bibliques via Master Any Language) offre un rare terrain de comparaison stylistique pour cette langue peu dotée en textes écrits accessibles en ligne.",
+    "Cette leçon assume explicitement les limites de la démarche : en l'absence de corpus littéraire kissi profane étendu (romans, poésie, presse) disponible en ligne, l'analyse stylistique avancée doit s'appuyer sur les seuls textes traduits accessibles, ce qui ne représente qu'une fraction du registre soutenu réellement employé par les locuteurs natifs."
   ],
   "exercises": [
     {
-      "exercise_id": "ex27_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Que signifie la racine symbolique 'kɔ̄l' dans la construction des mots abstraits ?",
+      "question": "Quel connecteur caractérise le style juridique traduit de la DUDH en kissi ?",
       "options": [
-        "Le pied (action)",
-        "Le cœur (siège de la sagesse et des émotions)",
-        "La main (travail)"
+        "dee (et)",
+        "kani (parce que)",
+        "halli (seulement)"
       ],
-      "correct_answer": "Le cœur (siège de la sagesse et des émotions)",
-      "explanation": "En kissi, le cœur 'kɔ̄l' est l'ancrage linguistique et métaphorique de la pensée, des sentiments et de la sagesse."
+      "correct_answer": "dee (et)",
+      "explanation": "Attesté dans le texte de l'article 1 de la DUDH en kissi (Omniglot)."
     },
     {
-      "exercise_id": "ex27_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Co mi [ ___ ] pɔndɔ maaluon. (Donne-moi une traduction claire)",
-      "correct_answer": "dimulndɔ",
-      "hint": "Le substantif désignant l'art d'expliquer ou de traduire la parole"
+      "sentence_with_blank": "Ndu i lándíí [ ___ ] ndu kɔlɔ́ɔ. (Il/elle est libre et digne.)",
+      "correct_answer": "dee",
+      "hint": "Connecteur de coordination attesté dans le style soutenu traduit."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Omniglot — Kissi language and alphabet (Déclaration universelle des droits de l'homme, art. 1)",
+      "url": "https://www.omniglot.com/writing/kissi.htm"
+    },
+    {
+      "label": "Master Any Language — Kissi Idioms & Proverbs",
+      "url": "https://www.masteranylanguage.com/c/r/fr/Kissi/IdiomsProverbs"
+    }
+  ],
+  "confidence": "faible",
+  "confidence_note": "Les deux extraits sources (DUDH via Omniglot, proverbes bibliques via Master Any Language) sont attestés mot pour mot ; l'analyse comparative de style et le dialogue construit autour d'eux constituent une réflexion pédagogique raisonnée du rédacteur, non une citation d'une analyse stylistique publiée sur le kissi."
 }

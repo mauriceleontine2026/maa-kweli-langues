@@ -6,383 +6,236 @@
   "lesson_number": 1,
   "title": "L'utilisation des temps complexes et des modes avancés",
   "learning_objectives": [
-    "Consolider la maîtrise du résultatif (Intermédiaire Leçon 4) et du futur (Intermédiaire Leçon 5).",
-    "Utiliser le marqueur consécutif (gɛ́, yɛ́, yɛ̌...) pour enchaîner une action dont le sujet diffère de la proposition précédente.",
-    "Distinguer les différentes valeurs du verbe auxiliaire lǐ (aller) selon la construction : mouvement, ou auxiliaire de l'apodose conditionnelle.",
-    "Reconnaître les marques du subjonctif et de l'impératif dans un discours élaboré."
+    "Maîtriser le système complet des marqueurs prédicatifs (Tableau 10 de Konoshenko) : affirmatif, subjonctif, résultatif, habituel, impératif, consécutif, négatif et conditionnel",
+    "Distinguer les constructions prédicatives correspondantes (Tableau 11) : statif, prétérit, progressif et futur (káa+pâi+V-ì)",
+    "Employer correctement l'aspect résultatif-statif et la série consécutive dans un récit élaboré"
   ],
   "phonetic_focus": {
-    "key_sounds": "Le kpele possède une série complète de marqueurs prédicatifs, chacun associé à une construction tempo-aspectuelle précise : base, subjonctif, résultatif, habituel, impératif, consécutif, conditionnel. À ce niveau, il s'agit surtout de reconnaître à l'oreille à quelle série appartient un marqueur donné (par sa forme et son ton), plutôt que d'apprendre de nouveaux mots de vocabulaire.",
-    "common_pitfalls": "Les francophones ont tendance à : (1) traduire tous les temps du passé par le seul résultatif déjà connu, alors que le prétérit (verbe à ton bas grammatical) existe comme construction distincte pour la narration pure ; (2) ne pas remarquer que lǐ (aller) change de sens selon la construction : verbe de mouvement ordinaire, ou auxiliaire dans la proposition principale d'une phrase conditionnelle irréelle (« nous resterions ») ; (3) oublier que le marqueur consécutif change selon la personne du sujet de la proposition qui suit, comme tout autre marqueur prédicatif."
+    "key_sounds": "Le système guerzé encode aspect et mode par une série fermée de particules pré-verbales dont le ton (haut, bas, montant, descendant) est seul distinctif entre séries proches (ex. ŋé affirmatif vs. ŋǎ habituel vs. ŋǎa résultatif) : la maîtrise des tons est indispensable à ce niveau.",
+    "common_pitfalls": "Au niveau avancé, l'erreur la plus fréquente est de traiter ces marqueurs comme de simples équivalents des temps français (passé/présent/futur), alors qu'ils encodent des combinaisons aspect-mode propres au guerzé sans correspondance biunivoque avec le français."
   },
   "vocabulary": [
     {
       "word_id": "v1",
-      "term": "àa",
-      "phonetic_api": "/àa/",
-      "phonetic_simple": "aa",
-      "translation": "marqueur résultatif, 3SG (« il/elle a... »)",
-      "example_sentence": "Àa pɛ́lɛ tɔ́ɔ.",
-      "example_phonetic": "/àa pɛ́lɛ tɔ́ɔ/",
-      "example_translation": "Il a construit sa maison."
+      "term": "ŋé",
+      "phonetic_api": "/ŋé/",
+      "phonetic_simple": "NGUÉ",
+      "translation": "marqueur affirmatif de base, 1SG",
+      "example_sentence": "Ŋé kólô kɛ́.",
+      "example_phonetic": "/ŋé kólô kɛ́/",
+      "example_translation": "Je fais le travail (affirmatif de base)."
     },
     {
       "word_id": "v2",
-      "term": "pái",
-      "phonetic_api": "/pái/",
-      "phonetic_simple": "PA-i",
-      "translation": "marqueur du futur (káa pái + verbe)",
-      "example_sentence": "Tínaa gáa pái ↓kólo ↓kɛ̂i.",
-      "example_phonetic": "/tínaa gáa pái ↓kólo ↓kɛ̂i/",
-      "example_translation": "Je vais travailler demain."
+      "term": "ŋǎa",
+      "phonetic_api": "/ŋǎa/",
+      "phonetic_simple": "NGWA-a",
+      "translation": "marqueur résultatif, 1SG",
+      "example_sentence": "Ŋǎa kólô kɛ.",
+      "example_phonetic": "/ŋǎa kólô kɛ/",
+      "example_translation": "J'ai fini de faire le travail (résultat présent)."
     },
     {
       "word_id": "v3",
-      "term": "yɛ̌",
-      "phonetic_api": "/yɛ̌/",
-      "phonetic_simple": "yè (ton bas)",
-      "translation": "marqueur consécutif, 3SG (introduit l'action qui suit dans une même phrase)",
-      "example_sentence": "Ŋàá Pépèe tí yɛ̌ ŋwùlú ɓɛ́lâ.",
-      "example_phonetic": "/ŋàá pépèe tí yɛ̌ ŋwùlú ɓɛ́lâ/",
-      "example_translation": "J'ai ordonné à Pépé de scier l'arbre."
+      "term": "káa",
+      "phonetic_api": "/káa/",
+      "phonetic_simple": "KA-a",
+      "translation": "marqueur du progressif et du futur (káa+pâi+V-ì)",
+      "example_sentence": "Ŋé káa pâi kólôi.",
+      "example_phonetic": "/ŋé káa pâi kólôi/",
+      "example_translation": "Je vais travailler (futur)."
     },
     {
       "word_id": "v4",
       "term": "gɛ́",
       "phonetic_api": "/gɛ́/",
-      "phonetic_simple": "GÈ",
+      "phonetic_simple": "GHÉ",
       "translation": "marqueur consécutif, 1SG",
       "example_sentence": "Gɛ́ màí...",
       "example_phonetic": "/gɛ́ màí/",
-      "example_translation": "Je dis..."
+      "example_translation": "Je dis alors que... (introduit un discours rapporté après une action précédente)."
     },
     {
       "word_id": "v5",
-      "term": "lǐ",
-      "phonetic_api": "/lǐ/",
-      "phonetic_simple": "li (ton bas)",
-      "translation": "aller, partir ; auxiliaire de l'apodose conditionnelle irréelle",
-      "example_sentence": "Gwè lí lɛ̀ɛ bɛ̀ɛláalèe.",
-      "example_phonetic": "/gwè lí lɛ̀ɛ bɛ̀ɛláalèe/",
-      "example_translation": "Nous resterions à la maison."
+      "term": "vé",
+      "phonetic_api": "/vé/",
+      "phonetic_simple": "VÉ",
+      "translation": "marqueur négatif de base, 1SG",
+      "example_sentence": "Vé kólô kɛ́.",
+      "example_phonetic": "/vé kólô kɛ́/",
+      "example_translation": "Je ne fais pas le travail."
     },
     {
       "word_id": "v6",
       "term": "ě",
       "phonetic_api": "/ě/",
-      "phonetic_simple": "è (ton bas)",
-      "translation": "marqueur du subjonctif, 3e personne",
-      "example_sentence": "ě",
-      "example_phonetic": "/ě/",
-      "example_translation": "(marqueur du subjonctif)"
+      "phonetic_simple": "É (ton montant)",
+      "translation": "marqueur subjonctif, 2SG",
+      "example_sentence": "Màánɛ̀ɛ́ è kúlo.",
+      "example_phonetic": "/màánɛ̀ɛ́ è kúlo/",
+      "example_translation": "Il faut qu'il sorte (subjonctif après màánɛ̀ɛ́)."
     },
     {
       "word_id": "v7",
-      "term": "kàŋ",
-      "phonetic_api": "/kàŋ/",
-      "phonetic_simple": "kang",
-      "translation": "donc, ainsi",
-      "example_sentence": "Kà kɛ́ kàŋ́ gíli↓gílî kɛ̀ɛhíŋmɛni hù.",
-      "example_phonetic": "/kà kɛ́ kàŋ́ gíli↓gílî kɛ̀ɛhíŋmɛni hù/",
-      "example_translation": "Soyez donc prudents dans les champs."
+      "term": "ŋà",
+      "phonetic_api": "/ŋà/",
+      "phonetic_simple": "NGA",
+      "translation": "marqueur conditionnel/irréel, 1SG (« si je »)",
+      "example_sentence": "Ŋà pɛ́li, à yálî.",
+      "example_phonetic": "/ŋà pɛ́li à yálî/",
+      "example_translation": "Si je le pliais, il casserait."
     },
     {
       "word_id": "v8",
-      "term": "lî",
-      "phonetic_api": "/lî/",
-      "phonetic_simple": "lî",
-      "translation": "jadis, autrefois",
-      "example_sentence": "lî",
-      "example_phonetic": "/lî/",
-      "example_translation": "jadis, autrefois"
-    },
-    {
-      "word_id": "v9",
-      "term": "kɛ́laa",
-      "phonetic_api": "/kɛ́laa/",
-      "phonetic_simple": "KÈ-laa",
-      "translation": "mais, cependant",
-      "example_sentence": "kɛ́laa",
-      "example_phonetic": "/kɛ́laa/",
-      "example_translation": "mais, cependant"
-    },
-    {
-      "word_id": "v10",
-      "term": "wàla",
-      "phonetic_api": "/wàla/",
-      "phonetic_simple": "wa-la",
-      "translation": "marqueur de la construction conditionnelle négative (sinon)",
-      "example_sentence": "À wàla kɛ́ tíi.",
-      "example_phonetic": "/à wàla kɛ́ tíi/",
-      "example_translation": "Sinon."
-    },
-    {
-      "word_id": "v11",
-      "term": "gíli↓gílî",
-      "phonetic_api": "/gíli↓gílî/",
-      "phonetic_simple": "GI-li gi-lî",
-      "translation": "prudent, vigilant",
-      "example_sentence": "Kà kɛ́ kàŋ́ gíli↓gílî kɛ̀ɛhíŋmɛni hù.",
-      "example_phonetic": "/kà kɛ́ kàŋ́ gíli↓gílî kɛ̀ɛhíŋmɛni hù/",
-      "example_translation": "Soyez donc prudents dans les champs."
-    },
-    {
-      "word_id": "v12",
-      "term": "màáhɔ̀lɔɓó",
-      "phonetic_api": "/màáhɔ̀lɔɓó/",
-      "phonetic_simple": "ma-a-HO-lo-ɓO",
-      "translation": "parce que",
-      "example_sentence": "Zéɠe ↓hílê hwàa à yɛ́ màáhɔ̀lɔɓó pàlakpɔ́lɔɔŋ ↓gáa yɛ̂.",
-      "example_phonetic": "/zéɣe ↓hílê hwàa à yɛ́ màáhɔ̀lɔɓó pàlakpɔ́lɔɔŋ ↓gáa yɛ̂/",
-      "example_translation": "Tu n'es pas l'homme que je dois épouser, parce que tu as des cicatrices."
+      "term": "hwólo",
+      "phonetic_api": "/hwólo/",
+      "phonetic_simple": "HWO-lo",
+      "translation": "soleil",
+      "example_sentence": "Hwólo káa hɔ̀ɔ̂i.",
+      "example_phonetic": "/hwólo káa hɔ̀ɔ̂i/",
+      "example_translation": "Le soleil brille (progressif attesté)."
     }
   ],
   "common_phrases": [
     {
       "phrase_id": "p1",
-      "original": "Tùló à pù kɛ̀ tínaai, gwè lí lɛ̀ɛ bɛ̀ɛláalèe.",
-      "phonetic_api": "/tùló à pù kɛ̀ tínaai gwè lí lɛ̀ɛ bɛ̀ɛláalèe/",
-      "phonetic_simple": "TOU-lo a pou kè TI-naa-i, gwè li lè-è ɓÈ-È-la-a-lè-è",
-      "translation": "S'il pleuvait demain, nous resterions à la maison.",
-      "context": "Formuler une hypothèse sur le futur et sa conséquence"
+      "original": "Hwólo káa hɔ̀ɔ̂i.",
+      "phonetic_api": "/hwólo káa hɔ̀ɔ̂i/",
+      "phonetic_simple": "HWO-lo KA-a HO-o-i",
+      "translation": "Le soleil brille.",
+      "context": "Exemple attesté de construction progressive (káa+V-ì)."
     },
     {
       "phrase_id": "p2",
       "original": "Yà gbìniŋ, à yálî.",
       "phonetic_api": "/yà gbìniŋ à yálî/",
-      "phonetic_simple": "ya GBI-ning, a YA-lî",
+      "phonetic_simple": "ya GBI-ning a YA-li",
       "translation": "Si tu le courbes, il casse.",
-      "context": "Décrire une relation de cause à effet"
+      "context": "Exemple attesté de construction conditionnelle réelle (yà = si tu)."
     },
     {
       "phrase_id": "p3",
-      "original": "Ŋàá Pépèe tí yɛ̌ ŋwùlú ɓɛ́lâ.",
-      "phonetic_api": "/ŋàá pépèe tí yɛ̌ ŋwùlú ɓɛ́lâ/",
-      "phonetic_simple": "nga-a PÉ-pè-è ti yè ngwou-LOU BÈ-lâ",
-      "translation": "J'ai ordonné à Pépé de scier l'arbre.",
-      "context": "Rapporter un ordre en construction consécutive"
+      "original": "Máatɛɠa ↓lí.",
+      "phonetic_api": "/máatɛɠa ↓lí/",
+      "phonetic_simple": "MA-a-TÉ-gha li",
+      "translation": "C'est mon interdit.",
+      "context": "Construction stative (marqueur zéro + copule lí)."
     },
     {
       "phrase_id": "p4",
-      "original": "Gɛ́ màí...",
-      "phonetic_api": "/gɛ́ màí/",
-      "phonetic_simple": "gè ma-I",
-      "translation": "Je dis...",
-      "context": "Introduire un discours rapporté (marqueur quotatif 1SG)"
+      "original": "Ŋà ŋwúŋmɛ mà, màáhɔ̀lɔɓó ŋà Pépèe màakpɔ́ŋ màaɓó.",
+      "phonetic_api": "/ŋà ŋwúŋmɛ mà màáhɔ̀lɔɓó ŋà pépèe màakpɔ́ŋ màaɓó/",
+      "phonetic_simple": "nga NGWOU-ngmè ma, ma-a-HO-lo-BO nga pé-pè-è MA-a-KPONG MA-a-BO",
+      "translation": "Je le respecte, c'est pourquoi j'ai aidé Pépé.",
+      "context": "Construction attestée combinant résultatif et connecteur causal màáhɔ̀lɔɓó."
     },
     {
       "phrase_id": "p5",
-      "original": "Kà kɛ́ kàŋ́ gíli↓gílî kɛ̀ɛhíŋmɛni hù.",
-      "phonetic_api": "/kà kɛ́ kàŋ́ gíli↓gílî kɛ̀ɛhíŋmɛni hù/",
-      "phonetic_simple": "ka ké kang GI-li gi-lî kè-è-HING-mè-ni hou",
-      "translation": "Soyez donc prudents dans les champs.",
-      "context": "Donner une consigne collective avec le connecteur kàŋ"
-    },
-    {
-      "phrase_id": "p6",
-      "original": "À wàla kɛ́ tíi.",
-      "phonetic_api": "/à wàla kɛ́ tíi/",
-      "phonetic_simple": "a wa-la ké TI-i",
-      "translation": "Sinon.",
-      "context": "Introduire l'alternative négative d'une condition"
-    },
-    {
-      "phrase_id": "p7",
-      "original": "Zéɠe ↓hílê hwàa à yɛ́ màáhɔ̀lɔɓó pàlakpɔ́lɔɔŋ ↓gáa yɛ̂.",
-      "phonetic_api": "/zéɣe ↓hílê hwàa à yɛ́ màáhɔ̀lɔɓó pàlakpɔ́lɔɔŋ ↓gáa yɛ̂/",
-      "phonetic_simple": "zé-ghè hi-LÊ hwaa a yè ma-a-HO-lo-ɓO pa-la-kpO-lo-ong gaa yè",
-      "translation": "Tu n'es pas l'homme que je dois épouser, parce que tu as des cicatrices.",
-      "context": "Justifier un refus avec màáhɔ̀lɔɓó (parce que)"
-    },
-    {
-      "phrase_id": "p8",
-      "original": "È lí è péne è pá.",
-      "phonetic_api": "/è lí è péne è pá/",
-      "phonetic_simple": "è li è PÉ-nè è pa",
-      "translation": "Il est parti et il est revenu.",
-      "context": "Décrire un aller-retour en une seule phrase"
+      "original": "Gɛ́ màí...",
+      "phonetic_api": "/gɛ́ màí/",
+      "phonetic_simple": "ghé ma-i",
+      "translation": "Je dis alors que...",
+      "context": "Marqueur consécutif introduisant un discours rapporté."
     }
   ],
   "grammar_points": [
     {
-      "concept": "Récapitulatif : les grandes séries de marqueurs prédicatifs",
-      "explanation": "Le kpele organise l'essentiel de sa grammaire tempo-aspectuelle et modale autour de séries de marqueurs prédicatifs, chacune associée à une construction distincte et à une forme verbale spécifique (base pure, base à ton {B}, ou suffixée).",
+      "concept": "Le système des neuf séries de marqueurs prédicatifs (Tableau 10)",
+      "explanation": "Konoshenko (2019) établit neuf séries de marqueurs prédicatifs distinctes selon la personne et le mode/aspect : I. Affirmatif de base, II. Subjonctif, III. Résultatif, IV. Habituel, V. Impératif, VI. Consécutif, VII. Négatif de base, VIII. Habituel négatif, IX. Conditionnel/irréel. Chaque série a sa propre forme pour les sept personnes grammaticales (1SG, 2SG, 3SG, 1PL.INCL, 1PL.EXCL, 2PL, 3PL).",
       "rules": [
-        "Base (déjà vue depuis la Leçon 1 Débutant) : sert aux questions et à l'expression habituelle.",
-        "Résultatif (ŋàa, yǎa, àa...) : action passée avec un résultat présent, déjà maîtrisé depuis Intermédiaire Leçon 4.",
-        "Futur (káa pái + V-ì) : action à venir, déjà maîtrisé depuis Intermédiaire Leçon 5.",
-        "Consécutif (gɛ́, yɛ́, yɛ̌...) : enchaîne une action liée à la précédente, avec sujet propre — nouveau dans cette leçon."
+        "Série I (Affirmatif) 1SG=ŋé, 2SG=é, 3SG=è, 1PL.INCL=gǔ, 1PL.EXCL=kú, 2PL=ká, 3PL=dǐ.",
+        "Série III (Résultatif) 1SG=ŋǎa, 2SG=yǎa, 3SG=ǎa, 1PL.INCL=gwǎa, 1PL.EXCL=kwǎa, 2PL=kǎa, 3PL=dǎa.",
+        "Série IX (Conditionnel) 1SG=ŋà, 2SG=yà, 3SG=à, 1PL.INCL=gwà, 1PL.EXCL=kwà, 2PL=kà, 3PL=dà."
       ],
       "examples": [
         {
-          "structure": "ŋàa / pái / yɛ̌",
-          "phonetic_api": "/ŋàa/ /pái/ /yɛ̌/",
-          "meaning": "résultatif / futur / consécutif — trois pièces d'un même système"
+          "structure": "ŋé kólô kɛ́ (I) / ŋǎa kólô kɛ (III) / ŋà kólô kɛ́ (IX, si je...)",
+          "phonetic_api": "/ŋé kólô kɛ́/, /ŋǎa kólô kɛ/, /ŋà kólô kɛ́/",
+          "meaning": "je fais le travail / j'ai fait le travail (résultat) / si je faisais le travail"
         }
       ]
     },
     {
-      "concept": "Le marqueur consécutif : enchaîner deux sujets différents",
-      "explanation": "Le consécutif (gɛ́ 1SG, yɛ́ 2SG, yɛ̌ 3SG...) introduit une seconde proposition dont le sujet peut différer de celui de la première, notamment après des verbes de parole ou d'ordre comme tí (commander).",
+      "concept": "Les constructions prédicatives complexes (Tableau 11)",
+      "explanation": "Au-delà des marqueurs simples, le guerzé combine marqueurs et morphologie verbale pour former des constructions complexes : le Progressif (káa+V-ì), le Futur (káa+pâi+V-ì, littéralement « être en train d'aller + Verbe »), et le Résultatif-statif (V+suffixe -ɔ/-a/-ɛ/-aa+V-ì).",
       "rules": [
-        "ŋàá Pépèe tí yɛ̌ ŋwùlú ɓɛ́lâ = j'ai ordonné à Pépé de scier l'arbre : yɛ̌ (3SG consécutif) introduit l'action de Pépé, distincte du sujet « je » de la première proposition.",
-        "gɛ́ màí... (je dis...) montre le même marqueur employé comme quotatif, pour introduire un discours rapporté."
+        "Futur = káa + pâi + V-ì : ŋé káa pâi kólôi = je vais travailler.",
+        "Progressif = káa + V-ì : hwólo káa hɔ̀ɔ̂i = le soleil brille (est en train de briller)."
       ],
       "examples": [
         {
-          "structure": "tí yɛ̌ [action]",
-          "phonetic_api": "/tí yɛ̌/",
-          "meaning": "ordonner que [quelqu'un d'autre fasse quelque chose]"
-        }
-      ]
-    },
-    {
-      "concept": "lǐ (aller) comme auxiliaire de l'apodose conditionnelle irréelle",
-      "explanation": "Au-delà de son sens concret de mouvement (aller, partir), lǐ sert aussi d'auxiliaire dans la proposition principale (l'apodose) d'une phrase conditionnelle irréelle, un emploi grammaticalisé bien distinct du sens de déplacement.",
-      "rules": [
-        "tùló à pù kɛ̀ tínaai, gwè lí lɛ̀ɛ bɛ̀ɛláalèe = s'il pleuvait demain, nous resterions à la maison : lí n'indique ici aucun mouvement, mais marque l'irréel de la conséquence.",
-        "Ce double emploi de lǐ illustre comment un verbe de mouvement concret peut se grammaticaliser en marqueur modal abstrait, un phénomène courant dans les langues du monde."
-      ],
-      "examples": [
-        {
-          "structure": "gwè lí lɛ̀ɛ bɛ̀ɛláalèe",
-          "phonetic_api": "/gwè lí lɛ̀ɛ bɛ̀ɛláalèe/",
-          "meaning": "nous resterions à la maison"
-        }
-      ]
-    },
-    {
-      "concept": "Les connecteurs de discours élaboré : kàŋ, kɛ́laa, màáhɔ̀lɔɓó",
-      "explanation": "Un discours avancé enchaîne ses idées avec des connecteurs logiques précis, bien au-delà du simple élɛɛ (puis) déjà connu.",
-      "rules": [
-        "kàŋ (donc, ainsi) tire une conséquence ou renforce une injonction : kà kɛ́ kàŋ́ gíli↓gílî (soyez donc prudents).",
-        "kɛ́laa (mais, cependant) marque une opposition.",
-        "màáhɔ̀lɔɓó (parce que) introduit une justification, comme dans l'exemple sur les cicatrices."
-      ],
-      "examples": [
-        {
-          "structure": "kàŋ / kɛ́laa / màáhɔ̀lɔɓó",
-          "phonetic_api": "/kàŋ/ /kɛ́laa/ /màáhɔ̀lɔɓó/",
-          "meaning": "donc / mais / parce que"
+          "structure": "ŋé káa pâi kólôi",
+          "phonetic_api": "/ŋé káa pâi kólôi/",
+          "meaning": "je vais travailler (futur)"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Personne A",
-      "text": "Tùló à pù kɛ̀ tínaai, gwè lí lɛ̀ɛ bɛ̀ɛláalèe ?",
-      "phonetic_api": "/tùló à pù kɛ̀ tínaai gwè lí lɛ̀ɛ bɛ̀ɛláalèe/",
-      "phonetic_simple": "TOU-lo a pou kè TI-naa-i, gwè li lè-è ɓÈ-È-la-a-lè-è ?",
-      "translation": "S'il pleuvait demain, resterions-nous à la maison ?"
+      "speaker": "Le professeur",
+      "text": "Hwólo káa hɔ̀ɔ̂i, ŋé káa pâi kólôi.",
+      "phonetic_api": "/hwólo káa hɔ̀ɔ̂i ŋé káa pâi kólôi/",
+      "phonetic_simple": "HWO-lo KA-a HO-o-i, nguè KA-a pa-i KO-lô-i",
+      "translation": "Le soleil brille, je vais travailler."
     },
     {
-      "speaker": "Personne B",
-      "text": "Ŋàá mɛ̌ŋ, kàŋ hwókɛli kú kɔ́nɔŋ kɛ́i làa.",
-      "phonetic_api": "/ŋàá mɛ̌ŋ kàŋ hwókɛli kú kɔ́nɔŋ kɛ́i làa/",
-      "phonetic_simple": "nga-a MENG, kang HWO-kè-li kou KO-nong KÈ-i la-a",
-      "translation": "Oui, donc il faudrait que nous mangions là-bas."
+      "speaker": "L'élève",
+      "text": "Yà gbìniŋ à yálî, hɔ̀ni ?",
+      "phonetic_api": "/yà gbìniŋ à yálî hɔ̀ni/",
+      "phonetic_simple": "ya GBI-ning a YA-li HO-ni",
+      "translation": "Si tu le courbes, il casse, n'est-ce pas ?"
     },
     {
-      "speaker": "Personne A",
-      "text": "Ŋàá Pépèe tí yɛ̌ ŋwùlú ɓɛ́lâ kɛ́laa àa mɛ̌ŋ.",
-      "phonetic_api": "/ŋàá pépèe tí yɛ̌ ŋwùlú ɓɛ́lâ kɛ́laa àa mɛ̌ŋ/",
-      "phonetic_simple": "nga-a PÉ-pè-è ti yè ngwou-LOU BÈ-lâ, KÈ-laa aa MENG",
-      "translation": "J'ai ordonné à Pépé de scier l'arbre, mais il a compris."
+      "speaker": "Le professeur",
+      "text": "Òowɛi. Ŋǎa kólô kɛ ɲɔ̀ɔ.",
+      "phonetic_api": "/òowɛi ŋǎa kólô kɛ ɲɔ̀ɔ/",
+      "phonetic_simple": "o-wè-i, NGWA-a KO-lô KÉ ngno-o",
+      "translation": "Oui. J'ai déjà fini ce travail."
     },
     {
-      "speaker": "Personne B",
-      "text": "Gɛ́ màí, à wàla kɛ́ tíi, kú lì kólô kɛ́i.",
-      "phonetic_api": "/gɛ́ màí à wàla kɛ́ tíi kú lì kólô kɛ́i/",
-      "phonetic_simple": "gè ma-I, a wa-la ké TI-i, kou li KO-lô KÈ-i",
-      "translation": "Je dis, sinon nous irons travailler."
-    },
-    {
-      "speaker": "Personne A",
-      "text": "Máma, mɛ́niê !",
-      "phonetic_api": "/máma mɛ́niê/",
-      "phonetic_simple": "MA-ma MÉ-ni-Ê",
-      "translation": "Merci, mon ami !"
+      "speaker": "L'élève",
+      "text": "Ŋà ŋwúŋmɛ mà, màáhɔ̀lɔɓó ŋà mǎa-ɓó.",
+      "phonetic_api": "/ŋà ŋwúŋmɛ mà màáhɔ̀lɔɓó ŋà mǎaɓó/",
+      "phonetic_simple": "nga NGWOU-ngmè ma, ma-a-HO-lo-BO nga MA-a-BO",
+      "translation": "Je vous respecte, c'est pourquoi je vous aiderai."
     }
   ],
   "cultural_notes": [
-    "Le système riche de marqueurs prédicatifs kpele — base, subjonctif, résultatif, habituel, impératif, consécutif, conditionnel — permet une précision temporelle et modale que le français rend souvent par des périphrases plus lourdes ; c'est un des traits grammaticaux les plus caractéristiques des langues mandé.",
-    "L'emploi de lǐ (aller) comme auxiliaire de l'irréel, sans lien avec le déplacement physique, illustre un processus linguistique universel : les verbes de mouvement fournissent souvent la matière première des marqueurs grammaticaux abstraits, un phénomène documenté dans de nombreuses langues du monde.",
-    "Les proverbes et dictons kpele (que la Leçon 4 du niveau Avancé approfondira) utilisent très souvent la structure conditionnelle vue ici (yà gbìniŋ, à yálî, « si tu le courbes, il casse ») pour exprimer une sagesse générale sous forme d'observation concrète."
+    "La richesse du système aspecto-modal du guerzé (neuf séries distinctes selon Konoshenko 2019) reflète une conceptualisation du temps fondée sur l'accompli, l'habituel et le résultat plutôt que sur une simple ligne chronologique passé-présent-futur.",
+    "La maîtrise de ce système est un marqueur social de compétence linguistique avancée, notamment dans les contextes narratifs traditionnels (contes, palabres) où l'alternance des marqueurs structure le récit."
   ],
   "exercises": [
     {
       "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel marqueur consécutif correspond à la 3e personne du singulier ?",
+      "question": "Quelle construction exprime le futur en guerzé selon Konoshenko (2019) ?",
       "options": [
-        "gɛ́",
-        "yɛ́",
-        "yɛ̌",
-        "dìé"
+        "káa + pâi + V-ì",
+        "ŋé + V",
+        "ŋǎa + V"
       ],
-      "correct_answer": "yɛ̌",
-      "explanation": "yɛ̌ introduit une action à la 3SG après un verbe comme tí (commander)."
+      "correct_answer": "káa + pâi + V-ì",
+      "explanation": "Le Tableau 11 de Konoshenko (2019) indique explicitement que le futur se construit avec káa+pâi+V-ì."
     },
     {
       "exercise_id": "ex2",
-      "type": "multiple_choice",
-      "question": "Dans « gwè lí lɛ̀ɛ bɛ̀ɛláalèe » (nous resterions à la maison), quel est le rôle de lí ?",
-      "options": [
-        "Un verbe de mouvement ordinaire",
-        "Un auxiliaire de l'irréel conditionnel",
-        "Un marqueur du futur",
-        "Un connecteur logique"
-      ],
-      "correct_answer": "Un auxiliaire de l'irréel conditionnel",
-      "explanation": "Ici, lí ne signifie pas « aller » mais marque la conséquence irréelle d'une condition non réalisée."
-    },
-    {
-      "exercise_id": "ex3",
-      "type": "multiple_choice",
-      "question": "Quel connecteur signifie « parce que » ?",
-      "options": [
-        "kàŋ",
-        "kɛ́laa",
-        "màáhɔ̀lɔɓó",
-        "élɛɛ"
-      ],
-      "correct_answer": "màáhɔ̀lɔɓó",
-      "explanation": "màáhɔ̀lɔɓó introduit une justification, comme dans l'exemple sur les cicatrices."
-    },
-    {
-      "exercise_id": "ex4",
-      "type": "multiple_choice",
-      "question": "Quel connecteur exprime une conséquence ou renforce une injonction (« donc ») ?",
-      "options": [
-        "kàŋ",
-        "wàla",
-        "lî",
-        "gɛ́"
-      ],
-      "correct_answer": "kàŋ",
-      "explanation": "kàŋ (donc, ainsi) tire une conséquence, comme dans kà kɛ́ kàŋ́ gíli↓gílî (soyez donc prudents)."
-    },
-    {
-      "exercise_id": "ex5",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "« S'il pleuvait demain, nous resterions à la maison » se dit : « Tùló à pù kɛ̀ tínaai, gwè [ ___ ] lɛ̀ɛ bɛ̀ɛláalèe. »",
-      "correct_answer": "lí",
-      "hint": "C'est l'auxiliaire de l'apodose conditionnelle irréelle."
-    },
-    {
-      "exercise_id": "ex6",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "« Sinon » se dit : « À [ ___ ] kɛ́ tíi. »",
-      "correct_answer": "wàla",
-      "hint": "C'est le marqueur de la construction conditionnelle négative."
-    },
-    {
-      "exercise_id": "ex7",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "« Je dis... », pour introduire un discours rapporté, se dit : « [ ___ ] màí... »",
-      "correct_answer": "Gɛ́",
-      "hint": "C'est le marqueur consécutif/quotatif de la 1re personne du singulier."
+      "sentence_with_blank": "[ ___ ] gbìniŋ, à yálî. (Si tu le courbes, il casse.)",
+      "correct_answer": "Yà",
+      "hint": "Marqueur conditionnel 2SG (série IX)."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Konoshenko, M. (2019). Dictionnaire kpele de la Guinée (guerzé) – français. Mandenkan 62.",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan62/62konoshenko.pdf"
+    },
+    {
+      "label": "Glottolog — William E. Welmers, references on Kpelle grammar",
+      "url": "https://glottolog.org/resource/reference/id/94648"
+    }
+  ],
+  "confidence": "élevée",
+  "confidence_note": "Le système complet des marqueurs prédicatifs (Tableaux 10 et 11) et les exemples cités (progressif, conditionnel réel) sont directement attestés dans Konoshenko (2019) ; la référence à Welmers confirme l'ancienneté académique de la description de ce système pour la branche kpelle."
 }

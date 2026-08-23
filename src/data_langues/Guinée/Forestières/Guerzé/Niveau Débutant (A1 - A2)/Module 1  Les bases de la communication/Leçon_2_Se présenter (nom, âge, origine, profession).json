@@ -6,451 +6,249 @@
   "lesson_number": 2,
   "title": "Se présenter (nom, âge, origine, profession)",
   "learning_objectives": [
-    "Demander et donner son prénom en utilisant le nom relationnel láa et son alternance de personne.",
-    "Dire d'où l'on vient et où l'on habite, sans préposition devant un nom de lieu.",
-    "Demander et donner son âge avec le mot kwɛ́laŋ (année) et l'interrogatif yɛ̌li (combien ?).",
-    "Se présenter par son métier, en particulier grâce au suffixe agentif -mùŋ (« celui qui fait... »)."
+    "Donner et demander le nom d'une personne",
+    "Dire d'où l'on vient (sa ville ou son village d'origine)",
+    "Utiliser la copule identificationnelle ɓáa pour se présenter"
   ],
   "phonetic_focus": {
-    "key_sounds": "Cette leçon prolonge le système tonal vu en Leçon 1 avec un phénomène concret : l'alternance consonantique déclenchée par un -ŋ final. Quand un mot se terminant par -ŋ (comme kwɛ́laŋ « année ») est suivi d'un autre mot commençant par une occlusive sourde, celle-ci devient sonore : pǒu « dix » devient bòu après kwɛ́laŋ (kwɛ́laŋ bòu « dix ans »), suivant la règle p→b déjà rencontrée en Leçon 1. On retrouve aussi le nom relationnel (comme láa « prénom ») qui change de première consonne selon la personne : é láá / náá / nàá (ton/mon/son prénom), avec l→n. Le son ɠ (fricative vélaire /ɣ/) revient dans héɠe (venir de) et gàátáa (ville natale).",
-    "common_pitfalls": "Les francophones ont tendance à : (1) ajouter une préposition devant les noms de lieux (« à » Nzérékoré) alors que le kpele les place directement après le verbe (gáa Zálikwɛ̀lɛ) ; (2) oublier que láa change de consonne initiale selon la personne (é láá / náá / nàá), et essayer d'ajouter un mot séparé pour « mon » ; (3) ne pas reconnaître que pǒu (dix) devient bòu après un mot en -ŋ comme kwɛ́laŋ — cette alternance est régulière, pas une exception."
+    "key_sounds": "La copule ɓáa (« être », dans les phrases d'identification) combine la consonne implosive ɓ et un ton haut long ; elle diffère de ɓǎa (autre sens). Le nom de la ville de Nzérékoré se prononce Zálikwɛ̀lɛ en guerzé.",
+    "common_pitfalls": "Les francophones oublient souvent l'alternance de consonne initiale : « mon nom » se dit náá alors que « ton nom » se dit é láá — la consonne l~n change selon la personne."
   },
   "vocabulary": [
     {
       "word_id": "v1",
       "term": "láa",
       "phonetic_api": "/láá/",
-      "phonetic_simple": "LAA",
-      "translation": "prénom (nom relationnel : é láá = ton prénom, náá = mon prénom, nàá = son prénom)",
-      "example_sentence": "É láa ɓáa à gbɛ̀ɛ̂ ?",
-      "example_phonetic": "/é láá ɓáá à gbɛ̀ɛ̂/",
-      "example_translation": "Comment tu t'appelles ?"
+      "phonetic_simple": "LA",
+      "translation": "nom",
+      "example_sentence": "É láá ɓáa à gbɛ̀ɛ̂ ?",
+      "example_phonetic": "/é láá ɓáa à gbɛ̀ɛ̂/",
+      "example_translation": "Tu t'appelles comment ? (litt. « ton nom est comment »)"
     },
     {
       "word_id": "v2",
-      "term": "héɠe",
-      "phonetic_api": "/héɣé/",
-      "phonetic_simple": "HÉ-ghé",
-      "translation": "venir de, être originaire de ; quitter",
-      "example_sentence": "Ŋà héɠe Zálikwɛ̀lɛ.",
-      "example_phonetic": "/ŋà héɣé zálikwɛ̀lɛ/",
-      "example_translation": "Je suis de Nzérékoré."
+      "term": "náá",
+      "phonetic_api": "/náá/",
+      "phonetic_simple": "NA",
+      "translation": "mon nom",
+      "example_sentence": "Náá ɓáa Pépée.",
+      "example_phonetic": "/náá ɓáa pépée/",
+      "example_translation": "Mon nom est Pépé."
     },
     {
       "word_id": "v3",
-      "term": "lɔ̌i",
-      "phonetic_api": "/lɔ̌i/",
-      "phonetic_simple": "lò-i (ton bas, à plat)",
-      "translation": "pays, terre, région",
-      "example_sentence": "Hɛ̀ŋgɔ́u ↓káa kúwɔ lɔ̀i hû.",
-      "example_phonetic": "/hɛ̀ŋgɔ́ú ↓káa kúwɔ lɔ̀i hû/",
-      "example_translation": "Notre pays."
+      "term": "ɓáa",
+      "phonetic_api": "/ɓáa/",
+      "phonetic_simple": "BA",
+      "translation": "être (copule d'identification)",
+      "example_sentence": "Kpɛ̀lɛɛmuŋ ɓàa à ɲáa.",
+      "example_phonetic": "/kpɛ̀lɛɛmuŋ ɓàa à ɲáa/",
+      "example_translation": "Je suis guerzé (kpèlè)."
     },
     {
       "word_id": "v4",
-      "term": "tǎa",
-      "phonetic_api": "/tàà°/",
-      "phonetic_simple": "taa (ton bas, à plat)",
-      "translation": "village, ville",
-      "example_sentence": "Gáa tǎa hû.",
-      "example_phonetic": "/gáa tàà hû/",
-      "example_translation": "Je suis au village."
+      "term": "hěɠe",
+      "phonetic_api": "/hěɠe/",
+      "phonetic_simple": "HÉ-guè",
+      "translation": "venir de, être originaire de (litt. quitter)",
+      "example_sentence": "Ŋà héɠe Zálikwɛ̀lɛ.",
+      "example_phonetic": "/ŋà héɠé zálikwɛ̀lɛ/",
+      "example_translation": "Je viens de Nzérékoré."
     },
     {
       "word_id": "v5",
-      "term": "gàátáa",
-      "phonetic_api": "/gàátáa/",
-      "phonetic_simple": "GAA-taa",
-      "translation": "ville natale, village natal",
-      "example_sentence": "Pépèe àá hèɠé gàátáa hù.",
-      "example_phonetic": "/pépèe àá hèɣé gàátáa hù/",
-      "example_translation": "Pépé a quitté sa ville natale."
+      "term": "Zálikwɛ̀lɛ",
+      "phonetic_api": "/zálikwɛ̀lɛ/",
+      "phonetic_simple": "ZA-li-kwè-lè",
+      "translation": "Nzérékoré (capitale de la Guinée forestière)",
+      "example_sentence": "É héɠe mí ?",
+      "example_phonetic": "/é héɠé mí/",
+      "example_translation": "Tu es d'où ?"
     },
     {
       "word_id": "v6",
-      "term": "kwɛ́laŋ",
-      "phonetic_api": "/kwɛ́láŋ/",
-      "phonetic_simple": "KWÉ-lang",
-      "translation": "année",
-      "example_sentence": "Kwɛ́laŋ bòu ɓé ɲêi.",
-      "example_phonetic": "/kwɛ́láŋ bòu ɓé ɲêi/",
-      "example_translation": "J'ai dix ans (litt. dix années sont à moi)."
+      "term": "kpɛ̀lɛɛmuŋ",
+      "phonetic_api": "/kpɛ̀lɛɛmuŋ/",
+      "phonetic_simple": "kpè-lè-MOUNG",
+      "translation": "personne guerzé, kpèlè (ethnonyme)",
+      "example_sentence": "Kpɛ̀lɛɛmuŋ ɓàa à ɲáa.",
+      "example_phonetic": "/kpɛ̀lɛɛmuŋ ɓàa à ɲáa/",
+      "example_translation": "Je suis kpèlè (guerzé)."
     },
     {
       "word_id": "v7",
-      "term": "yɛ̌li",
-      "phonetic_api": "/yɛ̌li/",
-      "phonetic_simple": "yè-li (ton bas)",
-      "translation": "combien ?",
-      "example_sentence": "Gàá à wáli yɛ̌li ?",
-      "example_phonetic": "/gàá à wáli yɛ̌li/",
-      "example_translation": "C'est combien ?"
+      "term": "kólô",
+      "phonetic_api": "/kólô/",
+      "phonetic_simple": "KO-lô",
+      "translation": "travail",
+      "example_sentence": "Kólô ~ kɛ́.",
+      "example_phonetic": "/kólô kɛ́/",
+      "example_translation": "Travailler (litt. « faire le travail »)."
     },
     {
       "word_id": "v8",
-      "term": "kólô",
-      "phonetic_api": "/kólô/",
-      "phonetic_simple": "KÓ-lô",
-      "translation": "travail (~ kɛ́ = travailler)",
-      "example_sentence": "Gáa kólô kɛ́i.",
-      "example_phonetic": "/gáa kólô kɛ́í/",
-      "example_translation": "Je travaille."
-    },
-    {
-      "word_id": "v9",
-      "term": "kólo-kɛ́-mùŋ",
-      "phonetic_api": "/kólò ↓kɛ́mùŋ/",
-      "phonetic_simple": "KÓ-lo kÉ-moung",
-      "translation": "travailleur, ouvrier (litt. « travail-faire-celui qui », avec le suffixe agentif -mùŋ)",
-      "example_sentence": "Gàá à kólo-↓kɛ́-mùŋ.",
-      "example_phonetic": "/gàá à kólò ↓kɛ́mùŋ/",
-      "example_translation": "Il est ouvrier."
-    },
-    {
-      "word_id": "v10",
-      "term": "híŋ",
-      "phonetic_api": "/híŋ/",
-      "phonetic_simple": "HING",
-      "translation": "cultiver (un champ)",
-      "example_sentence": "Gáa kɛ̀ɛ híŋzî.",
-      "example_phonetic": "/gáa kɛ̀ɛ híŋzí/",
-      "example_translation": "Je suis en train de cultiver le champ."
-    },
-    {
-      "word_id": "v11",
-      "term": "lǒzo",
-      "phonetic_api": "/lǒzo/",
-      "phonetic_simple": "lò-zo (ton bas, à plat)",
-      "translation": "chasseur",
-      "example_sentence": "Lǒzo.",
-      "example_phonetic": "/lǒzo/",
-      "example_translation": "Chasseur (métier)."
-    },
-    {
-      "word_id": "v12",
-      "term": "híɓaɠâ",
-      "phonetic_api": "/híɓaɣâ/",
-      "phonetic_simple": "HI-ɓa-ghâ",
-      "translation": "guérisseur",
-      "example_sentence": "Híɓaɠâ.",
-      "example_phonetic": "/híɓaɣâ/",
-      "example_translation": "Guérisseur (métier)."
+      "term": "nɛ̀lɛ́",
+      "phonetic_api": "/nɛ̀lɛ́/",
+      "phonetic_simple": "nè-LÈ",
+      "translation": "quel ?, lequel ?",
+      "example_sentence": "Nɛ̀ɛnúhùɠu nɛ̀lɛ́ ɓé é káa bɔ̀ ?",
+      "example_phonetic": "/nɛ̀ɛnúhùɠu nɛ̀lɛ́ ɓé é káa bɔ̀/",
+      "example_translation": "Quel genre de femme veux-tu ? (exemple attesté, structure interrogative)"
     }
   ],
   "common_phrases": [
     {
       "phrase_id": "p1",
-      "original": "É láa ɓáa à gbɛ̀ɛ̂ ?",
-      "phonetic_api": "/é láá ɓáá à gbɛ̀ɛ̂/",
-      "phonetic_simple": "é laa BAA a GBÈ-ê ?",
-      "translation": "Comment tu t'appelles ?",
-      "context": "Question pour demander le prénom de quelqu'un"
+      "original": "É láá ɓáa à gbɛ̀ɛ̂ ?",
+      "phonetic_api": "/é láá ɓáa à gbɛ̀ɛ̂/",
+      "phonetic_simple": "é LA BA a GBÈ",
+      "translation": "Comment t'appelles-tu ?",
+      "context": "Question directe pour demander le nom, attestée dans le dictionnaire."
     },
     {
       "phrase_id": "p2",
-      "original": "Náá ...",
-      "phonetic_api": "/náá .../",
-      "phonetic_simple": "NAA [prénom]",
-      "translation": "Je m'appelle ... (litt. mon prénom [est] ...)",
-      "context": "Réponse : présenter son propre prénom"
+      "original": "Náá ɓáa Pépée.",
+      "phonetic_api": "/náá ɓáa pépée/",
+      "phonetic_simple": "NA BA pé-PÉ",
+      "translation": "Je m'appelle Pépé.",
+      "context": "Réponse standard pour se présenter."
     },
     {
       "phrase_id": "p3",
-      "original": "É héɠe ↓mí ?",
-      "phonetic_api": "/é héɣé ↓mí/",
-      "phonetic_simple": "é HÉ-ghé mi ?",
-      "translation": "Tu es d'où ? / Tu viens d'où ?",
-      "context": "Question sur l'origine"
+      "original": "É héɠe mí ?",
+      "phonetic_api": "/é héɠé mí/",
+      "phonetic_simple": "é HÉ-guè MI",
+      "translation": "Tu es d'où ?",
+      "context": "Question attestée dans le dictionnaire pour demander l'origine."
     },
     {
       "phrase_id": "p4",
       "original": "Ŋà héɠe Zálikwɛ̀lɛ.",
-      "phonetic_api": "/ŋà héɣé zálikwɛ̀lɛ/",
-      "phonetic_simple": "nga HÉ-ghé za-li-kwè-lè",
-      "translation": "Je suis de Nzérékoré.",
-      "context": "Réponse-modèle (remplacer le nom de la ville)"
+      "phonetic_api": "/ŋà héɠé zálikwɛ̀lɛ/",
+      "phonetic_simple": "nga HÉ-guè ZA-li-kwè-lè",
+      "translation": "Je viens de Nzérékoré.",
+      "context": "Réponse type pour indiquer son origine géographique."
     },
     {
       "phrase_id": "p5",
-      "original": "É kwɛ́laŋ yɛ̌li ?",
-      "phonetic_api": "/é kwɛ́láŋ yɛ̌li/",
-      "phonetic_simple": "é KWÉ-lang yè-li ?",
-      "translation": "Quel âge as-tu ? (litt. tes années, combien ?)",
-      "context": "Question sur l'âge"
+      "original": "Kpɛ̀lɛɛmuŋ ɓàa à ɲáa.",
+      "phonetic_api": "/kpɛ̀lɛɛmuŋ ɓàa à ɲáa/",
+      "phonetic_simple": "kpè-lè-MOUNG ba a NYA",
+      "translation": "Je suis guerzé (kpèlè).",
+      "context": "Utilisation de la copule identificationnelle ɓáa pour affirmer son appartenance ethnique/linguistique."
     },
     {
       "phrase_id": "p6",
-      "original": "Kwɛ́laŋ bòu ɓé ɲêi.",
-      "phonetic_api": "/kwɛ́láŋ bòu ɓé ɲêi/",
-      "phonetic_simple": "KWÉ-lang bo-ou bé nyê-i",
-      "translation": "J'ai dix ans.",
-      "context": "Réponse-modèle sur l'âge (remplacer le nombre)"
-    },
-    {
-      "phrase_id": "p7",
-      "original": "Gáa à kólo-↓kɛ́-mùŋ.",
-      "phonetic_api": "/gáa à kólò ↓kɛ́mùŋ/",
-      "phonetic_simple": "gaa a KÓ-lo kÉ-moung",
-      "translation": "Je suis ouvrier / travailleur.",
-      "context": "Se présenter par son métier (forme générale)"
-    },
-    {
-      "phrase_id": "p8",
-      "original": "Gáa kɛ̀ɛ híŋzî.",
-      "phonetic_api": "/gáa kɛ̀ɛ híŋzí/",
-      "phonetic_simple": "gaa kè-è HING-zi",
-      "translation": "Je cultive (le champ).",
-      "context": "Se présenter comme cultivateur/cultivatrice"
-    },
-    {
-      "phrase_id": "p9",
-      "original": "Ɲàákɔ̀i à ɓɔ́luɓo ↓kɛ́.",
-      "phonetic_api": "/ɲàákɔ̀i à ɓɔ́luɓo ↓kɛ́/",
-      "phonetic_simple": "nyaa-KO-i a BO-lou-bo ké",
-      "translation": "Nyaakwei soigne les gens (comme son métier).",
-      "context": "Décrire le métier de quelqu'un (ex. guérisseur)"
-    },
-    {
-      "phrase_id": "p10",
-      "original": "Pépèe àá hèɠé gàátáa hù.",
-      "phonetic_api": "/pépèe àá hèɣé gàátáa hù/",
-      "phonetic_simple": "PÉ-pè-è aa hè-GHÉ gaa-TAA hou",
-      "translation": "Pépé a quitté sa ville natale.",
-      "context": "Parler de son lieu d'origine"
-    },
-    {
-      "phrase_id": "p11",
-      "original": "Hɛ̀ŋgɔ́u ↓káa kúwɔ lɔ̀i hû.",
-      "phonetic_api": "/hɛ̀ŋgɔ́ú ↓káa kúwɔ lɔ̀i hû/",
-      "phonetic_simple": "hèn-GÓ-ou kaa KOU-wo lò-i hou",
-      "translation": "Notre pays.",
-      "context": "Évoquer son pays d'origine"
-    },
-    {
-      "phrase_id": "p12",
-      "original": "Gáa Zálikwɛ̀lɛ.",
-      "phonetic_api": "/gáa zálikwɛ̀lɛ/",
-      "phonetic_simple": "gaa za-li-kwè-lè",
-      "translation": "Je suis à Nzérékoré / J'habite Nzérékoré.",
-      "context": "Indiquer où l'on habite (sans préposition devant un nom de lieu)"
-    },
-    {
-      "phrase_id": "p13",
-      "original": "Hèɠeheɠelaá dà tɔ̀ɔtɔɔlaa ɓé.",
-      "phonetic_api": "/hèɣèhèɣèlaá dà tɔ̀ɔtɔɔlaa ɓé/",
-      "phonetic_simple": "hè-ghè-hè-ghè-LAA da to-o-to-o-laa BÉ",
-      "translation": "Celui qui vient succède à celui qui part.",
-      "context": "Proverbe dit à propos de la succession (générations, chef de village)"
-    },
-    {
-      "phrase_id": "p14",
-      "original": "É pɛ̀li hwàa à ɲáa.",
-      "phonetic_api": "/é pɛ̀li hwàa à ɲáa/",
-      "phonetic_simple": "é PÈ-li hwaa a NYAA",
-      "translation": "Je ne suis pas de son âge.",
-      "context": "Exprimer une différence d'âge ou de statut avec quelqu'un"
+      "original": "Ká pá ŋwúŋ ɓàa à lé ?",
+      "phonetic_api": "/ká pá ŋwúŋ ɓàa à lé/",
+      "phonetic_simple": "ka pa NGOUNG ba a lé",
+      "translation": "Quelle est la raison de votre venue ?",
+      "context": "Question polie posée à un visiteur (exemple attesté)."
     }
   ],
   "grammar_points": [
     {
-      "concept": "Le nom relationnel « prénom » (láa) et l'alternance de personne",
-      "explanation": "Comme les parties du corps ou les termes de parenté, láa (prénom) est un nom relationnel : sa consonne initiale et son ton changent selon la personne à qui appartient le prénom, exactement selon le schéma d'alternance vu en Leçon 1.",
+      "concept": "La copule d'identification ɓáa",
+      "explanation": "Pour dire « je suis X » ou « je m'appelle X », le guerzé utilise la copule ɓáa (et sa variante à ton bas ɓàa) dans une construction d'identification, sans verbe « être » séparé comme en français.",
       "rules": [
-        "é láá = ton prénom (2SG, forme de base).",
-        "náá = mon prénom (1SG : alternance l→n, ton haut préfixé).",
-        "nàá = son prénom (3SG : alternance l→n, ton bas préfixé).",
-        "Pour demander le prénom de quelqu'un : « é láa ɓáa à gbɛ̀ɛ̂ ? » (comment tu t'appelles ?) ; pour répondre, on dit simplement « náá [prénom] »."
+        "Structure : [Sujet/attribut] + ɓáa/ɓàa + à + [pronom] pour les identifications.",
+        "É láá ɓáa à gbɛ̀ɛ̂ ? (litt. ton-nom être comment) = Comment t'appelles-tu ?",
+        "Kpɛ̀lɛɛmuŋ ɓàa à ɲáa (litt. personne-kpèlè être moi) = Je suis kpèlè."
+      ],
+      "examples": [
+        {
+          "structure": "Náá ɓáa [nom].",
+          "phonetic_api": "/náá ɓáa .../",
+          "meaning": "Mon nom est [nom]."
+        }
+      ]
+    },
+    {
+      "concept": "L'alternance des consonnes initiales sur les noms relationnels (possession de « nom »)",
+      "explanation": "Le mot « nom » change de forme initiale selon la personne grammaticale : le nom lexical láa devient náá au 1SG (« mon nom ») et nàá au 3SG (« son nom »). Ce phénomène, appelé alternance consonantique, marque la possession inaliénable sur de nombreux noms relationnels en guerzé.",
+      "rules": [
+        "é láá = ton nom (2SG, forme de base)",
+        "náá = mon nom (1SG, alternance l→n + ton haut)",
+        "nàá = son nom (3SG, alternance l→n + ton bas)"
       ],
       "examples": [
         {
           "structure": "é láá / náá / nàá",
-          "phonetic_api": "/é láá/ /náá/ /nàá/",
-          "meaning": "ton prénom / mon prénom / son prénom"
-        }
-      ]
-    },
-    {
-      "concept": "Dire d'où l'on vient et où l'on habite : pas de préposition devant un lieu",
-      "explanation": "Le kpele place le nom de lieu directement après le verbe héɠe (venir de, quitter) ou káa (être, dans sa construction locative), sans équivalent du français « à » ou « de ».",
-      "rules": [
-        "é héɠe ↓mí ? (tu es d'où ?) ; ŋà héɠe Zálikwɛ̀lɛ (je suis de N'zérékoré) — héɠe est suivi directement du nom de lieu.",
-        "gáa Zálikwɛ̀lɛ (je suis/j'habite à N'zérékoré) — le verbe káa (« être », 1SG gáa) fonctionne de la même façon.",
-        "Avec un nom commun (pas un nom propre de lieu), on ajoute souvent la postposition hû/hù (dans) : tǎa hû (au village), kúwɔ lɔ̀i hû (dans notre pays)."
-      ],
-      "examples": [
-        {
-          "structure": "gáa Zálikwɛ̀lɛ",
-          "phonetic_api": "/gáa zálikwɛ̀lɛ/",
-          "meaning": "je suis/j'habite à Nzérékoré"
-        }
-      ]
-    },
-    {
-      "concept": "Le suffixe agentif -mùŋ : « celui/celle qui fait... »",
-      "explanation": "Le kpele forme des noms de métier en ajoutant le suffixe -mùŋ (ou -mûŋ) à une action : le sens obtenu est « celui/celle qui fait X ». C'est ainsi que se construisent plusieurs métiers, y compris kwɛ̀líyɔ̀umûŋ (forgeron, litt. « fer-forger-celui qui »).",
-      "rules": [
-        "kólo-kɛ́-mùŋ (litt. « travail-faire-celui qui ») = travailleur, ouvrier.",
-        "La phrase-type pour présenter le métier de quelqu'un est : [pronom] à [nom de métier en -mùŋ] : gàá à kólo-↓kɛ́-mùŋ (il est ouvrier).",
-        "On peut aussi décrire un métier simplement par l'activité elle-même, sans le suffixe -mùŋ : gáa kɛ̀ɛ híŋzî (je cultive [le champ] = je suis cultivateur/cultivatrice)."
-      ],
-      "examples": [
-        {
-          "structure": "gàá à kólo-↓kɛ́-mùŋ",
-          "phonetic_api": "/gàá à kólò ↓kɛ́mùŋ/",
-          "meaning": "il est ouvrier (litt. il est avec le travail-faire-celui-qui)"
-        }
-      ]
-    },
-    {
-      "concept": "Poser une question avec yɛ̌li « combien ? »",
-      "explanation": "L'interrogatif yɛ̌li (combien ?) se place après le nom qu'il interroge, jamais avant. C'est ce même mot qui sert à demander un prix et à demander un âge.",
-      "rules": [
-        "à wáli yɛ̌li ? (l'argent, combien ? = c'est combien ?) — yɛ̌li suit le nom wáli (argent).",
-        "é kwɛ́laŋ yɛ̌li ? (tes années, combien ? = quel âge as-tu ?) — même construction avec kwɛ́laŋ (année).",
-        "La réponse reprend exactement la même structure, avec le nombre à la place de yɛ̌li : kwɛ́laŋ bòu ɓé ɲêi (mes années [sont] dix = j'ai dix ans)."
-      ],
-      "examples": [
-        {
-          "structure": "kwɛ́laŋ bòu ɓé ɲêi",
-          "phonetic_api": "/kwɛ́láŋ bòu ɓé ɲêi/",
-          "meaning": "j'ai dix ans (litt. année dix est à moi)"
+          "phonetic_api": "/é láá, náá, nàá/",
+          "meaning": "ton nom / mon nom / son nom"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Personne A",
-      "text": "É láa ɓáa à gbɛ̀ɛ̂ ?",
-      "phonetic_api": "/é láá ɓáá à gbɛ̀ɛ̂/",
-      "phonetic_simple": "é laa BAA a GBÈ-ê ?",
-      "translation": "Comment tu t'appelles ?"
+      "speaker": "Hehee",
+      "text": "É láá ɓáa à gbɛ̀ɛ̂ ?",
+      "phonetic_api": "/é láá ɓáa à gbɛ̀ɛ̂/",
+      "phonetic_simple": "é LA BA a GBÈ",
+      "translation": "Comment t'appelles-tu ?"
     },
     {
-      "speaker": "Personne B",
-      "text": "Náá Ɲàákwɛ̀i.",
-      "phonetic_api": "/náá ɲàákwɛ̀i/",
-      "phonetic_simple": "NAA nyaa-KWÈ-i",
-      "translation": "Je m'appelle Nyaakwei."
+      "speaker": "Pépé",
+      "text": "Náá ɓáa Pépée.",
+      "phonetic_api": "/náá ɓáa pépée/",
+      "phonetic_simple": "NA BA pé-PÉ",
+      "translation": "Je m'appelle Pépé."
     },
     {
-      "speaker": "Personne A",
-      "text": "É héɠe ↓mí ?",
-      "phonetic_api": "/é héɣé ↓mí/",
-      "phonetic_simple": "é HÉ-ghé mi ?",
+      "speaker": "Hehee",
+      "text": "É héɠe mí ?",
+      "phonetic_api": "/é héɠé mí/",
+      "phonetic_simple": "é HÉ-guè MI",
       "translation": "Tu es d'où ?"
     },
     {
-      "speaker": "Personne B",
-      "text": "Ŋà héɠe Zálikwɛ̀lɛ.",
-      "phonetic_api": "/ŋà héɣé zálikwɛ̀lɛ/",
-      "phonetic_simple": "nga HÉ-ghé za-li-kwè-lè",
-      "translation": "Je suis de Nzérékoré."
-    },
-    {
-      "speaker": "Personne A",
-      "text": "É kwɛ́laŋ yɛ̌li ?",
-      "phonetic_api": "/é kwɛ́láŋ yɛ̌li/",
-      "phonetic_simple": "é KWÉ-lang yè-li ?",
-      "translation": "Quel âge as-tu ?"
-    },
-    {
-      "speaker": "Personne B",
-      "text": "Kwɛ́laŋ bòu ɓé ɲêi.",
-      "phonetic_api": "/kwɛ́láŋ bòu ɓé ɲêi/",
-      "phonetic_simple": "KWÉ-lang bo-ou bé nyê-i",
-      "translation": "J'ai dix ans."
-    },
-    {
-      "speaker": "Personne B",
-      "text": "Gáa kɛ̀ɛ híŋzî tǎa hû.",
-      "phonetic_api": "/gáa kɛ̀ɛ híŋzí tàà hû/",
-      "phonetic_simple": "gaa kè-è HING-zi taa hou",
-      "translation": "Je cultive le champ, au village."
-    },
-    {
-      "speaker": "Personne A",
-      "text": "Máma, mɛ́niê !",
-      "phonetic_api": "/máma mɛ́niê/",
-      "phonetic_simple": "MA-ma MÉ-ni-Ê",
-      "translation": "Merci, mon ami !"
-    },
-    {
-      "speaker": "Personne B",
-      "text": "Gáa lìí gàátáa ↓ɲá.",
-      "phonetic_api": "/gáa lìí gàátáa ↓ɲá/",
-      "phonetic_simple": "gaa LI-i gaa-TAA nya",
-      "translation": "Je vais dans mon village natal."
+      "speaker": "Pépé",
+      "text": "Ŋà héɠe Zálikwɛ̀lɛ. Kpɛ̀lɛɛmuŋ ɓàa à ɲáa.",
+      "phonetic_api": "/ŋà héɠé zálikwɛ̀lɛ kpɛ̀lɛɛmuŋ ɓàa à ɲáa/",
+      "phonetic_simple": "nga HÉ-guè ZA-li-kwè-lè, kpè-lè-MOUNG ba a NYA",
+      "translation": "Je viens de Nzérékoré. Je suis guerzé (kpèlè)."
     }
   ],
   "cultural_notes": [
-    "De nombreux prénoms kpele traditionnels indiquent le rang de naissance de l'enfant dans la fratrie : Hèhee (1er fils), Ɲàákwɛ̀i (2e fils), Pépèe (3e fils), Wùowuo (4e fils), Dàláwolô (5e fils), Kpɛ́liwolô (6e fils) ; Kɔ̀lukɔlu (1ère fille), Yɔ̀uyɔu (2e fille), Yèliyeli (3e fille), Nɔ̀ɔnɔɔ (4e fille).",
-    "D'autres prénoms portent un sens précis : Kwɛ́li signifie « la force », Ɲɛ̀lɛkɛ́ « l'habileté », Wíidɔɔ « celle qui prend soin », Máamɛɛ évoque une femme potelée, Mɔ̀luɓá le teint clair — le prénom peut révéler un trait souhaité pour l'enfant.",
-    "Contrairement au français, qui nomme le métier par un nom (« je suis cultivateur »), le kpele décrit souvent le métier par l'activité elle-même (gáa kɛ̀ɛ híŋzî « je cultive » = « je suis cultivateur ») ou par un nom construit sur le verbe avec le suffixe -mùŋ (kólo-kɛ́-mùŋ « travailleur »).",
-    "Les métiers traditionnels bien attestés dans la région forestière incluent le chasseur (lǒzo), le forgeron (kwɛ̀líyɔ̀umûŋ), le guérisseur (híɓaɠâ) et le chef de village (lùɠutíɠî).",
-    "Le proverbe « hèɠeheɠelaá dà tɔ̀ɔtɔɔlaa ɓé » (celui qui vient succède à celui qui part) exprime l'idée de continuité entre générations, par exemple lors de la succession d'un chef de village.",
-    "Dire d'où l'on vient (héɠe) et dire où l'on habite (káa) utilisent tous deux le nom de lieu directement après le verbe, sans préposition — un trait grammatical à retenir."
+    "Zálikwɛ̀lɛ (Nzérékoré) est la capitale de la Guinée forestière et le centre du dialecte guerzé de référence utilisé dans le dictionnaire académique de Konoshenko (2019).",
+    "L'ethnonyme kpɛ̀lɛɛmuŋ désigne une personne du peuple kpèlè (guerzé) ; le nom « guerzé » est la forme utilisée en français en Guinée, alors que « kpelle »/« kpèlè » est utilisé pour la même langue au Libéria (Wikipédia)."
   ],
   "exercises": [
     {
       "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel suffixe transforme une action en nom de métier, comme dans kólo-kɛ́-mùŋ (travailleur) ?",
+      "question": "Comment demande-t-on « Comment t'appelles-tu ? » en guerzé ?",
       "options": [
-        "-láa",
-        "-mùŋ",
-        "-kɛ́",
-        "-hû"
+        "É láá ɓáa à gbɛ̀ɛ̂ ?",
+        "É héɠe mí ?",
+        "Yàa ŋwúŋ ?"
       ],
-      "correct_answer": "-mùŋ",
-      "explanation": "Le suffixe -mùŋ (« celui/celle qui fait... ») transforme une action en nom de métier : kólo-kɛ́-mùŋ = travailleur, kwɛ̀líyɔ̀u-mûŋ = forgeron."
+      "correct_answer": "É láá ɓáa à gbɛ̀ɛ̂ ?",
+      "explanation": "C'est la question attestée dans le dictionnaire Konoshenko (2019) pour demander le nom."
     },
     {
       "exercise_id": "ex2",
-      "type": "multiple_choice",
-      "question": "Comment dit-on « mon prénom » à partir de láa (prénom) ?",
-      "options": [
-        "é láá",
-        "náá",
-        "nàá",
-        "làa"
-      ],
-      "correct_answer": "náá",
-      "explanation": "náá (mon prénom) résulte de l'alternance l→n avec un ton haut préfixé pour la 1ère personne du singulier."
-    },
-    {
-      "exercise_id": "ex3",
-      "type": "multiple_choice",
-      "question": "Comment demande-t-on « Quel âge as-tu ? » en kpele ?",
-      "options": [
-        "É kwɛ́laŋ yɛ̌li ?",
-        "É héɠe ↓mí ?",
-        "É láa ɓáa à gbɛ̀ɛ̂ ?",
-        "Gàa léi ?"
-      ],
-      "correct_answer": "É kwɛ́laŋ yɛ̌li ?",
-      "explanation": "É kwɛ́laŋ yɛ̌li ? (litt. tes années, combien ?) est la question standard pour demander l'âge."
-    },
-    {
-      "exercise_id": "ex4",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Pour dire « je suis de Nzérékoré », on dit : « Ŋà [ ___ ] Zálikwɛ̀lɛ. »",
-      "correct_answer": "héɠe",
-      "hint": "C'est le verbe qui signifie « venir de, être originaire de »."
-    },
-    {
-      "exercise_id": "ex5",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Pour se présenter comme cultivateur, on dit : « Gáa kɛ̀ɛ [ ___ ]zî. »",
-      "correct_answer": "híŋ",
-      "hint": "Ce verbe signifie « cultiver (un champ) »."
-    },
-    {
-      "exercise_id": "ex6",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "A : É láa ɓáa à gbɛ̀ɛ̂ ? — B : « [ ___ ] Ɲàákwɛ̀i. »",
+      "sentence_with_blank": "[ ___ ] ɓáa Pépée. (Mon nom est Pépé.)",
       "correct_answer": "Náá",
-      "hint": "C'est la formule de « prénom » utilisée à la 1ère personne du singulier."
+      "hint": "« Mon nom » — alternance l→n avec ton haut sur le pronom 1SG."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Konoshenko, M. (2019). Dictionnaire kpele de la Guinée (guerzé) – français. Mandenkan 62.",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan62/62konoshenko.pdf"
+    },
+    {
+      "label": "Wikipédia — Kpèllé (langue) / Guerzé",
+      "url": "https://fr.wikipedia.org/wiki/Guerze"
+    },
+    {
+      "label": "Glottolog — Guinea Kpelle [guin1254]",
+      "url": "https://glottolog.org/resource/languoid/id/guin1254"
+    }
+  ],
+  "confidence": "élevée",
+  "confidence_note": "Les formules de présentation (nom, origine, ethnonyme) sont directement attestées dans Konoshenko (2019). Le vocabulaire pour « âge » et « profession » précis étant plus rare dans les sources disponibles, la phrase sur le travail/profession reste plus générale (kólô = travail)."
 }

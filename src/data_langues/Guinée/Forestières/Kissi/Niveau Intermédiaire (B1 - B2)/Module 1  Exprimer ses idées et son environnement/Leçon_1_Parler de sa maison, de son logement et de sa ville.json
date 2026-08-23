@@ -1,132 +1,202 @@
 {
   "lesson_id": "B1_M1_L1",
-  "level": "Niveau Intermédiaire (B1-B2)",
+  "level": "Intermédiaire (B1-B2)",
   "module_number": 1,
   "module_title": "Exprimer ses idées et son environnement",
   "lesson_number": 1,
   "title": "Parler de sa maison, de son logement et de sa ville",
   "learning_objectives": [
-    "Décrire sa maison et les pièces principales",
-    "Parler de sa ville ou de son quartier de résidence",
-    "Utiliser les expressions de localisation intermédiaire"
+    "Nommer les éléments de l'habitat traditionnel kissi (compound, enclos, paillote)",
+    "Situer son logement par rapport aux repères administratifs (Kissidougou, Guéckédou)",
+    "Utiliser le vocabulaire attesté du village et de l'organisation spatiale"
   ],
   "phonetic_focus": {
-    "key_sounds": "La structure complexe du terme 'cando' (case / maison) utilise une consonne affriquée sourde /tʃ/ combinée à une pré-nasale dentale /ⁿd/.",
-    "common_pitfalls": "Ne pas prononcer 'cando' comme 'sando'. Le départ doit être vigoureusement projeté comme le 'tch' du mot français 'tchad'."
+    "key_sounds": "Le mot 'lugndó' (compound/centre du village) associe un groupe -gnd- inhabituel en français, à articuler sans voyelle intercalée.",
+    "common_pitfalls": "Les francophones insèrent une voyelle épenthétique entre g et n (lieu-gue-ne-do), ce qui allonge artificiellement le mot."
   },
   "vocabulary": [
     {
-      "word_id": "v10_1",
-      "term": "cando",
-      "phonetic_api": "/tʃa.ⁿdo/",
-      "phonetic_simple": "TCHAN-DO",
-      "translation": "case / habitation / maison",
-      "example_sentence": "Cando nio o co kounda wa.",
-      "example_phonetic": "/tʃa.ⁿdo njo o tʃo kuːⁿda wa/",
-      "example_translation": "Ma maison se trouve dans ce quartier."
+      "word_id": "v1",
+      "term": "lugndó",
+      "phonetic_api": "/luɡndo/",
+      "phonetic_simple": "loug-ndo",
+      "translation": "compound, centre du village/de la concession",
+      "example_sentence": "Ndu wo o lugndó.",
+      "example_phonetic": "/ndu wo o luɡndo/",
+      "example_translation": "Il/elle est dans le compound."
     },
     {
-      "word_id": "v10_2",
-      "term": "kounda",
-      "phonetic_api": "/kuːⁿda/",
-      "phonetic_simple": "KOUN-DA",
-      "translation": "quartier / concession / secteur",
-      "example_sentence": "Kounda bɛndɛ o co wa.",
-      "example_phonetic": "/kuːⁿda bɛⁿdɛ o tʃo wa/",
-      "example_translation": "C'est un grand quartier."
+      "word_id": "v2",
+      "term": "kataa",
+      "phonetic_api": "/kataː/",
+      "phonetic_simple": "ka-taa",
+      "translation": "enclos ou cour intérieure du chef",
+      "example_sentence": "Masaa o kataa.",
+      "example_phonetic": "/masaː o kataː/",
+      "example_translation": "Le chef est dans son enclos."
     },
     {
-      "word_id": "v10_3",
-      "term": "lebol",
-      "phonetic_api": "/le.bol/",
-      "phonetic_simple": "LÉ-BOL",
-      "translation": "ville / grand village",
-      "example_sentence": "Lebol nio o co Guéckédou.",
-      "example_phonetic": "/le.bol njo o tʃo g͡bɛ.ke.du/",
-      "example_translation": "Ma ville est Guéckédou."
+      "word_id": "v3",
+      "term": "tungo",
+      "phonetic_api": "/tuŋɡo/",
+      "phonetic_simple": "toun-go",
+      "translation": "paillote de réunion sans murs (lieu de rassemblement des hommes du lignage)",
+      "example_sentence": "Wana o tungo.",
+      "example_phonetic": "/wana o tuŋɡo/",
+      "example_translation": "Les gens sont à la paillote."
+    },
+    {
+      "word_id": "v4",
+      "term": "masaa",
+      "phonetic_api": "/masaː/",
+      "phonetic_simple": "ma-saa",
+      "translation": "chef (du village)",
+      "example_sentence": "Masaa ndu wo.",
+      "example_phonetic": "/masaː ndu wo/",
+      "example_translation": "Le chef est là."
+    },
+    {
+      "word_id": "v5",
+      "term": "bandliyó",
+      "phonetic_api": "/bandlijo/",
+      "phonetic_simple": "band-li-yo",
+      "translation": "frontière, limite",
+      "example_sentence": "Bandliyó ndu wo.",
+      "example_phonetic": "/bandlijo ndu wo/",
+      "example_translation": "La frontière/limite est là."
+    },
+    {
+      "word_id": "v6",
+      "term": "cieŋndo",
+      "phonetic_api": "/tʃeŋndo/",
+      "phonetic_simple": "tchèng-ndo",
+      "translation": "sol, terre (aussi utilisé pour un terrain, une parcelle)",
+      "example_sentence": "Cieŋndo ndu yá.",
+      "example_phonetic": "/tʃeŋndo ndu ja/",
+      "example_translation": "Le terrain est à moi."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p10_1",
-      "original": "Cando nio o co nyalɛ fiaa.",
-      "phonetic_api": "/tʃa.ⁿdo njo o tʃo ɲa.lɛ fjaː/",
-      "phonetic_simple": "TCHAN-DO NYO O TCHO NYA-LÈ FIA-A",
-      "translation": "Ma maison est très belle.",
-      "context": "Décrire son environnement"
+      "phrase_id": "p1",
+      "original": "Ndu wo o lugndó.",
+      "phonetic_api": "/ndu wo o luɡndo/",
+      "phonetic_simple": "ndou wo o loug-ndo",
+      "translation": "Il/elle est dans le compound/la concession.",
+      "context": "Pour situer une personne dans son lieu d'habitation."
     },
     {
-      "phrase_id": "p10_2",
-      "original": "Kounda yɛŋ o lo wa ?",
-      "phonetic_api": "/kuːⁿda jɛŋ o lo wa/",
-      "phonetic_simple": "KOUN-DA YENG O LO WA",
-      "translation": "Dans quel quartier habites-tu ?",
-      "context": "S'informer sur le logement"
+      "phrase_id": "p2",
+      "original": "Yá lugndó ndu o Kisiadu.",
+      "phonetic_api": "/ja luɡndo ndu o kisiadu/",
+      "phonetic_simple": "ya loug-ndo ndou o ki-sia-dou",
+      "translation": "Ma concession est à Kissidougou.",
+      "context": "Pour indiquer sa ville de résidence."
     },
     {
-      "phrase_id": "p10_3",
-      "original": "I lo lebol bɛndɛ ning.",
-      "phonetic_api": "/i lo le.bol bɛⁿdɛ niŋ/",
-      "phonetic_simple": "I LO LÉ-BOL BEN-DE NING",
-      "translation": "J'habite dans une grande ville.",
-      "context": "Parler de sa situation urbaine"
+      "phrase_id": "p3",
+      "original": "Masaa o kataa.",
+      "phonetic_api": "/masaː o kataː/",
+      "phonetic_simple": "ma-saa o ka-taa",
+      "translation": "Le chef est dans son enclos.",
+      "context": "Pour évoquer la résidence du chef de village."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Wana o tungo.",
+      "phonetic_api": "/wana o tuŋɡo/",
+      "phonetic_simple": "wa-na o toun-go",
+      "translation": "Les gens sont à la paillote de réunion.",
+      "context": "Pour situer un rassemblement social au village."
     }
   ],
   "grammar_points": [
     {
-      "concept": "Le locatif d'inclusion 'ning' (dans / à l'intérieur)",
-      "explanation": "Pour spécifier qu'un sujet se situe physiquement à l'intérieur d'un espace fermé (maison, ville, pays), le morphème postpositionnel 'ning' se place directement en clôture du syntagme nominal.",
+      "concept": "Localisation avec la préposition o",
+      "explanation": "Les exemples attestés par les sources ethnographiques (Denise Paulme) et lexicales (Childs) montrent l'emploi de 'o' devant un nom de lieu pour indiquer la localisation ('dans', 'à'), structure comparable à d'autres langues Atlantique-Congo qui marquent le locatif par une particule préposée.",
       "rules": [
-        "Le nom de l'espace arrive en premier.",
-        "La postposition 'ning' termine directement la précision géographique."
+        "o + [lieu] = dans/à [lieu]",
+        "Le compound (lugndó) est l'unité résidentielle de base, distincte de la paillote de réunion (tungo), qui est un espace collectif.",
+        "Le terme 'kataa' désigne spécifiquement l'enclos ou la cour du chef (masaa), signalant une architecture sociale hiérarchisée."
       ],
       "examples": [
         {
-          "structure": "Nom d'espace + ning",
-          "phonetic_api": "/le.bol niŋ/",
-          "meaning": "Dans la ville"
+          "structure": "[sujet] o + [lieu]",
+          "phonetic_api": "/... o .../",
+          "meaning": "[sujet] est dans/à [lieu]"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Saa",
-      "text": "Tamba, cando noo o co vɛ ?",
-      "phonetic_api": "/ta.ᵐba tʃa.ⁿdo noː o tʃo vɛ/",
-      "phonetic_simple": "TAM-BA, TCHAN-DO NOO O TCHO VÈ",
-      "translation": "Tamba, où se trouve ta maison ?"
+      "speaker": "Ibrahima",
+      "text": "Yá lugndó ndu o Kisiadu. I ndá?",
+      "phonetic_api": "/ja luɡndo ndu o kisiadu i nda/",
+      "phonetic_simple": "ya loug-ndo ndou o ki-sia-dou, i nda",
+      "translation": "Ma concession est à Kissidougou. Et toi ?"
     },
     {
-      "speaker": "Tamba",
-      "text": "Cando nio o co kounda pilɔ ning.",
-      "phonetic_api": "/tʃa.ⁿdo njo o tʃo kuːⁿda pi.lɔ niŋ/",
-      "phonetic_simple": "TCHAN-DO NYO O TCHO KOUN-DA PI-LO NING",
-      "translation": "Ma maison se trouve à l'intérieur du premier quartier."
+      "speaker": "Mariama",
+      "text": "Yá lugndó ndu o Gekedu.",
+      "phonetic_api": "/ja luɡndo ndu o gekedu/",
+      "phonetic_simple": "ya loug-ndo ndou o gué-ké-dou",
+      "translation": "Ma concession est à Guéckédou."
+    },
+    {
+      "speaker": "Ibrahima",
+      "text": "Masaa o kataa waa?",
+      "phonetic_api": "/masaː o kataː waː/",
+      "phonetic_simple": "ma-saa o ka-taa wa",
+      "translation": "Le chef est-il aussi dans son enclos ?"
+    },
+    {
+      "speaker": "Mariama",
+      "text": "Naam, wana o tungo waa.",
+      "phonetic_api": "/naːm wana o tuŋɡo waː/",
+      "phonetic_simple": "naam, wa-na o toun-go wa",
+      "translation": "Oui, et les gens sont à la paillote."
     }
   ],
   "cultural_notes": [
-    "L'organisation sociale de l'habitat chez les Kissi repose traditionnellement sur la concession familiale élargie. Plusieurs structures encerclent une cour centrale où s'organise l'essentiel de la vie communautaire et des palabres villageoises."
+    "L'organisation traditionnelle du village kissi distingue le compound familial (lugndó), l'enclos du chef (kataa) et la paillote de réunion des hommes (tungo), une architecture sociale documentée par Denise Paulme dans son ethnographie 'Les Gens du riz'.",
+    "Kissidougou et Guéckédou restent les deux préfectures de référence pour la population kissi de Guinée forestière selon l'Ethnologue, et continuent de structurer le sentiment d'appartenance régionale."
   ],
   "exercises": [
     {
-      "exercise_id": "ex10_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Que signifie le mot postposé 'ning' ?",
+      "question": "Que désigne 'tungo' ?",
       "options": [
-        "Sur",
-        "Dans / À l'intérieur",
-        "Derrière"
+        "la paillote de réunion des hommes",
+        "l'enclos du chef",
+        "la frontière du village"
       ],
-      "correct_answer": "Dans / À l'intérieur",
-      "explanation": "'ning' exprime l'inclusion physique au sein d'un contenant ou d'un lieu."
+      "correct_answer": "la paillote de réunion des hommes",
+      "explanation": "Attesté par Denise Paulme, chapitre 9 de son ethnographie kissi."
     },
     {
-      "exercise_id": "ex10_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "[ ___ ] nio o co wa. (Ma maison est ici)",
-      "correct_answer": "Cando",
-      "hint": "Mot désignant l'habitation ou la case traditionnelle"
+      "sentence_with_blank": "Masaa o [ ___ ]. (Le chef est dans son enclos.)",
+      "correct_answer": "kataa",
+      "hint": "Terme attesté par Childs (2002) pour l'enclos du chef."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "G. Tucker Childs, « Borrowings into Kisi as Evidence of Mande Expansionism and Influence », Journal of West African Languages 29-2 (2002)",
+      "url": "https://scispace.com/pdf/borrowings-into-kisi-as-evidence-of-mande-expansionism-and-3zquof59kt.pdf"
+    },
+    {
+      "label": "Denise Paulme, Les Gens du riz : les Kissi de Haute-Guinée, chap. 9 (WebGuinée)",
+      "url": "https://webguine.site/bibliotheque/ethnographie/kisi/dpaulme/chap09.html"
+    },
+    {
+      "label": "Ethnologue — Kissi, Northern (kqs)",
+      "url": "https://www.ethnologue.com/language/kqs/"
+    }
+  ],
+  "confidence": "faible",
+  "confidence_note": "Le vocabulaire de l'habitat traditionnel (lugndó, kataa, tungo, masaa, bandliyó) est attesté par Childs (2002) et Paulme, mais la structure grammaticale de localisation ('o' + lieu) est déduite par analogie avec d'autres langues Atlantique-Congo plutôt que directement démontrée dans une grammaire kissi consultée ; à traiter avec prudence."
 }

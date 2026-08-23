@@ -1,378 +1,214 @@
 {
-  "lesson_id": "C2_M2_L5",
+  "lesson_id": "C1_M2_L5",
   "level": "Avancé (C1-C2)",
   "module_number": 2,
   "module_title": "Culture, traditions et rhétorique",
   "lesson_number": 5,
   "title": "Débattre, argumenter et défendre un point de vue",
   "learning_objectives": [
-    "Distinguer la conversation constructive (lóno/lɔ́nɔ, causer) de la discussion inutile (kólokolo).",
-    "Défendre un point de vue avec mǎa-kɔ̌ŋɔ (protéger, défendre contre – tɔ̌ɠɔ).",
-    "Reconnaître le vocabulaire de la dispute et de la querelle (hwáa ~ kɛ́, pɔ́naa).",
-    "Construire une argumentation complète combinant proverbe (Leçon 4), connecteurs (Leçon 3) et défense d'un point de vue."
+    "Connaître le lieu institutionnel du débat traditionnel : gbɛ̀áhû (lieu de palabres entre chefs et hommes)",
+    "Utiliser le vocabulaire du respect et de l'honneur (ɓâa, ɓɛ̌lɛ) pour argumenter avec déférence",
+    "Combiner connecteurs logiques (vus en C1_M1_L3) et vocabulaire de palabre pour structurer un argument"
   ],
   "phonetic_focus": {
-    "key_sounds": "Cette leçon distingue plusieurs mots proches autour de la parole : hwáa (parole en général), lóno/lɔ́nɔ (conversation constructive), kólokolo (discussion inutile, avec redoublement expressif) et pɔ́naa (querelle, rivalité). Le redoublement de kólokolo est un indice sonore de sa valeur légèrement péjorative, un procédé fréquent en kpele pour les activités jugées vaines ou répétitives.",
-    "common_pitfalls": "Les francophones ont tendance à : (1) utiliser un seul mot générique pour « parler », alors que le kpele distingue nettement la parole (hwáa), la conversation constructive (lóno) et la discussion stérile (kólokolo) ; (2) oublier que hwáa ~ kɛ́ signifie « se disputer », un sens bien plus fort que « parler » tout court ; (3) traduire mǎa-kɔ̌ŋɔ (défendre, protéger) comme un simple synonyme de « répondre », alors qu'il implique une opposition à une menace ou une critique."
+    "key_sounds": "gbɛ̀áhû combine la consonne labio-vélaire /gb/ et une voyelle nasalisée finale (û) ; ɓâa et ɓɛ̌lɛ commencent par l'implosive /ɓ/, consonne caractéristique du guerzé absente du français.",
+    "common_pitfalls": "Les francophones ont tendance à sous-articuler l'implosive /ɓ/ en la prononçant comme un simple /b/, ce qui peut créer une confusion avec d'autres racines lexicales du guerzé."
   },
   "vocabulary": [
     {
       "word_id": "v1",
-      "term": "mǎa-kɔ̌ŋɔ",
-      "phonetic_api": "/mǎakɔ̌ŋɔ/",
-      "phonetic_simple": "ma-a-KO-ngo",
-      "translation": "protéger, défendre (contre – tɔ̌ɠɔ)",
-      "example_sentence": "Ŋé nóŋ màakɔ́ŋɔ mɔ̀tɔ́ tɔ̌ɠɔ.",
-      "example_phonetic": "/ŋé nóŋ màakɔ́ŋɔ mɔ̀tɔ́ tɔ̌ɣɔ/",
-      "example_translation": "J'ai défendu mon fils contre la voiture."
+      "term": "gbɛ̀áhû",
+      "phonetic_api": "/gbɛ̀áhû/",
+      "phonetic_simple": "GBÈ-a-HOU",
+      "translation": "lieu de palabres (entre les chefs, les hommes)",
+      "example_sentence": "Dà kɛ́ gbɛ̀áhû hù.",
+      "example_phonetic": "/dà kɛ́ gbɛ̀áhû hù/",
+      "example_translation": "Ils tiennent le débat au lieu de palabres."
     },
     {
       "word_id": "v2",
-      "term": "hwáa",
-      "phonetic_api": "/hwáá/",
-      "phonetic_simple": "HWA-a",
-      "translation": "parole (~ ɓó = parler ; ~ kɛ́ = se disputer)",
-      "example_sentence": "É hwáawoo nɛ̀ɛî.",
-      "example_phonetic": "/é hwáawoo nɛ̀ɛî/",
-      "example_translation": "Tu parles bien."
+      "term": "ɓâa",
+      "phonetic_api": "/ɓâa/",
+      "phonetic_simple": "BA-a",
+      "translation": "honneur, respect",
+      "example_sentence": "Ɓâa lɔ́ (mà).",
+      "example_phonetic": "/ɓâa lɔ́ mà/",
+      "example_translation": "Donner le respect (à quelqu'un)."
     },
     {
       "word_id": "v3",
-      "term": "lóno",
-      "phonetic_api": "/lóno/",
-      "phonetic_simple": "LO-no",
-      "translation": "conversation, causerie (~ kɛ́ = causer ; ŋ̀~ kɛ́ = discuter qn ou qch)",
-      "example_sentence": "Lóno kɛ́.",
-      "example_phonetic": "/lóno kɛ́/",
-      "example_translation": "Causer, avoir une conversation."
+      "term": "ɓɛ̌lɛ",
+      "phonetic_api": "/ɓɛ̌lɛ/",
+      "phonetic_simple": "BÈ-lè",
+      "translation": "honneur, respect (synonyme de ɓâa)",
+      "example_sentence": "Nú ɓɛ̀lɛɛ ká tíi.",
+      "example_translation": "C'est un homme respectueux.",
+      "example_phonetic": "/nú ɓɛ̀lɛɛ ká tíi/"
     },
     {
       "word_id": "v4",
-      "term": "kólokolo",
-      "phonetic_api": "/kólokolo/",
-      "phonetic_simple": "KO-lo-ko-lo",
-      "translation": "discussion inutile (~ tǒo = discuter inutilement)",
-      "example_sentence": "Kólokolo tǒo.",
-      "example_phonetic": "/kólokolo tǒo/",
-      "example_translation": "Discuter inutilement."
+      "term": "kɛ́la",
+      "phonetic_api": "/kɛ́la/",
+      "phonetic_simple": "KÉ-la",
+      "translation": "message, commission ; messager, témoin",
+      "example_sentence": "Kɛ́la ~ kɛ́.",
+      "example_phonetic": "/kɛ́la kɛ́/",
+      "example_translation": "Porter un message/témoigner."
     },
     {
       "word_id": "v5",
-      "term": "pɔ́naa",
-      "phonetic_api": "/pɔ́naa/",
-      "phonetic_simple": "PO-naa",
-      "translation": "querelle, rivalité",
-      "example_sentence": "Pɔ́naa ↓káa gǔ lǒwai.",
-      "example_phonetic": "/pɔ́naa ↓káa gǔ lǒwai/",
-      "example_translation": "Nous sommes en querelle, en rivalité."
+      "term": "màáhɔ̀lɔɓó",
+      "phonetic_api": "/màáhɔ̀lɔɓó/",
+      "phonetic_simple": "MA-a-HO-lo-BO",
+      "translation": "parce que (pour justifier un argument)",
+      "example_sentence": "Ŋà ŋwúŋmɛ mà, màáhɔ̀lɔɓó ŋà mǎa-ɓó.",
+      "example_phonetic": "/ŋà ŋwúŋmɛ mà màáhɔ̀lɔɓó ŋà mǎaɓó/",
+      "example_translation": "Je le respecte, parce que je l'aiderai."
     },
     {
       "word_id": "v6",
-      "term": "hɛ́â",
-      "phonetic_api": "/hɛ́â/",
-      "phonetic_simple": "HÈ-â",
-      "translation": "doute, contradiction (~ tǒo = contredire)",
-      "example_sentence": "Hɛ́â tǒo.",
-      "example_phonetic": "/hɛ́â tǒo/",
-      "example_translation": "Contredire."
+      "term": "kɛ́laa",
+      "phonetic_api": "/kɛ́laa/",
+      "phonetic_simple": "KÉ-la-a",
+      "translation": "mais, cependant (pour nuancer un argument)",
+      "example_sentence": "Túɠô yɛ́ nú pɔ́lɔpɔ̀lɔ, kɛ́laa kpàkolo lí.",
+      "example_phonetic": "/túɠô yɛ́ nú pɔ́lɔpɔ̀lɔ kɛ́laa kpàkolo lí/",
+      "example_translation": "C'est un enfant, mais c'est un sage."
     },
     {
       "word_id": "v7",
-      "term": "kánaŋ",
-      "phonetic_api": "/kánaŋ/",
-      "phonetic_simple": "KA-nang",
-      "translation": "insister trop sur",
-      "example_sentence": "Yàa kánaŋ mɛ̀ni tɔ́nɔ ↓ɲɛ́i ɓá à mɔ̌lɔɔ.",
-      "example_phonetic": "/yàa kánaŋ mɛ̀ni tɔ́nɔ ↓ɲɛ́i ɓá à mɔ̌lɔɔ/",
-      "example_translation": "Tu insistes trop sur la même chose."
-    },
-    {
-      "word_id": "v8",
-      "term": "kàŋ",
-      "phonetic_api": "/kàŋ/",
-      "phonetic_simple": "kang",
-      "translation": "donc, ainsi",
-      "example_sentence": "kàŋ",
-      "example_phonetic": "/kàŋ/",
-      "example_translation": "donc"
-    },
-    {
-      "word_id": "v9",
-      "term": "kɛ́laa",
-      "phonetic_api": "/kɛ́laa/",
-      "phonetic_simple": "KÈ-laa",
-      "translation": "mais, cependant",
-      "example_sentence": "kɛ́laa",
-      "example_phonetic": "/kɛ́laa/",
-      "example_translation": "mais, cependant"
-    },
-    {
-      "word_id": "v10",
-      "term": "màáhɔ̀lɔɓó",
-      "phonetic_api": "/màáhɔ̀lɔɓó/",
-      "phonetic_simple": "ma-a-HO-lo-ɓO",
-      "translation": "parce que",
-      "example_sentence": "màáhɔ̀lɔɓó",
-      "example_phonetic": "/màáhɔ̀lɔɓó/",
-      "example_translation": "parce que"
-    },
-    {
-      "word_id": "v11",
-      "term": "hɔ́ɔnŋ",
-      "phonetic_api": "/hɔ́ɔnŋ/",
-      "phonetic_simple": "HO-onng",
-      "translation": "proverbe (~ hɔ̌ɔ = dire un proverbe)",
-      "example_sentence": "Hɔ́ɔnŋ hɔ̌ɔ.",
-      "example_phonetic": "/hɔ́ɔnŋ hɔ̌ɔ/",
-      "example_translation": "Dire un proverbe."
-    },
-    {
-      "word_id": "v12",
-      "term": "nóŋ",
-      "phonetic_api": "/nóŋ/",
-      "phonetic_simple": "NONG",
-      "translation": "fils (nom relationnel)",
-      "example_sentence": "Ŋé nóŋ màakɔ́ŋɔ mɔ̀tɔ́ tɔ̌ɠɔ.",
-      "example_phonetic": "/ŋé nóŋ màakɔ́ŋɔ mɔ̀tɔ́ tɔ̌ɣɔ/",
-      "example_translation": "J'ai défendu mon fils contre la voiture."
+      "term": "kpàkolo",
+      "phonetic_api": "/kpàkolo/",
+      "phonetic_simple": "KPA-ko-lo",
+      "translation": "sage, personne avisée",
+      "example_sentence": "Kpàkolo lí.",
+      "example_phonetic": "/kpàkolo lí/",
+      "example_translation": "C'est un sage."
     }
   ],
   "common_phrases": [
     {
       "phrase_id": "p1",
-      "original": "É hwáawoo nɛ̀ɛî.",
-      "phonetic_api": "/é hwáawoo nɛ̀ɛî/",
-      "phonetic_simple": "é HWA-a-wo-o nè-È-i",
-      "translation": "Tu parles bien.",
-      "context": "Complimenter la manière de parler de quelqu'un"
+      "original": "Dà kɛ́ gbɛ̀áhû hù.",
+      "phonetic_api": "/dà kɛ́ gbɛ̀áhû hù/",
+      "phonetic_simple": "da ké GBÈ-a-HOU hou",
+      "translation": "Ils tiennent le débat au lieu de palabres.",
+      "context": "Utilise gbɛ̀áhû (lieu de palabres) et la postposition hù (dans, déjà vue précédemment)."
     },
     {
       "phrase_id": "p2",
-      "original": "Lóno kɛ́.",
-      "phonetic_api": "/lóno kɛ́/",
-      "phonetic_simple": "LO-no ké",
-      "translation": "Causer, avoir une conversation.",
-      "context": "Décrire un échange constructif"
+      "original": "Ɓâa lɔ́ mà.",
+      "phonetic_api": "/ɓâa lɔ́ mà/",
+      "phonetic_simple": "BA-a lo ma",
+      "translation": "Donner le respect à quelqu'un.",
+      "context": "Expression attestée pour marquer la déférence lors d'un débat."
     },
     {
       "phrase_id": "p3",
-      "original": "Kólokolo tǒo.",
-      "phonetic_api": "/kólokolo tǒo/",
-      "phonetic_simple": "KO-lo-ko-lo to-o",
-      "translation": "Discuter inutilement.",
-      "context": "Critiquer une discussion stérile ou répétitive"
+      "original": "Nú ɓɛ̀lɛɛ ká tíi.",
+      "phonetic_api": "/nú ɓɛ̀lɛɛ ká tíi/",
+      "phonetic_simple": "nou BÈ-lè-è ka ti-i",
+      "translation": "C'est un homme respectueux.",
+      "context": "Qualité valorisée chez celui qui argumente en public."
     },
     {
       "phrase_id": "p4",
-      "original": "Pɔ́naa ↓káa gǔ lǒwai.",
-      "phonetic_api": "/pɔ́naa ↓káa gǔ lǒwai/",
-      "phonetic_simple": "PO-naa kaa gou lo-wai",
-      "translation": "Nous sommes en querelle, en rivalité.",
-      "context": "Décrire une relation conflictuelle"
+      "original": "Ŋà ŋwúŋmɛ mà, màáhɔ̀lɔɓó ŋà mǎa-ɓó.",
+      "phonetic_api": "/ŋà ŋwúŋmɛ mà màáhɔ̀lɔɓó ŋà mǎaɓó/",
+      "phonetic_simple": "nga NGWOU-ngmè ma, ma-a-HO-lo-BO nga MA-a-BO",
+      "translation": "Je le respecte, parce que je l'aiderai.",
+      "context": "Combine connecteur causal et argument de valeur (respect)."
     },
     {
       "phrase_id": "p5",
-      "original": "Ŋé nóŋ màakɔ́ŋɔ mɔ̀tɔ́ tɔ̌ɠɔ.",
-      "phonetic_api": "/ŋé nóŋ màakɔ́ŋɔ mɔ̀tɔ́ tɔ̌ɣɔ/",
-      "phonetic_simple": "ngé NONG ma-a-KO-ngo mo-TO to-gho",
-      "translation": "J'ai défendu mon fils contre la voiture.",
-      "context": "Décrire un acte de protection concret"
-    },
-    {
-      "phrase_id": "p6",
-      "original": "Yàa kánaŋ mɛ̀ni tɔ́nɔ ↓ɲɛ́i ɓá à mɔ̌lɔɔ.",
-      "phonetic_api": "/yàa kánaŋ mɛ̀ni tɔ́nɔ ↓ɲɛ́i ɓá à mɔ̌lɔɔ/",
-      "phonetic_simple": "ya-a KA-nang mè-ni TO-no NYÉ-i ɓA a mo-LO-o",
-      "translation": "Tu insistes trop sur la même chose.",
-      "context": "Reprocher une répétition excessive dans un débat"
-    },
-    {
-      "phrase_id": "p7",
-      "original": "Hɛ́â tǒo, kɛ́laa gáa mɛ̌ŋ.",
-      "phonetic_api": "/hɛ́â tǒo kɛ́laa gáa mɛ̌ŋ/",
-      "phonetic_simple": "HÈ-â to-o, KÈ-laa gaa MENG",
-      "translation": "Je te contredis, mais je comprends.",
-      "context": "Nuancer un désaccord tout en reconnaissant l'argument adverse"
+      "original": "Túɠô yɛ́ nú pɔ́lɔpɔ̀lɔ, kɛ́laa kpàkolo lí.",
+      "phonetic_api": "/túɠô yɛ́ nú pɔ́lɔpɔ̀lɔ kɛ́laa kpàkolo lí/",
+      "phonetic_simple": "TOU-gho yé nou PO-lo-PO-lo, KÉ-la-a KPA-ko-lo li",
+      "translation": "C'est un enfant, mais c'est un sage.",
+      "context": "Contre-argument nuancé par kɛ́laa (mais)."
     }
   ],
   "grammar_points": [
     {
-      "concept": "Trois registres de parole : hwáa, lóno, kólokolo",
-      "explanation": "Le kpele distingue trois niveaux de parole en fonction de sa valeur sociale, du simple fait de parler à la conversation constructive jusqu'à la discussion jugée stérile.",
+      "concept": "La structure de l'argumentation formelle : respect + connecteur + justification",
+      "explanation": "Dans le registre du débat traditionnel guerzé, une argumentation efficace combine une marque de respect envers l'interlocuteur ou l'assemblée (ɓâa/ɓɛ̌lɛ), un connecteur logique (màáhɔ̀lɔɓó, kɛ́laa) et une justification concrète, souvent appuyée par un proverbe (vu en C1_M2_L4).",
       "rules": [
-        "hwáa (parole) est le terme le plus général : ~ ɓó (parler), ~ kɛ́ (se disputer, un sens plus fort).",
-        "lóno/lɔ́nɔ (conversation, causerie) désigne un échange valorisé, une vraie discussion.",
-        "kólokolo (discussion inutile), avec son redoublement caractéristique, désigne au contraire une parole vaine qui ne mène nulle part."
+        "[Marque de respect] + [connecteur logique] + [justification/proverbe] = structure argumentative type du débat de palabre."
       ],
       "examples": [
         {
-          "structure": "hwáa / lóno / kólokolo",
-          "phonetic_api": "/hwáá/ /lóno/ /kólokolo/",
-          "meaning": "parole / conversation constructive / discussion inutile"
-        }
-      ]
-    },
-    {
-      "concept": "Défendre un point de vue avec mǎa-kɔ̌ŋɔ",
-      "explanation": "mǎa-kɔ̌ŋɔ (protéger, défendre) se construit avec tɔ̌ɠɔ (contre) pour préciser ce contre quoi on défend quelqu'un ou quelque chose — un point de vue, une personne, une idée.",
-      "rules": [
-        "[personne/idée] + màakɔ́ŋɔ + [menace] + tɔ̌ɠɔ = défendre [personne/idée] contre [menace].",
-        "Ce verbe, au sens concret dans le dictionnaire (défendre physiquement), s'étend naturellement au sens figuré de défendre une opinion dans un débat."
-      ],
-      "examples": [
-        {
-          "structure": "ŋé nóŋ màakɔ́ŋɔ mɔ̀tɔ́ tɔ̌ɠɔ",
-          "phonetic_api": "/ŋé nóŋ màakɔ́ŋɔ mɔ̀tɔ́ tɔ̌ɣɔ/",
-          "meaning": "j'ai défendu mon fils contre la voiture"
-        }
-      ]
-    },
-    {
-      "concept": "De la querelle au débat constructif",
-      "explanation": "pɔ́naa (querelle, rivalité) marque un conflit ouvert, tandis qu'un débat argumenté cherche à l'éviter en s'appuyant sur des connecteurs logiques (Leçon 3) et des proverbes (Leçon 4) plutôt que sur l'affrontement direct.",
-      "rules": [
-        "pɔ́naa ↓káa gǔ lǒwai = nous sommes en querelle : constat d'un conflit, à distinguer d'un débat constructif.",
-        "Un bon débatteur emploie kàŋ, kɛ́laa, màáhɔ̀lɔɓó pour structurer son propos, plutôt que de laisser la discussion glisser vers le kólokolo ou la pɔ́naa."
-      ],
-      "examples": [
-        {
-          "structure": "pɔ́naa vs lóno structuré",
-          "phonetic_api": "/pɔ́naa/",
-          "meaning": "querelle ouverte vs conversation argumentée"
-        }
-      ]
-    },
-    {
-      "concept": "Construire une argumentation complète",
-      "explanation": "Un argumentaire de niveau avancé combine les acquis des leçons précédentes : présenter une position, la justifier (màáhɔ̀lɔɓó), nuancer (kɛ́laa), défendre son point de vue (mǎa-kɔ̌ŋɔ) et, éventuellement, appuyer sa conclusion sur un proverbe (hɔ́ɔnŋ).",
-      "rules": [
-        "Structure possible : [position] màáhɔ̀lɔɓó [cause], kɛ́laa [objection anticipée], kàŋ [proverbe ou conclusion].",
-        "Cette architecture rhétorique en quatre temps représente le niveau le plus élaboré du discours argumentatif kpele étudié dans ce cours."
-      ],
-      "examples": [
-        {
-          "structure": "[position] màáhɔ̀lɔɓó [cause], kɛ́laa [objection], kàŋ [conclusion/proverbe]",
-          "phonetic_api": "",
-          "meaning": "schéma complet d'argumentation"
+          "structure": "ɓâa lɔ́ mà, màáhɔ̀lɔɓó nú ɓɛ̀lɛɛ ká tíi",
+          "phonetic_api": "/ɓâa lɔ́ mà màáhɔ̀lɔɓó nú ɓɛ̀lɛɛ ká tíi/",
+          "meaning": "donnons-lui le respect, parce que c'est un homme respectueux"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Personne A",
-      "text": "Pɔ́naa ↓káa gǔ lǒwai, kɛ́laa ŋé bɔ̀ lóno kɛ́ máŋ.",
-      "phonetic_api": "/pɔ́naa ↓káa gǔ lǒwai kɛ́laa ŋé bɔ̀ lóno kɛ́ máŋ/",
-      "phonetic_simple": "PO-naa kaa gou lo-wai, KÈ-laa ngé bo LO-no ké mang",
-      "translation": "Nous sommes en querelle, mais je veux aussi causer avec toi."
+      "speaker": "Le premier orateur",
+      "text": "Dà kɛ́ gbɛ̀áhû hù ɓèlee.",
+      "phonetic_api": "/dà kɛ́ gbɛ̀áhû hù ɓèlee/",
+      "phonetic_simple": "da ké GBÈ-a-HOU hou BÈ-lè-è",
+      "translation": "Ils tiennent le débat au lieu de palabres aujourd'hui."
     },
     {
-      "speaker": "Personne B",
-      "text": "Ŋàá mɛ̌ŋ, kɛ́laa yàa kánaŋ mɛ̀ni tɔ́nɔ ↓ɲɛ́i ɓá à mɔ̌lɔɔ.",
-      "phonetic_api": "/ŋàá mɛ̌ŋ kɛ́laa yàa kánaŋ mɛ̀ni tɔ́nɔ ↓ɲɛ́i ɓá à mɔ̌lɔɔ/",
-      "phonetic_simple": "nga-a MENG, KÈ-laa ya-a KA-nang mè-ni TO-no NYÉ-i ɓA a mo-LO-o",
-      "translation": "J'ai compris, mais tu insistes trop sur la même chose."
+      "speaker": "Le second orateur",
+      "text": "Ɓâa lɔ́ mà, màáhɔ̀lɔɓó nú ɓɛ̀lɛɛ ká tíi.",
+      "phonetic_api": "/ɓâa lɔ́ mà màáhɔ̀lɔɓó nú ɓɛ̀lɛɛ ká tíi/",
+      "phonetic_simple": "BA-a lo ma, ma-a-HO-lo-BO nou BÈ-lè-è ka ti-i",
+      "translation": "Donnons-lui le respect, parce que c'est un homme respectueux."
     },
     {
-      "speaker": "Personne A",
-      "text": "Hɛ́â tǒo à wàla kɛ́ tíi, màáhɔ̀lɔɓó ŋé nóŋ màakɔ́ŋɔ mɔ̀tɔ́ tɔ̌ɠɔ.",
-      "phonetic_api": "/hɛ́â tǒo à wàla kɛ́ tíi màáhɔ̀lɔɓó ŋé nóŋ màakɔ́ŋɔ mɔ̀tɔ́ tɔ̌ɣɔ/",
-      "phonetic_simple": "HÈ-â to-o a wa-la ké TI-i, ma-a-HO-lo-ɓO ngé NONG ma-a-KO-ngo mo-TO to-gho",
-      "translation": "Je te contredis, sinon, parce que j'ai défendu mon fils contre la voiture."
+      "speaker": "Le premier orateur",
+      "text": "Túɠô yɛ́ nú pɔ́lɔpɔ̀lɔ, kɛ́laa kpàkolo lí.",
+      "phonetic_api": "/túɠô yɛ́ nú pɔ́lɔpɔ̀lɔ kɛ́laa kpàkolo lí/",
+      "phonetic_simple": "TOU-gho yé nou PO-lo-PO-lo, KÉ-la-a KPA-ko-lo li",
+      "translation": "C'est un enfant, mais c'est un sage."
     },
     {
-      "speaker": "Personne B",
-      "text": "Kàŋ, hɔ́ɔnŋ hɔ̌ɔ : hèɠeheɠelaá dà tɔ̀ɔtɔɔlaa ɓé.",
-      "phonetic_api": "/kàŋ hɔ́ɔnŋ hɔ̌ɔ hèɣèhèɣèlaá dà tɔ̀ɔtɔɔlaa ɓé/",
-      "phonetic_simple": "kang, HO-onng ho-O: hè-ghè-hè-ghè-LAA da to-o-to-o-LAA bé",
-      "translation": "Donc, je dis un proverbe : celui qui vient succède à celui qui part."
-    },
-    {
-      "speaker": "Personne A",
-      "text": "Ŋàá mɛ̌ŋ. Máma, mɛ́niê !",
-      "phonetic_api": "/ŋàá mɛ̌ŋ máma mɛ́niê/",
-      "phonetic_simple": "nga-a MENG. MA-ma, MÉ-ni-Ê !",
-      "translation": "J'ai compris. Merci, mon ami !"
+      "speaker": "Le second orateur",
+      "text": "Kɛ́la ~ kɛ́, gwè lí gbɛ̀áhû hù kàŋ.",
+      "phonetic_api": "/kɛ́la kɛ́ gwè lí gbɛ̀áhû hù kàŋ/",
+      "phonetic_simple": "KÉ-la ké, gwè li GBÈ-a-HOU hou kang",
+      "translation": "Portons le message, nous sommes donc au lieu de palabres."
     }
   ],
   "cultural_notes": [
-    "La distinction sociale entre lóno (conversation valorisée) et kólokolo (discussion inutile) reflète une haute considération culturelle pour la parole utile et constructive, par opposition au bavardage sans but dans la tradition kpele.",
-    "Le fait que mǎa-kɔ̌ŋɔ (défendre) partage sa racine avec kɔ̌ŋɔ (danse acrobatique, se débattre, Intermédiaire Leçon 2) suggère un lien conceptuel entre la défense verbale d'une position et l'effort physique de résistance.",
-    "L'usage rhétorique du proverbe pour clore un débat, déjà entrevu en Leçon 4, trouve ici sa pleine application : au lieu de prolonger une pɔ́naa (querelle), un locuteur habile invoque la sagesse collective pour ramener l'échange vers un terrain apaisé."
+    "Le gbɛ̀áhû (lieu de palabres) est un espace institutionnel central dans l'organisation politique traditionnelle guerzé, où les chefs et les hommes débattent des affaires communautaires (Konoshenko 2019).",
+    "Le respect (ɓâa, ɓɛ̌lɛ) envers l'interlocuteur, même en contexte de désaccord, reste une valeur cardinale du débat argumenté en culture guerzé, contrairement à un style confrontationnel direct."
   ],
   "exercises": [
     {
       "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel mot désigne une discussion jugée inutile, stérile ?",
+      "question": "Comment appelle-t-on le lieu traditionnel du débat entre chefs et hommes en guerzé ?",
       "options": [
-        "lóno",
-        "hwáa",
-        "kólokolo",
-        "pɔ́naa"
+        "gbɛ̀áhû",
+        "làkwélî",
+        "kìikâ"
       ],
-      "correct_answer": "kólokolo",
-      "explanation": "kólokolo, avec son redoublement expressif, désigne une discussion vaine."
+      "correct_answer": "gbɛ̀áhû",
+      "explanation": "gbɛ̀áhû est directement défini comme « lieu de palabres (entre les chefs, les hommes) » dans Konoshenko (2019)."
     },
     {
       "exercise_id": "ex2",
-      "type": "multiple_choice",
-      "question": "Avec quelle postposition mǎa-kɔ̌ŋɔ (défendre) se construit-il ?",
-      "options": [
-        "ɓà",
-        "tɔ̌ɠɔ",
-        "hù",
-        "yêi"
-      ],
-      "correct_answer": "tɔ̌ɠɔ",
-      "explanation": "tɔ̌ɠɔ (contre) précise ce contre quoi on défend quelqu'un ou quelque chose."
-    },
-    {
-      "exercise_id": "ex3",
-      "type": "multiple_choice",
-      "question": "Que signifie hwáa ~ kɛ́ ?",
-      "options": [
-        "Causer",
-        "Se disputer",
-        "Contredire",
-        "Défendre"
-      ],
-      "correct_answer": "Se disputer",
-      "explanation": "hwáa ~ kɛ́ (litt. « faire la parole ») signifie se disputer, un sens plus fort que « parler »."
-    },
-    {
-      "exercise_id": "ex4",
-      "type": "multiple_choice",
-      "question": "Que désigne pɔ́naa ?",
-      "options": [
-        "Une conversation agréable",
-        "Un proverbe",
-        "Une querelle, une rivalité",
-        "Un discours formel"
-      ],
-      "correct_answer": "Une querelle, une rivalité",
-      "explanation": "pɔ́naa désigne un état de conflit ouvert entre deux personnes ou groupes."
-    },
-    {
-      "exercise_id": "ex5",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "« Tu parles bien » se dit : « É [ ___ ] nɛ̀ɛî. »",
-      "correct_answer": "hwáawoo",
-      "hint": "C'est une forme du nom « parole »."
-    },
-    {
-      "exercise_id": "ex6",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "« Discuter inutilement » se dit : « Kólokolo [ ___ ]. »",
-      "correct_answer": "tǒo",
-      "hint": "Ce même verbe léger accompagne aussi hɛ́â (contredire)."
-    },
-    {
-      "exercise_id": "ex7",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Un schéma d'argumentation complet suit : [position] màáhɔ̀lɔɓó [cause], kɛ́laa [objection], [ ___ ] [conclusion/proverbe].",
-      "correct_answer": "kàŋ",
-      "hint": "C'est le connecteur qui introduit la conclusion."
+      "sentence_with_blank": "Nú [ ___ ] ká tíi. (C'est un homme respectueux.)",
+      "correct_answer": "ɓɛ̀lɛɛ",
+      "hint": "Forme adjectivale de ɓɛ̌lɛ, « être poli, respectueux »."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Konoshenko, M. (2019). Dictionnaire kpele de la Guinée (guerzé) – français. Mandenkan 62.",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan62/62konoshenko.pdf"
+    },
+    {
+      "label": "Wikipédia — Kpèllé (langue) / Guerzé",
+      "url": "https://fr.wikipedia.org/wiki/Guerze"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Le lieu de palabres (gbɛ̀áhû) et le vocabulaire du respect (ɓâa, ɓɛ̌lɛ) sont attestés dans le dictionnaire ; le dialogue de débat combine ces éléments attestés séparément dans une mise en scène composée par l'auteur, faute d'un dialogue de débat complet attesté tel quel dans les sources."
 }

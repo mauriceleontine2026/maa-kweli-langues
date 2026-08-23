@@ -6,128 +6,211 @@
   "lesson_number": 5,
   "title": "Débattre, argumenter et défendre un point de vue",
   "learning_objectives": [
-    "Contredire poliment mais fermement une opinion lors d'une assemblée",
-    "Développer une argumentation tripartite (Thèse, Antithèse, Synthèse rurale) en toma"
+    "Utiliser le vocabulaire de la palabre et de la discussion ('faai', 'boiwo', 'gaazakee')",
+    "Rapporter et défendre une affirmation avec 'gaamawo' (prouver)",
+    "Contredire poliment une affirmation avec 'ke...zeevave' (mais c'est un mensonge)"
   ],
   "phonetic_focus": {
-    "key_sounds": "La rhétorique avancée exige des glissandos intonatifs subtils sur les particules d'opposition complexes comme /mɛ.ni.tɔ̃.zu/, où la voix descend puis remonte brutalement.",
-    "common_pitfalls": "Ne pas élever la voix de façon agressive. L'assurance de l'argument se traduit par une articulation lourde, posée et des consonnes nasales bien ancrées."
+    "key_sounds": "Le mot 'faai' (palaver/affaire/débat) est un terme central de la rhétorique loma/lorma, dont la diphtongue finale doit être clairement articulée pour le distinguer d'autres mots courts similaires.",
+    "common_pitfalls": "Les francophones cherchent souvent un équivalent unique au mot français 'débat' ; en toma/loma, 'faai' recouvre une notion plus large de 'palabre/affaire à trancher collectivement', culturellement différente du débat individuel à l'occidentale."
   },
   "vocabulary": [
     {
-      "word_id": "v23_1",
-      "term": "mɛni-tɔñ-zu",
-      "phonetic_api": "/mɛ.ni.tɔ̃.zu/",
-      "phonetic_simple": "ME-NI-TON-ZOU",
-      "translation": "mon point de vue / ma vérité intime / mon argument",
-      "example_sentence": "Na mɛni-tɔñ-zu lɔ ɓɛñ.",
-      "example_phonetic": "/na mɛ.ni.tɔ̃.zu lɔ ɓɛ̃/",
-      "example_translation": "Voici mon argument fondamental."
+      "word_id": "v1",
+      "term": "Faai",
+      "phonetic_api": "/faːi/",
+      "phonetic_simple": "FA-A-I",
+      "translation": "Palabre, affaire, débat collectif",
+      "example_sentence": "Faÿi §oevÿ.",
+      "example_phonetic": "/faːi ɓɔevɤ/",
+      "example_translation": "La situation/l'affaire est mauvaise."
     },
     {
-      "word_id": "v23_2",
-      "term": "kpalo-mɛni",
-      "phonetic_api": "/kpa.lo.mɛ.ni/",
-      "phonetic_simple": "KPA-LO-ME-NI",
-      "translation": "contradiction / objection / désaccord",
-      "example_sentence": "Kpalo-mɛni pɛ́ na ma.",
-      "example_phonetic": "/kpa.lo.mɛ.ni pɛ́ na ma/",
-      "example_translation": "Je ne vois aucune objection à cela."
+      "word_id": "v2",
+      "term": "Gaazakee",
+      "phonetic_api": "/gaːzakeː/",
+      "phonetic_simple": "GA-A-ZA-KÉÉ",
+      "translation": "Questionner (dans un débat)",
+      "example_sentence": "Zebee ya e gaazakee?",
+      "example_phonetic": "/zebeː ja e gaːzakeː/",
+      "example_translation": "Qu'a-t-il demandé ?"
     },
     {
-      "word_id": "v23_3",
-      "term": "tɔñ-vaza",
-      "phonetic_api": "/tɔ̃.va.za/",
-      "phonetic_simple": "TON-VA-ZA",
-      "translation": "convaincre / attester de la justesse d'une parole",
-      "example_sentence": "I mɛni o na tɔñ-vaza.",
-      "example_phonetic": "/i mɛ.ni o na tɔ̃.va.za/",
-      "example_translation": "Tes propos m'ont pleinement convaincu."
+      "word_id": "v3",
+      "term": "Gaawote",
+      "phonetic_api": "/gaːwɔte/",
+      "phonetic_simple": "GA-A-WO-TÉ",
+      "translation": "Répondre (à un argument)",
+      "example_sentence": "Zebee ya e gaawote?",
+      "example_phonetic": "/zebeː ja e gaːwɔte/",
+      "example_translation": "Qu'a-t-il répondu ?"
     },
     {
-      "word_id": "v23_4",
-      "term": "taa-gila-zu",
-      "phonetic_api": "/taː.ɡi.la.zu/",
-      "phonetic_simple": "TAA-GI-LA-ZOU",
-      "translation": "consensus / accord collectif (litt. dans une seule ville)",
-      "example_sentence": "Wa va taa-gila-zu ni ma.",
-      "example_phonetic": "/wa va taː.ɡi.la.zu ni ma/",
-      "example_translation": "Nous sommes parvenus à un consensus maintenant."
+      "word_id": "v4",
+      "term": "Gaamawo",
+      "phonetic_api": "/gaːmawɔ/",
+      "phonetic_simple": "GA-A-MA-WO",
+      "translation": "Prouver, démontrer",
+      "example_sentence": "Gaama.",
+      "example_phonetic": "/gaːma/",
+      "example_translation": "Fait, vérité (racine de 'prouver')."
+    },
+    {
+      "word_id": "v5",
+      "term": "To na faawoogii boni",
+      "phonetic_api": "/tɔ na faːwoːɡiː bɔni/",
+      "phonetic_simple": "TO-NA-FA-A-WO-O-GUI-BO-NI",
+      "translation": "Juger, trancher un cas (dans une palabre)",
+      "example_sentence": "To na faawoogii boni.",
+      "example_phonetic": "/tɔ na faːwoːɡiː bɔni/",
+      "example_translation": "Il a jugé/tranché le cas."
+    },
+    {
+      "word_id": "v6",
+      "term": "Zeevave",
+      "phonetic_api": "/zeːvave/",
+      "phonetic_simple": "ZÉ-É-VA-VÉ",
+      "translation": "Mensonge",
+      "example_sentence": "e b3ni ma gaa e meli, ke zeevave.",
+      "example_phonetic": "/e bɔni ma ɡaː e meli ke zeːvave/",
+      "example_translation": "Il me l'a dit, mais c'est un mensonge."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p23_1",
-      "original": "Na i mɛni mɛnina, kɛ́ɛ kpalo-mɛni lɔ na lii zu.",
-      "phonetic_api": "/na i mɛ.ni mɛ.ni.na kɛ́ː kpa.lo.mɛ.ni lɔ na liː zu/",
-      "phonetic_simple": "NA I ME-NI ME-NI-NA, KEE KPA-LO-ME-NI LO NA LII ZOU",
-      "translation": "J'ai attentivement écouté tes propos, cependant mon esprit formule une vive objection.",
-      "context": "Phrase hautement polie pour initier une contradiction lors d'une palabre d'adultes."
+      "phrase_id": "p1",
+      "original": "Zebee ya e gaazakee?",
+      "phonetic_api": "/zebeː ja e gaːzakeː/",
+      "phonetic_simple": "ZÉ-BÉÉ-YA-É-GA-A-ZA-KÉÉ",
+      "translation": "Qu'a-t-il demandé ?",
+      "context": "Introduire un point de discussion dans un débat."
     },
     {
-      "phrase_id": "p23_2",
-      "original": "Mɛni-ma-vɛlɛ, wa kɛ̃ wa li taa-gila-zu mɛni ma.",
-      "phonetic_api": "/mɛ.ni.ma.vɛ.lɛ wa kɛ̃ wa li taː.ɡi.la.zu mɛ.ni ma/",
-      "phonetic_simple": "ME-NI-MA-VE-LE, WA KEN WA LI TAA-GI-LA-ZOU ME-NI MA",
-      "translation": "Par conséquent, nous nous devons de converger vers un consensus mutuel.",
-      "context": "Appel solennel d'un médiateur pour sceller la fin d'une dispute."
+      "phrase_id": "p2",
+      "original": "Zebee ya e gaawote?",
+      "phonetic_api": "/zebeː ja e gaːwɔte/",
+      "phonetic_simple": "ZÉ-BÉÉ-YA-É-GA-A-WO-TÉ",
+      "translation": "Qu'a-t-il répondu ?",
+      "context": "Demander l'argument de réponse d'un interlocuteur."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "e b3ni ma gaa e meli, ke zeevave.",
+      "phonetic_api": "/e bɔni ma ɡaː e meli ke zeːvave/",
+      "phonetic_simple": "É-BO-NI-MA-GA-É-MÉ-LI-KÉ-ZÉ-É-VA-VÉ",
+      "translation": "Il me l'a dit, mais c'est un mensonge.",
+      "context": "Contredire fermement mais poliment une affirmation rapportée."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Gaa ge gaa L33maglitie, vele ya na, gileve tiiyeezii.",
+      "phonetic_api": "/gaː ge gaː loːmaɡlitie vele ja na ɡileve tiːjeːzii/",
+      "phonetic_simple": "GA-GUÉ-GA-LO-MA-GLI-TI-É-VÉ-LÉ-YA-NA-GUI-LÉ-VÉ-TI-I-YÉÉ-ZI",
+      "translation": "Nous qui sommes des Lorma, voici comment nous faisons notre travail (nos affaires).",
+      "context": "Affirmer et défendre une pratique culturelle collective en argumentant par la tradition."
     }
   ],
   "grammar_points": [
     {
-      "concept": "La thématisation de l'argument avec 'mɛni-ma'",
-      "explanation": "Pour structurer solidement une prise de parole, le locuteur avancé isole son idée principale en tête de phrase à l'aide du thématiseur 'mɛni-ma' (quant à cette affaire / au sujet de).",
+      "concept": "La structure question-réponse dans l'argumentation",
+      "explanation": "Le débat en toma/loma s'organise autour du couple 'gaazakee' (questionner) / 'gaawote' (répondre), qui structure l'échange argumentatif : chaque intervention peut être rapportée en indiquant explicitement ce qui a été demandé et ce qui a été répondu, une forme de méta-discours sur le débat lui-même.",
       "rules": [
-        "L'argument principal est énoncé, suivi immédiatement du relateur 'mɛni-ma'.",
-        "Une pause prosodique (virgule orale) sépare ce bloc de la démonstration logique."
+        "Zebee ya + sujet + gaazakee ? = 'Qu'a demandé [sujet] ?'.",
+        "Zebee ya + sujet + gaawote ? = 'Qu'a répondu [sujet] ?'."
       ],
       "examples": [
         {
-          "structure": "tii mɛni-ma, na pɛ́ lo ga...",
-          "phonetic_api": "/tiː mɛ.ni.ma na pɛ́ lo ɡa/",
-          "meaning": "quant à la question du travail, je n'approuve pas..."
+          "structure": "Zebee ya e gaazakee?",
+          "phonetic_api": "/zebeː ja e gaːzakeː/",
+          "meaning": "Qu'a-t-il demandé ?"
+        }
+      ]
+    },
+    {
+      "concept": "Contredire une affirmation avec 'ke...zeevave'",
+      "explanation": "Pour réfuter fermement une affirmation rapportée par un tiers tout en restant dans le cadre poli de la conversation, le toma/loma emploie la structure : rapport de l'affirmation + 'ke' (mais) + 'zeevave' (c'est un mensonge).",
+      "rules": [
+        "Proposition rapportée + ke + zeevave = 'mais c'est un mensonge' (contradiction argumentée)."
+      ],
+      "examples": [
+        {
+          "structure": "e b3ni ma gaa e meli, ke zeevave.",
+          "phonetic_api": "/e bɔni ma ɡaː e meli ke zeːvave/",
+          "meaning": "Il me l'a dit, mais c'est un mensonge."
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Momo",
-      "text": "Wa kɛ̃ wa gbeleyi lapatɛ ve galu ma vɛlɛ ma.",
-      "phonetic_api": "/wa kɛ̃ wa ɡbɛ.lɛ.ji la.pa.tɛ vɛ ɡa.lu ma vɛ.lɛ ma/",
-      "phonetic_simple": "WA KEN WA GBE-LE-YI LA-PA-TE VE GA-LOU MA VE-LE MA",
-      "translation": "Nous devons investir une grosse somme d'argent pour le bâtiment du marché."
+      "speaker": "Débatteur 1",
+      "text": "Zebee ya e gaazakee?",
+      "phonetic_api": "/zebeː ja e gaːzakeː/",
+      "phonetic_simple": "ZÉ-BÉÉ-YA-É-GA-A-ZA-KÉÉ",
+      "translation": "Qu'a-t-il demandé ?"
     },
     {
-      "speaker": "Sia",
-      "text": "Na i mɛni mɛnina, kɛ́ɛ kpalo-mɛni lɔ ɓɛñ. Gbeleyi pɛ́ wa yee gaza; mɛni-ma-vɛlɛ wa taa-gila-zu lo.",
-      "phonetic_api": "/na i mɛ.ni mɛ.ni.na kɛ́ː kpa.lo.mɛ.ni lɔ ɓɛ̃ ɡbɛ.lɛ.ji pɛ́ wa jeː ɡa.za mɛ.ni.ma.vɛ.lɛ wa taː.ɡi.la.zu lo/",
-      "phonetic_simple": "NA I ME-NI ME-NI-NA, KEE KPA-LO-ME-NI LO BEN. GBE-LE-YI PE WA YEE GA-ZA; ME-NI-MA-VE-LE WA TAA-GI-LA-ZOU LO",
-      "translation": "J'entends bien, mais j'émets une objection. Nos caisses ne sont pas assez fournies ; c'est pourquoi nous devrions plutôt chercher un compromis."
+      "speaker": "Débatteur 2",
+      "text": "e b3ni ma gaa e meli, ke zeevave.",
+      "phonetic_api": "/e bɔni ma ɡaː e meli ke zeːvave/",
+      "phonetic_simple": "É-BO-NI-MA-GA-É-MÉ-LI-KÉ-ZÉ-É-VA-VÉ",
+      "translation": "Il me l'a dit, mais c'est un mensonge."
+    },
+    {
+      "speaker": "Débatteur 1",
+      "text": "Gaa ge gaa L33maglitie, vele ya na, gileve tiiyeezii.",
+      "phonetic_api": "/gaː ge gaː loːmaɡlitie vele ja na ɡileve tiːjeːzii/",
+      "phonetic_simple": "GA-GUÉ-GA-LO-MA-GLI-TI-É-VÉ-LÉ-YA-NA-GUI-LÉ-VÉ-TI-I-YÉÉ-ZI",
+      "translation": "Nous qui sommes des Lorma, voici comment nous faisons nos affaires."
     }
   ],
   "cultural_notes": [
-    "L'exercice du débat public en pays Toma s'articule autour de l'arbre à palabres ou de la case commune. Prendre la parole exige de respecter l'ordre d'ancienneté et d'émailler sa contradiction de tournures adoucies pour préserver la paix sociale."
+    "Le débat traditionnel loma/lorma prend souvent la forme d'une palabre ('faai') collective, où un cas est exposé, discuté et 'jugé' ('faawoogii boni') plutôt que tranché par un seul individu, contrairement au débat individuel occidental.",
+    "Rappeler l'identité collective ('nous qui sommes des Lorma') est une stratégie rhétorique courante pour légitimer un argument par la tradition partagée."
   ],
   "exercises": [
     {
-      "exercise_id": "ex23_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Que signifie métaphoriquement l'expression du consensus 'taa-gila-zu' ?",
+      "question": "Que signifie 'faai' ?",
       "options": [
-        "Une maison isolée",
-        "Dans une seule et même ville / consensus",
-        "Partir loin"
+        "Palabre, affaire, débat collectif",
+        "Mensonge",
+        "Réponse"
       ],
-      "correct_answer": "Dans une seule et même ville / consensus",
-      "explanation": "Le concept symbolise l'unanimité : le fait que toute la communauté parle d'une seule et même voix, comme vivant dans une seule entité spatiale harmonieuse."
+      "correct_answer": "Palabre, affaire, débat collectif",
+      "explanation": "Attesté dans le manuel Peace Corps sur le Lorma et dans la grammaire de Sadler comme terme central de la rhétorique locale."
     },
     {
-      "exercise_id": "ex23_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "[ ___ ]-mɛni pɛ́ na ma (Je n'ai aucune objection).",
-      "correct_answer": "Kpalo",
-      "hint": "Le mot désignant le fait de contredire ou de s'opposer."
+      "sentence_with_blank": "Zebee ya e [ ___ ]? (Qu'a-t-il répondu ?)",
+      "correct_answer": "gaawote",
+      "hint": "C'est le verbe pour 'répondre'."
+    },
+    {
+      "exercise_id": "ex3",
+      "type": "multiple_choice",
+      "question": "Comment contredire poliment une affirmation rapportée ?",
+      "options": [
+        "ke zeevave (mais c'est un mensonge)",
+        "navaama (donc)",
+        "anii (si)"
+      ],
+      "correct_answer": "ke zeevave (mais c'est un mensonge)",
+      "explanation": "Structure attestée dans le manuel Peace Corps sur le Lorma pour marquer une contradiction argumentée."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Dwyer, Bodegie & Bague, \"A Learner Directed Approach to Lorma\" (Peace Corps/Michigan State University, 1981)",
+      "url": "https://files.eric.ed.gov/fulltext/ED247766.pdf"
+    },
+    {
+      "label": "Wesley Sadler, \"A Complete Analysis of the Lɔɔma Language\", Mandenkan 42 (LLACAN/CNRS)",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan42/sadler.pdf"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Vocabulaire du débat/de la palabre (faai, gaazakee, gaawote, gaamawo) attesté dans le manuel Peace Corps sur le Lorma ; aucune source ne documente une rhétorique de 'débat formel' au sens occidental, la structure de la palabre traditionnelle étant le cadre culturel le plus proche disponible. Le toma de Guinée forestière et le loma/lorma du Libéria (dialecte Gizima) forment un continuum dialectal du même groupe Mande du Sud (Mende-Loma) ; les formes citées ici proviennent des meilleures sources disponibles pour ce continuum linguistique (grammaire de Sadler et manuel Peace Corps de Dwyer), la documentation publiée spécifique au parler de Guinée étant plus rare."
 }

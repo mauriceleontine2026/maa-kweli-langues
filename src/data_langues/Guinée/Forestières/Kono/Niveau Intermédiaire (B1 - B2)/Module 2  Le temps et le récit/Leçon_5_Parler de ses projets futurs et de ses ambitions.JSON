@@ -1,183 +1,223 @@
 {
   "lesson_id": "B1_M2_L5",
-  "level": "Niveau Intermédiaire (B1-B2)",
+  "level": "Intermédiaire (B1-B2)",
   "module_number": 2,
   "module_title": "Le temps et le récit",
   "lesson_number": 5,
   "title": "Parler de ses projets futurs et de ses ambitions",
   "learning_objectives": [
-    "Exprimer une action future ou une intention ferme en kono",
-    "Formuler ses ambitions professionnelles ou personnelles",
-    "Utiliser les marqueurs temporels du futur ('demain', 'l'année prochaine')"
+    "Utiliser le marqueur de futur wɛɛ̀́ pour exprimer des projets",
+    "Exprimer un souhait ou une ambition avec lɔ́ɔ",
+    "Combiner futur et complément temporel pour préciser un projet"
   ],
   "phonetic_focus": {
-    "key_sounds": "La particule du futur 'wá' ou 'ɛ́' s'articule avec un ton haut distinctif. Veillez à bien ouvrir la voyelle /ɛ/ ouverte sans la confondre avec le son fermé /e/.",
-    "common_pitfalls": "Attention à ne pas confondre la marque du futur négatif avec celle du présent progressif négatif, l'accentuation tonale et le choix de la voyelle d'appui étant les seuls repères."
+    "key_sounds": "Le marqueur wɛɛ̀́ porte un ton descendant caractéristique qu'il faut bien distinguer du ton simplement bas, sous peine de confusion avec d'autres particules.",
+    "common_pitfalls": "Certains apprenants oublient de placer wɛɛ̀́ immédiatement avant le verbe, le plaçant à tort en début de phrase comme en français (« demain, je... »)."
   },
   "vocabulary": [
     {
-      "word_id": "v5_1",
-      "term": "sínà",
-      "phonetic_api": "/sí.nà/",
-      "phonetic_simple": "SI-NA",
-      "translation": "demain",
-      "example_sentence": "ń wá táá lòlà sínà",
-      "example_phonetic": "/ń wá táː lò.là sí.nà/",
-      "example_translation": "J'irai à Lola demain."
+      "word_id": "v1",
+      "term": "wɛɛ̀́",
+      "phonetic_api": "/wɛ̀ː/",
+      "phonetic_simple": "OUÉ-É",
+      "translation": "marqueur du futur (kono attesté)",
+      "example_sentence": "Ɲá wɛɛ̀́ pá súku kɛ́ tíŋaá.",
+      "example_phonetic": "/ɲá wɛ̀ːpá súku kɛ́ tíŋaː/",
+      "example_translation": "J'étudierai demain."
     },
     {
-      "word_id": "v5_2",
-      "term": "bòn-wòò-gbɛ́ɛ́",
-      "phonetic_api": "/bòn.wòː.ɡ͡ɓɛ́ː/",
-      "phonetic_simple": "BON-WOO-GBEE",
-      "translation": "l'année prochaine",
-      "example_sentence": "àá wá kɔ̀nɔ̀n kɛ́ bòn-wòò-gbɛ́ɛ́ yí",
-      "example_phonetic": "/àː wá kɔ̀nɔ̀n kɛ́ bòn.wòː.ɡ͡ɓɛ́ː jí/",
-      "example_translation": "Nous ferons le champ ici l'année prochaine."
+      "word_id": "v2",
+      "term": "lɔ́ɔ",
+      "phonetic_api": "/lɔ́ɔ/",
+      "phonetic_simple": "LO-O",
+      "translation": "vouloir, souhaiter (kpele apparenté)",
+      "example_sentence": "Ɲá lɔ́ɔ klô kɛ́ Lɔ̀raà pɔ́.",
+      "example_phonetic": "/ɲá lɔ́ɔ klô kɛ́ lɔ̀raː pɔ́/",
+      "example_translation": "Je veux travailler à Lola."
     },
     {
-      "word_id": "v5_3",
-      "term": "kíán-wòò",
-      "phonetic_api": "/kí.án.wòː/",
-      "phonetic_simple": "KIAN-WOO",
-      "translation": "le projet / le désir / l'ambition",
-      "example_sentence": "ń kíán-wòò le nìí",
-      "example_phonetic": "/ń kí.án.wòː le nìː/",
-      "example_translation": "Voici mon projet / mon ambition."
+      "word_id": "v3",
+      "term": "tíŋaá",
+      "phonetic_api": "/tíŋaː/",
+      "phonetic_simple": "TIN-GA-A",
+      "translation": "demain (kono attesté)",
+      "example_sentence": "Ɲá wɛɛ̀́ pá tíŋaá.",
+      "example_phonetic": "/ɲá wɛ̀ːpá tíŋaː/",
+      "example_translation": "Je viendrai demain."
     },
     {
-      "word_id": "v5_4",
-      "term": "wá",
-      "phonetic_api": "/wá/",
-      "phonetic_simple": "WA",
-      "translation": "particule du futur (aller faire)",
-      "example_sentence": "ń wá lú gíán",
-      "example_phonetic": "/ń wá lú ɡí.án/",
-      "example_translation": "Je vais construire une maison."
+      "word_id": "v4",
+      "term": "klô",
+      "phonetic_api": "/klô/",
+      "phonetic_simple": "KLO",
+      "translation": "travail (kono attesté)",
+      "example_sentence": "Ɲá wɛɛ̀́ klô kɛ́ tíŋaá.",
+      "example_phonetic": "/ɲá wɛ̀ː klô kɛ́ tíŋaː/",
+      "example_translation": "Je travaillerai demain."
+    },
+    {
+      "word_id": "v5",
+      "term": "súku",
+      "phonetic_api": "/súku/",
+      "phonetic_simple": "SOU-KOU",
+      "translation": "école, étude (emprunt régional)",
+      "example_sentence": "Yà lɔ́ɔ súku kɛ́.",
+      "example_phonetic": "/jà lɔ́ɔ súku kɛ́/",
+      "example_translation": "Il/elle veut étudier."
+    },
+    {
+      "word_id": "v6",
+      "term": "kɛ́",
+      "phonetic_api": "/kɛ́/",
+      "phonetic_simple": "KÉ",
+      "translation": "faire (verbe support, kpele apparenté)",
+      "example_sentence": "Klô kɛ́.",
+      "example_phonetic": "/klô kɛ́/",
+      "example_translation": "Travailler."
+    },
+    {
+      "word_id": "v7",
+      "term": "gɔẁá",
+      "phonetic_api": "/gɔ̀wá/",
+      "phonetic_simple": "GO-OUA",
+      "translation": "nous (inclusif, kono attesté)",
+      "example_sentence": "Gɔẁá wɛɛ̀́ pá tíŋaá.",
+      "example_phonetic": "/gɔ̀wá wɛ̀ːpá tíŋaː/",
+      "example_translation": "Nous viendrons demain (toi et moi inclus)."
+    },
+    {
+      "word_id": "v8",
+      "term": "Lɔ̀raà",
+      "phonetic_api": "/lɔ̀raː/",
+      "phonetic_simple": "LO-RAA",
+      "translation": "Lola (préfecture)",
+      "example_sentence": "Ɲá lɔ́ɔ klô kɛ́ Lɔ̀raà pɔ́.",
+      "example_phonetic": "/ɲá lɔ́ɔ klô kɛ́ lɔ̀raː pɔ́/",
+      "example_translation": "Je veux travailler à Lola."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p5_1",
-      "original": "míɛ́ le í wá á kɛ́á sínà ?",
-      "phonetic_api": "/mí.ɛ́ le í wá á kɛ́.á sí.nà/",
-      "phonetic_simple": "MIEE LE I WA A KEA SI-NA",
-      "translation": "Qu'est-ce que tu vas faire demain ?",
-      "context": "Interroger un ami ou un collègue sur ses projets du lendemain."
+      "phrase_id": "p1",
+      "original": "Ɲá wɛɛ̀́ pá súku kɛ́ tíŋaá.",
+      "phonetic_api": "/ɲá wɛ̀ːpá súku kɛ́ tíŋaː/",
+      "phonetic_simple": "NYA OUÉ-É PA SOU-KOU KÉ TIN-GA-A",
+      "translation": "J'étudierai demain.",
+      "context": "Structure de base du futur pour un projet immédiat."
     },
     {
-      "phrase_id": "p5_2",
-      "original": "ń kíán-wòò le bɛ́ táá kálá-yíé",
-      "phonetic_api": "/ń kí.án.wòː le ɓɛ́ táː ká.lá.jí.é/",
-      "phonetic_simple": "N KIAN-WOO LE BE TAA KALA-YIEE",
-      "translation": "Mon ambition est d'aller à l'école / d'étudier.",
-      "context": "Exprimer ses aspirations professionnelles futures."
+      "phrase_id": "p2",
+      "original": "Ɲá lɔ́ɔ klô kɛ́ Lɔ̀raà pɔ́.",
+      "phonetic_api": "/ɲá lɔ́ɔ klô kɛ́ lɔ̀raː pɔ́/",
+      "phonetic_simple": "NYA LO-O KLO KÉ LO-RAA PO",
+      "translation": "Je veux travailler à Lola.",
+      "context": "Exprimer une ambition professionnelle avec lɔ́ɔ + activité + kɛ́ + lieu."
     },
     {
-      "phrase_id": "p5_3",
-      "original": "í wá táá kɔ̀nɔ̀n-wòò yíé bòn-wòò-gbɛ́ɛ́ wá ?",
-      "phonetic_api": "/í wá táː kɔ̀nɔ̀n.wòː jí.é bòn.wòː.ɡ͡ɓɛ́ː wá/",
-      "phonetic_simple": "I WA TAA KONON-WOO YIEE BON-WOO-GBEE WA",
-      "translation": "Iras-tu en voyage l'année prochaine ?",
-      "context": "Questionner quelqu'un sur ses plans à long terme."
+      "phrase_id": "p3",
+      "original": "Gɔẁá wɛɛ̀́ pá tíŋaá.",
+      "phonetic_api": "/gɔ̀wá wɛ̀ːpá tíŋaː/",
+      "phonetic_simple": "GO-OUA OUÉ-É PA TIN-GA-A",
+      "translation": "Nous viendrons demain.",
+      "context": "Projet partagé exprimé avec le pronom inclusif gɔẁá."
     },
     {
-      "phrase_id": "p5_4",
-      "original": "ń tɛ́ wá táá sínà gáá-wòò",
-      "phonetic_api": "/ń tɛ́ wá táː sí.nà ɡáː.wòː/",
-      "phonetic_simple": "N TE WA TAA SI-NA GAA-WOO",
-      "translation": "Je n'irai pas demain soir.",
-      "context": "Exprimer une intention négative pour le futur proche."
+      "phrase_id": "p4",
+      "original": "Yà lɔ́ɔ súku kɛ́ hɛ́ɣɛ.",
+      "phonetic_api": "/jà lɔ́ɔ súku kɛ́ hɛ́ɣɛ/",
+      "phonetic_simple": "YA LO-O SOU-KOU KÉ HÉ-GHÉ",
+      "translation": "Il/elle veut beaucoup étudier.",
+      "context": "Ambition intensifiée avec hɛ́ɣɛ « beaucoup », attesté en kono."
     }
   ],
   "grammar_points": [
     {
-      "concept": "La formation du futur avec l'auxiliaire 'wá'",
-      "explanation": "Pour exprimer une action future ou un projet à venir, la langue kono utilise la particule ou auxiliaire 'wá' placé immédiatement après le pronom sujet et juste avant le verbe principal à sa forme infinitive ou nue.",
+      "concept": "Distinguer souhait (lɔ́ɔ) et futur planifié (wɛɛ̀́)",
+      "explanation": "Le kono/kpele distingue le souhait ou l'ambition, exprimé par lɔ́ɔ + Verbe (une intention non nécessairement réalisée), du futur planifié ou certain, exprimé par le marqueur grammatical wɛɛ̀́ directement avant le verbe (une action qui aura effectivement lieu).",
       "rules": [
-        "Sujet + wá + Verbe principal d'action.",
-        "Le ton haut sur 'wá' est obligatoire pour marquer la temporalité future."
+        "lɔ́ɔ + Verbe = vouloir/souhaiter faire quelque chose (intention).",
+        "Sujet + wɛɛ̀́ + Verbe = fera quelque chose (futur grammatical certain).",
+        "Les deux structures peuvent se combiner : lɔ́ɔ + [Sujet + wɛɛ̀́ + Verbe] pour un souhait concernant un événement futur précis."
       ],
       "examples": [
         {
-          "structure": "ń wá nà",
-          "phonetic_api": "/ń wá nà/",
-          "meaning": "Je viendrai / Je vais venir."
+          "structure": "lɔ́ɔ + Verbe + kɛ́",
+          "phonetic_api": "/lɔ́ɔ … kɛ́/",
+          "meaning": "vouloir faire [Verbe]"
         },
         {
-          "structure": "í wá kɛ́",
-          "phonetic_api": "/í wá kɛ́/",
-          "meaning": "Tu feras / Tu vas faire."
-        }
-      ]
-    },
-    {
-      "concept": "La négation du futur avec 'tɛ́ wá'",
-      "explanation": "Pour exprimer qu'une action n'aura pas lieu dans le futur, on adjoint l'auxiliaire négatif du présent 'tɛ́' juste avant la particule du futur 'wá'.",
-      "rules": [
-        "Sujet + tɛ́ + wá + Verbe principal."
-      ],
-      "examples": [
-        {
-          "structure": "á tɛ́ wá kɛ́",
-          "phonetic_api": "/á tɛ́ wá kɛ́/",
-          "meaning": "Il ne fera pas / Il ne va pas faire."
+          "structure": "Sujet + wɛɛ̀́ + Verbe",
+          "phonetic_api": "/wɛ̀ː/",
+          "meaning": "Sujet fera [Verbe] (certain)"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Sia",
-      "text": "Koli, míɛ́ le í wá á kɛ́á bòn-wòò-gbɛ́ɛ́ yí ?",
-      "phonetic_api": "/kó.lí mí.ɛ́ le í wá á kɛ́.á bòn.wòː.ɡ͡ɓɛ́ː jí/",
-      "phonetic_simple": "KOLI MIEE LE I WA A KEA BON-WOO-GBEE YI",
-      "translation": "Koli, qu'est-ce que tu vas faire l'année prochaine ?"
+      "speaker": "Bala",
+      "text": "Ɲá lɔ́ɔ klô kɛ́ Lɔ̀raà pɔ́ tíŋaá kɔ́lɔ.",
+      "phonetic_api": "/ɲá lɔ́ɔ klô kɛ́ lɔ̀raː pɔ́ tíŋaː kɔ́lɔ/",
+      "phonetic_simple": "NYA LO-O KLO KÉ LO-RAA PO TIN-GA-A KO-LO",
+      "translation": "Je veux travailler à Lola, dans le futur (plus tard)."
     },
     {
-      "speaker": "Koli",
-      "text": "ń kíán-wòò le bɛ́ lú gíán gɓɛ́ɛ́ kúni lòlà.",
-      "phonetic_api": "/ń kí.án.wòː le ɓɛ́ lú ɡí.án ɡ͡ɓɛ́ː kú.ni lò.là/",
-      "phonetic_simple": "N KIAN-WOO LE BE LOO GIAN GBEE KOONI LOLA",
-      "translation": "Mon projet est de construire une nouvelle maison à Lola."
+      "speaker": "Sèni",
+      "text": "Ɲá wɛɛ̀́ pá súku kɛ́ tíŋaá.",
+      "phonetic_api": "/ɲá wɛ̀ːpá súku kɛ́ tíŋaː/",
+      "phonetic_simple": "NYA OUÉ-É PA SOU-KOU KÉ TIN-GA-A",
+      "translation": "Moi, j'étudierai demain."
     },
     {
-      "speaker": "Sia",
-      "text": "kénɛ̀ le kpaán ! í wá táá sínà kɔ̀nɔ̀n yí wá ?",
-      "phonetic_api": "/kɛ́nɛ̀ le k͡páːn í wá táː sí.nà kɔ̀nɔ̀n jí wá/",
-      "phonetic_simple": "KENE LE KPAAN I WA TAA SI-NA KONON YI WA",
-      "translation": "C'est vraiment très bien ! Est-ce que tu iras au champ demain ?"
+      "speaker": "Bala",
+      "text": "Gɔẁá wɛɛ̀́ pá súku pɔ́ tíŋaá?",
+      "phonetic_api": "/gɔ̀wá wɛ̀ːpá súkupɔ́ tíŋaː/",
+      "phonetic_simple": "GO-OUA OUÉ-É PA SOU-KOU PO TIN-GA-A",
+      "translation": "Irons-nous (tous les deux) à l'école demain ?"
     },
     {
-      "speaker": "Koli",
-      "text": "òò, ń tɛ́ wá táá sínà. ń wá tìɛ̀ ɓɔ́ lú gíé.",
-      "phonetic_api": "/òː ń tɛ́ wá táː sí.nà ń wá tìɛ̀ ɓɔ́ lú ɡí.é/",
-      "phonetic_simple": "OO N TE WA TAA SI-NA N WA TIEE BO LOO GIEE",
-      "translation": "Non, je n'irai pas demain. Je vais me reposer ici à la maison."
+      "speaker": "Sèni",
+      "text": "Ěe! Yà lɔ́ɔ súku kɛ́ hɛ́ɣɛ dɔ́mɔ́.",
+      "phonetic_api": "/ěː jà lɔ́ɔ súku kɛ́ hɛ́ɣɛ dɔ́mɔ́/",
+      "phonetic_simple": "É-É. YA LO-O SOU-KOU KÉ HÉ-GHÉ DO-MO",
+      "translation": "Oui ! Lui/elle aussi veut beaucoup étudier."
     }
   ],
   "cultural_notes": [
-    "Dans la culture des Konon de Lola, parler de ses ambitions futures requiert souvent une forme de modestie verbale. On évite de s'attribuer une certitude absolue sans l'associer implicitement au bien-être de la famille ou à la bénédiction des anciens, car les projets individuels s'inscrivent toujours dans la cohésion du groupe."
+    "L'éducation formelle (súku) est perçue par de nombreuses familles de la région forestière comme la voie d'ambition principale pour les jeunes générations, en complément des savoirs traditionnels transmis oralement.",
+    "Les projets migratoires vers les centres urbains (N'Zérékoré, Conakry) pour le travail sont une ambition courante exprimée par les jeunes adultes des zones rurales comme Lola."
   ],
   "exercises": [
     {
-      "exercise_id": "ex5_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel mot signifie 'demain' en langue kono ?",
+      "question": "Quelle structure exprime un souhait/une ambition plutôt qu'un futur certain ?",
       "options": [
-        "sináá",
-        "sínà",
-        "míé-mìè"
+        "lɔ́ɔ + Verbe + kɛ́",
+        "Sujet + wɛɛ̀́ + Verbe",
+        "Sujet + hó + Verbe"
       ],
-      "correct_answer": "sínà",
-      "explanation": "'sínà' correspond au jour suivant (demain), tandis que 'sináá' désigne la veille (hier)."
+      "correct_answer": "lɔ́ɔ + Verbe + kɛ́",
+      "explanation": "lɔ́ɔ exprime le désir ou l'ambition, alors que wɛɛ̀́ marque un futur grammatical plus certain."
     },
     {
-      "exercise_id": "ex5_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "ń [ ___ ] táá lòlà sínà (J'irai à Lola demain)",
-      "correct_answer": "wá",
-      "hint": "La particule du futur"
+      "sentence_with_blank": "Ɲá ___ klô kɛ́ Lɔ̀raà pɔ́. (Je veux travailler à Lola.)",
+      "correct_answer": "lɔ́ɔ",
+      "hint": "Le verbe exprimant le désir/l'ambition."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Maria Konoshenko, « Field Notes on Kono, a Southwestern Mande Lect of Forest Guinea », Mandenkan 57 (2017), pp. 77-107",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan57/konoshenko57.pdf"
+    },
+    {
+      "label": "Maria Konoshenko, « Dictionnaire kpele de la Guinée (guerzé) – français », Mandenkan 62 (2019/2020)",
+      "url": "https://journals.openedition.org/mandenkan/2091"
+    }
+  ],
+  "confidence": "élevée",
+  "confidence_note": "Vocabulaire, pronoms, chiffres et structures grammaticales directement attestés dans l'article académique de référence sur le Kono de Guinée (Konoshenko 2017, Mandenkan 57), qui fournit une liste Swadesh de 100 mots, un paradigme complet de marqueurs pronominaux/TAM et des exemples de salutations en Kono authentique. Le marqueur de futur wɛɛ̀́ et le pronom inclusif gɔẁá sont attestés en kono ; le verbe lɔ́ɔ de souhait/ambition provient du kpele apparenté par prudence méthodologique."
 }

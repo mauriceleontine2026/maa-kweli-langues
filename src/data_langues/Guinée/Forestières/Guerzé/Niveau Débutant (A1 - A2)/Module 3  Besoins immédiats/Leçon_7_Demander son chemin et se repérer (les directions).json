@@ -6,378 +6,220 @@
   "lesson_number": 7,
   "title": "Demander son chemin et se repérer (les directions)",
   "learning_objectives": [
-    "Nommer la gauche et la droite (kɛ̀ɓɛyêe, lìeyêe).",
-    "Utiliser les postpositions de position kwɛ̌lɛ (près de) et pèle (vers, pas loin de).",
-    "Décrire un trajet avec les verbes téɠeŋ (traverser), tínɛŋ (se tourner) et tǎŋa (bifurquer).",
-    "Exprimer la distance avec mǎa-kwéâ (être loin)."
+    "Demander où se trouve un lieu (marché, village, maison)",
+    "Utiliser les mots pěle (route) et kpáale (chemin/piste) à bon escient",
+    "Indiquer qu'on montre le chemin à quelqu'un"
   ],
   "phonetic_focus": {
-    "key_sounds": "Cette leçon rassemble plusieurs postpositions courtes et fréquentes (pp) : kwɛ̌lɛ, pèle, ɓà — à ne pas confondre malgré leur brièveté, car elles jouent un rôle grammatical précis. On y retrouve aussi le ɠ/ɣ (kɛ̀ɓɛyêe) et le contraste ton haut/ton bas dans plusieurs verbes de mouvement.",
-    "common_pitfalls": "Les francophones ont tendance à : (1) traduire kwɛ̌lɛ et pèle par un seul mot « près », alors que kwɛ̌lɛ marque la proximité immédiate et pèle une direction générale (« vers ») ; (2) oublier que mǎa-kwéâ (être loin) se construit avec la postposition ɓà (de) : màakwéâai ɓà (loin de) ; (3) ne pas distinguer lìeyêe (main droite, avec líê 'aîné') de lùyoyêe, son synonyme construit sur un autre mot pour 'main'."
+    "key_sounds": "pěle (route) porte un ton descendant sur sa seule syllabe, tandis que kpáale (piste/chemin) a un ton haut suivi d'une voyelle longue. La distinction sémantique entre les deux mots est importante : pěle désigne surtout une route/rue, kpáale un chemin ou une piste (parfois utilisée par les animaux : hùyokpáalè « chemin des animaux »).",
+    "common_pitfalls": "Les francophones confondent souvent pěle et kpáale car les deux se traduisent par « chemin » en français ; en guerzé, pěle est plus large/carrossable, kpáale plus étroit."
   },
   "vocabulary": [
     {
       "word_id": "v1",
-      "term": "kɛ̀ɓɛyêe",
-      "phonetic_api": "/kɛ̀ɓɛyêe/",
-      "phonetic_simple": "kè-ɓè-YÊ-è",
-      "translation": "côté gauche, la gauche",
-      "example_sentence": "Yà lì tɔ̀ɠɔ péle, é zòŋ́ kɛ̀ɓɛyée mɛ̌i.",
-      "example_phonetic": "/yà lì tɔ̀ɣɔ péle é zòŋ́ kɛ̀ɓɛyée mɛ̌i/",
-      "example_translation": "Si tu vas tout droit, tu le rattraperas par la gauche."
+      "term": "pěle",
+      "phonetic_api": "/pěle/",
+      "phonetic_simple": "PÈ-lè",
+      "translation": "route, rue",
+      "example_sentence": "Kú lɛ́ɛ lìî bèléi.",
+      "example_phonetic": "/kú lɛ́ɛ lìî bèléi/",
+      "example_translation": "En route, j'ai vu un monsieur."
     },
     {
       "word_id": "v2",
-      "term": "lìeyêe",
-      "phonetic_api": "/lìeyêe/",
-      "phonetic_simple": "li-è-YÊ-è",
-      "translation": "main droite, la droite (syn. lùyoyêe)",
-      "example_sentence": "lìeyêe",
-      "example_phonetic": "/lìeyêe/",
-      "example_translation": "la droite"
+      "term": "kpáale",
+      "phonetic_api": "/kpáale/",
+      "phonetic_simple": "KPA-a-lè",
+      "translation": "piste, chemin",
+      "example_sentence": "Hùyokpáalè ɓáa gɛ̀ɛ.",
+      "example_phonetic": "/hùyokpáalè ɓáa gɛ̀ɛ/",
+      "example_translation": "Le chemin des animaux est là."
     },
     {
       "word_id": "v3",
-      "term": "kpáale",
-      "phonetic_api": "/kpáale/",
-      "phonetic_simple": "KPA-a-le",
-      "translation": "piste, chemin",
-      "example_sentence": "hùyokpáalè",
-      "example_phonetic": "/hùyokpáalè/",
-      "example_translation": "chemin des animaux"
+      "term": "tǎa",
+      "phonetic_api": "/tǎa/",
+      "phonetic_simple": "TA-a",
+      "translation": "village, ville",
+      "example_sentence": "Ŋà héɠe tàâi.",
+      "example_phonetic": "/ŋà héɠé tàâi/",
+      "example_translation": "Je viens du village."
     },
     {
       "word_id": "v4",
-      "term": "pěle",
-      "phonetic_api": "/pěle/",
-      "phonetic_simple": "pè-le (ton bas)",
-      "translation": "route, rue",
-      "example_sentence": "Ŋàá bèle téɠeŋ.",
-      "example_phonetic": "/ŋàá bèle téɣeŋ/",
-      "example_translation": "J'ai traversé la route."
+      "term": "pɛ́lɛ",
+      "phonetic_api": "/pɛ́lɛ/",
+      "phonetic_simple": "PÉ-lè",
+      "translation": "maison",
+      "example_sentence": "Pɛ́lɛ ɓáa mí ?",
+      "example_phonetic": "/pɛ́lɛ ɓáa mí/",
+      "example_translation": "Où est la maison ?"
     },
     {
       "word_id": "v5",
-      "term": "ɓɛ́",
-      "phonetic_api": "/ɓɛ́/",
-      "phonetic_simple": "ɓÈ",
-      "translation": "ici",
-      "example_sentence": "Pá ɓɛ́ !",
-      "example_phonetic": "/pá ɓɛ́/",
-      "example_translation": "Viens ici !"
+      "term": "mí",
+      "phonetic_api": "/mí/",
+      "phonetic_simple": "MI",
+      "translation": "où ?",
+      "example_sentence": "É héɠe mí ?",
+      "example_phonetic": "/é héɠé mí/",
+      "example_translation": "Tu es d'où ? (litt. tu viens où ?)"
     },
     {
       "word_id": "v6",
-      "term": "làa",
-      "phonetic_api": "/làà/",
-      "phonetic_simple": "la-a (ton bas)",
-      "translation": "là-bas",
-      "example_sentence": "Ŋé lɛ́ɛlɛ hwèelɛ́ kɛ́ làa.",
-      "example_phonetic": "/ŋé lɛ́ɛlɛ hwèelɛ́ kɛ́ làa/",
-      "example_translation": "J'ai passé deux heures là-bas."
+      "term": "gɛ̀ɛ",
+      "phonetic_api": "/gɛ̀ɛ/",
+      "phonetic_simple": "GHÈ-è",
+      "translation": "là, ici (localisation)",
+      "example_sentence": "Pɛ́lɛ ɓáa gɛ̀ɛ.",
+      "example_phonetic": "/pɛ́lɛ ɓáa gɛ̀ɛ/",
+      "example_translation": "La maison est là."
     },
     {
       "word_id": "v7",
-      "term": "kwɛ̌lɛ",
-      "phonetic_api": "/kwɛ̌lɛ/",
-      "phonetic_simple": "kwè-lè (ton bas)",
-      "translation": "près de, à côté de",
-      "example_sentence": "Bèlé è tǎŋa kú pɔ́ tàâi kwɛ̀lɛ.",
-      "example_phonetic": "/bèlé è tǎŋa kú pɔ́ tàâi kwɛ̀lɛ/",
-      "example_translation": "La route bifurque près de mon village."
+      "term": "lɔ́ɠɔkpalâŋ",
+      "phonetic_api": "/lɔ́ɠɔkpalâŋ/",
+      "phonetic_simple": "LO-ghô-kpa-LANG",
+      "translation": "marché",
+      "example_sentence": "Lɔ́ɠɔkpalâŋ ɓáa mí ?",
+      "example_phonetic": "/lɔ́ɠɔkpalâŋ ɓáa mí/",
+      "example_translation": "Où est le marché ?"
     },
     {
       "word_id": "v8",
-      "term": "mǎa-kwéâ",
-      "phonetic_api": "/mǎakwéâ/",
-      "phonetic_simple": "ma-a-KWÉ-â",
-      "translation": "être loin (de – ɓà)",
-      "example_sentence": "Zálikwɛ̀lɛ màakwéâai.",
-      "example_phonetic": "/zálikwɛ̀lɛ màakwéâai/",
-      "example_translation": "Nzérékoré est loin."
-    },
-    {
-      "word_id": "v9",
-      "term": "pèle",
-      "phonetic_api": "/pèle/",
-      "phonetic_simple": "pè-le",
-      "translation": "vers, pas loin de",
-      "example_sentence": "Yèlé à ɓɔ̀í, yɛ́ kɛ̀á lì àbíjaŋ pèle.",
-      "example_phonetic": "/yèlé à ɓɔ̀í yɛ́ kɛ̀á lì àbíjaŋ pèle/",
-      "example_translation": "Quand il fera jour, tu partiras vers Abidjan."
-    },
-    {
-      "word_id": "v10",
-      "term": "téɠeŋ",
-      "phonetic_api": "/téɣeŋ/",
-      "phonetic_simple": "TÉ-ghèng",
-      "translation": "traverser",
-      "example_sentence": "Ŋàá bèle téɠeŋ.",
-      "example_phonetic": "/ŋàá bèle téɣeŋ/",
-      "example_translation": "J'ai traversé la route."
-    },
-    {
-      "word_id": "v11",
-      "term": "tínɛŋ",
-      "phonetic_api": "/tínɛŋ/",
-      "phonetic_simple": "TI-nèng",
-      "translation": "se tourner",
-      "example_sentence": "Tínɛŋ é ɲɛ́i hée mîi.",
-      "example_phonetic": "/tínɛŋ é ɲɛ́i hée mîi/",
-      "example_translation": "Tourne-toi et regarde-moi."
-    },
-    {
-      "word_id": "v12",
-      "term": "tǎŋa",
-      "phonetic_api": "/tǎŋa/",
-      "phonetic_simple": "ta-nga (ton bas)",
-      "translation": "bifurquer",
-      "example_sentence": "Bèlé è tǎŋa kú pɔ́ tàâi kwɛ̀lɛ.",
-      "example_phonetic": "/bèlé è tǎŋa kú pɔ́ tàâi kwɛ̀lɛ/",
-      "example_translation": "La route bifurque près de mon village."
+      "term": "montre-lui la route (expression figée)",
+      "phonetic_api": "/mà pěle hɔ̀lɔ̂/",
+      "phonetic_simple": "ma PÈ-lè HO-lô",
+      "translation": "montre-lui la route",
+      "example_sentence": "Mà pěle hɔ̀lɔ̂.",
+      "example_phonetic": "/mà pěle hɔ̀lɔ̂/",
+      "example_translation": "Montre-lui la route."
     }
   ],
   "common_phrases": [
     {
       "phrase_id": "p1",
-      "original": "Pá ɓɛ́ !",
-      "phonetic_api": "/pá ɓɛ́/",
-      "phonetic_simple": "pa ɓÈ !",
-      "translation": "Viens ici !",
-      "context": "Appeler quelqu'un à se rapprocher"
+      "original": "Pɛ́lɛ ɓáa mí ?",
+      "phonetic_api": "/pɛ́lɛ ɓáa mí/",
+      "phonetic_simple": "PÉ-lè ba MI",
+      "translation": "Où est la maison ?",
+      "context": "Question de localisation, construite avec l'interrogatif mí (où)."
     },
     {
       "phrase_id": "p2",
-      "original": "Yà lì tɔ̀ɠɔ péle, é zòŋ́ kɛ̀ɓɛyée mɛ̌i.",
-      "phonetic_api": "/yà lì tɔ̀ɣɔ péle é zòŋ́ kɛ̀ɓɛyée mɛ̌i/",
-      "phonetic_simple": "ya li TO-gho PÉ-le, é zong KÈ-ɓè-YÊ-è mè-i",
-      "translation": "Si tu vas tout droit, tu le rattraperas par la gauche.",
-      "context": "Donner une indication de direction"
+      "original": "Lɔ́ɠɔkpalâŋ ɓáa mí ?",
+      "phonetic_api": "/lɔ́ɠɔkpalâŋ ɓáa mí/",
+      "phonetic_simple": "LO-ghô-kpa-LANG ba MI",
+      "translation": "Où est le marché ?",
+      "context": "Question pour se repérer vers le marché."
     },
     {
       "phrase_id": "p3",
-      "original": "Kɛ̀ɓɛyée mɛ̀i púlu nùaa, kà tɛ̀ɛ ́ tɔ̌ɠɔ.",
-      "phonetic_api": "/kɛ̀ɓɛyée mɛ̀i púlu nùaa kà tɛ̀ɛ ́ tɔ̌ɣɔ/",
-      "phonetic_simple": "kè-ɓè-YÊ-è mè-i POU-lou nou-aa, ka TÈ-è TO-gho",
-      "translation": "Ceux qui sont à gauche, passez devant.",
-      "context": "Donner une consigne de circulation ou de placement"
+      "original": "Pɛ́lɛ ɓáa gɛ̀ɛ.",
+      "phonetic_api": "/pɛ́lɛ ɓáa gɛ̀ɛ/",
+      "phonetic_simple": "PÉ-lè ba GHÈ-è",
+      "translation": "La maison est là.",
+      "context": "Réponse indiquant une localisation proche."
     },
     {
       "phrase_id": "p4",
-      "original": "Ŋàá bèle téɠeŋ.",
-      "phonetic_api": "/ŋàá bèle téɣeŋ/",
-      "phonetic_simple": "nga-a bè-le TÉ-ghèng",
-      "translation": "J'ai traversé la route.",
-      "context": "Décrire un déplacement récent"
+      "original": "Mà pěle hɔ̀lɔ̂.",
+      "phonetic_api": "/mà pěle hɔ̀lɔ̂/",
+      "phonetic_simple": "ma PÈ-lè HO-lô",
+      "translation": "Montre-lui la route.",
+      "context": "Phrase attestée dans le dictionnaire pour demander de guider quelqu'un."
     },
     {
       "phrase_id": "p5",
-      "original": "Bèlé è tǎŋa kú pɔ́ tàâi kwɛ̀lɛ.",
-      "phonetic_api": "/bèlé è tǎŋa kú pɔ́ tàâi kwɛ̀lɛ/",
-      "phonetic_simple": "bè-lé è ta-nga kou po TA-â-i kwè-lè",
-      "translation": "La route bifurque près de mon village.",
-      "context": "Décrire un point de repère sur un trajet"
-    },
-    {
-      "phrase_id": "p6",
-      "original": "Zálikwɛ̀lɛ màakwéâai.",
-      "phonetic_api": "/zálikwɛ̀lɛ màakwéâai/",
-      "phonetic_simple": "ZA-li-kwè-lè ma-a-KWÉ-â-i",
-      "translation": "Nzérékoré est loin.",
-      "context": "Indiquer une grande distance"
-    },
-    {
-      "phrase_id": "p7",
-      "original": "É màakwéaai ↓mîi.",
-      "phonetic_api": "/é màakwéaai ↓mîi/",
-      "phonetic_simple": "é ma-a-KWÉ-a-a-i mî-i",
-      "translation": "Tu es loin de moi.",
-      "context": "Exprimer la distance entre deux personnes"
-    },
-    {
-      "phrase_id": "p8",
-      "original": "Tínɛŋ é ɲɛ́i hée mîi.",
-      "phonetic_api": "/tínɛŋ é ɲɛ́i hée mîi/",
-      "phonetic_simple": "TI-nèng é NYÉ-i hé-é mî-i",
-      "translation": "Tourne-toi et regarde-moi.",
-      "context": "Donner un ordre simple de mouvement"
+      "original": "Ŋà héɠe tàâi.",
+      "phonetic_api": "/ŋà héɠé tàâi/",
+      "phonetic_simple": "nga HÉ-guè TA-a-i",
+      "translation": "Je viens du village.",
+      "context": "Réutilisation du verbe hěɠe (venir de) déjà vu en leçon 2, avec la forme locative tàâi."
     }
   ],
   "grammar_points": [
     {
-      "concept": "Les postpositions de position : kwɛ̌lɛ, pèle, ɓà",
-      "explanation": "Le kpele place plusieurs petits mots invariables après le nom pour indiquer la position, contrairement au français qui les place avant (prépositions). Ce sont des postpositions (pp).",
+      "concept": "La forme locative des noms de lieu (suffixe -i)",
+      "explanation": "Pour indiquer qu'on se trouve « dans » ou qu'on vient « de » un lieu, le guerzé ajoute un suffixe locatif (souvent -i) au nom : tǎa (village) devient tàâi (au village, du village) dans un contexte locatif.",
       "rules": [
-        "kwɛ̌lɛ = près de, à côté de : bèlé è tǎŋa kú pɔ́ tàâi kwɛ̀lɛ (la route bifurque près de mon village).",
-        "pèle = vers, pas loin de : yɛ́ kɛ̀á lì àbíjaŋ pèle (tu partiras vers Abidjan).",
-        "ɓà = de (s'utilise avec mǎa-kwéâ pour dire « loin de »)."
+        "tǎa (village) → tàâi (au/du village) : la forme locative se construit par un allongement/changement de ton de la voyelle finale.",
+        "pěle (route) → pèlêi (sur la route, en route)."
       ],
       "examples": [
         {
-          "structure": "kú pɔ́ tàâi kwɛ̀lɛ",
-          "phonetic_api": "/kú pɔ́ tàâi kwɛ̀lɛ/",
-          "meaning": "près de mon village"
-        }
-      ]
-    },
-    {
-      "concept": "Gauche et droite : kɛ̀ɓɛyêe et lìeyêe",
-      "explanation": "Les deux mots pour « gauche » et « droite » sont des noms composés construits sur yée (main) : lìeyêe (litt. « main de l'aîné/grande main ») pour la droite.",
-      "rules": [
-        "kɛ̀ɓɛyêe = côté gauche.",
-        "lìeyêe (ou lùyoyêe) = main droite, la droite.",
-        "Ces mots s'emploient comme noms de lieu, souvent suivis d'une postposition ou d'un verbe de position."
-      ],
-      "examples": [
-        {
-          "structure": "kɛ̀ɓɛyée mɛ̌i",
-          "phonetic_api": "/kɛ̀ɓɛyée mɛ̌i/",
-          "meaning": "par la gauche"
-        }
-      ]
-    },
-    {
-      "concept": "Les verbes de trajet : téɠeŋ, tínɛŋ, tǎŋa",
-      "explanation": "Ces trois verbes de mouvement permettent de décrire précisément un trajet ou d'orienter quelqu'un.",
-      "rules": [
-        "téɠeŋ (vt) = traverser : ŋàá bèle téɠeŋ (j'ai traversé la route).",
-        "tínɛŋ (vi) = se tourner : tínɛŋ é ɲɛ́i (tourne-toi).",
-        "tǎŋa (vi) = bifurquer : bèlé è tǎŋa (la route bifurque)."
-      ],
-      "examples": [
-        {
-          "structure": "téɠeŋ / tínɛŋ / tǎŋa",
-          "phonetic_api": "/téɣeŋ/ /tínɛŋ/ /tǎŋa/",
-          "meaning": "traverser / se tourner / bifurquer"
-        }
-      ]
-    },
-    {
-      "concept": "Exprimer la distance avec mǎa-kwéâ",
-      "explanation": "mǎa-kwéâ (être loin) est un verbe composé qui se conjugue comme n'importe quel verbe qualificatif d'état, et se complète avec ɓà (de) pour préciser par rapport à quoi.",
-      "rules": [
-        "Zálikwɛ̀lɛ màakwéâai = Nzérékoré est loin.",
-        "é màakwéaai ↓mîi = tu es loin de moi.",
-        "Au futur, ce même verbe peut aussi qualifier une date : gùú màakwéâai (la date fixée est encore loin)."
-      ],
-      "examples": [
-        {
-          "structure": "màakwéâai ɓà",
-          "phonetic_api": "/màakwéâai ɓà/",
-          "meaning": "être loin de"
+          "structure": "tǎa / tàâi",
+          "phonetic_api": "/tǎa, tàâi/",
+          "meaning": "village / au village (forme locative)"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Personne A",
-      "text": "É héɠe ↓mí ?",
-      "phonetic_api": "/é héɣé ↓mí/",
-      "phonetic_simple": "é HÉ-ghé mi ?",
-      "translation": "Tu es d'où ?"
+      "speaker": "Le voyageur",
+      "text": "Lɔ́ɠɔkpalâŋ ɓáa mí ?",
+      "phonetic_api": "/lɔ́ɠɔkpalâŋ ɓáa mí/",
+      "phonetic_simple": "LO-ghô-kpa-LANG ba MI",
+      "translation": "Où est le marché ?"
     },
     {
-      "speaker": "Personne B",
-      "text": "Ŋà héɠe Zálikwɛ̀lɛ, kɛ́laa àa màakwéâai.",
-      "phonetic_api": "/ŋà héɣé zálikwɛ̀lɛ kɛ́laa àa màakwéâai/",
-      "phonetic_simple": "nga HÉ-ghé za-li-kwè-lè, ké-laa aa ma-a-KWÉ-â-i",
-      "translation": "Je suis de Nzérékoré, mais c'est loin."
+      "speaker": "L'habitant",
+      "text": "Mà pěle hɔ̀lɔ̂, lɔ́ɠɔkpalâŋ ɓáa gɛ̀ɛ.",
+      "phonetic_api": "/mà pěle hɔ̀lɔ̂ lɔ́ɠɔkpalâŋ ɓáa gɛ̀ɛ/",
+      "phonetic_simple": "ma PÈ-lè HO-lô, LO-ghô-kpa-LANG ba GHÈ-è",
+      "translation": "Je te montre la route, le marché est là."
     },
     {
-      "speaker": "Personne A",
-      "text": "Kpáale ɓé mí ?",
-      "phonetic_api": "/kpáale ɓé mí/",
-      "phonetic_simple": "KPA-a-le bé mi ?",
-      "translation": "Où est le chemin ?"
+      "speaker": "Le voyageur",
+      "text": "É hɛ̀ɠɛ̂ɛ !",
+      "phonetic_api": "/é hɛ̀ɠɛ̂ɛ/",
+      "phonetic_simple": "é HÈ-guè-è",
+      "translation": "Merci !"
     },
     {
-      "speaker": "Personne B",
-      "text": "Yà lì tɔ̀ɠɔ péle, é zòŋ́ kɛ̀ɓɛyée mɛ̌i.",
-      "phonetic_api": "/yà lì tɔ̀ɣɔ péle é zòŋ́ kɛ̀ɓɛyée mɛ̌i/",
-      "phonetic_simple": "ya li TO-gho PÉ-le, é zong KÈ-ɓè-YÊ-è mè-i",
-      "translation": "Si tu vas tout droit, tu le rattraperas par la gauche."
-    },
-    {
-      "speaker": "Personne A",
-      "text": "Ŋàá bèle téɠeŋ, kɛ̀laa gáa mí ?",
-      "phonetic_api": "/ŋàá bèle téɣeŋ kɛ̀laa gáa mí/",
-      "phonetic_simple": "nga-a bè-le TÉ-ghèng, kè-laa gaa mi ?",
-      "translation": "J'ai traversé la route, mais je suis où ?"
-    },
-    {
-      "speaker": "Personne B",
-      "text": "Bèlé è tǎŋa kú pɔ́ tàâi kwɛ̀lɛ. Máma !",
-      "phonetic_api": "/bèlé è tǎŋa kú pɔ́ tàâi kwɛ̀lɛ máma/",
-      "phonetic_simple": "bè-lé è ta-nga kou po TA-â-i kwè-lè. MA-ma !",
-      "translation": "La route bifurque près de mon village. Merci !"
+      "speaker": "L'habitant",
+      "text": "Ŋà héɠe tàâi ɲɔ̀ɔ.",
+      "phonetic_api": "/ŋà héɠe tàâi ɲɔ̀ɔ/",
+      "phonetic_simple": "nga HÉ-ghè TA-a-i ngno-o",
+      "translation": "Je viens de ce village."
     }
   ],
   "cultural_notes": [
-    "Dans un village de Guinée forestière, les points de repère pour donner un chemin sont souvent des lieux naturels ou sociaux (le marché du mercredi, le pont, la bifurcation près d'un village), plutôt que des noms de rue.",
-    "Les distances se mesurent traditionnellement en temps de marche plutôt qu'en kilomètres, même si le dictionnaire atteste aussi une question sur les kilomètres entre deux villes (Kónakri dà Dalaba dǐ lòwai káa à kíle yɛ̌li ?).",
-    "kpáale (piste, chemin) et pěle (route, rue) ne sont pas interchangeables : kpáale désigne plutôt un sentier ou une piste (parfois même « le chemin des animaux »), pěle une vraie route ou rue."
+    "En Guinée forestière, il est fréquent de demander à un passant de « montrer la route » (mà pěle hɔ̀lɔ̂) plutôt que de donner des indications verbales complexes, reflétant une culture d'accompagnement direct des voyageurs.",
+    "Le mot kpáale (piste) est aussi utilisé pour désigner les chemins forestiers utilisés par les animaux (hùyokpáalè), preuve de l'importance de la forêt dans la vie quotidienne des Guerzé."
   ],
   "exercises": [
     {
       "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quelle postposition signifie « près de, à côté de » ?",
+      "question": "Quelle est la différence principale entre pěle et kpáale ?",
       "options": [
-        "pèle",
-        "kwɛ̌lɛ",
-        "ɓà",
-        "hû"
+        "pěle = route/rue, kpáale = piste/chemin étroit",
+        "Ce sont des synonymes parfaits",
+        "pěle ne s'utilise que pour les animaux"
       ],
-      "correct_answer": "kwɛ̌lɛ",
-      "explanation": "kwɛ̌lɛ marque la proximité immédiate ; pèle signifie plutôt « vers, pas loin de »."
+      "correct_answer": "pěle = route/rue, kpáale = piste/chemin étroit",
+      "explanation": "Le dictionnaire distingue pěle (route, rue) de kpáale (piste, chemin, parfois utilisé par les animaux : hùyokpáalè)."
     },
     {
       "exercise_id": "ex2",
-      "type": "multiple_choice",
-      "question": "Comment dit-on « la route bifurque » ?",
-      "options": [
-        "Bèlé è tǎŋa.",
-        "Ŋàá bèle téɠeŋ.",
-        "Tínɛŋ é ɲɛ́i.",
-        "Zálikwɛ̀lɛ màakwéâai."
-      ],
-      "correct_answer": "Bèlé è tǎŋa.",
-      "explanation": "tǎŋa (bifurquer) décrit un embranchement sur une route."
-    },
-    {
-      "exercise_id": "ex3",
-      "type": "multiple_choice",
-      "question": "Que signifie mǎa-kwéâ ?",
-      "options": [
-        "Traverser",
-        "Être loin",
-        "Se tourner",
-        "Bifurquer"
-      ],
-      "correct_answer": "Être loin",
-      "explanation": "mǎa-kwéâ (de – ɓà) signifie « être loin (de) », comme dans Zálikwɛ̀lɛ màakwéâai (Nzérékoré est loin)."
-    },
-    {
-      "exercise_id": "ex4",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Pour dire « viens ici », on dit : « Pá [ ___ ] ! »",
-      "correct_answer": "ɓɛ́",
-      "hint": "C'est l'adverbe « ici »."
-    },
-    {
-      "exercise_id": "ex5",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "« J'ai traversé la route » se dit : « Ŋàá bèle [ ___ ]. »",
-      "correct_answer": "téɠeŋ",
-      "hint": "Ce verbe transitif signifie « traverser »."
-    },
-    {
-      "exercise_id": "ex6",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "La main droite se dit lìeyêe, construit sur líê (aîné) et [ ___ ] (main).",
-      "correct_answer": "yée",
-      "hint": "Ce mot pour « main » apparaît aussi dans lùyoyêe, le synonyme de lìeyêe."
+      "sentence_with_blank": "[ ___ ] ɓáa mí ? (Où est le marché ?)",
+      "correct_answer": "Lɔ́ɠɔkpalâŋ",
+      "hint": "C'est le mot pour « marché »."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Konoshenko, M. (2019). Dictionnaire kpele de la Guinée (guerzé) – français. Mandenkan 62.",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan62/62konoshenko.pdf"
+    },
+    {
+      "label": "Wikipédia — Kpèllé (langue) / Guerzé",
+      "url": "https://fr.wikipedia.org/wiki/Guerze"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Le vocabulaire de base (route, piste, village, maison, où) est attesté dans Konoshenko (2019), mais les expressions complètes de type « tourne à gauche/à droite » n'ont pas d'attestation directe dans les sources disponibles ; les phrases proposées se limitent donc aux structures effectivement documentées (localisation avec ɓáa + mí/gɛ̀ɛ, et l'expression figée « montrer la route »)."
 }

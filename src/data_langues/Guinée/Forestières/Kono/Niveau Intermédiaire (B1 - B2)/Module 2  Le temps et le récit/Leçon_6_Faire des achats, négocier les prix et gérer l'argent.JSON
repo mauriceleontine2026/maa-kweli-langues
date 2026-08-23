@@ -1,183 +1,219 @@
 {
   "lesson_id": "B1_M2_L6",
-  "level": "Niveau Intermédiaire (B1-B2)",
+  "level": "Intermédiaire (B1-B2)",
   "module_number": 2,
   "module_title": "Le temps et le récit",
   "lesson_number": 6,
   "title": "Faire des achats, négocier les prix et gérer l'argent",
   "learning_objectives": [
-    "Demander le prix d'un article ou d'une marchandise sur le marché de Lola",
-    "Utiliser les expressions idiomatiques pour négocier et marchander à la baisse",
-    "Maîtriser le lexique lié à la monnaie, au paiement et à l'échange"
+    "Demander le prix d'un article au marché",
+    "Négocier poliment un prix",
+    "Compter l'argent en utilisant les numéraux kono"
   ],
   "phonetic_focus": {
-    "key_sounds": "Le mot 'gbɛ́ɛ́' (argent) contient la consonne co-articulée /ɡ͡ɓ/ qui combine une articulation labiale et vélaire avec un léger mécanisme implosif. Les voyelles longues nasales doivent garder un ton constant du début à la fin de l'émission.",
-    "common_pitfalls": "Attention à ne pas relâcher le ton haut sur 'gbɛ́ɛ́', car un changement de ton sur ce radical modifie radicalement le sens vers d'autres concepts lexicaux."
+    "key_sounds": "Le vocabulaire commercial emprunte souvent au mandingue/maninka voisin (kɔ̀di « argent »), avec des tons simplifiés par rapport aux mots kono d'origine directe.",
+    "common_pitfalls": "Ne pas confondre kɔ̀di « argent » (emprunt) avec kɔ́lɔ « grand », des mots proches phonétiquement mais sans lien de sens."
   },
   "vocabulary": [
     {
-      "word_id": "v6_1",
-      "term": "gbɛ́ɛ́",
-      "phonetic_api": "/ɡ͡ɓɛ́ː/",
-      "phonetic_simple": "GBEE",
-      "translation": "argent / monnaie",
-      "example_sentence": "gbɛ́ɛ́ tɛ́ ń yíé míé",
-      "example_phonetic": "/ɡ͡ɓɛ́ː tɛ́ ń jí.é mí.é/",
-      "example_translation": "Je n'ai pas d'argent sur moi maintenant."
+      "word_id": "v1",
+      "term": "kɔ̀di",
+      "phonetic_api": "/kɔ̀di/",
+      "phonetic_simple": "KO-DI",
+      "translation": "argent (emprunt régional largement répandu, kpele/kono)",
+      "example_sentence": "Ɲá lɔ́ɔ kɔ̀di dɔ́mɔ́ɔ.",
+      "example_phonetic": "/ɲá lɔ́ɔ kɔ̀di dɔ́mɔ́ɔ/",
+      "example_translation": "Je veux un peu d'argent."
     },
     {
-      "word_id": "v6_2",
-      "term": "sónɔ̀",
-      "phonetic_api": "/só.nɔ̀/",
-      "phonetic_simple": "SO-NO",
-      "translation": "prix / valeur",
-      "example_sentence": "à sónɔ̀ káá gboi",
-      "example_phonetic": "/à só.nɔ̀ káː ɡ͡ɓo.i/",
-      "example_translation": "Son prix est élevé (cher)."
+      "word_id": "v2",
+      "term": "sɔ̀ŋ",
+      "phonetic_api": "/sɔ̀ŋ/",
+      "phonetic_simple": "SONG",
+      "translation": "prix (kpele apparenté)",
+      "example_sentence": "Sɔ̀ŋ ɛ́ nú?",
+      "example_phonetic": "/sɔ̀ŋ ɛ́ nú/",
+      "example_translation": "Quel est le prix ?"
     },
     {
-      "word_id": "v6_3",
-      "term": "sáná",
-      "phonetic_api": "/sá.ná/",
-      "phonetic_simple": "SA-NA",
-      "translation": "acheter / faire des achats",
-      "example_sentence": "ń bɛ́ mání sánáá",
-      "example_phonetic": "/ń ɓɛ́ má.ní sá.náː/",
-      "example_translation": "Je suis en train d'acheter du riz."
+      "word_id": "v3",
+      "term": "lúu",
+      "phonetic_api": "/lúː/",
+      "phonetic_simple": "LOU",
+      "translation": "marché (kpele apparenté)",
+      "example_sentence": "Ɲá gáa lúu pɔ́.",
+      "example_phonetic": "/ɲá gáː lúːpɔ́/",
+      "example_translation": "Je vais au marché."
     },
     {
-      "word_id": "v6_4",
-      "term": "dɔ́ɔ́-dɔ̀ɔ̀",
-      "phonetic_api": "/dɔ́ː.dɔ̀ː/",
-      "phonetic_simple": "DOO-DOO",
-      "translation": "diminuer / baisser (le prix)",
-      "example_sentence": "á dɔ́ɔ́-dɔ̀ɔ̀ ń yíé",
-      "example_phonetic": "/á dɔ́ː.dɔ̀ː ń jí.é/",
-      "example_translation": "Diminue un peu pour moi."
+      "word_id": "v4",
+      "term": "féle",
+      "phonetic_api": "/féle/",
+      "phonetic_simple": "FÉ-LÈ",
+      "translation": "petit, bas (prix bas, kpele apparenté)",
+      "example_sentence": "Sɔ̀ŋ féle!",
+      "example_phonetic": "/sɔ̀ŋ féle/",
+      "example_translation": "Le prix est bas !"
+    },
+    {
+      "word_id": "v5",
+      "term": "kɔ́lɔ",
+      "phonetic_api": "/kɔ́lɔ/",
+      "phonetic_simple": "KO-LO",
+      "translation": "grand, élevé (prix élevé, kpele apparenté)",
+      "example_sentence": "Sɔ̀ŋ kɔ́lɔ hɛ́ɣɛ!",
+      "example_phonetic": "/sɔ̀ŋ kɔ́lɔ hɛ́ɣɛ/",
+      "example_translation": "Le prix est très élevé !"
+    },
+    {
+      "word_id": "v6",
+      "term": "wɔ́lɔ́",
+      "phonetic_api": "/wɔ́lɔ́/",
+      "phonetic_simple": "WO-LO",
+      "translation": "un (numéral, kono attesté tɔǹɔ̀ également possible selon variante)",
+      "example_sentence": "Kɔ̀di wɔ́lɔ́.",
+      "example_phonetic": "/kɔ̀di wɔ́lɔ́/",
+      "example_translation": "Une (pièce de) monnaie."
+    },
+    {
+      "word_id": "v7",
+      "term": "ɓò",
+      "phonetic_api": "/ɓò/",
+      "phonetic_simple": "BO",
+      "translation": "réduire, enlever (kono attesté, extension pour la négociation)",
+      "example_sentence": "Ɓò sɔ̀ŋ féle!",
+      "example_phonetic": "/ɓò sɔ̀ŋ féle/",
+      "example_simple": "BO SONG FÉ-LÈ",
+      "example_translation": "Baisse le prix !"
+    },
+    {
+      "word_id": "v8",
+      "term": "hɛ́ɣɛ",
+      "phonetic_api": "/hɛ́ɣɛ/",
+      "phonetic_simple": "HÉ-GHÉ",
+      "translation": "beaucoup, très (kono attesté)",
+      "example_sentence": "Sɔ̀ŋ kɔ́lɔ hɛ́ɣɛ.",
+      "example_phonetic": "/sɔ̀ŋ kɔ́lɔ hɛ́ɣɛ/",
+      "example_translation": "Le prix est très élevé."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p6_1",
-      "original": "nìí sónɔ̀ bɛ́ yɛ́ ?",
-      "phonetic_api": "/nìː só.nɔ̀ ɓɛ́ jɛ́/",
-      "phonetic_simple": "NII SONO BE YE",
-      "translation": "Combien coûte ceci ? (litt. Le prix de ceci est comment ?)",
-      "context": "Formule de base indispensable pour demander le prix au marché."
+      "phrase_id": "p1",
+      "original": "Sɔ̀ŋ ɛ́ nú?",
+      "phonetic_api": "/sɔ̀ŋ ɛ́ nú/",
+      "phonetic_simple": "SONG É NOU",
+      "translation": "Quel est le prix ?",
+      "context": "Question de base pour demander un prix au marché."
     },
     {
-      "phrase_id": "p6_2",
-      "original": "à sónɔ̀ káá gboi kpaán, á dɔ́ɔ́-dɔ̀ɔ̀ !",
-      "phonetic_api": "/à só.nɔ̀ káː ɡ͡ɓo.i k͡páːn á dɔ́ː.dɔ̀ː/",
-      "phonetic_simple": "A SONO KAA GBOI KPAAN A DOO-DOO",
-      "translation": "C'est vraiment trop cher, diminue le prix !",
-      "context": "Initier le marchandage face à un prix jugé trop haut."
+      "phrase_id": "p2",
+      "original": "Sɔ̀ŋ kɔ́lɔ hɛ́ɣɛ!",
+      "phonetic_api": "/sɔ̀ŋ kɔ́lɔ hɛ́ɣɛ/",
+      "phonetic_simple": "SONG KO-LO HÉ-GHÉ",
+      "translation": "Le prix est très élevé !",
+      "context": "Pour protester poliment contre un prix jugé trop haut, première étape de la négociation."
     },
     {
-      "phrase_id": "p6_3",
-      "original": "gbɛ́ɛ́ bɛ́ yɛ́ le í bɛ́ á fɛ́ɛ́á ?",
-      "phonetic_api": "/ɡ͡ɓɛ́ː ɓɛ́ jɛ́ le í ɓɛ́ á fɛ́ː.á/",
-      "phonetic_simple": "GBEE BE YE LE I BE A FEE-A",
-      "translation": "Combien d'argent demandes-tu (pour cet objet) ?",
-      "context": "Variante directe pour s'enquérir de la somme totale réclamée."
+      "phrase_id": "p3",
+      "original": "Ɓò sɔ̀ŋ féle!",
+      "phonetic_api": "/ɓò sɔ̀ŋ féle/",
+      "phonetic_simple": "BO SONG FÉ-LÈ",
+      "translation": "Baisse le prix !",
+      "context": "Formule directe de négociation, à utiliser avec un ton amical."
     },
     {
-      "phrase_id": "p6_4",
-      "original": "ń wá í bɔ́ gbɛ́ɛ́ nìí gíí",
-      "phonetic_api": "/ń wá í ɓɔ́ ɡ͡ɓɛ́ː nìː ɡíː/",
-      "phonetic_simple": "N WA I BO GBEE NII GII",
-      "translation": "Je vais te payer cette somme exacte.",
-      "context": "Conclure la négation et valider l'accord commercial."
+      "phrase_id": "p4",
+      "original": "Ɲá lɔ́ɔ kɔ̀di dɔ́mɔ́ɔ.",
+      "phonetic_api": "/ɲá lɔ́ɔ kɔ̀di dɔ́mɔ́ɔ/",
+      "phonetic_simple": "NYA LO-O KO-DI DO-MO-O",
+      "translation": "Je veux un peu d'argent (de monnaie / de réduction).",
+      "context": "Pour demander la monnaie ou signaler qu'on a peu d'argent disponible."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'intensificateur qualitatif 'gboi' (être lourd/cher)",
-      "explanation": "En kono, il n'existe pas de verbe unique pour 'coûter cher'. On utilise le prédicat de qualité 'gboi' (qui signifie physiquement 'lourd') associé au nom 'sónɔ̀' (prix). Dire qu'un prix est lourd équivaut à dire qu'il est onéreux.",
+      "concept": "Les adjectifs de valeur appliqués au prix",
+      "explanation": "Les mêmes adjectifs utilisés pour la taille physique (kɔ́lɔ « grand », féle « petit ») s'appliquent métaphoriquement au prix (sɔ̀ŋ) pour indiquer respectively un prix élevé ou bas, suivant la construction Nom + Adjectif déjà vue dans les leçons précédentes.",
       "rules": [
-        "Nom de l'objet + sónɔ̀ + káá + gboi.",
-        "À la forme négative, 'káá' devient 'tɛ́' pour exprimer que ce n'est pas cher."
+        "sɔ̀ŋ + kɔ́lɔ = prix élevé (litt. « prix grand »).",
+        "sɔ̀ŋ + féle = prix bas (litt. « prix petit »).",
+        "hɛ́ɣɛ intensifie l'adjectif en position finale : sɔ̀ŋ kɔ́lɔ hɛ́ɣɛ = prix très élevé."
       ],
       "examples": [
         {
-          "structure": "à sónɔ̀ káá gboi",
-          "phonetic_api": "/à só.nɔ̀ káː ɡ͡ɓo.i/",
-          "meaning": "C'est cher (Son prix est lourd)."
-        },
-        {
-          "structure": "à sónɔ̀ tɛ́ gboi",
-          "phonetic_api": "/à só.nɔ̀ tɛ́ ɡ͡ɓo.i/",
-          "meaning": "Ce n'est pas cher (Son prix n'est pas lourd)."
-        }
-      ]
-    },
-    {
-      "concept": "L'impératif de supplication bénéfactive avec 'ń yíé'",
-      "explanation": "Lorsqu'on demande une baisse de prix, l'utilisation du bloc postpositionnel 'ń yíé' (à ma destination / pour moi) adoucit l'ordre et le transforme en une négociation courtoise.",
-      "rules": [
-        "Verbe d'action de baisse + ń yíé = Faites cela pour moi."
-      ],
-      "examples": [
-        {
-          "structure": "dɔ́ɔ́-dɔ̀ɔ̀ ń yíé",
-          "phonetic_api": "/dɔ́ː.dɔ̀ː ń jí.é/",
-          "meaning": "Diminue (le prix) pour moi."
+          "structure": "sɔ̀ŋ + Adjectif",
+          "phonetic_api": "/sɔ̀ŋ …/",
+          "meaning": "prix [Adjectif]"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Sia",
-      "text": "Ń née, mání nìí sónɔ̀ bɛ́ yɛ́ ?",
-      "phonetic_api": "/ń néː má.ní nìː só.nɔ̀ ɓɛ́ jɛ́/",
-      "phonetic_simple": "N NEE MANI NII SONO BE YE",
-      "translation": "Ma mère, combien coûte ce riz ?"
+      "speaker": "Bala",
+      "text": "Sɔ̀ŋ ɛ́ nú, Sèni?",
+      "phonetic_api": "/sɔ̀ŋ ɛ́ nú sɛ̀ni/",
+      "phonetic_simple": "SONG É NOU, SÉNI",
+      "translation": "Quel est le prix, Sèni ?"
     },
     {
-      "speaker": "Vendeuse",
-      "text": "À sónɔ̀ káá gbɛ́ɛ́ wòlò-húán lɔ́ɔ́-fɛ́ɛ́.",
-      "phonetic_api": "/à só.nɔ̀ káː ɡ͡ɓɛ́ː wò.lò.hú.án lɔ́ː.fɛ́ː/",
-      "phonetic_simple": "A SONO KAA GBEE WOLO-HOUAN LOO-FEE",
-      "translation": "Son prix est de cinq mille francs."
+      "speaker": "Sèni",
+      "text": "Kɔ̀di pòù.",
+      "phonetic_api": "/kɔ̀di pòu/",
+      "phonetic_simple": "KO-DI PO-OU",
+      "translation": "Dix (unités de monnaie)."
     },
     {
-      "speaker": "Sia",
-      "text": "Òò, à sónɔ̀ káá gboi kpaán ! Á dɔ́ɔ́-dɔ̀ɔ̀ ń yíé !",
-      "phonetic_api": "/òː à só.nɔ̀ káː ɡ͡ɓo.i k͡páːn á dɔ́ː.dɔ̀ː ń jí.é/",
-      "phonetic_simple": "OO A SONO KAA GBOI KPAAN A DOO-DOO N YIEE",
-      "translation": "Oh, c'est trop cher ! Diminuez-le un peu pour moi !"
+      "speaker": "Bala",
+      "text": "Sɔ̀ŋ kɔ́lɔ hɛ́ɣɛ! Ɓò sɔ̀ŋ féle!",
+      "phonetic_api": "/sɔ̀ŋ kɔ́lɔ hɛ́ɣɛ ɓò sɔ̀ŋ féle/",
+      "phonetic_simple": "SONG KO-LO HÉ-GHÉ. BO SONG FÉ-LÈ",
+      "translation": "C'est très cher ! Baisse le prix !"
     },
     {
-      "speaker": "Vendeuse",
-      "text": "Kénɛ̀ le, nàbɔ́ gbɛ́ɛ́ wòlò-húán lɔ́ɔ́-yaàn.",
-      "phonetic_api": "/kɛ́nɛ̀ le nà.ɓɔ́ ɡ͡ɓɛ́ː wò.lò.hú.án lɔ́ː.jàːn/",
-      "phonetic_simple": "KENE LE NABO GBEE WOLO-HOUAN LOO-YAAN",
-      "translation": "D'accord, donne quatre mille francs alors."
+      "speaker": "Sèni",
+      "text": "Ěe, kɔ̀di lɔɔ́lú kɛ́ɛ.",
+      "phonetic_api": "/ěː kɔ̀di lɔːlú kɛ́ː/",
+      "phonetic_simple": "É-É, KO-DI LO-O-LOU KÉ-É",
+      "translation": "D'accord, cinq (unités) alors."
     }
   ],
   "cultural_notes": [
-    "Dans les grands marchés hebdomadaires de Guinée forestière, notamment autour de Lola, le marchandage est une véritable institution sociale. Accepter le premier prix proposé sans discuter est souvent vu comme un manque d'intérêt pour l'échange commercial. Le dialogue se fait toujours dans le respect mutuel en s'adressant aux vendeuses par des termes familiaux respectueux comme 'ń née' (ma mère)."
+    "La négociation du prix (sɔ̀ŋ) est une pratique sociale attendue et valorisée dans les marchés de la région forestière de Guinée, souvent menée avec humour et sans agressivité.",
+    "Le franc guinéen reste la monnaie d'usage courant, mais le terme générique kɔ̀di « argent » est un emprunt largement partagé entre les langues mandées de la région, y compris le kono et le kpele."
   ],
   "exercises": [
     {
-      "exercise_id": "ex6_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Que signifie littéralement l'expression 'à sónɔ̀ káá gboi' ?",
+      "question": "Comment demande-t-on le prix d'un article ?",
       "options": [
-        "L'article est très lourd à porter",
-        "Son prix est lourd (C'est cher)",
-        "L'article est de mauvaise qualité"
+        "Sɔ̀ŋ ɛ́ nú?",
+        "Ɓò sɔ̀ŋ féle!",
+        "Ɲá lɔ́ɔ kɔ̀di dɔ́mɔ́ɔ."
       ],
-      "correct_answer": "Son prix est lourd (C'est cher)",
-      "explanation": "Le qualificatif 'gboi' s'applique métaphoriquement au prix pour signifier sa cherté."
+      "correct_answer": "Sɔ̀ŋ ɛ́ nú?",
+      "explanation": "Cette question directe signifie littéralement « le prix est combien ? »."
     },
     {
-      "exercise_id": "ex6_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "nìí [ ___ ] bɛ́ yɛ́ ? (Combien coûte ceci ?)",
-      "correct_answer": "sónɔ̀",
-      "hint": "Le mot pour prix ou valeur"
+      "sentence_with_blank": "Ɓò sɔ̀ŋ ___! (Baisse le prix !)",
+      "correct_answer": "féle",
+      "hint": "L'adjectif signifiant « petit », appliqué ici au prix."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Maria Konoshenko, « Field Notes on Kono, a Southwestern Mande Lect of Forest Guinea », Mandenkan 57 (2017), pp. 77-107",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan57/konoshenko57.pdf"
+    },
+    {
+      "label": "Maria Konoshenko, « Dictionnaire kpele de la Guinée (guerzé) – français », Mandenkan 62 (2019/2020)",
+      "url": "https://journals.openedition.org/mandenkan/2091"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Peu de lexique Kono publié couvre ce champ sémantique précis. Le contenu s'appuie ici avec prudence sur le Kpelle de Guinée (guerzé, gkp), langue mandée du sud-ouest très proche du Kono (90% de cognats lexicaux selon Konoshenko 2017) et documentée par un dictionnaire académique de 3000 entrées. Les mots kpele sont signalés comme tels et pourraient différer légèrement du Kono authentique sur certains points de phonologie ou de lexique. hɛ́ɣɛ et ɓò sont attestés en kono ; le vocabulaire commercial spécifique (sɔ̀ŋ, kɔ̀di) provient d'emprunts régionaux partagés et du kpele apparenté, faute d'attestation kono publiée sur ce champ lexical précis."
 }

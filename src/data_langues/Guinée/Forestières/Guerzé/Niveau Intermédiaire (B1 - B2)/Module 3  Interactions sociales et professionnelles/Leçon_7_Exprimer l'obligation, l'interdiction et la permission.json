@@ -6,42 +6,41 @@
   "lesson_number": 7,
   "title": "Exprimer l'obligation, l'interdiction et la permission",
   "learning_objectives": [
-    "Distinguer les deux degrés d'obligation : hwókɛli (obligation forte) et màánɛ̀ɛ ́ (obligation plus faible).",
-    "Utiliser le nom kpáaŋ (obligation) et le verbe kpáaŋ (être obligé) dans des phrases variées.",
-    "Exprimer l'interdiction avec tɔ̂ŋ (interdit) et le verbe ~ tɔ̌ɔ (interdire).",
-    "Accorder ou demander une permission avec le verbe ɓó (laisser, permettre)."
+    "Distinguer les deux degrés d'obligation : màánɛ̀ɛ́ (faible) et hwókɛli (forte)",
+    "Exprimer l'interdiction avec tɔ̂ŋ et le verbe tɔ̌ɔ (interdire)",
+    "Comprendre le nom táŋaŋ (interdit, interdiction) et máatɛɠa (interdit personnel)"
   ],
   "phonetic_focus": {
-    "key_sounds": "Cette leçon multiplie les paires de mots presque homophones à bien distinguer par le ton et le contexte grammatical : tɔ̂ŋ (interdit, nom, ton descendant) vs tɔ̌ŋ (suffoquer, s'accoupler, verbe, ton bas) ; kpáaŋ 1.1 (obligation, nom) vs kpáaŋ 1.2 (être obligé, verbe) partagent la même forme mais des emplois syntaxiques différents. Le doublet hwókɛli/màánɛ̀ɛ ́ illustre aussi une nuance de degré rendue par deux mots entièrement différents plutôt que par une seule racine modifiée.",
-    "common_pitfalls": "Les francophones ont tendance à : (1) utiliser un seul mot pour « il faut », alors que le kpele distingue nettement une obligation forte (hwókɛli) d'une obligation plus souple (màánɛ̀ɛ ́) ; (2) traduire ɓó uniquement par « laisser » au sens de « laisser tomber », alors qu'il couvre aussi « permettre, libérer, laisser passer » ; (3) oublier que tɔ̂ŋ signifie aussi bien « interdit » que « amende », deux conséquences reliées d'une même transgression."
+    "key_sounds": "màánɛ̀ɛ́ (obligation faible) et hwókɛli (obligation forte) sont deux conjonctions distinctes selon le degré d'obligation exprimé ; il faut bien percevoir le ton haut initial de hwókɛli qui le distingue de mots proches.",
+    "common_pitfalls": "Les francophones traduisent souvent « il faut » par un seul mot, alors que le guerzé distingue grammaticalement deux niveaux d'obligation (màánɛ̀ɛ́ plus faible, semblable à une suggestion insistante, et hwókɛli plus fort, proche d'un ordre)."
   },
   "vocabulary": [
     {
       "word_id": "v1",
-      "term": "hwókɛli",
-      "phonetic_api": "/hwókɛli/",
-      "phonetic_simple": "HWO-kè-li",
-      "translation": "il faut que (obligation forte, plus contraignante que màánɛ̀ɛ ́)",
-      "example_sentence": "Hwókɛli yà kɔ́nɔŋ mîi.",
-      "example_phonetic": "/hwókɛli yà kɔ́nɔŋ mîi/",
-      "example_translation": "Tu dois manger."
+      "term": "màánɛ̀ɛ́",
+      "phonetic_api": "/màánɛ̀ɛ́/",
+      "phonetic_simple": "MA-a-nè-è",
+      "translation": "il faut que (obligation faible, + subjonctif)",
+      "example_sentence": "Màánɛ̀ɛ́ è kúlo.",
+      "example_phonetic": "/màánɛ̀ɛ́ è kúlo/",
+      "example_translation": "Il faut qu'il sorte."
     },
     {
       "word_id": "v2",
-      "term": "màánɛ̀ɛ ́",
-      "phonetic_api": "/màánɛ̀ɛ́/",
-      "phonetic_simple": "ma-a-NÈ-è",
-      "translation": "il faut que (obligation plus faible que hwókɛli)",
-      "example_sentence": "màánɛ̀ɛ ́",
-      "example_phonetic": "/màánɛ̀ɛ́/",
-      "example_translation": "il faudrait que"
+      "term": "hwókɛli",
+      "phonetic_api": "/hwókɛli/",
+      "phonetic_simple": "HWO-kè-li",
+      "translation": "il faut que, tu dois (obligation forte, ordre)",
+      "example_sentence": "Hwókɛli yà kɔ́nɔŋ mîi.",
+      "example_phonetic": "/hwókɛli yà kɔ́nɔŋ mîi/",
+      "example_translation": "Tu dois manger."
     },
     {
       "word_id": "v3",
       "term": "kpáaŋ",
       "phonetic_api": "/kpáaŋ/",
       "phonetic_simple": "KPA-ang",
-      "translation": "obligation (~ kɛ́ = obliger) ; être obligé (à – yêi)",
+      "translation": "obligation",
       "example_sentence": "Kpáaŋ mɛ́ni ↓ká.",
       "example_phonetic": "/kpáaŋ mɛ́ni ↓ká/",
       "example_translation": "C'est une obligation."
@@ -50,84 +49,44 @@
       "word_id": "v4",
       "term": "tɔ̂ŋ",
       "phonetic_api": "/tɔ̂ŋ/",
-      "phonetic_simple": "TÔNG",
-      "translation": "interdit (~ tɔ̌ɔ = interdire) ; amende (~ pǐli mà = infliger une amende à qn)",
+      "phonetic_simple": "TONG",
+      "translation": "interdit, interdiction",
       "example_sentence": "Dàá lɔ̀ɔ tɔ́ŋ dɔ̀ɔ mâa.",
       "example_phonetic": "/dàá lɔ̀ɔ tɔ́ŋ dɔ̀ɔ mâa/",
       "example_translation": "Ils m'ont interdit de boire le vin."
     },
     {
       "word_id": "v5",
-      "term": "ɓó",
-      "phonetic_api": "/ɓó/",
-      "phonetic_simple": "ɓO",
-      "translation": "laisser, libérer, permettre (qn – ɓà) ; laisser passer",
-      "example_sentence": "Ɓó !",
-      "example_phonetic": "/ɓó/",
-      "example_translation": "Quitte, bouge !"
+      "term": "táŋaŋ",
+      "phonetic_api": "/táŋaŋ/",
+      "phonetic_simple": "TA-ngang",
+      "translation": "interdit, interdiction (nom général)",
+      "example_sentence": "Táŋaŋ ɓáa gɛ̀ɛ.",
+      "example_phonetic": "/táŋaŋ ɓáa gɛ̀ɛ/",
+      "example_translation": "Il y a un interdit ici."
     },
     {
       "word_id": "v6",
-      "term": "lɛ̌ɛ",
-      "phonetic_api": "/lɛ̌ɛ/",
-      "phonetic_simple": "lè-è (ton bas)",
-      "translation": "laisser",
-      "example_sentence": "Nɛ̀ɛ ́ làa.",
-      "example_phonetic": "/nɛ̀ɛ́ làa/",
-      "example_translation": "Laisse-le."
+      "term": "màatɛ́ɠâ",
+      "phonetic_api": "/màatɛ́ɠâ/",
+      "phonetic_simple": "MA-a-TÉ-gha",
+      "translation": "interdit personnel (nom relationnel)",
+      "example_sentence": "Máatɛɠa ↓lí.",
+      "example_phonetic": "/máatɛɠa ↓lí/",
+      "example_translation": "C'est mon interdit (personnel)."
     },
     {
       "word_id": "v7",
-      "term": "kánaŋ",
-      "phonetic_api": "/kánaŋ/",
-      "phonetic_simple": "KA-nang",
-      "translation": "être coincé ; obliger, contraindre",
-      "example_sentence": "Yàa gánaŋ yɛ́ ŋé wáli tɛ̀ɠɛ é pɔ́.",
-      "example_phonetic": "/yàa gánaŋ yɛ́ ŋé wáli tɛ̀ɣɛ é pɔ́/",
-      "example_translation": "Tu m'as obligé de te donner mon argent."
+      "term": "tɔ̌ɔ",
+      "phonetic_api": "/tɔ̌ɔ/",
+      "phonetic_simple": "TO-o",
+      "translation": "interdire",
+      "example_sentence": "Dàá lɔ̀ɔ tɔ́ŋ dɔ̀ɔ mâa.",
+      "example_phonetic": "/dàá lɔ̀ɔ tɔ́ŋ dɔ̀ɔ mâa/",
+      "example_translation": "Ils m'ont interdit de boire le vin (litt. ils ont posé l'interdit sur moi)."
     },
     {
       "word_id": "v8",
-      "term": "màatii",
-      "phonetic_api": "/màatii/",
-      "phonetic_simple": "ma-a-TI-i",
-      "translation": "devoir, occupation",
-      "example_sentence": "màatii",
-      "example_phonetic": "/màatii/",
-      "example_translation": "devoir, occupation"
-    },
-    {
-      "word_id": "v9",
-      "term": "láŋaŋ",
-      "phonetic_api": "/láŋaŋ/",
-      "phonetic_simple": "LA-ngang",
-      "translation": "laisser passer, céder le passage (qn – tɔ̌ɠɔ)",
-      "example_sentence": "Láŋaŋ dɔ̌ɠɔ.",
-      "example_phonetic": "/láŋaŋ dɔ̌ɣɔ/",
-      "example_translation": "Laisse-le passer."
-    },
-    {
-      "word_id": "v10",
-      "term": "kpɛ̀ɲâŋ",
-      "phonetic_api": "/kpɛ̀ɲâŋ/",
-      "phonetic_simple": "kpè-NYÂNG",
-      "translation": "barrer, empêcher (ne pas laisser passer)",
-      "example_sentence": "kpɛ̀ɲâŋ",
-      "example_phonetic": "/kpɛ̀ɲâŋ/",
-      "example_translation": "empêcher"
-    },
-    {
-      "word_id": "v11",
-      "term": "kɔ́nɔŋ",
-      "phonetic_api": "/kɔ́nɔŋ/",
-      "phonetic_simple": "KO-nong",
-      "translation": "nourriture, repas ; manger",
-      "example_sentence": "Hwókɛli yà kɔ́nɔŋ mîi.",
-      "example_phonetic": "/hwókɛli yà kɔ́nɔŋ mîi/",
-      "example_translation": "Tu dois manger."
-    },
-    {
-      "word_id": "v12",
       "term": "kúlo",
       "phonetic_api": "/kúlo/",
       "phonetic_simple": "KOU-lo",
@@ -135,52 +94,32 @@
       "example_sentence": "Hwókɛli è kúlo.",
       "example_phonetic": "/hwókɛli è kúlo/",
       "example_translation": "Il doit sortir."
-    },
-    {
-      "word_id": "v13",
-      "term": "pà",
-      "phonetic_api": "/pà/",
-      "phonetic_simple": "pa",
-      "translation": "venir (forme après hwókɛli)",
-      "example_sentence": "Hwókɛli yà pà.",
-      "example_phonetic": "/hwókɛli yà pà/",
-      "example_translation": "Tu dois venir."
-    },
-    {
-      "word_id": "v14",
-      "term": "pǐli",
-      "phonetic_api": "/pǐli/",
-      "phonetic_simple": "pi-li (ton bas)",
-      "translation": "jeter (~ mà = infliger une amende à qn, litt. « jeter [l'amende] sur »)",
-      "example_sentence": "Dàa tɔ́ŋ bìli mâa.",
-      "example_phonetic": "/dàa tɔ́ŋ bìli mâa/",
-      "example_translation": "Ils m'ont infligé une amende."
     }
   ],
   "common_phrases": [
     {
       "phrase_id": "p1",
+      "original": "Màánɛ̀ɛ́ è kúlo.",
+      "phonetic_api": "/màánɛ̀ɛ́ è kúlo/",
+      "phonetic_simple": "MA-a-nè-è è KOU-lo",
+      "translation": "Il faut qu'il sorte.",
+      "context": "Obligation faible, de type suggestion, attestée dans le dictionnaire."
+    },
+    {
+      "phrase_id": "p2",
       "original": "Hwókɛli yà kɔ́nɔŋ mîi.",
       "phonetic_api": "/hwókɛli yà kɔ́nɔŋ mîi/",
       "phonetic_simple": "HWO-kè-li ya KO-nong MI-i",
       "translation": "Tu dois manger.",
-      "context": "Insister fortement sur une nécessité"
+      "context": "Obligation forte, quasi-ordre, attestée dans le dictionnaire."
     },
     {
-      "phrase_id": "p2",
+      "phrase_id": "p3",
       "original": "Hwókɛli yà pà.",
       "phonetic_api": "/hwókɛli yà pà/",
       "phonetic_simple": "HWO-kè-li ya pa",
       "translation": "Tu dois venir.",
-      "context": "Exiger la présence de quelqu'un"
-    },
-    {
-      "phrase_id": "p3",
-      "original": "Hwókɛli è kúlo.",
-      "phonetic_api": "/hwókɛli è kúlo/",
-      "phonetic_simple": "HWO-kè-li è KOU-lo",
-      "translation": "Il doit sortir.",
-      "context": "Donner un ordre concernant une tierce personne"
+      "context": "Autre exemple attesté d'obligation forte."
     },
     {
       "phrase_id": "p4",
@@ -188,253 +127,115 @@
       "phonetic_api": "/kpáaŋ mɛ́ni ↓ká/",
       "phonetic_simple": "KPA-ang MÉ-ni ka",
       "translation": "C'est une obligation.",
-      "context": "Souligner le caractère contraignant de quelque chose"
+      "context": "Expression figée attestée pour souligner le caractère obligatoire d'une chose."
     },
     {
       "phrase_id": "p5",
-      "original": "Gbáaŋâai ŋé zèɠeí ɲɛ́i yá.",
-      "phonetic_api": "/gbáaŋâai ŋé zèɣeí ɲɛ́i yá/",
-      "phonetic_simple": "gba-ANG-a-i ngé zè-ghè-I NYÉ-i ya",
-      "translation": "Je suis obligé d'acheter cet habit.",
-      "context": "Expliquer une contrainte personnelle"
-    },
-    {
-      "phrase_id": "p6",
-      "original": "Ŋàa kpáaŋ é yêi.",
-      "phonetic_api": "/ŋàa kpáaŋ é yêi/",
-      "phonetic_simple": "nga-a KPA-ang é yê-i",
-      "translation": "Je me sens obligé envers toi.",
-      "context": "Exprimer une dette morale ou sociale"
-    },
-    {
-      "phrase_id": "p7",
       "original": "Dàá lɔ̀ɔ tɔ́ŋ dɔ̀ɔ mâa.",
       "phonetic_api": "/dàá lɔ̀ɔ tɔ́ŋ dɔ̀ɔ mâa/",
-      "phonetic_simple": "da-a lo-o TONG do-o ma-a",
+      "phonetic_simple": "da-a lo TONG do MA-a",
       "translation": "Ils m'ont interdit de boire le vin.",
-      "context": "Rapporter une interdiction reçue"
-    },
-    {
-      "phrase_id": "p8",
-      "original": "Dàa tɔ́ŋ bìli mâa.",
-      "phonetic_api": "/dàa tɔ́ŋ bìli mâa/",
-      "phonetic_simple": "da-a TONG bi-li ma-a",
-      "translation": "Ils m'ont infligé une amende.",
-      "context": "Raconter la conséquence d'une transgression"
-    },
-    {
-      "phrase_id": "p9",
-      "original": "Nɛ̀ɛ ́ làa.",
-      "phonetic_api": "/nɛ̀ɛ́ làa/",
-      "phonetic_simple": "nè-É la-a",
-      "translation": "Laisse-le.",
-      "context": "Demander à quelqu'un de ne pas intervenir"
-    },
-    {
-      "phrase_id": "p10",
-      "original": "Láŋaŋ dɔ̌ɠɔ.",
-      "phonetic_api": "/láŋaŋ dɔ̌ɣɔ/",
-      "phonetic_simple": "LA-ngang do-gho",
-      "translation": "Laisse-le passer.",
-      "context": "Accorder un passage, une permission de circuler"
-    },
-    {
-      "phrase_id": "p11",
-      "original": "Ŋàá gíli lɛ́ɛ yɛ̂.",
-      "phonetic_api": "/ŋàá gíli lɛ́ɛ yɛ̂/",
-      "phonetic_simple": "nga-a GI-li LÈ-è yê",
-      "translation": "J'ai confiance en toi.",
-      "context": "Accorder implicitement une liberté d'action à quelqu'un"
+      "context": "Expression de l'interdiction avec le verbe tɔ̌ɔ."
     }
   ],
   "grammar_points": [
     {
-      "concept": "Les deux degrés d'obligation : hwókɛli et màánɛ̀ɛ ́",
-      "explanation": "Le kpele exprime l'obligation avec deux conjonctions distinctes, chacune suivie d'une proposition à valeur conditionnelle ou subjonctive, plutôt que par un seul verbe modal comme le français « devoir ».",
+      "concept": "Les deux degrés d'obligation : màánɛ̀ɛ́ et hwókɛli",
+      "explanation": "Le guerzé distingue grammaticalement deux degrés d'obligation à l'aide de deux conjonctions distinctes : màánɛ̀ɛ́ introduit une obligation plus faible avec une construction subjonctive, tandis que hwókɛli exprime un ordre plus fort avec une construction conditionnelle/subjonctive.",
       "rules": [
-        "hwókɛli = il faut que, obligation forte, un ordre.",
-        "màánɛ̀ɛ ́ = il faut que, obligation plus faible, une simple recommandation impérative.",
-        "hwókɛli yà kɔ́nɔŋ mîi (tu dois manger), hwókɛli yà pà (tu dois venir), hwókɛli è kúlo (il doit sortir) : la structure reste identique, seul le sujet change de forme."
+        "màánɛ̀ɛ́ + [proposition subjonctive] = obligation faible, semblable à une recommandation insistante.",
+        "hwókɛli + [proposition conditionnelle/subjonctive] = obligation forte, proche d'un ordre direct.",
+        "Les deux conjonctions sont parfois données comme synonymes dans le dictionnaire, mais avec une nuance de degré explicitement notée par l'auteure."
       ],
       "examples": [
         {
-          "structure": "hwókɛli vs màánɛ̀ɛ ́",
-          "phonetic_api": "/hwókɛli/ vs /màánɛ̀ɛ́/",
-          "meaning": "obligation forte vs obligation plus faible"
+          "structure": "màánɛ̀ɛ́ è kúlo (faible) vs. hwókɛli yà pà (fort)",
+          "phonetic_api": "/màánɛ̀ɛ́ è kúlo/, /hwókɛli yà pà/",
+          "meaning": "il faut qu'il sorte (suggestion) vs. tu dois venir (ordre)"
         }
       ]
     },
     {
-      "concept": "kpáaŋ : nom et verbe pour l'obligation",
-      "explanation": "kpáaŋ existe comme nom (l'obligation elle-même) et comme verbe (être obligé), avec deux constructions légèrement différentes selon la fonction.",
+      "concept": "L'interdiction avec tɔ̌ɔ et les noms táŋaŋ/tɔ̂ŋ",
+      "explanation": "L'interdiction peut être exprimée par le verbe tɔ̌ɔ (interdire) ou par les noms táŋaŋ et tɔ̂ŋ (interdit, interdiction), le nom relationnel màatɛ́ɠâ désignant spécifiquement un interdit personnel (souvent lié à une croyance individuelle).",
       "rules": [
-        "Comme nom : kpáaŋ mɛ́ni ↓ká (c'est une obligation), ~ kɛ́ (obliger quelqu'un).",
-        "Comme verbe : kpáaŋ (être obligé), construit avec yêi (envers) pour préciser envers qui : ŋàa kpáaŋ é yêi (je me sens obligé envers toi).",
-        "Le synonyme kánaŋ partage un sens proche (« obliger, contraindre »), utile pour varier le registre."
+        "[Sujet pluriel] + [objet] + tɔ́ŋ + dɔ̀ɔ + [pronom] = on a interdit [objet] à [pronom].",
+        "màatɛ́ɠâ + [pronom possessif] = interdit personnel (ex. máatɛɠa ↓lí = c'est mon interdit)."
       ],
       "examples": [
         {
-          "structure": "gbáaŋâai ŋé zèɠeí ɲɛ́i yá",
-          "phonetic_api": "/gbáaŋâai ŋé zèɣeí ɲɛ́i yá/",
-          "meaning": "je suis obligé d'acheter cet habit"
-        }
-      ]
-    },
-    {
-      "concept": "L'interdiction : tɔ̂ŋ et ses conséquences",
-      "explanation": "tɔ̂ŋ désigne à la fois l'interdit lui-même et l'amende qui sanctionne sa transgression, deux sens reliés par une même logique de conséquence sociale.",
-      "rules": [
-        "[chose interdite] + tɔ̂ŋ + [personne] + mâa = interdire [chose] à [personne] : dàá lɔ̀ɔ tɔ́ŋ dɔ̀ɔ mâa (ils m'ont interdit de boire le vin).",
-        "~ pǐli mà = infliger une amende à quelqu'un, en cas de transgression de l'interdit : dàa tɔ́ŋ bìli mâa (ils m'ont infligé une amende)."
-      ],
-      "examples": [
-        {
-          "structure": "tɔ̂ŋ ... mâa / tɔ̂ŋ pǐli mà",
-          "phonetic_api": "/tɔ̂ŋ mâa/ /tɔ̂ŋ pǐli mà/",
-          "meaning": "interdire à ... / infliger une amende à ..."
-        }
-      ]
-    },
-    {
-      "concept": "La permission : ɓó, lɛ̌ɛ et láŋaŋ",
-      "explanation": "Contrairement à l'obligation et à l'interdiction, la permission s'exprime en kpele par plusieurs verbes concrets de mouvement ou de relâchement, réutilisés au sens social.",
-      "rules": [
-        "ɓó (laisser, libérer, laisser passer) est le verbe le plus général pour la permission.",
-        "lɛ̌ɛ (laisser) s'emploie dans des formules plus courtes comme nɛ̀ɛ ́ làa (laisse-le).",
-        "láŋaŋ (laisser passer, céder le passage) s'utilise spécifiquement pour autoriser un déplacement physique."
-      ],
-      "examples": [
-        {
-          "structure": "ɓó / lɛ̌ɛ / láŋaŋ",
-          "phonetic_api": "/ɓó/ /lɛ̌ɛ/ /láŋaŋ/",
-          "meaning": "permettre / laisser / laisser passer"
+          "structure": "dàá lɔ̀ɔ tɔ́ŋ dɔ̀ɔ mâa",
+          "phonetic_api": "/dàá lɔ̀ɔ tɔ́ŋ dɔ̀ɔ mâa/",
+          "meaning": "ils m'ont interdit de boire le vin"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Personne A",
+      "speaker": "Le chef de famille",
       "text": "Hwókɛli yà kɔ́nɔŋ mîi.",
       "phonetic_api": "/hwókɛli yà kɔ́nɔŋ mîi/",
       "phonetic_simple": "HWO-kè-li ya KO-nong MI-i",
       "translation": "Tu dois manger."
     },
     {
-      "speaker": "Personne B",
-      "text": "Ŋàá mɛ̌ŋ, kɛ́laa gbáaŋâai ŋé zèɠeí ɲɛ́i yá kâali.",
-      "phonetic_api": "/ŋàá mɛ̌ŋ kɛ́laa gbáaŋâai ŋé zèɣeí ɲɛ́i yá kâali/",
-      "phonetic_simple": "nga-a MENG, ké-laa gba-ANG-a-i ngé zè-ghè-I NYÉ-i ya KA-a-li",
-      "translation": "J'ai compris, mais je suis d'abord obligé d'acheter cet habit."
+      "speaker": "Le jeune",
+      "text": "Màánɛ̀ɛ́ è kúlo hɔ̀ni ?",
+      "phonetic_api": "/màánɛ̀ɛ́ è kúlo hɔ̀ni/",
+      "phonetic_simple": "MA-a-nè-è è KOU-lo HO-ni",
+      "translation": "Faut-il vraiment qu'il sorte ?"
     },
     {
-      "speaker": "Personne A",
-      "text": "Màánɛ̀ɛ ́ è kúlo kɛ̀â.",
-      "phonetic_api": "/màánɛ̀ɛ́ è kúlo kɛ̀â/",
-      "phonetic_simple": "ma-a-NÈ-è è KOU-lo kè-â",
-      "translation": "Il faudrait qu'il sorte, alors."
+      "speaker": "Le chef de famille",
+      "text": "Òowɛi, kpáaŋ mɛ́ni ↓ká.",
+      "phonetic_api": "/òowɛi kpáaŋ mɛ́ni ↓ká/",
+      "phonetic_simple": "o-wè-i KPA-ang MÉ-ni ka",
+      "translation": "Oui, c'est une obligation."
     },
     {
-      "speaker": "Personne B",
-      "text": "Dàá lɔ̀ɔ tɔ́ŋ dɔ̀ɔ mâa, gáa mɛ̌ŋ.",
-      "phonetic_api": "/dàá lɔ̀ɔ tɔ́ŋ dɔ̀ɔ mâa gáa mɛ̌ŋ/",
-      "phonetic_simple": "da-a lo-o TONG do-o ma-a, gaa MENG",
-      "translation": "Ils m'ont interdit de boire le vin, je comprends."
-    },
-    {
-      "speaker": "Personne A",
-      "text": "Láŋaŋ dɔ̌ɠɔ, ŋàá gíli lɛ́ɛ yɛ̂.",
-      "phonetic_api": "/láŋaŋ dɔ̌ɣɔ ŋàá gíli lɛ́ɛ yɛ̂/",
-      "phonetic_simple": "LA-ngang do-gho, nga-a GI-li LÈ-è yê",
-      "translation": "Laisse-le passer, j'ai confiance en toi."
-    },
-    {
-      "speaker": "Personne B",
-      "text": "Máma, mɛ́niê !",
-      "phonetic_api": "/máma mɛ́niê/",
-      "phonetic_simple": "MA-ma MÉ-ni-Ê",
-      "translation": "Merci, mon ami !"
+      "speaker": "Le jeune",
+      "text": "Dàá lɔ̀ɔ tɔ́ŋ dɔ̀ɔ mâa ↓lɛ́.",
+      "phonetic_api": "/dàá lɔ̀ɔ tɔ́ŋ dɔ̀ɔ mâa ↓lɛ́/",
+      "phonetic_simple": "da-a lo TONG do MA-a lé",
+      "translation": "Mais on m'a interdit de boire le vin."
     }
   ],
   "cultural_notes": [
-    "La distinction entre hwókɛli (obligation forte) et màánɛ̀ɛ ́ (obligation plus faible) reflète une hiérarchie sociale de la contrainte : un ordre d'un aîné ou d'une autorité se formule différemment d'une simple recommandation entre pairs.",
-    "Le système d'interdits et d'amendes (tɔ̂ŋ) documenté dans le dictionnaire — y compris pour la consommation de vin de palme — illustre un mode traditionnel de régulation sociale par sanction financière plutôt que par punition physique.",
-    "Le fait que kpáaŋ se construise avec yêi (« envers ») pour l'obligation morale, plutôt que dans un sens purement légal, souligne l'importance des dettes relationnelles et de la réciprocité dans la société kpele.",
-    "L'usage du même verbe (ɓó) pour « laisser passer » physiquement et « permettre » au sens large montre, comme pour dà kúlo mà ! en Leçon 6, la tendance du kpele à étendre les verbes de mouvement concret vers des significations sociales abstraites."
+    "La distinction entre màánɛ̀ɛ́ (obligation faible) et hwókɛli (obligation forte) reflète l'importance de la hiérarchie sociale et de la politesse dans la formulation des demandes en société guerzé (Konoshenko 2019).",
+    "Les interdits personnels (màatɛ́ɠâ) sont souvent liés à des croyances individuelles ou familiales transmises de génération en génération, en lien avec les sociétés initiatiques de la région forestière."
   ],
   "exercises": [
     {
       "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quelle conjonction exprime une obligation plus forte ?",
+      "question": "Quelle est la différence entre màánɛ̀ɛ́ et hwókɛli ?",
       "options": [
-        "màánɛ̀ɛ ́",
-        "hwókɛli",
-        "ɓó",
-        "lɛ̌ɛ"
+        "màánɛ̀ɛ́ est une obligation plus faible, hwókɛli plus forte",
+        "Ce sont des synonymes parfaits sans nuance",
+        "hwókɛli signifie « interdit »"
       ],
-      "correct_answer": "hwókɛli",
-      "explanation": "hwókɛli exprime un ordre, une obligation plus contraignante que màánɛ̀ɛ ́."
+      "correct_answer": "màánɛ̀ɛ́ est une obligation plus faible, hwókɛli plus forte",
+      "explanation": "Konoshenko (2019) note explicitement que màánɛ̀ɛ́ exprime une obligation plus faible que hwókɛli."
     },
     {
       "exercise_id": "ex2",
-      "type": "multiple_choice",
-      "question": "Que signifie tɔ̂ŋ, en plus de « interdit » ?",
-      "options": [
-        "Permission",
-        "Amende",
-        "Conseil",
-        "Devoir"
-      ],
-      "correct_answer": "Amende",
-      "explanation": "tɔ̂ŋ désigne aussi bien l'interdit que l'amende qui sanctionne sa transgression."
-    },
-    {
-      "exercise_id": "ex3",
-      "type": "multiple_choice",
-      "question": "Quel verbe signifie spécifiquement « laisser passer » quelqu'un ?",
-      "options": [
-        "kpáaŋ",
-        "láŋaŋ",
-        "kánaŋ",
-        "màatii"
-      ],
-      "correct_answer": "láŋaŋ",
-      "explanation": "láŋaŋ s'utilise pour céder le passage à quelqu'un, une forme de permission physique."
-    },
-    {
-      "exercise_id": "ex4",
-      "type": "multiple_choice",
-      "question": "Comment dit-on « c'est une obligation » ?",
-      "options": [
-        "Kpáaŋ mɛ́ni ↓ká.",
-        "Dàá lɔ̀ɔ tɔ́ŋ dɔ̀ɔ mâa.",
-        "Nɛ̀ɛ ́ làa.",
-        "Ŋàá gíli lɛ́ɛ yɛ̂."
-      ],
-      "correct_answer": "Kpáaŋ mɛ́ni ↓ká.",
-      "explanation": "kpáaŋ employé comme nom, suivi de mɛ́ni ↓ká, souligne le caractère contraignant de quelque chose."
-    },
-    {
-      "exercise_id": "ex5",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Pour dire « tu dois manger », on dit : « [ ___ ] yà kɔ́nɔŋ mîi. »",
+      "sentence_with_blank": "[ ___ ] yà pà. (Tu dois venir.)",
       "correct_answer": "Hwókɛli",
-      "hint": "C'est la conjonction d'obligation forte."
-    },
-    {
-      "exercise_id": "ex6",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "« Ils m'ont infligé une amende » se dit : « Dàa tɔ́ŋ [ ___ ] mâa. »",
-      "correct_answer": "bìli",
-      "hint": "Ce verbe signifie littéralement « jeter »."
-    },
-    {
-      "exercise_id": "ex7",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "« Laisse-le » se dit : « [ ___ ] làa. »",
-      "correct_answer": "Nɛ̀ɛ ́",
-      "hint": "C'est la forme impérative de lɛ̌ɛ (laisser)."
+      "hint": "C'est le marqueur d'obligation forte."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Konoshenko, M. (2019). Dictionnaire kpele de la Guinée (guerzé) – français. Mandenkan 62.",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan62/62konoshenko.pdf"
+    },
+    {
+      "label": "Wikipédia — Kpèllé (langue) / Guerzé",
+      "url": "https://fr.wikipedia.org/wiki/Guerze"
+    }
+  ],
+  "confidence": "élevée",
+  "confidence_note": "Les deux marqueurs d'obligation (màánɛ̀ɛ́, hwókɛli) et les termes d'interdiction (tɔ̂ŋ, táŋaŋ, màatɛ́ɠâ, tɔ̌ɔ) sont directement attestés avec leurs nuances et exemples dans Konoshenko (2019)."
 }

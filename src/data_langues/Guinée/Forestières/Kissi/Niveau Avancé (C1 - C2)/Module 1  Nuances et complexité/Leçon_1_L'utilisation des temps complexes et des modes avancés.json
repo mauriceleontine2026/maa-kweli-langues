@@ -1,114 +1,193 @@
 {
   "lesson_id": "C1_M1_L1",
-  "level": "Niveau Avancé (C1-C2)",
+  "level": "Avancé (C1-C2)",
   "module_number": 1,
   "module_title": "Nuances et complexité",
   "lesson_number": 1,
   "title": "L'utilisation des temps complexes et des modes avancés",
   "learning_objectives": [
-    "Maîtriser le plus-que-parfait et l'antériorité dans un récit",
-    "Exprimer une action habituelle ou itérative dans le passé",
-    "Utiliser les infixes et suffixes aspectuels pour nuancer l'action"
+    "Analyser le système d'auxiliaires TAM du kissi (wá=passé, có=présent/réaliste) au-delà de la phrase simple",
+    "Distinguer l'impératif négatif (cmb lé) et l'hortatif (cmbú) documentés par Childs",
+    "Comprendre la formation du perfectif/imperfectif à partir des mêmes racines verbales (ex. cmbu vs cmbú)"
   ],
   "phonetic_focus": {
-    "key_sounds": "Les modes avancés introduisent des variations tonales subtiles sur le radical verbal. Le morphème d'antériorité 'wo' ou 'pa' s'accompagne souvent d'un ton bas étiré.",
-    "common_pitfalls": "Attention à ne pas raccourcir l'allongement de la voyelle dans la particule d'habitude passée, sous peine de confondre l'action répétée avec une action unique accomplie."
+    "key_sounds": "Les distinctions modales du kissi (impératif, hortatif, incitatif) reposent souvent sur des tons et des voyelles finales longues/brèves plutôt que sur des affixes visibles, ce qui les rend difficiles à percevoir à l'écrit sans système tonal complet.",
+    "common_pitfalls": "Les francophones cherchent des marques modales explicites (comme des terminaisons verbales françaises) alors que le kissi encode souvent le mode par le ton et l'aspect de la voyelle finale, une différence typologique majeure signalée par Childs (1995)."
   },
   "vocabulary": [
     {
-      "word_id": "v19_1",
-      "term": "wo",
-      "phonetic_api": "/wo/",
-      "phonetic_simple": "WO",
-      "translation": "déjà / marqueur d'antériorité ou de plus-que-parfait",
-      "example_sentence": "I lo wo ciao tele o lo wa.",
-      "example_phonetic": "/i lo wo tʃja.o te.le o lo wa/",
-      "example_translation": "J'étais déjà allé au marché quand il est arrivé."
+      "word_id": "v1",
+      "term": "cmbú",
+      "phonetic_api": "/kpmbu/",
+      "phonetic_simple": "kpm-bou (forme impérative/perfective)",
+      "translation": "pars ! (impératif) / il/elle est parti(e) (perfectif)",
+      "example_sentence": "Cmbú!",
+      "example_phonetic": "/kpmbu/",
+      "example_translation": "Pars !"
     },
     {
-      "word_id": "v19_2",
-      "term": "pa",
-      "phonetic_api": "/pa/",
-      "phonetic_simple": "PA",
-      "translation": "autrefois / habitude passée",
-      "example_sentence": "I pa wali fiaa.",
-      "example_phonetic": "/i pa wa.li fjaː/",
-      "example_translation": "Autrefois, je travaillais beaucoup."
+      "word_id": "v2",
+      "term": "cmb lé",
+      "phonetic_api": "/kpmb le/",
+      "phonetic_simple": "kpmb lé",
+      "translation": "ne pars pas ! (impératif négatif)",
+      "example_sentence": "Cmb lé!",
+      "example_phonetic": "/kpmb le/",
+      "example_translation": "Ne pars pas !"
+    },
+    {
+      "word_id": "v3",
+      "term": "cmbú (hortatif)",
+      "phonetic_api": "/kpmbu/",
+      "phonetic_simple": "kpm-bou (ton hortatif)",
+      "translation": "qu'elle parte ! elle devrait partir",
+      "example_sentence": "Cmbú ndu.",
+      "example_phonetic": "/kpmbu ndu/",
+      "example_translation": "Qu'elle parte."
+    },
+    {
+      "word_id": "v4",
+      "term": "cimbu",
+      "phonetic_api": "/tʃimbu/",
+      "phonetic_simple": "tchim-bou",
+      "translation": "partir (forme de base, non marquée)",
+      "example_sentence": "Ndu có cimbu.",
+      "example_phonetic": "/ndu tʃo tʃimbu/",
+      "example_translation": "Il/elle va partir."
+    },
+    {
+      "word_id": "v5",
+      "term": "cí",
+      "phonetic_api": "/tʃi/",
+      "phonetic_simple": "tchi",
+      "translation": "finir, auxiliaire incipient/aspectuel",
+      "example_sentence": "Ndu cí wali.",
+      "example_phonetic": "/ndu tʃi wali/",
+      "example_translation": "Il/elle vient de finir le travail / commence à travailler (selon Childs, aspect incipient)."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p19_1",
-      "original": "Fin nio o wali wo tele i kandɛ peeku le.",
-      "phonetic_api": "/fĩ njo o wa.li wo te.le i ka.ⁿdɛ peː.ku le/",
-      "phonetic_simple": "FEEN NYO O WA-LI WO TÉ-LÉ I KAN-DÈ PÉÉ-KOU LÉ",
-      "translation": "Mon père avait déjà travaillé avant que je ne commence à étudier.",
-      "context": "Récit d'événements antérieurs"
+      "phrase_id": "p1",
+      "original": "Cmbú!",
+      "phonetic_api": "/kpmbu/",
+      "phonetic_simple": "kpm-bou",
+      "translation": "Pars !",
+      "context": "Ordre direct, impératif."
     },
     {
-      "phrase_id": "p19_2",
-      "original": "I pa lo ciao tana kpou.",
-      "phonetic_api": "/i pa lo tʃja.o ta.na k͡pu/",
-      "phonetic_simple": "I PA LO TCHIA-O TA-NA KPOU",
-      "translation": "J'avais l'habitude d'aller au marché tous les jours.",
-      "context": "Évoquer des souvenirs ou habitudes révolues"
+      "phrase_id": "p2",
+      "original": "Cmb lé!",
+      "phonetic_api": "/kpmb le/",
+      "phonetic_simple": "kpmb lé",
+      "translation": "Ne pars pas !",
+      "context": "Impératif négatif, interdiction directe."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Cmbú ndu.",
+      "phonetic_api": "/kpmbu ndu/",
+      "phonetic_simple": "kpm-bou ndou",
+      "translation": "Qu'elle parte / elle devrait partir.",
+      "context": "Forme hortative, souhait ou recommandation à la 3e personne."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Cmb lé ndu.",
+      "phonetic_api": "/kpmb le ndu/",
+      "phonetic_simple": "kpmb lé ndou",
+      "translation": "Elle ne devrait pas partir.",
+      "context": "Hortatif négatif."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'antériorité temporelle avec 'wo'",
-      "explanation": "Pour exprimer qu'une action s'est déroulée avant une autre action passée (équivalent du plus-que-parfait), la particule 'wo' est insérée immédiatement après le verbe au radical accompli.",
+      "concept": "Perfectif, impératif et hortatif partagent une même base verbale marquée par le ton",
+      "explanation": "Selon la description détaillée de Sarah Rose (synthétisant Childs, 1995), la racine verbale 'cmb-' (partir) prend des valeurs différentes — impératif ('pars !'), perfectif ('il/elle est parti'), ou hortatif ('qu'elle parte') — sans changement de forme segmentale évident, la distinction reposant sur le ton et le contexte syntaxique. Le négateur postposé 'lé' peut s'appliquer à chacune de ces valeurs pour produire l'impératif négatif ou l'hortatif négatif.",
       "rules": [
-        "Le verbe se met à la forme accomplie nue.",
-        "La particule 'wo' se place entre le verbe et ses compléments d'objet."
+        "cmbú (ton spécifique) = impératif positif ou perfectif, selon le contexte.",
+        "cmb + lé = forme négative correspondante (impératif négatif ou hortatif négatif).",
+        "L'auxiliaire aspectuel 'cí' (finir/incipient) module encore le sens de base du verbe selon Childs, marquant un début ou une fin d'action."
       ],
       "examples": [
         {
-          "structure": "Sujet + Verbe + wo + Complément",
-          "phonetic_api": "/i mɛl wo mɛ̃/",
-          "meaning": "J'avais déjà bu l'eau."
+          "structure": "cmbú",
+          "phonetic_api": "/kpmbu/",
+          "meaning": "pars ! / il-elle est parti(e), selon le contexte"
+        },
+        {
+          "structure": "cmb + lé",
+          "phonetic_api": "/kpmb le/",
+          "meaning": "ne pars pas ! / il-elle ne devrait pas partir"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Tamba",
-      "text": "Saa, o lo wo ciao tele Faya o lo wa ?",
-      "phonetic_api": "/saː o lo wo tʃja.o te.le fa.ja o lo wa/",
-      "phonetic_simple": "SAA, O LO WO TCHIA-O TÉ-LÉ FAYA O LO WA ?",
-      "translation": "Saa, étais-tu déjà allé au marché quand Faya est arrivé ?"
+      "speaker": "Chef de famille",
+      "text": "Cmbú! Wali ndu wo.",
+      "phonetic_api": "/kpmbu wali ndu wo/",
+      "phonetic_simple": "kpm-bou ! wa-li ndou wo",
+      "translation": "Pars ! Le travail t'attend."
     },
     {
-      "speaker": "Saa",
-      "text": "Haa, i lo wo ciao fassa wa, i nɔŋ wo biyɛ ndɔ.",
-      "phonetic_api": "/haː i lo wo tʃja.o fa.sa wa i nɔŋ wo bi.jɛ ⁿdɔ/",
-      "phonetic_simple": "HAA, I LO WO TCHIA-O FAS-SA WA, I NONG WO BI-YÈ NDO.",
-      "translation": "Oui, j'étais déjà allé de ce côté, j'avais aussi déjà acheté du riz."
+      "speaker": "Jeune homme",
+      "text": "Yá n cí wali, ke yá có cimbu nî.",
+      "phonetic_api": "/ja n tʃi wali ke ja tʃo tʃimbu ni/",
+      "phonetic_simple": "ya n tchi wa-li, ké ya tcho tchim-bou ni",
+      "translation": "Je dois finir le travail, mais je vais partir maintenant."
+    },
+    {
+      "speaker": "Chef de famille",
+      "text": "Cmb lé kpede!",
+      "phonetic_api": "/kpmb le kpede/",
+      "phonetic_simple": "kpmb lé kpé-dé",
+      "translation": "Ne pars pas tout de suite !"
+    },
+    {
+      "speaker": "Jeune homme",
+      "text": "Naam, yá cí kpede.",
+      "phonetic_api": "/naːm ja tʃi kpede/",
+      "phonetic_simple": "naam, ya tchi kpé-dé",
+      "translation": "Oui, je finis tout de suite."
     }
   ],
   "cultural_notes": [
-    "Dans la tradition orale kissi, la maîtrise des nuances temporelles permet aux conteurs d'imbriquer les époques avec précision, notamment lors de la transmission des généalogies ou des récits historiques fondateurs du village."
+    "La grammaire de Childs (1995) documente un système modal riche où les distinctions de politesse, d'urgence ou de recommandation reposent sur des nuances tonales fines, ce qui exige un apprentissage attentif à l'oral, idéalement auprès de locuteurs natifs plutôt que par la seule lecture.",
+    "Le fait qu'un même radical verbal serve à l'impératif et au perfectif illustre une économie morphologique fréquente dans les langues Atlantique-Congo, où le contexte syntaxique désambiguïse le sens plus que des affixes dédiés."
   ],
   "exercises": [
     {
-      "exercise_id": "ex19_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quelle particule insère-t-on juste après le verbe pour marquer l'antériorité (déjà) ?",
+      "question": "Que signifie 'cmb lé' ?",
       "options": [
-        "wo",
-        "ning",
-        "le"
+        "ne pars pas !",
+        "pars maintenant !",
+        "il est déjà parti"
       ],
-      "correct_answer": "wo",
-      "explanation": "'wo' s'intercale après le verbe pour exprimer une action déjà révolue au moment d'un autre fait passé."
+      "correct_answer": "ne pars pas !",
+      "explanation": "Attesté par Sarah Rose (synthèse de Childs, 1995) comme impératif négatif."
     },
     {
-      "exercise_id": "ex19_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "I [ ___ ] lo ciao. (Autrefois j'allais au marché / habitude passée)",
-      "correct_answer": "pa",
-      "hint": "Particule marquant la coutume ou la répétition dans le passé"
+      "sentence_with_blank": "Ndu [ ___ ] wali. (Il/elle vient de finir le travail.)",
+      "correct_answer": "cí",
+      "hint": "Auxiliaire aspectuel attesté pour 'finir'."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Sarah Rose, « Kisi » (chapitre synthétisant Childs 1995), Memorial University of Newfoundland",
+      "url": "https://www.mun.ca/linguistics/media/production/memorial/academic/faculty-of-humanities-and-social-sciences/linguistics/media-library/more/e-books/Kisi_Chapter_Sixteen_Sarah_Rose.pdf"
+    },
+    {
+      "label": "G. Tucker Childs, A Grammar of Kisi: A Southern Atlantic Language (Mouton de Gruyter, 1995)",
+      "url": "https://dokumen.pub/a-grammar-of-kisi-a-southern-atlantic-language-9783110810882-9783110143560.html"
+    }
+  ],
+  "confidence": "faible",
+  "confidence_note": "Les formes verbales cmbú/cmb lé/cí et leur analyse modale sont directement tirées de l'exposé académique de Sarah Rose sur la grammaire de Childs (1995), mais la source elle-même signale des lacunes de transcription tonale (caractères spéciaux endommagés) ; les phrases combinatoires sont donc des constructions raisonnées avec un degré d'incertitude assumé sur la réalisation tonale exacte."
 }

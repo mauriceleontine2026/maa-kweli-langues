@@ -1,19 +1,18 @@
 {
-  "lesson_id": "C3_M3_L7",
+  "lesson_id": "C1_M3_L7",
   "level": "Avancé (C1-C2)",
   "module_number": 3,
   "module_title": "Maîtrise totale",
   "lesson_number": 7,
   "title": "Comprendre et analyser des textes littéraires ou historiques",
   "learning_objectives": [
-    "Analyser la structure binaire d'un proverbe (rappel Leçon 4) pour en dégager le sens figuré.",
-    "Identifier les formules d'ouverture et de clôture propres au conte kpele.",
-    "Comprendre l'histoire de la transcription écrite du kpele et son passage récent d'une tradition orale à une tradition écrite naissante.",
-    "Distinguer le rôle culturel respectif du conte (kwèlêŋ), du proverbe (hɔ́ɔnŋ) et du discours cérémoniel (pǎma)."
+    "Identifier la structure d'un conte traditionnel (kwèlêŋ) à travers un exemple attesté (l'hyène et le lièvre)",
+    "Analyser un proverbe long attesté sur le principe de ne pas vanter quelqu'un en sa présence",
+    "Situer le guerzé dans son contexte historique d'écriture (l'alphabet créé sous Sékou Touré, 1968-1984)"
   ],
   "phonetic_focus": {
-    "key_sounds": "Analyser un texte kpele oral suppose de repérer les marqueurs prédicatifs (Avancé Leçon 1) qui signalent les changements de temps dans un récit, ainsi que les connecteurs (Avancé Leçon 3) qui articulent les étapes de l'argumentation ou de la narration. Une lecture attentive du ton reste indispensable : un même texte transcrit sans les tons perd une grande partie de son sens.",
-    "common_pitfalls": "Les francophones ont tendance à : (1) chercher un texte littéraire écrit long à analyser, alors que la littérature kpele est avant tout orale (contes, proverbes, discours cérémoniels) et se transmet de vive voix ; (2) analyser un proverbe uniquement au premier degré, sans chercher la leçon culturelle qu'il transmet ; (3) oublier que le kpele n'a acquis une orthographe stable que très récemment, ce qui influence directement la nature des « textes » kpele disponibles à l'analyse."
+    "key_sounds": "Le récit traditionnel guerzé emploie fréquemment le marqueur consécutif (série VI du Tableau 10 : gɛ́, yɛ́, yɛ̌, gùó, kúo, káa, dìé) pour enchaîner les actions successives, ce qui donne au texte narratif un rythme tonal caractéristique.",
+    "common_pitfalls": "Un lecteur avancé doit éviter de traduire chaque marqueur consécutif par un simple « et puis » : la valeur exacte dépend du contexte narratif et peut impliquer simultanéité, conséquence ou simple succession."
   },
   "vocabulary": [
     {
@@ -21,350 +20,178 @@
       "term": "kwèlêŋ",
       "phonetic_api": "/kwèlêŋ/",
       "phonetic_simple": "KWÈ-lêng",
-      "translation": "conte, légende (~ hɔ̌ɔ = raconter un conte)",
-      "example_sentence": "Kwèlêŋ hɔ̌ɔ.",
-      "example_phonetic": "/kwèlêŋ hɔ̌ɔ/",
-      "example_translation": "Raconter un conte."
-    },
-    {
-      "word_id": "v2",
-      "term": "hɔ́ɔnŋ",
-      "phonetic_api": "/hɔ́ɔnŋ/",
-      "phonetic_simple": "HO-onng",
-      "translation": "proverbe, parabole, fable, diction (~ hɔ̌ɔ = dire un proverbe)",
-      "example_sentence": "Hɔ́ɔnŋ hɔ̌ɔ.",
-      "example_phonetic": "/hɔ́ɔnŋ hɔ̌ɔ/",
-      "example_translation": "Dire un proverbe."
-    },
-    {
-      "word_id": "v3",
-      "term": "pǎma",
-      "phonetic_api": "/pǎma/",
-      "phonetic_simple": "pa-ma (ton bas)",
-      "translation": "discours d'adieu cérémoniel (~ ɓó = faire un discours d'adieu)",
-      "example_sentence": "Pǎma ɓó.",
-      "example_phonetic": "/pǎma ɓó/",
-      "example_translation": "Faire un discours d'adieu."
-    },
-    {
-      "word_id": "v4",
-      "term": "lónoŋ",
-      "phonetic_api": "/lónoŋ/",
-      "phonetic_simple": "LO-nong",
-      "translation": "compter ; aussi lire",
-      "example_sentence": "Gáa zɛ̀ɓɛ́ ↓lónoŋzî.",
-      "example_phonetic": "/gáa zɛ̀ɓɛ́ ↓lónoŋzí/",
-      "example_translation": "Je suis en train de lire le livre."
-    },
-    {
-      "word_id": "v5",
-      "term": "zɛ̀ɓɛ́",
-      "phonetic_api": "/zɛ̀ɓɛ́/",
-      "phonetic_simple": "zè-ɓÉ",
-      "translation": "livre",
-      "example_sentence": "Gáa zɛ̀ɓɛ́ ↓lónoŋzî.",
-      "example_phonetic": "/gáa zɛ̀ɓɛ́ ↓lónoŋzí/",
-      "example_translation": "Je suis en train de lire le livre."
-    },
-    {
-      "word_id": "v6",
-      "term": "hwílêŋ",
-      "phonetic_api": "/hwílêŋ/",
-      "phonetic_simple": "HWI-lêng",
-      "translation": "mon conte (forme relationnelle de kwèlêŋ à la 1SG)",
-      "example_sentence": "Hwílêŋ hwúlu dà hɔ̀uwolo ɓâ.",
-      "example_phonetic": "/hwílêŋ hwúlu dà hɔ̀uwolo ɓâ/",
+      "translation": "conte, légende (texte littéraire oral)",
+      "example_sentence": "Ŋwɔ́ kwèléŋ ɓé hèɠeí è hwílêŋ hwúlu dà hɔ̀uwolo ɓâ.",
+      "example_phonetic": "/ŋwɔ́ kwèléŋ ɓé hèɠeí è hwílêŋ hwúlu dà hɔ̀uwolo ɓâ/",
       "example_translation": "Mon conte parle de l'hyène et du lièvre."
     },
     {
-      "word_id": "v7",
-      "term": "hèɠeheɠelaá",
-      "phonetic_api": "/hèɣèhèɣèlaá/",
-      "phonetic_simple": "hè-ghè-hè-ghè-LAA",
-      "translation": "celui qui vient",
-      "example_sentence": "Hèɠeheɠelaá dà tɔ̀ɔtɔɔlaa ɓé.",
-      "example_phonetic": "/hèɣèhèɣèlaá dà tɔ̀ɔtɔɔlaa ɓé/",
-      "example_translation": "Celui qui vient succède à celui qui part."
+      "word_id": "v2",
+      "term": "hwílêŋ",
+      "phonetic_api": "/hwílêŋ/",
+      "phonetic_simple": "HWI-lêng",
+      "translation": "hyène (personnage récurrent des contes)",
+      "example_sentence": "Hwílêŋ hwúlu dà hɔ̀uwolo ɓâ.",
+      "example_phonetic": "/hwílêŋ hwúlu dà hɔ̀uwolo ɓâ/",
+      "example_translation": "L'histoire de l'hyène et du lièvre."
     },
     {
-      "word_id": "v8",
-      "term": "màáhɔ̀lɔɓó",
-      "phonetic_api": "/màáhɔ̀lɔɓó/",
-      "phonetic_simple": "ma-a-HO-lo-ɓO",
-      "translation": "parce que",
-      "example_sentence": "màáhɔ̀lɔɓó",
-      "example_phonetic": "/màáhɔ̀lɔɓó/",
-      "example_translation": "parce que"
+      "word_id": "v3",
+      "term": "hɔ̀uwǒlo",
+      "phonetic_api": "/hɔ̀uwǒlo/",
+      "phonetic_simple": "HO-wo-lo",
+      "translation": "lièvre (personnage rusé des contes)",
+      "example_sentence": "Hɔ̀uwolo ↓lí kwèlêŋ hù.",
+      "example_phonetic": "/hɔ̀uwolo lí kwèlêŋ hù/",
+      "example_translation": "Le lièvre est [un personnage] dans le conte."
     },
     {
-      "word_id": "v9",
-      "term": "lî",
-      "phonetic_api": "/lî/",
-      "phonetic_simple": "lî",
-      "translation": "jadis, autrefois",
-      "example_sentence": "lî",
-      "example_phonetic": "/lî/",
-      "example_translation": "jadis, autrefois"
+      "word_id": "v4",
+      "term": "ŋwòó",
+      "phonetic_api": "/ŋwòó/",
+      "phonetic_simple": "NGWO-o",
+      "translation": "voix (aussi valeur figurée : réputation, ce qui se dit)",
+      "example_sentence": "Dà kɛ́ mà zɛ̀ŋ tɛ́ɠɛ ↓ɓɛ́, ŋwòó nɛ̀ɛ̂i.",
+      "example_phonetic": "/dà kɛ́ mà zɛ̀ŋ tɛ́ɠɛ ɓɛ́ ŋwòó nɛ̀ɛ̂i/",
+      "example_translation": "On dit toujours que la chose qui s'est passée ici a une belle voix (réputation)."
     },
     {
-      "word_id": "v10",
-      "term": "kɛ̀â",
-      "phonetic_api": "/kɛ̀â/",
-      "phonetic_simple": "kè-â",
-      "translation": "maintenant, alors, déjà, à ce moment",
-      "example_sentence": "Élɛɛ nìíɓai ↓tíi è nɛ̌ kɛ̀â.",
-      "example_phonetic": "/élɛɛ nìíɓai ↓tíi è nɛ̌ kɛ̀â/",
-      "example_translation": "Puis il montre cela, à ce moment-là."
+      "word_id": "v5",
+      "term": "dìhwá",
+      "phonetic_api": "/dìhwá/",
+      "phonetic_simple": "di-HWA",
+      "translation": "on ne ... jamais (négation habituelle, 3PL impersonnel)",
+      "example_sentence": "Dìhwá kɛ́ mà zɛ̀ŋ́ hèénì, ŋwòó nɛ̀ɛ̂i.",
+      "example_phonetic": "/dìhwá kɛ́ mà zɛ̀ŋ́ hèénì ŋwòó nɛ̀ɛ̂i/",
+      "example_translation": "On ne dit jamais que la chose qui est assise là a une belle voix."
     },
     {
-      "word_id": "v11",
-      "term": "wǒlo",
-      "phonetic_api": "/wǒlo/",
-      "phonetic_simple": "wo-lo (ton bas)",
-      "translation": "chimpanzé (personnage récurrent des contes et proverbes)",
-      "example_sentence": "wǒlo",
-      "example_phonetic": "/wǒlo/",
-      "example_translation": "chimpanzé"
-    },
-    {
-      "word_id": "v12",
-      "term": "hɔ̀uwolo",
-      "phonetic_api": "/hɔ̀uwolo/",
-      "phonetic_simple": "HO-ou-wo-lo",
-      "translation": "lièvre (personnage récurrent des contes)",
-      "example_sentence": "hɔ̀uwolo",
-      "example_phonetic": "/hɔ̀uwolo/",
-      "example_translation": "lièvre"
+      "word_id": "v6",
+      "term": "làkwélî",
+      "phonetic_api": "/làkwélî/",
+      "phonetic_simple": "la-KWÉ-li",
+      "translation": "école (contexte historique : lieu d'enseignement de l'alphabet guerzé sous Sékou Touré)",
+      "example_sentence": "Ɓé kwɛ̀lɛɛ làkwélî hù.",
+      "example_phonetic": "/ɓé kwɛ̀lɛɛ làkwélî hù/",
+      "example_translation": "On l'a enseigné à l'école."
     }
   ],
   "common_phrases": [
     {
       "phrase_id": "p1",
-      "original": "Hwílêŋ hwúlu dà hɔ̀uwolo ɓâ.",
-      "phonetic_api": "/hwílêŋ hwúlu dà hɔ̀uwolo ɓâ/",
-      "phonetic_simple": "HWI-lêng HWOU-lou da HO-ou-wo-lo ɓâ",
+      "original": "Ŋwɔ́ kwèléŋ ɓé hèɠeí è hwílêŋ hwúlu dà hɔ̀uwolo ɓâ.",
+      "phonetic_api": "/ŋwɔ́ kwèléŋ ɓé hèɠeí è hwílêŋ hwúlu dà hɔ̀uwolo ɓâ/",
+      "phonetic_simple": "ngwo KWÈ-lèng bé HÈ-ghé-i è HWI-lêng HWOU-lou da HO-wo-lo ba",
       "translation": "Mon conte parle de l'hyène et du lièvre.",
-      "context": "Formule d'ouverture typique à repérer dans l'analyse d'un conte"
+      "context": "Phrase d'ouverture narrative attestée, typique du genre du conte animalier guerzé."
     },
     {
       "phrase_id": "p2",
-      "original": "Hèɠeheɠelaá dà tɔ̀ɔtɔɔlaa ɓé.",
-      "phonetic_api": "/hèɣèhèɣèlaá dà tɔ̀ɔtɔɔlaa ɓé/",
-      "phonetic_simple": "hè-ghè-hè-ghè-LAA da to-o-to-o-LAA bé",
-      "translation": "Celui qui vient succède à celui qui part.",
-      "context": "Proverbe à double niveau de lecture : littéral (succession dans le temps) et figuré (succession de génération, de chef)"
+      "original": "Dà kɛ́ mà zɛ̀ŋ tɛ́ɠɛ ↓ɓɛ́, ŋwòó nɛ̀ɛ̂i ; dìhwá kɛ́ mà zɛ̀ŋ́ hèénì, ŋwòó nɛ̀ɛ̂i.",
+      "phonetic_api": "/dà kɛ́ mà zɛ̀ŋ tɛ́ɠɛ ɓɛ́ ŋwòó nɛ̀ɛ̂i dìhwá kɛ́ mà zɛ̀ŋ́ hèénì ŋwòó nɛ̀ɛ̂i/",
+      "phonetic_simple": "da ké ma zèng TÉ-ghè bé, NGWO-o NÈ-è-i; di-HWA ké ma zèng HÈ-é-ni, NGWO-o NÈ-è-i",
+      "translation": "On dit toujours que la chose qui s'est passée ici a une belle voix ; on ne dit jamais que la chose qui est assise là a une belle voix.",
+      "context": "Proverbe long attesté : on ne doit pas vanter les prouesses de quelqu'un présent, il doit les prouver par ses actions."
     },
     {
       "phrase_id": "p3",
-      "original": "Gáa zɛ̀ɓɛ́ ↓lónoŋzî.",
-      "phonetic_api": "/gáa zɛ̀ɓɛ́ ↓lónoŋzí/",
-      "phonetic_simple": "gaa zè-ɓÉ lo-NONG-zi",
-      "translation": "Je suis en train de lire le livre.",
-      "context": "Décrire une activité de lecture — rappel Intermédiaire Leçon 8"
+      "original": "Hɔ̀uwolo ↓lí kwèlêŋ hù.",
+      "phonetic_api": "/hɔ̀uwolo lí kwèlêŋ hù/",
+      "phonetic_simple": "HO-wo-lo li KWÈ-lêng hou",
+      "translation": "Le lièvre est [un personnage] dans le conte.",
+      "context": "Phrase attestée identifiant un personnage récurrent du corpus de contes guerzé."
     },
     {
       "phrase_id": "p4",
-      "original": "Kpɛ́ɲɛŋ àa mɔ́ŋ, hèbé àá lɛ̀ɛ ́ à gɔ̀u.",
-      "phonetic_api": "/kpɛ́ɲɛŋ àa mɔ́ŋ hèbé àá lɛ̀ɛ́ à gɔ̀u/",
-      "phonetic_simple": "KPÈ-nyèng aa MONG, hè-BÉ a-a lè-É a GO-ou",
-      "translation": "Le gombo est cuit, et les racines de hebe ne le sont pas.",
-      "context": "Exemple d'un proverbe à lire au second degré (situation anormale)"
-    },
-    {
-      "phrase_id": "p5",
-      "original": "Pǎma ɓó, élɛɛ hɔ́ɔnŋ hɔ̌ɔ.",
-      "phonetic_api": "/pǎma ɓó élɛɛ hɔ́ɔnŋ hɔ̌ɔ/",
-      "phonetic_simple": "pa-ma BO, É-lè-è HO-onng ho-o",
-      "translation": "Faire un discours d'adieu, puis dire un proverbe.",
-      "context": "Décrire la structure typique d'une cérémonie funèbre formelle"
+      "original": "Ɓé kwɛ̀lɛɛ làkwélî hù.",
+      "phonetic_api": "/ɓé kwɛ̀lɛɛ làkwélî hù/",
+      "phonetic_simple": "bé KWÈ-lè-è la-KWÉ-li hou",
+      "translation": "On l'a enseigné à l'école.",
+      "context": "Contexte historique attesté : l'orthographe guerzé enseignée à l'école guinéenne entre 1968 et 1984."
     }
   ],
   "grammar_points": [
     {
-      "concept": "Une littérature avant tout orale : ce que signifie « texte » en kpele",
-      "explanation": "Le kpele n'a acquis une orthographe stable et enseignée que très récemment ; la « littérature » kpele existe donc avant tout sous forme orale — contes (kwèlêŋ), proverbes (hɔ́ɔnŋ), discours cérémoniels (pǎma) — plutôt que sous forme de textes écrits longs.",
+      "concept": "Analyser la structure d'un proverbe-texte long",
+      "explanation": "Le proverbe long cité (sur la « voix ») illustre une technique littéraire du guerzé : la construction en diptyque, où une première affirmation (« on dit toujours... ») est mise en tension avec sa négation exacte dans la seconde partie (« on ne dit jamais... »), la portée morale émergeant du contraste entre l'action passée (accomplie, valorisée) et la présence actuelle (non valorisée par le discours direct).",
       "rules": [
-        "Analyser un « texte » kpele, à ce niveau, consiste le plus souvent à analyser une transcription d'un genre oral : conte, proverbe, ou discours rituel.",
-        "Le dictionnaire lui-même, comme outil de documentation d'une langue à tradition orale, constitue une des premières formes de texte écrit substantiel en kpele moderne.",
-        "Cette situation, loin d'être un manque, invite à développer des compétences d'analyse adaptées à l'oralité : rythme, formules fixes, structure binaire (Leçon 4)."
+        "[Affirmation habituelle positive] ; [Négation habituelle strictement symétrique] = structure de contraste typique du proverbe-texte long.",
+        "Le marqueur habituel négatif (série VIII du Tableau 10 : dìhwá pour 3PL) s'oppose exactement au marqueur habituel positif utilisé dans la première partie."
       ],
       "examples": [
         {
-          "structure": "kwèlêŋ / hɔ́ɔnŋ / pǎma",
-          "phonetic_api": "/kwèlêŋ/ /hɔ́ɔnŋ/ /pǎma/",
-          "meaning": "les trois grands genres de la « littérature » orale kpele"
-        }
-      ]
-    },
-    {
-      "concept": "Repérer les marqueurs formels du conte",
-      "explanation": "Le conte kpele se reconnaît à des marqueurs formels précis, semblables aux indices textuels qu'on chercherait dans un texte écrit : formule d'ouverture, personnages récurrents, structure narrative.",
-      "rules": [
-        "Formule d'ouverture : hwílêŋ hwúlu dà ... ɓâ (mon conte parle de...), déjà vue en Leçon 6.",
-        "Personnages récurrents : wǒlo (chimpanzé) et hɔ̀uwolo (lièvre) reviennent dans plusieurs contes et proverbes, un peu comme des figures archétypales.",
-        "Repérer ces éléments avant d'écouter le contenu du récit aide à anticiper le genre et le registre du texte."
-      ],
-      "examples": [
-        {
-          "structure": "wǒlo / hɔ̀uwolo comme personnages récurrents",
-          "phonetic_api": "/wǒlo/ /hɔ̀uwolo/",
-          "meaning": "figures animales traditionnelles des contes kpele"
-        }
-      ]
-    },
-    {
-      "concept": "Lecture au premier et au second degré d'un proverbe",
-      "explanation": "Analyser un proverbe suppose de distinguer systématiquement son sens littéral (l'image concrète) de son sens figuré (la leçon culturelle), une compétence développée en Leçon 4 et applicable à tout texte imagé.",
-      "rules": [
-        "hèɠeheɠelaá dà tɔ̀ɔtɔɔlaa ɓé : au premier degré, une observation sur l'alternance des arrivées et des départs ; au second degré, une réflexion sur la succession sociale.",
-        "Cette double lecture est la clé méthodologique pour analyser tout texte kpele à valeur culturelle, du proverbe au conte complet."
-      ],
-      "examples": [
-        {
-          "structure": "sens littéral vs sens figuré",
-          "phonetic_api": "",
-          "meaning": "la méthode de base pour analyser un texte imagé kpele"
-        }
-      ]
-    },
-    {
-      "concept": "Contextualiser un texte historique : l'histoire de l'écriture du kpele",
-      "explanation": "Comprendre un texte kpele, même contemporain, suppose de connaître le contexte historique de sa transcription, un savoir déjà abordé en Débutant Leçon 3.",
-      "rules": [
-        "Le kpele a connu plusieurs systèmes orthographiques successifs (une orthographe enseignée de 1968 à 1984, une orthographe officielle de 1989 restée peu utilisée, puis une orthographe modernisée depuis les années 2000, celle employée dans ce cours).",
-        "Un texte kpele ancien ou un texte suivant une orthographe différente de celle apprise ici peut donc sembler visuellement différent, sans que la langue elle-même ait changé."
-      ],
-      "examples": [
-        {
-          "structure": "trois orthographes successives",
-          "phonetic_api": "",
-          "meaning": "contexte indispensable pour situer historiquement un texte écrit kpele"
+          "structure": "dà kɛ́ mà ... ŋwòó nɛ̀ɛ̂i / dìhwá kɛ́ mà ... ŋwòó nɛ̀ɛ̂i",
+          "phonetic_api": "/dà kɛ́ mà ŋwòó nɛ̀ɛ̂i/, /dìhwá kɛ́ mà ŋwòó nɛ̀ɛ̂i/",
+          "meaning": "structure affirmative/négative symétrique pour opposer deux situations"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Personne A (l'étudiant)",
-      "text": "Gáa zɛ̀ɓɛ́ ↓lónoŋzî, kɛ́laa gáa hɛ́â káa hàa ɓâ.",
-      "phonetic_api": "/gáa zɛ̀ɓɛ́ ↓lónoŋzí kɛ́laa gáa hɛ́â káa hàa ɓâ/",
-      "phonetic_simple": "gaa zè-ɓÉ lo-NONG-zi, KÈ-laa gaa HÈ-â kaa haa ɓâ",
-      "translation": "Je lis le livre, mais j'ai un doute là-dessus."
+      "speaker": "Le conteur",
+      "text": "Ŋwɔ́ kwèléŋ ɓé hèɠeí è hwílêŋ hwúlu dà hɔ̀uwolo ɓâ.",
+      "phonetic_api": "/ŋwɔ́ kwèléŋ ɓé hèɠeí è hwílêŋ hwúlu dà hɔ̀uwolo ɓâ/",
+      "phonetic_simple": "ngwo KWÈ-lèng bé HÈ-ghé-i è HWI-lêng HWOU-lou da HO-wo-lo ba",
+      "translation": "Mon conte parle de l'hyène et du lièvre."
     },
     {
-      "speaker": "Personne B (le professeur)",
-      "text": "É wěle hwílêŋ ɓéle kɛ́i ?",
-      "phonetic_api": "/é wěle hwílêŋ ɓéle kɛ́i/",
-      "phonetic_simple": "é wè-le HWI-lêng ɓÉ-le KÈ-i ?",
-      "translation": "Sais-tu reconnaître un conte ?"
+      "speaker": "L'analyste",
+      "text": "Ɲɔ̀ɔ à kɛ́tɛ hɔ́ɔnŋ ↓lí, tè kwèlêŋ ↓lí ?",
+      "phonetic_api": "/ɲɔ̀ɔ à kɛ́tɛ hɔ́ɔnŋ lí tè kwèlêŋ lí/",
+      "phonetic_simple": "ngno-o a KÉ-tè HO-ong li, tè KWÈ-lêng li",
+      "translation": "Ceci, est-ce un proverbe ou est-ce un conte ?"
     },
     {
-      "speaker": "Personne A (l'étudiant)",
-      "text": "Ŋàá mɛ̌ŋ : hwílêŋ hwúlu dà hɔ̀uwolo ɓâ.",
-      "phonetic_api": "/ŋàá mɛ̌ŋ hwílêŋ hwúlu dà hɔ̀uwolo ɓâ/",
-      "phonetic_simple": "nga-a MENG: HWI-lêng HWOU-lou da HO-ou-wo-lo ɓâ",
-      "translation": "J'ai compris : mon conte parle de l'hyène et du lièvre."
+      "speaker": "Le conteur",
+      "text": "Dà kɛ́ mà zɛ̀ŋ tɛ́ɠɛ ↓ɓɛ́, ŋwòó nɛ̀ɛ̂i ; dìhwá kɛ́ mà zɛ̀ŋ́ hèénì, ŋwòó nɛ̀ɛ̂i.",
+      "phonetic_api": "/dà kɛ́ mà zɛ̀ŋ tɛ́ɠɛ ɓɛ́ ŋwòó nɛ̀ɛ̂i dìhwá kɛ́ mà zɛ̀ŋ́ hèénì ŋwòó nɛ̀ɛ̂i/",
+      "phonetic_simple": "da ké ma zèng TÉ-ghè bé, NGWO-o NÈ-è-i; di-HWA ké ma zèng HÈ-é-ni, NGWO-o NÈ-è-i",
+      "translation": "On dit toujours que la chose qui s'est passée ici a une belle voix ; on ne dit jamais que la chose qui est assise là a une belle voix."
     },
     {
-      "speaker": "Personne B (le professeur)",
-      "text": "Kàŋ, hèɠeheɠelaá dà tɔ̀ɔtɔɔlaa ɓé — mí ɓé è nɛ̌ kɛ̀â ?",
-      "phonetic_api": "/kàŋ hèɣèhèɣèlaá dà tɔ̀ɔtɔɔlaa ɓé mí ɓé è nɛ̌ kɛ̀â/",
-      "phonetic_simple": "kang, hè-ghè-hè-ghè-LAA da to-o-to-o-LAA bé — mi bé è nè kè-â ?",
-      "translation": "Donc, celui qui vient succède à celui qui part — que montre ce proverbe, selon toi ?"
-    },
-    {
-      "speaker": "Personne A (l'étudiant)",
-      "text": "Màáhɔ̀lɔɓó à màaláa mà lî, ɓé mɛ́ni ↓ká hèɠeheɠelaá.",
-      "phonetic_api": "/màáhɔ̀lɔɓó à màaláa mà lî ɓé mɛ́ni ↓ká hèɣèhèɣèlaá/",
-      "phonetic_simple": "ma-a-HO-lo-ɓO a ma-a-LA-a ma lî, bé MÉ-ni ka hè-ghè-hè-ghè-LAA",
-      "translation": "Parce que jadis, la succession appartenait déjà à celui qui vient."
-    },
-    {
-      "speaker": "Personne B (le professeur)",
-      "text": "Máma, mɛ́niê !",
-      "phonetic_api": "/máma mɛ́niê/",
-      "phonetic_simple": "MA-ma MÉ-ni-Ê",
-      "translation": "Merci, mon ami !"
+      "speaker": "L'analyste",
+      "text": "Ɓé kwɛ̀lɛɛ làkwélî hù wɛ̀ɛ ?",
+      "phonetic_api": "/ɓé kwɛ̀lɛɛ làkwélî hù wɛ̀ɛ/",
+      "phonetic_simple": "bé KWÈ-lè-è la-KWÉ-li hou wè-è",
+      "translation": "L'a-t-on aussi enseigné à l'école ?"
     }
   ],
   "cultural_notes": [
-    "La documentation écrite du kpele reste récente : le dictionnaire à l'origine de ce cours, publié grâce à un travail de recherche linguistique approfondi, figure parmi les tout premiers grands textes écrits consacrés entièrement à cette langue.",
-    "L'analyse de textes kpele s'apparente donc davantage à l'étude de la littérature orale (contes, proverbes, discours cérémoniels) qu'à celle d'un corpus écrit classique — une situation partagée par de nombreuses langues d'Afrique subsaharienne à tradition principalement orale.",
-    "Les personnages récurrents comme le chimpanzé (wǒlo) et le lièvre (hɔ̀uwolo), présents à la fois dans les contes et les proverbes, forment un bestiaire symbolique partagé, comparable au rôle du renard ou du corbeau dans les fables occidentales."
+    "Le corpus de contes animaliers guerzé, où l'hyène (hwílêŋ) et le lièvre (hɔ̀uwǒlo) jouent des rôles archétypaux (force brute contre ruse), rejoint une tradition narrative largement partagée en Afrique de l'Ouest (Konoshenko 2019).",
+    "Une orthographe du guerzé a été développée sous le régime de Sékou Touré et enseignée à l'école entre 1968 et 1984, mais elle n'a jamais été largement utilisée pour la publication, ce qui explique la relative rareté des textes littéraires écrits en guerzé aujourd'hui (Konoshenko 2019, introduction)."
   ],
   "exercises": [
     {
       "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Pourquoi la « littérature » kpele est-elle avant tout orale ?",
+      "question": "Quels sont les deux personnages du conte animalier cité par Konoshenko (2019) ?",
       "options": [
-        "Parce que personne ne sait lire",
-        "Parce que le kpele n'a une orthographe stable et enseignée que très récemment",
-        "Parce que l'écriture est interdite",
-        "Ce n'est pas vrai, elle est surtout écrite"
+        "L'hyène et le lièvre",
+        "Le singe et le chimpanzé",
+        "Le porc et le mouton"
       ],
-      "correct_answer": "Parce que le kpele n'a une orthographe stable et enseignée que très récemment",
-      "explanation": "L'histoire récente de la transcription du kpele explique la prédominance de la tradition orale."
+      "correct_answer": "L'hyène et le lièvre",
+      "explanation": "L'exemple attesté « mon conte parle de l'hyène et du lièvre » (hwílêŋ hwúlu dà hɔ̀uwolo ɓâ) le confirme directement."
     },
     {
       "exercise_id": "ex2",
-      "type": "multiple_choice",
-      "question": "Quels sont les deux personnages animaux récurrents des contes et proverbes vus dans ce cours ?",
-      "options": [
-        "Le lion et la gazelle",
-        "Le chimpanzé et le lièvre",
-        "Le porc et le mouton",
-        "Le crocodile et la tortue"
-      ],
-      "correct_answer": "Le chimpanzé et le lièvre",
-      "explanation": "wǒlo (chimpanzé) et hɔ̀uwolo (lièvre) reviennent dans plusieurs textes traditionnels kpele."
-    },
-    {
-      "exercise_id": "ex3",
-      "type": "multiple_choice",
-      "question": "Quelle méthode d'analyse s'applique à un proverbe kpele ?",
-      "options": [
-        "Chercher uniquement le sens littéral",
-        "Distinguer le sens littéral du sens figuré",
-        "Ignorer le contexte culturel",
-        "Traduire mot à mot"
-      ],
-      "correct_answer": "Distinguer le sens littéral du sens figuré",
-      "explanation": "Cette double lecture, déjà pratiquée en Leçon 4, est la clé de l'analyse des textes imagés kpele."
-    },
-    {
-      "exercise_id": "ex4",
-      "type": "multiple_choice",
-      "question": "Combien d'orthographes successives le kpele a-t-il connues, selon ce cours ?",
-      "options": [
-        "Une seule",
-        "Deux",
-        "Trois",
-        "Aucune, il n'a jamais été écrit"
-      ],
-      "correct_answer": "Trois",
-      "explanation": "Une orthographe enseignée de 1968 à 1984, une orthographe officielle de 1989, puis l'orthographe modernisée utilisée dans ce cours."
-    },
-    {
-      "exercise_id": "ex5",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "La formule qui introduit un conte kpele est : « [ ___ ] hwúlu dà ... ɓâ. »",
-      "correct_answer": "Hwílêŋ",
-      "hint": "C'est la forme « mon conte » de kwèlêŋ."
-    },
-    {
-      "exercise_id": "ex6",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "« Lire » se dit littéralement comme « [ ___ ] », le même verbe que « compter ».",
-      "correct_answer": "lónoŋ",
-      "hint": "Ce verbe a deux sens, déjà vu en Débutant Leçon 5."
-    },
-    {
-      "exercise_id": "ex7",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Le discours d'adieu cérémoniel prononcé après la mort du père de famille se dit [ ___ ].",
-      "correct_answer": "pǎma",
-      "hint": "Ce mot a été vu en Avancé Leçon 6."
+      "sentence_with_blank": "[ ___ ] kɛ́ mà zɛ̀ŋ́ hèénì, ŋwòó nɛ̀ɛ̂i. (On ne dit jamais que la chose qui est assise là a une belle voix.)",
+      "correct_answer": "Dìhwá",
+      "hint": "Marqueur négatif habituel, 3PL impersonnel (série VIII du Tableau 10)."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Konoshenko, M. (2019). Dictionnaire kpele de la Guinée (guerzé) – français. Mandenkan 62.",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan62/62konoshenko.pdf"
+    },
+    {
+      "label": "Wikipédia — Kpèllé (langue) / Guerzé",
+      "url": "https://fr.wikipedia.org/wiki/Guerze"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Les extraits de conte et de proverbe long sont directement attestés avec traduction dans Konoshenko (2019) ; le contexte historique de l'alphabet est cité de l'introduction du même ouvrage, mais l'analyse littéraire du proverbe (structure en diptyque) est une interprétation ajoutée par l'auteur de la leçon, non formulée telle quelle dans la source."
 }

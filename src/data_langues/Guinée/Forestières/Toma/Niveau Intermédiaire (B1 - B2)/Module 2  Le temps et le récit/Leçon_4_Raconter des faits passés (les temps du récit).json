@@ -6,128 +6,185 @@
   "lesson_number": 4,
   "title": "Raconter des faits passés (les temps du récit)",
   "learning_objectives": [
-    "Utiliser le suffixe ou le marqueur du passé pour relater un événement",
-    "Structurer une courte histoire ou une action complétée dans le temps"
+    "Distinguer le passé récent et le passé lointain en toma/loma",
+    "Utiliser les suffixes verbaux appropriés pour raconter un événement passé",
+    "Construire un petit récit chronologique simple"
   ],
   "phonetic_focus": {
-    "key_sounds": "Le marqueur du passé modifie la hauteur tonale du verbe, basculant souvent d'un ton moyen à un ton descendant marqué par un étouffement glottal final.",
-    "common_pitfalls": "Ne pas confondre le pronom d'inaccompli avec celui de l'accompli passé dont la voyelle est souvent plus brève et plus fermée."
+    "key_sounds": "Le toma/loma marque le passé récent par un suffixe variable ('-ga'/'-a') et le passé lointain par le suffixe universel '-ni', qui s'ajoute systématiquement au radical verbal, quel que soit le sujet.",
+    "common_pitfalls": "Les francophones confondent souvent passé récent et passé lointain car le français utilise un même passé composé pour les deux ; en toma/loma, il faut choisir consciemment le suffixe adapté à la distance temporelle de l'événement."
   },
   "vocabulary": [
     {
-      "word_id": "v13_1",
-      "term": "woi",
-      "phonetic_api": "/woi/",
-      "phonetic_simple": "WOÏ",
-      "translation": "hier",
-      "example_sentence": "Na li woi galu ma.",
-      "example_phonetic": "/na li woi ɡa.lu ma/",
-      "example_translation": "Hier, je suis allé au marché."
+      "word_id": "v1",
+      "term": "-ni",
+      "phonetic_api": "/-ni/",
+      "phonetic_simple": "-NI",
+      "translation": "Suffixe du passé lointain",
+      "example_sentence": "E liini Zorzor.",
+      "example_phonetic": "/e liːni zɔrzɔr/",
+      "example_translation": "Il est allé à Zorzor (il y a longtemps)."
     },
     {
-      "word_id": "v13_2",
-      "term": "kɛna",
-      "phonetic_api": "/kɛ.na/",
-      "phonetic_simple": "KE-NA",
-      "translation": "faire (au passé) / s'est produit",
-      "example_sentence": "Ta gize kɛna woi.",
-      "example_phonetic": "/ta ɡi.zɛ kɛ.na woi/",
-      "example_translation": "Ils ont dansé hier."
+      "word_id": "v2",
+      "term": "-ga / -a",
+      "phonetic_api": "/-ga/",
+      "phonetic_simple": "-GA",
+      "translation": "Suffixe du passé récent",
+      "example_sentence": "E tenega.",
+      "example_phonetic": "/e teneɡa/",
+      "example_translation": "Il s'est arrêté (récemment)."
     },
     {
-      "word_id": "v13_3",
-      "term": "folo lapatɛ",
-      "phonetic_api": "/fo.lo la.pa.tɛ/",
-      "phonetic_simple": "FO-LO LA-PA-TE",
-      "translation": "la semaine dernière",
-      "example_sentence": "Folo lapatɛ na i ɓepɛ.",
-      "example_phonetic": "/fo.lo la.pa.tɛ na i ɓɛ.pɛ/",
-      "example_translation": "La semaine dernière, je t'ai vu."
+      "word_id": "v3",
+      "term": "Oinaa",
+      "phonetic_api": "/ɔinaː/",
+      "phonetic_simple": "OÏ-NA",
+      "translation": "Hier",
+      "example_sentence": "E napelei loogi oinaa.",
+      "example_phonetic": "/e napelei lɔːgi ɔinaː/",
+      "example_translation": "Il a construit sa maison hier."
     },
     {
-      "word_id": "v13_4",
-      "term": "va-na",
-      "phonetic_api": "/va.na/",
-      "phonetic_simple": "VA-NA",
-      "translation": "être venu",
-      "example_sentence": "Na va-na pɛlɛ zu.",
-      "example_phonetic": "/na va.na pɛ.lɛ zu/",
-      "example_translation": "Je suis venu dans la maison."
+      "word_id": "v4",
+      "term": "Zaa",
+      "phonetic_api": "/zaː/",
+      "phonetic_simple": "ZA",
+      "translation": "Aujourd'hui, maintenant",
+      "example_sentence": "Galii Zozoo zaa.",
+      "example_phonetic": "/galiː zɔzɔː zaː/",
+      "example_translation": "J'irai à Zorzor aujourd'hui."
+    },
+    {
+      "word_id": "v5",
+      "term": "Nina",
+      "phonetic_api": "/nina/",
+      "phonetic_simple": "NI-NA",
+      "translation": "Demain",
+      "example_sentence": "Nalaale nina.",
+      "example_phonetic": "/nalaːle nina/",
+      "example_translation": "Sinon demain."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p13_1",
-      "original": "Mizɛ ɓɛ i kɛna woi?",
-      "phonetic_api": "/mi.zɛ ɓɛ i kɛ.na woi/",
-      "phonetic_simple": "MI-ZE BE I KE-NA WOÏ",
-      "translation": "Qu'as-tu fait hier ?",
-      "context": "Question usuelle pour démarrer un récit sur les événements de la veille."
+      "phrase_id": "p1",
+      "original": "e napelei loogi oinaa.",
+      "phonetic_api": "/e napelei lɔːgi ɔinaː/",
+      "phonetic_simple": "É-NA-PÉ-LÉÏ-LO-O-GUI-OÏ-NA",
+      "translation": "Il a construit sa maison hier.",
+      "context": "Raconter une action achevée récemment."
     },
     {
-      "phrase_id": "p13_2",
-      "original": "Na lina na kêe vɛlɛ ma.",
-      "phonetic_api": "/na li.na na kɛ̂ː vɛ.lɛ ma/",
-      "phonetic_simple": "NA LI-NA NA KEE VE-LE MA",
-      "translation": "Je suis allé chez mon père.",
-      "context": "Réponse décrivant un déplacement révolu."
+      "phrase_id": "p2",
+      "original": "e salEi pilif na, navaama, too saa yaeeyi.",
+      "phonetic_api": "/e saleːi pilif na navaːma tɔː saː jaeːji/",
+      "phonetic_simple": "É-SA-LÉÏ-PI-LIF-NA-NA-VA-A-MA-TO-SA-YA-É-É-YI",
+      "translation": "Il a mis le médicament sur la blessure ; c'est pourquoi elle guérira.",
+      "context": "Récit avec conséquence, reliant passé et futur."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Tinci e tenega, navaama, ga saa galii.",
+      "phonetic_api": "/tinsi e teneɡa navaːma ga saː ɡaliː/",
+      "phonetic_simple": "TIN-SI-É-TÉ-NÉ-GA-NA-VA-A-MA-GA-SA-GA-LI",
+      "translation": "La pluie s'est arrêtée ; donc je vais y aller maintenant.",
+      "context": "Enchaîner un fait passé récent et sa conséquence présente/future."
     }
   ],
   "grammar_points": [
     {
-      "concept": "Le suffixe de l'accompli passé '-na'",
-      "explanation": "Pour exprimer qu'une action est complètement achevée dans le passé, on adjoint fréquemment le suffixe verbal '-na' ou '-ni' directement au radical du verbe.",
+      "concept": "Le passé récent (-ga/-a) et le passé lointain (-ni)",
+      "explanation": "Le toma/loma distingue systématiquement deux passés : le passé récent, marqué par un suffixe variable selon le verbe ('-ga', '-a'), pour des faits proches dans le temps (aujourd'hui, cette semaine) ; et le passé lointain, marqué par le suffixe invariable '-ni', pour des faits plus anciens ou dont la distance temporelle n'est pas pertinente pour le récit.",
       "rules": [
-        "Le radical verbal ne change pas, c'est l'extension qui porte la marque temporelle passé.",
-        "Les adverbes de temps comme 'woi' (hier) peuvent renforcer cette structure mais ne s'y substituent pas."
+        "Radical verbal + -ga/-a = passé récent (aujourd'hui, ce matin).",
+        "Radical verbal + -ni = passé lointain ou passé narratif général.",
+        "Le choix du suffixe dépend de la classe du verbe, comme documenté par Sadler."
       ],
       "examples": [
         {
-          "structure": "li (partir) -> lina (être parti)",
-          "phonetic_api": "/li.na/",
-          "meaning": "est allé / est parti"
+          "structure": "E tenega.",
+          "phonetic_api": "/e teneɡa/",
+          "meaning": "Il s'est arrêté (à l'instant/récemment)."
+        },
+        {
+          "structure": "E liini Zorzor.",
+          "phonetic_api": "/e liːni zɔrzɔr/",
+          "meaning": "Il est allé à Zorzor (passé plus lointain)."
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Tokpa",
-      "text": "Zézé, i lina mini woi folo gaza ma?",
-      "phonetic_api": "/zɛ.zɛ i li.na mi.ni woi fo.lo ɡa.za ma/",
-      "phonetic_simple": "ZE-ZE I LI-NA MI-NI WOÏ FO-LO GA-ZA MA",
-      "translation": "Zézé, où es-tu allé hier après-midi ?"
+      "speaker": "Narrateur 1",
+      "text": "E napelei loogi oinaa.",
+      "phonetic_api": "/e napelei lɔːgi ɔinaː/",
+      "phonetic_simple": "É-NA-PÉ-LÉÏ-LO-O-GUI-OÏ-NA",
+      "translation": "Il a construit sa maison hier."
     },
     {
-      "speaker": "Zézé",
-      "text": "Na lina kɔwɔ-zu taa zu, na mɔlɔ sañna.",
-      "phonetic_api": "/na li.na kɔ.wɔ.zu taː zu na mɔ.lɔ sã.na/",
-      "phonetic_simple": "NA LI-NA KO-WO-ZOU TAA ZOU NA MO-LO SAN-NA",
-      "translation": "Je suis allé à l'est de la ville et j'ai acheté du riz."
+      "speaker": "Narrateur 2",
+      "text": "Navaama Zaa yaa yebili.",
+      "phonetic_api": "/navaːma zaː jaː jebili/",
+      "phonetic_simple": "NA-VA-A-MA-ZA-YA-YÉ-BI-LI",
+      "translation": "C'est pourquoi il peut y dormir aujourd'hui."
+    },
+    {
+      "speaker": "Narrateur 1",
+      "text": "Tinci e tenega, navaama, ga saa galii.",
+      "phonetic_api": "/tinsi e teneɡa navaːma ga saː ɡaliː/",
+      "phonetic_simple": "TIN-SI-É-TÉ-NÉ-GA-NA-VA-A-MA-GA-SA-GA-LI",
+      "translation": "La pluie s'est arrêtée, donc je vais y aller maintenant."
     }
   ],
   "cultural_notes": [
-    "Dans le récit toma, l'évocation du passé fait souvent référence à la saison des pluies (sama) ou à la saison sèche (folo-zu) pour dater des événements plus anciens, plutôt qu'à un calendrier chiffré."
+    "Le récit oral, structuré par cette distinction passé récent/passé lointain, est un art valorisé dans les veillées traditionnelles loma/toma, où les anciens racontent l'histoire du village ou des ancêtres.",
+    "La conjonction 'navaama' (donc/c'est pourquoi) est essentielle pour enchaîner les faits d'un récit avec leurs conséquences logiques."
   ],
   "exercises": [
     {
-      "exercise_id": "ex13_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Que signifie le mot 'woi' en toma ?",
+      "question": "Quel suffixe marque le passé lointain en toma/loma ?",
       "options": [
-        "Demain",
-        "Hier",
-        "Aujourd'hui"
+        "-ni",
+        "-ga",
+        "-zu"
       ],
-      "correct_answer": "Hier",
-      "explanation": "'woi' est l'adverbe temporel désignant exclusivement le jour précédent."
+      "correct_answer": "-ni",
+      "explanation": "Le suffixe '-ni' marque le passé lointain, documenté par Sadler dans son analyse complète du loma."
     },
     {
-      "exercise_id": "ex13_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Na va-[ ___ ] pɛlɛ zu (Je suis venu dans la maison).",
-      "correct_answer": "na",
-      "hint": "Le suffixe requis pour indiquer le passé accompli sur le verbe venir."
+      "sentence_with_blank": "E tene[ ___ ]. (Il s'est arrêté récemment.)",
+      "correct_answer": "ga",
+      "hint": "C'est le suffixe du passé récent."
+    },
+    {
+      "exercise_id": "ex3",
+      "type": "multiple_choice",
+      "question": "Que signifie 'navaama' ?",
+      "options": [
+        "Donc, c'est pourquoi",
+        "Mais",
+        "Ou"
+      ],
+      "correct_answer": "Donc, c'est pourquoi",
+      "explanation": "Attesté dans le manuel Peace Corps sur le Lorma pour relier une cause à sa conséquence."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Wesley Sadler, \"A Complete Analysis of the Lɔɔma Language\", Mandenkan 42 (LLACAN/CNRS)",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan42/sadler.pdf"
+    },
+    {
+      "label": "Dwyer, Bodegie & Bague, \"A Learner Directed Approach to Lorma\" (Peace Corps/Michigan State University, 1981)",
+      "url": "https://files.eric.ed.gov/fulltext/ED247766.pdf"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Le système passé récent/passé lointain est documenté par la grammaire académique de Sadler ; les exemples de récit proviennent du manuel Peace Corps. Le toma de Guinée forestière et le loma/lorma du Libéria (dialecte Gizima) forment un continuum dialectal du même groupe Mande du Sud (Mende-Loma) ; les formes citées ici proviennent des meilleures sources disponibles pour ce continuum linguistique (grammaire de Sadler et manuel Peace Corps de Dwyer), la documentation publiée spécifique au parler de Guinée étant plus rare."
 }

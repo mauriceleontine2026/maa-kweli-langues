@@ -4,136 +4,232 @@
   "module_number": 2,
   "module_title": "Culture, traditions et rhétorique",
   "lesson_number": 5,
-  "title": "Leçon 5 : Débattre, argumenter et défendre un point de vue",
+  "title": "Débattre, argumenter et défendre un point de vue",
   "learning_objectives": [
-    "Défendre une position complexe face à des objections lors d'une assemblée en Mano",
-    "Utiliser le lexique de l'arbitrage, de la contradiction et du débat contradictoire",
-    "Manier les formules de concession rhétorique pour réfuter un argument avec courtoisie"
+    "Structurer une argumentation avec des connecteurs de cause et de conséquence",
+    "Nuancer son propos avec une concession (kálá) avant de renforcer sa position",
+    "Formuler poliment un désaccord dans un registre soutenu"
   ],
   "phonetic_focus": {
-    "key_sounds": "Le débat contradictoire soutenu demande une maîtrise parfaite des contrastes tonaux. Le mot désignant l'objection ou la contestation (/gbà-wɔ̃/) exige une articulation très basse et percutante de la consonne complexe implosive /gbà/.",
-    "common_pitfalls": "En Mano, lors d'une argumentation, hausser le ton ou crier affaiblit la portée du propos. L'insistance se marque par une élévation de ton précise sur la particule de focalisation finale, tout en maintenant un débit posé."
+    "key_sounds": "Dans un débat, le débit s'accélère mais les tons doivent rester précis : une erreur de ton sur des connecteurs comme kálá ou ɓīī peut inverser le sens logique perçu par l'auditoire.",
+    "common_pitfalls": "Enchaîner les arguments sans connecteur explicite, ce qui rend le raisonnement peu clair à l'oral mano — contrairement à certains styles elliptiques du français familier, l'argumentation soutenue mano explicite systématiquement ses connecteurs logiques."
   },
   "vocabulary": [
     {
-      "word_id": "v23_1",
-      "term": "gbà-wɔ̃",
-      "phonetic_api": "/ɡba˩wɔ̃˧/",
-      "phonetic_simple": "GBA-WONG",
-      "translation": "Contestation / Objection / Argument contradictoire",
-      "example_sentence": "Gbà-wɔ̃ se ɓɛ.",
-      "example_phonetic": "/ɡba˩wɔ̃˧ se˧ ɓɛ˧/",
-      "example_translation": "Il n'y a pas d'objection ici."
+      "word_id": "v1",
+      "term": "gèē",
+      "phonetic_api": "/gèē/",
+      "phonetic_simple": "guè-É",
+      "translation": "dire, affirmer",
+      "example_sentence": "Ŋ̄ gèē yē lɛ̄ sɛ̀.",
+      "example_phonetic": "/ŋ̄ gèē jē lɛ̄ sɛ̀/",
+      "example_translation": "Je dis que c'est bien/vrai."
     },
     {
-      "word_id": "v23_2",
-      "term": "dɔ̃-wɔ̃",
-      "phonetic_api": "/dɔ̃˧wɔ̃˧/",
-      "phonetic_simple": "DONG-WONG",
-      "translation": "Vérité historique / Fait avéré / Preuve irréfutable",
-      "example_sentence": "Dɔ̃-wɔ̃ ɓe í la.",
-      "example_phonetic": "/dɔ̃˧wɔ̃˧ ɓe˧ i˦ la˧/",
-      "example_translation": "Tu détiens la vérité (la preuve)."
+      "word_id": "v2",
+      "term": "kálá",
+      "phonetic_api": "/kálá/",
+      "phonetic_simple": "KA-la",
+      "translation": "mais (opposition/concession)",
+      "example_sentence": "Ī wàā lɛ̄ sɛ̀, kálá ŋ̄ gé lī wɔ́.",
+      "example_phonetic": "/ī wàā lɛ̄ sɛ̀, kálá ŋ̄ gé lī wɔ́/",
+      "example_translation": "Ta parole est bonne, mais je ne suis pas d'accord."
     },
     {
-      "word_id": "v23_3",
-      "term": "wɔ̃-gbe-mɛ",
-      "phonetic_api": "/wɔ̃˧ɡbe˧mɛ˧/",
-      "phonetic_simple": "WONG-GBÉ-MÈ",
-      "translation": "Médiateur / Arbitre du débat / Porte-parole officiel",
-      "example_sentence": "Wɔ̃-gbe-mɛ ɓe lē la.",
-      "example_phonetic": "/wɔ̃˧ɡbe˧mɛ˧ ɓe˧ leː˧ la˧/",
-      "example_translation": "Le médiateur est en train de parler."
+      "word_id": "v3",
+      "term": "ɓīī",
+      "phonetic_api": "/ɓīī/",
+      "phonetic_simple": "BI-i",
+      "translation": "parce que (justification d'un argument)",
+      "example_sentence": "Ŋ̄ gé lī wɔ́, ɓīī à wàā wɔ́ sɛ̀.",
+      "example_phonetic": "/ŋ̄ gé lī wɔ́, ɓīī à wàā wɔ́ sɛ̀/",
+      "example_translation": "Je ne suis pas d'accord, parce que sa parole n'est pas juste."
     },
     {
-      "word_id": "v23_4",
-      "term": "kɛ̀ɛ́",
-      "phonetic_api": "/kɛ˩ɛ˦/",
-      "phonetic_simple": "KÈ-É",
-      "translation": "Cependant / Pourtant / Néanmoins (concession)",
-      "example_sentence": "kɛ̀ɛ́ ń vɔ̃ɔ à la.",
-      "example_phonetic": "/kɛ˩ɛ˦ ń vɔ̃ː˧ a˧ la˧/",
-      "example_translation": "Cependant, je m'y oppose."
+      "word_id": "v4",
+      "term": "gé lī",
+      "phonetic_api": "/gé lī/",
+      "phonetic_simple": "gué LI",
+      "translation": "être d'accord, accepter",
+      "example_sentence": "Ŋ̄ gé lī ī wàā là.",
+      "example_phonetic": "/ŋ̄ gé lī ī wàā là/",
+      "example_translation": "Je suis d'accord avec ta parole."
+    },
+    {
+      "word_id": "v5",
+      "term": "wàā",
+      "phonetic_api": "/wàā/",
+      "phonetic_simple": "OUA-a",
+      "translation": "parole, propos, argument",
+      "example_sentence": "Ī wàā lɛ̄ sɛ̀.",
+      "example_phonetic": "/ī wàā lɛ̄ sɛ̀/",
+      "example_translation": "Ton argument est bon."
+    },
+    {
+      "word_id": "v6",
+      "term": "yɔ̄ɔ̄",
+      "phonetic_api": "/jɔ̄ɔ̄/",
+      "phonetic_simple": "YO-o",
+      "translation": "mauvais, faux (pour un argument)",
+      "example_sentence": "Wàā ɓɛ̄ lɛ̄ yɔ̄ɔ̄.",
+      "example_phonetic": "/wàā ɓɛ̄ lɛ̄ jɔ̄ɔ̄/",
+      "example_translation": "Cet argument est mauvais/faux."
+    },
+    {
+      "word_id": "v7",
+      "term": "àmɔ́ɔ̄ŋwɔ̀",
+      "phonetic_api": "/àmɔ́ɔ̄ŋwɔ̀/",
+      "phonetic_simple": "a-MO-o-ngwo",
+      "translation": "donc, par conséquent (conclusion d'un argument)",
+      "example_sentence": "Àmɔ́ɔ̄ŋwɔ̀ ŋ̄ gèē ī wàā wɔ́ sɛ̀.",
+      "example_phonetic": "/àmɔ́ɔ̄ŋwɔ̀ ŋ̄ gèē ī wàā wɔ́ sɛ̀/",
+      "example_translation": "Donc je dis que ton argument n'est pas correct."
+    },
+    {
+      "word_id": "v8",
+      "term": "sɛ̀kɛ̄",
+      "phonetic_api": "/sɛ̀kɛ̄/",
+      "phonetic_simple": "sè-KÊ",
+      "translation": "bien, sérieusement (renforcement de l'énoncé)",
+      "example_sentence": "Ŋ̄ à mɛ̀ sɛ̀kɛ̄.",
+      "example_phonetic": "/ŋ̄ à mɛ̀ sɛ̀kɛ̄/",
+      "example_translation": "Je le comprends bien/sérieusement."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p23_1",
-      "original": "Ń wɔ í gbà-wɔ̃ loni, kɛ̀ɛ́ dɔ̃-wɔ̃ mɛ̀ se sɔ̃́ fɛ̃́.",
-      "phonetic_api": "/ń wɔ˦ i˦ ɡba˩wɔ̃˧ lo˧ni˧ kɛ˩ɛ˦ dɔ̃˧wɔ̃˧ mɛ˩ se˧ sɔ̃˦ fɛ̃˦/",
-      "phonetic_simple": "N WOR EE GBA-WONG LONEE, KÈ-É DONG-WONG MÈ SÉ SONG FENG",
-      "translation": "J'ai entendu ton objection, cependant cette version des faits ne repose pas sur la vérité historique.",
-      "context": "Formule de débat courtoise pour invalider poliment l'argument d'une partie adverse."
+      "phrase_id": "p1",
+      "original": "Ī wàā lɛ̄ sɛ̀, kálá ŋ̄ gé lī wɔ́ sɛ̀kɛ̄.",
+      "phonetic_api": "/ī wàā lɛ̄ sɛ̀, kálá ŋ̄ gé lī wɔ́ sɛ̀kɛ̄/",
+      "phonetic_simple": "i oua-a lê sè, ka-la ng gué li wo sè-kê",
+      "translation": "Ton propos est valable, mais je ne suis vraiment pas d'accord.",
+      "context": "Structure concessive-restrictive typique d'un débat argumenté soutenu."
     },
     {
-      "phrase_id": "p23_2",
-      "original": "Kɛ́ wa se dɔ̃-wɔ̃ lē la, gbà-wɔ̃ le kēe tɔ̃́ la ɓɛ.",
-      "phonetic_api": "/kɛ˦ wa˧ se˧ dɔ̃˧wɔ̃˧ leː˧ la˧ ɡba˩wɔ̃˧ le˧ keː˧ tɔ̃˦ la˧ ɓɛ˧/",
-      "phonetic_simple": "KÉ WA SÉ DONG-WONG LÉ LA, GBA-WONG LÉ KÉÉ TONG LA BÈ",
-      "translation": "Si nous ne disons pas la vérité, la contestation durera indéfiniment ici.",
-      "context": "Mettre en garde l'assemblée contre un manque de transparence lors d'une négociation."
+      "phrase_id": "p2",
+      "original": "Ŋ̄ gé lī wɔ́, ɓīī à wàā wɔ́ sɛ̀.",
+      "phonetic_api": "/ŋ̄ gé lī wɔ́, ɓīī à wàā wɔ́ sɛ̀/",
+      "phonetic_simple": "ng gué li wo, bi-i a oua-a wo sè",
+      "translation": "Je ne suis pas d'accord, parce que son propos n'est pas juste.",
+      "context": "Justification explicite d'un désaccord avec ɓīī."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Àmɔ́ɔ̄ŋwɔ̀ ŋ̄ gèē ī wàā wɔ́ sɛ̀.",
+      "phonetic_api": "/àmɔ́ɔ̄ŋwɔ̀ ŋ̄ gèē ī wàā wɔ́ sɛ̀/",
+      "phonetic_simple": "a-mo-o-ngwo ng guè-è i oua-a wo sè",
+      "translation": "Donc je dis que ton argument n'est pas correct.",
+      "context": "Conclusion logique d'une argumentation avec àmɔ́ɔ̄ŋwɔ̀."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Ŋ̄ gé lī ī wàā là kpáŋ́, kálá séŋ́ wɔ́.",
+      "phonetic_api": "/ŋ̄ gé lī ī wàā là kpáŋ́, kálá séŋ́ wɔ́/",
+      "phonetic_simple": "ng gué li i oua-a la kpang, ka-la séng wo",
+      "translation": "Je suis d'accord avec une partie de ton propos, mais pas avec tout.",
+      "context": "Nuance fine entre accord partiel et désaccord total, typique du registre argumentatif avancé."
     }
   ],
   "grammar_points": [
     {
-      "concept": "La concession argumentative et la restriction d'autorité 'sɔ̃́ fɛ̃́'",
-      "explanation": "Pour mener un débat d'idées de niveau avancé, le Mano utilise la conjonction restrictive 'kɛ̀ɛ́' (pourtant/mais) portant un ton modulé bas-haut. Pour asseoir définitivement un point de vue ou un argument de droit, on utilise la locution postpositionnelle d'autorité 'sɔ̃́ fɛ̃́' (sur la base du droit) en fin de proposition.",
+      "concept": "Structurer une concession suivie d'une réfutation (kálá + ɓīī)",
+      "explanation": "Un argument de haut niveau en mano reconnaît d'abord la validité partielle du propos adverse (concession introduite ou suivie de kálá 'mais'), avant d'opposer un contre-argument justifié par ɓīī ('parce que'), puis de conclure avec àmɔ́ɔ̄ŋwɔ̀ ('donc'). Cette structure en trois temps est la charpente rhétorique standard du débat argumenté.",
       "rules": [
-        "Structure concessive : [Argument admis] + kɛ̀ɛ́ + [Réfutation contradictoire].",
-        "Focalisation factuelle : [Sujet/Fait] + ɓe (être) + sɔ̃́ fɛ̃́ (conforme au droit)."
+        "Concession : Reconnaissance de l'argument adverse + kálá",
+        "Réfutation : Position personnelle + ɓīī + justification",
+        "Conclusion : àmɔ́ɔ̄ŋwɔ̀ + reformulation de la position défendue"
       ],
       "examples": [
         {
-          "structure": "Ń wɔ à loni, kɛ̀ɛ́ ń vɔ̃ɔ.",
-          "phonetic_api": "/ń wɔ˦ a˧ lo˧ni˧ kɛ˩ɛ˦ ń vɔ̃ː˧/",
-          "meaning": "J'ai bien entendu, pourtant je refuse."
+          "structure": "Ī wàā lɛ̄ sɛ̀, kálá ŋ̄ gé lī wɔ́ sɛ̀kɛ̄.",
+          "phonetic_api": "/ī wàā lɛ̄ sɛ̀, kálá ŋ̄ gé lī wɔ́ sɛ̀kɛ̄/",
+          "meaning": "Ton propos est valable, mais je ne suis vraiment pas d'accord."
         },
         {
-          "structure": "Wɔ̃́ mɛ̀ ɓe sɔ̃́ fɛ̃́.",
-          "phonetic_api": "/wɔ̃˦ mɛ˦ ɓe˧ sɔ̃˦ fɛ̃˦/",
-          "meaning": "Cette parole est tout à fait juste et légitime."
+          "structure": "Àmɔ́ɔ̄ŋwɔ̀ ŋ̄ gèē ī wàā wɔ́ sɛ̀.",
+          "phonetic_api": "/àmɔ́ɔ̄ŋwɔ̀ ŋ̄ gèē ī wàā wɔ́ sɛ̀/",
+          "meaning": "Donc je dis que ton argument n'est pas correct."
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Le Contradicteur",
-      "text": "Ń de, gbà-wɔ̃ mɛ̀ gbɛ̃́ ɓe wa la à fɛ̃́. À sɔ̃̀ se sɔ̃́ fɛ̃́.",
-      "phonetic_api": "/ń de˧ ɡba˩wɔ̃˧ mɛ˩ ɡbɛ̃˦ ɓe˧ wa˧ la˧ a˧ fɛ̃˦ a˧ sɔ̃˩ se˧ sɔ̃˦ fɛ̃˦/",
-      "phonetic_simple": "N DÉ, GBA-WONG MÈ GBENG BÉ WA LA A FENG. A SONG SÉ SONG FENG.",
-      "translation": "Mon aîné, une grande contestation pèse sur nous à ce sujet. Son prix n'est pas conforme à la justice traditionnelle."
+      "speaker": "Débatteur 1",
+      "text": "Kɛ̄-pɛ̀lɛ̀ dɛ̄ɛ̄ lɛ̄ sɛ̀ pɛ̄lɛ̄í bà.",
+      "phonetic_api": "/kɛ̄-pɛ̀lɛ̀ dɛ̄ɛ̄ lɛ̄ sɛ̀ pɛ̄lɛ̄í bà/",
+      "phonetic_simple": "kê-pè-lè dè-è lê sè pè-lè-i ba",
+      "translation": "Ce nouveau projet est bon pour le village."
     },
     {
-      "speaker": "Le Médiateur",
-      "text": "Mɛ-gbɛ̃́-yɔ̀, á wɔ̃ loni. Wa ka dɔ̃-wɔ̃ lē la. Kɛ́ wa kɛ à ɓe, gbà-wɔ̃ le bɔ wa mĩ́.",
-      "phonetic_api": "/mɛ˧gɓɛ̃˦jɔ˩ a˦ wɔ̃˧ lo˧ni˧ wa˧ ka˧ dɔ̃˧wɔ̃˧ leː˧ la˧ kɛ˦ wa˧ kɛ˧ a˧ ɓe˧ ɡba˩wɔ̃˧ le˧ ɓɔ˧ wa˧ mĩ˦/",
-      "phonetic_simple": "MÈ-GBENG-YOR, A WONG LONEE. WA KAH DONG-WONG LÉ LA. KÉ WA KÈ A BÉ, GBA-WONG LÉ BOR WA MEENG.",
-      "translation": "Honorables notables, écoutez la parole. Nous devons dire la vérité historique. Si nous faisons ainsi, la contestation s'éloignera de nous."
+      "speaker": "Débatteur 2",
+      "text": "Ī wàā lɛ̄ sɛ̀, kálá ŋ̄ gé lī wɔ́ sɛ̀kɛ̄, ɓīī wɛ́lì wɔ́ kō ɓɛ̄.",
+      "phonetic_api": "/ī wàā lɛ̄ sɛ̀, kálá ŋ̄ gé lī wɔ́ sɛ̀kɛ̄, ɓīī wɛ́lì wɔ́ kō ɓɛ̄/",
+      "phonetic_simple": "i oua-a lê sè, ka-la ng gué li wo sè-kê, bi-i oué-li wo ko bè",
+      "translation": "Ton propos est valable, mais je ne suis vraiment pas d'accord, car nous n'avons pas d'argent."
+    },
+    {
+      "speaker": "Débatteur 1",
+      "text": "Àmɔ́ɔ̄ŋwɔ̀ íì gèē mɛ̀ɛ̄?",
+      "phonetic_api": "/àmɔ́ɔ̄ŋwɔ̀ íì gèē mɛ̀ɛ̄/",
+      "phonetic_simple": "a-mo-o-ngwo i-i guè-è mè-è",
+      "translation": "Donc que proposes-tu ?"
+    },
+    {
+      "speaker": "Débatteur 2",
+      "text": "Kò là wè gèē yíílà kɔ̀ɔ̄.",
+      "phonetic_api": "/kò là wè gèē jíílà kɔ̀ɔ̄/",
+      "phonetic_simple": "ko la ouè guè-é yi-i-la ko-o",
+      "translation": "Que nous en discutions/négocions d'abord ensemble."
     }
   ],
   "cultural_notes": [
-    "Dans les réunions villageoises et les arbitrages en Guinée Forestière, l'art de débattre et d'argumenter ('gbà-wɔ̃') obéit à une stricte courtoisie. Un bon orateur sait reconnaître la valeur de l'argument de son opposant à l'aide de connecteurs comme 'kɛ̀ɛ́' avant de déployer ses propres preuves irréfutables ('dɔ̃-wɔ̃'). Le but final du débat n'est pas l'écrasement de l'autre, mais le rétablir de l'harmonie sociale."
+    "Les palabres villageoises (assemblées de discussion communautaire) constituent le cadre traditionnel privilégié pour le débat argumenté en pays mano, où la parole des aînés (dɔ̄mì) et le respect des tours de parole structurent fortement l'échange.",
+    "La concession rhétorique (reconnaître un point valable chez l'interlocuteur avant de le contester) est une figure de politesse discursive valorisée, permettant de maintenir l'harmonie sociale tout en défendant fermement sa position."
   ],
   "exercises": [
     {
-      "exercise_id": "ex23_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel terme Mano désigne l'argument opposé, la contestation ou l'objection lors d'un débat ?",
+      "question": "Quelle structure rhétorique est recommandée pour un débat de haut niveau en mano ?",
       "options": [
-        "dɔ̃-wɔ̃",
-        "gbà-wɔ̃",
-        "wɔ̃-gbe-mɛ"
+        "Affirmation directe sans nuance",
+        "Concession (kálá) puis réfutation justifiée (ɓīī) puis conclusion (àmɔ́ɔ̄ŋwɔ̀)",
+        "Uniquement des questions rhétoriques"
       ],
-      "correct_answer": "gbà-wɔ̃",
-      "explanation": "'gbà-wɔ̃' qualifie formellement la parole contradictoire ou la contestation soulevée."
+      "correct_answer": "Concession (kálá) puis réfutation justifiée (ɓīī) puis conclusion (àmɔ́ɔ̄ŋwɔ̀)",
+      "explanation": "Cette structure en trois temps reconnaît la validité partielle de l'argument adverse avant d'opposer et de justifier un contre-argument, puis de conclure."
     },
     {
-      "exercise_id": "ex23_2",
+      "exercise_id": "ex2",
+      "type": "multiple_choice",
+      "question": "Comment dit-on 'je ne suis pas d'accord' en mano ?",
+      "options": [
+        "Ŋ̄ gé lī.",
+        "Ŋ̄ gé lī wɔ́.",
+        "Ŋ̄ à mɛ̀."
+      ],
+      "correct_answer": "Ŋ̄ gé lī wɔ́.",
+      "explanation": "gé lī signifie 'être d'accord' ; la particule négative wɔ́ inverse le sens en 'ne pas être d'accord'."
+    },
+    {
+      "exercise_id": "ex3",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Pour introduire un fait avéré ou une preuve irréfutable, on emploie le terme : [ ___ ].",
-      "correct_answer": "dɔ̃-wɔ̃",
-      "hint": "C'est la parole de vérité ou le fait solidement établi."
+      "sentence_with_blank": "Ī wàā lɛ̄ sɛ̀, [ ___ ] ŋ̄ gé lī wɔ́ sɛ̀kɛ̄. (Ton propos est valable, mais je ne suis vraiment pas d'accord.)",
+      "correct_answer": "kálá",
+      "hint": "kálá signifie 'mais', introduisant ici la concession suivie du désaccord."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Khachaturyan, M. (2015) Grammaire du mano, Mandenkan 54, LLACAN/CNRS",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan54/54khachaturyan.pdf"
+    },
+    {
+      "label": "Khachaturyan, M., Carbo, M., Mamy, P. (2022) Dictionnaire mano-français, Mandenkan 67, LLACAN/CNRS",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan67/67mano_dict_all.pdf"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Les connecteurs logiques (kálá, ɓīī, àmɔ́ɔ̄ŋwɔ̀) et le lexique de l'accord/désaccord (gé lī, wàā) sont attestés dans les sources académiques ; les phrases complètes de débat argumenté ont été composées par combinaison de ces éléments attestés, faute de corpus dédié au débat contradictoire dans les sources consultées — à valider idéalement auprès d'un locuteur natif pour l'idiomaticité complète."
 }

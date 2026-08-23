@@ -1,139 +1,203 @@
 {
   "lesson_id": "B1_M1_L3",
-  "level": "Niveau Intermédiaire (B1-B2)",
+  "level": "Intermédiaire (B1-B2)",
   "module_number": 1,
   "module_title": "Exprimer ses idées et son environnement",
   "lesson_number": 3,
   "title": "Exprimer ses goûts, ses préférences et ses sentiments",
   "learning_objectives": [
-    "Dire ce que l'on aime et ce que l'on déteste en kissi",
-    "Exprimer une préférence claire entre deux choix",
-    "Partager un état d'esprit émotionnel simple (joie, tristesse)"
+    "Utiliser les termes attestés pour exprimer un jugement positif ou négatif (bendaa, fisaa, kendé-)",
+    "Employer le vocabulaire des sentiments attesté (yáá = faim; peur/crainte via siòòŋii)",
+    "Construire des phrases évaluatives simples avec la copule ndu"
   ],
   "phonetic_focus": {
-    "key_sounds": "Le verbe 'phee' (aimer / préférer) possède une voyelle longue tendue /eː/. Le terme 'kɔ̄l' (cœur / sentiment) demande une prononciation claire de la consonne liquide latérale /l/.",
-    "common_pitfalls": "Attention à la longueur vocalique de 'phee'. Si la voyelle est raccourcie involontairement, le mot peut être mal compris par les locuteurs natifs."
+    "key_sounds": "Le verbe 'bendaa' (être agréable, plaire) associe la nasale finale -aa longue, à ne pas raccourcir en français.",
+    "common_pitfalls": "Les francophones abrègent souvent -aa final en un simple -a bref, ce qui peut modifier la perception du mot par un locuteur natif."
   },
   "vocabulary": [
     {
-      "word_id": "v12_1",
-      "term": "phee",
-      "phonetic_api": "/pʰeː/",
-      "phonetic_simple": "PHÉÉ",
-      "translation": "aimer / désirer / agréer",
-      "example_sentence": "I phee biyɛ fiaa.",
-      "example_phonetic": "/i pʰeː bi.jɛ fjaː/",
-      "example_translation": "J'aime beaucoup le riz."
+      "word_id": "v1",
+      "term": "bendaa",
+      "phonetic_api": "/bendaː/",
+      "phonetic_simple": "bèn-daa",
+      "translation": "être agréable, plaire, convenir",
+      "example_sentence": "Ndu bendaa yá.",
+      "example_phonetic": "/ndu bendaː ja/",
+      "example_translation": "Cela me plaît."
     },
     {
-      "word_id": "v12_2",
-      "term": "kɔ̄l",
-      "phonetic_api": "/kɔ̄l/",
-      "phonetic_simple": "KOL",
-      "translation": "cœur / siège des sentiments",
-      "example_sentence": "Kɔ̄l nio o co kpou.",
-      "example_phonetic": "/kɔ̄l njo o tʃo kpu/",
-      "example_translation": "Mon cœur va bien (Je suis joyeux)."
+      "word_id": "v2",
+      "term": "fisaa",
+      "phonetic_api": "/fisaː/",
+      "phonetic_simple": "fi-saa",
+      "translation": "être meilleur, être mieux",
+      "example_sentence": "Ndu fisaa.",
+      "example_phonetic": "/ndu fisaː/",
+      "example_translation": "C'est meilleur."
     },
     {
-      "word_id": "v12_3",
-      "term": "le",
-      "phonetic_api": "/le/",
-      "phonetic_simple": "LÉ",
-      "translation": "particule de négation (ne... pas)",
-      "example_sentence": "I phee ni le.",
-      "example_phonetic": "/i pʰeː ni le/",
-      "example_translation": "Je n'aime pas ça."
+      "word_id": "v3",
+      "term": "kendé-",
+      "phonetic_api": "/kende/",
+      "phonetic_simple": "kèn-dé",
+      "translation": "bon, bien, beau, appréciable",
+      "example_sentence": "Ndu kendé.",
+      "example_phonetic": "/ndu kende/",
+      "example_translation": "C'est bon/beau."
+    },
+    {
+      "word_id": "v4",
+      "term": "yáá",
+      "phonetic_api": "/jaː/",
+      "phonetic_simple": "yaa",
+      "translation": "faim (sentiment de faim)",
+      "example_sentence": "Yá yáá ndu wo.",
+      "example_phonetic": "/ja jaː ndu wo/",
+      "example_translation": "J'ai faim (littéralement, ma faim est là)."
+    },
+    {
+      "word_id": "v5",
+      "term": "yogaa",
+      "phonetic_api": "/jogaː/",
+      "phonetic_simple": "yo-gaa",
+      "translation": "fierté, orgueil, se vanter",
+      "example_sentence": "Ndu yogaa.",
+      "example_phonetic": "/ndu jogaː/",
+      "example_translation": "Il/elle est fier(e) (ou se vante)."
+    },
+    {
+      "word_id": "v6",
+      "term": "haklɔ",
+      "phonetic_api": "/haklɔ/",
+      "phonetic_simple": "ha-klô",
+      "translation": "pardon, regret, tristesse liée à une faute",
+      "example_sentence": "Yá haklɔ.",
+      "example_phonetic": "/ja haklɔ/",
+      "example_translation": "J'ai des regrets/je demande pardon."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p12_1",
-      "original": "I phee gbalɔ pɔndɔ.",
-      "phonetic_api": "/i pʰeː g͡ba.lɔ pɔ.ⁿdɔ/",
-      "phonetic_simple": "I PHÉÉ GBA-LO PON-DO",
-      "translation": "Je préfère le vêtement blanc.",
-      "context": "Exprimer un goût ou choix"
+      "phrase_id": "p1",
+      "original": "Ndu bendaa yá.",
+      "phonetic_api": "/ndu bendaː ja/",
+      "phonetic_simple": "ndou bèn-daa ya",
+      "translation": "Cela me plaît.",
+      "context": "Pour exprimer une préférence positive."
     },
     {
-      "phrase_id": "p12_2",
-      "original": "I phee ciao lo le.",
-      "phonetic_api": "/i pʰeː tʃja.o lo le/",
-      "phonetic_simple": "I PHÉÉ TCHIA-O LO LÉ",
-      "translation": "Je n'aime pas aller au marché.",
-      "context": "Exprimer une aversion"
+      "phrase_id": "p2",
+      "original": "Ndu fisaa yá.",
+      "phonetic_api": "/ndu fisaː ja/",
+      "phonetic_simple": "ndou fi-saa ya",
+      "translation": "Cela est meilleur pour moi / je préfère cela.",
+      "context": "Pour comparer deux choses et exprimer une préférence."
     },
     {
-      "phrase_id": "p12_3",
-      "original": "Kɔ̄l nio o co fiaa.",
-      "phonetic_api": "/kɔ̄l njo o tʃo fjaː/",
-      "phonetic_simple": "KOL NYO O TCHO FIA-A",
-      "translation": "Je suis extrêmement heureux.",
-      "context": "Exprimer la joie"
+      "phrase_id": "p3",
+      "original": "Yá yáá ndu wo.",
+      "phonetic_api": "/ja jaː ndu wo/",
+      "phonetic_simple": "ya yaa ndou wo",
+      "translation": "J'ai faim.",
+      "context": "Pour exprimer un besoin/sentiment physique."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Maanuu, yá haklɔ.",
+      "phonetic_api": "/maːnuː ja haklɔ/",
+      "phonetic_simple": "maa-nou, ya ha-klô",
+      "translation": "Je suis désolé(e), j'ai des regrets.",
+      "context": "Pour exprimer un sentiment de regret ou de tristesse."
     }
   ],
   "grammar_points": [
     {
-      "concept": "La construction de la préférence avec 'phee'",
-      "explanation": "Le verbe 'phee' exprime directement l'amour, l'appréciation ou la préférence. Il se conjugue de manière directe sans nécessiter d'indice aspectuel lourd à la forme affirmative.",
+      "concept": "Verbes d'état pour exprimer une appréciation",
+      "explanation": "Le kissi utilise des verbes d'état comme 'bendaa' (être agréable/plaire) et 'fisaa' (être meilleur) qui fonctionnent comme des prédicats évaluatifs, souvent complétés par un pronom bénéficiaire (yá = à moi) pour préciser à qui la chose plaît, selon la structure documentée par Sarah Rose (synthèse de Childs, 1995) sur les extensions verbales bénéfactives.",
       "rules": [
-        "Le sujet précède immédiatement le verbe 'phee'.",
-        "L'objet aimé ou l'action appréciée se place directement après le verbe."
+        "[chose] + bendaa/fisaa + [pronom] = [chose] plaît/est meilleure pour [pronom]",
+        "yáá (faim) fonctionne grammaticalement comme un nom sujet avec le verbe 'être là' (wo) plutôt que comme un adjectif.",
+        "Le préfixe possessif 'yá' (mon/ma/à moi) précède le nom du sentiment ressenti."
       ],
       "examples": [
         {
-          "structure": "Sujet + phee + Objet",
-          "phonetic_api": "/i pʰeː bi.jɛ/",
-          "meaning": "J'aime le riz."
+          "structure": "ndu bendaa + [pronom]",
+          "phonetic_api": "/ndu bendaː .../",
+          "meaning": "cela plaît à [pronom]"
+        },
+        {
+          "structure": "yá + [sentiment] + ndu wo",
+          "phonetic_api": "/ja ... ndu wo/",
+          "meaning": "j'ai [sentiment] (littéralement mon [sentiment] est là)"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Sia",
-      "text": "Tamba, o phee mɛŋ mɛl ?",
-      "phonetic_api": "/ta.ᵐba o pʰeː mɛ̃ mɛl/",
-      "phonetic_simple": "TAM-BA, O PHÉÉ MENG MEL ?",
-      "translation": "Tamba, aimes-tu boire de l'eau ?"
+      "speaker": "Fanta",
+      "text": "Ndu bendaa yá, mló waa suuwo.",
+      "phonetic_api": "/ndu bendaː ja mlo waː suːwo/",
+      "phonetic_simple": "ndou bèn-daa ya, mlo wa sou-wo",
+      "translation": "J'aime ça, le riz et le poisson."
     },
     {
-      "speaker": "Tamba",
-      "text": "Haa, i phee mɛŋ mɛl fiaa. Et ɔn ?",
-      "phonetic_api": "/haː i pʰeː mɛ̃ mɛl fjaː ɛt ɔn/",
-      "phonetic_simple": "HAA, I PHÉÉ MENG MEL FIA-A. ET ON ?",
-      "translation": "Oui, j'aime beaucoup boire de l'eau. Et toi ?"
+      "speaker": "Ousmane",
+      "text": "Yá yáá ndu wo waa!",
+      "phonetic_api": "/ja jaː ndu wo waː/",
+      "phonetic_simple": "ya yaa ndou wo wa",
+      "translation": "J'ai faim aussi !"
     },
     {
-      "speaker": "Sia",
-      "text": "I phee mɛŋ le, biyɛ i phee ni.",
-      "phonetic_api": "/i pʰeː mɛ̃ le bi.jɛ i pʰeː ni/",
-      "phonetic_simple": "I PHÉÉ MENG LÉ, BI-YÈ I PHÉÉ NI",
-      "translation": "Je n'aime pas l'eau, c'est le riz que j'aime."
+      "speaker": "Fanta",
+      "text": "Ndu fisaa dio kpede.",
+      "phonetic_api": "/ndu fisaː djo kpede/",
+      "phonetic_simple": "ndou fi-saa djo kpé-dé",
+      "translation": "Il est meilleur de manger tout de suite."
+    },
+    {
+      "speaker": "Ousmane",
+      "text": "Naam, ndu kendé.",
+      "phonetic_api": "/naːm ndu kende/",
+      "phonetic_simple": "naam, ndou kèn-dé",
+      "translation": "Oui, c'est bien/bon."
     }
   ],
   "cultural_notes": [
-    "Dans l'expression des sentiments en kissi, le 'cœur' ('kɔ̄l') est le centre spirituel et physique de toutes les émotions. Pour dire qu'on est en colère ou triste, on utilisera des métaphores liées à l'état ou à la température du cœur."
+    "Le sentiment de 'haklɔ' (regret, pardon) recouvre à la fois la faute et la tristesse qui l'accompagne, ce qui illustre une conception où l'aspect moral et l'aspect émotionnel d'un sentiment ne sont pas nettement séparés dans le lexique kissi documenté par Childs.",
+    "Exprimer sa faim (yáá) directement et sans détour est socialement acceptable dans le contexte convivial kissi, où le partage du repas de riz (mló) occupe une place centrale, comme le souligne Denise Paulme."
   ],
   "exercises": [
     {
-      "exercise_id": "ex12_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Que signifie la phrase 'I phee ni le' ?",
+      "question": "Que signifie 'bendaa' ?",
       "options": [
-        "J'aime beaucoup cela",
-        "Je n'aime pas cela",
-        "Je veux cela"
+        "être agréable, plaire",
+        "avoir faim",
+        "être fier"
       ],
-      "correct_answer": "Je n'aime pas cela",
-      "explanation": "La présence de la particule 'le' en fin de phrase transforme l'affirmation en négation totale."
+      "correct_answer": "être agréable, plaire",
+      "explanation": "Attesté dans la synthèse de Sarah Rose sur la grammaire de Childs (1995)."
     },
     {
-      "exercise_id": "ex12_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "[ ___ ] nio o co kpou. (Je suis heureux / Mon cœur va bien)",
-      "correct_answer": "Kɔ̄l",
-      "hint": "L'organe symbolique des émotions en kissi"
+      "sentence_with_blank": "Yá [ ___ ] ndu wo. (J'ai faim.)",
+      "correct_answer": "yáá",
+      "hint": "Mot attesté par Sarah Rose pour « faim »."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Sarah Rose, « Kisi » (chapitre synthétisant Childs 1995), Memorial University of Newfoundland",
+      "url": "https://www.mun.ca/linguistics/media/production/memorial/academic/faculty-of-humanities-and-social-sciences/linguistics/media-library/more/e-books/Kisi_Chapter_Sixteen_Sarah_Rose.pdf"
+    },
+    {
+      "label": "G. Tucker Childs, « Borrowings into Kisi as Evidence of Mande Expansionism and Influence », Journal of West African Languages 29-2 (2002)",
+      "url": "https://scispace.com/pdf/borrowings-into-kisi-as-evidence-of-mande-expansionism-and-3zquof59kt.pdf"
+    }
+  ],
+  "confidence": "faible",
+  "confidence_note": "Les verbes d'état (bendaa, fisaa, haklɔ, yogaa) et le nom 'yáá' (faim) sont attestés par la synthèse académique de Sarah Rose sur la grammaire de Childs ; la construction précise des phrases (place du pronom bénéficiaire) est déduite par analogie avec les extensions verbales décrites dans cette même source, sans exemple de phrase complète directement attesté pour ce thème précis."
 }

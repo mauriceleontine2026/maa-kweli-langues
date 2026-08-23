@@ -4,208 +4,240 @@
   "module_number": 1,
   "module_title": "Les bases de la communication",
   "lesson_number": 1,
-  "title": "Les salutations et les formules de politesse",
+  "title": "Les salutations et les formules de politesse (bonjour, merci, au revoir)",
   "learning_objectives": [
-    "Savoir saluer selon le moment de la journée en kono",
-    "Exprimer la gratitude et prendre congé poliment"
+    "Saluer une personne ou un groupe selon le moment de la journée en kono",
+    "Remercier poliment un interlocuteur",
+    "Répondre correctement à une salutation"
   ],
   "phonetic_focus": {
-    "key_sounds": "La langue kono possède des tons contrastifs (haut et bas) et des consonnes labio-vélaires complexes comme /ɡɓ/ et /kp/. Les voyelles suivies d'une marque nasale /ŋ/ résonnent dans le nez.",
-    "common_pitfalls": "Attention à ne pas prononcer le 'e' final à la française comme un 'e' muet. En kono, chaque voyelle écrite doit être pleinement articulée."
+    "key_sounds": "Le kono possède des tons hauts (H) et bas (L) qui changent le sens des mots ; il faut aussi distinguer les voyelles nasales (ɛ̰, ɔ̰) des voyelles orales, essentielles dans les salutations comme kpɛɛ̰̀.",
+    "common_pitfalls": "Les francophones ont tendance à ignorer les tons et à prononcer les voyelles nasales comme des voyelles orales, ce qui peut rendre la phrase incomprise ou en changer le sens."
   },
   "vocabulary": [
     {
-      "word_id": "v1_1",
-      "term": "Enté",
-      "phonetic_api": "/ẽtē/",
-      "phonetic_simple": "EN-TE",
-      "translation": "Bonjour / Salut (général)",
-      "example_sentence": "Enté, í kɛ́nɛ̀?",
-      "example_phonetic": "/ẽtē í kɛ́nɛ̀/",
-      "example_translation": "Salut, tu vas bien ?"
+      "word_id": "v1",
+      "term": "Ɓaà ŋúŋ?",
+      "phonetic_api": "/ɓaː ŋúŋ/",
+      "phonetic_simple": "BAA-NOUNG",
+      "translation": "Bonjour ! (à une personne, litt. « tu t'es réveillé ? »)",
+      "example_sentence": "Ɓaà ŋúŋ, Hɛ́ni?",
+      "example_phonetic": "/ɓaː ŋúŋ hɛ́ni/",
+      "example_translation": "Bonjour Hɛni, tu t'es réveillé ?"
     },
     {
-      "word_id": "v1_2",
-      "term": "Séé-séé",
-      "phonetic_api": "/séːséː/",
-      "phonetic_simple": "SEE-SEE",
-      "translation": "Merci",
-      "example_sentence": "Séé-séé, í nì kɛ́nɛ̀.",
-      "example_phonetic": "/séːséː í nì kɛ́nɛ̀/",
-      "example_translation": "Merci, tu es gentil."
+      "word_id": "v2",
+      "term": "É yíí kpɛɛ̰̀?",
+      "phonetic_api": "/é jíː kpɛ̰̀ɛ̰̀/",
+      "phonetic_simple": "É-YII-KPÈN",
+      "translation": "Bonjour ! (litt. « tu as bien dormi ? »)",
+      "example_sentence": "É yíí kpɛɛ̰̀?",
+      "example_phonetic": "/é jíː kpɛ̰̀ɛ̰̀/",
+      "example_translation": "As-tu bien dormi ?"
     },
     {
-      "word_id": "v1_3",
-      "term": "Hɛ́ɛ̀",
-      "phonetic_api": "/hɛ́ːɛ̀/",
-      "phonetic_simple": "HEE",
-      "translation": "Oui",
-      "example_sentence": "Hɛ́ɛ̀, ǹ kɛ́nɛ̀.",
-      "example_phonetic": "/hɛ́ːɛ̀ ŋ̀ kɛ́nɛ̀/",
-      "example_translation": "Oui, je vais bien."
+      "word_id": "v3",
+      "term": "É túga!",
+      "phonetic_api": "/é túɡá/",
+      "phonetic_simple": "É-TOUGA",
+      "translation": "Bon après-midi ! (à une personne)",
+      "example_sentence": "É túga, Bala!",
+      "example_phonetic": "/é túɡá bala/",
+      "example_translation": "Bon après-midi, Bala !"
     },
     {
-      "word_id": "v1_4",
-      "term": "Ǹ-ɔ́ɔ̀",
-      "phonetic_api": "/ǹɔ́ːɔ̀/",
-      "phonetic_simple": "N-OO",
-      "translation": "Non",
-      "example_sentence": "Ǹ-ɔ́ɔ̀, í mà kɛ́nɛ̀.",
-      "example_phonetic": "/ǹɔ́ːɔ̀ í mà kɛ́nɛ̀/",
-      "example_translation": "Non, tu ne vas pas bien."
+      "word_id": "v4",
+      "term": "Ka túgâ",
+      "phonetic_api": "/ka túɡâ/",
+      "phonetic_simple": "KA-TOUGA",
+      "translation": "Bon après-midi ! (à plusieurs personnes)",
+      "example_sentence": "Ka túgâ, ma ŕaŋaà!",
+      "example_phonetic": "/ka túɡâ maɾaŋaː/",
+      "example_translation": "Bon après-midi à vous, mes amis !"
     },
     {
-      "word_id": "v1_5",
-      "term": "Mámá",
-      "phonetic_api": "/mámá/",
-      "phonetic_simple": "MA-MA",
-      "translation": "S'il te plaît / S'il vous plaît",
-      "example_sentence": "Mámá, ń nɛ̀ nì.",
-      "example_phonetic": "/mámá ń nɛ̀ nì/",
-      "example_translation": "S'il te plaît, aide-moi."
+      "word_id": "v5",
+      "term": "É máma!",
+      "phonetic_api": "/é mámá/",
+      "phonetic_simple": "É-MAMA",
+      "translation": "Merci ! (à une personne)",
+      "example_sentence": "É máma é hɛɣɛ!",
+      "example_phonetic": "/é mámá é hɛɣɛ/",
+      "example_translation": "Merci beaucoup !"
+    },
+    {
+      "word_id": "v6",
+      "term": "Ka máma!",
+      "phonetic_api": "/ka mámá/",
+      "phonetic_simple": "KA-MAMA",
+      "translation": "Merci ! (à plusieurs personnes)",
+      "example_sentence": "Ka máma ka hɛɣɛ!",
+      "example_phonetic": "/ka mámá ka hɛɣɛ/",
+      "example_translation": "Merci beaucoup à vous tous !"
+    },
+    {
+      "word_id": "v7",
+      "term": "ěe",
+      "phonetic_api": "/ěː/",
+      "phonetic_simple": "É-É",
+      "translation": "oui",
+      "example_sentence": "Ěe, ŋa klɔŋ́.",
+      "example_phonetic": "/ěː ŋá klɔ́ŋ/",
+      "example_translation": "Oui, je sais."
+    },
+    {
+      "word_id": "v8",
+      "term": "hó",
+      "phonetic_api": "/hó/",
+      "phonetic_simple": "HO",
+      "translation": "non / ne pas (négation)",
+      "example_sentence": "Hɛ́ni hó e klɔŋ́.",
+      "example_phonetic": "/hɛ́ni hó é klɔ́ŋ/",
+      "example_translation": "Hɛni ne te connaît pas."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p1_1",
-      "original": "Í nì máànà ?",
-      "phonetic_api": "/í nì máːnà/",
-      "phonetic_simple": "I NI MAA-NA",
-      "translation": "Comment s'est passé ton réveil ? (Bonjour le matin)",
-      "context": "Salutation exclusive de la matinée, s'adresse à une personne."
+      "phrase_id": "p1",
+      "original": "Ɓaà ŋúŋ?",
+      "phonetic_api": "/ɓaː ŋúŋ/",
+      "phonetic_simple": "BAA-NOUNG",
+      "translation": "Bonjour ! (le matin, à une personne)",
+      "context": "Utilisé le matin, jusqu'à midi environ, en s'adressant à une seule personne."
     },
     {
-      "phrase_id": "p1_2",
-      "original": "Á nì máànà ?",
-      "phonetic_api": "/á nì máːnà/",
-      "phonetic_simple": "A NI MAA-NA",
-      "translation": "Comment s'est passé votre réveil ? (Bonjour le matin)",
-      "context": "Salutation de la matinée adressée à plusieurs personnes ou marques de respect."
+      "phrase_id": "p2",
+      "original": "Kaà ŋúŋ?",
+      "phonetic_api": "/kaː ŋúŋ/",
+      "phonetic_simple": "KAA-NOUNG",
+      "translation": "Bonjour ! (le matin, à plusieurs personnes)",
+      "context": "Version au pluriel de la salutation matinale, adressée à un groupe."
     },
     {
-      "phrase_id": "p1_3",
-      "original": "Í nì wuò ?",
-      "phonetic_api": "/í nì wʊ̀ɔ́/",
-      "phonetic_simple": "I NI WOU-O",
-      "translation": "Bon après-midi / Bonne soirée",
-      "context": "Utilisé pour saluer une personne à partir de midi jusqu'au coucher du soleil."
+      "phrase_id": "p3",
+      "original": "É túɣó kpɛɛ̰̀?",
+      "phonetic_api": "/é túɣó kpɛ̰̀ɛ̰̀/",
+      "phonetic_simple": "É-TOUGHO-KPÈN",
+      "translation": "Bon après-midi ! (litt. « tu as bien passé la journée ? »)",
+      "context": "Salutation utilisée l'après-midi, à une seule personne."
     },
     {
-      "phrase_id": "p1_4",
-      "original": "Kú kɛ́nɛ̀ kɔ́ɔ́ ?",
-      "phonetic_api": "/kú kɛ́nɛ̀ kɔ́ː/",
-      "phonetic_simple": "KOU KE-NE KOO",
-      "translation": "Comment ça va ? (Est-ce que le corps est sain ?)",
-      "context": "Formule informelle et amicale très fréquente pour prendre des nouvelles."
+      "phrase_id": "p4",
+      "original": "É máma é hɛɣɛ!",
+      "phonetic_api": "/é mámá é hɛɣɛ/",
+      "phonetic_simple": "É-MAMA-É-HEGHE",
+      "translation": "Merci beaucoup ! (à une personne)",
+      "context": "Formule complète de remerciement, plus appuyée que le simple « É máma »."
     },
     {
-      "phrase_id": "p1_5",
-      "original": "Ǹ kɛ́nɛ̀",
-      "phonetic_api": "/ŋ̀ kɛ́nè/",
-      "phonetic_simple": "N KE-NE",
-      "translation": "Je vais bien",
-      "context": "Réponse type à une salutation sur l'état de santé."
+      "phrase_id": "p5",
+      "original": "É pá lúɠû!",
+      "phonetic_api": "/é pá lúɠû/",
+      "phonetic_simple": "É-PA-LOUGOU",
+      "translation": "Sois le bienvenu !",
+      "context": "Formule d'accueil kpele proche du kono, utilisée pour accueillir un visiteur (confiance moyenne, langue apparentée)."
     },
     {
-      "phrase_id": "p1_6",
-      "original": "À kɛ́nɛ̀ kɔ́ɔ́",
-      "phonetic_api": "/à kɛ́nɛ̀ kɔ́ː/",
-      "phonetic_simple": "A KE-NE KOO",
-      "translation": "Tout va bien",
-      "context": "Réponse positive générale."
-    },
-    {
-      "phrase_id": "p1_7",
-      "original": "À mà kɛ́nɛ̀",
-      "phonetic_api": "/à mà kɛ́nɛ̀/",
-      "phonetic_simple": "A MA KE-NE",
-      "translation": "Ça ne va pas",
-      "context": "Indique un problème de santé ou une mauvaise nouvelle."
-    },
-    {
-      "phrase_id": "p1_8",
-      "original": "Wáà kɛ́-ì-mùò",
-      "phonetic_api": "/wáː kɛ́ìmùò/",
-      "phonetic_simple": "WAA KE-I-MOU-O",
-      "translation": "Au revoir",
-      "context": "Formule pour prendre congé quand on s'en va."
+      "phrase_id": "p6",
+      "original": "Nùɠu ɓé!",
+      "phonetic_api": "/nùɠu ɓé/",
+      "phonetic_simple": "NOUGOU-BÉ",
+      "translation": "Félicitations !",
+      "context": "Formule de politesse pour féliciter quelqu'un lors d'un évènement heureux (confiance moyenne, langue apparentée kpele)."
     }
   ],
   "grammar_points": [
     {
-      "concept": "Les marqueurs pronominaux fondamentaux",
-      "explanation": "En kono, la distinction de personne se fait principalement par l'alternance vocalique au début des structures de salutation. Le pronom de la deuxième personne du singulier 'tu' est marqué par 'Í', tandis que la deuxième personne du pluriel ou de politesse 'vous' est marquée par 'Á'. Le pronom de la première personne du singulier 'je' se manifeste sous la forme d'une nasale syllabique 'Ǹ'.",
+      "concept": "Distinction singulier/pluriel dans les salutations",
+      "explanation": "En kono, les formules de salutation changent selon que l'on s'adresse à une seule personne (préfixe é-) ou à plusieurs personnes (préfixe ka-). C'est une marque grammaticale de personne intégrée directement à la formule figée.",
       "rules": [
-        "Í indique la proximité ou le singulier (Tu)",
-        "Á indique la pluralité ou la déférence (Vous / Vous tous)",
-        "Ǹ indique le locuteur lui-même (Je)"
+        "É- marque l'adresse à une seule personne (2SG).",
+        "Ka- marque l'adresse à plusieurs personnes (2PL).",
+        "Ɓaà (2SG) et Kaà (2PL) sont utilisés spécifiquement pour la salutation du matin."
       ],
       "examples": [
         {
-          "structure": "Í + nì wuò",
-          "phonetic_api": "/í nì wʊ̀ɔ́/",
-          "meaning": "Tu (es salué pour) l'après-midi"
+          "structure": "É + verbe",
+          "phonetic_api": "/é/",
+          "meaning": "forme singulier de la salutation"
         },
         {
-          "structure": "Á + nì wuò",
-          "phonetic_api": "/á nì wʊ̀ɔ́/",
-          "meaning": "Vous (êtes salués pour) l'après-midi"
+          "structure": "Ka + verbe",
+          "phonetic_api": "/ka/",
+          "meaning": "forme pluriel de la salutation"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Kòlí",
-      "text": "Enté Sia, í nì máànà ?",
-      "phonetic_api": "/ẽtē sīā í nì máːnà/",
-      "phonetic_simple": "En-te Si-a, i ni maa-na ?",
-      "translation": "Salut Sia, comment s'est passé ton réveil ?"
+      "speaker": "Sèni",
+      "text": "Ɓaà ŋúŋ, Bala?",
+      "phonetic_api": "/ɓaː ŋúŋ bala/",
+      "phonetic_simple": "BAA-NOUNG BALA",
+      "translation": "Bonjour Bala, tu t'es réveillé ?"
     },
     {
-      "speaker": "Sīā",
-      "text": "Hɛ́ɛ̀ Kòlí, ǹ kɛ́nɛ̀. Í kɛ́nɛ̀ kɔ́ɔ́ ?",
-      "phonetic_api": "/hɛ́ːɛ̀ kòlí ŋ̀ kɛ́nɛ̀ í kɛ́nɛ̀ kɔ́ː/",
-      "phonetic_simple": "Hee Ko-li, n ke-ne. I ke-ne koo ?",
-      "translation": "Oui Koli, je vais bien. Et toi, tu vas bien ?"
+      "speaker": "Bala",
+      "text": "Ěe, ŋa ŋúŋ. É yíí kpɛɛ̰̀?",
+      "phonetic_api": "/ěː ŋá ŋúŋ é jíː kpɛ̰̀ɛ̰̀/",
+      "phonetic_simple": "É-É NGA NOUNG. É-YII-KPÈN",
+      "translation": "Oui, je me suis réveillé. As-tu bien dormi ?"
     },
     {
-      "speaker": "Kòlí",
-      "text": "Ǹ kɛ́nɛ̀, séé-séé.",
-      "phonetic_api": "/ŋ̀ kɛ́nɛ̀ séːséː/",
-      "phonetic_simple": "N ke-ne, see-see.",
-      "translation": "Je vais bien, merci."
+      "speaker": "Sèni",
+      "text": "Ěe, ŋa yíí kpɛɛ̰̀.",
+      "phonetic_api": "/ěː ŋá jíː kpɛ̰̀ɛ̰̀/",
+      "phonetic_simple": "É-É NGA-YII-KPÈN",
+      "translation": "Oui, j'ai bien dormi."
     },
     {
-      "speaker": "Sīā",
-      "text": "Wáà kɛ́-ì-mùò, Kòlí.",
-      "phonetic_api": "/wáː kɛ́ìmùò kòlí/",
-      "phonetic_simple": "Waa ke-i-mou-o, Ko-li.",
-      "translation": "Au revoir, Koli."
+      "speaker": "Bala",
+      "text": "É máma é hɛɣɛ!",
+      "phonetic_api": "/é mámá é hɛɣɛ/",
+      "phonetic_simple": "É-MAMA-É-HEGHE",
+      "translation": "Merci beaucoup !"
     }
   ],
   "cultural_notes": [
-    "Dans la culture Kono de Guinée (région de Lola), ignorer quelqu'un sans le saluer est considéré comme une grave offense sociale. Les salutations longues impliquant le bien-être de l'ensemble de la maisonnée sont la norme absolue avant d'entamer une quelconque conversation d'affaires ou personnelle."
+    "Chez les Kono de Guinée (préfecture de Lola), la salutation matinale se réfère littéralement au réveil (« tu t'es réveillé ? ») plutôt qu'à un simple « bonjour » abstrait, ce qui reflète l'importance du lien communautaire dès le matin.",
+    "La distinction singulier/pluriel dans les formules de politesse est systématique en kono et dans les langues mandées du sud-ouest voisines comme le kpelle : ne pas la respecter peut sembler impoli envers un groupe."
   ],
   "exercises": [
     {
-      "exercise_id": "ex1_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quelle expression utilise-t-on spécifiquement pour dire bonjour le matin à une seule personne ?",
+      "question": "Comment dit-on « Bonjour » le matin à UNE seule personne en kono ?",
       "options": [
-        "Í nì wuò ?",
-        "Í nì máànà ?",
-        "Á nì máànà ?"
+        "Ɓaà ŋúŋ?",
+        "Kaà ŋúŋ?",
+        "É túga!"
       ],
-      "correct_answer": "Í nì máànà ?",
-      "explanation": "'Í nì máànà ?' s'adresse au singulier le matin, alors que 'Á nì...' est pour le pluriel et 'Í nì wuò' pour l'après-midi."
+      "correct_answer": "Ɓaà ŋúŋ?",
+      "explanation": "Ɓaà ŋúŋ? est la forme singulier de la salutation matinale, littéralement « tu t'es réveillé ? »."
     },
     {
-      "exercise_id": "ex1_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Ǹ kɛ́nɛ̀, [ ___ ]. (Je vais bien, merci.)",
-      "correct_answer": "séé-séé",
-      "hint": "Expression de remerciement standard en kono."
+      "sentence_with_blank": "___ é hɛɣɛ! (Merci beaucoup, à une personne)",
+      "correct_answer": "É máma",
+      "hint": "Cette formule commence par le préfixe singulier é-."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Maria Konoshenko, « Field Notes on Kono, a Southwestern Mande Lect of Forest Guinea », Mandenkan 57 (2017), pp. 77-107",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan57/konoshenko57.pdf"
+    },
+    {
+      "label": "Maria Konoshenko, « Dictionnaire kpele de la Guinée (guerzé) – français », Mandenkan 62 (2019/2020)",
+      "url": "https://journals.openedition.org/mandenkan/2091"
+    },
+    {
+      "label": "Wikipédia (FR) — « Kono (langue de Guinée) »",
+      "url": "https://fr.wikipedia.org/wiki/Kono_(langue_de_Guin%C3%A9e)"
+    }
+  ],
+  "confidence": "élevée",
+  "confidence_note": "Vocabulaire, pronoms, chiffres et structures grammaticales directement attestés dans l'article académique de référence sur le Kono de Guinée (Konoshenko 2017, Mandenkan 57), qui fournit une liste Swadesh de 100 mots, un paradigme complet de marqueurs pronominaux/TAM et des exemples de salutations en Kono authentique. Deux formules d'accueil supplémentaires proviennent du kpelle de Guinée, langue très proche, et sont signalées comme telles."
 }

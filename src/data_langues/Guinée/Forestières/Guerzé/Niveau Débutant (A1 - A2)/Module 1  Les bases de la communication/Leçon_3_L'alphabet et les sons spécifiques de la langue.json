@@ -4,619 +4,231 @@
   "module_number": 1,
   "module_title": "Les bases de la communication",
   "lesson_number": 3,
-  "title": "L'alphabet et les sons spécifiques de la langue (guide phonétique détaillé)",
+  "title": "L'alphabet et les sons spécifiques de la langue",
   "learning_objectives": [
-    "Reconnaître et prononcer les 34 lettres et digrammes de l'alphabet kpele (voyelles orales/nasales, consonnes simples et complexes).",
-    "Distinguer les voyelles courtes des voyelles longues, et les voyelles nasales du -ŋ final.",
-    "Identifier les six mélodies tonales principales du kpele et leur notation à l'écrit.",
-    "Appliquer les règles d'alternance consonantique initiale (p→b, t→d, k→g, etc.)."
+    "Connaître l'alphabet officiel guinéen (1989) utilisé pour écrire le guerzé",
+    "Identifier les consonnes spécifiques absentes du français (ɓ, ɠ, ɣ, kp, gb, ŋ, ŋw)",
+    "Comprendre le système des deux tons (haut/bas) et leur notation écrite"
   ],
   "phonetic_focus": {
-    "key_sounds": "Le kpele compte 8 voyelles orales (a, e, ɛ, i, o, ɔ, u, et la voyelle périphérique y), 5 voyelles nasales (in, ɛn/an, ɔn, un) et le phonème ŋ (à aperture zéro, compté comme une voyelle), soit 14 unités vocaliques. Les consonnes se répartissent selon le point d'articulation (labiale, apicale, palatale, vélaire, labio-vélaire, labialisée, glottale) et le mode d'articulation (occlusive sourde/voisée, fricative sourde/voisée, implosive et sonore orale, sonante nasale) : p/b, t/d, k/g, kp/gb, kw/gw, f/(s), v/z, ɣ(ɠ)/hw/h, ɓ/l/y/w, n/ɲ/ŋ/ŋw. Les voyelles peuvent être courtes ou longues (paire minimale : kàa pá 'vous êtes venu' vs kà pá 'venez'), ce qui change le sens.",
-    "common_pitfalls": "Les francophones ont tendance à : (1) confondre f et s, en réalité rares en kpele (ils n'apparaissent que dans des emprunts et des idéophones, ex. sôo 'seau') ; (2) prononcer j comme le j français, alors qu'il note l'affriquée /ʤ/ (comme le j anglais de 'jam') ; (3) ne pas distinguer les voyelles nasales (finale -n) du -ŋ final sur voyelle orale, deux terminaisons pourtant très différentes en grammaire (ex. bɔ́ɔn 'esp. d'arbre' vs bɔ̌ŋ 'abats-le') ; (4) oublier que le y kpele est un phonème marginal, présent dans seulement quatre mots."
+    "key_sounds": "Le guerzé compte des consonnes labio-vélaires doubles kp et gb (prononcées en fermant les lèvres et le fond de la bouche en même temps), une consonne implosive ɓ, la vélaire fricative ɠ (/ɣ/), et la nasale vélaire ŋ. Le système comporte 8 voyelles orales, 5 voyelles nasales et un ton haut/bas contrastif sur chaque syllabe (Konoshenko 2019).",
+    "common_pitfalls": "Les francophones prononcent souvent kp comme un simple « k » et gb comme un simple « g », alors qu'il faut fermer les lèvres ET le fond de la bouche simultanément. Le ɓ est souvent remplacé par un « b » ordinaire, et les tons sont fréquemment ignorés, ce qui peut rendre les mots incompréhensibles."
   },
   "vocabulary": [
     {
       "word_id": "v1",
-      "term": "à",
-      "phonetic_api": "/à/",
-      "phonetic_simple": "a",
-      "translation": "lettre Aa /a/ — « avec » (postposition)",
-      "example_sentence": "à",
-      "example_phonetic": "/à/",
-      "example_translation": "avec"
+      "term": "ɓ",
+      "phonetic_api": "/ɓ/",
+      "phonetic_simple": "B implosif",
+      "translation": "consonne implosive bilabiale (lettre de l'alphabet officiel guinéen 1989)",
+      "example_sentence": "ɓá",
+      "example_phonetic": "/ɓá/",
+      "example_translation": "riz (cuit, avec la sauce)"
     },
     {
       "word_id": "v2",
-      "term": "bɛ̀lɛŋ",
-      "phonetic_api": "/bɛ̀lɛ̀ŋ/",
-      "phonetic_simple": "BÈ-lèng",
-      "translation": "lettre Bb /b/ — « culotte »",
-      "example_sentence": "bɛ̀lɛŋ",
-      "example_phonetic": "/bɛ̀lɛ̀ŋ/",
-      "example_translation": "culotte"
+      "term": "ɠ",
+      "phonetic_api": "/ɣ/",
+      "phonetic_simple": "R gras (fricative)",
+      "translation": "consonne fricative vélaire voisée",
+      "example_sentence": "ɠɔ́ɠɔ",
+      "example_phonetic": "/gɔ́ɠɔ/",
+      "example_translation": "ma jambe"
     },
     {
       "word_id": "v3",
-      "term": "ɓá",
-      "phonetic_api": "/ɓá/",
-      "phonetic_simple": "ɓA (consonne implosive)",
-      "translation": "lettre Ɓɓ /ɓ/ — « riz » (consonne implosive bilabiale)",
-      "example_sentence": "ɓá",
-      "example_phonetic": "/ɓá/",
-      "example_translation": "riz"
+      "term": "kp",
+      "phonetic_api": "/kp/",
+      "phonetic_simple": "KP (occlusion double)",
+      "translation": "consonne occlusive labio-vélaire sourde",
+      "example_sentence": "kpɛ̀lɛɛwoo",
+      "example_phonetic": "/kpɛ̀lɛɛwoo/",
+      "example_translation": "la langue guerzé (kpèlè)"
     },
     {
       "word_id": "v4",
-      "term": "dàmaŋ",
-      "phonetic_api": "/dàmàŋ̀/",
-      "phonetic_simple": "da-mang",
-      "translation": "lettre Dd /d/ — « esp. de tambour »",
-      "example_sentence": "dàmaŋ",
-      "example_phonetic": "/dàmàŋ̀/",
-      "example_translation": "espèce de tambour"
+      "term": "gb",
+      "phonetic_api": "/gb/",
+      "phonetic_simple": "GB (occlusion double voisée)",
+      "translation": "consonne occlusive labio-vélaire voisée",
+      "example_sentence": "gbánâa",
+      "example_phonetic": "/gbánáà/",
+      "example_translation": "fusil"
     },
     {
       "word_id": "v5",
-      "term": "héle",
-      "phonetic_api": "[hə́lə́]",
-      "phonetic_simple": "HÉ-le (e = son 'e' muet français)",
-      "translation": "lettre Ee [ə] (court) / [e] (long) — « éléphant » (voyelle mi-fermée centrale ou antérieure)",
-      "example_sentence": "héle",
-      "example_phonetic": "[hə́lə́]",
-      "example_translation": "éléphant"
+      "term": "ŋ",
+      "phonetic_api": "/ŋ/",
+      "phonetic_simple": "NG (comme dans 'parking')",
+      "translation": "consonne/voyelle nasale vélaire",
+      "example_sentence": "ŋwɔ́ŋ",
+      "example_phonetic": "/ŋwɔ́ŋ/",
+      "example_translation": "feu"
     },
     {
       "word_id": "v6",
-      "term": "wɛ́li",
-      "phonetic_api": "[wɜ́lí]",
-      "phonetic_simple": "WÈ-li",
-      "translation": "lettre Ɛɛ [ɜ] (court) / [ɛ] (long) — « amour » (voyelle mi-ouverte centrale ou antérieure)",
-      "example_sentence": "wɛ́li",
-      "example_phonetic": "[wɜ́lí]",
-      "example_translation": "amour"
+      "term": "ɛ",
+      "phonetic_api": "/ɜ/",
+      "phonetic_simple": "È ouvert",
+      "translation": "voyelle mi-ouverte antérieure",
+      "example_sentence": "ɓɛ́laa",
+      "example_phonetic": "/ɓɛ́láá/",
+      "example_translation": "mouton"
     },
     {
       "word_id": "v7",
-      "term": "sôo",
-      "phonetic_api": "/sóò/",
-      "phonetic_simple": "SO-o",
-      "translation": "lettre Ss /s/ — « seau » (n'apparaît que dans les emprunts)",
-      "example_sentence": "sôo",
-      "example_phonetic": "/sóò/",
-      "example_translation": "seau"
+      "term": "ɔ",
+      "phonetic_api": "/ɔ/",
+      "phonetic_simple": "O ouvert",
+      "translation": "voyelle mi-ouverte postérieure",
+      "example_sentence": "hɔ́ɔnŋ",
+      "example_phonetic": "/hɔ́ɔnŋ/",
+      "example_translation": "proverbe"
     },
     {
       "word_id": "v8",
-      "term": "gáin",
-      "phonetic_api": "/ga̰ ́ ı̰ ́/",
-      "phonetic_simple": "GA-in (nasalisé)",
-      "translation": "lettre Gg /g/ — « orange »",
-      "example_sentence": "gáin",
-      "example_phonetic": "/ga̰ ́ ı̰ ́/",
-      "example_translation": "orange"
-    },
-    {
-      "word_id": "v9",
-      "term": "gbɛ́â",
-      "phonetic_api": "/gbɛ́â/",
-      "phonetic_simple": "GBÈ-â",
-      "translation": "lettre Gb gb /gb/ — « coupe-coupe » (labio-vélaire bifocale voisée)",
-      "example_sentence": "gbɛ́â",
-      "example_phonetic": "/gbɛ́â/",
-      "example_translation": "coupe-coupe (machette)"
-    },
-    {
-      "word_id": "v10",
-      "term": "gwîi",
-      "phonetic_api": "/gwíì/",
-      "phonetic_simple": "GWI-i",
-      "translation": "lettre Gw gw /gw/ — « banane » (vélaire labialisée voisée)",
-      "example_sentence": "gwîi",
-      "example_phonetic": "/gwíì/",
-      "example_translation": "banane"
-    },
-    {
-      "word_id": "v11",
-      "term": "hǎɠa",
-      "phonetic_api": "/hàɣà°/",
-      "phonetic_simple": "HA-gha (gh doux)",
-      "translation": "lettre Ɠɠ /ɣ/ — « natte » (vélaire fricative voisée)",
-      "example_sentence": "hǎɠa",
-      "example_phonetic": "/hàɣà°/",
-      "example_translation": "natte"
-    },
-    {
-      "word_id": "v12",
-      "term": "hěe",
-      "phonetic_api": "/hèè°/",
-      "phonetic_simple": "HÈ-è",
-      "translation": "lettre Hh /h/ — « s'asseoir »",
-      "example_sentence": "hěe",
-      "example_phonetic": "/hèè°/",
-      "example_translation": "s'asseoir"
-    },
-    {
-      "word_id": "v13",
-      "term": "hwáa",
-      "phonetic_api": "/hwáá/",
-      "phonetic_simple": "HWA-a",
-      "translation": "lettre Hw hw /hw/ — « parler » (vélaire fricative labialisée)",
-      "example_sentence": "hwáa",
-      "example_phonetic": "/hwáá/",
-      "example_translation": "parler"
-    },
-    {
-      "word_id": "v14",
-      "term": "tíi",
-      "phonetic_api": "[tíí]",
-      "phonetic_simple": "TI-i",
-      "translation": "lettre Ii [ɪ] (court) / [i] (long) — « ce, cela » (voyelle fermée centrale ou antérieure)",
-      "example_sentence": "tíi",
-      "example_phonetic": "[tíí]",
-      "example_translation": "ce, cela"
-    },
-    {
-      "word_id": "v15",
-      "term": "jóɠomûŋ",
-      "phonetic_api": "/ʤóɣómúŋ̀/",
-      "phonetic_simple": "DJO-gho-moung",
-      "translation": "lettre Jj /ʤ/ — « chef d'initiation d'hommes » (affriquée palatale voisée)",
-      "example_sentence": "jóɠomûŋ",
-      "example_phonetic": "/ʤóɣómúŋ̀/",
-      "example_translation": "chef d'initiation d'hommes"
-    },
-    {
-      "word_id": "v16",
-      "term": "káa",
-      "phonetic_api": "/káá/",
-      "phonetic_simple": "KA-a",
-      "translation": "lettre Kk /k/ — « voir »",
-      "example_sentence": "káa",
-      "example_phonetic": "/káá/",
-      "example_translation": "voir"
-    },
-    {
-      "word_id": "v17",
-      "term": "kpɛ̀lɛɛ",
-      "phonetic_api": "/kpɛ̀lɛ̀ɛ̀/",
-      "phonetic_simple": "KPÈ-lè-è",
-      "translation": "lettre Kp kp /kp/ — « kpele » (labio-vélaire bifocale sourde)",
-      "example_sentence": "kpɛ̀lɛɛ",
-      "example_phonetic": "/kpɛ̀lɛ̀ɛ̀/",
-      "example_translation": "kpele (le nom de la langue)"
-    },
-    {
-      "word_id": "v18",
-      "term": "kwǎla",
-      "phonetic_api": "/kwàlà°/",
-      "phonetic_simple": "KWA-la",
-      "translation": "lettre Kw kw /kw/ — « singe » (vélaire labialisée sourde)",
-      "example_sentence": "kwǎla",
-      "example_phonetic": "/kwàlà°/",
-      "example_translation": "singe"
-    },
-    {
-      "word_id": "v19",
-      "term": "lɔ́",
-      "phonetic_api": "/lɔ́/",
-      "phonetic_simple": "LO",
-      "translation": "lettre Ll /l/ — « entrer »",
-      "example_sentence": "lɔ́",
-      "example_phonetic": "/lɔ́/",
-      "example_translation": "entrer"
-    },
-    {
-      "word_id": "v20",
-      "term": "mànáŋ",
-      "phonetic_api": "/mànáŋ́/",
-      "phonetic_simple": "ma-NANG",
-      "translation": "lettre Mm /m/ — « manioc »",
-      "example_sentence": "mànáŋ",
-      "example_phonetic": "/mànáŋ́/",
-      "example_translation": "manioc"
-    },
-    {
-      "word_id": "v21",
-      "term": "nɛ̀ɛnû",
-      "phonetic_api": "/nɛ̀ɛ̀nû/",
-      "phonetic_simple": "NÈ-è-nû",
-      "translation": "lettre Nn /n/ — « femme »",
-      "example_sentence": "nɛ̀ɛnû",
-      "example_phonetic": "/nɛ̀ɛ̀nû/",
-      "example_translation": "femme"
-    },
-    {
-      "word_id": "v22",
-      "term": "ɲínɛ",
-      "phonetic_api": "/ɲínɛ́/",
-      "phonetic_simple": "GNI-nè",
-      "translation": "lettre Ɲɲ /ɲ/ — « souris » (sonante nasale palatale)",
-      "example_sentence": "ɲínɛ",
-      "example_phonetic": "/ɲínɛ́/",
-      "example_translation": "souris"
-    },
-    {
-      "word_id": "v23",
-      "term": "nǐŋɛ",
-      "phonetic_api": "/nìŋɛ̀°/",
-      "phonetic_simple": "NING-è",
-      "translation": "lettre Ŋŋ /ŋ/ — « vache » (sonante nasale vélaire)",
-      "example_sentence": "nǐŋɛ",
-      "example_phonetic": "/nìŋɛ̀°/",
-      "example_translation": "vache"
-    },
-    {
-      "word_id": "v24",
-      "term": "ŋwɛ̌ni",
-      "phonetic_api": "/ŋwɛ̀nì°/",
-      "phonetic_simple": "NGWÈ-ni",
-      "translation": "lettre Ŋw ŋw /ŋw/ — « oiseau » (sonante nasale vélaire labialisée)",
-      "example_sentence": "ŋwɛ̌ni",
-      "example_phonetic": "/ŋwɛ̀nì°/",
-      "example_translation": "oiseau"
-    },
-    {
-      "word_id": "v25",
-      "term": "kólô",
-      "phonetic_api": "/kólô/",
-      "phonetic_simple": "KO-lô",
-      "translation": "lettre Oo /o/ — « travail »",
-      "example_sentence": "kólô",
-      "example_phonetic": "/kólô/",
-      "example_translation": "travail"
-    },
-    {
-      "word_id": "v26",
-      "term": "kɔ́",
-      "phonetic_api": "/kɔ́/",
-      "phonetic_simple": "KO (ouvert)",
-      "translation": "lettre Ɔɔ /ɔ/ — « guerre » (voyelle mi-ouverte postérieure)",
-      "example_sentence": "kɔ́",
-      "example_phonetic": "/kɔ́/",
-      "example_translation": "guerre"
-    },
-    {
-      "word_id": "v27",
-      "term": "pá",
-      "phonetic_api": "/pá/",
-      "phonetic_simple": "PA",
-      "translation": "lettre Pp /p/ — « venir »",
-      "example_sentence": "pá",
-      "example_phonetic": "/pá/",
-      "example_translation": "venir"
-    },
-    {
-      "word_id": "v28",
-      "term": "tǎa",
-      "phonetic_api": "/tàà°/",
-      "phonetic_simple": "TA-a",
-      "translation": "lettre Tt /t/ — « village »",
-      "example_sentence": "tǎa",
-      "example_phonetic": "/tàà°/",
-      "example_translation": "village"
-    },
-    {
-      "word_id": "v29",
-      "term": "pǔlu",
-      "phonetic_api": "/pùlù°/",
-      "phonetic_simple": "POU-lou",
-      "translation": "lettre Uu /u/ — « faim »",
-      "example_sentence": "pǔlu",
-      "example_phonetic": "/pùlù°/",
-      "example_translation": "faim"
-    },
-    {
-      "word_id": "v30",
-      "term": "vàɠavaɠa",
-      "phonetic_api": "/vàɣàvàɣà/",
-      "phonetic_simple": "VA-gha-va-gha",
-      "translation": "lettre Vv /v/ — « balai »",
-      "example_sentence": "vàɠavaɠa",
-      "example_phonetic": "/vàɣàvàɣà/",
-      "example_translation": "balai"
-    },
-    {
-      "word_id": "v31",
-      "term": "wáa",
-      "phonetic_api": "/wáá/",
-      "phonetic_simple": "WA-a",
-      "translation": "lettre Ww /w/ — « mille »",
-      "example_sentence": "wáa",
-      "example_phonetic": "/wáá/",
-      "example_translation": "mille"
-    },
-    {
-      "word_id": "v32",
-      "term": "yá",
-      "phonetic_api": "/yá/",
-      "phonetic_simple": "YA",
-      "translation": "lettre Yy /y/ — « eau » (sonante palatale, phonème rare : 4 mots seulement)",
-      "example_sentence": "yá",
-      "example_phonetic": "/yá/",
-      "example_translation": "eau"
-    },
-    {
-      "word_id": "v33",
-      "term": "zíza",
-      "phonetic_api": "/zízá/",
-      "phonetic_simple": "ZI-za",
-      "translation": "lettre Zz /z/ — « vite »",
-      "example_sentence": "zíza",
-      "example_phonetic": "/zízá/",
-      "example_translation": "vite"
-    },
-    {
-      "word_id": "v34",
-      "term": "fɛ́sɛfɛsɛ",
-      "phonetic_api": "/fɛ́sɛ́fɛ́sɛ́/",
-      "phonetic_simple": "FÈ-sè-fè-sè",
-      "translation": "lettre Ff /f/ — « complètement » (idéophone ; n'apparaît que dans les emprunts et idéophones)",
-      "example_sentence": "fɛ́sɛfɛsɛ",
-      "example_phonetic": "/fɛ́sɛ́fɛ́sɛ́/",
-      "example_translation": "complètement"
+      "term": "kpɛ̀lɛɛwoo",
+      "phonetic_api": "/kpɛ̀lɛɛwoo/",
+      "phonetic_simple": "kpè-lè-è-WO",
+      "translation": "la langue guerzé (nom endogène de la langue en kpèlè)",
+      "example_sentence": "Ŋà nwelii ŋà kpɛlɛɛwoo ma kori.",
+      "example_phonetic": "/ŋà nwélìí ŋà kpɛ̀lɛɛwoo ma kóri/",
+      "example_translation": "Je veux apprendre le guerzé (kpèlè) (comparer avec le kpelle du Libéria)."
     }
   ],
   "common_phrases": [
     {
       "phrase_id": "p1",
-      "original": "láa / làa",
-      "phonetic_api": "/láá/ vs /làà/",
-      "phonetic_simple": "LA-a (ton haut) vs LA-a (ton bas)",
-      "translation": "coucher / là-bas",
-      "context": "Paire minimale par le ton (H vs B) : seul le ton distingue ces deux mots"
+      "original": "a b ɓ d e ɛ g gb gw ɠ h hw i j k kp kw l n ɲ ŋ ŋw o ɔ p s t u v w y z",
+      "phonetic_api": "/a b ɓ d e ɛ g gb gw ɣ h hw i j k kp kw l n ɲ ŋ ŋw o ɔ p s t u v w y z/",
+      "phonetic_simple": "l'alphabet officiel guinéen (1989/modernisé)",
+      "translation": "Liste complète des lettres de l'alphabet guerzé moderne.",
+      "context": "Alphabet officiel utilisé par le dictionnaire Konoshenko (2019), basé sur l'orthographe guinéenne de 1989."
     },
     {
       "phrase_id": "p2",
-      "original": "kpâŋ / kpàŋ",
-      "phonetic_api": "/kpáŋ̀/ vs /kpàŋ̀/",
-      "phonetic_simple": "KPANG (descendant) vs kpang (bas)",
-      "translation": "gris-gris contre le vol / chaume",
-      "context": "Paire minimale par le ton (HB vs B)"
+      "original": "kpɛ̀lɛɛwoo",
+      "phonetic_api": "/kpɛ̀lɛɛwoo/",
+      "phonetic_simple": "kpè-lè-è-WO",
+      "translation": "la langue guerzé/kpèlè",
+      "context": "Nom que les Guerzé donnent eux-mêmes à leur langue."
     },
     {
       "phrase_id": "p3",
-      "original": "kálaŋ / kálâŋ / kàlâŋ",
-      "phonetic_api": "/káláŋ́/ vs /káláŋ̀/ vs /kàláŋ̀/",
-      "phonetic_simple": "ka-LANG (H) vs KA-lang (HB) vs ka-LANG (B/HB)",
-      "translation": "plaque / épaule / religion",
-      "context": "Triple contraste tonal sur la même suite de lettres"
+      "original": "kìêŋ, kwîeŋ",
+      "phonetic_api": "/kìêŋ ~ kwîeŋ/",
+      "phonetic_simple": "ki-ENG / kwi-ENG",
+      "translation": "piment (variantes phonétiques dialectales du même mot)",
+      "context": "Exemple de deux prononciations d'un même mot selon le dialecte (centre vs autre variante), illustrant la variation régionale du guerzé."
     },
     {
       "phrase_id": "p4",
       "original": "kàa pá / kà pá",
-      "phonetic_api": "/kàà pá/ vs /kà pá/",
-      "phonetic_simple": "KAA-pa (voyelle longue) vs ka-PA (voyelle courte)",
-      "translation": "vous êtes venu / venez",
-      "context": "Paire minimale par la longueur vocalique (a court vs aa long)"
-    },
-    {
-      "phrase_id": "p5",
-      "original": "bɔ́ɔn / bɔ̌ŋ",
-      "phonetic_api": "/bɔ̰ ́ ɔ̰ ́/ vs /bɔ̀ŋ̀°/",
-      "phonetic_simple": "BO-on (nasalisé) vs bong (avec -ŋ)",
-      "translation": "esp. d'arbre / abats-le",
-      "context": "Paire minimale entre une voyelle nasale finale (-n) et un -ŋ final sur voyelle orale"
-    },
-    {
-      "phrase_id": "p6",
-      "original": "yílê / yílé",
-      "phonetic_api": "/yílê/ vs [yílé]",
-      "phonetic_simple": "YI-lê (isolé) vs YI-lé (devant un ton bas)",
-      "translation": "chien",
-      "context": "Le ton descendant (circonflexe) se simplifie en ton haut devant un ton bas qui suit"
-    },
-    {
-      "phrase_id": "p7",
-      "original": "Zálikwɛ̀lɛ / Jálikwɛ̀lɛ",
-      "phonetic_api": "/zálikwɛ̀lɛ/ vs /ʤálikwɛ̀lɛ/",
-      "phonetic_simple": "ZA-li-kwè-lè vs DJA-li-kwè-lè",
-      "translation": "Nzérékoré",
-      "context": "z et j sont des variantes régionales du même son"
+      "phonetic_api": "/kàa pá/ vs /kà pá/",
+      "phonetic_simple": "ka-a PA / ka PA",
+      "translation": "vous êtes venu / venez !",
+      "context": "Paire minimale illustrant l'opposition voyelle longue vs voyelle courte, essentielle pour distinguer le sens."
     }
   ],
   "grammar_points": [
     {
-      "concept": "Les voyelles : orales, nasales et la voyelle ŋ",
-      "explanation": "Le système vocalique du kpele comporte 8 voyelles orales, 5 voyelles nasales, plus le phonème ŋ (voyelle à aperture zéro), soit 14 unités. Les voyelles orales non-postérieures courtes se prononcent comme des voyelles centrales (sauf y).",
+      "concept": "Les consonnes spécifiques du guerzé",
+      "explanation": "L'alphabet guerzé moderne (basé sur l'orthographe officielle guinéenne de 1989) comprend des lettres absentes du français : ɓ (implosive), ɠ (fricative vélaire /ɣ/), les labio-vélaires doubles kp/gb/kw/gw, la nasale vélaire ŋ et sa variante labialisée ŋw.",
       "rules": [
-        "Voyelles orales : a, e [ə/e], ɛ [ɜ/ɛ], i [ɪ/i], o, ɔ, u, et y (rare, 4 mots seulement).",
-        "Voyelles nasales : elles n'existent qu'en combinaison avec des consonnes non-nasales et sont notées par un -n final à l'écrit (ex. hwíɛn 'coussinet pour la tête').",
-        "Le ŋ final sur une voyelle orale est différent d'une voyelle nasale : il entraîne l'alternance de la consonne initiale du mot suivant (ex. tɛ̀ɠáŋ ↓gá tíi 'c'est de l'arachide'), ce qui n'est pas le cas des voyelles nasales."
+        "kp et gb s'articulent en fermant simultanément les lèvres et le voile du palais (double occlusion).",
+        "ɓ est une consonne implosive : l'air est légèrement aspiré vers l'intérieur au moment de la relâcher.",
+        "ɠ correspond au son /ɣ/, une fricative vélaire sonore proche du « r » grasseyé."
       ],
       "examples": [
         {
-          "structure": "bɔ́ɔn (voyelle nasale) vs bɔ̌ŋ (-ŋ final)",
-          "phonetic_api": "/bɔ̰ ́ ɔ̰ ́/ vs /bɔ̀ŋ̀°/",
-          "meaning": "esp. d'arbre / abats-le : deux terminaisons différentes, souvent confondues à l'écrit"
+          "structure": "kp, gb, ɓ, ɠ, ŋ, ŋw",
+          "phonetic_api": "/kp, gb, ɓ, ɣ, ŋ, ŋw/",
+          "meaning": "consonnes spécifiques absentes du français standard"
         }
       ]
     },
     {
-      "concept": "Voyelles courtes et voyelles longues",
-      "explanation": "Toutes les voyelles sauf ŋ peuvent être courtes ou longues, et cette longueur est distinctive (elle change le sens du mot). Les voyelles longues sont notées par une lettre redoublée à l'écrit.",
+      "concept": "Le système tonal à deux tons",
+      "explanation": "Chaque syllabe porte un ton haut (H, noté par l'accent aigu á) ou un ton bas (B, noté par l'accent grave à) ; la combinaison HB donne un ton descendant noté par l'accent circonflexe (â). Les tons ont une valeur contrastive : ils peuvent seuls distinguer deux mots ou deux formes grammaticales.",
       "rules": [
-        "Une paire minimale illustre ce contraste : kàa pá (vous êtes venu, voyelle longue) vs kà pá (venez, voyelle courte).",
-        "Les suites de deux voyelles différentes (ex. hǐe 'marcher') sont aussi possibles et s'écrivent avec deux lettres différentes."
+        "láa (coucher, ton haut) s'oppose à làa (là-bas, ton bas).",
+        "kálaŋ (plaque, ton haut-haut) s'oppose à kálâŋ (épaule, ton haut-bas) et à kàlâŋ (religion, ton bas-bas-descendant).",
+        "Les voyelles longues (doublées à l'écrit, ex. -aa, -ii) peuvent porter des tons différents sur chaque more."
       ],
       "examples": [
         {
-          "structure": "kàa pá / kà pá",
-          "phonetic_api": "/kàà pá/ vs /kà pá/",
-          "meaning": "vous êtes venu / venez"
-        }
-      ]
-    },
-    {
-      "concept": "Les six mélodies tonales principales",
-      "explanation": "Au niveau du mot, les tons du kpele forment six mélodies fixes, notées par des signes diacritiques différents selon la mélodie.",
-      "rules": [
-        "/H/ : ton haut partout, noté par l'accent aigu — ɓá (riz), tóu (palmier à l'huile).",
-        "/HB/ : ton descendant en fin de mot devant une pause, noté par un circonflexe — gwîi (banane), yílê (chien).",
-        "/BHB/ : ton bas puis descendant, combinant grave et circonflexe — tɛ̀ân (vérité), ɓɛ̀lâŋ (ami).",
-        "/B(H)/ : ton bas plat avec un ton haut flottant, noté par un caron sur la première voyelle — hǒo (cheval), yǎla (lion).",
-        "/B/ : ton bas descendant partout, noté par l'accent grave — gbàŋ (natte de pêche), ɲàalee (chat).",
-        "/BH/ : ton bas puis haut — mànáŋ (manioc), zàalóŋ (sauterelle)."
-      ],
-      "examples": [
-        {
-          "structure": "gwîi (HB) vs yǎla (B(H)) vs mànáŋ (BH)",
-          "phonetic_api": "/gwíì/ vs /yàlà°/ vs /mànáŋ́/",
-          "meaning": "banane / lion / manioc : trois mélodies tonales différentes"
-        }
-      ]
-    },
-    {
-      "concept": "L'alternance consonantique initiale",
-      "explanation": "La plupart des mots kpele changent leur consonne initiale selon le contexte grammatical : après un mot en -ŋ, pour marquer un nom défini, ou pour marquer les pronoms 1SG/3SG. Les occlusives sourdes deviennent voisées, et les consonnes voisées ou implosives deviennent nasales.",
-      "rules": [
-        "Occlusives : p→b, t→d, k→g, kw→gw, kp→gb.",
-        "Fricatives : hw→v, h→z~j.",
-        "Sonores/implosives : ɓ→m, l→n, y→ɲ, w→ŋw.",
-        "Exemple avec le nom défini : ɓɛ́laa (mouton) → mɛ̀láa (le mouton) ; héle (éléphant) → zèlé (l'éléphant)."
-      ],
-      "examples": [
-        {
-          "structure": "ɓɛ́laa → mɛ̀láa",
-          "phonetic_api": "/ɓɛ́láá/ → /mɛ̀láá/",
-          "meaning": "mouton → le mouton (forme définie, alternance ɓ→m)"
+          "structure": "láa vs làa",
+          "phonetic_api": "/láá/ vs /làà/",
+          "meaning": "coucher vs là-bas (paire minimale tonale)"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Personne A (professeur)",
-      "text": "É yíi ↓kpɛ́li ?",
-      "phonetic_api": "/é yíi ↓kpɛ́lí/",
-      "phonetic_simple": "é YI-i kpÉ-li ?",
-      "translation": "Bonjour !"
+      "speaker": "Le professeur",
+      "text": "Kpɛ̀lɛɛwoo àlfabɛti ɓáa a b ɓ d e ɛ...",
+      "phonetic_api": "/kpɛ̀lɛɛwoo alfabɛ́ti ɓáa a b ɓ d e ɛ/",
+      "phonetic_simple": "kpè-lè-è-WO al-fa-BÉ-ti ba a b B d e È",
+      "translation": "L'alphabet du guerzé est a, b, ɓ, d, e, ɛ..."
     },
     {
-      "speaker": "Personne B (élève)",
-      "text": "É yíi ↓kpɛ́li máa̋.",
-      "phonetic_api": "/é yíi ↓kpɛ́lí máa̋/",
-      "phonetic_simple": "é YI-i kpÉ-li máá",
-      "translation": "Bonjour ! (réponse)"
+      "speaker": "L'élève",
+      "text": "ɓ ɓáa nɛ̀lɛ́ ?",
+      "phonetic_api": "/ɓ ɓáa nɛ̀lɛ́/",
+      "phonetic_simple": "B ba nè-LÈ",
+      "translation": "Qu'est-ce que le ɓ ? (litt. ɓ est quoi)"
     },
     {
-      "speaker": "Personne A (professeur)",
-      "text": "Láa.",
-      "phonetic_api": "/láá/",
-      "phonetic_simple": "LA-a (ton haut)",
-      "translation": "« Coucher » (le professeur montre un mot-exemple)."
+      "speaker": "Le professeur",
+      "text": "ɓ ɓáa hɛ̀lɛ mà kɛ́lâŋ, ɓá lɛ́ɛ.",
+      "phonetic_api": "/ɓ ɓáa hɛ̀lɛ mà kɛ́lâŋ ɓá lɛ́ɛ/",
+      "phonetic_simple": "B ba hè-lè ma KÉ-lang ba LÈ",
+      "translation": "Le ɓ est une lettre implosive, comme dans « ɓá » (riz)."
     },
     {
-      "speaker": "Personne B (élève)",
-      "text": "Làa ?",
-      "phonetic_api": "/làà/",
-      "phonetic_simple": "LA-a (ton bas)",
-      "translation": "« Là-bas » ? (l'élève propose le mot au ton opposé)."
-    },
-    {
-      "speaker": "Personne A (professeur)",
-      "text": "Ŋàá mɛ̌ŋ ?",
-      "phonetic_api": "/ŋàá mɛ̌ŋ/",
-      "phonetic_simple": "nga-a MENG ?",
-      "translation": "Tu as compris ?"
-    },
-    {
-      "speaker": "Personne B (élève)",
-      "text": "Ŋàá mɛ̌ŋ !",
-      "phonetic_api": "/ŋàá mɛ̌ŋ/",
-      "phonetic_simple": "nga-a MENG !",
-      "translation": "J'ai compris !"
-    },
-    {
-      "speaker": "Personne A (professeur)",
-      "text": "Kpâŋ. Kpàŋ.",
-      "phonetic_api": "/kpáŋ̀/ /kpàŋ̀/",
-      "phonetic_simple": "KPANG (descendant). kpang (bas).",
-      "translation": "Gris-gris contre le vol. Chaume."
-    },
-    {
-      "speaker": "Personne B (élève)",
-      "text": "Kpâŋ. Kpàŋ.",
-      "phonetic_api": "/kpáŋ̀/ /kpàŋ̀/",
-      "phonetic_simple": "KPANG (descendant). kpang (bas).",
-      "translation": "Gris-gris contre le vol. Chaume. (l'élève répète)"
-    },
-    {
-      "speaker": "Personne A (professeur)",
-      "text": "Máma, mɛ́niê !",
-      "phonetic_api": "/máma mɛ́niê/",
-      "phonetic_simple": "MA-ma MÉ-ni-Ê",
-      "translation": "Merci, mon ami !"
+      "speaker": "L'élève",
+      "text": "Kàa pá, ŋé nàŋá kɔ̀lɔ́ɔ kìêŋ.",
+      "phonetic_api": "/kàa pá ŋé nàŋá kɔ̀lɔ́ɔ kìêŋ/",
+      "phonetic_simple": "ka-a pa, nguè na-nga KO-lo-o KI-êng",
+      "translation": "D'accord, je vais répéter ces sons."
     }
   ],
   "cultural_notes": [
-    "Le kpele fonctionne encore aujourd'hui principalement comme une langue orale : il a connu deux systèmes orthographiques officiels successifs, l'un développé sous Sékou Touré et enseigné à l'école de 1968 à 1984, l'autre adopté le 10 mars 1989 mais jamais largement enseigné.",
-    "Depuis les années 2000, l'Institut de recherche linguistique appliquée (IRLA) publie des guides d'alphabétisation en kpele fondés sur l'orthographe modernisée (celle utilisée dans ce cours), mais ils restent peu connus de la population.",
-    "Les sons z et j sont des variantes régionales d'un même phonème : on dit Zálikwɛ̀lɛ ou Jálikwɛ̀lɛ pour Nzérékoré selon la région.",
-    "La voyelle y est un phonème très marginal : elle n'apparaît que dans quatre mots de toute la langue.",
-    "Les lettres f et s ne servent qu'à transcrire des emprunts et des idéophones (mots expressifs imitant un son ou une manière) ; elles ne font pas partie du fonds ancien du kpele.",
-    "Le ton haut flottant (H), présent dans plusieurs mélodies tonales, ne se réalise qu'en fin de phrase, juste avant une pause — il est donc invisible à l'oral au milieu d'une phrase."
+    "L'orthographe moderne du guerzé se base sur l'alphabet officiel guinéen adopté en 1989 avec des ajustements académiques faits par les linguistes de terrain (Konoshenko 2019), après une première orthographe officielle de 1976 utilisant des digraphes (bh pour ɓ, ny pour ɲ, gh pour ɣ).",
+    "Depuis 2000, l'Institut de recherche linguistique appliquée (IRLA) de Conakry publie des guides d'alphabétisation en guerzé, mais leur diffusion reste limitée dans la population."
   ],
   "exercises": [
     {
       "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quelle lettre note la fricative vélaire /ɣ/, proche du « r » grasseyé espagnol ?",
+      "question": "Que représente la lettre ɠ dans l'alphabet guerzé moderne ?",
       "options": [
-        "Hh",
-        "Ɠɠ",
-        "Kk",
-        "Gg"
+        "Le son /ɣ/, une fricative vélaire voisée",
+        "Le son 'g' français classique",
+        "Une voyelle nasale"
       ],
-      "correct_answer": "Ɠɠ",
-      "explanation": "La lettre Ɠɠ note /ɣ/, comme dans hǎɠa (natte)."
+      "correct_answer": "Le son /ɣ/, une fricative vélaire voisée",
+      "explanation": "La lettre ɠ note le phonème /ɣ/ conformément à l'orthographe moderne de Guinée (Konoshenko 2019)."
     },
     {
       "exercise_id": "ex2",
-      "type": "multiple_choice",
-      "question": "Que distingue la paire láa (coucher) / làa (là-bas) ?",
-      "options": [
-        "La longueur de la voyelle",
-        "Le ton (haut vs bas)",
-        "La nasalisation",
-        "Rien, ce sont deux orthographes d'un même mot"
-      ],
-      "correct_answer": "Le ton (haut vs bas)",
-      "explanation": "láa (ton haut) et làa (ton bas) s'écrivent avec les mêmes lettres ; seul le ton distingue leur sens."
-    },
-    {
-      "exercise_id": "ex3",
-      "type": "multiple_choice",
-      "question": "Quelle alternance transforme ɓɛ́laa (mouton) en mɛ̀láa (le mouton) ?",
-      "options": [
-        "ɓ→m",
-        "ɓ→b",
-        "ɓ→p",
-        "ɓ→l"
-      ],
-      "correct_answer": "ɓ→m",
-      "explanation": "L'alternance consonantique fait passer les consonnes implosives/sonores vers leur équivalent nasal : ɓ→m."
-    },
-    {
-      "exercise_id": "ex4",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Le mot bɔ̌ŋ (abats-le) se termine par un [ ___ ] final sur voyelle orale, différent d'une voyelle nasale.",
-      "correct_answer": "ŋ",
-      "hint": "C'est la 24e lettre de l'alphabet, une sonante nasale vélaire."
-    },
-    {
-      "exercise_id": "ex5",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "La mélodie tonale « ton bas plat avec ton haut flottant » se note par un [ ___ ] sur la première voyelle, comme dans hǒo (cheval).",
-      "correct_answer": "caron",
-      "hint": "Ce signe diacritique ressemble à un petit v (ˇ)."
-    },
-    {
-      "exercise_id": "ex6",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Les lettres f et s n'apparaissent en kpele que dans les [ ___ ] et les idéophones.",
-      "correct_answer": "emprunts",
-      "hint": "Ce sont des mots venus d'autres langues."
+      "sentence_with_blank": "láa (ton haut) = 'coucher' ; [ ___ ] (ton bas) = 'là-bas'.",
+      "correct_answer": "làa",
+      "hint": "Même suite de lettres, mais ton bas partout au lieu du ton haut."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Konoshenko, M. (2019). Dictionnaire kpele de la Guinée (guerzé) – français. Mandenkan 62.",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan62/62konoshenko.pdf"
+    },
+    {
+      "label": "Wikipédia — Kpèllé (langue) / Guerzé",
+      "url": "https://fr.wikipedia.org/wiki/Guerze"
+    }
+  ],
+  "confidence": "élevée",
+  "confidence_note": "L'alphabet, l'inventaire consonantique/vocalique et le système tonal sont directement décrits et illustrés dans le chapitre phonologique du dictionnaire Konoshenko (2019), source académique de référence pour le guerzé de Guinée."
 }

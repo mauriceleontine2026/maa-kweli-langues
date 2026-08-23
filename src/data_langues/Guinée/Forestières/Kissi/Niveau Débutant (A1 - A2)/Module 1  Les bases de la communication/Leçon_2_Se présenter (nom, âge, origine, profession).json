@@ -4,203 +4,233 @@
   "module_number": 1,
   "module_title": "Les bases de la communication",
   "lesson_number": 2,
-  "title": "Se présenter",
+  "title": "Se présenter (nom, âge, origine, profession)",
   "learning_objectives": [
-    "Déclarer son nom et son prénom",
-    "Exprimer son âge et son origine géographique",
-    "Énoncer sa profession de manière simple"
+    "Donner son nom en kissi à l'aide du terme attesté 'diolaŋ'",
+    "Utiliser les termes de personne (nɔɔ, wana, wanapɔnɔɔ, wanalanɔɔ) pour se décrire",
+    "Situer son origine par rapport aux lieux clés du pays kissi (Kissidougou, Guéckédou)"
   ],
   "phonetic_focus": {
-    "key_sounds": "L'utilisation de la consonne occlusive injective/implosive /ɓ/ ou /ɗ/ est fréquente dans certaines variantes. Notez l'articulation douce des nasales palatales /ɲ/ comme dans le son français 'gn'.",
-    "common_pitfalls": "Attention à ne pas prononcer le 'g' de 'dieng' comme un 'g' dur français. Il s'agit d'un son nasal vélaire /ŋ/ proche du 'ng' final en anglais."
+    "key_sounds": "La finale -ŋ (comme dans diolaŋ, nom) correspond à une nasale vélaire, absente du français standard en position finale.",
+    "common_pitfalls": "Les francophones remplacent souvent -ŋ final par -ng prononcé ou par un simple -n ; il faut garder l'articulation vélaire sans relâcher vers l'avant de la bouche."
   },
   "vocabulary": [
     {
-      "word_id": "v2_1",
-      "term": "dieng",
-      "phonetic_api": "/djɛŋ/",
-      "phonetic_simple": "DIENG",
+      "word_id": "v1",
+      "term": "diolaŋ",
+      "phonetic_api": "/djolaŋ/",
+      "phonetic_simple": "djo-lang",
       "translation": "nom",
-      "example_sentence": "Dieng nio o co Tamba.",
-      "example_phonetic": "/djɛŋ njo o tʃo ta.ᵐba/",
-      "example_translation": "Mon nom est Tamba."
+      "example_sentence": "I diolaŋ ndá?",
+      "example_phonetic": "/i djolaŋ nda/",
+      "example_translation": "Quel est ton nom ?"
     },
     {
-      "word_id": "v2_2",
+      "word_id": "v2",
+      "term": "nɔɔ",
+      "phonetic_api": "/nɔː/",
+      "phonetic_simple": "nô",
+      "translation": "personne",
+      "example_sentence": "Ó lá nɔɔ.",
+      "example_phonetic": "/o la nɔː/",
+      "example_translation": "C'est une personne (quelqu'un)."
+    },
+    {
+      "word_id": "v3",
       "term": "wana",
-      "phonetic_api": "/wa.na/",
-      "phonetic_simple": "WA-NA",
-      "translation": "personne / humain",
-      "example_sentence": "Wana pilɔ o co wa.",
-      "example_phonetic": "/wa.na pi.lɔ o tʃo wa/",
-      "example_translation": "Une personne est là."
+      "phonetic_api": "/wana/",
+      "phonetic_simple": "wa-na",
+      "translation": "personne, individu",
+      "example_sentence": "Wana ndu Kisiadu.",
+      "example_phonetic": "/wana ndu kisiadu/",
+      "example_translation": "Une personne de Kissidougou."
     },
     {
-      "word_id": "v2_3",
-      "term": "oolɛ",
-      "phonetic_api": "/oː.lɛ/",
-      "phonetic_simple": "OO-LÈ",
-      "translation": "année / âge",
-      "example_sentence": "I nɔ oolɛ lanyɛŋ.",
-      "example_phonetic": "/i nɔ oː.lɛ la.ɲɛŋ/",
-      "example_translation": "J'ai plusieurs années (d'âge)."
+      "word_id": "v4",
+      "term": "wanapɔnɔɔ",
+      "phonetic_api": "/wanapɔnɔː/",
+      "phonetic_simple": "wa-na-pô-nô",
+      "translation": "homme",
+      "example_sentence": "Ndu wanapɔnɔɔ.",
+      "example_phonetic": "/ndu wanapɔnɔː/",
+      "example_translation": "C'est un homme."
     },
     {
-      "word_id": "v2_4",
-      "term": "wali",
-      "phonetic_api": "/wa.li/",
-      "phonetic_simple": "WA-LI",
-      "translation": "travail / profession",
-      "example_sentence": "Wali nio o co kpou.",
-      "example_phonetic": "/wa.li njo o tʃo kpu/",
-      "example_translation": "Mon travail se passe bien."
+      "word_id": "v5",
+      "term": "wanalanɔɔ",
+      "phonetic_api": "/wanalanɔː/",
+      "phonetic_simple": "wa-na-la-nô",
+      "translation": "femme",
+      "example_sentence": "Ndu wanalanɔɔ.",
+      "example_phonetic": "/ndu wanalanɔː/",
+      "example_translation": "C'est une femme."
     },
     {
-      "word_id": "v2_5",
-      "term": "lebol",
-      "phonetic_api": "/le.bol/",
-      "phonetic_simple": "LÉ-BOL",
-      "translation": "village / ville / pays d'origine",
-      "example_sentence": "Lebol nio o co Kissidougou.",
-      "example_phonetic": "/le.bol njo o tʃo ki.si.du.ɡu/",
-      "example_translation": "Mon village/pays est Kissidougou."
+      "word_id": "v6",
+      "term": "wali-",
+      "phonetic_api": "/wali/",
+      "phonetic_simple": "wa-li",
+      "translation": "travail, travail rémunéré / profession",
+      "example_sentence": "Yá waliŋ ndá?",
+      "example_phonetic": "/ja waliŋ nda/",
+      "example_translation": "Quel est mon/ton travail ?"
+    },
+    {
+      "word_id": "v7",
+      "term": "Kɛla",
+      "phonetic_api": "/kɛla/",
+      "phonetic_simple": "ké-la",
+      "translation": "oncle (frère de la mère) — utilisé aussi pour se présenter par sa parenté",
+      "example_sentence": "Ndu yá kɛla.",
+      "example_phonetic": "/ndu ja kɛla/",
+      "example_translation": "C'est mon oncle."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p2_1",
-      "original": "Vana yɛ dieng noo o co ?",
-      "phonetic_api": "/va.na jɛ djɛŋ noː o tʃo/",
-      "phonetic_simple": "VA-NA YÈ DIENG NOO O TCHO",
-      "translation": "Comment t'appelles-tu ?",
-      "context": "Rencontre / Formule courante"
+      "phrase_id": "p1",
+      "original": "I diolaŋ ndá?",
+      "phonetic_api": "/i djolaŋ nda/",
+      "phonetic_simple": "i djo-lang nda",
+      "translation": "Quel est ton nom ?",
+      "context": "Question de base pour demander le nom de quelqu'un."
     },
     {
-      "phrase_id": "p2_2",
-      "original": "Dieng nio o co Saa.",
-      "phonetic_api": "/djɛŋ njo o tʃo saː/",
-      "phonetic_simple": "DIENG NYO O TCHO SAA",
-      "translation": "Mon nom est Saa.",
-      "context": "Donner son identité"
+      "phrase_id": "p2",
+      "original": "Yá diolaŋ ndu...",
+      "phonetic_api": "/ja djolaŋ ndu/",
+      "phonetic_simple": "ya djo-lang ndou",
+      "translation": "Mon nom est...",
+      "context": "Pour se présenter en donnant son nom."
     },
     {
-      "phrase_id": "p2_3",
-      "original": "Oolɛ yɛŋ o nɔ ?",
-      "phonetic_api": "/oː.lɛ jɛŋ o nɔ/",
-      "phonetic_simple": "OO-LÈ YENG O NO",
-      "translation": "Quel âge as-tu ?",
-      "context": "S'informer sur l'âge"
+      "phrase_id": "p3",
+      "original": "Ndu wanapɔnɔɔ.",
+      "phonetic_api": "/ndu wanapɔnɔː/",
+      "phonetic_simple": "ndou wa-na-pô-nô",
+      "translation": "Je suis un homme / C'est un homme.",
+      "context": "Pour indiquer son genre."
     },
     {
-      "phrase_id": "p2_4",
-      "original": "I nɔ oolɛ jom pilɔ.",
-      "phonetic_api": "/i nɔ oː.lɛ ʒom pi.lɔ/",
-      "phonetic_simple": "I NO OO-LÈ JOM PI-LO",
-      "translation": "J'ai vingt ans.",
-      "context": "Donner son âge"
+      "phrase_id": "p4",
+      "original": "Ndu wanalanɔɔ.",
+      "phonetic_api": "/ndu wanalanɔː/",
+      "phonetic_simple": "ndou wa-na-la-nô",
+      "translation": "Je suis une femme / C'est une femme.",
+      "context": "Pour indiquer son genre."
     },
     {
-      "phrase_id": "p2_5",
-      "original": "Kounda yɛŋ o lo ?",
-      "phonetic_api": "/kuːⁿda jɛŋ o lo/",
-      "phonetic_simple": "KOUN-DA YENG O LO",
-      "translation": "D'où viens-tu ? / Où habites-tu ?",
-      "context": "S'informer sur l'origine"
-    },
-    {
-      "phrase_id": "p2_6",
-      "original": "Guinée i lo ni.",
-      "phonetic_api": "/ɡi.ne i lo ni/",
-      "phonetic_simple": "GUI-NÉ I LO NI",
-      "translation": "Je viens de Guinée.",
-      "context": "Donner son origine"
-    },
-    {
-      "phrase_id": "p2_7",
-      "original": "Wana peeku i co ni.",
-      "phonetic_api": "/wa.na peː.ku i tʃo ni/",
-      "phonetic_simple": "WA-NA PÉÉ-KOU I TCHO NI",
-      "translation": "Je suis étudiant.",
-      "context": "Énoncer sa profession"
-    },
-    {
-      "phrase_id": "p2_8",
-      "original": "Wana wali i co ni.",
-      "phonetic_api": "/wa.na wa.li i tʃo ni/",
-      "phonetic_simple": "WA-NA WA-LI I TCHO NI",
-      "translation": "Je suis travailleur.",
-      "context": "Énoncer sa profession"
+      "phrase_id": "p5",
+      "original": "Wana ndu Kisiadu.",
+      "phonetic_api": "/wana ndu kisiadu/",
+      "phonetic_simple": "wa-na ndou ki-sia-dou",
+      "translation": "Une personne de Kissidougou.",
+      "context": "Pour donner son origine géographique."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'expression de l'état ou de l'identité avec 'co ni'",
-      "explanation": "Pour exprimer une caractéristique stable, une profession ou une identité nationale/régionale, la construction utilise souvent le pronom suivi du verbe d'état 'co' renforcé par la particule de focalisation 'ni' en fin de structure.",
+      "concept": "Les classes nominales et le suffixe de personne -nɔɔ / -ɔɔ",
+      "explanation": "Le kissi organise ses noms en classes nominales marquées par des suffixes, décrites en détail par Childs (1995). Le suffixe -nɔɔ (ou sa variante -ɔɔ) marque couramment les noms de personne ou d'agent : wanapɔnɔɔ (homme), wanalanɔɔ (femme), ndiamɔ́ɔ (ami). Se présenter consiste donc souvent à combiner un nom de base avec ce suffixe de personne.",
       "rules": [
-        "Le sujet se place en tête.",
-        "Le terme désignant la profession ou l'origine s'insère directement avant l'indice de conjugaison et de validation 'ni'."
+        "Le suffixe -nɔɔ/-ɔɔ transforme une racine descriptive en nom de personne.",
+        "Le mot générique 'nɔɔ' seul signifie déjà 'personne, être humain'.",
+        "L'origine géographique se donne en juxtaposant 'wana' (personne) au nom du lieu, ex. Kisiadu (Kissidougou)."
       ],
       "examples": [
         {
-          "structure": "Sujet + qualificatif/nom + co ni",
-          "phonetic_api": "/wa.na peː.ku i tʃo ni/",
-          "meaning": "Je suis un étudiant."
+          "structure": "wana + [lieu]",
+          "phonetic_api": "/wana .../",
+          "meaning": "personne originaire de [lieu]"
+        },
+        {
+          "structure": "[racine] + -nɔɔ/-ɔɔ",
+          "phonetic_api": "/... nɔː/",
+          "meaning": "personne caractérisée par [racine]"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Saa",
-      "text": "Vana yɛ dieng noo o co ?",
-      "phonetic_api": "/va.na jɛ djɛŋ noː o tʃo/",
-      "phonetic_simple": "VA-NA YÈ DIENG NOO O TCHO",
-      "translation": "Comment t'appelles-tu ?"
+      "speaker": "Fatou",
+      "text": "Nikene. I diolaŋ ndá?",
+      "phonetic_api": "/nikene i djolaŋ nda/",
+      "phonetic_simple": "ni-ké-né, i djo-lang nda",
+      "translation": "Bonjour. Quel est ton nom ?"
     },
     {
-      "speaker": "Sia",
-      "text": "Dieng nio o co Sia. Et ɔn ?",
-      "phonetic_api": "/djɛŋ njo o tʃo sja ɛt ɔn/",
-      "phonetic_simple": "DIENG NYO O TCHO SIA. ET ON ?",
-      "translation": "Mon nom est Sia. Et toi ?"
+      "speaker": "Sékou",
+      "text": "Mbaa. Yá diolaŋ ndu Sékou.",
+      "phonetic_api": "/mbaː ja djolaŋ ndu sekuː/",
+      "phonetic_simple": "mbaa, ya djo-lang ndou sé-kou",
+      "translation": "(réponse). Mon nom est Sékou."
     },
     {
-      "speaker": "Saa",
-      "text": "Dieng nio o co Saa. Kounda o lo ?",
-      "phonetic_api": "/djɛŋ njo o tʃo saː kuːⁿda o lo/",
-      "phonetic_simple": "DIENG NYO O TCHO SAA. KOUN-DA O LO ?",
-      "translation": "Mon nom est Saa. D'où viens-tu ?"
+      "speaker": "Fatou",
+      "text": "Ndu wanapɔnɔɔ ndu Kisiadu?",
+      "phonetic_api": "/ndu wanapɔnɔː ndu kisiadu/",
+      "phonetic_simple": "ndou wa-na-pô-nô ndou ki-sia-dou",
+      "translation": "Tu es un homme de Kissidougou ?"
     },
     {
-      "speaker": "Sia",
-      "text": "Kissidougou i lo ni.",
-      "phonetic_api": "/ki.si.du.ɡu i lo ni/",
-      "phonetic_simple": "KI-SI-DOU-GOU I LO NI",
-      "translation": "Je viens de Kissidougou."
+      "speaker": "Sékou",
+      "text": "Naam, ndu wanapɔnɔɔ ndu Kisiadu.",
+      "phonetic_api": "/naːm ndu wanapɔnɔː ndu kisiadu/",
+      "phonetic_simple": "naam, ndou wa-na-pô-nô ndou ki-sia-dou",
+      "translation": "Oui, je suis un homme de Kissidougou."
+    },
+    {
+      "speaker": "Fatou",
+      "text": "Baleka.",
+      "phonetic_api": "/baleka/",
+      "phonetic_simple": "ba-lé-ka",
+      "translation": "Merci."
     }
   ],
   "cultural_notes": [
-    "Chez les Kissi, les prénoms traditionnels masculins (comme Saa, Tamba, Faya) et féminins (comme Sia, Tènin, Bendou) obéissent à un ordre de naissance strict au sein de la fratrie. Connaître le prénom de quelqu'un permet souvent de deviner sa place dans sa famille."
+    "Chez les Kissi, le nom individuel est souvent accompagné du nom de clan (kale), qui structure l'identité sociale bien plus que la simple identité civile ; Denise Paulme documente des clans comme Leno/Lea, Kamano/Kamara, Toluno/Toluna dans 'Les Gens du riz'.",
+    "Se présenter par son origine géographique (Kissidougou ou Guéckédou, les deux préfectures kissi majeures de Guinée forestière) est une pratique courante et significative, ces deux villes étant les centres historiques de la population kissi de Guinée selon l'Ethnologue."
   ],
   "exercises": [
     {
-      "exercise_id": "ex2_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Que signifie le mot 'dieng' ?",
+      "question": "Comment demande-t-on le nom de quelqu'un en kissi ?",
       "options": [
-        "Nom",
-        "Village",
-        "Âge"
+        "I diolaŋ ndá?",
+        "I kendé le?",
+        "Baleka?"
       ],
-      "correct_answer": "Nom",
-      "explanation": "'Dieng' se traduit par nom ou appellation."
+      "correct_answer": "I diolaŋ ndá?",
+      "explanation": "« diolaŋ » signifie « nom » selon le lexique Wiktionary des langues atlantiques de Guinée."
     },
     {
-      "exercise_id": "ex2_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Guinée i [ ___ ] ni. (Je viens de Guinée)",
-      "correct_answer": "lo",
-      "hint": "Verbe signifiant sortir de / provenir de"
+      "sentence_with_blank": "Ndu [ ___ ] ndu Kisiadu. (Je suis une femme de Kissidougou.)",
+      "correct_answer": "wanalanɔɔ",
+      "hint": "Terme attesté pour « femme »."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Wiktionary — Appendix:Word lists of Atlantic languages of Guinea (Kissi)",
+      "url": "https://en.wiktionary.org/wiki/Appendix:Word_lists_of_Atlantic_languages_of_Guinea"
+    },
+    {
+      "label": "G. Tucker Childs, A Grammar of Kisi: A Southern Atlantic Language (Mouton de Gruyter, 1995)",
+      "url": "https://dokumen.pub/a-grammar-of-kisi-a-southern-atlantic-language-9783110810882-9783110143560.html"
+    },
+    {
+      "label": "Ethnologue — Kissi, Northern (kqs)",
+      "url": "https://www.ethnologue.com/language/kqs/"
+    },
+    {
+      "label": "Denise Paulme, Les Gens du riz : les Kissi de Haute-Guinée, chap. 6 (WebGuinée)",
+      "url": "https://www.webguinee.net/bibliotheque/ethnographie/kisi/dpaulme/chap06.html"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Les mots isolés (diolaŋ, nɔɔ, wana, wanapɔnɔɔ, wanalanɔɔ, wali-) sont attestés dans le lexique Wiktionary des langues atlantiques de Guinée ; la combinatoire grammaticale (suffixe -nɔɔ, structure des phrases de présentation) est déduite à partir des descriptions de classes nominales de Childs (1995) et reste donc une reconstruction raisonnée plutôt qu'une phrase citée telle quelle dans une source."
 }

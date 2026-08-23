@@ -6,367 +6,220 @@
   "lesson_number": 6,
   "title": "Faire des achats, négocier les prix et gérer l'argent",
   "learning_objectives": [
-    "Utiliser le verbe yá (acheter) et le nom hɔ̌ŋɔ (prix) pour parler d'un achat.",
-    "Négocier un prix avec l'expression dà kúlo mà ! (baisse le prix !).",
-    "Demander et donner de l'argent avec le verbe hwé (donner, offrir).",
-    "Combiner les nombres et wáli (argent) pour gérer une transaction complète."
+    "Utiliser le vocabulaire de l'argent et du prix au marché",
+    "Poser des questions de négociation sur le prix",
+    "Comprendre le verbe yá (acheter) et le distinguer de yá (eau, homonyme)"
   ],
   "phonetic_focus": {
-    "key_sounds": "Cette leçon combine le vocabulaire des nombres (Leçon 5) avec de nouveaux verbes de transaction. Attention à yá 2 (acheter, ton haut) à ne pas confondre avec yá (eau, Leçon 8) ni avec yǎ~yǎa (pronom autonome 3SG) : trois mots très proches phonétiquement mais grammaticalement très différents.",
-    "common_pitfalls": "Les francophones ont tendance à : (1) chercher un verbe séparé pour « négocier », alors que le kpele utilise l'impératif de kǔlo (sortir/faire sortir) dans l'expression figée dà kúlo mà ! (baisse le prix !, litt. « fais-le sortir de là ») ; (2) oublier que hwé (donner) ne s'utilise jamais avec un complément d'objet indirect séparé, contrairement au français « donner à quelqu'un » ; (3) confondre hɔ̌ŋɔ (prix) avec d'autres noms relationnels similaires."
+    "key_sounds": "Le verbe yá (acheter) est un homonyme du nom yá (eau) : seul le contexte grammatical (position après un objet, présence d'un marqueur prédicatif) permet de les distinguer à l'oral.",
+    "common_pitfalls": "Les francophones confondent parfois yá (acheter) et yá (eau) car les tons peuvent être proches selon le débit de parole ; il faut s'appuyer sur le contexte syntaxique de la phrase."
   },
   "vocabulary": [
     {
       "word_id": "v1",
-      "term": "yá",
-      "phonetic_api": "/yá/",
-      "phonetic_simple": "YA (ton haut)",
-      "translation": "acheter (nɛ̀ɛnû ~ = doter, donner la dot)",
-      "example_sentence": "yá",
-      "example_phonetic": "/yá/",
-      "example_translation": "acheter"
+      "term": "wálî",
+      "phonetic_api": "/wálî/",
+      "phonetic_simple": "WA-li",
+      "translation": "argent",
+      "example_sentence": "Wálî ~ kɛ́.",
+      "example_phonetic": "/wálî kɛ́/",
+      "example_translation": "Donner de l'argent en cadeau."
     },
     {
       "word_id": "v2",
-      "term": "hɔ̌ŋɔ",
-      "phonetic_api": "/hɔ̌ŋɔ/",
-      "phonetic_simple": "ho-ngo (ton bas)",
-      "translation": "prix",
-      "example_sentence": "hɔ̌ŋɔ",
-      "example_phonetic": "/hɔ̌ŋɔ/",
-      "example_translation": "prix"
+      "term": "yá",
+      "phonetic_api": "/yá/",
+      "phonetic_simple": "YA",
+      "translation": "acheter",
+      "example_sentence": "Ŋé gwíikpɔ̀lu yá.",
+      "example_phonetic": "/ŋé gwíikpɔ̀lu yá/",
+      "example_translation": "J'achète des bananes."
     },
     {
       "word_id": "v3",
-      "term": "kǔlo",
-      "phonetic_api": "/kǔlo/",
-      "phonetic_simple": "kou-lo (ton bas)",
-      "translation": "sortir ; faire sortir (◊ dà kúlo mà ! = baisse le prix !)",
-      "example_sentence": "Dà kúlo mà !",
-      "example_phonetic": "/dà kúlo mà/",
-      "example_translation": "Baisse le prix !"
+      "term": "hɔ́ŋɔ",
+      "phonetic_api": "/hɔ́ŋɔ/",
+      "phonetic_simple": "HO-ngo",
+      "translation": "prix",
+      "example_sentence": "Hɔ́ŋɔ ɓáa gbɛ̀ɛ̂ ?",
+      "example_phonetic": "/hɔ́ŋɔ ɓáa gbɛ̀ɛ̂/",
+      "example_translation": "Quel est le prix ?"
     },
     {
       "word_id": "v4",
-      "term": "hwé",
-      "phonetic_api": "/hwé/",
-      "phonetic_simple": "HWÉ",
-      "translation": "donner, offrir",
-      "example_sentence": "Ŋé wáli ↓hwé ?",
-      "example_phonetic": "/ŋé wáli ↓hwé/",
-      "example_translation": "Est-ce que je donne l'argent ?"
+      "term": "wáa",
+      "phonetic_api": "/wáa/",
+      "phonetic_simple": "WA-a",
+      "translation": "mille (unité monétaire, francs)",
+      "example_sentence": "Gwíikpɔ̀lu hàaɓa káa à wáa tɔ́nɔ̂.",
+      "example_phonetic": "/gwíikpɔ̀lu hàaɓa káa à wáa tɔ́nɔ̂/",
+      "example_translation": "Trois bananes coûtent mille francs."
     },
     {
       "word_id": "v5",
-      "term": "wáli",
-      "phonetic_api": "/wáli/",
-      "phonetic_simple": "WA-li",
-      "translation": "argent",
-      "example_sentence": "À wáli yɛ̌li ?",
-      "example_phonetic": "/à wáli yɛ̌li/",
-      "example_translation": "C'est combien ?"
+      "term": "lɔ́ɠɔkpalâŋ",
+      "phonetic_api": "/lɔ́ɠɔkpalâŋ/",
+      "phonetic_simple": "LO-ghô-kpa-LANG",
+      "translation": "marché",
+      "example_sentence": "Ŋé pâi lɔ́ɠɔkpalâŋ hù.",
+      "example_phonetic": "/ŋé pâi lɔ́ɠɔkpalâŋ hù/",
+      "example_translation": "Je vais au marché."
     },
     {
       "word_id": "v6",
-      "term": "yɛ̌li",
-      "phonetic_api": "/yɛ̌li/",
-      "phonetic_simple": "yè-li (ton bas)",
-      "translation": "combien ?",
-      "example_sentence": "À wáli yɛ̌li ?",
-      "example_phonetic": "/à wáli yɛ̌li/",
-      "example_translation": "C'est combien ?"
+      "term": "nɛ̀lɛ́",
+      "phonetic_api": "/nɛ̀lɛ́/",
+      "phonetic_simple": "nè-LÈ",
+      "translation": "quel, combien (interrogatif)",
+      "example_sentence": "Wálî nɛ̀lɛ́ ɓé kɛ̀ɛ ?",
+      "example_phonetic": "/wálî nɛ̀lɛ́ ɓé kɛ̀ɛ/",
+      "example_translation": "Combien ça coûte ?"
     },
     {
       "word_id": "v7",
-      "term": "wáa",
-      "phonetic_api": "/wáá/",
-      "phonetic_simple": "WA-a",
-      "translation": "mille",
-      "example_sentence": "Gwíikpɔ̀lu hàaɓa káa à wáa tɔ́nɔ̂.",
-      "example_phonetic": "/gwíikpɔ̀lu hàaɓa káa à wáa tɔ́nɔ̂/",
-      "example_translation": "Trois bananes coûtent mille francs."
+      "term": "gwíikpɔ̀lu",
+      "phonetic_api": "/gwíikpɔ̀lu/",
+      "phonetic_simple": "GWI-i-KPO-lu",
+      "translation": "banane",
+      "example_sentence": "Gwíikpɔ̀lu hàaɓa.",
+      "example_phonetic": "/gwíikpɔ̀lu hàaɓa/",
+      "example_translation": "Trois bananes."
     },
     {
       "word_id": "v8",
-      "term": "bɔ̀ɔ ́",
-      "phonetic_api": "/bɔ̀ɔ́/",
-      "phonetic_simple": "bo-O",
-      "translation": "équivalent",
-      "example_sentence": "Ŋwɔ́ wáli bɔ̀ɔ ́ hǎla.",
-      "example_phonetic": "/ŋwɔ́ wáli bɔ̀ɔ́ hǎla/",
-      "example_translation": "Rembourse-moi l'équivalent de mon argent."
-    },
-    {
-      "word_id": "v9",
-      "term": "hǎla",
-      "phonetic_api": "/hǎla/",
-      "phonetic_simple": "ha-la (ton bas)",
-      "translation": "rembourser",
-      "example_sentence": "Ŋwɔ́ wáli bɔ̀ɔ ́ hǎla.",
-      "example_phonetic": "/ŋwɔ́ wáli bɔ̀ɔ́ hǎla/",
-      "example_translation": "Rembourse-moi l'équivalent de mon argent."
-    },
-    {
-      "word_id": "v10",
-      "term": "ŋàá kùlo wáli ɓà",
-      "phonetic_api": "/ŋàá kùlo wáli ɓà/",
-      "phonetic_simple": "nga-a kou-lo WA-li ba",
-      "translation": "j'ai trouvé de l'argent par hasard",
-      "example_sentence": "Ŋàá kùlo wáli ɓà.",
-      "example_phonetic": "/ŋàá kùlo wáli ɓà/",
-      "example_translation": "J'ai trouvé de l'argent par hasard."
-    },
-    {
-      "word_id": "v11",
-      "term": "nìnɛ",
-      "phonetic_api": "/nìnɛ/",
-      "phonetic_simple": "ni-nè",
-      "translation": "nouveau, neuf",
-      "example_sentence": "mɔ̀ɓílii nìnɛ",
-      "example_phonetic": "/mɔ̀ɓílii nìnɛ/",
-      "example_translation": "une nouvelle voiture"
-    },
-    {
-      "word_id": "v12",
-      "term": "gwíikpɔ̀lu",
-      "phonetic_api": "/gwíikpɔ̀lu/",
-      "phonetic_simple": "GWI-i-kpo-lou",
-      "translation": "banane mûre",
-      "example_sentence": "Gwíikpɔ̀lu hàaɓa káa à wáa tɔ́nɔ̂.",
-      "example_phonetic": "/gwíikpɔ̀lu hàaɓa káa à wáa tɔ́nɔ̂/",
-      "example_translation": "Trois bananes coûtent mille francs."
+      "term": "kwɛ̌lɛ",
+      "phonetic_api": "/kwɛ̌lɛ/",
+      "phonetic_simple": "KWÈ-lè",
+      "translation": "offrir, donner en cadeau",
+      "example_sentence": "Àá hèɠe kwɛ́lɛ mâa.",
+      "example_phonetic": "/àá hèɠe kwɛ́lɛ mâa/",
+      "example_translation": "Il m'a offert un cadeau."
     }
   ],
   "common_phrases": [
     {
       "phrase_id": "p1",
-      "original": "À wáli yɛ̌li ?",
-      "phonetic_api": "/à wáli yɛ̌li/",
-      "phonetic_simple": "a WA-li yè-li ?",
-      "translation": "C'est combien ?",
-      "context": "Demander le prix au vendeur"
+      "original": "Hɔ́ŋɔ ɓáa gbɛ̀ɛ̂ ?",
+      "phonetic_api": "/hɔ́ŋɔ ɓáa gbɛ̀ɛ̂/",
+      "phonetic_simple": "HO-ngo ba GBÈ",
+      "translation": "Quel est le prix ?",
+      "context": "Question standard pour ouvrir une négociation au marché."
     },
     {
       "phrase_id": "p2",
-      "original": "Gwíikpɔ̀lu hàaɓa káa à wáa tɔ́nɔ̂.",
-      "phonetic_api": "/gwíikpɔ̀lu hàaɓa káa à wáa tɔ́nɔ̂/",
-      "phonetic_simple": "GWI-i-kpo-lou HA-a-ɓa kaa a WA-a TO-nô",
-      "translation": "Trois bananes coûtent mille francs.",
-      "context": "Le vendeur annonce le prix"
+      "original": "Wálî nɛ̀lɛ́ ɓé kɛ̀ɛ ?",
+      "phonetic_api": "/wálî nɛ̀lɛ́ ɓé kɛ̀ɛ/",
+      "phonetic_simple": "wa-LI nè-LÈ bé kè-è",
+      "translation": "Combien ça coûte ?",
+      "context": "Variante de la question de prix, déjà vue en A1_M2_L5."
     },
     {
       "phrase_id": "p3",
-      "original": "Dà kúlo mà !",
-      "phonetic_api": "/dà kúlo mà/",
-      "phonetic_simple": "da KOU-lo ma !",
-      "translation": "Baisse le prix !",
-      "context": "Négocier un prix trop élevé"
+      "original": "Gwíikpɔ̀lu hàaɓa káa à wáa tɔ́nɔ̂.",
+      "phonetic_api": "/gwíikpɔ̀lu hàaɓa káa à wáa tɔ́nɔ̂/",
+      "phonetic_simple": "gwi-i-KPO-lu HA-a-ba ka a WA TO-no",
+      "translation": "Trois bananes coûtent mille francs.",
+      "context": "Réponse-type indiquant un prix, réutilisée du niveau débutant."
     },
     {
       "phrase_id": "p4",
-      "original": "Ŋé wáli ↓hwé ?",
-      "phonetic_api": "/ŋé wáli ↓hwé/",
-      "phonetic_simple": "ngé WA-li hwé ?",
-      "translation": "Est-ce que je donne l'argent ?",
-      "context": "Confirmer le moment de payer"
+      "original": "Ŋé pâi lɔ́ɠɔkpalâŋ hù.",
+      "phonetic_api": "/ŋé pâi lɔ́ɠɔkpalâŋ hù/",
+      "phonetic_simple": "ngé PA-i LO-ghô-kpa-LANG hou",
+      "translation": "Je vais au marché.",
+      "context": "Annonce d'une intention de faire des achats."
     },
     {
       "phrase_id": "p5",
-      "original": "Ŋwɔ́ wáli bɔ̀ɔ ́ hǎla.",
-      "phonetic_api": "/ŋwɔ́ wáli bɔ̀ɔ́ hǎla/",
-      "phonetic_simple": "ngwo WA-li bo-O ha-la",
-      "translation": "Rembourse-moi l'équivalent de mon argent.",
-      "context": "Réclamer un remboursement"
-    },
-    {
-      "phrase_id": "p6",
-      "original": "Ŋàá kùlo wáli ɓà.",
-      "phonetic_api": "/ŋàá kùlo wáli ɓà/",
-      "phonetic_simple": "nga-a kou-lo WA-li ba",
-      "translation": "J'ai trouvé de l'argent par hasard.",
-      "context": "Raconter une trouvaille inattendue"
-    },
-    {
-      "phrase_id": "p7",
-      "original": "Hèhee àá kùló bɛ̀lɛ̂ŋ.",
-      "phonetic_api": "/hèhee àá kùló bɛ̀lɛ̂ŋ/",
-      "phonetic_simple": "HÈ-hè-è aa kou-LO bè-lêng",
-      "translation": "Hehee est sorti de la maison.",
-      "context": "Décrire une sortie récente"
-    },
-    {
-      "phrase_id": "p8",
-      "original": "Pépèe káa mɔ̀ɓílii nìnɛ pɔ́.",
-      "phonetic_api": "/pépèe káa mɔ̀ɓílii nìnɛ pɔ́/",
-      "phonetic_simple": "PÉ-pè-è kaa mo-ɓI-li-i ni-nè PO",
-      "translation": "Pépé veut une nouvelle voiture.",
-      "context": "Exprimer un souhait d'achat (rappel Leçon 5)"
+      "original": "Àá hèɠe kwɛ́lɛ mâa.",
+      "phonetic_api": "/àá hèɠe kwɛ́lɛ mâa/",
+      "phonetic_simple": "a-a HÈ-guè KWÉ-lè MA-a",
+      "translation": "Il m'a offert un cadeau.",
+      "context": "Utilisation du verbe kwɛ̌lɛ (offrir) dans une transaction non-commerciale."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'expression figée dà kúlo mà ! pour négocier",
-      "explanation": "Pour demander une réduction de prix, le kpele emploie une expression figée construite sur kǔlo (sortir, faire sortir) à l'impératif, plutôt qu'un verbe dédié à la négociation.",
+      "concept": "Les homonymes tonaux : yá (acheter) et yá (eau)",
+      "explanation": "Le guerzé comporte des homonymes qui ne se distinguent que par le contexte syntaxique, car leurs tons peuvent être identiques ou très proches à l'oral. yá peut signifier « eau » (nom) ou « acheter » (verbe) selon sa position dans la phrase.",
       "rules": [
-        "dà kúlo mà ! = baisse le prix ! (litt. « fais-le sortir de là », en parlant du prix trop élevé).",
-        "Cette expression illustre comment le kpele réutilise des verbes de mouvement concrets pour exprimer des actions abstraites comme la négociation."
+        "Si yá suit directement un marqueur prédicatif et précède un objet, c'est le verbe « acheter ».",
+        "Si yá est précédé d'un déterminant ou utilisé comme objet d'un autre verbe (kpěle yá = boire de l'eau), c'est le nom « eau »."
       ],
       "examples": [
         {
-          "structure": "dà kúlo mà !",
-          "phonetic_api": "/dà kúlo mà/",
-          "meaning": "baisse le prix !"
-        }
-      ]
-    },
-    {
-      "concept": "Le verbe hwé (donner) et sa construction directe",
-      "explanation": "hwé (donner, offrir) se construit uniquement avec un complément d'objet direct, jamais avec un complément d'objet indirect séparé comme en français « donner à quelqu'un ».",
-      "rules": [
-        "vé ! (donne-moi !) est la forme impérative figée de ce verbe, sans même besoin d'exprimer l'objet si le contexte est clair.",
-        "ŋé wáli ↓hwé ? = est-ce que je donne l'argent ? (le bénéficiaire ou l'objet donné est indiqué directement, sans postposition supplémentaire)."
-      ],
-      "examples": [
-        {
-          "structure": "ŋé wáli ↓hwé ?",
-          "phonetic_api": "/ŋé wáli ↓hwé/",
-          "meaning": "est-ce que je donne l'argent ?"
-        }
-      ]
-    },
-    {
-      "concept": "yá (acheter) et ses emplois figurés",
-      "explanation": "Le verbe yá (acheter) s'étend au-delà du simple achat commercial pour désigner d'autres formes d'échange matériel dans la société kpele.",
-      "rules": [
-        "yá seul = acheter (transaction commerciale ordinaire).",
-        "nɛ̀ɛnû ~ (yá) = doter, donner la dot (litt. « acheter une femme », reflétant une pratique matrimoniale traditionnelle)."
-      ],
-      "examples": [
-        {
-          "structure": "nɛ̀ɛnû yá",
-          "phonetic_api": "/nɛ̀ɛnû yá/",
-          "meaning": "doter (donner la dot pour une épouse)"
-        }
-      ]
-    },
-    {
-      "concept": "Gérer l'argent : trouver, rembourser, équivalent",
-      "explanation": "Le vocabulaire de la gestion de l'argent au-delà de l'achat simple inclut des verbes pour parler de trouvailles inattendues ou de remboursements.",
-      "rules": [
-        "kǔlo (sortir) prend aussi le sens de « trouver par hasard » avec la postposition ɓà : ŋàá kùlo wáli ɓà (j'ai trouvé de l'argent par hasard).",
-        "hǎla (rembourser) se construit avec bɔ̀ɔ ́ (équivalent) pour préciser qu'on rembourse une somme exacte : ŋwɔ́ wáli bɔ̀ɔ ́ hǎla (rembourse-moi l'équivalent de mon argent)."
-      ],
-      "examples": [
-        {
-          "structure": "ŋàá kùlo wáli ɓà",
-          "phonetic_api": "/ŋàá kùlo wáli ɓà/",
-          "meaning": "j'ai trouvé de l'argent par hasard"
+          "structure": "ŋé gwíikpɔ̀lu yá (verbe) vs. kpěle yá (nom)",
+          "phonetic_api": "/ŋé gwíikpɔ̀lu yá/ vs /kpěle yá/",
+          "meaning": "j'achète des bananes vs. boire de l'eau"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Personne A",
-      "text": "À wáli yɛ̌li ?",
-      "phonetic_api": "/à wáli yɛ̌li/",
-      "phonetic_simple": "a WA-li yè-li ?",
-      "translation": "C'est combien ?"
+      "speaker": "Le client",
+      "text": "Hɔ́ŋɔ ɓáa gbɛ̀ɛ̂ ? Wálî nɛ̀lɛ́ ɓé kɛ̀ɛ ?",
+      "phonetic_api": "/hɔ́ŋɔ ɓáa gbɛ̀ɛ̂ wálî nɛ̀lɛ́ ɓé kɛ̀ɛ/",
+      "phonetic_simple": "HO-ngo ba GBÈ, wa-LI nè-LÈ bé kè-è",
+      "translation": "Quel est le prix ? Combien ça coûte ?"
     },
     {
-      "speaker": "Personne B",
+      "speaker": "Le vendeur",
       "text": "Gwíikpɔ̀lu hàaɓa káa à wáa tɔ́nɔ̂.",
       "phonetic_api": "/gwíikpɔ̀lu hàaɓa káa à wáa tɔ́nɔ̂/",
-      "phonetic_simple": "GWI-i-kpo-lou HA-a-ɓa kaa a WA-a TO-nô",
+      "phonetic_simple": "gwi-i-KPO-lu HA-a-ba ka a WA TO-no",
       "translation": "Trois bananes coûtent mille francs."
     },
     {
-      "speaker": "Personne A",
-      "text": "Dà kúlo mà !",
-      "phonetic_api": "/dà kúlo mà/",
-      "phonetic_simple": "da KOU-lo ma !",
-      "translation": "Baisse le prix !"
+      "speaker": "Le client",
+      "text": "Ŋé gwíikpɔ̀lu yá.",
+      "phonetic_api": "/ŋé gwíikpɔ̀lu yá/",
+      "phonetic_simple": "ngé GWI-i-KPO-lu YA",
+      "translation": "J'achète les bananes."
     },
     {
-      "speaker": "Personne B",
-      "text": "Ŋàá mɛ̌ŋ. Ŋé wáli ↓hwé ?",
-      "phonetic_api": "/ŋàá mɛ̌ŋ ŋé wáli ↓hwé/",
-      "phonetic_simple": "nga-a MENG. ngé WA-li hwé ?",
-      "translation": "D'accord. Est-ce que je donne l'argent ?"
-    },
-    {
-      "speaker": "Personne A",
-      "text": "Ŋàá mɛ̌ŋ. Máma, mɛ́niê !",
-      "phonetic_api": "/ŋàá mɛ̌ŋ máma mɛ́niê/",
-      "phonetic_simple": "nga-a MENG. MA-ma, MÉ-ni-Ê !",
-      "translation": "D'accord. Merci, mon ami !"
+      "speaker": "Le vendeur",
+      "text": "Àá hèɠe kwɛ́lɛ mâa.",
+      "phonetic_api": "/àá hèɠe kwɛ́lɛ mâa/",
+      "phonetic_simple": "a-a HÈ-ghè KWÉ-lè ma-a",
+      "translation": "Il m'a donné la cotonnade (marchandise remise après l'achat)."
     }
   ],
   "cultural_notes": [
-    "La négociation des prix (dà kúlo mà !) fait partie intégrante de l'expérience du marché en Guinée forestière, comme dans de nombreux marchés d'Afrique de l'Ouest, où le prix affiché est souvent un point de départ plutôt qu'un montant fixe.",
-    "Le verbe yá (acheter) employé pour la dot (nɛ̀ɛnû yá) rappelle que le mariage traditionnel kpele impliquait un échange matériel entre les familles, en lien avec les fiançailles et la délégation (kɛ́la) déjà vues en Leçon 4.",
-    "L'expression figée dà kúlo mà ! illustre un principe grammatical récurrent du kpele : les verbes concrets de mouvement (sortir, entrer, traverser) sont souvent réutilisés au sens figuré pour des situations sociales abstraites, comme ici la négociation commerciale."
+    "La négociation des prix au marché (lɔ́ɠɔkpalâŋ) est une pratique sociale courante en Guinée forestière, le mercredi (táɠahwolô) étant traditionnellement le jour du marché (Konoshenko 2019).",
+    "L'offrande de cadeaux (kwɛ̌lɛ, wálî ~ kɛ́) reste distincte de l'achat (yá) dans la culture guerzé, la première relevant de la réciprocité sociale plutôt que de la transaction commerciale."
   ],
   "exercises": [
     {
       "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Comment demande-t-on à baisser un prix ?",
+      "question": "Comment distingue-t-on yá (acheter) de yá (eau) en guerzé ?",
       "options": [
-        "À wáli yɛ̌li ?",
-        "Dà kúlo mà !",
-        "Ŋé wáli ↓hwé ?",
-        "Ŋàá kùlo wáli ɓà."
+        "Par le contexte syntaxique de la phrase",
+        "Ils s'écrivent différemment",
+        "Il n'y a pas d'ambiguïté possible"
       ],
-      "correct_answer": "Dà kúlo mà !",
-      "explanation": "Cette expression figée, construite sur kǔlo (sortir), sert à demander une réduction de prix."
+      "correct_answer": "Par le contexte syntaxique de la phrase",
+      "explanation": "Ce sont des homonymes ; seule la position dans la phrase (verbe vs objet) permet de les distinguer."
     },
     {
       "exercise_id": "ex2",
-      "type": "multiple_choice",
-      "question": "Quel sens figuré prend le verbe yá (acheter) dans la culture kpele ?",
-      "options": [
-        "Rembourser une dette",
-        "Doter, donner la dot pour une épouse",
-        "Trouver de l'argent par hasard",
-        "Vendre au marché"
-      ],
-      "correct_answer": "Doter, donner la dot pour une épouse",
-      "explanation": "nɛ̀ɛnû yá (litt. « acheter une femme ») désigne le fait de doter, une pratique matrimoniale traditionnelle."
-    },
-    {
-      "exercise_id": "ex3",
-      "type": "multiple_choice",
-      "question": "Quel verbe signifie à la fois « sortir » et « trouver par hasard » ?",
-      "options": [
-        "hwé",
-        "yá",
-        "kǔlo",
-        "hǎla"
-      ],
-      "correct_answer": "kǔlo",
-      "explanation": "kǔlo couvre plusieurs sens liés à l'idée de faire sortir ou d'émerger, y compris trouver par hasard (avec ɓà)."
-    },
-    {
-      "exercise_id": "ex4",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Pour demander « est-ce que je donne l'argent ? », on dit : « Ŋé wáli ↓[ ___ ] ? »",
-      "correct_answer": "hwé",
-      "hint": "C'est le verbe « donner, offrir »."
-    },
-    {
-      "exercise_id": "ex5",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "« Rembourse-moi l'équivalent de mon argent » se dit : « Ŋwɔ́ wáli [ ___ ] hǎla. »",
-      "correct_answer": "bɔ̀ɔ ́",
-      "hint": "Ce mot signifie « équivalent »."
-    },
-    {
-      "exercise_id": "ex6",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "« Prix » se dit [ ___ ] en kpele.",
-      "correct_answer": "hɔ̌ŋɔ",
-      "hint": "C'est un nom relationnel (rn)."
+      "sentence_with_blank": "[ ___ ] ɓáa gbɛ̀ɛ̂ ? (Quel est le prix ?)",
+      "correct_answer": "Hɔ́ŋɔ",
+      "hint": "C'est le mot pour « prix »."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Konoshenko, M. (2019). Dictionnaire kpele de la Guinée (guerzé) – français. Mandenkan 62.",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan62/62konoshenko.pdf"
+    },
+    {
+      "label": "Wikipédia — Kpèllé (langue) / Guerzé",
+      "url": "https://fr.wikipedia.org/wiki/Guerze"
+    }
+  ],
+  "confidence": "élevée",
+  "confidence_note": "Le vocabulaire de l'argent, du prix et de l'achat/don ainsi que les phrases d'exemple sont directement attestés dans Konoshenko (2019). Le point grammatical sur l'homonymie yá/yá est une observation de l'auteur basée sur les entrées lexicales séparées du dictionnaire (acheter vs eau), signalée avec prudence."
 }

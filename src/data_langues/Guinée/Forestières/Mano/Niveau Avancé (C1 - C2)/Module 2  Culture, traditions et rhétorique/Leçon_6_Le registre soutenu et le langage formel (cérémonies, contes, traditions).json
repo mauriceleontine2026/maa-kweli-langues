@@ -4,136 +4,221 @@
   "module_number": 2,
   "module_title": "Culture, traditions et rhétorique",
   "lesson_number": 6,
-  "title": "Leçon 6 : Le registre soutenu et le langage formel (cérémonies, contes, traditions)",
+  "title": "Le registre soutenu et le langage formel (cérémonies, contes, traditions)",
   "learning_objectives": [
-    "Maîtriser les formules d'apparat et les codes de politesse lors des cérémonies coutumières en Mano",
-    "Employer le lexique formel des contes et de la transmission orale traditionnelle",
-    "Adapter son niveau de langue pour s'adresser officiellement à une assemblée solennelle"
+    "Reconnaître les marqueurs stylistiques du conte traditionnel mano (formules d'ouverture, connecteur narratif yēlɛ́)",
+    "Utiliser un vocabulaire honorifique adapté aux cérémonies et à l'adresse aux aînés",
+    "Distinguer le registre courant du registre soutenu utilisé lors des palabres et rites"
   ],
   "phonetic_focus": {
-    "key_sounds": "Le registre de prestige requiert une diction posée et des contrastes tonaux très nets. Le terme désignant l'assemblée cérémonielle ou l'alliance (/ɓɛ̀-wɔ̃/) utilise la consonne implosive /ɓ/ associée à une voyelle double au ton bas-moyen stable.",
-    "common_pitfalls": "Pendant une déclamation formelle, ne lissez pas les tons. L'insistance ou le respect ne s'expriment pas en élevant le volume de la voix, mais en étirant de manière mélodique les voyelles à ton haut."
+    "key_sounds": "Le registre soutenu ralentit le débit et allonge certaines voyelles finales à valeur emphatique (ex. gbāā 'vraiment, tout à fait' avec voyelle longue) : un trait prosodique distinctif du discours cérémoniel.",
+    "common_pitfalls": "Utiliser des pronoms ou formes verbales du registre courant pour s'adresser à un aîné ou un chef en contexte cérémoniel, ce qui serait perçu comme un manque de respect dans la culture mano."
   },
   "vocabulary": [
     {
-      "word_id": "v24_1",
-      "term": "ɓɛ̀-wɔ̃",
-      "phonetic_api": "/ɓɛ˩wɔ̃˧/",
-      "phonetic_simple": "BÈ-WONG",
-      "translation": "Alliance / Consensus cérémoniel / Accord d'assemblée",
-      "example_sentence": "Wa wɔ ɓɛ̀-wɔ̃ dɔ.",
-      "example_phonetic": "/wa˧ wɔ˦ ɓɛ˩wɔ̃˧ dɔ˧/",
-      "example_translation": "Ils ont scellé l'alliance cérémonielle."
+      "word_id": "v1",
+      "term": "dɔ̄mì",
+      "phonetic_api": "/dɔ̄mì/",
+      "phonetic_simple": "DÔ-mi",
+      "translation": "chef, autorité (terme d'adresse respectueux)",
+      "example_sentence": "Kō dɔ̄mì.",
+      "example_phonetic": "/kō dɔ̄mì/",
+      "example_translation": "Notre chef."
     },
     {
-      "word_id": "v24_2",
-      "term": "mɛ-gbɛ̃́-yɔ̀",
-      "phonetic_api": "/mɛ˧gɓɛ̃˦jɔ˩/",
-      "phonetic_simple": "MÈ-GBENG-YOR",
-      "translation": "Honorables notables / Dignitaires / Anciens de l'assemblée",
-      "example_sentence": "Mɛ-gbɛ̃́-yɔ̀, á wɔ̃ loni.",
-      "example_phonetic": "/mɛ˧gɓɛ̃˦jɔ˩ a˦ wɔ̃˧ lo˧ni˧/",
-      "example_translation": "Honorables notables, écoutez la parole."
+      "word_id": "v2",
+      "term": "gbāā",
+      "phonetic_api": "/gbāā/",
+      "phonetic_simple": "GBA-a",
+      "translation": "vraiment, tout à fait, complètement (intensif du registre soutenu)",
+      "example_sentence": "Yēlɛ́ gbāā ē tó yī.",
+      "example_phonetic": "/jēlɛ́ gbāā ē tó jī/",
+      "example_translation": "Ensuite, il est vraiment resté là-bas."
     },
     {
-      "word_id": "v24_3",
-      "term": "san-wɔ̃-la",
-      "phonetic_api": "/sã˩wɔ̃˧la˧/",
-      "phonetic_simple": "SANG-WONG-LAH",
-      "translation": "Parler en paraboles / Conter / Utiliser un langage imagé traditionnel",
-      "example_sentence": "À ɓe san-wɔ̃-la lē la.",
-      "example_phonetic": "/a˧ ɓe˧ sã˩wɔ̃˧la˧ leː˧ la˧/",
-      "example_translation": "Il parle en paraboles (il récite un conte)."
+      "word_id": "v3",
+      "term": "yēlɛ́",
+      "phonetic_api": "/jēlɛ́/",
+      "phonetic_simple": "yé-LÉ",
+      "translation": "ensuite, alors (connecteur narratif de conte)",
+      "example_sentence": "Yēlɛ́ gbāā ē tó yī...",
+      "example_phonetic": "/jēlɛ́ gbāā ē tó jī/",
+      "example_translation": "Ensuite, il resta là-bas... (formule de progression du conte)"
     },
     {
-      "word_id": "v24_4",
-      "term": "kpɛ̃́-wɔ̃",
-      "phonetic_api": "/kpɛ̃˦wɔ̃˧/",
-      "phonetic_simple": "KPENG-WONG",
-      "translation": "Langage d'apparat / Parole formelle de courtoisie",
-      "example_sentence": "Kpɛ̃́-wɔ̃ ɓe à la.",
-      "example_phonetic": "/kpɛ̃˦wɔ̃˧ ɓe˧ a˧ la˧/",
-      "example_translation": "Il maîtrise le langage d'apparat."
+      "word_id": "v4",
+      "term": "gèē",
+      "phonetic_api": "/gèē/",
+      "phonetic_simple": "guè-É",
+      "translation": "dire, proclamer (verbe de la parole solennelle)",
+      "example_sentence": "Wɔ̀ɔ́ɔ̀ láà gèē...",
+      "example_phonetic": "/wɔ̀ɔ́ɔ̀ láà gèē/",
+      "example_translation": "Le lion proclama que..."
+    },
+    {
+      "word_id": "v5",
+      "term": "wàā",
+      "phonetic_api": "/wàā/",
+      "phonetic_simple": "OUA-a",
+      "translation": "parole (au sens solennel : discours, sentence)",
+      "example_sentence": "Dɔ̄mì wàā lɛ̄ sɛ̀.",
+      "example_phonetic": "/dɔ̄mì wàā lɛ̄ sɛ̀/",
+      "example_translation": "La parole du chef est juste."
+    },
+    {
+      "word_id": "v6",
+      "term": "kpílì",
+      "phonetic_api": "/kpílì/",
+      "phonetic_simple": "KPI-li",
+      "translation": "fête, cérémonie",
+      "example_sentence": "Kpílì gbùò lɛ̄ pɛ̄lɛ̄í.",
+      "example_phonetic": "/kpílì gbùò lɛ̄ pɛ̄lɛ̄í/",
+      "example_translation": "Une grande cérémonie a lieu au village."
+    },
+    {
+      "word_id": "v7",
+      "term": "sɛ̀",
+      "phonetic_api": "/sɛ̀/",
+      "phonetic_simple": "SÈ",
+      "translation": "juste, correct, bon (qualificatif valorisant en discours formel)",
+      "example_sentence": "À wàā lɛ̄ sɛ̀.",
+      "example_phonetic": "/à wàā lɛ̄ sɛ̀/",
+      "example_translation": "Sa parole est juste."
+    },
+    {
+      "word_id": "v8",
+      "term": "kìē",
+      "phonetic_api": "/kìē/",
+      "phonetic_simple": "ki-È",
+      "translation": "voir, constater (verbe de constat solennel, 'on voit que')",
+      "example_sentence": "Kìē áà gbóó ɓò pɛ́nɛ̄ɛ̄.",
+      "example_phonetic": "/kìē áà gbóó ɓò pɛ́nɛ̄ɛ̄/",
+      "example_translation": "On voit qu'il pleure aujourd'hui."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p24_1",
-      "original": "Mɛ-gbɛ̃́-yɔ̀, á wɔ̃ loni baika, kpɛ̃́-wɔ̃ dōo ɓe ń la pɔ̃́.",
-      "phonetic_api": "/mɛ˧gɓɛ̃˦jɔ˩ a˦ wɔ̃˧ lo˧ni˧ bai̯˧ka˧ kpɛ̃˦wɔ̃˧ doː˧ ɓe˧ ń la˧ pɔ̃˦/",
-      "phonetic_simple": "MÈ-GBENG-YOR, A WONG LONEE BAÏ-KAH, KPENG-WONG DÔÔ BÉ N LA PONG",
-      "translation": "Honorables notables, écoutez ma parole s'il vous plaît, j'ai une parole d'apparat à élever ce soir.",
-      "context": "Formule protocolaire obligatoire pour introduire un discours officiel lors d'une cérémonie."
+      "phrase_id": "p1",
+      "original": "Yēlɛ́ gbāā ē tó yī...",
+      "phonetic_api": "/jēlɛ́ gbāā ē tó jī/",
+      "phonetic_simple": "yé-lé gba-a é to yi",
+      "translation": "Et alors, il resta vraiment là-bas... (formule d'ouverture/progression d'un conte)",
+      "context": "Formule narrative typique pour faire avancer un conte traditionnel avec emphase."
     },
     {
-      "phrase_id": "p24_2",
-      "original": "Wa zĩ̀ĩ̀-mɛ-yɔ̀ wɔ ɓɛ̀-wɔ̃ mɛ̀ dɔ sɔ̃́ fɛ̃́.",
-      "phonetic_api": "/wa˧ zĩ˩ĩ˩mɛ˧jɔ˩ wɔ˦ ɓɛ˩wɔ̃˧ mɛ˩ dɔ˧ sɔ̃˦ fɛ̃˦/",
-      "phonetic_simple": "WA ZEENG-MÈ-YOR WOR BÈ-WONG MÈ DOR SONG FENG",
-      "translation": "Nos ancêtres ont établi cette alliance cérémonielle sur la base du droit traditionnel.",
-      "context": "Rappeler les fondements d'une coutume lors d'un rassemblement familial ou inter-villageois."
+      "phrase_id": "p2",
+      "original": "Dɔ̄mì wàā lɛ̄ sɛ̀, kō gé lī.",
+      "phonetic_api": "/dɔ̄mì wàā lɛ̄ sɛ̀, kō gé lī/",
+      "phonetic_simple": "dô-mi oua-a lê sè, ko gué li",
+      "translation": "La parole du chef est juste, nous l'acceptons.",
+      "context": "Formule de déférence envers l'autorité en contexte de palabre formelle."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Kō dɔ̄mì, ŋ̄ gèē ī mā sɛ̀kɛ̄.",
+      "phonetic_api": "/kō dɔ̄mì, ŋ̄ gèē ī mā sɛ̀kɛ̄/",
+      "phonetic_simple": "ko dô-mi, ng guè-è i ma sè-kê",
+      "translation": "Notre chef, je te le dis avec respect/sérieux.",
+      "context": "Formule d'adresse respectueuse introduisant une prise de parole formelle."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Wɔ̀ɔ́ɔ̀ láà gèē óò wìì vɔ̀ yɔ̄ɔ̄-yɔ̄ɔ̄ séŋ́ zɛ̄ tòò.",
+      "phonetic_api": "/wɔ̀ɔ́ɔ̀ láà gèē óò wìì vɔ̀ jɔ̄ɔ̄-jɔ̄ɔ̄ séŋ́ zɛ̄ tòò/",
+      "phonetic_simple": "ouo-o-o la-a guè-é o-o oui-i vo yo-o-yo-o séng zê to-o",
+      "translation": "Le lion proclama que tous les animaux laids seraient tués le lendemain.",
+      "context": "Exemple de discours solennel rapporté (verbe láà gèē) dans le registre du conte."
     }
   ],
   "grammar_points": [
     {
-      "concept": "Le pluriel révérencieux '-yɔ̀' et la focalisation d'apparat",
-      "explanation": "Dans le langage cérémoniel formel, le pluriel des titres ou des fonctions respectées reçoit systématiquement le suffixe tonal bas '-yɔ̀' (ou '-vɔ̀'). Pour donner un caractère solennel à une affirmation, le verbe de parole se combine avec le locatif d'autorité 'sɔ̃́ fɛ̃́' (sur la base du droit/de la justice).",
+      "concept": "Marqueurs du registre soutenu : intensifs, formules narratives et adresse honorifique",
+      "explanation": "Le registre soutenu mano, utilisé dans les contes, cérémonies et palabres, se caractérise par l'emploi d'intensifs comme gbāā ('vraiment, tout à fait'), de formules de progression narrative comme yēlɛ́ ('et alors') en tête de proposition, du verbe solennel láà gèē ('proclamer') pour rapporter une parole d'autorité, et de termes d'adresse respectueux comme dɔ̄mì ('chef/autorité') précédant une prise de parole formelle.",
       "rules": [
-        "Pluriel honorifique : [Nom de statut] + yɔ̀ (ton bas).",
-        "Formule solennelle : [Sujet] + [Verbe] + sɔ̃́ fɛ̃́."
+        "Formule narrative de conte : Yēlɛ́ (+ gbāā) + Sujet + Aux + Verbe... (progression emphatique)",
+        "Discours rapporté solennel : Sujet + láà gèē + complétive",
+        "Adresse respectueuse : Kō/Ŋ̄ + dɔ̄mì (terme d'adresse), + suite du message"
       ],
       "examples": [
         {
-          "structure": "mɛ-gbɛ̃́-yɔ̀",
-          "phonetic_api": "/mɛ˧ gɓɛ̃˦ jɔ˩/",
-          "meaning": "Les dignitaires / Honorables notables"
+          "structure": "Yēlɛ́ gbāā ē tó yī.",
+          "phonetic_api": "/jēlɛ́ gbāā ē tó jī/",
+          "meaning": "Et alors, il resta vraiment là-bas."
         },
         {
-          "structure": "À ɓe lē la sɔ̃́ fɛ̃́.",
-          "phonetic_api": "/a˧ ɓe˧ leː˧ la˧ sɔ̃˦ fɛ̃˦/",
-          "meaning": "Il parle en toute légitimité (selon la coutume)."
+          "structure": "Wɔ̀ɔ́ɔ̀ láà gèē óò wìì vɔ̀ yɔ̄ɔ̄-yɔ̄ɔ̄ séŋ́ zɛ̄ tòò.",
+          "phonetic_api": "/wɔ̀ɔ́ɔ̀ láà gèē óò wìì vɔ̀ jɔ̄ɔ̄-jɔ̄ɔ̄ séŋ́ zɛ̄ tòò/",
+          "meaning": "Le lion proclama que tous les animaux laids seraient tués le lendemain."
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Le Chef de Cérémonie",
-      "text": "Mɛ-gbɛ̃́-yɔ̀, wa ka ɓɛ̀-wɔ̃ mɛ̀ dɔ gbe-gbe baika.",
-      "phonetic_api": "/mɛ˧gɓɛ̃˦jɔ˩ wa˧ ka˧ ɓɛ˩wɔ̃˧ mɛ˩ dɔ˧ gbe˧gbe˧ bai̯˧ka˧/",
-      "phonetic_simple": "MÈ-GBENG-YOR, WA KAH BÈ-WONG MÈ DOR GBÉ-GBÉ BAÏ-KAH.",
-      "translation": "Honorables notables, nous devons valider rigoureusement cette alliance s'il vous plaît."
+      "speaker": "Griot/conteur",
+      "text": "Kō dɔ̄mì vɔ̀, ŋ̄ gèē kā mā sɛ̀kɛ̄. Yēlɛ́ gbāā ē tó yī...",
+      "phonetic_api": "/kō dɔ̄mì vɔ̀, ŋ̄ gèē kā mā sɛ̀kɛ̄, jēlɛ́ gbāā ē tó jī/",
+      "phonetic_simple": "ko dô-mi vo, ng guè-è ka ma sè-kê, yé-lé gba-a é to yi",
+      "translation": "Nos chefs, je vous parle avec sérieux. Et alors, il resta vraiment là-bas..."
     },
     {
-      "speaker": "L'Orateur",
-      "text": "Ao ń de, kpɛ̃́-wɔ̃ mɛ̀ ɓe sɔ̃́ fɛ̃́. Wa le à kɛ gbe-gbe.",
-      "phonetic_api": "/ao̯˧ ń de˧ kpɛ̃˦wɔ̃˧ mɛ˩ ɓe˧ sɔ̃˦ fɛ̃˦ wa˧ le˧ a˧ kɛ˧ gbe˧gbe˧/",
-      "phonetic_simple": "A-O N DÉ, KPENG-WONG MÈ BÉ SONG FENG. WA LÉ A KÈ GBÉ-GBÉ.",
-      "translation": "Oui mon père, ce discours d'apparat est conforme à la justice traditionnelle. Nous allons l'accomplir correctement."
+      "speaker": "Assemblée",
+      "text": "Dɔ̄mì wàā lɛ̄ sɛ̀, kō gé lī.",
+      "phonetic_api": "/dɔ̄mì wàā lɛ̄ sɛ̀, kō gé lī/",
+      "phonetic_simple": "dô-mi oua-a lê sè, ko gué li",
+      "translation": "La parole du chef/conteur est juste, nous l'acceptons."
+    },
+    {
+      "speaker": "Griot/conteur",
+      "text": "Kìē áà gbóó ɓò pɛ́nɛ̄ɛ̄, ɓīī yē lɛ́ lɛ̄ wìì yɔ̄ɔ̄ ká wìì vɔ̀ séŋ́ bà.",
+      "phonetic_api": "/kìē áà gbóó ɓò pɛ́nɛ̄ɛ̄, ɓīī jē lɛ́ lɛ̄ wìì jɔ̄ɔ̄ ká wìì vɔ̀ séŋ́ bà/",
+      "phonetic_simple": "ki-è a-a gbo-o bo pé-nè-è, bi-i yé lé lê oui-i yo-o ka oui-i vo séng ba",
+      "translation": "On le voit pleurer aujourd'hui, car il est le plus laid des animaux."
     }
   ],
   "cultural_notes": [
-    "En Guinée Forestière, l'ouverture d'une cérémonie de mariage, de funérailles de notable ou de fête de génération répond à un protocole linguistique immuable. Saluer l'assemblée en utilisant le terme 'mɛ-gbɛ̃́-yɔ̀' témoigne d'une haute éducation. Les contes et récits s'introduisent également par des formules consacrées qui suspendent le temps ordinaire au profit du temps mythique des ancêtres."
+    "Le registre soutenu du conte mano se distingue par des formules de progression narrative répétées (yēlɛ́ 'ensuite') qui structurent le récit oral et signalent au public les étapes clés de l'histoire, un procédé documenté par Khachaturyan à partir de textes narratifs collectés en Guinée forestière.",
+    "L'adresse formelle aux chefs (dɔ̄mì) et aux aînés lors des palabres villageoises suit des codes de politesse stricts, où la reconnaissance explicite de l'autorité de la parole précède toute prise de position personnelle."
   ],
   "exercises": [
     {
-      "exercise_id": "ex24_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel terme désigne le langage formel d'apparat et de courtoisie utilisé lors des grands discours ?",
+      "question": "Quel mot marque un intensif emphatique du registre soutenu, signifiant 'vraiment, tout à fait' ?",
       "options": [
-        "kpɛ̃́-wɔ̃",
-        "kpɛ̀ɛ̀",
-        "ti-bɔ̀"
+        "sɛ̀",
+        "gbāā",
+        "wɔ́"
       ],
-      "correct_answer": "kpɛ̃́-wɔ̃",
-      "explanation": "'kpɛ̃́-wɔ̃' qualifie spécifiquement la parole noble et polie des assemblées."
+      "correct_answer": "gbāā",
+      "explanation": "gbāā est un intensif emphatique fréquent dans le registre narratif soutenu."
     },
     {
-      "exercise_id": "ex24_2",
+      "exercise_id": "ex2",
+      "type": "multiple_choice",
+      "question": "Quel terme désigne respectueusement une autorité/un chef en mano ?",
+      "options": [
+        "fúú",
+        "dɔ̄mì",
+        "lēkè"
+      ],
+      "correct_answer": "dɔ̄mì",
+      "explanation": "dɔ̄mì signifie 'chef, autorité', terme d'adresse respectueux central dans le registre formel."
+    },
+    {
+      "exercise_id": "ex3",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Pour saluer collectivement les anciens respectés, on ajoute le suffixe : Mɛ-gbɛ̃́-[ ___ ].",
-      "correct_answer": "yɔ̀",
-      "hint": "C'est la marque du pluriel honorifique et révérencieux."
+      "sentence_with_blank": "[ ___ ] gbāā ē tó yī... (Et alors, il resta vraiment là-bas...)",
+      "correct_answer": "Yēlɛ́",
+      "hint": "Yēlɛ́ ('ensuite/et alors') est la formule narrative typique de progression dans le conte traditionnel mano."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Khachaturyan, M. (2015) Grammaire du mano, Mandenkan 54, LLACAN/CNRS",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan54/54khachaturyan.pdf"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Les formules narratives (yēlɛ́, gbāā) et le terme d'adresse dɔ̄mì sont attestés dans la grammaire académique (Mandenkan 54) à travers des textes narratifs authentiques ; les dialogues de palabre formelle ont été reconstitués par extension raisonnée de ces éléments attestés, d'où une confiance moyenne sur l'exactitude idiomatique complète du registre cérémoniel."
 }

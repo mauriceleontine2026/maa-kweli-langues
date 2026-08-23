@@ -6,370 +6,220 @@
   "lesson_number": 2,
   "title": "Les loisirs, les passions et les activités sportives",
   "learning_objectives": [
-    "Nommer des loisirs courants : danser (mǎna káa), chanter (wěle tǒo), lutter (dèê), nager (yá kɛ́lɛ̂).",
-    "Distinguer mǎna (danse générale) de kɔ̌ŋɔ (danse acrobatique spécifique).",
-    "Utiliser le verbe wěle (savoir faire quelque chose) pour parler d'une compétence.",
-    "Parler d'un jeu ou d'une plaisanterie avec gbàhá et yɔ̌la."
+    "Nommer les loisirs traditionnels guerzé (danse, lutte, tamtam)",
+    "Utiliser le verbe yɔ̌u (jouer d'un instrument) et káa (danser)",
+    "Parler de la lutte traditionnelle (dèê/lǎmu), activité physique emblématique"
   ],
   "phonetic_focus": {
-    "key_sounds": "Attention à ne pas confondre les deux homonymes wěle : wěle 1 (chanson) et wěle 2 (savoir faire quelque chose), qui se distinguent uniquement par leur construction syntaxique (nom vs verbe suivi d'un infinitif). On retrouve aussi le ton bas caractéristique de plusieurs noms d'activités : dèê, gbàhá, yɔ̌la.",
-    "common_pitfalls": "Les francophones ont tendance à : (1) traduire toute danse par mǎna, alors que kɔ̌ŋɔ désigne spécifiquement la danse acrobatique ; (2) chercher un seul verbe pour « jouer », alors que le kpele varie selon l'activité : ~ yɔ̌u pour un instrument (ɓǎla ~ yɔ̌u, jouer au tam-tam), ~ káa pour la danse (mǎna káa) ; (3) confondre wěle (chanson/savoir) avec wɛ́li (amour, Leçon 3), très proches à l'oral."
+    "key_sounds": "Le mot ɓǎla (tamtam) porte un ton bas-descendant ; le verbe yɔ̌u (jouer d'un instrument) a un ton montant caractéristique. La lutte dèê a un ton haut-descendant sur sa voyelle unique.",
+    "common_pitfalls": "Les francophones traduisent souvent « jouer » par un seul verbe guerzé, alors qu'il existe plusieurs verbes selon l'activité : yɔ̌u pour un instrument, kɛ́ pour un jeu générique, káa pour la danse."
   },
   "vocabulary": [
     {
       "word_id": "v1",
       "term": "mǎna",
       "phonetic_api": "/mǎna/",
-      "phonetic_simple": "ma-na (ton bas)",
-      "translation": "danse (~ káa = danser)",
-      "example_sentence": "Mǎna káa.",
+      "phonetic_simple": "MA-na",
+      "translation": "danse",
+      "example_sentence": "Mǎna ~ káa.",
       "example_phonetic": "/mǎna káa/",
-      "example_translation": "Danser."
+      "example_translation": "Danser (litt. faire la danse)."
     },
     {
       "word_id": "v2",
-      "term": "wěle",
-      "phonetic_api": "/wěle/",
-      "phonetic_simple": "wè-le (ton bas)",
-      "translation": "chanson (~ tǒo = chanter)",
-      "example_sentence": "Gáa wèlewóo mɛ̀ŋzî.",
-      "example_phonetic": "/gáa wèlewóo mɛ̀ŋzí/",
-      "example_translation": "J'entends une chanson."
+      "term": "ɓǎla",
+      "phonetic_api": "/ɓǎla/",
+      "phonetic_simple": "BA-la",
+      "translation": "tamtam",
+      "example_sentence": "Ɓǎla ~ yɔ̌u.",
+      "example_phonetic": "/ɓǎla yɔ̌u/",
+      "example_translation": "Jouer du tamtam."
     },
     {
       "word_id": "v3",
       "term": "dèê",
       "phonetic_api": "/dèê/",
-      "phonetic_simple": "dè-ê",
-      "translation": "lutte",
-      "example_sentence": "dèê",
-      "example_phonetic": "/dèê/",
-      "example_translation": "lutte"
+      "phonetic_simple": "DÈ-è",
+      "translation": "lutte (traditionnelle)",
+      "example_sentence": "Dèê ɓáa hɛ̀ɠɛ̂ɛ.",
+      "example_phonetic": "/dèê ɓáa hɛ̀ɠɛ̂ɛ/",
+      "example_translation": "La lutte est appréciée (litt. la lutte est un remerciement/plaisir)."
     },
     {
       "word_id": "v4",
-      "term": "gbàhá",
-      "phonetic_api": "/gbàhá/",
-      "phonetic_simple": "gba-HA",
-      "translation": "jeu (nom générique)",
-      "example_sentence": "gbàhá",
-      "example_phonetic": "/gbàhá/",
-      "example_translation": "jeu"
+      "term": "lǎmu",
+      "phonetic_api": "/lǎmu/",
+      "phonetic_simple": "LA-mou",
+      "translation": "lutte (il faut faire tomber l'adversaire)",
+      "example_sentence": "Nòŋdálà káa lǎmu kɛ̂i gwîi hù.",
+      "example_phonetic": "/nòŋdálà káa lǎmu kɛ̂i gwîi hù/",
+      "example_translation": "Les enfants sont en train de lutter dans la cour."
     },
     {
       "word_id": "v5",
-      "term": "ɓǎla",
-      "phonetic_api": "/ɓǎla/",
-      "phonetic_simple": "ɓa-la (ton bas)",
-      "translation": "tam-tam (~ yɔ̌u = jouer au tam-tam)",
-      "example_sentence": "Ɓǎla yɔ̌u.",
-      "example_phonetic": "/ɓǎla yɔ̌u/",
-      "example_translation": "Jouer au tam-tam."
+      "term": "yálôŋ",
+      "phonetic_api": "/yálôŋ/",
+      "phonetic_simple": "YA-lông",
+      "translation": "danse accompagnée de chants",
+      "example_sentence": "Yálôŋ ɓáa wéleŋdɛlɔɠɔ̂ hù.",
+      "example_phonetic": "/yálôŋ ɓáa wéleŋdɛlɔɠɔ̂ hù/",
+      "example_translation": "La danse chantée a lieu le samedi."
     },
     {
       "word_id": "v6",
-      "term": "kɔ̌ŋɔ",
-      "phonetic_api": "/kɔ̌ŋɔ/",
-      "phonetic_simple": "ko-ngo (ton bas)",
-      "translation": "danse acrobatique ; danser la danse acrobatique",
-      "example_sentence": "kɔ̌ŋɔ",
-      "example_phonetic": "/kɔ̌ŋɔ/",
-      "example_translation": "danse acrobatique"
+      "term": "zèle",
+      "phonetic_api": "/zèle/",
+      "phonetic_simple": "ZÈ-lè",
+      "translation": "chanson (notamment de travail)",
+      "example_sentence": "Zèle ~ ɓó.",
+      "example_phonetic": "/zèle ɓó/",
+      "example_translation": "Chanter une chanson."
     },
     {
       "word_id": "v7",
-      "term": "yɔ̌la",
-      "phonetic_api": "/yɔ̌la/",
-      "phonetic_simple": "yo-la (ton bas)",
-      "translation": "plaisanterie (~ kǔlo = blaguer)",
-      "example_sentence": "yɔ̌la kǔlo",
-      "example_phonetic": "/yɔ̌la kǔlo/",
-      "example_translation": "blaguer"
+      "term": "gbàhá",
+      "phonetic_api": "/gbàhá/",
+      "phonetic_simple": "GBA-ha",
+      "translation": "jeu (nom générique)",
+      "example_sentence": "Gbàhá kɛ́.",
+      "example_phonetic": "/gbàhá kɛ́/",
+      "example_translation": "Faire un jeu."
     },
     {
       "word_id": "v8",
-      "term": "lǒzo",
-      "phonetic_api": "/lǒzo/",
-      "phonetic_simple": "lo-zo (ton bas)",
-      "translation": "chasseur (activité de chasse)",
-      "example_sentence": "lǒzo",
-      "example_phonetic": "/lǒzo/",
-      "example_translation": "chasseur"
-    },
-    {
-      "word_id": "v9",
-      "term": "kɛ́lɛ̂",
-      "phonetic_api": "/kɛ́lɛ̂/",
-      "phonetic_simple": "KÈ-lê",
-      "translation": "frapper, battre (yá ~ = nager, litt. frapper l'eau)",
-      "example_sentence": "yá kɛ́lɛ̂",
-      "example_phonetic": "/yá kɛ́lɛ̂/",
-      "example_translation": "nager"
-    },
-    {
-      "word_id": "v10",
-      "term": "zèle",
-      "phonetic_api": "/zèle/",
-      "phonetic_simple": "zè-le",
-      "translation": "chanson de travail (~ ɓó = chanter des chansons)",
-      "example_sentence": "zèle ɓó",
-      "example_phonetic": "/zèle ɓó/",
-      "example_translation": "chanter des chansons de travail"
-    },
-    {
-      "word_id": "v11",
-      "term": "wěle 2",
-      "phonetic_api": "/wěle/",
-      "phonetic_simple": "wè-le (ton bas)",
-      "translation": "savoir (faire quelque chose)",
-      "example_sentence": "wěle",
-      "example_phonetic": "/wěle/",
-      "example_translation": "savoir faire"
-    },
-    {
-      "word_id": "v12",
-      "term": "túluuŋ",
-      "phonetic_api": "/túluuŋ/",
-      "phonetic_simple": "TOU-lou-oung",
-      "translation": "pêche au filet (occupation traditionnellement féminine)",
-      "example_sentence": "túluuŋ",
-      "example_phonetic": "/túluuŋ/",
-      "example_translation": "pêche au filet"
+      "term": "kólô",
+      "phonetic_api": "/kólô/",
+      "phonetic_simple": "KO-lô",
+      "translation": "travail (par contraste avec le loisir)",
+      "example_sentence": "Kólô ~ kɛ́.",
+      "example_phonetic": "/kólô kɛ́/",
+      "example_translation": "Travailler."
     }
   ],
   "common_phrases": [
     {
       "phrase_id": "p1",
-      "original": "Gáa wèlewóo mɛ̀ŋzî.",
-      "phonetic_api": "/gáa wèlewóo mɛ̀ŋzí/",
-      "phonetic_simple": "gaa WÈ-le-wo-o MÈNG-zi",
-      "translation": "J'entends une chanson.",
-      "context": "Décrire ce qu'on entend en musique"
+      "original": "Nòŋdálà káa lǎmu kɛ̂i gwîi hù.",
+      "phonetic_api": "/nòŋdálà káa lǎmu kɛ̂i gwîi hù/",
+      "phonetic_simple": "no-ng-DA-la KA-a LA-mou ké-i GWI-i hou",
+      "translation": "Les enfants sont en train de lutter dans la cour.",
+      "context": "Phrase utilisant le progressif káa + V-i vu en A1_M3_L8, appliqué à la lutte."
     },
     {
       "phrase_id": "p2",
-      "original": "Mǎna káa.",
-      "phonetic_api": "/mǎna káa/",
-      "phonetic_simple": "ma-na KA-a",
-      "translation": "Danser.",
-      "context": "Parler d'un loisir en général"
+      "original": "Yálôŋ ɓáa wéleŋdɛlɔɠɔ̂ hù.",
+      "phonetic_api": "/yálôŋ ɓáa wéleŋdɛlɔɠɔ̂ hù/",
+      "phonetic_simple": "YA-lông ba WÉ-lèng-dè-lo-ghô hou",
+      "translation": "La danse chantée a lieu le samedi.",
+      "context": "Réutilise wéleŋdɛlɔɠɔ̂ (samedi, jour des danses) déjà vu en A1_M2_L6."
     },
     {
       "phrase_id": "p3",
-      "original": "Ɓǎla yɔ̌u.",
+      "original": "Ɓǎla ~ yɔ̌u.",
       "phonetic_api": "/ɓǎla yɔ̌u/",
-      "phonetic_simple": "ɓa-la yo-ou",
-      "translation": "Jouer au tam-tam.",
-      "context": "Décrire une activité musicale"
+      "phonetic_simple": "BA-la YO-ou",
+      "translation": "Jouer du tamtam.",
+      "context": "Expression verbale figée attestée dans le dictionnaire."
     },
     {
       "phrase_id": "p4",
-      "original": "Yɔ̌la kǔlo.",
-      "phonetic_api": "/yɔ̌la kǔlo/",
-      "phonetic_simple": "yo-la kou-lo",
-      "translation": "Blaguer, faire des plaisanteries.",
-      "context": "Décrire une soirée entre amis"
+      "original": "É mǎna ~ káa ?",
+      "phonetic_api": "/é mǎna káa/",
+      "phonetic_simple": "é MA-na KA-a",
+      "translation": "Tu danses ? (litt. tu fais la danse ?)",
+      "context": "Question sur une activité de loisir."
     },
     {
       "phrase_id": "p5",
-      "original": "Yá kɛ́lɛ̂.",
-      "phonetic_api": "/yá kɛ́lɛ̂/",
-      "phonetic_simple": "ya KÈ-lê",
-      "translation": "Nager.",
-      "context": "Parler d'une activité physique à la rivière"
-    },
-    {
-      "phrase_id": "p6",
-      "original": "Kúwɔ lɔ̀i hû, nú kélee gáa lǒzo.",
-      "phonetic_api": "/kúwɔ lɔ̀i hû nú kélee gáa lǒzo/",
-      "phonetic_simple": "KOU-wo lo-i hoû, nou KÉ-le-e gaa lo-ZO",
-      "translation": "Dans notre pays, tout le monde chasse.",
-      "context": "Décrire une activité traditionnelle répandue"
-    },
-    {
-      "phrase_id": "p7",
-      "original": "É wěle mǎna kɛ́i ?",
-      "phonetic_api": "/é wěle mǎna kɛ́i/",
-      "phonetic_simple": "é wè-le ma-na KÈ-i ?",
-      "translation": "Sais-tu danser ?",
-      "context": "Demander une compétence à quelqu'un"
-    },
-    {
-      "phrase_id": "p8",
-      "original": "Zèle ɓó.",
-      "phonetic_api": "/zèle ɓó/",
-      "phonetic_simple": "zè-le BO",
-      "translation": "Chanter des chansons de travail.",
-      "context": "Décrire une activité collective aux champs"
+      "original": "Ŋé zèle ɓó.",
+      "phonetic_api": "/ŋé zèle ɓó/",
+      "phonetic_simple": "ngé ZÈ-lè BO",
+      "translation": "Je chante une chanson.",
+      "context": "Phrase construite sur le modèle attesté zèle ~ ɓó (chanter des chansons)."
     }
   ],
   "grammar_points": [
     {
-      "concept": "Le verbe léger « faire » selon l'activité",
-      "explanation": "Contrairement au français où « jouer » ou « faire » couvre presque toutes les activités, le kpele choisit un verbe léger différent selon le type de loisir : ~ káa pour la danse, ~ yɔ̌u pour un instrument, ~ tǒo pour une chanson.",
+      "concept": "Les constructions verbe-support (N + V léger)",
+      "explanation": "Beaucoup d'activités en guerzé se disent avec un nom d'activité suivi d'un verbe support de sens général (« faire »/« jouer »/« dire ») : mǎna ~ káa (litt. danse-faire), ɓǎla ~ yɔ̌u (litt. tamtam-jouer), zèle ~ ɓó (litt. chanson-dire).",
       "rules": [
-        "mǎna káa = danser (litt. « faire la danse »).",
-        "ɓǎla yɔ̌u = jouer au tam-tam (litt. « frapper le tam-tam »).",
-        "wěle tǒo = chanter (litt. « porter la chanson »).",
-        "yɔ̌la kǔlo = blaguer (litt. « défaire/enlever la plaisanterie »)."
+        "[Nom d'activité] + kɛ́/káa/yɔ̌u/ɓó = faire cette activité, selon un verbe support spécifique à chaque nom.",
+        "Le choix du verbe support (kɛ́, káa, yɔ̌u, ɓó) n'est pas prévisible et doit être appris avec chaque nom."
       ],
       "examples": [
         {
-          "structure": "mǎna káa / ɓǎla yɔ̌u / wěle tǒo",
-          "phonetic_api": "/mǎna káa/ /ɓǎla yɔ̌u/ /wěle tǒo/",
-          "meaning": "danser / jouer du tam-tam / chanter"
-        }
-      ]
-    },
-    {
-      "concept": "Le verbe wěle : savoir faire quelque chose",
-      "explanation": "Ce wěle-là (homonyme du nom « chanson ») est un verbe qui exprime la compétence : il se construit avec un second verbe à une forme spéciale (infinitif en -ì/-í).",
-      "rules": [
-        "é wěle mǎna kɛ́i ? = sais-tu danser ? (litt. « tu sais danse-faire ? »).",
-        "Ce wěle est à bien distinguer du nom wěle (chanson) : seul le contexte syntaxique (suivi d'un verbe) permet de les différencier à l'oral."
-      ],
-      "examples": [
-        {
-          "structure": "é wěle mǎna kɛ́i",
-          "phonetic_api": "/é wěle mǎna kɛ́i/",
-          "meaning": "sais-tu danser ?"
-        }
-      ]
-    },
-    {
-      "concept": "mǎna et kɔ̌ŋɔ : deux niveaux de danse",
-      "explanation": "Le kpele distingue la danse en général (mǎna) d'un genre spécifique, la danse acrobatique (kɔ̌ŋɔ), qui est aussi utilisée au sens figuré pour « se débattre ».",
-      "rules": [
-        "mǎna = terme générique pour « danse ».",
-        "kɔ̌ŋɔ = danse acrobatique spécifique ; le même mot signifie aussi « se débattre » pour un animal ou un enfant.",
-        "Cette double signification illustre le lien entre mouvement vif et danse dans le vocabulaire kpele."
-      ],
-      "examples": [
-        {
-          "structure": "mǎna vs kɔ̌ŋɔ",
-          "phonetic_api": "/mǎna/ vs /kɔ̌ŋɔ/",
-          "meaning": "danse générale vs danse acrobatique / se débattre"
-        }
-      ]
-    },
-    {
-      "concept": "Les activités collectives : chasse et pêche",
-      "explanation": "Certains loisirs traditionnels sont genrés dans la culture kpele : la chasse (lǒzo) est traditionnellement une activité masculine, la pêche au filet (túluuŋ) une occupation féminine.",
-      "rules": [
-        "lǒzo (chasseur, chasse) s'associe à des activités de brousse.",
-        "túluuŋ (pêche au filet) est décrite dans le dictionnaire comme une occupation des femmes."
-      ],
-      "examples": [
-        {
-          "structure": "lǒzo / túluuŋ",
-          "phonetic_api": "/lǒzo/ /túluuŋ/",
-          "meaning": "chasse (activité masculine) / pêche au filet (activité féminine)"
+          "structure": "ɓǎla ~ yɔ̌u / mǎna ~ káa / zèle ~ ɓó",
+          "phonetic_api": "/ɓǎla yɔ̌u, mǎna káa, zèle ɓó/",
+          "meaning": "jouer du tamtam / danser / chanter"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Personne A",
-      "text": "É wěle mǎna kɛ́i ?",
-      "phonetic_api": "/é wěle mǎna kɛ́i/",
-      "phonetic_simple": "é wè-le ma-na KÈ-i ?",
-      "translation": "Sais-tu danser ?"
+      "speaker": "Hehee",
+      "text": "É mǎna ~ káa ?",
+      "phonetic_api": "/é mǎna káa/",
+      "phonetic_simple": "é MA-na KA-a",
+      "translation": "Tu danses ?"
     },
     {
-      "speaker": "Personne B",
-      "text": "Ŋàá mɛ̌ŋ, ŋé wěle kɔ̌ŋɔ kɛ́i máŋ.",
-      "phonetic_api": "/ŋàá mɛ̌ŋ ŋé wěle kɔ̌ŋɔ kɛ́i máŋ/",
-      "phonetic_simple": "nga-a MENG, ngé wè-le ko-ngo KÈ-i mang",
-      "translation": "Oui, je sais aussi faire la danse acrobatique."
+      "speaker": "Pépé",
+      "text": "Òowɛi, yálôŋ ɓáa wéleŋdɛlɔɠɔ̂ hù.",
+      "phonetic_api": "/òowɛi yálôŋ ɓáa wéleŋdɛlɔɠɔ̂ hù/",
+      "phonetic_simple": "o-wè-i YA-lông ba WÉ-lèng-dè-lo-ghô hou",
+      "translation": "Oui, la danse chantée a lieu le samedi."
     },
     {
-      "speaker": "Personne A",
-      "text": "Gáa wèlewóo mɛ̀ŋzî. Ɓǎla yɔ̌u ?",
-      "phonetic_api": "/gáa wèlewóo mɛ̀ŋzí ɓǎla yɔ̌u/",
-      "phonetic_simple": "gaa WÈ-le-wo-o MÈNG-zi. ɓa-la yo-ou ?",
-      "translation": "J'entends une chanson. On joue du tam-tam ?"
+      "speaker": "Hehee",
+      "text": "Nòŋdálà káa lǎmu kɛ̂i gwîi hù ?",
+      "phonetic_api": "/nòŋdálà káa lǎmu kɛ̂i gwîi hù/",
+      "phonetic_simple": "no-ng-DA-la KA-a LA-mou ké-i GWI-i hou",
+      "translation": "Les enfants sont-ils en train de lutter dans la cour ?"
     },
     {
-      "speaker": "Personne B",
-      "text": "Yɔ̌la kǔlo tà, kú lì mǎna ↓kɛ̂i.",
-      "phonetic_api": "/yɔ̌la kǔlo tà kú lì mǎna ↓kɛ̂i/",
-      "phonetic_simple": "yo-la kou-lo ta, kou li ma-na kê-i",
-      "translation": "Assez de plaisanteries, allons danser."
-    },
-    {
-      "speaker": "Personne A",
-      "text": "Máma, mɛ́niê !",
-      "phonetic_api": "/máma mɛ́niê/",
-      "phonetic_simple": "MA-ma MÉ-ni-Ê",
-      "translation": "Merci, mon ami !"
+      "speaker": "Pépé",
+      "text": "Òowɛi, dèê ɓáa hɛ̀ɠɛ̂ɛ mà!",
+      "phonetic_api": "/òowɛi dèê ɓáa hɛ̀ɠɛ̂ɛ mà/",
+      "phonetic_simple": "o-wè-i DÈ-è ba HÈ-guè-è ma",
+      "translation": "Oui, ils aiment beaucoup la lutte !"
     }
   ],
   "cultural_notes": [
-    "La danse acrobatique (kɔ̌ŋɔ) occupe une place particulière dans les loisirs kpele, suffisamment marquée pour que le même mot serve aussi à décrire les mouvements vifs d'un animal qui se débat.",
-    "Les chansons de travail (zèle) accompagnent traditionnellement les tâches collectives aux champs, une pratique qui allie loisir et travail.",
-    "La répartition genrée de certaines activités (chasse masculine avec lǒzo, pêche au filet féminine avec túluuŋ) reflète l'organisation traditionnelle du travail en pays kpele, telle que documentée dans le dictionnaire."
+    "La lutte traditionnelle (dèê, lǎmu) est une activité physique et sociale majeure en Guinée forestière, souvent pratiquée par les jeunes dans la cour du village (Konoshenko 2019).",
+    "Le tamtam (ɓǎla) accompagne la plupart des cérémonies et des danses (mǎna, yálôŋ), qui se tiennent traditionnellement le samedi, jour dédié aux danses (wéleŋdɛlɔɠɔ̂)."
   ],
   "exercises": [
     {
       "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Comment dit-on « jouer au tam-tam » ?",
+      "question": "Comment dit-on « jouer du tamtam » en guerzé ?",
       "options": [
-        "Mǎna káa.",
-        "Ɓǎla yɔ̌u.",
-        "Wěle tǒo.",
-        "Yá kɛ́lɛ̂."
+        "ɓǎla ~ yɔ̌u",
+        "mǎna ~ káa",
+        "zèle ~ ɓó"
       ],
-      "correct_answer": "Ɓǎla yɔ̌u.",
-      "explanation": "yɔ̌u est le verbe léger utilisé pour jouer d'un instrument comme le tam-tam."
+      "correct_answer": "ɓǎla ~ yɔ̌u",
+      "explanation": "yɔ̌u est le verbe support spécifique associé à ɓǎla (tamtam) pour signifier « jouer d'un instrument »."
     },
     {
       "exercise_id": "ex2",
-      "type": "multiple_choice",
-      "question": "Quelle est la différence entre mǎna et kɔ̌ŋɔ ?",
-      "options": [
-        "Aucune, ce sont des synonymes",
-        "mǎna est la danse en général, kɔ̌ŋɔ une danse acrobatique spécifique",
-        "mǎna est un chant, kɔ̌ŋɔ une danse",
-        "mǎna est masculin, kɔ̌ŋɔ féminin"
-      ],
-      "correct_answer": "mǎna est la danse en général, kɔ̌ŋɔ une danse acrobatique spécifique",
-      "explanation": "mǎna est le terme générique ; kɔ̌ŋɔ désigne une danse acrobatique précise (et aussi « se débattre »)."
-    },
-    {
-      "exercise_id": "ex3",
-      "type": "multiple_choice",
-      "question": "Comment dit-on « nager » ?",
-      "options": [
-        "Yá kɛ́lɛ̂.",
-        "Dèê.",
-        "Gbàhá.",
-        "Zèle ɓó."
-      ],
-      "correct_answer": "Yá kɛ́lɛ̂.",
-      "explanation": "yá (eau) + kɛ́lɛ̂ (frapper) = nager, litt. « frapper l'eau »."
-    },
-    {
-      "exercise_id": "ex4",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Pour demander « sais-tu danser ? », on dit : « É [ ___ ] mǎna kɛ́i ? »",
-      "correct_answer": "wěle",
-      "hint": "Ce verbe exprime la compétence, « savoir faire »."
-    },
-    {
-      "exercise_id": "ex5",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "« Chanter » se dit : « wěle [ ___ ]. »",
-      "correct_answer": "tǒo",
-      "hint": "Ce verbe léger accompagne le nom « chanson »."
-    },
-    {
-      "exercise_id": "ex6",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "La pêche au filet, traditionnellement une activité féminine, se dit [ ___ ].",
-      "correct_answer": "túluuŋ",
-      "hint": "Ce mot désigne une technique de pêche."
+      "sentence_with_blank": "Nòŋdálà káa [ ___ ] kɛ̂i gwîi hù. (Les enfants sont en train de lutter dans la cour.)",
+      "correct_answer": "lǎmu",
+      "hint": "C'est le mot pour « lutte »."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Konoshenko, M. (2019). Dictionnaire kpele de la Guinée (guerzé) – français. Mandenkan 62.",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan62/62konoshenko.pdf"
+    },
+    {
+      "label": "Wikipédia — Kpèllé (langue) / Guerzé",
+      "url": "https://fr.wikipedia.org/wiki/Guerze"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Le vocabulaire des loisirs traditionnels (danse, tamtam, lutte, chant) est attesté avec ses constructions verbales dans Konoshenko (2019). Aucun terme attesté n'a été trouvé pour les sports modernes (football, basketball) : ce vocabulaire reste donc centré sur les loisirs traditionnels documentés, conformément à l'exigence de ne pas inventer de vocabulaire."
 }

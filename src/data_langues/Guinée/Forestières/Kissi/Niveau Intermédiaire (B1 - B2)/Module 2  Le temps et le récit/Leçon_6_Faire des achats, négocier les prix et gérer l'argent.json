@@ -1,139 +1,204 @@
 {
   "lesson_id": "B1_M2_L6",
-  "level": "Niveau Intermédiaire (B1-B2)",
+  "level": "Intermédiaire (B1-B2)",
   "module_number": 2,
   "module_title": "Le temps et le récit",
   "lesson_number": 6,
   "title": "Faire des achats, négocier les prix et gérer l'argent",
   "learning_objectives": [
-    "Demander le prix d'un article sur un marché kissi",
-    "Proposer un prix inférieur et mener une négociation de base",
-    "Utiliser le vocabulaire lié aux échanges financiers et à la monnaie"
+    "Utiliser le vocabulaire attesté de l'argent et du commerce kissi (kaniei, kemɛ, waa, samaa, dɔ̀ndaa)",
+    "Négocier un prix en employant les termes de profit et de coût (tɔ̀nɔ́ɔ, bɔ̀nɔ́ɔ)",
+    "Comprendre les unités traditionnelles de valeur attestées (kpoowag)"
   ],
   "phonetic_focus": {
-    "key_sounds": "Le mot 'gbalaŋ' (argent) possède une consonne co-articulée /g͡b/ et une finale nasale vélaire /aŋ/ très marquée.",
-    "common_pitfalls": "Attention à ne pas prononcer le 'ng' ou le 'n' final à la manière française. La langue doit toucher le voile du palais pour le son /ŋ/."
+    "key_sounds": "Le mot 'kpoowag' (unité de sel équivalant à 20 pennies kissi) combine la consonne double kp et la finale -g, rare en position finale dans les langues romanes.",
+    "common_pitfalls": "Les francophones ont tendance à ajouter une voyelle finale après -g (« kpoo-wa-gue »), alors que le -g final se prononce sans relâchement vocalique."
   },
   "vocabulary": [
     {
-      "word_id": "v15_1",
-      "term": "gbalaŋ",
-      "phonetic_api": "/g͡ba.laŋ/",
-      "phonetic_simple": "GBA-LANG",
-      "translation": "argent / valeur / monnaie",
-      "example_sentence": "I nɔ gbalaŋ le.",
-      "example_phonetic": "/i nɔ g͡ba.laŋ le/",
-      "example_translation": "Je n'ai pas d'argent."
+      "word_id": "v1",
+      "term": "kaniei",
+      "phonetic_api": "/kanjei/",
+      "phonetic_simple": "ka-nyèi",
+      "translation": "argent",
+      "example_sentence": "Yá kaniei ndu wo le?",
+      "example_phonetic": "/ja kanjei ndu wo le/",
+      "example_translation": "Ai-je assez d'argent ?"
     },
     {
-      "word_id": "v15_2",
-      "term": "sola",
-      "phonetic_api": "/so.la/",
-      "phonetic_simple": "SO-LA",
-      "translation": "prix / coût",
-      "example_sentence": "Sola o co bɛndɛ.",
-      "example_phonetic": "/so.la o tʃo bɛⁿdɛ/",
-      "example_translation": "Le prix est élevé (grand)."
+      "word_id": "v2",
+      "term": "dɔ̀ndaa",
+      "phonetic_api": "/dɔndaː/",
+      "phonetic_simple": "dôn-daa",
+      "translation": "emprunter, prêter, crédit",
+      "example_sentence": "Yá có dɔ̀ndaa.",
+      "example_phonetic": "/ja tʃo dɔndaː/",
+      "example_translation": "Je vais emprunter (de l'argent)."
     },
     {
-      "word_id": "v15_3",
-      "term": "nɔŋ",
-      "phonetic_api": "/nɔŋ/",
-      "phonetic_simple": "NONG",
-      "translation": "acheter / obtenir par échange",
-      "example_sentence": "I co biyɛ nɔŋ loolu.",
-      "example_phonetic": "/i tʃo bi.jɛ nɔŋ loː.lu/",
-      "example_translation": "Je vais acheter du riz."
+      "word_id": "v3",
+      "term": "samaa",
+      "phonetic_api": "/samaː/",
+      "phonetic_simple": "sa-maa",
+      "translation": "achat à crédit (surtout pour la viande)",
+      "example_sentence": "Ndu samaa wisie.",
+      "example_phonetic": "/ndu samaː wisje/",
+      "example_translation": "Il/elle achète de la viande à crédit."
+    },
+    {
+      "word_id": "v4",
+      "term": "tɔ̀nɔ́ɔ",
+      "phonetic_api": "/tɔnɔː/",
+      "phonetic_simple": "tô-nô",
+      "translation": "gain, profit, bénéfice",
+      "example_sentence": "Ndu có tɔ̀nɔ́ɔ.",
+      "example_phonetic": "/ndu tʃo tɔnɔː/",
+      "example_translation": "Il/elle fera un bénéfice."
+    },
+    {
+      "word_id": "v5",
+      "term": "bɔ̀nɔ́ɔ",
+      "phonetic_api": "/bɔnɔː/",
+      "phonetic_simple": "bô-nô",
+      "translation": "dépense, coût, paiement",
+      "example_sentence": "Bɔ̀nɔ́ɔ ndu bana.",
+      "example_phonetic": "/bɔnɔː ndu bana/",
+      "example_translation": "La dépense est grande (chère)."
+    },
+    {
+      "word_id": "v6",
+      "term": "kpoowag",
+      "phonetic_api": "/kpoːwaɡ/",
+      "phonetic_simple": "kpoo-wag",
+      "translation": "unité traditionnelle de valeur (sel), équivalant à 20 pennies kissi",
+      "example_sentence": "Kpoowag pilɛ.",
+      "example_phonetic": "/kpoːwaɡ pilɛ/",
+      "example_translation": "Une unité de sel/valeur."
+    },
+    {
+      "word_id": "v7",
+      "term": "sɔ́gɔ́ɔ",
+      "phonetic_api": "/sɔɡɔː/",
+      "phonetic_simple": "sô-gô",
+      "translation": "substitut, remplacement (utile pour proposer un autre prix ou objet)",
+      "example_sentence": "Ndu sɔ́gɔ́ɔ pilɛ.",
+      "example_phonetic": "/ndu sɔɡɔː pilɛ/",
+      "example_translation": "C'est un substitut/une alternative."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p15_1",
-      "original": "Sola yɛŋ o co ?",
-      "phonetic_api": "/so.la jɛŋ o tʃo/",
-      "phonetic_simple": "SO-LA YENG O TCHO",
-      "translation": "Quel est le prix ?",
-      "context": "S'informer sur le coût d'un produit"
+      "phrase_id": "p1",
+      "original": "Bɔ̀nɔ́ɔ ndu bana ndu?",
+      "phonetic_api": "/bɔnɔː ndu bana ndu/",
+      "phonetic_simple": "bô-nô ndou ba-na ndou",
+      "translation": "Le prix est-il élevé ?",
+      "context": "Pour négocier un prix trop élevé."
     },
     {
-      "phrase_id": "p15_2",
-      "original": "Sola o co bɛndɛ fiaa, maaluon kɔlɔ ni.",
-      "phonetic_api": "/so.la o tʃo bɛⁿdɛ fjaː maː.lu.õ kɔ.lɔ ni/",
-      "phonetic_simple": "SO-LA O TCHO BEN-DE FIA-A, MAA-LOU-ONN KOLO NI",
-      "translation": "Le prix est trop grand, s'il te plaît diminue-le.",
-      "context": "Marchander au marché"
+      "phrase_id": "p2",
+      "original": "Yandii, ndu fisaa yá.",
+      "phonetic_api": "/jandiː ndu fisaː ja/",
+      "phonetic_simple": "yan-dii, ndou fi-saa ya",
+      "translation": "S'il te plaît, fais-moi un meilleur prix.",
+      "context": "Pour demander une réduction en négociant."
     },
     {
-      "phrase_id": "p15_3",
-      "original": "I nɔ gbalaŋ puu.",
-      "phonetic_api": "/i nɔ g͡ba.laŋ puː/",
-      "phonetic_simple": "I NONG GBA-LANG POUU",
-      "translation": "J'ai dix unités d'argent.",
-      "context": "Payer ou annoncer son budget"
+      "phrase_id": "p3",
+      "original": "Ndu samaa, yandii.",
+      "phonetic_api": "/ndu samaː jandiː/",
+      "phonetic_simple": "ndou sa-maa, yan-dii",
+      "translation": "Je voudrais l'acheter à crédit, s'il te plaît.",
+      "context": "Pour demander un achat à crédit."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Baleka o tɔ̀nɔ́ɔ.",
+      "phonetic_api": "/baleka o tɔnɔː/",
+      "phonetic_simple": "ba-lé-ka o tô-nô",
+      "translation": "Merci pour la bonne affaire (le gain).",
+      "context": "Pour clore une transaction réussie."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'interrogation de valeur avec 'yɛŋ'",
-      "explanation": "Pour solliciter un montant financier, le substantif 'sola' (prix) s'associe à l'interrogatif postposé 'yɛŋ' de manière directe.",
+      "concept": "Le champ lexical du commerce : gain, dépense et crédit",
+      "explanation": "Le vocabulaire commercial kissi documenté par Childs (2002) distingue nettement le gain (tɔ̀nɔ́ɔ) de la dépense (bɔ̀nɔ́ɔ), et connaît des formes spécifiques de crédit selon le type de bien (samaa pour la viande, dɔ̀ndaa pour un prêt/emprunt général). L'unité traditionnelle 'kpoowag' (sel, 20 pennies kissi) illustre un système de valeur antérieur ou parallèle à la monnaie moderne (kaniei).",
       "rules": [
-        "Le terme 'sola' initie obligatoirement la demande de tarification.",
-        "La formule 'o co' termine l'énoncé interrogatif."
+        "bɔ̀nɔ́ɔ ndu bana = la dépense est grande (cher)",
+        "samaa s'utilise spécifiquement pour un achat de viande à crédit, dɔ̀ndaa pour un emprunt plus général.",
+        "kpoowag reste une unité de valeur historique, utile pour comprendre les récits ou les anciens échanges plutôt que pour les transactions modernes."
       ],
       "examples": [
         {
-          "structure": "Sola + yɛŋ + o co",
-          "phonetic_api": "/so.la jɛŋ o tʃo/",
-          "meaning": "Quel est le prix ?"
+          "structure": "bɔ̀nɔ́ɔ ndu + [qualificatif]",
+          "phonetic_api": "/bɔnɔː ndu .../",
+          "meaning": "la dépense/le prix est [qualificatif]"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Saa",
-      "text": "Vana ciao, biyɛ sola yɛŋ o co ?",
-      "phonetic_api": "/va.na tʃja.o bi.jɛ so.la jɛŋ o tʃo/",
-      "phonetic_simple": "VA-NA TCHIA-O, BI-YÈ SO-LA YENG O TCHO ?",
-      "translation": "Vendeur, quel est le prix du riz ?"
+      "speaker": "Acheteur",
+      "text": "Bɔ̀nɔ́ɔ ndu bana ndu, yandii ndu fisaa yá.",
+      "phonetic_api": "/bɔnɔː ndu bana ndu jandiː ndu fisaː ja/",
+      "phonetic_simple": "bô-nô ndou ba-na ndou, yan-dii ndou fi-saa ya",
+      "translation": "C'est trop cher, s'il te plaît fais-moi un meilleur prix."
     },
     {
       "speaker": "Vendeur",
-      "text": "Biyɛ sola o co gbalaŋ puu.",
-      "phonetic_api": "/bi.jɛ so.la o tʃo g͡ba.laŋ puː/",
-      "phonetic_simple": "BI-YÈ SO-LA O TCHO GBA-LANG POUU.",
-      "translation": "Le prix du riz est de dix francs/unités."
+      "text": "Naam, ndu có tɔ̀nɔ́ɔ meselaa yá waa.",
+      "phonetic_api": "/naːm ndu tʃo tɔnɔː meselaː ja waː/",
+      "phonetic_simple": "naam, ndou tcho tô-nô mé-sé-laa ya wa",
+      "translation": "Oui, mon gain sera aussi réduit."
     },
     {
-      "speaker": "Saa",
-      "text": "O co bɛndɛ ! Kɔlɔ ni gbalaŋ hiɔɔlulaŋ.",
-      "phonetic_api": "/o tʃo bɛⁿdɛ kɔ.lɔ ni g͡ba.laŋ hjɔː.lu.lã/",
-      "phonetic_simple": "O TCHO BEN-DE ! KOLO NI GBA-LANG HYOO-LOU-LANN.",
-      "translation": "C'est cher ! Diminue-le à cinq unités."
+      "speaker": "Acheteur",
+      "text": "Ndu samaa waa?",
+      "phonetic_api": "/ndu samaː waː/",
+      "phonetic_simple": "ndou sa-maa wa",
+      "translation": "Puis-je l'acheter aussi à crédit ?"
+    },
+    {
+      "speaker": "Vendeur",
+      "text": "Naam, baleka o tɔ̀nɔ́ɔ.",
+      "phonetic_api": "/naːm baleka o tɔnɔː/",
+      "phonetic_simple": "naam, ba-lé-ka o tô-nô",
+      "translation": "Oui, merci pour la bonne affaire."
     }
   ],
   "cultural_notes": [
-    "Dans les marchés de la Guinée forestière, le marchandage est une interaction sociale normale et attendue. Accepter le tout premier prix sans discuter est rarissime et peut même couper court à l'échange convivial recherché par le commerçant."
+    "Le système d'achat à crédit spécifiquement nommé pour la viande (samaa) documenté par Childs (2002) montre l'existence de pratiques commerciales sociales bien établies avant l'introduction de la monnaie moderne dans la région.",
+    "L'unité de valeur 'kpoowag' (à base de sel, valant 20 pennies kissi) illustre comment le sel a longtemps servi de quasi-monnaie en Afrique de l'Ouest, y compris chez les Kissi de Guinée forestière."
   ],
   "exercises": [
     {
-      "exercise_id": "ex15_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Que signifie le mot 'gbalaŋ' ?",
+      "question": "Que signifie 'bɔ̀nɔ́ɔ' ?",
       "options": [
-        "Le riz",
-        "L'argent",
-        "La maison"
+        "dépense, coût",
+        "gain, profit",
+        "unité de sel"
       ],
-      "correct_answer": "L'argent",
-      "explanation": "'gbalaŋ' désigne la monnaie ou les ressources financières de manière globale."
+      "correct_answer": "dépense, coût",
+      "explanation": "Attesté par Childs (2002)."
     },
     {
-      "exercise_id": "ex15_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "[ ___ ] yɛŋ o co ? (Quel est le prix ?)",
-      "correct_answer": "Sola",
-      "hint": "Substantif pour prix ou valeur d'un bien"
+      "sentence_with_blank": "Ndu [ ___ ] wisie. (Il/elle achète de la viande à crédit.)",
+      "correct_answer": "samaa",
+      "hint": "Terme spécifique à l'achat de viande à crédit."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "G. Tucker Childs, « Borrowings into Kisi as Evidence of Mande Expansionism and Influence », Journal of West African Languages 29-2 (2002)",
+      "url": "https://scispace.com/pdf/borrowings-into-kisi-as-evidence-of-mande-expansionism-and-3zquof59kt.pdf"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Le champ lexical commercial complet (kaniei, dɔ̀ndaa, samaa, tɔ̀nɔ́ɔ, bɔ̀nɔ́ɔ, kpoowag, sɔ́gɔ́ɔ) provient exclusivement mais solidement de l'article académique de Childs (2002) sur les emprunts en kissi ; les phrases de négociation sont construites à partir de ces termes vérifiés selon des structures raisonnées, non citées telles quelles dans le texte source."
 }

@@ -1,362 +1,197 @@
 {
-  "lesson_id": "C3_M3_L8",
+  "lesson_id": "C1_M3_L8",
   "level": "Avancé (C1-C2)",
   "module_number": 3,
   "module_title": "Maîtrise totale",
   "lesson_number": 8,
   "title": "Le lexique technique, professionnel et spécialisé",
   "learning_objectives": [
-    "Nommer les outils et matériaux de base de l'artisanat traditionnel : kwɛ̌li (fer), zɔ̀ɔla (outil), ŋwǔŋ (manche d'outil).",
-    "Utiliser les verbes techniques pɛ̌li (fabriquer) et yɔ̌u (forger) pour décrire un savoir-faire.",
-    "Consolider le vocabulaire des métiers spécialisés déjà vus (forgeron, guérisseur, chasseur, cultivateur).",
-    "Construire une description professionnelle complète combinant outil, matière et geste technique."
+    "Connaître les emprunts techniques attestés : mɔ̀ɓílî (voiture), tɛlɛfon (téléphone), làkwélî (école)",
+    "Reconnaître les limites du dictionnaire de référence pour le vocabulaire technique moderne (informatique, médecine hospitalière)",
+    "Utiliser correctement ces emprunts dans une phrase simple selon leur classe grammaticale attestée"
   ],
   "phonetic_focus": {
-    "key_sounds": "Le lexique technique kpele repose souvent sur des noms composés très précis, où chaque élément (matière, geste, agent) porte un sens propre : kwɛ̀líyɔ̀umûŋ (forgeron) combine ainsi kwɛ̌li (fer), yɔ̌u (forger) et le suffixe agentif -mùŋ déjà étudié. Décomposer mentalement ces mots composés aide à mémoriser un vocabulaire spécialisé par ailleurs peu redondant avec le vocabulaire courant.",
-    "common_pitfalls": "Les francophones ont tendance à : (1) confondre kwɛ̌li (fer) avec ses homonymes kwɛ́li (panthère) et kwɛ́li (chercher) — seul le contexte permet de trancher ; (2) chercher un seul verbe générique pour « fabriquer », alors que le kpele distingue pɛ̌li (fabriquer, assembler des parties) de yɔ̌u (forger, spécifique au travail du métal) ; (3) oublier que zɔ̀ɔla (outil) est un terme générique qui se précise toujours par son usage concret dans le contexte."
+    "key_sounds": "Les emprunts au français/anglais (mɔ̀ɓílî, tɛlɛfon) sont adaptés à la phonologie guerzé : le /r/ français est absent des emprunts cités, remplacé ou simplement omis, et les tons sont réassignés selon les schémas tonals natifs.",
+    "common_pitfalls": "Le vocabulaire technique moderne (ordinateur, internet, électricité) n'est pas attesté dans le dictionnaire de référence de Konoshenko (2019), reflet du fait que le guerzé de Guinée forestière n'a pas développé de terminologie technique standardisée pour ces domaines ; il ne faut jamais inventer de tels termes."
   },
   "vocabulary": [
     {
       "word_id": "v1",
-      "term": "kwɛ̌li",
-      "phonetic_api": "/kwɛ̌li/",
-      "phonetic_simple": "kwè-li (ton bas)",
-      "translation": "fer ; aussi clef",
-      "example_sentence": "kwɛ̌li",
-      "example_phonetic": "/kwɛ̌li/",
-      "example_translation": "fer"
+      "term": "mɔ̀ɓílî",
+      "phonetic_api": "/mɔ̀ɓílî/",
+      "phonetic_simple": "mo-BI-li",
+      "translation": "véhicule (voiture, camion) — emprunt attesté",
+      "example_sentence": "Pépèe káa mɔ̀ɓílii nìnɛ pɔ́.",
+      "example_phonetic": "/pépèe káa mɔ̀ɓílii nìnɛ pɔ́/",
+      "example_translation": "Pépé veut une nouvelle voiture."
     },
     {
       "word_id": "v2",
-      "term": "zɔ̀ɔla",
-      "phonetic_api": "/zɔ̀ɔla/",
-      "phonetic_simple": "zo-o-la",
-      "translation": "outil (pour creuser des trous, couper)",
-      "example_sentence": "zɔ̀ɔla",
-      "example_phonetic": "/zɔ̀ɔla/",
-      "example_translation": "outil"
+      "term": "tɛlɛfon",
+      "phonetic_api": "/tɛlɛfon/",
+      "phonetic_simple": "té-lé-fon",
+      "translation": "téléphone — emprunt attesté",
+      "example_sentence": "É tɛlɛfon tíi héɠe.",
+      "example_phonetic": "/é tɛlɛfon tíi héɠe/",
+      "example_translation": "Prends le téléphone."
     },
     {
       "word_id": "v3",
-      "term": "ŋwǔŋ",
-      "phonetic_api": "/ŋwǔŋ/",
-      "phonetic_simple": "ngwou-ng (ton bas)",
-      "translation": "manche (d'outil)",
-      "example_sentence": "ŋwǔŋ",
-      "example_phonetic": "/ŋwǔŋ/",
-      "example_translation": "manche d'outil"
+      "term": "làkwélî",
+      "phonetic_api": "/làkwélî/",
+      "phonetic_simple": "la-KWÉ-li",
+      "translation": "école — emprunt attesté",
+      "example_sentence": "Lókòlo ɓé làkwélî hù.",
+      "example_phonetic": "/lókòlo ɓé làkwélî hù/",
+      "example_translation": "L'enfant est à l'école."
     },
     {
       "word_id": "v4",
-      "term": "pɛ̌li",
-      "phonetic_api": "/pɛ̌li/",
-      "phonetic_simple": "pè-li (ton bas)",
-      "translation": "faire, fabriquer (assembler des parties)",
-      "example_sentence": "Ŋàá ŋwɛ̀ni pɛ́li.",
-      "example_phonetic": "/ŋàá ŋwɛ̀ni pɛ́li/",
-      "example_translation": "J'ai fabriqué un oiseau (par exemple, en bois)."
+      "term": "yɔ̀wɔtɔ́lɔpɛ̀lɛ",
+      "phonetic_api": "/yɔ̀wɔtɔ́lɔpɛ̀lɛ/",
+      "phonetic_simple": "yo-wo-TO-lo-PÈ-lè",
+      "translation": "hôpital (composé : « maison de soins »)",
+      "example_sentence": "Gwè lí kèlée yɔ̀wɔtɔ́lɔpɛ̀lɛ lá é gɛ̀ dì máa↓kpɛ́ɛ.",
+      "example_phonetic": "/gwè lí kèlée yɔ̀wɔtɔ́lɔpɛ̀lɛ lá é gɛ̀ dì máakpɛ́ɛ/",
+      "example_translation": "Nous sommes allés à l'hôpital aujourd'hui pour une consultation."
     },
     {
       "word_id": "v5",
-      "term": "yɔ̌u",
-      "phonetic_api": "/yɔ̌u/",
-      "phonetic_simple": "yo-ou (ton bas)",
-      "translation": "frapper (différents objets, aussi les tambours) ; forger",
-      "example_sentence": "yɔ̌u",
-      "example_phonetic": "/yɔ̌u/",
-      "example_translation": "forger"
+      "term": "kǎla",
+      "phonetic_api": "/kǎla/",
+      "phonetic_simple": "KA-la",
+      "translation": "se gâter, se casser (pour une machine/un véhicule)",
+      "example_sentence": "Ŋwɔ́ mɔ̀ɓílii àá kǎla.",
+      "example_phonetic": "/ŋwɔ́ mɔ̀ɓílii àá kǎla/",
+      "example_translation": "Ma voiture s'est gâtée (en panne)."
     },
     {
       "word_id": "v6",
-      "term": "kpàawɔ̂",
-      "phonetic_api": "/kpàawɔ̂/",
-      "phonetic_simple": "kpa-a-WO",
-      "translation": "herminette (outil pour percer le palmier et en tirer le vin)",
-      "example_sentence": "kpàawɔ̂",
-      "example_phonetic": "/kpàawɔ̂/",
-      "example_translation": "herminette"
-    },
-    {
-      "word_id": "v7",
-      "term": "kwɛ̀líyɔ̀umûŋ",
-      "phonetic_api": "/kwɛ̀líyɔ̀umúŋ/",
-      "phonetic_simple": "KWÈ-li-yo-ou-mûng",
-      "translation": "forgeron (litt. « fer-forger-celui qui »)",
-      "example_sentence": "kwɛ̀líyɔ̀umûŋ",
-      "example_phonetic": "/kwɛ̀líyɔ̀umúŋ/",
-      "example_translation": "forgeron"
-    },
-    {
-      "word_id": "v8",
-      "term": "kólo-kɛ́-mùŋ",
-      "phonetic_api": "/kólò ↓kɛ́mùŋ/",
-      "phonetic_simple": "KÓ-lo kÉ-moung",
-      "translation": "travailleur, ouvrier",
-      "example_sentence": "Gàá à kólo-↓kɛ́-mùŋ.",
-      "example_phonetic": "/gàá à kólò ↓kɛ́mùŋ/",
-      "example_translation": "Il est ouvrier."
-    },
-    {
-      "word_id": "v9",
-      "term": "híɓaɠâ",
-      "phonetic_api": "/híɓaɣâ/",
-      "phonetic_simple": "HI-ɓa-ghâ",
-      "translation": "guérisseur",
-      "example_sentence": "Ɲàákɔ̀i à ɓɔ́luɓo ↓kɛ́.",
-      "example_phonetic": "/ɲàákɔ̀i à ɓɔ́luɓo ↓kɛ́/",
-      "example_translation": "Nyaakwei soigne les gens (comme son métier)."
-    },
-    {
-      "word_id": "v10",
-      "term": "lǒzo",
-      "phonetic_api": "/lǒzo/",
-      "phonetic_simple": "lo-zo (ton bas)",
-      "translation": "chasseur",
-      "example_sentence": "lǒzo",
-      "example_phonetic": "/lǒzo/",
-      "example_translation": "chasseur"
-    },
-    {
-      "word_id": "v11",
-      "term": "híŋ",
-      "phonetic_api": "/híŋ/",
-      "phonetic_simple": "HING",
-      "translation": "cultiver (un champ)",
-      "example_sentence": "Gáa kɛ̀ɛ híŋzî.",
-      "example_phonetic": "/gáa kɛ̀ɛ híŋzí/",
-      "example_translation": "Je suis en train de cultiver le champ."
-    },
-    {
-      "word_id": "v12",
-      "term": "mǎa-kwɛ́lî",
-      "phonetic_api": "/mǎakwɛ́lî/",
-      "phonetic_simple": "ma-a-KWÈ-lî",
-      "translation": "apprendre (une compétence, un métier)",
-      "example_sentence": "Gáa kpɛ̀lɛɛwoo màakwɛ́lîi.",
-      "example_phonetic": "/gáa kpɛ̀lɛɛwoo màakwɛ́lîi/",
-      "example_translation": "J'apprends le kpele."
+      "term": "ɲáa-tɛ́",
+      "phonetic_api": "/ɲáatɛ́/",
+      "phonetic_simple": "NGNA-a-té",
+      "translation": "allumer (le moteur d'une voiture, d'une moto)",
+      "example_sentence": "Mɔ̀ɓílii ↓ɲáatɛ.",
+      "example_phonetic": "/mɔ̀ɓílii ɲáatɛ/",
+      "example_translation": "Allume la voiture (le moteur)."
     }
   ],
   "common_phrases": [
     {
       "phrase_id": "p1",
-      "original": "Ŋàá ŋwɛ̀ni pɛ́li.",
-      "phonetic_api": "/ŋàá ŋwɛ̀ni pɛ́li/",
-      "phonetic_simple": "nga-a NGWÈ-ni PÈ-li",
-      "translation": "J'ai fabriqué un oiseau.",
-      "context": "Décrire un objet artisanal fabriqué"
+      "original": "Pépèe káa mɔ̀ɓílii nìnɛ pɔ́.",
+      "phonetic_api": "/pépèe káa mɔ̀ɓílii nìnɛ pɔ́/",
+      "phonetic_simple": "PÉ-pè-è KA-a mo-BI-li-i NI-nè po",
+      "translation": "Pépé veut une nouvelle voiture.",
+      "context": "Phrase attestée employant l'emprunt mɔ̀ɓílî."
     },
     {
       "phrase_id": "p2",
-      "original": "Kwɛ̀líyɔ̀umûŋ à kwɛ̌li yɔ̌u.",
-      "phonetic_api": "/kwɛ̀líyɔ̀umúŋ à kwɛ̌li yɔ̌u/",
-      "phonetic_simple": "KWÈ-li-yo-ou-mûng a kwè-li yo-ou",
-      "translation": "Le forgeron forge le fer.",
-      "context": "Décrire le geste technique caractéristique d'un métier"
+      "original": "É màapɛ́lɛ, é tɛlɛfon tíi héɠe, é dɛ̀ɛ bɔ́.",
+      "phonetic_api": "/é màapɛ́lɛ é tɛlɛfon tíi héɠe é dɛ̀ɛ bɔ́/",
+      "phonetic_simple": "é MA-a-PÉ-lè, é té-lé-fon TI-i HÉ-ghè, é dè-è bo",
+      "translation": "Penche-toi, prends le téléphone et donne-le à moi.",
+      "context": "Phrase attestée employant l'emprunt tɛlɛfon dans une instruction technique quotidienne."
     },
     {
       "phrase_id": "p3",
-      "original": "Zɔ̀ɔla ↓ɓé é káa bɔ̀ ?",
-      "phonetic_api": "/zɔ̀ɔla ↓ɓé é káa bɔ̀/",
-      "phonetic_simple": "zo-o-la bé é kaa bo ?",
-      "translation": "De quel outil as-tu besoin ?",
-      "context": "Demander à un artisan de préciser l'outil nécessaire"
+      "original": "Gwè lí kèlée yɔ̀wɔtɔ́lɔpɛ̀lɛ lá é gɛ̀ dì máa↓kpɛ́ɛ.",
+      "phonetic_api": "/gwè lí kèlée yɔ̀wɔtɔ́lɔpɛ̀lɛ lá é gɛ̀ dì máakpɛ́ɛ/",
+      "phonetic_simple": "gwè li KÈ-lé-é yo-wo-TO-lo-PÈ-lè la é ghè di MA-a-KPÉ-è",
+      "translation": "Nous sommes allés à l'hôpital aujourd'hui pour une consultation.",
+      "context": "Phrase attestée employant le terme composé natif yɔ̀wɔtɔ́lɔpɛ̀lɛ (hôpital), distinct des emprunts directs."
     },
     {
       "phrase_id": "p4",
-      "original": "Gàá à kólo-↓kɛ́-mùŋ, kɛ́laa àa mǎa-kwɛ́lî híɓaɠâ ↓kólô.",
-      "phonetic_api": "/gàá à kólò ↓kɛ́mùŋ kɛ́laa àa mǎakwɛ́lî híɓaɣâ ↓kólô/",
-      "phonetic_simple": "gaa a KÓ-lo kÉ-moung, KÈ-laa aa ma-a-KWÈ-lî HI-ɓa-ghâ KO-lô",
-      "translation": "Il est ouvrier, mais il apprend le métier de guérisseur.",
-      "context": "Décrire une reconversion ou une double compétence professionnelle"
-    },
-    {
-      "phrase_id": "p5",
-      "original": "Kpàawɔ̂ ɓé àa lɔ̀ɔ ↓kùlo.",
-      "phonetic_api": "/kpàawɔ̂ ɓé àa lɔ̀ɔ ↓kùlo/",
-      "phonetic_simple": "kpa-a-WO bé aa lo-o kou-lo",
-      "translation": "C'est avec l'herminette qu'il a fait sortir le vin de palme.",
-      "context": "Décrire précisément l'usage d'un outil spécialisé"
+      "original": "Ŋwɔ́ mɔ̀ɓílii àá kǎla.",
+      "phonetic_api": "/ŋwɔ́ mɔ̀ɓílii àá kǎla/",
+      "phonetic_simple": "ngwo mo-BI-li-i a-a KA-la",
+      "translation": "Ma voiture s'est gâtée (en panne).",
+      "context": "Expression technique attestée pour une panne mécanique."
     }
   ],
   "grammar_points": [
     {
-      "concept": "Deux verbes pour « fabriquer » : pɛ̌li et yɔ̌u",
-      "explanation": "Le kpele distingue la fabrication générale par assemblage (pɛ̌li) du travail spécifique du métal par forge (yɔ̌u), une précision technique que le français rend souvent par un seul verbe générique.",
+      "concept": "Emprunt lexical vs. composition native pour le vocabulaire technique",
+      "explanation": "Le guerzé recourt à deux stratégies pour le vocabulaire technique/moderne : l'emprunt direct adapté phonologiquement (mɔ̀ɓílî du français « mobile/automobile », tɛlɛfon du français « téléphone ») pour les objets récents introduits tels quels, et la composition à partir de racines natives (yɔ̀wɔtɔ́lɔpɛ̀lɛ, littéralement proche de « maison-de-soin ») pour les institutions adaptées au contexte local.",
       "rules": [
-        "pɛ̌li (vt) = faire, fabriquer, en assemblant des parties ou des morceaux : ŋàá ŋwɛ̀ni pɛ́li (j'ai fabriqué un oiseau).",
-        "yɔ̌u (vt) = frapper (un objet, un tambour) ; par extension, forger le métal.",
-        "kwɛ̀líyɔ̀umûŋ (forgeron) est justement construit sur yɔ̌u, et non sur pɛ̌li, car le travail du fer est un geste de frappe répétée."
+        "Objets/technologies importées telles quelles → emprunt phonologiquement adapté (classe nominale sans marque particulière).",
+        "Institutions adaptées au contexte local → composé natif, souvent transparent morphologiquement (pɛ̀lɛ = maison, élément récurrent)."
       ],
       "examples": [
         {
-          "structure": "pɛ̌li vs yɔ̌u",
-          "phonetic_api": "/pɛ̌li/ vs /yɔ̌u/",
-          "meaning": "fabriquer en général vs forger spécifiquement le métal"
-        }
-      ]
-    },
-    {
-      "concept": "Les noms composés du lexique de l'artisanat",
-      "explanation": "Comme pour les noms de métier en -mùŋ (Débutant Leçon 2), le vocabulaire technique kpele privilégie les mots composés, où chaque élément conserve son sens propre.",
-      "rules": [
-        "kwɛ̀lí-yɔ̀u-mûŋ = fer + forger + celui qui = forgeron.",
-        "Cette transparence morphologique permet de deviner le sens d'un nouveau mot technique à partir de ses éléments déjà connus, une compétence précieuse pour l'expansion autonome du vocabulaire."
-      ],
-      "examples": [
-        {
-          "structure": "kwɛ̌li + yɔ̌u + mùŋ → kwɛ̀líyɔ̀umûŋ",
-          "phonetic_api": "/kwɛ̌li/ + /yɔ̌u/ + /mùŋ/ → /kwɛ̀líyɔ̀umúŋ/",
-          "meaning": "fer + forger + celui qui → forgeron"
-        }
-      ]
-    },
-    {
-      "concept": "zɔ̀ɔla : un terme générique précisé par le contexte",
-      "explanation": "zɔ̀ɔla (outil) fonctionne comme un terme générique qui, seul, ne précise pas la fonction exacte de l'outil ; celle-ci se déduit du contexte ou d'un terme plus spécifique comme kpàawɔ̂ (herminette).",
-      "rules": [
-        "Pour un outil précis, le kpele préfère souvent un nom dédié (kpàawɔ̂ pour l'outil à percer le palmier) plutôt que zɔ̀ɔla suivi d'un qualificatif.",
-        "Ce principe — nommer précisément plutôt que qualifier génériquement — est caractéristique du lexique technique par rapport au vocabulaire courant."
-      ],
-      "examples": [
-        {
-          "structure": "zɔ̀ɔla (générique) vs kpàawɔ̂ (spécifique)",
-          "phonetic_api": "/zɔ̀ɔla/ vs /kpàawɔ̂/",
-          "meaning": "outil en général vs herminette (outil précis)"
-        }
-      ]
-    },
-    {
-      "concept": "Décrire une compétence professionnelle complète",
-      "explanation": "Une description professionnelle avancée combine le nom de métier (Débutant Leçon 2), le geste technique caractéristique (cette leçon) et, éventuellement, l'apprentissage de la compétence (mǎa-kwɛ́lî, Intermédiaire Leçon 8).",
-      "rules": [
-        "Structure : [personne] à [nom de métier], [personne] à [outil/matière] [verbe technique].",
-        "Exemple : kwɛ̀líyɔ̀umûŋ à kwɛ̌li yɔ̌u (le forgeron forge le fer) combine le nom de métier et le geste qui le définit."
-      ],
-      "examples": [
-        {
-          "structure": "kwɛ̀líyɔ̀umûŋ à kwɛ̌li yɔ̌u",
-          "phonetic_api": "/kwɛ̀líyɔ̀umúŋ à kwɛ̌li yɔ̌u/",
-          "meaning": "le forgeron forge le fer"
+          "structure": "mɔ̀ɓílî (emprunt) vs. yɔ̀wɔtɔ́lɔpɛ̀lɛ (composé natif)",
+          "phonetic_api": "/mɔ̀ɓílî/, /yɔ̀wɔtɔ́lɔpɛ̀lɛ/",
+          "meaning": "voiture (emprunté) vs. hôpital (composé à partir de racines guerzé)"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Personne A",
-      "text": "Zɔ̀ɔla ↓ɓé é káa bɔ̀ ?",
-      "phonetic_api": "/zɔ̀ɔla ↓ɓé é káa bɔ̀/",
-      "phonetic_simple": "zo-o-la bé é kaa bo ?",
-      "translation": "De quel outil as-tu besoin ?"
+      "speaker": "Le mécanicien",
+      "text": "Ŋwɔ́ mɔ̀ɓílii àá kǎla.",
+      "phonetic_api": "/ŋwɔ́ mɔ̀ɓílii àá kǎla/",
+      "phonetic_simple": "ngwo mo-BI-li-i a-a KA-la",
+      "translation": "Ma voiture est en panne."
     },
     {
-      "speaker": "Personne B",
-      "text": "Ŋé bɔ̀ kpàawɔ̂ ɓé, màáhɔ̀lɔɓó ŋé lɔ̀ɔ kùlo.",
-      "phonetic_api": "/ŋé bɔ̀ kpàawɔ̂ ɓé màáhɔ̀lɔɓó ŋé lɔ̀ɔ kùlo/",
-      "phonetic_simple": "ngé bo kpa-a-WO bé, ma-a-HO-lo-ɓO ngé lo-o kou-lo",
-      "translation": "Je veux l'herminette, parce que je dois faire sortir le vin de palme."
+      "speaker": "Le client",
+      "text": "É tɛlɛfon tíi héɠe, é dɛ̀ɛ bɔ́, ŋé mà zɛ̀ŋ dí lɛ̌ɛ.",
+      "phonetic_api": "/é tɛlɛfon tíi héɠe é dɛ̀ɛ bɔ́ ŋé mà zɛ̀ŋ dí lɛ̌ɛ/",
+      "phonetic_simple": "é té-lé-fon TI-i HÉ-ghè, é dè-è bo, nguè ma zèng di LÈ-è",
+      "translation": "Prends le téléphone et donne-le-moi, je vais appeler quelqu'un."
     },
     {
-      "speaker": "Personne A",
-      "text": "Kwɛ̀líyɔ̀umûŋ à kwɛ̌li yɔ̌u tínaa.",
-      "phonetic_api": "/kwɛ̀líyɔ̀umúŋ à kwɛ̌li yɔ̌u tínaa/",
-      "phonetic_simple": "KWÈ-li-yo-ou-mûng a kwè-li yo-ou TI-naa",
-      "translation": "Le forgeron forge le fer demain."
+      "speaker": "Le mécanicien",
+      "text": "Gwè lí kèlée yɔ̀wɔtɔ́lɔpɛ̀lɛ lá é gɛ̀ dì máa↓kpɛ́ɛ ↓hɔ̀ni ?",
+      "phonetic_api": "/gwè lí kèlée yɔ̀wɔtɔ́lɔpɛ̀lɛ lá é gɛ̀ dì máakpɛ́ɛ hɔ̀ni/",
+      "phonetic_simple": "gwè li KÈ-lé-é yo-wo-TO-lo-PÈ-lè la é ghè di MA-a-KPÉ-è HO-ni",
+      "translation": "Allons-nous à l'hôpital aujourd'hui pour une consultation ?"
     },
     {
-      "speaker": "Personne B",
-      "text": "Ŋàá mɛ̌ŋ, gáa kpɛ̀lɛɛwoo màakwɛ́lîi máŋ.",
-      "phonetic_api": "/ŋàá mɛ̌ŋ gáa kpɛ̀lɛɛwoo màakwɛ́lîi máŋ/",
-      "phonetic_simple": "nga-a MENG, gaa KPÈ-lè-è-wo-o ma-a-KWÈ-lî-i mang",
-      "translation": "J'ai compris, j'apprends aussi le kpele."
-    },
-    {
-      "speaker": "Personne A",
-      "text": "Máma, mɛ́niê !",
-      "phonetic_api": "/máma mɛ́niê/",
-      "phonetic_simple": "MA-ma MÉ-ni-Ê",
-      "translation": "Merci, mon ami !"
+      "speaker": "Le client",
+      "text": "Mɔ̀ɓílii ↓ɲáatɛ, gwè kàa pâi.",
+      "phonetic_api": "/mɔ̀ɓílii ɲáatɛ gwè kàa pâi/",
+      "phonetic_simple": "mo-BI-li-i NGNA-a-té, gwè ka-a pa-i",
+      "translation": "Allume la voiture, nous allons partir."
     }
   ],
   "cultural_notes": [
-    "Le forgeron (kwɛ̀líyɔ̀umûŋ) occupe traditionnellement une place sociale particulière dans de nombreuses sociétés de Guinée forestière, souvent associée à des savoirs techniques et symboliques transmis de génération en génération au sein de familles spécialisées.",
-    "L'herminette (kpàawɔ̂), outil dédié à l'extraction du vin de palme, illustre comment le lexique technique kpele reste étroitement lié aux ressources naturelles locales, en particulier le palmier à huile.",
-    "La transparence des mots composés techniques (kwɛ̌li + yɔ̌u + mùŋ = forgeron) facilite traditionnellement la transmission orale des savoirs professionnels, chaque mot rappelant explicitement le geste ou la matière associés au métier."
+    "L'existence d'emprunts adaptés comme mɔ̀ɓílî et tɛlɛfon montre l'intégration récente d'objets techniques occidentaux dans la vie quotidienne en Guinée forestière, tout en conservant la phonologie et la morphologie tonale propres au guerzé (Konoshenko 2019).",
+    "Le dictionnaire de référence (Konoshenko 2019) ne documente pas de terminologie standardisée pour l'informatique ou l'internet ; cela reflète honnêtement l'état actuel de la documentation lexicographique du guerzé plutôt qu'une absence réelle d'usage oral de tels emprunts."
   ],
   "exercises": [
     {
       "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quelle est la différence entre pɛ̌li et yɔ̌u ?",
+      "question": "Comment le guerzé désigne-t-il « l'hôpital » selon le dictionnaire de Konoshenko (2019) ?",
       "options": [
-        "Aucune différence",
-        "pɛ̌li = fabriquer en général, yɔ̌u = forger le métal",
-        "pɛ̌li = forger, yɔ̌u = fabriquer en général",
-        "Les deux signifient « acheter »"
+        "yɔ̀wɔtɔ́lɔpɛ̀lɛ (composé natif)",
+        "ospitalo (emprunt direct)",
+        "màatii"
       ],
-      "correct_answer": "pɛ̌li = fabriquer en général, yɔ̌u = forger le métal",
-      "explanation": "pɛ̌li désigne la fabrication par assemblage ; yɔ̌u est spécifique au travail du métal par la frappe."
+      "correct_answer": "yɔ̀wɔtɔ́lɔpɛ̀lɛ (composé natif)",
+      "explanation": "L'exemple attesté « gwè lí kèlée yɔ̀wɔtɔ́lɔpɛ̀lɛ lá... » montre l'emploi de ce composé natif pour « hôpital »."
     },
     {
       "exercise_id": "ex2",
-      "type": "multiple_choice",
-      "question": "Comment se décompose kwɛ̀líyɔ̀umûŋ (forgeron) ?",
-      "options": [
-        "fer + acheter + celui qui",
-        "fer + forger + celui qui",
-        "outil + fabriquer + celui qui",
-        "travail + faire + celui qui"
-      ],
-      "correct_answer": "fer + forger + celui qui",
-      "explanation": "kwɛ̌li (fer) + yɔ̌u (forger) + -mùŋ (celui qui) = forgeron."
-    },
-    {
-      "exercise_id": "ex3",
-      "type": "multiple_choice",
-      "question": "À quoi sert la kpàawɔ̂ (herminette) ?",
-      "options": [
-        "À cultiver le riz",
-        "À forger le fer",
-        "À percer le palmier pour en tirer le vin",
-        "À construire une maison"
-      ],
-      "correct_answer": "À percer le palmier pour en tirer le vin",
-      "explanation": "kpàawɔ̂ est un outil dédié spécifiquement à l'extraction du vin de palme."
-    },
-    {
-      "exercise_id": "ex4",
-      "type": "multiple_choice",
-      "question": "Que désigne zɔ̀ɔla par rapport à kpàawɔ̂ ?",
-      "options": [
-        "Le même outil exactement",
-        "Un terme générique, alors que kpàawɔ̂ est spécifique",
-        "zɔ̀ɔla est plus précis que kpàawɔ̂",
-        "Aucun rapport entre les deux mots"
-      ],
-      "correct_answer": "Un terme générique, alors que kpàawɔ̂ est spécifique",
-      "explanation": "zɔ̀ɔla désigne un outil en général ; kpàawɔ̂ précise une fonction technique exacte."
-    },
-    {
-      "exercise_id": "ex5",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "« J'ai fabriqué un oiseau » se dit : « Ŋàá ŋwɛ̀ni [ ___ ]. »",
-      "correct_answer": "pɛ́li",
-      "hint": "C'est le verbe « fabriquer » (assemblage de parties)."
-    },
-    {
-      "exercise_id": "ex6",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "« Fer » se dit [ ___ ], à ne pas confondre avec kwɛ́li (panthère).",
-      "correct_answer": "kwɛ̌li",
-      "hint": "Attention au ton : ce mot a plusieurs homonymes."
-    },
-    {
-      "exercise_id": "ex7",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "« Manche d'outil » se dit [ ___ ].",
-      "correct_answer": "ŋwǔŋ",
-      "hint": "C'est un nom relationnel désignant une partie de l'outil."
+      "sentence_with_blank": "Ŋwɔ́ [ ___ ] àá kǎla. (Ma voiture est en panne.)",
+      "correct_answer": "mɔ̀ɓílii",
+      "hint": "Emprunt désignant le véhicule."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Konoshenko, M. (2019). Dictionnaire kpele de la Guinée (guerzé) – français. Mandenkan 62.",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan62/62konoshenko.pdf"
+    },
+    {
+      "label": "Wikipédia — Kpèllé (langue) / Guerzé",
+      "url": "https://fr.wikipedia.org/wiki/Guerze"
+    }
+  ],
+  "confidence": "faible",
+  "confidence_note": "Les emprunts attestés (mɔ̀ɓílî, tɛlɛfon, làkwélî, yɔ̀wɔtɔ́lɔpɛ̀lɛ) sont réels et vérifiés dans Konoshenko (2019), mais le lexique technique moderne (informatique, télécommunications avancées, terminologie médicale hospitalière précise) reste largement non documenté dans les sources disponibles ; la confiance est donc volontairement qualifiée de faible pour ce thème au-delà des quelques emprunts attestés."
 }

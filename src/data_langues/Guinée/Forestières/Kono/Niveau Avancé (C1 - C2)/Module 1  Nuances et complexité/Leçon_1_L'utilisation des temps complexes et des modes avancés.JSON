@@ -1,178 +1,218 @@
 {
   "lesson_id": "C1_M1_L1",
-  "level": "Niveau Avancé (C1-C2)",
+  "level": "Avancé (C1-C2)",
   "module_number": 1,
   "module_title": "Nuances et complexité",
   "lesson_number": 1,
   "title": "L'utilisation des temps complexes et des modes avancés",
   "learning_objectives": [
-    "Exprimer l'antériorité et le plus-que-parfait (action révolue dans le passé)",
-    "Maîtriser le conditionnel passé et les souhaits non réalisés",
-    "Utiliser les particules d'aspect pour exprimer des nuances de simultanéité"
+    "Combiner les marqueurs TAM (temps-aspect-mode) attestés en kono pour exprimer des nuances temporelles complexes",
+    "Utiliser le conditionnel et l'aspect progressif ensemble",
+    "Comprendre les limites de la documentation disponible sur les modes avancés du kono"
   ],
   "phonetic_focus": {
-    "key_sounds": "La particule complexe 'kpɛ̀-nì' exige une co-articulation parfaite de l'occlusive labio-vélaire sourde /k͡p/ sur un ton bas, immédiatement suivie d'une transition rapide vers la nasale alvéolaire. La particule de rappel 'yɛ́' porte un ton haut modulé.",
-    "common_pitfalls": "Attention à ne pas abréger la double voyelle de l'auxiliaire de passé lointain 'míé-ò'. Sa réduction en voyelle simple détruit la valeur aspectuelle de l'antériorité."
+    "key_sounds": "La combinaison de marqueurs préverbaux (wɛɛ̀́ futur + négation hó, ou progressif -i + ton du passé) crée des séquences toniques complexes qu'il faut décomposer lentement à l'apprentissage.",
+    "common_pitfalls": "Il est tentant de calquer la morphologie française (auxiliaires empilés : « aurait dû avoir fait ») sur le kono, qui préfère des marqueurs préverbaux simples combinés de façon plus limitée et différente."
   },
   "vocabulary": [
     {
-      "word_id": "v1_1",
-      "term": "míé-ò",
-      "phonetic_api": "/mí.é.ò/",
-      "phonetic_simple": "MIEE-O",
-      "translation": "marqueur de l'antériorité lointaine / plus-que-parfait",
-      "example_sentence": "ń táá-ò míé-ò lòlà pɔ́",
-      "phonetic_api_example": "/ń táː.ò mí.é.ò lò.là pɔ́/",
-      "example_translation": "J'étais déjà allé à Lola auparavant."
+      "word_id": "v1",
+      "term": "wɛɛ̀́",
+      "phonetic_api": "/wɛ̀ː/",
+      "phonetic_simple": "OUÉ-É",
+      "translation": "marqueur du futur (kono attesté)",
+      "example_sentence": "Ɲá wɛɛ̀́ hó pá klô kɛ́.",
+      "example_phonetic": "/ɲá wɛ̀ː hó pá klô kɛ́/",
+      "example_translation": "Je ne viendrai pas travailler (futur négatif, structure extrapolée)."
     },
     {
-      "word_id": "v1_2",
-      "term": "kpɛ̀-nì",
-      "phonetic_api": "/k͡pɛ̀.nì/",
-      "phonetic_simple": "KPE-NI",
-      "translation": "à peine / sitôt que / au moment exact où",
-      "example_sentence": "ń kpɛ̀-nì nàá, á táá-ò",
-      "phonetic_api_example": "/ń k͡pɛ̀.nì nà.á á táː.ò/",
-      "example_translation": "À peine étais-je arrivé qu'il est parti."
+      "word_id": "v2",
+      "term": "hó",
+      "phonetic_api": "/hó/",
+      "phonetic_simple": "HO",
+      "translation": "négation (kono attesté)",
+      "example_sentence": "Hɛ́ni hó e klɔŋ́.",
+      "example_phonetic": "/hɛ́ni hó é klɔ́ŋ/",
+      "example_translation": "Hɛni ne te connaît pas."
     },
     {
-      "word_id": "v1_3",
-      "term": "kíán-wòò-tɛ́ɛ́",
-      "phonetic_api": "/kí.án.wòː.tɛ́ː/",
-      "phonetic_simple": "KIAN-WOO-TEE",
-      "translation": "le regret / le souhait irréalisable",
-      "example_sentence": "kíán-wòò-tɛ́ɛ́ káá ń yíé míé",
-      "phonetic_api_example": "/kí.án.wòː.tɛ́ː káː ń jí.é mí.é/",
-      "example_translation": "J'ai des regrets à présent."
+      "word_id": "v3",
+      "term": "kɛ́i",
+      "phonetic_api": "/kɛ́ì/",
+      "phonetic_simple": "KÉ-I",
+      "translation": "suffixe progressif (kpele apparenté, extrapolé au conditionnel)",
+      "example_sentence": "Ɲá gáa klô kɛ́i wɛɛ̀́.",
+      "example_phonetic": "/ɲá gáː klô kɛ́ì wɛ̀ː/",
+      "example_translation": "Je serai en train de travailler (futur progressif, structure extrapolée non attestée telle quelle)."
     },
     {
-      "word_id": "v1_4",
-      "term": "yɛ́-ò",
-      "phonetic_api": "/jɛ́.ò/",
-      "phonetic_simple": "YE-O",
-      "translation": "particule de validation d'un état antérieur révolu",
-      "example_sentence": "á yɛ́-ò kpálá kɛ́á ɓɔ́",
-      "phonetic_api_example": "/á jɛ́.ò k͡pā.lá kɛ́.á ɓɔ́/",
-      "example_translation": "Il travaillait ici autrefois (ce n'est plus le cas)."
+      "word_id": "v4",
+      "term": "klɔ́ŋ / klɔ̀ŋ",
+      "phonetic_api": "/klɔ́ŋ/ ~ /klɔ̀ŋ/",
+      "phonetic_simple": "KLONG haut/bas",
+      "translation": "savoir (présent/passé, contraste tonal, kono attesté)",
+      "example_sentence": "Ŋa klɔ̀ŋ kɔ́lɔ.",
+      "example_phonetic": "/ŋá klɔ̀ŋ kɔ́lɔ/",
+      "example_translation": "Je le savais depuis longtemps."
+    },
+    {
+      "word_id": "v5",
+      "term": "gáa",
+      "phonetic_api": "/gáː/",
+      "phonetic_simple": "GA-A",
+      "translation": "verbe locatif support de l'aspect progressif (kono attesté)",
+      "example_sentence": "Yà gáa klô kɛ́i.",
+      "example_phonetic": "/jà gáː klô kɛ́ì/",
+      "example_translation": "Il/elle est en train de travailler."
+    },
+    {
+      "word_id": "v6",
+      "term": "dɔ́ɔ",
+      "phonetic_api": "/dɔ́ɔ/",
+      "phonetic_simple": "DO-O",
+      "translation": "pouvoir (modal, kpele apparenté), base du conditionnel extrapolé",
+      "example_sentence": "Ɲá dɔ́ɔ pá wɛɛ̀́.",
+      "example_phonetic": "/ɲá dɔ́ɔ pá wɛ̀ː/",
+      "example_translation": "Je pourrais venir (structure extrapolée, non attestée telle quelle)."
+    },
+    {
+      "word_id": "v7",
+      "term": "kɔ́lɔ",
+      "phonetic_api": "/kɔ́lɔ/",
+      "phonetic_simple": "KO-LO",
+      "translation": "depuis longtemps (marqueur d'antériorité étendue, kpele apparenté)",
+      "example_sentence": "Ŋa klɔ̀ŋ kɔ́lɔ.",
+      "example_phonetic": "/ŋá klɔ̀ŋ kɔ́lɔ/",
+      "example_translation": "Je le savais depuis longtemps."
+    },
+    {
+      "word_id": "v8",
+      "term": "tíŋaá",
+      "phonetic_api": "/tíŋaː/",
+      "phonetic_simple": "TIN-GA-A",
+      "translation": "demain (kono attesté)",
+      "example_sentence": "Ɲá wɛɛ̀́ gáa klô kɛ́i tíŋaá.",
+      "example_phonetic": "/ɲá wɛ̀ː gáː klô kɛ́ì tíŋaː/",
+      "example_translation": "Je serai en train de travailler demain (structure extrapolée)."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p1_1",
-      "original": "ń táá-ò míé-ò kɔ̀nɔ̀n yí pɔ́ í nà lɔ́ɔ̀ gí",
-      "phonetic_api": "/ń táː.ò mí.é.ò kɔ̀nɔ̀n jí pɔ́ í nà lɔ́ː ɡí/",
-      "phonetic_simple": "N TAA-O MIEE-O KONON YI PO I NA LOO GI",
-      "translation": "J'étais déjà allé au champ avant que tu n'arrives ici.",
-      "context": "Préciser la chronologie de deux actions passées au cours d'un récit complexe."
+      "phrase_id": "p1",
+      "original": "Ŋa klɔ̀ŋ kɔ́lɔ.",
+      "phonetic_api": "/ŋá klɔ̀ŋ kɔ́lɔ/",
+      "phonetic_simple": "NGA KLONG KO-LO",
+      "translation": "Je le savais depuis longtemps.",
+      "context": "Combinaison attestée du passé tonal avec un marqueur d'antériorité étendue."
     },
     {
-      "phrase_id": "p1_2",
-      "original": "á kpɛ̀-nì mání dɔ́-ò pɔ́, àá lɔ́-ò à dɔ́ɔ́á",
-      "phonetic_api": "/á k͡pɛ̀.nì má.ní dɔ́.ò pɔ́ àː lɔ́.ò à dɔ́ː.á/",
-      "phonetic_simple": "A KPE-NI MANI DO-O PO AA LO-O A DOOA",
-      "translation": "À peine le riz fut-il servi que nous commençâmes à manger.",
-      "context": "Raconter avec vivacité une scène de vie commune ou une fête."
+      "phrase_id": "p2",
+      "original": "Hɛ́ni hó e klɔŋ́.",
+      "phonetic_api": "/hɛ́ni hó é klɔ́ŋ/",
+      "phonetic_simple": "HÉ-NI HO É KLONG",
+      "translation": "Hɛni ne te connaît pas.",
+      "context": "Négation attestée du présent."
     },
     {
-      "phrase_id": "p1_3",
-      "original": "ń fɔ́ á kɛ́-ò míé-ò kpaán, kɔ̀nùn ń máá kpɛ̀lɛ̀ sɔ̀",
-      "phonetic_api": "/ń fɔ́ á kɛ́.ò mí.é.ò k͡pāːn kɔ̀nùn ń máː k͡pɛ̀lɛ̀ sɔ̀/",
-      "phonetic_simple": "N FO A KE-O MIEE-O KPAAN KONON N MAA KPELE SO",
-      "translation": "J'aurais bien voulu le faire autrefois, mais je n'en ai pas eu l'opportunité.",
-      "context": "Exprimer un regret ou justifier une ambition passée non accomplie."
+      "phrase_id": "p3",
+      "original": "Ɲá gáa klô kɛ́i wɛɛ̀́ (structure extrapolée).",
+      "phonetic_api": "/ɲá gáː klô kɛ́ì wɛ̀ː/",
+      "phonetic_simple": "NYA GA-A KLO KÉ-I OUÉ-É",
+      "translation": "Je serai en train de travailler.",
+      "context": "Combinaison hypothétique du progressif et du futur, non directement attestée mais construite par analogie avec les règles combinatoires connues ; confiance faible sur cette combinaison précise."
     },
     {
-      "phrase_id": "p1_4",
-      "original": "wáá yɛ́-ò kálá kɛ́á lú gíán gboi nìí yíé wá ?",
-      "phonetic_api": "/wáː jɛ́.ò ká.á kɛ́.á lú ɡí.án ɡ͡ɓo.i nìː jí.é wá/",
-      "phonetic_simple": "WAA YE-O KA-LA KEA LOO GIAN GBOI NII YIEE WA",
-      "translation": "Étudiiez-vous ensemble dans cette grande concession jadis ?",
-      "context": "Interroger des aînés sur leurs souvenirs et relations de jeunesse."
+      "phrase_id": "p4",
+      "original": "Ɲá dɔ́ɔ pá wɛɛ̀́ (structure extrapolée).",
+      "phonetic_api": "/ɲá dɔ́ɔ pá wɛ̀ː/",
+      "phonetic_simple": "NYA DO-O PA OUÉ-É",
+      "translation": "Je pourrais venir.",
+      "context": "Combinaison hypothétique du modal de possibilité et du futur ; confiance faible, à valider avec un locuteur natif."
     }
   ],
   "grammar_points": [
     {
-      "concept": "La construction du plus-que-parfait par cumul aspectuel",
-      "explanation": "Pour renvoyer une action dans un passé antérieur à une autre action évoquée, la langue kono combine le suffixe de l'accompli immédiat '-ò' avec la particule de décalage temporel lointain 'míé-ò'.",
+      "concept": "Les limites documentaires sur les modes avancés en kono",
+      "explanation": "L'article de référence de Konoshenko (2017) documente solidement le présent, le passé (contraste tonal), le futur (wɛɛ̀́) et la négation (hó), mais ne fournit pas d'exemples attestés de combinaisons complexes (futur progressif, conditionnel composé, subjonctif). Cette leçon présente donc les briques attestées séparément, et propose des combinaisons par extrapolation raisonnée à partir des règles combinatoires générales des langues mandées, signalées explicitement comme non vérifiées.",
       "rules": [
-        "Sujet + Verbe + ò + míé-ò + Compléments.",
-        "Cette structure verrouille le procès verbal comme totalement intemporel et coupé du présent."
+        "Les marqueurs attestés (wɛɛ̀́ futur, hó négation, ton du passé) peuvent se combiner en théorie selon les règles générales de l'ordre préverbal mandé, mais aucune combinaison précise n'est attestée dans nos sources pour le kono.",
+        "Toute combinaison présentée ici au-delà des formes simples attestées doit être considérée comme une hypothèse pédagogique, non comme un fait vérifié.",
+        "Pour un usage réel avancé, la validation par un locuteur natif du kono de Lola est fortement recommandée avant tout usage professionnel ou publié."
       ],
       "examples": [
         {
-          "structure": "ń kɛ́-ò míé-ò",
-          "phonetic_api": "/ń kɛ́.ò mí.é.ò/",
-          "meaning": "J'avais fait (et c'était fini depuis longtemps)."
-        }
-      ]
-    },
-    {
-      "concept": "Le mode irréel du passé (le conditionnel passé)",
-      "explanation": "L'expression d'un regret ou d'un fait qui aurait pu se produire mais n'a pas eu lieu utilise le verbe d'obligation 'fɔ́' associé au marqueur de rupture 'míé-ò', suivi de la conjonction restrictive 'kɔ̀nùn' (mais).",
-      "rules": [
-        "Sujet + fɔ́ + Verbe + ò + míé-ò, kɔ̀nùn + Proposition négative."
-      ],
-      "examples": [
-        {
-          "structure": "ń fɔ́ táá-ò míé-ò, kɔ̀nùn...",
-          "phonetic_api": "/ń fɔ́ táː.ò mí.é.ò kɔ̀nùn/",
-          "meaning": "Je serais bien parti, mais..."
+          "structure": "Sujet + wɛɛ̀́ + hó + Verbe",
+          "phonetic_api": "/wɛ̀ː hó/",
+          "meaning": "futur négatif (extrapolé, non attesté formellement)"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Koli",
-      "text": "Sia, í yɛ́-ò kálá-mɔ̀ɔ̀ le kɛ́á lòlà pɔ́ í nà ɓɔ́ gí ?",
-      "phonetic_api": "/sí.á í jɛ́.ò ká.lá.mɔ̀ː le kɛ́.á lò.là pɔ́ í nà ɓɔ́ ɡí/",
-      "phonetic_simple": "SIA I YE-O KA-LA-MOO LE KEA LOLA PO I NA BO GI",
-      "translation": "Sia, avais-tu étudié à Lola avant de t'installer ici ?"
+      "speaker": "Sèni",
+      "text": "Ŋa klɔ̀ŋ kɔ́lɔ, yà wɛɛ̀́ pá.",
+      "phonetic_api": "/ŋá klɔ̀ŋ kɔ́lɔ jà wɛ̀ːpá/",
+      "phonetic_simple": "NGA KLONG KO-LO, YA OUÉ-É PA",
+      "translation": "Je savais depuis longtemps qu'il/elle viendrait."
     },
     {
-      "speaker": "Sia",
-      "text": "òò, ń táá-ò míé-ò kálá-yíé gíán pɔ́. ń kpɛ̀-nì à kɛ́-wòò ɓɔ́-ò pɔ́, ń nà-ò ɓɔ́.",
-      "phonetic_api": "/òː ń táː.ò mí.é.ò ká.á.jí.é ɡí.án pɔ́ ń k͡pɛ̀.nì à kɛ́.wòː ɓɔ́.ò pɔ́ ń nà.ò ɓɔ́/",
-      "phonetic_simple": "OO N TAA-O MIEE-O KA-LA-YIEE GIAN PO N KPE-NI A KE-WOO BO-O PO N NA-O BO",
-      "translation": "Oui, j'étais déjà allée dans cette école auparavant. À peine mes études furent-elles terminées que je suis venue ici."
+      "speaker": "Bala",
+      "text": "Hɛ́ni hó e klɔŋ́ tíŋaá kɔ́lɔ?",
+      "phonetic_api": "/hɛ́ni hó é klɔ́ŋ tíŋaː kɔ́lɔ/",
+      "phonetic_simple": "HÉ-NI HO É KLONG TIN-GA-A KO-LO",
+      "translation": "Hɛni ne te connaissait-il pas depuis longtemps ?"
     },
     {
-      "speaker": "Koli",
-      "text": "ń kɔ̀n, ń fɔ́ kálá-ò míé-ò kpaán, kɔ̀nùn kpálá mɛ̀-ò ń lɔ́.",
-      "phonetic_api": "/ń kɔ̀n ń fɔ́ ká.á.ò mí.é.ò k͡pāːn kɔ̀nùn k͡pā.lá mɛ̀.ò ń lɔ́/",
-      "phonetic_simple": "N KON N FO KA-LA-O MIEE-O KPAAN KONON KPA-LA ME-O N LO",
-      "translation": "Moi, j'aurais tellement voulu étudier aussi, mais le travail de la terre m'a retenu."
+      "speaker": "Sèni",
+      "text": "Hó, yà wɛɛ̀́ ɲá klɔ́ŋ tíŋaá.",
+      "phonetic_api": "/hó jà wɛ̀ː ɲá klɔ́ŋ tíŋaː/",
+      "phonetic_simple": "HO, YA OUÉ-É NYA KLONG TIN-GA-A",
+      "translation": "Non, il/elle me connaîtra (seulement) demain."
     },
     {
-      "speaker": "Sia",
-      "text": "í máá kíán-wòò-tɛ́ɛ́ kɛ́ í yíé, í kpálá nìí káá kɛ́nɛ̀ kpaán yɛ́ !",
-      "phonetic_api": "/í máː kí.án.wòː.tɛ́ː kɛ́ í jí.é í k͡pā.lá nìː káː kɛ́nɛ̀ k͡pāːn jɛ́/",
-      "phonetic_simple": "I MAA KIAN-WOO-TEE KE I YIEE I KPA-LA NII KAA KENE KPAAN YE",
-      "translation": "N'aie aucun regret en toi, ton travail actuel est vraiment très estimable !"
+      "speaker": "Bala",
+      "text": "Ěe, ŋa klɔ́ŋ.",
+      "phonetic_api": "/ěː ŋá klɔ́ŋ/",
+      "phonetic_simple": "É-É NGA KLONG",
+      "translation": "Oui, je comprends (je sais)."
     }
   ],
   "cultural_notes": [
-    "La maîtrise de ces structures temporelles imbriquées marque, chez les Konon, le passage à un niveau d'éloquence supérieur. Dans les réunions villageoises ou les récits généalogiques à Lola, articuler correctement l'antériorité permet de clarifier la préséance des droits fonciers ou coutumiers, démontrant que tel clan s'était installé ('míé-ò') bien avant l'arrivée des vagues migratoires suivantes."
+    "Cette leçon illustre une limite méthodologique importante : contrairement aux langues très documentées, le kono de Guinée ne dispose pas encore d'une grammaire de référence exhaustive couvrant tous les modes et temps composés ; les linguistes de terrain (comme Konoshenko) continuent de documenter la langue.",
+    "Chez les locuteurs natifs, la nuance modale complexe est souvent portée autant par l'intonation et le contexte discursif que par une morphologie verbale dédiée, une caractéristique typique de nombreuses langues à tradition orale forte."
   ],
   "exercises": [
     {
-      "exercise_id": "ex1_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quelle association de morphèmes permet d'exprimer le plus-que-parfait (antériorité révolue) ?",
+      "question": "Quel marqueur de négation est attesté en kono par Konoshenko (2017) ?",
       "options": [
-        "L'auxiliaire bɛ́ suivi de -á",
-        "Le suffixe -ò combiné à la particule míé-ò",
-        "La particule prohibitive máá"
+        "hó",
+        "wàa",
+        "dɔ́ɔ"
       ],
-      "correct_answer": "Le suffixe -ò combiné à la particule míé-ò",
-      "explanation": "C'est l'accumulation de l'accompli '-ò' et de la rupture temporelle lointaine 'míé-ò' qui génère la valeur du plus-que-parfait."
+      "correct_answer": "hó",
+      "explanation": "hó est le marqueur de négation directement attesté dans l'exemple « Hɛ́ni hó e klɔŋ́ »."
     },
     {
-      "exercise_id": "ex1_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "ń [ ___ ] nàá, á táá-ò (À peine étais-je arrivé qu'il est parti)",
-      "correct_answer": "kpɛ̀-nì",
-      "hint": "Le connecteur de simultanéité immédiate ou d'action soudaine"
+      "sentence_with_blank": "Ŋa klɔ̀ŋ ___. (Je le savais depuis longtemps.)",
+      "correct_answer": "kɔ́lɔ",
+      "hint": "Marqueur d'antériorité étendue, apparenté kpele."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Maria Konoshenko, « Field Notes on Kono, a Southwestern Mande Lect of Forest Guinea », Mandenkan 57 (2017), pp. 77-107",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan57/konoshenko57.pdf"
+    },
+    {
+      "label": "Maria Konoshenko, « Dictionnaire kpele de la Guinée (guerzé) – français », Mandenkan 62 (2019/2020)",
+      "url": "https://journals.openedition.org/mandenkan/2091"
+    }
+  ],
+  "confidence": "faible",
+  "confidence_note": "Ce sujet grammatical avancé n'est pas documenté dans les sources disponibles pour le Kono ou le Kpelle de Guinée. Le contenu a été construit par extrapolation prudente à partir des règles grammaticales attestées (système TAM, tons, alternance consonantique) décrites dans Konoshenko (2017), en respectant la structure typologique connue de la langue, mais sans validation par des exemples de phrases réellement attestés pour ce point précis. Les formes de base (présent/passé tonal, futur wɛɛ̀́, négation hó) sont attestées en kono, mais leurs combinaisons complexes (futur progressif, conditionnel composé) ne sont pas documentées dans les sources disponibles et relèvent ici d'une extrapolation pédagogique prudente à vérifier avec des locuteurs natifs."
 }

@@ -6,128 +6,146 @@
   "lesson_number": 6,
   "title": "Le registre soutenu et le langage formel (cérémonies, contes, traditions)",
   "learning_objectives": [
-    "Utiliser les formules rituelles d'introduction et de clôture des contes traditionnels",
-    "Employer le vocabulaire honorifique réservé aux dignitaires et aux gardiens de la coutume"
+    "Comprendre le changement de ton vocatif dans l'adresse formelle à quelqu'un",
+    "Utiliser le vocabulaire religieux/cérémoniel ('Gala' = Dieu)",
+    "Reconnaître la structure figée d'une prière ou d'un texte cérémoniel"
   ],
   "phonetic_focus": {
-    "key_sounds": "Ce registre fait un usage solennel d'occlusives injectives doublement articulées /gɓ/ associées à des murmures glottaux marquant la déférence spirituelle.",
-    "common_pitfalls": "Attention à ne pas utiliser des pronoms contractés familiers du quotidien. Chaque morphème doit être prononcé dans sa plénitude phonique."
+    "key_sounds": "Selon Sadler, l'adresse vocative directe à une personne peut entraîner un changement de ton sur son nom (comparer 'Folomo' en usage normal et sa forme vocative à ton modifié) ; ce changement tonal marque un registre plus formel ou solennel de l'adresse.",
+    "common_pitfalls": "Les francophones, dont la langue ne connaît pas de changement de ton lexical selon le registre, ont tendance à ignorer cette modification tonale subtile pourtant significative en toma/loma pour distinguer un registre courant d'un registre cérémoniel/solennel."
   },
   "vocabulary": [
     {
-      "word_id": "v24_1",
-      "term": "kêe-gaza-ni",
-      "phonetic_api": "/kɛ̂ː.ɡa.za.ni/",
-      "phonetic_simple": "KEE-GA-ZA-NI",
-      "translation": "les patriarches / les ancêtres fondateurs / les hauts dignitaires",
-      "example_sentence": "Kêe-gaza-ni ta va ɓɛñ.",
-      "example_phonetic": "/kɛ̂ː.ɡa.za.ni ta va ɓɛ̃/",
-      "example_translation": "Les dignitaires sacrés entrent ici."
+      "word_id": "v1",
+      "term": "Gala",
+      "phonetic_api": "/gala/",
+      "phonetic_simple": "GA-LA",
+      "translation": "Dieu",
+      "example_sentence": "Anii Gala k3e na, ga e wulo kpialgii felegDima.",
+      "example_phonetic": "/anii ɡala kɔe na ɡa e wulɔ kpialɡiː feleɡɔima/",
+      "example_translation": "Si Dieu le bénit, il obtiendra son diplôme."
     },
     {
-      "word_id": "v24_2",
-      "term": "mɛni-lolo",
-      "phonetic_api": "/mɛ.ni.lo.lo/",
-      "phonetic_simple": "ME-NI-LO-LO",
-      "translation": "raconter un conte initiatique / transmettre l'histoire sacrée",
-      "example_sentence": "Na lo ga mɛni-lolo ma.",
-      "example_phonetic": "/na lo ɡa mɛ.ni.lo.lo ma/",
-      "example_translation": "Je m'apprête à narrer le récit des temps anciens."
+      "word_id": "v2",
+      "term": "Ton vocatif",
+      "phonetic_api": "/-/",
+      "phonetic_simple": "TON-VO-CA-TIF",
+      "translation": "Changement tonal marquant l'adresse formelle/solennelle à quelqu'un",
+      "example_sentence": "Folomo (usage normal) vs FolomoÉ (adresse vocative, ton modifié)",
+      "example_phonetic": "/fɔlɔmɔ/ vs /fɔlɔmɔː/",
+      "example_translation": "Folomo / Ô Folomo (forme d'adresse plus solennelle)"
     },
     {
-      "word_id": "v24_3",
-      "term": "sala",
-      "phonetic_api": "/sa.la/",
-      "phonetic_simple": "SA-LA",
-      "translation": "offrande rituelle / bénédiction formelle / libation",
-      "example_sentence": "Ta sala vena kêe-ni ma.",
-      "example_phonetic": "/ta sa.la vɛ.na kɛ̂ː.ni ma/",
-      "example_translation": "Ils ont offert la libation aux ancêtres."
+      "word_id": "v3",
+      "term": "Masabelii",
+      "phonetic_api": "/masabelii/",
+      "phonetic_simple": "MA-SA-BÉ-LI-I",
+      "translation": "Le chef, l'autorité traditionnelle (dans un registre cérémoniel)",
+      "example_sentence": "Masabelii gaale velelamagi.",
+      "example_phonetic": "/masabelii ɡaːle velelamaɡi/",
+      "example_translation": "Il y a de nombreuses façons de tendre le piège du chef."
     },
     {
-      "word_id": "v24_4",
-      "term": "wɔlɔ-zu-tɔñ",
-      "phonetic_api": "/wɔ.lɔ.zu.tɔ̃/",
-      "phonetic_simple": "WO-LO-ZOU-TON",
-      "translation": "vérité éternelle / immuable",
-      "example_sentence": "Ni ga wɔlɔ-zu-tɔñ.",
-      "example_phonetic": "/ni ɡa wɔ.lɔ.zu.tɔ̃/",
-      "example_translation": "Ceci est une vérité immuable à travers les âges."
+      "word_id": "v4",
+      "term": "Yài / È",
+      "phonetic_api": "/jai/ ; /ɛ/",
+      "phonetic_simple": "YA-I / È",
+      "translation": "Notre / lui-même (formes utilisées dans le texte de prière cérémonielle)",
+      "example_sentence": "Yài è ga gé ɣeeai è gee-zuvɛ.",
+      "example_phonetic": "/jai ɛ ɡa ɡe ɣeːai ɛ ɡeː-zuvɛ/",
+      "example_translation": "(Début de la prière : 'Notre père qui es aux cieux' — voir texte complet ci-dessous)."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p24_1",
-      "original": "Mɛni-lolo na va lo ga, wa mɛni ga vaza!",
-      "phonetic_api": "/mɛ.ni.lo.lo na va lo ɡa wa mɛ.ni ɡa va.za/",
-      "phonetic_simple": "ME-NI-LO-LO NA VA LO GA, WA ME-NI GA VA-ZA !",
-      "translation": "Le récit sacré s'ouvre, ouvrez grand vos esprits pour le recevoir !",
-      "context": "Formule solennelle d'introduction employée par le griot ou l'ancien avant un conte nocturne."
+      "phrase_id": "p1",
+      "original": "Yài è ga gé ɣeeai è gee-zuvɛ, ɓaa ɣa la yà laa-zeigi ma, yà masadai va...",
+      "phonetic_api": "/jai ɛ ɡa ɡe ɣeːai ɛ ɡeː-zuvɛ ɓaː ɣa la ja laː-zeiɡi ma ja masadai va/",
+      "phonetic_simple": "YA-I-È-GA-GUÉ-RÉ-É-AÏ-È-GUÉÉ-ZOU-VÈ",
+      "translation": "Extrait du 'Notre Père' en loma (texte cérémoniel religieux complet cité dans les notes culturelles).",
+      "context": "Texte religieux traditionnel/cérémoniel emblématique du registre soutenu, transmis par les missions chrétiennes en pays loma."
     },
     {
-      "phrase_id": "p24_2",
-      "original": "Kêe-gaza-ni ta sala ve wa ma, wa lii va wɛlɛ pépe.",
-      "phonetic_api": "/kɛ̂ː.ɡa.za.ni ta sa.la vɛ wa ma wa liː va wɛ.lɛ pɛ́.pɛ/",
-      "phonetic_simple": "KEE-GA-ZA-NI TA SA-LA VE WA MA, WA LII VA WE-LE PE-PE",
-      "translation": "Que la bénédiction des patriarches repose sur vous, et que vos cœurs soient comblés de paix.",
-      "context": "Formule protocolaire de remerciement et de bénédiction de haut rang lors des rites de mariage ou d'initiation."
+      "phrase_id": "p2",
+      "original": "Anii Gala k3e na, ga e wulo kpialgii felegDima.",
+      "phonetic_api": "/anii ɡala kɔe na ɡa e wulɔ kpialɡiː feleɡɔima/",
+      "phonetic_simple": "A-NI-I-GA-LA-KO-É-NA-GA-É-WOU-LO-KPI-AL-GUI-FÉ-LÉ-GO-I-MA",
+      "translation": "Si Dieu le bénit, il obtiendra son diplôme.",
+      "context": "Formule de bénédiction/souhait solennel, registre soutenu courant dans les discours cérémoniels autour de la réussite scolaire."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'inversion honorifique cérémonielle",
-      "explanation": "Dans le discours d'apparat, les groupes nominaux désignant les autorités religieuses ou coutumières sont systématiquement placés avant les verbes d'état, suivis du pronom pluriel déférent 'ta', même si le sujet est morphologiquement singulier.",
+      "concept": "Le changement de ton vocatif comme marqueur de registre soutenu",
+      "explanation": "D'après Sadler, l'adresse directe et solennelle à une personne (par exemple lors d'une cérémonie ou d'un discours formel) peut s'accompagner d'un changement de ton sur son nom propre, contrairement à l'usage du même nom dans une phrase déclarative ordinaire. Ce phénomène tonal est un marqueur grammatical du registre soutenu propre aux langues à tons comme le loma/toma.",
       "rules": [
-        "Usage du pluriel de majesté/respect obligatoire pour tout aîné ou dignitaire.",
-        "Les compléments d'attribution ('wa ma' / 'i ma') reçoivent des allongements vocaliques cérémoniels en fin de formule."
+        "Nom propre (usage normal, ton de base) → nom propre (usage vocatif solennel, ton modifié).",
+        "Ce changement tonal s'observe principalement dans les discours cérémoniels, les contes et l'adresse rituelle."
       ],
       "examples": [
         {
-          "structure": "Kêe-gaza ta va",
-          "phonetic_api": "/kɛ̂ː.ɡa.za ta va/",
-          "meaning": "Le grand Patriarche vient (litt. Ils viennent)"
+          "structure": "Folomo (normal) / FolomoÉ (vocatif solennel)",
+          "phonetic_api": "/fɔlɔmɔ/ vs /fɔlɔmɔː/",
+          "meaning": "Changement de ton marquant le passage au registre formel d'adresse."
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "L'Orateur",
-      "text": "Kêe-gaza-ni, wa sala vaza lɔ wa yee?",
-      "phonetic_api": "/kɛ̂ː.ɡa.za.ni wa sa.la va.za lɔ wa jeː/",
-      "phonetic_simple": "KEE-GA-ZA-NI, WA SA-LA VA-ZA LO WA YEE ?",
-      "translation": "Honorables patriarches, détenez-vous l'offrande de paix entre vos mains ?"
+      "speaker": "Officiant",
+      "text": "Yài è ga gé ɣeeai è gee-zuvɛ...",
+      "phonetic_api": "/jai ɛ ɡa ɡe ɣeːai ɛ ɡeː-zuvɛ/",
+      "phonetic_simple": "YA-I-È-GA-GUÉ-RÉ-É-AÏ-È-GUÉÉ-ZOU-VÈ",
+      "translation": "Notre père qui es aux cieux... (début du texte cérémoniel)"
     },
     {
-      "speaker": "Le Conseil des Sages",
-      "text": "Owo, sala lɔ wa yee, mɛni-lolo va lo ga, wa wɔlɔ-zu-tɔñ mɛni.",
-      "phonetic_api": "/o.wo sa.la lɔ wa jeː mɛ.ni.lo.lo va lo ɡa wa wɔ.lɔ.zu.tɔ̃ mɛ.ni/",
-      "phonetic_simple": "O-WO, SA-LA LO WA YEE, ME-NI-LO-LO VA LO GA, WA WO-LO-ZOU-TON ME-NI",
-      "translation": "Oui, la bénédiction est prête, que l'histoire s'énonce afin que nous entendions la vérité immuable."
+      "speaker": "Assemblée",
+      "text": "Anii Gala k3e na, ga e wulo kpialgii felegDima.",
+      "phonetic_api": "/anii ɡala kɔe na ɡa e wulɔ kpialɡiː feleɡɔima/",
+      "phonetic_simple": "A-NI-I-GA-LA-KO-É-NA-GA-É-WOU-LO-KPI-AL-GUI-FÉ-LÉ-GO-I-MA",
+      "translation": "Si Dieu le bénit, qu'il obtienne son diplôme."
     }
   ],
   "cultural_notes": [
-    "La langue toma possède un cloisonnement stylistique très fort. Les termes utilisés au sein du 'Poro' (société secrète traditionnelle de Guinée forestière) ou lors des grandes cérémonies mémorielles ne doivent jamais être galvaudés dans les conversations triviales du marché."
+    "Le texte complet du 'Notre Père' en loma, cité par Wikipédia (anglais), est un exemple attesté de registre soutenu religieux, transmis par les missions chrétiennes établies en pays loma dès le XXe siècle : 'Yài è ga gé ɣeeai è gee-zuvɛ, ɓaa ɣa la yà laa-zeigi ma, yà masadai va, è yii-mai ɣɛ zui zu è ɣɛ velei é ɣɛɛzu la è wɔ vɛ, è zaa mii ŋenigi ʋe gé ya, è gé vaa ʋaitiɛ zu ʋaa yɛ, è ɣɛ velei gá ɓalaa gé zɔitiɛ zu ʋaa yɛga la gá ʋaa yega te va. Mɛ lɛ kɛ tɛ-ga ɔ́ wo ga gíɛ, kɛ̀ è gé wulo tuɓo-vele-yowũ nui ya.' (traduction française non fournie par la source ; texte cité tel quel comme illustration du registre religieux/cérémoniel écrit en loma).",
+    "Des hymnes en loma composés par Billema Kwillia dans les années 1960 (dont 'A va de laa') ont été adoptés par l'Église luthérienne et imprimés en loma dès 1970, illustrant l'existence d'une tradition écrite de chant religieux en registre soutenu."
   ],
   "exercises": [
     {
-      "exercise_id": "ex24_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Comment le langage formel toma exprime-t-il le respect absolu envers un seul chef ou ancien ?",
+      "question": "Quel phénomène marque le passage à un registre d'adresse solennelle en toma/loma selon Sadler ?",
       "options": [
-        "En utilisant un ton suraigu",
-        "En employant systématiquement le pronom pluriel 'ta' (Pluriel de majesté)",
-        "En omettant son nom propre"
+        "Un changement de ton sur le nom propre",
+        "Un changement de genre grammatical",
+        "Un changement d'ordre des mots"
       ],
-      "correct_answer": "En employant systématiquement le pronom pluriel 'ta' (Pluriel de majesté)",
-      "explanation": "Le pluriel traduit la dimension collective et spirituelle qui entoure la fonction de l'autorité."
+      "correct_answer": "Un changement de ton sur le nom propre",
+      "explanation": "Documenté explicitement par Sadler (Mandenkan 42) comme marqueur du registre vocatif/solennel."
     },
     {
-      "exercise_id": "ex24_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Na va [ ___ ] vena kêe-ni ma (J'ai offert la libation aux ancêtres).",
-      "correct_answer": "sala",
-      "hint": "Le nom désignant l'offrande rituelle ou la bénédiction sacrée."
+      "sentence_with_blank": "Anii [ ___ ] k3e na, ga e wulo kpialgii felegDima. (Si Dieu le bénit...)",
+      "correct_answer": "Gala",
+      "hint": "C'est le mot pour 'Dieu'."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Wesley Sadler, \"A Complete Analysis of the Lɔɔma Language\", Mandenkan 42 (LLACAN/CNRS)",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan42/sadler.pdf"
+    },
+    {
+      "label": "Wikipedia (en), \"Loma language\"",
+      "url": "https://en.wikipedia.org/wiki/Loma_language"
+    },
+    {
+      "label": "Dwyer, Bodegie & Bague, \"A Learner Directed Approach to Lorma\" (Peace Corps/Michigan State University, 1981)",
+      "url": "https://files.eric.ed.gov/fulltext/ED247766.pdf"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Le changement de ton vocatif est documenté par la grammaire académique de Sadler ; le texte du Notre Père provient de Wikipédia (anglais) sans traduction française fournie par la source elle-même. Le toma de Guinée forestière et le loma/lorma du Libéria (dialecte Gizima) forment un continuum dialectal du même groupe Mande du Sud (Mende-Loma) ; les formes citées ici proviennent des meilleures sources disponibles pour ce continuum linguistique (grammaire de Sadler et manuel Peace Corps de Dwyer), la documentation publiée spécifique au parler de Guinée étant plus rare."
 }

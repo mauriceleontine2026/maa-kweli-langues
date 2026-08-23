@@ -6,142 +6,219 @@
   "lesson_number": 2,
   "title": "Exprimer l'hypothèse, le doute et la condition",
   "learning_objectives": [
-    "Formuler des structures conditionnelles complexes (Si... alors) en Mano",
-    "Exprimer l'incertitude, la supposition et le doute à l'aide de particules modales",
-    "Nuancer un propos pour traduire l'éventualité ou le regret passé"
+    "Distinguer la condition réelle (ékɛ̄á) et la condition irréelle (èkɛ̄á)",
+    "Construire une phrase hypothétique complète avec protase et apodose",
+    "Exprimer le doute avec des moyens lexicaux et grammaticaux appropriés"
   ],
   "phonetic_focus": {
-    "key_sounds": "La structure de la condition repose principalement sur le morphème initial /kɛ́/ (si), qui porte un ton haut très percutant. L'incertitude ou le doute fait intervenir la particule finale /nã˧/ ou des allongements vocaliques combinés à un abaissement de ton en fin de proposition pour suspendre le sens.",
-    "common_pitfalls": "Attention à ne pas abréger la particule de doute. Une mauvaise gestion du ton haut sur 'kɛ́' peut faire confondre la conjonction de condition avec le verbe 'kɛ' (faire) qui possède un ton moyen stable."
+    "key_sounds": "ékɛ̄á (si réel, ton haut initial) et èkɛ̄á (si irréel, ton bas initial) ne se distinguent que par le ton de la première syllabe : une opposition minimale cruciale à ce niveau.",
+    "common_pitfalls": "Employer ékɛ̄á (réel) dans un contexte contrefactuel du passé, ce qui produirait un contresens modal — seul èkɛ̄á convient pour l'hypothèse irréelle."
   },
   "vocabulary": [
     {
-      "word_id": "v20_1",
-      "term": "kɛ́",
-      "phonetic_api": "/kɛ˦/",
-      "phonetic_simple": "KÉ",
-      "translation": "Si (conjonction de condition)",
-      "example_sentence": "kɛ́ í lɔ",
-      "example_phonetic": "/kɛ˦ i˦ lɔ˧/",
-      "example_translation": "Si tu pars"
+      "word_id": "v1",
+      "term": "ékɛ̄á",
+      "phonetic_api": "/ékɛ̄á/",
+      "phonetic_simple": "É-kè-a",
+      "translation": "si (condition réelle/possible)",
+      "example_sentence": "Ékɛ̄á ī wálà gbē ká ā, í à gèē.",
+      "example_phonetic": "/ékɛ̄á ī wálà gbē ká ā, í à gèē/",
+      "example_translation": "Si tu es fils de Dieu, dis-le."
     },
     {
-      "word_id": "v20_2",
-      "term": "mĩ́-wɔ̃",
-      "phonetic_api": "/mĩ˦wɔ̃˧/",
-      "phonetic_simple": "MEENG-WONG",
-      "translation": "Doute / Incertitude / Soupçon",
-      "example_sentence": "mĩ́-wɔ̃ ɓe ń la.",
-      "example_phonetic": "/mĩ˦wɔ̃˧ ɓe˧ ń la˧/",
-      "example_translation": "J'ai un doute (Le doute est sur moi)."
+      "word_id": "v2",
+      "term": "èkɛ̄á",
+      "phonetic_api": "/èkɛ̄á/",
+      "phonetic_simple": "è-kè-a",
+      "translation": "si (condition irréelle/contrefactuelle)",
+      "example_sentence": "Èkɛ̄á kèá kō yɔ̀ɔ́ bèí zàā ā, kɔ́á kìē ā gɛ̰̀-ɛ̰̀ kèá.",
+      "example_phonetic": "/èkɛ̄á kèá kō jɔ̀ɔ́ bèí zàā ā, kɔ́á kìē ā gɛ̰̀-ɛ̰̀ kèá/",
+      "example_translation": "Si nous étions descendus, nous aurions vu ce chimpanzé."
     },
     {
-      "word_id": "v20_3",
-      "term": "nã",
-      "phonetic_api": "/nã˧/",
-      "phonetic_simple": "NANG",
-      "translation": "Peut-être / Éventuellement (particule de fin de phrase)",
-      "example_sentence": "À le va nã.",
-      "example_phonetic": "/a˧ le˧ va˧ nã˧/",
-      "example_translation": "Il viendra peut-être."
+      "word_id": "v3",
+      "term": "kɔ́á",
+      "phonetic_api": "/kɔ́á/",
+      "phonetic_simple": "KO-a",
+      "translation": "marqueur de la conséquence irréelle (apodose)",
+      "example_sentence": "Kɔ́á kìē ā.",
+      "example_phonetic": "/kɔ́á kìē ā/",
+      "example_translation": "Nous l'aurions vu."
     },
     {
-      "word_id": "v20_4",
-      "term": "kɛ̀ɛ́",
-      "phonetic_api": "/kɛ˩ɛ˦/",
-      "phonetic_simple": "KÈ-É",
-      "translation": "Mais / Cependant (nuance restrictive d'hypothèse)",
-      "example_sentence": "kɛ̀ɛ́ ń vɔ̃ɔ.",
-      "example_phonetic": "/kɛ˩ɛ˦ ń vɔ̃ː˧/",
-      "example_translation": "Mais j'ai refusé."
+      "word_id": "v4",
+      "term": "wálà",
+      "phonetic_api": "/wálà/",
+      "phonetic_simple": "OUA-la",
+      "translation": "être (copule d'identité, dans les contextes attestés)",
+      "example_sentence": "Ī wálà gbē ká.",
+      "example_phonetic": "/ī wálà gbē ká/",
+      "example_translation": "Tu es le fils de Dieu."
+    },
+    {
+      "word_id": "v5",
+      "term": "mɛ́ túó",
+      "phonetic_api": "/mɛ́ tṵ́ɔ́/",
+      "phonetic_simple": "mé TOU-o",
+      "translation": "douter, avoir peur/incertitude",
+      "example_sentence": "Ŋ̄ mɛ́ túó à wàā là.",
+      "example_phonetic": "/ŋ̄ mɛ́ tṵ́ɔ́ à wàā là/",
+      "example_translation": "Je doute de sa parole (littéralement j'ai peur/incertitude)."
+    },
+    {
+      "word_id": "v6",
+      "term": "wàā",
+      "phonetic_api": "/wàā/",
+      "phonetic_simple": "OUA-a",
+      "translation": "parole, dire (nom verbal)",
+      "example_sentence": "À wàā yɔ̄ɔ̄.",
+      "example_phonetic": "/à wàā jɔ̄ɔ̄/",
+      "example_translation": "Sa parole est mauvaise (fausse)."
+    },
+    {
+      "word_id": "v7",
+      "term": "gbē",
+      "phonetic_api": "/gbē/",
+      "phonetic_simple": "GBÊ",
+      "translation": "Dieu (dans l'exemple attesté gbē ká 'fils de Dieu')",
+      "example_sentence": "Gbē ká.",
+      "example_phonetic": "/gbē ká/",
+      "example_translation": "Le fils de Dieu."
+    },
+    {
+      "word_id": "v8",
+      "term": "wàá",
+      "phonetic_api": "/wàá/",
+      "phonetic_simple": "OUA-A",
+      "translation": "ou, ou bien (alternative/incertitude)",
+      "example_sentence": "Ká dōó wàá pèèlɛ̄?",
+      "example_phonetic": "/ká dōó wàá pèèlɛ̄/",
+      "example_translation": "Une maison ou deux ?"
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p20_1",
-      "original": "Kɛ́ gã̄ ɓe í la, í ka à sɔ̃̀ gɛ.",
-      "phonetic_api": "/kɛ˦ ɡãː˧ ɓe˧ i˦ la˧ i˦ ka˧ a˧ sɔ̃˩ ɡɛ˧/",
-      "phonetic_simple": "KÉ GANG BÉ EE LA, EE KAH A SONG GÈ",
-      "translation": "Si tu as de l'argent, tu dois payer son prix.",
-      "context": "Établir une condition financière ou contractuelle claire."
+      "phrase_id": "p1",
+      "original": "Ékɛ̄á ī wálà gbē ká ā, í à gèē...",
+      "phonetic_api": "/ékɛ̄á ī wálà gbē ká ā, í à gèē/",
+      "phonetic_simple": "é-kè-a i oua-la gbê ka a, i a guè-è",
+      "translation": "Si tu es fils de Dieu, ordonne que...",
+      "context": "Exemple attesté de condition réelle dans un texte narratif traduit."
     },
     {
-      "phrase_id": "p20_2",
-      "original": "Ń de le va tina nã, kɛ̀ɛ́ ń se à dɔ̃.",
-      "phonetic_api": "/ń de˧ le˧ va˧ ti˧na˧ nã˧ kɛ˩ɛ˦ ń se˧ a˧ dɔ̃˧/",
-      "phonetic_simple": "N DÉ LÉ VAH TEE-NAH NANG, KÈ-É N SÉ A DONG",
-      "translation": "Mon père viendra peut-être demain, mais je ne le sais pas de science certaine.",
-      "context": "Exprimer une incertitude familiale ou un doute sur un événement à venir."
+      "phrase_id": "p2",
+      "original": "Èkɛ̄á kèá kō yɔ̀ɔ́ bèí zàā ā, kɔ́á kìē ā gɛ̰̀-ɛ̰̀ kèá.",
+      "phonetic_api": "/èkɛ̄á kèá kō jɔ̀ɔ́ bèí zàā ā, kɔ́á kìē ā gɛ̰̀-ɛ̰̀ kèá/",
+      "phonetic_simple": "è-kè-a kè-a ko yo-o bè-i za-a a, ko-a ki-è a gnan-èn kè-a",
+      "translation": "Si nous étions descendus, nous aurions vu ce chimpanzé.",
+      "context": "Structure complète protase (èkɛ̄á...) + apodose (kɔ́á...kèá) de l'irréel du passé."
     },
     {
-      "phrase_id": "p20_3",
-      "original": "Kɛ́ í wɔ̂ ń lɛ-wɔ̃ loni tɛ́ɛ̀, í ɓɔ́ lɔ la ɓɛ.",
-      "phonetic_api": "/kɛ˦ i˦ wɔ˦˧ ń lɛ˧wɔ̃˧ lo˧ni˧ tɛ˦ɛ˩ i˦ ɓɔ˦ lɔ˧ la˧ ɓɛ˧/",
-      "phonetic_simple": "KÉ EE WÔ N LÈ-WONG LONEE TÉÈ, EE BOR LOR LA BÈ",
-      "translation": "Si tu avais écouté mon conseil autrefois, tu ne serais pas venu ici (regret/irréel du passé).",
-      "context": "Formuler une hypothèse sur le passé pour exprimer une leçon morale ou un regret."
+      "phrase_id": "p3",
+      "original": "Ŋ̄ mɛ́ túó à wàā là.",
+      "phonetic_api": "/ŋ̄ mɛ́ tṵ́ɔ́ à wàā là/",
+      "phonetic_simple": "ng mé tou-o a oua-a la",
+      "translation": "Je doute de sa parole.",
+      "context": "Emploi du verbe composé de crainte/doute avec un complément de parole."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Ká dōó wàá pèèlɛ̄?",
+      "phonetic_api": "/ká dōó wàá pèèlɛ̄/",
+      "phonetic_simple": "ka do-o oua-a pè-è-lê",
+      "translation": "Une maison ou deux (je ne sais pas laquelle) ?",
+      "context": "wàá exprime une alternative incertaine entre deux possibilités."
     }
   ],
   "grammar_points": [
     {
-      "concept": "La corrélation conditionnelle (Kɛ́... [Protase] / [Apodoze]) et la modalisation du doute",
-      "explanation": "En Mano, la structure de la condition commence toujours par la conjonction 'kɛ́' placée en tête de la première proposition (la condition). La proposition principale (le résultat) suit directement sans qu'une conjonction équivalente à 'alors' ne soit obligatoire. Pour introduire le doute ou la probabilité dans une affirmation, on ajoute la particule finale enclitique 'nã'.",
+      "concept": "Les deux systèmes conditionnels : réel (ékɛ̄á) et irréel (èkɛ̄á)",
+      "explanation": "Le mano distingue morphologiquement, par le ton, deux systèmes conditionnels : ékɛ̄á introduit une condition réelle ou possible (ce qui peut advenir), tandis que èkɛ̄á introduit une condition irréelle ou contrefactuelle (portant sur le passé ou une situation non réalisée), dont l'apodose est marquée par les particules kɔ́á/kèá.",
       "rules": [
-        "Structure conditionnelle : kɛ́ + [Proposition conditionnelle] + [Proposition principale].",
-        "Structure de probabilité : [Proposition affirmative standard] + nã (peut-être)."
+        "Condition réelle : Ékɛ̄á + Proposition (souvent au subjonctif/impératif), + conséquence directe",
+        "Condition irréelle : Èkɛ̄á + Proposition au parfait, kɔ́á + Proposition + kèá (conséquence hypothétique)",
+        "Le doute peut aussi s'exprimer lexicalement par mɛ́ túó ('craindre/douter') ou par une alternative avec wàá ('ou')"
       ],
       "examples": [
         {
-          "structure": "Kɛ́ tina kɛ̃ɛ, wa lɔ.",
-          "phonetic_api": "/kɛ˦ ti˧na˧ kɛ̃ː˧ wa˧ lɔ˧/",
-          "meaning": "S'il fait beau demain, nous partirons."
+          "structure": "Ékɛ̄á ī wálà gbē ká ā, í à gèē.",
+          "phonetic_api": "/ékɛ̄á ī wálà gbē ká ā, í à gèē/",
+          "meaning": "Si tu es fils de Dieu, dis-le. (condition réelle)"
         },
         {
-          "structure": "À ɓe ti kɛ la nã.",
-          "phonetic_api": "/a˧ ɓe˧ ti˧ kɛ˧ la˧ nã˧/",
-          "meaning": "Il est peut-être en train de travailler."
+          "structure": "Èkɛ̄á kèá kō yɔ̀ɔ́ bèí zàā ā, kɔ́á kìē ā gɛ̰̀-ɛ̰̀ kèá.",
+          "phonetic_api": "/èkɛ̄á kèá kō jɔ̀ɔ́ bèí zàā ā, kɔ́á kìē ā gɛ̰̀-ɛ̰̀ kèá/",
+          "meaning": "Si nous étions descendus, nous aurions vu ce chimpanzé. (condition irréelle)"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "L'Acheteur",
-      "text": "Kɛ́ pua mɛ̀ sɔ̃̀ bɔ la, ń le à lo la tina.",
-      "phonetic_api": "/kɛ˦ pua˧ mɛ˩ sɔ̃˩ ɓɔ˧ la˧ ń le˧ a˧ lo˧ la˧ ti˧na˧/",
-      "phonetic_simple": "KÉ POUA MÈ SONG BOR LA, N LÉ A LO LA TEE-NAH.",
-      "translation": "Si le prix de ce vêtement diminue, je le prendrai (je le voudrai) demain."
+      "speaker": "Sage",
+      "text": "Ékɛ̄á íì kɛ̄-pɛ̀lɛ̀ kɛ̄ sɛ̀kɛ̄, ī yèlè sɛ̀lɛ̀ kɛ̄.",
+      "phonetic_api": "/ékɛ̄á íì kɛ̄-pɛ̀lɛ̀ kɛ̄ sɛ̀kɛ̄, ī jèlè sɛ̀lɛ̀ kɛ̄/",
+      "phonetic_simple": "é-kè-a i-i kê-pè-lè kê sè-kê, i yè-lè sè-lè kê",
+      "translation": "Si tu travailles bien, tu réussiras."
     },
     {
-      "speaker": "Le Marchand",
-      "text": "Mĩ́-wɔ̃ ɓe ń la à la. Kɛ́ gã̄ sēe ɓe í la, í ka à lo la gbɛ-gbɛ.",
-      "phonetic_api": "/mĩ˦wɔ̃˧ ɓe˧ ń la˧ a˧ la˧ kɛ˦ ɡãː˧ seː˧˧ ɓe˧ i˦ la˧ i˦ ka˧ a˧ lo˧ la˧ ɡbɛ˧ɡbɛ˧/",
-      "phonetic_simple": "MEENG-WONG BÉ N LA A LA. KÉ GANG SÉÉ BÉ EE LA, EE KAH A LO LA GBÉ-GBÉ.",
-      "translation": "J'ai un doute là-dessus. Si tu as beaucoup d'argent, tu devrais le prendre immédiatement."
+      "speaker": "Jeune",
+      "text": "Ŋ̄ mɛ́ túó, ɓīī kɛ̄-pɛ̀lɛ̀ lɛ̄ gbìlì.",
+      "phonetic_api": "/ŋ̄ mɛ́ tṵ́ɔ́, ɓīī kɛ̄-pɛ̀lɛ̀ lɛ̄ gbìlì/",
+      "phonetic_simple": "ng mé tou-o, bi-i kê-pè-lè lê gbi-li",
+      "translation": "J'ai un doute, parce que le travail est difficile."
+    },
+    {
+      "speaker": "Sage",
+      "text": "Èkɛ̄á kèá ī mɛ́ túó wɔ́, ī yèlè sɛ̀lɛ̀ kɛ̄ dɛ̄ɛ̄ká kèá.",
+      "phonetic_api": "/èkɛ̄á kèá ī mɛ́ tṵ́ɔ́ wɔ́, ī jèlè sɛ̀lɛ̀ kɛ̄ dɛ̄ɛ̄ká kèá/",
+      "phonetic_simple": "è-kè-a kè-a i mé tou-o wo, i yè-lè sè-lè kê dè-è-ka kè-a",
+      "translation": "Si tu n'avais pas ce doute, tu réussirais déjà maintenant."
     }
   ],
   "cultural_notes": [
-    "Dans l'art oratoire des Mano en Guinée forestière, manier l'hypothèse et le doute permet d'éviter les affirmations trop frontales ou péremptoires qui pourraient heurter l'interlocuteur. Utiliser le 'nã' (peut-être) en fin de phrase est une marque de retenue et de politesse diplomatique lors des négociations foncières ou des arrangements de mariage."
+    "L'exemple « si tu es fils de Dieu... » provient d'un récit religieux traduit en mano documenté dans le corpus grammatical, illustrant l'usage de la condition réelle dans un contexte de défi rhétorique.",
+    "L'opposition tonale entre ékɛ̄á et èkɛ̄á illustre l'importance cruciale des tons en mano pour véhiculer des distinctions modales fines, un défi identifié comme majeur pour les apprenants non-natifs même à un niveau avancé."
   ],
   "exercises": [
     {
-      "exercise_id": "ex20_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel mot Mano est utilisé en tout début de phrase pour introduire une condition (Si...) ?",
+      "question": "Quel marqueur introduit une condition irréelle/contrefactuelle en mano ?",
       "options": [
-        "nã",
-        "kɛ́",
-        "kɛ̀ɛ́"
+        "ékɛ̄á",
+        "èkɛ̄á",
+        "kálá"
       ],
-      "correct_answer": "kɛ́",
-      "explanation": "'kɛ́' (avec un ton haut) correspond à la conjonction conditionnelle 'si' en français."
+      "correct_answer": "èkɛ̄á",
+      "explanation": "èkɛ̄á (ton bas) introduit l'irréel, à distinguer de ékɛ̄á (ton haut) qui introduit le réel."
     },
     {
-      "exercise_id": "ex20_2",
+      "exercise_id": "ex2",
+      "type": "multiple_choice",
+      "question": "Quelles particules marquent la conséquence dans une phrase conditionnelle irréelle ?",
+      "options": [
+        "kɔ́á...kèá",
+        "ékɛ̄á...ā",
+        "wàá...ā"
+      ],
+      "correct_answer": "kɔ́á...kèá",
+      "explanation": "kɔ́á et kèā encadrent la proposition de conséquence de l'irréel du passé."
+    },
+    {
+      "exercise_id": "ex3",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Pour dire 'Il viendra peut-être', on place la particule de doute en fin de proposition : À le va [ ___ ].",
-      "correct_answer": "nã",
-      "hint": "C'est la marque nasale d'éventualité ou de supposition."
+      "sentence_with_blank": "[ ___ ] ī wálà gbē ká ā, í à gèē. (Si tu es fils de Dieu, dis-le.)",
+      "correct_answer": "Ékɛ̄á",
+      "hint": "Ékɛ̄á introduit ici une condition réelle/possible, à ton haut initial."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Khachaturyan, M. (2015) Grammaire du mano, Mandenkan 54, LLACAN/CNRS",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan54/54khachaturyan.pdf"
+    }
+  ],
+  "confidence": "élevée",
+  "confidence_note": "Les deux systèmes conditionnels (réel/irréel) et leurs exemples de phrases sont directement attestés et opposés explicitement dans la grammaire académique de Khachaturyan (Mandenkan 54)."
 }

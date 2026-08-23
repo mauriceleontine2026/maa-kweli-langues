@@ -6,152 +6,219 @@
   "lesson_number": 8,
   "title": "La nourriture et les boissons (commander au marché ou au restaurant)",
   "learning_objectives": [
-    "Identifier les aliments de base et les boissons courantes en kissi",
-    "Exprimer le besoin de manger ou de boire",
-    "Formuler une demande polie pour acheter ou commander de la nourriture"
+    "Nommer les aliments de base attestés (riz, viande, poisson, lait, eau)",
+    "Utiliser les verbes manger et boire dans des phrases simples",
+    "Comprendre l'importance culturelle du riz (mló) chez les Kissi, 'gens du riz'"
   ],
   "phonetic_focus": {
-    "key_sounds": "La nasale finale dans le mot 'mɛŋ' (eau) s'articule par une résonance douce /mɛ̃/. Le digramme 'ny' dans 'nyɔɔ' (nourriture) se prononce comme une consonne nasale palatale /ɲ/.",
-    "common_pitfalls": "Ne prononcez pas le 'ng' de 'kɔlɔng' de manière détachée. C'est un son nasal vélaire /ŋ/ unique à la toute fin de l'émission sonore."
+    "key_sounds": "Le mot 'mló' (riz) comporte un groupe consonantique ml- rare en français, suivi d'un ton haut sur ó.",
+    "common_pitfalls": "Les francophones insèrent souvent une voyelle entre m et l (« meu-lo » au lieu de « mló » en une syllabe)."
   },
   "vocabulary": [
     {
-      "word_id": "v8_1",
-      "term": "nyɔɔ",
-      "phonetic_api": "/ɲɔː/",
-      "phonetic_simple": "NYOO",
-      "translation": "nourriture / manger",
-      "example_sentence": "Nyɔɔ o co kpou.",
-      "example_phonetic": "/ɲɔː o tʃo kpu/",
-      "example_translation": "La nourriture est bonne."
-    },
-    {
-      "word_id": "v8_2",
-      "term": "mɛŋ",
-      "phonetic_api": "/mɛ̃/",
-      "phonetic_simple": "MENG",
-      "translation": "eau / boisson",
-      "example_sentence": "I mɛl mɛŋ.",
-      "example_phonetic": "/i mɛl mɛ̃/",
-      "example_translation": "Je bois de l'eau."
-    },
-    {
-      "word_id": "v8_3",
-      "term": "biyɛ",
-      "phonetic_api": "/bi.jɛ/",
-      "phonetic_simple": "BI-YÈ",
+      "word_id": "v1",
+      "term": "mló",
+      "phonetic_api": "/mlo/",
+      "phonetic_simple": "mlo",
       "translation": "riz",
-      "example_sentence": "Co mi biyɛ ni.",
-      "example_phonetic": "/tʃo mi bi.jɛ ni/",
-      "example_translation": "Donne-moi du riz."
+      "example_sentence": "Ndu dio mló.",
+      "example_phonetic": "/ndu djo mlo/",
+      "example_translation": "Il/elle mange du riz."
     },
     {
-      "word_id": "v8_4",
-      "term": "kɔlɔng",
-      "phonetic_api": "/kɔ.lɔŋ/",
-      "phonetic_simple": "KO-LONG",
-      "translation": "gourde / récipient / verre",
-      "example_sentence": "Kɔlɔng mɛŋ.",
-      "example_phonetic": "/kɔ.lɔŋ mɛ̃/",
-      "example_translation": "Un récipient d'eau."
+      "word_id": "v2",
+      "term": "dio",
+      "phonetic_api": "/djo/",
+      "phonetic_simple": "djo",
+      "translation": "manger",
+      "example_sentence": "Ndu dio wisie.",
+      "example_phonetic": "/ndu djo wisje/",
+      "example_translation": "Il/elle mange de la viande."
+    },
+    {
+      "word_id": "v3",
+      "term": "kollɔɔ",
+      "phonetic_api": "/kollɔː/",
+      "phonetic_simple": "kol-lô",
+      "translation": "boire",
+      "example_sentence": "Ndu kollɔɔ mɛŋndaŋ.",
+      "example_phonetic": "/ndu kollɔː mɛŋndaŋ/",
+      "example_translation": "Il/elle boit de l'eau."
+    },
+    {
+      "word_id": "v4",
+      "term": "wisie",
+      "phonetic_api": "/wisje/",
+      "phonetic_simple": "wi-sié",
+      "translation": "viande",
+      "example_sentence": "Yandii, wisie pilɛ.",
+      "example_phonetic": "/jandiː wisje pilɛ/",
+      "example_translation": "S'il te plaît, un morceau de viande."
+    },
+    {
+      "word_id": "v5",
+      "term": "suuwo",
+      "phonetic_api": "/suːwo/",
+      "phonetic_simple": "sou-wo",
+      "translation": "poisson",
+      "example_sentence": "Ndu dio suuwo.",
+      "example_phonetic": "/ndu djo suːwo/",
+      "example_translation": "Il/elle mange du poisson."
+    },
+    {
+      "word_id": "v6",
+      "term": "mɛɛleŋ",
+      "phonetic_api": "/mɛːleŋ/",
+      "phonetic_simple": "mè-lèng",
+      "translation": "lait",
+      "example_sentence": "Ndu kollɔɔ mɛɛleŋ.",
+      "example_phonetic": "/ndu kollɔː mɛːleŋ/",
+      "example_translation": "Il/elle boit du lait."
+    },
+    {
+      "word_id": "v7",
+      "term": "mɛŋndaŋ",
+      "phonetic_api": "/mɛŋndaŋ/",
+      "phonetic_simple": "mèng-ndang",
+      "translation": "eau",
+      "example_sentence": "Kaniei o mɛŋndaŋ.",
+      "example_phonetic": "/kanjei o mɛŋndaŋ/",
+      "example_translation": "L'argent pour l'eau (l'acheter)."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p8_1",
-      "original": "I co nyɔɔ loolu.",
-      "phonetic_api": "/i tʃo ɲɔː loː.lu/",
-      "phonetic_simple": "I TCHO NYOO LOO-LOU",
-      "translation": "Je veux manger.",
-      "context": "Exprimer la faim"
+      "phrase_id": "p1",
+      "original": "Yandii, mló pilɛ.",
+      "phonetic_api": "/jandiː mlo pilɛ/",
+      "phonetic_simple": "yan-dii, mlo pi-lè",
+      "translation": "S'il te plaît, un peu de riz.",
+      "context": "Pour commander du riz au marché."
     },
     {
-      "phrase_id": "p8_2",
-      "original": "Co mi biyɛ, maaluon.",
-      "phonetic_api": "/tʃo mi bi.jɛ maː.lu.õ/",
-      "phonetic_simple": "TCHO MI BI-YÈ MAA-LOU-ONN",
-      "translation": "Donne-moi du riz, s'il te plaît.",
-      "context": "Commander à manger"
+      "phrase_id": "p2",
+      "original": "Ndu dio wisie waa suuwo.",
+      "phonetic_api": "/ndu djo wisje waː suːwo/",
+      "phonetic_simple": "ndou djo wi-sié wa sou-wo",
+      "translation": "Il/elle mange de la viande et du poisson.",
+      "context": "Pour décrire un repas complet."
     },
     {
-      "phrase_id": "p8_3",
-      "original": "Kpalaa o nɔ mi.",
-      "phonetic_api": "/k͡pa.laː o nɔ mi/",
-      "phonetic_simple": "KPALAA O NO MI",
-      "translation": "J'ai soif (Littéralement : La sécheresse me possède).",
-      "context": "Exprimer le besoin de boire"
+      "phrase_id": "p3",
+      "original": "Ndu kollɔɔ mɛŋndaŋ.",
+      "phonetic_api": "/ndu kollɔː mɛŋndaŋ/",
+      "phonetic_simple": "ndou kol-lô mèng-ndang",
+      "translation": "Il/elle boit de l'eau.",
+      "context": "Pour demander ou décrire une boisson simple."
     },
     {
-      "phrase_id": "p8_4",
-      "original": "Nyɔɔ kpou o co fiaa.",
-      "phonetic_api": "/ɲɔː k͡pu o tʃo fjaː/",
-      "phonetic_simple": "NYOO KPOU O TCHO FIA-A",
-      "translation": "Il y a beaucoup de nourriture.",
-      "context": "Au marché"
+      "phrase_id": "p4",
+      "original": "Baleka o mló.",
+      "phonetic_api": "/baleka o mlo/",
+      "phonetic_simple": "ba-lé-ka o mlo",
+      "translation": "Merci pour le riz.",
+      "context": "Pour remercier après un repas de riz."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'expression du désir ou du besoin avec 'co ... loolu'",
-      "explanation": "Pour formuler une intention volontaire ou un besoin immédiat d'action (comme manger ou boire), on utilise le verbe auxiliaire 'co' suivi de l'action principale, verrouillé par l'indicateur d'intention 'loolu'.",
+      "concept": "Verbe + nom d'aliment",
+      "explanation": "La structure de base pour parler de nourriture combine le verbe 'dio' (manger) ou 'kollɔɔ' (boire) suivi directement du nom de l'aliment ou de la boisson, sans préposition ni article distinct attesté dans les sources consultées, conformément au schéma SVO du kissi décrit par Childs.",
       "rules": [
-        "Le sujet se place en tout début d'énoncé.",
-        "L'action recherchée s'intercale directement avant la particule finale de projet ou d'envie."
+        "dio + [aliment solide] = manger [aliment]",
+        "kollɔɔ + [boisson] = boire [boisson]",
+        "'yandii' en début de phrase sert à formuler une demande polie, y compris pour commander de la nourriture."
       ],
       "examples": [
         {
-          "structure": "Sujet + co + Action + loolu",
-          "phonetic_api": "/i tʃo ɲɔː loː.lu/",
-          "meaning": "Je souhaite manger."
+          "structure": "ndu dio + [aliment]",
+          "phonetic_api": "/ndu djo .../",
+          "meaning": "il/elle mange [aliment]"
+        },
+        {
+          "structure": "ndu kollɔɔ + [boisson]",
+          "phonetic_api": "/ndu kollɔː .../",
+          "meaning": "il/elle boit [boisson]"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Tamba",
-      "text": "Sia, i co nyɔɔ loolu.",
-      "phonetic_api": "/sja i tʃo ɲɔː loː.lu/",
-      "phonetic_simple": "SIA, I TCHO NYOO LOO-LOU",
-      "translation": "Sia, je veux manger."
+      "speaker": "Client",
+      "text": "Nikene. Yandii, mló pilɛ.",
+      "phonetic_api": "/nikene jandiː mlo pilɛ/",
+      "phonetic_simple": "ni-ké-né, yan-dii, mlo pi-lè",
+      "translation": "Bonjour. S'il te plaît, un peu de riz."
     },
     {
-      "speaker": "Sia",
-      "text": "Biyɛ o co wa. Lɔ ni.",
-      "phonetic_api": "/bi.jɛ o tʃo wa lɔ ni/",
-      "phonetic_simple": "BI-YÈ O TCHO WA. LO NI",
-      "translation": "Le riz est là. Prends-en."
+      "speaker": "Vendeuse",
+      "text": "Mbaa. I dio wisie waa?",
+      "phonetic_api": "/mbaː i djo wisje waː/",
+      "phonetic_simple": "mbaa, i djo wi-sié wa",
+      "translation": "(réponse). Tu manges aussi de la viande ?"
     },
     {
-      "speaker": "Tamba",
-      "text": "Bale fiaa, Sia.",
-      "phonetic_api": "/ba.le fjaː sja/",
-      "phonetic_simple": "BA-LÉ FIA-A, SIA",
-      "translation": "Merci beaucoup, Sia."
+      "speaker": "Client",
+      "text": "Naam, waa suuwo.",
+      "phonetic_api": "/naːm waː suːwo/",
+      "phonetic_simple": "naam, wa sou-wo",
+      "translation": "Oui, et du poisson."
+    },
+    {
+      "speaker": "Vendeuse",
+      "text": "Baleka. I kollɔɔ mɛŋndaŋ waa mɛɛleŋ?",
+      "phonetic_api": "/baleka i kollɔː mɛŋndaŋ waː mɛːleŋ/",
+      "phonetic_simple": "ba-lé-ka, i kol-lô mèng-ndang wa mè-lèng",
+      "translation": "Merci. Tu bois de l'eau ou du lait ?"
+    },
+    {
+      "speaker": "Client",
+      "text": "Mɛŋndaŋ, yandii.",
+      "phonetic_api": "/mɛŋndaŋ jandiː/",
+      "phonetic_simple": "mèng-ndang, yan-dii",
+      "translation": "De l'eau, s'il te plaît."
     }
   ],
   "cultural_notes": [
-    "Le riz ('biyɛ') constitue la base absolue de l'alimentation en Guinée forestière et chez le peuple Kissi. Dire que l'on veut manger implique presque systématiquement la consommation de riz accompagné d'une sauce locale."
+    "Denise Paulme a intitulé son ethnographie de référence sur les Kissi 'Les Gens du riz', ce qui souligne à quel point la riziculture (le mot mló, riz) est au cœur de l'identité culturelle et économique de ce peuple de Guinée forestière.",
+    "Les rizières de marais (maŋjaa/maŋjalag, notamment celles appartenant au chef) sont mentionnées par Childs (2002) comme des institutions économiques et politiques importantes en pays kissi."
   ],
   "exercises": [
     {
-      "exercise_id": "ex8_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Que signifie le terme 'biyɛ' ?",
+      "question": "Comment dit-on « riz » en kissi ?",
       "options": [
-        "Le riz",
-        "L'eau",
-        "La viande"
+        "mló",
+        "wisie",
+        "suuwo"
       ],
-      "correct_answer": "Le riz",
-      "explanation": "'Biyɛ' désigne le riz décortiqué ou cuit dans l'alimentation courante."
+      "correct_answer": "mló",
+      "explanation": "Attesté par Sarah Rose (synthèse de Childs 1995) : « mló » = riz."
     },
     {
-      "exercise_id": "ex8_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "I mɛl [ ___ ]. (Je bois de l'eau)",
-      "correct_answer": "mɛŋ",
-      "hint": "Le mot liquide essentiel pour la vie"
+      "sentence_with_blank": "Ndu [ ___ ] mɛŋndaŋ. (Il/elle boit de l'eau.)",
+      "correct_answer": "kollɔɔ",
+      "hint": "Verbe attesté pour « boire »."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Sarah Rose, « Kisi » (chapitre synthétisant Childs 1995), Memorial University of Newfoundland",
+      "url": "https://www.mun.ca/linguistics/media/production/memorial/academic/faculty-of-humanities-and-social-sciences/linguistics/media-library/more/e-books/Kisi_Chapter_Sixteen_Sarah_Rose.pdf"
+    },
+    {
+      "label": "Wiktionary — Appendix:Word lists of Atlantic languages of Guinea (Kissi)",
+      "url": "https://en.wiktionary.org/wiki/Appendix:Word_lists_of_Atlantic_languages_of_Guinea"
+    },
+    {
+      "label": "Denise Paulme, Les Gens du riz : les Kissi de Haute-Guinée, chap. 6 (WebGuinée)",
+      "url": "https://www.webguinee.net/bibliotheque/ethnographie/kisi/dpaulme/chap06.html"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Les mots pour riz (mló, attesté par Sarah Rose/Childs), manger, boire, viande, poisson, lait et eau (Wiktionary) sont directement issus de sources académiques ; les phrases combinatoires sont construites à partir de ces mots vérifiés selon la structure SVO connue du kissi, mais ne sont pas des citations exactes d'un texte source."
 }

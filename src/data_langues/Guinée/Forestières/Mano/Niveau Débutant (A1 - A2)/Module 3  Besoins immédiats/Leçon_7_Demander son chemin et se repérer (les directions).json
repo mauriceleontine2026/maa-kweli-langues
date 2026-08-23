@@ -4,110 +4,159 @@
   "module_number": 3,
   "module_title": "Besoins immédiats",
   "lesson_number": 7,
-  "title": "Demander son chemin et se repérer",
+  "title": "Demander son chemin et se repérer (les directions)",
   "learning_objectives": [
-    "Demander la localisation d'un lieu important (marché, route, maison)",
-    "Comprendre et utiliser les indicateurs de direction fondamentaux (droite, gauche, tout droit)",
-    "Exprimer l'idée de proximité ou d'éloignement spatial"
+    "Demander où se trouve un lieu avec les mots interrogatifs de lieu",
+    "Utiliser le vocabulaire de base des directions (droite, gauche, devant, derrière)",
+    "Nommer des lieux courants (maison, marché, route, village)"
   ],
   "phonetic_focus": {
-    "key_sounds": "La locution interrogative spatiale utilise une voyelle longue ouverte /eː/ combinée à des variations de tons descendants. Les termes de repérage spatial emploient souvent la consonne fricative vilaire sourde /x/ ou des occlusives comme /g/ et /k/ suivies de voyelles brèves.",
-    "common_pitfalls": "Faites attention à la distinction de ton sur la particule de lieu 'mī'. Prononcée avec un ton inadéquat, elle peut être confondue avec le mot signifiant 'eau'."
+    "key_sounds": "kɔ̀yīè ('droite') et kɔ̀gbḭ̄à̰zɛ̀ ('gauche') partagent le préfixe kɔ̀- (lié à 'main/bras' kɔ̀) : la direction est littéralement nommée par référence à la main.",
+    "common_pitfalls": "Oublier le pronom interrogatif mɛ́nɛ̄ ('où') qui se place en fin de proposition dans les questions de lieu, contrairement à l'ordre français."
   },
   "vocabulary": [
     {
-      "word_id": "v7_1",
-      "term": "pɛ́lɛ̀",
-      "phonetic_api": "/pɛ˦lɛ˩/",
-      "phonetic_simple": "PÈ-LÈ",
-      "translation": "Chemin / Route / Piste",
-      "example_sentence": "pɛ́lɛ̀ dōo",
-      "example_phonetic": "/pɛ˦lɛ˩ doː˧/",
-      "example_translation": "Un seul chemin"
+      "word_id": "v1",
+      "term": "kɔ̀yīè",
+      "phonetic_api": "/kɔ̀jīè/",
+      "phonetic_simple": "ko-yi-è",
+      "translation": "droite",
+      "example_sentence": "Ló kɔ̀yīèlà!",
+      "example_phonetic": "/ló kɔ̀jīèlà/",
+      "example_translation": "Va à droite !"
     },
     {
-      "word_id": "v7_2",
-      "term": "kɛ́lɛ̀",
-      "phonetic_api": "/kɛ˦lɛ˩/",
-      "phonetic_simple": "KÈ-LÈ",
-      "translation": "Marché",
-      "example_sentence": "ń lɔ kɛ́lɛ̀ mī.",
-      "example_phonetic": "/ń lɔ˧ kɛ˦lɛ˩ miː˧/",
+      "word_id": "v2",
+      "term": "kɔ̀gbḭ̄à̰zɛ̀",
+      "phonetic_api": "/kɔ̀gbḭ̄à̰zɛ̀/",
+      "phonetic_simple": "ko-gbi-a-zè",
+      "translation": "gauche",
+      "example_sentence": "Ló kɔ̀gbḭ̄à̰làzɛ̀!",
+      "example_phonetic": "/ló kɔ̀gbḭ̄à̰làzɛ̀/",
+      "example_translation": "Va à gauche !"
+    },
+    {
+      "word_id": "v3",
+      "term": "gɛ̀nɛ̀",
+      "phonetic_api": "/gɛ̀nɛ̀/",
+      "phonetic_simple": "ghè-nè",
+      "translation": "devant",
+      "example_sentence": "Ká gɛ̀nɛ̀.",
+      "example_phonetic": "/ká gɛ̀nɛ̀/",
+      "example_translation": "Devant la maison."
+    },
+    {
+      "word_id": "v4",
+      "term": "kōí",
+      "phonetic_api": "/kōí/",
+      "phonetic_simple": "ko-I",
+      "translation": "derrière",
+      "example_sentence": "Ká kōí.",
+      "example_phonetic": "/ká kōí/",
+      "example_translation": "Derrière la maison."
+    },
+    {
+      "word_id": "v5",
+      "term": "kpáá",
+      "phonetic_api": "/kpáá/",
+      "phonetic_simple": "KPA-a",
+      "translation": "chemin, route",
+      "example_sentence": "Zī kpàlā lèē.",
+      "example_phonetic": "/zī kpàlā lèē/",
+      "example_translation": "Route large."
+    },
+    {
+      "word_id": "v6",
+      "term": "lɔ́í",
+      "phonetic_api": "/lɔ́í/",
+      "phonetic_simple": "LO-i",
+      "translation": "marché",
+      "example_sentence": "Ŋ̄ lō lɔ́í.",
+      "example_phonetic": "/ŋ̄ lō lɔ́í/",
       "example_translation": "Je vais au marché."
     },
     {
-      "word_id": "v7_3",
-      "term": "kɔ́-yɔ̄",
-      "phonetic_api": "/kɔ˦jɔ˧/",
-      "phonetic_simple": "KOR-YOR",
-      "translation": "Main droite / À droite",
-      "example_sentence": "lɔ kɔ́-yɔ̄ fɛ̃́.",
-      "example_phonetic": "/lɔ˧ kɔ˦jɔ˧ fɛ̃˦/",
-      "example_translation": "Va vers la droite."
+      "word_id": "v7",
+      "term": "ká / kálémɔ̀",
+      "phonetic_api": "/ká/",
+      "phonetic_simple": "KA",
+      "translation": "maison, chez soi",
+      "example_sentence": "Ŋ̄ lópɛ̀lɛ̀ kálémɔ̀.",
+      "example_phonetic": "/ŋ̄ lópɛ̀lɛ̀ kálémɔ̀/",
+      "example_translation": "Je vais à la maison."
     },
     {
-      "word_id": "v7_4",
-      "term": "kɔ́-mɛ̄ɛ",
-      "phonetic_api": "/kɔ˦mɛː˧/",
-      "phonetic_simple": "KOR-MÈÈ",
-      "translation": "Main gauche / À gauche",
-      "example_sentence": "lɔ kɔ́-mɛ̄ɛ fɛ̃́.",
-      "example_phonetic": "/lɔ˧ kɔ˦mɛː˧ fɛ̃˦/",
-      "example_translation": "Va vers la gauche."
+      "word_id": "v8",
+      "term": "pɛ̄lɛ̄í / sɛ́lɛ́",
+      "phonetic_api": "/pɛ̄lɛ̄í/",
+      "phonetic_simple": "pè-lè-I",
+      "translation": "village",
+      "example_sentence": "Kō ló kɛ̀ɛ̀ pɛ̄lɛ̄í.",
+      "example_phonetic": "/kō ló kɛ̀ɛ̀ pɛ̄lɛ̄í/",
+      "example_translation": "Nous étions allés au village."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p7_1",
-      "original": "Kɛ́lɛ̀ pɛ́lɛ̀ ɓe mī ?",
-      "phonetic_api": "/kɛ˦lɛ˩ pɛ˦lɛ˩ ɓe˧ miː˧/",
-      "phonetic_simple": "KÈ-LÈ PÈ-LÈ BÉ MEE ?",
-      "translation": "Où se trouve le chemin du marché ?",
-      "context": "Demander une direction à un habitant."
+      "phrase_id": "p1",
+      "original": "Íì lō mɛ́nɛ̄ dɛ̄ɛ̄ká?",
+      "phonetic_api": "/íì lō mɛ́nɛ̄ dɛ̄ɛ̄ká/",
+      "phonetic_simple": "i-i lo mé-nè dè-è-ka",
+      "translation": "Où vas-tu ?",
+      "context": "Question de base pour demander une destination."
     },
     {
-      "phrase_id": "p7_2",
-      "original": "Lɔ tɛ́ɛ-tɛ́ɛ !",
-      "phonetic_api": "/lɔ˧ tɛ˦tɛ˦/",
-      "phonetic_simple": "LOR TÉÉ-TÉÉ !",
-      "translation": "Va tout droit !",
-      "context": "Indiquer une direction rectiligne."
+      "phrase_id": "p2",
+      "original": "Īì gō mɛ́ zàá?",
+      "phonetic_api": "/īì gō mɛ́ zàá/",
+      "phonetic_simple": "i-i go mé za-a",
+      "translation": "D'où viens-tu ?",
+      "context": "Question de base pour demander une origine géographique immédiate."
     },
     {
-      "phrase_id": "p7_3",
-      "original": "A tɔ́ɔ ɓe sēe.",
-      "phonetic_api": "/a˧ tɔː˦ ɓe˧ seː˧˧/",
-      "phonetic_simple": "A TOOR BÉ SÉÉ",
-      "translation": "C'est très loin.",
-      "context": "Prévenir que la destination requiert de la marche."
+      "phrase_id": "p3",
+      "original": "Dīēpɛ̀lɛ̀ wɔ́ zèē.",
+      "phonetic_api": "/dīēpɛ̀lɛ̀ wɔ́ zèē/",
+      "phonetic_simple": "di-é-pè-lè wo zè-è",
+      "translation": "Il n'y a pas de passage ici.",
+      "context": "Utile pour indiquer qu'un chemin est bloqué."
     },
     {
-      "phrase_id": "p7_4",
-      "original": "A ɓe lĩĩ.",
-      "phonetic_api": "/a˧ ɓe˧ lĩː˧/",
-      "phonetic_simple": "A BÉ LEENG",
-      "translation": "C'est tout près.",
-      "context": "Rassurer sur la proximité d'un lieu."
+      "phrase_id": "p4",
+      "original": "ɓɔ̄ pɛ́lɛ̀zèŋ́!",
+      "phonetic_api": "/ɓɔ̄ pɛ́lɛ̀zèŋ́/",
+      "phonetic_simple": "bo pé-lè-zèng",
+      "translation": "Sors dehors !",
+      "context": "Ordre/direction simple, utile pour orienter quelqu'un."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Zà̰a̰ tɔ̀ŋ̀ píé lɛ̄ gbèkènī.",
+      "phonetic_api": "/zà̰a̰ tɔ̀ŋ̀ píé lɛ̄ gbèkènī/",
+      "phonetic_simple": "za-a-ton-pié lê gbè-kè-ni",
+      "translation": "Zaanton est loin.",
+      "context": "Exemple d'énoncé indiquant la distance d'un lieu."
     }
   ],
   "grammar_points": [
     {
-      "concept": "La localisation et la postposition de direction 'fɛ̃́'",
-      "explanation": "En Mano, les repères spatiaux s'expriment à l'aide de structures nominales suivies de postpositions. Pour indiquer un mouvement ou une orientation vers un côté, on utilise le terme désignant le côté (droite/gauche) suivi de la postposition 'fɛ̃́' (vers / du côté de).",
+      "concept": "Question de lieu avec mɛ́nɛ̄ et structure directionnelle",
+      "explanation": "Pour demander 'où', le mano place le mot interrogatif de lieu (mɛ́nɛ̄, kɔ̀ɔ̄ ou mɛ́) après le verbe, à l'intérieur de la proposition, suivant le schéma SOV (sujet-objet-verbe) typique des langues mandé.",
       "rules": [
-        "Structure : [Nom de lieu/Côté] + fɛ̃́ (vers)",
-        "L'interrogation spatiale se termine généralement par la particule de lieu 'mī'."
+        "Structure : Sujet + Auxiliaire.IPFV + Verbe + mɛ́nɛ̄ + (particule)",
+        "Íì lō mɛ́nɛ̄ dɛ̄ɛ̄ká? = littéralement 'tu vas où maintenant ?'",
+        "Les noms de lieu (ká, lɔ́í, pɛ̄lɛ̄í) se placent directement après le verbe de mouvement"
       ],
       "examples": [
         {
-          "structure": "kɔ́-yɔ̄ fɛ̃́",
-          "phonetic_api": "/kɔ˦jɔ˧ fɛ̃˦/",
-          "meaning": "Vers le côté droit / À droite"
+          "structure": "Ŋ̄ lō lɔ́í.",
+          "phonetic_api": "/ŋ̄ lō lɔ́í/",
+          "meaning": "Je vais au marché."
         },
         {
-          "structure": "kɔ́-mɛ̄ɛ fɛ̃́",
-          "phonetic_api": "/kɔ˦mɛː˧ fɛ̃˦/",
-          "meaning": "Vers le côté gauche / À gauche"
+          "structure": "Íì lō mɛ́nɛ̄ dɛ̄ɛ̄ká?",
+          "phonetic_api": "/íì lō mɛ́nɛ̄ dɛ̄ɛ̄ká/",
+          "meaning": "Où vas-tu maintenant ?"
         }
       ]
     }
@@ -115,41 +164,80 @@
   "dialogue": [
     {
       "speaker": "Voyageur",
-      "text": "Mɛgɛ ! Kɛ́lɛ̀ ɓe mī ?",
-      "phonetic_api": "/mɛ˧gɛ˧ kɛ˦lɛ˩ ɓe˧ miː˧/",
-      "phonetic_simple": "MÈGÈ ! KÈ-LÈ BÉ MEE ?",
-      "translation": "Bonjour ! Où se trouve le marché ?"
+      "text": "Ī sɛ̀kɛ̄ɛ̀, lɔ́í lɛ̄ mɛ́nɛ̄?",
+      "phonetic_api": "/ī sɛ̀kɛ̄ɛ̀, lɔ́í lɛ̄ mɛ́nɛ̄/",
+      "phonetic_simple": "i sè-kè-è, lo-i lê mé-nè",
+      "translation": "Merci, où est le marché ?"
     },
     {
-      "speaker": "Villageux",
-      "text": "Lɔ tɛ́ɛ-tɛ́ɛ, yí lɔ kɔ́-yɔ̄ fɛ̃́. A ɓe lĩĩ.",
-      "phonetic_api": "/lɔ˧ tɛ˦tɛ˦ ji˦ lɔ˧ kɔ˦jɔ˧ fɛ̃˦ a˧ ɓe˧ lĩː˧/",
-      "phonetic_simple": "LOR TÉÉ-TÉÉ, GUEE LOR KOR-YOR FENG. A BÉ LEENG.",
-      "translation": "Va tout droit, puis tourne à droite. C'est tout près."
+      "speaker": "Habitant",
+      "text": "Ló kɔ̀yīèlà, à lɛ̄ gɛ̀nɛ̀.",
+      "phonetic_api": "/ló kɔ̀jīèlà, à lɛ̄ gɛ̀nɛ̀/",
+      "phonetic_simple": "lo ko-yi-è-la, a lê ghè-nè",
+      "translation": "Va à droite, c'est devant."
+    },
+    {
+      "speaker": "Voyageur",
+      "text": "Kpáá gbùò lɛ̄?",
+      "phonetic_api": "/kpáá gbùò lɛ̄/",
+      "phonetic_simple": "kpa-a gbou-o lê",
+      "translation": "C'est une grande route ?"
+    },
+    {
+      "speaker": "Habitant",
+      "text": "Ɔ̀ɔ́, zī kpàlā lèē.",
+      "phonetic_api": "/ɔ̀ɔ́, zī kpàlā lèē/",
+      "phonetic_simple": "o-o, zi kpa-la lè-è",
+      "translation": "Oui, une route large."
     }
   ],
   "cultural_notes": [
-    "Dans les zones urbaines ou rurales de la Guinée Forestière (comme à Nzérékoré), s'orienter repose souvent sur des points de repère communautaires majeurs : les grands arbres (comme les fromagers), le marché hebdomadaire ou la maison du chef de quartier. Donner une distance exacte en kilomètres est rare, on privilégie l'évaluation du temps de marche ou la visibilité du lieu."
+    "En Guinée forestière, les indications de direction s'appuient souvent sur des repères naturels (montagnes, rivières, grands arbres) plutôt que sur des noms de rues, en raison de l'habitat rural dispersé autour de N'Zérékoré.",
+    "Les termes de direction gauche/droite dérivent du mot kɔ̀ ('main, bras'), reflétant une conceptualisation corporelle de l'espace commune à plusieurs langues mandé."
   ],
   "exercises": [
     {
-      "exercise_id": "ex7_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Que signifie la direction 'Lɔ tɛ́ɛ-tɛ́ɛ !' en langue Mano ?",
+      "question": "Comment demande-t-on 'où vas-tu ?' en mano ?",
       "options": [
-        "Tourne à gauche",
-        "Va tout droit",
-        "Arrête-toi ici"
+        "Īì gō mɛ́ zàá?",
+        "Íì lō mɛ́nɛ̄ dɛ̄ɛ̄ká?",
+        "Ī sɛ̀kɛ̄ɛ̀?"
       ],
-      "correct_answer": "Va tout droit",
-      "explanation": "'Tɛ́ɛ-tɛ́ɛ' traduit l'alignement droit ou la direction rectiligne dans l'espace."
+      "correct_answer": "Íì lō mɛ́nɛ̄ dɛ̄ɛ̄ká?",
+      "explanation": "Cette question utilise le verbe lō ('aller') et l'interrogatif mɛ́nɛ̄ ('où')."
     },
     {
-      "exercise_id": "ex7_2",
+      "exercise_id": "ex2",
+      "type": "multiple_choice",
+      "question": "Que signifie 'kɔ̀yīè' ?",
+      "options": [
+        "gauche",
+        "droite",
+        "devant"
+      ],
+      "correct_answer": "droite",
+      "explanation": "kɔ̀yīè signifie 'droite' ; kɔ̀gbḭ̄à̰zɛ̀ signifie 'gauche'."
+    },
+    {
+      "exercise_id": "ex3",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Pour dire que le marché est très loin, on utilise : Kɛ́lɛ̀ a tɔ́ɔ ɓe [ ___ ].",
-      "correct_answer": "sēe",
-      "hint": "C'est l'adverbe d'intensité signifiant 'beaucoup' ou 'très'."
+      "sentence_with_blank": "Ló kɔ̀[ ___ ]là! (Va à droite !)",
+      "correct_answer": "yīè",
+      "hint": "kɔ̀yīè signifie 'droite' ; on ajoute le suffixe locatif -là pour indiquer la direction."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Khachaturyan, M., Carbo, M., Mamy, P. (2022) Dictionnaire mano-français, Mandenkan 67, LLACAN/CNRS",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan67/67mano_dict_all.pdf"
+    },
+    {
+      "label": "Khachaturyan, M. (2015) Grammaire du mano, Mandenkan 54, LLACAN/CNRS",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan54/54khachaturyan.pdf"
+    }
+  ],
+  "confidence": "élevée",
+  "confidence_note": "Vocabulaire directionnel et phrases exemples directement issus du dictionnaire mano-français (Mandenkan 67) ; structure SOV et placement de l'interrogatif confirmés par la grammaire de Khachaturyan."
 }

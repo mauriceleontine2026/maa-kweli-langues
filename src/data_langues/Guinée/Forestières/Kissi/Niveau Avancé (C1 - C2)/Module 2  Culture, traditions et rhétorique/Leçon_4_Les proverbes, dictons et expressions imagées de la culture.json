@@ -1,114 +1,192 @@
 {
   "lesson_id": "C1_M2_L4",
-  "level": "Niveau Avancé (C1-C2)",
+  "level": "Avancé (C1-C2)",
   "module_number": 2,
   "module_title": "Culture, traditions et rhétorique",
   "lesson_number": 4,
   "title": "Les proverbes, dictons et expressions imagées de la culture",
   "learning_objectives": [
-    "Comprendre le sens caché et philosophique des proverbes kissi",
-    "Manipuler des métaphores animalières et végétales dans une discussion",
-    "Intégrer des expressions idiomatiques pour polir son style oral"
+    "Analyser des proverbes kissi attestés et leur traduction française",
+    "Comprendre le rôle de la sagesse orale et biblique dans le registre proverbial kissi documenté",
+    "Reconnaître les limites des sources disponibles quant aux proverbes profanes traditionnels"
   ],
   "phonetic_focus": {
-    "key_sounds": "Les proverbes utilisent un rythme poétique et des élisions de voyelles pour fluidifier la diction. Le ton descendant sur les mots clés porte souvent la valeur métaphorique.",
-    "common_pitfalls": "Veillez à ne pas décomposer mécaniquement chaque mot d'un dicton. La prononciation d'un proverbe doit être unifiée sous un seul flux rythmique continu."
+    "key_sounds": "Les proverbes attestés utilisent des tournures avec voyelles nasalisées marquées par des accents graphiques (ò, ɔ̀), essentielles à respecter pour ne pas déformer le sens du proverbe.",
+    "common_pitfalls": "Les francophones ignorent souvent les marques diacritiques (accents graves/aigus) sur les voyelles kissi, alors qu'elles distinguent parfois des tons porteurs de sens."
   },
   "vocabulary": [
     {
-      "word_id": "v22_1",
-      "term": "dimandɔ",
-      "phonetic_api": "/di.mã.ⁿdɔ/",
-      "phonetic_simple": "DI-MAN-DO",
-      "translation": "proverbe / parole imagée / dicton",
-      "example_sentence": "Dimandɔ kissi o nɔ nyalɛ.",
-      "example_phonetic": "/di.mã.ⁿdɔ ki.si o nɔ ɲa.lɛ/",
-      "example_translation": "Le proverbe kissi a de la beauté / de la sagesse."
+      "word_id": "v1",
+      "term": "vana",
+      "phonetic_api": "/vana/",
+      "phonetic_simple": "va-na",
+      "translation": "crainte, peur (respectueuse)",
+      "example_sentence": "Vana nɔ pɛ siòòŋii Mɛlɛka-e.",
+      "example_phonetic": "/vana nɔ pɛ sjoːŋiː mɛlɛkae/",
+      "example_translation": "La crainte de l'Éternel..."
     },
     {
-      "word_id": "v22_2",
-      "term": "sua",
-      "phonetic_api": "/swa/",
-      "phonetic_simple": "SOUA",
-      "translation": "animal / bête de la brousse",
-      "example_sentence": "Sua o co gbalala ning.",
-      "example_phonetic": "/swa o tʃo g͡ba.la.la niŋ/",
-      "example_translation": "L'animal est en train de courir."
+      "word_id": "v2",
+      "term": "sɔɔnun",
+      "phonetic_api": "/sɔːnun/",
+      "phonetic_simple": "sô-noun",
+      "translation": "confie-toi, aie confiance (forme verbale impérative)",
+      "example_sentence": "Sɔɔnun Mɛlɛka.",
+      "example_phonetic": "/sɔːnun mɛlɛka/",
+      "example_translation": "Confie-toi en l'Éternel."
+    },
+    {
+      "word_id": "v3",
+      "term": "kɔl nɔmndo",
+      "phonetic_api": "/kɔl nɔmndo/",
+      "phonetic_simple": "kôl nôm-ndo",
+      "translation": "ton cœur (littéralement)",
+      "example_sentence": "Kpow kɔl nɔmndo.",
+      "example_phonetic": "/kpow kɔl nɔmndo/",
+      "example_translation": "De tout ton cœur."
+    },
+    {
+      "word_id": "v4",
+      "term": "baleka (proverbe imagé)",
+      "phonetic_api": "/baleka/",
+      "phonetic_simple": "ba-lé-ka",
+      "translation": "merci (mais aussi utilisé au sens figuré de reconnaissance profonde dans certains dictons)",
+      "example_sentence": "Baleka o hɛnan.",
+      "example_phonetic": "/baleka o hɛnan/",
+      "example_translation": "Merci pour tes voies/ta conduite."
+    },
+    {
+      "word_id": "v5",
+      "term": "hɛnan",
+      "phonetic_api": "/hɛnan/",
+      "phonetic_simple": "hè-nan",
+      "translation": "voie(s), chemin (au sens figuré : conduite de vie)",
+      "example_sentence": "Kindin le hɛnan Mɛlɛka-o.",
+      "example_phonetic": "/kindin le hɛnan mɛlɛkao/",
+      "example_translation": "Reconnais-le dans toutes tes voies."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p22_1",
-      "original": "Wana pilɔ o nɔndɛ cando le.",
-      "phonetic_api": "/wa.na pi.lɔ o nɔ̃.ⁿdɛ tʃa.ⁿdo le/",
-      "phonetic_simple": "WA-NA PI-LO O NON-DÈ TCHAN-DO LÉ",
-      "translation": "Une seule personne ne construit pas une maison (Proverbe sur l'unité et la solidarité).",
-      "context": "Utilisé lors de travaux communautaires ou d'entraide familiale"
+      "phrase_id": "p1",
+      "original": "Vana nɔ pɛ siòòŋii Mɛlɛka-e ndu vannun yoomu O pim pɛ o hinin dɛnɛ palaa komal ndu le.",
+      "phonetic_api": "/vana nɔ pɛ sjoːŋiː mɛlɛkae ndu vannun jomu o pim pɛ o hinin dɛnɛ palaː komal ndu le/",
+      "phonetic_simple": "va-na nô pè sio-ngii mè-lè-ka-é ndou van-noun yo-mou...",
+      "translation": "La crainte de l'Éternel mène à la vie et l'on passe la nuit rassasié sans être visité par le malheur.",
+      "context": "Proverbe biblique traduit en kissi, exprimant la sagesse et la protection liées à la piété."
     },
     {
-      "phrase_id": "p22_2",
-      "original": "Mɛŋ o cɔɔ lebol yafɛ le.",
-      "phonetic_api": "/mɛ̃ o tʃɔː le.bol ja.fɛ le/",
-      "phonetic_simple": "MENG O TCHOO LÉ-BOL YA-FÈ LÉ",
-      "translation": "L'eau ne coule jamais en remontant la colline (Proverbe sur le respect des lois de la nature ou de la hiérarchie).",
-      "context": "Rappeler à un jeune le respect dû aux anciens"
+      "phrase_id": "p2",
+      "original": "Sɔɔnun Mɛlɛka o ba a kɔl nɔmndo kpow tííndàn dɛnɛ sinaa nɔmndo le.",
+      "phonetic_api": "/sɔːnun mɛlɛka o ba a kɔl nɔmndo kpow tiːndan dɛnɛ sinaː nɔmndo le/",
+      "phonetic_simple": "sô-noun mè-lè-ka o ba a kôl nôm-ndo kpow tii-ndan...",
+      "translation": "Confie-toi en l'Éternel de tout ton cœur et ne t'appuie pas sur ta sagesse.",
+      "context": "Proverbe sur l'humilité et la confiance, transmis à l'oral et par écrit en contexte religieux."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Kindin le hɛnan Mɛlɛka-o sinaa o dɛnnda n co tosaa lan kpede nin ndu siɛɛnduunin nɛila nɔmndan ni.",
+      "phonetic_api": "/kindin le hɛnan mɛlɛkao sinaː o dɛnnda n tʃo tosaː lan kpede nin ndu sjɛːnduːnin nɛila nɔmndan ni/",
+      "phonetic_simple": "kin-din lé hè-nan mè-lè-ka-o si-naa o dèn-nda...",
+      "translation": "Reconnais-le dans toutes tes voies et il aplanira tes sentiers.",
+      "context": "Proverbe sur la reconnaissance et la conduite droite dans la vie."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "« La bouche du vieillard sent très mauvais, mais ce qui en sort est très pur » (proverbe du pays kissi, traduction française uniquement dans la source).",
+      "phonetic_api": "/—/",
+      "phonetic_simple": "(forme kissi non fournie par la source)",
+      "translation": "La sagesse des anciens compte plus que les apparences.",
+      "context": "Proverbe profane sur le respect de la parole des aînés, cité en français par la source consultée."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'omission stylistique de l'auxiliaire dans la parémie",
-      "explanation": "Dans la syntaxe des proverbes et dictons anciens en kissi, l'auxiliaire de temps présent 'co' est fréquemment omis au profit d'une structure intemporelle directe, conférant au propos une valeur de vérité générale absolue.",
+      "concept": "La structure du proverbe : image concrète et leçon morale",
+      "explanation": "Les proverbes kissi attestés, essentiellement d'origine biblique traduite dans les sources disponibles, associent une image concrète (le cœur, les voies/chemins, la nuit rassasiée) à une leçon morale explicite. Cette structure imagée est typique du genre proverbial dans les traditions orales d'Afrique de l'Ouest, où la métaphore corporelle ou spatiale sert à ancrer un principe abstrait.",
       "rules": [
-        "Le sujet est lié directement au verbe d'action ou d'état.",
-        "La structure négative finale 'le' est maintenue pour verrouiller l'énoncé."
+        "Le proverbe s'organise souvent en deux volets : condition/attitude (ex. craindre, se confier, reconnaître) puis conséquence bénéfique (vie, satisfaction, chemin aplani).",
+        "Le vocabulaire du corps (kɔl nɔmndo = ton cœur) et du déplacement (hɛnan = voies/chemin) est mobilisé métaphoriquement pour parler de conduite morale.",
+        "Le proverbe profane cité en français seul par la source ('la bouche du vieillard...') illustre une limite : sa forme kissi originale n'a pas pu être retrouvée."
       ],
       "examples": [
         {
-          "structure": "Sujet + Verbe + (Complément) + le",
-          "phonetic_api": "/wa.na pi.lɔ o nɔ̃.ⁿdɛ tʃa.ⁿdo le/",
-          "meaning": "Une seule personne ne bâtit pas de maison."
+          "structure": "[condition morale], [conséquence positive]",
+          "phonetic_api": "/... /",
+          "meaning": "structure classique du proverbe attesté"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "L'Ancien",
-      "text": "Tamba, dimandɔ nɔɔ o dimul mi : wana pilɔ o nɔndɛ cando le.",
-      "phonetic_api": "/ta.ᵐba di.mã.ⁿdɔ noː o di.mul mi wa.na pi.lɔ o nɔ̃.ⁿdɛ tʃa.ⁿdo le/",
-      "phonetic_simple": "TAM-BA, DI-MAN-DO NOO O DI-MOUL MI : WA-NA PI-LO O NON-DÈ TCHAN-DO LÉ.",
-      "translation": "Tamba, le proverbe nous dit : une seule personne ne construit pas une maison."
+      "speaker": "Ancien",
+      "text": "Sɔɔnun Mɛlɛka o ba a kɔl nɔmndo.",
+      "phonetic_api": "/sɔːnun mɛlɛka o ba a kɔl nɔmndo/",
+      "phonetic_simple": "sô-noun mè-lè-ka o ba a kôl nôm-ndo",
+      "translation": "Confie-toi en l'Éternel de tout ton cœur."
     },
     {
-      "speaker": "Tamba",
-      "text": "Haa, i tchie ni. I co vana diali lo kounda loolu bana i wali kpou.",
-      "phonetic_api": "/haː i tʃje ni i tʃo wa.na dja.li lo kuːⁿda loː.lu ba.na i wa.li k͡pu/",
-      "phonetic_simple": "HAA, I TCHI-É NI. I TCHO WA-NA DJA-LI LO KOUN-DA LOO-LOU BA-NA I WA-LI KPOU.",
-      "translation": "Oui, j'ai compris. Je vais appeler tout le monde dans la concession pour que nous finissions le travail."
+      "speaker": "Jeune",
+      "text": "Baleka, ndu kɔ́naa kendé.",
+      "phonetic_api": "/baleka ndu kɔnaː kende/",
+      "phonetic_simple": "ba-lé-ka, ndou kô-naa kèn-dé",
+      "translation": "Merci, c'est un bon conseil."
+    },
+    {
+      "speaker": "Ancien",
+      "text": "Kindin le hɛnan Mɛlɛka-o, ndu có kpede nin dɛnɛ.",
+      "phonetic_api": "/kindin le hɛnan mɛlɛkao ndu tʃo kpede nin dɛnɛ/",
+      "phonetic_simple": "kin-din lé hè-nan mè-lè-ka-o, ndou tcho kpé-dé nin dè-nè",
+      "translation": "Reconnais-le dans tes voies, il aplanira ton chemin."
+    },
+    {
+      "speaker": "Ancien",
+      "text": "Baleka o hɛnan, i kɔ́lɔ́ɔ ndu kendé.",
+      "phonetic_api": "/baleka o hɛnan i kɔlɔː ndu kende/",
+      "phonetic_simple": "ba-lé-ka o hè-nan, i kô-lô ndou kèn-dé",
+      "translation": "Merci pour ta conduite, ta manière d'être est bonne."
     }
   ],
   "cultural_notes": [
-    "La rhétorique kissi attribue une valeur sacrée aux proverbes ('dimandɔ'). Un jeune homme sachant manier les dictons appropriés au cours d'une réunion de village démontre qu'il a été bien initié à la sagesse profonde des ancêtres."
+    "Les sources disponibles en ligne pour les proverbes kissi proviennent essentiellement de traductions bibliques (proverbes de Salomon en kissi, cf. Master Any Language), ce qui reflète l'influence des missions chrétiennes sur la production écrite en kissi, mais laisse largement dans l'oralité non documentée en ligne les proverbes profanes traditionnels.",
+    "Le proverbe profane évoqué par nouchi.com sur 'la bouche du vieillard' illustre malgré tout la survivance d'un riche corpus de sagesse orale kissi, centré sur le respect dû aux anciens, même si sa formulation exacte en langue kissi reste à documenter davantage."
   ],
   "exercises": [
     {
-      "exercise_id": "ex22_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Que signifie littéralement l'expression imagée 'Wana pilɔ o nɔndɛ cando le' ?",
+      "question": "Que signifie 'hɛnan' dans le proverbe cité ?",
       "options": [
-        "Une seule personne ne construit pas une maison",
-        "L'eau ne coule pas en haut",
-        "Le riz est bon pour le village"
+        "voies, chemin (au sens figuré de conduite)",
+        "argent",
+        "famille"
       ],
-      "correct_answer": "Une seule personne ne construit pas une maison",
-      "explanation": "C'est le proverbe clé symbolisant la force du collectif et de l'unité communautaire."
+      "correct_answer": "voies, chemin (au sens figuré de conduite)",
+      "explanation": "Attesté dans la traduction du proverbe biblique en kissi (Master Any Language)."
     },
     {
-      "exercise_id": "ex22_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "[ ___ ] o kissi o nɔ nyalɛ. (Le proverbe kissi a de la sagesse)",
-      "correct_answer": "Dimandɔ",
-      "hint": "Substantif pour désigner une parole imagée ou dicton ancien"
+      "sentence_with_blank": "[ ___ ] Mɛlɛka o ba a kɔl nɔmndo. (Confie-toi en l'Éternel de tout ton cœur.)",
+      "correct_answer": "Sɔɔnun",
+      "hint": "Forme verbale impérative attestée signifiant « confie-toi »."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Master Any Language — Kissi Idioms & Proverbs",
+      "url": "https://www.masteranylanguage.com/c/r/fr/Kissi/IdiomsProverbs"
+    },
+    {
+      "label": "Nouchi.com — Proverbe du pays Kissi (Guinée)",
+      "url": "http://www.nouchi.com/proverbes/liste-des-derniers-proverbes/item/la-bouche-du-vieillard-sent-tres-mauvaix-mais-ce-qui-sort-dedans-est-tres-purproverbe-du-pays-kissi-guinee.html"
+    },
+    {
+      "label": "Master Any Language — Kissi Common Phrases",
+      "url": "https://www.masteranylanguage.com/c/r/en/Kissi/CommonPhrases/o/ql001"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Trois proverbes bibliques en kissi sont attestés mot pour mot par Master Any Language, avec traduction française fournie ; en revanche, le proverbe profane 'la bouche du vieillard' n'est cité qu'en français par sa source (nouchi.com), sans forme kissi originale trouvée malgré les recherches, ce qui est signalé honnêtement dans la leçon."
 }

@@ -4,192 +4,247 @@
   "module_number": 1,
   "module_title": "Les bases de la communication",
   "lesson_number": 2,
-  "title": "Se présenter",
+  "title": "Se présenter (nom, âge, origine, profession)",
   "learning_objectives": [
-    "Dire son nom et demander le nom de son interlocuteur",
-    "Indiquer son origine, son âge et sa profession de base",
-    "Utiliser les pronoms personnels sujets pour des phrases d'identité simples"
+    "Utiliser les pronoms personnels de base (je, tu, il/elle) pour se présenter",
+    "Nommer quelques professions courantes en mano",
+    "Construire une phrase simple avec la copule assertive lɛ̄"
   ],
   "phonetic_focus": {
-    "key_sounds": "L'accent se porte souvent sur la première syllabe d'identité. La consonne /ɲ/ se prononce comme le 'gn' français dans 'gagner'. Faites attention à la voyelle ouverte /ɔ/, semblable au 'o' de 'porte', qui s'oppose au /o/ fermé de 'mot'.",
-    "common_pitfalls": "Veillez à ne pas confondre le son /ɲ/ avec un simple /n/. Prononcer correctement le 'gn' est essentiel pour le verbe 's'appeler'."
+    "key_sounds": "La copule assertive lɛ̄ (ton moyen) sert de verbe 'être' dans les constructions d'identification ; elle se distingue de lɛ́ (ton haut, relativiseur) uniquement par le ton.",
+    "common_pitfalls": "Confondre les pronoms non-sujets (ŋ̄, ī, à) avec les pronoms emphatiques (mā, ɓī, à yē) : les seconds servent à insister ('moi, je...')."
   },
   "vocabulary": [
     {
-      "word_id": "v2_1",
-      "term": "tɔ",
-      "phonetic_api": "/tɔ˧/",
-      "phonetic_simple": "TOR",
-      "translation": "Nom / Prénom",
-      "example_sentence": "ń tɔ ɓe Koli.",
-      "example_phonetic": "/ń tɔ˧ ɓe˧ ko˧li˧/",
-      "example_translation": "Mon nom est Koli."
+      "word_id": "v1",
+      "term": "ŋ̄",
+      "phonetic_api": "/ŋ̄/",
+      "phonetic_simple": "NG",
+      "translation": "je (pronom non-sujet)",
+      "example_sentence": "Ŋ̄ dàā.",
+      "example_phonetic": "/ŋ̄ dàā/",
+      "example_translation": "Mon père."
     },
     {
-      "word_id": "v2_2",
-      "term": "ɲɛ̃",
-      "phonetic_api": "/ɲɛ̃˧/",
-      "phonetic_simple": "GNING",
-      "translation": "S'appeler",
-      "example_sentence": "í ɲɛ̃ nɛ̃ ?",
-      "example_phonetic": "/i˦ ɲɛ̃˧ nɛ̃˧/",
-      "example_translation": "Comment t'appelles-tu ?"
+      "word_id": "v2",
+      "term": "ī",
+      "phonetic_api": "/ī/",
+      "phonetic_simple": "I",
+      "translation": "tu (pronom non-sujet)",
+      "example_sentence": "Ī dàā lɛ́ dēŋ̀ ká?",
+      "example_phonetic": "/ī dàā lɛ́ dēŋ̀ ká/",
+      "example_translation": "Qui est ton père ?"
     },
     {
-      "word_id": "v2_3",
-      "term": "kwa",
-      "phonetic_api": "/kwa˧/",
-      "phonetic_simple": "KWA",
-      "translation": "Provenance / Origine / Pays",
-      "example_sentence": "Gini kwa ɓe.",
-      "example_phonetic": "/ɡi˧ni˧ kwa˧ ɓe˧/",
-      "example_translation": "C'est la Guinée (mon pays)."
+      "word_id": "v3",
+      "term": "lɛ̄",
+      "phonetic_api": "/lɛ̄/",
+      "phonetic_simple": "LÊ",
+      "translation": "copule 'être' (assertive)",
+      "example_sentence": "Ká gbùò lɛ̄.",
+      "example_phonetic": "/ká gbùò lɛ̄/",
+      "example_translation": "C'est une grande maison."
     },
     {
-      "word_id": "v2_4",
-      "term": "kēe",
-      "phonetic_api": "/keː˧/",
-      "phonetic_simple": "KÉÉ",
-      "translation": "Année / Âge",
-      "example_sentence": "ń kēe ɓe pūu.",
-      "example_phonetic": "/ń keː˧ ɓe˧ puː˧/",
-      "example_translation": "J'ai dix ans."
+      "word_id": "v4",
+      "term": "kàlàmɔ́ɔ̀",
+      "phonetic_api": "/kàlàmɔ́ɔ̀/",
+      "phonetic_simple": "ka-la-MO-o",
+      "translation": "enseignant(e)",
+      "example_sentence": "Yē kàlàmɔ́ɔ̀ lɛ̄.",
+      "example_phonetic": "/jē kàlàmɔ́ɔ̀ lɛ̄/",
+      "example_translation": "Il/elle est enseignant(e)."
     },
     {
-      "word_id": "v2_5",
-      "term": "ti-kɛ-mɛ",
-      "phonetic_api": "/ti˧kɛ˧mɛ˧/",
-      "phonetic_simple": "TEE-KÈ-MÈ",
-      "translation": "Travailleur / Personne qui exerce un métier",
-      "example_sentence": "ń ɓe ti-kɛ-mɛ la.",
-      "example_phonetic": "/ń ɓe˧ ti˧kɛ˧mɛ˧ la˧/",
-      "example_translation": "Je suis un travailleur."
+      "word_id": "v5",
+      "term": "yɔ̀ɔ̀tɔ̄lɔ̀",
+      "phonetic_api": "/jɔ̀ɔ̀tɔ̄lɔ̀/",
+      "phonetic_simple": "yo-o-TO-lo",
+      "translation": "médecin",
+      "example_sentence": "Yē yɔ̀ɔ̀tɔ̄lɔ̀ lɛ̄.",
+      "example_phonetic": "/jē jɔ̀ɔ̀tɔ̄lɔ̀ lɛ̄/",
+      "example_translation": "Il/elle est médecin."
+    },
+    {
+      "word_id": "v6",
+      "term": "lɔ́ɔ́dɔ̄mì",
+      "phonetic_api": "/lɔ́ɔ́dɔ̄mì/",
+      "phonetic_simple": "LO-o-do-mi",
+      "translation": "commerçant(e)",
+      "example_sentence": "Yē lɔ́ɔ́dɔ̄mì lɛ̄.",
+      "example_phonetic": "/jē lɔ́ɔ́dɔ̄mì lɛ̄/",
+      "example_translation": "Il/elle est commerçant(e)."
+    },
+    {
+      "word_id": "v7",
+      "term": "dēŋ̀",
+      "phonetic_api": "/dēŋ̀/",
+      "phonetic_simple": "DÈNG",
+      "translation": "qui ?",
+      "example_sentence": "Dēŋ̀ lɛ́ ī dàā ká?",
+      "example_phonetic": "/dēŋ̀ lɛ́ ī dàā ká/",
+      "example_translation": "Qui est ton père ?"
+    },
+    {
+      "word_id": "v8",
+      "term": "mā",
+      "phonetic_api": "/mā/",
+      "phonetic_simple": "MA",
+      "translation": "moi (pronom emphatique)",
+      "example_sentence": "Mā lɛ̄ ɓɛ̄.",
+      "example_phonetic": "/mā lɛ̄ ɓɛ̄/",
+      "example_translation": "Me voici."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p2_1",
-      "original": "í tɔ nɛ̃ ?",
-      "phonetic_api": "/i˦ tɔ˧ nɛ̃˧/",
-      "phonetic_simple": "EE TOR NENG ?",
-      "translation": "Quel est ton nom ?",
-      "context": "Question directe pour faire la connaissance de quelqu'un."
+      "phrase_id": "p1",
+      "original": "Mā lɛ̄ ɓɛ̄.",
+      "phonetic_api": "/mā lɛ̄ ɓɛ̄/",
+      "phonetic_simple": "ma lê bè",
+      "translation": "Me voici.",
+      "context": "Pour se présenter physiquement ou répondre à un appel."
     },
     {
-      "phrase_id": "p2_2",
-      "original": "ń tɔ ɓe Céce.",
-      "phonetic_api": "/ń tɔ˧ ɓe˧ t͡ʃe˧t͡ʃe˧/",
-      "phonetic_simple": "N TOR BÉ TSÉTSÉ",
-      "translation": "Mon nom est Cécé.",
-      "context": "Réponse standard pour donner son identité."
+      "phrase_id": "p2",
+      "original": "Ká gbùò lɛ̄.",
+      "phonetic_api": "/ká gbùò lɛ̄/",
+      "phonetic_simple": "ka gbou-o lê",
+      "translation": "C'est une grande maison.",
+      "context": "Exemple de construction identificatrice avec la copule lɛ̄."
     },
     {
-      "phrase_id": "p2_3",
-      "original": "í bɔ mī ?",
-      "phonetic_api": "/i˦ bɔ˧ miː˧/",
-      "phonetic_simple": "EE BOR MEE ?",
-      "translation": "D'où viens-tu ?",
-      "context": "Interroger son interlocuteur sur ses origines ou sa ville."
+      "phrase_id": "p3",
+      "original": "Dēŋ̀ lɛ́ ī dàā ká?",
+      "phonetic_api": "/dēŋ̀ lɛ́ ī dàā ká/",
+      "phonetic_simple": "dèng lé i da-a ka",
+      "translation": "Qui est ton père ?",
+      "context": "Question d'identification d'une personne."
     },
     {
-      "phrase_id": "p2_4",
-      "original": "ń bɔ Zɛlɛkɔlɛ.",
-      "phonetic_api": "/ń bɔ˧ zɛ˧lɛ˧kɔ˧lɛ˧/",
-      "phonetic_simple": "N BOR ZÈLÈKOLÈ",
-      "translation": "Je viens de Nzérékoré.",
-      "context": "Indiquer sa ville d'origine."
+      "phrase_id": "p4",
+      "original": "Yē kàlàmɔ́ɔ̀ lɛ̄.",
+      "phonetic_api": "/jē kàlàmɔ́ɔ̀ lɛ̄/",
+      "phonetic_simple": "yé ka-la-mo-o lê",
+      "translation": "Il/elle est enseignant(e).",
+      "context": "Pour indiquer la profession de quelqu'un."
     },
     {
-      "phrase_id": "p2_5",
-      "original": "í kēe nɛ̃ ?",
-      "phonetic_api": "/i˦ keː˧ nɛ̃˧/",
-      "phonetic_simple": "EE KÉÉ NENG ?",
-      "translation": "Quel âge as-tu ?",
-      "context": "Demander l'âge (utilisé généralement entre pairs ou envers un jeune)."
-    },
-    {
-      "phrase_id": "p2_6",
-      "original": "lékɔli-nɛ̃ ɓe ń la.",
-      "phonetic_api": "/le˧kɔ˧li˧ nɛ̃˧ ɓe˧ ń la˧/",
-      "phonetic_simple": "LÉKOLI-NENG BÉ N LA",
-      "translation": "Je suis élève / étudiant.",
-      "context": "Indiquer son statut professionnel ou scolaire."
+      "phrase_id": "p5",
+      "original": "Mā wáá ká.",
+      "phonetic_api": "/mā wáá ká/",
+      "phonetic_simple": "ma oua-a ka",
+      "translation": "Ce n'est pas moi.",
+      "context": "Négation d'identification, utilise la copule négative wɔ́."
     }
   ],
   "grammar_points": [
     {
-      "concept": "La focalisation d'identité avec la particule 'ɓe'",
-      "explanation": "En Mano, la particule 'ɓe' agit comme une marque d'affirmation ou un présentatif d'identité équivalent au verbe 'être' en français pour relier un sujet à son nom ou sa caractéristique fondamentale.",
+      "concept": "La copule assertive lɛ̄ et la copule négative wɔ́",
+      "explanation": "Le mano utilise deux copules distinctes : lɛ̄ pour affirmer une identité ou une propriété ('c'est'), et wɔ́ (avec variantes wá, wɛ́) pour la nier ('ce n'est pas'). Elles se placent après le groupe nominal ou le pronom emphatique.",
       "rules": [
-        "La structure de base est : [Sujet / Groupe Nominal] + ɓe + [Attribut].",
-        "Pour nier cette identité, on utilise une structure négative en fin de proposition."
+        "Structure affirmative : Nom/Pronom emphatique + attribut + lɛ̄",
+        "Structure négative : Sujet + wɔ́ + attribut (+ ká)",
+        "Le pronom emphatique (mā, ɓī, à yē...) s'utilise pour insister sur l'identité, contrairement au pronom non-sujet (ŋ̄, ī, à)"
       ],
       "examples": [
         {
-          "structure": "ń tɔ ɓe Koli.",
-          "phonetic_api": "/ń tɔ˧ ɓe˧ ko˧li˧/",
-          "meaning": "Mon nom est Koli."
+          "structure": "Mā lɛ̄ ɓɛ̄.",
+          "phonetic_api": "/mā lɛ̄ ɓɛ̄/",
+          "meaning": "Me voici."
         },
         {
-          "structure": "Gini ɓe.",
-          "phonetic_api": "/ɡi˧ni˧ ɓe˧/",
-          "meaning": "C'est la Guinée."
+          "structure": "Yē wɔ́ Pèé ká.",
+          "phonetic_api": "/jē wɔ́ pèé ká/",
+          "meaning": "Ce n'est pas Pé."
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Personne A",
-      "text": "Mɛgɛ ! í tɔ nɛ̃ ?",
-      "phonetic_api": "/mɛ˧gɛ˧ i˦ tɔ˧ nɛ̃˧/",
-      "phonetic_simple": "MÈGÈ ! EE TOR NENG ?",
-      "translation": "Bonjour ! Quel est ton nom ?"
+      "speaker": "Sèé",
+      "text": "Vùòɓō! Mā lɛ̄ ɓɛ̄, ŋ̄ tɔ̰́ Sèé.",
+      "phonetic_api": "/vṵ̀ɔ̀ɓō, mā lɛ̄ ɓɛ̄, ŋ̄ tɔ̰́ sèé/",
+      "phonetic_simple": "vou-o-bo, ma lê bè, ng ton sé",
+      "translation": "Bonjour ! Me voici, je m'appelle Sé."
     },
     {
-      "speaker": "Personne B",
-      "text": "ń tɔ ɓe Pɛpe. Í tɔ nɛ̃ ?",
-      "phonetic_api": "/ń tɔ˧ ɓe˧ pɛ˧pɛ˧ i˦ tɔ˧ nɛ̃˧/",
-      "phonetic_simple": "N TOR BÉ PÈPÈ. EE TOR NENG ?",
-      "translation": "Mon nom est Pépé. Et toi, quel est ton nom ?"
+      "speaker": "Kɔ̀ɔ́",
+      "text": "Ī sɛ̀kɛ̄ɛ̀. Dēŋ̀ lɛ́ ī dàā ká?",
+      "phonetic_api": "/ī sɛ̀kɛ̄ɛ̀, dēŋ̀ lɛ́ ī dàā ká/",
+      "phonetic_simple": "i sè-kè-è, dèng lé i da-a ka",
+      "translation": "Merci. Qui est ton père ?"
     },
     {
-      "speaker": "Personne A",
-      "text": "ń tɔ ɓe Zayɔ. Í bɔ mī ?",
-      "phonetic_api": "/ń tɔ˧ ɓe˧ za˧jɔ˧ i˦ bɔ˧ miː˧/",
-      "phonetic_simple": "N TOR BÉ ZAYOR. EE BOR MEE ?",
-      "translation": "Mon nom est Zayor. D'où viens-tu ?"
+      "speaker": "Sèé",
+      "text": "Yē kàlàmɔ́ɔ̀ lɛ̄.",
+      "phonetic_api": "/jē kàlàmɔ́ɔ̀ lɛ̄/",
+      "phonetic_simple": "yé ka-la-mo-o lê",
+      "translation": "Il est enseignant."
     },
     {
-      "speaker": "Personne B",
-      "text": "ń bɔ Lɔla. Bika sēe.",
-      "phonetic_api": "/ń bɔ˧ lɔ˧la˧ bi˧ka˧ seː˧˧/",
-      "phonetic_simple": "N BOR LOLA. BEE-KAH SÉÉ.",
-      "translation": "Je viens de Lola. Merci beaucoup."
+      "speaker": "Kɔ̀ɔ́",
+      "text": "Yē lɔ́ɔ́dɔ̄mì lɛ̄?",
+      "phonetic_api": "/jē lɔ́ɔ́dɔ̄mì lɛ̄/",
+      "phonetic_simple": "yé lo-o-do-mi lê",
+      "translation": "Il est commerçant ?"
+    },
+    {
+      "speaker": "Sèé",
+      "text": "Mā wáá ká.",
+      "phonetic_api": "/mā wáá ká/",
+      "phonetic_simple": "ma oua-a ka",
+      "translation": "Ce n'est pas moi (qui le dis ainsi) / non."
     }
   ],
   "cultural_notes": [
-    "Chez les Mano, demander directement l'âge d'une personne plus âgée est considéré comme une intrusion ou un manque de déférence. L'identité est profondément liée à la localité d'origine (le village ou la préfecture comme Lola ou Yomou), ainsi qu'aux lignages familiaux."
+    "Se présenter en mano passe souvent par la mention de la filiation paternelle : dire qui est son père (dàā) est une façon habituelle d'établir son identité sociale en Guinée forestière.",
+    "Les professions comme enseignant (kàlàmɔ́ɔ̀) et commerçant (lɔ́ɔ́dɔ̄mì) sont des emprunts ou dérivations qui reflètent l'évolution récente de la société mano."
   ],
   "exercises": [
     {
-      "exercise_id": "ex2_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Que signifie la question 'í bɔ mī ?' en Mano ?",
+      "question": "Quelle copule utilise-t-on pour AFFIRMER une identité en mano ?",
       "options": [
-        "Comment tu t'appelles ?",
-        "D'où viens-tu ?",
-        "Où vas-tu ?"
+        "wɔ́",
+        "lɛ̄",
+        "kā"
       ],
-      "correct_answer": "D'où viens-tu ?",
-      "explanation": "Le verbe 'bɔ' exprime la provenance et 'mī' désigne le lieu interrogatif."
+      "correct_answer": "lɛ̄",
+      "explanation": "lɛ̄ est la copule assertive ; wɔ́ est la copule négative."
     },
     {
-      "exercise_id": "ex2_2",
+      "exercise_id": "ex2",
+      "type": "multiple_choice",
+      "question": "Que signifie 'kàlàmɔ́ɔ̀' ?",
+      "options": [
+        "médecin",
+        "enseignant",
+        "commerçant"
+      ],
+      "correct_answer": "enseignant",
+      "explanation": "kàlàmɔ́ɔ̀ désigne la profession d'enseignant, attestée dans le dictionnaire mano-français."
+    },
+    {
+      "exercise_id": "ex3",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Pour dire 'Mon nom est...', on utilise l'expression : ń [ ___ ] ɓe...",
-      "correct_answer": "tɔ",
-      "hint": "Le mot Mano correspondant à 'nom'."
+      "sentence_with_blank": "Dēŋ̀ lɛ́ ī [ ___ ] ká? (Qui est ton père ?)",
+      "correct_answer": "dàā",
+      "hint": "dàā signifie 'père' ; c'est un nom relationnel utilisé avec les pronoms non-sujets."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Khachaturyan, M., Carbo, M., Mamy, P. (2022) Dictionnaire mano-français, Mandenkan 67, LLACAN/CNRS",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan67/67mano_dict_all.pdf"
+    },
+    {
+      "label": "Khachaturyan, M. (2015) Grammaire du mano, Mandenkan 54, LLACAN/CNRS",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan54/54khachaturyan.pdf"
+    }
+  ],
+  "confidence": "élevée",
+  "confidence_note": "Pronoms, copules et vocabulaire des professions directement attestés dans la grammaire (Mandenkan 54) et le dictionnaire (Mandenkan 67) de Khachaturyan."
 }

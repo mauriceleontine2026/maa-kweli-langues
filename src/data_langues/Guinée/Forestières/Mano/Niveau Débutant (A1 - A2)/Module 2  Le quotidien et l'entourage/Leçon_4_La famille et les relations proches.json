@@ -6,142 +6,230 @@
   "lesson_number": 4,
   "title": "La famille et les relations proches",
   "learning_objectives": [
-    "Identifier et nommer les membres de la famille nucléaire et élargie en Mano",
-    "Utiliser les déterminants possessifs de base pour exprimer un lien de parenté"
+    "Nommer les membres proches de la famille en mano",
+    "Utiliser les pronoms non-sujets avec les noms relationnels de parenté",
+    "Comprendre la logique de classification de la parenté mano (lignée paternelle/maternelle)"
   ],
   "phonetic_focus": {
-    "key_sounds": "La langue Mano possède un système tonal riche (tons haut, moyen, bas). La présence de voyelles nasales indiquées par le tilde (ã, ɛ̃, ɔ̃) requiert une expulsion partielle de l'air par le nez. Les consonnes doubles comme 'gb' et 'kp' sont des occlusives co-articulées labio-vélaires.",
-    "common_pitfalls": "Éviter de prononcer le 'g' de 'gb' séparément du 'b'. Ils forment un seul son simultané. Veiller également à ne pas omettre la nasalisation des voyelles finales sous peine de changer le sens du mot."
+    "key_sounds": "Les termes de parenté sont des 'noms relationnels' : ils se combinent directement avec un pronom non-sujet (ŋ̄, ī, à) sans marqueur possessif séparé, contrairement aux noms autosémantiques.",
+    "common_pitfalls": "Confondre lòkó (mère) et lēkè (cadet/cadette) qui partagent des sons proches mais des tons et sens différents."
   },
   "vocabulary": [
     {
-      "word_id": "v4_1",
-      "term": "de",
-      "phonetic_api": "/de˧/",
-      "phonetic_simple": "DÉ",
+      "word_id": "v1",
+      "term": "dàā",
+      "phonetic_api": "/dàā/",
+      "phonetic_simple": "da-A",
       "translation": "père",
-      "example_sentence": "ń de",
-      "example_phonetic": "/ń de˧/",
-      "example_translation": "mon père"
+      "example_sentence": "Ŋ̄ dàā.",
+      "example_phonetic": "/ŋ̄ dàā/",
+      "example_translation": "Mon père."
     },
     {
-      "word_id": "v4_2",
-      "term": "da",
-      "phonetic_api": "/da˧/",
-      "phonetic_simple": "DA",
+      "word_id": "v2",
+      "term": "lòkó",
+      "phonetic_api": "/lòkó/",
+      "phonetic_simple": "lo-KO",
       "translation": "mère",
-      "example_sentence": "ń da",
-      "example_phonetic": "/ń da˧/",
-      "example_translation": "ma mère"
+      "example_sentence": "Ŋ̄ lòkó āà wìì lɔ́.",
+      "example_phonetic": "/ŋ̄ lòkó āà wìì lɔ́/",
+      "example_translation": "Ma mère a acheté de la viande."
     },
     {
-      "word_id": "v4_3",
-      "term": "nɛ̃",
-      "phonetic_api": "/nɛ̃˧/",
-      "phonetic_simple": "NÈNG",
+      "word_id": "v3",
+      "term": "lìī",
+      "phonetic_api": "/lìī/",
+      "phonetic_simple": "li-I",
+      "translation": "frère/sœur aîné(e)",
+      "example_sentence": "Lìī lɛ̄ ká.",
+      "example_phonetic": "/lìī lɛ̄ ká/",
+      "example_translation": "Le grand frère est à la maison."
+    },
+    {
+      "word_id": "v4",
+      "term": "lēkè",
+      "phonetic_api": "/lēkè/",
+      "phonetic_simple": "lé-kè",
+      "translation": "frère/sœur cadet(te)",
+      "example_sentence": "Ŋ̄ lēkè.",
+      "example_phonetic": "/ŋ̄ lēkè/",
+      "example_translation": "Mon petit frère/ma petite sœur."
+    },
+    {
+      "word_id": "v5",
+      "term": "fúú",
+      "phonetic_api": "/fúú/",
+      "phonetic_simple": "FOU-ou",
       "translation": "enfant",
-      "example_sentence": "ń nɛ̃ gbɛ̃",
-      "example_phonetic": "/ń nɛ̃˧ ɡbɛ̃˧/",
-      "example_translation": "mon enfant garçon (mon fils)"
+      "example_sentence": "Fúú ē nū.",
+      "example_phonetic": "/fúú ē nū/",
+      "example_translation": "L'enfant est venu."
     },
     {
-      "word_id": "v4_4",
-      "term": "bo",
-      "phonetic_api": "/bo˧/",
-      "phonetic_simple": "BÔ",
-      "translation": "ami / camarade",
-      "example_sentence": "ń bo mɛgɛ",
-      "example_phonetic": "/ń bo˧ mɛ˧gɛ˧/",
-      "example_translation": "bonjour mon ami"
+      "word_id": "v6",
+      "term": "yēmìì",
+      "phonetic_api": "/jēmìì/",
+      "phonetic_simple": "yé-MI",
+      "translation": "famille",
+      "example_sentence": "Kō yēmìì.",
+      "example_phonetic": "/kō jēmìì/",
+      "example_translation": "Notre famille."
+    },
+    {
+      "word_id": "v7",
+      "term": "dɛ̰̄",
+      "phonetic_api": "/dɛ̰̄/",
+      "phonetic_simple": "DÊ (nasalisé)",
+      "translation": "mari",
+      "example_sentence": "Ŋ̄ dɛ̰̄ wɔ́ dɔ̄mì ká.",
+      "example_phonetic": "/ŋ̄ dɛ̰̄ wɔ́ dɔ̄mì ká/",
+      "example_translation": "Mon mari n'est pas le chef."
+    },
+    {
+      "word_id": "v8",
+      "term": "màā",
+      "phonetic_api": "/màā/",
+      "phonetic_simple": "ma-A",
+      "translation": "grand-mère",
+      "example_sentence": "Ŋ̄ màā.",
+      "example_phonetic": "/ŋ̄ màā/",
+      "example_translation": "Ma grand-mère."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p4_1",
-      "original": "ń de ɓe.",
-      "phonetic_api": "/ń de˧ ɓe˧/",
-      "phonetic_simple": "N DÉ BÉ",
-      "translation": "C'est mon père.",
-      "context": "Présentation d'un membre de la famille"
+      "phrase_id": "p1",
+      "original": "Ŋ̄ dàā nì.",
+      "phonetic_api": "/ŋ̄ dàā nì/",
+      "phonetic_simple": "ng da-a ni",
+      "translation": "Mes pères (mon père et sa lignée)",
+      "context": "En mano, dàā nì désigne la lignée paternelle élargie, pas seulement le père biologique."
     },
     {
-      "phrase_id": "p4_2",
-      "original": "í da vɔ?",
-      "phonetic_api": "/í da˧ vɔ˧/",
-      "phonetic_simple": "I DA VOR",
-      "translation": "Comment va ta mère ?",
-      "context": "Prendre des nouvelles de la famille"
+      "phrase_id": "p2",
+      "original": "Kō yēmìì.",
+      "phonetic_api": "/kō jēmìì/",
+      "phonetic_simple": "ko yé-mi",
+      "translation": "Notre famille",
+      "context": "Utilisé pour parler du groupe familial élargi."
     },
     {
-      "phrase_id": "p4_3",
-      "original": "ń kɛ̃ nɛ̃ zɛ̃.",
-      "phonetic_api": "/ń kɛ̃˧ nɛ̃˧ zɛ̃˧/",
-      "phonetic_simple": "N KENG NENG ZENG",
-      "translation": "J'ai un petit frère.",
-      "context": "Description de la fratrie"
+      "phrase_id": "p3",
+      "original": "Ŋ̄ dàā lɛ́ dēŋ̀ ká?",
+      "phonetic_api": "/ŋ̄ dàā lɛ́ dēŋ̀ ká/",
+      "phonetic_simple": "ng da-a lé dèng ka",
+      "translation": "Qui est mon père ? (structure interrogative de parenté)",
+      "context": "Structure utilisée pour interroger sur l'identité d'un parent."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Yēmìì gbùò.",
+      "phonetic_api": "/jēmìì gbùò/",
+      "phonetic_simple": "yé-mi gbou-o",
+      "translation": "Une grande famille.",
+      "context": "Pour décrire la taille d'une famille."
     }
   ],
   "grammar_points": [
     {
-      "concept": "La possession inaliénable",
-      "explanation": "En Mano, les termes de parenté appartiennent à la catégorie des noms inaliénables. On place directement le pronom possessif de personne devant le nom sans ajouter de particule connective intermédiaire.",
+      "concept": "Les noms relationnels de parenté et le pronom non-sujet",
+      "explanation": "Les termes de parenté (dàā 'père', lòkó 'mère', lìī 'aîné', etc.) sont des noms relationnels : ils se combinent directement avec le pronom non-sujet sans marqueur possessif intermédiaire, à la différence des noms autosémantiques qui utilisent un pronom possessif distinct.",
       "rules": [
-        "ń = mon / ma",
-        "í = ton / ta",
-        "à = son / sa"
+        "Nom relationnel : pronom non-sujet + nom (ex. ŋ̄ dàā 'mon père')",
+        "Nom autosémantique : pronom possessif + nom (ex. ŋ̀ ká 'ma maison')",
+        "Le pluriel de parenté peut s'exprimer avec le déterminatif nì (ex. dàā nì 'les pères/la lignée paternelle')"
       ],
       "examples": [
         {
-          "structure": "ń da",
-          "phonetic_api": "/ń da˧/",
-          "meaning": "ma mère"
+          "structure": "ŋ̄ dàā",
+          "phonetic_api": "/ŋ̄ dàā/",
+          "meaning": "mon père"
         },
         {
-          "structure": "í de",
-          "phonetic_api": "/í de˧/",
-          "meaning": "ton père"
+          "structure": "à dàā",
+          "phonetic_api": "/à dàā/",
+          "meaning": "son père"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Personne A",
-      "text": "Mɛgɛ ! í da ɓe ?",
-      "phonetic_api": "/mɛ˧gɛ˧ í da˧ ɓe˧/",
-      "phonetic_simple": "MÈGÈ ! I DA BÉ ?",
-      "translation": "Bonjour ! Est-ce ta mère ?"
+      "speaker": "Kɔ̀ɔ́",
+      "text": "Ŋ̄ dàā lɛ̄ ká.",
+      "phonetic_api": "/ŋ̄ dàā lɛ̄ ká/",
+      "phonetic_simple": "ng da-a lê ka",
+      "translation": "Mon père est à la maison."
     },
     {
-      "speaker": "Personne B",
-      "text": "Ao, ń da ɓe.",
-      "phonetic_api": "/ao˧ ń da˧ ɓe˧/",
-      "phonetic_simple": "AO, N DA BÉ.",
-      "translation": "Oui, c'est ma mère."
+      "speaker": "Pèé",
+      "text": "Ŋ̄ lòkó āà wìì lɔ́.",
+      "phonetic_api": "/ŋ̄ lòkó āà wìì lɔ́/",
+      "phonetic_simple": "ng lo-ko a-a oui-i lo",
+      "translation": "Ma mère a acheté de la viande."
+    },
+    {
+      "speaker": "Kɔ̀ɔ́",
+      "text": "Ī lēkè lɛ̄ mɛ́nɛ̄?",
+      "phonetic_api": "/ī lēkè lɛ̄ mɛ́nɛ̄/",
+      "phonetic_simple": "i lé-kè lê mé-nè",
+      "translation": "Où est ton petit frère ?"
+    },
+    {
+      "speaker": "Pèé",
+      "text": "Yē lɛ̄ ká, à yē màā ká.",
+      "phonetic_api": "/jē lɛ̄ ká, à jē màā ká/",
+      "phonetic_simple": "yé lê ka, a yé ma-a ka",
+      "translation": "Il est à la maison, chez notre grand-mère."
     }
   ],
   "cultural_notes": [
-    "Dans la communauté Mano, les structures familiales sont hautement communautaires. Les oncles et tantes paternels ou maternels sont souvent désignés par des termes équivalents à 'père' et 'mère' assortis d'un qualificatif d'âge (grand ou petit), traduisant le rôle éducatif partagé au sein du village."
+    "La parenté mano distingue systématiquement la lignée paternelle (sùūdōóvɔ̀) et la lignée maternelle, ce qui influence les termes utilisés pour oncles et tantes (zíé = oncle maternel, dàā = oncle paternel).",
+    "Le terme dàā couvre à la fois le père, l'oncle paternel et le grand-père paternel, traduisant une conception plus large de la paternité sociale que le français."
   ],
   "exercises": [
     {
-      "exercise_id": "ex4_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Que signifie l'expression 'ń de' en langue Mano ?",
+      "question": "Comment dit-on 'mère' en mano ?",
       "options": [
-        "Ma mère",
-        "Mon père",
-        "Mon frère"
+        "dàā",
+        "lòkó",
+        "màā"
       ],
-      "correct_answer": "Mon père",
-      "explanation": "'de' désigne le père en Mano et le préfixe 'ń' marque la première personne du singulier possessif."
+      "correct_answer": "lòkó",
+      "explanation": "lòkó signifie 'mère' ; màā signifie 'grand-mère' et dàā signifie 'père'."
     },
     {
-      "exercise_id": "ex4_2",
+      "exercise_id": "ex2",
+      "type": "multiple_choice",
+      "question": "Quel type de nom est dàā ('père') grammaticalement ?",
+      "options": [
+        "un nom autosémantique",
+        "un nom relationnel",
+        "un pronom"
+      ],
+      "correct_answer": "un nom relationnel",
+      "explanation": "Les termes de parenté se combinent directement avec le pronom non-sujet, comme les parties du corps."
+    },
+    {
+      "exercise_id": "ex3",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Pour dire 'ta mère', on écrit : [ ___ ] da.",
-      "correct_answer": "í",
-      "hint": "Le pronom de la deuxième personne du singulier."
+      "sentence_with_blank": "Ŋ̄ [ ___ ] lɛ̄ ká. (Mon père est à la maison.)",
+      "correct_answer": "dàā",
+      "hint": "dàā signifie 'père' ; le pronom ŋ̄ précède directement le nom relationnel."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Khachaturyan, M., Carbo, M., Mamy, P. (2022) Dictionnaire mano-français, Mandenkan 67, LLACAN/CNRS",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan67/67mano_dict_all.pdf"
+    },
+    {
+      "label": "Khachaturyan, M. (2015) Grammaire du mano, Mandenkan 54, LLACAN/CNRS",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan54/54khachaturyan.pdf"
+    }
+  ],
+  "confidence": "élevée",
+  "confidence_note": "Termes de parenté et règle grammaticale des noms relationnels confirmés par le dictionnaire mano-français (Mandenkan 67) et la grammaire (Mandenkan 54)."
 }

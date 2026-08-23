@@ -6,174 +6,232 @@
   "lesson_number": 4,
   "title": "La famille et les relations proches",
   "learning_objectives": [
-    "Nommer les membres de la famille nucléaire et élargie",
-    "Exprimer un lien de parenté ou de possession simple",
-    "Présenter son entourage à un tiers"
+    "Nommer les membres proches de la famille en kissi à l'aide de termes attestés",
+    "Comprendre l'importance du clan (kale) dans l'organisation sociale kissi",
+    "Utiliser les termes d'adresse appropriés selon l'âge et le statut"
   ],
   "phonetic_focus": {
-    "key_sounds": "Le mot 'ndra' (mère) contient une consonne occlusive alvéolaire sonore pré-nasalisée /ⁿd/ suivie d'un r roulé doux /ɽ/. Le mot 'fin' (père) exige une voyelle fortement nasalisée /ĩ/.",
-    "common_pitfalls": "Ne prononcez pas le 'n' de 'fin' de manière distincte comme dans le mot français 'fine'. Bloquez l'air pour créer une résonance nasale pure : /fĩ/."
+    "key_sounds": "Les termes de parenté kissi combinent souvent une racine et un ton/accent distinctif ; kɛla (oncle) et keke (père) se distinguent par la voyelle ɛ ouverte contre e fermée.",
+    "common_pitfalls": "Les francophones confondent souvent kɛla et keke à l'oral en ne marquant pas assez l'ouverture vocalique différente."
   },
   "vocabulary": [
     {
-      "word_id": "v4_1",
-      "term": "fin",
-      "phonetic_api": "/fĩ/",
-      "phonetic_simple": "FEEN",
-      "translation": "père",
-      "example_sentence": "Fin nio o co lo.",
-      "example_phonetic": "/fĩ njo o tʃo lo/",
-      "example_translation": "Mon père est là."
+      "word_id": "v1",
+      "term": "keke",
+      "phonetic_api": "/keke/",
+      "phonetic_simple": "ké-ké",
+      "translation": "père / oncle paternel",
+      "example_sentence": "Yá keke ndu wanapɔnɔɔ.",
+      "example_phonetic": "/ja keke ndu wanapɔnɔː/",
+      "example_translation": "Mon père est un homme (bien portant)."
     },
     {
-      "word_id": "v4_2",
-      "term": "ndra",
-      "phonetic_api": "/ⁿdɽa/",
-      "phonetic_simple": "NDRA",
-      "translation": "mère",
-      "example_sentence": "Ndra nio o co wa.",
-      "example_phonetic": "/ⁿdɽa njo o tʃo wa/",
-      "example_translation": "Ma mère est ici."
+      "word_id": "v2",
+      "term": "nde",
+      "phonetic_api": "/nde/",
+      "phonetic_simple": "ndé",
+      "translation": "maman, mère",
+      "example_sentence": "Ndé, yandii!",
+      "example_phonetic": "/nde jandiː/",
+      "example_translation": "Maman, s'il te plaît !"
     },
     {
-      "word_id": "v4_3",
-      "term": "puaa",
-      "phonetic_api": "/pwaː/",
-      "phonetic_simple": "POU-AA",
-      "translation": "frère",
-      "example_sentence": "Puaa nio o co lander.",
-      "example_phonetic": "/pwaː njo o tʃo laⁿdɛɽ/",
-      "example_translation": "Mon frère est grand."
+      "word_id": "v3",
+      "term": "mama",
+      "phonetic_api": "/mama/",
+      "phonetic_simple": "ma-ma",
+      "translation": "grand-mère / vieille femme respectée",
+      "example_sentence": "Nikene, mama.",
+      "example_phonetic": "/nikene mama/",
+      "example_translation": "Bonjour, grand-mère."
     },
     {
-      "word_id": "v4_4",
-      "term": "lanyen",
-      "phonetic_api": "/la.ɲẽ/",
-      "phonetic_simple": "LA-NYEN",
-      "translation": "sœur",
-      "example_sentence": "Lanyen nio o peeku.",
-      "example_phonetic": "/la.ɲẽ njo o peː.ku/",
-      "example_translation": "Ma sœur étudie."
+      "word_id": "v4",
+      "term": "kɛla",
+      "phonetic_api": "/kɛla/",
+      "phonetic_simple": "ké-la",
+      "translation": "oncle (frère de la mère)",
+      "example_sentence": "Hakató, kɛla.",
+      "example_phonetic": "/hakato kɛla/",
+      "example_translation": "Excuse-moi, oncle."
     },
     {
-      "word_id": "v4_5",
-      "term": "puan",
-      "phonetic_api": "/pu.ã/",
-      "phonetic_simple": "POU-AN",
-      "translation": "enfant / fils / fille",
-      "example_sentence": "Puan pilɔ o nɔ.",
-      "example_phonetic": "/pu.ã pi.lɔ o nɔ/",
-      "example_translation": "Elle a un enfant."
+      "word_id": "v5",
+      "term": "tena",
+      "phonetic_api": "/tena/",
+      "phonetic_simple": "té-na",
+      "translation": "tante (du côté maternel)",
+      "example_sentence": "Ndu yá tena.",
+      "example_phonetic": "/ndu ja tena/",
+      "example_translation": "C'est ma tante."
+    },
+    {
+      "word_id": "v6",
+      "term": "fa",
+      "phonetic_api": "/fa/",
+      "phonetic_simple": "fa",
+      "translation": "frère ou sœur aîné(e) (terme d'adresse)",
+      "example_sentence": "Fa, i kendé le?",
+      "example_phonetic": "/fa i kende le/",
+      "example_translation": "Aîné(e), tu vas bien ?"
+    },
+    {
+      "word_id": "v7",
+      "term": "ŋgɔ́ɔ",
+      "phonetic_api": "/ŋgɔːɔ/",
+      "phonetic_simple": "ngô-ô",
+      "translation": "aîné(e)",
+      "example_sentence": "Ndu yá ŋgɔ́ɔ.",
+      "example_phonetic": "/ndu ja ŋgɔːɔ/",
+      "example_translation": "C'est mon/mon aîné(e)."
+    },
+    {
+      "word_id": "v8",
+      "term": "bimbaa",
+      "phonetic_api": "/bimbaː/",
+      "phonetic_simple": "bim-baa",
+      "translation": "grand-parent",
+      "example_sentence": "Ndu yá bimbaa.",
+      "example_phonetic": "/ndu ja bimbaː/",
+      "example_translation": "C'est mon grand-parent."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p4_1",
-      "original": "Fin nio o co wa.",
-      "phonetic_api": "/fĩ njo o tʃo wa/",
-      "phonetic_simple": "FEEN NYO O TCHO WA",
-      "translation": "Mon père est présent.",
-      "context": "Présentation de la famille"
+      "phrase_id": "p1",
+      "original": "Ndu yá keke.",
+      "phonetic_api": "/ndu ja keke/",
+      "phonetic_simple": "ndou ya ké-ké",
+      "translation": "C'est mon père.",
+      "context": "Pour présenter son père."
     },
     {
-      "phrase_id": "p4_2",
-      "original": "Ndra nio o co kpou.",
-      "phonetic_api": "/ⁿdɽa njo o tʃo kpu/",
-      "phonetic_simple": "NDRA NYO O TCHO KPOU",
-      "translation": "Ma mère va bien.",
-      "context": "Donner des nouvelles de ses parents"
+      "phrase_id": "p2",
+      "original": "Ndu yá nde.",
+      "phonetic_api": "/ndu ja nde/",
+      "phonetic_simple": "ndou ya ndé",
+      "translation": "C'est ma mère.",
+      "context": "Pour présenter sa mère."
     },
     {
-      "phrase_id": "p4_3",
-      "original": "Puaa noo o co vɛ ?",
-      "phonetic_api": "/pwaː noː o tʃo vɛ/",
-      "phonetic_simple": "POU-AA NOO O TCHO VÈ",
-      "translation": "Où est ton frère ?",
-      "context": "S'informer sur un proche"
+      "phrase_id": "p3",
+      "original": "Ndu yá kɛla.",
+      "phonetic_api": "/ndu ja kɛla/",
+      "phonetic_simple": "ndou ya ké-la",
+      "translation": "C'est mon oncle (maternel).",
+      "context": "Pour présenter un oncle du côté de la mère."
     },
     {
-      "phrase_id": "p4_4",
-      "original": "I bɛndɛ fiaa kpou.",
-      "phonetic_api": "/i bɛⁿdɛ fjaː kpu/",
-      "phonetic_simple": "I BENDE FIA-A KPOU",
-      "translation": "Nous sommes une très grande famille.",
-      "context": "Parler de son foyer"
+      "phrase_id": "p4",
+      "original": "Ndu yá tena.",
+      "phonetic_api": "/ndu ja tena/",
+      "phonetic_simple": "ndou ya té-na",
+      "translation": "C'est ma tante.",
+      "context": "Pour présenter une tante maternelle."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Nikene, mama.",
+      "phonetic_api": "/nikene mama/",
+      "phonetic_simple": "ni-ké-né, ma-ma",
+      "translation": "Bonjour, grand-mère.",
+      "context": "Salutation respectueuse envers une aînée."
     }
   ],
   "grammar_points": [
     {
-      "concept": "Les pronoms possessifs postposés 'nio' et 'noo'",
-      "explanation": "En kissi, la possession ne se marque pas par un déterminant devant le mot, mais par un pronom possessif placé immédiatement après le nom.",
+      "concept": "Termes de parenté et termes d'adresse",
+      "explanation": "En kissi, plusieurs termes de parenté servent aussi de termes d'adresse générale envers des personnes non apparentées mais respectées, par analogie d'âge ou de statut (ex. mama pour une vieille femme quelconque, keke pour un homme important). Ce système, documenté par Childs (2002), reflète la centralité de la parenté dans l'organisation sociale kissi, également décrite par l'ethnographe Denise Paulme via le système de clans (kale).",
       "rules": [
-        "Pour dire 'mon/ma', on ajoute 'nio' après le nom.",
-        "Pour dire 'ton/ta', on ajoute 'noo' après le nom."
+        "'Mama' et 'keke' peuvent s'employer au sens propre (parent) ou au sens élargi (personne âgée respectée).",
+        "'Fa' s'utilise comme terme d'adresse pour un frère/sœur aîné(e), qu'il soit apparenté ou non.",
+        "Le clan (kale) organise les grandes familles élargies au-delà du foyer nucléaire."
       ],
       "examples": [
         {
-          "structure": "Nom + nio",
-          "phonetic_api": "/fĩ njo/",
-          "meaning": "Mon père"
-        },
-        {
-          "structure": "Nom + noo",
-          "phonetic_api": "/ⁿdɽa noː/",
-          "meaning": "Ta mère"
+          "structure": "ndu yá + [terme de parenté]",
+          "phonetic_api": "/ndu ja .../",
+          "meaning": "c'est mon/ma [parent]"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Saa",
-      "text": "Tamba, fin noo o co wa ?",
-      "phonetic_api": "/ta.ᵐba fĩ noː o tʃo wa/",
-      "phonetic_simple": "TAM-BA, FEEN NOO O TCHO WA",
-      "translation": "Tamba, ton père est-il là ?"
+      "speaker": "Aminata",
+      "text": "Nikene, mama!",
+      "phonetic_api": "/nikene mama/",
+      "phonetic_simple": "ni-ké-né ma-ma",
+      "translation": "Bonjour, grand-mère !"
     },
     {
-      "speaker": "Tamba",
-      "text": "Haa, fin nio o co wa cando ning.",
-      "phonetic_api": "/haː fĩ njo o tʃo wa tʃa.ⁿdo niŋ/",
-      "phonetic_simple": "HAA, FEEN NYO O TCHO WA TCHAN-DO NING",
-      "translation": "Oui, mon père est là dans la maison."
+      "speaker": "Mama",
+      "text": "Mbaa. Ndu ndá?",
+      "phonetic_api": "/mbaː ndu nda/",
+      "phonetic_simple": "mbaa, ndou nda",
+      "translation": "(réponse). Qui es-tu ?"
     },
     {
-      "speaker": "Saa",
-      "text": "Et ndra noo ndɔ ?",
-      "phonetic_api": "/ɛt ⁿdɽa noː ⁿdɔ/",
-      "phonetic_simple": "ET NDRA NOO NDO ?",
-      "translation": "Et ta mère aussi ?"
+      "speaker": "Aminata",
+      "text": "Ndu yá keke waa ndu yá tena.",
+      "phonetic_api": "/ndu ja keke waː ndu ja tena/",
+      "phonetic_simple": "ndou ya ké-ké wa ndou ya té-na",
+      "translation": "Je suis (l'enfant de) mon père et de ma tante."
     },
     {
-      "speaker": "Tamba",
-      "text": "Mbo, ndra nio o co ciao.",
-      "phonetic_api": "/ᵐbo ⁿdɽa njo o tʃo tʃja.o/",
-      "phonetic_simple": "MBO, NDRA NYO O TCHO TCHIA-O",
-      "translation": "Non, ma mère est au marché."
+      "speaker": "Mama",
+      "text": "Baleka. I kɛla ndu ndá?",
+      "phonetic_api": "/baleka i kɛla ndu nda/",
+      "phonetic_simple": "ba-lé-ka, i ké-la ndou nda",
+      "translation": "Merci. Qui est ton oncle ?"
+    },
+    {
+      "speaker": "Aminata",
+      "text": "Yá kɛla ndu wanapɔnɔɔ.",
+      "phonetic_api": "/ja kɛla ndu wanapɔnɔː/",
+      "phonetic_simple": "ya ké-la ndou wa-na-pô-nô",
+      "translation": "Mon oncle est un homme."
     }
   ],
   "cultural_notes": [
-    "Dans la culture kissi, la notion de famille est communautaire et élargie. Le mot 'puaa' (frère) ou 'lanyen' (sœur) englobe très souvent les cousins germains direct. Appeler un cousin 'mon frère' renforce le devoir de solidarité clanique."
+    "Le clan (kale) est l'unité de référence sociale majeure chez les Kissi : Denise Paulme cite des clans comme Leno/Lea (associé au Keita malinké), Kamano/Kamara, ou Toluno/Toluna, chacun lié à un interdit alimentaire ou totem (l'iguane, le singe, le caïman, etc.).",
+    "L'oncle maternel (kɛla) occupe traditionnellement une place particulière dans l'éducation et les décisions familiales, comme dans de nombreuses sociétés matrilinéaires d'Afrique de l'Ouest."
   ],
   "exercises": [
     {
-      "exercise_id": "ex4_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Que signifie 'Ndra nio' ?",
+      "question": "Comment dit-on « grand-mère » ou « vieille femme respectée » en kissi ?",
       "options": [
-        "Mon père",
-        "Ma mère",
-        "Mon frère"
+        "mama",
+        "keke",
+        "fa"
       ],
-      "correct_answer": "Ma mère",
-      "explanation": "'Ndra' signifie mère et 'nio' traduit le possessif de la première personne (mon/ma)."
+      "correct_answer": "mama",
+      "explanation": "« mama » est attesté par Childs (2002) avec ce double sens."
     },
     {
-      "exercise_id": "ex4_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Puaa [ ___ ] o co wa. (Ton frère est là)",
-      "correct_answer": "noo",
-      "hint": "Adjectif possessif pour 'ton/ta'"
+      "sentence_with_blank": "Ndu yá [ ___ ]. (C'est mon oncle maternel.)",
+      "correct_answer": "kɛla",
+      "hint": "Terme spécifique à l'oncle du côté de la mère."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "G. Tucker Childs, « Borrowings into Kisi as Evidence of Mande Expansionism and Influence », Journal of West African Languages 29-2 (2002)",
+      "url": "https://scispace.com/pdf/borrowings-into-kisi-as-evidence-of-mande-expansionism-and-3zquof59kt.pdf"
+    },
+    {
+      "label": "Denise Paulme, Les Gens du riz : les Kissi de Haute-Guinée, chap. 6 (WebGuinée)",
+      "url": "https://www.webguinee.net/bibliotheque/ethnographie/kisi/dpaulme/chap06.html"
+    },
+    {
+      "label": "Ethnologue — Kissi, Northern (kqs)",
+      "url": "https://www.ethnologue.com/language/kqs/"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Tous les termes de parenté (keke, nde, mama, kɛla, tena, fa, ŋgɔ́ɔ, bimbaa) sont attestés par l'article de Childs (2002) sur les emprunts en kissi ; les phrases combinatoires (ndu yá + terme) sont construites à partir de la structure attestée 'ndu' (copule) et des pronoms/possessifs déduits, non citées telles quelles dans une source unique."
 }

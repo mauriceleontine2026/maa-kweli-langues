@@ -1,170 +1,218 @@
 {
   "lesson_id": "C1_M2_L4",
-  "level": "Niveau Avancé (C1-C2)",
+  "level": "Avancé (C1-C2)",
   "module_number": 2,
   "module_title": "Culture, traditions et rhétorique",
   "lesson_number": 4,
   "title": "Les proverbes, dictons et expressions imagées de la culture",
   "learning_objectives": [
-    "Comprendre et interpréter les proverbes konon fondamentaux",
-    "Utiliser des métaphores animalières et végétales dans une argumentation",
-    "Manier le second degré et les expressions imagées de la région de Lola"
+    "Comprendre la structure imagée des expressions idiomatiques attestées en kono",
+    "Interpréter le sens figuré de constructions locatives figées",
+    "Reconnaître les limites de la documentation sur les proverbes kono spécifiques"
   ],
   "phonetic_focus": {
-    "key_sounds": "Le mot 'sánu' (proverbe/sagesse) s'articule avec un ton haut initial très net. Les formules proverbiales utilisent souvent un rythme archaïque saccadé où les élisions vocaliques entre les mots sont fréquentes.",
-    "common_pitfalls": "Ne pas traduire littéralement les expressions imagées sous peine de commettre un contre-sens culturel complet. Respectez scrupuleusement les tons d'origine."
+    "key_sounds": "Les expressions figées conservent souvent une prosodie particulière, plus lente et appuyée, distincte de la parole courante, signalant leur statut culturel valorisé.",
+    "common_pitfalls": "Traduire un proverbe mot à mot en français lui fait perdre son sens figuré ; il faut toujours donner l'équivalent culturel plutôt qu'une traduction littérale isolée."
   },
   "vocabulary": [
     {
-      "word_id": "v4_1",
-      "term": "sánu-wóò",
-      "phonetic_api": "/sá.nu.wóː/",
-      "phonetic_simple": "SA-NOO-WOO",
-      "translation": "proverbe / parole de sagesse (litt. parole d'or)",
-      "example_sentence": "ń ɓáá bɛ́ sánu-wóò ɓɔ́á",
-      "phonetic_api_example": "/ń ɓáː ɓɛ́ sá.nu.wóː ɓɔ́.á/",
-      "example_translation": "Mon père est en train de dire un proverbe."
+      "word_id": "v1",
+      "term": "kɔ̀ndí gáa X pɔ́",
+      "phonetic_api": "/kɔ̀ndí gáː X pɔ́/",
+      "phonetic_simple": "KON-DI GA-A X PO",
+      "translation": "expression figée « la faim est sur X » = X a faim, extensible métaphoriquement à un manque ou un désir ardent (kpele apparenté)",
+      "example_sentence": "Kɔ̀ndí gáa ɲá pɔ́ klô kɛ́.",
+      "example_phonetic": "/kɔ̀ndí gáː ɲá pɔ́ klô kɛ́/",
+      "example_translation": "J'ai une faim ardente de travailler (sens figuré étendu, extrapolation prudente)."
     },
     {
-      "word_id": "v4_2",
-      "term": "kɔ̀nì",
-      "phonetic_api": "/kɔ̀n.ì/",
-      "phonetic_simple": "KO-NEE",
-      "translation": "l'oiseau (symbole de messager ou de ruse)",
-      "example_sentence": "kɔ̀nì gbéi tɛ́ lú gíán lúá",
-      "phonetic_api_example": "/kɔ̀n.ì ɡɓéī tɛ́ lú ɡí.án lú.á/",
-      "example_translation": "Un petit oiseau ne construit pas une grande concession."
+      "word_id": "v2",
+      "term": "ɲɔ̀ɔ gáa X pɔ́",
+      "phonetic_api": "/ɲɔ̀ː gáː X pɔ́/",
+      "phonetic_simple": "NYO-O GA-A X PO",
+      "translation": "expression figée « la joie est sur X » = X est heureux (kpele apparenté)",
+      "example_sentence": "Ɲɔ̀ɔ gáa wɔ́lɔ́ɔ pɔ́.",
+      "example_phonetic": "/ɲɔ̀ː gáː wɔ́lɔ́ɔ pɔ́/",
+      "example_translation": "Le village est en joie (litt. la joie est sur le village)."
     },
     {
-      "word_id": "v4_3",
-      "term": "mɛ̀lɛ̀",
-      "phonetic_api": "/mɛ̀.lɛ̀/",
-      "phonetic_simple": "ME-LE",
-      "translation": "avaler / accepter sans réfléchir",
-      "example_sentence": "í máá à wóò mɛ̀lɛ̀ nìí gíí",
-      "phonetic_api_example": "/í máː à wóː mɛ̀.lɛ̀ nìː ɡíː/",
-      "example_translation": "N'avale pas sa parole ainsi."
+      "word_id": "v3",
+      "term": "kɔ́lɔ",
+      "phonetic_api": "/kɔ́lɔ/",
+      "phonetic_simple": "KO-LO",
+      "translation": "grand, ancien, sage (par extension, kpele apparenté) — souvent utilisé pour désigner un aîné respecté dans les expressions figées",
+      "example_sentence": "Nú kɔ́lɔ dɛ́ klɔŋ́ hɛ́ɣɛ.",
+      "example_phonetic": "/nú kɔ́lɔ dɛ́ klɔ́ŋ hɛ́ɣɛ/",
+      "example_translation": "Une personne âgée/sage en sait beaucoup (proverbe extrapolé sur le respect des aînés)."
     },
     {
-      "word_id": "v4_4",
-      "term": "gbíán",
-      "phonetic_api": "/ɡ͡ɓí.án/",
-      "phonetic_simple": "GBIAN",
-      "translation": "la racine / l'origine / la lignée",
-      "example_sentence": "wóò nìí gbíán káá gboi",
-      "phonetic_api_example": "/wóː nìː ɡ͡ɓí.án káː ɡ͡ɓo.i/",
-      "example_translation": "La racine de cette affaire est profonde."
+      "word_id": "v4",
+      "term": "hùyǒ",
+      "phonetic_api": "/hùjǒ/",
+      "phonetic_simple": "HOU-YO",
+      "translation": "viande (kono attesté) — utilisé métaphoriquement dans certaines expressions régionales pour désigner l'essentiel ou le profit d'une affaire (usage métaphorique extrapolé, confiance faible)",
+      "example_sentence": "Klô hùyǒ nú kɔ́lɔ.",
+      "example_phonetic": "/klô hùjǒ nú kɔ́lɔ/",
+      "example_translation": "Le fruit du travail est grand (proverbe extrapolé, confiance faible)."
+    },
+    {
+      "word_id": "v5",
+      "term": "yiŕê",
+      "phonetic_api": "/jíɾê/",
+      "phonetic_simple": "YI-RÉ",
+      "translation": "chien (kono attesté) — souvent symbole de fidélité ou de vigilance dans les expressions imagées ouest-africaines (extrapolation culturelle générale, confiance faible pour le kono spécifiquement)",
+      "example_sentence": "Yiŕê nú ɓaŕaŋaà kɔ́lɔ.",
+      "example_phonetic": "/jíɾê nú ɓaɾaŋaː kɔ́lɔ/",
+      "example_translation": "Le chien est un grand ami (proverbe extrapolé par analogie culturelle régionale, confiance faible)."
+    },
+    {
+      "word_id": "v6",
+      "term": "ɓaŕaŋaà",
+      "phonetic_api": "/ɓaɾaŋaː/",
+      "phonetic_simple": "BA-RA-NGA-A",
+      "translation": "ami(e) (kono attesté)",
+      "example_sentence": "Ɓaŕaŋaà kɔ́lɔ dɔ́ɔ pá klô kɛ́ tɔ́.",
+      "example_phonetic": "/ɓaɾaŋaː kɔ́lɔ dɔ́ɔ pá klô kɛ́ tɔ́/",
+      "example_translation": "Un grand ami peut venir travailler avec toi (proverbe extrapolé sur la valeur de l'amitié, confiance faible)."
+    },
+    {
+      "word_id": "v7",
+      "term": "kɔ́lɔ (grandeur morale)",
+      "phonetic_api": "/kɔ́lɔ/",
+      "phonetic_simple": "KO-LO",
+      "translation": "extension figurée de « grand » vers « important, digne » (kpele apparenté)",
+      "example_sentence": "Nú dɛ́ kɔ́lɔ.",
+      "example_phonetic": "/nú dɛ́ kɔ́lɔ/",
+      "example_translation": "Quelle grande personne (au sens moral) !"
+    },
+    {
+      "word_id": "v8",
+      "term": "klô",
+      "phonetic_api": "/klô/",
+      "phonetic_simple": "KLO",
+      "translation": "travail (kono attesté), symbole de valeur morale dans de nombreux dictons régionaux",
+      "example_sentence": "Klô nú kɔ́lɔ.",
+      "example_phonetic": "/klô nú kɔ́lɔ/",
+      "example_translation": "Le travail est grand (= a de la valeur ; proverbe extrapolé, confiance faible)."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p4_1",
-      "original": "kɔ̀nì lóŋ máá à née kíɛ́ dɔ̀nɔ̀n gbéé lá",
-      "phonetic_api": "/kɔ̀n.ì lóŋ máː à néː kíɛ́ dɔ̀nɔ̀n ɡ͡béː lá/",
-      "phonetic_simple": "KO-NEE LONG MAA A NEE KIEE DONON GBEE LA",
-      "translation": "L'oisillon n'apprend pas à sa mère comment voler/danser.",
-      "context": "Proverbe utilisé pour rappeler un jeune à l'ordre face à un aîné."
+      "phrase_id": "p1",
+      "original": "Kɔ̀ndí gáa ɲá pɔ́.",
+      "phonetic_api": "/kɔ̀ndí gáː ɲá pɔ́/",
+      "phonetic_simple": "KON-DI GA-A NYA PO",
+      "translation": "J'ai faim (litt. la faim est sur moi).",
+      "context": "Exemple attesté et directement documenté d'expression figée locative, base de nombreuses métaphores similaires dans la région."
     },
     {
-      "phrase_id": "p4_2",
-      "original": "í máá sámá fɛ́ɛ́ kɔ̀nɔ̀n yí pɔ́ í máá à gbíán lɔ́",
-      "phonetic_api": "/í máː sá.má fɛ́ː kɔ̀nɔ̀n jí pɔ́ í máː à ɡ͡ɓí.án lɔ́/",
-      "phonetic_simple": "I MAA SA-MA FEE KONON YI PO I MAA A GBIAN LO",
-      "translation": "N'invoque pas la pluie sur le champ si tu n'en connais pas la racine.",
-      "context": "Dicton invitant à la prudence avant de déclencher des palabres."
+      "phrase_id": "p2",
+      "original": "Ɲɔ̀ɔ gáa wɔ́lɔ́ɔ pɔ́.",
+      "phonetic_api": "/ɲɔ̀ː gáː wɔ́lɔ́ɔ pɔ́/",
+      "phonetic_simple": "NYO-O GA-A WO-LO-O PO",
+      "translation": "Le village est en joie.",
+      "context": "Extension de la construction locative de sentiment à un sujet collectif, procédé rhétorique attesté par analogie."
     },
     {
-      "phrase_id": "p4_3",
-      "original": "gbɛ́ɛ́ tɛ́ mɔ̀ɔ̀ kɛ́á á ɓáá le mbɔ́-ò-lá à dɛ́ɛ́ káá ɓɔ́",
-      "phonetic_api": "/ɡ͡ɓ&epsilon;́ː tɛ́ mɔ̀ː kɛ́.á á ɓáː le mɓɔ́.ò.lá à dɛ́ː káː ɓɔ́/",
-      "phonetic_simple": "GBEE TE MOO KEA A BHAA LE MBO-O-LA A DEE KAA BO",
-      "translation": "L'argent ne fait pas d'un homme un père simplement parce qu'il est là.",
-      "context": "Expression imagée rappelant que la sagesse prévaut sur la richesse."
+      "phrase_id": "p3",
+      "original": "Nú kɔ́lɔ dɛ́ klɔŋ́ hɛ́ɣɛ (proverbe extrapolé).",
+      "phonetic_api": "/nú kɔ́lɔ dɛ́ klɔ́ŋ hɛ́ɣɛ/",
+      "phonetic_simple": "NOU KO-LO DÉ KLONG HÉ-GHÉ",
+      "translation": "Une personne âgée/sage en sait beaucoup.",
+      "context": "Proverbe construit par extrapolation culturelle sur le respect des aînés, thème universel dans les sociétés mandées ; confiance faible sur la formulation exacte."
     },
     {
-      "phrase_id": "p4_4",
-      "original": "sánu-wóò nìí, á gbíán káá à mɔ̀ɔ̀ lɔ̀-wòò yíé",
-      "phonetic_api": "/sá.nu.wóː nìː á ɡ͡ɓí.án káː à mɔ̀ː lɔ̀.wòː jí.é/",
-      "phonetic_simple": "SA-NOO-WOO NII A GBIAN KAA A MOO LO-WOO YIEE",
-      "translation": "Ce proverbe trouve sa source dans l'histoire de notre peuple.",
-      "context": "Introduire formellement l'explication d'une coutume lors d'un rituel."
+      "phrase_id": "p4",
+      "original": "Klô nú kɔ́lɔ (proverbe extrapolé).",
+      "phonetic_api": "/klô nú kɔ́lɔ/",
+      "phonetic_simple": "KLO NOU KO-LO",
+      "translation": "Le travail est grand (a de la valeur).",
+      "context": "Dicton extrapolé valorisant le travail, thème culturel courant mais formulation non attestée directement en kono."
     }
   ],
   "grammar_points": [
     {
-      "concept": "La structure nominale figée des parémies (proverbes)",
-      "explanation": "Les proverbes konon emploient une syntaxe archaïque où l'omission des auxiliaires de temps comme 'bɛ́' est fréquente. Le verbe est directement relié à son objet à la forme nue pour marquer une vérité intemporelle.",
+      "concept": "La construction locative comme base des expressions figées",
+      "explanation": "La construction attestée Nom abstrait + gáa + Personne + pɔ́ (utilisée pour la faim et les sentiments) constitue une matrice grammaticale productive pour créer des expressions imagées en kono/kpele, étendant un sentiment ou une qualité concrète à des sujets collectifs (village, communauté) ou à des sens figurés.",
       "rules": [
-        "Sujet + máá (négation intemporelle) + Verbe nu + Complément + Particule finale d'état 'lá'."
+        "La même construction locative de sentiment peut s'appliquer à un sujet collectif (wɔ́lɔ́ɔ « village ») et non seulement individuel.",
+        "Les proverbes reposant sur des structures nominales simples (Nom1 + nú + Nom2) sont une hypothèse structurelle par analogie régionale, non attestée avec un corpus de proverbes kono publié.",
+        "Aucun recueil de proverbes spécifiquement kono de Guinée n'a été identifié dans les sources disponibles ; cette leçon reste donc largement illustrative et hypothétique."
       ],
       "examples": [
         {
-          "structure": "kɔ̀nì máá à née kíɛ́ ... lá",
-          "phonetic_api": "/kɔ̀n.ì máː à néː kíɛ́ lá/",
-          "meaning": "L'oiseau n'enseigne pas à sa mère (vérité absolue)."
-        }
-      ]
-    },
-    {
-      "concept": "La métaphore par transfert de possession inaliénable",
-      "explanation": "Pour imager un trait de caractère, on attribue à un humain les attributs physiques d'un élément naturel sans utiliser de comparatif ('comme').",
-      "rules": [
-        "L'objet ou l'animal est directement apposé au nom de la personne."
-      ],
-      "examples": [
-        {
-          "structure": "á káá kɔ̀nì-wóò le",
-          "phonetic_api": "/á káː kɔ̀n.ì.wóː le/",
-          "meaning": "C'est un oiseau (Il est insaisissable / rusé)."
+          "structure": "Sentiment + gáa + Collectif + pɔ́",
+          "phonetic_api": "/gáː … pɔ́/",
+          "meaning": "Le collectif ressent ce sentiment"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Un Ancien",
-      "text": "Ń lóŋ, í bɛ́ í lɔ́-wòò gboi kɛ́á ɓɔ́. kɔ̀nùn í máá sánu-wóò mɛ̀ɛ̀ wá ?",
-      "phonetic_api": "/ń lóŋ í ɓɛ́ í lɔ̀.wòː ɡ͡ɓo.i kɛ́.á ɓɔ́ kɔ̀n.ùn í máː sá.nu.wóː mɛ̀ː wá/",
-      "phonetic_simple": "N LONG I BE I LO-WOO GBOI KEA BO KONOUN I MAA SA-NOO-WOO MEE WA",
-      "translation": "Mon enfant, tu parles beaucoup ici. Mais n'as-tu pas appris les proverbes de chez nous ?"
+      "speaker": "Sèni",
+      "text": "Ɲɔ̀ɔ gáa wɔ́lɔ́ɔ pɔ́ tíŋaá!",
+      "phonetic_api": "/ɲɔ̀ː gáː wɔ́lɔ́ɔ pɔ́ tíŋaː/",
+      "phonetic_simple": "NYO-O GA-A WO-LO-O PO TIN-GA-A",
+      "translation": "Le village est en joie, demain !"
     },
     {
-      "speaker": "Le Jeune",
-      "text": "Ń ɓáá, ń bɛ́ á gbéé í ń kíɛ́ à gbíán lá. ń wá í wóò mɛ̀ɛ̀ gíàn-gìàn.",
-      "phonetic_api": "/ń ɓáː ń ɓɛ́ á ɡ͡ɓéː í ń kíɛ́ à ɡ͡ɓí.án lá ń wá í wóː mɛ̀ː ɡí.àn.ɡì.àn/",
-      "phonetic_simple": "N BHAA N BE A GBEE I N KIEE A GBIAN LA N WA I WOO MEE GIAN-GIAN",
-      "translation": "Mon père, je veux que tu m'en montres la racine. Je vais écouter ton instruction sagement."
+      "speaker": "Bala",
+      "text": "Ěe, nú kɔ́lɔ dɛ́ klɔŋ́ hɛ́ɣɛ.",
+      "phonetic_api": "/ěː nú kɔ́lɔ dɛ́ klɔ́ŋ hɛ́ɣɛ/",
+      "phonetic_simple": "É-É, NOU KO-LO DÉ KLONG HÉ-GHÉ",
+      "translation": "Oui, les sages en savent beaucoup (à ce sujet)."
     },
     {
-      "speaker": "Un Ancien",
-      "text": "Mɛ̀ɛ̀ à gíí : kɔ̀nì lóŋ máá à née kíɛ́ dɔ̀nɔ̀n gbéé lá. á kɛ́ nìí, í lɔ́-wòò dɔ́ɔ́-dɔ̀ɔ̀ pɔ́.",
-      "phonetic_api": "/mɛ̀ː à ɡíː kɔ̀n.ì lóŋ máː à néː kíɛ́ dɔ̀nɔ̀n ɡ͡béː lá á kɛ́ nìː í lɔ̀.wòː dɔ́ː.dɔ̀ː pɔ́/",
-      "phonetic_simple": "MEE A GII KO-NEE LONG MAA A NEE KIEE DONON GBEE LA A KE NII I LO-WOO DOO-DOO PO",
-      "translation": "Écoute ceci : l'oisillon n'apprend pas à sa mère comment voler. Par conséquent, diminue un peu tes paroles."
+      "speaker": "Sèni",
+      "text": "Klô nú kɔ́lɔ, dɔ́mɔ́ kɔ̀ndí gáa nú pɔ́ klô kɛ́.",
+      "phonetic_api": "/klô nú kɔ́lɔ dɔ́mɔ́ kɔ̀ndí gáː nú pɔ́ klô kɛ́/",
+      "phonetic_simple": "KLO NOU KO-LO, DO-MO KON-DI GA-A NOU PO KLO KÉ",
+      "translation": "Le travail a de la valeur, et chacun a une faim ardente d'en accomplir."
+    },
+    {
+      "speaker": "Bala",
+      "text": "Ěe, ŋa klɔ́ŋ, ɓaŕaŋaà kɔ́lɔ!",
+      "phonetic_api": "/ěː ŋá klɔ́ŋ ɓaɾaŋaː kɔ́lɔ/",
+      "phonetic_simple": "É-É NGA KLONG, BA-RA-NGA-A KO-LO",
+      "translation": "Oui, je comprends, mon grand ami !"
     }
   ],
   "cultural_notes": [
-    "En Guinée forestière, et particulièrement dans la culture des Konon à Lola, les proverbes ('sánu-wóò') sont l'arme suprême de la diplomatie et de la sagesse. Manier un proverbe à propos permet de désamorcer un conflit sans humilier son interlocuteur. Contredire un ancien sans utiliser de métaphore est considéré comme une grave offense, alors que l'insertion d'un dicton animalier démontre une éducation noble et achevée."
+    "Les proverbes occupent une place centrale dans la rhétorique traditionnelle mandée, souvent utilisés par les anciens pour trancher un différend ou enseigner une leçon de vie sans confrontation directe.",
+    "Aucun recueil académique dédié spécifiquement aux proverbes du kono de Guinée n'a pu être identifié lors de cette recherche ; les proverbes de cette leçon sont donc des constructions pédagogiques illustratives, à confiance faible, et non un corpus attesté. Une collecte de terrain auprès de locuteurs de Lola serait nécessaire pour documenter ce champ culturel important."
   ],
   "exercises": [
     {
-      "exercise_id": "ex4_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Que symbolise l'oisillon ('kɔ̀nì lóŋ') dans le proverbe étudié ?",
+      "question": "Quelle construction grammaticale sert de base aux expressions figées de sentiment en kono/kpele ?",
       "options": [
-        "La liberté de voyager",
-        "La jeunesse inexpérimentée face aux aînés",
-        "La richesse matérielle"
+        "Nom abstrait + gáa + Personne + pɔ́",
+        "Verbe + hó + Nom",
+        "Nom + kɛ́ + Verbe"
       ],
-      "correct_answer": "La jeunesse inexpérimentée face aux aînés",
-      "explanation": "L'oisillon représente le jeune qui doit écouter la sagesse de ses parents ('à née') plutôt que de prétendre leur donner des leçons."
+      "correct_answer": "Nom abstrait + gáa + Personne + pɔ́",
+      "explanation": "Cette construction locative attestée (« la faim/joie est sur X ») est la matrice grammaticale des expressions figées présentées."
     },
     {
-      "exercise_id": "ex4_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "ń ɓáá bɛ́ [ ___ ] ɓɔ́á (Mon père dit une parole de sagesse)",
-      "correct_answer": "sánu-wóò",
-      "hint": "Le terme pour désigner un proverbe ou une maxime traditionnelle"
+      "sentence_with_blank": "Ɲɔ̀ɔ gáa wɔ́lɔ́ɔ ___. (Le village est en joie.)",
+      "correct_answer": "pɔ́",
+      "hint": "La postposition locative kono attestée."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Maria Konoshenko, « Field Notes on Kono, a Southwestern Mande Lect of Forest Guinea », Mandenkan 57 (2017), pp. 77-107",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan57/konoshenko57.pdf"
+    },
+    {
+      "label": "Maria Konoshenko, « Dictionnaire kpele de la Guinée (guerzé) – français », Mandenkan 62 (2019/2020)",
+      "url": "https://journals.openedition.org/mandenkan/2091"
+    }
+  ],
+  "confidence": "faible",
+  "confidence_note": "Ce sujet grammatical avancé n'est pas documenté dans les sources disponibles pour le Kono ou le Kpelle de Guinée. Le contenu a été construit par extrapolation prudente à partir des règles grammaticales attestées (système TAM, tons, alternance consonantique) décrites dans Konoshenko (2017), en respectant la structure typologique connue de la langue, mais sans validation par des exemples de phrases réellement attestés pour ce point précis. Seule la construction locative de base (kɔ̀ndí/ɲɔ̀ɔ gáa X pɔ́) est attestée ; aucun proverbe kono spécifique n'a été trouvé dans les sources disponibles. Les proverbes présentés sont des constructions pédagogiques hypothétiques et NE constituent PAS un corpus attesté de sagesse populaire kono."
 }

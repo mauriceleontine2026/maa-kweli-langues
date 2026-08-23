@@ -6,118 +6,255 @@
   "lesson_number": 6,
   "title": "Les jours de la semaine, les mois et dire l'heure",
   "learning_objectives": [
-    "Nommer les jours de la semaine principale en toma",
-    "Exprimer des repères temporels simples pour planifier une action"
+    "Situer un événement dans le temps avec les mots 'aujourd'hui, demain, hier'",
+    "Utiliser les expressions de délai (dans trois jours, après-demain)",
+    "Poser des questions sur le moment d'un événement futur"
   ],
   "phonetic_focus": {
-    "key_sounds": "La voyelle ouverte 'ɔ' sonne comme le 'o' du mot français 'porte'. L'intonation doit rester régulière.",
-    "common_pitfalls": "Attention à ne pas fermer le 'ɔ' en 'o' comme dans 'moto'."
+    "key_sounds": "Les expressions temporelles combinent souvent un radical temporel ('oina' = demain) avec des suffixes marquant l'éloignement dans le temps ('wulusu' ajouté = après-demain). Le ton haut sur certaines syllabes marque une insistance ou une distinction grammaticale.",
+    "common_pitfalls": "Les francophones cherchent souvent des noms de jours calqués sur le français ; le vocabulaire disponible dans les sources documente surtout les repères relatifs (aujourd'hui/demain/dans trois jours) plutôt que des noms de jours civils, qui sont peu attestés dans les sources consultées pour le toma/loma."
   },
   "vocabulary": [
     {
-      "word_id": "v6_1",
-      "term": "Kôwazu",
-      "phonetic_api": "/kɔ̂.wa.zu/",
-      "phonetic_simple": "KOW-OUA-ZOU",
-      "translation": "Lundi",
-      "example_sentence": "Kôwazu yaa li.",
-      "example_phonetic": "/kɔ̂.wa.zu jaː li/",
-      "example_translation": "Nous partirons lundi."
+      "word_id": "v1",
+      "term": "Za",
+      "phonetic_api": "/za/",
+      "phonetic_simple": "ZA",
+      "translation": "Aujourd'hui",
+      "example_sentence": "Ziánaitiÿ teÉ vaÉa za.",
+      "example_phonetic": "/zianaitiɤ teː vaːa za/",
+      "example_translation": "Les hommes sont venus aujourd'hui."
     },
     {
-      "word_id": "v6_2",
-      "term": "Kizazu",
-      "phonetic_api": "/ki.za.zu/",
-      "phonetic_simple": "KI-ZA-ZOU",
-      "translation": "Mardi",
-      "example_sentence": "Kizazu ni.",
-      "example_phonetic": "/ki.za.zu ni/",
-      "example_translation": "C'est mardi."
+      "word_id": "v2",
+      "term": "Oinaa / ÷ina",
+      "phonetic_api": "/ɔinaː/ ; /ŋina/",
+      "phonetic_simple": "O-I-NA",
+      "translation": "Demain",
+      "example_sentence": "Gav oinaa.",
+      "example_phonetic": "/ga vɔinaː/",
+      "example_translation": "Je viendrai demain."
     },
     {
-      "word_id": "v6_3",
-      "term": "folo",
-      "phonetic_api": "/fo.lo/",
-      "phonetic_simple": "FO-LO",
-      "translation": "jour / soleil",
-      "example_sentence": "Folo vaza.",
-      "example_phonetic": "/fo.lo va.za/",
-      "example_translation": "Il fait beau jour."
+      "word_id": "v3",
+      "term": "Oinawulusu",
+      "phonetic_api": "/ɔinawulusu/",
+      "phonetic_simple": "O-I-NA-WOU-LOU-SOU",
+      "translation": "Après-demain",
+      "example_sentence": "Gav oinawulusu.",
+      "example_phonetic": "/ga ɔinawulusu/",
+      "example_translation": "Je viendrai après-demain."
+    },
+    {
+      "word_id": "v4",
+      "term": "SuÉbu",
+      "phonetic_api": "/suːbu/",
+      "phonetic_simple": "SOU-BOU",
+      "translation": "Matin ; bientôt",
+      "example_sentence": "ÿÉ wuÉ zi…i ga suÉbuØ.",
+      "example_phonetic": "/ɤ wu ziŋi ga suːbu/",
+      "example_translation": "Il se lèverait tôt le matin."
+    },
+    {
+      "word_id": "v5",
+      "term": "Koÿna",
+      "phonetic_api": "/kɔɤna/",
+      "phonetic_simple": "KO-EU-NA",
+      "translation": "Année",
+      "example_sentence": "Koÿna keÿle.",
+      "example_phonetic": "/kɔɤna kelé/",
+      "example_translation": "Une année."
+    },
+    {
+      "word_id": "v6",
+      "term": "Folosaago",
+      "phonetic_api": "/fɔlɔsaːɡɔ/",
+      "phonetic_simple": "FO-LO-SA-A-GO",
+      "translation": "Trois jours",
+      "example_sentence": "Gavaa folosaago ya leve na.",
+      "example_phonetic": "/gavaː fɔlɔsaːɡɔ ja leve na/",
+      "example_translation": "Je viendrai dans trois jours (litt. quand trois jours seront passés)."
+    },
+    {
+      "word_id": "v7",
+      "term": "Volo",
+      "phonetic_api": "/vɔlɔ/",
+      "phonetic_simple": "VO-LO",
+      "translation": "Retourner ; revenir",
+      "example_sentence": "Yavaa volo ge?",
+      "example_phonetic": "/javaː vɔlɔ ge/",
+      "example_translation": "Quand reviendras-tu ?"
+    },
+    {
+      "word_id": "v8",
+      "term": "Liina de hoo",
+      "phonetic_api": "/liːna de hoː/",
+      "phonetic_simple": "LI-NA-DÉ-HO",
+      "translation": "À bientôt (litt. va là-bas jusqu'à ce que...)",
+      "example_sentence": "Liina de hoo.",
+      "example_phonetic": "/liːna de hoː/",
+      "example_translation": "À bientôt / au revoir pour un moment."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p6_1",
-      "original": "Za folo ɓɛ̀?",
-      "phonetic_api": "/za fo.lo ɓɛ̀/",
-      "phonetic_simple": "ZA FO-LO BE?",
-      "translation": "Quel jour sommes-nous ?",
-      "context": "Question usuelle pour s'orienter dans la semaine."
+      "phrase_id": "p1",
+      "original": "Yavaa vologe?",
+      "phonetic_api": "/javaː vɔlɔge/",
+      "phonetic_simple": "YA-VA-VO-LO-GUÉ",
+      "translation": "Quand reviendras-tu ?",
+      "context": "Demander la date de retour de quelqu'un."
     },
     {
-      "phrase_id": "p6_2",
-      "original": "Folo ye e lɔ̀ vɔ.",
-      "phonetic_api": "/fo.lo je e lɔ̀ vɔ/",
-      "phonetic_simple": "FO-LO YE E LO VO",
-      "translation": "Le soleil est haut (Il est midi).",
-      "context": "Manière traditionnelle d'indiquer l'heure par la position du soleil."
+      "phrase_id": "p2",
+      "original": "Gav oinaa.",
+      "phonetic_api": "/ga vɔinaː/",
+      "phonetic_simple": "GA-VO-I-NA",
+      "translation": "Je viendrai demain.",
+      "context": "Réponse indiquant un rendez-vous le lendemain."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Gav oinawulusu.",
+      "phonetic_api": "/ga vɔinawulusu/",
+      "phonetic_simple": "GA-VO-I-NA-WOU-LOU-SOU",
+      "translation": "Je viendrai après-demain.",
+      "context": "Préciser un délai de deux jours."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Gavaa folosaago ya leve na.",
+      "phonetic_api": "/gavaː fɔlɔsaːɡɔ ja leve na/",
+      "phonetic_simple": "GA-VA-FO-LO-SA-A-GO-YA-LÉ-VÉ-NA",
+      "translation": "Je viendrai dans trois jours.",
+      "context": "Fixer un rendez-vous à plus long terme."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Gevoini gelii saa.",
+      "phonetic_api": "/gevɔini geliː saː/",
+      "phonetic_simple": "GUÉ-VO-I-NI-GUÉ-LI-SA",
+      "translation": "Je veux partir maintenant.",
+      "context": "Exprimer une intention immédiate."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "Dayaa na oinaa.",
+      "phonetic_api": "/dajaː na ɔinaː/",
+      "phonetic_simple": "DA-YA-NA-O-I-NA",
+      "translation": "Nous verrons demain.",
+      "context": "Reporter une décision au lendemain."
     }
   ],
   "grammar_points": [
     {
-      "concept": "Le locatif temporel '-zu'",
-      "explanation": "Le suffixe '-zu' attaché aux noms des jours indique le moment précis à l'intérieur duquel se déroule l'action.",
+      "concept": "Les expressions temporelles relatives",
+      "explanation": "Le toma/loma exprime le temps relatif (aujourd'hui, demain, après-demain, dans trois jours) par des mots ou expressions dédiés plutôt que par un calendrier de jours nommés ; 'oinaa' (demain) peut être étendu en 'oinawulusu' (après-demain) par ajout d'un suffixe, et les délais plus longs utilisent une construction avec le nombre de jours et le verbe 'passer' ('leve').",
       "rules": [
-        "Il dérive de la racine signifiant 'dans' ou 'sur'.",
-        "Il se soude directement au jour nommé."
+        "oina + wulusu = après-demain (extension du radical 'demain').",
+        "Nombre de jours + 'ya leve na' = expression d'un délai futur ('dans X jours')."
       ],
       "examples": [
         {
-          "structure": "Kôwazu",
-          "phonetic_api": "/kɔ̂.wa.zu/",
-          "meaning": "Le lundi (litt. dans le jour de lundi)"
+          "structure": "Gavaa folosaago ya leve na.",
+          "phonetic_api": "/gavaː fɔlɔsaːɡɔ ja leve na/",
+          "meaning": "Je viendrai dans trois jours."
+        }
+      ]
+    },
+    {
+      "concept": "Le futur avec le pronom 'ga/ya' + verbe",
+      "explanation": "Le futur proche s'exprime en combinant le pronom futur ('ga' = je, 'ya' = tu) directement avec le verbe, sans marqueur temporel séparé obligatoire — le contexte ou un adverbe temporel (oinaa, za) précise le moment.",
+      "rules": [
+        "Pronom futur (ga, ya, wa...) + verbe = action à venir.",
+        "Un adverbe temporel (oinaa, za, folosaago...) précise le moment exact."
+      ],
+      "examples": [
+        {
+          "structure": "Ga v(a) oinaa.",
+          "phonetic_api": "/ga va ɔinaː/",
+          "meaning": "Je viendrai demain."
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Peintre",
-      "text": "I li ma folo ɓɛ̀?",
-      "phonetic_api": "/i li ma fo.lo ɓɛ̀/",
-      "phonetic_simple": "I LI MA FO-LO BE?",
-      "translation": "Tu pars quel jour ?"
+      "speaker": "Folomo",
+      "text": "Yavaa vologe?",
+      "phonetic_api": "/javaː vɔlɔge/",
+      "phonetic_simple": "YA-VA-VO-LO-GUÉ",
+      "translation": "Quand reviendras-tu ?"
     },
     {
-      "speaker": "Forgeron",
-      "text": "Na li ma Kôwazu.",
-      "phonetic_api": "/na li ma kɔ̂.wa.zu/",
-      "phonetic_simple": "NA LI MA KOW-OUA-ZOU",
-      "translation": "Je pars lundi."
+      "speaker": "Kezeli",
+      "text": "Gav oinaa.",
+      "phonetic_api": "/ga vɔinaː/",
+      "phonetic_simple": "GA-VO-I-NA",
+      "translation": "Je viendrai demain."
+    },
+    {
+      "speaker": "Folomo",
+      "text": "Bha, gavaa folosaago ya leve na?",
+      "phonetic_api": "/ɓa gavaː fɔlɔsaːɡɔ ja leve na/",
+      "phonetic_simple": "BHA-GA-VA-FO-LO-SA-A-GO-YA-LÉ-VÉ-NA",
+      "translation": "Non, viendras-tu plutôt dans trois jours ?"
+    },
+    {
+      "speaker": "Kezeli",
+      "text": "Owoi, dayaa na oinaa.",
+      "phonetic_api": "/ɔwɔi dajaː na ɔinaː/",
+      "phonetic_simple": "O-WOÏ-DA-YA-NA-O-I-NA",
+      "translation": "Oui, nous verrons demain."
     }
   ],
   "cultural_notes": [
-    "Dans le calendrier coutumier Toma, le temps était fortement lié aux jours de grand marché régional plutôt qu'au découpage hebdomadaire occidental. Les marchés rythment encore fortement la vie rurale."
+    "Dans le manuel Peace Corps sur le Lorma, les expressions temporelles relatives (aujourd'hui, demain, dans trois jours) sont bien plus documentées que des noms de jours civils fixes, refletant une organisation traditionnelle du temps davantage centrée sur les cycles agricoles et les événements que sur un calendrier occidental strict.",
+    "Fixer un rendez-vous 'dans trois jours' plutôt qu'à une date précise du calendrier reste une pratique courante en milieu rural en Guinée forestière."
   ],
   "exercises": [
     {
-      "exercise_id": "ex6_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Que signifie le terme 'folo' en toma ?",
+      "question": "Comment dit-on 'demain' en toma/loma ?",
       "options": [
-        "La lune",
-        "Le jour / Le soleil",
-        "L'année"
+        "Za",
+        "Oinaa",
+        "Suÿbu"
       ],
-      "correct_answer": "Le jour / Le soleil",
-      "explanation": "'folo' incarne à la fois l'astre solaire et la journée lumineuse."
+      "correct_answer": "Oinaa",
+      "explanation": "'Oinaa' (ou ÷ina chez Sadler) signifie demain, attesté par le manuel Peace Corps et par Sadler."
     },
     {
-      "exercise_id": "ex6_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Kôwa[ ___ ] (Lundi).",
-      "correct_answer": "zu",
-      "hint": "Le suffixe locatif temporel obligatoire."
+      "sentence_with_blank": "Gav [ ___ ]. (Je viendrai après-demain.)",
+      "correct_answer": "oinawulusu",
+      "hint": "C'est 'demain' + un suffixe d'extension."
+    },
+    {
+      "exercise_id": "ex3",
+      "type": "multiple_choice",
+      "question": "Que signifie 'za' dans 'ziánaitiÿ teÉ vaÉa za' ?",
+      "options": [
+        "Aujourd'hui",
+        "Hier",
+        "L'année dernière"
+      ],
+      "correct_answer": "Aujourd'hui",
+      "explanation": "Sadler traduit cette phrase par 'Les hommes sont venus aujourd'hui', où 'za' = aujourd'hui."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Dwyer, Bodegie & Bague, \"A Learner Directed Approach to Lorma\" (Peace Corps/Michigan State University, 1981)",
+      "url": "https://files.eric.ed.gov/fulltext/ED247766.pdf"
+    },
+    {
+      "label": "Wesley Sadler, \"A Complete Analysis of the Lɔɔma Language\", Mandenkan 42 (LLACAN/CNRS)",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan42/sadler.pdf"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Les expressions temporelles relatives (demain, après-demain, dans trois jours) sont bien attestées ; en revanche, aucune source consultée ne fournit de noms de jours de la semaine ou de mois spécifiquement en toma/loma, ce qui limite la couverture de cette leçon aux données réellement disponibles."
 }

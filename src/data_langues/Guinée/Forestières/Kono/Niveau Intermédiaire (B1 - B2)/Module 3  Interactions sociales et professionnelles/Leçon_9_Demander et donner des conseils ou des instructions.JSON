@@ -1,178 +1,218 @@
 {
   "lesson_id": "B1_M3_L9",
-  "level": "Niveau Intermédiaire (B1-B2)",
+  "level": "Intermédiaire (B1-B2)",
   "module_number": 3,
   "module_title": "Interactions sociales et professionnelles",
   "lesson_number": 9,
   "title": "Demander et donner des conseils ou des instructions",
   "learning_objectives": [
-    "Demander une orientation ou un conseil à une tierce personne en kono",
-    "Donner des directives ou des recommandations pratiques pour résoudre un problème",
-    "Utiliser les structures appropriées pour formuler des suggestions polies"
+    "Demander un conseil poliment",
+    "Donner une instruction à l'impératif atténué",
+    "Utiliser des connecteurs simples pour enchaîner des instructions"
   ],
   "phonetic_focus": {
-    "key_sounds": "Le mot 'télɛ̀' (conseil) exige des voyelles ouvertes et un ton descendant. Le phonème /l/ s'articule de manière très fluide, presque rétroflexe, au contact de la voyelle ouverte antérieure.",
-    "common_pitfalls": "Ne pas accentuer excessivement le 'o' final dans le verbe de transmission 'bɔ́'. Le ton doit rester haut et bref pour marquer l'aspect incitatif."
+    "key_sounds": "Les formules de conseil combinent souvent le verbe wàa (devoir) avec une intonation montante en fin de proposition, adoucissant l'instruction pour la rendre moins directive qu'un simple impératif.",
+    "common_pitfalls": "Un impératif nu (Pá! « Viens ! ») peut sembler trop brusque pour un conseil ; préférer wàa + Verbe pour un registre plus poli entre adultes non familiers."
   },
   "vocabulary": [
     {
-      "word_id": "v9_1",
-      "term": "télɛ̀",
-      "phonetic_api": "/télɛ̀/",
-      "phonetic_simple": "TE-LE",
-      "translation": "le conseil / la guidance / la vérité",
-      "example_sentence": "ń bɛ́ í télɛ̀ fɛ́ɛ́á",
-      "phonetic_api_example": "/ń ɓɛ́ í télɛ̀ fɛ́ː.á/",
-      "example_translation": "Je demande ton conseil."
+      "word_id": "v1",
+      "term": "wàa",
+      "phonetic_api": "/wàː/",
+      "phonetic_simple": "OUA-A",
+      "translation": "devoir (conseil/obligation modérée, kpele apparenté)",
+      "example_sentence": "É wàa pá kɛ́ɛ.",
+      "example_phonetic": "/é wàː pá kɛ́ː/",
+      "example_translation": "Tu devrais venir ici."
     },
     {
-      "word_id": "v9_2",
-      "term": "kíɛ́",
-      "phonetic_api": "/kíɛ́/",
-      "phonetic_simple": "KIEE",
-      "translation": "montrer / enseigner / indiquer",
-      "example_sentence": "ń kíɛ́ à kɛ́-wòò yíé",
-      "phonetic_api_example": "/ń kíɛ́ à kɛ́.wòː jí.é/",
-      "example_translation": "Montre-moi comment faire."
+      "word_id": "v2",
+      "term": "dɛ́",
+      "phonetic_api": "/dɛ́/",
+      "phonetic_simple": "DÉ",
+      "translation": "particule interrogative (kono attesté)",
+      "example_sentence": "Ɲá wàa kɛ́ dɛ́?",
+      "example_phonetic": "/ɲá wàː kɛ́ dɛ́/",
+      "example_translation": "Que dois-je faire ?"
     },
     {
-      "word_id": "v9_3",
-      "term": "wóò",
-      "phonetic_api": "/wóː/",
-      "phonetic_simple": "WOO",
-      "translation": "parole / affaire / instruction",
-      "example_sentence": "í má mɛ̀ɛ̀ á wóò lá",
-      "phonetic_api_example": "/í má mɛ̀ː á wóː lá/",
-      "example_translation": "Écoute son instruction."
+      "word_id": "v3",
+      "term": "kɛ́",
+      "phonetic_api": "/kɛ́/",
+      "phonetic_simple": "KÉ",
+      "translation": "faire (verbe support, kpele apparenté)",
+      "example_sentence": "É wàa klô kɛ́.",
+      "example_phonetic": "/é wàː klô kɛ́/",
+      "example_translation": "Tu devrais travailler."
     },
     {
-      "word_id": "v9_4",
-      "term": "gíàn-gìàn",
-      "phonetic_api": "/ɡí.àn.ɡì.àn/",
-      "phonetic_simple": "GIAN-GIAN",
-      "translation": "doucement / sagement / correctement",
-      "example_sentence": "á kɛ́ gíàn-gìàn",
-      "phonetic_api_example": "/á kɛ́ ɡí.àn.ɡì.àn/",
-      "example_translation": "Fais-le correctement / sagement."
+      "word_id": "v4",
+      "term": "hɛ́ni",
+      "phonetic_api": "/hɛ́ni/",
+      "phonetic_simple": "HÉ-NI",
+      "translation": "prénom d'exemple (kono attesté), utilisé pour s'adresser à quelqu'un",
+      "example_sentence": "Hɛ́ni, é wàa pá.",
+      "example_phonetic": "/hɛ́ni é wàː pá/",
+      "example_translation": "Hɛni, tu devrais venir."
+    },
+    {
+      "word_id": "v5",
+      "term": "ɓò",
+      "phonetic_api": "/ɓò/",
+      "phonetic_simple": "BO",
+      "translation": "va, pars (impératif, kono attesté)",
+      "example_sentence": "Ɓò kɛ́ɛ, dɔ́mɔ́ pá!",
+      "example_phonetic": "/ɓò kɛ́ː dɔ́mɔ́ pá/",
+      "example_translation": "Va là-bas, puis reviens !"
+    },
+    {
+      "word_id": "v6",
+      "term": "dɔ́mɔ́",
+      "phonetic_api": "/dɔ́mɔ́/",
+      "phonetic_simple": "DO-MO",
+      "translation": "ensuite, puis, aussi (connecteur, kpele apparenté)",
+      "example_sentence": "Ɓò lúu pɔ́, dɔ́mɔ́ pá kɛ́ɛ.",
+      "example_phonetic": "/ɓò lúːpɔ́ dɔ́mɔ́ pá kɛ́ː/",
+      "example_translation": "Va au marché, puis reviens ici."
+    },
+    {
+      "word_id": "v7",
+      "term": "hó",
+      "phonetic_api": "/hó/",
+      "phonetic_simple": "HO",
+      "translation": "ne...pas (négation, kono attesté)",
+      "example_sentence": "Hó ɓò kɛ́ɛ!",
+      "example_phonetic": "/hó ɓò kɛ́ː/",
+      "example_translation": "Ne va pas là-bas !"
+    },
+    {
+      "word_id": "v8",
+      "term": "ěe",
+      "phonetic_api": "/ěː/",
+      "phonetic_simple": "É-É",
+      "translation": "oui (accord, kono attesté)",
+      "example_sentence": "Ěe, ŋa klɔŋ́.",
+      "example_phonetic": "/ěː ŋá klɔ́ŋ/",
+      "example_translation": "Oui, j'ai compris (litt. je sais)."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p9_1",
-      "original": "míɛ́ le fɔ́ ń á kɛ́ míé ?",
-      "phonetic_api": "/mí.ɛ́ le fɔ́ ń á kɛ́ mí.é/",
-      "phonetic_simple": "MIEE LE FO N A KE MIEE",
-      "translation": "Que dois-je faire maintenant ?",
-      "context": "Demander conseil face à une situation difficile ou un blocage."
+      "phrase_id": "p1",
+      "original": "Ɲá wàa kɛ́ dɛ́?",
+      "phonetic_api": "/ɲá wàː kɛ́ dɛ́/",
+      "phonetic_simple": "NYA OUA-A KÉ DÉ",
+      "translation": "Que dois-je faire ?",
+      "context": "Question de base pour demander un conseil ou une instruction."
     },
     {
-      "phrase_id": "p9_2",
-      "original": "ń bɛ́ í gbéé í télɛ̀ ɓɔ́ ń yíé",
-      "phonetic_api": "/ń ɓɛ́ í ɡ͡ɓéː í télɛ̀ ɓɔ́ ń jí.é/",
-      "phonetic_simple": "N BE I GBEE I TELE BO N YIEE",
-      "translation": "Je veux que tu me donnes un conseil.",
-      "context": "S'adresser formellement à un aîné pour obtenir une orientation."
+      "phrase_id": "p2",
+      "original": "É wàa klô kɛ́ kɛ́ɛ.",
+      "phonetic_api": "/é wàː klô kɛ́ kɛ́ː/",
+      "phonetic_simple": "É OUA-A KLO KÉ KÉ-É",
+      "translation": "Tu devrais travailler ici.",
+      "context": "Conseil atténué avec wàa plutôt qu'un ordre direct."
     },
     {
-      "phrase_id": "p9_3",
-      "original": "í máá táá kɔ̀nɔ̀n yíé gíán-gíán míé",
-      "phonetic_api": "/í máː táː kɔ̀nɔ̀n jí.é ɡí.án.ɡí.án mí.é/",
-      "phonetic_simple": "I MAA TAA KONON YIEE GIAN-GIAN MIEE",
-      "translation": "Ne pars pas au champ tout de suite (c'est un conseil).",
-      "context": "Donner une instruction préventive ou un avis amical."
+      "phrase_id": "p3",
+      "original": "Ɓò lúu pɔ́, dɔ́mɔ́ pá kɛ́ɛ.",
+      "phonetic_api": "/ɓò lúːpɔ́ dɔ́mɔ́ pá kɛ́ː/",
+      "phonetic_simple": "BO LOU PO, DO-MO PA KÉ-É",
+      "translation": "Va au marché, puis reviens ici.",
+      "context": "Instruction séquentielle en deux étapes reliées par dɔ́mɔ́ « puis »."
     },
     {
-      "phrase_id": "p9_4",
-      "original": "á kɛ́ nìí gíí-gíí, à kɛ́nɛ̀ le",
-      "phonetic_api": "/á kɛ́ nìː ɡíː.ɡíː à kɛ́nɛ̀ le/",
-      "phonetic_simple": "A KE NII GII-GII A KENE LE",
-      "translation": "Fais-le exactement de cette manière, c'est mieux.",
-      "context": "Guider les actions de quelqu'un en lui donnant une consigne précise."
+      "phrase_id": "p4",
+      "original": "Hó ɓò kɛ́ɛ dɔ́mɔ́!",
+      "phonetic_api": "/hó ɓò kɛ́ː dɔ́mɔ́/",
+      "phonetic_simple": "HO BO KÉ-É DO-MO",
+      "translation": "Ne va pas là-bas non plus !",
+      "context": "Instruction négative renforcée, combinant hó et dɔ́mɔ́."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'expression de la suggestion conditionnelle adoucie",
-      "explanation": "Pour donner un conseil sans paraître trop autoritaire, on utilise le marqueur impersonnel combiné 'á kɛ́-ò' (si c'est fait ainsi) ou la tournure injonctive atténuée par le postpositionnel d'attribution.",
+      "concept": "Le connecteur séquentiel dɔ́mɔ́ dans les instructions",
+      "explanation": "Pour enchaîner deux instructions dans l'ordre chronologique, le kono/kpele place le connecteur dɔ́mɔ́ (« ensuite, puis ») entre les deux propositions impératives, créant une séquence d'instructions claire sans conjonction complexe.",
       "rules": [
-        "Sujet + fɔ́ + Verbe + Suffixe de politesse / d'orientation.",
-        "L'utilisation de 'télɛ̀' implique une relation de respect mutuel."
+        "Instruction 1 + dɔ́mɔ́ + Instruction 2 = fais d'abord ceci, puis cela.",
+        "wàa + Verbe = conseil/obligation modérée, plus poli que l'impératif nu.",
+        "La particule dɛ́ en fin de question demande le contenu du conseil ou de l'action à accomplir."
       ],
       "examples": [
         {
-          "structure": "í fɔ́ á mɛ̀ɛ̀",
-          "phonetic_api": "/í fɔ́ á mɛ̀ː/",
-          "meaning": "Tu devrais écouter (il est bon que tu écoutes)."
-        }
-      ]
-    },
-    {
-      "concept": "Le redoublement adverbial de manière ('gíàn-gìàn')",
-      "explanation": "Le redoublement de la racine sert à insister sur la justesse ou la précision de la méthode préconisée dans l'instruction.",
-      "rules": [
-        "Placé directement en fin de phrase après le verbe d'action pour qualifier l'exécution."
-      ],
-      "examples": [
-        {
-          "structure": "kálá gíàn-gìàn",
-          "phonetic_api": "/ká.á ɡí.àn.ɡì.àn/",
-          "meaning": "Étudie posément / correctement."
+          "structure": "Instr.1 + dɔ́mɔ́ + Instr.2",
+          "phonetic_api": "/dɔ́mɔ́/",
+          "meaning": "fais Instr.1, puis Instr.2"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Koli",
-      "text": "Ń ɓáá, kpálá nìí káá gboi ń yíé. Míɛ́ le fɔ́ ń á kɛ́ ?",
-      "phonetic_api": "/ń ɓáː k͡pā.lá nìː káː ɡ͡ɓo.i ń jí.é mí.ɛ́ le fɔ́ ń á kɛ́/",
-      "phonetic_simple": "N BHAA KPA-LA NII KAA GBOI N YIEE MIEE LE FO N A KE",
-      "translation": "Mon père, ce travail est trop lourd pour moi. Que dois-je faire ?"
+      "speaker": "Hɛ́ni",
+      "text": "Ɲá wàa kɛ́ dɛ́, Sèni?",
+      "phonetic_api": "/ɲá wàː kɛ́ dɛ́ sɛ̀ni/",
+      "phonetic_simple": "NYA OUA-A KÉ DÉ, SÉNI",
+      "translation": "Que dois-je faire, Sèni ?"
     },
     {
-      "speaker": "Père",
-      "text": "Ń lóŋ, í máá fɛ̀ɛ̀. Ń wá í kíɛ́ à kɛ́-wòò yíé gíàn-gìàn.",
-      "phonetic_api": "/ń lóŋ í máː fɛ̀ː ń wá í kíɛ́ à kɛ́.wòː jí.é ɡí.àn.ɡì.àn/",
-      "phonetic_simple": "N LONG I MAA FEE N WA I KIEE A KE-WOO YIEE GIAN-GIAN",
-      "translation": "Mon enfant, ne te décourage pas (ne te fatigue pas). Je vais te montrer comment faire posément."
+      "speaker": "Sèni",
+      "text": "É wàa pá kɛ́ɛ, dɔ́mɔ́ klô kɛ́.",
+      "phonetic_api": "/é wàː pá kɛ́ː dɔ́mɔ́ klô kɛ́/",
+      "phonetic_simple": "É OUA-A PA KÉ-É, DO-MO KLO KÉ",
+      "translation": "Tu devrais venir ici, puis travailler."
     },
     {
-      "speaker": "Koli",
-      "text": "Kénɛ̀ le, ń bɛ́ í wóò mɛ̀ɛ̀á kpaán.",
-      "phonetic_api": "/kɛ́nɛ̀ le ń ɓɛ́ í wóː mɛ̀ː.á k͡páːn/",
-      "phonetic_simple": "KENE LE N BE I WOO MEEA KPAAN",
-      "translation": "D'accord, j'écoute attentivement ton instruction."
+      "speaker": "Hɛ́ni",
+      "text": "Hó ɓò lúu pɔ́ tíŋaá?",
+      "phonetic_api": "/hó ɓò lúːpɔ́ tíŋaː/",
+      "phonetic_simple": "HO BO LOU PO TIN-GA-A",
+      "translation": "Ne pas aller au marché demain ?"
     },
     {
-      "speaker": "Père",
-      "text": "Á kɛ́ nìí gíí-gíí, à wá kɛ́nɛ̀ ɓɔ́ í yíé.",
-      "phonetic_api": "/á kɛ́ nìː ɡíː.ɡíː à wá kɛ́nɛ̀ ɓɔ́ í jí.é/",
-      "phonetic_simple": "A KE NII GII-GII A WA KENE BO I YIEE",
-      "translation": "Fais-le exactement ainsi, et tout ira bien pour toi."
+      "speaker": "Sèni",
+      "text": "Ěe, hó ɓò tíŋaá. É wàa klô kɛ́ kɛ́ɛ.",
+      "phonetic_api": "/ěː hó ɓò tíŋaː é wàː klô kɛ́ kɛ́ː/",
+      "phonetic_simple": "É-É, HO BO TIN-GA-A. É OUA-A KLO KÉ KÉ-É",
+      "translation": "Oui, n'y va pas demain. Tu devrais travailler ici."
     }
   ],
   "cultural_notes": [
-    "Chez les Konon de la région de Lola, solliciter un conseil ('télɛ̀') auprès d'un parent ou d'un aîné de la communauté est une démarche valorisée qui témoigne d'une grande sagesse. Un ordre direct est souvent perçu comme brutal, c'est pourquoi les directives quotidiennes ou professionnelles passent généralement par des métaphores ou des suggestions douces basées sur l'expérience acquise."
+    "Les conseils des aînés sont traditionnellement recherchés avant toute décision importante (mariage, voyage, choix professionnel) dans les sociétés mandées de Guinée forestière, reflet d'une organisation sociale fondée sur le respect de l'expérience.",
+    "Donner une instruction de façon trop directe à une personne plus âgée ou de statut supérieur peut être perçu comme un manque de respect ; la forme atténuée avec wàa est donc préférée dans la plupart des contextes formels."
   ],
   "exercises": [
     {
-      "exercise_id": "ex9_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Que signifie le mot 'télɛ̀' en kono ?",
+      "question": "Quel connecteur relie deux instructions séquentielles en kono/kpele ?",
       "options": [
-        "Un outil agricole",
-        "Un conseil / une guidance",
-        "Une route barrée"
+        "dɔ́mɔ́",
+        "hó",
+        "dɛ́"
       ],
-      "correct_answer": "Un conseil / une guidance",
-      "explanation": "'télɛ̀' désigne spécifiquement l'orientation ou le conseil moral ou technique donné par un tiers."
+      "correct_answer": "dɔ́mɔ́",
+      "explanation": "dɔ́mɔ́ signifie « ensuite, puis » et relie deux instructions dans l'ordre chronologique."
     },
     {
-      "exercise_id": "ex9_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "ń [ ___ ] à kɛ́-wòò yíé (Montre-moi comment faire)",
-      "correct_answer": "kíɛ́",
-      "hint": "Le verbe signifiant montrer ou indiquer"
+      "sentence_with_blank": "Ɲá wàa kɛ́ ___? (Que dois-je faire ?)",
+      "correct_answer": "dɛ́",
+      "hint": "La particule interrogative kono placée en fin de question."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Maria Konoshenko, « Field Notes on Kono, a Southwestern Mande Lect of Forest Guinea », Mandenkan 57 (2017), pp. 77-107",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan57/konoshenko57.pdf"
+    },
+    {
+      "label": "Maria Konoshenko, « Dictionnaire kpele de la Guinée (guerzé) – français », Mandenkan 62 (2019/2020)",
+      "url": "https://journals.openedition.org/mandenkan/2091"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Peu de lexique Kono publié couvre ce champ sémantique précis. Le contenu s'appuie ici avec prudence sur le Kpelle de Guinée (guerzé, gkp), langue mandée du sud-ouest très proche du Kono (90% de cognats lexicaux selon Konoshenko 2017) et documentée par un dictionnaire académique de 3000 entrées. Les mots kpele sont signalés comme tels et pourraient différer légèrement du Kono authentique sur certains points de phonologie ou de lexique. La particule interrogative dɛ́ et la négation hó sont attestées en kono ; le verbe modal wàa et le connecteur séquentiel dɔ́mɔ́ proviennent du kpele apparenté par extrapolation prudente."
 }

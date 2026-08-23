@@ -6,377 +6,220 @@
   "lesson_number": 1,
   "title": "Parler de sa maison, de son logement et de sa ville",
   "learning_objectives": [
-    "Nommer les parties de la maison (toit, porte, fenêtre, cour, toilette).",
-    "Utiliser le verbe tɔ̌ɔ (construire) pour parler de la construction d'une maison.",
-    "Situer un lieu avec la postposition locative hù/hû (dans).",
-    "Décrire sa ville natale en reliant plusieurs phrases avec des connecteurs simples."
+    "Décrire sa maison et ses différentes parties",
+    "Nommer les éléments constitutifs d'un village ou d'une ville",
+    "Utiliser les formes locatives des noms de lieu"
   ],
   "phonetic_focus": {
-    "key_sounds": "Cette leçon revient sur la postposition locative hù/hû (dans), déjà croisée en Leçon 6 (kúwɔ lɔ̀i hû) et Leçon 7 (tǎa hû) : elle se prononce hù après un ton bas et hû après un ton haut, une alternance tonale régulière à l'oral.",
-    "common_pitfalls": "Les francophones ont tendance à : (1) chercher une préposition « dans » avant le nom, alors que hù/hû se place toujours après ; (2) confondre pɛ́lɛ (maison, avec ton haut) avec pɛ̌lɛ 2 (se coucher, verbe) ; (3) oublier que tôŋ signifie à la fois « toit » et « sommet » — deux sens liés par l'idée de partie la plus haute."
+    "key_sounds": "Le mot pɛ́lɛlaalèe (façade de la maison) est un composé long ; il faut respecter le ton haut sur pɛ́lɛ et les tons bas de laalèe. La forme locative de tǎa (village) est tàâi, avec un ton descendant sur la dernière voyelle allongée.",
+    "common_pitfalls": "Les francophones ont tendance à ne pas marquer la forme locative des noms de lieu (tǎa vs tàâi) alors que cette distinction est obligatoire pour indiquer qu'on se trouve « dans » le lieu."
   },
   "vocabulary": [
     {
       "word_id": "v1",
       "term": "pɛ́lɛ",
       "phonetic_api": "/pɛ́lɛ/",
-      "phonetic_simple": "PÈ-lè",
+      "phonetic_simple": "PÉ-lè",
       "translation": "maison",
-      "example_sentence": "Àa pɛ́lɛ tɔ́ɔ.",
-      "example_phonetic": "/àa pɛ́lɛ tɔ́ɔ/",
-      "example_translation": "Il a construit sa maison."
+      "example_sentence": "Ŋá pɛ́lɛ ɓáa tɛ̌i.",
+      "example_phonetic": "/ŋá pɛ́lɛ ɓáa tɛ̌i/",
+      "example_translation": "Ma maison est noire (toit sombre)."
     },
     {
       "word_id": "v2",
-      "term": "tôŋ",
-      "phonetic_api": "/tôŋ/",
-      "phonetic_simple": "TÔNG",
-      "translation": "toit ; sommet",
-      "example_sentence": "tôŋ",
-      "example_phonetic": "/tôŋ/",
-      "example_translation": "toit"
+      "term": "pɛ́lɛlaalèe",
+      "phonetic_api": "/pɛ́lɛlaalèe/",
+      "phonetic_simple": "PÉ-lè-la-a-lè-è",
+      "translation": "façade de la maison",
+      "example_sentence": "Pɛ́lɛlaalèe ɓáa gɛ̀ɛ.",
+      "example_phonetic": "/pɛ́lɛlaalèe ɓáa gɛ̀ɛ/",
+      "example_translation": "La façade de la maison est là."
     },
     {
       "word_id": "v3",
-      "term": "ɓále",
-      "phonetic_api": "/ɓále/",
-      "phonetic_simple": "ɓA-le",
-      "translation": "montant (de la porte de la case)",
-      "example_sentence": "ɓále",
-      "example_phonetic": "/ɓále/",
-      "example_translation": "montant de porte"
+      "term": "tǎa",
+      "phonetic_api": "/tǎa/",
+      "phonetic_simple": "TA-a",
+      "translation": "village, ville",
+      "example_sentence": "Ŋà héɠe tàâi.",
+      "example_phonetic": "/ŋà héɠé tàâi/",
+      "example_translation": "Je viens du village."
     },
     {
       "word_id": "v4",
-      "term": "hwíŋná",
-      "phonetic_api": "/hwíŋná/",
-      "phonetic_simple": "HWING-na",
-      "translation": "fenêtre",
-      "example_sentence": "hwíŋná",
-      "example_phonetic": "/hwíŋná/",
-      "example_translation": "fenêtre"
+      "term": "pěle",
+      "phonetic_api": "/pěle/",
+      "phonetic_simple": "PÈ-lè",
+      "translation": "route, rue",
+      "example_sentence": "Ŋá pɛ́lɛ ɓáa pěle mà.",
+      "example_phonetic": "/ŋá pɛ́lɛ ɓáa pěle mà/",
+      "example_translation": "Ma maison est sur la route."
     },
     {
       "word_id": "v5",
-      "term": "gàla",
-      "phonetic_api": "/gàla/",
-      "phonetic_simple": "ga-la",
-      "translation": "clôture ; cour (entourée)",
-      "example_sentence": "Gù káa gàla hù.",
-      "example_phonetic": "/gù káa gàla hù/",
-      "example_translation": "Nous sommes dans la cour."
+      "term": "lɔ́ɠɔkpalâŋ",
+      "phonetic_api": "/lɔ́ɠɔkpalâŋ/",
+      "phonetic_simple": "LO-ghô-kpa-LANG",
+      "translation": "marché",
+      "example_sentence": "Lɔ́ɠɔkpalâŋ ɓáa tàâi.",
+      "example_phonetic": "/lɔ́ɠɔkpalâŋ ɓáa tàâi/",
+      "example_translation": "Le marché est au village."
     },
     {
       "word_id": "v6",
-      "term": "kúmuŋ",
-      "phonetic_api": "/kúmuŋ/",
-      "phonetic_simple": "KOU-moung",
-      "translation": "toilette (généralement derrière la maison)",
-      "example_sentence": "kúmuŋ",
-      "example_phonetic": "/kúmuŋ/",
-      "example_translation": "toilette"
+      "term": "kpáale",
+      "phonetic_api": "/kpáale/",
+      "phonetic_simple": "KPA-a-lè",
+      "translation": "piste, chemin",
+      "example_sentence": "Kpáale ɓáa pɛ́lɛ mà.",
+      "example_phonetic": "/kpáale ɓáa pɛ́lɛ mà/",
+      "example_translation": "Le chemin mène à la maison."
     },
     {
       "word_id": "v7",
-      "term": "tɔ̌ɔ",
-      "phonetic_api": "/tɔ̌ɔ/",
-      "phonetic_simple": "to-o (ton bas)",
-      "translation": "construire, confectionner (une maison, des poteries...)",
-      "example_sentence": "Àa pɛ́lɛ tɔ́ɔ.",
-      "example_phonetic": "/àa pɛ́lɛ tɔ́ɔ/",
-      "example_translation": "Il a construit sa maison."
+      "term": "hǐin",
+      "phonetic_api": "/hǐin/",
+      "phonetic_simple": "HI-in",
+      "translation": "dépôt d'ordures",
+      "example_sentence": "Hǐin ɓáa tàâi.",
+      "example_phonetic": "/hǐin ɓáa tàâi/",
+      "example_translation": "Le dépôt d'ordures est au village."
     },
     {
       "word_id": "v8",
-      "term": "tǎa",
-      "phonetic_api": "/tàà°/",
-      "phonetic_simple": "ta-a (ton bas)",
-      "translation": "village, ville",
-      "example_sentence": "Gáa tǎa hû.",
-      "example_phonetic": "/gáa tàà hû/",
-      "example_translation": "Je suis au village."
-    },
-    {
-      "word_id": "v9",
-      "term": "gàátáa",
-      "phonetic_api": "/gàátáa/",
-      "phonetic_simple": "GAA-taa",
-      "translation": "ville natale, village natal",
-      "example_sentence": "Pépèe àá hèɠé gàátáa hù.",
-      "example_phonetic": "/pépèe àá hèɣé gàátáa hù/",
-      "example_translation": "Pépé a quitté sa ville natale."
-    },
-    {
-      "word_id": "v10",
-      "term": "hù / hû",
-      "phonetic_api": "/hù/ /hû/",
-      "phonetic_simple": "hou / hoû",
-      "translation": "dans (postposition locative)",
-      "example_sentence": "Lɔ́ bɛ̀lɛ̂ŋ.",
-      "example_phonetic": "/lɔ́ bɛ̀lɛ̂ŋ/",
-      "example_translation": "Entre dans la maison."
-    },
-    {
-      "word_id": "v11",
-      "term": "kwɛ̌lɛ",
-      "phonetic_api": "/kwɛ̌lɛ/",
-      "phonetic_simple": "kwè-lè (ton bas)",
-      "translation": "près de, à côté de",
-      "example_sentence": "Bèlé è tǎŋa kú pɔ́ tàâi kwɛ̀lɛ.",
-      "example_phonetic": "/bèlé è tǎŋa kú pɔ́ tàâi kwɛ̀lɛ/",
-      "example_translation": "La route bifurque près de mon village."
-    },
-    {
-      "word_id": "v12",
-      "term": "mǎa-kwéâ",
-      "phonetic_api": "/mǎakwéâ/",
-      "phonetic_simple": "ma-a-KWÉ-â",
-      "translation": "être loin (de – ɓà)",
-      "example_sentence": "Zálikwɛ̀lɛ màakwéâai.",
-      "example_phonetic": "/zálikwɛ̀lɛ màakwéâai/",
-      "example_translation": "Nzérékoré est loin."
+      "term": "gwîi",
+      "phonetic_api": "/gwîi/",
+      "phonetic_simple": "GWI-i",
+      "translation": "cour (d'une maison)",
+      "example_sentence": "Nòŋdálà káa gwîi ɓɔ̀ɔ.",
+      "example_phonetic": "/nòŋdálà káa gwîi ɓɔ̀ɔ/",
+      "example_translation": "Les enfants sont en train de jouer dans la cour."
     }
   ],
   "common_phrases": [
     {
       "phrase_id": "p1",
-      "original": "Lɔ́ bɛ̀lɛ̂ŋ.",
-      "phonetic_api": "/lɔ́ bɛ̀lɛ̂ŋ/",
-      "phonetic_simple": "LO bè-lêng",
-      "translation": "Entre dans la maison.",
-      "context": "Inviter quelqu'un à entrer"
+      "original": "Ŋá pɛ́lɛ ɓáa tàâi.",
+      "phonetic_api": "/ŋá pɛ́lɛ ɓáa tàâi/",
+      "phonetic_simple": "nga PÉ-lè ba TA-a-i",
+      "translation": "Ma maison est au village.",
+      "context": "Description de la localisation de la maison, avec forme locative tàâi."
     },
     {
       "phrase_id": "p2",
-      "original": "Àa pɛ́lɛ tɔ́ɔ.",
-      "phonetic_api": "/àa pɛ́lɛ tɔ́ɔ/",
-      "phonetic_simple": "aa PÈ-lè TO-o",
-      "translation": "Il a construit sa maison.",
-      "context": "Parler d'une construction récente"
+      "original": "Lɔ́ɠɔkpalâŋ ɓáa tàâi.",
+      "phonetic_api": "/lɔ́ɠɔkpalâŋ ɓáa tàâi/",
+      "phonetic_simple": "LO-ghô-kpa-LANG ba TA-a-i",
+      "translation": "Le marché est au village.",
+      "context": "Description d'un élément constitutif du village."
     },
     {
       "phrase_id": "p3",
-      "original": "Gù káa gàla hù.",
-      "phonetic_api": "/gù káa gàla hù/",
-      "phonetic_simple": "gou kaa ga-la hou",
-      "translation": "Nous sommes dans la cour.",
-      "context": "Situer une activité dans un espace de la maison"
+      "original": "Kpáale ɓáa pɛ́lɛ mà.",
+      "phonetic_api": "/kpáale ɓáa pɛ́lɛ mà/",
+      "phonetic_simple": "KPA-a-lè ba PÉ-lè ma",
+      "translation": "Le chemin mène à la maison.",
+      "context": "Description spatiale utilisant la postposition mà (sur, vers)."
     },
     {
       "phrase_id": "p4",
-      "original": "Gáa lìí hìin púlû.",
-      "phonetic_api": "/gáa lìí hìin púlû/",
-      "phonetic_simple": "gaa LI-i hi-in POU-lû",
-      "translation": "Je vais à la toilette.",
-      "context": "Formule polie pour indiquer un besoin naturel"
+      "original": "É pɛ́lɛ ɓáa gbɛ̀ɛ̂ ?",
+      "phonetic_api": "/é pɛ́lɛ ɓáa gbɛ̀ɛ̂/",
+      "phonetic_simple": "é PÉ-lè ba GBÈ",
+      "translation": "Comment est ta maison ?",
+      "context": "Question descriptive réutilisant gbɛ̀ɛ̂ (comment) déjà vu."
     },
     {
       "phrase_id": "p5",
-      "original": "Gáa tǎa hû.",
-      "phonetic_api": "/gáa tàà hû/",
-      "phonetic_simple": "gaa ta-a hoû",
-      "translation": "Je suis au village.",
-      "context": "Situer sa position au village plutôt qu'en ville"
-    },
-    {
-      "phrase_id": "p6",
-      "original": "Zálikwɛ̀lɛ màakwéâai.",
-      "phonetic_api": "/zálikwɛ̀lɛ màakwéâai/",
-      "phonetic_simple": "ZA-li-kwè-lè ma-a-KWÉ-â-i",
-      "translation": "Nzérékoré est loin.",
-      "context": "Décrire la distance de sa ville"
-    },
-    {
-      "phrase_id": "p7",
-      "original": "Bèlé è tǎŋa kú pɔ́ tàâi kwɛ̀lɛ.",
-      "phonetic_api": "/bèlé è tǎŋa kú pɔ́ tàâi kwɛ̀lɛ/",
-      "phonetic_simple": "bè-lé è ta-nga kou po TA-â-i kwè-lè",
-      "translation": "La route bifurque près de mon village.",
-      "context": "Décrire un repère géographique"
-    },
-    {
-      "phrase_id": "p8",
-      "original": "Pépèe àá hèɠé gàátáa hù.",
-      "phonetic_api": "/pépèe àá hèɣé gàátáa hù/",
-      "phonetic_simple": "PÉ-pè-è aa hè-GHÉ gaa-TAA hou",
-      "translation": "Pépé a quitté sa ville natale.",
-      "context": "Parler d'un départ du village natal"
+      "original": "Ŋá pɛ́lɛ ɓáa tɛ̌i, pɛ́lɛlaalèe ɓáa kwěle.",
+      "phonetic_api": "/ŋá pɛ́lɛ ɓáa tɛ̌i pɛ́lɛlaalèe ɓáa kwěle/",
+      "phonetic_simple": "nga PÉ-lè ba TÈ-i, PÉ-lè-la-a-lè-è ba KWÈ-lè",
+      "translation": "Ma maison est noire, sa façade est blanche.",
+      "context": "Combine couleurs (leçon A1_M3_L9) et vocabulaire du logement."
     }
   ],
   "grammar_points": [
     {
-      "concept": "La postposition locative hù/hû (dans)",
-      "explanation": "Le kpele n'a pas de préposition « dans » : il utilise une postposition placée après le nom du lieu, dont la voyelle s'ajuste au ton du mot qui précède.",
+      "concept": "La forme locative des noms de lieu (rappel et approfondissement)",
+      "explanation": "Comme vu au niveau débutant, les noms de lieu comme tǎa (village) prennent une forme locative spécifique (tàâi) pour indiquer une position « dans » ou une provenance « de ». Cette forme s'oppose à l'usage de postpositions comme mà (sur, vers) pour indiquer une direction.",
       "rules": [
-        "hù/hû se place toujours après le nom du lieu : gàla hù (dans la cour), tǎa hû (dans le village/au village).",
-        "Avec un pronom démonstratif défini, la forme peut se fondre dans le mot : pɛ́lɛ̂ŋ (loc. de pɛ́lɛ, dans la maison), bɛ̀lɛ̂ŋ (dans la maison, autre forme).",
-        "Cette construction s'applique à tout nom de lieu commun, contrairement aux noms propres de ville qui se construisent sans postposition (Leçon 2 : gáa Zálikwɛ̀lɛ)."
+        "tǎa (forme de base) → tàâi (forme locative : au/du village).",
+        "La postposition mà indique une direction ou un contact (« sur, vers ») : kpáale ɓáa pɛ́lɛ mà = le chemin va vers la maison."
       ],
       "examples": [
         {
-          "structure": "gàla hù / tǎa hû",
-          "phonetic_api": "/gàla hù/ /tàà hû/",
-          "meaning": "dans la cour / au village"
-        }
-      ]
-    },
-    {
-      "concept": "Construire et parler de sa maison : le verbe tɔ̌ɔ",
-      "explanation": "tɔ̌ɔ (construire, confectionner) s'applique aussi bien à une maison qu'à une poterie ou tout objet façonné, et se conjugue avec les marqueurs déjà vus (résultatif àa).",
-      "rules": [
-        "àa pɛ́lɛ tɔ́ɔ = il a construit sa maison (résultatif 3SG àa + objet + verbe).",
-        "Ce verbe reprend la structure SOV (sujet-objet-verbe) typique du kpele, déjà observée dans d'autres phrases du cours."
-      ],
-      "examples": [
-        {
-          "structure": "àa pɛ́lɛ tɔ́ɔ",
-          "phonetic_api": "/àa pɛ́lɛ tɔ́ɔ/",
-          "meaning": "il a construit sa maison"
-        }
-      ]
-    },
-    {
-      "concept": "Décrire les parties de la maison",
-      "explanation": "Le vocabulaire de la maison en kpele distingue les espaces intérieurs et extérieurs, avec des mots parfois partagés entre plusieurs sens liés (tôŋ = toit/sommet).",
-      "rules": [
-        "tôŋ (toit, sommet) désigne la partie la plus haute, qu'il s'agisse d'une maison ou d'une autre structure.",
-        "gàla (clôture, cour) et kúmuŋ (toilette) désignent des espaces extérieurs à la maison proprement dite.",
-        "ɓále (montant de porte) et hwíŋná (fenêtre) désignent des éléments de l'ouverture de la maison."
-      ],
-      "examples": [
-        {
-          "structure": "tôŋ / gàla / kúmuŋ",
-          "phonetic_api": "/tôŋ/ /gàla/ /kúmuŋ/",
-          "meaning": "toit / cour / toilette"
-        }
-      ]
-    },
-    {
-      "concept": "Relier deux idées : proximité et distance",
-      "explanation": "Pour décrire sa ville, on combine souvent une indication de distance (mǎa-kwéâ, Leçon 7) avec un repère de proximité (kwɛ̌lɛ) pour situer précisément un lieu par rapport à un autre.",
-      "rules": [
-        "Zálikwɛ̀lɛ màakwéâai (Nzérékoré est loin) situe une ville par rapport au locuteur.",
-        "kú pɔ́ tàâi kwɛ̀lɛ (près de mon village) précise un point de repère local.",
-        "Ces deux structures peuvent s'enchaîner dans un même récit pour construire une description cohérente d'un lieu."
-      ],
-      "examples": [
-        {
-          "structure": "màakwéâai ... kwɛ̀lɛ",
-          "phonetic_api": "/màakwéâai kwɛ̀lɛ/",
-          "meaning": "être loin ... près de (dans un même récit)"
+          "structure": "[Nom] ɓáa [lieu-locatif]",
+          "phonetic_api": "/... ɓáa tàâi/",
+          "meaning": "[nom] est au village"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Personne A",
-      "text": "É héɠe ↓mí ?",
-      "phonetic_api": "/é héɣé ↓mí/",
-      "phonetic_simple": "é HÉ-ghé mi ?",
-      "translation": "Tu es d'où ?"
+      "speaker": "Hehee",
+      "text": "É pɛ́lɛ ɓáa gbɛ̀ɛ̂ ?",
+      "phonetic_api": "/é pɛ́lɛ ɓáa gbɛ̀ɛ̂/",
+      "phonetic_simple": "é PÉ-lè ba GBÈ",
+      "translation": "Comment est ta maison ?"
     },
     {
-      "speaker": "Personne B",
-      "text": "Ŋà héɠe Zálikwɛ̀lɛ, kɛ́laa àa màakwéâai.",
-      "phonetic_api": "/ŋà héɣé zálikwɛ̀lɛ kɛ́laa àa màakwéâai/",
-      "phonetic_simple": "nga HÉ-ghé za-li-kwè-lè, ké-laa aa ma-a-KWÉ-â-i",
-      "translation": "Je suis de Nzérékoré, mais c'est loin."
+      "speaker": "Pépé",
+      "text": "Ŋá pɛ́lɛ ɓáa tɛ̌i, pɛ́lɛlaalèe ɓáa kwěle.",
+      "phonetic_api": "/ŋá pɛ́lɛ ɓáa tɛ̌i pɛ́lɛlaalèe ɓáa kwěle/",
+      "phonetic_simple": "nga PÉ-lè ba TÈ-i, PÉ-lè-la-a-lè-è ba KWÈ-lè",
+      "translation": "Ma maison est noire, sa façade est blanche."
     },
     {
-      "speaker": "Personne A",
-      "text": "Àa pɛ́lɛ tɔ́ɔ tàa hû ?",
-      "phonetic_api": "/àa pɛ́lɛ tɔ́ɔ tàà hû/",
-      "phonetic_simple": "aa PÈ-lè TO-o ta-a hoû ?",
-      "translation": "Il a construit sa maison au village ?"
+      "speaker": "Hehee",
+      "text": "Lɔ́ɠɔkpalâŋ ɓáa tàâi ?",
+      "phonetic_api": "/lɔ́ɠɔkpalâŋ ɓáa tàâi/",
+      "phonetic_simple": "LO-ghô-kpa-LANG ba TA-a-i",
+      "translation": "Le marché est-il au village ?"
     },
     {
-      "speaker": "Personne B",
-      "text": "Ŋàá mɛ̌ŋ, pɛ́lɛ ↓gáa gàátáa hù kwɛ̀lɛ.",
-      "phonetic_api": "/ŋàá mɛ̌ŋ pɛ́lɛ ↓gáa gàátáa hù kwɛ̀lɛ/",
-      "phonetic_simple": "nga-a MENG, PÈ-lè gaa gaa-TAA hou kwè-lè",
-      "translation": "Oui, la maison est près de sa ville natale."
-    },
-    {
-      "speaker": "Personne A",
-      "text": "Lɔ́ bɛ̀lɛ̂ŋ !",
-      "phonetic_api": "/lɔ́ bɛ̀lɛ̂ŋ/",
-      "phonetic_simple": "LO bè-lêng !",
-      "translation": "Entre dans la maison !"
-    },
-    {
-      "speaker": "Personne B",
-      "text": "Máma, mɛ́niê !",
-      "phonetic_api": "/máma mɛ́niê/",
-      "phonetic_simple": "MA-ma MÉ-ni-Ê",
-      "translation": "Merci, mon ami !"
+      "speaker": "Pépé",
+      "text": "Òowɛi, kpáale ɓáa pɛ́lɛ mà.",
+      "phonetic_api": "/òowɛi kpáale ɓáa pɛ́lɛ mà/",
+      "phonetic_simple": "o-wè-i KPA-a-lè ba PÉ-lè ma",
+      "translation": "Oui, le chemin mène à la maison."
     }
   ],
   "cultural_notes": [
-    "En pays kpele, la kúmuŋ (toilette) est traditionnellement construite à part, derrière la maison, et se distingue de gàla, la clôture ou cour plus grande qui entoure parfois aussi la forêt sacrée.",
-    "Le verbe tɔ̌ɔ (construire) s'applique de la même façon à une maison et à une poterie, signe que la construction et l'artisanat relèvent d'un même savoir-faire manuel dans la culture kpele.",
-    "Nzérékoré (Zálikwɛ̀lɛ), déjà rencontrée en Leçon 2, revient ici comme exemple récurrent de ville de référence dans le dictionnaire, preuve de son importance comme centre urbain de la Guinée forestière."
+    "Les maisons traditionnelles guerzé comportent une véranda et un lit en terre battue ; la route en terre battue (pěle) structure l'organisation spatiale du village (Konoshenko 2019).",
+    "La cour (gwîi) est un espace central de la vie sociale où les enfants jouent et où se déroulent de nombreuses activités communautaires."
   ],
   "exercises": [
     {
       "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Où se place la postposition hù/hû (dans) ?",
+      "question": "Quelle est la forme locative de tǎa (village) ?",
       "options": [
-        "Avant le nom du lieu",
-        "Après le nom du lieu",
-        "Au début de la phrase",
-        "Elle n'existe pas en kpele"
+        "tàâi",
+        "tǎai",
+        "tǎ"
       ],
-      "correct_answer": "Après le nom du lieu",
-      "explanation": "Contrairement au français, le kpele place hù/hû après le nom : gàla hù (dans la cour)."
+      "correct_answer": "tàâi",
+      "explanation": "tàâi est la forme locative attestée signifiant « au/du village »."
     },
     {
       "exercise_id": "ex2",
-      "type": "multiple_choice",
-      "question": "Que signifie tôŋ, en plus de « toit » ?",
-      "options": [
-        "Cour",
-        "Sommet",
-        "Fenêtre",
-        "Porte"
-      ],
-      "correct_answer": "Sommet",
-      "explanation": "tôŋ désigne à la fois le toit et, plus largement, le sommet de quelque chose."
-    },
-    {
-      "exercise_id": "ex3",
-      "type": "multiple_choice",
-      "question": "Quel verbe signifie « construire » une maison ?",
-      "options": [
-        "tɔ̌ɔ",
-        "kwɛ̌lɛ",
-        "mǎa-kwéâ",
-        "lɔ́"
-      ],
-      "correct_answer": "tɔ̌ɔ",
-      "explanation": "tɔ̌ɔ s'applique à la construction d'une maison ou d'une poterie."
-    },
-    {
-      "exercise_id": "ex4",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Pour dire « entre dans la maison », on dit : « Lɔ́ [ ___ ]. »",
-      "correct_answer": "bɛ̀lɛ̂ŋ",
-      "hint": "C'est la forme locative de « maison »."
-    },
-    {
-      "exercise_id": "ex5",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "« Nous sommes dans la cour » se dit : « Gù káa [ ___ ] hù. »",
-      "correct_answer": "gàla",
-      "hint": "Ce mot désigne aussi une clôture."
-    },
-    {
-      "exercise_id": "ex6",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "La toilette, généralement construite derrière la maison, se dit [ ___ ].",
-      "correct_answer": "kúmuŋ",
-      "hint": "Elle est en général plus petite que gàla."
+      "sentence_with_blank": "Ŋá pɛ́lɛ ɓáa [ ___ ]. (Ma maison est au village.)",
+      "correct_answer": "tàâi",
+      "hint": "Forme locative de tǎa."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Konoshenko, M. (2019). Dictionnaire kpele de la Guinée (guerzé) – français. Mandenkan 62.",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan62/62konoshenko.pdf"
+    },
+    {
+      "label": "Wikipédia — Kpèllé (langue) / Guerzé",
+      "url": "https://fr.wikipedia.org/wiki/Guerze"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Le vocabulaire de base du logement (maison, façade, cour, dépôt d'ordures) est attesté dans Konoshenko (2019), mais les phrases descriptives combinant plusieurs éléments (façade + couleur) sont construites par l'auteur à partir de mots attestés séparément, non comme une phrase entière préexistante dans la source."
 }

@@ -1,380 +1,225 @@
 {
-  "lesson_id": "C2_M2_L4",
+  "lesson_id": "C1_M2_L4",
   "level": "Avancé (C1-C2)",
   "module_number": 2,
   "module_title": "Culture, traditions et rhétorique",
   "lesson_number": 4,
   "title": "Les proverbes, dictons et expressions imagées de la culture",
   "learning_objectives": [
-    "Nommer le proverbe lui-même (hɔ́ɔnŋ, ~ hɔ̌ɔ = dire un proverbe).",
-    "Comprendre et citer cinq proverbes kpele authentiques et leur sens figuré.",
-    "Reconnaître la structure imagée typique du proverbe kpele (une observation concrète, une leçon abstraite).",
-    "Employer un proverbe à bon escient dans une conversation ou un discours."
+    "Connaître le terme générique hɔ́ɔnŋ/hɔ́ŋ/háŋuŋ (proverbe, parabole, fable) et l'expression ~ hɔ̌ɔ (dire un proverbe)",
+    "Analyser cinq proverbes attestés et leur portée symbolique/morale",
+    "Reconnaître la structure imagée typique du proverbe guerzé fondée sur l'observation de la nature ou des animaux"
   ],
   "phonetic_focus": {
-    "key_sounds": "Les proverbes kpele exploitent pleinement la richesse tonale et rythmique de la langue : leur formulation est souvent fixée mot pour mot, avec un rythme binaire (deux propositions parallèles, comme kwàlá hwǎ gàa hwó gùló wòlolóŋ mà, wòló hwǎ gàa hwó gùló kwàlalóŋ mà). Une légère erreur de ton peut rendre un proverbe incompréhensible, car sa force repose justement sur la mémorisation exacte de sa forme.",
-    "common_pitfalls": "Les francophones ont tendance à : (1) vouloir traduire un proverbe mot à mot, alors que son sens figuré se comprend seulement à la lumière de l'explication culturelle qui l'accompagne ; (2) employer un proverbe hors contexte, sans avoir saisi la situation précise qu'il commente traditionnellement ; (3) oublier que hɔ́ɔnŋ désigne aussi bien le proverbe que la parabole ou la fable — trois formes de sagesse imagée regroupées sous un seul mot."
+    "key_sounds": "hɔ́ɔnŋ présente une nasale finale caractéristique (-ŋ) précédée d'une voyelle longue à ton haut ; les variantes régionales hɔ́ŋ (guerzé blanc/gb) et háŋuŋ (guerzé sud/s) montrent la variation dialectale du guerzé de Guinée.",
+    "common_pitfalls": "Les francophones négligent souvent la variation dialectale interne au guerzé (dialectes gb/s notés par Konoshenko) ; à ce niveau, il faut savoir reconnaître qu'un même sens peut avoir plusieurs formes attestées selon la région."
   },
   "vocabulary": [
     {
       "word_id": "v1",
       "term": "hɔ́ɔnŋ",
       "phonetic_api": "/hɔ́ɔnŋ/",
-      "phonetic_simple": "HO-onng",
-      "translation": "proverbe, parabole, fable, diction (~ hɔ̌ɔ = dire un proverbe)",
-      "example_sentence": "Hɔ́ɔnŋ hɔ̌ɔ.",
+      "phonetic_simple": "HO-ong",
+      "translation": "proverbe, parabole, fable, diction (forme générale)",
+      "example_sentence": "Hɔ́ɔnŋ ~ hɔ̌ɔ.",
       "example_phonetic": "/hɔ́ɔnŋ hɔ̌ɔ/",
       "example_translation": "Dire un proverbe."
     },
     {
       "word_id": "v2",
-      "term": "ɓòikpulu",
-      "phonetic_api": "/ɓòikpulu/",
-      "phonetic_simple": "ɓO-i-kpou-lou",
-      "translation": "troupeau de porcs",
-      "example_sentence": "Ɓòikpulu màánɛ̀ɛ ́ gèé ↓pɔ́.",
-      "example_phonetic": "/ɓòikpulu màánɛ̀ɛ́ gèé ↓pɔ́/",
-      "example_translation": "Le troupeau de porcs doit rester toujours ensemble."
+      "term": "hɔ́ŋ",
+      "phonetic_api": "/hɔ́ŋ/",
+      "phonetic_simple": "HONG",
+      "translation": "proverbe (variante dialectale gb)",
+      "example_sentence": "Hɔ́ŋ ↓lí.",
+      "example_phonetic": "/hɔ́ŋ lí/",
+      "example_translation": "C'est un proverbe."
     },
     {
       "word_id": "v3",
-      "term": "hěbe",
-      "phonetic_api": "/hěbe/",
-      "phonetic_simple": "hè-be",
-      "translation": "plante sp. (racine utilisée dans la sauce de manioc)",
-      "example_sentence": "Kpɛ́ɲɛŋ àa mɔ́ŋ, hèbé àá lɛ̀ɛ ́ à gɔ̀u.",
-      "example_phonetic": "/kpɛ́ɲɛŋ àa mɔ́ŋ hèbé àá lɛ̀ɛ́ à gɔ̀u/",
-      "example_translation": "Le gombo est cuit, et les racines de hebe ne le sont pas."
+      "term": "kwèlêŋ",
+      "phonetic_api": "/kwèlêŋ/",
+      "phonetic_simple": "KWÈ-lêng",
+      "translation": "conte, légende",
+      "example_sentence": "Ŋwɔ́ kwèléŋ ɓé hèɠeí è hwílêŋ hwúlu dà hɔ̀uwolo ɓâ.",
+      "example_phonetic": "/ŋwɔ́ kwèléŋ ɓé hèɠeí è hwílêŋ hwúlu dà hɔ̀uwolo ɓâ/",
+      "example_translation": "Mon conte parle de l'hyène et du lièvre."
     },
     {
       "word_id": "v4",
-      "term": "kpùɠulu",
-      "phonetic_api": "/kpùɣulu/",
-      "phonetic_simple": "kpou-ghou-lou",
-      "translation": "case de champ, grenier de champ",
-      "example_sentence": "Gbùɠuluhaɠa màánɛ̀ɛ ́ vàŋa tɔ́ɠɔ.",
-      "example_phonetic": "/gbùɣuluhaɣa màánɛ̀ɛ́ vàŋa tɔ́ɣɔ/",
-      "example_translation": "Le vieux grenier doit être protégé contre le vent."
+      "term": "ɓòikpulu",
+      "phonetic_api": "/ɓòikpulu/",
+      "phonetic_simple": "BO-i-KPOU-lou",
+      "translation": "troupeau de porcs (image proverbiale de la solidarité)",
+      "example_sentence": "Ɓòikpulu màánɛ̀ɛ́ gèé ↓pɔ́.",
+      "example_phonetic": "/ɓòikpulu màánɛ̀ɛ́ gèé pɔ́/",
+      "example_translation": "Le troupeau de porcs doit rester toujours ensemble."
     },
     {
       "word_id": "v5",
-      "term": "kwǎla",
-      "phonetic_api": "/kwàlà°/",
+      "term": "kwàlá",
+      "phonetic_api": "/kwàlá/",
       "phonetic_simple": "KWA-la",
-      "translation": "singe (petit)",
+      "translation": "petit singe (image proverbiale de la filiation)",
       "example_sentence": "Kwàlá hwǎ gàa hwó gùló wòlolóŋ mà.",
       "example_phonetic": "/kwàlá hwǎ gàa hwó gùló wòlolóŋ mà/",
       "example_translation": "Le petit singe ne met jamais au monde le petit du chimpanzé."
     },
     {
       "word_id": "v6",
-      "term": "wǒlo",
-      "phonetic_api": "/wǒlo/",
-      "phonetic_simple": "wo-lo (ton bas)",
-      "translation": "chimpanzé",
-      "example_sentence": "Wòló hwǎ gàa hwó gùló kwàlalóŋ mà.",
-      "example_phonetic": "/wòló hwǎ gàa hwó gùló kwàlalóŋ mà/",
-      "example_translation": "Le chimpanzé ne met jamais au monde le petit du singe."
+      "term": "hálama",
+      "phonetic_api": "/hálama/",
+      "phonetic_simple": "HA-la-ma",
+      "translation": "chance",
+      "example_sentence": "Hálama tèêi, lɛ́lɛ tèêi.",
+      "example_phonetic": "/hálama tèêi lɛ́lɛ tèêi/",
+      "example_translation": "La chance est différente de la beauté."
     },
     {
       "word_id": "v7",
-      "term": "zɛ̀ŋ",
-      "phonetic_api": "/zɛ̀ŋ/",
-      "phonetic_simple": "zèng",
-      "translation": "chose, événement (dans un dicton sur la parole et la voix)",
-      "example_sentence": "Dà kɛ́ mà zɛ̀ŋ tɛ́ɠɛ ↓ɓɛ́, ŋwòó nɛ̀ɛî.",
-      "example_phonetic": "/dà kɛ́ mà zɛ̀ŋ tɛ́ɣɛ ↓ɓɛ́ ŋwòó nɛ̀ɛî/",
-      "example_translation": "On dit toujours que la chose qui s'est passée ici a une belle voix."
+      "term": "lɛ́lɛ",
+      "phonetic_api": "/lɛ́lɛ/",
+      "phonetic_simple": "LÉ-lè",
+      "translation": "beauté",
+      "example_sentence": "Hálama tèêi, lɛ́lɛ tèêi.",
+      "example_phonetic": "/hálama tèêi lɛ́lɛ tèêi/",
+      "example_translation": "La chance est différente de la beauté."
     },
     {
       "word_id": "v8",
-      "term": "ŋwòó",
-      "phonetic_api": "/ŋwòó/",
-      "phonetic_simple": "ngwo-O",
-      "translation": "voix",
-      "example_sentence": "Ŋwòó nɛ̀ɛî.",
-      "example_phonetic": "/ŋwòó nɛ̀ɛî/",
-      "example_translation": "Elle a une belle voix."
-    },
-    {
-      "word_id": "v9",
-      "term": "hèɠeheɠelaá",
-      "phonetic_api": "/hèɣèhèɣèlaá/",
-      "phonetic_simple": "hè-ghè-hè-ghè-LAA",
-      "translation": "celui qui vient (construit sur héɠe)",
-      "example_sentence": "Hèɠeheɠelaá dà tɔ̀ɔtɔɔlaa ɓé.",
-      "example_phonetic": "/hèɣèhèɣèlaá dà tɔ̀ɔtɔɔlaa ɓé/",
-      "example_translation": "Celui qui vient succède à celui qui part."
-    },
-    {
-      "word_id": "v10",
-      "term": "tɔ̀ɔtɔɔlaa",
-      "phonetic_api": "/tɔ̀ɔtɔɔlaa/",
-      "phonetic_simple": "to-o-to-o-LAA",
-      "translation": "celui qui part",
-      "example_sentence": "Hèɠeheɠelaá dà tɔ̀ɔtɔɔlaa ɓé.",
-      "example_phonetic": "/hèɣèhèɣèlaá dà tɔ̀ɔtɔɔlaa ɓé/",
-      "example_translation": "Celui qui vient succède à celui qui part."
-    },
-    {
-      "word_id": "v11",
-      "term": "gbìniŋ",
-      "phonetic_api": "/gbìniŋ/",
-      "phonetic_simple": "GBI-ning",
-      "translation": "courber (qch)",
-      "example_sentence": "Yà gbìniŋ, à yálî.",
-      "example_phonetic": "/yà gbìniŋ à yálî/",
-      "example_translation": "Si tu le courbes, il casse."
-    },
-    {
-      "word_id": "v12",
-      "term": "màánɛ̀ɛ ́",
-      "phonetic_api": "/màánɛ̀ɛ́/",
-      "phonetic_simple": "ma-a-NÈ-è",
-      "translation": "il faut que (obligation plus faible)",
-      "example_sentence": "Ɓòikpulu màánɛ̀ɛ ́ gèé ↓pɔ́.",
-      "example_phonetic": "/ɓòikpulu màánɛ̀ɛ́ gèé ↓pɔ́/",
-      "example_translation": "Le troupeau de porcs doit rester toujours ensemble."
+      "term": "tèêi",
+      "phonetic_api": "/tèêi/",
+      "phonetic_simple": "TÈ-è-i",
+      "translation": "être différent",
+      "example_sentence": "Hálama tèêi, lɛ́lɛ tèêi.",
+      "example_phonetic": "/hálama tèêi lɛ́lɛ tèêi/",
+      "example_translation": "La chance est différente [de] la beauté."
     }
   ],
   "common_phrases": [
     {
       "phrase_id": "p1",
-      "original": "Ɓòikpulu màánɛ̀ɛ ́ gèé ↓pɔ́.",
-      "phonetic_api": "/ɓòikpulu màánɛ̀ɛ́ gèé ↓pɔ́/",
-      "phonetic_simple": "ɓO-i-kpou-lou ma-a-NÈ-è gué pó",
+      "original": "Ɓòikpulu màánɛ̀ɛ́ gèé ↓pɔ́.",
+      "phonetic_api": "/ɓòikpulu màánɛ̀ɛ́ gèé pɔ́/",
+      "phonetic_simple": "BO-i-KPOU-lou MA-a-nè-è ghé-é po",
       "translation": "Le troupeau de porcs doit rester toujours ensemble.",
-      "context": "Proverbe : les gens doivent rester solidaires"
+      "context": "Proverbe attesté sur la solidarité, réutilise le marqueur d'obligation màánɛ̀ɛ́ (déjà vu en B1_M3_L7)."
     },
     {
       "phrase_id": "p2",
-      "original": "Kpɛ́ɲɛŋ àa mɔ́ŋ, hèbé àá lɛ̀ɛ ́ à gɔ̀u.",
-      "phonetic_api": "/kpɛ́ɲɛŋ àa mɔ́ŋ hèbé àá lɛ̀ɛ́ à gɔ̀u/",
-      "phonetic_simple": "KPÈ-nyèng aa MONG, hè-BÉ a-a lè-É a GO-ou",
-      "translation": "Le gombo est cuit, et les racines de hebe ne le sont pas.",
-      "context": "Proverbe pour décrire une situation anormale, contraire à l'ordre habituel"
+      "original": "Hálama tèêi, lɛ́lɛ tèêi.",
+      "phonetic_api": "/hálama tèêi lɛ́lɛ tèêi/",
+      "phonetic_simple": "HA-la-ma TÈ-è-i, LÉ-lè TÈ-è-i",
+      "translation": "La chance est différente de la beauté.",
+      "context": "Proverbe attesté opposant deux qualités humaines."
     },
     {
       "phrase_id": "p3",
-      "original": "Gbùɠuluhaɠa màánɛ̀ɛ ́ vàŋa tɔ́ɠɔ.",
-      "phonetic_api": "/gbùɣuluhaɣa màánɛ̀ɛ́ vàŋa tɔ́ɣɔ/",
-      "phonetic_simple": "gbou-ghou-lou-HA-gha ma-a-NÈ-è VA-nga TO-gho",
-      "translation": "Le vieux grenier doit être protégé contre le vent.",
-      "context": "Proverbe : il est bon de prévenir, il est bien de se protéger contre les problèmes"
+      "original": "Hèɠeheɠelaá dà tɔ̀ɔtɔɔlaa ɓé.",
+      "phonetic_api": "/hèɠeheɠelaá dà tɔ̀ɔtɔɔlaa ɓé/",
+      "phonetic_simple": "HÈ-ghè-HÈ-ghè-la-a da TO-o-TO-o-la-a bé",
+      "translation": "Celui qui vient succède à celui qui part.",
+      "context": "Proverbe attesté sur la succession et le cycle de la vie."
     },
     {
       "phrase_id": "p4",
       "original": "Kwàlá hwǎ gàa hwó gùló wòlolóŋ mà, wòló hwǎ gàa hwó gùló kwàlalóŋ mà.",
       "phonetic_api": "/kwàlá hwǎ gàa hwó gùló wòlolóŋ mà wòló hwǎ gàa hwó gùló kwàlalóŋ mà/",
-      "phonetic_simple": "KWA-la hwa gaa hwo GOU-lo wo-lo-LONG ma, wo-LO hwa gaa hwo GOU-lo kwa-la-LONG ma",
-      "translation": "Le petit singe ne met jamais au monde le petit du chimpanzé, et vice-versa.",
-      "context": "Proverbe : tel père, tel fils"
+      "phonetic_simple": "KWA-la hwa GA-a HWO GOU-lo WO-lo-long ma, WO-lo hwa GA-a HWO GOU-lo KWA-la-long ma",
+      "translation": "Le petit singe ne met jamais au monde le petit du chimpanzé, et le chimpanzé ne met jamais au monde le petit du singe.",
+      "context": "Proverbe attesté, équivalent de « tel père, tel fils »."
     },
     {
       "phrase_id": "p5",
-      "original": "Dà kɛ́ mà zɛ̀ŋ tɛ́ɠɛ ↓ɓɛ́, ŋwòó nɛ̀ɛî ; dìhwá kɛ́ mà zɛ̀ŋ́ hèénì, ŋwòó nɛ̀ɛî.",
-      "phonetic_api": "/dà kɛ́ mà zɛ̀ŋ tɛ́ɣɛ ↓ɓɛ́ ŋwòó nɛ̀ɛî dìhwá kɛ́ mà zɛ̀ŋ́ hèénì ŋwòó nɛ̀ɛî/",
-      "phonetic_simple": "da ké ma zèng TÈ-ghè ɓÈ, ngwo-O nè-È-i ; di-HWA ké ma zèng hè-É-ni, ngwo-O nè-È-i",
-      "translation": "On dit toujours que la chose qui s'est passée ici a une belle voix ; on ne dit jamais que la chose qui est assise là a une belle voix.",
-      "context": "Proverbe : on ne doit pas vanter les prouesses de quelqu'un présent ; qu'il les prouve par ses actions"
-    },
-    {
-      "phrase_id": "p6",
-      "original": "Hèɠeheɠelaá dà tɔ̀ɔtɔɔlaa ɓé.",
-      "phonetic_api": "/hèɣèhèɣèlaá dà tɔ̀ɔtɔɔlaa ɓé/",
-      "phonetic_simple": "hè-ghè-hè-ghè-LAA da to-o-to-o-LAA bé",
-      "translation": "Celui qui vient succède à celui qui part.",
-      "context": "Proverbe sur la succession (générations, chef de village) — rappel Débutant Leçon 2"
-    },
-    {
-      "phrase_id": "p7",
-      "original": "Yà gbìniŋ, à yálî.",
-      "phonetic_api": "/yà gbìniŋ à yálî/",
-      "phonetic_simple": "ya GBI-ning, a YA-lî",
-      "translation": "Si tu le courbes, il casse.",
-      "context": "Expression imagée sur la fragilité et la résistance (rappel Avancé Leçon 2)"
+      "original": "Hɔ́ɔnŋ ~ hɔ̌ɔ.",
+      "phonetic_api": "/hɔ́ɔnŋ hɔ̌ɔ/",
+      "phonetic_simple": "HO-ong HO-o",
+      "translation": "Dire un proverbe.",
+      "context": "Expression figée verbe support attestée."
     }
   ],
   "grammar_points": [
     {
-      "concept": "La structure binaire du proverbe kpele",
-      "explanation": "De nombreux proverbes kpele s'organisent en deux propositions parallèles et symétriques, la seconde inversant ou reprenant en écho la structure de la première, pour renforcer l'effet de vérité universelle.",
+      "concept": "La structure imagée du proverbe guerzé",
+      "explanation": "Le proverbe guerzé (hɔ́ɔnŋ) s'appuie typiquement sur une image concrète tirée du monde animal ou naturel (porcs, singes, chimpanzés) pour énoncer une vérité morale ou sociale abstraite (solidarité, filiation, succession). La structure est souvent binaire, opposant ou comparant deux éléments symétriques.",
       "rules": [
-        "kwàlá hwǎ gàa hwó gùló wòlolóŋ mà, wòló hwǎ gàa hwó gùló kwàlalóŋ mà (le petit singe... et vice-versa) répète exactement la même structure en inversant les deux animaux.",
-        "dà kɛ́ mà ... ŋwòó nɛ̀ɛî ; dìhwá kɛ́ mà ... ŋwòó nɛ̀ɛî (on dit toujours que... ; on ne dit jamais que...) oppose une affirmation et sa négation dans la même forme.",
-        "Cette symétrie facilite la mémorisation et donne au proverbe son autorité rhétorique."
+        "[Image A] + [prédicat], [Image B] + [prédicat symétrique] = structure comparative/parallèle typique du proverbe.",
+        "Le sens moral n'est jamais explicité dans le proverbe lui-même ; il est glosé séparément par le locuteur ou le dictionnaire."
       ],
       "examples": [
         {
-          "structure": "[A fait X] ; [B fait le contraire de X]",
-          "phonetic_api": "",
-          "meaning": "structure binaire caractéristique du proverbe kpele"
-        }
-      ]
-    },
-    {
-      "concept": "L'image concrète au service d'une leçon abstraite",
-      "explanation": "Chaque proverbe kpele part d'une observation très concrète (un animal, une plante, un objet du quotidien) pour transmettre une leçon morale ou sociale abstraite, sans jamais l'énoncer directement dans le proverbe lui-même.",
-      "rules": [
-        "Le troupeau de porcs (image concrète) → la solidarité humaine (leçon abstraite).",
-        "Le vieux grenier protégé du vent (image concrète) → la prévoyance (leçon abstraite).",
-        "Le proverbe ne mentionne jamais directement le sens figuré : c'est le contexte culturel, transmis par les anciens, qui permet de le décoder."
-      ],
-      "examples": [
-        {
-          "structure": "ɓòikpulu màánɛ̀ɛ ́ gèé ↓pɔ́ → solidarité",
-          "phonetic_api": "/ɓòikpulu màánɛ̀ɛ́ gèé ↓pɔ́/",
-          "meaning": "le troupeau de porcs doit rester ensemble → les gens doivent rester solidaires"
-        }
-      ]
-    },
-    {
-      "concept": "Le verbe dédié à l'énonciation d'un proverbe : hɔ̌ɔ",
-      "explanation": "Réciter un proverbe est une action socialement marquée, dotée de son propre verbe léger, distinct du verbe général de parole (hwáa).",
-      "rules": [
-        "hɔ́ɔnŋ ~ hɔ̌ɔ = dire un proverbe.",
-        "Ce collocatif spécifique souligne que citer un proverbe est un acte de parole reconnu, presque rituel, différent d'une simple remarque."
-      ],
-      "examples": [
-        {
-          "structure": "hɔ́ɔnŋ hɔ̌ɔ",
-          "phonetic_api": "/hɔ́ɔnŋ hɔ̌ɔ/",
-          "meaning": "dire un proverbe"
-        }
-      ]
-    },
-    {
-      "concept": "Employer un proverbe pour clore ou orienter un débat",
-      "explanation": "Dans un discours élaboré, un proverbe bien choisi vient souvent conclure ou réorienter un raisonnement, en s'appuyant sur l'autorité de la sagesse collective plutôt que sur l'argumentation personnelle.",
-      "rules": [
-        "On peut introduire un proverbe après un connecteur comme kàŋ (donc) ou màáhɔ̀lɔɓó (parce que), pour l'ancrer dans le fil du discours.",
-        "Cette pratique rhétorique fait le pont entre la Leçon 3 (connecteurs logiques) et la Leçon 5 (débattre et argumenter) de ce niveau."
-      ],
-      "examples": [
-        {
-          "structure": "[argument] kàŋ, [proverbe]",
-          "phonetic_api": "",
-          "meaning": "conclure un argument par un proverbe à valeur de preuve morale"
+          "structure": "kwàlá hwǎ gàa hwó gùló wòlolóŋ mà, wòló hwǎ gàa hwó gùló kwàlalóŋ mà",
+          "phonetic_api": "/kwàlá hwǎ gàa hwó gùló wòlolóŋ mà wòló hwǎ gàa hwó gùló kwàlalóŋ mà/",
+          "meaning": "tel père, tel fils (structure parallèle symétrique)"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Personne A (l'aînée)",
-      "text": "Hɔ́ɔnŋ hɔ̌ɔ : ɓòikpulu màánɛ̀ɛ ́ gèé ↓pɔ́.",
-      "phonetic_api": "/hɔ́ɔnŋ hɔ̌ɔ ɓòikpulu màánɛ̀ɛ́ gèé ↓pɔ́/",
-      "phonetic_simple": "HO-onng ho-O: ɓO-i-kpou-lou ma-a-NÈ-è gué pó",
-      "translation": "Je dis un proverbe : le troupeau de porcs doit rester toujours ensemble."
+      "speaker": "Le sage",
+      "text": "Ɓòikpulu màánɛ̀ɛ́ gèé ↓pɔ́, nàmûi.",
+      "phonetic_api": "/ɓòikpulu màánɛ̀ɛ́ gèé pɔ́ nàmûi/",
+      "phonetic_simple": "BO-i-KPOU-lou MA-a-nè-è ghé-é po, na-MOU-i",
+      "translation": "Le troupeau de porcs doit rester toujours ensemble, mon ami."
     },
     {
-      "speaker": "Personne B (la cadette)",
-      "text": "Ŋàá mɛ̌ŋ, màáhɔ̀lɔɓó kú hwókɛli kú kánaŋ.",
-      "phonetic_api": "/ŋàá mɛ̌ŋ màáhɔ̀lɔɓó kú hwókɛli kú kánaŋ/",
-      "phonetic_simple": "nga-a MENG, ma-a-HO-lo-ɓO kou HWO-kè-li kou KA-nang",
-      "translation": "J'ai compris, parce que nous devons rester unis."
+      "speaker": "Le jeune",
+      "text": "Ɲɔ̀ɔ à kɛ́tɛ hɔ́ɔnŋ ↓lí ?",
+      "phonetic_api": "/ɲɔ̀ɔ à kɛ́tɛ hɔ́ɔnŋ lí/",
+      "phonetic_simple": "ngno-o a KÉ-tè HO-ong li",
+      "translation": "Ceci, est-ce un proverbe ?"
     },
     {
-      "speaker": "Personne A (l'aînée)",
-      "text": "Kàŋ, gbùɠuluhaɠa màánɛ̀ɛ ́ vàŋa tɔ́ɠɔ.",
-      "phonetic_api": "/kàŋ gbùɣuluhaɣa màánɛ̀ɛ́ vàŋa tɔ́ɣɔ/",
-      "phonetic_simple": "kang, gbou-ghou-lou-HA-gha ma-a-NÈ-è VA-nga TO-gho",
-      "translation": "Donc, le vieux grenier doit être protégé contre le vent."
+      "speaker": "Le sage",
+      "text": "Òowɛi, hɔ́ɔnŋ ↓lí. Kwàlá hwǎ gàa hwó gùló wòlolóŋ mà.",
+      "phonetic_api": "/òowɛi hɔ́ɔnŋ lí kwàlá hwǎ gàa hwó gùló wòlolóŋ mà/",
+      "phonetic_simple": "o-wè-i, HO-ong li. KWA-la hwa GA-a HWO GOU-lo WO-lo-long ma",
+      "translation": "Oui, c'est un proverbe. Le petit singe ne met jamais au monde le petit du chimpanzé."
     },
     {
-      "speaker": "Personne B (la cadette)",
-      "text": "Yà gbìniŋ, à yálî, kɛ́laa kú lólo, kú lì màakwéâai.",
-      "phonetic_api": "/yà gbìniŋ à yálî kɛ́laa kú lólo kú lì màakwéâai/",
-      "phonetic_simple": "ya GBI-ning, a YA-lî, KÈ-laa kou LO-lo, kou li ma-a-KWÉ-â-i",
-      "translation": "Si tu le courbes, il casse, mais quant à nous, nous partirons loin."
-    },
-    {
-      "speaker": "Personne A (l'aînée)",
-      "text": "Hèɠeheɠelaá dà tɔ̀ɔtɔɔlaa ɓé. Máma, mɛ́niê !",
-      "phonetic_api": "/hèɣèhèɣèlaá dà tɔ̀ɔtɔɔlaa ɓé máma mɛ́niê/",
-      "phonetic_simple": "hè-ghè-hè-ghè-LAA da to-o-to-o-LAA bé. MA-ma, MÉ-ni-Ê !",
-      "translation": "Celui qui vient succède à celui qui part. Merci, mon ami !"
+      "speaker": "Le jeune",
+      "text": "Hèɠeheɠelaá dà tɔ̀ɔtɔɔlaa ɓé, hɔ̀ni ?",
+      "phonetic_api": "/hèɠeheɠelaá dà tɔ̀ɔtɔɔlaa ɓé hɔ̀ni/",
+      "phonetic_simple": "HÈ-ghè-HÈ-ghè-la-a da TO-o-TO-o-la-a bé, HO-ni",
+      "translation": "Celui qui vient succède à celui qui part, n'est-ce pas ?"
     }
   ],
   "cultural_notes": [
-    "Les proverbes kpele s'appuient très largement sur l'observation du monde animal et végétal de la forêt (porcs, singes, chimpanzés, plantes) pour transmettre des valeurs sociales — solidarité, prévoyance, hérédité, modestie — un procédé partagé par de nombreuses traditions orales d'Afrique de l'Ouest.",
-    "Réciter un proverbe (hɔ́ɔnŋ hɔ̌ɔ) au bon moment est une compétence rhétorique très valorisée chez les aînés (líê), qui l'utilisent pour trancher un débat ou recadrer une situation sans confrontation directe.",
-    "Le proverbe sur la voix (dà kɛ́ mà zɛ̀ŋ ... ŋwòó nɛ̀ɛî) illustre une valeur culturelle de modestie : on félicite les actes accomplis, jamais les personnes présentes qui pourraient s'en vanter à l'avance.",
-    "Le kwèlêŋ (conte, légende) et le hɔ́ɔnŋ (proverbe) relèvent tous deux de la tradition orale kpele, mais se distinguent par leur longueur et leur usage : le conte se raconte comme un récit complet, souvent le soir, tandis que le proverbe s'insère ponctuellement dans une conversation."
+    "Les proverbes (hɔ́ɔnŋ) occupent une place centrale dans la transmission orale des valeurs morales en pays guerzé, souvent récités par les aînés lors des palabres (gbɛ̀áhû) pour trancher un différend ou illustrer une leçon (Konoshenko 2019).",
+    "Le proverbe sur le singe et le chimpanzé illustre la conception guerzé de l'hérédité et de l'identité familiale, un thème récurrent dans la sagesse orale de la région forestière de Guinée."
   ],
   "exercises": [
     {
       "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Que signifie le proverbe « Ɓòikpulu màánɛ̀ɛ ́ gèé ↓pɔ́ » ?",
+      "question": "Quel proverbe guerzé signifie l'équivalent de « tel père, tel fils » ?",
       "options": [
-        "Il faut prévenir les problèmes",
-        "Les gens doivent rester solidaires",
-        "Tel père, tel fils",
-        "Il ne faut pas vanter quelqu'un de présent"
+        "Kwàlá hwǎ gàa hwó gùló wòlolóŋ mà, wòló hwǎ gàa hwó gùló kwàlalóŋ mà",
+        "Ɓòikpulu màánɛ̀ɛ́ gèé ↓pɔ́",
+        "Hálama tèêi, lɛ́lɛ tèêi"
       ],
-      "correct_answer": "Les gens doivent rester solidaires",
-      "explanation": "Ce proverbe sur le troupeau de porcs qui doit rester ensemble illustre la solidarité humaine."
+      "correct_answer": "Kwàlá hwǎ gàa hwó gùló wòlolóŋ mà, wòló hwǎ gàa hwó gùló kwàlalóŋ mà",
+      "explanation": "Konoshenko (2019) glose ce proverbe comme signifiant « tel père, tel fils »."
     },
     {
       "exercise_id": "ex2",
-      "type": "multiple_choice",
-      "question": "Quel verbe léger accompagne hɔ́ɔnŋ (proverbe) ?",
-      "options": [
-        "tǒo",
-        "hɔ̌ɔ",
-        "kɛ́",
-        "ɓó"
-      ],
-      "correct_answer": "hɔ̌ɔ",
-      "explanation": "hɔ́ɔnŋ ~ hɔ̌ɔ = dire un proverbe, un collocatif spécifique."
-    },
-    {
-      "exercise_id": "ex3",
-      "type": "multiple_choice",
-      "question": "Quelle structure caractérise de nombreux proverbes kpele ?",
-      "options": [
-        "Une seule proposition brève",
-        "Une structure binaire et symétrique",
-        "Une question rhétorique",
-        "Une liste de trois éléments"
-      ],
-      "correct_answer": "Une structure binaire et symétrique",
-      "explanation": "De nombreux proverbes opposent deux propositions parallèles, comme le singe et le chimpanzé qui ne peuvent échanger leurs petits."
-    },
-    {
-      "exercise_id": "ex4",
-      "type": "multiple_choice",
-      "question": "Que signifie le proverbe sur le petit singe et le chimpanzé ?",
-      "options": [
-        "Il faut être solidaire",
-        "Tel père, tel fils",
-        "Il faut prévenir les problèmes",
-        "La parole vaut plus que le silence"
-      ],
-      "correct_answer": "Tel père, tel fils",
-      "explanation": "Ce proverbe illustre que chacun ressemble à ses origines, comme le fait remarquer le dictionnaire."
-    },
-    {
-      "exercise_id": "ex5",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "« Le vieux grenier doit être protégé contre le vent » se dit : « Gbùɠuluhaɠa [ ___ ] vàŋa tɔ́ɠɔ. »",
-      "correct_answer": "màánɛ̀ɛ ́",
-      "hint": "C'est la conjonction d'obligation plus douce."
-    },
-    {
-      "exercise_id": "ex6",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Le proverbe sur la voix rappelle qu'il ne faut pas [ ___ ] les prouesses de quelqu'un de présent.",
-      "correct_answer": "vanter",
-      "hint": "C'est la leçon morale du proverbe sur ŋwòó (la voix)."
-    },
-    {
-      "exercise_id": "ex7",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "« Celui qui vient succède à celui qui part » se dit : « Hèɠeheɠelaá dà [ ___ ] ɓé. »",
-      "correct_answer": "tɔ̀ɔtɔɔlaa",
-      "hint": "C'est « celui qui part »."
+      "sentence_with_blank": "[ ___ ] màánɛ̀ɛ́ gèé ↓pɔ́. (Le troupeau de porcs doit rester toujours ensemble.)",
+      "correct_answer": "Ɓòikpulu",
+      "hint": "Animal (au pluriel collectif) symbolisant la solidarité dans ce proverbe."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Konoshenko, M. (2019). Dictionnaire kpele de la Guinée (guerzé) – français. Mandenkan 62.",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan62/62konoshenko.pdf"
+    },
+    {
+      "label": "Wikipédia — Kpèllé (langue) / Guerzé",
+      "url": "https://fr.wikipedia.org/wiki/Guerze"
+    }
+  ],
+  "confidence": "élevée",
+  "confidence_note": "Les cinq proverbes cités et le terme générique hɔ́ɔnŋ/hɔ́ŋ/háŋuŋ sont directement attestés avec traductions dans Konoshenko (2019)."
 }

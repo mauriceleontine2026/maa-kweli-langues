@@ -6,150 +6,213 @@
   "lesson_number": 5,
   "title": "Les chiffres, les nombres et le comptage",
   "learning_objectives": [
-    "Compter de 1 à 10 avec assurance en kono",
-    "Comprendre la logique d'assemblage des dizaines et l'énonciation des quantités"
+    "Compter de 1 à 10 en kono authentique",
+    "Former les dizaines simples par composition",
+    "Utiliser les nombres pour quantifier des objets courants"
   ],
   "phonetic_focus": {
-    "key_sounds": "La vibration du son /v/ combinée aux voyelles fermées /u/ demande une attention particulière. Les nombres finissant par des consonnes nasales doivent garder le ton constant.",
-    "common_pitfalls": "Attention à ne pas oublier la modification tonale lorsque le chiffre est suivi directement par l'objet compté."
+    "key_sounds": "Les numéraux mɛǹ- (6 à 9) partagent un préfixe commun mɛǹ- suivi de la racine du chiffre correspondant (mɛǹdà=6, mɛh̀erà=7, mɛh̀aɓ̀à=8, mɛǹaáŋ=9), un schéma de composition typique des langues mandées.",
+    "common_pitfalls": "Ne pas confondre naáŋ (4) et mɛǹaáŋ (9), qui partagent la même racine -aáŋ mais un préfixe différent."
   },
   "vocabulary": [
     {
-      "word_id": "v5_1",
-      "term": "dóndó",
-      "phonetic_api": "/dóndó/",
-      "phonetic_simple": "DON-DO",
-      "translation": "Un (1)",
-      "example_sentence": "Mɔ̀ dóndó le káá.",
-      "example_phonetic": "/mɔ̀ dóndó le káː/",
-      "example_translation": "Il y a une seule personne."
+      "word_id": "v1",
+      "term": "tɔǹɔ̀",
+      "phonetic_api": "/tɔ̀nɔ̀/",
+      "phonetic_simple": "TO-NO",
+      "translation": "un, 1",
+      "example_sentence": "Dèe tɔǹɔ̀.",
+      "example_phonetic": "/dèː tɔ̀nɔ̀/",
+      "example_translation": "Un enfant."
     },
     {
-      "word_id": "v5_2",
-      "term": "fɛ̀ɛ̀",
-      "phonetic_api": "/fɛ̀ː/",
-      "phonetic_simple": "FEE",
-      "translation": "Deux (2)",
-      "example_sentence": "Lóŋ fɛ̀ɛ̀ bɛ̀ í yí.",
-      "example_phonetic": "/lóŋ fɛ̀ː ɓɛ̀ í jí/",
-      "example_translation": "Tu as deux enfants."
+      "word_id": "v2",
+      "term": "hwer̀ɛ̀",
+      "phonetic_api": "/hwèrɛ̀/",
+      "phonetic_simple": "HOUÉ-RÈ",
+      "translation": "deux, 2",
+      "example_sentence": "Dèe hwer̀ɛ̀.",
+      "example_phonetic": "/dèː hwèrɛ̀/",
+      "example_translation": "Deux enfants."
     },
     {
-      "word_id": "v5_3",
-      "term": "hàágpà",
-      "phonetic_api": "/hàáɡɓà/",
-      "phonetic_simple": "HAA-GBA",
-      "translation": "Trois (3)",
-      "example_sentence": "Kpáá hàágpà ní ɓí.",
-      "example_phonetic": "/kpáː hàáɡɓà ní ɓí/",
-      "example_translation": "Prends trois tabourets."
+      "word_id": "v3",
+      "term": "haɓ̀à",
+      "phonetic_api": "/hàɓà/",
+      "phonetic_simple": "HA-BA",
+      "translation": "trois, 3",
+      "example_sentence": "Dèe haɓ̀à.",
+      "example_phonetic": "/dèː hàɓà/",
+      "example_translation": "Trois enfants."
     },
     {
-      "word_id": "v5_4",
-      "term": "híáànù",
-      "phonetic_api": "/híáːnù/",
-      "phonetic_simple": "HIA-ANOU",
-      "translation": "Quatre (4)",
-      "example_sentence": "Gàà híáànù le bɛ̀ nì.",
-      "example_phonetic": "/ɡàː híáːnù le ɓɛ̀ nì/",
-      "example_translation": "Il y a quatre maisons ici."
+      "word_id": "v4",
+      "term": "naáŋ",
+      "phonetic_api": "/naáŋ/",
+      "phonetic_simple": "NA-ANG",
+      "translation": "quatre, 4",
+      "example_sentence": "Dèe naáŋ.",
+      "example_phonetic": "/dèː naáŋ/",
+      "example_translation": "Quatre enfants."
     },
     {
-      "word_id": "v5_5",
-      "term": "hɔ́ɔ́lù",
-      "phonetic_api": "/hɔ́ːlù/",
-      "phonetic_simple": "HOO-LOU",
-      "translation": "Cinq (5)",
-      "example_sentence": "Ɓɔ̀lɔ̀ hɔ́ɔ́lù nìí mɛ̀.",
-      "example_phonetic": "/ɓɔ̀lɔ̀ hɔ́ːlù nìː mɛ̀/",
-      "example_translation": "Regarde ces cinq bananes."
+      "word_id": "v5",
+      "term": "lɔɔ́lú",
+      "phonetic_api": "/lɔːlú/",
+      "phonetic_simple": "LO-O-LOU",
+      "translation": "cinq, 5",
+      "example_sentence": "Dèe lɔɔ́lú.",
+      "example_phonetic": "/dèː lɔːlú/",
+      "example_translation": "Cinq enfants."
+    },
+    {
+      "word_id": "v6",
+      "term": "mɛŋ̀dà",
+      "phonetic_api": "/mɛ̀ŋdà/",
+      "phonetic_simple": "MEN-DA",
+      "translation": "six, 6",
+      "example_sentence": "Dèe mɛŋ̀dà.",
+      "example_phonetic": "/dèː mɛ̀ŋdà/",
+      "example_translation": "Six enfants."
+    },
+    {
+      "word_id": "v7",
+      "term": "pòù",
+      "phonetic_api": "/pòu/",
+      "phonetic_simple": "PO-OU",
+      "translation": "dix, 10",
+      "example_sentence": "Dèe pòù.",
+      "example_phonetic": "/dèː pòu/",
+      "example_translation": "Dix enfants."
+    },
+    {
+      "word_id": "v8",
+      "term": "mɛh̀aɓ̀à",
+      "phonetic_api": "/mɛ̀hàɓà/",
+      "phonetic_simple": "MÉ-HA-BA",
+      "translation": "huit, 8",
+      "example_sentence": "Dèe mɛh̀aɓ̀à.",
+      "example_phonetic": "/dèː mɛ̀hàɓà/",
+      "example_translation": "Huit enfants."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p5_1",
-      "original": "À pɛ́ɛ̀ nìà bɛ̀ ?",
-      "phonetic_api": "/à pɛ́ːɛ̀ nìà ɓɛ̀/",
-      "phonetic_simple": "A PEE NIA BE ?",
-      "translation": "C'est combien ?",
-      "context": "Demander le coût d'une marchandise ou le compte final."
+      "phrase_id": "p1",
+      "original": "É wɔ́lɔ́ ɛ́ nú?",
+      "phonetic_api": "/é wɔ́lɔ́ ɛ́ nú/",
+      "phonetic_simple": "É WO-LO É NOU",
+      "translation": "Combien en as-tu ?",
+      "context": "Question apparentée (kpele) pour demander une quantité ; confiance moyenne."
     },
     {
-      "phrase_id": "p5_2",
-      "original": "Mɔ̀ puù le káá.",
-      "phonetic_api": "/mɔ̀ pūː le káː/",
-      "phonetic_simple": "MO POUOU LE KAA.",
-      "translation": "Il y a dix personnes.",
-      "context": "Dénombrer un groupe de gens."
+      "phrase_id": "p2",
+      "original": "Dèe pòù.",
+      "phonetic_api": "/dèː pòu/",
+      "phonetic_simple": "DÉ-É PO-OU",
+      "translation": "Dix enfants.",
+      "context": "Exemple de comptage direct nom + numéral, sans marque grammaticale additionnelle."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Tɔǹɔ̀, hwer̀ɛ̀, haɓ̀à...",
+      "phonetic_api": "/tɔ̀nɔ̀ hwèrɛ̀ hàɓà/",
+      "phonetic_simple": "TO-NO, HOUÉ-RÈ, HA-BA...",
+      "translation": "Un, deux, trois...",
+      "context": "Comptage énumératif de base, utile pour l'apprentissage initial."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Sɔ̀ŋ nú kɔ́lɔ dɛ́ɛ?",
+      "phonetic_api": "/sɔ̀ŋ nú kɔ́lɔ dɛ́ɛ/",
+      "phonetic_simple": "SONG NOU KO-LO DÉ-É",
+      "translation": "Combien ça coûte ? (litt. 'le prix est combien ?')",
+      "context": "Formule utile pour demander un prix au marché, combinant le vocabulaire des chiffres au contexte commercial."
     }
   ],
   "grammar_points": [
     {
-      "concept": "La position de l'adjectif numéral cardinal",
-      "explanation": "En kono, contrairement au français, l'adjectif numéral cardinal (le chiffre qui compte) se place impérativement après le nom qu'il qualifie. Le nom ne prend pas systématiquement de marque de pluriel visible si le chiffre indique déjà la pluralité.",
+      "concept": "La formation des numéraux composés (6 à 9)",
+      "explanation": "Les numéraux de 6 à 9 en kono se forment par un préfixe mɛǹ- ajouté devant une racine évoquant le chiffre correspondant réduit de 5 (mɛǹdà=6 ≈ 5+1, mɛh̀erà=7≈5+2, mɛh̀aɓ̀à=8≈5+3, mɛǹaáŋ=9≈5+4), un système décimal-additif typique des langues mandées du sud.",
       "rules": [
-        "Structure standard : Nom + Chiffre",
-        "Le nom conserve généralement sa forme de base."
+        "Les chiffres 1 à 5 sont des racines simples non composées.",
+        "Les chiffres 6 à 9 ajoutent le préfixe mɛǹ-/mɛh̀- à une racine dérivée des chiffres 1 à 4.",
+        "Le nom compté précède directement le numéral, sans particule de liaison."
       ],
       "examples": [
         {
-          "structure": "Mɔ̀ (personne) + fɛ̀ɛ̀ (deux)",
-          "phonetic_api": "/mɔ̀ fɛ̀ː/",
-          "meaning": "Deux personnes"
-        },
-        {
-          "structure": "Gàà (maison) + puù (dix)",
-          "phonetic_api": "/ɡàː pūː/",
-          "meaning": "Dix maisons"
+          "structure": "Nom + Numéral",
+          "phonetic_api": "/dèː tɔ̀nɔ̀/",
+          "meaning": "un enfant (litt. enfant-un)"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Kéèmɔ̀",
-      "text": "Í lóŋ nìà bɛ̀, Sia ?",
-      "phonetic_api": "/í lóŋ nìà ɓɛ̀ sīā/",
-      "phonetic_simple": "I long nia be, Sia ?",
-      "translation": "Combien d'enfants as-tu, Sia ?"
+      "speaker": "Professeur",
+      "text": "Tɔǹɔ̀, hwer̀ɛ̀, haɓ̀à, naáŋ, lɔɔ́lú!",
+      "phonetic_api": "/tɔ̀nɔ̀ hwèrɛ̀ hàɓà naáŋ lɔːlú/",
+      "phonetic_simple": "TO-NO, HOUÉ-RÈ, HA-BA, NA-ANG, LO-O-LOU",
+      "translation": "Un, deux, trois, quatre, cinq !"
     },
     {
-      "speaker": "Sīā",
-      "text": "Ń lóŋ hàágpà le bɛ̀.",
-      "phonetic_api": "/ń lóŋ hàáɡɓà le ɓɛ̀/",
-      "phonetic_simple": "N long haa-gba le be.",
-      "translation": "J'au trois enfants."
+      "speaker": "Élève",
+      "text": "Mɛŋ̀dà, mɛh̀erà, mɛh̀aɓ̀à, mɛǹaáŋ, pòù!",
+      "phonetic_api": "/mɛ̀ŋdà mɛ̀hèrà mɛ̀hàɓà mɛ̀naáŋ pòu/",
+      "phonetic_simple": "MEN-DA, MÉ-HÉ-RA, MÉ-HA-BA, MÉ-NA-ANG, PO-OU",
+      "translation": "Six, sept, huit, neuf, dix !"
     },
     {
-      "speaker": "Kéèmɔ̀",
-      "text": "Hàágpà ? À kɛ́nɛ̀ kɔ́ɔ́ !",
-      "phonetic_api": "/hàáɡɓà à kɛ́nɛ̀ kɔ́ː/",
-      "phonetic_simple": "Haa-gba ? A ke-ne koo !",
-      "translation": "Trois ? C'est merveilleux !"
+      "speaker": "Professeur",
+      "text": "É wɔ́lɔ́ ɛ́ nú?",
+      "phonetic_api": "/é wɔ́lɔ́ ɛ́ nú/",
+      "phonetic_simple": "É WO-LO É NOU",
+      "translation": "Combien en as-tu ?"
+    },
+    {
+      "speaker": "Élève",
+      "text": "Dèe lɔɔ́lú.",
+      "phonetic_api": "/dèː lɔːlú/",
+      "phonetic_simple": "DÉ-É LO-O-LOU",
+      "translation": "Cinq enfants."
     }
   ],
   "cultural_notes": [
-    "Dans le système de numération traditionnel kono, le comptage s'appuie sur une base quinaire (base 5), liée aux cinq doigts de la main. Dix ('puù') marque une étape majeure représentant la réunion des deux mains."
+    "Le système décimal-additif des numéraux 6 à 9 (préfixe mɛǹ- + racine) est une caractéristique typologique partagée par de nombreuses langues mandées du sud, ce qui facilite l'apprentissage croisé avec le kpele ou le maninka voisins.",
+    "Traditionnellement, le comptage précis au-delà de la dizaine était souvent effectué avec des objets (cailloux, noix de cola) plutôt qu'oralement, une pratique encore observée dans certains marchés ruraux de la région forestière."
   ],
   "exercises": [
     {
-      "exercise_id": "ex5_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Comment dit-on 'cinq' en langue kono ?",
+      "question": "Comment dit-on « cinq » en kono ?",
       "options": [
-        "hɔ́ɔ́lù",
-        "hàágpà",
-        "dóndó"
+        "lɔɔ́lú",
+        "naáŋ",
+        "pòù"
       ],
-      "correct_answer": "hɔ́ɔ́lù",
-      "explanation": "'hɔ́ɔ́lù' est le terme exact pour le chiffre 5."
+      "correct_answer": "lɔɔ́lú",
+      "explanation": "lɔɔ́lú est le numéral kono pour 5, attesté dans Konoshenko (2017)."
     },
     {
-      "exercise_id": "ex5_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Mɔ̀ [ ___ ] le bɛ̀ nì. (Il y a une personne ici.)",
-      "correct_answer": "dóndó",
-      "hint": "Le chiffre un."
+      "sentence_with_blank": "Dèe ___. (Dix enfants.)",
+      "correct_answer": "pòù",
+      "hint": "Le numéral kono pour 10."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Maria Konoshenko, « Field Notes on Kono, a Southwestern Mande Lect of Forest Guinea », Mandenkan 57 (2017), pp. 77-107",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan57/konoshenko57.pdf"
+    },
+    {
+      "label": "Maria Konoshenko, « Dictionnaire kpele de la Guinée (guerzé) – français », Mandenkan 62 (2019/2020)",
+      "url": "https://journals.openedition.org/mandenkan/2091"
+    }
+  ],
+  "confidence": "élevée",
+  "confidence_note": "Vocabulaire, pronoms, chiffres et structures grammaticales directement attestés dans l'article académique de référence sur le Kono de Guinée (Konoshenko 2017, Mandenkan 57), qui fournit une liste Swadesh de 100 mots, un paradigme complet de marqueurs pronominaux/TAM et des exemples de salutations en Kono authentique. Les numéraux 1 à 10 sont directement attestés en kono dans l'article de référence ; la question de quantité générale s'appuie sur le kpele apparenté par prudence."
 }

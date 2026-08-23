@@ -6,391 +6,214 @@
   "lesson_number": 5,
   "title": "Les chiffres, les nombres et le comptage",
   "learning_objectives": [
-    "Compter de 1 à 10, puis dire cent (ŋwûŋ) et mille (wáa).",
-    "Distinguer les trois formes du nombre « un » selon le contexte (objet compté, comptage en série, nombre composé).",
-    "Former un grand nombre composé sur le modèle multiplicatif (dizaines = 10 × chiffre).",
-    "Demander et donner un prix avec yɛ̌li (combien ?) et wáa (mille)."
+    "Compter de 1 à 10 en guerzé",
+    "Connaître les mots pour cent et mille",
+    "Utiliser les nombres dans des phrases simples (prix, quantités)"
   ],
   "phonetic_focus": {
-    "key_sounds": "Les nombres kpele portent des tons très marqués qu'il faut respecter pour être compris : hǎaɓa (trois, ton bas plat) ne se confond pas avec háaɓà (huit, dans mɛ̀iháaɓà). On retrouve aussi la construction en mɛ̀i- pour 6 à 9 (mɛ̀ídà, mɛ̀ihwéelɛ̀, mɛ̀iháaɓà, mɛ̀ináaŋ), un préfixe qui semble lié à « cinq » (lɔ́ɔli) : 6 à 9 se construisent comme « cinq + 1, 2, 3, 4 ».",
-    "common_pitfalls": "Les francophones ont tendance à : (1) utiliser une seule forme pour « un » alors que le kpele en a trois selon le contexte (tɔ̀nɔ pour un objet compté, táaŋ pour compter en série, tànɔ́ŋ dans un nombre composé) ; (2) chercher un mot unique pour chaque dizaine, alors que le kpele les construit par multiplication (dix × chiffre) ; (3) ne pas repérer le préfixe mɛ̀i- qui relie 6, 7, 8, 9 à 5 (lɔ́ɔli)."
+    "key_sounds": "Le système numéral guerzé est construit sur une base de 5 : à partir de 6, on dit littéralement « cinq-plus-un » (mɛ̀ídà), « cinq-plus-deux » (mɛ̀ihwéelɛ̀), etc. Le ton descendant est fréquent sur les numéraux (tɔ́nɔ̂, hàaɓá).",
+    "common_pitfalls": "Les francophones essaient parfois de mémoriser 6 à 9 comme des mots isolés, alors qu'ils sont transparents (formés sur « 5 + reste ») une fois qu'on connaît 1 à 5 — cela facilite grandement la mémorisation."
   },
   "vocabulary": [
     {
       "word_id": "v1",
-      "term": "tɔ̀nɔ",
-      "phonetic_api": "/tɔ̀nɔ/",
-      "phonetic_simple": "to-no (ton bas)",
-      "translation": "un (pour compter un objet)",
-      "example_sentence": "Ɓɛ́laa tɔ́nɔ ↓káa ɲêi.",
-      "example_phonetic": "/ɓɛ́láá tɔ́nɔ ↓káa ɲêi/",
-      "example_translation": "J'ai un mouton."
+      "term": "tɔ̀nɔ / tɔ́nɔ̂",
+      "phonetic_api": "/tɔ̀nɔ, tɔ́nɔ̂/",
+      "phonetic_simple": "TO-no",
+      "translation": "un, 1",
+      "example_sentence": "Lókòlo tɔ́nɔ̂.",
+      "example_phonetic": "/lókòlo tɔ́nɔ̂/",
+      "example_translation": "Un enfant."
     },
     {
       "word_id": "v2",
       "term": "hwěelɛ",
       "phonetic_api": "/hwěelɛ/",
-      "phonetic_simple": "HWÈ-è-lè",
-      "translation": "deux",
-      "example_sentence": "hwěelɛ",
-      "example_phonetic": "/hwěelɛ/",
-      "example_translation": "deux"
+      "phonetic_simple": "HWÉ-è-lè",
+      "translation": "deux, 2",
+      "example_sentence": "Lɛ́ɛlɛ hwèelɛ́.",
+      "example_phonetic": "/lɛ́ɛlɛ hwèelɛ́/",
+      "example_translation": "Deux heures."
     },
     {
       "word_id": "v3",
       "term": "hǎaɓa",
       "phonetic_api": "/hǎaɓa/",
-      "phonetic_simple": "HA-a-ɓa",
-      "translation": "trois",
-      "example_sentence": "Gwíikpɔ̀lu hàaɓa káa à wáa tɔ́nɔ̂.",
-      "example_phonetic": "/gwíikpɔ̀lu hàaɓa káa à wáa tɔ́nɔ̂/",
-      "example_translation": "Trois bananes coûtent mille francs."
+      "phonetic_simple": "HA-a-ba",
+      "translation": "trois, 3",
+      "example_sentence": "Gwíikpɔ̀lu hàaɓa.",
+      "example_phonetic": "/gwíikpɔ̀lu hàaɓa/",
+      "example_translation": "Trois bananes."
     },
     {
       "word_id": "v4",
       "term": "náaŋ",
       "phonetic_api": "/náaŋ/",
       "phonetic_simple": "NA-ang",
-      "translation": "quatre",
-      "example_sentence": "náaŋ",
-      "example_phonetic": "/náaŋ/",
-      "example_translation": "quatre"
+      "translation": "quatre, 4",
+      "example_sentence": "Lókòlo náaŋ.",
+      "example_phonetic": "/lókòlo náaŋ/",
+      "example_translation": "Quatre enfants."
     },
     {
       "word_id": "v5",
       "term": "lɔ́ɔli",
       "phonetic_api": "/lɔ́ɔli/",
       "phonetic_simple": "LO-o-li",
-      "translation": "cinq",
-      "example_sentence": "lɔ́ɔli",
-      "example_phonetic": "/lɔ́ɔli/",
-      "example_translation": "cinq"
+      "translation": "cinq, 5",
+      "example_sentence": "Wálî lɔ́ɔli.",
+      "example_phonetic": "/wálî lɔ́ɔli/",
+      "example_translation": "Cinq francs."
     },
     {
       "word_id": "v6",
       "term": "mɛ̀ídà",
       "phonetic_api": "/mɛ̀ídà/",
       "phonetic_simple": "mè-I-da",
-      "translation": "six",
-      "example_sentence": "mɛ̀ídà",
-      "example_phonetic": "/mɛ̀ídà/",
-      "example_translation": "six"
+      "translation": "six, 6 (litt. cinq-plus-un)",
+      "example_sentence": "Pěle mɛ̀ídà.",
+      "example_phonetic": "/pěle mɛ̀ídà/",
+      "example_translation": "Six routes."
     },
     {
       "word_id": "v7",
-      "term": "mɛ̀ihwéelɛ̀",
-      "phonetic_api": "/mɛ̀ihwéelɛ̀/",
-      "phonetic_simple": "mè-i-HWÉ-è-lè",
-      "translation": "sept",
-      "example_sentence": "mɛ̀ihwéelɛ̀",
-      "example_phonetic": "/mɛ̀ihwéelɛ̀/",
-      "example_translation": "sept"
+      "term": "pǒu",
+      "phonetic_api": "/pǒu/",
+      "phonetic_simple": "POU",
+      "translation": "dix, 10",
+      "example_sentence": "Wálî pǒu.",
+      "example_phonetic": "/wálî pǒu/",
+      "example_translation": "Dix francs."
     },
     {
       "word_id": "v8",
-      "term": "mɛ̀iháaɓà",
-      "phonetic_api": "/mɛ̀iháaɓà/",
-      "phonetic_simple": "mè-i-HA-a-ɓa",
-      "translation": "huit",
-      "example_sentence": "mɛ̀iháaɓà",
-      "example_phonetic": "/mɛ̀iháaɓà/",
-      "example_translation": "huit"
-    },
-    {
-      "word_id": "v9",
-      "term": "mɛ̀ináaŋ",
-      "phonetic_api": "/mɛ̀ináaŋ/",
-      "phonetic_simple": "mè-i-NA-ang",
-      "translation": "neuf",
-      "example_sentence": "mɛ̀ináaŋ",
-      "example_phonetic": "/mɛ̀ináaŋ/",
-      "example_translation": "neuf"
-    },
-    {
-      "word_id": "v10",
-      "term": "pǒu",
-      "phonetic_api": "/pǒu/",
-      "phonetic_simple": "po-ou (ton bas)",
-      "translation": "dix",
-      "example_sentence": "Kwɛ́laŋ bòu ɓé ɲêi.",
-      "example_phonetic": "/kwɛ́láŋ bòu ɓé ɲêi/",
-      "example_translation": "J'ai dix ans."
-    },
-    {
-      "word_id": "v11",
-      "term": "ŋwûŋ",
-      "phonetic_api": "/ŋwûŋ/",
-      "phonetic_simple": "NGWOUNG (descendant)",
-      "translation": "cent",
-      "example_sentence": "ŋwùŋ dɔ́nɔ kɔ́u pòu háaɓà kɔ́u tànɔ́ŋ.",
-      "example_phonetic": "/ŋwùŋ dɔ́nɔ kɔ́u pòu háaɓà kɔ́u tànɔ́ŋ/",
-      "example_translation": "cent trente et un"
-    },
-    {
-      "word_id": "v12",
-      "term": "wáa",
-      "phonetic_api": "/wáá/",
-      "phonetic_simple": "WA-a",
-      "translation": "mille",
+      "term": "ŋwûŋ / wáa",
+      "phonetic_api": "/ŋwûŋ, wáa/",
+      "phonetic_simple": "NGOUNG / WA",
+      "translation": "cent / mille",
       "example_sentence": "Gwíikpɔ̀lu hàaɓa káa à wáa tɔ́nɔ̂.",
       "example_phonetic": "/gwíikpɔ̀lu hàaɓa káa à wáa tɔ́nɔ̂/",
       "example_translation": "Trois bananes coûtent mille francs."
-    },
-    {
-      "word_id": "v13",
-      "term": "lónoŋ",
-      "phonetic_api": "/lónoŋ/",
-      "phonetic_simple": "LO-nong",
-      "translation": "compter ; aussi lire",
-      "example_sentence": "Gáa zɛ̀ɓɛ́ ↓lónoŋzî.",
-      "example_phonetic": "/gáa zɛ̀ɓɛ́ ↓lónoŋzí/",
-      "example_translation": "Je suis en train de lire le livre."
-    },
-    {
-      "word_id": "v14",
-      "term": "táaŋ",
-      "phonetic_api": "/táaŋ/",
-      "phonetic_simple": "TA-ang",
-      "translation": "un (pour compter en série : un, deux, trois...)",
-      "example_sentence": "táaŋ, hwěelɛ, hǎaɓa...",
-      "example_phonetic": "/táaŋ hwěelɛ hǎaɓa/",
-      "example_translation": "un, deux, trois..."
     }
   ],
   "common_phrases": [
     {
       "phrase_id": "p1",
-      "original": "Ɓɛ́laa tɔ́nɔ ↓káa ɲêi.",
-      "phonetic_api": "/ɓɛ́láá tɔ́nɔ ↓káa ɲêi/",
-      "phonetic_simple": "ɓÉ-laa TO-no kaa NYÊ-i",
-      "translation": "J'ai un mouton.",
-      "context": "Compter un objet possédé"
+      "original": "Tɔ̀nɔ, hwěelɛ, hǎaɓa, náaŋ, lɔ́ɔli.",
+      "phonetic_api": "/tɔ̀nɔ hwěelɛ hǎaɓa náaŋ lɔ́ɔli/",
+      "phonetic_simple": "TO-no, HWÉ-è-lè, HA-a-ba, NA-ang, LO-o-li",
+      "translation": "Un, deux, trois, quatre, cinq.",
+      "context": "Compter de 1 à 5."
     },
     {
       "phrase_id": "p2",
-      "original": "É kwɛ́laŋ yɛ̌li ?",
-      "phonetic_api": "/é kwɛ́láŋ yɛ̌li/",
-      "phonetic_simple": "é KWÉ-lang yè-li ?",
-      "translation": "Quel âge as-tu ?",
-      "context": "Rappel de la Leçon 2 : demander l'âge avec yɛ̌li"
+      "original": "Mɛ̀ídà, mɛ̀ihwéelɛ̀, mɛ̀iháaɓà, mɛ̀ináaŋ, pǒu.",
+      "phonetic_api": "/mɛ̀ídà mɛ̀ihwéelɛ̀ mɛ̀iháaɓà mɛ̀ináaŋ pǒu/",
+      "phonetic_simple": "mè-I-da, mè-i-HWÉ-è-lè, mè-i-HA-a-ba, mè-i-NA-ang, POU",
+      "translation": "Six, sept, huit, neuf, dix.",
+      "context": "Compter de 6 à 10, tous construits sur « cinq + reste »."
     },
     {
       "phrase_id": "p3",
-      "original": "Kwɛ́laŋ bòu ɓé ɲêi.",
-      "phonetic_api": "/kwɛ́láŋ bòu ɓé ɲêi/",
-      "phonetic_simple": "KWÉ-lang bo-ou bé nyê-i",
-      "translation": "J'ai dix ans.",
-      "context": "Répondre avec un nombre (ici pǒu, alterné en bòu après -ŋ)"
+      "original": "Gwíikpɔ̀lu hàaɓa káa à wáa tɔ́nɔ̂.",
+      "phonetic_api": "/gwíikpɔ̀lu hàaɓa káa à wáa tɔ́nɔ̂/",
+      "phonetic_simple": "gwi-i-KPO-lu HA-a-ba ka a WA TO-no",
+      "translation": "Trois bananes coûtent mille francs.",
+      "context": "Phrase attestée dans le dictionnaire, illustrant un prix au marché."
     },
     {
       "phrase_id": "p4",
-      "original": "À wáli yɛ̌li ?",
-      "phonetic_api": "/à wáli yɛ̌li/",
-      "phonetic_simple": "a WA-li yè-li ?",
-      "translation": "C'est combien ?",
-      "context": "Demander un prix au marché"
-    },
-    {
-      "phrase_id": "p5",
-      "original": "Gwíikpɔ̀lu hàaɓa káa à wáa tɔ́nɔ̂.",
-      "phonetic_api": "/gwíikpɔ̀lu hàaɓa káa à wáa tɔ́nɔ̂/",
-      "phonetic_simple": "GWI-i-kpo-lou HA-a-ɓa kaa a WA-a TO-nô",
-      "translation": "Trois bananes coûtent mille francs.",
-      "context": "Donner un prix au marché"
-    },
-    {
-      "phrase_id": "p6",
-      "original": "ŋwùŋ dɔ́nɔ kɔ́u pòu háaɓà kɔ́u tànɔ́ŋ",
-      "phonetic_api": "/ŋwùŋ dɔ́nɔ kɔ́u pòu háaɓà kɔ́u tànɔ́ŋ/",
-      "phonetic_simple": "ngwoung DO-no KO-ou po-ou HA-a-ɓa KO-ou ta-NONG",
-      "translation": "cent trente et un",
-      "context": "Exemple de grand nombre composé"
-    },
-    {
-      "phrase_id": "p7",
-      "original": "Gáa zɛ̀ɓɛ́ ↓lónoŋzî.",
-      "phonetic_api": "/gáa zɛ̀ɓɛ́ ↓lónoŋzí/",
-      "phonetic_simple": "gaa zè-ɓÉ lo-NONG-zi",
-      "translation": "Je suis en train de lire le livre.",
-      "context": "lónoŋ signifie aussi bien « compter » que « lire »"
-    },
-    {
-      "phrase_id": "p8",
-      "original": "táaŋ, hwěelɛ, hǎaɓa, náaŋ, lɔ́ɔli...",
-      "phonetic_api": "/táaŋ hwěelɛ hǎaɓa náaŋ lɔ́ɔli/",
-      "phonetic_simple": "TA-ang, HWÈ-è-lè, HA-a-ɓa, NA-ang, LO-o-li...",
-      "translation": "un, deux, trois, quatre, cinq...",
-      "context": "Compter en série (comptine, jeux)"
+      "original": "Wálî nɛ̀lɛ́ ɓé kɛ̀ɛ ?",
+      "phonetic_api": "/wálî nɛ̀lɛ́ ɓé kɛ̀ɛ/",
+      "phonetic_simple": "wa-LI nè-LÈ bé kè-è",
+      "translation": "Combien ça coûte ? (litt. quel argent est-ce)",
+      "context": "Question sur le prix, construite avec l'interrogatif nɛ̀lɛ́ (quel)."
     }
   ],
   "grammar_points": [
     {
-      "concept": "Trois formes pour « un »",
-      "explanation": "Contrairement au français, le kpele n'a pas un seul mot pour « un » : la forme employée dépend de la fonction grammaticale du nombre dans la phrase.",
+      "concept": "Le système numéral en base 5",
+      "explanation": "Les nombres 6 à 9 en guerzé sont formés de manière transparente à partir de 5 (mɛ̀i- « cinq restant ») suivi du chiffre 1 à 4 : 6 = 5+1, 7 = 5+2, 8 = 5+3, 9 = 5+4. Ce système en base 5 est typique des langues mandé du Sud.",
       "rules": [
-        "tɔ̀nɔ (ou tìnɔ) s'emploie pour compter un objet précis : ɓɛ́laa tɔ́nɔ (un mouton).",
-        "táaŋ s'emploie pour compter en série, comme une comptine : táaŋ, hwěelɛ, hǎaɓa... (un, deux, trois...).",
-        "tànɔ́ŋ (ou tàanɔ́, tɔ̀nɔ́ŋ) s'emploie comme unité dans les nombres composés à partir de 21 : ... kɔ́u tànɔ́ŋ (... et un)."
+        "6 = mɛ̀ídà (cinq + un)",
+        "7 = mɛ̀ihwéelɛ̀ (cinq + deux)",
+        "8 = mɛ̀iháaɓà (cinq + trois)",
+        "9 = mɛ̀ináaŋ (cinq + quatre)"
       ],
       "examples": [
         {
-          "structure": "tɔ̀nɔ / táaŋ / tànɔ́ŋ",
-          "phonetic_api": "/tɔ̀nɔ/ /táaŋ/ /tànɔ́ŋ/",
-          "meaning": "un objet / un en comptant / un dans un grand nombre"
-        }
-      ]
-    },
-    {
-      "concept": "Le préfixe mɛ̀i- pour 6, 7, 8, 9",
-      "explanation": "Les nombres de 6 à 9 se construisent tous sur le même modèle : le préfixe mɛ̀i- suivi du chiffre correspondant parmi 1 à 4, ce qui suggère une construction historique du type « cinq plus... ».",
-      "rules": [
-        "mɛ̀ídà (six) — mɛ̀i- + dà.",
-        "mɛ̀ihwéelɛ̀ (sept) — mɛ̀i- + hwéelɛ̀ (deux).",
-        "mɛ̀iháaɓà (huit) — mɛ̀i- + háaɓà (trois).",
-        "mɛ̀ináaŋ (neuf) — mɛ̀i- + náaŋ (quatre)."
-      ],
-      "examples": [
-        {
-          "structure": "mɛ̀i- + hwéelɛ̀ → mɛ̀ihwéelɛ̀",
-          "phonetic_api": "/mɛ̀i + hwéelɛ̀/ → /mɛ̀ihwéelɛ̀/",
-          "meaning": "« cinq-deux » → sept (littéralement, si l'analyse est correcte)"
-        }
-      ]
-    },
-    {
-      "concept": "Les dizaines et les grands nombres composés",
-      "explanation": "Une dizaine se construit en multipliant dix (pǒu) par le chiffre voulu, un peu comme le français « quatre-vingts » (4×20). Les nombres composés s'enchaînent ensuite avec un connecteur kɔ́u.",
-      "rules": [
-        "pòu háaɓà (dix trois) = trente (10 × 3).",
-        "Un grand nombre composé s'enchaîne : cent + connecteur + dizaine + kɔ́u (et) + unité : ŋwùŋ dɔ́nɔ kɔ́u pòu háaɓà kɔ́u tànɔ́ŋ (cent trente et un).",
-        "wáa (mille) fonctionne comme cent (ŋwûŋ) : gwíikpɔ̀lu hàaɓa káa à wáa tɔ́nɔ̂ (trois bananes coûtent mille francs)."
-      ],
-      "examples": [
-        {
-          "structure": "pòu háaɓà",
-          "phonetic_api": "/pòu hàaɓà/",
-          "meaning": "trente (litt. dix trois)"
-        }
-      ]
-    },
-    {
-      "concept": "Demander et donner un prix",
-      "explanation": "La même construction avec yɛ̌li (combien ?) vue en Leçon 2 pour l'âge sert aussi à demander un prix ; la réponse utilise wáa (mille) ou ŋwûŋ (cent) selon la somme.",
-      "rules": [
-        "à wáli yɛ̌li ? (l'argent, combien ?) = c'est combien ?",
-        "La réponse reprend la structure [objet] káa à [prix] : gwíikpɔ̀lu hàaɓa káa à wáa tɔ́nɔ̂ (trois bananes coûtent mille francs)."
-      ],
-      "examples": [
-        {
-          "structure": "à wáli yɛ̌li ?",
-          "phonetic_api": "/à wáli yɛ̌li/",
-          "meaning": "c'est combien ?"
+          "structure": "mɛ̀i- + [1 à 4]",
+          "phonetic_api": "/mɛ̀i-/",
+          "meaning": "préfixe signifiant « cinq et... » pour former 6 à 9"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Personne A",
-      "text": "À wáli yɛ̌li ?",
-      "phonetic_api": "/à wáli yɛ̌li/",
-      "phonetic_simple": "a WA-li yè-li ?",
-      "translation": "C'est combien ?"
-    },
-    {
-      "speaker": "Personne B",
+      "speaker": "Le vendeur",
       "text": "Gwíikpɔ̀lu hàaɓa káa à wáa tɔ́nɔ̂.",
       "phonetic_api": "/gwíikpɔ̀lu hàaɓa káa à wáa tɔ́nɔ̂/",
-      "phonetic_simple": "GWI-i-kpo-lou HA-a-ɓa kaa a WA-a TO-nô",
+      "phonetic_simple": "gwi-i-KPO-lu HA-a-ba ka a WA TO-no",
       "translation": "Trois bananes coûtent mille francs."
     },
     {
-      "speaker": "Personne A",
-      "text": "Ŋàá mɛ̌ŋ. É kwɛ́laŋ yɛ̌li ?",
-      "phonetic_api": "/ŋàá mɛ̌ŋ é kwɛ́láŋ yɛ̌li/",
-      "phonetic_simple": "nga-a MENG. é KWÉ-lang yè-li ?",
-      "translation": "J'ai compris. Quel âge as-tu ?"
+      "speaker": "Le client",
+      "text": "Wálî nɛ̀lɛ́ ɓé kɛ̀ɛ ?",
+      "phonetic_api": "/wálî nɛ̀lɛ́ ɓé kɛ̀ɛ/",
+      "phonetic_simple": "wa-LI nè-LÈ bé kè-è",
+      "translation": "Combien ça coûte ?"
     },
     {
-      "speaker": "Personne B",
-      "text": "Kwɛ́laŋ bòu ɓé ɲêi.",
-      "phonetic_api": "/kwɛ́láŋ bòu ɓé ɲêi/",
-      "phonetic_simple": "KWÉ-lang bo-ou bé nyê-i",
-      "translation": "J'ai dix ans."
+      "speaker": "Le vendeur",
+      "text": "Wáa tɔ́nɔ̂.",
+      "phonetic_api": "/wáa tɔ́nɔ̂/",
+      "phonetic_simple": "WA TO-no",
+      "translation": "Mille francs."
     },
     {
-      "speaker": "Personne A",
-      "text": "Máma !",
-      "phonetic_api": "/máma/",
-      "phonetic_simple": "MA-ma",
-      "translation": "Merci !"
+      "speaker": "Le client",
+      "text": "Ŋé mɛ̀ihwéelɛ̀ ɓíɓɛlì yá.",
+      "phonetic_api": "/ŋé mɛ̀ihwéelɛ̀ ɓíɓɛlì yá/",
+      "phonetic_simple": "nguè mè-i-HWÉ-è-lè BI-bè-li ya",
+      "translation": "J'achète deux mille [francs de] mangues."
     }
   ],
   "cultural_notes": [
-    "Le système numéral kpele est en partie construit sur cinq (lɔ́ɔli) et dix (pǒu) : 6 à 9 se forment avec le préfixe mɛ̀i- (« cinq + »), et les dizaines multiplient dix par le chiffre voulu — un système que l'on retrouve dans de nombreuses langues mandé.",
-    "Le franc guinéen est la monnaie évoquée dans les exemples de prix du dictionnaire (wáli = argent) ; les échanges au marché utilisent couramment wáa (mille) comme unité de compte.",
-    "lónoŋ signifie à la fois « compter » et « lire », un rappel que le comptage et la lecture s'apprenaient traditionnellement ensemble dans les contextes d'alphabétisation évoqués en Leçon 3."
+    "Le franc guinéen est l'unité monétaire de référence dans les échanges au marché (lɔ́ɠɔkpalâŋ) ; le mot wáa (mille) est directement attesté dans une phrase d'exemple du dictionnaire concernant le prix des bananes (Konoshenko 2019).",
+    "Le système décimal-quinaire (base 5) du guerzé est partagé avec de nombreuses autres langues mandé de la région forestière de Guinée."
   ],
   "exercises": [
     {
       "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quelle forme de « un » utilise-t-on pour compter en série (un, deux, trois...) ?",
+      "question": "Comment se forme le nombre 7 (mɛ̀ihwéelɛ̀) en guerzé ?",
       "options": [
-        "tɔ̀nɔ",
-        "táaŋ",
-        "tànɔ́ŋ",
-        "pǒu"
+        "Cinq + deux",
+        "Dix moins trois",
+        "Un mot totalement indépendant"
       ],
-      "correct_answer": "táaŋ",
-      "explanation": "táaŋ s'emploie pour la comptine 1, 2, 3... ; tɔ̀nɔ pour un objet compté ; tànɔ́ŋ dans un nombre composé."
+      "correct_answer": "Cinq + deux",
+      "explanation": "Le système numéral guerzé est en base 5 : 7 = mɛ̀i- (cinq) + hwéelɛ̀ (deux)."
     },
     {
       "exercise_id": "ex2",
-      "type": "multiple_choice",
-      "question": "Comment se forme mɛ̀ihwéelɛ̀ (sept) ?",
-      "options": [
-        "pǒu + hwěelɛ",
-        "mɛ̀i- + hwéelɛ̀ (deux)",
-        "ŋwûŋ + hwěelɛ",
-        "hǎaɓa + náaŋ"
-      ],
-      "correct_answer": "mɛ̀i- + hwéelɛ̀ (deux)",
-      "explanation": "Les nombres 6 à 9 se construisent avec le préfixe mɛ̀i- suivi du chiffre 1 à 4 correspondant."
-    },
-    {
-      "exercise_id": "ex3",
-      "type": "multiple_choice",
-      "question": "Que signifie littéralement pòu háaɓà (trente) ?",
-      "options": [
-        "Trois dix",
-        "Dix trois",
-        "Trois plus dix",
-        "Dix moins trois"
-      ],
-      "correct_answer": "Dix trois",
-      "explanation": "Les dizaines se construisent en multipliant dix (pǒu) par le chiffre voulu : pòu háaɓà = dix × trois = trente."
-    },
-    {
-      "exercise_id": "ex4",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Pour demander un prix, on dit : « à wáli [ ___ ] ? »",
-      "correct_answer": "yɛ̌li",
-      "hint": "C'est le même mot interrogatif que pour demander l'âge en Leçon 2."
-    },
-    {
-      "exercise_id": "ex5",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "« Trois bananes coûtent mille francs » se dit : « Gwíikpɔ̀lu hàaɓa káa à [ ___ ] tɔ́nɔ̂. »",
+      "sentence_with_blank": "Gwíikpɔ̀lu hàaɓa káa à [ ___ ] tɔ́nɔ̂. (Trois bananes coûtent mille francs.)",
       "correct_answer": "wáa",
-      "hint": "Ce mot signifie « mille »."
+      "hint": "C'est le mot pour « mille »."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Konoshenko, M. (2019). Dictionnaire kpele de la Guinée (guerzé) – français. Mandenkan 62.",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan62/62konoshenko.pdf"
     },
     {
-      "exercise_id": "ex6",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "lónoŋ signifie « compter », mais aussi « [ ___ ] ».",
-      "correct_answer": "lire",
-      "hint": "Ce verbe a deux sens en kpele, comme dans « gáa zɛ̀ɓɛ́ lónoŋzî »."
+      "label": "Languages and Numbers — Counting in Kpelle",
+      "url": "https://www.languagesandnumbers.com/how-to-count-in-kpelle/en/kpe/"
     }
-  ]
+  ],
+  "confidence": "élevée",
+  "confidence_note": "Les chiffres 1 à 10, 100 et 1000 ainsi que la phrase-exemple sur le prix des bananes sont directement attestés dans Konoshenko (2019). Le mot pour 1000 diffère légèrement du kpelle du Libéria (wála selon languagesandnumbers.com), confirmant la distinction dialectale entre les deux variétés."
 }

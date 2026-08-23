@@ -6,14 +6,13 @@
   "lesson_number": 2,
   "title": "Exprimer l'hypothèse, le doute et la condition",
   "learning_objectives": [
-    "Construire une phrase conditionnelle irréelle complète (protase + apodose).",
-    "Utiliser les marqueurs de modalité irréelle (yà, kà, gwà, kwà) selon la personne.",
-    "Exprimer le doute avec hɛ́â et contredire une affirmation avec nuance.",
-    "Distinguer une condition réalisable d'une hypothèse irréelle dans le passé ou le futur."
+    "Utiliser la série conditionnelle/irréelle de marqueurs prédicatifs (ŋà, yà, à, gwà, kwà, kà, dà) pour formuler des hypothèses",
+    "Construire une phrase conditionnelle réelle (protase + apodose) sur le modèle attesté « yà gbìniŋ, à yálî »",
+    "Utiliser le marqueur négatif de la construction conditionnelle wàla pour exprimer « sinon »"
   ],
   "phonetic_focus": {
-    "key_sounds": "La série de marqueurs de la modalité irréelle (yà 2SG, kà 2PL, gwà 1PL.INCL, kwà 1PL.EXCL...) partage sa forme avec d'autres séries de marqueurs déjà rencontrées (kà 2PL impératif, Débutant Leçon 1), ce qui impose de bien s'appuyer sur le contexte de la phrase entière — présence d'une apodose avec lí, structure en deux propositions — pour identifier correctement la construction.",
-    "common_pitfalls": "Les francophones ont tendance à : (1) traduire toute condition par « si » suivi du présent, alors que le kpele distingue nettement la condition réalisable (simple protase) de l'hypothèse irréelle (protase + apodose avec lí) ; (2) oublier que le marqueur de personne change dans la protase conditionnelle (yà, kà, gwà, kwà), un point souvent négligé une fois les marqueurs de base bien intégrés ; (3) confondre hɛ́â (doute au sens de désaccord, Intermédiaire Leçon 3) avec une simple hypothèse non confirmée."
+    "key_sounds": "Les marqueurs conditionnels (ŋà, yà, à, gwà, kwà, kà, dà) partagent la même forme segmentale que d'autres séries à des tons différents ; l'identification correcte du ton bas propre à cette série est cruciale pour ne pas confondre condition et simple affirmation.",
+    "common_pitfalls": "Le francophone a tendance à chercher un équivalent unique de « si », alors que le guerzé encode la condition directement dans le marqueur pré-verbal du sujet, sans particule séparée de subordination."
   },
   "vocabulary": [
     {
@@ -21,361 +20,220 @@
       "term": "yà",
       "phonetic_api": "/yà/",
       "phonetic_simple": "ya",
-      "translation": "si tu (marqueur prédicatif 2SG de la modalité irréelle)",
+      "translation": "si tu (marqueur conditionnel 2SG)",
       "example_sentence": "Yà gbìniŋ, à yálî.",
       "example_phonetic": "/yà gbìniŋ à yálî/",
       "example_translation": "Si tu le courbes, il casse."
     },
     {
       "word_id": "v2",
-      "term": "kà",
-      "phonetic_api": "/kà/",
-      "phonetic_simple": "ka",
-      "translation": "si vous (marqueur prédicatif 2PL de la modalité irréelle)",
-      "example_sentence": "kà",
-      "example_phonetic": "/kà/",
-      "example_translation": "si vous"
+      "term": "ŋà",
+      "phonetic_api": "/ŋà/",
+      "phonetic_simple": "nga",
+      "translation": "si je (marqueur conditionnel 1SG)",
+      "example_sentence": "Ŋà ↓hwáɠá hèɠéi ↓yɛ̂.",
+      "example_phonetic": "/ŋà hwáɠá hèɠéi yɛ̂/",
+      "example_translation": "Si je m'assois tranquillement..."
     },
     {
       "word_id": "v3",
-      "term": "gwà",
-      "phonetic_api": "/gwà/",
-      "phonetic_simple": "gwa",
-      "translation": "si nous (marqueur prédicatif 1PL.INCL de la modalité irréelle)",
-      "example_sentence": "Tùló à pù kɛ̀ tínaai, gwè lí lɛ̀ɛ bɛ̀ɛláalèe.",
-      "example_phonetic": "/tùló à pù kɛ̀ tínaai gwè lí lɛ̀ɛ bɛ̀ɛláalèe/",
-      "example_translation": "S'il pleuvait demain, nous resterions à la maison."
+      "term": "wàla",
+      "phonetic_api": "/wàla/",
+      "phonetic_simple": "WA-la",
+      "translation": "sinon (marqueur de la construction conditionnelle négative)",
+      "example_sentence": "À wàla kɛ́ tíi.",
+      "example_phonetic": "/à wàla kɛ́ tíi/",
+      "example_translation": "Sinon (autrement, ce n'est pas le cas)."
     },
     {
       "word_id": "v4",
-      "term": "kwà",
-      "phonetic_api": "/kwà/",
-      "phonetic_simple": "kwa",
-      "translation": "si nous (marqueur prédicatif 1PL.EXCL de la modalité irréelle)",
-      "example_sentence": "kwà",
-      "example_phonetic": "/kwà/",
-      "example_translation": "si nous"
-    },
-    {
-      "word_id": "v5",
       "term": "tùló",
       "phonetic_api": "/tùló/",
       "phonetic_simple": "TOU-lo",
-      "translation": "pluie",
-      "example_sentence": "Tùló à pù kɛ̀ tínaai.",
-      "example_phonetic": "/tùló à pù kɛ̀ tínaai/",
-      "example_translation": "S'il pleuvait demain."
+      "translation": "si (conjonction hypothétique, construction irréelle)",
+      "example_sentence": "Tùló à pù kɛ̀ tínaai, gwè lí lɛ̀ɛ bɛ̀ɛláalèe.",
+      "example_phonetic": "/tùló à pù kɛ̀ tínaai gwè lí lɛ̀ɛ bɛ̀ɛláalèe/",
+      "example_translation": "Si cela s'était passé ainsi, nous serions restés là-bas."
+    },
+    {
+      "word_id": "v5",
+      "term": "à yà",
+      "phonetic_api": "/à yà/",
+      "phonetic_simple": "a ya",
+      "translation": "s'il, si (3SG, marqueur conditionnel)",
+      "example_sentence": "À yà kéleŋ gbàingbain, ŋwàái.",
+      "example_phonetic": "/à yà kéleŋ gbàingbain ŋwàái/",
+      "example_translation": "S'il fait très chaud, il/elle se lave."
     },
     {
       "word_id": "v6",
-      "term": "gbìniŋ",
-      "phonetic_api": "/gbìniŋ/",
-      "phonetic_simple": "GBI-ning",
-      "translation": "courber (qch)",
-      "example_sentence": "Yà gbìniŋ, à yálî.",
-      "example_phonetic": "/yà gbìniŋ à yálî/",
-      "example_translation": "Si tu le courbes, il casse."
+      "term": "gwà",
+      "phonetic_api": "/gwà/",
+      "phonetic_simple": "gwa",
+      "translation": "si nous (inclusif, marqueur conditionnel 1PL.INCL)",
+      "example_sentence": "Gwà kólô kɛ́, gwàa lɛ̀ɛ.",
+      "example_phonetic": "/gwà kólô kɛ́ gwàa lɛ̀ɛ/",
+      "example_translation": "Si nous travaillons, nous réussirons."
     },
     {
       "word_id": "v7",
-      "term": "yálî",
-      "phonetic_api": "/yálî/",
-      "phonetic_simple": "YA-lî",
-      "translation": "casser",
-      "example_sentence": "À yálî.",
-      "example_phonetic": "/à yálî/",
-      "example_translation": "Il casse."
+      "term": "kwà",
+      "phonetic_api": "/kwà/",
+      "phonetic_simple": "kwa",
+      "translation": "si nous (exclusif, marqueur conditionnel 1PL.EXCL)",
+      "example_sentence": "Kwà pà, kwàa nɔ̀ɔ.",
+      "example_phonetic": "/kwà pà kwàa nɔ̀ɔ/",
+      "example_translation": "Si nous (sans toi) venons, nous serons contents."
     },
     {
       "word_id": "v8",
-      "term": "lǐ",
-      "phonetic_api": "/lǐ/",
-      "phonetic_simple": "li (ton bas)",
-      "translation": "auxiliaire de l'apodose conditionnelle irréelle",
-      "example_sentence": "Gwè lí lɛ̀ɛ bɛ̀ɛláalèe.",
-      "example_phonetic": "/gwè lí lɛ̀ɛ bɛ̀ɛláalèe/",
-      "example_translation": "Nous resterions à la maison."
-    },
-    {
-      "word_id": "v9",
-      "term": "hɛ́â",
-      "phonetic_api": "/hɛ́â/",
-      "phonetic_simple": "HÈ-â",
-      "translation": "doute, contradiction (~ tǒo = contredire)",
-      "example_sentence": "Hɛ́â tǒo.",
-      "example_phonetic": "/hɛ́â tǒo/",
-      "example_translation": "Contredire."
-    },
-    {
-      "word_id": "v10",
-      "term": "wàla",
-      "phonetic_api": "/wàla/",
-      "phonetic_simple": "wa-la",
-      "translation": "marqueur conditionnel négatif (sinon)",
-      "example_sentence": "À wàla kɛ́ tíi.",
-      "example_phonetic": "/à wàla kɛ́ tíi/",
-      "example_translation": "Sinon."
-    },
-    {
-      "word_id": "v11",
-      "term": "màánɛ̀ɛ ́",
-      "phonetic_api": "/màánɛ̀ɛ́/",
-      "phonetic_simple": "ma-a-NÈ-è",
-      "translation": "il faut que (obligation plus faible)",
-      "example_sentence": "màánɛ̀ɛ ́",
-      "example_phonetic": "/màánɛ̀ɛ́/",
-      "example_translation": "il faudrait que"
-    },
-    {
-      "word_id": "v12",
-      "term": "bɛ̀ɛláalèe",
-      "phonetic_api": "/bɛ̀ɛláalèe/",
-      "phonetic_simple": "ɓÈ-È-la-a-lè-è",
-      "translation": "à la maison (forme de bɛ̀lɛ)",
-      "example_sentence": "Gwè lí lɛ̀ɛ bɛ̀ɛláalèe.",
-      "example_phonetic": "/gwè lí lɛ̀ɛ bɛ̀ɛláalèe/",
-      "example_translation": "Nous resterions à la maison."
+      "term": "kpíniŋ",
+      "phonetic_api": "/kpíniŋ/",
+      "phonetic_simple": "KPI-ning",
+      "translation": "se courber, plier",
+      "example_sentence": "Wúluɠaa dìé kpínîŋ.",
+      "example_phonetic": "/wúluɠaa dìé kpínîŋ/",
+      "example_translation": "Les arbres ploient (quand le vent souffle)."
     }
   ],
   "common_phrases": [
     {
       "phrase_id": "p1",
-      "original": "Tùló à pù kɛ̀ tínaai, gwè lí lɛ̀ɛ bɛ̀ɛláalèe.",
-      "phonetic_api": "/tùló à pù kɛ̀ tínaai gwè lí lɛ̀ɛ bɛ̀ɛláalèe/",
-      "phonetic_simple": "TOU-lo a pou kè TI-naa-i, gwè li lè-è ɓÈ-È-la-a-lè-è",
-      "translation": "S'il pleuvait demain, nous resterions à la maison.",
-      "context": "Formuler une hypothèse irréelle complète (protase + apodose)"
+      "original": "Yà gbìniŋ, à yálî.",
+      "phonetic_api": "/yà gbìniŋ à yálî/",
+      "phonetic_simple": "ya GBI-ning a YA-li",
+      "translation": "Si tu le courbes, il casse.",
+      "context": "Condition réelle attestée, structure protase-apodose sans conjonction séparée."
     },
     {
       "phrase_id": "p2",
-      "original": "Yà gbìniŋ, à yálî.",
-      "phonetic_api": "/yà gbìniŋ à yálî/",
-      "phonetic_simple": "ya GBI-ning, a YA-lî",
-      "translation": "Si tu le courbes, il casse.",
-      "context": "Décrire une relation de cause à effet générale (vraie à chaque fois)"
+      "original": "Hwàŋá à kɛ̀ tɛ̀ɠɛ, wúluɠaa dìé kpínîŋ.",
+      "phonetic_api": "/hwàŋá à kɛ̀ tɛ̀ɠɛ wúluɠaa dìé kpínîŋ/",
+      "phonetic_simple": "HWA-nga a ké TÈ-ghè, WOU-lou-ga-a di-é KPI-ning",
+      "translation": "Quand le vent souffle, les arbres ploient.",
+      "context": "Construction temporelle-conditionnelle attestée dans le dictionnaire."
     },
     {
       "phrase_id": "p3",
-      "original": "Yà lì tɔ̀ɠɔ péle, é zòŋ́ kɛ̀ɓɛyée mɛ̌i.",
-      "phonetic_api": "/yà lì tɔ̀ɣɔ péle é zòŋ́ kɛ̀ɓɛyée mɛ̌i/",
-      "phonetic_simple": "ya li TO-gho PÉ-le, é zong KÈ-ɓè-YÊ-è mè-i",
-      "translation": "Si tu vas tout droit, tu le rattraperas par la gauche.",
-      "context": "Condition réalisable, sans apodose irréelle (rappel Débutant Leçon 7)"
+      "original": "Ŋà ↓hwáɠá hèɠéi ↓yɛ̂ ...",
+      "phonetic_api": "/ŋà hwáɠá hèɠéi yɛ̂/",
+      "phonetic_simple": "nga HWA-gha HÈ-ghé-i yè",
+      "translation": "Si je m'assois tranquillement...",
+      "context": "Début de la phrase attestée « si tu ne t'assois pas tranquillement, je vais te fouetter »."
     },
     {
       "phrase_id": "p4",
-      "original": "Hwókɛli yà kɔ́nɔŋ mîi, hwàɠá hèɠéi ↓yɛ̂.",
-      "phonetic_api": "/hwókɛli yà kɔ́nɔŋ mîi hwàɣá hèɣéi ↓yɛ̂/",
-      "phonetic_simple": "HWO-kè-li ya KO-nong MI-i, hwa-GHA hè-GHÉ-i yê",
-      "translation": "Si tu ne t'assois pas tranquillement, je vais te fouetter.",
-      "context": "Formuler un avertissement conditionnel"
+      "original": "Tùló à pù kɛ̀ tínaai, gwè lí lɛ̀ɛ bɛ̀ɛláalèe.",
+      "phonetic_api": "/tùló à pù kɛ̀ tínaai gwè lí lɛ̀ɛ bɛ̀ɛláalèe/",
+      "phonetic_simple": "TOU-lo a pou ké TI-na-a-i, gwè li lè-è BÈ-è-LA-a-lè-è",
+      "translation": "Si cela s'était passé ainsi, nous serions restés là-bas.",
+      "context": "Exemple attesté de construction conditionnelle irréelle avec tùló."
     },
     {
       "phrase_id": "p5",
       "original": "À wàla kɛ́ tíi.",
       "phonetic_api": "/à wàla kɛ́ tíi/",
-      "phonetic_simple": "a wa-la ké TI-i",
-      "translation": "Sinon.",
-      "context": "Introduire une alternative si la condition n'est pas remplie"
-    },
-    {
-      "phrase_id": "p6",
-      "original": "Hɛ́â hwàa, mɛ́niê.",
-      "phonetic_api": "/hɛ́â hwàa mɛ́niê/",
-      "phonetic_simple": "HÈ-â hwaa, MÉ-ni-Ê",
-      "translation": "Pas de doute là-dessus, mon ami.",
-      "context": "Affirmer une certitude en réponse à une hypothèse"
-    },
-    {
-      "phrase_id": "p7",
-      "original": "Màánɛ̀ɛ ́ è kúlo kɛ̀â.",
-      "phonetic_api": "/màánɛ̀ɛ́ è kúlo kɛ̀â/",
-      "phonetic_simple": "ma-a-NÈ-è è KOU-lo kè-â",
-      "translation": "Il faudrait qu'il sorte, alors.",
-      "context": "Suggérer une conséquence probable, avec une obligation plus douce"
+      "phonetic_simple": "a WA-la ké ti-i",
+      "translation": "Sinon, ce n'est pas le cas.",
+      "context": "Marqueur wàla dans une construction conditionnelle négative."
     }
   ],
   "grammar_points": [
     {
-      "concept": "Deux types de condition : réalisable et irréelle",
-      "explanation": "Le kpele distingue grammaticalement une condition qui peut se réaliser normalement (protase seule, verbe au conditionnel) d'une hypothèse irréelle ou peu probable, qui ajoute un auxiliaire spécial (lí) dans la proposition principale.",
+      "concept": "La condition réelle : marqueurs de la série IX (Conditionnel)",
+      "explanation": "Pour une condition réelle ou probable (« si X, alors Y »), le guerzé place directement le marqueur conditionnel devant le verbe de la protase, sans conjonction séparée ; l'apodose utilise souvent le marqueur affirmatif ou résultatif.",
       "rules": [
-        "Condition réalisable : yà lì tɔ̀ɠɔ péle, é zòŋ́ kɛ̀ɓɛyée mɛ̌i (si tu vas tout droit, tu le rattraperas par la gauche) — la proposition principale est au présent/futur ordinaire.",
-        "Hypothèse irréelle : tùló à pù kɛ̀ tínaai, gwè lí lɛ̀ɛ bɛ̀ɛláalèe (s'il pleuvait demain, nous resterions à la maison) — la proposition principale ajoute lí, marquant que la conséquence dépend d'une condition non garantie.",
-        "Cette distinction correspond globalement à l'opposition française entre « si + présent, futur » et « si + imparfait, conditionnel »."
+        "[Marqueur conditionnel] + Verbe(protase), [Marqueur affirmatif/résultatif] + Verbe(apodose).",
+        "yà gbìniŋ, à yálî = si tu le courbes, il casse (yà=2SG conditionnel, à=3SG affirmatif résultat)."
       ],
       "examples": [
         {
-          "structure": "condition réalisable vs irréelle",
-          "phonetic_api": "/yà lì .../ vs /tùló à pù ... gwè lí .../",
-          "meaning": "si + futur simple vs si + conditionnel irréel"
+          "structure": "yà gbìniŋ, à yálî",
+          "phonetic_api": "/yà gbìniŋ à yálî/",
+          "meaning": "si tu le courbes, il casse"
         }
       ]
     },
     {
-      "concept": "La protase conditionnelle : marqueurs par personne",
-      "explanation": "Comme les autres séries de marqueurs prédicatifs déjà étudiées, la protase conditionnelle (« si... ») change de forme selon la personne du sujet.",
+      "concept": "La condition irréelle avec tùló et l'apodose au « futur »",
+      "explanation": "Pour une hypothèse irréelle ou contraire aux faits (le regret, l'hypothèse non réalisée), le guerzé utilise la conjonction tùló en tête de phrase, suivie d'une construction dont l'apodose emploie une forme verbale liée au futur/irréel (lɛ̀ɛ).",
       "rules": [
-        "yà = si tu (2SG).",
-        "kà = si vous (2PL).",
-        "gwà = si nous (1PL.INCL, « nous » incluant l'interlocuteur).",
-        "kwà = si nous (1PL.EXCL, « nous » excluant l'interlocuteur) — cette distinction inclusif/exclusif, déjà croisée dans les pronoms personnels, s'applique donc aussi à la condition."
+        "tùló + [protase irréelle] + [apodose avec lɛ̀ɛ] = si... (contrefactuel), alors on aurait/serait..."
       ],
       "examples": [
         {
-          "structure": "yà / kà / gwà / kwà",
-          "phonetic_api": "/yà/ /kà/ /gwà/ /kwà/",
-          "meaning": "si tu / si vous / si nous (inclusif) / si nous (exclusif)"
-        }
-      ]
-    },
-    {
-      "concept": "Le doute et le désaccord : hɛ́â",
-      "explanation": "Face à une hypothèse ou une affirmation d'autrui, hɛ́â (doute, contradiction) permet d'exprimer un désaccord nuancé, à la fois pour contredire et pour marquer une incertitude.",
-      "rules": [
-        "hɛ́â tǒo = contredire (déjà vu, Intermédiaire Leçon 3).",
-        "hɛ́â hwàa = pas de doute, une réponse ferme qui écarte l'hypothèse contraire.",
-        "Ce même mot permet donc, selon la construction, d'exprimer soit le doute soit sa dissipation."
-      ],
-      "examples": [
-        {
-          "structure": "hɛ́â tǒo vs hɛ́â hwàa",
-          "phonetic_api": "/hɛ́â tǒo/ vs /hɛ́â hwàa/",
-          "meaning": "contredire vs pas de doute"
-        }
-      ]
-    },
-    {
-      "concept": "wàla : introduire l'alternative négative",
-      "explanation": "wàla marque spécifiquement la branche négative d'une condition, l'équivalent du français « sinon », souvent en fin d'échange pour indiquer la conséquence si la condition posée n'est pas remplie.",
-      "rules": [
-        "à wàla kɛ́ tíi = sinon (litt. « si cela ne se passe pas ainsi »).",
-        "Ce marqueur clôt souvent un raisonnement conditionnel en présentant l'issue par défaut."
-      ],
-      "examples": [
-        {
-          "structure": "à wàla kɛ́ tíi",
-          "phonetic_api": "/à wàla kɛ́ tíi/",
-          "meaning": "sinon"
+          "structure": "tùló à pù kɛ̀ tínaai, gwè lí lɛ̀ɛ bɛ̀ɛláalèe",
+          "phonetic_api": "/tùló à pù kɛ̀ tínaai gwè lí lɛ̀ɛ bɛ̀ɛláalèe/",
+          "meaning": "si cela s'était passé ainsi, nous serions restés là-bas"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Personne A",
-      "text": "Tùló à pù kɛ̀ tínaai, gwè lí lɛ̀ɛ bɛ̀ɛláalèe ?",
-      "phonetic_api": "/tùló à pù kɛ̀ tínaai gwè lí lɛ̀ɛ bɛ̀ɛláalèe/",
-      "phonetic_simple": "TOU-lo a pou kè TI-naa-i, gwè li lè-è ɓÈ-È-la-a-lè-è ?",
-      "translation": "S'il pleuvait demain, resterions-nous à la maison ?"
+      "speaker": "L'aîné",
+      "text": "Hwàŋá à kɛ̀ tɛ̀ɠɛ, wúluɠaa dìé kpínîŋ.",
+      "phonetic_api": "/hwàŋá à kɛ̀ tɛ̀ɠɛ wúluɠaa dìé kpínîŋ/",
+      "phonetic_simple": "HWA-nga a ké TÈ-ghè, WOU-lou-ga-a di-é KPI-ning",
+      "translation": "Quand le vent souffle, les arbres ploient."
     },
     {
-      "speaker": "Personne B",
-      "text": "Hɛ́â hwàa, mɛ́niê, kú lì kólô kɛ́i kɛ̀laa.",
-      "phonetic_api": "/hɛ́â hwàa mɛ́niê kú lì kólô kɛ́i kɛ̀laa/",
-      "phonetic_simple": "HÈ-â hwaa, MÉ-ni-Ê, kou li KO-lô KÈ-i kè-laa",
-      "translation": "Pas de doute, mon ami, nous irons quand même travailler."
+      "speaker": "Le jeune",
+      "text": "Yà gbìniŋ, à yálî hɔ̀ni ?",
+      "phonetic_api": "/yà gbìniŋ à yálî hɔ̀ni/",
+      "phonetic_simple": "ya GBI-ning a YA-li HO-ni",
+      "translation": "Et si tu le courbes, il casse, n'est-ce pas ?"
     },
     {
-      "speaker": "Personne A",
-      "text": "À wàla kɛ́ tíi, màánɛ̀ɛ ́ kú kólô yée tɔ̀ɔî tínaa.",
-      "phonetic_api": "/à wàla kɛ́ tíi màánɛ̀ɛ́ kú kólô yée tɔ̀ɔî tínaa/",
-      "phonetic_simple": "a wa-la ké TI-i, ma-a-NÈ-è kou KO-lô YÉ-è to-o-i TI-naa",
-      "translation": "Sinon, il faudrait commencer le travail demain."
+      "speaker": "L'aîné",
+      "text": "Òowɛi. Tùló à pù kɛ̀ tínaai, gwè lí lɛ̀ɛ bɛ̀ɛláalèe.",
+      "phonetic_api": "/òowɛi tùló à pù kɛ̀ tínaai gwè lí lɛ̀ɛ bɛ̀ɛláalèe/",
+      "phonetic_simple": "o-wè-i, TOU-lo a pou ké TI-na-a-i, gwè li lè-è BÈ-è-LA-a-lè-è",
+      "translation": "Oui. Si cela s'était passé ainsi, nous serions restés là-bas."
     },
     {
-      "speaker": "Personne B",
-      "text": "Yà gbìniŋ, à yálî — kú màatii àa gùlo màánɛ̀ɛ ́ kú lɛ̌ɛ.",
-      "phonetic_api": "/yà gbìniŋ à yálî kú màatii àa gùlo màánɛ̀ɛ́ kú lɛ̌ɛ/",
-      "phonetic_simple": "ya GBI-ning, a YA-lî — kou ma-a-TI-i aa gou-lo ma-a-NÈ-è kou lè-è",
-      "translation": "Si tu le courbes, il casse — notre travail est épuisant, il faudrait nous reposer."
-    },
-    {
-      "speaker": "Personne A",
-      "text": "Ŋàá mɛ̌ŋ. Máma, mɛ́niê !",
-      "phonetic_api": "/ŋàá mɛ̌ŋ máma mɛ́niê/",
-      "phonetic_simple": "nga-a MENG. MA-ma, MÉ-ni-Ê !",
-      "translation": "J'ai compris. Merci, mon ami !"
+      "speaker": "Le jeune",
+      "text": "À wàla kɛ́ tíi, gwè kàa lɛ̀ɛ.",
+      "phonetic_api": "/à wàla kɛ́ tíi gwè kàa lɛ̀ɛ/",
+      "phonetic_simple": "a WA-la ké ti-i, gwè ka-a lè-è",
+      "translation": "Sinon, nous ne réussirons pas."
     }
   ],
   "cultural_notes": [
-    "La distinction grammaticale entre condition réalisable et hypothèse irréelle, marquée par l'ajout de lí dans l'apodose, permet aux locuteurs kpele de nuancer précisément le degré de probabilité d'une conséquence — une ressource stylistique précieuse dans l'art oratoire traditionnel.",
-    "Le contraste inclusif/exclusif (gwà « si nous, avec toi » vs kwà « si nous, sans toi ») dans la condition reflète l'importance sociale de cette distinction en kpele, déjà présente dans le système des pronoms personnels de base.",
-    "L'usage de yà gbìniŋ, à yálî (« si tu le courbes, il casse ») comme exemple de condition générale illustre le style proverbial kpele, où une observation physique concrète sert souvent à énoncer une vérité générale — un procédé approfondi dans la Leçon 4 de ce niveau."
+    "L'emploi de proverbes fondés sur des relations conditionnelles issues de la nature (le vent et l'arbre) est un procédé rhétorique courant dans la culture guerzé pour illustrer des vérités générales par l'observation du monde naturel (Konoshenko 2019).",
+    "La distinction entre condition réelle (marqueurs simples) et condition irréelle (tùló + apodose spécifique) permet d'exprimer des nuances de regret ou de reproche dans les échanges sociaux."
   ],
   "exercises": [
     {
       "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Qu'est-ce qui distingue une hypothèse irréelle d'une condition réalisable en kpele ?",
+      "question": "Comment le guerzé marque-t-il une condition réelle comme « si tu le courbes, il casse » ?",
       "options": [
-        "Rien, la construction est identique",
-        "L'ajout de lí dans la proposition principale",
-        "L'absence de marqueur de personne",
-        "L'usage du futur uniquement"
+        "Par un marqueur conditionnel directement devant le verbe, sans conjonction séparée",
+        "Par une conjonction « si » suivie du présent",
+        "Uniquement par l'intonation"
       ],
-      "correct_answer": "L'ajout de lí dans la proposition principale",
-      "explanation": "L'auxiliaire lí dans l'apodose marque que la conséquence dépend d'une condition non garantie."
+      "correct_answer": "Par un marqueur conditionnel directement devant le verbe, sans conjonction séparée",
+      "explanation": "L'exemple attesté « yà gbìniŋ, à yálî » montre que le marqueur yà encode lui-même la valeur conditionnelle."
     },
     {
       "exercise_id": "ex2",
-      "type": "multiple_choice",
-      "question": "Quel marqueur signifie « si nous », en incluant l'interlocuteur ?",
-      "options": [
-        "kwà",
-        "gwà",
-        "kà",
-        "yà"
-      ],
-      "correct_answer": "gwà",
-      "explanation": "gwà correspond au 1PL.INCL, comme gǔ dans les pronoms de base."
-    },
-    {
-      "exercise_id": "ex3",
-      "type": "multiple_choice",
-      "question": "Comment dit-on « sinon » ?",
-      "options": [
-        "kàŋ",
-        "à wàla kɛ́ tíi",
-        "hɛ́â tǒo",
-        "màánɛ̀ɛ ́"
-      ],
-      "correct_answer": "à wàla kɛ́ tíi",
-      "explanation": "wàla marque spécifiquement la branche négative d'une condition."
-    },
-    {
-      "exercise_id": "ex4",
-      "type": "multiple_choice",
-      "question": "Que signifie hɛ́â hwàa ?",
-      "options": [
-        "Un doute persistant",
-        "Pas de doute",
-        "Une condition irréelle",
-        "Un ordre ferme"
-      ],
-      "correct_answer": "Pas de doute",
-      "explanation": "hɛ́â hwàa écarte fermement une hypothèse contraire, dissipant le doute."
-    },
-    {
-      "exercise_id": "ex5",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "« S'il pleuvait demain, nous resterions à la maison » se dit : « Tùló à pù kɛ̀ tínaai, gwè [ ___ ] lɛ̀ɛ bɛ̀ɛláalèe. »",
-      "correct_answer": "lí",
-      "hint": "C'est l'auxiliaire de l'irréel dans l'apodose."
-    },
-    {
-      "exercise_id": "ex6",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "« Si tu le courbes, il casse » se dit : « [ ___ ] gbìniŋ, à yálî. »",
-      "correct_answer": "Yà",
-      "hint": "C'est le marqueur conditionnel de la 2e personne du singulier."
-    },
-    {
-      "exercise_id": "ex7",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "« Contredire » se dit littéralement « porter le doute » : « [ ___ ] tǒo. »",
-      "correct_answer": "Hɛ́â",
-      "hint": "Ce nom signifie « doute, contradiction »."
+      "sentence_with_blank": "[ ___ ] à pù kɛ̀ tínaai, gwè lí lɛ̀ɛ bɛ̀ɛláalèe. (Si cela s'était passé ainsi, nous serions restés là-bas.)",
+      "correct_answer": "Tùló",
+      "hint": "Conjonction hypothétique irréelle."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Konoshenko, M. (2019). Dictionnaire kpele de la Guinée (guerzé) – français. Mandenkan 62.",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan62/62konoshenko.pdf"
+    },
+    {
+      "label": "Wikipédia — Kpèllé (langue) / Guerzé",
+      "url": "https://fr.wikipedia.org/wiki/Guerze"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Les marqueurs conditionnels de la série IX et les exemples de condition réelle sont bien attestés dans Konoshenko (2019) ; la construction irréelle avec tùló repose sur un seul exemple attesté, ce qui limite la généralisation complète de la règle."
 }

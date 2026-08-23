@@ -4,143 +4,290 @@
   "module_number": 1,
   "module_title": "Les bases de la communication",
   "lesson_number": 2,
-  "title": "Se présenter",
+  "title": "Se présenter (nom, âge, origine, profession)",
   "learning_objectives": [
-    "Dire son nom, son origine et son âge",
-    "Demander l'identité de son interlocuteur"
+    "Demander et dire son nom",
+    "Demander et dire d'où l'on vient",
+    "Dire sa profession avec quelques exemples"
   ],
   "phonetic_focus": {
-    "key_sounds": "La nasale 'ɲ' se prononce comme le 'gn' français dans 'gagner'. Elle apparaît fréquemment au début des mots d'action ou des noms.",
-    "common_pitfalls": "Ne séparez pas le son 'ɲ' en 'n' et 'j'. C'est une articulation palatale unique."
+    "key_sounds": "Attention aux pronoms sujets courts (ga 'je', ya 'tu', e 'il/elle') qui changent selon le temps grammatical utilisé, et à la voyelle finale allongée souvent marquée par un tréma ou un accent (ex: 'wadaazeigii').",
+    "common_pitfalls": "Les francophones confondent souvent les pronoms 'ga' (je, futur/progressif) et 'ge' (je, forme courte) qui n'ont pas la même valeur temporelle."
   },
   "vocabulary": [
     {
-      "word_id": "v2_1",
-      "term": "laa",
-      "phonetic_api": "/laː/",
-      "phonetic_simple": "LAA",
-      "translation": "nom / s'appeler",
-      "example_sentence": "Na laa Tokpa.",
-      "example_phonetic": "/na laː tok.pa/",
-      "example_translation": "Mon nom est Tokpa."
+      "word_id": "v1",
+      "term": "Ye lasigi ghe ga bhe?",
+      "phonetic_api": "/je lasigi ɣe ga ɓe/",
+      "phonetic_simple": "YÉ-LA-SI-GUI-RÉ-GA-BHÉ",
+      "translation": "Comment t'appelles-tu ?",
+      "example_sentence": "Ye lasigi ghe ga bhe?",
+      "example_phonetic": "/je lasigi ɣe ga ɓe/",
+      "example_translation": "Comment t'appelles-tu ?"
     },
     {
-      "word_id": "v2_2",
-      "term": "bêa",
-      "phonetic_api": "/bɛ̂ː.a/",
-      "phonetic_simple": "BEE-A",
-      "translation": "venir de / origine",
-      "example_sentence": "N'bêa Gbeazû.",
-      "example_phonetic": "/n̩.bɛ̂ː.a ɡbɛ.a.zû/",
-      "example_translation": "Je viens de Macenta (Gbeazû)."
+      "word_id": "v2",
+      "term": "Ne dasigi ghe ga...",
+      "phonetic_api": "/ne dasigi ɣe ga/",
+      "phonetic_simple": "NÉ-DA-SI-GUI-RÉ-GA",
+      "translation": "Je m'appelle...",
+      "example_sentence": "Ne dasigi ghe ga Folomo.",
+      "example_phonetic": "/ne dasigi ɣe ga fɔlɔmɔ/",
+      "example_translation": "Je m'appelle Folomo."
     },
     {
-      "word_id": "v2_3",
-      "term": "konen",
-      "phonetic_api": "/ko.nen/",
-      "phonetic_simple": "KO-NEN",
-      "translation": "année / âge",
-      "example_sentence": "Konen gaza.",
-      "example_phonetic": "/ko.nen ɡa.za/",
-      "example_translation": "Beaucoup d'années."
+      "word_id": "v3",
+      "term": "Ya wulo mine?",
+      "phonetic_api": "/ja wulɔ mine/",
+      "phonetic_simple": "YA-WOU-LO-MI-NÉ",
+      "translation": "D'où viens-tu ?",
+      "example_sentence": "Ya wulo mine?",
+      "example_phonetic": "/ja wulɔ mine/",
+      "example_translation": "D'où viens-tu ?"
+    },
+    {
+      "word_id": "v4",
+      "term": "Ga wulo...",
+      "phonetic_api": "/ga wulɔ/",
+      "phonetic_simple": "GA-WOU-LO",
+      "translation": "Je viens de...",
+      "example_sentence": "Ga wulo Macenta.",
+      "example_phonetic": "/ga wulɔ masɛnta/",
+      "example_translation": "Je viens de Macenta."
+    },
+    {
+      "word_id": "v5",
+      "term": "Zeege yaa tii e kezu?",
+      "phonetic_api": "/zeːge jaː tiː e kezu/",
+      "phonetic_simple": "ZÉ-É-GUÉ-YA-TI-É-KÉ-ZOU",
+      "translation": "Quel travail fais-tu ?",
+      "example_sentence": "Zeege yaa tii e kezu?",
+      "example_phonetic": "/zeːge jaː tiː e kezu/",
+      "example_translation": "Quel travail fais-tu ?"
+    },
+    {
+      "word_id": "v6",
+      "term": "Ga gaa tisei",
+      "phonetic_api": "/ga gaː tisei/",
+      "phonetic_simple": "GA-GA-TI-SÉÏ",
+      "translation": "Je suis enseignant(e)",
+      "example_sentence": "Ga gaa tisei.",
+      "example_phonetic": "/ga gaː tisei/",
+      "example_translation": "Je suis enseignant(e)."
+    },
+    {
+      "word_id": "v7",
+      "term": "Zunui",
+      "phonetic_api": "/zunui/",
+      "phonetic_simple": "ZOU-NOUÏ",
+      "translation": "Homme",
+      "example_sentence": "Zunui ni ghe vha tepe gayaze.",
+      "example_phonetic": "/zunui ni ɣe va tepe gajaze/",
+      "example_translation": "Cet homme paiera pour tout."
+    },
+    {
+      "word_id": "v8",
+      "term": "Nhazanui",
+      "phonetic_api": "/n̥azanui/",
+      "phonetic_simple": "NHA-ZA-NOUÏ",
+      "translation": "Femme",
+      "example_sentence": "Nhazanui ni ghe vha tepe geyaze.",
+      "example_phonetic": "/n̥azanui ni ɣe va tepe gejaze/",
+      "example_translation": "Cette femme paiera pour tout."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p2_1",
-      "original": "I laa ɓɛ̀?",
-      "phonetic_api": "/i laː ɓɛ̀/",
-      "phonetic_simple": "I LAA BE?",
-      "translation": "Comment t'appelles-tu ?",
-      "context": "Question usuelle posée lors d'une première rencontre."
+      "phrase_id": "p1",
+      "original": "Wadaazeigii yaa gaa Folomo.",
+      "phonetic_api": "/wadaːzeigiː jaː gaː fɔlɔmɔ/",
+      "phonetic_simple": "WA-DA-ZÉÏ-GUI-YA-GA-FO-LO-MO",
+      "translation": "Mon nom est Folomo.",
+      "context": "Se présenter formellement en donnant son nom complet."
     },
     {
-      "phrase_id": "p2_2",
-      "original": "Na laa ma Sia.",
-      "phonetic_api": "/na laː ma si.a/",
-      "phonetic_simple": "NA LAA MA SI-A",
-      "translation": "Je m'appelle Sia.",
-      "context": "Réponse standard pour donner son identité."
+      "phrase_id": "p2",
+      "original": "Ya gaa Wuitaazunu?",
+      "phonetic_api": "/ja gaː witaːzunu/",
+      "phonetic_simple": "YA-GA-OUI-TA-ZOU-NOU",
+      "translation": "Es-tu un Américain (étranger occidental) ?",
+      "context": "Question sur l'origine/l'ethnicité, tirée du manuel Peace Corps."
     },
     {
-      "phrase_id": "p2_3",
-      "original": "I bêa ɓɛ̀?",
-      "phonetic_api": "/i bɛ̂ː.a ɓɛ̀/",
-      "phonetic_simple": "I BEE-A BE?",
-      "translation": "D'où viens-tu ?",
-      "context": "Pour s'enquérir du village ou de la région d'origine de quelqu'un."
+      "phrase_id": "p3",
+      "original": "Ga gaa Wuitaazunu.",
+      "phonetic_api": "/ga gaː witaːzunu/",
+      "phonetic_simple": "GA-GA-OUI-TA-ZOU-NOU",
+      "translation": "Je suis un étranger occidental.",
+      "context": "Réponse à la question sur l'origine."
     },
     {
-      "phrase_id": "p2_4",
-      "original": "N'bêa Gbeazû ni.",
-      "phonetic_api": "/n̩.bɛ̂ː.a ɡbɛ.a.zû ni/",
-      "phonetic_simple": "N-BEE-A GBE-A-ZOU NI",
-      "translation": "Je suis de Macenta.",
-      "context": "Indication de sa provenance géographique."
+      "phrase_id": "p4",
+      "original": "Ga gaa Piiskoiyeenuu.",
+      "phonetic_api": "/ga gaː piːskɔijeːnuː/",
+      "phonetic_simple": "GA-GA-PIS-KOÏ-YÉ-NOU",
+      "translation": "Je suis un volontaire du Peace Corps.",
+      "context": "Exemple de présentation professionnelle du manuel Peace Corps."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Togo gaa boma.",
+      "phonetic_api": "/tɔgɔ gaː bɔma/",
+      "phonetic_simple": "TO-GO-GA-BO-MA",
+      "translation": "Il est une personne loma/toma.",
+      "context": "Décrire l'origine ethnique de quelqu'un."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "Mine yaa eziyii na?",
+      "phonetic_api": "/mine jaː eziji na/",
+      "phonetic_simple": "MI-NÉ-YA-É-ZI-YI-NA",
+      "translation": "D'où viens-tu ? (variante)",
+      "context": "Autre façon de demander l'origine géographique."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "Gesiyive New York.",
+      "phonetic_api": "/gesijive njuː jɔːk/",
+      "phonetic_simple": "GUÉ-SI-YI-VÉ NEW-YORK",
+      "translation": "Je viens de New York.",
+      "context": "Exemple de réponse avec un lieu précis, adaptable à toute ville."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "Gev'aa laaliizu eye.",
+      "phonetic_api": "/gevaː laːliːzu eje/",
+      "phonetic_simple": "GUÉ-VA-LA-LI-ZOU-É-YÉ",
+      "translation": "Je suis venu te saluer.",
+      "context": "Formule polie en début de rencontre, avant de se présenter."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'utilisation de la particule focus 'ni'",
-      "explanation": "La particule 'ni' se place en fin de proposition pour affirmer ou mettre l'accent sur l'état d'origine, le nom ou la profession.",
+      "concept": "Le verbe être / la copule 'gaa'",
+      "explanation": "Pour dire 'je suis', le toma/loma emploie la particule 'gaa' après le pronom sujet : 'Ga gaa tisei' (je suis enseignant), 'Ga gaa Wuitaazunu' (je suis un étranger). Cette copule reste identique pour les professions et les origines.",
       "rules": [
-        "Elle agit de manière similaire au verbe 'être' dans les phrases d'identification nominales.",
-        "Elle reste invariable quel que soit le sujet."
+        "Pronom + gaa + attribut = 'X est/suis Y'.",
+        "Le pronom sujet varie selon la personne (ga = je, e/eé = il/elle, etc., cf. leçon 3)."
       ],
       "examples": [
         {
-          "structure": "Karamɔgɔ ni.",
-          "phonetic_api": "/ka.ra.mɔ.ɡɔ ni/",
-          "meaning": "C'est un enseignant."
+          "structure": "Ga gaa tisei.",
+          "phonetic_api": "/ga gaː tisei/",
+          "meaning": "Je suis enseignant."
+        },
+        {
+          "structure": "Togo gaa boma.",
+          "phonetic_api": "/tɔgɔ gaː bɔma/",
+          "meaning": "Il est loma/toma."
+        }
+      ]
+    },
+    {
+      "concept": "Formuler une question avec 'ya'",
+      "explanation": "De nombreuses questions commencent par le pronom 'ya' (tu) suivi du verbe, sans mot interrogatif séparé pour les questions fermées (oui/non), l'intonation portant l'essentiel de la valeur interrogative ; pour les questions ouvertes, un mot interrogatif comme 'mine' (où) ou 'zeege' (quel/que) apparaît.",
+      "rules": [
+        "Question fermée : Ya + verbe (intonation montante).",
+        "Question ouverte : mot interrogatif (mine, zeege...) + reste de la phrase."
+      ],
+      "examples": [
+        {
+          "structure": "Ya wulo mine?",
+          "phonetic_api": "/ja wulɔ mine/",
+          "meaning": "D'où viens-tu ?"
+        },
+        {
+          "structure": "Zeege yaa tii e kezu?",
+          "phonetic_api": "/zeːge jaː tiː e kezu/",
+          "meaning": "Quel travail fais-tu ?"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Cécé",
-      "text": "Pele, i laa ɓɛ̀?",
-      "phonetic_api": "/pe.le i laː ɓɛ̀/",
-      "phonetic_simple": "PE-LE, I LAA BE?",
-      "translation": "Salut, comment tu t'appelles ?"
+      "speaker": "Kezeli",
+      "text": "Ye lasigi ghe ga bhe?",
+      "phonetic_api": "/je lasigi ɣe ga ɓe/",
+      "phonetic_simple": "YÉ-LA-SI-GUI-RÉ-GA-BHÉ",
+      "translation": "Comment t'appelles-tu ?"
     },
     {
-      "speaker": "Flomo",
-      "text": "Na laa ma Flomo. I bêa ɓɛ̀?",
-      "phonetic_api": "/na laː ma flo.mo i bɛ̂ː.a ɓɛ̀/",
-      "phonetic_simple": "NA LAA MA FLO-MO. I BEE-A BE?",
-      "translation": "Je m'appelle Flomo. D'où viens-tu ?"
+      "speaker": "Folomo",
+      "text": "Ne dasigi ghe ga Folomo. Ya wulo mine?",
+      "phonetic_api": "/ne dasigi ɣe ga fɔlɔmɔ ja wulɔ mine/",
+      "phonetic_simple": "NÉ-DA-SI-GUI-RÉ-GA-FO-LO-MO YA-WOU-LO-MI-NÉ",
+      "translation": "Je m'appelle Folomo. Et toi, d'où viens-tu ?"
     },
     {
-      "speaker": "Cécé",
-      "text": "N'bêa Nzérékoré ni.",
-      "phonetic_api": "/n̩.bɛ̂ː.a n.ze.re.ko.re ni/",
-      "phonetic_simple": "N-BEE-A NZE-RE-KO-RE NI",
-      "translation": "Je suis de Nzérékoré."
+      "speaker": "Kezeli",
+      "text": "Ga wulo Macenta. Zeege yaa tii e kezu?",
+      "phonetic_api": "/ga wulɔ masɛnta zeːge jaː tiː e kezu/",
+      "phonetic_simple": "GA-WOU-LO-MA-SÉN-TA ZÉ-É-GUÉ-YA-TI-É-KÉ-ZOU",
+      "translation": "Je viens de Macenta. Quel travail fais-tu ?"
+    },
+    {
+      "speaker": "Folomo",
+      "text": "Ga gaa tisei. Togo gaa boma?",
+      "phonetic_api": "/ga gaː tisei tɔgɔ gaː bɔma/",
+      "phonetic_simple": "GA-GA-TI-SÉÏ TO-GO-GA-BO-MA",
+      "translation": "Je suis enseignant. Es-tu toma ?"
+    },
+    {
+      "speaker": "Kezeli",
+      "text": "Owoi, togo gaa boma.",
+      "phonetic_api": "/ɔwɔi tɔgɔ gaː bɔma/",
+      "phonetic_simple": "O-WOÏ TO-GO-GA-BO-MA",
+      "translation": "Oui, je suis toma."
     }
   ],
   "cultural_notes": [
-    "L'origine géographique (le village ancestral) définit l'appartenance sociale chez les Tomas. Préciser d'où l'on vient tisse immédiatement un lien de parenté ou d'alliance culturelle."
+    "Chez les Loma/Toma, l'ethnicité et le lieu d'origine sont des informations importantes échangées dès la présentation, souvent avant même la profession.",
+    "Le terme 'Piiskoiyeenuu' (volontaire du Peace Corps) montre l'influence historique du programme Peace Corps américain sur le vocabulaire moderne du lorma au Libéria."
   ],
   "exercises": [
     {
-      "exercise_id": "ex2_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Que signifie la phrase 'Na laa ma Flomo' ?",
+      "question": "Comment demande-t-on 'Comment t'appelles-tu ?' en toma/loma ?",
       "options": [
-        "Je vais chez Flomo",
-        "Mon nom est Flomo",
-        "Flomo est mon fils"
+        "Ye lasigi ghe ga bhe?",
+        "Ya wulo mine?",
+        "E nhungo?"
       ],
-      "correct_answer": "Mon nom est Flomo",
-      "explanation": "'laa' indique le nom ou le fait de s'appeler."
+      "correct_answer": "Ye lasigi ghe ga bhe?",
+      "explanation": "Cette formule est attestée dans la liste de phrases Omniglot (dialecte Gizima)."
     },
     {
-      "exercise_id": "ex2_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "I bêa [ ___ ] ?",
-      "correct_answer": "ɓɛ̀",
-      "hint": "Le mot interrogatif pour exprimer 'où' ou 'quoi' selon le contexte de provenance."
+      "sentence_with_blank": "Ne dasigi ghe ga [ ___ ]. (Je m'appelle...)",
+      "correct_answer": "Folomo",
+      "hint": "Insère un nom propre après la formule fixe."
+    },
+    {
+      "exercise_id": "ex3",
+      "type": "multiple_choice",
+      "question": "Que signifie 'Ga gaa tisei' ?",
+      "options": [
+        "Je suis enseignant",
+        "Je viens de Macenta",
+        "Je m'appelle Folomo"
+      ],
+      "correct_answer": "Je suis enseignant",
+      "explanation": "'Tisei' signifie enseignant dans le manuel Peace Corps sur le Lorma."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Omniglot, \"Useful phrases in Loma\" (dialecte Guizima)",
+      "url": "https://www.omniglot.com/language/phrases/loma.htm"
+    },
+    {
+      "label": "Dwyer, Bodegie & Bague, \"A Learner Directed Approach to Lorma\" (Peace Corps/Michigan State University, 1981)",
+      "url": "https://files.eric.ed.gov/fulltext/ED247766.pdf"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Vocabulaire et structures issus du manuel Peace Corps (Lorma du Libéria) et d'Omniglot (dialecte Gizima) ; Le toma de Guinée forestière et le loma/lorma du Libéria (dialecte Gizima) forment un continuum dialectal du même groupe Mande du Sud (Mende-Loma) ; les formes citées ici proviennent des meilleures sources disponibles pour ce continuum linguistique (grammaire de Sadler et manuel Peace Corps de Dwyer), la documentation publiée spécifique au parler de Guinée étant plus rare."
 }

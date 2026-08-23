@@ -13,11 +13,11 @@ Légende : ⬜ non commencé · 🟨 en cours · ✅ révisé avec sources
 - ✅ Pular
 
 ## Guinée — Langues forestières
-- ⬜ Guerzé
-- ⬜ Kissi
-- ⬜ Kono
-- ⬜ Mano
-- ⬜ Toma
+- ✅ Guerzé
+- ✅ Kissi
+- ✅ Kono
+- ✅ Mano
+- ✅ Toma
 
 ## Guinée — Langues régionales (données très rares, priorité basse, confiance attendue faible/moyenne)
 - ⬜ Badiaranké

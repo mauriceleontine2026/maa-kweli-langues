@@ -1,176 +1,223 @@
 {
   "lesson_id": "B1_M1_L3",
-  "level": "Niveau Intermédiaire (B1-B2)",
+  "level": "Intermédiaire (B1-B2)",
   "module_number": 1,
   "module_title": "Exprimer ses idées et son environnement",
   "lesson_number": 3,
   "title": "Exprimer ses goûts, ses préférences et ses sentiments",
   "learning_objectives": [
-    "Exprimer l'appréciation, l'amour, la préférence et le désaccord en kono",
-    "Partager ses sentiments intérieurs simples (joie, tristesse, fatigue)",
-    "Maîtriser les verbes d'état psychologique et affectif"
+    "Exprimer un sentiment positif ou négatif avec des constructions locatives",
+    "Comparer deux préférences avec le verbe lɔ́ɔ",
+    "Nuancer une préférence (beaucoup, un peu)"
   ],
   "phonetic_focus": {
-    "key_sounds": "La distinction entre le ton haut /á/ et le ton bas /à/ est cruciale ici car elle peut modifier radicalement le sens du verbe affectif. Le son nasal /ɲ/ (noté 'ny' ou 'ɲ') doit être fluide et articulé d'un seul bloc palatal.",
-    "common_pitfalls": "Ne pas omettre l'allongement de la voyelle finale dans les expressions de sentiments négatifs, au risque de transformer une affirmation en incompréhension."
+    "key_sounds": "Les expressions de sentiment utilisent souvent des constructions locatives où le sentiment est le sujet grammatical (comme kɔ̀ndí gáa X pɔ́ pour la faim) ; il faut bien marquer le ton haut du verbe locatif gáa qui porte l'essentiel de l'information nouvelle.",
+    "common_pitfalls": "Ne pas essayer de traduire mot à mot le français « je me sens... » : le kono/kpele préfère les constructions où le sentiment « est sur » la personne."
   },
   "vocabulary": [
     {
-      "word_id": "v3_1",
-      "term": "gbéé",
-      "phonetic_api": "/ɡ͡ɓéː/",
-      "phonetic_simple": "GBEE",
-      "translation": "aimer / apprécier / vouloir",
-      "example_sentence": "ń bɛ́ í gbéé",
-      "example_phonetic": "/ń ɓɛ́ í ɡ͡ɓéː/",
-      "example_translation": "Je t'aime. / Je t'apprécie."
+      "word_id": "v1",
+      "term": "ɲɔ̀ɔ",
+      "phonetic_api": "/ɲɔ̀ː/",
+      "phonetic_simple": "NYO-O",
+      "translation": "joie, bonheur (kpele apparenté)",
+      "example_sentence": "Ɲɔ̀ɔ gáa ɲá pɔ́.",
+      "example_phonetic": "/ɲɔ̀ː gáː ɲá pɔ́/",
+      "example_translation": "Je suis heureux (litt. la joie est sur moi)."
     },
     {
-      "word_id": "v3_2",
-      "term": "wálá-gáá",
-      "phonetic_api": "/wá.lá.ɡáː/",
-      "phonetic_simple": "WA-LA-GAA",
-      "translation": "préférer / aimer mieux",
-      "example_sentence": "ń bɛ́ nìí wálá-gáá",
-      "example_phonetic": "/ń ɓɛ́ nìː wá.lá.ɡáː/",
-      "example_translation": "Je préfère ceci."
+      "word_id": "v2",
+      "term": "gáa",
+      "phonetic_api": "/gáː/",
+      "phonetic_simple": "GA-A",
+      "translation": "être (locatif) — kono attesté",
+      "example_sentence": "Ɲɔ̀ɔ gáa yà pɔ́.",
+      "example_phonetic": "/ɲɔ̀ː gáː jà pɔ́/",
+      "example_translation": "Il/elle est heureux/heureuse."
     },
     {
-      "word_id": "v3_3",
-      "term": "sɛ̀ɛ̀-wòò",
-      "phonetic_api": "/sɛ̀ː.wòː/",
-      "phonetic_simple": "SEE-WOO",
-      "translation": "la joie / être content",
-      "example_sentence": "sɛ̀ɛ̀-wòò káá ń yíé",
-      "example_phonetic": "/sɛ̀ː.wòː káː ń jí.é/",
-      "example_translation": "Je suis dans la joie. (litt. La joie est en moi.)"
+      "word_id": "v3",
+      "term": "kɔ̀ndí",
+      "phonetic_api": "/kɔ̀ndí/",
+      "phonetic_simple": "KON-DI",
+      "translation": "faim, manque (kpele apparenté, extensible au manque affectif)",
+      "example_sentence": "Kɔ̀ndí gáa ɲá pɔ́.",
+      "example_phonetic": "/kɔ̀ndí gáː ɲá pɔ́/",
+      "example_translation": "J'ai faim / il me manque quelque chose."
     },
     {
-      "word_id": "v3_4",
-      "term": "fɛ̀ɛ̀-kɛ́ɛ́",
-      "phonetic_api": "/fɛ̀ː.kɛ́ː/",
-      "phonetic_simple": "FEE-KEE",
-      "translation": "la fatigue / être fatigué",
-      "example_sentence": "ń fɛ̀ɛ̀-kɛ́ɛ́ le",
-      "example_phonetic": "/ń fɛ̀ː.kɛ́ː le/",
-      "example_translation": "Je suis fatigué."
+      "word_id": "v4",
+      "term": "lɔ́ɔ",
+      "phonetic_api": "/lɔ́ɔ/",
+      "phonetic_simple": "LO-O",
+      "translation": "aimer, préférer (kpele apparenté)",
+      "example_sentence": "Ɲá lɔ́ɔ màa dɔ́mɔ́ hùyǒ.",
+      "example_phonetic": "/ɲá lɔ́ɔ màː dɔ́mɔ́ hùjǒ/",
+      "example_translation": "Je préfère le riz à la viande."
+    },
+    {
+      "word_id": "v5",
+      "term": "dɔ́mɔ́",
+      "phonetic_api": "/dɔ́mɔ́/",
+      "phonetic_simple": "DO-MO",
+      "translation": "plus (que), davantage (kpele apparenté, marqueur comparatif)",
+      "example_sentence": "Ɲá lɔ́ɔ X dɔ́mɔ́ Y.",
+      "example_phonetic": "/ɲá lɔ́ɔ X dɔ́mɔ́ Y/",
+      "example_translation": "Je préfère X à Y."
+    },
+    {
+      "word_id": "v6",
+      "term": "hɛ́ɣɛ",
+      "phonetic_api": "/hɛ́ɣɛ/",
+      "phonetic_simple": "HÉ-GHÉ",
+      "translation": "beaucoup (kono attesté, dans é máma é hɛɣɛ « merci beaucoup »)",
+      "example_sentence": "Ɲɔ̀ɔ gáa ɲá pɔ́ hɛ́ɣɛ.",
+      "example_phonetic": "/ɲɔ̀ː gáː ɲá pɔ́ hɛ́ɣɛ/",
+      "example_translation": "Je suis très heureux."
+    },
+    {
+      "word_id": "v7",
+      "term": "ɓɛ̀rɛ̀",
+      "phonetic_api": "/ɓɛ̀rɛ̀/",
+      "phonetic_simple": "BÈ-RÈ",
+      "translation": "tristesse, colère (kpele apparenté)",
+      "example_sentence": "Ɓɛ̀rɛ̀ gáa yà pɔ́.",
+      "example_phonetic": "/ɓɛ̀rɛ̀ gáː jà pɔ́/",
+      "example_translation": "Il/elle est triste/en colère."
+    },
+    {
+      "word_id": "v8",
+      "term": "dɔ́mɔ́ɔ",
+      "phonetic_api": "/dɔ́mɔ́ɔ/",
+      "phonetic_simple": "DO-MO-O",
+      "translation": "un peu (kpele apparenté, distinct du comparatif dɔ́mɔ́ par la longueur vocalique)",
+      "example_sentence": "Ɲɔ̀ɔ gáa ɲá pɔ́ dɔ́mɔ́ɔ.",
+      "example_phonetic": "/ɲɔ̀ː gáː ɲá pɔ́ dɔ́mɔ́ɔ/",
+      "example_translation": "Je suis un peu content."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p3_1",
-      "original": "í bɛ́ nìí gbéé wá ?",
-      "phonetic_api": "/í ɓɛ́ nìː ɡ͡ɓéː wá/",
-      "phonetic_simple": "I BE NII GBEE WA",
-      "translation": "Est-ce que tu aimes ceci ?",
-      "context": "Demander l'avis de quelqu'un sur un objet ou un plat."
+      "phrase_id": "p1",
+      "original": "Ɲɔ̀ɔ gáa ɲá pɔ́.",
+      "phonetic_api": "/ɲɔ̀ː gáː ɲá pɔ́/",
+      "phonetic_simple": "NYO-O GA-A NYA PO",
+      "translation": "Je suis heureux.",
+      "context": "Construction locative de base pour exprimer un sentiment positif."
     },
     {
-      "phrase_id": "p3_2",
-      "original": "ń tɛ́ kɔ̀nɔ̀n-táá gbéé kpaán",
-      "phonetic_api": "/ń tɛ́ kɔ̀nɔ̀n.táː ɡ͡ɓéː k͡páːn/",
-      "phonetic_simple": "N TE KONON-TAA GBEE KPAAN",
-      "translation": "Je n'aime pas du tout la dispute.",
-      "context": "Exprimer un rejet catégoriel ou une valeur morale."
+      "phrase_id": "p2",
+      "original": "Ɓɛ̀rɛ̀ gáa yà pɔ́.",
+      "phonetic_api": "/ɓɛ̀rɛ̀ gáː jà pɔ́/",
+      "phonetic_simple": "BÈ-RÈ GA-A YA PO",
+      "translation": "Il/elle est triste.",
+      "context": "Même construction appliquée à un sentiment négatif."
     },
     {
-      "phrase_id": "p3_3",
-      "original": "í sɛ̀ɛ̀-wòò le ?",
-      "phonetic_api": "/í sɛ̀ː.wòː le/",
-      "phonetic_simple": "I SEE-WOO LE",
-      "translation": "Es-tu heureux ?",
-      "context": "S'informer de l'état émotionnel d'un proche."
+      "phrase_id": "p3",
+      "original": "Ɲá lɔ́ɔ màa dɔ́mɔ́ hùyǒ.",
+      "phonetic_api": "/ɲá lɔ́ɔ màː dɔ́mɔ́ hùjǒ/",
+      "phonetic_simple": "NYA LO-O MA-A DO-MO HOU-YO",
+      "translation": "Je préfère le riz à la viande.",
+      "context": "Structure comparative de préférence avec dɔ́mɔ́."
     },
     {
-      "phrase_id": "p3_4",
-      "original": "ń wálá-gáá le bɛ́ táá kíá míé",
-      "phonetic_api": "/ń wá.lá.ɡáː le ɓɛ́ táː kí.á mí.é/",
-      "phonetic_simple": "N WA-LA-GAA LE BE TAA KIA MIEE",
-      "translation": "Je préfère aller me coucher maintenant.",
-      "context": "Exprimer un choix immédiat lié à un état physique."
+      "phrase_id": "p4",
+      "original": "Ɲɔ̀ɔ gáa ɲá pɔ́ hɛ́ɣɛ!",
+      "phonetic_api": "/ɲɔ̀ː gáː ɲá pɔ́ hɛ́ɣɛ/",
+      "phonetic_simple": "NYO-O GA-A NYA PO HÉ-GHÉ",
+      "translation": "Je suis très heureux !",
+      "context": "Intensification du sentiment avec hɛ́ɣɛ « beaucoup », attesté en kono."
     }
   ],
   "grammar_points": [
     {
-      "concept": "Les verbes de sentiment construits avec la localisation interne 'yíé'",
-      "explanation": "En langue kono, beaucoup de sentiments ne sont pas exprimés par des verbes directs ('je suis triste'), mais par des structures nominales imagées où l'émotion réside physiquement à l'intérieur de la personne, marquée par le postpositionnel 'yíé' (dedans / dans le cœur).",
+      "concept": "Les constructions locatives de sentiment",
+      "explanation": "Le kono/kpele n'a pas de verbe équivalent unique à « se sentir » ; les sentiments sont exprimés par des noms abstraits (ɲɔ̀ɔ « joie », ɓɛ̀rɛ̀ « tristesse ») utilisés comme sujets d'une construction locative avec gáa + pronom + pɔ́, exactement la même construction que pour la faim.",
       "rules": [
-        "Nom de l'émotion + káá (est) + Pronom possessif + yíé (en/dans).",
-        "Pour inverser ou nier, on remplace 'káá' par 'tɛ́'."
+        "Nom de sentiment + gáa + Personne + pɔ́ = la personne ressent ce sentiment.",
+        "hɛ́ɣɛ « beaucoup » intensifie le sentiment en fin de phrase.",
+        "Le comparatif de préférence utilise lɔ́ɔ + X + dɔ́mɔ́ + Y = préférer X à Y."
       ],
       "examples": [
         {
-          "structure": "sɛ̀ɛ̀-wòò káá ń yíé",
-          "phonetic_api": "/sɛ̀ː.wòː káː ń jí.é/",
-          "meaning": "Je suis heureux (La joie est en moi)."
+          "structure": "Sentiment + gáa + Pers. + pɔ́",
+          "phonetic_api": "/gáː … pɔ́/",
+          "meaning": "Pers. ressent Sentiment"
         },
         {
-          "structure": "sɛ̀ɛ̀-wòò tɛ́ á yíé",
-          "phonetic_api": "/sɛ̀ː.wòː tɛ́ á jí.é/",
-          "meaning": "Il n'est pas heureux (La joie n'est pas en lui)."
-        }
-      ]
-    },
-    {
-      "concept": "L'expression de la préférence avec 'wálá-gáá'",
-      "explanation": "Pour désigner une préférence entre deux choix, on emploie 'wálá-gáá'. Il s'associe à l'auxiliaire du présent ou se suffit à lui-même avec une particule de focalisation 'le'.",
-      "rules": [
-        "Sujet + wálá-gáá + Objet préféré."
-      ],
-      "examples": [
-        {
-          "structure": "ń wálá-gáá túlí le",
-          "phonetic_api": "/ń wá.lá.ɡáː tú.lí le/",
-          "meaning": "Je préfère la musique."
+          "structure": "lɔ́ɔ + X + dɔ́mɔ́ + Y",
+          "phonetic_api": "/lɔ́ɔ … dɔ́mɔ́ …/",
+          "meaning": "préférer X à Y"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Kouamy",
-      "text": "Sia, í fɛ̀ɛ̀-kɛ́ɛ́ le nìí gáá-wòò ?",
-      "phonetic_api": "/sí.á í fɛ̀ː.kɛ́ː le nìː ɡáː.wòː/",
-      "phonetic_simple": "SIA I FEE-KEE LE NII GAA-WOO",
-      "translation": "Sia, tu es fatiguée ce soir ?"
+      "speaker": "Bala",
+      "text": "Ɲɔ̀ɔ gáa ɲá pɔ́ hɛ́ɣɛ tíŋaá!",
+      "phonetic_api": "/ɲɔ̀ː gáː ɲá pɔ́ hɛ́ɣɛ tíŋaː/",
+      "phonetic_simple": "NYO-O GA-A NYA PO HÉ-GHÉ TIN-GA-A",
+      "translation": "Je suis très heureux, demain !"
     },
     {
-      "speaker": "Sia",
-      "text": "òò, ń fɛ̀ɛ̀-kɛ́ɛ́ le. ń wálá-gáá le bɛ́ táá kíá míé.",
-      "phonetic_api": "/òː ń fɛ̀ː.kɛ́ː le ń wá.lá.ɡáː le ɓɛ́ táː kí.á mí.é/",
-      "phonetic_simple": "OO N FEE-KEE LE N WA-LA-GAA LE BE TAA KIA MIEE",
-      "translation": "Oui, je suis fatiguée. Je préfère aller dormir maintenant."
+      "speaker": "Sèni",
+      "text": "É lɔ́ɔ màa dɔ́mɔ́ hùyǒ?",
+      "phonetic_api": "/é lɔ́ɔ màː dɔ́mɔ́ hùjǒ/",
+      "phonetic_simple": "É LO-O MA-A DO-MO HOU-YO",
+      "translation": "Préfères-tu le riz à la viande ?"
     },
     {
-      "speaker": "Kouamy",
-      "text": "kénɛ̀ le, tìɛ̀ sɛ̀ɛ̀-wòò yíé à sɔ̀ nɛ̀ɛ̀.",
-      "phonetic_api": "/kɛ́nɛ̀ le tìɛ̀ sɛ̀ː.wòː jí.é à sɔ̀ nɛ̀ː/",
-      "phonetic_simple": "KENE LE TIEE SEE-WOO YIEE A SO NEE",
-      "translation": "D'accord, repose-toi bien dans la joie (bonne nuit)."
+      "speaker": "Bala",
+      "text": "Ěe, ŋa lɔ́ɔ màa dɔ́mɔ́!",
+      "phonetic_api": "/ěː ŋá lɔ́ɔ màː dɔ́mɔ́/",
+      "phonetic_simple": "É-É NGA LO-O MA-A DO-MO",
+      "translation": "Oui, je préfère le riz !"
+    },
+    {
+      "speaker": "Sèni",
+      "text": "Ɓɛ̀rɛ̀ gáa ɲá pɔ́ dɔ́mɔ́ɔ kɛ́ɛ.",
+      "phonetic_api": "/ɓɛ̀rɛ̀ gáː ɲá pɔ́ dɔ́mɔ́ɔ kɛ́ː/",
+      "phonetic_simple": "BÈ-RÈ GA-A NYA PO DO-MO-O KÉ-É",
+      "translation": "Je suis un peu triste maintenant."
     }
   ],
   "cultural_notes": [
-    "Chez les Konon, extérioriser une colère ou une tristesse de manière agressive en public est perçu comme un manque de retenue. Les sentiments intimes sont souvent abordés à travers des expressions liées au corps, métaphorisant le cœur ou le ventre comme les réceptacles sacrés des émotions de l'individu."
+    "L'expression indirecte des sentiments par des constructions locatives (« la joie est sur moi ») plutôt que par des verbes directs (« je me sens ») est une caractéristique typologique commune à de nombreuses langues mandées, reflétant une conception du sentiment comme force externe agissant sur la personne.",
+    "Exprimer ouvertement la tristesse ou la colère en public reste culturellement discret dans de nombreuses communautés forestières de Guinée ; on privilégiera souvent des formules atténuées comme dɔ́mɔ́ɔ « un peu »."
   ],
   "exercises": [
     {
-      "exercise_id": "ex3_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Comment dit-on 'Je suis fatigué' en kono ?",
+      "question": "Comment dit-on « je suis heureux » en kono/kpele ?",
       "options": [
-        "ń fɛ̀ɛ̀-kɛ́ɛ́ le",
-        "ń sɛ̀ɛ̀-wòò le",
-        "ń bɛ́ tó-gbáá kɛ́á"
+        "Ɲɔ̀ɔ gáa ɲá pɔ́.",
+        "Ɓɛ̀rɛ̀ gáa yà pɔ́.",
+        "Ɲá lɔ́ɔ màa dɔ́mɔ́ hùyǒ."
       ],
-      "correct_answer": "ń fɛ̀ɛ̀-kɛ́ɛ́ le",
-      "explanation": "'fɛ̀ɛ̀-kɛ́ɛ́' exprime directement l'état physique ou mental de la fatigue."
+      "correct_answer": "Ɲɔ̀ɔ gáa ɲá pɔ́.",
+      "explanation": "Cette construction locative signifie littéralement « la joie est sur moi », soit « je suis heureux »."
     },
     {
-      "exercise_id": "ex3_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "sɛ̀ɛ̀-wòò káá ń [ ___ ] (Je suis heureux)",
-      "correct_answer": "yíé",
-      "hint": "Le mot pour l'espace intérieur / dedans"
+      "sentence_with_blank": "Ɲá lɔ́ɔ màa ___ hùyǒ. (Je préfère le riz à la viande.)",
+      "correct_answer": "dɔ́mɔ́",
+      "hint": "Le marqueur comparatif signifiant « plus que »."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Maria Konoshenko, « Field Notes on Kono, a Southwestern Mande Lect of Forest Guinea », Mandenkan 57 (2017), pp. 77-107",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan57/konoshenko57.pdf"
+    },
+    {
+      "label": "Maria Konoshenko, « Dictionnaire kpele de la Guinée (guerzé) – français », Mandenkan 62 (2019/2020)",
+      "url": "https://journals.openedition.org/mandenkan/2091"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Peu de lexique Kono publié couvre ce champ sémantique précis. Le contenu s'appuie ici avec prudence sur le Kpelle de Guinée (guerzé, gkp), langue mandée du sud-ouest très proche du Kono (90% de cognats lexicaux selon Konoshenko 2017) et documentée par un dictionnaire académique de 3000 entrées. Les mots kpele sont signalés comme tels et pourraient différer légèrement du Kono authentique sur certains points de phonologie ou de lexique. hɛ́ɣɛ (beaucoup) et gáa (locatif) sont attestés en kono ; les noms de sentiments (ɲɔ̀ɔ, ɓɛ̀rɛ̀) et le marqueur comparatif dɔ́mɔ́ proviennent du kpele apparenté."
 }

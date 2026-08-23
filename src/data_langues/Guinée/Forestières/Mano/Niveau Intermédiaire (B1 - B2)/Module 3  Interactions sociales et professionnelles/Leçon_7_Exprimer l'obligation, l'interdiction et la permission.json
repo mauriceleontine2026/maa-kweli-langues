@@ -6,157 +6,230 @@
   "lesson_number": 7,
   "title": "Exprimer l'obligation, l'interdiction et la permission",
   "learning_objectives": [
-    "Exprimer un ordre, un devoir ou une obligation en Mano",
-    "Formuler une interdiction claire ou un avertissement",
-    "Demander et accorder poliment une permission"
+    "Utiliser le subjonctif pour exprimer une injonction ou une obligation",
+    "Formuler une interdiction avec une construction négative",
+    "Demander et accorder une permission"
   ],
   "phonetic_focus": {
-    "key_sounds": "Les structures de modalité utilisent des particules d'insistance comme /ka˧/. La négation prohibitive ou l'interdiction s'appuie fortement sur la particule négative /vɔ̃ː˧/ ou l'adjonction de structures impératives à ton bas.",
-    "common_pitfalls": "Veillez à maintenir un ton bas et descendant lors des interdictions pour marquer le caractère restrictif, sans quoi la phrase pourrait être confondue avec une simple constatation affirmative."
+    "key_sounds": "La série subjonctive (ŋ̀, ì, è, kò, kà, ò) est très courte et proche des pronoms non-sujets ; le ton bas distinctif la différencie des pronoms sujets de l'existentiel.",
+    "common_pitfalls": "Ne pas confondre la négation générale (marqueurs de la série 'négatif' : ŋ̀ŋ́, ìí, lɛ̀ɛ́...) avec l'interdiction proprement dite, qui s'exprime souvent par une construction impérative négative distincte."
   },
   "vocabulary": [
     {
-      "word_id": "v16_1",
-      "term": "ka",
-      "phonetic_api": "/ka˧/",
-      "phonetic_simple": "KAH",
-      "translation": "Devoir / Falloir / Obligation",
-      "example_sentence": "Í ka lɔ.",
-      "example_phonetic": "/i˦ ka˧ lɔ˧/",
-      "example_translation": "Tu dois partir."
+      "word_id": "v1",
+      "term": "è",
+      "phonetic_api": "/è/",
+      "phonetic_simple": "È",
+      "translation": "qu'il/elle (subjonctif, 3SG)",
+      "example_sentence": "È nū.",
+      "example_phonetic": "/è nū/",
+      "example_translation": "Qu'il vienne."
     },
     {
-      "word_id": "v16_2",
-      "term": "lɔ-wɔ̃",
-      "phonetic_api": "/lo˧wɔ̃˧/",
-      "phonetic_simple": "LOR-WONG",
-      "translation": "Permission / Accord / Autorisation",
-      "example_sentence": "ń lo-wɔ̃ ya à la.",
-      "example_phonetic": "/ń lo˧wɔ̃˧ ja˧ a˧ la˧/",
-      "example_translation": "Je lui donne la permission."
+      "word_id": "v2",
+      "term": "ì",
+      "phonetic_api": "/ì/",
+      "phonetic_simple": "I",
+      "translation": "que tu (subjonctif, 2SG)",
+      "example_sentence": "Ì kɛ́ì pɛ́lɛ́.",
+      "example_phonetic": "/ì kɛ́ì pɛ́lɛ́/",
+      "example_translation": "Que tu balaies la chambre."
     },
     {
-      "word_id": "v16_3",
-      "term": "kɛ-wɔ̃",
-      "phonetic_api": "/kɛ˧wɔ̃˧/",
-      "phonetic_simple": "KÈ-WONG",
-      "translation": "Action permise / Droit de faire",
-      "example_sentence": "kɛ-wɔ̃ ɓe ɓɛ.",
-      "example_phonetic": "/kɛ˧wɔ̃˧ ɓe˧ ɓɛ˧/",
-      "example_translation": "C'est permis ici."
+      "word_id": "v3",
+      "term": "kò",
+      "phonetic_api": "/kò/",
+      "phonetic_simple": "KO",
+      "translation": "que nous (subjonctif, 1PL)",
+      "example_sentence": "Kò lō ká.",
+      "example_phonetic": "/kò lō ká/",
+      "example_translation": "Que nous allions à la maison."
     },
     {
-      "word_id": "v16_4",
-      "term": "tɔ̃́",
-      "phonetic_api": "/tɔ̃˦/",
-      "phonetic_simple": "TONG",
-      "translation": "Loi / Règle / Interdiction",
-      "example_sentence": "tɔ̃́ ɓe à la.",
-      "example_phonetic": "/tɔ̃˦ ɓe˧ a˧ la˧/",
-      "example_translation": "C'est interdit (Il y a une règle sur cela)."
+      "word_id": "v4",
+      "term": "lɛ̀ɛ́",
+      "phonetic_api": "/lɛ̀ɛ́/",
+      "phonetic_simple": "lè-É",
+      "translation": "il/elle ne...pas (négatif, 3SG)",
+      "example_sentence": "Lɛ̀ɛ́ nū.",
+      "example_phonetic": "/lɛ̀ɛ́ nū/",
+      "example_translation": "Il ne vient pas / qu'il ne vienne pas."
+    },
+    {
+      "word_id": "v5",
+      "term": "ìí",
+      "phonetic_api": "/ìí/",
+      "phonetic_simple": "i-I",
+      "translation": "tu ne...pas (négatif, 2SG)",
+      "example_sentence": "Ìí lō lɔ́í.",
+      "example_phonetic": "/ìí lō lɔ́í/",
+      "example_translation": "Tu ne dois pas aller au marché."
+    },
+    {
+      "word_id": "v6",
+      "term": "wɔ́",
+      "phonetic_api": "/wɔ́/",
+      "phonetic_simple": "WO",
+      "translation": "particule de négation existentielle",
+      "example_sentence": "Kálé wɔ́ pɛ́í.",
+      "example_phonetic": "/kálé wɔ́ pɛ́í/",
+      "example_translation": "La porte n'est pas ouverte / il est interdit d'ouvrir."
+    },
+    {
+      "word_id": "v7",
+      "term": "gé lī",
+      "phonetic_api": "/gé lī/",
+      "phonetic_simple": "gué LI",
+      "translation": "permettre, accepter (au sens 'être d'accord')",
+      "example_sentence": "À gé lī ī lō ɓɛ̄.",
+      "example_phonetic": "/à gé lī ī lō ɓɛ̄/",
+      "example_translation": "Il accepte que tu partes."
+    },
+    {
+      "word_id": "v8",
+      "term": "kɛ̄",
+      "phonetic_api": "/kɛ̄/",
+      "phonetic_simple": "KÊ",
+      "translation": "faire, devoir faire",
+      "example_sentence": "Ì à kɛ̄ dɛ̄ɛ̄ká!",
+      "example_phonetic": "/ì à kɛ̄ dɛ̄ɛ̄ká/",
+      "example_translation": "Fais-le maintenant !"
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p16_1",
-      "original": "Í ka ti kɛ gbe-gbe.",
-      "phonetic_api": "/i˦ ka˧ ti˧ kɛ˧ ɡbe˧ɡbe˧/",
-      "phonetic_simple": "EE KAH TEE KÈ GBÉ-GBÉ",
-      "translation": "Tu dois travailler correctement.",
-      "context": "Donner une consigne ou rappeler un devoir professionnel."
+      "phrase_id": "p1",
+      "original": "Ì à kɛ̄ dɛ̄ɛ̄ká!",
+      "phonetic_api": "/ì à kɛ̄ dɛ̄ɛ̄ká/",
+      "phonetic_simple": "i a kê dè-è-ka",
+      "translation": "Fais-le maintenant !",
+      "context": "Injonction directe utilisant le subjonctif à valeur d'impératif."
     },
     {
-      "phrase_id": "p16_2",
-      "original": "Í bɔ́ wɔ̃ mɛ̀ kɛ́ la !",
-      "phonetic_api": "/i˦ ɓɔ˦ wɔ̃˧ mɛ˩ kɛ˦ la˧/",
-      "phonetic_simple": "EE BOR WONG MÈ KÉ LA !",
-      "translation": "Ne fais pas cette chose ! (Interdiction)",
-      "context": "Formuler une interdiction stricte face à un comportement inapproprié."
+      "phrase_id": "p2",
+      "original": "Ìí lō lɔ́í kɛ̀ɛ̀ɛ̀!",
+      "phonetic_api": "/ìí lō lɔ́í kɛ̀ɛ̀ɛ̀/",
+      "phonetic_simple": "i-i lo lo-i kè-è-è",
+      "translation": "Tu ne dois pas aller au marché maintenant !",
+      "context": "Interdiction avec le négatif 2SG."
     },
     {
-      "phrase_id": "p16_3",
-      "original": "Ń se lɔ pɛ́lɛ̀ mĩ́ baika ?",
-      "phonetic_api": "/ń se˧ lɔ˧ pɛ˦lɛ˩ mĩ˦ bai̯˧ka˧/",
-      "phonetic_simple": "N SÉ LOR PÈ-LÈ MEENG BAÏ-KAH ?",
-      "translation": "Puis-je entrer dans la maison s'il vous plaît ?",
-      "context": "Demander poliment l'autorisation d'entrer chez quelqu'un."
+      "phrase_id": "p3",
+      "original": "Ŋ̄ gèē ŋ̄ lō léé?",
+      "phonetic_api": "/ŋ̄ gèē ŋ̄ lō léé/",
+      "phonetic_simple": "ng guè-è ng lo lé-é",
+      "translation": "Puis-je partir ?",
+      "context": "Formule de demande de permission (littéralement 'je dis que je pars ?')."
     },
     {
-      "phrase_id": "p16_4",
-      "original": "Ao, lɔ mĩ́, kɛ-wɔ̃ ɓe.",
-      "phonetic_api": "/ao̯˧ lɔ˧ mĩ˦ kɛ˧wɔ̃˧ ɓe˧/",
-      "phonetic_simple": "A-O, LOR MEENG, KÈ-WONG BÉ.",
-      "translation": "Oui, entre, c'est permis.",
-      "context": "Accorder l'accès ou la permission."
+      "phrase_id": "p4",
+      "original": "Ɔ̀ɔ́, í lō.",
+      "phonetic_api": "/ɔ̀ɔ́, í lō/",
+      "phonetic_simple": "o-o, i lo",
+      "translation": "Oui, tu peux partir (littéralement 'pars').",
+      "context": "Réponse accordant la permission avec le subjonctif."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'expression de l'obligation avec 'ka' et de l'interdiction prohibitive",
-      "explanation": "L'obligation se construit en insérant l'auxiliaire modal 'ka' directement après le pronom sujet. Pour l'interdiction impérative (ne fais pas), le Mano utilise la structure prohibitive 'bɔ́' suivie du verbe d'action et de la particule de clôture 'la'.",
+      "concept": "Le subjonctif pour l'obligation et l'injonction, la négation pour l'interdiction",
+      "explanation": "Le subjonctif mano (série ŋ̀, ì, è, kò, kà, ò) sert à exprimer un ordre, un souhait ou une obligation adressée à quelqu'un — un usage proche de l'impératif quand il s'adresse au 2SG/2PL. L'interdiction s'exprime en combinant cette structure injonctive avec la négation (série négative) ou avec la particule wɔ́ pour signaler l'impossibilité/l'interdiction d'un état.",
       "rules": [
-        "Obligation : [Sujet] + ka + [Verbe d'action].",
-        "Interdiction : [Sujet] + bɔ́ + [Action] + la."
+        "Injonction/obligation : Aux.SBJV (personne) + Objet + Verbe",
+        "Interdiction : Aux.NEG (personne) + Objet + Verbe, ou Sujet + wɔ́ + Adjectif/État pour signaler qu'une chose n'est pas permise/possible",
+        "Permission : demander avec une question rhétorique au subjonctif, accorder en répétant simplement l'ordre au subjonctif"
       ],
       "examples": [
         {
-          "structure": "Í ka mi.",
-          "phonetic_api": "/i˦ ka˧ mi˧/",
-          "meaning": "Tu dois manger."
+          "structure": "Ì à kɛ̄ dɛ̄ɛ̄ká!",
+          "phonetic_api": "/ì à kɛ̄ dɛ̄ɛ̄ká/",
+          "meaning": "Fais-le maintenant ! (obligation/ordre)"
         },
         {
-          "structure": "Í bɔ́ mi la !",
-          "phonetic_api": "/i˦ ɓɔ˦ mi˧ la˧/",
-          "meaning": "Ne mange pas !"
+          "structure": "Ìí lō lɔ́í!",
+          "phonetic_api": "/ìí lō lɔ́í/",
+          "meaning": "Tu ne dois pas aller au marché ! (interdiction)"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Chef de famille",
-      "text": "Í nɛ̃ gbɛ̃, í ka lɔ lékɔli mī tina !",
-      "phonetic_api": "/i˦ nɛ̃˧ ɡbɛ̃˧ i˦ ka˧ lɔ˧ le˧kɔ˧li˧ miː˧ ti˧na˧/",
-      "phonetic_simple": "EE NENG GBENG, EE KAH LOR LÉKOLI MEE TEE-NAH !",
-      "translation": "Mon fils, tu dois aller à l'école demain !"
+      "speaker": "Parent",
+      "text": "Ì kɛ́ì pɛ́lɛ́ dɛ̄ɛ̄ká!",
+      "phonetic_api": "/ì kɛ́ì pɛ́lɛ́ dɛ̄ɛ̄ká/",
+      "phonetic_simple": "i ké-i pé-lé dè-è-ka",
+      "translation": "Balaie la chambre maintenant !"
     },
     {
       "speaker": "Enfant",
-      "text": "Ao ń de, ń le lɔ. Ń se gbe kɛ pɔ̃́ la baika ?",
-      "phonetic_api": "/ao̯˧ ń de˧ ń le˧ lɔ˧ ń se˧ ɡbe˧ kɛ˧ pɔ̃˦ la˧ bai̯˧ka˧/",
-      "phonetic_simple": "A-O N DÉ, N LÉ LOR. N SÉ GBÉ KÈ PONG LA BAÏ-KAH ?",
-      "translation": "Oui mon père, j'irai. Puis-je jouer ce soir s'il te plaît ?"
+      "text": "Ŋ̄ gèē ŋ̄ lō sɔ̀ ɓō léé, ŋ̄ à kɛ̄ ē tó ā là?",
+      "phonetic_api": "/ŋ̄ gèē ŋ̄ lō sɔ̀ ɓō léé, ŋ̄ à kɛ̄ ē tó ā là/",
+      "phonetic_simple": "ng guè-è ng lo so bo lé-é, ng a kê é to a la",
+      "translation": "Puis-je aller jouer d'abord, avant de le faire ?"
     },
     {
-      "speaker": "Chef de famille",
-      "text": "Ao, gbe kɛ, kɛ-wɔ̃ ɓe. Kɛ́ í bɔ́ tɔ́ɔ lɔ la.",
-      "phonetic_api": "/ao̯˧ ɡbe˧ kɛ˧ kɛ˧wɔ̃˧ ɓe˧ kɛ˦ i˦ ɓɔ˦ tɔː˦ lɔ˧ la˧/",
-      "phonetic_simple": "A-O, GBÉ KÈ, KÈ-WONG BÉ. KÉ EE BOR TOOR LOR LA.",
-      "translation": "Oui, joue, c'est permis. Mais ne pars pas loin."
+      "speaker": "Parent",
+      "text": "Ìí, ì à kɛ̄ ē tó!",
+      "phonetic_api": "/ìí, ì à kɛ̄ ē tó/",
+      "phonetic_simple": "i-i, i a kê é to",
+      "translation": "Non, fais-le d'abord !"
+    },
+    {
+      "speaker": "Enfant",
+      "text": "Kɛ̀, mā à kɛ̄.",
+      "phonetic_api": "/kɛ̀, mā à kɛ̄/",
+      "phonetic_simple": "kè, ma a kê",
+      "translation": "D'accord, je vais le faire."
     }
   ],
   "cultural_notes": [
-    "Dans la culture communautaire Mano en Guinée, le respect des règles et l'obéissance aux structures traditionnelles (notamment les tontines, le conseil des sages, ou les gardiens des coutumes de la forêt sacrée) sont très ancrés. Transgresser une interdiction collective ('tɔ̃́') expose l'individu à des sanctions sociales ou à des rituels de réparation."
+    "Le respect de l'autorité parentale et des aînés structure fortement l'expression de l'obligation dans la société mano ; les injonctions des aînés sont rarement contestées ouvertement.",
+    "Les interdictions rituelles (tabous liés à certains lieux sacrés de la forêt ou à des sociétés initiatiques) occupent une place importante dans la culture mano traditionnelle de Guinée forestière."
   ],
   "exercises": [
     {
-      "exercise_id": "ex16_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quelle structure utilisez-vous pour exprimer une obligation stricte (Tu dois) en Mano ?",
+      "question": "Quelle série d'auxiliaires exprime un ordre ou une obligation adressée à quelqu'un ?",
       "options": [
-        "Í wɔ lɔ",
-        "Í ka lɔ",
-        "Í bɔ́ lɔ la"
+        "existentiel",
+        "subjonctif",
+        "parfait"
       ],
-      "correct_answer": "Í ka lɔ",
-      "explanation": "'ka' marque l'obligation de faire l'action qui suit."
+      "correct_answer": "subjonctif",
+      "explanation": "Le subjonctif (ŋ̀, ì, è, kò, kà, ò) exprime l'injonction/l'obligation, avec une valeur proche de l'impératif à la 2e personne."
     },
     {
-      "exercise_id": "ex16_2",
+      "exercise_id": "ex2",
+      "type": "multiple_choice",
+      "question": "Comment exprime-t-on une interdiction en mano ?",
+      "options": [
+        "avec le prétérit seul",
+        "avec la série négative ou wɔ́",
+        "avec l'existentiel seul"
+      ],
+      "correct_answer": "avec la série négative ou wɔ́",
+      "explanation": "L'interdiction combine la structure injonctive avec la négation (série négative) ou la particule wɔ́."
+    },
+    {
+      "exercise_id": "ex3",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Pour interdire à un enfant de faire une bêtise, on emploie la marque prohibitive : Í [ ___ ] wɔ̃ mɛ̀ kɛ́ la !",
-      "correct_answer": "bɔ́",
-      "hint": "C'est la particule de l'impératif négatif."
+      "sentence_with_blank": "[ ___ ] à kɛ̄ dɛ̄ɛ̄ká! (Fais-le maintenant !)",
+      "correct_answer": "Ì",
+      "hint": "Ì est l'auxiliaire subjonctif à la 2SG, utilisé ici pour donner un ordre."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Khachaturyan, M. (2015) Grammaire du mano, Mandenkan 54, LLACAN/CNRS",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan54/54khachaturyan.pdf"
+    },
+    {
+      "label": "Khachaturyan, M., Carbo, M., Mamy, P. (2022) Dictionnaire mano-français, Mandenkan 67, LLACAN/CNRS",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan67/67mano_dict_all.pdf"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Le subjonctif et la série négative sont solidement attestés dans la grammaire de Khachaturyan (Mandenkan 54) ; les formules précises de demande/octroi de permission ont été construites par extrapolation à partir de structures attestées, faute d'exemples dédiés dans les sources consultées — à valider auprès d'un locuteur natif."
 }

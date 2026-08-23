@@ -6,123 +6,263 @@
   "lesson_number": 4,
   "title": "La famille et les relations proches",
   "learning_objectives": [
-    "Identifier les membres de la famille nucléaire et élargie en toma",
-    "Utiliser les adjectifs possessifs de base pour parler de son entourage"
+    "Nommer les principaux membres de la famille proche",
+    "Utiliser les possessifs de base (mon/ma/ton/ta) avec les termes de parenté",
+    "Poser des questions simples sur la famille de quelqu'un"
   ],
   "phonetic_focus": {
-    "key_sounds": "La langue toma possède des consonnes labio-vélaires complexes comme /gb/ ou /kp/ émises simultanément, ainsi que des voyelles nasales importantes pour distinguer le genre ou la possession.",
-    "common_pitfalls": "Veillez à ne pas séparer le son /gb/ en 'g' suivi de 'b'. La prononciation doit se faire en un seul mouvement articulatoire fermé."
+    "key_sounds": "Les termes de parenté combinent souvent une racine et un suffixe possessif ou de genre (ex: '-zunui' pour le masculin, '-nazanii' pour le féminin). Attention à la voyelle longue finale marquant certains possessifs ('e-' = ton/ta).",
+    "common_pitfalls": "Les francophones oublient souvent que 'dee' (mère) désigne aussi la sœur de la mère (tante maternelle) et l'autre épouse du père, car le système de parenté loma/toma regroupe plusieurs rôles sous un même terme, contrairement au français."
   },
   "vocabulary": [
     {
-      "word_id": "v4_1",
-      "term": "kêe",
-      "phonetic_api": "/kɛ̂ː/",
-      "phonetic_simple": "KEE",
-      "translation": "père",
-      "example_sentence": "Na kêe ɓaa.",
-      "example_phonetic": "/na kɛ̂ː ɓaː/",
-      "example_translation": "C'est mon père."
-    },
-    {
-      "word_id": "v4_2",
-      "term": "dee",
+      "word_id": "v1",
+      "term": "Dee",
       "phonetic_api": "/deː/",
-      "phonetic_simple": "DEE",
-      "translation": "mère",
-      "example_sentence": "Na dee vaza.",
-      "example_phonetic": "/na deː va.za/",
-      "example_translation": "Ma mère est bonne."
+      "phonetic_simple": "DÉÉ",
+      "translation": "Mère (aussi : tante maternelle, autre épouse du père)",
+      "example_sentence": "Dee yaa na gaa pago.",
+      "example_phonetic": "/deː jaː na gaː pagɔ/",
+      "example_translation": "Ma mère va bien."
     },
     {
-      "word_id": "v4_3",
-      "term": "loi",
-      "phonetic_api": "/loi/",
-      "phonetic_simple": "LOÏ",
-      "translation": "enfant / fils / fille",
-      "example_sentence": "Na loi ɓaa ni.",
-      "example_phonetic": "/na loi ɓaː ni/",
-      "example_translation": "C'est mon enfant."
+      "word_id": "v2",
+      "term": "Keya",
+      "phonetic_api": "/keja/",
+      "phonetic_simple": "KÉ-YA",
+      "translation": "Père",
+      "example_sentence": "Keya yaa na gaa pago.",
+      "example_phonetic": "/keja jaː na gaː pagɔ/",
+      "example_translation": "Mon père va bien."
+    },
+    {
+      "word_id": "v3",
+      "term": "Maa",
+      "phonetic_api": "/maː/",
+      "phonetic_simple": "MA-A",
+      "translation": "Grand-mère",
+      "example_sentence": "Ema loo pago.",
+      "example_phonetic": "/ema loː pagɔ/",
+      "example_translation": "Ta grand-mère va bien."
+    },
+    {
+      "word_id": "v4",
+      "term": "Kaawoloi",
+      "phonetic_api": "/kaːwɔlɔi/",
+      "phonetic_simple": "KA-A-WO-LOÏ",
+      "translation": "Grand-père (aussi terme de respect pour un vieil homme)",
+      "example_sentence": "Kaawoloi yaa na?",
+      "example_phonetic": "/kaːwɔlɔi jaː na/",
+      "example_translation": "Comment va grand-père ?"
+    },
+    {
+      "word_id": "v5",
+      "term": "Nuuzunui",
+      "phonetic_api": "/nuːzunui/",
+      "phonetic_simple": "NOU-ZOU-NOUÏ",
+      "translation": "Frère",
+      "example_sentence": "Nuuzunui nadaazeigii yaa gaa Bill.",
+      "example_phonetic": "/nuːzunui nadaːzeigiː jaː gaː bil/",
+      "example_translation": "Mon frère s'appelle Bill."
+    },
+    {
+      "word_id": "v6",
+      "term": "Nuumazai",
+      "phonetic_api": "/nuːmazai/",
+      "phonetic_simple": "NOU-MA-ZAÏ",
+      "translation": "Sœur",
+      "example_sentence": "Nuumazai nadaazeigii yaa gaa Ellen.",
+      "example_phonetic": "/nuːmazai nadaːzeigiː jaː gaː elen/",
+      "example_translation": "Ma sœur s'appelle Ellen."
+    },
+    {
+      "word_id": "v7",
+      "term": "Duu",
+      "phonetic_api": "/duː/",
+      "phonetic_simple": "DOU",
+      "translation": "Enfant",
+      "example_sentence": "Duu lotozu le wodoni.",
+      "example_phonetic": "/duː lɔtɔzu le wɔdɔni/",
+      "example_translation": "Mon enfant n'est pas bien (malade)."
+    },
+    {
+      "word_id": "v8",
+      "term": "Nazai / Poonu",
+      "phonetic_api": "/nazai/ ; /pɔːnu/",
+      "phonetic_simple": "NA-ZAÏ / PO-O-NOU",
+      "translation": "Épouse / Mari",
+      "example_sentence": "Nazai yaa na?",
+      "example_phonetic": "/nazai jaː na/",
+      "example_translation": "Comment va (ton) épouse ?"
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p4_1",
-      "original": "I ɓila hêmɛ gaza?",
-      "phonetic_api": "/i ɓi.la hɛ̂ː.mɛ ɡa.za/",
-      "phonetic_simple": "I BILA HEE-ME GA-ZA",
-      "translation": "Comment va ta famille ?",
-      "context": "Salutation courante et informelle pour prendre des nouvelles du foyer."
+      "phrase_id": "p1",
+      "original": "Elee yaa na?",
+      "phonetic_api": "/eleː jaː na/",
+      "phonetic_simple": "É-LÉ-YA-NA",
+      "translation": "Comment va ta mère ?",
+      "context": "Question polie fréquente lors des salutations prolongées."
     },
     {
-      "phrase_id": "p4_2",
-      "original": "Ta vaza pépe.",
-      "phonetic_api": "/ta va.za pɛ́.pɛ/",
-      "phonetic_simple": "TA VA-ZA PE-PE",
-      "translation": "Ils vont tous bien.",
-      "context": "Réponse standard pour confirmer la bonne santé de ses proches."
+      "phrase_id": "p2",
+      "original": "Eyeya yaa na?",
+      "phonetic_api": "/ejeja jaː na/",
+      "phonetic_simple": "É-YÉ-YA-YA-NA",
+      "translation": "Comment va ton père ?",
+      "context": "Question de politesse sur la famille."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Elui yaa na?",
+      "phonetic_api": "/elui jaː na/",
+      "phonetic_simple": "É-LOUÏ-YA-NA",
+      "translation": "Comment va ton enfant ?",
+      "context": "Question polie sur la santé d'un enfant."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Deyezunui yaa na taa nazeilai.",
+      "phonetic_api": "/dejezunui jaː na taː nazeilai/",
+      "phonetic_simple": "DÉ-YÉ-ZOU-NOUÏ-YA-NA-TA-NA-ZÉÏ-LAÏ",
+      "translation": "J'ai un frère (cadet) et une sœur (cadette).",
+      "context": "Décrire sa fratrie."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Nazeilai yaa gaa nuuwutii.",
+      "phonetic_api": "/nazeilai jaː gaː nuːwutiː/",
+      "phonetic_simple": "NA-ZÉÏ-LAÏ-YA-GA-NOU-WOU-TI",
+      "translation": "Ma sœur est l'aînée.",
+      "context": "Préciser le rang dans la famille."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "Keya nadaazeigii yaa gaa Jin.",
+      "phonetic_api": "/keja nadaːzeigiː jaː gaː dʒin/",
+      "phonetic_simple": "KÉ-YA-NA-DA-ZÉÏ-GUI-YA-GA-DJIN",
+      "translation": "Mon père s'appelle James.",
+      "context": "Donner le nom d'un membre de sa famille."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "Beena, eluivaazu.",
+      "phonetic_api": "/beːna eluivaːzu/",
+      "phonetic_simple": "BÉ-É-NA É-LOUÏ-VA-ZOU",
+      "translation": "Je suis désolé que ton enfant soit malade.",
+      "context": "Exprimer de la sympathie face à la maladie d'un proche."
     }
   ],
   "grammar_points": [
     {
-      "concept": "Les adjectifs possessifs singuliers",
-      "explanation": "En toma, la possession s'exprime en plaçant le pronom possessif directement devant le nom représentant le membre de la famille.",
+      "concept": "Les possessifs 'mon/ma' vs 'ton/ta' sur les noms de parenté",
+      "explanation": "Le possessif n'est pas un mot séparé mais souvent intégré directement au terme de parenté ou marqué par un préfixe/suffixe : 'e-' marque 'ton/ta' (eyeya = ton père ; elee = ta mère), alors que la forme nue ou 'dee/keya' seule renvoie généralement à 'mon/ma' dans le contexte d'une réponse.",
       "rules": [
-        "Utilisez 'na' pour exprimer 'mon/ma'.",
-        "Utilisez 'i' pour exprimer 'ton/ta'."
+        "e- + terme de parenté = ton/ta + terme.",
+        "Le terme nu (dee, keya) dans une réponse renvoie au possesseur du locuteur (mon/ma)."
       ],
       "examples": [
         {
-          "structure": "na dee",
-          "phonetic_api": "/na deː/",
-          "meaning": "ma mère"
-        },
+          "structure": "Elee yaa na? — Dee yaa na gaa pago.",
+          "phonetic_api": "/eleː jaː na — deː jaː na gaː pagɔ/",
+          "meaning": "Comment va ta mère ? — Ma mère va bien."
+        }
+      ]
+    },
+    {
+      "concept": "Le système de parenté élargi",
+      "explanation": "Contrairement au français, le toma/loma regroupe sous un même terme plusieurs relations : 'dee' désigne la mère, mais aussi la sœur de la mère et les autres épouses du père (système de type omaha, patrilinéaire), ce qui reflète l'organisation sociale traditionnelle où les coépouses et les tantes maternelles jouent un rôle maternel similaire.",
+      "rules": [
+        "Un même terme de parenté peut couvrir plusieurs relations biologiques distinctes.",
+        "Le système est patrilinéaire : les enfants des frères du père sont considérés comme des frères/sœurs."
+      ],
+      "examples": [
         {
-          "structure": "i kêe",
-          "phonetic_api": "/i kɛ̂ː/",
-          "meaning": "ton père"
+          "structure": "Dee",
+          "phonetic_api": "/deː/",
+          "meaning": "Mère, tante maternelle, ou coépouse du père (selon contexte)."
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Momo",
-      "text": "I dee vaza?",
-      "phonetic_api": "/i deː va.za/",
-      "phonetic_simple": "I DEE VA-ZA",
-      "translation": "Ta mère va bien ?"
+      "speaker": "Kezeli",
+      "text": "Elee yaa na?",
+      "phonetic_api": "/eleː jaː na/",
+      "phonetic_simple": "É-LÉ-YA-NA",
+      "translation": "Comment va ta mère ?"
     },
     {
-      "speaker": "Sia",
-      "text": "Owo, na dee vaza.",
-      "phonetic_api": "/o.wo na deː va.za/",
-      "phonetic_simple": "O-WO NA DEE VA-ZA",
-      "translation": "Oui, ma mère va bien."
+      "speaker": "Folomo",
+      "text": "Dee yaa na gaa pago, e mama. Eyeya yaa na?",
+      "phonetic_api": "/deː jaː na gaː pagɔ e mama ejeja jaː na/",
+      "phonetic_simple": "DÉ-YA-NA-GA-PA-GO É-MA-MA É-YÉ-YA-YA-NA",
+      "translation": "Ma mère va bien, merci. Et ton père, comment va-t-il ?"
+    },
+    {
+      "speaker": "Kezeli",
+      "text": "Keya yaa na gaa pago. Deyezunui yaa na taa nazeilai?",
+      "phonetic_api": "/keja jaː na gaː pagɔ dejezunui jaː na taː nazeilai/",
+      "phonetic_simple": "KÉ-YA-YA-NA-GA-PA-GO DÉ-YÉ-ZOU-NOUÏ-YA-NA-TA-NA-ZÉÏ-LAÏ",
+      "translation": "Mon père va bien. As-tu un frère et une sœur ?"
+    },
+    {
+      "speaker": "Folomo",
+      "text": "Owoi. Nazeilai yaa gaa nuuwutii.",
+      "phonetic_api": "/ɔwɔi nazeilai jaː gaː nuːwutiː/",
+      "phonetic_simple": "O-WOÏ NA-ZÉÏ-LAÏ-YA-GA-NOU-WOU-TI",
+      "translation": "Oui. Ma sœur est l'aînée."
     }
   ],
   "cultural_notes": [
-    "Dans la communauté Toma, la notion de famille est large et englobe les oncles et tantes au même titre que les parents biologiques, renforçant la solidarité communautaire."
+    "Chez les Loma/Toma, la famille étendue (oncles, tantes, cousins) joue un rôle social aussi important que la famille nucléaire ; les enfants des frères du père sont considérés comme des frères et sœurs à part entière.",
+    "Demander des nouvelles de chaque membre de la famille proche (mère, père, enfants) fait partie intégrante d'une salutation polie et complète."
   ],
   "exercises": [
     {
-      "exercise_id": "ex4_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Comment dit-on 'père' en langue toma ?",
+      "question": "Que signifie 'Keya' ?",
       "options": [
-        "dee",
-        "kêe",
-        "loi"
+        "Père",
+        "Mère",
+        "Enfant"
       ],
-      "correct_answer": "kêe",
-      "explanation": "'kêe' signifie le père tandis que 'dee' désigne la mère."
+      "correct_answer": "Père",
+      "explanation": "'Keya' est attesté comme 'père' dans le manuel Peace Corps sur le Lorma (Dwyer et al.)."
     },
     {
-      "exercise_id": "ex4_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "[ ___ ] dee vaza.",
-      "correct_answer": "na",
-      "hint": "Complétez avec le possessif pour dire 'Ma' mère va bien."
+      "sentence_with_blank": "[ ___ ] yaa na gaa pago. (Ma mère va bien.)",
+      "correct_answer": "Dee",
+      "hint": "C'est le terme pour 'mère' dans les phrases de salutations familiales."
+    },
+    {
+      "exercise_id": "ex3",
+      "type": "multiple_choice",
+      "question": "En plus de 'mère biologique', le mot 'dee' peut aussi désigner :",
+      "options": [
+        "La sœur de la mère (tante maternelle)",
+        "Le grand-père",
+        "Le mari"
+      ],
+      "correct_answer": "La sœur de la mère (tante maternelle)",
+      "explanation": "Le manuel Peace Corps précise que 'dee' recouvre plusieurs relations dans le système de parenté loma."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Dwyer, Bodegie & Bague, \"A Learner Directed Approach to Lorma\" (Peace Corps/Michigan State University, 1981)",
+      "url": "https://files.eric.ed.gov/fulltext/ED247766.pdf"
+    },
+    {
+      "label": "Wesley Sadler, \"A Complete Analysis of the Lɔɔma Language\", Mandenkan 42 (LLACAN/CNRS)",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan42/sadler.pdf"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Termes de parenté attestés dans le manuel Peace Corps pour le Lorma du Libéria ; Le toma de Guinée forestière et le loma/lorma du Libéria (dialecte Gizima) forment un continuum dialectal du même groupe Mande du Sud (Mende-Loma) ; les formes citées ici proviennent des meilleures sources disponibles pour ce continuum linguistique (grammaire de Sadler et manuel Peace Corps de Dwyer), la documentation publiée spécifique au parler de Guinée étant plus rare."
 }

@@ -6,162 +6,206 @@
   "lesson_number": 3,
   "title": "L'alphabet et les sons spécifiques de la langue",
   "learning_objectives": [
-    "Identifier l'alphabet officiel de la langue kissi",
-    "Prononcer correctement les consonnes complexes et les digrammes",
-    "Reconnaître l'impact des tons sur le sens des mots usuels"
+    "Identifier les consonnes implosives et prénasalisées propres au kissi",
+    "Reconnaître les voyelles orales et nasales notées par l'orthographe pratique kissi",
+    "Distinguer les digraphes kissi (kp, ny, ny, ŋ) des séquences françaises équivalentes"
   ],
   "phonetic_focus": {
-    "key_sounds": "Le kissi utilise des digrammes spécifiques comme 'gb' et 'kp' qui sont des consonnes co-articulées vélo-labiales (prononcées en un seul bloc mécanique pulmonaire). Le son /ɲ/ (ny) et le /ŋ/ (ng) complètent le système consonantique.",
-    "common_pitfalls": "N'essayez pas de décomposer 'kp' en prononçant un 'k' puis un 'p'. Le blocage de l'air doit se faire simultanément au fond de la gorge et au niveau des lèvres pour restituer le son authentique."
+    "key_sounds": "Le kissi possède des consonnes implosives b [ɓ] et d [ɗ], une consonne labio-vélaire double kp, et une nasale vélaire finale ŋ ; les voyelles ɔ, ɛ, et leurs versions nasalisées sont phonémiquement distinctes (Childs, 1988, 1995).",
+    "common_pitfalls": "Les francophones prononcent souvent b/d comme des occlusives ordinaires (sans le mouvement du larynx vers le bas propre aux implosives), et confondent kp avec une simple séquence 'c/k+p'."
   },
   "vocabulary": [
     {
-      "word_id": "v3_1",
-      "term": "kpou",
-      "phonetic_api": "/k͡pu/",
-      "phonetic_simple": "KPOU",
-      "translation": "tout / complètement / bien",
-      "example_sentence": "O co kpou.",
-      "example_phonetic": "/o tʃo k͡pu/",
-      "example_translation": "Tout va bien."
+      "word_id": "v1",
+      "term": "kp",
+      "phonetic_api": "/kp/",
+      "phonetic_simple": "kp (une seule consonne)",
+      "translation": "consonne labio-vélaire double (comme dans kpaayaa, 'force')",
+      "example_sentence": "kpaayaa",
+      "example_phonetic": "/kpaːjaː/",
+      "example_translation": "force, puissance, autorité"
     },
     {
-      "word_id": "v3_2",
-      "term": "gbɛŋgbɛ",
-      "phonetic_api": "/ɡ͡bɛŋ.ɡ͡bɛ/",
-      "phonetic_simple": "GBENG-GBÉ",
-      "translation": "chaise / banc",
-      "example_sentence": "Co mi gbɛŋgbɛ ni.",
-      "example_phonetic": "/tʃo mi ɡ͡bɛŋ.ɡ͡bɛ ni/",
-      "example_translation": "Donne-moi la chaise."
+      "word_id": "v2",
+      "term": "ŋ",
+      "phonetic_api": "/ŋ/",
+      "phonetic_simple": "-ng (nasale du fond de la bouche)",
+      "translation": "nasale vélaire finale (comme dans diolaŋ, 'nom')",
+      "example_sentence": "diolaŋ",
+      "example_phonetic": "/djolaŋ/",
+      "example_translation": "nom"
     },
     {
-      "word_id": "v3_3",
-      "term": "nyalɛ",
-      "phonetic_api": "/ɲa.lɛ/",
-      "phonetic_simple": "NYA-LÈ",
-      "translation": "beauté",
-      "example_sentence": "O nɔ nyalɛ.",
-      "example_phonetic": "/o nɔ ɲa.lɛ/",
-      "example_translation": "Elle a de la beauté / Elle est belle."
+      "word_id": "v3",
+      "term": "ɓ (b implosif)",
+      "phonetic_api": "/ɓ/",
+      "phonetic_simple": "b avec un petit 'creux' dans la gorge",
+      "translation": "consonne b implosive",
+      "example_sentence": "bɛŋoo",
+      "example_phonetic": "/ɓɛŋoː/",
+      "example_translation": "pied / jambe"
     },
     {
-      "word_id": "v3_4",
-      "term": "ning",
-      "phonetic_api": "/niŋ/",
-      "phonetic_simple": "NING",
-      "translation": "intérieur / dedans",
-      "example_sentence": "O co cando ning.",
-      "example_phonetic": "/o tʃo tʃa.ⁿdo niŋ/",
-      "example_translation": "C'est à l'intérieur de la case."
+      "word_id": "v4",
+      "term": "ɗ (d implosif)",
+      "phonetic_api": "/ɗ/",
+      "phonetic_simple": "d avec un petit 'creux' dans la gorge",
+      "translation": "consonne d implosive",
+      "example_sentence": "demboo",
+      "example_phonetic": "/ɗemboː/",
+      "example_translation": "ventre, estomac"
     },
     {
-      "word_id": "v3_5",
-      "term": "mɛŋ",
-      "phonetic_api": "/mɛ̃/",
-      "phonetic_simple": "MENG",
-      "translation": "eau",
-      "example_sentence": "I mɛl mɛŋ.",
-      "example_phonetic": "/i mɛl mɛ̃/",
-      "example_translation": "Je bois de l'eau."
+      "word_id": "v5",
+      "term": "ɔ",
+      "phonetic_api": "/ɔ/",
+      "phonetic_simple": "o ouvert (comme 'o' dans 'note')",
+      "translation": "voyelle o ouverte",
+      "example_sentence": "kɔllo",
+      "example_phonetic": "/kɔllo/",
+      "example_translation": "cœur"
+    },
+    {
+      "word_id": "v6",
+      "term": "ɛ",
+      "phonetic_api": "/ɛ/",
+      "phonetic_simple": "è ouvert",
+      "translation": "voyelle e ouverte",
+      "example_sentence": "kɛla",
+      "example_phonetic": "/kɛla/",
+      "example_translation": "oncle (frère de la mère)"
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p3_1",
-      "original": "Mɛl mɛŋ kpou.",
-      "phonetic_api": "/mɛl mɛ̃ k͡pu/",
-      "phonetic_simple": "MEL MENG KPOU",
-      "translation": "Bois toute l'eau.",
-      "context": "Ordre / Conseil au quotidien"
+      "phrase_id": "p1",
+      "original": "kp comme dans kpaayaa",
+      "phonetic_api": "/kpaːjaː/",
+      "phonetic_simple": "kpaa-yaa",
+      "translation": "force, puissance",
+      "context": "Illustration du son labio-vélaire kp, difficile pour les francophones."
     },
     {
-      "phrase_id": "p3_2",
-      "original": "Gbɛŋgbɛ o co wa.",
-      "phonetic_api": "/ɡ͡bɛŋ.ɡ͡bɛ o tʃo wa/",
-      "phonetic_simple": "GBENG-GBÉ O TCHO WA",
-      "translation": "La chaise est ici.",
-      "context": "Localiser un objet"
+      "phrase_id": "p2",
+      "original": "ŋ comme dans diolaŋ",
+      "phonetic_api": "/djolaŋ/",
+      "phonetic_simple": "djo-lang",
+      "translation": "nom",
+      "context": "Illustration de la nasale vélaire finale ŋ."
     },
     {
-      "phrase_id": "p3_3",
-      "original": "Nyampilɔ nio o co.",
-      "phonetic_api": "/ɲa.mbi.lɔ njo o tʃo/",
-      "phonetic_simple": "NYAM-BI-LO NYO O TCHO",
-      "translation": "C'est ma jeune fille / ma compagne.",
-      "context": "Présentation affective"
+      "phrase_id": "p3",
+      "original": "implosive b comme dans bɛŋoo",
+      "phonetic_api": "/ɓɛŋoː/",
+      "phonetic_simple": "bè-ngô (b implosif)",
+      "translation": "pied, jambe",
+      "context": "Illustration de la consonne implosive ɓ."
     },
     {
-      "phrase_id": "p3_4",
-      "original": "I tchie kpou.",
-      "phonetic_api": "/i tʃje k͡pu/",
-      "phonetic_simple": "I TCHI-É KPOU",
-      "translation": "J'ai tout compris.",
-      "context": "Confirmation d'apprentissage"
+      "phrase_id": "p4",
+      "original": "implosive d comme dans ndu",
+      "phonetic_api": "/ndu/",
+      "phonetic_simple": "ndou (nd lié)",
+      "translation": "c'est, il/elle est (copule)",
+      "context": "Illustration du groupe nasal+consonne nd, très fréquent en kissi."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'harmonie vocalique et nasalisation",
-      "explanation": "Les voyelles en kissi s'accordent souvent au sein d'une même racine de mot pour adopter un degré d'ouverture ou une nasalisation homogène.",
+      "concept": "Inventaire phonologique de base du kissi",
+      "explanation": "D'après les travaux de G. Tucker Childs sur la phonologie et la morphologie du kissi, la langue distingue des occlusives ordinaires, des implosives (b, d), une consonne double kp, des prénasalisées, ainsi qu'un système vocalique incluant des voyelles nasalisées. Ce système est phonémique : chaque distinction (implosive vs ordinaire, orale vs nasale) change le sens du mot.",
       "rules": [
-        "Lorsqu'une voyelle est nasale (comme ɛ dans mɛŋ), les suffixes ou mots-outils attachés subissent une légère influence nasale passive.",
-        "Les consonnes co-articulées 'kp' et 'gb' se comportent grammaticalement comme des consonnes uniques simples."
+        "Les implosives b et d se distinguent des occlusives ordinaires par un mouvement laryngé descendant.",
+        "kp se prononce comme une seule consonne articulée simultanément aux lèvres et au voile du palais, non comme 'k' suivi de 'p'.",
+        "La nasale finale ŋ ne doit pas être relâchée vers l'avant (elle reste au fond de la bouche, comme le -ng anglais de 'sing')."
       ],
       "examples": [
         {
-          "structure": "Mot à racine nasale",
-          "phonetic_api": "/mɛ̃/",
-          "meaning": "Eau"
+          "structure": "kp-",
+          "phonetic_api": "/kp/",
+          "meaning": "consonne labio-vélaire (kpaayaa = force)"
+        },
+        {
+          "structure": "-ŋ (finale)",
+          "phonetic_api": "/ŋ/",
+          "meaning": "nasale vélaire finale (diolaŋ = nom)"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Tamba",
-      "text": "Co mi mɛŋ, maaluon.",
-      "phonetic_api": "/tʃo mi mɛ̃ maː.lu.õ/",
-      "phonetic_simple": "TCHO MI MENG, MAA-LOU-ONN",
-      "translation": "Donne-moi de l'eau, s'il te plaît."
+      "speaker": "Enseignant",
+      "text": "Diolaŋ. Tuei ŋ ndá?",
+      "phonetic_api": "/djolaŋ tuei ŋ nda/",
+      "phonetic_simple": "djo-lang. tou-éi ng nda ?",
+      "translation": "Nom. Entends-tu le ŋ ?"
     },
     {
-      "speaker": "Sia",
-      "text": "Mɛŋ o co wa. Lɔ gbɛŋgbɛ ndɔ.",
-      "phonetic_api": "/mɛ̃ o tʃo wa lɔ ɡ͡bɛŋ.ɡ͡bɛ ⁿdɔ/",
-      "phonetic_simple": "MENG O TCHO WA. LO GBENG-GBÉ NDO.",
-      "translation": "L'eau est là. Prends aussi la chaise."
+      "speaker": "Élève",
+      "text": "Naam, ŋ ndu kɔɔleŋ.",
+      "phonetic_api": "/naːm ŋ ndu kɔːleŋ/",
+      "phonetic_simple": "naam, ng ndou kô-lèng",
+      "translation": "Oui, le ŋ est difficile."
     },
     {
-      "speaker": "Tamba",
-      "text": "Bale fiaa, Sia.",
-      "phonetic_api": "/ba.le fjaː sja/",
-      "phonetic_simple": "BA-LÉ FIA-A, SIA.",
-      "translation": "Merci beaucoup, Sia."
+      "speaker": "Enseignant",
+      "text": "Kpaayaa. Ndu kp, ke le k, p.",
+      "phonetic_api": "/kpaːjaː ndu kp ke le k p/",
+      "phonetic_simple": "kpaa-yaa. ndou kp, ké lé k, p",
+      "translation": "Force. C'est kp, pas k puis p."
+    },
+    {
+      "speaker": "Apprenant",
+      "text": "I ta dímí ndá 'kp' waa?",
+      "phonetic_api": "/i ta dimi nda kp waː/",
+      "phonetic_simple": "i ta di-mi nda kp wa",
+      "translation": "Comment prononces-tu le son 'kp' ?"
     }
   ],
   "cultural_notes": [
-    "Dans l'orthographe officielle de la langue kissi établie par les académies nationales de langues (notamment en Guinée), les lettres comme 'ɛ' (è ouvert) et 'ɔ' (o ouvert) possèdent des caractères propres pour se distinguer nettement de 'e' et 'o'."
+    "L'orthographe pratique du kissi utilisée par les linguistes (Childs, Welmers) recourt à l'alphabet latin étendu avec des lettres empruntées à l'API (ɔ, ɛ, ŋ) pour rendre compte de sons absents du français.",
+    "Omniglot propose une fiche dédiée à l'alphabet kissi avec un tableau téléchargeable, signe que la standardisation orthographique du kissi reste un sujet actif pour les linguistes et les organismes d'alphabétisation en Guinée."
   ],
   "exercises": [
     {
-      "exercise_id": "ex3_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel type de consonne est représenté par le digramme 'kp' ?",
+      "question": "Que représente 'kp' en kissi ?",
       "options": [
-        "Une consonne co-articulée vélo-labiale",
-        "Une consonne sifflante",
-        "Une consonne liquide"
+        "une seule consonne labio-vélaire",
+        "la séquence k+p prononcée séparément",
+        "une voyelle nasale"
       ],
-      "correct_answer": "Une consonne co-articulée vélo-labiale",
-      "explanation": "'kp' et 'gb' demandent une occlusion simultanée au voile du palais et aux lèvres."
+      "correct_answer": "une seule consonne labio-vélaire",
+      "explanation": "kp est décrit par Childs comme une consonne à double articulation, prononcée simultanément."
     },
     {
-      "exercise_id": "ex3_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "[ ___ ] o co wa. (La chaise est là)",
-      "correct_answer": "Gbɛŋgbɛ",
-      "hint": "Mot kissi commençant par le digramme sonore gb"
+      "sentence_with_blank": "Le son [ ___ ] final de 'diolaŋ' est une nasale vélaire.",
+      "correct_answer": "ŋ",
+      "hint": "C'est la même lettre qu'en API pour le son du -ng anglais."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "G. Tucker Childs, The Phonology and Morphology of Kisi (thèse PhD, UC Berkeley, 1988)",
+      "url": "https://escholarship.org/content/qt7b3788dp/qt7b3788dp.pdf"
+    },
+    {
+      "label": "G. Tucker Childs, A Grammar of Kisi: A Southern Atlantic Language (Mouton de Gruyter, 1995)",
+      "url": "https://dokumen.pub/a-grammar-of-kisi-a-southern-atlantic-language-9783110810882-9783110143560.html"
+    },
+    {
+      "label": "Omniglot — Kissi language and alphabet (Déclaration universelle des droits de l'homme, art. 1)",
+      "url": "https://www.omniglot.com/writing/kissi.htm"
+    },
+    {
+      "label": "Sarah Rose, « Kisi » (chapitre synthétisant Childs 1995), Memorial University of Newfoundland",
+      "url": "https://www.mun.ca/linguistics/media/production/memorial/academic/faculty-of-humanities-and-social-sciences/linguistics/media-library/more/e-books/Kisi_Chapter_Sixteen_Sarah_Rose.pdf"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "L'inventaire des sons (implosives, kp, ŋ, voyelles ouvertes) est solidement attesté par les travaux phonologiques de Childs ; les exemples de mots isolés proviennent du lexique Wiktionary et de Childs (2002), mais le dialogue pédagogique est une construction raisonnée pour illustrer ces sons, pas une transcription de conversation réelle."
 }

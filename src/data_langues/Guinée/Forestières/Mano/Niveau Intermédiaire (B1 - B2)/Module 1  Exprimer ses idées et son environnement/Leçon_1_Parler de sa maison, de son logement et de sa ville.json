@@ -6,158 +6,230 @@
   "lesson_number": 1,
   "title": "Parler de sa maison, de son logement et de sa ville",
   "learning_objectives": [
-    "Décrire son habitation et énumérer les pièces principales en Mano",
-    "Situer son logement dans un espace urbain ou villageois",
-    "Exprimer l'appartenance et la localisation résidentielle complexe"
+    "Décrire les parties de la maison (chambre, toit, porte, cuisine)",
+    "Situer un lieu dans une ville ou un village avec des compléments locatifs",
+    "Utiliser l'auxiliaire existentiel pour décrire un état ou un lieu"
   ],
   "phonetic_focus": {
-    "key_sounds": "Le terme pour 'maison' ou 'case' se transcrit par /pɛ́lɛ̀/, à ne pas confondre avec le mot /pɛ́lɛ̀/ (chemin) qui possède une structure tonale et une ouverture vocalique très proche selon les variantes dialectales. Le ton descendant haut-bas marqué sur la première syllabe est crucial.",
-    "common_pitfalls": "Veillez à articuler nettement la voyelle ouverte /ɛ/ dans /pɛ́lɛ̀/. Si vous fermez trop la voyelle vers le son /e/, le mot perd son sens résidentiel."
+    "key_sounds": "Le composé gbɔ̄ɔ̄kpààkà ('cuisine', littéralement lié au feu) illustre la formation par composition typique du lexique domestique mano ; attention à la longueur vocalique qui porte du sens.",
+    "common_pitfalls": "Ne pas confondre kálé ('porte') avec ká ('maison') : la voyelle finale allongée et le ton distinguent les deux mots."
   },
   "vocabulary": [
     {
-      "word_id": "v10_1",
-      "term": "pɛ́lɛ̀",
-      "phonetic_api": "/pɛ˦lɛ˩/",
-      "phonetic_simple": "PÈ-LÈ",
-      "translation": "Maison / Logement / Case",
-      "example_sentence": "ń pɛ́lɛ̀",
-      "example_phonetic": "/ń pɛ˦lɛ˩/",
-      "example_translation": "Ma maison"
+      "word_id": "v1",
+      "term": "kɛ́ì",
+      "phonetic_api": "/kɛ́ì/",
+      "phonetic_simple": "KÉ-i",
+      "translation": "chambre",
+      "example_sentence": "Ŋ̄ kɛ́ì lɛ̄ gbùò.",
+      "example_phonetic": "/ŋ̄ kɛ́ì lɛ̄ gbùò/",
+      "example_translation": "Ma chambre est grande."
     },
     {
-      "word_id": "v10_2",
-      "term": "mĩ́",
-      "phonetic_api": "/mĩ˦/",
-      "phonetic_simple": "MEENG",
-      "translation": "Intérieur / Dans / Chambre",
-      "example_sentence": "pɛ́lɛ̀ mĩ́",
-      "example_phonetic": "/pɛ˦lɛ˩ mĩ˦/",
-      "example_translation": "Dans la maison / À l'intérieur de la maison"
+      "word_id": "v2",
+      "term": "tō",
+      "phonetic_api": "/tō/",
+      "phonetic_simple": "TO",
+      "translation": "toit",
+      "example_sentence": "Tō lɛ̄ dɛ̄ɛ̄.",
+      "example_phonetic": "/tō lɛ̄ dɛ̄ɛ̄/",
+      "example_translation": "Le toit est neuf."
     },
     {
-      "word_id": "v10_3",
-      "term": "wúlù",
-      "phonetic_api": "/wu˦lu˩/",
-      "phonetic_simple": "OU-LOU",
-      "translation": "Ville / Grand village / Cour",
-      "example_sentence": "wúlù sēe",
-      "example_phonetic": "/wu˦lu˩ seː˧˧/",
-      "example_translation": "Une grande ville"
+      "word_id": "v3",
+      "term": "kálé",
+      "phonetic_api": "/kálé/",
+      "phonetic_simple": "KA-lé",
+      "translation": "porte",
+      "example_sentence": "Kálé wɔ́ pɛ́í.",
+      "example_phonetic": "/kálé wɔ́ pɛ́í/",
+      "example_translation": "La porte n'est pas ouverte."
     },
     {
-      "word_id": "v10_4",
-      "term": "da-pɛlɛ",
-      "phonetic_api": "/da˧pɛ˧lɛ˧/",
-      "phonetic_simple": "DA-PÈLÈ",
-      "translation": "Porte / Entrée",
-      "example_sentence": "da-pɛlɛ za.",
-      "example_phonetic": "/da˧pɛ˧lɛ˧ za˧/",
-      "example_translation": "Ferme la porte."
+      "word_id": "v4",
+      "term": "wénā",
+      "phonetic_api": "/wénā/",
+      "phonetic_simple": "OUÉ-na",
+      "translation": "fenêtre",
+      "example_sentence": "Wénā lɛ̄ ká gɛ̀nɛ̀.",
+      "example_phonetic": "/wénā lɛ̄ ká gɛ̀nɛ̀/",
+      "example_translation": "La fenêtre est devant la maison."
+    },
+    {
+      "word_id": "v5",
+      "term": "tàɓɛ́ì",
+      "phonetic_api": "/tàɓɛ́ì/",
+      "phonetic_simple": "ta-BÉ-i",
+      "translation": "table",
+      "example_sentence": "Ɓū lɛ̄ tàɓɛ́ì là.",
+      "example_phonetic": "/ɓū lɛ̄ tàɓɛ́ì là/",
+      "example_translation": "Le riz est sur la table."
+    },
+    {
+      "word_id": "v6",
+      "term": "gbɔ̄ɔ̄kpààkà",
+      "phonetic_api": "/gbɔ̄ɔ̄kpààkà/",
+      "phonetic_simple": "gbo-o-kpa-a-ka",
+      "translation": "cuisine",
+      "example_sentence": "Ŋ̄ lòkó lɛ̄ gbɔ̄ɔ̄kpààkà.",
+      "example_phonetic": "/ŋ̄ lòkó lɛ̄ gbɔ̄ɔ̄kpààkà/",
+      "example_translation": "Ma mère est dans la cuisine."
+    },
+    {
+      "word_id": "v7",
+      "term": "pɛ̄lɛ̄í",
+      "phonetic_api": "/pɛ̄lɛ̄í/",
+      "phonetic_simple": "pè-lè-I",
+      "translation": "village",
+      "example_sentence": "Kō pɛ̄lɛ̄í lɛ̄ gbùò.",
+      "example_phonetic": "/kō pɛ̄lɛ̄í lɛ̄ gbùò/",
+      "example_translation": "Notre village est grand."
+    },
+    {
+      "word_id": "v8",
+      "term": "wɔ̀lɔ̀mɔ̀",
+      "phonetic_api": "/wɔ̀lɔ̀mɔ̀/",
+      "phonetic_simple": "ouo-lo-mo",
+      "translation": "chambre à coucher, lit",
+      "example_sentence": "Ŋ̄ wɔ̀lɔ̀mɔ̀ lɛ̄ ɓɛ̰̄ɛ̰̄.",
+      "example_phonetic": "/ŋ̄ wɔ̀lɔ̀mɔ̀ lɛ̄ ɓɛ̰̄ɛ̰̄/",
+      "example_translation": "Mon lit est propre."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p10_1",
-      "original": "Í pɛ́lɛ̀ ɓe mī ?",
-      "phonetic_api": "/i˦ pɛ˦lɛ˩ ɓe˧ miː˧/",
-      "phonetic_simple": "EE PÈ-LÈ BÉ MEE ?",
-      "translation": "Où est ta maison ?",
-      "context": "Demander l'adresse ou la localisation du logement de quelqu'un."
+      "phrase_id": "p1",
+      "original": "Ŋ̄ ká lɛ̄ mɛ́nɛ̄?",
+      "phonetic_api": "/ŋ̄ ká lɛ̄ mɛ́nɛ̄/",
+      "phonetic_simple": "ng ka lê mé-nè",
+      "translation": "Où est ma maison ? (pour introduire une description)",
+      "context": "S'utilise pour introduire la description d'un logement."
     },
     {
-      "phrase_id": "p10_2",
-      "original": "Ń pɛ́lɛ̀ ɓe wúlù mĩ́.",
-      "phonetic_api": "/ń pɛ˦lɛ˩ ɓe˧ wu˦lu˩ mĩ˦/",
-      "phonetic_simple": "N PÈ-LÈ BÉ OU-LOU MEENG",
-      "translation": "Ma maison est dans la ville.",
-      "context": "Indiquer son lieu d'habitation urbain."
+      "phrase_id": "p2",
+      "original": "Kɛ́ì pèèlɛ̄ lɛ̄ ká sí.",
+      "phonetic_api": "/kɛ́ì pèèlɛ̄ lɛ̄ ká sí/",
+      "phonetic_simple": "ké-i pè-è-lê lê ka si",
+      "translation": "Il y a deux chambres dans la maison.",
+      "context": "Structure existentielle avec numéral pour décrire un logement."
     },
     {
-      "phrase_id": "p10_3",
-      "original": "Ń ɓe lɔ ń pɛ́lɛ̀ la.",
-      "phonetic_api": "/ń ɓe˧ lɔ˧ ń pɛ˦lɛ˩ la˧/",
-      "phonetic_simple": "N BÉ LOR N PÈ-LÈ LA",
-      "translation": "Je vais chez moi (à ma maison).",
-      "context": "Annoncer son retour à la maison."
+      "phrase_id": "p3",
+      "original": "Ŋ̄ pɛ̄lɛ̄í lɛ̄ Zà̰à̰ mɛ̀ɛ̄.",
+      "phonetic_api": "/ŋ̄ pɛ̄lɛ̄í lɛ̄ zà̰à̰ mɛ̀ɛ̄/",
+      "phonetic_simple": "ng pè-lè-i lê za-a mè-è",
+      "translation": "Mon village est près de Lola.",
+      "context": "Utilise un point de repère géographique régional connu (Zaan/Lola)."
     },
     {
-      "phrase_id": "p10_4",
-      "original": "Í pɛ́lɛ̀ kɛ̃ɛ ɓe sēe.",
-      "phonetic_api": "/i˦ pɛ˦lɛ˩ kɛ̃ː˧ ɓe˧ seː˧˧/",
-      "phonetic_simple": "EE PÈ-LÈ KÈNG BÉ SÉÉ",
-      "translation": "Ta maison est très belle.",
-      "context": "Complimenter un hôte sur son logement."
+      "phrase_id": "p4",
+      "original": "Kálé wɔ́ pɛ́í dɛ̄ɛ̄ká.",
+      "phonetic_api": "/kálé wɔ́ pɛ́í dɛ̄ɛ̄ká/",
+      "phonetic_simple": "ka-lé wo pé-i dè-è-ka",
+      "translation": "La porte n'est pas ouverte maintenant.",
+      "context": "Exemple de négation avec wɔ́ à l'existentiel."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'expression de la localisation interne avec 'mĩ́'",
-      "explanation": "Pour exprimer qu'une personne ou un objet se trouve à l'intérieur d'un espace clos (comme une pièce, une maison ou une ville), le Mano utilise la postposition spatiale 'mĩ́' placée immédiatement après le nom de l'espace.",
+      "concept": "L'auxiliaire existentiel lɛ̄ pour localiser et décrire",
+      "explanation": "L'auxiliaire existentiel (lɛ̄ à la 3SG, voir AUX_SERIES) sert à situer un objet dans l'espace ou à lui attribuer une qualité, en combinaison avec un complément locatif ou un adjectif placé après le sujet.",
       "rules": [
-        "Structure : [Lieu/Conteneur] + mĩ́ (dans / à l'intérieur de).",
-        "Cette particule porte un ton haut distinctif qui marque l'inclusion spatiale."
+        "Structure locative : Sujet + lɛ̄ + Lieu",
+        "Structure attributive : Sujet + lɛ̄ + Adjectif",
+        "La négation de l'existentiel utilise wɔ́ (ex. Kálé wɔ́ pɛ́í 'la porte n'est pas ouverte')"
       ],
       "examples": [
         {
-          "structure": "pɛ́lɛ̀ mĩ́",
-          "phonetic_api": "/pɛ˦lɛ˩ mĩ˦/",
-          "meaning": "Dans la maison"
+          "structure": "Tō lɛ̄ dɛ̄ɛ̄.",
+          "phonetic_api": "/tō lɛ̄ dɛ̄ɛ̄/",
+          "meaning": "Le toit est neuf."
         },
         {
-          "structure": "wúlù mĩ́",
-          "phonetic_api": "/wu˦lu˩ mĩ˦/",
-          "meaning": "Dans la ville"
+          "structure": "Kɛ́ì pèèlɛ̄ lɛ̄ ká sí.",
+          "phonetic_api": "/kɛ́ì pèèlɛ̄ lɛ̄ ká sí/",
+          "meaning": "Il y a deux chambres dans la maison."
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Koli",
-      "text": "Mɛgɛ ! Í pɛ́lɛ̀ ɓe mī ?",
-      "phonetic_api": "/mɛ˧gɛ˧ i˦ pɛ˦lɛ˩ ɓe˧ miː˧/",
-      "phonetic_simple": "MÈGÈ ! EE PÈ-LÈ BÉ MEE ?",
-      "translation": "Bonjour ! Où se trouve ta maison ?"
+      "speaker": "Kɔ̀ɔ́",
+      "text": "Ī ká lɛ̄ kɛ́ì sɔ́ɔ́lī sí?",
+      "phonetic_api": "/ī ká lɛ̄ kɛ́ì sɔ́ɔ́lī sí/",
+      "phonetic_simple": "i ka lê ké-i so-o-li si",
+      "translation": "Ta maison a cinq chambres ?"
     },
     {
-      "speaker": "Zayɔ",
-      "text": "Mɛgɛ ! Ń pɛ́lɛ̀ ɓe wúlù mĩ́, kɛ́lɛ̀ lĩĩ.",
-      "phonetic_api": "/mɛ˧gɛ˧ ń pɛ˦lɛ˩ ɓe˧ wu˦lu˩ mĩ˦ kɛ˦lɛ˩ lĩː˧/",
-      "phonetic_simple": "MÈGÈ ! N PÈ-LÈ BÉ OU-LOU MEENG, KÈ-LÈ LEENG.",
-      "translation": "Bonjour ! Ma maison est en ville, tout près du marché."
+      "speaker": "Pèé",
+      "text": "Àà, kɛ́ì pèèlɛ̄ tɛ́ɛ́, wɔ̀lɔ̀mɔ̀ dōó bɛ̰̀ɛ̰̄.",
+      "phonetic_api": "/àà, kɛ́ì pèèlɛ̄ tɛ́ɛ́, wɔ̀lɔ̀mɔ̀ dōó bɛ̰̀ɛ̰̄/",
+      "phonetic_simple": "a-a, ké-i pè-è-lê té-é, ouo-lo-mo do-o bên-ên",
+      "translation": "Non, seulement deux chambres, plus une chambre à coucher."
     },
     {
-      "speaker": "Koli",
-      "text": "Wɔ̃ kɛ̃ɛ ɓe. Wa lɔ baika.",
-      "phonetic_api": "/wɔ̃˧ kɛ̃ː˧ ɓe˧ wa˧ lɔ˧ bai̯˧ka˧/",
-      "phonetic_simple": "WONG KÈNG BÉ. WA LOR BAÏ-KAH.",
-      "translation": "C'est une bonne chose. Allons-y s'il te plaît."
+      "speaker": "Kɔ̀ɔ́",
+      "text": "Kō pɛ̄lɛ̄í lɛ̄ gbùò dɛ̄ɛ̄ká.",
+      "phonetic_api": "/kō pɛ̄lɛ̄í lɛ̄ gbùò dɛ̄ɛ̄ká/",
+      "phonetic_simple": "ko pè-lè-i lê gbou-o dè-è-ka",
+      "translation": "Notre village est devenu grand maintenant."
+    },
+    {
+      "speaker": "Pèé",
+      "text": "Ɔ̀ɔ́, ká dɛ̄ɛ̄ vɔ̀ lɛ̄ gbìlì.",
+      "phonetic_api": "/ɔ̀ɔ́, ká dɛ̄ɛ̄ vɔ̀ lɛ̄ gbìlì/",
+      "phonetic_simple": "o-o, ka dè-è vo lê gbi-li",
+      "translation": "Oui, les nouvelles maisons sont nombreuses."
     }
   ],
   "cultural_notes": [
-    "Dans l'architecture traditionnelle de la Guinée Forestière, la concession familiale regroupe souvent plusieurs constructions (cases rondes ou rectangulaires) autour d'une cour centrale ('wúlù'). La maison n'est pas seulement un espace privé, mais le point d'ancrage du lignage où l'on accueille chaleureusement les visiteurs de passage avec de l'eau fraîche dès leur entrée."
+    "Traditionnellement, l'habitat mano en Guinée forestière est constitué de cases rondes en terre battue à toit de chaume, aujourd'hui de plus en plus remplacées par des maisons rectangulaires en briques à toit de tôle près de N'Zérékoré.",
+    "La cuisine (gbɔ̄ɔ̄kpààkà) est souvent un espace distinct de l'habitation principale, reflétant l'organisation traditionnelle de la cour familiale."
   ],
   "exercises": [
     {
-      "exercise_id": "ex10_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel mot Mano désigne précisément l'intérieur d'un lieu ou d'une maison ?",
+      "question": "Comment dit-on 'toit' en mano ?",
       "options": [
-        "da-pɛlɛ",
-        "mĩ́",
-        "wúlù"
+        "kálé",
+        "tō",
+        "wénā"
       ],
-      "correct_answer": "mĩ́",
-      "explanation": "'mĩ́' est la postposition de directivité interne qui signifie 'dans' ou 'à l'intérieur de'."
+      "correct_answer": "tō",
+      "explanation": "tō signifie 'toit' ; kálé est 'porte' et wénā est 'fenêtre'."
     },
     {
-      "exercise_id": "ex10_2",
+      "exercise_id": "ex2",
+      "type": "multiple_choice",
+      "question": "Quel auxiliaire sert à localiser un objet dans l'espace en mano ?",
+      "options": [
+        "mī",
+        "lɛ̄",
+        "ɓèlè"
+      ],
+      "correct_answer": "lɛ̄",
+      "explanation": "lɛ̄ est l'auxiliaire existentiel de 3SG, utilisé pour situer ou décrire (voir AUX_SERIES)."
+    },
+    {
+      "exercise_id": "ex3",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Pour dire 'Ma maison', on écrit : ń [ ___ ].",
-      "correct_answer": "pɛ́lɛ̀",
-      "exact_pattern": "pɛ́lɛ̀",
-      "hint": "C'est le substantif Mano pour maison ou case."
+      "sentence_with_blank": "Kɛ́ì pèèlɛ̄ [ ___ ] ká sí. (Il y a deux chambres dans la maison.)",
+      "correct_answer": "lɛ̄",
+      "hint": "lɛ̄ est l'auxiliaire existentiel qui introduit la localisation."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Khachaturyan, M., Carbo, M., Mamy, P. (2022) Dictionnaire mano-français, Mandenkan 67, LLACAN/CNRS",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan67/67mano_dict_all.pdf"
+    },
+    {
+      "label": "Khachaturyan, M. (2015) Grammaire du mano, Mandenkan 54, LLACAN/CNRS",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan54/54khachaturyan.pdf"
+    }
+  ],
+  "confidence": "élevée",
+  "confidence_note": "Vocabulaire du logement et structure existentielle attestés dans le dictionnaire (Mandenkan 67) et la grammaire (Mandenkan 54) de Khachaturyan."
 }

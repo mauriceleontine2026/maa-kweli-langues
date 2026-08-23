@@ -6,137 +6,206 @@
   "lesson_number": 9,
   "title": "Les couleurs et les vêtements",
   "learning_objectives": [
-    "Nommer les couleurs de base en kissi",
-    "Identifier les pièces de vêtements élémentaires",
-    "Décrire un habit simple en associant sa couleur"
+    "Nommer les trois couleurs de base attestées en kissi (blanc, noir, rouge)",
+    "Reconnaître la limite documentaire sur le vocabulaire du vêtement en kissi",
+    "Construire des phrases descriptives simples avec les couleurs"
   ],
   "phonetic_focus": {
-    "key_sounds": "L'occlusive injectif-implosive /ɓ/ ou la labio-velaire /g͡b/ dans 'gbalɔ' (vêtement) demande une prononciation groupée et franche des deux consonnes.",
-    "common_pitfalls": "Attention à bien respecter la voyelle ouverte 'ɔ' à la fin de 'gbalɔ'. Un glissement vers un 'o' fermé en modifierait la perception authentique par l'interlocuteur."
+    "key_sounds": "Le mot 'siaŋa' (rouge) associe la diphtongue -ia- et la nasale -ŋ-, une combinaison qui n'existe pas en français.",
+    "common_pitfalls": "Les francophones séparent souvent 'siaŋa' en syllabes trop nettes (si-a-nga) alors que la prononciation kissi lie davantage les voyelles."
   },
   "vocabulary": [
     {
-      "word_id": "v9_1",
-      "term": "gbalɔ",
-      "phonetic_api": "/g͡ba.lɔ/",
-      "phonetic_simple": "GBA-LO",
-      "translation": "habit / vêtement / tissu",
-      "example_sentence": "Gbalɔ nio o co wa.",
-      "example_phonetic": "/g͡ba.lɔ njo o tʃo wa/",
-      "example_translation": "Mon vêtement est ici."
-    },
-    {
-      "word_id": "v9_2",
-      "term": "pɔndɔ",
-      "phonetic_api": "/pɔ.ⁿdɔ/",
-      "phonetic_simple": "PON-DO",
+      "word_id": "v1",
+      "term": "humbu",
+      "phonetic_api": "/humbu/",
+      "phonetic_simple": "houm-bou",
       "translation": "blanc",
-      "example_sentence": "Gbalɔ pɔndɔ.",
-      "example_phonetic": "/g͡ba.lɔ pɔ.ⁿdɔ/",
-      "example_translation": "Un vêtement blanc."
+      "example_sentence": "Ndu humbu.",
+      "example_phonetic": "/ndu humbu/",
+      "example_translation": "C'est blanc."
     },
     {
-      "word_id": "v9_3",
-      "term": "tundɔ",
-      "phonetic_api": "/tu.ⁿdɔ/",
-      "phonetic_simple": "TOUN-DO",
-      "translation": "noir / sombre",
-      "example_sentence": "Ndoo tundɔ.",
-      "example_phonetic": "/ⁿdoː tu.ⁿdɔ/",
-      "example_translation": "Un chemin sombre / noir."
+      "word_id": "v2",
+      "term": "tiŋi",
+      "phonetic_api": "/tiŋi/",
+      "phonetic_simple": "ti-ngui",
+      "translation": "noir",
+      "example_sentence": "Ndu tiŋi.",
+      "example_phonetic": "/ndu tiŋi/",
+      "example_translation": "C'est noir."
     },
     {
-      "word_id": "v9_4",
-      "term": "bɛndɔ",
-      "phonetic_api": "/bɛ.ⁿdɛ/",
-      "phonetic_simple": "BEN-DO",
-      "translation": "rouge / éclatant",
-      "example_sentence": "Gbalɔ bɛndɔ.",
-      "example_phonetic": "/g͡ba.lɔ bɛ.ⁿdɔ/",
-      "example_translation": "Un vêtement rouge."
+      "word_id": "v3",
+      "term": "siaŋa",
+      "phonetic_api": "/sjaŋa/",
+      "phonetic_simple": "sya-nga",
+      "translation": "rouge",
+      "example_sentence": "Ndu siaŋa.",
+      "example_phonetic": "/ndu sjaŋa/",
+      "example_translation": "C'est rouge."
+    },
+    {
+      "word_id": "v4",
+      "term": "kɔɔleŋ, kɔɛi",
+      "phonetic_api": "/kɔːleŋ, kɔei/",
+      "phonetic_simple": "kô-lèng / kô-éi",
+      "translation": "peau (au sens propre, utile pour décrire un tissu/une surface)",
+      "example_sentence": "Kɔɔleŋ ndu humbu.",
+      "example_phonetic": "/kɔːleŋ ndu humbu/",
+      "example_translation": "La peau/le tissu est blanc(he)."
+    },
+    {
+      "word_id": "v5",
+      "term": "siniiyo",
+      "phonetic_api": "/siniːjo/",
+      "phonetic_simple": "si-nii-yo",
+      "translation": "neuf, nouveau (adjectif utile pour décrire un vêtement neuf)",
+      "example_sentence": "Ndu siniiyo.",
+      "example_phonetic": "/ndu siniːjo/",
+      "example_translation": "C'est neuf."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p9_1",
-      "original": "Co mi gbalɔ pɔndɔ ni.",
-      "phonetic_api": "/tʃo mi g͡ba.lɔ pɔ.ⁿdɔ ni/",
-      "phonetic_simple": "TCHO MI GBA-LO PON-DO NI",
-      "translation": "Donne-moi le vêtement blanc.",
-      "context": "S'habiller ou acheter au marché"
+      "phrase_id": "p1",
+      "original": "Ndu humbu.",
+      "phonetic_api": "/ndu humbu/",
+      "phonetic_simple": "ndou houm-bou",
+      "translation": "C'est blanc.",
+      "context": "Pour décrire un objet ou un vêtement blanc."
     },
     {
-      "phrase_id": "p9_2",
-      "original": "Gbalɔ noo o nɔ nyalɛ fiaa.",
-      "phonetic_api": "/g͡ba.lɔ noː o nɔ ɲa.lɛ fjaː/",
-      "phonetic_simple": "GBA-LO NOO O NO NYA-LÈ FIA-A",
-      "translation": "Ton habit est très beau.",
-      "context": "Faire un compliment"
+      "phrase_id": "p2",
+      "original": "Ndu tiŋi.",
+      "phonetic_api": "/ndu tiŋi/",
+      "phonetic_simple": "ndou ti-ngui",
+      "translation": "C'est noir.",
+      "context": "Pour décrire un objet ou un vêtement noir."
     },
     {
-      "phrase_id": "p9_3",
-      "original": "Gbalɔ yɛŋ o co ?",
-      "phonetic_api": "/g͡ba.lɔ jɛŋ o tʃo/",
-      "phonetic_simple": "GBA-LO YENG O TCHO",
-      "translation": "Quel est ce vêtement ?",
-      "context": "S'informer sur un tissu"
+      "phrase_id": "p3",
+      "original": "Ndu siaŋa.",
+      "phonetic_api": "/ndu sjaŋa/",
+      "phonetic_simple": "ndou sya-nga",
+      "translation": "C'est rouge.",
+      "context": "Pour décrire un objet ou un vêtement rouge."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Yandii, ndu ndá humbu waa tiŋi?",
+      "phonetic_api": "/jandiː ndu nda humbu waː tiŋi/",
+      "phonetic_simple": "yan-dii, ndou nda houm-bou wa ti-ngui",
+      "translation": "S'il te plaît, lequel est blanc ou noir ?",
+      "context": "Pour demander à choisir entre deux couleurs."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Ndu siniiyo waa?",
+      "phonetic_api": "/ndu siniːjo waː/",
+      "phonetic_simple": "ndou si-nii-yo wa",
+      "translation": "Est-ce que c'est neuf ?",
+      "context": "Pour demander si un vêtement/objet est neuf avant l'achat."
     }
   ],
   "grammar_points": [
     {
-      "concept": "La position de l'adjectif de couleur",
-      "explanation": "En kissi, les qualificatifs de couleur se placent immédiatement après le nom qu'ils modifient, se calquant sur le modèle de l'adjectif qualificatif général.",
+      "concept": "L'adjectif de couleur en position de prédicat",
+      "explanation": "Dans les exemples attestés, la couleur s'emploie directement après le sujet et la copule 'ndu' (c'est/il-elle est), sans marque d'accord de couleur distincte identifiée dans les sources consultées. Le vocabulaire du vêtement proprement dit (habit, boubou, pagne) n'a pas pu être vérifié dans une source fiable pour le kissi ; cette leçon se limite donc prudemment aux couleurs attestées.",
       "rules": [
-        "Le nom arrive toujours en premier de la structure descriptive.",
-        "L'adjectif de couleur prend une finale calée sur la classe ou l'harmonie du mot."
+        "ndu + [couleur] = c'est/il-elle est [couleur]",
+        "Seules trois couleurs de base sont attestées dans les sources disponibles : humbu (blanc), tiŋi (noir), siaŋa (rouge).",
+        "L'adjectif 'siniiyo' (neuf/nouveau), lui aussi attesté par Childs (1995), permet de qualifier un vêtement sans recourir à un nom de vêtement précis, non documenté.",
+        "Pour élargir le vocabulaire vestimentaire, il faudrait consulter le dictionnaire complet de Childs (2000), non intégralement accessible en ligne."
       ],
       "examples": [
         {
-          "structure": "Nom + Couleur",
-          "phonetic_api": "/g͡ba.lɔ pɔ.ⁿdɔ/",
-          "meaning": "Vêtement blanc"
+          "structure": "ndu + [couleur]",
+          "phonetic_api": "/ndu .../",
+          "meaning": "c'est [couleur]"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Faya",
-      "text": "Tamba, lɔ gbalɔ pɔndɔ ndɔ.",
-      "phonetic_api": "/ta.ᵐba lɔ g͡ba.lɔ pɔ.ⁿdɔ ⁿdɔ/",
-      "phonetic_simple": "TAM-BA, LO GBA-LO PON-DO NDO",
-      "translation": "Tamba, prends aussi ton vêtement blanc."
+      "speaker": "Cliente",
+      "text": "Nikene. Kɔɔleŋ ndá humbu?",
+      "phonetic_api": "/nikene kɔːleŋ nda humbu/",
+      "phonetic_simple": "ni-ké-né, kô-lèng nda houm-bou",
+      "translation": "Bonjour. Quel tissu est blanc ?"
     },
     {
-      "speaker": "Tamba",
-      "text": "Mbo, i co gbalɔ tundɔ loolu.",
-      "phonetic_api": "/ᵐbo i tʃo g͡ba.lɔ tu.ⁿdɔ loː.lu/",
-      "phonetic_simple": "MBO, I TCHO GBA-LO TOUN-DO LOO-LOU",
-      "translation": "Non, je veux le vêtement noir."
+      "speaker": "Vendeur",
+      "text": "Mbaa. Ndu wo, ndu humbu.",
+      "phonetic_api": "/mbaː ndu wo ndu humbu/",
+      "phonetic_simple": "mbaa, ndou wo, ndou houm-bou",
+      "translation": "(réponse). Celui-là, il est blanc."
+    },
+    {
+      "speaker": "Cliente",
+      "text": "Ndu ndá siaŋa?",
+      "phonetic_api": "/ndu nda sjaŋa/",
+      "phonetic_simple": "ndou nda sya-nga",
+      "translation": "Lequel est rouge ?"
+    },
+    {
+      "speaker": "Vendeur",
+      "text": "Ndu wo, ndu siaŋa; ndu wo, ndu tiŋi.",
+      "phonetic_api": "/ndu wo ndu sjaŋa ndu wo ndu tiŋi/",
+      "phonetic_simple": "ndou wo, ndou sya-nga; ndou wo, ndou ti-ngui",
+      "translation": "Celui-là est rouge ; celui-là est noir."
+    },
+    {
+      "speaker": "Cliente",
+      "text": "Ndu siniiyo waa?",
+      "phonetic_api": "/ndu siniːjo waː/",
+      "phonetic_simple": "ndou si-nii-yo wa",
+      "translation": "Est-ce que c'est neuf ?"
+    },
+    {
+      "speaker": "Vendeur",
+      "text": "Naam, ndu siniiyo.",
+      "phonetic_api": "/naːm ndu siniːjo/",
+      "phonetic_simple": "naam, ndou si-nii-yo",
+      "translation": "Oui, c'est neuf."
     }
   ],
   "cultural_notes": [
-    "Les tissus traditionnels kissi, souvent faits de coton lourd tissé localement (le pagne indigène), arborent majoritairement des teintes naturelles, blanches ou à bandes bleues et noires, portées de manière solennelle lors des cérémonies villageoises."
+    "Les trois couleurs de base attestées (blanc, noir, rouge) correspondent au triptyque chromatique le plus répandu et le plus anciennement lexicalisé dans de nombreuses langues africaines et au-delà, souvent associé à des symboliques rituelles fortes (le blanc pour la pureté ou le deuil selon les contextes, le rouge pour le sang ou le pouvoir).",
+    "Le manque de données lexicales publiques sur le vêtement kissi reflète une limite réelle des ressources disponibles en ligne pour cette langue peu documentée numériquement, malgré l'existence du dictionnaire complet de Childs (2000) publié sur papier."
   ],
   "exercises": [
     {
-      "exercise_id": "ex9_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Que signifie 'tundɔ' en parlant d'un objet ?",
+      "question": "Comment dit-on « rouge » en kissi ?",
       "options": [
-        "Blanc",
-        "Noir",
-        "Rouge"
+        "siaŋa",
+        "humbu",
+        "tiŋi"
       ],
-      "correct_answer": "Noir",
-      "explanation": "'Tundɔ' qualifie une couleur noire ou une obscurité."
+      "correct_answer": "siaŋa",
+      "explanation": "Attesté par le lexique Wiktionary des langues atlantiques de Guinée."
     },
     {
-      "exercise_id": "ex9_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Gbalɔ [ ___ ] signifie 'Vêtement blanc'.",
-      "correct_answer": "pɔndɔ",
-      "hint": "Couleur de la pureté ou du lait"
+      "sentence_with_blank": "Ndu [ ___ ]. (C'est noir.)",
+      "correct_answer": "tiŋi",
+      "hint": "Couleur attestée pour « noir »."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Wiktionary — Appendix:Word lists of Atlantic languages of Guinea (Kissi)",
+      "url": "https://en.wiktionary.org/wiki/Appendix:Word_lists_of_Atlantic_languages_of_Guinea"
+    },
+    {
+      "label": "G. Tucker Childs, A Grammar of Kisi: A Southern Atlantic Language (Mouton de Gruyter, 1995)",
+      "url": "https://dokumen.pub/a-grammar-of-kisi-a-southern-atlantic-language-9783110810882-9783110143560.html"
+    }
+  ],
+  "confidence": "faible",
+  "confidence_note": "Seules trois couleurs de base (humbu=blanc, tiŋi=noir, siaŋa=rouge) sont attestées dans le lexique Wiktionary consulté, corroborées par la grammaire de Childs (1995) qui cite également 'hümbu' (blanc) et l'adjectif 'siniiyo' (neuf/nouveau) ; aucun terme fiable pour un vêtement précis (boubou, pagne, chemise) n'a pu être trouvé pour le kissi malgré plusieurs recherches, cette leçon se limite donc honnêtement aux couleurs et à un adjectif descriptif connexe, en évitant d'inventer un vocabulaire vestimentaire non vérifié."
 }
