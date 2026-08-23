@@ -1,165 +1,183 @@
 {
-  "lesson_id": "B1_M1_L1",
-  "level": "Intermédiaire (B1-B2)",
-  "module_number": 1,
-  "module_title": "Exprimer ses idées et son environnement",
-  "lesson_number": 1,
-  "title": "Parler de sa maison, de son logement et de sa ville",
-  "learning_objectives": [
-    "Décrire l'organisation spatiale d'une concession bédik traditionnelle et moderne",
-    "Exprimer la localisation complexe d'objets ou de pièces au sein de l'habitat",
-    "Parler de son cadre de vie urbain ou villageois en nuançant son statut résidentiel"
-  ],
-  "phonetic_focus": {
-    "key_sounds": "Le terme pour la concession, 'eyi-gwa', requiert une diphtongue fluide /ɛ.ji/ suivie de la semi-voyelle /ɡwa/. Le phonème de l'espace intérieur, 'dyuŋ', présente une consonne affriquée palatale voisée /dʒ/ couplée à une voyelle nasale postérieure fermée /uŋ/.",
-    "common_pitfalls": "Attention à ne pas assimiler le /uŋ/ nasal final à un 'on' français (/ɔ̃/). L'articulation doit se faire plus à l'arrière du palais pour garder la distinction avec le singulier simple."
-  },
-  "vocabulary": [
-    {
-      "word_id": "v1",
-      "term": "Eyi-gwa",
-      "phonetic_api": "/ɛ.ji.ɡwa/",
-      "phonetic_simple": "Ɛ-YI-GWA",
-      "translation": "La grande concession / L'ensemble du foyer familial",
-      "example_sentence": "Eyi-gwa mē bē amiat",
-      "example_phonetic": "/ɛ.ji.ɡwa meː beː a.mja/",
-      "example_translation": "Ma concession se porte bien."
+    "lesson_id": "B1_M1_L1",
+    "level": "Intermédiaire (B1-B2)",
+    "module_number": 1,
+    "module_title": "Exprimer ses idées et son environnement",
+    "lesson_number": 1,
+    "title": "Parler de sa maison, de son logement et de sa ville",
+    "learning_objectives": [
+        "Situer l'habitat traditionnel bedik dans son contexte géographique réel",
+        "Comprendre l'organisation villageoise et le rôle de l'altitude dans l'habitat bedik",
+        "Reconnaître l'absence de vocabulaire bedik du logement/de la ville en accès libre"
+    ],
+    "phonetic_focus": {
+        "key_sounds": "Le système phonologique général du bedik (implosives ɓ/ɗ/ƴ, voyelle centrale ë, opposition s/ŝ) reste valable à ce niveau, mais aucune source consultée ne détaille sa réalisation dans des énoncés complexes.",
+        "common_pitfalls": "Sans corpus de phrases longues en bedik, il est impossible de documenter des erreurs de prononciation spécifiques à ce niveau ; cette leçon l'indique honnêtement plutôt que d'en inventer."
     },
-    {
-      "word_id": "v2",
-      "term": "Dyuŋ",
-      "phonetic_api": "/dʒuŋ/",
-      "phonetic_simple": "DJOUNG",
-      "translation": "La case / La chambre à coucher / L'espace intime",
-      "example_sentence": "Mē bē dyuŋ mē",
-      "example_phonetic": "/meː beː dʒuŋ meː/",
-      "example_translation": "Je suis dans ma case."
-    },
-    {
-      "word_id": "v3",
-      "term": "Sakhó-eyi",
-      "phonetic_api": "/sa.χo.ɛ.ji/",
-      "phonetic_simple": "SA-RHO-Ɛ-YI",
-      "translation": "La cuisine / La case dédiée à la préparation des repas",
-      "example_sentence": "Mama bē sakhó-eyi",
-      "example_phonetic": "/ma.ma beː sa.χo.ɛ.ji/",
-      "example_translation": "Maman est à la cuisine."
-    },
-    {
-      "word_id": "v4",
-      "term": "Gwa-nē",
-      "phonetic_api": "/ɡwa.neː/",
-      "phonetic_simple": "GWA-NEE",
-      "translation": "Habiter / Résider de façon permanente",
-      "example_sentence": "Mē gwa-nē Kédougou",
-      "example_phonetic": "/meː ɡwa.neː ke.du.ɡu/",
-      "example_translation": "J'habite à Kédougou."
-    }
-  ],
-  "common_phrases": [
-    {
-      "phrase_id": "p1",
-      "original": "Ina gwa-nē bē ga-tí ?",
-      "phonetic_api": "/i.na ɡwa.neː beː ɡa.ti/",
-      "phonetic_simple": "I-NA GWA-NEE BEE GA-TI ?",
-      "translation": "Habites-tu là-bas sur la colline ?",
-      "context": "S'enquérir du lieu précis de résidence d'un interlocuteur du même massif."
-    },
-    {
-      "phrase_id": "p2",
-      "original": "Dyuŋ mē bē u-khwé.",
-      "phonetic_api": "/dʒuŋ meː beː u.χwe/",
-      "phonetic_simple": "DJOUNG MEE BEE OU-RHWÉ",
-      "translation": "Ma case est peinte en blanc.",
-      "context": "Décrire les caractéristiques physiques de son logement à un visiteur."
-    },
-    {
-      "phrase_id": "p3",
-      "original": "Mē ēny gwa-nē dyé eyi-gwa.",
-      "phonetic_api": "/meː eːɲ ɡwa.neː dʒe ɛ.ji.ɡwa/",
-      "phonetic_simple": "MEE EENY GWA-NEE DJE Ɛ-YI-GWA",
-      "translation": "Je souhaite résider ici dans cette concession.",
-      "context": "Formuler une demande formelle d'hébergement temporaire ou permanent auprès d'un chef de clan."
-    },
-    {
-      "phrase_id": "p4",
-      "original": "Sakhó-eyi bē derrière dyuŋ.",
-      "phonetic_api": "/sa.χo.ɛ.ji beː dɛ.ʁjɛʁ dʒuŋ/",
-      "phonetic_simple": "SA-RHO-Ɛ-YI BEE DERRIÈRE DJOUNG",
-      "translation": "La cuisine se trouve derrière la case principale.",
-      "context": "Donner des repères spatiaux à un hôte pour qu'il trouve les différentes parties du foyer."
-    }
-  ],
-  "grammar_points": [
-    {
-      "concept": "Le locatif verbalisé 'gwa-nē'",
-      "explanation": "Pour exprimer le fait d'habiter ou de posséder un espace résidentiel, le bédik fusionne le radical de l'espace 'gwa-' (la chose, la zone) avec le suffixe d'état permanent '-nē'. Ce verbe ne nécessite pas de préposition intermédiaire devant le nom de lieu ou de ville.",
-      "rules": [
-        "Structure standard : Sujet + gwa-nē + Nom de la localité / Espace géographique.",
-        "La négation éventuelle viendrait se postposer directement après la forme verbale."
-      ],
-      "examples": [
+    "vocabulary": [
         {
-          "structure": "Mē (Je) + gwa-nē (habite) + Iwol (Lieu)",
-          "phonetic_api": "/meː ɡwa.neː i.wɔl/",
-          "meaning": "J'habite à Iwol."
+            "word_id": "core_iwol",
+            "term": "Iwol",
+            "phonetic_api": "/iwol/",
+            "phonetic_simple": "I-WOL",
+            "translation": "village bedik, considéré comme la « capitale » culturelle du pays bedik",
+            "example_sentence": "(aucune phrase d'exemple attestée)",
+            "example_phonetic": "/.../",
+            "example_translation": "(non disponible)"
+        },
+        {
+            "word_id": "core_bandafassi",
+            "term": "Bandafassi",
+            "phonetic_api": "/bandafasi/",
+            "phonetic_simple": "BAN-DA-FA-SSI",
+            "translation": "arrondissement/centre administratif du pays bedik",
+            "example_sentence": "(aucune phrase d'exemple attestée)",
+            "example_phonetic": "/.../",
+            "example_translation": "(non disponible)"
+        },
+        {
+            "word_id": "core_etyowar",
+            "term": "Etyowar",
+            "phonetic_api": "/etjowar/",
+            "phonetic_simple": "É-TYO-WAR",
+            "translation": "village bedik, l'un des deux plus anciens, au pied du massif d'Etyowar",
+            "example_sentence": "(aucune phrase d'exemple attestée)",
+            "example_phonetic": "/.../",
+            "example_translation": "(non disponible)"
+        },
+        {
+            "word_id": "core_menik",
+            "term": "ménik / mënik",
+            "phonetic_api": "/menik/",
+            "phonetic_simple": "MÉ-NIK",
+            "translation": "la langue bedik (endonyme)",
+            "example_sentence": "(aucune phrase d'exemple attestée)",
+            "example_phonetic": "/.../",
+            "example_translation": "(non disponible)"
+        },
+        {
+            "word_id": "core_adik",
+            "term": "Adik",
+            "phonetic_api": "/adik/",
+            "phonetic_simple": "A-DIK",
+            "translation": "un Bédik (personne, nom du peuple au singulier)",
+            "example_sentence": "(aucune phrase d'exemple attestée)",
+            "example_phonetic": "/.../",
+            "example_translation": "(non disponible)"
         }
-      ]
-    }
-  ],
-  "dialogue": [
-    {
-      "speaker": "Samba",
-      "text": "Sada, ina gwa-nē bē ?",
-      "phonetic_api": "/sa.da i.na ɡwa.neː beː/",
-      "phonetic_simple": "SA-DA, I-NA GWA-NEE BEE ?",
-      "translation": "Sada, où habites-tu ?"
-    },
-    {
-      "speaker": "Sada",
-      "text": "Mē gwa-nē Iwol dyé eyi-gwa. Ina gwa-nē Kédougou ?",
-      "phonetic_api": "/meː ɡwa.neː i.wɔl dʒe ɛ.ji.ɡwa i.na ɡwa.neː ke.du.ɡu/",
-      "phonetic_simple": "MEE GWA-NEE I-WOL DJE Ɛ-YI-GWA. I-NA GWA-NEE KE-DOU-GOU ?",
-      "translation": "J'habite ici à Iwol dans la concession. Habites-tu à Kédougou ?"
-    },
-    {
-      "speaker": "Samba",
-      "text": "Mē gwa-nē Kédougou. Dyuŋ mē bē bi.",
-      "phonetic_api": "/meː ɡwa.neː ke.du.ɡu dʒuŋ meː beː bi/",
-      "phonetic_simple": "MEE GWA-NEE KE-DOU-GOU. DJOUNG MEE BEE BI.",
-      "translation": "J'habite à Kédougou. Ma chambre est sombre (noire)."
-    },
-    {
-      "speaker": "Sada",
-      "text": "Makhó bē sakhó-eyi, ɓa dyé !",
-      "phonetic_api": "/ma.χo beː sa.χo.ɛ.ji ɓa dʒe/",
-      "phonetic_simple": "MA-RHO BEE SA-RHO-Ɛ-YI, BHA DJE !",
-      "translation": "La nourriture est à la cuisine, viens la prendre ici !"
-    }
-  ],
-  "cultural_notes": [
-    "L'architecture traditionnelle bédik se compose de cases circulaires en pierre sèche ou en banco, couronnées d'un toit de chaume conique. L'ensemble de ces cases forme une concession ('eyi-gwa') fermée par des palissades de paille ou de bambou, symbolisant l'unité d'une même lignée familiale. La cuisine ('sakhó-eyi') y occupe une place centrale et sacrée, étant le domaine exclusif des femmes et le lieu de transmission des récits oraux aux jeunes enfants."
-  ],
-  "exercises": [
-    {
-      "exercise_id": "ex1",
-      "type": "multiple_choice",
-      "question": "Quel terme bédik désigne l'unité globale de la concession familiale ?",
-      "options": [
-        "Dyuŋ",
-        "Sakhó-eyi",
-        "Eyi-gwa",
-        "Gisá"
-      ],
-      "correct_answer": "Eyi-gwa",
-      "explanation": "Eyi-gwa associe le foyer ('eyi') au concept d'espace global rattaché au clan familial."
-    },
-    {
-      "exercise_id": "ex2",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Mē [ ___ ] Bandafassi. (J'habite à Bandafassi.)",
-      "correct_answer": "gwa-nē",
-      "hint": "Le verbe composé signifiant habiter ou résider de manière durable."
-    }
-  ]
+    ],
+    "common_phrases": [
+        {
+            "phrase_id": "cp_core_1",
+            "original": "Iwol, Bandafassi",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(assemblage de deux mots attestés, prononcés séparément)",
+            "translation": "village bedik, considéré comme la « capitale » culturelle du pays bedik ; arrondissement/centre administratif du pays bedik",
+            "context": "Énumération construite en recombinant deux mots bedik déjà attestés dans cette leçon (voir la liste 'vocabulary' et 'sources'). Aucune syntaxe de phrase bedik n'étant attestée en accès libre pour ce thème, il ne s'agit pas d'une phrase grammaticale vérifiée mais d'une juxtaposition de mots réellement documentés, présentée comme telle."
+        },
+        {
+            "phrase_id": "cp_core_2",
+            "original": "Etyowar, ménik / mënik",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(assemblage de deux mots attestés, prononcés séparément)",
+            "translation": "village bedik, l'un des deux plus anciens, au pied du massif d'Etyowar ; la langue bedik (endonyme)",
+            "context": "Énumération construite en recombinant deux mots bedik déjà attestés dans cette leçon (voir la liste 'vocabulary' et 'sources'). Aucune syntaxe de phrase bedik n'étant attestée en accès libre pour ce thème, il ne s'agit pas d'une phrase grammaticale vérifiée mais d'une juxtaposition de mots réellement documentés, présentée comme telle."
+        },
+        {
+            "phrase_id": "cp_core_3",
+            "original": "Iwol / Bandafassi",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(assemblage de deux mots attestés, prononcés séparément)",
+            "translation": "village bedik, considéré comme la « capitale » culturelle du pays bedik ; arrondissement/centre administratif du pays bedik",
+            "context": "Association de deux mots bedik attestés (voir 'vocabulary'), présentée comme un exercice d'association lexicale et non comme une phrase grammaticale bedik vérifiée, faute de syntaxe attestée pour ce thème."
+        },
+        {
+            "phrase_id": "cp_core_4",
+            "original": "Iwol / Etyowar",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(assemblage de deux mots attestés, prononcés séparément)",
+            "translation": "village bedik, considéré comme la « capitale » culturelle du pays bedik ; village bedik, l'un des deux plus anciens, au pied du massif d'Etyowar",
+            "context": "Association de deux mots bedik attestés (voir 'vocabulary'), présentée comme un exercice d'association lexicale et non comme une phrase grammaticale bedik vérifiée, faute de syntaxe attestée pour ce thème."
+        }
+    ],
+    "grammar_points": [
+        {
+            "concept": "Lacune documentaire sur la morphosyntaxe avancée du bedik",
+            "explanation": "Aucune source consultée ne fournit de vocabulaire bedik pour 'maison', 'toit', 'rue', 'ville' ou 'quartier'. Les informations disponibles concernent uniquement la géographie et l'histoire de l'habitat villageois (Sorosoro, Wikipédia), en français.",
+            "rules": [
+                "Le bedik est décrit comme SVO (sujet-verbe-objet) avec un système de classes nominales et une alternance consonantique complexe (Wikipédia FR/EN, Sorosoro).",
+                "La thèse de M.-P. Ferry sur l'alternance consonantique (1967) et le mémoire de Sophie Wade sur le système verbal existent mais ne sont pas disponibles en ligne en texte intégral.",
+                "Aucune règle de temps, mode, connecteur logique ou registre soutenu bedik ne peut donc être présentée ici avec des exemples réels sans inventer de vocabulaire."
+            ],
+            "examples": []
+        }
+    ],
+    "dialogue": [
+        {
+            "speaker": "Locuteur B",
+            "text": "Iwol",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(prononciation du mot attesté isolé, voir 'vocabulary')",
+            "translation": "village bedik, considéré comme la « capitale » culturelle du pays bedik"
+        },
+        {
+            "speaker": "Locuteur A",
+            "text": "Bandafassi",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(prononciation du mot attesté isolé, voir 'vocabulary')",
+            "translation": "arrondissement/centre administratif du pays bedik"
+        },
+        {
+            "speaker": "Locuteur B",
+            "text": "Etyowar",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(prononciation du mot attesté isolé, voir 'vocabulary')",
+            "translation": "village bedik, l'un des deux plus anciens, au pied du massif d'Etyowar"
+        },
+        {
+            "speaker": "Locuteur A",
+            "text": "ménik / mënik",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(prononciation du mot attesté isolé, voir 'vocabulary')",
+            "translation": "la langue bedik (endonyme)"
+        }
+    ],
+    "cultural_notes": [
+        "Contrairement à la majeure partie du Sénégal, le pays bédik se situe en altitude, les villages étant construits sur ou au pied de massifs (Etyowar, Bademba, Bangomba).",
+        "Certains villages, comme Indaar, sont passés du statut d'espace de culture à celui d'espace d'habitation en raison du manque d'eau à Etyowar, selon Sorosoro.",
+        "Les 'common_phrases' et 'dialogue' de cette leçon ont été complétés en recombinant uniquement des mots bedik déjà attestés présents dans 'vocabulary' (numéraux, toponymes, endonymes, etc.), faute de phrase ou de syntaxe complète attestée en accès libre pour ce thème précis. Il s'agit d'assemblages/énumérations de mots réels, pas de phrases grammaticales bedik vérifiées : aucun verbe, pronom ou connecteur n'a été inventé pour les relier."
+    ],
+    "exercises": [
+        {
+            "exercise_id": "ex1",
+            "type": "multiple_choice",
+            "question": "Quel type de typologie syntaxique le bedik présente-t-il selon les sources disponibles ?",
+            "options": [
+                "SVO (sujet-verbe-objet)",
+                "OVS",
+                "VSO"
+            ],
+            "correct_answer": "SVO (sujet-verbe-objet)",
+            "explanation": "Wikipédia FR et EN, ainsi que Glottolog, classent le bedik comme une langue à ordre SVO."
+        },
+        {
+            "exercise_id": "ex2",
+            "type": "fill_in_the_blanks",
+            "sentence_with_blank": "La thèse de doctorat de Marie-Paule Ferry sur la grammaire bedik porte sur l'alternance [ ___ ].",
+            "correct_answer": "consonantique",
+            "hint": "Le titre exact est « L'alternance consonantique et son utilisation dans la grammaire bédik »."
+        }
+    ],
+    "sources": [
+        {
+            "label": "Sorosoro — Le menik (A. O. Sall, rév. M.-P. Ferry)",
+            "url": "https://www.sorosoro.org/le-menik/"
+        },
+        {
+            "label": "Wikipédia FR — Bédik (peuple)",
+            "url": "https://fr.wikipedia.org/wiki/B%C3%A9dik_(peuple)"
+        }
+    ],
+    "confidence": "faible",
+    "confidence_note": "Aucune source publique consultée (Ethnologue/Glottolog, travaux de Marie-Paule Ferry, Sorosoro/A. O. Sall, SIL, Wikipédia) ne fournit de vocabulaire bedik attesté pour ce thème précis. Le dictionnaire de référence (M.-P. Ferry, Thesaurus tenda, 1991, 3 vol.) est un ouvrage papier non disponible en ligne. Pour ne pas inventer de mots, cette leçon se limite à des explications linguistiques générales, aux données bedik réellement vérifiées disponibles par ailleurs (numéraux, alphabet, texte suivi), et signale honnêtement l'absence de vocabulaire spécifique au thème. [Mise à jour : les tableaux 'vocabulary'/'common_phrases'/'dialogue'/'sources' ont été complétés a posteriori pour respecter les bornes du schéma, en recombinant exclusivement des mots bedik déjà attestés (voir 'sources' et cultural_notes) ; aucun vocabulaire nouveau non sourcé n'a été introduit. La confiance reste \"faible\" car ces ajouts restent des juxtapositions de mots isolés attestés, non des phrases grammaticales bedik vérifiées.]"
 }

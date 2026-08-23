@@ -2,160 +2,194 @@
   "lesson_id": "C1_M2_L6",
   "level": "Avancé (C1-C2)",
   "module_number": 2,
-  "module_title": "Rhétorique et sagesse traditionnelle",
+  "module_title": "Culture, traditions et rhétorique",
   "lesson_number": 6,
   "title": "Le registre soutenu et le langage formel (cérémonies, contes, traditions)",
   "learning_objectives": [
-    "Employer le vocabulaire honorifique spécifique aux récits traditionnels et aux contes",
-    "Maîtriser les formules d'introduction et de clôture rituelles des conteurs",
-    "Utiliser les marqueurs stylistiques du konyanka soutenu dans un cadre solennel"
+    "Reconnaître les formules d'ouverture et de clôture d'un conte traditionnel",
+    "Utiliser un registre respectueux lors d'une cérémonie",
+    "Comprendre la structure narrative d'un conte konianké authentique"
   ],
   "phonetic_focus": {
-    "key_sounds": "L'expression rituelle 'firin' /fi.rĩ/ demande une nasalisation finale très brève. Le terme pour le récit sacré 'toli' /to.li/ se prononce avec des voyelles pures et un ton stable. Les formules d'apparat exigent une diction posée, caractérisée par des allongements vocaliques expressifs sur les termes de respect.",
-    "common_pitfalls": "Veillez à ne pas escamoter l'expiration de la consonne fricative glottale /h/ dans les interjections traditionnelles d'assentiment comme 'Hali' ou 'Haba', qui valident la parole du conteur."
+    "key_sounds": "Le chant du conte de l'orphelin ('I madji I madji wo toro') repose sur une répétition rythmique caractéristique des chants traditionnels manding, avec accentuation égale sur chaque syllabe répétée.",
+    "common_pitfalls": "Lire le chant traditionnel comme une phrase ordinaire sans respecter la répétition et le rythme incantatoire propres à ce type d'énoncé cérémoniel."
   },
   "vocabulary": [
     {
       "word_id": "v1",
-      "term": "Toli",
-      "phonetic_api": "/to.li/",
-      "phonetic_simple": "TO-LI",
-      "translation": "Conte / Récit traditionnel / Mythe",
-      "example_sentence": "N'mɔgɔbaxun bɛ toli da an ye bi su la.",
-      "example_phonetic": "/mmɔ.ɡɔ.ba.xun bɛ to.li da ã d͡ʒɛ bi su la/",
-      "example_translation": "Notre aîné va nous conter un récit traditionnel ce soir."
+      "term": "madji",
+      "phonetic_api": "[madʒi]",
+      "phonetic_simple": "ma-dji",
+      "translation": "s'abaisser, se pencher (forme konianké attestée dans le conte de Damaro)",
+      "example_sentence": "I madji, wo toro.",
+      "example_phonetic": "[i madʒi wo toro]",
+      "example_translation": "Abaisse-toi, ô arbre !"
     },
     {
       "word_id": "v2",
-      "term": "Firin",
-      "phonetic_api": "/fi.rĩ/",
-      "phonetic_simple": "FI-RIN",
-      "translation": "Formule d'ouverture de conte (litt. Le voilà / Attention)",
-      "example_sentence": "Firin ! Toli bɛ damina.",
-      "example_phonetic": "/fi.rĩ to.li bɛ da.mi.na/",
-      "example_translation": "Firin ! Le conte commence (formule rituelle)."
+      "term": "domoni",
+      "phonetic_api": "[domoni]",
+      "phonetic_simple": "do-mo-ni",
+      "translation": "manger, repas (forme konianké attestée dans le conte)",
+      "example_sentence": "Né ma domoni kè.",
+      "example_phonetic": "[ne ma domoni kɛ]",
+      "example_translation": "Je n'ai pas mangé."
     },
     {
       "word_id": "v3",
-      "term": "Nsiirin",
-      "phonetic_api": "/nsiː.rĩ/",
-      "phonetic_simple": "NSII-RIN",
-      "translation": "Légende / Parabole morale",
-      "example_sentence": "Nsiirin nin ka diya hakili ye.",
-      "example_phonetic": "/nsiː.rĩ nĩ ka di.ja ha.ki.li d͡ʒɛ/",
-      "example_translation": "Cette parabole est excellente pour nourrir l'esprit."
+      "term": "denmisɛnnin (orphelin)",
+      "phonetic_api": "[dɛnmisɛnnin]",
+      "phonetic_simple": "dèn-mi-sèn-nin",
+      "translation": "enfant orphelin (personnage central du conte konianké de Damaro)",
+      "example_sentence": "Denmisɛnnin nin fa ni na banna.",
+      "example_phonetic": "[dɛnmisɛnnin nin fa ni na banna]",
+      "example_translation": "Cet enfant orphelin, son père et sa mère sont décédés."
     },
     {
       "word_id": "v4",
-      "term": "Kuma-tɔ",
-      "phonetic_api": "/ku.ma.tɔ/",
-      "phonetic_simple": "KOU-MA-TƆ",
-      "translation": "Parole sacrée / Discours d'apparat / Coutume",
-      "example_sentence": "Kuma-tɔ tɛ feere lɔgɔfɛ la.",
-      "example_phonetic": "/ku.ma.tɔ tɛ feː.re lɔ.ɡɔ.fɛ la/",
-      "example_translation": "La parole sacrée ne se vend pas au marché (elle a une valeur inestimable)."
+      "term": "masaya",
+      "phonetic_api": "[masaja]",
+      "phonetic_simple": "ma-sa-ya",
+      "translation": "royauté, fait de devenir roi/chef",
+      "example_sentence": "A tɔgɔla masaya sɔrɔla.",
+      "example_phonetic": "[a tɔɡɔla masaja sɔrɔla]",
+      "example_translation": "Finalement, il/elle a obtenu la royauté."
+    },
+    {
+      "word_id": "v5",
+      "term": "maana",
+      "phonetic_api": "[maːna]",
+      "phonetic_simple": "ma-a-na",
+      "translation": "conte, récit traditionnel",
+      "example_sentence": "N bɛna maana kɛ aw ye.",
+      "example_phonetic": "[n bɛna maːna kɛ aw je]",
+      "example_translation": "Je vais vous raconter un conte."
     }
   ],
   "common_phrases": [
     {
       "phrase_id": "p1",
-      "original": "Toli nana, a taara bila fani gbe la.",
-      "phonetic_api": "/to.li na.na a taː.ra bi.la fa.nĩ ɡ͡be la/",
-      "phonetic_simple": "TO-LI NA-NA, A TAA-RA BI-LA FA-NI GBE LA",
-      "translation": "Le conte est venu, il est allé se poser sur un pagne blanc.",
-      "context": "Formule métaphorique et poétique de clôture d'un récit traditionnel."
+      "original": "I madji I madji wo toro, né ma domoni kè toro",
+      "phonetic_api": "[i madʒi i madʒi wo toro ne ma domoni kɛ toro]",
+      "phonetic_simple": "i-ma-dji-i-ma-dji-wo-to-ro",
+      "translation": "Abaisses, abaisses-toi, l'arbre ! Je n'ai pas mangé.",
+      "context": "Chant authentique en konianké extrait du conte de l'orphelin de Damaro (Donkosira), adressé par l'enfant à l'arbre fruitier magique"
     },
     {
       "phrase_id": "p2",
-      "original": "Kuma fɔ mɔgɔba lu ɲɛ, o ye wajibiya ba di.",
-      "phonetic_api": "/ku.ma fɔ mɔ.ɡɔ.ba lu ɲɛ o jɛ wa.d͡ʒi.bi.ja ba di/",
-      "phonetic_simple": "KOU-MA FƆ MƆ-GƆ-BA LOU NYÈ, O YÈ WA-DJI-BI-YA BA DI",
-      "translation": "Parler devant les grands d'une assemblée est une immense responsabilité.",
-      "context": "Phrase employée pour marquer sa modestie avant une joute verbale cérémonielle."
+      "original": "Bimba to n bolo!",
+      "phonetic_api": "[bimba to n bolo]",
+      "phonetic_simple": "bim-ba-to-n-bo-lo",
+      "translation": "Que la bénédiction reste sur moi !",
+      "context": "Formule de clôture cérémonielle courante dans le continuum manding pour conclure un discours solennel ou un conte"
     },
     {
       "phrase_id": "p3",
-      "original": "An badaa lu la kuma tɛ ban hali bi la.",
-      "phonetic_api": "/ã ba.daː lu la ku.ma tɛ bã ha.li bi la/",
-      "phonetic_simple": "AN BA-DAA LOU LA KOU-MA TÈ BAN HA-LI BI LA",
-      "translation": "La parole de nos ancêtres ne s'éteint pas, même aujourd'hui.",
-      "context": "Éloge de la tradition orale lors d'un rassemblement coutumier."
+      "original": "Aw ka lamɛn n na",
+      "phonetic_api": "[aw ka lamɛn n na]",
+      "phonetic_simple": "aw-ka-la-mèn-n-na",
+      "translation": "Écoutez-moi",
+      "context": "Formule d'ouverture solennelle avant de raconter un conte devant une assemblée"
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Denmisɛnnin nin masaya sɔrɔla labanna",
+      "phonetic_api": "[dɛnmisɛnnin nin masaja sɔrɔla labanna]",
+      "phonetic_simple": "dèn-mi-sèn-nin-nin-ma-sa-ya-so-ro-la",
+      "translation": "Cet enfant a fini par obtenir la royauté",
+      "context": "Résumer la conclusion du conte traditionnel de l'orphelin"
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'usage stylistique des particules d'emphase poétique",
-      "explanation": "Dans le registre soutenu des contes et de la mythologie konyanka, la grammaire s'enrichit d'éléments d'emphase. On utilise des inversions ainsi que des structures absolues (sans marque d'inaccompli) pour donner aux faits racontés un caractère intemporel et légendaire.",
+      "concept": "Le redoublement impératif dans le chant traditionnel",
+      "explanation": "Le chant authentique du conte konianké de Damaro répète l'impératif 'madji' (abaisse-toi) deux fois, une structure de redoublement typique des formules incantatoires et des chants traditionnels manding pour intensifier la demande adressée à un être ou à un élément naturel personnifié.",
       "rules": [
-        "Omission volontaire du prédicat de temps dans les descriptions imagées pour figer l'action dans le mythe.",
-        "Utilisation de la particule 'le' ou 'di' après le sujet pour thématiser fortement le héros ou l'entité du récit."
+        "Verbe à l'impératif répété deux fois = intensification rituelle/incantatoire"
       ],
       "examples": [
         {
-          "structure": "Sila le di an ye",
-          "phonetic_api": "/si.la le di ã d͡ʒɛ/",
-          "meaning": "C'est le chemin par excellence pour nous"
-        },
-        {
-          "structure": "Toli daminara",
-          "phonetic_api": "/to.li da.mi.na.ra/",
-          "meaning": "Le récit s'est ouvert"
+          "structure": "I madji, I madji",
+          "phonetic_api": "[i madʒi i madʒi]",
+          "meaning": "abaisse-toi, abaisse-toi (insistance rituelle)"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Kɔtɛla (Le Conteur)",
-      "text": "Firin ! N'mɔgɔ lu, nsiirin kelen nana yan bi.",
-      "phonetic_api": "/fi.rĩ mmɔ.ɡɔ lu nsiː.rĩ ke.lẽ na.na jã bi/",
-      "phonetic_simple": "FI-RIN ! N-MƆ-GƆ LOU, NSII-RIN KÉ-LEN NA-NA YAN BI",
-      "translation": "Firin ! Mon peuple, une légende est venue à nous aujourd'hui."
+      "speaker": "Griot / conteur",
+      "text": "Aw ka lamɛn n na, n bɛna maana kɛ aw ye bi su in na.",
+      "phonetic_api": "[aw ka lamɛn n na n bɛna maːna kɛ aw je bi su in na]",
+      "phonetic_simple": "aw-ka-la-mèn-n-na",
+      "translation": "Écoutez-moi, je vais vous raconter un conte ce soir."
     },
     {
-      "speaker": "Mɛnlala lu (L'Auditoire)",
-      "text": "Haba ! An bɛ i la kuma mɛn na ni hakili timan di.",
-      "phonetic_api": "/ha.ba ã bɛ i la ku.ma mɛn na ni ha.ki.li ti.mã di/",
-      "phonetic_simple": "HA-BA ! AN BÈ I LA KOU-MA MÈN NA NI HA-KI-LI TI-MAN DI",
-      "translation": "Magnifique ! Nous écoutons ta parole avec une oreille attentive et sage."
+      "speaker": "Auditoire",
+      "text": "An bɛ lamɛn, fɔ!",
+      "phonetic_api": "[an bɛ lamɛn fɔ]",
+      "phonetic_simple": "an-bè-la-mèn, fo",
+      "translation": "Nous écoutons, raconte !"
     },
     {
-      "speaker": "Kɔtɛla (Le Conteur)",
-      "text": "San tɛmɛnen lu la, badenya tun bɛ duguba kɔnɔ fɔ mɔgɔ-baya ka nyan wari fɛ.",
-      "phonetic_api": "/sã tɛ.mɛ.nẽ lu la ba.dẽ.ja tũ bɛ du.ɡu.ba kɔ.nɔ fɔ mɔ.ɡɔ.ba.ja ka ɲã wa.ri fɛ/",
-      "phonetic_simple": "SAN TÈ-MÈ-NEN LOU LA, BA-DEN-YA TOUN BÈ DOU-GOU-BA KƆ-NƆ FƆ MƆ-GƆ-BA-YA KA NYAN WA-RI FÈ",
-      "translation": "Dans les temps anciens, la fraternité régnait dans la cité, démontrant que la richesse humaine surpasse l'or."
+      "speaker": "Griot / conteur",
+      "text": "Denmisɛnnin dɔ tun bɛ yen, a fa ni a na banna...",
+      "phonetic_api": "[dɛnmisɛnnin dɔ tun bɛ jɛn a fa ni a na banna]",
+      "phonetic_simple": "dèn-mi-sèn-nin-do-toun-bè-yèn",
+      "translation": "Il était une fois un enfant orphelin, dont le père et la mère étaient décédés..."
     },
     {
-      "speaker": "Mɛnlala lu (L'Auditoire)",
-      "text": "Toli nin ka diya bɛrɛbɛrɛ. A taara bila fani gbe la !",
-      "phonetic_api": "/to.li nĩ ka di.ja bɛ.rɛ.bɛ.rɛ a taː.ra bi.la fa.nĩ ɡ͡be la/",
-      "phonetic_simple": "TO-LI NIN KA DI-YA BÈ-RÈ-BÈ-RÈ. A TAA-RA BI-LA FA-NI GBE LA !",
-      "translation": "Ce récit est infiniment beau. Il s'est posé sur un pagne blanc (il est accompli et pur) !"
+      "speaker": "Auditoire",
+      "text": "Denmisɛnnin nin masaya sɔrɔla labanna wa?",
+      "phonetic_api": "[dɛnmisɛnnin nin masaja sɔrɔla labanna wa]",
+      "phonetic_simple": "dèn-mi-sèn-nin-nin-ma-sa-ya-so-ro-la-wa",
+      "translation": "Cet enfant a-t-il fini par obtenir la royauté ?"
     }
   ],
   "cultural_notes": [
-    "Les veillées de contes ('toli da') en Guinée forestière ne sont pas de simples divertissements. Elles représentent l'institution éducative traditionnelle par laquelle les valeurs spirituelles, l'histoire des clans et la maîtrise de la langue konyanka sont transmises aux jeunes générations. Répondre 'Haba !' au conteur est indispensable pour montrer que l'esprit est captivé."
+    "Le conte de l'orphelin persécuté par sa marâtre et sauvé par un arbre fruitier magique ('toro') qui s'abaisse à sa demande est un conte traditionnel authentique documenté en konianké pour la région de Damaro par le site culturel Donkosira, incluant un chant rituel transcrit fidèlement.",
+    "La morale du conte, telle que rapportée par la source : « si tu ne soutiens pas un orphelin, Dieu le soutiendra, et gare à celui qui se mettra contre cette volonté divine », illustre une valeur sociale centrale de protection des orphelins dans la tradition orale de cette région.",
+    "Le conte se termine par l'accession de l'orphelin à la royauté (masaya), motif narratif classique de justice rétributive dans les contes manding."
   ],
   "exercises": [
     {
-      "exercise_id": "ex1",
-      "type": "multiple_choice",
-      "question": "Quelle formule rituelle le conteur konyanka utilise-t-on pour réclamer l'attention de son auditoire avant de commencer ?",
+      "exercise_id": "e1",
+      "type": "choix_multiple",
+      "question": "Que signifie 'madji' dans le conte konianké de Damaro ?",
       "options": [
-        "Firin !",
-        "Ayoki !",
-        "Wari-muso"
+        "manger",
+        "s'abaisser",
+        "chanter",
+        "pardonner"
       ],
-      "correct_answer": "Firin !",
-      "explanation": "'Firin !' est l'interjection traditionnelle d'ouverture qui lance officiellement la veillée de contes."
+      "correct_answer": "s'abaisser",
+      "explanation": "'madji' signifie 's'abaisser/se pencher', adressé par l'enfant à l'arbre magique."
     },
     {
-      "exercise_id": "ex2",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Toli nana, a taara bila fani [ ___ ] la (Le conte s'est posé sur le pagne blanc).",
-      "correct_answer": "gbe",
-      "hint": "La couleur symbole de pureté et d'accomplissement parfait."
+      "exercise_id": "e2",
+      "type": "traduction",
+      "question": "Traduisez la formule chantée : 'I madji I madji wo toro, né ma domoni kè toro.'",
+      "correct_answer": "Abaisses, abaisses-toi, l'arbre ! Je n'ai pas mangé.",
+      "explanation": "Traduction directement fournie par la source Donkosira pour ce chant authentique."
+    },
+    {
+      "exercise_id": "e3",
+      "type": "texte_a_trous",
+      "sentence_with_blank": "À la fin du conte, l'orphelin devient ___.",
+      "correct_answer": "roi (masaya)",
+      "explanation": "Selon le résumé du conte publié par Donkosira, l'orphelin finit par accéder à la royauté."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Donkosira — Les contes dans la région de Damaro (Guinée), conte et chant en konianké authentiques",
+      "url": "https://www.donkosira.org/les-contes-dans-la-region-de-damaro-guinee/"
+    },
+    {
+      "label": "Donkosira — Proverbes de Damaro (Guinée), proverbes en konianké authentiques",
+      "url": "https://www.donkosira.org/proverbes-de-damaro-guinee/"
+    }
+  ],
+  "confidence": "élevée",
+  "confidence_note": "Cette leçon s'appuie directement sur le conte et le chant en konianké authentiques de la région de Damaro, documentés et traduits par le site culturel Donkosira — seule source de contenu linguistique konianké vérifiable identifiée dans cette recherche. La confiance est élevée pour les éléments directement cités (chant, personnages, intrigue, morale) ; elle reste toutefois limitée par l'absence d'une transcription phonétique académique normalisée et par l'absence d'autres exemples de contes konianké pour recouper cette source unique."
 }

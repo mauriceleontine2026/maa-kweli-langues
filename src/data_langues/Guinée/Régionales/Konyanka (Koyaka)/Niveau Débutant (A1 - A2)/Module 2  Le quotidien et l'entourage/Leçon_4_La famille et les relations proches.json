@@ -6,209 +6,224 @@
   "lesson_number": 4,
   "title": "La famille et les relations proches",
   "learning_objectives": [
-    "Identifier les membres principaux du noyau familial",
-    "Exprimer les liens de parenté immédiats et élargis",
-    "Utiliser les constructions possessives pour présenter son entourage"
+    "Nommer les membres proches de la famille",
+    "Utiliser les pronoms possessifs pour parler de sa famille",
+    "Comprendre les distinctions aîné/cadet, essentielles dans les liens de parenté"
   ],
   "phonetic_focus": {
-    "key_sounds": "La consonne /ɟ/ (notée 'j' ou 'dy') est une occlusive palatale voisée, similaire au début du mot anglais 'juice' mais articulée plus en avant sur le palais. Les voyelles nasales en fin de mot comme dans 'den' /dẽ/ ne doivent pas laisser entendre de consonne 'n' articulée avec la langue.",
-    "common_pitfalls": "Attention à ne pas confondre 'ba' (la mère) avec un ton descendant et 'bá' (le fleuve/la grandeur) avec un ton haut, ou encore 'baa' (la chèvre) dont la voyelle est distinctement allongée."
+    "key_sounds": "La distinction entre 'fa' (père) et 'fanin' (vêtement) repose sur la longueur vocalique et le contexte ; le suffixe '-ba' marque souvent l'aînesse (fabonba = oncle paternel aîné).",
+    "common_pitfalls": "Confondre 'na' (mère) et 'nan' (forme apparentée) ; ne pas distinguer les termes d'aînesse/cadette (kodo/dôônin) qui sont essentiels dans l'adresse respectueuse."
   },
   "vocabulary": [
     {
       "word_id": "v1",
-      "term": "Ba",
-      "phonetic_api": "/ba/",
-      "phonetic_simple": "BA",
-      "translation": "Mère",
-      "example_sentence": "N'ba bɛ so.",
-      "example_phonetic": "/mba bɛ so/",
-      "example_translation": "Ma mère est à la maison."
+      "term": "fa",
+      "phonetic_api": "[fa]",
+      "phonetic_simple": "fa",
+      "translation": "père",
+      "example_sentence": "N fa ye jula ti.",
+      "example_phonetic": "[n fa je dʒula ti]",
+      "example_translation": "Mon père est commerçant."
     },
     {
       "word_id": "v2",
-      "term": "Fa",
-      "phonetic_api": "/fa/",
-      "phonetic_simple": "FA",
-      "translation": "Père",
-      "example_sentence": "I fa tɔgɔ bɛ di?",
-      "example_phonetic": "/i fa tɔ.ɡɔ bɛ di/",
-      "example_translation": "Comment s'appelle ton père ?"
+      "term": "na",
+      "phonetic_api": "[na]",
+      "phonetic_simple": "na",
+      "translation": "mère",
+      "example_sentence": "N na ka bo Kérouane.",
+      "example_phonetic": "[n na ka bɔ kerwan]",
+      "example_translation": "Ma mère vient de Kérouane."
     },
     {
       "word_id": "v3",
-      "term": "Denkɛ",
-      "phonetic_api": "/den.kɛ/",
-      "phonetic_simple": "DEN-KÈ",
-      "translation": "Fils / Enfant mâle",
-      "example_sentence": "A denkɛ bɛ lakarika la.",
-      "example_phonetic": "/a den.kɛ bɛ la.ka.ri.ka la/",
-      "example_translation": "Son fils est à l'école."
+      "term": "den",
+      "phonetic_api": "[dɛn]",
+      "phonetic_simple": "den",
+      "translation": "enfant",
+      "example_sentence": "Den saba bɛ n bolo.",
+      "example_phonetic": "[dɛn saba bɛ n bolo]",
+      "example_translation": "J'ai trois enfants (litt. trois enfants sont dans ma main)."
     },
     {
       "word_id": "v4",
-      "term": "Denmuso",
-      "phonetic_api": "/den.mu.so/",
-      "phonetic_simple": "DEN-MOU-SO",
-      "translation": "Fille / Enfant femelle",
-      "example_sentence": "N'denmuso kelen le bɛ n'bolo.",
-      "example_phonetic": "/nden.mu.so ke.len le bɛ mbo.lo/",
-      "example_translation": "J'ai une seule fille."
+      "term": "kodo",
+      "phonetic_api": "[kodo]",
+      "phonetic_simple": "ko-do",
+      "translation": "frère/sœur aîné(e)",
+      "example_sentence": "N kodo bɛ Beyla.",
+      "example_phonetic": "[n kodo bɛ bɛjla]",
+      "example_translation": "Mon aîné(e) est à Beyla."
     },
     {
       "word_id": "v5",
-      "term": "Baden",
-      "phonetic_api": "/ba.den/",
-      "phonetic_simple": "BA-DEN",
-      "translation": "Frère / Sœur (litt. enfant de la mère)",
-      "example_sentence": "Karamɔgɔ nin ye n'baden le di.",
-      "example_phonetic": "/ka.ra.mɔ.ɡɔ nin jɛ nba.den le di/",
-      "example_translation": "Cet enseignant est mon frère."
+      "term": "dôônin",
+      "phonetic_api": "[doːnin]",
+      "phonetic_simple": "do-o-nin",
+      "translation": "frère/sœur cadet(te)",
+      "example_sentence": "N dôônin ye karanden ti.",
+      "example_phonetic": "[n doːnin je karanden ti]",
+      "example_translation": "Mon cadet/ma cadette est élève."
     },
     {
       "word_id": "v6",
-      "term": "Muso",
-      "phonetic_api": "/mu.so/",
-      "phonetic_simple": "MOU-SO",
-      "translation": "Femme / Épouse",
-      "example_sentence": "N'muso bɛ bara la.",
-      "example_phonetic": "/mmu.so bɛ ba.ra la/",
-      "example_translation": "Mon épouse est au travail."
+      "term": "benba",
+      "phonetic_api": "[bɛnba]",
+      "phonetic_simple": "ben-ba",
+      "translation": "grand-père",
+      "example_sentence": "N benba man kɛndɛ.",
+      "example_phonetic": "[n bɛnba man kɛndɛ]",
+      "example_translation": "Mon grand-père n'est pas en bonne santé."
     },
     {
       "word_id": "v7",
-      "term": "Cɛ",
-      "phonetic_api": "/t͡ʃɛ/",
-      "phonetic_simple": "TCHÈ",
-      "translation": "Homme / Époux",
-      "example_sentence": "A cɛ bɛ kɛnɛma.",
-      "example_phonetic": "/a t͡ʃɛ bɛ kɛ.nɛ.ma/",
-      "example_translation": "Son mari se porte bien."
+      "term": "mama",
+      "phonetic_api": "[mama]",
+      "phonetic_simple": "ma-ma",
+      "translation": "grand-mère",
+      "example_sentence": "N mama ka kɛndɛ.",
+      "example_phonetic": "[n mama ka kɛndɛ]",
+      "example_translation": "Ma grand-mère est en bonne santé."
     },
     {
       "word_id": "v8",
-      "term": "Mɔgɔbaxun",
-      "phonetic_api": "/mɔ.ɡɔ.ba.xun/",
-      "phonetic_simple": "MƆ-GƆ-BA-ROUN",
-      "translation": "Grand-parent / Ancien",
-      "example_sentence": "N'mɔgɔbaxun cɛ bɛ yen.",
-      "example_phonetic": "/mmɔ.ɡɔ.ba.xun t͡ʃɛ bɛ jẽ/",
-      "example_translation": "Mon grand-père est là."
+      "term": "denbaya",
+      "phonetic_api": "[dɛnbaja]",
+      "phonetic_simple": "den-ba-ya",
+      "translation": "famille",
+      "example_sentence": "N denbaya ka bon.",
+      "example_phonetic": "[n dɛnbaja ka bɔn]",
+      "example_translation": "Ma famille est grande."
     }
   ],
   "common_phrases": [
     {
       "phrase_id": "p1",
-      "original": "I somogo lu bɛ di?",
-      "phonetic_api": "/i so.mo.ɡo lu bɛ di/",
-      "phonetic_simple": "I SO-MO-GO LOU BÈ DI",
-      "translation": "Comment vont les gens de ta maison / ta famille ?",
-      "context": "Salutation incontournable pour s'enquérir du bien-être des proches."
+      "original": "I la mɔɔ ka kɛndɛ wa?",
+      "phonetic_api": "[i la mɔːɔ ka kɛndɛ wa]",
+      "phonetic_simple": "i-la-mo-o-ka-kèn-dè-wa",
+      "translation": "Ta famille (tes proches) va-t-elle bien ?",
+      "context": "Question de courtoisie très fréquente après la salutation initiale"
     },
     {
       "phrase_id": "p2",
-      "original": "U bɛ kɛnɛma, tana t'u la.",
-      "phonetic_api": "/u bɛ kɛ.nɛ.ma ta.na tu la/",
-      "phonetic_simple": "OU BÈ KÈ-NÈ-MA TA-NA TOU LA",
-      "translation": "Ils vont bien, aucun mal ne les touche.",
-      "context": "Réponse polie standard aux salutations sur la famille."
+      "original": "I na ka kɛndɛ wa?",
+      "phonetic_api": "[i na ka kɛndɛ wa]",
+      "phonetic_simple": "i-na-ka-kèn-dè-wa",
+      "translation": "Ta mère va-t-elle bien ?",
+      "context": "Question polie fréquente dans le continuum manding"
     },
     {
       "phrase_id": "p3",
-      "original": "Den nin ye jɔn den di?",
-      "phonetic_api": "/den nĩ jɛ d͡ʒɔn dẽ di/",
-      "phonetic_simple": "DEN NIN YÈ DJƆN DEN DI",
-      "translation": "De qui cet enfant est-il le fils/la fille ?",
-      "context": "Utilisé pour s'informer de la filiation d'un enfant de l'entourage."
+      "original": "N fa n na",
+      "phonetic_api": "[n fa n na]",
+      "phonetic_simple": "n-fa-n-na",
+      "translation": "mes parents (mon père et ma mère)",
+      "context": "Formule usuelle pour désigner ses deux parents ensemble"
     },
     {
       "phrase_id": "p4",
-      "original": "N'badenmuso le.",
-      "phonetic_api": "/nba.den.mu.so le/",
-      "phonetic_simple": "N-BA-DEN-MOU-SO LÉ",
-      "translation": "C'est ma sœur.",
-      "context": "Présentation directe d'une parente."
+      "original": "N benba ka kɛndɛ",
+      "phonetic_api": "[n bɛnba ka kɛndɛ]",
+      "phonetic_simple": "n-bèn-ba-ka-kèn-dè",
+      "translation": "Mon grand-père est en bonne santé",
+      "context": "Répondre à une question de courtoisie sur la santé d'un aîné de la famille"
     }
   ],
   "grammar_points": [
     {
-      "concept": "La possession inaliénable (relations familiales)",
-      "explanation": "En konyanka, les relations de parenté utilisent la structure possessive directe dite inaliénable. Le pronom ou le nom possesseur est placé directement devant le nom de parenté sans marqueur intermédiaire (contrairement aux objets matériels).",
+      "concept": "Le possessif antéposé",
+      "explanation": "Dans le continuum maninka/malinké, le possesseur précède le nom possédé, sans marque grammaticale supplémentaire dans la plupart des cas.",
       "rules": [
-        "Le pronom de la 1ère personne du singulier 'N' se nasalise ou s'assimile à la consonne suivante (ex: m'ba, n'fa).",
-        "Aucune particule de possession (comme 'ta') n'est intercalée pour la famille proche."
+        "Pronom possesseur + nom = relation de possession",
+        "n fa = mon père ; i na = ta mère ; a denbaya = sa famille"
       ],
       "examples": [
         {
-          "structure": "N'fa",
-          "phonetic_api": "/nfa/",
-          "meaning": "Mon père"
-        },
-        {
-          "structure": "I ba",
-          "phonetic_api": "/i ba/",
-          "meaning": "Ta mère"
-        },
-        {
-          "structure": "A denkɛ",
-          "phonetic_api": "/a den.kɛ/",
-          "meaning": "Son fils"
+          "structure": "n + fa",
+          "phonetic_api": "[n fa]",
+          "meaning": "mon père"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Moussa",
-      "text": "Fanta, i somogo lu bɛ di?",
-      "phonetic_api": "/fan.ta i so.mo.ɡo lu bɛ di/",
-      "phonetic_simple": "FAN-TA, I SO-MO-GO LOU BÈ DI",
-      "translation": "Fanta, comment va ta famille ?"
+      "speaker": "Sira",
+      "text": "I la mɔɔ ka kɛndɛ wa?",
+      "phonetic_api": "[i la mɔːɔ ka kɛndɛ wa]",
+      "phonetic_simple": "i-la-mo-o-ka-kèn-dè-wa",
+      "translation": "Ta famille va-t-elle bien ?"
     },
     {
-      "speaker": "Fanta",
-      "text": "U bɛ kɛnɛma. N'ba bɛ so, n'fa bɛ bara la.",
-      "phonetic_api": "/u bɛ kɛ.nɛ.ma mba bɛ so nfa bɛ ba.ra la/",
-      "phonetic_simple": "OU BÈ KÈ-NÈ-MA. M-BA BÈ SO, N-FA BÈ BA-RA LA",
-      "translation": "Ils vont bien. Ma mère est à la maison, mon père est au travail."
+      "speaker": "Lamine",
+      "text": "Awa, denbaya ka kɛndɛ. N fa, n na, n kodo bɛɛ ka kɛndɛ.",
+      "phonetic_api": "[awa dɛnbaja ka kɛndɛ n fa n na n kodo bɛːɛ ka kɛndɛ]",
+      "phonetic_simple": "a-wa, den-ba-ya-ka-kèn-dè",
+      "translation": "Oui, la famille va bien. Mon père, ma mère, mon aîné(e), tous vont bien."
     },
     {
-      "speaker": "Moussa",
-      "text": "I baden lu bɛ lakarika la?",
-      "phonetic_api": "/i ba.den lu bɛ la.ka.ri.ka la/",
-      "phonetic_simple": "I BA-DEN LOU BÈ LA-KA-RI-KA LA",
-      "translation": "Est-ce que tes frères et sœurs sont à l'école ?"
+      "speaker": "Sira",
+      "text": "Barika Ala ye.",
+      "phonetic_api": "[barika ala je]",
+      "phonetic_simple": "ba-ri-ka-a-la-yé",
+      "translation": "Louange à Dieu (grâce à Dieu)."
     },
     {
-      "speaker": "Fanta",
-      "text": "Hali, n'denkɛ ni n'denmuso bɛ lakarika la.",
-      "phonetic_api": "/ha.li nden.kɛ ni nden.mu.so bɛ la.ka.ri.ka la/",
-      "phonetic_simple": "HA-LI, N-DEN-KÈ NI N-DEN-MOU-SO BÈ LA-KA-RI-KA LA",
-      "translation": "Oui, mon fils et ma fille sont à l'école."
+      "speaker": "Lamine",
+      "text": "I benba ni i mama ka kɛndɛ wa?",
+      "phonetic_api": "[i bɛnba ni i mama ka kɛndɛ wa]",
+      "phonetic_simple": "i-bèn-ba-ni-i-ma-ma-ka-kèn-dè-wa",
+      "translation": "Ton grand-père et ta grand-mère vont-ils bien ?"
     }
   ],
   "cultural_notes": [
-    "Chez les Konyanka, la famille s'entend au sens large. Le terme 'Baden' (enfant de la mère) porte une forte valeur affective et désigne la solidarité, tandis que 'Faden' (enfant du père, mais de mères différentes) évoque traditionnellement la saine émulation ou la rivalité au sein des structures polygames."
+    "Dans le continuum manding dont relève le Konyanka, les questions de courtoisie portent traditionnellement sur la santé de la famille entière, et pas seulement sur celle de l'interlocuteur.",
+    "Les Koniankés forment un peuple mandingue vivant au sud-est de la Guinée, dans les préfectures de Beyla et Nzérékoré (Wikipédia — Koniankés) ; les structures familiales et les termes de parenté suivent l'organisation lignagère commune à l'ensemble des sociétés manding."
   ],
   "exercises": [
     {
-      "exercise_id": "ex1",
-      "type": "multiple_choice",
-      "question": "Comment dit-on 'Mon fils' en konyanka ?",
+      "exercise_id": "e1",
+      "type": "choix_multiple",
+      "question": "Comment dit-on 'ma mère' ?",
       "options": [
-        "N'ba",
-        "N'denkɛ",
-        "N'denmuso"
+        "n fa",
+        "n na",
+        "n kodo",
+        "n denbaya"
       ],
-      "correct_answer": "N'denkɛ",
-      "explanation": "'Den' désigne l'enfant et 'kɛ' désigne l'homme/le mâle, formant ainsi le mot fils."
+      "correct_answer": "n na",
+      "explanation": "'na' signifie 'mère' ; précédé de 'n' (mon/ma), cela donne 'n na' = ma mère."
     },
     {
-      "exercise_id": "ex2",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "I [ ___ ] tɔgɔ bɛ di? (Comment s'appelle ta mère ?)",
-      "correct_answer": "ba",
-      "hint": "Le mot court pour la mère."
+      "exercise_id": "e2",
+      "type": "traduction",
+      "question": "Traduisez : 'famille'",
+      "correct_answer": "denbaya",
+      "explanation": "'denbaya' est le terme générique pour 'famille' dans le continuum maninka/malinké."
+    },
+    {
+      "exercise_id": "e3",
+      "type": "texte_a_trous",
+      "sentence_with_blank": "N ___ ye jula ti. (Mon père est commerçant.)",
+      "correct_answer": "fa",
+      "explanation": "'fa' = père."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Malinkuia — Introduction à la langue malinké (grammaire complète, variété du Wulada, Haute-Guinée)",
+      "url": "https://fr.scribd.com/document/499114939/Malinkuia"
+    },
+    {
+      "label": "An ka taa — Maninka/Malinké greetings and phrases",
+      "url": "https://www.ankataa.com/maninka-greetings-and-phrases"
+    },
+    {
+      "label": "Wikipédia — Koniankés (peuple, préfectures de Beyla et Nzérékoré)",
+      "url": "https://fr.wikipedia.org/wiki/Koniank%C3%A9s"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Aucun lexique ou grammaire publiés et dédiés spécifiquement au Konyanka (Koyaka/Konianka, ISO mku) n'a été localisé : les sources académiques disponibles (SIL, Ethnologue, Glottolog) confirment son existence, sa localisation (Beyla, Kérouane, Nzérékoré, Damaro) et son statut de variété vigoureuse du Manding-Est, mais aucune ne fournit de corpus lexical ou phonologique propre à cette variété. Le vocabulaire de cette leçon provient donc du continuum dialectal Maninka/Malinké de Guinée dans lequel le Konyanka s'inscrit (intelligibilité mutuelle attestée), via la grammaire pratique Malinkuia (variété du Wulada, Haute-Guinée) et le site An ka taa. Les spécificités confirmées du Konyanka (nom, localisation, code ISO) sont indiquées dans les notes culturelles plutôt que dans le lexique."
 }

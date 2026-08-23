@@ -4,146 +4,199 @@
   "module_number": 1,
   "module_title": "Les bases de la communication",
   "lesson_number": 1,
-  "title": "Les salutations et les formules de politesse",
+  "title": "Les salutations et les formules de politesse (bonjour, merci, au revoir)",
   "learning_objectives": [
-    "Savoir saluer selon le moment de la journée (matin, après-midi, soir)",
-    "Exprimer la gratitude et prendre congé poliment",
-    "Maîtriser les formules d'accueil fondamentales"
+    "Comprendre pourquoi aucune formule de salutation figée (bonjour/merci/au revoir) n'est attestée dans les sources académiques disponibles pour le landuma.",
+    "Mémoriser le vocabulaire de base réellement documenté pouvant servir de point de départ à une salutation (personne, ami/hôte, nom, bon).",
+    "Situer l'usage réel des salutations chez les Landuma de Boké, où le soussou et le français jouent souvent le rôle de langues de contact."
   ],
   "phonetic_focus": {
-    "key_sounds": "La voyelle ouverte 'ɔ' se prononce comme le 'o' dans 'port'. Les consonnes doublées marquent une gémination (allongement de la consonne). L'accent tonique principal se place généralement sur la première syllabe du radical.",
-    "common_pitfalls": "Évitez de prononcer le 'e' final à la française comme un 'é' ou un 'e' muet ; en landouma, le 'e' ouvert 'ɛ' ou fermé 'e' doit être nettement articulé."
+    "key_sounds": "Le landuma comporte des voyelles i, e, ɛ, u, o, ɔ, ʌ, ə, a et des consonnes prénasalisées complexes (mb-, nc-, nt-, ns-, ŋg-) absentes du français, ainsi qu'une affriquée c proche du « tch » et une occlusive labiovélaire gb (Sumbatova & Vydrin 2021).",
+    "common_pitfalls": "Les francophones tendent à scinder en deux syllabes les groupes consonantiques prénasalisés initiaux (ex. mb-, nc-, nt-), qui forment pourtant une seule attaque consonantique en landuma ; ils confondent aussi souvent les voyelles centrales ə/a et les voyelles mi-ouvertes ɛ/ɔ, qui n'ont pas d'équivalent phonémique net en français."
   },
   "vocabulary": [
     {
-      "word_id": "v1_1",
-      "term": "mbi tana",
-      "phonetic_api": "/mbi ta.na/",
-      "phonetic_simple": "MBI TA-NA",
-      "translation": "bonjour (litt. tu es là-bas / salutation générale)",
-      "example_sentence": "mbi tana, baba",
-      "example_phonetic": "/mbi ta.na ba.ba/",
-      "example_translation": "Bonjour, père."
+      "word_id": "v1",
+      "term": "fum",
+      "phonetic_api": "/fum/",
+      "phonetic_simple": "FOUME",
+      "translation": "personne",
+      "example_sentence": "fum",
+      "example_phonetic": "/fum/",
+      "example_translation": "« personne » — mot isolé attesté dans le corpus lexical disponible ; aucune phrase complète d'exemple n'a été trouvée pour ce terme dans les sources consultées, seule la forme du mot est donc garantie."
     },
     {
-      "word_id": "v1_2",
-      "term": "kɛrɛ",
-      "phonetic_api": "/kɛ.rɛ/",
-      "phonetic_simple": "KÈ-RÈ",
-      "translation": "merci",
-      "example_sentence": "kɛrɛ, mama kɔn",
-      "example_phonetic": "/kɛ.rɛ ma.ma kɔn/",
-      "example_translation": "Merci, ma mère."
+      "word_id": "v2",
+      "term": "mbariŋ",
+      "phonetic_api": "/mbariŋ/",
+      "phonetic_simple": "m-BA-ring",
+      "translation": "ami / hôte",
+      "example_sentence": "mbariŋ",
+      "example_phonetic": "/mbariŋ/",
+      "example_translation": "« ami / hôte » — mot isolé attesté dans le corpus lexical disponible ; aucune phrase complète d'exemple n'a été trouvée pour ce terme dans les sources consultées, seule la forme du mot est donc garantie."
     },
     {
-      "word_id": "v1_3",
-      "term": "yoo",
-      "phonetic_api": "/joː/",
-      "phonetic_simple": "YOO",
-      "translation": "réponse à une salutation / d'accord",
-      "example_sentence": "yoo, mbi tana",
-      "example_phonetic": "/joː mbi ta.na/",
-      "example_translation": "Oui (bonjour), bonjour à toi."
+      "word_id": "v3",
+      "term": "tayif",
+      "phonetic_api": "/tayif/",
+      "phonetic_simple": "ta-YIF",
+      "translation": "nom",
+      "example_sentence": "tayif",
+      "example_phonetic": "/tayif/",
+      "example_translation": "« nom » — mot isolé attesté dans le corpus lexical disponible ; aucune phrase complète d'exemple n'a été trouvée pour ce terme dans les sources consultées, seule la forme du mot est donc garantie."
     },
     {
-      "word_id": "v1_4",
-      "term": "kɔndɔ",
-      "phonetic_api": "/kɔn.dɔ/",
-      "phonetic_simple": "KON-DO",
-      "translation": "au revoir / pars en paix",
-      "example_sentence": "kɔndɔ, wuto kɔn",
-      "example_phonetic": "/kɔn.dɔ wu.to kɔn/",
-      "example_translation": "Au revoir, mon enfant."
+      "word_id": "v4",
+      "term": "ta-tɔt",
+      "phonetic_api": "/ta-tɔt/",
+      "phonetic_simple": "ta-TÔT",
+      "translation": "bon",
+      "example_sentence": "ta-tɔt",
+      "example_phonetic": "/ta-tɔt/",
+      "example_translation": "« bon » — mot isolé attesté dans le corpus lexical disponible ; aucune phrase complète d'exemple n'a été trouvée pour ce terme dans les sources consultées, seule la forme du mot est donc garantie."
+    },
+    {
+      "word_id": "v5",
+      "term": "ta-kur",
+      "phonetic_api": "/ta-kur/",
+      "phonetic_simple": "ta-KOUR",
+      "translation": "vieux",
+      "example_sentence": "ta-kur",
+      "example_phonetic": "/ta-kur/",
+      "example_translation": "« vieux » — mot isolé attesté dans le corpus lexical disponible ; aucune phrase complète d'exemple n'a été trouvée pour ce terme dans les sources consultées, seule la forme du mot est donc garantie."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p1_1",
-      "original": "mbi tana kɛwun ?",
-      "phonetic_api": "/mbi ta.na kɛ.wun/",
-      "phonetic_simple": "MBI TA-NA KÈ-WOUN",
-      "translation": "Comment vas-tu ce matin ? (Tu t'es réveillé là-bas ?)",
-      "context": "Salutation matinale formelle ou amicale."
+      "phrase_id": "p1",
+      "original": "fum",
+      "phonetic_api": "/fum/",
+      "phonetic_simple": "FOUME",
+      "translation": "personne",
+      "context": "Aucune phrase complète figée n'est attestée pour ce contexte précis dans les sources disponibles ; seul ce mot isolé du corpus vérifié est proposé comme point d'ancrage, à utiliser avec prudence."
     },
     {
-      "phrase_id": "p1_2",
-      "original": "kɛrɛ tundo",
-      "phonetic_api": "/kɛ.rɛ tun.do/",
-      "phonetic_simple": "KÈ-RÈ TOUN-DO",
-      "translation": "Merci beaucoup",
-      "context": "Exprimer une profonde gratitude après un service."
+      "phrase_id": "p2",
+      "original": "mbariŋ fum",
+      "phonetic_api": "/mbariŋ fum/",
+      "phonetic_simple": "m-BA-ring FOUME",
+      "translation": "« ami / hôte » + « personne » (juxtaposition)",
+      "context": "Recombinaison prudente de deux mots déjà attestés séparément dans le corpus lexical de cette leçon (ami / hôte, personne) : cette juxtaposition n'est PAS une expression idiomatique attestée en tant que telle dans les sources, mais une association pédagogique construite uniquement à partir de vocabulaire vérifié, utile pour la mémorisation et la pratique orale."
     },
     {
-      "phrase_id": "p1_3",
-      "original": "marɛbɛ",
-      "phonetic_api": "/ma.rɛ.bɛ/",
-      "phonetic_simple": "MA-RÈ-BÈ",
-      "translation": "Bienvenue",
-      "context": "Accueillir un étranger ou un invité à la maison."
+      "phrase_id": "p3",
+      "original": "tayif fum",
+      "phonetic_api": "/tayif fum/",
+      "phonetic_simple": "ta-YIF FOUME",
+      "translation": "« nom » + « personne » (juxtaposition)",
+      "context": "Recombinaison prudente de deux mots déjà attestés séparément dans le corpus lexical de cette leçon (nom, personne) : cette juxtaposition n'est PAS une expression idiomatique attestée en tant que telle dans les sources, mais une association pédagogique construite uniquement à partir de vocabulaire vérifié, utile pour la mémorisation et la pratique orale."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "ta-tɔt fum",
+      "phonetic_api": "/ta-tɔt fum/",
+      "phonetic_simple": "ta-TÔT FOUME",
+      "translation": "« bon » + « personne » (juxtaposition)",
+      "context": "Recombinaison prudente de deux mots déjà attestés séparément dans le corpus lexical de cette leçon (bon, personne) : cette juxtaposition n'est PAS une expression idiomatique attestée en tant que telle dans les sources, mais une association pédagogique construite uniquement à partir de vocabulaire vérifié, utile pour la mémorisation et la pratique orale."
     }
   ],
   "grammar_points": [
     {
-      "concept": "La structure de la salutation comme état de présence",
-      "explanation": "En landouma, saluer quelqu'un consiste à acter sa présence physique ou son réveil dans un lieu. On utilise le pronom sujet suivi du locatif de distance 'tana' (là-bas) ou de proximité 'lɔndɔ' (ici).",
+      "concept": "Accord alitératif radical (classes nominales)",
+      "explanation": "Le landuma, comme d'autres langues Mel du Nord, marque l'accord grammatical par un préfixe dont la consonne initiale reprend celle du nom qu'il qualifie ou remplace : c'est un accord dit « alitératif radical », distinct de l'accord par classes nominales à préfixes fixes qu'on trouve dans d'autres langues Niger-Congo. On observe dans le corpus attesté des préfixes tels que a-, da-, ta-, kʊ-, ke-, o-, ma- selon la classe et l'initiale du radical.",
       "rules": [
-        "Le pronom 'mbi' (tu) s'associe au locatif pour former la salutation de base.",
-        "Pour saluer plusieurs personnes, le pronom change pour la forme plurielle 'nu' (vous)."
+        "Les noms attestés portent presque tous un préfixe de classe : da-wump (tête), ta-fera (blanc), kʊ-suŋ (bouche), o-runi (homme), ma-rʊŋ (deux).",
+        "Le préfixe d'accord d'un qualificatif ou d'un déterminant tend à reprendre la consonne initiale du nom contrôleur plutôt qu'une classe grammaticale fixe et arbitraire.",
+        "Cette règle est documentée pour les noms inanimés dans les travaux académiques, mais son fonctionnement précis pour chaque catégorie de mots n'est pas intégralement publié en accès libre : la prudence s'impose pour toute généralisation."
       ],
       "examples": [
         {
-          "structure": "Pronom + Locatif",
-          "phonetic_api": "/nu ta.na/",
-          "meaning": "Bonjour à vous tous (vous êtes là-bas)."
+          "structure": "da-wump / da-fɔr",
+          "phonetic_api": "/da-wump/, /da-fɔr/",
+          "meaning": "tête / œil (même préfixe da- : classe nominale partagée)"
+        },
+        {
+          "structure": "ta-fera / ta-bi / ta-tɔt",
+          "phonetic_api": "/ta-fera/, /ta-bi/, /ta-tɔt/",
+          "meaning": "blanc / noir / bon (préfixe ta- pour ces qualificatifs attestés)"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Sékou",
-      "text": "mbi tana kɛwun, Amadou ?",
-      "phonetic_api": "/mbi ta.na kɛ.wun a.ma.du/",
-      "phonetic_simple": "MBI TA-NA KÈ-WOUN A-MA-DOU",
-      "translation": "Comment vas-tu ce matin, Amadou ?"
+      "speaker": "Locuteur A",
+      "text": "fum",
+      "phonetic_api": "/fum/",
+      "phonetic_simple": "FOUME",
+      "translation": "(mot isolé : « personne ») — aucun dialogue naturel complet n'est attesté dans les sources disponibles pour ce thème ; cet échange reste donc une simple juxtaposition prudente du vocabulaire vérifié, non une phrase authentique de conversation."
     },
     {
-      "speaker": "Amadou",
-      "text": "yoo, kɛrɛ tundo, mbi tana kɛwun ?",
-      "phonetic_api": "/joː kɛ.rɛ tun.do mbi ta.na kɛ.wun/",
-      "phonetic_simple": "YOO KÈ-RÈ TOUN-DO MBI TA-NA KÈ-WOUN",
-      "translation": "Bien, merci beaucoup, et toi comment vas-tu ce matin ?"
+      "speaker": "Locuteur B",
+      "text": "mbariŋ",
+      "phonetic_api": "/mbariŋ/",
+      "phonetic_simple": "m-BA-ring",
+      "translation": "(mot isolé : « ami / hôte ») — aucun dialogue naturel complet n'est attesté dans les sources disponibles pour ce thème ; cet échange reste donc une simple juxtaposition prudente du vocabulaire vérifié, non une phrase authentique de conversation."
     },
     {
-      "speaker": "Sékou",
-      "text": "kɛrɛ mɔ lɔndɔ, kɔndɔ",
-      "phonetic_api": "/kɛ.rɛ mɔ lɔn.dɔ kɔn.dɔ/",
-      "phonetic_simple": "KÈ-RÈ MO LON-DO KON-DO",
-      "translation": "La grâce est ici (tout va bien), au revoir."
+      "speaker": "Locuteur A",
+      "text": "tayif",
+      "phonetic_api": "/tayif/",
+      "phonetic_simple": "ta-YIF",
+      "translation": "(mot isolé : « nom ») — aucun dialogue naturel complet n'est attesté dans les sources disponibles pour ce thème ; cet échange reste donc une simple juxtaposition prudente du vocabulaire vérifié, non une phrase authentique de conversation."
+    },
+    {
+      "speaker": "Locuteur B",
+      "text": "ta-tɔt",
+      "phonetic_api": "/ta-tɔt/",
+      "phonetic_simple": "ta-TÔT",
+      "translation": "(mot isolé : « bon ») — aucun dialogue naturel complet n'est attesté dans les sources disponibles pour ce thème ; cet échange reste donc une simple juxtaposition prudente du vocabulaire vérifié, non une phrase authentique de conversation."
     }
   ],
   "cultural_notes": [
-    "Chez les Landouma, la salutation est un rituel social incontournable. Ne pas saluer une personne croisée sur son chemin est perçu comme un grave manque de respect ou une marque d'hostilité."
+    "Les Landuma vivent principalement dans la préfecture de Boké, dans le nord-ouest de la Guinée, sur la rive gauche du fleuve Rio Nunez, en petits villages de 50 à 400 habitants ([Joshua Project](https://joshuaproject.net/people_groups/12979/gv)).",
+    "La majorité des Landuma pratique l'islam sunnite ; une minorité est catholique. Des pratiques animistes (culte des ancêtres, protections rituelles, sorcellerie) subsistent largement en parallèle ([Joshua Project](https://joshuaproject.net/people_groups/12979/gv)).",
+    "Glottolog classe le landuma comme langue « vulnérable » et Ethnologue ne lui consacre pas de fiche dédiée dans ses listes en ligne les plus visibles : c'est une langue très peu documentée, sans matériel pédagogique publié à large diffusion ([Glottolog](https://glottolog.org/resource/languoid/id/land1256))."
   ],
   "exercises": [
     {
-      "exercise_id": "ex1_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quelle expression utilise-t-on pour dire 'Merci beaucoup' ?",
+      "question": "Comment dit-on « personne » en landuma ?",
       "options": [
-        "mbi tana",
-        "kɛrɛ tundo",
-        "kɔndɔ"
+        "mbariŋ",
+        "ta-tɔt",
+        "fum"
       ],
-      "correct_answer": "kɛrɛ tundo",
-      "explanation": "'kɛrɛ' signifie merci et 'tundo' exprime l'intensité ou la grandeur."
+      "correct_answer": "fum",
+      "explanation": "« fum » est la forme attestée pour « personne » d'après le corpus lexical collecté (confiance : moyenne)."
     },
     {
-      "exercise_id": "ex1_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "mbi [ ___ ] kɛwun ?",
-      "correct_answer": "tana",
-      "hint": "Le locatif indiquant 'là-bas' utilisé dans les salutations du matin."
+      "sentence_with_blank": "[ ___ ] = « ami / hôte »",
+      "correct_answer": "mbariŋ",
+      "hint": "Ce mot appartient au vocabulaire de base attesté par les sources académiques (confiance : moyenne)."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Wiktionary — Word lists of Atlantic languages of Guinea (d'après Fields 2001)",
+      "url": "https://en.wiktionary.org/wiki/Appendix:Word_lists_of_Atlantic_languages_of_Guinea"
+    },
+    {
+      "label": "Sumbatova & Vydrin (2021), Journal of Language Relationship 19-1/2, p.136-151",
+      "url": "https://www.jolr.ru/files/(303)jlr2021-19-1-2(136-151).pdf"
+    },
+    {
+      "label": "Joshua Project — Landoma in Guinea",
+      "url": "https://joshuaproject.net/people_groups/12979/gv"
+    },
+    {
+      "label": "Glottolog — Landoma [land1256]",
+      "url": "https://glottolog.org/resource/languoid/id/land1256"
+    }
+  ],
+  "confidence": "faible",
+  "confidence_note": "Le vocabulaire cible de cette leçon provient exclusivement du corpus lexical attesté (ASJP/Wilson 2007/Rogers & Bryant 2012, Wiktionary/Fields 2001, Sumbatova & Vydrin 2021) ; confiance des mots utilisés : moyenne. Aucune phrase complète, formule figée ou règle grammaticale spécifique à ce sujet précis n'a été trouvée dans les sources disponibles : le contenu reste donc au niveau du vocabulaire isolé et la confiance globale du fichier est abaissée à 'faible' par prudence, conformément à l'exigence de ne jamais présenter une extrapolation comme une donnée sûre. Pour respecter la borne minimale de 5 mots de vocabulaire par leçon, 1 mot(s) supplémentaire(s) du même corpus attesté (déjà utilisés ailleurs dans le lexique landuma collecté, mais absents de cette leçon initialement) ont été ajoutés : confiance de ces ajouts : moyenne. Les phrases de la section 'common_phrases' au-delà de la première ont été obtenues par recombinaison de mots individuellement attestés du vocabulaire de cette leçon (juxtapositions pédagogiques), et non par une source directe attestant la phrase entière : elles sont signalées comme telles dans leur champ 'context'."
 }

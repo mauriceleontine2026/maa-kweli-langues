@@ -6,226 +6,187 @@
   "lesson_number": 6,
   "title": "Les jours de la semaine, les mois et dire l'heure",
   "learning_objectives": [
-    "Nommer les jours clés de la semaine influencés par le calendrier régional",
-    "S'orienter dans les divisions temporelles majeures de la journée (matin, midi, soir)",
-    "Exprimer un rendez-vous ou situer un événement dans le temps proche"
+    "Utiliser les repères temporels attestés : aujourd'hui, hier, demain, maintenant",
+    "Nommer les unités de temps attestées : matin, midi, semaine, mois, année",
+    "Reconnaître le seul jour de la semaine attesté : dimanche (dim˜asi, probable emprunt)"
   ],
   "phonetic_focus": {
-    "key_sounds": "La consonne /r/ en Badiaranké est généralement battue ou roulée légèrement /r/. Les voyelles ouvertes antérieures /ɛ/ et postérieures /ɔ/ doivent conserver leur timbre précis sans diphtongaison pour éviter toute confusion temporelle.",
-    "common_pitfalls": "Prononcer le /r/ de manière totalement uvulaire à la française (au fond de la gorge). Il doit être réalisé par un léger contact de la pointe de la langue sur les alvéoles supérieures."
+    "key_sounds": "« dim˜asi » (dimanche) est un emprunt phonétiquement proche du français/mandinka \"dimanche\"/\"dimas\", avec une voyelle nasale médiane /ã/.",
+    "common_pitfalls": "Prononcer « dim˜asi » sans nasaliser la deuxième syllabe."
   },
   "vocabulary": [
     {
-      "word_id": "v6_1",
-      "term": "Bari",
-      "phonetic_api": "/ɓari/",
-      "phonetic_simple": "BHA-RI",
-      "translation": "Jour / Soleil",
-      "example_sentence": "Bari o sae.",
-      "example_phonetic": "/ɓari o sae/",
-      "example_translation": "Le jour est beau."
+      "word_id": "v1",
+      "term": "dim˜asi",
+      "phonetic_api": "/dim̃asi/",
+      "phonetic_simple": "di-man-si",
+      "translation": "dimanche"
     },
     {
-      "word_id": "v6_2",
-      "term": "Manka",
-      "phonetic_api": "/manka/",
-      "phonetic_simple": "MAN-KA",
-      "translation": "Demain",
-      "example_sentence": "N fari manka.",
-      "example_phonetic": "/n fari manka/",
-      "example_translation": "Je travaillerai demain."
+      "word_id": "v2",
+      "term": "lo:k˜u",
+      "phonetic_api": "/lo:k̃u/",
+      "phonetic_simple": "lo-koun",
+      "translation": "semaine"
     },
     {
-      "word_id": "v6_3",
-      "term": "Sene",
-      "phonetic_api": "/sene/",
-      "phonetic_simple": "SE-NE",
-      "translation": "Aujourd'hui",
-      "example_sentence": "Sene o fari seŋeni.",
-      "example_phonetic": "/sene o fari seŋeni/",
-      "example_translation": "Aujourd'hui il y a du travail."
+      "word_id": "v3",
+      "term": "fa:",
+      "phonetic_api": "/fa:/",
+      "phonetic_simple": "fa-",
+      "translation": "mois"
     },
     {
-      "word_id": "v6_4",
-      "term": "Aluma",
-      "phonetic_api": "/aluma/",
-      "phonetic_simple": "A-LOU-MA",
-      "translation": "Vendredi (jour de prière et de marché traditionnel)",
-      "example_sentence": "Aluma n sae e maari.",
-      "example_phonetic": "/aluma n sae e maːri/",
-      "example_translation": "Le vendredi, je reste à la maison."
+      "word_id": "v4",
+      "term": "pattio",
+      "phonetic_api": "/pattio/",
+      "phonetic_simple": "pat-ti-o",
+      "translation": "année"
     },
     {
-      "word_id": "v6_5",
-      "term": "Subaka",
-      "phonetic_api": "/suɓaka/",
-      "phonetic_simple": "SOU-BHA-KA",
-      "translation": "Matin",
-      "example_sentence": "Subaka sae !",
-      "example_phonetic": "/suɓaka sae/",
-      "example_translation": "Bon matin !"
+      "word_id": "v5",
+      "term": "katSudu",
+      "phonetic_api": "/katʃudu/",
+      "phonetic_simple": "ka-tchou-dou",
+      "translation": "matin"
     },
     {
-      "word_id": "v6_6",
-      "term": "Wula",
-      "phonetic_api": "/wula/",
-      "phonetic_simple": "WOU-LA",
-      "translation": "Après-midi / Soir",
-      "example_sentence": "Wula o sae.",
-      "example_phonetic": "/wula o sae/",
-      "example_translation": "L'après-midi est agréable."
+      "word_id": "v6",
+      "term": "midi",
+      "phonetic_api": "/midi/",
+      "phonetic_simple": "mi-di",
+      "translation": "midi"
     },
     {
-      "word_id": "v6_7",
-      "term": "Kalo",
-      "phonetic_api": "/kalo/",
-      "phonetic_simple": "KA-LO",
-      "translation": "Mois / Lune",
-      "example_sentence": "Kalo mmanza o mase.",
-      "example_phonetic": "/kalo mːanza o mase/",
-      "example_translation": "Un mois est passé."
+      "word_id": "v7",
+      "term": "to:",
+      "phonetic_api": "/to:/",
+      "phonetic_simple": "to-",
+      "translation": "aujourd'hui"
+    },
+    {
+      "word_id": "v8",
+      "term": "k˜upia",
+      "phonetic_api": "/k̃upia/",
+      "phonetic_simple": "koun-pi-a",
+      "translation": "demain"
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p6_1",
-      "original": "Sene o bari maami ?",
-      "phonetic_api": "/sene o ɓari maːmi/",
-      "phonetic_simple": "SE-NE O BHA-RI MAA-MI",
-      "translation": "Quel jour sommes-nous aujourd'hui ?",
-      "context": "S'informer du repère temporel hebdomadaire au réveil."
+      "phrase_id": "p1",
+      "original": "wo: lo:k˜u",
+      "phonetic_api": "/wo: lo:k̃u/",
+      "phonetic_simple": "wo lo-koun",
+      "translation": "chaque semaine",
+      "context": "Construction attestée par Cover (2010) : « wo: » (chaque/tout) + nom."
     },
     {
-      "phrase_id": "p6_2",
-      "original": "N fari e subaka.",
-      "phonetic_api": "/n fari e suɓaka/",
-      "phonetic_simple": "N FA-RI E SOU-BHA-KA",
-      "translation": "Je travaille le matin.",
-      "context": "Préciser son emploi du temps quotidien."
+      "phrase_id": "p2",
+      "original": "fa: o:",
+      "phonetic_api": "/fa: o:/",
+      "phonetic_simple": "fa o-",
+      "translation": "chaque mois",
+      "context": "Même construction attestée pour « mois »."
     },
     {
-      "phrase_id": "p6_3",
-      "original": "Manka o aluma.",
-      "phonetic_api": "/manka o aluma/",
-      "phonetic_simple": "MAN-KA O A-LOU-MA",
-      "translation": "Demain c'est vendredi.",
-      "context": "Anticiper un jour important de la vie sociale ou cultuelle."
+      "phrase_id": "p3",
+      "original": "pi:sido:",
+      "phonetic_api": "/pi:sido:/",
+      "phonetic_simple": "pi-si-do-",
+      "translation": "chaque jour",
+      "context": "Forme figée attestée par Cover (2010)."
     },
     {
-      "phrase_id": "p6_4",
-      "original": "Yo sae e wula !",
-      "phonetic_api": "/jo sae e wula/",
-      "phonetic_simple": "YO SA-E E WOU-LA",
-      "translation": "Bon après-midi à toi !",
-      "context": "Formule de salutation de courtoisie à la mi-journée."
-    },
-    {
-      "phrase_id": "p6_5",
-      "original": "A seŋeni e kalo mmanza.",
-      "phonetic_api": "/a seŋeni e kalo mːanza/",
-      "phonetic_simple": "A SE-NGE-NI E KA-LO MMAN-ZA",
-      "translation": "Cela prendra un mois.",
-      "context": "Estimer la durée d'une tâche ou d'un voyage."
-    },
-    {
-      "phrase_id": "p6_6",
-      "original": "Bari o mase sae.",
-      "phonetic_api": "/ɓari o mase sae/",
-      "phonetic_simple": "BHA-RI O MA-SE SA-E",
-      "translation": "La journée s'est bien passée.",
-      "context": "Constater le bon déroulement du temps en fin de soirée."
-    },
-    {
-      "phrase_id": "p6_7",
-      "original": "N seŋeni e wula.",
-      "phonetic_api": "/n seŋeni e wula/",
-      "phonetic_simple": "N SE-NGE-NI E WOU-LA",
-      "translation": "Je serai là l'après-midi.",
-      "context": "Donner un rendez-vous approximatif sans montre."
-    },
-    {
-      "phrase_id": "p6_8",
-      "original": "Subaka sae, i maami ?",
-      "phonetic_api": "/suɓaka sae i maːmi/",
-      "phonetic_simple": "SOU-BHA-KA SA-E I MAA-MI",
-      "translation": "Bon matin, comment vas-tu ?",
-      "context": "Salutation matinale typique récurrente."
+      "phrase_id": "p4",
+      "original": "pa:r@ pe:s",
+      "phonetic_api": "/pa:rə pe:s/",
+      "phonetic_simple": "pa-reu pé-s",
+      "translation": "il y a deux ans",
+      "context": "Expression temporelle attestée par Cover (2010)."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'expression des adverbes de temps et positionnement syntaxique",
-      "explanation": "Les repères temporels autonomes comme 'sene' (aujourd'hui) ou 'manka' (demain) se placent en tête de phrase pour focaliser l'énoncé sur le moment de l'action. Ils structurent le verbe sans nécessiter de morphème de temps complexe au niveau débutant.",
+      "concept": "« wo: » (chaque/tout) + nom de période",
+      "explanation": "Cover (2010) atteste que « wo: » précède un nom de période temporelle pour exprimer la répétition (« chaque... »). Seules les combinaisons avec « semaine » et « mois » sont attestées ; on ne peut pas confirmer si ce schéma s'applique à « jour » (qui a sa propre forme figée « pi:sido: »).",
       "rules": [
-        "L'adverbe temporel ouvre généralement la proposition nominale.",
-        "Pour associer un moment de la journée à une action, on emploie la préposition locative/temporelle 'e' devant le substantif."
+        "wo: + [nom de période] = chaque [période]",
+        "« pi:sido: » (chaque jour) est une forme figée distincte, non construite avec « wo: »"
       ],
       "examples": [
         {
-          "structure": "sene o fari",
-          "phonetic_api": "/sene o fari/",
-          "meaning": "Aujourd'hui il travaille"
-        },
-        {
-          "structure": "e subaka",
-          "phonetic_api": "/e suɓaka/",
-          "meaning": "Dans le matin / Le matin"
+          "structure": "wo: lo:k˜u",
+          "phonetic_api": "/wo: lo:k̃u/",
+          "meaning": "chaque semaine"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Saliou",
-      "text": "Sene o bari maami, Samba ?",
-      "phonetic_api": "/sene o ɓari maːmi samɓa/",
-      "phonetic_simple": "SE-NE O BHA-RI MAA-MI SAM-BHA",
-      "translation": "Quel jour sommes-nous aujourd'hui, Samba ?"
+      "speaker": "Aamadu",
+      "text": "to:. k˜upia.",
+      "phonetic_api": "/to:/ /k̃upia/",
+      "phonetic_simple": "to-. koun-pi-a.",
+      "translation": "Aujourd'hui. Demain."
     },
     {
-      "speaker": "Samba",
-      "text": "Sene o aluma, nkaet. I fari e subaka ?",
-      "phonetic_api": "/sene o aluma nkaːɛt i fari e suɓaka/",
-      "phonetic_simple": "SE-NE O A-LOU-MA NKAE-TT. I FA-RI E SOU-BHA-KA",
-      "translation": "Aujourd'hui c'est vendredi, frère. Tu travailles ce matin ?"
+      "speaker": "Binta",
+      "text": "dim˜asi.",
+      "phonetic_api": "/dim̃asi/",
+      "phonetic_simple": "di-man-si",
+      "translation": "Dimanche."
     },
     {
-      "speaker": "Saliou",
-      "text": "Aé, n fari e wula. Subaka n sae e maari.",
-      "phonetic_api": "/aeː n fari e wula suɓaka n sae e maːri/",
-      "phonetic_simple": "AEE, N FA-RI E WOU-LA. SOU-BHA-KA N SA-E E MAA-RI",
-      "translation": "Non, je travaille l'après-midi. Le matin, je reste à la maison."
+      "speaker": "Professeur",
+      "text": "lo:k˜u.",
+      "phonetic_api": "/lo:k̃u/",
+      "phonetic_simple": "lo-koun",
+      "translation": "Semaine. (mot attesté isolé, recombiné pédagogiquement dans ce dialogue)"
     },
     {
-      "speaker": "Samba",
-      "text": "Iyo, manka o sae. Yo sae e wula !",
-      "phonetic_api": "/ijo manka o sae jo sae e wula/",
-      "phonetic_simple": "I-YO, MAN-KA O SA-E. YO SA-E E WOU-LA",
-      "translation": "D'accord, demain sera beau. Bon après-midi !"
+      "speaker": "Élève",
+      "text": "fa:.",
+      "phonetic_api": "/fa:/",
+      "phonetic_simple": "fa-",
+      "translation": "Mois. (mot attesté isolé, recombiné pédagogiquement dans ce dialogue)"
     }
   ],
   "cultural_notes": [
-    "Traditionnellement, le calcul du temps chez les Badiaranké se cale sur la course du soleil ('bari') et les phases de la lune ('kalo'). Les jours de la semaine ont adopté une terminologie calquée sur l'environnement régional et l'islamisation (comme 'aluma' pour le vendredi). Dire l'heure exacte à la minute près se fait par l'emprunt au français ou au soussou, tandis que la langue d'origine privilégie les grands moments naturels de la journée."
+    "Aucune source ne documente de nom badiaranké pour les six autres jours de la semaine ; seul « dimanche » apparaît, dans un exemple grammatical de Cover (2010), probablement en lien avec les rythmes religieux/commerciaux de la région (jour de marché ou de repos)."
   ],
   "exercises": [
     {
-      "exercise_id": "ex6_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Que signifie le mot 'manka' en langue Badiaranké ?",
+      "question": "Quel est le seul jour de la semaine attesté dans nos sources ?",
       "options": [
-        "Aujourd'hui",
-        "Demain",
-        "Hier"
+        "dimanche (dim˜asi)",
+        "lundi",
+        "vendredi"
       ],
-      "correct_answer": "Demain",
-      "explanation": "'Manka' est le terme précis pour demain. Aujourd'hui se dit 'sene'."
+      "correct_answer": "dimanche (dim˜asi)",
+      "explanation": "C'est le seul jour cité dans les exemples de Cover (2010)."
     },
     {
-      "exercise_id": "ex6_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "N fari e [ ___ ] . (Je travaille le matin.)",
-      "correct_answer": "subaka",
-      "hint": "Terme désignant le début de la journée, le matin."
+      "sentence_with_blank": "[ ___ ] lo:k˜u = « chaque semaine »",
+      "correct_answer": "wo:",
+      "hint": "Signifie « chaque / tout »."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Cover, R. (2010) — Aspect, Modality, and Tense in Badiaranke, UC Berkeley (PhD dissertation)",
+      "url": "https://escholarship.org/uc/item/6f91m5dg"
+    },
+    {
+      "label": "Cover, R. (2010) — texte intégral PDF (eScholarship, UC Berkeley)",
+      "url": "https://escholarship.org/content/qt6f91m5dg/qt6f91m5dg.pdf"
+    }
+  ],
+  "confidence": "faible",
+  "confidence_note": "Le vocabulaire du temps (aujourd'hui, hier, demain, matin, midi, semaine, mois, année) est bien attesté chez Cover (2010), mais seul un jour de la semaine (dimanche) a été trouvé ; les six autres jours ne sont documentés dans aucune des sources consultées, et aucune expression pour « dire l'heure » précise (ex. « il est 3h ») n'a été trouvée."
 }

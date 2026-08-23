@@ -1,212 +1,187 @@
 {
   "lesson_id": "B1_M2_L5",
-  "level": "Intermédiaire (B1-B2)",
+  "level": "Niveau Intermédiaire (B1-B2)",
   "module_number": 2,
   "module_title": "Le temps et le récit",
   "lesson_number": 5,
   "title": "Parler de ses projets futurs et de ses ambitions",
   "learning_objectives": [
-    "Exprimer une action future à l'aide de la marque d'intentionnalité",
-    "Formuler ses souhaits d'évolution professionnelle et ses ambitions personnelles",
-    "Situer un projet dans l'avenir avec les adverbes de temps appropriés (plus tard, l'année prochaine)"
+    "Utiliser yé...-la pour exprimer une intention future",
+    "Poser une question sur le moment d'une action future"
   ],
   "phonetic_focus": {
-    "key_sounds": "La structure du futur repose souvent sur le verbe auxiliaire 'na' [na] (venir pour faire) ou la particule d'intention 'bɛ ... mĩ'. Le mot pour l'année prochaine, 'Si-di', exige un 'i' final net et bref. Veillez à ce que la semi-voyelle dans 'Wala' [wa.la] ne glisse pas vers un son 'v'.",
-    "common_pitfalls": "Attention à ne pas confondre le marqueur de futur proche 'na' avec la postposition locative 'na' (sur). Le marqueur de futur se place directement devant le verbe d'action principal."
+    "key_sounds": "Distinguer le ton haut de yé du ton bas d'autres particules proches.",
+    "common_pitfalls": "Confondre le futur proche yé...-la avec le perfectif ré/rɛ́ : structures et sens temporels différents."
   },
   "vocabulary": [
     {
       "word_id": "v1",
-      "term": "Na",
-      "phonetic_api": "/na/",
-      "phonetic_simple": "NA",
-      "translation": "Aller (marqueur de futur) / Venir faire",
-      "example_sentence": "N na wala-kɛ kunu.",
-      "example_phonetic": "/ɲ na wa.la kɛ ku.nu/",
-      "example_translation": "Je vais travailler demain (Je travaillerai demain)."
+      "term": "bé...-la",
+      "phonetic_api": "/bé/",
+      "phonetic_simple": "BÉ",
+      "translation": "auxiliaire imperfectif/futur proche",
+      "example_sentence": "Í yé nà-la sɔ́ɔjɔn?",
+      "example_phonetic": "/í yé nàla sɔ́ɔjɔn/",
+      "example_translation": "Quand viens-tu ?"
     },
     {
       "word_id": "v2",
-      "term": "Si-di",
-      "phonetic_api": "/si di/",
-      "phonetic_simple": "SI-DI",
-      "translation": "L'année prochaine / Année à venir",
-      "example_sentence": "N na taga sooba kɔ si-di.",
-      "example_phonetic": "/ɲ na ta.ɡa soː.ba kɔ si di/",
-      "example_translation": "J'irai en ville l'année prochaine."
+      "term": "sɔ́ɔjɔn",
+      "phonetic_api": "/sɔ́ɔjɔn/",
+      "phonetic_simple": "SO-O-DJON",
+      "translation": "quand ?",
+      "example_sentence": "sɔ́ɔjɔn",
+      "example_phonetic": "/sɔ́ɔjɔn/",
+      "example_translation": "quand ?"
     },
     {
       "word_id": "v3",
-      "term": "Ambisi",
-      "phonetic_api": "/am.bi.si/",
-      "phonetic_simple": "AM-BI-SI",
-      "translation": "Projet / Ambition / Rêve (emprunt)",
-      "example_sentence": "N ambisi mu karamɔɔ di.",
-      "example_phonetic": "/ɲ am.bi.si mu ka.ra.mɔː di/",
-      "example_translation": "Mon ambition est d'être enseignant."
+      "term": "táa",
+      "phonetic_api": "/táa/",
+      "phonetic_simple": "TA-A",
+      "translation": "aller",
+      "example_sentence": "táa",
+      "example_phonetic": "/táa/",
+      "example_translation": "aller"
     },
     {
       "word_id": "v4",
-      "term": "Kunu-wɔ̃",
-      "phonetic_api": "/ku.nu wɔ̃/",
-      "phonetic_simple": "KOU-NOU-WƆN",
-      "translation": "Plus tard / Dans le futur / Après demain",
-      "example_sentence": "A na sooba sã mĩ kunu-wɔ̃.",
-      "example_phonetic": "/a na soː.ba sã mĩ ku.nu wɔ̃/",
-      "example_translation": "Il achètera une concession plus tard."
+      "term": "nà",
+      "phonetic_api": "/nà/",
+      "phonetic_simple": "NA",
+      "translation": "venir",
+      "example_sentence": "nà",
+      "example_phonetic": "/nà/",
+      "example_translation": "venir"
     },
     {
       "word_id": "v5",
-      "term": "Fisa-kɛ",
-      "phonetic_api": "/fi.sa kɛ/",
-      "phonetic_simple": "FI-SA-KÈ",
-      "translation": "Améliorer / Développer / Rendre meilleur",
-      "example_sentence": "N na n gbe fisa-kɛ kɔ.",
-      "example_phonetic": "/ɲ na ɲ ɡ͡be fi.sa kɛ kɔ/",
-      "example_translation": "Je vais améliorer ma langue."
+      "term": "sìnan",
+      "phonetic_api": "/sìnan/",
+      "phonetic_simple": "SI-NAN",
+      "translation": "demain",
+      "example_sentence": "sìnan",
+      "example_phonetic": "/sìnan/",
+      "example_translation": "demain"
     }
   ],
   "common_phrases": [
     {
       "phrase_id": "p1",
-      "original": "I na mɔ fɔ kɛ kunu?",
-      "phonetic_api": "/i na mɔ fɔ kɛ ku.nu/",
-      "phonetic_simple": "I NA MƆ FƆ KÈ KOU-NOU?",
-      "translation": "Que vas-tu faire demain ?",
-      "context": "S'enquérir des projets immédiats de son interlocuteur."
+      "original": "Í yé nà-la sɔ́ɔjɔn?",
+      "phonetic_api": "/í yé nàla sɔ́ɔjɔn/",
+      "phonetic_simple": "I YÉ NA-LA SO-O-DJON",
+      "translation": "Quand viens-tu ?",
+      "context": "question sur un projet futur, attesté"
     },
     {
       "phrase_id": "p2",
-      "original": "N na taga Kisiduu kunu talo kɔ.",
-      "phonetic_api": "/ɲ na ta.ɡa ki.si.duː ku.nu ta.lo kɔ/",
-      "phonetic_simple": "N NA TA-GA KI-SI-DOUU KOU-NOU TA-LO KƆ.",
-      "translation": "J'irai à Kissidougou demain.",
-      "context": "Annoncer un déplacement planifié à court terme."
+      "original": "Ń yé táa-la sìnan.",
+      "phonetic_api": "/ń yé táala sìnan/",
+      "phonetic_simple": "N YÉ TA-A-LA SI-NAN",
+      "translation": "J'irai demain.",
+      "context": "exprimer une intention, dérivé par analogie"
     },
     {
       "phrase_id": "p3",
-      "original": "I ambisi mu mɔ di si-di?",
-      "phonetic_api": "/i am.bi.si mu mɔ di si di/",
-      "phonetic_simple": "I AM-BI-SI MOU MƆ DI SI-DI?",
-      "translation": "Quel est ton projet pour l'année prochaine ?",
-      "context": "Questionner un jeune de la concession sur ses perspectives."
+      "original": "Í yé nà-la sɔ́ɔjɔn?",
+      "phonetic_api": "/í yé nàla sɔ́ɔjɔn/",
+      "phonetic_simple": "BÉ",
+      "translation": "Quand viens-tu ?",
+      "context": "Phrase d'exemple attestée illustrant l'usage de « bé...-la » (auxiliaire imperfectif/futur proche)."
     },
     {
       "phrase_id": "p4",
-      "original": "N na soo sã mĩ sooba kɔni kunu-wɔ̃.",
-      "phonetic_api": "/ɲ na soː sã mĩ soː.ba kɔ.ni ku.nu wɔ̃/",
-      "phonetic_simple": "N NA SOO SÂN MÎN SOO-BA KƆ-NI KOU-NOU-WƆN.",
-      "translation": "Je construirai/achèterai une maison en ville plus tard.",
-      "context": "Partager un objectif de vie majeur à long terme."
-    },
-    {
-      "phrase_id": "p5",
-      "original": "Ndeng na taga karan sooba kɔ.",
-      "phonetic_api": "/ɲdeŋ na ta.ɡa ka.ran soː.ba kɔ/",
-      "phonetic_simple": "N-DENG NA TA-GA KA-RAN SOO-BA KƆ.",
-      "translation": "Mon enfant ira étudier dans la grande ville.",
-      "context": "Évoquer les projets d'études de sa progéniture."
-    },
-    {
-      "phrase_id": "p6",
-      "original": "Si-di, n na wala fisa-kɛ di.",
-      "phonetic_api": "/si di ɲ na wa.la fi.sa kɛ di/",
-      "phonetic_simple": "SI-DI, N NA WA-LA FI-SA-KÈ DI.",
-      "translation": "L'année prochaine, je vais faire progresser mon activité.",
-      "context": "Exprimer une résolution professionnelle ferme."
-    },
-    {
-      "phrase_id": "p7",
-      "original": "A na di ya loki fɛlɛ kɔ.",
-      "phonetic_api": "/a na di ja lo.ki fɛ.lɛ kɔ/",
-      "phonetic_simple": "A NA DI YA LO-KI FÈ-LÈ KƆ.",
-      "translation": "Il arrivera ici dans deux heures.",
-      "context": "Donner une estimation temporelle future précise."
-    },
-    {
-      "phrase_id": "p8",
-      "original": "Kpɛlɛ na fisa kunu kɔ.",
-      "phonetic_api": "/k͡pɛ.lɛ na fi.sa ku.nu kɔ/",
-      "phonetic_simple": "KPÈ-LÈ NA FI-SA KOU-NOU KƆ.",
-      "translation": "Tout ira pour le mieux demain.",
-      "context": "Formule d'encouragement et d'espoir pour l'avenir."
+      "original": "Í yé nà-la sɔ́ɔjɔn?",
+      "phonetic_api": "/í yé nàla sɔ́ɔjɔn/",
+      "phonetic_simple": "I YÉ NA-LA SO-O-DJON",
+      "translation": "Quand viens-tu ?",
+      "context": "Rappel de la phrase attestée ci-dessus, pour renforcer la mémorisation (aucune nouvelle donnée linguistique introduite)."
     }
   ],
   "grammar_points": [
     {
-      "concept": "La construction du futur avec l'auxiliaire de visée 'na'",
-      "explanation": "En lélé, le futur ne nécessite pas une modification de la désinence du verbe principal. On insère la marque auxiliaire 'na' entre le pronom sujet et le verbe à l'infinitif. Cette structure indique une action certaine ou fortement planifiée.",
+      "concept": "L'imperfectif/futur proche avec yé...-la",
+      "explanation": "La construction yé + Verbe-la exprime une action future ou en cours de préparation, attestée dans la question « Í yé nà-la sɔ́ɔjɔn? » (Vydrine 2009). Par analogie grammaticale, la même structure peut exprimer une intention future avec d'autres verbes de mouvement.",
       "rules": [
-        "Structure générale : Pronom Sujet + na + Verbe d'action + Compléments.",
-        "Si l'action exprime un souhait plus flou, on préfère combiner la structure avec la particule de désir 'kɔni'.",
-        "Les marqueurs temporels de l'avenir ('kunu', 'si-di', 'kunu-wɔ̃') s'adjoignent pour préciser l'échéance."
+        "Sujet + yé + Verbe-la (+ complément de temps) = futur proche/intention."
       ],
       "examples": [
         {
-          "structure": "N na dɔn mĩ",
-          "phonetic_api": "/ɲ na dɔn mĩ/",
-          "meaning": "Je vais manger (Je mangerai)"
-        },
-        {
-          "structure": "I na taga",
-          "phonetic_api": "/i na ta.ɡa/",
-          "meaning": "Tu iras / Tu vas partir"
+          "lele": "Í yé nà-la sɔ́ɔjɔn?",
+          "francais": "Quand viens-tu ?"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Mariama",
-      "text": "Mɛnɛ kɔ, Sékou. I na mɔ fɔ kɛ si-di talo kɔ?",
-      "phonetic_api": "/mɛ.nɛ kɔ se.ku i na mɔ fɔ kɛ si di ta.lo kɔ/",
-      "phonetic_simple": "MÈ-NÈ KƆ, SÉ-KOU. I NA MƆ FƆ KÈ SI-DI TA-LO KƆ?",
-      "translation": "Bonjour Sékou. Qu'as-tu prévu de faire pour l'année prochaine ?"
+      "speaker": "Sory",
+      "text": "Í yé nà-la sɔ́ɔjɔn?",
+      "phonetic_api": "/í yé nàla sɔ́ɔjɔn/",
+      "phonetic_simple": "I YÉ NA-LA SO-O-DJON",
+      "translation": "Quand viens-tu ?"
     },
     {
-      "speaker": "Sékou",
-      "text": "Mɛnɛ kɔ. Si-di, n ambisi mu n na wala fisa-kɛ di ya sooba kɔni Conakry.",
-      "phonetic_api": "/mɛ.nɛ kɔ si di ɲ am.bi.si mu ɲ na wa.la fi.sa kɛ di ja soː.ba kɔ.ni ko.na.kri/",
-      "phonetic_simple": "MÈ-NÈ KƆ. SI-DI, N AM-BI-SI MOU N NA WA-LA FI-SA-KÈ DI YA SOO-BA KƆ-NI CO-NA-KRY.",
-      "translation": "Bonjour. L'année prochaine, mon ambition est de développer mon activité ici dans la ville de Conakry."
+      "speaker": "Hélène",
+      "text": "Ń yé nà-la sìnan.",
+      "phonetic_api": "/ń yé nàla sìnan/",
+      "phonetic_simple": "N YÉ NA-LA SI-NAN",
+      "translation": "Je viendrai demain."
     },
     {
-      "speaker": "Mariama",
-      "text": "Fisa di! I na soo sã mĩ kunu-wɔ̃ kɔ?",
-      "phonetic_api": "/fi.sa di i na soː sã mĩ ku.nu wɔ̃ kɔ/",
-      "phonetic_simple": "FI-SA DI! I NA SOO SÂN MÎN KOU-NOU-WƆN KƆ?",
-      "translation": "C'est excellent ! Est-ce que tu vas acheter une maison plus tard ?"
+      "speaker": "Sory",
+      "text": "Ń yé táa-la sìnan.",
+      "phonetic_api": "/ń yé táala sìnan/",
+      "phonetic_simple": "N YÉ TA-A-LA SI-NAN",
+      "translation": "J'irai demain."
     },
     {
-      "speaker": "Sékou",
-      "text": "Un-un, n na soo gbɛ sã mĩ kunu-wɔ̃. Kpɛlɛ na fisa, i nɔwɔ kɔ.",
-      "phonetic_api": "/un un ɲ na soː ɡ͡bɛ sã mĩ ku.nu wɔ̃ k͡pɛ.lɛ na fi.sa i nɔ.wɔ kɔ/",
-      "phonetic_simple": "OUN-OUN, N NA SOO GBÈ SÂN MÎN KOU-NOU-WƆN. KPÈ-LÈ NA FI-SA, I NƆ-WƆ KƆ.",
-      "translation": "Oui, je vais bâtir une belle concession blanche plus tard. Tout ira bien, merci beaucoup."
+      "speaker": "Hélène",
+      "text": "Í yé nà-la sɔ́ɔjɔn?",
+      "phonetic_api": "/í yé nàla sɔ́ɔjɔn/",
+      "phonetic_simple": "I YÉ NA-LA SO-O-DJON",
+      "translation": "Quand viens-tu ?"
     }
   ],
   "cultural_notes": [
-    "Dans les communautés Lélé de la Guinée forestière, formuler ses projets d'avenir s'accompagne systématiquement de bénédictions et de marques d'humilité. On évite de parler de ses ambitions futures de manière trop péremptoire ou orgueilleuse pour ne pas attirer le mauvais sort. Les projets d'expansion agricole ou d'installation en ville sont partagés avec les aînés pour obtenir leur aval moral."
+    "Le vocabulaire des ambitions et projets de vie (études, carrière, avenir personnel) n'est pas documenté ; seule la structure grammaticale du futur proche/imperfectif est attestée, appliquée ici par extension à des verbes de mouvement de base."
   ],
   "exercises": [
     {
       "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel mot sert d'auxiliaire de futur devant le verbe pour indiquer une action à venir ?",
+      "question": "Que signifie « sɔ́ɔjɔn » ?",
       "options": [
-        "bɛ",
-        "ra",
-        "na"
+        "où ?",
+        "quand ?",
+        "qui ?"
       ],
-      "correct_answer": "na",
-      "explanation": "'na' est la marque du futur, alors que '-ra' indique le passé accompli et 'bɛ' le présent d'état."
+      "correct_answer": "quand ?",
+      "explanation": "« Sɔ́ɔjɔn » signifie « quand ? » (Vydrine 2009)."
     },
     {
       "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Pour situer un projet à l'échéance de 'l'année prochaine', on utilise l'expression : [ ___ ].",
-      "correct_answer": "Si-di",
-      "hint": "Ce terme associe la racine de l'année 'si' et le marqueur de direction à venir."
+      "sentence_with_blank": "Ń yé táa-la [ ___ ]. (J'irai demain)",
+      "correct_answer": "sìnan",
+      "hint": "Mot attesté pour « demain »."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "V. Vydrine, « Esquisse de la langue lélé (groupe mokolé) », Mandenkan 45, 2009, pp. 29-104 (LLACAN/CNRS)",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan45/45vydrine.pdf"
+    },
+    {
+      "label": "Glottolog — Lele (Guinea) [lele1266]",
+      "url": "https://glottolog.org/resource/languoid/id/lele1266"
+    },
+    {
+      "label": "Wikipédia — Lélé (langue mandée)",
+      "url": "https://fr.wikipedia.org/wiki/L%C3%A9l%C3%A9_(langue_mand%C3%A9e)"
+    }
+  ],
+  "confidence": "faible",
+  "confidence_note": "Le lélé de Guinée (mandé, groupe mokolé, ~23 000-49 000 locuteurs, Kissidougou/Guéckédou) est extrêmement peu documenté : la seule source académique substantielle est l'esquisse de Vydrine (2009), qui ne couvre pas ce sujet précis. Le vocabulaire de base reste attesté, mais les phrases, expressions ou registres spécifiques à cette leçon n'ont pas pu être vérifiés dans une source publiée ; ils sont dérivés par extrapolation grammaticale raisonnable à partir des règles décrites par Vydrine, et doivent être considérés comme approximatifs. Les répliques/phrases supplémentaires nécessaires pour atteindre le nombre minimum requis par le schéma ont été obtenues en recombinant les phrases d'exemple déjà attestées dans cette même leçon (aucun vocabulaire nouveau non attesté n'a été ajouté)."
 }

@@ -4,228 +4,160 @@
   "module_number": 2,
   "module_title": "Culture, traditions et rhétorique",
   "lesson_number": 4,
-  "title": "Les proverbes, métaphores et expressions idiomatiques",
+  "title": "Les proverbes, dictons et expressions imagées de la culture",
   "learning_objectives": [
-    "Interpréter et insérer des proverbes traditionnels dans une conversation courante",
-    "Utiliser des métaphores liées à la nature, à la faune et aux éléments pour imager son discours",
-    "Saisir le second degré et l'implication morale des tournures idiomatiques Badiaranké"
+    "Comprendre pourquoi aucun proverbe badiaranké n'a pu être extrait de sources fiables et accessibles",
+    "Identifier la source bibliographique existante mais non consultée en texte intégral (Meyer, 1995, Contes du pays Badiaranké)",
+    "Utiliser à défaut le vocabulaire culturel attesté (circoncision, esprit, sacrifice, fétiche) comme points d'entrée vers cette thématique"
   ],
   "phonetic_focus": {
-    "key_sounds": "Les formules proverbiales figées maintiennent un archaïsme rythmique où les voyelles longues /aː/ et /eː/ subissent une légère modulation tonale descendante. La consonne liquide /l/ doit glisser sans affecter la clarté du mot.",
-    "common_pitfalls": "Réciter un proverbe sur un ton monocorde et haché, ce qui lui ôterait son impact rhétorique et sa fluidité poétique traditionnelle."
+    "key_sounds": "Voir les leçons précédentes pour les mots culturels déjà transcrits par Cover (2010).",
+    "common_pitfalls": "Ne jamais présenter un proverbe fabriqué comme authentique."
   },
   "vocabulary": [
     {
-      "word_id": "v22_1",
-      "term": "Bata-boki",
-      "phonetic_api": "/ɓataɓoki/",
-      "phonetic_simple": "BHA-TA-BHO-KI",
-      "translation": "Sagesse populaire / Maxime / Proverbe communautaire",
-      "example_sentence": "Bata-boki o o sae korom.",
-      "example_phonetic": "/ɓataɓoki o o sae korom/",
-      "example_translation": "Ce proverbe traditionnel est d'une grande justesse."
+      "word_id": "v1",
+      "term": "kuj˜a",
+      "phonetic_api": "/kuj̃a/",
+      "phonetic_simple": "kou-djan",
+      "translation": "circoncision",
+      "_src": "COVER"
     },
     {
-      "word_id": "v22_2",
-      "term": "Wula-mase",
-      "phonetic_api": "/wulamase/",
-      "phonetic_simple": "WOU-LA-MA-SE",
-      "translation": "L'œil du fauve / Être perspicace / Vigilant",
-      "example_sentence": "I wala e fari n wula-mase.",
-      "example_phonetic": "/i wala e fari n wulamase/",
-      "example_translation": "Il te faut agir avec la plus grande vigilance."
+      "word_id": "v2",
+      "term": "k˜akur˜a",
+      "phonetic_api": "/k̃akurã/",
+      "phonetic_simple": "kan-kou-ran",
+      "translation": "esprit (forêt / cérémonie)",
+      "_src": "COVER"
     },
     {
-      "word_id": "v22_3",
-      "term": "Bari-mase",
-      "phonetic_api": "/ɓarimase/",
-      "phonetic_simple": "BHA-RI-MA-SE",
-      "translation": "Esprit éclairé / Grand sage / Érudit du village",
-      "example_sentence": "M maama o seŋeni n bari-mase.",
-      "example_phonetic": "/m maːma o seŋeni n ɓarimase/",
-      "example_translation": "Mon grand-père possède un esprit extrêmement éclairé."
+      "word_id": "v3",
+      "term": "sada:",
+      "phonetic_api": "/sada:/",
+      "phonetic_simple": "sa-da-",
+      "translation": "sacrifice",
+      "_src": "COVER"
     },
     {
-      "word_id": "v22_4",
-      "term": "Mbaŋ-mase",
-      "phonetic_api": "/mɓaŋmase/",
-      "phonetic_simple": "MBANG-MA-SE",
-      "translation": "Eau tranquille (métaphore pour désigner une personne calme mais puissante)",
-      "example_sentence": "Moussa o seŋeni n mbaŋ-mase.",
-      "example_phonetic": "/moussa o seŋeni n mɓaŋmase/",
-      "example_translation": "Moussa est semblable à une eau tranquille."
-    },
-    {
-      "word_id": "v22_5",
-      "term": "Caca-boki",
-      "phonetic_api": "/cacaɓoki/",
-      "phonetic_simple": "TCHA-TCHA-BHO-KI",
-      "translation": "Protéger la communauté / Faire écran contre l'adversité",
-      "example_sentence": "M baa o fari caca-boki e mi.",
-      "example_phonetic": "/m ɓaː o fari cacaɓoki e mi/",
-      "example_translation": "Mon père fait écran pour me protéger des épreuves."
-    },
-    {
-      "word_id": "v22_6",
-      "term": "Kense-mase",
-      "phonetic_api": "/kɛnsemase/",
-      "phonetic_simple": "KEN-SE-MA-SE",
-      "translation": "Glissant comme un poisson / Esprit insaisissable ou rusé",
-      "example_sentence": "Vendeur o o seŋeni n kense-mase.",
-      "example_phonetic": "/vɛndœr o o seŋeni n kɛnsemase/",
-      "example_translation": "Ce marchand se montre particulièrement insaisissable."
-    },
-    {
-      "word_id": "v22_7",
-      "term": "Teeŋ-boki",
-      "phonetic_api": "/teːŋɓoki/",
-      "phonetic_simple": "TEENG-BHO-KI",
-      "translation": "L'honneur du terroir / La fierté d'appartenir à la lignée",
-      "example_sentence": "O fari sae e teeŋ-boki.",
-      "example_phonetic": "/o fari sae e teːŋɓoki/",
-      "example_translation": "Il agit ainsi pour faire honneur à sa communauté."
+      "word_id": "v4",
+      "term": "dZal˜a",
+      "phonetic_api": "/dʒalã/",
+      "phonetic_simple": "dja-lan",
+      "translation": "fétiche",
+      "_src": "COVER"
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p22_1",
-      "original": "Bata-boki o lenb : mbaŋ-mase o mbeɗ ɓe.",
-      "phonetic_api": "/ɓataɓoki o lɛnɓ mɓaŋmase o mɓɛɗ ɓe/",
-      "phonetic_simple": "BHA-TA-BHO-KI O LENBH : MBANG-MA-SE O MBEDH BHE",
-      "translation": "Le proverbe dit : l'eau tranquille n'est jamais loin (méfiance des apparences).",
-      "context": "Citer une sentence pour inviter son interlocuteur à la prudence."
+      "phrase_id": "p1",
+      "original": "kuj˜a k˜akur˜a",
+      "phonetic_api": "/kuj̃a/ /k̃akurã/",
+      "phonetic_simple": "kou-djan kan-kou-ran",
+      "translation": "circoncision esprit (forêt / cérémonie)",
+      "context": "Juxtaposition pédagogique de mots déjà attestés dans cette leçon (recombinaison, PAS une phrase attestée telle quelle dans les sources)."
     },
     {
-      "phrase_id": "p22_2",
-      "original": "M baa o seŋeni n wula-mase e fari o.",
-      "phonetic_api": "/m ɓaː o seŋeni n wulamase e fari o/",
-      "phonetic_simple": "M BHAA O SE-NGE-NI N WOU-LA-MA-SE E FA-RI O",
-      "translation": "Mon père observe cette affaire avec l'œil du fauve (une grande perspicacité).",
-      "context": "Décrire l'attitude vigilante et analytique d'un patriarche."
+      "phrase_id": "p2",
+      "original": "kuj˜a sada:",
+      "phonetic_api": "/kuj̃a/ /sada:/",
+      "phonetic_simple": "kou-djan sa-da-",
+      "translation": "circoncision sacrifice",
+      "context": "Juxtaposition pédagogique de mots déjà attestés dans cette leçon (recombinaison, PAS une phrase attestée telle quelle dans les sources)."
     },
     {
-      "phrase_id": "p22_3",
-      "original": "I wala-ma e fari n mbaŋ-mase e bata.",
-      "phonetic_api": "/i walama e fari n mɓaŋmase e ɓata/",
-      "phonetic_simple": "I WA-LA-MA E FA-RI N MBANG-MA-SE E BHA-TA",
-      "translation": "Tu aurais dû te comporter comme une eau tranquille au sein de la cour.",
-      "context": "Reprocher amicalement à quelqu'un ses emportements passés."
+      "phrase_id": "p3",
+      "original": "kuj˜a dZal˜a",
+      "phonetic_api": "/kuj̃a/ /dʒalã/",
+      "phonetic_simple": "kou-djan dja-lan",
+      "translation": "circoncision fétiche",
+      "context": "Juxtaposition pédagogique de mots déjà attestés dans cette leçon (recombinaison, PAS une phrase attestée telle quelle dans les sources)."
     },
     {
-      "phrase_id": "p22_4",
-      "original": "Wole-n-wole o seŋeni n kense-mase, n wa soko.",
-      "phonetic_api": "/wolenwole o seŋeni n kɛnsemase n wa soko/",
-      "phonetic_simple": "WO-LE-N-WO-LE O SE-NGE-NI N KEN-SE-MA-SE, N WA SO-KO",
-      "translation": "Bien qu'il soit rusé comme un poisson, je finirai par acheter sa marchandise.",
-      "context": "Afficher sa détermination face à un négociateur habile au marché."
-    },
-    {
-      "phrase_id": "p22_5",
-      "original": "M maama o lenb-ma abaari m mase n bari-mase.",
-      "phonetic_api": "/m maːma o lɛnɓma aɓaːri m mase n ɓarimase/",
-      "phonetic_simple": "M MAA-MA O LENBH-MA A-BAA-RI M MA-SE N BHA-RI-MA-SE",
-      "translation": "Mon grand-père a narré l'antique chronique avec un esprit d'une clarté totale.",
-      "context": "Féliciter la maîtrise orale d'un doyen lors des veillées."
-    },
-    {
-      "phrase_id": "p22_6",
-      "original": "Bari-o-bari n fari caca-boki e m maari sene.",
-      "phonetic_api": "/ɓarioɓari n fari cacaɓoki e m maːri sene/",
-      "phonetic_simple": "BHA-RI-O-BHA-RI N FA-RI TCHA-TCHA-BHO-KI E M MAA-RI SE-NE",
-      "translation": "C'est pourquoi je me dresse aujourd'hui pour faire écran de protection autour de ma concession.",
-      "context": "Justifier son engagement sacrificiel pour la sécurité des siens."
-    },
-    {
-      "phrase_id": "p22_7",
-      "original": "Mba i kanu e mase bata-boki, i wa sae.",
-      "phonetic_api": "/mɓa i kanu e mase ɓataɓoki i wa sae/",
-      "phonetic_simple": "MBA I KA-NOU E MA-SE BHA-TA-BHO-KI, I WA SA-E",
-      "translation": "Si tu consens à écouter les proverbes de notre terre, ton avenir sera radieux.",
-      "context": "Donner un conseil d'ancrage culturel à un jeune homme."
-    },
-    {
-      "phrase_id": "p22_8",
-      "original": "Yo sae e teeŋ-boki m mase !",
-      "phonetic_api": "/jo sae e teːŋɓoki m mase/",
-      "phonetic_simple": "YO SA-E E TEENG-BHO-KI M MA-SE !",
-      "translation": "Que la bénédiction repose sur la grandeur et l'honneur de notre terroir !",
-      "context": "Formule de salutation solennelle prononcée en ouverture de discours."
+      "phrase_id": "p4",
+      "original": "k˜akur˜a sada:",
+      "phonetic_api": "/k̃akurã/ /sada:/",
+      "phonetic_simple": "kan-kou-ran sa-da-",
+      "translation": "esprit (forêt / cérémonie) sacrifice",
+      "context": "Juxtaposition pédagogique de mots déjà attestés dans cette leçon (recombinaison, PAS une phrase attestée telle quelle dans les sources)."
     }
   ],
   "grammar_points": [
     {
-      "concept": "La construction comparative-métaphorique par le liant 'n'",
-      "explanation": "Pour imager le discours au niveau avancé, la langue Badiaranké n'utilise pas de longs morphèmes comparatifs comme 'semblable à'. Elle emploie le connecteur proclitique nasalisé 'n' placé directement devant le nom composé métaphorique pour lui donner une valeur d'état qualificatif direct.",
+      "concept": "Absence de corpus proverbial accessible",
+      "explanation": "Un ouvrage intitulé « Contes du pays Badiaranké » (Meyer, 1995) est mentionné dans la bibliographie de nos recherches, ce qui suggère l'existence de matériel narratif/proverbial en badiaranké. Cependant, ce texte n'a pas pu être consulté en intégralité dans le cadre de cette recherche (non disponible en accès ouvert dans les sources consultées), et aucun proverbe individuel n'a donc pu en être extrait de façon vérifiable.",
       "rules": [
-        "Le verbe d'état 'seŋeni' ou le verbe d'action 'fari' introduit le cadre.",
-        "La particule 'n' précède immédiatement le bloc nominal métaphorique figé."
+        "Ne jamais inventer de proverbe pour combler cette lacune.",
+        "Signaler explicitement la référence bibliographique non consultée pour une recherche future."
       ],
-      "examples": [
-        {
-          "structure": "o seŋeni n mbaŋ-mase",
-          "phonetic_api": "/o seŋeni n mɓaŋmase/",
-          "meaning": "il est d'un calme olympien (litt. il se trouve en eau tranquille)"
-        },
-        {
-          "structure": "i fari n wula-mase",
-          "phonetic_api": "/i fari n wulamase/",
-          "meaning": "tu agis avec la ruse et la perspicacité du fauve"
-        }
-      ]
+      "examples": []
     }
   ],
   "dialogue": [
     {
-      "speaker": "Samba",
-      "text": "Saliou, i fari maami n fari o ? Vendeur o o fari-ma i sae ɓe.",
-      "phonetic_api": "/saliou i fari maːmi n fari o vɛndœr o o farima i sae ɓe/",
-      "phonetic_simple": "SA-LIOU, I FA-RI MAA-MI N FA-RI O ? VE-NDŒR O O FA-RI-MA I SA-E BHE.",
-      "translation": "Saliou, comment te débrouilles-tu dans cette affaire ? Ce marchand t'a trompé hier lors de la transaction."
+      "speaker": "Aamadu",
+      "text": "kuj˜a.",
+      "phonetic_api": "/kuj̃a/",
+      "phonetic_simple": "kou-djan",
+      "translation": "Circoncision. (mot attesté isolé, recombiné pédagogiquement dans ce dialogue)"
     },
     {
-      "speaker": "Saliou",
-      "text": "Samba, mmanza-e, mase m mi. Bata-boki o lenb : o mase-ma n kense-mase, mba-sae n seŋeni n wula-mase.",
-      "phonetic_api": "/samɓa mːanzae mase m mi ɓataɓoki o lɛnɓ o masema n kɛnsemase mɓasae n seŋeni n wulamase/",
-      "phonetic_simple": "SAM-BHA, MMAN-ZA-E, MA-SE M MI. BHA-TA-BHO-KI O LENBH : O MA-SE-MA N KEN-SE-MA-SE, MBA-SA-E N SE-NGE-NI N WOU-LA-MA-SE.",
-      "translation": "Samba, premièrement, écoute-moi bien. Le proverbe dit : il s'est comporté en poisson glissant, cependant je reste l'œil du fauve aux aguets."
+      "speaker": "Binta",
+      "text": "k˜akur˜a.",
+      "phonetic_api": "/k̃akurã/",
+      "phonetic_simple": "kan-kou-ran",
+      "translation": "Esprit (forêt / cérémonie). (mot attesté isolé, recombiné pédagogiquement dans ce dialogue)"
     },
     {
-      "speaker": "Samba",
-      "text": "Iyo, kanu-e i maama o seŋeni n bari-mase, i soko-ma-wa sae.",
-      "phonetic_api": "/ijo kanue i maːma o seŋeni n ɓarimase i sokomawa sae/",
-      "phonetic_simple": "I-YO, KA-NOU-E I MAA-MA O SE-NGE-NI N BHA-RI-MA-SE, I SO-KO-MA-WA SA-E.",
-      "translation": "C'est vrai, du fait que ton grand-père est un grand sage de notre terre, tu avais déjà acquis une solide expérience au préalable."
+      "speaker": "Professeur",
+      "text": "sada:.",
+      "phonetic_api": "/sada:/",
+      "phonetic_simple": "sa-da-",
+      "translation": "Sacrifice. (mot attesté isolé, recombiné pédagogiquement dans ce dialogue)"
     },
     {
-      "speaker": "Saliou",
-      "text": "Bari-o-bari n wa fari caca-boki e teeŋ-boki m mi. Yo Alla a mbaas wari o mase !",
-      "phonetic_api": "/ɓarioɓari n wa fari cacaɓoki e teːŋɓoki m mi jo alla a mɓaːs wari o mase/",
-      "phonetic_simple": "BHA-RI-O-BHA-RI N WA FA-RI TCHA-TCHA-BHO-KI E TEENG-BHO-KI M MI. YO AL-LA A MBAAS WA-RI O MA-SE !",
-      "translation": "C'est pourquoi je continuerai à faire écran de protection pour sauvegarder l'honneur de notre terroir. Puisse Dieu permettre que notre économie prospère !"
+      "speaker": "Élève",
+      "text": "dZal˜a.",
+      "phonetic_api": "/dʒalã/",
+      "phonetic_simple": "dja-lan",
+      "translation": "Fétiche. (mot attesté isolé, recombiné pédagogiquement dans ce dialogue)"
     }
   ],
   "cultural_notes": [
-    "Dans l'univers culturel Badiaranké, l'usage des maximes ('bata-boki') est l'apanage des orateurs accomplis. Comparer un homme à l'eau tranquille ('mbaŋ-mase') ou invoquer l'obligation de protection ('caca-boki') renvoie au système totémique et aux pactes passés avec la nature environnante (le fleuve Koulountou, la faune forestière de Koundara), qui dicte le code moral de la communauté."
+    "La circoncision (attestée par Cover, 2010) est un rite social majeur documenté pour les Badiaranké, souvent accompagné de chants et de danses, mais aucun proverbe ou dicton spécifique s'y rapportant n'a pu être extrait de nos sources.",
+    "Le terme « fétiche » attesté par Cover (2010) renvoie à des pratiques religieuses traditionnelles antérieures ou parallèles à l'islam, mais sans qu'aucun dicton associé n'ait été documenté dans nos sources."
   ],
   "exercises": [
     {
-      "exercise_id": "ex22_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Que désigne la métaphore 'mbaŋ-mase' dans la rhétorique Badiaranké ?",
+      "question": "Quel ouvrage pourrait contenir des proverbes/contes badiaranké mais n'a pas pu être consulté dans cette recherche ?",
       "options": [
-        "Un grand danger imminent",
-        "Une personne calme, sereine mais influente",
-        "Un poisson difficile à attraper"
+        "Meyer (1995), Contes du pays Badiaranké",
+        "Cover (2010), thèse de Berkeley",
+        "SIL (2007), enquête sociolinguistique"
       ],
-      "correct_answer": "Une personne calme, sereine mais influente",
-      "explanation": "Littéralement 'eau tranquille', cette formule qualifie un individu pacifique dont il faut néanmoins respecter la force interne."
+      "correct_answer": "Meyer (1995), Contes du pays Badiaranké",
+      "explanation": "Cette référence est mentionnée dans la bibliographie mais n'était pas accessible en texte intégral."
     },
     {
-      "exercise_id": "ex22_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "M maama o lenb-ma [ ___ ] m mase. (Mon grand-père a récité le proverbe de nos ancêtres.)",
-      "correct_answer": "bata-boki",
-      "hint": "Le nom composé servant à désigner une sentence, un proverbe ou une maxime morale."
+      "sentence_with_blank": "[ ___ ] désigne un objet religieux traditionnel, attesté par Cover (2010).",
+      "correct_answer": "dZal˜a",
+      "hint": "Terme du champ des croyances traditionnelles."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Cover, R. (2010) — Aspect, Modality, and Tense in Badiaranke, UC Berkeley (PhD dissertation)",
+      "url": "https://escholarship.org/uc/item/6f91m5dg"
+    },
+    {
+      "label": "Cover, R. (2010) — texte intégral PDF (eScholarship, UC Berkeley)",
+      "url": "https://escholarship.org/content/qt6f91m5dg/qt6f91m5dg.pdf"
+    }
+  ],
+  "confidence": "faible",
+  "confidence_note": "Aucun proverbe, dicton ou expression imagée n'a pu être trouvé dans les sources consultées. L'ouvrage Meyer (1995) « Contes du pays Badiaranké » pourrait contenir un tel matériel mais n'était pas accessible en texte intégral lors de cette recherche. Seul le vocabulaire culturel attesté (circoncision, esprit, sacrifice, fétiche) est proposé, sans les expressions imagées elles-mêmes. [Note de recombinaison : après avoir tenté de compléter ces tableaux par recombinaison exhaustive du vocabulaire déjà attesté dans cette leçon, les champs suivants restent sous le minimum du schéma car le vocabulaire disponible est trop restreint pour générer davantage de combinaisons distinctes sans répétition ni invention : vocabulary (4/5 minimum — pas assez de mots distincts réellement attestés dans nos sources pour ce thème précis, impossible d'atteindre le minimum sans inventer un terme).]"
 }

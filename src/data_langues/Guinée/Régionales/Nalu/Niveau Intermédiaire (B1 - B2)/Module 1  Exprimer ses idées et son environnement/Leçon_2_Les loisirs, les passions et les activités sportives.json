@@ -6,158 +6,182 @@
   "lesson_number": 2,
   "title": "Les loisirs, les passions et les activités sportives",
   "learning_objectives": [
-    "Exprimer ses passe-temps, jeux traditionnels et activités de divertissement",
-    "Parler des sports pratiqués, du chant et de la danse"
+    "Utiliser le seul terme sportif attesté (baloŋ, football, emprunt) dans une phrase complète",
+    "Nommer des activités traditionnelles attestées (danse, conte, jeu)",
+    "Reconnaître les limites de la documentation sur le vocabulaire des loisirs modernes"
   ],
   "phonetic_focus": {
-    "key_sounds": "La consonne vibrante /r/ placée en fin de mot (comme dans 'singor') doit être légèrement battue sans être muette. La voyelle double 'ee' s'articule comme un /e/ tendu et long. Les groupes consonantiques pré-nasalisés initiaux ('n'd-') forment un son unique unique.",
-    "common_pitfalls": "Ne confondez pas le 'c' de 'ce' (bien) avec un son /s/. En nalu, le 'c' est toujours une affriquée palatale /tʃ/ ('tch')."
+    "key_sounds": "Le nalu comporte 7 voyelles avec opposition de longueur (i, u, e [ɪ], o [ʊ], ɛ, ɔ, a) et des consonnes comme θ (proche du 'th' anglais dur, prononcé [f] par de nombreux locuteurs), gb (occlusive labio-vélaire double, sans équivalent en français), et ŋ (comme 'ng' dans 'parking'). Source : Seidel (2024), The Oxford Guide to the Atlantic Languages of West Africa.",
+    "common_pitfalls": "Les francophones ont tendance à confondre ɛ/e et ɔ/o car le français ne marque pas systématiquement cette opposition de fermeture. Le θ est souvent mal prononcé car il n'existe pas en français ; beaucoup de locuteurs nalu eux-mêmes le réalisent [f]. La longueur vocalique (ex. redoublement de voyelle 'ɔɔ') doit être respectée, contrairement au français où elle n'est pas distinctive."
   },
   "vocabulary": [
     {
-      "word_id": "v11_1",
-      "term": "Singor",
-      "phonetic_api": "/si.nɡor/",
-      "phonetic_simple": "SIN-GOR",
-      "translation": "Divertissement / Jeu / Sport",
-      "example_sentence": "Singor we a ce.",
-      "example_phonetic": "/si.nɡor we a tʃe/",
-      "example_translation": "Ce jeu est bon."
+      "word_id": "v1",
+      "term": "baloŋ",
+      "phonetic_api": "/baloŋ/",
+      "phonetic_simple": "BALONG",
+      "translation": "football, ballon (emprunt)",
+      "example_sentence": "Θɔk mmaθ baloŋ mbak mhanda.",
+      "example_phonetic": "/θɔk mmaθ baloŋ mbak mhanda/",
+      "example_translation": "Aujourd'hui j'ai joué au football et construit une clôture."
     },
     {
-      "word_id": "v11_2",
-      "term": "N'dun",
-      "phonetic_api": "/ndu.n/",
-      "phonetic_simple": "N-DOUN",
-      "translation": "Chanter / Chant",
-      "example_sentence": "M malang n'dun.",
-      "example_phonetic": "/m ba.laŋ ndu.n/",
-      "example_translation": "Je veux chanter."
+      "word_id": "v2",
+      "term": "wub",
+      "phonetic_api": "/wub/",
+      "phonetic_simple": "WOUB",
+      "translation": "jouer ; souffler dans la corne",
+      "example_sentence": "wub",
+      "example_phonetic": "/wub/",
+      "example_translation": "jouer / souffler dans la corne (Seidel 2024)"
     },
     {
-      "word_id": "v11_3",
-      "term": "Sila",
-      "phonetic_api": "/si.la/",
-      "phonetic_simple": "SI-LA",
-      "translation": "Danser / Danse",
-      "example_sentence": "A mboye sila di gbarano.",
-      "example_phonetic": "/a mbo.je si.la di g͡ba.ra.no/",
-      "example_translation": "Il y a de la danse dans la cour."
+      "word_id": "v3",
+      "term": "m-kam",
+      "phonetic_api": "/mkam/",
+      "phonetic_simple": "M-KAM",
+      "translation": "danse (nom)",
+      "example_sentence": "kamnahat",
+      "example_phonetic": "/kamnahat/",
+      "example_translation": "danser partout / dans tous les sens (Seidel 2024, forme distributive)"
     },
     {
-      "word_id": "v11_4",
-      "term": "Bweten soka",
-      "phonetic_api": "/bʷe.ten so.ka/",
-      "phonetic_simple": "BOUÉ-TEN SO-KA",
-      "translation": "Jouer au football",
-      "example_sentence": "M boku soka n'gbe.",
-      "example_phonetic": "/m bo.ku so.ka ŋgbe/",
-      "example_translation": "Je vais jouer au football aujourd'hui."
+      "word_id": "v4",
+      "term": "m-rɔɔm",
+      "phonetic_api": "/mrɔːm/",
+      "phonetic_simple": "M-ROOM",
+      "translation": "récit, conte",
+      "example_sentence": "Mɔɔ ha ka θata mrɔɔm kamɔh.",
+      "example_phonetic": "/mɔː ha ka θata mrɔːm kamɔh/",
+      "example_translation": "Ce n'est pas difficile de raconter cela."
     },
     {
-      "word_id": "v11_5",
-      "term": "Ceebor",
-      "phonetic_api": "/tʃeː.bor/",
-      "phonetic_simple": "TCHÉÉ-BOR",
-      "translation": "Nager / Nage",
-      "example_sentence": "M malang ceebor di m'mela.",
-      "example_phonetic": "/m ba.laŋ tʃeː.bor di m.me.la/",
-      "example_translation": "J'aime nager dans l'eau."
+      "word_id": "v5",
+      "term": "luk",
+      "phonetic_api": "/luk/",
+      "phonetic_simple": "LOUK",
+      "translation": "corne (instrument de musique/signal)",
+      "example_sentence": "m-luk",
+      "example_phonetic": "/mluk/",
+      "example_translation": "corne (Seidel 2024, vocabulaire nominal)"
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p11_1",
-      "original": "A rila singor mwo?",
-      "phonetic_api": "/a ri.la si.ngor mwo/",
-      "phonetic_simple": "A RI-LA SIN-GOR MWO",
-      "translation": "Quel est ton loisir / ton divertissement ?",
-      "context": "Question usuelle pour engager la conversation sur les goûts personnels."
+      "phrase_id": "p1",
+      "original": "Θɔk mmaθ baloŋ mbak mhanda.",
+      "phonetic_api": "/θɔk mmaθ baloŋ mbak mhanda/",
+      "phonetic_simple": "THOK M-MATH BALONG M-BAK M-HANDA",
+      "translation": "Aujourd'hui j'ai joué au football et construit une clôture.",
+      "context": "Seule phrase attestée mentionnant une activité sportive/de loisir moderne."
     },
     {
-      "phrase_id": "p11_2",
-      "original": "M malang n'dun n'gbe sila.",
-      "phonetic_api": "/m ba.laŋ ndu.n ŋgbe si.la/",
-      "phonetic_simple": "M BA-LANG N-DOUN NGBÉ SI-LA",
-      "translation": "J'aime chanter et danser.",
-      "context": "Permet de décrire ses passions artistiques et festives."
+      "phrase_id": "p2",
+      "original": "Mɔɔ ha ka θata mrɔɔm kamɔh.",
+      "phonetic_api": "/mɔː ha ka θata mrɔːm kamɔh/",
+      "phonetic_simple": "MÔÔ HA KA THATA M-ROOM KAMÔH",
+      "translation": "Ce n'est pas difficile de raconter cela.",
+      "context": "Illustre le nom « mrɔɔm » (récit) dans un jugement d'appréciation."
     },
     {
-      "phrase_id": "p11_3",
-      "original": "Bweten nalu a malang soka.",
-      "phonetic_api": "/bʷe.ten na.lu a ba.laŋ so.ka/",
-      "phonetic_simple": "BOUÉ-TEN NA-LU A BA-LANG SO-KA",
-      "translation": "Les enfants nalu aiment jouer au football.",
-      "context": "Une observation commune au sein des villages de la région côtière."
+      "phrase_id": "p_extra1",
+      "original": "wub",
+      "phonetic_api": "/wub/",
+      "phonetic_simple": "WOUB",
+      "translation": "jouer / souffler dans la corne (Seidel 2024)",
+      "context": "Réemploi de l'exemple attesté pour le terme « wub » (voir vocabulaire de cette leçon), afin d'illustrer son usage en phrase."
+    },
+    {
+      "phrase_id": "p_extra2",
+      "original": "kamnahat",
+      "phonetic_api": "/kamnahat/",
+      "phonetic_simple": "M-KAM",
+      "translation": "danser partout / dans tous les sens (Seidel 2024, forme distributive)",
+      "context": "Réemploi de l'exemple attesté pour le terme « m-kam » (voir vocabulaire de cette leçon), afin d'illustrer son usage en phrase."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'association de verbes avec la coordination 'n'gbe'",
-      "explanation": "Pour exprimer la pratique simultanée ou successive de deux loisirs, le nalu utilise le connecteur de coordination 'n'gbe' (et) entre les deux infinitifs, maintenant la structure unifiée sous un seul pronom sujet.",
+      "concept": "Formation de noms déverbaux en m- pour désigner une activité",
+      "explanation": "De nombreux noms d'activité se forment par préfixation m- sur une racine verbale, éventuellement avec le suffixe -aŋ : mkam « danse » (de kam), mrɔɔm « récit » (de rɔɔm « raconter, compter »), mkamnahat « danser partout » (forme distributive) (Seidel 2024).",
       "rules": [
-        "Le pronom sujet et le verbe principal 'malang' (aimer/vouloir) introduisent la proposition.",
-        "Les deux verbes de loisir encadrent le coordonnant 'n'gbe'."
+        "Le nom déverbal en m- désigne le résultat ou la pratique de l'action.",
+        "Ces noms suivent les règles générales de classes nominales (classe 1, singulier)."
       ],
       "examples": [
         {
-          "structure": "n'dun n'gbe sila",
-          "phonetic_api": "/ndu.n ŋgbe si.la/",
-          "meaning": "chanter et danser"
-        },
-        {
-          "structure": "ceebor n'gbe soka",
-          "phonetic_api": "/tʃeː.bor ŋgbe so.ka/",
-          "meaning": "nager et jouer au football"
+          "structure": "mkam",
+          "phonetic_api": "/mkam/",
+          "meaning": "la danse (nom, de kam)"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Ousmane",
-      "text": "Mboye, Fatou ! A rila singor mwo?",
-      "phonetic_api": "/mbo.je fa.tu a ri.la si.nɡor mwo/",
-      "phonetic_simple": "MBO-YÉ, FA-TOU ! A RI-LA SIN-GOR MWO?",
-      "translation": "Bonjour, Fatou ! Quel est ton passe-temps ?"
+      "speaker": "Locuteur A",
+      "text": "Θɔk mmaθ baloŋ.",
+      "phonetic_api": "/θɔk mmaθ baloŋ/",
+      "phonetic_simple": "THOK M-MATH BALONG",
+      "translation": "Aujourd'hui j'ai joué au football."
     },
     {
-      "speaker": "Fatou",
-      "text": "Mboye ce ! M malang n'dun. I mwo?",
-      "phonetic_api": "/mbo.je tʃe m ba.laŋ ndu.n i mwo/",
-      "phonetic_simple": "MBO-YÉ TCHÉ ! M BA-LANG N-DOUN. I MWO?",
-      "translation": "Bonjour bien ! J'aime chanter. Et toi ?"
+      "speaker": "Locuteur B",
+      "text": "Mɔɔ ha ka θata mrɔɔm kamɔh?",
+      "phonetic_api": "/mɔː ha ka θata mrɔːm kamɔh/",
+      "phonetic_simple": "MÔÔ HA KA THATA M-ROOM KAMÔH",
+      "translation": "N'est-ce pas difficile de raconter cela (le match) ?"
     },
     {
-      "speaker": "Ousmane",
-      "text": "M malang ceebor di m'mela n'gbe soka.",
-      "phonetic_api": "/m ba.laŋ tʃeː.bor di m.me.la ŋgbe so.ka/",
-      "phonetic_simple": "M BA-LANG TCHÉÉ-BOR DI M-MÉ-LA NGBÉ SO-KA.",
-      "translation": "J'aime nager dans l'eau (la mer) et jouer au football."
+      "speaker": "Locuteur A",
+      "text": "Hali, mbaa.",
+      "phonetic_api": "/hali mbaː/",
+      "phonetic_simple": "HALI, MBAA",
+      "translation": "Non, ça va (ce n'est pas difficile)."
+    },
+    {
+      "speaker": "Locuteur A",
+      "text": "Θɔk mmaθ baloŋ mbak mhanda.",
+      "phonetic_api": "/θɔk mmaθ baloŋ mbak mhanda/",
+      "phonetic_simple": "THOK M-MATH BALONG M-BAK M-HANDA",
+      "translation": "Aujourd'hui j'ai joué au football et construit une clôture."
     }
   ],
   "cultural_notes": [
-    "Dans les villages nalu du littoral de la Guinée, les activités de loisir sont profondément communautaires et rythmées par l'environnement maritime. La nage ('ceebor') et les jeux dans l'eau sont naturels pour la jeunesse. Lors des festivités ou des fins de récolte, le chant traditionnel ('n'doun') et la danse au son du tambour rassemblent toutes les générations dans la grande cour du village."
+    "Le mot « baloŋ » pour « football » suggère un emprunt régional (probablement via le français « ballon » ou le soso), attestant l'adoption de loisirs modernes par les locuteurs nalu.",
+    "La danse (mkam) et le récit oral (mrɔɔm) restent des pratiques culturelles traditionnelles bien ancrées, mentionnées dans les corpus de Seidel (2024) issus d'entretiens avec les communautés de Koukouba et Katoufoura."
   ],
   "exercises": [
     {
-      "exercise_id": "ex11_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Que signifie le mot 'Sila' ?",
+      "question": "Quel est le seul sport explicitement attesté dans les sources nalu consultées ?",
       "options": [
-        "Chanter",
-        "Danser",
-        "Nager"
+        "Le football (baloŋ)",
+        "La lutte",
+        "La natation"
       ],
-      "correct_answer": "Danser",
-      "explanation": "'Sila' désigne l'action de danser ou la danse en nalu."
+      "correct_answer": "Le football (baloŋ)",
+      "explanation": "Attesté dans la phrase « Θɔk mmaθ baloŋ mbak mhanda » (Seidel 2024)."
     },
     {
-      "exercise_id": "ex11_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Pour parler de divertissement ou de jeu en général, on emploie le terme : [ ___ ].",
-      "correct_answer": "singor",
-      "hint": "Désigne aussi bien un jeu de société, un sport qu'un amusement public"
+      "sentence_with_blank": "« [ ___ ] » signifie « récit, conte » en nalu.",
+      "correct_answer": "m-rɔɔm",
+      "hint": "Nom déverbal formé sur la racine « rɔɔm » (raconter, compter)."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Seidel, F. (2024) « Nalu », in The Oxford Guide to the Atlantic Languages of West Africa, Oxford University Press",
+      "url": "https://academic.oup.com/book/59850/chapter/511378992"
+    },
+    {
+      "label": "Glottolog 5.3, « Nalu » (nalu1240 / naj)",
+      "url": "https://glottolog.org/resource/languoid/id/nalu1240"
+    }
+  ],
+  "confidence": "faible",
+  "confidence_note": "Le vocabulaire des loisirs et du sport est extrêmement limité dans les sources disponibles : seul le football (emprunt « baloŋ ») est attesté comme activité moderne, aux côtés de la danse et du récit oral comme pratiques traditionnelles. Aucune autre activité sportive ou passion (lecture, musique, jeux) n'est documentée."
 }

@@ -1,174 +1,207 @@
 {
   "lesson_id": "A1_M1_L3",
-  "level": "Débutant (A1-A2)",
+  "level": "Niveau Débutant (A1 - A2)",
   "module_number": 1,
   "module_title": "Les bases de la communication",
   "lesson_number": 3,
   "title": "L'alphabet et les sons spécifiques de la langue",
   "learning_objectives": [
-    "Identifier l'alphabet et le système phonologique de la langue Mani",
-    "Prononcer correctement les consonnes complexes et doubles comme /gb/ et /kp/",
-    "Distinguer les voyelles orales des voyelles nasales"
+    "Identifier les lettres de l'alphabet mani et leurs valeurs sonores",
+    "Reconnaître les consonnes prénasalisées et la labiovélaire /gb/",
+    "Comprendre le rôle du ton dans la distinction du sens des mots"
   ],
   "phonetic_focus": {
-    "key_sounds": "La langue Mani s'écrit avec l'alphabet latin adapté. Ses spécificités incluent les digrammes occlusifs co-articulés /gb/ et /kp/ (articulés simultanément du fond de la gorge et des lèvres) et la nasale vélaire /ŋ/. La présence de voyelles ouvertes (ɛ, ɔ) et fermées (e, o) est cruciale.",
-    "common_pitfalls": "Ne séparez pas le 'k' et le 'p' lors de la lecture de 'kp'. C'est une seule consonne injectée. Évitez de prononcer le 'ŋ' comme un groupe 'n' + 'g' articulé à la française."
+    "key_sounds": "L'alphabet mani (source : Wikipédia fr, d'après Childs) comprend : A a, B b, C c, D d, E e, Ɛ ɛ, Ə ə, F f, Gb gb, H h, I i, K k, L l, M m, N n, Ŋ ŋ, Ny ny, O o, Ɔ ɔ, P p, R r, S s, T t, U u, W w, Y y. Le mani a 8 voyelles et des consonnes prénasalisées (mp, nt/nd, ŋk) ainsi qu'une occlusive labiovélaire /gb/ (Childs 2011, ch.2).",
+    "common_pitfalls": "Les francophones prononcent souvent /gb/ comme deux sons séparés (g puis b) alors qu'il s'agit d'une articulation simultanée unique. Le ny (palatal ɲ) est souvent confondu avec 'gn' français ou simplifié en 'n'. Les voyelles ɛ et ɔ (ouvertes) sont souvent confondues avec e et o (fermées)."
   },
   "vocabulary": [
     {
-      "word_id": "v3_1",
-      "term": "kperɛ",
-      "phonetic_api": "/kpe.rɛ/",
-      "phonetic_simple": "KPE-RÈ",
-      "translation": "donner",
-      "example_sentence": "Kperɛ mi wɔli.",
-      "example_phonetic": "/kpe.rɛ mi wɔ.li/",
-      "example_translation": "Donne-moi du travail."
+      "word_id": "v1",
+      "term": "ti",
+      "phonetic_api": "/ti/",
+      "phonetic_simple": "TI",
+      "translation": "noir (exemple avec /t/ dental)",
+      "example_sentence": "ti-ti",
+      "example_phonetic": "/titi/",
+      "example_translation": "noir-noir (redoublement, intensité)"
     },
     {
-      "word_id": "v3_2",
-      "term": "gbalan",
-      "phonetic_api": "/ɡba.lan/",
-      "phonetic_simple": "GBA-LAN",
-      "translation": "sec / desséché",
-      "example_sentence": "Kere bɛ gbalan.",
-      "example_phonetic": "/ke.re bɛ ɡba.lan/",
-      "example_translation": "L'arbre est sec."
+      "word_id": "v2",
+      "term": "ci",
+      "phonetic_api": "/tʃi/",
+      "phonetic_simple": "TCHI",
+      "translation": "mortier (exemple avec voyelle /i/ fermée)",
+      "example_sentence": "ci vs ce",
+      "example_phonetic": "/tʃi/ vs /tʃɛ/",
+      "example_translation": "mortier / imperfectif (paire minimale de voyelles)"
     },
     {
-      "word_id": "v3_3",
-      "term": "ŋon",
-      "phonetic_api": "/ŋon/",
-      "phonetic_simple": "NGON",
-      "translation": "boire",
-      "example_sentence": "N ŋon lan.",
-      "example_phonetic": "/n̩ ŋon lan/",
-      "example_translation": "Je bois de l'eau."
+      "word_id": "v3",
+      "term": "gbay",
+      "phonetic_api": "/gbaj/",
+      "phonetic_simple": "GBAÏ",
+      "translation": "bundle/paquet (exemple avec la labiovélaire /gb/)",
+      "example_sentence": "gbay cay",
+      "example_phonetic": "/gbaj tʃaj/",
+      "example_translation": "deux paquets (extrait du virelangue mani, Childs 2011)"
     },
     {
-      "word_id": "v3_4",
-      "term": "tunkɛ",
-      "phonetic_api": "/tun.kɛ/",
-      "phonetic_simple": "TOUN-KÈ",
-      "translation": "joie / être content",
-      "example_sentence": "A bɛ tunkɛ lɔ.",
-      "example_phonetic": "/a bɛ tun.kɛ lɔ/",
-      "example_translation": "Il est dans la joie ici."
+      "word_id": "v4",
+      "term": "wance",
+      "phonetic_api": "/wantʃɛ/",
+      "phonetic_simple": "OUAN-TCHÉ",
+      "translation": "petite sœur (exemple avec prénasalisée /nc/)",
+      "example_sentence": "wance mi",
+      "example_phonetic": "/wantʃɛ mi/",
+      "example_translation": "ma petite sœur"
     },
     {
-      "word_id": "v3_5",
-      "term": "woni",
-      "phonetic_api": "/wo.ni/",
-      "phonetic_simple": "WO-NI",
-      "translation": "demain",
-      "example_sentence": "Woni wɔli n bɛ.",
-      "example_phonetic": "/wo.ni wɔ.li n̩ bɛ/",
-      "example_translation": "Demain il y a du travail."
+      "word_id": "v5",
+      "term": "kane",
+      "phonetic_api": "/kanɛ/",
+      "phonetic_simple": "KA-NÉ",
+      "translation": "bras (exemple avec vélaire finale /ŋk/)",
+      "example_sentence": "kaŋk",
+      "example_phonetic": "/kaŋk/",
+      "example_translation": "racine (contraste avec 'kane')"
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p3_1",
-      "original": "Kperɛ mi mboi.",
-      "phonetic_api": "/kpe.rɛ mi mboi/",
-      "phonetic_simple": "KPE-RÈ MI MBOÏ",
-      "translation": "Salue-moi (Donne-moi le bonjour).",
-      "context": "Demander poliment à quelqu'un de transmettre des salutations."
+      "phrase_id": "p1",
+      "original": "tak tikit-tikit titi ticay gbay gbɔy cay",
+      "phonetic_api": "/tak tikit-tikit titi titʃaj gbaj gbɔj tʃaj/",
+      "phonetic_simple": "TAK TI-KIT-TI-KIT TI-TI TI-TCHAÏ GBAÏ GBOÏ TCHAÏ",
+      "translation": "Deux courtes souches noires ont frappé deux paquets.",
+      "context": "Virelangue mani authentique cité par Childs (2011), utilisé pour l'entraînement à la distinction /t/ vs /c/."
     },
     {
-      "phrase_id": "p3_2",
-      "original": "Ŋon lan kɔŋ.",
-      "phonetic_api": "/ŋon lan kɔŋ/",
-      "phonetic_simple": "NGON LAN KONG",
-      "translation": "Bois de l'eau, s'il te plaît.",
-      "context": "Offrir à boire à un invité qui arrive à la maison."
+      "phrase_id": "p2",
+      "original": "shɛke",
+      "phonetic_api": "/ʃɛkɛ/",
+      "phonetic_simple": "CHÉ-KÉ",
+      "translation": "oui",
+      "context": "Particule affirmative attestée, utile pour illustrer la consonne /ʃ/ et la diphtongue -ɛkɛ (Childs 2011)."
     },
     {
-      "phrase_id": "p3_3",
-      "original": "N fɔkɔ kpere.",
-      "phonetic_api": "/n̩ fɔ.kɔ kpe.re/",
-      "phonetic_simple": "N FƆ-KƆ KPE-RE",
-      "translation": "Mon origine est lointaine.",
-      "context": "Expliquer que l'on vient d'une contrée très reculée."
+      "phrase_id": "p3",
+      "original": "kena",
+      "phonetic_api": "/kɛna/",
+      "phonetic_simple": "KÉ-NA",
+      "translation": "s'il te plaît / comment (selon contexte)",
+      "context": "Illustre le contraste vocalique /ɛ/ vs /e/ typique du mani (Childs 2011, ch. Discours et pragmatique)."
     },
     {
-      "phrase_id": "p3_4",
-      "original": "Gbalan a ra.",
-      "phonetic_api": "/ɡba.lan a ra/",
-      "phonetic_simple": "GBA-LAN A RA",
-      "translation": "C'est sec.",
-      "context": "Parler du linge, d'une plante ou du sol desséché."
+      "phrase_id": "p4",
+      "original": "mmu",
+      "phonetic_api": "/mmu/",
+      "phonetic_simple": "MMOU",
+      "translation": "eau",
+      "context": "Illustre la nasale syllabique /m/ en position initiale, un son sans équivalent en français standard (Childs 2011, ex.20 sur les nasales syllabiques)."
     }
   ],
   "grammar_points": [
     {
-      "concept": "La corrélation de nasalité et structures syllabiques",
-      "explanation": "Les syllabes en Mani se terminent généralement par une voyelle ou par la consonne nasale finale 'ŋ' qui affecte le timbre de toute la syllabe.",
+      "concept": "Le système consonantique et vocalique du mani",
+      "explanation": "Le mani a un inventaire de consonnes typique ouest-africain avec labiales, dentales, palatales, vélaires, labiovélaires (/gb/) et une série de prénasalisées (/mp/, /nt/-/nd/, /ŋk/). Le système vocalique comprend 8 voyelles symétriques : i, e, ɛ, a, ɔ, o, u et la voyelle centrale ə (Childs 2011, Tables 2 et 5).",
       "rules": [
-        "La structure syllabique de base est de type Consonne-Voyelle (CV) ou Consonne-Voyelle-Nasale (CVN).",
-        "Les digrammes 'kp' et 'gb' agissent phonologiquement comme des consonnes uniques simples."
+        "Les consonnes prénasalisées ne se trouvent normalement pas en position initiale, sauf quelques exceptions lexicalisées.",
+        "Le ton (registre haut/bas) est phonémique : il distingue par exemple l'hortatif du perfectif sur certains verbes.",
+        "La voyelle centrale ə n'a pas d'équivalent proche en français standard."
       ],
       "examples": [
         {
-          "structure": "kperɛ",
-          "phonetic_api": "/kpe.rɛ/",
-          "meaning": "donner (Syllabes: kpe - rɛ)"
+          "structure": "ci /tʃi/ 'mortier' vs ce /tʃɛ/ 'imperfectif'",
+          "phonetic_api": "/tʃi/ vs /tʃɛ/",
+          "meaning": "contraste vocalique i/e"
+        },
+        {
+          "structure": "tɔk 'souche' vs tok 'arbre'",
+          "phonetic_api": "/tɔk/ vs /tok/",
+          "meaning": "contraste vocalique ɔ/o"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Abou",
-      "text": "Kɔŋ, kperɛ mi lan ŋon.",
-      "phonetic_api": "/kɔŋ kpe.rɛ mi lan ŋon/",
-      "phonetic_simple": "KONG, KPE-RÈ MI LAN NGON",
-      "translation": "S'il te plaît, donne-moi de l'eau à boire."
+      "speaker": "Professeur",
+      "text": "tak tikit-tikit titi ticay gbay gbɔy cay.",
+      "phonetic_api": "/tak tikit-tikit titi titʃaj gbaj gbɔj tʃaj/",
+      "phonetic_simple": "TAK TI-KIT-TI-KIT TI-TI TI-TCHAÏ GBAÏ GBOÏ TCHAÏ",
+      "translation": "Deux courtes souches noires ont frappé deux paquets."
     },
     {
-      "speaker": "Marie",
-      "text": "Lan bɛ lɔ. Ŋon kɔŋ.",
-      "phonetic_api": "/lan bɛ lɔ ŋon kɔŋ/",
-      "phonetic_simple": "LAN BÈ LƆ. NGON KONG",
-      "translation": "L'eau est là. Bois s'il te plaît."
+      "speaker": "Élève",
+      "text": "gbay?",
+      "phonetic_api": "/gbaj/",
+      "phonetic_simple": "GBAÏ",
+      "translation": "Paquet ?"
     },
     {
-      "speaker": "Abou",
-      "text": "Cece, n bɛ tunkɛ.",
-      "phonetic_api": "/tʃe.tʃe n̩ bɛ tun.kɛ/",
-      "phonetic_simple": "TCHÉ-TCHÉ, N BÈ TOUN-KÈ",
-      "translation": "Merci, je suis content."
+      "speaker": "Professeur",
+      "text": "shɛke, gbay ne 'paquet, bundle'.",
+      "phonetic_api": "/ʃɛkɛ, gbaj nɛ/",
+      "phonetic_simple": "CHÉ-KÉ, GBAÏ NÈ",
+      "translation": "Oui, « gbay » signifie « paquet »."
     },
     {
-      "speaker": "Marie",
-      "text": "Yoma a ra. Gbana.",
-      "phonetic_api": "/jo.ma a ra ɡba.na/",
-      "phonetic_simple": "YO-MA A RA. GBA-NA",
-      "translation": "C'est bien. Au revoir."
+      "speaker": "Professeur",
+      "text": "ci / ce",
+      "phonetic_api": "/tʃi/, /tʃɛ/",
+      "phonetic_simple": "TCHI / TCHÉ",
+      "translation": "'mortier' vs marqueur de l'Imperfectif — paire illustrant le contraste /i/ vs /ɛ/ (Childs 2011, ex.18)."
+    },
+    {
+      "speaker": "Professeur",
+      "text": "ci / ce",
+      "phonetic_api": "/tʃi/, /tʃɛ/",
+      "phonetic_simple": "TCHI / TCHÉ",
+      "translation": "'mortier' vs marqueur de l'Imperfectif — paire illustrant le contraste /i/ vs /ɛ/ (Childs 2011, ex.18)."
+    },
+    {
+      "speaker": "Professeur",
+      "text": "ci / ce",
+      "phonetic_api": "/tʃi/, /tʃɛ/",
+      "phonetic_simple": "TCHI / TCHÉ",
+      "translation": "'mortier' vs marqueur de l'Imperfectif — paire illustrant le contraste /i/ vs /ɛ/ (Childs 2011, ex.18)."
     }
   ],
   "cultural_notes": [
-    "Dans la tradition orale Mani, la clarté et la musicalité de l'articulation des sons comme 'kp' ou 'gb' démontraient l'éloquence d'un orateur lors des palabres villageoises. Les sonorités douces ou nasales étaient privilégiées pour exprimer le respect envers la chefferie."
+    "Le mani est parfois appelé « la langue tché-tché » par les locuteurs des langues voisines, en raison de l'usage fréquent de l'article défini (Childs 2011, ch.2).",
+    "L'orthographe utilisée aujourd'hui pour le mani a été fixée principalement par les linguistes du projet de documentation du mani (Mani Documentation Project, SOAS/Portland State University) dans les années 2000, avec la participation de locuteurs natifs."
   ],
   "exercises": [
     {
-      "exercise_id": "ex3_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Comment prononce-t-on le digramme 'kp' en langue Mani ?",
+      "question": "Quelle paire de mots illustre un contraste vocalique attesté en mani ?",
       "options": [
-        "En séparant le 'k' puis le 'p'",
-        "En un seul son co-articulé simultanément",
-        "Comme un 'p' muet"
+        "ci 'mortier' / ce 'imperfectif'",
+        "ya 'je' / ya 'mère' (homophones totaux)",
+        "mo / mo (aucune différence)"
       ],
-      "correct_answer": "En un seul son co-articulé simultanément",
-      "explanation": "Le 'kp' est une consonne double articulée en un seul mouvement sans coupure."
+      "correct_answer": "ci 'mortier' / ce 'imperfectif'",
+      "explanation": "Ce contraste i/e est explicitement donné par Childs (2011) comme paire minimale."
     },
     {
-      "exercise_id": "ex3_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "N [ ___ ] lan (Je bois de l'eau).",
-      "correct_answer": "ŋon",
-      "hint": "Le verbe commence par la lettre nasale vélaire ŋ."
+      "sentence_with_blank": "La consonne [ ___ ] est une occlusive labiovélaire absente du français.",
+      "correct_answer": "gb",
+      "hint": "Elle apparaît dans le mot « gbay » (paquet)."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Childs, G. Tucker (2011), A Grammar of Mani, Mouton Grammar Library 54, De Gruyter Mouton",
+      "url": "https://theswissbay.ch/pdf/Books/Linguistics/Mega%20linguistics%20pack/African/Niger-Congo/other%20Atlantic-Congo/Bullom%20So;%20A%20Grammar%20of%20Mani%20(Childs).pdf"
+    },
+    {
+      "label": "Wikipédia — Bullom so",
+      "url": "https://fr.wikipedia.org/wiki/Bullom_so"
+    }
+  ],
+  "confidence": "élevée",
+  "confidence_note": "Les tables phonologiques (consonnes, voyelles) et le virelangue sont directement cités et glosés dans Childs (2011) ; l'alphabet complet provient de Wikipédia français, qui se base sur les mêmes sources académiques."
 }

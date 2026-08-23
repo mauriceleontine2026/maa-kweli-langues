@@ -4,205 +4,200 @@
   "module_number": 3,
   "module_title": "Besoins immédiats",
   "lesson_number": 8,
-  "title": "La nourriture et les boissons",
+  "title": "La nourriture et les boissons (commander au marché ou au restaurant)",
   "learning_objectives": [
-    "Nommer les aliments de base, les plats courants et les boissons en kuranko",
-    "Exprimer la faim, la soif et la volonté de consommer un aliment",
-    "Passer une commande simple ou effectuer un achat alimentaire de base"
+    "Nommer les aliments de base attestés de l'alimentation kuranko (riz, farine de riz)",
+    "Utiliser le mot attesté pour l'eau",
+    "Formuler une demande simple de nourriture ou de boisson"
   ],
   "phonetic_focus": {
-    "key_sounds": "Le groupe consonantique 'ny' dans 'nyɔ' (mil) s'articule comme le 'gn' français dans 'oignon'. La voyelle ouverte 'ɔ' dans 'tɔ' ou 'dɔgɔ' doit garder son timbre bien distinct de la voyelle fermée 'o'.",
-    "common_pitfalls": "Attention à ne pas prononcer le 'j' de 'ji' (eau) comme le 'j' français dans 'jour'. Il se prononce comme une affriquée /d͡ʒ/, proche du 'dg' dans l'anglais 'badge'."
+    "key_sounds": "Le mot « yí » (eau) porte un ton haut marqué, contrastant avec d'autres monosyllabes du kuranko.",
+    "common_pitfalls": "Les francophones prononcent souvent « yí » sans relief tonal, alors que le ton haut fait partie intégrante du mot."
   },
   "vocabulary": [
     {
-      "word_id": "v1_m3_l8",
-      "term": "Ji",
-      "phonetic_api": "/d͡ʒi/",
-      "phonetic_simple": "DJI",
-      "translation": "Eau",
-      "example_sentence": "Ji bɛ yan ?",
-      "example_phonetic": "/d͡ʒi bɛ jan/",
-      "example_translation": "Y a-t-il de l'eau ?"
+      "word_id": "v1",
+      "term": "yí",
+      "phonetic_api": "/jí/",
+      "phonetic_simple": "YI (ton haut)",
+      "translation": "eau",
+      "example_sentence": "N na yí sɔtɔ.",
+      "example_phonetic": "/n na jí sɔtɔ/",
+      "example_translation": "Je voudrais de l'eau (littéralement : je veux obtenir de l'eau)."
     },
     {
-      "word_id": "v2_m3_l8",
-      "term": "Malo",
-      "phonetic_api": "/ma.lo/",
-      "phonetic_simple": "MA-LO",
-      "translation": "Riz",
-      "example_sentence": "N bɛ malo dun",
-      "example_phonetic": "/ɱ͡bɛ ma.lo dun/",
-      "example_translation": "Je mange du riz"
+      "word_id": "v2",
+      "term": "degé",
+      "phonetic_api": "/dɛɡe/",
+      "phonetic_simple": "dè-GUÉ",
+      "translation": "farine de riz (utilisée pour des mets traditionnels et rituels)",
+      "example_sentence": "Degé ka diya.",
+      "example_phonetic": "/dɛɡe ka dija/",
+      "example_translation": "La farine de riz est délicieuse."
     },
     {
-      "word_id": "v3_m3_l8",
-      "term": "Nyɔ",
-      "phonetic_api": "/ɲɔ/",
-      "phonetic_simple": "NYƆ",
-      "translation": "Mil / Céréale",
-      "example_sentence": "Nyɔ tɔ",
-      "example_phonetic": "/ɲɔ tɔ/",
-      "example_translation": "La pâte de mil"
+      "word_id": "v3",
+      "term": "konke",
+      "phonetic_api": "/konkɛ/",
+      "phonetic_simple": "KON-ké",
+      "translation": "la faim",
+      "example_sentence": "Konke bara n' na.",
+      "example_phonetic": "/konkɛ bara n na/",
+      "example_translation": "J'ai faim (littéralement : la faim est sur moi)."
     },
     {
-      "word_id": "v4_m3_l8",
-      "term": "Subo",
-      "phonetic_api": "/su.bo/",
-      "phonetic_simple": "SOU-BO",
-      "translation": "Viande",
-      "example_sentence": "N fɛ subo fɛ",
-      "example_phonetic": "/ɲ͡fɛ su.bo fɛ/",
-      "example_translation": "Je veux de la viande"
+      "word_id": "v4",
+      "term": "sarake",
+      "phonetic_api": "/sarakɛ/",
+      "phonetic_simple": "sa-RA-ké",
+      "translation": "offrande alimentaire rituelle, souvent à base de riz ou de degé",
+      "example_sentence": "Sarake ye degé don.",
+      "example_phonetic": "/sarakɛ je dɛɡe don/",
+      "example_translation": "L'offrande contient de la farine de riz."
     },
     {
-      "word_id": "v5_m3_l8",
-      "term": "Jɛgɛ",
-      "phonetic_api": "/d͡ʒɛ.gɛ/",
-      "phonetic_simple": "DJƐ-GƐ",
-      "translation": "Poisson",
-      "example_sentence": "Jɛgɛ gbe",
-      "example_phonetic": "/d͡ʒɛ.gɛ gbe/",
-      "example_translation": "Poisson frais"
-    },
-    {
-      "word_id": "v6_m3_l8",
-      "term": "Nɔnɔ",
-      "phonetic_api": "/nɔ.nɔ/",
-      "phonetic_simple": "NƆ-NƆ",
-      "translation": "Lait",
-      "example_sentence": "Nɔnɔ kumu",
-      "example_phonetic": "/nɔ.nɔ ku.mu/",
-      "example_translation": "Lait caillé"
+      "word_id": "v5",
+      "term": "diya",
+      "phonetic_api": "/dija/",
+      "phonetic_simple": "di-YA",
+      "translation": "être doux, agréable au goût (s'applique à un aliment ou une boisson)",
+      "example_sentence": "Yí ka diya.",
+      "example_phonetic": "/ji ka dija/",
+      "example_translation": "L'eau est agréable/bonne."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p1_m3_l8",
-      "original": "Kɔngɔ bɛ n na",
-      "phonetic_api": "/kɔn.gɔ bɛ ɱ͡na/",
-      "phonetic_simple": "KƆN-GƆ BƐ N NA",
-      "translation": "J'ai faim (litt. : La faim est sur moi)",
-      "context": "Exprimer un besoin physique de manger."
+      "phrase_id": "p1",
+      "original": "N na yí sɔtɔ.",
+      "phonetic_api": "/n na jí sɔtɔ/",
+      "phonetic_simple": "n na YI so-TO",
+      "translation": "Je voudrais de l'eau.",
+      "context": "Phrase de demande construite à partir de « yí » (eau), attesté par le dictionnaire Glosbe."
     },
     {
-      "phrase_id": "p2_m3_l8",
-      "original": "Minbaga bɛ n na",
-      "phonetic_api": "/min.ba.ga bɛ ɱ͡na/",
-      "phonetic_simple": "MIN-BA-GA BƐ N NA",
-      "translation": "J'ai soif (litt. : Le désir de boire est sur moi)",
-      "context": "Exprimer le besoin de boire."
+      "phrase_id": "p2",
+      "original": "Konke bara n' na.",
+      "phonetic_api": "/konkɛ bara n na/",
+      "phonetic_simple": "KON-ké BA-ra n na",
+      "translation": "J'ai faim.",
+      "context": "Utilise « konke », attesté dans la réponse traditionnelle de salutation étudiée à la leçon 1."
     },
     {
-      "phrase_id": "p3_m3_l8",
-      "original": "N fɛ malo fɛ",
-      "phonetic_api": "/ɲ͡fɛ ma.lo fɛ/",
-      "phonetic_simple": "N FƐ MA-LO FƐ",
-      "translation": "Je veux du riz",
-      "context": "Demander ou commander un repas."
+      "phrase_id": "p3",
+      "original": "Degé ka diya.",
+      "phonetic_api": "/dɛɡe ka dija/",
+      "phonetic_simple": "dè-GUÉ ka di-YA",
+      "translation": "La farine de riz est délicieuse.",
+      "context": "Le degé (farine de riz) est un aliment traditionnel documenté dans le contexte des offrandes sarake par Michael Jackson."
     },
     {
-      "phrase_id": "p4_m3_l8",
-      "original": "Ji di n ma i ni wale",
-      "phonetic_api": "/d͡ʒi di ɱ͡ma i ni wa.le/",
-      "phonetic_simple": "DJI DI N MA I NI WA-LE",
-      "translation": "Donne-moi de l'eau, s'il te plaît (merci)",
-      "context": "Demander poliment à boire."
-    },
-    {
-      "phrase_id": "p5_m3_l8",
-      "original": "N ma a fɛ n t'a dun",
-      "phonetic_api": "/ɱ͡ma a fɛ ɲ͡t'a dun/",
-      "phonetic_simple": "N MA A FƐ N T'A DOUN",
-      "translation": "Je ne veux pas manger ça",
-      "context": "Refuser poliment un aliment."
+      "phrase_id": "p4",
+      "original": "Yí ka diya.",
+      "phonetic_api": "/ji ka dija/",
+      "phonetic_simple": "yi ka di-YA",
+      "translation": "L'eau est bonne/agréable.",
+      "context": "Formule d'appréciation simple utilisant l'adjectif « diya » (doux/agréable), utile après avoir reçu de l'eau (yí) offerte."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'expression du besoin physique avec 'bɛ n na'",
-      "explanation": "En kuranko, la faim, la soif ou certaines sensations ne s'expriment pas avec un verbe avoir direct, mais à travers une structure locative : [Sensation] + bɛ (est) + [Pronom] + na (sur).",
+      "concept": "Exprimer un besoin ou une envie avec « na »",
+      "explanation": "Pour exprimer un souhait simple (« je voudrais »), le kuranko emploie une construction avec le possessif « na » suivi du nom désiré et d'un verbe d'obtention, sur le modèle observé dans l'expression attestée « N na yí sɔtɔ » (littéralement : mon eau à obtenir).",
       "rules": [
-        "Structure : [Nom de la sensation] + bɛ + n + na",
-        "Le pronom 'N' s'assimile phonétiquement à la postposition 'na' pour former /ɱ͡na/ ou /nːa/."
+        "Le pronom + « na » exprime une orientation/un souhait vers l'objet.",
+        "Le verbe se place après l'objet désiré, contrairement au français."
       ],
       "examples": [
         {
-          "structure": "Kɔngɔ bɛ n na",
-          "phonetic_api": "/kɔn.gɔ bɛ ɱ͡na/",
-          "meaning": "J'ai faim"
-        }
-      ]
-    },
-    {
-      "concept": "Le verbe de volonté 'fɛ'",
-      "explanation": "Pour exprimer un choix ou un désir concernant de la nourriture ou un objet, on utilise l'expression discontinue 'bɛ... fɛ'.",
-      "rules": [
-        "Structure : [Sujet] + bɛ + [Objet désiré] + fɛ",
-        "À la première personne, 'N bɛ' fusionne familièrement à l'oral en 'N' devant la phrase si le contexte est immédiat."
-      ],
-      "examples": [
-        {
-          "structure": "N bɛ ji fɛ",
-          "phonetic_api": "/ɱ͡bɛ d͡ʒi fɛ/",
-          "meaning": "Je veux de l'eau"
+          "structure": "N + na + [objet] + sɔtɔ",
+          "phonetic_api": "/n na jí sɔtɔ/",
+          "meaning": "je voudrais obtenir [objet]"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Lamine",
-      "text": "N ba, kɔngɔ bɛ n na. Domoni bɛ yan ?",
-      "phonetic_api": "/ŋ͡ba kɔn.gɔ bɛ ɱ͡na do.mo.ni bɛ jan/",
-      "phonetic_simple": "N BA, KƆN-GƆ BƐ N NA. DO-MO-NI BƐ YAN ?",
-      "translation": "Maman, j'ai faim. Y a-t-il de la nourriture ici ?"
+      "speaker": "Client",
+      "text": "I kende. Konke bara n' na.",
+      "phonetic_api": "/i kɛndɛ konkɛ bara n na/",
+      "phonetic_simple": "i KEN-dé, KON-ké BA-ra n na",
+      "translation": "Bonjour. J'ai faim."
     },
     {
-      "speaker": "Awa (La mère)",
-      "text": "Ɔnhɔ, malo ni jɛgɛ bɛ yan. I fɛ malo fɛ ?",
-      "phonetic_api": "/ɔn.hɔ ma.lo ni d͡ʒɛ.gɛ bɛ jan i fɛ ma.lo fɛ/",
-      "phonetic_simple": "ƆN-HƆ, MA-LO NI DJƐ-GƐ BƐ YAN. I FƐ MA-LO FƐ ?",
-      "translation": "Oui, il y a du riz et du poisson. Tu veux du riz ?"
+      "speaker": "Vendeuse",
+      "text": "Degé bara yan.",
+      "phonetic_api": "/dɛɡe bara jan/",
+      "phonetic_simple": "dè-GUÉ BA-ra yan",
+      "translation": "Il y a de la farine de riz ici."
     },
     {
-      "speaker": "Lamine",
-      "text": "Ɔnhɔ, n bɛ malo fɛ. Ji di n ma fana.",
-      "phonetic_api": "/ɔn.hɔ ɱ͡bɛ ma.lo fɛ d͡ʒi di ɱ͡ma fa.na/",
-      "phonetic_simple": "ƆN-HƆ, N BƐ MA-LO FƐ. DJI DI N MA FA-NA.",
-      "translation": "Oui, je veux du riz. Donne-moi de l'eau aussi."
+      "speaker": "Client",
+      "text": "A dii! N na yí sɔtɔ fanne.",
+      "phonetic_api": "/a diː n na jí sɔtɔ fanːɛ/",
+      "phonetic_simple": "a diː, n na YI so-TO FAN-né",
+      "translation": "Très bien ! Je voudrais aussi de l'eau."
     },
     {
-      "speaker": "Awa (La mère)",
-      "text": "A min nɛ. I ni wale.",
-      "phonetic_api": "/a min nɛ i ni wa.le/",
-      "phonetic_simple": "A MIN NƐ. I NI WA-LE.",
-      "translation": "Bois ceci. Bon appétit (Merci)."
+      "speaker": "Vendeuse",
+      "text": "Allah ma tanke.",
+      "phonetic_api": "/alːah ma taŋkɛ/",
+      "phonetic_simple": "AL-lah ma TAN-ké",
+      "translation": "Que Dieu te protège."
     }
   ],
   "cultural_notes": [
-    "Le riz ('Malo') est la base absolue de l'alimentation en pays Kuranko. Dire 'manger' se traduit souvent de façon générale par 'manger du riz'. Le repas est traditionnellement un moment de partage collectif où tout le monde mange autour d'un grand plat commun unique disposé sur une natte.",
-    "Offrir de l'eau ('Ji') à un visiteur dès son arrivée dans une concession, avant même d'entamer les salutations officielles, est un devoir sacré d'hospitalité."
+    "Le riz et sa farine (degé) occupent une place centrale dans l'alimentation et les rituels kuranko, en particulier lors des offrandes « sarake » décrites par Michael Jackson dans ses travaux ethnographiques.",
+    "L'économie traditionnelle kuranko repose largement sur la riziculture, complétée par la culture de l'arachide et la chasse, selon les descriptions de la page Wikipedia consacrée au peuple kuranko."
   ],
   "exercises": [
     {
-      "exercise_id": "ex1_m3_l8",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quelle expression kuranko utilise-t-on pour dire textuellement 'J'ai faim' ?",
+      "question": "Quel mot attesté désigne l'eau en kuranko ?",
       "options": [
-        "N bɛ malo fɛ",
-        "Kɔngɔ bɛ n na",
-        "Minbaga bɛ n na"
+        "Yí",
+        "Degé",
+        "Konke"
       ],
-      "correct_answer": "Kɔngɔ bɛ n na",
-      "explanation": "Cette tournure idiomatique signifie littéralement 'La faim est sur moi'."
+      "correct_answer": "Yí",
+      "explanation": "« Yí » (eau) est attesté dans le dictionnaire collaboratif Glosbe pour le kuranko."
     },
     {
-      "exercise_id": "ex2_m3_l8",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Pour demander de l'eau, on emploie le terme : [ ___ ] di n ma.",
-      "correct_answer": "ji",
-      "hint": "L'élément liquide vital indispensable"
+      "sentence_with_blank": "[ ___ ] bara n' na. (J'ai faim.)",
+      "correct_answer": "Konke",
+      "hint": "Ce mot signifie « la faim », déjà rencontré dans la réponse de salutation."
+    },
+    {
+      "exercise_id": "ex3",
+      "type": "multiple_choice",
+      "question": "Quel aliment traditionnel, à base de riz, est associé aux offrandes rituelles (sarake) chez les Kuranko ?",
+      "options": [
+        "Degé (farine de riz)",
+        "Le pain",
+        "Le maïs"
+      ],
+      "correct_answer": "Degé (farine de riz)",
+      "explanation": "Le degé, farine de riz, est mentionné par Michael Jackson en lien avec les offrandes rituelles sarake."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Glosbe Kuranko-English Dictionary, entrée \"water\"",
+      "url": "https://glosbe.com/en/knk/water"
+    },
+    {
+      "label": "Michael Jackson, \"How Lifeworlds Work\" (Univ. of Chicago Press, 2022) — extraits",
+      "url": "https://dokumen.pub/how-lifeworlds-work-emotionality-sociality-and-the-ambiguity-of-being-9780226492018.html"
+    },
+    {
+      "label": "Wikipedia, \"Kuranko people\"",
+      "url": "https://en.wikipedia.org/wiki/Kuranko_people"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "« Yí » (eau) est attesté par Glosbe ; « degé », « konke » et « sarake » sont attestés par Michael Jackson. Les phrases complètes assemblant ces mots (ex. « N na yí sɔtɔ ») restent des constructions pédagogiques raisonnables non vérifiées comme énoncé complet dans une source unique."
 }

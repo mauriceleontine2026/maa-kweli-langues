@@ -6,220 +6,268 @@
   "lesson_number": 3,
   "title": "L'alphabet et les sons spécifiques de la langue",
   "learning_objectives": [
-    "Identifier et prononcer correctement les sept voyelles orales et nasales du Sankaran",
-    "Maîtriser l'articulation des consonnes co-articulées doubles (gb, kp)",
-    "Distinguer l'impact sémantique de la longueur vocalique et de la nasalisation"
+    "Reconnaître les lettres absentes du malinké (q, v, x, z)",
+    "Prononcer les consonnes complexes propres au malinké : c, j, ny, gb",
+    "Distinguer les voyelles brèves, longues et nasales",
+    "Comprendre le rôle du ton dans la distinction du sens des mots"
   ],
   "phonetic_focus": {
-    "key_sounds": "L'alphabet Sankaran utilise les caractères latins enrichis de symboles spécifiques. Les voyelles /ɛ/ (noté 'ɛ') et /ɔ/ (noté 'ɔ') sont systématiquement ouvertes. Les consonnes combinées /ɡ͡b/ (noté 'gb') et /k͡p/ (noté 'kp') sont des occlusives labio-vélaires : elles se prononcent en bloquant et en relâchant simultanément l'air au niveau des lèvres et du voile du palais, sans coupure.",
-    "common_pitfalls": "Évitez absolument de décomposer 'gb' en prononçant d'abord un 'g' puis un 'b'. Il s'agit d'un son unique. Ne confondez pas une voyelle nasale (suivie de 'n' en fin de syllabe, sans articuler le 'n' à la française) avec une voyelle orale pure."
+    "key_sounds": [
+      "gb : consonne vélaire-labiale sonore, prononcée en insistant sur le [g] plutôt que sur le [b] (ex. gbolo = peau)",
+      "c : se prononce comme dans l'espagnol 'muchacho', parfois noté 'ty' (ex. cè = homme)",
+      "j : se prononce [dʒ] comme 'dj', parfois noté 'dy' (ex. jara = lion)",
+      "ny : représente le son [ɲ] du français 'gn' (ex. nyari = chat)",
+      "Voyelles longues (aa, ee, ɛɛ, oo...) issues de la chute d'une consonne entre deux voyelles identiques (ex. saga > saa = mouton)",
+      "Voyelles nasales an/en/èn/in/on/ɔn/un : ne jamais prononcer le 'n' comme une consonne séparée",
+      "Spécificité attestée du parler du Sankaran (Faranah-Maninka, étude structurale de Spears) : système de 7 voyelles /i e ɛ a o ɔ u/ (identique au maninka standard), mais structure syllabique très majoritairement CV (75,6 % des syllabes du corpus étudié) et CVN (21,15 %), avec très peu de groupes consonantiques (moins de 1 % du lexique, presque uniquement dans les emprunts français comme « posti », « lekol », « tiatri »). L'occlusive labio-vélaire /gb/ y est décrite comme un « b implosif » à double articulation (ex. gban « gombo »)."
+    ],
+    "common_pitfalls": [
+      "Prononcer 'gb' comme un simple 'b', ce qui peut changer le sens du mot (gálan ≠ gbálan)",
+      "Ignorer le ton, qui distingue par exemple bà (chèvre, ton bas) de bá (mère, ton haut)",
+      "Ajouter les lettres q, v, x, z qui n'existent pas en malinké"
+    ]
   },
   "vocabulary": [
     {
-      "word_id": "v3_1",
-      "term": "Gban",
-      "phonetic_api": "/ɡ͡ban/",
-      "phonetic_simple": "GBANE",
-      "translation": "Chauffer / Brûler / Sécher au soleil",
-      "example_sentence": "Tele be jii gban na.",
-      "example_phonetic": "/te.le be d͡ʒiː ɡ͡ban na/",
-      "example_translation": "Le soleil est en train de chauffer l'eau."
+      "word_id": "v1",
+      "term": "gbolo",
+      "phonetic_api": "[ɡ͜bolo]",
+      "phonetic_simple": "gbo-lo",
+      "translation": "peau",
+      "example_sentence": "Gbolo nin kèndè.",
+      "example_phonetic": "[ɡ͜bolo nin kɛndɛ]",
+      "example_translation": "Cette peau est saine."
     },
     {
-      "word_id": "v3_2",
-      "term": "Kpan",
-      "phonetic_api": "/k͡pan/",
-      "phonetic_simple": "KPANE",
-      "translation": "Fermer brusquement / Claquer",
-      "example_sentence": "Da kpan kosɛbɛ !",
-      "example_phonetic": "/da k͡pba ko.sɛ.bɛ/",
-      "example_translation": "Ferme fermement la porte !"
+      "word_id": "v2",
+      "term": "cè",
+      "phonetic_api": "[tʃɛ]",
+      "phonetic_simple": "tchè",
+      "translation": "homme, garçon, camarade",
+      "example_sentence": "Cè, i ni sɔɔma !",
+      "example_phonetic": "[tʃɛ i ni sɔːma]",
+      "example_translation": "Camarade, bonjour !"
     },
     {
-      "word_id": "v3_3",
-      "term": "Nyin",
-      "phonetic_api": "/ɲin/",
-      "phonetic_simple": "GNINE",
-      "translation": "Dent",
-      "example_sentence": "N nyin be n dimi na.",
-      "example_phonetic": "/ɲin be ɲ di.mi na/",
-      "example_translation": "Ma dent me fait mal."
+      "word_id": "v3",
+      "term": "jara",
+      "phonetic_api": "[dʒara]",
+      "phonetic_simple": "dja-ra",
+      "translation": "lion",
+      "example_sentence": "Jara nin kabon.",
+      "example_phonetic": "[dʒara nin kabɔn]",
+      "example_translation": "Ce lion est grand."
     },
     {
-      "word_id": "v3_4",
-      "term": "Bɛɛ",
-      "phonetic_api": "/bɛː/",
-      "phonetic_simple": "BƐƐ",
-      "translation": "Tout / Tous / Chaque",
-      "example_sentence": "Mɔgɔ bɛɛ be yan.",
-      "example_phonetic": "/mɔ.ɣɔ bɛː be jan/",
-      "example_translation": "Tout le monde est ici."
+      "word_id": "v4",
+      "term": "nyari",
+      "phonetic_api": "[ɲari]",
+      "phonetic_simple": "nya-ri",
+      "translation": "chat",
+      "example_sentence": "Nyari tèrè lanin kudun do.",
+      "example_phonetic": "[ɲari tɛrɛ lanin kudun do]",
+      "example_translation": "Le chat était couché dans un fauteuil."
     },
     {
-      "word_id": "v3_5",
-      "term": "Kɔnɔ",
-      "phonetic_api": "/kɔ.nɔ/",
-      "phonetic_simple": "KƆ-NƆ",
-      "translation": "Oiseau",
-      "example_sentence": "Kɔnɔ be yiri san.",
-      "example_phonetic": "/kɔ.nɔ be ji.ri san/",
-      "example_translation": "L'oiseau est sur l'arbre."
+      "word_id": "v5",
+      "term": "yiri",
+      "phonetic_api": "[jiri]",
+      "phonetic_simple": "yi-ri",
+      "translation": "arbre, bois",
+      "example_sentence": "Yiri nin too le ko walisa.",
+      "example_phonetic": "[jiri nin toː le ko walisa]",
+      "example_translation": "Cet arbre-ci s'appelle le chêne."
     },
     {
-      "word_id": "v3_6",
-      "term": "Kɔɔnɔ",
-      "phonetic_api": "/kɔː.nɔ/",
-      "phonetic_simple": "KƆƆ-NƆ",
-      "translation": "Le ventre / L'intérieur",
-      "example_sentence": "N kɔɔnɔ be n dimi na.",
-      "example_phonetic": "/ɲ kɔː.nɔ be ɲ di.mi na/",
-      "example_translation": "J'ai mal au ventre (litt: Mon ventre est dans ma douleur)."
+      "word_id": "v6",
+      "term": "saa",
+      "phonetic_api": "[saː]",
+      "phonetic_simple": "sa-a",
+      "translation": "mouton (voyelle longue, de 'saga')",
+      "example_sentence": "Saa ye n bolo.",
+      "example_phonetic": "[saː je n bolo]",
+      "example_translation": "J'ai un mouton."
     },
     {
-      "word_id": "v3_7",
-      "term": "Ŋana",
-      "phonetic_api": "/ŋa.na/",
-      "phonetic_simple": "NGANA",
-      "translation": "Héros / Personne valeureuse",
-      "example_sentence": "Keleke ŋana le nin di.",
-      "example_phonetic": "/ke.le.ke ŋa.na le nin di/",
-      "example_translation": "C'est un vaillant guerrier."
+      "word_id": "v7",
+      "term": "tan",
+      "phonetic_api": "[tan]",
+      "phonetic_simple": "tan (nasalisé)",
+      "translation": "dix (voyelle nasale 'an')",
+      "example_sentence": "Den tan ye n bolo.",
+      "example_phonetic": "[dɛn tan je n bolo]",
+      "example_translation": "J'ai dix enfants."
     },
     {
-      "word_id": "v3_8",
-      "term": "Daa",
-      "phonetic_api": "/daː/",
-      "phonetic_simple": "DAA",
-      "translation": "La bouche / L'ouverture / La jarre",
-      "example_sentence": "Jii be daa kɔnɔ.",
-      "example_phonetic": "/d͡ʒiː be daː kɔ.nɔ/",
-      "example_translation": "L'eau est dans la jarre."
+      "word_id": "v8",
+      "term": "bibi",
+      "phonetic_api": "[bibi]",
+      "phonetic_simple": "bi-bi",
+      "translation": "aigle",
+      "example_sentence": "Bibi ye kono lè.",
+      "example_phonetic": "[bibi je kono lɛ]",
+      "example_translation": "L'aigle est un oiseau."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p3_1",
-      "original": "A fɔ gba !",
-      "phonetic_api": "/a fɔ ɡ͡ba/",
-      "phonetic_simple": "A FƆ GBA",
-      "translation": "Dis-le clairement ! / Parle franchement !",
-      "context": "Demande d'explication limpide ou de vérité sans détour."
+      "phrase_id": "p1",
+      "original": "A ye fo di ?",
+      "phonetic_api": "[a je fo di]",
+      "phonetic_simple": "a-yé-fo-di",
+      "translation": "Comment ça se dit ?",
+      "context": "Demander la prononciation ou la traduction d'un mot"
     },
     {
-      "phrase_id": "p3_2",
-      "original": "N ma a fɔlan mɛn.",
-      "phonetic_api": "/ɲ ma a fɔ.lan mɛn/",
-      "phonetic_simple": "N MA A FƆ-LANE MƐNE",
-      "translation": "Je n'ai pas entendu sa prononciation.",
-      "context": "Indication d'une incompréhension auditive lors de l'apprentissage."
+      "phrase_id": "p2",
+      "original": "A makaran",
+      "phonetic_api": "[a makaran]",
+      "phonetic_simple": "a-ma-ka-ran",
+      "translation": "Répète-le / relis-le",
+      "context": "Demander à quelqu'un de répéter un mot pour bien l'entendre"
     },
     {
-      "phrase_id": "p3_3",
-      "original": "A fɔ kosɛbɛ, n b'a fɛ ka kalan.",
-      "phonetic_api": "/a fɔ ko.sɛ.bɛ ɲ b'a fɛ ka ka.lan/",
-      "phonetic_simple": "A FƆ KO-SƐ-BƐ, N BA FƐ KA KA-LANE",
-      "translation": "Prononce-le bien, je veux apprendre.",
-      "context": "Requête pédagogique adressée à un tuteur ou locuteur natif."
+      "phrase_id": "p3",
+      "original": "Kono",
+      "phonetic_api": "[kɔnɔ]",
+      "phonetic_simple": "ko-no",
+      "translation": "oiseau (indéfini, ton haut-bas)",
+      "context": "Exemple classique du rôle du ton : 'konô' (ventre) vs 'kono' (oiseau)"
     },
     {
-      "phrase_id": "p3_4",
-      "original": "Segi a kan jɛkɛ.",
-      "phonetic_api": "/se.ɣi a kan d͡ʒɛ.kɛ/",
-      "phonetic_simple": "SÉ-GOU A KANE DJƐ-KƐ",
-      "translation": "Répète encore une fois exactement.",
-      "context": "Demande de répétition d'un mot ou d'un exercice de parole."
+      "phrase_id": "p4",
+      "original": "Konô",
+      "phonetic_api": "[konô]",
+      "phonetic_simple": "ko-nô",
+      "translation": "ventre / un oiseau (selon le ton et le contexte)",
+      "context": "Montre la paire minimale tonale avec 'kono'"
     }
   ],
   "grammar_points": [
     {
-      "concept": "La distinction phonologique par allongement vocalique (Paires minimales)",
-      "explanation": "Le Sankaran est une langue où la quantité vocalique possède une valeur distinctive fondamentale. Doubler graphiquement une voyelle modifie radicalement le sens lexical du mot. Le flux de la voix doit maintenir le son deux fois plus longtemps.",
+      "concept": "L'alphabet latin du malinké",
+      "explanation": "Le malinké utilise l'alphabet latin sans les lettres q, v, x, z. Il ajoute des lettres/digraphes propres à ses sons : c, j, ny, gb, ainsi que les voyelles ɛ et ɔ.",
       "rules": [
-        "Voyelle simple = Durée brève",
-        "Voyelle double = Durée allongée",
-        "Ne pas respecter cette durée crée des contresens ou rend le discours incompréhensible."
+        "Consonnes simples identiques au français : b, d, f, g, h, k, l, m, n, p, r, s, t, w, y",
+        "Consonnes complexes propres au malinké : c [tʃ], j [dʒ], ny [ɲ], gb [ɡ͜b]",
+        "r ne se trouve jamais en début de mot ; il alterne parfois avec d entre deux voyelles identiques (bara/bada)"
       ],
       "examples": [
         {
-          "structure": "Ba (Fleuve / Grand) vs Baa (Mère)",
-          "phonetic_api": "/ba/ vs /baː/",
-          "meaning": "Exemple d'allongement sur la voyelle /a/"
+          "structure": "gb + voyelle",
+          "phonetic_api": "[ɡ͜b]",
+          "meaning": "consonne vélaire-labiale (ex. gbolo = peau)"
         },
         {
-          "structure": "Kɔnɔ (Oiseau) vs Kɔɔnɔ (Ventre)",
-          "phonetic_api": "/kɔ.nɔ/ vs /kɔː.nɔ/",
-          "meaning": "Exemple d'allongement sur la voyelle ouverte /ɔ/"
+          "structure": "ny + voyelle",
+          "phonetic_api": "[ɲ]",
+          "meaning": "consonne nasale palatale (ex. nyari = chat)"
         }
       ]
     },
     {
-      "concept": "La consonne nasale vélaire 'Ŋ' en position initiale",
-      "explanation": "Contrairement au français où le son 'ng' (comme à la fin de 'parking') n'apparaît jamais au début d'un mot, le Sankaran l'utilise régulièrement comme une consonne d'attaque nominale autonome. Le symbole phonétique et orthographique officiel est 'Ŋ' / 'ŋ'.",
+      "concept": "Les tons et leur valeur distinctive",
+      "explanation": "Le malinké est une langue à tons : ton haut, ton bas, ton montant, ton descendant. Deux mots peuvent s'écrire de façon identique en orthographe courante mais avoir un sens différent selon le ton prononcé.",
       "rules": [
-        "Le son est produit en bloquant l'air avec le dos de la langue contre le voile du palais, tout en laissant l'air s'échapper par les fosses nasales."
+        "Le ton n'est généralement pas noté à l'écrit ; le contexte permet de lever l'ambiguïté",
+        "Exemple classique : bà (ton bas) = chèvre ; bá (ton haut) = mère"
       ],
       "examples": [
         {
-          "structure": "Ŋana",
-          "phonetic_api": "/ŋa.na/",
-          "meaning": "Un homme fort / valeureux / un champion"
+          "structure": "bà / bá",
+          "phonetic_api": "[bà] / [bá]",
+          "meaning": "chèvre (ton bas) / mère (ton haut)"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Karamɔgɔ (Enseignant)",
-      "text": "I ni ke ! A fɔ n yɛ : 'gbisan'.",
-      "phonetic_api": "/i ni ke | a fɔ ɲ jɛ ɡ͡bi.san/",
-      "phonetic_simple": "I NI KÉ ! A FƆ N YƐ : GBI-SANE.",
-      "translation": "Salut ! Dis-moi : 'gbisan' (fouet)."
+      "speaker": "Karamoo",
+      "text": "A makaran : gbolo.",
+      "phonetic_api": "[a makaran ɡ͜bolo]",
+      "phonetic_simple": "a-ma-ka-ran, gbo-lo",
+      "translation": "Répète : peau."
     },
     {
-      "speaker": "Kalanden (Élève)",
-      "text": "Gbisan. N b'a fɔra gba bang, karamɔgɔ?",
-      "phonetic_api": "/ɡ͡bi.san | ɲ b'a fɔ.ra ɡ͡ba baŋ ka.ra.mɔ.ɣɔ/",
-      "phonetic_simple": "GBI-SANE. N BA FƆ-RA GBA BANGE, KA-RA-MƆ-GƆ ?",
-      "translation": "Gbisan. Est-ce que je le prononce clairement, maître ?"
+      "speaker": "Karanden",
+      "text": "Gbolo. A ye fo di, 'lion' ?",
+      "phonetic_api": "[ɡ͜bolo a je fo di]",
+      "phonetic_simple": "gbo-lo, a-yé-fo-di",
+      "translation": "Peau. Comment dit-on 'lion' ?"
     },
     {
-      "speaker": "Karamɔgɔ (Enseignant)",
-      "text": "Awo, a fɔra kosɛbɛ ! Sisan, a fɔ : 'kpan'.",
-      "phonetic_api": "/a.wo a fɔ.ra ko.sɛ.bɛ | si.san a fɔ k͡pan/",
-      "phonetic_simple": "A-WO, A FƆ-RA KO-SƐ-BƐ ! SI-SANE, A FƆ : KPANE.",
-      "translation": "Oui, c'est très bien prononcé ! Maintenant, dis : 'kpan' (fermer)."
+      "speaker": "Karamoo",
+      "text": "Jara le.",
+      "phonetic_api": "[dʒara le]",
+      "phonetic_simple": "dja-ra-lé",
+      "translation": "C'est 'jara'."
     },
     {
-      "speaker": "Kalanden (Élève)",
-      "text": "Kpan. Lɛtɛrɛ ninu gbelen mu n yɛ fɔlɔ.",
-      "phonetic_api": "/k͡pan | lɛ.tɛ.rɛ ni.nu ɡ͡be.len mu ɲ jɛ fɔ.lɔ/",
-      "phonetic_simple": "KPANE. LƐ-TƐ-RƐ NI-NOU GBÉ-LÈNE MOU N YƐ FƆ-LƆ.",
-      "translation": "Kpan. Ces lettres sont encore difficiles pour moi."
+      "speaker": "Karanden",
+      "text": "Jara. Barika, karamoo.",
+      "phonetic_api": "[dʒara barika karamoː]",
+      "phonetic_simple": "dja-ra, ba-ri-ka ka-ra-mo-o",
+      "translation": "Jara. Merci, maître."
     }
   ],
   "cultural_notes": [
-    "Dans l'apprentissage traditionnel oral de la région de Faranah, la maîtrise absolue de l'articulation des sons fermes comme 'gb' et 'kp' marque l'habileté rhétorique. Les enfants s'exercent tôt via des virelangues pour muscler leur diction.",
-    "L'orthographe moderne de la langue s'appuie sur l'Alphabet National Guinéen harmonisé, permettant de transcrire précisément chaque nuance phonétique sans ambiguïté graphique."
+    "Le malinké est avant tout une langue orale ; les règles orthographiques latines ne sont pas totalement fixées et varient selon les régions ([Malinkuia](https://fr.scribd.com/document/499114939/Malinkuia)).",
+    "Une orthographe scientifique standardisée a été proposée par les linguistes Diané et Vydrin pour le maninka de Guinée, precisant l'usage des voyelles ɛ/ɔ et de la consonne gb ([Mandenkan 52](https://shs.hal.science/halshs-01096594v1/document)).",
+    "Le N'Ko, écriture inventée par Solomana Kanté en 1949 à Kankan, est une alternative à l'alphabet latin encore utilisée aujourd'hui pour transcrire le maninka et marquer les tons ([Wikipedia N'Ko](https://en.wikipedia.org/wiki/N%27Ko_script)).",
+    "Note dialectale (Sankaran) : cette leçon présente le maninka du Sankaran, parlé traditionnellement dans la région historique du Sankaran, aujourd'hui la préfecture et région de Faranah (Haute-Guinée), berceau historique du clan Condé et zone antérieure au Mandén selon la tradition orale. Le sankaran (ISO 639-3 msc) est très proche du malinké/maninka standard de Kankan, avec lequel il est mutuellement intelligible ; les mots et structures de cette leçon reflètent ce fonds commun du maninka de l'Est, complété par les spécificités phonologiques et grammaticales du parler de Faranah documentées par Spears (voir sources)."
   ],
   "exercises": [
     {
-      "exercise_id": "ex3_1",
-      "type": "multiple_choice",
-      "question": "Quelle est la différence sémantique exacte entre 'Kɔnɔ' et 'Kɔɔnɔ' en Sankaran ?",
+      "exercise_id": "e1",
+      "type": "choix_multiple",
+      "question": "Laquelle de ces lettres n'existe PAS en malinké ?",
       "options": [
-        "'Kɔnɔ' signifie le fleuve et 'Kɔɔnɔ' signifie la mère.",
-        "'Kɔnɔ' signifie l'oiseau et 'Kɔɔnɔ' désigne le ventre ou l'intérieur.",
-        "Il n'y a aucune différence, ce sont deux variantes régionales."
+        "k",
+        "gb",
+        "v",
+        "ny"
       ],
-      "correct_answer": "Kit de survie : 'Kɔnɔ' signifie l'oiseau et 'Kɔɔnɔ' désigne le ventre ou l'intérieur.",
-      "explanation": "L'allongement de la voyelle centrale fait passer le mot du sens d'animal ailé à une partie anatomique interne."
+      "correct_answer": "v",
+      "explanation": "Le malinké ne possède pas les lettres q, v, x, z."
     },
     {
-      "exercise_id": "ex3_2",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "La consonne double occlusive labio-vélaire dans 'A fɔ [ ___ ] !' (Dis-le clairement !) s'écrit avec deux lettres.",
-      "correct_answer": "gb",
-      "hint": "Il s'agit de la combinaison des lettres g et b articulées simultanément."
+      "exercise_id": "e2",
+      "type": "texte_a_trous",
+      "sentence_with_blank": "___ari = chat (consonne nasale palatale [ɲ])",
+      "correct_answer": "Ny",
+      "hint": "C'est le digraphe qui transcrit le son du 'gn' français."
+    },
+    {
+      "exercise_id": "e3",
+      "type": "vrai_faux",
+      "question": "Le ton peut changer le sens d'un mot en malinké (ex. bà=chèvre vs bá=mère).",
+      "correct_answer": "Vrai",
+      "explanation": "Le malinké est une langue tonale ; le ton haut ou bas peut totalement changer le sens d'un même mot."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Ethnologue — Maninka, Sankaran [msc]",
+      "url": "https://www.ethnologue.com/language/msc/"
+    },
+    {
+      "label": "Glottolog 5.3 — Sankaran Maninka [sank1253]",
+      "url": "https://glottolog.org/resource/languoid/id/sank1253"
+    },
+    {
+      "label": "Wikipédia — Sankaran (langue, msc)",
+      "url": "https://fr.wikipedia.org/wiki/Sankaran"
+    },
+    {
+      "label": "Spears, R. A. — The Structure of Faranah-Maninka (Indiana University, description structurale du parler de Faranah, historiquement le Sankaran)",
+      "url": "https://theswissbay.ch/pdf/Books/Linguistics/Mega%20linguistics%20pack/African/Niger-Congo/Mande/Maninka,%20The%20Structure%20of%20Faranah-%20(Spears).pdf"
+    },
+    {
+      "label": "Vydrin & Diané (2014) — Propositions pour l'orthographe du maninka (Guinée), Mandenkan 52",
+      "url": "https://journals.openedition.org/mandenkan/pdf/301"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Vocabulaire et grammaire de base communs au maninka/malinké standard de Guinée (fonds partagé du continuum maninka de l'Est, confirmé pour le Sankaran par Ethnologue, Glottolog et Vydrin). Les points signalés comme « spécifiques au Sankaran » dans cette leçon proviennent de la description structurale du Faranah-Maninka par Spears (Indiana University), seule étude dédiée disponible pour ce parler ; elle date des années 1960-70 et repose sur un informateur unique, d'où une confiance modérée plutôt qu'élevée."
 }

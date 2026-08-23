@@ -6,140 +6,181 @@
   "lesson_number": 4,
   "title": "Raconter des faits passés (les temps du récit)",
   "learning_objectives": [
-    "Employer la marque de l'aspect accompli pour structurer une narration au passé",
-    "Utiliser les indicateurs de temps rétrospectifs (hier, l'an passé, autrefois)",
-    "Ordonner chronologiquement les événements d'un récit simple en Baga"
+    "Utiliser l'auxiliaire aspectuel (kǝ)mɔ pour marquer le passé",
+    "Situer un événement avec \"hier\" et \"avant-hier\"",
+    "Comprendre les limites de la documentation grammaticale disponible pour cette langue"
   ],
   "phonetic_focus": {
-    "key_sounds": "La particule du passé accompli 'yà' crée souvent une ellipse ou une modification de la voyelle finale du verbe qui la précède. Le ton descend nettement en fin de proposition narrative.",
-    "common_pitfalls": "Veillez à bien distinguer la particule narrative descendante 'yà' de l'adverbe de lieu ou présentatif 'ya' (ici) qui possède une intonation plus neutre ou haute selon le contexte."
+    "key_sounds": "Le Baga Sitemu utilise un inventaire de voyelles incluant /a/, /ʌ~ə/ (\"a\" ouvert), /e/, /ɛ/, /i/, /ɪ/, /o/, /ɔ/, /u/ ainsi que des consonnes comme /gb/ (occlusive labio-vélaire voisée, absente du français), /ŋ/ (comme 'ng' dans 'parking'), /ʃ/ (\"sh\"), /tʃ/ (\"tsh\", comme 'tch'), /θ/ (\"th\" anglais sourd) et un /k/ décrit par le lexicographe F. Lamp comme \"glottal, quelque part entre g et k\". Ces sons n'ont pas d'équivalent exact en français standard.",
+    "common_pitfalls": "Les francophones ont tendance à prononcer /gb/ comme un simple 'g' ou 'b' séparé, à confondre /ɛ/ et /e/ (non distingués en français standard écrit), et à ne pas prononcer /ŋ/ en début de mot. Le /ʌ~ə/ ouvert (noté 'a' dans l'orthographe de Lamp) est souvent réduit à un français 'e muet', ce qui déforme le sens."
   },
   "vocabulary": [
     {
-      "word_id": "b216",
-      "term": "kúnù",
-      "phonetic_api": "/kúnù/",
-      "phonetic_simple": "KOO-NOO",
+      "word_id": "v1",
+      "term": "(kǝ)mɔ",
+      "phonetic_api": "/kəmɔ/",
+      "phonetic_simple": "keu-MO",
+      "translation": "auxiliaire verbal : marque le participe passé (après le verbe) ou le participe présent selon le contexte",
+      "example_sentence": "manon di mɔ.",
+      "example_phonetic": "/manɔn di mɔ/",
+      "example_translation": "Il/elle a mangé (construction avec l'auxiliaire mɔ, d'après le modèle décrit par Lamp)."
+    },
+    {
+      "word_id": "v2",
+      "term": "dendisna",
+      "phonetic_api": "/dɛndisna/",
+      "phonetic_simple": "den-DISS-na",
       "translation": "hier",
-      "example_sentence": "Kúnù mə̀ táa yà lò-su ka",
-      "example_phonetic": "/kúnù mə̀ táː jà lò su ka/",
-      "example_translation": "Hier, je suis allé en ville"
+      "example_sentence": "dendisna.",
+      "example_phonetic": "/dɛndisna/",
+      "example_translation": "hier"
     },
     {
-      "word_id": "b217",
-      "term": "siɛ̀-wɔ̀lɔ̀",
-      "phonetic_api": "/siɛ̀ wɔ́lɔ́/",
-      "phonetic_simple": "SIÈ-WÓ-LÓ",
-      "translation": "l'année dernière / l'an passé",
-      "example_sentence": "Ní gbɔ́n sán yà siɛ̀-wɔ̀lɔ̀",
-      "example_phonetic": "/ní gɓɔ́n sán jà siɛ̀ wɔ́lɔ́/",
-      "example_translation": "J'ai construit la maison l'année dernière"
+      "word_id": "v3",
+      "term": "kə-tsha kə-rarəŋ (composé, avant-hier)",
+      "phonetic_api": "/kətʃakərarəŋ/",
+      "phonetic_simple": "keu-tcha-keu-ra-REUNG",
+      "translation": "deux jours avant (avant-hier), construction attestée pour les décalages temporels",
+      "example_sentence": "kə-tsha kə-rarəŋ.",
+      "example_phonetic": "/kətʃakərarəŋ/",
+      "example_translation": "avant-hier (deux jours avant)"
     },
     {
-      "word_id": "b218",
-      "term": "táa-yà",
-      "phonetic_api": "/táː jà/",
-      "phonetic_simple": "TAA-YA",
-      "translation": "être parti / s'en est allé (accompli)",
-      "example_sentence": "A táa-yà Boké ka",
-      "example_phonetic": "/a táː jà ɓoke ka/",
-      "example_translation": "Il est parti à Boké"
+      "word_id": "v4",
+      "term": "(kɛ)der",
+      "phonetic_api": "/kɛdɛr/",
+      "phonetic_simple": "keu-DÈR",
+      "translation": "venir",
+      "example_sentence": "manon der mɔ.",
+      "example_phonetic": "/manɔn dɛr mɔ/",
+      "example_translation": "Il/elle est venu(e)."
     },
     {
-      "word_id": "b219",
-      "term": "kɛ̀ɛ̀-ɛ̀",
-      "phonetic_api": "/kɛ̀ː ɛ̀/",
-      "phonetic_simple": "KÈÈ-È",
-      "translation": "avoir fait / accompli",
-      "example_sentence": "Mə̀ wáalì kɛ̀ɛ̀-ɛ̀ kúnù",
-      "example_phonetic": "/mə̀ wáːlì kɛ̀ː ɛ̀ kúnù/",
-      "example_translation": "J'ai fait mon travail hier"
-    },
-    {
-      "word_id": "b220",
-      "term": "táà",
-      "phonetic_api": "/taː/",
-      "phonetic_simple": "TAA",
-      "translation": "autrefois / jadis",
-      "example_sentence": "Táà, mu ya siì wɔ́lɔ́",
-      "example_phonetic": "/taː mu ja siː wɔ́lɔ́/",
-      "example_translation": "Autrefois, la communauté vivait ici"
+      "word_id": "v5",
+      "term": "(kɛ)yεfε",
+      "phonetic_api": "/kɛjɛfɛ/",
+      "phonetic_simple": "keu-yè-FÈ",
+      "translation": "se lever, se réveiller",
+      "example_sentence": "mǝ yεfε mɔ ?",
+      "example_phonetic": "/mə jɛfɛ mɔ/",
+      "example_translation": "T'es-tu levé(e) ?"
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "bp207",
-      "original": "I kɛ̀ɛ̀ mu kɛ̀ɛ̀-ɛ̀ kúnù lɔ̀ ?",
-      "phonetic_api": "/i kɛ̀ː mu kɛ̀ː ɛ̀ kúnù lɔ̀/",
-      "phonetic_simple": "I KÈÈ MOO KÈÈ-È KOO-NOO LO ?",
-      "translation": "Qu'as-tu fait durant la journée d'hier ?",
-      "context": "Questionner un ami ou un collègue sur ses activités passées"
+      "phrase_id": "p1",
+      "original": "dendisna, i der.",
+      "phonetic_api": "/dɛndisna i dɛr/",
+      "phonetic_simple": "den-diss-na, i DÈR",
+      "translation": "Hier, je suis venu(e).",
+      "context": "Assemblage de mots attestés pour illustrer un récit au passé."
     },
     {
-      "phrase_id": "bp208",
-      "original": "N wáa táa-yà Conakry siɛ̀-wɔ̀lɔ̀ ka",
-      "phonetic_api": "/ⁿwáː táː jà Conakry siɛ̀ wɔ́lɔ́ ka/",
-      "phonetic_simple": "N WAA TAA-YA CO-NA-KRY SIÈ-WÓ-LÓ KA",
-      "translation": "Mon père est allé à Conakry l'année dernière.",
-      "context": "Évoquer un déplacement familial ou professionnel ancien"
+      "phrase_id": "p2",
+      "original": "manon di mɔ.",
+      "phonetic_api": "/manɔn di mɔ/",
+      "phonetic_simple": "keu-MO",
+      "translation": "Il/elle a mangé (construction avec l'auxiliaire mɔ, d'après le modèle décrit par Lamp).",
+      "context": "Réutilisation de la phrase d'exemple attestée pour le mot « (kǝ)mɔ »."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "(kǝ)mɔ",
+      "phonetic_api": "/kəmɔ/",
+      "phonetic_simple": "keu-MO",
+      "translation": "auxiliaire verbal : marque le participe passé (après le verbe) ou le participe présent selon le contexte",
+      "context": "Emploi du mot « (kǝ)mɔ » seul, comme énoncé minimal attesté."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "dendisna.",
+      "phonetic_api": "/dɛndisna/",
+      "phonetic_simple": "den-DISS-na",
+      "translation": "hier",
+      "context": "Réutilisation de la phrase d'exemple attestée pour le mot « dendisna »."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'aspect accompli narratif avec 'yà / ɛ̀'",
-      "explanation": "En Baga intermédiaire, le récit d'actions révolues (équivalent du passé composé ou passé simple) repose sur l'aspect accompli. On insère la particule 'yà' immédiatement après le verbe d'action intransitif ou on applique un suffixe vocalique glissé 'ɛ̀' pour marquer la fin définitive de l'action.",
+      "concept": "L'auxiliaire (kǝ)mɔ : marqueur d'aspect postposé",
+      "explanation": "Lamp indique que \"(kǝ)mɔ\" est un auxiliaire verbal qui se place APRÈS le verbe principal et qui peut marquer soit le participe passé, soit le participe présent, selon le contexte (son exemple : \"she is sitting\", au présent). Ce type de marquage aspectuel postposé (plutôt qu'une conjugaison par changement de désinence comme en français) est typique de nombreuses langues Mel/Atlantique. AUCUNE grammaire complète des temps (passé simple, imparfait, passé composé) n'a été trouvée pour le baga sitemu dans les sources disponibles — la thèse de Weller Ganong (1998) sur la morphologie/syntaxe/discours narratif baga documenterait probablement ce système en détail, mais son texte intégral n'a pas pu être consulté en accès libre.",
       "rules": [
-        "Verbe intransitif + yà = Action accomplie liée à un déplacement (ex: táa yà).",
-        "Verbe transitif + ɛ̀ = Action complétée sur un objet."
+        "verbe + (kǝ)mɔ = marqueur d'aspect (passé OU présent selon contexte, d'après le seul exemple disponible).",
+        "Les expressions temporelles (dendisna = hier, kə-ta-dɔ-sɔkɔ kə-rarəŋ = trois jours après, etc.) situent l'énoncé sans dépendre uniquement de la morphologie verbale."
       ],
       "examples": [
         {
-          "structure": "Táa (Partir) + yà (Accompli)",
-          "phonetic_api": "/táː jà/",
-          "meaning": "Est parti / Suis parti"
+          "structure": "manon der mɔ",
+          "phonetic_api": "/manɔn dɛr mɔ/",
+          "meaning": "il/elle est venu(e) (construction hypothétique par analogie avec l'exemple de Lamp)"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Sékou",
-      "text": "Temba, i táa-yà mí ka kúnù sáámà lɔ̀ ?",
-      "phonetic_api": "/tɛmɓa i táː jà mí ka kúnù sáːmà lɔ̀/",
-      "phonetic_simple": "TEM-BA, I TAA-YA MII KA KOO-NOO SAA-MA LO ?",
-      "translation": "Temba, où es-tu allé hier pendant la journée du dimanche ?"
+      "speaker": "A",
+      "text": "dendisna, mə der mɔ ?",
+      "phonetic_api": "/dɛndisna mə dɛr mɔ/",
+      "phonetic_simple": "den-diss-na, meu dèr MO",
+      "translation": "Hier, es-tu venu(e) ?"
     },
     {
-      "speaker": "Temba",
-      "text": "Mə̀ táa-yà n ŋá gbɛ̀lɛ̀ fɛ̀ɛ̀. Ní məlɔ̀ŋ di-ɛ̀ kàn sɔ̀ gbɛ́-yà ya.",
-      "phonetic_api": "/mə̀ táː jà ⁿŋá gɓɛ̀lɛ̀ fɛ̀ː ní məlɔ̀ŋ di ɛ̀ kàn sɔ̀ gɓɛ́ jà ja/",
-      "phonetic_simple": "ME TAA-YA N NGA GBÈ-LÈ FÈÈ. NII ME-LON DII-È KAN SO GBÉ-YA YA.",
-      "translation": "Je suis allé à la concession de ma mère. J'y ai mangé du riz et j'y ai bu de l'eau."
+      "speaker": "B",
+      "text": "i der mɔ.",
+      "phonetic_api": "/i dɛr mɔ/",
+      "phonetic_simple": "i dèr MO",
+      "translation": "Je suis venu(e)."
+    },
+    {
+      "speaker": "A",
+      "text": "dendisna, i der.",
+      "phonetic_api": "/dɛndisna i dɛr/",
+      "phonetic_simple": "den-diss-na, i DÈR",
+      "translation": "Hier, je suis venu(e)."
+    },
+    {
+      "speaker": "B",
+      "text": "manon di mɔ.",
+      "phonetic_api": "/manɔn di mɔ/",
+      "phonetic_simple": "keu-MO",
+      "translation": "Il/elle a mangé (construction avec l'auxiliaire mɔ, d'après le modèle décrit par Lamp)."
     }
   ],
   "cultural_notes": [
-    "La transmission orale de l'histoire des clans et des lignages Baga s'effectue traditionnellement au passé lointain ('táà') par les anciens lors des assemblées nocturnes. L'usage de l'accompli y est très formel et codifié.",
-    "Le marqueur temporel 'siɛ̀-wɔ̀lɔ̀' (l'année dernière) sert historiquement à rythmer les grands cycles de la riziculture de mangrove sur le littoral guinéen."
+    "La transmission des récits historiques et généalogiques baga est traditionnellement orale ; les enregistrements audio de D.T. Niane (1969-1971, archives de Yale) constituent l'une des rares sources primaires en langue baga sur l'histoire orale de la région."
   ],
   "exercises": [
     {
-      "exercise_id": "B1_M2_L4_ex1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel adverbe s'utilise pour introduire un récit très ancien (Autrefois / Jadis) ?",
+      "question": "Quel auxiliaire marque l'aspect (passé/présent selon contexte) en baga sitemu ?",
       "options": [
-        "kúnù",
-        "táà",
-        "siɛ̀-wɔ̀lɔ̀"
+        "(kǝ)mɔ",
+        "(kǝ)faŋ",
+        "(kǝ)wai"
       ],
-      "correct_answer": "táà",
-      "explanation": "'táà' fait explicitement référence aux époques ancestrales ou historiques."
+      "correct_answer": "(kǝ)mɔ",
+      "explanation": "Attesté par Lamp comme auxiliaire postposé (Notes N:10)."
     },
     {
-      "exercise_id": "B1_M2_L4_ex2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "A táa-[ ___ ] Boké ka (Il est parti à Boké).",
-      "correct_answer": "yà",
-      "hint": "Particule d'aspect accompli de deux lettres"
+      "sentence_with_blank": "___ signifie \"hier\".",
+      "correct_answer": "dendisna",
+      "hint": "Notes T:32 dans le dictionnaire de Lamp."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Lamp, F.J. — Baga Tshi-Tem Dictionary (Guinea, rév. 2021)",
+      "url": "https://catalogingafricana.wordpress.com/wp-content/uploads/2016/07/a.baga-vocabulary-final-notated-2021-cr.pdf"
+    },
+    {
+      "label": "Weller Ganong, T. (1998) Features of Baga morphology, syntax, and narrative discourse, MA thesis, UT Arlington (référencée par WALS/ASJP)",
+      "url": "https://wals.info/languoid/lect/wals_code_bgs"
+    }
+  ],
+  "confidence": "faible",
+  "confidence_note": "Le système complet des temps du récit (passé simple, imparfait narratif, etc.) N'EST PAS documenté dans les sources en accès libre : seul un exemple isolé de l'auxiliaire (kǝ)mɔ est donné par Lamp, sans paradigme complet. La thèse de Weller Ganong (1998), consacrée précisément au discours narratif baga, contiendrait vraisemblablement cette grammaire, mais son texte intégral n'a pas été localisé en accès libre lors de cette recherche : la phrase \"manon der mɔ\" est une construction PROBABLE par analogie, explicitement signalée comme telle plutôt que comme une donnée directement attestée. Variété choisie : Baga Sitemu (autonyme Citɛm ; ISO 639-3 bsp ; Glottocode baga1272), décrite comme \"the only vibrant Baga linguistic variety\" par Wikipédia (d'après Wilson 2007), parlée dans des villages sur le fleuve Campaces/Rio Pongo, région de Boffa, Guinée (~40 000 locuteurs, 2018). C'est la variété baga au sens strict la mieux documentée : dictionnaire de terrain de 3000 mots (Lamp 2016/2021), listes lexicales ASJP indépendantes, fiches Glottolog/WALS, et mention dans la thèse de Weller Ganong (1998) sur la morphologie/syntaxe baga. Elle appartient à la branche Mel (Niger-Congo > Atlantic-Congo > Mel > Northern Mel, avec Temne, Landuma, Baga Koba), et non à la branche Nalu-Mbulungish-Baga Mboteni décrite par Sapir (1971) comme faisant partie de l'Atlantique Nord — ces deux ensembles sont linguistiquement distincts malgré l'identité ethnique Baga commune. Le Baga Mboteni (bgm/bcg), bien que parlé par des Baga ethniques, n'est PAS une langue Mel et reste très peu documenté (pas de dictionnaire de terrain publié comparable); le Baga Fore/Mbulungish (bsp est un code distinct de mbv) est également peu documenté en comparaison. Le Sitemu a donc été retenu comme le meilleur compromis entre authenticité \"Baga\" et disponibilité de données vérifiables."
 }

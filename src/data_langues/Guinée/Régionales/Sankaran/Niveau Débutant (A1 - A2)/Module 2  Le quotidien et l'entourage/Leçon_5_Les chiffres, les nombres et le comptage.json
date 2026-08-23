@@ -6,224 +6,280 @@
   "lesson_number": 5,
   "title": "Les chiffres, les nombres et le comptage",
   "learning_objectives": [
-    "Compter avec précision de 1 à 20 en langue Sankaran",
-    "Comprendre la structure de base des dizaines et la coordination des unités",
-    "Utiliser les nombres cardinaux pour quantifier des objets ou des personnes du quotidien"
+    "Compter de zéro à dix en malinké",
+    "Former les nombres de 11 à 20 avec 'ni' (addition)",
+    "Reconnaître les dizaines (muwan=20, bisaba=30...)",
+    "Utiliser les nombres dans une phrase pour compter des objets ou des personnes"
   ],
   "phonetic_focus": {
-    "key_sounds": "Les chiffres font intervenir le phonème /l/ alternant parfois avec un /r/ très doux selon le débit de parole. Le chiffre 2 'fila' s'ouvre sur une voyelle brève, tandis que 'saba' (3) et 'naani' (4) maintiennent une régularité rythmique claire. Notez la consonne finale nasale dans 'tan' /tan/ (10), qui doit être bien distincte sans nasalisation totale de la voyelle précédente.",
-    "common_pitfalls": "Évitez de prononcer le 'u' de 'duuru' comme le 'u' français de 'voiture'. Il doit toujours être prononcé comme le son 'ou' /u/ (comme dans 'toupie')."
+    "key_sounds": [
+      "Le groupe consonantique 'w' de 'wooro' (6) et 'woronwila' (7), à bien distinguer",
+      "La nasale finale de 'tan' (10) et 'naanin' (4)",
+      "Le ton descendant de 'fila' (2)",
+      "Les numéraux relevés dans le parler de Faranah (Sankaran) par Spears -- kelen (1), fila (2), saba (3), naanin (4), loolu (5), wooron (6), wooronfila (7), sen (8), konondo (9), tan (10), muan (20, litt. proche de mɔɔlu), bi (base des dizaines à partir de 30), keme (100), wa (1000) -- correspondent exactement au système numéral du maninka/malinké standard, confirmant la forte proximité lexicale du sankaran avec le malinké de Kankan sur ce champ sémantique précis."
+    ],
+    "common_pitfalls": [
+      "Confondre 'tan ni kelen' (11, dix-et-un) avec 'muwan' (20) : la structure additive n'est utilisée que pour les unités après une dizaine",
+      "Oublier 'ni' comme mot de liaison additive entre dizaine et unité"
+    ]
   },
   "vocabulary": [
     {
-      "word_id": "v5_1",
-      "term": "Kelen",
-      "phonetic_api": "/ke.len/",
-      "phonetic_simple": "KÉ-LÈNE",
-      "translation": "Un (1)",
-      "example_sentence": "N denke kelen be yan.",
-      "example_phonetic": "/ɲ den.ke ke.len be jan/",
-      "example_translation": "Mon fils unique (un fils) est ici."
+      "word_id": "v1",
+      "term": "kelen",
+      "phonetic_api": "[kelen]",
+      "phonetic_simple": "ké-lèn",
+      "translation": "un (1)",
+      "example_sentence": "Den kelen le ye n bolo.",
+      "example_phonetic": "[dɛn kelen le je n bolo]",
+      "example_translation": "J'ai un enfant."
     },
     {
-      "word_id": "v5_2",
-      "term": "Fila",
-      "phonetic_api": "/fi.la/",
-      "phonetic_simple": "FI-LA",
-      "translation": "Deux (2)",
-      "example_sentence": "Mɔgɔ fila bɔra so kɔnɔ.",
-      "example_phonetic": "/mɔ.ɣɔ fi.la bɔ.ra so kɔ.nɔ/",
-      "example_translation": "Deux personnes sont sorties de la maison."
+      "word_id": "v2",
+      "term": "fila",
+      "phonetic_api": "[fila]",
+      "phonetic_simple": "fi-la",
+      "translation": "deux (2)",
+      "example_sentence": "Den fila le ye n bolo.",
+      "example_phonetic": "[dɛn fila le je n bolo]",
+      "example_translation": "J'ai deux enfants."
     },
     {
-      "word_id": "v5_3",
-      "term": "Saba",
-      "phonetic_api": "/sa.ba/",
-      "phonetic_simple": "SA-BA",
-      "translation": "Trois (3)",
-      "example_sentence": "Baa ye den saba sɔrɔ.",
-      "example_phonetic": "/baː je den sa.ba sɔ.rɔ/",
-      "example_translation": "Maman a eu trois enfants."
+      "word_id": "v3",
+      "term": "saba",
+      "phonetic_api": "[saba]",
+      "phonetic_simple": "sa-ba",
+      "translation": "trois (3)",
+      "example_sentence": "Tele saba.",
+      "example_phonetic": "[tele saba]",
+      "example_translation": "Trois jours."
     },
     {
-      "word_id": "v5_4",
-      "term": "Naani",
-      "phonetic_api": "/naː.ni/",
-      "phonetic_simple": "NAA-NI",
-      "translation": "Quatre (4)",
-      "example_sentence": "Wulu naani be sene la.",
-      "example_phonetic": "/wu.lu naː.ni be se.ne la/",
-      "example_translation": "Quatre chiens sont dans le champ."
+      "word_id": "v4",
+      "term": "naanin",
+      "phonetic_api": "[naːnin]",
+      "phonetic_simple": "na-a-nin",
+      "translation": "quatre (4)",
+      "example_sentence": "San binaanin ani fila.",
+      "example_phonetic": "[san binaːnin ani fila]",
+      "example_translation": "Quarante-deux ans."
     },
     {
-      "word_id": "v5_5",
-      "term": "Duuru",
-      "phonetic_api": "/duː.ru/",
-      "phonetic_simple": "DOUU-ROU",
-      "translation": "Cinq (5)",
-      "example_sentence": "Bolo duuru be yan.",
-      "example_phonetic": "/bo.lo duː.ru be jan/",
-      "example_translation": "Cinq mains sont ici."
+      "word_id": "v5",
+      "term": "lolu",
+      "phonetic_api": "[lolu]",
+      "phonetic_simple": "lo-lou",
+      "translation": "cinq (5)",
+      "example_sentence": "Bilolu le.",
+      "example_phonetic": "[bilolu le]",
+      "example_translation": "C'est cinquante."
     },
     {
-      "word_id": "v5_6",
-      "term": "Tan",
-      "phonetic_api": "/tan/",
-      "phonetic_simple": "TANE",
-      "translation": "Dix (10)",
-      "example_sentence": "San tan be n bolo.",
-      "example_phonetic": "/san tan be ɲ bo.lo/",
-      "example_translation": "J'ai dix ans."
+      "word_id": "v6",
+      "term": "tan",
+      "phonetic_api": "[tan]",
+      "phonetic_simple": "tan",
+      "translation": "dix (10)",
+      "example_sentence": "Tan ni kelen.",
+      "example_phonetic": "[tan ni kelen]",
+      "example_translation": "Onze (dix-et-un)."
     },
     {
-      "word_id": "v5_7",
-      "term": "Mugun",
-      "phonetic_api": "/mu.ɡun/",
-      "phonetic_simple": "MOU-GOUNE",
-      "translation": "Vingt (20)",
-      "example_sentence": "Wari mugun be yan.",
-      "example_phonetic": "/wa.ri mu.fun be jan/",
-      "example_translation": "Il y a vingt billets / vingt francs."
+      "word_id": "v7",
+      "term": "muwan",
+      "phonetic_api": "[muwan]",
+      "phonetic_simple": "mou-wan",
+      "translation": "vingt (20)",
+      "example_sentence": "Wa muwan ni lolu.",
+      "example_phonetic": "[wa muwan ni lolu]",
+      "example_translation": "25 000 (mille × 25)."
     },
     {
-      "word_id": "v5_8",
-      "term": "Jeli",
-      "phonetic_api": "/d͡ʒe.li/",
-      "phonetic_simple": "DJÉ-LI",
-      "translation": "Combien",
-      "example_sentence": "I dɔgɔke jeli be yan?",
-      "example_phonetic": "/i dɔ.ɣɔ.ke d͡ʒe.li be jan/",
-      "example_translation": "Combien de petits frères à toi sont ici ?"
+      "word_id": "v8",
+      "term": "kèmè",
+      "phonetic_api": "[kɛmɛ]",
+      "phonetic_simple": "kè-mè",
+      "translation": "cent (100)",
+      "example_sentence": "Kilo kèmè woronwila ni bi seyin.",
+      "example_phonetic": "[kilo kɛmɛ woronwila ni bi sejin]",
+      "example_translation": "780 km."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p5_1",
-      "original": "A jeli mu?",
-      "phonetic_api": "/a d͡ʒe.li mu/",
-      "phonetic_simple": "A DJÉ-LI MOU",
-      "translation": "C'est combien ? / Quel est son nombre ?",
-      "context": "Question rapide pour s'enquérir d'une quantité ou d'un prix."
+      "phrase_id": "p1",
+      "original": "Tan ni kelen",
+      "phonetic_api": "[tan ni kelen]",
+      "phonetic_simple": "tan-ni-ké-lèn",
+      "translation": "onze (11)",
+      "context": "Formation additive : dizaine + ni + unité"
     },
     {
-      "phrase_id": "p5_2",
-      "original": "Mɔgɔ jeli be yan sisan?",
-      "phonetic_api": "/mɔ.ɣɔ d͡ʒe.li be jan si.san/",
-      "phonetic_simple": "MƆ-GƆ DJÉ-LI BÉ YANE SI-SANE ?",
-      "translation": "Combien de personnes sont ici maintenant ?",
-      "context": "Comptage des BD ou individus présents dans une assemblée."
+      "phrase_id": "p2",
+      "original": "Tan ni fila",
+      "phonetic_api": "[tan ni fila]",
+      "phonetic_simple": "tan-ni-fi-la",
+      "translation": "douze (12)",
+      "context": "Suite de la série 'tan ni...'"
     },
     {
-      "phrase_id": "p5_3",
-      "original": "Mɔgɔ tan ni duuru le be yan.",
-      "phonetic_api": "/mɔ.ɣɔ tan ni duː.ru le be jan/",
-      "phonetic_simple": "MƆ-GƆ TANE NI DOUU-ROU LÉ BÉ YANE.",
-      "translation": "Il y a quinze personnes ici.",
-      "context": "Réponse chiffrée combinant la dizaine et l'unité."
+      "phrase_id": "p3",
+      "original": "Muwan ni kelen",
+      "phonetic_api": "[muwan ni kelen]",
+      "phonetic_simple": "mou-wan-ni-ké-lèn",
+      "translation": "vingt-et-un (21)",
+      "context": "Même logique additive appliquée à la dizaine 'muwan'"
     },
     {
-      "phrase_id": "p5_4",
-      "original": "A fɔ kelen-kelen !",
-      "phonetic_api": "/a fɔ ke.len.ke.len/",
-      "phonetic_simple": "A FƆ KÉ-LÈNE-KÉ-LÈNE",
-      "translation": "Dis-les un par un ! / Énumère-les !",
-      "context": "Demande de clarification lors du comptage d'objets."
+      "phrase_id": "p4",
+      "original": "Bisaba",
+      "phonetic_api": "[bisaba]",
+      "phonetic_simple": "bi-sa-ba",
+      "translation": "trente (30)",
+      "context": "Dizaine formée par préfixe 'bi-' + chiffre des unités (bi+saba)"
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Binaanin",
+      "phonetic_api": "[binaːnin]",
+      "phonetic_simple": "bi-na-a-nin",
+      "translation": "quarante (40)",
+      "context": "bi- + naanin (4)"
+    },
+    {
+      "phrase_id": "p6",
+      "original": "Wa kelen",
+      "phonetic_api": "[wa kelen]",
+      "phonetic_simple": "wa-ké-lèn",
+      "translation": "mille (1 000)",
+      "context": "Utilisé dans les prix au marché"
     }
   ],
   "grammar_points": [
     {
-      "concept": "La construction des nombres intermédiaires (11 à 19) via le connecteur 'ni'",
-      "explanation": "Pour former les nombres de 11 à 19 en Sankaran, on part de la base de la dizaine 'tan' (10) à laquelle on associe le connecteur 'ni' (et / avec) suivi de l'unité correspondante.",
+      "concept": "La formation additive des nombres (11 à 19, 21 à 29...)",
+      "explanation": "Les nombres composés se forment en ajoutant l'unité à la dizaine avec le mot 'ni' (et).",
       "rules": [
-        "Structure : Tan (10) + ni + Unité",
-        "Exemples : 11 = Tan ni kelen, 12 = Tan ni fila, 15 = Tan ni duuru."
+        "Structure : [Dizaine] + ni + [Unité]",
+        "tan (10) + ni + kelen (1) = tan ni kelen (11)",
+        "muwan (20) + ni + fila (2) = muwan ni fila (22)"
       ],
       "examples": [
         {
-          "structure": "Tan ni naani",
-          "phonetic_api": "/tan ni naː.ni/",
-          "meaning": "Quatorze (14)"
+          "structure": "tan ni [unité]",
+          "phonetic_api": "[tan ni]",
+          "meaning": "onze à dix-neuf"
         },
         {
-          "structure": "Tan ni wooro",
-          "phonetic_api": "/tan ni woː.ro/",
-          "meaning": "Seize (16)"
+          "structure": "muwan ni [unité]",
+          "phonetic_api": "[muwan ni]",
+          "meaning": "vingt-et-un à vingt-neuf"
         }
       ]
     },
     {
-      "concept": "La position de l'adjectif numéral quantificateur",
-      "explanation": "En langue Sankaran, contrairement au français où le nombre se place avant le nom (ex: 'trois maisons'), le chiffre ou nombre cardinal se place systématiquement immédiatement APRÈS le substantif qu'il qualifie.",
+      "concept": "Les dizaines formées avec le préfixe 'bi-'",
+      "explanation": "À partir de trente, les dizaines (sauf vingt='muwan') se forment avec le préfixe 'bi-' suivi du chiffre correspondant à la dizaine.",
       "rules": [
-        "Structure : Nom + Nombre cardinal"
+        "bi- + saba (3) = bisaba (30)",
+        "bi- + naanin (4) = binaanin (40)",
+        "bi- + lolu (5) = bilolu (50)"
       ],
       "examples": [
         {
-          "structure": "So saba",
-          "phonetic_api": "/so sa.ba/",
-          "meaning": "Trois maisons"
-        },
-        {
-          "structure": "Murula fila",
-          "phonetic_api": "/mu.ru.la fi.la/",
-          "meaning": "Deux couteaux"
+          "structure": "bi- + [chiffre]",
+          "phonetic_api": "[bi]",
+          "meaning": "dizaine correspondante (30, 40, 50...)"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Amadou",
-      "text": "Fanta, i somogo lu jeli be so kɔnɔ?",
-      "phonetic_api": "/fan.ta i so.mo.ɣo lu d͡ʒe.li be so kɔ.nɔ/",
-      "phonetic_simple": "FAN-TA, I SO-MO-GO LOU DJÉ-LI BÉ SO KƆ-NƆ ?",
-      "translation": "Fanta, combien de personnes de ta famille sont à la maison ?"
+      "speaker": "Karamoo",
+      "text": "Den ye i bolo, jeli ?",
+      "phonetic_api": "[dɛn je i bolo dʒeli]",
+      "phonetic_simple": "dèn-yé-i-bo-lo, dié-li",
+      "translation": "Combien d'enfants as-tu ?"
     },
     {
-      "speaker": "Fanta",
-      "text": "Nse, Amadou. Mɔgɔ duuru le be so kɔnɔ sisan.",
-      "phonetic_api": "/ɲ.se a.ma.du | mɔ.ɣɔ duː.ru le be so kɔ.nɔ si.san/",
-      "phonetic_simple": "NSE, A-MA-DOU. MƆ-GƆ DOUU-ROU LÉ BÉ SO KƆ-NƆ SI-SANE.",
-      "translation": "Bonjour Amadou. Cinq personnes sont à la maison actuellement."
+      "speaker": "Sékou",
+      "text": "Den saba le ye n bolo.",
+      "phonetic_api": "[dɛn saba le je n bolo]",
+      "phonetic_simple": "dèn-sa-ba-lé-yé-n-bo-lo",
+      "translation": "J'ai trois enfants."
     },
     {
-      "speaker": "Amadou",
-      "text": "I dɔgɔke lu jeli be i bolo?",
-      "phonetic_api": "/i dɔ.ɣɔ.ke lu d͡ʒe.li be i bo.lo/",
-      "phonetic_simple": "I DƆ-GƆ-KÉ LOU DJÉ-LI BÉ I BO-LO ?",
-      "translation": "Combien de petits frères as-tu ?"
+      "speaker": "Karamoo",
+      "text": "I san jeli le ?",
+      "phonetic_api": "[i san dʒeli le]",
+      "phonetic_simple": "i-san-dié-li-lé",
+      "translation": "Quel âge as-tu ?"
     },
     {
-      "speaker": "Fanta",
-      "text": "Dɔgɔke fila be n bolo. A lu bɛɛ be kalan na.",
-      "phonetic_api": "/dɔ.ɣɔ.ke fi.la be ɲ bo.lo | a lu bɛː be ka.lan na/",
-      "phonetic_simple": "DƆ-GƆ-KÉ FI-LA BÉ N BO-LO. A LOU BƐƐ BÉ KA-LANE NA.",
-      "translation": "J'ai deux petits frères. Ils sont tous à l'école."
+      "speaker": "Sékou",
+      "text": "San muwan ni lolu.",
+      "phonetic_api": "[san muwan ni lolu]",
+      "phonetic_simple": "san-mou-wan-ni-lo-lou",
+      "translation": "Vingt-cinq ans."
     }
   ],
   "cultural_notes": [
-    "Dans les marchés traditionnels de Faranah et de la région du Sankaran, le comptage s'accompagne fréquemment de gestes de la main bien précis. Pour signifier cinq ou dix, on montre ouvertement la paume ou les deux mains réunies, renforçant l'affirmation verbale.",
-    "Il est culturellement mal vu de compter directement à voix haute les membres d'une famille ou les enfants d'une personne devant elle d'un ton trop insistant, car cela est traditionnellement associé à une forme de superstition ou de provocation du destin. On préfère s'enquérir globalement de la santé de l'entourage."
+    "Les nombres sont indispensables pour marchander au marché : les prix se comptent souvent en centaines ou en milliers de francs guinéens, en utilisant 'wa' (mille) ([Malinkuia](https://fr.scribd.com/document/499114939/Malinkuia)).",
+    "Le système numérique malinké, comme dans beaucoup de langues mandingues, repose sur une base vigésimale (base 20) pour les grands nombres, visible dans la construction des dizaines à partir de 'muwan' (20) ([Omniglot](https://www.omniglot.com/language/numbers/maninka.htm)).",
+    "Note dialectale (Sankaran) : cette leçon présente le maninka du Sankaran, parlé traditionnellement dans la région historique du Sankaran, aujourd'hui la préfecture et région de Faranah (Haute-Guinée), berceau historique du clan Condé et zone antérieure au Mandén selon la tradition orale. Le sankaran (ISO 639-3 msc) est très proche du malinké/maninka standard de Kankan, avec lequel il est mutuellement intelligible ; les mots et structures de cette leçon reflètent ce fonds commun du maninka de l'Est, complété par les spécificités phonologiques et grammaticales du parler de Faranah documentées par Spears (voir sources)."
   ],
   "exercises": [
     {
-      "exercise_id": "ex5_1",
-      "type": "multiple_choice",
-      "question": "Traduisez fidèlement la structure suivante en Sankaran : 'Quatre maisons'",
-      "options": [
-        "Naani so",
-        "So naani",
-        "So tan ni naani"
-      ],
-      "correct_answer": "So naani",
-      "explanation": "Le nom 'so' se place en premier, directement suivi du chiffre ordinal 'naani' (4)."
+      "exercise_id": "e1",
+      "type": "traduction",
+      "question": "Traduisez le nombre 'quinze' en malinké.",
+      "correct_answer": "Tan ni lolu",
+      "explanation": "tan (10) + ni + lolu (5) = 15."
     },
     {
-      "exercise_id": "ex5_2",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Dix-deux (douze) s'exprime par la dizaine unie à l'unité : Tan ni [ ___ ].",
-      "correct_answer": "fila",
-      "hint": "C'est le chiffre deux en langue vernaculaire."
+      "exercise_id": "e2",
+      "type": "choix_multiple",
+      "question": "Que signifie 'bisaba' ?",
+      "options": [
+        "13",
+        "30",
+        "3",
+        "23"
+      ],
+      "correct_answer": "30",
+      "explanation": "'bi-' + 'saba' (3) forme la dizaine 'trente'."
+    },
+    {
+      "exercise_id": "e3",
+      "type": "texte_a_trous",
+      "sentence_with_blank": "Muwan ___ fila = vingt-deux (22)",
+      "correct_answer": "ni",
+      "hint": "C'est le mot de liaison additive entre la dizaine et l'unité."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Ethnologue — Maninka, Sankaran [msc]",
+      "url": "https://www.ethnologue.com/language/msc/"
+    },
+    {
+      "label": "Glottolog 5.3 — Sankaran Maninka [sank1253]",
+      "url": "https://glottolog.org/resource/languoid/id/sank1253"
+    },
+    {
+      "label": "Wikipédia — Sankaran (langue, msc)",
+      "url": "https://fr.wikipedia.org/wiki/Sankaran"
+    },
+    {
+      "label": "Spears, R. A. — The Structure of Faranah-Maninka (Indiana University, description structurale du parler de Faranah, historiquement le Sankaran)",
+      "url": "https://theswissbay.ch/pdf/Books/Linguistics/Mega%20linguistics%20pack/African/Niger-Congo/Mande/Maninka,%20The%20Structure%20of%20Faranah-%20(Spears).pdf"
+    },
+    {
+      "label": "Malinkuia — Introduction à la langue malinké (variété du Wulada, Haute-Guinée)",
+      "url": "https://fr.scribd.com/document/499114939/Malinkuia"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Vocabulaire et grammaire de base communs au maninka/malinké standard de Guinée (fonds partagé du continuum maninka de l'Est, confirmé pour le Sankaran par Ethnologue, Glottolog et Vydrin). Les points signalés comme « spécifiques au Sankaran » dans cette leçon proviennent de la description structurale du Faranah-Maninka par Spears (Indiana University), seule étude dédiée disponible pour ce parler ; elle date des années 1960-70 et repose sur un informateur unique, d'où une confiance modérée plutôt qu'élevée."
 }

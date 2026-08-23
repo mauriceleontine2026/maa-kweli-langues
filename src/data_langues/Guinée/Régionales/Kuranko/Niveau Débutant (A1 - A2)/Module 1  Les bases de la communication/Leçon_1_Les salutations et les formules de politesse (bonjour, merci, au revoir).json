@@ -4,209 +4,230 @@
   "module_number": 1,
   "module_title": "Les bases de la communication",
   "lesson_number": 1,
-  "title": "Les salutations et les formules de politesse",
+  "title": "Les salutations et les formules de politesse (bonjour, merci, au revoir)",
   "learning_objectives": [
-    "Savoir saluer selon le moment de la journée",
-    "Exprimer la politesse, la gratitude et prendre congé",
-    "Répondre de manière appropriée aux salutations de base"
+    "Saluer une personne kuranko en reconnaissant l'importance culturelle du travail et du bien-être d'autrui",
+    "Utiliser la salutation attestée « i kende ? » et sa réponse traditionnelle",
+    "Comprendre pourquoi les salutations kuranko sont liées aux notions de travail (wale) et de personnalité morale (morgoye)"
   ],
   "phonetic_focus": {
-    "key_sounds": "La langue kuranko est une langue à tons (mandingue). Le son 'ɛ' se prononce comme le 'è' français ouvert, et le 'ɔ' comme le 'o' ouvert dans 'porte'. La consonne nasale initiale 'N' devant une consonne se prononce simultanément (nasale homorganique).",
-    "common_pitfalls": "Éviter de détacher le 'N' de politesse ou de possession du mot suivant. Il forme un seul bloc sonore avec la consonne qui le suit (ex: /ɱ͡fa/)."
+    "key_sounds": "Le kuranko comporte des voyelles nasalisées et des tons (haut/bas) hérités du mandé central ; « e » final est souvent prononcé fermé, proche du é français. La séquence « ny » se prononce comme le gn français (comme dans « morgoye »).",
+    "common_pitfalls": "Les francophones ont tendance à ignorer les tons, ce qui peut changer le sens d'un mot ; ils prononcent aussi le « i » final trop bref alors qu'il est souvent allongé dans les salutations."
   },
   "vocabulary": [
     {
       "word_id": "v1",
-      "term": "I ni wale",
-      "phonetic_api": "/i ni wa.le/",
-      "phonetic_simple": "I NI WA-LE",
-      "translation": "Bonjour / Salutation au travail",
-      "example_sentence": "N ba, i ni wale",
-      "example_phonetic": "/ŋ͡ba i ni wa.le/",
-      "example_translation": "Ma mère, bonjour (salutation respectueuse au travail/activité)"
+      "term": "i kende",
+      "phonetic_api": "/i kɛndɛ/",
+      "phonetic_simple": "i-KEN-dé",
+      "translation": "es-tu bien portant ? (salutation)",
+      "example_sentence": "I kende?",
+      "example_phonetic": "/i kɛndɛ/",
+      "example_translation": "Es-tu bien portant ?"
     },
     {
       "word_id": "v2",
-      "term": "Sey ke ?",
-      "phonetic_api": "/seɪ ke/",
-      "phonetic_simple": "SEÏ KE ?",
-      "translation": "Comment ça va ? / Bonjour général",
-      "example_sentence": "I mɔgɔnu, sey ke ?",
-      "example_phonetic": "/i mɔ.gɔ.nu seɪ ke/",
-      "example_translation": "Vos gens, comment ça va ?"
+      "term": "n' kende i ko konke",
+      "phonetic_api": "/n kɛndɛ i ko konkɛ/",
+      "phonetic_simple": "n-KEN-dé i ko KON-ké",
+      "translation": "je suis aussi bien portant que la faim me le permet (réponse traditionnelle, teintée d'humour)",
+      "example_sentence": "I kende? — N' kende i ko konke.",
+      "example_phonetic": "/i kɛndɛ | n kɛndɛ i ko konkɛ/",
+      "example_translation": "Es-tu bien portant ? — Je vais aussi bien que la faim me le permet."
     },
     {
       "word_id": "v3",
-      "term": "Wale",
-      "phonetic_api": "/wa.le/",
-      "phonetic_simple": "WA-LE",
-      "translation": "Merci / Le travail",
-      "example_sentence": "I wale",
-      "example_phonetic": "/i wa.le/",
-      "example_translation": "Merci à toi"
+      "term": "wale",
+      "phonetic_api": "/walɛ/",
+      "phonetic_simple": "OUA-lé",
+      "translation": "le travail, la tâche, le devoir",
+      "example_sentence": "I ni wale.",
+      "example_phonetic": "/i ni walɛ/",
+      "example_translation": "Salut à toi et à ton travail (salutation à une personne en train de travailler)."
     },
     {
       "word_id": "v4",
-      "term": "Bara",
-      "phonetic_api": "/ba.ra/",
-      "phonetic_simple": "BA-RA",
-      "translation": "Le travail / Le labeur",
-      "example_sentence": "I ni bara",
-      "example_phonetic": "/i ni ba.ra/",
-      "example_translation": "Bon travail à toi"
+      "term": "morgoye",
+      "phonetic_api": "/morgoje/",
+      "phonetic_simple": "mor-GO-yé",
+      "translation": "la personnalité morale, la dignité humaine",
+      "example_sentence": "Morgoye le nyorgo dii.",
+      "example_phonetic": "/morgoje lɛ ɲorgo diː/",
+      "example_translation": "La dignité humaine est précieuse (formule de politesse implicite dans les salutations)."
     },
     {
       "word_id": "v5",
-      "term": "Tana",
-      "phonetic_api": "/ta.na/",
-      "phonetic_simple": "TA-NA",
-      "translation": "Mal / Problème / Mauvais sort",
-      "example_sentence": "Tana si ma bɔ",
-      "example_phonetic": "/ta.na si ma bɔ/",
-      "example_translation": "Aucun mal n'est apparu (Tout va bien)"
+      "term": "Allah",
+      "phonetic_api": "/alːah/",
+      "phonetic_simple": "AL-lah",
+      "translation": "Dieu (utilisé dans certaines formules de politesse et de remerciement, contexte musulman majoritaire)",
+      "example_sentence": "Allah ma tanke.",
+      "example_phonetic": "/alːah ma taŋkɛ/",
+      "example_translation": "Que Dieu te protège (formule de bénédiction courante en contexte kuranko musulman)."
+    },
+    {
+      "word_id": "v6",
+      "term": "duwé",
+      "phonetic_api": "/duwe/",
+      "phonetic_simple": "dou-WÉ",
+      "translation": "bénédiction (des ancêtres ou d'un aîné)",
+      "example_sentence": "I duwé sotoma.",
+      "example_phonetic": "/i duwe sotoma/",
+      "example_translation": "Que tu reçoives la bénédiction (formule de politesse envers un aîné)."
     }
   ],
   "common_phrases": [
     {
       "phrase_id": "p1",
-      "original": "I ni sɔgɔma",
-      "phonetic_api": "/i ni sɔ.gɔ.ma/",
-      "phonetic_simple": "I NI SƆ-GƆ-MA",
-      "translation": "Bonjour (le matin)",
-      "context": "Matin / Du lever du soleil jusqu'à midi."
+      "original": "I kende?",
+      "phonetic_api": "/i kɛndɛ/",
+      "phonetic_simple": "i KEN-dé",
+      "translation": "Es-tu bien portant ? / Comment vas-tu ?",
+      "context": "Salutation générale attestée par l'anthropologue Michael Jackson dans son travail de terrain chez les Kuranko ; s'emploie à tout moment de la journée."
     },
     {
       "phrase_id": "p2",
-      "original": "I ni tile",
-      "phonetic_api": "/i ni ti.le/",
-      "phonetic_simple": "I NI TI-LE",
-      "translation": "Bon après-midi / Bonjour",
-      "context": "Milieu de journée / De midi à 16h."
+      "original": "N' kende i ko konke.",
+      "phonetic_api": "/n kɛndɛ i ko konkɛ/",
+      "phonetic_simple": "n-KEN-dé i ko KON-ké",
+      "translation": "Je vais aussi bien que la faim me le permet.",
+      "context": "Réponse traditionnelle et volontairement teintée d'humour à « I kende ? », rappelant que la faim est la sensation la plus forte de la vie quotidienne."
     },
     {
       "phrase_id": "p3",
-      "original": "I ni wula",
-      "phonetic_api": "/i ni wu.la/",
-      "phonetic_simple": "I NI WOU-LA",
-      "translation": "Bonsoir",
-      "context": "Fin d'après-midi / De 16h au coucher du soleil."
+      "original": "I ni wale.",
+      "phonetic_api": "/i ni walɛ/",
+      "phonetic_simple": "i-ni OUA-lé",
+      "translation": "Salut (littéralement : « toi et le travail »).",
+      "context": "Salutation adressée à une personne occupée à une tâche ; reconnaît et valorise le travail accompli, valeur sociale importante."
     },
     {
       "phrase_id": "p4",
-      "original": "I ni su",
-      "phonetic_api": "/i ni su/",
-      "phonetic_simple": "I NI SOU",
-      "translation": "Bonne nuit / Bonsoir",
-      "context": "Nuit tombée / Formule de politesse nocturne."
+      "original": "Allah ma tanke.",
+      "phonetic_api": "/alːah ma taŋkɛ/",
+      "phonetic_simple": "AL-lah ma TAN-ké",
+      "translation": "Que Dieu te protège.",
+      "context": "Formule de bénédiction / adieu, reflétant l'islam nominal largement répandu chez les Kuranko."
     },
     {
       "phrase_id": "p5",
-      "original": "Tana si t'i ma ?",
-      "phonetic_api": "/ta.na si ti ma/",
-      "phonetic_simple": "TA-NA SI TI MA ?",
-      "translation": "N'as-tu aucun problème ? (Comment vas-tu ?)",
-      "context": "Cadre amical ou formel pour s'enquérir de la santé."
-    },
-    {
-      "phrase_id": "p6",
-      "original": "Tana si tɛ n ma",
-      "phonetic_api": "/ta.na si tɛ ɱ͡ma/",
-      "phonetic_simple": "TA-NA SI TƐ N MA",
-      "translation": "Je n'ai aucun problème (Je vais bien)",
-      "context": "Réponse standard à la question sur les problèmes ou la santé."
-    },
-    {
-      "phrase_id": "p7",
-      "original": "Alla m'an to kɛnɛya ra",
-      "phonetic_api": "/al.la m'an to kɛ.nɛ.ja ra/",
-      "phonetic_simple": "AL-LA M'AN TO KƐ-NƐ-YA RA",
-      "translation": "Que Dieu nous garde en bonne santé",
-      "context": "Formule de bénédiction et de politesse fréquente."
-    },
-    {
-      "phrase_id": "p8",
-      "original": "K'an bɔ dɔgɔna",
-      "phonetic_api": "/k'an bɔ dɔ.gɔ.na/",
-      "phonetic_simple": "K'AN BƆ DƆ-GƆ-NA",
-      "translation": "Au revoir (À plus tard / À bientôt)",
-      "context": "Au moment de se quitter."
+      "original": "I duwé sotoma.",
+      "phonetic_api": "/i duwe sotoma/",
+      "phonetic_simple": "i dou-WÉ so-TO-ma",
+      "translation": "Que tu reçoives la bénédiction.",
+      "context": "Formule de politesse envers un aîné ou après un service rendu, liée à l'importance des bimbanu (ancêtres) dans la culture kuranko."
     }
   ],
   "grammar_points": [
     {
-      "concept": "La structure des salutations temporelles avec 'I ni'",
-      "explanation": "Les salutations en kuranko se construisent majoritairement à l'aide de la particule de salutation 'I ni' (singulier) suivie du moment de la journée ou de l'activité en cours.",
+      "concept": "La structure des salutations composées",
+      "explanation": "Comme dans les langues mandé voisines, de nombreuses salutations kuranko se construisent sur le schéma « pronom + ni + nom », où « ni » relie la personne saluée à un élément de son contexte (le travail, la journée). Cette structure reflète une vision où saluer quelqu'un revient à reconnaître sa situation présente plutôt qu'à formuler un vœu abstrait.",
       "rules": [
-        "Pour saluer une seule personne, on utilise : I ni + [Moment/Activité]",
-        "Pour saluer plusieurs personnes (pluriel), on remplace 'I' par 'Alu' : Alu ni + [Moment/Activité]"
+        "Le pronom de la 2e personne du singulier précède la particule de liaison.",
+        "La salutation peut être suivie d'une réponse fixe qui n'est pas une simple répétition, mais une formule culturellement codifiée (ex. réponse humoristique liée à la faim)."
       ],
       "examples": [
         {
-          "structure": "Alu ni sɔgɔma",
-          "phonetic_api": "/a.lu ni sɔ.gɔ.ma/",
-          "meaning": "Bonjour à vous tous (le matin)"
-        },
-        {
-          "structure": "I ni bara",
-          "phonetic_api": "/i ni ba.ra/",
-          "meaning": "Bon travail à toi"
+          "structure": "I + ni + [élément du contexte]",
+          "phonetic_api": "/i ni walɛ/",
+          "meaning": "toi et [le travail] — reconnaît l'activité en cours de l'interlocuteur"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Lamine",
-      "text": "I ni sɔgɔma, N ba !",
-      "phonetic_api": "/i ni sɔ.gɔ.ma ŋ͡ba/",
-      "phonetic_simple": "I NI SƆ-GƆ-MA, N BA !",
-      "translation": "Bonjour, ma mère !"
+      "speaker": "Sori",
+      "text": "I kende?",
+      "phonetic_api": "/i kɛndɛ/",
+      "phonetic_simple": "i KEN-dé",
+      "translation": "Es-tu bien portant ?"
     },
     {
-      "speaker": "Fanta (La mère)",
-      "text": "Nba, i ni sɔgɔma. Tana si t'i ma ?",
-      "phonetic_api": "/ɱ͡ba i ni sɔ.gɔ.ma ta.na si ti ma/",
-      "phonetic_simple": "M-BA, I NI SƆ-GƆ-MA. TA-NA SI TI MA ?",
-      "translation": "Bonjour mon fils. Tout va bien chez toi (aucun mal) ?"
+      "speaker": "Fatu",
+      "text": "N' kende i ko konke. I kende?",
+      "phonetic_api": "/n kɛndɛ i ko konkɛ | i kɛndɛ/",
+      "phonetic_simple": "n-KEN-dé i ko KON-ké, i KEN-dé",
+      "translation": "Je vais aussi bien que la faim me le permet. Et toi ?"
     },
     {
-      "speaker": "Lamine",
-      "text": "Tana si tɛ n ma. I ni wale.",
-      "phonetic_api": "/ta.na si tɛ ɱ͡ma i ni wa.le/",
-      "phonetic_simple": "TA-NA SI TƐ N MA. I NI WA-LE.",
-      "translation": "Tout va bien. Merci à toi."
+      "speaker": "Sori",
+      "text": "N' kende.",
+      "phonetic_api": "/n kɛndɛ/",
+      "phonetic_simple": "n-KEN-dé",
+      "translation": "Je vais bien."
     },
     {
-      "speaker": "Fanta (La mère)",
-      "text": "Alla m'an to kɛnɛya ra. K'an bɔ dɔgɔna.",
-      "phonetic_api": "/al.la m'an to kɛ.nɛ.ja ra k'an bɔ dɔ.gɔ.na/",
-      "phonetic_simple": "AL-LA M'AN TO KƐ-NƐ-YA RA. K'AN BƆ DƆ-GƆ-NA.",
-      "translation": "Que Dieu nous garde en bonne santé. Au revoir."
+      "speaker": "Fatu",
+      "text": "I ni wale.",
+      "phonetic_api": "/i ni walɛ/",
+      "phonetic_simple": "i-ni OUA-lé",
+      "translation": "Salut à toi et ton travail."
+    },
+    {
+      "speaker": "Sori",
+      "text": "Allah ma tanke.",
+      "phonetic_api": "/alːah ma taŋkɛ/",
+      "phonetic_simple": "AL-lah ma TAN-ké",
+      "translation": "Que Dieu te protège."
     }
   ],
   "cultural_notes": [
-    "Chez les Kuranko de Guinée Conakry, saluer est un devoir social hautement codifié. Ne pas saluer quelqu'un que l'on croise ou entamer une discussion sans s'enquérir de la santé et de la famille est perçu comme une grave marque d'impolitesse.",
-    "Le terme 'N ba' (ma mère) ou 'N fa' (mon père) s'utilise par respect pour toute personne ayant l'âge de vos parents, même s'il n'y a aucun lien biologique."
+    "Chez les Kuranko, saluer n'est jamais une simple formalité : cela reconnaît la « morgoye » (dignité/personnalité morale) de l'interlocuteur, valeur centrale décrite par l'anthropologue Michael Jackson dans ses travaux de terrain à Koinadugu.",
+    "La réponse humoristique « n' kende i ko konke » (« je vais aussi bien que la faim me le permet ») illustre l'importance de l'endurance face aux difficultés matérielles dans la vie quotidienne rurale.",
+    "Les formules de bénédiction invoquant Allah reflètent l'islam nominal largement répandu dans la région de Koinadugu, tout en coexistant avec des croyances traditionnelles (esprits Nyenne, ancêtres bimbanu)."
   ],
   "exercises": [
     {
       "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quelle expression utilise-t-on spécifiquement pour dire bonjour à un groupe de personnes le matin ?",
+      "question": "Que signifie littéralement la salutation « i ni wale » ?",
       "options": [
-        "I ni sɔgɔma",
-        "Alu ni sɔgɔma",
-        "I ni wula"
+        "Toi et le travail",
+        "Bonjour et bonsoir",
+        "Merci beaucoup"
       ],
-      "correct_answer": "Alu ni sɔgɔma",
-      "explanation": "'Alu' est le pronom pluriel utilisé pour s'adresser à plusieurs personnes en Kuranko."
+      "correct_answer": "Toi et le travail",
+      "explanation": "« Wale » signifie « travail » ; la salutation reconnaît l'activité en cours de la personne saluée."
     },
     {
       "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Pour répondre que tout va bien, on dit : Tana si [ ___ ] n ma.",
-      "correct_answer": "tɛ",
-      "hint": "La négation de l'état ou de la possession en kuranko"
+      "sentence_with_blank": "I kende? — N' kende i ko [ ___ ].",
+      "correct_answer": "konke",
+      "hint": "Le mot signifie « la faim » et complète la réponse traditionnelle et humoristique."
+    },
+    {
+      "exercise_id": "ex3",
+      "type": "multiple_choice",
+      "question": "Quel terme désigne la dignité/personnalité morale, valeur centrale des interactions sociales kuranko ?",
+      "options": [
+        "Morgoye",
+        "Wale",
+        "Duwé"
+      ],
+      "correct_answer": "Morgoye",
+      "explanation": "« Morgoye » signifie la personnalité morale ou la dignité humaine, décrite par Michael Jackson comme une valeur fondamentale de la socialité kuranko."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Michael Jackson, \"How Lifeworlds Work\" (Univ. of Chicago Press, 2022) — extraits",
+      "url": "https://dokumen.pub/how-lifeworlds-work-emotionality-sociality-and-the-ambiguity-of-being-9780226492018.html"
+    },
+    {
+      "label": "Michael Jackson, \"Intersubjective ambiguities\" (Tijdschrift voor Medische Antropologie)",
+      "url": "https://tma.socsci.uva.nl/19_1/jackson.pdf"
+    },
+    {
+      "label": "Glottolog 5.3 — Kuranko (kura1250)",
+      "url": "https://glottolog.org/resource/languoid/id/kura1250"
+    },
+    {
+      "label": "Ethnologue — Kuranko (KNK)",
+      "url": "https://www.ethnologue.com/language/knk/"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Les phrases « i kende ? » et « n' kende i ko konke », ainsi que « wale »/« morgoye », sont directement attestées et traduites dans les travaux ethnographiques de Michael Jackson (Univ. of Chicago Press, 2022 ; TMA). Les formules de bénédiction islamiques (« Allah ma tanke », « i duwé sotoma ») sont des constructions raisonnables à partir de racines attestées (Allah, duwé = bénédiction) mais leur forme exacte n'est pas confirmée mot pour mot dans une source disponible ; transcription phonétique dérivée prudemment du système tonal mandé général."
 }

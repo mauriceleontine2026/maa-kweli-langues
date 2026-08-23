@@ -6,129 +6,189 @@
   "lesson_number": 3,
   "title": "L'alphabet et les sons spécifiques de la langue",
   "learning_objectives": [
-    "Identifier l'alphabet latin adapté au Badiaranké",
-    "Prononcer correctement les consonnes spécifiques (implosives, nasales complexes)",
-    "Reconnaître et reproduire le système des voyelles brèves et longues"
+    "Identifier les sons badiaranké notés par Cover (2010) : voyelles nasales, consonnes /tʃ/ et /dʒ/",
+    "Comprendre qu'aucun alphabet officiel ou standardisé n'est attesté pour le badiaranké",
+    "Reconnaître la notation ASJP (utilisée pour le lexique Meyer 2001) et ses limites"
   ],
   "phonetic_focus": {
-    "key_sounds": "La langue dispose des caractères spécifiques suivants : ɓ (implosive bilabiale), ɗ (implosive alvéolaire), ŋ (nasale vélaire comme le 'ng' de l'anglais 'sing'), et ñ (nasale palatale).",
-    "common_pitfalls": "Veillez à ne pas nasaliser les voyelles françaises devant les nasales vélaires. Prononcez distinctement le /ŋ/ en bloquant l'air au fond du palais.",
-    "vocabulary": [
-      {
-        "word_id": "v3_1",
-        "term": "ɓii",
-        "phonetic_api": "/ɓiː/",
-        "phonetic_simple": "BII (implosif)",
-        "translation": "Enfant / Fils / Fille",
-        "example_sentence": "Ɓii muŋ o.",
-        "example_phonetic": "/ɓiː muŋ o/",
-        "example_translation": "C'est mon enfant."
-      },
-      {
-        "word_id": "v3_2",
-        "term": "ɗiɗi",
-        "phonetic_api": "/ɗiɗi/",
-        "phonetic_simple": "DHI-DHI (implosif)",
-        "translation": "Deux",
-        "example_sentence": "Koro ɗiɗi.",
-        "example_phonetic": "/koro ɗiɗi/",
-        "example_translation": "Deux ans / Deux éléments."
-      },
-      {
-        "word_id": "v3_3",
-        "term": "ŋal",
-        "phonetic_api": "/ŋal/",
-        "phonetic_simple": "NGAL",
-        "translation": "L'œil",
-        "example_sentence": "Ŋal muŋ a lura.",
-        "example_phonetic": "/ŋal muŋ a lura/",
-        "example_translation": "Mon œil me fait mal."
-      },
-      {
-        "word_id": "v3_4",
-        "term": "ñaari",
-        "phonetic_api": "/ɲaːri/",
-        "phonetic_simple": "NYAA-RI",
-        "translation": "Le chat",
-        "example_sentence": "Ñaari o lora.",
-        "example_phonetic": "/ɲaːri o lora/",
-        "example_translation": "Le chat court."
-      }
-    ],
-    "common_phrases": [
-      {
-        "phrase_id": "p3_1",
-        "original": "Mbaara e ɓii !",
-        "phonetic_api": "/mɓaːra e ɓiː/",
-        "phonetic_simple": "MBAA-RA E BII",
-        "translation": "Bonjour mon enfant !",
-        "context": "S'adresser affectueusement à un plus jeune."
-      },
-      {
-        "phrase_id": "p3_2",
-        "original": "A sae ɗiɗi.",
-        "phonetic_api": "/a sae ɗiɗi/",
-        "phonetic_simple": "A SA-E DHI-DHI",
-        "translation": "C'est doublement bon / Très bien.",
-        "context": "Approuver vivement une action."
-      }
-    ],
-    "grammar_points": [
-      {
-        "concept": "La corrélation de longueur consonantique et vocalique",
-        "explanation": "En Badiaranké, doubler une voyelle ou une consonne modifie complètement la valeur lexicale et grammaticale du mot. Ce n'est pas un simple accent mais une unité de temps phonique supplémentaire.",
-        "rules": [
-          "Une voyelle double comme 'aa' requiert une tension articulatoire prolongée.",
-          "Les consonnes géminées arrêtent brièvement le flux d'air avant l'explosion du son."
-        ],
-        "examples": [
-          {
-            "structure": "ɓii vs ɓi",
-            "phonetic_api": "/ɓiː/ vs /ɓi/",
-            "meaning": "enfant vs (forme courte pronominale)"
-          }
-        ]
-      }
-    ],
-    "dialogue": [
-      {
-        "speaker": "Maître",
-        "text": "Janfɛ, fey sae ɓii muŋ.",
-        "phonetic_api": "/d͡ʒanfɛ fej sae ɓiː muŋ/",
-        "phonetic_simple": "DJAN-FE FEY SA-E BII MOUNG",
-        "translation": "S'il te plaît, viens ici mon enfant."
-      },
-      {
-        "speaker": "Enfant",
-        "text": "Iyo, mbiɗo feya.",
-        "phonetic_api": "/ijo mɓiɗo feja/",
-        "phonetic_simple": "I-YO MBI-DHO FEY-A",
-        "translation": "Oui, j'arrive."
-      }
-    ],
-    "cultural_notes": [
-      "L'écriture du Badiaranké utilise l'alphabet national guinéen standardisé. La maîtrise de ces caractères spécifiques permet aux locuteurs de transcrire fidèlement la tradition orale sans la dénaturer par le prisme des alphabets européens."
-    ],
-    "exercises": [
-      {
-        "exercise_id": "ex3_1",
-        "type": "multiple_choice",
-        "question": "Quel phonème correspond au caractère 'ŋ' ?",
-        "options": [
-          "Le son gn de montagne",
-          "Le son ng de parking",
-          "Le son in de sapin"
-        ],
-        "correct_answer": "Le son ng de parking",
-        "explanation": "Il s'agit de la nasale vélaire, produite à l'arrière de la cavité buccale."
-      },
-      {
-        "exercise_id": "ex3_2",
-        "type": "fill_in_the_blanks",
-        "sentence_with_blank": "Le mot désignant le chiffre deux s'écrit [ ___ ] .",
-        "correct_answer": "ɗiɗi",
-        "hint": "Utilise l'implosive dho à deux reprises."
-      }
-    ]
-  }
+    "key_sounds": "D'après Cover (2010) : voyelles nasales notées par un tilde après la voyelle (ex. /ə̃/, /ã/, /ĩ/) ; consonnes /tʃ/ (« tch »), /dʒ/ (« dj ») ; voyelles longues notées par « : » (ex. /a:/, /o:/, /e:/). La notation ASJP utilise des conventions différentes (C = son chuintant, N = nasale vélaire, 5 = son nasal non précisé, 3 = voyelle centrale).",
+    "common_pitfalls": "Confondre les voyelles longues et courtes (« a » vs « a: ») ; ne pas nasaliser les voyelles marquées ; lire la notation ASJP comme si elle était phonétique alors qu'elle est un système de transcription simplifié propre à la base de données ASJP."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "komiC",
+      "phonetic_api": "/komitʃ/",
+      "phonetic_simple": "ko-mitch",
+      "translation": "nom"
+    },
+    {
+      "word_id": "v2",
+      "term": "wunu",
+      "phonetic_api": "/wunu/",
+      "phonetic_simple": "wou-nou",
+      "translation": "personne (être humain)"
+    },
+    {
+      "word_id": "v3",
+      "term": "wusia",
+      "phonetic_api": "/wusia/",
+      "phonetic_simple": "wou-si-a",
+      "translation": "homme"
+    },
+    {
+      "word_id": "v4",
+      "term": "tSa:fe",
+      "phonetic_api": "/tʃa:fe/",
+      "phonetic_simple": "tcha-fé",
+      "translation": "femme"
+    },
+    {
+      "word_id": "v5",
+      "term": "n@se",
+      "phonetic_api": "/nəse/",
+      "phonetic_simple": "neu-sé",
+      "translation": "enfant"
+    },
+    {
+      "word_id": "v6",
+      "term": "m˜abe",
+      "phonetic_api": "/m̃abe/",
+      "phonetic_simple": "man-bé",
+      "translation": "eau"
+    },
+    {
+      "word_id": "v7",
+      "term": "nukus",
+      "phonetic_api": "/nukus/ (dérivé)",
+      "phonetic_simple": "nou-kous",
+      "translation": "feu"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "m˜abe",
+      "phonetic_api": "/m̃abe/",
+      "phonetic_simple": "man-bé",
+      "translation": "eau",
+      "context": "Exemple de voyelle nasale /ã/ suivie d'une consonne simple, attesté par Cover (2010)."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "nukus",
+      "phonetic_api": "/nukus/ (dérivé)",
+      "phonetic_simple": "nou-kous",
+      "translation": "feu",
+      "context": "Exemple de mot sans nasalisation, tiré de la liste ASJP (Meyer 2001)."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "komiC wunu",
+      "phonetic_api": "/komitʃ/ /wunu/",
+      "phonetic_simple": "ko-mitch wou-nou",
+      "translation": "nom personne (être humain)",
+      "context": "Juxtaposition pédagogique de mots déjà attestés dans cette leçon (recombinaison, PAS une phrase attestée telle quelle dans les sources)."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "komiC wusia",
+      "phonetic_api": "/komitʃ/ /wusia/",
+      "phonetic_simple": "ko-mitch wou-si-a",
+      "translation": "nom homme",
+      "context": "Juxtaposition pédagogique de mots déjà attestés dans cette leçon (recombinaison, PAS une phrase attestée telle quelle dans les sources)."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Absence d'alphabet standardisé attesté",
+      "explanation": "Aucune source consultée ne mentionne d'orthographe officielle ou d'alphabet standardisé pour le badiaranké. L'enquête SIL (2007) précise explicitement qu'aucune littérature écrite n'existe en badiaranké (contrairement au bassari, par exemple), et que l'alphabétisation en langue maternelle n'était, à la date de l'enquête, qu'un projet recommandé, non réalisé.",
+      "rules": [
+        "Les transcriptions utilisées dans ce cours suivent soit l'API de Cover (2010), soit la notation ASJP (Meyer 2001 via Segerer & Wichmann) — ce ne sont pas des orthographes officielles du badiaranké.",
+        "Ne pas présenter ces transcriptions comme un « alphabet badiaranké » figé : elles sont des outils de recherche linguistique."
+      ],
+      "examples": [
+        {
+          "structure": "m˜abe",
+          "phonetic_api": "/m̃abe/",
+          "meaning": "eau (voyelle nasale ã)"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Professeur",
+      "text": "m˜abe.",
+      "phonetic_api": "/m̃abe/",
+      "phonetic_simple": "man-bé",
+      "translation": "eau (exemple de nasalisation)."
+    },
+    {
+      "speaker": "Élève",
+      "text": "nukus.",
+      "phonetic_api": "/nukus/ (dérivé)",
+      "phonetic_simple": "nou-kous",
+      "translation": "feu (exemple sans nasalisation)."
+    },
+    {
+      "speaker": "Professeur",
+      "text": "komiC.",
+      "phonetic_api": "/komitʃ/",
+      "phonetic_simple": "ko-mitch",
+      "translation": "Nom. (mot attesté isolé, recombiné pédagogiquement dans ce dialogue)"
+    },
+    {
+      "speaker": "Élève",
+      "text": "wunu.",
+      "phonetic_api": "/wunu/",
+      "phonetic_simple": "wou-nou",
+      "translation": "Personne (être humain). (mot attesté isolé, recombiné pédagogiquement dans ce dialogue)"
+    }
+  ],
+  "cultural_notes": [
+    "L'enquête SIL (2007) rapporte un intérêt marqué des Badiaranké pour l'apprentissage de la lecture dans leur propre langue, bien qu'aucun système d'écriture n'existât alors.",
+    "La documentation scientifique du badiaranké (Cover, 2010 ; Ducos, 1971 ; Meyer, 2001) utilise chacune ses propres conventions de transcription, ce qui complique la description d'un « alphabet » unique."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Existe-t-il un alphabet officiel standardisé pour le badiaranké ?",
+      "options": [
+        "Non, aucune source ne l'atteste",
+        "Oui, depuis 1971",
+        "Oui, basé sur l'arabe"
+      ],
+      "correct_answer": "Non, aucune source ne l'atteste",
+      "explanation": "L'enquête SIL (2007) confirme l'absence de littérature écrite standardisée en badiaranké."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Le tilde ( ˜ ) placé après une voyelle dans la transcription de Cover (2010) indique une voyelle [ ___ ].",
+      "correct_answer": "nasale",
+      "hint": "Pensez à la prononciation du français « an », « on », « in »."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Cover, R. (2010) — Aspect, Modality, and Tense in Badiaranke, UC Berkeley (PhD dissertation)",
+      "url": "https://escholarship.org/uc/item/6f91m5dg"
+    },
+    {
+      "label": "Cover, R. (2010) — texte intégral PDF (eScholarship, UC Berkeley)",
+      "url": "https://escholarship.org/content/qt6f91m5dg/qt6f91m5dg.pdf"
+    },
+    {
+      "label": "Jenkins, S. G. & Amdahl, J. E. (2007) — A Survey of the Tenda Languages in SE Senegal, SIL International",
+      "url": "https://www.sil.org/system/files/reapdata/72/25/98/72259868317564516932652615063790192765/silesr2007_011.pdf"
+    },
+    {
+      "label": "ASJP Database — Wordlist Jaad Badiaranke 4 (d'après Meyer 2001)",
+      "url": "https://asjp.clld.org/languages/JAAD_BADIARANKE_4"
+    }
+  ],
+  "confidence": "faible",
+  "confidence_note": "Aucun alphabet standardisé n'existe pour le badiaranké ; cette leçon décrit honnêtement les conventions de transcription phonétique utilisées par les linguistes (Cover 2010, ASJP/Meyer 2001), sans prétendre qu'il s'agit d'une orthographe officielle."
 }

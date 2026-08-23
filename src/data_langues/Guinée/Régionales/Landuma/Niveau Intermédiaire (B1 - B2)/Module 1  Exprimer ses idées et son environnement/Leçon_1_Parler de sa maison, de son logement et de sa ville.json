@@ -6,119 +6,196 @@
   "lesson_number": 1,
   "title": "Parler de sa maison, de son logement et de sa ville",
   "learning_objectives": [
-    "Décrire les différentes parties d'une habitation et d'une concession",
-    "Exprimer la localisation exacte et la disposition des pièces",
-    "Parler de son quartier et des infrastructures de la ville ou du village"
+    "Décrire un environnement rural avec le vocabulaire attesté (a-tɔɔf « terre/sol », a-saar « pierre », ke-tog « arbre »).",
+    "Utiliser les qualificatifs o-baki (grand) et o-tana (petit) pour décrire une habitation.",
+    "Relier ce vocabulaire à l'habitat réel décrit dans les sources ethnographiques (maisons en brique de terre séchée, toits de chaume)."
   ],
   "phonetic_focus": {
-    "key_sounds": "La consonne occlusive injective alvéolaire /ɗ/ se retrouve dans plusieurs radicaux descriptifs du logement ; elle demande une légère aspiration interne de l'air.",
-    "common_pitfalls": "Attention à ne pas assimiler le groupe syllabique terminal d'un nom de lieu avec le suffixe locatif générique."
+    "key_sounds": "Le landuma comporte des voyelles i, e, ɛ, u, o, ɔ, ʌ, ə, a et des consonnes prénasalisées complexes (mb-, nc-, nt-, ns-, ŋg-) absentes du français, ainsi qu'une affriquée c proche du « tch » et une occlusive labiovélaire gb (Sumbatova & Vydrin 2021).",
+    "common_pitfalls": "Les francophones tendent à scinder en deux syllabes les groupes consonantiques prénasalisés initiaux (ex. mb-, nc-, nt-), qui forment pourtant une seule attaque consonantique en landuma ; ils confondent aussi souvent les voyelles centrales ə/a et les voyelles mi-ouvertes ɛ/ɔ, qui n'ont pas d'équivalent phonémique net en français."
   },
   "vocabulary": [
     {
-      "word_id": "v10_1",
-      "term": "karka",
-      "phonetic_api": "/kar.ka/",
-      "phonetic_simple": "KAR-KA",
-      "translation": "maison / concession / demeure",
-      "example_sentence": "karka kɔn mɔ bɔn",
-      "example_phonetic": "/kar.ka kɔn mɔ bɔn/",
-      "example_translation": "Ma maison est grande."
+      "word_id": "v1",
+      "term": "a-tɔɔf",
+      "phonetic_api": "/a-tɔɔf/",
+      "phonetic_simple": "a-TÔÔF",
+      "translation": "terre",
+      "example_sentence": "a-tɔɔf",
+      "example_phonetic": "/a-tɔɔf/",
+      "example_translation": "« terre » — mot isolé attesté dans le corpus lexical disponible ; aucune phrase complète d'exemple n'a été trouvée pour ce terme dans les sources consultées, seule la forme du mot est donc garantie."
     },
     {
-      "word_id": "v10_2",
-      "term": "kumpan",
-      "phonetic_api": "/kum.pan/",
-      "phonetic_simple": "KOUM-PAN",
-      "translation": "chambre / pièce privée",
-      "example_sentence": "mbi lɔndɔ ka kumpan",
-      "example_phonetic": "/mbi lɔn.dɔ ka kum.pan/",
-      "example_translation": "Je suis dans la chambre."
+      "word_id": "v2",
+      "term": "o-baki",
+      "phonetic_api": "/o-baki/",
+      "phonetic_simple": "o-BA-ki",
+      "translation": "grand",
+      "example_sentence": "o-baki",
+      "example_phonetic": "/o-baki/",
+      "example_translation": "« grand » — mot isolé attesté dans le corpus lexical disponible ; aucune phrase complète d'exemple n'a été trouvée pour ce terme dans les sources consultées, seule la forme du mot est donc garantie."
     },
     {
-      "word_id": "v10_3",
-      "term": "dare",
-      "phonetic_api": "/da.re/",
-      "phonetic_simple": "DA-RE",
-      "translation": "ville / grand village",
-      "example_sentence": "dare ka Boké",
-      "example_phonetic": "/da.re ka bo.ke/",
-      "example_translation": "La ville de Boké."
+      "word_id": "v3",
+      "term": "o-tana",
+      "phonetic_api": "/o-tana/",
+      "phonetic_simple": "o-TA-na",
+      "translation": "petit",
+      "example_sentence": "o-tana",
+      "example_phonetic": "/o-tana/",
+      "example_translation": "« petit » — mot isolé attesté dans le corpus lexical disponible ; aucune phrase complète d'exemple n'a été trouvée pour ce terme dans les sources consultées, seule la forme du mot est donc garantie."
+    },
+    {
+      "word_id": "v4",
+      "term": "ke-tog",
+      "phonetic_api": "/ke-tog/",
+      "phonetic_simple": "ké-TOG",
+      "translation": "arbre",
+      "example_sentence": "ke-tog",
+      "example_phonetic": "/ke-tog/",
+      "example_translation": "« arbre » — mot isolé attesté dans le corpus lexical disponible ; aucune phrase complète d'exemple n'a été trouvée pour ce terme dans les sources consultées, seule la forme du mot est donc garantie."
+    },
+    {
+      "word_id": "v5",
+      "term": "a-saar",
+      "phonetic_api": "/a-saar/",
+      "phonetic_simple": "a-SAAR",
+      "translation": "pierre",
+      "example_sentence": "a-saar",
+      "example_phonetic": "/a-saar/",
+      "example_translation": "« pierre » — mot isolé attesté dans le corpus lexical disponible ; aucune phrase complète d'exemple n'a été trouvée pour ce terme dans les sources consultées, seule la forme du mot est donc garantie."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p10_1",
-      "original": "karka kɔn mɔ bɔn tundo",
-      "phonetic_api": "/kar.ka kɔn mɔ bɔn tun.do/",
-      "phonetic_simple": "KAR-KA KON MO BON TOUN-DO",
-      "translation": "Ma maison est très grande",
-      "context": "Décrire son lieu d'habitation lors d'une discussion amicale."
+      "phrase_id": "p1",
+      "original": "a-tɔɔf",
+      "phonetic_api": "/a-tɔɔf/",
+      "phonetic_simple": "a-TÔÔF",
+      "translation": "terre",
+      "context": "Aucune phrase complète figée n'est attestée pour ce contexte précis dans les sources disponibles ; seul ce mot isolé du corpus vérifié est proposé comme point d'ancrage, à utiliser avec prudence."
     },
     {
-      "phrase_id": "p10_2",
-      "original": "dɛ kumpan mɔ de ?",
-      "phonetic_api": "/dɛ kum.pan mɔ de/",
-      "phonetic_simple": "DÈ KOUM-PAN MO DE",
-      "translation": "Où se trouve ta chambre ?",
-      "context": "Faire visiter son logement à un de ses hôtes."
+      "phrase_id": "p2",
+      "original": "o-baki a-tɔɔf",
+      "phonetic_api": "/o-baki a-tɔɔf/",
+      "phonetic_simple": "o-BA-ki a-TÔÔF",
+      "translation": "« grand » + « terre » (juxtaposition)",
+      "context": "Recombinaison prudente de deux mots déjà attestés séparément dans le corpus lexical de cette leçon (grand, terre) : cette juxtaposition n'est PAS une expression idiomatique attestée en tant que telle dans les sources, mais une association pédagogique construite uniquement à partir de vocabulaire vérifié, utile pour la mémorisation et la pratique orale."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "o-tana a-tɔɔf",
+      "phonetic_api": "/o-tana a-tɔɔf/",
+      "phonetic_simple": "o-TA-na a-TÔÔF",
+      "translation": "« petit » + « terre » (juxtaposition)",
+      "context": "Recombinaison prudente de deux mots déjà attestés séparément dans le corpus lexical de cette leçon (petit, terre) : cette juxtaposition n'est PAS une expression idiomatique attestée en tant que telle dans les sources, mais une association pédagogique construite uniquement à partir de vocabulaire vérifié, utile pour la mémorisation et la pratique orale."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "ke-tog a-tɔɔf",
+      "phonetic_api": "/ke-tog a-tɔɔf/",
+      "phonetic_simple": "ké-TOG a-TÔÔF",
+      "translation": "« arbre » + « terre » (juxtaposition)",
+      "context": "Recombinaison prudente de deux mots déjà attestés séparément dans le corpus lexical de cette leçon (arbre, terre) : cette juxtaposition n'est PAS une expression idiomatique attestée en tant que telle dans les sources, mais une association pédagogique construite uniquement à partir de vocabulaire vérifié, utile pour la mémorisation et la pratique orale."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'adjectif qualificatif verbal d'état 'bɔn'",
-      "explanation": "En landouma, de nombreux qualificatifs comme 'bɔn' (grand/être grand) se comportent grammaticalement comme des verbes d'état. Ils s'associent directement au marqueur d'actualisation 'mɔ' sans nécessiter l'ajout d'un verbe auxiliaire.",
+      "concept": "Accord alitératif radical (classes nominales)",
+      "explanation": "Le landuma, comme d'autres langues Mel du Nord, marque l'accord grammatical par un préfixe dont la consonne initiale reprend celle du nom qu'il qualifie ou remplace : c'est un accord dit « alitératif radical », distinct de l'accord par classes nominales à préfixes fixes qu'on trouve dans d'autres langues Niger-Congo. On observe dans le corpus attesté des préfixes tels que a-, da-, ta-, kʊ-, ke-, o-, ma- selon la classe et l'initiale du radical.",
       "rules": [
-        "Sujet + Marqueur 'mɔ' + Verbe d'état.",
-        "L'intensité est marquée en ajoutant l'adverbe 'tundo' après le verbe d'état."
+        "Les noms attestés portent presque tous un préfixe de classe : da-wump (tête), ta-fera (blanc), kʊ-suŋ (bouche), o-runi (homme), ma-rʊŋ (deux).",
+        "Le préfixe d'accord d'un qualificatif ou d'un déterminant tend à reprendre la consonne initiale du nom contrôleur plutôt qu'une classe grammaticale fixe et arbitraire.",
+        "Cette règle est documentée pour les noms inanimés dans les travaux académiques, mais son fonctionnement précis pour chaque catégorie de mots n'est pas intégralement publié en accès libre : la prudence s'impose pour toute généralisation."
       ],
       "examples": [
         {
-          "structure": "Nom + mɔ + bɔn",
-          "phonetic_api": "/da.re mɔ bɔn/",
-          "meaning": "La ville est grande."
+          "structure": "da-wump / da-fɔr",
+          "phonetic_api": "/da-wump/, /da-fɔr/",
+          "meaning": "tête / œil (même préfixe da- : classe nominale partagée)"
+        },
+        {
+          "structure": "ta-fera / ta-bi / ta-tɔt",
+          "phonetic_api": "/ta-fera/, /ta-bi/, /ta-tɔt/",
+          "meaning": "blanc / noir / bon (préfixe ta- pour ces qualificatifs attestés)"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Amadou",
-      "text": "karka mɔ mɔ bɔn ?",
-      "phonetic_api": "/kar.ka mɔ mɔ bɔn/",
-      "phonetic_simple": "KAR-KA MO MO BON ?",
-      "translation": "Ta maison est-elle grande ?"
+      "speaker": "Locuteur A",
+      "text": "a-tɔɔf",
+      "phonetic_api": "/a-tɔɔf/",
+      "phonetic_simple": "a-TÔÔF",
+      "translation": "(mot isolé : « terre ») — aucun dialogue naturel complet n'est attesté dans les sources disponibles pour ce thème ; cet échange reste donc une simple juxtaposition prudente du vocabulaire vérifié, non une phrase authentique de conversation."
     },
     {
-      "speaker": "Sékou",
-      "text": "ɔn-ɔn, karka kɔn mɔ bɔn. kumpan tsaat mɔ lɔndɔ.",
-      "phonetic_api": "/ɔn.ɔn kar.ka kɔn mɔ bɔn kum.pan t͡saːt mɔ lɔn.dɔ/",
-      "phonetic_simple": "ON-ON KAR-KA KON MO BON. KOUM-PAN TSAAT MO LON-DO",
-      "translation": "Oui, ma maison est grande. Trois chambres sont ici."
+      "speaker": "Locuteur B",
+      "text": "o-baki",
+      "phonetic_api": "/o-baki/",
+      "phonetic_simple": "o-BA-ki",
+      "translation": "(mot isolé : « grand ») — aucun dialogue naturel complet n'est attesté dans les sources disponibles pour ce thème ; cet échange reste donc une simple juxtaposition prudente du vocabulaire vérifié, non une phrase authentique de conversation."
+    },
+    {
+      "speaker": "Locuteur A",
+      "text": "o-tana",
+      "phonetic_api": "/o-tana/",
+      "phonetic_simple": "o-TA-na",
+      "translation": "(mot isolé : « petit ») — aucun dialogue naturel complet n'est attesté dans les sources disponibles pour ce thème ; cet échange reste donc une simple juxtaposition prudente du vocabulaire vérifié, non une phrase authentique de conversation."
+    },
+    {
+      "speaker": "Locuteur B",
+      "text": "ke-tog",
+      "phonetic_api": "/ke-tog/",
+      "phonetic_simple": "ké-TOG",
+      "translation": "(mot isolé : « arbre ») — aucun dialogue naturel complet n'est attesté dans les sources disponibles pour ce thème ; cet échange reste donc une simple juxtaposition prudente du vocabulaire vérifié, non une phrase authentique de conversation."
     }
   ],
   "cultural_notes": [
-    "La concession ('karka') landouma traditionnelle regroupe généralement plusieurs bâtiments abritant les membres d'une même famille élargie, entourant une cour centrale commune où se déroule la vie quotidienne."
+    "Les Landuma vivent principalement dans la préfecture de Boké, dans le nord-ouest de la Guinée, sur la rive gauche du fleuve Rio Nunez, en petits villages de 50 à 400 habitants ([Joshua Project](https://joshuaproject.net/people_groups/12979/gv)).",
+    "L'économie landuma repose sur l'agriculture de subsistance : riz, mil, maïs et arachide (culture de rente), complétés par le manioc, la patate douce, les mangues et les noix de cajou ([Joshua Project](https://joshuaproject.net/people_groups/12979/gv))."
   ],
   "exercises": [
     {
-      "exercise_id": "ex10_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Que signifie le mot 'kumpan' ?",
+      "question": "Comment dit-on « terre » en landuma ?",
       "options": [
-        "La cuisine",
-        "La chambre",
-        "Le marché"
+        "a-tɔɔf",
+        "o-baki",
+        "a-saar"
       ],
-      "correct_answer": "La chambre",
-      "explanation": "'kumpan' désigne spécifiquement l'espace de repos clos ou la pièce privée."
+      "correct_answer": "a-tɔɔf",
+      "explanation": "« a-tɔɔf » est la forme attestée pour « terre » d'après le corpus lexical collecté (confiance : moyenne)."
     },
     {
-      "exercise_id": "ex10_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "karka kɔn mɔ [ ___ ] (Ma maison est grande)",
-      "correct_answer": "bɔn",
-      "hint": "Le verbe d'état qualifiant la grandeur physique."
+      "sentence_with_blank": "[ ___ ] = « grand »",
+      "correct_answer": "o-baki",
+      "hint": "Ce mot appartient au vocabulaire de base attesté par les sources académiques (confiance : moyenne)."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Wiktionary — Word lists of Atlantic languages of Guinea (d'après Fields 2001)",
+      "url": "https://en.wiktionary.org/wiki/Appendix:Word_lists_of_Atlantic_languages_of_Guinea"
+    },
+    {
+      "label": "Joshua Project — Landoma in Guinea",
+      "url": "https://joshuaproject.net/people_groups/12979/gv"
+    },
+    {
+      "label": "Glottolog — Landoma [land1256]",
+      "url": "https://glottolog.org/resource/languoid/id/land1256"
+    },
+    {
+      "label": "Sumbatova & Vydrin (2021), Journal of Language Relationship 19-1/2, p.136-151",
+      "url": "https://www.jolr.ru/files/(303)jlr2021-19-1-2(136-151).pdf"
+    }
+  ],
+  "confidence": "faible",
+  "confidence_note": "Le vocabulaire cible de cette leçon provient exclusivement du corpus lexical attesté (ASJP/Wilson 2007/Rogers & Bryant 2012, Wiktionary/Fields 2001, Sumbatova & Vydrin 2021) ; confiance des mots utilisés : moyenne. Aucune phrase complète, formule figée ou règle grammaticale spécifique à ce sujet précis n'a été trouvée dans les sources disponibles : le contenu reste donc au niveau du vocabulaire isolé et la confiance globale du fichier est abaissée à 'faible' par prudence, conformément à l'exigence de ne jamais présenter une extrapolation comme une donnée sûre. Les phrases de la section 'common_phrases' au-delà de la première ont été obtenues par recombinaison de mots individuellement attestés du vocabulaire de cette leçon (juxtapositions pédagogiques), et non par une source directe attestant la phrase entière : elles sont signalées comme telles dans leur champ 'context'."
 }

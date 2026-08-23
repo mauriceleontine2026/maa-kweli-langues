@@ -6,138 +6,198 @@
   "lesson_number": 9,
   "title": "Les couleurs et les vêtements",
   "learning_objectives": [
-    "Nommer les couleurs fondamentales en kuranko",
-    "Identifier les pièces de vêtements courantes",
-    "Décrire un vêtement simple par sa couleur"
+    "Nommer la couleur rouge, seule couleur directement attestée en kuranko dans les sources consultées",
+    "Reconnaître les limites des ressources disponibles et l'usage prudent de cognats manding pour les autres couleurs",
+    "Décrire un vêtement simple avec les mots disponibles"
   ],
   "phonetic_focus": {
-    "key_sounds": "La consonne 'f' s'articule sans tension. Le digramme 'gb' s'articule comme une seule consonne occlusive sans coupure. La voyelle ouverte 'ɛ' dans 'gbe' doit être nette.",
-    "common_pitfalls": "Veillez à ne pas prononcer le 'g' séparément du 'b' dans le mot 'gbe'."
+    "key_sounds": "« Wulan » (rouge) comporte une voyelle nasalisée finale « an », fréquente en kuranko et dans les langues mandé voisines.",
+    "common_pitfalls": "Les francophones oublient souvent de nasaliser la finale « -an », prononçant « oulane » de façon trop ouverte et non nasale."
   },
   "vocabulary": [
     {
-      "word_id": "v1_m3_l9",
-      "term": "Gbe",
-      "phonetic_api": "/g͡be/",
-      "phonetic_simple": "GBE",
-      "translation": "Blanc",
-      "example_sentence": "Kura gbe",
-      "example_phonetic": "/ku.ra g͡be/",
-      "example_translation": "Un vêtement blanc"
+      "word_id": "v1",
+      "term": "wulan",
+      "phonetic_api": "/wulan/",
+      "phonetic_simple": "OU-lan (nasalisé)",
+      "translation": "rouge",
+      "example_sentence": "Dendike wulan.",
+      "example_phonetic": "/dɛndikɛ wulan/",
+      "example_translation": "Un boubou/vêtement rouge."
     },
     {
-      "word_id": "v2_m3_l9",
-      "term": "Fin",
+      "word_id": "v2",
+      "term": "dendike",
+      "phonetic_api": "/dɛndikɛ/",
+      "phonetic_simple": "dèn-di-KÉ",
+      "translation": "boubou, tunique traditionnelle (cognat manding « dendike »/« dloki », usage prudent, non directement attesté en kuranko)",
+      "example_sentence": "N na dendike sɔtɔ.",
+      "example_phonetic": "/n na dɛndikɛ sɔtɔ/",
+      "example_translation": "Je voudrais un boubou."
+    },
+    {
+      "word_id": "v3",
+      "term": "fin",
       "phonetic_api": "/fin/",
-      "phonetic_simple": "FIN",
-      "translation": "Noir",
-      "example_sentence": "Wulu fin",
-      "example_phonetic": "/wu.lu fin/",
-      "example_translation": "Un chien noir"
+      "phonetic_simple": "fine (nasalisé)",
+      "translation": "noir (cognat manding « fin »/« finman », usage prudent, non directement attesté en kuranko)",
+      "example_sentence": "Dendike fin.",
+      "example_phonetic": "/dɛndikɛ fin/",
+      "example_translation": "Un vêtement noir."
     },
     {
-      "word_id": "v3_m3_l9",
-      "term": "Wulen",
-      "phonetic_api": "/wu.len/",
-      "phonetic_simple": "WOU-LEN",
-      "translation": "Rouge",
-      "example_sentence": "Malo wulen",
-      "example_phonetic": "/ma.lo wu.len/",
-      "example_translation": "Du riz rouge"
+      "word_id": "v4",
+      "term": "gbɛ",
+      "phonetic_api": "/ɡ͡bɛ/",
+      "phonetic_simple": "GBÈ",
+      "translation": "blanc (cognat manding « gbɛ »/« finman kɔrɔ », usage prudent, non directement attesté en kuranko)",
+      "example_sentence": "Dendike gbɛ.",
+      "example_phonetic": "/dɛndikɛ ɡ͡bɛ/",
+      "example_translation": "Un vêtement blanc."
     },
     {
-      "word_id": "v4_m3_l9",
-      "term": "Kura",
-      "phonetic_api": "/ku.ra/",
-      "phonetic_simple": "KOU-RA",
-      "translation": "Vêtement / Habit / Pagne",
-      "example_sentence": "Kura san",
-      "example_phonetic": "/ku.ra san/",
-      "example_translation": "Acheter un vêtement"
-    },
-    {
-      "word_id": "v5_m3_l9",
-      "term": "Donki",
-      "phonetic_api": "/don.ki/",
-      "phonetic_simple": "DON-KI",
-      "translation": "Boubou / Chemise",
-      "example_sentence": "Donki fin",
-      "example_phonetic": "/don.ki fin/",
-      "example_translation": "Un boubou noir"
+      "word_id": "v5",
+      "term": "sɔtɔ",
+      "phonetic_api": "/sɔtɔ/",
+      "phonetic_simple": "SO-to",
+      "translation": "obtenir, acquérir (utilisé pour dire qu'on a acheté ou reçu un vêtement)",
+      "example_sentence": "N na dendike fin sɔtɔ.",
+      "example_phonetic": "/n na dɛndikɛ fin sɔtɔ/",
+      "example_translation": "J'ai obtenu un boubou noir."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p1_m3_l9",
-      "original": "Kura gbe bɛ n fɛ",
-      "phonetic_api": "/ku.ra g͡be bɛ ɱ͡fɛ/",
-      "phonetic_simple": "KOU-RA GBE BƐ N FƐ",
-      "translation": "Je veux le vêtement blanc",
-      "context": "Choisir un tissu ou un habit chez un marchand."
+      "phrase_id": "p1",
+      "original": "Dendike wulan.",
+      "phonetic_api": "/dɛndikɛ wulan/",
+      "phonetic_simple": "dèn-di-KÉ OU-lan",
+      "translation": "Un vêtement rouge.",
+      "context": "« Wulan » (rouge) est le seul terme de couleur directement attesté chez Michael Jackson pour le kuranko."
     },
     {
-      "phrase_id": "p2_m3_l9",
-      "original": "A jili bɛ ni kura ri ?",
-      "phonetic_api": "/a d͡ʒi.li bɛ ni ku.ra ri/",
-      "phonetic_simple": "A DJI-LI BƐ NI KOU-RA RI ?",
-      "translation": "Combien coûte ce vêtement ?",
-      "context": "Demander le prix au marché."
+      "phrase_id": "p2",
+      "original": "N na dendike sɔtɔ.",
+      "phonetic_api": "/n na dɛndikɛ sɔtɔ/",
+      "phonetic_simple": "n na dèn-di-KÉ so-TO",
+      "translation": "Je voudrais un vêtement/boubou.",
+      "context": "Réutilise la construction de souhait « N na ... sɔtɔ » vue à la leçon 8."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "N na dendike fin sɔtɔ.",
+      "phonetic_api": "/n na dɛndikɛ fin sɔtɔ/",
+      "phonetic_simple": "n na dèn-di-KÈ fin SO-to",
+      "translation": "J'ai obtenu un boubou noir.",
+      "context": "Réutilise « fin » (noir) et « sɔtɔ » (obtenir) pour exprimer l'acquisition d'un vêtement d'une couleur donnée."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Dendike gbɛ ka diya.",
+      "phonetic_api": "/dɛndikɛ ɡ͡bɛ ka dija/",
+      "phonetic_simple": "dèn-di-KÈ gbè ka di-YA",
+      "translation": "Le boubou blanc est joli/agréable.",
+      "context": "Combine « gbɛ » (blanc) avec l'adjectif « diya » (agréable, déjà attesté ailleurs dans le corpus) pour exprimer une appréciation esthétique."
     }
   ],
   "grammar_points": [
     {
-      "concept": "La place de l'adjectif de couleur",
-      "explanation": "En kuranko, les qualificatifs et adjectifs de couleur se placent directement après le nom qu'ils qualifient.",
+      "concept": "L'adjectif de couleur placé après le nom",
+      "explanation": "Comme dans les autres langues mandé, l'adjectif de couleur se place après le nom qu'il qualifie, sans marque d'accord visible dans les exemples disponibles.",
       "rules": [
-        "Structure : Nom + Couleur"
+        "Nom + couleur, sans article ni marque de genre.",
+        "Un seul terme de couleur (wulan, rouge) est directement attesté en kuranko dans les sources disponibles ; les autres couleurs présentées ici sont des cognats manding non confirmés pour le kuranko et doivent être utilisés avec prudence."
       ],
       "examples": [
         {
-          "structure": "Donki wulen",
-          "phonetic_api": "/don.ki wu.len/",
-          "meaning": "Un boubou rouge"
+          "structure": "nom + wulan",
+          "phonetic_api": "/dɛndikɛ wulan/",
+          "meaning": "vêtement rouge"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Saliou",
-      "text": "I ni wale ! I fɛ donki jili fɛ ?",
-      "phonetic_api": "/i ni wa.le i fɛ don.ki d͡ʒi.li fɛ/",
-      "phonetic_simple": "I NI WA-LE ! I FƐ DON-KI DJI-LI FƐ ?",
-      "translation": "Bonjour ! Quel boubou veux-tu ?"
+      "speaker": "Cliente",
+      "text": "I kende. N na dendike sɔtɔ.",
+      "phonetic_api": "/i kɛndɛ n na dɛndikɛ sɔtɔ/",
+      "phonetic_simple": "i KEN-dé, n na dèn-di-KÉ so-TO",
+      "translation": "Bonjour. Je voudrais un boubou."
     },
     {
-      "speaker": "Amara",
-      "text": "N bɛ donki gbe fɛ. A jili ?",
-      "phonetic_api": "/ɱ͡bɛ don.ki g͡be fɛ a d͡ʒi.li/",
-      "phonetic_simple": "N BƐ DON-KI GBE FƐ. A DJI-LI ?",
-      "translation": "Je veux le boubou blanc. Quel est son prix ?"
+      "speaker": "Vendeur",
+      "text": "Dendike wulan bara yan.",
+      "phonetic_api": "/dɛndikɛ wulan bara jan/",
+      "phonetic_simple": "dèn-di-KÉ OU-lan BA-ra yan",
+      "translation": "Il y a un boubou rouge ici."
+    },
+    {
+      "speaker": "Cliente",
+      "text": "A dii! Allah ma tanke.",
+      "phonetic_api": "/a diː alːah ma taŋkɛ/",
+      "phonetic_simple": "a diː, AL-lah ma TAN-ké",
+      "translation": "C'est bien ! Que Dieu te protège."
+    },
+    {
+      "speaker": "Vendeuse",
+      "text": "Dendike gbɛ ka diya, i lɔn?",
+      "phonetic_api": "/dɛndikɛ ɡ͡bɛ ka dija i lɔn/",
+      "phonetic_simple": "dèn-di-KÈ gbè ka di-YA, i lon",
+      "translation": "Le boubou blanc est joli, tu ne trouves pas ?"
     }
   ],
   "cultural_notes": [
-    "Les couleurs traditionnelles portent des symboliques fortes en Guinée. Le blanc ('gbe') évoque la pureté, la paix et la bénédiction, souvent arboré lors des cérémonies de mariage ou des prières du vendredi."
+    "Le rouge (« wulan ») porte souvent une valeur symbolique forte en Afrique de l'Ouest, associée à des rituels, à la royauté ou à la protection, bien qu'aucune source spécifique au kuranko consultée ne détaille cette symbolique pour cette langue précise.",
+    "Faute de lexique kuranko des couleurs largement documenté en ligne, cette leçon signale honnêtement la nécessité de recourir à des cognats manding (noir, blanc) pour compléter le vocabulaire, en attendant une vérification par un locuteur natif ou une source lexicale plus complète."
   ],
   "exercises": [
     {
-      "exercise_id": "ex1_m3_l9",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Que signifie 'Donki fin' ?",
+      "question": "Quelle couleur est directement attestée en kuranko dans les sources ethnographiques consultées ?",
       "options": [
-        "Un boubou blanc",
-        "Un boubou noir",
-        "Un boubou rouge"
+        "Wulan (rouge)",
+        "Fin (noir)",
+        "Gbɛ (blanc)"
       ],
-      "correct_answer": "Un boubou noir",
-      "explanation": "'Donki' signifie boubou et 'fin' signifie noir."
+      "correct_answer": "Wulan (rouge)",
+      "explanation": "« Wulan » (rouge) est le seul terme de couleur attesté chez Michael Jackson pour le kuranko ; les autres couleurs de cette leçon sont des cognats manding non confirmés."
     },
     {
-      "exercise_id": "ex2_m3_l9",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Pour dire rouge en kuranko, on utilise le terme [ ___ ].",
-      "correct_answer": "wulen",
-      "hint": "Couleur du sang"
+      "sentence_with_blank": "Dendike [ ___ ]. (Un vêtement rouge.)",
+      "correct_answer": "wulan",
+      "hint": "C'est la couleur attestée par Michael Jackson."
+    },
+    {
+      "exercise_id": "ex3",
+      "type": "multiple_choice",
+      "question": "Pourquoi les mots pour « noir » et « blanc » dans cette leçon sont-ils marqués de prudence ?",
+      "options": [
+        "Ce sont des cognats manding non confirmés pour le kuranko",
+        "Ils n'existent dans aucune langue",
+        "Ils sont attestés avec certitude"
+      ],
+      "correct_answer": "Ce sont des cognats manding non confirmés pour le kuranko",
+      "explanation": "Faute d'attestation directe en kuranko, ces couleurs sont empruntées par analogie au manding voisin et signalées comme telles, conformément à l'exigence d'honnêteté sur les sources."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Michael Jackson, \"How Lifeworlds Work\" (Univ. of Chicago Press, 2022) — extraits",
+      "url": "https://dokumen.pub/how-lifeworlds-work-emotionality-sociality-and-the-ambiguity-of-being-9780226492018.html"
+    },
+    {
+      "label": "An ka taa — Maninka/Malinké greetings and phrases (cognat Manding, pour comparaison prudente)",
+      "url": "https://www.ankataa.com/maninka-greetings-and-phrases"
+    },
+    {
+      "label": "Omniglot — Useful phrases in Bambara (cognat Manding, pour comparaison prudente)",
+      "url": "https://www.omniglot.com/language/phrases/bambara.htm"
+    }
+  ],
+  "confidence": "faible",
+  "confidence_note": "Seul « wulan » (rouge) est directement attesté en kuranko (Michael Jackson). « Dendike » (vêtement), « fin » (noir) et « gbɛ » (blanc) sont des cognats manding/bambara non confirmés spécifiquement pour le kuranko, utilisés ici par nécessité pédagogique et clairement signalés comme tels plutôt que présentés comme attestés."
 }

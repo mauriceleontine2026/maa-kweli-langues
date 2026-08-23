@@ -1,179 +1,216 @@
 {
   "lesson_id": "A1_M1_L2",
-  "level": "Débutant (A1-A2)",
+  "level": "Niveau Débutant (A1 - A2)",
   "module_number": 1,
   "module_title": "Les bases de la communication",
   "lesson_number": 2,
   "title": "Se présenter (nom, âge, origine, profession)",
   "learning_objectives": [
-    "Dire son nom et demander le nom de son interlocuteur",
-    "Exprimer son origine géographique et sa nationalité",
-    "Indiquer sa profession et donner son âge de manière simple"
+    "Donner et demander le nom d'une personne en mani",
+    "Utiliser les pronoms personnels de base pour parler de soi",
+    "Comprendre les limites du vocabulaire disponible pour les professions modernes en mani"
   ],
   "phonetic_focus": {
-    "key_sounds": "La consonne 'ɲ' se prononce comme le 'gn' français dans 'magnifique'. La voyelle ouverte 'ɛ' s'articule comme le 'è' de 'père', tandis que le 'ɔ' ressemble au 'o' ouvert de 'porte'.",
-    "common_pitfalls": "Attention à bien articuler le 'ɲ' initial sans y ajouter de voyelle parasite avant, comme dans le verbe 'ɲɛɛ'."
+    "key_sounds": "Le mani distingue 8 voyelles (i, e, ɛ, a, ɔ, o, u, ə) et des consonnes prénasalisées (mp, nt/nd, ŋk) ainsi qu'une labiovélaire /gb/ absentes du français. Le ton (registre haut/bas) est phonémique (Childs 2011, ch.2).",
+    "common_pitfalls": "Les francophones ont tendance à ne pas distinguer ɛ/e et ɔ/o, à simplifier les consonnes prénasalisées en de simples séquences nasale+consonne, et à ignorer les contrastes de ton, qui changent pourtant le sens ou la fonction grammaticale du mot (ex. hortatif vs perfectif marqués uniquement par le ton)."
   },
   "vocabulary": [
     {
-      "word_id": "v2_1",
-      "term": "diŋ",
-      "phonetic_api": "/diŋ/",
-      "phonetic_simple": "DING",
-      "translation": "nom / nom de famille",
-      "example_sentence": "N diŋ bɛ Sano.",
-      "example_phonetic": "/n̩ diŋ bɛ sa.no/",
-      "example_translation": "Mon nom est Sano."
+      "word_id": "v1",
+      "term": "idil",
+      "phonetic_api": "/idil/",
+      "phonetic_simple": "I-DIL",
+      "translation": "nom",
+      "example_sentence": "idil mi ne...",
+      "example_phonetic": "/idil mi nɛ/",
+      "example_translation": "Mon nom est... (structure reconstruite)"
     },
     {
-      "word_id": "v2_2",
-      "term": "ɲɛɛ",
-      "phonetic_api": "/ɲɛː/",
-      "phonetic_simple": "NYÈÈ",
-      "translation": "année / âge / an",
-      "example_sentence": "N bɛ ni ɲɛɛ taran.",
-      "example_phonetic": "/n̩ bɛ ni ɲɛː ta.ran/",
-      "example_translation": "J'ai trente ans."
+      "word_id": "v2",
+      "term": "ya",
+      "phonetic_api": "/ja/",
+      "phonetic_simple": "YA",
+      "translation": "je, moi (pronom sujet indépendant 1SG)",
+      "example_sentence": "ya kɔ.",
+      "example_phonetic": "/ja kɔ/",
+      "example_translation": "Je vais / je pars."
     },
     {
-      "word_id": "v2_3",
-      "term": "wɔli",
-      "phonetic_api": "/wɔ.li/",
-      "phonetic_simple": "WƆ-LI",
-      "translation": "travail / profession / travailler",
-      "example_sentence": "N wɔli bɛ tɔgɔfɛ.",
-      "example_phonetic": "/n̩ wɔ.li bɛ tɔ.ɡɔ.fɛ/",
-      "example_translation": "Mon travail est l'enseignement."
+      "word_id": "v3",
+      "term": "mo",
+      "phonetic_api": "/mo/",
+      "phonetic_simple": "MO",
+      "translation": "tu, toi (pronom sujet 2SG)",
+      "example_sentence": "mo hun.",
+      "example_phonetic": "/mo hun/",
+      "example_translation": "Tu viens."
     },
     {
-      "word_id": "v2_4",
-      "term": "fɔkɔ",
-      "phonetic_api": "/fɔ.kɔ/",
-      "phonetic_simple": "FƆ-KƆ",
-      "translation": "habiter / venir de / origine",
-      "example_sentence": "N fɔkɔ bɛ Konaakiri.",
-      "example_phonetic": "/n̩ fɔ.kɔ bɛ ko.naː.ki.ri/",
-      "example_translation": "Je viens de Conakry."
+      "word_id": "v4",
+      "term": "wo",
+      "phonetic_api": "/wo/",
+      "phonetic_simple": "WO",
+      "translation": "il, elle (pronom sujet 3SG)",
+      "example_sentence": "wo fo.",
+      "example_phonetic": "/wo fo/",
+      "example_translation": "Il/elle parle."
     },
     {
-      "word_id": "v2_5",
-      "term": "mora",
-      "phonetic_api": "/mo.ra/",
-      "phonetic_simple": "MO-RA",
-      "translation": "personne / humain",
-      "example_sentence": "Mora yoma a ra.",
-      "example_phonetic": "/mo.ra jo.ma a ra/",
-      "example_translation": "C'est une bonne personne."
+      "word_id": "v5",
+      "term": "nyɔyɛ",
+      "phonetic_api": "/ɲɔjɛ/",
+      "phonetic_simple": "NYO-YÈ",
+      "translation": "quoi, quel, qui",
+      "example_sentence": "nyɔyɛ idil mo?",
+      "example_phonetic": "/ɲɔjɛ idil mo/",
+      "example_translation": "Quel est ton nom ? (structure reconstruite)"
+    },
+    {
+      "word_id": "v6",
+      "term": "fo",
+      "phonetic_api": "/fo/",
+      "phonetic_simple": "FO",
+      "translation": "parler",
+      "example_sentence": "ya fo mani.",
+      "example_phonetic": "/ja fo mani/",
+      "example_translation": "Je parle mani."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p2_1",
-      "original": "Wun diŋ bɛ nɛ ?",
-      "phonetic_api": "/wun diŋ bɛ nɛ/",
-      "phonetic_simple": "WOUN DING BÈ NÈ",
+      "phrase_id": "p1",
+      "original": "nyɔyɛ idil mo?",
+      "phonetic_api": "/ɲɔjɛ idil mo/",
+      "phonetic_simple": "NYO-YÈ I-DIL MO",
       "translation": "Quel est ton nom ?",
-      "context": "Formule standard pour demander l'identité de quelqu'un."
+      "context": "Question reconstruite à partir du mot interrogatif « nyɔyɛ » et du nom « idil » (Childs 2011) ; forme non attestée telle quelle dans le corpus."
     },
     {
-      "phrase_id": "p2_2",
-      "original": "N diŋ bɛ Alisani.",
-      "phonetic_api": "/n̩ diŋ bɛ a.li.sa.ni/",
-      "phonetic_simple": "N DING BÈ A-LI-SA-NI",
-      "translation": "Mon nom est Almany.",
-      "context": "Donner son prénom ou son nom."
+      "phrase_id": "p2",
+      "original": "idil mi ne [X]",
+      "phonetic_api": "/idil mi nɛ/",
+      "phonetic_simple": "I-DIL MI NÈ",
+      "translation": "Mon nom est [X]",
+      "context": "Structure reconstruite ; « idil » = nom, « mi » = possessif 1SG."
     },
     {
-      "phrase_id": "p2_3",
-      "original": "Wun fɔkɔ bɛ mi ?",
-      "phonetic_api": "/wun fɔ.kɔ bɛ mi/",
-      "phonetic_simple": "WOUN FƆ-KƆ BÈ MI",
-      "translation": "D'où viens-tu ? / Où habites-tu ?",
-      "context": "S'enquérir du village ou de la ville d'origine."
+      "phrase_id": "p3",
+      "original": "ya fo mani",
+      "phonetic_api": "/ja fo mani/",
+      "phonetic_simple": "YA FO MA-NI",
+      "translation": "Je parle mani",
+      "context": "Pour indiquer qu'on parle la langue."
     },
     {
-      "phrase_id": "p2_4",
-      "original": "N bɛ ni ɲɛɛ mɛlɛŋ bɛlɛŋ.",
-      "phonetic_api": "/n̩ bɛ ni ɲɛː mɛ.lɛŋ bɛ.lɛŋ/",
-      "phonetic_simple": "N BÈ NI NYÈÈ MÈ-LÈNG BÈ-LÈNG",
-      "translation": "J'ai vingt ans.",
-      "context": "Donner son âge lors d'une présentation officielle."
+      "phrase_id": "p4",
+      "original": "ya mo wɔ lɔ-i",
+      "phonetic_api": "/ja mɔ wɔ lɔi/",
+      "phonetic_simple": "YA MO WO LO-I",
+      "translation": "Ta mère va bien ? (litt. 'mère ta là-i')",
+      "context": "Question rituelle attestée sur la santé de la famille, utile pour se présenter dans son contexte familial (Childs 2011, ex.371)."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "ya mi wɔ lɔ-i yenkeleŋ",
+      "phonetic_api": "/ja mi wɔ lɔi jɛnkɛlɛŋ/",
+      "phonetic_simple": "YA MI WO LO-I YÈN-KÉ-LENG",
+      "translation": "Ma mère va bien.",
+      "context": "Réponse attestée à la question de politesse familiale (Childs 2011, ex.371)."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'interrogation avec 'nɛ' (quoi) et 'mi' (où)",
-      "explanation": "Pour poser des questions d'identité ou de provenance en Mani, les mots interrogatifs se placent généralement en fin de proposition, après le verbe ou le marqueur d'état 'bɛ'.",
+      "concept": "Les pronoms personnels sujets",
+      "explanation": "Le mani distingue plusieurs séries de pronoms personnels selon leur fonction syntaxique (Table 7, Childs 2011) : les marqueurs sujets obligatoires devant le verbe (SM), les pronoms sujets indépendants (SUBJ, utilisés à l'Habituel et en contexte d'insistance), les pronoms objets, possessifs et emphatiques.",
       "rules": [
-        "'nɛ' sert à interroger sur l'identité d'une chose ou d'un nom.",
-        "'mi' s'utilise pour localiser ou définir le point d'origine."
+        "1SG : marqueur sujet 'a', pronom sujet indépendant 'ya', objet/possessif 'mi'.",
+        "2SG : marqueur sujet 'u', pronom sujet indépendant 'mo', objet/possessif 'mo'.",
+        "3SG : marqueur sujet 'u', pronom sujet indépendant 'wo', objet/possessif 'wo'.",
+        "Les pronoms possessifs sont identiques aux pronoms objets dans toutes les personnes."
       ],
       "examples": [
         {
-          "structure": "Wun diŋ bɛ nɛ ?",
-          "phonetic_api": "/wun diŋ bɛ nɛ/",
-          "meaning": "Ton nom est quoi ? (Comment t'appelles-tu ?)"
+          "structure": "ya + verbe",
+          "phonetic_api": "/ja/",
+          "meaning": "je (forme indépendante/insistance) + verbe"
         },
         {
-          "structure": "Wun fɔkɔ bɛ mi ?",
-          "phonetic_api": "/wun fɔ.kɔ bɛ mi/",
-          "meaning": "Ton origine est où ? (D'où viens-tu ?)"
+          "structure": "idil + possessif",
+          "phonetic_api": "/idil mi/",
+          "meaning": "nom + mon = mon nom"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Kadi",
-      "text": "Mboi ! Wun diŋ bɛ nɛ ?",
-      "phonetic_api": "/mboi wun diŋ bɛ nɛ/",
-      "phonetic_simple": "MBOÏ ! WOUN DING BÈ NÈ",
+      "speaker": "Ibrahim",
+      "text": "lemo! nyɔyɛ idil mo?",
+      "phonetic_api": "/lɛmo, ɲɔjɛ idil mo/",
+      "phonetic_simple": "LÉ-MO, NYO-YÈ I-DIL MO",
       "translation": "Bonjour ! Quel est ton nom ?"
     },
     {
-      "speaker": "Ousmane",
-      "text": "Mboi ! N diŋ bɛ Usamani. Wun lɔ ?",
-      "phonetic_api": "/mboi n̩ diŋ bɛ u.sa.ma.ni wun lɔ/",
-      "phonetic_simple": "MBOÏ ! N DING BÈ OU-SA-MA-NI. WOUN LƆ ?",
-      "translation": "Bonjour ! Mon nom est Ousmane. Et toi ?"
+      "speaker": "Aissatou",
+      "text": "idil mi ne Aissatou.",
+      "phonetic_api": "/idil mi nɛ Aissatou/",
+      "phonetic_simple": "I-DIL MI NÈ A-I-SSA-TOU",
+      "translation": "Mon nom est Aissatou."
     },
     {
-      "speaker": "Kadi",
-      "text": "N diŋ bɛ Kadi. Wun fɔkɔ bɛ mi ?",
-      "phonetic_api": "/n̩ diŋ bɛ ka.di wun fɔ.kɔ bɛ mi/",
-      "phonetic_simple": "N DING BÈ KA-DI. WOUN FƆ-KƆ BÈ MI ?",
-      "translation": "Mon nom est Kadi. D'où viens-tu ?"
+      "speaker": "Ibrahim",
+      "text": "mo fo mani ya?",
+      "phonetic_api": "/mo fo mani ja/",
+      "phonetic_simple": "MO FO MA-NI YA",
+      "translation": "Parles-tu mani ? (structure de question reconstruite avec particule -ya)"
     },
     {
-      "speaker": "Ousmane",
-      "text": "N fɔkɔ bɛ Samou. N bɛ ni wɔli ségé.",
-      "phonetic_api": "/n̩ fɔ.kɔ bɛ sa.mu n̩ bɛ ni wɔ.li se.ɡe/",
-      "phonetic_simple": "N FƆ-KƆ BÈ SA-MOU. N BÈ NI WƆ-LI SÉ-GÉ",
-      "translation": "Je viens de Samou. J'ai un travail au marché."
+      "speaker": "Aissatou",
+      "text": "shɛke, ya fo mani tik.",
+      "phonetic_api": "/ʃɛkɛ, ja fo mani tik/",
+      "phonetic_simple": "CHÉ-KÉ, YA FO MA-NI TIK",
+      "translation": "Oui, je parle un peu mani. (« tik » = un peu, attesté ch.5)"
     }
   ],
   "cultural_notes": [
-    "Dire son origine ('fɔkɔ') chez les Mani fait souvent référence au village ancestral ou à la zone littorale d'implantation plutôt qu'à la grande ville moderne. Dévoiler son 'diŋ' (nom de famille) permet immédiatement à l'interlocuteur de situer la lignée familiale et les alliances traditionnelles entre clans."
+    "Chez les Mani, l'identité se construit fortement autour de l'appartenance à la famille et au village plutôt qu'autour d'une profession individuelle moderne ; le corpus disponible ne documente pas de vocabulaire pour des métiers contemporains (Childs 2011).",
+    "La plupart des Mani se présentent aujourd'hui plus facilement en soso ou en temne, langues vers lesquelles la communauté a largement basculé (Childs 2011, préface)."
   ],
   "exercises": [
     {
-      "exercise_id": "ex2_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Que signifie l'expression 'Wun fɔkɔ bɛ mi ?'",
+      "question": "Quel pronom signifie « je » à la forme indépendante/insistance ?",
       "options": [
-        "Quel est ton âge ?",
-        "D'où viens-tu ?",
-        "Comment vas-tu ?"
+        "ya",
+        "mo",
+        "wo"
       ],
-      "correct_answer": "D'où viens-tu ?",
-      "explanation": "'Fɔkɔ' renvoie à la provenance ou à l'habitation et 'mi' signifie 'où'."
+      "correct_answer": "ya",
+      "explanation": "« ya » est le pronom sujet indépendant de première personne du singulier (Table 7, Childs 2011)."
     },
     {
-      "exercise_id": "ex2_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "N [ ___ ] bɛ Usamani. (Mon nom est Ousmane).",
-      "correct_answer": "diŋ",
-      "hint": "Le mot commence par 'd' et se termine par un son nasal 'ŋ'."
+      "sentence_with_blank": "[ ___ ] idil mo?",
+      "correct_answer": "nyɔyɛ",
+      "hint": "Mot interrogatif signifiant « quoi/quel »."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Childs, G. Tucker (2011), A Grammar of Mani, Mouton Grammar Library 54, De Gruyter Mouton",
+      "url": "https://theswissbay.ch/pdf/Books/Linguistics/Mega%20linguistics%20pack/African/Niger-Congo/other%20Atlantic-Congo/Bullom%20So;%20A%20Grammar%20of%20Mani%20(Childs).pdf"
+    },
+    {
+      "label": "Glottolog 5.3 — Bullom So (bull1247)",
+      "url": "https://glottolog.org/resource/languoid/id/bull1247"
+    },
+    {
+      "label": "PDXScholar — Mani, a Disappearing Language of Sierra Leone and Guinea (Childs et al., corpus et matériel pédagogique)",
+      "url": "https://pdxscholar.library.pdx.edu/mani/"
+    }
+  ],
+  "confidence": "faible",
+  "confidence_note": "Les pronoms et le mot pour 'nom' (idil) sont attestés dans Childs (2011), mais aucune phrase complète de présentation personnelle (« je m'appelle... », « je viens de... », vocabulaire des professions) n'a été trouvée dans les sources disponibles ; les phrases de ce fichier sont des reconstructions raisonnables à partir de mots individuellement attestés, et non des citations directes du corpus."
 }

@@ -6,184 +6,212 @@
   "lesson_number": 2,
   "title": "Se présenter (nom, âge, origine, profession)",
   "learning_objectives": [
-    "Déclarer son identité nominale et interroger autrui sur son nom",
-    "Exprimer sa provenance géographique ainsi que son affiliation communautaire",
-    "Formuler son âge et énoncer sa profession avec précision"
+    "Utiliser les pronoms personnels indépendants pour se présenter",
+    "Nommer son origine avec la préposition « aɓ » (« venant de »)",
+    "Nommer quelques métiers attestés (chasseur, forgeron)"
   ],
   "phonetic_focus": {
-    "key_sounds": "L'expression de l'identité repose sur le phonème palatal /ɟ/ écrit 'dy'. Ce son ne doit pas glisser vers le 'j' français mais claquer nettement contre le milieu du palais. Notez également l'accent tonique sur la voyelle finale de 'ɛwé'.",
-    "common_pitfalls": "Ne confondez pas le 'mɔ' (mon/ma) possessif avec le pronom sujet. Veillez à bien marquer la rupture glottale si elle se présente dans les noms propres."
+    "key_sounds": "Le pronom wëno « moi » contient la voyelle centrale fermée ë [ə], absente du français, à ne pas confondre avec le e muet.",
+    "common_pitfalls": "Les francophones prononcent souvent ë comme un é ou un e ouvert ; il faut le prononcer plus fermé, au centre de la bouche, proche d'un son neutre bref."
   },
   "vocabulary": [
     {
+      "word_id": "v1",
+      "term": "wëno",
+      "phonetic_api": "/wəno/",
+      "phonetic_simple": "OUË-NO",
+      "translation": "moi",
+      "example_sentence": "Wëno asoçanan amo nangena.",
+      "example_phonetic": "/wəno asoʃanan amo naŋena/",
+      "example_translation": "Moi, je ne connais pas cet homme."
+    },
+    {
+      "word_id": "v2",
+      "term": "wëj",
+      "phonetic_api": "/wəɟ/",
+      "phonetic_simple": "OUËDJ",
+      "translation": "toi",
+      "example_sentence": "Wën nang këŋun.",
+      "example_phonetic": "/wən naŋ kəŋun/",
+      "example_translation": "C'est toi qu'il connaît."
+    },
+    {
+      "word_id": "v3",
+      "term": "asoçan",
+      "phonetic_api": "/asoʃan/",
+      "phonetic_simple": "A-SO-TCHAN",
+      "translation": "homme",
+      "example_sentence": "Asoçan aɓ Ecolo an.",
+      "example_phonetic": "/asoʃan aɓ etʃolo an/",
+      "example_translation": "L'homme originaire d'Ethiolo."
+    },
+    {
+      "word_id": "v4",
+      "term": "asoxar",
+      "phonetic_api": "/asoxar/",
+      "phonetic_simple": "A-SO-HAR",
+      "translation": "femme",
+      "example_sentence": "Asoxar arexëm.",
+      "example_phonetic": "/asoxar arexəm/",
+      "example_translation": "Sa femme."
+    },
+    {
       "word_id": "v5",
-      "term": "ɛwé",
-      "phonetic_api": "/ɛwé/",
-      "phonetic_simple": "E-WE",
-      "translation": "le nom de famille / le prénom",
-      "example_sentence": "ɛwé mɔ oŋ Mady.",
-      "example_phonetic": "/ɛwé mɔ oŋ madi/",
-      "example_translation": "Mon prénom est Mady."
+      "term": "kamara",
+      "phonetic_api": "/kamara/",
+      "phonetic_simple": "KA-MA-RA",
+      "translation": "chasseur",
+      "example_sentence": "Ƴogu këni xali gër kamara ijo.",
+      "example_phonetic": "/ʄogu kəni xali gər kamara iɟo/",
+      "example_translation": "Ils sont allés jusqu'à la maison du chasseur."
     },
     {
       "word_id": "v6",
-      "term": "uniyan",
-      "phonetic_api": "/unəjan/",
-      "phonetic_simple": "OU-NI-YAN",
-      "translation": "être humain / individu",
-      "example_sentence": "Məɟe uniyan ɔniyanɔŋ.",
-      "example_phonetic": "/məɟe unəjan ɔnəjanɔŋ/",
-      "example_translation": "Je suis un individu de culture Bassari."
+      "term": "aɓ",
+      "phonetic_api": "/aɓ/",
+      "phonetic_simple": "AB",
+      "translation": "de, originaire de (préposition, classe 1)",
+      "example_sentence": "Asoçan aɓ Ecolo an.",
+      "example_phonetic": "/asoʃan aɓ etʃolo an/",
+      "example_translation": "L'homme originaire d'Ethiolo."
     },
     {
       "word_id": "v7",
-      "term": "kəwə́ra",
-      "phonetic_api": "/kəwə́ra/",
-      "phonetic_simple": "KE-WE-RA",
-      "translation": "la localité / le village natal",
-      "example_sentence": "Kəwə́ra mɔ oŋ Conakry fə́ ləbəl.",
-      "example_phonetic": "/kəwə́ra mɔ oŋ konakri fə́ ləɓəl/",
-      "example_translation": "Ma ville natale est Conakry."
-    },
-    {
-      "word_id": "v8",
-      "term": "ɔsuku",
-      "phonetic_api": "/ɔsuku/",
-      "phonetic_simple": "O-SOU-KOU",
-      "translation": "l'apprenant / l'élève / l'étudiant",
-      "example_sentence": "ɔsuku oŋ kərã bɛ̀ɛ̀.",
-      "example_phonetic": "/ɔsuku oŋ kərã bɛ̀ː/",
-      "example_translation": "L'étudiant étudie de manière rigoureuse."
+      "term": "Keɗëgu",
+      "phonetic_api": "/keɗəgu/",
+      "phonetic_simple": "KÉ-DË-GOU",
+      "translation": "Kédougou (ville du Sénégal oriental)",
+      "example_sentence": "Ɓësoçan ɓë Keɗëgu ɓën.",
+      "example_phonetic": "/ɓəsoʃan ɓə keɗəgu ɓən/",
+      "example_translation": "Les hommes de Kédougou."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p9",
-      "original": "Anee ɛwé bə̂?",
-      "phonetic_api": "/aneː ɛwé ɓə̂/",
-      "phonetic_simple": "A-NEE E-WE BHE",
-      "translation": "Comment t'appelles-tu ? / Quel est ton nom ?",
-      "context": "Formule indispensable lors d'un premier contact formel ou amical."
+      "phrase_id": "p1",
+      "original": "Wëno asoçanan amo nangena.",
+      "phonetic_api": "/wəno asoʃanan amo naŋena/",
+      "phonetic_simple": "OUË-NO A-SO-TCHA-NAN A-MO NAN-GUÉ-NA",
+      "translation": "Moi, je ne connais pas cet homme.",
+      "context": "Pour se distinguer d'une autre personne en se présentant."
     },
     {
-      "phrase_id": "p10",
-      "original": "ɛwé mɔ oŋ...",
-      "phonetic_api": "/ɛwé mɔ oŋ/",
-      "phonetic_simple": "E-WE MO ONG",
-      "translation": "Mon nom est l'affirmation suivante...",
-      "context": "Structure fixe pour s'identifier devant la communauté."
+      "phrase_id": "p2",
+      "original": "Asoçan aɓ Ecolo an.",
+      "phonetic_api": "/asoʃan aɓ etʃolo an/",
+      "phonetic_simple": "A-SO-TCHAN AB É-TCHO-LO AN",
+      "translation": "L'homme originaire d'Ethiolo.",
+      "context": "Pour indiquer son origine (village)."
     },
     {
-      "phrase_id": "p11",
-      "original": "Dya mɛ́ɛ̀ ɓə́ fɔ́?",
-      "phonetic_api": "/dja mɛ́ː ɓə́ fɔ́/",
-      "phonetic_simple": "DYA MEE BHE FO",
-      "translation": "De quelle contrée proviens-tu ?",
-      "context": "Interrogation sur la patrie ou la localité d'origine."
+      "phrase_id": "p3",
+      "original": "Ɓësoçan ɓë Keɗëgu ɓën.",
+      "phonetic_api": "/ɓəsoʃan ɓə keɗəgu ɓən/",
+      "phonetic_simple": "BË-SO-TCHAN BË KÉ-DË-GOU BËN",
+      "translation": "Les hommes de Kédougou.",
+      "context": "Pour désigner un groupe originaire d'une ville."
     },
     {
-      "phrase_id": "p12",
-      "original": "Məfɔ́ fə́ Guineé.",
-      "phonetic_api": "/məfɔ́ fə́ ɡineː/",
-      "phonetic_simple": "ME-FO FE GHI-NEE",
-      "translation": "Je proviens du territoire de la Guinée.",
-      "context": "Indication de sa nationalité ou origine étatique."
-    },
-    {
-      "phrase_id": "p13",
-      "original": "Məɟe ɔbəliyan.",
-      "phonetic_api": "/məɟe ɔɓəljan/",
-      "phonetic_simple": "ME-DYE O-BHE-LI-YAN",
-      "translation": "Je suis de l'ethnie Bassari.",
-      "context": "Revendication claire de son identité culturelle."
-    },
-    {
-      "phrase_id": "p14",
-      "original": "Anee ləfɔ́ bə̂?",
-      "phonetic_api": "/aneː ləfɔ́ ɓə̂/",
-      "phonetic_simple": "A-NEE LE-FO BHE",
-      "translation": "Quel est ton métier ou ton occupation ?",
-      "context": "Question usuelle sur l'activité économique de l'adulte."
-    },
-    {
-      "phrase_id": "p15",
-      "original": "Məɟe ɔkarãdɔŋ.",
-      "phonetic_api": "/məɟe ɔkarãdɔŋ/",
-      "phonetic_simple": "ME-DYE O-KA-RAN-DONG",
-      "translation": "J'exerce la fonction d'enseignant.",
-      "context": "Déclaration professionnelle lors d'une présentation officielle."
-    },
-    {
-      "phrase_id": "p16",
-      "original": "Məfɔ́ nɛ̂ ləbəl ləfɔ́.",
-      "phonetic_api": "/məfɔ́ nɛ̂ ləɓəl ləfɔ́/",
-      "phonetic_simple": "ME-FO NE LE-BHEL LE-FO",
-      "translation": "J'ai atteint le nombre de vingt saisons de récolte (20 ans).",
-      "context": "Manière poétique et traditionnelle d'exprimer son âge."
+      "phrase_id": "p4",
+      "original": "Ame nangena ake ko ƴend.",
+      "phonetic_api": "/ame naŋena ake ko ʄend/",
+      "phonetic_simple": "A-MÉ NAN-GUÉ-NA A-KÉ KO YEND",
+      "translation": "Je ne sais pas comment il va (se présente/se comporte).",
+      "context": "Expression d'incertitude au sujet d'une personne."
     }
   ],
   "grammar_points": [
     {
-      "concept": "Le verbe d'état 'ɟe' et l'indice de provenance 'fɔ́'",
-      "explanation": "Pour définir ce que l'on est de manière permanente (métier, ethnie), la langue utilise l'auxiliaire d'état 'ɟe'. En revanche, pour traduire l'action de provenir ou d'être originaire d'un espace géographique, on utilise le verbe dynamique 'fɔ́' (quitter/venir de).",
+      "concept": "Origine avec la préposition « aɓ » et accord de classe",
+      "explanation": "En oniyan, chaque préposition « d'origine » varie selon la classe nominale du nom qu'elle introduit (aɓ pour la classe 1 « homme », ɓ(ë) pour la classe 2 « hommes/pluriel humain », etc.). Pour se présenter, on utilise donc la forme correspondant à sa propre classe grammaticale de référent humain.",
       "rules": [
-        "Le pronom de première personne 'Mə' s'amalgame directement au verbe d'état sans particule intermédiaire.",
-        "La provenance requiert l'adjonction de la préposition spatiale 'fə́' devant le nom du lieu."
+        "Préposition d'origine classe 1 (homme, singulier) : aɓ.",
+        "Préposition d'origine classe 2 (pluriel humain) : ɓ(ë).",
+        "Le nom de lieu suit directement la préposition, puis l'article défini ferme le groupe : asoçan aɓ Ecolo an « l'homme originaire d'Ethiolo »."
       ],
       "examples": [
         {
-          "structure": "Məfɔ́ fə́ + [Nom de lieu]",
-          "phonetic_api": "/məfɔ́ fə́ konakri/",
-          "meaning": "Je viens de / Je suis natif de [Lieu]"
+          "structure": "asoçan aɓ Ecolo an",
+          "phonetic_api": "/asoʃan aɓ etʃolo an/",
+          "meaning": "l'homme originaire d'Ethiolo"
+        },
+        {
+          "structure": "ɓësoçan ɓë Keɗëgu ɓën",
+          "phonetic_api": "/ɓəsoʃan ɓə keɗəgu ɓən/",
+          "meaning": "les hommes de Kédougou"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Mady",
-      "text": "Anee ɛwé bə̂?",
-      "phonetic_api": "/aneː ɛwé ɓə̂/",
-      "phonetic_simple": "A-NEE E-WE BHE",
-      "translation": "Comment t'appelles-tu ?"
+      "speaker": "Tama",
+      "text": "Wëno asoçanan amo nangena.",
+      "phonetic_api": "/wəno asoʃanan amo naŋena/",
+      "phonetic_simple": "OUË-NO A-SO-TCHA-NAN A-MO NAN-GUÉ-NA",
+      "translation": "Moi, je ne connais pas cet homme."
     },
     {
-      "speaker": "Idrissa",
-      "text": "Ewé mɔ oŋ Idrissa. Dya mɛ́ɛ̀ ɓə́ fɔ́?",
-      "phonetic_api": "/ɛwé mɔ oŋ idrisa dja mɛ́ː ɓə́ fɔ́/",
-      "phonetic_simple": "E-WE MO ONG I-DRI-SA. DYA MEE BHE FO",
-      "translation": "Mon nom est Idrissa. De quel endroit es-tu ?"
+      "speaker": "Pena",
+      "text": "Asoçan aɓ Ecolo an.",
+      "phonetic_api": "/asoʃan aɓ etʃolo an/",
+      "phonetic_simple": "A-SO-TCHAN AB É-TCHO-LO AN",
+      "translation": "L'homme originaire d'Ethiolo."
     },
     {
-      "speaker": "Mady",
-      "text": "Məfɔ́ fə́ Conakry. Məɟe ɔsuku fə́ bɛ̀ɛ̀.",
-      "phonetic_api": "/məfɔ́ fə́ konakri məɟe ɔsuku fə́ bɛ̀ː/",
-      "phonetic_simple": "ME-FO FE KO-NA-KRI. ME-DYE O-SOU-KOU FE BEE",
-      "translation": "Je suis de Conakry. Et je suis un très bon étudiant."
+      "speaker": "Tama",
+      "text": "Ɓësoçan ɓë Keɗëgu ɓën?",
+      "phonetic_api": "/ɓəsoʃan ɓə keɗəgu ɓən/",
+      "phonetic_simple": "BË-SO-TCHAN BË KÉ-DË-GOU BËN ?",
+      "translation": "Les hommes de Kédougou ?"
+    },
+    {
+      "speaker": "Pena",
+      "text": "O-oye.",
+      "phonetic_api": "/o.oje/",
+      "phonetic_simple": "O-O-YÉ",
+      "translation": "Non."
     }
   ],
   "cultural_notes": [
-    "Dire son âge en Oniyan fait traditionnellement référence aux récoltes de cycles agricoles ('ləbəl'). On ne compte pas les années de manière abstraite, mais par le nombre de greniers remplis depuis sa naissance, liant l'homme à la terre nourricière."
+    "Les Bassari se nomment eux-mêmes Ɓëliyan et appellent leur langue oniyan ; « bassari » est le nom utilisé par l'administration sénégalaise et en français.",
+    "Trois dialectes principaux de l'oniyan sont reconnus : ane (villages du Sénégal, dont Ethiolo), këɗ (Bassari de Guinée) et oxalac (ouest de Salémata) ; les locuteurs se comprennent malgré les différences d'accent et de vocabulaire."
   ],
   "exercises": [
     {
-      "exercise_id": "ex3",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Que signifie mot à mot le terme 'ɔkarãdɔŋ' ?",
+      "question": "Quelle préposition introduit l'origine d'un homme (classe 1) en oniyan ?",
       "options": [
-        "Celui qui cultive la terre",
-        "Celui qui fait lire/étudier (l'enseignant)",
-        "Le chef suprême du village"
+        "gë",
+        "aɓ",
+        "në"
       ],
-      "correct_answer": "Celui qui fait lire/étudier (l'enseignant)",
-      "explanation": "Le radical 'karã' est lié à l'apprentissage, le suffixe désigne l'agent de l'action."
+      "correct_answer": "aɓ",
+      "explanation": "aɓ est la préposition d'origine attestée pour la classe nominale 1 (homme, singulier) dans la grammaire SIL."
     },
     {
-      "exercise_id": "ex4",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Məɟe [ ___ ] bəliyan.",
-      "correct_answer": "ɔbəliyan",
-      "hint": "Le singulier de la classe des personnes désignant un membre de la communauté Bassari."
+      "sentence_with_blank": "Asoçan ___ Ecolo an. (« L'homme originaire d'Ethiolo »)",
+      "correct_answer": "aɓ",
+      "hint": "Préposition d'origine, classe 1."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "SIL — A Grammar of Oniyan (Winters & Winters, 2004)",
+      "url": "https://www.sil.org/system/files/reapdata/18/63/15/1863153183176772870767650622005357320/BSC_Oniyan_grammar_En_2004.pdf"
+    },
+    {
+      "label": "SIL — Bassari Phonology / Orthographe Oniyan (2003)",
+      "url": "https://www.sil.org/system/files/reapdata/13/27/28/132728046882691513259738660939179774460/BSC_Orthographe_Oniyan_Fr_2003.pdf"
+    },
+    {
+      "label": "Wikipédia — Bassari (langue)",
+      "url": "https://fr.wikipedia.org/wiki/Bassari_(langue)"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Les pronoms personnels, la préposition d'origine et les noms de lieux (Ethiolo, Kédougou) sont attestés dans la grammaire SIL. Aucune phrase figée « je m'appelle... / j'ai ... ans / je suis ... (métier moderne) » n'a été trouvée dans les sources disponibles ; seul le métier traditionnel « chasseur » (kamara) est attesté."
 }

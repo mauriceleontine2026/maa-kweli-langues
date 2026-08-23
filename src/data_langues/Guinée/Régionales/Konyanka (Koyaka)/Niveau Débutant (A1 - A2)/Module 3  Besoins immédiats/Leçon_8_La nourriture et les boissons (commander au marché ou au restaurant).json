@@ -6,184 +6,229 @@
   "lesson_number": 8,
   "title": "La nourriture et les boissons (commander au marché ou au restaurant)",
   "learning_objectives": [
-    "Nommer les aliments de base et les boissons courantes en konyanka",
-    "Exprimer la faim, la soif et le besoin de consommer quelque chose",
-    "Formuler une demande polie pour commander un repas ou acheter des vivres"
+    "Nommer les aliments et boissons de base",
+    "Commander ou demander un prix au marché",
+    "Exprimer une quantité simple ('un peu de')"
   ],
   "phonetic_focus": {
-    "key_sounds": "Le groupe consonantique /m/ devant une autre consonne comme dans 'malo' s'articule doucement. Le son /d͡ʒ/ (noté 'j') dans 'ji' (eau) est une affriquée palatale voisée. La voyelle nasale /ɔ̃/ dans 'dɔn' doit être bien projetée vers l'arrière.",
-    "common_pitfalls": "Veillez à ne pas prononcer le 'g' de 'tige' de manière trop dure /ɡ/. Il s'agit d'une transition douce. Ne confondez pas non plus 'ji' (eau) et 'cɛ' (homme) au niveau du point d'articulation."
+    "key_sounds": "Le mot 'ji' (eau) est monosyllabique bref ; attention à ne pas l'allonger. 'Malo' (riz) a un ton descendant caractéristique.",
+    "common_pitfalls": "Confondre 'malo' (riz cru/plante) et 'cinin' (plat de riz cuisiné) : le premier désigne la céréale, le second le plat préparé."
   },
   "vocabulary": [
     {
       "word_id": "v1",
-      "term": "Ji",
-      "phonetic_api": "/d͡ʒi/",
-      "phonetic_simple": "DJI",
-      "translation": "Eau / Boisson",
-      "example_sentence": "Ji di n'ma.",
-      "example_phonetic": "/d͡ʒi di nma/",
-      "example_translation": "Donne-moi de l'eau."
+      "term": "ji",
+      "phonetic_api": "[dʒi]",
+      "phonetic_simple": "dji",
+      "translation": "eau",
+      "example_sentence": "N y'a fɛ ji.",
+      "example_phonetic": "[n ja fɛ dʒi]",
+      "example_translation": "Je veux de l'eau."
     },
     {
       "word_id": "v2",
-      "term": "Malo",
-      "phonetic_api": "/ma.lo/",
-      "phonetic_simple": "MA-LO",
-      "translation": "Riz",
-      "example_sentence": "N'bɛ malo dun fɛ.",
-      "example_phonetic": "/mbɛ ma.lo dũ fɛ/",
-      "example_translation": "Je veux manger du riz."
+      "term": "malo",
+      "phonetic_api": "[malo]",
+      "phonetic_simple": "ma-lo",
+      "translation": "riz",
+      "example_sentence": "Malo ka di.",
+      "example_phonetic": "[malo ka di]",
+      "example_translation": "Le riz est bon."
     },
     {
       "word_id": "v3",
-      "term": "Sogo",
-      "phonetic_api": "/so.ɡo/",
-      "phonetic_simple": "SO-GO",
-      "translation": "Viande",
-      "example_sentence": "Sogo bɛ so kɔnɔ?",
-      "example_phonetic": "/so.ɡo bɛ so kɔ.nɔ/",
-      "example_translation": "Y a-t-il de la viande à la maison ?"
+      "term": "sobo",
+      "phonetic_api": "[sobo]",
+      "phonetic_simple": "so-bo",
+      "translation": "viande",
+      "example_sentence": "N y'a fɛ sobo.",
+      "example_phonetic": "[n ja fɛ sobo]",
+      "example_translation": "Je veux de la viande."
     },
     {
       "word_id": "v4",
-      "term": "Nɔnɔ",
-      "phonetic_api": "/nɔ.nɔ/",
-      "phonetic_simple": "NƆ-NƆ",
-      "translation": "Lait",
-      "example_sentence": "Nɔnɔ timan le.",
-      "example_phonetic": "/nɔ.nɔ ti.mã le/",
-      "example_translation": "Le lait est doux / bon."
+      "term": "jɛɛ",
+      "phonetic_api": "[dʒɛː]",
+      "phonetic_simple": "djè-è",
+      "translation": "poisson",
+      "example_sentence": "Jɛɛ ka di.",
+      "example_phonetic": "[dʒɛː ka di]",
+      "example_translation": "Le poisson est bon."
     },
     {
       "word_id": "v5",
-      "term": "Jɛgɛ",
-      "phonetic_api": "/d͡ʒɛ.ɡɛ/",
-      "phonetic_simple": "DJÈ-GÈ",
-      "translation": "Poisson",
-      "example_sentence": "Jɛgɛ gbe le.",
-      "example_phonetic": "/d͡ʒɛ.ɡɛ ɡ͡be le/",
-      "example_translation": "C'est un poisson frais / blanc."
+      "term": "dute",
+      "phonetic_api": "[dute]",
+      "phonetic_simple": "dou-té",
+      "translation": "thé",
+      "example_sentence": "N y'a fɛ dute.",
+      "example_phonetic": "[n ja fɛ dute]",
+      "example_translation": "Je veux du thé."
     },
     {
       "word_id": "v6",
-      "term": "Tige",
-      "phonetic_api": "/ti.ɡe/",
-      "phonetic_simple": "TI-GUÉ",
-      "translation": "Arachide",
-      "example_sentence": "Tige na nyan.",
-      "example_phonetic": "/ti.ɡe na ɲã/",
-      "example_translation": "La sauce d'arachide est bonne."
+      "term": "koo",
+      "phonetic_api": "[koː]",
+      "phonetic_simple": "ko-o",
+      "translation": "sel",
+      "example_sentence": "Koo dɔɔnin bila a la.",
+      "example_phonetic": "[koː dɔːnin bila a la]",
+      "example_translation": "Mets un peu de sel dedans."
+    },
+    {
+      "word_id": "v7",
+      "term": "tamati",
+      "phonetic_api": "[tamati]",
+      "phonetic_simple": "ta-ma-ti",
+      "translation": "tomate",
+      "example_sentence": "Tamati sɔngɔ ye joli le ti?",
+      "example_phonetic": "[tamati sɔŋɔ je dʒoli le ti]",
+      "example_translation": "Quel est le prix de la tomate ?"
+    },
+    {
+      "word_id": "v8",
+      "term": "sɔngɔ",
+      "phonetic_api": "[sɔŋɔ]",
+      "phonetic_simple": "son-go",
+      "translation": "prix",
+      "example_sentence": "A sɔngɔ ye joli le ti?",
+      "example_phonetic": "[a sɔŋɔ je dʒoli le ti]",
+      "example_translation": "Quel est son prix ?"
     }
   ],
   "common_phrases": [
     {
       "phrase_id": "p1",
-      "original": "Kɔngɔ bɛ n'na.",
-      "phonetic_api": "/kɔn.ɡɔ bɛ nna/",
-      "phonetic_simple": "KƆN-GƆ BÈ N-NA",
-      "translation": "J'ai faim (litt. la faim est sur moi).",
-      "context": "Expression de base pour signaler qu'on a besoin de manger."
+      "original": "N y'a fɛ ...",
+      "phonetic_api": "[n ja fɛ]",
+      "phonetic_simple": "n-ya-fè",
+      "translation": "Je veux ...",
+      "context": "Formule de base pour commander"
     },
     {
       "phrase_id": "p2",
-      "original": "Minbɔ bɛ n'na.",
-      "phonetic_api": "/mĩ.bɔ bɛ nna/",
-      "phonetic_simple": "MIN-BƆ BÈ N-NA",
-      "translation": "J'ai soif (litt. le besoin de boire est sur moi).",
-      "context": "Expression de base pour demander à boire."
+      "original": "A sɔngɔ ye joli le ti?",
+      "phonetic_api": "[a sɔŋɔ je dʒoli le ti]",
+      "phonetic_simple": "a-son-go-yé-djo-li-lé-ti",
+      "translation": "Quel est son prix ?",
+      "context": "Demander le prix d'un article au marché"
     },
     {
       "phrase_id": "p3",
-      "original": "N'bɛ domuni fɛ.",
-      "phonetic_api": "/mbɛ do.mu.ni fɛ/",
-      "phonetic_simple": "N-BÈ DO-MOU-NI FÈ",
-      "translation": "Je veux de la nourriture / manger.",
-      "context": "Commande simple passée auprès d'un hôte ou d'un restaurateur."
+      "original": "Ji dɔɔnin bila a la",
+      "phonetic_api": "[dʒi dɔːnin bila a la]",
+      "phonetic_simple": "dji-do-o-nin-bi-la-a-la",
+      "translation": "Mets un peu d'eau dedans",
+      "context": "Demander une petite quantité"
     },
     {
       "phrase_id": "p4",
-      "original": "N'bɛ ji min fɛ dɔɔni.",
-      "phonetic_api": "/mbɛ d͡ʒi mĩ fɛ dɔː.ni/",
-      "phonetic_simple": "N-BÈ DJI MIN FÈ DƆƆ-NI",
-      "translation": "Je veux boire un peu d'eau.",
-      "context": "Demande polie pour se désaltérer."
+      "original": "Wo dɔrɔn",
+      "phonetic_api": "[wo dɔrɔn]",
+      "phonetic_simple": "wo-do-ron",
+      "translation": "Seulement cela",
+      "context": "Conclure une commande"
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'expression du besoin avec 'bɛ... na'",
-      "explanation": "Pour traduire des sensations physiques immédiates comme la faim ('kɔngɔ') ou la soif ('minbɔ'), le konyanka utilise une structure locative où l'état affecte la personne via la postposition 'na' (sur).",
+      "concept": "Exprimer un souhait avec 'y'a fɛ'",
+      "explanation": "Pour dire qu'on veut ou qu'on souhaite quelque chose, on utilise la structure Sujet + y' (ye) + a + fɛ + objet, littéralement 'je l'ai en vue de...'.",
       "rules": [
-        "Structure : Sensation + bɛ + Pronom possessif/Sujet + na.",
-        "À la forme négative, 'bɛ' se transforme en 'tɛ'."
+        "n y'a fɛ + nom = je veux + nom",
+        "La quantité 'un peu de' se rend par 'nom + dɔɔnin'"
       ],
       "examples": [
         {
-          "structure": "Kɔngɔ bɛ i la?",
-          "phonetic_api": "/kɔn.ɡɔ bɛ i la/",
-          "meaning": "As-tu faim ?"
+          "structure": "n y'a fɛ ji",
+          "phonetic_api": "[n ja fɛ dʒi]",
+          "meaning": "je veux de l'eau"
         },
         {
-          "structure": "Kɔngɔ tɛ n'na.",
-          "phonetic_api": "/kɔn.ɡɔ tɛ nna/",
-          "meaning": "Je n'ai pas faim."
+          "structure": "ji dɔɔnin",
+          "phonetic_api": "[dʒi dɔːnin]",
+          "meaning": "un peu d'eau"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Sékou",
-      "text": "Fanta, kɔngɔ bɛ i la?",
-      "phonetic_api": "/fan.ta kɔn.ɡɔ bɛ i la/",
-      "phonetic_simple": "FAN-TA, KƆN-GƆ BÈ I LA",
-      "translation": "Fanta, as-tu faim ?"
+      "speaker": "Client",
+      "text": "I ni sɔɔma. N y'a fɛ malo ni sobo.",
+      "phonetic_api": "[i ni sɔːma n ja fɛ malo ni sobo]",
+      "phonetic_simple": "i-ni-so-o-ma, n-ya-fè-ma-lo-ni-so-bo",
+      "translation": "Bonjour. Je veux du riz et de la viande."
     },
     {
-      "speaker": "Fanta",
-      "text": "Hali, kɔngɔ bɛ n'na bɛrɛbɛrɛ! Malo bɛ yen?",
-      "phonetic_api": "/ha.li kɔn.ɡɔ bɛ nna bɛ.rɛ.bɛ.rɛ ma.lo bɛ jẽ/",
-      "phonetic_simple": "HA-LI, KƆN-GƆ BÈ N-NA BÈ-RÈ-BÈ-RÈ! MA-LO BÈ YEN ?",
-      "translation": "Oui, j'ai vraiment très faim ! Y a-t-il du riz ?"
+      "speaker": "Vendeuse",
+      "text": "Awa. A sɔngɔ ye tan ni loolu le ti.",
+      "phonetic_api": "[awa a sɔŋɔ je tan ni loːlu le ti]",
+      "phonetic_simple": "a-wa, a-son-go-yé-tan-ni-lo-o-lou-lé-ti",
+      "translation": "D'accord. Le prix est de quinze."
     },
     {
-      "speaker": "Sékou",
-      "text": "Hali, malo ni sogo bɛ yen. I bɛ ji min fɛ?",
-      "phonetic_api": "/ha.li ma.lo ni so.ɡo bɛ jẽ i bɛ d͡ʒi mĩ fɛ/",
-      "phonetic_simple": "HA-LI, MA-LO NI SO-GO BÈ YEN. I BÈ DJI MIN FÈ ?",
-      "translation": "Oui, il y a du riz et de la viande. Veux-tu boire de l'eau ?"
+      "speaker": "Client",
+      "text": "Ji dɔɔnin fanan bila a la, i ni ce.",
+      "phonetic_api": "[dʒi dɔːnin fanan bila a la i ni tʃe]",
+      "phonetic_simple": "dji-do-o-nin-fa-nan-bi-la-a-la",
+      "translation": "Ajoute aussi un peu d'eau, merci."
     },
     {
-      "speaker": "Fanta",
-      "text": "Hali, ji di n'ma. I ni bara.",
-      "phonetic_api": "/ha.li d͡ʒi di nma i ni ba.ra/",
-      "phonetic_simple": "HA-LI, DJI DI N-MA. I NI BA-RA",
-      "translation": "Oui, donne-moi de l'eau. Merci pour le travail (le service)."
+      "speaker": "Vendeuse",
+      "text": "Tamati fanan bɛ yan, a sɔngɔ ka dɔgɔ.",
+      "phonetic_api": "[tamati fanan bɛ jan a sɔŋɔ ka dɔɡɔ]",
+      "phonetic_simple": "ta-ma-ti-fa-nan-bè-yan",
+      "translation": "Il y a aussi des tomates ici, leur prix est bas."
     }
   ],
   "cultural_notes": [
-    "En Guinée, le partage du repas est un acte social central. Le plat principal (souvent à base de riz, aliment pilier, accompagné de diverses sauces comme la sauce feuille ou la sauce arachide) est généralement partagé dans un grand bol commun. Refuser de l'eau ou un repas proposé est considéré comme impoli ; il est préférable d'y goûter symboliquement."
+    "Le riz (malo) constitue l'aliment de base dans toute la zone du continuum maninka/malinké, y compris en Guinée forestière où vit une partie des Koniankés (préfectures de Beyla et Nzérékoré).",
+    "Le marchandage courtois fait partie intégrante de l'achat au marché dans toute la région ; il commence toujours par une salutation avant de discuter du prix."
   ],
   "exercises": [
     {
-      "exercise_id": "ex1",
-      "type": "multiple_choice",
-      "question": "Que signifie le mot 'Ji' ?",
+      "exercise_id": "e1",
+      "type": "choix_multiple",
+      "question": "Comment dit-on 'eau' ?",
       "options": [
-        "Le riz",
-        "L'eau / La boisson",
-        "La viande"
+        "dute",
+        "ji",
+        "koo",
+        "sobo"
       ],
-      "correct_answer": "L'eau / La boisson",
-      "explanation": "'Ji' désigne l'élément liquide, l'eau par excellence, essentielle pour étancher la soif."
+      "correct_answer": "ji",
+      "explanation": "'ji' signifie 'eau'."
     },
     {
-      "exercise_id": "ex2",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "[ ___ ] bɛ n'na (J'ai faim).",
-      "correct_answer": "Kɔngɔ",
-      "hint": "Le mot commence par une consonne occlusive vélaire 'K'"
+      "exercise_id": "e2",
+      "type": "traduction",
+      "question": "Traduisez : 'Je veux du riz.'",
+      "correct_answer": "N y'a fɛ malo.",
+      "explanation": "'n y'a fɛ' = je veux ; 'malo' = riz."
+    },
+    {
+      "exercise_id": "e3",
+      "type": "texte_a_trous",
+      "sentence_with_blank": "A ___ ye joli le ti? (Quel est son prix ?)",
+      "correct_answer": "sɔngɔ",
+      "explanation": "'sɔngɔ' = prix."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Malinkuia — Introduction à la langue malinké (grammaire complète, variété du Wulada, Haute-Guinée)",
+      "url": "https://fr.scribd.com/document/499114939/Malinkuia"
+    },
+    {
+      "label": "An ka taa — Maninka/Malinké greetings and phrases",
+      "url": "https://www.ankataa.com/maninka-greetings-and-phrases"
+    },
+    {
+      "label": "Wikipédia — Koniankés (peuple, préfectures de Beyla et Nzérékoré)",
+      "url": "https://fr.wikipedia.org/wiki/Koniank%C3%A9s"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Aucun lexique ou grammaire publiés et dédiés spécifiquement au Konyanka (Koyaka/Konianka, ISO mku) n'a été localisé. Le vocabulaire de cette leçon provient donc du continuum dialectal Maninka/Malinké de Guinée dans lequel le Konyanka s'inscrit (intelligibilité mutuelle attestée), via la grammaire pratique Malinkuia (variété du Wulada, Haute-Guinée). Les spécificités confirmées du Konyanka sont indiquées dans les notes culturelles plutôt que dans le lexique."
 }

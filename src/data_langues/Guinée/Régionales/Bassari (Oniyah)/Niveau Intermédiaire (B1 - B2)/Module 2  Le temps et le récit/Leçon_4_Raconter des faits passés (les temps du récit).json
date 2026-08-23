@@ -6,184 +6,192 @@
   "lesson_number": 4,
   "title": "Raconter des faits passés (les temps du récit)",
   "learning_objectives": [
-    "Maîtriser le suffixe ou la particule du passé pour relater un événement",
-    "Structurer chronologiquement une histoire ou une action complétée",
-    "Employer les marqueurs temporels du passé lointain"
+    "Distinguer le perfectif (pronom après le verbe) de l'imperfectif (pronom avant le verbe)",
+    "Utiliser le suffixe -ba- pour marquer un passé éloigné/antérieur",
+    "Construire un court récit à partir de formes verbales attestées"
   ],
   "phonetic_focus": {
-    "key_sounds": "Le suffixe du passé accompli introduit une modification de la clarté vocalique de la base verbale. Le mot pour désigner le temps jadis, 'kəbə̂', exige une articulation précise de l'injective /ɓ/ avec un ton modulé descendant très net.",
-    "common_pitfalls": "Attention à ne pas abréger la voyelle du marqueur du passé. Si la durée d'émission est écourtée, l'interlocuteur peut confondre l'action passée avec une injonction au présent."
+    "key_sounds": "Le suffixe -ba- porte une voyelle pleine, jamais réduite, car il constitue une syllabe verbale à part entière dans la chaîne flexionnelle.",
+    "common_pitfalls": "Les francophones cherchent un équivalent unique du passé composé ; en oniyan, il faut choisir entre perfectif simple (fait accompli, pronom postposé) et perfectif + -ba- (passé plus éloigné ou antérieur à un autre événement), une distinction sans équivalent morphologique direct en français."
   },
   "vocabulary": [
     {
-      "word_id": "v49",
-      "term": "kəbə̂",
-      "phonetic_api": "/kəɓə̂/",
-      "phonetic_simple": "KE-BHE",
-      "translation": "autrefois / jadis / le passé lointain",
-      "example_sentence": "Kəbə̂, aɓəliyan aŋ oŋ fə́ siki.",
-      "example_phonetic": "/kəɓə̂ aɓəljan aŋ oŋ fə́ siki/",
-      "example_translation": "Autrefois, les anciens Bassaris habitaient exclusivement le village."
+      "word_id": "v1",
+      "term": "-ba-",
+      "phonetic_api": "/ba/",
+      "phonetic_simple": "BA",
+      "translation": "suffixe/marqueur du passé (antériorité)",
+      "example_sentence": "a-ba-gan",
+      "example_phonetic": "/abagan/",
+      "example_translation": "il/elle était allé(e) (forme construite selon la règle attestée)."
     },
     {
-      "word_id": "v50",
-      "term": "gwiye",
-      "phonetic_api": "/ɡwije/",
-      "phonetic_simple": "GWI-YE",
-      "translation": "hier / le jour précédent",
-      "example_sentence": "Gwiye, məɟǐ ɔñɛ́ bɛ̀ɛ̀.",
-      "example_phonetic": "/ɡwije məɟǐ ɔɲɛ́ bɛ̀ː/",
-      "example_translation": "Hier, j'ai consommé de la très bonne viande."
+      "word_id": "v2",
+      "term": "gan",
+      "phonetic_api": "/gan/",
+      "phonetic_simple": "GAN",
+      "translation": "marcher, aller",
+      "example_sentence": "Ganël!",
+      "example_phonetic": "/ganəl/",
+      "example_translation": "Marche !"
     },
     {
-      "word_id": "v51",
-      "term": "ɓax",
-      "phonetic_api": "/ɓax/",
-      "phonetic_simple": "BHAKH",
-      "translation": "passer / s'écouler (pour le temps)",
-      "example_sentence": "Dya oŋ ɓax bɛ̀ɛ̀.",
-      "example_phonetic": "/dja oŋ ɓax bɛ̀ː/",
-      "example_translation": "La journée s'est bien écoulée."
+      "word_id": "v3",
+      "term": "ke",
+      "phonetic_api": "/ke/",
+      "phonetic_simple": "KÉ",
+      "translation": "attraper, tenir",
+      "example_sentence": "Sel ke.",
+      "example_phonetic": "/sel ke/",
+      "example_translation": "J'ai soif."
     },
     {
-      "word_id": "v52",
-      "term": "ləbəlã",
-      "phonetic_api": "/ləɓəlã/",
-      "phonetic_simple": "LE-BHE-LAN",
-      "translation": "l'année passée / la saison agricole précédente",
-      "example_sentence": "Ləbəlã məɟaa fə́ Conakry.",
-      "example_phonetic": "/ləɓəlã məɟaː fə́ konakri/",
-      "example_translation": "L'année passée, je me suis rendu à Conakry."
+      "word_id": "vx13",
+      "term": "doro",
+      "phonetic_api": "/doro/",
+      "phonetic_simple": "DO-RO",
+      "translation": "aujourd'hui",
+      "example_sentence": "doro",
+      "example_phonetic": "/doro/",
+      "example_translation": "aujourd'hui."
+    },
+    {
+      "word_id": "vx15",
+      "term": "ganëka",
+      "phonetic_api": "/ganəka/",
+      "phonetic_simple": "GA-NË-KA",
+      "translation": "hier",
+      "example_sentence": "ganëka",
+      "example_phonetic": "/ganəka/",
+      "example_translation": "hier."
+    },
+    {
+      "word_id": "vx8",
+      "term": "aƴe",
+      "phonetic_api": "/aʄe/",
+      "phonetic_simple": "A-YÉ",
+      "translation": "aller (verbe)",
+      "example_sentence": "Fe ƴe baƴ?",
+      "example_phonetic": "/fe ʄe baʄ/",
+      "example_translation": "Où es-tu allé ?"
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p97",
-      "original": "Anee ləfɔ́ bə̂ gwiye?",
-      "phonetic_api": "/aneː ləfɔ́ ɓə̂ ɡwije/",
-      "phonetic_simple": "A-NEE LE-FO BHE GWI-YE",
-      "translation": "Qu'as-tu fait durant la journée d'hier ?",
-      "context": "Prendre des nouvelles des activités passées d'un proche."
+      "phrase_id": "p1",
+      "original": "Sel ke.",
+      "phonetic_api": "/sel ke/",
+      "phonetic_simple": "SÈL KÉ",
+      "translation": "J'ai eu soif / j'ai soif (perfectif simple).",
+      "context": "Illustration du perfectif simple utilisé pour un fait accompli."
     },
     {
-      "phrase_id": "p98",
-      "original": "Gwiye məɟe fə́ eyá̰ dyɛ́ɛ̀.",
-      "phonetic_api": "/ɡwije məɟe fə́ ejá̰ ɟɛ́ː/",
-      "phonetic_simple": "GWI-YE ME-DYE FE E-YANG DYEE",
-      "translation": "Hier, j'étais présent au grand marché.",
-      "context": "Relater son emploi du temps de la veille."
+      "phrase_id": "p2",
+      "original": "Iyo.",
+      "phonetic_api": "/ijo/",
+      "phonetic_simple": "I-YO",
+      "translation": "Oui.",
+      "context": "Réponse affirmative générale, réutilisable dans toute conversation."
     },
     {
-      "phrase_id": "p99",
-      "original": "Kəbə̂ ɓâ mɔ oŋ ɔkarãdɔŋ.",
-      "phonetic_api": "/kəɓə̂ ɓâ mɔ oŋ ɔkarãdɔŋ/",
-      "phonetic_simple": "KE-BHE BHAA MO ONG O-KA-RAN-DONG",
-      "translation": "Autrefois, mon père exerçait comme enseignant.",
-      "context": "Évoquer l'ancienne profession d'un parent."
+      "phrase_id": "p3",
+      "original": "O-oye.",
+      "phonetic_api": "/o.oje/",
+      "phonetic_simple": "O-O-YÉ",
+      "translation": "Non.",
+      "context": "Réponse négative générale, réutilisable dans toute conversation."
     },
     {
-      "phrase_id": "p100",
-      "original": "Məgaw kəwá bɛ̀ɛ̀ gwiye fə́ siki.",
-      "phonetic_api": "/məɡaw kəwá bɛ̀ː ɡwije fə́ siki/",
-      "phonetic_simple": "ME-GAW KE-WA BEE GWI-YE FE SI-KI",
-      "translation": "J'ai entendu de magnifiques chants hier au village.",
-      "context": "Se remémorer un moment culturel agréable."
-    },
-    {
-      "phrase_id": "p101",
-      "original": "Ləbəlã ɔwá mɔ oŋ ɔsuku.",
-      "phonetic_api": "/ləɓəlã ɔwá mɔ oŋ ɔsuku/",
-      "phonetic_simple": "LE-BHE-LAN O-WA MO ONG O-SOU-KOU",
-      "translation": "L'année dernière, mon enfant était déjà sur les bancs de l'école.",
-      "context": "Inscrire le parcours scolaire dans la temporalité."
-    },
-    {
-      "phrase_id": "p102",
-      "original": "Dya fəla oŋ ɓax bɛ̀ɛ̀.",
-      "phonetic_api": "/dja fəla oŋ ɓax bɛ̀ː/",
-      "phonetic_simple": "DYA FE-LA ONG BHAKH BEE",
-      "translation": "Deux jours complets se sont écoulés de manière paisible.",
-      "context": "Constater le bon déroulement du temps."
-    },
-    {
-      "phrase_id": "p103",
-      "original": "Məɟǐ məkǎndɔŋ gwiye fə́ kəwá̰.",
-      "phonetic_api": "/məɟǐ məkǎndɔŋ ɡwije fə́ kəwá̰/",
-      "phonetic_simple": "ME-DYI ME-KAN-DONG GWI-YE FE KE-WANG",
-      "translation": "J'ai partagé le repas de riz hier au sein de la concession.",
-      "context": "Valider une action de nutrition accomplie."
-    },
-    {
-      "phrase_id": "p104",
-      "original": "Anee kəwə́ra bə̂ oŋ ɓax bɛ̀ɛ̀ kəbə̂?",
-      "phonetic_api": "/aneː kəwə́ra ɓə̂ oŋ ɓax bɛ̀ː kəɓə̂/",
-      "phonetic_simple": "A-NEE KE-WE-RA BHE ONG BHAKH BEE KE-BHE",
-      "translation": "Est-ce que ton village vivait dans la paix autrefois ?",
-      "context": "Questionner un ancien sur l'histoire de sa localité."
+      "phrase_id": "p4",
+      "original": "Awa.",
+      "phonetic_api": "/awa/",
+      "phonetic_simple": "A-OUA",
+      "translation": "D'accord / Bien.",
+      "context": "Marque d'accord ou de validation, utile pour conclure un échange."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'expression de l'aspect accompli (le récit au passé)",
-      "explanation": "En Oniyan, le passé se structure principalement par l'association d'adverbes temporels de cadrage ('gwiye', 'kəbə̂') couplés à l'utilisation du verbe à sa forme d'accompli. La modification tonale ou vocalique finale du verbe valide que l'action s'est entièrement réalisée avant le moment de l'énonciation.",
+      "concept": "Perfectif vs imperfectif : la position du pronom",
+      "explanation": "En oniyan, l'opposition aspectuelle fondamentale se marque par la position du pronom personnel : avant le verbe pour l'imperfectif (action en cours, habituelle, non accomplie), après le radical verbal pour le perfectif (action accomplie, ponctuelle) — un système typologiquement différent des temps verbaux français à affixes uniquement suffixaux.",
       "rules": [
-        "L'adverbe historique comme 'kəbə̂' se place généralement en tête de phrase pour teinter tout le récit au passé.",
-        "Les verbes de mouvement ou d'état conservent l'harmonie avec la classe nominale du sujet tout en adoptant le ton stable de l'accompli."
+        "Imperfectif : [pronom] + [verbe].",
+        "Perfectif : [verbe] + [pronom].",
+        "Le passé éloigné ou antérieur ajoute le suffixe -ba- entre le radical et les marques personnelles."
       ],
       "examples": [
         {
-          "structure": "[Adverbe de passé] + [Sujet] + [Verbe à l'accompli]",
-          "phonetic_api": "/ɡwije məɟǐ məkǎndɔŋ/",
-          "meaning": "Hier j'ai mangé du riz"
+          "structure": "a-ba-gan",
+          "phonetic_api": "/abagan/",
+          "meaning": "il/elle était allé(e) (passé antérieur, forme construite selon la règle -ba- attestée dans la grammaire SIL)"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Idrissa",
-      "text": "Anee ləfɔ́ bə̂ gwiye fə́ siki?",
-      "phonetic_api": "/aneː ləfɔ́ ɓə̂ ɡwije fə́ siki/",
-      "phonetic_simple": "A-NEE LE-FO BHE GWI-YE FE SI-KI",
-      "translation": "Qu'as-tu fait de beau hier au village ?"
+      "speaker": "Narrateur",
+      "text": "Sel ke.",
+      "phonetic_api": "/sel ke/",
+      "phonetic_simple": "SÈL KÉ",
+      "translation": "J'ai eu soif."
     },
     {
-      "speaker": "Samba",
-      "text": "Gwiye məɟe fə́ ləbɛ́l. Aɓəliyan fəla oŋ nɛ̂ lutte bɛ̀ɛ̀.",
-      "phonetic_api": "/ɡwije məɟe fə́ ləɓɛ́l aɓəljan fəla oŋ nɛ̂ lutte bɛ̀ː/",
-      "phonetic_simple": "GWI-YE ME-DYE FE LE-BHEL. A-BHE-LI-YAN FE-LA ONG NE LUTTE BEE",
-      "translation": "Hier, j'ai assisté aux combats de lutte. Deux hommes ont livré un superbe combat."
+      "speaker": "Auditeur",
+      "text": "Ganël!",
+      "phonetic_api": "/ganəl/",
+      "phonetic_simple": "GA-NËL",
+      "translation": "Va (chercher de l'eau) !"
     },
     {
-      "speaker": "Idrissa",
-      "text": "Nyarancaa. Kəbə̂ məɟe fə́ ləbɛ́l gwa fə́ mɔ.",
-      "phonetic_api": "/ɲarant͡ʃaː kəɓə̂ məɟe fə́ ləɓɛ́l ɡwa fə́ mɔ/",
-      "phonetic_simple": "NYA-RAN-TCHAA. KE-BHE ME-DYE FE LE-BHEL GWA FE MO",
-      "translation": "Merci. Autrefois, j'étais moi-même un très grand lutteur dans l'arène."
+      "speaker": "Locuteur A",
+      "text": "Awa?",
+      "phonetic_api": "/awa/",
+      "phonetic_simple": "A-OUA ?",
+      "translation": "D'accord ?"
+    },
+    {
+      "speaker": "Locuteur B",
+      "text": "Iyo, awa.",
+      "phonetic_api": "/ijo awa/",
+      "phonetic_simple": "I-YO, A-OUA",
+      "translation": "Oui, d'accord."
     }
   ],
   "cultural_notes": [
-    "Le temps chez les Bəliyan est perçu de manière cyclique et mémorielle. Le mot 'kəbə̂' ne renvoie pas simplement à une date calendrier, mais à l'époque héroïque des anciens et des ancêtres protecteurs. Transmettre ce qui s'est passé 'hier' ou 'autrefois' assure la continuité morale de la lignée."
+    "La tradition orale occupe une place importante dans la transmission culturelle du pays bassari ; cependant, aucun conte ou récit complet en oniyan n'a pu être consulté en texte intégral dans les sources disponibles ici — le Thesaurus tenda de Ferry (1991) contiendrait probablement des exemples narratifs plus riches."
   ],
   "exercises": [
     {
-      "exercise_id": "ex25",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel terme emploie-t-on pour ancrer l'action spécifiquement dans la journée d'hier ?",
+      "question": "Comment se marque le perfectif (fait accompli) en oniyan ?",
       "options": [
-        "pəwá̰",
-        "gwiye",
-        "kəbə̂"
+        "Le pronom se place après le verbe",
+        "Le pronom se place avant le verbe",
+        "Il n'y a pas de marque"
       ],
-      "correct_answer": "gwiye",
-      "explanation": "'gwiye' désigne précisément la journée d'hier, à la différence de 'pəwá̰' (demain) et 'kəbə̂' (jadis)."
+      "correct_answer": "Le pronom se place après le verbe",
+      "explanation": "Le perfectif se marque par la postposition du pronom au radical verbal."
     },
     {
-      "exercise_id": "ex26",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "[ ___ ] məɟaa fə́ Conakry (L'année passée, je suis allé à Conakry).",
-      "correct_answer": "Ləbəlã",
-      "hint": "Le nom temporel désignant la saison des récoltes ou l'année écoulée."
+      "sentence_with_blank": "a-___-gan (« il était allé », passé antérieur)",
+      "correct_answer": "ba",
+      "hint": "Suffixe marquant l'antériorité/le passé éloigné."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "SIL — A Grammar of Oniyan (Winters & Winters, 2004)",
+      "url": "https://www.sil.org/system/files/reapdata/18/63/15/1863153183176772870767650622005357320/BSC_Oniyan_grammar_En_2004.pdf"
+    },
+    {
+      "label": "Ségerer, G. — Description grammaticale du basari (oniyan), INALCO",
+      "url": "https://books.openedition.org/pressesinalco/pdf/36937"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Le système aspecto-temporel (perfectif/imperfectif, suffixe -ba-) est bien documenté dans la grammaire SIL et confirmé par l'analyse INALCO. Les exemples verbaux complets restent toutefois limités aux quelques formes attestées dans les phrases-exemples des sources ; les formes combinées avec -ba- présentées ici sont construites par application de la règle plutôt que directement citées dans un exemple de texte suivi."
 }

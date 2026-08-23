@@ -1,179 +1,184 @@
 {
   "lesson_id": "B1_M1_L2",
-  "level": "Intermédiaire (B1-B2)",
+  "level": "Niveau Intermédiaire (B1 - B2)",
   "module_number": 1,
   "module_title": "Exprimer ses idées et son environnement",
   "lesson_number": 2,
   "title": "Les loisirs, les passions et les activités sportives",
   "learning_objectives": [
-    "Parler de ses passe-temps, de la danse et de la musique traditionnelle en Mani",
-    "Décrire des activités physiques, de loisir et de plein air",
-    "Exprimer l'action de jouer, de chanter ou de se détendre avec des amis"
+    "Utiliser le verbe attesté 'chanter' (cog) et le nom dérivé 'chant'",
+    "Comprendre le rôle du vin de palme et du chant dans la vie sociale mani",
+    "Reconnaître l'absence de vocabulaire sportif moderne en mani"
   ],
   "phonetic_focus": {
-    "key_sounds": "La consonne vibrante battue /r/ glisse rapidement sur le palais sans friction excessive. Le digramme /gb/ est une occlusive co-articulée qui doit être prononcée de manière explosive et d'un seul bloc, sans séparer le 'g' du 'b'.",
-    "common_pitfalls": "Attention à ne pas allonger indûment les voyelles brèves comme dans 'sɛwɛ'. À l'inverse, maintenez bien l'effort d'expiration sur le 'x' de 'banxi'."
+    "key_sounds": "Le mani distingue 8 voyelles (i, e, ɛ, a, ɔ, o, u, ə) et des consonnes prénasalisées (mp, nt/nd, ŋk) ainsi qu'une labiovélaire /gb/ absentes du français. Le ton (registre haut/bas) est phonémique (Childs 2011, ch.2).",
+    "common_pitfalls": "Les francophones ont tendance à ne pas distinguer ɛ/e et ɔ/o, à simplifier les consonnes prénasalisées en de simples séquences nasale+consonne, et à ignorer les contrastes de ton, qui changent pourtant le sens ou la fonction grammaticale du mot (ex. hortatif vs perfectif marqués uniquement par le ton)."
   },
   "vocabulary": [
     {
-      "word_id": "v11_1",
-      "term": "béré",
-      "phonetic_api": "/be.re/",
-      "phonetic_simple": "BÉ-RÉ",
-      "translation": "jouer / s'amuser / loisir",
-      "example_sentence": "N bɔŋ bɛ béré lɔ.",
-      "example_phonetic": "/n̩ bɔŋ bɛ be.re lɔ/",
-      "example_translation": "Mon enfant s'amuse ici."
+      "word_id": "v1",
+      "term": "cog",
+      "phonetic_api": "/tʃɔg/",
+      "phonetic_simple": "TCHOG",
+      "translation": "chanter"
     },
     {
-      "word_id": "v11_2",
-      "term": "fari",
-      "phonetic_api": "/fa.ri/",
-      "phonetic_simple": "FA-RI",
-      "translation": "danser / danse",
-      "example_sentence": "Mora fɔkɔ fari.",
-      "example_phonetic": "/mo.ra fɔ.kɔ fa.ri/",
-      "example_translation": "La personne vient danser."
+      "word_id": "v2",
+      "term": "ucog",
+      "phonetic_api": "/utʃɔg/",
+      "phonetic_simple": "OU-TCHOG",
+      "translation": "chant, chanson (nom dérivé du verbe 'chanter')"
     },
     {
-      "word_id": "v11_3",
-      "term": "gbɛŋ",
-      "phonetic_api": "/ɡbɛŋ/",
-      "phonetic_simple": "GBÈNG",
-      "translation": "courir / course / vitesse",
-      "example_sentence": "A bɛ gbɛŋ kira cɛm.",
-      "example_phonetic": "/a bɛ ɡbɛŋ ki.ra tʃɛm/",
-      "example_translation": "Il court au milieu du chemin."
+      "word_id": "v3",
+      "term": "kalam",
+      "phonetic_api": "/kalam/",
+      "phonetic_simple": "KA-LAM",
+      "translation": "vin de palme (boisson sociale traditionnelle)"
     },
     {
-      "word_id": "v11_4",
-      "term": "sɛwɛ",
-      "phonetic_api": "/sɛ.wɛ/",
-      "phonetic_simple": "SÈ-WÈ",
-      "translation": "chanter / chanson / chant",
-      "example_sentence": "N wulɛ bɛ sɛwɛ yoma.",
-      "example_phonetic": "/n̩ wu.lɛ bɛ sɛ.wɛ jo.ma/",
-      "example_translation": "Ma mère chante une belle chanson."
+      "word_id": "v4",
+      "term": "ye",
+      "phonetic_api": "/jɛ/",
+      "phonetic_simple": "YÈ",
+      "translation": "danser"
     },
     {
-      "word_id": "v11_5",
-      "term": "tuli",
-      "phonetic_api": "/tu.li/",
-      "phonetic_simple": "TOU-LI",
-      "translation": "écouter / entendre",
-      "example_sentence": "Kɔŋ, tuli n sɛwɛ.",
-      "example_phonetic": "/kɔŋ tu.li n̩ sɛ.wɛ/",
-      "example_translation": "S'il te plaît, écoute mon chant."
+      "word_id": "v5",
+      "term": "mara",
+      "phonetic_api": "/mara/",
+      "phonetic_simple": "MA-RA",
+      "translation": "aimer"
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p11_1",
-      "original": "Wun bɛ ni béré yoma ?",
-      "phonetic_api": "/wun bɛ ni be.re jo.ma/",
-      "phonetic_simple": "WOUN BÈ NI BÉ-RÉ YO-MA ?",
-      "translation": "As-tu un bon jeu ? (Aimes-tu t'amuser ?)",
-      "context": "Questionner un proche sur ses activités de détente."
+      "phrase_id": "p1",
+      "original": "ya te atakan ace go ga cono",
+      "phonetic_api": "/ja tɛ atakan atʃɛ go ga tʃono/",
+      "phonetic_simple": "YA TÈ A-TA-KAN A-TCHÉ GO GA TCHO-NO",
+      "translation": "J'entends les femmes chanter.",
+      "context": "Phrase authentique attestée (Childs 2011, ex.143) illustrant l'usage du verbe 'chanter' en relative."
     },
     {
-      "phrase_id": "p11_2",
-      "original": "Denbaya fɔkɔ béré kankaran lɔ.",
-      "phonetic_api": "/den.ba.ja fɔ.kɔ be.re kan.ka.ran lɔ/",
-      "phonetic_simple": "DEN-BA-YA FƆ-KƆ BÉ-RÉ KAN-KA-RAN LƆ",
-      "translation": "La famille vient s'amuser dans la cour.",
-      "context": "Décrire un rassemblement ludique ou une fête à la maison."
+      "phrase_id": "p2",
+      "original": "nya hi hati ye haa isɔ",
+      "phonetic_api": "/ɲa hi hati jɛ haː isɔ/",
+      "phonetic_simple": "NYA HI HA-TI YÈ HAA I-SO",
+      "translation": "Vous danserez jusqu'au matin.",
+      "context": "Phrase authentique attestée (Childs 2011, ex.154a)."
     },
     {
-      "phrase_id": "p11_3",
-      "original": "N tuli fari ni sɛwɛ woŋ lɔ.",
-      "phonetic_api": "/n̩ tu.li fa.ri ni sɛ.wɛ woŋ lɔ/",
-      "phonetic_simple": "N TOU-LI FA-RI NI SÈ-WÈ WONG LƆ",
-      "translation": "J'entends les danses et les chants dans la ville.",
-      "context": "Évoquer l'ambiance sonore d'une festivité locale."
+      "phrase_id": "p3",
+      "original": "wo hi hɔn simiti",
+      "phonetic_api": "/wo hi hɔn simiti/",
+      "phonetic_simple": "WO HI HON SI-MI-TI",
+      "translation": "Elle devra revenir samedi.",
+      "context": "Phrase authentique attestée (Childs 2011, ex.154b)."
     },
     {
-      "phrase_id": "p11_4",
-      "original": "A bɛ gbɛŋ kpere mɛnni.",
-      "phonetic_api": "/a bɛ ɡbɛŋ kpe.re mɛn.ni/",
-      "phonetic_simple": "A BÈ GBÈNG KPE-RE MÈN-NI",
-      "translation": "Il court au loin là-bas.",
-      "context": "Parler d'un enfant ou d'un athlète en pleine activité physique."
+      "phrase_id": "p4",
+      "original": "ril / nya-mamɔ",
+      "phonetic_api": "/ril/, /ɲamamɔ/",
+      "phonetic_simple": "RIL / NYA-MA-MO",
+      "translation": "merci (singulier / pluriel)",
+      "context": "Formule de remerciement attestée, pouvant conclure un moment de loisir partagé (Childs 2011, ex.370)."
     }
   ],
   "grammar_points": [
     {
-      "concept": "La coordination verbale par juxtaposition asyndétique",
-      "explanation": "Pour exprimer des actions de loisir simultanées (ex: chanter et danser), le Mani emploie fréquemment la juxtaposition directe des bases verbales ou utilise le connecteur d'accompagnement 'ni' (et) entre les compléments nominaux d'action.",
+      "concept": "Le modal 'bi/hi' (avoir) exprimant une certitude future",
+      "explanation": "Le verbe 'bi/hi' (avoir, tenir) peut fonctionner comme un modal épistémique exprimant une action future certaine, souvent traduite par le futur ou par 'devoir' en français (Childs 2011, ch.4 sur le mode, ex.154).",
       "rules": [
-        "Les verbes de mouvement ou de but précèdent généralement le verbe de loisir principal.",
-        "Le mot 'béré' sert à la fois de verbe général pour 's'amuser' et de substantif pour désigner n'importe quel jeu."
+        "bi/hi + verbe exprime une action future que le locuteur considère comme certaine.",
+        "Le complémenteur 'hali' (pour, afin de) peut introduire la suite de la construction modale."
       ],
       "examples": [
         {
-          "structure": "fɔkɔ béré",
-          "phonetic_api": "/fɔ.kɔ be.re/",
-          "meaning": "venir jouer (venir s'amuser)"
+          "structure": "nya hi hati ye",
+          "phonetic_api": "/ɲa hi hati jɛ/",
+          "meaning": "vous danserez (certainement)"
         },
         {
-          "structure": "fari ni sɛwɛ",
-          "phonetic_api": "/fa.ri ni sɛ.wɛ/",
-          "meaning": "la danse et le chant"
+          "structure": "wo hi hɔn",
+          "phonetic_api": "/wo hi hɔn/",
+          "meaning": "elle reviendra (certainement)"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Sékou",
-      "text": "Mboi Fanta ! Wun béré na nɛ hɔnkɔ lɔ ?",
-      "phonetic_api": "/mboi fan.ta wun be.re na nɛ hɔn.kɔ lɔ/",
-      "phonetic_simple": "MBOÏ FAN-TA ! WOUN BÉ-RÉ NA NÈ HON-KƆ LƆ ?",
-      "translation": "Bonjour Fanta ! Quel est ton jeu (ton loisir) aujourd'hui ?"
+      "speaker": "Fanta",
+      "text": "ya te atakan ace go ga cono.",
+      "phonetic_api": "/ja tɛ atakan atʃɛ go ga tʃono/",
+      "phonetic_simple": "YA TÈ A-TA-KAN A-TCHÉ GO GA TCHO-NO",
+      "translation": "J'entends les femmes chanter."
+    },
+    {
+      "speaker": "Ousmane",
+      "text": "nya hi hati ye haa isɔ ya?",
+      "phonetic_api": "/ɲa hi hati jɛ haː isɔ ja/",
+      "phonetic_simple": "NYA HI HA-TI YÈ HAA I-SO YA",
+      "translation": "Allez-vous danser jusqu'au matin ?"
     },
     {
       "speaker": "Fanta",
-      "text": "Mboi Sékou ! N bɛ ni fari ni sɛwɛ kankaran lɔ. Wun lɔ ?",
-      "phonetic_api": "/mboi se.kou n̩ bɛ ni fa.ri ni sɛ.wɛ kan.ka.ran lɔ wun lɔ/",
-      "phonetic_simple": "MBOÏ SÉ-KOU ! N BÈ NI FA-RI NI SÈ-WÈ KAN-KA-RAN LƆ. WOUN LƆ ?",
-      "translation": "Bonjour Sékou ! Je danse et je chante dans la cour. Et toi ?"
+      "text": "shɛke! ya mara ucog nɔŋ ye.",
+      "phonetic_api": "/ʃɛkɛ, ja mara utʃɔg nɔŋ jɛ/",
+      "phonetic_simple": "CHÉ-KÉ, YA MA-RA OU-TCHOG NONG YÈ",
+      "translation": "Oui ! J'aime le chant et la danse. (structure reconstruite)"
     },
     {
-      "speaker": "Sékou",
-      "text": "N tuli wun sɛwɛ mɛnni. Sɛwɛ gbun a ra ! N bɛ gbɛŋ lɔ.",
-      "phonetic_api": "/n̩ tu.li wun sɛ.wɛ mɛn.ni sɛ.wɛ ɡbun a ra n̩ bɛ ɡbɛŋ lɔ/",
-      "phonetic_simple": "N TOU-LI WOUN SÈ-WÈ MÈN-NI. SÈ-WÈ GBOUN A RA ! N BÈ GBÈNG LƆ.",
-      "translation": "J'entends ton chant là-bas. C'est un grand chant ! Moi, je cours ici."
+      "speaker": "Ousmane",
+      "text": "ril, ya mara ucog kɔ ye tɔ.",
+      "phonetic_api": "/ril, ja mara utʃɔg kɔ jɛ tɔ/",
+      "phonetic_simple": "RIL, YA MA-RA OU-TCHOG KO YÈ TO",
+      "translation": "Merci, j'aime aussi le chant et la danse. (structure reconstruite combinant 'ril' merci et le vocabulaire déjà attesté dans ce fichier)"
     },
     {
-      "speaker": "Fanta",
-      "text": "Cece, béré yoma a ra. Gbana mami !",
-      "phonetic_api": "/tʃe.tʃe be.re jo.ma a ra ɡba.na ma.mi/",
-      "phonetic_simple": "TCHÉ-TCHÉ, BÉ-RÉ YO-MA A RA. GBA-NA MA-MI !",
-      "translation": "Merci, c'est un bon jeu. Au revoir ami !"
+      "speaker": "Ousmane",
+      "text": "ril, ya mara ucog kɔ ye tɔ.",
+      "phonetic_api": "/ril, ja mara utʃɔg kɔ jɛ tɔ/",
+      "phonetic_simple": "RIL, YA MA-RA OU-TCHOG KO YÈ TO",
+      "translation": "Merci, j'aime aussi le chant et la danse. (structure reconstruite combinant 'ril' merci et le vocabulaire déjà attesté dans ce fichier)"
     }
   ],
   "cultural_notes": [
-    "Dans les communautés littorales Mani, les loisirs sont indissociables des célébrations collectives. La danse ('fari') et le chant ('sɛwɛ') rythment traditionnellement la fin des récoltes ou le retour réussi des pirogues de pêche. Le mot 'béré' qualifie toute forme de détente collective ou d'émulation physique amicale."
+    "Le chant et la danse accompagnent traditionnellement les veillées autour du vin de palme chez les Mani, comme l'illustre le texte funéraire cité par Childs (2011) mentionnant Yafondo et le partage du vin de palme.",
+    "Aucun vocabulaire sportif moderne (football, course, etc.) n'a été trouvé dans les sources disponibles sur le mani ; ces activités sont probablement désignées par des emprunts au français ou à l'anglais dans l'usage courant, mais aucune attestation précise n'a été localisée."
   ],
   "exercises": [
     {
-      "exercise_id": "ex11_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Que signifie le verbe 'sɛwɛ' en langue Mani ?",
+      "question": "Que signifie « ucog » en mani ?",
       "options": [
-        "Courir",
-        "Chanter",
-        "Écouter"
+        "chant, chanson",
+        "maison",
+        "vin de palme"
       ],
-      "correct_answer": "Chanter",
-      "explanation": "'Sɛwɛ' désigne l'action de chanter ou la chanson elle-même."
+      "correct_answer": "chant, chanson",
+      "explanation": "'ucog' est le nom dérivé du verbe 'cog' (chanter), Childs (2011)."
     },
     {
-      "exercise_id": "ex11_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "N bɔŋ bɛ [ ___ ] kankaran lɔ. (Mon enfant s'amuse dans la cour).",
-      "correct_answer": "béré",
-      "hint": "Le verbe de deux syllabes qui signifie jouer."
+      "sentence_with_blank": "nya [ ___ ] hati ye haa isɔ. (Vous danserez jusqu'au matin.)",
+      "correct_answer": "hi",
+      "hint": "Modal épistémique signifiant 'avoir' utilisé ici pour exprimer une certitude future."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Childs, G. Tucker (2011), A Grammar of Mani, Mouton Grammar Library 54, De Gruyter Mouton",
+      "url": "https://theswissbay.ch/pdf/Books/Linguistics/Mega%20linguistics%20pack/African/Niger-Congo/other%20Atlantic-Congo/Bullom%20So;%20A%20Grammar%20of%20Mani%20(Childs).pdf"
+    },
+    {
+      "label": "Glottolog 5.3 — Bullom So (bull1247)",
+      "url": "https://glottolog.org/resource/languoid/id/bull1247"
+    }
+  ],
+  "confidence": "faible",
+  "confidence_note": "Les verbes 'chanter', 'danser' et le nom 'chant' sont attestés, ainsi que deux phrases authentiques sur la danse. Aucune documentation sur les loisirs modernes ou les sports n'a été trouvée ; cette lacune importante est signalée honnêtement."
 }

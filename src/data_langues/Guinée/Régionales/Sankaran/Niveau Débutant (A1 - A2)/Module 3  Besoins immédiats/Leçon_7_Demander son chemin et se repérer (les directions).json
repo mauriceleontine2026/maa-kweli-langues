@@ -4,239 +4,274 @@
   "module_number": 3,
   "module_title": "Besoins immédiats",
   "lesson_number": 7,
-  "title": "Demander son chemin et se repérer",
+  "title": "Demander son chemin et se repérer (les directions)",
   "learning_objectives": [
-    "Formuler des questions pour s'enquérir de la localisation d'un lieu ou d'un bâtiment public",
-    "Comprendre et suivre les indications d'orientation spatiale fondamentales (droite, gauche, tout droit)",
-    "Utiliser les postpositions locatives directives et statiques adaptées à la langue Sankaran"
+    "Demander où se trouve un lieu ('min' = où)",
+    "Utiliser les postpositions de lieu (kèrèfè, kofè, nyèfè)",
+    "Indiquer la distance en kilomètres",
+    "Comprendre les indications simples pour se déplacer d'un village à l'autre"
   ],
   "phonetic_focus": {
-    "key_sounds": "La structure locative utilise intensément la postposition 'fɛ' /fɛ/ avec un 'ɛ' très ouvert. Les directions intègrent des consonnes nasales combinées comme dans 'kinin' /ki.nin/ (droite) où le second 'n' s'articule contre les alvéoles dentaires. La direction 'numan' /nu.man/ se prononce avec des voyelles brèves nettes.",
-    "common_pitfalls": "Ne prononcez pas le 'o' de 'bolo' ou 'silo' de manière étirée ou nasalisée à la française. Ce sont des voyelles fermées brèves /bo.lo/ et /si.lo/. De plus, marquez bien le saut d'intonation sur la postposition directionnelle."
+    "key_sounds": [
+      "Le [ɛ] ouvert dans 'kèrèfè' (à côté) et 'nyèfè' (devant)",
+      "La diphtongue de 'sila' (route/chemin)",
+      "Le ton bas de 'yen' (là-bas) opposé au ton de 'yan' (ici)"
+    ],
+    "common_pitfalls": [
+      "Confondre 'yan' (ici) et 'yen' (là-bas), qui ne diffèrent que par la voyelle finale",
+      "Oublier que 'min' (où) se place à la FIN de la question, contrairement au français"
+    ]
   },
   "vocabulary": [
     {
-      "word_id": "v7_1",
-      "term": "Silo",
-      "phonetic_api": "/si.lo/",
-      "phonetic_simple": "SI-LO",
-      "translation": "Chemin / Route / Rue",
-      "example_sentence": "Silo be mi?",
-      "example_phonetic": "/si.lo be mi/",
-      "example_translation": "Où est le chemin ?"
+      "word_id": "v1",
+      "term": "yan",
+      "phonetic_api": "[jan]",
+      "phonetic_simple": "yan",
+      "translation": "ici",
+      "example_sentence": "Na yan !",
+      "example_phonetic": "[na jan]",
+      "example_translation": "Viens ici !"
     },
     {
-      "word_id": "v7_2",
-      "term": "Kinin bolo",
-      "phonetic_api": "/ki.nin bo.lo/",
-      "phonetic_simple": "KI-NINE BO-LO",
-      "translation": "La droite / Côté droit (litt: main droite)",
-      "example_sentence": "Yɛlɛma kinin bolo fɛ.",
-      "example_phonetic": "/jɛ.lɛ.ma ki.nin bo.lo fɛ/",
-      "example_translation": "Tourne du côté droit."
+      "word_id": "v2",
+      "term": "yen",
+      "phonetic_api": "[jen]",
+      "phonetic_simple": "yèn",
+      "translation": "là-bas",
+      "example_sentence": "N ko ye na yando.",
+      "example_phonetic": "[n ko je na jando]",
+      "example_translation": "Je te dis de venir ici (litt. de là-bas)."
     },
     {
-      "word_id": "v7_3",
-      "term": "Numan bolo",
-      "phonetic_api": "/nu.man bo.lo/",
-      "phonetic_simple": "NOU-MANE BO-LO",
-      "translation": "La gauche / Côté gauche (litt: main gauche)",
-      "example_sentence": "Lofɛ be numan bolo fɛ.",
-      "example_phonetic": "/lo.fɛ be nu.man bo.lo fɛ/",
-      "example_translation": "Le marché est du côté gauche."
+      "word_id": "v3",
+      "term": "sila",
+      "phonetic_api": "[sila]",
+      "phonetic_simple": "si-la",
+      "translation": "route, chemin",
+      "example_sentence": "Sila fila : Farana sila ani Daboia sila.",
+      "example_phonetic": "[sila fila farana sila ani daboja sila]",
+      "example_translation": "Deux routes : la route de Faranah et la route de Dabola."
     },
     {
-      "word_id": "v7_4",
-      "term": "Telenten",
-      "phonetic_api": "/te.len.ten/",
-      "phonetic_simple": "TÉ-LÈNE-TÈNE",
-      "translation": "Tout droit / Rectiligne",
-      "example_sentence": "Wa telenten.",
-      "example_phonetic": "/wa te.len.ten/",
-      "example_translation": "Va tout droit."
+      "word_id": "v4",
+      "term": "kèrèfè",
+      "phonetic_api": "[kɛrɛfɛ]",
+      "phonetic_simple": "kè-rè-fè",
+      "translation": "à côté de",
+      "example_sentence": "Na n kèrèfè.",
+      "example_phonetic": "[na n kɛrɛfɛ]",
+      "example_translation": "Viens te mettre à côté de moi."
     },
     {
-      "word_id": "v7_5",
-      "term": "Yɔrɔ",
-      "phonetic_api": "/jɔ.rɔ/",
-      "phonetic_simple": "YƆ-RƆ",
-      "translation": "Lieu / Endroit / Place",
-      "example_sentence": "Yɔrɔ nin ka djan bang?",
-      "example_phonetic": "/jɔ.rɔ nin ka d͡ʒan baŋ/",
-      "example_translation": "Cet endroit est-il loin ?"
+      "word_id": "v5",
+      "term": "kofè",
+      "phonetic_api": "[kofɛ]",
+      "phonetic_simple": "ko-fè",
+      "translation": "derrière",
+      "example_sentence": "Jon nye kofè ?",
+      "example_phonetic": "[dʒɔn ɲe kofɛ]",
+      "example_translation": "Qui est derrière ?"
     },
     {
-      "word_id": "v7_6",
-      "term": "Lofɛ",
-      "phonetic_api": "/lo.fɛ/",
-      "phonetic_simple": "LO-FƐ",
-      "translation": "Le marché / Place commerciale",
-      "example_sentence": "N be wa lofɛ la.",
-      "example_phonetic": "/ɲ be wa lo.fɛ la/",
-      "example_translation": "Je vais au marché."
+      "word_id": "v6",
+      "term": "nyèfè",
+      "phonetic_api": "[ɲɛfɛ]",
+      "phonetic_simple": "nyè-fè",
+      "translation": "devant",
+      "example_sentence": "Jon nye nyèfè ?",
+      "example_phonetic": "[dʒɔn ɲe ɲɛfɛ]",
+      "example_translation": "Qui est devant ?"
     },
     {
-      "word_id": "v7_7",
-      "term": "Dɔgɔtɔrɔso",
-      "phonetic_api": "/dɔ.ɣɔ.tɔ.rɔ.so/",
-      "phonetic_simple": "DƆ-GƆ-TƆ-RƆ-SO",
-      "translation": "Hôpital / Dispensaire (litt: maison du docteur)",
-      "example_sentence": "Dɔgɔtɔrɔso be mi?",
-      "example_phonetic": "/dɔ.ɣɔ.tɔ.rɔ.so be mi/",
-      "example_translation": "Où se trouve l'hôpital ?"
+      "word_id": "v7",
+      "term": "kilo",
+      "phonetic_api": "[kilo]",
+      "phonetic_simple": "ki-lo",
+      "translation": "kilomètre",
+      "example_sentence": "Yan ni Kankan tè ye kilo jeli ?",
+      "example_phonetic": "[jan ni kankan tɛ je kilo dʒeli]",
+      "example_translation": "Quelle est la distance entre ici et Kankan ?"
     },
     {
-      "word_id": "v7_8",
-      "term": "Yɛlɛma",
-      "phonetic_api": "/jɛ.lɛ.ma/",
-      "phonetic_simple": "YƐ-LƐ-MA",
-      "translation": "Changer / Tourner (direction)",
-      "example_sentence": "I kani yɛlɛma yan.",
-      "example_phonetic": "/i ka.ni jɛ.lɛ.ma jan/",
-      "example_translation": "Tu dois tourner ici."
+      "word_id": "v8",
+      "term": "min",
+      "phonetic_api": "[min]",
+      "phonetic_simple": "min",
+      "translation": "où (interrogatif de lieu)",
+      "example_sentence": "I wato min ?",
+      "example_phonetic": "[i wato min]",
+      "example_translation": "Où vas-tu ?"
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p7_1",
-      "original": "Faranah silo be mi?",
-      "phonetic_api": "/fa.ra.na si.lo be mi/",
-      "phonetic_simple": "FA-RA-NA SI-LO BÉ MI ?",
-      "translation": "Où est la route de Faranah ?",
-      "context": "Demande de direction routière pour quitter ou traverser une ville."
+      "phrase_id": "p1",
+      "original": "I wato min ?",
+      "phonetic_api": "[i wato min]",
+      "phonetic_simple": "i-wa-to-min",
+      "translation": "Où vas-tu ?",
+      "context": "Demander la destination d'un interlocuteur"
     },
     {
-      "phrase_id": "p7_2",
-      "original": "Dɔgɔtɔrɔso be mi, n dɔgɔke?",
-      "phonetic_api": "/dɔ.ɣɔ.tɔ.rɔ.so be mi ɲ dɔ.ɣɔ.ke/",
-      "phonetic_simple": "DƆ-GƆ-TƆ-RƆ-SO BÉ MI, N DƆ-GƆ-KÉ ?",
-      "translation": "Où est l'hôpital, mon petit frère ?",
-      "context": "Demande d'assistance polie pour trouver une urgence médicale."
+      "phrase_id": "p2",
+      "original": "Yan ni Kankan tè ye kilo jeli ?",
+      "phonetic_api": "[jan ni kankan tɛ je kilo dʒeli]",
+      "phonetic_simple": "yan-ni-Kan-kan-tè-yé-ki-lo-dié-li",
+      "translation": "Quelle est la distance entre ici et Kankan ?",
+      "context": "Question de distance kilométrique"
     },
     {
-      "phrase_id": "p7_3",
-      "original": "Wa telenten fɔ silo bɛn yɔrɔ.",
-      "phonetic_api": "/wa te.len.ten fɔ si.lo bɛn jɔ.rɔ/",
-      "phonetic_simple": "WA TÉ-LÈNE-TÈNE FƆ SI-LO BƐNE YƆ-RƆ.",
-      "translation": "Va tout droit jusqu'au carrefour (litt: lieu de rencontre des routes).",
-      "context": "Indication d'itinéraire claire donnée à un piéton ou chauffeur."
+      "phrase_id": "p3",
+      "original": "Kilo kèmè woronwila ni bi seyin",
+      "phonetic_api": "[kilo kɛmɛ woronwila ni bi sejin]",
+      "phonetic_simple": "ki-lo-kè-mè-wo-ron-wi-la-ni-bi-sé-yin",
+      "translation": "780 km",
+      "context": "Réponse indiquant une distance précise"
     },
     {
-      "phrase_id": "p7_4",
-      "original": "A ka djan bang?",
-      "phonetic_api": "/a ka d͡ʒan baŋ/",
-      "phonetic_simple": "A KA DJANE BANGE ?",
-      "translation": "Est-ce que c'est loin ?",
-      "context": "Question pour évaluer la distance d'un trajet."
+      "phrase_id": "p4",
+      "original": "Monbili ye tele jeli kèla sila la ?",
+      "phonetic_api": "[mɔnbili je tele dʒeli kɛla sila la]",
+      "phonetic_simple": "mon-bi-li-yé-té-lé-dié-li-kè-la-si-la-la",
+      "translation": "Le véhicule met combien de jours de route ?",
+      "context": "Question sur la durée d'un trajet"
     },
     {
-      "phrase_id": "p7_5",
-      "original": "A ka tjan, i kani mobilé ta.",
-      "phonetic_api": "/a ka t͡ʃan i ka.ni mo.bi.le ta/",
-      "phonetic_simple": "A KA TCHANE, I KA-NI MO-BI-LÉ TA.",
-      "translation": "C'est loin, tu dois prendre une voiture / un taxi.",
-      "context": "Conseil de transport face à une distance importante."
+      "phrase_id": "p5",
+      "original": "Wa muwan ni lolu",
+      "phonetic_api": "[wa muwan ni lolu]",
+      "phonetic_simple": "wa-mou-wan-ni-lo-lou",
+      "translation": "25 000 (francs)",
+      "context": "Indication du prix du transport"
     },
     {
-      "phrase_id": "p7_6",
-      "original": "A ka surun, a be kinin bolo fɛ.",
-      "phonetic_api": "/a ka su.run a be ki.nin bo.lo fɛ/",
-      "phonetic_simple": "A KA SOU-ROUNE, A BÉ KI-NINE BO-LO FƐ.",
-      "translation": "C'est proche, c'est sur le côté droit.",
-      "context": "Indication pour rassurer sur la proximité immédiate d'un lieu."
+      "phrase_id": "p6",
+      "original": "Na n kèrèfè",
+      "phonetic_api": "[na n kɛrɛfɛ]",
+      "phonetic_simple": "na-n-kè-rè-fè",
+      "translation": "Viens à côté de moi",
+      "context": "Indication de position relative"
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'expression de la localisation interrogative avec 'be ... mi?'",
-      "explanation": "Pour demander où se trouve un objet ou un lieu en Sankaran, on utilise le sujet nominal suivi de la marque verbale de présence/localisation 'be' et de l'interrogatif locatif 'mi' (où).",
+      "concept": "La question de lieu avec 'min'",
+      "explanation": "Contrairement au français où 'où' est en tête de phrase, en malinké le mot interrogatif de lieu 'min' se place à la fin de la phrase.",
       "rules": [
-        "Structure : [Lieu/Substantif] + be + mi ?"
+        "Structure : Sujet + Verbe + min ?",
+        "Exemple : I wato min ? (litt. 'Tu vas où ?')"
       ],
       "examples": [
         {
-          "structure": "Kalanmango so be mi?",
-          "phonetic_api": "/ka.lan.man.ɣo so be mi/",
-          "meaning": "Où est l'école ?"
+          "structure": "[Sujet] + [Verbe] + min ?",
+          "phonetic_api": "[min]",
+          "meaning": "Où [sujet] [verbe]-t-il ?"
         }
       ]
     },
     {
-      "concept": "La construction directionnelle latérale avec 'bolo fɛ'",
-      "explanation": "Les notions de 'droite' et 'gauche' se construisent obligatoirement à partir du mot 'bolo' (la main / le bras), qualifié par 'kinin' (droit) ou 'numan' (gauche), complété par la postposition de direction spatiale 'fɛ' (vers / du côté de).",
+      "concept": "Les postpositions de position relative",
+      "explanation": "Le malinké place les mots de position (kèrèfè=à côté, kofè=derrière, nyèfè=devant) après le nom ou le pronom qu'ils qualifient, à la manière des postpositions.",
       "rules": [
-        "Côté droit = kinin bolo fɛ",
-        "Côté gauche = numan bolo fɛ"
+        "Structure : [Nom/Pronom] + [Postposition de lieu]",
+        "Ex. : n kèrèfè = à côté de moi ; a kofè = derrière lui"
       ],
       "examples": [
         {
-          "structure": "A be numan bolo fɛ.",
-          "phonetic_api": "/a be nu.man bo.lo fɛ/",
-          "meaning": "C'est à gauche (vers la main gauche)."
+          "structure": "[Pronom] + kèrèfè",
+          "phonetic_api": "[kɛrɛfɛ]",
+          "meaning": "à côté de [pronom]"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Lamine",
-      "text": "I ni ke, n dɔgɔke ! Lofɛ silo be mi?",
-      "phonetic_api": "/i ni ke ɲ dɔ.ɣɔ.ke | lo.fɛ si.lo be mi/",
-      "phonetic_simple": "I NI KÉ, N DƆ-GƆ-KÉ ! LO-FƐ SI-LO BÉ MI ?",
-      "translation": "Salut, mon petit frère ! Où se trouve la route du marché ?"
+      "speaker": "Voyageur",
+      "text": "I ni tele. Yan ni Kankan tè ye kilo jeli ?",
+      "phonetic_api": "[i ni tele jan ni kankan tɛ je kilo dʒeli]",
+      "phonetic_simple": "i-ni-té-lé, yan-ni-Kan-kan-tè-yé-ki-lo-dié-li",
+      "translation": "Bonjour. Quelle est la distance entre ici et Kankan ?"
     },
     {
-      "speaker": "Kalanden",
-      "text": "Nba, n kɔrɔke. Wa telenten fɔ silo bɛn yɔrɔ la.",
-      "phonetic_api": "/ɲ.ba ɲ kɔ.rɔ.ke | wa te.len.ten fɔ si.lo bɛn jɔ.rɔ la/",
-      "phonetic_simple": "NBA, N KƆ-RƆ-KÉ. WA TÉ-LÈNE-TÈNE FƆ SI-LO BƐNE YƆ-RƆ LA.",
-      "translation": "Bonjour, mon grand frère. Va tout droit jusqu'au carrefour."
+      "speaker": "Habitant",
+      "text": "Kilo kèmè woronwila ni bi seyin ne.",
+      "phonetic_api": "[kilo kɛmɛ woronwila ni bi sejin ne]",
+      "phonetic_simple": "ki-lo-kè-mè-wo-ron-wi-la-ni-bi-sé-yin-né",
+      "translation": "780 km."
     },
     {
-      "speaker": "Lamine",
-      "text": "N bɛn yɔrɔ sɔrɔ, n kani yɛlɛma mi fɛ?",
-      "phonetic_api": "/ɲ bɛn jɔ.rɔ sɔ.rɔ ɲ ka.ni jɛ.lɛ.ma mi fɛ/",
-      "phonetic_simple": "N BƐNE YƆ-RƆ SƆ-RƆ, N KA-NI YƐ-LƐ-MA MI FƐ ?",
-      "translation": "Quand j'atteindrai le carrefour, de quel côté dois-je tourner ?"
+      "speaker": "Voyageur",
+      "text": "Monbili ye tele jeli kèla sila la ?",
+      "phonetic_api": "[mɔnbili je tele dʒeli kɛla sila la]",
+      "phonetic_simple": "mon-bi-li-yé-té-lé-dié-li-kè-la-si-la-la",
+      "translation": "Le véhicule met combien de jours de route ?"
     },
     {
-      "speaker": "Kalanden",
-      "text": "Yɛlɛma kinin bolo fɛ. Lofɛ be dɔgɔtɔrɔso surun la.",
-      "phonetic_api": "/jɛ.lɛ.ma ki.nin bo.lo fɛ | lo.fɛ be dɔ.ɣɔ.tɔ.rɔ.so su.run la/",
-      "phonetic_simple": "YƐ-LƐ-MA KI-NINE BO-LO FƐ. LO-FƐ BÉ DƆ-GƆ-TƆ-RƆ-SO SOU-ROUNE LA.",
-      "translation": "Tourne du côté droit. Le marché est tout près de l'hôpital."
-    },
-    {
-      "speaker": "Lamine",
-      "text": "I ni barika, n dɔgɔke. Ala k'e sara.",
-      "phonetic_api": "/i ni ba.ri.ka ɲ dɔ.ɣɔ.ke | a.la k'e sa.ra/",
-      "phonetic_simple": "I NI BA-RI-KA, N DƆ-GƆ-KÉ. A-LA KÉ SA-RA.",
-      "translation": "Merci à toi, mon petit frère. Que Dieu te récompense."
+      "speaker": "Habitant",
+      "text": "Tele fila, sila fila la : Farana sila ani Daboia sila.",
+      "phonetic_api": "[tele fila sila fila la farana sila ani daboja sila]",
+      "phonetic_simple": "té-lé-fi-la, si-la-fi-la-la: Fa-ra-na-si-la a-ni Da-bo-ya-si-la",
+      "translation": "Deux jours, sur deux routes possibles : la route de Faranah et la route de Dabola."
     }
   ],
   "cultural_notes": [
-    "Dans la région guinéenne du Sankaran, l'orientation utilise des points de repère humains et topographiques plutôt que des noms de rues officiels. On se repère grâce aux grands arbres (comme les fromagers ou les manguiers), aux bâtiments communautaires ou aux carrefours.",
-    "Bénir la personne qui vous renseigne ('Ala k'e sara') est une règle de savoir-vivre essentielle. Cela renforce la cordialité et valide socialement l'aide apportée à l'étranger."
+    "Les distances entre grandes villes de Haute-Guinée (Kankan, Faranah, Dabola) sont souvent données de mémoire par les habitants et servent de repères culturels partagés ([Malinkuia](https://fr.scribd.com/document/499114939/Malinkuia)).",
+    "Le transport en commun (camions, taxis-brousse) reste le moyen principal de déplacement entre villages et villes ; les échanges sur les routes et les distances font partie du quotidien.",
+    "Note dialectale (Sankaran) : cette leçon présente le maninka du Sankaran, parlé traditionnellement dans la région historique du Sankaran, aujourd'hui la préfecture et région de Faranah (Haute-Guinée), berceau historique du clan Condé et zone antérieure au Mandén selon la tradition orale. Le sankaran (ISO 639-3 msc) est très proche du malinké/maninka standard de Kankan, avec lequel il est mutuellement intelligible ; les mots et structures de cette leçon reflètent ce fonds commun du maninka de l'Est, complété par les spécificités phonologiques et grammaticales du parler de Faranah documentées par Spears (voir sources)."
   ],
   "exercises": [
     {
-      "exercise_id": "ex7_1",
-      "type": "multiple_choice",
-      "question": "Que signifie exactement l'instruction routière suivante : 'Wa telenten.' ?",
-      "options": [
-        "Tourne immédiatement à gauche.",
-        "Va tout droit.",
-        "Prends le transport en commun."
-      ],
-      "correct_answer": "Va tout droit.",
-      "explanation": "'Telenten' désigne la trajectoire droite, directe et rectiligne."
+      "exercise_id": "e1",
+      "type": "traduction",
+      "question": "Traduisez : 'Où vas-tu ?'",
+      "correct_answer": "I wato min ?",
+      "explanation": "'min' (où) se place en fin de phrase en malinké."
     },
     {
-      "exercise_id": "ex7_2",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Pour situer un élément sur le côté gauche, on dit : [ ___ ] bolo fɛ.",
-      "correct_answer": "numan",
-      "hint": "C'est l'adjectif pour 'gauche' qui commence par 'n' et s'oppose à 'kinin'."
+      "exercise_id": "e2",
+      "type": "choix_multiple",
+      "question": "Que signifie 'kèrèfè' ?",
+      "options": [
+        "derrière",
+        "devant",
+        "à côté de",
+        "loin de"
+      ],
+      "correct_answer": "à côté de",
+      "explanation": "'kèrèfè' est la postposition qui signifie 'à côté de'."
+    },
+    {
+      "exercise_id": "e3",
+      "type": "texte_a_trous",
+      "sentence_with_blank": "Jon nye ___ ?  (Qui est devant ?)",
+      "correct_answer": "nyèfè",
+      "hint": "C'est la postposition qui signifie 'devant'."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Ethnologue — Maninka, Sankaran [msc]",
+      "url": "https://www.ethnologue.com/language/msc/"
+    },
+    {
+      "label": "Glottolog 5.3 — Sankaran Maninka [sank1253]",
+      "url": "https://glottolog.org/resource/languoid/id/sank1253"
+    },
+    {
+      "label": "Wikipédia — Sankaran (langue, msc)",
+      "url": "https://fr.wikipedia.org/wiki/Sankaran"
+    },
+    {
+      "label": "Spears, R. A. — The Structure of Faranah-Maninka (Indiana University, description structurale du parler de Faranah, historiquement le Sankaran)",
+      "url": "https://theswissbay.ch/pdf/Books/Linguistics/Mega%20linguistics%20pack/African/Niger-Congo/Mande/Maninka,%20The%20Structure%20of%20Faranah-%20(Spears).pdf"
+    },
+    {
+      "label": "Malinkuia — Introduction à la langue malinké (variété du Wulada, Haute-Guinée)",
+      "url": "https://fr.scribd.com/document/499114939/Malinkuia"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Aucune source lexicale ou grammaticale dédiée et indépendante n'a été trouvée pour cette leçon spécifiquement en sankaran : le contenu reprend le fonds commun du maninka/malinké de Haute-Guinée (vérifié pour le malinké standard), dont la proximité avec le sankaran est confirmée par les classifications Ethnologue/Glottolog/Vydrin, mais sans confirmation lexème par lexème pour ce dialecte précis. Confiance donc revue à la baisse par rapport à une attestation directe."
 }

@@ -1,150 +1,186 @@
 {
-  "lesson_id": "C2_M3_L8",
+  "lesson_id": "C1_M3_L8",
   "level": "Avancé (C1-C2)",
   "module_number": 3,
   "module_title": "Maîtrise totale",
   "lesson_number": 8,
   "title": "Le lexique technique, professionnel et spécialisé",
   "learning_objectives": [
-    "Manipuler le vocabulaire spécialisé de la métallurgie traditionnelle et de l'artisanat",
-    "Exprimer les concepts complexes de la gestion foncière, de l'écologie et de la faune",
-    "Utiliser les néologismes techniques intégrés dans le système de classes de l'Oniyan"
+    "Comprendre les procédés de dérivation verbale disponibles pour former du vocabulaire spécialisé",
+    "Utiliser les suffixes dérivationnels attestés (causatif, réciproque, etc. selon la grammaire SIL)",
+    "Reconnaître l'absence quasi totale de terminologie technique moderne dans les sources disponibles"
   ],
   "phonetic_focus": {
-    "key_sounds": "Le lexique technique fait intervenir des consonnes complexes. Le terme désignant le fer ou la forge, 'kədɨ̂w', requiert la prononciation exacte de la voyelle centrale fermée non arrondie /ɨ/ frappée d'un ton modulé descendant.",
-    "common_pitfalls": "Attention à ne pas assimiler le /ɨ/ technique au /i/ ordinaire. Une erreur d'articulation confondrait l'outil métallique avec un mot du registre familier, ruinant la précision professionnelle de l'échange.",
-    "vocabulary": [
-      {
-        "word_id": "v105",
-        "term": "kədɨ̂w",
-        "phonetic_api": "/kəɟɨ̂w/",
-        "phonetic_simple": "KE-DYIW",
-        "translation": "le fer / l'outil métallique / l'art de la forge",
-        "example_sentence": "Məɟwɛ̂ kədɨ̂w fə́ siki.",
-        "example_phonetic": "/məɟwɛ̂ kəɟɨ̂w fə́ siki/",
-        "example_translation": "Je travaille le fer au sein de la forge du village."
-      },
-      {
-        "word_id": "v106",
-        "term": "fəlã́ñ fə́ siki",
-        "phonetic_api": "/fəlã́ɲ fə́ siki/",
-        "phonetic_simple": "FE-LANY FE SI-KI",
-        "translation": "le domaine foncier communautaire / le territoire du clan",
-        "example_sentence": "Fəlã́ñ fə́ siki oŋ oŋ dyɛ́ɛ̀.",
-        "example_phonetic": "/fəlã́ɲ fə́ siki oŋ oŋ ɟɛ́ː/",
-        "example_translation": "Le domaine foncier de notre communauté est immense."
-      },
-      {
-        "word_id": "v107",
-        "term": "gəkɔ́ñ fəlã́ñ",
-        "phonetic_api": "/gəkɔ́ɲ fəlã́ɲ/",
-        "phonetic_simple": "GE-KONY FE-LANY",
-        "translation": "l'arbitrage foncier / la délimitation légale des terres",
-        "example_sentence": "Aɓəliyan aŋ oŋ ɟwɛ̂ gəkɔ́ñ fəlã́ñ.",
-        "example_phonetic": "/aɓəljan aŋ oŋ ɟwɛ̂ ɡəkɔ́ɲ fəlã́ɲ/",
-        "example_translation": "Les sages procèdent actuellement à l'arbitrage foncier des terres."
-      },
-      {
-        "word_id": "v108",
-        "term": "ləbəlã fə́ gəbɛ́ñ",
-        "phonetic_api": "/ləɓəlã fə́ ɡəɓɛ́ɲ/",
-        "phonetic_simple": "LE-BHE-LAN FE GE-BHENY",
-        "translation": "l'agronomie / la science des semences et des cycles agricoles",
-        "example_sentence": "Məgaw bɛ̀ɛ̀ ləbəlã fə́ gəbɛ́ñ.",
-        "example_phonetic": "/məɡaw bɛ̀ː ləɓəlã fə́ ɡəɓɛ́ɲ/",
-        "example_translation": "Je maîtrise parfaitement la science des cycles agricoles de notre terre."
-      }
-    ],
-    "common_phrases": [
-      {
-        "phrase_id": "p193",
-        "original": "Anee ləɟɛ́ɛ́ kədɨ̂w kɔ̂ fə́ eyá̰?",
-        "phonetic_api": "/aneː ləɟɛ́ː kəɟɨ̂w kɔ̂ fə́ ejá̰/",
-        "phonetic_simple": "A-NEE LE-DYEE KE-DYIW KO FE E-YANG",
-        "translation": "À combien s'élève le prix de cet outil en fer forgé sur le marché ?",
-        "context": "Évaluer la valeur d'une pièce artisanale technique."
-      },
-      {
-        "phrase_id": "p194",
-        "original": "Aɓəliyan aŋ oŋ nɛ̂ gəkɔ́ñ fəlã́ñ pəwá̰.",
-        "phonetic_api": "/aɓəljan aŋ oŋ nɛ̂ ɡəkɔ́ɲ fəlã́ɲ pəwá̰/",
-        "phonetic_simple": "A-BHE-LI-YAN ANG ONG NE GE-KONY FE-LANY PE-WANG",
-        "translation": "Les anciens rendront leur arbitrage foncier dès demain matin.",
-        "context": "Annoncer une décision officielle relative à la propriété des terres."
-      },
-      {
-        "phrase_id": "p195",
-        "original": "Məbəgá kəɟwɛ̂ ləbəlã fə́ gəbɛ́ñ bɛ̀ɛ̀.",
-        "phonetic_api": "/məɓəɡá kəɟwɛ̂ ləɓəlã fə́ ɡəɓɛ́ñ bɛ̀ː/",
-        "phonetic_simple": "ME-BHE-GA KE-DYWE LE-BHE-LAN FE GE-BHENY BEE",
-        "translation": "Je souhaite optimiser l'usage de nos semences pour les récoltes à venir.",
-        "context": "Formuler un projet technique agricole de niveau avancé."
-      },
-      {
-        "phrase_id": "p196",
-        "original": "Ká ɓax fəlã́ñ fə́ siki, oŋ oŋ gəfá̰á̰.",
-        "phonetic_api": "/ká ɓax fəlã́ɲ fə́ siki oŋ oŋ ɡəfáː/",
-        "phonetic_simple": "KA BHAKH FE-LANY FE SI-KI, ONG ONG GE-FAANG",
-        "translation": "Ne内 enfreignez jamais les frontières de notre domaine foncier, c'est une loi absolue.",
-        "context": "Poser une interdiction formelle lors d'une délimitation de territoire."
-      }
-    ],
-    "grammar_points": [
-      {
-        "concept": "La composition lexicale spécialisée et les syntagmes de spécification",
-        "explanation": "Le domaine technique en Oniyan n'emprunte que très peu de termes extérieurs. Il procède par composition nominale interne en associant un nom générique de classe (ex: 'fəlã́ñ', la terre) à un complément de spécification introduit par la préposition de propriété 'fə́'. Le terme résultant est régi par la classe nominale du premier substantif.",
-        "rules": [
-          "Le premier substantif impose ses accords de classe à l'ensemble du syntagme technique.",
-          "Les notions abstraites professionnelles se construisent à partir de l'infinitif nominalisé précédé du morphème de maîtrise."
-        ],
-        "examples": [
-          {
-            "structure": "[Nom recteur] + fə́ + [Substantif de spécialité]",
-            "phonetic_api": "/ləɓəlã fə́ ɡəɓɛ́ñ/",
-            "meaning": "La science agronomique / la gestion fine des cultures"
-          }
-        ]
-      }
-    ],
-    "dialogue": [
-      {
-        "speaker": "Le forgeron",
-        "text": "Anee kədɨ̂w bə̂ oŋ nɛ̂ problème ? Məbəgá kəɟwɛ̂ kɔ̂ fə́ kəwá̰ mɔ.",
-        "phonetic_api": "/aneː kəɟɨ̂w ɓə̂ oŋ nɛ̂ problème məɓəɡá kəɟwɛ̂ kɔ̂ fə́ kəwá̰ mɔ/",
-        "phonetic_simple": "A-NEE KE-DYIW BHE ONG NE PRO-BLE-ME ? ME-BHE-GA KE-DYWE KO FE KE-WANG MO",
-        "translation": "Est-ce que ton outil en fer forgé présente un défaut ? Je me propose de le retravailler au sein de mon atelier."
-      },
-      {
-        "speaker": "Le cultivateur",
-        "text": "Nyarancaa. Məbəgá kəɟwɛ̂ ləbəlã fə́ gəbɛ́ñ, kɔ̂ɔ̂ŋ məbəgá kədɨ̂w bɛ̀ɛ̀ fə́ fəlã́ñ mɔ.",
-        "phonetic_api": "/ɲarant͡ʃaː məɓəɡá kəɟwɛ̂ ləɓəlã fə́ ɡəɓɛ́ñ kɔ̂ːŋ məɓəɡá kəɟɨ̂w bɛ̀ː fə́ fəlã́ɲ mɔ/",
-        "phonetic_simple": "NYA-RAN-TCHAA. ME-BHE-GA KE-DYWE LE-BHE-LAN FE GE-BHENY, KOONG ME-BHE-GA KE-DYIW BEE FE FE-LANY MO",
-        "translation": "Merci. Je mets en œuvre nos connaissances agronomiques, par conséquent j'ai un impératif besoin d'un excellent outillage métallique pour cultiver mon domaine foncier."
-      }
-    ],
-    "cultural_notes": [
-      "Dans la société traditionnelle des Bəliyan, les artisans métallurgistes detiennent un statut à part, hautement respecté et craint. La manipulation du fer ('kədɨ̂w') est perçue comme la transformation d'un élément naturel sacré par le feu. De même, la gestion du patrimoine foncier ('fəlã́ñ fə́ siki') fait l'objet de lois coutumières extrêmement précises gérées par un chef de la terre unique."
-    ],
-    "exercises": [
-      {
-        "exercise_id": "ex51",
-        "type": "multiple_choice",
-        "question": "Quel terme technique Oniyan désigne spécifiquement le fer ou l'outil de forge ?",
-        "options": [
-          "f fəwã́ñ",
-          "kədɨ̂w",
-          "ləbəlã"
-        ],
-        "correct_answer": "kədɨ̂w",
-        "explanation": "'kədɨ̂w' renvoie de façon exclusive au matériau ferreux et à l'outillage forgé indispensable aux artisans."
-      },
-      {
-        "exercise_id": "ex52",
-        "type": "fill_in_the_blanks",
-        "sentence_with_blank": "Aɓəliyan aŋ oŋ ɟwɛ̂ [ ___ ] (Les anciens valident la délimitation et l'arbitrage des terres).",
-        "correct_answer": "gəkɔ́ñ fəlã́ñ",
-        "hint": "Le syntagme composé signifiant mot à mot l'achat ou le règlement juridique du domaine foncier."
-      }
-    ]
-  }
+    "key_sounds": "Les suffixes de dérivation verbale s'ajoutent directement au radical sans voyelle de liaison dans la plupart des cas attestés ; il faut donc bien enchaîner radical et suffixe sans marquer de pause.",
+    "common_pitfalls": "Il est tentant de forger un néologisme technique en combinant des racines oniyan existantes (comme on le ferait en français avec des racines grecques/latines) ; ce procédé n'étant attesté nulle part dans les sources, toute création de ce type doit être clairement présentée comme hypothétique et non comme un terme réel."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "gan",
+      "phonetic_api": "/gan/",
+      "phonetic_simple": "GAN",
+      "translation": "marcher, aller (radical de base pour illustrer la dérivation)",
+      "example_sentence": "Ganël!",
+      "example_phonetic": "/ganəl/",
+      "example_translation": "Marche !"
+    },
+    {
+      "word_id": "v2",
+      "term": "suffixes de dérivation verbale",
+      "phonetic_api": "—",
+      "phonetic_simple": "—",
+      "translation": "morphèmes modifiant le sens/la valence du verbe (catégorie décrite dans la grammaire SIL, formes précises non détaillées ici par prudence)",
+      "example_sentence": "—",
+      "example_phonetic": "—",
+      "example_translation": "La grammaire SIL mentionne l'existence de suffixes dérivationnels verbaux sans que toutes leurs formes précises aient pu être extraites de façon fiable dans le cadre de cette recherche."
+    },
+    {
+      "word_id": "vx12",
+      "term": "axam",
+      "phonetic_api": "/axam/",
+      "phonetic_simple": "A-HAM",
+      "translation": "pouvoir (verbe modal)",
+      "example_sentence": "axam",
+      "example_phonetic": "/axam/",
+      "example_translation": "pouvoir."
+    },
+    {
+      "word_id": "vx10",
+      "term": "anang",
+      "phonetic_api": "/anaŋ/",
+      "phonetic_simple": "A-NANG",
+      "translation": "savoir, connaître (verbe)",
+      "example_sentence": "anang",
+      "example_phonetic": "/anaŋ/",
+      "example_translation": "savoir, connaître."
+    },
+    {
+      "word_id": "vx22",
+      "term": "kamara",
+      "phonetic_api": "/kamara/",
+      "phonetic_simple": "KA-MA-RA",
+      "translation": "chasseur",
+      "example_sentence": "kamara",
+      "example_phonetic": "/kamara/",
+      "example_translation": "chasseur."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Iyo.",
+      "phonetic_api": "/ijo/",
+      "phonetic_simple": "I-YO",
+      "translation": "Oui.",
+      "context": "Réponse affirmative générale, réutilisable dans toute conversation."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "O-oye.",
+      "phonetic_api": "/o.oje/",
+      "phonetic_simple": "O-O-YÉ",
+      "translation": "Non.",
+      "context": "Réponse négative générale, réutilisable dans toute conversation."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Awa.",
+      "phonetic_api": "/awa/",
+      "phonetic_simple": "A-OUA",
+      "translation": "D'accord / Bien.",
+      "context": "Marque d'accord ou de validation, utile pour conclure un échange."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Sel ke.",
+      "phonetic_api": "/sel ke/",
+      "phonetic_simple": "SÈL KÉ",
+      "translation": "J'ai soif.",
+      "context": "Expression attestée d'un besoin immédiat, réutilisable comme illustration de phrase courte."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Dérivation verbale comme source potentielle de lexique spécialisé",
+      "explanation": "La grammaire SIL de Winters & Winters (2004) consacre une section aux suffixes de dérivation verbale (modifiant par exemple la valence ou l'orientation de l'action), un procédé morphologique qui pourrait en principe servir de base à la formation de vocabulaire spécialisé moderne, comme cela se produit dans d'autres langues par dérivation régulière. Cependant, aucun terme technique, professionnel ou spécialisé moderne réellement attesté n'a été trouvé dans les sources disponibles.",
+      "rules": [
+        "Les suffixes dérivationnels s'attachent directement au radical verbal.",
+        "Aucune règle de composition nominale spécifique à la terminologie technique n'a pu être vérifiée de façon fiable dans les sources disponibles."
+      ],
+      "examples": [
+        {
+          "structure": "gan (radical de base)",
+          "phonetic_api": "/gan/",
+          "meaning": "marcher, aller — exemple de radical pouvant en principe recevoir des suffixes dérivationnels, sans qu'aucune forme dérivée technique réelle ne soit attestée dans les sources"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Étudiant",
+      "text": "Ganël?",
+      "phonetic_api": "/ganəl/",
+      "phonetic_simple": "GA-NËL ?",
+      "translation": "Marche ? (radical de base pour discuter de la dérivation, exemple didactique)"
+    },
+    {
+      "speaker": "Locuteur A",
+      "text": "Awa?",
+      "phonetic_api": "/awa/",
+      "phonetic_simple": "A-OUA ?",
+      "translation": "D'accord ?"
+    },
+    {
+      "speaker": "Locuteur B",
+      "text": "Iyo, awa.",
+      "phonetic_api": "/ijo awa/",
+      "phonetic_simple": "I-YO, A-OUA",
+      "translation": "Oui, d'accord."
+    },
+    {
+      "speaker": "Locuteur A",
+      "text": "Iyo.",
+      "phonetic_api": "/ijo/",
+      "phonetic_simple": "I-YO",
+      "translation": "Oui."
+    }
+  ],
+  "cultural_notes": [
+    "Comme la plupart des langues très peu documentées et non standardisées pour un usage administratif ou scientifique moderne, l'oniyan ne dispose pas, dans les sources disponibles, de terminologie technique, juridique ou professionnelle contemporaine (informatique, médecine, droit, ingénierie) ; les emprunts au français ou au peul sont probables dans l'usage réel mais n'ont pas pu être vérifiés ici."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Quelle affirmation est correcte concernant le lexique technique moderne en oniyan d'après les sources disponibles ?",
+      "options": [
+        "Il est quasiment absent de la documentation disponible",
+        "Il est entièrement documenté dans la grammaire SIL",
+        "Il a été standardisé par l'UNESCO"
+      ],
+      "correct_answer": "Il est quasiment absent de la documentation disponible",
+      "explanation": "Aucune terminologie technique, professionnelle ou spécialisée moderne n'a été trouvée dans les sources consultées."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "La grammaire SIL mentionne des suffixes de ___ verbale, base théorique possible pour un futur lexique spécialisé.",
+      "correct_answer": "dérivation",
+      "hint": "Procédé morphologique modifiant le sens ou la valence d'un verbe."
+    }
+  ],
+  "sources": [
+    {
+      "label": "SIL — A Grammar of Oniyan (Winters & Winters, 2004)",
+      "url": "https://www.sil.org/system/files/reapdata/18/63/15/1863153183176772870767650622005357320/BSC_Oniyan_grammar_En_2004.pdf"
+    },
+    {
+      "label": "Ferry, M.-P. (1991) — Thesaurus tenda (référence bibliographique, non consulté en texte intégral)",
+      "url": "https://senelangues.huma-num.fr/pdf/BiblAtl.pdf"
+    }
+  ],
+  "confidence": "faible",
+  "confidence_note": "Aucun terme technique, professionnel ou spécialisé moderne (informatique, médecine, droit, ingénierie, administration) n'a été trouvé dans les sources disponibles pour l'oniyan. Cette leçon documente honnêtement cette lacune majeure plutôt que d'inventer une terminologie de toutes pièces ; seule l'existence générale de suffixes de dérivation verbale (sans détail de forme fiable) est mentionnée comme piste théorique. La référence bibliographique au Thesaurus tenda de Ferry (1991) est ajoutée pour signaler la ressource la plus susceptible de documenter un futur lexique spécialisé, bien qu'elle n'ait pas pu être consultée en texte intégral ici."
 }

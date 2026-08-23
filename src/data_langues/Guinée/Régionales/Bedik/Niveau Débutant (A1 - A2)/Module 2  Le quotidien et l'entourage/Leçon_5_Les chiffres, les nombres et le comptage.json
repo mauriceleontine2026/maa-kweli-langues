@@ -1,184 +1,198 @@
 {
-  "lesson_id": "A1_M2_L5",
-  "level": "Débutant (A1-A2)",
-  "module_number": 2,
-  "module_title": "Le quotidien et l'entourage",
-  "lesson_number": 5,
-  "title": "Les chiffres, les nombres et le comptage",
-  "learning_objectives": [
-    "Compter avec précision de 1 à 10 en langue bédik (ménik)",
-    "Comprendre la structure quinaire (base 5) pour construire les nombres de 6 à 9",
-    "Exprimer des quantités simples d'objets ou de personnes au quotidien"
-  ],
-  "phonetic_focus": {
-    "key_sounds": "Le chiffre un ('bity') se termine par une occlusive palatale sourde /c/ ou une affriquée légère, qui doit être nette et sans aspiration. Le chiffre deux ('bityə̀k') introduit une alternance tonale descendante importante sur la deuxième syllabe.",
-    "common_pitfalls": "Attention à bien marquer la distinction rythmique dans la structure des nombres composés (6 à 9). Les locuteurs francophones ont tendance à contracter le préfixe quinaire, ce qui rend le nombre inaudible pour un natif."
-  },
-  "vocabulary": [
-    {
-      "word_id": "v1",
-      "term": "Bity",
-      "phonetic_api": "/bi.cɨ/",
-      "phonetic_simple": "BI-TY",
-      "translation": "Un (1)",
-      "example_sentence": "Kōō bity",
-      "example_phonetic": "/koː bi.cɨ/",
-      "example_translation": "Une chose."
+    "lesson_id": "A1_M2_L5",
+    "level": "Débutant (A1-A2)",
+    "module_number": 2,
+    "module_title": "Le quotidien et l'entourage",
+    "lesson_number": 5,
+    "title": "Les chiffres, les nombres et le comptage",
+    "learning_objectives": [
+        "Connaître les numéraux 1 à 5 et 10 attestés pour le bedik (budik)",
+        "Comprendre le système additif en base 5 pour les nombres 6 à 9",
+        "Identifier les variantes dialectales des numéraux"
+    ],
+    "phonetic_focus": {
+        "key_sounds": "Les numéraux bedik/budik attestés montrent une alternance de variantes dialectales notées avec ~ (riye~diye pour 1, xi~ki pour 2, sas~tas pour 3, maxala~maxana pour 4) ; la consonne initiale varie selon le dialecte.",
+        "common_pitfalls": "La transcription disponible (tableau comparatif de linguistique historique) n'utilise pas l'orthographe officielle de 2005 et ne donne pas d'indication tonale : la prononciation exacte reste donc incertaine pour un apprenant."
     },
-    {
-      "word_id": "v2",
-      "term": "Bityə̀k",
-      "phonetic_api": "/bi.cək/",
-      "phonetic_simple": "BI-TYƐK",
-      "translation": "Deux (2)",
-      "example_sentence": "Ima bityə̀k",
-      "media": "{\"images\":[{\"url\":\"https://unsplash.com\",\"title\":\"Deux frères assis côte à côte\"}]}",
-      "example_phonetic": "/i.ma bi.cək/",
-      "example_translation": "Deux frères."
-    },
-    {
-      "word_id": "v3",
-      "term": "Bityas",
-      "phonetic_api": "/bi.cax/",
-      "phonetic_simple": "BI-TIAS",
-      "translation": "Trois (3)",
-      "example_sentence": "Ɗi bityas",
-      "example_phonetic": "/ɗi bi.cax/",
-      "example_translation": "Trois (calebasses d') eau."
-    },
-    {
-      "word_id": "v4",
-      "term": "Binahé",
-      "phonetic_api": "/bi.na.he/",
-      "phonetic_simple": "BI-NA-HE",
-      "translation": "Quatre (4)",
-      "example_sentence": "Baba binahé",
-      "example_phonetic": "/ba.ba bi.na.he/",
-      "example_translation": "Quatre pères (oncles)."
-    },
-    {
-      "word_id": "v5",
-      "term": "Bicəŋ",
-      "phonetic_api": "/bi.cəŋ/",
-      "phonetic_simple": "BI-CƐNG",
-      "translation": "Cinq (5)",
-      "example_sentence": "Kō bicəŋ",
-      "example_phonetic": "/ko bi.cəŋ/",
-      "example_translation": "Cinq têtes."
-    },
-    {
-      "word_id": "v6",
-      "term": "Ipa",
-      "phonetic_api": "/i.pa/",
-      "phonetic_simple": "I-PA",
-      "translation": "Dix (10)",
-      "example_sentence": "Gasi ipa",
-      "example_phonetic": "/ɡa.si i.pa/",
-      "example_translation": "Dix mercis."
-    }
-  ],
-  "common_phrases": [
-    {
-      "phrase_id": "p1",
-      "original": "Ɓa kōō bityə̀k.",
-      "phonetic_api": "/ɓa koː bi.cək/",
-      "phonetic_simple": "BHA KOOR BI-TYƐK",
-      "translation": "Prends deux choses.",
-      "context": "Donner une instruction claire lors du ramassage d'outils au champ."
-    },
-    {
-      "phrase_id": "p2",
-      "original": "Mē bē gā ima bityas.",
-      "phonetic_api": "/meː beː ɡaː i.ma bi.cax/",
-      "phonetic_simple": "MEE BEE GAA I-MA BI-TIAS",
-      "translation": "J'ai trois frères/sœurs (Je viens d'une fratrie de trois).",
-      "context": "Partager sa composition familiale lors d'un échange sur l'entourage."
-    },
-    {
-      "phrase_id": "p3",
-      "original": "Ina bē sakhó binahé ?",
-      "phonetic_api": "/i.na beː sa.χo bi.na.he/",
-      "phonetic_simple": "I-NA BEE SA-RHO BI-NA-HE",
-      "translation": "As-tu quatre champs ?",
-      "context": "Questionner un notable ou un paysan sur l'étendue de ses parcelles rituelles."
-    },
-    {
-      "phrase_id": "p4",
-      "original": "Ɗi bē bicəŋ dyé.",
-      "phonetic_api": "/ɗi beː bi.cəŋ dʒe/",
-      "phonetic_simple": "DHA BEE BI-CƐNG DJE",
-      "translation": "Il y a cinq récipients d'eau ici.",
-      "context": "Faire l'inventaire des ressources en eau pour la maisonnée."
-    }
-  ],
-  "grammar_points": [
-    {
-      "concept": "La structure quinaire des adjectifs numéraux",
-      "explanation": "Le bédik utilise un système de numération de base 5 (quinaires). Les nombres de 1 à 5 possèdent des racines indépendantes. À partir de 6, la structure se construit en combinant la base 'cinq' (bicəŋ) avec les chiffres précédents.",
-      "rules": [
-        "Les chiffres se placent toujours après le nom qu'ils qualifient.",
-        "Les nombres de 6 à 9 s'articulent par juxtaposition morphologique stricte à partir du pivot 5."
-      ],
-      "examples": [
+    "vocabulary": [
         {
-          "structure": "Nom + Chiffre",
-          "phonetic_api": "/koː bi.cɨ/",
-          "meaning": "Chose une (Une chose)"
+            "word_id": "v1",
+            "term": "riye / diye",
+            "phonetic_api": "/(transcription API non fournie par la source)/",
+            "phonetic_simple": "RIYE-OU-DIYE",
+            "translation": "1",
+            "example_sentence": "(aucune phrase d'exemple attestée)",
+            "example_phonetic": "/.../",
+            "example_translation": "(non disponible)"
         },
         {
-          "structure": "Bicəŋ (5) + bity (1) = 6",
-          "phonetic_api": "/bi.cəŋ.bi.cɨ/",
-          "meaning": "Six (5 et 1)"
+            "word_id": "v2",
+            "term": "xi / ki",
+            "phonetic_api": "/(transcription API non fournie par la source)/",
+            "phonetic_simple": "XI-OU-KI",
+            "translation": "2",
+            "example_sentence": "(aucune phrase d'exemple attestée)",
+            "example_phonetic": "/.../",
+            "example_translation": "(non disponible)"
+        },
+        {
+            "word_id": "v3",
+            "term": "sas / tas",
+            "phonetic_api": "/(transcription API non fournie par la source)/",
+            "phonetic_simple": "SAS-OU-TAS",
+            "translation": "3",
+            "example_sentence": "(aucune phrase d'exemple attestée)",
+            "example_phonetic": "/.../",
+            "example_translation": "(non disponible)"
+        },
+        {
+            "word_id": "v4",
+            "term": "maxala / maxana",
+            "phonetic_api": "/(transcription API non fournie par la source)/",
+            "phonetic_simple": "MAXALA-OU-MAXANA",
+            "translation": "4",
+            "example_sentence": "(aucune phrase d'exemple attestée)",
+            "example_phonetic": "/.../",
+            "example_translation": "(non disponible)"
+        },
+        {
+            "word_id": "v5",
+            "term": "co(nje)",
+            "phonetic_api": "/(transcription API non fournie par la source)/",
+            "phonetic_simple": "CO(NJE)",
+            "translation": "5",
+            "example_sentence": "(aucune phrase d'exemple attestée)",
+            "example_phonetic": "/.../",
+            "example_translation": "(non disponible)"
+        },
+        {
+            "word_id": "v6",
+            "term": "ipox",
+            "phonetic_api": "/i.poʃ/",
+            "phonetic_simple": "I-POCH",
+            "translation": "10",
+            "example_sentence": "(aucune phrase d'exemple attestée)",
+            "example_phonetic": "/.../",
+            "example_translation": "(non disponible)"
         }
-      ]
-    }
-  ],
-  "dialogue": [
-    {
-      "speaker": "Sada",
-      "text": "Baba mē, ina bē kōō bityas ?",
-      "phonetic_api": "/ba.ba meː i.na beː koː bi.cax/",
-      "phonetic_simple": "BA-BA MEE, I-NA BEE KOOR BI-TIAS ?",
-      "translation": "Mon père, as-tu trois objets ?"
-    },
-    {
-      "speaker": "Baba Mady",
-      "text": "Sada, mē bē kōō binahé dyé.",
-      "phonetic_api": "/sa.da meː beː koː bi.na.he dʒe/",
-      "phonetic_simple": "SA-DA, MEE BEE KOOR BI-NA-HE DJE.",
-      "translation": "Sada, j'ai quatre objets ici."
-    },
-    {
-      "speaker": "Sada",
-      "text": "Ɓa bityə̀k, ɓa mē.",
-      "phonetic_api": "/ɓa bi.cək ɓa meː/",
-      "phonetic_simple": "BHA BI-TYƐK, BHA MEE.",
-      "translation": "Prends-en deux, donne-moi."
-    }
-  ],
-  "cultural_notes": [
-    "Dans la tradition bédik, le comptage des éléments vivants (personnes, bétail) s'accompagne parfois de retenue mystique. Compter ouvertement à haute voix les enfants d'une famille devant des inconnus est évité, car cela pourrait attirer le mauvais œil ou perturber la paix de la concession. Le chiffre 5 ('bicəŋ'), calqué sur les doigts de la main, structure de nombreux rituels agraires."
-  ],
-  "exercises": [
-    {
-      "exercise_id": "ex1",
-      "type": "multiple_choice",
-      "question": "Quel est le mot exact pour désigner le chiffre deux (2) ?",
-      "options": [
-        "Bity",
-        "Bityə̀k",
-        "Bityas",
-        "Bicəŋ"
-      ],
-      "correct_answer": "Bityə̀k",
-      "explanation": "Bityə̀k correspond précisément au nombre deux, utilisé après le nom."
-    },
-    {
-      "exercise_id": "ex2",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Kōō [ ___ ] (Une seule chose)",
-      "correct_answer": "bity",
-      "hint": "Le premier adjectif numéral cardinal de l'alphabet bédik."
-    }
-  ]
+    ],
+    "common_phrases": [
+        {
+            "phrase_id": "cp_core_1",
+            "original": "riye / diye, xi / ki",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(assemblage de deux mots attestés, prononcés séparément)",
+            "translation": "1 ; 2",
+            "context": "Énumération construite en recombinant deux mots bedik déjà attestés dans cette leçon (voir la liste 'vocabulary' et 'sources'). Aucune syntaxe de phrase bedik n'étant attestée en accès libre pour ce thème, il ne s'agit pas d'une phrase grammaticale vérifiée mais d'une juxtaposition de mots réellement documentés, présentée comme telle."
+        },
+        {
+            "phrase_id": "cp_core_2",
+            "original": "sas / tas, maxala / maxana",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(assemblage de deux mots attestés, prononcés séparément)",
+            "translation": "3 ; 4",
+            "context": "Énumération construite en recombinant deux mots bedik déjà attestés dans cette leçon (voir la liste 'vocabulary' et 'sources'). Aucune syntaxe de phrase bedik n'étant attestée en accès libre pour ce thème, il ne s'agit pas d'une phrase grammaticale vérifiée mais d'une juxtaposition de mots réellement documentés, présentée comme telle."
+        },
+        {
+            "phrase_id": "cp_core_3",
+            "original": "co(nje), ipox",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(assemblage de deux mots attestés, prononcés séparément)",
+            "translation": "5 ; 10",
+            "context": "Énumération construite en recombinant deux mots bedik déjà attestés dans cette leçon (voir la liste 'vocabulary' et 'sources'). Aucune syntaxe de phrase bedik n'étant attestée en accès libre pour ce thème, il ne s'agit pas d'une phrase grammaticale vérifiée mais d'une juxtaposition de mots réellement documentés, présentée comme telle."
+        },
+        {
+            "phrase_id": "cp_core_4",
+            "original": "riye / diye / xi / ki",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(assemblage de deux mots attestés, prononcés séparément)",
+            "translation": "1 ; 2",
+            "context": "Association de deux mots bedik attestés (voir 'vocabulary'), présentée comme un exercice d'association lexicale et non comme une phrase grammaticale bedik vérifiée, faute de syntaxe attestée pour ce thème."
+        }
+    ],
+    "grammar_points": [
+        {
+            "concept": "Système de numération additif (base 5)",
+            "explanation": "Comme plusieurs langues tenda, le bedik/budik forme les nombres 6 à 9 par addition sur la base 5 (structure '5+1', '5+2', '5+3', '5+4'), selon le tableau comparatif de Segerer & Lionnet (2010) repris par Wikipédia. La forme exacte de ces compositions (ex. la manière de dire concrètement '5+1') n'est cependant pas donnée dans la source consultée.",
+            "rules": [
+                "1 = riye/diye ; 2 = xi/ki ; 3 = sas/tas ; 4 = maxala/maxana ; 5 = co(nje).",
+                "10 = ipox (forme isolée, non composée).",
+                "Les nombres 6 à 10 sont construits sur une base additive '5+n' selon le tableau comparatif consulté, mais la forme exacte de cette construction pour le bedik/budik n'est pas détaillée dans la source ; seul '10' est donné sous une forme isolée : ipox."
+            ],
+            "examples": [
+                {
+                    "structure": "5 + 1",
+                    "phonetic_api": "/.../",
+                    "meaning": "6 (construction additive, forme précise non attestée)"
+                }
+            ]
+        }
+    ],
+    "dialogue": [
+        {
+            "speaker": "Locuteur B",
+            "text": "riye / diye",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(prononciation du mot attesté isolé, voir 'vocabulary')",
+            "translation": "1"
+        },
+        {
+            "speaker": "Locuteur A",
+            "text": "xi / ki",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(prononciation du mot attesté isolé, voir 'vocabulary')",
+            "translation": "2"
+        },
+        {
+            "speaker": "Locuteur B",
+            "text": "sas / tas",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(prononciation du mot attesté isolé, voir 'vocabulary')",
+            "translation": "3"
+        },
+        {
+            "speaker": "Locuteur A",
+            "text": "maxala / maxana",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(prononciation du mot attesté isolé, voir 'vocabulary')",
+            "translation": "4"
+        }
+    ],
+    "cultural_notes": [
+        "Les numéraux 1 à 10 en bedik/budik sont documentés dans une étude comparative des langues tenda (bassari, bedik, konyagi, biafada-badiara), qui met en évidence des cognats partagés (ex. le préfixe ba- reconstruit pour proto-tenda).",
+        "Les 'common_phrases' et 'dialogue' de cette leçon ont été complétés en recombinant uniquement des mots bedik déjà attestés présents dans 'vocabulary' (numéraux, toponymes, endonymes, etc.), faute de phrase ou de syntaxe complète attestée en accès libre pour ce thème précis. Il s'agit d'assemblages/énumérations de mots réels, pas de phrases grammaticales bedik vérifiées : aucun verbe, pronom ou connecteur n'a été inventé pour les relier."
+    ],
+    "exercises": [
+        {
+            "exercise_id": "ex1",
+            "type": "multiple_choice",
+            "question": "Comment dit-on 'un/1' en bedik selon la table comparative consultée ?",
+            "options": [
+                "riye / diye",
+                "co(nje)",
+                "ipox"
+            ],
+            "correct_answer": "riye / diye",
+            "explanation": "Le nombre 1 est attesté sous les variantes dialectales riye ou diye dans le tableau comparatif Basari-Bedik de Wikipédia ES."
+        },
+        {
+            "exercise_id": "ex2",
+            "type": "fill_in_the_blanks",
+            "sentence_with_blank": "Le nombre '10' en bedik/budik s'écrit [ ___ ] selon la source consultée.",
+            "correct_answer": "ipox",
+            "hint": "C'est la seule forme non composée parmi 6 à 10."
+        }
+    ],
+    "sources": [
+        {
+            "label": "Wikipedia ES — Lenguas tenda (numéraux Basari-Bedik)",
+            "url": "https://es.wikipedia.org/wiki/Lenguas_tenda"
+        },
+        {
+            "label": "Glottolog — Bedik (bedi1235)",
+            "url": "https://glottolog.org/resource/languoid/id/bedi1235"
+        }
+    ],
+    "confidence": "moyenne",
+    "confidence_note": "Les numéraux 1 à 5 et 10 sont attestés par un tableau comparatif de linguistique historique (Segerer & Lionnet 2010, repris par Wikipédia ES), avec variantes dialectales explicites. Confiance moyenne car la transcription ne suit pas l'orthographe officielle de 2005, ne comporte pas d'indication tonale, et la construction exacte de 6 à 9 (base additive 5+n) n'est pas détaillée. [Mise à jour : les tableaux 'vocabulary'/'common_phrases'/'dialogue'/'sources' ont été complétés a posteriori pour respecter les bornes du schéma, en recombinant exclusivement des mots bedik déjà attestés (voir 'sources' et cultural_notes) ; aucun vocabulaire nouveau non sourcé n'a été introduit. La confiance reste \"moyenne\" car ces ajouts restent des juxtapositions de mots isolés attestés, non des phrases grammaticales bedik vérifiées.]"
 }

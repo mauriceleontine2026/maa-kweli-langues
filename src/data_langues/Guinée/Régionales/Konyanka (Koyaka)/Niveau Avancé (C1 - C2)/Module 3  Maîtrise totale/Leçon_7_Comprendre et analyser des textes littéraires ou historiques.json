@@ -6,156 +6,197 @@
   "lesson_number": 7,
   "title": "Comprendre et analyser des textes littéraires ou historiques",
   "learning_objectives": [
-    "Analyser la structure narrative des récits épiques et des chroniques historiques konyanka",
-    "Identifier les figures de style complexes comme les métaphores ancestrales et les allégories morales",
-    "Extraire et interpréter les concepts philosophiques profonds ancrés dans les textes d'archives orales"
+    "Analyser la structure narrative d'un conte traditionnel konianké authentique",
+    "Situer historiquement et géographiquement le peuple koniaké",
+    "Identifier les motifs récurrents de la tradition orale manding dans un texte konianké"
   ],
   "phonetic_focus": {
-    "key_sounds": "Le terme pour l'histoire ou la généalogie 'tarika' /ta.ri.ka/ exige une articulation précise de la vibrante battue. La prononciation du mot 'kalan-yiri' /ka.lã.ji.ri/ (axe d'analyse/support d'étude) combine une voyelle nasale ouverte et une semi-voyelle palatale fluide.",
-    "common_pitfalls": "Dans l'analyse littéraire à haute voix, veillez à ne pas confondre le ton haut de 'kán' (le cou/la voix/la langue) et le ton bas de 'kàn' (aimer), car les textes épiques jouent énormément sur ces homophones lexicaux pour créer des doubles sens."
+    "key_sounds": "L'analyse littéraire orale s'appuie sur la reconnaissance des formules d'ouverture ('an ka fɔ ko...') et de clôture d'un récit traditionnel, marquées par un ralenti du débit et un ton descendant final.",
+    "common_pitfalls": "Analyser un conte oral konianké comme un texte écrit figé, sans tenir compte des variations de performance (rythme, répétitions, chant inséré) propres à la tradition orale."
   },
   "vocabulary": [
     {
       "word_id": "v1",
-      "term": "Tarika",
-      "phonetic_api": "/ta.ri.ka/",
-      "phonetic_simple": "TA-RI-KA",
-      "translation": "Histoire / Chronique historique / Généalogie (issu de l'arabe tarikh)",
-      "example_sentence": "An badaa lu la tarika ka jan.",
-      "example_phonetic": "/ã ba.daː lu la ta.ri.ka ka d͡ʒã/",
-      "example_translation": "L'histoire de nos ancêtres est longue / ancienne."
+      "term": "maana",
+      "phonetic_api": "[maːna]",
+      "phonetic_simple": "ma-a-na",
+      "translation": "conte, récit traditionnel",
+      "example_sentence": "N bɛna maana kɛ.",
+      "example_phonetic": "[n bɛna maːna kɛ]",
+      "example_translation": "Je vais raconter un conte."
     },
     {
       "word_id": "v2",
-      "term": "Kuma-kolo",
-      "phonetic_api": "/ku.ma.ko.lo/",
-      "phonetic_simple": "KOU-MA-KO-LO",
-      "translation": "L'essence de la parole / Le sens profond d'un texte (litt. l'os de la parole)",
-      "example_sentence": "N'bɛ fɛ ka kuma-kolo nin bɔ kɛnɛma sisan.",
-      "example_phonetic": "/mbɛ fɛ ka ku.ma.ko.lo nĩ bɔ kɛ.nɛ.ma si.sã/",
-      "example_translation": "Je veux extraire et mettre en lumière l'essence de ce texte maintenant."
+      "term": "tariku / tarik",
+      "phonetic_api": "[tariku]",
+      "phonetic_simple": "ta-ri-kou",
+      "translation": "histoire (au sens événementiel, emprunt arabe répandu dans le continuum manding)",
+      "example_sentence": "N ka faso tariku ka bon.",
+      "example_phonetic": "[n ka faso tariku ka bɔn]",
+      "example_translation": "L'histoire de mon pays est grande/importante."
     },
     {
       "word_id": "v3",
-      "term": "Maana",
-      "phonetic_api": "/maː.na/",
-      "phonetic_simple": "MAA-NA",
-      "translation": "Récit épique / Geste historique chantée",
-      "example_sentence": "Dieli lu bɛ maana da la.",
-      "example_phonetic": "/di.e.li lu bɛ maː.na da la/",
-      "example_translation": "Les griots entonnent le récit épique."
+      "term": "kɔrɔɔma",
+      "phonetic_api": "[kɔrɔːma]",
+      "phonetic_simple": "ko-ro-o-ma",
+      "translation": "ancêtre, personne du passé",
+      "example_sentence": "An kɔrɔɔmaw tun bɛ sigi Konyan na.",
+      "example_phonetic": "[an kɔrɔːmaw tun bɛ siɡi konjan na]",
+      "example_translation": "Nos ancêtres habitaient dans le Konyan."
     },
     {
       "word_id": "v4",
-      "term": "Hakili-yiri",
-      "phonetic_api": "/ha.ki.li.ji.ri/",
-      "phonetic_simple": "HA-KI-LI-YI-RI",
-      "translation": "Philosophie / Sagesse conceptuelle (litt. l'arbre de l'esprit)",
-      "example_sentence": "Hakili-yiri bɛ mɔgɔbaxun lu la kuma kɔnɔ.",
-      "example_phonetic": "/ha.ki.li.ji.ri bɛ mɔ.ɡɔ.ba.xun lu la ku.ma kɔ.nɔ/",
-      "example_translation": "La sagesse philosophique réside dans le discours des anciens."
+      "term": "kalima kɔrɔ",
+      "phonetic_api": "[kalima kɔrɔ]",
+      "phonetic_simple": "ka-li-ma-ko-ro",
+      "translation": "sens (profond) d'un mot ou d'un texte",
+      "example_sentence": "Maana in kalima kɔrɔ ye mun ye?",
+      "example_phonetic": "[maːna in kalima kɔrɔ je mun je]",
+      "example_translation": "Quel est le sens profond de ce conte ?"
+    },
+    {
+      "word_id": "v5",
+      "term": "maana kɛ",
+      "phonetic_api": "[maːna kɛ]",
+      "phonetic_simple": "ma-a-na-kè",
+      "translation": "raconter un conte",
+      "example_sentence": "Karamoo bɛ maana kɛ karandenw ye.",
+      "example_phonetic": "[karamoː bɛ maːna kɛ karandɛnw je]",
+      "example_translation": "Le maître raconte un conte aux élèves."
     }
   ],
   "common_phrases": [
     {
       "phrase_id": "p1",
-      "original": "Maana nin bɛ an badaa lu la wajibiya ba lɔn.",
-      "phonetic_api": "/maː.na nĩ bɛ ã ba.daː lu la wa.d͡ʒi.bi.ja ba lɔ̃/",
-      "phonetic_simple": "MAA-NA NIN BÈ AN BA-DAA LOU LA WA-DJI-BI-YA BA LƆN",
-      "translation": "Ce récit épique nous fait comprendre le grand devoir de nos ancêtres.",
-      "context": "Formule d'analyse critique pour souligner la portée morale d'une chronique."
+      "original": "Maana in kalima kɔrɔ ye mun ye?",
+      "phonetic_api": "[maːna in kalima kɔrɔ je mun je]",
+      "phonetic_simple": "ma-a-na-in-ka-li-ma-ko-ro",
+      "translation": "Quel est le sens profond de ce conte ?",
+      "context": "Ouvrir une analyse littéraire d'un texte oral"
     },
     {
       "phrase_id": "p2",
-      "original": "An ka wajibiya ka tarika nin kuma-kolo bɔ kɛnɛma.",
-      "phonetic_api": "/ã ka wa.d͡ʒi.bi.ja ka ta.ri.ka nĩ ku.ma.ko.lo bɔ kɛ.nɛ.ma/",
-      "phonetic_simple": "AN KA WA-DJI-BI-YA KA TA-RI-KA NIN KOU-MA-KO-LO BƆ KÈ-NÈ-MA",
-      "translation": "Il est de notre devoir de mettre en lumière le sens profond de cette histoire.",
-      "context": "Exhortation lors d'un travail d'exégèse littéraire ou de recherche historique."
+      "original": "A kɔrɔɔmaw tun bɛ sigi Konyan na",
+      "phonetic_api": "[a kɔrɔːmaw tun bɛ siɡi konjan na]",
+      "phonetic_simple": "a-ko-ro-o-maw-toun-bè-si-gi-ko-nyan-na",
+      "translation": "Ses ancêtres habitaient dans le Konyan",
+      "context": "Situer historiquement un texte ou un personnage"
     },
     {
       "phrase_id": "p3",
-      "original": "Kuma fin tɛ yen, a bɛ gbe fɔ mɔgɔ o mɔgɔ ye.",
-      "phonetic_api": "/ku.ma fĩ tɛ jẽ a bɛ ɡ͡be fɔ mɔ.ɡɔ o mɔ.ɡɔ d͡ʒɛ/",
-      "phonetic_simple": "KOU-MA FIN TÈ YEN, A BÈ GBE FƆ MƆ-GƆ O MƆ-GƆ YÈ",
-      "translation": "Il n'y a pas de zone d'ombre dans ce texte, il est clair pour tout le monde.",
-      "context": "Constater la limpidité stylistique ou factuelle d'un document historique."
+      "original": "An kɔrɔɔmaw ka tariku ka bon",
+      "phonetic_api": "[an kɔrɔːmaw ka tariku ka bɔn]",
+      "phonetic_simple": "an-ko-ro-o-maw-ka-ta-ri-kou-ka-bon",
+      "translation": "L'histoire de nos ancêtres est importante",
+      "context": "Introduire une réflexion sur la transmission mémorielle"
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Maana kɛ ye kɔrɔɔmaw ka fɛn kura le ti",
+      "phonetic_api": "[maːna kɛ je kɔrɔːmaw ka fɛn kura le ti]",
+      "phonetic_simple": "ma-a-na-kè-yé-ko-ro-o-maw-ka-fèn-kou-ra-lé-ti",
+      "translation": "Raconter des contes est un héritage de nos ancêtres",
+      "context": "Souligner l'importance culturelle du conte traditionnel"
     }
   ],
   "grammar_points": [
     {
-      "concept": "Les noms composés métaphoriques d'analyse textuelle",
-      "explanation": "Pour désigner des outils d'analyse critique et littéraire, la langue konyanka avancée crée des termes complexes en combinant des structures anatomiques ('kolo' = os) ou végétales ('yiri' = arbre) au domaine abstrait de la parole ('kuma') ou de la pensée ('hakili').",
+      "concept": "Le passé habituel narratif avec 'tun bɛ' dans le récit historique",
+      "explanation": "Pour situer une réalité passée durable ou répétée dans un récit historique/littéraire (contrairement à un événement ponctuel), on utilise 'tun bɛ' + verbe, permettant de planter un décor avant l'action principale.",
       "rules": [
-        "Structure : Nom de domaine + Nom d'ancrage concret (ex: Kuma [parole] + Kolo [os] = Kuma-kolo [l'essence ou l'ossature d'un texte]).",
-        "Dans l'analyse littéraire, ces termes régissent des compléments introduits par la postposition de possession ou de lieu."
+        "tun bɛ + verbe = décor/situation durable dans le passé, typique de l'ouverture d'un récit"
       ],
       "examples": [
         {
-          "structure": "Maana kuma-kolo",
-          "phonetic_api": "/maː.na ku.ma.ko.lo/",
-          "meaning": "L'ossature / la structure logique du récit épique"
-        },
-        {
-          "structure": "Tarika lɔn-sila",
-          "phonetic_api": "/ta.ri.ka lɔ̃.si.la/",
-          "meaning": "La méthodologie de recherche historique (litt. le chemin du savoir de l'histoire)"
+          "structure": "an kɔrɔɔmaw tun bɛ sigi Konyan na",
+          "phonetic_api": "[an kɔrɔːmaw tun bɛ siɡi konjan na]",
+          "meaning": "nos ancêtres habitaient dans le Konyan (situation durable passée)"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Karamɔgɔ (L'Enseignant chercheur)",
-      "text": "Lamine, i ye maana nin kalan? Tarika juman le bɛ a kɔnɔ?",
-      "phonetic_api": "/la.mĩ i jɛ maː.na nĩ ka.lã ta.ri.ka d͡ʒu.mã le bɛ a kɔ.nɔ/",
-      "phonetic_simple": "KA-RA-MƆ-GƆ, I YÈ MAA-NA NIN KA-LAN ? TA-RI-KA DJOU-MAN LÉ BÈ A KƆ-NƆ ?",
-      "translation": "Lamine, as-tu étudié ce récit épique ? Quelle chronique historique renferme-t-il ?"
+      "speaker": "Étudiant",
+      "text": "Denmisɛnnin maana kalima kɔrɔ ye mun ye, i hakili la?",
+      "phonetic_api": "[dɛnmisɛnnin maːna kalima kɔrɔ je mun je i hakili la]",
+      "phonetic_simple": "dèn-mi-sèn-nin-ma-a-na",
+      "translation": "Quel est le sens profond du conte de l'enfant orphelin, à ton avis ?"
     },
     {
-      "speaker": "Lamine (Étudiant avancé)",
-      "text": "Hali n'karamɔgɔ, n'ye a kalan. A bɛ an badaa lu la badenya ni fadenya ko lu fɔ an ye.",
-      "phonetic_api": "/ha.li nka.ra.mɔ.ɡɔ ɲɛ a ka.lã a bɛ ã ba.daː lu la ba.dẽ.ja ni fa.dẽ.ja ko lu fɔ ã d͡ʒɛ/",
-      "phonetic_simple": "HA-LI N-KA-RA-MƆ-GƆ, N-YÈ A KA-LAN. A BÈ AN BA-DAA LOU LA BA-DEN-YA NI FA-DEN-YA KO LOU FƆ AN YÈ",
-      "translation": "Oui mon maître, je l'ai lu. Il nous expose les dynamiques de concorde et de rivalité de nos ancêtres."
+      "speaker": "Professeur",
+      "text": "A kalima kɔrɔ ye ko: ni i ma dɛmɛ orphelin, Ala bɛna a dɛmɛ.",
+      "phonetic_api": "[a kalima kɔrɔ je ko ni i ma dɛmɛ ɔrfelɛn ala bɛna a dɛmɛ]",
+      "phonetic_simple": "a-ka-li-ma-ko-ro-yé-ko",
+      "translation": "Son sens profond est : si tu n'aides pas l'orphelin, Dieu l'aidera."
     },
     {
-      "speaker": "Karamɔgɔ (L'Enseignant chercheur)",
-      "text": "Nyan le! I ye a la kuma-kolo bɔ kɛnɛma bɛrɛbɛrɛ? O la_di, mun wajibiyara an la sisan?",
-      "phonetic_api": "/ɲã le i jɛ a la ku.ma.ko.lo bɔ kɛ.nɛ.ma bɛ.rɛ.bɛ.rɛ o la.di mũ wa.d͡ʒi.bi.ja.ra ã la si.sã/",
-      "phonetic_simple": "NYAN LÉ ! I YÈ A LA KOU-MA-KO-LO BƆ KÈ-NÈ-MA BÈ-RÈ-BÈ-RÈ ? O LA-DI, MOUN WA-DJI-BI-YA-RA AN LA SI-SAN ?",
-      "translation": "Excellent ! As-tu parfaitement extrait la structure essentielle du texte ? Par conséquent, qu'est-ce qui s'impose à nous maintenant ?"
+      "speaker": "Étudiant",
+      "text": "A tinyɛ don, o maana bɛ kɛ tariku ti fanan.",
+      "phonetic_api": "[a tiɲɛ dɔn o maːna bɛ kɛ tariku ti fanan]",
+      "phonetic_simple": "a-ti-nyè-don",
+      "translation": "C'est vrai, ce conte constitue aussi une forme d'histoire (transmission mémorielle)."
     },
     {
-      "speaker": "Lamine (Étudiant avancé)",
-      "text": "Fɔ an ka hakili-yiri nin sɔn, katuguni a bɛ an la duguba lami kɛnɛma diya.",
-      "phonetic_api": "/fɔ ã ka ha.ki.li.ji.ri nĩ sɔ̃ ka.tu.ɡu.ni a bɛ ã la du.ɡu.ba la.mi kɛ.nɛ.ma di.ja/",
-      "phonetic_simple": "FƆ AN KA HA-KI-LI-YI-RI NIN SƆN, KA-TOU-GOU-NI A BÈ AN LA DOU-GOU-BA LA-MI KÈ-NÈ-MA DI-YA",
-      "translation": "Il nous faut impérativement adopter cette philosophie, car elle pacifie durablement l'environnement de notre cité."
+      "speaker": "Professeur",
+      "text": "Maana kɛ ye kɔrɔɔmaw ka fɛn kura le ti, o le ye a to a bɛ kalan.",
+      "phonetic_api": "[maːna kɛ je kɔrɔːmaw ka fɛn kura le ti o le je a to a bɛ kalan]",
+      "phonetic_simple": "ma-a-na-kè-yé-ko-ro-o-maw-ka-fèn",
+      "translation": "Raconter des contes est un héritage ancestral, c'est pourquoi on continue de l'étudier."
     }
   ],
   "cultural_notes": [
-    "L'analyse des grands textes oraux ('maana') et des chroniques historiques ('tarika') met en évidence deux concepts philosophiques majeurs de la pensée mandingue guinéenne : le 'badenya' (cohésion sociale pacifique) et le 'fadenya' (l'ambition individuelle motrice d'exploits héroïques mais source de tensions). Savoir équilibrer ces forces à travers l'étude critique est la marque ultime de l'érudition chez les lettrés konyanka."
+    "Le conte de l'orphelin et de l'arbre magique, documenté en konianké à Damaro par Donkosira, constitue un exemple de texte littéraire oral traditionnel pouvant faire l'objet d'une analyse structurée (personnages, intrigue, morale) au niveau avancé.",
+    "Le peuple koniaké est établi dans les préfectures de Beyla et Nzérékoré, au sud-est de la Guinée, selon Wikipédia — Koniankés ; cette implantation historique dans une zone de contact entre Guinée forestière et Haute-Guinée explique la proximité du Konyanka avec le maninka/malinké tout en conservant des traits propres, tels que documentés par les proverbes et contes de Damaro."
   ],
   "exercises": [
     {
-      "exercise_id": "ex1",
-      "type": "multiple_choice",
-      "question": "Que signifie littéralement et métaphoriquement le concept de 'Kuma-kolo' ?",
+      "exercise_id": "e1",
+      "type": "choix_multiple",
+      "question": "Comment dit-on 'conte, récit traditionnel' ?",
       "options": [
-        "Une voix forte",
-        "L'os de la parole / L'essence profonde d'un texte",
-        "Un chant de guerre"
+        "tariku",
+        "maana",
+        "kɔrɔɔma",
+        "kalima"
       ],
-      "correct_answer": "L'os de la parole / L'essence profonde d'un texte",
-      "explanation": "Formé de 'kuma' (parole) et 'kolo' (os), ce terme désigne la structure fondamentale, l'ossature logique ou la quintessence philosophique d'un texte."
+      "correct_answer": "maana",
+      "explanation": "'maana' désigne le conte/récit traditionnel oral."
     },
     {
-      "exercise_id": "ex2",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Dieli lu bɛ [ ___ ] ba nin da la (Les griots chantent ce grand récit épique).",
-      "correct_answer": "maana",
-      "hint": "Le mot commence par 'm' et désigne le genre littéraire de la geste ou de l'épopée historique."
+      "exercise_id": "e2",
+      "type": "traduction",
+      "question": "Traduisez : 'Nos ancêtres habitaient dans le Konyan.'",
+      "correct_answer": "An kɔrɔɔmaw tun bɛ sigi Konyan na.",
+      "explanation": "'kɔrɔɔmaw' = ancêtres ; 'tun bɛ sigi' = habitaient (passé habituel)."
+    },
+    {
+      "exercise_id": "e3",
+      "type": "texte_a_trous",
+      "sentence_with_blank": "Maana in ___ kɔrɔ ye mun ye? (Quel est le sens profond de ce conte ?)",
+      "correct_answer": "kalima",
+      "explanation": "'kalima kɔrɔ' = sens profond (d'un mot/texte)."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Donkosira — Les contes dans la région de Damaro (Guinée), conte et chant en konianké authentiques",
+      "url": "https://www.donkosira.org/les-contes-dans-la-region-de-damaro-guinee/"
+    },
+    {
+      "label": "Wikipédia — Koniankés (peuple, préfectures de Beyla et Nzérékoré)",
+      "url": "https://fr.wikipedia.org/wiki/Koniank%C3%A9s"
+    },
+    {
+      "label": "Wikipédia — Konyanka (classification, géographie, codes ISO/Glottolog)",
+      "url": "https://fr.wikipedia.org/wiki/Konyanka"
+    },
+    {
+      "label": "Malinkuia — Introduction à la langue malinké (grammaire complète, variété du Wulada, Haute-Guinée)",
+      "url": "https://fr.scribd.com/document/499114939/Malinkuia"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Le contenu culturel et historique (situation géographique du peuple koniaké, référence au conte de Damaro) repose sur des sources fiables et vérifiées. Le vocabulaire grammatical et lexical utilisé pour l'analyse littéraire elle-même provient en revanche du continuum maninka/malinké général, faute de terminologie critique/littéraire spécifiquement documentée pour le Konyanka."
 }

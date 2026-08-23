@@ -6,135 +6,207 @@
   "lesson_number": 4,
   "title": "La famille et les relations proches",
   "learning_objectives": [
-    "Nommer les membres de la famille nucléaire et élargie en Baga",
-    "Exprimer les liens de parenté et l'appartenance",
-    "Présenter un membre de son entourage proche"
+    "Nommer les membres proches de la famille en baga sitemu",
+    "Distinguer les termes formels et les termes d'adresse pour \"père\" et \"mère\"",
+    "Comprendre la structure des noms de parenté avec suffixe pluriel -aŋa"
   ],
   "phonetic_focus": {
-    "key_sounds": "Le mot pour la mère, 'ŋá', commence par la consonne nasale vélaire /ŋ/ (comme le 'ng' à la fin du mot anglais 'sing'). Elle doit être prononcée directement du fond de la gorge, sans détacher un 'n' puis un 'g'.",
-    "common_pitfalls": "Attention à ne pas omettre l'allongement de la voyelle dans 'wáa' (père), sinon le mot perd sa structure tonale et sa signification affective."
+    "key_sounds": "Le Baga Sitemu utilise un inventaire de voyelles incluant /a/, /ʌ~ə/ (\"a\" ouvert), /e/, /ɛ/, /i/, /ɪ/, /o/, /ɔ/, /u/ ainsi que des consonnes comme /gb/ (occlusive labio-vélaire voisée, absente du français), /ŋ/ (comme 'ng' dans 'parking'), /ʃ/ (\"sh\"), /tʃ/ (\"tsh\", comme 'tch'), /θ/ (\"th\" anglais sourd) et un /k/ décrit par le lexicographe F. Lamp comme \"glottal, quelque part entre g et k\". Ces sons n'ont pas d'équivalent exact en français standard.",
+    "common_pitfalls": "Les francophones ont tendance à prononcer /gb/ comme un simple 'g' ou 'b' séparé, à confondre /ɛ/ et /e/ (non distingués en français standard écrit), et à ne pas prononcer /ŋ/ en début de mot. Le /ʌ~ə/ ouvert (noté 'a' dans l'orthographe de Lamp) est souvent réduit à un français 'e muet', ce qui déforme le sens."
   },
   "vocabulary": [
     {
-      "word_id": "b012",
-      "term": "wáa",
-      "phonetic_api": "/wáː/",
-      "phonetic_simple": "WAA",
-      "translation": "père / papa",
-      "example_sentence": "N wáa mu ya",
-      "example_phonetic": "/ⁿwáː mu ja/",
-      "example_translation": "Mon père est ici"
+      "word_id": "v1",
+      "term": "papa (papa-aŋa)",
+      "phonetic_api": "/papa, papaaŋa/",
+      "phonetic_simple": "PA-pa",
+      "translation": "père (terme courant) ; papa-aŋa = les pères (pluriel)",
+      "example_sentence": "papa yɔ dǝ kə-bətsh.",
+      "example_phonetic": "/papa jɔ də kəbətʃ/",
+      "example_translation": "Papa va au travail."
     },
     {
-      "word_id": "b013",
-      "term": "ŋá",
-      "phonetic_api": "/ŋá/",
-      "phonetic_simple": "NGA",
-      "translation": "mère / maman",
-      "example_sentence": "N ŋá bɔ̀ŋ Boke",
-      "example_phonetic": "/ⁿŋá ɓɔ̀ŋ ɓoke/",
-      "example_translation": "Ma mère vient de Boké"
+      "word_id": "v2",
+      "term": "u-kas (a-)",
+      "phonetic_api": "/ukas/",
+      "phonetic_simple": "ou-KASS",
+      "translation": "père (forme formelle) ; kas/tshas = père (terme d'adresse)",
+      "example_sentence": "u-kas kə-fεt.",
+      "example_phonetic": "/ukas kəfɛt/",
+      "example_translation": "\"Petit père\" = oncle (frère du père)."
     },
     {
-      "word_id": "b014",
-      "term": "wətɛ́ɛn",
-      "phonetic_api": "/wətɛ́ːn/",
-      "phonetic_simple": "WE-TÉÉN",
-      "translation": "frère / sœur / germain",
-      "example_sentence": "N wətɛ́ɛn mu kə̀ kálàŋ di",
-      "example_phonetic": "/ⁿwətɛ́ːn mu kə kálàŋ di/",
-      "example_translation": "Mon frère/sœur est étudiant"
+      "word_id": "v3",
+      "term": "iya (iya-ŋaŋ)",
+      "phonetic_api": "/ija/",
+      "phonetic_simple": "i-YA",
+      "translation": "mère",
+      "example_sentence": "iya wə-ran.",
+      "example_phonetic": "/ija wəran/",
+      "example_translation": "Tante (sœur du père)."
     },
     {
-      "word_id": "b015",
-      "term": "bədɛ̀n",
-      "phonetic_api": "/ɓədɛ̀n/",
-      "phonetic_simple": "BE-DÈN",
-      "translation": "enfant / fils / fille",
-      "example_sentence": "A mu n bədɛ̀n di",
-      "example_phonetic": "/a mu ⁿɓədɛ̀n di/",
-      "example_translation": "C'est mon enfant"
+      "word_id": "v4",
+      "term": "kεrε / kerε",
+      "phonetic_api": "/kɛrɛ/",
+      "phonetic_simple": "KÈ-rè",
+      "translation": "mère (forme alternative attestée)",
+      "example_sentence": "kεrε.",
+      "example_phonetic": "/kɛrɛ/",
+      "example_translation": "mère"
+    },
+    {
+      "word_id": "v5",
+      "term": "mama (mama-aŋa)",
+      "phonetic_api": "/mama/",
+      "phonetic_simple": "MA-ma",
+      "translation": "grand-mère",
+      "example_sentence": "mama.",
+      "example_phonetic": "/mama/",
+      "example_translation": "grand-mère"
+    },
+    {
+      "word_id": "v6",
+      "term": "papasɔ",
+      "phonetic_api": "/papasɔ/",
+      "phonetic_simple": "pa-pa-SO",
+      "translation": "grand-père",
+      "example_sentence": "papasɔ.",
+      "example_phonetic": "/papasɔ/",
+      "example_translation": "grand-père"
+    },
+    {
+      "word_id": "v7",
+      "term": "wi-kirε (a-)",
+      "phonetic_api": "/wikirɛ/",
+      "phonetic_simple": "wi-KI-rè",
+      "translation": "sœur",
+      "example_sentence": "wi-kirε.",
+      "example_phonetic": "/wikirɛ/",
+      "example_translation": "sœur"
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "bp009",
-      "original": "Wàn mu mu di ?",
-      "phonetic_api": "/wàn mu mu di/",
-      "phonetic_simple": "WAN MOO MOO DI ?",
-      "translation": "Qui est-ce ?",
-      "context": "S'informer sur l'identité d'un visiteur ou d'un proche"
+      "phrase_id": "p1",
+      "original": "u-kas-kə-fεt",
+      "phonetic_api": "/ukas kəfɛt/",
+      "phonetic_simple": "ou-kass-keu-FÈT",
+      "translation": "oncle (frère du père), litt. \"petit père\"",
+      "context": "Terme de parenté classificatoire attesté par B. Bangoura (1974:25)."
     },
     {
-      "phrase_id": "bp010",
-      "original": "N wáasɛ kàn n ŋáasɛ mu ya",
-      "phonetic_api": "/ⁿwáːsɛ kàn ⁿŋáːsɛ mu ja/",
-      "phonetic_simple": "N WAA-SÈ KAN N NGAA-SÈ MOO YA",
-      "translation": "Mes parents (mon père et ma mère) sont ici.",
-      "context": "Présenter sa famille à des invités dans la concession"
+      "phrase_id": "p2",
+      "original": "iya wə-ran",
+      "phonetic_api": "/ija wəran/",
+      "phonetic_simple": "i-ya weu-RAN",
+      "translation": "tante (sœur du père)",
+      "context": "Construction \"mère\" + un second terme désignant la parenté élargie."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "papa yɔ dǝ kə-bətsh.",
+      "phonetic_api": "/papa jɔ də kəbətʃ/",
+      "phonetic_simple": "PA-pa",
+      "translation": "Papa va au travail.",
+      "context": "Réutilisation de la phrase d'exemple attestée pour le mot « papa (papa-aŋa) »."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "papa (papa-aŋa)",
+      "phonetic_api": "/papa, papaaŋa/",
+      "phonetic_simple": "PA-pa",
+      "translation": "père (terme courant) ; papa-aŋa = les pères (pluriel)",
+      "context": "Emploi du mot « papa (papa-aŋa) » seul, comme énoncé minimal attesté."
     }
   ],
   "grammar_points": [
     {
-      "concept": "La possession et les pronoms personnels préfixés",
-      "explanation": "En Baga, la possession pour les termes de parenté inaliénable (famille proche) s'exprime en plaçant le pronom personnel sous sa forme minimale directement devant le substantif, sans particule intermédiaire.",
+      "concept": "Marquage du pluriel dans les noms de parenté",
+      "explanation": "Certains noms de parenté prennent un suffixe -aŋa/-ŋaŋ pour marquer le pluriel : papa → papa-aŋa (\"les pères\"), iya → iya-ŋaŋ, mama → mama-aŋa. Ce suffixe est distinct du système de préfixes de classes nominales (wi-/a-/kə-/da-/etc.) décrit par ailleurs pour d'autres catégories de noms.",
       "rules": [
-        "Mon/Ma = n- (marqué par une nasalisation ou consonne homorganique).",
-        "Ton/Ta = i-.",
-        "Son/Sa = a-."
+        "Suffixe -aŋa/-ŋaŋ pour le pluriel de certains termes de parenté proche.",
+        "La parenté \"classificatoire\" (ex. u-kas-kə-fεt = oncle = litt. \"petit père\") reflète un système où les frères du père sont eux-mêmes appelés \"père\"."
       ],
       "examples": [
         {
-          "structure": "n- (mon) + wáa (père)",
-          "phonetic_api": "/ⁿwáː/",
-          "meaning": "Mon père"
+          "structure": "papa → papa-aŋa",
+          "phonetic_api": "/papa, papaaŋa/",
+          "meaning": "père → pères"
         },
         {
-          "structure": "i- (ton) + ŋá (mère)",
-          "phonetic_api": "/i ŋá/",
-          "meaning": "Ta mère"
+          "structure": "iya → iya-ŋaŋ",
+          "phonetic_api": "/ija, ijaŋaŋ/",
+          "meaning": "mère → mères"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Temba",
-      "text": "Sékou, wàn mu mu di kə̀ i gbɛ̀lɛ̀ ka ?",
-      "phonetic_api": "/sɛku wàn mu mu di kə i gɓɛ̀lɛ̀ ka/",
-      "phonetic_simple": "SÉ-KOO, WAN MOO MOO DI KE I GBÈ-LÈ KA ?",
-      "translation": "Sékou, qui est-ce dans ta cour ?"
+      "speaker": "A",
+      "text": "anɔ yi di-ɛ ?",
+      "phonetic_api": "/anɔ ji di ɛ/",
+      "phonetic_simple": "a-NO yi di-È",
+      "translation": "Qui est là ?"
     },
     {
-      "speaker": "Sékou",
-      "text": "Temba, n wətɛ́ɛn mu mu di. A bɔ̀ŋ Conakry ka ya-njɔ̀ɔ̀.",
-      "phonetic_api": "/tɛmɓa ⁿwətɛ́ːn mu mu di a ɓɔ̀ŋ Conakry ka ja ⁿd͡ʒɔ̀ː/",
-      "phonetic_simple": "TEM-BA, N WE-TÉÉN MOO MOO DI. A BON CO-NA-KRY KA YA-N-DJOO.",
-      "translation": "Temba, c'est mon frère. Il vient de Conakry aujourd'hui."
+      "speaker": "B",
+      "text": "papa.",
+      "phonetic_api": "/papa/",
+      "phonetic_simple": "PA-pa",
+      "translation": "Papa."
+    },
+    {
+      "speaker": "A",
+      "text": "iya ?",
+      "phonetic_api": "/ija/",
+      "phonetic_simple": "i-YA",
+      "translation": "Et maman ?"
+    },
+    {
+      "speaker": "B",
+      "text": "iya kɔ.",
+      "phonetic_api": "/ija kɔ/",
+      "phonetic_simple": "i-YA ko",
+      "translation": "Maman est partie (litt. \"maman va\")."
     }
   ],
   "cultural_notes": [
-    "La famille élargie constitue le socle de l'organisation villageoise Baga. Le terme 'wətɛ́ɛn' s'étend fréquemment aux cousins directs et aux membres de la même classe d'âge au sein du clan."
+    "Le terme \"u-kas-kə-fεt\" (petit père) pour désigner l'oncle paternel illustre un système de parenté classificatoire courant en Afrique de l'Ouest, où les frères du père sont assimilés à des figures paternelles.",
+    "La distinction entre termes d'adresse (kas, utilisé pour appeler directement le père) et termes référentiels (u-kas, pour parler DE son père) est notée explicitement par Lamp d'après Diassi (1974)."
   ],
   "exercises": [
     {
-      "exercise_id": "A1_M2_L4_ex1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel terme signifie 'mon père' en Baga ?",
+      "question": "Comment dit-on \"grand-mère\" en baga sitemu ?",
       "options": [
-        "n ŋá",
-        "n wáa",
-        "n bədɛ̀n"
+        "papasɔ",
+        "mama",
+        "wi-kirε"
       ],
-      "correct_answer": "n wáa",
-      "explanation": "'wáa' désigne la figure paternelle, précédée de l'indice de première personne 'n'."
+      "correct_answer": "mama",
+      "explanation": "\"mama\" est attesté comme grand-mère (Camara 1975:38)."
     },
     {
-      "exercise_id": "A1_M2_L4_ex2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "A mu n [ ___ ] di (C'est mon enfant).",
-      "correct_answer": "bədɛ̀n",
-      "hint": "Mot désignant la descendance directe, commençant par un b implosif"
+      "sentence_with_blank": "___ signifie \"oncle\" (litt. petit père).",
+      "correct_answer": "u-kas-kə-fεt",
+      "hint": "Composé de u-kas (père) + kə-fεt (petit)."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Lamp, F.J. — Baga Tshi-Tem Dictionary (Guinea, rév. 2021)",
+      "url": "https://catalogingafricana.wordpress.com/wp-content/uploads/2016/07/a.baga-vocabulary-final-notated-2021-cr.pdf"
+    },
+    {
+      "label": "Glottolog 5.3 — Baga Sitemu (baga1272)",
+      "url": "https://glottolog.org/resource/languoid/id/baga1272"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Les termes de parenté proches (père, mère, sœur, grand-parents, oncle) sont bien attestés avec citations d'informateurs multiples dans le dictionnaire de Lamp. Le dialogue reste minimal car aucune phrase complète sur la famille n'a été retrouvée dans les sources disponibles. Variété choisie : Baga Sitemu (autonyme Citɛm ; ISO 639-3 bsp ; Glottocode baga1272), décrite comme \"the only vibrant Baga linguistic variety\" par Wikipédia (d'après Wilson 2007), parlée dans des villages sur le fleuve Campaces/Rio Pongo, région de Boffa, Guinée (~40 000 locuteurs, 2018). C'est la variété baga au sens strict la mieux documentée : dictionnaire de terrain de 3000 mots (Lamp 2016/2021), listes lexicales ASJP indépendantes, fiches Glottolog/WALS, et mention dans la thèse de Weller Ganong (1998) sur la morphologie/syntaxe baga. Elle appartient à la branche Mel (Niger-Congo > Atlantic-Congo > Mel > Northern Mel, avec Temne, Landuma, Baga Koba), et non à la branche Nalu-Mbulungish-Baga Mboteni décrite par Sapir (1971) comme faisant partie de l'Atlantique Nord — ces deux ensembles sont linguistiquement distincts malgré l'identité ethnique Baga commune. Le Baga Mboteni (bgm/bcg), bien que parlé par des Baga ethniques, n'est PAS une langue Mel et reste très peu documenté (pas de dictionnaire de terrain publié comparable); le Baga Fore/Mbulungish (bsp est un code distinct de mbv) est également peu documenté en comparaison. Le Sitemu a donc été retenu comme le meilleur compromis entre authenticité \"Baga\" et disponibilité de données vérifiables."
 }

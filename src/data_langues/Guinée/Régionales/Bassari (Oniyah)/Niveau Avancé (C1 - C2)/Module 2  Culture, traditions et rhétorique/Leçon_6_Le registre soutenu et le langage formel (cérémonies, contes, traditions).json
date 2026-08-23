@@ -6,145 +6,205 @@
   "lesson_number": 6,
   "title": "Le registre soutenu et le langage formel (cérémonies, contes, traditions)",
   "learning_objectives": [
-    "Employer le lexique honorifique dédié aux rituels et aux autorités coutumières",
-    "Utiliser les structures narratives spécifiques à l'art du conte Oniyan",
-    "Adapter son niveau de langue lors d'une cérémonie solennelle ou d'une libation"
+    "Identifier les marques de formalité disponibles dans les sources (pronoms pluriels de politesse, structures complètes non elliptiques)",
+    "Comprendre le contexte culturel des cérémonies du pays bassari tel que documenté par l'UNESCO",
+    "Reconnaître honnêtement l'absence de corpus de contes oniyan disponible"
   ],
   "phonetic_focus": {
-    "key_sounds": "Le registre soutenu réactive des structures d'affriquées alvéolo-palatales rituelles. Le verbe cérémoniel 'kəbã́ñ' (bénir) exige une émission nasale palatale /ɲ/ finale très soignée associée à une attaque injective /ɓ/.",
-    "common_pitfalls": "Attention à ne pas utiliser des formes verbales contractées, tolérées au quotidien mais proscrites lors des rituels. Le relâchement phonétique ôte toute solennité au discours d'apparat."
+    "key_sounds": "Dans un registre soutenu, les finales de mots ont tendance à être pleinement articulées (moins d'élision) qu'en registre familier rapide ; cette tendance générale aux langues à registres distincts n'est cependant pas documentée spécifiquement pour l'oniyan dans les sources disponibles.",
+    "common_pitfalls": "Il ne faut pas confondre l'absence de documentation d'un registre cérémoniel spécifique avec l'absence du registre lui-même dans la culture bassari : la lacune est documentaire, pas culturelle."
   },
   "vocabulary": [
     {
-      "word_id": "v97",
-      "term": "kəbã́ñ",
-      "phonetic_api": "/kəɓã́ɲ/",
-      "phonetic_simple": "KE-BHANY",
-      "translation": "bénir / verser la libation sacrée / purifier par la parole",
-      "example_sentence": "Aɓəliyan aŋ oŋ kəbã́ñ siki.",
-      "example_phonetic": "/aɓəljan aŋ oŋ kəɓã́ɲ siki/",
-      "example_translation": "Les sages bénissent la cité par des paroles rituelles."
+      "word_id": "v1",
+      "term": "ɓëliyan",
+      "phonetic_api": "/ɓəlijan/",
+      "phonetic_simple": "BË-LI-YAN",
+      "translation": "les Bassari (autonyme du peuple)",
+      "example_sentence": "Ɓëliyan.",
+      "example_phonetic": "/ɓəlijan/",
+      "example_translation": "Les Bassari (nom que se donne le peuple)."
     },
     {
-      "word_id": "v98",
-      "term": "ləkɔ̂ndɔ́ŋ",
-      "phonetic_api": "/ləkɔ̂ndɔ́ŋ/",
-      "phonetic_simple": "LE-KON-DONG",
-      "translation": "la classe d'âge / la confrérie générationnelle rituelle",
-      "example_sentence": "Ləkɔ̂ndɔ́ŋ mɔ oŋ nɛ̂ gəwɛ́ñ.",
-      "example_phonetic": "/ləkɔ̂ndɔ́ŋ mɔ oŋ nɛ̂ ɡəwɛ́ɲ/",
-      "example_translation": "Ma classe d'âge mène la danse solennelle."
+      "word_id": "v2",
+      "term": "ɔnəyan",
+      "phonetic_api": "/ɔnəjan/",
+      "phonetic_simple": "O-NË-YAN",
+      "translation": "la langue bassari (autonyme de la langue, aussi transcrit « oniyan »)",
+      "example_sentence": "Ɔnəyan.",
+      "example_phonetic": "/ɔnəjan/",
+      "example_translation": "La langue bassari."
     },
     {
-      "word_id": "v99",
-      "term": "gəfá̰á̰ dyɛ́ɛ̀",
-      "phonetic_api": "/ɡəfáː ɟɛ́ː/",
-      "phonetic_simple": "GE-FAANG DYEE",
-      "translation": "la grande coutume / la loi sacrée immuable",
-      "example_sentence": "Kɔ̂ oŋ oŋ gəfá̰á̰ dyɛ́ɛ̀.",
-      "example_phonetic": "/kɔ̂ oŋ oŋ ɡəfáː ɟɛ́ː/",
-      "example_translation": "Ceci relève de la grande loi sacrée immuable."
+      "word_id": "vx7",
+      "term": "açëma",
+      "phonetic_api": "/aʃəma/",
+      "phonetic_simple": "A-TCHË-MA",
+      "translation": "saluer (verbe)",
+      "example_sentence": "açëma",
+      "example_phonetic": "/aʃəma/",
+      "example_translation": "saluer."
     },
     {
-      "word_id": "v100",
-      "term": "ɔbʉ̂",
-      "phonetic_api": "/ɔɓʉ̂/",
-      "phonetic_simple": "O-BHOU",
-      "translation": "l'initié / le dignitaire ayant achevé son parcours rituel",
-      "example_sentence": "ɔbʉ̂ mɔ oŋ fɔ́ fə́ siki.",
-      "example_phonetic": "/ɔɓʉ̂ mɔ oŋ fɔ́ fə́ siki/",
-      "example_translation": "L'initié est de retour au cœur du village."
+      "word_id": "vx6",
+      "term": "awa",
+      "phonetic_api": "/awa/",
+      "phonetic_simple": "A-OUA",
+      "translation": "d'accord, bien",
+      "example_sentence": "Awa.",
+      "example_phonetic": "/awa/",
+      "example_translation": "D'accord."
+    },
+    {
+      "word_id": "vx4",
+      "term": "iyo",
+      "phonetic_api": "/ijo/",
+      "phonetic_simple": "I-YO",
+      "translation": "oui",
+      "example_sentence": "Iyo.",
+      "example_phonetic": "/ijo/",
+      "example_translation": "Oui."
+    },
+    {
+      "word_id": "vx23",
+      "term": "din",
+      "phonetic_api": "/din/",
+      "phonetic_simple": "DIN",
+      "translation": "toujours",
+      "example_sentence": "din",
+      "example_phonetic": "/din/",
+      "example_translation": "toujours."
+    },
+    {
+      "word_id": "vx22",
+      "term": "kamara",
+      "phonetic_api": "/kamara/",
+      "phonetic_simple": "KA-MA-RA",
+      "translation": "chasseur",
+      "example_sentence": "kamara",
+      "example_phonetic": "/kamara/",
+      "example_translation": "chasseur."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p185",
-      "original": "Nyarancaa pə́ bəliyan fə́ kəbã́ñ kɔ̂.",
-      "phonetic_api": "/ɲarant͡ʃaː pə́ ɓəljan fə́ kəɓã́ɲ kɔ̂/",
-      "phonetic_simple": "NYA-RAN-TCHAA PE BHE-LI-YAN FE KE-BHANY KO",
-      "translation": "Je rends d'immenses grâces aux anciens pour cette bénédiction sacrée.",
-      "context": "Formule de remerciement prononcée devant le conseil des sages."
+      "phrase_id": "p1",
+      "original": "Ɓëliyan",
+      "phonetic_api": "/ɓəlijan/",
+      "phonetic_simple": "BË-LI-YAN",
+      "translation": "Les Bassari.",
+      "context": "Autonyme utilisé dans un contexte identitaire et cérémoniel."
     },
     {
-      "phrase_id": "p186",
-      "original": "Gəfá̰á̰ fə́ siki oŋ oŋ dyɛ́ɛ̀ gwa.",
-      "phonetic_api": "/ɡəfáː fə́ siki oŋ oŋ ɟɛ́ː ɡwa/",
-      "phonetic_simple": "GE-FAANG FE SI-KI ONG ONG DYEE GWA",
-      "translation": "Les décrets mystiques de notre terre possèdent une autorité absolue.",
-      "context": "Affirmer la souveraineté des coutumes lors d'une cérémonie de transition."
+      "phrase_id": "p2",
+      "original": "Iyo.",
+      "phonetic_api": "/ijo/",
+      "phonetic_simple": "I-YO",
+      "translation": "Oui.",
+      "context": "Réponse affirmative générale, réutilisable dans toute conversation."
     },
     {
-      "phrase_id": "p187",
-      "original": "Anee ləkɔ̂ndɔ́ŋ bə̂ oŋ ɟwɛ̂ bɛ̀ɛ̀?",
-      "phonetic_api": "/aneː ləkɔ̂ndɔ́ŋ ɓə̂ oŋ ɟwɛ̂ bɛ̀ː/",
-      "phonetic_simple": "A-NEE LE-KON-DONG BHE ONG DYWE BEE",
-      "translation": "Est-ce que les membres de votre confrérie agissent selon l'honneur ?",
-      "context": "Salutation honorifique formelle entre dignitaires de différentes générations."
+      "phrase_id": "p3",
+      "original": "O-oye.",
+      "phonetic_api": "/o.oje/",
+      "phonetic_simple": "O-O-YÉ",
+      "translation": "Non.",
+      "context": "Réponse négative générale, réutilisable dans toute conversation."
     },
     {
-      "phrase_id": "p188",
-      "original": "Ká ɓax fəwɔ́ fə́ aɓəliyan aŋ !",
-      "phonetic_api": "/ká ɓax fəwɔ́ fə́ aɓəljan aŋ/",
-      "phonetic_simple": "KA BHAKH FE-WO FE A-BHE-LI-YAN ANG",
-      "translation": "Ne déviez jamais de la trajectoire tracée par les anciens du village !",
-      "context": "Exhortation solennelle lancée à la jeunesse lors des rites de passage."
+      "phrase_id": "p4",
+      "original": "Awa.",
+      "phonetic_api": "/awa/",
+      "phonetic_simple": "A-OUA",
+      "translation": "D'accord / Bien.",
+      "context": "Marque d'accord ou de validation, utile pour conclure un échange."
     }
   ],
   "grammar_points": [
     {
-      "concept": "La dérivation honorifique et l'inversion syntaxique cérémonielle",
-      "explanation": "Le registre formel en Oniyan se caractérise par l'utilisation de structures verbales passives collectives et l'abandon des pronoms personnels abrégés. Les entités sacrées ou collectives ('ləkɔ̂ndɔ́ŋ') se substituent au sujet individuel. Les bases verbales s'adjoignent des affixes d'insistance tônale pour sacraliser l'énoncé.",
+      "concept": "Registre et identité linguistique : les autonymes",
+      "explanation": "L'emploi des autonymes ɓëliyan (le peuple) et ɔnəyan/oniyan (la langue) plutôt que l'exonyme « Bassari » (d'origine externe, probablement peul ou wolof) constitue en soi une marque de registre soutenu et de respect identitaire, particulièrement appropriée dans un contexte cérémoniel ou officiel.",
       "rules": [
-        "Le verbe de bénédiction 'kəbã́ñ' impose l'effacement de l'agent individuel au profit de la formule rituelle passive.",
-        "Les substantifs liés à la coutume exigent le redoublement de la copule d'état pour marquer la solennité."
+        "Utiliser ɓëliyan/oniyan en contexte formel ou identitaire plutôt que l'exonyme « Bassari », par respect pour l'auto-désignation du peuple."
       ],
       "examples": [
         {
-          "structure": "[Entité collective] + oŋ + oŋ + [Qualificatif honorifique]",
-          "phonetic_api": "/ɔɓʉ̂ oŋ oŋ ləfɔ́ bɛ̀ː/",
-          "meaning": "L'initié incarne la parfaite conformité à la grande coutume"
+          "structure": "Ɓëliyan",
+          "phonetic_api": "/ɓəlijan/",
+          "meaning": "les Bassari (autonyme respectueux)"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Le Grand Ancien",
-      "text": "ɔbʉ̂, anee gəkã́ bə̂ fə́ ləkɔ̂ndɔ́ŋ? Anee ləfɔ́ bə̂?",
-      "phonetic_api": "/ɔɓʉ̂ aneː ɡəkã́ ɓə̂ fə́ ləkɔ̂ndɔ́ŋ aneː ləfɔ́ ɓə̂/",
-      "phonetic_simple": "O-BHOU, A-NEE GE-KAN BHE FE LE-KON-DONG? A-NEE LE-FO BHE",
-      "translation": "Dignitaire initié, quel est le serment de votre confrérie générationnelle ? Quelle voie entendez-vous suivre ?"
+      "speaker": "Maître de cérémonie",
+      "text": "Ɓëliyan!",
+      "phonetic_api": "/ɓəlijan/",
+      "phonetic_simple": "BË-LI-YAN",
+      "translation": "Peuple bassari ! (formule d'ouverture solennelle, illustrative)"
     },
     {
-      "speaker": "L'Initié",
-      "text": "Fəwɔ́ ɛ́ɛ́n, məbə̀gá kəgaw bəliyan aŋ. Kəbã́ñ bə̂ oŋ oŋ gəfá̰á̰ fə́ dya. Ká ɓila secret fə́ eyá̰.",
-      "phonetic_api": "/fəwɔ́ ɛ́ːn məɓə̀ɡá kəɡaw ɓəljan aŋ kəɓã́ɲ ɓə̂ oŋ oŋ ɡəfáː fə́ dja ká ɓila secret fə́ ejá̰/",
-      "phonetic_simple": "FE-WO EEN, ME-BHE-GA KE-GAW BHE-LI-YAN ANG. KE-BHANY BHE ONG ONG GE-FAANG FE DYA. KA BHI-LA SE-CRET FE E-YANG",
-      "translation": "En premier lieu, je dois une obéissance absolue aux sages de notre terre. Votre bénédiction guide mes pas face au temps. Je jure de ne jamais trahir nos secrets sur la place publique."
+      "speaker": "Locuteur A",
+      "text": "Awa?",
+      "phonetic_api": "/awa/",
+      "phonetic_simple": "A-OUA ?",
+      "translation": "D'accord ?"
+    },
+    {
+      "speaker": "Locuteur B",
+      "text": "Iyo, awa.",
+      "phonetic_api": "/ijo awa/",
+      "phonetic_simple": "I-YO, A-OUA",
+      "translation": "Oui, d'accord."
+    },
+    {
+      "speaker": "Locuteur A",
+      "text": "Iyo.",
+      "phonetic_api": "/ijo/",
+      "phonetic_simple": "I-YO",
+      "translation": "Oui."
     }
   ],
   "cultural_notes": [
-    "Le système des classes d'âge ('ləkɔ̂ndɔ́ŋ') structure l'ordre social et spirituel des Bassaris en Guinée. Le passage d'une étape à l'autre donne lieu à des récits mythologiques et des contes ésotériques transmis dans une langue rituelle dense. Maîtriser ce registre formel distingue l'homme mûr ('ɔbʉ̂') du jeune garçon n'ayant pas encore acquis la sagesse du sanctuaire."
+    "Le Pays bassari, la Falémé et le pays bedik ont été inscrits au patrimoine mondial de l'UNESCO en 2012 pour leurs paysages culturels associant pratiques agropastorales, forêts sacrées et sites cérémoniels, selon le dossier officiel d'inscription ; ces cérémonies traditionnelles (initiations, rites agraires) sont mentionnées dans la documentation UNESCO sans que le contenu linguistique précis en oniyan (formules rituelles, chants) soit accessible dans les sources consultées ici.",
+    "Le nom « Bassari » est un exonyme ; le peuple se désigne lui-même Ɓëliyan et sa langue oniyan/ɔnəyan, une distinction essentielle en registre soutenu ou identitaire."
   ],
   "exercises": [
     {
-      "exercise_id": "ex47",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel substantif Oniyan désigne une confrérie ou une classe d'âge rituelle ?",
+      "question": "Comment le peuple bassari se désigne-t-il lui-même (autonyme) ?",
       "options": [
-        "eyá̰",
-        "ləkɔ̂ndɔ́ŋ",
-        "kəwá̰"
+        "Ɓëliyan",
+        "Bassari",
+        "Tenda"
       ],
-      "correct_answer": "ləkɔ̂ndɔ́ŋ",
-      "explanation": "'ləkɔ̂ndɔ́ŋ' qualifie l'organisation générationnelle qui structure la vie rituelle et les corvées communautaires."
+      "correct_answer": "Ɓëliyan",
+      "explanation": "Ɓëliyan est l'autonyme attesté du peuple, « Bassari » étant un exonyme."
     },
     {
-      "exercise_id": "ex48",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Aɓəliyan aŋ oŋ [ ___ ] siki fə́ mɔ (Les anciens bénissent et purifient ma cité d'origine).",
-      "correct_answer": "kəbã́ñ",
-      "hint": "Le verbe à l'infinitif signifiant l'action d'accorder une bénédiction rituelle ou de verser des libations."
+      "sentence_with_blank": "___ (autonyme de la langue, apparenté à « oniyan »)",
+      "correct_answer": "ɔnəyan",
+      "hint": "Nom que les Bassari donnent à leur propre langue."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "SIL — A Grammar of Oniyan (Winters & Winters, 2004)",
+      "url": "https://www.sil.org/system/files/reapdata/18/63/15/1863153183176772870767650622005357320/BSC_Oniyan_grammar_En_2004.pdf"
+    },
+    {
+      "label": "UNESCO — Bassari Country: Bassari, Fula and Bedik Cultural Landscapes",
+      "url": "https://whc.unesco.org/en/list/1407/"
+    },
+    {
+      "label": "Wikipédia — Pays bassari",
+      "url": "https://fr.wikipedia.org/wiki/Pays_bassari"
+    }
+  ],
+  "confidence": "faible",
+  "confidence_note": "Les autonymes ɓëliyan et oniyan/ɔnəyan sont bien attestés dans les sources linguistiques et confirmés par la documentation UNESCO sur le contexte cérémoniel du Pays bassari. Cependant, aucun contenu linguistique spécifique en oniyan sur les cérémonies, contes ou traditions orales (formules rituelles, ouvertures de contes) n'a été trouvé dans les sources disponibles ici ; cette lacune importante est documentée honnêtement plutôt que comblée par invention."
 }

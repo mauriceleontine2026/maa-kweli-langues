@@ -6,224 +6,230 @@
   "lesson_number": 5,
   "title": "Les chiffres, les nombres et le comptage",
   "learning_objectives": [
-    "Compter de 1 à 10 en langue konyanka",
-    "Comprendre la structure de base des dizaines",
-    "Exprimer une quantité simple lors d'un échange quotidien"
+    "Compter de 1 à 20 dans le continuum maninka/malinké",
+    "Former les dizaines par composition (bi + chiffre)",
+    "Utiliser les grands nombres (cent, mille)"
   ],
   "phonetic_focus": {
-    "key_sounds": "La voyelle fermée /u/ (prononcée 'ou') doit être brève et distincte. Le son /l/ initial dans certains chiffres s'articule doucement sur le palais alvéolaire. La nasalisation en fin de mot comme dans 'tan' /tã/ exclut le prononcé d'un 'n' occlusif.",
-    "common_pitfalls": "Attention à bien distinguer 'fila' (deux) et 'saba' (trois). Veillez à ne pas accentuer exagérément la syllabe finale des nombres lors de l'énumération."
+    "key_sounds": "Le préfixe 'tan-ni-' (dix et) pour les nombres 11 à 19, et 'bi-' (dizaine de) pour les dizaines composées.",
+    "common_pitfalls": "Confondre 'tan' (dix) et 'tan-ni-kelen' (onze) : le connecteur 'ni' (et) est indispensable entre la dizaine et l'unité."
   },
   "vocabulary": [
     {
       "word_id": "v1",
-      "term": "Kelen",
-      "phonetic_api": "/ke.lẽ/",
-      "phonetic_simple": "KÉ-LEN",
-      "translation": "Un (1)",
-      "example_sentence": "Malo kelen.",
-      "example_phonetic": "/ma.lo ke.lẽ/",
-      "example_translation": "Un seul riz (un sac ou une portion)."
+      "term": "kelen",
+      "phonetic_api": "[kelen]",
+      "phonetic_simple": "ké-len",
+      "translation": "un",
+      "example_sentence": "Den kelen.",
+      "example_phonetic": "[dɛn kelen]",
+      "example_translation": "Un enfant."
     },
     {
       "word_id": "v2",
-      "term": "Fila",
-      "phonetic_api": "/fi.la/",
-      "phonetic_simple": "FI-LA",
-      "translation": "Deux (2)",
-      "example_sentence": "Wari fila.",
-      "example_phonetic": "/wa.ri fi.la/",
-      "example_translation": "Deux billets / deux monnaies."
+      "term": "fila",
+      "phonetic_api": "[fila]",
+      "phonetic_simple": "fi-la",
+      "translation": "deux",
+      "example_sentence": "Muso fila.",
+      "example_phonetic": "[muso fila]",
+      "example_translation": "Deux femmes."
     },
     {
       "word_id": "v3",
-      "term": "Saba",
-      "phonetic_api": "/sa.ba/",
-      "phonetic_simple": "SA-BA",
-      "translation": "Trois (3)",
-      "example_sentence": "So saba.",
-      "example_phonetic": "/so sa.ba/",
-      "example_translation": "Trois maisons."
+      "term": "saba",
+      "phonetic_api": "[saba]",
+      "phonetic_simple": "sa-ba",
+      "translation": "trois",
+      "example_sentence": "Den saba.",
+      "example_phonetic": "[dɛn saba]",
+      "example_translation": "Trois enfants."
     },
     {
       "word_id": "v4",
-      "term": "Nani",
-      "phonetic_api": "/na.ni/",
-      "phonetic_simple": "NA-NI",
-      "translation": "Quatre (4)",
-      "example_sentence": "Cɛ nani.",
-      "example_phonetic": "/t͡ʃɛ na.ni/",
-      "example_translation": "Quatre hommes."
+      "term": "loolu",
+      "phonetic_api": "[loːlu]",
+      "phonetic_simple": "lo-o-lou",
+      "translation": "cinq",
+      "example_sentence": "Tan ni loolu.",
+      "example_phonetic": "[tan ni loːlu]",
+      "example_translation": "Quinze."
     },
     {
       "word_id": "v5",
-      "term": "Lolu",
-      "phonetic_api": "/lo.lu/",
-      "phonetic_simple": "LO-LOU",
-      "translation": "Cinq (5)",
-      "example_sentence": "Den lolu.",
-      "example_phonetic": "/dẽ lo.lu/",
-      "example_translation": "Cinq enfants."
+      "term": "tan",
+      "phonetic_api": "[tan]",
+      "phonetic_simple": "tan",
+      "translation": "dix",
+      "example_sentence": "Tan ni kelen.",
+      "example_phonetic": "[tan ni kelen]",
+      "example_translation": "Onze."
     },
     {
       "word_id": "v6",
-      "term": "Wɔrɔ",
-      "phonetic_api": "/wɔ.rɔ/",
-      "phonetic_simple": "WƆ-RƆ",
-      "translation": "Six (6)",
-      "example_sentence": "Bari wɔrɔ.",
-      "example_phonetic": "/ba.ri wɔ.rɔ/",
-      "example_translation": "Six barriques / fûts."
+      "term": "muwan",
+      "phonetic_api": "[muwan]",
+      "phonetic_simple": "mou-wan",
+      "translation": "vingt",
+      "example_sentence": "Muwan ni fila.",
+      "example_phonetic": "[muwan ni fila]",
+      "example_translation": "Vingt-deux."
     },
     {
       "word_id": "v7",
-      "term": "Wolo-wula",
-      "phonetic_api": "/wo.lo.wu.la/",
-      "phonetic_simple": "WO-LO-WOU-LA",
-      "translation": "Sept (7)",
-      "example_sentence": "Murumuru wolo-wula.",
-      "example_phonetic": "/mu.ru.mu.ru wo.lo.wu.la/",
-      "example_translation": "Sept citrons."
+      "term": "cèmè",
+      "phonetic_api": "[tʃɛmɛ]",
+      "phonetic_simple": "tchè-mè",
+      "translation": "cent",
+      "example_sentence": "Cèmè kelen.",
+      "example_phonetic": "[tʃɛmɛ kelen]",
+      "example_translation": "Cent."
     },
     {
       "word_id": "v8",
-      "term": "Seigin",
-      "phonetic_api": "/sei.ɡĩ/",
-      "phonetic_simple": "SEI-GUIN",
-      "translation": "Huit (8)",
-      "example_sentence": "Soli seigin.",
-      "example_phonetic": "/so.li sei.ɡĩ/",
-      "example_translation": "Huit seaux."
-    },
-    {
-      "word_id": "v9",
-      "term": "Kɔnɔntɔ",
-      "phonetic_api": "/kɔ.nɔn.tɔ/",
-      "phonetic_simple": "KƆ-NƆN-TƆ",
-      "translation": "Neuf (9)",
-      "example_sentence": "Taba kɔnɔntɔ.",
-      "example_phonetic": "/ta.ba kɔ.nɔn.tɔ/",
-      "example_translation": "Neuf tabourets."
-    },
-    {
-      "word_id": "v10",
-      "term": "Tan",
-      "phonetic_api": "/tã/",
-      "phonetic_simple": "TAN",
-      "translation": "Dix (10)",
-      "example_sentence": "Mɔgɔ tan.",
-      "example_phonetic": "/mɔ.ɡɔ tã/",
-      "example_translation": "Dix personnes."
+      "term": "fosi",
+      "phonetic_api": "[fosi]",
+      "phonetic_simple": "fo-si",
+      "translation": "zéro (litt. « rien »)",
+      "example_sentence": "Foyi tɛ n bolo, fosi.",
+      "example_phonetic": "[fɔji tɛ n bolo fosi]",
+      "example_translation": "Je n'ai rien, zéro."
     }
   ],
   "common_phrases": [
     {
       "phrase_id": "p1",
-      "original": "Joli le?",
-      "phonetic_api": "/d͡ʒo.li le/",
-      "phonetic_simple": "DJO-LI LÉ",
-      "translation": "Combien ?",
-      "context": "Question essentielle posée au marché ou lors de l'évaluation d'une quantité."
+      "original": "Tan ni fila",
+      "phonetic_api": "[tan ni fila]",
+      "phonetic_simple": "tan-ni-fi-la",
+      "translation": "douze",
+      "context": "Composition dizaine + 'ni' + unité"
     },
     {
       "phrase_id": "p2",
-      "original": "A bɛ joli di?",
-      "phonetic_api": "/a bɛ d͡ʒo.li di/",
-      "phonetic_simple": "A BÈ DJO-LI DI",
-      "translation": "Ça fait combien au total ?",
-      "context": "Utilisé pour demander le compte final ou le prix global."
+      "original": "Bisaba",
+      "phonetic_api": "[bisaba]",
+      "phonetic_simple": "bi-sa-ba",
+      "translation": "trente",
+      "context": "Composition 'bi' (dizaine) + 'saba' (trois)"
     },
     {
       "phrase_id": "p3",
-      "original": "N'bɛ fila fɛ.",
-      "phonetic_api": "/mbɛ fi.la fɛ/",
-      "phonetic_simple": "N-BÈ FI-LA FÈ",
-      "translation": "Je veux deux (unités).",
-      "context": "Indication claire de la quantité voulue lors d'une transaction."
+      "original": "Wa kelen",
+      "phonetic_api": "[wa kelen]",
+      "phonetic_simple": "wa-ké-len",
+      "translation": "mille",
+      "context": "Nombre utilisé pour compter en grandes quantités, notamment l'argent"
     },
     {
       "phrase_id": "p4",
-      "original": "Tan ni kelen.",
-      "phonetic_api": "/tã ni ke.lẽ/",
-      "phonetic_simple": "TAN NI KÉ-LEN",
-      "translation": "Onze (Dix et un).",
-      "context": "Comptage au-delà de dix."
+      "original": "A joman ye a ti?",
+      "phonetic_api": "[a dʒoman je a ti]",
+      "phonetic_simple": "a-djo-man-yé-a-ti",
+      "translation": "Combien cela fait-il ?",
+      "context": "Question utilisée pour demander une quantité ou un prix"
     }
   ],
   "grammar_points": [
     {
-      "concept": "La position du numéral quantificateur",
-      "explanation": "En konyanka, l'adjectif numéral cardinal se place toujours immédiatement après le nom qu'il qualifie. Le nom reste généralement invariable dans sa forme de base.",
+      "concept": "Formation des nombres composés",
+      "explanation": "Les nombres de 11 à 19 se forment avec 'tan' (dix) + 'ni' (et) + l'unité. Les dizaines à partir de 30 se forment avec le préfixe 'bi-' + le chiffre.",
       "rules": [
-        "Structure : Nom + Chiffre (ex: 'mɔgɔ' + 'fila' = deux personnes).",
-        "Pour lier les dizaines et les unités, on utilise la conjonction 'ni' (et) après la dizaine."
+        "tan + ni + unité = 11-19",
+        "bi + chiffre = dizaines (30, 40, 50...)",
+        "muwan = 20 (forme non composée, à part)"
       ],
       "examples": [
         {
-          "structure": "Muso saba",
-          "phonetic_api": "/mu.so sa.ba/",
-          "meaning": "Trois femmes"
+          "structure": "tan ni saba",
+          "phonetic_api": "[tan ni saba]",
+          "meaning": "treize"
         },
         {
-          "structure": "Tan ni nani",
-          "phonetic_api": "/tã ni na.ni/",
-          "meaning": "Quatorze (10 et 4)"
+          "structure": "binaanin",
+          "phonetic_api": "[binaːnin]",
+          "meaning": "quarante"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Amara",
-      "text": "I bɛ malo joli fɛ?",
-      "phonetic_api": "/i bɛ ma.lo d͡ʒo.li fɛ/",
-      "phonetic_simple": "I BÈ MA-LO DJO-LI FÈ",
-      "translation": "Combien de riz veux-tu ?"
+      "speaker": "Marchande",
+      "text": "I bɛ mun san? A sɔngɔ ye cèmè kelen ti.",
+      "phonetic_api": "[i bɛ mun san a sɔŋɔ je tʃɛmɛ kelen ti]",
+      "phonetic_simple": "i-bè-mun-san",
+      "translation": "Qu'achètes-tu ? Le prix est de cent."
     },
     {
-      "speaker": "Sia",
-      "text": "N'bɛ malo lolu fɛ.",
-      "phonetic_api": "/mbɛ ma.lo lo.lu fɛ/",
-      "phonetic_simple": "N-BÈ MA-LO LO-LOU FÈ",
-      "translation": "Je veux cinq portions de riz."
+      "speaker": "Client",
+      "text": "A joman ye a ti sisan?",
+      "phonetic_api": "[a dʒoman je a ti sisan]",
+      "phonetic_simple": "a-djo-man-yé-a-ti",
+      "translation": "Combien cela fait-il maintenant ?"
     },
     {
-      "speaker": "Amara",
-      "text": "Wari joli le?",
-      "phonetic_api": "/wa.ri d͡ʒo.li le/",
-      "phonetic_simple": "WA-RI DJO-LI LÉ",
-      "translation": "Combien d'argent (cela fait) ?"
+      "speaker": "Marchande",
+      "text": "Tan ni loolu dɔrɔn.",
+      "phonetic_api": "[tan ni loːlu dɔrɔn]",
+      "phonetic_simple": "tan-ni-lo-o-lou-do-ron",
+      "translation": "Quinze seulement."
     },
     {
-      "speaker": "Sia",
-      "text": "Tan ni fila le.",
-      "phonetic_api": "/tã ni fi.la le/",
-      "phonetic_simple": "TAN NI FI-LA LÉ",
-      "translation": "Ça fait douze."
+      "speaker": "Client",
+      "text": "Tan ni kelen dɔrɔn, a joman ye a ti?",
+      "phonetic_api": "[tan ni kelen dɔrɔn a dʒoman je a ti]",
+      "phonetic_simple": "tan-ni-ké-len-do-ron",
+      "translation": "Onze seulement, combien cela fait-il ?"
     }
   ],
   "cultural_notes": [
-    "Dans la culture marchande konyanka en Guinée forestière et dans les marchés environnants, le comptage des produits se fait souvent par tas ou par petits groupements standardisés (cinq ou dix pièces), facilitant le calcul rapide sans balance."
+    "Le système de comptage décimal (base dix) du continuum maninka/malinké se retrouve dans l'ensemble des langues manding, y compris dans les zones où le Konyanka est parlé.",
+    "Aucune source consultée ne signale de forme numérale spécifique au Konyanka qui diffère du maninka/malinké standard : les nombres appartiennent au fonds lexical commun le plus stable du continuum."
   ],
   "exercises": [
     {
-      "exercise_id": "ex1",
-      "type": "multiple_choice",
-      "question": "Que signifie le nombre 'Saba' ?",
+      "exercise_id": "e1",
+      "type": "choix_multiple",
+      "question": "Comment dit-on 'quinze' ?",
       "options": [
-        "Deux",
-        "Trois",
-        "Six"
+        "tan ni loolu",
+        "muwan",
+        "bisaba",
+        "cèmè"
       ],
-      "correct_answer": "Trois",
-      "explanation": "'Saba' correspond exactement au chiffre trois en konyanka."
+      "correct_answer": "tan ni loolu",
+      "explanation": "'tan' (dix) + 'ni' (et) + 'loolu' (cinq) = quinze."
     },
     {
-      "exercise_id": "ex2",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Tan ni [ ___ ] (Douze / Dix et deux).",
-      "correct_answer": "fila",
-      "hint": "Le mot pour le chiffre deux."
+      "exercise_id": "e2",
+      "type": "traduction",
+      "question": "Traduisez : 'cent'",
+      "correct_answer": "cèmè",
+      "explanation": "'cèmè' est le nombre cent dans le continuum maninka/malinké."
+    },
+    {
+      "exercise_id": "e3",
+      "type": "texte_a_trous",
+      "sentence_with_blank": "___ ni fila. (Vingt-deux.)",
+      "correct_answer": "Muwan",
+      "explanation": "'muwan' = vingt ; suivi de 'ni fila' (et deux) = vingt-deux."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Malinkuia — Introduction à la langue malinké (grammaire complète, variété du Wulada, Haute-Guinée)",
+      "url": "https://fr.scribd.com/document/499114939/Malinkuia"
+    },
+    {
+      "label": "An ka taa — Maninka/Malinké greetings and phrases",
+      "url": "https://www.ankataa.com/maninka-greetings-and-phrases"
+    },
+    {
+      "label": "Omniglot — Maninka numbers",
+      "url": "https://www.omniglot.com/language/numbers/maninka.htm"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Aucun lexique ou grammaire publiés et dédiés spécifiquement au Konyanka (Koyaka/Konianka, ISO mku) n'a été localisé : les sources académiques disponibles (SIL, Ethnologue, Glottolog) confirment son existence, sa localisation (Beyla, Kérouane, Nzérékoré, Damaro) et son statut de variété vigoureuse du Manding-Est, mais aucune ne fournit de corpus lexical ou phonologique propre à cette variété. Le vocabulaire de cette leçon provient donc du continuum dialectal Maninka/Malinké de Guinée dans lequel le Konyanka s'inscrit (intelligibilité mutuelle attestée), via la grammaire pratique Malinkuia (variété du Wulada, Haute-Guinée) et le site An ka taa. Les spécificités confirmées du Konyanka (nom, localisation, code ISO) sont indiquées dans les notes culturelles plutôt que dans le lexique."
 }

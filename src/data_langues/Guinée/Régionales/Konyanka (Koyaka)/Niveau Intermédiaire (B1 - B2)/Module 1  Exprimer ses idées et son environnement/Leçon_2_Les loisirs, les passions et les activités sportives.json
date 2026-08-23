@@ -6,184 +6,219 @@
   "lesson_number": 2,
   "title": "Les loisirs, les passions et les activités sportives",
   "learning_objectives": [
-    "Exprimer ses activités de détente et ses passe-temps favoris",
-    "Parler des sports populaires et des jeux traditionnels",
-    "Utiliser les structures verbales pour dire ce que l'on fait durant son temps libre"
+    "Parler de ses loisirs et de ses centres d'intérêt",
+    "Nommer quelques activités sportives",
+    "Exprimer la fréquence d'une activité"
   ],
   "phonetic_focus": {
-    "key_sounds": "La consonne nasale palatale /ɲ/ dans 'ɲanajɛ' exige une prononciation souple. Le son /b/ dans 'bori' s'articule fermement avec les deux lèvres. L'allongement de la voyelle ouverte /ɔː/ dans 'tulon' ou les formes contractées doit être nettement marqué pour conserver la dynamique mélodique du konyanka.",
-    "common_pitfalls": "Attention à ne pas prononcer le 'g' de 'toli' ou 'tulon' comme un /ɡ/ dur occidental ; le mot se prononce plutôt comme un /u/ clair suivi d'une articulation fluide de la latérale."
+    "key_sounds": "Le verbe 'tulon kɛ' (jouer, litt. 'faire le jeu') associe un nom et un verbe support ('kɛ' = faire), structure fréquente pour les activités.",
+    "common_pitfalls": "Oublier le verbe support 'kɛ' (faire) après un nom d'activité : on ne dit pas 'n bɛ ntolon' mais 'n bɛ ntolon kɛ'."
   },
   "vocabulary": [
     {
       "word_id": "v1",
-      "term": "Tulon",
-      "phonetic_api": "/tu.lɔ̃/",
-      "phonetic_simple": "TOU-LON",
-      "translation": "Jeu / Jouer / Loisir",
-      "example_sentence": "Den lu bɛ tulon kɛ.",
-      "example_phonetic": "/dẽ lu bɛ tu.lɔ̃ kɛ/",
-      "example_translation": "Les enfants jouent (font un jeu)."
+      "term": "tulon",
+      "phonetic_api": "[tulon]",
+      "phonetic_simple": "tou-lon",
+      "translation": "jeu, loisir",
+      "example_sentence": "N bɛ tulon kɛ lon bɛɛ.",
+      "example_phonetic": "[n bɛ tulon kɛ lɔn bɛːɛ]",
+      "example_translation": "Je joue tous les jours."
     },
     {
       "word_id": "v2",
-      "term": "Bori",
-      "phonetic_api": "/bo.ri/",
-      "phonetic_simple": "BO-RI",
-      "translation": "Courir / Course (sportive)",
-      "example_sentence": "N'bɛ bori fɛ sɔgɔma kura.",
-      "example_phonetic": "/mbɛ bo.ri fɛ sɔ.ɡɔ.ma ku.ra/",
-      "example_translation": "J'aime courir tôt le matin."
+      "term": "ntolon",
+      "phonetic_api": "[n.tolon]",
+      "phonetic_simple": "n-to-lon",
+      "translation": "football, lutte (jeu collectif)",
+      "example_sentence": "N ka ntolon kɛ diya n na.",
+      "example_phonetic": "[n ka n.tolon kɛ dija n na]",
+      "example_translation": "J'aime jouer au football."
     },
     {
       "word_id": "v3",
-      "term": "Don",
-      "phonetic_api": "/dɔ̃/",
-      "phonetic_simple": "DON",
-      "translation": "Danse / Danser",
-      "example_sentence": "Muso lu bɛ don kɛ.",
-      "example_phonetic": "/mu.so lu bɛ dɔ̃ kɛ/",
-      "example_translation": "Les femmes dansent."
+      "term": "dɔnkili",
+      "phonetic_api": "[dɔnkili]",
+      "phonetic_simple": "don-ki-li",
+      "translation": "chanson",
+      "example_sentence": "N bɛ dɔnkili da.",
+      "example_phonetic": "[n bɛ dɔnkili da]",
+      "example_translation": "Je chante une chanson."
     },
     {
       "word_id": "v4",
-      "term": "Ɲanajɛ",
-      "phonetic_api": "/ɲa.na.d͡ʒɛ/",
-      "phonetic_simple": "NYA-NA-DJÈ",
-      "translation": "Se divertir / Amusement / Fête",
-      "example_sentence": "Bi ye ɲanajɛ lon di.",
-      "example_phonetic": "/bi jɛ ɲa.na.d͡ʒɛ lɔ̃ di/",
-      "example_translation": "Aujourd'hui est un jour de fête/divertissement."
+      "term": "dɔn",
+      "phonetic_api": "[dɔn]",
+      "phonetic_simple": "don",
+      "translation": "danse",
+      "example_sentence": "An bɛ dɔn kɛ suw fɛ.",
+      "example_phonetic": "[an bɛ dɔn kɛ suw fɛ]",
+      "example_translation": "Nous dansons le soir."
     },
     {
       "word_id": "v5",
-      "term": "Dɔnkili",
-      "phonetic_api": "/dɔn.ki.li/",
-      "phonetic_simple": "DON-KI-LI",
-      "translation": "Chant / Chanson (litt. l'appel de la danse)",
-      "example_sentence": "A bɛ dɔnkili da.",
-      "example_phonetic": "/a bɛ dɔn.ki.li da/",
-      "example_translation": "Il/Elle chante une chanson."
+      "term": "kalan",
+      "phonetic_api": "[kalan]",
+      "phonetic_simple": "ka-lan",
+      "translation": "lecture, étude",
+      "example_sentence": "N ka gafe kalan diya n na.",
+      "example_phonetic": "[n ka ɡafe kalan dija n na]",
+      "example_translation": "J'aime la lecture des livres."
     },
     {
       "word_id": "v6",
-      "term": "Toli",
-      "phonetic_api": "/to.li/",
-      "phonetic_simple": "TO-LI",
-      "translation": "Regarder / Contempler",
-      "example_sentence": "N'bɛ lapi toli fɛ.",
-      "example_phonetic": "/mbɛ la.pi to.li fɛ/",
-      "example_translation": "J'aime regarder le football."
+      "term": "boli",
+      "phonetic_api": "[boli]",
+      "phonetic_simple": "bo-li",
+      "translation": "course à pied",
+      "example_sentence": "N bɛ boli kɛ sooma.",
+      "example_phonetic": "[n bɛ boli kɛ soːma]",
+      "example_translation": "Je fais la course le matin."
+    },
+    {
+      "word_id": "v7",
+      "term": "san o san / lon bɛɛ",
+      "phonetic_api": "[san o san] / [lɔn bɛːɛ]",
+      "phonetic_simple": "san-o-san / lon-bè-è",
+      "translation": "chaque année / tous les jours",
+      "example_sentence": "N bɛ ntolon kɛ lon bɛɛ.",
+      "example_phonetic": "[n bɛ n.tolon kɛ lɔn bɛːɛ]",
+      "example_translation": "Je joue au football tous les jours."
     }
   ],
   "common_phrases": [
     {
       "phrase_id": "p1",
-      "original": "I bɛ mun kɛ i tɛmɛn lon lu la?",
-      "phonetic_api": "/i bɛ mũ kɛ i tɛ.mɛ̃ lɔ̃ lu la/",
-      "phonetic_simple": "I BÈ MOUN KÈ I TÈ-MÈN LON LOU LA",
-      "translation": "Que fais-tu pendant tes jours de repos / ton temps libre ?",
-      "context": "Question courante pour s'informer des habitudes de loisir d'un ami."
+      "original": "I ka mun diya i na?",
+      "phonetic_api": "[i ka mun dija i na]",
+      "phonetic_simple": "i-ka-mun-di-ya-i-na",
+      "translation": "Qu'est-ce que tu aimes ?",
+      "context": "Demander les goûts/passions de quelqu'un"
     },
     {
       "phrase_id": "p2",
-      "original": "N'bɛ tulon kɛ n'baden lu mɛn ni.",
-      "phonetic_api": "/mbɛ tu.lɔ̃ kɛ nba.dẽ lu mɛn ni/",
-      "phonetic_simple": "N-BÈ TOU-LON KÈ N-BA-DEN LOU MÈN NI",
-      "translation": "Je m'amuse avec mes frères et sœurs.",
-      "context": "Réponse indiquant un moment de détente partagé en famille."
+      "original": "N ka ntolon kɛ diya n na",
+      "phonetic_api": "[n ka n.tolon kɛ dija n na]",
+      "phonetic_simple": "n-ka-n-to-lon-kè-di-ya-n-na",
+      "translation": "J'aime jouer au football",
+      "context": "Exprimer une passion sportive"
     },
     {
       "phrase_id": "p3",
-      "original": "Lapi tulon bɛ nyan n'ɲa.",
-      "phonetic_api": "/la.pi tu.lɔ̃ bɛ ɲã nɲa/",
-      "phonetic_simple": "LA-PI TOU-LON BÈ NYAN N-NYA",
-      "translation": "Le football me plaît (est joli à mes yeux).",
-      "context": "Formule pour exprimer sa passion pour le football."
+      "original": "An bɛ tulon kɛ sibiri bɛɛ",
+      "phonetic_api": "[an bɛ tulon kɛ sibiri bɛːɛ]",
+      "phonetic_simple": "an-bè-tou-lon-kè-si-bi-ri-bè-è",
+      "translation": "Nous jouons chaque semaine",
+      "context": "Exprimer une fréquence régulière"
     },
     {
       "phrase_id": "p4",
-      "original": "N'bɛ taa ɲanajɛ la bi.",
-      "phonetic_api": "/mbɛ taː ɲa.na.d͡ʒɛ la bi/",
-      "phonetic_simple": "N-BÈ TAA NYA-NA-DJÈ LA BI",
-      "translation": "Je vais à une fête / un divertissement aujourd'hui.",
-      "context": "Annonce de sa participation à un événement festif."
+      "original": "An bɛ boli kɛ sibiri bɛɛ",
+      "phonetic_api": "[an bɛ boli kɛ sibiri bɛːɛ]",
+      "phonetic_simple": "an-bè-bo-li-kè-si-bi-ri-bè-è",
+      "translation": "Nous faisons de la course chaque semaine",
+      "context": "Exprimer une pratique sportive régulière"
     }
   ],
   "grammar_points": [
     {
-      "concept": "Le verbe nominalisé avec 'kɛ' (faire)",
-      "explanation": "En konyanka, de nombreuses activités (loisirs, sports, métiers) s'expriment en associant un nom d'action (comme 'tulon' ou 'don') au verbe d'action générale 'kɛ' (faire).",
+      "concept": "Le verbe support 'kɛ' (faire)",
+      "explanation": "De nombreuses activités s'expriment par un nom suivi du verbe 'kɛ' (faire), plutôt que par un verbe simple dédié.",
       "rules": [
-        "Structure : Nom d'action + kɛ (ex: 'don kɛ' = faire de la danse / danser).",
-        "À l'inaccompli, cette structure est précédée de la marque 'bɛ'."
+        "Nom d'activité + kɛ = pratiquer cette activité",
+        "'diya ... na' = plaire à quelqu'un, pour exprimer le goût ou la passion"
       ],
       "examples": [
         {
-          "structure": "Bara kɛ",
-          "phonetic_api": "/ba.ra kɛ/",
-          "meaning": "Travailler (faire du travail)"
+          "structure": "ntolon kɛ",
+          "phonetic_api": "[n.tolon kɛ]",
+          "meaning": "jouer au football"
         },
         {
-          "structure": "Tulon kɛ",
-          "phonetic_api": "/tu.lɔ̃ kɛ/",
-          "meaning": "Jouer / Se divertir"
+          "structure": "X ka Y diya X na",
+          "phonetic_api": "[ka dija na]",
+          "meaning": "X aime Y (litt. Y plaît à X)"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Moussa",
-      "text": "Lamine, i bɛ bori kɛ sɔgɔma kura la?",
-      "phonetic_api": "/la.mĩ i bɛ bo.ri kɛ sɔ.ɡɔ.ma ku.ra la/",
-      "phonetic_simple": "LA-MINE, I BÈ BO-RI KÈ SƆ-GƆ-MA KOU-RA LA",
-      "translation": "Lamine, fais-tu de la course tôt le matin ?"
+      "speaker": "Sékou",
+      "text": "I ka mun diya i na, tulon kɛnɛma?",
+      "phonetic_api": "[i ka mun dija i na tulon kɛnɛma]",
+      "phonetic_simple": "i-ka-mun-di-ya-i-na",
+      "translation": "Qu'est-ce que tu aimes, comme loisir ?"
     },
     {
-      "speaker": "Lamine",
-      "text": "Hali, n'bɛ bori ni lapi tulon kɛ juma lon lu la.",
-      "phonetic_api": "/ha.li mbɛ bo.ri ni la.pi tu.lɔ̃ kɛ d͡ʒu.ma lɔ̃ lu la/",
-      "phonetic_simple": "HA-LI, N-BÈ BO-RI NI LA-PI TOU-LON KÈ DJOU-MA LON LOU LA",
-      "translation": "Oui, je cours et je joue au football les vendredis."
+      "speaker": "Aminata",
+      "text": "N ka dɔnkili da diya n na, wa i le?",
+      "phonetic_api": "[n ka dɔnkili da dija n na wa i le]",
+      "phonetic_simple": "n-ka-don-ki-li-da-di-ya-n-na",
+      "translation": "J'aime chanter, et toi ?"
     },
     {
-      "speaker": "Moussa",
-      "text": "I bɛ dɔnkili toli fɛ fana?",
-      "phonetic_api": "/i bɛ dɔn.ki.li to.li fɛ fa.na/",
-      "phonetic_simple": "I BÈ DON-KI-LI TO-LI FÈ FA-NA ?",
-      "translation": "Aimes-tu aussi regarder / écouter les chants ?"
+      "speaker": "Sékou",
+      "text": "Ntolon kɛ le ka diya n na kosɛbɛ.",
+      "phonetic_api": "[n.tolon kɛ le ka dija n na kosɛbɛ]",
+      "phonetic_simple": "n-to-lon-kè-lé-ka-di-ya-n-na",
+      "translation": "C'est le football qui me plaît beaucoup."
     },
     {
-      "speaker": "Lamine",
-      "text": "Hali, dɔnkili da bɛ nyan n'ɲa bɛrɛbɛrɛ.",
-      "phonetic_api": "/ha.li dɔn.ki.li da bɛ ɲã nɲa bɛ.rɛ.bɛ.rɛ/",
-      "phonetic_simple": "HA-LI, DON-KI-LI DA BÈ NYAN N-NYA BÈ-RÈ-BÈ-RÈ",
-      "translation": "Oui, chanter (ouvrir le chant) me plaît énormément."
+      "speaker": "Aminata",
+      "text": "I bɛ boli kɛ fanan wa?",
+      "phonetic_api": "[i bɛ boli kɛ fanan wa]",
+      "phonetic_simple": "i-bè-bo-li-kè-fa-nan-wa",
+      "translation": "Fais-tu aussi de la course à pied ?"
     }
   ],
   "cultural_notes": [
-    "Les loisirs en milieu konyanka intègrent des jeux de société traditionnels comme l'Awalé, très populaire pour stimuler la réflexion stratégique des adultes. Lors des rassemblements communautaires, la musique, portée par des instruments comme le balafon ou le djembé, s'accompagne de chants sacrés ou festifs qui racontent l'histoire de la région."
+    "La lutte traditionnelle et le football sont des activités très populaires dans l'ensemble de la Guinée forestière et de la Haute-Guinée, régions où vivent les Koniankés (Wikipédia — Koniankés).",
+    "Le chant et la danse collective (dɔnkili, dɔn) accompagnent traditionnellement les fêtes et cérémonies dans les sociétés manding, à Beyla comme dans les autres zones du continuum."
   ],
   "exercises": [
     {
-      "exercise_id": "ex1",
-      "type": "multiple_choice",
-      "question": "Que signifie l'action 'Dɔnkili da' ?",
+      "exercise_id": "e1",
+      "type": "choix_multiple",
+      "question": "Comment dit-on 'football' (jeu collectif) ?",
       "options": [
-        "Courir vite",
-        "Chanter / Entonner un chant",
-        "Jouer au football"
+        "dɔnkili",
+        "ntolon",
+        "boli",
+        "kalan"
       ],
-      "correct_answer": "Chanter / Entonner un chant",
-      "explanation": "'Dɔnkili' est le chant, et 'da' exprime l'action de l'ouvrir ou de le produire."
+      "correct_answer": "ntolon",
+      "explanation": "'ntolon' désigne le football/la lutte, jeu collectif traditionnel."
     },
     {
-      "exercise_id": "ex2",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Den lu bɛ [ ___ ] kɛ (Les enfants s'amusent / jouent).",
-      "correct_answer": "tulon",
-      "hint": "Le mot commence par 't' et désigne le jeu."
+      "exercise_id": "e2",
+      "type": "traduction",
+      "question": "Traduisez : 'J'aime chanter.'",
+      "correct_answer": "N ka dɔnkili da diya n na.",
+      "explanation": "'dɔnkili da' = chanter une chanson ; 'diya ... na' = plaire à/aimer."
+    },
+    {
+      "exercise_id": "e3",
+      "type": "texte_a_trous",
+      "sentence_with_blank": "N bɛ ntolon ___ lon bɛɛ. (Je joue au football tous les jours.)",
+      "correct_answer": "kɛ",
+      "explanation": "'kɛ' (faire) est le verbe support qui accompagne 'ntolon' (football)."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Malinkuia — Introduction à la langue malinké (grammaire complète, variété du Wulada, Haute-Guinée)",
+      "url": "https://fr.scribd.com/document/499114939/Malinkuia"
+    },
+    {
+      "label": "An ka taa — Maninka/Malinké greetings and phrases",
+      "url": "https://www.ankataa.com/maninka-greetings-and-phrases"
+    },
+    {
+      "label": "Wikipédia — Koniankés (peuple, préfectures de Beyla et Nzérékoré)",
+      "url": "https://fr.wikipedia.org/wiki/Koniank%C3%A9s"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Aucun lexique ou grammaire publiés et dédiés spécifiquement au Konyanka (Koyaka/Konianka, ISO mku) n'a été localisé. Le vocabulaire de cette leçon provient donc du continuum dialectal Maninka/Malinké de Guinée dans lequel le Konyanka s'inscrit (intelligibilité mutuelle attestée), via la grammaire pratique Malinkuia (variété du Wulada, Haute-Guinée). Les spécificités confirmées du Konyanka sont indiquées dans les notes culturelles plutôt que dans le lexique."
 }

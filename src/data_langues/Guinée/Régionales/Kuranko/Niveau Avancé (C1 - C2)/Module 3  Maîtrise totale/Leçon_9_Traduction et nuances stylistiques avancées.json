@@ -1,145 +1,200 @@
 {
-  "lesson_id": "C1_M3_L9_CORRIGEE",
+  "lesson_id": "C1_M3_L9",
   "level": "Avancé (C1-C2)",
   "module_number": 3,
   "module_title": "Maîtrise totale",
   "lesson_number": 9,
   "title": "Traduction et nuances stylistiques avancées",
   "learning_objectives": [
-    "Transposer des concepts abstraits entre le français et le kuranko sans perte sémantique",
-    "Maîtriser les figures de style complexes telles que l'euphémisme, la litote et la répétition stylistique",
-    "Restituer l'élégance oratoire et le rythme du discours kuranko dans une traduction écrite ou orale"
+    "Comparer une traduction littérale et une traduction idiomatique de proverbes kuranko attestés",
+    "Analyser les choix stylistiques nécessaires pour rendre les nuances culturelles en français",
+    "Pratiquer la traduction inverse (français vers kuranko) sur du vocabulaire attesté"
   ],
   "phonetic_focus": {
-    "key_sounds": "La structure d'insistance finale 'ra kosɛbɛ' exige une émission continue du son fricatif /s/ et une articulation nette de la bilabiale occlusive /b/. Le phonème /l/ dans 'lafasa' doit être fluide et alvéolaire.",
-    "common_pitfalls": "En traduction orale rapide, veillez à ne pas télescoper la voyelle longue de 'feere' (vendre) avec le mot 'fere' (moyen/solution), dont le sens et l'impact stylistique changent totalement la portée de l'énoncé."
+    "key_sounds": "La traduction orale de proverbes kuranko exige de respecter le parallélisme rythmique de l'original (deux propositions de longueur comparable), un trait stylistique à préserver autant que possible en français.",
+    "common_pitfalls": "Les francophones ont tendance à traduire trop littéralement, perdant le parallélisme rythmique, ou au contraire à trop paraphraser, perdant les images culturelles spécifiques (bananes, main, cœur dur)."
   },
   "vocabulary": [
     {
-      "word_id": "v1_c1_m3_l9_corr",
-      "term": "Belen-fere",
-      "phonetic_api": "/bi.len.fe.re/",
-      "phonetic_simple": "BI-LEN-FE-RE",
-      "translation": "Nuance stylistique / Stratagème oratoire / Tournure subtile (litt. : solution du moment)",
-      "example_sentence": "Kuma nɛ belen-fere ka fari",
-      "example_phonetic": "/ku.ma nɛ bi.len.fe.re ka fa.ri/",
-      "example_translation": "La nuance de ce discours est complexe"
+      "word_id": "v1",
+      "term": "yuse gbele",
+      "phonetic_api": "/juse ɡ͡bɛlɛ/",
+      "phonetic_simple": "you-SÈ GBÈ-lè",
+      "translation": "littéralement « cœur dur », traduit idiomatiquement par « fortitude » ou « endurance morale »",
+      "example_sentence": "N ye yuse gbele sɔtɔ.",
+      "example_phonetic": "/n je juse ɡ͡bɛlɛ sɔtɔ/",
+      "example_translation": "J'ai acquis la fortitude (littéralement : j'ai obtenu un cœur dur)."
     },
     {
-      "word_id": "v2_c1_m3_l9_corr",
-      "term": "Lafasa-kuma",
-      "phonetic_api": "/la.fa.sa.ku.ma/",
-      "phonetic_simple": "LA-FA-SA-KOU-MA",
-      "translation": "Plaidoyer / Argumentaire stylistique / Traduction fidèle (qui défend le sens)",
-      "example_sentence": "A ye lafasa-kuma nyuman fɔ",
-      "example_phonetic": "/a d͡ʒe la.fa.sa.ku.ma ɲu.man fɔ/",
-      "example_translation": "Il a prononcé un excellent plaidoyer (une traduction très fidèle)"
+      "word_id": "v2",
+      "term": "hankili kura",
+      "phonetic_api": "/hankili kura/",
+      "phonetic_simple": "an-ki-LI kou-RA",
+      "translation": "littéralement « esprit neuf », traduit idiomatiquement par « nouvelle compréhension » ou « prise de conscience »",
+      "example_sentence": "N na hankili kura sɔtɔ.",
+      "example_phonetic": "/n na hankili kura sɔtɔ/",
+      "example_translation": "J'ai acquis une nouvelle compréhension (littéralement : un esprit neuf)."
     },
     {
-      "word_id": "v3_c1_m3_l9_corr",
-      "term": "Tiɲa-kulu",
-      "phonetic_api": "/ti.ɲa.ku.lu/",
-      "phonetic_simple": "TI-NYA-KOU-LOU",
-      "translation": "La vérité pure / L'essence même des faits",
-      "example_sentence": "Fo an ka tiɲa-kulu fɔ",
-      "example_phonetic": "/fo an ka ti.ɲa.ku.lu fɔ/",
-      "example_translation": "Il faut absolument que nous disions la vérité pure"
+      "word_id": "v3",
+      "term": "kalai nyerela",
+      "phonetic_api": "/kalaj ɲɛrɛla/",
+      "phonetic_simple": "ka-LAÏ gné-rè-LA",
+      "translation": "littéralement « croyance en soi-même », traduit idiomatiquement par « confiance en soi »",
+      "example_sentence": "A ye kalai nyerela sɔtɔ.",
+      "example_phonetic": "/a je kalaj ɲɛrɛla sɔtɔ/",
+      "example_translation": "Il/elle a acquis la confiance en soi (littéralement : la croyance en soi-même)."
+    },
+    {
+      "word_id": "v4",
+      "term": "konto",
+      "phonetic_api": "/konto/",
+      "phonetic_simple": "KON-to",
+      "translation": "littéralement « l'intérieur », traduit idiomatiquement par « les dessous d'une affaire » ou « l'histoire intérieure »",
+      "example_sentence": "N'de ma konto lon.",
+      "example_phonetic": "/n de ma konto lɔn/",
+      "example_translation": "Je ne connais pas l'histoire intérieure (traduction idiomatique de « je ne connais pas l'intérieur »)."
+    },
+    {
+      "word_id": "v5",
+      "term": "sɔtɔ",
+      "phonetic_api": "/sɔtɔ/",
+      "phonetic_simple": "SO-to",
+      "translation": "obtenir, acquérir (verbe récurrent dans toutes les expressions imagées de cette leçon)",
+      "example_sentence": "A ye yuse gbele ni hankili kura sɔtɔ.",
+      "example_phonetic": "/a je juse ɡ͡bɛlɛ ni hankili kura sɔtɔ/",
+      "example_translation": "Il/elle a acquis à la fois la fortitude et une nouvelle compréhension."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p1_c1_m3_l9_corr",
-      "original": "Kuma nɛ belen-fere ka ni, kɔni fo an ka a lafasa-kuma gbanan-lɔn",
-      "phonetic_api": "/ku.ma nɛ bi.len.fe.re ka ni kɔ.ni fo an ka a la.fa.sa.ku.ma g͡ba.nan.lɔn/",
-      "phonetic_simple": "KOU-MA NƐ BI-LEN-FE-RE KA NI, KƆ-NI FO AN KA A LA-FA-SA-KOU-MA GBANAN-LƆN",
-      "translation": "La tournure de cette parole est excellente, cependant il faut que nous en comprenions totalement l'argumentaire fidèle",
-      "context": "Évaluer la qualité d'une traduction ou d'une figure de style lors d'un arbitrage."
+      "phrase_id": "p1",
+      "original": "Barana n'dama na keli, ma koni katara min bi birindi kela ma.",
+      "phonetic_api": "/barana ndama na kɛli ma koni katara min bi birindi kɛla ma/",
+      "phonetic_simple": "ba-RA-na n-DA-ma na KÈ-li ma KO-ni ka-TA-ra min bi bi-RIN-di KÈ-la ma",
+      "translation": "Traduction littérale : « les bananes de la même grappe sont une, mais celles de la même main le sont particulièrement » — traduction idiomatique proposée : « on est tous parents, mais les liens du sang restent les plus forts ».",
+      "context": "Illustre les deux niveaux de traduction possibles pour un même proverbe attesté par Michael Jackson : la littéralité qui préserve l'image culturelle, et l'idiomatique qui privilégie la clarté du message pour un lecteur français."
     },
     {
-      "phrase_id": "p2_c1_m3_l9_corr",
-      "original": "Ni i ye tiɲa-kulu fɔ talalon ra, i ya kuma fanka di bonya",
-      "phonetic_api": "/ni i d͡ʒe ti.ɲa.ku.lu fɔ ta.la.lon ra i ja ku.ma fan.ka di bo.nja/",
-      "phonetic_simple": "NI I YE TI-NYA-KOU-LOU FƆ TA-LA-LON RA, I YA KOU-MA FAN-KA DI BO-NYA",
-      "translation": "Si tu exprimes l'essence de la vérité à travers un proverbe, la force de ton discours s'en trouvera grandie",
-      "context": "Donner un conseil de rhétorique ou de style à un traducteur ou un orateur."
+      "phrase_id": "p2",
+      "original": "Morgo te do ka ban.",
+      "phonetic_api": "/morgo tɛ do ka ban/",
+      "phonetic_simple": "MOR-go tè do ka ban",
+      "translation": "Traduction littérale : « une personne ne finit jamais » — traduction idiomatique : « on ne connaît jamais totalement quelqu'un ».",
+      "context": "Montre comment le verbe « ban » (finir/épuiser), pris littéralement, nécessite une reformulation idiomatique en français pour rendre le sens visé."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "N'de ma konto lon.",
+      "phonetic_api": "/n de ma konto lɔn/",
+      "phonetic_simple": "n dè ma KON-to lon",
+      "translation": "Traduction littérale : « je ne connais pas l'intérieur » — traduction idiomatique : « je ne connais pas le fond de l'histoire ».",
+      "context": "Exemple de traduction où l'image spatiale (l'intérieur) doit être adaptée à une expression idiomatique française équivalente (le fond de l'histoire)."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "A ye yuse gbele ni hankili kura sɔtɔ.",
+      "phonetic_api": "/a je juse ɡ͡bɛlɛ ni hankili kura sɔtɔ/",
+      "phonetic_simple": "a yè you-SÈ GBÈ-lè ni an-ki-LI kou-RA SO-to",
+      "translation": "Il/elle a acquis à la fois la fortitude et une nouvelle compréhension.",
+      "context": "Combine deux expressions imagées étudiées (yuse gbele, hankili kura) pour illustrer comment le traducteur avancé doit gérer plusieurs images stylistiques dans une même phrase."
     }
   ],
   "grammar_points": [
     {
-      "concept": "Le redoublement de focalisation avec 'Belen-fere'",
-      "explanation": "Pour traduire des concepts occidentaux abstraits comme la 'subtilité stylistique' ou la 'nuance', le kuranko avancé associe la marque d'actualisation 'bilen' (désormais/à présent) modifiée phonétiquement et le nom 'fere' (moyen/solution).",
+      "concept": "Les stratégies de traduction littérale versus idiomatique",
+      "explanation": "La traduction de proverbes et d'expressions imagées kuranko, tels qu'attestés et traduits par Michael Jackson lui-même dans ses travaux (qui propose souvent deux niveaux : une traduction littérale entre parenthèses et une traduction contextuelle), impose de choisir entre préserver l'image culturelle source (registre littéral, plus riche en information culturelle mais parfois opaque) et privilégier la compréhension immédiate du lecteur cible (registre idiomatique, plus fluide mais qui gomme la métaphore d'origine).",
       "rules": [
-        "Structure : [Nom du concept] + belen-fere",
-        "Désigne la capacité d'adapter la langue aux circonstances exactes du moment présent."
+        "La traduction littérale est préférable en contexte pédagogique ou ethnographique, où l'image culturelle elle-même est l'objet d'étude.",
+        "La traduction idiomatique est préférable en contexte de communication courante, où seul le message pragmatique importe.",
+        "Un traducteur avancé doit être capable de proposer les deux versions et de justifier son choix selon le contexte de communication."
       ],
       "examples": [
         {
-          "structure": "Kuma belen-fere",
-          "phonetic_api": "/ku.ma bi.len.fe.re/",
-          "meaning": "La nuance stylistique du discours"
-        }
-      ]
-    },
-    {
-      "concept": "L'association de légitimité textuelle 'Lafasa-kuma'",
-      "explanation": "En traduction de haut niveau, une traduction 'fidèle' ou un 'plaidoyer rigoureux' se construit en combinant le verbe 'lafasa' (défendre/soutenir) et le nom 'kuma' (parole).",
-      "rules": [
-        "Structure : Sujet + bɛ + lafasa-kuma + kɛ ra"
-      ],
-      "examples": [
-        {
-          "structure": "A bɛ lafasa-kuma kɛ ra",
-          "phonetic_api": "/a bɛ la.fa.sa.ku.ma kɛ ra/",
-          "meaning": "Il produit une traduction fidèle / Il mène un plaidoyer rigoureux"
+          "structure": "[image littérale] → [équivalent idiomatique français]",
+          "phonetic_api": "/juse ɡ͡bɛlɛ/ → \"fortitude\"",
+          "meaning": "cœur dur → fortitude (perte de l'image corporelle au profit de la clarté)"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Lansana (Le Traducteur)",
-      "text": "Karamɔgɔ, n fɛ ka tariki sɛbɛta nɛ lafasa-kuma kɛ français la. Kɔni belen-fere ca bɛ a la.",
-      "phonetic_api": "/ka.ra.mɔ.gɔ ɲ͡fɛ ka ta.ri.ki sɛ.bɛ.ta nɛ la.fa.sa.ku.ma kɛ fran.çais la kɔ.ni bi.len.fe.re ca bɛ a la/",
-      "phonetic_simple": "KA-RA-MƆ-GƆ, N FƐ KA TA-RI-KI SƐ-BƐ-TA NƐ LA-FA-SA-KOU-MA KƐ FRAN-ÇAIS LA. KƆ-NI BI-LEN-FE-RE TCHA BƐ A LA.",
-      "translation": "Maître, je veux faire la traduction fidèle de ce manuscrit historique en français. Cependant, il contient de nombreuses nuances stylistiques."
+      "speaker": "Traducteur A",
+      "text": "Comment traduirais-tu « yuse gbele » ? Littéralement, cela donne « cœur dur ».",
+      "phonetic_api": "/juse ɡ͡bɛlɛ/",
+      "phonetic_simple": "you-SÈ GBÈ-lè",
+      "translation": "Comment traduirais-tu « yuse gbele » ? Littéralement, cela donne « cœur dur »."
     },
     {
-      "speaker": "Sori (Le Sage)",
-      "text": "O ɛrɛ le ri. Ni i ye tiɲa-kulu kɔlɔsi, i di se ka a kulu gbanan-lɔn. I kana fari-faga kɛ fanko.",
-      "phonetic_api": "/o ɛ.rɛ le ri ni i d͡ʒe ti.ɲa.ku.lu kɔ.lɔ.si i di se ka a ku.lu g͡ba.nan.lɔn i ka.na fa.ri.fa.ga kɛ fan.ko/",
-      "phonetic_simple": "O Ɛ-RƐ LE RI. NI I YE TI-NYA-KOU-LOU KƆ-LƆ-SI, I DI SE KA A KOU-LOU GBANAN-LƆN. I KA-NA FA-RI-FA-GA KƐ FAN-KO.",
-      "translation": "C'est la stricte vérité. Si tu analyses l'essence des faits, tu pourras en décoder tout le sens profond. Ne te décourage pas, en outre."
+      "speaker": "Traducteur B",
+      "text": "N ye a faham, koni « fortitude » ka fisa francais kan.",
+      "phonetic_api": "/n je a faham koni fortitude ka fisa fransɛ kan/",
+      "phonetic_simple": "n yè a fa-AM, KO-ni for-ti-TUDE ka FI-sa fran-SÈ kan",
+      "translation": "Je comprends, mais « fortitude » est préférable en français."
     },
     {
-      "speaker": "Lansana (Le Traducteur)",
-      "text": "I ni wale, n fa ! Kuma nɛ fanka ye n dɛmɛ kosɛbɛ. Sinka tɛ n na o ra bilen.",
-      "phonetic_api": "/i ni wa.le ɱ͡fa ku.ma nɛ fan.ka d͡ʒe ɲ͡dɛ.mɛ ko.sɛ.bɛ sin.ka tɛ ɱ͡na o ra bi.len/",
-      "phonetic_simple": "I NI WA-LE, N FA ! KOU-MA NƐ FAN-KA YE N DƐ-MƐ KO-SƐ-BƐ. SIN-KA TƐ N NA O RA BI-LEN.",
-      "translation": "Merci, mon père ! La force de cette parole m'a beaucoup aidé. Je n'ai plus aucun doute là-dessus désormais."
+      "speaker": "Traducteur A",
+      "text": "A dii! Koni n'de ma konto lon i la kuma ro; hankili kura n' na sɔtɔ.",
+      "phonetic_api": "/a diː koni n de ma konto lɔn i la kuma ro hankili kura n na sɔtɔ/",
+      "phonetic_simple": "a diː, KO-ni n dè ma KON-to lon i la KOU-ma ro ; an-ki-LI kou-RA n na so-TO",
+      "translation": "Très bien ! Mais je ne connaissais pas les dessous de ton raisonnement ; j'ai acquis une nouvelle compréhension."
+    },
+    {
+      "speaker": "Traducteur B",
+      "text": "A ye yuse gbele ni hankili kura sɔtɔ n' na traduction ro.",
+      "phonetic_api": "/a je juse ɡ͡bɛlɛ ni hankili kura sɔtɔ n na traduction ro/",
+      "phonetic_simple": "a yè you-SÈ GBÈ-lè ni an-ki-LI kou-RA SO-to n na tra-duc-TION ro",
+      "translation": "Il/elle a acquis à la fois la fortitude et une nouvelle compréhension dans ma traduction."
     }
   ],
   "cultural_notes": [
-    "L'art de la traduction en pays kuranko exige une double compétence : la maîtrise factuelle des mots et la sensibilité culturelle aux non-dits. Un bon traducteur ne traduit jamais au premier degré (mot à mot). Il doit identifier le 'belen-fere' (le contexte et la tournure stylistique) afin de restituer la parole dans toute son élégance et sa force rhétorique ('fanka'), particulièrement lorsqu'il s'agit de textes touchant à la mémoire des ancêtres."
+    "Michael Jackson, dans ses travaux de référence, présente systématiquement une double traduction (littérale entre parenthèses, puis contextuelle) pour chaque expression kuranko citée, modèle méthodologique repris dans cette leçon.",
+    "La traduction de proverbes portant sur la parenté (comme celui de la banane) illustre la difficulté fondamentale de rendre en français des images culturelles spécifiques (grappe/main) sans notes explicatives, un défi central de toute traduction avancée entre langues éloignées typologiquement et culturellement."
   ],
   "exercises": [
     {
-      "exercise_id": "ex1_c1_m3_l9_corr",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Que désigne métaphoriquement le terme 'Belen-fere' en rhétorique kuranko ?",
+      "question": "Quelle est la traduction littérale de « yuse gbele » ?",
       "options": [
-        "Un prix d'achat",
-        "Une nuance stylistique / Un stratagème oratoire adapté",
-        "Une faute professionnelle"
+        "Cœur dur",
+        "Esprit neuf",
+        "Croyance en soi"
       ],
-      "correct_answer": "Une nuance stylistique / Un stratagème oratoire adapté",
-      "explanation": "Ce terme désigne les subtilités d'adaptation de la langue pour exprimer les nuances exactes d'une pensée."
+      "correct_answer": "Cœur dur",
+      "explanation": "« Yuse gbele » signifie littéralement « cœur dur », traduit idiomatiquement par « fortitude » selon Michael Jackson."
     },
     {
-      "exercise_id": "ex2_c1_m3_l9_corr",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Pour parler d'une traduction fidèle ou d'un plaidoyer rigoureux qui respecte le sens, on utilise le terme : [ ___ ].",
-      "correct_answer": "lafasa-kuma",
-      "hint": "Composé des mots 'défendre' et 'parole'"
+      "sentence_with_blank": "« Hankili kura » se traduit littéralement par « esprit [ ___ ] ».",
+      "correct_answer": "neuf",
+      "hint": "C'est l'adjectif qui qualifie l'esprit dans cette expression, aussi présent dans « wale kura » (nouveau travail)."
+    },
+    {
+      "exercise_id": "ex3",
+      "type": "multiple_choice",
+      "question": "Pourquoi un traducteur avancé doit-il maîtriser à la fois la traduction littérale et idiomatique d'un proverbe kuranko ?",
+      "options": [
+        "Pour choisir la stratégie adaptée au contexte de communication (pédagogique vs courant)",
+        "Parce que la traduction littérale est toujours interdite",
+        "Parce que le kuranko n'a pas de proverbes"
+      ],
+      "correct_answer": "Pour choisir la stratégie adaptée au contexte de communication (pédagogique vs courant)",
+      "explanation": "Le choix entre littéralité (registre ethnographique/pédagogique) et idiomaticité (registre courant) dépend du contexte et du public visé, comme le montre la pratique de traduction de Michael Jackson lui-même."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Michael Jackson, \"How Lifeworlds Work\" (Univ. of Chicago Press, 2022) — extraits",
+      "url": "https://dokumen.pub/how-lifeworlds-work-emotionality-sociality-and-the-ambiguity-of-being-9780226492018.html"
+    },
+    {
+      "label": "Michael Jackson, \"Intersubjective ambiguities\" (Tijdschrift voor Medische Antropologie)",
+      "url": "https://tma.socsci.uva.nl/19_1/jackson.pdf"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Toutes les expressions kuranko et leurs traductions littérales/idiomatiques sont directement attestées chez Michael Jackson, qui propose lui-même explicitement les deux niveaux de traduction dans ses travaux. Le dialogue et l'analyse stylistique synthétique sont des constructions pédagogiques raisonnables s'appuyant fidèlement sur cette méthode de double traduction observée dans la source."
 }

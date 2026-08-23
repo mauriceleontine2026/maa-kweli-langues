@@ -6,173 +6,212 @@
   "lesson_number": 4,
   "title": "La famille et les relations proches",
   "learning_objectives": [
-    "Nommer tous les membres de la famille nucléaire et élargie",
-    "Exprimer les liens de parenté et l'appartenance avec précision"
+    "Nommer les principaux membres de la famille attestés en nalu",
+    "Utiliser les pronoms possessifs pour parler des liens familiaux",
+    "Reconnaître le vocabulaire de genre (mâle/femelle) appliqué aux personnes"
   ],
   "phonetic_focus": {
-    "key_sounds": "La langue nalu emploie des voyelles longues indispensables pour identifier les membres de la famille (comme le double 'aa' dans Baa). Le son 'c' se prononce systématiquement 'tch' /tʃ/. La consonne 'mb' est pré-nasalisée et doit être articulée d'un seul bloc ferme avec les lèvres.",
-    "common_pitfalls": "Attention à ne pas abréger les voyelles doublées (ex: 'baa' ne doit pas sonner comme 'ba'), car l'allongement phonétique traduit ici le respect et la distinction sémantique des anciens."
+    "key_sounds": "Le nalu comporte 7 voyelles avec opposition de longueur (i, u, e [ɪ], o [ʊ], ɛ, ɔ, a) et des consonnes comme θ (proche du 'th' anglais dur, prononcé [f] par de nombreux locuteurs), gb (occlusive labio-vélaire double, sans équivalent en français), et ŋ (comme 'ng' dans 'parking'). Source : Seidel (2024), The Oxford Guide to the Atlantic Languages of West Africa.",
+    "common_pitfalls": "Les francophones ont tendance à confondre ɛ/e et ɔ/o car le français ne marque pas systématiquement cette opposition de fermeture. Le θ est souvent mal prononcé car il n'existe pas en français ; beaucoup de locuteurs nalu eux-mêmes le réalisent [f]. La longueur vocalique (ex. redoublement de voyelle 'ɔɔ') doit être respectée, contrairement au français où elle n'est pas distinctive."
   },
   "vocabulary": [
     {
-      "word_id": "v4_1",
-      "term": "Baa",
-      "phonetic_api": "/baː/",
-      "phonetic_simple": "BAA",
-      "translation": "Père",
-      "example_sentence": "Baa mi a mboye.",
-      "example_phonetic": "/baː mi a mbo.je/",
-      "example_translation": "Mon père va bien."
+      "word_id": "v1",
+      "term": "m-ɲaaŋ / ɲaaŋ",
+      "phonetic_api": "/mɲaːŋ/",
+      "phonetic_simple": "M-NYAANG",
+      "translation": "mère",
+      "example_sentence": "Mɔɔ madeentnaa nɛɛ pe ɲaaŋ hɔɔntɔ maki ɲɔw.",
+      "example_phonetic": "/mɔː madeːntnaː nɛː pe ɲaːŋ hɔːntɔ maki ɲɔw/",
+      "example_translation": "Il lui demanda : « Mère, pourquoi pleures-tu ? »"
     },
     {
-      "word_id": "v4_2",
-      "term": "Nee",
-      "phonetic_api": "/neː/",
-      "phonetic_simple": "NEE",
-      "translation": "Mère",
-      "example_sentence": "Nee mi a kanyen Boké.",
-      "example_phonetic": "/neː mi a ka.ɲeŋ bo.ke/",
-      "example_translation": "Ma mère habite à Boké."
+      "word_id": "v2",
+      "term": "pupaŋ / m-pupaŋ / m-faam",
+      "phonetic_api": "/pupaŋ/, /mpupaŋ/, /mfaːm/",
+      "phonetic_simple": "PUPANG / M-FAAM",
+      "translation": "père",
+      "example_sentence": "Ameyyɛ dɛ pupaŋ maam refyɛ nufur?",
+      "example_phonetic": "/amejːɛ dɛ pupaŋ maːm refjɛ nufur/",
+      "example_translation": "Connaissais-tu mon père, qui est mort la dernière saison sèche ?"
     },
     {
-      "word_id": "v4_3",
-      "term": "Ŋal",
-      "phonetic_api": "/ŋal/",
-      "phonetic_simple": "NGAL",
-      "translation": "Femme / Épouse",
-      "example_sentence": "Ŋal mwo a ce.",
-      "example_phonetic": "/ŋal mwo a tʃe/",
-      "example_translation": "Ton épouse est bonne (gentille)."
+      "word_id": "v3",
+      "term": "baaba",
+      "phonetic_api": "/baːba/",
+      "phonetic_simple": "BAABA",
+      "translation": "ton père (forme d'adresse)",
+      "example_sentence": "Baaba nyeka nɛɛ a bi taa baker mθɔkɔθ kfeef.",
+      "example_phonetic": "/baːba njeka nɛː a bi taː baker mθɔkɔθ kfeːf/",
+      "example_translation": "Ton père a dit que nous devons produire une corde de sable (image proverbiale)."
     },
     {
-      "word_id": "v4_4",
-      "term": "Bweten",
-      "phonetic_api": "/bʷe.ten/",
-      "phonetic_simple": "BOUÉ-TEN",
-      "translation": "Enfant / Fils / Fille",
-      "example_sentence": "M balang bweten bileng.",
-      "example_phonetic": "/m ba.laŋ bʷe.ten bi.leŋ/",
-      "example_translation": "J'ai deux enfants."
+      "word_id": "v4",
+      "term": "m-θaay",
+      "phonetic_api": "/mθaːj/",
+      "phonetic_simple": "M-THAAY",
+      "translation": "femme, épouse",
+      "example_sentence": "Nikaθaay koy kamceknah.",
+      "example_phonetic": "/nikaθaːj koj kamt͜seknah/",
+      "example_translation": "Que celui-là aille là où sa femme extrait le sel."
     },
     {
-      "word_id": "v4_5",
-      "term": "M'ba",
-      "phonetic_api": "/m.ba/",
-      "phonetic_simple": "M-BA",
-      "translation": "Grand-père / Ancêtre",
-      "example_sentence": "M'ba mi boku Kanfarandé.",
-      "example_phonetic": "/m.ba mi bo.ku ka?.fa.?.a?.de/",
-      "example_translation": "Mon grand-père vient de Kanfarandé."
+      "word_id": "v5",
+      "term": "m-ceel",
+      "phonetic_api": "/mt͜seːl/",
+      "phonetic_simple": "M-TSEEL",
+      "translation": "mari, homme (marié)",
+      "example_sentence": "bɛ-ceel",
+      "example_phonetic": "/bɛt͜seːl/",
+      "example_translation": "les hommes (pluriel attesté, Seidel 2024)"
+    },
+    {
+      "word_id": "v6",
+      "term": "m-la",
+      "phonetic_api": "/mla/",
+      "phonetic_simple": "M-LA",
+      "translation": "enfant",
+      "example_sentence": "Malɛɛtɛn rana mla foŋ.",
+      "example_phonetic": "/malɛːtɛn rana mla fɔŋ/",
+      "example_translation": "L'enfant cadet a la maladie malɛɛtɛn."
+    },
+    {
+      "word_id": "v7",
+      "term": "m-foŋ",
+      "phonetic_api": "/mfɔŋ/",
+      "phonetic_simple": "M-FONG",
+      "translation": "petit frère, cadet",
+      "example_sentence": "Mamadouba nɛyeknet dɛ mwɔka maay kuuk?",
+      "example_phonetic": "/mamadouba nɛjeknet dɛ mwɔka maːj kuːk/",
+      "example_translation": "Mamadouba, avez-vous trouvé votre frère aîné à la maison ?"
+    },
+    {
+      "word_id": "v8",
+      "term": "nimɔkɔ",
+      "phonetic_api": "/nimɔkɔ/",
+      "phonetic_simple": "NIMOKO",
+      "translation": "beau-parent, allié par mariage",
+      "example_sentence": "nimɔkɔ / bikiriyɛ",
+      "example_phonetic": "/nimɔkɔ/",
+      "example_translation": "beau-parent (nom à pluriel irrégulier en -(y)ɛ, Seidel 2024)"
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p4_1",
-      "original": "A mboye nalu?",
-      "phonetic_api": "/a mbo.je na.lu/",
-      "phonetic_simple": "A MBO-YÉ NA-LU",
-      "translation": "Comment va la famille ?",
-      "context": "Formule indispensable pour saluer respectueusement le chef de ménage ou s'enquérir des proches."
+      "phrase_id": "p1",
+      "original": "Mɔɔ madeentnaa nɛɛ pe ɲaaŋ hɔɔntɔ maki ɲɔw.",
+      "phonetic_api": "/mɔː madeːntnaː nɛː pe ɲaːŋ hɔːntɔ maki ɲɔw/",
+      "phonetic_simple": "MÔÔ MADÉÉNTNAA NÈÈ PÉ NYAANG HÔÔNTO MAKI NYOW",
+      "translation": "Il lui demanda : « Mère, pourquoi pleures-tu ? »",
+      "context": "Exemple attesté par Seidel (2024) illustrant l'adresse directe à la mère (« pe »)."
     },
     {
-      "phrase_id": "p4_2",
-      "original": "Nalu mi a mboye ce.",
-      "phonetic_api": "/na.lu mi a mbo.je tʃe/",
-      "phonetic_simple": "NA-LU MI A MBO-YÉ TCHÉ",
-      "translation": "Ma famille va très bien.",
-      "context": "Réponse chaleureuse et polie à donner lors des civilités quotidiennes."
+      "phrase_id": "p2",
+      "original": "Mlafaŋ kamtah mɲaaŋ.",
+      "phonetic_api": "/mlafaŋ kamtah mɲaːŋ/",
+      "phonetic_simple": "M-LAFANG KAM-TAH M-NYAANG",
+      "translation": "Depuis le jour où ta mère t'a donné naissance...",
+      "context": "Expression attestée liée à la filiation maternelle."
     },
     {
-      "phrase_id": "p4_3",
-      "original": "A rila nyere bweten mwo?",
-      "phonetic_api": "/a ri.la ɲe.re bʷe.ten mwo/",
-      "phonetic_simple": "A RI-LA NYÉ-RÉ BOUÉ-TEN MWO",
-      "translation": "Comment s'appelle ton enfant ?",
-      "context": "Utilisé pour faire connaissance avec la descendance de votre interlocuteur."
+      "phrase_id": "p3",
+      "original": "Ameyyɛ dɛ pupaŋ maam refyɛ nufur?",
+      "phonetic_api": "/amejːɛ dɛ pupaŋ maːm refjɛ nufur/",
+      "phonetic_simple": "AMEYYÈ DÈ PUPANG MAAM RÉFYÈ NUFUR",
+      "translation": "Connaissais-tu mon père, qui est mort la dernière saison sèche ?",
+      "context": "Illustre le pronom possessif « maam » (mon/ma) appliqué à un parent."
     },
     {
-      "phrase_id": "p4_4",
-      "original": "Bweten mi gbe karandéena.",
-      "phonetic_api": "/bʷe.ten mi gbe ka.ra?.deː.na/",
-      "phonetic_simple": "BOUÉ-TEN MI GBÉ KA-RAN-DÉÉ-NA",
-      "translation": "Mon enfant est étudiant.",
-      "context": "Permet de présenter le statut ou l'activité d'un de ses enfants."
+      "phrase_id": "p4",
+      "original": "Mamadouba nɛyeknet dɛ mwɔka maay kuuk?",
+      "phonetic_api": "/mamadouba nɛjeknet dɛ mwɔka maːj kuːk/",
+      "phonetic_simple": "MAMADOUBA NÈYÉKNET DÈ MWOKA MAAY KOUK",
+      "translation": "Mamadouba, avez-vous trouvé votre frère aîné à la maison ?",
+      "context": "Question sur un membre de la famille, attestée par Seidel (2024)."
     }
   ],
   "grammar_points": [
     {
-      "concept": "Les pronoms possessifs post-nominaux 'mi' et 'mwo'",
-      "explanation": "En nalu, la possession s'exprime très simplement pour les relations de parenté en plaçant le pronom possessif immédiatement après le nom du membre de la famille, sans aucune modification de classe ni de préposition.",
+      "concept": "Pronoms possessifs appliqués à la famille",
+      "explanation": "Les pronoms possessifs nalu (maam « mon/son », maay « ton », kabet « notre inclusif », kabiyɛ « notre exclusif », miin « votre », (m)bɛm « leur ») s'emploient directement après le nom de parenté, comme dans « pupaŋ maam » (mon père) (Seidel 2024).",
       "rules": [
-        "Le pronom 'mi' correspond à la première personne du singulier (mon / ma).",
-        "Le pronom 'mwo' correspond à la deuxième personne du singulier (ton / ta)."
+        "« maam » sert à la fois pour « mon » et « son/sa » ; seul le ton distingue les deux sens à l'oral.",
+        "Le possessif suit toujours le nom, contrairement au français où l'adjectif possessif précède."
       ],
       "examples": [
         {
-          "structure": "Baa mi",
-          "phonetic_api": "/baː mi/",
-          "meaning": "Mon père"
-        },
-        {
-          "structure": "Nee mwo",
-          "phonetic_api": "/neː mwo/",
-          "meaning": "Ta mère"
+          "structure": "pupaŋ maam",
+          "phonetic_api": "/pupaŋ maːm/",
+          "meaning": "mon père / son père"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Sékou",
-      "text": "Mboye, Amara ! A mboye nalu?",
-      "phonetic_api": "/mbo.je a.ma.ra a mbo.je na.lu/",
-      "phonetic_simple": "MBO-YÉ, A-MA-RA ! A MBO-YÉ NA-LU?",
-      "translation": "Bonjour, Amara ! Comment va la famille ?"
+      "speaker": "Fils",
+      "text": "Pe ɲaaŋ, hɔɔntɔ maki ɲɔw?",
+      "phonetic_api": "/pe ɲaːŋ hɔːntɔ maki ɲɔw/",
+      "phonetic_simple": "PÉ NYAANG, HÔÔNTO MAKI NYOW",
+      "translation": "Mère, pourquoi pleures-tu ?"
     },
     {
-      "speaker": "Amara",
-      "text": "Mboye ce, Sékou ! Nalu mi a ce. Baa mi a mboye.",
-      "phonetic_api": "/mbo.je tʃe se.ku na.lu mi a tʃe baː mi a mbo.je/",
-      "phonetic_simple": "MBO-YÉ TCHÉ, SÉ-KOU ! NA-LU MI A TCHÉ. BAA MI A MBO-YÉ.",
-      "translation": "Bonjour bien, Sékou ! Ma famille va bien. Mon père se porte bien."
+      "speaker": "Mère",
+      "text": "Pupaŋ maam refyɛ nufur.",
+      "phonetic_api": "/pupaŋ maːm refjɛ nufur/",
+      "phonetic_simple": "PUPANG MAAM RÉFYÈ NOUFOUR",
+      "translation": "Mon père est mort la dernière saison sèche."
     },
     {
-      "speaker": "Sékou",
-      "text": "Nu koka ! A rila nyere bweten mwo?",
-      "phonetic_api": "/nu ko.ka a ri.la ɲe.re bʷe.ten mwo/",
-      "phonetic_simple": "NOU KO-KA ! A RI-LA NYÉ-RÉ BOUÉ-TEN MWO?",
-      "translation": "Merci ! Comment s'appelle ton enfant ?"
+      "speaker": "Fils",
+      "text": "Mamadouba nɛyeknet dɛ mwɔka maay kuuk?",
+      "phonetic_api": "/mamadouba nɛjeknet dɛ mwɔka maːj kuːk/",
+      "phonetic_simple": "MAMADOUBA NÈYÉKNET DÈ MWOKA MAAY KOUK",
+      "translation": "Mamadouba, as-tu trouvé ton frère aîné à la maison ?"
     },
     {
-      "speaker": "Amara",
-      "text": "Nyere bweten mi gbe Lamine.",
-      "phonetic_api": "/ɲe.re bʷe.ten mi gbe la.min/",
-      "phonetic_simple": "NYÉ-RÉ BOUÉ-TEN MI GBÉ LA-MINE.",
-      "translation": "Le nom de mon enfant est Lamine."
+      "speaker": "Mamadouba",
+      "text": "Hali abetet.",
+      "phonetic_api": "/hali abetet/",
+      "phonetic_simple": "HALI ABÉTÉT",
+      "translation": "Non, il était déjà parti."
     }
   ],
   "cultural_notes": [
-    "Au sein de la communauté Nalu, les structures familiales sont horizontales et très soudées. Les termes de parenté dépassent largement le cadre biologique : l'oncle paternel est respecté et désigné de la même manière que le père ('Baa'), et les cousins germains sont souvent traités et appelés comme des frères et sœurs."
+    "L'adresse directe à la mère utilise le terme « pe », distinct du terme descriptif « ɲaaŋ » utilisé pour parler d'elle à la troisième personne (Seidel 2024) — une nuance culturelle importante dans le respect dû aux parents.",
+    "La société nalu traditionnelle organise la parenté autour de clans, comme le clan Baandɔŋ (baandoŋɛ) mentionné par Seidel (2024), rattachant la famille immédiate à une lignée plus large."
   ],
   "exercises": [
     {
-      "exercise_id": "ex4_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Que signifie l'expression 'Nee mi' ?",
+      "question": "Comment appelle-t-on sa mère en s'adressant directement à elle en nalu ?",
       "options": [
-        "Mon père",
-        "Ma mère",
-        "Mon enfant"
+        "ɲaaŋ",
+        "pe",
+        "pupaŋ"
       ],
-      "correct_answer": "Ma mère",
-      "explanation": "'Nee' est le mot nalu exclusif pour désigner la mère, suivi de 'mi' (mon/ma)."
+      "correct_answer": "pe",
+      "explanation": "« pe » est la forme d'adresse directe attestée par Seidel (2024), distincte de « ɲaaŋ » utilisé à la 3e personne."
     },
     {
-      "exercise_id": "ex4_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Pour demander des nouvelles de la famille, on utilise le terme : A mboye [ ___ ]?",
-      "correct_answer": "nalu",
-      "hint": "Ce terme désigne à la fois le peuple, la langue et la maisonnée."
+      "sentence_with_blank": "« Pupaŋ [ ___ ] » signifie « mon père ».",
+      "correct_answer": "maam",
+      "hint": "Pronom possessif 1sg/3sg, distingué seulement par le ton."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Seidel, F. (2024) « Nalu », in The Oxford Guide to the Atlantic Languages of West Africa, Oxford University Press",
+      "url": "https://academic.oup.com/book/59850/chapter/511378992"
+    },
+    {
+      "label": "Glottolog 5.3, « Nalu » (nalu1240 / naj)",
+      "url": "https://glottolog.org/resource/languoid/id/nalu1240"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Les termes de parenté de base (mère, père, épouse, mari, enfant, cadet, beau-parent) sont attestés dans des phrases d'exemple réelles de Seidel (2024) ; en revanche, des termes plus précis (grand-parent, oncle, cousin) ne sont pas documentés dans les sources disponibles et ont donc été omis plutôt qu'inventés."
 }

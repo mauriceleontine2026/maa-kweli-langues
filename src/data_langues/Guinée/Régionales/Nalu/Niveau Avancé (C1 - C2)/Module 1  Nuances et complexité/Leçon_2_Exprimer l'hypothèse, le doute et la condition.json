@@ -6,158 +6,182 @@
   "lesson_number": 2,
   "title": "Exprimer l'hypothèse, le doute et la condition",
   "learning_objectives": [
-    "Formuler des structures conditionnelles complexes (si... alors...)",
-    "Exprimer l'incertitude, la probabilité et les nuances de doute dans le discours"
+    "Utiliser le marqueur hypothétique ti-yi/ki-yi pour construire une condition",
+    "Employer la structure « mba » (si cela arrive) pour introduire une hypothèse",
+    "Reconnaître le doute exprimé par les particules d'hésitation attestées"
   ],
   "phonetic_focus": {
-    "key_sounds": "La particule conditionnelle 'moti' exige une articulation brève de la voyelle ouverte /ɔ/. Les variations de hauteur tonale sur le morphème 'bosh-e' indiquent le degré de réserve ou d'incertitude de l'orateur.",
-    "common_pitfalls": "Attention à ne pas assimiler le 'th' de 'thila-be' à un /s/. C'est une fricative dentale sourde /θ/ qui doit rester bien distincte pour marquer la potentialité."
+    "key_sounds": "Le nalu comporte 7 voyelles avec opposition de longueur (i, u, e [ɪ], o [ʊ], ɛ, ɔ, a) et des consonnes comme θ (proche du 'th' anglais dur, prononcé [f] par de nombreux locuteurs), gb (occlusive labio-vélaire double, sans équivalent en français), et ŋ (comme 'ng' dans 'parking'). Source : Seidel (2024), The Oxford Guide to the Atlantic Languages of West Africa.",
+    "common_pitfalls": "Les francophones ont tendance à confondre ɛ/e et ɔ/o car le français ne marque pas systématiquement cette opposition de fermeture. Le θ est souvent mal prononcé car il n'existe pas en français ; beaucoup de locuteurs nalu eux-mêmes le réalisent [f]. La longueur vocalique (ex. redoublement de voyelle 'ɔɔ') doit être respectée, contrairement au français où elle n'est pas distinctive."
   },
   "vocabulary": [
     {
-      "word_id": "v20_1",
-      "term": "Moti",
-      "phonetic_api": "/mo.ti/",
-      "phonetic_simple": "MO-TI",
-      "translation": "Si / Au cas où (Condition)",
-      "example_sentence": "Moti a ba, foti mi.",
-      "example_phonetic": "/mo.ti a ba fo.ti mi/",
-      "example_translation": "S'il vient, dis-le-moi."
+      "word_id": "v1",
+      "term": "mba (hypothétique)",
+      "phonetic_api": "/mba/",
+      "phonetic_simple": "M-BA",
+      "translation": "si (cela arrive), construction hypothétique",
+      "example_sentence": "Mba ŋɛytahy wos nɛɛn min naan mti kɔɔmen mɔ.",
+      "example_phonetic": "/mba ŋɛjtahj wos nɛːn min naːn mti kɔːmen mɔ/",
+      "example_translation": "Si cela arrive, partez ; c'est moi qui réparerai cela."
     },
     {
-      "word_id": "v20_2",
-      "term": "Thila-be",
-      "phonetic_api": "/θi.la.be/",
-      "phonetic_simple": "THI-LA-BÉ",
-      "translation": "Peut-être / Il est possible",
-      "example_sentence": "Thila-be m boku wale suba.",
-      "example_phonetic": "/θi.la.be m bo.ku wa.le su.ba/",
-      "example_translation": "Peut-être que je travaillerai demain."
+      "word_id": "v2",
+      "term": "θatben",
+      "phonetic_api": "/θatben/",
+      "phonetic_simple": "THATBÉN",
+      "translation": "durcir, augmenter (causatif complexe)",
+      "example_sentence": "Θatben mɔ bɛθem ki betna mfeew.",
+      "example_phonetic": "/θatben mɔ bɛθem ki betna mfeːw/",
+      "example_translation": "Si tu augmentes cela (le prix), alors les chefs vont protester."
     },
     {
-      "word_id": "v20_3",
-      "term": "Bosh-e",
-      "phonetic_api": "/bɔʃ.e/",
-      "phonetic_simple": "BO-SHÉ",
-      "translation": "Douter / N'être pas sûr",
-      "example_sentence": "M bosh-e foti mwo.",
-      "example_phonetic": "/m bɔʃ.e fo.ti mwo/",
-      "example_translation": "Je doute de ta parole."
+      "word_id": "v3",
+      "term": "sa / me / kam (hésitation)",
+      "phonetic_api": "/sa/, /me/, /kam/",
+      "phonetic_simple": "SA / MÉ / KAM",
+      "translation": "particules d'hésitation",
+      "example_sentence": "sa",
+      "example_phonetic": "/sa/",
+      "example_translation": "particule d'hésitation attestée (Seidel 2024), équivalent fonctionnel de « euh » en français"
     },
     {
-      "word_id": "v20_4",
-      "term": "Lan-na",
-      "phonetic_api": "/lan.na/",
-      "phonetic_simple": "LAN-NA",
-      "translation": "Supposé / Probable",
-      "example_sentence": "A gbe lan-na di soti.",
-      "example_phonetic": "/a ŋgbe lan.na di so.ti/",
-      "example_translation": "Il est probable qu'il réussisse."
+      "word_id": "v4",
+      "term": "paske / pise (« parce que », hésitation/emprunt)",
+      "phonetic_api": "/paske/, /pise/",
+      "phonetic_simple": "PASKÉ / PISÉ",
+      "translation": "parce que (emprunt au français, avec valeur d'hésitation)",
+      "example_sentence": "Pise baay bifaaŋ nɛɛ yɛɛn nki salmer bɛɲiin.",
+      "example_phonetic": "/pise baːj bifaːŋ nɛː jɛːn nki salmer bɛɲiːn/",
+      "example_translation": "Parce que demain nous voulons savoir qui prêchera aux gens."
     },
     {
-      "word_id": "v20_5",
-      "term": "Wolo-moti",
-      "phonetic_api": "/wo.lo.mo.ti/",
-      "phonetic_simple": "WO-LO-MO-TI",
-      "translation": "Chaque fois que / Si jamais",
-      "example_sentence": "Wolo-moti m malang ceeb, m boku di m'mela.",
-      "example_phonetic": "/wo.lo.mo.ti m ba.laŋ tʃeːb m bo.ku di m.me.la/",
-      "example_translation": "Chaque fois que je veux du poisson, je vais à la mer."
+      "word_id": "v5",
+      "term": "dɛ (particule interrogative)",
+      "phonetic_api": "/dɛ/",
+      "phonetic_simple": "DÈ",
+      "translation": "particule marquant l'interrogation/le doute",
+      "example_sentence": "Ameyyɛ dɛ pupaŋ maam refyɛ nufur?",
+      "example_phonetic": "/amejːɛ dɛ pupaŋ maːm refjɛ nufur/",
+      "example_translation": "Savais-tu (est-ce que) mon père est mort la dernière saison sèche ?"
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p20_1",
-      "original": "Moti m malang-a woliŋ cen, m boku-ba-a thath tange.",
-      "phonetic_api": "/mo.ti m ba.laŋ.a wo.liŋ tʃen m bo.ku.ba.a θaθ taŋ.e/",
-      "phonetic_simple": "MO-TI M BA-LANG-A WO-LING TCHEN, M BO-KOU-BA-A THATH TANG-É",
-      "translation": "Si j'avais eu de l'argent hier, j'aurais négocié et fait baisser le prix.",
-      "context": "Formulation d'une condition passée non réalisée (irréel du passé)."
+      "phrase_id": "p1",
+      "original": "Mba ŋɛytahy wos nɛɛn min naan mti kɔɔmen mɔ.",
+      "phonetic_api": "/mba ŋɛjtahj wos nɛːn min naːn mti kɔːmen mɔ/",
+      "phonetic_simple": "M-BA NGÈYTAHY WOS NÈÈN MIN NAAN M-TI KÔÔMÉN MO",
+      "translation": "Si cela arrive, partez ; c'est moi qui réparerai cela.",
+      "context": "Structure hypothétique complète attestée par Seidel (2024)."
     },
     {
-      "phrase_id": "p20_2",
-      "original": "Thila-be baa mwo a boku ba di n'boka n'gbe mu gbele.",
-      "phonetic_api": "/θi.la.be baː mwo a bo.ku ba di n͡bo.ka ŋgbe mu g͡be.le/",
-      "phonetic_simple": "THI-LA-BÉ BAA MWO A BO-KOU BA DI N-BO-KA NGBÉ MOU GBÉ-LÉ",
-      "translation": "Il est possible que ton père vienne à la concession aujourd'hui avant la fin du jour.",
-      "context": "Expression nuancée d'une probabilité temporelle auprès d'un proche."
+      "phrase_id": "p2",
+      "original": "Θatben mɔ bɛθem ki betna mfeew.",
+      "phonetic_api": "/θatben mɔ bɛθem ki betna mfeːw/",
+      "phonetic_simple": "THATBÉN MO BÈTHÉM KI BÉTNA M-FÉÉW",
+      "translation": "Si tu augmentes cela, alors les chefs vont protester.",
+      "context": "Conditionnel implicite (absence de conjonction séparée, ordre des clauses)."
     },
     {
-      "phrase_id": "p20_3",
-      "original": "M bosh-e moti ceeborna we a boku soti di m'mela n'gbe.",
-      "phonetic_api": "/m bɔʃ.e mo.ti tʃeː.bor.na we a bo.ku so.ti di m.me.la ŋgbe/",
-      "phonetic_simple": "M BOSH-É MO-TI TCHÉÉ-BOR-NA WÉ A BO-KOU SO-TI DI M-MÉ-LA NGBÉ",
-      "translation": "Je doute que ce pêcheur puisse réussir en mer aujourd'hui (compte tenu de la météo).",
-      "context": "Formulation avancée du doute quant aux chances d'une activité."
+      "phrase_id": "p3",
+      "original": "Faatu yɔ mataa faaŋ mkɔtaŋ.",
+      "phonetic_api": "/faːtu jɔ mataː faːŋ mkɔtaŋ/",
+      "phonetic_simple": "FAATOU YO MATAA FAANG M-KOTANG",
+      "translation": "Faatu, si tu veux la voir…",
+      "context": "Autre exemple de condition introduite sans conjonction dédiée."
+    },
+    {
+      "phrase_id": "p_extra1",
+      "original": "sa",
+      "phonetic_api": "/sa/",
+      "phonetic_simple": "SA / MÉ / KAM",
+      "translation": "particule d'hésitation attestée (Seidel 2024), équivalent fonctionnel de « euh » en français",
+      "context": "Réemploi de l'exemple attesté pour le terme « sa / me / kam (hésitation) » (voir vocabulaire de cette leçon), afin d'illustrer son usage en phrase."
     }
   ],
   "grammar_points": [
     {
-      "concept": "Le système de la double proposition conditionnelle 'moti... [auxiliaire]'",
-      "explanation": "Pour exprimer la condition en nalu avancé, on utilise le connecteur initial 'moti' (si). La proposition principale utilise ensuite l'auxiliaire de mode adapté au degré de probabilité : 'boku' pour le potentiel futur ou 'boku-ba-a' pour l'irréel du passé.",
+      "concept": "Absence de conjonction hypothétique dédiée : la juxtaposition marquée par le TAM",
+      "explanation": "Le nalu n'utilise pas de mot équivalent unique à « si » : la condition est exprimée soit par la particule « mba » en tête de phrase, soit simplement par la juxtaposition de deux clauses où le TAM (souvent la forme dépendante ti/ki) signale la relation hypothétique (Seidel 2024).",
       "rules": [
-        "Le morphème conditionnel 'moti' se place obligatoirement en tête de la subordonnée.",
-        "La structure verbale de la principale détermine si l'hypothèse est réalisable ou purement fictive."
+        "« mba » introduit une hypothèse générale suivie d'une instruction/conséquence.",
+        "Dans les phrases sans « mba », c'est l'absence de marque temporelle autonome sur le premier verbe qui signale la subordination conditionnelle."
       ],
       "examples": [
         {
-          "structure": "Moti m wale, m boku soti",
-          "phonetic_api": "/mo.ti m wa.le m bo.ku so.ti/",
-          "meaning": "Si je travaille, je réussirai"
-        },
-        {
-          "structure": "Moti m wale-a, m boku-ba-a soti",
-          "phonetic_api": "/mo.ti m wa.le.a m bo.ku.ba.a so.ti/",
-          "meaning": "Si j'avais travaillé, j'aurais réussi"
+          "structure": "mba ŋɛytahy wos",
+          "phonetic_api": "/mba ŋɛjtahj wos/",
+          "meaning": "si cela arrive, partez"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Amara",
-      "text": "Moti baa mwo a gbe ba di thaŋa n'gbe, a boku wale-a rila?",
-      "phonetic_api": "/mo.ti baː mwo a ŋgbe ba di θa.ŋa ŋgbe a bo.ku wa.le.a ri.la/",
-      "phonetic_simple": "MO-TI BAA MWO A NGBÉ BA DI THA-NGA NGBÉ, A BO-KOU WA-LÉ-A RI-LA?",
-      "translation": "Si ton père ne vient pas à la ville aujourd'hui, qu'aurait-il fait à la place ?"
+      "speaker": "Chef",
+      "text": "Θatben mɔ bɛθem ki betna mfeew.",
+      "phonetic_api": "/θatben mɔ bɛθem ki betna mfeːw/",
+      "phonetic_simple": "THATBÉN MO BÈTHÉM KI BÉTNA M-FÉÉW",
+      "translation": "Si tu augmentes cela, les chefs vont protester."
     },
     {
-      "speaker": "Sékou",
-      "text": "Thila-be a boku-ba-a kanyen di n'boka di wale di gbarano. M bosh-e moti a malang ba we.",
-      "phonetic_api": "/θi.la.be a bo.ku.ba.a ka.ɲeŋ di n͡bo.ka di wa.le di g͡ba.ra.no m bɔʃ.e mo.ti a ba.laŋ ba we/",
-      "phonetic_simple": "THI-LA-BÉ A BO-KOU-BA-A KA-NYEN DI N-BO-KA DI WA-LÉ DI GBA-RA-NO. M BOSH-É MO-TI A BA-LANG BA WÉ.",
-      "translation": "Peut-être qu'il serait resté à la maison pour travailler dans la cour. Je doute qu'il ait vraiment envie de venir ici."
+      "speaker": "Marchand",
+      "text": "Mba ŋɛytahy wos nɛɛn min naan mti kɔɔmen mɔ.",
+      "phonetic_api": "/mba ŋɛjtahj wos nɛːn min naːn mti kɔːmen mɔ/",
+      "phonetic_simple": "M-BA NGÈYTAHY WOS NÈÈN MIN NAAN M-TI KÔÔMÉN MO",
+      "translation": "Si cela arrive, partez ; je réparerai cela moi-même."
     },
     {
-      "speaker": "Amara",
-      "text": "Moti a ba suba, foti mi kunu ce. M malang lan wale mwo.",
-      "phonetic_api": "/mo.ti a ba su.ba fo.ti mi ku.nu tʃe m ba.laŋ lan wa.le mwo/",
-      "phonetic_simple": "MO-TI A BA SOU-BA, FO-TI MI KOU-NOU TCHÉ. M BA-LANG LAN WA-LÉ MWO.",
-      "translation": "S'il vient demain, transmets-moi sa sage parole. Je veux réfléchir à son travail."
+      "speaker": "Chef",
+      "text": "Faatu yɔ mataa faaŋ mkɔtaŋ.",
+      "phonetic_api": "/faːtu jɔ mataː faːŋ mkɔtaŋ/",
+      "phonetic_simple": "FAATOU YO MATAA FAANG M-KOTANG",
+      "translation": "Faatu, si tu veux la voir…"
+    },
+    {
+      "speaker": "Marchand",
+      "text": "sa",
+      "phonetic_api": "/sa/",
+      "phonetic_simple": "SA / MÉ / KAM",
+      "translation": "particule d'hésitation attestée (Seidel 2024), équivalent fonctionnel de « euh » en français"
     }
   ],
   "cultural_notes": [
-    "Dans la rhétorique nalu, l'expression directe de la certitude absolue est souvent évitée face aux aînés ou face aux aléas de la nature (comme les marées). Employer des atténuateurs comme 'thila-be' (peut-être) ou des hypothétiques introduits par 'moti' est perçu comme une marque de sagesse et de respect pour l'ordre invisible des choses, démontrant qu'on ne prétend pas contrôler l'avenir."
+    "L'exemple sur la protestation des chefs face à une hausse de prix (« θatben mɔ bɛθem ») illustre une structure sociale où les chefs traditionnels (mfem/mθem) conservent un rôle de régulation économique et sociale (Seidel 2024).",
+    "L'absence d'un mot dédié pour « si » est une caractéristique typologique intéressante à souligner : elle rapproche le nalu de nombreuses langues où la condition se marque par le mode verbal plutôt que par une conjonction lexicale."
   ],
   "exercises": [
     {
-      "exercise_id": "ex20_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel mot nalu utilise-t-on pour introduire une condition ('Si...') ?",
+      "question": "Comment le nalu exprime-t-il typiquement une condition (« si ») ?",
       "options": [
-        "Thila-be",
-        "Moti",
-        "Woliŋ"
+        "Avec un mot dédié unique équivalent à « si »",
+        "Avec « mba » en tête de phrase ou par juxtaposition marquée par le TAM",
+        "Uniquement à l'aide d'un emprunt au français"
       ],
-      "correct_answer": "Moti",
-      "explanation": "'Moti' correspond à la conjonction de condition 'si' placée en début de proposition."
+      "correct_answer": "Avec « mba » en tête de phrase ou par juxtaposition marquée par le TAM",
+      "explanation": "Seidel (2024) atteste cette construction sans conjonction hypothétique dédiée."
     },
     {
-      "exercise_id": "ex20_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Pour dire 'Peut-être qu'il viendra', on commence la phrase par l'adverbe de doute : [ ___ ] a boku ba.",
-      "correct_answer": "Thila-be",
-      "hint": "Renvoie à une notion de potentialité ou de possibilité spatio-temporelle"
+      "sentence_with_blank": "« [ ___ ] ŋɛytahy wos » signifie « Si cela arrive, partez ».",
+      "correct_answer": "Mba",
+      "hint": "Particule introduisant une hypothèse générale."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Seidel, F. (2024) « Nalu », in The Oxford Guide to the Atlantic Languages of West Africa, Oxford University Press",
+      "url": "https://academic.oup.com/book/59850/chapter/511378992"
+    },
+    {
+      "label": "Glottolog 5.3, « Nalu » (nalu1240 / naj)",
+      "url": "https://glottolog.org/resource/languoid/id/nalu1240"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "La construction hypothétique par « mba » et par juxtaposition TAM est bien attestée dans deux phrases complètes de Seidel (2024) ; cependant, la variété des contextes hypothétiques (regret, doute profond) reste peu illustrée dans le corpus disponible."
 }

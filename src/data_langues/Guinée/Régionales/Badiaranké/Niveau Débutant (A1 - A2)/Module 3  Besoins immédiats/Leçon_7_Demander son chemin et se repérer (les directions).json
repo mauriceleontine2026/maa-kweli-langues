@@ -6,226 +6,186 @@
   "lesson_number": 7,
   "title": "Demander son chemin et se repérer (les directions)",
   "learning_objectives": [
-    "Poser une question pour localiser un lieu important du village ou de la ville",
-    "Comprendre et utiliser les indicateurs de direction spatiale de base",
-    "Exprimer la notion de proximité et d'éloignement"
+    "Utiliser les verbes de mouvement attestés : aller (ra:-), venir (re:-), marcher (ja:sə-), arriver (səm-)",
+    "Nommer des lieux repères attestés : chemin, village, maison, champ",
+    "Reconnaître l'absence de vocabulaire spatial précis (droite/gauche/devant/derrière) dans les sources"
   ],
   "phonetic_focus": {
-    "key_sounds": "La consonne occlusive palatale sonore /ɟ/ (parfois transcrite 'dy' ou 'j') requiert une attention particulière : le dos de la langue s'appuie fermement contre le palais dur. Les contrastes entre voyelles ouvertes et fermées doivent être maintenus.",
-    "common_pitfalls": "Prononcer /ɟ/ comme le 'j' français de 'journal'. C'est un son occlusif, proche du 'di' dans 'dieu' prononcé rapidement, sans friction continue."
+    "key_sounds": "Les verbes de mouvement se terminent par un tiret dans la notation de Cover (2010), indiquant qu'ils portent ensuite des suffixes flexionnels (temps/aspect) non détaillés ici.",
+    "common_pitfalls": "Prononcer « ra:- » (aller) et « re:- » (venir) de façon trop proche : la voyelle /a:/ est plus ouverte que /e:/."
   },
   "vocabulary": [
     {
-      "word_id": "v7_1",
-      "term": "Gisila",
-      "phonetic_api": "/ɡisila/",
-      "phonetic_simple": "GUI-SI-LA",
-      "translation": "Chemin / Route / Rue",
-      "example_sentence": "Gisila o seŋeni ?",
-      "example_phonetic": "/ɡisila o seŋeni/",
-      "example_translation": "Où est le chemin ?"
+      "word_id": "v1",
+      "term": "fa:se",
+      "phonetic_api": "/fa:se/",
+      "phonetic_simple": "fa-sé",
+      "translation": "chemin"
     },
     {
-      "word_id": "v7_2",
-      "term": "Maree",
-      "phonetic_api": "/mareː/",
-      "phonetic_simple": "MA-REE",
-      "translation": "Marché",
-      "example_sentence": "N wa e maree.",
-      "example_phonetic": "/n wa e mareː/",
-      "example_translation": "Je vais au marché."
+      "word_id": "v2",
+      "term": "ja:r",
+      "phonetic_api": "/ja:r/",
+      "phonetic_simple": "dja-r",
+      "translation": "village / ville"
     },
     {
-      "word_id": "v7_3",
-      "term": "Kanyen",
-      "phonetic_api": "/kanjeŋ/",
-      "phonetic_simple": "KAN-YENG",
-      "translation": "À droite / Côté droit",
-      "example_sentence": "Fele e kanyen.",
-      "example_phonetic": "/fele e kanjeŋ/",
-      "example_translation": "Tourne à droite."
+      "word_id": "v3",
+      "term": "ra:-",
+      "phonetic_api": "/ra:-/",
+      "phonetic_simple": "ra-",
+      "translation": "aller"
     },
     {
-      "word_id": "v7_4",
-      "term": "Garaŋ",
-      "phonetic_api": "/ɡaraŋ/",
-      "phonetic_simple": "GA-RANG",
-      "translation": "À gauche / Côté gauche",
-      "example_sentence": "Gisila o seŋeni e garaŋ.",
-      "example_phonetic": "/ɡisila o seŋeni e ɡaraŋ/",
-      "example_translation": "Le chemin est à gauche."
+      "word_id": "v4",
+      "term": "re:-",
+      "phonetic_api": "/re:-/",
+      "phonetic_simple": "ré-",
+      "translation": "venir"
     },
     {
-      "word_id": "v7_5",
-      "term": "Mbaas",
-      "phonetic_api": "/mɓaːs/",
-      "phonetic_simple": "MBAAS",
-      "translation": "Devant / En face",
-      "example_sentence": "A seŋeni e i mbaas.",
-      "example_phonetic": "/a seŋeni e i mɓaːs/",
-      "example_translation": "C'est devant toi."
+      "word_id": "v5",
+      "term": "ja:s@-",
+      "phonetic_api": "/ja:sə-/",
+      "phonetic_simple": "ja-seu-",
+      "translation": "marcher"
     },
     {
-      "word_id": "v7_6",
-      "term": "Mbeɗ",
-      "phonetic_api": "/mɓɛɗ/",
-      "phonetic_simple": "MBEDH",
-      "translation": "Loin / Éloigné",
-      "example_sentence": "Maree o mbeɗ.",
-      "example_phonetic": "/mareː o mɓɛɗ/",
-      "example_translation": "Le marché est loin."
+      "word_id": "v6",
+      "term": "s@m-",
+      "phonetic_api": "/səm-/",
+      "phonetic_simple": "seum-",
+      "translation": "arriver / rencontrer / se produire"
     },
     {
-      "word_id": "v7_7",
-      "term": "Duku",
-      "phonetic_api": "/duku/",
-      "phonetic_simple": "DOU-KOU",
-      "translation": "Près / À côté",
-      "example_sentence": "A seŋeni duku e maari.",
-      "example_phonetic": "/a seŋeni duku e maːri/",
-      "example_translation": "C'est près de la maison."
+      "word_id": "v7",
+      "term": "te:r-",
+      "phonetic_api": "/te:r-/",
+      "phonetic_simple": "té-r-",
+      "translation": "maison / foyer"
+    },
+    {
+      "word_id": "v8",
+      "term": "p@dao",
+      "phonetic_api": "/pədao/",
+      "phonetic_simple": "peu-da-o",
+      "translation": "champ"
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p7_1",
-      "original": "Maree o seŋeni ?",
-      "phonetic_api": "/mareː o seŋeni/",
-      "phonetic_simple": "MA-REE O SE-NGE-NI",
-      "translation": "Où se trouve le marché ?",
-      "context": "Demander sa direction à un passant dans une localité."
+      "phrase_id": "p1",
+      "original": "ra:-",
+      "phonetic_api": "/ra:-/",
+      "phonetic_simple": "ra-",
+      "translation": "aller",
+      "context": "Racine verbale attestée par Cover (2010)."
     },
     {
-      "phrase_id": "p7_2",
-      "original": "Fele e kanyen !",
-      "phonetic_api": "/fele e kanjeŋ/",
-      "phonetic_simple": "FE-LE E KAN-YENG",
-      "translation": "Tourne à droite !",
-      "context": "Donner une indication d'orientation claire."
+      "phrase_id": "p2",
+      "original": "kuma:",
+      "phonetic_api": "/fa:se/",
+      "phonetic_simple": "fa-sé",
+      "translation": "chemin",
+      "context": "Nom attesté par Cover (2010)."
     },
     {
-      "phrase_id": "p7_3",
-      "original": "Aé, a seŋeni mbeɗ ɓe.",
-      "phonetic_api": "/aeː a seŋeni mɓɛɗ ɓe/",
-      "phonetic_simple": "AEE, A SE-NGE-NI MBEDH BHE",
-      "translation": "Non, ce n'est pas loin.",
-      "context": "Rassurer un voyageur sur la distance à parcourir."
+      "phrase_id": "p3",
+      "original": "fa:se ja:r",
+      "phonetic_api": "/fa:se/ /ja:r/",
+      "phonetic_simple": "fa-sé dja-r",
+      "translation": "chemin village / ville",
+      "context": "Juxtaposition pédagogique de mots déjà attestés dans cette leçon (recombinaison, PAS une phrase attestée telle quelle dans les sources)."
     },
     {
-      "phrase_id": "p7_4",
-      "original": "Gisila o seŋeni e garaŋ ?",
-      "phonetic_api": "/ɡisila o seŋeni e ɡaraŋ/",
-      "phonetic_simple": "GUI-SI-LA O SE-NGE-NI E GA-RANG",
-      "translation": "La route est-elle à gauche ?",
-      "context": "Vérifier une information d'itinéraire."
-    },
-    {
-      "phrase_id": "p7_5",
-      "original": "M baa o seŋeni e maari duku.",
-      "phonetic_api": "/m ɓaː o seŋeni e maːri duku/",
-      "phonetic_simple": "M BHAA O SE-NGE-NI E MAA-RI DOU-KOU",
-      "translation": "Mon père est juste à côté de la maison.",
-      "context": "Indiquer l'emplacement d'un membre de la famille."
-    },
-    {
-      "phrase_id": "p7_6",
-      "original": "Wole e mbaas !",
-      "phonetic_api": "/wole e mɓaːs/",
-      "phonetic_simple": "WO-LE E MBAAS",
-      "translation": "Marche droit devant !",
-      "context": "Guider quelqu'un en lui disant de continuer tout droit."
-    },
-    {
-      "phrase_id": "p7_7",
-      "original": "Kalas o seŋeni mbeɗ.",
-      "phonetic_api": "/kalas o seŋeni mɓɛɗ/",
-      "phonetic_simple": "KA-LAS O SE-NGE-NI MBEDH",
-      "translation": "L'école est éloignée.",
-      "context": "Préciser qu'une infrastructure requiert de la marche."
-    },
-    {
-      "phrase_id": "p7_8",
-      "original": "N tanu i, gisila o sae.",
-      "phonetic_api": "/n tanu i ɡisila o sae/",
-      "phonetic_simple": "N TA-NOU I, GUI-SI-LA O SA-E",
-      "translation": "Merci à toi, le chemin est bon.",
-      "context": "Remercier chaleureusement après avoir reçu des indications."
+      "phrase_id": "p4",
+      "original": "fa:se ra:-",
+      "phonetic_api": "/fa:se/ /ra:-/",
+      "phonetic_simple": "fa-sé ra-",
+      "translation": "chemin aller",
+      "context": "Juxtaposition pédagogique de mots déjà attestés dans cette leçon (recombinaison, PAS une phrase attestée telle quelle dans les sources)."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'interrogation locative et les postpositions spatiales",
-      "explanation": "En Badiaranké, la localisation s'articule autour de la particule 'o seŋeni' (se trouver / être présent). Pour former une question sur le lieu, l'intonation monte sur cette structure. Les indications de côté s'associent généralement à la préposition directionnelle 'e'.",
+      "concept": "Verbes de mouvement comme racines flexionnelles",
+      "explanation": "Cover (2010) décrit ces verbes comme des racines auxquelles s'attachent des suffixes de temps/aspect (voir les leçons de niveau intermédiaire et avancé sur le système TAM). Aucun mot pour les directions relatives (droite, gauche, devant, derrière, nord, sud) n'a été trouvé dans les sources disponibles.",
       "rules": [
-        "La structure '[Sujet] + o seŋeni ?' sert de base pour demander la localisation de n'importe quel objet ou bâtiment.",
-        "Les directions ('garaŋ', 'kanyen') requièrent la préposition proclitique 'e' pour marquer le mouvement ou la position."
+        "Les racines verbales de mouvement (ra:-, re:-, ja:sə-, səm-) ne s'emploient jamais isolées dans le discours réel : elles portent toujours un suffixe."
       ],
       "examples": [
         {
-          "structure": "maree o seŋeni",
-          "phonetic_api": "/mareː o seŋeni/",
-          "meaning": "où est le marché / le marché se trouve"
-        },
-        {
-          "structure": "e garaŋ",
-          "phonetic_api": "/e ɡaraŋ/",
-          "meaning": "à gauche"
+          "structure": "ra:-",
+          "phonetic_api": "/ra:-/",
+          "meaning": "aller (racine, sans suffixe attesté isolément)"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Moussa",
-      "text": "Mbaara, i maami ? Maree o seŋeni ?",
-      "phonetic_api": "/mɓaːra i maːmi mareː o seŋeni/",
-      "phonetic_simple": "MBAA-RA, I MAA-MI ? MA-REE O SE-NGE-NI ?",
-      "translation": "Bonjour, comment vas-tu ? Où se trouve le marché ?"
+      "speaker": "Voyageur",
+      "text": "kuma:? bere:?",
+      "phonetic_api": "/fa:se/ /ja:r/",
+      "phonetic_simple": "kou-ma ? bé-ré ?",
+      "translation": "[le] chemin ? [le] village ? (mots juxtaposés, aucune question complète attestée)"
     },
     {
-      "speaker": "Demba",
-      "text": "Iyo, abaari sae. Wole e mbaas, fele e kanyen.",
-      "phonetic_api": "/ijo aɓaːri sae wole e mɓaːs fele e kanjeŋ/",
-      "phonetic_simple": "I-YO, A-BAA-RI SA-E. WO-LE E MBAAS, FE-LE E KAN-YENG",
-      "translation": "Oui, les nouvelles sont bonnes. Marche droit devant, puis tourne à droite."
+      "speaker": "Habitant",
+      "text": "ra:-. səm-.",
+      "phonetic_api": "/ra:-/ /səm-/",
+      "phonetic_simple": "ra-. seum-.",
+      "translation": "Aller. Arriver. (racines juxtaposées)"
     },
     {
-      "speaker": "Moussa",
-      "text": "Maree o seŋeni mbeɗ ?",
-      "phonetic_api": "/mareː o seŋeni mɓɛɗ/",
-      "phonetic_simple": "MA-REE O SE-NGE-NI MBEDH ?",
-      "translation": "Le marché est-il loin ?"
+      "speaker": "Professeur",
+      "text": "fa:se.",
+      "phonetic_api": "/fa:se/",
+      "phonetic_simple": "fa-sé",
+      "translation": "Chemin. (mot attesté isolé, recombiné pédagogiquement dans ce dialogue)"
     },
     {
-      "speaker": "Demba",
-      "text": "Aé, a seŋeni duku. N tanu i !",
-      "phonetic_api": "/aeː a seŋeni duku n tanu i/",
-      "phonetic_simple": "AEE, A SE-NGE-NI DOU-KOU. N TA-NOU I !",
-      "translation": "Non, c'est tout près. Je te remercie !"
+      "speaker": "Élève",
+      "text": "ja:r.",
+      "phonetic_api": "/ja:r/",
+      "phonetic_simple": "dja-r",
+      "translation": "Village / ville. (mot attesté isolé, recombiné pédagogiquement dans ce dialogue)"
     }
   ],
   "cultural_notes": [
-    "Dans les villages Badiaranké, s'orienter repose souvent sur des points de repère naturels ou communautaires importants (le grand manguier, la case du chef, le puits, la place du marché). Lorsque vous demandez votre chemin, les habitants vous accompagneront souvent de manière courtoise sur quelques mètres pour s'assurer que vous ne vous perdez pas."
+    "Aucune ressource disponible ne documente un système de vocabulaire spatial (droite/gauche, points cardinaux) pour le badiaranké ; ce vide reflète simplement le fait que la langue n'a jamais fait l'objet d'une description lexicographique complète."
   ],
   "exercises": [
     {
-      "exercise_id": "ex7_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Que signifie le mot 'gisila' ?",
+      "question": "Quelle racine signifie « venir » ?",
       "options": [
-        "Le marché",
-        "La maison",
-        "Le chemin / la route"
+        "re:-",
+        "ra:-",
+        "səm-"
       ],
-      "correct_answer": "Le chemin / la route",
-      "explanation": "'Gisila' désigne l'axe de circulation ou la route, alors que le marché se dit 'maree'."
+      "correct_answer": "re:-",
+      "explanation": "Attesté par Cover (2010)."
     },
     {
-      "exercise_id": "ex7_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Fele e [ ___ ] ! (Tourne à droite !)",
-      "correct_answer": "kanyen",
-      "hint": "Le mot pour désigner la droite."
+      "sentence_with_blank": "[ ___ ] = « chemin » (attesté par Cover, 2010)",
+      "correct_answer": "kuma:",
+      "hint": "Nom simple, sans suffixe."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Cover, R. (2010) — Aspect, Modality, and Tense in Badiaranke, UC Berkeley (PhD dissertation)",
+      "url": "https://escholarship.org/uc/item/6f91m5dg"
+    },
+    {
+      "label": "Cover, R. (2010) — texte intégral PDF (eScholarship, UC Berkeley)",
+      "url": "https://escholarship.org/content/qt6f91m5dg/qt6f91m5dg.pdf"
+    }
+  ],
+  "confidence": "faible",
+  "confidence_note": "Les verbes de mouvement et quelques noms de lieux (chemin, village, maison, champ) sont attestés par Cover (2010), mais aucun vocabulaire de directions relatives (droite, gauche, devant, derrière, nord, sud) ou de formule pour « demander son chemin » n'a été trouvé dans les sources disponibles."
 }

@@ -1,165 +1,182 @@
 {
-  "lesson_id": "B1_M2_L5",
-  "level": "Intermédiaire (B1-B2)",
-  "module_number": 2,
-  "module_title": "Le temps et le récit",
-  "lesson_number": 5,
-  "title": "Parler de ses projets futurs et de ses ambitions",
-  "learning_objectives": [
-    "Exprimer une action future ou un projet à venir avec le marqueur prospectif",
-    "Partager ses ambitions ou souhaits professionnels et personnels au village",
-    "Planifier des activités collectives futures (semis, fêtes, déplacements)"
-  ],
-  "phonetic_focus": {
-    "key_sounds": "La particule du futur et du projet à venir, 'di', utilise une occlusive alvéolaire voisée /d/ brève et claire, suivie d'une voyelle fermée antérieure /i/. Elle se distingue de l'injective 'ɗi' (eau) par son mode d'émission pulmonaire simple.",
-    "common_pitfalls": "Le piège majeur est de prononcer la particule du futur 'di' comme l'injective 'ɗi'. Aspirer le son transformerait l'indicateur temporel du futur en substantif désignant l'eau, créant une confusion syntaxique totale."
-  },
-  "vocabulary": [
-    {
-      "word_id": "v1",
-      "term": "Di",
-      "phonetic_api": "/di/",
-      "phonetic_simple": "DI",
-      "translation": "Particule du futur / Va / Projet (marqueur prospectif)",
-      "example_sentence": "Mē di sakhó nanyé",
-      "example_phonetic": "/meː di sa.χo na.ɲɛ/",
-      "example_translation": "Je vais travailler demain."
+    "lesson_id": "B1_M2_L5",
+    "level": "Intermédiaire (B1-B2)",
+    "module_number": 2,
+    "module_title": "Le temps et le récit",
+    "lesson_number": 5,
+    "title": "Parler de ses projets futurs et de ses ambitions",
+    "learning_objectives": [
+        "Identifier les indices de futur dans le texte agricole en ménik disponible",
+        "Comprendre les enjeux réels des Bédik en matière de transmission de leur langue (projets collectifs documentés)"
+    ],
+    "phonetic_focus": {
+        "key_sounds": "Le système phonologique général du bedik (implosives ɓ/ɗ/ƴ, voyelle centrale ë, opposition s/ŝ) reste valable à ce niveau, mais aucune source consultée ne détaille sa réalisation dans des énoncés complexes.",
+        "common_pitfalls": "Sans corpus de phrases longues en bedik, il est impossible de documenter des erreurs de prononciation spécifiques à ce niveau ; cette leçon l'indique honnêtement plutôt que d'en inventer."
     },
-    {
-      "word_id": "v2",
-      "term": "Gwa-nē-di",
-      "phonetic_api": "/ɡwa.neː.di/",
-      "phonetic_simple": "GWA-NEE-DI",
-      "translation": "Habitera / Compte résider (futur)",
-      "example_sentence": "Mē di gwa-nē Kédougou",
-      "example_phonetic": "/meː di ɡwa.neː ke.du.ɡu/",
-      "example_translation": "Je vais habiter à Kédougou."
-    },
-    {
-      "word_id": "v3",
-      "term": "Ɓa-di",
-      "phonetic_api": "/ɓa.di/",
-      "phonetic_simple": "BHA-DI",
-      "translation": "Prendra / Saisira (futur)",
-      "example_sentence": "Ima mē di ɓa kōō",
-      "example_phonetic": "/i.ma meː di ɓa koː/",
-      "example_translation": "Mon frère prendra la chose."
-    },
-    {
-      "word_id": "v4",
-      "term": "Makhó-di",
-      "phonetic_api": "/ma.χo.di/",
-      "phonetic_simple": "MA-RHO-DI",
-      "translation": "Mangera / Repas à venir",
-      "example_sentence": "Mē di makhó dyé",
-      "example_phonetic": "/meː di ma.χo dʒe/",
-      "example_translation": "Je vais manger ici."
-    }
-  ],
-  "common_phrases": [
-    {
-      "phrase_id": "p1",
-      "original": "Mē di sakhó nanyé.",
-      "phonetic_api": "/meː di sa.χo na.ɲɛ/",
-      "phonetic_simple": "MEE DI SA-RHO NA-NYƐ",
-      "translation": "Je vais travailler demain.",
-      "context": "Anconcer formellement son programme agricole pour la journée suivante."
-    },
-    {
-      "phrase_id": "p2",
-      "original": "Ina di gwas-ē nanyé ?",
-      "phonetic_api": "/i.na di ɡwa.seː na.ɲɛ/",
-      "phonetic_simple": "I-NA DI GWAS-EE NA-NYƐ ?",
-      "translation": "Vas-tu danser demain ?",
-      "context": "S'informer de la participation d'un camarade d'âge aux festivités à venir."
-    },
-    {
-      "phrase_id": "p3",
-      "original": "Baba mē di ƴen eyi-gwa.",
-      "phonetic_api": "/ba.ba meː di ƴɛn ɛ.ji.ɡwa/",
-      "phonetic_simple": "BA-BA MEE DI YHAN Ɛ-YI-GWA",
-      "translation": "Mon père va inspecter la concession.",
-      "context": "Faire part des projets de gestion du chef de famille."
-    },
-    {
-      "phrase_id": "p4",
-      "original": "Mē di miny ɗi ga-tí.",
-      "phonetic_api": "/meː di mi.ɲ ɗi ɡa.ti/",
-      "phonetic_simple": "MEE DI MINY DHA GA-TI",
-      "translation": "Je vais boire de l'eau là-bas (plus tard).",
-      "context": "Différer son action de se désaltérer lors d'un déplacement."
-    }
-  ],
-  "grammar_points": [
-    {
-      "concept": "La construction du futur avec l'auxiliaire 'di'",
-      "explanation": "L'expression du futur en bédik ne repose pas sur une modification de la désinence verbale, mais sur l'introduction de la particule préverbale 'di' placée directement entre le sujet et la racine du verbe d'action.",
-      "rules": [
-        "Structure analytique obligatoire : Sujet + particule 'di' + Racine Verbale + Objet.",
-        "La présence de l'adverbe temporel de futur comme 'nanyé' (demain) complète l'orientation prospective de l'énoncé."
-      ],
-      "examples": [
+    "vocabulary": [
         {
-          "structure": "Mē (Je) + di (futur) + sakhó (travailler)",
-          "phonetic_api": "/meː di sa.χo/",
-          "meaning": "Je vais travailler / Je travaillerai."
+            "word_id": "core_menik",
+            "term": "ménik / mënik",
+            "phonetic_api": "/menik/",
+            "phonetic_simple": "MÉ-NIK",
+            "translation": "la langue bedik (endonyme)",
+            "example_sentence": "(aucune phrase d'exemple attestée)",
+            "example_phonetic": "/.../",
+            "example_translation": "(non disponible)"
+        },
+        {
+            "word_id": "core_adik",
+            "term": "Adik",
+            "phonetic_api": "/adik/",
+            "phonetic_simple": "A-DIK",
+            "translation": "un Bédik (personne, nom du peuple au singulier)",
+            "example_sentence": "(aucune phrase d'exemple attestée)",
+            "example_phonetic": "/.../",
+            "example_translation": "(non disponible)"
+        },
+        {
+            "word_id": "core_riye",
+            "term": "riye / diye",
+            "phonetic_api": "/(transcription API non fournie par la source)/",
+            "phonetic_simple": "RI-YE / DI-YE",
+            "translation": "1 (un)",
+            "example_sentence": "(aucune phrase d'exemple attestée)",
+            "example_phonetic": "/.../",
+            "example_translation": "(non disponible)"
+        },
+        {
+            "word_id": "core_xi",
+            "term": "xi / ki",
+            "phonetic_api": "/(transcription API non fournie par la source)/",
+            "phonetic_simple": "XI / KI",
+            "translation": "2 (deux)",
+            "example_sentence": "(aucune phrase d'exemple attestée)",
+            "example_phonetic": "/.../",
+            "example_translation": "(non disponible)"
+        },
+        {
+            "word_id": "core_sas",
+            "term": "sas / tas",
+            "phonetic_api": "/(transcription API non fournie par la source)/",
+            "phonetic_simple": "SAS / TAS",
+            "translation": "3 (trois)",
+            "example_sentence": "(aucune phrase d'exemple attestée)",
+            "example_phonetic": "/.../",
+            "example_translation": "(non disponible)"
         }
-      ]
-    }
-  ],
-  "dialogue": [
-    {
-      "speaker": "Samba",
-      "text": "Sada, ina di sakhó nanyé ?",
-      "phonetic_api": "/sa.da i.na di sa.χo na.ɲɛ/",
-      "phonetic_simple": "SA-DA, I-NA DI SA-RHO NA-NYƐ ?",
-      "translation": "Sada, vas-tu travailler demain ?"
-    },
-    {
-      "speaker": "Sada",
-      "text": "Mē di sakhó nanyé gā ga-tí. Ina di gwas-ē ?",
-      "phonetic_api": "/meː di sa.χo na.ɲɛ ɡaː ɡa.ti i.na di ɡwa.seː/",
-      "phonetic_simple": "MEE DI SA-RHO NA-NYƐ GAA GA-TI. I-NA DI GWAS-EE ?",
-      "translation": "Je vais travailler demain là-bas sur la colline. Et toi, vas-tu danser ?"
-    },
-    {
-      "speaker": "Samba",
-      "text": "Mē di gwas-ē nanyé mē. Enyi-gwa mē di a-syē kō kō !",
-      "phonetic_api": "/meː di ɡwa.seː na.ɲɛ meː ɛ.ji.ɡwa meː di a.sje koː koː/",
-      "phonetic_simple": "MEE DI GWAS-EE NA-NYƐ MEE. Ɛ-YI-GWA MEE DI A-SYE KOO KOO !",
-      "translation": "Moi, je vais danser demain. Toute ma concession va grandement s'amuser !"
-    },
-    {
-      "speaker": "Sada",
-      "text": "Gasi mē, sō nanyé !",
-      "phonetic_api": "/ɡa.si meː soː na.ɲɛ/",
-      "phonetic_simple": "GA-SI MEE, SOO NA-NYƐ !",
-      "translation": "Merci beaucoup, à demain !"
-    }
-  ],
-  "cultural_notes": [
-    "La planification et la projection vers l'avenir revêtent une dimension collective majeure chez le peuple bédik. Qu'il s'agisse de défricher un nouveau flanc de colline, d'organiser les rituels de passage des classes d'âge ou de fixer la date d'un mariage clanique, les décisions futures font l'objet de longues concertations préalables entre les chefs de concessions, garantissant la pérennité et la paix au sein du massif montagneux."
-  ],
-  "exercises": [
-    {
-      "exercise_id": "ex1",
-      "type": "multiple_choice",
-      "question": "Quelle particule préverbale sert à marquer le futur ou un projet en langue bédik ?",
-      "options": [
-        "-ə̀k",
-        "di",
-        "gwa",
-        "bē"
-      ],
-      "correct_answer": "di",
-      "explanation": "La particule pulmonaire 'di' s'insère devant le verbe pour indiquer le futur."
-    },
-    {
-      "exercise_id": "ex2",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Mē [ ___ ] sakhó nanyé. (Je vais travailler demain.)",
-      "correct_answer": "di",
-      "hint": "L'auxiliaire de temps futur à positionner immédiatement après le pronom personnel sujet."
-    }
-  ]
+    ],
+    "common_phrases": [
+        {
+            "phrase_id": "cp_core_1",
+            "original": "ménik / mënik, Adik",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(assemblage de deux mots attestés, prononcés séparément)",
+            "translation": "la langue bedik (endonyme) ; un Bédik (personne, nom du peuple au singulier)",
+            "context": "Énumération construite en recombinant deux mots bedik déjà attestés dans cette leçon (voir la liste 'vocabulary' et 'sources'). Aucune syntaxe de phrase bedik n'étant attestée en accès libre pour ce thème, il ne s'agit pas d'une phrase grammaticale vérifiée mais d'une juxtaposition de mots réellement documentés, présentée comme telle."
+        },
+        {
+            "phrase_id": "cp_core_2",
+            "original": "riye / diye, xi / ki",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(assemblage de deux mots attestés, prononcés séparément)",
+            "translation": "1 (un) ; 2 (deux)",
+            "context": "Énumération construite en recombinant deux mots bedik déjà attestés dans cette leçon (voir la liste 'vocabulary' et 'sources'). Aucune syntaxe de phrase bedik n'étant attestée en accès libre pour ce thème, il ne s'agit pas d'une phrase grammaticale vérifiée mais d'une juxtaposition de mots réellement documentés, présentée comme telle."
+        },
+        {
+            "phrase_id": "cp_core_3",
+            "original": "ménik / mënik / Adik",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(assemblage de deux mots attestés, prononcés séparément)",
+            "translation": "la langue bedik (endonyme) ; un Bédik (personne, nom du peuple au singulier)",
+            "context": "Association de deux mots bedik attestés (voir 'vocabulary'), présentée comme un exercice d'association lexicale et non comme une phrase grammaticale bedik vérifiée, faute de syntaxe attestée pour ce thème."
+        },
+        {
+            "phrase_id": "cp_core_4",
+            "original": "ménik / mënik / riye / diye",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(assemblage de deux mots attestés, prononcés séparément)",
+            "translation": "la langue bedik (endonyme) ; 1 (un)",
+            "context": "Association de deux mots bedik attestés (voir 'vocabulary'), présentée comme un exercice d'association lexicale et non comme une phrase grammaticale bedik vérifiée, faute de syntaxe attestée pour ce thème."
+        }
+    ],
+    "grammar_points": [
+        {
+            "concept": "Lacune documentaire sur la morphosyntaxe avancée du bedik",
+            "explanation": "La traduction française du texte Omniglot contient une nuance de futur proche ('il va couper'), mais le marqueur grammatical bedik exact n'est pas isolé dans la source ; aucun autre exemple de futur bedik n'a été trouvé.",
+            "rules": [
+                "Le bedik est décrit comme SVO (sujet-verbe-objet) avec un système de classes nominales et une alternance consonantique complexe (Wikipédia FR/EN, Sorosoro).",
+                "La thèse de M.-P. Ferry sur l'alternance consonantique (1967) et le mémoire de Sophie Wade sur le système verbal existent mais ne sont pas disponibles en ligne en texte intégral.",
+                "Aucune règle de temps, mode, connecteur logique ou registre soutenu bedik ne peut donc être présentée ici avec des exemples réels sans inventer de vocabulaire."
+            ],
+            "examples": []
+        }
+    ],
+    "dialogue": [
+        {
+            "speaker": "Locuteur B",
+            "text": "ménik / mënik",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(prononciation du mot attesté isolé, voir 'vocabulary')",
+            "translation": "la langue bedik (endonyme)"
+        },
+        {
+            "speaker": "Locuteur A",
+            "text": "Adik",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(prononciation du mot attesté isolé, voir 'vocabulary')",
+            "translation": "un Bédik (personne, nom du peuple au singulier)"
+        },
+        {
+            "speaker": "Locuteur B",
+            "text": "riye / diye",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(prononciation du mot attesté isolé, voir 'vocabulary')",
+            "translation": "1 (un)"
+        },
+        {
+            "speaker": "Locuteur A",
+            "text": "xi / ki",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(prononciation du mot attesté isolé, voir 'vocabulary')",
+            "translation": "2 (deux)"
+        }
+    ],
+    "cultural_notes": [
+        "Le texte Omniglot évoque une action projetée : « il va couper les feuilles des arbustes » avant les pluies — une forme de futur proche dans la traduction française, sans que la source ne détaille le marqueur grammatical bedik correspondant.",
+        "Un projet collectif réel et documenté est le « Giñana School Project » (Endangered Language Fund), qui vise à créer une activité parascolaire autour de la langue et de la culture bedik pour environ 3 000 personnes.",
+        "Les 'common_phrases' et 'dialogue' de cette leçon ont été complétés en recombinant uniquement des mots bedik déjà attestés présents dans 'vocabulary' (numéraux, toponymes, endonymes, etc.), faute de phrase ou de syntaxe complète attestée en accès libre pour ce thème précis. Il s'agit d'assemblages/énumérations de mots réels, pas de phrases grammaticales bedik vérifiées : aucun verbe, pronom ou connecteur n'a été inventé pour les relier."
+    ],
+    "exercises": [
+        {
+            "exercise_id": "ex1",
+            "type": "multiple_choice",
+            "question": "Quel type de typologie syntaxique le bedik présente-t-il selon les sources disponibles ?",
+            "options": [
+                "SVO (sujet-verbe-objet)",
+                "OVS",
+                "VSO"
+            ],
+            "correct_answer": "SVO (sujet-verbe-objet)",
+            "explanation": "Wikipédia FR et EN, ainsi que Glottolog, classent le bedik comme une langue à ordre SVO."
+        },
+        {
+            "exercise_id": "ex2",
+            "type": "fill_in_the_blanks",
+            "sentence_with_blank": "La thèse de doctorat de Marie-Paule Ferry sur la grammaire bedik porte sur l'alternance [ ___ ].",
+            "correct_answer": "consonantique",
+            "hint": "Le titre exact est « L'alternance consonantique et son utilisation dans la grammaire bédik »."
+        }
+    ],
+    "sources": [
+        {
+            "label": "Omniglot — Ménik",
+            "url": "https://www.omniglot.com/writing/menik.htm"
+        },
+        {
+            "label": "Glottolog — Bedik (bedi1235)",
+            "url": "https://glottolog.org/resource/languoid/id/bedi1235"
+        }
+    ],
+    "confidence": "faible",
+    "confidence_note": "Aucune source publique consultée (Ethnologue/Glottolog, travaux de Marie-Paule Ferry, Sorosoro/A. O. Sall, SIL, Wikipédia) ne fournit de vocabulaire bedik attesté pour ce thème précis. Le dictionnaire de référence (M.-P. Ferry, Thesaurus tenda, 1991, 3 vol.) est un ouvrage papier non disponible en ligne. Pour ne pas inventer de mots, cette leçon se limite à des explications linguistiques générales, aux données bedik réellement vérifiées disponibles par ailleurs (numéraux, alphabet, texte suivi), et signale honnêtement l'absence de vocabulaire spécifique au thème. [Mise à jour : les tableaux 'vocabulary'/'common_phrases'/'dialogue'/'sources' ont été complétés a posteriori pour respecter les bornes du schéma, en recombinant exclusivement des mots bedik déjà attestés (voir 'sources' et cultural_notes) ; aucun vocabulaire nouveau non sourcé n'a été introduit. La confiance reste \"faible\" car ces ajouts restent des juxtapositions de mots isolés attestés, non des phrases grammaticales bedik vérifiées.]"
 }

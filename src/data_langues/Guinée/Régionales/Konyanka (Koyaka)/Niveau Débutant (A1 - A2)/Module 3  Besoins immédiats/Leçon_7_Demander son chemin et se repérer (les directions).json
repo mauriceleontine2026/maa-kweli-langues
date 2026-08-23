@@ -6,204 +6,224 @@
   "lesson_number": 7,
   "title": "Demander son chemin et se repérer (les directions)",
   "learning_objectives": [
-    "Demander la localisation d'un lieu important (marché, gare, maison)",
-    "Comprendre et utiliser les indicateurs de direction de base (gauche, droite, devant)",
-    "Exprimer l'éloignement ou la proximité"
+    "Demander son chemin poliment",
+    "Utiliser les termes de position (droite, gauche, devant, derrière)",
+    "Comprendre des indications simples de proximité et d'éloignement"
   ],
   "phonetic_focus": {
-    "key_sounds": "La consonne /f/ s'articule nettement avec les lèvres. La voyelle nasale terminale dans 'kin' /kĩ/ doit s'arrêter net sans former un son 'n' dur. L'expression 'bila la' demande une transition fluide entre la consonne latérale et la voyelle.",
-    "common_pitfalls": "Veillez à bien détacher le 'k' initial dans 'kɔnɔ' (dedans) pour ne pas le confondre avec 'gɔnɔ' (cou)."
+    "key_sounds": "Les postpositions de lieu ('kan' = sur, 'kôdo' = sous, 'tèma' = entre) se placent après le nom, contrairement au français.",
+    "common_pitfalls": "Vouloir placer la préposition avant le nom comme en français, alors que la construction manding est du type 'nom + postposition'."
   },
   "vocabulary": [
     {
       "word_id": "v1",
-      "term": "Sila",
-      "phonetic_api": "/si.la/",
-      "phonetic_simple": "SI-LA",
-      "translation": "Chemin / Route",
-      "example_sentence": "Sila nin bɛ taa di?",
-      "example_phonetic": "/si.la nĩ bɛ taː di/",
-      "example_translation": "Où mène ce chemin ?"
+      "term": "bèdè",
+      "phonetic_api": "[bɛdɛ]",
+      "phonetic_simple": "bè-dè",
+      "translation": "droite",
+      "example_sentence": "I bɛ taa bèdè fɛ.",
+      "example_phonetic": "[i bɛ taː bɛdɛ fɛ]",
+      "example_translation": "Tu vas vers la droite."
     },
     {
       "word_id": "v2",
-      "term": "Lɔgɔfɛ",
-      "phonetic_api": "/lɔ.ɡɔ.fɛ/",
-      "phonetic_simple": "LƆ-GƆ-FÈ",
-      "translation": "Marché",
-      "example_sentence": "Lɔgɔfɛ bɛ min?",
-      "example_phonetic": "/lɔ.ɡɔ.fɛ bɛ mĩ/",
-      "example_translation": "Où est le marché ?"
+      "term": "numan",
+      "phonetic_api": "[numan]",
+      "phonetic_simple": "nou-man",
+      "translation": "gauche",
+      "example_sentence": "A bɛ numan fɛ.",
+      "example_phonetic": "[a bɛ numan fɛ]",
+      "example_translation": "C'est vers la gauche."
     },
     {
       "word_id": "v3",
-      "term": "Kinini",
-      "phonetic_api": "/ki.ni.ni/",
-      "phonetic_simple": "KI-NI-NI",
-      "translation": "Droite (côté droit / la main droite)",
-      "example_sentence": "Taa i kinini fɛ.",
-      "example_phonetic": "/taː i ki.ni.ni fɛ/",
-      "example_translation": "Va vers ta droite."
+      "term": "nyè / nyètè",
+      "phonetic_api": "[ɲɛ] / [ɲɛtɛ]",
+      "phonetic_simple": "nyè / nyè-tè",
+      "translation": "devant",
+      "example_sentence": "Bon bɛ n nyètè.",
+      "example_phonetic": "[bɔn bɛ n ɲɛtɛ]",
+      "example_translation": "La maison est devant moi."
     },
     {
       "word_id": "v4",
-      "term": "Numanya",
-      "phonetic_api": "/nu.mã.ja/",
-      "phonetic_simple": "NOU-MAN-YA",
-      "translation": "Gauche (côté gauche)",
-      "example_sentence": "Yɛlɛma numanya fɛ.",
-      "example_phonetic": "/jɛ.lɛ.ma nu.mã.ja fɛ/",
-      "example_translation": "Tourne à gauche."
+      "term": "kofè",
+      "phonetic_api": "[kofɛ]",
+      "phonetic_simple": "ko-fè",
+      "translation": "derrière",
+      "example_sentence": "Sugu bɛ bon kofè.",
+      "example_phonetic": "[suɡu bɛ bɔn kofɛ]",
+      "example_translation": "Le marché est derrière la maison."
     },
     {
       "word_id": "v5",
-      "term": "Ɲɛfɛ",
-      "phonetic_api": "/ɲɛ.fɛ/",
-      "phonetic_simple": "NYÈ-FÈ",
-      "translation": "Devant / En avant",
-      "example_sentence": "Taa ɲɛfɛ dɔɔni.",
-      "example_phonetic": "/taː ɲɛ.fɛ dɔː.ni/",
-      "example_translation": "Avance un peu (va un peu devant)."
+      "term": "yan",
+      "phonetic_api": "[jan]",
+      "phonetic_simple": "yan",
+      "translation": "ici",
+      "example_sentence": "N bɛ yan.",
+      "example_phonetic": "[n bɛ jan]",
+      "example_translation": "Je suis ici."
     },
     {
       "word_id": "v6",
-      "term": "Kɔfɛ",
-      "phonetic_api": "/kɔ.fɛ/",
-      "phonetic_simple": "KƆ-FÈ",
-      "translation": "Derrière / En arrière",
-      "example_sentence": "A bɛ i kɔfɛ.",
-      "example_phonetic": "/a bɛ i kɔ.fɛ/",
-      "example_translation": "C'est derrière toi."
+      "term": "yen",
+      "phonetic_api": "[jɛn]",
+      "phonetic_simple": "yèn",
+      "translation": "là-bas",
+      "example_sentence": "A bɛ yen.",
+      "example_phonetic": "[a bɛ jɛn]",
+      "example_translation": "C'est là-bas."
     },
     {
       "word_id": "v7",
-      "term": "Jan",
-      "phonetic_api": "/d͡ʒã/",
-      "phonetic_simple": "DJAN",
-      "translation": "Loin",
-      "example_sentence": "Yen bɛ jan?",
-      "example_phonetic": "/jẽ bɛ d͡ʒã/",
-      "example_translation": "Est-ce que c'est loin ?"
+      "term": "wula la",
+      "phonetic_api": "[wula la]",
+      "phonetic_simple": "wou-la-la",
+      "translation": "loin",
+      "example_sentence": "Sugu ka wula la.",
+      "example_phonetic": "[suɡu ka wula la]",
+      "example_translation": "Le marché est loin."
     },
     {
       "word_id": "v8",
-      "term": "Surun",
-      "phonetic_api": "/su.rũ/",
-      "phonetic_simple": "SOU-ROUN",
-      "translation": "Près / Proche",
-      "example_sentence": "A bɛ surun yan na.",
-      "example_phonetic": "/a bɛ su.rũ jã na/",
-      "example_translation": "C'est près d'ici."
+      "term": "dafè / kèrèfè",
+      "phonetic_api": "[dafɛ] / [kɛrɛfɛ]",
+      "phonetic_simple": "da-fè / kè-rè-fè",
+      "translation": "près, à côté",
+      "example_sentence": "Sugu bɛ n bon dafè.",
+      "example_phonetic": "[suɡu bɛ n bɔn dafɛ]",
+      "example_translation": "Le marché est près de ma maison."
     }
   ],
   "common_phrases": [
     {
       "phrase_id": "p1",
-      "original": "Sila bɛ min?",
-      "phonetic_api": "/si.la bɛ mĩ/",
-      "phonetic_simple": "SI-LA BÈ MIN",
+      "original": "Sira bɛ min?",
+      "phonetic_api": "[sira bɛ min]",
+      "phonetic_simple": "si-ra-bè-min",
       "translation": "Où est le chemin ?",
-      "context": "Formule générique indispensable lorsqu'on est égaré."
+      "context": "Demander son chemin"
     },
     {
       "phrase_id": "p2",
-      "original": "N'bɛ lakarika sila fɛ.",
-      "phonetic_api": "/mbɛ la.ka.ri.ka si.la fɛ/",
-      "phonetic_simple": "N-BÈ LA-KA-RI-KA SI-LA FÈ",
-      "translation": "Je cherche le chemin de l'école.",
-      "context": "Pour préciser sa destination à un passant."
+      "original": "I bɛ taa bèdè fɛ",
+      "phonetic_api": "[i bɛ taː bɛdɛ fɛ]",
+      "phonetic_simple": "i-bè-ta-a-bè-dè-fè",
+      "translation": "Tu vas à droite",
+      "context": "Donner une indication de direction"
     },
     {
       "phrase_id": "p3",
-      "original": "Taa ɲɛfɛ, i bɛ yɛlɛma.",
-      "phonetic_api": "/taː ɲɛ.fɛ i bɛ jɛ.lɛ.ma/",
-      "phonetic_simple": "TAA NYÈ-FÈ, I BÈ YÈ-LÈ-MA",
-      "translation": "Va devant, puis tourne.",
-      "context": "Instruction typique donnée pour guider quelqu'un."
+      "original": "A ka wula la wa?",
+      "phonetic_api": "[a ka wula la wa]",
+      "phonetic_simple": "a-ka-wou-la-la-wa",
+      "translation": "Est-ce loin ?",
+      "context": "S'informer sur la distance à parcourir"
     },
     {
       "phrase_id": "p4",
-      "original": "A bɛ jan dɔɔni.",
-      "phonetic_api": "/a bɛ d͡ʒã dɔː.ni/",
-      "phonetic_simple": "A BÈ DJAN DƆƆ-NI",
-      "translation": "C'est un peu loin.",
-      "context": "Évaluation de la distance pour aider le voyageur à s'organiser."
+      "original": "A bɛ yan dafè",
+      "phonetic_api": "[a bɛ jan dafɛ]",
+      "phonetic_simple": "a-bè-yan-da-fè",
+      "translation": "C'est près d'ici",
+      "context": "Rassurer sur la proximité d'un lieu"
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'interrogatif de lieu 'min'",
-      "explanation": "Pour demander où se trouve un élément, on place le nom suivi de la particule affirmative 'bɛ' (être à/se trouver), puis le mot interrogatif 'min' (où) à la fin de la proposition.",
+      "concept": "Les postpositions de lieu",
+      "explanation": "Contrairement au français, les mots indiquant la position (sur, sous, devant, derrière) se placent après le nom auquel ils se rapportent.",
       "rules": [
-        "Structure : Sujet + bɛ + min ?",
-        "Pour indiquer l'origine d'où l'on vient, on utilise une structure différente avec le verbe bɔ (sortir)."
+        "Nom + postposition de lieu",
+        "kofè (derrière), nyètè (devant), dafè (près) suivent toujours le nom"
       ],
       "examples": [
         {
-          "structure": "So bɛ min?",
-          "phonetic_api": "/so bɛ mĩ/",
-          "meaning": "Où est la maison ?"
-        },
-        {
-          "structure": "I fa bɛ min?",
-          "phonetic_api": "/i fa bɛ mĩ/",
-          "meaning": "Où est ton père ?"
+          "structure": "bon kofè",
+          "phonetic_api": "[bɔn kofɛ]",
+          "meaning": "derrière la maison"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Lamine",
-      "text": "N'ba, lɔgɔfɛ sila bɛ min?",
-      "phonetic_api": "/mba lɔ.ɡɔ.fɛ si.la bɛ mĩ/",
-      "phonetic_simple": "M-BA, LƆ-GƆ-FÈ SI-LA BÈ MIN",
-      "translation": "Maman, où est le chemin du marché ?"
+      "speaker": "Voyageur",
+      "text": "Hakɛtu, sugu bɛ min?",
+      "phonetic_api": "[hakɛtu suɡu bɛ min]",
+      "phonetic_simple": "ha-kè-tou, sou-gou-bè-min",
+      "translation": "Excusez-moi, où est le marché ?"
     },
     {
-      "speaker": "Mariama",
-      "text": "Taa ɲɛfɛ direct, i bɛ yɛlɛma i kinini fɛ.",
-      "phonetic_api": "/taː ɲɛ.fɛ di.rɛkt i bɛ jɛ.lɛ.ma i ki.ni.ni fɛ/",
-      "phonetic_simple": "TAA NYÈ-FÈ DI-REKT, I BÈ YÈ-LÈ-MA I KI-NI-NI FÈ",
-      "translation": "Va tout droit devant, puis tourne sur ta droite."
+      "speaker": "Habitant",
+      "text": "A bɛ yan dafè, i bɛ taa bèdè fɛ.",
+      "phonetic_api": "[a bɛ jan dafɛ i bɛ taː bɛdɛ fɛ]",
+      "phonetic_simple": "a-bè-yan-da-fè, i-bè-ta-a-bè-dè-fè",
+      "translation": "C'est près d'ici, tu vas à droite."
     },
     {
-      "speaker": "Lamine",
-      "text": "A bɛ jan yan na?",
-      "phonetic_api": "/a bɛ d͡ʒã jã na/",
-      "phonetic_simple": "A BÈ DJAN YAN NA",
-      "translation": "Est-ce que c'est loin d'ici ?"
+      "speaker": "Voyageur",
+      "text": "A ka wula la wa?",
+      "phonetic_api": "[a ka wula la wa]",
+      "phonetic_simple": "a-ka-wou-la-la-wa",
+      "translation": "Est-ce loin ?"
     },
     {
-      "speaker": "Mariama",
-      "text": "Aani, a bɛ surun, a bɛ so kɔfɛ.",
-      "phonetic_api": "/aː.ni a bɛ su.rũ a bɛ so kɔ.fɛ/",
-      "phonetic_simple": "AA-NI, A BÈ SOU-ROUN, A BÈ SO KƆ-FÈ",
-      "translation": "Non, c'est proche, c'est juste derrière la maison."
+      "speaker": "Habitant",
+      "text": "Ntè, a ka surun.",
+      "phonetic_api": "[n.tɛ a ka surun]",
+      "phonetic_simple": "n-tè, a-ka-sou-roun",
+      "translation": "Non, c'est proche."
     }
   ],
   "cultural_notes": [
-    "En Guinée, demander son chemin donne souvent lieu à des échanges très chaleureux. Il est d'usage de saluer longuement la personne avant de lui poser la question, et d'appeler respectueusement un inconnu 'N'fa' (mon père) ou 'N'ba' (ma mère) pour témoigner sa considération."
+    "Dans les zones rurales de la région de Beyla et Kérouane où le Konyanka est parlé, les repères de distance et de direction s'appuient souvent sur des éléments naturels ou des points de repère communautaires plutôt que sur des noms de rues formels.",
+    "Il reste d'usage, avant de demander son chemin à un inconnu, de le saluer et de s'excuser ('hakɛtu') — règle de politesse commune à tout le continuum manding."
   ],
   "exercises": [
     {
-      "exercise_id": "ex1",
-      "type": "multiple_choice",
-      "question": "Que signifie l'indicateur de direction 'Kinini' ?",
+      "exercise_id": "e1",
+      "type": "choix_multiple",
+      "question": "Comment dit-on 'à droite' ?",
       "options": [
-        "La gauche",
-        "La droite",
-        "Le milieu"
+        "numan",
+        "bèdè",
+        "kofè",
+        "nyè"
       ],
-      "correct_answer": "La droite",
-      "explanation": "'Kinini' désigne historiquement le côté de la main droite (utilisée pour manger)."
+      "correct_answer": "bèdè",
+      "explanation": "'bèdè' signifie 'droite' dans le continuum maninka/malinké."
     },
     {
-      "exercise_id": "ex2",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Lɔgɔfɛ bɛ [ ___ ] ? (Où est le marché ?)",
-      "correct_answer": "min",
-      "hint": "Le mot interrogatif pour 'où'."
+      "exercise_id": "e2",
+      "type": "traduction",
+      "question": "Traduisez : 'C'est loin.'",
+      "correct_answer": "A ka wula la.",
+      "explanation": "'wula la' = loin ; 'ka' marque la qualité prédicative."
+    },
+    {
+      "exercise_id": "e3",
+      "type": "texte_a_trous",
+      "sentence_with_blank": "Sugu bɛ bon ___. (Le marché est derrière la maison.)",
+      "correct_answer": "kofè",
+      "explanation": "'kofè' = derrière, postposition placée après le nom 'bon' (maison)."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Malinkuia — Introduction à la langue malinké (grammaire complète, variété du Wulada, Haute-Guinée)",
+      "url": "https://fr.scribd.com/document/499114939/Malinkuia"
+    },
+    {
+      "label": "An ka taa — Maninka/Malinké greetings and phrases",
+      "url": "https://www.ankataa.com/maninka-greetings-and-phrases"
+    },
+    {
+      "label": "Wikipédia — Konyanka (classification, géographie, codes ISO/Glottolog)",
+      "url": "https://fr.wikipedia.org/wiki/Konyanka"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Aucun lexique ou grammaire publiés et dédiés spécifiquement au Konyanka (Koyaka/Konianka, ISO mku) n'a été localisé. Le vocabulaire de cette leçon provient donc du continuum dialectal Maninka/Malinké de Guinée dans lequel le Konyanka s'inscrit (intelligibilité mutuelle attestée), via la grammaire pratique Malinkuia (variété du Wulada, Haute-Guinée). Les spécificités confirmées du Konyanka sont indiquées dans les notes culturelles plutôt que dans le lexique."
 }

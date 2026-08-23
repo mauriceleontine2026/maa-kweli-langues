@@ -6,209 +6,185 @@
   "lesson_number": 9,
   "title": "Traduction et nuances stylistiques avancées",
   "learning_objectives": [
-    "Transposer des textes complexes du français au Yalunka en préservant les équivalences idiomatiques",
-    "Maîtriser les glissements sémantiques entre le sens littéral et le sens figuré en contexte oratoire",
-    "Restituer les subtilités poétiques et philosophiques propres à la haute rhétorique jalonké"
+    "Comparer une traduction mot-à-mot et une traduction idiomatique de la phrase-exemple attestée par Wikipedia (EN)",
+    "Repérer les convergences lexicales réelles entre le yalunka et le soussou, déjà documenté dans ce projet",
+    "Distinguer ce qui est un cognat confirmé par les sources de ce qui reste une hypothèse de l'agent"
   ],
   "phonetic_focus": {
-    "key_sounds": "Le verbe pour transposer ou traduire 'gbelemale' demande un enchaînement fluide de l'occlusive labio-vélaire sonore /ɡb/. Le terme de nuance stylistique 'falandiyi' se prononce avec une fermeture vocalique progressive sur le /i/ final. Les doubles voyelles de 'falanfani' s'articulent sans coupure glottale.",
-    "common_pitfalls": "Attention à la labio-vélaire /ɡb/ dans 'gbelemale' : veillez à ne pas séparer les sons /ɡ/ et /b/ en deux syllabes distinctes pour conserver l'élégance de la diction noble."
+    "key_sounds": "Le yalunka (dialonké) comporte une occlusive uvulaire notée « q » (cognat du « x » soussou, prononcée en raclant le fond de la gorge, comme la jota espagnole), des voyelles longues notées par redoublement (ex. « áa »), et des consonnes nasales finales notées « ŋ » (comme le « ng » anglais de « sing »). Le ton (haut ´ / bas `) est phonologiquement distinctif dans la variété de Faléya décrite par Creissels (2010).",
+    "common_pitfalls": "Les francophones prononcent souvent « q » comme un simple « k » au lieu de le racler au fond de la gorge ; ils réduisent le « ŋ » final à « n » ou « ngue » ; et ils ignorent les tons, ce qui peut changer le sens d'un mot puisque le ton est distinctif en yalunka."
   },
   "vocabulary": [
     {
-      "word_id": "v27_1",
-      "term": "Gbelemale",
-      "phonetic_api": "/ɡbe.le.ma.le/",
-      "phonetic_simple": "GBÉ-LÉ-MA-LÉ",
-      "translation": "Traduire / Transposer / Transférer d'une langue à l'autre",
-      "example_sentence": "A lan won na sɛbɛli mɛ gbelemale fanyin.",
-      "example_phonetic": "/a lan won na sɛ.bɛ.li mɛ ɡbe.le.ma.le fan.jin/",
-      "example_translation": "Il nous faut transposer ce texte avec une grande justesse."
+      "word_id": "v1",
+      "term": "báta",
+      "phonetic_api": "/báta/",
+      "phonetic_simple": "BA-ta",
+      "translation": "marque du parfait (accompli)",
+      "example_sentence": "À báta sígá.",
+      "example_phonetic": "/a bata siga/",
+      "example_translation": "Il/elle est déjà parti(e) (accompli)."
     },
     {
-      "word_id": "v27_2",
-      "term": "Falandiyi",
-      "phonetic_api": "/fa.lan.di.ji/",
-      "phonetic_simple": "FA-LAN-DI-YI",
-      "translation": "Nuance de sens / Subtilité stylistique / Sens caché",
-      "example_sentence": "Falandiyi gbe na talatunu mɛ na.",
-      "example_phonetic": "/fa.lan.di.ji ɡbe na ta.la.tu.nu mɛ na/",
-      "example_translation": "Il y a de nombreuses subtilités stylistiques dans cette épopée."
+      "word_id": "v2",
+      "term": "bàra",
+      "phonetic_api": "/bàra/",
+      "phonetic_simple": "BA-ra",
+      "translation": "marque du parfait en soussou (cognat de 'báta')",
+      "example_sentence": "A bara siga (soussou).",
+      "example_phonetic": "/a bara siga/",
+      "example_translation": "Il/elle est déjà parti(e), en soussou."
     },
     {
-      "word_id": "v27_3",
-      "term": "Xunɲafani",
-      "phonetic_api": "/xun.ɲa.fa.ni/",
-      "phonetic_simple": "KHOUN-NYA-FA-NI",
-      "translation": "Sens figuré / Métaphore poétique / Traduction libre",
-      "example_sentence": "Na falan xunɲafani nan a ra won bɛ.",
-      "example_phonetic": "/na fa.lan xun.ɲa.fa.ni nan a ra won bɛ/",
-      "example_translation": "Cette parole s'exprime au sens figuré pour nous."
+      "word_id": "v3",
+      "term": "q",
+      "phonetic_api": "/q/",
+      "phonetic_simple": "q",
+      "translation": "son consonantique du yalunka correspondant au 'x' du soussou (note de transcription de Creissels)",
+      "example_sentence": "qàráŋ̀ (yalunka) / xaranyi (soussou, à vérifier séparément dans le corpus soussou du projet).",
+      "example_phonetic": "/qaraŋ/",
+      "example_translation": "étude — illustre la correspondance q/x entre les deux langues sœurs."
     },
     {
-      "word_id": "v27_4",
-      "term": "Sɛbɛlifani",
-      "phonetic_api": "/sɛ.bɛ.li.fa.ni/",
-      "phonetic_simple": "SÈ-BÈ-LI-FA-NI",
-      "translation": "Traduction littérale / Sens mot à mot / Écrit strict",
-      "example_sentence": "Sɛbɛlifani mu tinma marasibonlon mɛ na.",
-      "example_phonetic": "/sɛ.bɛ.li.fa.ni mu tin.ma ma.ra.si.bon.lon mɛ na/",
-      "example_translation": "La traduction littérale n'est pas acceptée par ce conseil d'administration."
+      "word_id": "v4",
+      "term": "sáfé",
+      "phonetic_api": "/sáfé/",
+      "phonetic_simple": "sa-FÉ",
+      "translation": "écrire",
+      "example_sentence": "À sáfé kíiní.",
+      "example_phonetic": "/a safe kiini/",
+      "example_translation": "Il/elle écrit un conte."
     },
     {
-      "word_id": "v27_5",
-      "term": "Falanfani",
-      "phonetic_api": "/fa.lan.fa.ni/",
-      "phonetic_simple": "FA-LAN-FA-NI",
-      "translation": "Éloquence / Pureté de la langue / Style soutenu",
-      "example_sentence": "Falanfani nan na na kanyin bɛ.",
-      "example_phonetic": "/fa.lan.fa.ni nan na na ka.ɲin bɛ/",
-      "example_translation": "Ce haut dignitaire possède une éloquence remarquable."
+      "word_id": "v5",
+      "term": "kíiní",
+      "phonetic_api": "/kíiní/",
+      "phonetic_simple": "KI-i-ni",
+      "translation": "conte",
+      "example_sentence": "À sáfé kíiní.",
+      "example_phonetic": "/a safe kiini/",
+      "example_translation": "Il/elle écrit un conte."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p27_1",
-      "original": "Singe ra, won na sɛbɛli kbaaxu gbelemale-ma nɛ falandiyi ra.",
-      "phonetic_api": "/sin.ɡe ra won na sɛ.bɛ.li kbaː.xu ɡbe.le.ma.le.ma nɛ fa.lan.di.ji ra/",
-      "phonetic_simple": "SIN-GUÉ RA, WON NA SÈ-BÈ-LI KBAA-KHOU GBÉ-LÉ-MA-LÉ-MA NÈ FA-LAN-DI-YI RA",
-      "translation": "Tout d'abord, nous traduirons ce texte historique en respectant ses nuances stylistiques.",
-      "context": "Ouvrir un atelier d'interprétation ou de haute traduction littéraire."
+      "phrase_id": "p1",
+      "original": "Xoro, a yi sigama a ra nɛ́n xɛ̀ɛn ma nun, koni a mi sigaxi.",
+      "phonetic_api": "/xoro, a yi sigama a ra nɛ́n xɛ̀ɛn ma nun, koni a mi sigaxi/",
+      "phonetic_simple": "XO-ro, a yi si-ga-ma a ra nɛ́n xɛ̀ɛn ma noun, ko-ni a mi si-ga-xi",
+      "translation": "Traduction mot-à-mot : « Hier, il allait le porter à lui champ vers, mais il n'a pas allé. » Traduction idiomatique : « Hier, il devait aller le porter au champ, mais il n'y est pas allé. »",
+      "context": "Phrase-exemple attestée par Wikipedia (EN) ; comparaison des deux niveaux de traduction pour illustrer les nuances stylistiques du passage d'une langue à l'autre."
     },
     {
-      "phrase_id": "p27_2",
-      "original": "Sɛbɛlifani mu tinma m mɛ, xunɲafani nan a fisa won bɛ fari.",
-      "phonetic_api": "/sɛ.bɛ.li.fa.ni mu tin.ma m mɛ xun.ɲa.fa.ni nan a fi.sa won bɛ fa.ri/",
-      "phonetic_simple": "SÈ-BÈ-LI-FA-NI MOU TIN-MA M MÈ, KHOUN-NYA-FA-NI NAN A FI-SA WON BÈ FA-RI",
-      "translation": "Le mot à mot ne convient pas ici, le sens figuré est bien préférable pour nous au-dessus de tout.",
-      "context": "Orienter des traducteurs vers une équivalence dynamique plutôt que littérale."
+      "phrase_id": "p2",
+      "original": "À báadè sígá, à mí báta sígá.",
+      "phonetic_api": "/a badé siga, a mi bata siga/",
+      "phonetic_simple": "a ba-DÉ si-GA, a mi BA-ta si-GA",
+      "translation": "Il vient de partir — ce n'est pas la même chose que 'il est déjà parti' (accompli).",
+      "context": "Compare 'báadè' (passé récent) et 'báta' (accompli), illustrant une nuance de traduction fine entre les deux."
     },
     {
-      "phrase_id": "p27_3",
-      "original": "Hali naxanba i falanfani na fanyin, a lan won na falandiyi matɔxun.",
-      "phonetic_api": "/ha.li na.xan.ba i fa.lan.fa.ni na fan.jin a lan won na fa.lan.di.ji ma.tɔ.xun/",
-      "phonetic_simple": "HA-LI NA-KHAN-BA I FA-LAN-FA-NI NA FAN-YIN, A LAN WON NA FA-LAN-DI-YI MA-TƆ-KHOUN",
-      "translation": "Bien que ton éloquence soit magnifique, nous devons examiner la subtilité du sens.",
-      "context": "Analyser de manière critique un discours politique ou communautaire."
+      "phrase_id": "p3",
+      "original": "Ń sáfé kíiní bée fàransé xa.",
+      "phonetic_api": "/n safe kiini bee faranse xa/",
+      "phonetic_simple": "n sa-FÉ KI-i-ni BÉ-é fa-ran-SÉ xa",
+      "translation": "J'écris (traduis) ce conte en français.",
+      "context": "Combine 'sáfé' (écrire) et 'kíiní' (conte), tous deux attestés, pour illustrer un exercice de traduction."
     },
     {
-      "phrase_id": "p27_4",
-      "original": "Tɔɔnsɛbɛli mɛ gbelemale bata tin fanyin kiitide kanyin bɛ.",
-      "phonetic_api": "/tɔːn.sɛ.bɛ.li mɛ ɡbe.le.ma.le ba.ta tin fan.jin kiː.ti.de ka.ɲin bɛ/",
-      "phonetic_simple": "TƆƆN-SÈ-BÈ-LI MÈ GBÉ-LÉ-MA-LÉ BA-TA TIN FAN-YIN KII-TI-DÉ KA-NYIN BÈ",
-      "translation": "La transposition de cet acte juridique a pleinement satisfait le magistrat du tribunal.",
-      "context": "Confirmer l'homologation officielle d'une traduction certifiée."
-    },
-    {
-      "phrase_id": "p27_5",
-      "original": "Mun falandiyi nan na i bɛ na falanmabilin kbaaxu mɛ na ?",
-      "phonetic_api": "/mun fa.lan.di.ji nan na i bɛ na fa.lan.ma.bi.lin kbaː.xu mɛ na/",
-      "phonetic_simple": "MOUN FA-LAN-DI-YI NAN NA I BÈ NA FA-LAN-MA-BI-LIN KBAA-KHOU MÈ NA ?",
-      "translation": "Quelle nuance stylistique tires-tu de cette allégorique d'époque ?",
-      "context": "Questionner un spécialiste sur les finesses de la poésie ancienne."
-    },
-    {
-      "phrase_id": "p27_6",
-      "original": "Xunɲafani mɛ na baraa gbe sɔtɔ won mambilin birin bɛ.",
-      "phonetic_api": "/xun.ɲa.fa.ni mɛ na ba.raː ɡbe sɔ.tɔ won maːm.bi.lin bi.rin bɛ/",
-      "phonetic_simple": "KHOUN-NYA-FA-NI MÈ NA BA-RAA GBÉ SO-TO WON MAAM-BI-LIN BI-RIN BÈ",
-      "translation": "Cette interprétation métaphorique apporte une immense grâce à notre lignée ancestrale.",
-      "context": "Célébrer la redécouverte d'un sens caché lors d'un rituel de chefferie."
-    },
-    {
-      "phrase_id": "p27_7",
-      "original": "A fisa won na falanfani tongo singe, na fɛ won na marasibonlon demba.",
-      "phonetic_api": "/a fi.sa won na fa.lan.fa.ni ton.ɡo sin.ɡe na fɛ won na ma.ra.si.bon.lon dem.ba/",
-      "phonetic_simple": "A FI-SA WON NA FA-LAN-FA-NI TON-GO SIN-GUÉ, NA FÈ WON NA MA-RA-SI-BON-LON DEM-BA",
-      "translation": "Il vaut mieux que nous adoptions un style soutenu d'abord, ensuite nous soutiendrons le conseil.",
-      "context": "Guider la délégation syndicale ou communautaire avant les négociations."
-    },
-    {
-      "phrase_id": "p27_8",
-      "original": "Kbaaxutɔɔn gbelemale mu tinma gbeɲanfala ra, a sariɲen nan a ra fari.",
-      "phonetic_api": "/kbaː.xu.tɔːn ɡbe.le.ma.le mu tin.ma ɡbe.ɲan.fa.la ra a sa.ri.ɲen nan a ra fa.ri/",
-      "phonetic_simple": "KBAA-KHOU-TƆƆN GBÉ-LÉ-MA-LÉ MOU TIN-MA GBÉ-NYAN-FA-LA RA, A SA-RI-NYEN NAN A RA FA-RI",
-      "translation": "La traduction de la loi traditionnelle refuse tout artifice, sa justesse est absolue.",
-      "context": "Protéger la rigueur de la restitution juridique face aux interprétations libres."
+      "phrase_id": "p4",
+      "original": "À báta sáfé kíiní.",
+      "phonetic_api": "/a bata safe kiini/",
+      "phonetic_simple": "a BA-ta sa-FÉ KI-i-ni",
+      "translation": "Il/elle a déjà écrit un conte (accompli).",
+      "context": "Combine le marqueur du parfait 'báta' avec 'sáfé' (écrire) et 'kíiní' (conte)."
     }
   ],
   "grammar_points": [
     {
-      "concept": "Le suffixe de qualification d'excellence poétique '-fani'",
-      "explanation": "Au niveau C2, pour indiquer qu'un mode d'expression ou une traduction atteint un statut d'excellence, d'adéquation culturelle fine et d'harmonie (par opposition à la forme commune), on adjoint le suffixe qualificatif '-fani' (qui dérive de fanyin, beau/bon, mais grammaticalisé ici comme un suffixe de modalité stylistique).",
+      "concept": "Convergences lexicales confirmées entre yalunka et soussou",
+      "explanation": "Les sources elles-mêmes, et non une simple impression de l'agent, confirment certaines convergences entre le yalunka et le soussou, deux langues de la branche Soussou-Yalunka du mandé : (1) Wikipedia (EN) indique explicitement que le marqueur du parfait yalunka 'báta' est cognat du marqueur soussou/maninka 'bara' ; (2) Creissels (2010) note dans ses conventions de transcription que le son noté 'q' dans le dialonké de Faléya correspond au son noté 'x' dans les orthographes du soussou voisin, ce qui explique pourquoi de nombreux mots yalunka en 'q' (comme 'qàráŋ̀', étude) ont des correspondants visibles en 'x' dans les mots soussou. Ces correspondances sont des convergences structurelles attestées par les sources ; elles ne signifient pas que tout le lexique est identique, et chaque terme yalunka utilisé dans ce projet a été vérifié indépendamment dans Creissels (2010) plutôt que copié directement du corpus soussou.",
       "rules": [
-        "Falan (La parole) + fani = Falanfani (Le style noble / L'éloquence de registre supérieur).",
-        "Xunɲa (Le sens) + fani = Xunɲafani (Le sens figuré optimal / L'équivalence dynamique)."
+        "báta (yalunka) ~ bara (soussou/maninka) : marqueur du parfait, cognat confirmé par Wikipedia (EN)",
+        "q (yalunka, Faléya) ~ x (soussou) : correspondance phonétique/orthographique notée par Creissels (2010)"
       ],
       "examples": [
         {
-          "structure": "Na falanfani nan a ra.",
-          "phonetic_api": "/na fa.lan.fa.ni nan a ra/",
-          "meaning": "C'est la quintessence même de l'éloquence."
-        }
-      ]
-    },
-    {
-      "concept": "L'instrumental de manière stylistique avec 'ra' postpositif complexe",
-      "explanation": "Pour exprimer qu'un processus de traduction ou de création littéraire est mené à bien sous l'égide d'un prisme technique spécifique (ex: d'après les nuances, au moyen de la rhétorique), la postposition instrumentale 'ra' régit le syntagme nominal préalablement fléchi.",
-      "rules": [
-        "Syntagme nominal de style (ex: falandiyi) + ra",
-        "Se positionne à l'articulation logique des propositions pour définir le mode d'exécution oratoire."
-      ],
-      "examples": [
-        {
-          "structure": "...falandiyi ra.",
-          "phonetic_api": "/fa.lan.di.ji ra/",
-          "meaning": "...en respectant rigoureusement les nuances stylistiques."
+          "structure": "à + báta + sígá",
+          "phonetic_api": "/a bata siga/",
+          "meaning": "il/elle est déjà parti(e)"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Marasibonlonkanyin (Le Président du Conseil)",
-      "text": "Jalonké birin, singe ra won na tɔɔnsɛbɛli mɛ gbelemale fanyin. Sɛbɛlifani nan na xa xunɲafani nan won birin bɛ ?"
+      "speaker": "Traducteur A",
+      "text": "Kíidì ń sáfé 'à báta sígá' fàransé xa?",
+      "phonetic_api": "/kiidi n safe a bata siga faranse xa/",
+      "phonetic_simple": "KI-i-di n sa-FÉ a BA-ta si-GA fa-ran-SÉ xa",
+      "translation": "Comment traduire 'à báta sígá' en français ?"
     },
     {
-      "speaker": "Falanfanikanyin (L'Orateur expert)",
-      "text": "N baabaa, sɛbɛlifani mu tinma m mɛ. Xunɲafani nan na a ra won bɛ fari, alaxɛ na ra.ba won na kbaaxutɔɔn tin fanyin."
+      "speaker": "Traducteur B",
+      "text": "'Il est déjà parti', nùŋ à báadè sígá bòn dɔ̀ 'il vient de partir' kóní à mí dɔ̀qɔ́.",
+      "phonetic_api": "/noung a badé siga bon do il vient de partir koni a mi doqo/",
+      "phonetic_simple": "noung a BA-a-de si-GA... 'il vient de partir', KO-ni a mi DO-qo",
+      "translation": "'Il est déjà parti' — c'est différent de 'à báadè sígá', 'il vient de partir', qui n'est pas la même nuance."
     },
     {
-      "speaker": "Marasibonlonkanyin",
-      "text": "Na fanyin. Hali naxanba falandiyi na xɔlɔ singe, i bɛ falanfani bata falan mɛ xunɲa ba fanyin pian."
+      "speaker": "Traducteur A",
+      "text": "À báadè sígá nùŋ à báta sígá, à sàŋ kédéŋ bà?",
+      "phonetic_api": "/a badé siga noung a bata siga, a sang kedeng ba/",
+      "phonetic_simple": "a ba-DÉ si-GA noung a BA-ta si-GA, a sang ké-DENG ba",
+      "translation": "'Il vient de partir' et 'il est déjà parti', est-ce la même chose ?"
     },
     {
-      "speaker": "Falanfanikanyin",
-      "text": "Na sariɲen nan a ra. Gbeɲanfala birin bata ba kiitide fɛ. Tɔɔnsɛbɛli mɛ falandiyi na danyi won birin bɛ tɛmɛni na."
-    },
-    {
-      "speaker": "Marasibonlonkanyin",
-      "text": "Inu wali i bɛ falan ra. Alaxɛ na ra.ba won na baraa sɔtɔ, alaxɛ na ra.ba won na sabari."
+      "speaker": "Traducteur B",
+      "text": "Kóní, à mí sàŋ kédéŋ.",
+      "phonetic_api": "/koni, a mi sang kedeng/",
+      "phonetic_simple": "KO-ni, a mi sang ké-DENG",
+      "translation": "Non, ce n'est pas la même chose."
     }
   ],
   "cultural_notes": [
-    "Dans les sphères les plus élevées de la culture Jalonké de Guinée, la traduction ('gbelemale') n'est jamais perçue comme un simple exercice mécanique de correspondance lexicale. C'est un acte de médiation culturelle sacré qui demande d'accéder au 'xunɲafani' (le sens poétique profond) pour que la pensée moderne s'accorde avec l'esprit des ancêtres.",
-    "L'éloquence ('falanfani') est considérée comme le sommet de l'éducation d'un dignitaire. Savoir draper une vérité juridique ou un arbitrage complexe dans un réseau de nuances stylistiques ('falandiyi') fines permet de maintenir l'harmonie et le calme ('sabari') au sein de la communauté sans jamais recourir à la contrainte brute."
+    "La proximité du yalunka et du soussou, deux langues de la même branche mandé, facilite l'intercompréhension partielle entre leurs locuteurs en Guinée, mais Creissels (2010) souligne que le dialonké de Faléya reste une langue distincte avec sa propre morphologie et son propre lexique, malgré ces convergences ponctuelles et attestées."
   ],
   "exercises": [
     {
-      "exercise_id": "ex27_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel concept Yalunka de niveau C2 désigne la transposition ou la traduction d'une langue vers une autre ?",
+      "question": "Quel marqueur yalunka du parfait est un cognat confirmé du soussou 'bara' ?",
       "options": [
-        "Falanfani",
-        "Gbelemale",
-        "Sɛbɛlifani"
+        "báta",
+        "báadè",
+        "nù"
       ],
-      "correct_answer": "Gbelemale",
-      "explanation": "'Gbelemale' qualifie l'acte complexe de traduire, transposer ou transférer fidèlement les concepts d'un système linguistique à un autre."
+      "correct_answer": "báta",
+      "explanation": "Confirmé explicitement par l'article Wikipedia (EN) sur le yalunka."
     },
     {
-      "exercise_id": "ex27_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Pour parler de l'éloquence souveraine et du style le plus soutenu de la langue, on emploie le terme [ ___ ].",
-      "correct_answer": "falanfani",
-      "hint": "Ce mot intègre le suffixe d'excellence stylistique et commence par la racine de la parole, s'écrivant avec neuf lettres."
+      "sentence_with_blank": "Le son yalunka 'q' correspond au son soussou : [ ___ ].",
+      "correct_answer": "x",
+      "hint": "Noté par Creissels (2010) dans ses conventions de transcription."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Denis Creissels — Liste lexicale du dialonké de Faléya, Mandenkan 46 (2010), pp. 49-71",
+      "url": "http://www.deniscreissels.fr/public/Creissels-liste_lexicale_dialonke.pdf"
+    },
+    {
+      "label": "Wikipedia (EN) — Yalunka language (classification, aspect markers, exemple de phrase)",
+      "url": "https://en.wikipedia.org/wiki/Yalunka_language"
+    },
+    {
+      "label": "Wikipedia (EN) — Susu language (comparaison Susu-Yalunka)",
+      "url": "https://en.wikipedia.org/wiki/Susu_language"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Les deux convergences lexicales/phonétiques mises en avant dans cette leçon (báta~bara, q~x) sont explicitement mentionnées par les sources elles-mêmes (Wikipedia EN pour la première, les conventions de transcription de Creissels 2010 pour la seconde), et non déduites par analogie non vérifiée par l'agent. La traduction mot-à-mot de la phrase-exemple est une construction pédagogique de l'agent à partir de la traduction idiomatique attestée, destinée à illustrer la nuance stylistique, et non un fait directement sourcé terme à terme."
 }

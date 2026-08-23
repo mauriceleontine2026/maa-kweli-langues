@@ -6,226 +6,192 @@
   "lesson_number": 5,
   "title": "Les chiffres, les nombres et le comptage",
   "learning_objectives": [
-    "Compter de 1 à 10 en utilisant le système numéral Badiaranké",
-    "Exprimer une quantité simple d'objets ou de personnes",
-    "Comprendre la logique de construction des nombres supérieurs à cinq"
+    "Compter de un à trois avec les formes attestées par Cover (2010)",
+    "Reconnaître la construction attestée du chiffre sept (« main et deux »)",
+    "Comparer les variantes dialectales de « un » et « deux » entre Cover (2010) et la liste ASJP (Meyer 2001)"
   ],
   "phonetic_focus": {
-    "key_sounds": "La consonne nasale vélaire /ŋ/ (comme à la fin de 'sing' en anglais) apparaît fréquemment dans les nombres. Le groupe de consonnes sourdes et sifflantes doit être articulé de manière nette, sans y ajouter de voyelle d'appui parasite au début du mot.",
-    "common_pitfalls": "Prononcer /ŋ/ comme un simple /n/ ou un /g/. Il faut laisser résonner l'air par le nez tout en bloquant l'arrière de la langue contre le palais."
+    "key_sounds": "« pakk˜a » (un) et « ma:e » (deux) contiennent des voyelles longues/nasales typiques du système phonologique badiaranké selon Cover (2010).",
+    "common_pitfalls": "Confondre les variantes « pakk˜a »/« painE » (un) et « ma:e »/« maE » (deux) selon la source (dialecte de Paroumba/Sounkoutou vs région de Koundara)."
   },
   "vocabulary": [
     {
-      "word_id": "v5_1",
-      "term": "Mmanza",
-      "phonetic_api": "/mːanza/",
-      "phonetic_simple": "MMAN-ZA",
-      "translation": "Un (1)",
-      "example_sentence": "Paɗa mmanza.",
-      "example_phonetic": "/paɗa mːanza/",
-      "example_translation": "Un enfant."
+      "word_id": "v1",
+      "term": "pakk˜a",
+      "phonetic_api": "/pakk̃a/",
+      "phonetic_simple": "pak-kan",
+      "translation": "un (1)"
     },
     {
-      "word_id": "v5_2",
-      "term": "Maasŋe",
-      "phonetic_api": "/maːsŋe/",
-      "phonetic_simple": "MAAS-NGE",
-      "translation": "Deux (2)",
-      "example_sentence": "Baa maasŋe.",
-      "example_phonetic": "/ɓaː maːsŋe/",
-      "example_translation": "Deux pères (oncles)."
+      "word_id": "v2",
+      "term": "ma:e",
+      "phonetic_api": "/ma:e/",
+      "phonetic_simple": "ma-é",
+      "translation": "deux (2)"
     },
     {
-      "word_id": "v5_3",
-      "term": "Masaat",
-      "phonetic_api": "/masaːt/",
-      "phonetic_simple": "MA-SAATT",
-      "translation": "Trois (3)",
-      "example_sentence": "Unu masaat.",
-      "example_phonetic": "/unu masaːt/",
-      "example_translation": "Trois épouses."
+      "word_id": "v3",
+      "term": "matSaw",
+      "phonetic_api": "/matʃaw/",
+      "phonetic_simple": "ma-tchaw",
+      "translation": "trois (3)"
     },
     {
-      "word_id": "v5_4",
-      "term": "Mazaŋe",
-      "phonetic_api": "/mazaŋe/",
-      "phonetic_simple": "MA-ZAN-GE",
-      "translation": "Quatre (4)",
-      "example_sentence": "Nkaet mazaŋe.",
-      "example_phonetic": "/nkaːɛt mazaŋe/",
-      "example_translation": "Quatre frères."
+      "word_id": "v4",
+      "term": "kob@da Nka ma:e",
+      "phonetic_api": "/kobəda ŋka ma:e/",
+      "phonetic_simple": "ko-be-da nka ma-é",
+      "translation": "sept (litt. « main et deux »)"
     },
     {
-      "word_id": "v5_5",
-      "term": "Madae",
-      "phonetic_api": "/madae/",
-      "phonetic_simple": "MA-DA-E",
-      "translation": "Cinq (5)",
-      "example_sentence": "Maari madae.",
-      "example_phonetic": "/maːri madae/",
-      "example_translation": "Cinq familles."
+      "word_id": "v5",
+      "term": "painE",
+      "phonetic_api": "/painɛ/ (dérivé)",
+      "phonetic_simple": "pa-i-né",
+      "translation": "un (1)"
     },
     {
-      "word_id": "v5_6",
-      "term": "Madae n mmanza",
-      "phonetic_api": "/madae n mːanza/",
-      "phonetic_simple": "MA-DA-E N MMAN-ZA",
-      "translation": "Six (6 / cinq et un)",
-      "example_sentence": "Paɗa madae n mmanza.",
-      "example_phonetic": "/paɗa madae n mːanza/",
-      "example_translation": "Six enfants."
+      "word_id": "v6",
+      "term": "maE",
+      "phonetic_api": "/maɛ/ (dérivé)",
+      "phonetic_simple": "ma-é",
+      "translation": "deux (2)"
     },
     {
-      "word_id": "v5_7",
-      "term": "Pepo",
-      "phonetic_api": "/pepo/",
-      "phonetic_simple": "PE-PO",
-      "translation": "Dix (10)",
-      "example_sentence": "Bari pepo.",
-      "example_phonetic": "/ɓari pepo/",
-      "example_translation": "Dix jours."
+      "word_id": "v7",
+      "term": "kuntuma",
+      "phonetic_api": "/kuntuma/ (dérivé)",
+      "phonetic_simple": "koun-tou-ma",
+      "translation": "beaucoup"
+    },
+    {
+      "word_id": "v8",
+      "term": "fop",
+      "phonetic_api": "/fop/ (dérivé)",
+      "phonetic_simple": "fop",
+      "translation": "tout"
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p5_1",
-      "original": "N seŋeni n paɗa maasŋe.",
-      "phonetic_api": "/n seŋeni n paɗa maːsŋe/",
-      "phonetic_simple": "N SE-NGE-NI N PA-DHA MAAS-NGE",
-      "translation": "J'ai deux enfants.",
-      "context": "Présenter la taille de sa famille nucléaire."
+      "phrase_id": "p1",
+      "original": "kob@da Nka ma:e",
+      "phonetic_api": "/kobəda ŋka ma:e/",
+      "phonetic_simple": "ko-be-da nka ma-é",
+      "translation": "sept (littéralement « main et deux »)",
+      "context": "Construction numérale attestée par Cover (2010), suggérant un système de numération à base 5."
     },
     {
-      "phrase_id": "p5_2",
-      "original": "M mase e bari pepo.",
-      "phonetic_api": "/m mase e ɓari pepo/",
-      "phonetic_simple": "M MA-SE E BHA-RI PE-PO",
-      "translation": "J'ai dix ans (litt. mes années atteignent dix).",
-      "context": "Donner un âge de base ou une mesure de temps."
+      "phrase_id": "p2",
+      "original": "pakk˜a ma:e",
+      "phonetic_api": "/pakk̃a/ /ma:e/",
+      "phonetic_simple": "pak-kan ma-é",
+      "translation": "un (1) deux (2)",
+      "context": "Juxtaposition pédagogique de mots déjà attestés dans cette leçon (recombinaison, PAS une phrase attestée telle quelle dans les sources)."
     },
     {
-      "phrase_id": "p5_3",
-      "original": "Iyo, mmanza rek !",
-      "phonetic_api": "/ijo mːanza rek/",
-      "phonetic_simple": "I-YO, MMAN-ZA REK",
-      "translation": "Oui, seulement un !",
-      "context": "Confirmer une quantité minimale lors d'une transaction ou discussion."
+      "phrase_id": "p3",
+      "original": "pakk˜a matSaw",
+      "phonetic_api": "/pakk̃a/ /matʃaw/",
+      "phonetic_simple": "pak-kan ma-tchaw",
+      "translation": "un (1) trois (3)",
+      "context": "Juxtaposition pédagogique de mots déjà attestés dans cette leçon (recombinaison, PAS une phrase attestée telle quelle dans les sources)."
     },
     {
-      "phrase_id": "p5_4",
-      "original": "A fari masaat sae.",
-      "phonetic_api": "/a fari masaːt sae/",
-      "phonetic_simple": "A FA-RI MA-SAATT SA-E",
-      "translation": "Trois travaux sont bien faits.",
-      "context": "Quantifier des objets ou des actions concrètes."
-    },
-    {
-      "phrase_id": "p5_5",
-      "original": "Fari mazaŋe o seŋeni.",
-      "phonetic_api": "/fari mazaŋe o seŋeni/",
-      "phonetic_simple": "FA-RI MA-ZAN-GE O SE-NGE-NI",
-      "translation": "Il y a quatre activités ici.",
-      "context": "Énumérer des éléments de la vie quotidienne."
-    },
-    {
-      "phrase_id": "p5_6",
-      "original": "Maasŋe n maasŋe a wa mazaŋe.",
-      "phonetic_api": "/maːsŋe n maːsŋe a wa mazaŋe/",
-      "phonetic_simple": "MAAS-NGE N MAAS-NGE A WA MA-ZAN-GE",
-      "translation": "Deux et deux font quatre.",
-      "context": "Énoncer un calcul arithmétique élémentaire."
-    },
-    {
-      "phrase_id": "p5_7",
-      "original": "N tanu i madae !",
-      "phonetic_api": "/n tanu i madae/",
-      "phonetic_simple": "N TA-NOU I MA-DA-E",
-      "translation": "Merci cinq fois (merci infiniment) !",
-      "context": "Formule honorifique emphatique pour exagérer un remerciement."
-    },
-    {
-      "phrase_id": "p5_8",
-      "original": "Yo sae e bari madae !",
-      "phonetic_api": "/jo sae e ɓari madae/",
-      "phonetic_simple": "YO SA-E E BHA-RI MA-DA-E",
-      "translation": "Que la paix soit là pendant cinq jours !",
-      "context": "Formule de bénédiction à valeur temporelle définie."
+      "phrase_id": "p4",
+      "original": "pakk˜a kob@da Nka ma:e",
+      "phonetic_api": "/pakk̃a/ /kobəda ŋka ma:e/",
+      "phonetic_simple": "pak-kan ko-be-da nka ma-é",
+      "translation": "un (1) sept (litt. « main et deux »)",
+      "context": "Juxtaposition pédagogique de mots déjà attestés dans cette leçon (recombinaison, PAS une phrase attestée telle quelle dans les sources)."
     }
   ],
   "grammar_points": [
     {
-      "concept": "La construction quinaire des numéraux",
-      "explanation": "Le système de numération Badiaranké repose sur une base quinaire (base 5). Les nombres de 1 à 5 possèdent des radicaux autonomes. À partir de 6, le nombre se forme en ajoutant les unités à la base de cinq au moyen d'un coordonnant nasalisé.",
+      "concept": "Numération au-delà de cinq : construction additive",
+      "explanation": "Cover (2010) atteste \"kob@da Nka ma:e\" pour « sept », où \"kob@da\" signifie « main » (donc « cinq », par analogie avec les doigts d'une main), \"Nka\" signifie « et », et \"ma:e\" signifie « deux ». Cela suggère un système de numération additive base-5, mais les formes pour quatre, cinq, six, huit, neuf, dix ne sont pas attestées dans nos sources.",
       "rules": [
-        "Les chiffres se placent immédiatement après le nom qu'ils qualifient sans marque d'accord obligatoire.",
-        "Pour obtenir six, on associe le mot pour 5 (madae) et le mot pour 1 (mmanza) reliés par le connecteur 'n'."
+        "« main » (kob@da) est probablement utilisé pour « cinq »",
+        "« Nka » relie deux quantités (« et »)",
+        "Schéma attesté : [base] + Nka + [reste] pour les nombres composés"
       ],
       "examples": [
         {
-          "structure": "madae n mmanza",
-          "phonetic_api": "/madae n mːanza/",
-          "meaning": "Cinq et un (= 6)"
-        },
-        {
-          "structure": "paɗa maasŋe",
-          "phonetic_api": "/paɗa maːsŋe/",
-          "meaning": "Deux enfants (nom + nombre)"
+          "structure": "kob@da Nka ma:e",
+          "phonetic_api": "/kobəda ŋka ma:e/",
+          "meaning": "sept (main-et-deux)"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Awa",
-      "text": "Samba, i paɗa maami o seŋeni ?",
-      "phonetic_api": "/samɓa i paɗa maːmi o seŋeni/",
-      "phonetic_simple": "SAM-BHA, I PA-DHA MAA-MI O SE-NGE-NI",
-      "translation": "Samba, combien d'enfants as-tu ici ?"
+      "speaker": "Professeur",
+      "text": "pakk˜a. ma:e. matSaw.",
+      "phonetic_api": "/pakk̃a/ /ma:e/ /matʃaw/",
+      "phonetic_simple": "pak-kan. ma-é. ma-tchaw.",
+      "translation": "Un. Deux. Trois."
     },
     {
-      "speaker": "Samba",
-      "text": "N seŋeni n paɗa mazaŋe. Iyo, mazaŋe !",
-      "phonetic_api": "/n seŋeni n paɗa mazaŋe ijo mazaŋe/",
-      "phonetic_simple": "N SE-NGE-NI N PA-DHA MA-ZAN-GE. I-YO, MA-ZAN-GE",
-      "translation": "J'ai quatre enfants. Oui, quatre !"
+      "speaker": "Élève",
+      "text": "kob@da Nka ma:e.",
+      "phonetic_api": "/kobəda ŋka ma:e/",
+      "phonetic_simple": "ko-be-da nka ma-é",
+      "translation": "Sept."
     },
     {
-      "speaker": "Awa",
-      "text": "Mmanza o fari e kalas ?",
-      "phonetic_api": "/mːanza o fari e kalas/",
-      "phonetic_simple": "MMAN-ZA O FA-RI E KA-LAS",
-      "translation": "Est-ce qu'un seul étudie à l'école ?"
+      "speaker": "Professeur",
+      "text": "pakk˜a.",
+      "phonetic_api": "/pakk̃a/",
+      "phonetic_simple": "pak-kan",
+      "translation": "Un (1). (mot attesté isolé, recombiné pédagogiquement dans ce dialogue)"
     },
     {
-      "speaker": "Samba",
-      "text": "Aé, maasŋe o fari e kalas. Maasŋe o seŋeni e maari.",
-      "phonetic_api": "/aeː maːsŋe o fari e kalas maːsŋe o seŋeni e maːri/",
-      "phonetic_simple": "AEE, MAAS-NGE O FA-RI E KA-LAS. MAAS-NGE O SE-NGE-NI E MAA-RI",
-      "translation": "Non, deux étudient à l'école. Deux sont ici à la maison."
+      "speaker": "Élève",
+      "text": "ma:e.",
+      "phonetic_api": "/ma:e/",
+      "phonetic_simple": "ma-é",
+      "translation": "Deux (2). (mot attesté isolé, recombiné pédagogiquement dans ce dialogue)"
     }
   ],
   "cultural_notes": [
-    "Dans l'univers culturel Badiaranké, le comptage des êtres vivants et en particulier des enfants de sa propre famille fait parfois l'objet d'une retenue par crainte du mauvais œil. On utilise ainsi fréquemment des approximations ou des détours métaphoriques en public, bien que l'apprentissage des numéraux exacts reste incontournable pour le commerce régional."
+    "Le système numéral badiaranké n'a fait l'objet d'aucune description systématique complète dans les sources disponibles ; les quatre valeurs attestées (un, deux, trois, sept) proviennent d'exemples ponctuels dans les phrases de la thèse de Cover (2010), non d'une liste de comptage dédiée."
   ],
   "exercises": [
     {
-      "exercise_id": "ex5_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel est le mot Badiaranké pour désigner le chiffre trois (3) ?",
+      "question": "Que signifie littéralement « kob@da Nka ma:e » ?",
       "options": [
-        "Maasŋe",
-        "Masaat",
-        "Mazaŋe"
+        "main et deux (sept)",
+        "trois fois deux (six)",
+        "dix moins trois (sept)"
       ],
-      "correct_answer": "Masaat",
-      "explanation": "'Masaat' est le numéral autonome pour 3, tandis que 'maasŋe' vaut 2 et 'mazaŋe' vaut 4."
+      "correct_answer": "main et deux (sept)",
+      "explanation": "Cover (2010) glose cette expression composée par « sept »."
     },
     {
-      "exercise_id": "ex5_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Madae n [ ___ ] a wa madae n mmanza.",
-      "correct_answer": "mmanza",
-      "hint": "Le chiffre valant un (1), nécessaire pour composer le nombre six."
+      "sentence_with_blank": "[ ___ ] = « trois » (attesté par Cover, 2010)",
+      "correct_answer": "matSaw",
+      "hint": "Commence par « ma- », comme « ma:e » (deux)."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Cover, R. (2010) — Aspect, Modality, and Tense in Badiaranke, UC Berkeley (PhD dissertation)",
+      "url": "https://escholarship.org/uc/item/6f91m5dg"
+    },
+    {
+      "label": "Cover, R. (2010) — texte intégral PDF (eScholarship, UC Berkeley)",
+      "url": "https://escholarship.org/content/qt6f91m5dg/qt6f91m5dg.pdf"
+    },
+    {
+      "label": "ASJP Database — Wordlist Jaad Badiaranke 4 (d'après Meyer 2001)",
+      "url": "https://asjp.clld.org/languages/JAAD_BADIARANKE_4"
+    }
+  ],
+  "confidence": "faible",
+  "confidence_note": "Seuls quatre valeurs numérales (un, deux, trois, sept) sont attestées, glanées dans des phrases d'exemple de Cover (2010) et non dans une liste de comptage systématique ; le système complet de 1 à 10+ n'a pas pu être vérifié dans les sources disponibles."
 }

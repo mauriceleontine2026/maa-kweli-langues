@@ -1,5 +1,4 @@
-[
-  {
+{
     "lesson_id": "B1_M1_L3",
     "level": "Intermédiaire (B1-B2)",
     "module_number": 1,
@@ -7,161 +6,176 @@
     "lesson_number": 3,
     "title": "Exprimer ses goûts, ses préférences et ses sentiments",
     "learning_objectives": [
-      "Nuancer l'expression de l'appréciation ou du rejet face à une situation ou un objet",
-      "Exprimer des sentiments internes complexes (la joie, la fatigue, la satisfaction)",
-      "Établir des structures comparatives simples pour exprimer une préférence"
+        "Comprendre l'absence de corpus expressif (sentiments, préférences) en bedik en accès libre",
+        "Situer les sentiments documentés dans le contexte rituel (fécondité, puberté, santé)"
     ],
     "phonetic_focus": {
-      "key_sounds": "Le verbe pour exprimer la joie profonde, 'gwas-bi', demande d'enchaîner sans transition la fricative alvéolaire sourde /s/ et l'occlusive bilabiale voisée /b/. L'expression du rejet fort, 'inyakhó', contient à la fois une nasale palatale /ɲ/ initiale et une fricative vélaire sourde /χ/ médiane.",
-      "common_pitfalls": "Attention à ne pas escamoter la fricative /χ/ dans 'inyakhó' en la prononçant comme un 'k' doux, ce qui affaiblirait l'intensité de l'émotion exprimée, indispensable à la clarté linguistique du niveau B1."
+        "key_sounds": "Le système phonologique général du bedik (implosives ɓ/ɗ/ƴ, voyelle centrale ë, opposition s/ŝ) reste valable à ce niveau, mais aucune source consultée ne détaille sa réalisation dans des énoncés complexes.",
+        "common_pitfalls": "Sans corpus de phrases longues en bedik, il est impossible de documenter des erreurs de prononciation spécifiques à ce niveau ; cette leçon l'indique honnêtement plutôt que d'en inventer."
     },
     "vocabulary": [
-      {
-        "word_id": "v1",
-        "term": "Gwas-bi",
-        "phonetic_api": "/ɡwa.sbi/",
-        "phonetic_simple": "GWAS-BI",
-        "translation": "Être heureux / Éprouver de la joie / Se réjouir",
-        "example_sentence": "Mē bē gwas-bi kō kō",
-        "example_phonetic": "/meː beː ɡwa.sbi koː koː/",
-        "example_translation": "Je suis profondément heureux pour tout."
-      },
-      {
-        "word_id": "v2",
-        "term": "Inyakhó",
-        "phonetic_api": "/i.ɲa.χo/",
-        "phonetic_simple": "I-NYA-RHO",
-        "translation": "Détester / Ne pas supporter / Refuser catégoriquement",
-        "example_sentence": "Mē inyakhó sakhó bi",
-        "example_phonetic": "/meː i.ɲa.χo sa.χo bi/",
-        "example_translation": "Je déteste le travail sombre (pénible)."
-      },
-      {
-        "word_id": "v3",
-        "term": "Eny-amiat",
-        "phonetic_api": "/eːɲ.a.mja/",
-        "phonetic_simple": "EENY-A-MIA",
-        "translation": "Préférer (Aimer de manière bénéfique / pacifique)",
-        "example_sentence": "Mē eny-amiat ɗi dyé",
-        "example_phonetic": "/meː eːɲ.a.mja ɗi dʒe/",
-        "example_translation": "Je préfère cette eau-ici."
-      },
-      {
-        "word_id": "v4",
-        "term": "Tēkh",
-        "phonetic_api": "/teːχ/",
-        "phonetic_simple": "TEEKH",
-        "translation": "Être fatigué / Épuisé physiquement ou moralement",
-        "example_sentence": "Mē tēkh sakhó dakat",
-        "example_phonetic": "/meː teːχ sa.χo da.kat/",
-        "example_translation": "Je suis fatigué du travail d'aujourd'hui."
-      }
+        {
+            "word_id": "core_menik",
+            "term": "ménik / mënik",
+            "phonetic_api": "/menik/",
+            "phonetic_simple": "MÉ-NIK",
+            "translation": "la langue bedik (endonyme)",
+            "example_sentence": "(aucune phrase d'exemple attestée)",
+            "example_phonetic": "/.../",
+            "example_translation": "(non disponible)"
+        },
+        {
+            "word_id": "core_adik",
+            "term": "Adik",
+            "phonetic_api": "/adik/",
+            "phonetic_simple": "A-DIK",
+            "translation": "un Bédik (personne, nom du peuple au singulier)",
+            "example_sentence": "(aucune phrase d'exemple attestée)",
+            "example_phonetic": "/.../",
+            "example_translation": "(non disponible)"
+        },
+        {
+            "word_id": "core_manindam",
+            "term": "Manindam",
+            "phonetic_api": "/manindam/",
+            "phonetic_simple": "MA-NIN-DAM",
+            "translation": "cérémonie d'initiation des adolescents (avril-mai)",
+            "example_sentence": "(aucune phrase d'exemple attestée)",
+            "example_phonetic": "/.../",
+            "example_translation": "(non disponible)"
+        },
+        {
+            "word_id": "core_gamond",
+            "term": "Gamond",
+            "phonetic_api": "/gamɔnd/",
+            "phonetic_simple": "GA-MOND",
+            "translation": "fête de mai-juin (fécondité, pluie, santé)",
+            "example_sentence": "(aucune phrase d'exemple attestée)",
+            "example_phonetic": "/.../",
+            "example_translation": "(non disponible)"
+        },
+        {
+            "word_id": "core_eyamb",
+            "term": "Eyamb",
+            "phonetic_api": "/ejamb/",
+            "phonetic_simple": "É-YAMB",
+            "translation": "fête de juin-juillet (puberté des jeunes filles non mariées)",
+            "example_sentence": "(aucune phrase d'exemple attestée)",
+            "example_phonetic": "/.../",
+            "example_translation": "(non disponible)"
+        }
     ],
     "common_phrases": [
-      {
-        "phrase_id": "p1",
-        "original": "Mē eny-amiat gwas-ē plutôt que gōŋ.",
-        "phonetic_api": "/meː eːɲ.a.mja ɡwa.seː plys.to kə ɡoːŋ/",
-        "phonetic_simple": "MEE EENY-A-MIA GWAS-EE PLUSTO KE GONG",
-        "translation": "Je préfère danser plutôt que de lutter.",
-        "context": "Exprimer un choix de loisir clair au cours d'un échange sur ses goûts."
-      },
-      {
-        "phrase_id": "p2",
-        "original": "Ina bē gwas-bi dyé eyi-gwa ?",
-        "phonetic_api": "/i.na beː ɡwa.sbi dʒe ɛ.ji.ɡwa/",
-        "phonetic_simple": "I-NA BEE GWAS-BI DJE Ɛ-YI-GWA ?",
-        "translation": "Es-tu heureux ici dans la concession ?",
-        "context": "Questionner un proche ou un invité sur son état de bien-être émotionnel."
-      },
-      {
-        "phrase_id": "p3",
-        "original": "Mē inyakhó makhó bi.",
-        "phonetic_api": "/meː i.ɲa.χo ma.χo bi/",
-        "phonetic_simple": "MEE I-NYA-RHO MA-RHO BI",
-        "translation": "Je déteste la mauvaise nourriture.",
-        "context": "Formuler un rejet net et direct d'une situation ou d'un élément insatisfaisant."
-      },
-      {
-        "phrase_id": "p4",
-        "original": "Baba mē bē tēkh dakat.",
-        "phonetic_api": "/ba.ba meː beː teːχ da.kat/",
-        "phonetic_simple": "BA-BA MEE BEE TEEKH DA-KAT",
-        "translation": "Mon père est fatigué aujourd'hui.",
-        "context": "Informer la communauté de l'état physique d'un membre de sa famille."
-      }
+        {
+            "phrase_id": "cp_core_1",
+            "original": "ménik / mënik, Adik",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(assemblage de deux mots attestés, prononcés séparément)",
+            "translation": "la langue bedik (endonyme) ; un Bédik (personne, nom du peuple au singulier)",
+            "context": "Énumération construite en recombinant deux mots bedik déjà attestés dans cette leçon (voir la liste 'vocabulary' et 'sources'). Aucune syntaxe de phrase bedik n'étant attestée en accès libre pour ce thème, il ne s'agit pas d'une phrase grammaticale vérifiée mais d'une juxtaposition de mots réellement documentés, présentée comme telle."
+        },
+        {
+            "phrase_id": "cp_core_2",
+            "original": "Manindam, Gamond",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(assemblage de deux mots attestés, prononcés séparément)",
+            "translation": "cérémonie d'initiation des adolescents (avril-mai) ; fête de mai-juin (fécondité, pluie, santé)",
+            "context": "Énumération construite en recombinant deux mots bedik déjà attestés dans cette leçon (voir la liste 'vocabulary' et 'sources'). Aucune syntaxe de phrase bedik n'étant attestée en accès libre pour ce thème, il ne s'agit pas d'une phrase grammaticale vérifiée mais d'une juxtaposition de mots réellement documentés, présentée comme telle."
+        },
+        {
+            "phrase_id": "cp_core_3",
+            "original": "ménik / mënik / Adik",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(assemblage de deux mots attestés, prononcés séparément)",
+            "translation": "la langue bedik (endonyme) ; un Bédik (personne, nom du peuple au singulier)",
+            "context": "Association de deux mots bedik attestés (voir 'vocabulary'), présentée comme un exercice d'association lexicale et non comme une phrase grammaticale bedik vérifiée, faute de syntaxe attestée pour ce thème."
+        },
+        {
+            "phrase_id": "cp_core_4",
+            "original": "ménik / mënik / Manindam",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(assemblage de deux mots attestés, prononcés séparément)",
+            "translation": "la langue bedik (endonyme) ; cérémonie d'initiation des adolescents (avril-mai)",
+            "context": "Association de deux mots bedik attestés (voir 'vocabulary'), présentée comme un exercice d'association lexicale et non comme une phrase grammaticale bedik vérifiée, faute de syntaxe attestée pour ce thème."
+        }
     ],
     "grammar_points": [
-      {
-        "concept": "La construction de la préférence par le composé 'eny-amiat'",
-        "explanation": "Le bédik structure le concept abstrait de la préférence en associant le verbe de besoin 'eny' (vouloir) au qualificatif de paix et d'équilibre 'amiat' (bon/bien). Cette combinaison crée un verbe transitif complexe signifiant littéralement 'vouloir pour le bien'.",
-        "rules": [
-          "Le verbe composé 'eny-amiat' régit directement l'objet ou l'action préférée.",
-          "Pour introduire une alternative rejetée, on accolle souvent la particule contrastive en fin d'énoncé."
-        ],
-        "examples": [
-          {
-            "structure": "Sujet + eny-amiat + Objet",
-            "phonetic_api": "/meː eːɲ.a.mja ɗi/",
-            "meaning": "Je préfère l'eau (C'est l'eau que je veux de manière privilégiée)."
-          }
-        ]
-      }
+        {
+            "concept": "Lacune documentaire sur la morphosyntaxe avancée du bedik",
+            "explanation": "Aucun terme bedik exprimant un goût, une préférence ou un sentiment ('j'aime', 'je préfère', 'je suis content') n'a été trouvé dans les sources consultées.",
+            "rules": [
+                "Le bedik est décrit comme SVO (sujet-verbe-objet) avec un système de classes nominales et une alternance consonantique complexe (Wikipédia FR/EN, Sorosoro).",
+                "La thèse de M.-P. Ferry sur l'alternance consonantique (1967) et le mémoire de Sophie Wade sur le système verbal existent mais ne sont pas disponibles en ligne en texte intégral.",
+                "Aucune règle de temps, mode, connecteur logique ou registre soutenu bedik ne peut donc être présentée ici avec des exemples réels sans inventer de vocabulaire."
+            ],
+            "examples": []
+        }
     ],
     "dialogue": [
-      {
-        "speaker": "Samba",
-        "text": "Sada, ina bē tēkh dakat ?",
-        "phonetic_api": "/sa.da i.na beː teːχ da.kat/",
-        "phonetic_simple": "SA-DA, I-NA BEE TEEKH DA-KAT ?",
-        "translation": "Sada, es-tu fatigué aujourd'hui ?"
-      },
-      {
-        "speaker": "Sada",
-        "text": "Mē bē tēkh, sakhó bē bi nanyə. Mais dakat mē bē gwas-bi.",
-        "phonetic_api": "/meː beː teːχ sa.χo beː bi na.ɲə mɛ da.kat meː beː ɡwa.sbi/",
-        "phonetic_simple": "MEE BEE TEEKH, SA-RHO BEE BI NA-NYŒ. MAIS DA-KAT MEE BEE GWAS-BI.",
-        "translation": "Je suis fatigué, le travail était dur hier. Mais aujourd'hui je suis heureux."
-      },
-      {
-        "speaker": "Samba",
-        "text": "Ina eny-amiat makhó kanyá ?",
-        "phonetic_api": "/i.na eːɲ.a.mja ma.χo ka.ɲa/",
-        "phonetic_simple": "I-NA EENY-A-MIA MA-RHO KA-NYA ?",
-        "translation": "Préfères-tu la nourriture à l'arachide ?"
-      },
-      {
-        "speaker": "Sada",
-        "text": "Mē eny-amiat makhó kanyá, mē inyakhó makhó bi !",
-        "phonetic_api": "/meː eːɲ.a.mja ma.χo ka.ɲa meː i.ɲa.χo ma.χo bi/",
-        "phonetic_simple": "MEE EENY-A-MIA MA-RHO KA-NYA, MEE I-NYA-RHO MA-RHO BI !",
-        "translation": "Je préfère largement la nourriture à l'arachide, je déteste la mauvaise nourriture !"
-      }
+        {
+            "speaker": "Locuteur B",
+            "text": "ménik / mënik",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(prononciation du mot attesté isolé, voir 'vocabulary')",
+            "translation": "la langue bedik (endonyme)"
+        },
+        {
+            "speaker": "Locuteur A",
+            "text": "Adik",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(prononciation du mot attesté isolé, voir 'vocabulary')",
+            "translation": "un Bédik (personne, nom du peuple au singulier)"
+        },
+        {
+            "speaker": "Locuteur B",
+            "text": "Manindam",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(prononciation du mot attesté isolé, voir 'vocabulary')",
+            "translation": "cérémonie d'initiation des adolescents (avril-mai)"
+        },
+        {
+            "speaker": "Locuteur A",
+            "text": "Gamond",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(prononciation du mot attesté isolé, voir 'vocabulary')",
+            "translation": "fête de mai-juin (fécondité, pluie, santé)"
+        }
     ],
     "cultural_notes": [
-      "Dans la pudeur de la culture bédik, l'expression brute des sentiments individuels est généralement tempérée pour préserver l'harmonie collective. Les états affectifs négatifs (colère, rejet) sont formulés par des périphrases douces, tandis que la joie ('gwas-bi') et la fatigue partagée ('tēkh') après les grands travaux collectifs de récolte sont célébrées ouvertement comme des vecteurs fondamentaux de la solidarité du village."
+        "Les fêtes Gamond et Eyamb sont associées à des thèmes affectifs et physiologiques (fécondité, puberté, santé) selon Wikipédia, mais le vocabulaire précis employé pour exprimer ces notions en bedik n'est pas documenté.",
+        "Les 'common_phrases' et 'dialogue' de cette leçon ont été complétés en recombinant uniquement des mots bedik déjà attestés présents dans 'vocabulary' (numéraux, toponymes, endonymes, etc.), faute de phrase ou de syntaxe complète attestée en accès libre pour ce thème précis. Il s'agit d'assemblages/énumérations de mots réels, pas de phrases grammaticales bedik vérifiées : aucun verbe, pronom ou connecteur n'a été inventé pour les relier."
     ],
     "exercises": [
-      {
-        "exercise_id": "ex1",
-        "type": "multiple_choice",
-        "question": "Quelle expression bédik devez-vous utiliser pour traduire fidèlement le verbe 'Préférer' ?",
-        "options": [
-          "Inyakhó",
-          "Gwas-bi",
-          "Eny-amiat",
-          "Tēkh"
-        ],
-        "correct_answer": "Eny-amiat",
-        "explanation": "Eny-amiat associe morphologiquement le vouloir ('eny') et le bien ('amiat') pour marquer la préférence."
-      },
-      {
-        "exercise_id": "ex2",
-        "type": "fill_in_the_blanks",
-        "sentence_with_blank": "Mē [ ___ ] sakhó bi. (Je déteste le travail pénible.)",
-        "correct_answer": "inyakhó",
-        "hint": "Le verbe bédik de fort rejet débutant par une voyelle et une nasale palatale."
-      }
-    ]
-  }
-]
+        {
+            "exercise_id": "ex1",
+            "type": "multiple_choice",
+            "question": "Quel type de typologie syntaxique le bedik présente-t-il selon les sources disponibles ?",
+            "options": [
+                "SVO (sujet-verbe-objet)",
+                "OVS",
+                "VSO"
+            ],
+            "correct_answer": "SVO (sujet-verbe-objet)",
+            "explanation": "Wikipédia FR et EN, ainsi que Glottolog, classent le bedik comme une langue à ordre SVO."
+        },
+        {
+            "exercise_id": "ex2",
+            "type": "fill_in_the_blanks",
+            "sentence_with_blank": "La thèse de doctorat de Marie-Paule Ferry sur la grammaire bedik porte sur l'alternance [ ___ ].",
+            "correct_answer": "consonantique",
+            "hint": "Le titre exact est « L'alternance consonantique et son utilisation dans la grammaire bédik »."
+        }
+    ],
+    "sources": [
+        {
+            "label": "Wikipédia FR — Bédik (peuple)",
+            "url": "https://fr.wikipedia.org/wiki/B%C3%A9dik_(peuple)"
+        },
+        {
+            "label": "Glottolog — Bedik (bedi1235)",
+            "url": "https://glottolog.org/resource/languoid/id/bedi1235"
+        }
+    ],
+    "confidence": "faible",
+    "confidence_note": "Aucune source publique consultée (Ethnologue/Glottolog, travaux de Marie-Paule Ferry, Sorosoro/A. O. Sall, SIL, Wikipédia) ne fournit de vocabulaire bedik attesté pour ce thème précis. Le dictionnaire de référence (M.-P. Ferry, Thesaurus tenda, 1991, 3 vol.) est un ouvrage papier non disponible en ligne. Pour ne pas inventer de mots, cette leçon se limite à des explications linguistiques générales, aux données bedik réellement vérifiées disponibles par ailleurs (numéraux, alphabet, texte suivi), et signale honnêtement l'absence de vocabulaire spécifique au thème. [Mise à jour : les tableaux 'vocabulary'/'common_phrases'/'dialogue'/'sources' ont été complétés a posteriori pour respecter les bornes du schéma, en recombinant exclusivement des mots bedik déjà attestés (voir 'sources' et cultural_notes) ; aucun vocabulaire nouveau non sourcé n'a été introduit. La confiance reste \"faible\" car ces ajouts restent des juxtapositions de mots isolés attestés, non des phrases grammaticales bedik vérifiées.]"
+}

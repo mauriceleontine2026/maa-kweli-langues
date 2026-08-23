@@ -6,207 +6,217 @@
   "lesson_number": 6,
   "title": "Les jours de la semaine, les mois et dire l'heure",
   "learning_objectives": [
-    "Nommer les jours de la semaine pour planifier une activité",
-    "S'orienter dans l'année en reconnaissant les périodes mensuelles",
-    "Demander et indiquer l'heure de manière simplifiée pour les rendez-vous du quotidien"
+    "Utiliser les repères temporels de base (aujourd'hui, hier, demain)",
+    "Nommer les jours de la semaine attestés (jeudi, samedi, lundi)",
+    "Distinguer les moments du jour (matin, soir, nuit)"
   ],
   "phonetic_focus": {
-    "key_sounds": "Les termes temporels en lélé font un usage fréquent de la voyelle ouverte 'ɔ' [ɔ] et de la nasale vélaire 'ŋ' [ŋ]. L'expression du temps demande une bonne accentuation sur la première syllabe pour distinguer les jours des noms de marchés locaux.",
-    "common_pitfalls": "Évitez de prononcer le mot 'loki' (temps/heure) comme le mot français 'loquet'. Le 'o' doit rester fermé et bref. Ne confondez pas non plus la prononciation du mot 'talo' (jour) avec celle de 'tana' (problème)."
+    "key_sounds": "Le mot alamisa comporte quatre syllabes toutes brèves ; attention à ne pas l'écraser en une prononciation française.",
+    "common_pitfalls": "Vouloir déduire les autres jours de la semaine par analogie : ils ne sont pas attestés dans les sources disponibles et ne doivent pas être inventés."
   },
   "vocabulary": [
     {
       "word_id": "v1",
-      "term": "Talo",
-      "phonetic_api": "/ta.lo/",
-      "phonetic_simple": "TA-LO",
-      "translation": "Jour / Date",
-      "example_sentence": "Talo kela bɛ fisa.",
-      "example_phonetic": "/ta.lo ke.la bɛ fi.sa/",
-      "example_translation": "Un jour sera bon (Un jour viendra)."
+      "term": "bi",
+      "phonetic_api": "/bi/",
+      "phonetic_simple": "BI",
+      "translation": "aujourd'hui",
+      "example_sentence": "bi",
+      "example_phonetic": "/bi/",
+      "example_translation": "aujourd'hui"
     },
     {
       "word_id": "v2",
-      "term": "Kalo",
-      "phonetic_api": "/ka.lo/",
-      "phonetic_simple": "KA-LO",
-      "translation": "Mois / Lune",
-      "example_sentence": "Kalo fɛlɛ bɛ wala bolo.",
-      "example_phonetic": "/ka.lo fɛ.lɛ bɛ wa.la bo.lo/",
-      "example_translation": "Il y a deux mois de travail."
+      "term": "kunu",
+      "phonetic_api": "/kùnu/",
+      "phonetic_simple": "KOU-NOU",
+      "translation": "hier",
+      "example_sentence": "kunu",
+      "example_phonetic": "/kùnu/",
+      "example_translation": "hier"
     },
     {
       "word_id": "v3",
-      "term": "Loki",
-      "phonetic_api": "/lo.ki/",
-      "phonetic_simple": "LO-KI",
-      "translation": "Heure / Temps / Moment",
-      "example_sentence": "Loki mu mɔ di?",
-      "example_phonetic": "/lo.ki mu mɔ di/",
-      "example_translation": "Quelle heure est-il ?"
+      "term": "sinan",
+      "phonetic_api": "/sìnan/",
+      "phonetic_simple": "SI-NAN",
+      "translation": "demain",
+      "example_sentence": "sinan",
+      "example_phonetic": "/sìnan/",
+      "example_translation": "demain"
     },
     {
       "word_id": "v4",
-      "term": "Ntɛnɛŋ",
-      "phonetic_api": "/ɲtɛ.nɛŋ/",
-      "phonetic_simple": "N-TÈ-NÈNG",
-      "translation": "Lundi",
-      "example_sentence": "N bɛ wala ntɛnɛŋ talo kɔ.",
-      "example_phonetic": "/ɲ bɛ wa.la ɲtɛ.nɛŋ ta.lo kɔ/",
-      "example_translation": "Je travaille le lundi."
+      "term": "alamisa",
+      "phonetic_api": "/àlàmìsa/",
+      "phonetic_simple": "A-LA-MI-SA",
+      "translation": "jeudi",
+      "example_sentence": "alamisa",
+      "example_phonetic": "/àlàmìsa/",
+      "example_translation": "jeudi"
     },
     {
       "word_id": "v5",
-      "term": "Kari",
-      "phonetic_api": "/ka.ri/",
-      "phonetic_simple": "KA-RI",
-      "translation": "Dimanche",
-      "example_sentence": "Kari mu mɛnɛ talo di.",
-      "example_phonetic": "/ka.ri mu mɛ.nɛ ta.lo di/",
-      "example_translation": "Le dimanche est un jour de repos."
+      "term": "sinbiri",
+      "phonetic_api": "/sìnbìri/",
+      "phonetic_simple": "SIN-BI-RI",
+      "translation": "samedi",
+      "example_sentence": "sinbiri",
+      "example_phonetic": "/sìnbìri/",
+      "example_translation": "samedi"
+    },
+    {
+      "word_id": "v6",
+      "term": "tɛ̀nɛ́",
+      "phonetic_api": "/tɛ̀nɛ́/",
+      "phonetic_simple": "TÈ-NÉ",
+      "translation": "lundi",
+      "example_sentence": "tɛ̀nɛ́",
+      "example_phonetic": "/tɛ̀nɛ́/",
+      "example_translation": "lundi"
+    },
+    {
+      "word_id": "v7",
+      "term": "sɔɔma",
+      "phonetic_api": "/sɔ̀ɔma/",
+      "phonetic_simple": "SO-O-MA",
+      "translation": "matin",
+      "example_sentence": "sɔɔma",
+      "example_phonetic": "/sɔ̀ɔma/",
+      "example_translation": "matin"
+    },
+    {
+      "word_id": "v8",
+      "term": "tèle",
+      "phonetic_api": "/tèle/",
+      "phonetic_simple": "TÈ-LÈ",
+      "translation": "soleil, jour",
+      "example_sentence": "tèle",
+      "example_phonetic": "/tèle/",
+      "example_translation": "soleil, jour"
     }
   ],
   "common_phrases": [
     {
       "phrase_id": "p1",
-      "original": "Bi mu talo mɔ di?",
-      "phonetic_api": "/bi mu ta.lo mɔ di/",
-      "phonetic_simple": "BI MOU TA-LO MƆ DI?",
-      "translation": "Quel jour sommes-nous aujourd'hui ?",
-      "context": "S'informer sur le jour actuel de la semaine."
+      "original": "sàn",
+      "phonetic_api": "/sàn/",
+      "phonetic_simple": "SAN",
+      "translation": "an, année",
+      "context": "Utilisé pour parler de la durée en années."
     },
     {
       "phrase_id": "p2",
-      "original": "Bi mu ntɛnɛŋ di.",
-      "phonetic_api": "/bi mu ɲtɛ.nɛŋ di/",
-      "phonetic_simple": "BI MOU N-TÈ-NÈNG DI.",
-      "translation": "Aujourd'hui c'est lundi.",
-      "context": "Répondre pour indiquer la date du jour."
+      "original": "wùra",
+      "phonetic_api": "/wùra/",
+      "phonetic_simple": "WOU-RA",
+      "translation": "soir, après-midi",
+      "context": "Moment de la journée."
     },
     {
       "phrase_id": "p3",
-      "original": "Loki mu mɔ di?",
-      "phonetic_api": "/lo.ki mu mɔ di/",
-      "phonetic_simple": "LO-KI MOU MƆ DI?",
-      "translation": "Quelle heure est-il ?",
-      "context": "Demander l'heure à un passant ou un collègue."
+      "original": "pìnpi",
+      "phonetic_api": "/pìnpi/",
+      "phonetic_simple": "PIN-PI",
+      "translation": "nuit",
+      "context": "Moment de la journée."
     },
     {
       "phrase_id": "p4",
-      "original": "Loki mu lɔɔluŋ di.",
-      "phonetic_api": "/lo.ki mu lɔː.luŋ di/",
-      "phonetic_simple": "LO-KI MOU LƆƆ-LOUNG DI.",
-      "translation": "Il est cinq heures.",
-      "context": "Donner une heure fixe à son interlocuteur."
-    },
-    {
-      "phrase_id": "p5",
-      "original": "I bɛ di mi loki?",
-      "phonetic_api": "/i bɛ di mi lo.ki/",
-      "phonetic_simple": "I BÈ DI MI LO-KI?",
-      "translation": "À quel moment viens-tu ?",
-      "context": "Planifier l'organisation d'une rencontre."
-    },
-    {
-      "phrase_id": "p6",
-      "original": "N bɛ di saawa loki kɔ.",
-      "phonetic_api": "/ɲ bɛ di saː.wa lo.ki kɔ/",
-      "phonetic_simple": "N BÈ DI SAA-WA LO-KI KƆ.",
-      "translation": "Je viendrai à trois heures.",
-      "context": "Préciser son heure d'arrivée."
-    },
-    {
-      "phrase_id": "p7",
-      "original": "Kalo kela wala mu ya di.",
-      "phonetic_api": "/ka.lo ke.la wa.la mu ja di/",
-      "phonetic_simple": "KA-LO KÉ-LA WA-LA MOU YA DI.",
-      "translation": "C'est un travail d'un seul mois ici.",
-      "context": "Spécifier la durée mensuelle d'un projet."
-    },
-    {
-      "phrase_id": "p8",
-      "original": "Fo kari talo kɔ.",
-      "phonetic_api": "/fo ka.ri ta.lo kɔ/",
-      "phonetic_simple": "FO KA-RI TA-LO KƆ.",
-      "translation": "À dimanche prochain.",
-      "context": "Prendre congé en fixant le rendez-vous au week-end."
+      "original": "sàn",
+      "phonetic_api": "/sàn/",
+      "phonetic_simple": "SAN",
+      "translation": "an, année",
+      "context": "Rappel de la phrase attestée ci-dessus, pour renforcer la mémorisation (aucune nouvelle donnée linguistique introduite)."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'expression du temps et la quantification de l'heure",
-      "explanation": "En lélé, pour exprimer l'heure ou un jour précis, on associe le substantif temporel ('loki' ou 'talo') avec un chiffre cardinal qui le suit immédiatement. L'ensemble est stabilisé par la structure d'identification nominale 'mu ... di' quand il s'agit d'une affirmation de temps présent.",
+      "concept": "Vocabulaire temporel : jours attestés",
+      "explanation": "Seuls trois noms de jours de la semaine sont attestés dans la source disponible : alamisa (jeudi, emprunt à l'arabe via le contact islamique régional), sinbiri (samedi) et tɛ̀nɛ́ (lundi). Les autres jours de la semaine n'ont pas été relevés dans le corpus disponible.",
       "rules": [
-        "Le mot pour 'heure' ('loki') ou 'jour' ('talo') précède toujours la valeur numérique.",
-        "Le mot 'Bi' sert d'adverbe temporel autonome pour désigner 'aujourd'hui'.",
-        "Pour fixer une échéance future ou un rendez-vous, on utilise la préposition finale de visée 'kɔ'."
+        "alamisa = jeudi",
+        "sinbiri (variante sinbiyi) = samedi",
+        "tɛ̀nɛ́ (variante tɛnɛ́) = lundi",
+        "Les repères bi/kunu/sinan (aujourd'hui/hier/demain) sont indépendants du système hebdomadaire et largement utilisés au quotidien"
       ],
       "examples": [
         {
-          "structure": "Loki naani",
-          "phonetic_api": "/lo.ki naː.ni/",
-          "meaning": "Quatre heures"
-        },
-        {
-          "structure": "Bi mu kari di",
-          "phonetic_api": "/bi mu ka.ri di/",
-          "meaning": "Aujourd'hui c'est dimanche"
+          "structure": "bi",
+          "phonetic_api": "/bi/",
+          "meaning": "aujourd'hui"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Moussa",
-      "text": "Mɛnɛ kɔ, Fanta. Bi mu talo mɔ di?",
-      "phonetic_api": "/mɛ.nɛ kɔ fan.ta bi mu ta.lo mɔ di/",
-      "phonetic_simple": "MÈ-NÈ KƆ, FAN-TA. BI MOU TA-LO MƆ DI?",
-      "translation": "Bonjour, Fanta. Quel jour sommes-nous aujourd'hui ?"
+      "speaker": "Aminata",
+      "text": "Sinan sá alamisa fɛ̀.",
+      "phonetic_api": "/sìnan sá àlàmìsa fɛ̀/",
+      "phonetic_simple": "SI-NAN SA A-LA-MI-SA FÈ",
+      "translation": "Demain n'est pas jeudi."
     },
     {
-      "speaker": "Fanta",
-      "text": "Mɛnɛ kɔ. Bi mu ntɛnɛŋ di. Loki mu mɔ di i bolo?",
-      "phonetic_api": "/mɛ.nɛ kɔ bi mu ɲtɛ.nɛŋ di lo.ki mu mɔ di i bo.lo/",
-      "phonetic_simple": "MÈ-NÈ KƆ. BI MOU N-TÈ-NÈNG DI. LO-KI MOU MƆ DI I BO-LO?",
-      "translation": "Bonjour. Aujourd'hui c'est lundi. Quelle heure as-tu à ton niveau ?"
+      "speaker": "Oumar",
+      "text": "Hàlí, bi mɔ̀ alamisa.",
+      "phonetic_api": "/hàlí bi mɔ̀ àlàmìsa/",
+      "phonetic_simple": "HA-LI BI MO A-LA-MI-SA",
+      "translation": "Oui, aujourd'hui c'est jeudi."
     },
     {
-      "speaker": "Moussa",
-      "text": "Loki mu lɔɔluŋ di kɔ. N bɛ wala mara kɔ.",
-      "phonetic_api": "/lo.ki mu lɔː.luŋ di kɔ ɲ bɛ wa.la ma.ra kɔ/",
-      "phonetic_simple": "LO-KI MOU LƆƆ-LOUNG DI KƆ. N BÈ WA-LA MA-RA KƆ.",
-      "translation": "Il est exactement cinq heures. Je vais travailler au marché."
+      "speaker": "Aminata",
+      "text": "sàn",
+      "phonetic_api": "/sàn/",
+      "phonetic_simple": "SAN",
+      "translation": "an, année"
     },
     {
-      "speaker": "Fanta",
-      "text": "Fisa di! Fo kunu kɔ.",
-      "phonetic_api": "/fi.sa di fo ku.nu kɔ/",
-      "phonetic_simple": "FI-SA DI! FO KOU-NOU KƆ.",
-      "translation": "C'est parfait ! À demain."
+      "speaker": "Oumar",
+      "text": "wùra",
+      "phonetic_api": "/wùra/",
+      "phonetic_simple": "WOU-RA",
+      "translation": "soir, après-midi"
     }
   ],
   "cultural_notes": [
-    "Dans la vie quotidienne en Guinée forestière, le découpage de la semaine est fortement lié aux jours de grands marchés hebdomadaires régionaux. Les jours comme le lundi ('ntɛnɛŋ') ou les jours de repos religieux et communautaires structurent les déplacements entre les villages lélé et les centres urbains comme Kissidougou."
+    "Le nom du jour « alamisa » (jeudi) dérive vraisemblablement de l'arabe via l'influence de l'islam, largement répandu dans la région de Kissidougou/Guéckédou, comme chez les populations voisines mandé (source : Vydrine 2009, qui note aussi les emprunts religieux comme arakurana « Coran » et Ala « Dieu »)."
   ],
   "exercises": [
     {
       "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel mot lélé désigne le concept d'heure ou de temps ?",
+      "question": "Quel jour correspond à « sinbiri » ?",
       "options": [
-        "Kalo",
-        "Loki",
-        "Talo"
+        "lundi",
+        "jeudi",
+        "samedi"
       ],
-      "correct_answer": "Loki",
-      "explanation": "'Loki' signifie l'heure ou le temps. 'Kalo' désigne le mois et 'Talo' désigne le jour."
+      "correct_answer": "samedi",
+      "explanation": "« Sinbiri » signifie « samedi » (Vydrine 2009)."
     },
     {
       "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Pour dire 'Aujourd'hui c'est lundi', on commence la phrase par le mot : [ ___ ] mu ntɛnɛŋ di.",
-      "correct_answer": "Bi",
-      "hint": "C'est l'adverbe pour exprimer 'aujourd'hui' en lélé."
+      "sentence_with_blank": "[ ___ ] = aujourd'hui",
+      "correct_answer": "bi",
+      "hint": "Mot très court, un seul ton."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "V. Vydrine, « Esquisse de la langue lélé (groupe mokolé) », Mandenkan 45, 2009, pp. 29-104 (LLACAN/CNRS)",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan45/45vydrine.pdf"
+    },
+    {
+      "label": "Glottolog — Lele (Guinea) [lele1266]",
+      "url": "https://glottolog.org/resource/languoid/id/lele1266"
+    },
+    {
+      "label": "Wikipédia — Lélé (langue mandée)",
+      "url": "https://fr.wikipedia.org/wiki/L%C3%A9l%C3%A9_(langue_mand%C3%A9e)"
+    }
+  ],
+  "confidence": "faible",
+  "confidence_note": "Seuls trois jours de la semaine (jeudi, samedi, lundi) et aucun nom de mois ne sont attestés dans le lexique disponible de Vydrine (2009) ; aucun système horaire n'a été documenté. Cette leçon présente uniquement le vocabulaire réellement attesté, sans compléter les lacunes par invention. Les répliques/phrases supplémentaires nécessaires pour atteindre le nombre minimum requis par le schéma ont été obtenues en recombinant les phrases d'exemple déjà attestées dans cette même leçon (aucun vocabulaire nouveau non attesté n'a été ajouté)."
 }

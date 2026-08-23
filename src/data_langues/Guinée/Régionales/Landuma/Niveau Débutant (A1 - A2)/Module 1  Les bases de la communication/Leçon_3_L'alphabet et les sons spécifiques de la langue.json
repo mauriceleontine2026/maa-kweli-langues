@@ -6,111 +6,211 @@
   "lesson_number": 3,
   "title": "L'alphabet et les sons spécifiques de la langue",
   "learning_objectives": [
-    "Distinguer et prononcer les voyelles ouvertes (ɛ, ɔ) de la langue",
-    "Identifier les articulations complexes (nasales et injectives)",
-    "Lire à haute voix des mots monosyllabiques types"
+    "Décrire l'inventaire phonologique du landuma tel que documenté par Sumbatova & Vydrin (2021) : voyelles i, e, ɛ, u, o, ɔ, ʌ, ə, a et consonnes p, t, k, b, d, j, gb, f, s, h, c, m, n, ɲ, ŋ, w, r, l, y.",
+    "Repérer les groupes consonantiques prénasalisés caractéristiques (mb-, nc-, nt-, ns-) identifiés dans les emprunts au mandé.",
+    "Comprendre qu'il n'existe pas d'alphabet officiel unique : deux systèmes graphiques coexistent (Rogers, Sumbatova)."
   ],
   "phonetic_focus": {
-    "key_sounds": "Le landouma emploie les caractères phonétiques de l'alphabet africain de référence. Notez bien la présence du 'ɛ' (è) et du 'ɔ' (o ouvert).",
-    "common_pitfalls": "Ne pas confondre la graphie 'ŋ' avec un 'n' ordinaire. Le point d'articulation de 'ŋ' est exclusivement vélaire."
+    "key_sounds": "Le landuma comporte des voyelles i, e, ɛ, u, o, ɔ, ʌ, ə, a et des consonnes prénasalisées complexes (mb-, nc-, nt-, ns-, ŋg-) absentes du français, ainsi qu'une affriquée c proche du « tch » et une occlusive labiovélaire gb (Sumbatova & Vydrin 2021).",
+    "common_pitfalls": "Les francophones tendent à scinder en deux syllabes les groupes consonantiques prénasalisés initiaux (ex. mb-, nc-, nt-), qui forment pourtant une seule attaque consonantique en landuma ; ils confondent aussi souvent les voyelles centrales ə/a et les voyelles mi-ouvertes ɛ/ɔ, qui n'ont pas d'équivalent phonémique net en français."
   },
   "vocabulary": [
     {
-      "word_id": "v3_1",
-      "term": "ɛpɛ",
-      "phonetic_api": "/ɛ.pɛ/",
-      "phonetic_simple": "È-PÈ",
-      "translation": "couteau",
-      "example_sentence": "mbi dɛp ɛpɛ",
-      "example_phonetic": "/mbi dɛp ɛ.pɛ/",
-      "example_translation": "Je prends le couteau."
+      "word_id": "v1",
+      "term": "fum",
+      "phonetic_api": "/fum/",
+      "phonetic_simple": "FOUME",
+      "translation": "personne",
+      "example_sentence": "fum",
+      "example_phonetic": "/fum/",
+      "example_translation": "« personne » — mot isolé attesté dans le corpus lexical disponible ; aucune phrase complète d'exemple n'a été trouvée pour ce terme dans les sources consultées, seule la forme du mot est donc garantie."
     },
     {
-      "word_id": "v3_2",
-      "term": "ɔrɔn",
-      "phonetic_api": "/ɔ.rɔn/",
-      "phonetic_simple": "O-RON",
-      "translation": "homme / mâle",
-      "example_sentence": "ɔrɔn mɔ tana",
-      "example_phonetic": "/ɔ.rɔn mɔ ta.na/",
-      "example_translation": "L'homme est là-bas."
+      "word_id": "v2",
+      "term": "da-mun",
+      "phonetic_api": "/da-mun/",
+      "phonetic_simple": "da-MOUNE",
+      "translation": "eau",
+      "example_sentence": "da-mun",
+      "example_phonetic": "/da-mun/",
+      "example_translation": "« eau » — mot isolé attesté dans le corpus lexical disponible ; aucune phrase complète d'exemple n'a été trouvée pour ce terme dans les sources consultées, seule la forme du mot est donc garantie."
     },
     {
-      "word_id": "v3_3",
-      "term": "ŋon",
-      "phonetic_api": "/ŋon/",
-      "phonetic_simple": "NGON",
-      "translation": "femme / épouse",
-      "example_sentence": "ŋon kɔn",
-      "example_phonetic": "/ŋon kɔn/",
-      "example_translation": "Ma femme."
+      "word_id": "v3",
+      "term": "n-eenc",
+      "phonetic_api": "/n-eenc/",
+      "phonetic_simple": "n-ÉENTCH",
+      "translation": "feu",
+      "example_sentence": "n-eenc",
+      "example_phonetic": "/n-eenc/",
+      "example_translation": "« feu » — mot isolé attesté dans le corpus lexical disponible ; aucune phrase complète d'exemple n'a été trouvée pour ce terme dans les sources consultées, seule la forme du mot est donc garantie."
+    },
+    {
+      "word_id": "v4",
+      "term": "tayif",
+      "phonetic_api": "/tayif/",
+      "phonetic_simple": "ta-YIF",
+      "translation": "nom",
+      "example_sentence": "tayif",
+      "example_phonetic": "/tayif/",
+      "example_translation": "« nom » — mot isolé attesté dans le corpus lexical disponible ; aucune phrase complète d'exemple n'a été trouvée pour ce terme dans les sources consultées, seule la forme du mot est donc garantie."
+    },
+    {
+      "word_id": "v5",
+      "term": "iin",
+      "phonetic_api": "/iin/",
+      "phonetic_simple": "IINE",
+      "translation": "un",
+      "example_sentence": "iin",
+      "example_phonetic": "/iin/",
+      "example_translation": "« un » — mot isolé attesté dans le corpus lexical disponible ; aucune phrase complète d'exemple n'a été trouvée pour ce terme dans les sources consultées, seule la forme du mot est donc garantie."
+    },
+    {
+      "word_id": "v6",
+      "term": "ma-rʊŋ",
+      "phonetic_api": "/ma-rʊŋ/",
+      "phonetic_simple": "ma-ROUNG",
+      "translation": "deux",
+      "example_sentence": "ma-rʊŋ",
+      "example_phonetic": "/ma-rʊŋ/",
+      "example_translation": "« deux » — mot isolé attesté dans le corpus lexical disponible ; aucune phrase complète d'exemple n'a été trouvée pour ce terme dans les sources consultées, seule la forme du mot est donc garantie."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p3_1",
-      "original": "fɔf mɔ fɔf kisin",
-      "phonetic_api": "/fɔf mɔ fɔf ki.sin/",
-      "phonetic_simple": "FOF MO FOF KI-SIN",
-      "translation": "Parle doucement",
-      "context": "Demander à son interlocuteur de ralentir pour mieux saisir les sons."
+      "phrase_id": "p1",
+      "original": "fum",
+      "phonetic_api": "/fum/",
+      "phonetic_simple": "FOUME",
+      "translation": "personne",
+      "context": "Aucune phrase complète figée n'est attestée pour ce contexte précis dans les sources disponibles ; seul ce mot isolé du corpus vérifié est proposé comme point d'ancrage, à utiliser avec prudence."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "da-mun fum",
+      "phonetic_api": "/da-mun fum/",
+      "phonetic_simple": "da-MOUNE FOUME",
+      "translation": "« eau » + « personne » (juxtaposition)",
+      "context": "Recombinaison prudente de deux mots déjà attestés séparément dans le corpus lexical de cette leçon (eau, personne) : cette juxtaposition n'est PAS une expression idiomatique attestée en tant que telle dans les sources, mais une association pédagogique construite uniquement à partir de vocabulaire vérifié, utile pour la mémorisation et la pratique orale."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "n-eenc fum",
+      "phonetic_api": "/n-eenc fum/",
+      "phonetic_simple": "n-ÉENTCH FOUME",
+      "translation": "« feu » + « personne » (juxtaposition)",
+      "context": "Recombinaison prudente de deux mots déjà attestés séparément dans le corpus lexical de cette leçon (feu, personne) : cette juxtaposition n'est PAS une expression idiomatique attestée en tant que telle dans les sources, mais une association pédagogique construite uniquement à partir de vocabulaire vérifié, utile pour la mémorisation et la pratique orale."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "tayif fum",
+      "phonetic_api": "/tayif fum/",
+      "phonetic_simple": "ta-YIF FOUME",
+      "translation": "« nom » + « personne » (juxtaposition)",
+      "context": "Recombinaison prudente de deux mots déjà attestés séparément dans le corpus lexical de cette leçon (nom, personne) : cette juxtaposition n'est PAS une expression idiomatique attestée en tant que telle dans les sources, mais une association pédagogique construite uniquement à partir de vocabulaire vérifié, utile pour la mémorisation et la pratique orale."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'harmonie vocalique élémentaire",
-      "explanation": "Bien que moins rigoureuse que dans d'autres langues nigéro-congolaises, le landouma applique une harmonie de hauteur dans les affixes. Les voyelles du préfixe s'ajustent souvent à l'ouverture de la voyelle radicale.",
+      "concept": "Accord alitératif radical (classes nominales)",
+      "explanation": "Le landuma, comme d'autres langues Mel du Nord, marque l'accord grammatical par un préfixe dont la consonne initiale reprend celle du nom qu'il qualifie ou remplace : c'est un accord dit « alitératif radical », distinct de l'accord par classes nominales à préfixes fixes qu'on trouve dans d'autres langues Niger-Congo. On observe dans le corpus attesté des préfixes tels que a-, da-, ta-, kʊ-, ke-, o-, ma- selon la classe et l'initiale du radical.",
       "rules": [
-        "Si la racine contient 'ɛ' ou 'ɔ', le préfixe tend à s'ouvrir.",
-        "Les radicaux monosyllabiques longs conservent strictement leur timbre."
+        "Les noms attestés portent presque tous un préfixe de classe : da-wump (tête), ta-fera (blanc), kʊ-suŋ (bouche), o-runi (homme), ma-rʊŋ (deux).",
+        "Le préfixe d'accord d'un qualificatif ou d'un déterminant tend à reprendre la consonne initiale du nom contrôleur plutôt qu'une classe grammaticale fixe et arbitraire.",
+        "Cette règle est documentée pour les noms inanimés dans les travaux académiques, mais son fonctionnement précis pour chaque catégorie de mots n'est pas intégralement publié en accès libre : la prudence s'impose pour toute généralisation."
       ],
       "examples": [
         {
-          "structure": "ɛ + Racine ouverte",
-          "phonetic_api": "/ɛ.pɛ/",
-          "meaning": "Couteau (harmonie ouverte)"
+          "structure": "da-wump / da-fɔr",
+          "phonetic_api": "/da-wump/, /da-fɔr/",
+          "meaning": "tête / œil (même préfixe da- : classe nominale partagée)"
+        },
+        {
+          "structure": "ta-fera / ta-bi / ta-tɔt",
+          "phonetic_api": "/ta-fera/, /ta-bi/, /ta-tɔt/",
+          "meaning": "blanc / noir / bon (préfixe ta- pour ces qualificatifs attestés)"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "L'apprenant",
-      "text": "kɛwun mɔ fɔf 'ŋon' ?",
-      "phonetic_api": "/kɛ.wun mɔ fɔf ŋon/",
-      "phonetic_simple": "KÈ-WOUN MO FOF NGON ?",
-      "translation": "Comment prononces-tu 'ŋon' ?"
+      "speaker": "Locuteur A",
+      "text": "fum",
+      "phonetic_api": "/fum/",
+      "phonetic_simple": "FOUME",
+      "translation": "(mot isolé : « personne ») — aucun dialogue naturel complet n'est attesté dans les sources disponibles pour ce thème ; cet échange reste donc une simple juxtaposition prudente du vocabulaire vérifié, non une phrase authentique de conversation."
     },
     {
-      "speaker": "Le guide",
-      "text": "fɔf kisin : ŋon. mɔ fap ?",
-      "phonetic_api": "/fɔf ki.sin ŋon mɔ fap/",
-      "phonetic_simple": "FOF KI-SIN : NGON. MO FAP ?",
-      "translation": "Dis-le doucement : ŋon. As-tu compris ?"
+      "speaker": "Locuteur B",
+      "text": "da-mun",
+      "phonetic_api": "/da-mun/",
+      "phonetic_simple": "da-MOUNE",
+      "translation": "(mot isolé : « eau ») — aucun dialogue naturel complet n'est attesté dans les sources disponibles pour ce thème ; cet échange reste donc une simple juxtaposition prudente du vocabulaire vérifié, non une phrase authentique de conversation."
+    },
+    {
+      "speaker": "Locuteur A",
+      "text": "n-eenc",
+      "phonetic_api": "/n-eenc/",
+      "phonetic_simple": "n-ÉENTCH",
+      "translation": "(mot isolé : « feu ») — aucun dialogue naturel complet n'est attesté dans les sources disponibles pour ce thème ; cet échange reste donc une simple juxtaposition prudente du vocabulaire vérifié, non une phrase authentique de conversation."
+    },
+    {
+      "speaker": "Locuteur B",
+      "text": "tayif",
+      "phonetic_api": "/tayif/",
+      "phonetic_simple": "ta-YIF",
+      "translation": "(mot isolé : « nom ») — aucun dialogue naturel complet n'est attesté dans les sources disponibles pour ce thème ; cet échange reste donc une simple juxtaposition prudente du vocabulaire vérifié, non une phrase authentique de conversation."
     }
   ],
   "cultural_notes": [
-    "La préservation de l'alphabet et de la phonologie landouma est un enjeu crucial à Boké, face à la forte expansion linguistique de la langue soussou, dominante dans les échanges commerciaux côtiers."
+    "Il n'existe pas d'orthographe officielle unique pour le landuma : Kirk Rogers a élaboré un système graphique pratique dans les années 2000 (utilisé dans le *Dictionnaire landouma-français* de Rogers & Bryant, 2012), tandis que la linguiste Nina Sumbatova a utilisé une transcription différente pour ses travaux académiques ([Wikipédia FR](https://fr.wikipedia.org/wiki/Landoma_(langue))).",
+    "Le landuma présente un système rare d'accord alitératif radical : la première consonne du préfixe d'accord grammatical dépend directement de la première consonne du nom contrôleur, un phénomène qui se retrouve dans plusieurs langues Mel du Nord ([étude de Sande, résumé OUCI](https://ouci.dntb.gov.ua/en/works/4kRxvdm7/)).",
+    "Glottolog classe le landuma comme langue « vulnérable » et Ethnologue ne lui consacre pas de fiche dédiée dans ses listes en ligne les plus visibles : c'est une langue très peu documentée, sans matériel pédagogique publié à large diffusion ([Glottolog](https://glottolog.org/resource/languoid/id/land1256))."
   ],
   "exercises": [
     {
-      "exercise_id": "ex3_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel son représente le symbole 'ɔ' ?",
+      "question": "Comment dit-on « personne » en landuma ?",
       "options": [
-        "Le 'ou' de loup",
-        "Le 'o' ouvert de porte",
-        "Le 'eu' de fleur"
+        "ma-rʊŋ",
+        "da-mun",
+        "fum"
       ],
-      "correct_answer": "Le 'o' ouvert de porte",
-      "explanation": "Le symbole 'ɔ' correspond précisément à la voyelle moyenne-inférieure professionnelle postérieure arrondie de l'API."
+      "correct_answer": "fum",
+      "explanation": "« fum » est la forme attestée pour « personne » d'après le corpus lexical collecté (confiance : moyenne)."
     },
     {
-      "exercise_id": "ex3_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "fɔf mɔ fɔf [ ___ ] (Parle doucement)",
-      "correct_answer": "kisin",
-      "hint": "Adverbe signifiant doucement ou lentement."
+      "sentence_with_blank": "[ ___ ] = « eau »",
+      "correct_answer": "da-mun",
+      "hint": "Ce mot appartient au vocabulaire de base attesté par les sources académiques (confiance : moyenne)."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Wiktionary — Word lists of Atlantic languages of Guinea (d'après Fields 2001)",
+      "url": "https://en.wiktionary.org/wiki/Appendix:Word_lists_of_Atlantic_languages_of_Guinea"
+    },
+    {
+      "label": "Wikipédia FR — Landoma (langue)",
+      "url": "https://fr.wikipedia.org/wiki/Landoma_(langue)"
+    },
+    {
+      "label": "Sande — \"Landuma: a case of radical alliterative agreement\" (résumé OUCI)",
+      "url": "https://ouci.dntb.gov.ua/en/works/4kRxvdm7/"
+    },
+    {
+      "label": "Glottolog — Landoma [land1256]",
+      "url": "https://glottolog.org/resource/languoid/id/land1256"
+    },
+    {
+      "label": "Sumbatova & Vydrin (2021), Journal of Language Relationship 19-1/2, p.136-151",
+      "url": "https://www.jolr.ru/files/(303)jlr2021-19-1-2(136-151).pdf"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Le vocabulaire cible de cette leçon provient exclusivement du corpus lexical attesté (ASJP/Wilson 2007/Rogers & Bryant 2012, Wiktionary/Fields 2001, Sumbatova & Vydrin 2021) ; confiance des mots utilisés : moyenne. Les mots eux-mêmes sont documentés par au moins une source académique ou lexicographique identifiée, mais aucun enregistrement audio ni locuteur natif n'a pu être consulté pour valider la prosodie exacte : la confiance globale est donc plafonnée à 'moyenne'. Les phrases de la section 'common_phrases' au-delà de la première ont été obtenues par recombinaison de mots individuellement attestés du vocabulaire de cette leçon (juxtapositions pédagogiques), et non par une source directe attestant la phrase entière : elles sont signalées comme telles dans leur champ 'context'."
 }

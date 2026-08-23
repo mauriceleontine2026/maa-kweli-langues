@@ -6,175 +6,214 @@
   "lesson_number": 3,
   "title": "Les connecteurs logiques pour structurer un discours élaboré",
   "learning_objectives": [
-    "Articuler des arguments complexes en utilisant des connecteurs de cause et de conséquence",
-    "Exprimer l'opposition, la concession et la restriction dans un débat formel",
-    "Structurer un discours fluide à l'aide de marqueurs de transition et de conclusion"
+    "Utiliser les connecteurs de cause, conséquence et opposition",
+    "Structurer un discours argumentatif avec des articulations logiques claires",
+    "Nuancer une opposition ou une concession"
   ],
   "phonetic_focus": {
-    "key_sounds": "La locution restrictive 'fɔ' /fɔ/ possède une voyelle ouverte postérieure courte qui doit s'arrêter net. Le connecteur d'opposition 'kɔni' /kɔ.ni/ s'articule avec un ton haut sur la première syllabe. Pour le connecteur de cause 'katuguni' /ka.tu.ɡu.ni/, veillez à l'enchaînement rapide et fluide des consonnes occlusives.",
-    "common_pitfalls": "Ne prolongez pas indûment la voyelle finale de 'baryi' /ba.rji/ (à cause de). Veillez à ne pas durcir le son /j/ en /ʒ/ pour garder la prononciation authentique du konyanka."
+    "key_sounds": "Le connecteur 'bawo' (parce que), emprunt à l'arabe via le continuum manding, garde une prononciation stable quelle que soit la position dans la phrase.",
+    "common_pitfalls": "Placer 'kono' (mais) en tête de phrase comme en français ; dans le continuum maninka, il se place généralement après le premier élément de la proposition d'opposition, bien qu'un usage initial soit aussi attesté à l'oral."
   },
   "vocabulary": [
     {
       "word_id": "v1",
-      "term": "Katuguni",
-      "phonetic_api": "/ka.tu.ɡu.ni/",
-      "phonetic_simple": "KA-TOU-GOU-NI",
-      "translation": "Parce que / Car (introduit une cause)",
-      "example_sentence": "N'ma taa bara la katuguni n'bɛ kɛnɛma tana la.",
-      "example_phonetic": "/nma taː ba.ra la ka.tu.ɡu.ni mbɛ kɛ.nɛ.ma ta.na la/",
-      "example_translation": "Je ne suis pas allé au travail parce que je suis malade."
+      "term": "bawo",
+      "phonetic_api": "[bawo]",
+      "phonetic_simple": "ba-wo",
+      "translation": "parce que",
+      "example_sentence": "N ma na, bawo n bana.",
+      "example_phonetic": "[n ma na bawo n bana]",
+      "example_translation": "Je ne suis pas venu, parce que j'étais malade."
     },
     {
       "word_id": "v2",
-      "term": "Kɔni",
-      "phonetic_api": "/kɔ.ni/",
-      "phonetic_simple": "KƆ-NI",
-      "translation": "Mais / Cependant / Pourtant (marque l'opposition)",
-      "example_sentence": "A bɛ fɛ ka na, kɔni wari t'a bolo.",
-      "example_phonetic": "/a bɛ fɛ ka na kɔ.ni wa.ri ta bo.lo/",
-      "example_translation": "Il veut venir, mais il n'a pas d'argent."
+      "term": "o la",
+      "phonetic_api": "[o la]",
+      "phonetic_simple": "o-la",
+      "translation": "donc, c'est pourquoi",
+      "example_sentence": "Sanji nana, o la an ma taa senekunbe la.",
+      "example_phonetic": "[sandʒi nana o la an ma taː senekunbe la]",
+      "example_translation": "Il a plu, donc nous ne sommes pas allés au champ."
     },
     {
       "word_id": "v3",
-      "term": "Baryi",
-      "phonetic_api": "/ba.rji/",
-      "phonetic_simple": "BAR-YI",
-      "translation": "À cause de / En raison de (suivi d'un groupe nominal)",
-      "example_sentence": "San ba baryi, an tɛ se ka bɔ kɛnɛma sisan.",
-      "example_phonetic": "/sã ba ba.rji ã tɛ se ka bɔ kɛ.nɛ.ma si.sã/",
-      "example_translation": "À cause de la grande pluie, nous ne pouvons pas sortir dehors maintenant."
+      "term": "kono",
+      "phonetic_api": "[kono]",
+      "phonetic_simple": "ko-no",
+      "translation": "mais",
+      "example_sentence": "A fɛn tɛ, kono a bɛ baara kɛ kosɛbɛ.",
+      "example_phonetic": "[a fɛn tɛ kono a bɛ baːra kɛ kosɛbɛ]",
+      "example_translation": "Il n'a rien, mais il travaille beaucoup."
     },
     {
       "word_id": "v4",
-      "term": "O ladi",
-      "phonetic_api": "/o la.di/",
-      "phonetic_simple": "O LA-DI",
-      "translation": "C'est pourquoi / Par conséquent (marque la conclusion)",
-      "example_sentence": "I ye n'ladiya, o ladi n'sɔnna a la.",
-      "example_phonetic": "/i jɛ nladi.ja o la.di nsɔ̃.na a la/",
-      "example_translation": "Tu m'as conseillé, c'est pourquoi j'ai accepté."
+      "term": "hali ni",
+      "phonetic_api": "[hali ni]",
+      "phonetic_simple": "ha-li-ni",
+      "translation": "même si (concession)",
+      "example_sentence": "Hali ni a gɛlɛnna, n bɛna a kɛ.",
+      "example_phonetic": "[hali ni a ɡɛlɛnna n bɛna a kɛ]",
+      "example_translation": "Même si c'est difficile, je le ferai."
     },
     {
       "word_id": "v5",
-      "term": "Hali ni... o tɛ a tɔ",
-      "phonetic_api": "/ha.li ni... o tɛ a tɔ/",
-      "phonetic_simple": "HA-LI NI... O TÈ A TƆ",
-      "translation": "Bien que / Malgré cela / Quoique (locution de concession)",
-      "example_sentence": "Hali ni bara ka gban, o tɛ a tɔ an bɛ ban a la bi.",
-      "example_phonetic": "/ha.li ni ba.ra ka ɡ͡bã o tɛ a tɔ ã bɛ bã a la bi/",
-      "example_translation": "Bien que le travail soit lourd, malgré cela nous le finirons aujourd'hui."
+      "term": "walima",
+      "phonetic_api": "[walima]",
+      "phonetic_simple": "wa-li-ma",
+      "translation": "ou bien",
+      "example_sentence": "I bɛna taa walima i bɛna to yan?",
+      "example_phonetic": "[i bɛna taː walima i bɛna to jan]",
+      "example_translation": "Tu vas partir ou bien tu vas rester ici ?"
+    },
+    {
+      "word_id": "v6",
+      "term": "wa",
+      "phonetic_api": "[wa]",
+      "phonetic_simple": "wa",
+      "translation": "et (coordination de phrases)",
+      "example_sentence": "N tara sugu la wa n san malo.",
+      "example_phonetic": "[n tara suɡu la wa n san malo]",
+      "example_translation": "Je suis allé au marché et j'ai acheté du riz."
     }
   ],
   "common_phrases": [
     {
       "phrase_id": "p1",
-      "original": "N'bɛ nin fɔ la katuguni a wajibiyara an la.",
-      "phonetic_api": "/mbɛ nĩ fɔ la ka.tu.ɡu.ni a wa.d͡ʒi.bi.ja.ra ã la/",
-      "phonetic_simple": "N-BÈ NIN FƆ LA KA-TOU-GOU-NI A WA-DJI-BI-YA-RA AN LA",
-      "translation": "Je dis cela parce que cela s'impose à nous comme un devoir.",
-      "context": "Formule pour légitimer une prise de parole rigoureuse dans une assemblée."
+      "original": "O la, n b'a fɔ ko...",
+      "phonetic_api": "[o la n ba fɔ ko]",
+      "phonetic_simple": "o-la, n-ba-fo-ko",
+      "translation": "C'est pourquoi, je dis que...",
+      "context": "Introduire une conclusion argumentative"
     },
     {
       "phrase_id": "p2",
-      "original": "I la ko ka nyan, kɔni hakili dɔɔni bɛ fɛ.",
-      "phonetic_api": "/i la ko ka ɲã kɔ.ni ha.ki.li dɔː.ni bɛ fɛ/",
-      "phonetic_simple": "I LA KO KA NYAN, KƆ-NI HA-KI-LI DƆƆ-NI BÈ FÈ",
-      "translation": "Ton projet est bon, cependant il requiert encore un peu de réflexion.",
-      "context": "Nuancer une approbation lors d'une concertation communautaire."
+      "original": "Hali ni a gɛlɛnna, ...",
+      "phonetic_api": "[hali ni a ɡɛlɛnna]",
+      "phonetic_simple": "ha-li-ni-a-gè-lèn-na",
+      "translation": "Même si c'est difficile, ...",
+      "context": "Introduire une concession dans un discours argumentatif"
     },
     {
       "phrase_id": "p3",
-      "original": "Wari tɛ an bolo, o ladi an tɛ se ka taa duguba la.",
-      "phonetic_api": "/wa.ri tɛ ã bo.lo o la.di ã tɛ se ka taː du.ɡu.ba la/",
-      "phonetic_simple": "WA-RI TÈ AN BO-LO, O LA-DI AN TÈ SÉ KA TAA DOU-GOU-BA LA",
-      "translation": "Nous n'avons pas d'argent, par conséquent nous ne pouvons pas nous rendre en ville.",
-      "context": "Établir un lien logique de cause à effet indiscutable."
+      "original": "Bawo, a tinyɛ ye ko...",
+      "phonetic_api": "[bawo a tiɲɛ je ko]",
+      "phonetic_simple": "ba-wo, a-ti-nyè-yé-ko",
+      "translation": "Parce que, la vérité est que...",
+      "context": "Justifier une affirmation par une cause"
     },
     {
       "phrase_id": "p4",
-      "original": "Fɔ ni an ye ko nin bɛrɛbɛrɛ lɔn kulu.",
-      "phonetic_api": "/fɔ ni ã jɛ ko nĩ bɛ.rɛ.bɛ.rɛ lɔ̃ ku.lu/",
-      "phonetic_simple": "FƆ NI AN YÈ KO NIN BÈ-RÈ-BÈ-RÈ LƆN KOU-LOU",
-      "translation": "À moins que nous n'ayons d'abord tiré cette affaire au clair.",
-      "context": "Poser une condition restrictive majeure lors d'une délibération."
+      "original": "Walima an bɛna sabali",
+      "phonetic_api": "[walima an bɛna sabali]",
+      "phonetic_simple": "wa-li-ma-an-bè-na-sa-ba-li",
+      "translation": "Ou bien nous allons patienter",
+      "context": "Proposer une alternative dans un raisonnement argumentatif"
     }
   ],
   "grammar_points": [
     {
-      "concept": "La coordination complexe et l'articulation logique",
-      "explanation": "Le konyanka utilise des conjonctions spécifiques en position initiale ou intermédiaire pour tisser les liens du raisonnement soutenu. Les connecteurs de conclusion se placent en tête de la proposition subordonnée.",
+      "concept": "Les connecteurs de cause et de conséquence",
+      "explanation": "'bawo' (parce que) introduit une cause après le fait énoncé ; 'o la' (donc/c'est pourquoi) introduit la conséquence après la cause.",
       "rules": [
-        "Cause explicative : Proposition principale + katuguni + Proposition subordonnée.",
-        "Conséquence logique : Proposition de cause + o ladi (c'est pourquoi) + Proposition de conséquence.",
-        "Opposition contrastive : Proposition A + kɔni + Proposition B (introduit une rupture ou restriction)."
+        "Fait + bawo + cause = structure explicative",
+        "Cause + o la + conséquence = structure conséquentielle"
       ],
       "examples": [
         {
-          "structure": "A nana katuguni n'fa ye a weele",
-          "phonetic_api": "/a na.na ka.tu.ɡu.ni nfa jɛ a weː.le/",
-          "meaning": "Il est venu parce que mon père l'a appelé"
-        },
+          "structure": "A bana, o la a ma na",
+          "phonetic_api": "[a bana o la a ma na]",
+          "meaning": "Il était malade, c'est pourquoi il n'est pas venu"
+        }
+      ]
+    },
+    {
+      "concept": "La concession avec 'hali ni'",
+      "explanation": "'hali ni' introduit une proposition concessive, indiquant qu'un obstacle n'empêche pas la réalisation de l'action principale.",
+      "rules": [
+        "hali ni + proposition (obstacle) + , + proposition principale (persistance)"
+      ],
+      "examples": [
         {
-          "structure": "I la hakili ka dɔgɔ, o ladi kana sɔn",
-          "phonetic_api": "/i la ha.ki.li ka dɔ.ɡɔ o la.di ka.na sɔ̃/",
-          "meaning": "Ton avis est fragile, par conséquent n'approuve pas trop vite"
+          "structure": "hali ni a gɛlɛnna, n bɛna a kɛ",
+          "phonetic_api": "[hali ni a ɡɛlɛnna n bɛna a kɛ]",
+          "meaning": "même si c'est difficile, je le ferai"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Lamine (Orateur aîné)",
-      "text": "Amara, i la taa-sila ka nyan kɔnɔ, kɔni i ma somogo lu la hakili sɔn kulu.",
-      "phonetic_api": "/a.ma.ra i la taː.si.la ka ɲã kɔ.nɔ kɔ.ni i ma so.mo.ɡo lu la ha.ki.li sɔ̃ ku.lu/",
-      "phonetic_simple": "A-MA-RA, I LA TAA-SI-LA KA NYAN KƆ-NƆ, KƆ-NI I MA SO-MO-GO LOU LA HA-KI-LI SƆN KOU-LOU",
-      "translation": "Amara, ta démarche est louable en soi, cependant tu n'as pas d'abord écouté l'avis de ta famille."
+      "speaker": "Orateur",
+      "text": "N denbaya nyuman minnu, aw bɛɛ ka jɛ. Bawo, an ka kan ka baara kɛ jɛkulu la.",
+      "phonetic_api": "[n dɛnbaja ɲuman minnu aw bɛːɛ ka dʒɛ bawo an ka kan ka baːra kɛ dʒɛkulu la]",
+      "phonetic_simple": "n-den-ba-ya-nyu-man-min-nu",
+      "translation": "Chers membres de ma famille, vous êtes tous réunis. Parce que nous devons travailler ensemble."
     },
     {
-      "speaker": "Amara",
-      "text": "N'mɔgɔbaxun, wari ko wajibiyara n'la, o ladi n'ma se ka u ladiya ɲini sisan.",
-      "phonetic_api": "/mmɔ.ɡɔ.ba.xun wa.ri ko wa.d͡ʒi.bi.ja.ra nla o la.di nma se ka u la.di.ja ɲi.ni si.sã/",
-      "phonetic_simple": "N-MƆ-GƆ-BA-ROUN, WA-RI KO WA-DJI-BI-YA-RA N-LA, O LA-DI N-MA SÉ KA OU LA-DI-YA NYI-NI SI-SAN",
-      "translation": "Mon aîné, une contrainte financière s'est imposée à moi, c'est pourquoi je n'ai pas pu solliciter leurs conseils à cet instant."
+      "speaker": "Auditeur",
+      "text": "O la, mun le ka kan an kɛ fɔlɔ?",
+      "phonetic_api": "[o la mun le ka kan an kɛ fɔlɔ]",
+      "phonetic_simple": "o-la, mun-lé-ka-kan-an-kè-fo-lo",
+      "translation": "Donc, que devons-nous faire en premier ?"
     },
     {
-      "speaker": "Lamine (Orateur aîné)",
-      "text": "O tɛ a tɔ, fɔ i ka lakarika bara nin ban, katuguni a ye i la sini-ndɔfɛ di.",
-      "phonetic_api": "/o tɛ a tɔ fɔ i ka la.ka.ri.ka ba.ra nĩ bã ka.tu.ɡu.ni a jɛ i la si.ni.ndo.fɛ di/",
-      "phonetic_simple": "O TÈ A TƆ, FƆ I KA LA-KA-RI-KA BA-RA NIN BAN, KA-TOU-GOU-NI A YÈ I LA SI-NI-NDO-FÈ DI",
-      "translation": "Malgré cela, il faut absolument que tu termines tes études, car elles représentent ton avenir."
+      "speaker": "Orateur",
+      "text": "Hali ni baara ka gɛlɛn, an bɛna se, walima an bɛna nyini dɛmɛ.",
+      "phonetic_api": "[hali ni baːra ka ɡɛlɛn an bɛna se walima an bɛna ɲini dɛmɛ]",
+      "phonetic_simple": "ha-li-ni-ba-a-ra-ka-gè-lèn",
+      "translation": "Même si le travail est difficile, nous réussirons, ou bien nous chercherons de l'aide."
     },
     {
-      "speaker": "Amara",
-      "text": "Hali, n'bɛ n'jusu bila a la baryi i la hakili timan nin.",
-      "phonetic_api": "/ha.li mbɛ nd͡ʒu.su bi.la a la ba.rji i la ha.ki.li ti.mã nĩ/",
-      "phonetic_simple": "HA-LI, N-BÈ N-DJOU-SOU BI-LA A LA BAR-YI I LA HA-KI-LI TI-MAN NIN",
-      "translation": "Absolument, je vais m'y consacrer pleinement (y poser mon cœur) en raison de ton conseil si précieux."
+      "speaker": "Auditeur",
+      "text": "Walima an bɛna sabali fo ka waati bɛtɛ sɔrɔ?",
+      "phonetic_api": "[walima an bɛna sabali fo ka waːti bɛtɛ sɔrɔ]",
+      "phonetic_simple": "wa-li-ma-an-bè-na-sa-ba-li",
+      "translation": "Ou bien allons-nous patienter jusqu'à trouver un meilleur moment ?"
     }
   ],
   "cultural_notes": [
-    "Dans l'art oratoire traditionnel konyanka, l'utilisation judicieuse des connecteurs logiques témoigne de la haute éducation d'un locuteur. Lors des palabres ou des conseils de notables, l'orateur veille à équilibrer ses arguments par des concessions ('o tɛ a tɔ') et à toujours expliciter la cause ('katuguni') pour préserver l'harmonie et éviter les conclusions hâtives."
+    "La prise de parole en public, notamment lors des réunions familiales ou villageoises, mobilise traditionnellement ces connecteurs logiques pour structurer un discours persuasif dans les sociétés manding, dont fait partie la zone koniaké.",
+    "Le mot 'bawo' est un emprunt largement répandu dans le continuum manding, dérivé par contact linguistique interne à la région et non spécifique au Konyanka."
   ],
   "exercises": [
     {
-      "exercise_id": "ex1",
-      "type": "multiple_choice",
-      "question": "Quel connecteur logique utilisez-vous pour introduire une conclusion ('C'est pourquoi / Par conséquent') ?",
+      "exercise_id": "e1",
+      "type": "choix_multiple",
+      "question": "Quel connecteur signifie 'donc, c'est pourquoi' ?",
       "options": [
-        "Katuguni",
-        "O ladi",
-        "Kɔni"
+        "bawo",
+        "o la",
+        "kono",
+        "walima"
       ],
-      "correct_answer": "O ladi",
-      "explanation": "'O ladi' lie la cause à son effet logique en concluant la proposition."
+      "correct_answer": "o la",
+      "explanation": "'o la' introduit une conséquence logique."
     },
     {
-      "exercise_id": "ex2",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "N'bɛ fɛ ka taa, [ ___ ] wari tɛ n'bolo (Je veux partir, mais je n'ai pas d'argent).",
-      "correct_answer": "kɔni",
-      "hint": "Le connecteur d'opposition pour marquer une restriction ou un obstacle."
+      "exercise_id": "e2",
+      "type": "traduction",
+      "question": "Traduisez : 'Même si c'est difficile, je le ferai.'",
+      "correct_answer": "Hali ni a gɛlɛnna, n bɛna a kɛ.",
+      "explanation": "'hali ni' = même si, introduit la concession."
+    },
+    {
+      "exercise_id": "e3",
+      "type": "texte_a_trous",
+      "sentence_with_blank": "A bana, ___ a ma na. (Il était malade, c'est pourquoi il n'est pas venu.)",
+      "correct_answer": "o la",
+      "explanation": "'o la' introduit la conséquence de la cause énoncée."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Malinkuia — Introduction à la langue malinké (grammaire complète, variété du Wulada, Haute-Guinée)",
+      "url": "https://fr.scribd.com/document/499114939/Malinkuia"
+    },
+    {
+      "label": "Vydrin & Diané — Propositions pour l'orthographe du maninka (Guinée), Mandenkan 52 (2014)",
+      "url": "https://shs.hal.science/halshs-01096594v1/document"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Aucun lexique ou grammaire publiés et dédiés spécifiquement au Konyanka (Koyaka/Konianka, ISO mku) n'a été localisé. Les structures grammaticales avancées présentées ici s'appuient sur les travaux académiques de Vydrin et son équipe (Mandenkan/LLACAN) sur le maninka de Guinée, dont le Konyanka constitue une variété dialectale au sein du même sous-groupe Manding-Est. Le vocabulaire de base provient de la grammaire pratique Malinkuia (variété du Wulada, Haute-Guinée). Les spécificités confirmées du Konyanka sont indiquées dans les notes culturelles plutôt que dans le lexique."
 }

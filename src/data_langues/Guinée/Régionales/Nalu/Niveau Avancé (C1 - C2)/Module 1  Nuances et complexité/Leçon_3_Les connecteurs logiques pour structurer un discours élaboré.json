@@ -6,158 +6,202 @@
   "lesson_number": 3,
   "title": "Les connecteurs logiques pour structurer un discours élaboré",
   "learning_objectives": [
-    "Articuler des arguments complexes en utilisant des connecteurs de cause, de conséquence, d'opposition et de concession",
-    "Structurer un discours formel et fluide lors d'une prise de parole publique"
+    "Utiliser « nɛɛ » (que/parce que/citation) et « naan » (aussi/également) pour lier des idées",
+    "Employer « alako » (afin que), « bere/mbere » (quand/après) et « beenuŋ » (avant) pour structurer une chronologie",
+    "Construire un discours suivi combinant plusieurs connecteurs attestés"
   ],
   "phonetic_focus": {
-    "key_sounds": "La locution conjonctive 'mun-moti' exige une transition fluide entre la nasale alvéolaire /-n/ et la bilabiale /m-/, sans coup de glotte intermédiaire. Le terme oppositionnel 'bale' demande une articulation nette de la voyelle finale ouverte /ɛ/.",
-    "common_pitfalls": "Attention à ne pas confondre le connecteur de cause 'foti-we' avec la simple forme interrogative. C'est l'accentuation tonale sur la première syllabe de 'foti' qui en verrouille la valeur logique."
+    "key_sounds": "Le nalu comporte 7 voyelles avec opposition de longueur (i, u, e [ɪ], o [ʊ], ɛ, ɔ, a) et des consonnes comme θ (proche du 'th' anglais dur, prononcé [f] par de nombreux locuteurs), gb (occlusive labio-vélaire double, sans équivalent en français), et ŋ (comme 'ng' dans 'parking'). Source : Seidel (2024), The Oxford Guide to the Atlantic Languages of West Africa.",
+    "common_pitfalls": "Les francophones ont tendance à confondre ɛ/e et ɔ/o car le français ne marque pas systématiquement cette opposition de fermeture. Le θ est souvent mal prononcé car il n'existe pas en français ; beaucoup de locuteurs nalu eux-mêmes le réalisent [f]. La longueur vocalique (ex. redoublement de voyelle 'ɔɔ') doit être respectée, contrairement au français où elle n'est pas distinctive."
   },
   "vocabulary": [
     {
-      "word_id": "v21_1",
-      "term": "Bale",
-      "phonetic_api": "/ba.lɛ/",
-      "phonetic_simple": "BA-LÈ",
-      "translation": "Mais / Cependant / Pourtant (Opposition)",
-      "example_sentence": "M malang ba, bale m gbe balang woliŋ.",
-      "example_phonetic": "/m ba.laŋ ba ba.lɛ m ŋgbe ba.laŋ wo.liŋ/",
-      "example_translation": "Je veux venir, mais je n'ai pas d'argent."
+      "word_id": "v1",
+      "term": "nɛɛ",
+      "phonetic_api": "/nɛː/",
+      "phonetic_simple": "NÈÈ",
+      "translation": "que ; parce que ; marqueur de citation",
+      "example_sentence": "Bɛyek nɛɛ aŋɛyet tɛkɛ kamsaley kamfitiri.",
+      "example_phonetic": "/bɛjek nɛː aŋɛjet tɛkɛ kamsalej kamfitiri/",
+      "example_translation": "Ils dirent qu'il arriverait bientôt à l'heure de la prière du soir."
     },
     {
-      "word_id": "v21_2",
-      "term": "Foti-we",
-      "phonetic_api": "/fo.ti.we/",
-      "phonetic_simple": "FO-TI-WÉ",
-      "translation": "Parce que / Car / En raison de (Cause)",
-      "example_sentence": "M kanyen di n'boka foti-we m gbe wale-na.",
-      "example_phonetic": "/m ka.ɲeŋ di n͡bo.ka fo.ti.we m ŋgbe wa.le.na/",
-      "example_translation": "Je reste à la maison parce que je ne travaille pas."
+      "word_id": "v2",
+      "term": "naan",
+      "phonetic_api": "/naːn/",
+      "phonetic_simple": "NAAN",
+      "translation": "aussi, également ; marqueur emphatique",
+      "example_sentence": "Mfem naan biwocna bɛm laŋ.",
+      "example_phonetic": "/mfem naːn biwɔkna bɛm laŋ/",
+      "example_translation": "Le chef aussi les a bien reçus."
     },
     {
-      "word_id": "v21_3",
-      "term": "Mu-cale",
-      "phonetic_api": "/mu.tʃa.le/",
-      "phonetic_simple": "MOU-TCHA-LÉ",
-      "translation": "C'est pourquoi / Par conséquent (Conséquence)",
-      "example_sentence": "M'ba mi a foti-a mi, mu-cale m ba-a we.",
-      "example_phonetic": "/m.ba mi a fo.ti.a mi mu.tʃa.le m ba.a we/",
-      "example_translation": "Mon grand-père m'a parlé, c'est pourquoi je suis venu ici."
+      "word_id": "v3",
+      "term": "alako",
+      "phonetic_api": "/alako/",
+      "phonetic_simple": "ALAKO",
+      "translation": "afin que",
+      "example_sentence": "alako",
+      "example_phonetic": "/alako/",
+      "example_translation": "afin que (Seidel 2024, particule attestée sans exemple de phrase complète disponible)"
     },
     {
-      "word_id": "v21_4",
-      "term": "Mun-moti",
-      "phonetic_api": "/mun.mo.ti/",
-      "phonetic_simple": "MOUN-MO-TI",
-      "translation": "Bien que / Quoique / Même si (Concession)",
-      "example_sentence": "Mun-moti gbele a baang, m boku di wale.",
-      "example_phonetic": "/mun.mo.ti g͡be.le a baːŋ m bo.ku di wa.le/",
-      "example_translation": "Bien que le soleil soit accablant (grand), je vais travailler."
+      "word_id": "v4",
+      "term": "bere / mbere",
+      "phonetic_api": "/bere/, /mbere/",
+      "phonetic_simple": "BÉRÉ / M-BÉRÉ",
+      "translation": "quand ; après",
+      "example_sentence": "bere",
+      "example_phonetic": "/bere/",
+      "example_translation": "quand, après (Seidel 2024)"
     },
     {
-      "word_id": "v21_5",
-      "term": "I suba-we",
-      "phonetic_api": "/i su.ba.we/",
-      "phonetic_simple": "I SOU-BA-WÉ",
-      "translation": "De plus / En outre / Par ailleurs (Addition)",
-      "example_sentence": "M malang malaŋ, i suba-we m malang ceeb.",
-      "example_phonetic": "/m ba.laŋ ma.laŋ i su.ba.we m ba.laŋ tʃeːb/",
-      "example_translation": "J'aime le riz, de plus j'aime le poisson."
+      "word_id": "v5",
+      "term": "beenuŋ",
+      "phonetic_api": "/beːnuŋ/",
+      "phonetic_simple": "BÉÉNOUNG",
+      "translation": "avant",
+      "example_sentence": "Hali beenuŋ wa biki yinsin yoŋ abet.",
+      "example_phonetic": "/hali beːnuŋ wa biki jinsin jɔŋ abet/",
+      "example_translation": "Non, avant que nous arrivions là-bas, il était déjà parti."
+    },
+    {
+      "word_id": "v6",
+      "term": "yahanɛ",
+      "phonetic_api": "/jahanɛ/",
+      "phonetic_simple": "YAHANÈ",
+      "translation": "comme",
+      "example_sentence": "yahanɛ",
+      "example_phonetic": "/jahanɛ/",
+      "example_translation": "comme (comparatif, Seidel 2024)"
+    },
+    {
+      "word_id": "v7",
+      "term": "minɛ",
+      "phonetic_api": "/minɛ/",
+      "phonetic_simple": "MINÈ",
+      "translation": "sauf, excepté",
+      "example_sentence": "Ntuŋgba hɔɔ bifi yakyɛ kaθɔɔθ bitaa kaker kabet minɛ.",
+      "example_phonetic": "/ntuŋɡba hɔː bifi jakjɛ kaθɔːθ bitaː kaker kabet minɛ/",
+      "example_translation": "La seule chose que nous n'avons pas faite, sauf étaler un tissu pour marcher dessus."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p21_1",
-      "original": "Mun-moti wale mi a gbe baang b'at, m boku soti di singbeene foti-we m lan ce.",
-      "phonetic_api": "/mun.mo.ti wa.le mi a ŋgbe baːŋ ɓat m bo.ku so.ti di siŋ.beː.ne fo.ti.we m lan tʃe/",
-      "phonetic_simple": "MOUN-MO-TI WA-LÉ MI A NGBÉ BAANG BAT, M BO-KOU SO-TI DI SING-BÉÉ-NÉ FO-TI-WÉ M LAN TCHÉ",
-      "translation": "Même si mon travail est très difficile, je réussirai à l'avenir parce que je réfléchis avec droiture.",
-      "context": "Formulation d'une résolution personnelle forte lors d'un entretien ou d'un conseil de famille."
+      "phrase_id": "p1",
+      "original": "Bɛyek nɛɛ aŋɛyet tɛkɛ kamsaley kamfitiri.",
+      "phonetic_api": "/bɛjek nɛː aŋɛjet tɛkɛ kamsalej kamfitiri/",
+      "phonetic_simple": "BÈYÉK NÈÈ ANGÈYÉT TÈKÈ KAM-SALÉY KAM-FITIRI",
+      "translation": "Ils dirent qu'il arriverait bientôt à l'heure de la prière du soir.",
+      "context": "« nɛɛ » introduit une complétive rapportée après le verbe « yek » (dire)."
     },
     {
-      "phrase_id": "p21_2",
-      "original": "Baa mwo a gbe kunu fiit cen, mu-cale a bosh-a di ror mi woliŋ.",
-      "phonetic_api": "/baː mwo a ŋgbe ku.nu fiːt tʃen mu.tʃa.le a bɔʃ.a di ror mi wo.liŋ/",
-      "phonetic_simple": "BAA MWO A NGBÉ KOU-NOU FIIT TCHEN, MOU-TCHA-LÉ A BOSH-A DI ROR MI WO-LING",
-      "translation": "Ton père était contrarié (avait le cœur noir) hier, c'est pourquoi il a refusé de me donner de l'argent.",
-      "context": "Analyse logique d'une situation de tension communautaire ou financière."
+      "phrase_id": "p2",
+      "original": "Hali beenuŋ wa biki yinsin yoŋ abet.",
+      "phonetic_api": "/hali beːnuŋ wa biki jinsin jɔŋ abet/",
+      "phonetic_simple": "HALI BÉÉNOUNG WA BIKI YINSIN YONG ABÉT",
+      "translation": "Non, avant que nous arrivions là-bas, il était déjà parti.",
+      "context": "« beenuŋ » structure la chronologie relative de deux événements passés."
     },
     {
-      "phrase_id": "p21_3",
-      "original": "Thila-be m boku-ba-a ba di n'boka, bale m gbe balang-a gbeila ce.",
-      "phonetic_api": "/θi.la.be m bo.ku.ba.a ba di n͡bo.ka ba.lɛ m ŋgbe ba.laŋ.a g͡bei.la tʃe/",
-      "phonetic_simple": "THI-LA-BÉ M BO-KOU-BA-A BA DI N-BO-KA, BA-LÈ M NGBÉ BA-LANG-A GBEÏ-LA TCHÉ",
-      "translation": "Peut-être que je serais venu à la concession, mais je n'avais pas trouvé la bonne route.",
-      "context": "Justification élégante structurée par une concession logique irréelle."
+      "phrase_id": "p3",
+      "original": "Mfem naan biwocna bɛm laŋ.",
+      "phonetic_api": "/mfem naːn biwɔkna bɛm laŋ/",
+      "phonetic_simple": "M-FÉM NAAN BIWOTSNA BÈM LANG",
+      "translation": "Le chef aussi les a bien reçus.",
+      "context": "« naan » ajoute une insistance/inclusion à l'énoncé."
+    },
+    {
+      "phrase_id": "p_extra1",
+      "original": "alako",
+      "phonetic_api": "/alako/",
+      "phonetic_simple": "ALAKO",
+      "translation": "afin que (Seidel 2024, particule attestée sans exemple de phrase complète disponible)",
+      "context": "Réemploi de l'exemple attesté pour le terme « alako » (voir vocabulaire de cette leçon), afin d'illustrer son usage en phrase."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'articulation des propositions subordonnées logiques",
-      "explanation": "En nalu avancé, l'introduction de connecteurs comme 'foti-we' (cause) ou 'mu-cale' (conséquence) impose une stricte symétrie aspecto-temporelle entre la proposition principale et la proposition subordonnée pour préserver le sens du discours.",
+      "concept": "Les connecteurs logiques attestés du discours nalu",
+      "explanation": "Le corpus disponible atteste plusieurs connecteurs structurants : nɛɛ (complétive/cause/citation), naan (aussi/emphase), beenuŋ (antériorité), bere/mbere (simultanéité/postériorité), alako (finalité), yahanɛ (comparaison), minɛ (exception) (Seidel 2024). Leur combinaison permet de bâtir un discours élaboré, mais leur usage exact (nuances entre bere et mbere, par exemple) n'est pas détaillé dans les sources.",
       "rules": [
-        "Les connecteurs de cause ('foti-we') et de concession ('mun-moti') se placent en tête de la proposition qu'ils gouvernent.",
-        "Le connecteur de conséquence ('mu-cale') s'intercale obligatoirement entre les deux propositions, agissant comme pivot logique."
+        "« nɛɛ » est le connecteur le plus polyvalent : cause, complétive, citation.",
+        "« beenuŋ » marque l'antériorité d'un événement par rapport à un autre, souvent combiné au passé détaché -yɛ ou distal -et."
       ],
       "examples": [
         {
-          "structure": "[Proposition 1], mu-cale [Proposition 2]",
-          "phonetic_api": "/mu.tʃa.le/",
-          "meaning": "..., c'est pourquoi ..."
-        },
-        {
-          "structure": "Mun-moti [Proposition 1], [Proposition 2]",
-          "phonetic_api": "/mun.mo.ti/",
-          "meaning": "Bien que ..., ..."
+          "structure": "beenuŋ wa biki yinsin yoŋ abet",
+          "phonetic_api": "/beːnuŋ wa biki jinsin jɔŋ abet/",
+          "meaning": "avant que nous arrivions là-bas, il était déjà parti"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Sékou",
-      "text": "Mboye, Amara ! Mun-moti a gbe ceeborna, a rila a malang-a ceebor di m'mela cen?",
-      "phonetic_api": "/mbo.je a.ma.ra mun.mo.ti a ŋgbe tʃeː.bor.na a ri.la a ba.laŋ.a tʃeː.bor di m.me.la tʃen/",
-      "phonetic_simple": "MBO-YÉ, A-MA-RA ! MOUN-MO-TI A NGBÉ TCHÉÉ-BOR-NA, A RI-LA A BA-LANG-A TCHÉÉ-BOR DI M-MÉ-LA TCHEN?",
-      "translation": "Bonjour, Amara ! Bien que tu ne sois pas un pêcheur professionnel, pourquoi es-tu allé pêcher en mer hier ?"
+      "speaker": "Locuteur A",
+      "text": "Mfem naan biwocna bɛm laŋ.",
+      "phonetic_api": "/mfem naːn biwɔkna bɛm laŋ/",
+      "phonetic_simple": "M-FÉM NAAN BIWOTSNA BÈM LANG",
+      "translation": "Le chef aussi les a bien reçus."
     },
     {
-      "speaker": "Amara",
-      "text": "Mboye ce ! Nalu mi a gbe balang-a n'wut cen, foti-we marce a gbe baang. Mu-cale m ba-a di m'mela di malang ceeb.",
-      "phonetic_api": "/mbo.je tʃe na.lu mi a ŋgbe ba.laŋ.a nwut tʃen fo.ti.we mar.ʃe a ŋgbe baːŋ mu.tʃa.le m ba.a di m.me.la di ba.laŋ tʃeːb/",
-      "phonetic_simple": "MBO-YÉ TCHÉ ! NA-LU MI A NGBÉ BA-LANG-A N-WOUT TCHEN, FO-TI-WÉ MAR-TCHÉ A NGBÉ BAANG. MOU-TCHA-LÉ M BA-A DI M-MÉ-LA DI BA-LANG TCHÉÉB.",
-      "translation": "Bonjour bien ! Ma famille n'avait rien à manger hier, parce que le marché était hors de prix. C'est pourquoi je suis allé sur l'eau pour chercher du poisson."
+      "speaker": "Locuteur B",
+      "text": "Bɛyek nɛɛ aŋɛyet tɛkɛ kamsaley kamfitiri.",
+      "phonetic_api": "/bɛjek nɛː aŋɛjet tɛkɛ kamsalej kamfitiri/",
+      "phonetic_simple": "BÈYÉK NÈÈ ANGÈYÉT TÈKÈ KAM-SALÉY KAM-FITIRI",
+      "translation": "Ils ont dit qu'il arriverait bientôt à l'heure de la prière du soir."
     },
     {
-      "speaker": "Sékou",
-      "text": "A ce b'at ! I suba-we a gbe kunu ce di wale mwo. M lan foti mwo.",
-      "phonetic_api": "/a tʃe ɓat i su.ba.we a ŋgbe ku.nu tʃe di wa.le mwo m lan fo.ti mwo/",
-      "phonetic_simple": "A TCHÉ BAT ! I SOU-BA-WÉ A NGBÉ KOU-NOU TCHÉ DI WA-LÉ MWO. M LAN FO-TI MWO.",
-      "translation": "C'est admirable ! De plus, tu montres de la sagesse dans tes actes. Je salue ta parole."
+      "speaker": "Locuteur A",
+      "text": "Hali beenuŋ wa biki yinsin yoŋ abet.",
+      "phonetic_api": "/hali beːnuŋ wa biki jinsin jɔŋ abet/",
+      "phonetic_simple": "HALI BÉÉNOUNG WA BIKI YINSIN YONG ABÉT",
+      "translation": "Non, avant que nous n'arrivions là-bas, il était déjà parti."
+    },
+    {
+      "speaker": "Locuteur A",
+      "text": "alako",
+      "phonetic_api": "/alako/",
+      "phonetic_simple": "ALAKO",
+      "translation": "afin que (Seidel 2024, particule attestée sans exemple de phrase complète disponible)"
     }
   ],
   "cultural_notes": [
-    "Dans l'exercice de la palabre et de la médiation villageoise chez les Nalu, la maîtrise des articulations logiques différencie l'orateur ordinaire du sage reconnu. Savoir doser les concessions ('mun-moti') et justifier rigoureusement les causes ('foti-we') permet de désamorcer les conflits, d'argumenter sans heurter l'interlocuteur et de maintenir fermement le consensus social indispensable au groupe."
+    "L'usage fréquent de « nɛɛ » comme marqueur de citation dans les récits recueillis par Seidel (2024) reflète une forte tradition orale où le discours rapporté est central dans la narration.",
+    "Les repères temporels de prière (kamsaley, kamfitiri « prière du soir ») montrent l'intégration des connecteurs temporels nalu dans un cadre religieux musulman quotidien."
   ],
   "exercises": [
     {
-      "exercise_id": "ex21_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel connecteur logique nalu utilise-t-on pour marquer la conséquence ('C'est pourquoi / Par conséquent') ?",
+      "question": "Quel connecteur nalu marque l'antériorité (« avant ») ?",
       "options": [
-        "Foti-we",
-        "Mu-cale",
-        "Bale"
+        "beenuŋ",
+        "naan",
+        "minɛ"
       ],
-      "correct_answer": "Mu-cale",
-      "explanation": "'Mu-cale' relie une cause établie à sa conséquence directe au sein de la période oratoire."
+      "correct_answer": "beenuŋ",
+      "explanation": "Attesté dans « Hali beenuŋ wa biki yinsin yoŋ abet » (Seidel 2024)."
     },
     {
-      "exercise_id": "ex21_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Pour opposer deux idées avec nuance ('Mais / Cependant'), on utilise le terme : [ ___ ].",
-      "correct_answer": "Bale",
-      "hint": "C'est l'équivalent nalu de la conjonction de coordination adversative"
+      "sentence_with_blank": "« Mfem [ ___ ] biwocna bɛm laŋ » signifie « Le chef aussi les a bien reçus ».",
+      "correct_answer": "naan",
+      "hint": "Marqueur emphatique signifiant « aussi, également »."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Seidel, F. (2024) « Nalu », in The Oxford Guide to the Atlantic Languages of West Africa, Oxford University Press",
+      "url": "https://academic.oup.com/book/59850/chapter/511378992"
+    },
+    {
+      "label": "Glottolog 5.3, « Nalu » (nalu1240 / naj)",
+      "url": "https://glottolog.org/resource/languoid/id/nalu1240"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Plusieurs connecteurs logiques sont clairement attestés avec leur fonction (Seidel 2024), mais certains (alako, yahanɛ) ne disposent que d'une glose isolée sans phrase d'exemple complète, ce qui limite l'illustration de leur usage exact dans cette leçon."
 }

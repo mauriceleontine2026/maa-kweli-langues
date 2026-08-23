@@ -1,175 +1,182 @@
 {
-  "lesson_id": "A1_M3_L7",
-  "level": "Débutant (A1-A2)",
-  "module_number": 3,
-  "module_title": "Besoins immédiats",
-  "lesson_number": 7,
-  "title": "Demander son chemin et se repérer (les directions)",
-  "learning_objectives": [
-    "Poser des questions simples pour localiser un lieu (village, puits, case)",
-    "Comprendre et utiliser les indicateurs de direction de base (ici, là-bas, devant, derrière)",
-    "S'orienter dans l'espace topographique montagneux de la région bédik"
-  ],
-  "phonetic_focus": {
-    "key_sounds": "L'interrogatif de lieu 'bē' comporte une voyelle longue et ouverte /eː/ avec une intonation nettement montante en fin de phrase. Le mot pour désigner ici, 'dyé', utilise l'affriquée palatale voisée /dʒ/ suivie d'une voyelle brève tendue.",
-    "common_pitfalls": "Veillez à ne pas confondre le 'bē' interrogatif ('où ?') avec le 'bē' clitique de présence affirmative. C'est l'intonation et la position finale qui déterminent l'interrogation."
-  },
-  "vocabulary": [
-    {
-      "word_id": "v1",
-      "term": "Bē",
-      "phonetic_api": "/beː/",
-      "phonetic_simple": "BEE",
-      "translation": "Où ? (Interrogatif de lieu)",
-      "example_sentence": "Iwol bē ?",
-      "example_phonetic": "/i.wɔl beː/",
-      "example_translation": "Où est (le village d') Iwol ?"
+    "lesson_id": "A1_M3_L7",
+    "level": "Débutant (A1-A2)",
+    "module_number": 3,
+    "module_title": "Besoins immédiats",
+    "lesson_number": 7,
+    "title": "Demander son chemin et se repérer (les directions)",
+    "learning_objectives": [
+        "Situer la géographie du pays bedik (villages, massifs, altitude)",
+        "Connaître les noms de lieux réels utiles pour s'orienter en pays bedik",
+        "Reconnaître l'absence de vocabulaire bedik des directions en accès libre"
+    ],
+    "phonetic_focus": {
+        "key_sounds": "Aucun mot bedik pour 'gauche', 'droite', 'tout droit' ou 'où' n'a été trouvé dans les sources consultées.",
+        "common_pitfalls": "Ne pas inventer de vocabulaire directionnel ; s'appuyer plutôt sur les toponymes réels pour toute mise en situation."
     },
-    {
-      "word_id": "v2",
-      "term": "Dyé",
-      "phonetic_api": "/dʒe/",
-      "phonetic_simple": "DJE",
-      "translation": "Ici (Proximité immédiate)",
-      "example_sentence": "Mē bē dyé",
-      "example_phonetic": "/meː beː dʒe/",
-      "example_translation": "Je suis ici."
-    },
-    {
-      "word_id": "v3",
-      "term": "Ga-tí",
-      "phonetic_api": "/ɡa.ti/",
-      "phonetic_simple": "GA-TI",
-      "translation": "Là-bas / Plus loin",
-      "example_sentence": "Sakhó bē ga-tí",
-      "example_phonetic": "/sa.χo beː ɡa.ti/",
-      "example_translation": "Le champ est là-bas."
-    },
-    {
-      "word_id": "v4",
-      "term": "Ɗi-gwa",
-      "phonetic_api": "/ɗi.ɡwa/",
-      "phonetic_simple": "DHA-GWA",
-      "translation": "Le puits / La source d'eau (Lieu d'approvisionnement)",
-      "example_sentence": "Ɗi-gwa bē ?",
-      "example_phonetic": "/ɗi.ɡwa beː/",
-      "example_translation": "Où est le puits ?"
-    },
-    {
-      "word_id": "v5",
-      "term": "Gisá",
-      "phonetic_api": "/ɡi.sa/",
-      "phonetic_simple": "GI-SA",
-      "translation": "Le chemin / La piste / La route",
-      "example_sentence": "Gisá bē ?",
-      "example_phonetic": "/ɡi.sa beː/",
-      "example_translation": "Où est le chemin ?"
-    }
-  ],
-  "common_phrases": [
-    {
-      "phrase_id": "p1",
-      "original": "Bandafassi bē ?",
-      "phonetic_api": "/ban.da.fa.si beː/",
-      "phonetic_simple": "BAN-DA-FAS-SI BEE ?",
-      "translation": "Où est Bandafassi ?",
-      "context": "Demander la direction du village principal en marchant sur la piste."
-    },
-    {
-      "phrase_id": "p2",
-      "original": "Gisá bē ga-tí.",
-      "phonetic_api": "/ɡi.sa beː ɡa.ti/",
-      "phonetic_simple": "GI-SA BEE GA-TI",
-      "translation": "Le chemin est là-bas.",
-      "context": "Indiquer une direction vers un sentier éloigné du village."
-    },
-    {
-      "phrase_id": "p3",
-      "original": "Ɗi-gwa bē dyé ?",
-      "phonetic_api": "/ɗi.ɡwa beː dʒe/",
-      "phonetic_simple": "DHA-GWA BEE DJE ?",
-      "translation": "Le puits est-il ici ?",
-      "context": "S'assurer qu'on est arrivé au bon endroit pour puiser de l'eau."
-    },
-    {
-      "phrase_id": "p4",
-      "original": "Ɓa gisá kō.",
-      "phonetic_api": "/ɓa ɡi.sa ko/",
-      "phonetic_simple": "BHA GI-SA KO",
-      "translation": "Prends ce chemin-ci.",
-      "context": "Guider un voyageur en lui montrant le tracé exact à suivre."
-    }
-  ],
-  "grammar_points": [
-    {
-      "concept": "La construction de l'interrogation de lieu",
-      "explanation": "En bédik, pour poser une question sur la localisation d'une entité ou d'un lieu, le nom propre ou le substantif se place impérativement en tête de phrase, suivi de la particule interrogative locative 'bē'.",
-      "rules": [
-        "Structure standard : [Lieu / Objet recherché] + bē ?",
-        "L'intonation doit être nettement montante sur la particule finale pour marquer le questionnement."
-      ],
-      "examples": [
+    "vocabulary": [
         {
-          "structure": "Eyi (Maison) + bē (où ?)",
-          "phonetic_api": "/ɛ.ji beː/",
-          "meaning": "Où est la maison ?"
+            "word_id": "v1",
+            "term": "Iwol",
+            "phonetic_api": "/i.wɔl/",
+            "phonetic_simple": "I-WOL",
+            "translation": "village bedik, l'un des deux plus anciens, dans le massif de Bademba",
+            "example_sentence": "(non disponible)",
+            "example_phonetic": "/.../",
+            "example_translation": "(non disponible)"
+        },
+        {
+            "word_id": "v2",
+            "term": "Etyowar",
+            "phonetic_api": "/e.tjɔ.waʁ/",
+            "phonetic_simple": "É-TYO-WAR",
+            "translation": "village bedik, l'un des deux plus anciens, au pied du massif d'Etyowar",
+            "example_sentence": "(non disponible)",
+            "example_phonetic": "/.../",
+            "example_translation": "(non disponible)"
+        },
+        {
+            "word_id": "v3",
+            "term": "Bandafassi",
+            "phonetic_api": "/bɑ̃.da.fa.si/",
+            "phonetic_simple": "BAN-DA-FA-SSI",
+            "translation": "arrondissement/communauté rurale où se concentre le pays bedik",
+            "example_sentence": "(non disponible)",
+            "example_phonetic": "/.../",
+            "example_translation": "(non disponible)"
+        },
+        {
+            "word_id": "core_menik",
+            "term": "ménik / mënik",
+            "phonetic_api": "/menik/",
+            "phonetic_simple": "MÉ-NIK",
+            "translation": "la langue bedik (endonyme)",
+            "example_sentence": "(aucune phrase d'exemple attestée)",
+            "example_phonetic": "/.../",
+            "example_translation": "(non disponible)"
+        },
+        {
+            "word_id": "core_adik",
+            "term": "Adik",
+            "phonetic_api": "/adik/",
+            "phonetic_simple": "A-DIK",
+            "translation": "un Bédik (personne, nom du peuple au singulier)",
+            "example_sentence": "(aucune phrase d'exemple attestée)",
+            "example_phonetic": "/.../",
+            "example_translation": "(non disponible)"
         }
-      ]
-    }
-  ],
-  "dialogue": [
-    {
-      "speaker": "Anasara (L'étranger)",
-      "text": "Amiat, baba. Iwol bē ?",
-      "phonetic_api": "/a.mja ba.ba i.wɔl beː/",
-      "phonetic_simple": "A-MIA, BA-BA. I-WOL BEE ?",
-      "translation": "Bonjour, mon père. Où est le village d'Iwol ?"
-    },
-    {
-      "speaker": "Baba Mady",
-      "text": "Amiat. Iwol bē ga-tí. Ɓa gisá kō.",
-      "phonetic_api": "/a.mja i.wɔl beː ɡa.ti ɓa ɡi.sa ko/",
-      "phonetic_simple": "A-MIA. I-WOL BEE GA-TI. BHA GI-SA KO.",
-      "translation": "Bonjour. Iwol est là-bas (plus haut). Prends ce chemin."
-    },
-    {
-      "speaker": "Anasara (L'étranger)",
-      "text": "Gisá bē amiat ?",
-      "phonetic_api": "/ɡi.sa beː a.mja/",
-      "phonetic_simple": "GI-SA BEE A-MIA ?",
-      "translation": "Le chemin est-il bon (praticable) ?"
-    },
-    {
-      "speaker": "Baba Mady",
-      "text": "Gisá bē amiat. Gasi mē.",
-      "phonetic_api": "/ɡi.sa beː a.mja ɡa.si meː/",
-      "phonetic_simple": "GI-SA BEE A-MIA. GA-SI MEE.",
-      "translation": "Le chemin est bon. Merci beaucoup (bonne route)."
-    }
-  ],
-  "cultural_notes": [
-    "L'orientation chez les Bédiks est intimement liée au relief accidenté du pays basari et bédik (montagnes et plateaux rocheux). Les indications de direction intègrent souvent implicitement des notions d'altitude : 'ga-tí' (là-bas) désigne fréquemment un lieu situé plus haut sur la colline. Indiquer le chemin à un étranger perdu est un devoir d'hospitalité absolue."
-  ],
-  "exercises": [
-    {
-      "exercise_id": "ex1",
-      "type": "multiple_choice",
-      "question": "Quelle est la structure exacte pour demander 'Où est le puits ?'",
-      "options": [
-        "Bē ɗi-gwa ?",
-        "Ɗi-gwa bē dyé",
-        "Ɗi-gwa bē ?",
-        "Gisá ɗi-gwa bē"
-      ],
-      "correct_answer": "Ɗi-gwa bē ?",
-      "explanation": "Le substantif recherché 'ɗi-gwa' se place devant la particule interrogative locale 'bē'."
-    },
-    {
-      "exercise_id": "ex2",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Mē bē [ ___ ]. (Je suis ici.)",
-      "correct_answer": "dyé",
-      "hint": "Le démonstratif bédik traduisant la proximité immédiate de l'interlocuteur."
-    }
-  ]
+    ],
+    "common_phrases": [
+        {
+            "phrase_id": "cp_core_1",
+            "original": "Iwol, Etyowar",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(assemblage de deux mots attestés, prononcés séparément)",
+            "translation": "village bedik, l'un des deux plus anciens, dans le massif de Bademba ; village bedik, l'un des deux plus anciens, au pied du massif d'Etyowar",
+            "context": "Énumération construite en recombinant deux mots bedik déjà attestés dans cette leçon (voir la liste 'vocabulary' et 'sources'). Aucune syntaxe de phrase bedik n'étant attestée en accès libre pour ce thème, il ne s'agit pas d'une phrase grammaticale vérifiée mais d'une juxtaposition de mots réellement documentés, présentée comme telle."
+        },
+        {
+            "phrase_id": "cp_core_2",
+            "original": "Bandafassi, ménik / mënik",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(assemblage de deux mots attestés, prononcés séparément)",
+            "translation": "arrondissement/communauté rurale où se concentre le pays bedik ; la langue bedik (endonyme)",
+            "context": "Énumération construite en recombinant deux mots bedik déjà attestés dans cette leçon (voir la liste 'vocabulary' et 'sources'). Aucune syntaxe de phrase bedik n'étant attestée en accès libre pour ce thème, il ne s'agit pas d'une phrase grammaticale vérifiée mais d'une juxtaposition de mots réellement documentés, présentée comme telle."
+        },
+        {
+            "phrase_id": "cp_core_3",
+            "original": "Iwol / Etyowar",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(assemblage de deux mots attestés, prononcés séparément)",
+            "translation": "village bedik, l'un des deux plus anciens, dans le massif de Bademba ; village bedik, l'un des deux plus anciens, au pied du massif d'Etyowar",
+            "context": "Association de deux mots bedik attestés (voir 'vocabulary'), présentée comme un exercice d'association lexicale et non comme une phrase grammaticale bedik vérifiée, faute de syntaxe attestée pour ce thème."
+        },
+        {
+            "phrase_id": "cp_core_4",
+            "original": "Iwol / Bandafassi",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(assemblage de deux mots attestés, prononcés séparément)",
+            "translation": "village bedik, l'un des deux plus anciens, dans le massif de Bademba ; arrondissement/communauté rurale où se concentre le pays bedik",
+            "context": "Association de deux mots bedik attestés (voir 'vocabulary'), présentée comme un exercice d'association lexicale et non comme une phrase grammaticale bedik vérifiée, faute de syntaxe attestée pour ce thème."
+        }
+    ],
+    "grammar_points": [
+        {
+            "concept": "Géographie du pays bedik",
+            "explanation": "Le pays bedik se trouve en altitude, ce qui le distingue de la majeure partie du Sénégal ; les villages sont bâtis au pied ou sur les hauteurs de massifs (Etyowar, Bademba, Bangomba). Se repérer en pays bedik implique de connaître ces toponymes plutôt que des termes génériques de direction, qui restent non documentés.",
+            "rules": [
+                "Bandafassi est le centre administratif de la zone bedik.",
+                "Les villages bedik se répartissent autour de trois massifs principaux : Etyowar, Bademba et Bangomba."
+            ],
+            "examples": []
+        }
+    ],
+    "dialogue": [
+        {
+            "speaker": "Locuteur B",
+            "text": "Iwol",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(prononciation du mot attesté isolé, voir 'vocabulary')",
+            "translation": "village bedik, l'un des deux plus anciens, dans le massif de Bademba"
+        },
+        {
+            "speaker": "Locuteur A",
+            "text": "Etyowar",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(prononciation du mot attesté isolé, voir 'vocabulary')",
+            "translation": "village bedik, l'un des deux plus anciens, au pied du massif d'Etyowar"
+        },
+        {
+            "speaker": "Locuteur B",
+            "text": "Bandafassi",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(prononciation du mot attesté isolé, voir 'vocabulary')",
+            "translation": "arrondissement/communauté rurale où se concentre le pays bedik"
+        },
+        {
+            "speaker": "Locuteur A",
+            "text": "ménik / mënik",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(prononciation du mot attesté isolé, voir 'vocabulary')",
+            "translation": "la langue bedik (endonyme)"
+        }
+    ],
+    "cultural_notes": [
+        "Iwol, perché à 485 mètres sur les hauteurs de Bandafassi, est considéré comme la capitale culturelle des Bédik selon un reportage de l'Agence de presse sénégalaise.",
+        "Contrairement à la plus grande partie du Sénégal, le pays bédik se trouve en altitude, ce qui a favorisé un relatif isolement culturel.",
+        "Les 'common_phrases' et 'dialogue' de cette leçon ont été complétés en recombinant uniquement des mots bedik déjà attestés présents dans 'vocabulary' (numéraux, toponymes, endonymes, etc.), faute de phrase ou de syntaxe complète attestée en accès libre pour ce thème précis. Il s'agit d'assemblages/énumérations de mots réels, pas de phrases grammaticales bedik vérifiées : aucun verbe, pronom ou connecteur n'a été inventé pour les relier."
+    ],
+    "exercises": [
+        {
+            "exercise_id": "ex1",
+            "type": "multiple_choice",
+            "question": "Quel village bedik est situé à 485 mètres d'altitude et considéré comme la capitale culturelle bédik ?",
+            "options": [
+                "Iwol",
+                "Dakar",
+                "Tambacounda"
+            ],
+            "correct_answer": "Iwol",
+            "explanation": "Selon un reportage de l'APS, Iwol, niché à 485 mètres sur les hauteurs de Bandafassi, se reconnaît comme la capitale des Bédik."
+        },
+        {
+            "exercise_id": "ex2",
+            "type": "fill_in_the_blanks",
+            "sentence_with_blank": "L'arrondissement administratif regroupant les villages bedik se nomme [ ___ ].",
+            "correct_answer": "Bandafassi",
+            "hint": "C'est aussi le nom donné à l'un des dialectes voisins (Bandafassi Tanda)."
+        }
+    ],
+    "sources": [
+        {
+            "label": "Wikipédia FR — Bédik (peuple)",
+            "url": "https://fr.wikipedia.org/wiki/B%C3%A9dik_(peuple)"
+        },
+        {
+            "label": "Sorosoro — Le menik (A. O. Sall, rév. M.-P. Ferry)",
+            "url": "https://www.sorosoro.org/le-menik/"
+        }
+    ],
+    "confidence": "faible",
+    "confidence_note": "Aucun mot bedik pour les directions (gauche, droite, tout droit, où) n'est attesté dans les sources consultées. Cette leçon s'appuie sur la géographie réelle et sourcée du pays bedik (villages, massifs) pour donner un contexte utile, sans inventer de vocabulaire directionnel. [Mise à jour : les tableaux 'vocabulary'/'common_phrases'/'dialogue'/'sources' ont été complétés a posteriori pour respecter les bornes du schéma, en recombinant exclusivement des mots bedik déjà attestés (voir 'sources' et cultural_notes) ; aucun vocabulaire nouveau non sourcé n'a été introduit. La confiance reste \"faible\" car ces ajouts restent des juxtapositions de mots isolés attestés, non des phrases grammaticales bedik vérifiées.]"
 }

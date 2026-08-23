@@ -6,110 +6,222 @@
   "lesson_number": 4,
   "title": "La famille et les relations proches",
   "learning_objectives": [
-    "Identifier les membres de la famille nucléaire et élargie",
-    "Utiliser les adjectifs possessifs de base pour décrire ses relations"
+    "Mémoriser les termes de parenté landuma attestés par Sumbatova & Vydrin (2021) : nna (mère), məma (grand-parent), ntarʌ (frère/sœur aîné(e)), ntɛnɛŋ (tante paternelle), ncɔkɔ (oncle maternel), dimbore (cousin(e)), ntana (beau-parent).",
+    "Comprendre que plusieurs de ces termes sont des emprunts aux langues mandé (manding, soussou) et non du vocabulaire Mel d'origine.",
+    "Utiliser mbariŋ (ami/hôte) pour désigner une relation proche non biologique."
   ],
   "phonetic_focus": {
-    "key_sounds": "En landouma, l'accentuation tonale porte une charge distinctive majeure. Les voyelles longues doivent être bien étirées pour ne pas confondre les termes de parenté.",
-    "common_pitfalls": "Veillez à bien marquer la différence entre les occlusives sonores et sourdes en fin de mot, souvent assourdies par les francophones."
+    "key_sounds": "Le landuma comporte des voyelles i, e, ɛ, u, o, ɔ, ʌ, ə, a et des consonnes prénasalisées complexes (mb-, nc-, nt-, ns-, ŋg-) absentes du français, ainsi qu'une affriquée c proche du « tch » et une occlusive labiovélaire gb (Sumbatova & Vydrin 2021).",
+    "common_pitfalls": "Les francophones tendent à scinder en deux syllabes les groupes consonantiques prénasalisés initiaux (ex. mb-, nc-, nt-), qui forment pourtant une seule attaque consonantique en landuma ; ils confondent aussi souvent les voyelles centrales ə/a et les voyelles mi-ouvertes ɛ/ɔ, qui n'ont pas d'équivalent phonémique net en français."
   },
   "vocabulary": [
     {
-      "word_id": "v4_1",
-      "term": "baba",
-      "phonetic_api": "/ba.ba/",
-      "phonetic_simple": "BA-BA",
-      "translation": "père",
-      "example_sentence": "baba kɔn",
-      "example_phonetic": "/ba.ba kɔn/",
-      "example_translation": "mon père"
-    },
-    {
-      "word_id": "v4_2",
-      "term": "mama",
-      "phonetic_api": "/ma.ma/",
-      "phonetic_simple": "MA-MA",
+      "word_id": "v1",
+      "term": "nna",
+      "phonetic_api": "/nna/",
+      "phonetic_simple": "N-na",
       "translation": "mère",
-      "example_sentence": "mama kɔn",
-      "example_phonetic": "/ma.ma kɔn/",
-      "example_translation": "ma mère"
+      "example_sentence": "nna",
+      "example_phonetic": "/nna/",
+      "example_translation": "« mère » — mot isolé attesté dans le corpus lexical disponible ; aucune phrase complète d'exemple n'a été trouvée pour ce terme dans les sources consultées, seule la forme du mot est donc garantie."
     },
     {
-      "word_id": "v4_3",
-      "term": "wuto",
-      "phonetic_api": "/wu.to/",
-      "phonetic_simple": "WOU-TO",
-      "translation": "enfant",
-      "example_sentence": "wuto kɔn",
-      "example_phonetic": "/wu.to kɔn/",
-      "example_translation": "mon enfant"
+      "word_id": "v2",
+      "term": "məma",
+      "phonetic_api": "/məma/",
+      "phonetic_simple": "meu-MA",
+      "translation": "grand-parent",
+      "example_sentence": "məma",
+      "example_phonetic": "/məma/",
+      "example_translation": "« grand-parent » — mot isolé attesté dans le corpus lexical disponible ; aucune phrase complète d'exemple n'a été trouvée pour ce terme dans les sources consultées, seule la forme du mot est donc garantie."
+    },
+    {
+      "word_id": "v3",
+      "term": "ntarʌ",
+      "phonetic_api": "/ntarʌ/",
+      "phonetic_simple": "n-TA-reu",
+      "translation": "frère/sœur aîné(e)",
+      "example_sentence": "ntarʌ",
+      "example_phonetic": "/ntarʌ/",
+      "example_translation": "« frère/sœur aîné(e) » — mot isolé attesté dans le corpus lexical disponible ; aucune phrase complète d'exemple n'a été trouvée pour ce terme dans les sources consultées, seule la forme du mot est donc garantie."
+    },
+    {
+      "word_id": "v4",
+      "term": "ntɛnɛŋ",
+      "phonetic_api": "/ntɛnɛŋ/",
+      "phonetic_simple": "n-TÈ-nèng",
+      "translation": "tante paternelle",
+      "example_sentence": "ntɛnɛŋ",
+      "example_phonetic": "/ntɛnɛŋ/",
+      "example_translation": "« tante paternelle » — mot isolé attesté dans le corpus lexical disponible ; aucune phrase complète d'exemple n'a été trouvée pour ce terme dans les sources consultées, seule la forme du mot est donc garantie."
+    },
+    {
+      "word_id": "v5",
+      "term": "ncɔkɔ",
+      "phonetic_api": "/ncɔkɔ/",
+      "phonetic_simple": "n-TSÔ-kô",
+      "translation": "oncle maternel",
+      "example_sentence": "ncɔkɔ",
+      "example_phonetic": "/ncɔkɔ/",
+      "example_translation": "« oncle maternel » — mot isolé attesté dans le corpus lexical disponible ; aucune phrase complète d'exemple n'a été trouvée pour ce terme dans les sources consultées, seule la forme du mot est donc garantie."
+    },
+    {
+      "word_id": "v6",
+      "term": "dimbore",
+      "phonetic_api": "/dimbore/",
+      "phonetic_simple": "dim-BO-ré",
+      "translation": "cousin(e)",
+      "example_sentence": "dimbore",
+      "example_phonetic": "/dimbore/",
+      "example_translation": "« cousin(e) » — mot isolé attesté dans le corpus lexical disponible ; aucune phrase complète d'exemple n'a été trouvée pour ce terme dans les sources consultées, seule la forme du mot est donc garantie."
+    },
+    {
+      "word_id": "v7",
+      "term": "ntana",
+      "phonetic_api": "/ntana/",
+      "phonetic_simple": "n-TA-na",
+      "translation": "beau-père / belle-mère",
+      "example_sentence": "ntana",
+      "example_phonetic": "/ntana/",
+      "example_translation": "« beau-père / belle-mère » — mot isolé attesté dans le corpus lexical disponible ; aucune phrase complète d'exemple n'a été trouvée pour ce terme dans les sources consultées, seule la forme du mot est donc garantie."
+    },
+    {
+      "word_id": "v8",
+      "term": "mbariŋ",
+      "phonetic_api": "/mbariŋ/",
+      "phonetic_simple": "m-BA-ring",
+      "translation": "ami / hôte",
+      "example_sentence": "mbariŋ",
+      "example_phonetic": "/mbariŋ/",
+      "example_translation": "« ami / hôte » — mot isolé attesté dans le corpus lexical disponible ; aucune phrase complète d'exemple n'a été trouvée pour ce terme dans les sources consultées, seule la forme du mot est donc garantie."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p4_1",
-      "original": "baba kɔn mɔ lɔndɔ",
-      "phonetic_api": "/ba.ba kɔn mɔ lɔn.dɔ/",
-      "phonetic_simple": "BA-BA KON MO LON-DO",
-      "translation": "Mon père est ici",
-      "context": "Présentation de son entourage à la maison"
+      "phrase_id": "p1",
+      "original": "nna",
+      "phonetic_api": "/nna/",
+      "phonetic_simple": "N-na",
+      "translation": "mère",
+      "context": "Aucune phrase complète figée n'est attestée pour ce contexte précis dans les sources disponibles ; seul ce mot isolé du corpus vérifié est proposé comme point d'ancrage, à utiliser avec prudence."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "məma nna",
+      "phonetic_api": "/məma nna/",
+      "phonetic_simple": "meu-MA N-na",
+      "translation": "« grand-parent » + « mère » (juxtaposition)",
+      "context": "Recombinaison prudente de deux mots déjà attestés séparément dans le corpus lexical de cette leçon (grand-parent, mère) : cette juxtaposition n'est PAS une expression idiomatique attestée en tant que telle dans les sources, mais une association pédagogique construite uniquement à partir de vocabulaire vérifié, utile pour la mémorisation et la pratique orale."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "ntarʌ nna",
+      "phonetic_api": "/ntarʌ nna/",
+      "phonetic_simple": "n-TA-reu N-na",
+      "translation": "« frère/sœur aîné(e) » + « mère » (juxtaposition)",
+      "context": "Recombinaison prudente de deux mots déjà attestés séparément dans le corpus lexical de cette leçon (frère/sœur aîné(e), mère) : cette juxtaposition n'est PAS une expression idiomatique attestée en tant que telle dans les sources, mais une association pédagogique construite uniquement à partir de vocabulaire vérifié, utile pour la mémorisation et la pratique orale."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "ntɛnɛŋ nna",
+      "phonetic_api": "/ntɛnɛŋ nna/",
+      "phonetic_simple": "n-TÈ-nèng N-na",
+      "translation": "« tante paternelle » + « mère » (juxtaposition)",
+      "context": "Recombinaison prudente de deux mots déjà attestés séparément dans le corpus lexical de cette leçon (tante paternelle, mère) : cette juxtaposition n'est PAS une expression idiomatique attestée en tant que telle dans les sources, mais une association pédagogique construite uniquement à partir de vocabulaire vérifié, utile pour la mémorisation et la pratique orale."
     }
   ],
   "grammar_points": [
     {
-      "concept": "Les possessifs de base",
-      "explanation": "Les déterminants possessifs suivent généralement le nom auquel ils se rapportent et s'accordent selon la classe nominale du terme de parenté.",
+      "concept": "Accord alitératif radical (classes nominales)",
+      "explanation": "Le landuma, comme d'autres langues Mel du Nord, marque l'accord grammatical par un préfixe dont la consonne initiale reprend celle du nom qu'il qualifie ou remplace : c'est un accord dit « alitératif radical », distinct de l'accord par classes nominales à préfixes fixes qu'on trouve dans d'autres langues Niger-Congo. On observe dans le corpus attesté des préfixes tels que a-, da-, ta-, kʊ-, ke-, o-, ma- selon la classe et l'initiale du radical.",
       "rules": [
-        "Le possessif de la première personne singulier est souvent marqué par kɔn après le nom.",
-        "L'ordre des mots place invariablement le possesseur ou le pronom possessif après le substantif possédé."
+        "Les noms attestés portent presque tous un préfixe de classe : da-wump (tête), ta-fera (blanc), kʊ-suŋ (bouche), o-runi (homme), ma-rʊŋ (deux).",
+        "Le préfixe d'accord d'un qualificatif ou d'un déterminant tend à reprendre la consonne initiale du nom contrôleur plutôt qu'une classe grammaticale fixe et arbitraire.",
+        "Cette règle est documentée pour les noms inanimés dans les travaux académiques, mais son fonctionnement précis pour chaque catégorie de mots n'est pas intégralement publié en accès libre : la prudence s'impose pour toute généralisation."
       ],
       "examples": [
         {
-          "structure": "Nom + kɔn",
-          "phonetic_api": "/wuto kɔn/",
-          "meaning": "Mon enfant"
+          "structure": "da-wump / da-fɔr",
+          "phonetic_api": "/da-wump/, /da-fɔr/",
+          "meaning": "tête / œil (même préfixe da- : classe nominale partagée)"
+        },
+        {
+          "structure": "ta-fera / ta-bi / ta-tɔt",
+          "phonetic_api": "/ta-fera/, /ta-bi/, /ta-tɔt/",
+          "meaning": "blanc / noir / bon (préfixe ta- pour ces qualificatifs attestés)"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Sékou",
-      "text": "baba mɔ lɔndɔ ?",
-      "phonetic_api": "/ba.ba mɔ lɔn.dɔ/",
-      "phonetic_simple": "BA-BA MO LON-DO",
-      "translation": "Ton père est-il ici ?"
+      "speaker": "Locuteur A",
+      "text": "nna",
+      "phonetic_api": "/nna/",
+      "phonetic_simple": "N-na",
+      "translation": "(mot isolé : « mère ») — aucun dialogue naturel complet n'est attesté dans les sources disponibles pour ce thème ; cet échange reste donc une simple juxtaposition prudente du vocabulaire vérifié, non une phrase authentique de conversation."
     },
     {
-      "speaker": "Amadou",
-      "text": "ɔn-ɔn, baba kɔn mɔ tana",
-      "phonetic_api": "/ɔn.ɔn ba.ba kɔn mɔ ta.na/",
-      "phonetic_simple": "ON-ON BA-BA KON MO TA-NA",
-      "translation": "Non, mon père est là-bas."
+      "speaker": "Locuteur B",
+      "text": "məma",
+      "phonetic_api": "/məma/",
+      "phonetic_simple": "meu-MA",
+      "translation": "(mot isolé : « grand-parent ») — aucun dialogue naturel complet n'est attesté dans les sources disponibles pour ce thème ; cet échange reste donc une simple juxtaposition prudente du vocabulaire vérifié, non une phrase authentique de conversation."
+    },
+    {
+      "speaker": "Locuteur A",
+      "text": "ntarʌ",
+      "phonetic_api": "/ntarʌ/",
+      "phonetic_simple": "n-TA-reu",
+      "translation": "(mot isolé : « frère/sœur aîné(e) ») — aucun dialogue naturel complet n'est attesté dans les sources disponibles pour ce thème ; cet échange reste donc une simple juxtaposition prudente du vocabulaire vérifié, non une phrase authentique de conversation."
+    },
+    {
+      "speaker": "Locuteur B",
+      "text": "ntɛnɛŋ",
+      "phonetic_api": "/ntɛnɛŋ/",
+      "phonetic_simple": "n-TÈ-nèng",
+      "translation": "(mot isolé : « tante paternelle ») — aucun dialogue naturel complet n'est attesté dans les sources disponibles pour ce thème ; cet échange reste donc une simple juxtaposition prudente du vocabulaire vérifié, non une phrase authentique de conversation."
     }
   ],
   "cultural_notes": [
-    "Dans la communauté Landouma, la notion de famille dépasse largement le cadre nucléaire. Un oncle paternel est souvent appelé et considéré comme un père."
+    "Plusieurs termes de parenté landuma (« mère » nna, « oncle maternel » ncɔkɔ, « beau-parent » ntana...) sont en réalité des emprunts aux langues mandé (manding, soussou), preuve du contact intense entre Landuma et populations mandé depuis plusieurs siècles ([Sumbatova & Vydrin 2021](https://www.jolr.ru/files/(303)jlr2021-19-1-2(136-151).pdf)).",
+    "La société landuma est marquée par une forte interdépendance sociale : l'entraide est une obligation morale, notamment pour financer un mariage ou une maison ([Joshua Project](https://joshuaproject.net/people_groups/12979/gv))."
   ],
   "exercises": [
     {
-      "exercise_id": "ex4_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Que signifie 'mama kɔn' ?",
+      "question": "Comment dit-on « mère » en landuma ?",
       "options": [
-        "Mon père",
-        "Ma mère",
-        "Mon frère"
+        "nna",
+        "mbariŋ",
+        "məma"
       ],
-      "correct_answer": "Ma mère",
-      "explanation": "'mama' désigne la mère et 'kɔn' indique la possession de la première personne."
+      "correct_answer": "nna",
+      "explanation": "« nna » est la forme attestée pour « mère » d'après le corpus lexical collecté (confiance : moyenne)."
     },
     {
-      "exercise_id": "ex4_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "baba [ ___ ] mɔ lɔndɔ (Mon père est ici)",
-      "correct_answer": "kɔn",
-      "hint": "Particule possessive de la première personne"
+      "sentence_with_blank": "[ ___ ] = « grand-parent »",
+      "correct_answer": "məma",
+      "hint": "Ce mot appartient au vocabulaire de base attesté par les sources académiques (confiance : moyenne)."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Sumbatova & Vydrin (2021), Journal of Language Relationship 19-1/2, p.136-151",
+      "url": "https://www.jolr.ru/files/(303)jlr2021-19-1-2(136-151).pdf"
+    },
+    {
+      "label": "Joshua Project — Landoma in Guinea",
+      "url": "https://joshuaproject.net/people_groups/12979/gv"
+    },
+    {
+      "label": "Glottolog — Landoma [land1256]",
+      "url": "https://glottolog.org/resource/languoid/id/land1256"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Le vocabulaire cible de cette leçon provient exclusivement du corpus lexical attesté (ASJP/Wilson 2007/Rogers & Bryant 2012, Wiktionary/Fields 2001, Sumbatova & Vydrin 2021) ; confiance des mots utilisés : moyenne. Les mots eux-mêmes sont documentés par au moins une source académique ou lexicographique identifiée, mais aucun enregistrement audio ni locuteur natif n'a pu être consulté pour valider la prosodie exacte : la confiance globale est donc plafonnée à 'moyenne'. Les phrases de la section 'common_phrases' au-delà de la première ont été obtenues par recombinaison de mots individuellement attestés du vocabulaire de cette leçon (juxtapositions pédagogiques), et non par une source directe attestant la phrase entière : elles sont signalées comme telles dans leur champ 'context'."
 }

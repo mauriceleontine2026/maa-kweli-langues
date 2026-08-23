@@ -6,118 +6,206 @@
   "lesson_number": 6,
   "title": "Faire des achats, négocier les prix et gérer l'argent",
   "learning_objectives": [
-    "Mener une interaction complexe de négociation et de marchandage au marché",
-    "Utiliser les structures idiomatiques pour exprimer la cherté d'un produit",
-    "Gérer les expressions liées au rendu de monnaie et au paiement"
+    "Utiliser kʊ-yira (donner) dans le contexte d'une transaction commerciale simple.",
+    "Réutiliser les nombres attestés (un, deux, trois) pour évoquer des quantités ou des prix.",
+    "Comprendre qu'aucun terme landuma attesté ne correspond à « argent », « prix » ou « marché » dans les sources disponibles : le vocabulaire commercial reste très lacunaire."
   ],
   "phonetic_focus": {
-    "key_sounds": "La double consonne nasale finale ou le groupe consonantique complexe exige un blocage net du flux d'air au niveau de la cavité buccale.",
-    "common_pitfalls": "Attention à bien distinguer l'intonation montante de la question de prix de l'intonation descendante de la complainte sur la cherté."
+    "key_sounds": "Le landuma comporte des voyelles i, e, ɛ, u, o, ɔ, ʌ, ə, a et des consonnes prénasalisées complexes (mb-, nc-, nt-, ns-, ŋg-) absentes du français, ainsi qu'une affriquée c proche du « tch » et une occlusive labiovélaire gb (Sumbatova & Vydrin 2021).",
+    "common_pitfalls": "Les francophones tendent à scinder en deux syllabes les groupes consonantiques prénasalisés initiaux (ex. mb-, nc-, nt-), qui forment pourtant une seule attaque consonantique en landuma ; ils confondent aussi souvent les voyelles centrales ə/a et les voyelles mi-ouvertes ɛ/ɔ, qui n'ont pas d'équivalent phonémique net en français."
   },
   "vocabulary": [
     {
-      "word_id": "v15_1",
-      "term": "wɔndɛ",
-      "phonetic_api": "/wɔn.dɛ/",
-      "phonetic_simple": "WON-DÈ",
-      "translation": "combien / quel coût",
-      "example_sentence": "wɔndɛ atɔk mɔ ?",
-      "example_phonetic": "/wɔn.dɛ a.tɔk mɔ/",
-      "example_translation": "Combien coûte ce vêtement ?"
+      "word_id": "v1",
+      "term": "kʊ-yira",
+      "phonetic_api": "/kʊ-yira/",
+      "phonetic_simple": "kou-YI-ra",
+      "translation": "donner",
+      "example_sentence": "kʊ-yira",
+      "example_phonetic": "/kʊ-yira/",
+      "example_translation": "« donner » — mot isolé attesté dans le corpus lexical disponible ; aucune phrase complète d'exemple n'a été trouvée pour ce terme dans les sources consultées, seule la forme du mot est donc garantie."
     },
     {
-      "word_id": "v15_2",
-      "term": "gala",
-      "phonetic_api": "/ga.la/",
-      "phonetic_simple": "GA-LA",
-      "translation": "argent / monnaie / coût",
-      "example_sentence": "mbi dɛp gala",
-      "example_phonetic": "/mbi dɛp ga.la/",
-      "example_translation": "J'ai de l'argent."
+      "word_id": "v2",
+      "term": "iin",
+      "phonetic_api": "/iin/",
+      "phonetic_simple": "IINE",
+      "translation": "un",
+      "example_sentence": "iin",
+      "example_phonetic": "/iin/",
+      "example_translation": "« un » — mot isolé attesté dans le corpus lexical disponible ; aucune phrase complète d'exemple n'a été trouvée pour ce terme dans les sources consultées, seule la forme du mot est donc garantie."
     },
     {
-      "word_id": "v15_3",
-      "term": "gbɛn",
-      "phonetic_api": "/g͡bɛn/",
-      "phonetic_simple": "GBÈN",
-      "translation": "être cher / de grande valeur / coûteux",
-      "example_sentence": "atɔk mɔ mɔ gbɛn",
-      "example_phonetic": "/a.tɔk mɔ mɔ g͡bɛn/",
-      "example_translation": "Ce vêtement est cher."
+      "word_id": "v3",
+      "term": "ma-rʊŋ",
+      "phonetic_api": "/ma-rʊŋ/",
+      "phonetic_simple": "ma-ROUNG",
+      "translation": "deux",
+      "example_sentence": "ma-rʊŋ",
+      "example_phonetic": "/ma-rʊŋ/",
+      "example_translation": "« deux » — mot isolé attesté dans le corpus lexical disponible ; aucune phrase complète d'exemple n'a été trouvée pour ce terme dans les sources consultées, seule la forme du mot est donc garantie."
+    },
+    {
+      "word_id": "v4",
+      "term": "ma-saas",
+      "phonetic_api": "/ma-saas/",
+      "phonetic_simple": "ma-SAASS",
+      "translation": "trois",
+      "example_sentence": "ma-saas",
+      "example_phonetic": "/ma-saas/",
+      "example_translation": "« trois » — mot isolé attesté dans le corpus lexical disponible ; aucune phrase complète d'exemple n'a été trouvée pour ce terme dans les sources consultées, seule la forme du mot est donc garantie."
+    },
+    {
+      "word_id": "v5",
+      "term": "o-baki",
+      "phonetic_api": "/o-baki/",
+      "phonetic_simple": "o-BA-ki",
+      "translation": "grand",
+      "example_sentence": "o-baki",
+      "example_phonetic": "/o-baki/",
+      "example_translation": "« grand » — mot isolé attesté dans le corpus lexical disponible ; aucune phrase complète d'exemple n'a été trouvée pour ce terme dans les sources consultées, seule la forme du mot est donc garantie."
+    },
+    {
+      "word_id": "v6",
+      "term": "o-tana",
+      "phonetic_api": "/o-tana/",
+      "phonetic_simple": "o-TA-na",
+      "translation": "petit",
+      "example_sentence": "o-tana",
+      "example_phonetic": "/o-tana/",
+      "example_translation": "« petit » — mot isolé attesté dans le corpus lexical disponible ; aucune phrase complète d'exemple n'a été trouvée pour ce terme dans les sources consultées, seule la forme du mot est donc garantie."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p15_1",
-      "original": "atɔk mɔ mɔ gbɛn tundo, kisin dɛp kisin",
-      "phonetic_api": "/a.tɔk mɔ mɔ g͡bɛn tun.do ki.sin dɛp ki.sin/",
-      "phonetic_simple": "A-TOK MO MO GBÈN TOUN-DO, KI-SIN DÈP KI-SIN",
-      "translation": "Ce vêtement est trop cher, diminue un peu le prix poliment",
-      "context": "Formule clé utilisée au marché de Boké pour lancer une négociation."
+      "phrase_id": "p1",
+      "original": "kʊ-yira",
+      "phonetic_api": "/kʊ-yira/",
+      "phonetic_simple": "kou-YI-ra",
+      "translation": "donner",
+      "context": "Aucune phrase complète figée n'est attestée pour ce contexte précis dans les sources disponibles ; seul ce mot isolé du corpus vérifié est proposé comme point d'ancrage, à utiliser avec prudence."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "iin kʊ-yira",
+      "phonetic_api": "/iin kʊ-yira/",
+      "phonetic_simple": "IINE kou-YI-ra",
+      "translation": "« un » + « donner » (juxtaposition)",
+      "context": "Recombinaison prudente de deux mots déjà attestés séparément dans le corpus lexical de cette leçon (un, donner) : cette juxtaposition n'est PAS une expression idiomatique attestée en tant que telle dans les sources, mais une association pédagogique construite uniquement à partir de vocabulaire vérifié, utile pour la mémorisation et la pratique orale."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "ma-rʊŋ kʊ-yira",
+      "phonetic_api": "/ma-rʊŋ kʊ-yira/",
+      "phonetic_simple": "ma-ROUNG kou-YI-ra",
+      "translation": "« deux » + « donner » (juxtaposition)",
+      "context": "Recombinaison prudente de deux mots déjà attestés séparément dans le corpus lexical de cette leçon (deux, donner) : cette juxtaposition n'est PAS une expression idiomatique attestée en tant que telle dans les sources, mais une association pédagogique construite uniquement à partir de vocabulaire vérifié, utile pour la mémorisation et la pratique orale."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "ma-saas kʊ-yira",
+      "phonetic_api": "/ma-saas kʊ-yira/",
+      "phonetic_simple": "ma-SAASS kou-YI-ra",
+      "translation": "« trois » + « donner » (juxtaposition)",
+      "context": "Recombinaison prudente de deux mots déjà attestés séparément dans le corpus lexical de cette leçon (trois, donner) : cette juxtaposition n'est PAS une expression idiomatique attestée en tant que telle dans les sources, mais une association pédagogique construite uniquement à partir de vocabulaire vérifié, utile pour la mémorisation et la pratique orale."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'interrogatif de quantité 'wɔndɛ'",
-      "explanation": "L'adverbe interrogatif de prix 'wɔndɛ' se place au tout début de l'énoncé lorsqu'il sert à demander une évaluation monétaire globale, suivi immédiatement du syntagme nominal concerné.",
+      "concept": "Accord alitératif radical (classes nominales)",
+      "explanation": "Le landuma, comme d'autres langues Mel du Nord, marque l'accord grammatical par un préfixe dont la consonne initiale reprend celle du nom qu'il qualifie ou remplace : c'est un accord dit « alitératif radical », distinct de l'accord par classes nominales à préfixes fixes qu'on trouve dans d'autres langues Niger-Congo. On observe dans le corpus attesté des préfixes tels que a-, da-, ta-, kʊ-, ke-, o-, ma- selon la classe et l'initiale du radical.",
       "rules": [
-        "Structure standard : wɔndɛ + Objet + Marqueur déictique mɔ ?",
-        "La réponse donne généralement la valeur numérique suivie ou non du mot 'gala'."
+        "Les noms attestés portent presque tous un préfixe de classe : da-wump (tête), ta-fera (blanc), kʊ-suŋ (bouche), o-runi (homme), ma-rʊŋ (deux).",
+        "Le préfixe d'accord d'un qualificatif ou d'un déterminant tend à reprendre la consonne initiale du nom contrôleur plutôt qu'une classe grammaticale fixe et arbitraire.",
+        "Cette règle est documentée pour les noms inanimés dans les travaux académiques, mais son fonctionnement précis pour chaque catégorie de mots n'est pas intégralement publié en accès libre : la prudence s'impose pour toute généralisation."
       ],
       "examples": [
         {
-          "structure": "wɔndɛ + mampa",
-          "phonetic_api": "/wɔn.dɛ mam.pa/",
-          "meaning": "Combien coûte le pain ?"
+          "structure": "da-wump / da-fɔr",
+          "phonetic_api": "/da-wump/, /da-fɔr/",
+          "meaning": "tête / œil (même préfixe da- : classe nominale partagée)"
+        },
+        {
+          "structure": "ta-fera / ta-bi / ta-tɔt",
+          "phonetic_api": "/ta-fera/, /ta-bi/, /ta-tɔt/",
+          "meaning": "blanc / noir / bon (préfixe ta- pour ces qualificatifs attestés)"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Le client",
-      "text": "mama kɔn, wɔndɛ atɔk mɔ ?",
-      "phonetic_api": "/ma.ma kɔn wɔn.dɛ a.tɔk mɔ/",
-      "phonetic_simple": "MA-MA KON, WON-DÈ A-TOK MO ?",
-      "translation": "Ma mère, combien coûte ce vêtement ?"
+      "speaker": "Locuteur A",
+      "text": "kʊ-yira",
+      "phonetic_api": "/kʊ-yira/",
+      "phonetic_simple": "kou-YI-ra",
+      "translation": "(mot isolé : « donner ») — aucun dialogue naturel complet n'est attesté dans les sources disponibles pour ce thème ; cet échange reste donc une simple juxtaposition prudente du vocabulaire vérifié, non une phrase authentique de conversation."
     },
     {
-      "speaker": "La marchande",
-      "text": "atɔk mɔ mɔ gbɛn. gala mankana.",
-      "phonetic_api": "/a.tɔk mɔ mɔ g͡bɛn ga.la man.ka.na/",
-      "phonetic_simple": "A-TOK MO MO GBÈN. GA-LA MAN-KA-NA",
-      "translation": "Ce vêtement est de grande valeur. C'est cinq unités d'argent."
+      "speaker": "Locuteur B",
+      "text": "iin",
+      "phonetic_api": "/iin/",
+      "phonetic_simple": "IINE",
+      "translation": "(mot isolé : « un ») — aucun dialogue naturel complet n'est attesté dans les sources disponibles pour ce thème ; cet échange reste donc une simple juxtaposition prudente du vocabulaire vérifié, non une phrase authentique de conversation."
     },
     {
-      "speaker": "Le client",
-      "text": "ɔn-ɔn, mɔ gbɛn tundo ! dɛp kisin kisin.",
-      "phonetic_api": "/ɔn.ɔn mɔ g͡bɛn tun.do dɛp ki.sin ki.sin/",
-      "phonetic_simple": "ON-ON, MO GBÈN TOUN-DO ! DÈP KI-SIN KI-SIN",
-      "translation": "Non, c'est trop cher ! Diminue un peu s'il te plaît."
+      "speaker": "Locuteur A",
+      "text": "ma-rʊŋ",
+      "phonetic_api": "/ma-rʊŋ/",
+      "phonetic_simple": "ma-ROUNG",
+      "translation": "(mot isolé : « deux ») — aucun dialogue naturel complet n'est attesté dans les sources disponibles pour ce thème ; cet échange reste donc une simple juxtaposition prudente du vocabulaire vérifié, non une phrase authentique de conversation."
+    },
+    {
+      "speaker": "Locuteur B",
+      "text": "ma-saas",
+      "phonetic_api": "/ma-saas/",
+      "phonetic_simple": "ma-SAASS",
+      "translation": "(mot isolé : « trois ») — aucun dialogue naturel complet n'est attesté dans les sources disponibles pour ce thème ; cet échange reste donc une simple juxtaposition prudente du vocabulaire vérifié, non une phrase authentique de conversation."
     }
   ],
   "cultural_notes": [
-    "Le marchandage commercial est une institution sociale majeure en Guinée maritime. Accepter le premier prix proposé sans discuter est parfois perçu comme un désintérêt pour l'interaction humaine sous-jacente à la transaction."
+    "L'économie landuma repose sur l'agriculture de subsistance : riz, mil, maïs et arachide (culture de rente), complétés par le manioc, la patate douce, les mangues et les noix de cajou ([Joshua Project](https://joshuaproject.net/people_groups/12979/gv)).",
+    "Les Landuma vivent principalement dans la préfecture de Boké, dans le nord-ouest de la Guinée, sur la rive gauche du fleuve Rio Nunez, en petits villages de 50 à 400 habitants ([Joshua Project](https://joshuaproject.net/people_groups/12979/gv))."
   ],
   "exercises": [
     {
-      "exercise_id": "ex15_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel mot signifie 'argent' ou 'valeur monétaire' ?",
+      "question": "Comment dit-on « donner » en landuma ?",
       "options": [
-        "gala",
-        "atɔk",
-        "kiya"
+        "kʊ-yira",
+        "o-tana",
+        "iin"
       ],
-      "correct_answer": "gala",
-      "explanation": "'gala' s'emploie pour toutes les transactions financières courantes."
+      "correct_answer": "kʊ-yira",
+      "explanation": "« kʊ-yira » est la forme attestée pour « donner » d'après le corpus lexical collecté (confiance : faible)."
     },
     {
-      "exercise_id": "ex15_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "atɔk mɔ mɔ [ ___ ] tundo (Ce vêtement est trop cher)",
-      "correct_answer": "gbɛn",
-      "hint": "Le prédicat verbal traduisant la cherté d'un produit."
+      "sentence_with_blank": "[ ___ ] = « un »",
+      "correct_answer": "iin",
+      "hint": "Ce mot appartient au vocabulaire de base attesté par les sources académiques (confiance : moyenne)."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Wiktionary — Word lists of Atlantic languages of Guinea (d'après Fields 2001)",
+      "url": "https://en.wiktionary.org/wiki/Appendix:Word_lists_of_Atlantic_languages_of_Guinea"
+    },
+    {
+      "label": "Joshua Project — Landoma in Guinea",
+      "url": "https://joshuaproject.net/people_groups/12979/gv"
+    },
+    {
+      "label": "Glottolog — Landoma [land1256]",
+      "url": "https://glottolog.org/resource/languoid/id/land1256"
+    },
+    {
+      "label": "Sumbatova & Vydrin (2021), Journal of Language Relationship 19-1/2, p.136-151",
+      "url": "https://www.jolr.ru/files/(303)jlr2021-19-1-2(136-151).pdf"
+    }
+  ],
+  "confidence": "faible",
+  "confidence_note": "Le vocabulaire cible de cette leçon provient exclusivement du corpus lexical attesté (ASJP/Wilson 2007/Rogers & Bryant 2012, Wiktionary/Fields 2001, Sumbatova & Vydrin 2021) ; confiance des mots utilisés : faible, moyenne. Aucune phrase complète, formule figée ou règle grammaticale spécifique à ce sujet précis n'a été trouvée dans les sources disponibles : le contenu reste donc au niveau du vocabulaire isolé et la confiance globale du fichier est abaissée à 'faible' par prudence, conformément à l'exigence de ne jamais présenter une extrapolation comme une donnée sûre. Les phrases de la section 'common_phrases' au-delà de la première ont été obtenues par recombinaison de mots individuellement attestés du vocabulaire de cette leçon (juxtapositions pédagogiques), et non par une source directe attestant la phrase entière : elles sont signalées comme telles dans leur champ 'context'."
 }

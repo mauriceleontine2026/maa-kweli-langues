@@ -6,207 +6,273 @@
   "lesson_number": 3,
   "title": "Les connecteurs logiques pour structurer un discours élaboré",
   "learning_objectives": [
-    "Articuler des arguments complexes en utilisant des connecteurs de cause, de conséquence et d'opposition",
-    "Structurer une argumentation fluide et hiérarchisée lors d'une prise de parole formelle",
-    "Nuancer l'expression de la concession et de l'alternative dans un débat d'idées"
+    "Utiliser 'ani/ni' (et) pour la coordination",
+    "Utiliser 'nka/bari' (mais) pour l'opposition",
+    "Utiliser 'bawo/sabu' (parce que) pour la cause",
+    "Utiliser 'wo kosɔn/wo la kosɔn' (c'est pourquoi) pour la conséquence"
   ],
   "phonetic_focus": {
-    "key_sounds": "La rhétorique avancée emploie des connecteurs aux articulations denses. Le connecteur d'opposition 'Nka' /ŋ.ka/ exige une nasale vélaire sourde initiale très tendue. Le terme de cause 'Katuguni' /ka.tu.ɣu.ni/ fait intervenir la fricative vélaire voisée /ɣ/. La locution de conséquence 'O ma jɛn' /o ma d͡ʒɛn/ ou 'O dyaala' demande une affriquée palatale pure.",
-    "common_pitfalls": "Veillez à ne pas détacher le 'N' initial de 'Nka' en créant une syllabe artificielle. Le flux d'air doit bloquer le fond du palais dès l'amorce du mot. Prononcez distinctement le /ɣ/ de 'Katuguni' sans le transformer en 'g' dur."
+    "key_sounds": [
+      "Le [b] de 'bawo' (parce que), à distinguer de 'bada' (accompli)",
+      "Le ton de 'nka' (mais), très bref à l'oral",
+      "La liaison dans 'wo kosɔn' (c'est pourquoi), souvent prononcée comme un seul bloc"
+    ],
+    "common_pitfalls": [
+      "Utiliser 'ani' et 'ni' de façon interchangeable : 'ani' relie deux noms/groupes, tandis que 'ni' introduit surtout une condition ou relie deux propositions selon le contexte",
+      "Oublier que les connecteurs de cause ('bawo', 'sabu') se placent en général en tête de la proposition qui exprime la raison, après la proposition principale"
+    ]
   },
   "vocabulary": [
     {
-      "word_id": "v21_1",
-      "term": "Nka",
-      "phonetic_api": "/ŋ.ka/",
-      "phonetic_simple": "NG-KA",
-      "translation": "Mais / Cependant / Toutefois",
-      "example_sentence": "N b'a fɛ ka wa, nka wari te n bolo.",
-      "example_phonetic": "/ɲ b'a fɛ ka wa ŋ.ka wa.ri te ɲ bo.lo/",
-      "example_translation": "Je veux y aller, mais je n'ai pas d'argent."
+      "word_id": "v1",
+      "term": "ani",
+      "phonetic_api": "[ani]",
+      "phonetic_simple": "a-ni",
+      "translation": "et (coordination de noms/groupes)",
+      "example_sentence": "Fatou ani Sékou ye lèkoli la.",
+      "example_phonetic": "[fatu ani seku je lɛkoli la]",
+      "example_translation": "Fatou et Sékou sont à l'école."
     },
     {
-      "word_id": "v21_2",
-      "term": "Katuguni / Katugun",
-      "phonetic_api": "/ka.tu.ɣu.ni/",
-      "phonetic_simple": "KA-TOU-GOU-NI",
-      "translation": "Parce que / Car / En raison de (introduction d'une cause majeure)",
-      "example_sentence": "N ma wa, katuguni n tun be baara la.",
-      "example_phonetic": "/m ma wa ka.tu.ɣu.ni ɲ tun be baː.ra la/",
-      "example_translation": "Je n'ai pas bougé, parce que j'étais en plein travail."
+      "word_id": "v2",
+      "term": "ka (connectif de séquence)",
+      "phonetic_api": "[ka]",
+      "phonetic_simple": "ka",
+      "translation": "et (relie deux actions successives du même sujet)",
+      "example_sentence": "A wulila ka taa baara la.",
+      "example_phonetic": "[a wulila ka taː baːra la]",
+      "example_translation": "Il se leva et alla au travail."
     },
     {
-      "word_id": "v21_3",
-      "term": "O le yɛ / O le ma",
-      "phonetic_api": "/o le jɛ/",
-      "phonetic_simple": "O LÉ YƐ",
-      "translation": "C'est pourquoi / Par conséquent / De ce fait",
-      "example_sentence": "San nana, o le yɛ n tora so kɔnɔ.",
-      "example_phonetic": "/san na.na o le jɛ ɲ to.ra so kɔ.nɔ/",
-      "example_translation": "La pluie est tombée, c'est pourquoi je suis resté à la maison."
+      "word_id": "v3",
+      "term": "nka / bari",
+      "phonetic_api": "[nka]/[bari]",
+      "phonetic_simple": "n-ka/ba-ri",
+      "translation": "mais",
+      "example_sentence": "A ye baarala kosobè, nka a tè sɔrɔla.",
+      "example_phonetic": "[a je baːrala kosobɛ nka a tɛ sɔrɔla]",
+      "example_translation": "Il travaille beaucoup, mais il ne gagne rien."
     },
     {
-      "word_id": "v21_4",
-      "term": "Hali ni",
-      "phonetic_api": "/ha.li ni/",
-      "phonetic_simple": "HA-LI NI",
-      "translation": "Même si / Bien que / Quoique (concession)",
-      "example_sentence": "Hali ni a songo ka gbelen, n be a san na.",
-      "example_phonetic": "/ha.li ni a son.ɣo ka ɡ͡be.len ɲ be a san na/",
-      "example_translation": "Même si son prix est élevé, je l'achèterai."
+      "word_id": "v4",
+      "term": "bawo / sabu",
+      "phonetic_api": "[bawo]/[sabu]",
+      "phonetic_simple": "ba-wo/sa-bou",
+      "translation": "parce que, car",
+      "example_sentence": "N tè taa, bawo sanji na.",
+      "example_phonetic": "[n tɛ taː bawo sandʒi na]",
+      "example_translation": "Je n'irai pas, parce qu'il pleut."
     },
     {
-      "word_id": "v21_5",
-      "term": "Fɔlɔfɔlɔ la",
-      "phonetic_api": "/fɔ.lɔ.fɔ.lɔ la/",
-      "phonetic_simple": "FƆ-LƆ-FƆ-LƆ LA",
-      "translation": "En premier lieu / Tout d'abord / Premièrement",
-      "example_sentence": "Fɔlɔfɔlɔ la, an kani Ala tondɔ.",
-      "example_phonetic": "/fɔ.lɔ.fɔ.lɔ la an ka.ni a.la ton.dɔ/",
-      "example_translation": "Tout d'abord, nous devons remercier Dieu."
+      "word_id": "v5",
+      "term": "wo kosɔn / wo la kosɔn",
+      "phonetic_api": "[wo kosɔn]",
+      "phonetic_simple": "wo-ko-son",
+      "translation": "c'est pourquoi, à cause de cela",
+      "example_sentence": "Sanji nada, wo kosɔn n tè taa.",
+      "example_phonetic": "[sandʒi nada wo kosɔn n tɛ taː]",
+      "example_translation": "Il a plu, c'est pourquoi je ne suis pas parti."
     },
     {
-      "word_id": "v21_6",
-      "term": "O kɔ fɛ tukan",
-      "phonetic_api": "/o kɔ fɛ tu.kan/",
-      "phonetic_simple": "O KƆ FƐ TOU-KANE",
-      "translation": "De plus / Par ailleurs / En outre",
-      "example_sentence": "O kɔ fɛ tukan, a ye n ladili fana.",
-      "example_phonetic": "/o kɔ fɛ tu.kan a je ɲ la.di.li fa.na/",
-      "example_translation": "Par ailleurs, il m'a également conseillé."
+      "word_id": "v6",
+      "term": "fɔ (sauf, à moins que, jusqu'à ce que)",
+      "phonetic_api": "[fɔ]",
+      "phonetic_simple": "fo",
+      "translation": "sauf, jusqu'à, à moins que",
+      "example_sentence": "A tè nà, fɔ a fa yé a bila.",
+      "example_phonetic": "[a tɛ nà fɔ a fa je a bila]",
+      "example_translation": "Il ne viendra pas, à moins que son père le laisse."
     },
     {
-      "word_id": "v21_7",
-      "term": "Labanyala / Laban la",
-      "phonetic_api": "/la.ba.nja la/",
-      "phonetic_simple": "LA-BA-NYA LA",
-      "translation": "Enfin / En conclusion / Au bout du compte",
-      "example_sentence": "Labanyala, ko nin tilara kɛndɛya la.",
-      "example_phonetic": "/la.ba.nja la ko nin ti.la.ra kɛn.dɛ.ja la/",
-      "example_translation": "En conclusion, cette affaire s'est terminée dans la paix."
+      "word_id": "v7",
+      "term": "kabini / kabi",
+      "phonetic_api": "[kabini]/[kabi]",
+      "phonetic_simple": "ka-bi-ni",
+      "translation": "depuis que, dès que",
+      "example_sentence": "Kabini a nada, a bada baara ban.",
+      "example_phonetic": "[kabini a nada a bada baːra ban]",
+      "example_translation": "Depuis qu'il est arrivé, il a fini le travail."
     },
     {
-      "word_id": "v21_8",
-      "term": "Wala / Wala ni",
-      "phonetic_api": "/wa.la/",
-      "phonetic_simple": "WA-LA",
-      "translation": "Ou bien / Sinon / Alternative alternative",
-      "example_sentence": "I be wa na bi, wala sini bang?",
-      "example_phonetic": "/i be na na bi wa.la si.ni baŋ/",
-      "example_translation": "Viendras-tu aujourd'hui ou bien demain ?"
+      "word_id": "v8",
+      "term": "hali ni",
+      "phonetic_api": "[hali ni]",
+      "phonetic_simple": "ha-li-ni",
+      "translation": "même si",
+      "example_sentence": "Hali ni sanji na, n dí taa.",
+      "example_phonetic": "[hali ni sandʒi na n dí taː]",
+      "example_translation": "Même s'il pleut, j'irai."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p21_1",
-      "original": "Fɔlɔfɔlɔ la, n kani baara yɔrɔ lɔn, o kɔ fɛ tukan n be n latigɛ na sisan.",
-      "phonetic_api": "/fɔ.lɔ.fɔ.lɔ la ɲ ka.ni baː.ra jɔ.rɔ lɔn o kɔ fɛ tu.kan ɲ be ɲ la.ti.ɣɛ na si.san/",
-      "phonetic_simple": "FƆ-LƆ-FƆ-LƆ LA, N KA-NI BAA-RA YƆ-RƆ LƆNE, O KƆ FƐ TOU-KANE N BÉ N LA-TI-GƐ NA SI-SANE.",
-      "translation": "Tout d'abord, je dois connaître l'emplacement du travail, de plus je prendrai ma décision finale à présent.",
-      "context": "Structuration d'un plan d'action hiérarchisé lors d'un entretien formel."
+      "phrase_id": "p1",
+      "original": "A wulila ka taa baara la",
+      "phonetic_api": "[a wulila ka taː baːra la]",
+      "phonetic_simple": "a-wou-li-la-ka-ta-a-ba-a-ra-la",
+      "translation": "Il se leva et alla au travail",
+      "context": "Enchaînement de deux actions successives avec 'ka'"
     },
     {
-      "phrase_id": "p21_2",
-      "original": "A ma lanya sɔrɔ n kan la, katuguni n tun ma wa kunu, o le yɛ a dimina bi.",
-      "phonetic_api": "/a ma lan.ja sɔ.rɔ ɲ kan la ka.tu.ɣu.ni ɲ tun ma wa ku.nu o le jɛ a di.mi.na bi/",
-      "phonetic_simple": "A MA LANE-YA SƆ-RƆ N KANE LA, KA-TOU-GOU-NI N TOUNE MA WA KOU-NOU, O LÉ YƐ A DI-MI-NA BI.",
-      "translation": "Il n'a pas eu confiance en ma parole parce que je n'étais pas venu hier, c'est pourquoi il est en colère aujourd'hui.",
-      "context": "Explication logique mêlant une cause passée et une conséquence présente."
+      "phrase_id": "p2",
+      "original": "A ye baarala kosobè, nka a tè sɔrɔla",
+      "phonetic_api": "[a je baːrala kosobɛ nka a tɛ sɔrɔla]",
+      "phonetic_simple": "a-yé-ba-a-ra-la-ko-so-bè, n-ka-a-tè-so-ro-la",
+      "translation": "Il travaille beaucoup, mais il ne gagne rien",
+      "context": "Opposition entre effort et résultat"
     },
     {
-      "phrase_id": "p21_3",
-      "original": "Hali ni ko nin gbɛlɛyara kosɛbɛ, an te an na habako lu sɔsɔ na labanyala.",
-      "phonetic_api": "/ha.li ni ko nin ɡ͡bɛ.lɛ.ja.ra ko.sɛ.bɛ an te an na ha.ba.ko lu sɔ.sɔ na la.ba.nja la/",
-      "phonetic_simple": "HA-LI NI KO NINE GBƐ-LƐ-YA-RA KO-SƐ-BƐ, ANE TÉ ANE NA HA-BA-KO LOU SƆ-SƆ NA LA-BA-NYA LA.",
-      "translation": "Bien que cette affaire soit extrêmement difficile, nous n'abandonnerons pas nos projets au bout du compte.",
-      "context": "Discours de motivation solennel réaffirmant des ambitions malgré les obstacles."
+      "phrase_id": "p3",
+      "original": "N tè taa, bawo sanji na",
+      "phonetic_api": "[n tɛ taː bawo sandʒi na]",
+      "phonetic_simple": "n-tè-ta-a, ba-wo-san-dji-na",
+      "translation": "Je n'irai pas, parce qu'il pleut",
+      "context": "Justification d'un refus par une cause"
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Sanji nada, wo kosɔn n tè taa",
+      "phonetic_api": "[sandʒi nada wo kosɔn n tɛ taː]",
+      "phonetic_simple": "san-dji-na-da, wo-ko-son-n-tè-ta-a",
+      "translation": "Il a plu, c'est pourquoi je ne suis pas parti",
+      "context": "Exprimer une conséquence logique"
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Hali ni sanji na, n dí taa",
+      "phonetic_api": "[hali ni sandʒi na n dí taː]",
+      "phonetic_simple": "ha-li-ni-san-dji-na, n-di-ta-a",
+      "translation": "Même s'il pleut, j'irai",
+      "context": "Concession forte face à un obstacle"
     }
   ],
   "grammar_points": [
     {
-      "concept": "La coordination logique consécutive par focalisation du pronom neutre 'O le yɛ'",
-      "explanation": "Pour lier une cause à sa conséquence ('C'est pourquoi...'), la langue Sankaran utilise le pronom démonstratif neutre 'O' (cela), renforcé par la particule de focalisation obligatoire 'le' et orienté vers la destination par la postposition 'yɛ' (pour/à).",
+      "concept": "Coordination et enchaînement d'actions ('ani' vs 'ka')",
+      "explanation": "'Ani' coordonne deux groupes nominaux ou deux entités (équivalent de 'et'), tandis que 'ka' relie deux verbes ayant le même sujet dans une séquence d'actions successives.",
       "rules": [
-        "Structure : [Proposition Cause], + o le yɛ + [Proposition Conséquence]"
+        "'Ani' : [Nom1] ani [Nom2]",
+        "'Ka' : [Sujet] + [Verbe1] + ka + [Verbe2]"
       ],
       "examples": [
         {
-          "structure": "Wari be n bolo, o le yɛ n be finin san na.",
-          "phonetic_api": "/wa.ri be ɲ bo.lo o le jɛ ɲ be fi.nin san na/",
-          "meaning": "J'ai de l'argent, c'est pourquoi j'achèterai un vêtement."
+          "structure": "[Nom1] ani [Nom2]",
+          "phonetic_api": "[ani]",
+          "meaning": "[Nom1] et [Nom2]"
+        },
+        {
+          "structure": "[Sujet] [Verbe1] ka [Verbe2]",
+          "phonetic_api": "[ka]",
+          "meaning": "[Sujet] [verbe1] et [verbe2]"
         }
       ]
     },
     {
-      "concept": "L'organisation discursive par juxtaposition adverbiale temporelle",
-      "explanation": "Dans un discours soutenu, la transition logique ne se fait pas par des conjonctions pures de subordination, mais par des adverbes de temps spatialisés comme 'Fɔlɔfɔlɔ la' (à la toute première place) et 'O kɔ fɛ tukan' (sur le dos de cela encore).",
+      "concept": "Cause et conséquence ('bawo' / 'wo kosɔn')",
+      "explanation": "La cause s'exprime avec 'bawo' ou 'sabu' en tête de la proposition qui donne la raison ; la conséquence logique se marque par 'wo kosɔn' (littéralement 'à cause de cela') qui reprend anaphoriquement ce qui précède.",
       "rules": [
-        "Première étape : Fɔlɔfɔlɔ la + Argument 1",
-        "Deuxième étape : O kɔ fɛ tukan + Argument 2",
-        "Clôture : Labanyala + Argument Final"
+        "Cause : [Conséquence], bawo/sabu + [Cause]",
+        "Conséquence : [Cause], wo kosɔn + [Conséquence]"
       ],
       "examples": [
         {
-          "structure": "Fɔlɔfɔlɔ la n be wa na yan, labanyala n be lafia na.",
-          "phonetic_api": "/fɔ.lɔ.fɔ.lɔ la ɲ be na na jan la.ba.nja la ɲ be la.fi.a na/",
-          "meaning": "Tout d'abord je viendrai ici, enfin je me reposerai."
+          "structure": "[Prop1], bawo [Prop2]",
+          "phonetic_api": "[bawo]",
+          "meaning": "[Prop1], parce que [Prop2]"
+        },
+        {
+          "structure": "[Prop1], wo kosɔn [Prop2]",
+          "phonetic_api": "[wo kosɔn]",
+          "meaning": "[Prop1], c'est pourquoi [Prop2]"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Karamɔgɔ",
-      "text": "Lamine, n kani i mɛn na bi. Fɔlɔfɔlɔ la, i ma i routine baara tila kunu, o kɔ fɛ tukan i sikɛra an na silo ma.",
-      "phonetic_api": "/la.min ɲ ka.ni i mɛn na bi | fɔ.lɔ.fɔ.lɔ la i ma i ru.ti.ne baː.ra ti.la ku.nu o kɔ fɛ tu.kan i si.kɛ.ra an na si.lo ma/",
-      "phonetic_simple": "LA-MINE, N KA-NI I MƐNE NA BI. FƆ-LƆ-FƆ-LƆ LA, I MA I ROU-TI-NE BAA-RA TI-LA KOU-NOU, O KƆ FƐ TOU-KANE I SI-KƐ-RA ANE NA SI-LO MA.",
-      "translation": "Lamine, je dois t'entendre aujourd'hui. En premier lieu, tu n'as pas terminé ton travail de routine hier, de plus tu as émis des doutes sur notre règlement."
+      "speaker": "Mory",
+      "text": "I tè nà baara la bi, bawo mun ?",
+      "phonetic_api": "[i tɛ nà baːra la bi bawo mun]",
+      "phonetic_simple": "i-tè-na-ba-a-ra-la-bi, ba-wo-moun",
+      "translation": "Tu ne viens pas au travail aujourd'hui, pourquoi ?"
     },
     {
-      "speaker": "Lamine",
-      "text": "N faa karamɔgɔ, n kɔnɔ dimina kunu jaati, katuguni n tun ye n wari bɛɛ tɔgɔ fɛ feere lofɛ la gbansan.",
-      "phonetic_api": "/ɲ faː ka.ra.mɔ.ɣɔ ɲ kɔː.nɔ di.mi.na ku.nu d͡ʒaː.ti ka.tu.ɣu.ni ɲ tun je ɲ wa.ri bɛː tɔ.ɣɔ fɛ feː.re lo.fɛ la ɡ͡ba.san/",
-      "phonetic_simple": "N FAA KA-RA-MƆ-GƆ, N KƆƆ-NƆ DI-MI-NA KOU-NOU DJAA-TI, KA-TOU-GOU-NI N TOUNE YÉ N WA-RI BƐƐ TƆ-GƆ FƐ FEE-RÉ LO-FƐ LA GBANE-SANE.",
-      "translation": "Mon maître, j'étais véritablement en colère hier, car j'avais perdu (écoulé en vain) tout mon argent au fond du marché."
+      "speaker": "Aminata",
+      "text": "Sanji nada kosobè, wo kosɔn n tè se ka bɔ so kɔnɔ.",
+      "phonetic_api": "[sandʒi nada kosobɛ wo kosɔn n tɛ se ka bɔ so kɔnɔ]",
+      "phonetic_simple": "san-dji-na-da-ko-so-bè, wo-ko-son-n-tè-sé-ka-bo-so-ko-no",
+      "translation": "Il a beaucoup plu, c'est pourquoi je ne peux pas sortir de la maison."
     },
     {
-      "speaker": "Karamɔgɔ",
-      "text": "O mu tɔgɛ di, nka o te i diyɛ na ka dugu silo sɔsɔ. Wala i b'a fɛ ka labanyala an ka i gbelen na bang?",
-      "phonetic_api": "/o mu tɔ.ɣɛ di ŋ.ka o te i di.jɛ na ka du.ɣu si.lo sɔ.sɔ | wa.la i b'a fɛ ka la.ba.nja la an ka i ɡ͡be.len na baŋ/",
-      "phonetic_simple": "O MOU TƆ-GƐ DI, NG-KA O TÉ I DI-YƐ NA KA DOU-GOU SI-LO SƆ-SƆ. WA-LA I BA FƐ KA LA-BA-NYA LA ANE KA I GBÉ-LÈNE NA BANGE ?",
-      "translation": "C'est une vérité, cependant cela ne t'autorise pas à enfreindre les règles de la communauté. Ou bien veux-tu qu'au bout du compte nous t'interdisions l'accès ?"
+      "speaker": "Mory",
+      "text": "Awa, nka hali ni sanji na sini, an dí baara ban ɲɔgɔn fɛ.",
+      "phonetic_api": "[awa nka hali ni sandʒi na sini an dí baːra ban ɲɔɡɔn fɛ]",
+      "phonetic_simple": "a-wa, n-ka-ha-li-ni-san-dji-na-si-ni, an-di-ba-a-ra-ban-nyo-gon-fè",
+      "translation": "D'accord, mais même s'il pleut demain, nous finirons le travail ensemble."
     },
     {
-      "speaker": "Lamine",
-      "text": "N ma n kɔrɔ ! Hali ni n sɛbɛ kɔni dimina, n te n latigɛ sɔsɔ na tukan. N be ladilikan mɛn na sisan.",
-      "phonetic_api": "/ɲ ma ɲ kɔ.rɔ | ha.li ni ɲ sɛ.bɛ kɔ.ni di.mi.na ɲ te ɲ la.ti.ɣɛ sɔ.sɔ na tu.kan | ɲ be la.di.li.kan mɛn na si.san/",
-      "phonetic_simple": "N MA N KƆ-RƆ ! HA-LI NI N SƐ-BƐ KƆ-NI DI-MI-NA, N TÉ N LA-TI-GƐ SƆ-SƆ NA TOU-KANE. N BÉ LA-DI-LI-KANE MƐNE NA SI-SANE.",
-      "translation": "Ah non mon aîné ! Bien que ma force interne ait été blessée (colère), je ne m'opposerai plus jamais à votre décision. J'écoute et j'applique votre conseil dès à présent."
+      "speaker": "Aminata",
+      "text": "Kabini n nada so kɔnɔ, n bada baara ban.",
+      "phonetic_api": "[kabini n nada so kɔnɔ n bada baːra ban]",
+      "phonetic_simple": "ka-bi-ni-n-na-da-so-ko-no, n-ba-da-ba-a-ra-ban",
+      "translation": "Depuis que je suis arrivée à la maison, j'ai fini le travail."
     }
   ],
   "cultural_notes": [
-    "Dans l'art oratoire traditionnel du Sankaran, la maîtrise des connecteurs logiques de hiérarchisation ('fɔlɔfɔlɔ la', 'labanyala') est l'apanage des sages et des médiateurs. Un discours décousu sans étapes claires décrédibilise l'orateur lors des conseils de notables.",
-    "La concession ('hali ni...') est utilisée de façon stratégique dans la rhétorique locale pour apaiser les tensions. Commencer sa réplique en validant une partie de l'argument adverse avant d'introduire sa propre contrainte par 'nka' (mais) permet de maintenir le respect mutuel indispensable à la vie communautaire."
+    "La maîtrise des connecteurs logiques (cause, opposition, concession) est un marqueur de discours élaboré, valorisé notamment dans l'art oratoire des anciens et des griots lors des palabres et discussions communautaires ([Malinkuia](https://fr.scribd.com/document/499114939/Malinkuia)).",
+    "Note dialectale (Sankaran) : cette leçon présente le maninka du Sankaran, parlé traditionnellement dans la région historique du Sankaran, aujourd'hui la préfecture et région de Faranah (Haute-Guinée), berceau historique du clan Condé et zone antérieure au Mandén selon la tradition orale. Le sankaran (ISO 639-3 msc) est très proche du malinké/maninka standard de Kankan, avec lequel il est mutuellement intelligible ; les mots et structures de cette leçon reflètent ce fonds commun du maninka de l'Est, complété par les spécificités phonologiques et grammaticales du parler de Faranah documentées par Spears (voir sources)."
   ],
   "exercises": [
     {
-      "exercise_id": "ex21_1",
-      "type": "multiple_choice",
-      "question": "Quel connecteur logique complexe utilisez-vous pour introduire une clause de causalité majeure ?",
+      "exercise_id": "e1",
+      "type": "choix_multiple",
+      "question": "Quel connecteur relie deux verbes d'action successive du même sujet ?",
       "options": [
-        "O le yɛ",
-        "Katuguni",
-        "Labanyala"
+        "ani",
+        "ka",
+        "bawo",
+        "wo kosɔn"
       ],
-      "correct_answer": "Katuguni",
-      "explanation": "'Katuguni' signifie 'parce que' ou 'car' et sert à expliciter formellement la cause d'un fait en langue Sankaran."
+      "correct_answer": "ka",
+      "explanation": "'ka' relie deux verbes ayant le même sujet dans une séquence d'actions (il se leva ET alla...)."
     },
     {
-      "exercise_id": "ex21_2",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Pour marquer la conclusion définitive de son argumentation, on commence par : [ ___ ] an bɛɛ sɔnna ko nin ma. (En conclusion, nous avons tous accepté cette affaire.)",
-      "correct_answer": "Labanyala",
-      "hint": "Expression adverbiale dérivée du verbe finir/aboutir, écrite avec un L majuscule."
+      "exercise_id": "e2",
+      "type": "traduction",
+      "question": "Traduisez : 'Il a plu, c'est pourquoi je ne suis pas parti.'",
+      "correct_answer": "Sanji nada, wo kosɔn n tè taa.",
+      "explanation": "'wo kosɔn' introduit la conséquence logique de ce qui précède."
+    },
+    {
+      "exercise_id": "e3",
+      "type": "texte_a_trous",
+      "sentence_with_blank": "N tè taa, ___ sanji na.  (Je n'irai pas, parce qu'il pleut.)",
+      "correct_answer": "bawo",
+      "hint": "C'est le connecteur de cause, équivalent à 'parce que'."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Ethnologue — Maninka, Sankaran [msc]",
+      "url": "https://www.ethnologue.com/language/msc/"
+    },
+    {
+      "label": "Glottolog 5.3 — Sankaran Maninka [sank1253]",
+      "url": "https://glottolog.org/resource/languoid/id/sank1253"
+    },
+    {
+      "label": "Wikipédia — Sankaran (langue, msc)",
+      "url": "https://fr.wikipedia.org/wiki/Sankaran"
+    },
+    {
+      "label": "Spears, R. A. — The Structure of Faranah-Maninka (Indiana University, description structurale du parler de Faranah, historiquement le Sankaran)",
+      "url": "https://theswissbay.ch/pdf/Books/Linguistics/Mega%20linguistics%20pack/African/Niger-Congo/Mande/Maninka,%20The%20Structure%20of%20Faranah-%20(Spears).pdf"
+    },
+    {
+      "label": "Vydrin & Diané (2014) — Propositions pour l'orthographe du maninka (Guinée), Mandenkan 52",
+      "url": "https://journals.openedition.org/mandenkan/pdf/301"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Aucune source lexicale ou grammaticale dédiée et indépendante n'a été trouvée pour cette leçon spécifiquement en sankaran : le contenu reprend le fonds commun du maninka/malinké de Haute-Guinée (vérifié pour le malinké standard), dont la proximité avec le sankaran est confirmée par les classifications Ethnologue/Glottolog/Vydrin, mais sans confirmation lexème par lexème pour ce dialecte précis. Confiance donc revue à la baisse par rapport à une attestation directe."
 }

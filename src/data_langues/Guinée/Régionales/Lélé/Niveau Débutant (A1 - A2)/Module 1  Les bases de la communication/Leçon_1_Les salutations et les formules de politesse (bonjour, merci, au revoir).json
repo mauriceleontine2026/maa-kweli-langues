@@ -4,209 +4,200 @@
   "module_number": 1,
   "module_title": "Les bases de la communication",
   "lesson_number": 1,
-  "title": "Les salutations et les formules de politesse",
+  "title": "Les salutations et les formules de politesse (bonjour, merci, au revoir)",
   "learning_objectives": [
-    "Savoir saluer un interlocuteur selon le moment de la journée en langue Lélé",
-    "Exprimer la gratitude et utiliser les formules de politesse élémentaires",
-    "Prendre congé de manière appropriée en contexte formel et informel"
+    "Utiliser les formules de salutation attestées en lélé",
+    "Répondre par l'affirmation ou la négation",
+    "Distinguer les pronoms personnels de base"
   ],
   "phonetic_focus": {
-    "key_sounds": "La langue lélé possède des tons et des voyelles ouvertes spécifiques. La lettre 'ɛ' se prononce comme un 'è' très ouvert [ɛ]. La lettre 'ɔ' correspond au son 'o' ouvert comme dans le mot français 'porte' [ɔ]. La combinaison 'kɔ' en fin de mot marque souvent une insistance ou une particule de politesse.",
-    "common_pitfalls": "Évitez de prononcer les voyelles finales comme des diphtongues. Par exemple, dans 'Mɛnɛ', le 'ɛ' final doit être net et ne pas glisser vers un son 'é'. Veillez à bien articuler la consonne nasale vélaire [ŋ] lorsqu'elle apparaît en fin de mot."
+    "key_sounds": "Le lélé oppose des voyelles brèves et longues (ex. í vs íi) et deux registres tonals (haut/bas) qui peuvent changer le sens d'un mot ou d'un pronom.",
+    "common_pitfalls": "Les francophones ont tendance à ignorer les tons ; en lélé, le ton distingue par exemple ń « je » et ǹ « nous »."
   },
   "vocabulary": [
     {
       "word_id": "v1",
-      "term": "Mɛnɛ",
-      "phonetic_api": "/mɛ.nɛ/",
-      "phonetic_simple": "MÈ-NÈ",
-      "translation": "Bonjour / Salut",
-      "example_sentence": "Mɛnɛ kɔ, i bɛ bɔ?",
-      "example_phonetic": "/mɛ.nɛ kɔ i bɛ bɔ/",
-      "example_translation": "Bonjour, est-ce que tu vas bien ?"
+      "term": "tuwɔ",
+      "phonetic_api": "/túwɔ̀/",
+      "phonetic_simple": "TOU-WO",
+      "translation": "salutation (« je te salue ! »)",
+      "example_sentence": "Í pùwa, tuwɔ!",
+      "example_phonetic": "/í pùwa túwɔ̀/",
+      "example_translation": "Ton père, je te salue !"
     },
     {
       "word_id": "v2",
-      "term": "Nɔwɔ",
-      "phonetic_api": "/nɔ.wɔ/",
-      "phonetic_simple": "NƆ-WƆ",
-      "translation": "Merci / Reconnaissance",
-      "example_sentence": "I nɔwɔ kɔ, nfa.",
-      "example_phonetic": "/i nɔ.wɔ kɔ ɲfa/",
-      "example_translation": "Merci beaucoup, mon père."
+      "term": "sàmú",
+      "phonetic_api": "/sàmú/",
+      "phonetic_simple": "SA-MOU",
+      "translation": "au revoir",
+      "example_sentence": "sàmú",
+      "example_phonetic": "/sàmú/",
+      "example_translation": "au revoir"
     },
     {
       "word_id": "v3",
-      "term": "Tana",
-      "phonetic_api": "/ta.na/",
-      "phonetic_simple": "TA-NA",
-      "translation": "Mal / Problème / Signe négatif",
-      "example_sentence": "Tana si bɛ ya.",
-      "example_phonetic": "/ta.na si bɛ ja/",
-      "example_translation": "Il n'y a aucun problème (Tout va bien)."
+      "term": "hàlí",
+      "phonetic_api": "/hàlí/",
+      "phonetic_simple": "HA-LI",
+      "translation": "oui",
+      "example_sentence": "hàlí",
+      "example_phonetic": "/hàlí/",
+      "example_translation": "oui"
     },
     {
       "word_id": "v4",
-      "term": "Kanamasi",
-      "phonetic_api": "/ka.na.ma.si/",
-      "phonetic_simple": "KA-NA-MA-SI",
-      "translation": "S'il te plaît / S'il vous plaît",
-      "example_sentence": "Kanamasi, kɛ di ya.",
-      "example_phonetic": "/ka.na.ma.si kɛ di ja/",
-      "example_translation": "S'il te plaît, viens ici."
+      "term": "njewu",
+      "phonetic_api": "/ńjéwù/",
+      "phonetic_simple": "N-DJÉ-WOU",
+      "translation": "non, refus catégorique",
+      "example_sentence": "njewu",
+      "example_phonetic": "/ńjéwù/",
+      "example_translation": "non, refus catégorique"
     },
     {
       "word_id": "v5",
-      "term": "Kunu",
-      "phonetic_api": "/ku.nu/",
-      "phonetic_simple": "KOU-NOU",
-      "translation": "Demain",
-      "example_sentence": "Fo kunu kɔ.",
-      "example_phonetic": "/fo ku.nu kɔ/",
-      "example_translation": "À demain."
+      "term": "pùwa",
+      "phonetic_api": "/pùwa/",
+      "phonetic_simple": "POU-WA",
+      "translation": "père (terme utilisé en salutation)",
+      "example_sentence": "pùwa",
+      "example_phonetic": "/pùwa/",
+      "example_translation": "père (terme utilisé en salutation)"
+    },
+    {
+      "word_id": "v6",
+      "term": "dè",
+      "phonetic_api": "/dè/",
+      "phonetic_simple": "DÈ",
+      "translation": "mère (terme utilisé en salutation)",
+      "example_sentence": "dè",
+      "example_phonetic": "/dè/",
+      "example_translation": "mère (terme utilisé en salutation)"
     }
   ],
   "common_phrases": [
     {
       "phrase_id": "p1",
-      "original": "Mɛnɛ kɔ",
-      "phonetic_api": "/mɛ.nɛ kɔ/",
-      "phonetic_simple": "MÈ-NÈ KƆ",
-      "translation": "Bonjour à toi",
-      "context": "Salutation générale respectueuse le matin ou en journée."
+      "original": "Tuwɔ!",
+      "phonetic_api": "/túwɔ̀/",
+      "phonetic_simple": "TOU-WO",
+      "translation": "Je te salue !",
+      "context": "Formule de salutation générale, utilisée en abordant quelqu'un."
     },
     {
       "phrase_id": "p2",
-      "original": "I bɛ bɔ?",
-      "phonetic_api": "/i bɛ bɔ/",
-      "phonetic_simple": "I BÈ BƆ?",
-      "translation": "Comment ça va ? / Tu vas bien ?",
-      "context": "Formule indispensable directement après avoir dit bonjour."
+      "original": "Sàmú.",
+      "phonetic_api": "/sàmú/",
+      "phonetic_simple": "SA-MOU",
+      "translation": "Au revoir.",
+      "context": "Formule de séparation."
     },
     {
       "phrase_id": "p3",
-      "original": "N bɛ bɔ, tana si bɛ.",
-      "phonetic_api": "/ɲ bɛ bɔ ta.na si bɛ/",
-      "phonetic_simple": "N BÈ BƆ, TA-NA SI BÈ",
-      "translation": "Je vais bien, aucun problème.",
-      "context": "Réponse classique et positive à une demande de nouvelles."
+      "original": "Hàlí.",
+      "phonetic_api": "/hàlí/",
+      "phonetic_simple": "HA-LI",
+      "translation": "Oui.",
+      "context": "Réponse affirmative."
     },
     {
       "phrase_id": "p4",
-      "original": "Fo siyɛ̃ kɔ",
-      "phonetic_api": "/fo si.jɛ̃ kɔ/",
-      "phonetic_simple": "FO SI-YÈN KƆ",
-      "translation": "Au revoir / À tout à l'heure",
-      "context": "Utilisé pour prendre congé lorsque l'on compte se revoir le jour même."
-    },
-    {
-      "phrase_id": "p5",
-      "original": "I nɔwɔ kɔ",
-      "phonetic_api": "/i nɔ.wɔ kɔ/",
-      "phonetic_simple": "I NƆ-WƆ KƆ",
-      "translation": "Merci à toi",
-      "context": "Remerciement chaleureux après un service ou une salutation."
-    },
-    {
-      "phrase_id": "p6",
-      "original": "A bɛ bɔ kɔ?",
-      "phonetic_api": "/a bɛ bɔ kɔ/",
-      "phonetic_simple": "A BÈ BƆ KƆ?",
-      "translation": "Est-ce que tout se passe bien ?",
-      "context": "Formule plurielle ou générale pour s'enquérir d'une situation."
-    },
-    {
-      "phrase_id": "p7",
-      "original": "Mɛnɛ wo-mɛnɛ",
-      "phonetic_api": "/mɛ.nɛ wo mɛ.nɛ/",
-      "phonetic_simple": "MÈ-NÈ WO-MÈ-NÈ",
-      "translation": "Bonjour à tous",
-      "context": "Salutation collective s'adressant à un groupe de personnes."
-    },
-    {
-      "phrase_id": "p8",
-      "original": "Fo kunu kɔ",
-      "phonetic_api": "/fo ku.nu kɔ/",
-      "phonetic_simple": "FO KOU-NOU KƆ",
-      "translation": "À demain",
-      "context": "Prendre congé en fin de journée pour le lendemain."
+      "original": "Njewu.",
+      "phonetic_api": "/ńjéwù/",
+      "phonetic_simple": "N-DJÉ-WOU",
+      "translation": "Non (refus catégorique).",
+      "context": "Réponse négative ferme."
     }
   ],
   "grammar_points": [
     {
-      "concept": "La structure de base de la phrase affirmative de salutation",
-      "explanation": "En lélé, la structure pour exprimer l'état utilise la marque verbale 'bɛ' (être / aller). Le pronom sujet se place directement devant cette marque. Pour poser une question, l'intonation monte en fin de phrase sans inversion du sujet.",
+      "concept": "Pronoms personnels de base",
+      "explanation": "Le lélé distingue plusieurs pronoms personnels selon la personne et, pour la 1ère personne du pluriel, selon le dialecte (nord vs centre/sud). Le ton du pronom peut changer de sens en combinaison avec le mot suivant.",
       "rules": [
-        "Le pronom de la première personne du singulier 'Je' s'écrit 'N' et se nasalise avec la consonne suivante.",
-        "Le pronom de la deuxième personne du singulier 'Tu' s'exprime par 'I'.",
-        "L'adjonction de 'kɔ' en fin d'énoncé adoucit l'expression et témoigne de la déférence."
+        "1SG « je/moi » : ń (ton haut) — ex. ń dè [ǹ dé] « ma mère »",
+        "1PL « nous » : mà (dialecte nord) ou ǹ (dialecte centre/sud)",
+        "2SG « tu/toi » : í",
+        "3SG « il/elle » : à"
       ],
       "examples": [
         {
-          "structure": "N bɛ bɔ",
-          "phonetic_api": "/ɲ bɛ bɔ/",
-          "meaning": "Je vais bien"
-        },
-        {
-          "structure": "I bɛ bɔ?",
-          "phonetic_api": "/i bɛ bɔ/",
-          "meaning": "Tu vas bien ?"
+          "structure": "ń dè",
+          "phonetic_api": "/ǹ dé/",
+          "meaning": "ma mère"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Moussa",
-      "text": "Mɛnɛ kɔ, i bɛ bɔ?",
-      "phonetic_api": "/mɛ.nɛ kɔ i bɛ bɔ/",
-      "phonetic_simple": "MÈ-NÈ KƆ, I BÈ BƆ?",
-      "translation": "Bonjour, comment vas-tu ?"
+      "speaker": "Amara",
+      "text": "Tuwɔ!",
+      "phonetic_api": "/túwɔ̀/",
+      "phonetic_simple": "TOU-WO",
+      "translation": "Je te salue !"
     },
     {
-      "speaker": "Fanta",
-      "text": "Mɛnɛ kɔ! N bɛ bɔ, tana si bɛ ya. I nɔwɔ kɔ.",
-      "phonetic_api": "/mɛ.nɛ kɔ ɲ bɛ bɔ ta.na si bɛ ja i nɔ.wɔ kɔ/",
-      "phonetic_simple": "MÈ-NÈ KƆ! N BÈ BƆ, TA-NA SI BÈ YA. I NƆ-WƆ KƆ.",
-      "translation": "Bonjour ! Je vais bien, aucun problème ici. Merci à toi."
+      "speaker": "Fatou",
+      "text": "Tuwɔ! Hàlí.",
+      "phonetic_api": "/túwɔ̀ hàlí/",
+      "phonetic_simple": "TOU-WO HA-LI",
+      "translation": "Je te salue ! Oui (bien reçu)."
     },
     {
-      "speaker": "Moussa",
-      "text": "Nɔwɔ kɔ. Fo kunu kɔ.",
-      "phonetic_api": "/nɔ.wɔ kɔ fo ku.nu kɔ/",
-      "phonetic_simple": "NƆ-WƆ KƆ. FO KOU-NOU KƆ.",
-      "translation": "Merci. À demain."
+      "speaker": "Amara",
+      "text": "Sàmú.",
+      "phonetic_api": "/sàmú/",
+      "phonetic_simple": "SA-MOU",
+      "translation": "Au revoir."
     },
     {
-      "speaker": "Fanta",
-      "text": "Fo kunu kɔ, Moussa.",
-      "phonetic_api": "/fo ku.nu kɔ musa/",
-      "phonetic_simple": "FO KOU-NOU KƆ, MOUS-SA.",
-      "translation": "À demain, Moussa."
+      "speaker": "Fatou",
+      "text": "Sàmú.",
+      "phonetic_api": "/sàmú/",
+      "phonetic_simple": "SA-MOU",
+      "translation": "Au revoir."
     }
   ],
   "cultural_notes": [
-    "En Guinée, chez le peuple Lélé, il est d'usage de saluer chaleureusement toutes les personnes que l'on croise, même si on ne les connaît pas personnellement. Le refus de saluer est perçu comme une grave offense sociale. Utiliser les termes de parenté honorifiques ('nfa' pour mon père, 'nba' pour ma mère) pour des personnes âgées est un signe de haute éducation."
+    "Les Lélé forment un petit groupe ethnolinguistique enclavé dans la population kissi, à cheval entre les préfectures de Kissidougou et Guéckédou, en Guinée forestière (source : Vydrine 2009 ; WebGuinée).",
+    "Le bilinguisme lélé-kissi est très répandu, la plupart des Lélé parlant aussi le kissi et souvent le malinké/kouranko, ce qui explique la rareté de sources purement monolingues (Vydrine 2009)."
   ],
   "exercises": [
     {
       "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quelle expression utilise-t-on pour dire spécifiquement 'À demain' ?",
+      "question": "Comment dit-on « au revoir » en lélé ?",
       "options": [
-        "Fo siyɛ̃ kɔ",
-        "Fo kunu kɔ",
-        "Mɛnɛ wo-mɛnɛ"
+        "tuwɔ",
+        "sàmú",
+        "hàlí"
       ],
-      "correct_answer": "Fo kunu kɔ",
-      "explanation": "'Fo kunu kɔ' signifie 'À demain', alors que 'Fo siyɛ̃ kɔ' se traduit par 'À tout à l'heure'."
+      "correct_answer": "sàmú",
+      "explanation": "« Sàmú » est la formule attestée d'au revoir dans le lexique de Vydrine (2009)."
     },
     {
       "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Pour répondre à une salutation en disant que tout va bien, on dit : Tana [ ___ ] bɛ ya.",
-      "correct_answer": "si",
-      "hint": "Le mot lélé pour dire 'aucun' ou 'nul'."
+      "sentence_with_blank": "Pour saluer quelqu'un, on dit : [ ___ ] !",
+      "correct_answer": "tuwɔ",
+      "hint": "C'est la formule de salutation générale."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "V. Vydrine, « Esquisse de la langue lélé (groupe mokolé) », Mandenkan 45, 2009, pp. 29-104 (LLACAN/CNRS)",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan45/45vydrine.pdf"
+    },
+    {
+      "label": "Glottolog — Lele (Guinea) [lele1266]",
+      "url": "https://glottolog.org/resource/languoid/id/lele1266"
+    },
+    {
+      "label": "Wikipédia — Lélé (langue mandée)",
+      "url": "https://fr.wikipedia.org/wiki/L%C3%A9l%C3%A9_(langue_mand%C3%A9e)"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Les formules de salutation (tuwɔ, sàmú, hàlí, njewu) et les pronoms sont attestés tels quels dans le lexique de Vydrine (2009) ; aucune formule de « merci » n'a pu être trouvée dans les sources disponibles pour le lélé, elle n'a donc pas été inventée et cette lacune est signalée."
 }

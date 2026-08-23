@@ -4,175 +4,218 @@
   "module_number": 1,
   "module_title": "Les bases de la communication",
   "lesson_number": 2,
-  "title": "Se présenter",
+  "title": "Se présenter (nom, âge, origine, profession)",
   "learning_objectives": [
-    "Dire son nom, son âge et son origine",
-    "Présenter sa profession ou son activité principale"
+    "Utiliser les pronoms personnels indépendants du nalu pour parler de soi",
+    "Nommer sa provenance en citant des lieux réels de la zone nalophone",
+    "Identifier le vocabulaire attesté relatif aux personnes et professions traditionnelles"
   ],
   "phonetic_focus": {
-    "key_sounds": "La consonne double 'gb' est une consonne co-articulée (labio-vélaire) typique des langues atlantiques : il faut prononcer le /g/ et le /b/ en un seul mouvement simultané, sans séparer les deux sons. Le son /ɲ/ (noté 'ny') se prononce comme le 'gn' français dans 'gagner'.",
-    "common_pitfalls": "Évitez de prononcer le pronom de première personne 'm' comme la lettre /ɛm/. C'est une consonne nasale syllabique qui bourdonne brièvement avant le verbe."
+    "key_sounds": "Le nalu comporte 7 voyelles avec opposition de longueur (i, u, e [ɪ], o [ʊ], ɛ, ɔ, a) et des consonnes comme θ (proche du 'th' anglais dur, prononcé [f] par de nombreux locuteurs), gb (occlusive labio-vélaire double, sans équivalent en français), et ŋ (comme 'ng' dans 'parking'). Source : Seidel (2024), The Oxford Guide to the Atlantic Languages of West Africa.",
+    "common_pitfalls": "Les francophones ont tendance à confondre ɛ/e et ɔ/o car le français ne marque pas systématiquement cette opposition de fermeture. Le θ est souvent mal prononcé car il n'existe pas en français ; beaucoup de locuteurs nalu eux-mêmes le réalisent [f]. La longueur vocalique (ex. redoublement de voyelle 'ɔɔ') doit être respectée, contrairement au français où elle n'est pas distinctive."
   },
   "vocabulary": [
     {
-      "word_id": "v2_1",
-      "term": "Nyere",
-      "phonetic_api": "/ɲe.re/",
-      "phonetic_simple": "NYÉ-RÉ",
-      "translation": "Nom / S'appeler",
-      "example_sentence": "Nyere mi Sékou.",
-      "example_phonetic": "/ɲe.re mi se.ku/",
-      "example_translation": "Mon nom est Sékou."
+      "word_id": "v1",
+      "term": "min",
+      "phonetic_api": "/min/",
+      "phonetic_simple": "MIN",
+      "translation": "je, moi",
+      "example_sentence": "Min ti kenah tikamsar.",
+      "example_phonetic": "/min ti kenah tikamsar/",
+      "example_translation": "Je pars de Kamsar."
     },
     {
-      "word_id": "v2_2",
-      "term": "Boku",
-      "phonetic_api": "/bo.ku/",
-      "phonetic_simple": "BO-KOU",
-      "translation": "Venir de / Origine",
-      "example_sentence": "M boku Kanfarandé.",
-      "example_phonetic": "/m bo.ku ka?.fa.?.a?.de/",
-      "example_translation": "Je viens de Kanfarandé."
+      "word_id": "v2",
+      "term": "yi",
+      "phonetic_api": "/ji/",
+      "phonetic_simple": "YI",
+      "translation": "tu, toi",
+      "example_sentence": "Yi mɛyaŋ nɛɛ mɔɔ?",
+      "example_phonetic": "/ji mɛjaŋ nɛː mɔː/",
+      "example_translation": "Sais-tu cela ?"
     },
     {
-      "word_id": "v2_3",
-      "term": "Abana",
-      "phonetic_api": "/a.ba.na/",
-      "phonetic_simple": "A-BA-NA",
-      "translation": "Années / Âge",
-      "example_sentence": "M balang abana tila.",
-      "example_phonetic": "/m ba.la? a.ba.na ti.la/",
-      "example_translation": "J'ai trente ans."
+      "word_id": "v3",
+      "term": "m-ɲiin",
+      "phonetic_api": "/m.ɲiːn/",
+      "phonetic_simple": "M-NYIIN",
+      "translation": "personne, homme",
+      "example_sentence": "Mɲiin deendek koya lo.",
+      "example_phonetic": "/mɲiːn deːndek koja lo/",
+      "example_translation": "Un homme est ici."
     },
     {
-      "word_id": "v2_4",
-      "term": "Wale",
-      "phonetic_api": "/wa.le/",
-      "phonetic_simple": "WA-LÉ",
-      "translation": "Travail / Profession",
-      "example_sentence": "Nale mi a ce.",
-      "example_phonetic": "/na.le mi a tʃe/",
-      "example_translation": "Mon travail est bon."
+      "word_id": "v4",
+      "term": "m-fem / m-θem",
+      "phonetic_api": "/mfem/, /mθem/",
+      "phonetic_simple": "M-FEM / M-THEM",
+      "translation": "chef",
+      "example_sentence": "Mfem naan biwocna bɛm laŋ.",
+      "example_phonetic": "/mfem naːn biwɔkna bɛm laŋ/",
+      "example_translation": "Le chef aussi les a bien reçus."
     },
     {
-      "word_id": "v2_5",
-      "term": "Kanyen",
-      "phonetic_api": "/ka.ɲe?/",
-      "phonetic_simple": "KA-NYEN",
-      "translation": "Habiter / Résider",
-      "example_sentence": "M kanyen Boké.",
-      "example_phonetic": "/m ka.ɲe? bo.ke/",
-      "example_translation": "J'habite à Boké."
+      "word_id": "v5",
+      "term": "msiŋhimbak",
+      "phonetic_api": "/msiŋhimbak/",
+      "phonetic_simple": "M-SING-HIMBAK",
+      "translation": "travailleur",
+      "example_sentence": "Msiŋhimbak akoy kalah.",
+      "example_phonetic": "/msiŋhimbak akoj kalah/",
+      "example_translation": "Le travailleur est à l'intérieur (phrase construite à partir des racines attestées himbak « travailler » et koy « être »)."
+    },
+    {
+      "word_id": "v6",
+      "term": "msiŋcaames",
+      "phonetic_api": "/msiŋkaːmes/",
+      "phonetic_simple": "M-SING-TSAAMÈS",
+      "translation": "commerçant, marchand",
+      "example_sentence": "Msiŋcaames ha makoy?",
+      "example_phonetic": "/msiŋkaːmes ha makoj/",
+      "example_translation": "N'est-il pas commerçant ?"
+    },
+    {
+      "word_id": "v7",
+      "term": "Kamsar",
+      "phonetic_api": "/kamsar/",
+      "phonetic_simple": "KAMSAR",
+      "translation": "Kamsar (ville portuaire de la région de Boké)",
+      "example_sentence": "Mbi koya Kamsar.",
+      "example_phonetic": "/mbi koja kamsar/",
+      "example_translation": "Je suis à Kamsar."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p2_1",
-      "original": "A rila nyere mwo?",
-      "phonetic_api": "/a ri.la ɲe.re mwo/",
-      "phonetic_simple": "A RI-LA NYÉ-RÉ MWO",
-      "translation": "Comment t'appelles-tu ?",
-      "context": "Formule directe pour demander l'identité de quelqu'un."
+      "phrase_id": "p1",
+      "original": "Tikamsar mkenah.",
+      "phonetic_api": "/tikamsar mkenah/",
+      "phonetic_simple": "TI-KAMSAR M-KÉNAH",
+      "translation": "J'ai quitté Kamsar.",
+      "context": "Phrase attestée chez Seidel (2024) pour indiquer une provenance géographique."
     },
     {
-      "phrase_id": "p2_2",
-      "original": "M boku gbe Guine.",
-      "phonetic_api": "/m bo.ku gbe gi.ne/",
-      "phonetic_simple": "M BO-KOU GBÉ GUI-NÉ",
-      "translation": "Je viens de Guinée.",
-      "context": "Utile pour exprimer son pays d'origine lors d'une rencontre."
+      "phrase_id": "p2",
+      "original": "Mbi koya Kamsar.",
+      "phonetic_api": "/mbi koja kamsar/",
+      "phonetic_simple": "M-BI KOYA KAMSAR",
+      "translation": "Je suis à Kamsar.",
+      "context": "Pour indiquer où l'on se trouve actuellement."
     },
     {
-      "phrase_id": "p2_3",
-      "original": "A mboye wale mwo?",
-      "phonetic_api": "/a mbo.je wa.le mwo/",
-      "phonetic_simple": "A MBO-YÉ WA-LÉ MWO",
-      "translation": "Quel est ton travail ?",
-      "context": "Question polie pour s'enquérir de l'activité professionnelle de l'interlocuteur."
+      "phrase_id": "p3",
+      "original": "Min ti kenah tikɛɛ.",
+      "phonetic_api": "/min ti kenah tikɛː/",
+      "phonetic_simple": "MIN TI KÉNAH TI-KÈÈ",
+      "translation": "Je pars de là-bas.",
+      "context": "Pour indiquer un lieu de départ éloigné, exemple attesté."
     },
     {
-      "phrase_id": "p2_4",
-      "original": "M gbe karandéena.",
-      "phonetic_api": "/m gbe ka.ra?.deː.na/",
-      "phonetic_simple": "M GBÉ KA-RAN-DÉÉ-NA",
-      "translation": "Je suis étudiant / élève.",
-      "context": "Permet de décliner son statut académique ou d'apprentissage."
+      "phrase_id": "p4",
+      "original": "Msiŋcaames ha makoy?",
+      "phonetic_api": "/msiŋkaːmes ha makoj/",
+      "phonetic_simple": "MSING-TSAAMÈS HA MAKOY",
+      "translation": "N'est-il pas commerçant ?",
+      "context": "Pour interroger sur la profession de quelqu'un, exemple attesté par Seidel (2024)."
     }
   ],
   "grammar_points": [
     {
-      "concept": "Le pronom personnel sujet de première personne 'M'",
-      "explanation": "Pour exprimer le 'Je' en nalu, on emploie la consonne nasale bilabiale 'M' placée immédiatement devant le radical verbal. Elle s'assimile phonétiquement selon la consonne qui la suit.",
+      "concept": "Pronoms personnels indépendants",
+      "explanation": "Le nalu distingue 1sg min, 2sg yi, 3sg mɔ/mɔm/wom, 1pl exclusif biyɛ, 1pl inclusif bet, 2pl nɛɛn, 3pl bɛ/bɛm (Seidel 2024). Ces pronoms permettent de se présenter directement.",
       "rules": [
-        "Devant les consonnes occlusives (b, p), elle se prononce nettement 'M'.",
-        "Elle ne nécessite pas de voyelle d'appui en début d'énoncé."
+        "Le pronom 1sg « min » précède ou accompagne le verbe selon la construction.",
+        "La 3e personne du singulier partage sa forme avec le démonstratif de premier degré (mɔ)."
       ],
       "examples": [
         {
-          "structure": "M boku...",
-          "phonetic_api": "/m bo.ku/",
-          "meaning": "Je viens de..."
-        },
+          "structure": "min ti kenah",
+          "phonetic_api": "/min ti kenah/",
+          "meaning": "je pars / je quitte (un lieu)"
+        }
+      ]
+    },
+    {
+      "concept": "Noms d'agent en msiŋ-",
+      "explanation": "Le nalu forme des noms de métier/agent avec le préfixe « siN » combiné à une racine verbale : ex. msiŋkas « tisserand » (de kas « tisser »), msiŋhimbak « travailleur » (de himbak « travailler »), msiŋθukuyah « voleur » (de θukuy « voler ») (Seidel 2024).",
+      "rules": [
+        "Le pluriel de ces noms d'agent prend le suffixe -ɛ : bɛsiŋkasɛ « tisserands »."
+      ],
+      "examples": [
         {
-          "structure": "M kanyen...",
-          "phonetic_api": "/m ka.ɲe?/",
-          "meaning": "J'habite..."
+          "structure": "msiŋcaames",
+          "phonetic_api": "/msiŋkaːmes/",
+          "meaning": "commerçant (de caames « vendre »)"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Aissata",
-      "text": "Mboye! A rila nyere mwo?",
-      "phonetic_api": "/mbo.je a ri.la ɲe.re mwo/",
-      "phonetic_simple": "MBO-YÉ! A RI-LA NYÉ-RÉ MWO?",
-      "translation": "Bonjour ! Comment t'appelles-tu ?"
+      "speaker": "Locuteur A",
+      "text": "Mbi koya Kamsar.",
+      "phonetic_api": "/mbi koja kamsar/",
+      "phonetic_simple": "M-BI KOYA KAMSAR",
+      "translation": "Je suis à Kamsar."
     },
     {
-      "speaker": "Ousmane",
-      "text": "Mboye ce! Nyere mi Ousmane. I mwo?",
-      "phonetic_api": "/mbo.je tʃe ɲe.re mi us.man i mwo/",
-      "phonetic_simple": "MBO-YÉ TCHÉ! NYÉ-RÉ MI OUS-MANE. I MWO?",
-      "translation": "Bonjour bien ! Mon nom est Ousmane. Et toi ?"
+      "speaker": "Locuteur B",
+      "text": "Msiŋcaames ha makoy?",
+      "phonetic_api": "/msiŋkaːmes ha makoj/",
+      "phonetic_simple": "MSING-TSAAMÈS HA MAKOY",
+      "translation": "N'est-il pas commerçant ?"
     },
     {
-      "speaker": "Aissata",
-      "text": "Nyere mi Aissata. M boku Kanfarandé. A mboye wale mwo?",
-      "phonetic_api": "/ɲe.re mi ai.sa.ta m bo.ku ka?.fa.?.a?.de a mbo.je wa.le mwo/",
-      "phonetic_simple": "NYÉ-RÉ MI AIS-SA-TA. M BO-KOU KA-NFAN-RAN-DÉ. A MBO-YÉ WA-LÉ MWO?",
-      "translation": "Mon nom est Aissata. Je viens de Kanfarandé. Quel est ton travail ?"
+      "speaker": "Locuteur A",
+      "text": "Awa.",
+      "phonetic_api": "/awa/",
+      "phonetic_simple": "AWA",
+      "translation": "En effet (d'accord)."
     },
     {
-      "speaker": "Ousmane",
-      "text": "M gbe karandéena. M kanyen Boké.",
-      "phonetic_api": "/m gbe ka.ra?.deː.na m ka.ɲe? bo.ke/",
-      "phonetic_simple": "M GBÉ KA-RAN-DÉÉ-NA. M KA-NYEN BO-KÉ.",
-      "translation": "Je suis étudiant. J'habite à Boké."
+      "speaker": "Locuteur B",
+      "text": "Min ti kenah tikɛɛ.",
+      "phonetic_api": "/min ti kenah tikɛː/",
+      "phonetic_simple": "MIN TI KÉNAH TI-KÈÈ",
+      "translation": "Moi, je pars de là-bas."
     }
   ],
   "cultural_notes": [
-    "Dans la culture Nalu, décliner son origine géographique ou son village ancestral (comme Kanfarandé ou Katchek) est tout aussi important que donner son propre prénom. Cela permet immédiatement d'établir les connexions claniques et de situer les lignages familiaux."
+    "Kamsar, Kacek, Katrak, Nompu et Tanɛnɛ sont des toponymes réels de la zone nalophone cités par Seidel (2024) ; ils constituent des repères authentiques pour situer son origine.",
+    "Les professions traditionnelles nalu attestées (tisserand, tradipraticien/guérisseur mi-let, mendiant, voleur) reflètent une société rurale et communautaire ; le vocabulaire de métiers modernes n'est pas documenté."
   ],
   "exercises": [
     {
-      "exercise_id": "ex2_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Que signifie la phrase 'M boku Guine' ?",
+      "question": "Comment dit-on « je » en nalu ?",
       "options": [
-        "J'habite en Guinée",
-        "Je vais en Guinée",
-        "Je viens de Guinée"
+        "yi",
+        "min",
+        "bɛ"
       ],
-      "correct_answer": "Je viens de Guinée",
-      "explanation": "Le verbe 'boku' marque la provenance, la source ou l'origine géographique."
+      "correct_answer": "min",
+      "explanation": "« min » est le pronom 1sg attesté par Seidel (2024)."
     },
     {
-      "exercise_id": "ex2_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Pour demander le nom de quelqu'un, on dit : A rila [ ___ ] mwo?",
-      "correct_answer": "nyere",
-      "hint": "Signifie 'nom' ou 'prénom'"
+      "sentence_with_blank": "« [ ___ ] koya Kamsar » signifie « Je suis à Kamsar ».",
+      "correct_answer": "Mbi",
+      "hint": "Forme verbale attestée combinant le marqueur 1sg et koy « être »."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Seidel, F. (2024) « Nalu », in The Oxford Guide to the Atlantic Languages of West Africa, Oxford University Press",
+      "url": "https://academic.oup.com/book/59850/chapter/511378992"
+    },
+    {
+      "label": "Seidel, F. (2012-13) « Language Documentation of Nalu in Guinea, West Africa », CASRR, University of Florida",
+      "url": "https://africa.ufl.edu/wp-content/uploads/sites/258/CASRR12-13-Seidel.pdf"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Les pronoms, noms d'agent et toponymes sont directement attestés dans des phrases d'exemple de Seidel (2024) ; en revanche, aucune phrase de présentation standardisée (« je m'appelle... », « j'ai... ans ») n'a été trouvée, ce qui limite la couverture de cette leçon au vocabulaire disponible."
 }

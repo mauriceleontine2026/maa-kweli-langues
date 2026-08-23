@@ -6,111 +6,196 @@
   "lesson_number": 2,
   "title": "Les loisirs, les passions et les activités sportives",
   "learning_objectives": [
-    "Parler de ses occupations en dehors du temps de travail ou d'étude",
-    "Exprimer la pratique d'un sport moderne ou d'un jeu traditionnel",
-    "Raconter une habitude de divertissement ou de rassemblement social"
+    "Utiliser le verbe nank (voir) et le verbe de déplacement kɔ (aller) pour évoquer une activité.",
+    "Nommer quelques animaux attestés pouvant apparaître dans un contexte de loisir rural (a-bʊmp « oiseau », a-cen « chien », a-lop « poisson »).",
+    "Reconnaître qu'aucun terme landuma attesté ne désigne un sport ou un loisir moderne précis dans les sources disponibles."
   ],
   "phonetic_focus": {
-    "key_sounds": "La consonne affriquée /t͡s/ doit conserver un point de contact alvéolaire très net, suivi d'un relâchement sifflant bref.",
-    "common_pitfalls": "Évitez d'allonger indûment les voyelles brèves placées devant les combinaisons de consonnes nasales."
+    "key_sounds": "Le landuma comporte des voyelles i, e, ɛ, u, o, ɔ, ʌ, ə, a et des consonnes prénasalisées complexes (mb-, nc-, nt-, ns-, ŋg-) absentes du français, ainsi qu'une affriquée c proche du « tch » et une occlusive labiovélaire gb (Sumbatova & Vydrin 2021).",
+    "common_pitfalls": "Les francophones tendent à scinder en deux syllabes les groupes consonantiques prénasalisés initiaux (ex. mb-, nc-, nt-), qui forment pourtant une seule attaque consonantique en landuma ; ils confondent aussi souvent les voyelles centrales ə/a et les voyelles mi-ouvertes ɛ/ɔ, qui n'ont pas d'équivalent phonémique net en français."
   },
   "vocabulary": [
     {
-      "word_id": "v11_1",
-      "term": "wɔl",
-      "phonetic_api": "/wɔl/",
-      "phonetic_simple": "WOL",
-      "translation": "jouer / s'amuser / match",
-      "example_sentence": "wuto mɔ wɔl tɛkɛ",
-      "example_phonetic": "/wu.to mɔ wɔl tɛ.kɛ/",
-      "example_translation": "L'enfant joue aujourd'hui."
+      "word_id": "v1",
+      "term": "nank",
+      "phonetic_api": "/nank/",
+      "phonetic_simple": "NANK",
+      "translation": "voir",
+      "example_sentence": "nank",
+      "example_phonetic": "/nank/",
+      "example_translation": "« voir » — mot isolé attesté dans le corpus lexical disponible ; aucune phrase complète d'exemple n'a été trouvée pour ce terme dans les sources consultées, seule la forme du mot est donc garantie."
     },
     {
-      "word_id": "v11_2",
-      "term": "mantsa",
-      "phonetic_api": "/man.t͡sa/",
-      "phonetic_simple": "MAN-TSA",
-      "translation": "danse / fête traditionnelle",
-      "example_sentence": "nu pa mantsa tundo",
-      "example_phonetic": "/nu pa man.t͡sa tun.do/",
-      "example_translation": "Vous aimez beaucoup la danse."
+      "word_id": "v2",
+      "term": "kɔ",
+      "phonetic_api": "/kɔ/",
+      "phonetic_simple": "KÔ",
+      "translation": "aller",
+      "example_sentence": "kɔ",
+      "example_phonetic": "/kɔ/",
+      "example_translation": "« aller » — mot isolé attesté dans le corpus lexical disponible ; aucune phrase complète d'exemple n'a été trouvée pour ce terme dans les sources consultées, seule la forme du mot est donc garantie."
     },
     {
-      "word_id": "v11_3",
-      "term": "bɔl",
-      "phonetic_api": "/bɔl/",
-      "phonetic_simple": "BOL",
-      "translation": "ballon / football (emprunt)",
-      "example_sentence": "mbi wɔl bɔl ka dare",
-      "example_phonetic": "/mbi wɔl bɔl ka da.re/",
-      "example_translation": "Je joue au football en ville."
+      "word_id": "v3",
+      "term": "a-bʊmp",
+      "phonetic_api": "/a-bʊmp/",
+      "phonetic_simple": "a-BOUMP",
+      "translation": "oiseau",
+      "example_sentence": "a-bʊmp",
+      "example_phonetic": "/a-bʊmp/",
+      "example_translation": "« oiseau » — mot isolé attesté dans le corpus lexical disponible ; aucune phrase complète d'exemple n'a été trouvée pour ce terme dans les sources consultées, seule la forme du mot est donc garantie."
+    },
+    {
+      "word_id": "v4",
+      "term": "a-cen",
+      "phonetic_api": "/a-cen/",
+      "phonetic_simple": "a-TCHÈNE",
+      "translation": "chien",
+      "example_sentence": "a-cen",
+      "example_phonetic": "/a-cen/",
+      "example_translation": "« chien » — mot isolé attesté dans le corpus lexical disponible ; aucune phrase complète d'exemple n'a été trouvée pour ce terme dans les sources consultées, seule la forme du mot est donc garantie."
+    },
+    {
+      "word_id": "v5",
+      "term": "a-lop",
+      "phonetic_api": "/a-lop/",
+      "phonetic_simple": "a-LOP",
+      "translation": "poisson",
+      "example_sentence": "a-lop",
+      "example_phonetic": "/a-lop/",
+      "example_translation": "« poisson » — mot isolé attesté dans le corpus lexical disponible ; aucune phrase complète d'exemple n'a été trouvée pour ce terme dans les sources consultées, seule la forme du mot est donc garantie."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p11_1",
-      "original": "mbi pa wɔl bɔl sina",
-      "phonetic_api": "/mbi pa wɔl bɔl si.na/",
-      "phonetic_simple": "MBI PA WOL BOL SI-NA",
-      "translation": "J'aime jouer au football demain",
-      "context": "Proposer une activité de loisir à un ami."
+      "phrase_id": "p1",
+      "original": "nank",
+      "phonetic_api": "/nank/",
+      "phonetic_simple": "NANK",
+      "translation": "voir",
+      "context": "Aucune phrase complète figée n'est attestée pour ce contexte précis dans les sources disponibles ; seul ce mot isolé du corpus vérifié est proposé comme point d'ancrage, à utiliser avec prudence."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "kɔ nank",
+      "phonetic_api": "/kɔ nank/",
+      "phonetic_simple": "KÔ NANK",
+      "translation": "« aller » + « voir » (juxtaposition)",
+      "context": "Recombinaison prudente de deux mots déjà attestés séparément dans le corpus lexical de cette leçon (aller, voir) : cette juxtaposition n'est PAS une expression idiomatique attestée en tant que telle dans les sources, mais une association pédagogique construite uniquement à partir de vocabulaire vérifié, utile pour la mémorisation et la pratique orale."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "a-bʊmp nank",
+      "phonetic_api": "/a-bʊmp nank/",
+      "phonetic_simple": "a-BOUMP NANK",
+      "translation": "« oiseau » + « voir » (juxtaposition)",
+      "context": "Recombinaison prudente de deux mots déjà attestés séparément dans le corpus lexical de cette leçon (oiseau, voir) : cette juxtaposition n'est PAS une expression idiomatique attestée en tant que telle dans les sources, mais une association pédagogique construite uniquement à partir de vocabulaire vérifié, utile pour la mémorisation et la pratique orale."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "a-cen nank",
+      "phonetic_api": "/a-cen nank/",
+      "phonetic_simple": "a-TCHÈNE NANK",
+      "translation": "« chien » + « voir » (juxtaposition)",
+      "context": "Recombinaison prudente de deux mots déjà attestés séparément dans le corpus lexical de cette leçon (chien, voir) : cette juxtaposition n'est PAS une expression idiomatique attestée en tant que telle dans les sources, mais une association pédagogique construite uniquement à partir de vocabulaire vérifié, utile pour la mémorisation et la pratique orale."
     }
   ],
   "grammar_points": [
     {
-      "concept": "La construction de deux verbes consécutifs",
-      "explanation": "Pour exprimer une préférence d'action ('aimer jouer'), le landouma juxtapose directement le verbe de sentiment/volonté 'pa' et le verbe d'action 'wɔl' sans particule intermédiaire d'infinitif.",
+      "concept": "Accord alitératif radical (classes nominales)",
+      "explanation": "Le landuma, comme d'autres langues Mel du Nord, marque l'accord grammatical par un préfixe dont la consonne initiale reprend celle du nom qu'il qualifie ou remplace : c'est un accord dit « alitératif radical », distinct de l'accord par classes nominales à préfixes fixes qu'on trouve dans d'autres langues Niger-Congo. On observe dans le corpus attesté des préfixes tels que a-, da-, ta-, kʊ-, ke-, o-, ma- selon la classe et l'initiale du radical.",
       "rules": [
-        "Structure : Sujet + Verbe de goût (pa) + Verbe d'action.",
-        "Le second verbe conserve sa forme radicale invariable."
+        "Les noms attestés portent presque tous un préfixe de classe : da-wump (tête), ta-fera (blanc), kʊ-suŋ (bouche), o-runi (homme), ma-rʊŋ (deux).",
+        "Le préfixe d'accord d'un qualificatif ou d'un déterminant tend à reprendre la consonne initiale du nom contrôleur plutôt qu'une classe grammaticale fixe et arbitraire.",
+        "Cette règle est documentée pour les noms inanimés dans les travaux académiques, mais son fonctionnement précis pour chaque catégorie de mots n'est pas intégralement publié en accès libre : la prudence s'impose pour toute généralisation."
       ],
       "examples": [
         {
-          "structure": "pa + Verbe d'action",
-          "phonetic_api": "/mbi pa man.t͡sa/",
-          "meaning": "J'aime danser (litt. Je veux danse)."
+          "structure": "da-wump / da-fɔr",
+          "phonetic_api": "/da-wump/, /da-fɔr/",
+          "meaning": "tête / œil (même préfixe da- : classe nominale partagée)"
+        },
+        {
+          "structure": "ta-fera / ta-bi / ta-tɔt",
+          "phonetic_api": "/ta-fera/, /ta-bi/, /ta-tɔt/",
+          "meaning": "blanc / noir / bon (préfixe ta- pour ces qualificatifs attestés)"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Ousmane",
-      "text": "mbi pa wɔl bɔl tɛkɛ. mɔ pa wɔl ?",
-      "phonetic_api": "/mbi pa wɔl bɔl tɛ.kɛ mɔ pa wɔl/",
-      "phonetic_simple": "MBI PA WOL BOL TÈ-KÈ. MO PA WOL ?",
-      "translation": "J'aime jouer au football aujourd'hui. Aimes-tu jouer ?"
+      "speaker": "Locuteur A",
+      "text": "nank",
+      "phonetic_api": "/nank/",
+      "phonetic_simple": "NANK",
+      "translation": "(mot isolé : « voir ») — aucun dialogue naturel complet n'est attesté dans les sources disponibles pour ce thème ; cet échange reste donc une simple juxtaposition prudente du vocabulaire vérifié, non une phrase authentique de conversation."
     },
     {
-      "speaker": "Marie",
-      "text": "ɔn-ɔn, mbi pa mantsa ka dare.",
-      "phonetic_api": "/ɔn.ɔn mbi pa man.t͡sa ka da.re/",
-      "phonetic_simple": "ON-ON MBI PA MAN-TSA KA DA-RE",
-      "translation": "Non, moi j'aime la danse en ville."
+      "speaker": "Locuteur B",
+      "text": "kɔ",
+      "phonetic_api": "/kɔ/",
+      "phonetic_simple": "KÔ",
+      "translation": "(mot isolé : « aller ») — aucun dialogue naturel complet n'est attesté dans les sources disponibles pour ce thème ; cet échange reste donc une simple juxtaposition prudente du vocabulaire vérifié, non une phrase authentique de conversation."
+    },
+    {
+      "speaker": "Locuteur A",
+      "text": "a-bʊmp",
+      "phonetic_api": "/a-bʊmp/",
+      "phonetic_simple": "a-BOUMP",
+      "translation": "(mot isolé : « oiseau ») — aucun dialogue naturel complet n'est attesté dans les sources disponibles pour ce thème ; cet échange reste donc une simple juxtaposition prudente du vocabulaire vérifié, non une phrase authentique de conversation."
+    },
+    {
+      "speaker": "Locuteur B",
+      "text": "a-cen",
+      "phonetic_api": "/a-cen/",
+      "phonetic_simple": "a-TCHÈNE",
+      "translation": "(mot isolé : « chien ») — aucun dialogue naturel complet n'est attesté dans les sources disponibles pour ce thème ; cet échange reste donc une simple juxtaposition prudente du vocabulaire vérifié, non une phrase authentique de conversation."
     }
   ],
   "cultural_notes": [
-    "Les danses traditionnelles rythmées par les percussions restent des moments majeurs de divertissement collectif et de cohésion sociale lors des cérémonies de récolte ou de mariage en milieu landouma."
+    "L'économie landuma repose sur l'agriculture de subsistance : riz, mil, maïs et arachide (culture de rente), complétés par le manioc, la patate douce, les mangues et les noix de cajou ([Joshua Project](https://joshuaproject.net/people_groups/12979/gv)).",
+    "Glottolog classe le landuma comme langue « vulnérable » et Ethnologue ne lui consacre pas de fiche dédiée dans ses listes en ligne les plus visibles : c'est une langue très peu documentée, sans matériel pédagogique publié à large diffusion ([Glottolog](https://glottolog.org/resource/languoid/id/land1256))."
   ],
   "exercises": [
     {
-      "exercise_id": "ex11_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Que signifie le terme de loisir 'wɔl' ?",
+      "question": "Comment dit-on « voir » en landuma ?",
       "options": [
-        "Travailler",
-        "Jouer",
-        "Dormir"
+        "a-lop",
+        "kɔ",
+        "nank"
       ],
-      "correct_answer": "Jouer",
-      "explanation": "'wɔl' s'applique aussi bien aux jeux d'enfants qu'aux pratiques sportives modernes."
+      "correct_answer": "nank",
+      "explanation": "« nank » est la forme attestée pour « voir » d'après le corpus lexical collecté (confiance : moyenne)."
     },
     {
-      "exercise_id": "ex11_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "mbi pa [ ___ ] bɔl sina (J'aime jouer au football demain)",
-      "correct_answer": "wɔl",
-      "hint": "Le verbe d'action lié aux jeux et divertissements."
+      "sentence_with_blank": "[ ___ ] = « aller »",
+      "correct_answer": "kɔ",
+      "hint": "Ce mot appartient au vocabulaire de base attesté par les sources académiques (confiance : faible)."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Wiktionary — Word lists of Atlantic languages of Guinea (d'après Fields 2001)",
+      "url": "https://en.wiktionary.org/wiki/Appendix:Word_lists_of_Atlantic_languages_of_Guinea"
+    },
+    {
+      "label": "Joshua Project — Landoma in Guinea",
+      "url": "https://joshuaproject.net/people_groups/12979/gv"
+    },
+    {
+      "label": "Glottolog — Landoma [land1256]",
+      "url": "https://glottolog.org/resource/languoid/id/land1256"
+    },
+    {
+      "label": "Sumbatova & Vydrin (2021), Journal of Language Relationship 19-1/2, p.136-151",
+      "url": "https://www.jolr.ru/files/(303)jlr2021-19-1-2(136-151).pdf"
+    }
+  ],
+  "confidence": "faible",
+  "confidence_note": "Le vocabulaire cible de cette leçon provient exclusivement du corpus lexical attesté (ASJP/Wilson 2007/Rogers & Bryant 2012, Wiktionary/Fields 2001, Sumbatova & Vydrin 2021) ; confiance des mots utilisés : faible, moyenne. Aucune phrase complète, formule figée ou règle grammaticale spécifique à ce sujet précis n'a été trouvée dans les sources disponibles : le contenu reste donc au niveau du vocabulaire isolé et la confiance globale du fichier est abaissée à 'faible' par prudence, conformément à l'exigence de ne jamais présenter une extrapolation comme une donnée sûre. Les phrases de la section 'common_phrases' au-delà de la première ont été obtenues par recombinaison de mots individuellement attestés du vocabulaire de cette leçon (juxtapositions pédagogiques), et non par une source directe attestant la phrase entière : elles sont signalées comme telles dans leur champ 'context'."
 }

@@ -1,174 +1,188 @@
 {
   "lesson_id": "C1_M1_L3",
-  "level": "Avancé (C1-C2)",
+  "level": "Niveau Avancé (C1 - C2)",
   "module_number": 1,
   "module_title": "Nuances et complexité",
   "lesson_number": 3,
   "title": "Les connecteurs logiques pour structurer un discours élaboré",
   "learning_objectives": [
-    "Utiliser les connecteurs de cause, de conséquence et d'opposition complexes en Mani",
-    "Articuler un discours fluide pour lier plusieurs arguments logiques entre eux",
-    "Structurer une argumentation formelle en respectant la progression thématique"
+    "Utiliser le connecteur temporel 'boli' (depuis)",
+    "Comprendre le rôle des particules de focus 'yɔ/gɔ' comme organisateurs du discours",
+    "Reconnaître le marqueur relatif -wa/-ya pour enchâsser des propositions"
   ],
   "phonetic_focus": {
-    "key_sounds": "Le connecteur d'opposition 'koni' requiert une articulation brève de la voyelle fermée /i/. Le terme causal 'fɔkɔ-fɛ' demande d'enchaîner l'occlusive vélaire sourde /k/ et la fricative labiodentale sourde /f/ sans introduire de voyelle d'appui.",
-    "common_pitfalls": "Ne confondez pas la particule d'accompagnement simple 'ni' (et/avec) et la locution de conséquence complexe 'lɔ-fɔkɔ-fɛ' (c'est pourquoi)."
+    "key_sounds": "Le mani distingue 8 voyelles (i, e, ɛ, a, ɔ, o, u, ə) et des consonnes prénasalisées (mp, nt/nd, ŋk) ainsi qu'une labiovélaire /gb/ absentes du français. Le ton (registre haut/bas) est phonémique (Childs 2011, ch.2).",
+    "common_pitfalls": "Les francophones ont tendance à ne pas distinguer ɛ/e et ɔ/o, à simplifier les consonnes prénasalisées en de simples séquences nasale+consonne, et à ignorer les contrastes de ton, qui changent pourtant le sens ou la fonction grammaticale du mot (ex. hortatif vs perfectif marqués uniquement par le ton)."
   },
   "vocabulary": [
     {
-      "word_id": "v21_1",
-      "term": "koni",
-      "phonetic_api": "/ko.ni/",
-      "phonetic_simple": "KO-NI",
-      "translation": "cependant / mais / toutefois / néanmoins",
-      "example_sentence": "N haani tira, koni gbeŋu bɛ inde.",
-      "example_phonetic": "/n̩ haː.ni ti.ra ko.ni ɡbe.ŋu bɛ in.de/",
-      "example_translation": "Je veux voyager, cependant l'argent manque."
+      "word_id": "v1",
+      "term": "boli",
+      "phonetic_api": "/boli/",
+      "phonetic_simple": "BO-LI",
+      "translation": "depuis (connecteur temporel)"
     },
     {
-      "word_id": "v21_2",
-      "term": "fɔkɔ-fɛ",
-      "phonetic_api": "/fɔ.kɔ fɛ/",
-      "phonetic_simple": "FƆ-KƆ-FÈ",
-      "translation": "parce que / à cause de / puisque (origine logique)",
-      "example_sentence": "N bɛ tunkɛ lɔ, fɔkɔ-fɛ n denbaya bɛ ni yoma.",
-      "example_phonetic": "/n̩ bɛ tun.kɛ lɔ fɔ.kɔ fɛ n̩ den.ba.ja bɛ ni jo.ma/",
-      "example_translation": "Je suis dans la joie, parce que ma famille va bien."
+      "word_id": "v2",
+      "term": "yɔ",
+      "phonetic_api": "/jɔ/",
+      "phonetic_simple": "YO",
+      "translation": "particule de focus"
     },
     {
-      "word_id": "v21_3",
-      "term": "lɔ-fɔkɔ-fɛ",
-      "phonetic_api": "/lɔ fɔ.kɔ fɛ/",
-      "phonetic_simple": "LƆ-FƆ-KƆ-FÈ",
-      "translation": "c'est pourquoi / par conséquent / de ce fait",
-      "example_sentence": "Lan ce fɔkɔ, lɔ-fɔkɔ-fɛ n ce banxi lɔ su cɛm.",
-      "example_phonetic": "/lan tʃe fɔ.kɔ lɔ fɔ.kɔ fɛ n̩ tʃe ban.xi lɔ su tʃɛm/",
-      "example_translation": "La pluie va arriver, c'est pourquoi je vais rester dans la chambre."
+      "word_id": "v3",
+      "term": "gɔ",
+      "phonetic_api": "/gɔ/",
+      "phonetic_simple": "GO",
+      "translation": "particule de focus (variante)"
     },
     {
-      "word_id": "v21_4",
-      "term": "bɛŋ-ni",
-      "phonetic_api": "/bɛŋ ni/",
-      "phonetic_simple": "BÈNG-NI",
-      "translation": "de plus / en outre / par ailleurs",
-      "example_sentence": "A bɛ ni guba yoma, bɛŋ-ni a bɛ ni gbeŋu.",
-      "example_phonetic": "/a bɛ ni ɡu.ba jo.ma bɛŋ ni a bɛ ni ɡbe.ŋu/",
-      "example_translation": "Il a de beaux vêtements, de plus il a de l'argent."
+      "word_id": "v4",
+      "term": "-wa/-ya",
+      "phonetic_api": "/-wa/, /-ja/",
+      "phonetic_simple": "-OUA / -YA",
+      "translation": "marqueur relatif final de proposition"
     },
     {
-      "word_id": "v21_5",
-      "term": "fɛ-fɔkɔ",
-      "phonetic_api": "/fɛ fɔ.kɔ/",
-      "phonetic_simple": "FÈ-FƆ-KƆ",
-      "translation": "bien que / quoique / malgré le fait que",
-      "example_sentence": "Fɛ-fɔkɔ si bɛ lɔ, a bɛ wɔli ségé.",
-      "example_phonetic": "/fɛ fɔ.kɔ si bɛ lɔ a bɛ wɔ.li se.ɡe/",
-      "example_translation": "Bien que la nuit soit là, il travaille au marché."
+      "word_id": "v5",
+      "term": "bari",
+      "phonetic_api": "/bari/",
+      "phonetic_simple": "BA-RI",
+      "translation": "parce que, puisque (connecteur causal)",
+      "example_sentence": "bari wɔ hi kopɛr, wɔ mi mar",
+      "example_phonetic": "/bari wɔ hi kɔpɛr wɔ mi mar/",
+      "example_translation": "Puisqu'elle a de l'argent, elle m'aidera. (attesté Childs 2011, ex.365a)"
+    },
+    {
+      "word_id": "v6",
+      "term": "kine / kide",
+      "phonetic_api": "/kinɛ/, /kidɛ/",
+      "phonetic_simple": "KI-NÉ / KI-DÉ",
+      "translation": "mais (connecteur adversatif de coordination)"
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p21_1",
-      "original": "N haani wo-ce wɔli ségé, koni lan fɔkɔ-wo cece.",
-      "phonetic_api": "/n̩ haː.ni wo tʃe wɔ.li se.ɡe ko.ni lan fɔ.kɔ wo tʃe.tʃe/",
-      "phonetic_simple": "N HAA-NI WO-TCHÉ WƆ-LI SÉ-GÉ, KO-NI LAN FƆ-KƆ-WO TCHÉ-TCHÉ",
-      "translation": "J'aurais voulu travailler au marché, cependant la pluie est tombée abondamment.",
-      "context": "Expliquer un empêchement majeur lors d'un débat ou d'une discussion formelle."
+      "phrase_id": "p1",
+      "original": "boli gɔnɔ gɔ sɔyɔ, a sɔtmiŋ hati tatidɔl",
+      "phonetic_api": "/boli gɔnɔ go sɔjo, a sɔtmiŋ hati tatidɔl/",
+      "phonetic_simple": "BO-LI GO-NO GO SO-YO, A SOT-MING HA-TI TA-TI-DOL",
+      "translation": "Depuis ce matin, je n'ai eu encore rien à manger.",
+      "context": "Exemple authentique (Childs 2011, ex.144) illustrant le connecteur temporel 'boli' au début d'un discours élaboré."
     },
     {
-      "phrase_id": "p21_2",
-      "original": "Mora-gbun kperɛ-wo mi tɔgɔ, lɔ-fɔkɔ-fɛ n bɛ ni yoma-ra.",
-      "phonetic_api": "/mo.ra ɡbun kpe.rɛ wo mi tɔ.ɡɔ lɔ fɔ.kɔ fɛ n̩ bɛ ni jo.ma ra/",
-      "phonetic_simple": "MO-RA-GBOUN KPE-RÈ-WO MI TO-GO, LƆ-FƆ-KƆ-FÈ N BÈ NI YO-MA-RA",
-      "translation": "L'ancien m'a transmis ses conseils, c'est pourquoi j'ai une totale certitude.",
-      "context": "Justifier sa prise de décision en s'appuyant sur l'autorité d'un sage."
+      "phrase_id": "p2",
+      "original": "bari wɔ hi kopɛr, wɔ mi mar",
+      "phonetic_api": "/bari wɔ hi kɔpɛr wɔ mi mar/",
+      "phonetic_simple": "BA-RI WO HI KO-PÈR, WO MI MAR",
+      "translation": "Puisqu'elle a de l'argent, elle m'aidera.",
+      "context": "Connecteur causal attesté 'bari' structurant un discours en cause-conséquence (Childs 2011, ex.365a)."
     },
     {
-      "phrase_id": "p21_3",
-      "original": "A bɛ kunu fɔkɔ-fɛ a bɔŋ bɛ mɛnni woŋ kpere cɛm.",
-      "phonetic_api": "/a bɛ ku.nu fɔ.kɔ fɛ a bɔŋ bɛ mɛn.ni woŋ kpe.re tʃɛm/",
-      "phonetic_simple": "A BÈ KOU-NOU FƆ-KƆ-FÈ A BONG BÈ MÈN-NI WONG KPE-RE TCHÈM",
-      "translation": "Elle s'inquiète parce que son enfant se trouve là-bas au cœur de la grande ville.",
-      "context": "Analyser et expliciter la cause psychologique d'un tiers."
+      "phrase_id": "p3",
+      "original": "n pant ugbɔs ce ubagk lan kɔ ikog iwace bɔlɔ n tɔl",
+      "phonetic_api": "/n pant ugbɔs tʃɛ ubagk lan kɔ ikɔg iwatʃɛ bɔlɔ n tɔl/",
+      "phonetic_simple": "N PANT OU-GBOS TCHÉ OU-BAGK LAN KO I-KOG I-WA-TCHÉ BO-LO N TOL",
+      "translation": "Tu attaches la calebasse à la corde jusqu'aux palmes, puis tu descends.",
+      "context": "Discours technique élaboré, coordonné par 'bɔlɔ' (et, puis), enchaînant plusieurs actions séquentielles (Childs 2011, ex.367a)."
     },
     {
-      "phrase_id": "p21_4",
-      "original": "Fɛ-fɔkɔ gbeŋu sɔm-wo, denbaya bɛ tunkɛ gbun cɛm.",
-      "phonetic_api": "/fɛ fɔ.kɔ ɡbe.ŋu sɔm wo den.ba.ja bɛ tun.kɛ ɡbun tʃɛm/",
-      "phonetic_simple": "FÈ-FƆ-KƆ GBÉ-NGOU SƆM-WO, DEN-BA-YA BÈ TOUN-KÈ GBOUN TCHÈM",
-      "translation": "Bien que l'argent ait manqué, la famille est au milieu d'une immense joie.",
-      "context": "Mettre en valeur une force morale face à des contraintes matérielles."
+      "phrase_id": "p4",
+      "original": "lɔŋ n hi mani nce yenkeleŋ, yane nyue",
+      "phonetic_api": "/lɔŋ n hi mani ntʃɛ jɛnkɛlɛŋ jane ɲuɛ/",
+      "phonetic_simple": "LƆŊ N HI MANI NCE YENKELEŊ, YANE NYUE",
+      "translation": "Quand tu parleras bien le mani, je serai content.",
+      "context": "Structure temporelle/conditionnelle attestée reliant deux propositions par une conséquence logique (Childs 2011, ex.149a)."
     }
   ],
   "grammar_points": [
     {
-      "concept": "La subordination logique et les locutions adverbiales composées",
-      "explanation": "En Mani avancé, la structuration logique utilise des morphèmes d'origine spatio-temporelle comme 'fɔkɔ' (venir) et 'fɛ' (vers/sur/avec) pour conceptualiser le lien de causalité. 'Fɔkɔ-fɛ' indique l'origine ou la provenance d'une idée, matérialisant ainsi la cause.",
+      "concept": "Focus, relatives et connecteurs temporels dans le discours élaboré",
+      "explanation": "Le focus est marqué par les particules yɔ/gɔ ou par le nasal emphatique n-/-n, souvent accompagné d'une pause. Les relatives se terminent par un marqueur relatif -wa/-ya placé à la fin de la proposition relative.",
       "rules": [
-        "Expression de la cause : Proposition principale + fɔkɔ-fɛ + Proposition subordonnée.",
-        "Expression de la conséquence : Proposition de cause + lɔ-fɔkɔ-fɛ + Proposition de résultat."
+        "'boli' + expression temporelle introduit une proposition d'arrière-plan ('depuis...').",
+        "Les particules de focus 'yɔ/gɔ' mettent en relief un constituant, structurant l'attention de l'auditeur.",
+        "Le marqueur relatif -wa/-ya clôt les propositions relatives, permettant d'enchâsser une information supplémentaire dans un discours plus complexe."
       ],
       "examples": [
         {
-          "structure": "N bɛ lɔ fɔkɔ-fɛ wun fɔkɔ",
-          "phonetic_api": "/n̩ bɛ lɔ fɔ.kɔ fɛ wun fɔ.kɔ/",
-          "meaning": "Je reste ici parce que tu es venu"
+          "structure": "boli + [temps], [proposition]",
+          "phonetic_api": "/boli .../",
+          "meaning": "depuis [temps], [proposition]"
+        },
+        {
+          "structure": "[proposition] + wa/ya",
+          "phonetic_api": "/... wa/, /... ja/",
+          "meaning": "marque la fin d'une relative"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Ousmane",
-      "text": "Mboi Abou. Wun wo-ce fɔkɔ sègé hɔnkɔ-fɔkɔ, koni wun wo banxi lɔ. Nɛ na ?",
-      "phonetic_api": "/mboi a.bu wun wo tʃe fɔ.kɔ se.ɡe hɔn.kɔ fɔ.kɔ ko.ni wun wo ban.xi lɔ nɛ na/",
-      "phonetic_simple": "MBOÏ A-BOU. WOUN WO-TCHÉ FƆ-KƆ SÉ-GÉ HON-KƆ-FƆ-KƆ, KO-NI WOUN WO BAN-KHI LƆ. NÈ NA ?",
-      "translation": "Bonjour Abou. Tu aurais dû venir au marché tôt ce matin, cependant tu es resté à la maison. Pourquoi ?"
+      "speaker": "Conteur",
+      "text": "boli gɔnɔ gɔ sɔyɔ, a sɔtmiŋ hati tatidɔl.",
+      "phonetic_api": "/boli gɔnɔ go sɔjo, a sɔtmiŋ hati tatidɔl/",
+      "phonetic_simple": "BO-LI GO-NO GO SO-YO, A SOT-MING HA-TI TA-TI-DOL",
+      "translation": "Depuis ce matin, je n'ai eu encore rien à manger."
     },
     {
-      "speaker": "Abou",
-      "text": "Mboi Ousmane. N wo banxi lɔ fɔkɔ-fɛ n tɔgɔfɛ bɛ ni wɔli kankaran cɛm. Bɛŋ-ni n wulɛ bɛ kunu wo.",
-      "phonetic_api": "/mboi a.li.sa.ni n̩ wo ban.xi lɔ fɔ.kɔ fɛ n̩ tɔ.ɡɔ.fɛ bɛ ni wɔ.li kan.ka.ran tʃɛm bɛŋ ni n̩ wu.lɛ bɛ ku.nu wo/",
-      "phonetic_simple": "MBOÏ OU-SA-MA-NI. N WO BAN-KHI LƆ FƆ-KƆ-FÈ N TO-GO-FÈ BÈ NI WƆ-LI KAN-KA-RAN TCHÈM. BÈNG-NI N WOU-LÈ BÈ KOU-NOU WO.",
-      "translation": "Bonjour Ousmane. Je suis resté à la maison parce que mon maître avait du travail à l'intérieur de la cour. En outre, ma mère ne se sentait pas bien (était inquiète)."
+      "speaker": "Auditeur",
+      "text": "nyɔyɛ mo hi yo kekeco?",
+      "phonetic_api": "/ɲɔjɛ mo hi jo kɛkɛtʃo/",
+      "phonetic_simple": "NYO-YÈ MO HI YO KÉ-KÉ-TCHO",
+      "translation": "Que vas-tu manger maintenant ? (structure reconstruite avec l'interrogatif attesté 'nyɔyɛ')"
     },
     {
-      "speaker": "Ousmane",
-      "text": "Fɛ-fɔkɔ wun tɔgɔfɛ gbun na, a haani-wo kperɛ wun gbeŋu sègé fɛ ?",
-      "phonetic_api": "/fɛ fɔ.kɔ wun tɔ.ɡɔ.fɛ ɡbun na a haː.ni wo kpe.rɛ wun ɡbe.ŋu se.ɡe fɛ/",
-      "phonetic_simple": "FÈ-FƆ-KƆ WOUN TO-GO-FÈ GBOUN NA, A HAA-NI-WO KPE-RÈ WOUN GBÉ-NGOU SÉ-GÉ FÈ ?",
-      "translation": "Bien que ton maître soit un grand homme, avait-il eu l'intention de te donner de l'argent pour le marché ?"
+      "speaker": "Conteur 2",
+      "text": "go por ce him-yo-i, ntabi la, u dɛ ce kofɔ.",
+      "phonetic_api": "/go por tʃɛ himjoi ntabi la u dɛ tʃɛ kɔfɔ/",
+      "phonetic_simple": "GO POR TCHÉ HIM-YO-I, N-TA-BI LA, OU DÉ TCHÉ KO-FO",
+      "translation": "Qu'il ait plu, par conséquent, l'herbe va pousser. (attesté, Childs 2011, ex.365b, connecteur logique de conséquence 'ntabi')"
     },
     {
-      "speaker": "Abou",
-      "text": "Oon, koni wɔli gbun-wo. Lɔ-fɔkɔ-fɛ n ce tira woŋ gbun lɔ woni hɔnkɔ-fɔkɔ-ce. Cece !",
-      "phonetic_api": "/oːn ko.ni wɔ.li ɡbun wo lɔ fɔ.kɔ fɛ n̩ tʃe ti.ra woŋ ɡbun lɔ wo.ni hɔn.kɔ fɔ.kɔ tʃe tʃe.tʃe/",
-      "phonetic_simple": "OON, KO-NI WƆ-LI GBOUN-WO. LƆ-FƆ-KƆ-FÈ N TCHÉ TI-RA WONG GBOUN LƆ WO-NI HON-KƆ-FƆ-KƆ-TCHÉ. TCHÉ-TCHÉ !",
-      "translation": "Oui, mais le travail a été colossal. Par conséquent, je vais voyager vers la grande ville dès la toute première aube de demain. Merci !"
+      "speaker": "Étudiant 2",
+      "text": "lɔŋ n hi mani nce yenkeleŋ, yane nyue",
+      "phonetic_api": "/lɔŋ n hi mani ntʃɛ jɛnkɛlɛŋ jane ɲuɛ/",
+      "phonetic_simple": "LƆŊ N HI MANI NCE YENKELEŊ, YANE NYUE",
+      "translation": "Quand tu parleras bien le mani, je serai content."
     }
   ],
   "cultural_notes": [
-    "La rhétorique Mani valorise grandement l'équilibre argumentatif. Lors des assemblées de notables, l'orateur utilise des connecteurs d'opposition ('koni') et de concession ('fɛ-fɔkɔ') pour démontrer qu'il a pesé chaque aspect d'une situation. Structurer ainsi son discours permet d'éviter l'affrontement verbal direct tout en introduisant des nuances logiques d'une grande finesse."
+    "Le texte funéraire glosé par Childs (2011) est le principal exemple disponible de discours mani élaboré et enchaîné, avec plusieurs connecteurs et relatives imbriquées, ce qui en fait une ressource précieuse mais limitée pour ce niveau avancé.",
+    "La rareté de textes longs authentiques en mani constitue une limite majeure pour documenter pleinement la structuration du discours à ce niveau de complexité."
   ],
   "exercises": [
     {
-      "exercise_id": "ex21_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel connecteur logique Mani utilise-t-on pour introduire une conséquence directe (traduisant 'c'est pourquoi') ?",
+      "question": "Quel connecteur mani signifie « depuis » ?",
       "options": [
-        "fɔkɔ-fɛ",
-        "lɔ-fɔkɔ-fɛ",
-        "koni"
+        "boli",
+        "hali",
+        "gɔ"
       ],
-      "correct_answer": "lɔ-fɔkɔ-fɛ",
-      "explanation": "'Lɔ-fɔkɔ-fɛ' lie un fait précédent à sa conséquence logique directe."
+      "correct_answer": "boli",
+      "explanation": "'boli' introduit une expression temporelle de départ, Childs (2011, ex.144)."
     },
     {
-      "exercise_id": "ex21_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "N haani wo-ce tira, [ ___ ] gbeŋu bɛ inde. (Je voulais voyager, cependant l'argent manquait).",
-      "correct_answer": "koni",
-      "hint": "Le connecteur d'opposition restrictif qui commence par un 'k'."
+      "sentence_with_blank": "[ ___ ] gɔnɔ gɔ sɔyɔ, a sɔtmiŋ hati tatidɔl. (Depuis ce matin, je n'ai rien eu.)",
+      "correct_answer": "boli",
+      "hint": "Connecteur temporel attesté signifiant 'depuis'."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Childs, G. Tucker (2011), A Grammar of Mani, Mouton Grammar Library 54, De Gruyter Mouton",
+      "url": "https://theswissbay.ch/pdf/Books/Linguistics/Mega%20linguistics%20pack/African/Niger-Congo/other%20Atlantic-Congo/Bullom%20So;%20A%20Grammar%20of%20Mani%20(Childs).pdf"
+    },
+    {
+      "label": "Glottolog 5.3 — Bullom So (bull1247)",
+      "url": "https://glottolog.org/resource/languoid/id/bull1247"
+    }
+  ],
+  "confidence": "faible",
+  "confidence_note": "Le connecteur 'boli' et les particules de focus/relatif sont attestés séparément dans la grammaire de Childs (2011), mais un seul texte long authentique (le chant funéraire) illustre leur usage combiné ; les autres phrases de cette leçon sont des reconstructions non citées directement."
 }

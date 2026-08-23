@@ -6,218 +6,256 @@
   "lesson_number": 2,
   "title": "Les loisirs, les passions et les activités sportives",
   "learning_objectives": [
-    "Parler de ses passe-temps, de ses passions et de ses activités de détente",
-    "Nommer et décrire les pratiques sportives et les jeux de société traditionnels",
-    "Utiliser le marqueur aspectuel de l'habitude et de l'action répétée"
+    "Nommer des activités de loisir (jouer, chanter, danser)",
+    "Exprimer une préférence ou une passion avec 'ka kanun' (aimer)",
+    "Utiliser le verbe 'ka tolon' (jouer/s'amuser)",
+    "Décrire une activité en cours avec le présent progressif"
   ],
   "phonetic_focus": {
-    "key_sounds": "Le lexique des loisirs introduit l'affriquée palatale sourde /t͡ʃ/ (notée 'c' ou 'ty') dans 'cɛbɛ' ou 'tyɛbɛ' (le jeu de dames) et la fricative palatale voisée /ʒ/ dans 'gasi' / 'jasi'. Le verbe courir 'Bori' /bo.ri/ s'appuie sur un /r/ très doux, tandis que le mot pour le jeu 'Tulon' /tu.lon/ utilise des voyelles brèves.",
-    "common_pitfalls": "Veillez à ne pas prononcer le 'o' de 'tulon' de manière nasale. Le 'n' final doit être distinct et articulé au niveau alvéolaire."
+    "key_sounds": [
+      "Le [l] de 'tolon' (jouer), bien roulé",
+      "Distinction entre 'donkili la' (chanter) et 'don' (danser/entrer selon contexte)",
+      "La tonalité de 'kanun' (aimer), à ne pas confondre avec d'autres verbes courts"
+    ],
+    "common_pitfalls": [
+      "Confondre 'don' (danser) et 'don' (entrer) : le sens dépend entièrement du contexte, car la forme est identique",
+      "Oublier le marqueur progressif 'ye ... la' pour dire qu'on est en train de faire une activité"
+    ]
   },
   "vocabulary": [
     {
-      "word_id": "v11_1",
-      "term": "Tulon",
-      "phonetic_api": "/tu.lon/",
-      "phonetic_simple": "TOU-LONE",
-      "translation": "Jeu / Amusement / Distraction",
-      "example_sentence": "Tulon ka di n yɛ.",
-      "example_phonetic": "/tu.lon ka di ɲ jɛ/",
-      "example_translation": "J'aime jouer / me divertir."
+      "word_id": "v1",
+      "term": "ka tolon",
+      "phonetic_api": "[ka tolon]",
+      "phonetic_simple": "ka-to-lon",
+      "translation": "jouer, s'amuser",
+      "example_sentence": "Dennu ye tolonna.",
+      "example_phonetic": "[dɛnnu je tolonna]",
+      "example_translation": "Les enfants jouent."
     },
     {
-      "word_id": "v11_2",
-      "term": "Boli / Bori",
-      "phonetic_api": "/bo.ri/",
-      "phonetic_simple": "BO-RI",
-      "translation": "Courir / Course / Conduire",
-      "example_sentence": "A be bori la sisan.",
-      "example_phonetic": "/a be bo.ri la si.san/",
-      "example_translation": "Il est en train de courir actuellement."
+      "word_id": "v2",
+      "term": "ka donkili la",
+      "phonetic_api": "[ka donkili la]",
+      "phonetic_simple": "ka-don-ki-li-la",
+      "translation": "chanter",
+      "example_sentence": "A ye donkilila.",
+      "example_phonetic": "[a je donkilila]",
+      "example_translation": "Il chante."
     },
     {
-      "word_id": "v11_3",
-      "term": "Toli / Tori",
-      "phonetic_api": "/to.ri/",
-      "phonetic_simple": "TO-RI",
-      "translation": "Le football / Le ballon",
-      "example_sentence": "Kalanden lu be tori tan na.",
-      "example_phonetic": "/ka.lan.den lu be to.ri tan na/",
-      "example_translation": "Les étudiants jouent au football."
+      "word_id": "v3",
+      "term": "ka don",
+      "phonetic_api": "[ka don]",
+      "phonetic_simple": "ka-don",
+      "translation": "danser",
+      "example_sentence": "A wato ye donkili lala.",
+      "example_phonetic": "[a wato je donkili lala]",
+      "example_translation": "Il chante en marchant/dansant."
     },
     {
-      "word_id": "v11_4",
-      "term": "Dɔnkili",
-      "phonetic_api": "/dɔn.ki.li/",
-      "phonetic_simple": "DƆN-KI-LI",
-      "translation": "Chanson / Chant (litt: appel de la danse)",
-      "example_sentence": "A be dɔnkili la.",
-      "example_phonetic": "/a be dɔn.ki.li la/",
-      "example_translation": "Elle est en train de chanter."
+      "word_id": "v4",
+      "term": "ka kanun",
+      "phonetic_api": "[ka kanun]",
+      "phonetic_simple": "ka-ka-noun",
+      "translation": "aimer",
+      "example_sentence": "N ye tolon kanunna.",
+      "example_phonetic": "[n je tolon kanunna]",
+      "example_translation": "J'aime jouer."
     },
     {
-      "word_id": "v11_5",
-      "term": "Dɔn",
-      "phonetic_api": "/dɔn/",
-      "phonetic_simple": "DƆNE",
-      "translation": "Danse / Danser",
-      "example_sentence": "Dɔn kɛra suu kɔnɔ.",
-      "example_phonetic": "/dɔn kɛ.ra suː kɔ.nɔ/",
-      "example_translation": "La danse a eu lieu dans la cour."
+      "word_id": "v5",
+      "term": "ka taama",
+      "phonetic_api": "[ka taːma]",
+      "phonetic_simple": "ka-ta-a-ma",
+      "translation": "marcher",
+      "example_sentence": "A ye taamala kosobè.",
+      "example_phonetic": "[a je taːmala kosobɛ]",
+      "example_translation": "Il marche beaucoup."
     },
     {
-      "word_id": "v11_6",
-      "term": "Cɛbɛ / Tyɛbɛ",
-      "phonetic_api": "/t͡ʃɛ.bɛ/",
-      "phonetic_simple": "TCHƐ-BƐ",
-      "translation": "Le jeu de dames / Jeu de stratégie",
-      "example_sentence": "N kɔrɔke be cɛbɛ lɔn.",
-      "example_phonetic": "/ɲ kɔ.rɔ.ke be t͡ʃɛ.bɛ lɔn/",
-      "example_translation": "Mon frère aîné sait jouer aux dames."
+      "word_id": "v6",
+      "term": "ka bori",
+      "phonetic_api": "[ka bori]",
+      "phonetic_simple": "ka-bo-ri",
+      "translation": "courir, fuir",
+      "example_sentence": "Den ye borila.",
+      "example_phonetic": "[dɛn je borila]",
+      "example_translation": "L'enfant court."
     },
     {
-      "word_id": "v11_7",
-      "term": "Lafia",
-      "phonetic_api": "/la.fi.a/",
-      "phonetic_simple": "LA-FI-A",
-      "translation": "Se reposer / Repos / Paix",
-      "example_sentence": "N b'a fɛ ka lafia sisan.",
-      "example_phonetic": "/ɲ b'a fɛ ka la.fi.a si.san/",
-      "example_translation": "Je veux me reposer maintenant."
+      "word_id": "v7",
+      "term": "jinbe",
+      "phonetic_api": "[dʒinbe]",
+      "phonetic_simple": "djin-bé",
+      "translation": "tam-tam",
+      "example_sentence": "Ka jinbefô.",
+      "example_phonetic": "[ka dʒinbefo]",
+      "example_translation": "Battre le tam-tam."
     },
     {
-      "word_id": "v11_8",
-      "term": "Kalan",
-      "phonetic_api": "/ka.lan/",
-      "phonetic_simple": "KA-LANE",
-      "translation": "Lire / Étudier (considéré comme un loisir intellectuel)",
-      "example_sentence": "Kalan ka di a yɛ.",
-      "example_phonetic": "/ka.lan ka di a jɛ/",
-      "example_translation": "Il aime lire / étudier."
+      "word_id": "v8",
+      "term": "jinbefôla",
+      "phonetic_api": "[dʒinbefola]",
+      "phonetic_simple": "djin-bé-fo-la",
+      "translation": "joueur de tam-tam",
+      "example_sentence": "A ye jinbefôla le.",
+      "example_phonetic": "[a je dʒinbefola le]",
+      "example_translation": "C'est un joueur de tam-tam."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p11_1",
-      "original": "Mun mu i tulonyɔrɔ di?",
-      "phonetic_api": "/mun mu i tu.lon.jɔ.rɔ di/",
-      "phonetic_simple": "MOUN MOU I TOU-LONE-YƆ-RƆ DI ?",
-      "translation": "Quel est ton passe-temps ? / Quelle est ta distraction ?",
-      "context": "Question usuelle au niveau intermédiaire pour s'informer des passions d'autrui."
+      "phrase_id": "p1",
+      "original": "N ye tolon kanunna",
+      "phonetic_api": "[n je tolon kanunna]",
+      "phonetic_simple": "n-yé-to-lon-ka-noun-na",
+      "translation": "J'aime jouer",
+      "context": "Exprimer une passion pour le jeu/le sport"
     },
     {
-      "phrase_id": "p11_2",
-      "original": "Tori tanna ka di n yɛ kosɛbɛ.",
-      "phonetic_api": "/to.ri tan.na ka di ɲ jɛ ko.sɛ.bɛ/",
-      "phonetic_simple": "TO-RI TANE-NA KA DI N YƐ KO-SƐ-BƐ.",
-      "translation": "J'aime énormément jouer au football.",
-      "context": "Exprimer sa passion pour le sport le plus populaire."
+      "phrase_id": "p2",
+      "original": "A ye donkilila",
+      "phonetic_api": "[a je donkilila]",
+      "phonetic_simple": "a-yé-don-ki-li-la",
+      "translation": "Il/elle chante",
+      "context": "Présent progressif d'une activité de loisir"
     },
     {
-      "phrase_id": "p11_3",
-      "original": "An ka wa tulon kɛ suu kɔnɔ.",
-      "phonetic_api": "/an ka wa tu.lon kɛ suː kɔ.nɔ/",
-      "phonetic_simple": "ANE KA WA TOU-LONE KƐ SUU KƆ-NƆ.",
-      "translation": "Allons nous amuser / jouer dans la cour.",
-      "context": "Invitation amicale lancée à des pairs pour partager un moment de détente."
+      "phrase_id": "p3",
+      "original": "A wato ye donkili lala",
+      "phonetic_api": "[a wato je donkili lala]",
+      "phonetic_simple": "a-wa-to-yé-don-ki-li-la-la",
+      "translation": "Il chante en marchant",
+      "context": "Participe présent combiné à une seconde action"
     },
     {
-      "phrase_id": "p11_4",
-      "original": "N baa be dɔnkili mɛn na gwada la.",
-      "phonetic_api": "/ɲ baː be dɔn.ki.li mɛn na ɡ͡wa.da la/",
-      "phonetic_simple": "N BAA BÉ DƆN-KI-LI MƐNE NA GWA-DA LA.",
-      "translation": "Ma mère écoute une chanson dans la cuisine.",
-      "context": "Description d'une activité de détente domestique quotidienne."
+      "phrase_id": "p4",
+      "original": "Alu ye alu doja",
+      "phonetic_api": "[alu je alu dodʒa]",
+      "phonetic_simple": "a-lou-yé-a-lou-do-dja",
+      "translation": "Faites des efforts",
+      "context": "Encouragement dans une activité physique ou scolaire"
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'expression de l'action en cours (Présent progressif) avec 'be ... la / na'",
-      "explanation": "Pour indiquer qu'un sujet est activement en train de pratiquer un loisir ou un sport, le Sankaran utilise la marque verbale 'be' suivie du nom de l'activité, et se clôture par la postposition de situation 'la' (ou 'na' après une nasale).",
+      "concept": "Le présent progressif 'ye ... la' pour les loisirs",
+      "explanation": "Pour dire qu'une activité de loisir est en train de se dérouler, on utilise la structure du présent progressif déjà connue : Sujet + ye + [verbe-nom] + la.",
       "rules": [
-        "Structure : Sujet + be + Nom de l'activité + la / na"
+        "Structure : [Sujet] + ye + [verbe] + la",
+        "Le verbe intransitif garde sa forme de nom : 'tolon' (jeu) devient 'tolonna' avec 'la'"
       ],
       "examples": [
         {
-          "structure": "A be dɔn na.",
-          "phonetic_api": "/a be dɔn na/",
-          "meaning": "Il/Elle est en train de danser."
-        },
-        {
-          "structure": "An be cɛbɛ la.",
-          "phonetic_api": "/an be t͡ʃɛ.bɛ la/",
-          "meaning": "Nous sommes en train de jouer aux dames."
+          "structure": "[Sujet] ye [verbe] la",
+          "phonetic_api": "[je la]",
+          "meaning": "[Sujet] est en train de [verbe]"
         }
       ]
     },
     {
-      "concept": "L'expression des goûts avec 'ka di [Pronom] yɛ'",
-      "explanation": "Pour exprimer qu'une activité plaît ou constitue une passion, on utilise la structure 'ka di' (être bon / agréable) suivie du pronom personnel introduit par la postposition de destination 'yɛ' (à / pour).",
+      "concept": "Combiner deux actions avec le participe présent '-to'",
+      "explanation": "Pour exprimer deux actions simultanées (ex. chanter en marchant), on utilise le participe présent en '-to' sur le premier verbe, suivi du second verbe conjugué normalement.",
       "rules": [
-        "Structure : [Activité / Verbe substantivé] + ka di + Pronom + yɛ"
+        "Structure : [Sujet] + [verbe1]-to, [sujet] + ye + [verbe2] + la",
+        "'A wato' (lui, en allant/marchant) + 'ye donkili lala' (chante)"
       ],
       "examples": [
         {
-          "structure": "Bori ka di n yɛ.",
-          "phonetic_api": "/bo.ri ka di ɲ jɛ/",
-          "meaning": "J'aime courir (La course est bonne pour moi)."
+          "structure": "[Sujet] [verbe1]-to, ye [verbe2] la",
+          "phonetic_api": "[to]",
+          "meaning": "en [verbe1]-ant, [sujet] fait [verbe2]"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Moussa",
-      "text": "Lamine, i ni wura ! Mun mu i tulonyɔrɔ di biiki wura la?",
-      "phonetic_api": "/la.min i ni wu.ra | mun mu i tu.lon.jɔ.rɔ di biː.ki wu.ra la/",
-      "phonetic_simple": "LA-MINE, I NI MOU-RA ! MOUN MOU I TOU-LONE-YƆ-RƆ DI BII-KI WOU-RA LA ?",
-      "translation": "Lamine, bonsoir ! Quel est ton passe-temps le vendredi après-midi ?"
+      "speaker": "Fatou",
+      "text": "Mun nye i diyala kosobè ?",
+      "phonetic_api": "[mun ɲe i dijala kosobɛ]",
+      "phonetic_simple": "moun-nyé-i-di-ya-la-ko-so-bè",
+      "translation": "Qu'est-ce qui te plaît beaucoup ?"
     },
     {
-      "speaker": "Lamine",
-      "text": "Nse, Moussa. Tori tanna ka di n yɛ kosɛbɛ. An be wa tori tan na sisan dugudan la.",
-      "phonetic_api": "/ɲ.se mus.sa | to.ri tan.na ka di ɲ jɛ ko.sɛ.bɛ | an be wa to.ri tan na si.san du.ɣu.dan la/",
-      "phonetic_simple": "NSE, MOUS-SA. TO-RI TANE-NA KA DI N YƐ KO-SƐ-BƐ. ANE BÉ WA TO-RI TANE NA SI-SANE DOU-GOU-DANE LA.",
-      "translation": "Bonsoir Moussa. J'aime énormément jouer au football. Nous allons jouer au ballon maintenant à la périphérie de la ville."
+      "speaker": "Sékou",
+      "text": "N ye tolon kanunna, ani donkili la.",
+      "phonetic_api": "[n je tolon kanunna ani donkili la]",
+      "phonetic_simple": "n-yé-to-lon-ka-noun-na, a-ni-don-ki-li-la",
+      "translation": "J'aime jouer, et chanter."
     },
     {
-      "speaker": "Moussa",
-      "text": "I kɔrɔke fana be wa i kɔ fɛ bang?",
-      "phonetic_api": "/i kɔ.rɔ.ke fa.na be wa i kɔ fɛ baŋ/",
-      "phonetic_simple": "I KƆ-RƆ-KÉ FA-NA BÉ WA I KƆ FƐ BANGE ?",
-      "translation": "Ton grand frère vient-il aussi avec toi ?"
+      "speaker": "Fatou",
+      "text": "A wato ye donkili lala ?",
+      "phonetic_api": "[a wato je donkili lala]",
+      "phonetic_simple": "a-wa-to-yé-don-ki-li-la-la",
+      "translation": "Il chante en marchant ?"
     },
     {
-      "speaker": "Lamine",
-      "text": "Awo n ma, a mu cɛbɛ le lɔn. A be so kɔnɔ, a be cɛbɛ la ni an faa di.",
-      "phonetic_api": "/a.wo ɲ ma a mu t͡ʃɛ.bɛ le lɔn | a be so kɔ.nɔ a be t͡ʃɛ.bɛ la ni an faː di/",
-      "phonetic_simple": "A-WO N MA, A MOU TCHƐ-BƐ LÉ LƆNE. A BÉ SO KƆ-NƆ, A BÉ TCHƐ-BƐ LA NI ANE FAA DI.",
-      "translation": "Ah non, lui son truc c'est le jeu de dames. Il est à la maison, il joue aux dames avec notre père."
+      "speaker": "Sékou",
+      "text": "Awa, ale ye jinbefôla le.",
+      "phonetic_api": "[awa ale je dʒinbefola le]",
+      "phonetic_simple": "a-wa, a-lé-yé-djin-bé-fo-la-lé",
+      "translation": "Oui, lui, c'est un joueur de tam-tam."
     }
   ],
   "cultural_notes": [
-    "En Guinée et particulièrement dans la région du Sankaran, le football ('tori') rassemble la jeunesse chaque fin d'après-midi sur les terrains communaux. C'est un vecteur majeur de cohésion sociale inter-quartiers.",
-    "Le jeu de dames ('cɛbɛ' ou 'tyɛbɛ') est un loisir très prisé des hommes mûrs et des aînés. Les parties se déroulent généralement à l'ombre d'un manguier ou dans la cour de la concession, attirant autour des joueurs de nombreux spectateurs qui commentent chaque coup de manière passionnée."
+    "La musique traditionnelle (tam-tam 'jinbe', chant, danse) occupe une place centrale dans les loisirs collectifs en Haute-Guinée, souvent liée aux griots ('jeli') et aux cérémonies ([Malinkuia](https://fr.scribd.com/document/499114939/Malinkuia)).",
+    "Le football moderne se dit souvent par emprunt direct au français dans la conversation courante, le lexique sportif traditionnel étant plus centré sur la lutte, la course et la danse.",
+    "Note dialectale (Sankaran) : cette leçon présente le maninka du Sankaran, parlé traditionnellement dans la région historique du Sankaran, aujourd'hui la préfecture et région de Faranah (Haute-Guinée), berceau historique du clan Condé et zone antérieure au Mandén selon la tradition orale. Le sankaran (ISO 639-3 msc) est très proche du malinké/maninka standard de Kankan, avec lequel il est mutuellement intelligible ; les mots et structures de cette leçon reflètent ce fonds commun du maninka de l'Est, complété par les spécificités phonologiques et grammaticales du parler de Faranah documentées par Spears (voir sources)."
   ],
   "exercises": [
     {
-      "exercise_id": "ex11_1",
-      "type": "multiple_choice",
-      "question": "Traduisez fidèlement en français la phrase suivante : 'A be dɔnkili la.'",
-      "options": [
-        "Il va au grand marché.",
-        "Elle est en train de chanter.",
-        "Il joue aux dames."
-      ],
-      "correct_answer": "Elle est en train de chanter.",
-      "explanation": "'Dɔnkili' signifie la chanson, et la structure 'be ... la' indique l'action en cours de réalisation."
+      "exercise_id": "e1",
+      "type": "traduction",
+      "question": "Traduisez : 'J'aime jouer.'",
+      "correct_answer": "N ye tolon kanunna.",
+      "explanation": "'kanun' (aimer) + présent progressif 'la'."
     },
     {
-      "exercise_id": "ex11_2",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Pour dire qu'un jeu plaît à quelqu'un, on utilise la forme : Tulon ka [ ___ ] n yɛ.",
-      "correct_answer": "di",
-      "hint": "C'est le mot court signifiant 'bon', 'agréable' ou 'doux' qui commence par la lettre d."
+      "exercise_id": "e2",
+      "type": "choix_multiple",
+      "question": "Quel est le sens de 'jinbefôla' ?",
+      "options": [
+        "danseur",
+        "chanteur",
+        "joueur de tam-tam",
+        "coureur"
+      ],
+      "correct_answer": "joueur de tam-tam",
+      "explanation": "'jinbe' (tam-tam) + 'fô' (jouer d'un instrument) + '-la' (agent) = joueur de tam-tam."
+    },
+    {
+      "exercise_id": "e3",
+      "type": "texte_a_trous",
+      "sentence_with_blank": "Dennu ye ___ na.  (Les enfants jouent.)",
+      "correct_answer": "tolon",
+      "hint": "C'est le verbe-nom qui signifie 'jouer/s'amuser'."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Ethnologue — Maninka, Sankaran [msc]",
+      "url": "https://www.ethnologue.com/language/msc/"
+    },
+    {
+      "label": "Glottolog 5.3 — Sankaran Maninka [sank1253]",
+      "url": "https://glottolog.org/resource/languoid/id/sank1253"
+    },
+    {
+      "label": "Wikipédia — Sankaran (langue, msc)",
+      "url": "https://fr.wikipedia.org/wiki/Sankaran"
+    },
+    {
+      "label": "Spears, R. A. — The Structure of Faranah-Maninka (Indiana University, description structurale du parler de Faranah, historiquement le Sankaran)",
+      "url": "https://theswissbay.ch/pdf/Books/Linguistics/Mega%20linguistics%20pack/African/Niger-Congo/Mande/Maninka,%20The%20Structure%20of%20Faranah-%20(Spears).pdf"
+    },
+    {
+      "label": "Malinkuia — Introduction à la langue malinké (variété du Wulada, Haute-Guinée)",
+      "url": "https://fr.scribd.com/document/499114939/Malinkuia"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Aucune source lexicale ou grammaticale dédiée et indépendante n'a été trouvée pour cette leçon spécifiquement en sankaran : le contenu reprend le fonds commun du maninka/malinké de Haute-Guinée (vérifié pour le malinké standard), dont la proximité avec le sankaran est confirmée par les classifications Ethnologue/Glottolog/Vydrin, mais sans confirmation lexème par lexème pour ce dialecte précis. Confiance donc revue à la baisse par rapport à une attestation directe."
 }

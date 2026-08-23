@@ -1,210 +1,268 @@
 {
-  "lesson_id": "C2_M3_L9",
+  "lesson_id": "C1_M3_L9",
   "level": "Avancé (C1-C2)",
   "module_number": 3,
   "module_title": "Maîtrise totale",
   "lesson_number": 9,
   "title": "Traduction et nuances stylistiques avancées",
   "learning_objectives": [
-    "Transposer les concepts abstraits occidentaux en structures idiomatiques Sankaran sans perte de sens",
-    "Maîtriser les glissements de sens, les figures de style oratoires et l'élégance de la double négation",
-    "Traduire des discours complexes en adaptant le registre de langue au public cible"
+    "Comprendre pourquoi une traduction littérale échoue souvent en maninka",
+    "Reformuler une expression figée du français par son équivalent idiomatique maninka",
+    "Choisir entre plusieurs synonymes selon le registre (courant/soutenu)",
+    "Adapter une phrase française complexe à la syntaxe maninka (thème-rhème, verbe final)"
   ],
   "phonetic_focus": {
-    "key_sounds": "La haute maîtrise stylistique repose sur la modulation du ton et de la longueur des voyelles. Le concept de traduction ou d'interprétation 'Kuma-falɛ' /ku.ma.fa.lɛ/ exige un enchaînement fluide. Le terme pour l'élégance stylistique 'Kuma-nandora' ou 'Kuma-nyinya' /ku.ma.ɲi.ɲa/ met en relief la nasale palatale double /ɲ.ɲ/.",
-    "common_pitfalls": "En traduction avancée, évitez de calquer le rythme de la phrase française. Le Sankaran utilise des variations tonales subtiles pour exprimer l'ironie ou l'emphase; un ton trop monocorde détruirait la portée stylistique de votre traduction."
+    "key_sounds": [
+      "L'intonation qui distingue une traduction fidèle au sens d'une traduction fidèle aux mots",
+      "Les tons qui changent le sens d'un mot autrement identique à l'écrit non tonal",
+      "Le débit adapté selon le registre choisi (soutenu = plus lent et posé)"
+    ],
+    "common_pitfalls": [
+      "Traduire mot à mot une expression figée française (ex. 'il pleut des cordes') sans chercher l'équivalent image en maninka",
+      "Garder l'ordre des mots du français (sujet-verbe-objet) alors que le maninka place souvent le verbe en position finale (SOV) avec les marques aspectuelles avant le verbe"
+    ]
   },
   "vocabulary": [
     {
-      "word_id": "v27_1",
-      "term": "Kuma-falɛ",
-      "phonetic_api": "/ku.ma.fa.lɛ/",
-      "phonetic_simple": "KOU-MA-FA-LƐ",
-      "translation": "Traduction / Traduire / Interprétation / Échange de paroles",
-      "example_sentence": "Kuma-falɛ nin tɔgɛ ka fisa kosɛbɛ.",
-      "example_phonetic": "/ku.ma.fa.lɛ nin tɔ.ɣɛ ka fi.sa ko.sɛ.bɛ/",
-      "example_translation": "La fidélité de cette traduction est excellente."
+      "word_id": "v1",
+      "term": "kɔrɔ (sens profond)",
+      "phonetic_api": "[kɔrɔ]",
+      "phonetic_simple": "ko-ro",
+      "translation": "sens, signification profonde",
+      "example_sentence": "Kuma nin kɔrɔ ka gɛlɛn.",
+      "example_phonetic": "[kuma nin kɔrɔ ka ɡɛlɛn]",
+      "example_translation": "Le sens de cette parole est difficile."
     },
     {
-      "word_id": "v27_2",
-      "term": "Kuma-nyinya",
-      "phonetic_api": "/ku.ma.ɲi.ɲa/",
-      "phonetic_simple": "KOU-MA-NYI-NYA",
-      "translation": "Élégance stylistique / Beauté du verbe / Éloquence raffinée",
-      "example_sentence": "Kuma-nyinya ba le be a bolo.",
-      "example_phonetic": "/ku.ma.ɲi.ɲa ba le be a bo.lo/",
-      "example_translation": "Il possède une immense élégance stylistique dans son discours."
+      "word_id": "v2",
+      "term": "kuma cogo (style, manière de parler)",
+      "phonetic_api": "[kuma tʃoɡo]",
+      "phonetic_simple": "kou-ma-tcho-go",
+      "translation": "manière de parler, style",
+      "example_sentence": "A ka kuma cogo ka di.",
+      "example_phonetic": "[a ka kuma tʃoɡo ka di]",
+      "example_translation": "Sa façon de parler est agréable."
     },
     {
-      "word_id": "v27_3",
-      "term": "Hakilotala",
-      "phonetic_api": "/ha.ki.lo.ta.la/",
-      "phonetic_simple": "HA-KI-LO-TA-LA",
-      "translation": "Transposition conceptuelle / Pensée profonde / Réfraction d'idées",
-      "example_sentence": "Hakilotala kani kɛ ko nin kɔnɔ.",
-      "example_phonetic": "/ha.ki.lo.ta.la ka.ni kɛ ko nin kɔ.nɔ/",
-      "example_translation": "Une transposition conceptuelle profonde doit s'opérer dans cette affaire."
+      "word_id": "v3",
+      "term": "baara sɛbɛnni (traduction, litt. travail d'écriture)",
+      "phonetic_api": "[baːra sɛbɛnni]",
+      "phonetic_simple": "ba-a-ra-sè-bèn-ni",
+      "translation": "traduction, travail de transcription",
+      "example_sentence": "Baara sɛbɛnni man di.",
+      "example_phonetic": "[baːra sɛbɛnni man di]",
+      "example_translation": "La traduction n'est pas facile."
     },
     {
-      "word_id": "v27_4",
-      "term": "Kan-kɔrɔ",
-      "phonetic_api": "/kan.kɔ.rɔ/",
-      "phonetic_simple": "KANE-KƆ-RƆ",
-      "translation": "Idiotisme / Expression imagée figée / Sens linguistique caché",
-      "example_sentence": "An na kan-kɔrɔ lu ka dun.",
-      "example_phonetic": "/an na kan.kɔ.rɔ lu ka dun/",
-      "example_translation": "Nos idiotismes culturels sont très profonds."
+      "word_id": "v4",
+      "term": "kɔrɔ dɔ (autre sens, variante)",
+      "phonetic_api": "[kɔrɔ dɔ]",
+      "phonetic_simple": "ko-ro-do",
+      "translation": "un autre sens, une variante de sens",
+      "example_sentence": "Kuma kelen bɛ se ka kɔrɔ dɔ sɔrɔ.",
+      "example_phonetic": "[kuma kelen bɛ se ka kɔrɔ dɔ sɔrɔ]",
+      "example_translation": "Un même mot peut avoir un autre sens."
     },
     {
-      "word_id": "v27_5",
-      "term": "Yɛlɛmali-ko",
-      "phonetic_api": "/jɛ.lɛ.ma.li.ko/",
-      "phonetic_simple": "YƐ-LƐ-MA-LI-KO",
-      "translation": "Nuance stylistique / Adaptation contextuelle / Mutation de sens",
-      "example_sentence": "Yɛlɛmali-ko lu lɔn mu tɔnɔ di.",
-      "example_phonetic": "/jɛ.lɛ.ma.li.ko lu lɔn mu tɔ.nɔ di/",
-      "example_translation": "Connaître les nuances stylistiques est un atout majeur."
+      "word_id": "v5",
+      "term": "a fɔ cogo wɛrɛ la",
+      "phonetic_api": "[a fɔ tʃoɡo wɛrɛ la]",
+      "phonetic_simple": "a-fo-tcho-go-wè-rè-la",
+      "translation": "dit autrement, en d'autres termes",
+      "example_sentence": "A fɔ cogo wɛrɛ la, a tɛ se ka nà.",
+      "example_phonetic": "[a fɔ tʃoɡo wɛrɛ la a tɛ se ka nà]",
+      "example_translation": "Dit autrement, il ne peut pas venir."
     },
     {
-      "word_id": "v27_6",
-      "term": "Sɛbɛn-kura",
-      "phonetic_api": "/sɛ.bɛn.ku.ra/",
-      "phonetic_simple": "SƐ-BƐNE-KOU-RA",
-      "translation": "Texte traduit / Nouvelle version écrite / Copie conforme",
-      "example_sentence": "Sɛbɛn-kura nin tilara bi.",
-      "example_phonetic": "/sɛ.bɛn.ku.ra nin ti.la.ra bi/",
-      "example_translation": "La nouvelle version écrite du texte a été finalisée aujourd'hui."
+      "word_id": "v6",
+      "term": "danfara (différence, nuance)",
+      "phonetic_api": "[danfara]",
+      "phonetic_simple": "dan-fa-ra",
+      "translation": "différence, nuance",
+      "example_sentence": "Danfara bɛ kuma fila nin cɛ.",
+      "example_phonetic": "[danfara bɛ kuma fila nin tʃɛ]",
+      "example_translation": "Il y a une nuance entre ces deux mots."
     },
     {
-      "word_id": "v27_7",
-      "term": "Kuma-kuntigi",
-      "phonetic_api": "/ku.ma.kun.ti.ɣi/",
-      "phonetic_simple": "KOU-MA-KOUNE-TI-GI",
-      "translation": "Idée maîtresse / Thèse centrale / Argument stylistique pivot",
-      "example_sentence": "N b'a fɛ ka kuma-kuntigi lafasa.",
-      "example_phonetic": "/ɲ b'a fɛ ka ku.ma.kun.ti.ɣi la.fa.sa/",
-      "example_translation": "Je souhaite défendre l'idée maîtresse du texte."
+      "word_id": "v7",
+      "term": "kannako (traducteur, interprète)",
+      "phonetic_api": "[kannako]",
+      "phonetic_simple": "kan-na-ko",
+      "translation": "traducteur, interprète",
+      "example_sentence": "An ka kannako wele.",
+      "example_phonetic": "[an ka kannako wele]",
+      "example_translation": "Appelons un traducteur."
     },
     {
-      "word_id": "v27_8",
-      "term": "Fasaman-kan",
-      "phonetic_api": "/fa.si.man.kan/",
-      "phonetic_simple": "FA-SI-MANE-KANE",
-      "translation": "Langue maternelle / Parler d'origine / Verbe du terroir",
-      "example_sentence": "An na fasaman-kan mu Sankaran di.",
-      "example_phonetic": "/an na fa.si.man.kan mu san.ka.ran di/",
-      "example_translation": "Notre langue maternelle est le Sankaran."
+      "word_id": "v8",
+      "term": "kan (langue)",
+      "phonetic_api": "[kan]",
+      "phonetic_simple": "kan",
+      "translation": "langue, parole",
+      "example_sentence": "Maninka kan ka di n ye.",
+      "example_phonetic": "[maninka kan ka di n je]",
+      "example_translation": "La langue maninka me plaît."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p27_1",
-      "original": "Kuma-falɛ te kɛ gbansan, a kani fasaman-kan na kan-kɔrɔ lu lafasa le fɔlɔfɔlɔ la.",
-      "phonetic_api": "/ku.ma.fa.lɛ te kɛ ɡ͡ba.san a ka.ni fa.si.man.kan na kan.kɔ.rɔ lu la.fa.sa le fɔ.lɔ.fɔ.lɔ la/",
-      "phonetic_simple": "KOU-MA-FA-LƐ TÉ KƐ GBANE-SANE, A KA-NI FA-SI-MANE-KANE NA KANE-KƆ-RƆ LOU LA-FA-SA LÉ FƆ-LƆ-FƆ-LƆ LA.",
-      "translation": "La traduction ne se fait pas au hasard, elle doit impérativement préserver les idiotismes de la langue maternelle en tout premier lieu.",
-      "context": "Règle d'or de la traductologie énoncée lors d'un atelier de transposition linguistique."
+      "phrase_id": "p1",
+      "original": "Kuma nin kɔrɔ ka gɛlɛn",
+      "phonetic_api": "[kuma nin kɔrɔ ka ɡɛlɛn]",
+      "phonetic_simple": "kou-ma-nin-ko-ro-ka-guè-lèn",
+      "translation": "Le sens de cette parole est difficile",
+      "context": "Signaler une difficulté d'interprétation"
     },
     {
-      "phrase_id": "p27_2",
-      "original": "N na hakilojagbɛ fɛ, sɛbɛn-kura nin kuma-nyinya ye a yira ko hakilotala tilara kɛndɛya la.",
-      "phonetic_api": "/_ɲ na ha.ki.lo.d͡ʒa.ɡ͡bɛ fɛ sɛ.bɛn.ku.ra nin ku.ma.ɲi.ɲa d͡ʒe a ji.ra ko ha.ki.lo.ta.la ti.la.ra kɛn.dɛ.ja la/",
-      "phonetic_simple": "N NA HA-KI-LO-DJA-GBƐ FƐ, SƐ-BƐNE-KOU-RA NINE KOU-MA-NYI-NYA YÉ A YI-RA KO HA-KI-LO-TA-LA TI-LA-RA KƐN.DƐ.JA LA.",
-      "translation": "Selon mon point de vue, l'élégance stylistique de ce texte traduit démontre que la transposition conceptuelle s'est achevée avec succès.",
-      "context": "Évaluation critique du style d'une traduction littéraire de haut niveau."
+      "phrase_id": "p2",
+      "original": "A fɔ cogo wɛrɛ la, a tɛ se ka nà",
+      "phonetic_api": "[a fɔ tʃoɡo wɛrɛ la a tɛ se ka nà]",
+      "phonetic_simple": "a-fo-tcho-go-wè-rè-la, a-tè-sé-ka-na",
+      "translation": "Dit autrement, il ne peut pas venir",
+      "context": "Reformuler une idée en d'autres termes"
     },
     {
-      "phrase_id": "p27_3",
-      "original": "Hali ni yɛlɛmali-ko lu gbɛlɛyara, kuma-kuntigi te wa na sɔsɔ la labanyala gba di.",
-      "phonetic_api": "/ha.li ni jɛ.lɛ.ma.li.ko lu ɡ͡bɛ.lɛ.ja.ra ku.ma.kun.ti.ɣi te wa na sɔ.sɔ la la.ba.nja la ɡ͡ba di/",
-      "phonetic_simple": "HA-LI NI YƐ-LƐ-MA-LI-KO LOU GBƐ-LƐ-YA-RA, KOU-MA-KOUNE-TI-GI TÉ WA NA SƆ-SƆ LA LA-BA-NYA LA GBA DI.",
-      "translation": "Bien que les nuances stylistiques soient complexes, l'idée maîtresse ne souffrira d'aucune contestation au bout du compte.",
-      "context": "Validation finale d'un texte d'autorité juridique ou politique transposé."
+      "phrase_id": "p3",
+      "original": "Danfara bɛ kuma fila nin cɛ",
+      "phonetic_api": "[danfara bɛ kuma fila nin tʃɛ]",
+      "phonetic_simple": "dan-fa-ra-bè-kou-ma-fi-la-nin-tchè",
+      "translation": "Il y a une nuance entre ces deux mots",
+      "context": "Discuter de nuances lexicales lors d'une traduction"
+    },
+    {
+      "phrase_id": "p4",
+      "original": "An ka kannako wele",
+      "phonetic_api": "[an ka kannako wele]",
+      "phonetic_simple": "an-ka-kan-na-ko-wé-lé",
+      "translation": "Appelons un traducteur",
+      "context": "Faire appel à un interprète professionnel"
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Baara sɛbɛnni man di",
+      "phonetic_api": "[baːra sɛbɛnni man di]",
+      "phonetic_simple": "ba-a-ra-sè-bèn-ni-man-di",
+      "translation": "La traduction n'est pas facile",
+      "context": "Commenter la difficulté du travail de traduction"
     }
   ],
   "grammar_points": [
     {
-      "concept": "La double négation d'atténuation rhétorique avancée ('Te ... bali na ka')",
-      "explanation": "Au niveau C2, pour exprimer une certitude absolue avec une élégance suprême ou une politesse extrême, l'orateur emploie une structure de double négation. Le marqueur négatif 'te' s'associe au verbe de blocage 'bali' (empêcher) suivi de l'infinitif, ce qui équivaut à une affirmation irrésistible (litt: 'cela ne manquera pas de...').",
+      "concept": "L'ordre syntaxique SOV et les marques préverbales",
+      "explanation": "Contrairement au français (SVO), le maninka place typiquement le verbe en fin de proposition, avec les marques d'aspect/temps/négation (ye, bɛ, tɛ, dí, tùn...) juste avant le verbe — une traduction fidèle doit donc réorganiser l'ordre des mots plutôt que le calquer.",
       "rules": [
-        "Structure : Sujet + te + [Objet] + bali na ka + Verbe final"
+        "Structure de base : Sujet + (Objet) + [marque TAM] + Verbe",
+        "Une traduction mot-à-mot en gardant l'ordre français (SVO) produit une phrase grammaticalement incorrecte en maninka"
       ],
       "examples": [
         {
-          "structure": "O te n bali na ka wa.",
-          "phonetic_api": "/o te ɲ ba.li na ka wa/",
-          "meaning": "Cela ne m'empêchera aucunement de partir / J'irais sans faute."
+          "structure": "[Sujet] [Objet] [marque] [Verbe]",
+          "phonetic_api": "[]",
+          "meaning": "réorganisation obligatoire par rapport au français SVO"
         }
       ]
     },
     {
-      "concept": "L'enchâssement des compléments de spécification sémantique par 'na'",
-      "explanation": "Lorsqu'on manipule des concepts de traduction complexes, le domaine ou la matière dans laquelle s'applique la nuance stylistique ou l'idiotisme est introduit de façon ultra-précise par la postposition de spécification 'na' (dans / en matière de), fixant le cadre sémantique de l'argumentation.",
+      "concept": "Chercher l'équivalent idiomatique plutôt que le mot-à-mot",
+      "explanation": "Les expressions figées ou proverbiales doivent être traduites par leur équivalent culturel/idiomatique en maninka (souvent un proverbe existant) plutôt que par une traduction littérale, qui perdrait son sens ou deviendrait absurde.",
       "rules": [
-        "Structure : [Concept Cadre] + na + [Concept Spécifique] + la / ma"
+        "Rechercher un proverbe ou une expression déjà attestée qui porte un sens équivalent",
+        "À défaut d'équivalent, expliquer le sens ('a kɔrɔ ye...') plutôt que forcer une traduction littérale"
       ],
       "examples": [
         {
-          "structure": "Fasaman-kan na kan-kɔrɔ lu ma",
-          "phonetic_api": "/fa.si.man.kan na kan.kɔ.rɔ lu ma/",
-          "meaning": "Concernant les idiotismes propres à la langue maternelle"
+          "structure": "a kɔrɔ ye ko...",
+          "phonetic_api": "[a kɔrɔ je ko]",
+          "meaning": "cela signifie que... (introduire une explication de sens)"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Karamɔgɔ (Maître Traducteur)",
-      "text": "Lamine, i ni wura. Sɛbɛn-kura nin kuma-falɛ mu n na hami di bi. I ye yɛlɛmali-ko lu ladan tɔgɛ la bang ?",
-      "phonetic_api": "/la.min i ni wu.ra | sɛ.bɛn.ku.ra nin ku.ma.fa.lɛ mu ɲ na ha.mi di bi | i d͡ʒe jɛ.lɛ.ma.li.ko lu la.dan tɔ.ɣɛ la baŋ/",
-      "phonetic_simple": "LA-MINE, I NI MOU-RA. SƐ-BƐNE-KOU-RA NINE KOU-MA-FA-LƐ MOU N NA HA-MI DI BI. I YÉ YƐ-LƐ-MA-LI-KO LOU LA-DANE TƆ-GƐ LA BANGE ?",
-      "translation": "Lamine, bonsoir. La traduction de ce nouveau texte est ma préoccupation majeure aujourd'hui. As-tu agencé les nuances stylistiques selon l'ordre juste de la coutume ?"
+      "speaker": "L'étudiante",
+      "text": "N tɛ se ka nin kuma in baara sɛbɛnni kɛ : 'il pleut des cordes'.",
+      "phonetic_api": "[n tɛ se ka nin kuma in baːra sɛbɛnni kɛ]",
+      "phonetic_simple": "n-tè-sé-ka-nin-kou-ma-in-ba-a-ra-sè-bèn-ni-kè",
+      "translation": "Je n'arrive pas à traduire cette expression : 'il pleut des cordes'."
     },
     {
-      "speaker": "Lamine (Traducteur émérite)",
-      "text": "Awo n faa karamɔgɔ. Fɔlɔfɔlɔ la, n ye hakilotala kɛ fasaman-kan na kan-kɔrɔ lu ma. Kuma-nyinya sɔrɔra katuguni n ma kuma-kuntigi to gbansan.",
-      "phonetic_api": "/a.wo ɲ faː ka.ra.mɔ.ɣɔ | fɔ.lɔ.fɔ.lɔ la ɲ d͡ʒe ha.ki.lo.ta.la kɛ fa.si.man.kan na kan.kɔ.rɔ lu ma | ku.ma.ɲi.ɲa sɔ.rɔ.ra ka.tu.ɣu.ni m ma ku.ma.kun.ti.ɣi to ɡ͡ba.san/",
-      "phonetic_simple": "A-WO N FAA KA-RA-MƆ-GƆ. FƆ-LƆ-FƆ-LƆ LA, N YÉ HA-KI-LO-TA-LA KƐ FA-SI-MANE-KANE NA KANE-KƆ-RƆ LOU MA. KOU-MA-NYI-NYA SƆ-RƆ-RA KA-TOU-GOU-NI N MA KOU-MA-KOUNE-TI-GI TO GBANE-SANE.",
-      "translation": "Oui, mon maître. Tout d'abord, j'ai opéré une transposition conceptuelle concernant les idiotismes de notre langue maternelle. L'élégance stylistique est atteinte car je n'ai pas abandonné l'idée maîtresse du texte en vain."
+      "speaker": "Le professeur",
+      "text": "A fɔ cogo wɛrɛ la : i kana a fɔ kuma kelen kelen na, i k'a kɔrɔ dɔn fɔlɔ.",
+      "phonetic_api": "[a fɔ tʃoɡo wɛrɛ la i kana a fɔ kuma kelen kelen na i k a kɔrɔ dɔn fɔlɔ]",
+      "phonetic_simple": "a-fo-tcho-go-wè-rè-la: i-ka-na-a-fo-kou-ma-ké-lèn-ké-lèn-na, i-ka-ko-ro-don-fo-lo",
+      "translation": "Dit autrement : ne le traduis pas mot à mot, cherche d'abord son sens."
     },
     {
-      "speaker": "Karamɔgɔ (Maître Traducteur)",
-      "text": "O ka fisa jaati ! Kan-kɔrɔ lu dɔgɔyara sɛbɛn-kura nin kɔnɔ bang? O te an bali na ka tɔnɔ ba sɔrɔ na labanyala.",
-      "phonetic_api": "/o ka fi.sa d͡ʒaː.ti | kan.kɔ.rɔ lu dɔ.ɣɔ.ja.ra sɛ.bɛn.ku.ra nin kɔ.nɔ baŋ | o te an ba.li na ka tɔ.nɔ ba sɔ.rɔ na la.ba.nja la/",
-      "phonetic_simple": "O MOU DJAA-TI LÉ DI ! KANE-KƆ-RƆ LOU DƆ-GƆ-YA-RA S SƐ-BƐNE-KOU-RA NINE KƆ-NƆ BANGE ? O TÉ ANE BA-LI NA KA TƆ-NƆ BA SƆ-RƆ NA LA-BA-NYA LA.",
-      "translation": "C'est l'exacte vérité ! Les expressions complexes ont-elles été élucidées (adoucies) au sein de cette nouvelle version écrite ? Cela ne manquera pas de nous apporter un grand profit en fin de compte."
+      "speaker": "L'étudiante",
+      "text": "Awa, a kɔrɔ ye ko sanji nada kosobè, wo dɔrɔn.",
+      "phonetic_api": "[awa a kɔrɔ je ko sandʒi nada kosobɛ wo dɔrɔn]",
+      "phonetic_simple": "a-wa, a-ko-ro-yé-ko-san-dji-na-da-ko-so-bè, wo-do-ron",
+      "translation": "D'accord, ça veut simplement dire qu'il a beaucoup plu."
     },
     {
-      "speaker": "Lamine (Traducteur émérite)",
-      "text": "Awo, hali ni ko nin gbɛlɛyara kosɛbɛ fɔlɔ, kuma-nyinya ye a yira ko sɛbɛn-kura nin mu tɔgɛ di. An na fasaman-kan lafasa le.",
-      "phonetic_api": "/a.wo ha.li ni ko nin ɡ͡bɛ.lɛ.ja.ra ko.sɛ.bɛ fɔ.lɔ | ku.ma.ɲi.ɲa d͡ʒe a ji.ra ko sɛ.bɛn.ku.ra nin mu tɔ.ɣɛ di | an na fa.si.man.kan la.fa.sa le/",
-      "phonetic_simple": "A-WO, HA-LI NI KO NINE GBƐ-LƐ-YA-RA KO-SƐ-BƐ FƆ-LƆ, KOU-MA-NYI-NYA YÉ A YI-RA KO SƐ-BƐNE-KOU-RA NINE MOU TƆ-GƐ DI. ANE NA FA-SI-MANE-KANE LA-FA-SA LÉ.",
-      "translation": "Tout à fait, bien que cette tâche ait été extrêmement difficile au départ, l'élégance du verbe démontre que cette nouvelle version écrite est parfaitement fidèle. Nous avons purement et simplement magnifié notre langue maternelle."
+      "speaker": "Le professeur",
+      "text": "Danfara bɛ kan fila nin cɛ, i ka kan ka a lɔn.",
+      "phonetic_api": "[danfara bɛ kan fila nin tʃɛ i ka kan ka a lɔn]",
+      "phonetic_simple": "dan-fa-ra-bè-kan-fi-la-nin-tchè, i-ka-kan-ka-a-lon",
+      "translation": "Il y a une différence entre ces deux langues, tu dois le savoir."
     }
   ],
   "cultural_notes": [
-    "Dans la haute sphère littéraire et institutionnelle du Sankaran (Faranah), l'exercice du 'Kuma-falɛ' (le croisement des mots / la traduction) est élevé au rang d'art philosophique. Transposer un texte officiel ou juridique international sans dénaturer le génie de la langue locale exige une connaissance parfaite des structures archaïques et des proverbes rituels.",
-    "L'éloquence raffinée ('Kuma-nyinya') ne cherche pas la complexité artificielle, mais la fluidité rythmique et l'usage précis d'idiotismes ancestraux ('kan-kɔrɔ'). Un traducteur émérite est perçu comme un passeur de cultures, capable d'unir la modernité conceptuelle universelle aux fondements immuables du terroir."
+    "La traduction entre le français et le maninka exige une attention particulière à l'ordre des mots (SOV vs SVO) et aux expressions culturellement ancrées, un défi bien documenté dans les travaux de description grammaticale du maninka de Guinée ([Diané & Vydrin, Mandenkan 52](https://shs.hal.science/halshs-01096594v1/document)).",
+    "Note dialectale (Sankaran) : cette leçon présente le maninka du Sankaran, parlé traditionnellement dans la région historique du Sankaran, aujourd'hui la préfecture et région de Faranah (Haute-Guinée), berceau historique du clan Condé et zone antérieure au Mandén selon la tradition orale. Le sankaran (ISO 639-3 msc) est très proche du malinké/maninka standard de Kankan, avec lequel il est mutuellement intelligible ; les mots et structures de cette leçon reflètent ce fonds commun du maninka de l'Est, complété par les spécificités phonologiques et grammaticales du parler de Faranah documentées par Spears (voir sources)."
   ],
   "exercises": [
     {
-      "exercise_id": "ex27_1",
-      "type": "multiple_choice",
-      "question": "Quel terme technique composé désigne de façon précise l'élégance stylistique ou la beauté du verbe en niveau avancé ?",
+      "exercise_id": "e1",
+      "type": "choix_multiple",
+      "question": "Quel est l'ordre syntaxique de base du maninka ?",
       "options": [
-        "Kuma-falɛ",
-        "Kuma-nyinya",
-        "Sɛbɛn-kura"
+        "SVO comme le français",
+        "SOV (sujet-objet-verbe)",
+        "VSO",
+        "OVS"
       ],
-      "correct_answer": "Kuma-nyinya",
-      "explanation": "'Kuma' (la parole) s'associe à la dérivation de beauté/bonté ('nyinya') pour qualifier la haute élégance du style oratoire."
+      "correct_answer": "SOV (sujet-objet-verbe)",
+      "explanation": "Le maninka place typiquement le verbe en position finale, après le sujet et l'objet."
     },
     {
-      "exercise_id": "ex27_2",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Pour traduire le concept d'idiotisme ou d'expression culturelle figée au sens caché, on emploie : [ ___ ].",
-      "correct_answer": "kan-kɔrɔ",
-      "hint": "Expression composée de huit caractères séparés par un tiret, associant la langue/la voix et l'ancienneté."
+      "exercise_id": "e2",
+      "type": "traduction",
+      "question": "Traduisez : 'Il y a une nuance entre ces deux mots.'",
+      "correct_answer": "Danfara bɛ kuma fila nin cɛ.",
+      "explanation": "'danfara' = différence/nuance ; structure : danfara bɛ [A] [B] cɛ = il y a une différence entre A et B."
+    },
+    {
+      "exercise_id": "e3",
+      "type": "texte_a_trous",
+      "sentence_with_blank": "A ___ ye ko sanji nada kosobè.  (Cela veut dire qu'il a beaucoup plu.)",
+      "correct_answer": "kɔrɔ",
+      "hint": "C'est le mot pour 'sens, signification'."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Ethnologue — Maninka, Sankaran [msc]",
+      "url": "https://www.ethnologue.com/language/msc/"
+    },
+    {
+      "label": "Glottolog 5.3 — Sankaran Maninka [sank1253]",
+      "url": "https://glottolog.org/resource/languoid/id/sank1253"
+    },
+    {
+      "label": "Wikipédia — Sankaran (langue, msc)",
+      "url": "https://fr.wikipedia.org/wiki/Sankaran"
+    },
+    {
+      "label": "Spears, R. A. — The Structure of Faranah-Maninka (Indiana University, description structurale du parler de Faranah, historiquement le Sankaran)",
+      "url": "https://theswissbay.ch/pdf/Books/Linguistics/Mega%20linguistics%20pack/African/Niger-Congo/Mande/Maninka,%20The%20Structure%20of%20Faranah-%20(Spears).pdf"
+    },
+    {
+      "label": "Vydrin & Diané (2014) — Propositions pour l'orthographe du maninka (Guinée), Mandenkan 52",
+      "url": "https://journals.openedition.org/mandenkan/pdf/301"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Aucune source lexicale ou grammaticale dédiée et indépendante n'a été trouvée pour cette leçon spécifiquement en sankaran : le contenu reprend le fonds commun du maninka/malinké de Haute-Guinée (vérifié pour le malinké standard), dont la proximité avec le sankaran est confirmée par les classifications Ethnologue/Glottolog/Vydrin, mais sans confirmation lexème par lexème pour ce dialecte précis. Confiance donc revue à la baisse par rapport à une attestation directe."
 }

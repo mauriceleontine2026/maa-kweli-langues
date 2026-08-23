@@ -1,116 +1,200 @@
 {
-  "lesson_id": "C1_M1_L3_v2",
+  "lesson_id": "C1_M1_L3",
   "level": "Avancé (C1-C2)",
   "module_number": 1,
   "module_title": "Nuances et complexité",
   "lesson_number": 3,
   "title": "Les connecteurs logiques pour structurer un discours élaboré",
   "learning_objectives": [
-    "Articuler des propositions de cause, de conséquence et de concession",
-    "Nuancer l'opposition et la transition dans une argumentation complexe",
-    "Structurer un raisonnement fluide et élégant lors d'une prise de parole continue"
+    "Reconnaître qu'aucun connecteur logique landuma (donc, cependant, parce que...) n'est attesté dans les sources disponibles.",
+    "Observer que le corpus disponible se limite à du vocabulaire nominal et verbal de base, sans données sur la structuration du discours élaboré.",
+    "Identifier la nécessité d'un travail de terrain futur pour documenter ce niveau de langue."
   ],
   "phonetic_focus": {
-    "key_sounds": "La consonne affriquée double /t͡sː/ et la fricative glottale /h/ au sein des connecteurs avancés requièrent une tenue musculaire ferme pour garantir la clarté du lien logique.",
-    "common_pitfalls": "Attention à ne pas abréger la voyelle finale des mots de liaison, ce qui pourrait affaiblir la portée rhétorique de la transition."
+    "key_sounds": "Le landuma comporte des voyelles i, e, ɛ, u, o, ɔ, ʌ, ə, a et des consonnes prénasalisées complexes (mb-, nc-, nt-, ns-, ŋg-) absentes du français, ainsi qu'une affriquée c proche du « tch » et une occlusive labiovélaire gb (Sumbatova & Vydrin 2021).",
+    "common_pitfalls": "Les francophones tendent à scinder en deux syllabes les groupes consonantiques prénasalisés initiaux (ex. mb-, nc-, nt-), qui forment pourtant une seule attaque consonantique en landuma ; ils confondent aussi souvent les voyelles centrales ə/a et les voyelles mi-ouvertes ɛ/ɔ, qui n'ont pas d'équivalent phonémique net en français."
   },
   "vocabulary": [
     {
-      "word_id": "v21_1",
-      "term": "hamaŋ",
-      "phonetic_api": "/ha.maŋ/",
-      "phonetic_simple": "HA-MANG",
-      "translation": "parce que / puisque / attendu que",
-      "example_sentence": "mbi kɔn ka dare hamaŋ wali mɔ mɔ lɔndɔ",
-      "example_phonetic": "/mbi kɔn ka da.re ha.maŋ wa.li mɔ mɔ lɔn.dɔ/",
-      "example_translation": "Je vais en ville parce que le travail se trouve ici."
+      "word_id": "v1",
+      "term": "kʊ-limber",
+      "phonetic_api": "/kʊ-limber/",
+      "phonetic_simple": "kou-LIM-bèr",
+      "translation": "dire",
+      "example_sentence": "kʊ-limber",
+      "example_phonetic": "/kʊ-limber/",
+      "example_translation": "« dire » — mot isolé attesté dans le corpus lexical disponible ; aucune phrase complète d'exemple n'a été trouvée pour ce terme dans les sources consultées, seule la forme du mot est donc garantie."
     },
     {
-      "word_id": "v21_2",
-      "term": "tsɛkɛma",
-      "phonetic_api": "/t͡sɛ.kɛ.ma/",
-      "phonetic_simple": "TSÈ-KÈ-MA",
-      "translation": "c'est pourquoi / par conséquent / ainsi donc",
-      "example_sentence": "tsang mɔ fann tsɛkɛma mbi tana lɔndɔ",
-      "example_phonetic": "/t͡saŋ mɔ fanː t͡sɛ.kɛ.ma mbi ta.na lɔn.dɔ/",
-      "example_translation": "Le soleil est haut, c'est pourquoi je reste ici."
+      "word_id": "v2",
+      "term": "kʊ-cara",
+      "phonetic_api": "/kʊ-cara/",
+      "phonetic_simple": "kou-TSA-ra",
+      "translation": "savoir",
+      "example_sentence": "kʊ-cara",
+      "example_phonetic": "/kʊ-cara/",
+      "example_translation": "« savoir » — mot isolé attesté dans le corpus lexical disponible ; aucune phrase complète d'exemple n'a été trouvée pour ce terme dans les sources consultées, seule la forme du mot est donc garantie."
     },
     {
-      "word_id": "v21_3",
-      "term": "kisinnde",
-      "phonetic_api": "/ki.sinː.de/",
-      "phonetic_simple": "KI-SINN-DE",
-      "translation": "bien que / tandis que / par ailleurs",
-      "example_sentence": "mbi kafu kisinnde atɔk kɔn mɔ gbɛn",
-      "example_phonetic": "/mbi ka.fu ki.sinː.de a.tɔk kɔn mɔ g͡bɛn/",
-      "example_translation": "Je cultive la terre bien que mon vêtement soit coûteux."
+      "word_id": "v3",
+      "term": "suk",
+      "phonetic_api": "/suk/",
+      "phonetic_simple": "SOUK",
+      "translation": "tout",
+      "example_sentence": "suk",
+      "example_phonetic": "/suk/",
+      "example_translation": "« tout » — mot isolé attesté dans le corpus lexical disponible ; aucune phrase complète d'exemple n'a été trouvée pour ce terme dans les sources consultées, seule la forme du mot est donc garantie."
+    },
+    {
+      "word_id": "v4",
+      "term": "ta-tɔt",
+      "phonetic_api": "/ta-tɔt/",
+      "phonetic_simple": "ta-TÔT",
+      "translation": "bon",
+      "example_sentence": "ta-tɔt",
+      "example_phonetic": "/ta-tɔt/",
+      "example_translation": "« bon » — mot isolé attesté dans le corpus lexical disponible ; aucune phrase complète d'exemple n'a été trouvée pour ce terme dans les sources consultées, seule la forme du mot est donc garantie."
+    },
+    {
+      "word_id": "v5",
+      "term": "o-baki",
+      "phonetic_api": "/o-baki/",
+      "phonetic_simple": "o-BA-ki",
+      "translation": "grand",
+      "example_sentence": "o-baki",
+      "example_phonetic": "/o-baki/",
+      "example_translation": "« grand » — mot isolé attesté dans le corpus lexical disponible ; aucune phrase complète d'exemple n'a été trouvée pour ce terme dans les sources consultées, seule la forme du mot est donc garantie."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p21_1",
-      "original": "hamaŋ gala mɔ gbɛn, tsɛkɛma mbi tana kɔn ka wali tɛkɛ",
-      "phonetic_api": "/ha.maŋ ga.la mɔ g͡bɛn t͡sɛ.kɛ.ma mbi ta.na kɔn ka wa.li tɛ.kɛ/",
-      "phonetic_simple": "HA-MANG GA-LA MO GBÈN, TSÈ-KÈ-MA MBI TA-NA KON KA WA-LI TÈ-KÈ",
-      "translation": "Puisque l'argent est difficile à obtenir, c'est pourquoi je refuse de cesser le travail aujourd'hui",
-      "context": "Justifier une position ferme lors d'un arbitrage ou d'une négociation financière importante."
+      "phrase_id": "p1",
+      "original": "kʊ-limber",
+      "phonetic_api": "/kʊ-limber/",
+      "phonetic_simple": "kou-LIM-bèr",
+      "translation": "dire",
+      "context": "Aucune phrase complète figée n'est attestée pour ce contexte précis dans les sources disponibles ; seul ce mot isolé du corpus vérifié est proposé comme point d'ancrage, à utiliser avec prudence."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "kʊ-cara kʊ-limber",
+      "phonetic_api": "/kʊ-cara kʊ-limber/",
+      "phonetic_simple": "kou-TSA-ra kou-LIM-bèr",
+      "translation": "« savoir » + « dire » (juxtaposition)",
+      "context": "Recombinaison prudente de deux mots déjà attestés séparément dans le corpus lexical de cette leçon (savoir, dire) : cette juxtaposition n'est PAS une expression idiomatique attestée en tant que telle dans les sources, mais une association pédagogique construite uniquement à partir de vocabulaire vérifié, utile pour la mémorisation et la pratique orale."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "suk kʊ-limber",
+      "phonetic_api": "/suk kʊ-limber/",
+      "phonetic_simple": "SOUK kou-LIM-bèr",
+      "translation": "« tout » + « dire » (juxtaposition)",
+      "context": "Recombinaison prudente de deux mots déjà attestés séparément dans le corpus lexical de cette leçon (tout, dire) : cette juxtaposition n'est PAS une expression idiomatique attestée en tant que telle dans les sources, mais une association pédagogique construite uniquement à partir de vocabulaire vérifié, utile pour la mémorisation et la pratique orale."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "ta-tɔt kʊ-limber",
+      "phonetic_api": "/ta-tɔt kʊ-limber/",
+      "phonetic_simple": "ta-TÔT kou-LIM-bèr",
+      "translation": "« bon » + « dire » (juxtaposition)",
+      "context": "Recombinaison prudente de deux mots déjà attestés séparément dans le corpus lexical de cette leçon (bon, dire) : cette juxtaposition n'est PAS une expression idiomatique attestée en tant que telle dans les sources, mais une association pédagogique construite uniquement à partir de vocabulaire vérifié, utile pour la mémorisation et la pratique orale."
     }
   ],
   "grammar_points": [
     {
-      "concept": "La corrélation de cause et conséquence par 'hamaŋ' et 'tsɛkɛma'",
-      "explanation": "En landouma littéraire ou soutenu, pour donner de la force à un argument, on introduit la cause par 'hamaŋ' en début de phrase, puis on lie la conséquence logique dans la seconde proposition en utilisant 'tsɛkɛma'.",
+      "concept": "Accord alitératif radical (classes nominales)",
+      "explanation": "Le landuma, comme d'autres langues Mel du Nord, marque l'accord grammatical par un préfixe dont la consonne initiale reprend celle du nom qu'il qualifie ou remplace : c'est un accord dit « alitératif radical », distinct de l'accord par classes nominales à préfixes fixes qu'on trouve dans d'autres langues Niger-Congo. On observe dans le corpus attesté des préfixes tels que a-, da-, ta-, kʊ-, ke-, o-, ma- selon la classe et l'initiale du radical.",
       "rules": [
-        "Structure : Hamaŋ + [Cause], + tsɛkɛma + [Conséquence].",
-        "Ces connecteurs restent morphologiquement invariables et dictent un rythme binaire à la phrase."
+        "Les noms attestés portent presque tous un préfixe de classe : da-wump (tête), ta-fera (blanc), kʊ-suŋ (bouche), o-runi (homme), ma-rʊŋ (deux).",
+        "Le préfixe d'accord d'un qualificatif ou d'un déterminant tend à reprendre la consonne initiale du nom contrôleur plutôt qu'une classe grammaticale fixe et arbitraire.",
+        "Cette règle est documentée pour les noms inanimés dans les travaux académiques, mais son fonctionnement précis pour chaque catégorie de mots n'est pas intégralement publié en accès libre : la prudence s'impose pour toute généralisation."
       ],
       "examples": [
         {
-          "structure": "hamaŋ + Proposition",
-          "phonetic_api": "/ha.maŋ mbi pa/",
-          "meaning": "Puisque je le veux."
+          "structure": "da-wump / da-fɔr",
+          "phonetic_api": "/da-wump/, /da-fɔr/",
+          "meaning": "tête / œil (même préfixe da- : classe nominale partagée)"
+        },
+        {
+          "structure": "ta-fera / ta-bi / ta-tɔt",
+          "phonetic_api": "/ta-fera/, /ta-bi/, /ta-tɔt/",
+          "meaning": "blanc / noir / bon (préfixe ta- pour ces qualificatifs attestés)"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "L'Orateur",
-      "text": "kɛwun mɔ tana alɛ ka karka kɔn tsinn ?",
-      "phonetic_api": "/kɛ.wun mɔ ta.na a.lɛ ka kar.ka kɔn t͡sinː/",
-      "phonetic_simple": "KÈ-WOUN MO TA-NA A-LÈ KA KAR-KA KON TSINN ?",
-      "translation": "Pourquoi n'es-tu pas entré dans ma concession hier ?"
+      "speaker": "Locuteur A",
+      "text": "kʊ-limber",
+      "phonetic_api": "/kʊ-limber/",
+      "phonetic_simple": "kou-LIM-bèr",
+      "translation": "(mot isolé : « dire ») — aucun dialogue naturel complet n'est attesté dans les sources disponibles pour ce thème ; cet échange reste donc une simple juxtaposition prudente du vocabulaire vérifié, non une phrase authentique de conversation."
     },
     {
-      "speaker": "Le Visiteur",
-      "text": "hamaŋ mbi kɔn ka wali tundo, tsɛkɛma mbi alɛ tɛkɛ kisinnde mɔ lɔndɔ.",
-      "phonetic_api": "/ha.maŋ mbi kɔn ka wa.li tun.do t͡sɛ.kɛ.ma mbi a.lɛ tɛ.kɛ ki.sinː.de mɔ lɔn.dɔ/",
-      "phonetic_simple": "HA-MANG MBI KON KA WA-LI TOUN-DO, TSÈ-KÈ-MA MBI A-LÈ TÈ-KÈ KI-SINN-DE MO LON-DO",
-      "translation": "Parce que j'allais accomplir un grand travail, c'est pourquoi je viens seulement aujourd'hui tandis que tu es là."
+      "speaker": "Locuteur B",
+      "text": "kʊ-cara",
+      "phonetic_api": "/kʊ-cara/",
+      "phonetic_simple": "kou-TSA-ra",
+      "translation": "(mot isolé : « savoir ») — aucun dialogue naturel complet n'est attesté dans les sources disponibles pour ce thème ; cet échange reste donc une simple juxtaposition prudente du vocabulaire vérifié, non une phrase authentique de conversation."
+    },
+    {
+      "speaker": "Locuteur A",
+      "text": "suk",
+      "phonetic_api": "/suk/",
+      "phonetic_simple": "SOUK",
+      "translation": "(mot isolé : « tout ») — aucun dialogue naturel complet n'est attesté dans les sources disponibles pour ce thème ; cet échange reste donc une simple juxtaposition prudente du vocabulaire vérifié, non une phrase authentique de conversation."
+    },
+    {
+      "speaker": "Locuteur B",
+      "text": "ta-tɔt",
+      "phonetic_api": "/ta-tɔt/",
+      "phonetic_simple": "ta-TÔT",
+      "translation": "(mot isolé : « bon ») — aucun dialogue naturel complet n'est attesté dans les sources disponibles pour ce thème ; cet échange reste donc une simple juxtaposition prudente du vocabulaire vérifié, non une phrase authentique de conversation."
     }
   ],
   "cultural_notes": [
-    "L'usage précis de connecteurs logiques comme 'tsɛkɛma' est l'un des piliers de la rhétorique landouma. Lors des débats coutumiers, la clarté des articulations logiques établit la crédibilité de l'intervenant auprès du conseil des sages."
+    "Glottolog classe le landuma comme langue « vulnérable » et Ethnologue ne lui consacre pas de fiche dédiée dans ses listes en ligne les plus visibles : c'est une langue très peu documentée, sans matériel pédagogique publié à large diffusion ([Glottolog](https://glottolog.org/resource/languoid/id/land1256))."
   ],
   "exercises": [
     {
-      "exercise_id": "ex21_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel connecteur logique signifie 'c'est pourquoi / par conséquent' ?",
+      "question": "Comment dit-on « dire » en landuma ?",
       "options": [
-        "hamaŋ",
-        "tsɛkɛma",
-        "kisinnde"
+        "kʊ-limber",
+        "kʊ-cara",
+        "ta-tɔt"
       ],
-      "correct_answer": "tsɛkɛma",
-      "explanation": "'tsɛkɛma' sert à introduire la conséquence ou la conclusion logique d'un fait énoncé."
+      "correct_answer": "kʊ-limber",
+      "explanation": "« kʊ-limber » est la forme attestée pour « dire » d'après le corpus lexical collecté (confiance : faible)."
     },
     {
-      "exercise_id": "ex21_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "mbi alɛ [ ___ ] mɔ fɔf ka mbi (Je viens parce que tu m'as parlé)",
-      "correct_answer": "hamaŋ",
-      "hint": "Le connecteur introduisant la cause ou la raison d'être d'une action."
+      "sentence_with_blank": "[ ___ ] = « savoir »",
+      "correct_answer": "kʊ-cara",
+      "hint": "Ce mot appartient au vocabulaire de base attesté par les sources académiques (confiance : faible)."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Wiktionary — Word lists of Atlantic languages of Guinea (d'après Fields 2001)",
+      "url": "https://en.wiktionary.org/wiki/Appendix:Word_lists_of_Atlantic_languages_of_Guinea"
+    },
+    {
+      "label": "ASJP Database — Wordlist Landuma (d'après Wilson 2007 et Rogers & Bryant 2012)",
+      "url": "https://asjp.clld.org/languages/LANDUMA_4"
+    },
+    {
+      "label": "Glottolog — Landoma [land1256]",
+      "url": "https://glottolog.org/resource/languoid/id/land1256"
+    },
+    {
+      "label": "Sumbatova & Vydrin (2021), Journal of Language Relationship 19-1/2, p.136-151",
+      "url": "https://www.jolr.ru/files/(303)jlr2021-19-1-2(136-151).pdf"
+    }
+  ],
+  "confidence": "faible",
+  "confidence_note": "Le vocabulaire cible de cette leçon provient exclusivement du corpus lexical attesté (ASJP/Wilson 2007/Rogers & Bryant 2012, Wiktionary/Fields 2001, Sumbatova & Vydrin 2021) ; confiance des mots utilisés : faible, moyenne. Aucune phrase complète, formule figée ou règle grammaticale spécifique à ce sujet précis n'a été trouvée dans les sources disponibles : le contenu reste donc au niveau du vocabulaire isolé et la confiance globale du fichier est abaissée à 'faible' par prudence, conformément à l'exigence de ne jamais présenter une extrapolation comme une donnée sûre. Pour respecter la borne minimale de 5 mots de vocabulaire par leçon, 1 mot(s) supplémentaire(s) du même corpus attesté (déjà utilisés ailleurs dans le lexique landuma collecté, mais absents de cette leçon initialement) ont été ajoutés : confiance de ces ajouts : moyenne. Les phrases de la section 'common_phrases' au-delà de la première ont été obtenues par recombinaison de mots individuellement attestés du vocabulaire de cette leçon (juxtapositions pédagogiques), et non par une source directe attestant la phrase entière : elles sont signalées comme telles dans leur champ 'context'."
 }

@@ -1,174 +1,178 @@
 {
   "lesson_id": "C1_M3_L7",
-  "level": "Avancé (C1-C2)",
+  "level": "Niveau Avancé (C1 - C2)",
   "module_number": 3,
   "module_title": "Maîtrise totale",
   "lesson_number": 7,
   "title": "Comprendre et analyser des textes littéraires ou historiques",
   "learning_objectives": [
-    "Analyser des récits de fondation et des chroniques historiques orales en langue Mani",
-    "Identifier les structures narratives complexes décrivant la migration et l'établissement des ancêtres",
-    "Décoder le lexique de la mémoire, du témoignage et de la transmission patrimoniale"
+    "Situer le chant funéraire de Morlaye Boyo Keita comme texte littéraire de référence",
+    "Analyser la structure narrative et les connecteurs du texte",
+    "Comprendre l'histoire de la documentation du mani par le Mani Documentation Project"
   ],
   "phonetic_focus": {
-    "key_sounds": "La consonne nasale vélaire /ŋ/ en position finale dans 'taliŋ' exige une résonance nasale complète sans occlusion occlusive. L'enchaînement consonantique complexe dans 'kpeerɛ-woŋ' doit être articulé d'un seul jet expiratoire.",
-    "common_pitfalls": "Attention à ne pas assimiler le mot historique 'taliŋ' (histoire/récit) avec 'tira' (voyager). Le son /liŋ/ doit être nettement détaché et distinct."
+    "key_sounds": "Le mani distingue 8 voyelles (i, e, ɛ, a, ɔ, o, u, ə) et des consonnes prénasalisées (mp, nt/nd, ŋk) ainsi qu'une labiovélaire /gb/ absentes du français. Le ton (registre haut/bas) est phonémique (Childs 2011, ch.2).",
+    "common_pitfalls": "Les francophones ont tendance à ne pas distinguer ɛ/e et ɔ/o, à simplifier les consonnes prénasalisées en de simples séquences nasale+consonne, et à ignorer les contrastes de ton, qui changent pourtant le sens ou la fonction grammaticale du mot (ex. hortatif vs perfectif marqués uniquement par le ton)."
   },
   "vocabulary": [
     {
-      "word_id": "v25_1",
-      "term": "taliŋ",
-      "phonetic_api": "/ta.liŋ/",
-      "phonetic_simple": "TA-LING",
-      "translation": "histoire / chronique historique / récit des temps anciens",
-      "example_sentence": "Taliŋ gbun fɔkɔ-wo lɔ.",
-      "example_phonetic": "/ta.liŋ ɡbun fɔ.kɔ wo lɔ/",
-      "example_translation": "Le grand récit de notre histoire est arrivé jusqu'à nous."
+      "word_id": "v1",
+      "term": "boli",
+      "phonetic_api": "/boli/",
+      "phonetic_simple": "BO-LI",
+      "translation": "depuis (connecteur narratif d'ouverture)"
     },
     {
-      "word_id": "v25_2",
-      "term": "kpeerɛ-woŋ",
-      "phonetic_api": "/kpeː.rɛ woŋ/",
-      "phonetic_simple": "KPEE-RÈ-WONG",
-      "translation": "fondation / lieu d'origine historique / berceau de la lignée",
-      "example_sentence": "N ɲinin kpeerɛ-woŋ taliŋ.",
-      "example_phonetic": "/n̩ ɲi.nin kpeː.rɛ woŋ ta.liŋ/",
-      "example_translation": "J'étudie l'histoire de notre lieu de fondation."
+      "word_id": "v2",
+      "term": "kalam",
+      "phonetic_api": "/kalam/",
+      "phonetic_simple": "KA-LAM",
+      "translation": "vin de palme (motif récurrent du texte funéraire)"
     },
     {
-      "word_id": "v25_3",
-      "term": "mora-wo",
-      "phonetic_api": "/mo.ra wo/",
-      "phonetic_simple": "MO-RA-WO",
-      "translation": "les anciens disparus / les ancêtres / les devanciers",
-      "example_sentence": "Mora-wo kperɛ-wo mi tɔgɔ.",
-      "example_phonetic": "/mo.ra wo kpe.rɛ wo mi tɔ.ɡɔ/",
-      "example_translation": "Les ancêtres m'ont légué (donné) la loi."
+      "word_id": "v3",
+      "term": "ucog",
+      "phonetic_api": "/utʃɔg/",
+      "phonetic_simple": "OU-TCHOG",
+      "translation": "chant (genre littéraire oral attesté)"
     },
     {
-      "word_id": "v25_4",
-      "term": "yoma-ra-taliŋ",
-      "phonetic_api": "/jo.ma ra ta.liŋ/",
-      "phonetic_simple": "YO-MA-RA-TA-LING",
-      "translation": "témoignage authentique / vérité historique / chronique véridique",
-      "example_sentence": "Dɔŋɔ na na yoma-ra-taliŋ.",
-      "example_phonetic": "/ɗɔ.ŋɔ na na jo.ma ra ta.liŋ/",
-      "example_translation": "Cette parole est une chronique historique authentique."
+      "word_id": "v4",
+      "term": "pɔk / upɔk",
+      "phonetic_api": "/pɔk/, /upɔk/",
+      "phonetic_simple": "POK / OU-POK",
+      "translation": "hippopotame",
+      "example_sentence": "upɔk ce iwis wɔ la, gɔ asosa ce galɛ mali yɔ",
+      "example_phonetic": "/upɔk tʃɛ iwis wɔ la gɔ asosa tʃɛ galɛ mali jɔ/",
+      "example_translation": "L'hippopotame est l'animal que les Soso appellent « mali ». (attesté Childs 2011, appendice 1)"
     },
     {
-      "word_id": "v25_5",
-      "term": "bɛŋ-la-woŋ",
-      "phonetic_api": "/bɛŋ la woŋ/",
-      "phonetic_simple": "BÈNG-LA-WONG",
-      "translation": "territoire / espace souverain historique / royaume traditionnel",
-      "example_sentence": "A wo sègé bɛŋ-la-woŋ cɛm.",
-      "example_phonetic": "/a wo se.ɡe bɛŋ la woŋ tʃɛm/",
-      "example_translation": "Il régnait (faisait du commerce) au milieu du territoire traditionnel."
+      "word_id": "v5",
+      "term": "nyer",
+      "phonetic_api": "/ɲɛr/",
+      "phonetic_simple": "NYÈR",
+      "translation": "traverser",
+      "example_sentence": "u nyer ko yel ict-i",
+      "example_phonetic": "/u ɲɛr ko jɛl itʃɛti/",
+      "example_translation": "Il traversa vers le hameau qui était là. (attesté Childs 2011, appendice 1, récit de Tomro)"
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p25_1",
-      "original": "Taliŋ lɔ, a bɛ ni kpeerɛ-woŋ gbun cɛm.",
-      "phonetic_api": "/ta.liŋ lɔ a bɛ ni kpeː.rɛ woŋ ɡbun tʃɛm/",
-      "phonetic_simple": "TA-LING LƆ, A BÈ NI KPEE-RÈ-WONG GBOUN TCHÈM",
-      "translation": "Cette chronique historique plonge ses racines au cœur même de notre berceau originel.",
-      "context": "Introduire l'analyse critique d'un récit fondateur lors d'un enseignement."
+      "phrase_id": "p1",
+      "original": "boli gɔnɔ gɔ sɔyɔ, a sɔtmiŋ hati tatidɔl",
+      "phonetic_api": "/boli gɔnɔ go sɔjo, a sɔtmiŋ hati tatidɔl/",
+      "phonetic_simple": "BO-LI GO-NO GO SO-YO, A SOT-MING HA-TI TA-TI-DOL",
+      "translation": "Depuis ce matin, je n'ai eu encore rien à manger.",
+      "context": "Ouverture attestée d'un passage narratif (Childs 2011, ex.144), utilisée ici comme illustration du style narratif mani."
     },
     {
-      "phrase_id": "p25_2",
-      "original": "Mora-wo haani-wo tɔgɔ-gbun la kankaran cɛm fɔkɔ-fɛ yoma-ra.",
-      "phonetic_api": "/mo.ra wo haː.ni wo tɔ.ɡɔ ɡbun la kan.ka.ran tʃɛm fɔ.kɔ fɛ jo.ma ra/",
-      "phonetic_simple": "MO-RA-WO HAA-NI-WO TO-GO-GBOUN LA KAN-KA-RAN TCHÈM FƆ-KƆ-FÈ YO-MA-RA",
-      "translation": "Les ancêtres avaient eu l'intention d'ancrer la loi suprême au milieu de la cour en raison de sa vérité absolue.",
-      "context": "Commenter l'importance juridique et institutionnelle d'une charte coutumière."
+      "phrase_id": "p2",
+      "original": "tɔmrɔ-i n-wɔ kɔn-i u tɔl ko titike-i",
+      "phonetic_api": "/tɔmrɔi nwɔ kɔni u tɔl ko titikɛi/",
+      "phonetic_simple": "TOM-RO-I N-WO KON-I OU TOL KO TI-TI-KÉ-I",
+      "translation": "Tomro partit, il descendit vers Titiké.",
+      "context": "Ouverture attestée du récit historique de Morlaye Boyo Keita sur les origines de Benty (Childs 2011, appendice 1)."
     },
     {
-      "phrase_id": "p25_3",
-      "original": "Xa wun ɲinin yoma-ra-taliŋ, kunu-wo ce gbana bɛŋ-la-woŋ lɔ.",
-      "phonetic_api": "/xa wun ɲi.nin jo.ma ra ta.liŋ ku.nu wo tʃe ɡba.na bɛŋ la woŋ lɔ/",
-      "phonetic_simple": "KHA WOUN NYI-NIN YO-MA-RA-TA-LING, KOU-NOU-WO TCHÉ GBA-NA BÈNG-LA-WONG LƆ",
-      "translation": "Si tu étudies la chronique véridique, le doute s'effacera de ce territoire.",
-      "context": "Exhorter la jeunesse à s'approprier l'histoire locale pour préserver la paix."
+      "phrase_id": "p3",
+      "original": "u nyer ko yel ict-i",
+      "phonetic_api": "/u ɲɛr ko jɛl itʃɛti/",
+      "phonetic_simple": "OU NYÈR KO YÈL I-TCHÈ-TI",
+      "translation": "Il traversa vers le hameau qui était là.",
+      "context": "Passage attesté du récit historique de Tomro, illustrant la narration au passé (Childs 2011, appendice 1)."
     },
     {
-      "phrase_id": "p25_4",
-      "original": "Fɛ-fɔkɔ lan-fɔkɔ wo-ce fɔkɔ, mora-wo haani-lɔ-wo kpeerɛ-woŋ.",
-      "phonetic_api": "/fɛ fɔ.kɔ lan fɔ.kɔ wo tʃe fɔ.kɔ mo.ra wo haː.ni lɔ wo kpeː.rɛ woŋ/",
-      "phonetic_simple": "FÈ-FƆ-KƆ LAN-FƆ-KƆ WO-TCHÉ FƆ-KƆ, MO-RA-WO HAA-NI-LƆ-WO KPEE-RÈ-WONG",
-      "translation": "Bien que la grande marée eût pu tout emporter, les ancêtres avaient fermement maintenu la fondation de notre cité.",
-      "context": "Valoriser la résilience historique face aux épreuves climatiques ou militaires passées."
+      "phrase_id": "p4",
+      "original": "u-sal cɛ ko cɛ nun ubɔmun bɔŋ u tɔl",
+      "phonetic_api": "/usal tʃɛ ko tʃɛ nun ubɔmun bɔŋ u tɔl/",
+      "phonetic_simple": "OU-SAL TCHÉ KO TCHÉ NOUN OU-BO-MOUN BONG OU TOL",
+      "translation": "Le fleuve était encore haut, alors il descendit (par un autre chemin).",
+      "context": "Deuxième phrase attestée du récit historique de Tomro, illustrant la cohésion narrative par juxtaposition de propositions (Childs 2011, appendice 1)."
     }
   ],
   "grammar_points": [
     {
-      "concept": "La double focalisation aspectuelle du passé dans le récit mémoriel",
-      "explanation": "Pour désigner des faits historiques immémoriaux en Mani supérieur, on combine la marque de l'accompli 'wo' directement suffixée au nom de l'acteur ('mora-wo' = l'homme du passé / l'ancêtre), tandis que le verbe conserve sa structure de parfait composé pour insister sur l'impact permanent du témoignage présent.",
+      "concept": "Le corpus littéraire mani disponible pour l'analyse",
+      "explanation": "La documentation académique actuelle sur le mani, essentiellement issue du travail de terrain de G. Tucker Childs (Mani Documentation Project, Portland State University), comprend un texte long central : le chant funéraire pour Yafondo composé par Morlaye Boyo Keita, entièrement translittéré et glosé dans Childs (2011). C'est la principale ressource pour analyser un texte littéraire mani authentique, faute d'autres corpus écrits disponibles.",
       "rules": [
-        "Nom de l'ancêtre / de l'acteur d'histoire : Nom (mora) + Marqueur de passé (wo).",
-        "L'antériorité du fait mémoriel s'exprime par la soudure structurelle : Radical verbal + Marqueur d'intention + wo."
+        "L'analyse de texte en mani doit s'appuyer sur des sources glosées mot à mot pour être fiable (interlinéarisation).",
+        "Le texte funéraire alterne descriptions factuelles (Perfectif) et appels émotionnels (registre soutenu)."
       ],
       "examples": [
         {
-          "structure": "mora-wo taliŋ",
-          "phonetic_api": "/mo.ra wo ta.liŋ/",
-          "meaning": "l'histoire des ancêtres (la chronique ancienne)"
+          "structure": "boli + [temps], [proposition]",
+          "phonetic_api": "/boli .../",
+          "meaning": "structure d'ouverture narrative attestée"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Tɔgɔfɛ (Le Maître d'Histoire)",
-      "text": "Bami-ee, tuli kɔŋ ! Hɔnkɔ lɔ, n ce kperɛ-woŋ taliŋ gbun. Taliŋ lɔ, a bɛ ni kpeerɛ-woŋ cɛm.",
-      "phonetic_api": "/ba.mi eː tu.li kɔŋ hɔn.kɔ lɔ n̩ tʃe kpe.rɛ woŋ ta.liŋ ɡbun ta.liŋ lɔ a bɛ ni kpeː.rɛ woŋ tʃɛm/",
-      "phonetic_simple": "BA-MI-ÉÉ, TOU-LI KONG ! HON-KƆ LƆ, N TCHÉ KPE-RÈ-WONG TA-LING GBOUN. TA-LING LƆ, A BÈ NI KPEE-RÈ-WONG TCHÈM.",
-      "translation": "Ô vénérables auditeurs, écoutez s'il vous plaît ! Aujourd'hui, je vais vous transmettre notre grande histoire. Ce récit plonge ses fondements au cœur même de notre berceau originel."
+      "speaker": "Enseignant",
+      "text": "boli gɔnɔ gɔ sɔyɔ, a sɔtmiŋ hati tatidɔl.",
+      "phonetic_api": "/boli gɔnɔ go sɔjo, a sɔtmiŋ hati tatidɔl/",
+      "phonetic_simple": "BO-LI GO-NO GO SO-YO, A SOT-MING HA-TI TA-TI-DOL",
+      "translation": "Depuis ce matin, je n'ai eu encore rien à manger."
     },
     {
-      "speaker": "Ousmane (L'Étudiant avancé)",
-      "text": "N tɔgɔfɛ, dɔŋɔ na yoma-ra. Mora-wo wo-ce wɔli-la nɛ, xa lan-fɔkɔ wo-ce fɔkɔ bɛŋ-la-woŋ cɛm ?",
-      "phonetic_api": "/n̩ tɔ.ɡɔ.fɛ ɡbun ɗɔ.ŋɔ na jo.ma ra mo.ra wo wo tʃe wɔ.li la nɛ xa lan fɔ.kɔ wo tʃe fɔ.kɔ bɛŋ la woŋ tʃɛm/",
-      "phonetic_simple": "N TO-GO-FÈ, DƆ-NGƆ NA YO-MA-RA. MO-RA-WO WO-TCHÉ WƆ-LI-LA NÈ, KHA LAN-FƆ-KƆ WO-TCHÉ FƆ-KƆ BÈNG-LA-WONG TCHÈM ?",
-      "translation": "Mon maître, ta parole est une vérité absolue. Qu'auraient dû faire nos ancêtres si la grande marée avait totalement envahi le milieu de notre territoire ?"
+      "speaker": "Étudiant",
+      "text": "nyɔyɛ kimɔ hali fo mo we?",
+      "phonetic_api": "/ɲɔjɛ kimɔ hali fo mo wɛ/",
+      "phonetic_simple": "NYO-YÈ KI-MO HA-LI FO MO WÈ",
+      "translation": "Pourquoi dit-on cela ? (structure reconstruite à partir de mots attestés séparément)"
     },
     {
-      "speaker": "Tɔgɔfɛ (Le Maître d'Histoire)",
-      "text": "Mora-wo haani-lɔ-wo kpeerɛ-woŋ fɔkɔ-fɛ tɔgɔ-gbun bɛ ni yoma. Lɔ-fɔkɔ-fɛ yoma-ra-taliŋ na lɔ.",
-      "phonetic_api": "/mo.ra wo haː.ni lɔ wo kpeː.rɛ woŋ fɔ.kɔ fɛ tɔ.ɡɔ ɡbun bɛ ni jo.ma lɔ fɔ.kɔ fɛ jo.ma ra ta.liŋ na lɔ/",
-      "phonetic_simple": "MO-RA-WO HAA-NI-LƆ-WO KPEE-RÈ-WONG FƆ-KƆ-FÈ TO-GO-GBOUN BÈ NI YO-MA. LƆ-FƆ-KƆ-FÈ YO-MA-RA-TA-LING NA LƆ.",
-      "translation": "Les ancêtres avaient inébranlablement maintenu notre fondation car la loi suprême garantissait l'harmonie. Par conséquent, la chronique historique véridique est restée gravée ici."
+      "speaker": "Étudiant 2",
+      "text": "upɔk ce iwis wɔ la, gɔ asosa ce galɛ mali yɔ.",
+      "phonetic_api": "/upɔk tʃɛ iwis wɔ la gɔ asosa tʃɛ galɛ mali jɔ/",
+      "phonetic_simple": "OU-POK TCHÉ I-WIS WO LA, GO A-SO-SA TCHÉ GA-LÈ MA-LI YO",
+      "translation": "L'hippopotame est l'animal que les Soso appellent « mali ». (attesté, Childs 2011, appendice 1)"
     },
     {
-      "speaker": "Ousmane (L'Étudiant avancé)",
-      "text": "Cece n tɔgɔfɛ ! N ce ɲinin taliŋ lɔ ni tunkɛ gbun fɔkɔ-fɛ a kperɛ mi yoma-ra. Gbana !",
-      "phonetic_api": "/tʃe.tʃe n̩ tɔ.ɡɔ.fɛ n̩ tʃe ɲi.nin ta.liŋ lɔ ni tun.kɛ ɡbun fɔ.kɔ fɛ a kpe.rɛ mi jo.ma ra ɡba.na/",
-      "phonetic_simple": "TCHÉ-TCHÉ N TO-GO-FÈ ! N TCHÉ NYI-NIN TA-LING LƆ NI TOUN-KÈ GBOUN FƆ-KƆ-FÈ A KPE-RÈ MI YO-MA-RA. GBA-NA !",
-      "translation": "Merci infiniment mon maître ! Je vais étudier cette chronique historique avec une joie immense car elle m'apporte la certitude absolue. Au revoir !"
+      "speaker": "Enseignant 2",
+      "text": "gɔnɔ pel yɔ mɔkɛ ndɔɛ nra nɛt, ndik nɛt ma gbɛn wɔ yeti.",
+      "phonetic_api": "/gɔnɔ pɛl jɔ mɔkɛ ndɔɛ nra nɛt ndik nɛt ma gbɛn wɔ jɛti/",
+      "phonetic_simple": "GO-NO PÈL YO MO-KÈ N-DO-È N-RA NÈT, N-DIK NÈT MA GBÈN WO YÈ-TI",
+      "translation": "Après trois jours de chasse, la faim le saisit vraiment. (attesté, Childs 2011, appendice 1, récit de Tomro)"
     }
   ],
   "cultural_notes": [
-    "Pour la communauté Mani, l'histoire n'est pas une simple chronologie linéaire de faits révolus, mais un patrimoine vivant doté d'une force agissante. Les récits de fondation ('taliŋ') rappellent le pacte originel signé entre les ancêtres ('mora-wo') et les forces de la nature pour stabiliser le territoire ('bɛŋ-la-woŋ') face à l'océan. Maîtriser cette mémoire textuelle confère une légitimité politique suprême lors des arbitrages."
+    "Le Mani Documentation Project, mené par G. Tucker Childs (Portland State University) avec le soutien d'organismes de documentation des langues en danger, a permis de fixer par écrit les derniers grands textes oraux mani avant leur possible disparition.",
+    "Il n'existe, à la connaissance des sources consultées, aucune tradition d'écriture historique ou littéraire mani antérieure à ce travail de documentation linguistique du XXIe siècle."
   ],
   "exercises": [
     {
-      "exercise_id": "ex25_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel substantif Mani désigne spécifiquement une 'chronique historique', une 'histoire ancienne' ou un récit fondateur ?",
+      "question": "Quel est le principal texte littéraire mani disponible pour l'analyse académique ?",
       "options": [
-        "wɔli",
-        "taliŋ",
-        "guba"
+        "le chant funéraire pour Yafondo",
+        "un roman historique",
+        "une épopée royale"
       ],
-      "correct_answer": "taliŋ",
-      "explanation": "'Taliŋ' est le terme précis réservé à l'histoire, au récit patrimonial et aux chroniques du passé."
+      "correct_answer": "le chant funéraire pour Yafondo",
+      "explanation": "Ce chant, composé par Morlaye Boyo Keita, est glosé intégralement dans Childs (2011) et constitue la ressource littéraire de référence."
     },
     {
-      "exercise_id": "ex25_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "[ ___ ] kperɛ-wo-mi tɔgɔ-gbun. (Les ancêtres m'ont légué la loi immuable).",
-      "correct_answer": "mora-wo",
-      "hint": "Expression combinant le substantif humain et la marque grammaticale du passé pour désigner les ancêtres."
+      "sentence_with_blank": "boli gɔnɔ gɔ sɔyɔ, a [ ___ ] hati tatidɔl. (Depuis ce matin, je n'ai eu encore rien à manger.)",
+      "correct_answer": "sɔtmiŋ",
+      "hint": "Forme verbale attestée exprimant l'absence persistante de quelque chose."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Childs, G. Tucker (2011), A Grammar of Mani, Mouton Grammar Library 54, De Gruyter Mouton",
+      "url": "https://theswissbay.ch/pdf/Books/Linguistics/Mega%20linguistics%20pack/African/Niger-Congo/other%20Atlantic-Congo/Bullom%20So;%20A%20Grammar%20of%20Mani%20(Childs).pdf"
+    },
+    {
+      "label": "PDXScholar — Mani, a Disappearing Language of Sierra Leone and Guinea (Childs et al., corpus et matériel pédagogique)",
+      "url": "https://pdxscholar.library.pdx.edu/mani/"
+    }
+  ],
+  "confidence": "faible",
+  "confidence_note": "Le texte funéraire de référence est authentique et bien documenté, mais le corpus littéraire mani global reste extrêmement restreint ; la réplique de l'étudiant est une reconstruction pédagogique non attestée telle quelle."
 }

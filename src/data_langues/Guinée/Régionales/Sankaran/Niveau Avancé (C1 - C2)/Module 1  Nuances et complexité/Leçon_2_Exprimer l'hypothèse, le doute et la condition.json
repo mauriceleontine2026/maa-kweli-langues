@@ -6,205 +6,264 @@
   "lesson_number": 2,
   "title": "Exprimer l'hypothèse, le doute et la condition",
   "learning_objectives": [
-    "Exprimer un doute profond ou une incertitude radicale face à un événement",
-    "Formuler des hypothèses alternatives complexes et des conditions restrictives",
-    "Manipuler les adverbes d'éventualité et les structures interrogatives dubitatives"
+    "Construire une phrase conditionnelle avec 'ni ... ka/ba'",
+    "Utiliser le conditionnel 'báa' pour une hypothèse contraire à la réalité",
+    "Exprimer le doute avec des tournures atténuées",
+    "Distinguer condition réelle et condition irréelle"
   ],
   "phonetic_focus": {
-    "key_sounds": "L'expression du doute met en relief le terme pivot 'Sikɛ' /si.kɛ/ (douter) qui demande des voyelles brèves et sèches. Le terme d'éventualité 'Tukan' /tu.kan/ ou 'Nbaara' emploie une nasale finale alvéolaire claire. Le morphème dubitatif 'Mankɛan' /man.kɛ.an/ exige un enchaînement fluide de ses trois voyelles.",
-    "common_pitfalls": "Veillez à ne pas nasaliser indûment le 'si' de 'sikɛ'. La transition entre la fricative alvéolaire et la voyelle haute doit être nette avant l'attaque de l'occlusive."
+    "key_sounds": [
+      "Le [ni] initial de la subordonnée conditionnelle, à bien détacher de la principale",
+      "Le ton bas-haut de 'báa' (conditionnel irréel), à ne pas confondre avec 'bada' (accompli)",
+      "La particule 'ka/ba' à l'intérieur de la subordonnée, qui varie selon le dialecte",
+      "Le système temps-aspect-mode attesté dans le parler du Sankaran/Faranah par Spears utilise des marques proches du maninka standard (di = futur, ka = passé/accompli transitif, ma = négation de l'accompli, te = négation de la copule, tere = marque du passé antérieur/révolu) ; les préfixes verbaux causatifs La~ (causatif à agent connu) et ma~ (causatif à agent humain), ainsi que ra~ (intensif), sont des traits morphologiques documentés spécifiquement pour ce parler."
+    ],
+    "common_pitfalls": [
+      "Oublier d'utiliser 'ni' en tête de la subordonnée conditionnelle, structure obligatoire pour marquer l'hypothèse",
+      "Confondre condition réelle (ni + présent/futur) et condition irréelle/hypothétique (báa), qui demandent des marques différentes"
+    ]
   },
   "vocabulary": [
     {
-      "word_id": "v20_1",
-      "term": "Sikɛ",
-      "phonetic_api": "/si.kɛ/",
-      "phonetic_simple": "SI-KƐ",
-      "translation": "Douter / Soupçonner / Incertitude / Hésitation",
-      "example_sentence": "N sikɛra ko nin ma.",
-      "example_phonetic": "/ɲ si.kɛ.ra ko nin ma/",
-      "example_translation": "Je doute de cette affaire."
+      "word_id": "v1",
+      "term": "ni (si, condition)",
+      "phonetic_api": "[ni]",
+      "phonetic_simple": "ni",
+      "translation": "si (introduit une condition)",
+      "example_sentence": "Ni sanji na, n tè taa.",
+      "example_phonetic": "[ni sandʒi na n tɛ taː]",
+      "example_translation": "S'il pleut, je n'irai pas."
     },
     {
-      "word_id": "v20_2",
-      "term": "Sikɛtanya",
-      "phonetic_api": "/si.kɛ.tan.ja/",
-      "phonetic_simple": "SI-KƐ-TANE-YA",
-      "translation": "Certitude / Sans aucun doute (litt: état de sans doute)",
-      "example_sentence": "Sikɛtanya be n bolo.",
-      "example_phonetic": "/si.kɛ.tan.ja be ɲ bo.lo/",
-      "example_translation": "J'en ai la certitude absolue."
+      "word_id": "v2",
+      "term": "báa (conditionnel irréel)",
+      "phonetic_api": "[báa]",
+      "phonetic_simple": "ba-a",
+      "translation": "marque du conditionnel irréel (si + imparfait)",
+      "example_sentence": "Ń báa a lɔ́n, ń tùn dí a fɔ́.",
+      "example_phonetic": "[ń báa a lɔn ń tùn dí a fɔ]",
+      "example_translation": "Si je le savais, je le dirais."
     },
     {
-      "word_id": "v20_3",
-      "term": "Tukan / Tukandi",
-      "phonetic_api": "/tu.kan/",
-      "phonetic_simple": "TOU-KANE",
-      "translation": "Peut-être / Probablement / Éventuellement",
-      "example_sentence": "Tukan a be na na sini.",
-      "example_phonetic": "/tu.kan a be na na si.ni/",
-      "example_translation": "Peut-être qu'il viendra demain."
+      "word_id": "v3",
+      "term": "n'a fɔ́ (peut-être, à supposer que)",
+      "phonetic_api": "[n a fɔ]",
+      "phonetic_simple": "n-a-fo",
+      "translation": "à supposer que, mettons que",
+      "example_sentence": "N'a fɔ́ i tɛ nà, an dí to yan.",
+      "example_phonetic": "[n a fɔ i tɛ nà an dí to yan]",
+      "example_translation": "Si jamais tu ne viens pas, nous resterons ici."
     },
     {
-      "word_id": "v20_4",
-      "term": "Mankɛan",
-      "phonetic_api": "/man.kɛ.an/",
-      "phonetic_simple": "MANE-KƐ-ANE",
-      "translation": "À moins que / Sauf si / S'il ne se trouve que",
-      "example_sentence": "Mankɛan ni san nana, n be wa na.",
-      "example_phonetic": "/man.kɛ.an ni san na.na ɲ be wa na/",
-      "example_translation": "À moins qu'il ne pleuve, j'irai."
+      "word_id": "v4",
+      "term": "kɔni (mais, tout de même)",
+      "phonetic_api": "[kɔni]",
+      "phonetic_simple": "ko-ni",
+      "translation": "mais, cependant (nuance de doute/réserve)",
+      "example_sentence": "A bɛ se ka nà, kɔni a tɛ dan.",
+      "example_phonetic": "[a bɛ se ka nà kɔni a tɛ dan]",
+      "example_translation": "Il peut venir, mais ce n'est pas sûr."
     },
     {
-      "word_id": "v20_5",
-      "term": "Namasan",
-      "phonetic_api": "/na.ma.san/",
-      "phonetic_simple": "NA-MA-SANE",
-      "translation": "Au cas où / Si jamais par hasard",
-      "example_sentence": "Namasan ni i ye a jɛn, a fɔ a yɛ.",
-      "example_phonetic": "/na.ma.san ni i je a d͡ʒɛn a fɔ a jɛ/",
-      "example_translation": "Au cas où tu le croiserais, dis-le-lui."
+      "word_id": "v5",
+      "term": "wo dɔrɔn ni... ",
+      "phonetic_api": "[wo dɔrɔn ni]",
+      "phonetic_simple": "wo-do-ron-ni",
+      "translation": "à condition que, à moins que",
+      "example_sentence": "Wo dɔrɔn ni a nada, an dí taa.",
+      "example_phonetic": "[wo dɔrɔn ni a nada an dí taː]",
+      "example_translation": "À condition qu'il vienne, nous partirons."
     },
     {
-      "word_id": "v20_6",
-      "term": "Kasi / Kasiya la",
-      "phonetic_api": "/ka.si.ja la/",
-      "phonetic_simple": "KA-SI-YA LA",
-      "translation": "Rarement / Il est peu probable que",
-      "example_sentence": "A be bɔ na yan kasiya la.",
-      "example_phonetic": "/a be bɔ na jan ka.si.ja la/",
-      "example_translation": "Il est peu probable qu'il parte d'ici."
+      "word_id": "v6",
+      "term": "sigina (peut-être)",
+      "phonetic_api": "[siɡina]",
+      "phonetic_simple": "si-gui-na",
+      "translation": "peut-être, probablement",
+      "example_sentence": "Sigina a dí nà.",
+      "example_phonetic": "[siɡina a dí nà]",
+      "example_translation": "Peut-être qu'il viendra."
     },
     {
-      "word_id": "v20_7",
-      "term": "Fasiman",
-      "phonetic_api": "/fa.si.man/",
-      "phonetic_simple": "FA-SI-MANE",
-      "translation": "Douteux / Suspect / Instable",
-      "example_sentence": "Mɔgɔ fasiman le nin di.",
-      "example_phonetic": "/mɔ.ɣɔ fa.si.man le nin di/",
-      "example_translation": "C'est une personne suspecte / changeante."
+      "word_id": "v7",
+      "term": "n tè da a la",
+      "phonetic_api": "[n tɛ da a la]",
+      "phonetic_simple": "n-tè-da-a-la",
+      "translation": "je n'y crois pas, j'en doute",
+      "example_sentence": "N tè da a la, a dí se ka baara ban bi.",
+      "example_phonetic": "[n tɛ da a la a dí se ka baːra ban bi]",
+      "example_translation": "J'en doute, qu'il puisse finir le travail aujourd'hui."
     },
     {
-      "word_id": "v20_8",
-      "term": "Lanya",
-      "phonetic_api": "/lan.ja/",
-      "phonetic_simple": "LANE-YA",
-      "translation": "Faire confiance / Croire / Conviction",
-      "example_sentence": "N ma lanya sɔrɔ a kan la.",
-      "example_phonetic": "/m ma lan.ja sɔ.rɔ a kan la/",
-      "example_translation": "Je n'ai pas trouvé de confiance en sa parole."
+      "word_id": "v8",
+      "term": "kana miiri ko...",
+      "phonetic_api": "[kana miːri ko]",
+      "phonetic_simple": "ka-na-mi-i-ri-ko",
+      "translation": "ne pense pas que...",
+      "example_sentence": "Kana miiri ko a bada dan.",
+      "example_phonetic": "[kana miːri ko a bada dan]",
+      "example_translation": "Ne pense pas que ce soit sûr."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p20_1",
-      "original": "N te sɛbɛ ka n lanya di a ma, n sikɛra kosɛbɛ.",
-      "phonetic_api": "/_ɲ te sɛ.bɛ ka ɲ lan.ja di a ma ɲ si.kɛ.ra ko.sɛ.bɛ/",
-      "phonetic_simple": "N TÉ SƐ-BƐ KA N LANE-YA DI A MA, N SI-KƐ-RA KO-SƐ-BƐ.",
-      "translation": "Je ne peux pas lui accorder ma confiance, je doute profondément.",
-      "context": "Exprimer un scepticisme d'ordre diplomatique ou commercial face à une offre suspecte."
+      "phrase_id": "p1",
+      "original": "Ni sanji na, n tè taa",
+      "phonetic_api": "[ni sandʒi na n tɛ taː]",
+      "phonetic_simple": "ni-san-dji-na, n-tè-ta-a",
+      "translation": "S'il pleut, je n'irai pas",
+      "context": "Condition réelle (probable)"
     },
     {
-      "phrase_id": "p20_2",
-      "original": "Mankɛan ni wari tora n bolo, n te wa na so lɔ na siniŋali.",
-      "phonetic_api": "/man.kɛ.an ni wa.ri to.ra ɲ bo.lo ɲ te wa na so lɔ na si.ni.ŋa.li/",
-      "phonetic_simple": "MANE-KƐ-ANE NI WA-RI TO-RA N BO-LO, N TÉ WA NA SO LƆ NA SI-NI-NGA-LI.",
-      "translation": "À moins qu'il ne me reste de l'argent, je ne construirai pas de maison l'année prochaine.",
-      "context": "Introduction d'une condition restrictive absolue sur l'avenir."
+      "phrase_id": "p2",
+      "original": "Ń báa a lɔ́n, ń tùn dí a fɔ́",
+      "phonetic_api": "[ń báa a lɔn ń tùn dí a fɔ]",
+      "phonetic_simple": "n-ba-a-a-lon, n-toun-di-a-fo",
+      "translation": "Si je le savais, je le dirais",
+      "context": "Condition irréelle/hypothétique dans le présent"
     },
     {
-      "phrase_id": "p20_3",
-      "original": "Tukan a be tɔgɛ fɔ la, nka n te jaati lɔn fɔlɔ.",
-      "phonetic_api": "/tu.kan a be tɔ.ɣɛ fɔ la ŋ.ka ɲ te d͡ʒaː.ti lɔn fɔ.lɔ/",
-      "phonetic_simple": "TOU-KANE A BÉ TƆ-GƐ FƆ LA, NG-KA N TÉ DJAA-TI LƆNE FƆ-LƆ.",
-      "translation": "Peut-être qu'il dit la vérité, mais je n'en ai pas encore la certitude.",
-      "context": "Peser le pour et le contre au cours d'un arbitrage ou d'une délibération."
+      "phrase_id": "p3",
+      "original": "Sigina a dí nà",
+      "phonetic_api": "[siɡina a dí nà]",
+      "phonetic_simple": "si-gui-na-a-di-na",
+      "translation": "Peut-être qu'il viendra",
+      "context": "Exprimer le doute/l'incertitude sur un futur"
+    },
+    {
+      "phrase_id": "p4",
+      "original": "N tè da a la",
+      "phonetic_api": "[n tɛ da a la]",
+      "phonetic_simple": "n-tè-da-a-la",
+      "translation": "Je n'y crois pas / j'en doute",
+      "context": "Exprimer un doute ferme"
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Wo dɔrɔn ni a nada, an dí taa",
+      "phonetic_api": "[wo dɔrɔn ni a nada an dí taː]",
+      "phonetic_simple": "wo-do-ron-ni-a-na-da, an-di-ta-a",
+      "translation": "À condition qu'il vienne, nous partirons",
+      "context": "Condition restrictive"
     }
   ],
   "grammar_points": [
     {
-      "concept": "La construction de la restriction hypothétique exclusive avec 'Mankɛan ni...'",
-      "explanation": "Pour formuler une exception cruciale qui invalide une affirmation ('À moins que...', 'Sauf si...'), le Sankaran emploie le locution conjonctive complexe 'Mankɛan ni' placée impérativement à l'amorce de la clause restrictive.",
+      "concept": "La condition réelle avec 'ni'",
+      "explanation": "Pour exprimer une condition jugée réalisable, le maninka place 'ni' en tête de la subordonnée, suivie du verbe au présent/aoriste ; la principale utilise le présent, le futur ou l'impératif selon le sens visé.",
       "rules": [
-        "Structure : Mankɛan ni + Proposition restrictive + Proposition principale"
+        "Structure : Ni + [subordonnée], [principale]",
+        "La subordonnée avec 'ni' précède généralement la principale"
       ],
       "examples": [
         {
-          "structure": "Mankɛan ni a ye n sara, n te wa na.",
-          "phonetic_api": "/man.kɛ.an ni a je ɲ sa.ra ɲ te wa na/",
-          "meaning": "À moins qu'il ne me paie, je n'irais pas."
+          "structure": "Ni [subordonnée], [principale]",
+          "phonetic_api": "[ni]",
+          "meaning": "Si [condition], alors [conséquence]"
         }
       ]
     },
     {
-      "concept": "L'orientation du doute psychologique via la postposition 'ma'",
-      "explanation": "Le verbe 'sikɛ' (douter/soupçonner) fonctionne comme un prédicat d'état orienté. La cause, la personne ou l'objet sur lequel pèse l'incertitude est systématiquement introduit par la postposition de référence 'ma'.",
+      "concept": "Le conditionnel irréel avec 'báa'",
+      "explanation": "Lorsque la condition est présentée comme non réalisée ou peu probable (hypothèse contraire à la réalité), le maninka utilise la marque 'báa' dans la subordonnée, combinée à 'tùn dí' dans la principale.",
       "rules": [
-        "Structure : Sujet + sikɛra + [Objet du doute] + ma"
+        "Structure : [Sujet] báa [Verbe], [Sujet] tùn dí [Verbe]",
+        "Cette construction correspond à l'équivalent français 'si + imparfait, + conditionnel présent'"
       ],
       "examples": [
         {
-          "structure": "A sikɛra i ma.",
-          "phonetic_api": "/a si.kɛ.ra i ma/",
-          "meaning": "Il a douté de toi / Il te soupçonne."
+          "structure": "[Sujet] báa [Verbe], [Sujet] tùn dí [Verbe]",
+          "phonetic_api": "[báa]",
+          "meaning": "Si [sujet] [verbe]ait, [sujet] [verbe]rait"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Sekou",
-      "text": "Lamine, i lanyara ko kura nin kan la bang? A fɔra ko an be wari ba sɔrɔ na baara nin la.",
-      "phonetic_api": "/la.min i lan.ja.ra ko ku.ra nin kan la baŋ | a fɔ.ra ko an be wa.ri ba sɔ.rɔ na baː.ra nin la/",
-      "phonetic_simple": "LA-MINE, I LANE-YA-RA KO KOU-RA NINE KANE LA BANGE ? A FƆ-RA KO ANE BÉ WA-RI BA SƆ-RƆ NA BAA-RA NINE LA.",
-      "translation": "Lamine, crois-tu en cette nouvelle affaire ? Il se dit que nous gagnerons beaucoup d'argent avec ce travail."
+      "speaker": "Oumar",
+      "text": "Ni sanji na sini, i dí taa sènè ma ?",
+      "phonetic_api": "[ni sandʒi na sini i dí taː sɛnɛ ma]",
+      "phonetic_simple": "ni-san-dji-na-si-ni, i-di-ta-a-sè-nè-ma",
+      "translation": "S'il pleut demain, iras-tu au champ ?"
     },
     {
-      "speaker": "Lamine",
-      "text": "Nba, Sekou. N sikɛra ko nin ma kosɛbɛ. Mɔgɔ feerewula nin mu m Mɔgɔ lɔnman di, a kan lu ka fasiman.",
-      "phonetic_api": "/ɲ.ba se.ku | ɲ si.kɛ.ra ko nin ma ko.sɛ.bɛ | mɔ.ɣɔ feː.re.wu.la nin mu m mɔ.ɣɔ lɔn.man di a kan lu ka fa.si.man/",
-      "phonetic_simple": "NBA, SÉ-KOU. N SI-KƐ-RA KO NINE MA KO-SƐ-BƐ. MƆ-GƆ FEE-RÉ-WOU-LA NINE MOU N MƆ-GƆ LƆNE-MANE DI, A KANE LOU KA FA-SI-MANE.",
-      "translation": "Eh bien, Sekou. Je doute énormément de cette histoire. Ce démarcheur n'est pas quelqu'un de connu pour moi, ses propos sont suspects."
+      "speaker": "Néné",
+      "text": "N tè da a la, sigina n tè taa.",
+      "phonetic_api": "[n tɛ da a la siɡina n tɛ taː]",
+      "phonetic_simple": "n-tè-da-a-la, si-gui-na-n-tè-ta-a",
+      "translation": "J'en doute, peut-être que je n'irai pas."
     },
     {
-      "speaker": "Sekou",
-      "text": "Tukan a be tɔgɛ fɔ la. Ni an ma a nɛnɛ, an te lɔn na gba di.",
-      "phonetic_api": "/tu.kan a be tɔ.ɣɛ fɔ la | ni an ma a nɛ.nɛ an te lɔn na ɡ͡ba di/",
-      "phonetic_simple": "TOU-KANE A BÉ TƆ-GƐ FƆ LA. NI ANE MA A NƐ-NƐ, ANE TÉ LƆNE NA GBA DI.",
-      "translation": "Peut-être qu'il dit vrai. Si nous n'essayons pas, nous ne saurons jamais de quoi il en retourne exactement."
+      "speaker": "Oumar",
+      "text": "Wo dɔrɔn ni tele bɔra, an dí taa ɲɔgɔn fɛ.",
+      "phonetic_api": "[wo dɔrɔn ni tele bɔra an dí taː ɲɔɡɔn fɛ]",
+      "phonetic_simple": "wo-do-ron-ni-té-lé-bo-ra, an-di-ta-a-nyo-gon-fè",
+      "translation": "À condition que le soleil sorte, nous irons ensemble."
     },
     {
-      "speaker": "Lamine",
-      "text": "Awo, nka mankɛan ni n ye sikɛtanya sɔrɔ, n te n wari di na a ma. N kani n kɔnɔna lɔn fɔlɔ.",
-      "phonetic_api": "/a.wo ŋ.ka man.kɛ.an ni ɲ je si.kɛ.tan.ja sɔ.rɔ ɲ te ɲ wa.ri di na a ma | ɲ ka.ni ɲ kɔ.nɔ.na lɔn fɔ.lɔ/",
-      "phonetic_simple": "A-WO, NG-KA MANE-KƐ-ANE NI N YÉ SI-KƐ-TANE-YA SƆ-RƆ, N TÉ N WA-RI DI NA A MA. N KA-NI N KƆ-NƆ-NA LƆNE FƆ-LƆ.",
-      "translation": "Oui, mais à moins d'avoir une certitude absolue, je ne lui donnerai pas mon argent. Je dois d'abord en avoir le cœur net."
+      "speaker": "Néné",
+      "text": "N báa lɔn, n tùn dí nà i fɛ.",
+      "phonetic_api": "[n báa lɔn n tùn dí nà i fɛ]",
+      "phonetic_simple": "n-ba-a-lon, n-toun-di-na-i-fè",
+      "translation": "Si je savais, je viendrais avec toi."
     }
   ],
   "cultural_notes": [
-    "Dans l'éthique des affaires et des relations sociales au Sankaran, manifester une confiance aveugle et immédiate ('lanya') envers un inconnu est jugé imprudent. Le doute constructif ('sikɛ') est perçu comme une marque de maturité d'esprit et de sagesse, protégeant le patrimoine de la famille élargie.",
-    "Lors des litiges fonciers ou communautaires, l'usage d'adverbes de modération comme 'tukan' (peut-être) permet de suspendre son jugement et d'éviter les affirmations péremptoires qui pourraient envenimer les débats sous l'arbre à palabres."
+    "Les structures conditionnelles précises (réelle vs. irréelle) relèvent d'un usage soutenu du maninka, souvent réservé aux discussions argumentées ou aux discours réfléchis, d'où leur place au niveau avancé ([Malinkuia](https://fr.scribd.com/document/499114939/Malinkuia), [Vydrin, Mandenkan 70](https://journals.openedition.org/mandenkan/pdf/3253)).",
+    "Note dialectale (Sankaran) : cette leçon présente le maninka du Sankaran, parlé traditionnellement dans la région historique du Sankaran, aujourd'hui la préfecture et région de Faranah (Haute-Guinée), berceau historique du clan Condé et zone antérieure au Mandén selon la tradition orale. Le sankaran (ISO 639-3 msc) est très proche du malinké/maninka standard de Kankan, avec lequel il est mutuellement intelligible ; les mots et structures de cette leçon reflètent ce fonds commun du maninka de l'Est, complété par les spécificités phonologiques et grammaticales du parler de Faranah documentées par Spears (voir sources)."
   ],
   "exercises": [
     {
-      "exercise_id": "ex20_1",
-      "type": "multiple_choice",
-      "question": "Quelle locution conjonctive devez-vous employer pour exprimer : 'À moins que tu ne l'accompagnes...' ?",
-      "options": [
-        "Namasan ni i...",
-        "Mankɛan ni i...",
-        "Tukan ni i..."
-      ],
-      "correct_answer": "Mankɛan ni i...",
-      "explanation": "'Mankɛan ni' introduit de façon exclusive une condition restrictive ou une exception en langue Sankaran."
+      "exercise_id": "e1",
+      "type": "traduction",
+      "question": "Traduisez : 'S'il pleut, je n'irai pas.'",
+      "correct_answer": "Ni sanji na, n tè taa.",
+      "explanation": "Condition réelle : Ni + subordonnée, + principale au présent/futur."
     },
     {
-      "exercise_id": "ex20_2",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Pour dire 'Je doute de ses propos', on formule : N [ ___ ] ra a kan ma.",
-      "correct_answer": "sikɛ",
-      "hint": "Verbe d'état lié à l'incertitude, composé de quatre lettres et commençant par s."
+      "exercise_id": "e2",
+      "type": "choix_multiple",
+      "question": "Quelle marque introduit un conditionnel irréel (hypothèse contraire à la réalité) ?",
+      "options": [
+        "ni",
+        "báa",
+        "kana",
+        "tè"
+      ],
+      "correct_answer": "báa",
+      "explanation": "'báa' marque une hypothèse jugée irréelle ou peu probable, contrairement à 'ni' qui introduit une condition réelle."
+    },
+    {
+      "exercise_id": "e3",
+      "type": "texte_a_trous",
+      "sentence_with_blank": "N ___ da a la.  (Je n'y crois pas.)",
+      "correct_answer": "tè",
+      "hint": "C'est la négation du présent, utilisée dans l'expression figée du doute."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Ethnologue — Maninka, Sankaran [msc]",
+      "url": "https://www.ethnologue.com/language/msc/"
+    },
+    {
+      "label": "Glottolog 5.3 — Sankaran Maninka [sank1253]",
+      "url": "https://glottolog.org/resource/languoid/id/sank1253"
+    },
+    {
+      "label": "Wikipédia — Sankaran (langue, msc)",
+      "url": "https://fr.wikipedia.org/wiki/Sankaran"
+    },
+    {
+      "label": "Spears, R. A. — The Structure of Faranah-Maninka (Indiana University, description structurale du parler de Faranah, historiquement le Sankaran)",
+      "url": "https://theswissbay.ch/pdf/Books/Linguistics/Mega%20linguistics%20pack/African/Niger-Congo/Mande/Maninka,%20The%20Structure%20of%20Faranah-%20(Spears).pdf"
+    },
+    {
+      "label": "Vydrin (2023) — Le TAM en maninka de Guinée : la zone du futur, Mandenkan 70",
+      "url": "https://journals.openedition.org/mandenkan/pdf/3253"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Vocabulaire et grammaire de base communs au maninka/malinké standard de Guinée (fonds partagé du continuum maninka de l'Est, confirmé pour le Sankaran par Ethnologue, Glottolog et Vydrin). Les points signalés comme « spécifiques au Sankaran » dans cette leçon proviennent de la description structurale du Faranah-Maninka par Spears (Indiana University), seule étude dédiée disponible pour ce parler ; elle date des années 1960-70 et repose sur un informateur unique, d'où une confiance modérée plutôt qu'élevée."
 }

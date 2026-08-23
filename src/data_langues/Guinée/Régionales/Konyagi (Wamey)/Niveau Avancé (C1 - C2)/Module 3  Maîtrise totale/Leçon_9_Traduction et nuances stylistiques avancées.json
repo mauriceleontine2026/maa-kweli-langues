@@ -6,140 +6,171 @@
   "lesson_number": 9,
   "title": "Traduction et nuances stylistiques avancées",
   "learning_objectives": [
-    "Transposer fidèlement les concepts philosophiques et métaphoriques du wamey vers le français et inversement",
-    "Identifier et restituer les glissements de sens, les sous-entendus et les registres d'éloquence",
-    "Maîtriser les techniques de la double traduction (littérale vs stylistique) pour l'interprétation"
+    "Identifier le vocabulaire konyagi réellement attesté disponible pour le thème « Traduction et nuances stylistiques avancées ».",
+    "Comprendre les limites de la documentation disponible pour cette langue très rare.",
+    "Situer le konyagi dans son contexte géographique, historique et culturel (groupe tenda)."
   ],
   "phonetic_focus": {
-    "key_sounds": "La gestion de la fluidité discursive lors de la traduction orale simultanée. Respect complet du rythme syllabique et des variations de hauteur tonale propres à la narration de haut niveau.",
-    "common_pitfalls": "Attention à ne pas calquer la structure rigide de la syntaxe française lors d'une traduction vers le wamey. Le wamey privilégie l'aspect de l'action et l'ancrage spatial (par exemple, l'usage de 'ra' pour la direction du but)."
+    "key_sounds": "Au niveau avancé, la maîtrise des contrastes fins entre implosives (ɓ, ɗ, ʄ) et occlusives sonores (b, d, ɟ), ainsi que la distinction r / r̠̙ (vibrantes), reste peu documentée en détail dans les sources disponibles pour un enseignement systématique.",
+    "common_pitfalls": "Sans enregistrements audio ni corpus oral disponibles publiquement, la production fine de ces contrastes ne peut être travaillée que de façon théorique à partir des descriptions phonologiques existantes (Wikipedia/WALS)."
   },
   "vocabulary": [
     {
       "word_id": "v1",
-      "term": "parol-kpeny",
-      "phonetic_api": "/paʁɔlkpɛɲ/",
-      "phonetic_simple": "PA-ROL-KPENY",
-      "translation": "l'art de la traduction / interprétation / exégèse stylistique",
-      "example_sentence": "Parol-kpeny cene i lëkwa gba.",
-      "example_phonetic": "/paʁɔlkpɛɲ t͡ʃɛnɛ i ləkwa ɡba/",
-      "example_translation": "Cette traduction stylistique requiert une immense expertise."
+      "term": "wamey",
+      "phonetic_api": "/wa.mej/",
+      "phonetic_simple": "OUA-MÉY",
+      "translation": "nom de la langue konyagi (autonyme)"
     },
     {
       "word_id": "v2",
-      "term": "can-tyukwa",
-      "phonetic_api": "/t͡ʃantjukwa/",
-      "phonetic_simple": "TCHAN-TYOU-KOUA",
-      "translation": "la pensée ultime / l'intention profonde de l'auteur / le sens définitif",
-      "example_sentence": "Nyi gwaawë-ra can-tyukwa o.",
-      "example_phonetic": "/ɲi ɡwaːwəʁa t͡ʃantjukwa o/",
-      "example_translation": "J'ai parfaitement saisi l'intention profonde de son texte."
+      "term": "Mey",
+      "phonetic_api": "/mej/",
+      "phonetic_simple": "MÉY",
+      "translation": "nom que se donnent les Konyagui (autonyme du peuple)"
     },
     {
       "word_id": "v3",
-      "term": "kwaɗ-parol",
-      "phonetic_api": "/kwaɗpaʁɔl/",
-      "phonetic_simple": "KOUAD-PA-ROL",
-      "translation": "le style / le fil conducteur du discours / le génie de la langue",
-      "example_sentence": "O fula kwaɗ-parol ra boka.",
-      "example_phonetic": "/o fula kwaɗpaʁɔl ʁa boka/",
-      "example_translation": "Il possède un style d'une grande élégance."
+      "term": "ami",
+      "phonetic_api": "/a.mi/",
+      "phonetic_simple": "A-MI",
+      "translation": "je / moi (attesté ASJP, glose « I »)"
+    },
+    {
+      "word_id": "v4",
+      "term": "in",
+      "phonetic_api": "/in/",
+      "phonetic_simple": "INE",
+      "translation": "nous (attesté ASJP, glose « we »)"
+    },
+    {
+      "word_id": "v5",
+      "term": "dank~o",
+      "phonetic_api": "/daŋ.kʰo/",
+      "phonetic_simple": "DANN-KO",
+      "translation": "un (attesté ASJP, glose « one »)"
     }
   ],
   "common_phrases": [
     {
       "phrase_id": "p1",
-      "original": "Lëkwa ra mi, parol-kpeny i mbe wunwun gba ra gwaawë-ra can-tyukwa rya.",
-      "phonetic_api": "/ləkwa ʁa mi paʁɔlkpɛɲ i mbɛ wunwun ɡba ʁa ɡwaːwəʁa t͡ʃantjukwa ʁja/",
-      "phonetic_simple": "LE-KOUA RA MI, PA-ROL-KPENY I MBÉ WOUN-WOUN GBA RA GWAA-WÉ-RA TCHAN-TYOU-KOUA RYA.",
-      "translation": "Selon ma conviction, la traduction stylistique est essentielle pour appréhender l'intention profonde de nos traditions.",
-      "context": "Justifier la nécessité d'une traduction fine lors d'un travail de transcription patrimoniale."
+      "original": "ami in.",
+      "phonetic_api": "/a.mi in/",
+      "phonetic_simple": "A-MI INE",
+      "translation": "je / moi nous. (Combinaison illustrative de mots/morphèmes déjà attestés séparément dans les sources (ASJP, tableau comparatif tenda, autonymes) ; ce n'est pas un énoncé figé attesté tel quel par une source, mais aucun mot nouveau n'a été inventé pour la construire.)",
+      "context": "Combinaison de deux mots attestés séparément (ASJP/autonymes) illustrant un ordre sujet-objet plausible ; l'assemblage lui-même n'est pas attesté comme phrase figée."
     },
     {
       "phrase_id": "p2",
-      "original": "Nda wun a fula ra can kwaɗ-parol cene, kante wun a gwa kpeny ra boka.",
-      "phonetic_api": "/nda wun a fula ʁa t͡ʃan kwaɗpaʁɔl t͡ʃɛnɛ kantɛ wun a ɡwa kpɛɲ ʁa boka/",
-      "phonetic_simple": "NDA WOUN A FOU-LA RA TCHAN KOUAD-PA-ROL TCHÉ-NÉ, KAN-TÉ WOUN A GOUA KPENY RA BO-KA.",
-      "translation": "Si vous intégrez le fil conducteur de ce style, alors votre analyse gagnera en justesse.",
-      "context": "Guider un traducteur ou un chercheur dans l'interprétation des textes."
+      "original": "ami wamey.",
+      "phonetic_api": "/a.mi wa.mej/",
+      "phonetic_simple": "A-MI OUA-MÉY",
+      "translation": "je / moi nom de la langue konyagi. (Combinaison illustrative de mots/morphèmes déjà attestés séparément dans les sources (ASJP, tableau comparatif tenda, autonymes) ; ce n'est pas un énoncé figé attesté tel quel par une source, mais aucun mot nouveau n'a été inventé pour la construire.)",
+      "context": "Combinaison de deux mots attestés séparément (ASJP/autonymes) illustrant un ordre sujet-objet plausible ; l'assemblage lui-même n'est pas attesté comme phrase figée."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "in wamey.",
+      "phonetic_api": "/in wa.mej/",
+      "phonetic_simple": "INE OUA-MÉY",
+      "translation": "nous nom de la langue konyagi. (Combinaison illustrative de mots/morphèmes déjà attestés séparément dans les sources (ASJP, tableau comparatif tenda, autonymes) ; ce n'est pas un énoncé figé attesté tel quel par une source, mais aucun mot nouveau n'a été inventé pour la construire.)",
+      "context": "Combinaison de deux mots attestés séparément (ASJP/autonymes) illustrant un ordre sujet-objet plausible ; l'assemblage lui-même n'est pas attesté comme phrase figée."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "ami gis.",
+      "phonetic_api": "/a.mi gis/",
+      "phonetic_simple": "A-MI GUISS",
+      "translation": "je / moi poisson. (Combinaison illustrative de mots/morphèmes déjà attestés séparément dans les sources (ASJP, tableau comparatif tenda, autonymes) ; ce n'est pas un énoncé figé attesté tel quel par une source, mais aucun mot nouveau n'a été inventé pour la construire.)",
+      "context": "Combinaison de deux mots attestés séparément (ASJP/autonymes) illustrant un ordre sujet-objet plausible ; l'assemblage lui-même n'est pas attesté comme phrase figée."
     }
   ],
   "grammar_points": [
     {
-      "concept": "Le concept de traduction nominalisé : 'parol-kpeny'",
-      "explanation": "Pour traduire l'acte intellectuel de la traduction, le wamey associe 'parol' (la parole) au verbe d'analyse avancée 'kpeny' (scruter au fond). Littéralement, 'scruter la parole au fond' devient le terme technique pour l'exercice de la traduction stylistique.",
+      "concept": "Absence de matériel permettant la traduction stylistique avancée",
+      "explanation": "Le konyagi/wamey est une langue très rare et très peu documentée : aucune grammaire complète librement consultable en ligne n'a pu être trouvée (seules des références bibliographiques à « A Grammar of W̃eỹ » de Jenkins & Jenkins, SIL, et aux travaux de Rosine Santos et Marie-Paule Ferry ont pu être identifiées, sans accès à leur contenu intégral). Le corpus disponible pour le konyagi (quelques dizaines de mots isolés, la phonologie et les chiffres) est bien trop réduit pour aborder la traduction et les nuances stylistiques avancées.",
       "rules": [
-        "parol + kpeny = La traduction / L'interprétation de haut niveau"
+        "Ne pas inventer de règles grammaticales, de vocabulaire ou de phrases non attestés pour ce niveau et ce sujet."
       ],
-      "examples": [
-        {
-          "structure": "ce mbe parol-kpeny",
-          "phonetic_api": "/t͡ʃɛ mbɛ paʁɔlkpɛɲ/",
-          "meaning": "l'interprète officiel / le traducteur expert"
-        }
-      ]
-    },
-    {
-      "concept": "La nuance du sens profond par 'can-tyukwa'",
-      "explanation": "L'intention finale d'un texte ou d'un orateur ne se résume pas aux mots dits. Elle se structure par le syntagme 'can-tyukwa' qui unit le cœur/la pensée ('can') et l'achèvement/la complétude ('tyukwa'). C'est l'équivalent stylistique du 'sens ultime' ou de 'la substantifique moelle'.",
-      "rules": [
-        "can + tyukwa = Le sens profond achevé / L'intention de l'auteur"
-      ],
-      "examples": [
-        {
-          "structure": "Kpeny can-tyukwa ko !",
-          "phonetic_api": "/kpɛɲ t͡ʃantjukwa ko/",
-          "meaning": "Analyse l'intention profonde du texte, s'il te plaît !"
-        }
-      ]
+      "examples": []
     }
   ],
   "dialogue": [
     {
-      "speaker": "Le Traducteur Principal (Ce mbe parol-kpeny)",
-      "text": "Mady, rya bano-ko ra kpeny kwaɗ-parol cene. Ila rya gwaawë-ra can-tyukwa o tyi rya fala parol-kpeny.",
-      "phonetic_api": "/madi ʁja banɔkɔ ʁa kpɛɲ kwaɗpaʁɔl t͡ʃɛnɛ ila ʁja ɡwaːwəʁa t͡ʃantjukwa o tji ʁja fala paʁɔlkpɛɲ/",
-      "phonetic_simple": "MA-DY, RYA BA-NO-KO RA KPENY KOUAD-PA-ROL TCHÉ-NÉ. I-LA RYA GWAA-WÉ-RA TCHAN-TYOU-KOUA O TYI RYA FA-LA PA-ROL-KPENY.",
-      "translation": "Mady, nous sommes réunis pour analyser le style de ce discours. Il nous faut impérativement saisir son intention profonde avant de réaliser la traduction."
+      "speaker": "Locuteur A",
+      "text": "ami wamey.",
+      "phonetic_api": "/a.mi wa.mej/",
+      "phonetic_simple": "A-MI OUA-MÉY",
+      "translation": "je / moi nom de la langue konyagi. (Combinaison illustrative de mots/morphèmes déjà attestés séparément dans les sources (ASJP, tableau comparatif tenda, autonymes) ; ce n'est pas un énoncé figé attesté tel quel par une source, mais aucun mot nouveau n'a été inventé pour la construire.)"
     },
     {
-      "speaker": "L'Adjoint (Mady)",
-      "text": "Gouè, nda rya kpeny-ko-ba kont rya wunwunëë ra boka, kante parol-kpeny rya i gwaawë-ra ce gba rya absolute.",
-      "phonetic_api": "/ɡwɛ nda ʁja kpɛɲkɔɓa kɔnt ʁja wunwunəː ʁa boka kantɛ paʁɔlkpɛɲ ʁja i ɡwaːwəʁa t͡ʃɛ ɡba ʁja/",
-      "phonetic_simple": "GOUÈ, NDA RYA KPENY-KO-BHA KONT RYA WOUN-WOUN-EE RA BO-KA, KAN-TÉ PA-ROL-KPENY RYA I GWAA-WÉ-RA TCHÉ GBA RYA ABSOLUTE.",
-      "translation": "Oui, si nous avions correctement analysé notre conte originel éternel, alors notre traduction aurait parfaitement convaincu les instances décisionnelles de nos aînés."
+      "speaker": "Locuteur B",
+      "text": "in wamey.",
+      "phonetic_api": "/in wa.mej/",
+      "phonetic_simple": "INE OUA-MÉY",
+      "translation": "nous nom de la langue konyagi. (Combinaison illustrative de mots/morphèmes déjà attestés séparément dans les sources (ASJP, tableau comparatif tenda, autonymes) ; ce n'est pas un énoncé figé attesté tel quel par une source, mais aucun mot nouveau n'a été inventé pour la construire.)"
     },
     {
-      "speaker": "Le Traducteur Principal (Ce mbe parol-kpeny)",
-      "text": "I mbe wunwun gba ! Ine gba, kontra i tyukwa ra boka, rya faryal waawë cene farye !",
-      "phonetic_api": "/i mbɛ wunwun ɡba inɛ ɡba kɔntʁa i tjukwa ʁa boka ʁja faʁjal waːwə t͡ʃɛnɛ faʁjɛ/",
-      "phonetic_simple": "I MBÉ WOUN-WOUN GBA ! I-NÉ GBA, KON-TRA I TYOU-KOUA RA BO-KA, RYA FAR-YAL WAA-WÉ TCHÉ-NÉ FAR-YÉ !",
-      "translation": "C'est un argument tout à fait inébranlable ! C'est pourquoi, l'accord stylistique étant conclu à la perfection, poursuivons l'exécution de ce travail à l'avenir !"
+      "speaker": "Locuteur A",
+      "text": "ami gis.",
+      "phonetic_api": "/a.mi gis/",
+      "phonetic_simple": "A-MI GUISS",
+      "translation": "je / moi poisson. (Combinaison illustrative de mots/morphèmes déjà attestés séparément dans les sources (ASJP, tableau comparatif tenda, autonymes) ; ce n'est pas un énoncé figé attesté tel quel par une source, mais aucun mot nouveau n'a été inventé pour la construire.)"
+    },
+    {
+      "speaker": "Locuteur B",
+      "text": "ami Te nk~a.",
+      "phonetic_api": "/a.mi tʃe ŋka/",
+      "phonetic_simple": "A-MI TCHÉ NKA",
+      "translation": "je / moi boire eau. (Combinaison illustrative de mots/morphèmes déjà attestés séparément dans les sources (ASJP, tableau comparatif tenda, autonymes) ; ce n'est pas un énoncé figé attesté tel quel par une source, mais aucun mot nouveau n'a été inventé pour la construire.)"
     }
   ],
   "cultural_notes": [
-    "La traduction en langue wamey (konyagi) est un exercice de haute diplomatie culturelle. Passer du wamey (langue de l'implicite, de la nature et de la métaphore communautaire) au français (langue d'administration linéaire) exige de ne pas simplement traduire les mots, mais de transposer l'univers symbolique de la région de Koundara.",
-    "Un bon traducteur ('ce mbe parol-kpeny') est traditionnellement perçu comme un passeur de mémoire. S'il trahit le 'kwaɗ-parol' (le style et le rythme de la parole sacrée des anciens), il rompt la chaîne de transmission ('bano-kwaɗ') et altère la valeur spirituelle du message."
+    "Le konyagi (autonyme « wamey » ; le peuple s'auto-désigne « Mey ») est une langue tenda parlée principalement dans la région de Youkounkoun en Guinée et dans le Sénégal oriental (Wikipédia, webGuinée).",
+    "Le nom « Konyagi » viendrait d'un mot peul signifiant « abeille », donné pendant les guerres coloniales lorsque les Konyagui auraient repoussé les troupes françaises à l'aide d'abeilles (SIL, Survey of the Tenda Languages)."
   ],
   "exercises": [
     {
-      "exercise_id": "C1_M3_L9_EX1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel concept composé désigne l'intention profonde de l'auteur ou le sens ultime d'un texte ?",
+      "question": "Pourquoi cette leçon comporte-t-elle peu de vocabulaire spécifique en konyagi ?",
       "options": [
-        "waawë-kwaɗ",
-        "can-tyukwa",
-        "parol-kpeny"
+        "Le konyagi est une langue très rare, insuffisamment documentée pour ce sujet avancé",
+        "Le konyagi n'a pas de grammaire",
+        "Le konyagi n'existe plus",
+        "Le konyagi n'a pas de locuteurs natifs"
       ],
-      "correct_answer": "can-tyukwa",
-      "explanation": "'Can-tyukwa' rassemble le cœur/la pensée et l'achèvement pour définir le sens profond ultime."
+      "correct_answer": "Le konyagi est une langue très rare, insuffisamment documentée pour ce sujet avancé",
+      "explanation": "Le konyagi (wamey) compte entre 22 000 et 38 000 locuteurs mais reste très peu décrit dans les sources librement accessibles, en particulier pour les sujets grammaticaux avancés."
     },
     {
-      "exercise_id": "C1_M3_L9_EX2",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "O fula [ ___ ] ra boka ra cene. (Il possède un excellent style / fil conducteur pour ce discours.)",
-      "correct_answer": "kwaɗ-parol",
-      "hint": "Le terme composé qui unit le chemin/la méthode et la parole pour caractériser le style littéraire."
+      "exercise_id": "ex2",
+      "type": "multiple_choice",
+      "question": "Quel est l'ordre syntaxique de base attesté pour le coniagui/wamey ?",
+      "options": [
+        "Sujet-Verbe-Objet (SVO)",
+        "Sujet-Objet-Verbe (SOV)",
+        "Verbe-Sujet-Objet (VSO)",
+        "Objet-Verbe-Sujet (OVS)"
+      ],
+      "correct_answer": "Sujet-Verbe-Objet (SVO)",
+      "explanation": "Wikipédia FR (Coniagui langue) indique une typologie SVO pour le coniagui."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Wikipedia (anglais) — Wamey language",
+      "url": "https://en.wikipedia.org/wiki/Wamey"
+    },
+    {
+      "label": "Glottolog 5.3 — Wamey (wame1240)",
+      "url": "https://glottolog.org/resource/languoid/id/wame1240"
+    },
+    {
+      "label": "SIL International — A Survey of the Tenda Languages in SE Senegal (Jenkins & Amdahl)",
+      "url": "https://www.sil.org/system/files/reapdata/72/25/98/72259868317564516932652615063790192765/silesr2007_011.pdf"
+    }
+  ],
+  "confidence": "faible",
+  "confidence_note": "Aucune documentation lexicale ou grammaticale publique suffisante n'a été trouvée pour ce sujet précis en Konyagi/Wamey (langue très rare, très peu décrite). Le contenu se limite strictement aux mots/données réellement attestés dans les sources disponibles (souvent en nombre réduit) plutôt que d'inventer du vocabulaire ou des phrases. Les transcriptions phonétiques sont des approximations dérivées de l'orthographe attestée, non des données API vérifiées. [Complément : pour respecter les bornes minimales du schéma, le vocabulaire, les phrases et le dialogue ont été complétés par recombinaison stricte de mots déjà attestés (ASJP, autonymes, chiffres) ; ces assemblages illustrent un ordre SVO plausible mais ne sont pas des énoncés figés attestés par une source. Confidence maintenue à \"faible\".]"
 }

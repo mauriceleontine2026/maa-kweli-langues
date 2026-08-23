@@ -1,210 +1,268 @@
 {
-  "lesson_id": "C2_M3_L7",
+  "lesson_id": "C1_M3_L7",
   "level": "Avancé (C1-C2)",
   "module_number": 3,
   "module_title": "Maîtrise totale",
   "lesson_number": 7,
   "title": "Comprendre et analyser des textes littéraires ou historiques",
   "learning_objectives": [
-    "Analyser la structure narrative des récits épiques et des chroniques historiques orales",
-    "Identifier les métaphores complexes, les allusions mythologiques et le lexique de la royauté",
-    "Restituer le sens exégétique d'un discours mémoriel ou d'un chant de geste ancestral"
+    "Situer la Charte de Kurukan Fuga comme texte fondateur de l'espace mandingue",
+    "Analyser le vocabulaire juridique/social d'un extrait historique",
+    "Reconnaître les valeurs exprimées dans un texte fondateur (paix, dignité, solidarité)",
+    "Reformuler en langage courant le sens d'un extrait solennel"
   ],
   "phonetic_focus": {
-    "key_sounds": "L'analyse historique fait appel à une solennité prosodique et au vocabulaire de l'épopée. Le nom de la charte ou de l'alliance originelle 'Liri' /li.ri/ ou 'Kuru' possède des voyelles brèves fermées. Le terme pour la royauté ou le trône 'Mansaya' /man.sa.ja/ exige une nasalisation postérieure nette /an/ suivie d'un glissement palatal fluide.",
-    "common_pitfalls": "Veillez à ne pas confondre le terme 'Mansa' /man.sa/ (roi/souverain) avec 'Mansa' (variété de mil). La première syllabe de la dignité royale doit être plus étirée et portée par un ton haut impérieux."
+    "key_sounds": [
+      "Le débit solennel et scandé propre à la récitation d'un texte fondateur",
+      "La netteté des mots-clés juridiques ('sariya' = loi, règle)",
+      "Le respect du rythme des énumérations (droits/interdits égrenés un à un)"
+    ],
+    "common_pitfalls": [
+      "Lire un texte historique/juridique avec l'intonation d'une conversation ordinaire, en perdant la solennité attendue",
+      "Confondre le vocabulaire juridique ('sariya'=loi) avec le vocabulaire religieux, alors que le contexte du Manden les distingue"
+    ]
   },
   "vocabulary": [
     {
-      "word_id": "v25_1",
-      "term": "Tariku",
-      "phonetic_api": "/ta.ri.ku/",
-      "phonetic_simple": "TA-RI-KOU",
-      "translation": "Chronique historique / Annales / Récit des origines authentifié",
-      "example_sentence": "An na dugu tariku ka dun kosɛbɛ.",
-      "example_phonetic": "/an na du.ɣu ta.ri.ku ka dun ko.sɛ.bɛ/",
-      "example_translation": "La chronique historique de notre cité est extrêmement profonde."
+      "word_id": "v1",
+      "term": "sariya",
+      "phonetic_api": "[sarija]",
+      "phonetic_simple": "sa-ri-ya",
+      "translation": "loi, règle, charte",
+      "example_sentence": "Kurukan Fuga sariya ye Manden kuntigiw bɛnkan ye.",
+      "example_phonetic": "[kurukan fuɡa sarija je manden kuntiɡiw bɛnkan je]",
+      "example_translation": "La charte de Kurukan Fuga est l'accord des chefs du Manden."
     },
     {
-      "word_id": "v25_2",
-      "term": "Mansa",
-      "phonetic_api": "/man.sa/",
-      "phonetic_simple": "MANE-SA",
-      "translation": "Roi / Souverain / Empereur / Monarque absolu",
-      "example_sentence": "Mansa Soundiata ye dugu lɔ.",
-      "example_phonetic": "/man.sa sun.d͡ʒa.ta d͡ʒe du.ɣu lɔ/",
-      "example_translation": "L'empereur Soundiata a fondé l'empire (la cité)."
+      "word_id": "v2",
+      "term": "Manden",
+      "phonetic_api": "[manden]",
+      "phonetic_simple": "man-dèn",
+      "translation": "le Manden (berceau historique de l'empire mandingue)",
+      "example_sentence": "Manden ye jamana kɔrɔba ye.",
+      "example_phonetic": "[manden je dʒamana kɔrɔba je]",
+      "example_translation": "Le Manden est un très ancien pays."
     },
     {
-      "word_id": "v25_3",
-      "term": "Mansaya",
-      "phonetic_api": "/man.sa.ja/",
-      "phonetic_simple": "MANE-SA-YA",
-      "translation": "La royauté / Le règne / L'exercice du pouvoir souverain",
-      "example_sentence": "A ye mansaya sɔrɔ ka kɔgɔ.",
-      "example_phonetic": "/a d͡ʒe man.sa.ja sɔ.rɔ ka kɔ.ɣɔ/",
-      "example_translation": "Il a accédé à la royauté à l'âge mûr."
+      "word_id": "v3",
+      "term": "hɛrɛ / lafiya",
+      "phonetic_api": "[hɛrɛ]/[lafija]",
+      "phonetic_simple": "hè-rè/la-fi-ya",
+      "translation": "paix",
+      "example_sentence": "Hɛrɛ ka fisa kɛlɛ ye.",
+      "example_phonetic": "[hɛrɛ ka fisa kɛlɛ je]",
+      "example_translation": "La paix vaut mieux que la guerre."
     },
     {
-      "word_id": "v25_4",
-      "term": "Basi / Basiman",
-      "phonetic_api": "/ba.si/",
-      "phonetic_simple": "BA-SI",
-      "translation": "Le remède rituel / Le talisman historique / Le fondement mystique",
-      "example_sentence": "Mansaya basi mu tɔgɛ le di.",
-      "example_phonetic": "/man.sa.ja ba.si mu tɔ.ɣɛ le di/",
-      "example_translation": "Le fondement mystique de la royauté repose sur la vérité."
+      "word_id": "v4",
+      "term": "jamana",
+      "phonetic_api": "[dʒamana]",
+      "phonetic_simple": "dja-ma-na",
+      "translation": "pays, nation, territoire",
+      "example_sentence": "Jamana bɛɛ ka kan ka bɛn.",
+      "example_phonetic": "[dʒamana bɛɛ ka kan ka bɛn]",
+      "example_translation": "Tous les pays doivent s'entendre."
     },
     {
-      "word_id": "v25_5",
-      "term": "Kuma juku",
-      "phonetic_api": "/ku.ma d͡ʒu.ku/",
-      "phonetic_simple": "KOU-MA DJOU-KOU",
-      "translation": "La racine du discours / La source textuelle / Le cœur du récit",
-      "example_sentence": "N b'a fɛ ka kuma juku latigɛ.",
-      "example_phonetic": "/ɲ b'a fɛ ka ku.ma d͡ʒu.ku la.ti.ɣɛ/",
-      "example_translation": "Je souhaite analyser la racine même de ce récit."
+      "word_id": "v5",
+      "term": "sinankunya",
+      "phonetic_api": "[sinankunja]",
+      "phonetic_simple": "si-nan-koun-ya",
+      "translation": "parenté à plaisanterie (alliance sociale de paix entre groupes)",
+      "example_sentence": "Sinankunya bɛ kɛlɛ bali.",
+      "example_phonetic": "[sinankunja bɛ kɛlɛ bali]",
+      "example_translation": "La parenté à plaisanterie empêche la guerre."
     },
     {
-      "word_id": "v25_6",
-      "term": "Fasa / Fasa dɔnkili",
-      "phonetic_api": "/fa.sa dɔn.ki.li/",
-      "phonetic_simple": "FA-SA DƆN-KI-LI",
-      "translation": "Chant de geste / Hymne panégyrique / Éloge d'une lignée noble",
-      "example_sentence": "Jeli lu be mansa fasa lafasa la.",
-      "example_phonetic": "/d͡ʒe.li lu be man.sa fa.sa la.fa.sa la/",
-      "example_translation": "Les griots déclament l'hymne panégyrique du souverain."
+      "word_id": "v6",
+      "term": "danbe (dignité)",
+      "phonetic_api": "[danbe]",
+      "phonetic_simple": "dan-bé",
+      "translation": "dignité, respect de la personne",
+      "example_sentence": "Bɛɛ ka danbe ka kan ka bulu.",
+      "example_phonetic": "[bɛɛ ka danbe ka kan ka bulu]",
+      "example_translation": "La dignité de chacun doit être respectée."
     },
     {
-      "word_id": "v25_7",
-      "term": "Liri / Lirin",
-      "phonetic_api": "/li.ri/",
-      "phonetic_simple": "LI-RI",
-      "translation": "La charte / Le pacte fondamental / La racine originelle",
-      "example_sentence": "Kuru liri ma sɔsɔ na yan.",
-      "example_phonetic": "/ku.ru li.ri ma sɔ.sɔ na jan/",
-      "example_translation": "Le pacte fondamental de la charte n'a jamais été contesté ici."
+      "word_id": "v7",
+      "term": "kɛlɛ",
+      "phonetic_api": "[kɛlɛ]",
+      "phonetic_simple": "kè-lè",
+      "translation": "guerre, conflit",
+      "example_sentence": "Kɛlɛ tɛ diya mɔgɔ si ye.",
+      "example_phonetic": "[kɛlɛ tɛ dija mɔɡɔ si je]",
+      "example_translation": "La guerre ne plaît à personne."
     },
     {
-      "word_id": "v25_8",
-      "term": "Mɛnni / Mɛnnya",
-      "phonetic_api": "/mɛn.ni/",
-      "phonetic_simple": "MƐNE-NI",
-      "translation": "La tradition orale / Ce qui se transmet par l'écoute",
-      "example_sentence": "An na mɛnni mu kuma kɔrɔ di.",
-      "example_phonetic": "/an na mɛn.ni mu ku.ma kɔ.rɔ di/",
-      "example_translation": "Notre tradition orale est l'expression du verbe ancien."
+      "word_id": "v8",
+      "term": "sariyakuntigi",
+      "phonetic_api": "[sarijakuntiɡi]",
+      "phonetic_simple": "sa-ri-ya-koun-ti-gui",
+      "translation": "gardien de la loi, garant de la charte",
+      "example_sentence": "Sariyakuntigi le bɛ sariya kanto.",
+      "example_phonetic": "[sarijakuntiɡi le bɛ sarija kanto]",
+      "example_translation": "C'est le gardien de la loi qui veille sur la charte."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p25_1",
-      "original": "Tariku nin kɔnɔ, an be kuma juku sɔrɔ la Mansa dugu kɔrɔ ma.",
-      "phonetic_api": "/ta.ri.ku nin kɔ.nɔ an be ku.ma d͡ʒu.ku sɔ.rɔ la man.sa du.ɣu kɔ.rɔ ma/",
-      "phonetic_simple": "TA-RI-KOU NINE KƆ-NƆ, ANE BÉ KOU-MA DJOU-KOU SƆ-RƆ LA MANE-SA DOU-GOU KƆ-RƆ MA.",
-      "translation": "Au sein de cette chronique historique, nous trouvons la source textuelle concernant l'ancien empire du souverain.",
-      "context": "Exégèse littéraire ou historique servant à introduire l'analyse d'un texte ancien."
+      "phrase_id": "p1",
+      "original": "Kurukan Fuga sariya ye Manden kuntigiw bɛnkan ye",
+      "phonetic_api": "[kurukan fuɡa sarija je manden kuntiɡiw bɛnkan je]",
+      "phonetic_simple": "kou-rou-kan-fou-ga-sa-ri-ya-yé-man-dèn-koun-ti-guiw-bèn-kan-yé",
+      "translation": "La charte de Kurukan Fuga est l'accord des chefs du Manden",
+      "context": "Présenter le texte fondateur historique"
     },
     {
-      "phrase_id": "p25_2",
-      "original": "Mansa fasa dɔnkili mu barika ba di an na siya yɛ fɔlɔfɔlɔ la.",
-      "phonetic_api": "/man.sa fa.sa dɔn.ki.li mu ba.ri.ka ba di an na si.ja jɛ fɔ.lɔ.fɔ.lɔ la/",
-      "phonetic_simple": "MANE-SA FA-SA DƆN-KI-LI MOU BA-RI-KA BA DI ANE NA SI-YA YƐ FƆ-LƆ-FƆ-LƆ LA.",
-      "translation": "Le chant de geste du monarque a apporté une immense bénédiction à notre lignée depuis les temps premiers.",
-      "context": "Commentaire critique sur la fonction sociale et spirituelle de la poésie épique."
+      "phrase_id": "p2",
+      "original": "Hɛrɛ ka fisa kɛlɛ ye",
+      "phonetic_api": "[hɛrɛ ka fisa kɛlɛ je]",
+      "phonetic_simple": "hè-rè-ka-fi-sa-kè-lè-yé",
+      "translation": "La paix vaut mieux que la guerre",
+      "context": "Valeur centrale exprimée dans la charte"
     },
     {
-      "phrase_id": "p25_3",
-      "original": "Hali ni dugu gbɛlɛyara, an te sɔn na ka dugu liri kɔrɔ sɔsɔ.",
-      "phonetic_api": "/ha.li ni du.ɣu ɡ͡bɛ.lɛ.ja.ra an te sɔn na ka du.ɣu li.ri kɔ.rɔ sɔ.sɔ/",
-      "phonetic_simple": "HA-LI NI DOU-GOU GBƐ-LƐ-YA-RA, ANE TÉ SƆNE NA KA DOU-GOU LI-RI KƆ-RƆ SƆ-SƆ.",
-      "translation": "Même si le monde traverse des épreuves, nous n'accepterons jamais de contester la racine originelle de la charte de notre peuple.",
-      "context": "Argument d'autorité mémoriel affirmant la pérennité des structures politiques traditionnelles."
+      "phrase_id": "p3",
+      "original": "Bɛɛ ka danbe ka kan ka bulu",
+      "phonetic_api": "[bɛɛ ka danbe ka kan ka bulu]",
+      "phonetic_simple": "bè-è-ka-dan-bé-ka-kan-ka-bou-lou",
+      "translation": "La dignité de chacun doit être respectée",
+      "context": "Principe juridique/social fondamental du texte"
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Sinankunya bɛ kɛlɛ bali",
+      "phonetic_api": "[sinankunja bɛ kɛlɛ bali]",
+      "phonetic_simple": "si-nan-koun-ya-bè-kè-lè-ba-li",
+      "translation": "La parenté à plaisanterie empêche la guerre",
+      "context": "Mécanisme social de pacification mentionné dans la tradition du Manden"
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Jamana bɛɛ ka kan ka bɛn",
+      "phonetic_api": "[dʒamana bɛɛ ka kan ka bɛn]",
+      "phonetic_simple": "dja-ma-na-bè-è-ka-kan-ka-bèn",
+      "translation": "Tous les pays doivent s'entendre",
+      "context": "Appel à l'entente inter-territoriale dans le texte fondateur"
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'expansion nominale exégétique par composition restrictive ('Kuma juku')",
-      "explanation": "Pour désigner des concepts abstraits pointus de la critique textuelle ou historique au niveau C1/C2, la langue Sankaran procède par composition métaphorique stricte : le substantif 'kuma' (parole) s'associe à la racine physique 'juku' (le tronc / la base d'un arbre / le fondement) pour créer le concept analytique de 'source historiographique' ou 'racine du texte'.",
+      "concept": "L'obligation solennelle collective avec 'bɛɛ ka kan ka'",
+      "explanation": "Dans un texte juridique/fondateur, l'obligation universelle (valable pour tous) s'exprime avec 'bɛɛ' (tous) suivi de 'ka kan ka' (devoir), une variante solennelle de l'obligation vue en niveau intermédiaire ('kakan ka').",
       "rules": [
-        "Structure : [Substantif Thème] + [Substantif Racine Métaphorique]"
+        "Structure : Bɛɛ ka kan ka + [Verbe]",
+        "Utilisé pour énoncer des droits/devoirs universels dans un cadre juridique ou moral"
       ],
       "examples": [
         {
-          "structure": "Siya liri",
-          "phonetic_api": "/si.ja li.ri/",
-          "meaning": "La souche généalogique / La racine de la lignée"
+          "structure": "Bɛɛ ka kan ka [Verbe]",
+          "phonetic_api": "[bɛɛ ka kan ka]",
+          "meaning": "Tous doivent [verbe]"
         }
       ]
     },
     {
-      "concept": "L'emploi du perfectif d'autorité immuable dans les récits épiques",
-      "explanation": "Lorsqu'on analyse les actions des grands ancêtres fondateurs ou des monarques ('Mansa'), l'accompli ne prend pas de marque de mouvement ou de contingence. Le verbe est utilisé sous sa forme radicale nue ou fléchie par 'ye', incarnant un fait historique figé pour l'éternité qui fait loi.",
+      "concept": "La comparaison de valeurs avec 'ka fisa ... ye'",
+      "explanation": "Pour affirmer la supériorité d'une valeur sur une autre dans un discours solennel, le maninka utilise la structure comparative '[A] ka fisa [B] ye' (A vaut mieux que B).",
       "rules": [
-        "Structure historique : Mansa + Nom + ye + Objet + [Verbe radical figé]"
+        "Structure : [A] ka fisa [B] ye",
+        "Fréquent dans les maximes et déclarations de principe"
       ],
       "examples": [
         {
-          "structure": "Mansa ye liri ladan.",
-          "phonetic_api": "/man.sa d͡ʒe li.ri la.dan/",
-          "meaning": "Le souverain édicta la charte originelle."
+          "structure": "[A] ka fisa [B] ye",
+          "phonetic_api": "[ka fisa... ye]",
+          "meaning": "[A] vaut mieux que [B]"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Karamɔgɔ (Historien)",
-      "text": "Lamine, i na hakilojagbɛ fɛ, tariku kura nin kuma juku mu mun di Mansaya ma ?",
-      "phonetic_api": "/la.min i na ha.ki.lo.d͡ʒa.ɡ͡bɛ fɛ ta.ri.ku ku.ra nin ku.ma d͡ʒu.ku mu mun di man.sa.ja ma/",
-      "phonetic_simple": "LA-MINE, I NA HA-KI-LO-DJA-GBƐ FƐ, TA-RI-KOU KOU-RA NINE KOU-MA DJOU-KOU MOU MOUN DI MANE-SA-YA MA ?",
-      "translation": "Lamine, d'après ton analyse éclairée, quelle est la racine textuelle de cette nouvelle chronique concernant l'exercice de la royauté ?"
+      "speaker": "Le professeur",
+      "text": "Kurukan Fuga sariya ye Manden kuntigiw bɛnkan ye, a kɛra san 1236 waati la.",
+      "phonetic_api": "[kurukan fuɡa sarija je manden kuntiɡiw bɛnkan je a kɛra san 1236 waːti la]",
+      "phonetic_simple": "kou-rou-kan-fou-ga-sa-ri-ya-yé-man-dèn-koun-ti-guiw-bèn-kan-yé, a-kè-ra-san-mil-deu-cent-trente-six-wa-a-ti-la",
+      "translation": "La charte de Kurukan Fuga est l'accord des chefs du Manden, elle date de l'année 1236."
     },
     {
-      "speaker": "Lamine (Analyste)",
-      "text": "Nba, n faa karamɔgɔ. Tariku nin ye a yira fɔlɔfɔlɔ la ko Mansa liri tun be basi lafasa la, o le yɛ an na mɛnni ladanjara.",
-      "phonetic_api": "/ɲ.ba ɲ faː ka.ra.mɔ.ɣɔ | ta.ri.ku nin d͡ʒe a ji.ra fɔ.lɔ.fɔ.lɔ la ko man.sa li.ri tun be ba.si la.fa.sa la o le jɛ an na mɛn.ni la.dan.d͡ʒa.ra/",
-      "phonetic_simple": "NBA, N FAA KA-RA-MƆ-GƆ. TA-RI-KOU NINE YÉ A YI-RA FƆ-LƆ-FƆ-LƆ LA KO MANE-SA LI-RI TOUNE BÉ BA-SI LA-FA-SA LA, O LÉ YƐ ANE NA MƐNE-NI LA-DANE-DJA-RA.",
-      "translation": "Eh bien, mon maître. Cette chronique démontre en premier lieu que la charte du souverain défendait le fondement mystique du pouvoir, c'est pourquoi notre tradition orale s'est structurée ainsi."
+      "speaker": "Un étudiant",
+      "text": "Mun ye a kunba sariya ye ?",
+      "phonetic_api": "[mun je a kunba sarija je]",
+      "phonetic_simple": "moun-yé-a-koun-ba-sa-ri-ya-yé",
+      "translation": "Quelle en est la règle la plus importante ?"
     },
     {
-      "speaker": "Karamɔgɔ (Historien)",
-      "text": "O mu tɔgɛ di jaati. Nka i mɛnna Mansa fasa dɔnkili la kunu bang? A kɔrɔ ka dun, katuguni a be siya bɛɛ tondɔ le.",
-      "phonetic_api": "/o mu tɔ.ɣɛ di d͡ʒaː.ti ŋ.ka i mɛn.na man.sa fa.sa dɔn.ki.li la ku.nu baŋ | a kɔ.rɔ ka dun ka.tu.ɣu.ni a be si.ja bɛː ton.dɔ le/",
-      "phonetic_simple": "O MOU TƆ-GƐ DI DJAA-TI ! NG-KA I MƐNE-NA MANE-SA FA-SA DƆN-KI-LI LA KOU-NOU BANGE ? A KƆ-RƆ KA DOU-NE, KA-TOU-GOU-NI A BÉ SI-YA BƐƐ TONE-DƆ LÉ.",
-      "translation": "C'est l'exacte vérité ! Cependant, as-tu écouté le chant de geste du monarque hier ? Sa signification est profonde, car il magnifie l'ensemble de la lignée noble."
+      "speaker": "Le professeur",
+      "text": "Hɛrɛ ka fisa kɛlɛ ye, ani bɛɛ ka danbe ka kan ka bulu.",
+      "phonetic_api": "[hɛrɛ ka fisa kɛlɛ je ani bɛɛ ka danbe ka kan ka bulu]",
+      "phonetic_simple": "hè-rè-ka-fi-sa-kè-lè-yé, a-ni-bè-è-ka-dan-bé-ka-kan-ka-bou-lou",
+      "translation": "La paix vaut mieux que la guerre, et la dignité de chacun doit être respectée."
     },
     {
-      "speaker": "Lamine (Analyste)",
-      "text": "Awo, n ye a mɛn. Labanyala, n na hakilojagbɛ fɛ, fasa nin mu tariku basi le di, o te wa na sɔsɔ la gba di.",
-      "phonetic_api": "/a.wo ɲ je a mɛn la.ba.nja la ɲ na ha.ki.lo.d͡ʒa.ɡ͡bɛ fɛ fa.sa nin mu ta.ri.ku ba.si le di o te wa na sɔ.sɔ la ɡ͡ba di/",
-      "phonetic_simple": "A-WO, N YÉ A MƐNE. LA-BA-NYA LA, N NA HA-KI-LO-DJA-GBƐ FƐ, FA-SA NINE MOU TA-RI-KOU BA-SI LÉ DI, O TÉ WA NA SƆ-SƆ LA GBA DI.",
-      "translation": "Oui, je l'ai entendu. En conclusion, selon mon point de vue, cet hymne constitue le fondement mystique de notre histoire, il ne souffrira jamais d'aucune contestation."
+      "speaker": "Un étudiant",
+      "text": "Tiɲɛ le don, sariya nin ka bon kosobè.",
+      "phonetic_api": "[tiɲɛ le don sarija nin ka bon kosobɛ]",
+      "phonetic_simple": "ti-nyè-lé-don, sa-ri-ya-nin-ka-bon-ko-so-bè",
+      "translation": "C'est la vérité, cette charte est très importante."
     }
   ],
   "cultural_notes": [
-    "L'analyse des textes historiques orales ('tariku') au Sankaran s'adosse à la mémoire de la Charte de Kouroukan Fouga (1235), souvent évoquée métaphoriquement par le terme 'liri' (la racine du pacte). Ce texte juridique et moral est considéré comme le socle des libertés et des devoirs communautaires.",
-    "Le 'Fasa' n'est pas un simple divertissement musical; c'est un document historique vivant. Déclamer le fasa d'une grande lignée (comme celle des Camara ou des Condé, dynasties historiques de Faranah) équivaut à sceller un contrat de fidélité morale envers les valeurs d'honneur ('gbe') portées par les aïeux."
+    "La Charte de Kurukan Fuga (vers 1236), proclamée à la fondation de l'empire du Mali, est considérée par beaucoup comme l'une des plus anciennes constitutions orales au monde, énonçant des principes de paix, de dignité humaine et de solidarité entre les peuples du Manden ; elle est parfois rapprochée d'une déclaration précoce des droits humains ([Charte de Kurukan Fuga](https://www.scribd.com/document/63694742/La-Charte-de-Kurukan-Fuga)).",
+    "Note dialectale (Sankaran) : cette leçon présente le maninka du Sankaran, parlé traditionnellement dans la région historique du Sankaran, aujourd'hui la préfecture et région de Faranah (Haute-Guinée), berceau historique du clan Condé et zone antérieure au Mandén selon la tradition orale. Le sankaran (ISO 639-3 msc) est très proche du malinké/maninka standard de Kankan, avec lequel il est mutuellement intelligible ; les mots et structures de cette leçon reflètent ce fonds commun du maninka de l'Est, complété par les spécificités phonologiques et grammaticales du parler de Faranah documentées par Spears (voir sources)."
   ],
   "exercises": [
     {
-      "exercise_id": "ex25_1",
-      "type": "multiple_choice",
-      "question": "Quel concept de haute analyse linguistique désigne la source ou la racine d'un texte historique oral ?",
-      "options": [
-        "Kuma juku",
-        "Fasa dɔnkili",
-        "Mansaya basi"
-      ],
-      "correct_answer": "Kuma juku",
-      "explanation": "Ce mot composé fusionne la parole ('kuma') et le tronc/fondement ('juku') pour exprimer la notion de source historiographique."
+      "exercise_id": "e1",
+      "type": "traduction",
+      "question": "Traduisez : 'La paix vaut mieux que la guerre.'",
+      "correct_answer": "Hɛrɛ ka fisa kɛlɛ ye.",
+      "explanation": "Structure comparative : [A] ka fisa [B] ye = A vaut mieux que B."
     },
     {
-      "exercise_id": "ex25_2",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Pour désigner une chronique historique officielle validée par la tradition, on emploie le terme : [ ___ ].",
-      "correct_answer": "Tariku",
-      "hint": "Substantif d'origine savante à trois syllabes, commençant par un T majuscule."
+      "exercise_id": "e2",
+      "type": "choix_multiple",
+      "question": "Qu'est-ce que la Charte de Kurukan Fuga ?",
+      "options": [
+        "Un recueil de contes pour enfants",
+        "Un texte fondateur/constitutionnel de l'empire du Mali",
+        "Un dictionnaire maninka-français",
+        "Un manuel scolaire moderne"
+      ],
+      "correct_answer": "Un texte fondateur/constitutionnel de l'empire du Mali",
+      "explanation": "C'est un texte oral fondateur proclamé lors de la création de l'empire du Mali vers 1236."
+    },
+    {
+      "exercise_id": "e3",
+      "type": "texte_a_trous",
+      "sentence_with_blank": "Bɛɛ ka ___ ka kan ka bulu.  (La dignité de chacun doit être respectée.)",
+      "correct_answer": "danbe",
+      "hint": "C'est le mot pour 'dignité, honneur'."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Ethnologue — Maninka, Sankaran [msc]",
+      "url": "https://www.ethnologue.com/language/msc/"
+    },
+    {
+      "label": "Glottolog 5.3 — Sankaran Maninka [sank1253]",
+      "url": "https://glottolog.org/resource/languoid/id/sank1253"
+    },
+    {
+      "label": "Wikipédia — Sankaran (langue, msc)",
+      "url": "https://fr.wikipedia.org/wiki/Sankaran"
+    },
+    {
+      "label": "Spears, R. A. — The Structure of Faranah-Maninka (Indiana University, description structurale du parler de Faranah, historiquement le Sankaran)",
+      "url": "https://theswissbay.ch/pdf/Books/Linguistics/Mega%20linguistics%20pack/African/Niger-Congo/Mande/Maninka,%20The%20Structure%20of%20Faranah-%20(Spears).pdf"
+    },
+    {
+      "label": "Vydrin & Diané (2014) — Propositions pour l'orthographe du maninka (Guinée), Mandenkan 52",
+      "url": "https://journals.openedition.org/mandenkan/pdf/301"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Aucune source lexicale ou grammaticale dédiée et indépendante n'a été trouvée pour cette leçon spécifiquement en sankaran : le contenu reprend le fonds commun du maninka/malinké de Haute-Guinée (vérifié pour le malinké standard), dont la proximité avec le sankaran est confirmée par les classifications Ethnologue/Glottolog/Vydrin, mais sans confirmation lexème par lexème pour ce dialecte précis. Confiance donc revue à la baisse par rapport à une attestation directe."
 }

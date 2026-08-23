@@ -6,165 +6,194 @@
   "lesson_number": 2,
   "title": "Exprimer l'hypothèse, le doute et la condition",
   "learning_objectives": [
-    "Formuler des structures conditionnelles complexes avec la particule 'ni'",
-    "Nuancer son discours en exprimant l'incertitude et la probabilité",
-    "Utiliser les structures idiomatiques du doute et de la supposition"
+    "Analyser la structure conditionnelle attestée dans un proverbe kuranko authentique",
+    "Utiliser le vocabulaire du doute et de l'incertitude (n'de ma... lon)",
+    "Construire une phrase hypothétique simple sur le modèle attesté"
   ],
   "phonetic_focus": {
-    "key_sounds": "La particule conditionnelle 'ni' exige une voyelle brève et haute /ni/. Le digramme 'gb' dans 'gbana' doit être articulé fermement d'un seul bloc, sans détacher le 'g' du 'b'. La consonne nasale dans 'sinka' doit fusionner de manière fluide.",
-    "common_pitfalls": "Ne pas confondre la particule conditionnelle 'ni' (si) avec la conjonction de coordination 'ni' (et). Le contexte syntaxique et l'intonation permettent de les distinguer."
+    "key_sounds": "La particule conditionnelle « sai » comporte une diphtongue descendante à articuler clairement, distincte du simple « sa ».",
+    "common_pitfalls": "Les francophones ont tendance à simplifier les diphtongues kuranko, perdant ainsi une partie du sens porté par la longueur vocalique."
   },
   "vocabulary": [
     {
-      "word_id": "v1_c1_m1_l2",
-      "term": "Ni",
-      "phonetic_api": "/ni/",
-      "phonetic_simple": "NI",
-      "translation": "Si (Condition / Hypothèse)",
-      "example_sentence": "Ni a tara, n di a lɔn",
-      "example_phonetic": "/ni a ta.ra ɲ͡di a lɔn/",
-      "example_translation": "S'il est parti, je le saurai"
+      "word_id": "v1",
+      "term": "sai",
+      "phonetic_api": "/saj/",
+      "phonetic_simple": "saï",
+      "translation": "si (particule conditionnelle)",
+      "example_sentence": "I sai yena, a si yena.",
+      "example_phonetic": "/i saj jena a si jena/",
+      "example_translation": "Si tu es là-bas, il/elle y est aussi."
     },
     {
-      "word_id": "v2_c1_m1_l2",
-      "term": "Sinka",
-      "phonetic_api": "/sin.ka/",
-      "phonetic_simple": "SIN-KA",
-      "translation": "Douter / Hésiter / Incertitude",
-      "example_sentence": "Sinka tɛ n na o ko ra",
-      "example_phonetic": "/sin.ka tɛ ɱ͡na o ko ra/",
-      "example_translation": "Je n'ai aucun doute à ce sujet (le doute n'est pas sur moi)"
+      "word_id": "v2",
+      "term": "yena",
+      "phonetic_api": "/jena/",
+      "phonetic_simple": "yè-NA",
+      "translation": "être là-bas, se trouver à cet endroit éloigné",
+      "example_sentence": "Wu bi wo si dia kama?",
+      "example_phonetic": "/wu bi wo si dia kama/",
+      "example_translation": "Comment cela pourrait-il rester agréable/possible ?"
     },
     {
-      "word_id": "v3_c1_m1_l2",
-      "term": "Gbana",
-      "phonetic_api": "/g͡ba.na/",
-      "phonetic_simple": "GBANA",
-      "translation": "Peut-être / Probablement",
-      "example_sentence": "Gbana a di na bi su",
-      "example_phonetic": "/g͡ba.na a di na bi su/",
-      "example_translation": "Peut-être qu'il viendra ce soir"
+      "word_id": "v3",
+      "term": "wulai",
+      "phonetic_api": "/wulaj/",
+      "phonetic_simple": "OU-laï",
+      "translation": "loin, à distance",
+      "example_sentence": "Morgo mi bi wulai yan la.",
+      "example_phonetic": "/morgo mi bi wulaj jan la/",
+      "example_translation": "Une personne qui est loin d'ici."
     },
     {
-      "word_id": "v4_c1_m1_l2",
-      "term": "Kila",
-      "phonetic_api": "/ki.la/",
-      "phonetic_simple": "KI-LA",
-      "translation": "Supposer / Penser / Imaginer",
-      "example_sentence": "N bɛ a kila ra le",
-      "example_phonetic": "/ɱ͡bɛ a ki.la ra le/",
-      "example_translation": "Je le suppose fortement"
+      "word_id": "v4",
+      "term": "ma... lon",
+      "phonetic_api": "/ma lɔn/",
+      "phonetic_simple": "ma lon",
+      "translation": "ne pas savoir (structure du doute et de l'incertitude)",
+      "example_sentence": "N'de ma konto lon.",
+      "example_phonetic": "/n de ma konto lɔn/",
+      "example_translation": "Je ne connais pas les dessous des choses (formule de doute assumé)."
+    },
+    {
+      "word_id": "v5",
+      "term": "dia",
+      "phonetic_api": "/dia/",
+      "phonetic_simple": "di-A",
+      "translation": "être ami, être en bons termes (du proverbe cité par Jackson sur l'amitié à distance)",
+      "example_sentence": "Wu bi wo si dia kama?",
+      "example_phonetic": "/wu bi wɔ si dia kama/",
+      "example_translation": "Comment pourriez-vous être amis ?"
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p1_c1_m1_l2",
-      "original": "Ni Alla sɔnna, n di n ya lafasa gbanan",
-      "phonetic_api": "/ni al.la sɔn.na ɲ͡di ɲ͡ja la.fa.sa g͡ba.nan/",
-      "phonetic_simple": "NI AL-LA SƆN-NA, N DI N YA LA-FA-SA GBANAN",
-      "translation": "Si Dieu le veut, je terminerai mon plaidoyer",
-      "context": "Exprimer une condition essentielle liée à l'avenir."
+      "phrase_id": "p1",
+      "original": "Morgo mi bi wulai yan la; i sai yena, a si yena, wu bi wo si dia kama?",
+      "phonetic_api": "/morgo mi bi wulaj jan la i saj jena a si jena wu bi wo si dia kama/",
+      "phonetic_simple": "MOR-go mi bi OU-laï yan la ; i saï yè-NA, a si yè-NA, wu bi wo si di-A ka-ma",
+      "translation": "Une personne qui est loin d'ici ; si tu es là-bas et qu'il/elle y est aussi, comment l'amitié pourrait-elle rester intacte ?",
+      "context": "Proverbe entier attesté et traduit par Michael Jackson sur le thème de l'amitié mise à l'épreuve par la distance, illustrant une structure conditionnelle complexe en deux propositions liées par « sai »."
     },
     {
-      "phrase_id": "p2_c1_m1_l2",
-      "original": "Gbana a di nyɛ, kɔni n sinkara a la fɔlɔ",
-      "phonetic_api": "/g͡ba.na a di ɲɛ kɔ.ni ɲ͡sin.ka.ra a la fɔ.lɔ/",
-      "phonetic_simple": "GBANA A DI NYƐ, KƆ-NI N SIN-KA-RA A LA FƆ-LƆ",
-      "translation": "Peut-être que cela réussira, mais j'en doute encore pour le moment",
-      "context": "Nuancer une affirmation en y introduisant une forte réserve."
+      "phrase_id": "p2",
+      "original": "N'de ma konto lon.",
+      "phonetic_api": "/n de ma konto lɔn/",
+      "phonetic_simple": "n dè ma KON-to lon",
+      "translation": "Je ne connais pas les dessous des choses.",
+      "context": "Formule attestée exprimant le doute assumé, souvent employée pour introduire une réserve avant une opinion."
     },
     {
-      "phrase_id": "p3_c1_m1_l2",
-      "original": "Ni i ma haqi to i ya bara la, a tɛ di nyɛ",
-      "phonetic_api": "/ni i ma ha.qi to i ja ba.ra la a tɛ di ɲɛ/",
-      "phonetic_simple": "NI I MA HA-QI TO I YA BA-RA LA, A TƐ DI NYƐ",
-      "translation": "Si tu ne te concentres pas sur ton travail, cela ne marchera pas",
-      "context": "Formuler une condition restrictive ou un avertissement."
+      "phrase_id": "p3",
+      "original": "Wu bi wo si dia kama?",
+      "phonetic_api": "/wu bi wɔ si dia kama/",
+      "phonetic_simple": "wou bi wo si di-A ka-MA",
+      "translation": "Comment pourriez-vous être amis (dans ces conditions) ?",
+      "context": "Seconde partie du proverbe cité par Michael Jackson, qui pose une condition hypothétique niée (l'éloignement empêche l'amitié)."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "I sai yena, a si yena.",
+      "phonetic_api": "/i sai jena a si jena/",
+      "phonetic_simple": "i SAÏ yè-na, a si yè-na",
+      "translation": "Toi tu ne chantes pas, elle ne chante pas.",
+      "context": "Première proposition du proverbe conditionnel cité par Michael Jackson, posant les deux conditions négatives avant la question rhétorique qui suit."
     }
   ],
   "grammar_points": [
     {
-      "concept": "La proposition conditionnelle avec 'Ni'",
-      "explanation": "En kuranko, la condition ou l'hypothèse se construit en plaçant la particule 'ni' en tête de la proposition subordonnée. Le verbe de cette subordonnée se met généralement à l'accompli d'état ('-ra') ou prend une forme négative passée ('ma') pour marquer que la condition doit être validée.",
+      "concept": "La structure conditionnelle avec « sai »",
+      "explanation": "Le proverbe attesté sur l'amitié et la distance illustre une structure conditionnelle en deux temps : la particule « sai » introduit la condition (« si tu es là-bas »), suivie d'une proposition parallèle sans connecteur explicite (« il/elle y est aussi »), puis d'une question rhétorique concluant sur la conséquence logique.",
       "rules": [
-        "Structure : Ni + Sujet + Verbe(-ra/ma) + [Complément], [Proposition Principale au Futur ou Impératif]"
+        "sai + [proposition condition] + [proposition parallèle] + question rhétorique de conséquence.",
+        "L'absence de connecteur entre les deux propositions parallèles est stylistiquement marquée, typique du parallélisme propre aux proverbes kuranko attestés."
       ],
       "examples": [
         {
-          "structure": "Ni i nara, n di i dɛmɛ",
-          "phonetic_api": "/ni i na.ra ɲ͡je i dɛ.mɛ/",
-          "meaning": "Si tu viens, je t'aiderai"
-        }
-      ]
-    },
-    {
-      "concept": "L'expression locative du doute avec 'bɛ... na'",
-      "explanation": "À l'instar de la faim ou de la soif, le doute se conçoit comme un état ou une charge qui pèse sur l'individu. On utilise donc la structure locative [Sensation] + bɛ + [Sujet] + na/la.",
-      "rules": [
-        "Structure affirmative : Sinka bɛ n na (J'ai un doute / Je doute)",
-        "Structure négative : Sinka tɛ n na (Je n'ai pas de doute)"
-      ],
-      "examples": [
-        {
-          "structure": "Sinka ba bɛ a la",
-          "phonetic_api": "/sin.ka ba bɛ a la/",
-          "meaning": "Il/Elle a un grand doute"
+          "structure": "sai + [condition], [parallèle], [conséquence]?",
+          "phonetic_api": "/saj jena a si jena/",
+          "meaning": "si [condition], alors [parallèle] — structure conditionnelle à deux volets"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Ousmane",
-      "text": "Lansana, i bɛ a kila ra ka ta Faranah la kalo nɛ ra ?",
-      "phonetic_api": "/lan.sa.na i bɛ a ki.la ra ka ta fa.ra.na la ka.lo nɛ ra/",
-      "phonetic_simple": "LAN-SA-NA, I BƐ A KI-LA RA KA TA FA-RA-NA LA KA-LO NƐ RA ?",
-      "translation": "Lansana, penses-tu partir à Faranah ce mois-ci ?"
+      "speaker": "Ami 1",
+      "text": "Morgo mi bi wulai yan la, i sai yena...",
+      "phonetic_api": "/morgo mi bi wulaj jan la i saj jena/",
+      "phonetic_simple": "MOR-go mi bi OU-laï yan la, i saï yè-NA",
+      "translation": "Une personne qui est loin d'ici, si tu es là-bas..."
     },
     {
-      "speaker": "Lansana",
-      "text": "Gbana ɲ͡di ta, ni n ye wari sɔgɔma san. Kɔni sinka bɛ n na fɔlɔ.",
-      "phonetic_api": "/g͡ba.na ɲ͡di ta ni ɲ͡je wa.ri sɔ.gɔ.ma san kɔ.ni sin.ka bɛ ɱ͡na fɔ.lɔ/",
-      "phonetic_simple": "GBANA N DI TA, NI N YE WA-RI SƆ-GƆ-MA SAN. KƆ-NI SIN-KA BƐ N NA FƆ-LƆ.",
-      "translation": "Peut-être que j'irai, si j'obtiens l'argent demain matin. Mais j'ai encore des doutes."
+      "speaker": "Ami 2",
+      "text": "A si yena, wu bi wo si dia kama?",
+      "phonetic_api": "/a si jena wu bi wo si dia kama/",
+      "phonetic_simple": "a si yè-NA, wu bi wo si di-A ka-ma",
+      "translation": "Et qu'il/elle y est aussi, comment l'amitié pourrait-elle rester intacte ?"
     },
     {
-      "speaker": "Ousmane",
-      "text": "Ni i ma ta, i ya ɲɛmɔgɔ di jusu-gwa kɛ ?",
-      "phonetic_api": "/ni i ma ta i ja ɲɛ.mɔ.gɔ di d͡ʒu.su.gwa kɛ/",
-      "phonetic_simple": "NI I MA TA, I YA NYƐ-MƆ-GƆ DI DJOU-SOU-GWA KƐ ?",
-      "translation": "Si tu ne pars pas, est-ce que ton responsable sera en colère ?"
+      "speaker": "Ami 1",
+      "text": "N'de ma konto lon, koni dienye ka gbele wo daa la.",
+      "phonetic_api": "/n de ma konto lɔn koni djɛɲɛ ka ɡ͡bɛlɛ wɔ daː la/",
+      "phonetic_simple": "n dè ma KON-to lon, KO-ni di-È-gné ka GBÈ-lè wo daː la",
+      "translation": "Je n'en connais pas les dessous, mais l'amitié y est vraiment difficile (à maintenir)."
     },
     {
-      "speaker": "Lansana",
-      "text": "Ayee, sinka tɛ o ra. Ni n ma ta, fo ɲ͡ka a fɔ a ma fɔlɔ.",
-      "phonetic_api": "/a.jeː sin.ka tɛ o ra ni ɱ͡ma ta fo ŋ͡ka a fɔ a ma fɔ.lɔ/",
-      "phonetic_simple": "AYEE, SIN-KA TƐ O RA. NI N MA TA, FO N KA A FƆ A MA FƆ-LƆ.",
-      "translation": "Ah non, aucun doute là-dessus. Si je ne pars pas, il faudra absolument que je le lui dise d'abord."
+      "speaker": "Sage du village",
+      "text": "I sai yena, a si yena, wu bi wo si dia kama?",
+      "phonetic_api": "/i sai jena a si jena wu bi wɔ si dia kama/",
+      "phonetic_simple": "i SAÏ yè-na, a si yè-na, wou bi wo si di-A ka-MA",
+      "translation": "Toi tu ne chantes pas, elle ne chante pas, comment pourriez-vous être amis ?"
     }
   ],
   "cultural_notes": [
-    "Dans la tradition kuranko, l'expression de la certitude absolue est souvent adoucie par des modalisateurs comme 'gbana' (peut-être) afin de ne pas défier le destin. Même lorsqu'un projet est planifié avec la plus grande rigueur, laisser une place à l'incertitude est considéré comme une marque de sagesse et de respect pour les forces invisibles qui régissent le quotidien."
+    "Ce proverbe sur l'amitié et la distance, attesté par Michael Jackson, illustre une réflexion morale kuranko sur la fragilité des liens sociaux lorsque les personnes concernées sont éloignées les unes des autres.",
+    "L'usage rhétorique de la question sans réponse explicite (« comment cela pourrait-il rester... ? ») est un procédé stylistique fréquent dans la sagesse proverbiale kuranko documentée, invitant à la réflexion plutôt qu'à une réponse fermée."
   ],
   "exercises": [
     {
-      "exercise_id": "ex1_c1_m1_l2",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Que signifie le mot 'Gbana' en début de phrase ?",
+      "question": "Quelle particule introduit la condition dans le proverbe sur l'amitié et la distance ?",
       "options": [
-        "Certainement",
-        "Peut-être / Probablement",
-        "Jamais"
+        "Sai",
+        "Koni",
+        "Bara"
       ],
-      "correct_answer": "Peut-être / Probablement",
-      "explanation": "'Gbana' introduit une nuance de probabilité ou d'incertitude dans l'énoncé."
+      "correct_answer": "Sai",
+      "explanation": "« Sai » (si) introduit la proposition conditionnelle dans ce proverbe attesté par Michael Jackson."
     },
     {
-      "exercise_id": "ex2_c1_m1_l2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Pour dire 'Si j'avais de l'argent', on commence la subordonnée par la particule : [ ___ ] n ye wari sɔn.",
-      "correct_answer": "ni",
-      "hint": "C'est la particule de condition de deux lettres"
+      "sentence_with_blank": "N'de ma konto [ ___ ]. (Je ne connais pas les dessous des choses.)",
+      "correct_answer": "lon",
+      "hint": "Ce verbe signifie « savoir »."
+    },
+    {
+      "exercise_id": "ex3",
+      "type": "multiple_choice",
+      "question": "Sur quel thème porte le proverbe conditionnel étudié dans cette leçon ?",
+      "options": [
+        "La fragilité de l'amitié face à la distance",
+        "La négociation commerciale",
+        "Les rituels agricoles"
+      ],
+      "correct_answer": "La fragilité de l'amitié face à la distance",
+      "explanation": "Le proverbe attesté par Michael Jackson interroge la possibilité de maintenir une amitié authentique malgré l'éloignement géographique."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Michael Jackson, \"How Lifeworlds Work\" (Univ. of Chicago Press, 2022) — extraits",
+      "url": "https://dokumen.pub/how-lifeworlds-work-emotionality-sociality-and-the-ambiguity-of-being-9780226492018.html"
+    },
+    {
+      "label": "Michael Jackson, \"Intersubjective ambiguities\" (Tijdschrift voor Medische Antropologie)",
+      "url": "https://tma.socsci.uva.nl/19_1/jackson.pdf"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Le proverbe complet sur l'amitié et la distance, ainsi que « n'de ma konto lon », sont directement attestés et traduits par Michael Jackson. L'analyse grammaticale de la structure conditionnelle est une interprétation raisonnée de cette citation unique authentique, non généralisable avec certitude à l'ensemble du système conditionnel du kuranko faute de grammaire académique complète accessible."
 }

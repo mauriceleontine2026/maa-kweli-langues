@@ -1,164 +1,199 @@
 {
-  "lesson_id": "C1_M3_L8_CORRIGEE",
+  "lesson_id": "C1_M3_L8",
   "level": "Avancé (C1-C2)",
   "module_number": 3,
   "module_title": "Maîtrise totale",
   "lesson_number": 8,
   "title": "Le lexique technique, professionnel et spécialisé",
   "learning_objectives": [
-    "Manipuler les concepts techniques liés à l'administration, l'agriculture spécialisée et le droit coutumier",
-    "Utiliser les termes de gestion des ressources, de médiation et de gouvernance locale",
-    "Agencer des structures syntaxiques complexes pour décrire des processus professionnels"
+    "Identifier le vocabulaire spécialisé attesté du champ rituel/divinatoire kuranko (biriye)",
+    "Reconnaître les limites du lexique technique moderne disponible en kuranko",
+    "Utiliser le vocabulaire spécialisé attesté dans une phrase professionnelle"
   ],
   "phonetic_focus": {
-    "key_sounds": "Le phonème /g͡b/ dans 'gbɛndɛ' s'articule comme une occlusive labio-vélaire ferme et nette. Le son /ɲ/ (ny) dans 'ɲɛmara' exige une déposition palatale parfaite. La voyelle fermée courte /i/ dans 'maratiɲa' doit garder sa tension.",
-    "common_pitfalls": "Veillez à ne pas prononcer séparément le 'g' du 'b' dans le mot 'gbɛndɛ'. Ne pas introduire de voyelle de transition entre les consonnes."
+    "key_sounds": "Le terme spécialisé « biriye » (divination) comporte un « r » battu léger suivi d'une diphtongue « ie », typique du vocabulaire rituel savant.",
+    "common_pitfalls": "Les francophones ont tendance à traiter les termes techniques/rituels comme des mots ordinaires, sans percevoir leur statut lexical spécialisé et leur charge culturelle."
   },
   "vocabulary": [
     {
-      "word_id": "v1_c1_m3_l8_corr",
-      "term": "Ɲɛmara",
-      "phonetic_api": "/ɲɛ.ma.ra/",
-      "phonetic_simple": "NYƐ-MA-RA",
-      "translation": "Gouvernance / Administration / Direction politique / Gestion (litt. : tenir le devant)",
-      "example_sentence": "Sooba ɲɛmara ka fari",
-      "example_phonetic": "/soː.ba ɲɛ.ma.ra ka fa.ri/",
-      "example_translation": "L'administration de la ville est complexe"
+      "word_id": "v1",
+      "term": "biriye",
+      "phonetic_api": "/birije/",
+      "phonetic_simple": "bi-ri-YÉ",
+      "translation": "divination, art divinatoire spécialisé (documenté par Michael Jackson comme pratique savante kuranko)",
+      "example_sentence": "Karamorgo ye biriye lɔn.",
+      "example_phonetic": "/karamorgo je birije lɔn/",
+      "example_translation": "Le maître religieux connaît l'art de la divination."
     },
     {
-      "word_id": "v2_c1_m3_l8_corr",
-      "term": "Gbɛndɛ",
-      "phonetic_api": "/g͡bɛn.dɛ/",
-      "phonetic_simple": "GBƐN-DƐ",
-      "translation": "Ressource / Trésor public / Patrimoine / Capital",
-      "example_sentence": "An ka so gbɛndɛ lajɛ",
-      "example_phonetic": "/an ka so g͡bɛn.dɛ la.d͡ʒɛ/",
-      "example_translation": "Inspectons les ressources de notre communauté"
+      "word_id": "v2",
+      "term": "karamorgo",
+      "phonetic_api": "/karamorgo/",
+      "phonetic_simple": "ka-ra-MOR-go",
+      "translation": "spécialiste religieux/lettré, profession savante reconnue",
+      "example_sentence": "Karamorgo ye kitabu kalan.",
+      "example_phonetic": "/karamorgo je kitabu kalan/",
+      "example_translation": "Le maître religieux lit/étudie le livre (saint)."
     },
     {
-      "word_id": "v3_c1_m3_l8_corr",
-      "term": "Maratiɲa",
-      "phonetic_api": "/ma.ra.ti.ɲa/",
-      "phonetic_simple": "MA-RA-TI-NYA",
-      "translation": "Faute professionnelle / Malversation / Infraction administrative (litt. : gâter le règne)",
-      "example_sentence": "A ye maratiɲa kɛ bara la",
-      "example_phonetic": "/a d͡ʒe ma.ra.ti.ɲa kɛ ba.ra la/",
-      "example_translation": "Il a commis une faute professionnelle dans son travail"
+      "word_id": "v3",
+      "term": "kitabu",
+      "phonetic_api": "/kitabu/",
+      "phonetic_simple": "ki-ta-BOU",
+      "translation": "livre (souvent religieux), emprunt de l'arabe kitab, terme technique de l'érudition islamique",
+      "example_sentence": "A ye kitabu sɔtɔ.",
+      "example_phonetic": "/a je kitabu sɔtɔ/",
+      "example_translation": "Il/elle a obtenu/acquis un livre."
     },
     {
-      "word_id": "v4_c1_m3_l8_corr",
-      "term": "Kuma-tɛgɛ",
-      "phonetic_api": "/ku.ma.tɛ.gɛ/",
-      "phonetic_simple": "KOU-MA-TƐ-GƐ",
-      "translation": "Médiation / Arbitrage juridique / Trancher un litige (litt. : couper la parole)",
-      "example_sentence": "Mɔgɔbanu bɛ kuma-tɛgɛ ra",
-      "example_phonetic": "/mɔ.gɔ.ba.nu bɛ ku.ma.tɛ.gɛ ra/",
-      "example_translation": "Les anciens sont en train de mener une médiation"
+      "word_id": "v4",
+      "term": "jeliba",
+      "phonetic_api": "/dʲɛliba/",
+      "phonetic_simple": "djè-li-BA",
+      "translation": "griot professionnel, spécialiste de la généalogie et de la musique traditionnelle (métier spécialisé héréditaire)",
+      "example_sentence": "Jeliba wale ka gbansan.",
+      "example_phonetic": "/dʲɛliba walɛ ka ɡ͡bansan/",
+      "example_translation": "Le métier de griot est important/vaste."
+    },
+    {
+      "word_id": "v5",
+      "term": "lɔn",
+      "phonetic_api": "/lɔn/",
+      "phonetic_simple": "lon",
+      "translation": "savoir, connaître (verbe clé du lexique de l'expertise technique/religieuse)",
+      "example_sentence": "Karamorgo ye biriye ni kitabu bɛɛ lɔn.",
+      "example_phonetic": "/karamorgo je birije ni kitabu bɛː lɔn/",
+      "example_translation": "Le maître religieux connaît à la fois la divination et les livres (saints)."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p1_c1_m3_l8_corr",
-      "original": "Fo an ka so ɲɛmara kɔlɔsi kosɛbɛ, barisa maratiɲa tɛ sɔn",
-      "phonetic_api": "/fo an ka so ɲɛ.ma.ra kɔ.lɔ.si ko.sɛ.bɛ ba.ri.sa ma.ra.ti.ɲa tɛ sɔn/",
-      "phonetic_simple": "FO AN KA SO NYƐ-MA-RA KƆ-LƆ-SI KO-SƐ-BƐ, BA-RI-SA MA-RA-TI-NYA TƐ SƆN",
-      "translation": "Il faut absolument que nous analysions attentivement la gouvernance de la cité, car aucune malversation administrative n'est tolérée",
-      "context": "Déclaration officielle lors d'un audit ou d'un conseil municipal."
+      "phrase_id": "p1",
+      "original": "Karamorgo ye biriye lɔn.",
+      "phonetic_api": "/karamorgo je birije lɔn/",
+      "phonetic_simple": "ka-ra-MOR-go yè bi-ri-YÉ lon",
+      "translation": "Le maître religieux connaît l'art de la divination.",
+      "context": "« Biriye » (divination) est un terme technique spécialisé documenté par Michael Jackson dans son étude intitulée « An Approach to Kuranko Divination »."
     },
     {
-      "phrase_id": "p2_c1_m3_l8_corr",
-      "original": "Ni an ye gbɛndɛ gbanan-lɔn, kuma-tɛgɛ nɛ di nyɛ bilen",
-      "phonetic_api": "/ni an d͡ʒe g͡bɛn.dɛ g͡ba.nan.lɔn ku.ma.tɛ.gɛ nɛ di ɲɛ bi.len/",
-      "phonetic_simple": "NI AN YE GBƐN-DƐ GBANAN-LƆN, KOU-MA-TƐ-GƐ NƐ DI NYƐ BI-LEN",
-      "translation": "Si nous évaluons totalement les ressources, cet arbitrage juridique va réussir désormais",
-      "context": "Proposer une solution technique lors d'un conflit foncier ou financier."
+      "phrase_id": "p2",
+      "original": "Karamorgo ye kitabu kalan.",
+      "phonetic_api": "/karamorgo je kitabu kalan/",
+      "phonetic_simple": "ka-ra-MOR-go yè ki-ta-BOU ka-LAN",
+      "translation": "Le maître religieux lit le livre (saint).",
+      "context": "Illustre le lexique technique de l'érudition islamique intégré au kuranko (kitabu, emprunt arabe)."
     },
     {
-      "phrase_id": "p3_c1_m3_l8_corr",
-      "original": "I ya lafasa ye n ya bara fanka bonya ɲɛmara kɔnɔ",
-      "phonetic_api": "/i ja la.fa.sa d͡ʒe ɲ͡ja ba.ra fan.ka bo.nja ɲɛ.ma.ra kɔ.nɔ/",
-      "phonetic_simple": "I YA LA-FA-SA YE N YA BA-RA FAN-KA BO-NYA NYƐ-MA-RA KƆ-NƆ",
-      "translation": "Ton plaidoyer a renforcé la légitimité (force) de mon travail au sein de l'administration",
-      "context": "Remercier un collègue ou un expert après une validation technique."
+      "phrase_id": "p3",
+      "original": "Jeliba wale ka gbansan.",
+      "phonetic_api": "/dʲɛliba walɛ ka ɡ͡bansan/",
+      "phonetic_simple": "djè-li-BA OUA-lé ka GBAN-san",
+      "translation": "Le métier de griot est important.",
+      "context": "Souligne le statut professionnel spécialisé et héréditaire du jeliba dans la société kuranko."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Karamorgo ye biriye ni kitabu bɛɛ lɔn.",
+      "phonetic_api": "/karamorgo je birije ni kitabu bɛː lɔn/",
+      "phonetic_simple": "ka-ra-MOR-go yè bi-ri-YÉ ni ki-ta-BOU bèː lon",
+      "translation": "Le maître religieux connaît à la fois la divination et les livres (saints).",
+      "context": "Résume les deux savoirs techniques spécialisés attestés dans cette leçon (biriye et kitabu), unis par le verbe « lɔn » (savoir)."
     }
   ],
   "grammar_points": [
     {
-      "concept": "La nominalisation de fonction par le préfixe 'Ɲɛ-'",
-      "explanation": "Au niveau professionnel, le morphème spatial 'ɲɛ' (devant / face) se combine avec des bases verbales de contrôle pour forger des concepts abstraits liés au management, à la direction et au leadership technique.",
+      "concept": "Le lexique technique par emprunt savant",
+      "explanation": "Le vocabulaire technique et spécialisé kuranko documenté dans les sources disponibles (biriye, kitabu) montre une double origine : des racines mandé propres pour les savoirs rituels autochtones (biriye), et des emprunts à l'arabe pour le vocabulaire de l'érudition islamique importée (kitabu). Aucun lexique technique moderne (informatique, médecine, ingénierie) n'a pu être trouvé attesté en kuranko dans les sources consultées.",
       "rules": [
-        "Structure : Ɲɛ + [Verbe d'action]",
-        "Mara (garder/tenir) -> Ɲɛmara (gouverner / administrer / la gouvernance)",
-        "Mɔgɔ (personne) -> Ɲɛmɔgɔ (le dirigeant / le chef)"
+        "Les termes techniques religieux/rituels autochtones restent proches des racines mandé courantes.",
+        "Les termes liés à l'érudition écrite (livre, étude) sont souvent des emprunts arabes, signe de l'influence islamique sur le lexique savant."
       ],
       "examples": [
         {
-          "structure": "So ɲɛmara",
-          "phonetic_api": "/so ɲɛ.ma.ra/",
-          "meaning": "La gestion de la concession / La gouvernance locale"
-        }
-      ]
-    },
-    {
-      "concept": "Le syntagme de responsabilité technique 'Maratiɲa'",
-      "explanation": "Pour qualifier un manquement grave aux obligations professionnelles, contractuelles ou coutumières, la langue kuranko fusionne le verbe de possession/protection 'mara' et le verbe de destruction 'tiɲa' (gâter / détruire).",
-      "rules": [
-        "Structure : [Sujet] + ye + maratiɲa + kɛ"
-      ],
-      "examples": [
-        {
-          "structure": "A ye maratiɲa kɛ gbɛndɛ ra",
-          "phonetic_api": "/a d͡ʒe ma.ra.ti.ɲa kɛ g͡bɛn.dɛ ra/",
-          "meaning": "Il a commis un détournement dans la gestion du patrimoine"
+          "structure": "[spécialiste] + ye + [terme technique] + lɔn/kalan",
+          "phonetic_api": "/je birije lɔn/",
+          "meaning": "[le spécialiste] connaît/étudie [le savoir technique]"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Lansana (L'Auditeur)",
-      "text": "Karamɔgɔ, n fɛ an ka sooba gbɛndɛ kɔlɔsi. Maratiɲa ba le kɛra yan.",
-      "phonetic_api": "/ka.ra.mɔ.gɔ ɲ͡fɛ an ka soː.ba g͡bɛn.dɛ kɔ.lɔ.si ma.ra.ti.ɲa ba le kɛ.ra jan/",
-      "phonetic_simple": "KA-RA-MƆ-GƆ, N FƐ AN KA SOO-BA GBƐN-DƐ KƆ-LƆ-SI. MA-RA-TI-NYA BA LE KƐ-RA YAN.",
-      "translation": "Maître, je veux que nous examinions le patrimoine de la ville. Une grande faute professionnelle a été commise ici."
+      "speaker": "Chercheur",
+      "text": "Karamorgo ye biriye lɔn wo?",
+      "phonetic_api": "/karamorgo je birije lɔn wɔ/",
+      "phonetic_simple": "ka-ra-MOR-go yè bi-ri-YÉ lon wo",
+      "translation": "Le maître religieux connaît-il l'art de la divination ?"
     },
     {
-      "speaker": "Sori (Le Médiateur)",
-      "text": "Ni an ye ɲɛmara kulu gbanan-lɔn, an di se ka kuma-tɛgɛ kɛ. Ɛrɛ le ye mɔgɔ dɛmɛ ra.",
-      "phonetic_api": "/ni an d͡ʒe ɲɛ.ma.ra ku.lu g͡ba.nan.lɔn an di se ka ku.ma tɛ.gɛ kɛ ɛ.rɛ le d͡ʒe mɔ.gɔ dɛ.mɛ ra/",
-      "phonetic_simple": "NI AN YE NYƐ-MA-RA KOU-LOU GBANAN-LƆN, AN DI SE KA KOU-MA-TƐ-GƐ KƐ. Ɛ-RƐ LE YE MƆ-GƆ DƐ-MƐ RA.",
-      "translation": "Si nous comprenons totalement la substance de l'administration, nous pourrons mener une médiation. C'est la vérité qui aide l'être humain."
+      "speaker": "Guide local",
+      "text": "Ɔwɔ, a ye kitabu kalan fanne.",
+      "phonetic_api": "/ɔwɔ a je kitabu kalan fanːɛ/",
+      "phonetic_simple": "O-wo, a yè ki-ta-BOU ka-LAN FAN-né",
+      "translation": "Oui, il étudie aussi les livres (saints)."
     },
     {
-      "speaker": "Lansana (L'Auditeur)",
-      "text": "Kuma nɛ fanka ka bon. Fo ɲɛmɔgɔnu ka sɔn kuma-tɛgɛ nɛ ma bilen.",
-      "phonetic_api": "/ku.ma nɛ fan.ka ka bon fo ɲɛ.mɔ.gɔ.nu ka sɔn ku.ma tɛ.gɛ nɛ ma bi.len/",
-      "phonetic_simple": "KOU-MA NƐ FAN-KA KA BON. FO NYƐ-MƆ-GƆ-NOU KA SƆN KOU-MA-TƐ-GƐ NƐ MA BI-LEN.",
-      "translation": "Cet argument possède une grande force. Il faut absolument que les dirigeants acceptent cet arbitrage désormais."
+      "speaker": "Chercheur",
+      "text": "Jeliba wale ka gbansan fanne wo daa la?",
+      "phonetic_api": "/dʲɛliba walɛ ka ɡ͡bansan fanːɛ wɔ daː la/",
+      "phonetic_simple": "djè-li-BA OUA-lé ka GBAN-san FAN-né wo daː la",
+      "translation": "Le métier de griot est-il aussi important là-bas ?"
+    },
+    {
+      "speaker": "Guide local",
+      "text": "N'de ma konto lon kosɔbɛ, koni Allah ma tanke.",
+      "phonetic_api": "/n de ma konto lɔn kosɔbɛ koni alːah ma taŋkɛ/",
+      "phonetic_simple": "n dè ma KON-to lon ko-SO-bè, KO-ni AL-lah ma TAN-ké",
+      "translation": "Je n'en connais pas vraiment tous les dessous, mais que Dieu te protège."
     }
   ],
   "cultural_notes": [
-    "Dans l'aire linguistique Kuranko, la sphère professionnelle et l'exercice du pouvoir administratif obéissent à des règles de sémantique très précises. Le 'kuma-tɛgɛ' (l'arbitrage) ne désigne pas une coupure autoritaire, mais l'interruption ritualisée des débats par les sages pour sceller un verdict juste. De même, les ressources publiques ('gbɛndɛ') sont perçues traditionnellement comme un dépôt sacré confié aux leaders, plaçant toute 'maratiɲa' (malversation) au rang de faute éthique majeure détruisant la cohésion sociale."
+    "La divination (« biriye ») fait l'objet d'une étude académique spécifique de Michael Jackson (« An Approach to Kuranko Divination », Human Relations, 1978), preuve du statut de savoir technique spécialisé reconnu chez les Kuranko.",
+    "L'absence quasi totale de vocabulaire technique moderne (informatique, sciences, ingénierie) attesté en kuranko dans les sources en ligne consultées reflète le manque de corpus numérique disponible pour cette langue, plutôt qu'une absence réelle de tels concepts dans l'usage contemporain des locuteurs."
   ],
   "exercises": [
     {
-      "exercise_id": "ex1_c1_m3_l8_corr",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Que signifie techniquement le concept de 'Kuma-tɛgɛ' en droit coutumier ou en administration ?",
+      "question": "Quel article académique de Michael Jackson porte spécifiquement sur un savoir technique kuranko ?",
       "options": [
-        "Écrire un rapport financier",
-        "Une médiation / Un arbitrage juridique pour trancher un litige",
-        "Interdire une réunion publique"
+        "« An Approach to Kuranko Divination » (1978)",
+        "« The Kuranko » (1977)",
+        "« How Lifeworlds Work » (2022)"
       ],
-      "correct_answer": "Une médiation / Un arbitrage juridique pour trancher un litige",
-      "explanation": "Formé de 'kuma' (parole) et 'tɛgɛ' (couper), ce terme technique désigne l'action juridique ou coutumière de clore un conflit par une décision arbitrale juste."
+      "correct_answer": "« An Approach to Kuranko Divination » (1978)",
+      "explanation": "Cet article de 1978 est spécifiquement consacré à la divination (biriye), savoir technique spécialisé kuranko."
     },
     {
-      "exercise_id": "ex2_c1_m3_l8_corr",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Pour désigner la gouvernance ou la gestion administrative, on emploie le terme : [ ___ ].",
-      "correct_answer": "ɲɛmara",
-      "hint": "Commence par le phonème palatalisé 'ny' et comporte trois syllabes"
+      "sentence_with_blank": "Karamorgo ye [ ___ ] kalan. (Le maître religieux lit le livre.)",
+      "correct_answer": "kitabu",
+      "hint": "Ce mot, emprunté à l'arabe, signifie « livre »."
+    },
+    {
+      "exercise_id": "ex3",
+      "type": "multiple_choice",
+      "question": "Pourquoi le lexique technique moderne (informatique, ingénierie) est-il absent de cette leçon ?",
+      "options": [
+        "Aucune attestation n'a pu être trouvée en ligne pour le kuranko",
+        "Ce lexique n'existe dans aucune langue africaine",
+        "Les Kuranko refusent la technologie moderne"
+      ],
+      "correct_answer": "Aucune attestation n'a pu être trouvée en ligne pour le kuranko",
+      "explanation": "Faute de corpus numérique disponible, cette leçon se limite honnêtement aux domaines techniques attestés (divination, érudition religieuse)."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Michael Jackson, \"An Approach to Kuranko Divination\" (Human Relations, 1978)",
+      "url": "https://journals.sagepub.com/doi/abs/10.1177/001872677803100202"
+    },
+    {
+      "label": "Michael Jackson, \"How Lifeworlds Work\" (Univ. of Chicago Press, 2022) — extraits",
+      "url": "https://dokumen.pub/how-lifeworlds-work-emotionality-sociality-and-the-ambiguity-of-being-9780226492018.html"
+    }
+  ],
+  "confidence": "faible",
+  "confidence_note": "« Biriye » (divination) est attesté par le titre et le contenu de l'article académique de Michael Jackson consacré à ce sujet précis. « Karamorgo » et « jeliba » sont attestés par ailleurs. « Kitabu » (livre) est une extrapolation par emprunt arabe non directement confirmée en kuranko mais plausible par analogie avec d'autres langues mandé musulmanes ; aucun lexique technique moderne (informatique, ingénierie, médecine) n'a pu être trouvé et cette lacune est signalée honnêtement plutôt que comblée par invention."
 }

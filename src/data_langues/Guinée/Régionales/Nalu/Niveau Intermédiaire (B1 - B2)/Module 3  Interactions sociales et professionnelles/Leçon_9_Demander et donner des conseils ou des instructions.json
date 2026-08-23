@@ -6,158 +6,182 @@
   "lesson_number": 9,
   "title": "Demander et donner des conseils ou des instructions",
   "learning_objectives": [
-    "Demander une orientation ou un avis pour résoudre un problème",
-    "Donner des directives, des conseils bienveillants ou des instructions claires"
+    "Utiliser le verbe « deenten » (demander) pour formuler une question/demande de conseil",
+    "Employer l'impératif/subjonctif implicite avec « awa » pour donner une instruction",
+    "Reconnaître le vocabulaire attesté lié à l'enseignement/l'instruction (karandii-yɛ)"
   ],
   "phonetic_focus": {
-    "key_sounds": "La consonne occlusive injective alvéolaire /ɗ/ (notée d') exige d'aspirer l'air vers l'intérieur de la bouche juste avant l'expulsion du son. Le phonème /θ/ ('th') doit garder sa texture fricative fluide sans se transformer en un simple /t/ ou /s/.",
-    "common_pitfalls": "Le verbe 'foti' (dire/parler) s'articule avec un /o/ bien court et fermé. Veillez à ne pas allonger la voyelle sous peine de modifier le rythme grammatical de l'instruction."
+    "key_sounds": "Le nalu comporte 7 voyelles avec opposition de longueur (i, u, e [ɪ], o [ʊ], ɛ, ɔ, a) et des consonnes comme θ (proche du 'th' anglais dur, prononcé [f] par de nombreux locuteurs), gb (occlusive labio-vélaire double, sans équivalent en français), et ŋ (comme 'ng' dans 'parking'). Source : Seidel (2024), The Oxford Guide to the Atlantic Languages of West Africa.",
+    "common_pitfalls": "Les francophones ont tendance à confondre ɛ/e et ɔ/o car le français ne marque pas systématiquement cette opposition de fermeture. Le θ est souvent mal prononcé car il n'existe pas en français ; beaucoup de locuteurs nalu eux-mêmes le réalisent [f]. La longueur vocalique (ex. redoublement de voyelle 'ɔɔ') doit être respectée, contrairement au français où elle n'est pas distinctive."
   },
   "vocabulary": [
     {
-      "word_id": "v18_1",
-      "term": "Foti",
-      "phonetic_api": "/fo.ti/",
-      "phonetic_simple": "FO-TI",
-      "translation": "Dire / Parler / Conseiller",
-      "example_sentence": "Foti mi gbeila.",
-      "example_phonetic": "/fo.ti mi g͡bei.la/",
-      "example_translation": "Dis-moi le chemin / Conseille-moi sur la route."
+      "word_id": "v1",
+      "term": "deenten",
+      "phonetic_api": "/deːnten/",
+      "phonetic_simple": "DÉÉNTÉN",
+      "translation": "demander",
+      "example_sentence": "Mɔɔ madeentnaa nɛɛ pe ɲaaŋ hɔɔntɔ maki ɲɔw.",
+      "example_phonetic": "/mɔː madeːntnaː nɛː pe ɲaːŋ hɔːntɔ maki ɲɔw/",
+      "example_translation": "Il lui demanda : « Mère, pourquoi pleures-tu ? »"
     },
     {
-      "word_id": "v18_2",
-      "term": "Kunu ce",
-      "phonetic_api": "/ku.nu tʃe/",
-      "phonetic_simple": "KOU-NOU TCHÉ",
-      "translation": "Sagesse / Conseil bon",
-      "example_sentence": "M malang kunu ce.",
-      "example_phonetic": "/m ba.laŋ ku.nu tʃe/",
-      "example_translation": "Je cherche un bon conseil (la sagesse)."
+      "word_id": "v2",
+      "term": "yek / yeker",
+      "phonetic_api": "/jek/, /jeker/",
+      "phonetic_simple": "YÉK / YÉKÉR",
+      "translation": "dire / dire à quelqu'un",
+      "example_sentence": "Mɔhamɛd yekrɛ bɛɲiin maay.",
+      "example_phonetic": "/mɔhamɛd jekrɛ bɛɲiːn maːj/",
+      "example_translation": "Mohammed, dis à tes gens…"
     },
     {
-      "word_id": "v18_3",
-      "term": "Ba",
-      "phonetic_api": "/ba/",
-      "phonetic_simple": "BA",
-      "translation": "Aller / Marcher (suivre une instruction)",
-      "example_sentence": "Ba di korat.",
-      "example_phonetic": "/ba di ko.rat/",
-      "example_translation": "Va à droite (suis cette instruction)."
+      "word_id": "v3",
+      "term": "karandii-yɛ",
+      "phonetic_api": "/karandiːjɛ/",
+      "phonetic_simple": "KARANDII-YÈ",
+      "translation": "élèves, disciples, suiveurs",
+      "example_sentence": "Karandii-yɛ mabɔk.",
+      "example_phonetic": "/karandiːjɛ mabɔk/",
+      "example_translation": "Il a ces disciples/élèves."
     },
     {
-      "word_id": "v18_4",
-      "term": "Lan",
-      "phonetic_api": "/lan/",
-      "phonetic_simple": "LAN",
-      "translation": "Penser / Réfléchir / Écouter",
-      "example_sentence": "Lan ce, bweten mi.",
-      "example_phonetic": "/lan tʃe bʷe.ten mi/",
-      "example_translation": "Réfléchis bien (écoute bien), mon enfant."
+      "word_id": "v4",
+      "term": "nɔɔndi / m-nɔɔndi",
+      "phonetic_api": "/nɔːndi/, /mnɔːndi/",
+      "phonetic_simple": "NÔÔNDI",
+      "translation": "vérité, avoir raison",
+      "example_sentence": "Mnɔɔndi maay.",
+      "example_phonetic": "/mnɔːndi maːj/",
+      "example_translation": "Tu as raison (litt. « la vérité est à toi »)."
     },
     {
-      "word_id": "v18_5",
-      "term": "Thath",
-      "phonetic_api": "/θaθ/",
-      "phonetic_simple": "THATH",
-      "translation": "Réduire / Calmer / Ajuster",
-      "example_sentence": "Thath b'at, ina.",
-      "example_phonetic": "/θaθ ɓat i.na/",
-      "example_translation": "Calme-toi un peu, s'il te plaît."
+      "word_id": "v5",
+      "term": "kɔɔm / kɔɔmen",
+      "phonetic_api": "/kɔːm/, /kɔːmen/",
+      "phonetic_simple": "KÔÔM / KÔÔMÉN",
+      "translation": "produire / réparer, causatif de produire",
+      "example_sentence": "Min ti kɔɔmen mɔ.",
+      "example_phonetic": "/min ti kɔːmen mɔ/",
+      "example_translation": "C'est moi qui vais réparer cela."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p18_1",
-      "original": "Ina, foti mi, m boku wale rila?",
-      "phonetic_api": "/i.na fo.ti mi m bo.ku wa.le ri.la/",
-      "phonetic_simple": "I-NA, FO-TI MI, M BO-KOU WA-LÉ RI-LA",
-      "translation": "S'il vous plaît, conseillez-moi, comment dois-je agir / faire ?",
-      "context": "Formule polie de niveau intermédiaire pour solliciter l'avis d'un aîné face à un choix."
+      "phrase_id": "p1",
+      "original": "Mɔhamɛd yekrɛ bɛɲiin maay.",
+      "phonetic_api": "/mɔhamɛd jekrɛ bɛɲiːn maːj/",
+      "phonetic_simple": "MOHAMÈD YÉKRÈ BÈ-NYIIN MAAY",
+      "translation": "Mohammed, dis à tes gens…",
+      "context": "Formule d'instruction adressée directement à une personne."
     },
     {
-      "phrase_id": "p18_2",
-      "original": "Lan ce foti baa mwo, a gbe ce.",
-      "phonetic_api": "/lan tʃe fo.ti baː mwo a ŋgbe tʃe/",
-      "phonetic_simple": "LAN TCHÉ FO-TI BAA MWO, A NGBÉ TCHÉ",
-      "translation": "Écoute bien les paroles de ton père, c'est une bonne chose.",
-      "context": "Instruction ou conseil social donné couramment à un jeune de la communauté."
+      "phrase_id": "p2",
+      "original": "Min tɛɛ yeker nɛɛ Kaantɔ nciiŋka?",
+      "phonetic_api": "/min tɛː jeker nɛː kaːntɔ nt͜siːŋka/",
+      "phonetic_simple": "MIN TÈÈ YÉKÉR NÈÈ KAANTO NTSIINGKA",
+      "translation": "Et je lui dis : « Où est-ce que c'est bien ? »",
+      "context": "Demande de conseil/avis sur un lieu."
     },
     {
-      "phrase_id": "p18_3",
-      "original": "Ba di korat, i n'gbe thath wale.",
-      "phonetic_api": "/ba di ko.rat i ŋgbe θaθ wa.le/",
-      "phonetic_simple": "BA DI KO-RAT, I NGBÉ THATH WA-LÉ",
-      "translation": "Va à droite, et réduis ton allure (ton travail).",
-      "context": "Instruction technique combinant direction spatiale et recommandation d'action."
+      "phrase_id": "p3",
+      "original": "Katec nciiŋka. Mnɔɔndi maay.",
+      "phonetic_api": "/katet͜s nt͜siːŋka mnɔːndi maːj/",
+      "phonetic_simple": "KATÈTS NTSIINGKA. M-NÔÔNDI MAAY",
+      "translation": "Au port, c'est bien. Tu as raison.",
+      "context": "Réponse donnant un conseil de lieu, suivie d'une validation."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Min ti kɔɔmen mɔ.",
+      "phonetic_api": "/min ti kɔːmen mɔ/",
+      "phonetic_simple": "MIN TI KÔÔMÉN MO",
+      "translation": "C'est moi qui vais réparer cela.",
+      "context": "Proposition d'action/instruction future."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'inversion interrogative conditionnelle avec 'm boku'",
-      "explanation": "Pour formuler une demande de conseil sur une action future, la structure nalu s'appuie sur le marqueur de futur 'boku' associé au pronom sujet, le tout placé en fin de proposition interrogative introduite par le verbe de parole.",
+      "concept": "Structure de la demande rapportée avec yek/yeker + nɛɛ",
+      "explanation": "Pour rapporter un conseil ou une instruction donnée à quelqu'un, le nalu utilise « yek » (dire) ou sa forme applicative « yeker » (dire à quelqu'un), souvent suivi de « nɛɛ » introduisant le contenu du discours rapporté (Seidel 2024).",
       "rules": [
-        "Le verbe de sollicitation 'foti mi' (dis-moi / conseille-moi) ouvre la structure.",
-        "L'action envisagée se construit à l'aide de l'auxiliaire de projection 'boku' combiné à l'adverbe interrogatif 'rila' (comment)."
+        "« yeker » ajoute un destinataire explicite à l'action de dire.",
+        "« nɛɛ » fonctionne comme marqueur de citation/complétive, comparable à « que » en français rapporté."
       ],
       "examples": [
         {
-          "structure": "Foti mi, m boku ba rila?",
-          "phonetic_api": "/fo.ti mi m bo.ku ba ri.la/",
-          "meaning": "Dis-moi, comment dois-je venir ?"
-        },
-        {
-          "structure": "Foti mi, m boku wale rila?",
-          "phonetic_api": "/fo.ti mi m bo.ku wa.le ri.la/",
-          "meaning": "Dis-moi, comment dois-je procéder ?"
+          "structure": "yekrɛ bɛɲiin maay",
+          "phonetic_api": "/jekrɛ bɛɲiːn maːj/",
+          "meaning": "dis à tes gens (impératif + destinataire)"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Lamine",
-      "text": "Ina, baa ! Foti mi, m boku wale rila di marce suba?",
-      "phonetic_api": "/i.na baː fo.ti mi m bo.ku wa.le ri.la di mar.ʃe su.ba/",
-      "phonetic_simple": "I-NA, BAA ! FO-TI MI, M BO-KOU WA-LÉ RI-LA DI MAR-TCHÉ SOU-BA?",
-      "translation": "S'il te plaît, mon père ! Conseille-moi, comment dois-je procéder pour le marché demain ?"
+      "speaker": "Mohammed",
+      "text": "Min tɛɛ yeker nɛɛ Kaantɔ nciiŋka?",
+      "phonetic_api": "/min tɛː jeker nɛː kaːntɔ nt͜siːŋka/",
+      "phonetic_simple": "MIN TÈÈ YÉKÉR NÈÈ KAANTO NTSIINGKA",
+      "translation": "Et je lui ai demandé : où est-ce que c'est bien ?"
     },
     {
-      "speaker": "Ousmane",
-      "text": "Bweten mi, lan ce ! Ba di korat, i n'gbe thath tange ceeb.",
-      "phonetic_api": "/bʷe.ten mi lan tʃe ba di ko.rat i ŋgbe θaθ taŋ.e tʃeːb/",
-      "phonetic_simple": "BOUÉ-TEN MI, LAN TCHÉ ! BA DI KO-RAT, I NGBÉ THATH TANG-É TCHÉÉB.",
-      "translation": "Mon enfant, écoute bien ! Va vers la droite, et diminue le prix du poisson (négocie bien)."
+      "speaker": "Conseiller",
+      "text": "Katec nciiŋka. Mnɔɔndi maay.",
+      "phonetic_api": "/katet͜s nt͜siːŋka mnɔːndi maːj/",
+      "phonetic_simple": "KATÈTS NTSIINGKA. M-NÔÔNDI MAAY",
+      "translation": "Au port, c'est bien. Tu as raison."
     },
     {
-      "speaker": "Lamine",
-      "text": "A ce ! M boku lan foti mwo b'at. Nu koka !",
-      "phonetic_api": "/a tʃe m bo.ku lan fo.ti mwo ɓat nu ko.ka/",
-      "phonetic_simple": "A TCHÉ ! M BO-KOU LAN FO-TI MWO BAT. NOU KO-KA !",
-      "translation": "C'est bien ! Je vais suivre (penser à) ta parole attentivement. Merci beaucoup !"
+      "speaker": "Mohammed",
+      "text": "Mɔhamɛd yekrɛ bɛɲiin maay.",
+      "phonetic_api": "/mɔhamɛd jekrɛ bɛɲiːn maːj/",
+      "phonetic_simple": "MOHAMÈD YÉKRÈ BÈ-NYIIN MAAY",
+      "translation": "Mohammed, dis-le à tes gens."
+    },
+    {
+      "speaker": "Mohammed",
+      "text": "Min ti kɔɔmen mɔ.",
+      "phonetic_api": "/min ti kɔːmen mɔ/",
+      "phonetic_simple": "MIN TI KÔÔMÉN MO",
+      "translation": "C'est moi qui vais réparer cela."
     }
   ],
   "cultural_notes": [
-    "Dans l'organisation sociale nalu, donner et recevoir un conseil ('kunu ce') fait l'objet d'un profond protocole moral. Demander l'avis d'un aîné avant d'entreprendre un voyage, un commerce ou une alliance est perçu comme une garantie de protection spirituelle et sociale. Les instructions reçues ne sont pas de simples ordres, mais des balises de sagesse collective transmises pour maintenir l'harmonie du clan."
+    "Le terme « karandii-yɛ » (disciples/suiveurs/élèves) suggère une racine partagée avec le mandingue « karandigi » (élève, du verbe « karan » étudier/lire), signe possible d'un emprunt aux langues mandées voisines comme le soso, dominant dans la région.",
+    "La validation d'un conseil par la formule « mnɔɔndi maay » (tu as raison) montre l'importance de la reconnaissance sociale de la justesse d'un avis dans les échanges nalu rapportés par Seidel (2024)."
   ],
   "exercises": [
     {
-      "exercise_id": "ex18_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel verbe nalu signifie à la fois 'dire', 'parler' et 'conseiller' dans ce contexte ?",
+      "question": "Quelle expression signifie « tu as raison » en nalu ?",
       "options": [
-        "Thath",
-        "Foti",
-        "Lan"
+        "Mnɔɔndi maay",
+        "Msiŋcaames",
+        "Kamhareŋ"
       ],
-      "correct_answer": "Foti",
-      "explanation": "'Foti' est le verbe fondamental pour exprimer la parole émise, la transmission d'une directive ou d'un conseil."
+      "correct_answer": "Mnɔɔndi maay",
+      "explanation": "Attesté par Seidel (2024) : « Mnɔɔndi maay » (litt. « la vérité est à toi »)."
     },
     {
-      "exercise_id": "ex18_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Pour dire 'écoute bien' ou 'réfléchis bien' à un enfant, on utilise l'impératif : [ ___ ] ce, bweten mi.",
-      "correct_answer": "Lan",
-      "hint": "Verbe lié à la pensée, à l'attention et à la réflexion interne"
+      "sentence_with_blank": "« Mɔhamɛd [ ___ ] bɛɲiin maay » signifie « Mohammed, dis à tes gens ».",
+      "correct_answer": "yekrɛ",
+      "hint": "Forme applicative de « yek » (dire), « dire à quelqu'un »."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Seidel, F. (2024) « Nalu », in The Oxford Guide to the Atlantic Languages of West Africa, Oxford University Press",
+      "url": "https://academic.oup.com/book/59850/chapter/511378992"
+    },
+    {
+      "label": "Glottolog 5.3, « Nalu » (nalu1240 / naj)",
+      "url": "https://glottolog.org/resource/languoid/id/nalu1240"
+    }
+  ],
+  "confidence": "faible",
+  "confidence_note": "Les structures de demande et de conseil s'appuient sur un nombre restreint de phrases attestées (demander, dire, valider un avis) ; aucune formule standardisée d'instruction technique (« il faut d'abord..., puis... ») n'a été trouvée dans les sources disponibles."
 }

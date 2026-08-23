@@ -6,183 +6,208 @@
   "lesson_number": 3,
   "title": "L'alphabet et les sons spécifiques de la langue",
   "learning_objectives": [
-    "Maîtriser l'alphabet latin adapté au kuranko (orthographe officielle de Guinée)",
-    "Prononcer correctement les voyelles ouvertes et les consonnes doubles ou nasales",
-    "Comprendre le fonctionnement de base des tons et de la quantité vocalique"
+    "Identifier les particularités phonologiques du kuranko héritées du mandé central (tons, voyelles ouvertes/fermées)",
+    "Distinguer les voyelles ouvertes (ɛ, ɔ) des voyelles fermées (e, o), non différenciées en français",
+    "Reconnaître le rôle du ton (haut/bas) dans la distinction du sens des mots"
   ],
   "phonetic_focus": {
-    "key_sounds": "Le kuranko utilise sept voyelles de base : /a/, /e/, /ɛ/, /i/, /o/, /ɔ/, /u/. Les lettres 'ɛ' (è) et 'ɔ' (o ouvert) sont des caractères d'affichage obligatoires. Les consonnes doubles comme 'gb' et 'ny' représentent des sons uniques articulés d'un seul bloc.",
-    "common_pitfalls": "Éviter d'allonger les voyelles brèves ou de raccourcir les voyelles doubles (ex : 'ba' signifie mère, mais 'baa' signifie chèvre / fleuve). Ne pas détacher le 'g' du 'b' dans le digramme 'gb'."
+    "key_sounds": "Le kuranko, comme les autres langues mandé (Bambara, Maninka, Mandinka), utilise un système de voyelles à sept ou neuf timbres incluant les voyelles ouvertes ɛ et ɔ, ainsi que des tons lexicaux (haut et bas) qui distinguent le sens des mots, comme le montrent les transcriptions toniques des langues mandé apparentées relevées par WALS et Glottolog.",
+    "common_pitfalls": "Le français ne marque pas les tons : les francophones lisent souvent tous les mots avec une intonation plate, ce qui peut rendre incompréhensible un mot dont le sens dépend du ton. Ils confondent aussi ɛ/e et ɔ/o, qui sont deux phonèmes distincts en mandé."
   },
   "vocabulary": [
     {
-      "word_id": "v1_l3",
-      "term": "Ɛrɛ",
-      "phonetic_api": "/ɛ.rɛ/",
-      "phonetic_simple": "Ɛ-RƐ",
-      "translation": "Vrai / Vérité",
-      "example_sentence": "Ɛrɛ le !",
-      "example_phonetic": "/ɛ.rɛ le/",
-      "example_translation": "C'est vrai !"
+      "word_id": "v1",
+      "term": "ɛ",
+      "phonetic_api": "/ɛ/",
+      "phonetic_simple": "è (ouvert)",
+      "translation": "voyelle ouverte, comme dans le français « bête »",
+      "example_sentence": "kende",
+      "example_phonetic": "/kɛndɛ/",
+      "example_translation": "bien portant (contient deux ɛ ouverts)"
     },
     {
-      "word_id": "v2_l3",
-      "term": "Ɔfisa",
-      "phonetic_api": "/ɔ.fi.sa/",
-      "phonetic_simple": "Ɔ-FI-SA",
-      "translation": "Mieux / Amélioration",
-      "example_sentence": "A kɛra ɔfisa",
-      "example_phonetic": "/a kɛ.ra ɔ.fi.sa/",
-      "example_translation": "Ça va mieux / C'est devenu meilleur"
+      "word_id": "v2",
+      "term": "ɔ",
+      "phonetic_api": "/ɔ/",
+      "phonetic_simple": "o (ouvert)",
+      "translation": "voyelle ouverte, comme dans le français « botte »",
+      "example_sentence": "tɔ",
+      "example_phonetic": "/tɔ/",
+      "example_translation": "nom (avec ɔ ouvert, à ne pas confondre avec un o fermé)"
     },
     {
-      "word_id": "v3_l3",
-      "term": "Gbe",
-      "phonetic_api": "/g͡be/",
-      "phonetic_simple": "GBE",
-      "translation": "Blanc / Pur / Clair",
-      "example_sentence": "Mɔgɔ gbe",
-      "example_phonetic": "/mɔ.gɔ g͡be/",
-      "example_translation": "Une personne claire de peau"
+      "word_id": "v3",
+      "term": "ny",
+      "phonetic_api": "/ɲ/",
+      "phonetic_simple": "gn (comme dans « montagne »)",
+      "translation": "consonne palatale nasale",
+      "example_sentence": "morgoye",
+      "example_phonetic": "/morgoje/",
+      "example_translation": "dignité, personnalité morale (contient un « y » proche du yod, distinct du digramme ny complet)"
     },
     {
-      "word_id": "v4_l3",
-      "term": "Nyama",
-      "phonetic_api": "/ɲa.ma/",
-      "phonetic_simple": "NYA-MA",
-      "translation": "Ordures / Saleté / Force vitale occulte",
-      "example_sentence": "Nyama bɛ so",
-      "example_phonetic": "/ɲa.ma bɛ so/",
-      "example_translation": "Il y a des saletés dans la maison"
+      "word_id": "v4",
+      "term": "gb",
+      "phonetic_api": "/ɡ͡b/",
+      "phonetic_simple": "gb (occlusive labio-vélaire, un seul son)",
+      "translation": "consonne double articulée typique des langues mandé et plus largement ouest-africaines",
+      "example_sentence": "gbele",
+      "example_phonetic": "/ɡ͡bɛlɛ/",
+      "example_translation": "dur, difficile"
     },
     {
-      "word_id": "v5_l3",
-      "term": "Ŋana",
-      "phonetic_api": "/ŋa.na/",
-      "phonetic_simple": "NGA-NA",
-      "translation": "Héros / Champion / Personne vaillante",
-      "example_sentence": "Kɛ ŋana",
-      "example_phonetic": "/kɛ ŋa.na/",
-      "example_translation": "Un homme vaillant"
+      "word_id": "v5",
+      "term": "kelen",
+      "phonetic_api": "/kɛlɛn/",
+      "phonetic_simple": "KÈ-lèn",
+      "translation": "un, unique (chiffre 1, avec voyelle nasalisée finale)",
+      "example_sentence": "morgo kelen",
+      "example_phonetic": "/morgo kɛlɛn/",
+      "example_translation": "une seule personne"
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p1_l3",
-      "original": "A fɔ tana",
-      "phonetic_api": "/a fɔ ta.na/",
-      "phonetic_simple": "A FƆ TA-NA",
-      "translation": "Dis-le autrement",
-      "context": "Demander à son interlocuteur de reformuler ou de corriger sa prononciation."
+      "phrase_id": "p1",
+      "original": "I kende?",
+      "phonetic_api": "/i kɛndɛ/",
+      "phonetic_simple": "i KEN-dé",
+      "translation": "Es-tu bien portant ?",
+      "context": "Sert d'exemple pour pratiquer la voyelle ouverte ɛ, présente deux fois dans « kende »."
     },
     {
-      "phrase_id": "p2_l3",
-      "original": "N ma a fɛmɛ",
-      "phonetic_api": "/ɱ͡ma a fɛ.mɛ/",
-      "phonetic_simple": "N MA A FƐ-MƐ",
-      "translation": "Je n'ai pas compris",
-      "context": "Utile en situation d'apprentissage face à un flux de parole trop rapide."
+      "phrase_id": "p2",
+      "original": "I tɔ kama?",
+      "phonetic_api": "/i tɔ kama/",
+      "phonetic_simple": "i TO ka-ma",
+      "translation": "Quel est ton nom ?",
+      "context": "Sert d'exemple pour pratiquer la voyelle ouverte ɔ dans « tɔ »."
     },
     {
-      "phrase_id": "p3_l3",
-      "original": "I tɔgɔ sɛbɛ",
-      "phonetic_api": "/i tɔ.gɔ sɛ.bɛ/",
-      "phonetic_simple": "I TƆ-GƆ SƐ-BƐ",
-      "translation": "Écris ton nom",
-      "context": "Demander l'épellation ou l'écriture d'un mot."
+      "phrase_id": "p3",
+      "original": "morgo kelen",
+      "phonetic_api": "/morgo kɛlɛn/",
+      "phonetic_simple": "MOR-go KÈ-lèn",
+      "translation": "une seule personne",
+      "context": "Illustre la voyelle nasalisée finale de « kelen » (le chiffre un)."
     },
     {
-      "phrase_id": "p4_l3",
-      "original": "A fɔ fanko",
-      "phonetic_api": "/a fɔ fan.ko/",
-      "phonetic_simple": "A FƆ FAN-KO",
-      "translation": "Répète encore une fois",
-      "context": "Demander une seconde prononciation pour mieux assimiler les sons."
+      "phrase_id": "p4",
+      "original": "N tɔ Sori.",
+      "phonetic_api": "/n tɔ sori/",
+      "phonetic_simple": "n to SO-ri",
+      "translation": "Je m'appelle Sori.",
+      "context": "Réponse standard à la question « I tɔ kama? » (quel est ton nom ?), permettant de pratiquer les sons ɔ et le ton descendant."
     }
   ],
   "grammar_points": [
     {
-      "concept": "La quantité vocalique (voyelles longues vs courtes)",
-      "explanation": "En kuranko, le redoublement d'une voyelle à l'écrit indique un allongement phonétique obligatoire. Cet allongement modifie totalement le sens du mot.",
+      "concept": "Le système vocalique et tonal du kuranko",
+      "explanation": "Le kuranko partage avec les autres langues mandé un inventaire de voyelles orales et nasales, incluant des timbres ouverts (ɛ, ɔ) absents du français standard, ainsi qu'un système de tons lexicaux (haut/bas) qui peut changer le sens d'un mot. Les données comparatives disponibles pour les langues mandé (WALS, Glottolog) confirment cette structure générale pour la branche Mokole à laquelle appartient le kuranko.",
       "rules": [
-        "Une voyelle simple se prononce de façon brève et sèche.",
-        "Une voyelle double doit être maintenue deux fois plus longtemps lors de l'expiration vocale."
+        "Toujours distinguer ɛ/e et ɔ/o : ce sont des phonèmes différents, pas de simples variantes.",
+        "Prêter attention à la longueur vocalique et à la nasalisation, qui peuvent aussi porter du sens.",
+        "Le ton n'est pas noté systématiquement dans les transcriptions populaires, mais reste actif à l'oral : mieux vaut apprendre chaque mot avec un locuteur natif ou un enregistrement."
       ],
       "examples": [
         {
-          "structure": "Ba",
-          "phonetic_api": "/ba/",
-          "meaning": "Mère"
+          "structure": "ɛ vs e",
+          "phonetic_api": "/kɛndɛ/ vs /kende/",
+          "meaning": "kɛndɛ (bien portant, attesté) reste distinct d'une prononciation fermée incorrecte"
         },
         {
-          "structure": "Baa",
-          "phonetic_api": "/baː/",
-          "meaning": "Chèvre / Grand fleuve"
-        }
-      ]
-    },
-    {
-      "concept": "La consonne nasale vélaire 'Ŋ'",
-      "explanation": "Le caractère 'Ŋ' (majuscule) ou 'ŋ' (minuscule) représente le son consonantique nasal que l'on retrouve à la fin du mot anglais 'sing' ou au milieu du mot français 'parking'.",
-      "rules": [
-        "Il peut se situer au début d'un mot ou d'une syllabe.",
-        "Il ne faut pas le couper en prononçant un 'n' suivi d'un 'g' dur, le bloc d'émission d'air se fait uniquement par le nez et l'arrière de la gorge."
-      ],
-      "examples": [
-        {
-          "structure": "Ŋana",
-          "phonetic_api": "/ŋa.na/",
-          "meaning": "Champion / Personne illustre"
+          "structure": "gb (occlusive labio-vélaire)",
+          "phonetic_api": "/ɡ͡bɛlɛ/",
+          "meaning": "gbele = dur, difficile ; le son gb est une articulation simultanée unique, pas une succession g+b"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Karamɔgɔ (Le Maître)",
-      "text": "Sɛbɛn nɛ : Ɛrɛ",
-      "phonetic_api": "/sɛ.bɛn nɛ ɛ.rɛ/",
-      "phonetic_simple": "SƐ-BƐN NƐ : Ɛ-RƐ",
-      "translation": "Écris ceci : Vérité (Ɛrɛ)"
+      "speaker": "Professeur",
+      "text": "I kende?",
+      "phonetic_api": "/i kɛndɛ/",
+      "phonetic_simple": "i KEN-dé",
+      "translation": "Es-tu bien portant ?"
     },
     {
-      "speaker": "Kalanfari (L'élève)",
-      "text": "A sɛbɛn bɛ ni 'ɛ' ri ?",
-      "phonetic_api": "/a sɛ.bɛn bɛ ni ɛ ri/",
-      "phonetic_simple": "A SƐ-BƐN BƐ NI 'Ɛ' RI ?",
-      "translation": "Est-ce que ça s'écrit avec un 'ɛ' ouvert ?"
+      "speaker": "Élève",
+      "text": "N kende. I tɔ kama?",
+      "phonetic_api": "/n kɛndɛ i tɔ kama/",
+      "phonetic_simple": "n KEN-dé, i TO ka-ma",
+      "translation": "Je vais bien. Quel est ton nom ?"
     },
     {
-      "speaker": "Karamɔgɔ (Le Maître)",
-      "text": "Ɔnhɔ, ni 'ɛ' fila le. A fɔ : ɛrɛ.",
-      "phonetic_api": "/ɔn.hɔ ni ɛ fi.la le a fɔ ɛ.rɛ/",
-      "phonetic_simple": "ƆN-HƆ, NI 'Ɛ' FI-LA LE. A FƆ : Ɛ-RƐ.",
-      "translation": "Oui, avec deux 'ɛ'. Prononce : ɛrɛ."
+      "speaker": "Professeur",
+      "text": "N tɔ Sori. Morgo kelen na yan.",
+      "phonetic_api": "/n tɔ sori morgo kɛlɛn na jan/",
+      "phonetic_simple": "n TO So-ri, MOR-go KÈ-lèn na yan",
+      "translation": "Je m'appelle Sori. Il n'y a qu'une seule personne ici."
+    },
+    {
+      "speaker": "Voyageur",
+      "text": "Morgo kelen na yan, i lɔn?",
+      "phonetic_api": "/morgo kelen na jan i lɔn/",
+      "phonetic_simple": "MOR-go KÈ-lèn na yan, i lon",
+      "translation": "Il y a une seule personne ici, tu sais ?"
     }
   ],
   "cultural_notes": [
-    "L'alphabet national guinéen a été harmonisé pour standardiser l'écriture des langues locales comme le kuranko, le maninka, le pular et le susu. L'usage des caractères spéciaux 'ɛ', 'ɔ' et 'ŋ' est une fierté culturelle et un outil de précision pour préserver la tradition orale par écrit.",
-    "L'apprentissage des sons passe traditionnellement par la mémorisation de contes rythmés et d'onomatopées qui structurent l'oreille des enfants au sein du village."
+    "Le kuranko n'a pas d'orthographe officielle unique largement diffusée ; les transcriptions varient selon les auteurs (missionnaires, linguistes SIL, anthropologues), d'où l'importance de vérifier chaque source.",
+    "Les langues mandé, dont le kuranko, sont réputées pour leurs systèmes tonals subtils, souvent perdus dans les transcriptions populaires disponibles en ligne — un défi pour l'apprenant autodidacte."
   ],
   "exercises": [
     {
       "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quelle est la différence sémantique entre 'ba' et 'baa' en kuranko ?",
+      "question": "Quelle paire de voyelles kuranko n'existe pas comme distinction phonémique en français standard ?",
       "options": [
-        "Il n'y a aucune différence, c'est une variante régionale.",
-        "'Ba' signifie la mère, tandis que 'Baa' signifie la chèvre ou le fleuve.",
-        "'Ba' signifie le père et 'Baa' la mère."
+        "ɛ/e et ɔ/o",
+        "a/i",
+        "u/ou"
       ],
-      "correct_answer": "'Ba' signifie la mère, tandis que 'Baa' signifie la chèvre ou le fleuve.",
-      "explanation": "La quantité vocalique (allongement de la voyelle) change radicalement le sens des homophones en kuranko."
+      "correct_answer": "ɛ/e et ɔ/o",
+      "explanation": "Le kuranko distingue phonémiquement les voyelles ouvertes (ɛ, ɔ) des voyelles fermées (e, o), une opposition absente du français standard."
     },
     {
       "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "La lettre spéciale pour transcrire le son nasal de 'parking' au début d'un mot s'écrit [ ___ ].",
-      "correct_answer": "ŋ",
-      "hint": "C'est un 'n' avec une petite queue vers le bas"
+      "sentence_with_blank": "Le son « gb » dans « gbele » est une consonne [ ___ ] articulée en un seul geste.",
+      "correct_answer": "labio-vélaire",
+      "hint": "Elle combine les lèvres et l'arrière de la langue simultanément."
+    },
+    {
+      "exercise_id": "ex3",
+      "type": "multiple_choice",
+      "question": "Pourquoi les tons sont-ils importants en kuranko ?",
+      "options": [
+        "Ils peuvent changer le sens d'un mot",
+        "Ils n'ont aucune fonction",
+        "Ils remplacent les voyelles"
+      ],
+      "correct_answer": "Ils peuvent changer le sens d'un mot",
+      "explanation": "Comme dans les autres langues mandé, le ton (haut/bas) est un trait distinctif du sens lexical en kuranko."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "WALS Online — Koranko (kko)",
+      "url": "https://wals.info/languoid/lect/wals_code_kko"
+    },
+    {
+      "label": "Glottolog 5.3 — Kuranko (kura1250)",
+      "url": "https://glottolog.org/resource/languoid/id/kura1250"
+    },
+    {
+      "label": "Michael Jackson, \"How Lifeworlds Work\" (Univ. of Chicago Press, 2022) — extraits",
+      "url": "https://dokumen.pub/how-lifeworlds-work-emotionality-sociality-and-the-ambiguity-of-being-9780226492018.html"
+    },
+    {
+      "label": "Wikipedia, \"Mande languages\" (tableau comparatif des numéraux, d'après Kastenholz)",
+      "url": "https://en.wikipedia.org/wiki/Mande_languages"
+    }
+  ],
+  "confidence": "faible",
+  "confidence_note": "Aucune description phonologique détaillée et publiquement accessible du kuranko spécifiquement (comme une grammaire complète de Kastenholz) n'a pu être consultée en ligne ; les généralités sur le système vocalique/tonal sont extrapolées prudemment à partir des données comparatives disponibles pour la famille mandé (WALS, Glottolog) et des mots attestés chez Michael Jackson. Les transcriptions phonétiques API sont des approximations raisonnables et non des relevés phonétiques certifiés."
 }

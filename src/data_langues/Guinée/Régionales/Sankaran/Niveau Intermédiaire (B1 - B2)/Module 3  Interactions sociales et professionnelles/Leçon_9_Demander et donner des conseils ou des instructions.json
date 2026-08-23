@@ -6,213 +6,263 @@
   "lesson_number": 9,
   "title": "Demander et donner des conseils ou des instructions",
   "learning_objectives": [
-    "Formuler des requêtes pour solliciter l'avis, la guidance ou le conseil d'un aîné",
-    "Donner des directives, des recommandations et des instructions par étapes claires",
-    "Utiliser le mode subjonctif-injonctif pour exprimer le conseil adouci"
+    "Donner un ordre/une instruction à l'impératif",
+    "Demander un conseil avec une structure interrogative",
+    "Utiliser 'kakan ka' pour formuler une recommandation polie",
+    "Comprendre les consignes séquentielles (d'abord... ensuite...)"
   ],
   "phonetic_focus": {
-    "key_sounds": "L'expression du conseil repose sur des formules de guidage. Le mot pour le conseil 'Ladilikan' /la.di.li.kan/ demande une articulation claire de chaque syllabe. Le verbe montrer/enseigner 'Yira' /ji.ra/ s'ouvre par la semi-voyelle palatale, tandis que le terme pour la vérité ou la sagesse 'Tɔgɛ' /tɔ.ɣɛ/ fait entendre la fricative vélaire voisée /ɣ/.",
-    "common_pitfalls": "Ne pas prononcer le 'kan' de 'ladilikan' comme un son 'can' français. Le 'an' est une voyelle nasale postérieure claire. Le 'r' de 'yira' doit rester extrêmement fluide."
+    "key_sounds": [
+      "L'impératif simple (verbe seul ou verbe + objet), sans marque supplémentaire",
+      "Le ton montant de 'di ?' en fin de question ('n'est-ce pas ?')",
+      "La liaison dans 'i la karan-liburu laka' (ouvre ton livre)"
+    ],
+    "common_pitfalls": [
+      "Oublier que l'impératif affirmatif malinké ne prend pas de particule spéciale (contrairement au négatif 'kana')",
+      "Traduire trop littéralement les structures de conseil du français, alors que le malinké préfère souvent l'impératif direct"
+    ]
   },
   "vocabulary": [
     {
-      "word_id": "v18_1",
-      "term": "Ladilikan",
-      "phonetic_api": "/la.di.li.kan/",
-      "phonetic_simple": "LA-DI-LI-KANE",
-      "translation": "Conseil / Recommandation / Exhortation",
-      "example_sentence": "N baa ye ladilikan di n ma.",
-      "example_phonetic": "/ɲ baː je la.di.li.kan di ɲ ma/",
-      "example_translation": "Ma mère m'a donné un conseil."
+      "word_id": "v1",
+      "term": "ka laka",
+      "phonetic_api": "[ka laka]",
+      "phonetic_simple": "ka-la-ka",
+      "translation": "ouvrir",
+      "example_sentence": "I la karan-liburu laka pas 12 la.",
+      "example_phonetic": "[i la karan liburu laka pas 12 la]",
+      "example_translation": "Ouvre ton livre de lecture à la page 12."
     },
     {
-      "word_id": "v18_2",
-      "term": "Yira",
-      "phonetic_api": "/ji.ra/",
-      "phonetic_simple": "YI-RA",
-      "translation": "Montrer / Indiquer / Orienter",
-      "example_sentence": "Silo yira n na, n kɔrɔ.",
-      "example_phonetic": "/si.lo ji.ra ɲ na ɲ kɔ.rɔ/",
-      "example_translation": "Montre-moi le chemin, mon aîné."
+      "word_id": "v2",
+      "term": "ka durusi",
+      "phonetic_api": "[ka durusi]",
+      "phonetic_simple": "ka-dou-rou-si",
+      "translation": "réciter",
+      "example_sentence": "I la lesson durusi.",
+      "example_phonetic": "[i la lesɔn durusi]",
+      "example_translation": "Récite ta leçon."
     },
     {
-      "word_id": "v18_3",
-      "term": "Mɛn",
-      "phonetic_api": "/mɛn/",
-      "phonetic_simple": "MƐNE",
-      "translation": "Écouter / Comprendre / Entendre",
-      "example_sentence": "I kani n kan mɛn.",
-      "example_phonetic": "/i ka.ni ɲ kan mɛn/",
-      "example_translation": "Tu dois écouter ma voix (mon conseil)."
+      "word_id": "v3",
+      "term": "kakan ka (conseil)",
+      "phonetic_api": "[kakan ka]",
+      "phonetic_simple": "ka-kan-ka",
+      "translation": "il faudrait que, tu devrais",
+      "example_sentence": "I kakan ka i doja.",
+      "example_phonetic": "[i kakan ka i dodʒa]",
+      "example_translation": "Tu devrais faire plus d'efforts."
     },
     {
-      "word_id": "v18_4",
-      "term": "Latigɛ",
-      "phonetic_api": "/la.ti.ɣɛ/",
-      "phonetic_simple": "LA-TI-GƐ",
-      "translation": "Décider / Trancher / Prendre une résolution",
-      "example_sentence": "An kani a latigɛ sisan.",
-      "example_phonetic": "/an ka.ni a la.ti.ɣɛ si.san/",
-      "example_translation": "Nous devons en décider maintenant."
+      "word_id": "v4",
+      "term": "fɔlɔ",
+      "phonetic_api": "[fɔlɔ]",
+      "phonetic_simple": "fo-lo",
+      "translation": "d'abord",
+      "example_sentence": "I la karan-liburu laka fɔlɔ.",
+      "example_phonetic": "[i la karan liburu laka fɔlɔ]",
+      "example_translation": "Ouvre d'abord ton livre."
     },
     {
-      "word_id": "v18_5",
-      "term": "Kala",
-      "phonetic_api": "/ka.la/",
-      "phonetic_simple": "KA-LA",
-      "translation": "Le fil / La direction / Le tracé d'une instruction",
-      "example_sentence": "Kala nin mu tɔgɛ di.",
-      "example_phonetic": "/ka.la nin mu tɔ.ɣɛ di/",
-      "example_translation": "Cette directive est la vérité."
+      "word_id": "v5",
+      "term": "kabi o kabi",
+      "phonetic_api": "[kabi o kabi]",
+      "phonetic_simple": "ka-bi-o-ka-bi",
+      "translation": "ensuite, après cela",
+      "example_sentence": "Kabi o kabi, i la lesson durusi.",
+      "example_phonetic": "[kabi o kabi i la lesɔn durusi]",
+      "example_translation": "Ensuite, récite ta leçon."
     },
     {
-      "word_id": "v18_6",
-      "term": "Nyinika",
-      "phonetic_api": "/ɲi.ni.ka/",
-      "phonetic_simple": "NYI-NI-KA",
-      "translation": "Interroger / Demander un avis / Questionner",
-      "example_sentence": "N be i nyinika la ko nin ma.",
-      "example_phonetic": "/ɲ be i ɲi.ni.ka la ko nin ma/",
-      "example_translation": "Je t'interroge à propos de cette affaire."
+      "word_id": "v6",
+      "term": "di ? (n'est-ce pas)",
+      "phonetic_api": "[di]",
+      "phonetic_simple": "di",
+      "translation": "n'est-ce pas ? (marqueur de confirmation)",
+      "example_sentence": "A bada bèn, di ?",
+      "example_phonetic": "[a bada bɛn di]",
+      "example_translation": "C'est bien, n'est-ce pas ?"
     },
     {
-      "word_id": "v18_7",
-      "term": "Tɔgɛ / Tɔgɔ",
-      "phonetic_api": "/tɔ.ɣɛ/",
-      "phonetic_simple": "TƆ-GƐ",
-      "translation": "La vérité / Le bon droit / Ce qui est juste",
-      "example_sentence": "A fɔ n yɛ tɔgɛ la.",
-      "example_phonetic": "/a fɔ ɲ jɛ tɔ.ɣɛ la/",
-      "example_translation": "Dis-le-moi en toute vérité."
+      "word_id": "v7",
+      "term": "i ko di ?",
+      "phonetic_api": "[i ko di]",
+      "phonetic_simple": "i-ko-di",
+      "translation": "que dis-tu ? qu'en penses-tu ?",
+      "example_sentence": "I ko di, n kakan ka mun kè ?",
+      "example_phonetic": "[i ko di n kakan ka mun kɛ]",
+      "example_translation": "Qu'en penses-tu, que dois-je faire ?"
     },
     {
-      "word_id": "v18_8",
-      "term": "Kɔ",
-      "phonetic_api": "/kɔ/",
-      "phonetic_simple": "KƆ",
-      "translation": "Suivre / Venir après (au sens figuré : appliquer)",
-      "example_sentence": "Wa a kɔ.",
-      "example_phonetic": "/wa a kɔ/",
-      "example_translation": "Suis cela / Applique cette consigne."
+      "word_id": "v8",
+      "term": "n hakili di i la",
+      "phonetic_api": "[n hakili di i la]",
+      "phonetic_simple": "n-ha-ki-li-di-i-la",
+      "translation": "je te conseille (litt. je te donne mon avis/réflexion)",
+      "example_sentence": "N hakili di i la : i kakan ka i doja.",
+      "example_phonetic": "[n hakili di i la i kakan ka i dodʒa]",
+      "example_translation": "Je te conseille de faire plus d'efforts."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p18_1",
-      "original": "N kani mun kɛ ko nin ma? N ladili.",
-      "phonetic_api": "/ɲ ka.ni mun kɛ ko nin ma ɲ la.di.li/",
-      "phonetic_simple": "N KA-NI MOUN KƐ KO NINE MA ? N LA-DI-LI.",
-      "translation": "Que dois-je faire face à cette situation ? Conseille-moi.",
-      "context": "Formule typique pour solliciter activement le soutien moral d'un pair ou d'un aîné."
+      "phrase_id": "p1",
+      "original": "I la karan-liburu laka pas 12 la",
+      "phonetic_api": "[i la karan liburu laka pas 12 la]",
+      "phonetic_simple": "i-la-ka-ran-li-bou-rou-la-ka-pas-douz-la",
+      "translation": "Ouvre ton livre de lecture à la page 12",
+      "context": "Instruction séquentielle donnée par un enseignant"
     },
     {
-      "phrase_id": "p18_2",
-      "original": "Ni i b'a fɛ ka tɔnɔ sɔrɔ, i ka baara kɛ tari.",
-      "phonetic_api": "/ni i b'a fɛ ka tɔ.nɔ sɔ.rɔ i ka baː.ra kɛ ta.ri/",
-      "phonetic_simple": "NI I BA FƐ KA TƆ-NƆ SƆ-RƆ, I KA BAA-RA KƐ TA-RI.",
-      "translation": "Si tu veux faire du profit, tu devrais travailler rapidement.",
-      "context": "Donner un conseil stratégique ou une instruction d'action conditionnelle."
+      "phrase_id": "p2",
+      "original": "I la lesson durusi",
+      "phonetic_api": "[i la lesɔn durusi]",
+      "phonetic_simple": "i-la-lè-son-dou-rou-si",
+      "translation": "Récite ta leçon",
+      "context": "Instruction directe à l'impératif"
     },
     {
-      "phrase_id": "p18_3",
-      "original": "Karamɔgɔ ladilikan mu n kɔnɔ tele bɛɛ.",
-      "phonetic_api": "/ka.ra.mɔ.ɣɔ la.di.li.kan mu ɲ kɔ.nɔ te.le bɛː/",
-      "phonetic_simple": "KA-RA-MƆ-GƆ LA-DI-LI-KANE MOU N KƆ-NƆ TÉ-LÉ BƐƐ.",
-      "translation": "Le conseil du maître m'accompagne chaque jour (litt: est dans mon ventre).",
-      "context": "Exprimer sa considération et son application face aux directives reçues."
+      "phrase_id": "p3",
+      "original": "I kakan ka i doja",
+      "phonetic_api": "[i kakan ka i dodʒa]",
+      "phonetic_simple": "i-ka-kan-ka-i-do-dja",
+      "translation": "Tu devrais faire plus d'efforts",
+      "context": "Conseil formulé avec l'obligation atténuée"
     },
     {
-      "phrase_id": "p18_4",
-      "original": "Kana wa o yɔrɔ fɛ, o ka gbelen.",
-      "phonetic_api": "/ka.na wa o jɔ.rɔ fɛ o ka ɡ͡be.len/",
-      "phonetic_simple": "KA-NA WA O YƆ-RƆ FƐ, O KA GBÉ-LÈNE.",
-      "translation": "Ne va pas de ce côté, c'est risqué / interdit.",
-      "context": "Instruction préventive forte sous forme de mise en garde."
+      "phrase_id": "p4",
+      "original": "I ko di, n kakan ka mun kè ?",
+      "phonetic_api": "[i ko di n kakan ka mun kɛ]",
+      "phonetic_simple": "i-ko-di, n-ka-kan-ka-moun-kè",
+      "translation": "Qu'en penses-tu, que dois-je faire ?",
+      "context": "Demander un conseil"
+    },
+    {
+      "phrase_id": "p5",
+      "original": "N hakili di i la",
+      "phonetic_api": "[n hakili di i la]",
+      "phonetic_simple": "n-ha-ki-li-di-i-la",
+      "translation": "Voici mon conseil (litt. je te donne ma pensée)",
+      "context": "Introduire un conseil personnel"
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'expression du conseil atténué avec la marque subjonctive-injonctive 'ka'",
-      "explanation": "Pour donner une instruction ou un conseil sans utiliser le ton tranchant de l'obligation ('kani'), le Sankaran emploie la marque 'ka'. Elle se place après le sujet et introduit une suggestion forte mais polie, équivalente au conditionnel français 'tu devrais'.",
+      "concept": "L'impératif direct pour donner une instruction",
+      "explanation": "L'ordre/instruction se donne simplement par le verbe (avec ou sans complément), sans particule ajoutée à l'affirmatif — contrairement au négatif qui exige 'kana'.",
       "rules": [
-        "Structure : Sujet + ka + Verbe + (Compléments)"
+        "Structure affirmative : ([Objet]) + [Verbe]",
+        "Les instructions s'enchaînent souvent avec 'fɔlɔ' (d'abord) puis 'kabi o kabi' (ensuite)"
       ],
       "examples": [
         {
-          "structure": "I ka wa sisan.",
-          "phonetic_api": "/i ka wa si.san/",
-          "meaning": "Tu devrais partir maintenant / S'il te plaît, pars."
+          "structure": "[Objet] [Verbe]",
+          "phonetic_api": "[]",
+          "meaning": "Fais [verbe] à [objet] !"
         }
       ]
     },
     {
-      "concept": "La construction de l'objet indirect de l'instruction avec 'ma'",
-      "explanation": "Lorsqu'on demande un avis, qu'on interroge ('nyinika') ou qu'on se réfère à un problème précis ('ko'), le thème ou l'objet de l'interrogation est obligatoirement introduit par la postposition de référence 'ma' (à propos de / concernant).",
+      "concept": "Le conseil atténué avec 'kakan ka'",
+      "explanation": "Le même auxiliaire 'kakan ka' qui exprime l'obligation forte sert aussi, selon le ton et le contexte, à formuler un conseil plus doux (équivalent de 'tu devrais').",
       "rules": [
-        "Structure : [Thème du problème] + ma"
+        "Structure : [Sujet] + kakan ka + [Verbe]",
+        "Le degré de fermeté dépend du contexte (ordre scolaire vs. conseil amical)"
       ],
       "examples": [
         {
-          "structure": "Baara ma",
-          "phonetic_api": "/baː.ra ma/",
-          "meaning": "Concernant le travail"
+          "structure": "[Sujet] kakan ka [Verbe]",
+          "phonetic_api": "[kakan ka]",
+          "meaning": "[Sujet] devrait [verbe]"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Lamine",
-      "text": "N kɔrɔke Sekou, n kani i nyinika la baara kura nin ma. N ladili, n kɔnɔ.",
-      "phonetic_api": "/ɲ kɔ.rɔ.ke se.ku | ɲ ka.ni i ɲi.ni.ka la baː.ra ku.ra nin ma | ɲ la.di.li ɲ kɔ.nɔ/",
-      "phonetic_simple": "N KƆ-RƆ-KÉ SÉ-KOU, N KA-NI I NYI-NI-KA LA BAA-RA KOU-RA NINE MA. N LA-DI-LI, N KƆ-NƆ.",
-      "translation": "Mon grand frère Sekou, je dois t'interroger à propos de ce nouveau travail. Conseille-moi, s'il te plaît."
+      "speaker": "Karanden",
+      "text": "Karamoo, i ko di ? N kakan ka mun kè ?",
+      "phonetic_api": "[karamoː i ko di n kakan ka mun kɛ]",
+      "phonetic_simple": "ka-ra-mo-o, i-ko-di? n-ka-kan-ka-moun-kè",
+      "translation": "Maître, qu'en penses-tu ? Que dois-je faire ?"
     },
     {
-      "speaker": "Sekou",
-      "text": "Nba, Lamine. N be ladilikan di i ma. I ka wuli sɔɔma la tari tele bɛɛ.",
-      "phonetic_api": "/ɲ.ba la.min | ɲ be la.di.li.kan di i ma | i ka wu.li sɔː.ma la ta.ri te.le bɛː/",
-      "phonetic_simple": "NBA, LA-MINE. N BÉ LA-DI-LI-KANE DI I MA. I KA WOU-LI SƆƆ-MA LA TA-RI TÉ-LÉ BƐƐ.",
-      "translation": "Eh bien, Lamine. Je te donne un conseil. Tu devrais te lever tôt le matin, chaque jour."
+      "speaker": "Karamoo",
+      "text": "N hakili di i la : i la karan-liburu laka fɔlɔ.",
+      "phonetic_api": "[n hakili di i la i la karan liburu laka fɔlɔ]",
+      "phonetic_simple": "n-ha-ki-li-di-i-la: i-la-ka-ran-li-bou-rou-la-ka-fo-lo",
+      "translation": "Voici mon conseil : ouvre d'abord ton livre."
     },
     {
-      "speaker": "Lamine",
-      "text": "O kɔ fɛ, n kani mun kɛ na yɔrɔ la?",
-      "phonetic_api": "/o kɔ fɛ ɲ ka.ni mun kɛ na jɔ.rɔ la/",
-      "phonetic_simple": "O KƆ FƐ, N KA-NI MOUN KƐ NA YƆ-RƆ LA ?",
-      "translation": "Ensuite, que dois-je faire une fois sur place ?"
+      "speaker": "Karanden",
+      "text": "Awa. Kabi o kabi ?",
+      "phonetic_api": "[awa kabi o kabi]",
+      "phonetic_simple": "a-wa. ka-bi-o-ka-bi?",
+      "translation": "D'accord. Et ensuite ?"
     },
     {
-      "speaker": "Sekou",
-      "text": "Ni i wara, i ka karamɔgɔ kan mɛn. Kana silo sɔsɔ na. O mu tɔgɛ di.",
-      "phonetic_api": "/ni i wa.ra i ka ka.ra.mɔ.ɣɔ kan mɛn | ka.na si.lo sɔ.sɔ na | o mu tɔ.ɣɛ di/",
-      "phonetic_simple": "NI I WA-RA, I KA KA-RA-MƆ-GƆ KANE MƐNE. KA-NA SI-LO SƆ-SƆ NA. O MOU TƆ-GƐ DI.",
-      "translation": "Quand tu y seras, tu devrais écouter la voix du maître. N'enfreins pas les consignes. C'est cela la vérité."
+      "speaker": "Karamoo",
+      "text": "Kabi o kabi, i la lesson durusi.",
+      "phonetic_api": "[kabi o kabi i la lesɔn durusi]",
+      "phonetic_simple": "ka-bi-o-ka-bi, i-la-lè-son-dou-rou-si",
+      "translation": "Ensuite, récite ta leçon."
     }
   ],
   "cultural_notes": [
-    "Dans la société Sankaran, solliciter un conseil ('ladilikan') auprès d'un aîné avant d'initier un projet important ou d'accepter un emploi est une démarche protocolaire indispensable. Cela témoigne de la maturité du demandeur et engage moralement l'aîné à le parrainer et à veiller sur sa réussite.",
-    "La parole des anciens et des maîtres est assimilée à une boussole morale. L'expression populaire rappelle que 'ladilikan ka di ka mɛn' (le conseil est bon à entendre), car il permet d'éviter les pièges invisibles du parcours social et professionnel."
+    "Le conseil ('n hakili di i la') est souvent introduit avec respect, même dans une relation hiérarchique comme celle du maître à l'élève, reflétant l'importance de la politesse dans la transmission du savoir en contexte malinké ([Malinkuia](https://fr.scribd.com/document/499114939/Malinkuia)).",
+    "Note dialectale (Sankaran) : cette leçon présente le maninka du Sankaran, parlé traditionnellement dans la région historique du Sankaran, aujourd'hui la préfecture et région de Faranah (Haute-Guinée), berceau historique du clan Condé et zone antérieure au Mandén selon la tradition orale. Le sankaran (ISO 639-3 msc) est très proche du malinké/maninka standard de Kankan, avec lequel il est mutuellement intelligible ; les mots et structures de cette leçon reflètent ce fonds commun du maninka de l'Est, complété par les spécificités phonologiques et grammaticales du parler de Faranah documentées par Spears (voir sources)."
   ],
   "exercises": [
     {
-      "exercise_id": "ex18_1",
-      "type": "multiple_choice",
-      "question": "Identifiez la tournure exacte pour formuler une recommandation douce : 'Tu devrais écouter.'",
-      "options": [
-        "I kani mɛn.",
-        "I ka mɛn.",
-        "Kana mɛn."
-      ],
-      "correct_answer": "I ka mɛn.",
-      "explanation": "La particule 'ka' insérée après le pronom sujet sert précisément à exprimer l'injonction atténuée, la suggestion ou le conseil."
+      "exercise_id": "e1",
+      "type": "traduction",
+      "question": "Traduisez : 'Récite ta leçon.'",
+      "correct_answer": "I la lesson durusi.",
+      "explanation": "Impératif direct : objet + verbe, sans particule additionnelle."
     },
     {
-      "exercise_id": "ex18_2",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Le substantif composé qui désigne un conseil ou une exhortation orale se dit : [ ___ ].",
-      "correct_answer": "ladilikan",
-      "hint": "Ce mot commence par un l minuscule et fusionne le verbe conseiller et la voix/le langage."
+      "exercise_id": "e2",
+      "type": "choix_multiple",
+      "question": "Que signifie 'fɔlɔ' ?",
+      "options": [
+        "ensuite",
+        "d'abord",
+        "après",
+        "jamais"
+      ],
+      "correct_answer": "d'abord",
+      "explanation": "'fɔlɔ' introduit la première étape d'une série d'instructions."
+    },
+    {
+      "exercise_id": "e3",
+      "type": "texte_a_trous",
+      "sentence_with_blank": "N ___ di i la : i kakan ka i doja.  (Voici mon conseil : tu devrais faire plus d'efforts.)",
+      "correct_answer": "hakili",
+      "hint": "Litt. 'ma pensée/réflexion' — utilisé pour introduire un conseil."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Ethnologue — Maninka, Sankaran [msc]",
+      "url": "https://www.ethnologue.com/language/msc/"
+    },
+    {
+      "label": "Glottolog 5.3 — Sankaran Maninka [sank1253]",
+      "url": "https://glottolog.org/resource/languoid/id/sank1253"
+    },
+    {
+      "label": "Wikipédia — Sankaran (langue, msc)",
+      "url": "https://fr.wikipedia.org/wiki/Sankaran"
+    },
+    {
+      "label": "Spears, R. A. — The Structure of Faranah-Maninka (Indiana University, description structurale du parler de Faranah, historiquement le Sankaran)",
+      "url": "https://theswissbay.ch/pdf/Books/Linguistics/Mega%20linguistics%20pack/African/Niger-Congo/Mande/Maninka,%20The%20Structure%20of%20Faranah-%20(Spears).pdf"
+    },
+    {
+      "label": "Malinkuia — Introduction à la langue malinké (variété du Wulada, Haute-Guinée)",
+      "url": "https://fr.scribd.com/document/499114939/Malinkuia"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Aucune source lexicale ou grammaticale dédiée et indépendante n'a été trouvée pour cette leçon spécifiquement en sankaran : le contenu reprend le fonds commun du maninka/malinké de Haute-Guinée (vérifié pour le malinké standard), dont la proximité avec le sankaran est confirmée par les classifications Ethnologue/Glottolog/Vydrin, mais sans confirmation lexème par lexème pour ce dialecte précis. Confiance donc revue à la baisse par rapport à une attestation directe."
 }

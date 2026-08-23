@@ -1,174 +1,260 @@
 {
   "lesson_id": "A1_M1_L1",
-  "level": "Débutant (A1-A2)",
+  "level": "Niveau Débutant (A1 - A2)",
   "module_number": 1,
   "module_title": "Les bases de la communication",
   "lesson_number": 1,
-  "title": "Les salutations et les formules de politesse",
+  "title": "Les salutations et les formules de politesse (bonjour, merci, au revoir)",
   "learning_objectives": [
-    "Savoir saluer une ou plusieurs personnes selon les moments de la journée",
-    "Remercier et formuler les souhaits basiques de départ",
-    "Maîtriser les marqueurs de politesse fondamentaux"
+    "Saluer une personne selon le moment de la journée en mani",
+    "Répondre correctement à une salutation",
+    "Utiliser les formules de politesse de base : merci, s'il te plaît, au revoir"
   ],
   "phonetic_focus": {
-    "key_sounds": "La langue Mani utilise une distinction stricte entre les voyelles ouvertes et fermées (comme /ɛ/ et /e/). Le son 'ŋ' se prononce comme le 'ng' à la fin du mot anglais 'sing'. Les consonnes occlusives implosives ou complexes comme /gb/ se prononcent en un seul mouvement articulatoire.",
-    "common_pitfalls": "Veillez à ne pas séparer le 'g' et le 'b' dans le digramme 'gb'. N'omettez pas la prononciation du 'ŋ' en début de mot."
+    "key_sounds": "Le mani distingue 8 voyelles (i, e, ɛ, a, ɔ, o, u, ə) et des consonnes prénasalisées (mp, nt/nd, ŋk) ainsi qu'une labiovélaire /gb/ absentes du français. Le ton (registre haut/bas) est phonémique (Childs 2011, ch.2).",
+    "common_pitfalls": "Les francophones ont tendance à ne pas distinguer ɛ/e et ɔ/o, à simplifier les consonnes prénasalisées en de simples séquences nasale+consonne, et à ignorer les contrastes de ton, qui changent pourtant le sens ou la fonction grammaticale du mot (ex. hortatif vs perfectif marqués uniquement par le ton)."
   },
   "vocabulary": [
     {
-      "word_id": "v1_1",
-      "term": "mboi",
-      "phonetic_api": "/mboi/",
-      "phonetic_simple": "MBOÏ",
-      "translation": "bonjour (salutation générale)",
-      "example_sentence": "Mboi, bɛŋ mami.",
-      "example_phonetic": "/mboi bɛŋ ma.mi/",
-      "example_translation": "Bonjour, mon ami."
+      "word_id": "v1",
+      "term": "lemo",
+      "phonetic_api": "/lɛmo/",
+      "phonetic_simple": "LÉ-MO",
+      "translation": "salut, bonjour (salutation générale)",
+      "example_sentence": "lemo, mo mo tan ya?",
+      "example_phonetic": "/lɛmo, mo mo tan ja/",
+      "example_translation": "Bonjour, comment vas-tu ?"
     },
     {
-      "word_id": "v1_2",
-      "term": "cece",
-      "phonetic_api": "/tʃe.tʃe/",
-      "phonetic_simple": "TCHÉ-TCHÉ",
-      "translation": "merci",
-      "example_sentence": "Cece, n ya tunkɛ.",
-      "example_phonetic": "/tʃe.tʃe n̩ ja tun.kɛ/",
-      "example_translation": "Merci, je suis content."
+      "word_id": "v2",
+      "term": "mamo",
+      "phonetic_api": "/mamo/",
+      "phonetic_simple": "MA-MO",
+      "translation": "bienvenue ; utilisé aussi pour remercier",
+      "example_sentence": "mamo!",
+      "example_phonetic": "/mamo/",
+      "example_translation": "Bienvenue ! / Merci !"
     },
     {
-      "word_id": "v1_3",
-      "term": "kɔŋ",
-      "phonetic_api": "/kɔŋ/",
-      "phonetic_simple": "KONG",
-      "translation": "s'il te plaît / s'il vous plaît",
-      "example_sentence": "Kɔŋ, kperɛ mi lan.",
-      "example_phonetic": "/kɔŋ kpe.rɛ mi lan/",
-      "example_translation": "S'il te plaît, donne-moi de l'eau."
+      "word_id": "v3",
+      "term": "kena",
+      "phonetic_api": "/kɛna/",
+      "phonetic_simple": "KÉ-NA",
+      "translation": "s'il te/vous plaît",
+      "example_sentence": "kili mi mmu, kena.",
+      "example_phonetic": "/kili mi m̩mu, kɛna/",
+      "example_translation": "Donne-moi de l'eau, s'il te plaît."
     },
     {
-      "word_id": "v1_4",
-      "term": "gbana",
-      "phonetic_api": "/ɡba.na/",
-      "phonetic_simple": "GBA-NA",
-      "translation": "au revoir / adieu",
-      "example_sentence": "Gbana, hɔnkɔ mi woni.",
-      "example_phonetic": "/ɡba.na hɔn.kɔ mi wo.ni/",
-      "example_translation": "Au revoir, à demain."
+      "word_id": "v4",
+      "term": "itɔbihi",
+      "phonetic_api": "/ɪtɔbihi/",
+      "phonetic_simple": "I-TO-BI-HI",
+      "translation": "salutation du petit matin (litt. « comment as-tu dormi ? »)",
+      "example_sentence": "itɔbihi?",
+      "example_phonetic": "/ɪtɔbihi/",
+      "example_translation": "Comment as-tu dormi ?"
     },
     {
-      "word_id": "v1_5",
-      "term": "yoma",
-      "phonetic_api": "/jo.ma/",
-      "phonetic_simple": "YO-MA",
-      "translation": "bien / paix",
-      "example_sentence": "Yoma n bɛ lɔ.",
-      "example_phonetic": "/jo.ma n̩ bɛ lɔ/",
-      "example_translation": "La paix est ici."
+      "word_id": "v5",
+      "term": "shɛke",
+      "phonetic_api": "/ʃɛkɛ/",
+      "phonetic_simple": "CHÉ-KÉ",
+      "translation": "bien, ça va (réponse à une salutation)",
+      "example_sentence": "shɛke, shɛke.",
+      "example_phonetic": "/ʃɛkɛ ʃɛkɛ/",
+      "example_translation": "Bien, bien / ça va bien."
+    },
+    {
+      "word_id": "v6",
+      "term": "rimamo",
+      "phonetic_api": "/rimamo/",
+      "phonetic_simple": "RI-MA-MO",
+      "translation": "merci (dit par une seule personne)",
+      "example_sentence": "rimamo, poa.",
+      "example_phonetic": "/rimamo, pɔa/",
+      "example_translation": "Merci, père (terme respectueux)."
+    },
+    {
+      "word_id": "v7",
+      "term": "sililoihi",
+      "phonetic_api": "/sililoihi/",
+      "phonetic_simple": "SI-LI-LOI-HI",
+      "translation": "au revoir !",
+      "example_sentence": "sililoihi!",
+      "example_phonetic": "/sililoihi/",
+      "example_translation": "Au revoir !"
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p1_1",
-      "original": "Mboi wun bɛ si ?",
-      "phonetic_api": "/mboi wun bɛ si/",
-      "phonetic_simple": "MBOÏ WOUN BÈ SI",
-      "translation": "Comment s'est passée ta nuit ? (Bonjour le matin)",
-      "context": "Salutation exclusive du matin à un individu."
+      "phrase_id": "p1",
+      "original": "lemo",
+      "phonetic_api": "/lɛmo/",
+      "phonetic_simple": "LÉ-MO",
+      "translation": "Salut / bonjour",
+      "context": "Salutation générale, à toute heure de la journée."
     },
     {
-      "phrase_id": "p1_2",
-      "original": "Mboi wun bɛ tiri ?",
-      "phonetic_api": "/mboi wun bɛ ti.ri/",
-      "phonetic_simple": "MBOÏ WOUN BÈ TI-RI",
-      "translation": "Comment se passe ta journée ? (Bonjour l'après-midi)",
-      "context": "Salutation utilisée du milieu de la journée jusqu'au soir."
+      "phrase_id": "p2",
+      "original": "ŋɔntɔ ya?",
+      "phonetic_api": "/ŋɔntɔ ja/",
+      "phonetic_simple": "NGON-TO YA",
+      "translation": "Quoi de neuf ?",
+      "context": "Salutation informelle, entre proches."
     },
     {
-      "phrase_id": "p1_3",
-      "original": "Wun bɛ yoma ?",
-      "phonetic_api": "/wun bɛ jo.ma/",
-      "phonetic_simple": "WOUN BÈ YO-MA",
-      "translation": "Tu vas bien ? (Es-tu en paix ?)",
-      "context": "Prendre informellement des nouvelles de son interlocuteur."
+      "phrase_id": "p3",
+      "original": "mpɔriri?",
+      "phonetic_api": "/m̥pɔriri/",
+      "phonetic_simple": "M-PO-RI-RI",
+      "translation": "Comment as-tu passé la journée ?",
+      "context": "Salutation de l'après-midi."
     },
     {
-      "phrase_id": "p1_4",
-      "original": "N bɛ yoma cece.",
-      "phonetic_api": "/n̩ bɛ jo.ma tʃe.tʃe/",
-      "phonetic_simple": "N BÈ YO-MA TCHÉ-TCHÉ",
-      "translation": "Je vais bien, merci.",
-      "context": "Réponse standard et polie à une salutation de santé."
+      "phrase_id": "p4",
+      "original": "mpikei?",
+      "phonetic_api": "/m̥pikei/",
+      "phonetic_simple": "M-PI-KÉI",
+      "translation": "Comment as-tu passé la soirée ?",
+      "context": "Salutation du soir."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "yɛnkaeŋ",
+      "phonetic_api": "/jɛnkaɛŋ/",
+      "phonetic_simple": "YEN-KA-ENG",
+      "translation": "bien, ça va bien (litt. « chose bonne »)",
+      "context": "Réponse alternative à une salutation."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "albarka",
+      "phonetic_api": "/albarka/",
+      "phonetic_simple": "AL-BAR-KA",
+      "translation": "merci (formel, emprunt à l'arabe « barka »)",
+      "context": "Pour remercier formellement un hôte, par exemple après un repas."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "siyiloi",
+      "phonetic_api": "/sijiloi/",
+      "phonetic_simple": "SI-YI-LOI",
+      "translation": "On se voit !",
+      "context": "Formule d'au revoir informelle, à tout moment."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "kanka go n sɔ hiri",
+      "phonetic_api": "/kaŋka go n sɔ hiri/",
+      "phonetic_simple": "KAN-KA GO N SO HI-RI",
+      "translation": "Que tu passes une bonne matinée !",
+      "context": "Souhait formulé en se quittant tôt le matin."
     }
   ],
   "grammar_points": [
     {
-      "concept": "Le pronom de la deuxième personne et le prédicatif d'état",
-      "explanation": "En langue Mani, l'état se construit fréquemment à l'aide de la particule affirmative 'bɛ' placée juste après le pronom personnel sujet pour lier le sujet à sa condition ou sa localisation.",
+      "concept": "Structure des salutations selon le moment de la journée",
+      "explanation": "Le mani possède des salutations différentes selon le moment de la journée (matin, après-midi, soir), chacune formée comme une question rhétorique sur la façon dont s'est passé le moment précédent (« comment as-tu dormi / passé la journée / passé la soirée ? »). L'intonation montante finale marque la question, et la réponse est presque toujours positive.",
       "rules": [
-        "Le pronom 'wun' ou 'u' marque la deuxième personne du singulier (tu / toi).",
-        "La particule 'bɛ' traduit l'état d'existence actuel ou la présence physique."
+        "La salutation initiale est prononcée avec une intonation montante, comme une question.",
+        "La réponse affirme presque toujours que tout va bien (shɛke ou yɛnkaeŋ).",
+        "Les salutations peuvent être précédées du pronom personnel (singulier ou pluriel) selon le nombre de personnes saluées."
       ],
       "examples": [
         {
-          "structure": "Wun bɛ yoma",
-          "phonetic_api": "/wun bɛ jo.ma/",
-          "meaning": "Tu es en paix / Tu vas bien."
+          "structure": "itɔbihi (matin) → shɛke",
+          "phonetic_api": "/ɪtɔbihi/ → /ʃɛkɛ/",
+          "meaning": "Comment as-tu dormi ? → Bien."
+        },
+        {
+          "structure": "mpɔriri (après-midi) → yɛnkaeŋ",
+          "phonetic_api": "/m̥pɔriri/ → /jɛnkaɛŋ/",
+          "meaning": "Comment s'est passée la journée ? → Bien, chose bonne."
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Sékou",
-      "text": "Mboi wun bɛ si, mami ?",
-      "phonetic_api": "/mboi wun bɛ si ma.mi/",
-      "phonetic_simple": "MBOÏ WOUN BÈ SI MA-MI",
-      "translation": "Bonjour, comment s'est passée ta nuit, ami ?"
+      "speaker": "Amara",
+      "text": "lemo!",
+      "phonetic_api": "/lɛmo/",
+      "phonetic_simple": "LÉ-MO",
+      "translation": "Bonjour !"
     },
     {
-      "speaker": "Fanta",
-      "text": "N bɛ yoma, cece ! Wun bɛ yoma ?",
-      "phonetic_api": "/n̩ bɛ jo.ma tʃe.tʃe wun bɛ jo.ma/",
-      "phonetic_simple": "N BÈ YO-MA TCHÉ-TCHÉ ! WOUN BÈ YO-MA ?",
-      "translation": "Je vais bien, merci ! Tu vas bien ?"
+      "speaker": "Fatou",
+      "text": "lemo! itɔbihi?",
+      "phonetic_api": "/lɛmo, ɪtɔbihi/",
+      "phonetic_simple": "LÉ-MO, I-TO-BI-HI",
+      "translation": "Bonjour ! Comment as-tu dormi ?"
     },
     {
-      "speaker": "Sékou",
-      "text": "Yoma n bɛ lɔ. Gbana.",
-      "phonetic_api": "/jo.ma n̩ bɛ lɔ ɡba.na/",
-      "phonetic_simple": "YO-MA N BÈ LƆ. GBA-NA",
-      "translation": "La paix est ici. Au revoir."
+      "speaker": "Amara",
+      "text": "shɛke, shɛke. mpɔriri?",
+      "phonetic_api": "/ʃɛkɛ ʃɛkɛ, m̥pɔriri/",
+      "phonetic_simple": "CHÉ-KÉ CHÉ-KÉ, M-PO-RI-RI",
+      "translation": "Bien, bien. Comment se passe la journée ?"
     },
     {
-      "speaker": "Fanta",
-      "text": "Gbana, hɔnkɔ mi woni.",
-      "phonetic_api": "/ɡba.na hɔn.kɔ mi wo.ni/",
-      "phonetic_simple": "GBA-NA, HON-KƆ MI WO-NI",
-      "translation": "Au revoir, à demain."
+      "speaker": "Fatou",
+      "text": "yɛnkaeŋ. kili mi mmu, kena.",
+      "phonetic_api": "/jɛnkaɛŋ, kili mi m̩mu kɛna/",
+      "phonetic_simple": "YEN-KA-ENG, KI-LI MI MMOU, KÉ-NA",
+      "translation": "Ça va bien. Donne-moi de l'eau, s'il te plaît."
+    },
+    {
+      "speaker": "Amara",
+      "text": "rimamo.",
+      "phonetic_api": "/rimamo/",
+      "phonetic_simple": "RI-MA-MO",
+      "translation": "Merci."
+    },
+    {
+      "speaker": "Fatou",
+      "text": "sililoihi!",
+      "phonetic_api": "/sililoihi/",
+      "phonetic_simple": "SI-LI-LOI-HI",
+      "translation": "Au revoir !"
     }
   ],
   "cultural_notes": [
-    "Chez les Mani, la salutation est un rituel social obligatoire. Passer devant un aîné sans formuler le 'Mboi' suivi de l'état de la maisonnée est considéré comme une grave offense. On s'enquiert toujours du matin ('si') ou de la journée ('tiri') avant d'aborder tout sujet commercial ou personnel."
+    "Les salutations sont d'une importance capitale en Afrique de l'Ouest, y compris chez les Mani : on ne commence jamais une interaction sans échanger une série de salutations, souvent sur la santé de la famille (Childs 2011, ch.10).",
+    "Les remerciements explicites sont moins fréquents que dans les cultures occidentales ; la formule mamo (« bienvenue ») remplit souvent cette fonction dans la vie quotidienne, le mot emprunté à l'arabe (al)barka étant réservé aux contextes plus formels.",
+    "Le mani est aujourd'hui parlé par seulement quelques centaines de personnes dans les zones côtières entre la Guinée et la Sierra Leone ; presque tous les locuteurs sont bilingues avec le soso ou le temne (Glottolog, Childs 2011)."
   ],
   "exercises": [
     {
-      "exercise_id": "ex1_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel terme utilise-t-on pour dire 'merci' en Mani ?",
+      "question": "Comment répond-on habituellement à la salutation « itɔbihi » ?",
       "options": [
-        "mboi",
-        "cece",
-        "gbana"
+        "shɛke",
+        "wan",
+        "kɔ"
       ],
-      "correct_answer": "cece",
-      "explanation": "'Cece' est l'expression consacrée pour gratifier ou remercier quelqu'un."
+      "correct_answer": "shɛke",
+      "explanation": "« shɛke » signifie « bien, ça va » et constitue la réponse standard à une salutation en mani."
     },
     {
-      "exercise_id": "ex1_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Mboi wun bɛ [ ___ ] ? (Comment s'est passée ta nuit ?)",
-      "correct_answer": "si",
-      "hint": "Un mot court de deux lettres symbolisant le repos de la nuit."
+      "sentence_with_blank": "kili mi mmu, [ ___ ].",
+      "correct_answer": "kena",
+      "hint": "C'est le mot mani pour « s'il te plaît »."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Childs, G. Tucker (2011), A Grammar of Mani, Mouton Grammar Library 54, De Gruyter Mouton",
+      "url": "https://theswissbay.ch/pdf/Books/Linguistics/Mega%20linguistics%20pack/African/Niger-Congo/other%20Atlantic-Congo/Bullom%20So;%20A%20Grammar%20of%20Mani%20(Childs).pdf"
+    },
+    {
+      "label": "Glottolog 5.3 — Bullom So (bull1247)",
+      "url": "https://glottolog.org/resource/languoid/id/bull1247"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Les formules de salutation et de politesse (Table 27 et 28 de Childs 2011) sont directement attestées avec traduction. Les exemples de phrases combinant plusieurs mots ont été reconstruits à partir du vocabulaire attesté, avec une confiance moyenne car ces combinaisons précises ne sont pas toutes citées telles quelles dans le corpus."
 }

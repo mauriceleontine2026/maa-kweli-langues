@@ -6,144 +6,181 @@
   "lesson_number": 6,
   "title": "Faire des achats, négocier les prix et gérer l'argent",
   "learning_objectives": [
-    "Négocier de manière autonome le prix d'un produit sur un marché Baga",
-    "Utiliser le lexique spécifique de la monnaie, du rabais et de la valeur",
-    "Exprimer l'accord ou le désaccord lors d'une transaction commerciale"
+    "Utiliser les verbes \"acheter/vendre\" attestés (même radical (kǝ)wai)",
+    "Nommer l'argent (pə-sam) et demander un prix avec \"tsəke\"",
+    "Comprendre le rôle historique de la noix de cola et du sel comme monnaie d'échange"
   ],
   "phonetic_focus": {
-    "key_sounds": "Le mot pour l'argent, 'wòni', exige un 'o' fermé court et une fin fluide. Le verbe de réduction 'bɔ̀' (enlever/diminuer) requiert l'injective /ɓ/ bien articulée.",
-    "common_pitfalls": "Attention à ne pas confondre le verbe 'bɔ̀' (diminuer le prix) avec 'bo' (sortir) ; la clarté du ton bas et l'implosion consonantique caractérisent la négociation."
+    "key_sounds": "Le Baga Sitemu utilise un inventaire de voyelles incluant /a/, /ʌ~ə/ (\"a\" ouvert), /e/, /ɛ/, /i/, /ɪ/, /o/, /ɔ/, /u/ ainsi que des consonnes comme /gb/ (occlusive labio-vélaire voisée, absente du français), /ŋ/ (comme 'ng' dans 'parking'), /ʃ/ (\"sh\"), /tʃ/ (\"tsh\", comme 'tch'), /θ/ (\"th\" anglais sourd) et un /k/ décrit par le lexicographe F. Lamp comme \"glottal, quelque part entre g et k\". Ces sons n'ont pas d'équivalent exact en français standard.",
+    "common_pitfalls": "Les francophones ont tendance à prononcer /gb/ comme un simple 'g' ou 'b' séparé, à confondre /ɛ/ et /e/ (non distingués en français standard écrit), et à ne pas prononcer /ŋ/ en début de mot. Le /ʌ~ə/ ouvert (noté 'a' dans l'orthographe de Lamp) est souvent réduit à un français 'e muet', ce qui déforme le sens."
   },
   "vocabulary": [
     {
-      "word_id": "b225",
-      "term": "wòni",
-      "phonetic_api": "/wòni/",
-      "phonetic_simple": "WO-NII",
-      "translation": "argent / monnaie / devise",
-      "example_sentence": "Wòni mu n fɛ̀ɛ̀",
-      "example_phonetic": "/wòni mu ⁿfɛ̀ː/",
-      "example_translation": "J'ai de l'argent (L'argent est avec moi)"
+      "word_id": "v1",
+      "term": "(kǝ)wai",
+      "phonetic_api": "/kəwai/",
+      "phonetic_simple": "keu-WAI",
+      "translation": "acheter ; vendre (même entrée dans le dictionnaire, Notes N:16)",
+      "example_sentence": "i wai.",
+      "example_phonetic": "/i wai/",
+      "example_translation": "J'achète/je vends."
     },
     {
-      "word_id": "b226",
-      "term": "sɔ́ŋ",
-      "phonetic_api": "/sɔ́ŋ/",
-      "phonetic_simple": "SON",
-      "translation": "prix / valeur marchande",
-      "example_sentence": "A sɔ́ŋ mu gbáa di",
-      "example_phonetic": "/a sɔ́ŋ mu gɓáː di/",
-      "example_translation": "Son prix est élevé (dur)"
+      "word_id": "v2",
+      "term": "pə-sam",
+      "phonetic_api": "/pəsam/",
+      "phonetic_simple": "peu-SAM",
+      "translation": "argent",
+      "example_sentence": "pə-sam.",
+      "example_phonetic": "/pəsam/",
+      "example_translation": "l'argent"
     },
     {
-      "word_id": "b227",
-      "term": "ɓɔ̀ a lɔ̀",
-      "phonetic_api": "/ɓɔ̀ a lɔ̀/",
-      "phonetic_simple": "BO A LO",
-      "translation": "diminue le prix / enlève dessus",
-      "example_sentence": "Hába, ɓɔ̀ a lɔ̀ n bɛ́ɛ",
-      "example_phonetic": "/háɓa ɓɔ̀ a lɔ̀ ⁿɓɛ́ː/",
-      "example_translation": "S'il te plaît, diminue pour moi"
+      "word_id": "v3",
+      "term": "tsəke",
+      "phonetic_api": "/tsəke/",
+      "phonetic_simple": "tseu-KÉ",
+      "translation": "combien ? comment ?",
+      "example_sentence": "tsəke pə-sam ?",
+      "example_phonetic": "/tsəke pəsam/",
+      "example_translation": "Combien d'argent ? (construction probable)"
     },
     {
-      "word_id": "b228",
-      "term": "fáá",
-      "phonetic_api": "/fáː/",
-      "phonetic_simple": "FAA",
-      "translation": "suffire / convenir / être exact",
-      "example_sentence": "Wòni yà fáá ya",
-      "example_phonetic": "/wòni jà fáː ja/",
-      "example_translation": "L'argent suffit maintenant"
+      "word_id": "v4",
+      "term": "kə-tɔpεtsh (tshə-)",
+      "phonetic_api": "/kətɔpɛtʃ/",
+      "phonetic_simple": "keu-to-PÈTCH",
+      "translation": "noix de cola (emprunt susu, importante dans le commerce traditionnel)",
+      "example_sentence": "kə-tɔpεtsh.",
+      "example_phonetic": "/kətɔpɛtʃ/",
+      "example_translation": "la noix de cola"
+    },
+    {
+      "word_id": "v5",
+      "term": "ku-mɔla/kə-mɔlɔ/mola",
+      "phonetic_api": "/kumɔla/",
+      "phonetic_simple": "kou-MO-la",
+      "translation": "mesure/panier utilisé dans le commerce de la cola et du riz",
+      "example_sentence": "ku-mɔla.",
+      "example_phonetic": "/kumɔla/",
+      "example_translation": "la mesure/le panier de commerce"
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "bp211",
-      "original": "A sɔ́ŋ mu gbáa di táàn, ɓɔ̀ a lɔ̀ !",
-      "phonetic_api": "/a sɔ́ŋ mu gɓáː di taːn ɓɔ̀ a lɔ̀/",
-      "phonetic_simple": "A SON MOO GBAA DI TAAN, BO A LO !",
-      "translation": "Son prix est trop cher, diminue un peu !",
-      "context": "Lancer le marchandage face à un vendeur au marché"
+      "phrase_id": "p1",
+      "original": "tsəke pə-sam ?",
+      "phonetic_api": "/tsəke pəsam/",
+      "phonetic_simple": "tseu-ké peu-SAM",
+      "translation": "Combien (coûte cela en) argent ?",
+      "context": "Assemblage de \"combien\" + \"argent\", tous deux attestés séparément, pour approximer une question de prix."
     },
     {
-      "phrase_id": "bp212",
-      "original": "A mu múù-kpu di, a fáa-yà",
-      "phonetic_api": "/a mu múː kpu di a fáː jà/",
-      "phonetic_simple": "A MOO MOO-KPU DI, A FAA-YA",
-      "translation": "Ça fait dix, c'est bon (ça suffit).",
-      "context": "Conclure l'accord financier et remettre la monnaie"
+      "phrase_id": "p2",
+      "original": "i wai.",
+      "phonetic_api": "/i wai/",
+      "phonetic_simple": "keu-WAI",
+      "translation": "J'achète/je vends.",
+      "context": "Réutilisation de la phrase d'exemple attestée pour le mot « (kǝ)wai »."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "(kǝ)wai",
+      "phonetic_api": "/kəwai/",
+      "phonetic_simple": "keu-WAI",
+      "translation": "acheter ; vendre (même entrée dans le dictionnaire, Notes N:16)",
+      "context": "Emploi du mot « (kǝ)wai » seul, comme énoncé minimal attesté."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "pə-sam.",
+      "phonetic_api": "/pəsam/",
+      "phonetic_simple": "peu-SAM",
+      "translation": "l'argent",
+      "context": "Réutilisation de la phrase d'exemple attestée pour le mot « pə-sam »."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'impératif de négociation commerciale",
-      "explanation": "Pour solliciter un rabais au marché, on utilise le verbe 'ɓɔ̀' (enlever/diminuer) combiné avec la locution directionnelle 'a lɔ̀' (dedans/dessus). À l'impératif direct, le pronom sujet de deuxième personne est omis.",
+      "concept": "Polysémie acheter/vendre sous un même radical",
+      "explanation": "Lamp note que \"(kǝ)wai\" couvre à la fois \"acheter\" et \"vendre\" dans son entrée de dictionnaire (Notes N:16), ce qui suggère soit une polysémie réelle (le sens étant désambiguïsé par le contexte ou une particule non documentée), soit une incertitude de collecte signalée honnêtement par le lexicographe lui-même.",
       "rules": [
-        "Structure de rabais : Verbe (ɓɔ̀) + a lɔ̀ + (Pronom bénéficiaire + bɛ́ɛ́).",
-        "L'adjectif 'gbáa' (dur) qualifie un prix ou un coût élevé (cher)."
+        "(kǝ)wai = acheter OU vendre selon le contexte (ambiguïté relevée par la source elle-même).",
+        "\"pə-sam\" (argent) est un nom sans forme plurielle distincte notée (\"no pl.\" dans le dictionnaire)."
       ],
       "examples": [
         {
-          "structure": "ɓɔ̀ (diminuer) + a lɔ̀ (dessus)",
-          "phonetic_api": "/ɓɔ̀ a lɔ̀/",
-          "meaning": "Diminue le prix !"
+          "structure": "(kǝ)wai",
+          "phonetic_api": "/kəwai/",
+          "meaning": "acheter/vendre"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Acheteur",
-      "text": "Ió ŋáasɛ ! I gbásá gbɛ̀ɛ̀ a sɔ́ŋ mu bə̀nə̀ŋ di ?",
-      "phonetic_api": "/ió ⁿŋáːsɛ i gɓásá gɓɛ̀ː a sɔ́ŋ mu ɓə̀nə̀ŋ di/",
-      "phonetic_simple": "IÓ N-GAA-SÈ ! I GBA-SA GBÈÈ A SON MOO BÈ-NÈNG DI ?",
-      "translation": "Bonjour maman ! Quel est le prix de ton vêtement rouge ?"
+      "speaker": "A",
+      "text": "tsəke pə-sam ?",
+      "phonetic_api": "/tsəke pəsam/",
+      "phonetic_simple": "tseu-ké peu-SAM",
+      "translation": "Combien d'argent ?"
     },
     {
-      "speaker": "Vendeuse",
-      "text": "Ió n dɛ̀n. A sɔ́ŋ mu múù-kpu kàn múú-fɛ́ɛ̀ di gba.",
-      "phonetic_api": "/ió ⁿdɛ̀n a sɔ́ŋ mu múː kpu kàn múː fɛ́ː di gba/",
-      "phonetic_simple": "IÓ N DÈN. A SON MOO MOO-KPU KAN MOO-FÉÉ DI GBA.",
-      "translation": "Bonjour mon fils. Son prix est de quinze (unités)."
+      "speaker": "B",
+      "text": "i wai.",
+      "phonetic_api": "/i wai/",
+      "phonetic_simple": "i WAI",
+      "translation": "J'achète/je vends."
     },
     {
-      "speaker": "Acheteur",
-      "text": "Háo, a sɔ́ŋ mu gbáa di táàn ! Hába, ɓɔ̀ a lɔ̀ n bɛ́ɛ. Mə̀ bɛ̀ɛ̀ múù-kpu di ya.",
-      "phonetic_api": "/háo a sɔ́ŋ mu gɓáː di taːn háɓa ɓɔ̀ a lɔ̀ ⁿɓɛ́ː mə̀ ɓɛ̀ː múː kpu di ja/",
-      "phonetic_simple": "HAO, A SON MOO GBAA DI TAAN ! HA-BA, BO A LO N BÉÉ. ME BÈÈ MOO-KPU DI YA.",
-      "translation": "Non, c'est vraiment trop cher ! S'il te plaît, diminue pour moi. J'ai seulement dix avec moi."
+      "speaker": "A",
+      "text": "(kǝ)wai",
+      "phonetic_api": "/kəwai/",
+      "phonetic_simple": "keu-WAI",
+      "translation": "acheter ; vendre (même entrée dans le dictionnaire, Notes N:16)"
     },
     {
-      "speaker": "Vendeuse",
-      "text": "A ɲí táàn, múù-kpu kàn bhə̀rə̀ŋ kɔ̀ sɔ̀, a na fáá !",
-      "phonetic_api": "/a ɲí taːn múː kpu kàn ɓə̀rə̀ŋ kɔ̀ sɔ̀ a na fáː/",
-      "phonetic_simple": "A NYI TAAN, MOO-KPU KAN BHE-RENG KO SO, A NA FAA !",
-      "translation": "D'accord, donne douze alors, et ce sera bon !"
+      "speaker": "B",
+      "text": "pə-sam.",
+      "phonetic_api": "/pəsam/",
+      "phonetic_simple": "peu-SAM",
+      "translation": "l'argent"
     }
   ],
   "cultural_notes": [
-    "Le marchandage fait partie intégrante des interactions sociales lors des marchés hebdomadaires en Basse-Guinée. Accepter le premier prix sans discuter est parfois perçu comme un manque d'intérêt pour l'interaction avec le commerçant.",
-    "Le concept général de 'wòni' renvoie historiquement aux cauris et aux premières formes de monnaies d'échange de la région maritime."
+    "La noix de cola (kə-tɔpεtsh) et le sel étaient des biens d'échange traditionnels majeurs dans le commerce précolonial de la région du Rio Pongo/Rio Nunez, aux côtés du riz (Hair ALR 61:53 ; Coello 1953:62)."
   ],
   "exercises": [
     {
-      "exercise_id": "B1_M2_L6_ex1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Que signifie précisément le mot 'wòni' en Baga ?",
+      "question": "Que signifie \"pə-sam\" ?",
       "options": [
-        "Le tissu",
-        "L'argent",
-        "Le marché"
+        "l'argent",
+        "la noix de cola",
+        "le riz"
       ],
-      "correct_answer": "L'argent",
-      "explanation": "'wòni' désigne la monnaie, l'argent ou les ressources financières."
+      "correct_answer": "l'argent",
+      "explanation": "\"pə-sam\" = argent (Bangoura 1972:86 ; Kalissa 1984:34)."
     },
     {
-      "exercise_id": "B1_M2_L6_ex2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "A sɔ́ŋ mu [ ___ ] di (Le prix est cher / dur).",
-      "correct_answer": "gbáa",
-      "hint": "Signifie également dur ou rigide en Baga"
+      "sentence_with_blank": "(kǝ)wai signifie à la fois ___ et ___.",
+      "correct_answer": "acheter, vendre",
+      "hint": "Le dictionnaire donne les deux sens pour la même entrée."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Lamp, F.J. — Baga Tshi-Tem Dictionary (Guinea, rév. 2021)",
+      "url": "https://catalogingafricana.wordpress.com/wp-content/uploads/2016/07/a.baga-vocabulary-final-notated-2021-cr.pdf"
+    },
+    {
+      "label": "Glottolog 5.3 — Baga Sitemu (baga1272)",
+      "url": "https://glottolog.org/resource/languoid/id/baga1272"
+    }
+  ],
+  "confidence": "faible",
+  "confidence_note": "Le vocabulaire commercial de base (acheter/vendre, argent, cola comme monnaie d'échange) est attesté, mais aucune expression de négociation de prix (\"c'est trop cher\", \"fais-moi un prix\") n'a été trouvée : la phrase de dialogue reste donc un simple assemblage minimal de mots vérifiés. Variété choisie : Baga Sitemu (autonyme Citɛm ; ISO 639-3 bsp ; Glottocode baga1272), décrite comme \"the only vibrant Baga linguistic variety\" par Wikipédia (d'après Wilson 2007), parlée dans des villages sur le fleuve Campaces/Rio Pongo, région de Boffa, Guinée (~40 000 locuteurs, 2018). C'est la variété baga au sens strict la mieux documentée : dictionnaire de terrain de 3000 mots (Lamp 2016/2021), listes lexicales ASJP indépendantes, fiches Glottolog/WALS, et mention dans la thèse de Weller Ganong (1998) sur la morphologie/syntaxe baga. Elle appartient à la branche Mel (Niger-Congo > Atlantic-Congo > Mel > Northern Mel, avec Temne, Landuma, Baga Koba), et non à la branche Nalu-Mbulungish-Baga Mboteni décrite par Sapir (1971) comme faisant partie de l'Atlantique Nord — ces deux ensembles sont linguistiquement distincts malgré l'identité ethnique Baga commune. Le Baga Mboteni (bgm/bcg), bien que parlé par des Baga ethniques, n'est PAS une langue Mel et reste très peu documenté (pas de dictionnaire de terrain publié comparable); le Baga Fore/Mbulungish (bsp est un code distinct de mbv) est également peu documenté en comparaison. Le Sitemu a donc été retenu comme le meilleur compromis entre authenticité \"Baga\" et disponibilité de données vérifiables."
 }

@@ -1,179 +1,191 @@
 {
   "lesson_id": "B1_M3_L7",
-  "level": "Intermédiaire (B1-B2)",
+  "level": "Niveau Intermédiaire (B1 - B2)",
   "module_number": 3,
   "module_title": "Interactions sociales et professionnelles",
   "lesson_number": 7,
   "title": "Exprimer l'obligation, l'interdiction et la permission",
   "learning_objectives": [
-    "Exprimer le devoir et la nécessité d'accomplir une tâche en Mani",
-    "Formuler une interdiction claire au sein de la communauté",
-    "Demander et accorder une permission de façon polie et respectueuse"
+    "Utiliser le modal 'bi/hi' pour exprimer l'obligation",
+    "Comprendre la négation verbale avec le suffixe -m",
+    "Construire des phrases d'interdiction attestées"
   ],
   "phonetic_focus": {
-    "key_sounds": "La consonne occlusive glottale sourde ou l'aspiration forte /h/ s'articule nettement au début de termes modaux comme 'haani'. Le groupe de voyelles successives et nasalisées comme 'oŋ' dans 'tɔŋ' exige un abaissement complet du voile du palais pour éviter toute déformation phonique.",
-    "common_pitfalls": "Attention à ne pas omettre la négation finale 'inde' qui, lorsqu'elle est combinée avec la particule d'état 'bɛ', inverse complètement la modalité d'action ou de permission."
+    "key_sounds": "Le mani distingue 8 voyelles (i, e, ɛ, a, ɔ, o, u, ə) et des consonnes prénasalisées (mp, nt/nd, ŋk) ainsi qu'une labiovélaire /gb/ absentes du français. Le ton (registre haut/bas) est phonémique (Childs 2011, ch.2).",
+    "common_pitfalls": "Les francophones ont tendance à ne pas distinguer ɛ/e et ɔ/o, à simplifier les consonnes prénasalisées en de simples séquences nasale+consonne, et à ignorer les contrastes de ton, qui changent pourtant le sens ou la fonction grammaticale du mot (ex. hortatif vs perfectif marqués uniquement par le ton)."
   },
   "vocabulary": [
     {
-      "word_id": "v16_1",
-      "term": "haani",
-      "phonetic_api": "/haː.ni/",
-      "phonetic_simple": "HAA-NI",
-      "translation": "devoir / falloir / avoir l'obligation de",
-      "example_sentence": "N haani wɔli hɔnkɔ lɔ.",
-      "example_phonetic": "/n̩ haː.ni wɔ.li hɔn.kɔ lɔ/",
-      "example_translation": "Je dois travailler aujourd'hui."
+      "word_id": "v1",
+      "term": "hi",
+      "phonetic_api": "/hi/",
+      "phonetic_simple": "HI",
+      "translation": "avoir, devoir (modal d'obligation)"
     },
     {
-      "word_id": "v16_2",
-      "term": "inde",
-      "phonetic_api": "/in.de/",
-      "phonetic_simple": "IN-DE",
-      "translation": "non / particule d'interdiction ou de négation",
-      "example_sentence": "Béré lɔ inde.",
-      "example_phonetic": "/be.re lɔ in.de/",
-      "example_translation": "Ne joue pas ici (Jouer ici non)."
+      "word_id": "v2",
+      "term": "-m",
+      "phonetic_api": "/-m/",
+      "phonetic_simple": "-M",
+      "translation": "suffixe de négation verbale",
+      "example_sentence": "a yom",
+      "example_phonetic": "/a jom/",
+      "example_translation": "Je ne mange pas. (structure attestée avec -m, Childs 2011 ch.7 sur la négation)"
     },
     {
-      "word_id": "v16_3",
-      "term": "mɛlɛ",
-      "phonetic_api": "/mɛ.lɛ/",
-      "phonetic_simple": "MÈ-LÈ",
-      "translation": "pouvoir / être permis / autoriser",
-      "example_sentence": "Wun mɛlɛ fɔkɔ su cɛm.",
-      "example_phonetic": "/wun mɛ.lɛ fɔ.kɔ su tʃɛm/",
-      "example_translation": "Tu peux entrer à l'intérieur de la chambre."
+      "word_id": "v3",
+      "term": "hali",
+      "phonetic_api": "/hali/",
+      "phonetic_simple": "HA-LI",
+      "translation": "pour, afin de, il faut que (complémenteur introduisant l'obligation)"
     },
     {
-      "word_id": "v16_4",
-      "term": "kperɛ",
-      "phonetic_api": "/kpe.rɛ/",
-      "phonetic_simple": "KPE-RÈ",
-      "translation": "donner / accorder la permission",
-      "example_sentence": "Kperɛ mi kira.",
-      "example_phonetic": "/kpe.rɛ mi ki.ra/",
-      "example_translation": "Donne-moi le chemin (Accorde-moi le passage)."
+      "word_id": "v4",
+      "term": "wɔ hi hɔn simiti",
+      "phonetic_api": "/wɔ hi hɔn simiti/",
+      "phonetic_simple": "WO HI HON SI-MI-TI",
+      "translation": "elle doit revenir samedi (attesté, Childs 2011 ex.154b)"
     },
     {
-      "word_id": "v16_5",
-      "term": "tɔgɔ",
-      "phonetic_api": "/tɔ.ɡɔ/",
-      "phonetic_simple": "TO-GO",
-      "translation": "loi / règle / coutume communautaire",
-      "example_sentence": "Tɔgɔ gbun na mɛnni.",
-      "example_phonetic": "/tɔ.ɡɔ ɡbun na mɛn.ni/",
-      "example_translation": "C'est une grande règle là-bas."
+      "word_id": "v5",
+      "term": "tɔ",
+      "phonetic_api": "/tɔ/",
+      "phonetic_simple": "TO",
+      "translation": "quand, si (subordonnant conditionnel)",
+      "example_sentence": "tɔ n hi-m yɛmde, mɔ hi wu",
+      "example_phonetic": "/tɔ n hiːm jɛmdɛ mɔ hi wu/",
+      "example_translation": "Si tu n'as pas de nourriture, tu mourras. (attesté Childs 2011, ex.362a — illustre l'obligation implicite de se nourrir)"
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p16_1",
-      "original": "N haani tira woŋ woni.",
-      "phonetic_api": "/n̩ haː.ni ti.ra woŋ wo.ni/",
-      "phonetic_simple": "N HAA-NI TI-RA WONG WO-NI",
-      "translation": "Je dois impérativement voyager à la ville demain.",
-      "context": "Exprimer une obligation personnelle majeure ou professionnelle."
+      "phrase_id": "p1",
+      "original": "wo hi hɔn simiti",
+      "phonetic_api": "/wo hi hɔn simiti/",
+      "phonetic_simple": "WO HI HON SI-MI-TI",
+      "translation": "Elle doit revenir samedi.",
+      "context": "Phrase authentique attestée (Childs 2011, ex.154b), modal d'obligation/certitude."
     },
     {
-      "phrase_id": "p16_2",
-      "original": "Diŋɛ mɛl mɛnni inde !",
-      "phonetic_api": "/di.ŋɛ mɛl mɛn.ni in.de/",
-      "phonetic_simple": "DI-NGÈ MÈL MÈN-NI IN-DE !",
-      "translation": "Il est interdit de manger du riz là-bas !",
-      "context": "Formuler une interdiction spatiale ou rituelle ferme."
+      "phrase_id": "p2",
+      "original": "usu bilu kɔ cem kwɛ uba",
+      "phonetic_api": "/usu bilu kɔ tʃɛm kwɛ uba/",
+      "phonetic_simple": "OU-SOU BI-LOU KO TCHÈM KOUÈ OU-BA",
+      "translation": "Un seul doigt ne soulève pas un palmier (il faut agir ensemble).",
+      "context": "Proverbe authentique exprimant une nécessité collective (Childs 2011, appendice 1)."
     },
     {
-      "phrase_id": "p16_3",
-      "original": "N mɛlɛ béré kankaran lɔ ?",
-      "phonetic_api": "/n̩ mɛ.lɛ be.re kan.ka.ran lɔ/",
-      "phonetic_simple": "N MÈ-LÈ BÉ-RÉ KAN-KA-RAN LƆ ?",
-      "translation": "Puis-je jouer dans la cour ?",
-      "context": "Demander poliment l'autorisation d'accéder à un espace."
+      "phrase_id": "p3",
+      "original": "tɔ n hi-m yɛmde, mɔ hi wu",
+      "phonetic_api": "/tɔ n hiːm jɛmdɛ mɔ hi wu/",
+      "phonetic_simple": "TO N HI-M YÈM-DÉ, MO HI WOU",
+      "translation": "Si tu n'as pas de nourriture, tu mourras.",
+      "context": "Conditionnelle attestée illustrant une nécessité vitale (obligation implicite) — Childs 2011, ex.362a."
     },
     {
-      "phrase_id": "p16_4",
-      "original": "Oon, wun mɛlɛ ŋon lan.",
-      "phonetic_api": "/oːn wun mɛ.lɛ ŋon lan/",
-      "phonetic_simple": "OON, WOUN MÈ-LÈ NGON LAN",
-      "translation": "Oui, tu as la permission de boire de l'eau.",
-      "context": "Accorder une autorisation immédiate à un invité."
+      "phrase_id": "p4",
+      "original": "rilbɔm wɔ hi bankɛm lepe yɔ nde wɔ nde pe",
+      "phonetic_api": "/rilbɔm wɔ hi baŋkɛm lɛpɛ jɔ ndɛ wɔ ndɛ pɛ/",
+      "phonetic_simple": "RILBƆM WƆ HI BANKƐM LEPE YƆ NDE WƆ NDE PE",
+      "translation": "Mbom sera constipé s'il mange encore du riz.",
+      "context": "Conditionnelle réelle attestée pouvant s'interpréter comme une mise en garde/interdiction implicite (ne pas manger davantage) — Childs 2011, ex.148b."
     }
   ],
   "grammar_points": [
     {
-      "concept": "La structure des auxiliaires modaux et la négation prohibitive",
-      "explanation": "Pour exprimer le devoir ou le pouvoir en Mani, on place les morphèmes modaux 'haani' ou 'mɛlɛ' directement après le sujet et avant le verbe d'action principal. L'interdiction ou la prohibition stricte s'exprime en rejetant la particule négative absolue 'inde' en toute fin de proposition.",
+      "concept": "La négation verbale par le suffixe -m",
+      "explanation": "Le mani nie un verbe conjugué en ajoutant le suffixe -m à la forme verbale, ce qui permet d'exprimer l'interdiction ou l'absence d'obligation en combinaison avec le modal 'hi' (Childs 2011, ch.7 sur la négation). Par exemple, 'hi...m' ou une forme niée du verbe principal indique qu'une action ne doit pas ou ne peut pas se produire.",
       "rules": [
-        "Obligation / Permission : Sujet + Auxiliaire modal (haani/mɛlɛ) + Verbe d'action.",
-        "Interdiction absolue : Proposition affirmative + 'inde' en fin de phrase."
+        "Le suffixe -m s'attache à la fin du verbe conjugué pour le nier.",
+        "Le modal 'hi' + verbe positif = obligation ('devoir faire').",
+        "Le verbe + suffixe -m = interdiction ou négation simple ('ne pas faire')."
       ],
       "examples": [
         {
-          "structure": "Wun haani wɔli",
-          "phonetic_api": "/wun haː.ni wɔ.li/",
-          "meaning": "Tu dois travailler"
+          "structure": "verbe + m",
+          "phonetic_api": "/... m/",
+          "meaning": "ne pas [action]"
         },
         {
-          "structure": "Gbɛŋ lɔ inde",
-          "phonetic_api": "/ɡbɛŋ lɔ in.de/",
-          "meaning": "Interdit de courir ici (Courir ici non)"
+          "structure": "sujet + hi + verbe",
+          "phonetic_api": "/... hi .../",
+          "meaning": "sujet doit [action]"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Moussa",
-      "text": "Mboi Fanta ! N mɛlɛ fɔkɔ banxi lɔ su cɛm ?",
-      "phonetic_api": "/mboi fan.ta n̩ mɛ.lɛ fɔ.kɔ ban.xi lɔ su tʃɛm/",
-      "phonetic_simple": "MBOÏ FAN-TA ! N MÈ-LÈ FƆ-KƆ BAN-KHI LƆ SOU TCHÈM ?",
-      "translation": "Bonjour Fanta ! Puis-je entrer à l'intérieur de la maison dans la chambre ?"
+      "speaker": "Père",
+      "text": "wo hi hɔn simiti.",
+      "phonetic_api": "/wo hi hɔn simiti/",
+      "phonetic_simple": "WO HI HON SI-MI-TI",
+      "translation": "Elle doit revenir samedi."
     },
     {
-      "speaker": "Fanta",
-      "text": "Mboi Moussa ! Oon, wun mɛlɛ fɔkɔ. Kɔŋ, tuli n fara tɔgɔ.",
-      "phonetic_api": "/mboi mou.sa oːn wun mɛ.lɛ fɔ.kɔ kɔŋ tu.li n̩ fa.ra tɔ.ɡɔ/",
-      "phonetic_simple": "MBOÏ MOUS-SA ! OON, WOUN MÈ-LÈ FƆ-KƆ. KONG, TOU-LI N FA-RA TO-GO.",
-      "translation": "Bonjour Moussa ! Oui, tu peux entrer. S'il te plaît, écoute la règle de mon père."
+      "speaker": "Fils",
+      "text": "nyɛŋcɛn wɔ hi hɔn?",
+      "phonetic_api": "/ɲɛŋtʃɛn wɔ hi hɔn/",
+      "phonetic_simple": "NYENG-TCHÈN WO HI HON",
+      "translation": "Quand doit-elle revenir ? (structure reconstruite avec le mot interrogatif attesté 'nyɛŋcɛn' = quand)"
     },
     {
-      "speaker": "Moussa",
-      "text": "N haani nɛ wɔli lɔ cɛm ?",
-      "phonetic_api": "/n̩ haː.ni nɛ wɔ.li lɔ tʃɛm/",
-      "phonetic_simple": "N HAA-NI NÈ WƆ-LI LƆ TCHÈM ?",
-      "translation": "Que dois-je faire comme travail à l'intérieur ici ?"
+      "speaker": "Père",
+      "text": "simiti, hali.",
+      "phonetic_api": "/simiti, hali/",
+      "phonetic_simple": "SI-MI-TI, HA-LI",
+      "translation": "Samedi, il le faut."
     },
     {
-      "speaker": "Fanta",
-      "text": "Wun haani béré ni bɔŋ. Béré gbeŋu ni inde !",
-      "phonetic_api": "/wun haː.ni be.re ni bɔŋ be.re ɡbe.ŋu ni in.de/",
-      "phonetic_simple": "WOUN HAA-NI BÉ-RÉ NI BONG. BÉ-RÉ GBÉ-NGOU NI IN-DE !",
-      "translation": "Tu dois jouer avec l'enfant. Il est formellement interdit de jouer avec de l'argent !"
+      "speaker": "Mère",
+      "text": "tɔ n hi-m yɛmde, mɔ hi wu — hali n kɔ ko kil.",
+      "phonetic_api": "/tɔ n hiːm jɛmdɛ mɔ hi wu hali n kɔ ko kil/",
+      "phonetic_simple": "TO N HI-M YÈM-DÉ, MO HI WOU — HA-LI N KO KO KIL",
+      "translation": "Si tu n'as pas de nourriture, tu mourras — il faut que tu ailles à la maison. (structure reconstruite combinant deux éléments attestés)"
+    },
+    {
+      "speaker": "Mère",
+      "text": "tɔ n hi-m yɛmde, mɔ hi wu — hali n kɔ ko kil.",
+      "phonetic_api": "/tɔ n hiːm jɛmdɛ mɔ hi wu hali n kɔ ko kil/",
+      "phonetic_simple": "TO N HI-M YÈM-DÉ, MO HI WOU — HA-LI N KO KO KIL",
+      "translation": "Si tu n'as pas de nourriture, tu mourras — il faut que tu ailles à la maison. (structure reconstruite combinant deux éléments attestés)"
     }
   ],
   "cultural_notes": [
-    "Dans les villages Mani, les règles communautaires ('tɔgɔ') encadrent strictement les comportements dans les concessions familiales. Demander la permission avant de franchir le seuil d'une maison ('banxi') ou d'une chambre privée ('su') est un principe de politesse fondamental. Enfreindre une interdiction dictée par les anciens ('fara') nuit à l'harmonie ('yoma') collective."
+    "Les obligations sociales (retours au village, participation aux cérémonies) sont un thème implicite du corpus de Childs (2011), notamment via l'exemple sur le retour prévu 'samedi'.",
+    "Le proverbe sur le doigt et le palmier illustre une valeur culturelle mani de solidarité et d'entraide obligatoire dans le travail collectif."
   ],
   "exercises": [
     {
-      "exercise_id": "ex16_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel verbe exprime la permission ou la capacité en langue Mani ?",
+      "question": "Quel suffixe marque la négation d'un verbe en mani ?",
       "options": [
-        "haani",
-        "mɛlɛ",
-        "inde"
+        "-m",
+        "-di",
+        "-wa"
       ],
-      "correct_answer": "mɛlɛ",
-      "explanation": "'Mɛlɛ' est l'auxiliaire modal utilisé pour signifier 'pouvoir' ou 'être autorisé à'."
+      "correct_answer": "-m",
+      "explanation": "Le suffixe -m marque la négation verbale (Childs 2011, ch.7)."
     },
     {
-      "exercise_id": "ex16_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Tira mɛnni [ ___ ] ! (Interdit de voyager là-bas).",
-      "correct_answer": "inde",
-      "hint": "Le mot de négation absolue à placer en toute fin de phrase."
+      "sentence_with_blank": "wo [ ___ ] hɔn simiti. (Elle doit revenir samedi.)",
+      "correct_answer": "hi",
+      "hint": "Modal exprimant l'obligation/certitude."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Childs, G. Tucker (2011), A Grammar of Mani, Mouton Grammar Library 54, De Gruyter Mouton",
+      "url": "https://theswissbay.ch/pdf/Books/Linguistics/Mega%20linguistics%20pack/African/Niger-Congo/other%20Atlantic-Congo/Bullom%20So;%20A%20Grammar%20of%20Mani%20(Childs).pdf"
+    },
+    {
+      "label": "Glottolog 5.3 — Bullom So (bull1247)",
+      "url": "https://glottolog.org/resource/languoid/id/bull1247"
+    }
+  ],
+  "confidence": "faible",
+  "confidence_note": "Le modal 'hi' et le suffixe de négation -m sont attestés séparément dans Childs (2011), mais aucune phrase authentique combinant explicitement obligation et interdiction n'a été trouvée ; le dialogue est une reconstruction raisonnable à partir de ces éléments."
 }

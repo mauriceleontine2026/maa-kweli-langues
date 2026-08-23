@@ -6,191 +6,199 @@
   "lesson_number": 7,
   "title": "Demander son chemin et se repérer (les directions)",
   "learning_objectives": [
-    "Demander la localisation d'un lieu important (marché, village, maison)",
-    "Comprendre et utiliser les repères spatiaux cardinaux et directionnels",
-    "Savoir s'orienter en utilisant les notions de droite, gauche et tout droit"
+    "Utiliser l'impératif pour donner un ordre simple de déplacement",
+    "Employer les démonstratifs pour situer un lieu (« ici », « là-bas »)",
+    "Construire une phrase simple avec un verbe de mouvement"
   ],
   "phonetic_focus": {
-    "key_sounds": "L'expression de l'orientation spatiale réactive l'occlusive palatale /ɟ/ dans le verbe de mouvement 'ɟaa' (aller vers). Le terme pour la droite 'bədyax' contient un phonème fricatif vélaire final /x/ qu'il faut expirer légèrement au fond de la gorge, semblable à la jota espagnole.",
-    "common_pitfalls": "Attention à ne pas omettre le /x/ final de 'bədyax' ou de 'bəgəlax'. Ce n'est pas un son muet. Il s'articule comme un souffle sourd et ferme, indispensable à la clarté sémantique de l'orientation."
+    "key_sounds": "Le w final de « Yowu » (viens) se prononce comme un w bref anglais, glissé, jamais comme un ou français isolé.",
+    "common_pitfalls": "L'impératif oniyan change la forme du verbe (niveau consonantique II + suffixe -ël) : les francophones ont tendance à garder la racine du verbe telle qu'elle apparaît au parfait, sans appliquer cette alternance."
   },
   "vocabulary": [
     {
-      "word_id": "v25",
-      "term": "fəwɔ́",
-      "phonetic_api": "/fəwɔ́/",
-      "phonetic_simple": "FE-WO",
-      "translation": "le chemin / la route / la piste",
-      "example_sentence": "Fəwɔ́ mɔ oŋ bɛ̀ɛ̀.",
-      "example_phonetic": "/fəwɔ́ mɔ oŋ bɛ̀ː/",
-      "example_translation": "Le chemin est bon."
+      "word_id": "v1",
+      "term": "yowu",
+      "phonetic_api": "/jowu/",
+      "phonetic_simple": "YO-OU",
+      "translation": "viens (impératif)",
+      "example_sentence": "Yowu ro!",
+      "example_phonetic": "/jowu ro/",
+      "example_translation": "Viens ici !"
     },
     {
-      "word_id": "v26",
-      "term": "bədyax",
-      "phonetic_api": "/ɓədjax/",
-      "phonetic_simple": "BHE-DYAKH",
-      "translation": "la droite / côté droit",
-      "example_sentence": "ɟaa fə́ bədyax.",
-      "example_phonetic": "/ɟaː fə́ ɓədjax/",
-      "example_translation": "Va à droite."
+      "word_id": "v2",
+      "term": "ro",
+      "phonetic_api": "/ro/",
+      "phonetic_simple": "RO",
+      "translation": "ici",
+      "example_sentence": "Yowu ro!",
+      "example_phonetic": "/jowu ro/",
+      "example_translation": "Viens ici !"
     },
     {
-      "word_id": "v27",
-      "term": "bəgəlax",
-      "phonetic_api": "/ɓəɡalax/",
-      "phonetic_simple": "BHE-GA-LAKH",
-      "translation": "la gauche / côté gauche",
-      "example_sentence": "ɟaa fə́ bəgəlax.",
-      "example_phonetic": "/ɟaː fə́ ɓəɡalax/",
-      "example_translation": "Va à gauche."
+      "word_id": "v3",
+      "term": "-ël",
+      "phonetic_api": "/əl/",
+      "phonetic_simple": "ËL",
+      "translation": "suffixe de l'impératif (2e singulier)",
+      "example_sentence": "Ganël!",
+      "example_phonetic": "/ganəl/",
+      "example_translation": "Va ! (marche)"
     },
     {
-      "word_id": "v28",
-      "term": "eyá̰",
-      "phonetic_api": "/ejá̰/",
-      "phonetic_simple": "E-YANG",
-      "translation": "le marché",
-      "example_sentence": "Eyá̰ oŋ fə́ siki.",
-      "example_phonetic": "/ejá̰ oŋ fə́ siki/",
-      "example_translation": "Le marché est au village."
+      "word_id": "v4",
+      "term": "an",
+      "phonetic_api": "/an/",
+      "phonetic_simple": "AN",
+      "translation": "démonstratif « ce/cette-ci »",
+      "example_sentence": "Asoçan an.",
+      "example_phonetic": "/asoʃan an/",
+      "example_translation": "Cet homme-ci."
+    },
+    {
+      "word_id": "v5",
+      "term": "gan",
+      "phonetic_api": "/gan/",
+      "phonetic_simple": "GAN",
+      "translation": "marcher, aller",
+      "example_sentence": "Ganël!",
+      "example_phonetic": "/ganəl/",
+      "example_translation": "Marche !"
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p49",
-      "original": "Dya mɛ́ɛ̀ fəwɔ́ fə́ eyá̰?",
-      "phonetic_api": "/dja mɛ́ː fəwɔ́ fə́ ejá̰/",
-      "phonetic_simple": "DYA MEE FE-WO FE E-YANG",
-      "translation": "Où se trouve le chemin du marché ?",
-      "context": "Demander son orientation pour rejoindre le lieu de commerce."
+      "phrase_id": "p1",
+      "original": "Yowu ro!",
+      "phonetic_api": "/jowu ro/",
+      "phonetic_simple": "YO-OU RO",
+      "translation": "Viens ici !",
+      "context": "Phrase attestée pour appeler quelqu'un à s'approcher."
     },
     {
-      "phrase_id": "p50",
-      "original": "ɟaa fə́ bədyax ɛni.",
-      "phonetic_api": "/ɟaː fə́ ɓədjax ɛni/",
-      "phonetic_simple": "DYAA FE BHE-DYAKH E-NI",
-      "translation": "Va un peu vers la droite.",
-      "context": "Indication d'itinéraire standard."
+      "phrase_id": "p2",
+      "original": "Ganël!",
+      "phonetic_api": "/ganəl/",
+      "phonetic_simple": "GA-NËL",
+      "translation": "Marche ! / Va !",
+      "context": "Ordre simple de déplacement, forme impérative en -ël."
     },
     {
-      "phrase_id": "p51",
-      "original": "ɟaa fə́ bəgəlax.",
-      "phonetic_api": "/ɟaː fə́ ɓəɡalax/",
-      "phonetic_simple": "DYAA FE BHE-GA-LAKH",
-      "translation": "Va vers la gauche.",
-      "context": "Indication pour tourner à la prochaine intersection."
+      "phrase_id": "p3",
+      "original": "Asoçan an.",
+      "phonetic_api": "/asoʃan an/",
+      "phonetic_simple": "A-SO-TCHAN AN",
+      "translation": "Cet homme-ci.",
+      "context": "Pour désigner quelqu'un ou quelque chose de proche."
     },
     {
-      "phrase_id": "p52",
-      "original": "ɟaa tɛ̂ɛ̂ŋ.",
-      "phonetic_api": "/ɟaː tɛ̂ːŋ/",
-      "phonetic_simple": "DYAA TEENG",
-      "translation": "Va tout droit.",
-      "context": "Donner une instruction de direction rectiligne."
-    },
-    {
-      "phrase_id": "p53",
-      "original": "Anee kəwə́ra bə̂ oŋ mɛ́ɛ̀?",
-      "phonetic_api": "/aneː kəwə́ra ɓə̂ oŋ mɛ́ː/",
-      "phonetic_simple": "A-NEE KE-WE-RA BHE ONG MEE",
-      "translation": "Où est ton village ?",
-      "context": "S'enquérir de la localisation de la patrie de quelqu'un."
-    },
-    {
-      "phrase_id": "p54",
-      "original": "Kəwə́ra mɔ oŋ fatǎ.",
-      "phonetic_api": "/kəwə́ra mɔ oŋ fatǎ/",
-      "phonetic_simple": "KE-WE-RA MO ONG FA-TAA",
-      "translation": "Mon village est tout près.",
-      "context": "Rassurer sur la distance géographique restante."
-    },
-    {
-      "phrase_id": "p55",
-      "original": "Fəwɔ́ oŋ dyɛ́ɛ̀.",
-      "phonetic_api": "/fəwɔ́ oŋ ɟɛ́ː/",
-      "phonetic_simple": "FE-WO ONG DYEE",
-      "translation": "Le chemin est long.",
-      "context": "Prévenir un marcheur de la pénibilité d'un parcours."
-    },
-    {
-      "phrase_id": "p56",
-      "original": "Məɟaa kəwandi mɔ.",
-      "phonetic_api": "/məɟaː kəwandi mɔ/",
-      "phonetic_simple": "ME-DYAA KE-WAN-DI MO",
-      "translation": "Je me dirige vers ma maison.",
-      "context": "Déclarer son intention de mouvement de retour."
+      "phrase_id": "p4",
+      "original": "Iyo.",
+      "phonetic_api": "/ijo/",
+      "phonetic_simple": "I-YO",
+      "translation": "Oui.",
+      "context": "Réponse affirmative générale, réutilisable dans toute conversation."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'interrogatif de lieu 'mɛ́ɛ̀' et la directionnalité",
-      "explanation": "Pour s'informer d'une localisation spatiale en Oniyan, le morphème locatif 'mɛ́ɛ̀' se place en fin de proposition interrogative. Le verbe d'action de mouvement 'ɟaa' (aller) régit la préposition directionnelle 'fə́' devant le substantif de lieu.",
+      "concept": "L'impératif singulier en -ël",
+      "explanation": "Pour donner un ordre à une seule personne, on utilise le radical verbal au niveau consonantique II (occlusif/implosif) suivi du suffixe -ël. Le sujet n'est pas exprimé par un pronom séparé.",
       "rules": [
-        "Le locatif 'mɛ́ɛ̀' clôt systématiquement la structure de la phrase interrogative de position.",
-        "Les directions fixes (droite, gauche) prennent obligatoirement le morphème préfixe nominal de classe 'bə-'."
+        "Radical (niveau II) + -ël = impératif 2e personne du singulier.",
+        "Le pluriel (« vous, marchez ! ») prend le suffixe -in à la place de -ël."
       ],
       "examples": [
         {
-          "structure": "[Sujet] + oŋ + mɛ́ɛ̀ ?",
-          "phonetic_api": "/eyá̰ oŋ mɛ́ː/",
-          "meaning": "Où se trouve le marché ?"
+          "structure": "gan + ël → Ganël!",
+          "phonetic_api": "/ganəl/",
+          "meaning": "Marche ! / Va !"
+        }
+      ]
+    },
+    {
+      "concept": "Le démonstratif proximal « -an »",
+      "explanation": "Le démonstratif proximal s'accorde en classe avec le nom qu'il détermine et indique la proximité de l'objet ou du lieu par rapport au locuteur, comme « ce...-ci » en français.",
+      "rules": [
+        "Le démonstratif suit le nom : [nom] + [démonstratif de classe accordé]."
+      ],
+      "examples": [
+        {
+          "structure": "asoçan an",
+          "phonetic_api": "/asoʃan an/",
+          "meaning": "cet homme-ci"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Le voyageur",
-      "text": "Anee kəwə́ra oŋ mɛ́ɛ̀?",
-      "phonetic_api": "/aneː kəwə́ra oŋ mɛ́ː/",
-      "phonetic_simple": "A-NEE KE-WE-RA ONG MEE",
-      "translation": "Où se trouve le village ?"
+      "speaker": "Voyageur",
+      "text": "Yowu ro!",
+      "phonetic_api": "/jowu ro/",
+      "phonetic_simple": "YO-OU RO",
+      "translation": "Viens ici !"
     },
     {
-      "speaker": "Le villageois",
-      "text": "ɟaa tɛ̂ɛ̂ŋ, fəwɔ́ oŋ fatǎ.",
-      "phonetic_api": "/ɟaː tɛ̂ːŋ fəwɔ́ oŋ fatǎ/",
-      "phonetic_simple": "DYAA TEENG, FE-WO ONG FA-TAA",
-      "translation": "Va tout droit, le chemin est tout près."
+      "speaker": "Guide",
+      "text": "Ganël!",
+      "phonetic_api": "/ganəl/",
+      "phonetic_simple": "GA-NËL",
+      "translation": "Marche ! (par ici)"
     },
     {
-      "speaker": "Le voyageur",
-      "text": "Nyarancaa. Məɟaa fə́ bədyax?",
-      "phonetic_api": "/ɲarant͡ʃaː məɟaː fə́ ɓədjax/",
-      "phonetic_simple": "NYA-RAN-TCHAA. ME-DYAA FE BHE-DYAKH",
-      "translation": "Merci. Est-ce que je dois tourner à droite ?"
+      "speaker": "Locuteur A",
+      "text": "Awa?",
+      "phonetic_api": "/awa/",
+      "phonetic_simple": "A-OUA ?",
+      "translation": "D'accord ?"
     },
     {
-      "speaker": "Le villageois",
-      "text": "A-a, ɟaa fə́ bəgəlax fə́ eyá̰.",
-      "phonetic_api": "/a-a ɟaː fə́ ɓəɡalax fə́ ejá̰/",
-      "phonetic_simple": "A-A, DYAA FE BHE-GA-LAKH FE E-YANG",
-      "translation": "Non, va plutôt à gauche vers le marché."
+      "speaker": "Locuteur B",
+      "text": "Iyo, awa.",
+      "phonetic_api": "/ijo awa/",
+      "phonetic_simple": "I-YO, A-OUA",
+      "translation": "Oui, d'accord."
     }
   ],
   "cultural_notes": [
-    "Dans l'espace Bassari, la topographie est fortement calquée sur les marqueurs naturels (rivières, collines rituelles, arbres sacrés). Pour orienter un inconnu, les locuteurs utilisent souvent la trajectoire du soleil (levant/couchant) plutôt que les notions exclusives de gauche et de droite si la distance est importante."
+    "Dans le pays bassari, les villages traditionnels s'organisent autour de sentiers de crête reliant les hameaux aux champs et aux forêts sacrées, un paysage classé par l'UNESCO en 2012 (Pays bassari)."
   ],
   "exercises": [
     {
-      "exercise_id": "ex13",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel terme signifie 'aller tout droit' sans déviation ?",
+      "question": "Quel suffixe marque l'impératif singulier en oniyan ?",
       "options": [
-        "ɟaa fə́ bəgəlax",
-        "ɟaa tɛ̂ɛ̂ŋ",
-        "ɟaa fə́ bədyax"
+        "-ël",
+        "-nd",
+        "-do"
       ],
-      "correct_answer": "ɟaa tɛ̂ɛ̂ŋ",
-      "explanation": "'tɛ̂ɛ̂ŋ' indique la rectitude absolue dans le déplacement spatial."
+      "correct_answer": "-ël",
+      "explanation": "Le suffixe -ël marque l'impératif à la 2e personne du singulier après un radical de niveau II."
     },
     {
-      "exercise_id": "ex14",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "ɟaa fə́ [ ___ ] (à gauche).",
-      "correct_answer": "bəgəlax",
-      "hint": "Le nom de classe spatiale désignant le flanc gauche."
+      "sentence_with_blank": "Yowu ___! (« viens ici »)",
+      "correct_answer": "ro",
+      "hint": "Adverbe de lieu proximal « ici »."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "SIL — Bassari Phonology / Orthographe Oniyan (2003)",
+      "url": "https://www.sil.org/system/files/reapdata/13/27/28/132728046882691513259738660939179774460/BSC_Orthographe_Oniyan_Fr_2003.pdf"
+    },
+    {
+      "label": "SIL — A Grammar of Oniyan (Winters & Winters, 2004)",
+      "url": "https://www.sil.org/system/files/reapdata/18/63/15/1863153183176772870767650622005357320/BSC_Oniyan_grammar_En_2004.pdf"
+    },
+    {
+      "label": "Wikipédia — Pays bassari",
+      "url": "https://fr.wikipedia.org/wiki/Pays_bassari"
+    }
+  ],
+  "confidence": "faible",
+  "confidence_note": "Seules deux formes attestées (« Yowu ro » = Viens ici, et la règle générale de l'impératif en -ël) ont été trouvées dans les sources disponibles. Aucun vocabulaire spécifique de directions (droite, gauche, nord, sud) n'a été identifié : cette leçon s'appuie donc sur la règle grammaticale de l'impératif plutôt que sur un lexique spatial complet, afin de ne rien inventer."
 }

@@ -1,179 +1,208 @@
 {
   "lesson_id": "A1_M2_L4",
-  "level": "Débutant (A1-A2)",
+  "level": "Niveau Débutant (A1 - A2)",
   "module_number": 2,
   "module_title": "Le quotidien et l'entourage",
   "lesson_number": 4,
   "title": "La famille et les relations proches",
   "learning_objectives": [
-    "Nommer les membres de la famille nucléaire et élargie en Mani",
-    "Utiliser les pronoms d'appartenance pour décrire son arbre généalogique",
-    "Présenter un proche ou un membre de sa communauté"
+    "Nommer les principaux membres de la famille en mani",
+    "Comprendre la structure de la famille étendue mani",
+    "Utiliser les possessifs avec les termes de parenté"
   ],
   "phonetic_focus": {
-    "key_sounds": "La consonne /w/ en Mani est labio-vélaire et glisse doucement avant les voyelles antérieures. La consonne /r/ est légèrement battue ou roulée, similaire au 'r' espagnol à battement unique, sans friction excessive dans la gorge.",
-    "common_pitfalls": "Attention à ne pas grasseyer le 'r' à la française dans le terme 'fara'. Gardez la langue souple contre le palais."
+    "key_sounds": "Le mani distingue 8 voyelles (i, e, ɛ, a, ɔ, o, u, ə) et des consonnes prénasalisées (mp, nt/nd, ŋk) ainsi qu'une labiovélaire /gb/ absentes du français. Le ton (registre haut/bas) est phonémique (Childs 2011, ch.2).",
+    "common_pitfalls": "Les francophones ont tendance à ne pas distinguer ɛ/e et ɔ/o, à simplifier les consonnes prénasalisées en de simples séquences nasale+consonne, et à ignorer les contrastes de ton, qui changent pourtant le sens ou la fonction grammaticale du mot (ex. hortatif vs perfectif marqués uniquement par le ton)."
   },
   "vocabulary": [
     {
-      "word_id": "v4_1",
-      "term": "fara",
-      "phonetic_api": "/fa.ra/",
-      "phonetic_simple": "FA-RA",
-      "translation": "père / géniteur",
-      "example_sentence": "N fara bɛ lɔ.",
-      "example_phonetic": "/n̩ fa.ra bɛ lɔ/",
-      "example_translation": "Mon père est ici."
+      "word_id": "v1",
+      "term": "ya",
+      "phonetic_api": "/ja/",
+      "phonetic_simple": "YA",
+      "translation": "mère",
+      "example_sentence": "ya mi wo yenkeleŋ.",
+      "example_phonetic": "/ja mi wo jɛnkɛlɛŋ/",
+      "example_translation": "Ma mère va bien. (attesté Childs 2011, ex.371)"
     },
     {
-      "word_id": "v4_2",
-      "term": "wulɛ",
-      "phonetic_api": "/wu.lɛ/",
-      "phonetic_simple": "WOU-LÈ",
-      "translation": "mère / génitrice",
-      "example_sentence": "N wulɛ bɛ ni yoma.",
-      "example_phonetic": "/n̩ wu.lɛ bɛ ni jo.ma/",
-      "example_translation": "Ma mère va bien (est en paix)."
+      "word_id": "v2",
+      "term": "poa",
+      "phonetic_api": "/pɔa/",
+      "phonetic_simple": "PO-A",
+      "translation": "père",
+      "example_sentence": "ipoa mi",
+      "example_phonetic": "/ipɔa mi/",
+      "example_translation": "mes pères (pluriel utilisé en discours cérémoniel, ex.373)"
     },
     {
-      "word_id": "v4_3",
-      "term": "bɔŋ",
-      "phonetic_api": "/bɔŋ/",
-      "phonetic_simple": "BONG",
-      "translation": "enfant / fils / fille",
-      "example_sentence": "A bɔŋ bɛ sɔm.",
-      "example_phonetic": "/a bɔŋ bɛ sɔm/",
-      "example_translation": "Son enfant est petit."
+      "word_id": "v3",
+      "term": "la",
+      "phonetic_api": "/la/",
+      "phonetic_simple": "LA",
+      "translation": "épouse, femme",
+      "example_sentence": "la-mi-iise",
+      "example_phonetic": "/la mi iːsɛ/",
+      "example_translation": "ma première épouse"
     },
     {
-      "word_id": "v4_4",
-      "term": "mora-bɛŋ",
-      "phonetic_api": "/mo.ra bɛŋ/",
-      "phonetic_simple": "MO-RA-BÈNG",
-      "translation": "frère / sœur / parent proche",
-      "example_sentence": "N mora-bɛŋ fɔkɔ bɛ lɔ.",
-      "example_phonetic": "/n̩ mo.ra bɛŋ fɔ.kɔ bɛ lɔ/",
-      "example_translation": "Mon frère/parent vient d'ici."
+      "word_id": "v4",
+      "term": "po",
+      "phonetic_api": "/po/",
+      "phonetic_simple": "PO",
+      "translation": "mari, homme"
     },
     {
-      "word_id": "v4_5",
-      "term": "lanu",
-      "phonetic_api": "/la.nu/",
-      "phonetic_simple": "LA-NOU",
-      "translation": "époux / épouse / conjoint",
-      "example_sentence": "N lanu bɛ wɔli ségé.",
-      "example_phonetic": "/n̩ la.nu bɛ wɔ.li se.ɡe/",
-      "example_translation": "Mon conjoint travaille au marché."
+      "word_id": "v5",
+      "term": "wance",
+      "phonetic_api": "/wantʃɛ/",
+      "phonetic_simple": "OUAN-TCHÉ",
+      "translation": "petite sœur"
+    },
+    {
+      "word_id": "v6",
+      "term": "pince",
+      "phonetic_api": "/pintʃɛ/",
+      "phonetic_simple": "PIN-TCHÉ",
+      "translation": "petit frère"
+    },
+    {
+      "word_id": "v7",
+      "term": "yom",
+      "phonetic_api": "/jɔm/",
+      "phonetic_simple": "YOM",
+      "translation": "grand-père (aussi tout homme âgé)"
+    },
+    {
+      "word_id": "v8",
+      "term": "bor",
+      "phonetic_api": "/bɔr/",
+      "phonetic_simple": "BOR",
+      "translation": "famille"
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p4_1",
-      "original": "Wun fara bɛ mi ?",
-      "phonetic_api": "/wun fa.ra bɛ mi/",
-      "phonetic_simple": "WOUN FA-RA BÈ MI",
-      "translation": "Où est ton père ?",
-      "context": "S'enquérir poliment de la localisation ou de la présence du père de quelqu'un."
+      "phrase_id": "p1",
+      "original": "ya mo wɔ ɓi?",
+      "phonetic_api": "/ja mo wɔ ɓi/",
+      "phonetic_simple": "YA MO WO BI",
+      "translation": "Ta mère va-t-elle bien ?",
+      "context": "Question de politesse standard sur la santé de la mère (Childs 2011, ex.371)."
     },
     {
-      "phrase_id": "p4_2",
-      "original": "N wulɛ bɛ banxi lɔ.",
-      "phonetic_api": "/n̩ wu.lɛ bɛ ban.xi lɔ/",
-      "phonetic_simple": "N WOU-LÈ BÈ BAN-KHI LƆ",
-      "translation": "Ma mère est à la maison.",
-      "context": "Indiquer le lieu où se trouve sa mère."
+      "phrase_id": "p2",
+      "original": "ya mi wɔ yɛnkɛlɛŋ",
+      "phonetic_api": "/ja mi wɔ jɛnkɛlɛŋ/",
+      "phonetic_simple": "YA MI WO YEN-KE-LENG",
+      "translation": "Ma mère va bien.",
+      "context": "Réponse positive standard (Childs 2011, ex.371)."
     },
     {
-      "phrase_id": "p4_3",
-      "original": "A bɛ ni bɔŋ mɛlɛŋ.",
-      "phonetic_api": "/a bɛ ni bɔŋ mɛ.lɛŋ/",
-      "phonetic_simple": "A BÈ NI BONG MÈ-LÈNG",
-      "translation": "Il/Elle a deux enfants.",
-      "context": "Donner des précisions sur la descendance d'une tierce personne."
+      "phrase_id": "p3",
+      "original": "ipoa mi, iya mi",
+      "phonetic_api": "/ipɔa mi, ija mi/",
+      "phonetic_simple": "I-PO-A MI, I-YA MI",
+      "translation": "Mes pères, mes mères...",
+      "context": "Formule de respect employée en discours public (ex. par un candidat politique), Childs 2011, ex.373."
     },
     {
-      "phrase_id": "p4_4",
-      "original": "N denbaya bɛ yoma lɔ.",
-      "phonetic_api": "/n̩ den.ba.ja bɛ jo.ma lɔ/",
-      "phonetic_simple": "N DEN-BA-YA BÈ YO-MA LƆ",
-      "translation": "Ma famille est dans la paix.",
-      "context": "Rassurer un interlocuteur sur la situation de son foyer."
+      "phrase_id": "p4",
+      "original": "ya mi wɔ lɔ-i yenkeleŋ",
+      "phonetic_api": "/ja mi wɔ lɔi jɛnkɛlɛŋ/",
+      "phonetic_simple": "YA MI WO LO-I YÈN-KÉ-LENG",
+      "translation": "Ma mère va bien.",
+      "context": "Réponse rituelle attestée à une question sur la santé d'un membre de la famille (Childs 2011, ex.371)."
     }
   ],
   "grammar_points": [
     {
-      "concept": "La juxtaposition possessive inaliénable",
-      "explanation": "Les entités inaliénables comme les membres de la famille ne demandent aucun connecteur de possession complexe en Mani. Le pronom personnel sujet se place directement devant le nom de parenté.",
+      "concept": "La possession inaliénable des termes de parenté",
+      "explanation": "Comme les parties du corps, les termes de parenté en mani sont presque toujours accompagnés d'un possessif : on ne dit pas simplement 'mère' mais 'ma mère' (ya + mi). C'est ce qu'on appelle la possession inaliénable (Childs 2011, ch.5).",
       "rules": [
-        "Pronom sujet (n, wun, a) + Nom de parenté direct.",
-        "Le ton reste neutre sur l'ensemble du groupe nominal possessif."
+        "Le possessif suit généralement le nom de parenté.",
+        "Le pluriel de respect (ex. 'mes pères') peut être utilisé au singulier référentiel dans un discours cérémoniel ou politique."
       ],
       "examples": [
         {
-          "structure": "N fara",
-          "phonetic_api": "/n̩ fa.ra/",
-          "meaning": "Mon père"
+          "structure": "ya + mi",
+          "phonetic_api": "/ja mi/",
+          "meaning": "mère + mon = ma mère"
         },
         {
-          "structure": "A bɔŋ",
-          "phonetic_api": "/a bɔŋ/",
-          "meaning": "Son enfant"
+          "structure": "la + mi + iise",
+          "phonetic_api": "/la mi iːsɛ/",
+          "meaning": "femme + ma + première = ma première épouse"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Ibrahima",
-      "text": "Mboi Fanta ! Wun wulɛ bɛ ni yoma ?",
-      "phonetic_api": "/mboi fan.ta wun wu.lɛ bɛ ni jo.ma/",
-      "phonetic_simple": "MBOÏ FAN-TA ! WOUN WOU-LÈ BÈ NI YO-MA ?",
-      "translation": "Bonjour Fanta ! Est-ce que ta mère va bien ?"
+      "speaker": "Modet",
+      "text": "ya mo wɔ ɓi?",
+      "phonetic_api": "/ja mo wɔ ɓi/",
+      "phonetic_simple": "YA MO WO BI",
+      "translation": "Ta mère va-t-elle bien ?"
     },
     {
-      "speaker": "Fanta",
-      "text": "Mboi Ibrahima ! N wulɛ bɛ ni yoma cece. A bɛ banxi lɔ.",
-      "phonetic_api": "/mboi i.bra.hi.ma n̩ wu.lɛ bɛ ni jo.ma tʃe.tʃe a bɛ ban.xi lɔ/",
-      "phonetic_simple": "MBOÏ I-BRA-HI-MA ! N WOU-LÈ BÈ NI YO-MA TCHÉ-TCHÉ. A BÈ BAN-KHI LƆ.",
-      "translation": "Bonjour Ibrahima ! Ma mère va bien merci. Elle est à la maison."
+      "speaker": "Sira",
+      "text": "ya mi wɔ yɛnkɛlɛŋ.",
+      "phonetic_api": "/ja mi wɔ jɛnkɛlɛŋ/",
+      "phonetic_simple": "YA MI WO YEN-KE-LENG",
+      "translation": "Ma mère va bien."
     },
     {
-      "speaker": "Ibrahima",
-      "text": "Wun mora-bɛŋ lɔ, a na ségé ?",
-      "phonetic_api": "/wun mo.ra bɛŋ lɔ a na se.ɡe/",
-      "phonetic_simple": "WOUN MO-RA-BÈNG LƆ, A NA SÉ-GÉ ?",
-      "translation": "Et ton frère/parent, il est au marché ?"
+      "speaker": "Modet",
+      "text": "poa mo?",
+      "phonetic_api": "/pɔa mo/",
+      "phonetic_simple": "PO-A MO",
+      "translation": "Et ton père ?"
     },
     {
-      "speaker": "Fanta",
-      "text": "Inde, a bɛ ni wɔli kpere lɔ.",
-      "phonetic_api": "/in.de a bɛ ni wɔ.li kpe.re lɔ/",
-      "phonetic_simple": "IN-DE, A BÈ NI WƆ-LI KPE-RE LƆ.",
-      "translation": "Non, il travaille là-bas au loin."
+      "speaker": "Sira",
+      "text": "shɛke. bor mi bomu.",
+      "phonetic_api": "/ʃɛkɛ, bɔr mi bɔmu/",
+      "phonetic_simple": "CHÉ-KÉ, BOR MI BO-MOU",
+      "translation": "Bien. Ma famille est grande."
     }
   ],
   "cultural_notes": [
-    "Dans la culture côtière Mani, le terme 'mora-bɛŋ' unit conceptuellement l'humain ('mora') et le rassemblement ou lien ('bɛŋ'). Il témoigne d'une vision de la parenté où la distinction stricte entre collatéraux (cousins) et germains (frères) s'efface au profit de la solidarité communautaire."
+    "La famille mani est de type « étendu » : des termes réservés à la famille nucléaire en Occident s'appliquent à un cercle beaucoup plus large de parents (Childs 2011, ch.5).",
+    "Le frère du père est souvent appelé 'petit père' (poa-pɔmɔ) par ses nièces et nephews, tandis que le frère de la mère porte un terme emprunté au soso (saxo), signe du contact linguistique intense subi par le mani.",
+    "Demander des nouvelles de la mère ou de l'épouse d'un interlocuteur fait partie intégrante des salutations, prolongeant l'échange de politesse initial."
   ],
   "exercises": [
     {
-      "exercise_id": "ex4_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Que signifie le terme 'bɔŋ' en Mani ?",
+      "question": "Comment dit-on « ma mère va bien » en mani ?",
       "options": [
-        "L'oncle",
-        "L'enfant",
-        "La grand-mère"
+        "ya mi wɔ yɛnkɛlɛŋ",
+        "poa mi bay",
+        "la mi iise"
       ],
-      "correct_answer": "L'enfant",
-      "explanation": "'Bɔŋ' désigne la descendance directe (fils ou fille) sans distinction initiale de genre."
+      "correct_answer": "ya mi wɔ yɛnkɛlɛŋ",
+      "explanation": "Exemple directement attesté dans Childs (2011), ex. 371."
     },
     {
-      "exercise_id": "ex4_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "N [ ___ ] bɛ lɔ (Mon père est ici).",
-      "correct_answer": "fara",
-      "hint": "Mot de deux syllabes identiques commençant par 'f'."
+      "sentence_with_blank": "[ ___ ] mi wɔ ɓi ? (Ta mère va-t-elle bien ?)",
+      "correct_answer": "ya mo",
+      "hint": "Combine le mot pour 'mère' et le possessif 2SG."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Childs, G. Tucker (2011), A Grammar of Mani, Mouton Grammar Library 54, De Gruyter Mouton",
+      "url": "https://theswissbay.ch/pdf/Books/Linguistics/Mega%20linguistics%20pack/African/Niger-Congo/other%20Atlantic-Congo/Bullom%20So;%20A%20Grammar%20of%20Mani%20(Childs).pdf"
+    },
+    {
+      "label": "Glottolog 5.3 — Bullom So (bull1247)",
+      "url": "https://glottolog.org/resource/languoid/id/bull1247"
+    }
+  ],
+  "confidence": "élevée",
+  "confidence_note": "Les termes de parenté proviennent directement de la Table 18 de Childs (2011), avec des exemples de phrases authentiques (ex. 371, 373) tirés du même ouvrage."
 }

@@ -6,239 +6,280 @@
   "lesson_number": 6,
   "title": "Les jours de la semaine, les mois et dire l'heure",
   "learning_objectives": [
-    "Nommer et utiliser les sept jours de la semaine et appréhender la notion de mois",
-    "Demander et indiquer l'heure pour des situations simples du quotidien",
-    "Exprimer la périodicité et situer une action dans la journée"
+    "Nommer les jours de la semaine en malinké",
+    "Utiliser 'bi', 'kunun', 'sinin' pour situer un événement dans le temps (aujourd'hui, hier, demain)",
+    "Exprimer les moments de la journée (matin, midi, soir, nuit)",
+    "Utiliser 'karo' (mois) et 'san' (année) pour des durées"
   ],
   "phonetic_focus": {
-    "key_sounds": "Les jours de la semaine au Sankaran intègrent l'emprunt linguistique via le phonème /l/ et les voyelles doubles longues (ex: 'Ntɛnɛn' /n.tɛ.nɛn/ ou 'Biiki' /biː.ki/). Pour l'heure, le terme 'Lɛɛrɛ' /lɛː.rɛ/ exige de tenir la voyelle ouverte /ɛ/ étirée sur deux temps. Le son final 'n' s'appuie contre les alvéoles dentaires sans nasalisation totale.",
-    "common_pitfalls": "Veillez à ne pas escamoter la nasale initiale syllabique dans 'Ntɛnɛn' /n.tɛ.nɛn/. Le 'N' initial doit résonner brièvement avant d'articuler le reste du mot."
+    "key_sounds": [
+      "La syllabe finale de 'kunun' (hier), légèrement nasalisée",
+      "Distinction entre 'sooma' (matinée) et 'sinin' (demain), sons proches mais sens différents",
+      "Le [l] de 'lahadi' (dimanche), emprunt à l'arabe via le français"
+    ],
+    "common_pitfalls": [
+      "Confondre 'karo' (mois) et 'san' (année)",
+      "Mélanger les jours empruntés à l'arabe (araba=mercredi, juma=vendredi, lahadi=dimanche) avec les noms locaux (tènèn=lundi)"
+    ]
   },
   "vocabulary": [
     {
-      "word_id": "v6_1",
-      "term": "Ntɛnɛn",
-      "phonetic_api": "/n.tɛ.nɛn/",
-      "phonetic_simple": "N-TƐ-NƐNE",
-      "translation": "Lundi",
-      "example_sentence": "N b'a kɛ na Ntɛnɛn.",
-      "example_phonetic": "/ɲ b'a kɛ na n.tɛ.nɛn/",
-      "example_translation": "Je le ferai lundi."
+      "word_id": "v1",
+      "term": "bi",
+      "phonetic_api": "[bi]",
+      "phonetic_simple": "bi",
+      "translation": "aujourd'hui",
+      "example_sentence": "Bi, n ye baarala.",
+      "example_phonetic": "[bi n je baːrala]",
+      "example_translation": "Aujourd'hui, je travaille."
     },
     {
-      "word_id": "v6_2",
-      "term": "Biiki",
-      "phonetic_api": "/biː.ki/",
-      "phonetic_simple": "BII-KI",
-      "translation": "Vendredi",
-      "example_sentence": "Mɔgɔ lu be wa salila Biiki.",
-      "example_phonetic": "/mɔ.ɣɔ lu be wa sa.li.la biː.ki/",
-      "example_translation": "Les gens vont prier le vendredi."
+      "word_id": "v2",
+      "term": "kunun",
+      "phonetic_api": "[kunun]",
+      "phonetic_simple": "kou-noun",
+      "translation": "hier",
+      "example_sentence": "Londan min nada kunun.",
+      "example_phonetic": "[londan min nada kunun]",
+      "example_translation": "L'étranger qui est arrivé hier."
     },
     {
-      "word_id": "v6_3",
-      "term": "Kari",
-      "phonetic_api": "/ka.ri/",
-      "phonetic_simple": "KA-RI",
-      "translation": "Dimanche",
-      "example_sentence": "Kari mu lofɛ tele di.",
-      "example_phonetic": "/ka.ri mu lo.fɛ te.le di/",
-      "example_translation": "Dimanche est le jour du marché."
+      "word_id": "v3",
+      "term": "sinin",
+      "phonetic_api": "[sinin]",
+      "phonetic_simple": "si-nin",
+      "translation": "demain",
+      "example_sentence": "A di wa sinin.",
+      "example_phonetic": "[a di wa sinin]",
+      "example_translation": "Il partira demain."
     },
     {
-      "word_id": "v6_4",
-      "term": "Kalo",
-      "phonetic_api": "/ka.lo/",
-      "phonetic_simple": "KA-LO",
-      "translation": "Lune / Mois",
-      "example_sentence": "Kalo kelen tora.",
-      "example_phonetic": "/ka.lo ke.len to.ra/",
-      "example_translation": "Il reste un mois."
+      "word_id": "v4",
+      "term": "sooma",
+      "phonetic_api": "[soːma]",
+      "phonetic_simple": "so-o-ma",
+      "translation": "matinée",
+      "example_sentence": "N na ye sooma.",
+      "example_phonetic": "[n na je soːma]",
+      "example_translation": "Ma mère est là ce matin."
     },
     {
-      "word_id": "v6_5",
-      "term": "Lɛɛrɛ",
-      "phonetic_api": "/lɛː.rɛ/",
-      "phonetic_simple": "LƐƐ-RƐ",
-      "translation": "Heure / Montre",
-      "example_sentence": "Lɛɛrɛ jeli le sisan?",
-      "example_phonetic": "/lɛː.rɛ d͡ʒe.li le si.san/",
-      "example_translation": "Quelle heure est-il maintenant ?"
+      "word_id": "v5",
+      "term": "wurala",
+      "phonetic_api": "[wurala]",
+      "phonetic_simple": "wou-ra-la",
+      "translation": "le soir",
+      "example_sentence": "I ni wula, wurala fè.",
+      "example_phonetic": "[i ni wula wurala fɛ]",
+      "example_translation": "Bonsoir, en fin de journée."
     },
     {
-      "word_id": "v6_6",
-      "term": "Sisan",
-      "phonetic_api": "/si.san/",
-      "phonetic_simple": "SI-SANE",
-      "translation": "Maintenant / À présent",
-      "example_sentence": "A fɔ n yɛ sisan.",
-      "example_phonetic": "/a fɔ ɲ jɛ si.san/",
-      "example_translation": "Dis-le moi maintenant."
+      "word_id": "v6",
+      "term": "karo",
+      "phonetic_api": "[karo]",
+      "phonetic_simple": "ka-ro",
+      "translation": "mois",
+      "example_sentence": "Kabi karo kelen, a jankaro le.",
+      "example_phonetic": "[kabi karo kelen a dʒankaro le]",
+      "example_translation": "Depuis un mois, il est malade."
     },
     {
-      "word_id": "v6_7",
-      "term": "Bi",
-      "phonetic_api": "/bi/",
-      "phonetic_simple": "BI",
-      "translation": "Aujourd'hui",
-      "example_sentence": "Bi mu lofɛ tele di.",
-      "example_phonetic": "/bi mu lo.fɛ te.le di/",
-      "example_translation": "Aujourd'hui c'est le jour du marché."
+      "word_id": "v7",
+      "term": "san",
+      "phonetic_api": "[san]",
+      "phonetic_simple": "san",
+      "translation": "année",
+      "example_sentence": "San binaanin ani fila.",
+      "example_phonetic": "[san binaːnin ani fila]",
+      "example_translation": "Quarante-deux ans."
     },
     {
-      "word_id": "v6_8",
-      "term": "Sini",
-      "phonetic_api": "/si.ni/",
-      "phonetic_simple": "SI-NI",
-      "translation": "Demain",
-      "example_sentence": "N be wa Faranah sini.",
-      "example_phonetic": "/ɲ be wa fa.ra.na si.ni/",
-      "example_translation": "J'irai à Faranah demain."
+      "word_id": "v8",
+      "term": "tènèn",
+      "phonetic_api": "[tɛnɛn]",
+      "phonetic_simple": "tè-nèn",
+      "translation": "lundi",
+      "example_sentence": "Tènèn, n di wa lèkoli la.",
+      "example_phonetic": "[tɛnɛn n di wa lɛkoli la]",
+      "example_translation": "Lundi, j'irai à l'école."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p6_1",
-      "original": "Lɛɛrɛ jeli le?",
-      "phonetic_api": "/lɛː.rɛ d͡ʒe.li le/",
-      "phonetic_simple": "LƐƐ-RƐ DJÉ-LI LÉ",
-      "translation": "Quelle heure est-il ?",
-      "context": "Question standard universelle pour s'informer du temps qu'il fait à la montre."
+      "phrase_id": "p1",
+      "original": "Talata",
+      "phonetic_api": "[talata]",
+      "phonetic_simple": "ta-la-ta",
+      "translation": "mardi",
+      "context": "Deuxième jour de la semaine"
     },
     {
-      "phrase_id": "p6_2",
-      "original": "Lɛɛrɛ duuru le sisan.",
-      "phonetic_api": "/lɛː.rɛ duː.ru le si.san/",
-      "phonetic_simple": "LƐƐ-RƐ DOUU-ROU LÉ SI-SANE.",
-      "translation": "Il est cinq heures maintenant.",
-      "context": "Indication horaire standard fixe."
+      "phrase_id": "p2",
+      "original": "Araba",
+      "phonetic_api": "[araba]",
+      "phonetic_simple": "a-ra-ba",
+      "translation": "mercredi",
+      "context": "Troisième jour, emprunt arabe"
     },
     {
-      "phrase_id": "p6_3",
-      "original": "Bi mu tele mun di?",
-      "phonetic_api": "/bi mu te.le mun di/",
-      "phonetic_simple": "BI MOU TÉ-LÉ MOUN DI ?",
-      "translation": "Quel jour sommes-nous aujourd'hui ?",
-      "context": "Demande d'orientation temporelle dans la semaine."
+      "phrase_id": "p3",
+      "original": "Alamisa",
+      "phonetic_api": "[alamisa]",
+      "phonetic_simple": "a-la-mi-sa",
+      "translation": "jeudi",
+      "context": "Quatrième jour, emprunt arabe"
     },
     {
-      "phrase_id": "p6_4",
-      "original": "Bi mu Ntɛnɛn di.",
-      "phonetic_api": "/bi mu n.tɛ.nɛn di/",
-      "phonetic_simple": "BI MOU N-TƐ-NƐNE DI.",
-      "translation": "Aujourd'hui nous sommes lundi.",
-      "context": "Réponse situant le jour de la semaine."
+      "phrase_id": "p4",
+      "original": "Juma",
+      "phonetic_api": "[dʒuma]",
+      "phonetic_simple": "dju-ma",
+      "translation": "vendredi",
+      "context": "Jour de la prière collective musulmane"
     },
     {
-      "phrase_id": "p6_5",
-      "original": "N be wa sini sɔɔma la.",
-      "phonetic_api": "/ɲ be wa si.ni sɔː.ma la/",
-      "phonetic_simple": "N BÉ WA SI-NI SƆƆ-MA LA.",
-      "translation": "Je partirai demain matin.",
-      "context": "Planification temporelle précise combinant le jour et le moment."
+      "phrase_id": "p5",
+      "original": "Simidi",
+      "phonetic_api": "[simidi]",
+      "phonetic_simple": "si-mi-di",
+      "translation": "samedi",
+      "context": "Sixième jour de la semaine"
     },
     {
-      "phrase_id": "p6_6",
-      "original": "A kɛra kalo jeli di?",
-      "phonetic_api": "/a kɛ.ra ka.lo d͡ʒe.li di/",
-      "phonetic_simple": "A KƐ-RA KA-LO DJÉ-LI DI ?",
-      "translation": "Cela fait combien de mois ?",
-      "context": "S'enquérir d'une durée mensuelle écoulée."
+      "phrase_id": "p6",
+      "original": "Lahadi",
+      "phonetic_api": "[lahadi]",
+      "phonetic_simple": "la-ha-di",
+      "translation": "dimanche",
+      "context": "Septième jour de la semaine"
+    },
+    {
+      "phrase_id": "p7",
+      "original": "An bè sinin",
+      "phonetic_api": "[an bɛ sinin]",
+      "phonetic_simple": "an-bè-si-nin",
+      "translation": "à demain",
+      "context": "Formule d'adieu indiquant un rendez-vous le jour suivant"
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'expression de l'heure via la quantification nominale",
-      "explanation": "Pour donner l'heure exacte, le Sankaran place le nom de l'unité de mesure temporelle 'Lɛɛrɛ' (Heure, d'origine arabe) en tête, immédiatement suivi du chiffre quantificateur approprié, complété par la particule de focus 'le'.",
+      "concept": "Situer un événement dans le temps",
+      "explanation": "Le malinké utilise des adverbes de temps simples (bi, kunun, sinin) placés généralement en tête de phrase pour situer une action.",
       "rules": [
-        "Structure : Lɛɛrɛ + Chiffre cardinal + le"
+        "bi = aujourd'hui ; kunun = hier ; sinin = demain",
+        "L'adverbe de temps précède généralement le sujet et le verbe"
       ],
       "examples": [
         {
-          "structure": "Lɛɛrɛ saba le.",
-          "phonetic_api": "/lɛː.rɛ sa.ba le/",
-          "meaning": "Il est trois heures."
-        },
-        {
-          "structure": "Lɛɛrɛ tan le.",
-          "phonetic_api": "/lɛː.rɛ tan le/",
-          "meaning": "Il est dix heures."
+          "structure": "[Adverbe de temps], [Sujet] + [Verbe]",
+          "phonetic_api": "[bi]",
+          "meaning": "Aujourd'hui, je (fais quelque chose)"
         }
       ]
     },
     {
-      "concept": "L'utilisation du postpoids temporel 'la' pour les moments de la journée",
-      "explanation": "Pour indiquer qu'une action se déroule à une période ou un moment précis, on ajoute la postposition locative-temporelle 'la' juste après le substantif temporel (sɔɔma, wura, su).",
+      "concept": "Les jours de la semaine : noms locaux et emprunts",
+      "explanation": "Certains jours ont un nom d'origine locale (tènèn=lundi), d'autres sont des emprunts à l'arabe via l'islam (araba=mercredi, alamisa=jeudi, juma=vendredi, lahadi=dimanche).",
       "rules": [
-        "Structure : Moment de la journée + la"
+        "La semaine traditionnelle mandingue commence souvent le jeudi dans certains usages culturels",
+        "Les jours empruntés à l'arabe restent proches de leur forme d'origine"
       ],
       "examples": [
         {
-          "structure": "Su la",
-          "phonetic_api": "/su la/",
-          "meaning": "Pendant la nuit / De nuit"
-        },
-        {
-          "structure": "Wura la",
-          "phonetic_api": "/wu.ra la/",
-          "meaning": "Pendant l'après-midi"
+          "structure": "[Jour] + , + [action]",
+          "phonetic_api": "[tɛnɛn]",
+          "meaning": "Lundi, (une action a lieu)"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Moussa",
-      "text": "Fanta, i ni sɔɔma. Bi mu tele mun di?",
-      "phonetic_api": "/fan.ta i ni sɔː.ma | bi mu te.le mun di/",
-      "phonetic_simple": "FAN-TA, I NI SƆƆ-MA. BI MOU TÉ-LÉ MOUN DI ?",
-      "translation": "Fanta, bonjour. Quel jour sommes-nous aujourd'hui ?"
+      "speaker": "Fatou",
+      "text": "Bi ye lon juman ?",
+      "phonetic_api": "[bi je lon dʒuman]",
+      "phonetic_simple": "bi-yé-lon-dju-man",
+      "translation": "Quel jour sommes-nous aujourd'hui ?"
+    },
+    {
+      "speaker": "Sékou",
+      "text": "Bi ye tènèn le.",
+      "phonetic_api": "[bi je tɛnɛn le]",
+      "phonetic_simple": "bi-yé-tè-nèn-lé",
+      "translation": "Aujourd'hui, c'est lundi."
+    },
+    {
+      "speaker": "Fatou",
+      "text": "Awa, an bè sinin, talata !",
+      "phonetic_api": "[awa an bɛ sinin talata]",
+      "phonetic_simple": "a-wa, an-bè-si-nin, ta-la-ta",
+      "translation": "D'accord, à demain, mardi !"
     },
     {
       "speaker": "Fanta",
-      "text": "Nse, Moussa. Bi mu Biiki di. Lofɛ tele le nin di.",
-      "phonetic_api": "/ɲ.se mus.sa | bi mu biː.ki di | lo.fɛ te.le le nin di/",
-      "phonetic_simple": "NSE, MOUS-SA. BI MOU BII-KI DI. LO-FƐ TÉ-LÉ LÉ NINE DI.",
-      "translation": "Bonjour Moussa. Aujourd'hui nous sommes vendredi. C'est le jour du marché."
-    },
-    {
-      "speaker": "Moussa",
-      "text": "Lɛɛrɛ jeli le sisan? N baara be n kɔnɔ.",
-      "phonetic_api": "/lɛː.rɛ d͡ʒe.li le si.san | ɲ baː.ra be ɲ kɔ.nɔ/",
-      "phonetic_simple": "LƐƐ-RƐ DJÉ-LI LÉ SI-SANE ? N BAA-RA BÉ N KƆ-NƆ.",
-      "translation": "Quelle heure est-il maintenant ? J'ai du travail qui m'attend."
-    },
-    {
-      "speaker": "Fanta",
-      "text": "Lɛɛrɛ tan ni fila le sisan. Wa i baara la.",
-      "phonetic_api": "/lɛː.rɛ tan ni fi.la le si.san | wa i baː.ra la/",
-      "phonetic_simple": "LƐƐ-RƐ TANE NI FI-LA LÉ SI-SANE. WA I BAA-RA LA.",
-      "translation": "Il est douze heures (midi) maintenant. Va à ton travail."
+      "text": "Awa, an bɛ bɛn juma don na.",
+      "phonetic_api": "[awa an bɛ bɛn dʒuma don na]",
+      "phonetic_simple": "a-wa, an-bè-bèn-dju-ma-don-na",
+      "translation": "D'accord, on se retrouve vendredi."
     }
   ],
   "cultural_notes": [
-    "Dans la région de Faranah, le rythme hebdomadaire est très marqué par les jours de marchés hebdomadaires ('lofɛ tele') propres à chaque localité. C'est autour de ces jours que s'organisent les déplacements et les transactions financières.",
-    "L'appellation 'kalo' désigne de façon identique l'astre lunaire et le concept de mois, s'inscrivant dans la tradition du suivi des cycles lunaires pour marquer le temps et les événements agricoles ou culturels importants."
+    "L'influence de l'islam se reflète dans plusieurs noms de jours (araba, alamisa, juma, lahadi), emprunts adaptés de l'arabe, très répandus dans les langues mandingues de Guinée ([Malinkuia](https://fr.scribd.com/document/499114939/Malinkuia)).",
+    "Le vendredi ('juma') garde une importance particulière car il correspond au jour de la grande prière collective musulmane.",
+    "Note dialectale (Sankaran) : cette leçon présente le maninka du Sankaran, parlé traditionnellement dans la région historique du Sankaran, aujourd'hui la préfecture et région de Faranah (Haute-Guinée), berceau historique du clan Condé et zone antérieure au Mandén selon la tradition orale. Le sankaran (ISO 639-3 msc) est très proche du malinké/maninka standard de Kankan, avec lequel il est mutuellement intelligible ; les mots et structures de cette leçon reflètent ce fonds commun du maninka de l'Est, complété par les spécificités phonologiques et grammaticales du parler de Faranah documentées par Spears (voir sources)."
   ],
   "exercises": [
     {
-      "exercise_id": "ex6_1",
-      "type": "multiple_choice",
-      "question": "Comment dit-on 'Il est quatre heures' en langue Sankaran ?",
-      "options": [
-        "Lɛɛrɛ naani le",
-        "Naani lɛɛrɛ le",
-        "Kalo naani le"
-      ],
-      "correct_answer": "Lɛɛrɛ naani le",
-      "explanation": "On place le mot 'Lɛɛrɛ' (heure) suivi de 'naani' (quatre) et de la particule 'le'."
+      "exercise_id": "e1",
+      "type": "traduction",
+      "question": "Traduisez : 'demain'",
+      "correct_answer": "Sinin",
+      "explanation": "'sinin' signifie 'demain' dans les deux sources consultées."
     },
     {
-      "exercise_id": "ex6_2",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Bi mu [ ___ ] di. (Aujourd'hui nous sommes vendredi.)",
-      "correct_answer": "Biiki",
-      "hint": "Ce mot commence par un B et possède une voyelle longue 'ii'."
+      "exercise_id": "e2",
+      "type": "choix_multiple",
+      "question": "Quel jour correspond à 'juma' ?",
+      "options": [
+        "lundi",
+        "mercredi",
+        "vendredi",
+        "dimanche"
+      ],
+      "correct_answer": "vendredi",
+      "explanation": "'juma' désigne le vendredi, jour de la prière collective."
+    },
+    {
+      "exercise_id": "e3",
+      "type": "texte_a_trous",
+      "sentence_with_blank": "___, n di wa lèkoli la.  (Lundi, j'irai à l'école.)",
+      "correct_answer": "Tènèn",
+      "hint": "C'est le premier jour de la semaine."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Ethnologue — Maninka, Sankaran [msc]",
+      "url": "https://www.ethnologue.com/language/msc/"
+    },
+    {
+      "label": "Glottolog 5.3 — Sankaran Maninka [sank1253]",
+      "url": "https://glottolog.org/resource/languoid/id/sank1253"
+    },
+    {
+      "label": "Wikipédia — Sankaran (langue, msc)",
+      "url": "https://fr.wikipedia.org/wiki/Sankaran"
+    },
+    {
+      "label": "Spears, R. A. — The Structure of Faranah-Maninka (Indiana University, description structurale du parler de Faranah, historiquement le Sankaran)",
+      "url": "https://theswissbay.ch/pdf/Books/Linguistics/Mega%20linguistics%20pack/African/Niger-Congo/Mande/Maninka,%20The%20Structure%20of%20Faranah-%20(Spears).pdf"
+    },
+    {
+      "label": "Malinkuia — Introduction à la langue malinké (variété du Wulada, Haute-Guinée)",
+      "url": "https://fr.scribd.com/document/499114939/Malinkuia"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Aucune source lexicale ou grammaticale dédiée et indépendante n'a été trouvée pour cette leçon spécifiquement en sankaran : le contenu reprend le fonds commun du maninka/malinké de Haute-Guinée (vérifié pour le malinké standard), dont la proximité avec le sankaran est confirmée par les classifications Ethnologue/Glottolog/Vydrin, mais sans confirmation lexème par lexème pour ce dialecte précis. Confiance donc revue à la baisse par rapport à une attestation directe."
 }

@@ -6,185 +6,151 @@
   "lesson_number": 9,
   "title": "Traduction et nuances stylistiques avancées",
   "learning_objectives": [
-    "Transposer des textes littéraires et des discours complexes du français vers le Paas",
-    "Maîtriser les glissements de sens et restituer l'élégance stylistique d'une langue à l'autre",
-    "Utiliser les registres soutenu, poétique et diplomatique lors d'une traduction simultanée"
+    "Comparer deux systèmes de transcription du badiaranké (API précise de Cover 2010 vs notation ASJP simplifiée de Meyer 2001) comme exercice de nuance méthodologique",
+    "Comprendre les limites de la traduction français-badiaranké en l'absence de dictionnaire bilingue complet publié",
+    "Identifier les variantes dialectales attestées (ex. « un » : pakk˜a chez Cover vs painE en notation ASJP) comme cas de nuances de traduction"
   ],
   "phonetic_focus": {
-    "key_sounds": "La traduction simultanée requiert une agilité articulatoire absolue pour lier les connecteurs logiques sans affecter la clarté tonale des morphèmes verbaux fins.",
-    "common_pitfalls": "Calquer maladroitement la syntaxe linéaire du français sur la structure aspectuelle du Paas, ce qui produirait un contresens stylistique majeur."
+    "key_sounds": "Comparer /pakk̃a/ (API, Cover 2010) et la forme ASJP simplifiée « painE » pour le même mot « un », afin d'illustrer deux niveaux de précision phonétique disponibles pour le badiaranké.",
+    "common_pitfalls": "Traiter les deux notations comme équivalentes en précision : l'API de Cover (2010) est une transcription phonétique de terrain, tandis que la notation ASJP est un système simplifié à visée typologique/comparative, pas phonétique."
   },
   "vocabulary": [
     {
-      "word_id": "v27_1",
-      "term": "Lenb-sae-boki",
-      "phonetic_api": "/lɛnɓsaeɓoki/",
-      "phonetic_simple": "LENBH-SA-E-BHO-KI",
-      "translation": "La haute éloquence stylistique / La rhétorique littéraire raffinée",
-      "example_sentence": "Traduction o o seŋeni n lenb-sae-boki.",
-      "example_phonetic": "/traduction o o seŋeni n lɛnɓsaeɓoki/",
-      "example_translation": "La traduction reflète une haute éloquence stylistique."
+      "word_id": "v1",
+      "term": "pakk˜a",
+      "phonetic_api": "/pakk̃a/",
+      "phonetic_simple": "pak-kan",
+      "translation": "un (1)",
+      "_src": "COVER"
     },
     {
-      "word_id": "v27_2",
-      "term": "Wure-maam",
-      "phonetic_api": "/wuremaːm/",
-      "phonetic_simple": "WOU-RE-MAAM",
-      "translation": "Transposer fidèlement le sens / Faire aboutir stylistiquement",
-      "example_sentence": "N fari wure-maam fari m mi.",
-      "example_phonetic": "/n fari wuremaːm fari m mi/",
-      "example_translation": "Je transpose fidèlement le sens profond de mon œuvre."
-    },
-    {
-      "word_id": "v27_3",
-      "term": "Wolo-sae",
-      "phonetic_api": "/wolosae/",
-      "phonetic_simple": "WO-LO-SA-E",
-      "translation": "Le choix judicieux des mots / Le discernement lexical minutieux",
-      "example_sentence": "O fari wolo-sae e text o.",
-      "example_phonetic": "/o fari wolosae e text o/",
-      "example_translation": "Il opère un choix de mots extrêmement judicieux dans ce texte."
-    },
-    {
-      "word_id": "v27_4",
-      "term": "Abaari-mase",
-      "phonetic_api": "/aɓaːrimase/",
-      "phonetic_simple": "A-BAA-RI-MA-SE",
-      "translation": "Le respect strict du registre / La fidélité stylistique due",
-      "example_sentence": "I wala e fari translation n abaari-mase.",
-      "example_phonetic": "/i wala e fari translation n aɓaːrimase/",
-      "example_translation": "Tu te dois de traduire dans le respect strict du registre de langue."
-    },
-    {
-      "word_id": "v27_5",
-      "term": "Yere-sae-boki",
-      "phonetic_api": "/jeresaeɓoki/",
-      "phonetic_simple": "YE-RE-SA-E-BHO-KI",
-      "translation": "L'adaptation culturelle / La fidélité à l'esprit du texte original",
-      "example_sentence": "Traducteur o o seŋeni n yere-sae-boki mase.",
-      "example_phonetic": "/traducteur o o seŋeni n jeresaeɓoki mase/",
-      "example_translation": "Le traducteur possède une immense finesse d'adaptation culturelle."
-    },
-    {
-      "word_id": "v27_6",
-      "term": "Sae-boki",
-      "phonetic_api": "/saeɓoki/",
-      "phonetic_simple": "SA-E-BHO-KI",
-      "translation": "L'harmonie stylistique globale / L'élégance de la version finale",
-      "example_sentence": "Text o o mase-ma e sae-boki.",
-      "example_phonetic": "/text o o masema e saeɓoki/",
-      "example_translation": "Le texte s'est achevé dans une harmonie stylistique totale."
+      "word_id": "v2",
+      "term": "ma:e",
+      "phonetic_api": "/ma:e/",
+      "phonetic_simple": "ma-é",
+      "translation": "deux (2)",
+      "_src": "COVER"
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p27_1",
-      "original": "Mmanza-e, n fari wolo-sae e morphème o ; maasŋe-e, n fari wure-maam text o sae.",
-      "phonetic_api": "/mːanzae n fari wolosae e morpʰɛme o maːsŋee n fari wuremaːm text o sae/",
-      "phonetic_simple": "MMAN-ZA-E, N FA-RI WO-LO-SA-E E MOR-PHEME O ; MAAS-NGE-E, N FA-RI WOU-RE-MAAM TEXT O SA-E",
-      "translation": "Premièrement, j'opère un choix minutieux de ce morphème ; deuxièmement, je transpose fidèlement le texte original.",
-      "context": "Expliciter sa note de traduction et ses choix méthodologiques devant un jury universitaire."
+      "phrase_id": "p1",
+      "original": "pakk˜a (Cover) / painE (ASJP)",
+      "phonetic_api": "/pakk̃a/",
+      "phonetic_simple": "pak-kan",
+      "translation": "un (deux notations de la même valeur numérale)",
+      "context": "Illustre la variation entre deux systèmes de documentation du badiaranké."
     },
     {
-      "phrase_id": "p27_2",
-      "original": "Wole-n-wole text o o mase-ma-ma sae ɓe, n fari translation n abaari-mase.",
-      "phonetic_api": "/wolenwole text o o masemama sae ɓe n fari translation n aɓaːrimase/",
-      "phonetic_simple": "WO-LE-N-WO-LE TEXT O O MA-SE-MA-MA SA-E BHE, N FA-RI TRANS-LA-TION N A-BAA-RI-MA-SE",
-      "translation": "Bien que le texte source eût été corrompu au préalable, j'exécute la traduction dans le respect strict du registre.",
-      "context": "Justifier le redressement stylistique d'un document d'archive abîmé."
+      "phrase_id": "p2",
+      "original": "pakk˜a ma:e",
+      "phonetic_api": "/pakk̃a/ /ma:e/",
+      "phonetic_simple": "pak-kan ma-é",
+      "translation": "un (1) deux (2)",
+      "context": "Juxtaposition pédagogique de mots déjà attestés dans cette leçon (recombinaison, PAS une phrase attestée telle quelle dans les sources)."
     },
     {
-      "phrase_id": "p27_3",
-      "original": "Bari-o-bari version o seŋeni n lenb-sae-boki sae kanu-e i yere o mase.",
-      "phonetic_api": "/ɓarioɓari version o seŋeni n lɛnɓsaeɓoki sae kanue i jere o mase/",
-      "phonetic_simple": "BHA-RI-O-BHA-RI VER-SION O SE-NGE-NI N LENBH-SA-E-BHO-KI SA-E KA-NOU-E I YE-RE O MA-SE",
-      "translation": "C'est pourquoi la version finale brille par une haute éloquence stylistique, du fait que ta vision de l'esprit du texte est totale.",
-      "context": "Féliciter un traducteur émérite pour la fluidité littéraire de son travail."
+      "phrase_id": "p3",
+      "original": "ma:e pakk˜a",
+      "phonetic_api": "/ma:e/ /pakk̃a/",
+      "phonetic_simple": "ma-é pak-kan",
+      "translation": "deux (2) un (1)",
+      "context": "Juxtaposition pédagogique de mots déjà attestés dans cette leçon (recombinaison, PAS une phrase attestée telle quelle dans les sources)."
     },
     {
-      "phrase_id": "p27_4",
-      "original": "Mba-ma meema i fari-ma-ma wolo-sae sae, sae-boki o wa wure-maam lali.",
-      "phonetic_api": "/mɓama meːma i farimama wolosae sae saeɓoki o wa wuremaːm lali/",
-      "phonetic_simple": "MBA-MA MEE-MA I FA-RI-MA-MA WO-LO-SA-E SA-E, SA-E-BHO-KI O WA WOU-RE-MAAM LA-LI",
-      "translation": "Si seulement tu avais opéré un choix de mots judicieux au préalable, l'harmonie stylistique globale aurait abouti depuis bien longtemps.",
-      "context": "Corriger scientifiquement l'exercice de version d'un traducteur en formation."
-    },
-    {
-      "phrase_id": "p27_5",
-      "original": "Yo alla-mase o fari sae translation o yo wure-maam e sae-boki !",
-      "phonetic_api": "/jo allamase o fari sae translation o jo wuremaːm e saeɓoki/",
-      "phonetic_simple": "YO AL-LA-MA-SE O FA-RI SA-E TRANS-LA-TION O YO WOU-RE-MAAM E SA-E-BHO-KI !",
-      "translation": "Que la bénédiction divine accompagne cette traduction et qu'elle s'ancre durablement dans la perfection littéraire !",
-      "context": "Formule protocolaire finale validant la publication d'un texte d'archive traduit."
+      "phrase_id": "p4",
+      "original": "pakk˜a",
+      "phonetic_api": "/pakk̃a/",
+      "phonetic_simple": "pak-kan",
+      "translation": "un (1)",
+      "context": "Mot attesté isolé utilisé comme énoncé minimal (recombinaison pédagogique ; PAS une phrase composée nouvelle)."
     }
   ],
   "grammar_points": [
     {
-      "concept": "Le maniement des tiroirs stylistiques par double modalisation d'affixes",
-      "explanation": "Le niveau C2 de maîtrise stylistique ultime exige l'imbrication des affixes d'élégance morale '-sae-boki' et de pérennité sémantique '-maam'. Lors de la transposition de textes, le traducteur utilise ces complexes morphologiques pour détacher l'énoncé de sa simple littéralité et lui conférer une valeur de chef-d'œuvre poétique ou rhétorique.",
+      "concept": "Deux systèmes de documentation, deux niveaux de nuance",
+      "explanation": "La traduction et l'analyse stylistique avancée du badiaranké se heurtent à un obstacle méthodologique de fond : les deux sources disponibles (Cover 2010 et ASJP/Meyer 2001) emploient des systèmes de notation différents, avec des objectifs différents (description grammaticale fine vs comparaison typologique large). Une traduction rigoureuse doit donc toujours préciser de quelle source et de quelle notation elle dérive, plutôt que de present un mot badiaranké unique et non contextualisé comme équivalent direct et stable d'un mot français.",
       "rules": [
-        "Le verbe de transposition 'wure-maam' s'emploie obligatoirement avec le suffixe applicatif pour montrer le passage trans-linguistique.",
-        "Les compléments de manière adoptent la nasale proclitique 'n' devant les substantifs de registre."
+        "Toujours indiquer la source (Cover 2010 ou ASJP/Meyer 2001) d'un terme badiaranké utilisé en traduction.",
+        "Ne jamais fusionner silencieusement deux notations différentes comme si elles étaient une seule forme confirmée."
       ],
       "examples": [
         {
-          "structure": "wure-maam e paas",
-          "phonetic_api": "/wuremaːm e paːs/",
-          "meaning": "transposer fidèlement et élégamment vers la langue Badiaranké (Paas)"
-        },
-        {
-          "structure": "n lenb-sae-boki",
-          "phonetic_api": "/n lɛnɓsaeɓoki/",
-          "meaning": "dans un registre de haute éloquence oratoire et littéraire"
+          "structure": "pakk˜a (API, Cover 2010)",
+          "phonetic_api": "/pakk̃a/",
+          "meaning": "un — transcription phonétique de terrain"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Le Professeur de Stylistique",
-      "text": "Mady, mmanza-e, i wala e fari translation o n abaari-mase m mase. I fari-maam fari m mi ?",
-      "phonetic_api": "/mady i wala e fari translation o n aɓaːrimase m mase i farimaːm fari m mi/",
-      "phonetic_simple": "MA-DY, MMAN-ZA-E, I WA-LA E FA-RI TRANS-LA-TION O N A-BAA-RI-MA-SE M MA-SE. I FA-RI-MAAM FA-RI M MI ?",
-      "translation": "Mady, premièrement, tu te dois d'exécuter cette traduction dans le respect strict du registre soutenu. Comment as-tu structuré ton œuvre ?"
+      "speaker": "Traducteur",
+      "text": "pakk˜a.",
+      "phonetic_api": "/pakk̃a/",
+      "phonetic_simple": "pak-kan",
+      "translation": "Un (selon la transcription API de Cover, 2010)."
     },
     {
-      "speaker": "Le Traducteur C2",
-      "text": "Professeur, n fari wolo-sae m mase e text o. Wole-n-wole structure o complex korom, n fari wure-maam e lenb-sae-boki.",
-      "phonetic_api": "/professeur n fari wolosae m mase e text o wolenwole structure o complex korom n fari wuremaːm e lɛnɓsaeɓoki/",
-      "phonetic_simple": "PRO-FES-SEUR, N FA-RI WO-LO-SA-E M MA-SE E TEXT O. WO-LE-N-WO-LE STRUC-TURE O COM-PLEX KO-ROM, N FA-RI WOU-RE-MAAM E LENBH-SA-E-BHO-KI.",
-      "translation": "Monsieur le Professeur, j'ai opéré un choix de mots extrêmement minutieux dans ce texte. Bien que la structure d'origine soit d'une complexité totale, je l'ai transposée fidèlement dans le registre de la haute éloquence littéraire."
+      "speaker": "Binta",
+      "text": "ma:e.",
+      "phonetic_api": "/ma:e/",
+      "phonetic_simple": "ma-é",
+      "translation": "Deux (2). (mot attesté isolé, recombiné pédagogiquement dans ce dialogue)"
     },
     {
-      "speaker": "Le Professeur de Stylistique",
-      "text": "Bari-o-bari version m mi o seŋeni n sae-boki m mase. Yo a wure-maam sae e paas !",
-      "phonetic_api": "/ɓarioɓari version m mi o seŋeni n saeɓoki m mase jo a wuremaːm sae e paːs/",
-      "phonetic_simple": "BHA-RI-O-BHA-RI VER-SION M MI O SE-NGE-NI N SA-E-BHO-KI M MA-SE. YO A WOU-RE-MAAM SA-E E PAAS !",
-      "translation": "C'est pourquoi ta version finale s'établit dans une harmonie stylistique totale. Que ton art de la transposition s'ancre durablement avec éclat en langue Badiaranké !"
+      "speaker": "Professeur",
+      "text": "pakk˜a. ma:e.",
+      "phonetic_api": "/pakk̃a/ /ma:e/",
+      "phonetic_simple": "pak-kan. ma-é.",
+      "translation": "Un (1). Deux (2). (mots attestés juxtaposés, recombinaison pédagogique)"
+    },
+    {
+      "speaker": "Élève",
+      "text": "ma:e. pakk˜a.",
+      "phonetic_api": "/ma:e/ /pakk̃a/",
+      "phonetic_simple": "ma-é. pak-kan.",
+      "translation": "Deux (2). Un (1). (mots attestés juxtaposés, recombinaison pédagogique)"
     }
   ],
   "cultural_notes": [
-    "L'art de la traduction et des nuances stylistiques ('lenb-sae-boki') est le sommet de la maîtrise de la langue Paas. Un bon traducteur ne se contente pas de traduire les mots, il réalise une véritable transposition culturelle ('yere-sae-boki'), adaptant les concepts occidentaux ou administratifs modernes aux réalités poétiques, éthiques et rituelles du peuple Badiaranké."
+    "L'absence de dictionnaire bilingue français-badiaranké publié et largement accessible constitue la limite structurelle la plus importante pour tout travail de traduction avancée dans cette langue, quel que soit le niveau de compétence visé."
   ],
   "exercises": [
     {
-      "exercise_id": "ex27_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Que signifie l'impératif professionnel de traduction 'abaari-mase' ?",
+      "question": "Pourquoi existe-t-il deux formes différentes pour « un » dans nos sources (pakk˜a vs painE) ?",
       "options": [
-        "Traduire le plus vite possible sans réfléchir",
-        "Le respect strict du registre de langue et la fidélité stylistique",
-        "Changer complètement le sens du texte d'origine"
+        "Elles proviennent de deux systèmes de notation différents (Cover 2010 vs ASJP/Meyer 2001)",
+        "Ce sont deux langues différentes",
+        "Il s'agit d'une erreur de copie"
       ],
-      "correct_answer": "Le respect strict du registre de langue et la fidélité stylistique",
-      "explanation": "'Abaari' (récit/fait) associé à 'mase' (obéissance/règlement) exige du traducteur une conformité rigoureuse au style et au ton du texte source."
+      "correct_answer": "Elles proviennent de deux systèmes de notation différents (Cover 2010 vs ASJP/Meyer 2001)",
+      "explanation": "C'est le point méthodologique central de cette leçon."
     },
     {
-      "exercise_id": "ex27_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Version o o seŋeni n [ ___ ] m mase e paas. (La version se déploie dans une harmonie stylistique totale en langue Badiaranké.)",
-      "correct_answer": "sae-boki",
-      "hint": "Le concept nominal composé désignant l'élégance, la perfection, la félicité ou l'harmonie collective globale."
+      "sentence_with_blank": "La transcription [ ___ ] de Cover (2010) est phonétiquement plus précise que la notation ASJP simplifiée.",
+      "correct_answer": "API",
+      "hint": "Alphabet Phonétique International."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Cover, R. (2010) — Aspect, Modality, and Tense in Badiaranke, UC Berkeley (PhD dissertation)",
+      "url": "https://escholarship.org/uc/item/6f91m5dg"
+    },
+    {
+      "label": "Cover, R. (2010) — texte intégral PDF (eScholarship, UC Berkeley)",
+      "url": "https://escholarship.org/content/qt6f91m5dg/qt6f91m5dg.pdf"
+    },
+    {
+      "label": "ASJP Database — Wordlist Jaad Badiaranke 4 (d'après Meyer 2001)",
+      "url": "https://asjp.clld.org/languages/JAAD_BADIARANKE_4"
+    }
+  ],
+  "confidence": "faible",
+  "confidence_note": "Le badiaranké ne dispose d'aucun corpus de niveau avancé publié (pas de littérature, pas de presse, pas de discours formels enregistrés) dans les sources consultées. Cette leçon de niveau C1-C2 utilise donc uniquement les éléments grammaticaux ou lexicaux les plus complexes réellement attestés par Cover (2010), sans pouvoir remplir tous les champs du schéma avec du contenu réellement avancé. Cette leçon se limite à une réflexion méthodologique sur les deux systèmes de notation disponibles (API de Cover 2010 vs notation ASJP de Meyer 2001), faute de matériel suffisant pour un exercice de traduction stylistique avancée sur des textes réels. [Note de recombinaison : après avoir tenté de compléter ces tableaux par recombinaison exhaustive du vocabulaire déjà attesté dans cette leçon, les champs suivants restent sous le minimum du schéma car le vocabulaire disponible est trop restreint pour générer davantage de combinaisons distinctes sans répétition ni invention : vocabulary (2/5 minimum — pas assez de mots distincts réellement attestés dans nos sources pour ce thème précis, impossible d'atteindre le minimum sans inventer un terme).]"
 }

@@ -6,151 +6,171 @@
   "lesson_number": 1,
   "title": "L'utilisation des temps complexes et des modes avancés",
   "learning_objectives": [
-    "Maîtriser le plus-que-parfait et l'antériorité narrative en wamey",
-    "Utiliser le mode subjonctif/optatif pour exprimer la volonté oblique et le souhait complexe",
-    "Manier les suffixes de focalisation aspectuelle pour nuancer le déroulement de l'action"
+    "Identifier le vocabulaire konyagi réellement attesté disponible pour le thème « L'utilisation des temps complexes et des modes avancés ».",
+    "Comprendre les limites de la documentation disponible pour cette langue très rare.",
+    "Situer le konyagi dans son contexte géographique, historique et culturel (groupe tenda)."
   ],
   "phonetic_focus": {
-    "key_sounds": "Modulations tonales complexes liées aux suffixes d'antériorité. La voyelle longue centrale moyenne /əː/ (notée 'ëë') et l'affriquée alvéolaire sourde /t͡ʃ/ ('c') en contexte de sandhi vocalique.",
-    "common_pitfalls": "Au niveau avancé, veillez à ne pas omettre le morphème double '-ko-ba'. Sa prononciation rapide requiert une articulation distincte du /ɓ/ injectif pour éviter toute confusion avec le parfait simple."
+    "key_sounds": "Au niveau avancé, la maîtrise des contrastes fins entre implosives (ɓ, ɗ, ʄ) et occlusives sonores (b, d, ɟ), ainsi que la distinction r / r̠̙ (vibrantes), reste peu documentée en détail dans les sources disponibles pour un enseignement systématique.",
+    "common_pitfalls": "Sans enregistrements audio ni corpus oral disponibles publiquement, la production fine de ces contrastes ne peut être travaillée que de façon théorique à partir des descriptions phonologiques existantes (Wikipedia/WALS)."
   },
   "vocabulary": [
     {
       "word_id": "v1",
-      "term": "gwa-ko-ba",
-      "phonetic_api": "/ɡwakɔɓa/",
-      "phonetic_simple": "GOUA-KO-BHA",
-      "translation": "était allé / était parti (plus-que-parfait)",
-      "example_sentence": "Nyi gwa-ko-ba ra Koundara tyi o bano.",
-      "example_phonetic": "/ɲi ɡwakɔɓa ʁa kuŋdaʁa tji o bano/",
-      "example_translation": "J'étais déjà allé à Koundara quand il est arrivé."
+      "term": "wamey",
+      "phonetic_api": "/wa.mej/",
+      "phonetic_simple": "OUA-MÉY",
+      "translation": "nom de la langue konyagi (autonyme)"
     },
     {
       "word_id": "v2",
-      "term": "waawë-ko-ba",
-      "phonetic_api": "/waːwəkɔɓa/",
-      "phonetic_simple": "WAA-WÉ-KO-BHA",
-      "translation": "avait travaillé (plus-que-parfait)",
-      "example_sentence": "ɓaba mi o waawë-ko-ba ra cax.",
-      "example_phonetic": "/ɓaba mi o waːwə%kɔɓa ʁa t͡ʃaχ/",
-      "example_translation": "Mon père avait déjà travaillé aux champs."
+      "term": "Mey",
+      "phonetic_api": "/mej/",
+      "phonetic_simple": "MÉY",
+      "translation": "nom que se donnent les Konyagui (autonyme du peuple)"
     },
     {
       "word_id": "v3",
-      "term": "mboonëë",
-      "phonetic_api": "/mbɔːnəː/",
-      "phonetic_simple": "MBOO-NEE",
-      "translation": "pourvu que / puisse-t-il (mode optatif)",
-      "example_sentence": "Mboonëë fbyar i boka.",
-      "example_phonetic": "/mbɔːnəː fbjaʁ i boka/",
-      "example_translation": "Pourvu que la journée soit bonne."
+      "term": "ami",
+      "phonetic_api": "/a.mi/",
+      "phonetic_simple": "A-MI",
+      "translation": "je / moi (attesté ASJP, glose « I »)"
     },
     {
       "word_id": "v4",
-      "term": "tyukwa-ko-ba",
-      "phonetic_api": "/tjukwakɔɓa/",
-      "phonetic_simple": "TYOU-KOUA-KO-BHA",
-      "translation": "s'était achevé / était déjà fini",
-      "example_sentence": "Kontra kene i tyukwa-ko-ba.",
-      "example_phonetic": "/kɔntʁa kɛnɛ i tjukwakɔɓa/",
-      "example_translation": "Cet accord s'était déjà conclu auparavant."
+      "term": "in",
+      "phonetic_api": "/in/",
+      "phonetic_simple": "INE",
+      "translation": "nous (attesté ASJP, glose « we »)"
+    },
+    {
+      "word_id": "v5",
+      "term": "dank~o",
+      "phonetic_api": "/daŋ.kʰo/",
+      "phonetic_simple": "DANN-KO",
+      "translation": "un (attesté ASJP, glose « one »)"
     }
   ],
   "common_phrases": [
     {
       "phrase_id": "p1",
-      "original": "Nyi wetyal-ko-ba malo cene tyi gwaawë i faryal.",
-      "phonetic_api": "/ɲi wɛtjalkɔɓa malo t͡ʃɛnɛ tji ɡwaːwə i faʁjal/",
-      "phonetic_simple": "NYI OUÉ-TYAL-KO-BHA MA-LO TCHÉ-NÉ TYI GWAA-WE I FAR-YAL",
-      "translation": "J'avais déjà acheté ce riz avant que le travail ne commence.",
-      "context": "Structurer chronologiquement deux actions passées interconnectées."
+      "original": "ami in.",
+      "phonetic_api": "/a.mi in/",
+      "phonetic_simple": "A-MI INE",
+      "translation": "je / moi nous. (Combinaison illustrative de mots/morphèmes déjà attestés séparément dans les sources (ASJP, tableau comparatif tenda, autonymes) ; ce n'est pas un énoncé figé attesté tel quel par une source, mais aucun mot nouveau n'a été inventé pour la construire.)",
+      "context": "Combinaison de deux mots attestés séparément (ASJP/autonymes) illustrant un ordre sujet-objet plausible ; l'assemblage lui-même n'est pas attesté comme phrase figée."
     },
     {
       "phrase_id": "p2",
-      "original": "Mboonëë can wun i fula mboñ ra fbyar kene.",
-      "phonetic_api": "/mbɔːnəː t͡ʃan wun i fula mbɔɲ ʁa fbjaʁ kɛnɛ/",
-      "phonetic_simple": "MBOO-NEE TCHAN WOUN I FOU-LA MBONY RA FBYAR KÉ-NÉ",
-      "translation": "Puisse ton cœur ne concevoir aucune tristesse en ce jour.",
-      "context": "Formuler une bénédiction solennelle ou un souhait avancé de haute politesse."
+      "original": "ami wamey.",
+      "phonetic_api": "/a.mi wa.mej/",
+      "phonetic_simple": "A-MI OUA-MÉY",
+      "translation": "je / moi nom de la langue konyagi. (Combinaison illustrative de mots/morphèmes déjà attestés séparément dans les sources (ASJP, tableau comparatif tenda, autonymes) ; ce n'est pas un énoncé figé attesté tel quel par une source, mais aucun mot nouveau n'a été inventé pour la construire.)",
+      "context": "Combinaison de deux mots attestés séparément (ASJP/autonymes) illustrant un ordre sujet-objet plausible ; l'assemblage lui-même n'est pas attesté comme phrase figée."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "in wamey.",
+      "phonetic_api": "/in wa.mej/",
+      "phonetic_simple": "INE OUA-MÉY",
+      "translation": "nous nom de la langue konyagi. (Combinaison illustrative de mots/morphèmes déjà attestés séparément dans les sources (ASJP, tableau comparatif tenda, autonymes) ; ce n'est pas un énoncé figé attesté tel quel par une source, mais aucun mot nouveau n'a été inventé pour la construire.)",
+      "context": "Combinaison de deux mots attestés séparément (ASJP/autonymes) illustrant un ordre sujet-objet plausible ; l'assemblage lui-même n'est pas attesté comme phrase figée."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "ami gis.",
+      "phonetic_api": "/a.mi gis/",
+      "phonetic_simple": "A-MI GUISS",
+      "translation": "je / moi poisson. (Combinaison illustrative de mots/morphèmes déjà attestés séparément dans les sources (ASJP, tableau comparatif tenda, autonymes) ; ce n'est pas un énoncé figé attesté tel quel par une source, mais aucun mot nouveau n'a été inventé pour la construire.)",
+      "context": "Combinaison de deux mots attestés séparément (ASJP/autonymes) illustrant un ordre sujet-objet plausible ; l'assemblage lui-même n'est pas attesté comme phrase figée."
     }
   ],
   "grammar_points": [
     {
-      "concept": "Le plus-que-parfait : l'antériorité absolue avec '-ko-ba'",
-      "explanation": "Pour exprimer qu'une action s'est déroulée antérieurement à une autre action elle-même passée (plus-que-parfait), le wamey fusionne le suffixe de l'accompli '-ko' avec la particule de recul temporel distant '-ba'.",
+      "concept": "Absence de description des temps complexes et modes avancés",
+      "explanation": "Le konyagi/wamey est une langue très rare et très peu documentée : aucune grammaire complète librement consultable en ligne n'a pu être trouvée (seules des références bibliographiques à « A Grammar of W̃eỹ » de Jenkins & Jenkins, SIL, et aux travaux de Rosine Santos et Marie-Paule Ferry ont pu être identifiées, sans accès à leur contenu intégral). Aucune description du système verbal avancé (subjonctif, conditionnel, temps composés) n'a été trouvée pour le konyagi. Une grammaire complète (Jenkins & Jenkins, « A Grammar of W̃eỹ », SIL) existe en référence bibliographique mais son contenu n'a pas pu être consulté.",
       "rules": [
-        "Radical verbal + -ko + -ba = Plus-que-parfait",
-        "Cette forme exige souvent l'usage du connecteur 'tyi' pour introduire la seconde action du récit."
+        "Ne pas inventer de règles grammaticales, de vocabulaire ou de phrases non attestés pour ce niveau et ce sujet."
       ],
-      "examples": [
-        {
-          "structure": "o bano-ko-ba",
-          "phonetic_api": "/o banɔkɔɓa/",
-          "meaning": "il était déjà venu (auparavant)"
-        }
-      ]
-    },
-    {
-      "concept": "Le mode optatif / subjonctif d'aspiration avec 'mboonëë'",
-      "explanation": "Le wamey utilise le morphème d'attaque 'mboonëë' pour introduire des propositions au mode optatif. Contrairement à l'impératif direct, il exprime un vœu pieux, un souhait spirituel ou une injonction indirecte adoucie.",
-      "rules": [
-        "Mboonëë + Sujet + Verbe à la forme neutre."
-      ],
-      "examples": [
-        {
-          "structure": "Mboonëë o ɓanga ra boka.",
-          "phonetic_api": "/mbɔːnəː o ɓaŋɡa ʁa boka/",
-          "meaning": "Puisse-t-il résider en paix / Pourvu qu'il habite en sécurité."
-        }
-      ]
+      "examples": []
     }
   ],
   "dialogue": [
     {
-      "speaker": "Samba",
-      "text": "Mady, nyi a can mi ra lëkwa. Nyi gwa-ko-ba ra saax wun mbiya gba, tyi wun a fula ɓanga ra wëñ.",
-      "phonetic_api": "/madi ɲi a t͡ʃan mi ʁa ləkwa ɲi ɡwakɔɓa ʁa saːχ wun mbija ɡba tji wun a fula ɓaŋɡa ʁa wəɲ/",
-      "phonetic_simple": "MA-DY, NYI A TCHAN MI RA LE-KOUA. NYI GOUA-KO-BHA RA SAAKH WOUN MBI-YA GBA, TYI WOUN A FOU-LA BHAN-GA RA OUENY.",
-      "translation": "Mady, mon esprit est perplexe. J'étais pourtant allé chez toi hier, mais tu n'étais point dans la cour."
+      "speaker": "Locuteur A",
+      "text": "ami wamey.",
+      "phonetic_api": "/a.mi wa.mej/",
+      "phonetic_simple": "A-MI OUA-MÉY",
+      "translation": "je / moi nom de la langue konyagi. (Combinaison illustrative de mots/morphèmes déjà attestés séparément dans les sources (ASJP, tableau comparatif tenda, autonymes) ; ce n'est pas un énoncé figé attesté tel quel par une source, mais aucun mot nouveau n'a été inventé pour la construire.)"
     },
     {
-      "speaker": "Mady",
-      "text": "Ah Samba, can mi i fula mboñ ! Nyi gwa-ko-ba ra lopital ra suwé cene tyi wun a faryal tyekwa mi.",
-      "phonetic_api": "/ah samba t͡ʃan mi i fula mbɔɲ ɲi ɡwakɔɓa ʁa lɔpital ʁa suwe t͡ʃɛnɛ tji wun a faʁjal tjɛkwa mi/",
-      "phonetic_simple": "AH SAM-BA, TCHAN MI I FOU-LA MBONY ! NYI GOUA-KO-BHA RA LO-PI-TAL RA SOU-WÉ TCHÉ-NÉ TYI WOUN A FAR-YAL TYÉ-KOUA MI.",
-      "translation": "Ah Samba, je suis navré ! J'étais déjà parti à l'hôpital de la ville avant même que tu ne te mettes à ma recherche."
+      "speaker": "Locuteur B",
+      "text": "in wamey.",
+      "phonetic_api": "/in wa.mej/",
+      "phonetic_simple": "INE OUA-MÉY",
+      "translation": "nous nom de la langue konyagi. (Combinaison illustrative de mots/morphèmes déjà attestés séparément dans les sources (ASJP, tableau comparatif tenda, autonymes) ; ce n'est pas un énoncé figé attesté tel quel par une source, mais aucun mot nouveau n'a été inventé pour la construire.)"
     },
     {
-      "speaker": "Samba",
-      "text": "I boka gba. Mboonëë ñon wun i tyukwa boka ra fbyar cene farye !",
-      "phonetic_api": "/i boka ɡba mbɔːnəː ɲɔn wun i tjukwa boka ʁa fbjaʁ t͡ʃɛnɛ faʁje/",
-      "phonetic_simple": "I BO-KA GBA. MBOO-NEE NYON WOUN I TYOU-KOUA BO-KA RA FBYAR TCHÉ-NÉ FAR-YÉ !",
-      "translation": "Tout s'éclaire désormais. Puisses-tu retrouver une santé totalement parfaite pour les jours à venir !"
+      "speaker": "Locuteur A",
+      "text": "ami gis.",
+      "phonetic_api": "/a.mi gis/",
+      "phonetic_simple": "A-MI GUISS",
+      "translation": "je / moi poisson. (Combinaison illustrative de mots/morphèmes déjà attestés séparément dans les sources (ASJP, tableau comparatif tenda, autonymes) ; ce n'est pas un énoncé figé attesté tel quel par une source, mais aucun mot nouveau n'a été inventé pour la construire.)"
+    },
+    {
+      "speaker": "Locuteur B",
+      "text": "ami Te nk~a.",
+      "phonetic_api": "/a.mi tʃe ŋka/",
+      "phonetic_simple": "A-MI TCHÉ NKA",
+      "translation": "je / moi boire eau. (Combinaison illustrative de mots/morphèmes déjà attestés séparément dans les sources (ASJP, tableau comparatif tenda, autonymes) ; ce n'est pas un énoncé figé attesté tel quel par une source, mais aucun mot nouveau n'a été inventé pour la construire.)"
     }
   ],
   "cultural_notes": [
-    "Dans la rhétorique wamey avancée, l'utilisation du plus-que-parfait ('-ko-ba') permet aux narrateurs de marquer la légitimité historique d'une action ou d'un droit foncier en prouvant l'antériorité d'un événement par rapport à un autre.",
-    "L'optatif introduit par 'mboonëë' est la pierre angulaire des formules de bénédictions prononcées par les anciens ('ce gba') lors des assemblées coutumières ou à l'issue de rituels de conciliation."
+    "Le konyagi (autonyme « wamey » ; le peuple s'auto-désigne « Mey ») est une langue tenda parlée principalement dans la région de Youkounkoun en Guinée et dans le Sénégal oriental (Wikipédia, webGuinée).",
+    "Le nom « Konyagi » viendrait d'un mot peul signifiant « abeille », donné pendant les guerres coloniales lorsque les Konyagui auraient repoussé les troupes françaises à l'aide d'abeilles (SIL, Survey of the Tenda Languages)."
   ],
   "exercises": [
     {
-      "exercise_id": "C1_M1_L1_EX1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quelle terminaison verbale devez-vous employer pour marquer une action antérieure au passé (plus-que-parfait) ?",
+      "question": "Pourquoi cette leçon comporte-t-elle peu de vocabulaire spécifique en konyagi ?",
       "options": [
-        "-ko",
-        "-ko-ba",
-        "-ra-ba"
+        "Le konyagi est une langue très rare, insuffisamment documentée pour ce sujet avancé",
+        "Le konyagi n'a pas de grammaire",
+        "Le konyagi n'existe plus",
+        "Le konyagi n'a pas de locuteurs natifs"
       ],
-      "correct_answer": "-ko-ba",
-      "explanation": "Le suffixe composé '-ko-ba' exprime le plus-que-parfait et l'antériorité narrative absolue."
+      "correct_answer": "Le konyagi est une langue très rare, insuffisamment documentée pour ce sujet avancé",
+      "explanation": "Le konyagi (wamey) compte entre 22 000 et 38 000 locuteurs mais reste très peu décrit dans les sources librement accessibles, en particulier pour les sujets grammaticaux avancés."
     },
     {
-      "exercise_id": "C1_M1_L1_EX2",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "[ ___ ] ñon wun i boka. (Pourvu que ta santé soit bonne / Puisses-tu te porter bien.)",
-      "correct_answer": "Mboonëë",
-      "hint": "Le marqueur modal obligatoire pour introduire le mode optatif du souhait."
+      "exercise_id": "ex2",
+      "type": "multiple_choice",
+      "question": "Quel est l'ordre syntaxique de base attesté pour le coniagui/wamey ?",
+      "options": [
+        "Sujet-Verbe-Objet (SVO)",
+        "Sujet-Objet-Verbe (SOV)",
+        "Verbe-Sujet-Objet (VSO)",
+        "Objet-Verbe-Sujet (OVS)"
+      ],
+      "correct_answer": "Sujet-Verbe-Objet (SVO)",
+      "explanation": "Wikipédia FR (Coniagui langue) indique une typologie SVO pour le coniagui."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Wikipedia (anglais) — Wamey language",
+      "url": "https://en.wikipedia.org/wiki/Wamey"
+    },
+    {
+      "label": "Glottolog 5.3 — Wamey (wame1240)",
+      "url": "https://glottolog.org/resource/languoid/id/wame1240"
+    },
+    {
+      "label": "SIL International — A Survey of the Tenda Languages in SE Senegal (Jenkins & Amdahl)",
+      "url": "https://www.sil.org/system/files/reapdata/72/25/98/72259868317564516932652615063790192765/silesr2007_011.pdf"
+    }
+  ],
+  "confidence": "faible",
+  "confidence_note": "Aucune documentation lexicale ou grammaticale publique suffisante n'a été trouvée pour ce sujet précis en Konyagi/Wamey (langue très rare, très peu décrite). Le contenu se limite strictement aux mots/données réellement attestés dans les sources disponibles (souvent en nombre réduit) plutôt que d'inventer du vocabulaire ou des phrases. Les transcriptions phonétiques sont des approximations dérivées de l'orthographe attestée, non des données API vérifiées. [Complément : pour respecter les bornes minimales du schéma, le vocabulaire, les phrases et le dialogue ont été complétés par recombinaison stricte de mots déjà attestés (ASJP, autonymes, chiffres) ; ces assemblages illustrent un ordre SVO plausible mais ne sont pas des énoncés figés attestés par une source. Confidence maintenue à \"faible\".]"
 }

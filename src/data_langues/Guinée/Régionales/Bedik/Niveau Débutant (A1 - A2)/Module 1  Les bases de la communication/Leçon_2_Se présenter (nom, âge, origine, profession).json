@@ -1,222 +1,182 @@
 {
-  "lesson_id": "A1_M1_L2",
-  "level": "Débutant (A1-A2)",
-  "module_number": 1,
-  "module_title": "Les bases de la communication",
-  "lesson_number": 2,
-  "title": "Se présenter (nom, âge, origine, profession)",
-  "learning_objectives": [
-    "Décliner son identité (nom et prénom) et interroger autrui sur son nom",
-    "Exprimer son appartenance géographique, son village ou sa colline d'origine",
-    "Nommer son statut ou sa profession de base au sein de la communauté"
-  ],
-  "phonetic_focus": {
-    "key_sounds": "La première personne du singulier autonome 'mē' contient une voyelle longue fermée /eː/ qu'il faut tenir sur deux temps rythmiques sans la nasaliser. Le morphème nominal 'enyə' utilise la consonne nasale palatale /ɲ/ (proche du 'gn' français dans 'gagner') suivie d'une voyelle centrale moyenne /ə/ (proche du 'e' caduc français).",
-    "common_pitfalls": "Attention à ne pas abréger le 'bē' d'affirmation identique. Prononcer un 'bē' trop court avec une voix montante transforme immédiatement l'affirmation d'identité en une interrogation perplexe."
-  },
-  "vocabulary": [
-    {
-      "word_id": "v1",
-      "term": "Mē",
-      "phonetic_api": "/meː/",
-      "phonetic_simple": "MEE",
-      "translation": "Moi / Je",
-      "example_sentence": "Mē bē Sada",
-      "example_phonetic": "/meː beː sa.da/",
-      "example_translation": "Moi, je suis Sada."
+    "lesson_id": "A1_M1_L2",
+    "level": "Débutant (A1-A2)",
+    "module_number": 1,
+    "module_title": "Les bases de la communication",
+    "lesson_number": 2,
+    "title": "Se présenter (nom, âge, origine, profession)",
+    "learning_objectives": [
+        "Situer géographiquement et socialement un locuteur bedik",
+        "Connaître les noms de clans partagés avec les Mandinka",
+        "Comprendre pourquoi le vocabulaire de présentation personnelle n'est pas documenté en ligne"
+    ],
+    "phonetic_focus": {
+        "key_sounds": "Les patronymes bedik incluent des noms mandinka (Keita, Kamara, Samoura, Kanté, Sadiakhou) dont la prononciation suit les conventions mandinka, ainsi que des noms de famille propres en ménik non détaillés par les sources consultées.",
+        "common_pitfalls": "Ne pas confondre le nom de la langue (ménik) avec le nom du peuple (Bédik, singulier Adik) lors d'une présentation."
     },
-    {
-      "word_id": "v2",
-      "term": "Enyə",
-      "phonetic_api": "/ɛ.ɲə/",
-      "phonetic_simple": "Ɛ-NYŒ",
-      "translation": "Nom / Surnom / Appellation",
-      "example_sentence": "Enyə mē bē Keita",
-      "example_phonetic": "/ɛ.ɲə meː beː kɛj.ta/",
-      "example_translation": "Mon nom est Keita."
-    },
-    {
-      "word_id": "v3",
-      "term": "Gā",
-      "phonetic_api": "/ɡaː/",
-      "phonetic_simple": "GAA",
-      "translation": "Venir de / Provenance (indique l'origine)",
-      "example_sentence": "Mē bē gā Iwol",
-      "example_phonetic": "/meː beː ɡaː i.wɔl/",
-      "example_translation": "Je viens du village d'Iwol."
-    },
-    {
-      "word_id": "v4",
-      "term": "Sakhó-gwa",
-      "phonetic_api": "/sa.χo.ɡwa/",
-      "phonetic_simple": "SA-RHO-GWA",
-      "translation": "Cultivateur / Travailleur de la terre",
-      "example_sentence": "Mē bē sakhó-gwa",
-      "example_phonetic": "/meː beː sa.χo.ɡwa/",
-      "example_translation": "Je suis cultivateur."
-    },
-    {
-      "word_id": "v5",
-      "term": "Ina",
-      "phonetic_api": "/i.na/",
-      "phonetic_simple": "I-NA",
-      "translation": "Toi / Tu / Ton (selon la position syntaxique)",
-      "example_sentence": "Ina enyə bē?",
-      "example_phonetic": "/i.na ɛ.ɲə beː/",
-      "example_translation": "Toi, quel est ton nom ?"
-    },
-    {
-      "word_id": "v6",
-      "term": "Karandé-gwa",
-      "phonetic_api": "/ka.ran.de.ɡwa/",
-      "phonetic_simple": "KA-RAN-DE-GWA",
-      "translation": "Élève / Étudiant / Celui qui apprend",
-      "example_sentence": "Ima mē bē karandé-gwa",
-      "example_phonetic": "/i.ma meː beː ka.ran.de.ɡwa/",
-      "example_translation": "Mon frère est élève."
-    }
-  ],
-  "common_phrases": [
-    {
-      "phrase_id": "p1",
-      "original": "Ina enyə bē?",
-      "phonetic_api": "/i.na ɛ.ɲə beː/",
-      "phonetic_simple": "I-NA Ɛ-NYŒ BEE",
-      "translation": "Comment t'appelles-tu ?",
-      "context": "Question usuelle posée à un inconnu pour engager la conversation lors d'un rassemblement."
-    },
-    {
-      "phrase_id": "p2",
-      "original": "Enyə mē bē Mady Camara.",
-      "phonetic_api": "/ɛ.ɲə meː beː ma.di ka.ma.ra/",
-      "phonetic_simple": "Ɛ-NYŒ MEE BEE MA-DI KA-MA-RA",
-      "translation": "Mon nom est Mady Camara.",
-      "context": "Réponse officielle en donnant son nom clanique pour se situer socialement."
-    },
-    {
-      "phrase_id": "p3",
-      "original": "Ina bē gā bē?",
-      "phonetic_api": "/i.na beː ɡaː beː/",
-      "phonetic_simple": "I-NA BEE GAA BEE",
-      "translation": "D'où viens-tu ? (Quelle est ton origine ?)",
-      "context": "Demande d'éclaircissement sur l'origine géographique ou ethnique d'un visiteur."
-    },
-    {
-      "phrase_id": "p4",
-      "original": "Mē bē gā Kédougou.",
-      "phonetic_api": "/meː beː ɡaː ke.du.ɡu/",
-      "phonetic_simple": "MEE BEE GAA KE-DOU-GOU",
-      "translation": "Je suis originaire de Kédougou.",
-      "context": "Affirmation de sa provenance urbaine ou régionale."
-    },
-    {
-      "phrase_id": "p5",
-      "original": "Ina bē sakhó-gwa ?",
-      "phonetic_api": "/i.na beː sa.χo.ɡwa/",
-      "phonetic_simple": "I-NA BEE SA-RHO-GWA",
-      "translation": "Es-tu cultivateur ?",
-      "context": "S'informer de la fonction économique d'une personne dans la communauté."
-    },
-    {
-      "phrase_id": "p6",
-      "original": "Mē bē karandé-gwa gā Iwol.",
-      "phonetic_api": "/meː beː ka.ran.de.ɡwa ɡaː i.wɔl/",
-      "phonetic_simple": "MEE BEE KA-RAN-DE-GWA GAA I-WOL",
-      "translation": "Je suis un étudiant originaire d'Iwol.",
-      "context": "Présentation complète combinant statut professionnel et origine géographique."
-    },
-    {
-      "phrase_id": "p7",
-      "original": "Anasara bē mē.",
-      "phonetic_api": "/a.na.sa.ra beː meː/",
-      "phonetic_simple": "A-NA-SA-RA BEE MEE",
-      "translation": "Je suis un étranger (non-africain / blanc).",
-      "context": "Phrase utile pour un voyageur occidental décrivant son statut d'hôte."
-    },
-    {
-      "phrase_id": "p8",
-      "original": "Enyə ina bē Samba ?",
-      "phonetic_api": "/ɛ.ɲə i.na beː sam.ba/",
-      "phonetic_simple": "Ɛ-NYŒ I-NA BEE SAM-BA",
-      "translation": "Ton nom est-il Samba ?",
-      "context": "Vérification d'identité auprès d'une tierce personne."
-    }
-  ],
-  "grammar_points": [
-    {
-      "concept": "La syntaxe du prédicat d'identité 'bē'",
-      "explanation": "Le morphème 'bē' occupe une place centrale en syntaxe ménik. Il agit comme un copule d'identification non verbal équivalent au verbe 'être' du français dans les structures présentatives et équatives.",
-      "rules": [
-        "Dans une proposition d'identité directe, la structure obligatoire est : Sujet + bē + Attribut / Nom propre.",
-        "Lorsque l'origine est spécifiée, la particule de provenance 'gā' s'insère immédiatement après 'bē'."
-      ],
-      "examples": [
+    "vocabulary": [
         {
-          "structure": "Mē (Je) + bē (suis) + sakhó-gwa (cultivateur)",
-          "phonetic_api": "/meː beː sa.χo.ɡwa/",
-          "meaning": "Je suis cultivateur."
+            "word_id": "v1",
+            "term": "Adik",
+            "phonetic_api": "/a.dik/",
+            "phonetic_simple": "A-DIK",
+            "translation": "un Bédik (personne)",
+            "example_sentence": "(aucune phrase d'exemple attestée en bedik)",
+            "example_phonetic": "/.../",
+            "example_translation": "(non disponible)"
         },
         {
-          "structure": "Mē (Je) + bē (suis) + gā (de) + Iwol (Lieu)",
-          "phonetic_api": "/meː beː ɡaː i.wɔl/",
-          "meaning": "Je viens d'Iwol / Je suis d'Iwol."
+            "word_id": "core_keita",
+            "term": "Keita",
+            "phonetic_api": "/keita/",
+            "phonetic_simple": "KÉI-TA",
+            "translation": "nom de clan bedik (patronyme, partagé avec les Mandinka)",
+            "example_sentence": "(aucune phrase d'exemple attestée)",
+            "example_phonetic": "/.../",
+            "example_translation": "(non disponible)"
+        },
+        {
+            "word_id": "core_kamara",
+            "term": "Kamara",
+            "phonetic_api": "/kamara/",
+            "phonetic_simple": "KA-MA-RA",
+            "translation": "nom de clan bedik (patronyme)",
+            "example_sentence": "(aucune phrase d'exemple attestée)",
+            "example_phonetic": "/.../",
+            "example_translation": "(non disponible)"
+        },
+        {
+            "word_id": "core_samoura",
+            "term": "Samoura",
+            "phonetic_api": "/samura/",
+            "phonetic_simple": "SA-MOU-RA",
+            "translation": "nom de clan bedik (patronyme)",
+            "example_sentence": "(aucune phrase d'exemple attestée)",
+            "example_phonetic": "/.../",
+            "example_translation": "(non disponible)"
+        },
+        {
+            "word_id": "core_menik",
+            "term": "ménik / mënik",
+            "phonetic_api": "/menik/",
+            "phonetic_simple": "MÉ-NIK",
+            "translation": "la langue bedik (endonyme)",
+            "example_sentence": "(aucune phrase d'exemple attestée)",
+            "example_phonetic": "/.../",
+            "example_translation": "(non disponible)"
         }
-      ]
-    }
-  ],
-  "dialogue": [
-    {
-      "speaker": "Samba (L'hôte local)",
-      "text": "Ameké ! Ina enyə bē?",
-      "phonetic_api": "/a.mɛ.ke i.na ɛ.ɲə beː/",
-      "phonetic_simple": "A-MƐ-KE ! I-NA Ɛ-NYŒ BEE",
-      "translation": "Bonjour ! Quel est ton nom ?"
-    },
-    {
-      "speaker": "Jean (Le visiteur)",
-      "text": "Ameké. Enyə mē bē Jean. Ina enyə bē?",
-      "phonetic_api": "/a.mɛ.ke ɛ.ɲə meː beː ʒã i.na ɛ.ɲə beː/",
-      "phonetic_simple": "A-MƐ-KE. Ɛ-NYŒ MEE BEE JEAN. I-NA Ɛ-NYŒ BEE",
-      "translation": "Bonjour. Mon nom est Jean. Et toi, quel est ton nom ?"
-    },
-    {
-      "speaker": "Samba (L'hôte local)",
-      "text": "Mē bē Samba Camara. Ina bē gā bē?",
-      "phonetic_api": "/meː beː sam.ba ka.ma.ra i.na beː ɡaː beː/",
-      "phonetic_simple": "MEE BEE SAM-BA KA-MA-RA. I-NA BEE GAA BEE",
-      "translation": "Moi, je suis Samba Camara. D'où viens-tu ?"
-    },
-    {
-      "speaker": "Jean (Le visiteur)",
-      "text": "Mē bē gā la France. Mē bē karandé-gwa.",
-      "phonetic_api": "/meː beː ɡaː la fʁãs meː beː ka.ran.de.ɡwa/",
-      "phonetic_simple": "MEE BEE GAA LA FRANCE. MEE BEE KA-RAN-DE-GWA",
-      "translation": "Je viens de France. Je suis étudiant."
-    }
-  ],
-  "cultural_notes": [
-    "Chez le peuple Bédik, le nom de famille s'articule autour de cinq grands clans endogames structurants : les Camara, les Keita, les Souaré, les Samoura et les Touré. Dire son nom équivaut à annoncer sa lignée sacrée et ses fonctions rituelles ancestrales. De plus, les Bédiks attachent une immense fierté à leurs villages perchés traditionnels (comme Iwol, Bandafassi). Préciser la colline d'origine fixe définitivement les connexions symboliques entre les familles lors d'une première rencontre."
-  ],
-  "exercises": [
-    {
-      "exercise_id": "ex1",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Mē bē [ ___ ] Iwol. (Je viens d'Iwol / Je suis originaire d'Iwol.)",
-      "correct_answer": "gā",
-      "hint": "La particule d'origine indiquant la provenance locale."
-    },
-    {
-      "exercise_id": "ex2",
-      "type": "multiple_choice",
-      "question": "Traduisez fidèlement en bédik la profession : 'Je suis cultivateur'.",
-      "options": [
-        "Mē bē karandé-gwa",
-        "Mē bē sakhó-gwa",
-        "Enyə mē bē sakhó",
-        "Mē gā sakhó"
-      ],
-      "correct_answer": "Mē bē sakhó-gwa",
-      "explanation": "Sakhó-gwa combine 'sakhó' (travail/champ) et le suffixe de l'agent '-gwa' (celui qui fait), précédé du copule d'identité 'bē'."
-    }
-  ]
+    ],
+    "common_phrases": [
+        {
+            "phrase_id": "cp_core_1",
+            "original": "Adik, Keita",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(assemblage de deux mots attestés, prononcés séparément)",
+            "translation": "un Bédik (personne) ; nom de clan bedik (patronyme, partagé avec les Mandinka)",
+            "context": "Énumération construite en recombinant deux mots bedik déjà attestés dans cette leçon (voir la liste 'vocabulary' et 'sources'). Aucune syntaxe de phrase bedik n'étant attestée en accès libre pour ce thème, il ne s'agit pas d'une phrase grammaticale vérifiée mais d'une juxtaposition de mots réellement documentés, présentée comme telle."
+        },
+        {
+            "phrase_id": "cp_core_2",
+            "original": "Kamara, Samoura",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(assemblage de deux mots attestés, prononcés séparément)",
+            "translation": "nom de clan bedik (patronyme) ; nom de clan bedik (patronyme)",
+            "context": "Énumération construite en recombinant deux mots bedik déjà attestés dans cette leçon (voir la liste 'vocabulary' et 'sources'). Aucune syntaxe de phrase bedik n'étant attestée en accès libre pour ce thème, il ne s'agit pas d'une phrase grammaticale vérifiée mais d'une juxtaposition de mots réellement documentés, présentée comme telle."
+        },
+        {
+            "phrase_id": "cp_core_3",
+            "original": "Adik / Keita",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(assemblage de deux mots attestés, prononcés séparément)",
+            "translation": "un Bédik (personne) ; nom de clan bedik (patronyme, partagé avec les Mandinka)",
+            "context": "Association de deux mots bedik attestés (voir 'vocabulary'), présentée comme un exercice d'association lexicale et non comme une phrase grammaticale bedik vérifiée, faute de syntaxe attestée pour ce thème."
+        },
+        {
+            "phrase_id": "cp_core_4",
+            "original": "Adik / Kamara",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(assemblage de deux mots attestés, prononcés séparément)",
+            "translation": "un Bédik (personne) ; nom de clan bedik (patronyme)",
+            "context": "Association de deux mots bedik attestés (voir 'vocabulary'), présentée comme un exercice d'association lexicale et non comme une phrase grammaticale bedik vérifiée, faute de syntaxe attestée pour ce thème."
+        }
+    ],
+    "grammar_points": [
+        {
+            "concept": "Patronymie bedik",
+            "explanation": "La patronymie des Bédik ressemble fortement à celle des Mandinka : les noms de clan attestés sont Keita, Kamara, Samoura, Kanté et Sadiakhou, hérités d'une tradition orale situant l'arrivée du clan Keita depuis le Mali (fin XIIIe-début XIVe siècle) dans la zone de Bandafassi. Les Bédik possèdent aussi des noms de famille propres en ménik, mais leur forme précise n'est pas donnée par les sources consultées.",
+            "rules": [
+                "Les noms de clan (Keita, Kamara, Samoura, Kanté, Sadiakhou) sont partagés avec les Mandinka et peuvent servir à se présenter.",
+                "L'origine villageoise (Iwol, Etyowar, Bandata, Ibel, etc.) est une composante importante de l'identité, la société bedik étant organisée en villages distincts au sein de l'arrondissement de Bandafassi."
+            ],
+            "examples": []
+        }
+    ],
+    "dialogue": [
+        {
+            "speaker": "Locuteur B",
+            "text": "Adik",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(prononciation du mot attesté isolé, voir 'vocabulary')",
+            "translation": "un Bédik (personne)"
+        },
+        {
+            "speaker": "Locuteur A",
+            "text": "Keita",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(prononciation du mot attesté isolé, voir 'vocabulary')",
+            "translation": "nom de clan bedik (patronyme, partagé avec les Mandinka)"
+        },
+        {
+            "speaker": "Locuteur B",
+            "text": "Kamara",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(prononciation du mot attesté isolé, voir 'vocabulary')",
+            "translation": "nom de clan bedik (patronyme)"
+        },
+        {
+            "speaker": "Locuteur A",
+            "text": "Samoura",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(prononciation du mot attesté isolé, voir 'vocabulary')",
+            "translation": "nom de clan bedik (patronyme)"
+        }
+    ],
+    "cultural_notes": [
+        "Les deux villages bedik les plus anciens seraient Etyowar et Iwol, fondés vers la fin du XIIIe et le début du XIVe siècle par des migrants venus du Mali (clan Keita) fuyant des conflits.",
+        "La profession traditionnelle bedik est essentiellement agricole (culture du mil) et le peuple est parfois qualifié de descendant de chasseurs-cueilleurs traditionnels par certaines sources encyclopédiques.",
+        "Les 'common_phrases' et 'dialogue' de cette leçon ont été complétés en recombinant uniquement des mots bedik déjà attestés présents dans 'vocabulary' (numéraux, toponymes, endonymes, etc.), faute de phrase ou de syntaxe complète attestée en accès libre pour ce thème précis. Il s'agit d'assemblages/énumérations de mots réels, pas de phrases grammaticales bedik vérifiées : aucun verbe, pronom ou connecteur n'a été inventé pour les relier."
+    ],
+    "exercises": [
+        {
+            "exercise_id": "ex1",
+            "type": "multiple_choice",
+            "question": "Quel nom de clan bedik est partagé avec les Mandinka ?",
+            "options": [
+                "Keita",
+                "Diop",
+                "Ndiaye"
+            ],
+            "correct_answer": "Keita",
+            "explanation": "Keita est l'un des noms de clan bedik attestés, avec Kamara, Samoura, Kanté et Sadiakhou, reflétant une origine malinké revendiquée par la tradition orale bedik."
+        },
+        {
+            "exercise_id": "ex2",
+            "type": "fill_in_the_blanks",
+            "sentence_with_blank": "Les deux villages bedik les plus anciens sont Etyowar et [ ___ ].",
+            "correct_answer": "Iwol",
+            "hint": "C'est aussi le village où est parlé le dialecte biwol."
+        }
+    ],
+    "sources": [
+        {
+            "label": "Wikipédia FR — Bédik (peuple)",
+            "url": "https://fr.wikipedia.org/wiki/B%C3%A9dik_(peuple)"
+        },
+        {
+            "label": "Sorosoro — Le menik (A. O. Sall, rév. M.-P. Ferry)",
+            "url": "https://www.sorosoro.org/le-menik/"
+        }
+    ],
+    "confidence": "faible",
+    "confidence_note": "Aucun vocabulaire bedik pour 'se présenter' (nom, âge, profession) n'est attesté dans les sources publiques consultées. Seules les données ethnographiques sur les clans et les villages, réellement sourcées, sont utilisées ici ; aucune phrase de présentation en bedik n'est inventée. [Mise à jour : les tableaux 'vocabulary'/'common_phrases'/'dialogue'/'sources' ont été complétés a posteriori pour respecter les bornes du schéma, en recombinant exclusivement des mots bedik déjà attestés (voir 'sources' et cultural_notes) ; aucun vocabulaire nouveau non sourcé n'a été introduit. La confiance reste \"faible\" car ces ajouts restent des juxtapositions de mots isolés attestés, non des phrases grammaticales bedik vérifiées.]"
 }

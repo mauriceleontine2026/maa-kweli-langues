@@ -20,19 +20,19 @@ Légende : ⬜ non commencé · 🟨 en cours · ✅ révisé avec sources
 - ✅ Toma
 
 ## Guinée — Langues régionales (données très rares, priorité basse, confiance attendue faible/moyenne)
-- ⬜ Badiaranké
-- ⬜ Baga
-- ⬜ Bassari (Oniyah)
-- ⬜ Bedik
-- ⬜ Konyagi (Wamey)
-- ⬜ Konyanka (Koyaka)
-- ⬜ Kuranko
-- ⬜ Landuma
-- ⬜ Lélé
-- ⬜ Mani
-- ⬜ Nalu
-- ⬜ Sankaran
-- ⬜ Yalunka (Jalonké)
+- ✅ Badiaranké
+- ✅ Baga
+- ✅ Bassari (Oniyah)
+- ✅ Bedik
+- ✅ Konyagi (Wamey)
+- ✅ Konyanka (Koyaka)
+- ✅ Kuranko
+- ✅ Landuma
+- ✅ Lélé
+- ✅ Mani
+- ✅ Nalu
+- ✅ Sankaran
+- ✅ Yalunka (Jalonké)
 
 ## Afrique de l'Ouest / Centrale-Est
 - ⬜ Igbo

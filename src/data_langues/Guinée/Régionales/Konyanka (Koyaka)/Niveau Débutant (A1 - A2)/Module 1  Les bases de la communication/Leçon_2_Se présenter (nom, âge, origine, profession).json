@@ -4,96 +4,159 @@
   "module_number": 1,
   "module_title": "Les bases de la communication",
   "lesson_number": 2,
-  "title": "Se présenter",
+  "title": "Se présenter (nom, âge, origine, profession)",
   "learning_objectives": [
-    "Dire son nom, son âge et son origine en konyanka",
-    "Demander l'identité de son interlocuteur de manière courtoise"
+    "Demander et donner son nom",
+    "Indiquer son origine géographique",
+    "Nommer quelques professions courantes",
+    "Utiliser les pronoms personnels de base dans une présentation"
   ],
   "phonetic_focus": {
-    "key_sounds": "La consonne 'g' dans 'tɔgɔ' est une occlusive vélaire voisée /ɡ/. Veillez à bien articuler les voyelles identiques qui l'entourent avec un ton égal.",
-    "common_pitfalls": "Le pronom de la première personne du singulier fusionne souvent avec le mot suivant : 'N'tɔgɔ' se prononce presque comme un seul bloc compact /ń.tɔ́.ɡɔ/."
+    "key_sounds": "Le pronom de première personne 'n' se prononce comme une nasale syllabique brève ; le suffixe '-la' marque la localisation d'origine.",
+    "common_pitfalls": "Confondre 'n too' (mon nom) avec 'n ye ... ti' (je suis...) : le premier introduit le nom propre, le second une qualité ou une fonction."
   },
   "vocabulary": [
     {
       "word_id": "v1",
-      "term": "Tɔgɔ",
-      "phonetic_api": "/tɔ́.ɡɔ́/",
-      "phonetic_simple": "TƆ-GƆ",
-      "translation": "Nom / Prénom",
-      "example_sentence": "N'tɔgɔ le Lamine.",
-      "example_phonetic": "/ń.tɔ́.ɡɔ́ lé lá.mí.ne/",
-      "example_translation": "Mon nom est Lamine."
+      "term": "n too",
+      "phonetic_api": "[n toː]",
+      "phonetic_simple": "n-to-o",
+      "translation": "mon nom",
+      "example_sentence": "N too le Sékou.",
+      "example_phonetic": "[n toː le seku]",
+      "example_translation": "Je m'appelle Sékou."
     },
     {
       "word_id": "v2",
-      "term": "Jamana",
-      "phonetic_api": "/ɟá.má.ná/",
-      "phonetic_simple": "DYA-MA-NA",
-      "translation": "Pays / Origine / Terre",
-      "example_sentence": "Gine jamana.",
-      "example_phonetic": "/ɡí.né ɟá.má.ná/",
-      "example_translation": "Le pays de la Guinée."
+      "term": "i too di?",
+      "phonetic_api": "[i toː di]",
+      "phonetic_simple": "i-to-o-di",
+      "translation": "comment t'appelles-tu ?",
+      "example_sentence": "I too di, karamoo?",
+      "example_phonetic": "[i toː di karamoː]",
+      "example_translation": "Comment vous appelez-vous, maître ?"
     },
     {
       "word_id": "v3",
-      "term": "Bɔ",
-      "phonetic_api": "/bɔ́/",
-      "phonetic_simple": "BƆ",
-      "translation": "Sortir de / Venir de",
-      "example_sentence": "N'bɔra Conakry.",
-      "example_phonetic": "/ń.bɔ́.rá kɔ.ná.kɾí/",
-      "example_translation": "Je viens de Conakry."
+      "term": "n",
+      "phonetic_api": "[n]",
+      "phonetic_simple": "n",
+      "translation": "je / moi",
+      "example_sentence": "N ye karanden ti.",
+      "example_phonetic": "[n je karanden ti]",
+      "example_translation": "Je suis élève."
     },
     {
       "word_id": "v4",
-      "term": "San",
-      "phonetic_api": "/sán/",
-      "phonetic_simple": "SAN",
-      "translation": "Année / Âge",
-      "example_sentence": "San mugan bɛ n'bolo.",
-      "example_phonetic": "/sán mú.ɡán bɛ́ ń bɔ́.ló/",
-      "example_translation": "J'ai vingt ans (litt. vingt ans sont dans ma main)."
+      "term": "i",
+      "phonetic_api": "[i]",
+      "phonetic_simple": "i",
+      "translation": "tu / toi",
+      "example_sentence": "I ye jula ti wa?",
+      "example_phonetic": "[i je dʒula ti wa]",
+      "example_translation": "Es-tu commerçant ?"
+    },
+    {
+      "word_id": "v5",
+      "term": "ka bo",
+      "phonetic_api": "[ka bɔ]",
+      "phonetic_simple": "ka-bo",
+      "translation": "venir de, être originaire de",
+      "example_sentence": "N ka bo Beyla.",
+      "example_phonetic": "[n ka bɔ bɛjla]",
+      "example_translation": "Je viens de Beyla."
+    },
+    {
+      "word_id": "v6",
+      "term": "karamoo",
+      "phonetic_api": "[karamoː]",
+      "phonetic_simple": "ka-ra-mo-o",
+      "translation": "maître, enseignant",
+      "example_sentence": "A ye karamoo ti.",
+      "example_phonetic": "[a je karamoː ti]",
+      "example_translation": "Il/elle est enseignant(e)."
+    },
+    {
+      "word_id": "v7",
+      "term": "jula",
+      "phonetic_api": "[dʒula]",
+      "phonetic_simple": "dou-la",
+      "translation": "commerçant, marchand",
+      "example_sentence": "N fa ye jula ti.",
+      "example_phonetic": "[n fa je dʒula ti]",
+      "example_translation": "Mon père est commerçant."
+    },
+    {
+      "word_id": "v8",
+      "term": "sènèkèla",
+      "phonetic_api": "[sɛnɛkɛla]",
+      "phonetic_simple": "sè-nè-kè-la",
+      "translation": "cultivateur",
+      "example_sentence": "N kotoo ye sènèkèla ti.",
+      "example_phonetic": "[n kotoː je sɛnɛkɛla ti]",
+      "example_translation": "Mon grand frère est cultivateur."
     }
   ],
   "common_phrases": [
     {
       "phrase_id": "p1",
-      "original": "I tɔgɔ bɛ di?",
-      "phonetic_api": "/í tɔ́.ɡɔ́ bɛ́ dí/",
-      "phonetic_simple": "I TƆ-GƆ BÈ DI?",
-      "translation": "Comment t'appelles-tu ?",
-      "context": "Question usuelle posée pour faire la connaissance de quelqu'un."
+      "original": "N too le ...",
+      "phonetic_api": "[n toː le]",
+      "phonetic_simple": "n-to-o-lé",
+      "translation": "Je m'appelle ...",
+      "context": "Réponse standard pour donner son nom"
     },
     {
       "phrase_id": "p2",
-      "original": "I bɔra mi?",
-      "phonetic_api": "/í bɔ́.rá mí/",
-      "phonetic_simple": "I BƆ-RA MI?",
-      "translation": "D'où viens-tu ? / Quelle est ton origine ?",
-      "context": "Interrogation courante sur la provenance ou le village d'origine."
+      "original": "I le don?",
+      "phonetic_api": "[i le dɔn]",
+      "phonetic_simple": "i-lé-don",
+      "translation": "Et toi ?",
+      "context": "Renvoyer une question posée à soi-même vers l'interlocuteur"
     },
     {
       "phrase_id": "p3",
-      "original": "Mun le i ka baara di?",
-      "phonetic_api": "/mún lé í ká báː.rá dí/",
-      "phonetic_simple": "MOUN LÉ I KA BAA-RA DI?",
-      "translation": "Quel est ton travail ? / Que fais-tu ?",
-      "context": "Question informative sur l'activité professionnelle."
+      "original": "N ka bo ...",
+      "phonetic_api": "[n ka bɔ]",
+      "phonetic_simple": "n-ka-bo",
+      "translation": "Je viens de ...",
+      "context": "Indiquer son lieu d'origine"
+    },
+    {
+      "phrase_id": "p4",
+      "original": "I ka bo min?",
+      "phonetic_api": "[i ka bɔ min]",
+      "phonetic_simple": "i-ka-bo-min",
+      "translation": "D'où viens-tu ?",
+      "context": "Demander l'origine géographique de l'interlocuteur"
+    },
+    {
+      "phrase_id": "p5",
+      "original": "N ye ... ti",
+      "phonetic_api": "[n je ... ti]",
+      "phonetic_simple": "n-yé-ti",
+      "translation": "Je suis ... (profession/qualité)",
+      "context": "Structure pour indiquer sa profession ou une qualité"
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'expression de la provenance avec le suffixe accompli '-ra'",
-      "explanation": "Pour exprimer qu'une action est achevée (comme le fait de naître ou de venir d'un lieu), le verbe reçoit le suffixe '-ra' ou '-na' selon l'harmonie nasale. 'Bɔ' (sortir) devient ainsi 'bɔra' (être sorti de / venir de).",
+      "concept": "Structure identificatoire 'ye ... ti' (être un/une ...)",
+      "explanation": "Pour dire qu'une personne est quelque chose (profession, nationalité, qualité), on utilise la structure Sujet + ye + nom + ti.",
       "rules": [
-        "Verbe de base + ra = Action passée/accomplie pour les verbes intransitifs.",
-        "N'bɔra [Lieu] = Je viens de [Lieu]."
+        "Sujet + ye + nom/adjectif + (le) ti = affirmation identificatoire",
+        "La négation correspondante est Sujet + tɛ + nom + ti"
       ],
       "examples": [
         {
-          "structure": "N'bɔra Kankan",
-          "phonetic_api": "/ń.bɔ́.rá kán.kán/",
-          "meaning": "Je viens de Kankan."
+          "structure": "N ye karanden ti",
+          "phonetic_api": "[n je karanden ti]",
+          "meaning": "Je suis élève"
+        },
+        {
+          "structure": "A ye karamoo ti",
+          "phonetic_api": "[a je karamoː ti]",
+          "meaning": "Il/elle est enseignant(e)"
         }
       ]
     }
@@ -101,55 +164,88 @@
   "dialogue": [
     {
       "speaker": "Fanta",
-      "text": "I tɔgɔ bɛ di, n'baden?",
-      "phonetic_api": "/í tɔ́.ɡɔ́ bɛ́ dí ń bá.dén/",
-      "phonetic_simple": "I TƆ-GƆ BÈ DI, N'BA-DEN?",
-      "translation": "Comment t'appelles-tu, mon frère ?"
+      "text": "I too di?",
+      "phonetic_api": "[i toː di]",
+      "phonetic_simple": "i-to-o-di",
+      "translation": "Comment t'appelles-tu ?"
     },
     {
-      "speaker": "Amara",
-      "text": "N'tɔgɔ le Amara. I tɔgɔ?",
-      "phonetic_api": "/ń.tɔ́.ɡɔ́ lé á.má.rá í tɔ́.ɡɔ́/",
-      "phonetic_simple": "N'TƆ-GƆ LÉ A-MA-RA. I TƆ-GƆ?",
-      "translation": "Mon nom est Amara. Et ton nom ?"
+      "speaker": "Sory",
+      "text": "N too le Sory. I le don?",
+      "phonetic_api": "[n toː le sori i le dɔn]",
+      "phonetic_simple": "n-to-o-lé So-ry, i-lé-don",
+      "translation": "Je m'appelle Sory. Et toi ?"
     },
     {
       "speaker": "Fanta",
-      "text": "N'tɔgɔ Fanta. I bɔra mi?",
-      "phonetic_api": "/ń.tɔ́.ɡɔ́ fán.tá í bɔ́.rá mí/",
-      "phonetic_simple": "N'TƆ-GƆ FAN-TA. I BƆ-RA MI?",
-      "translation": "Mon nom est Fanta. D'où viens-tu ?"
+      "text": "N too le Fanta. I ka bo min?",
+      "phonetic_api": "[n toː le fanta i ka bɔ min]",
+      "phonetic_simple": "n-to-o-lé Fan-ta, i-ka-bo-min",
+      "translation": "Je m'appelle Fanta. D'où viens-tu ?"
     },
     {
-      "speaker": "Amara",
-      "text": "N'bɔra Beyla le.",
-      "phonetic_api": "/ń.bɔ́.rá béj.lá lé/",
-      "phonetic_simple": "N'BƆ-RA BEY-LA LÉ.",
-      "translation": "Je viens de Beyla."
+      "speaker": "Sory",
+      "text": "N ka bo Beyla. N ye sènèkèla ti.",
+      "phonetic_api": "[n ka bɔ bɛjla n je sɛnɛkɛla ti]",
+      "phonetic_simple": "n-ka-bo Bé-y-la, n-yé-sè-nè-kè-la-ti",
+      "translation": "Je viens de Beyla. Je suis cultivateur."
     }
   ],
   "cultural_notes": [
-    "L'origine géographique et le nom de famille (le 'jamu') revêtent une importance capitale. Décliner son nom permet immédiatement aux locuteurs d'identifier les alliances ancestrales (le Sanankunya ou cousinage à plaisanterie) et d'installer un climat de fraternité."
+    "Beyla et Kérouane, mentionnées ici comme lieux d'origine dans le dialogue, sont les deux préfectures principales où le Konyanka/Koniaké est parlé, selon Wikipédia et les sources SIL sur les langues manding de Guinée.",
+    "Dans la culture maninka/malinké dont relève le Konyanka, le nom de famille (jamu) est souvent aussi important que le prénom lors des présentations, car il situe la personne dans une lignée et permet de reconnaître d'éventuelles relations de cousinage à plaisanterie."
   ],
   "exercises": [
     {
-      "exercise_id": "ex1",
-      "type": "multiple_choice",
-      "question": "Que signifie la phrase 'I tɔgɔ bɛ di?'",
+      "exercise_id": "e1",
+      "type": "choix_multiple",
+      "question": "Comment dit-on 'Je m'appelle...' ?",
       "options": [
-        "Où habites-tu ?",
-        "Comment t'appelles-tu ?",
-        "Quel âge as-tu ?"
+        "I too di?",
+        "N too le...",
+        "N ka bo...",
+        "A ye ... ti"
       ],
-      "correct_answer": "Comment t'appelles-tu ?",
-      "explanation": "'Tɔgɔ' se traduit par le nom, la phrase interroge donc l'identité nominale."
+      "correct_answer": "N too le...",
+      "explanation": "'N too le' introduit le nom propre du locuteur."
     },
     {
-      "exercise_id": "ex2",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "N'bɔra Gine [ ___ ]. (Je viens du pays de la Guinée).",
-      "correct_answer": "jamana",
-      "hint": "Mot signifiant pays ou territoire."
+      "exercise_id": "e2",
+      "type": "traduction",
+      "question": "Traduisez : 'D'où viens-tu ?'",
+      "correct_answer": "I ka bo min?",
+      "explanation": "'ka bo' = venir de ; 'min' = où (interrogatif de lieu)."
+    },
+    {
+      "exercise_id": "e3",
+      "type": "texte_a_trous",
+      "sentence_with_blank": "N ___ karanden ti. (Je suis élève.)",
+      "correct_answer": "ye",
+      "explanation": "La structure identificatoire est 'Sujet + ye + nom + ti'."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Malinkuia — Introduction à la langue malinké (grammaire complète, variété du Wulada, Haute-Guinée)",
+      "url": "https://fr.scribd.com/document/499114939/Malinkuia"
+    },
+    {
+      "label": "An ka taa — Maninka/Malinké greetings and phrases",
+      "url": "https://www.ankataa.com/maninka-greetings-and-phrases"
+    },
+    {
+      "label": "An ka taa — Yes/No and other essentials in Maninka",
+      "url": "https://www.ankataa.com/blog/2026/3/16/yes-no-and-other-essentials-in-maninka"
+    },
+    {
+      "label": "Wikipédia — Konyanka (classification, géographie, codes ISO/Glottolog)",
+      "url": "https://fr.wikipedia.org/wiki/Konyanka"
+    },
+    {
+      "label": "Wikipédia — Koniankés (peuple, préfectures de Beyla et Nzérékoré)",
+      "url": "https://fr.wikipedia.org/wiki/Koniank%C3%A9s"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Aucun lexique ou grammaire publiés et dédiés spécifiquement au Konyanka (Koyaka/Konianka, ISO mku) n'a été localisé : les sources académiques disponibles (SIL, Ethnologue, Glottolog) confirment son existence, sa localisation (Beyla, Kérouane, Nzérékoré, Damaro) et son statut de variété vigoureuse du Manding-Est, mais aucune ne fournit de corpus lexical ou phonologique propre à cette variété. Le vocabulaire de cette leçon provient donc du continuum dialectal Maninka/Malinké de Guinée dans lequel le Konyanka s'inscrit (intelligibilité mutuelle attestée), via la grammaire pratique Malinkuia (variété du Wulada, Haute-Guinée) et le site An ka taa. Les spécificités confirmées du Konyanka (nom, localisation, code ISO) sont indiquées dans les notes culturelles plutôt que dans le lexique."
 }

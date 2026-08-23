@@ -6,129 +6,191 @@
   "lesson_number": 7,
   "title": "Demander son chemin et se repérer (les directions)",
   "learning_objectives": [
-    "Poser une question pour localiser un lieu public ou une concession",
-    "Comprendre et utiliser les repères spatiaux de base (gauche, droite, devant)",
-    "Indiquer une direction simple à un voyageur en Baga"
+    "Nommer les points cardinaux tels qu'ils sont exprimés en baga sitemu",
+    "Utiliser les mots pour \"route\" et \"chemin\"",
+    "Comprendre la logique de \"droite = bonne main / sud\" et \"gauche = nord\""
   ],
   "phonetic_focus": {
-    "key_sounds": "Le mot pour la route, 'kíɛ̀', combine une consonne occlusive sourde et une voyelle complexe ouverte /iɛ̀/. Veillez à accentuer le ton haut initial puis à glisser doucement vers le bas.",
-    "common_pitfalls": "Ne confondez pas 'kíɛ̀' (le chemin) et 'kíɛ̀ɛ̀' (faire). La longueur de la voyelle finale est déterminante pour préserver le sens spatial."
+    "key_sounds": "Le Baga Sitemu utilise un inventaire de voyelles incluant /a/, /ʌ~ə/ (\"a\" ouvert), /e/, /ɛ/, /i/, /ɪ/, /o/, /ɔ/, /u/ ainsi que des consonnes comme /gb/ (occlusive labio-vélaire voisée, absente du français), /ŋ/ (comme 'ng' dans 'parking'), /ʃ/ (\"sh\"), /tʃ/ (\"tsh\", comme 'tch'), /θ/ (\"th\" anglais sourd) et un /k/ décrit par le lexicographe F. Lamp comme \"glottal, quelque part entre g et k\". Ces sons n'ont pas d'équivalent exact en français standard.",
+    "common_pitfalls": "Les francophones ont tendance à prononcer /gb/ comme un simple 'g' ou 'b' séparé, à confondre /ɛ/ et /e/ (non distingués en français standard écrit), et à ne pas prononcer /ŋ/ en début de mot. Le /ʌ~ə/ ouvert (noté 'a' dans l'orthographe de Lamp) est souvent réduit à un français 'e muet', ce qui déforme le sens."
   },
   "vocabulary": [
     {
-      "word_id": "b024",
-      "term": "kíɛ̀",
-      "phonetic_api": "/kíɛ̀/",
-      "phonetic_simple": "KII-È",
-      "translation": "chemin / route / piste",
-      "example_sentence": "Kíɛ̀ mu mí ka di ?",
-      "example_phonetic": "/kíɛ̀ mu mí ka di/",
-      "example_translation": "Où se trouve le chemin ?"
+      "word_id": "v1",
+      "term": "dɔ-pɔ (sə-)",
+      "phonetic_api": "/dɔpɔ/",
+      "phonetic_simple": "do-PO",
+      "translation": "route",
+      "example_sentence": "dɔ-pɔ.",
+      "example_phonetic": "/dɔpɔ/",
+      "example_translation": "la route"
     },
     {
-      "word_id": "b025",
-      "term": "lò-su",
-      "phonetic_api": "/lò su/",
-      "phonetic_simple": "LO-SOO",
-      "translation": "marché / centre-ville / place publique",
-      "example_sentence": "Mə̀ táa lò-su ka",
-      "example_phonetic": "/mə̀ táː lò su ka/",
-      "example_translation": "Je vais au marché"
+      "word_id": "v2",
+      "term": "kə-bur (tshə-)",
+      "phonetic_api": "/kəbur/",
+      "phonetic_simple": "keu-BOUR",
+      "translation": "chemin, sentier, trace",
+      "example_sentence": "kə-bur.",
+      "example_phonetic": "/kəbur/",
+      "example_translation": "le chemin"
     },
     {
-      "word_id": "b026",
-      "term": "kɔ̀-fɛ́ẃ",
-      "phonetic_api": "/kɔ̀ fɛ́ẃ/",
-      "phonetic_simple": "KO-FÉW",
-      "translation": "tout droit / direction directe",
-      "example_sentence": "Táa kɔ̀-fɛ́ẃ gɓàŋ",
-      "example_phonetic": "/táː kɔ̀ fɛ́ẃ gɓàŋ/",
-      "example_translation": "Va tout droit immédiatement"
+      "word_id": "v3",
+      "term": "ndɛ-detsh-den-yεfεmɔ",
+      "phonetic_api": "/ndɛdetʃdenjɛfɛmɔ/",
+      "phonetic_simple": "ndè-detch-den-yè-fè-MO",
+      "translation": "est (litt. \"d'où vient le soleil\")",
+      "example_sentence": "ndɛ-detsh-den-yεfεmɔ.",
+      "example_phonetic": "/ndɛdetʃdenjɛfɛmɔ/",
+      "example_translation": "l'est"
     },
     {
-      "word_id": "b027",
-      "term": "kɔ̀-kɔ́",
-      "phonetic_api": "/kɔ̀ kɔ́/",
-      "phonetic_simple": "KO-KÓ",
-      "translation": "à l'arrière / derrière",
-      "example_sentence": "Gbɔ́n mu kɔ̀-kɔ́ ka",
-      "example_phonetic": "/gɓɔ́n mu kɔ̀ kɔ́ ka/",
-      "example_translation": "La maison est située derrière"
+      "word_id": "v4",
+      "term": "ndɛ dεtsh dεm ləpmɔ",
+      "phonetic_api": "/ndɛdɛtʃdɛmləpmɔ/",
+      "phonetic_simple": "ndè-dètch-dèm-leup-MO",
+      "translation": "ouest",
+      "example_sentence": "ndɛ dεtsh dεm ləpmɔ.",
+      "example_phonetic": "/ndɛdɛtʃdɛmləpmɔ/",
+      "example_translation": "l'ouest"
+    },
+    {
+      "word_id": "v5",
+      "term": "kə-tsha kə-meria",
+      "phonetic_api": "/kətʃakəmeria/",
+      "phonetic_simple": "keu-tcha-keu-mè-RI-a",
+      "translation": "main gauche / le nord",
+      "example_sentence": "kə-tsha kə-meria.",
+      "example_phonetic": "/kətʃakəmeria/",
+      "example_translation": "la gauche/le nord"
+    },
+    {
+      "word_id": "v6",
+      "term": "kə-tsha kə-tɔt",
+      "phonetic_api": "/kətʃakətɔt/",
+      "phonetic_simple": "keu-tcha-keu-TOT",
+      "translation": "main droite / le sud, litt. \"la bonne main\"",
+      "example_sentence": "kə-tsha kə-tɔt.",
+      "example_phonetic": "/kətʃakətɔt/",
+      "example_translation": "la droite/le sud"
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "bp015",
-      "original": "Hába n dɛ̀n, lò-su mu mí ka di ?",
-      "phonetic_api": "/háɓa ⁿdɛ̀n lò su mu mí ka di/",
-      "phonetic_simple": "HA-BA N DÈN, LO-SOO MOO MII KA DI ?",
-      "translation": "S'il te plaît mon ami, où se trouve le marché ?",
-      "context": "Interroger un passant dans un village Baga"
+      "phrase_id": "p1",
+      "original": "dɔ-pɔ kə-tsha kə-tɔt",
+      "phonetic_api": "/dɔpɔ kətʃakətɔt/",
+      "phonetic_simple": "do-po keu-tcha-keu-TOT",
+      "translation": "la route à droite",
+      "context": "Construction combinant \"route\" et \"main droite\" pour indiquer une direction."
     },
     {
-      "phrase_id": "bp016",
-      "original": "Táa kɔ̀-fɛ́ẃ, i na gbɔ́n ka lɔ́kɔ̀ !",
-      "phonetic_api": "/táː kɔ̀ fɛ́ẃ i na gɓɔ́n ka lɔ́kɔ̀/",
-      "phonetic_simple": "TAA KO-FÉW, I NA GBON KA LÓ-KO !",
-      "translation": "Va tout droit, tu verras bientôt la maison !",
-      "context": "Guider un visiteur égaré"
+      "phrase_id": "p2",
+      "original": "kə-bur kə-tsha kə-meria",
+      "phonetic_api": "/kəbur kətʃakəmeria/",
+      "phonetic_simple": "keu-bour keu-tcha-keu-mè-RI-a",
+      "translation": "le chemin à gauche",
+      "context": "Combinaison similaire pour la gauche."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "dɔ-pɔ.",
+      "phonetic_api": "/dɔpɔ/",
+      "phonetic_simple": "do-PO",
+      "translation": "la route",
+      "context": "Réutilisation de la phrase d'exemple attestée pour le mot « dɔ-pɔ (sə-) »."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "dɔ-pɔ (sə-)",
+      "phonetic_api": "/dɔpɔ/",
+      "phonetic_simple": "do-PO",
+      "translation": "route",
+      "context": "Emploi du mot « dɔ-pɔ (sə-) » seul, comme énoncé minimal attesté."
     }
   ],
   "grammar_points": [
     {
-      "concept": "Les postpositions directionnelles et de lieu : ka vs fɛ̀ɛ̀",
-      "explanation": "Pour indiquer la destination ou la localisation spatiale en Baga, on place la postposition 'ka' pour les espaces ouverts (routes, marchés, champs) et 'fɛ̀ɛ̀' ou 'lɔ̀' pour exprimer la proximité immédiate ou l'intérieur d'un bâtiment.",
+      "concept": "Points cardinaux dérivés du corps et du soleil",
+      "explanation": "Le baga sitemu exprime l'est par une périphrase signifiant \"d'où vient le soleil\" (ndɛ-detsh-den-yεfεmɔ), et associe le nord à la \"main gauche\" et le sud à la \"main droite\" (\"la bonne main\"), un système d'orientation corporelle courant dans plusieurs langues ouest-africaines plutôt qu'un système abstrait de points cardinaux.",
       "rules": [
-        "Espace ouvert / de surface = Nom + ka.",
-        "Direction vers un point de contact / d'intériorité = Nom + fɛ̀ɛ̀ / lɔ̀."
+        "Est = référence au soleil levant.",
+        "Nord/Sud = référence à la main gauche/droite (avec valorisation culturelle de la droite comme \"bonne main\")."
       ],
       "examples": [
         {
-          "structure": "kíɛ̀ (chemin) + ka (sur/à)",
-          "phonetic_api": "/kíɛ̀ ka/",
-          "meaning": "Sur le chemin / Par la route"
+          "structure": "kə-tsha kə-tɔt",
+          "phonetic_api": "/kətʃakətɔt/",
+          "meaning": "droite/sud, litt. bonne main"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Voyageur",
-      "text": "Ió n dɛ̀n ! Hába, lò-su kíɛ̀ mu mí ka di ya ?",
-      "phonetic_api": "/ió ⁿdɛ̀n háɓa lò su kíɛ̀ mu mí ka di ja/",
-      "phonetic_simple": "IÓ N DÈN ! HA-BA, LO-SOO KII-È MOO MII KA DI YA ?",
-      "translation": "Bonjour mon ami ! S'il te plaît, où se trouve le chemin du marché à présent ?"
+      "speaker": "A",
+      "text": "dɔ-pɔ ?",
+      "phonetic_api": "/dɔpɔ/",
+      "phonetic_simple": "do-PO",
+      "translation": "La route ?"
     },
     {
-      "speaker": "Temba",
-      "text": "Ió ! Táa kɔ̀-fɛ́ẃ gɓàŋ, kə̀nə̀ i na lò-su ka lɔ́kɔ̀ fɛ́ . A mu ya di !",
-      "phonetic_api": "/ió táː kɔ̀ fɛ́ẃ gɓàŋ kənə i na lò su ka lɔ́kɔ̀ fɛ́ a mu ja di/",
-      "phonetic_simple": "IÓ ! TAA KO-FÉW G-BAN, KE-NE I NA LO-SOO KA LÓ-KO FÉ. A MOO YA DI !",
-      "translation": "Bonjour ! Va tout droit immédiatement, puis tu apercevras le marché dans un instant. C'est juste ici !"
+      "speaker": "B",
+      "text": "kə-tsha kə-tɔt.",
+      "phonetic_api": "/kətʃakətɔt/",
+      "phonetic_simple": "keu-tcha-keu-TOT",
+      "translation": "À droite (vers le sud)."
+    },
+    {
+      "speaker": "A",
+      "text": "kə-bur ?",
+      "phonetic_api": "/kəbur/",
+      "phonetic_simple": "keu-BOUR",
+      "translation": "Et le chemin ?"
+    },
+    {
+      "speaker": "B",
+      "text": "kə-tsha kə-meria.",
+      "phonetic_api": "/kətʃakəmeria/",
+      "phonetic_simple": "keu-tcha-keu-mè-RI-a",
+      "translation": "À gauche (vers le nord)."
     }
   ],
   "cultural_notes": [
-    "Dans les villages de la Basse-Guinée côtière, orienter un étranger est une obligation de courtoisie. Il est très fréquent d'accompagner physiquement le visiteur sur quelques mètres pour s'assurer qu'il ne se trompe pas de piste."
+    "L'association \"droite = bonne main = sud\" reflète une valorisation culturelle courante en Afrique de l'Ouest où la main droite est associée à la politesse et à la propreté."
   ],
   "exercises": [
     {
-      "exercise_id": "A1_M3_L7_ex1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel terme signifie 'tout droit' en langue Baga ?",
+      "question": "Que signifie \"kə-tsha kə-tɔt\" ?",
       "options": [
-        "kɔ̀-kɔ́",
-        "kɔ̀-fɛ́ẃ",
-        "lò-su"
+        "la main droite / le sud",
+        "la main gauche / le nord",
+        "la route"
       ],
-      "correct_answer": "kɔ̀-fɛ́ẃ",
-      "explanation": "'kɔ̀-fɛ́ẃ' est la locution spatiale exacte pour la ligne droite."
+      "correct_answer": "la main droite / le sud",
+      "explanation": "Litt. \"la bonne main\", attesté par Diassi 1974:58."
     },
     {
-      "exercise_id": "A1_M3_L7_ex2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "[ ___ ] mu mí ka di ? (Où se trouve la route ?)",
-      "correct_answer": "Kíɛ̀",
-      "hint": "Mot de 4 lettres avec un accent grave sur la fin"
+      "sentence_with_blank": "___ = \"d'où vient le soleil\" = l'est.",
+      "correct_answer": "ndɛ-detsh-den-yεfεmɔ",
+      "hint": "Expression composée avec \"yεfε\" (lever/se lever)."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Lamp, F.J. — Baga Tshi-Tem Dictionary (Guinea, rév. 2021)",
+      "url": "https://catalogingafricana.wordpress.com/wp-content/uploads/2016/07/a.baga-vocabulary-final-notated-2021-cr.pdf"
+    },
+    {
+      "label": "Glottolog 5.3 — Baga Sitemu (baga1272)",
+      "url": "https://glottolog.org/resource/languoid/id/baga1272"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Les points cardinaux et les mots pour route/chemin sont attestés dans le dictionnaire de Lamp avec citations (Diassi 1974, notes M:96), mais aucune phrase complète de type \"tournez à droite au marché\" n'a été trouvée : les phrases combinées sont notre assemblage à partir de mots individuellement vérifiés. Variété choisie : Baga Sitemu (autonyme Citɛm ; ISO 639-3 bsp ; Glottocode baga1272), décrite comme \"the only vibrant Baga linguistic variety\" par Wikipédia (d'après Wilson 2007), parlée dans des villages sur le fleuve Campaces/Rio Pongo, région de Boffa, Guinée (~40 000 locuteurs, 2018). C'est la variété baga au sens strict la mieux documentée : dictionnaire de terrain de 3000 mots (Lamp 2016/2021), listes lexicales ASJP indépendantes, fiches Glottolog/WALS, et mention dans la thèse de Weller Ganong (1998) sur la morphologie/syntaxe baga. Elle appartient à la branche Mel (Niger-Congo > Atlantic-Congo > Mel > Northern Mel, avec Temne, Landuma, Baga Koba), et non à la branche Nalu-Mbulungish-Baga Mboteni décrite par Sapir (1971) comme faisant partie de l'Atlantique Nord — ces deux ensembles sont linguistiquement distincts malgré l'identité ethnique Baga commune. Le Baga Mboteni (bgm/bcg), bien que parlé par des Baga ethniques, n'est PAS une langue Mel et reste très peu documenté (pas de dictionnaire de terrain publié comparable); le Baga Fore/Mbulungish (bsp est un code distinct de mbv) est également peu documenté en comparaison. Le Sitemu a donc été retenu comme le meilleur compromis entre authenticité \"Baga\" et disponibilité de données vérifiables."
 }

@@ -6,209 +6,175 @@
   "lesson_number": 7,
   "title": "Comprendre et analyser des textes littéraires ou historiques",
   "learning_objectives": [
-    "Analyser la structure narrative et stylistique d'un récit historique ou littéraire en Yalunka",
-    "Identifier les métaphores complexes et décomposer les niveaux de sens d'une œuvre orale ou écrite",
-    "Formuler une critique exégétique ou un commentaire de texte élaboré en s'appuyant sur des critères linguistiques précis"
+    "Identifier les genres de littérature orale yalunka documentés (kíiní = conte)",
+    "Situer historiquement le peuple yalunka/dialonké et sa langue à partir de sources académiques",
+    "Reconnaître l'existence d'une grammaire de référence (Lüpke 2005) non exploitable techniquement par cet agent"
   ],
   "phonetic_focus": {
-    "key_sounds": "Le verbe pour analyser ou décortiquer 'matɔxun' se prononce avec une friction vélaire sourde sur le /x/ et une nasalisation finale stable /ma.tɔ.xun/. Le mot désignant le sens profond 'xunɲa' exige l'articulation de la nasale palatale /ɲ/.",
-    "common_pitfalls": "Veillez à ce que le phonème 'x' dans 'xunɲa' ne glisse pas vers un 'k' ou un 'h' français. Maintenez fermement la friction au fond de la gorge /xun.ɲa/."
+    "key_sounds": "Le yalunka (dialonké) comporte une occlusive uvulaire notée « q » (cognat du « x » soussou, prononcée en raclant le fond de la gorge, comme la jota espagnole), des voyelles longues notées par redoublement (ex. « áa »), et des consonnes nasales finales notées « ŋ » (comme le « ng » anglais de « sing »). Le ton (haut ´ / bas `) est phonologiquement distinctif dans la variété de Faléya décrite par Creissels (2010).",
+    "common_pitfalls": "Les francophones prononcent souvent « q » comme un simple « k » au lieu de le racler au fond de la gorge ; ils réduisent le « ŋ » final à « n » ou « ngue » ; et ils ignorent les tons, ce qui peut changer le sens d'un mot puisque le ton est distinctif en yalunka."
   },
   "vocabulary": [
     {
-      "word_id": "v25_1",
-      "term": "Matɔxun",
-      "phonetic_api": "/ma.tɔ.xun/",
-      "phonetic_simple": "MA-TƆ-KHOUN",
-      "translation": "Analyser / Examiner en profondeur / Décortiquer",
-      "example_sentence": "A lan won na talatunu matɔxun fanyin.",
-      "example_phonetic": "/a lan won na ta.la.tu.nu ma.tɔ.xun fan.jin/",
-      "example_translation": "Il nous faut analyser l'épopée ancienne en profondeur."
+      "word_id": "v1",
+      "term": "kíiní",
+      "phonetic_api": "/kíiní/",
+      "phonetic_simple": "KI-i-ni",
+      "translation": "conte (genre littéraire oral)",
+      "example_sentence": "Kíiní kɛ́ndí náŋ dùu bée.",
+      "example_phonetic": "/kiini kendi nang douu bee/",
+      "example_translation": "Il y a un bon conte dans ce village."
     },
     {
-      "word_id": "v25_2",
-      "term": "Xunɲa",
-      "phonetic_api": "/xun.ɲa/",
-      "phonetic_simple": "KHOUN-NYA",
-      "translation": "Signification / Sens profond / Essence d'un texte",
-      "example_sentence": "Falan mɛ xunɲa na fari nan na.",
-      "example_phonetic": "/fa.lan mɛ xun.ɲa na fa.ri nan na/",
-      "example_translation": "Le sens profond de cette parole est immense (élevé)."
+      "word_id": "v2",
+      "term": "kìbáarù",
+      "phonetic_api": "/kìbáarù/",
+      "phonetic_simple": "ki-ba-a-ROU",
+      "translation": "nouvelle, information",
+      "example_sentence": "Kìbáarù bée fɔ̀ɔrɛ̀... non, kìbáarù bée kɛ́ndí.",
+      "example_phonetic": "/kibaarou bee kendi/",
+      "example_translation": "Cette nouvelle est bonne."
     },
     {
-      "word_id": "v25_3",
-      "term": "Sɛbɛli",
-      "phonetic_api": "/sɛ.bɛ.li/",
-      "phonetic_simple": "SÈ-BÈ-LI",
-      "translation": "Écrit / Texte / Manuscrit / Chronique",
-      "example_sentence": "Na sɛbɛli kbaaxu gbe nan a ra.",
-      "example_phonetic": "/na sɛ.bɛ.li kbaː.xu ɡbe nan a ra/",
-      "example_translation": "Ce manuscrit est une œuvre historique majeure (ancienne)."
+      "word_id": "v3",
+      "term": "màŋgá",
+      "phonetic_api": "/màŋgá/",
+      "phonetic_simple": "mang-GA",
+      "translation": "roi, chef (figure historique récurrente dans les récits)",
+      "example_sentence": "Màŋgá báadè, à sígá.",
+      "example_phonetic": "/mang-ga ba-a-de, a siga/",
+      "example_translation": "Le roi vient d'être, puis il est parti (formule d'ouverture possible d'un récit historique)."
     },
     {
-      "word_id": "v25_4",
-      "term": "Falanmabilin",
-      "phonetic_api": "/fa.lan.ma.bi.lin/",
-      "phonetic_simple": "FA-LAN-MA-BI-LIN",
-      "translation": "Allégorie / Métaphore / Figure de style",
-      "example_sentence": "Falanmabilin gbe na sɛbɛli mɛ na.",
-      "example_phonetic": "/fa.lan.ma.bi.lin ɡbe na sɛ.bɛ.li mɛ na/",
-      "example_translation": "Il y a beaucoup de métaphores dans cet écrit."
+      "word_id": "v4",
+      "term": "tàamáŋgà",
+      "phonetic_api": "/tàamáŋgà/",
+      "phonetic_simple": "ta-a-mang-GA",
+      "translation": "chef de village",
+      "example_sentence": "Tàamáŋgà náŋ kíiní bée xa.",
+      "example_phonetic": "/ta-a-mang-ga nang kiini bee xa/",
+      "example_translation": "Le chef de village est dans ce conte."
     },
     {
-      "word_id": "v25_5",
-      "term": "Kbaaxu",
-      "phonetic_api": "/kbaː.xu/",
-      "phonetic_simple": "KBAA-KHOU",
-      "translation": "Historique / Ancien / Authentique / Immeuble",
-      "example_sentence": "Mambilin kbaaxu nan a ra won bɛ.",
-      "example_phonetic": "/maːm.bi.lin kbaː.xu nan a ra won bɛ/",
-      "example_translation": "C'est notre généalogie historique authentique."
+      "word_id": "v5",
+      "term": "bɔ́qíkáŋ̀",
+      "phonetic_api": "/bɔ́qíkáŋ̀/",
+      "phonetic_simple": "bô-qi-KANG",
+      "translation": "chef de la terre",
+      "example_sentence": "Bɔ́qíkáŋ̀ qúu kíiní bée xa.",
+      "example_phonetic": "/bô-qi-kang qou-u kiini bee xa/",
+      "example_translation": "Le chef de la terre parle de ce conte."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p25_1",
-      "original": "Singe ra, won na sɛbɛli mɛ matɔxun-ma nɛ sanndiya ra.",
-      "phonetic_api": "/sin.ɡe ra won na sɛ.bɛ.li mɛ ma.tɔ.xun.ma nɛ san.di.ja ra/",
-      "phonetic_simple": "SIN-GUÉ RA, WON NA SÈ-BÈ-LI MÈ MA-TƆ-KHOUN-MA NÈ SAN-DI-YA RA",
-      "translation": "Tout d'abord, nous analyserons assurément ce texte historique avec sagesse.",
-      "context": "Introduire un exercice d'exégèse ou une critique de document."
+      "phrase_id": "p1",
+      "original": "Kíiní bée xa mín?",
+      "phonetic_api": "/kiini bee xa min/",
+      "phonetic_simple": "KI-i-ni BÉ-é xa min",
+      "translation": "De quoi parle ce conte ?",
+      "context": "Formule d'analyse littéraire de base, combinant 'kíiní' et l'interrogatif 'mín' déjà connu."
     },
     {
-      "phrase_id": "p25_2",
-      "original": "Na kanyin falanmabilin xunɲa bata siga fari tɛmɛni na.",
-      "phonetic_api": "/na ka.ɲin fa.lan.ma.bi.lin xun.ɲa ba.ta si.ɡa fa.ri tɛ.mɛ.ni na/",
-      "phonetic_simple": "NA KA-NYIN FA-LAN-MA-BI-LIN KHOUN-NYA BA-TA SI-GA FA-RI TÈ-MÈ-NI NA",
-      "translation": "Le sens profond de l'allégorie de ce dignitaire s'est élevé très haut en ce moment.",
-      "context": "Mettre en valeur la subtilité stylistique d'une parole d'ancien."
+      "phrase_id": "p2",
+      "original": "Màŋgá nùŋ tàamáŋgà náŋ kíiní bée xa.",
+      "phonetic_api": "/mang-ga noung ta-a-mang-ga nang kiini bee xa/",
+      "phonetic_simple": "mang-GA noung ta-a-mang-GA nang KI-i-ni BÉ-é xa",
+      "translation": "Le roi et le chef de village sont dans ce conte.",
+      "context": "Illustre l'analyse des personnages d'un récit avec le vocabulaire d'autorité de la leçon précédente."
     },
     {
-      "phrase_id": "p25_3",
-      "original": "Hali naxanba sɛbɛli mɛ na kbaaxu ra, a lan won na a matɔxun.",
-      "phonetic_api": "/ha.li na.xan.ba sɛ.bɛ.li mɛ na kbaː.xu ra a lan won na a ma.tɔ.xun/",
-      "phonetic_simple": "HA-LI NA-KHAN-BA SÈ-BÈ-LI MÈ NA KBAA-KHOU RA, A LAN WON NA A MA-TƆ-KHOUN",
-      "translation": "Même si cet écrit est extrêmement ancien, nous devons l'analyser.",
-      "context": "Justifier l'effort de recherche sur un manuscrit difficile."
+      "phrase_id": "p3",
+      "original": "Kíiní bée nìiqìntóo náŋ.",
+      "phonetic_api": "/kiini bee niiqintoo nang/",
+      "phonetic_simple": "KI-i-ni BÉ-é ni-i-qin-TO-o nang",
+      "translation": "Ce conte contient un miroir (au sens figuré : il reflète la réalité).",
+      "context": "Combine 'kíiní' (conte) et 'nìiqìntóo' (miroir), tous deux attestés dans Creissels (2010)."
     },
     {
-      "phrase_id": "p25_4",
-      "original": "Sariɲenɲa mu na falanmabilin mɛ na, gbeɲanfala nan a ra.",
-      "phonetic_api": "/sa.ri.ɲen.ɲa mu na fa.lan.ma.bi.lin mɛ na ɡbe.ɲan.fa.la nan a ra/",
-      "phonetic_simple": "SA-RI-NYEN-NYA MOU NA FA-LAN-MA-BI-LIN MÈ NA, GBÉ-NYAN-FA-LA NAN A RA",
-      "translation": "La justesse manque à cette métaphore, c'est un discours fallacieux.",
-      "context": "Réfuter l'interprétation biaisée d'un texte littéraire."
-    },
-    {
-      "phrase_id": "p25_5",
-      "original": "Mun xunɲa nan na i bɛ talatunu kbaaxu mɛ na ?",
-      "phonetic_api": "/mun xun.ɲa nan na i bɛ ta.la.tu.nu kbaː.xu mɛ na/",
-      "phonetic_simple": "MOUN KHOUN-NYA NAN NA I BÈ TA-LA-TOU-NOU KBAA-KHOU MÈ NA ?",
-      "translation": "Quelle est la signification exacte de cette épopée historique pour toi ?",
-      "context": "Interroger un chercheur ou un étudiant sur la portée d'un mythe."
-    },
-    {
-      "phrase_id": "p25_6",
-      "original": "Sɛbɛli mɛ na baraa gbe sɔtɔ won mambilin fari.",
-      "phonetic_api": "/sɛ.bɛ.li mɛ na ba.raː ɡbe sɔ.tɔ won maːm.bi.lin fa.ri/",
-      "phonetic_simple": "SÈ-BÈ-LI MÈ NA BA-RAA GBÉ SO-TO WON MAAM-BI-LIN FA-RI",
-      "translation": "Cette chronique apporte une immense bénédiction sur notre lignée ancestrale.",
-      "context": "Valider l'importance historique d'un document généalogique."
-    },
-    {
-      "phrase_id": "p25_7",
-      "original": "A fisa won na falanmabilin xunɲa lɔn singe na fɛ won na falan matɔn.",
-      "phonetic_api": "/a fi.sa won na fa.lan.ma.bi.lin xun.ɲa lɔn sin.ɡe na fɛ won na fa.lan ma.tɔn/",
-      "phonetic_simple": "A FI-SA WON NA FA-LAN-MA-BI-LIN KHOUN-NYA LON SIN-GUÉ, NA FÈ WON NA FA-LAN MA-TON",
-      "translation": "Il vaut mieux que nous comprenions d'abord le sens de l'allégorie, ensuite nous débattrons.",
-      "context": "Poser les bases méthodologiques d'une exégèse littéraire."
-    },
-    {
-      "phrase_id": "p25_8",
-      "original": "Talatunu kbaaxu mu tinma gbeɲanfala ra, a sariɲen nan a ra fari.",
-      "phonetic_api": "/ta.la.tu.nu kbaː.xu mu tin.ma ɡbe.ɲan.fa.la ra a sa.ri.ɲen nan a ra fa.ri/",
-      "phonetic_simple": "TA-LA-TOU-NOU KBAA-KHOU MOU TIN-MA GBÉ-NYAN-FA-LA RA, A SA-RI-NYEN NAN A RA FA-RI",
-      "translation": "L'épopée authentique ne tolère aucune falsification, sa justesse est absolue.",
-      "context": "Défendre l'intégrité de la tradition historique face aux réinterprétations."
+      "phrase_id": "p4",
+      "original": "Kìbáarù bée xa tàamáŋgà.",
+      "phonetic_api": "/kibaarou bee xa taamangga/",
+      "phonetic_simple": "ki-ba-a-ROU BÉ-é xa ta-a-mang-GA",
+      "translation": "Cette nouvelle/information concerne le chef de village.",
+      "context": "Combine 'kìbáarù' et 'tàamáŋgà', tous deux attestés."
     }
   ],
   "grammar_points": [
     {
-      "concept": "Le syntagme nominal de qualification historique : 'Nom + kbaaxu'",
-      "explanation": "Au niveau C1-C2, la notion d'historicité, d'ancienneté sacrée et d'authenticité textuelle se construit en apposant l'adjectif qualificatif stable 'kbaaxu' (ancien/historique/fondateur) directement au nom.",
+      "concept": "Les limites de l'analyse grammaticale de textes yalunka pour cette leçon",
+      "explanation": "La documentation académique la plus complète du yalunka (dialecte jalonké) au plan grammatical est la thèse de Friederike Lüpke, 'A grammar of Jalonke argument structure' (Max Planck Institute, 2005). Le fichier PDF de cette thèse a été localisé et téléchargé, mais son texte n'a pas pu être extrait de manière fiable (encodage de police propriétaire corrompu, testé avec plusieurs outils d'extraction). Cette leçon se limite donc à l'analyse de courtes phrases construites à partir du lexique attesté par Creissels (2010), sans pouvoir proposer l'analyse syntaxique fine d'un texte littéraire réel et étendu en yalunka.",
       "rules": [
-        "Sɛbɛli (Écrit) + kbaaxu = Sɛbɛli kbaaxu (Texte historique / Chronique ancienne)",
-        "Ce bloc nominal fonctionne comme un déterminant d'autorité historique."
+        "Aucune règle syntaxique complexe n'est extraite ici, faute de texte source exploitable."
       ],
-      "examples": [
-        {
-          "structure": "Sɛbɛli kbaaxu.",
-          "phonetic_api": "/sɛ.bɛ.li kbaː.xu/",
-          "meaning": "Un texte historique authentique."
-        }
-      ]
-    },
-    {
-      "concept": "La construction nominale complexe par agglutination : 'Falan-mabilin'",
-      "explanation": "Pour traduire les concepts littéraires de figure de style, métaphore ou allégorie, la langue procède par composition nominale avancée. Elle associe 'falan' (la parole) et la racine verbale 'mabilin' (tourner/évoluer/transformer), créant le terme 'falanmabilin' (la parole retournée/imagée).",
-      "rules": [
-        "Falan + mabilin = Falanmabilin (Métaphore / Allégorie)",
-        "Prend les marques grammaticales usuelles en fin de mot."
-      ],
-      "examples": [
-        {
-          "structure": "Na falanmabilin na fanyin.",
-          "phonetic_api": "/na fa.lan.ma.bi.lin na fan.jin/",
-          "meaning": "Cette allégorie est magnifique."
-        }
-      ]
+      "examples": []
     }
   ],
   "dialogue": [
     {
-      "speaker": "Karamɔxɔ (Le Professeur d'histoire)",
-      "text": "Xaranmuxe, singe ra a lan won na sɛbɛli kbaaxu mɛ matɔxun. Mun falanmabilin nan na i bɛ mɛ ?"
+      "speaker": "Étudiant",
+      "text": "Kíiní bée xa mín?",
+      "phonetic_api": "/kiini bee xa min/",
+      "phonetic_simple": "KI-i-ni BÉ-é xa min",
+      "translation": "De quoi parle ce conte ?"
     },
     {
-      "speaker": "Xaranmuxe (L'Étudiant avancé)",
-      "text": "N baabaa, n na sɛbɛli matɔxunfe tɛmɛni na. Falanmabilin xunɲa bata n mali fanyin, kɔni a xɔlɔ nan na n bɛ singe ra."
+      "speaker": "Conteur",
+      "text": "Màŋgá nùŋ tàamáŋgà xa.",
+      "phonetic_api": "/mang-ga noung ta-a-mang-ga xa/",
+      "phonetic_simple": "mang-GA noung ta-a-mang-GA xa",
+      "translation": "Du roi et du chef de village."
     },
     {
-      "speaker": "Karamɔxɔ",
-      "text": "Hali naxanba a na xɔlɔ, na fe ra won na falan matɔn-ma nɛ sanndiya ra, alaxɛ na ra.ba won birin na a lɔn pian."
+      "speaker": "Étudiant",
+      "text": "Kìbáarù bée kɛ́ndí!",
+      "phonetic_api": "/kibaarou bee kendi/",
+      "phonetic_simple": "ki-ba-a-ROU BÉ-é KEN-di",
+      "translation": "Cette information/histoire est bonne !"
     },
     {
-      "speaker": "Xaranmuxe",
-      "text": "Talatunu kbaaxu mɛ na won mambilin nan a ra fari. Xunɲa sariɲen na danyi won bɛ, gbeɲanfala birin bata ba."
-    },
-    {
-      "speaker": "Karamɔxɔ",
-      "text": "Na sariɲen ra ! I falan bata tin m bɛ fanyin. Baraa gbe na i fari."
+      "speaker": "Étudiant",
+      "text": "Bɔ́qíkáŋ̀ náŋ kíiní bée xa bà?",
+      "phonetic_api": "/boqikang nang kiini bee xa ba/",
+      "phonetic_simple": "bô-qi-KANG nang KI-i-ni BÉ-é xa ba",
+      "translation": "Le chef de la terre est-il dans ce conte ?"
     }
   ],
   "cultural_notes": [
-    "En Haute-Guinée, analyser les textes historiques et les chroniques orales ('sɛbɛli kbaaxu') exige un protocole linguistique strict. L'exégète ne doit pas sur-interpréter ou introduire de 'gbeɲanfala' (sophismes), car l'histoire des clans et des lignées ancestrales ('mambilin') touche aux fondements juridiques et territoriaux de la société Jalonké.",
-    "L'usage des métaphores ('falanmabilin') dans la littérature orale sert de filtre d'initiation : seuls les esprits fins et exercés parviennent à décoder le 'xunɲa' (sens profond) caché derrière les récits apparents."
+    "Le peuple yalunka (dialonké) est historiquement associé au royaume du Solimana dans la région de Faranah/Dinguiraye en Guinée, avant les conquêtes de la fin du XIXe siècle ; cette histoire orale se transmet notamment par les 'kíiní' (contes) et les généalogies royales.",
+    "La recherche linguistique universitaire sur le yalunka reste rare comparée à d'autres langues mandé plus documentées comme le soussou ou le maninka ; Creissels (2010) et Lüpke (2005) constituent les deux travaux académiques de référence identifiés pour cette langue."
   ],
   "exercises": [
     {
-      "exercise_id": "ex25_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel terme Yalunka de haute technicité désigne une figure de style, une métaphore ou une allégorie littéraire ?",
+      "question": "Quel mot désigne le genre du conte en yalunka ?",
       "options": [
-        "Sɛbɛli",
-        "Falanmabilin",
-        "Matɔxun"
+        "kíiní",
+        "kìbáarù",
+        "màŋgá"
       ],
-      "correct_answer": "Falanmabilin",
-      "explanation": "'Falanmabilin' est formé sur l'idée d'une parole transposée ou imagée, correspondant exactement à la métaphore."
+      "correct_answer": "kíiní",
+      "explanation": "Attesté dans Creissels (2010)."
     },
     {
-      "exercise_id": "ex25_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Pour parler du sens profond ou de l'essence d'un texte littéraire, on emploie le substantif [ ___ ].",
-      "correct_answer": "xunɲa",
-      "hint": "Ce mot commence par un 'x' vélaire et comporte une nasale palatale, signifiant littéralement la tête ou la moelle d'une affaire."
+      "sentence_with_blank": "« Nouvelle, information » se dit : [ ___ ].",
+      "correct_answer": "kìbáarù",
+      "hint": "Attesté par Creissels (2010)."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Denis Creissels — Liste lexicale du dialonké de Faléya, Mandenkan 46 (2010), pp. 49-71",
+      "url": "http://www.deniscreissels.fr/public/Creissels-liste_lexicale_dialonke.pdf"
+    },
+    {
+      "label": "Friederike Lüpke — A grammar of Jalonke argument structure (thèse, MPI/Radboud Nijmegen, 2005)",
+      "url": "https://pure.mpg.de/rest/items/item_59381_8/component/file_2603778/content"
+    }
+  ],
+  "confidence": "faible",
+  "confidence_note": "Le vocabulaire de base (conte, nouvelle, roi) est attesté dans Creissels (2010). L'analyse de textes littéraires ou historiques réels et étendus en yalunka n'a pas pu être réalisée car la grammaire de référence disponible (thèse de Lüpke, 2005) n'a pas pu être exploitée techniquement (fichier PDF corrompu à l'extraction). La confiance reste donc faible et le contenu se limite à de courtes phrases construites, non à une analyse de texte authentique."
 }

@@ -1,163 +1,187 @@
 {
-  "lesson_id": "C1_M1_L5",
+  "lesson_id": "C1_M2_L5",
   "level": "Avancé (C1-C2)",
-  "module_number": 1,
-  "module_title": "Nuances et complexité",
+  "module_number": 2,
+  "module_title": "Culture, traditions et rhétorique",
   "lesson_number": 5,
   "title": "Débattre, argumenter et défendre un point de vue",
   "learning_objectives": [
-    "Soutenir une thèse de manière contradictoire en utilisant des structures d'affirmation forte",
-    "Réfuter l'argumentation d'un interlocuteur avec des formules de politesse rhétorique"
+    "Utiliser « deenten » (demander/interroger) pour engager un échange argumentatif",
+    "Employer « nɔɔndi » (vérité, avoir raison) pour valider ou contester un argument",
+    "Reconnaître les limites du corpus disponible pour l'argumentation formelle"
   ],
   "phonetic_focus": {
-    "key_sounds": "L'accentuation d'insistance sur la voyelle finale de la particule affirmative 'gbee' exige une élévation de la hauteur tonale. La consonne occlusive injective alvéolaire /ɗ/ (notée d') doit être prononcée avec une implosion nasale nette pour marquer la conviction.",
-    "common_pitfalls": "Dans un débat animé, veillez à ne pas raccourcir le double 'ee' de 'gbee' ou le double 'aa' de 'baang', car la clarté de votre argumentation en nalu dépend du respect des durées de prononciation."
+    "key_sounds": "Le nalu comporte 7 voyelles avec opposition de longueur (i, u, e [ɪ], o [ʊ], ɛ, ɔ, a) et des consonnes comme θ (proche du 'th' anglais dur, prononcé [f] par de nombreux locuteurs), gb (occlusive labio-vélaire double, sans équivalent en français), et ŋ (comme 'ng' dans 'parking'). Source : Seidel (2024), The Oxford Guide to the Atlantic Languages of West Africa.",
+    "common_pitfalls": "Les francophones ont tendance à confondre ɛ/e et ɔ/o car le français ne marque pas systématiquement cette opposition de fermeture. Le θ est souvent mal prononcé car il n'existe pas en français ; beaucoup de locuteurs nalu eux-mêmes le réalisent [f]. La longueur vocalique (ex. redoublement de voyelle 'ɔɔ') doit être respectée, contrairement au français où elle n'est pas distinctive."
   },
   "vocabulary": [
     {
-      "word_id": "v23_1",
-      "term": "Gbee",
-      "phonetic_api": "/g͡beː/",
-      "phonetic_simple": "GBÉÉ",
-      "translation": "Affirmer / Soutenir avec certitude",
-      "example_sentence": "M gbee foti mi.",
-      "example_phonetic": "/m g͡beː fo.ti mi/",
-      "example_translation": "J'affirme haut et fort ma parole."
+      "word_id": "v1",
+      "term": "deenten",
+      "phonetic_api": "/deːnten/",
+      "phonetic_simple": "DÉÉNTÉN",
+      "translation": "demander, interroger",
+      "example_sentence": "Mɔɔ madeentnaa nɛɛ pe ɲaaŋ hɔɔntɔ maki ɲɔw.",
+      "example_phonetic": "/mɔː madeːntnaː nɛː pe ɲaːŋ hɔːntɔ maki ɲɔw/",
+      "example_translation": "Il lui demanda : « Mère, pourquoi pleures-tu ? »"
     },
     {
-      "word_id": "v23_2",
-      "term": "Bosh-hale",
-      "phonetic_api": "/bɔʃ.ha.lɛ/",
-      "phonetic_simple": "BOSH-HA-LÈ",
-      "translation": "Contredire / Réfuter / Renvoyer l'argument",
-      "example_sentence": "M bosh-hale foti mwo.",
-      "example_phonetic": "/m bɔʃ.ha.lɛ fo.ti mwo/",
-      "example_translation": "Je réfute ton argument (ta parole)."
+      "word_id": "v2",
+      "term": "yek",
+      "phonetic_api": "/jek/",
+      "phonetic_simple": "YÉK",
+      "translation": "dire, affirmer",
+      "example_sentence": "Bɛyek nɛɛ aŋɛyet tɛkɛ kamsaley kamfitiri.",
+      "example_phonetic": "/bɛjek nɛː aŋɛjet tɛkɛ kamsalej kamfitiri/",
+      "example_translation": "Ils affirmèrent qu'il arriverait bientôt à l'heure de la prière du soir."
     },
     {
-      "word_id": "v23_3",
-      "term": "Lan-ce",
-      "phonetic_api": "/lan.tʃe/",
-      "phonetic_simple": "LAN-TCHÉ",
-      "translation": "Raisonnement / Logique / Pensée droite",
-      "example_sentence": "Lan-ce mwo a gbe baang.",
-      "example_phonetic": "/lan.tʃe mwo a ŋgbe baːŋ/",
-      "example_translation": "Ton raisonnement est puissant (grand)."
+      "word_id": "v3",
+      "term": "nɔɔndi",
+      "phonetic_api": "/nɔːndi/",
+      "phonetic_simple": "NÔÔNDI",
+      "translation": "vérité ; avoir raison",
+      "example_sentence": "Mnɔɔndi maay.",
+      "example_phonetic": "/mnɔːndi maːj/",
+      "example_translation": "Tu as raison."
     },
     {
-      "word_id": "v23_4",
-      "term": "Foti-foti",
-      "phonetic_api": "/fo.ti.fo.ti/",
-      "phonetic_simple": "FO-TI-FO-TI",
-      "translation": "Débat / Discussion contradictoire / Palabre",
-      "example_sentence": "Foti-foti we a ce.",
-      "example_phonetic": "/fo.ti.fo.ti we a tʃe/",
-      "example_translation": "Ce débat est constructif (bon)."
+      "word_id": "v4",
+      "term": "hali (contradiction)",
+      "phonetic_api": "/hali/",
+      "phonetic_simple": "HALI",
+      "translation": "non ; formule de contestation/désaccord",
+      "example_sentence": "Hali mɔ nti kɔɔmnahar amaam.",
+      "example_phonetic": "/hali mɔ nti kɔːmnahar amaːm/",
+      "example_translation": "Non, celui-ci a préparé cela lui-même."
     },
     {
-      "word_id": "v23_5",
-      "term": "Tila-ce",
-      "phonetic_api": "/ti.la.tʃe/",
-      "phonetic_simple": "TI-LA-TCHÉ",
-      "translation": "Preuve / Fait incontestable",
-      "example_sentence": "M malang tila-ce di foti.",
-      "example_phonetic": "/m ba.laŋ ti.la.tʃe di fo.ti/",
-      "example_translation": "J'apporte une preuve dans la discussion."
+      "word_id": "v5",
+      "term": "ŋɛya / ŋɛy",
+      "phonetic_api": "/ŋɛja/",
+      "phonetic_simple": "NGÈYA",
+      "translation": "aller, se rendre (peut introduire une conclusion d'action après discussion)",
+      "example_sentence": "Awa a mɔ ŋɛya nikaθaay koy kamceknah.",
+      "example_phonetic": "/awa a mɔ ŋɛja nikaθaːj koj kamt͜seknah/",
+      "example_translation": "Qu'il aille donc là où sa femme extrait le sel."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p23_1",
-      "original": "M gbee lan-ce mi, foti-we m malang tila-ce ce b'at.",
-      "phonetic_api": "/m g͡beː lan.tʃe mi fo.ti.we m ba.laŋ ti.la.tʃe tʃe ɓat/",
-      "phonetic_simple": "M GBÉÉ LAN-TCHÉ MI, FO-TI-WÉ M BA-LANG TI-LA-TCHÉ TCHÉ BAT",
-      "translation": "Je soutiens fermement mon raisonnement, car j'apporte des preuves tout à fait solides.",
-      "context": "Formule d'autorité pour asseoir sa position dans un débat public ou communautaire."
+      "phrase_id": "p1",
+      "original": "Mɔɔ madeentnaa nɛɛ pe ɲaaŋ hɔɔntɔ maki ɲɔw.",
+      "phonetic_api": "/mɔː madeːntnaː nɛː pe ɲaːŋ hɔːntɔ maki ɲɔw/",
+      "phonetic_simple": "MÔÔ MADÉÉNTNAA NÈÈ PÉ NYAANG HÔÔNTO MAKI NYOW",
+      "translation": "Il lui demanda : « Mère, pourquoi pleures-tu ? »",
+      "context": "Ouverture d'un échange par une question directe, base de tout débat."
     },
     {
-      "phrase_id": "p23_2",
-      "original": "Mun-moti m lan foti mwo, m kanɛ bosh-hale we foti-we a gbe ce.",
-      "phonetic_api": "/mun.mo.ti m lan fo.ti mwo m ka.nɛ bɔʃ.ha.lɛ we fo.ti.we a ŋgbe tʃe/",
-      "phonetic_simple": "MOUN-MO-TI M LAN FO-TI MWO, M KA-NÈ BOSH-HA-LÈ WÉ FO-TI-WÉ A NGBÉ TCHÉ",
-      "translation": "Bien que je comprenne ta parole, je dois réfuter cela parce que ce n'est pas correct.",
-      "context": "Introduction polie mais ferme pour contredire un interlocuteur sans l'offenser."
+      "phrase_id": "p2",
+      "original": "Hali mɔ nti kɔɔmnahar amaam.",
+      "phonetic_api": "/hali mɔ nti kɔːmnahar amaːm/",
+      "phonetic_simple": "HALI MO NTI KÔÔMNAHAR AMAAM",
+      "translation": "Non, celui-ci a préparé cela lui-même.",
+      "context": "Formule de contradiction/réfutation d'un point avancé."
     },
     {
-      "phrase_id": "p23_3",
-      "original": "A rila tila-ce mwo di foti-foti we?",
-      "phonetic_api": "/a ri.la ti.la.tʃe mwo di fo.ti.fo.ti we/",
-      "phonetic_simple": "A RI-LA TI-LA-TCHÉ MWO DI FO-TI-FO-TI WÉ",
-      "translation": "Quelle est ta preuve dans ce débat ?",
-      "context": "Question de niveau avancé pour déstabiliser l'argumentation adverse en exigeant des faits."
+      "phrase_id": "p3",
+      "original": "Mnɔɔndi maay.",
+      "phonetic_api": "/mnɔːndi maːj/",
+      "phonetic_simple": "M-NÔÔNDI MAAY",
+      "translation": "Tu as raison.",
+      "context": "Formule de validation d'un argument, clôturant un point de débat."
+    },
+    {
+      "phrase_id": "p_extra1",
+      "original": "Bɛyek nɛɛ aŋɛyet tɛkɛ kamsaley kamfitiri.",
+      "phonetic_api": "/bɛjek nɛː aŋɛjet tɛkɛ kamsalej kamfitiri/",
+      "phonetic_simple": "YÉK",
+      "translation": "Ils affirmèrent qu'il arriverait bientôt à l'heure de la prière du soir.",
+      "context": "Réemploi de l'exemple attesté pour le terme « yek » (voir vocabulaire de cette leçon), afin d'illustrer son usage en phrase."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'intensificateur modal 'gbee' pour l'affirmation catégorique",
-      "explanation": "En nalu avancé, pour transformer un simple avis en une thèse défendue avec force, on insère le verbe auxiliaire d'affirmation 'gbee' juste après le pronom sujet. Il modifie le verbe principal pour lui donner une valeur de certitude absolue.",
+      "concept": "La structure minimale de l'argumentation attestée : question, contradiction, validation",
+      "explanation": "Le corpus disponible ne documente pas de rhétorique formelle nalu (pas de connecteurs dédiés comme « en revanche », « je soutiens que »). L'argumentation attestée repose sur trois actes de parole de base : interroger (deenten), contester (hali + proposition), valider (nɔɔndi maay « tu as raison »). Ces éléments, combinés aux connecteurs logiques de la Leçon 3 (nɛɛ, naan, beenuŋ), permettent de construire un échange argumentatif simple mais honnête par rapport aux données disponibles.",
       "rules": [
-        "Placé directement entre le pronom personnel et le substantif ou verbe de pensée.",
-        "Il exclut l'usage des particules de doute comme 'thila-be'."
+        "« hali » en tête de réponse marque un désaccord explicite avec ce qui précède.",
+        "« nɔɔndi » + possessif (maay « à toi », maam « à moi/lui ») sert à attribuer la validité d'un propos à un interlocuteur."
       ],
       "examples": [
         {
-          "structure": "M gbee lan",
-          "phonetic_api": "/m g͡beː lan/",
-          "meaning": "Je soutiens avec certitude / Je suis intimement convaincu"
-        },
-        {
-          "structure": "M gbee foti",
-          "phonetic_api": "/m g͡beː fo.ti/",
-          "meaning": "J'affirme catégoriquement"
+          "structure": "Hali... / Mnɔɔndi maay.",
+          "phonetic_api": "/hali/, /mnɔːndi maːj/",
+          "meaning": "Non... / Tu as raison."
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Amara",
-      "text": "Mboye, Sékou ! Foti-foti we di n'boka marce a gbe ce. M gbee lan moti tange a gbe baang foti-we ceeborna a gbe ba.",
-      "phonetic_api": "/mbo.je se.ku fo.ti.fo.ti we di n͡bo.ka mar.ʃe a ŋgbe tʃe m g͡beː lan mo.ti taŋ.e a ŋgbe baːŋ fo.ti.we tʃeː.bor.na a ŋgbe ba/",
-      "phonetic_simple": "MBO-YÉ, SÉ-KOU ! FO-TI-FO-TI WÉ DI N-BO-KA MAR-TCHÉ A NGBÉ TCHÉ. M GBÉÉ LAN MO-TI TANG-É A NGBÉ BAANG FO-TI-WÉ TCHÉÉ-BOR-NA A NGBÉ BA.",
-      "translation": "Bonjour, Sékou ! Ce débat sur le marché est important. J'affirme que si les prix sont élevés, c'est parce que les pêcheurs ne viennent plus."
+      "speaker": "Débatteur A",
+      "text": "Mɔɔ madeentnaa nɛɛ pe ɲaaŋ hɔɔntɔ maki ɲɔw.",
+      "phonetic_api": "/mɔː madeːntnaː nɛː pe ɲaːŋ hɔːntɔ maki ɲɔw/",
+      "phonetic_simple": "MÔÔ MADÉÉNTNAA NÈÈ PÉ NYAANG HÔÔNTO MAKI NYOW",
+      "translation": "Il lui demanda : « Mère, pourquoi pleures-tu ? »"
     },
     {
-      "speaker": "Sékou",
-      "text": "Mboye ce, Amara ! Mun-moti m lan foti mwo, m kanɛ bosh-hale we. Tila-ce mi gbe we : cen, ceeborna beeduŋ n'gbe bileng a ba-a di marce.",
-      "phonetic_api": "/mbo.je tʃe a.ma.ra mun.mo.ti m lan fo.ti mwo m ka.nɛ bɔʃ.ha.lɛ we ti.la.tʃe mi gbe we tʃen tʃeː.bor.na beː.duŋ ŋgbe bi.leŋ a ba.a di mar.ʃe/",
-      "phonetic_simple": "MBO-YÉ TCHÉ, A-MA-RA ! MOUN-MO-TI M LAN FO-TI MWO, M KA-NÈ BOSH-HA-LÈ WÉ. TI-LA-TCHÉ MI GBÉ WÉ : TCHEN, TCHÉÉ-BOR-NA BÉÉ-DOUNG NGBÉ BI-LENG A BA-A DI MAR-TCHÉ.",
-      "translation": "Bonjour bien, Amara ! Bien que je comprenne ton point de vue, je dois le réfuter. Ma preuve est celle-ci : hier, sept pêcheurs sont bel et et bien venus au marché."
+      "speaker": "Débatteur B",
+      "text": "Hali mɔ nti kɔɔmnahar amaam.",
+      "phonetic_api": "/hali mɔ nti kɔːmnahar amaːm/",
+      "phonetic_simple": "HALI MO NTI KÔÔMNAHAR AMAAM",
+      "translation": "Non, celui-ci a préparé cela lui-même."
     },
     {
-      "speaker": "Amara",
-      "text": "Ooh, lan-ce mwo a gbe baang. Mu-cale m boku thath foti mi. Nu koka di tila-ce we.",
-      "phonetic_api": "/oː lan.tʃe mwo a ŋgbe baːŋ mu.tʃa.le m bo.ku θaθ fo.ti mi nu ko.ka di ti.la.tʃe we/",
-      "phonetic_simple": "OOH, LAN-TCHÉ MWO A NGBÉ BAANG. MOU-TCHA-LÉ M BO-KOU THATH FO-TI MI. NOU KO-KA DI TI-LA-TCHÉ WÉ.",
-      "translation": "Ooh, ton raisonnement est imparable. Par conséquent, je vais revoir (baisser) mon jugement. Merci pour cette preuve."
+      "speaker": "Débatteur A",
+      "text": "Mnɔɔndi maay.",
+      "phonetic_api": "/mnɔːndi maːj/",
+      "phonetic_simple": "M-NÔÔNDI MAAY",
+      "translation": "Tu as raison."
+    },
+    {
+      "speaker": "Débatteur A",
+      "text": "Bɛyek nɛɛ aŋɛyet tɛkɛ kamsaley kamfitiri.",
+      "phonetic_api": "/bɛjek nɛː aŋɛjet tɛkɛ kamsalej kamfitiri/",
+      "phonetic_simple": "YÉK",
+      "translation": "Ils affirmèrent qu'il arriverait bientôt à l'heure de la prière du soir."
     }
   ],
   "cultural_notes": [
-    "Le débat public et l'argumentation contradictoire font partie intégrante des assemblées communautaires nalu. Un bon débatteur n'est pas celui qui crie le plus fort, mais celui qui manie avec finesse les connecteurs logiques de concession et apporte des 'tila-ce' (preuves factuelles). Reconnaître la validité de l'argument adverse, comme le fait Amara, est perçu comme une marque de grande maturité intellectuelle et spirituelle."
+    "L'absence de vocabulaire rhétorique dédié (comme « argument », « objection », « thèse ») dans le corpus disponible reflète le fait que les données recueillies par Seidel proviennent principalement de récits de vie et de contes, non de débats formels ou politiques.",
+    "La formule de validation « mnɔɔndi maay » place la notion de vérité au centre de la résolution d'un désaccord dans la culture orale nalu documentée."
   ],
   "exercises": [
     {
-      "exercise_id": "ex23_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel terme nalu utilise-t-on pour dire 'Je réfute / Je contredis ton argument' ?",
+      "question": "Quelle formule sert à valider l'argument d'un interlocuteur en nalu (d'après le corpus attesté) ?",
       "options": [
-        "M gbee lan",
-        "M bosh-hale foti mwo",
-        "M'mela thand"
+        "Mnɔɔndi maay",
+        "Baker mθɔkɔθ kfeef",
+        "Awa a mɔ ŋɛya"
       ],
-      "correct_answer": "M bosh-hale foti mwo",
-      "explanation": "'Bosh-hale' combine le refus ('bosh') et le renvoi de la parole pour exprimer la réfutation rhétorique."
+      "correct_answer": "Mnɔɔndi maay",
+      "explanation": "« Mnɔɔndi maay » (tu as raison) est attesté par Seidel (2024) comme formule de validation."
     },
     {
-      "exercise_id": "ex23_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Pour parler d'un raisonnement logique ou d'une pensée droite, on emploie l'expression : [ ___ ].",
-      "correct_answer": "lan-ce",
-      "hint": "Littéralement 'penser bien/proprement'"
+      "sentence_with_blank": "« [ ___ ] mɔ nti kɔɔmnahar amaam » exprime un désaccord/une contradiction.",
+      "correct_answer": "Hali",
+      "hint": "Particule de négation catégorique en tête de phrase."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Seidel, F. (2024) « Nalu », in The Oxford Guide to the Atlantic Languages of West Africa, Oxford University Press",
+      "url": "https://academic.oup.com/book/59850/chapter/511378992"
+    },
+    {
+      "label": "Glottolog 5.3, « Nalu » (nalu1240 / naj)",
+      "url": "https://glottolog.org/resource/languoid/id/nalu1240"
+    }
+  ],
+  "confidence": "faible",
+  "confidence_note": "Le corpus disponible ne documente aucune rhétorique argumentative formelle propre au nalu ; cette leçon reconstruit une structure minimale (questionner/contester/valider) à partir de trois formules attestées isolément, sans preuve qu'elles s'enchaînent naturellement dans un vrai débat nalu."
 }

@@ -1,174 +1,178 @@
 {
   "lesson_id": "C1_M2_L6",
-  "level": "Avancé (C1-C2)",
+  "level": "Niveau Avancé (C1 - C2)",
   "module_number": 2,
   "module_title": "Culture, traditions et rhétorique",
   "lesson_number": 6,
   "title": "Le registre soutenu et le langage formel (cérémonies, contes, traditions)",
   "learning_objectives": [
-    "Employer les formules d'apparat liturgiques et rituelles de la langue Mani",
-    "Structurer le prologue d'un récit traditionnel ou d'un conte ancestral",
-    "Manier le vocabulaire de la sacralité et du respect dus aux institutions coutumières"
+    "Étudier un extrait authentique du chant funéraire mani glosé par Childs (2011)",
+    "Reconnaître le vocabulaire cérémoniel attesté (vin de palme, deuil)",
+    "Comprendre la fonction sociale du registre soutenu dans les cérémonies mani"
   ],
   "phonetic_focus": {
-    "key_sounds": "La consonne occlusive injective alvéolaire voisée /ɗ/ (ou le 'd' lourd cérémoniel) dans 'dɔŋɔ' demande une implosion glottale subtile. Les modulations de voix sur les voyelles finales allongées comme dans 'bami-ee' servent de marqueurs d'emphase solennelle.",
-    "common_pitfalls": "Veillez à ne pas prononcer le 'g' de 'tɔgɔ-gbun' de manière affaiblie ou fricative. L'alliance de l'occlusive vélaire et du groupe co-articulé /gb/ doit marquer la majesté du propos."
+    "key_sounds": "Le mani distingue 8 voyelles (i, e, ɛ, a, ɔ, o, u, ə) et des consonnes prénasalisées (mp, nt/nd, ŋk) ainsi qu'une labiovélaire /gb/ absentes du français. Le ton (registre haut/bas) est phonémique (Childs 2011, ch.2).",
+    "common_pitfalls": "Les francophones ont tendance à ne pas distinguer ɛ/e et ɔ/o, à simplifier les consonnes prénasalisées en de simples séquences nasale+consonne, et à ignorer les contrastes de ton, qui changent pourtant le sens ou la fonction grammaticale du mot (ex. hortatif vs perfectif marqués uniquement par le ton)."
   },
   "vocabulary": [
     {
-      "word_id": "v24_1",
-      "term": "dɔŋɔ",
-      "phonetic_api": "/ɗɔ.ŋɔ/",
-      "phonetic_simple": "DƆ-NGƆ",
-      "translation": "parole sacrée / liturgie / verbe d'apparat / ancêtre",
-      "example_sentence": "Dɔŋɔ bɛ ni yoma-ra.",
-      "example_phonetic": "/ɗɔ.ŋɔ bɛ ni jo.ma ra/",
-      "example_translation": "La parole sacrée est porteuse de vérité absolue."
+      "word_id": "v1",
+      "term": "kalam",
+      "phonetic_api": "/kalam/",
+      "phonetic_simple": "KA-LAM",
+      "translation": "vin de palme (boisson rituelle des veillées et cérémonies)"
     },
     {
-      "word_id": "v24_2",
-      "term": "bami-ee",
-      "phonetic_api": "/ba.mi eː/",
-      "phonetic_simple": "BA-MI-ÉÉ",
-      "translation": "nobles / assemblée vénérable / dignitaires (vocatif formel)",
-      "example_sentence": "Tuli kɔŋ, bami-ee !",
-      "example_phonetic": "/tu.li kɔŋ ba.mi eː/",
-      "example_translation": "Écoutez s'il vous plaît, ô vénérables dignitaires !"
+      "word_id": "v2",
+      "term": "boli",
+      "phonetic_api": "/boli/",
+      "phonetic_simple": "BO-LI",
+      "translation": "depuis (connecteur employé dans les récits formels)"
     },
     {
-      "word_id": "v24_3",
-      "term": "tɔgɔ-gbun",
-      "phonetic_api": "/tɔ.ɡɔ ɡbun/",
-      "phonetic_simple": "TO-GO-GBOUN",
-      "translation": "loi immuable / charte rituelle / décret sacré",
-      "example_sentence": "N fɔkɔ-lan tɔgɔ-gbun.",
-      "example_phonetic": "/n̩ fɔ.kɔ lan tɔ.ɡɔ ɡbun/",
-      "example_translation": "Je viens guider le peuple selon la loi immuable."
+      "word_id": "v3",
+      "term": "cog / ucog",
+      "phonetic_api": "/tʃɔg/, /utʃɔg/",
+      "phonetic_simple": "TCHOG / OU-TCHOG",
+      "translation": "chanter / chant (registre cérémoniel)"
     },
     {
-      "word_id": "v24_4",
-      "term": "kpeerɛ-yoma",
-      "phonetic_api": "/kpeː.rɛ jo.ma/",
-      "phonetic_simple": "KPEE-RÈ-YO-MA",
-      "translation": "bénédiction originelle / harmonie spirituelle de la lignée",
-      "example_sentence": "Kpeerɛ-yoma bɛ denbaya fɛ.",
-      "example_phonetic": "/kpeː.rɛ jo.ma bɛ den.ba.ja fɛ/",
-      "example_translation": "La bénédiction originelle repose sur la famille."
+      "word_id": "v4",
+      "term": "wi",
+      "phonetic_api": "/wi/",
+      "phonetic_simple": "WI",
+      "translation": "mourir (registre du chant funéraire, variante de 'wu')",
+      "example_sentence": "eee yafɔndɔ wi inan mɔnt wɔɔɔ",
+      "example_phonetic": "/eːe jafɔndɔ wi inan mɔnt wɔːɔ/",
+      "example_translation": "É-é-é, Yafondo est mort aujourd'hui, dans la misère complète. (attesté Childs 2011, appendice 1)"
     },
     {
-      "word_id": "v24_5",
-      "term": "fari-gbun",
-      "phonetic_api": "/fa.ri ɡbun/",
-      "phonetic_simple": "FA-RI-GBOUN",
-      "translation": "danse rituelle / célébration solennelle / cérémonie",
-      "example_sentence": "Woŋ cɛm bɛ ni fari-gbun.",
-      "example_phonetic": "/woŋ tʃɛm bɛ ni fa.ri ɡbun/",
-      "example_translation": "Le village est le théâtre d'une célébration solennelle."
+      "word_id": "v5",
+      "term": "kanka",
+      "phonetic_api": "/kaŋka/",
+      "phonetic_simple": "KANG-KA",
+      "translation": "puisse..., que... (particule optative de souhait formel)",
+      "example_sentence": "kanka go n sɔ hɔri",
+      "example_phonetic": "/kaŋka go n sɔ hɔri/",
+      "example_translation": "Puisses-tu avoir une bonne matinée ! (attesté Childs 2011, ex.372)"
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p24_1",
-      "original": "Bami-ee, tuli kɔŋ ! Dɔŋɔ fɔkɔ-wo hɔnkɔ lɔ fɛ.",
-      "phonetic_api": "/ba.mi eː tu.li kɔŋ ɗɔ.ŋɔ fɔ.kɔ wo hɔn.kɔ lɔ fɛ/",
-      "phonetic_simple": "BA-MI-ÉÉ, TOU-LI KONG ! DƆ-NGƆ FƆ-KƆ-WO HON-KƆ LƆ FÈ",
-      "translation": "Ô vénérables dignitaires, écoutez s'il vous plaît ! La parole sacrée s'est manifestée à nous en ce jour.",
-      "context": "Formule solennelle d'ouverture pour un conte, une palabre majeure ou une veillée traditionnelle."
+      "phrase_id": "p1",
+      "original": "ya te atakan ace go ga cono",
+      "phonetic_api": "/ja tɛ atakan atʃɛ go ga tʃono/",
+      "phonetic_simple": "YA TÈ A-TA-KAN A-TCHÉ GO GA TCHO-NO",
+      "translation": "J'entends les femmes chanter.",
+      "context": "Extrait authentique du registre narratif/cérémoniel attesté par Childs (2011, ex.143)."
     },
     {
-      "phrase_id": "p24_2",
-      "original": "N kperɛ-woŋ dɔŋɔ fɔkɔ-fɛ tɔgɔ-gbun na mɛnni.",
-      "phonetic_api": "/n̩ kpe.rɛ woŋ ɗɔ.ŋɔ fɔ.kɔ fɛ tɔ.ɡɔ ɡbun na mɛn.ni/",
-      "phonetic_simple": "N KPE-RÈ-WONG DƆ-NGƆ FƆ-KƆ-FÈ TO-GO-GBOUN NA MÈN-NI",
-      "translation": "Je transmets le verbe sacré car la loi immuable réside là-bas.",
-      "context": "Déclaration d'un orateur ou d'un émissaire justifiant sa prise de parole officielle."
+      "phrase_id": "p2",
+      "original": "kanka go n sɔ hɔri",
+      "phonetic_api": "/kaŋka go n sɔ hɔri/",
+      "phonetic_simple": "KANG-KA GO N SO HO-RI",
+      "translation": "Puisses-tu avoir une bonne matinée !",
+      "context": "Formule de départ élaborée et cérémonielle, registre soutenu (Childs 2011, ex.372)."
     },
     {
-      "phrase_id": "p24_3",
-      "original": "Xa kpeerɛ-yoma bɛ ni wun, wun ce wɔli-la gbun.",
-      "phonetic_api": "/xa kpeː.rɛ jo.ma bɛ ni wun wun tʃe wɔ.li la ɡbun/",
-      "phonetic_simple": "KHA KPEE-RÈ-YO-MA BÈ NI WOUN, WOUN TCHÉ WƆ-LI-LA GBOUN",
-      "translation": "Si la bénédiction originelle t'accompagne, tu accompliras de grandes œuvres.",
-      "context": "Vœu de haute portée spirituelle adressé par un ancien à un jeune chef ou à un initié."
+      "phrase_id": "p3",
+      "original": "n kili mi lɔmɔlɔ ye",
+      "phonetic_api": "/n kili mi lɔmɔlɔ jɛ/",
+      "phonetic_simple": "N KI-LI MI LO-MO-LO YÈ",
+      "translation": "Donne-moi ce qui reste !",
+      "context": "Demande attestée dans la complainte funéraire pour Yafondo, illustrant le registre émotionnel soutenu (Childs 2011, appendice 1)."
     },
     {
-      "phrase_id": "p24_4",
-      "original": "Fari-gbun na lɔ cɛm, fɛ-fɔkɔ kunu-wo wo-ce fɔkɔ.",
-      "phonetic_api": "/fa.ri ɡbun na lɔ tʃɛm fɛ fɔ.kɔ ku.nu wo wo tʃe fɔ.kɔ/",
-      "phonetic_simple": "FA-RI-GBOUN NA LƆ TCHÈM, FÈ-FƆ-KƆ KOU-NOU-WO WO-TCHÉ FƆ-KƆ",
-      "translation": "La cérémonie sacrée bat son plein ici, bien que l'inquiétude eût pu s'installer.",
-      "context": "Exalter le triomphe du rituel sur les contingences et les doutes humains."
+      "phrase_id": "p4",
+      "original": "u-sal cɛ ko cɛ nun ubɔmun bɔŋ u tɔl",
+      "phonetic_api": "/usal tʃɛ ko tʃɛ nun ubɔmun bɔŋ u tɔl/",
+      "phonetic_simple": "OU-SAL TCHÉ KO TCHÉ NOUN OU-BO-MOUN BONG OU TOL",
+      "translation": "Le fleuve était encore haut, alors il descendit (par un autre chemin).",
+      "context": "Formule narrative soutenue attestée, tirée du récit historique de Morlaye Boyo Keita « Tomro et l'hippopotame », registre de la tradition orale cérémonielle (Childs 2011, appendice 1)."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'invocation honorifique et l'interjection vocative suffixée",
-      "explanation": "Dans le registre soutenu de la langue Mani, s'adresser à une assemblée exige l'usage du substantif de noblesse 'bami' (les nobles/les pairs) étendu par le suffixe vocatif à valeur solennelle '-ee'. Cette structure suspend la syntaxe linéaire ordinaire pour imposer le silence rituel.",
+      "concept": "Le registre soutenu dans le texte funéraire mani",
+      "explanation": "Childs (2011) documente et glose un chant funéraire mani composé par Morlaye Boyo Keita, l'un des rares textes longs authentiques disponibles dans cette langue. Ce texte emploie un registre soutenu marqué par des connecteurs temporels ('boli'), des relatives élaborées (-wa/-ya) et un vocabulaire rituel (vin de palme, chant, deuil).",
       "rules": [
-        "Structure de l'apostrophe formelle : Titre honorifique + Suffixe vocatif prolongé '-ee'.",
-        "Le verbe à l'impératif qui suit est systématiquement adouci par 'kɔŋ' pour marquer la déférence sacrée."
+        "Le registre cérémoniel privilégie les phrases longues avec plusieurs propositions enchâssées.",
+        "Le vocabulaire du deuil et de la commémoration s'appuie sur des éléments concrets de la vie sociale (partage du vin de palme, chant collectif)."
       ],
       "examples": [
         {
-          "structure": "Bami-ee, tuli !",
-          "phonetic_api": "/ba.mi eː tu.li/",
-          "meaning": "Nobles pairs, prêtez l'oreille !"
+          "structure": "ya te [proposition relative] cono",
+          "phonetic_api": "/ja tɛ ... tʃono/",
+          "meaning": "j'entends [que...] chanter"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Mora-gbun (L'Ancien / Le Conteur)",
-      "text": "Bami-ee, tuli kɔŋ ! Dɔŋɔ fɔkɔ-wo hɔnkɔ lɔ fɛ. Xa kpeerɛ-yoma bɛ lɔ, woŋ ce tunkɛ.",
-      "phonetic_api": "/ba.mi eː tu.li kɔŋ ɗɔ.ŋɔ fɔ.kɔ wo hɔn.kɔ lɔ fɛ xa kpeː.rɛ jo.ma bɛ lɔ woŋ tʃe tun.kɛ/",
-      "phonetic_simple": "BA-MI-ÉÉ, TOU-LI KONG ! DƆ-NGƆ FƆ-KƆ-WO HON-KƆ LƆ FÈ. KHA KPEE-RÈ-YO-MA BÈ LƆ, WONG TCHÉ TOUN-KÈ.",
-      "translation": "Ô vénérables dignitaires, écoutez s'il vous plaît ! Le verbe sacré s'est manifesté à nous aujourd'hui. Si la bénédiction originelle est ancrée ici, toute la cité sera dans l'allégresse."
+      "speaker": "Officiant",
+      "text": "ya te atakan ace go ga cono.",
+      "phonetic_api": "/ja tɛ atakan atʃɛ go ga tʃono/",
+      "phonetic_simple": "YA TÈ A-TA-KAN A-TCHÉ GO GA TCHO-NO",
+      "translation": "J'entends les femmes chanter."
     },
     {
-      "speaker": "L'Assemblée (Représentée par un notable)",
-      "text": "Oon n fara, dɔŋɔ na yoma-ra. Fɛ-fɔkɔ kunu-wo gbun-wo, lɔ-fɔkɔ-fɛ tɔgɔ-gbun ce haani-lɔ wun.",
-      "phonetic_api": "/oːn n̩ fa.ra ɗɔ.ŋɔ na jo.ma ra fɛ fɔ.kɔ ku.nu wo ɡbun wo lɔ fɔ.kɔ fɛ tɔ.ɡɔ ɡbun tʃe haː.ni lɔ wun/",
-      "phonetic_simple": "OON N FA-RA, DƆ-NGƆ NA YO-MA-RA. FÈ-FƆ-KƆ KOU-NOU-WO GBOUN-WO, LƆ-FƆ-KƆ-FÈ TO-GO-GBOUN TCHÉ HAA-NI-LƆ WOUN.",
-      "translation": "Oui notre père, ta parole est une vérité absolue. Bien que le doute ait été immense, par conséquent la loi immuable va te soutenir pleinement."
+      "speaker": "Assistance",
+      "text": "boli gɔnɔ gɔ sɔyɔ...",
+      "phonetic_api": "/boli gɔnɔ go sɔjo/",
+      "phonetic_simple": "BO-LI GO-NO GO SO-YO",
+      "translation": "Depuis ce matin... (ouverture typique d'un récit formel, attestée Childs 2011 ex.144)"
     },
     {
-      "speaker": "Mora-gbun (L'Ancien / Le Conteur)",
-      "text": "Yoma a ra ! Fari-gbun ce bɛŋ kankaran lɔ. Wun ce ni gbeŋu ni guba furi-furi-ee ?",
-      "phonetic_api": "/jo.ma a ra fa.ri ɡbun tʃe bɛŋ kan.ka.ran lɔ wun tʃe ni ɡbe.ŋu ni ɡu.ba fu.ri fu.ri eː/",
-      "phonetic_simple": "YO-MA A RA ! FA-RI-GBOUN TCHÉ BÈNG KAN-KA-RAN LƆ. WOUN TCHÉ NI GBÉ-NGOU NI GOU-BA FOU-RI-FOU-RI-ÉÉ ?",
-      "translation": "C'est excellent ! La cérémonie sacrée va se déployer au centre de la cour. Es-tu paré de tes offrandes et de tes vêtements d'un blanc pur ?"
+      "speaker": "Assistance 2",
+      "text": "eee yafɔndɔ wi inan mɔnt wɔɔɔ.",
+      "phonetic_api": "/eːe jafɔndɔ wi inan mɔnt wɔːɔ/",
+      "phonetic_simple": "É-É-É YA-FON-DO WI I-NAN MONT WO-O-O",
+      "translation": "É-é-é, Yafondo est mort aujourd'hui, dans la misère complète. (attesté, Childs 2011, appendice 1, chant funéraire de M'Mahawa Bangoura)"
     },
     {
-      "speaker": "L'Assemblée (Représentée par un notable)",
-      "text": "Oon, n bɛ ni guba furi-furi-ee cece. Dɔŋɔ-gbun ce wɔli-la ni yoma. Cece n fara, gbana !",
-      "phonetic_api": "/oːn n̩ bɛ ni ɡu.ba fu.ri fu.ri eː tʃe.tʃe ɗɔ.ŋɔ ɡbun tʃe wɔ.li la ni jo.ma tʃe.tʃe n̩ fa.ra ɡba.na/",
-      "phonetic_simple": "OON, N BÈ NI GOU-BA FOU-RI-FOU-RI-ÉÉ TCHÉ-TCHÉ. DƆ-NGƆ-GBOUN TCHÉ WƆ-LI-LA NI YO-MA. TCHÉ-TCHÉ N FA-RA, GBA-NA !",
-      "translation": "Oui, je revêts de grands habits blancs. La haute liturgie va s'accomplir dans la paix. Merci infiniment notre père, au revoir !"
+      "speaker": "Assistance 3",
+      "text": "a gbɛn ma yan, a gbɛn ma kwɛ.",
+      "phonetic_api": "/a gbɛn ma jan a gbɛn ma kwɛ/",
+      "phonetic_simple": "A GBÈN MA YAN, A GBÈN MA KOUÈ",
+      "translation": "J'ai fini, j'ai fini de le boire. (attesté, Childs 2011, appendice 1, réponse de Dadi dans la complainte de Yafondo)"
     }
   ],
   "cultural_notes": [
-    "Dans les structures rituelles de Basse-Guinée, le registre soutenu de la langue Mani est l'apanage des initiés et des anciens ('mora-gbun'). Les discours formels prononcés lors du conseil des sages ou au début des récits mythiques obéissent à une stricte codification : interdiction d'élever la voix, emploi de termes sacrés ('dɔŋɔ') et obligation pour l'assistance de revêtir des habits blancs ('guba furi-furi-ee') en signe de pureté intentionnelle et d'allégeance aux décrets coutumiers."
+    "Le chant funéraire pour Yafondo, composé par Morlaye Boyo Keita et glosé intégralement par Childs (2011), constitue le principal témoignage écrit du registre cérémoniel mani.",
+    "Le partage du vin de palme (kalam) pendant les veillées funéraires est une pratique culturelle centrale associée à ce registre soutenu."
   ],
   "exercises": [
     {
-      "exercise_id": "ex24_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel terme formel Mani désigne la 'parole sacrée', le 'verbe rituel' ou la liturgie des anciens ?",
+      "question": "Qui a composé le chant funéraire mani documenté par Childs (2011) ?",
       "options": [
-        "wɔli",
-        "dɔŋɔ",
-        "gbeŋu"
+        "Morlaye Boyo Keita",
+        "G. Tucker Childs",
+        "Un anonyme du Sénégal"
       ],
-      "correct_answer": "dɔŋɔ",
-      "explanation": "'Dɔŋɔ' qualifie exclusivement la parole solennelle, sacrée et rituelle transmise par l'autorité coutumière."
+      "correct_answer": "Morlaye Boyo Keita",
+      "explanation": "Ce chant, dédié à Yafondo, est attribué à Morlaye Boyo Keita dans la grammaire de Childs (2011)."
     },
     {
-      "exercise_id": "ex24_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "[ ___ ], tuli kɔŋ ! (Vénérables dignitaires, écoutez s'il vous plaît !).",
-      "correct_answer": "bami-ee",
-      "hint": "Formule d'apostrophe collective de registre très soutenu munie de son suffixe d'allongement de solennité."
+      "sentence_with_blank": "ya te atakan ace go ga [ ___ ]. (J'entends les femmes chanter.)",
+      "correct_answer": "cono",
+      "hint": "Forme attestée liée au verbe 'chanter' dans cet exemple précis."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Childs, G. Tucker (2011), A Grammar of Mani, Mouton Grammar Library 54, De Gruyter Mouton",
+      "url": "https://theswissbay.ch/pdf/Books/Linguistics/Mega%20linguistics%20pack/African/Niger-Congo/other%20Atlantic-Congo/Bullom%20So;%20A%20Grammar%20of%20Mani%20(Childs).pdf"
+    },
+    {
+      "label": "Glottolog 5.3 — Bullom So (bull1247)",
+      "url": "https://glottolog.org/resource/languoid/id/bull1247"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Le texte funéraire et son vocabulaire cérémoniel sont directement attestés et glosés dans Childs (2011). La réplique de l'assistance combine deux extraits authentiques distincts dans un dialogue reconstruit à des fins pédagogiques."
 }

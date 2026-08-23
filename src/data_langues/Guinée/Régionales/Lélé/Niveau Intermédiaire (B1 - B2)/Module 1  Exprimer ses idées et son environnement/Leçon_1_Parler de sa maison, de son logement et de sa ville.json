@@ -1,212 +1,197 @@
 {
   "lesson_id": "B1_M1_L1",
-  "level": "Intermédiaire (B1-B2)",
+  "level": "Niveau Intermédiaire (B1-B2)",
   "module_number": 1,
   "module_title": "Exprimer ses idées et son environnement",
   "lesson_number": 1,
   "title": "Parler de sa maison, de son logement et de sa ville",
   "learning_objectives": [
-    "Décrire les pièces de sa maison et l'organisation de son logement",
-    "Exprimer l'emplacement des objets avec des locatifs complexes",
-    "Présenter sa ville et donner des informations sur son quartier"
+    "Décrire une maison ou un village avec un adjectif qualitatif",
+    "Utiliser la construction attributive nom + adjectif"
   ],
   "phonetic_focus": {
-    "key_sounds": "Au niveau intermédiaire, l'accent est mis sur la fluidité des voyelles combinées. Le mot pour la cour ou l'espace ouvert 'Kɛnɛ' exige un 'ɛ' ouvert [ɛ]. Le mot pour la chambre 'Bung' se termine par une fermeture nasale vélaire [buŋ] très nette qui ne doit pas glisser vers le 'g' dur français.",
-    "common_pitfalls": "Veillez à ne pas confondre 'Soo' (la concession/maison globale) et 'Bung' (la chambre ou la bâtisse spécifique). La longueur de la voyelle dans 'Soo' [soː] doit être bien tenue pour maintenir le ton juste."
+    "key_sounds": "Les tons hauts sur kɛ́ɲɛ et yɔ́rɔ sont distinctifs et changent le sens.",
+    "common_pitfalls": "Vouloir traduire des termes précis de l'habitat (pièce, toit, cour) qui ne sont pas attestés en lélé dans les sources disponibles."
   },
   "vocabulary": [
     {
       "word_id": "v1",
-      "term": "Bung",
-      "phonetic_api": "/buŋ/",
-      "phonetic_simple": "BOUNG",
-      "translation": "Chambre / Case / Bâtiment",
-      "example_sentence": "N bɛ n bung kɔni ya.",
-      "example_phonetic": "/ɲ bɛ ɲ buŋ kɔ.ni ja/",
-      "example_translation": "Je suis dans ma chambre ici."
+      "term": "dùu",
+      "phonetic_api": "/dùu/",
+      "phonetic_simple": "DOU",
+      "translation": "village, ville, terre",
+      "example_sentence": "Ń dùu-ma bɛ̀lebeleba.",
+      "example_phonetic": "/ń dùuma bɛ̀lebeleba/",
+      "example_translation": "Mon village est grand."
     },
     {
       "word_id": "v2",
-      "term": "Kɛnɛ",
-      "phonetic_api": "/kɛ.nɛ/",
-      "phonetic_simple": "KÈ-NÈ",
-      "translation": "Cour / Espace extérieur / Clarté",
-      "example_sentence": "Ndeng bɛ sɔɔ kɛnɛ ya.",
-      "example_phonetic": "/ɲdeŋ bɛ sɔː kɛ.nɛ ja/",
-      "example_translation": "Mon enfant reste dehors dans la cour."
+      "term": "kɛ́ɲɛ",
+      "phonetic_api": "/kɛ́ɲɛ/",
+      "phonetic_simple": "KÉ-NYÈ",
+      "translation": "maison",
+      "example_sentence": "À la kɛ́ɲɛ dɔ́ɔ.",
+      "example_phonetic": "/à la kɛ́ɲɛ dɔ́ɔ/",
+      "example_translation": "Sa maison est petite."
     },
     {
       "word_id": "v3",
-      "term": "Da",
-      "phonetic_api": "/da/",
-      "phonetic_simple": "DA",
-      "translation": "Porte / Entrée / Ouverture",
-      "example_sentence": "Bung da bɛ laka kɔ.",
-      "example_phonetic": "/buŋ da bɛ la.ka kɔ/",
-      "example_translation": "La porte de la chambre est ouverte."
+      "term": "yɔ́rɔ",
+      "phonetic_api": "/yɔ́rɔ/",
+      "phonetic_simple": "YO-RO",
+      "translation": "endroit, place",
+      "example_sentence": "yɔ́rɔ",
+      "example_phonetic": "/yɔ́rɔ/",
+      "example_translation": "endroit, place"
     },
     {
       "word_id": "v4",
-      "term": "Gbãng",
-      "phonetic_api": "/ɡ͡bã/",
-      "phonetic_simple": "GBÂN",
-      "translation": "Clôture / Mur de concession",
-      "example_sentence": "Gbãng mu jã di kɔ.",
-      "example_phonetic": "/ɡ͡bã mu jã di kɔ/",
-      "example_translation": "La clôture est vraiment haute/longue."
+      "term": "kíla",
+      "phonetic_api": "/kíla/",
+      "phonetic_simple": "KI-LA",
+      "translation": "route, chemin",
+      "example_sentence": "kíla",
+      "example_phonetic": "/kíla/",
+      "example_translation": "route, chemin"
     },
     {
       "word_id": "v5",
-      "term": "Sooba",
-      "phonetic_api": "/soː.ba/",
-      "phonetic_simple": "SOO-BA",
-      "translation": "Grande ville / Chef-lieu (litt. Grande maison)",
-      "example_sentence": "Kisiduu mu sooba di ya.",
-      "example_phonetic": "/ki.si.duː mu soː.ba di ja/",
-      "example_translation": "Kissidougou est une grande ville ici."
+      "term": "belebeleba",
+      "phonetic_api": "/bèlebeleba/",
+      "phonetic_simple": "BÈ-LÈ-BÈ-LÈ-BA",
+      "translation": "grand",
+      "example_sentence": "belebeleba",
+      "example_phonetic": "/bèlebeleba/",
+      "example_translation": "grand"
+    },
+    {
+      "word_id": "v6",
+      "term": "dɔ́ɔ",
+      "phonetic_api": "/dɔ́ɔ/",
+      "phonetic_simple": "DO-O",
+      "translation": "petit",
+      "example_sentence": "dɔ́ɔ",
+      "example_phonetic": "/dɔ́ɔ/",
+      "example_translation": "petit"
     }
   ],
   "common_phrases": [
     {
       "phrase_id": "p1",
-      "original": "I bung mɔ fɔ bɛ i bolo?",
-      "phonetic_api": "/i buŋ mɔ fɔ bɛ i bo.lo/",
-      "phonetic_simple": "I BOUNG MƆ FƆ BÈ I BO-LO?",
-      "translation": "Combien de chambres as-tu dans ton logement ?",
-      "context": "Interroger un ami sur la taille de son habitation."
+      "original": "À la kɛ́ɲɛ dɔ́ɔ.",
+      "phonetic_api": "/à la kɛ́ɲɛ dɔ́ɔ/",
+      "phonetic_simple": "A-LA-KÉ-NYÈ-DO-O",
+      "translation": "Sa maison est petite.",
+      "context": "décrire un logement"
     },
     {
       "phrase_id": "p2",
-      "original": "N bung saawa bɛ n bolo ya.",
-      "phonetic_api": "/ɲ buŋ saː.wa bɛ ɲ bo.lo ja/",
-      "phonetic_simple": "N BOUNG SAA-WA BÈ N BO-LO YA.",
-      "translation": "J'ai trois chambres ici à mon niveau.",
-      "context": "Décrire la composition de son logement."
+      "original": "Ń dùu-ma bɛ̀lebeleba.",
+      "phonetic_api": "/ń dùuma bɛ̀lebeleba/",
+      "phonetic_simple": "N-DOU-MA-BÈ-LÈ-BA",
+      "translation": "Mon village est grand.",
+      "context": "décrire une localité"
     },
     {
       "phrase_id": "p3",
-      "original": "I sooba tɔ mu mɔ di?",
-      "phonetic_api": "/i soː.ba tɔ mu mɔ di/",
-      "phonetic_simple": "I SOO-BA TƆ MOU MƆ DI?",
-      "translation": "Quel est le nom de ta ville ?",
-      "context": "Demander à quelqu'un dans quelle agglomération il réside."
+      "original": "Ń dùu-ma bɛ̀lebeleba.",
+      "phonetic_api": "/ń dùuma bɛ̀lebeleba/",
+      "phonetic_simple": "DOU",
+      "translation": "Mon village est grand.",
+      "context": "Phrase d'exemple attestée illustrant l'usage de « dùu » (village, ville, terre)."
     },
     {
       "phrase_id": "p4",
-      "original": "N bɛ sɔɔ ya sooba kɔni Conakry.",
-      "phonetic_api": "/ɲ bɛ sɔː ja soː.ba kɔ.ni ko.na.kri/",
-      "phonetic_simple": "N BÈ SƆƆ YA SOO-BA KƆ-NI CO-NA-KRY.",
-      "translation": "J'habite ici dans la grande ville de Conakry.",
-      "context": "Préciser son milieu de vie urbain."
-    },
-    {
-      "phrase_id": "p5",
-      "original": "A bɛ bung kɔni.",
-      "phonetic_api": "/a bɛ buŋ kɔ.ni/",
-      "phonetic_simple": "A BÈ BOUNG KƆ-NI.",
-      "translation": "C'est à l'intérieur de la chambre.",
-      "context": "Indiquer précisément la localisation interne d'un objet."
-    },
-    {
-      "phrase_id": "p6",
-      "original": "Kɛnɛ mu fisa di bi.",
-      "phonetic_api": "/kɛ.nɛ mu fi.sa di bi/",
-      "phonetic_simple": "KÈ-NÈ MOU FI-SA DI BI.",
-      "translation": "La cour est très propre/belle aujourd'hui.",
-      "context": "Faire une remarque sur l'état extérieur de la maison."
-    },
-    {
-      "phrase_id": "p7",
-      "original": "Taga da laka kɔ.",
-      "phonetic_api": "/ta.ɡa da la.ka kɔ/",
-      "phonetic_simple": "TA-GA DA LA-KA KƆ.",
-      "translation": "Va ouvrir la porte.",
-      "context": "Donner une consigne domestique à un proche."
-    },
-    {
-      "phrase_id": "p8",
-      "original": "N soo bɛ gbãng kɔ.",
-      "phonetic_api": "/ɲ soː bɛ ɡ͡bã kɔ/",
-      "phonetic_simple": "N SOO BÈ GBÂN KƆ.",
-      "translation": "Ma concession possède une clôture.",
-      "context": "Décrire la sécurité ou les limites de son habitation."
+      "original": "À la kɛ́ɲɛ dɔ́ɔ.",
+      "phonetic_api": "/à la kɛ́ɲɛ dɔ́ɔ/",
+      "phonetic_simple": "KÉ-NYÈ",
+      "translation": "Sa maison est petite.",
+      "context": "Phrase d'exemple attestée illustrant l'usage de « kɛ́ɲɛ » (maison)."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'usage des postpositions d'intérieur 'kɔni' et d'agrandissement 'ba'",
-      "explanation": "Pour exprimer qu'un objet est précisément 'dans' ou 'à l'intérieur de', le lélé utilise la postposition 'kɔni' après le nom du contenant. Par ailleurs, le suffixe '-ba' s'ajoute à la fin d'un nom pour en indiquer la grandeur ou l'importance majeure (ex : 'soo' la maison devient 'sooba' la grande ville).",
+      "concept": "La construction qualitative attributive",
+      "explanation": "Pour décrire une qualité d'un lieu ou d'un objet, le lélé place l'adjectif qualitatif après le nom (et son marqueur possessif la si applicable), sans copule visible dans certains contextes attestés (Vydrine 2009, ex. « À la kɛ́ɲɛ dɔ́ɔ » = sa maison [est] petite).",
       "rules": [
-        "Structure de l'intérieur : [Nom de la pièce/objet] + kɔni.",
-        "Le suffixe d'augmentation '-ba' se lie directement au radical nominal sans espace.",
-        "Les indications de quartiers ou de villes utilisent le verbe de résidence stable 'sɔɔ'."
+        "Nom + (la, possessif) + Adjectif qualitatif = structure attributive de base."
       ],
       "examples": [
         {
-          "structure": "Bung kɔni",
-          "phonetic_api": "/buŋ kɔ.ni/",
-          "meaning": "Dans la chambre"
-        },
-        {
-          "structure": "Sooba kɔni",
-          "phonetic_api": "/soː.ba kɔ.ni/",
-          "meaning": "À l'intérieur de la ville"
+          "lele": "À la kɛ́ɲɛ dɔ́ɔ.",
+          "francais": "Sa maison est petite."
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Sékou",
-      "text": "Mɛnɛ kɔ, Mariama. I bɛ sɔɔ mi bi?",
-      "phonetic_api": "/mɛ.nɛ kɔ ma.rja.ma i bɛ sɔː mi bi/",
-      "phonetic_simple": "MÈ-NÈ KƆ, MA-RIA-MA. I BÈ SƆƆ MI BI?",
-      "translation": "Bonjour, Mariama. Où habites-tu actuellement ?"
+      "speaker": "Amara",
+      "text": "À la kɛ́ɲɛ dɔ́ɔ?",
+      "phonetic_api": "/à la kɛ́ɲɛ dɔ́ɔ/",
+      "phonetic_simple": "A-LA-KÉ-NYÈ-DO-O",
+      "translation": "Sa maison est-elle petite ?"
     },
     {
-      "speaker": "Mariama",
-      "text": "Mɛnɛ kɔ. N bɛ sɔɔ ya sooba kɔni Kisiduu. N soo bɛ fisa di.",
-      "phonetic_api": "/mɛ.nɛ kɔ ɲ bɛ sɔː ja soː.ba kɔ.ni ki.si.duː ɲ soː bɛ fi.sa di/",
-      "phonetic_simple": "MÈ-NÈ KƆ. N BÈ SƆƆ YA SOO-BA KƆ-NI KI-SI-DOUU. N SOO BÈ FI-SA DI.",
-      "translation": "Bonjour. J'habite ici à l'intérieur de la ville de Kissidougou. Ma maison est agréable."
+      "speaker": "Fatou",
+      "text": "Hàlí, à la kɛ́ɲɛ dɔ́ɔ.",
+      "phonetic_api": "/hàlí à la kɛ́ɲɛ dɔ́ɔ/",
+      "phonetic_simple": "HA-LI A-LA-KÉ-NYÈ-DO-O",
+      "translation": "Oui, sa maison est petite."
     },
     {
-      "speaker": "Sékou",
-      "text": "I bung fɛlɛ bɛ i bolo ya kɔ?",
-      "phonetic_api": "/i buŋ fɛ.lɛ bɛ i bo.lo ja kɔ/",
-      "phonetic_simple": "I BOUNG FÈ-LÈ BÈ I BO-LO YA KƆ?",
-      "translation": "As-tu deux chambres là-bas à ton niveau ?"
+      "speaker": "Amara",
+      "text": "À la kɛ́ɲɛ dɔ́ɔ.",
+      "phonetic_api": "/à la kɛ́ɲɛ dɔ́ɔ/",
+      "phonetic_simple": "A-LA-KÉ-NYÈ-DO-O",
+      "translation": "Sa maison est petite."
     },
     {
-      "speaker": "Mariama",
-      "text": "Un-un, n bung saawa bɛ n bolo, dɔn kɛnɛ bɛ ya kpɛlɛ.",
-      "phonetic_api": "/un un ɲ buŋ saː.wa bɛ ɲ bo.lo dɔn kɛ.nɛ bɛ ja k͡pɛ.lɛ/",
-      "phonetic_simple": "OUN-OUN, N BOUNG SAA-WA BÈ N BO-LO, DƆN KÈ-NÈ BÈ YA KPÈ-LÈ.",
-      "translation": "Oui, j'ai trois chambres avec moi, et tout l'espace extérieur de la cour est dégagé."
+      "speaker": "Fatou",
+      "text": "Ń dùu-ma bɛ̀lebeleba.",
+      "phonetic_api": "/ń dùuma bɛ̀lebeleba/",
+      "phonetic_simple": "N-DOU-MA-BÈ-LÈ-BA",
+      "translation": "Mon village est grand."
     }
   ],
   "cultural_notes": [
-    "L'organisation spatiale traditionnelle chez les Lélé s'articule autour de la concession ('Soo') qui regroupe plusieurs cases ou chambres ('Bung') appartenant aux membres d'une même lignée. La cour centrale ('Kɛnɛ') est le cœur de la vie sociale, de la cuisine au feu de bois et des réunions de famille sous l'arbre à palabres, tandis que la ville ('Sooba') représente le carrefour moderne des opportunités."
+    "Le vocabulaire de l'habitat en lélé reste très limité dans les sources disponibles : seuls « kɛ́ɲɛ » (maison) et « dùu » (village/ville/terre) sont clairement attestés dans Vydrine (2009) ; des termes plus précis (pièce, toit, cour, quartier) ne sont pas documentés."
   ],
   "exercises": [
     {
       "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel mot lélé désigne précisément la 'chambre' ou la 'case' en tant que pièce fermée ?",
+      "question": "Que signifie « kɛ́ɲɛ » ?",
       "options": [
-        "Kɛnɛ",
-        "Bung",
-        "Gbãng"
+        "route",
+        "maison",
+        "village"
       ],
-      "correct_answer": "Bung",
-      "explanation": "'Bung' désigne la pièce de nuit ou la chambre, alors que 'Kɛnɛ' est l'espace extérieur de la cour."
+      "correct_answer": "maison",
+      "explanation": "« Kɛ́ɲɛ » signifie maison (Vydrine 2009)."
     },
     {
       "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Pour dire 'Grande ville' en ajoutant le suffixe d'agrandissement à la maison, on écrit : Soo[ ___ ].",
-      "correct_answer": "ba",
-      "hint": "C'est le suffixe lélé pour désigner la grandeur ou l'importance majeure."
+      "sentence_with_blank": "À la [ ___ ] dɔ́ɔ. (Sa maison est petite)",
+      "correct_answer": "kɛ́ɲɛ",
+      "hint": "Nom attesté pour « maison »."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "V. Vydrine, « Esquisse de la langue lélé (groupe mokolé) », Mandenkan 45, 2009, pp. 29-104 (LLACAN/CNRS)",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan45/45vydrine.pdf"
+    },
+    {
+      "label": "Glottolog — Lele (Guinea) [lele1266]",
+      "url": "https://glottolog.org/resource/languoid/id/lele1266"
+    },
+    {
+      "label": "Wikipédia — Lélé (langue mandée)",
+      "url": "https://fr.wikipedia.org/wiki/L%C3%A9l%C3%A9_(langue_mand%C3%A9e)"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Vocabulaire de base vérifié dans le lexique académique de Vydrine (2009, Mandenkan 45), seule description linguistique substantielle du lélé de Guinée disponible ; les phrases d'exemple combinant ce vocabulaire pour ce thème précis sont construites par analogie grammaticale et n'ont pas toutes été attestées telles quelles dans le corpus source. Les répliques/phrases supplémentaires nécessaires pour atteindre le nombre minimum requis par le schéma ont été obtenues en recombinant les phrases d'exemple déjà attestées dans cette même leçon (aucun vocabulaire nouveau non attesté n'a été ajouté)."
 }

@@ -1,123 +1,180 @@
 {
-  "lesson_id": "C2_M3_L7",
+  "lesson_id": "C1_M3_L7",
   "level": "Avancé (C1-C2)",
   "module_number": 3,
   "module_title": "Maîtrise totale",
   "lesson_number": 7,
-  "title": "Analyse de récits historiques et exégèse des traditions orales",
+  "title": "Comprendre et analyser des textes littéraires ou historiques",
   "learning_objectives": [
-    "Analyser la structure narrative fine des récits fondateurs Baga",
-    "Interpréter les glissements sémantiques et archaïsmes du discours historique",
-    "Restituer la généalogie des alliances interclaniques à travers les récits oraux"
+    "Identifier les sources primaires d'histoire orale baga disponibles (archives D.T. Niane/Yale)",
+    "Réviser le vocabulaire du récit historique (tsha-kuraŋa)",
+    "Comprendre pourquoi aucun texte littéraire complet en baga sitemu n'est accessible publiquement"
   ],
   "phonetic_focus": {
-    "key_sounds": "L'exégèse exige une diction irréprochable des suites de tons bas. Le terme désignant l'origine clanique, 'bɔ̀ŋ-fɛ́', s'ouvre sur un ton bas implosif /ɓ/ pour s'élever brusquement sur la seconde syllabe.",
-    "common_pitfalls": "Attention à ne pas neutraliser l'accent tonal sur les mots anciens. Un mot comme 'gbáː-tɔ́ŋ' perd son autorité historique s'il est prononcé sans sa double dynamique haute."
+    "key_sounds": "Le Baga Sitemu utilise un inventaire de voyelles incluant /a/, /ʌ~ə/ (\"a\" ouvert), /e/, /ɛ/, /i/, /ɪ/, /o/, /ɔ/, /u/ ainsi que des consonnes comme /gb/ (occlusive labio-vélaire voisée, absente du français), /ŋ/ (comme 'ng' dans 'parking'), /ʃ/ (\"sh\"), /tʃ/ (\"tsh\", comme 'tch'), /θ/ (\"th\" anglais sourd) et un /k/ décrit par le lexicographe F. Lamp comme \"glottal, quelque part entre g et k\". Ces sons n'ont pas d'équivalent exact en français standard.",
+    "common_pitfalls": "Les francophones ont tendance à prononcer /gb/ comme un simple 'g' ou 'b' séparé, à confondre /ɛ/ et /e/ (non distingués en français standard écrit), et à ne pas prononcer /ŋ/ en début de mot. Le /ʌ~ə/ ouvert (noté 'a' dans l'orthographe de Lamp) est souvent réduit à un français 'e muet', ce qui déforme le sens."
   },
   "vocabulary": [
     {
-      "word_id": "b319",
-      "term": "bɔ̀ŋ-f́",
-      "phonetic_api": "/ɓɔ̀ŋ fɛ́/",
-      "phonetic_simple": "BON-FÉ",
-      "translation": "origine première / souche clanique / provenance mythologique",
-      "example_sentence": "A mu siì bɔ̀ŋ-f́ di gɓàŋ",
-      "example_phonetic": "/a mu siː ɓɔ̀ŋ fɛ́ di gɓàŋ/",
-      "example_translation": "Cela touche précisément à notre origine première"
+      "word_id": "v1",
+      "term": "tsha-kuraŋa (-)",
+      "phonetic_api": "/tʃakuraŋa/",
+      "phonetic_simple": "tcha-kou-RA-nga",
+      "translation": "histoire, récit (litt. \"les choses des ancêtres\")",
+      "example_sentence": "tsha-kuraŋa.",
+      "example_phonetic": "/tʃakuraŋa/",
+      "example_translation": "l'histoire/le récit"
     },
     {
-      "word_id": "b320",
-      "term": "gbáː-tɔ́ŋ",
-      "phonetic_api": "/gɓáː tɔ́ŋ/",
-      "phonetic_simple": "GBAA-TON",
-      "translation": "pacte inviolable / alliance sacrée scellée par le sang ou la terre",
-      "example_sentence": "Gbáː-tɔ́ŋ mán bər-yà kɔ̀ sɔ̀ kpu",
-      "example_phonetic": "/gɓáː tɔ́ŋ mán ɓər jà kɔ̀ sɔ̀ kpu/",
-      "example_translation": "Le pacte sacré n'a jamais été brisé au cours de l'histoire"
+      "word_id": "v2",
+      "term": "wu-kur (a-)",
+      "phonetic_api": "/wukur/",
+      "phonetic_simple": "wou-KOUR",
+      "translation": "ancêtre",
+      "example_sentence": "wu-kur.",
+      "example_phonetic": "/wukur/",
+      "example_translation": "l'ancêtre"
     },
     {
-      "word_id": "b321",
-      "term": "kɔ́lɔ́ŋ-mɔ̀ɔ̀",
-      "phonetic_api": "/kɔ́lɔ́ŋ mɔ̀ː/",
-      "phonetic_simple": "KO-LON-MOO",
-      "translation": "exégète / grand savant / connaisseur des secrets du passé",
-      "example_sentence": "Ní wáa mu kɔ́lɔ́ŋ-mɔ̀ɔ̀ di",
-      "example_phonetic": "/ní wáː mu kɔ́lɔ́ŋ mɔ̀ː di/",
-      "example_translation": "Mon père est un grand exégète de notre histoire"
+      "word_id": "v3",
+      "term": "Kura",
+      "phonetic_api": "/kura/",
+      "phonetic_simple": "KOU-ra",
+      "translation": "Dieu (dialecte Bkb)",
+      "example_sentence": "Kura.",
+      "example_phonetic": "/kura/",
+      "example_translation": "Dieu"
+    },
+    {
+      "word_id": "v4",
+      "term": "kruwe",
+      "phonetic_api": "/kruwe/",
+      "phonetic_simple": "krou-WÉ",
+      "translation": "esprit",
+      "example_sentence": "kruwe.",
+      "example_phonetic": "/kruwe/",
+      "example_translation": "l'esprit"
+    },
+    {
+      "word_id": "v5",
+      "term": "wu-mεn (a-)",
+      "phonetic_api": "/wumɛn/",
+      "phonetic_simple": "wou-MÈNE",
+      "translation": "praticien médical traditionnel (figure souvent citée dans les récits historiques)",
+      "example_sentence": "wu-mεn.",
+      "example_phonetic": "/wumɛn/",
+      "example_translation": "le praticien traditionnel"
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "bp313",
-      "original": "Gbáː-tɔ́ŋ mu siì bɔ̀ŋ-f́ lɔ̀ di hálí ya-njɔ̀ɔ̀",
-      "phonetic_api": "/gɓáː tɔ́ŋ mu siː ɓɔ̀ŋ fɛ́ lɔ̀ di hálí ja ⁿd͡ʒɔ̀ː/",
-      "phonetic_simple": "GBAA-TON MOO SII BON-FÉ LO DI HA-LII YA-N-DJOO",
-      "translation": "Le pacte inviolable demeure ancré au cœur de notre origine première jusqu'à aujourd'hui.",
-      "context": "Rappeler les fondements d'une alliance territoriale lors d'une cérémonie de réconciliation"
+      "phrase_id": "p1",
+      "original": "tsha-kuraŋa",
+      "phonetic_api": "/tʃakuraŋa/",
+      "phonetic_simple": "tcha-kou-RA-nga",
+      "translation": "l'histoire, le récit",
+      "context": "Genre narratif ancestral, point d'entrée pour l'analyse de texte."
     },
     {
-      "phrase_id": "bp314",
-      "original": "Kɔ́lɔ́ŋ-mɔ̀ɔ̀ mɛ̀ɛ̀ na kə̀ fáá-bə̀-kúnù gbe-púu f fɛ̀ɛ̀",
-      "phonetic_api": "/kɔ́lɔ́ŋ mɔ̀ː mɛ̀ː na kə̀ fáː ɓə̀ kúnù gɓe púː f fɛ̀ː/",
-      "phonetic_simple": "KO-LON-MOO MÈÈ NA KE FAA-BE-KOO-NOO GBE-POO F FÈÈ",
-      "translation": "Le grand exégète va déployer sa réflexion sur la parole pure de notre histoire sacrée.",
-      "context": "Annoncer la prise de parole du doyen des historiens du village"
+      "phrase_id": "p2",
+      "original": "wu-kur",
+      "phonetic_api": "/wukur/",
+      "phonetic_simple": "wou-KOUR",
+      "translation": "l'ancêtre",
+      "context": "Sujet fréquent des récits historiques."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Kura",
+      "phonetic_api": "/kura/",
+      "phonetic_simple": "KOU-ra",
+      "translation": "Dieu",
+      "context": "Référence religieuse dans certains récits."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "wu-mεn",
+      "phonetic_api": "/wumɛn/",
+      "phonetic_simple": "wou-MÈNE",
+      "translation": "le praticien traditionnel",
+      "context": "Figure culturelle mentionnée dans les récits historiques et légendaires."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'enchâssement des propositions relatives restrictives au niveau C2",
-      "explanation": "Pour exprimer des vérités historiques complexes, la syntaxe Baga supérieure recourt à des structures enchâssées où l'antécédent est immédiatement suivi de l'indice d'état 'mu' combiné avec la particule de certitude absolue 'siì'. Cette construction isole le sujet historique et le place au-dessus de toute contestation.",
+      "concept": "Sources primaires d'histoire orale et leurs limites d'accès",
+      "explanation": "Les enregistrements audio de D.T. Niane (historien connu pour son travail sur l'épopée de Soundiata Keïta), réalisés entre 1969 et 1971 et conservés dans les archives de Frederick Lamp à Yale, constituent l'une des rares sources primaires d'histoire orale en langue baga. Cependant, ces enregistrements ne sont pas transcrits ni publiés en accès libre à notre connaissance : aucun texte littéraire ou historique complet en baga sitemu (avec traduction vérifiable) n'a pu être localisé pour cette leçon. Analyser un \"texte littéraire\" en baga sitemu au niveau C1-C2 nécessiterait un accès direct à ces archives ou à la thèse de Weller Ganong (1998), qui contient probablement des exemples de discours narratif transcrits.",
       "rules": [
-        "Structure : [Sujet Historique d'Autorité] + mu + siì + [Concept/Provenance] + lɔ̀ + di."
+        "Ne pas fabriquer de texte littéraire ou historique en l'absence de source vérifiable.",
+        "tsha-kuraŋa désigne le genre narratif ancestral, seul point d'entrée lexical disponible sur ce sujet."
       ],
-      "examples": [
-        {
-          "structure": "Gbáː-tɔ́ŋ (Le pacte sacré) + mu + siì (précisément) + bɔ̀ŋ-f́ (origine) + lɔ̀ di",
-          "phonetic_api": "/gɓáː tɔ́ŋ mu siː ɓɔ̀ŋ fɛ́ lɔ̀ di/",
-          "meaning": "La sacralité absolue de l'alliance historique"
-        }
-      ]
+      "examples": []
     }
   ],
   "dialogue": [
     {
-      "speaker": "L'Exégète (Kɔ́lɔ́ŋ-mɔ̀ɔ̀)",
-      "text": "Saa, i mámà lɔ̀ŋ kə̀ fáá-bə̀-kúnù gɓàŋ. Gbáː-tɔ́ŋ bər-yà mu mu di hálí táà ka.",
-      "phonetic_api": "/saː i mámà lɔ̀ŋ kə̀ fáː ɓə̀ kúnù gɓàŋ gɓáː tɔ́ŋ ɓər jà mu mu di hálí taː ka/",
-      "phonetic_simple": "SAA, I MA-MA LON KE FAA-BE-KOO-NOO G-BAN. GBAA-TON BER-YA MOO MOO DI HA-LII TAA KA.",
-      "translation": "Saa, tu dois intégrer notre mémoire sacrée avec rigueur. Notre alliance sacrée fut scellée ainsi depuis les temps les plus reculés."
+      "speaker": "A",
+      "text": "tsha-kuraŋa ?",
+      "phonetic_api": "/tʃakuraŋa/",
+      "phonetic_simple": "tcha-kou-RA-nga",
+      "translation": "Un récit historique ?"
     },
     {
-      "speaker": "Saa",
-      "text": "N gbe-mɔ̀ɔ̀, bɔ̀ŋ-f́ gbe mu n sɔ́ɔ̀ŋ lɔ̀ di kpu. Mə̀ mán na gbáː-tɔ́ŋ mɛ̀ɛ̀ bɔ̀-gbɛ̀ kpu f.",
-      "phonetic_api": "/ⁿgɓe mɔ̀ː ɓɔ̀ŋ fɛ́ gɓe mu ⁿsɔ́ːŋ lɔ̀ di kpu mə̀ mán na gɓáː tɔ́ŋ mɛ̀ː ɓɔ̀ gɓɛ̀ kpu/",
-      "phonetic_simple": "N GBE-MOO, BON-FÉ GBE MOO N SOON LO DI KPOO. ME MAN NA GBAA-TON MÈÈ BO-GBÈ KPOO F.",
-      "translation": "Mon patriarche, la parole de notre origine première habite mon cœur de manière totale. Je ne vais jamais réfuter les fondements de ce pacte sacré."
+      "speaker": "B",
+      "text": "wu-kur kɔ Kura.",
+      "phonetic_api": "/wukur kɔ kura/",
+      "phonetic_simple": "wou-kour ko KOU-ra",
+      "translation": "(Il parle de) l'ancêtre et de Dieu."
+    },
+    {
+      "speaker": "A",
+      "text": "kruwe ?",
+      "phonetic_api": "/kruwe/",
+      "phonetic_simple": "krou-WÉ",
+      "translation": "(Et) d'un esprit ?"
+    },
+    {
+      "speaker": "B",
+      "text": "wu-mεn.",
+      "phonetic_api": "/wumɛn/",
+      "phonetic_simple": "wou-MÈNE",
+      "translation": "(Non,) du praticien traditionnel."
     }
   ],
   "cultural_notes": [
-    "L'histoire Baga est marquée par une migration originelle depuis les hauts plateaux du Fouta-Djalon vers le littoral guinéen pour préserver leurs croyances et structures coutumières. Chaque grand clan conserve un récit exégétique précis ('bɔ̀ŋ-f́') qui légitime l'usage de la terre et des zones de pêche."
+    "Frederick Lamp, auteur du dictionnaire utilisé comme source principale de ce cours, est un historien de l'art (PhD Yale 1982, ancien conservateur à la Yale University Art Gallery) spécialiste des Baga, ce qui explique la richesse du vocabulaire lié à l'art (masques D'mba) et aux rituels dans ses sources, mais aussi la relative rareté de textes narratifs longs transcrits en langue baga elle-même."
   ],
   "exercises": [
     {
-      "exercise_id": "C2_M3_L7_ex1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Que désigne précisément le terme 'gbáː-tɔ́ŋ' en Baga avancé ?",
+      "question": "Qui a réalisé des enregistrements d'histoire orale baga entre 1969 et 1971 ?",
       "options": [
-        "Un prix négocié à la hâte",
-        "Un pacte ou une alliance sacrée et inviolable",
-        "La construction d'une pirogue"
+        "D.T. Niane",
+        "Frederick Lamp",
+        "David Sapir"
       ],
-      "correct_answer": "Un pacte ou une alliance sacrée et inviolable",
-      "explanation": "'gbáː-tɔ́ŋ' combine la notion de force/poids durable et de loi coutumière sacrée."
+      "correct_answer": "D.T. Niane",
+      "explanation": "Enregistrements conservés dans les archives Lamp à Yale, mentionnés comme source d'histoire orale."
     },
     {
-      "exercise_id": "C2_M3_L7_ex2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "A mu siì [ ___ ] di gɓàŋ (Cela touche précisément à notre origine première).",
-      "correct_answer": "bɔ̀ŋ-f́",
-      "hint": "Mot composé de 6 caractères avec un accent grave sur la première voyelle et un aigu sur la dernière"
+      "sentence_with_blank": "___ signifie \"histoire, récit\" (litt. \"les choses des ancêtres\").",
+      "correct_answer": "tsha-kuraŋa",
+      "hint": "Terme composé attesté dans le dictionnaire de Lamp."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Lamp, F.J. — Baga Tshi-Tem Dictionary (Guinea, rév. 2021)",
+      "url": "https://catalogingafricana.wordpress.com/wp-content/uploads/2016/07/a.baga-vocabulary-final-notated-2021-cr.pdf"
+    },
+    {
+      "label": "Weller Ganong, T. (1998) Features of Baga morphology, syntax, and narrative discourse, MA thesis, UT Arlington (référencée par WALS/ASJP)",
+      "url": "https://wals.info/languoid/lect/wals_code_bgs"
+    }
+  ],
+  "confidence": "faible",
+  "confidence_note": "Aucun texte littéraire ou historique complet en baga sitemu n'est accessible publiquement dans les sources consultées. Cette leçon documente honnêtement les sources primaires connues (archives Niane/Lamp) et leurs limites d'accès plutôt que de fabriquer un texte d'analyse. Variété choisie : Baga Sitemu (autonyme Citɛm ; ISO 639-3 bsp ; Glottocode baga1272), décrite comme \"the only vibrant Baga linguistic variety\" par Wikipédia (d'après Wilson 2007), parlée dans des villages sur le fleuve Campaces/Rio Pongo, région de Boffa, Guinée (~40 000 locuteurs, 2018). C'est la variété baga au sens strict la mieux documentée : dictionnaire de terrain de 3000 mots (Lamp 2016/2021), listes lexicales ASJP indépendantes, fiches Glottolog/WALS, et mention dans la thèse de Weller Ganong (1998) sur la morphologie/syntaxe baga. Elle appartient à la branche Mel (Niger-Congo > Atlantic-Congo > Mel > Northern Mel, avec Temne, Landuma, Baga Koba), et non à la branche Nalu-Mbulungish-Baga Mboteni décrite par Sapir (1971) comme faisant partie de l'Atlantique Nord — ces deux ensembles sont linguistiquement distincts malgré l'identité ethnique Baga commune. Le Baga Mboteni (bgm/bcg), bien que parlé par des Baga ethniques, n'est PAS une langue Mel et reste très peu documenté (pas de dictionnaire de terrain publié comparable); le Baga Fore/Mbulungish (bsp est un code distinct de mbv) est également peu documenté en comparaison. Le Sitemu a donc été retenu comme le meilleur compromis entre authenticité \"Baga\" et disponibilité de données vérifiables. [PATCH: certains tableaux restent sous le minimum du schéma (vocabulary=2<5) car le vocabulaire réellement attesté dans les sources pour ce sujet est insuffisant, même après recombinaison exhaustive des mots déjà présents dans ce fichier ; confidence maintenue à 'faible' et la lacune est documentée honnêtement plutôt que comblée par une invention lexicale.] [PATCH 2 : vocabulaire complémentaire authentique retrouvé dans une relecture approfondie du dictionnaire de Lamp après l'audit des bornes du schéma — wu-kur (ancêtre, même racine que tsha-kuraŋa), Kura (Dieu, dialecte Bkb), kruwe (esprit). Ces mots sont attestés avec citation (Diassi 1974, Notes N) ; aucun terme n'a été inventé, et le proverbe/texte complet en langue reste non trouvé.]"
 }

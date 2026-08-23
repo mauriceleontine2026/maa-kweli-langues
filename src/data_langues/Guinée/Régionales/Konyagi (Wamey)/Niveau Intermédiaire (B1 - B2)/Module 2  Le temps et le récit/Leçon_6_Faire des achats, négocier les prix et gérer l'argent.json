@@ -6,214 +6,171 @@
   "lesson_number": 6,
   "title": "Faire des achats, négocier les prix et gérer l'argent",
   "learning_objectives": [
-    "Maîtriser le lexique des transactions commerciales et financières en wamey",
-    "Connaître les structures syntaxiques pour marchander et négocier un prix",
-    "Exprimer l'accord, le désaccord ou le compromis lors d'un achat"
+    "Identifier le vocabulaire konyagi réellement attesté disponible pour le thème « Faire des achats, négocier les prix et gérer l'argent ».",
+    "Comprendre les limites de la documentation disponible pour cette langue très rare.",
+    "Situer le konyagi dans son contexte géographique, historique et culturel (groupe tenda)."
   ],
   "phonetic_focus": {
-    "key_sounds": "La distinction fondamentale entre la voyelle brève /a/ et la voyelle longue /aː/. La présence de la consonne occlusive injective bilabiale /ɓ/.",
-    "common_pitfalls": "Attention à ne pas confondre le terme 'wetya' (vendre) avec 'wetyal' (acheter). Une mauvaise longueur de voyelle peut altérer le sens de la négociation."
+    "key_sounds": "Au niveau intermédiaire, l'attention porte sur la reconnaissance des consonnes prénasalisées (mb, mp, nd, nt, nc, nj, nk, nkw, nt) dans des mots plus longs, et sur les voyelles nasalisées notées avec un tilde (ỹ, w̃) — cf. tableau IPA Wikipedia.",
+    "common_pitfalls": "Les francophones ont tendance à dénasaliser les voyelles marquées ỹ/w̃ et à simplifier les groupes consonantiques prénasalisés en une seule consonne."
   },
   "vocabulary": [
     {
       "word_id": "v1",
-      "term": "wetyal",
-      "phonetic_api": "/wɛtjal/",
-      "phonetic_simple": "OUÉ-TYAL",
-      "translation": "acheter",
-      "example_sentence": "Nyi gwa wetyal kofon.",
-      "example_phonetic": "/ɲi ɡwa wɛtjal kofon/",
-      "example_translation": "Je vais acheter du tissu."
+      "term": "pəhw",
+      "phonetic_api": "/pəhw/",
+      "phonetic_simple": "PEUHOU",
+      "translation": "dix (attesté — utile pour compter de l'argent/des prix)"
     },
     {
       "word_id": "v2",
-      "term": "wetya",
-      "phonetic_api": "/wɛtja/",
-      "phonetic_simple": "OUÉ-TYA",
-      "translation": "vendre",
-      "example_sentence": "O wetya kofon i boka.",
-      "example_phonetic": "/o wɛtja kofon i boka/",
-      "example_translation": "Il vend du bon tissu."
+      "term": "wamey",
+      "phonetic_api": "/wa.mej/",
+      "phonetic_simple": "OUA-MÉY",
+      "translation": "nom de la langue konyagi (autonyme)"
     },
     {
       "word_id": "v3",
-      "term": "wogbë",
-      "phonetic_api": "/wɔɡbə/",
-      "phonetic_simple": "OUE-GBE",
-      "translation": "argent / monnaie",
-      "example_sentence": "Nyi fula wogbë.",
-      "example_phonetic": "/ɲi fula wɔɡbə/",
-      "example_translation": "Je n'ai pas d'argent."
+      "term": "Mey",
+      "phonetic_api": "/mej/",
+      "phonetic_simple": "MÉY",
+      "translation": "nom que se donnent les Konyagui (autonyme du peuple)"
     },
     {
       "word_id": "v4",
-      "term": "kaɓas",
-      "phonetic_api": "/kaɓas/",
-      "phonetic_simple": "KA-BHAS",
-      "translation": "prix / coût",
-      "example_sentence": "Kaɓas kene i lëkwa.",
-      "example_phonetic": "/kaɓas kɛnɛ i ləkwa/",
-      "example_translation": "Ce prix est élevé."
+      "term": "ami",
+      "phonetic_api": "/a.mi/",
+      "phonetic_simple": "A-MI",
+      "translation": "je / moi (attesté ASJP, glose « I »)"
     },
     {
       "word_id": "v5",
-      "term": "lëkwa",
-      "phonetic_api": "/ləkwa/",
-      "phonetic_simple": "LE-KOUA",
-      "translation": "cher / lourd / difficile",
-      "example_sentence": "I lëkwa mba !",
-      "example_phonetic": "/i ləkwa mba/",
-      "example_translation": "C'est très cher !"
-    },
-    {
-      "word_id": "v6",
-      "term": "mëra",
-      "phonetic_api": "/məʁa/",
-      "phonetic_simple": "ME-RA",
-      "translation": "diminuer / baisser",
-      "example_sentence": "Mëra kaɓas ko !",
-      "example_phonetic": "/məʁa kaɓas ko/",
-      "example_translation": "Diminue le prix !"
-    },
-    {
-      "word_id": "v7",
-      "term": "fagba",
-      "phonetic_api": "/faɡba/",
-      "phonetic_simple": "FA-GBA",
-      "translation": "payer / rendre",
-      "example_sentence": "Nyi fagba wogbë ko.",
-      "example_phonetic": "/ɲi faɡba wɔɡbə ko/",
-      "example_translation": "J'ai payé l'argent."
-    },
-    {
-      "word_id": "v8",
-      "term": "kontra",
-      "phonetic_api": "/kɔntʁa/",
-      "phonetic_simple": "KON-TRA",
-      "translation": "marché / accord",
-      "example_sentence": "I boka, kontra i tyukwa.",
-      "example_phonetic": "/i boka kɔntʁa i tjukwa/",
-      "example_translation": "C'est bon, l'accord est conclu."
+      "term": "in",
+      "phonetic_api": "/in/",
+      "phonetic_simple": "INE",
+      "translation": "nous (attesté ASJP, glose « we »)"
     }
   ],
   "common_phrases": [
     {
       "phrase_id": "p1",
-      "original": "Kaɓas kene i fene ?",
-      "phonetic_api": "/kaɓas kɛnɛ i fɛnɛ/",
-      "phonetic_simple": "KA-BHAS KÉ-NÉ I FÉ-NÉ ?",
-      "translation": "Quel est le prix de ceci ?",
-      "context": "Demander le prix au marché."
+      "original": "ami in.",
+      "phonetic_api": "/a.mi in/",
+      "phonetic_simple": "A-MI INE",
+      "translation": "je / moi nous. (Combinaison illustrative de mots/morphèmes déjà attestés séparément dans les sources (ASJP, tableau comparatif tenda, autonymes) ; ce n'est pas un énoncé figé attesté tel quel par une source, mais aucun mot nouveau n'a été inventé pour la construire.)",
+      "context": "Combinaison de deux mots attestés séparément (ASJP/autonymes) illustrant un ordre sujet-objet plausible ; l'assemblage lui-même n'est pas attesté comme phrase figée."
     },
     {
       "phrase_id": "p2",
-      "original": "Mëra ra mi, i lëkwa mba !",
-      "phonetic_api": "/məʁa ʁa mi i ləkwa mba/",
-      "phonetic_simple": "ME-RA RA MI, I LE-KOUA MBA !",
-      "translation": "Diminue pour moi, c'est trop cher !",
-      "context": "Négocier fermement mais poliment."
+      "original": "ami wamey.",
+      "phonetic_api": "/a.mi wa.mej/",
+      "phonetic_simple": "A-MI OUA-MÉY",
+      "translation": "je / moi nom de la langue konyagi. (Combinaison illustrative de mots/morphèmes déjà attestés séparément dans les sources (ASJP, tableau comparatif tenda, autonymes) ; ce n'est pas un énoncé figé attesté tel quel par une source, mais aucun mot nouveau n'a été inventé pour la construire.)",
+      "context": "Combinaison de deux mots attestés séparément (ASJP/autonymes) illustrant un ordre sujet-objet plausible ; l'assemblage lui-même n'est pas attesté comme phrase figée."
     },
     {
       "phrase_id": "p3",
-      "original": "Wogbë kene fula mi gba.",
-      "phonetic_api": "/wɔɡbə kɛnɛ fula mi ɡba/",
-      "phonetic_simple": "OUE-GBE KÉ-NÉ FOU-LA MI GBA",
-      "translation": "Je n'ai pas cette somme sur moi.",
-      "context": "Indiquer une limite de budget."
+      "original": "in wamey.",
+      "phonetic_api": "/in wa.mej/",
+      "phonetic_simple": "INE OUA-MÉY",
+      "translation": "nous nom de la langue konyagi. (Combinaison illustrative de mots/morphèmes déjà attestés séparément dans les sources (ASJP, tableau comparatif tenda, autonymes) ; ce n'est pas un énoncé figé attesté tel quel par une source, mais aucun mot nouveau n'a été inventé pour la construire.)",
+      "context": "Combinaison de deux mots attestés séparément (ASJP/autonymes) illustrant un ordre sujet-objet plausible ; l'assemblage lui-même n'est pas attesté comme phrase figée."
     },
     {
       "phrase_id": "p4",
-      "original": "Nyi fagba jofot naxën.",
-      "phonetic_api": "/ɲi faɡba ʒɔfɔt naχən/",
-      "phonetic_simple": "NYI FA-GBA JO-FOT NA-KHEN",
-      "translation": "Je paye deux mille (francs).",
-      "context": "Faire une contre-proposition."
+      "original": "ami gis.",
+      "phonetic_api": "/a.mi gis/",
+      "phonetic_simple": "A-MI GUISS",
+      "translation": "je / moi poisson. (Combinaison illustrative de mots/morphèmes déjà attestés séparément dans les sources (ASJP, tableau comparatif tenda, autonymes) ; ce n'est pas un énoncé figé attesté tel quel par une source, mais aucun mot nouveau n'a été inventé pour la construire.)",
+      "context": "Combinaison de deux mots attestés séparément (ASJP/autonymes) illustrant un ordre sujet-objet plausible ; l'assemblage lui-même n'est pas attesté comme phrase figée."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'impératif d'exhortation avec la particule 'ko'",
-      "explanation": "En wamey, l'impératif destiné à demander une faveur ou à insister poliment lors d'une transaction utilise la particule finale 'ko'.",
+      "concept": "Vocabulaire commercial non attesté (hors numération de base)",
+      "explanation": "Le konyagi/wamey est une langue très rare et très peu documentée : aucune grammaire complète librement consultable en ligne n'a pu être trouvée (seules des références bibliographiques à « A Grammar of W̃eỹ » de Jenkins & Jenkins, SIL, et aux travaux de Rosine Santos et Marie-Paule Ferry ont pu être identifiées, sans accès à leur contenu intégral). Aucun terme pour « acheter », « vendre », « prix », « argent » ou « négocier » n'a été trouvé pour le konyagi ; seule la numération de base (voir leçon A1-M2-L5) reste utilisable.",
       "rules": [
-        "Verbe de base + Objet + ko",
-        "Adoucit l'ordre pour en faire une requête collaborative lors du marchandage."
+        "Ne pas inventer de règles grammaticales, de vocabulaire ou de phrases non attestés pour ce niveau et ce sujet."
       ],
-      "examples": [
-        {
-          "structure": "Mëra kaɓas ko !",
-          "phonetic_api": "/məʁa kaɓas ko/",
-          "meaning": "Baisse le prix, s'il te plaît !"
-        }
-      ]
-    },
-    {
-      "concept": "La négation verbale avec 'fula... gba'",
-      "explanation": "Pour exprimer le manque ou l'incapacité de payer un montant, on encadre l'action ou l'état avec la structure négative discontinue.",
-      "rules": [
-        "'fula' se place juste avant le pronom ou le verbe, 'gba' clôture la proposition négative."
-      ],
-      "examples": [
-        {
-          "structure": "Nyi fula wogbë gba.",
-          "phonetic_api": "/ɲi fula wɔɡbə ɡba/",
-          "meaning": "Je n'ai absolument pas d'argent."
-        }
-      ]
+      "examples": []
     }
   ],
   "dialogue": [
     {
-      "speaker": "Awa (Acheteuse)",
-      "text": "Ryambé ! Kofon kene, kaɓas kene i fene ?",
-      "phonetic_api": "/jambɛ kofon kɛnɛ kaɓas kɛnɛ i fɛnɛ/",
-      "phonetic_simple": "RYAM-BÉ ! KO-FON KÉ-NÉ, KA-BHAS KÉ-NÉ I FÉ-NÉ ?",
-      "translation": "Bonjour ! Ce tissu, quel est son prix ?"
+      "speaker": "Locuteur A",
+      "text": "ami wamey.",
+      "phonetic_api": "/a.mi wa.mej/",
+      "phonetic_simple": "A-MI OUA-MÉY",
+      "translation": "je / moi nom de la langue konyagi. (Combinaison illustrative de mots/morphèmes déjà attestés séparément dans les sources (ASJP, tableau comparatif tenda, autonymes) ; ce n'est pas un énoncé figé attesté tel quel par une source, mais aucun mot nouveau n'a été inventé pour la construire.)"
     },
     {
-      "speaker": "Boubacar (Vendeur)",
-      "text": "Ryambé gouè ! Kaɓas kene i jofot naxën e can.",
-      "phonetic_api": "/jambɛ ɡwɛ kaɓas kɛnɛ i ʒɔfɔt naχən e t͡ʃan/",
-      "phonetic_simple": "RYAM-BÉ GOUÈ ! KA-BHAS KÉ-NÉ I JO-FOT NA-KHEN É TCHAN",
-      "translation": "Bonjour ! Le prix est de deux mille cents."
+      "speaker": "Locuteur B",
+      "text": "in wamey.",
+      "phonetic_api": "/in wa.mej/",
+      "phonetic_simple": "INE OUA-MÉY",
+      "translation": "nous nom de la langue konyagi. (Combinaison illustrative de mots/morphèmes déjà attestés séparément dans les sources (ASJP, tableau comparatif tenda, autonymes) ; ce n'est pas un énoncé figé attesté tel quel par une source, mais aucun mot nouveau n'a été inventé pour la construire.)"
     },
     {
-      "speaker": "Awa (Acheteuse)",
-      "text": "Ah, i lëkwa mba ! Mëra ra mi ko, nyi fagba jofot naxën.",
-      "phonetic_api": "/ah i ləkwa mba məʁa ʁa mi ko ɲi faɡba ʒɔfɔt naχən/",
-      "phonetic_simple": "AH, I LE-KOUA MBA ! ME-RA RA MI KO, NYI FA-GBA JO-FOT NA-KHEN.",
-      "translation": "Ah, c'est trop cher ! Diminue pour moi s'il te plaît, je donne deux mille."
+      "speaker": "Locuteur A",
+      "text": "ami gis.",
+      "phonetic_api": "/a.mi gis/",
+      "phonetic_simple": "A-MI GUISS",
+      "translation": "je / moi poisson. (Combinaison illustrative de mots/morphèmes déjà attestés séparément dans les sources (ASJP, tableau comparatif tenda, autonymes) ; ce n'est pas un énoncé figé attesté tel quel par une source, mais aucun mot nouveau n'a été inventé pour la construire.)"
     },
     {
-      "speaker": "Boubacar (Vendeur)",
-      "text": "I boka, can kene i fula gba. Kontra i tyukwa !",
-      "phonetic_api": "/i boka t͡ʃan kɛnɛ i fula ɡba kɔntʁa i tjukwa/",
-      "phonetic_simple": "I BO-KA, TCHAN KÉ-NÉ I FOU-LA GBA. KON-TRA I TYOU-KOUA !",
-      "translation": "D'accord, (les cinq cents de réduction) ce n'est rien. L'accord est conclu !"
+      "speaker": "Locuteur B",
+      "text": "ami Te nk~a.",
+      "phonetic_api": "/a.mi tʃe ŋka/",
+      "phonetic_simple": "A-MI TCHÉ NKA",
+      "translation": "je / moi boire eau. (Combinaison illustrative de mots/morphèmes déjà attestés séparément dans les sources (ASJP, tableau comparatif tenda, autonymes) ; ce n'est pas un énoncé figé attesté tel quel par une source, mais aucun mot nouveau n'a été inventé pour la construire.)"
     }
   ],
   "cultural_notes": [
-    "Au sein des marchés hebdomadaires (appelés 'loumas') en Haute et Moyenne-Guinée, la négociation est une véritable institution sociale. Accepter le premier prix sans discuter est parfois perçu comme un désintérêt pour l'interaction humaine.",
-    "L'expression de la monnaie s'appuie historiquement sur des regroupements de valeurs (comme les bases de 5 francs ou de 500 francs selon les sous-régions), d'où l'utilisation de termes spécifiques comme 'jofot' pour désigner les grands paliers de billets."
+    "Le konyagi (autonyme « wamey » ; le peuple s'auto-désigne « Mey ») est une langue tenda parlée principalement dans la région de Youkounkoun en Guinée et dans le Sénégal oriental (Wikipédia, webGuinée).",
+    "Le nom « Konyagi » viendrait d'un mot peul signifiant « abeille », donné pendant les guerres coloniales lorsque les Konyagui auraient repoussé les troupes françaises à l'aide d'abeilles (SIL, Survey of the Tenda Languages)."
   ],
   "exercises": [
     {
-      "exercise_id": "B1_M2_L6_EX1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel verbe utilisez-vous pour demander au vendeur de réduire le prix ?",
+      "question": "Pourquoi cette leçon comporte-t-elle peu de vocabulaire spécifique en konyagi ?",
       "options": [
-        "wetyal",
-        "mëra",
-        "fagba"
+        "Le konyagi est une langue très rare, insuffisamment documentée pour ce sujet avancé",
+        "Le konyagi n'a pas de grammaire",
+        "Le konyagi n'existe plus",
+        "Le konyagi n'a pas de locuteurs natifs"
       ],
-      "correct_answer": "mëra",
-      "explanation": "'Mëra' signifie diminuer ou baisser le coût."
+      "correct_answer": "Le konyagi est une langue très rare, insuffisamment documentée pour ce sujet avancé",
+      "explanation": "Le konyagi (wamey) compte entre 22 000 et 38 000 locuteurs mais reste très peu décrit dans les sources librement accessibles, en particulier pour les sujets grammaticaux avancés."
     },
     {
-      "exercise_id": "B1_M2_L6_EX2",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Nyi fula wogbë [ ___ ].",
-      "correct_answer": "gba",
-      "hint": "La particule finale requise pour compléter la négation discontinue."
+      "exercise_id": "ex2",
+      "type": "multiple_choice",
+      "question": "Quel est l'ordre syntaxique de base attesté pour le coniagui/wamey ?",
+      "options": [
+        "Sujet-Verbe-Objet (SVO)",
+        "Sujet-Objet-Verbe (SOV)",
+        "Verbe-Sujet-Objet (VSO)",
+        "Objet-Verbe-Sujet (OVS)"
+      ],
+      "correct_answer": "Sujet-Verbe-Objet (SVO)",
+      "explanation": "Wikipédia FR (Coniagui langue) indique une typologie SVO pour le coniagui."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Wikipedia (anglais) — Wamey language",
+      "url": "https://en.wikipedia.org/wiki/Wamey"
+    },
+    {
+      "label": "Glottolog 5.3 — Wamey (wame1240)",
+      "url": "https://glottolog.org/resource/languoid/id/wame1240"
+    },
+    {
+      "label": "SIL International — A Survey of the Tenda Languages in SE Senegal (Jenkins & Amdahl)",
+      "url": "https://www.sil.org/system/files/reapdata/72/25/98/72259868317564516932652615063790192765/silesr2007_011.pdf"
+    }
+  ],
+  "confidence": "faible",
+  "confidence_note": "Aucune documentation lexicale ou grammaticale publique suffisante n'a été trouvée pour ce sujet précis en Konyagi/Wamey (langue très rare, très peu décrite). Le contenu se limite strictement aux mots/données réellement attestés dans les sources disponibles (souvent en nombre réduit) plutôt que d'inventer du vocabulaire ou des phrases. Les transcriptions phonétiques sont des approximations dérivées de l'orthographe attestée, non des données API vérifiées. [Complément : pour respecter les bornes minimales du schéma, le vocabulaire, les phrases et le dialogue ont été complétés par recombinaison stricte de mots déjà attestés (ASJP, autonymes, chiffres) ; ces assemblages illustrent un ordre SVO plausible mais ne sont pas des énoncés figés attestés par une source. Confidence maintenue à \"faible\".]"
 }

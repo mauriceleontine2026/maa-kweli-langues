@@ -6,191 +6,193 @@
   "lesson_number": 7,
   "title": "Exprimer l'obligation, l'interdiction et la permission",
   "learning_objectives": [
-    "Exprimer le devoir et la nécessité réglementaire ou morale",
-    "Formuler une interdiction formelle ou coutumière au sein de la communauté",
-    "Demander et accorder poliment une permission ou un droit d'accès"
+    "Utiliser l'impératif pour exprimer un ordre ou une obligation directe",
+    "Utiliser la négation encadrante pour exprimer une interdiction",
+    "Distinguer les formes de l'impératif singulier, pluriel et inclusif"
   ],
   "phonetic_focus": {
-    "key_sounds": "La notion d'obligation repose sur l'auxiliaire 'kəbə̀gá' qui requiert l'injective /ɓ/. L'interdiction fait intervenir la particule prohibitive 'ká' frappée d'un ton haut très sec, suivi d'un arrêt glottal si la structure verbale commence par une voyelle.",
-    "common_pitfalls": "Veillez à bien distinguer le ton haut de la négation prohibitive 'ká' (ne fais pas !) du ton bas ou neutre qui s'applique à d'autres morphèmes d'appui."
+    "key_sounds": "Le suffixe -in (impératif 2e pluriel) se prononce avec une voyelle brève suivie d'une nasale alvéolaire nette, à ne pas confondre avec le -ël du singulier.",
+    "common_pitfalls": "Les francophones expriment souvent l'interdiction avec un simple « ne fais pas » ; en oniyan, l'interdiction combine la négation encadrante a-...-na avec la base impérative, une double marque qu'il ne faut pas simplifier."
   },
   "vocabulary": [
     {
-      "word_id": "v61",
-      "term": "kəbə̀gá",
-      "phonetic_api": "/kəɓə̀ɡá/",
-      "phonetic_simple": "KE-BHE-GA",
-      "translation": "devoir / falloir / être obligatoire",
-      "example_sentence": "Məbə̀gá kəkɔ́ñ məkǎndɔŋ.",
-      "example_phonetic": "/məɓə̀ɡá kəkɔ́ñ məkǎndɔŋ/",
-      "example_translation": "Je dois obligatoirement acheter du riz."
+      "word_id": "v1",
+      "term": "-ël",
+      "phonetic_api": "/əl/",
+      "phonetic_simple": "ËL",
+      "translation": "suffixe impératif 2e singulier",
+      "example_sentence": "Ganël!",
+      "example_phonetic": "/ganəl/",
+      "example_translation": "Marche ! (obligation adressée à une personne)"
     },
     {
-      "word_id": "v62",
-      "term": "ká",
-      "phonetic_api": "/ká/",
-      "phonetic_simple": "KA",
-      "translation": "ne... pas ! (particule prohibitive d'interdiction)",
-      "example_sentence": "Ká ɓila kɔ̂ !",
-      "example_phonetic": "/ká ɓila kɔ̂/",
-      "example_translation": "Ne dis pas cela ! (C'est interdit)"
+      "word_id": "v2",
+      "term": "-in",
+      "phonetic_api": "/in/",
+      "phonetic_simple": "IN",
+      "translation": "suffixe impératif 2e pluriel",
+      "example_sentence": "Ganin!",
+      "example_phonetic": "/ganin/",
+      "example_translation": "Marchez ! (forme construite selon la règle attestée)."
     },
     {
-      "word_id": "v63",
-      "term": "kəwʉ́",
-      "phonetic_api": "/kəwʉ́/",
-      "phonetic_simple": "KE-WOU",
-      "translation": "permettre / donner la route / accorder le droit",
-      "example_sentence": "ɓâ mɔ oŋ kəwʉ́ fə́ mɔ.",
-      "example_phonetic": "/ɓâ mɔ oŋ kəwʉ́ fə́ mɔ/",
-      "example_translation": "Mon père m'a accordé la permission."
+      "word_id": "v3",
+      "term": "-ne",
+      "phonetic_api": "/ne/",
+      "phonetic_simple": "NÉ",
+      "translation": "suffixe impératif 1re pluriel inclusif (« allons-y »)",
+      "example_sentence": "Ganne!",
+      "example_phonetic": "/gane/",
+      "example_translation": "Allons-y ! (forme construite selon la règle attestée)."
     },
     {
-      "word_id": "v64",
-      "term": "gəfá̰á̰",
-      "phonetic_api": "/gəfáː/",
-      "phonetic_simple": "GE-FAANG",
-      "translation": "la loi / l'interdit coutumier / le totem familial",
-      "example_sentence": "Kɔ̂ oŋ oŋ gəfá̰á̰ fə́ siki.",
-      "example_phonetic": "/kɔ̂ oŋ oŋ ɡəfáː fə́ siki/",
-      "example_translation": "Ceci constitue un interdit au sein du village."
+      "word_id": "v4",
+      "term": "a-",
+      "phonetic_api": "/a-/",
+      "phonetic_simple": "A-",
+      "translation": "préfixe de négation, utilisé pour l'interdiction",
+      "example_sentence": "a-...-na",
+      "example_phonetic": "/a … na/",
+      "example_translation": "ne pas... (structure d'interdiction)."
+    },
+    {
+      "word_id": "vx12",
+      "term": "axam",
+      "phonetic_api": "/axam/",
+      "phonetic_simple": "A-HAM",
+      "translation": "pouvoir (verbe modal)",
+      "example_sentence": "axam",
+      "example_phonetic": "/axam/",
+      "example_translation": "pouvoir."
+    },
+    {
+      "word_id": "vx10",
+      "term": "anang",
+      "phonetic_api": "/anaŋ/",
+      "phonetic_simple": "A-NANG",
+      "translation": "savoir, connaître (verbe)",
+      "example_sentence": "anang",
+      "example_phonetic": "/anaŋ/",
+      "example_translation": "savoir, connaître."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p121",
-      "original": "Məbə̀gá kəɟaa fə́ siki pəwá̰.",
-      "phonetic_api": "/məɓə̀ɡá kəɟaː fə́ siki pəwá̰/",
-      "phonetic_simple": "ME-BHE-GA KE-DYAA FE SI-KI PE-WANG",
-      "translation": "Il m'est impératif de me rendre au village demain.",
-      "context": "Exprimer un devoir ou une obligation familiale urgente."
+      "phrase_id": "p1",
+      "original": "Ganël!",
+      "phonetic_api": "/ganəl/",
+      "phonetic_simple": "GA-NËL",
+      "translation": "Marche ! (obligation individuelle)",
+      "context": "Ordre direct adressé à une personne."
     },
     {
-      "phrase_id": "p122",
-      "original": "Ká ɟǐ ɔñɛ́ kɔ̂ !",
-      "phonetic_api": "/ká ɟǐ ɔɲɛ́ kɔ̂/",
-      "phonetic_simple": "KA DYI O-NYE KO",
-      "translation": "Ne mange surtout pas cette viande !",
-      "context": "Formuler une interdiction alimentaire ou coutumière stricte."
+      "phrase_id": "p2",
+      "original": "Iyo.",
+      "phonetic_api": "/ijo/",
+      "phonetic_simple": "I-YO",
+      "translation": "Oui.",
+      "context": "Réponse affirmative générale, réutilisable dans toute conversation."
     },
     {
-      "phrase_id": "p123",
-      "original": "Anee ləwʉ́ bə̂ fə́ mɔ?",
-      "phonetic_api": "/aneː ləwʉ́ ɓə̂ fə́ mɔ/",
-      "phonetic_simple": "A-NEE LE-WOU BHE FE MO",
-      "translation": "M'accordes-tu la permission d'agir ainsi ?",
-      "context": "Solliciter poliment l'aval d'un aîné ou d'une autorité."
+      "phrase_id": "p3",
+      "original": "O-oye.",
+      "phonetic_api": "/o.oje/",
+      "phonetic_simple": "O-O-YÉ",
+      "translation": "Non.",
+      "context": "Réponse négative générale, réutilisable dans toute conversation."
     },
     {
-      "phrase_id": "p124",
-      "original": "Məwʉ́ bə̂ bɛ̀ɛ̀. ɟaa !",
-      "phonetic_api": "/məwʉ́ ɓə̂ bɛ̀ː ɟaː/",
-      "phonetic_simple": "ME-WOU BHE BEE. DYAA",
-      "translation": "Je te donne pleinement l'autorisation. Vas-y !",
-      "context": "Accorder un droit d'accès ou de passage de bonne grâce."
-    },
-    {
-      "phrase_id": "p125",
-      "original": "Ká ɟaa fə́ bəgəlax fə́ eyá̰.",
-      "phonetic_api": "/ká ɟaː fə́ ɓəɡalax fə́ ejá̰/",
-      "phonetic_simple": "KA DYAA FE BHE-GA-LAKH FE E-YANG",
-      "translation": "N'emprunte pas la gauche pour aller au marché.",
-      "context": "Consigne d'interdiction directionnelle pour éviter un danger."
-    },
-    {
-      "phrase_id": "p126",
-      "original": "Kɔ̂ oŋ oŋ gəfá̰á̰ dyɛ́ɛ̀.",
-      "phonetic_api": "/kɔ̂ oŋ oŋ ɡəfáː ɟɛ́ː/",
-      "phonetic_simple": "KO ONG ONG GE-FAANG DYEE",
-      "translation": "Cela représente une transgression coutumière majeure.",
-      "context": "Mettre en garde contre la violation d'un espace sacré."
-    },
-    {
-      "phrase_id": "p127",
-      "original": "ɔsuku oŋ bə̀gá kəkərã oŋ.",
-      "phonetic_api": "/ɔsuku oŋ ɓə̀ɡá kəkərã oŋ/",
-      "phonetic_simple": "O-SOU-KOU ONG BHE-GA KE-KE-RAN ONG",
-      "translation": "L'étudiant a le devoir d'étudier ce texte rigoureusement.",
-      "context": "Rappeler les obligations liées au statut scolaire."
-    },
-    {
-      "phrase_id": "p128",
-      "original": "A-a, ká ñwǎ məyǐ kɔ̂.",
-      "phonetic_api": "/aʔa ká ɲwǎ məjǐ kɔ̂/",
-      "phonetic_simple": "A-A, KA NYWA ME-YI KO",
-      "translation": "Non, ne bois absolument pas cette eau stagnante.",
-      "context": "Avertissement sanitaire d'interdiction."
+      "phrase_id": "p4",
+      "original": "Awa.",
+      "phonetic_api": "/awa/",
+      "phonetic_simple": "A-OUA",
+      "translation": "D'accord / Bien.",
+      "context": "Marque d'accord ou de validation, utile pour conclure un échange."
     }
   ],
   "grammar_points": [
     {
-      "concept": "Le système de la prohibitive 'ká' et l'auxiliaire d'obligation",
-      "explanation": "En Oniyan, l'impératif négatif (l'interdiction) se construit en insérant la particule impérative négative invariable 'ká' juste devant le radical verbal dénué de son préfixe d'infinitif. À l'inverse, l'obligation recourt à l'auxiliaire d'état 'kəbə̀gá' qui exige que le verbe suivant conserve sa marque nominale d'infinitif complète.",
+      "concept": "Les trois formes de l'impératif et leur usage social",
+      "explanation": "L'oniyan distingue l'impératif singulier (-ël), pluriel (-in) et inclusif de première personne du pluriel (-ne, « allons-y », impliquant le locuteur). Pour interdire, on combine la structure de négation encadrante (a-...-na) avec la base verbale de l'impératif, plutôt que d'utiliser une particule dédiée unique.",
       "rules": [
-        "Interdiction : Particule KÁ + [Radical verbal nu]. Aucun préfixe de classe n'est toléré sur le verbe.",
-        "Obligation : Pronom + bə̀gá + [Verbe à l'infinitif complet avec son préfixe gə-/kə-/lə-]."
+        "Ordre à une personne : radical (niveau II) + -ël.",
+        "Ordre à plusieurs personnes : radical (niveau II) + -in.",
+        "Invitation collective incluant le locuteur : radical + -ne (ou -e/-ye selon le contexte dual, d'après la grammaire SIL).",
+        "Interdiction : a- + [pronom/forme verbale] + -na/-ɛ́nā."
       ],
       "examples": [
         {
-          "structure": "KÁ + [Radical verbal sans préfixe]",
-          "phonetic_api": "/ká ɓila/",
-          "meaning": "Ne parle pas ! / Silence !"
+          "structure": "Ganël! / Ganin! / Ganne!",
+          "phonetic_api": "/ganəl/ ; /ganin/ ; /gane/",
+          "meaning": "Marche ! / Marchez ! / Allons-y ! — formes construites par application des trois suffixes impératifs attestés au verbe gan"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Samba",
-      "text": "Anee məbə̀gá kəɟaa fə́ gədyí bə̂?",
-      "phonetic_api": "/aneː məɓə̀ɡá kəɟaː fə́ ɡəɟí ɓə̂/",
-      "phonetic_simple": "A-NEE ME-BHE-GA KE-DYAA FE GE-DYI BHE",
-      "translation": "Dois-je impérativement entrer dans ta case ?"
+      "speaker": "Chef de famille",
+      "text": "Ganël!",
+      "phonetic_api": "/ganəl/",
+      "phonetic_simple": "GA-NËL",
+      "translation": "Va (faire cela) !"
     },
     {
-      "speaker": "L'ancien",
-      "text": "Ká ɟaa ! Kɔ̂ oŋ oŋ gəfá̰á̰ fə́ siki fə́ mɔ.",
-      "phonetic_api": "/ká ɟaː kɔ̂ oŋ oŋ ɡəfáː fə́ siki fə́ mɔ/",
-      "phonetic_simple": "KA DYAA ! KO ONG ONG GE-FAANG FE SI-KI FE MO",
-      "translation": "N'entre surtout pas ! C'est un interdit rituel strict au sein de mon village."
+      "speaker": "Groupe",
+      "text": "Ganne!",
+      "phonetic_api": "/gane/",
+      "phonetic_simple": "GA-NÉ",
+      "translation": "Allons-y ! (proposition collective)"
     },
     {
-      "speaker": "Samba",
-      "text": "Məgaw bɛ̀ɛ̀. Anee ləwʉ́ bə̂ fə́ kəɟe fatǎ?",
-      "phonetic_api": "/məɡaw bɛ̀ː aneː ləwʉ́ ɓə̂ fə́ kəɟe fatǎ/",
-      "phonetic_simple": "ME-GAW BEE. A-NEE LE-WOU BHE FE KE-DYE FA-TAA",
-      "translation": "Je comprends parfaitement. M'autorises-tu à rester à proximité ?"
+      "speaker": "Locuteur A",
+      "text": "Awa?",
+      "phonetic_api": "/awa/",
+      "phonetic_simple": "A-OUA ?",
+      "translation": "D'accord ?"
     },
     {
-      "speaker": "L'ancien",
-      "text": "Məwʉ́ bə̂, ɟe fatǎ fə́ kəwá̰. Nyarancaa fə́ kəgaw bə̂.",
-      "phonetic_api": "/məwʉ́ ɓə̂ ɟe fatǎ fə́ kəwá̰ ɲarant͡ʃaː fə́ kəɡaw ɓə̂/",
-      "phonetic_simple": "ME-WOU BHE, DYE FA-TAA FE KE-WANG. NYA-RAN-TCHAA FE KE-GAW BHE",
-      "translation": "Je te l'accorde, tiens-toi près de la concession. Merci pour ton écoute respectueuse."
+      "speaker": "Locuteur B",
+      "text": "Iyo, awa.",
+      "phonetic_api": "/ijo awa/",
+      "phonetic_simple": "I-YO, A-OUA",
+      "translation": "Oui, d'accord."
     }
   ],
   "cultural_notes": [
-    "Les notions d'interdit ('gəfá̰á̰') régissent une grande partie de la vie sociale des Bəliyan. Certains lieux, comme les bois sacrés ou les cases de retraite des initiés, font l'objet d'une interdiction absolue aux non-initiés et aux étrangers. Enfreindre un gəfá̰á̰ appelle une réparation rituelle immédiate sous la supervision des sages."
+    "Les décisions collectives et les travaux agricoles communautaires (semailles, récoltes) rythment la vie sociale du pays bassari, un cadre où les formes impératives inclusives (« allons-y ! ») trouvent naturellement leur place, selon le dossier d'inscription UNESCO du Pays bassari."
   ],
   "exercises": [
     {
-      "exercise_id": "ex31",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quelle structure grammaticale exprime une interdiction absolue ?",
+      "question": "Quel suffixe exprime une invitation collective incluant le locuteur (« allons-y ») ?",
       "options": [
-        "Məbə̀gá kəɟaa",
-        "Ká ɟaa",
-        "Məwʉ́ bə̂"
+        "-ël",
+        "-in",
+        "-ne"
       ],
-      "correct_answer": "Ká ɟaa",
-      "explanation": "'Ká ɟaa' emploie la prohibitive 'ká' associée au radical, ce qui traduit une interdiction sans équivoque."
+      "correct_answer": "-ne",
+      "explanation": "-ne marque l'impératif inclusif de première personne du pluriel."
     },
     {
-      "exercise_id": "ex32",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Mə[ ___ ] kəkɔ́ñ məkǎndɔŋ (Je dois acheter du riz).",
-      "correct_answer": "bə̀gá",
-      "hint": "L'auxiliaire de modalité traduisant le devoir ou l'obligation."
+      "sentence_with_blank": "Gan___! (« marchez ! », pluriel)",
+      "correct_answer": "in",
+      "hint": "Suffixe impératif de la 2e personne du pluriel."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "SIL — A Grammar of Oniyan (Winters & Winters, 2004)",
+      "url": "https://www.sil.org/system/files/reapdata/18/63/15/1863153183176772870767650622005357320/BSC_Oniyan_grammar_En_2004.pdf"
+    },
+    {
+      "label": "Wikipédia — Pays bassari",
+      "url": "https://fr.wikipedia.org/wiki/Pays_bassari"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Les trois suffixes impératifs et la structure de négation encadrante sont attestés et bien documentés dans la grammaire SIL. Les formes verbales pluriel/inclusif présentées (Ganin, Ganne) sont construites par application régulière de la règle sur le seul verbe attesté en contexte impératif (gan), et non citées littéralement d'un exemple isolé — d'où une confiance moyenne plutôt qu'élevée."
 }

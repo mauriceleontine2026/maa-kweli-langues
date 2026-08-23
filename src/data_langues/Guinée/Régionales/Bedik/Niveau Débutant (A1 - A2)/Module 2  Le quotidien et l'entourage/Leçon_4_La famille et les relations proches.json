@@ -1,5 +1,4 @@
-[
-  {
+{
     "lesson_id": "A1_M2_L4",
     "level": "Débutant (A1-A2)",
     "module_number": 2,
@@ -7,176 +6,177 @@
     "lesson_number": 4,
     "title": "La famille et les relations proches",
     "learning_objectives": [
-      "Identifier et utiliser les termes de parenté fondamentaux (père, mère, frère/sœur)",
-      "Exprimer la possession pour décrire les membres de sa propre famille",
-      "S'enquérir poliment de la santé ou de l'état des proches de son interlocuteur"
+        "Comprendre l'organisation clanique et patronymique de la société bedik",
+        "Identifier les noms de clan (patronymes) attestés",
+        "Reconnaître l'absence de vocabulaire de parenté bedik en accès libre"
     ],
     "phonetic_focus": {
-      "key_sounds": "Les termes redoublés comme 'baba' (père) et 'mama' (mère) se prononcent avec des occlusives bilabiales douces et des voyelles brèves /a/. Le terme désignant la fratrie, 'ima', utilise une voyelle fermée antérieure /i/ suivie d'une transition rapide vers le /ma/.",
-      "common_pitfalls": "Attention à ne pas allonger la voyelle finale des mots 'baba' ou 'mama' (comme dans le français parlé 'papaaa'), car cela déforme le rythme syllabique du bédik où l'accentuation reste stable sur la première syllabe."
+        "key_sounds": "Aucun terme de parenté en bedik (père, mère, frère, sœur, etc.) n'a été trouvé dans les sources consultées ; cette section ne peut donc pas présenter de sons spécifiques à ce champ lexical sans invention.",
+        "common_pitfalls": "Ne pas confondre les noms de clan (patronymes, ex. Keita, Kamara) avec des termes de parenté (père, mère, etc.), qui restent non documentés."
     },
     "vocabulary": [
-      {
-        "word_id": "v1",
-        "term": "Baba",
-        "phonetic_api": "/ba.ba/",
-        "phonetic_simple": "BA-BA",
-        "translation": "Père / Oncle paternel",
-        "example_sentence": "Baba mē amiat",
-        "example_phonetic": "/ba.ba meː a.mja/",
-        "example_translation": "Mon père va bien (salutation)."
-      },
-      {
-        "word_id": "v2",
-        "term": "Mama",
-        "phonetic_api": "/ma.ma/",
-        "phonetic_simple": "MA-MA",
-        "translation": "Mère / Tante maternelle",
-        "example_sentence": "Mama mē ameké",
-        "example_phonetic": "/ma.ma meː a.mɛ.ke/",
-        "example_translation": "Bonjour ma mère (le matin)."
-      },
-      {
-        "word_id": "v3",
-        "term": "Ima",
-        "phonetic_api": "/i.ma/",
-        "phonetic_simple": "I-MA",
-        "translation": "Frère / Sœur (Enfant de la même lignée maternelle)",
-        "example_sentence": "Ima mē bē sakhó-gwa",
-        "example_phonetic": "/i.ma meː beː sa.χo.ɡwa/",
-        "example_translation": "Mon frère est cultivateur."
-      },
-      {
-        "word_id": "v4",
-        "term": "Dyat",
-        "phonetic_api": "/dʒat/",
-        "phonetic_simple": "DJAT",
-        "translation": "Ami / Compagnon d'âge",
-        "example_sentence": "Sō sanyé, dyat mē",
-        "example_phonetic": "/soː sa.ɲɛ dʒat meː/",
-        "example_translation": "Au revoir, mon ami."
-      },
-      {
-        "word_id": "v5",
-        "term": "Eyi",
-        "phonetic_api": "/ɛ.ji/",
-        "phonetic_simple": "Ɛ-YI",
-        "translation": "Maison / Concession familiale / Foyer",
-        "example_sentence": "Ina bē eyi ?",
-        "example_phonetic": "/i.na beː ɛ.ji/",
-        "example_translation": "Comment va ta maison (ta famille) ?"
-      }
+        {
+            "word_id": "v1",
+            "term": "Keita",
+            "phonetic_api": "/ke.i.ta/",
+            "phonetic_simple": "KÉ-I-TA",
+            "translation": "nom de clan bedik (patronyme, partagé avec les Mandinka)",
+            "example_sentence": "(non disponible)",
+            "example_phonetic": "/.../",
+            "example_translation": "(non disponible)"
+        },
+        {
+            "word_id": "v2",
+            "term": "Kamara",
+            "phonetic_api": "/ka.ma.ra/",
+            "phonetic_simple": "KA-MA-RA",
+            "translation": "nom de clan bedik (patronyme)",
+            "example_sentence": "(non disponible)",
+            "example_phonetic": "/.../",
+            "example_translation": "(non disponible)"
+        },
+        {
+            "word_id": "v3",
+            "term": "Samoura",
+            "phonetic_api": "/sa.mu.ra/",
+            "phonetic_simple": "SA-MOU-RA",
+            "translation": "nom de clan bedik (patronyme)",
+            "example_sentence": "(non disponible)",
+            "example_phonetic": "/.../",
+            "example_translation": "(non disponible)"
+        },
+        {
+            "word_id": "v4",
+            "term": "Kanté",
+            "phonetic_api": "/kan.te/",
+            "phonetic_simple": "KAN-TÉ",
+            "translation": "nom de clan bedik (patronyme)",
+            "example_sentence": "(non disponible)",
+            "example_phonetic": "/.../",
+            "example_translation": "(non disponible)"
+        },
+        {
+            "word_id": "v5",
+            "term": "Sadiakhou",
+            "phonetic_api": "/sa.dja.xu/",
+            "phonetic_simple": "SA-DIA-KHOU",
+            "translation": "nom de clan bedik (patronyme)",
+            "example_sentence": "(non disponible)",
+            "example_phonetic": "/.../",
+            "example_translation": "(non disponible)"
+        }
     ],
     "common_phrases": [
-      {
-        "phrase_id": "p1",
-        "original": "Ina bē baba ?",
-        "phonetic_api": "/i.na beː ba.ba/",
-        "phonetic_simple": "I-NA BEE BA-BA",
-        "translation": "Comment va ton père ?",
-        "context": "Prendre poliment des nouvelles du chef de famille de son interlocuteur lors d'une rencontre."
-      },
-      {
-        "phrase_id": "p2",
-        "original": "Ina bē mama ?",
-        "phonetic_api": "/i.na beː ma.ma/",
-        "phonetic_simple": "I-NA BEE MA-MA",
-        "translation": "Comment va ta mère ?",
-        "context": "Marque de respect obligatoire pour s'enquérir de la santé de la mère d'un ami."
-      },
-      {
-        "phrase_id": "p3",
-        "original": "Baba mē bē dyé.",
-        "phonetic_api": "/ba.ba meː beː dʒe/",
-        "phonetic_simple": "BA-BA MEE BEE DJE",
-        "translation": "Mon père est ici.",
-        "context": "Indiquer la présence physique du patriarche dans la concession ou le village."
-      },
-      {
-        "phrase_id": "p4",
-        "original": "Ima mē amunké !",
-        "phonetic_api": "/i.ma meː a.mun.ke/",
-        "phonetic_simple": "I-MA MEE A-MOUN-KE",
-        "translation": "Bonjour mes frères et sœurs !",
-        "context": "Saluer joyeusement et collectivement la fratrie ou les pairs au réveil."
-      }
+        {
+            "phrase_id": "cp_core_1",
+            "original": "Keita, Kamara",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(assemblage de deux mots attestés, prononcés séparément)",
+            "translation": "nom de clan bedik (patronyme, partagé avec les Mandinka) ; nom de clan bedik (patronyme)",
+            "context": "Énumération construite en recombinant deux mots bedik déjà attestés dans cette leçon (voir la liste 'vocabulary' et 'sources'). Aucune syntaxe de phrase bedik n'étant attestée en accès libre pour ce thème, il ne s'agit pas d'une phrase grammaticale vérifiée mais d'une juxtaposition de mots réellement documentés, présentée comme telle."
+        },
+        {
+            "phrase_id": "cp_core_2",
+            "original": "Samoura, Kanté",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(assemblage de deux mots attestés, prononcés séparément)",
+            "translation": "nom de clan bedik (patronyme) ; nom de clan bedik (patronyme)",
+            "context": "Énumération construite en recombinant deux mots bedik déjà attestés dans cette leçon (voir la liste 'vocabulary' et 'sources'). Aucune syntaxe de phrase bedik n'étant attestée en accès libre pour ce thème, il ne s'agit pas d'une phrase grammaticale vérifiée mais d'une juxtaposition de mots réellement documentés, présentée comme telle."
+        },
+        {
+            "phrase_id": "cp_core_3",
+            "original": "Keita / Kamara",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(assemblage de deux mots attestés, prononcés séparément)",
+            "translation": "nom de clan bedik (patronyme, partagé avec les Mandinka) ; nom de clan bedik (patronyme)",
+            "context": "Association de deux mots bedik attestés (voir 'vocabulary'), présentée comme un exercice d'association lexicale et non comme une phrase grammaticale bedik vérifiée, faute de syntaxe attestée pour ce thème."
+        },
+        {
+            "phrase_id": "cp_core_4",
+            "original": "Keita / Samoura",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(assemblage de deux mots attestés, prononcés séparément)",
+            "translation": "nom de clan bedik (patronyme, partagé avec les Mandinka) ; nom de clan bedik (patronyme)",
+            "context": "Association de deux mots bedik attestés (voir 'vocabulary'), présentée comme un exercice d'association lexicale et non comme une phrase grammaticale bedik vérifiée, faute de syntaxe attestée pour ce thème."
+        }
     ],
     "grammar_points": [
-      {
-        "concept": "Les pronoms possessifs de filiation",
-        "explanation": "En langue bédik, les adjectifs possessifs se placent systématiquement après le substantif représentant le membre de la famille pour en déterminer l'appartenance.",
-        "rules": [
-          "Le morphème possessif 'mē' postposé traduit la première personne (mon/ma).",
-          "L'absence ou la modification du marqueur peut basculer l'énoncé vers une adresse collective ou une forme neutre."
-        ],
-        "examples": [
-          {
-            "structure": "Substantif + mē",
-            "phonetic_api": "/ma.ma meː/",
-            "meaning": "Ma mère (Mère de moi)"
-          },
-          {
-            "structure": "Substantif + ina (déduit du contexte)",
-            "phonetic_api": "/ba.ba i.na/",
-            "meaning": "Ton père"
-          }
-        ]
-      }
+        {
+            "concept": "Organisation clanique",
+            "explanation": "La société bedik est structurée par des clans patronymiques dont cinq noms sont attestés : Keita, Kamara, Samoura, Kanté et Sadiakhou. Ces noms sont partagés avec les Mandinka, la tradition orale bedik faisant remonter l'installation du clan Keita à une migration depuis le Mali. Les Bédik possèdent en outre des noms de famille propres en ménik, dont la forme précise n'est pas donnée par les sources disponibles.",
+            "rules": [
+                "Le nom de clan identifie l'appartenance lignagère plus que le lien de parenté immédiat (père/mère/enfant).",
+                "Aucun terme de parenté bedik propre (père, mère, oncle, etc.) n'est attesté dans les sources consultées."
+            ],
+            "examples": []
+        }
     ],
     "dialogue": [
-      {
-        "speaker": "Sada",
-        "text": "Samba, amiat. Ina bē baba ?",
-        "phonetic_api": "/sam.ba a.mja i.na beː ba.ba/",
-        "phonetic_simple": "SAM-BA, A-MIA. I-NA BEE BA-BA ?",
-        "translation": "Samba, bonjour. Comment va ton père ?"
-      },
-      {
-        "speaker": "Samba",
-        "text": "Sada, amiat. Baba mē amiat, gasi mē.",
-        "phonetic_api": "/sa.da a.mja ba.ba meː a.mja ɡa.si meː/",
-        "phonetic_simple": "SA-DA, A-MIA. BA-BA MEE A-MIA, GA-SI MEE.",
-        "translation": "Sada, bonjour. Mon père va bien, merci beaucoup."
-      },
-      {
-        "speaker": "Sada",
-        "text": "Ina bē eyi ?",
-        "phonetic_api": "/i.na beː ɛ.ji/",
-        "phonetic_simple": "I-NA BEE Ɛ-YI ?",
-        "translation": "Comment va la maison (ta famille) ?"
-      },
-      {
-        "speaker": "Samba",
-        "text": "Eyi mē amiat, gasi mē.",
-        "phonetic_api": "/ɛ.ji meː a.mja ɡa.si meː/",
-        "phonetic_simple": "Ɛ-YI MEE A-MIA, GA-SI MEE.",
-        "translation": "Ma maison va bien, merci beaucoup."
-      }
+        {
+            "speaker": "Locuteur B",
+            "text": "Keita",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(prononciation du mot attesté isolé, voir 'vocabulary')",
+            "translation": "nom de clan bedik (patronyme, partagé avec les Mandinka)"
+        },
+        {
+            "speaker": "Locuteur A",
+            "text": "Kamara",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(prononciation du mot attesté isolé, voir 'vocabulary')",
+            "translation": "nom de clan bedik (patronyme)"
+        },
+        {
+            "speaker": "Locuteur B",
+            "text": "Samoura",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(prononciation du mot attesté isolé, voir 'vocabulary')",
+            "translation": "nom de clan bedik (patronyme)"
+        },
+        {
+            "speaker": "Locuteur A",
+            "text": "Kanté",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(prononciation du mot attesté isolé, voir 'vocabulary')",
+            "translation": "nom de clan bedik (patronyme)"
+        }
     ],
     "cultural_notes": [
-      "Dans le système social bédik, les termes 'baba' (père) et 'mama' (mère) dépassent largement le cadre biologique strict de la famille nucléaire occidentale. Vous appellerez 'baba' tous les frères de votre père, et 'mama' toutes les sœurs de votre mère. Prendre soin de l'ensemble de cette parenté élargie est l'un des piliers moraux fondamentaux garantissant la paix ('amiat') et l'équilibre au sein du village."
+        "Les Bédik pratiquent une organisation villageoise forte : chaque village (Iwol, Etyowar, Bandata, etc.) regroupe des familles appartenant à ces clans.",
+        "La vie sociale bedik s'articule aussi autour de classes d'âge et de cérémonies collectives d'initiation (Manindam, Gamond, Eyamb, Matyang) qui structurent les relations entre générations.",
+        "Les 'common_phrases' et 'dialogue' de cette leçon ont été complétés en recombinant uniquement des mots bedik déjà attestés présents dans 'vocabulary' (numéraux, toponymes, endonymes, etc.), faute de phrase ou de syntaxe complète attestée en accès libre pour ce thème précis. Il s'agit d'assemblages/énumérations de mots réels, pas de phrases grammaticales bedik vérifiées : aucun verbe, pronom ou connecteur n'a été inventé pour les relier."
     ],
     "exercises": [
-      {
-        "exercise_id": "ex1",
-        "type": "multiple_choice",
-        "question": "Comment dit-on 'Mon frère / Ma sœur' en langue bédik ?",
-        "options": [
-          "Baba mē",
-          "Mama mē",
-          "Ima mē",
-          "Dyat mē"
-        ],
-        "correct_answer": "Ima mē",
-        "explanation": "'Ima' désigne le frère ou la sœur utérine, et 'mē' marque la première personne du possessif."
-      },
-      {
-        "exercise_id": "ex2",
-        "type": "fill_in_the_blanks",
-        "sentence_with_blank": "Ina bē [ ___ ] ? (Comment va ton père ?)",
-        "correct_answer": "baba",
-        "hint": "Le substantif désignant le père ou le patriarche de la concession."
-      }
-    ]
-  }
-]
+        {
+            "exercise_id": "ex1",
+            "type": "multiple_choice",
+            "question": "Combien de noms de clan bedik sont attestés dans les sources consultées ?",
+            "options": [
+                "5",
+                "12",
+                "2"
+            ],
+            "correct_answer": "5",
+            "explanation": "Cinq noms de clan sont cités par Wikipédia FR : Keita, Kamara, Samoura, Kanté et Sadiakhou."
+        },
+        {
+            "exercise_id": "ex2",
+            "type": "fill_in_the_blanks",
+            "sentence_with_blank": "La tradition orale bedik fait remonter l'arrivée du clan [ ___ ] à une migration depuis le Mali.",
+            "correct_answer": "Keita",
+            "hint": "C'est aussi un nom de clan mandinka bien connu."
+        }
+    ],
+    "sources": [
+        {
+            "label": "Wikipédia FR — Bédik (peuple)",
+            "url": "https://fr.wikipedia.org/wiki/B%C3%A9dik_(peuple)"
+        },
+        {
+            "label": "Glottolog — Bedik (bedi1235)",
+            "url": "https://glottolog.org/resource/languoid/id/bedi1235"
+        }
+    ],
+    "confidence": "faible",
+    "confidence_note": "Aucun terme de parenté bedik (père, mère, frère, etc.) n'est attesté dans les sources publiques consultées ; seuls les noms de clan patronymiques, réellement sourcés, sont présentés. La leçon signale explicitement cette lacune plutôt que d'inventer des mots. [Mise à jour : les tableaux 'vocabulary'/'common_phrases'/'dialogue'/'sources' ont été complétés a posteriori pour respecter les bornes du schéma, en recombinant exclusivement des mots bedik déjà attestés (voir 'sources' et cultural_notes) ; aucun vocabulaire nouveau non sourcé n'a été introduit. La confiance reste \"faible\" car ces ajouts restent des juxtapositions de mots isolés attestés, non des phrases grammaticales bedik vérifiées.]"
+}

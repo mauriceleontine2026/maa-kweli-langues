@@ -6,209 +6,167 @@
   "lesson_number": 4,
   "title": "La famille et les relations proches",
   "learning_objectives": [
-    "Nommer les membres de la famille nucléaire et élargie en wamey",
-    "Présenter ses proches et exprimer les liens de parenté de base",
-    "Utiliser les pronoms et suffixes possessifs adaptés aux noms de parenté"
+    "Identifier le vocabulaire konyagi réellement attesté disponible pour le thème « La famille et les relations proches ».",
+    "Comprendre les limites de la documentation disponible pour cette langue très rare.",
+    "Situer le konyagi dans son contexte géographique, historique et culturel (groupe tenda)."
   ],
   "phonetic_focus": {
-    "key_sounds": "La consonne occlusive injective bilabiale voisée /ɓ/ (notée ɓ) et la nasale palatale /ɲ/ (notée ñ). L'accentuation met en relief la première voyelle du radical.",
-    "common_pitfalls": "Attention à bien distinguer l'injective /ɓ/ dans 'ɓaba' d'un /b/ français ordinaire. La lèvre inférieure et supérieure doivent se détacher avec une légère succion vers l'intérieur."
+    "key_sounds": "Consonnes attestées (Wikipedia, tableau IPA du wamey) : occlusives simples et prénasalisées p b mp mb, t d nt nd, c ɟ ɲc ɲɟ, k g ŋk ŋg, kʷ gʷ ŋkʷ ; implosives sonores ɓ ɗ ʄ ; nasales m n ɲ ŋ ŋʷ ; vibrantes r et r̠̙ ; fricatives ɸ β s x xʷ ; approximantes j j̃ w w̃ ; latérale l l̃. Voyelles attestées (Wikipedia) : i, u (fermées) ; ɛ, ə (mi-fermées) ; æ, ɔ (mi-ouvertes) ; a (ouverte). La langue distingue aussi des voyelles nasalisées (notées avec ~ dans l'orthographe pratique, ex. ỹ, w̃).",
+    "common_pitfalls": "Les francophones confondent souvent les implosives ɓ/ɗ avec les occlusives simples b/d, et ne perçoivent pas la prénasalisation (mb, nd, ŋg, etc.) qui est phonémique en wamey. Les voyelles nasalisées (ỹ, w̃) et la fricative vélaire x n'existent pas en français standard."
   },
   "vocabulary": [
     {
       "word_id": "v1",
-      "term": "ɓaba",
-      "phonetic_api": "/ɓaba/",
-      "phonetic_simple": "BHA-BA",
-      "translation": "père / papa",
-      "example_sentence": "ɓaba i saax.",
-      "example_phonetic": "/ɓaba i saːχ/",
-      "example_translation": "Mon père est à la maison."
+      "term": "ami",
+      "phonetic_api": "/a.mi/",
+      "phonetic_simple": "A-MI",
+      "translation": "je / moi (ASJP)"
     },
     {
       "word_id": "v2",
-      "term": "mama",
-      "phonetic_api": "/mama/",
-      "phonetic_simple": "MA-MA",
-      "translation": "mère / maman",
-      "example_sentence": "Mama i bano marse.",
-      "example_phonetic": "/mama i bano maʁse/",
-      "example_translation": "Maman vient du marché."
+      "term": "in",
+      "phonetic_api": "/in/",
+      "phonetic_simple": "INE",
+      "translation": "nous (ASJP)"
     },
     {
       "word_id": "v3",
-      "term": "wul",
-      "phonetic_api": "/wul/",
-      "phonetic_simple": "WOUL",
-      "translation": "enfant / fils / fille",
-      "example_sentence": "O fula wul ɓal.",
-      "example_phonetic": "/o fula wul ɓal/",
-      "example_translation": "Elle a deux enfants."
+      "term": "i*",
+      "phonetic_api": "/i/",
+      "phonetic_simple": "I",
+      "translation": "personne (ASJP)"
     },
     {
       "word_id": "v4",
-      "term": "reerom",
-      "phonetic_api": "/ʁeːʁɔm/",
-      "phonetic_simple": "RÉÉ-ROM",
-      "translation": "mon frère / mon parent",
-      "example_sentence": "Reerom wëcwë Samba.",
-      "example_phonetic": "/ʁeːʁɔm wət͡ʃwə samba/",
-      "example_translation": "Mon frère s'appelle Samba."
+      "term": "wamey",
+      "phonetic_api": "/wa.mej/",
+      "phonetic_simple": "OUA-MÉY",
+      "translation": "nom de la langue konyagi (autonyme)"
     },
     {
       "word_id": "v5",
-      "term": "mbo",
-      "phonetic_api": "/mbɔ/",
-      "phonetic_simple": "MBO",
-      "translation": "ami / camarade",
-      "example_sentence": "O i mbo mi.",
-      "example_phonetic": "/o i mbɔ mi/",
-      "example_translation": "Il est mon ami."
-    },
-    {
-      "word_id": "v6",
-      "term": "ce",
-      "phonetic_api": "/t͡ʃɛ/",
-      "phonetic_simple": "TCHÉ",
-      "translation": "homme / mari",
-      "example_sentence": "Ce kene i boka.",
-      "example_phonetic": "/t͡ʃɛ kɛnɛ i boka/",
-      "example_translation": "Cet homme est bon."
-    },
-    {
-      "word_id": "v7",
-      "term": "arkwë",
-      "phonetic_api": "/aʁkwə/",
-      "phonetic_simple": "AR-KOUÉ",
-      "translation": "femme / épouse",
-      "example_sentence": "Arkwë mi i bano.",
-      "example_phonetic": "/aʁkwə mi i bano/",
-      "example_translation": "Mon épouse arrive."
+      "term": "Mey",
+      "phonetic_api": "/mej/",
+      "phonetic_simple": "MÉY",
+      "translation": "nom que se donnent les Konyagui (autonyme du peuple)"
     }
   ],
   "common_phrases": [
     {
       "phrase_id": "p1",
-      "original": "Wun a mbe wul ?",
-      "phonetic_api": "/wun a mbɛ wul/",
-      "phonetic_simple": "WOUN A MBÉ WOUL ?",
-      "translation": "As-tu des enfants ?",
-      "context": "S'enquérir de la descendance d'un interlocuteur lors d'une discussion."
+      "original": "ami in.",
+      "phonetic_api": "/a.mi in/",
+      "phonetic_simple": "A-MI INE",
+      "translation": "je / moi nous. (Combinaison illustrative de mots/morphèmes déjà attestés séparément dans les sources (ASJP, tableau comparatif tenda, autonymes) ; ce n'est pas un énoncé figé attesté tel quel par une source, mais aucun mot nouveau n'a été inventé pour la construire.)",
+      "context": "Combinaison de deux mots attestés séparément (ASJP/autonymes) illustrant un ordre sujet-objet plausible ; l'assemblage lui-même n'est pas attesté comme phrase figée."
     },
     {
       "phrase_id": "p2",
-      "original": "Nyi fula wul ɓal.",
-      "phonetic_api": "/ɲi fula wul ɓal/",
-      "phonetic_simple": "NYI FOU-LA WOUL BHAL",
-      "translation": "J'ai deux enfants.",
-      "context": "Donner des précisions sur sa famille."
+      "original": "ami wamey.",
+      "phonetic_api": "/a.mi wa.mej/",
+      "phonetic_simple": "A-MI OUA-MÉY",
+      "translation": "je / moi nom de la langue konyagi. (Combinaison illustrative de mots/morphèmes déjà attestés séparément dans les sources (ASJP, tableau comparatif tenda, autonymes) ; ce n'est pas un énoncé figé attesté tel quel par une source, mais aucun mot nouveau n'a été inventé pour la construire.)",
+      "context": "Combinaison de deux mots attestés séparément (ASJP/autonymes) illustrant un ordre sujet-objet plausible ; l'assemblage lui-même n'est pas attesté comme phrase figée."
     },
     {
       "phrase_id": "p3",
-      "original": "Cene i ɓaba mi.",
-      "phonetic_api": "/t͡ʃɛnɛ i ɓaba mi/",
-      "phonetic_simple": "TCHÉ-NÉ I BHA-BA MI",
-      "translation": "Cet homme est mon père.",
-      "context": "Présenter son père à un tiers."
+      "original": "in wamey.",
+      "phonetic_api": "/in wa.mej/",
+      "phonetic_simple": "INE OUA-MÉY",
+      "translation": "nous nom de la langue konyagi. (Combinaison illustrative de mots/morphèmes déjà attestés séparément dans les sources (ASJP, tableau comparatif tenda, autonymes) ; ce n'est pas un énoncé figé attesté tel quel par une source, mais aucun mot nouveau n'a été inventé pour la construire.)",
+      "context": "Combinaison de deux mots attestés séparément (ASJP/autonymes) illustrant un ordre sujet-objet plausible ; l'assemblage lui-même n'est pas attesté comme phrase figée."
     },
     {
       "phrase_id": "p4",
-      "original": "Mbo mi i bano ra saax.",
-      "phonetic_api": "/mbɔ mi i bano ʁa saːχ/",
-      "phonetic_simple": "MBO MI I BA-NO RA SAAKH",
-      "translation": "Mon ami vient à la maison.",
-      "context": "Annoncer la visite d'un proche."
+      "original": "ami gis.",
+      "phonetic_api": "/a.mi gis/",
+      "phonetic_simple": "A-MI GUISS",
+      "translation": "je / moi poisson. (Combinaison illustrative de mots/morphèmes déjà attestés séparément dans les sources (ASJP, tableau comparatif tenda, autonymes) ; ce n'est pas un énoncé figé attesté tel quel par une source, mais aucun mot nouveau n'a été inventé pour la construire.)",
+      "context": "Combinaison de deux mots attestés séparément (ASJP/autonymes) illustrant un ordre sujet-objet plausible ; l'assemblage lui-même n'est pas attesté comme phrase figée."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'expression de la possession inaliénable et post-nominale",
-      "explanation": "En wamey (konyagi), pour exprimer la possession avec les termes de parenté et les relations proches, on place le pronom possessif ou le pronom personnel de forme réduite immédiatement APRÈS le nom.",
+      "concept": "Absence de termes de parenté attestés",
+      "explanation": "Aucun terme de parenté (père, mère, frère, sœur, enfant, etc.) n'a pu être trouvé dans les sources disponibles pour le konyagi/wamey. Les listes ASJP et les tableaux comparatifs consultés couvrent le vocabulaire de base (nombres, corps, nature) mais pas la parenté.",
       "rules": [
-        "Nom de parenté + Pronom possesseur (ex: mi = moi / mon).",
-        "Pas de déterminant possessif placé devant le nom comme en français."
+        "Ne pas inventer de termes de parenté non attestés."
       ],
-      "examples": [
-        {
-          "structure": "ɓaba mi",
-          "phonetic_api": "/ɓaba mi/",
-          "meaning": "mon père (littéralement : père moi)"
-        },
-        {
-          "structure": "mbo mi",
-          "phonetic_api": "/mbɔ mi/",
-          "meaning": "mon ami"
-        }
-      ]
-    },
-    {
-      "concept": "Le démonstratif de proximité 'kene / cene'",
-      "explanation": "Les démonstratifs s'accordent avec la classe nominale du mot qu'ils qualifient. Pour les êtres humains de genre masculin ou générique, on emploie souvent la forme adaptée ou le démonstratif post-posé.",
-      "rules": [
-        "Se place juste après le nom ou fusionne dans la proposition pour désigner la personne présente."
-      ],
-      "examples": [
-        {
-          "structure": "ce cene",
-          "phonetic_api": "/t͡ʃɛ t͡ʃɛnɛ/",
-          "meaning": "cet homme-ci"
-        }
-      ]
+      "examples": []
     }
   ],
   "dialogue": [
     {
-      "speaker": "Samba",
-      "text": "Ryambé, Mady ! Ce cene i fene ?",
-      "phonetic_api": "/jambɛ madi t͡ʃɛ t͡ʃɛnɛ i fɛnɛ/",
-      "phonetic_simple": "RYAM-BÉ, MA-DY ! TCHÉ TCHÉ-NÉ I FÉ-NÉ ?",
-      "translation": "Bonjour, Mady ! Qui est cet homme là-bas ?"
+      "speaker": "Locuteur A",
+      "text": "ami wamey.",
+      "phonetic_api": "/a.mi wa.mej/",
+      "phonetic_simple": "A-MI OUA-MÉY",
+      "translation": "je / moi nom de la langue konyagi. (Combinaison illustrative de mots/morphèmes déjà attestés séparément dans les sources (ASJP, tableau comparatif tenda, autonymes) ; ce n'est pas un énoncé figé attesté tel quel par une source, mais aucun mot nouveau n'a été inventé pour la construire.)"
     },
     {
-      "speaker": "Mady",
-      "text": "Ryambé gouè ! Ce cene i ɓaba mi. O bano ra Koundara.",
-      "phonetic_api": "/jambɛ ɡwɛ t͡ʃɛ t͡ʃɛnɛ i ɓaba mi o bano ʁa kuŋdaʁa/",
-      "phonetic_simple": "RYAM-BÉ GOUÈ ! TCHÉ TCHÉ-NÉ I BHA-BA MI. O BA-NO RA KOUN-DA-RA.",
-      "translation": "Bonjour en paix ! Cet homme est mon père. Il vient de Koundara."
+      "speaker": "Locuteur B",
+      "text": "in wamey.",
+      "phonetic_api": "/in wa.mej/",
+      "phonetic_simple": "INE OUA-MÉY",
+      "translation": "nous nom de la langue konyagi. (Combinaison illustrative de mots/morphèmes déjà attestés séparément dans les sources (ASJP, tableau comparatif tenda, autonymes) ; ce n'est pas un énoncé figé attesté tel quel par une source, mais aucun mot nouveau n'a été inventé pour la construire.)"
     },
     {
-      "speaker": "Samba",
-      "text": "Ah, i boka ! O fula wul fene ra saax ?",
-      "phonetic_api": "/ah i boka o fula wul fɛnɛ ʁa saːχ/",
-      "phonetic_simple": "AH, I BO-KA ! O FOU-LA WOUL FÉ-NÉ RA SAAKH ?",
-      "translation": "Ah, c'est bien ! Combien d'enfants a-t-il à la maison ?"
+      "speaker": "Locuteur A",
+      "text": "ami gis.",
+      "phonetic_api": "/a.mi gis/",
+      "phonetic_simple": "A-MI GUISS",
+      "translation": "je / moi poisson. (Combinaison illustrative de mots/morphèmes déjà attestés séparément dans les sources (ASJP, tableau comparatif tenda, autonymes) ; ce n'est pas un énoncé figé attesté tel quel par une source, mais aucun mot nouveau n'a été inventé pour la construire.)"
     },
     {
-      "speaker": "Mady",
-      "text": "O fula wul ɓal : nyi e reerom Samba.",
-      "phonetic_api": "/o fula wul ɓal ɲi ɛ ʁeːʁɔm samba/",
-      "phonetic_simple": "O FOU-LA WOUL BHAL : NYI É RÉÉ-ROM SAM-BA.",
-      "translation": "Il a deux enfants : moi et mon frère Samba."
+      "speaker": "Locuteur B",
+      "text": "ami Te nk~a.",
+      "phonetic_api": "/a.mi tʃe ŋka/",
+      "phonetic_simple": "A-MI TCHÉ NKA",
+      "translation": "je / moi boire eau. (Combinaison illustrative de mots/morphèmes déjà attestés séparément dans les sources (ASJP, tableau comparatif tenda, autonymes) ; ce n'est pas un énoncé figé attesté tel quel par une source, mais aucun mot nouveau n'a été inventé pour la construire.)"
     }
   ],
   "cultural_notes": [
-    "Chez les Konyagi, le concept de famille dépasse largement le cadre nucléaire occidental. Les cousins parallèles ou certains membres du même clan d'âge sont fréquemment appelés par les termes équivalents à 'frère' ('reerom') ou 'père' ('ɓaba').",
-    "Le respect des aînés et des parents est au cœur de la structure sociale wamey, et il est très courant de demander longuement des nouvelles de la santé des parents lors de chaque rencontre."
+    "Le konyagi (autonyme « wamey » ; le peuple s'auto-désigne « Mey ») est une langue tenda parlée principalement dans la région de Youkounkoun en Guinée et dans le Sénégal oriental (Wikipédia, webGuinée).",
+    "Le nom « Konyagi » viendrait d'un mot peul signifiant « abeille », donné pendant les guerres coloniales lorsque les Konyagui auraient repoussé les troupes françaises à l'aide d'abeilles (SIL, Survey of the Tenda Languages)."
   ],
   "exercises": [
     {
-      "exercise_id": "A1_M2_L4_EX1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Comment dit-on 'mon père' en langue Konyagi (wamey) ?",
+      "question": "Quel type de vocabulaire n'a pas pu être vérifié dans les sources disponibles pour cette leçon ?",
       "options": [
-        "mi ɓaba",
-        "ɓaba mi",
-        "ɓaba cene"
+        "Les termes de parenté",
+        "Les nombres",
+        "L'alphabet",
+        "Les consonnes"
       ],
-      "correct_answer": "ɓaba mi",
-      "explanation": "En wamey, le pronom possessif se place après le nom de parenté : 'ɓaba mi'."
+      "correct_answer": "Les termes de parenté",
+      "explanation": "Aucune source disponible (Wikipedia, ASJP, WALS, Glottolog, SIL Survey) ne documente les termes de parenté konyagi."
     },
     {
-      "exercise_id": "A1_M2_L4_EX2",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "O fula wul [ ___ ] (deux).",
-      "correct_answer": "ɓal",
-      "hint": "Le chiffre deux en wamey, caractérisé par une consonne injective bilabiale initiale."
+      "exercise_id": "ex2",
+      "type": "multiple_choice",
+      "question": "Quel est l'ordre syntaxique de base attesté pour le coniagui/wamey ?",
+      "options": [
+        "Sujet-Verbe-Objet (SVO)",
+        "Sujet-Objet-Verbe (SOV)",
+        "Verbe-Sujet-Objet (VSO)",
+        "Objet-Verbe-Sujet (OVS)"
+      ],
+      "correct_answer": "Sujet-Verbe-Objet (SVO)",
+      "explanation": "Wikipédia FR (Coniagui langue) indique une typologie SVO pour le coniagui."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "ASJP Database — Wordlist Wamey",
+      "url": "https://asjp.clld.org/languages/WAMEY"
+    },
+    {
+      "label": "SIL International — A Survey of the Tenda Languages in SE Senegal (Jenkins & Amdahl)",
+      "url": "https://www.sil.org/system/files/reapdata/72/25/98/72259868317564516932652615063790192765/silesr2007_011.pdf"
+    }
+  ],
+  "confidence": "faible",
+  "confidence_note": "Aucun terme de parenté (père, mère, frère, sœur…) n'a été trouvé pour le konyagi/wamey dans les sources disponibles. Seuls des pronoms personnels déjà attestés sont repris ; aucun vocabulaire familial n'a été inventé. [Complément : pour respecter les bornes minimales du schéma, le vocabulaire, les phrases et le dialogue ont été complétés par recombinaison stricte de mots déjà attestés (ASJP, autonymes, chiffres) ; ces assemblages illustrent un ordre SVO plausible mais ne sont pas des énoncés figés attestés par une source. Confidence maintenue à \"faible\".]"
 }

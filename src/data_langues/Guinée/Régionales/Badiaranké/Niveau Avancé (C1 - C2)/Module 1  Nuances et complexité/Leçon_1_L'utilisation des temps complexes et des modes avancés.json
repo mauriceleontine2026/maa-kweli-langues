@@ -6,226 +6,191 @@
   "lesson_number": 1,
   "title": "L'utilisation des temps complexes et des modes avancés",
   "learning_objectives": [
-    "Maîtriser la combinaison de l'accompli passé et des auxiliaires de perspective",
-    "Exprimer une action antérieure à une autre action passée (plus-que-parfait)",
-    "Saisir les nuances subtiles du mode subjonctif-optatif dans la narration fluide"
+    "Analyser le système TAM complet décrit par Cover (2010) : perfectif, imperfectif, deux passés, prospectif, progressif/habituel périphrastique",
+    "Comprendre les marqueurs de pluractionnalité (-ra:n-) et de répétition (-a:s-)",
+    "Comprendre le rôle de la réduplication dans le système verbal badiaranké"
   ],
   "phonetic_focus": {
-    "key_sounds": "La juxtaposition des morphèmes complexes induit des contractions vocaliques intersyllabiques. La propreté des occlusives glottalisées injectives /ɓ/ et /ɗ/ doit être maintenue au cœur des radicaux fléchis.",
-    "common_pitfalls": "Niveler ou élider la seconde voyelle longue lors de la rencontre de deux morphèmes grammaticaux successifs, modifiant la chronologie des événements racontés."
+    "key_sounds": "Les suffixes aspectuels -ra:n- (pluractionnel) et -a:s- (répétitif) s'ajoutent après la racine verbale, avant les marques de temps/personne, selon l'ordre morphologique décrit par Cover (2010).",
+    "common_pitfalls": "Intervertir l'ordre des suffixes aspectuels et des suffixes de temps, ce qui change le sens de l'énoncé."
   },
   "vocabulary": [
     {
-      "word_id": "v19_1",
-      "term": "Wure-ma-wa",
-      "phonetic_api": "/wuremawa/",
-      "phonetic_simple": "WOU-RE-MA-WA",
-      "translation": "Était sur le point d'arriver / Était venu avant que",
-      "example_sentence": "M baa o wure-ma-wa e maari.",
-      "example_phonetic": "/m ɓaː o wuremawa e maːri/",
-      "example_translation": "Mon père était déjà venu à la concession (avant un autre fait)."
+      "word_id": "v1",
+      "term": "ra:-",
+      "phonetic_api": "/ra:-/",
+      "phonetic_simple": "ra-",
+      "translation": "aller",
+      "_src": "COVER"
     },
     {
-      "word_id": "v19_2",
-      "term": "Mase-ma-ma",
-      "phonetic_api": "/masemama/",
-      "phonetic_simple": "MA-SE-MA-MA",
-      "translation": "Avait été complètement achevé au préalable",
-      "example_sentence": "Fari o o mase-ma-ma meema.",
-      "example_phonetic": "/fari o o masemama meːma/",
-      "example_translation": "Le travail avait été totalement terminé hier (avant la pluie)."
+      "word_id": "v2",
+      "term": "re:-",
+      "phonetic_api": "/re:-/",
+      "phonetic_simple": "ré-",
+      "translation": "venir",
+      "_src": "COVER"
     },
     {
-      "word_id": "v19_3",
-      "term": "Yere-ma",
-      "phonetic_api": "/jerema/",
-      "phonetic_simple": "YE-RE-MA",
-      "translation": "Avait pensé / Avait conçu l'idée",
-      "example_sentence": "N yere-ma e wa-ma e teeŋ.",
-      "example_phonetic": "/n jerema e wama e teːŋ/",
-      "example_translation": "J'avais pensé à me rendre au village."
+      "word_id": "v3",
+      "term": "ri:-",
+      "phonetic_api": "/ri:-/",
+      "phonetic_simple": "ri-",
+      "translation": "faire",
+      "_src": "COVER"
     },
     {
-      "word_id": "v19_4",
-      "term": "Yo",
-      "phonetic_api": "/jo/",
-      "phonetic_simple": "YO",
-      "translation": "Particule du mode optatif / Que (souhait ou ordre indirect)",
-      "example_sentence": "Yo a fari sae !",
-      "example_phonetic": "/jo a fari sae/",
-      "example_translation": "Qu'il travaille bien !"
+      "word_id": "v4",
+      "term": "dZe:n-",
+      "phonetic_api": "/dʒe:n-/",
+      "phonetic_simple": "djé-ne-",
+      "translation": "voir / regarder",
+      "_src": "COVER"
     },
     {
-      "word_id": "v19_5",
-      "term": "Wala-ma",
-      "phonetic_api": "/walama/",
-      "phonetic_simple": "WA-LA-MA",
-      "translation": "Aurait dû / Avait l'obligation de",
-      "example_sentence": "I wala-ma e mase m mi.",
-      "example_phonetic": "/i walama e mase m mi/",
-      "example_translation": "Tu aurais dû m'écouter."
-    },
-    {
-      "word_id": "v19_6",
-      "term": "Abaari-boki",
-      "phonetic_api": "/aɓaːriɓoki/",
-      "phonetic_simple": "A-BAA-RI-BHO-KI",
-      "translation": "L'ensemble des faits historiques entrelacés",
-      "example_sentence": "O lenb abaari-boki m mase.",
-      "example_phonetic": "/o lɛnɓ aɓaːriɓoki m mase/",
-      "example_translation": "Il raconte une histoire d'envergure fort ancienne."
-    },
-    {
-      "word_id": "v19_7",
-      "term": "Mee-meema",
-      "phonetic_api": "/meːmeːma/",
-      "phonetic_simple": "MEE-MEE-MA",
-      "translation": "Il y a bien longtemps / Un passé très lointain",
-      "example_sentence": "Mee-meema n wona-ma o seŋeni.",
-      "example_phonetic": "/meːmeːma n wonama o seŋeni/",
-      "example_translation": "Il y a fort longtemps, j'habitais là-bas."
+      "word_id": "v5",
+      "term": "dZa:-",
+      "phonetic_api": "/dʒa:-/",
+      "phonetic_simple": "dja-",
+      "translation": "manger",
+      "_src": "COVER"
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p19_1",
-      "original": "N farit-ma-ma maaso meema.",
-      "phonetic_api": "/n faritmama maːso meːma/",
-      "phonetic_simple": "N FA-RITT-MA-MA MAA-SO MEE-MA",
-      "translation": "J'avais déjà fini de cultiver le riz hier (avant ton arrivée).",
-      "context": "Expliquer une antériorité temporelle dans un rapport professionnel."
+      "phrase_id": "p1",
+      "original": "-ra:n-",
+      "phonetic_api": "/-ra:n-/",
+      "phonetic_simple": "-ran-",
+      "translation": "suffixe pluractionnel (action répétée/multiple)",
+      "context": "Attesté par Cover (2010) comme marqueur d'aspect pluractionnel."
     },
     {
-      "phrase_id": "p19_2",
-      "original": "Yo sae e i fari, yo a mase !",
-      "phonetic_api": "/jo sae e i fari jo a mase/",
-      "phonetic_simple": "YO SA-E E I FA-RI, YO A MA-SE !",
-      "translation": "Que la bénédiction soit sur ton œuvre, et qu'il l'entende ainsi !",
-      "context": "Formuler un souhait solennel lors d'une réunion de haut rang."
+      "phrase_id": "p2",
+      "original": "-a:s-",
+      "phonetic_api": "/-a:s-/",
+      "phonetic_simple": "-as-",
+      "translation": "suffixe répétitif (faire à nouveau)",
+      "context": "Attesté par Cover (2010) comme marqueur aspectuel de répétition."
     },
     {
-      "phrase_id": "p19_3",
-      "original": "I wala-ma e duse wari meema.",
-      "phonetic_api": "/i walama e duse wari meːma/",
-      "phonetic_simple": "I WA-LA-MA E DOU-SE WA-RI MEE-MA",
-      "translation": "Tu aurais dû revoir et baisser ton prix hier.",
-      "context": "Exprimer un regret ou reproche quant à une négociation passée."
+      "phrase_id": "p3",
+      "original": "ra:- re:-",
+      "phonetic_api": "/ra:-/ /re:-/",
+      "phonetic_simple": "ra- ré-",
+      "translation": "aller venir",
+      "context": "Juxtaposition pédagogique de mots déjà attestés dans cette leçon (recombinaison, PAS une phrase attestée telle quelle dans les sources)."
     },
     {
-      "phrase_id": "p19_4",
-      "original": "Meema n soko-ma-wa kense o.",
-      "phonetic_api": "/meːma n sokomawa kɛnse o/",
-      "phonetic_simple": "MEE-MA N SO-KO-MA-WA KEN-SE O",
-      "translation": "Hier, j'étais sur le point d'acheter ce poisson.",
-      "context": "Évoquer une action presque réalisée dans la temporalité passée."
-    },
-    {
-      "phrase_id": "p19_5",
-      "original": "Abaari-boki o seŋeni n sae-boki.",
-      "phonetic_api": "/aɓaːriɓoki o seŋeni n sae ɓoki/",
-      "phonetic_simple": "A-BAA-RI-BHO-KI O SE-NGE-NI N SA-E BHO-KI",
-      "translation": "Cette grande chronique historique apporte une profonde joie.",
-      "context": "Valider la pertinence morale d'un long récit traditionnel."
-    },
-    {
-      "phrase_id": "p19_6",
-      "original": "M maama o wona-ma-wa e teeŋ ubiin.",
-      "phonetic_api": "/m maːma o wonamawa e teːŋ ubiːn/",
-      "phonetic_simple": "M MAA-MA O WO-NA-MA-WA E TEENG OU-BHIIN",
-      "translation": "Mon grand-père avait résidé dans la cité sombre autrefois.",
-      "context": "Situer le parcours résidentiel d'un ancêtre décédé."
-    },
-    {
-      "phrase_id": "p19_7",
-      "original": "Mee-meema kalo mmanza o fari-ma-ma sae.",
-      "phonetic_api": "/meːmeːma kalo mːanza o farimama sae/",
-      "phonetic_simple": "MEE-MEE-MA KA-LO MMAN-ZA O FA-RI-MA-MA SA-E",
-      "translation": "Il y a bien longtemps, un mois s'était écoulé paisiblement.",
-      "context": "Introduire un conte ou un mythe fondateur communautaire."
-    },
-    {
-      "phrase_id": "p19_8",
-      "original": "Yo Alla a mbaas fari m mi !",
-      "phonetic_api": "/jo alla a mɓaːs fari m mi/",
-      "phonetic_simple": "YO AL-LA A MBAAS FA-RI M MI !",
-      "translation": "Puisse Dieu permettre l'aboutissement de mon entreprise !",
-      "context": "Invocation religieuse formelle de protection."
+      "phrase_id": "p4",
+      "original": "ra:- ri:-",
+      "phonetic_api": "/ra:-/ /ri:-/",
+      "phonetic_simple": "ra- ri-",
+      "translation": "aller faire",
+      "context": "Juxtaposition pédagogique de mots déjà attestés dans cette leçon (recombinaison, PAS une phrase attestée telle quelle dans les sources)."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'encapsulation morphologique du plus-que-parfait",
-      "explanation": "En Badiaranké avancé, le plus-que-parfait et l'antériorité narrative s'expriment par le redoublement ou la fusion des morphèmes suffixaux '-ma' (accompli) et '-wa' (mouvement/perspective). Cette double marque rejette l'action au-delà du premier plan du récit.",
+      "concept": "Pluractionnalité et répétition",
+      "explanation": "Cover (2010) décrit deux suffixes aspectuels distincts : -ra:n- (pluractionnel, indiquant une action effectuée plusieurs fois ou par plusieurs participants) et -a:s- (répétitif, indiquant qu'une action est refaite). Ces suffixes s'ajoutent à la racine verbale, en interaction avec les suffixes de temps (-ako-/-akəd-) et les marqueurs narratifs (NM1/NM2).",
       "rules": [
-        "Le radical verbal reçoit le suffixe de parfait '-ma'.",
-        "On y adjoint immédiatement l'indice d'ancrage déictique '-wa' ou un second '-ma' pour verrouiller la préséance historique."
+        "Racine + -ra:n- = action pluractionnelle (répétée/plurielle)",
+        "Racine + -a:s- = action répétitive (refaite)",
+        "Ces suffixes peuvent en principe se combiner avec les suffixes de temps, mais aucun exemple combiné complet n'est disponible dans nos extraits."
       ],
       "examples": [
         {
-          "structure": "o fari-ma-ma",
-          "phonetic_api": "/o farimama/",
-          "meaning": "il avait fait / il avait achevé au préalable"
+          "structure": "[racine]-ra:n-",
+          "phonetic_api": "/-ra:n-/",
+          "meaning": "faire [action] de façon répétée/plurielle"
         },
         {
-          "structure": "n wa-ma-wa",
-          "phonetic_api": "/n wamawa/",
-          "meaning": "j'étais allé auparavant"
+          "structure": "[racine]-a:s-",
+          "phonetic_api": "/-a:s-/",
+          "meaning": "refaire [action]"
+        }
+      ]
+    },
+    {
+      "concept": "Réduplication verbale",
+      "explanation": "Cover (2010) mentionne l'existence de la réduplication comme procédé morphologique du système verbal badiaranké (vraisemblablement pour marquer l'intensité ou la durée), mais les exemples précis de formes rédupliquées ne sont pas repris intégralement dans nos extraits disponibles.",
+      "rules": [
+        "La réduplication existe comme procédé attesté, sans paradigme détaillé reproductible ici de façon fiable."
+      ],
+      "examples": [
+        {
+          "structure": "(forme rédupliquée non isolée simplement ici)",
+          "phonetic_api": "-",
+          "meaning": "voir Cover (2010) pour le détail"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Samba",
-      "text": "Moussa, meema n wure-ma e i maari, i seŋeni ɓe. I wa-ma-wa e seŋeni ?",
-      "phonetic_api": "/moussa meːma n wurema e i maːri i seŋeni ɓe i wamawa e seŋeni/",
-      "phonetic_simple": "MOUS-SA, MEE-MA N WOU-RE-MA E I MAA-RI, I SE-NGE-NI BHE. I WA-MA-WA E SE-NGE-NI ?",
-      "translation": "Moussa, hier quand je suis arrivé dans ta concession, tu n'y étais pas. Où étais-tu donc allé auparavant ?"
+      "speaker": "Linguiste",
+      "text": "[racine]-ra:n-.",
+      "phonetic_api": "/-ra:n-/",
+      "phonetic_simple": "-ran-",
+      "translation": "Marqueur pluractionnel isolé (illustration grammaticale, non une phrase réelle)."
     },
     {
-      "speaker": "Moussa",
-      "text": "Samba, n yere-ma e mase i, n wa-ma-wa e maree. N farit-ma-ma fari m mi.",
-      "phonetic_api": "/samɓa n jerema e mase i n wamawa e mareː n faritmama fari m mi/",
-      "phonetic_simple": "SAM-BHA, N YE-RE-MA E MA-SE I, N WA-MA-WA E MA-REE. N FA-RITT-MA-MA FA-RI M MI.",
-      "translation": "Samba, j'avais pensé t'attendre, mais j'étais déjà parti au marché. J'avais terminé mon ouvrage aux champs bien avant."
+      "speaker": "Étudiant",
+      "text": "[racine]-a:s-.",
+      "phonetic_api": "/-a:s-/",
+      "phonetic_simple": "-as-",
+      "translation": "Marqueur répétitif isolé (illustration grammaticale, non une phrase réelle)."
     },
     {
-      "speaker": "Samba",
-      "text": "Iyo, i soko-ma-wa kense o mase-ma ?",
-      "phonetic_api": "/ijo i sokomawa kɛnse o masema/",
-      "phonetic_simple": "I-YO, I SO-KO-MA-WA KEN-SE O MA-SE-MA ?",
-      "translation": "Ah d'accord, et avais-tu pu acheter ce gros poisson ?"
+      "speaker": "Professeur",
+      "text": "ra:-.",
+      "phonetic_api": "/ra:-/",
+      "phonetic_simple": "ra-",
+      "translation": "Aller. (mot attesté isolé, recombiné pédagogiquement dans ce dialogue)"
     },
     {
-      "speaker": "Moussa",
-      "text": "Aé, wari o o mase-ma-ma e mi. Yo Alla a fari sae manka !",
-      "phonetic_api": "/aeː wari o o masemama e mi jo alla a fari sae manka/",
-      "phonetic_simple": "AEE, WA-RI O O MA-SE-MA-MA E MI. YO AL-LA A FA-RI SA-E MAN-KA !",
-      "translation": "Non, les ressources financières m'avaient fait défaut au préalable. Puisse Dieu faire que la journée de demain soit meilleure !"
+      "speaker": "Élève",
+      "text": "re:-.",
+      "phonetic_api": "/re:-/",
+      "phonetic_simple": "ré-",
+      "translation": "Venir. (mot attesté isolé, recombiné pédagogiquement dans ce dialogue)"
     }
   ],
   "cultural_notes": [
-    "Dans l'art oratoire des aînés Badiaranké, l'usage des structures verbales complexes à tiroirs aspectuels ('wure-ma-wa') sert à arbitrer les litiges fonciers ou généalogiques. Établir avec exactitude l'antériorité d'une alliance ou du défrichage d'une terre ('farit-ma-ma') confère une autorité incontestable à la parole du locuteur."
+    "La richesse du système aspectuel décrit par Cover (2010) — deux passés, un prospectif, un pluractionnel, un répétitif, une réduplication — suggère une grammaire verbale complexe comparable à d'autres langues atlantiques, mais dont l'inventaire complet des combinaisons reste à documenter par des travaux de terrain supplémentaires."
   ],
   "exercises": [
     {
-      "exercise_id": "ex19_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quelle nuance exprime le complexe verbal 'n farit-ma-ma' ?",
+      "question": "Que marque le suffixe -ra:n- selon Cover (2010) ?",
       "options": [
-        "Je cultive actuellement",
-        "Je vais bientôt cultiver",
-        "J'avais déjà cultivé au préalable (plus-que-parfait)"
+        "la pluractionnalité (action répétée/plurielle)",
+        "le futur simple",
+        "la négation"
       ],
-      "correct_answer": "J'avais déjà cultivé au préalable (plus-que-parfait)",
-      "explanation": "La double marque aspectuelle '-ma-ma' indique une action achevée antérieurement à un autre jalon du passé."
+      "correct_answer": "la pluractionnalité (action répétée/plurielle)",
+      "explanation": "Attesté explicitement dans l'analyse TAM de Cover (2010)."
     },
     {
-      "exercise_id": "ex19_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "[ ___ ] a fari sae e bata ! (Qu'il agisse bien dans la cour !)",
-      "correct_answer": "yo",
-      "hint": "La particule régissant le mode optatif ou le subjonctif de souhait."
+      "sentence_with_blank": "[ ___ ] = suffixe répétitif (« refaire »), attesté par Cover (2010)",
+      "correct_answer": "-a:s-",
+      "hint": "Contient une voyelle longue /a:/."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Cover, R. (2010) — Aspect, Modality, and Tense in Badiaranke, UC Berkeley (PhD dissertation)",
+      "url": "https://escholarship.org/uc/item/6f91m5dg"
+    },
+    {
+      "label": "Cover, R. (2010) — texte intégral PDF (eScholarship, UC Berkeley)",
+      "url": "https://escholarship.org/content/qt6f91m5dg/qt6f91m5dg.pdf"
+    }
+  ],
+  "confidence": "faible",
+  "confidence_note": "Le badiaranké ne dispose d'aucun corpus de niveau avancé publié (pas de littérature, pas de presse, pas de discours formels enregistrés) dans les sources consultées. Cette leçon de niveau C1-C2 utilise donc uniquement les éléments grammaticaux ou lexicaux les plus complexes réellement attestés par Cover (2010), sans pouvoir remplir tous les champs du schéma avec du contenu réellement avancé. Les catégories grammaticales (pluractionnel -ra:n-, répétitif -a:s-, réduplication) sont mentionnées par Cover (2010), mais sans corpus de phrases combinées complexes utilisables pour illustrer pleinement leur emploi en discours réel."
 }

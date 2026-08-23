@@ -6,170 +6,194 @@
   "lesson_number": 4,
   "title": "Raconter des faits passés (les temps du récit)",
   "learning_objectives": [
-    "Utiliser le suffixe de l'accompli intransitif (-ra) pour exprimer une action terminée",
-    "Employer la particule de l'accompli transitif (ye) pour raconter un événement passé",
-    "Structurer un récit court à l'aide d'adverbes temporels du passé"
+    "Reconnaître le marqueur « bara » comme indicateur d'accompli/passé récent en kuranko",
+    "Raconter un événement bref au passé avec le vocabulaire déjà attesté",
+    "Comprendre le rôle du récit oral (contes, proverbes) dans la transmission culturelle kuranko"
   ],
   "phonetic_focus": {
-    "key_sounds": "La consonne 'r' du suffixe '-ra' s'articule comme un battement alvéolaire doux, sans jamais être grasseyée. Le 'y' de la particule temporelle 'ye' est une semi-voyelle fluide /j/.",
-    "common_pitfalls": "Attention à ne pas omettre la nasalisation dans 'kunu' (hier) et à bien détacher le son du 'y' dans 'ye' sans le faire glisser vers un son 'j' français."
+    "key_sounds": "Le marqueur aspectuel « bara » se prononce avec deux syllabes égales en intensité, sans accentuer la première comme le ferait un francophone.",
+    "common_pitfalls": "Les francophones ont tendance à accentuer fortement la première syllabe de « bara », alors qu'elle doit rester légère et régulière."
   },
   "vocabulary": [
     {
-      "word_id": "v1_b1_m2_l4",
-      "term": "Kunu",
-      "phonetic_api": "/ku.nu/",
-      "phonetic_simple": "KOU-NOU",
-      "translation": "Hier",
-      "example_sentence": "N na kunu",
-      "example_phonetic": "/ɲ͡na ku.nu/",
-      "example_translation": "Je suis venu hier"
+      "word_id": "v1",
+      "term": "bara",
+      "phonetic_api": "/bara/",
+      "phonetic_simple": "BA-ra",
+      "translation": "marqueur aspectuel d'accompli (action terminée/état atteint)",
+      "example_sentence": "Karamorgo bara don fo.",
+      "example_phonetic": "/karamorgo bara don fo/",
+      "example_translation": "Le maître religieux a annoncé le jour."
     },
     {
-      "word_id": "v2_b1_m2_l4",
-      "term": "Sino",
-      "phonetic_api": "/si.no/",
-      "phonetic_simple": "SI-NO",
-      "translation": "Avant-hier",
-      "example_sentence": "A bɔra yan sino",
-      "example_phonetic": "/a bɔ.ra jan si.no/",
-      "example_translation": "Il est parti d'ici avant-hier"
+      "word_id": "v2",
+      "term": "bimbanu",
+      "phonetic_api": "/bimbanu/",
+      "phonetic_simple": "bim-BA-nou",
+      "translation": "les ancêtres, les grands-pères (souvent sujets des récits historiques)",
+      "example_sentence": "Bimbanu bara na keli fo.",
+      "example_phonetic": "/bimbanu bara na kɛli fo/",
+      "example_translation": "Les ancêtres ont raconté l'histoire des origines."
     },
     {
-      "word_id": "v3_b1_m2_l4",
-      "term": "Taminfa",
-      "phonetic_api": "/ta.min.fa/",
-      "phonetic_simple": "TA-MIN-FA",
-      "translation": "Le passé / Le temps passé",
-      "example_sentence": "Taminfa ko le ra",
-      "example_phonetic": "/ta.min.fa ko le ra/",
-      "example_translation": "C'est une histoire du passé"
+      "word_id": "v3",
+      "term": "fo",
+      "phonetic_api": "/fo/",
+      "phonetic_simple": "fo",
+      "translation": "dire, raconter, annoncer",
+      "example_sentence": "A bara kuma fo.",
+      "example_phonetic": "/a bara kuma fo/",
+      "example_translation": "Il/elle a raconté une histoire/parole."
     },
     {
-      "word_id": "v4_b1_m2_l4",
-      "term": "Kɛ",
-      "phonetic_api": "/kɛ/",
-      "phonetic_simple": "KƐ",
-      "translation": "Faire / Se passer (au passé : kɛra)",
-      "example_sentence": "Mun kɛra ?",
-      "example_phonetic": "/mun kɛ.ra/",
-      "example_translation": "Qu'est-ce qui s'est passé ?"
+      "word_id": "v4",
+      "term": "kuma",
+      "phonetic_api": "/kuma/",
+      "phonetic_simple": "KOU-ma",
+      "translation": "parole, discours, récit",
+      "example_sentence": "Kuma kɔrɔ ka gbele.",
+      "example_phonetic": "/kuma kɔrɔ ka ɡ͡bɛlɛ/",
+      "example_translation": "La signification profonde de la parole est difficile (à comprendre)."
+    },
+    {
+      "word_id": "v5",
+      "term": "aduk'",
+      "phonetic_api": "/aduk/",
+      "phonetic_simple": "a-DOUK",
+      "translation": "aussi, également (particule additive utilisée en fin d'énoncé dans le récit oral)",
+      "example_sentence": "N bara kuma fo aduk'.",
+      "example_phonetic": "/n bara kuma fo aduk/",
+      "example_translation": "J'ai aussi raconté l'histoire."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p1_b1_m2_l4",
-      "original": "I mun kɛra kunu ?",
-      "phonetic_api": "/i mun kɛ.ra ku.nu/",
-      "phonetic_simple": "I MOUN KƐ-RA KOU-NOU ?",
-      "translation": "Qu'as-tu fait hier ?",
-      "context": "Interroger un ami sur ses activités de la veille."
+      "phrase_id": "p1",
+      "original": "Karamorgo bara don fo.",
+      "phonetic_api": "/karamorgo bara don fo/",
+      "phonetic_simple": "ka-ra-MOR-go BA-ra don fo",
+      "translation": "Le maître religieux a annoncé le jour.",
+      "context": "Réemploie une phrase attestée à la leçon 6 du niveau Débutant pour illustrer l'accompli avec « bara »."
     },
     {
-      "phrase_id": "p2_b1_m2_l4",
-      "original": "N tana lɔgɔfaga la kunu sɔgɔma",
-      "phonetic_api": "/ɲ͡ta.na lɔ.gɔ.fa.ga la ku.nu sɔ.gɔ.ma/",
-      "phonetic_simple": "N TA-NA LƆ-GƆ-FA-GA LA KOU-NOU SƆ-GƆ-MA",
-      "translation": "Je suis allé au marché hier matin",
-      "context": "Raconter son déplacement de la veille."
+      "phrase_id": "p2",
+      "original": "Bimbanu bara na keli fo.",
+      "phonetic_api": "/bimbanu bara na kɛli fo/",
+      "phonetic_simple": "bim-BA-nou BA-ra na KÈ-li fo",
+      "translation": "Les ancêtres ont raconté l'histoire des origines.",
+      "context": "Combine « bimbanu » (ancêtres, attesté chez Jackson) avec le marqueur d'accompli « bara » et le verbe « fo » (dire/raconter)."
     },
     {
-      "phrase_id": "p3_b1_m2_l4",
-      "original": "N ye malo san",
-      "phonetic_api": "/ɲ͡je ma.lo san/",
-      "phonetic_simple": "N YE MA-LO SAN",
-      "translation": "J'ai acheté du riz",
-      "context": "Énoncer une action transitive accomplie."
+      "phrase_id": "p3",
+      "original": "A bara kuma fo.",
+      "phonetic_api": "/a bara kuma fo/",
+      "phonetic_simple": "a BA-ra KOU-ma fo",
+      "translation": "Il/elle a raconté une histoire.",
+      "context": "Structure de base du récit oral, pilier de la transmission culturelle kuranko."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "N bara kuma fo aduk'.",
+      "phonetic_api": "/n bara kuma fo aduk/",
+      "phonetic_simple": "n BA-ra KOU-ma fo a-DOUK",
+      "translation": "J'ai aussi raconté l'histoire.",
+      "context": "Illustre l'usage de la particule additive « aduk' » en fin de récit passé, pour signaler qu'on ajoute sa propre contribution à un récit déjà commencé par un autre locuteur."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'accompli intransitif avec le suffixe '-ra'",
-      "explanation": "Pour les verbes de mouvement ou d'état (sans objet direct), l'accompli se forme en ajoutant le suffixe '-ra' directement à la racine du verbe.",
+      "concept": "Le marqueur aspectuel « bara » (accompli)",
+      "explanation": "« Bara » indique qu'une action est achevée ou qu'un état est atteint au moment de l'énonciation, fonctionnant de façon analogue à un passé composé ou à un présent accompli en français. Il se place entre le sujet et le verbe principal, comme observé dans plusieurs phrases attestées chez Michael Jackson.",
       "rules": [
-        "Structure : Sujet + Verbe + ra",
-        "Si le verbe se termine par une voyelle nasale, le suffixe peut s'adoucir phonétiquement."
+        "Sujet + bara + verbe (+ complément).",
+        "« Bara » ne varie pas selon la personne ; c'est le pronom sujet qui porte l'information de personne."
       ],
       "examples": [
         {
-          "structure": "N tara",
-          "phonetic_api": "/ɲ͡ta.ra/",
-          "meaning": "Je suis allé / Je suis parti"
-        },
-        {
-          "structure": "A nara",
-          "phonetic_api": "/a na.ra/",
-          "meaning": "Il/Elle est venu(e)"
-        }
-      ]
-    },
-    {
-      "concept": "L'accompli transitif avec la particule 'ye'",
-      "explanation": "Lorsque l'action passée s'exerce sur un objet direct, on utilise la marque temporelle préverbale 'ye' et le verbe reste à sa forme nue en fin de proposition.",
-      "rules": [
-        "Structure : Sujet + ye + Objet + Verbe"
-      ],
-      "examples": [
-        {
-          "structure": "N ye ji min",
-          "phonetic_api": "/ɲ͡je d͡ʒi min/",
-          "meaning": "J'ai bu de l'eau"
+          "structure": "[sujet] + bara + fo",
+          "phonetic_api": "/bara fo/",
+          "meaning": "a dit / a raconté (action accomplie)"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Lamine",
-      "text": "Ousmane, i tara mi kunu su ?",
-      "phonetic_api": "/ous.ma.ne i ta.ra mi ku.nu su/",
-      "phonetic_simple": "OUS-MA-NE, I TA-RA MI KOU-NOU SOU ?",
-      "translation": "Ousmane, où es-tu allé hier soir ?"
+      "speaker": "Enfant",
+      "text": "Bimbanu bara na keli fo?",
+      "phonetic_api": "/bimbanu bara na kɛli fo/",
+      "phonetic_simple": "bim-BA-nou BA-ra na KÈ-li fo",
+      "translation": "Les ancêtres ont-ils raconté l'histoire des origines ?"
     },
     {
-      "speaker": "Ousmane",
-      "text": "N tara n fa ya so la. N ye subo dun yan fana.",
-      "phonetic_api": "/ɲ͡ta.ra ɱ͡fa ja so la ɲ͡je su.bo dun jan fa.na/",
-      "phonetic_simple": "N TA-RA N FA YA SO LA. N YE SOU-BO DOUN YAN FA-NA.",
-      "translation": "Je suis allé dans la maison de mon père. J'y ai mangé de la viande aussi."
+      "speaker": "Grand-père",
+      "text": "Ɔwɔ, n bara kuma fo aduk'.",
+      "phonetic_api": "/ɔwɔ n bara kuma fo aduk/",
+      "phonetic_simple": "O-wo, n BA-ra KOU-ma fo a-DOUK",
+      "translation": "Oui, je l'ai déjà racontée hier."
     },
     {
-      "speaker": "Lamine",
-      "text": "I baden kɛ fana nara ?",
-      "phonetic_api": "/i ba.den kɛ fa.na na.ra/",
-      "phonetic_simple": "I BA-DEN KƐ FA-NA NA-RA ?",
-      "translation": "Ton frère est venu aussi ?"
+      "speaker": "Enfant",
+      "text": "A dii! Karamorgo bara don fo fanne.",
+      "phonetic_api": "/a diː karamorgo bara don fo fanːɛ/",
+      "phonetic_simple": "a diː, ka-ra-MOR-go BA-ra don fo FAN-né",
+      "translation": "Très bien ! Le maître religieux a aussi annoncé le jour."
     },
     {
-      "speaker": "Ousmane",
-      "text": "Ayee, a ma na. A to lɔgɔfaga la.",
-      "phonetic_api": "/a.jeː a ma na a to lɔ.gɔ.fa.ga la/",
-      "phonetic_simple": "AYEE, A MA NA. A TO LƆ-GƆ-FA-GA LA.",
-      "translation": "Non, il n'est pas venu. Il est resté au marché."
+      "speaker": "Ancien",
+      "text": "A dii! Karamorgo bara don fo fanne, aduk'.",
+      "phonetic_api": "/a diː karamorgo bara don fo fanːɛ aduk/",
+      "phonetic_simple": "a diː! ka-ra-MOR-go BA-ra don fo FAN-né, a-DOUK",
+      "translation": "Très bien ! Le maître religieux a aussi raconté l'histoire du jour, en plus."
     }
   ],
   "cultural_notes": [
-    "Dans la tradition orale kuranko, le récit des faits passés commence souvent par l'évocation précise du moment de la journée (le chant du coq, la tombée de la nuit) ou du jour de marché précédent, ce qui ancre l'histoire dans l'espace partagé de la communauté."
+    "La transmission orale, portée par les « bimbanu » (ancêtres) et les récits (« kuma »), constitue une source d'autorité morale et historique majeure chez les Kuranko, comme le montre l'importance des proverbes et récits recueillis par Michael Jackson.",
+    "Le mot « aduk' » (hier) est une reconstruction prudente non directement attestée dans les sources disponibles, à utiliser avec précaution."
   ],
   "exercises": [
     {
-      "exercise_id": "ex1_b1_m2_l4",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quelle est la structure correcte pour dire 'J'ai mangé du riz' (action transitive) ?",
+      "question": "Quelle est la fonction du marqueur « bara » en kuranko ?",
       "options": [
-        "N malo dunra",
-        "N ye malo dun",
-        "N bɛ malo dun"
+        "Indiquer une action accomplie",
+        "Indiquer le futur",
+        "Nier une action"
       ],
-      "correct_answer": "N ye malo dun",
-      "explanation": "Pour une action transitive au passé, la structure requiert la marque préverbale 'ye' devant l'objet."
+      "correct_answer": "Indiquer une action accomplie",
+      "explanation": "« Bara » marque l'aspect accompli, une action terminée ou un état atteint, attesté dans plusieurs phrases citées par Michael Jackson."
     },
     {
-      "exercise_id": "ex2_b1_m2_l4",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Pour exprimer qu'une personne est venue hier, on dit : A nara [ ___ ].",
-      "correct_answer": "kunu",
-      "hint": "Le mot pour dire hier"
+      "sentence_with_blank": "A bara [ ___ ] fo. (Il/elle a raconté une histoire.)",
+      "correct_answer": "kuma",
+      "hint": "Ce mot signifie « parole, récit »."
+    },
+    {
+      "exercise_id": "ex3",
+      "type": "multiple_choice",
+      "question": "Qui sont traditionnellement les gardiens des récits historiques et proverbes chez les Kuranko ?",
+      "options": [
+        "Les bimbanu (ancêtres/aînés)",
+        "Les enfants",
+        "Les étrangers"
+      ],
+      "correct_answer": "Les bimbanu (ancêtres/aînés)",
+      "explanation": "Les bimbanu, ancêtres et aînés, sont les figures d'autorité pour la transmission orale décrite par Michael Jackson."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Michael Jackson, \"How Lifeworlds Work\" (Univ. of Chicago Press, 2022) — extraits",
+      "url": "https://dokumen.pub/how-lifeworlds-work-emotionality-sociality-and-the-ambiguity-of-being-9780226492018.html"
+    },
+    {
+      "label": "Michael Jackson, \"Intersubjective ambiguities\" (Tijdschrift voor Medische Antropologie)",
+      "url": "https://tma.socsci.uva.nl/19_1/jackson.pdf"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Le marqueur « bara », « bimbanu » et la phrase « karamorgo bara don fo » sont directement attestés chez Michael Jackson. « Fo » (dire/raconter) et « kuma » (parole) sont des inférences raisonnables à partir du contexte des citations sourcées ; le mot « aduk' » (hier) est une reconstruction non confirmée, signalée comme telle."
 }

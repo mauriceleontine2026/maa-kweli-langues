@@ -1,179 +1,190 @@
 {
   "lesson_id": "B1_M1_L3",
-  "level": "Intermédiaire (B1-B2)",
+  "level": "Niveau Intermédiaire (B1 - B2)",
   "module_number": 1,
   "module_title": "Exprimer ses idées et son environnement",
   "lesson_number": 3,
   "title": "Exprimer ses goûts, ses préférences et ses sentiments",
   "learning_objectives": [
-    "Exprimer l'affection, l'amour et l'appréciation en Mani",
-    "Formuler ses préférences entre plusieurs éléments",
-    "Décrire des états émotionnels complexes comme la joie, la tristesse ou la satisfaction"
+    "Utiliser le verbe 'aimer' (mara) attesté avec des pronoms objets",
+    "Exprimer un état physique ou émotionnel avec la construction nominale attestée",
+    "Comprendre la construction pronominale pour les états corporels et mentaux"
   ],
   "phonetic_focus": {
-    "key_sounds": "La voyelle mi-ouverte antérieure /ɛ/ s'articule comme dans 'malɛ'. Le groupe nasalisé 'oŋ' dans 'tɔŋ' exige un abaissement complet du voile du palais pour que le son résonne de manière fluide.",
-    "common_pitfalls": "Attention à ne pas assimiler le 'c' de 'cece' ou 'cɛm' à un simple 's'. Maintenez la co-articulation [tʃ] bien distincte."
+    "key_sounds": "Le mani distingue 8 voyelles (i, e, ɛ, a, ɔ, o, u, ə) et des consonnes prénasalisées (mp, nt/nd, ŋk) ainsi qu'une labiovélaire /gb/ absentes du français. Le ton (registre haut/bas) est phonémique (Childs 2011, ch.2).",
+    "common_pitfalls": "Les francophones ont tendance à ne pas distinguer ɛ/e et ɔ/o, à simplifier les consonnes prénasalisées en de simples séquences nasale+consonne, et à ignorer les contrastes de ton, qui changent pourtant le sens ou la fonction grammaticale du mot (ex. hortatif vs perfectif marqués uniquement par le ton)."
   },
   "vocabulary": [
     {
-      "word_id": "v12_1",
-      "term": "malɛ",
-      "phonetic_api": "/ma.lɛ/",
-      "phonetic_simple": "MA-LÈ",
-      "translation": "aimer / apprécier / chérir",
-      "example_sentence": "N malɛ n denbaya.",
-      "example_phonetic": "/n̩ ma.lɛ n̩ den.ba.ja/",
-      "example_translation": "J'aime ma famille."
+      "word_id": "v1",
+      "term": "mara",
+      "phonetic_api": "/mara/",
+      "phonetic_simple": "MA-RA",
+      "translation": "aimer",
+      "example_sentence": "laŋban uce ilmara yetro.",
+      "example_phonetic": "/laŋban utʃɛ ilmara jɛtro/",
+      "example_translation": "L'homme s'aimait lui-même. (attesté Childs 2011, ex.68a)"
     },
     {
-      "word_id": "v12_2",
-      "term": "tɔŋ",
-      "phonetic_api": "/tɔŋ/",
-      "phonetic_simple": "TONG",
-      "translation": "préférer / choisir au-dessus",
-      "example_sentence": "N tɔŋ mɛl ni nin.",
-      "example_phonetic": "/n̩ tɔŋ mɛl ni nin/",
-      "example_translation": "Je préfère le riz avec du poisson."
+      "word_id": "v2",
+      "term": "mrɔŋ",
+      "phonetic_api": "/mrɔŋ/",
+      "phonetic_simple": "MRONG",
+      "translation": "froid (nom, dans une construction d'état physique)",
+      "example_sentence": "mrɔŋ mi",
+      "example_phonetic": "/mrɔŋ mi/",
+      "example_translation": "J'ai froid (litt. 'froid PRO moi', attesté Childs 2011, ex.146)"
     },
     {
-      "word_id": "v12_3",
-      "term": "kunu",
-      "phonetic_api": "/ku.nu/",
-      "phonetic_simple": "KOU-NOU",
-      "translation": "triste / être en peine / s'inquiéter",
-      "example_sentence": "A bɛ kunu hɔnkɔ lɔ.",
-      "example_phonetic": "/a bɛ ku.nu hɔn.kɔ lɔ/",
-      "example_translation": "Il est triste aujourd'hui."
+      "word_id": "v3",
+      "term": "ndik",
+      "phonetic_api": "/ndik/",
+      "phonetic_simple": "NDIK",
+      "translation": "faim (nom, dans une construction d'état physique)",
+      "example_sentence": "ndik mami",
+      "example_phonetic": "/ndik mami/",
+      "example_translation": "J'ai faim (attesté Childs 2011, ex.146)"
     },
     {
-      "word_id": "v12_4",
-      "term": "tunkɛ",
-      "phonetic_api": "/tun.kɛ/",
-      "phonetic_simple": "TOUN-KÈ",
-      "translation": "joie / être heureux",
-      "example_sentence": "Mora bulu bɛ tunkɛ.",
-      "example_phonetic": "/mo.ra bu.lu bɛ tun.kɛ/",
-      "example_translation": "Une personne est heureuse."
+      "word_id": "v4",
+      "term": "ndwɛt",
+      "phonetic_api": "/ndwɛt/",
+      "phonetic_simple": "NDOUÈT",
+      "translation": "sommeil (nom, dans une construction d'état physique)",
+      "example_sentence": "ndwɛt mami",
+      "example_phonetic": "/ndwɛt mami/",
+      "example_translation": "J'ai sommeil (attesté Childs 2011, ex.146)"
     },
     {
-      "word_id": "v12_5",
-      "term": "yoma",
-      "phonetic_api": "/jo.ma/",
-      "phonetic_simple": "YO-MA",
-      "translation": "bon / bien / paisible",
-      "example_sentence": "N ya tunkɛ yoma.",
-      "example_phonetic": "/n̩ ja tun.kɛ jo.ma/",
-      "example_translation": "Ma joie est totale (bonne)."
+      "word_id": "v5",
+      "term": "ke",
+      "phonetic_api": "/kɛ/",
+      "phonetic_simple": "KÉ",
+      "translation": "voir, ressentir"
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p12_1",
-      "original": "Wun malɛ fari ni sɛwɛ ?",
-      "phonetic_api": "/wun ma.lɛ fa.ri ni sɛ.wɛ/",
-      "phonetic_simple": "WOUN MA-LÈ FA-RI NI SÈ-WÈ ?",
-      "translation": "Aimes-tu la danse et le chant ?",
-      "context": "Interroger quelqu'un sur ses passions artistiques ou ses goûts."
+      "phrase_id": "p1",
+      "original": "mrɔŋ mi",
+      "phonetic_api": "/mrɔŋ mi/",
+      "phonetic_simple": "MRONG MI",
+      "translation": "J'ai froid (litt. « froid PRO moi »).",
+      "context": "Construction attestée exprimant un état physique (Childs 2011, ex.146)."
     },
     {
-      "phrase_id": "p12_2",
-      "original": "N tɔŋ lan furi-furi-ee.",
-      "phonetic_api": "/n̩ tɔŋ lan fu.ri fu.ri eː/",
-      "phonetic_simple": "N TONG LAN FOU-RI-FOU-RI-ÉÉ",
-      "translation": "Je préfère l'eau pure (blanche).",
-      "context": "Exprimer un choix net concernant une boisson ou un bien."
+      "phrase_id": "p2",
+      "original": "ndik mami",
+      "phonetic_api": "/ndik mami/",
+      "phonetic_simple": "NDIK MA-MI",
+      "translation": "J'ai faim.",
+      "context": "Construction attestée (Childs 2011, ex.146)."
     },
     {
-      "phrase_id": "p12_3",
-      "original": "Wun bɛ kunu, nɛ na ?",
-      "phonetic_api": "/wun bɛ ku.nu nɛ na/",
-      "phonetic_simple": "WOUN BÈ KOU-NOU, NÈ NA ?",
-      "translation": "Tu es triste, pourquoi ? (c'est quoi ?)",
-      "context": "S'inquiéter affectueusement de l'état émotionnel d'un ami."
+      "phrase_id": "p3",
+      "original": "ndwɛt mami",
+      "phonetic_api": "/ndwɛt mami/",
+      "phonetic_simple": "NDOUÈT MA-MI",
+      "translation": "J'ai sommeil.",
+      "context": "Construction attestée (Childs 2011, ex.146)."
     },
     {
-      "phrase_id": "p12_4",
-      "original": "N bɛ tunkɛ cɛm, cece.",
-      "phonetic_api": "/n̩ bɛ tun.kɛ tʃɛm tʃe.tʃe/",
-      "phonetic_simple": "N BÈ TOUN-KÈ TCHÈM, TCHÉ-TCHÉ",
-      "translation": "Je suis au milieu de la joie, merci.",
-      "context": "Exprimer un profond sentiment de bonheur ou de soulagement."
+      "phrase_id": "p4",
+      "original": "laŋban uce ilmara yetro",
+      "phonetic_api": "/laŋban utʃɛ ilmara jɛtro/",
+      "phonetic_simple": "LANG-BAN OU-TCHÉ IL-MA-RA YÈ-TRO",
+      "translation": "L'homme s'aimait lui-même.",
+      "context": "Phrase authentique attestée (Childs 2011, ex.68a) sur le réfléchi."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'expression du bénéficiaire et de la cause émotionnelle",
-      "explanation": "Pour lier un sentiment à sa cause ou à son bénéficiaire en Mani, on emploie les verbes transitifs d'émotion ('malɛ', 'tɔŋ') directement suivis de leur complément. L'état émotionnel continu se marque par l'indicateur d'état 'bɛ' suivi de la notion abstraite.",
+      "concept": "Les constructions d'état physique et mental",
+      "explanation": "Pour exprimer un état corporel ou mental (froid, faim, sommeil), le mani utilise un nom désignant l'état, suivi d'un pronom marquant la personne affectée, littéralement « [état] PRONOM [personne] » — une construction impersonnelle où la personne affectée est traitée comme un objet (Childs 2011, ch.5, ex.146).",
       "rules": [
-        "Structure de l'appréciation : Sujet + Verbe d'émotion + Objet.",
-        "Structure de l'état émotionnel : Sujet + bɛ + Sentiment + lɔ (ici/dans)."
+        "Le nom d'état précède toujours le pronom de la personne affectée.",
+        "Le pronom utilisé est la forme objet (mi pour 1SG), non la forme sujet indépendante.",
+        "Cette construction contraste avec le verbe 'mara' (aimer), qui suit une syntaxe verbale standard sujet-verbe-objet."
       ],
       "examples": [
         {
-          "structure": "N malɛ mɛl",
-          "phonetic_api": "/n̩ ma.lɛ mɛl/",
-          "meaning": "J'aime le riz"
+          "structure": "[état] + PRO",
+          "phonetic_api": "/mrɔŋ mi/",
+          "meaning": "j'ai [tel état] (litt. état-PRO-moi)"
         },
         {
-          "structure": "A bɛ tunkɛ lɔ",
-          "phonetic_api": "/a bɛ tun.kɛ lɔ/",
-          "meaning": "Il est dans la joie"
+          "structure": "sujet + mara + objet",
+          "phonetic_api": "/... mara .../",
+          "meaning": "sujet aime objet"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Moussa",
-      "text": "Mboi Kadi ! Wun bɛ tunkɛ lɔ hɔnkɔ lɔ ?",
-      "phonetic_api": "/mboi ka.di wun bɛ tun.kɛ lɔ hɔn.kɔ lɔ/",
-      "phonetic_simple": "MBOÏ KA-DI ! WOUN BÈ TOUN-KÈ LƆ HON-KƆ LƆ ?",
-      "translation": "Bonjour Kadi ! Tu es dans la joie aujourd'hui ?"
+      "speaker": "Fode",
+      "text": "mrɔŋ mi kekeco.",
+      "phonetic_api": "/mrɔŋ mi kɛkɛtʃo/",
+      "phonetic_simple": "MRONG MI KÉ-KÉ-TCHO",
+      "translation": "J'ai froid maintenant."
     },
     {
-      "speaker": "Kadi",
-      "text": "Oon Moussa ! N malɛ hɔnkɔ lɔ. N denbaya bɛ ni yoma.",
-      "phonetic_api": "/oːn mou.sa n̩ ma.lɛ hɔn.kɔ lɔ n̩ den.ba.ja bɛ ni jo.ma/",
-      "phonetic_simple": "OON MOUS-SA ! N MA-LÈ HON-KƆ LƆ. N DEN-BA-YA BÈ NI YO-MA.",
-      "translation": "Oui Moussa ! J'aime ce jour. Ma famille se porte bien (est en paix)."
+      "speaker": "Aminata",
+      "text": "ndik mami tɔ?",
+      "phonetic_api": "/ndik mami tɔ/",
+      "phonetic_simple": "NDIK MA-MI TO",
+      "translation": "As-tu faim aussi ? (structure reconstruite)"
     },
     {
-      "speaker": "Moussa",
-      "text": "Yoma a ra ! Wun tɔŋ mɛl ni nin sègé lɔ ?",
-      "phonetic_api": "/jo.ma a ra wun tɔŋ mɛl ni nin se.ɡe lɔ/",
-      "phonetic_simple": "YO-MA A RA ! WOUN TONG MÈL NI NIN SÉ-GÉ LƆ ?",
-      "translation": "C'est bien ! Tu préfères acheter du riz et du poisson au marché ?"
+      "speaker": "Fode",
+      "text": "shɛke, ndik mami.",
+      "phonetic_api": "/ʃɛkɛ, ndik mami/",
+      "phonetic_simple": "CHÉ-KÉ, NDIK MA-MI",
+      "translation": "Oui, j'ai faim."
     },
     {
-      "speaker": "Kadi",
-      "text": "Oon, n malɛ diŋɛ mɛl cece. A kperɛ mi tunkɛ.",
-      "phonetic_api": "/oːn n̩ ma.lɛ di.ŋɛ mɛl tʃe.tʃe a kpe.rɛ mi tun.kɛ/",
-      "phonetic_simple": "OON, N MA-LÈ DI-NGÈ MÈL TCHÉ-TCHÉ. A KPE-RÈ MI TOUN-KÈ.",
-      "translation": "Oui, j'aime beaucoup manger du riz. Ça me donne de la joie."
+      "speaker": "Aminata",
+      "text": "ya mara de.",
+      "phonetic_api": "/ja mara dɛ/",
+      "phonetic_simple": "YA MA-RA DÉ",
+      "translation": "J'aime le riz."
     }
   ],
   "cultural_notes": [
-    "Dans les structures relationnelles des locuteurs Mani, l'expression publique des sentiments est traditionnellement pudique. Dire 'N bɛ tunkɛ cɛm' (Je suis au milieu de la joie) s'utilise souvent pour remercier la communauté après une aide solidaire. Le verbe 'malɛ' englobe à la fois le goût physique, l'amitié et l'amour filial."
+    "La construction impersonnelle pour exprimer les états physiques (froid, faim, sommeil) traite la personne affectée comme un « patient » grammatical plutôt que comme un agent, une caractéristique typologique partagée par d'autres langues Mel/Atlantique (Childs 2011, ch.5).",
+    "Le verbe 'mara' (aimer) peut s'employer aussi de façon réflexive avec le suffixe -tro/-yetro pour signifier 's'aimer soi-même' (Childs 2011, ex.68a)."
   ],
   "exercises": [
     {
-      "exercise_id": "ex12_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel verbe utilise-t-on pour exprimer la préférence en Mani ?",
+      "question": "Comment dit-on « j'ai faim » en mani ?",
       "options": [
-        "malɛ",
-        "tɔŋ",
-        "kunu"
+        "ndik mami",
+        "mrɔŋ mi",
+        "ndwɛt mami"
       ],
-      "correct_answer": "tɔŋ",
-      "explanation": "'Tɔŋ' signifie préférer ou choisir une option par rapport à une autre."
+      "correct_answer": "ndik mami",
+      "explanation": "'ndik' signifie 'faim' ; attesté dans Childs (2011), ex.146."
     },
     {
-      "exercise_id": "ex12_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "N [ ___ ] n denbaya. (J'aime ma famille).",
-      "correct_answer": "malɛ",
-      "hint": "Le verbe commence par la lettre m et se termine par un è ouvert."
+      "sentence_with_blank": "[ ___ ] mi. (J'ai froid.)",
+      "correct_answer": "mrɔŋ",
+      "hint": "Nom mani désignant le froid."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Childs, G. Tucker (2011), A Grammar of Mani, Mouton Grammar Library 54, De Gruyter Mouton",
+      "url": "https://theswissbay.ch/pdf/Books/Linguistics/Mega%20linguistics%20pack/African/Niger-Congo/other%20Atlantic-Congo/Bullom%20So;%20A%20Grammar%20of%20Mani%20(Childs).pdf"
+    },
+    {
+      "label": "Glottolog 5.3 — Bullom So (bull1247)",
+      "url": "https://glottolog.org/resource/languoid/id/bull1247"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Les trois constructions d'état physique (froid, faim, sommeil) et l'exemple réflexif sur 'aimer' sont directement attestés dans Childs (2011). Le dialogue combine ces éléments attestés dans des échanges reconstruits, non cités littéralement dans le corpus."
 }
