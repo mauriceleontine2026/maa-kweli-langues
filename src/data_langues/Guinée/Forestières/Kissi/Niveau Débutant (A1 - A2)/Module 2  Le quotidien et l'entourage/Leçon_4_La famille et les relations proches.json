@@ -131,11 +131,11 @@
     },
     {
       "phrase_id": "p5",
-      "original": "Nikene, mama.",
-      "phonetic_api": "/nikene mama/",
-      "phonetic_simple": "ni-ké-né, ma-ma",
+      "original": "Laossɛ, mama.",
+      "phonetic_api": "/laosːɛ mama/",
+      "phonetic_simple": "la-o-ssè, ma-ma",
       "translation": "Bonjour, grand-mère.",
-      "context": "Salutation respectueuse envers une aînée."
+      "context": "Salutation respectueuse envers une aînée. (Corrigé : « laossɛ » est le mot générique kissi pour saluer, plutôt que « nikene » qui est spécifique au matin.)"
     }
   ],
   "grammar_points": [
@@ -159,9 +159,9 @@
   "dialogue": [
     {
       "speaker": "Aminata",
-      "text": "Nikene, mama!",
-      "phonetic_api": "/nikene mama/",
-      "phonetic_simple": "ni-ké-né ma-ma",
+      "text": "Laossɛ, mama!",
+      "phonetic_api": "/laosːɛ mama/",
+      "phonetic_simple": "la-o-ssè ma-ma",
       "translation": "Bonjour, grand-mère !"
     },
     {
@@ -230,8 +230,12 @@
     {
       "label": "Ethnologue — Kissi, Northern (kqs)",
       "url": "https://www.ethnologue.com/language/kqs/"
+    },
+    {
+      "label": "Wikipédia — « Kissi (langue) » (tableau de phonologie citant laossɛ comme mot de salutation)",
+      "url": "https://fr.wikipedia.org/wiki/Kissi_(langue)"
     }
   ],
   "confidence": "moyenne",
-  "confidence_note": "Tous les termes de parenté (keke, nde, mama, kɛla, tena, fa, ŋgɔ́ɔ, bimbaa) sont attestés par l'article de Childs (2002) sur les emprunts en kissi ; les phrases combinatoires (ndu yá + terme) sont construites à partir de la structure attestée 'ndu' (copule) et des pronoms/possessifs déduits, non citées telles quelles dans une source unique."
+  "confidence_note": "Tous les termes de parenté (keke, nde, mama, kɛla, tena, fa, ŋgɔ́ɔ, bimbaa) sont attestés par l'article de Childs (2002) sur les emprunts en kissi ; les phrases combinatoires (ndu yá + terme) sont construites à partir de la structure attestée 'ndu' (copule) et des pronoms/possessifs déduits, non citées telles quelles dans une source unique. Correction du 23/08/2026 : remplacement de « nikene » (emprunt mandé réservé à la salutation du matin, cf. Childs 2002) par « laossɛ », le mot kissi générique et autochtone pour saluer (attesté dans les tableaux de phonologie de l'article Wikipédia « Kissi (langue) »), plus approprié pour une salutation générale hors contexte matinal."
 }
