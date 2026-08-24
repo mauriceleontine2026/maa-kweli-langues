@@ -675,6 +675,7 @@ async def csrf_protect(request, call_next):
             "/api/auth/register/form",
             "/api/auth/supabase",
             "/api/auth/supabase/form",
+            "/api/auth/refresh",
         }
         if cookie_token and not header_auth and request.url.path not in exempt_paths:
             csrf_cookie = request.cookies.get(security.CSRF_COOKIE_NAME)

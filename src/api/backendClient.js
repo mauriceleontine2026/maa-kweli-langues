@@ -121,7 +121,40 @@ const getResponseErrorMessage = (response, data, url) => {
 
 const MUTATING_METHODS = new Set(["POST", "PUT", "PATCH", "DELETE"]);
 
-const request = async (method, path, body, queryParams) => {
+// Endpoints where a 401 is an expected, legitimate outcome (bad credentials,
+// no session yet, or the refresh call itself) rather than a silently-expired
+// session — retrying these through /api/auth/refresh would be pointless or
+// could loop.
+const AUTH_RETRY_EXEMPT_PATHS = new Set([
+  "/api/auth/login",
+  "/api/auth/login/form",
+  "/api/auth/register",
+  "/api/auth/register/form",
+  "/api/auth/supabase",
+  "/api/auth/supabase/form",
+  "/api/auth/refresh",
+]);
+
+// The mbaara_access_token cookie is short-lived (15 minutes by default) so a
+// user can stay on a page (e.g. mid-conversation with the AI tutor) well
+// past expiry without any page reload to trigger AuthContext's own re-check.
+// Any call that then hits a genuine 401 gets ONE silent attempt at
+// /api/auth/refresh (using the longer-lived refresh cookie) before failing,
+// so "I was already logged in" sessions aren't interrupted by a background
+// token expiry the user never sees.
+let refreshInFlight = null;
+const refreshSession = () => {
+  if (!refreshInFlight) {
+    refreshInFlight = request("POST", "/api/auth/refresh", undefined, undefined, { isRetry: true })
+      .catch(() => null)
+      .finally(() => {
+        refreshInFlight = null;
+      });
+  }
+  return refreshInFlight;
+};
+
+const request = async (method, path, body, queryParams, { isRetry = false } = {}) => {
   const url = buildApiUrl(path);
   if (queryParams) {
     Object.entries(queryParams).forEach(([key, value]) => {
@@ -182,6 +215,17 @@ const request = async (method, path, body, queryParams) => {
   }
 
   if (!response.ok) {
+    if (
+      response.status === 401 &&
+      !isRetry &&
+      !AUTH_RETRY_EXEMPT_PATHS.has(path)
+    ) {
+      const refreshedUser = await refreshSession();
+      if (refreshedUser) {
+        return request(method, path, body, queryParams, { isRetry: true });
+      }
+    }
+
     const error = new Error(getResponseErrorMessage(response, data, url.toString()));
     Object.assign(error, {
       status: response.status,

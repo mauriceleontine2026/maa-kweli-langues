@@ -50,6 +50,12 @@ oauth2_scheme = OAuth2PasswordBearer(tokenUrl="/api/auth/login", auto_error=Fals
 ACCESS_TOKEN_COOKIE_NAME = "mbaara_access_token"
 CSRF_COOKIE_NAME = "mbaara_csrf_token"
 CSRF_HEADER_NAME = "x-csrf-token"
+# Long-lived companion cookie used only to obtain a fresh access token via
+# POST /api/auth/refresh once the short-lived access token above expires.
+# Scoped to /api/auth so it is never sent to unrelated endpoints, and never
+# read directly by JS (httpOnly) — see auth.py:refresh_session.
+REFRESH_TOKEN_COOKIE_NAME = "mbaara_refresh_token"
+REFRESH_TOKEN_COOKIE_PATH = "/api/auth"
 
 
 def _parse_bool_env(name: str, default: bool) -> bool:
@@ -102,12 +108,38 @@ def set_auth_cookies(response: Response, token: str, remember: bool = False) -> 
     )
 
 
+def create_refresh_token(user_id: int) -> str:
+    """Long-lived token used solely to mint a new access token (see auth.py's
+    /refresh endpoint). Kept separate from the access token's claims/purpose
+    so a leaked access token can never be replayed as a refresh token."""
+    return create_access_token(
+        {"sub": str(user_id), "purpose": "refresh"},
+        expires_delta=timedelta(days=REFRESH_TOKEN_EXPIRE_DAYS),
+    )
+
+
+def set_refresh_cookie(response: Response, user_id: int) -> None:
+    secure = ACCESS_TOKEN_COOKIE_SECURE
+    if _is_development_env():
+        secure = False
+    response.set_cookie(
+        key=REFRESH_TOKEN_COOKIE_NAME,
+        value=create_refresh_token(user_id),
+        max_age=REFRESH_TOKEN_EXPIRE_DAYS * 24 * 60 * 60,
+        httponly=True,
+        secure=secure,
+        samesite="none",
+        path=REFRESH_TOKEN_COOKIE_PATH,
+    )
+
+
 def clear_auth_cookies(response: Response) -> None:
     secure = ACCESS_TOKEN_COOKIE_SECURE
     if _is_development_env():
         secure = False
     response.delete_cookie(key=ACCESS_TOKEN_COOKIE_NAME, path="/", samesite="none", secure=secure)
     response.delete_cookie(key=CSRF_COOKIE_NAME, path="/", samesite="none", secure=secure)
+    response.delete_cookie(key=REFRESH_TOKEN_COOKIE_NAME, path=REFRESH_TOKEN_COOKIE_PATH, samesite="none", secure=secure)
 
 
 def verify_password(plain_password: str, hashed_password: str) -> bool:

@@ -437,6 +437,7 @@ def supabase_auth(request: Request, payload: SupabaseAuthRequest, response: Resp
 
     token = security.create_access_token({"sub": str(user.id), "email": user.email})
     security.set_auth_cookies(response, token)
+    security.set_refresh_cookie(response, user.id)
     return _auth_response(request, user, token)
 
 
@@ -492,6 +493,7 @@ def supabase_auth_form(request: Request, access_token: str = Form(...), response
 
     token = security.create_access_token({"sub": str(user.id), "email": user.email})
     security.set_auth_cookies(response, token)
+    security.set_refresh_cookie(response, user.id)
     return _auth_response(request, user, token)
 
 
@@ -691,6 +693,7 @@ def login(request: Request, response: Response, payload: LoginRequest, db: Sessi
     expires_delta = timedelta(days=security.REFRESH_TOKEN_EXPIRE_DAYS) if payload.remember else None
     token = security.create_access_token({"sub": str(user.id), "email": user.email}, expires_delta=expires_delta)
     security.set_auth_cookies(response, token, remember=payload.remember)
+    security.set_refresh_cookie(response, user.id)
     return _auth_response(request, user, token)
 
 
@@ -736,6 +739,34 @@ def login_form(
     expires_delta = timedelta(days=security.REFRESH_TOKEN_EXPIRE_DAYS) if remember else None
     token = security.create_access_token({"sub": str(user.id), "email": user.email}, expires_delta=expires_delta)
     security.set_auth_cookies(response, token, remember=remember)
+    security.set_refresh_cookie(response, user.id)
+    return _auth_response(request, user, token)
+
+
+@router.post("/refresh")
+def refresh_session(request: Request, response: Response, db: Session = Depends(get_db)):
+    """Mint a new short-lived access token from the long-lived refresh cookie.
+
+    Called by the frontend automatically when a request comes back 401
+    because the 15-minute access token has quietly expired (see
+    src/api/backendClient.js) so an otherwise-still-logged-in user isn't
+    interrupted mid-session, e.g. mid-conversation with the AI tutor.
+    """
+    refresh_token = request.cookies.get(security.REFRESH_TOKEN_COOKIE_NAME)
+    if not refresh_token:
+        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Not authenticated")
+
+    payload = security.decode_access_token(refresh_token)
+    if payload.get("purpose") != "refresh" or not payload.get("sub"):
+        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Not authenticated")
+
+    user = db.query(User).filter(User.id == int(payload["sub"])).first()
+    if not user or not getattr(user, "email_verified", False):
+        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Not authenticated")
+
+    token = security.create_access_token({"sub": str(user.id), "email": user.email})
+    security.set_auth_cookies(response, token)
+    security.set_refresh_cookie(response, user.id)  # rotate: limits reuse if a refresh cookie ever leaks
     return _auth_response(request, user, token)
 
 

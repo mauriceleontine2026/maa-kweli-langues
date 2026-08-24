@@ -69,6 +69,7 @@ OPENAI_API_BASE = _get_env_value("OPENAI_API_BASE", "OPENAI_BASE_URL") or "https
 ANTHROPIC_API_KEY = _get_env_value("ANTHROPIC_API_KEY", "ANTHROPIC_KEY")
 ANTHROPIC_AGENT_ID = _get_env_value("ANTHROPIC_AGENT_ID", "CLAUDE_AGENT_ID")
 GEMINI_API_KEY = _get_env_value("GEMINI_API_KEY", "GOOGLE_AI_API_KEY", "GEMINI_KEY")
+PERPLEXITY_API_KEY = _get_env_value("PERPLEXITY_API_KEY", "PPLX_API_KEY")
 
 
 def _get_anthropic_config() -> tuple[str | None, str | None]:
@@ -175,6 +176,44 @@ async def call_openai(prompt: str, temperature: float = 0.7, response_json_schem
     return payload["choices"][0]["message"]["content"].strip()
 
 
+async def call_perplexity(prompt: str, temperature: float = 0.7, response_json_schema: dict | None = None) -> str:
+    """Perplexity exposes an OpenAI-compatible /chat/completions endpoint, so
+    this mirrors call_openai() above."""
+    if not PERPLEXITY_API_KEY:
+        raise HTTPException(status_code=501, detail="Perplexity API key not configured")
+
+    request_body = {
+        "model": os.getenv("PERPLEXITY_MODEL", "sonar"),
+        "messages": [
+            {"role": "system", "content": "Tu es un assistant utile, concis et sûr."},
+            {"role": "user", "content": prompt},
+        ],
+        "temperature": temperature,
+        "max_tokens": 700,
+    }
+    if response_json_schema:
+        request_body["response_format"] = {
+            "type": "json_schema",
+            "json_schema": {"schema": response_json_schema},
+        }
+
+    async with httpx.AsyncClient(timeout=30.0) as client:
+        response = await client.post(
+            "https://api.perplexity.ai/chat/completions",
+            headers={
+                "Authorization": f"Bearer {PERPLEXITY_API_KEY}",
+                "Content-Type": "application/json",
+            },
+            json=request_body,
+        )
+
+    if response.status_code >= 300:
+        raise HTTPException(status_code=502, detail="Perplexity provider request failed")
+
+    payload = response.json()
+    return payload["choices"][0]["message"]["content"].strip()
+
+
 @router.post("/chat")
 async def chat(
     payload: LLMRequest,
@@ -196,13 +235,24 @@ async def chat(
     openai_api_key = _get_env_value("OPENAI_API_KEY", "OPENAI_KEY")
     anthropic_api_key, _ = _get_anthropic_config()
     gemini_api_key = _get_env_value("GEMINI_API_KEY", "GOOGLE_AI_API_KEY", "GEMINI_KEY")
+    perplexity_api_key = _get_env_value("PERPLEXITY_API_KEY", "PPLX_API_KEY")
     providers = {
         "openai": lambda: call_openai(prompt, temperature, payload.response_json_schema),
         "anthropic": lambda: call_anthropic(prompt, temperature),
         "gemini": lambda: call_gemini(prompt, temperature),
+        "perplexity": lambda: call_perplexity(prompt, temperature, payload.response_json_schema),
     }
     if provider == "auto":
-        order = [name for name, configured in (("openai", openai_api_key), ("anthropic", anthropic_api_key), ("gemini", gemini_api_key)) if configured]
+        order = [
+            name
+            for name, configured in (
+                ("perplexity", perplexity_api_key),
+                ("openai", openai_api_key),
+                ("anthropic", anthropic_api_key),
+                ("gemini", gemini_api_key),
+            )
+            if configured
+        ]
     else:
         if provider not in providers:
             raise HTTPException(status_code=400, detail="Unsupported AI provider")
@@ -212,6 +262,8 @@ async def chat(
             raise HTTPException(status_code=503, detail="Anthropic provider is not configured")
         if provider == "gemini" and not gemini_api_key:
             raise HTTPException(status_code=503, detail="Gemini provider is not configured")
+        if provider == "perplexity" and not perplexity_api_key:
+            raise HTTPException(status_code=503, detail="Perplexity provider is not configured")
         order = [provider]
     if not order:
         raise HTTPException(status_code=503, detail="No AI provider is configured")
