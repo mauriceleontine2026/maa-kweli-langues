@@ -1,9 +1,11 @@
 import { useEffect, useRef, useState } from "react";
 import { invokeAI } from "@/api/aiService";
+import { restoreBackendSession } from "@/api/authService";
 import { getLanguages, getVocabularyForLanguage } from "@/api/languageService";
-import { Send, Mic, Volume2, Square, Headphones, Languages, Sparkles, MessageSquareText, ArrowUpRight, CheckCircle2 } from "lucide-react";
+import { Send, Mic, Volume2, Square, Headphones, Languages, Sparkles, MessageSquareText, ArrowUpRight, CheckCircle2, RotateCcw } from "lucide-react";
 import { moderateContent, getModerationMessage } from "@/lib/moderation";
 import { buildPhonologyContext, getTTSLocale, getBestVoice, getPhonologyProfile } from "@/lib/languagePhonology";
+import { getCountryForLanguage, getFlagForLanguage } from "@/lib/localLanguageData";
 // public logo at /logo.png
 
 const SUGGESTIONS = [
@@ -78,13 +80,16 @@ export default function AITutor() {
   const speak = (text, onEnd) => {
     if (!("speechSynthesis" in window)) { onEnd?.(); return; }
     window.speechSynthesis.cancel();
-    const u = new SpeechSynthesisUtterance(text);
+    const speechText = cleanForSpeech(text);
+    if (!speechText) { onEnd?.(); return; }
+    const u = new SpeechSynthesisUtterance(speechText);
     const locale = getTTSLocale(lang);
     const voice = getBestVoice(lang);
     if (voice) u.voice = voice;
     u.lang = locale;
     u.rate = 0.88; // Légèrement ralenti pour l'apprentissage
     u.onend = () => onEnd?.();
+    u.onerror = () => onEnd?.();
     window.speechSynthesis.speak(u);
   };
 
@@ -129,22 +134,24 @@ export default function AITutor() {
       if (v.audio_url) entry += ` [AUDIO:${v.audio_url}]`;
       return entry;
     }).join("\n");
-    return `\n\nDICTIONNAIRE DE RÉFÉRENCE (${langLabel}):\n${vocabList}\n\nIMPORTANT: Utilise UNIQUEMENT les phonétiques ci-dessus pour la prononciation. Si l'apprenant demande un mot du dictionnaire, donne sa phonétique exacte. Si un audio est disponible (marqué [AUDIO:url]), inclus le marqueur [AUDIO:url] dans ta réponse pour que l'apprenant puisse l'écouter. Si le mot demandé n'est pas dans le dictionnaire, dis-le et donne ton mieux.`;
+    return `\n\nDICTIONNAIRE DE RÉFÉRENCE (${langLabel}):\n${vocabList}\n\nIMPORTANT: Utilise ces données comme référence prioritaire uniquement pour les entrées, phonétiques et audios effectivement présents. Ce dictionnaire ne limite jamais tes recherches ni tes réponses. Pour tout mot absent ou toute question générale, utilise la recherche web Perplexity et des sources linguistiques fiables. Si un audio est disponible (marqué [AUDIO:url]), inclus le marqueur [AUDIO:url] dans ta réponse pour que l'apprenant puisse l'écouter.`;
   };
-  /** @param {string} msg */  const callLLM = async (msg) => {
+  /** @param {string} msg @param {boolean} [voiceReply] */  const callLLM = async (msg, voiceReply = false) => {
     const langObj = languages.find(l => l.code === lang);
     const langLabel = langObj ? `${langObj.name_fr} (${langObj.name})` : lang;
+    const country = getCountryForLanguage(langObj || lang);
     const dictContext = buildDictContext(langLabel);
     const phonologyContext = buildPhonologyContext(lang, langObj);
+    const conversationContext = messages.slice(-8).map((message) => `${message.role === "user" ? "Utilisateur" : "Kôrô"}: ${message.content}`).join("\n");
 
-    const prompt = `Tu es Kôrô, l'assistant IA de Mǎa-kwɛ́lî Langues, une plateforme d'apprentissage des langues africaines et internationales. Tu es à la fois un tuteur pédagogique, un expert en phonétique et un coach de prononciation adaptatif.
+    const prompt = `Tu es Kôrô, l'assistant IA de Mǎa-kwɛ́lî Langues, une plateforme d'apprentissage des langues africaines et internationales. Tu es à la fois un locuteur natif virtuel de la langue choisie, un tuteur pédagogique, un expert en phonétique et un coach de prononciation adaptatif.
 
-L'apprenant a choisi la langue: ${langLabel}.
+L'apprenant a choisi la langue: ${langLabel}. Pays principal de référence: ${country}.
 
 RÈGLES:
-1. Réponds en français de manière naturelle, conversationnelle et encourageante.
-2. Pour la prononciation, utilise TOUJOURS les phonétiques du dictionnaire de référence fourni ci-dessous. Ne invente JAMAIS de phonétiques.
-3. ADAPTE-TOI À L'ACCENT ET À LA PRONONCIATION de la langue choisie en suivant le profil phonologique fourni ci-dessous.
+  1. Réponds D'ABORD dans la langue choisie (${langLabel}), avec la grammaire, le vocabulaire, les expressions idiomatiques, le niveau de politesse et le registre naturel d'un locuteur natif de cette langue. N'utilise le français que pour une traduction ou une explication pédagogique explicitement utile.
+2. Le dictionnaire est une référence prioritaire uniquement pour les mots, exemples audio et phonétiques qu'il contient. Il ne limite ni tes recherches ni les sujets auxquels tu peux répondre. Pour un mot absent du dictionnaire, recherche une source linguistique fiable et indique clairement la source et ton niveau de certitude ; n'invente jamais de phonétique.
+  3. ADOPTE LA PRONONCIATION ET L'ACCENT naturels de la langue choisie en suivant fidèlement son profil phonologique : rythme, intonation, longueur vocalique, tons, voyelles, consonnes et enchaînements. Ne remplace jamais ses sons par des équivalents français lorsque tu écris ou transcris la langue cible.
 4. Pour chaque mot ou expression dans la langue cible:
    - Donne la phonétique IPA ET une prononciation simplifiée en français
    - Explique comment articuler les sons spécifiques (implosives, tons, nasales, emphatiques, etc.)
@@ -152,13 +159,28 @@ RÈGLES:
    - Si la langue est tonale, indique le ton de chaque mot et explique comment le réaliser
 5. Corrige activement les erreurs de prononciation fréquentes listées dans le profil phonologique.
 6. Si un mot demandé est dans le dictionnaire, donne sa phonétique exacte et mentionne si un audio est disponible.
-7. Tu peux converser sur la culture, les traditions, l'histoire, le voyage — pas seulement l'apprentissage strict.
-8. Reste respectueux, professionnel et bienveillant. Refuse tout contenu inapproprié, insultes, ou hors-sujet non-pédagogique.
-9. Sois concis mais complet. Donne des exemples concrets dans la langue cible.${dictContext}${phonologyContext}
+7. Réponds à toute question générale utile dans la langue choisie : sciences, histoire, actualité, technologie, études, travail, voyage, culture, vie quotidienne et conseils pratiques. Ne limite pas ta réponse à l'apprentissage des langues.
+8. MODE RECHERCHE APPROFONDIE ET EXACTITUDE : tu as accès à la recherche web Perplexity. Pour chaque question factuelle, actuelle, technique, scientifique, historique, culturelle ou de traduction, fais une recherche web approfondie avant de répondre, consulte plusieurs sources fiables et compare leurs informations. Ne limite jamais ta recherche aux dictionnaires locaux ni à tes connaissances internes.
+9. Réponds exactement à la question posée, sans détour ni sujet de remplacement. Cite brièvement les sources utilisées avec leur nom et leur URL pour les sujets factuels. Sépare clairement les faits vérifiés, les interprétations et les incertitudes. Si aucune source fiable ne confirme une information, dis-le explicitement au lieu de deviner.
+10. Si la question est ambiguë, demande une précision. Si elle concerne une langue peu documentée, distingue les formes attestées des hypothèses et n'invente aucun mot ni aucune prononciation.
+11. Reste respectueux, professionnel et bienveillant. Refuse uniquement les demandes dangereuses, illégales, haineuses, sexuelles impliquant des mineurs, ou visant à causer un préjudice. Pour les sujets sensibles, donne des informations générales et oriente vers une aide qualifiée si nécessaire.
+12. Sois concis mais complet. Donne des exemples concrets et adapte le niveau de détail à la question.${voiceReply ? `
+13. MODE VOCAL SIRI : réponds avec des phrases courtes, naturelles et faciles à écouter dans la langue choisie. N'utilise pas de Markdown, de tableaux, de symboles décoratifs, d'URL ni de marqueurs audio. Exécute directement la demande de l'apprenant. Ne donne une transcription IPA ou une explication en français que si elle est nécessaire ou explicitement demandée.` : ""}${dictContext}${phonologyContext}
 
-Question de l'apprenant: ${msg}`;
+HISTORIQUE RÉCENT DE LA CONVERSATION:
+${conversationContext || "[aucun historique]"}
 
-    const res = await invokeAI(prompt);
+Question actuelle de l'apprenant: ${msg}`;
+
+    let res;
+    try {
+      res = await invokeAI(prompt, null, 0.1, "perplexity");
+    } catch (error) {
+      if (!(error instanceof Error) || !error.message.includes("User not found")) throw error;
+      const restoredUser = await restoreBackendSession();
+      if (!restoredUser) throw error;
+      res = await invokeAI(prompt, null, 0.1, "perplexity");
+    }
     if (res && typeof res === "object" && "content" in res) {
       return /** @type {string} */ (res.content);
     }
@@ -183,6 +205,16 @@ Question de l'apprenant: ${msg}`;
     return text.replace(/\[AUDIO:https?:\/\/[^\]]+\]/g, "🎵");
   };
 
+  /** @param {unknown} content */
+  const cleanForSpeech = (content) => cleanContent(content)
+    .replace(/https?:\/\/\S+/g, "")
+    .replace(/```[\s\S]*?```/g, "")
+    .replace(/[*_#>`~]/g, "")
+    .replace(/\[(?:IPA|phonétique)[^\]]*\]/gi, "")
+    .replace(/[🎵🎯💬🌍📝⚠️]/gu, "")
+    .replace(/\s+/g, " ")
+    .trim();
+
   // === Siri mode (hands-free conversation) ===
   const startSiriMode = () => {
     setSiriMode(true);
@@ -204,18 +236,10 @@ Question de l'apprenant: ${msg}`;
   /** @param {string} text */
   const siriSend = async (text) => {
     if (!siriModeRef.current || !text.trim()) return;
-    const mod = moderateContent(text);
-    if (!mod.ok) {
-      setMessages(prev => [...prev, { role: "user", content: text }, { role: "assistant", content: getModerationMessage(mod.reason) }]);
-      speak(getModerationMessage(mod.reason), () => {
-        if (siriModeRef.current) setTimeout(() => siriListen(), 2000);
-      });
-      return;
-    }
     setMessages(prev => [...prev, { role: "user", content: text }]);
     setLoading(true);
     try {
-      const res = await callLLM(text);
+      const res = await callLLM(text, true);
       setMessages(prev => [...prev, { role: "assistant", content: res }]);
       speak(cleanContent(res), () => {
         if (siriModeRef.current) setTimeout(() => siriListen(), 500);
@@ -275,7 +299,7 @@ Question de l'apprenant: ${msg}`;
   const activeLanguage = languages.find((item) => item.code === lang);
 
   return (
-    <div className="min-h-screen bg-[radial-gradient(circle_at_top,_rgba(249,115,22,0.18),_transparent_28%),linear-gradient(180deg,_hsl(var(--background))_0%,_rgba(255,255,255,0.92)_100%)] px-4 py-5 md:px-6 lg:px-8">
+    <div className="min-h-screen bg-background px-4 py-5 md:px-6 lg:px-8">
       <div className="mx-auto max-w-6xl">
         <header className="overflow-hidden rounded-[30px] border border-white/60 bg-white/75 p-4 shadow-[0_24px_80px_rgba(15,23,42,0.10)] backdrop-blur-xl dark:border-white/10 dark:bg-slate-950/75">
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,_rgba(249,115,22,0.12),_transparent_30%),radial-gradient(circle_at_bottom_right,_rgba(168,85,247,0.12),_transparent_35%)]" />
@@ -293,7 +317,7 @@ Question de l'apprenant: ${msg}`;
                   </span>
                 </div>
                 <p className="text-xs text-muted-foreground">
-                  {activeLanguage ? `${activeLanguage.flag_emoji} ${activeLanguage.name_fr}` : "Assistant IA Mǎa-kwɛ́lî"} · {languages.length} langues · {vocab.length} mots
+                  {activeLanguage ? `${getFlagForLanguage(activeLanguage)} ${activeLanguage.name_fr}` : "Assistant IA Mǎa-kwɛ́lî"} · {languages.length} langues · {vocab.length} mots
                 </p>
               </div>
             </div>
@@ -349,7 +373,7 @@ Question de l'apprenant: ${msg}`;
                       : "border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80"
                   }`}
                 >
-                  <span>{l.flag_emoji}</span> {l.name_fr}
+                  <span>{getFlagForLanguage(l)}</span> {l.name_fr}
                 </button>
               ))}
             </div>
@@ -437,11 +461,18 @@ Question de l'apprenant: ${msg}`;
           </aside>
 
           <section className="flex min-h-[620px] flex-col overflow-hidden rounded-[28px] border border-border/80 bg-card/80 shadow-sm backdrop-blur-sm">
+            <div className="flex items-center justify-between border-b border-border/70 px-4 py-3 sm:px-5 lg:px-6">
+              <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.16em] text-muted-foreground">
+                <MessageSquareText size={14} className="text-primary" /> Conversation
+                <span className="rounded-full bg-secondary px-2 py-0.5 text-[10px] tracking-normal">{messages.length} message{messages.length > 1 ? "s" : ""}</span>
+              </div>
+              {messages.length > 0 && <button type="button" onClick={() => setMessages([])} title="Réinitialiser la conversation" className="inline-flex items-center gap-1.5 rounded-lg px-2.5 py-1.5 text-xs font-medium text-muted-foreground transition hover:bg-secondary hover:text-foreground"><RotateCcw size={13} /> Nouvelle conversation</button>}
+            </div>
             <div ref={scrollRef} className="flex-1 overflow-y-auto px-4 py-5 sm:px-5 lg:px-6">
               <div className="mx-auto max-w-3xl space-y-4">
                 {messages.length === 0 && (
                   <div className="flex min-h-[500px] items-center justify-center">
-                    <div className="w-full max-w-xl rounded-[32px] border border-border bg-gradient-to-br from-primary/8 via-orange-500/5 to-violet-500/8 p-6 text-center shadow-[0_20px_60px_rgba(15,23,42,0.06)]">
+                    <div className="w-full max-w-xl rounded-[28px] border border-border bg-gradient-to-br from-primary/8 via-orange-500/5 to-violet-500/8 p-5 text-center shadow-[0_20px_60px_rgba(15,23,42,0.06)] sm:p-6">
                       <div className="mb-5 flex items-center justify-center">
                         <img src="/logo.png" alt="Mǎa-kwɛ́lî Langues" className="h-24 w-24 rounded-[28px] object-cover shadow-[0_18px_45px_rgba(249,115,22,0.22)] ring-4 ring-primary/15" />
                       </div>
@@ -480,7 +511,7 @@ Question de l'apprenant: ${msg}`;
 
                   return (
                     <div key={i} className={`flex ${isUser ? "justify-end" : "justify-start"}`}>
-                      <div className={`max-w-[85%] rounded-[24px] px-4 py-3 shadow-sm ring-1 ${
+                      <div className={`min-w-0 max-w-[85%] break-words rounded-[24px] px-4 py-3 shadow-sm ring-1 [overflow-wrap:anywhere] ${
                         isUser
                           ? "bg-gradient-to-br from-primary to-orange-500 text-primary-foreground ring-primary/40"
                           : "border border-border bg-secondary/30 text-foreground ring-border/60"
@@ -491,14 +522,14 @@ Question de l'apprenant: ${msg}`;
                             {isUser ? "Toi" : "Kôrô"}
                           </span>
                         </div>
-                        <p className="whitespace-pre-wrap text-sm leading-7">{display}</p>
+                        <p className="whitespace-pre-wrap break-words text-sm leading-7 [overflow-wrap:anywhere]">{display}</p>
                         {!isUser && (
                           <div className="mt-3 flex flex-wrap items-center gap-3">
                             <button onClick={() => speak(display)} className="inline-flex items-center gap-1 text-[11px] font-medium text-muted-foreground transition hover:text-primary">
                               <Volume2 size={12} /> Écouter
                             </button>
                             {audioUrls.map((url, j) => (
-                              <audio key={j} controls src={url} className="h-7" />
+                              <audio key={j} controls src={url} className="h-7 max-w-full" />
                             ))}
                           </div>
                         )}
@@ -551,8 +582,9 @@ Question de l'apprenant: ${msg}`;
                       value={input}
                       onChange={e => setInput(e.target.value)}
                       onKeyDown={e => e.key === "Enter" && sendMessage()}
-                      placeholder={listening ? "Écoute..." : "Pose une question sur une langue..."}
-                      className="flex-1 rounded-full border-0 bg-transparent px-3 py-3 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none"
+                      placeholder={listening ? "Écoute..." : "Posez une question sur une langue..."}
+                      aria-label="Question au tuteur IA"
+                      className="min-w-0 flex-1 rounded-full border-0 bg-transparent px-3 py-3 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none"
                     />
 
                     <button

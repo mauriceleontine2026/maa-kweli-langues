@@ -6,265 +6,250 @@
   "lesson_number": 1,
   "title": "Parler de sa maison, de son logement et de sa ville",
   "learning_objectives": [
-    "Décrire les différentes pièces et éléments structurels d'une habitation en pular",
-    "Évoquer les caractéristiques et les infrastructures principales de sa ville ou de son village",
-    "Utiliser les expressions de localisation spatiale avancées pour situer son logement"
+    "Décrire les pièces et les éléments d'une maison peule (compound/galle)",
+    "Utiliser les prépositions de lieu pour situer les objets",
+    "Nommer les lieux importants dans une ville ou un village"
   ],
   "phonetic_focus": {
-    "key_sounds": "La consonne implosive palatale 'ƴ' (/ʄ/) apparaît dans 'suudu' au pluriel ('cuuɗi' avec alternance). Notez la consonne prénasalisée 'nd' (/nd/) dans 'saare nden' et le 'g' pré-nasalisé 'ng' (/ŋɡ/) dans 'saare ngon'.",
-    "common_pitfalls": "L'alternance consonantique est fréquente au niveau intermédiaire : le singulier 'suudu' (maison) devient 'cuuɗi' (maisons) au pluriel. Veillez à bien prononcer l'occlusive sourde initiale /c/ (notée c) qui ressemble à un 'tch' léger, et l'implosive finale /ɗ/."
+    "key_sounds": "Le système de classes nominales du pular (24 classes) impose un article différent selon le nom : suudu ndun (la maison/chambre), saare nden (la ville). Il faut mémoriser l'article avec chaque nom, car il n'existe pas de règle simple pour le prédire à coup sûr.",
+    "common_pitfalls": "Les francophones ont tendance à vouloir utiliser un article unique comme 'le/la' ; en pular, il faut retenir l'article spécifique à chaque nom (ndun, nden, ngal, etc.), ce qui demande un apprentissage lexical au cas par cas."
   },
   "vocabulary": [
     {
-      "word_id": "v10_1",
-      "term": "suudu",
+      "word_id": "v1",
+      "term": "suudu (ndun)",
       "phonetic_api": "/suːdu/",
-      "phonetic_simple": "SUU-DOU",
-      "translation": "maison, chambre, pièce",
-      "example_sentence": "Suudu am nden no yaaji.",
-      "example_phonetic": "/suːdu am nden no jaːd͡ʒi/",
-      "example_translation": "Ma chambre est spacieuse."
+      "phonetic_simple": "SOU-DOU",
+      "translation": "chambre, maison (case)",
+      "example_sentence": "Suudu ndun no laaåi.",
+      "example_phonetic": "/suːdu ndun no laːɓi/",
+      "example_translation": "La chambre est propre."
     },
     {
-      "word_id": "v10_2",
-      "term": "cuuɗi",
-      "phonetic_api": "/cuːɗi/",
-      "phonetic_simple": "TCHUU-DHI",
-      "translation": "maisons, chambres (pluriel de suudu)",
-      "example_sentence": "Cuuɗi saare nden no lallu.",
-      "example_phonetic": "/cuːɗi saːre nden no lalːu/",
-      "example_translation": "Les maisons de la concession sont propres."
+      "word_id": "v2",
+      "term": "galle (ðen)",
+      "phonetic_api": "/ɡale/",
+      "phonetic_simple": "GAL-LÉ",
+      "translation": "concession familiale, compound",
+      "example_sentence": "Galle amen ko mawðum.",
+      "example_phonetic": "/ɡale amen ko mawɗum/",
+      "example_translation": "Notre concession est grande."
     },
     {
-      "word_id": "v10_3",
-      "term": "saare",
+      "word_id": "v3",
+      "term": "saare (nden)",
       "phonetic_api": "/saːre/",
-      "phonetic_simple": "SAA-RE",
-      "translation": "ville, agglomération (aussi concession/famille)",
-      "example_sentence": "Conakry ko saare mawnde.",
-      "example_phonetic": "/konakri ko saːre mawnːde/",
-      "example_translation": "Conakry est une grande ville."
+      "phonetic_simple": "SAA-RÉ",
+      "translation": "ville, village",
+      "example_sentence": "Ko Maamu saare an.",
+      "example_phonetic": "/ko maːmu saːre an/",
+      "example_translation": "Mamou est ma ville."
     },
     {
-      "word_id": "v10_4",
-      "term": "wuro",
-      "phonetic_api": "/wuro/",
-      "phonetic_simple": "WOU-RO",
-      "translation": "village, localité d'origine",
-      "example_sentence": "Mido yahat ka wuro am.",
-      "example_phonetic": "/mido jahat ka wuro am/",
-      "example_translation": "Je vais dans my village."
-    },
-    {
-      "word_id": "v10_5",
-      "term": "miñngo",
-      "phonetic_api": "/miɲːɡo/",
-      "phonetic_simple": "MI-NYNGO",
-      "translation": "la cour, l'espace central de la concession",
-      "example_sentence": "Biɓɓe 1en no fijee ka miñngo.",
-      "example_phonetic": "/ɓiɓːe ɗen no ɸid͡ʒeː ka miɲːɡo/",
-      "example_translation": "Les enfants jouent dans la cour."
-    },
-    {
-      "word_id": "v10_6",
-      "term": "baafal",
-      "phonetic_api": "/baːɸal/",
+      "word_id": "v4",
+      "term": "baafal (ngal)",
+      "phonetic_api": "/baːfal/",
       "phonetic_simple": "BAA-FAL",
-      "translation": "la porte, l'ouverture",
-      "example_sentence": "Ombu baafal ngal, hanki.",
-      "example_phonetic": "/ombu baːɸal nɡal hanki/",
-      "example_translation": "Ferme la porte, s'il te plaît."
+      "translation": "porte",
+      "example_sentence": "Baafal ngal no udditii.",
+      "example_phonetic": "/baːfal ŋɡal no udːitiː/",
+      "example_translation": "La porte est ouverte."
     },
     {
-      "word_id": "v10_7",
-      "term": "falanteere",
-      "phonetic_api": "/ɸalanteːre/",
-      "phonetic_simple": "FA-LAN-TEE-RE",
-      "translation": "fenêtre",
-      "example_sentence": "Uddu falanteere nden, mido hofi.",
-      "example_phonetic": "/udːu ɸalanteːre nden mido hoɸi/",
-      "example_translation": "Ouvre la fenêtre, j'ai chaud."
+      "word_id": "v5",
+      "term": "taabal (ngal)",
+      "phonetic_api": "/taːbal/",
+      "phonetic_simple": "TAA-BAL",
+      "translation": "table",
+      "example_sentence": "Deftere nden no ka ley taabal ngal.",
+      "example_phonetic": "/deftere nden no ka ley taːbal ŋɡal/",
+      "example_translation": "Le livre est sous la table."
     },
     {
-      "word_id": "v10_8",
-      "term": "tariha",
-      "phonetic_api": "/tariha/",
-      "phonetic_simple": "TA-RI-HA",
-      "translation": "quartier, secteur résidentiel",
-      "example_sentence": "Honto woni tariha maa ?",
-      "example_phonetic": "/honto woni tariha maː/",
-      "example_translation": "Où se trouve ton quartier ?"
+      "word_id": "v6",
+      "term": "danki (kin)",
+      "phonetic_api": "/daŋki/",
+      "phonetic_simple": "DAN-KI",
+      "translation": "lit",
+      "example_sentence": "Himo ka danki.",
+      "example_phonetic": "/himo ka daŋki/",
+      "example_translation": "Il est au lit."
     },
     {
-      "word_id": "v10_9",
-      "term": "laabi",
-      "phonetic_api": "/laːbi/",
-      "phonetic_simple": "LAA-BI",
-      "translation": "les rues, les routes (pluriel de laawol)",
-      "example_sentence": "Laabi saare nden no keewi oto kadi.",
-      "example_phonetic": "/laːbi saːre nden no keːwi oto kadi/",
-      "example_translation": "Les rues de la ville ont beaucoup de voitures."
+      "word_id": "v7",
+      "term": "maakiti (on)",
+      "phonetic_api": "/maːkiti/",
+      "phonetic_simple": "MAA-KI-TI",
+      "translation": "marché",
+      "example_sentence": "Saajo no ka maakiti.",
+      "example_phonetic": "/saːdʒo no ka maːkiti/",
+      "example_translation": "Sadjo est au marché."
     },
     {
-      "word_id": "v10_10",
-      "term": "hoɗere",
-      "phonetic_api": "/hoɗere/",
-      "phonetic_simple": "HO-DHERE",
-      "translation": "le fait d'habiter, la colocation / le voisinage",
-      "example_sentence": "Hoɗere nden no weli ɗoo.",
-      "example_phonetic": "/hoɗere nden no weli ɗoː/",
-      "example_translation": "Le voisinage est agréable ici."
+      "word_id": "v8",
+      "term": "jaami'u (on)",
+      "phonetic_api": "/dʒaːmiʔu/",
+      "phonetic_simple": "DJAA-MI-OU",
+      "translation": "mosquée",
+      "example_sentence": "Jaami'u on no ka saare hen.",
+      "example_phonetic": "/dʒaːmiʔu on no ka saːre hen/",
+      "example_translation": "La mosquée est au centre de la ville."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p10_1",
-      "original": "Mido hoɗi e suudu louwande.",
-      "phonetic_api": "/mido hoɗi e suudu luwande/",
-      "phonetic_simple": "MI-DO HO-DHI E SUU-DOU LOU-WAN-DE",
-      "translation": "J'habite dans une maison de location.",
-      "context": "Expliquer sa situation résidentielle urbaine."
+      "phrase_id": "p1",
+      "original": "Ko honto Fatu woni?",
+      "phonetic_api": "/ko honto fatu woni/",
+      "phonetic_simple": "KO HON-TO FA-TOU WO-NI",
+      "translation": "Où est Fatou ?",
+      "context": "Question standard pour localiser une personne ou un objet."
     },
     {
-      "phrase_id": "p10_2",
-      "original": "Suudu am nden no jogii cuuɗi tato e cuisine.",
-      "phonetic_api": "/suːdu am nden no d͡ʒoɡiː cuːɗi tato e kuizin/",
-      "phonetic_simple": "SUU-DOU AM NDEN NO DJO-GII TCHUU-DHI TA-TO E KUI-ZINE",
-      "translation": "Ma maison possède trois chambres et une cuisine.",
-      "context": "Décrire l'agencement intérieur de son appartement."
+      "phrase_id": "p2",
+      "original": "Suudu ndun no takko galle amen.",
+      "phonetic_api": "/suːdu ndun no takːo ɡale amen/",
+      "phonetic_simple": "SOU-DOU NDOUNE NO TAK-KO GAL-LÉ A-MÈNE",
+      "translation": "La chambre est à côté de notre concession.",
+      "context": "Pour situer un lieu par rapport à un autre."
     },
     {
-      "phrase_id": "p10_3",
-      "original": "Honto tariha maa woni e nder Conakry ?",
-      "phonetic_api": "/honto tariha maː woni e nder konakri/",
-      "phonetic_simple": "HON-TO TA-RI-HA MAA WO-NI E NDER CO-NA-KRY ?",
-      "translation": "Où se trouve ton quartier dans Conakry ?",
-      "context": "Demander une localisation précise en ville."
+      "phrase_id": "p3",
+      "original": "Deftere nden no ka hoore taabal ngal.",
+      "phonetic_api": "/deftere nden no ka hoːre taːbal ŋɡal/",
+      "phonetic_simple": "DÉF-TÉ-RÉ NDÈNE NO KA HOO-RÉ TAA-BAL NGAL",
+      "translation": "Le livre est sur la table.",
+      "context": "Usage de la préposition 'hoore' (sur, au-dessus de)."
     },
     {
-      "phrase_id": "p10_4",
-      "original": "Saare Labe ngon no lallu, no weli hoɗude.",
-      "phonetic_api": "/saːre labe nɡon no lalːu no weli hoɗude/",
-      "phonetic_simple": "SAA-RE LA-BE NGON NO LAL-LOU, NO WE-LI HO-DHOU-DE",
-      "translation": "La ville de Labé est propre, il y fait bon vivre.",
-      "context": "Donner son opinion positive sur une ville."
-    },
-    {
-      "phrase_id": "p10_5",
-      "original": "Laabi ɗen no lallu gila subaka.",
-      "phonetic_api": "/laːbi ɗen no lalːu ɡila subaka/",
-      "phonetic_simple": "LAA-BI DHEN NO LAL-LOU GI-LA SOU-BA-KA",
-      "translation": "Les rues sont propres depuis ce matin.",
-      "context": "Faire une remarque sur l'environnement urbain."
-    },
-    {
-      "phrase_id": "p10_6",
-      "original": "Mido yidi darnude suudu mawnɗo ka wuro.",
-      "phonetic_api": "/mido jidi darnude suudu mawnɗo ka wuro/",
-      "phonetic_simple": "MI-DO YI-DI DAR-NOU-DE SUU-DOU MAWN-DHO KA WOU-RO",
-      "translation": "Je veux construire une grande maison au village.",
-      "context": "Exprimer ses ambitions de construction rurale."
-    },
-    {
-      "phrase_id": "p10_7",
-      "original": "Suudu am nden no ɓadii lopital mawnde nden.",
-      "phonetic_api": "/suːdu am nden no ɓadiː lopital mawnːde nden/",
-      "phonetic_simple": "SUU-DOU AM NDEN NO BHA-DII LO-PI-TAL MAWN-DE NDEN",
-      "translation": "Mon logement est proche du grand hôpital.",
-      "context": "Donner un point de repère urbain pour localiser sa maison."
-    },
-    {
-      "phrase_id": "p10_8",
-      "original": "Ombu falanteere nden, ngariibuɗo masiibo no wara.",
-      "phonetic_api": "/ombu ɸalanteːre nden ɡariːbuɗo masiːbo no wara/",
-      "phonetic_simple": "OM-BOU FA-LAN-TEE-RE NDEN, GA-RII-BOU-DHO MA-SII-BO NO WA-RA",
-      "translation": "Ferme la fenêtre, une terrible poussière/tempête arrive.",
-      "context": "Donner un ordre face à un changement météo."
+      "phrase_id": "p4",
+      "original": "Ko Maamu mi hoði.",
+      "phonetic_api": "/ko maːmu mi hoɗi/",
+      "phonetic_simple": "KO MAA-MOU MI HO-DI",
+      "translation": "J'habite à Mamou.",
+      "context": "Pour dire où l'on vit."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'alternance consonantique du pluriel des noms de classe (NDU/ƊI)",
-      "explanation": "Au niveau intermédiaire, l'étudiant doit maîtriser les lois de mutations consonantiques. Les noms de la classe NDU commençant par une fricative ou une occlusive se transforment au pluriel (classe ƊI).",
+      "concept": "Les prépositions de lieu",
+      "explanation": "Le pular utilise un ensemble de prépositions précises pour situer un objet dans l'espace, chacune combinée avec la particule locative 'ka' devant certains noms de lieux.",
       "rules": [
-        "La consonne initiale 's-' du singulier mute systématiquement en 'c-' au pluriel.",
-        "La consonne finale du radical subit parfois une gémination ou une implosion (d -> ɗ)."
+        "ley = en dessous, sous ; dow/hoore = au-dessus, sur ; takko = à côté ; hakkunde = entre ; yeeso = devant ; baawo = derrière",
+        "ka + [lieu] = structure locative courante : ka maakiti (au marché), ka suudu (à la maison)"
       ],
       "examples": [
         {
-          "structure": "suudu (singulier) -> cuuɗi (pluriel)",
-          "phonetic_api": "/cuːɗi/",
-          "meaning": "Les maisons / les pièces"
+          "structure": "Leemuneere nden no ka hoore deftere.",
+          "phonetic_api": "/leːmuneːre nden no ka hoːre deftere/",
+          "meaning": "L'orange est sur le livre."
+        },
+        {
+          "structure": "Caabiije ðen no ka takko deftere.",
+          "phonetic_api": "/tʃaːbiːdʒe ɗen no ka takːo deftere/",
+          "meaning": "Les clés sont à côté du livre."
         }
       ]
     },
     {
-      "concept": "L'infinitif de but avec la particule 'de'",
-      "explanation": "Pour exprimer le but ou l'intention d'effectuer une action complexe dans son environnement ('pour habiter', 'pour construire'), le pular utilise l'infinitif précédé ou marqué par la désinence '-de'.",
+      "concept": "Le système de classes nominales (aperçu pratique)",
+      "explanation": "Chaque nom pular appartient à l'une des 24 classes, marquée par un article spécifique (on, ðen, nden, ndin, ndun, ngal, ngel, ngii, ngol, mban, kan, kin, kon, kal, kol, kun, koy...). L'article s'accorde aussi avec les adjectifs, démonstratifs et pronoms qui se rapportent au nom.",
       "rules": [
-        "Le verbe d'action prend le suffixe d'infinitif '-de' ou '-ugol' selon le contexte syntaxique de dépendance du verbe principal 'yidi' (vouloir)."
+        "on/åen = classe des humains (singulier/pluriel)",
+        "ðen/ðin = la plupart des autres pluriels (ðen pour les pluriels en -e, ðin pour les pluriels en -i)",
+        "Chaque nom doit être appris avec son article : il n'y a pas de règle universelle, seulement des tendances phonétiques"
       ],
       "examples": [
         {
-          "structure": "yidi + darnude",
-          "phonetic_api": "/jidi darnude/",
-          "meaning": "Vouloir construire"
+          "structure": "gorko on (l'homme) / woråe åen (les hommes)",
+          "phonetic_api": "/ɡorko on/, /worɓe ɓen/",
+          "meaning": "classe on/åen pour les humains"
+        },
+        {
+          "structure": "suudu ndun (la maison) / cuudi ðin (les maisons)",
+          "phonetic_api": "/suːdu ndun/, /tʃuːdi ɗin/",
+          "meaning": "exemple de classe ndun/ðin"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Alpha",
-      "text": "Saliou, honto hoɗuɗaa joni e nder saare nden ?",
-      "phonetic_api": "/saliu honto hoɗuɗaː d͡ʒoni e nder saːre nden/",
-      "phonetic_simple": "SA-LIOU, HON-TO HO-DHOU-DHAA DJO-NI E NDER SAA-RE NDEN ?",
-      "translation": "Saliou, où habites-tu maintenant dans la ville ?"
+      "speaker": "Ousmane",
+      "text": "Ko honto Fatu woni?",
+      "phonetic_api": "/ko honto fatu woni/",
+      "phonetic_simple": "KO HON-TO FA-TOU WO-NI",
+      "translation": "Où est Fatou ?"
     },
     {
-      "speaker": "Saliou",
-      "text": "Mido hoɗi ka tariha Kippe, e suudu louwande nden. No jogii cuuɗi ɗiɗo.",
-      "phonetic_api": "/mido hoɗi ka tariha kippe e suudu luwande nden no d͡ʒoɡiː cuːɗi ɗiɗo/",
-      "phonetic_simple": "MI-DO HO-DHI KA TA-RI-HA KIP-PE, E SUU-DOU LOU-WAN-DE NDEN. NO DJO-GII TCHUU-DHI DHI-DHO.",
-      "translation": "J'habite au quartier Kippé, dans une maison de location. Elle a deux pièces."
+      "speaker": "Aissatou",
+      "text": "Fatu no ka suudu, no takko galle amen.",
+      "phonetic_api": "/fatu no ka suːdu no takːo ɡale amen/",
+      "phonetic_simple": "FA-TOU NO KA SOU-DOU, NO TAK-KO GAL-LÉ A-MÈNE",
+      "translation": "Fatou est dans la chambre, à côté de notre concession."
     },
     {
-      "speaker": "Alpha",
-      "text": "Koni laabi tariha maa ɗen no moƴƴi ? Otoji no keewi ɗoya ?",
-      "phonetic_api": "/koni laːbi tariha maː ɗen no moʔɟːi otoji no keːwi ɗoja/",
-      "phonetic_simple": "KO-NI LAA-BI TA-RI-HA MAA DHEN NO MOY-YI ? O-TO-JI NO KEE-WI DHO-YA ?",
-      "translation": "Est-ce que les rues de ton quartier sont bonnes ? Y a-t-il beaucoup de voitures là-bas ?"
+      "speaker": "Ousmane",
+      "text": "Ko honto ðun woniri, ka saare maa?",
+      "phonetic_api": "/ko honto ɗun woniri ka saːre maː/",
+      "phonetic_simple": "KO HON-TO DOUNE WO-NI-RI, KA SAA-RÉ MAA",
+      "translation": "Où cela se trouve-t-il, dans ta ville ?"
     },
     {
-      "speaker": "Saliou",
-      "text": "Alaa, laabi ɗen no tiiɗi seeda, kono hoɗere nden no e jam. Baafal am fow no uddi ka kikiide.",
-      "phonetic_api": "/alaː laːbi ɗen no tiːɗi seːda kono hoɗere nden no e d͡ʒam baːfal am ɸow no udːi ka kikiːde/",
-      "phonetic_simple": "A-LAA, LAA-BI DHEN NO TII-DHI SEE-DA, KO-NO HO-DHERE NDEN NO E JAM. BAA-FAL AM FOW NO UD-DI KA KI-KII-DE.",
-      "translation": "Non, les rues sont un peu difficiles, mais le voisinage est paisible. Toutes mes portes sont fermées le soir."
+      "speaker": "Aissatou",
+      "text": "Hii-hi, ko Maamu mi hoði, takko jaami'u on.",
+      "phonetic_api": "/hiː-hi ko maːmu mi hoɗi takːo dʒaːmiʔu on/",
+      "phonetic_simple": "HI-HI, KO MAA-MOU MI HO-DI, TAK-KO DJAA-MI-OU ON",
+      "translation": "Oui, j'habite à Mamou, à côté de la mosquée."
     }
   ],
   "cultural_notes": [
-    "Dans les grandes villes guinéennes comme Conakry ou Labé, la colocation ou la location de concessions partagées reproduit l'organisation de la 'saare' traditionnelle. Le 'miñngo' (la cour commune) reste l'espace central de socialisation où les voisins se rassemblent pour discuter, laver le linge et préparer le thé (ataya), maintenant une forte solidarité communautaire."
+    "Le 'galle' (concession familiale) regroupe traditionnellement plusieurs cases (suudu) autour d'une cour commune, abritant souvent plusieurs générations et, en contexte polygame, plusieurs épouses avec leurs enfants (source : Learner's Guide to Pular, chapitre Places & Things).",
+    "La mosquée (jaami'u) est un point de repère central dans la plupart des villages et villes du Fouta-Djalon, région historiquement organisée comme un état théocratique musulman."
   ],
   "exercises": [
     {
-      "exercise_id": "ex10_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel est le pluriel régulier du mot 'suudu' (maison) ?",
+      "question": "Comment dit-on « à côté de » en pular ?",
       "options": [
-        "Suudu_ji",
-        "Cuuɗi",
-        "Saareeji"
+        "Hakkunde",
+        "Takko",
+        "Baawo"
       ],
-      "correct_answer": "Cuuɗi",
-      "explanation": "En pular, 'suudu' subit une alternance consonantique complète au pluriel pour donner 'cuuɗi'."
+      "correct_answer": "Takko",
+      "explanation": "Takko signifie 'à côté de, près de' ; hakkunde signifie 'entre', et baawo signifie 'derrière'."
     },
     {
-      "exercise_id": "ex10_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Mido yidi [ ___ ] baafal ngal (Je veux fermer la porte).",
-      "correct_answer": "ombude",
-      "hint": "Verbe signifiant fermer, à la forme infinitive de but."
+      "sentence_with_blank": "Deftere nden no ka [ ___ ] taabal ngal. (sous la table)",
+      "correct_answer": "ley",
+      "hint": "Utilisez la préposition qui signifie 'en dessous, sous'."
+    },
+    {
+      "exercise_id": "ex3",
+      "type": "multiple_choice",
+      "question": "Que signifie 'galle' ?",
+      "options": [
+        "Marché",
+        "Concession familiale",
+        "École"
+      ],
+      "correct_answer": "Concession familiale",
+      "explanation": "Le galle est le compound/concession familiale regroupant plusieurs cases autour d'une cour."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Learner's Guide to Pular (Fuuta Jallon) — Peace Corps Guinée (Herb Caudill & Ousmane Besseko Diallo)",
+      "url": "https://ibamba.net/pular/manual.pdf"
+    },
+    {
+      "label": "Live Lingua Project — Peace Corps Manual of Fulfulde",
+      "url": "https://www.livelingua.com/course/peace-corps/manual-of-fulfulde"
+    }
+  ],
+  "confidence": "élevée",
+  "confidence_note": "Vocabulaire du logement, prépositions de lieu et système de classes nominales directement issus du chapitre 'Places & Things' du manuel Peace Corps Guinée."
 }

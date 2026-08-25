@@ -173,7 +173,8 @@ export default function AccentWorkshop() {
       const langObj = languages.find((l) => l.code === lang);
       const prompt = `Tu es Kôrô, coach d'accent de Mǎa-kwɛ́lî. L'apprenant a prononcé le mot "${selectedWord.word}" en ${langObj?.name_fr || lang}. Phonétique de référence: ${selectedWord.phonetic || selectedWord.phonetic_simple || "non disponible"}. Traduction: ${selectedWord.translation_fr}. Score de similarité: ${Math.round(similarity)}%. Donne un feedback constructif et concis (2-3 phrases) en français sur la prononciation, avec des conseils pratiques pour s'améliorer.`;
       const llmFeedback = await invokeAI(prompt);
-      setFeedback(typeof llmFeedback === "string" ? llmFeedback : JSON.stringify(llmFeedback ?? ""));
+      const feedbackContent = llmFeedback && typeof llmFeedback === "object" && "content" in llmFeedback ? llmFeedback.content : llmFeedback;
+      setFeedback(typeof feedbackContent === "string" ? feedbackContent : JSON.stringify(feedbackContent ?? ""));
     } catch (err) {
       const message = err instanceof Error ? err.message : String(err);
       setFeedback("Erreur d'analyse : " + message);
@@ -193,22 +194,24 @@ export default function AccentWorkshop() {
   const scoreColor = score === null ? "text-muted-foreground" : score >= 75 ? "text-green-500" : score >= 50 ? "text-yellow-500" : "text-red-500";
 
   return (
-    <div className="p-6 lg:p-10 max-w-2xl mx-auto">
+    <div className="mx-auto w-full max-w-6xl p-4 sm:p-6 lg:p-10">
       <Link to="/studio" className="inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground mb-4">
         <ArrowLeft size={16} /> Studio
       </Link>
-      <div className="flex items-center gap-3 mb-6">
+      <header className="mb-6 rounded-3xl border border-border bg-card p-5 shadow-sm sm:p-7">
+      <div className="flex items-center gap-3">
         <div className="w-12 h-12 rounded-full bg-blue-500/20 flex items-center justify-center">
           <Waves className="text-blue-500" size={24} />
         </div>
         <div>
           <h1 className="font-heading text-2xl font-bold text-foreground">Atelier d'Accent</h1>
-          <p className="text-sm text-muted-foreground">Analyse spectrale de ta prononciation</p>
+          <p className="text-sm text-muted-foreground">Écoutez, enregistrez et comparez votre prononciation.</p>
         </div>
       </div>
+      <div className="mt-5 grid gap-2 text-xs text-muted-foreground sm:grid-cols-3"><div className="flex items-center gap-2 rounded-xl bg-primary/5 px-3 py-2"><span className="flex h-6 w-6 items-center justify-center rounded-full bg-primary text-xs font-bold text-primary-foreground">1</span> Choisir un mot</div><div className="flex items-center gap-2 rounded-xl bg-primary/5 px-3 py-2"><span className="flex h-6 w-6 items-center justify-center rounded-full bg-primary text-xs font-bold text-primary-foreground">2</span> Enregistrer votre voix</div><div className="flex items-center gap-2 rounded-xl bg-primary/5 px-3 py-2"><span className="flex h-6 w-6 items-center justify-center rounded-full bg-primary text-xs font-bold text-primary-foreground">3</span> Lire les conseils</div></div>
+      </header>
 
-      {/* Language selector */}
-      <div className="mb-5">
+      <div className="mb-5 rounded-2xl border border-border bg-card p-4 shadow-sm">
         <label className="text-xs font-semibold text-muted-foreground uppercase tracking-wider mb-2 block">Langue</label>
         <select value={lang} onChange={e => setLang(e.target.value)}
           className="w-full bg-card border border-border rounded-xl px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-primary/40">
@@ -216,13 +219,12 @@ export default function AccentWorkshop() {
         </select>
       </div>
 
-      {/* Word selector */}
-      <div className="mb-5">
+      <div className="mb-5 rounded-2xl border border-border bg-card p-4 shadow-sm">
         <label className="text-xs font-semibold text-muted-foreground uppercase tracking-wider mb-2 block">Mot à prononcer</label>
         {vocab.length === 0 ? (
           <p className="text-sm text-muted-foreground bg-secondary/50 rounded-xl p-4">Aucun vocabulaire disponible pour cette langue. Contribue pour en ajouter !</p>
         ) : (
-          <div className="flex flex-wrap gap-2">
+          <div className="grid max-h-44 grid-cols-2 gap-2 overflow-y-auto sm:grid-cols-4">
             {vocab.slice(0, 20).map(v => (
               <button key={v.id} onClick={() => { setSelectedWord(v); reset(); }}
                 className={`px-3 py-2 rounded-xl text-sm font-medium transition ${
@@ -235,9 +237,9 @@ export default function AccentWorkshop() {
         )}
       </div>
 
-      {/* Reference word */}
+      <div className="grid gap-5 lg:grid-cols-2">
       {selectedWord && (
-        <div className="bg-card border border-border rounded-2xl p-5 mb-5">
+        <div className="mb-5 rounded-2xl border border-primary/30 bg-primary/5 p-5 shadow-sm">
           <div className="flex items-center justify-between mb-2">
             <div>
               <div className="font-heading text-xl font-bold text-foreground">{selectedWord.word}</div>
@@ -258,10 +260,10 @@ export default function AccentWorkshop() {
       )}
 
       {/* Recording */}
-      <div className="bg-card border border-border rounded-2xl p-6 mb-5 text-center">
+      <div className="mb-5 rounded-2xl border border-border bg-card p-6 text-center shadow-sm">
         {!userAudioUrl ? (
           <>
-            <button onClick={recording ? stopRecording : startRecording} disabled={!selectedWord}
+            <button type="button" onClick={recording ? stopRecording : startRecording} disabled={!selectedWord}
               className={`w-20 h-20 rounded-full flex items-center justify-center mx-auto transition shadow-lg disabled:opacity-40 ${
                 recording ? "bg-red-500 animate-pulse shadow-red-500/30" : "bg-blue-500 hover:bg-blue-600 shadow-blue-500/20"
               }`}>
@@ -275,10 +277,10 @@ export default function AccentWorkshop() {
           <div className="space-y-4">
             <audio controls src={userAudioUrl} className="w-full max-w-sm mx-auto" />
             <div className="flex items-center justify-center gap-3">
-              <button onClick={reset} className="flex items-center gap-2 px-4 py-2 rounded-xl bg-secondary text-secondary-foreground text-sm font-medium hover:bg-secondary/70 transition">
+              <button type="button" onClick={reset} className="flex items-center gap-2 px-4 py-2 rounded-xl bg-secondary text-secondary-foreground text-sm font-medium hover:bg-secondary/70 transition">
                 <RefreshCw size={16} /> Réenregistrer
               </button>
-              <button onClick={analyze} disabled={analyzing}
+              <button type="button" onClick={analyze} disabled={analyzing}
                 className="flex items-center gap-2 px-4 py-2 rounded-xl bg-primary text-primary-foreground text-sm font-medium hover:opacity-90 transition disabled:opacity-60">
                 {analyzing ? "Analyse..." : <><Play size={16} /> Analyser</>}
               </button>
@@ -287,10 +289,11 @@ export default function AccentWorkshop() {
         )}
         {msg && <p className="text-sm text-red-500 mt-3">{msg}</p>}
       </div>
+      </div>
 
       {/* Results */}
       {score !== null && (
-        <div className="bg-card border border-border rounded-2xl p-6">
+        <div className="rounded-2xl border border-border bg-card p-6 shadow-sm">
           <div className="text-center mb-4">
             <div className={`text-5xl font-bold ${scoreColor}`}>{score}%</div>
             <p className="text-sm text-muted-foreground mt-1">Similarité spectrale</p>

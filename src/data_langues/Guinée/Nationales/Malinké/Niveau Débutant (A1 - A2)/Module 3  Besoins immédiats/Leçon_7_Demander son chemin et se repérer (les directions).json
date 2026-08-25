@@ -6,219 +6,259 @@
   "lesson_number": 7,
   "title": "Demander son chemin et se repérer (les directions)",
   "learning_objectives": [
-    "Demander la localisation d'un lieu public ou d'une infrastructure",
-    "Comprendre et utiliser les indicateurs de direction de base (gauche, droite, tout droit)",
-    "Utiliser la postposition locative 'la' pour situer une cible géographique"
+    "Demander où se trouve un lieu ('min' = où)",
+    "Utiliser les postpositions de lieu (kèrèfè, kofè, nyèfè)",
+    "Indiquer la distance en kilomètres",
+    "Comprendre les indications simples pour se déplacer d'un village à l'autre"
   ],
   "phonetic_focus": {
-    "key_sounds": "La consonne 'k' est sourde et nette. Le mot 'kinini' (droite) demande une articulation rapide sans élision. Le mot 'marakila' (gauche) possède un son 'r' légèrement battu ou adouci qui ne doit pas être râpé comme le 'r' français.",
-    "common_pitfalls": "Confondre le 'fɛ' de direction (vers/par) avec un son long. C'est une voyelle ouverte brève /fɛ/. Veillez également à l'élision de la voyelle finale dans les structures de mouvement rapides."
+    "key_sounds": [
+      "Le [ɛ] ouvert dans 'kèrèfè' (à côté) et 'nyèfè' (devant)",
+      "La diphtongue de 'sila' (route/chemin)",
+      "Le ton bas de 'yen' (là-bas) opposé au ton de 'yan' (ici)"
+    ],
+    "common_pitfalls": [
+      "Confondre 'yan' (ici) et 'yen' (là-bas), qui ne diffèrent que par la voyelle finale",
+      "Oublier que 'min' (où) se place à la FIN de la question, contrairement au français"
+    ]
   },
   "vocabulary": [
     {
-      "word_id": "v7_1",
-      "term": "Sila",
-      "phonetic_api": "/si.la/",
-      "phonetic_simple": "SI-LA",
-      "translation": "Le chemin / La route / La rue",
-      "example_sentence": "Sila bɛ mi ?",
-      "example_phonetic": "/si.la bɛ mi/",
-      "example_translation": "Où est le chemin ?"
+      "word_id": "v1",
+      "term": "yan",
+      "phonetic_api": "[jan]",
+      "phonetic_simple": "yan",
+      "translation": "ici",
+      "example_sentence": "Na yan !",
+      "example_phonetic": "[na jan]",
+      "example_translation": "Viens ici !"
     },
     {
-      "word_id": "v7_2",
-      "term": "Kinini",
-      "phonetic_api": "/ki.ni.ni/",
-      "phonetic_simple": "KI-NI-NI",
-      "translation": "La droite / Côté droit",
-      "example_sentence": "Ta i kinini fɛ",
-      "example_phonetic": "/ta i ki.ni.ni fɛ/",
-      "example_translation": "Va vers ta droite."
+      "word_id": "v2",
+      "term": "yen",
+      "phonetic_api": "[jen]",
+      "phonetic_simple": "yèn",
+      "translation": "là-bas",
+      "example_sentence": "N ko ye na yando.",
+      "example_phonetic": "[n ko je na jando]",
+      "example_translation": "Je te dis de venir ici (litt. de là-bas)."
     },
     {
-      "word_id": "v7_3",
-      "term": "Marakila",
-      "phonetic_api": "/ma.ra.ki.la/",
-      "phonetic_simple": "MA-RA-KI-LA",
-      "translation": "La gauche / Côté gauche",
-      "example_sentence": "Numanya bɛ marakila fɛ",
-      "example_phonetic": "/nu.ma.nja bɛ ma.ra.ki.la fɛ/",
-      "example_translation": "Le virage est vers la gauche."
+      "word_id": "v3",
+      "term": "sila",
+      "phonetic_api": "[sila]",
+      "phonetic_simple": "si-la",
+      "translation": "route, chemin",
+      "example_sentence": "Sila fila : Farana sila ani Daboia sila.",
+      "example_phonetic": "[sila fila farana sila ani daboja sila]",
+      "example_translation": "Deux routes : la route de Faranah et la route de Dabola."
     },
     {
-      "word_id": "v7_4",
-      "term": "Ɲɛfɛ",
-      "phonetic_api": "/ɲɛ.fɛ/",
-      "phonetic_simple": "NYƐ-FƐ",
-      "translation": "Devant / Tout droit / En avant",
-      "example_sentence": "Ta ɲɛfɛ dɔrɔn",
-      "example_phonetic": "/ta ɲɛ.fɛ dɔ.rɔn/",
-      "example_translation": "Va tout droit seulement."
+      "word_id": "v4",
+      "term": "kèrèfè",
+      "phonetic_api": "[kɛrɛfɛ]",
+      "phonetic_simple": "kè-rè-fè",
+      "translation": "à côté de",
+      "example_sentence": "Na n kèrèfè.",
+      "example_phonetic": "[na n kɛrɛfɛ]",
+      "example_translation": "Viens te mettre à côté de moi."
     },
     {
-      "word_id": "v7_5",
-      "term": "Kɔfɛ",
-      "phonetic_api": "/kɔ.fɛ/",
-      "phonetic_simple": "KƆ-FƐ",
-      "translation": "Derrière / En arrière",
-      "example_sentence": "A bɛ so kɔfɛ",
-      "example_phonetic": "/a bɛ so kɔ.fɛ/",
-      "example_translation": "C'est derrière la maison."
+      "word_id": "v5",
+      "term": "kofè",
+      "phonetic_api": "[kofɛ]",
+      "phonetic_simple": "ko-fè",
+      "translation": "derrière",
+      "example_sentence": "Jon nye kofè ?",
+      "example_phonetic": "[dʒɔn ɲe kofɛ]",
+      "example_translation": "Qui est derrière ?"
     },
     {
-      "word_id": "v7_6",
-      "term": "Lɔgɔfe",
-      "phonetic_api": "/lɔ.ɡɔ.fe/",
-      "phonetic_simple": "LƆ-GƆ-FÉ",
-      "translation": "Le marché (place commerciale)",
-      "example_sentence": "Lɔgɔfe bɛ mi ?",
-      "example_phonetic": "/lɔ.ɡɔ.fe bɛ mi/",
-      "example_translation": "Où se trouve le marché ?"
+      "word_id": "v6",
+      "term": "nyèfè",
+      "phonetic_api": "[ɲɛfɛ]",
+      "phonetic_simple": "nyè-fè",
+      "translation": "devant",
+      "example_sentence": "Jon nye nyèfè ?",
+      "example_phonetic": "[dʒɔn ɲe ɲɛfɛ]",
+      "example_translation": "Qui est devant ?"
     },
     {
-      "word_id": "v7_7",
-      "term": "Dafɛ",
-      "phonetic_api": "/da.fɛ/",
-      "phonetic_simple": "DA-FƐ",
-      "translation": "À côté de / Près de",
-      "example_sentence": "A bɛ lɔgɔfe dafɛ",
-      "example_phonetic": "/a bɛ lɔ.ɡɔ.fe da.fɛ/",
-      "example_translation": "C'est à côté du marché."
+      "word_id": "v7",
+      "term": "kilo",
+      "phonetic_api": "[kilo]",
+      "phonetic_simple": "ki-lo",
+      "translation": "kilomètre",
+      "example_sentence": "Yan ni Kankan tè ye kilo jeli ?",
+      "example_phonetic": "[jan ni kankan tɛ je kilo dʒeli]",
+      "example_translation": "Quelle est la distance entre ici et Kankan ?"
     },
     {
-      "word_id": "v7_8",
-      "term": "Yɔrɔ",
-      "phonetic_api": "/jɔ.rɔ/",
-      "phonetic_simple": "YƆ-RƆ",
-      "translation": "L'endroit / Le lieu / La place",
-      "example_sentence": "Nin yɔrɔ tɔgɔ di ?",
-      "example_phonetic": "/nĩ jɔ.rɔ tɔ.ɡɔ di/",
-      "example_translation": "Comment s'appelle cet endroit ?"
-    },
-    {
-      "word_id": "v7_9",
-      "term": "Jan",
-      "phonetic_api": "/d͡ʒã/",
-      "phonetic_simple": "DJAN",
-      "translation": "Loin / Éloigné",
-      "example_sentence": "A mu jan",
-      "example_phonetic": "/a mu d͡ʒã/",
-      "example_translation": "Ce n'est pas loin."
-    },
-    {
-      "word_id": "v7_10",
-      "term": "Surun",
-      "phonetic_api": "/su.rũ/",
-      "phonetic_simple": "SOU-ROUN",
-      "translation": "Près / Proche / Court",
-      "example_sentence": "A bɛ surun yan la",
-      "example_phonetic": "/a bɛ su.rũ d͡ʒan la/",
-      "example_translation": "C'est proche d'ici."
+      "word_id": "v8",
+      "term": "min",
+      "phonetic_api": "[min]",
+      "phonetic_simple": "min",
+      "translation": "où (interrogatif de lieu)",
+      "example_sentence": "I wato min ?",
+      "example_phonetic": "[i wato min]",
+      "example_translation": "Où vas-tu ?"
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p7_1",
-      "original": "Lɔgɔfe bɛ mi ?",
-      "phonetic_api": "/lɔ.ɡɔ.fe bɛ mi/",
-      "phonetic_simple": "LƆ-GƆ-FÉ BƐ MI ?",
-      "translation": "Où est le marché ?",
-      "context": "Question type indispensable pour s'orienter dans une localité."
+      "phrase_id": "p1",
+      "original": "I wato min ?",
+      "phonetic_api": "[i wato min]",
+      "phonetic_simple": "i-wa-to-min",
+      "translation": "Où vas-tu ?",
+      "context": "Demander la destination d'un interlocuteur"
     },
     {
-      "phrase_id": "p7_2",
-      "original": "Ta ɲɛfɛ dɔrɔn.",
-      "phonetic_api": "/ta ɲɛ.fɛ dɔ.rɔn/",
-      "phonetic_simple": "TA NYƐ-FƐ DƆ-RƆN.",
-      "translation": "Continue tout droit seulement.",
-      "context": "Indication donnée par un passant pour guider un voyageur."
+      "phrase_id": "p2",
+      "original": "Yan ni Kankan tè ye kilo jeli ?",
+      "phonetic_api": "[jan ni kankan tɛ je kilo dʒeli]",
+      "phonetic_simple": "yan-ni-Kan-kan-tè-yé-ki-lo-dié-li",
+      "translation": "Quelle est la distance entre ici et Kankan ?",
+      "context": "Question de distance kilométrique"
     },
     {
-      "phrase_id": "p7_3",
-      "original": "A bɛ kinini fɛ do ?",
-      "phonetic_api": "/a bɛ ki.ni.ni fɛ do/",
-      "phonetic_simple": "A BƐ KI-NI-NI FƐ DO ?",
-      "translation": "Est-ce que c'est du côté droit ?",
-      "context": "Vérification d'orientation auprès d'un guide."
+      "phrase_id": "p3",
+      "original": "Kilo kèmè woronwila ni bi seyin",
+      "phonetic_api": "[kilo kɛmɛ woronwila ni bi sejin]",
+      "phonetic_simple": "ki-lo-kè-mè-wo-ron-wi-la-ni-bi-sé-yin",
+      "translation": "780 km",
+      "context": "Réponse indiquant une distance précise"
     },
     {
-      "phrase_id": "p7_4",
-      "original": "A mu jan yan la.",
-      "phonetic_api": "/a mu d͡ʒã d͡ʒan la/",
-      "phonetic_simple": "A MOU DJAN YAN LA.",
-      "translation": "Ce n'est pas loin d'ici.",
-      "context": "Rassurer quelqu'un sur la distance à parcourir."
+      "phrase_id": "p4",
+      "original": "Monbili ye tele jeli kèla sila la ?",
+      "phonetic_api": "[mɔnbili je tele dʒeli kɛla sila la]",
+      "phonetic_simple": "mon-bi-li-yé-té-lé-dié-li-kè-la-si-la-la",
+      "translation": "Le véhicule met combien de jours de route ?",
+      "context": "Question sur la durée d'un trajet"
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Wa muwan ni lolu",
+      "phonetic_api": "[wa muwan ni lolu]",
+      "phonetic_simple": "wa-mou-wan-ni-lo-lou",
+      "translation": "25 000 (francs)",
+      "context": "Indication du prix du transport"
+    },
+    {
+      "phrase_id": "p6",
+      "original": "Na n kèrèfè",
+      "phonetic_api": "[na n kɛrɛfɛ]",
+      "phonetic_simple": "na-n-kè-rè-fè",
+      "translation": "Viens à côté de moi",
+      "context": "Indication de position relative"
     }
   ],
   "grammar_points": [
     {
-      "concept": "Les postpositions d'orientation combinées avec 'fɛ'",
-      "explanation": "Pour exprimer le déplacement ou l'orientation vers une direction, le malinké fait suivre le nom de repère (gauche, droite, devant) par la postposition directive 'fɛ' (par / vers / du côté de).",
+      "concept": "La question de lieu avec 'min'",
+      "explanation": "Contrairement au français où 'où' est en tête de phrase, en malinké le mot interrogatif de lieu 'min' se place à la fin de la phrase.",
       "rules": [
-        "Structure : Nom de direction + 'fɛ'.",
-        "Cette combinaison s'emploie principalement avec les verbes de mouvement comme 'ta' (aller) ou 'bɔ' (sortir)."
+        "Structure : Sujet + Verbe + min ?",
+        "Exemple : I wato min ? (litt. 'Tu vas où ?')"
       ],
       "examples": [
         {
-          "structure": "Kinini fɛ",
-          "phonetic_api": "/ki.ni.ni fɛ/",
-          "meaning": "Vers la droite / Par la droite"
+          "structure": "[Sujet] + [Verbe] + min ?",
+          "phonetic_api": "[min]",
+          "meaning": "Où [sujet] [verbe]-t-il ?"
+        }
+      ]
+    },
+    {
+      "concept": "Les postpositions de position relative",
+      "explanation": "Le malinké place les mots de position (kèrèfè=à côté, kofè=derrière, nyèfè=devant) après le nom ou le pronom qu'ils qualifient, à la manière des postpositions.",
+      "rules": [
+        "Structure : [Nom/Pronom] + [Postposition de lieu]",
+        "Ex. : n kèrèfè = à côté de moi ; a kofè = derrière lui"
+      ],
+      "examples": [
+        {
+          "structure": "[Pronom] + kèrèfè",
+          "phonetic_api": "[kɛrɛfɛ]",
+          "meaning": "à côté de [pronom]"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "L'Étranger",
-      "text": "I ni tile mɔgɔba. Karamɔgɔ, lɔgɔfe bɛ mi ?",
-      "phonetic_api": "/i ni ti.le mɔ.ɡɔ.ba ka.ra.mɔ.ɡɔ lɔ.ɡɔ.fe bɛ mi/",
-      "phonetic_simple": "I NI TI-LÉ MƆ-GƆ-BA. KA-RA-MƆ-GƆ, LƆ-GƆ-FÉ BƐ MI ?",
-      "translation": "Bonjour monsieur. Maître, où se trouve le marché ?"
+      "speaker": "Voyageur",
+      "text": "I ni tele. Yan ni Kankan tè ye kilo jeli ?",
+      "phonetic_api": "[i ni tele jan ni kankan tɛ je kilo dʒeli]",
+      "phonetic_simple": "i-ni-té-lé, yan-ni-Kan-kan-tè-yé-ki-lo-dié-li",
+      "translation": "Bonjour. Quelle est la distance entre ici et Kankan ?"
     },
     {
-      "speaker": "Le Passant",
-      "text": "Nba. Ta ɲɛfɛ dɔrɔn sila nin la. A mu jan yan la.",
-      "phonetic_api": "/n̩.ba ta ɲɛ.fɛ dɔ.rɔn si.la nĩ la a mu d͡ʒã d͡ʒan la/",
-      "phonetic_simple": "N-BA. TA NYƐ-FƐ DƆ-RƆN SI-LA NIN LA. A MOU DJAN YAN LA.",
-      "translation": "Bonjour. Va tout droit seulement sur cette route. Ce n'est pas loin d'ici."
+      "speaker": "Habitant",
+      "text": "Kilo kèmè woronwila ni bi seyin ne.",
+      "phonetic_api": "[kilo kɛmɛ woronwila ni bi sejin ne]",
+      "phonetic_simple": "ki-lo-kè-mè-wo-ron-wi-la-ni-bi-sé-yin-né",
+      "translation": "780 km."
     },
     {
-      "speaker": "L'Étranger",
-      "text": "A bɛ marakila fɛ ko ?",
-      "phonetic_api": "/a bɛ ma.ra.ki.la fɛ ko/",
-      "phonetic_simple": "A BƐ MA-RA-KI-LA FƐ KO ?",
-      "translation": "Est-ce que c'est vers la gauche ?"
+      "speaker": "Voyageur",
+      "text": "Monbili ye tele jeli kèla sila la ?",
+      "phonetic_api": "[mɔnbili je tele dʒeli kɛla sila la]",
+      "phonetic_simple": "mon-bi-li-yé-té-lé-dié-li-kè-la-si-la-la",
+      "translation": "Le véhicule met combien de jours de route ?"
     },
     {
-      "speaker": "Le Passant",
-      "text": "Ayi, a bɛ kinini fɛ, kalanso dafɛ.",
-      "phonetic_api": "/a.ji a bɛ ki.ni.ni fɛ ka.lan.so da.fɛ/",
-      "phonetic_simple": "A-YI, A BƐ KI-NI-NI FƐ, KA-LAN-SO DA-FƐ.",
-      "translation": "Non, c'est vers la droite, à côté de l'école."
+      "speaker": "Habitant",
+      "text": "Tele fila, sila fila la : Farana sila ani Daboia sila.",
+      "phonetic_api": "[tele fila sila fila la farana sila ani daboja sila]",
+      "phonetic_simple": "té-lé-fi-la, si-la-fi-la-la: Fa-ra-na-si-la a-ni Da-bo-ya-si-la",
+      "translation": "Deux jours, sur deux routes possibles : la route de Faranah et la route de Dabola."
     }
   ],
   "cultural_notes": [
-    "Dans l'espace traditionnel malinké, l'orientation utilise fréquemment des repères physiques communautaires (le grand arbre 'balanza', la case du chef, l'école ou la mosquée) plutôt que des noms de rues officiels. Demander son chemin est un prétexte social très valorisé pour lier conversation."
+    "Les distances entre grandes villes de Haute-Guinée (Kankan, Faranah, Dabola) sont souvent données de mémoire par les habitants et servent de repères culturels partagés ([Malinkuia](https://fr.scribd.com/document/499114939/Malinkuia)).",
+    "Le transport en commun (camions, taxis-brousse) reste le moyen principal de déplacement entre villages et villes ; les échanges sur les routes et les distances font partie du quotidien."
   ],
   "exercises": [
     {
-      "exercise_id": "A1_M3_L7_ex1",
-      "type": "multiple_choice",
-      "question": "Que signifie l'orientation 'Ta marakila fɛ' ?",
-      "options": [
-        "Va tout droit",
-        "Va vers la gauche",
-        "Fais demi-tour"
-      ],
-      "correct_answer": "Va vers la gauche",
-      "explanation": "'Marakila' désigne le côté gauche et 'fɛ' la direction."
+      "exercise_id": "e1",
+      "type": "traduction",
+      "question": "Traduisez : 'Où vas-tu ?'",
+      "correct_answer": "I wato min ?",
+      "explanation": "'min' (où) se place en fin de phrase en malinké."
     },
     {
-      "exercise_id": "A1_M3_L7_ex2",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Sila bɛ [ ___ ] ? (Où est la route ?)",
-      "correct_answer": "mi",
-      "hint": "C'est l'adverbe interrogatif de lieu universel en malinké."
+      "exercise_id": "e2",
+      "type": "choix_multiple",
+      "question": "Que signifie 'kèrèfè' ?",
+      "options": [
+        "derrière",
+        "devant",
+        "à côté de",
+        "loin de"
+      ],
+      "correct_answer": "à côté de",
+      "explanation": "'kèrèfè' est la postposition qui signifie 'à côté de'."
+    },
+    {
+      "exercise_id": "e3",
+      "type": "texte_a_trous",
+      "sentence_with_blank": "Jon nye ___ ?  (Qui est devant ?)",
+      "correct_answer": "nyèfè",
+      "hint": "C'est la postposition qui signifie 'devant'."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Malinkuia — Introduction à la langue malinké (grammaire complète, variété du Wulada, Haute-Guinée)",
+      "url": "https://fr.scribd.com/document/499114939/Malinkuia"
+    },
+    {
+      "label": "Diané & Vydrin, « Propositions pour l'orthographe du maninka (Guinée) », Mandenkan 52 (2014)",
+      "url": "https://shs.hal.science/halshs-01096594v1/document"
+    }
+  ],
+  "confidence": "élevée",
+  "confidence_note": "Vocabulaire et dialogue directement attestés dans la section 'Voyage' et 'Postpositions' de la grammaire Malinkuia, avec des exemples concrets liés à la Haute-Guinée (Kankan, Faranah, Dabola)."
 }

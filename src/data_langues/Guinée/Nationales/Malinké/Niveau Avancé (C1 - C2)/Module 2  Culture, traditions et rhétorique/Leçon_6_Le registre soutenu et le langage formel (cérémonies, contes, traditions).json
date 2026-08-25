@@ -6,210 +6,255 @@
   "lesson_number": 6,
   "title": "Le registre soutenu et le langage formel (cérémonies, contes, traditions)",
   "learning_objectives": [
-    "Employer les formules honorifiques de bénédiction et de protocole des anciens",
-    "Maîtriser les termes ésotériques liés aux pactes ancestraux et rituels",
-    "Conduire l'ouverture formelle d'un discours de cérémonie ou de baptême"
+    "Reconnaître le style formel des griots ('jeli') dans les récits",
+    "Utiliser des formules d'ouverture et de clôture de conte",
+    "Comprendre le rôle du N'Ko dans la valorisation savante du maninka",
+    "Utiliser un vocabulaire honorifique pour s'adresser aux aînés"
   ],
   "phonetic_focus": {
-    "key_sounds": "La bénédiction 'Barika' possède des voyelles stables. Le terme ritualisé 'Mandingya' (/man.diŋ.ja/) requiert une articulation unifiée de la nasale palatale finale.",
-    "common_pitfalls": "Veillez à prononcer la formule cérémonielle 'Ala k'an dɛmɛ' avec une élision douce et harmonieuse, typique du registre poétique parlé des griots."
+    "key_sounds": [
+      "Le débit ralenti et les pauses marquées typiques du discours cérémoniel",
+      "Le ton soigné de 'kɛlɛn' (jadis, il était une fois), formule d'ouverture de conte",
+      "La prononciation emphatique des titres honorifiques ('mansa', 'jeli', 'karamɔgɔ')"
+    ],
+    "common_pitfalls": [
+      "Utiliser un vocabulaire familier dans un contexte cérémoniel où le registre soutenu est attendu",
+      "Ignorer les formules rituelles d'ouverture/fermeture des contes, qui structurent socialement la prise de parole du conteur"
+    ]
   },
   "vocabulary": [
     {
-      "word_id": "v6_1",
-      "term": "Barika",
-      "phonetic_api": "/ba.ri.ka/",
-      "phonetic_simple": "BA-RI-KA",
-      "translation": "La grâce / La bénédiction divine / L'énergie spirituelle",
-      "example_sentence": "Ala ka barika dɔn nin la",
-      "example_phonetic": "/a.la ka ba.ri.ka dɔn nĩ la/",
-      "example_translation": "Que la grâce de Dieu repose sur ceci."
+      "word_id": "v1",
+      "term": "jeli",
+      "phonetic_api": "[dʒeli]",
+      "phonetic_simple": "dié-li",
+      "translation": "griot, dépositaire de la tradition orale",
+      "example_sentence": "Jeli le bɛ mansa la kuma fɔ.",
+      "example_phonetic": "[dʒeli le bɛ mansa la kuma fɔ]",
+      "example_translation": "C'est le griot qui rapporte la parole du roi."
     },
     {
-      "word_id": "v6_2",
-      "term": "Mandingya",
-      "phonetic_api": "/man.diŋ.ja/",
-      "phonetic_simple": "MAN-DING-YA",
-      "translation": "L'identité mandingue / L'élégance des mœurs traditionnelles",
-      "example_sentence": "Mandingya sariya ka gbanan",
-      "example_phonetic": "/man.diŋ.ja sa.ri.ja ka ɡ͡ba.nã/",
-      "example_translation": "Le code d'honneur mandingue est rigoureux."
+      "word_id": "v2",
+      "term": "mansa",
+      "phonetic_api": "[mansa]",
+      "phonetic_simple": "man-sa",
+      "translation": "roi, chef",
+      "example_sentence": "Mansa Sunjata ye Manden mara.",
+      "example_phonetic": "[mansa sundʒata je manden mara]",
+      "example_translation": "Le roi Soundiata a gouverné le Manden."
     },
     {
-      "word_id": "v6_3",
-      "term": "Sankulo",
-      "phonetic_api": "/sã.ku.lo/",
-      "phonetic_simple": "SAN-KOU-LO",
-      "translation": "Le firmament / Le ciel ancestral céleste",
-      "example_sentence": "Kuma nana ka bɔ sankulo fɛ",
-      "example_phonetic": "/ku.ma na.na ka bɔ sã.ku.lo fɛ/",
-      "example_translation": "La parole descendue du ciel (parole d'une autorité sacrée)."
+      "word_id": "v3",
+      "term": "karamɔgɔ",
+      "phonetic_api": "[karamɔɡɔ]",
+      "phonetic_simple": "ka-ra-mo-go",
+      "translation": "maître, sage, personne de savoir respectée",
+      "example_sentence": "Karamɔgɔ, i ni sɔgɔma.",
+      "example_phonetic": "[karamɔɡɔ i ni sɔɡɔma]",
+      "example_translation": "Maître, bonjour (formule respectueuse)."
     },
     {
-      "word_id": "v6_4",
-      "term": "Kanyɔgɔnya",
-      "phonetic_api": "/ka.njo.ɡo.nja/",
-      "phonetic_simple": "KAN-YƆ-GƆ-NYA",
-      "translation": "Le pacte de fraternité de sang / L'alliance sacrée inter-clans",
-      "example_sentence": "Kanyɔgɔnya bɛ an tɛ kabila",
-      "example_phonetic": "/ka.njo.ɡo.nja bɛ an tɛ ka.bi.la/",
-      "example_translation": "Une alliance sacrée existe entre nous depuis les origines."
+      "word_id": "v4",
+      "term": "kɛlɛn (formule d'ouverture)",
+      "phonetic_api": "[kɛlɛn]",
+      "phonetic_simple": "kè-lèn",
+      "translation": "il était une fois, jadis",
+      "example_sentence": "Kɛlɛn, mansa dɔ tun bɛ yen.",
+      "example_phonetic": "[kɛlɛn mansa dɔ tun bɛ jen]",
+      "example_translation": "Il était une fois, il y avait un roi."
     },
     {
-      "word_id": "v6_5",
-      "term": "Lajɛ",
-      "phonetic_api": "/la.d͡ʒɛ/",
-      "phonetic_simple": "LA-DJƐ",
-      "translation": "Le rassemblement solennel / L'auguste assemblée",
-      "example_sentence": "Lajɛ nin ka bon sɔbɛya fɛ",
-      "example_phonetic": "/la.d͡ʒɛ nĩ ka bõ sɔ.bɛ.ja fɛ/",
-      "example_translation": "Cette auguste assemblée revêt une grande importance."
+      "word_id": "v5",
+      "term": "n'a fɔ ten (formule de clôture)",
+      "phonetic_api": "[n a fɔ ten]",
+      "phonetic_simple": "n-a-fo-tèn",
+      "translation": "voilà comment ça s'est passé (clôture de récit)",
+      "example_sentence": "N'a fɔ ten, moriden bɛɛ dun a lɔn.",
+      "example_phonetic": "[n a fɔ ten moriden bɛɛ dun a lɔn]",
+      "example_translation": "Voilà comment ça s'est passé, tout le monde le sait maintenant."
     },
     {
-      "word_id": "v6_6",
-      "term": "Hakilitigi",
-      "phonetic_api": "/ha.ki.li.ti.ɡi/",
-      "phonetic_simple": "HA-KI-LI-TI-GUI",
-      "translation": "Le détenteur de la sagesse / L'esprit éclairé",
-      "example_sentence": "Hakilitigi mu talen lu bila gbe la",
-      "example_phonetic": "/ha.ki.li.ti.ɡi mu ta.lẽ lu bi.la ɡ͡be la/",
-      "example_translation": "Le sage n'emploie pas les proverbes au hasard."
+      "word_id": "v6",
+      "term": "n'ko",
+      "phonetic_api": "[n.ko]",
+      "phonetic_simple": "n-ko",
+      "translation": "N'Ko (écriture savante panmandingue créée en 1949)",
+      "example_sentence": "N'ko sɛbɛnni bɛ kɛ Kanke la.",
+      "example_phonetic": "[n.ko sɛbɛnni bɛ kɛ kanke la]",
+      "example_translation": "L'écriture N'Ko se pratique à Kankan."
     },
     {
-      "word_id": "v6_7",
-      "term": "Mansaya",
-      "phonetic_api": "/man.sa.ja/",
-      "phonetic_simple": "MAN-SA-YA",
-      "translation": "La souveraineté / La royauté / Le pouvoir noble",
-      "example_sentence": "Mansaya bɛ bɔ Ala bolo",
-      "example_phonetic": "/man.sa.ja bɛ bɔ a.la bo.lo/",
-      "example_translation": "La vraie souveraineté émane des mains de Dieu."
+      "word_id": "v7",
+      "term": "kunafoni (message solennel)",
+      "phonetic_api": "[kunafoni]",
+      "phonetic_simple": "kou-na-fo-ni",
+      "translation": "message, annonce (registre formel)",
+      "example_sentence": "Jeli ye kunafoni di mɔgɔw ma.",
+      "example_phonetic": "[dʒeli je kunafoni di mɔɡɔw ma]",
+      "example_translation": "Le griot a transmis le message aux gens."
     },
     {
-      "word_id": "v6_8",
-      "term": "Linyan",
-      "phonetic_api": "/li.njã/",
-      "phonetic_simple": "LI-NYAN",
-      "translation": "La tradition orale immuable / Le legs des ancêtres",
-      "example_sentence": "An bɛ linyan mɛn la sɔbɛ fɛ",
-      "example_phonetic": "/an bɛ li.njã mɛn la sɔ.bɛ fɛ/",
-      "example_translation": "Nous écoutons la tradition immuable avec sérieux."
-    },
-    {
-      "word_id": "v6_9",
-      "term": "Tana sariya",
-      "phonetic_api": "/ta.na sa.ri.ja/",
-      "phonetic_simple": "TA-NA SA-RI-YA",
-      "translation": "Le tabou totémique sacré / La loi prohibitive clanique",
-      "example_sentence": "Keita lu ka tana sariya na min ra",
-      "example_phonetic": "/ke.i.ta lu ka ta.na sa.ri.ja na mĩ ra/",
-      "example_translation": "Voici la loi prohibitive sacrée des Keita."
-    },
-    {
-      "word_id": "v6_10",
-      "term": "Ala k’an dɛmɛ",
-      "phonetic_api": "/a.la k'an dɛ.mɛ/",
-      "phonetic_simple": "A-LA K'AN DƐ-MƐ",
-      "translation": "Que l'Assistance Divine soit sur nous (formule rituelle finale)",
-      "example_sentence": "K'an bɛn, Ala k’an dɛmɛ",
-      "example_phonetic": "/k'an bɛn a.la k'an dɛ.mɛ/",
-      "example_translation": "Au revoir, et que l'Assistance Divine nous accompagne."
+      "word_id": "v8",
+      "term": "danbe",
+      "phonetic_api": "[danbe]",
+      "phonetic_simple": "dan-bé",
+      "translation": "dignité, honneur",
+      "example_sentence": "Danbe ka bon Manden na.",
+      "example_phonetic": "[danbe ka bon manden na]",
+      "example_translation": "La dignité compte beaucoup au Manden."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p6_1",
-      "original": "Ala ka barika dɔn lajɛ nin kɔnɔla ra linyan fɛ.",
-      "phonetic_api": "/a.la ka ba.ri.ka dɔn la.d͡ʒɛ nĩ kɔ.nɔ.la ra li.njã fɛ/",
-      "phonetic_simple": "A-LA KA BA-RI-KA DƆN LA-DJƐ NIN KƆ-NƆ-LA RA LI-NYAN FƐ.",
-      "translation": "Que la grâce sacrée se déverse sur cette auguste assemblée conformément à notre tradition.",
-      "context": "Prière solennelle d'ouverture prononcée par le doyen d'âge lors des cérémonies de mariage ou de baptême."
+      "phrase_id": "p1",
+      "original": "Kɛlɛn, mansa dɔ tun bɛ yen",
+      "phonetic_api": "[kɛlɛn mansa dɔ tun bɛ jen]",
+      "phonetic_simple": "kè-lèn, man-sa-do-toun-bè-yèn",
+      "translation": "Il était une fois, il y avait un roi",
+      "context": "Formule d'ouverture rituelle d'un conte"
     },
     {
-      "phrase_id": "p6_2",
-      "original": "An ka kanyɔgɔnya mu se la ka ban katuguni mansaya sariya bɛ an tɛ.",
-      "phonetic_api": "/an ka ka.njo.ɡo.nja mu se la ka bã ka.tu.ɡu.ni man.sa.ja sa.ri.ja bɛ an tɛ/",
-      "phonetic_simple": "AN KA KAN-YƆ-GƆ-NYA MOU SÉ LA KA BAN KA-TOU-GOU-NI MAN-SA-YA SA-RI-YA BƐ AN TƐ.",
-      "translation": "Notre pacte d'alliance ne saurait prendre fin car un code d'honneur noble nous lie.",
-      "context": "Sceller la réconciliation ou réaffirmer les liens historiques profonds entre deux grandes familles."
+      "phrase_id": "p2",
+      "original": "N'a fɔ ten, moriden bɛɛ dun a lɔn",
+      "phonetic_api": "[n a fɔ ten moriden bɛɛ dun a lɔn]",
+      "phonetic_simple": "n-a-fo-tèn, mo-ri-dèn-bè-è-dun-a-lon",
+      "translation": "Voilà comment ça s'est passé, tout le monde le sait maintenant",
+      "context": "Formule de clôture d'un récit traditionnel"
     },
     {
-      "phrase_id": "p6_3",
-      "original": "Hakilitigi lu, fo an ka tana sariya lu mɛn yalisa Mandingya ka ɲɛ.",
-      "phonetic_api": "/ha.ki.li.ti.ɡi lu fo an ka ta.na sa.ri.ja lu mɛn ja.li.sa man.diŋ.ja ka ɲɛ/",
-      "phonetic_simple": "HA-KI-LI-TI-GUI LOU, FO AN KA TA-NA SA-RI-YA LOU MƐN YA-LI-SA MAN-DING-YA KA NYE.",
-      "translation": "Ô esprits éclairés, il nous incombe de respecter nos tabous sacrés afin que l'essence de notre culture s'épanouisse.",
-      "context": "Rappel à l'ordre coutumier prononcé par un grand maître de cérémonie."
+      "phrase_id": "p3",
+      "original": "Karamɔgɔ, i ni sɔgɔma",
+      "phonetic_api": "[karamɔɡɔ i ni sɔɡɔma]",
+      "phonetic_simple": "ka-ra-mo-go, i-ni-so-go-ma",
+      "translation": "Maître, bonjour",
+      "context": "Salutation respectueuse à une personne de savoir"
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Jeli le bɛ mansa la kuma fɔ",
+      "phonetic_api": "[dʒeli le bɛ mansa la kuma fɔ]",
+      "phonetic_simple": "dié-li-lé-bè-man-sa-la-kou-ma-fo",
+      "translation": "C'est le griot qui rapporte la parole du roi",
+      "context": "Décrire le rôle social du griot"
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Danbe ka bon Manden na",
+      "phonetic_api": "[danbe ka bon manden na]",
+      "phonetic_simple": "dan-bé-ka-bon-man-dèn-na",
+      "translation": "La dignité compte beaucoup au Manden",
+      "context": "Assertion solennelle sur une valeur culturelle"
     }
   ],
   "grammar_points": [
     {
-      "concept": "Les bénédictions optatives au mode subjonctif solennel avec 'Ala ka...'",
-      "explanation": "Pour exprimer un vœu pieux, une bénédiction honorifique ou une invocation protocolaire de haut niveau, le malinké emploie la structure optative figée amorcée par l'entité spirituelle 'Ala' suivie directement de la particule subjonctive 'ka' et du verbe d'attribution.",
+      "concept": "Les formules rituelles d'ouverture et de clôture des contes",
+      "explanation": "Le conte traditionnel mandingue s'ouvre et se clôt par des formules figées et reconnues socialement, qui signalent le passage au registre narratif solennel et son achèvement.",
       "rules": [
-        "Structure invariable : 'Ala' + 'ka' + [Bienfait/Bénédiction nominale] + [Verbe d'état ou d'action]."
+        "Ouverture : Kɛlɛn, [personnage] tun bɛ yen (Il était une fois, [personnage])",
+        "Clôture : N'a fɔ ten, [morale/conséquence] (Voilà comment ça s'est passé, ...)"
       ],
       "examples": [
         {
-          "structure": "Ala ka barika bila i la",
-          "phonetic_api": "/a.la ka ba.ri.ka bi.la i la/",
-          "meaning": "Que Dieu dépose sa bénédiction sur toi."
+          "structure": "Kɛlɛn, [personnage] tun bɛ yen",
+          "phonetic_api": "[kɛlɛn]",
+          "meaning": "Il était une fois, il y avait [personnage]"
+        }
+      ]
+    },
+    {
+      "concept": "Les titres honorifiques dans l'adresse formelle",
+      "explanation": "S'adresser à un roi ('mansa'), un maître ('karamɔgɔ') ou un griot ('jeli') requiert l'emploi du titre avant toute salutation ou question, marquant le respect hiérarchique.",
+      "rules": [
+        "Structure : [Titre], [salutation/question]",
+        "Le titre ne s'omet jamais dans un contexte cérémoniel"
+      ],
+      "examples": [
+        {
+          "structure": "[Titre], i ni sɔgɔma",
+          "phonetic_api": "[i ni sɔɡɔma]",
+          "meaning": "[Titre], bonjour"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Le Maître des Cérémonies",
-      "text": "Hakilitigi lu, alu ni tile. Ala ka barika dɔn lajɛ nin ra sɔbɛya fɛ !",
-      "phonetic_api": "/ha.ki.li.ti.ɡi lu a.lu ni ti.le a.la ka ba.ri.ka dɔn la.d͡ʒɛ nĩ ra sɔ.bɛ.ja fɛ/",
-      "phonetic_simple": "HA-KI-LI-TI-GUI LOU, A-LOU NI TI-LÉ. A-LA KA BA-RI-KA DƆN LA-DJƐ NIN RA SƆ-BƐ-YA FƐ !",
-      "translation": "Esprits éclairés de notre communauté, bonjour. Que la grâce divine illumine cette auguste assemblée avec solennité !"
+      "speaker": "Le griot (jeli)",
+      "text": "Kɛlɛn, mansa dɔ tun bɛ Manden na, a tɔgɔ tun ye Sunjata.",
+      "phonetic_api": "[kɛlɛn mansa dɔ tun bɛ manden na a tɔɡɔ tun je sundʒata]",
+      "phonetic_simple": "kè-lèn, man-sa-do-toun-bè-man-dèn-na, a-to-go-toun-yé-soun-dja-ta",
+      "translation": "Il était une fois, il y avait un roi au Manden, son nom était Soundiata."
     },
     {
-      "speaker": "Le Chef des Sages",
-      "text": "Nse karamɔgɔ. Mandingya sariya bɛ an bolo. An nana ka bɔ sankulo linyan fɛ.",
-      "phonetic_api": "/n̩.se ka.ra.mɔ.ɡɔ man.diŋ.ja sa.ri.ja bɛ an bo.lo an na.na ka bɔ sã.ku.lo li.njã fɛ/",
-      "phonetic_simple": "N-SÉ KA-RA-MƆ-GƆ. MAN-DING-YA SA-RI-YA BƐ AN BOLO. AN NA-NA KA BƆ SAN-KOU-LO LI-NYAN FƐ.",
-      "translation": "Nous te saluons, maître. Le code d'honneur de notre culture est entre nos mains. Nous sommes venus honorer le legs élevé de nos ancêtres."
+      "speaker": "Un enfant",
+      "text": "Karamɔgɔ jeli, kuma nin bɛɛ ye tiɲɛ le di ?",
+      "phonetic_api": "[karamɔɡɔ dʒeli kuma nin bɛɛ je tiɲɛ le di]",
+      "phonetic_simple": "ka-ra-mo-go-dié-li, kou-ma-nin-bè-è-yé-ti-nyè-lé-di",
+      "translation": "Maître griot, tout ce récit est-il vraiment la vérité ?"
     },
     {
-      "speaker": "Le Maître des Cérémonies",
-      "text": "O ka ɲi kpe ! Kanyɔgɔnya kɔni bɛ an tɛ, o fɛ fo an ka tana sariya lu mɛn polala.",
-      "phonetic_api": "/o ka ɲi k͡pe ka.njo.ɡo.nja kɔ.ni bɛ an tɛ o fɛ fo an ka ta.na sa.ri.ja lu mɛn po.la.la/",
-      "phonetic_simple": "O KA NYI KPÉ ! KAN-YƆ-GƆ-NYA KƆ-NI BƐ AN TƐ, O FƐ FO AN KA TA-NA SA-RI-YA LOU MƐN PO-LA-LA.",
-      "translation": "C'est une oeuvre magnifique ! Une alliance sacrée existe indéniablement entre nos clans, de ce fait nous devons écouter nos lois prohibitives avec un respect total."
+      "speaker": "Le griot (jeli)",
+      "text": "N'a fɔ ten, danbe ka bon Manden na, wo ye tiɲɛ ye.",
+      "phonetic_api": "[n a fɔ ten danbe ka bon manden na wo je tiɲɛ je]",
+      "phonetic_simple": "n-a-fo-tèn, dan-bé-ka-bon-man-dèn-na, wo-yé-ti-nyè-yé",
+      "translation": "Voilà comment ça s'est passé, la dignité compte beaucoup au Manden, cela est vrai."
     },
     {
-      "speaker": "Le Chef des Sages",
-      "text": "Mansaya dɔrɔn bɛ Ala bolo. Labanyala, K'an bɛn, Ala k’an dɛmɛ ka bɛn !",
-      "phonetic_api": "/man.sa.ja dɔ.rɔn bɛ a.la bo.lo la.ban.ja.la k'an bɛn a.la k'an dɛ.mɛ ka bɛn/",
-      "phonetic_simple": "MAN-SA-YA DƆ-RƆN BƐ A-LA BOLO. LA-BAN-YA-LA, K'AN BƐN, A-LA K'AN DƐ-MƐ KA BƐN !",
-      "translation": "La souveraineté suprême n'appartient qu'à Dieu seul. En conclusion, au revoir, et que l'Assistance Céleste scelle notre accord !"
+      "speaker": "Un enfant",
+      "text": "Barika, karamɔgɔ jeli.",
+      "phonetic_api": "[barika karamɔɡɔ dʒeli]",
+      "phonetic_simple": "ba-ri-ka, ka-ra-mo-go-dié-li",
+      "translation": "Merci, maître griot."
     }
   ],
   "cultural_notes": [
-    "Le langage de cérémonie en pays mandingue ('fasa kan') évite l'expression profane. Lors des baptêmes, mariages ou intronisations, le lexique bascule vers des racines archaïques, des invocations spirituelles ('Barika') et des références continues au pacte fondateur de la charte de Kouroukan Fouga (1236). Maîtriser ce registre confère le statut de gardien du temple de l'identité mandingue ('Mandingya')."
+    "Le rôle du 'jeli' (griot) comme gardien de la mémoire orale et intermédiaire de la parole du chef ('mansa') est central dans la société mandingue historique, y compris dans la tradition rattachée à l'empire du Mali et à la Charte de Kurukan Fuga ([Charte de Kurukan Fuga](https://www.scribd.com/document/63694742/La-Charte-de-Kurukan-Fuga)).",
+    "L'écriture N'Ko, créée par Solomana Kanté à Kankan (Guinée) en 1949, a joué un rôle majeur dans la valorisation savante et l'unification écrite des langues mandingues, dont le maninka ([Wikipedia — N'Ko script](https://en.wikipedia.org/wiki/N%27Ko_script))."
   ],
   "exercises": [
     {
-      "exercise_id": "C1_M2_L6_ex1",
-      "type": "multiple_choice",
-      "question": "Quelle formule honorifique emploie-t-on pour attirer la grâce divine sur un rassemblement ?",
-      "options": [
-        "I ni kɛ",
-        "Ala ka barika dɔn",
-        "Tana t'an na"
-      ],
-      "correct_answer": "Ala ka barika dɔn",
-      "explanation": "Cette tournure subjonctive optative appelle de manière protocolaire la bénédiction spirituelle sur l'assistance."
+      "exercise_id": "e1",
+      "type": "traduction",
+      "question": "Traduisez la formule d'ouverture de conte : 'Il était une fois, il y avait un roi.'",
+      "correct_answer": "Kɛlɛn, mansa dɔ tun bɛ yen.",
+      "explanation": "'Kɛlɛn' + sujet + 'tun bɛ yen' est la formule figée d'ouverture d'un conte traditionnel."
     },
     {
-      "exercise_id": "C1_M2_L6_ex2",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "An bɛ [ ___ ] mɛn la sɔbɛ fɛ (Nous écoutons le legs immuable de la tradition orale).",
-      "correct_answer": "linyan",
-      "hint": "Mot noble désignant la coutume immuable ou la tradition transmise de bouche à oreille depuis les aïeux."
+      "exercise_id": "e2",
+      "type": "choix_multiple",
+      "question": "Qui est le 'jeli' dans la société mandingue traditionnelle ?",
+      "options": [
+        "Le roi",
+        "Le cultivateur",
+        "Le griot, gardien de la tradition orale",
+        "Le commerçant"
+      ],
+      "correct_answer": "Le griot, gardien de la tradition orale",
+      "explanation": "Le 'jeli' est le griot, chargé de transmettre et de raconter l'histoire et la généalogie."
+    },
+    {
+      "exercise_id": "e3",
+      "type": "texte_a_trous",
+      "sentence_with_blank": "___, i ni sɔgɔma.  (Maître, bonjour.)",
+      "correct_answer": "Karamɔgɔ",
+      "hint": "C'est le titre honorifique pour un maître/sage respecté."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Wikipedia — N'Ko script (Solomana Kanté, 1949, Kankan, Guinée)",
+      "url": "https://en.wikipedia.org/wiki/N%27Ko_script"
+    },
+    {
+      "label": "La Charte de Kurukan Fuga (texte historique/oral maninka, Kankan 1998)",
+      "url": "https://www.scribd.com/document/63694742/La-Charte-de-Kurukan-Fuga"
+    },
+    {
+      "label": "Malinkuia — Introduction à la langue malinké (grammaire complète, variété du Wulada, Haute-Guinée)",
+      "url": "https://fr.scribd.com/document/499114939/Malinkuia"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Les rôles sociaux (jeli, mansa, karamɔgɔ) et le contexte historique du N'Ko et de la Charte de Kurukan Fuga sont bien attestés par les sources encyclopédiques citées. Les formules précises d'ouverture/clôture de conte ('kɛlɛn... tun bɛ yen', 'n'a fɔ ten') sont des formules couramment rapportées pour les langues mandingues en général, mais non vérifiées mot-à-mot dans un corpus de contage maninka de Guinée spécifique — confiance moyenne."
 }

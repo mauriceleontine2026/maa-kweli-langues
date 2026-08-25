@@ -1,9 +1,11 @@
 // @ts-nocheck
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import { invokeAI } from "@/api/aiService";
-import { createVocabulary } from "@/api/languageService";
+import { restoreBackendSession } from "@/api/authService";
+import { createVocabulary, getLanguages } from "@/api/languageService";
 import { Scan, ArrowLeft, Upload, Loader2, Plus, CheckCircle, Languages } from "lucide-react";
+import { createWorker } from "tesseract.js";
 
 /**
  * @typedef {{ word: string; translation: string }} OCRWord
@@ -18,13 +20,35 @@ export default function ScanOCR() {
   const [adding, setAdding] = useState(false);
   const [added, setAdded] = useState(false);
   const [error, setError] = useState("");
+  const [targetLanguage, setTargetLanguage] = useState("français");
+  const [languages, setLanguages] = useState([]);
   const fileInputRef = useRef(/** @type {HTMLInputElement | null} */ (null));
+
+  useEffect(() => {
+    getLanguages()
+      .then((items) => {
+        const availableLanguages = Array.isArray(items) ? items : [];
+        setLanguages(availableLanguages);
+        if (availableLanguages.length > 0 && !availableLanguages.some((language) => language.name_fr?.toLowerCase() === "français")) {
+          setTargetLanguage(availableLanguages[0].name_fr || availableLanguages[0].name || "français");
+        }
+      })
+      .catch(() => setLanguages([]));
+  }, []);
 
   /** @param {Event} e */
   const handleFile = (e) => {
     const target = /** @type {HTMLInputElement} */ (e.target);
     const file = target.files?.[0];
     if (!file) return;
+    if (!file.type.startsWith("image/")) {
+      setError("Sélectionnez un fichier image.");
+      return;
+    }
+    if (file.size > 10 * 1024 * 1024) {
+      setError("L’image doit faire moins de 10 Mo.");
+      return;
+    }
     setImageFile(file);
     setImagePreview(URL.createObjectURL(file));
     setResult(null);
@@ -32,21 +56,63 @@ export default function ScanOCR() {
     setError("");
   };
 
+  const prepareImageForAI = (file) => new Promise((resolve, reject) => {
+    const reader = new FileReader();
+    reader.onload = () => {
+      if (typeof reader.result !== "string") {
+        reject(new Error("Impossible de préparer l’image pour l’analyse."));
+        return;
+      }
+      const image = new Image();
+      image.onload = () => {
+        const maxDimension = 1600;
+        const scale = Math.min(1, maxDimension / Math.max(image.width, image.height));
+        const canvas = document.createElement("canvas");
+        canvas.width = Math.max(1, Math.round(image.width * scale));
+        canvas.height = Math.max(1, Math.round(image.height * scale));
+        canvas.getContext("2d")?.drawImage(image, 0, 0, canvas.width, canvas.height);
+        const compressed = canvas.toDataURL("image/jpeg", 0.82);
+        if (compressed.length > 3_500_000) {
+          reject(new Error("Cette image reste trop volumineuse après compression. Choisissez une image plus légère."));
+          return;
+        }
+        resolve(compressed);
+      };
+      image.onerror = () => reject(new Error("Impossible de lire l’image pour l’analyse."));
+      image.src = reader.result;
+    };
+    reader.onerror = () => reject(new Error("Impossible de préparer l’image pour l’analyse."));
+    reader.readAsDataURL(file);
+  });
+
   const scanAndTranslate = async () => {
     if (!imageFile) return;
     setLoading(true);
     setError("");
     setResult(null);
+    let worker;
     try {
-      // Upload the image
-      const res = await invokeAI(
-        "Tu es un assistant OCR de Mǎa-kwɛ́lî. Analyse cette image. Extrais tout le texte visible. Identifie la langue du texte. Traduis le texte en français. Si le texte contient plusieurs mots, sépare-les. Retourne le résultat en JSON.",
+      worker = await createWorker("eng+fra");
+      const { data } = await worker.recognize(imageFile);
+      const extractedText = String(data?.text || "").trim();
+      const selectedTarget = languages.find((language) => language.name_fr === targetLanguage);
+      const targetLabel = selectedTarget ? `${selectedTarget.name_fr} (${selectedTarget.name})` : targetLanguage;
+      const imageData = await prepareImageForAI(imageFile);
+      const requestTranslation = () => invokeAI(
+        `Tu es un traducteur professionnel et un chercheur linguistique. Perplexity doit effectuer la recherche web pour cette demande. L'image jointe est la source principale : examine chaque mot directement sur l'image avant toute traduction. Le texte OCR ci-dessous est une aide non fiable, limitée à quelques alphabets, et peut être faux ou incomplet ; ignore-le dès qu'il contredit l'image. Identifie précisément la langue source, retranscris uniquement le texte réellement lisible, puis produis une traduction fidèle et naturelle vers ${targetLabel}.
+
+      Cette recherche est illimitée par le dictionnaire local : consulte le web, des dictionnaires spécialisés, des corpus, des sources institutionnelles et des références de locuteurs lorsque c'est pertinent. Recoupe plusieurs sources indépendantes avant de retenir une traduction, vérifie les variantes nationales et régionales, les expressions idiomatiques et le contexte culturel. N'invente absolument aucun mot, caractère, sens ou traduction. Si un passage n'est pas lisible ou vérifiable, ne le devine pas : conserve uniquement ce qui est certain, signale le doute dans notes et baisse confidence. Ne fais pas une traduction mot à mot si une formulation naturelle existe. Respecte les accents, les tons, les caractères et l'orthographe officielle de la langue cible. Si le texte contient plusieurs mots ou phrases, sépare-les dans la liste words. Retourne uniquement un JSON valide conforme au schéma.
+
+TEXTE EXTRAIT DE L'IMAGE:
+${extractedText || "[aucun texte OCR fiable : lis l'image directement]"}`,
         {
           type: "object",
           properties: {
-            original_text: { type: "string", description: "Texte extrait de l'image" },
-            translated_text: { type: "string", description: "Traduction française" },
+            original_text: { type: "string", description: "Transcription vérifiée du texte réellement visible dans l'image" },
+            translated_text: { type: "string", description: `Traduction fidèle en ${targetLabel}` },
             source_language: { type: "string", description: "Langue détectée" },
+            confidence: { type: "string", enum: ["élevée", "moyenne", "faible"], description: "Niveau de confiance fondé sur la lisibilité et la vérification" },
+            notes: { type: "string", description: "Doute de lecture ou de traduction, chaîne vide si aucun" },
             words: {
               type: "array",
               items: {
@@ -57,13 +123,28 @@ export default function ScanOCR() {
                 }
               }
             }
-          }
-        }
+          },
+          required: ["original_text", "translated_text", "source_language", "confidence", "notes", "words"],
+          additionalProperties: false
+        },
+        0.05,
+        "perplexity",
+        imageData
       );
+      let res;
+      try {
+        res = await requestTranslation();
+      } catch (error) {
+        if (!(error instanceof Error) || !error.message.includes("User not found")) throw error;
+        const restoredUser = await restoreBackendSession();
+        if (!restoredUser) throw error;
+        res = await requestTranslation();
+      }
       setResult(typeof res === "object" && res !== null ? res : { original_text: String(res ?? ""), translated_text: "", source_language: "", words: [] });
     } catch (err) {
-      setError("Erreur : " + err.message);
+      setError("Erreur pendant l’analyse : " + (err instanceof Error ? err.message : String(err)));
     } finally {
+      await worker?.terminate();
       setLoading(false);
     }
   };
@@ -110,36 +191,41 @@ export default function ScanOCR() {
   const resultAny = /** @type {any} */ (result);
 
   return (
-    <div className="p-6 lg:p-10 max-w-2xl mx-auto">
+    <div className="mx-auto w-full max-w-6xl p-4 sm:p-6 lg:p-10">
       <Link to="/studio" className="inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground mb-4">
         <ArrowLeft size={16} /> Studio
       </Link>
-      <div className="flex items-center gap-3 mb-6">
+      <header className="mb-6 rounded-3xl border border-border bg-card p-5 shadow-sm sm:p-7">
+      <div className="flex items-center gap-3">
         <div className="w-12 h-12 rounded-full bg-green-500/20 flex items-center justify-center">
           <Scan className="text-green-500" size={24} />
         </div>
         <div>
           <h1 className="font-heading text-2xl font-bold text-foreground">Scan &amp; Traduit</h1>
-          <p className="text-sm text-muted-foreground">OCR intelligent + traduction + file SRS</p>
+          <p className="text-sm text-muted-foreground">Importez une image, vérifiez le texte, puis révisez les mots utiles.</p>
         </div>
       </div>
+      <div className="mt-5 grid gap-2 text-xs text-muted-foreground sm:grid-cols-3"><div className="rounded-xl bg-green-500/10 px-3 py-2"><b className="text-foreground">1.</b> Importer une image</div><div className="rounded-xl bg-green-500/10 px-3 py-2"><b className="text-foreground">2.</b> Scanner et traduire</div><div className="rounded-xl bg-green-500/10 px-3 py-2"><b className="text-foreground">3.</b> Ajouter à la révision</div></div>
+      </header>
+
+      <div className="mb-5 rounded-2xl border border-border bg-card p-4 shadow-sm"><label className="mb-2 block text-sm font-semibold text-foreground">Langue de traduction</label><select value={targetLanguage} onChange={(event) => setTargetLanguage(event.target.value)} className="w-full rounded-xl border border-border bg-background px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-primary/40"><option value="français">Français</option>{languages.filter((language) => language.name_fr && language.name_fr.toLowerCase() !== "français").map((language) => <option key={language.code} value={language.name_fr}>{language.name_fr}{language.name && language.name !== language.name_fr ? ` (${language.name})` : ""}</option>)}</select></div>
 
       {/* Upload area */}
       {!imagePreview ? (
-        <button onClick={() => fileInputRef.current?.click()}
-          className="w-full border-2 border-dashed border-border rounded-2xl p-12 text-center hover:border-primary/40 hover:bg-primary/5 transition">
+        <button type="button" onClick={() => fileInputRef.current?.click()}
+          className="w-full rounded-2xl border-2 border-dashed border-border p-10 text-center transition hover:border-primary/40 hover:bg-primary/5 sm:p-14">
           <Upload className="mx-auto text-muted-foreground mb-3" size={40} />
           <p className="font-semibold text-foreground">Photographier ou importer une image</p>
           <p className="text-sm text-muted-foreground mt-1">Panneau, menu, livre... l'IA extrait et traduit le texte</p>
         </button>
       ) : (
-        <div className="bg-card border border-border rounded-2xl p-4 mb-5">
+        <div className="mb-5 rounded-2xl border border-border bg-card p-4 shadow-sm">
           <img src={imagePreview} alt="Aperçu" className="w-full rounded-xl max-h-64 object-contain mb-3" />
           <div className="flex gap-2">
-            <button onClick={reset} className="flex-1 py-2 rounded-xl bg-secondary text-secondary-foreground text-sm font-medium hover:bg-secondary/70 transition">
+            <button type="button" onClick={reset} className="flex-1 rounded-xl bg-secondary py-2 text-sm font-medium text-secondary-foreground transition hover:bg-secondary/70">
               Changer
             </button>
-            <button onClick={scanAndTranslate} disabled={loading}
+            <button type="button" onClick={scanAndTranslate} disabled={loading}
               className="flex-1 flex items-center justify-center gap-2 py-2 rounded-xl bg-primary text-primary-foreground text-sm font-medium hover:opacity-90 transition disabled:opacity-60">
               {loading ? <><Loader2 size={16} className="animate-spin" /> Analyse...</> : <><Scan size={16} /> Scanner &amp; Traduire</>}
             </button>
@@ -148,12 +234,17 @@ export default function ScanOCR() {
       )}
       <input ref={fileInputRef} type="file" accept="image/*" capture="environment" onChange={handleFile} className="hidden" />
 
-      {error && <p className="text-sm text-red-500 text-center mb-4">{error}</p>}
+      {error && <div role="alert" className="mb-4 rounded-xl border border-red-500/20 bg-red-500/10 px-4 py-3 text-center text-sm text-red-600">{error}</div>}
 
       {/* Results */}
       {result && (
-        <div className="space-y-4">
-          <div className="bg-card border border-border rounded-2xl p-5">
+        <div className="grid gap-4 lg:grid-cols-2">
+          {resultAny?.confidence && resultAny.confidence !== "élevée" && (
+            <div className="rounded-2xl border border-amber-500/30 bg-amber-500/10 p-4 text-sm text-amber-700 dark:text-amber-300 lg:col-span-2">
+              Niveau de confiance : {resultAny.confidence}. Vérifiez le texte original avant de l’ajouter à votre révision.
+            </div>
+          )}
+          <div className="rounded-2xl border border-border bg-card p-5 shadow-sm">
                 <div className="flex items-center gap-2 mb-3">
                   <Languages size={18} className="text-primary" />
                   <span className="text-xs font-semibold text-muted-foreground uppercase tracking-wider">Langue détectée</span>
@@ -161,18 +252,18 @@ export default function ScanOCR() {
                 <p className="text-foreground font-medium">{resultAny?.source_language || "Non identifiée"}</p>
               </div>
 
-          <div className="bg-card border border-border rounded-2xl p-5">
+          <div className="rounded-2xl border border-border bg-card p-5 shadow-sm">
             <h3 className="text-xs font-semibold text-muted-foreground uppercase tracking-wider mb-2">Texte original</h3>
             <p className="text-foreground whitespace-pre-wrap">{resultAny?.original_text}</p>
           </div>
 
-          <div className="bg-card border border-border rounded-2xl p-5">
-            <h3 className="text-xs font-semibold text-muted-foreground uppercase tracking-wider mb-2">Traduction française</h3>
+          <div className="rounded-2xl border border-border bg-card p-5 shadow-sm">
+            <h3 className="text-xs font-semibold text-muted-foreground uppercase tracking-wider mb-2">Traduction en {targetLanguage}</h3>
             <p className="text-foreground whitespace-pre-wrap">{resultAny?.translated_text}</p>
           </div>
 
           {(resultAny?.words && resultAny.words.length > 0) && (
-            <div className="bg-card border border-border rounded-2xl p-5">
+            <div className="rounded-2xl border border-border bg-card p-5 shadow-sm lg:col-span-2">
               <h3 className="text-xs font-semibold text-muted-foreground uppercase tracking-wider mb-3">Mots extraits ({resultAny?.words?.length || 0})</h3>
               <div className="space-y-2 mb-4">
                 {resultAny.words.map((/** @type {any} */ w, /** @type {number} */ i) => (

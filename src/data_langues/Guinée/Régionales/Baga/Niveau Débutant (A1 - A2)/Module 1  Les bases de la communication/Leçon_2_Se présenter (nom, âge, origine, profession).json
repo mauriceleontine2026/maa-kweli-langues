@@ -6,144 +6,207 @@
   "lesson_number": 2,
   "title": "Se présenter (nom, âge, origine, profession)",
   "learning_objectives": [
-    "Dire son nom et demander celui de son interlocuteur en Baga",
-    "Exprimer son origine géographique et sa localité",
-    "Déclarer son activité ou sa profession de base"
+    "Utiliser les pronoms personnels attestés (je, tu, il/elle) pour se présenter",
+    "Nommer sa profession en utilisant un métier documenté (pêcheur)",
+    "Reconnaître les emprunts et la variation dialectale de vocabulaire chez les Baga Sitemu"
   ],
   "phonetic_focus": {
-    "key_sounds": "La nasale '-ŋ' en fin de mot doit résonner dans le nez sans que la langue ne touche le palais. Le pronom possessif de première personne 'n' se lie directement au mot suivant.",
-    "common_pitfalls": "Ne prononcez pas 'wə' comme le français 'ou'. C'est une voyelle centrale moyenne, proche du son 'e' dans le mot français 'le'."
+    "key_sounds": "Le Baga Sitemu utilise un inventaire de voyelles incluant /a/, /ʌ~ə/ (\"a\" ouvert), /e/, /ɛ/, /i/, /ɪ/, /o/, /ɔ/, /u/ ainsi que des consonnes comme /gb/ (occlusive labio-vélaire voisée, absente du français), /ŋ/ (comme 'ng' dans 'parking'), /ʃ/ (\"sh\"), /tʃ/ (\"tsh\", comme 'tch'), /θ/ (\"th\" anglais sourd) et un /k/ décrit par le lexicographe F. Lamp comme \"glottal, quelque part entre g et k\". Ces sons n'ont pas d'équivalent exact en français standard.",
+    "common_pitfalls": "Les francophones ont tendance à prononcer /gb/ comme un simple 'g' ou 'b' séparé, à confondre /ɛ/ et /e/ (non distingués en français standard écrit), et à ne pas prononcer /ŋ/ en début de mot. Le /ʌ~ə/ ouvert (noté 'a' dans l'orthographe de Lamp) est souvent réduit à un français 'e muet', ce qui déforme le sens."
   },
   "vocabulary": [
     {
-      "word_id": "b005",
-      "term": "wər",
-      "phonetic_api": "/wər/",
-      "phonetic_simple": "WER",
-      "translation": "nom / s'appeler",
-      "example_sentence": "N wər Temba",
-      "example_phonetic": "/ⁿwər tɛmɓa/",
-      "example_translation": "Mon nom est Temba"
+      "word_id": "v1",
+      "term": "i / im / in / iŋ",
+      "phonetic_api": "/i, im, in, iŋ/",
+      "phonetic_simple": "i / im / in / igne",
+      "translation": "je, moi (pronom sujet, plusieurs variantes attestées)",
+      "example_sentence": "i faŋ.",
+      "example_phonetic": "/i faŋ/",
+      "example_translation": "Je veux / j'aime (litt.)."
     },
     {
-      "word_id": "b006",
-      "term": "bɔ̀ŋ",
-      "phonetic_api": "/ɓɔ̀ŋ/",
-      "phonetic_simple": "BON",
-      "translation": "venir de / origine",
-      "example_sentence": "Mə̀ bɔ̀ŋ Boke",
-      "example_phonetic": "/mə̀ ɓɔ̀ŋ ɓoke/",
-      "example_translation": "Je viens de Boké"
+      "word_id": "v2",
+      "term": "mə / mǝn",
+      "phonetic_api": "/mə, mən/",
+      "phonetic_simple": "meu / meun",
+      "translation": "tu (pronom sujet)",
+      "example_sentence": "mǝ yεfε ?",
+      "example_phonetic": "/mə jɛfɛ/",
+      "example_translation": "Es-tu levé ?"
     },
     {
-      "word_id": "b007",
-      "term": "kə̀ kálàŋ",
-      "phonetic_api": "/kə kálàŋ/",
-      "phonetic_simple": "KE KA-LANG",
-      "translation": "étudier / élève / enseignement",
-      "example_sentence": "Mə̀ mu kə̀ kálàŋ di",
-      "example_phonetic": "/mə̀ mu kə kálàŋ di/",
-      "example_translation": "Je suis étudiant"
+      "word_id": "v3",
+      "term": "manon",
+      "phonetic_api": "/manɔn/",
+      "phonetic_simple": "ma-NON",
+      "translation": "il / elle",
+      "example_sentence": "manon yɔ.",
+      "example_phonetic": "/manɔn jɔ/",
+      "example_translation": "Il/elle fait/a."
     },
     {
-      "word_id": "b008",
-      "term": "wàn",
-      "phonetic_api": "/wàn/",
-      "phonetic_simple": "WAN",
-      "translation": "qui / quel (interrogatif)",
-      "example_sentence": "I wər wàn ?",
-      "example_phonetic": "/i wər wàn/",
-      "example_translation": "Quel est ton nom ?"
+      "word_id": "v4",
+      "term": "anɔ",
+      "phonetic_api": "/anɔ/",
+      "phonetic_simple": "a-NO",
+      "translation": "qui ? (pronom interrogatif)",
+      "example_sentence": "anɔ yi di-ɛ ?",
+      "example_phonetic": "/anɔ ji di ɛ/",
+      "example_translation": "Qui est là ?"
+    },
+    {
+      "word_id": "v5",
+      "term": "wi-fɛkǝs / wi-sunpər / u-wεnt",
+      "phonetic_api": "/wifɛkəs, wisunpər, uwɛnt/",
+      "phonetic_simple": "wi-FÈ-keuss / wi-SOUN-peur / ou-WÈNT",
+      "translation": "pêcheur (plusieurs formes attestées selon village/dialecte)",
+      "example_sentence": "i yɔ wi-sunpər.",
+      "example_phonetic": "/i jɔ wisunpər/",
+      "example_translation": "Je suis pêcheur (litt. j'ai/je fais pêcheur)."
+    },
+    {
+      "word_id": "v6",
+      "term": "(kǝ)yɔ",
+      "phonetic_api": "/kəjɔ/",
+      "phonetic_simple": "keu-YO",
+      "translation": "faire ; avoir (verbe polyvalent)",
+      "example_sentence": "manon yɔ daka.",
+      "example_phonetic": "/manɔn jɔ daka/",
+      "example_translation": "Il/elle a des choses (litt.)."
+    },
+    {
+      "word_id": "v7",
+      "term": "tsəke",
+      "phonetic_api": "/tsəke/",
+      "phonetic_simple": "tseu-KÉ",
+      "translation": "comment ? combien ?",
+      "example_sentence": "tsəke ?",
+      "example_phonetic": "/tsəke/",
+      "example_translation": "Comment ?"
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "bp004",
-      "original": "I wər wàn kpu ?",
-      "phonetic_api": "/i wər wàn kpu/",
-      "phonetic_simple": "I WER WAN KPOO ?",
-      "translation": "Comment t'appelles-tu ?",
-      "context": "Demander l'identité de quelqu'un de manière amicale"
+      "phrase_id": "p1",
+      "original": "anɔ yi di-ɛ ?",
+      "phonetic_api": "/anɔ ji di ɛ/",
+      "phonetic_simple": "a-NO yi di-È",
+      "translation": "Qui est là ?",
+      "context": "Phrase interrogative attestée dans le dictionnaire de Lamp pour demander l'identité de quelqu'un."
     },
     {
-      "phrase_id": "bp005",
-      "original": "Mə̀ bɔ̀ŋ kə̀ siì Baga ka",
-      "phonetic_api": "/mə̀ ɓɔ̀ŋ kə siː ɓaga ka/",
-      "phonetic_simple": "ME BON KE SII BA-GA KA",
-      "translation": "Je suis originaire du pays Baga.",
-      "context": "Préciser ses origines culturelles ou géographiques"
+      "phrase_id": "p2",
+      "original": "i yɔ wi-sunpər",
+      "phonetic_api": "/i jɔ wisunpər/",
+      "phonetic_simple": "i yo wi-SOUN-peur",
+      "translation": "Je suis pêcheur",
+      "context": "Construction pour indiquer sa profession, à partir de \"i\" (je) + \"yɔ\" (avoir/faire/être) + nom de métier."
     },
     {
-      "phrase_id": "bp006",
-      "original": "N wər mu Sékou di",
-      "phonetic_api": "/ⁿwər mu sɛku di/",
-      "phonetic_simple": "N WER MOO SÉ-KOO DI",
-      "translation": "Mon nom est bel et bien Sékou.",
-      "context": "Affirmer son identité au sein d'une phrase d'état"
+      "phrase_id": "p3",
+      "original": "kɔ dǝ kə-bətsh",
+      "phonetic_api": "/kɔ də kəbətʃ/",
+      "phonetic_simple": "ko deu keu-BEUTCH",
+      "translation": "Je vais à mon travail",
+      "context": "Exemple donné par Lamp pour illustrer l'usage du mot \"travail\" (kə-bətsh)."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "i faŋ.",
+      "phonetic_api": "/i faŋ/",
+      "phonetic_simple": "i / im / in / igne",
+      "translation": "Je veux / j'aime (litt.).",
+      "context": "Réutilisation de la phrase d'exemple attestée pour le mot « i / im / in / iŋ »."
     }
   ],
   "grammar_points": [
     {
-      "concept": "Le système de focalisation identitaire : mu ... di",
-      "explanation": "En Baga, pour affirmer une identité, un métier ou une situation d'état permanente, on encadre l'élément central ou on le fait suivre par le morphème discontinu 'mu ... di' qui valide l'assertion.",
+      "concept": "Pronoms personnels sujets",
+      "explanation": "Le baga sitemu distingue plusieurs formes du pronom \"je\" selon le contexte phonétique (i/im/in/iŋ), une forme \"tu\" (mə/mǝn), une forme \"il/elle\" (manon) et une forme interrogative \"qui\" (anɔ/ane). Ces formes sont attestées indépendamment par Koelle (1854) et par les informateurs de Lamp/Kalissa.",
       "rules": [
-        "Structure nominale d'identité : Sujet + Nom/Profession + mu ... di.",
-        "Pour les verbes de provenance comme 'bɔ̀ŋ', cette focalisation n'est pas obligatoire."
+        "Le pronom sujet précède généralement le verbe (ex. \"i faŋ\" = je veux).",
+        "Plusieurs variantes phonétiques du même pronom existent selon le locuteur/village ; aucune n'est \"standard\"."
       ],
       "examples": [
         {
-          "structure": "N wər (Mon nom) + mu + Temba + di",
-          "phonetic_api": "/ⁿwər mu tɛmɓa di/",
-          "meaning": "Mon nom est précisément Temba"
+          "structure": "i + verbe",
+          "phonetic_api": "/i .../",
+          "meaning": "je + verbe"
+        },
+        {
+          "structure": "mə/mǝn + verbe",
+          "phonetic_api": "/mə.../",
+          "meaning": "tu + verbe"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Inconnu",
-      "text": "Ió n dɛ̀n ! I wər wàn ?",
-      "phonetic_api": "/ió ⁿdɛ̀n i wər wàn/",
-      "phonetic_simple": "IÓ N DÈN ! I WER WAN ?",
-      "translation": "Bonjour mon ami ! Quel est ton nom ?"
+      "speaker": "A",
+      "text": "anɔ yi di-ɛ ?",
+      "phonetic_api": "/anɔ ji di ɛ/",
+      "phonetic_simple": "a-NO yi di-È",
+      "translation": "Qui est là ?"
     },
     {
-      "speaker": "Temba",
-      "text": "Ió ! N wər mu Temba di. I sɔ̀nɔ̀, i bɔ̀ŋ mí ?",
-      "phonetic_api": "/ió ⁿwər mu tɛmɓa di i sɔ̀nɔ̀ i ɓɔ̀ŋ mí/",
-      "phonetic_simple": "IÓ ! N WER MOO TEM-BA DI. I SO-NO, I BON MII ?",
-      "translation": "Bonjour ! Mon nom est Temba. Et toi, d'où viens-tu ?"
+      "speaker": "B",
+      "text": "i yɔ wi-sunpər.",
+      "phonetic_api": "/i jɔ wisunpər/",
+      "phonetic_simple": "i yo wi-SOUN-peur",
+      "translation": "Je suis pêcheur."
     },
     {
-      "speaker": "Inconnu",
-      "text": "Mə̀ bɔ̀ŋ Conakry ka. Mə̀ mu kə̀ kálàŋ di ya.",
-      "phonetic_api": "/mə̀ ɓɔ̀ŋ Conakry ka mə̀ mu kə kálàŋ di ja/",
-      "phonetic_simple": "ME BON CO-NA-KRY KA. ME MOO KE KA-LANG DI YA.",
-      "translation": "Je viens de Conakry. Je suis étudiant actuellement."
+      "speaker": "A",
+      "text": "tsəke ?",
+      "phonetic_api": "/tsəke/",
+      "phonetic_simple": "tseu-KÉ",
+      "translation": "Comment (ça) ?"
+    },
+    {
+      "speaker": "B",
+      "text": "kɔ dǝ kə-bətsh.",
+      "phonetic_api": "/kɔ də kəbətʃ/",
+      "phonetic_simple": "ko deu keu-BEUTCH",
+      "translation": "Je vais à mon travail."
     }
   ],
   "cultural_notes": [
-    "Énoncer son nom de famille revêt une grande importance en milieu Baga. Il permet souvent d'identifier instantanément le clan d'appartenance et le village historique le long des côtes de la Basse-Guinée."
+    "La pêche (wi-sunpər / wi-fɛkǝs / u-wεnt) est une activité économique centrale chez les Baga Sitemu, aux côtés de la riziculture de mangrove, ce qui explique la richesse lexicale autour de ce métier (plusieurs synonymes selon les villages).",
+    "L'existence de plusieurs variantes pour un même mot (ex. \"pêcheur\") illustre l'absence de norme baga unifiée : Lamp note explicitement qu'« il n'y a pas de baga standard »."
   ],
   "exercises": [
     {
-      "exercise_id": "A1_M1_L2_ex1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Que signifie le verbe 'bɔ̀ŋ' ?",
+      "question": "Quel pronom signifie \"je\" en baga sitemu ?",
       "options": [
-        "Manger",
-        "Venir de / Origine",
-        "S'appeler"
+        "manon",
+        "i / im",
+        "mə"
       ],
-      "correct_answer": "Venir de / Origine",
-      "explanation": "'bɔ̀ŋ' indique la provenance géographique ou familiale."
+      "correct_answer": "i / im",
+      "explanation": "\"i/im/in/iŋ\" est attesté comme pronom \"je\" (Koelle 1854 ; Kalissa 1984)."
     },
     {
-      "exercise_id": "A1_M1_L2_ex2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "N [ ___ ] mu Temba di (Mon nom est Temba).",
-      "correct_answer": "wər",
-      "hint": "Le substantif pour 'nom'"
+      "sentence_with_blank": "___ yi di-ɛ ? (Qui est là ?)",
+      "correct_answer": "anɔ",
+      "hint": "Pronom interrogatif \"qui\"."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Lamp, F.J. — Baga Tshi-Tem Dictionary (Guinea, rév. 2021)",
+      "url": "https://catalogingafricana.wordpress.com/wp-content/uploads/2016/07/a.baga-vocabulary-final-notated-2021-cr.pdf"
+    },
+    {
+      "label": "ASJP — Wordlist Baga Sitemu (Weller Ganong 1998)",
+      "url": "https://asjp.clld.org/languages/BAGA_SITEMU"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Les pronoms et le vocabulaire de métier sont directement attestés dans le dictionnaire de Lamp avec citations de plusieurs informateurs indépendants (Koelle 1854, Kalissa 1984, Diassi 1974) ; en revanche, aucune phrase complète de présentation (\"je m'appelle...\", \"j'ai … ans\") n'a été trouvée dans les sources disponibles, donc le dialogue reste partiel et limité aux éléments vérifiés. Variété choisie : Baga Sitemu (autonyme Citɛm ; ISO 639-3 bsp ; Glottocode baga1272), décrite comme \"the only vibrant Baga linguistic variety\" par Wikipédia (d'après Wilson 2007), parlée dans des villages sur le fleuve Campaces/Rio Pongo, région de Boffa, Guinée (~40 000 locuteurs, 2018). C'est la variété baga au sens strict la mieux documentée : dictionnaire de terrain de 3000 mots (Lamp 2016/2021), listes lexicales ASJP indépendantes, fiches Glottolog/WALS, et mention dans la thèse de Weller Ganong (1998) sur la morphologie/syntaxe baga. Elle appartient à la branche Mel (Niger-Congo > Atlantic-Congo > Mel > Northern Mel, avec Temne, Landuma, Baga Koba), et non à la branche Nalu-Mbulungish-Baga Mboteni décrite par Sapir (1971) comme faisant partie de l'Atlantique Nord — ces deux ensembles sont linguistiquement distincts malgré l'identité ethnique Baga commune. Le Baga Mboteni (bgm/bcg), bien que parlé par des Baga ethniques, n'est PAS une langue Mel et reste très peu documenté (pas de dictionnaire de terrain publié comparable); le Baga Fore/Mbulungish (bsp est un code distinct de mbv) est également peu documenté en comparaison. Le Sitemu a donc été retenu comme le meilleur compromis entre authenticité \"Baga\" et disponibilité de données vérifiables."
 }

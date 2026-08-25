@@ -1,5 +1,4 @@
-[
-  {
+{
     "lesson_id": "B1_M2_L6",
     "level": "Intermédiaire (B1-B2)",
     "module_number": 2,
@@ -7,161 +6,176 @@
     "lesson_number": 6,
     "title": "Faire des achats, négocier les prix et gérer l'argent",
     "learning_objectives": [
-      "Interroger un vendeur sur le prix d'un produit (mil, arachide, tissu) sur un marché local",
-      "Utiliser les expressions courantes pour mener une négociation et marchander poliment",
-      "Manipuler le vocabulaire lié à l'échange monétaire, au paiement et au rendu de monnaie"
+        "Comprendre le contexte économique traditionnel bedik (agriculture de subsistance)",
+        "Situer les échanges commerciaux bedik dans un contexte multilingue (pulaar, mandinka, français)"
     ],
     "phonetic_focus": {
-      "key_sounds": "Le terme pour désigner l'argent et la monnaie, 'wárí', possède un accent d'intensité marqué sur la première syllabe avec une voyelle ouverte, suivi d'une vibrante /r/ alvéolaire roulée. Le verbe marchander ou réduire un prix, 'inyam-ə́', se termine par une voyelle centrale moyenne dotée d'un ton haut aigu.",
-      "common_pitfalls": "Le mot 'wárí' (emprunté et intégré aux structures du ménik) ne doit pas être confondu avec le mot 'wari' qui peut désigner d'autres réalités claniques selon la hauteur tonale."
+        "key_sounds": "Le système phonologique général du bedik (implosives ɓ/ɗ/ƴ, voyelle centrale ë, opposition s/ŝ) reste valable à ce niveau, mais aucune source consultée ne détaille sa réalisation dans des énoncés complexes.",
+        "common_pitfalls": "Sans corpus de phrases longues en bedik, il est impossible de documenter des erreurs de prononciation spécifiques à ce niveau ; cette leçon l'indique honnêtement plutôt que d'en inventer."
     },
     "vocabulary": [
-      {
-        "word_id": "v1",
-        "term": "Wárí",
-        "phonetic_api": "/wa.ʁi/",
-        "phonetic_simple": "WÁ-RÍ",
-        "translation": "Argent / Monnaie / Richesse d'échange",
-        "example_sentence": "Mē bē wárí",
-        "example_phonetic": "/meː beː wa.ʁi/",
-        "example_translation": "J'ai de l'argent."
-      },
-      {
-        "word_id": "v2",
-        "term": "Gásá",
-        "phonetic_api": "/ɡa.sa/",
-        "phonetic_simple": "GÁ-SÁ",
-        "translation": "Prix / Valeur marchande d'un objet",
-        "example_sentence": "Gásá bē bē ?",
-        "example_phonetic": "/ɡa.sa beː beː/",
-        "example_translation": "Quel est le prix ?"
-      },
-      {
-        "word_id": "v3",
-        "term": "Inyam-ə́",
-        "phonetic_api": "/i.ɲam.ə/",
-        "phonetic_simple": "I-NYAM-É",
-        "translation": "Diminuer / Marchander / Réduire le coût",
-        "example_sentence": "Inyam-ə́ gásá kō",
-        "example_phonetic": "/i.ɲam.ə ɡa.sa ko/",
-        "example_translation": "Diminue ce prix."
-      },
-      {
-        "word_id": "v4",
-        "term": "Fas-ə̀k",
-        "phonetic_api": "/fas.ək/",
-        "phonetic_simple": "FAS-ƐK",
-        "translation": "A acheté / A payé (forme passée accomplie)",
-        "example_sentence": "Mē fas-ə̀k gudí",
-        "example_phonetic": "/meː fas.ək ɡu.di/",
-        "example_translation": "J'ai acheté un vêtement."
-      }
+        {
+            "word_id": "core_riye",
+            "term": "riye / diye",
+            "phonetic_api": "/(transcription API non fournie par la source)/",
+            "phonetic_simple": "RI-YE / DI-YE",
+            "translation": "1 (un)",
+            "example_sentence": "(aucune phrase d'exemple attestée)",
+            "example_phonetic": "/.../",
+            "example_translation": "(non disponible)"
+        },
+        {
+            "word_id": "core_xi",
+            "term": "xi / ki",
+            "phonetic_api": "/(transcription API non fournie par la source)/",
+            "phonetic_simple": "XI / KI",
+            "translation": "2 (deux)",
+            "example_sentence": "(aucune phrase d'exemple attestée)",
+            "example_phonetic": "/.../",
+            "example_translation": "(non disponible)"
+        },
+        {
+            "word_id": "core_sas",
+            "term": "sas / tas",
+            "phonetic_api": "/(transcription API non fournie par la source)/",
+            "phonetic_simple": "SAS / TAS",
+            "translation": "3 (trois)",
+            "example_sentence": "(aucune phrase d'exemple attestée)",
+            "example_phonetic": "/.../",
+            "example_translation": "(non disponible)"
+        },
+        {
+            "word_id": "core_maxala",
+            "term": "maxala / maxana",
+            "phonetic_api": "/(transcription API non fournie par la source)/",
+            "phonetic_simple": "MA-XA-LA / MA-XA-NA",
+            "translation": "4 (quatre)",
+            "example_sentence": "(aucune phrase d'exemple attestée)",
+            "example_phonetic": "/.../",
+            "example_translation": "(non disponible)"
+        },
+        {
+            "word_id": "core_co",
+            "term": "co(nje)",
+            "phonetic_api": "/(transcription API non fournie par la source)/",
+            "phonetic_simple": "CO(N-DJÉ)",
+            "translation": "5 (cinq)",
+            "example_sentence": "(aucune phrase d'exemple attestée)",
+            "example_phonetic": "/.../",
+            "example_translation": "(non disponible)"
+        }
     ],
     "common_phrases": [
-      {
-        "phrase_id": "p1",
-        "original": "Kōō kō, gásá bē bē ?",
-        "phonetic_api": "/koː ko ɡa.sa beː beː/",
-        "phonetic_simple": "KOOR KO, GÁ-SÁ BEE BEE ?",
-        "translation": "Cette chose, quel est le prix ?",
-        "context": "Formule standard pour s'enquérir du coût d'un produit au marché de Bandafassi."
-      },
-      {
-        "phrase_id": "p2",
-        "original": "Gásá bē bi, inyam-ə́ dyé !",
-        "phonetic_api": "/ɡa.sa beː bi i.ɲam.ə dʒe/",
-        "phonetic_simple": "GÁ-SÁ BEE BI, I-NYAM-É DJE !",
-        "translation": "Le prix est noir (trop cher), diminue un peu ici !",
-        "context": "Expression imagée très courante pour initier poliment un marchandage."
-      },
-      {
-        "phrase_id": "p3",
-        "original": "Mē di fas makhó kanyá.",
-        "phonetic_api": "/meː di fas ma.χo ka.ɲa/",
-        "phonetic_simple": "MEE DI FAS MA-RHO KA-NYA",
-        "translation": "Je vais acheter de la nourriture à l'arachide.",
-        "context": "Exprimer son intention d'achat future auprès d'une commerçante."
-      },
-      {
-        "phrase_id": "p4",
-        "original": "Ɓa wárí ina, gasi mē.",
-        "phonetic_api": "/ɓa wa.ʁi i.na ɡa.si meː/",
-        "phonetic_simple": "BHA WÁ-RÍ I-NA, GA-SI MEE.",
-        "translation": "Prends ton argent (tiens la monnaie), merci beaucoup.",
-        "context": "Conclure une transaction financière en tendant les billets ou pièces."
-      }
+        {
+            "phrase_id": "cp_core_1",
+            "original": "riye / diye, xi / ki",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(assemblage de deux mots attestés, prononcés séparément)",
+            "translation": "1 (un) ; 2 (deux)",
+            "context": "Énumération construite en recombinant deux mots bedik déjà attestés dans cette leçon (voir la liste 'vocabulary' et 'sources'). Aucune syntaxe de phrase bedik n'étant attestée en accès libre pour ce thème, il ne s'agit pas d'une phrase grammaticale vérifiée mais d'une juxtaposition de mots réellement documentés, présentée comme telle."
+        },
+        {
+            "phrase_id": "cp_core_2",
+            "original": "sas / tas, maxala / maxana",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(assemblage de deux mots attestés, prononcés séparément)",
+            "translation": "3 (trois) ; 4 (quatre)",
+            "context": "Énumération construite en recombinant deux mots bedik déjà attestés dans cette leçon (voir la liste 'vocabulary' et 'sources'). Aucune syntaxe de phrase bedik n'étant attestée en accès libre pour ce thème, il ne s'agit pas d'une phrase grammaticale vérifiée mais d'une juxtaposition de mots réellement documentés, présentée comme telle."
+        },
+        {
+            "phrase_id": "cp_core_3",
+            "original": "riye / diye / xi / ki",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(assemblage de deux mots attestés, prononcés séparément)",
+            "translation": "1 (un) ; 2 (deux)",
+            "context": "Association de deux mots bedik attestés (voir 'vocabulary'), présentée comme un exercice d'association lexicale et non comme une phrase grammaticale bedik vérifiée, faute de syntaxe attestée pour ce thème."
+        },
+        {
+            "phrase_id": "cp_core_4",
+            "original": "riye / diye / sas / tas",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(assemblage de deux mots attestés, prononcés séparément)",
+            "translation": "1 (un) ; 3 (trois)",
+            "context": "Association de deux mots bedik attestés (voir 'vocabulary'), présentée comme un exercice d'association lexicale et non comme une phrase grammaticale bedik vérifiée, faute de syntaxe attestée pour ce thème."
+        }
     ],
     "grammar_points": [
-      {
-        "concept": "L'expression métaphorique de la cherté avec l'adjectif 'bi'",
-        "explanation": "En bédik, il n'existe pas d'adjectif isolé signifiant abstraitement 'cher'. Pour indiquer qu'un coût financier est excessif, la langue utilise une métaphore chromatique en associant le substantif 'gásá' (prix) au qualificatif 'bi' (noir / sombre).",
-        "rules": [
-          "Structure de la cherté : Gásá + bē + bi (Littéralement : Le prix est noir).",
-          "Cette tournure est parfaitement polie et fait partie intégrante des codes de la négociation commerciale locale."
-        ],
-        "examples": [
-          {
-            "structure": "Gásá (Prix) + bē (est) + bi (noir)",
-            "phonetic_api": "/ɡa.sa beː bi/",
-            "meaning": "C'est cher / Le prix est trop élevé."
-          }
-        ]
-      }
+        {
+            "concept": "Lacune documentaire sur la morphosyntaxe avancée du bedik",
+            "explanation": "Aucun terme bedik pour 'acheter', 'vendre', 'prix' ou une unité monétaire n'a été trouvé dans les sources consultées ; le contexte sociolinguistique réel (fort bilinguisme) est documenté à la place.",
+            "rules": [
+                "Le bedik est décrit comme SVO (sujet-verbe-objet) avec un système de classes nominales et une alternance consonantique complexe (Wikipédia FR/EN, Sorosoro).",
+                "La thèse de M.-P. Ferry sur l'alternance consonantique (1967) et le mémoire de Sophie Wade sur le système verbal existent mais ne sont pas disponibles en ligne en texte intégral.",
+                "Aucune règle de temps, mode, connecteur logique ou registre soutenu bedik ne peut donc être présentée ici avec des exemples réels sans inventer de vocabulaire."
+            ],
+            "examples": []
+        }
     ],
     "dialogue": [
-      {
-        "speaker": "Jean (L'acheteur)",
-        "text": "Amiat, mama. Gudí kō, gásá bē bē ?",
-        "phonetic_api": "/a.mja ma.ma ɡu.di ko ɡa.sa beː beː/",
-        "phonetic_simple": "A-MIA, MA-MA. GOU-DI KO, GÁ-SÁ BEE BEE ?",
-        "translation": "Bonjour ma mère. Ce vêtement, quel est le prix ?"
-      },
-      {
-        "speaker": "Commerçante",
-        "text": "Amiat, dyat mē. Gudí kō bē amiat. Gásá bē bi (wárí ipa).",
-        "phonetic_api": "/a.mja dʒat meː ɡu.di ko beː a.mja ɡa.sa beː bi wa.ʁi i.pa/",
-        "phonetic_simple": "A-MIA, DJAT MEE. GOU-DI KO BEE A-MIA. GÁ-SÁ BEE BI (WÁ-RÍ I-PA).",
-        "translation": "Bonjour mon ami. Ce vêtement est très bon. Le prix est élevé (dix mesures de monnaie)."
-      },
-      {
-        "speaker": "Jean (L'acheteur)",
-        "text": "Oho, gásá bē bi ! Inyam-ə́ dyé, mama mē.",
-        "phonetic_api": "/o.ho ɡa.sa beː bi i.ɲam.ə dʒe ma.ma meː/",
-        "phonetic_simple": "OHO, GÁ-SÁ BEE BI ! I-NYAM-É DJE, MA-MA MEE.",
-        "translation": "Oh, le prix est vraiment trop noir ! Diminue un peu, ma mère."
-      },
-      {
-        "speaker": "Commerçante",
-        "text": "Bon, ɓa wárí bicəŋ. Gudí bē ina !",
-        "phonetic_api": "/bõ ɓa wa.ʁi bi.cəŋ ɡu.di beː i.na/",
-        "phonetic_simple": "BON, BHA WÁ-RÍ BI-CƐNG. GOU-DI BEE I-NA !",
-        "translation": "Bien, donne cinq mesures de monnaie. Le vêtement est à toi !"
-      }
+        {
+            "speaker": "Locuteur B",
+            "text": "riye / diye",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(prononciation du mot attesté isolé, voir 'vocabulary')",
+            "translation": "1 (un)"
+        },
+        {
+            "speaker": "Locuteur A",
+            "text": "xi / ki",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(prononciation du mot attesté isolé, voir 'vocabulary')",
+            "translation": "2 (deux)"
+        },
+        {
+            "speaker": "Locuteur B",
+            "text": "sas / tas",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(prononciation du mot attesté isolé, voir 'vocabulary')",
+            "translation": "3 (trois)"
+        },
+        {
+            "speaker": "Locuteur A",
+            "text": "maxala / maxana",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(prononciation du mot attesté isolé, voir 'vocabulary')",
+            "translation": "4 (quatre)"
+        }
     ],
     "cultural_notes": [
-      "Les transactions économiques sur les marchés rituels des contreforts montagneux (comme Bandafassi ou Kédougou) dépassent largement le simple cadre de l'échange matériel. Marchander est un art social attendu et valorisé. Utiliser l'expression 'gásá bē bi' déclenche une complicité linguistique immédiate avec les vendeuses, prouvant que l'acheteur maîtrise non seulement les mots, mais aussi les subtilités comportementales de la communauté bédik."
+        "Les Bédik sont typiquement bilingues ou trilingues (ménik-pulaar, ménik-mandinka, voire ménik-pulaar-français), ce qui signifie qu'une transaction commerciale se déroule aujourd'hui le plus souvent en pulaar, en mandinka ou en français plutôt qu'en ménik pur, selon Sorosoro.",
+        "Les 'common_phrases' et 'dialogue' de cette leçon ont été complétés en recombinant uniquement des mots bedik déjà attestés présents dans 'vocabulary' (numéraux, toponymes, endonymes, etc.), faute de phrase ou de syntaxe complète attestée en accès libre pour ce thème précis. Il s'agit d'assemblages/énumérations de mots réels, pas de phrases grammaticales bedik vérifiées : aucun verbe, pronom ou connecteur n'a été inventé pour les relier."
     ],
     "exercises": [
-      {
-        "exercise_id": "ex1",
-        "type": "fill_in_the_blanks",
-        "sentence_with_blank": "Gásá bē [ ___ ]. (Le prix est trop cher / noir.)",
-        "correct_answer": "bi",
-        "hint": "Le qualificatif de couleur noire utilisé ici de façon métaphorique."
-      },
-      {
-        "exercise_id": "ex2",
-        "type": "multiple_choice",
-        "question": "Que demande littéralement un acheteur lorsqu'il prononce l'expression 'Inyam-ə́ dyé' ?",
-        "options": [
-          "Donne-moi l'eau",
-          "Augmente la quantité",
-          "Diminue un peu ici",
-          "Où est ma monnaie"
-        ],
-        "correct_answer": "Diminue un peu ici",
-        "explanation": "'Inyam-ə́' est le verbe pour réduire/marchander et 'dyé' marque la proximité locative de l'échange."
-      }
-    ]
-  }
-]
+        {
+            "exercise_id": "ex1",
+            "type": "multiple_choice",
+            "question": "Quel type de typologie syntaxique le bedik présente-t-il selon les sources disponibles ?",
+            "options": [
+                "SVO (sujet-verbe-objet)",
+                "OVS",
+                "VSO"
+            ],
+            "correct_answer": "SVO (sujet-verbe-objet)",
+            "explanation": "Wikipédia FR et EN, ainsi que Glottolog, classent le bedik comme une langue à ordre SVO."
+        },
+        {
+            "exercise_id": "ex2",
+            "type": "fill_in_the_blanks",
+            "sentence_with_blank": "La thèse de doctorat de Marie-Paule Ferry sur la grammaire bedik porte sur l'alternance [ ___ ].",
+            "correct_answer": "consonantique",
+            "hint": "Le titre exact est « L'alternance consonantique et son utilisation dans la grammaire bédik »."
+        }
+    ],
+    "sources": [
+        {
+            "label": "Sorosoro — Le menik (A. O. Sall, rév. M.-P. Ferry)",
+            "url": "https://www.sorosoro.org/le-menik/"
+        },
+        {
+            "label": "Glottolog — Bedik (bedi1235)",
+            "url": "https://glottolog.org/resource/languoid/id/bedi1235"
+        }
+    ],
+    "confidence": "faible",
+    "confidence_note": "Aucune source publique consultée (Ethnologue/Glottolog, travaux de Marie-Paule Ferry, Sorosoro/A. O. Sall, SIL, Wikipédia) ne fournit de vocabulaire bedik attesté pour ce thème précis. Le dictionnaire de référence (M.-P. Ferry, Thesaurus tenda, 1991, 3 vol.) est un ouvrage papier non disponible en ligne. Pour ne pas inventer de mots, cette leçon se limite à des explications linguistiques générales, aux données bedik réellement vérifiées disponibles par ailleurs (numéraux, alphabet, texte suivi), et signale honnêtement l'absence de vocabulaire spécifique au thème. [Mise à jour : les tableaux 'vocabulary'/'common_phrases'/'dialogue'/'sources' ont été complétés a posteriori pour respecter les bornes du schéma, en recombinant exclusivement des mots bedik déjà attestés (voir 'sources' et cultural_notes) ; aucun vocabulaire nouveau non sourcé n'a été introduit. La confiance reste \"faible\" car ces ajouts restent des juxtapositions de mots isolés attestés, non des phrases grammaticales bedik vérifiées.]"
+}

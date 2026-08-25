@@ -4,186 +4,237 @@
   "module_number": 1,
   "module_title": "Les bases de la communication",
   "lesson_number": 1,
-  "title": "Les salutations et les formules de politesse",
+  "title": "Les salutations et les formules de politesse (bonjour, merci, au revoir)",
   "learning_objectives": [
-    "Savoir saluer selon le moment de la journée (matin, après-midi, soir)",
-    "Maîtriser les réponses rituelles obligatoires de l'interaction sociale",
-    "Exprimer la politesse, la gratitude et prendre congé formellement"
+    "Utiliser les interjections d'accord et de désaccord attestées en oniyan (bassari)",
+    "Employer le verbe « saluer » (açëma) dans une phrase simple",
+    "Comprendre pourquoi les formules figées de politesse sont peu documentées pour cette langue très rare"
   ],
   "phonetic_focus": {
-    "key_sounds": "La langue Oniyan (Bassari) utilise un système à trois tons : haut (é), bas (è) et modulé (ě). La consonne 'ɓ' est une injective bilabiale produite en aspirant l'air vers l'intérieur. La lettre 'ḍ' représente une occlusive rétroflexe où la langue se retourne contre le palais.",
-    "common_pitfalls": "Ne pas prononcer la consonne nasale finale 'ŋ' comme un 'g' occidental. Le mot se termine par un son nasal vélaire, similaire au 'ng' du mot anglais 'sing'."
+    "key_sounds": "Les consonnes implosives ɓ, ɗ, ƴ (proches de b, d, y mais produites avec un souffle rentrant) et la fricative x (comme la jota espagnole) sont caractéristiques de l'oniyan.",
+    "common_pitfalls": "Les francophones tendent à prononcer ɓ/ɗ/ƴ comme de simples b/d/y explosifs, sans le souffle rentrant caractéristique ; x est souvent remplacé par un simple 'h'."
   },
   "vocabulary": [
     {
       "word_id": "v1",
-      "term": "amniwăḍ",
-      "phonetic_api": "/amniwăɖ/",
-      "phonetic_simple": "AM-NI-WAD",
-      "translation": "l'action de saluer / l'acte de se rencontrer",
-      "example_sentence": "Amniwăḍ ɔniyanɔŋ oŋ dya bɛ̀ɛ̀.",
-      "example_phonetic": "/amniwăɖ ɔnəjandɔŋ oŋ dja bɛ̀ː/",
-      "example_translation": "La salutation en langue Bassari apporte la paix."
+      "term": "Iyo",
+      "phonetic_api": "/ijo/",
+      "phonetic_simple": "I-YO",
+      "translation": "Oui",
+      "example_sentence": "-- Iyo.",
+      "example_phonetic": "/ijo/",
+      "example_translation": "-- Oui."
     },
     {
       "word_id": "v2",
-      "term": "nvlɛ",
-      "phonetic_api": "/nvlɛ/",
-      "phonetic_simple": "NVLE",
-      "translation": "le retour / message de bienvenue",
-      "example_sentence": "Nvlɛ kəwandi fə́ siki.",
-      "example_phonetic": "/nvlɛ kəwandi fə́ siki/",
-      "example_translation": "Bienvenue pour ton retour au village."
+      "term": "O-oye",
+      "phonetic_api": "/o.oje/",
+      "phonetic_simple": "O-O-YÉ",
+      "translation": "Non",
+      "example_sentence": "-- O-oye.",
+      "example_phonetic": "/o.oje/",
+      "example_translation": "-- Non."
     },
     {
       "word_id": "v3",
-      "term": "bəliyan",
-      "phonetic_api": "/ɓəljan/",
-      "phonetic_simple": "BHE-LI-YAN",
-      "translation": "le peuple Bassari / la communauté",
-      "example_sentence": "Aɓəliyan aŋ oŋ uñwaŋ.",
-      "example_phonetic": "/aɓəljan aŋ oŋ uɲwaŋ/",
-      "example_translation": "L'homme Bassari est hospitalier."
+      "term": "Awa",
+      "phonetic_api": "/awa/",
+      "phonetic_simple": "A-OUA",
+      "translation": "D'accord, bien",
+      "example_sentence": "Awa.",
+      "example_phonetic": "/awa/",
+      "example_translation": "D'accord."
     },
     {
       "word_id": "v4",
-      "term": "ɔnə́yanɔŋ",
-      "phonetic_api": "/ɔnə́janɔŋ/",
-      "phonetic_simple": "O-NE-YA-NONG",
-      "translation": "la langue Bassari (Oniyan)",
-      "example_sentence": "Məwɛ̌ ɛni ɔnə́yanɔŋ fə́ siki.",
-      "example_phonetic": "/məwɛ̌ ɛni ɔnə́janɔŋ fə́ siki/",
-      "example_translation": "Je parle un peu la langue Oniyan du village."
+      "term": "açëma",
+      "phonetic_api": "/aʃəma/",
+      "phonetic_simple": "A-TCHË-MA",
+      "translation": "saluer (infinitif)",
+      "example_sentence": "Cëmalo!",
+      "example_phonetic": "/ʃəmalo/",
+      "example_translation": "Salue-le !"
+    },
+    {
+      "word_id": "v5",
+      "term": "Ƴowu ro!",
+      "phonetic_api": "/ʄowu ro/",
+      "phonetic_simple": "YOW-OU RO",
+      "translation": "Viens ici !",
+      "example_sentence": "Ƴowu ro!",
+      "example_phonetic": "/ʄowu ro/",
+      "example_translation": "Viens ici !"
+    },
+    {
+      "word_id": "v6",
+      "term": "wëno",
+      "phonetic_api": "/wəno/",
+      "phonetic_simple": "OUË-NO",
+      "translation": "moi",
+      "example_sentence": "Wëno nde?",
+      "example_phonetic": "/wəno nde/",
+      "example_translation": "Moi ?"
+    },
+    {
+      "word_id": "v7",
+      "term": "Kaxanu",
+      "phonetic_api": "/kaxanu/",
+      "phonetic_simple": "KA-HA-NOU",
+      "translation": "Dieu",
+      "example_sentence": "Kaxanu ex.",
+      "example_phonetic": "/kaxanu ex/",
+      "example_translation": "C'est Dieu."
     }
   ],
   "common_phrases": [
     {
       "phrase_id": "p1",
-      "original": "Anee kəwandi?",
-      "phonetic_api": "/aneː kəwandi/",
-      "phonetic_simple": "A-NEE KE-WAN-DI",
-      "translation": "Comment s'est passé ton réveil ? (Bonjour)",
-      "context": "Utilisé exclusivement le matin, dès le saut du lit jusqu'à midi."
+      "original": "Ƴowu ro!",
+      "phonetic_api": "/ʄowu ro/",
+      "phonetic_simple": "YOW-OU RO",
+      "translation": "Viens ici !",
+      "context": "Pour appeler quelqu'un à s'approcher."
     },
     {
       "phrase_id": "p2",
-      "original": "Kəwandi bɛ̀ɛ̀.",
-      "phonetic_api": "/kəwandi bɛ̀ː/",
-      "phonetic_simple": "KE-WAN-DI BEE",
-      "translation": "Le réveil s'est bien passé. (Réponse au matin)",
-      "context": "Réponse obligatoire et positive pour entamer la journée."
+      "original": "No? Wëno nde?",
+      "phonetic_api": "/no wəno nde/",
+      "phonetic_simple": "NO ? OUË-NO NDÉ ?",
+      "translation": "Qui ? Moi ?",
+      "context": "Réponse surprise à un appel."
     },
     {
       "phrase_id": "p3",
-      "original": "Məwɔ̰̌ dya?",
-      "phonetic_api": "/məwɔ̰̌ dja/",
-      "phonetic_simple": "ME-WONG DYA",
-      "translation": "Comment se passe ta journée ? (Bonsoir)",
-      "context": "Utilisé l'après-midi et le soir à partir de la mi-journée."
+      "original": "Iyo.",
+      "phonetic_api": "/ijo/",
+      "phonetic_simple": "I-YO",
+      "translation": "Oui.",
+      "context": "Réponse affirmative à une question."
     },
     {
       "phrase_id": "p4",
-      "original": "Dya bɛ̀ɛ̀.",
-      "phonetic_api": "/dja bɛ̀ː/",
-      "phonetic_simple": "DYA BEE",
-      "translation": "La journée se passe bien. (Réponse au bonsoir)",
-      "context": "Réponse standard positive pour signifier que tout va bien."
+      "original": "O-oye.",
+      "phonetic_api": "/o.oje/",
+      "phonetic_simple": "O-O-YÉ",
+      "translation": "Non.",
+      "context": "Réponse négative à une question."
     },
     {
       "phrase_id": "p5",
-      "original": "Nyarancaa gwa bɛ̀ɛ̀.",
-      "phonetic_api": "/ɲarant͡ʃaː ɡwa bɛ̀ː/",
-      "phonetic_simple": "NYA-RAN-TCHAA GWA BEE",
-      "translation": "Merci beaucoup pour ton geste.",
-      "context": "Cadre formel ou informel pour exprimer une profonde gratitude."
+      "original": "Awa.",
+      "phonetic_api": "/awa/",
+      "phonetic_simple": "A-OUA",
+      "translation": "D'accord.",
+      "context": "Pour accepter ou clore un échange."
     },
     {
       "phrase_id": "p6",
-      "original": "Anee aŋal oŋ?",
-      "phonetic_api": "/aneː aŋal oŋ/",
-      "phonetic_simple": "A-NEE A-NGAL ONG",
-      "translation": "Comment vont les personnes de ta maisonnée ?",
-      "context": "Étape indispensable de la salutation pour s'enquérir de la famille."
-    },
-    {
-      "phrase_id": "p7",
-      "original": "Aŋal oŋ bɛ̀ɛ̀, nyarancaa.",
-      "phonetic_api": "/aŋal oŋ bɛ̀ː ɲarant͡ʃaː/",
-      "phonetic_simple": "A-NGAL ONG BEE, NYA-RAN-TCHAA",
-      "translation": "Les gens de la maison vont bien, merci.",
-      "context": "Réponse polie validant la bonne santé collective."
-    },
-    {
-      "phrase_id": "p8",
-      "original": "Məwunǐ kəwandi.",
-      "phonetic_api": "/məwunǐ kəwandi/",
-      "phonetic_simple": "ME-WOU-NI KE-WAN-DI",
-      "translation": "Au revoir et que ton réveil de demain soit bon.",
-      "context": "Formule de congé utilisée le soir au moment de se séparer."
+      "original": "Cëmalo!",
+      "phonetic_api": "/ʃəmalo/",
+      "phonetic_simple": "TCHË-MA-LO",
+      "translation": "Salue-le !",
+      "context": "Ordre donné à un enfant, par exemple, de saluer un adulte."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'interrogatif de manière 'Anee' et les classes nominales",
-      "explanation": "En Oniyan, les questions portant sur l'état ou la manière commencent par la particule invariative 'Anee'. Le mot qui suit s'accorde selon sa classe nominale définie par son préfixe initial.",
+      "concept": "Le verbe « saluer » et l'impératif à l'oral",
+      "explanation": "Le verbe açëma « saluer » suit le schéma général des verbes oniyan : l'infinitif commence par a- suivi du radical au niveau I (consonne non-occlusive). À l'impératif, le radical passe au niveau II et reçoit un suffixe pronominal objet (-e « moi », -o « lui », -ɓi « eux »).",
       "rules": [
-        "La particule 'Anee' se place systématiquement en tête de la structure interrogative.",
-        "Les noms comme 'kəwandi' (le réveil) ou 'dya' (la journée) conservent leur marqueur de classe qui dicte l'harmonie rythmique de la phrase."
+        "Infinitif = a- + radical (niveau I) : açëma « saluer ».",
+        "Impératif + objet 3sg = radical niveau II + -o : cëmalo « salue-le ! ».",
+        "Impératif + objet 3pl = radical niveau II + -ɓi : cëmayinëɓi « saluez-les ! » (2p)."
       ],
       "examples": [
         {
-          "structure": "Anee + [Nom de classe temporelle]",
-          "phonetic_api": "/aneː dja/",
-          "meaning": "Comment s'est déroulée la période temporelle désignée ?"
+          "structure": "cëmale",
+          "phonetic_api": "/ʃəmale/",
+          "meaning": "salue-moi ! (2sg)"
+        },
+        {
+          "structure": "cëmalëɓi",
+          "phonetic_api": "/ʃəmaləɓi/",
+          "meaning": "salue-les ! (2sg)"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Samba",
-      "text": "Anee kəwandi?",
-      "phonetic_api": "/aneː kəwandi/",
-      "phonetic_simple": "A-NEE KE-WAN-DI",
-      "translation": "Bonjour, comment s'est passé ton réveil ?"
+      "speaker": "Tama",
+      "text": "Ƴowu ro!",
+      "phonetic_api": "/ʄowu ro/",
+      "phonetic_simple": "YOW-OU RO",
+      "translation": "Viens ici !"
     },
     {
-      "speaker": "Bouba",
-      "text": "Kəwandi bɛ̀ɛ̀. Anee aŋal oŋ?",
-      "phonetic_api": "/kəwandi bɛ̀ː aneː aŋal oŋ/",
-      "phonetic_simple": "KE-WAN-DI BEE. A-NEE A-NGAL ONG",
-      "translation": "Le réveil s'est bien passé. Comment vont les personnes de ta maison ?"
+      "speaker": "Pena",
+      "text": "No? Wëno nde?",
+      "phonetic_api": "/no wəno nde/",
+      "phonetic_simple": "NO ? OUË-NO NDÉ ?",
+      "translation": "Qui ? Moi ?"
     },
     {
-      "speaker": "Samba",
-      "text": "Aŋal oŋ bɛ̀ɛ̀. Nyarancaa gwa bɛ̀ɛ̀.",
-      "phonetic_api": "/aŋal oŋ bɛ̀ː ɲarant͡ʃaː ɡwa bɛ̀ː/",
-      "phonetic_simple": "A-NGAL ONG BEE. NYA-RAN-TCHAA GWA BEE",
-      "translation": "Tout le monde va bien à la maison. Merci infiniment."
+      "speaker": "Tama",
+      "text": "Iyo.",
+      "phonetic_api": "/ijo/",
+      "phonetic_simple": "I-YO",
+      "translation": "Oui."
+    },
+    {
+      "speaker": "Pena",
+      "text": "Awa.",
+      "phonetic_api": "/awa/",
+      "phonetic_simple": "A-OUA",
+      "translation": "D'accord."
+    },
+    {
+      "speaker": "Tama",
+      "text": "Cëmalo!",
+      "phonetic_api": "/ʃəmalo/",
+      "phonetic_simple": "TCHË-MA-LO",
+      "translation": "Salue-le !"
     }
   ],
   "cultural_notes": [
-    "Dans la tradition des Bəliyan, couper court à une salutation ou omettre de demander des nouvelles de la maison ('aŋal oŋ') est perçu comme une agression ou un signe de graves tensions. La salutation est un pacte social renouvelé chaque matin."
+    "Le bassari (oniyan) est parlé par le peuple Ɓëliyan, à cheval entre le sud-est du Sénégal (région de Kédougou, autour d'Ethiolo) et le nord de la Guinée (région de Koundara) ; le « Pays bassari » est inscrit au patrimoine mondial de l'UNESCO depuis 2012 avec les paysages culturels bassari, peul et bédik.",
+    "Les sources grammaticales disponibles (grammaire SIL de 2004, description INALCO) ne recensent pas de formule figée unique de « bonjour »/« merci »/« au revoir » comme en français : la politesse orale s'exprime surtout par le verbe açëma « saluer » et par des interjections comme Iyo/Awa. Ce manque de documentation reflète le statut de langue très peu décrite et classée « vulnérable » par l'UNESCO."
   ],
   "exercises": [
     {
       "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quelle formule prononcez-vous pour saluer un aîné l'après-midi ?",
+      "question": "Comment dit-on « oui » en oniyan (bassari) ?",
       "options": [
-        "Anee kəwandi?",
-        "Məwɔ̰̌ dya?",
-        "Məwunǐ kəwandi."
+        "O-oye",
+        "Iyo",
+        "Awa"
       ],
-      "correct_answer": "Məwɔ̰̌ dya?",
-      "explanation": "'Məwɔ̰̌ dya?' cible spécifiquement le déroulement de la journée passée et s'emploie dès l'après-midi."
+      "correct_answer": "Iyo",
+      "explanation": "Iyo est la réponse affirmative attestée dans la grammaire SIL de l'oniyan."
     },
     {
       "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Kəwandi [ ___ ].",
-      "correct_answer": "bɛ̀ɛ̀",
-      "hint": "Adverbe de manière signifiant que l'action s'est déroulée de façon pacifique et positive."
+      "sentence_with_blank": "___ ro! (« Viens ici ! »)",
+      "correct_answer": "Ƴowu",
+      "hint": "C'est l'impératif du verbe « venir »."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "SIL — A Grammar of Oniyan (Winters & Winters, 2004)",
+      "url": "https://www.sil.org/system/files/reapdata/18/63/15/1863153183176772870767650622005357320/BSC_Oniyan_grammar_En_2004.pdf"
+    },
+    {
+      "label": "SIL — Bassari Phonology / Orthographe Oniyan (2003)",
+      "url": "https://www.sil.org/system/files/reapdata/13/27/28/132728046882691513259738660939179774460/BSC_Orthographe_Oniyan_Fr_2003.pdf"
+    },
+    {
+      "label": "UNESCO — Bassari Country: Bassari, Fula and Bedik Cultural Landscapes",
+      "url": "https://whc.unesco.org/en/list/1407/"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Le verbe « saluer » et les interjections oui/non/d'accord sont solidement attestés dans la grammaire SIL. En revanche, aucune formule figée de « bonjour », « merci » ou « au revoir » n'a été trouvée dans les sources disponibles (la grammaire le signale elle-même explicitement) : la leçon reconstruit donc la politesse autour du vocabulaire réellement attesté plutôt que d'inventer des formules."
 }

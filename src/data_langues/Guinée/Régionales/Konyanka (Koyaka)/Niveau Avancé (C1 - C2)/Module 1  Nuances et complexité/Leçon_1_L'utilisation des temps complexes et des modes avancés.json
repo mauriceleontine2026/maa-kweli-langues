@@ -6,165 +6,196 @@
   "lesson_number": 1,
   "title": "L'utilisation des temps complexes et des modes avancés",
   "learning_objectives": [
-    "Maîtriser le plus-que-parfait et l'antériorité dans le récit en konyanka",
-    "Utiliser le mode subjonctif-optatif pour exprimer le souhait, le regret ou la bénédiction solennelle",
-    "Manipuler les aspects habituels du passé combinés à des subordonnées temporelles"
+    "Distinguer les différentes zones du système TAM (temps-aspect-mode) du continuum maninka",
+    "Utiliser le futur potentiel/hypothétique et l'accompli résultatif",
+    "Combiner marqueurs verbaux pour exprimer une action antérieure à une autre action passée"
   ],
   "phonetic_focus": {
-    "key_sounds": "La particule d'antériorité et de recul temporel 'tun' /tũ/ exige une voyelle nasale fermée brève. L'enchaînement de la marque d'inaccompli passé 'bɛ tun' requiert une transition rapide sans pause glottale. Le morphème de bénédiction 'ni' /ni/ porte un ton haut distinctif.",
-    "common_pitfalls": "Veillez à ne pas confondre la particule 'tun' /tũ/ (passé/antériorité) avec le pronom 'ton' ou l'interrogatif 'juman'. Une mauvaise nasalisation de 'tun' peut altérer la clarté du marqueur temporel."
+    "key_sounds": "L'auxiliaire de résultatif '-nin' se distingue de l'accompli simple '-ra/-la/-na' par son sens duratif (état résultant), et se prononce en général avec un ton légèrement descendant en finale.",
+    "common_pitfalls": "Confondre l'accompli événementiel ('a tara' = il est parti, événement) avec le résultatif ('a taatɔ' / 'a bɛ taa-nin' = il est parti, état résultant : il est absent maintenant)."
   },
   "vocabulary": [
     {
       "word_id": "v1",
-      "term": "Tun",
-      "phonetic_api": "/tũ/",
-      "phonetic_simple": "TOUN",
-      "translation": "Particule du passé éloigné / Déjà / Plus-que-parfait",
-      "example_sentence": "N'tun taara lɔgɔfɛ la sani i ka na.",
-      "example_phonetic": "/ntũ taː.ra lɔ.ɡɔ.fɛ la sa.ni i ka na/",
-      "example_translation": "J'étais déjà allé au marché avant que tu ne viennes."
+      "term": "bɛnna ka",
+      "phonetic_api": "[bɛnna ka]",
+      "phonetic_simple": "bèn-na-ka",
+      "translation": "marqueur de potentiel/hypothétique passé (aurait pu)",
+      "example_sentence": "A bɛnna ka na, kono a ma na.",
+      "example_phonetic": "[a bɛnna ka na kono a ma na]",
+      "example_translation": "Il aurait pu venir, mais il n'est pas venu."
     },
     {
       "word_id": "v2",
-      "term": "Bariji",
-      "phonetic_api": "/ba.ri.d͡ʒi/",
-      "phonetic_simple": "BA-RI-DJI",
-      "translation": "Bénir / Grâce / Bénédiction",
-      "example_sentence": "Alla ni i bariji la.",
-      "example_phonetic": "/al.la ni i ba.ri.d͡ʒi la/",
-      "example_translation": "Que Dieu te bénisse (formule optative)."
+      "term": "-nin (résultatif)",
+      "phonetic_api": "[-nin]",
+      "phonetic_simple": "-nin",
+      "translation": "suffixe marquant un état résultant d'une action antérieure",
+      "example_sentence": "A taa-nin don.",
+      "example_phonetic": "[a taːnin dɔn]",
+      "example_translation": "Il est déjà parti (et reste absent)."
     },
     {
       "word_id": "v3",
-      "term": "Sani",
-      "phonetic_api": "/sa.ni/",
-      "phonetic_simple": "SA-NI",
-      "translation": "Avant que / Avant de",
-      "example_sentence": "I ka bara kɛ sani tile ka bɔ.",
-      "example_phonetic": "/i ka ba.ra kɛ sa.ni ti.le ka bɔ/",
-      "example_translation": "Fais le travail avant que le soleil ne se lève."
+      "term": "tun bɛ",
+      "phonetic_api": "[tun bɛ]",
+      "phonetic_simple": "toun-bè",
+      "translation": "marqueur d'imparfait/passé habituel",
+      "example_sentence": "A tun bɛ taa lekoli lon bɛɛ.",
+      "example_phonetic": "[a tun bɛ taː lekoli lɔn bɛːɛ]",
+      "example_translation": "Il/elle allait à l'école tous les jours (autrefois)."
     },
     {
       "word_id": "v4",
-      "term": "Ninkuru",
-      "phonetic_api": "/nĩ.ku.ru/",
-      "phonetic_simple": "NIN-KOU-ROU",
-      "translation": "Regretter / Se repentir",
-      "example_sentence": "N'ye n'ninkuru a la kɔfɛ.",
-      "example_phonetic": "/ɲɛ nnĩ.ku.ru a la kɔ.fɛ/",
-      "example_translation": "Je l'ai regretté par la suite."
+      "term": "sanni ... ka",
+      "phonetic_api": "[sanni ka]",
+      "phonetic_simple": "san-ni-ka",
+      "translation": "avant que (antériorité d'une action par rapport à une autre)",
+      "example_sentence": "Sanni a ka na, n tara.",
+      "example_phonetic": "[sanni a ka na n tara]",
+      "example_translation": "Avant qu'il/elle ne vienne, j'étais parti."
+    },
+    {
+      "word_id": "v5",
+      "term": "kɔfɛ (ban)",
+      "phonetic_api": "[kɔfɛ]",
+      "phonetic_simple": "ko-fè",
+      "translation": "après que (postériorité, action déjà accomplie)",
+      "example_sentence": "A ka baara ban kɔfɛ, a tara.",
+      "example_phonetic": "[a ka baːra ban kɔfɛ a tara]",
+      "example_translation": "Après avoir terminé son travail, il/elle est parti(e)."
     }
   ],
   "common_phrases": [
     {
       "phrase_id": "p1",
-      "original": "N'tun bɛ bara la kunu tile mɛn na.",
-      "phonetic_api": "/ntũ bɛ ba.ra la ku.nu ti.le mɛn na/",
-      "phonetic_simple": "N-TOUN BÈ BA-RA LA KOU-NOU TI-LÉ MÈN NA",
-      "translation": "J'étais en train de travailler hier à ce moment-là.",
-      "context": "Expression de l'imparfait continu ou d'une action en cours dans le passé."
+      "original": "A bɛnna ka wo kɛ, kono a ma a kɛ",
+      "phonetic_api": "[a bɛnna ka wo kɛ kono a ma a kɛ]",
+      "phonetic_simple": "a-bèn-na-ka-wo-kè",
+      "translation": "Il aurait pu faire cela, mais il ne l'a pas fait",
+      "context": "Regret ou constat sur une possibilité non réalisée"
     },
     {
       "phrase_id": "p2",
-      "original": "Alla ni an tana bɔ a la.",
-      "phonetic_api": "/al.la ni ã ta.na bɔ a la/",
-      "phonetic_simple": "AL-LA NI AN TA-NA BƆ A LA",
-      "translation": "Que Dieu nous en préserve / Éloigne le mal de nous.",
-      "context": "Formule solennelle employée dans les discussions sérieuses ou les prières."
+      "original": "N tun bɛ miiri o la",
+      "phonetic_api": "[n tun bɛ miːri o la]",
+      "phonetic_simple": "n-toun-bè-mi-i-ri-o-la",
+      "translation": "J'y pensais (autrefois, habituellement)",
+      "context": "Décrire une pensée ou habitude passée révolue"
     },
     {
       "phrase_id": "p3",
-      "original": "U tun ma a mɛn sani n'ka fɔ.",
-      "phonetic_api": "/u tũ ma a mɛn sa.ni ŋka fɔ/",
-      "phonetic_simple": "OU TOUN MA A MÈN SA-NI N-KA FƆ",
-      "translation": "Ils ne l'avaient pas entendu avant que je ne le dise.",
-      "context": "Structure du plus-que-parfait négatif combiné avec une antériorité."
+      "original": "Sanni i ka a fɔ, i ka kan ka miiri",
+      "phonetic_api": "[sanni i ka a fɔ i ka kan ka miːri]",
+      "phonetic_simple": "san-ni-i-ka-a-fo",
+      "translation": "Avant de le dire, tu dois réfléchir",
+      "context": "Conseil formulé avec structure d'antériorité"
     },
     {
       "phrase_id": "p4",
-      "original": "N'tun bɛ fɛ ka i ladiya sisan.",
-      "phonetic_api": "/ntũ bɛ fɛ ka i la.di.ja si.sã/",
-      "phonetic_simple": "N-TOUN BÈ FÈ KA I LA-DI-YA SI-SAN",
-      "translation": "Aurais-je voulu te conseiller à l'instant (conditionnel de politesse).",
-      "context": "Façon très soutenue et polie d'introduire une suggestion importante."
+      "original": "A ka baara ban-nin don",
+      "phonetic_api": "[a ka baːra bannin dɔn]",
+      "phonetic_simple": "a-ka-ba-a-ra-ban-nin-don",
+      "translation": "Son travail est déjà terminé (état résultant)",
+      "context": "Illustrer le résultatif '-nin' sur un exemple concret"
     }
   ],
   "grammar_points": [
     {
-      "concept": "Le système de l'antériorité et du conditionnel passé avec 'Tun'",
-      "explanation": "Pour exprimer le plus-que-parfait, l'imparfait ou le conditionnel en konyanka, on utilise la particule 'tun'. Elle s'insère directement après le pronom sujet et modifie la marque aspectuelle qui la suit.",
+      "concept": "Le système TAM étendu du continuum maninka",
+      "explanation": "Au-delà des temps simples (présent, accompli, futur), le maninka de Guinée — dont relève le Konyanka — dispose de marqueurs combinés pour exprimer l'imparfait habituel ('tun bɛ'), le potentiel non réalisé ('bɛnna ka') et le résultatif ('-nin'), analysés en détail dans les travaux de Vydrin sur la zone du futur (Mandenkan 70, 2023).",
       "rules": [
-        "Sujet + tun + bɛ + Verbe = Imparfait continu / Conditionnel présent (ex: N'tun bɛ taa = J'allais / J'irais).",
-        "Sujet + tun + ye / + Verbe-ra = Plus-que-parfait (ex: N'tun taara = J'étais allé).",
-        "Le mode optatif (souhait/bénédiction) se construit de préférence avec la particule 'ni' placée après le sujet divin ou honorifique."
+        "tun bɛ + verbe = action habituelle passée, révolue",
+        "bɛnna ka + verbe = potentiel non réalisé (aurait pu)",
+        "verbe + nin = état résultant d'une action accomplie"
       ],
       "examples": [
         {
-          "structure": "A tun nana",
-          "phonetic_api": "/a tũ na.na/",
-          "meaning": "Il était venu"
+          "structure": "a tun bɛ taa",
+          "phonetic_api": "[a tun bɛ taː]",
+          "meaning": "il/elle allait (habituellement, autrefois)"
         },
         {
-          "structure": "Alla ni i la kɛnɛma diya",
-          "phonetic_api": "/al.la ni i la kɛ.nɛ.ma di.ja/",
-          "meaning": "Que Dieu t'accorde une bonne santé (rende ta santé agréable)"
+          "structure": "a bɛnna ka na",
+          "phonetic_api": "[a bɛnna ka na]",
+          "meaning": "il/elle aurait pu venir"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Lamine (Ancien)",
-      "text": "Sékou, sani i ka bara nin damina san tɛmɛnen, i tun ma ladiya ɲini n'fɛ?",
-      "phonetic_api": "/se.ku sa.ni i ka ba.ra nĩ da.mi.na sã tɛ.mɛ.nẽ i tũ ma la.di.ja ɲi.ni nfɛ/",
-      "phonetic_simple": "SÉ-KOU, SA-NI I KA BA-RA NIN DA-MI-NA SAN TÈ-MÈ-NEN, I TOUN MA LA-DI-YA NYI-NI N-FÈ ?",
-      "translation": "Sékou, avant de commencer ce travail l'année dernière, ne m'avais-tu pas demandé conseil ?"
+      "speaker": "Professeur",
+      "text": "I tun bɛ miiri baara in na wa, sanni i ka a daminɛ?",
+      "phonetic_api": "[i tun bɛ miːri baːra in na wa sanni i ka a daminɛ]",
+      "phonetic_simple": "i-toun-bè-mi-i-ri-ba-a-ra-in-na",
+      "translation": "Y réfléchissais-tu, avant de commencer ce travail ?"
     },
     {
-      "speaker": "Sékou",
-      "text": "Hali n'mɔgɔbaxun, n'tun nana i so, kɔni n'tun ma i sɔrɔ yen.",
-      "phonetic_api": "/ha.li mmɔ.ɡɔ.ba.xun ntũ na.na i so kɔ.ni ntũ ma i sɔ.rɔ jẽ/",
-      "phonetic_simple": "HA-LI N-MƆ-GƆ-BA-ROUN, N-TOUN NA-NA I SO, KƆ-NI N-TOUN MA I SƆ-RƆ YEN",
-      "translation": "Oui mon aîné, j'étais venu à ta maison, mais je ne t'avais pas trouvé là-bas."
+      "speaker": "Étudiant",
+      "text": "Awa, n tun bɛ miiri a la kosɛbɛ. N bɛnna ka a kɛ ka fisa, kono waati ma sɔn.",
+      "phonetic_api": "[awa n tun bɛ miːri a la kosɛbɛ n bɛnna ka a kɛ ka fisa kono waːti ma sɔn]",
+      "phonetic_simple": "a-wa, n-toun-bè-mi-i-ri-a-la",
+      "translation": "Oui, j'y réfléchissais beaucoup. J'aurais pu mieux le faire, mais le temps n'a pas permis."
     },
     {
-      "speaker": "Lamine (Ancien)",
-      "text": "Alla ni a kɛ wajibiya di i ye sisan, i la bara ni nyan.",
-      "phonetic_api": "/al.la ni a kɛ wa.d͡ʒi.bi.ja di i d͡ʒɛ si.sã i la ba.ra ni ɲã/",
-      "phonetic_simple": "AL-LA NI A KÈ WA-DJI-BI-YA DI I YÈ SI-SAN, I LA BA-RA NI NYAN",
-      "translation": "Que Dieu fasse de cela une réussite (obligation de succès) pour toi à présent, et que ton travail prospère."
+      "speaker": "Professeur",
+      "text": "A ka baara ban-nin don wa?",
+      "phonetic_api": "[a ka baːra bannin dɔn wa]",
+      "phonetic_simple": "a-ka-ba-a-ra-ban-nin-don-wa",
+      "translation": "Son travail est-il déjà terminé ?"
     },
     {
-      "speaker": "Sékou",
-      "text": "Aami, Alla ni i ni la hakili sɔn.",
-      "phonetic_api": "/aː.mi al.la ni i ni la ha.ki.li sɔ̃/",
-      "phonetic_simple": "AA-MI, AL-LA NI I NI LA HA-KI-LI SƆN",
-      "translation": "Amen, que Dieu te récompense pour cette sagesse (ce conseil)."
+      "speaker": "Étudiant",
+      "text": "Awa, a ka baara ban-nin don kabini kunun.",
+      "phonetic_api": "[awa a ka baːra bannin dɔn kabini kunun]",
+      "phonetic_simple": "a-wa, a-ka-ba-a-ra-ban-nin-don",
+      "translation": "Oui, son travail est déjà terminé depuis hier."
     }
   ],
   "cultural_notes": [
-    "Dans la rhétorique avancée konyanka, l'usage des temps complexes comme le plus-que-parfait permet de situer avec exactitude la légitimité d'une action passée vis-à-vis de la communauté. Les formules optatives introduites par 'ni' constituent l'armature des bénédictions ancestrales qui ponctuent impérativement chaque transition importante de la vie sociale."
+    "Le système temps-aspect-mode (TAM) du maninka de Guinée a été analysé en détail par Valentin Vydrin et son équipe dans la revue académique Mandenkan (LLACAN/CNRS), notamment pour la « zone du futur » qui inclut les formes potentielles et hypothétiques.",
+    "Aucune étude spécifique au Konyanka n'a été trouvée concernant ce système TAM avancé : les structures présentées sont celles, bien documentées, du continuum maninka-est dont le Konyanka fait partie."
   ],
   "exercises": [
     {
-      "exercise_id": "ex1",
-      "type": "multiple_choice",
-      "question": "Quelle particule ajoute-t-on pour basculer une action dans l'antériorité du passé (Plus-que-parfait / Imparfait) ?",
+      "exercise_id": "e1",
+      "type": "choix_multiple",
+      "question": "Quel marqueur exprime un potentiel non réalisé ('aurait pu') ?",
       "options": [
-        "Tun",
-        "Wajibiya",
-        "Sani"
+        "tun bɛ",
+        "bɛnna ka",
+        "-nin",
+        "bɛna"
       ],
-      "correct_answer": "Tun",
-      "explanation": "'Tun' est le marqueur de recul temporel par excellence dans le système verbal mandingue."
+      "correct_answer": "bɛnna ka",
+      "explanation": "'bɛnna ka' exprime une possibilité passée qui ne s'est pas réalisée."
     },
     {
-      "exercise_id": "ex2",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Alla [ ___ ] i bariji la (Que Dieu te bénisse).",
-      "correct_answer": "ni",
-      "hint": "La marque du mode optatif et du souhait solennel."
+      "exercise_id": "e2",
+      "type": "traduction",
+      "question": "Traduisez : 'Il allait à l'école tous les jours (autrefois).'",
+      "correct_answer": "A tun bɛ taa lekoli lon bɛɛ.",
+      "explanation": "'tun bɛ' marque l'habitude passée révolue."
+    },
+    {
+      "exercise_id": "e3",
+      "type": "texte_a_trous",
+      "sentence_with_blank": "A ___ ka na, kono a ma na. (Il aurait pu venir, mais il n'est pas venu.)",
+      "correct_answer": "bɛnna",
+      "explanation": "'bɛnna ka' exprime le potentiel non réalisé."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Malinkuia — Introduction à la langue malinké (grammaire complète, variété du Wulada, Haute-Guinée)",
+      "url": "https://fr.scribd.com/document/499114939/Malinkuia"
+    },
+    {
+      "label": "Vydrin — Le TAM en maninka de Guinée : la zone du futur, Mandenkan 70 (2023)",
+      "url": "https://journals.openedition.org/mandenkan/pdf/3253"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Aucun lexique ou grammaire publiés et dédiés spécifiquement au Konyanka (Koyaka/Konianka, ISO mku) n'a été localisé. Les structures grammaticales avancées présentées ici s'appuient sur les travaux académiques de Vydrin et son équipe (Mandenkan/LLACAN) sur le maninka de Guinée, dont le Konyanka constitue une variété dialectale au sein du même sous-groupe Manding-Est. Le vocabulaire de base provient de la grammaire pratique Malinkuia (variété du Wulada, Haute-Guinée). Les spécificités confirmées du Konyanka sont indiquées dans les notes culturelles plutôt que dans le lexique."
 }

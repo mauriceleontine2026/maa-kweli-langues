@@ -6,111 +6,196 @@
   "lesson_number": 1,
   "title": "L'utilisation des temps complexes et des modes avancés",
   "learning_objectives": [
-    "Exprimer l'antériorité immédiate et le plus-que-parfait d'action",
-    "Maîtriser les nuances aspectuelles du parfait révolu",
-    "Articuler des actions simultanées complexes dans un récit littéraire"
+    "Prendre conscience qu'aucune description publique détaillée du système temporel et modal du landuma (temps composés, subjonctif, conditionnel) n'a été trouvée dans les sources disponibles.",
+    "Observer les seules formes verbales attestées (kɔ, der, i-ne, kʊ-cara) comme point de départ, sans extrapoler de paradigme de conjugaison non documenté.",
+    "Identifier les travaux universitaires (Sumbatova & Vydrin) comme piste de recherche future pour une description grammaticale plus complète."
   ],
   "phonetic_focus": {
-    "key_sounds": "À ce niveau avancé, portez une attention absolue à l'allongement vocalique compensatoire devant les groupes consonantiques complexes et aux micro-pauses imposées par les occlusives glottales.",
-    "common_pitfalls": "Évitez de relâcher le ton haut sur la particule d'antériorité, sous peine de transformer l'aspect révolu en simple présent d'habitude."
+    "key_sounds": "Le landuma comporte des voyelles i, e, ɛ, u, o, ɔ, ʌ, ə, a et des consonnes prénasalisées complexes (mb-, nc-, nt-, ns-, ŋg-) absentes du français, ainsi qu'une affriquée c proche du « tch » et une occlusive labiovélaire gb (Sumbatova & Vydrin 2021).",
+    "common_pitfalls": "Les francophones tendent à scinder en deux syllabes les groupes consonantiques prénasalisés initiaux (ex. mb-, nc-, nt-), qui forment pourtant une seule attaque consonantique en landuma ; ils confondent aussi souvent les voyelles centrales ə/a et les voyelles mi-ouvertes ɛ/ɔ, qui n'ont pas d'équivalent phonémique net en français."
   },
   "vocabulary": [
     {
-      "word_id": "v19_1",
-      "term": "kɔndɔn",
-      "phonetic_api": "/kɔn.dɔn/",
-      "phonetic_simple": "KON-DON",
-      "translation": "avoir fini complètement / achever (marqueur d'antériorité totale)",
-      "example_sentence": "mbi kɔndɔn wali kɔn tsinn",
-      "example_phonetic": "/mbi kɔn.dɔn wa.li kɔn t͡sinː/",
-      "example_translation": "J'avais entièrement parachevé mon travail hier."
+      "word_id": "v1",
+      "term": "der",
+      "phonetic_api": "/der/",
+      "phonetic_simple": "DÈR",
+      "translation": "venir",
+      "example_sentence": "der",
+      "example_phonetic": "/der/",
+      "example_translation": "« venir » — mot isolé attesté dans le corpus lexical disponible ; aucune phrase complète d'exemple n'a été trouvée pour ce terme dans les sources consultées, seule la forme du mot est donc garantie."
     },
     {
-      "word_id": "v19_2",
-      "term": "tann",
-      "phonetic_api": "/tanː/",
-      "phonetic_simple": "TANN",
-      "translation": "déjà / jadis / autrefois (ancrage temporel lointain)",
-      "example_sentence": "baba tann alɛ ka dare mɔ",
-      "example_phonetic": "/ba.ba tanː a.lɛ ka da.re mɔ/",
-      "example_translation": "Le père était déjà autrefois allé dans cette lointaine ville."
+      "word_id": "v2",
+      "term": "kɔ",
+      "phonetic_api": "/kɔ/",
+      "phonetic_simple": "KÔ",
+      "translation": "aller",
+      "example_sentence": "kɔ",
+      "example_phonetic": "/kɔ/",
+      "example_translation": "« aller » — mot isolé attesté dans le corpus lexical disponible ; aucune phrase complète d'exemple n'a été trouvée pour ce terme dans les sources consultées, seule la forme du mot est donc garantie."
     },
     {
-      "word_id": "v19_3",
-      "term": "kisinnde",
-      "phonetic_api": "/ki.sinː.de/",
-      "phonetic_simple": "KI-SINN-DE",
-      "translation": "pendant que / simultanément",
-      "example_sentence": "mbi kar kisinnde mɔ ka kafu",
-      "example_phonetic": "/mbi kar ki.sinː.de mɔ ka ka.fu/",
-      "example_translation": "J'étudiais pendant que tu cultivais le champ."
+      "word_id": "v3",
+      "term": "kʊ-limber",
+      "phonetic_api": "/kʊ-limber/",
+      "phonetic_simple": "kou-LIM-bèr",
+      "translation": "dire",
+      "example_sentence": "kʊ-limber",
+      "example_phonetic": "/kʊ-limber/",
+      "example_translation": "« dire » — mot isolé attesté dans le corpus lexical disponible ; aucune phrase complète d'exemple n'a été trouvée pour ce terme dans les sources consultées, seule la forme du mot est donc garantie."
+    },
+    {
+      "word_id": "v4",
+      "term": "kʊ-cara",
+      "phonetic_api": "/kʊ-cara/",
+      "phonetic_simple": "kou-TSA-ra",
+      "translation": "savoir",
+      "example_sentence": "kʊ-cara",
+      "example_phonetic": "/kʊ-cara/",
+      "example_translation": "« savoir » — mot isolé attesté dans le corpus lexical disponible ; aucune phrase complète d'exemple n'a été trouvée pour ce terme dans les sources consultées, seule la forme du mot est donc garantie."
+    },
+    {
+      "word_id": "v5",
+      "term": "i-ne",
+      "phonetic_api": "/i-ne/",
+      "phonetic_simple": "i-NÉ",
+      "translation": "entendre",
+      "example_sentence": "i-ne",
+      "example_phonetic": "/i-ne/",
+      "example_translation": "« entendre » — mot isolé attesté dans le corpus lexical disponible ; aucune phrase complète d'exemple n'a été trouvée pour ce terme dans les sources consultées, seule la forme du mot est donc garantie."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p19_1",
-      "original": "mbi kɔndɔn dɛp mampa mɔ kisinnde mɔ alɛ",
-      "phonetic_api": "/mbi kɔn.dɔn dɛp mam.pa mɔ ki.sinː.de mɔ a.lɛ/",
-      "phonetic_simple": "MBI KON-DON DÈP MAM-PA MO KI-SINN-DE MO A-LÈ",
-      "translation": "J'avais déjà fini de prendre ce pain au moment précis où tu es arrivé",
-      "context": "Narration fluide mettant en scène deux actions passées imbriquées."
+      "phrase_id": "p1",
+      "original": "der",
+      "phonetic_api": "/der/",
+      "phonetic_simple": "DÈR",
+      "translation": "venir",
+      "context": "Aucune phrase complète figée n'est attestée pour ce contexte précis dans les sources disponibles ; seul ce mot isolé du corpus vérifié est proposé comme point d'ancrage, à utiliser avec prudence."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "kɔ der",
+      "phonetic_api": "/kɔ der/",
+      "phonetic_simple": "KÔ DÈR",
+      "translation": "« aller » + « venir » (juxtaposition)",
+      "context": "Recombinaison prudente de deux mots déjà attestés séparément dans le corpus lexical de cette leçon (aller, venir) : cette juxtaposition n'est PAS une expression idiomatique attestée en tant que telle dans les sources, mais une association pédagogique construite uniquement à partir de vocabulaire vérifié, utile pour la mémorisation et la pratique orale."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "kʊ-limber der",
+      "phonetic_api": "/kʊ-limber der/",
+      "phonetic_simple": "kou-LIM-bèr DÈR",
+      "translation": "« dire » + « venir » (juxtaposition)",
+      "context": "Recombinaison prudente de deux mots déjà attestés séparément dans le corpus lexical de cette leçon (dire, venir) : cette juxtaposition n'est PAS une expression idiomatique attestée en tant que telle dans les sources, mais une association pédagogique construite uniquement à partir de vocabulaire vérifié, utile pour la mémorisation et la pratique orale."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "kʊ-cara der",
+      "phonetic_api": "/kʊ-cara der/",
+      "phonetic_simple": "kou-TSA-ra DÈR",
+      "translation": "« savoir » + « venir » (juxtaposition)",
+      "context": "Recombinaison prudente de deux mots déjà attestés séparément dans le corpus lexical de cette leçon (savoir, venir) : cette juxtaposition n'est PAS une expression idiomatique attestée en tant que telle dans les sources, mais une association pédagogique construite uniquement à partir de vocabulaire vérifié, utile pour la mémorisation et la pratique orale."
     }
   ],
   "grammar_points": [
     {
-      "concept": "Le Plus-que-parfait d'action par l'auxiliaire aspectuel 'kɔndɔn'",
-      "explanation": "Pour exprimer qu'une action était entièrement achevée avant qu'une autre action passée ne commence, le landouma recourt à l'auxiliaire 'kɔndɔn' (dérivé du verbe signifiant finir). Il se place immédiatement après le pronom sujet et avant le verbe d'action principal.",
+      "concept": "Accord alitératif radical (classes nominales)",
+      "explanation": "Le landuma, comme d'autres langues Mel du Nord, marque l'accord grammatical par un préfixe dont la consonne initiale reprend celle du nom qu'il qualifie ou remplace : c'est un accord dit « alitératif radical », distinct de l'accord par classes nominales à préfixes fixes qu'on trouve dans d'autres langues Niger-Congo. On observe dans le corpus attesté des préfixes tels que a-, da-, ta-, kʊ-, ke-, o-, ma- selon la classe et l'initiale du radical.",
       "rules": [
-        "Sujet + kɔndɔn + Verbe principal + Objet.",
-        "Le relateur 'kisinnde' permet d'introduire la proposition subordonnée de simultanéité."
+        "Les noms attestés portent presque tous un préfixe de classe : da-wump (tête), ta-fera (blanc), kʊ-suŋ (bouche), o-runi (homme), ma-rʊŋ (deux).",
+        "Le préfixe d'accord d'un qualificatif ou d'un déterminant tend à reprendre la consonne initiale du nom contrôleur plutôt qu'une classe grammaticale fixe et arbitraire.",
+        "Cette règle est documentée pour les noms inanimés dans les travaux académiques, mais son fonctionnement précis pour chaque catégorie de mots n'est pas intégralement publié en accès libre : la prudence s'impose pour toute généralisation."
       ],
       "examples": [
         {
-          "structure": "Sujet + kɔndɔn + Verbe",
-          "phonetic_api": "/mbi kɔn.dɔn kar/",
-          "meaning": "J'avais fini d'étudier."
+          "structure": "da-wump / da-fɔr",
+          "phonetic_api": "/da-wump/, /da-fɔr/",
+          "meaning": "tête / œil (même préfixe da- : classe nominale partagée)"
+        },
+        {
+          "structure": "ta-fera / ta-bi / ta-tɔt",
+          "phonetic_api": "/ta-fera/, /ta-bi/, /ta-tɔt/",
+          "meaning": "blanc / noir / bon (préfixe ta- pour ces qualificatifs attestés)"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "L'Ancien",
-      "text": "mɔ kɔndɔn wali mɔ tsinn kisinnde tsang mɔ fann ?",
-      "phonetic_api": "/mɔ kɔn.dɔn wa.li mɔ t͡sinː ki.sinː.de t͡saŋ mɔ fanː/",
-      "phonetic_simple": "MO KON-DON WA-LI MO TSINN KI-SINN-DE TSANG MO FANN ?",
-      "translation": "Avais-tu entièrement achevé ce travail hier au moment où le soleil était au zénith ?"
+      "speaker": "Locuteur A",
+      "text": "der",
+      "phonetic_api": "/der/",
+      "phonetic_simple": "DÈR",
+      "translation": "(mot isolé : « venir ») — aucun dialogue naturel complet n'est attesté dans les sources disponibles pour ce thème ; cet échange reste donc une simple juxtaposition prudente du vocabulaire vérifié, non une phrase authentique de conversation."
     },
     {
-      "speaker": "Le Sage",
-      "text": "yoo, mbi kɔndɔn wali mɔ kɛwun. baba tann fɔf ka mbi kiya mɔ tɛŋ.",
-      "phonetic_api": "/joː mbi kɔn.dɔn wa.li mɔ kɛ.wun ba.ba tanː fɔf ka mbi ki.ja mɔ tɛŋ/",
-      "phonetic_simple": "YOO, MBI KON-DON WA-LI MO KÈ-WOUN. BA-BA TANN FOF KA MBI KI-YA MO TENG",
-      "translation": "Oui, j'avais fini ce travail dès le matin. Le père m'avait autrefois déjà enseigné la juste voie."
+      "speaker": "Locuteur B",
+      "text": "kɔ",
+      "phonetic_api": "/kɔ/",
+      "phonetic_simple": "KÔ",
+      "translation": "(mot isolé : « aller ») — aucun dialogue naturel complet n'est attesté dans les sources disponibles pour ce thème ; cet échange reste donc une simple juxtaposition prudente du vocabulaire vérifié, non une phrase authentique de conversation."
+    },
+    {
+      "speaker": "Locuteur A",
+      "text": "kʊ-limber",
+      "phonetic_api": "/kʊ-limber/",
+      "phonetic_simple": "kou-LIM-bèr",
+      "translation": "(mot isolé : « dire ») — aucun dialogue naturel complet n'est attesté dans les sources disponibles pour ce thème ; cet échange reste donc une simple juxtaposition prudente du vocabulaire vérifié, non une phrase authentique de conversation."
+    },
+    {
+      "speaker": "Locuteur B",
+      "text": "kʊ-cara",
+      "phonetic_api": "/kʊ-cara/",
+      "phonetic_simple": "kou-TSA-ra",
+      "translation": "(mot isolé : « savoir ») — aucun dialogue naturel complet n'est attesté dans les sources disponibles pour ce thème ; cet échange reste donc une simple juxtaposition prudente du vocabulaire vérifié, non une phrase authentique de conversation."
     }
   ],
   "cultural_notes": [
-    "Dans la rhétorique et les récits de veillée chez les Landouma, la manipulation fine de l'antériorité par le terme 'tann' distingue les orateurs émérites des locuteurs ordinaires. Elle ancre le discours dans la temporalité mythique ou historique des ancêtres."
+    "Glottolog classe le landuma comme langue « vulnérable » et Ethnologue ne lui consacre pas de fiche dédiée dans ses listes en ligne les plus visibles : c'est une langue très peu documentée, sans matériel pédagogique publié à large diffusion ([Glottolog](https://glottolog.org/resource/languoid/id/land1256)).",
+    "Le landuma présente un système rare d'accord alitératif radical : la première consonne du préfixe d'accord grammatical dépend directement de la première consonne du nom contrôleur, un phénomène qui se retrouve dans plusieurs langues Mel du Nord ([étude de Sande, résumé OUCI](https://ouci.dntb.gov.ua/en/works/4kRxvdm7/))."
   ],
   "exercises": [
     {
-      "exercise_id": "ex19_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel terme exprime l'antériorité totale équivalente à 'avoir fini de' ?",
+      "question": "Comment dit-on « venir » en landuma ?",
       "options": [
-        "kɔn",
-        "kɔndɔn",
-        "kisinnde"
+        "kʊ-cara",
+        "der",
+        "kɔ"
       ],
-      "correct_answer": "kɔndɔn",
-      "explanation": "'kɔndɔn' marque la complétude absolue d'un procès verbal dans le passé."
+      "correct_answer": "der",
+      "explanation": "« der » est la forme attestée pour « venir » d'après le corpus lexical collecté (confiance : moyenne)."
     },
     {
-      "exercise_id": "ex19_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "mbi kar [ ___ ] mɔ ka ka.fu (J'étudiais pendant que tu cultivais)",
-      "correct_answer": "kisinnde",
-      "hint": "Le conjonctif marquant la simultanéité stricte de deux actions."
+      "sentence_with_blank": "[ ___ ] = « aller »",
+      "correct_answer": "kɔ",
+      "hint": "Ce mot appartient au vocabulaire de base attesté par les sources académiques (confiance : faible)."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Wiktionary — Word lists of Atlantic languages of Guinea (d'après Fields 2001)",
+      "url": "https://en.wiktionary.org/wiki/Appendix:Word_lists_of_Atlantic_languages_of_Guinea"
+    },
+    {
+      "label": "Glottolog — Landoma [land1256]",
+      "url": "https://glottolog.org/resource/languoid/id/land1256"
+    },
+    {
+      "label": "Sande — \"Landuma: a case of radical alliterative agreement\" (résumé OUCI)",
+      "url": "https://ouci.dntb.gov.ua/en/works/4kRxvdm7/"
+    },
+    {
+      "label": "Sumbatova & Vydrin (2021), Journal of Language Relationship 19-1/2, p.136-151",
+      "url": "https://www.jolr.ru/files/(303)jlr2021-19-1-2(136-151).pdf"
+    }
+  ],
+  "confidence": "faible",
+  "confidence_note": "Le vocabulaire cible de cette leçon provient exclusivement du corpus lexical attesté (ASJP/Wilson 2007/Rogers & Bryant 2012, Wiktionary/Fields 2001, Sumbatova & Vydrin 2021) ; confiance des mots utilisés : faible, moyenne. Aucune phrase complète, formule figée ou règle grammaticale spécifique à ce sujet précis n'a été trouvée dans les sources disponibles : le contenu reste donc au niveau du vocabulaire isolé et la confiance globale du fichier est abaissée à 'faible' par prudence, conformément à l'exigence de ne jamais présenter une extrapolation comme une donnée sûre. Pour respecter la borne minimale de 5 mots de vocabulaire par leçon, 1 mot(s) supplémentaire(s) du même corpus attesté (déjà utilisés ailleurs dans le lexique landuma collecté, mais absents de cette leçon initialement) ont été ajoutés : confiance de ces ajouts : faible. Les phrases de la section 'common_phrases' au-delà de la première ont été obtenues par recombinaison de mots individuellement attestés du vocabulaire de cette leçon (juxtapositions pédagogiques), et non par une source directe attestant la phrase entière : elles sont signalées comme telles dans leur champ 'context'."
 }

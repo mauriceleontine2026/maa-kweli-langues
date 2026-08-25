@@ -12,27 +12,29 @@ router = APIRouter()
 _ai_rate_limiter = RateLimiter(name="ai", max_attempts=10, window_seconds=60)
 
 
-def _sanitize_text(value: str | None, *, max_length: int, allow_newlines: bool = True) -> str | None:
+def _sanitize_text(value: str | None, *, max_length: int | None, allow_newlines: bool = True) -> str | None:
     if value is None:
         return None
     text = value.strip()
     text = re.sub(r"[\x00-\x08\x0B\x0C\x0E-\x1F\x7F]", "", text)
     if not allow_newlines:
         text = text.replace("\n", " ").replace("\r", " ")
-    if len(text) > max_length:
+    if max_length is not None and len(text) > max_length:
         raise ValueError(f"Text exceeds maximum length of {max_length} characters")
     return text
 
 
 class LLMRequest(BaseModel):
-    prompt: str = Field(..., min_length=1, max_length=4000)
+    prompt: str = Field(..., min_length=1)
     response_json_schema: dict | None = None
     temperature: float | None = Field(default=0.7, ge=0.0, le=2.0)
+    provider: str | None = Field(default=None, pattern=r"^(openai|anthropic|gemini|perplexity)$")
+    image_data: str | None = Field(default=None, max_length=14_000_000)
 
     @field_validator("prompt")
     @classmethod
     def validate_prompt(cls, value: str) -> str:
-        return _sanitize_text(value, max_length=4000) or ""
+        return _sanitize_text(value, max_length=None) or ""
 
     @field_validator("response_json_schema")
     @classmethod
@@ -69,6 +71,7 @@ OPENAI_API_BASE = _get_env_value("OPENAI_API_BASE", "OPENAI_BASE_URL") or "https
 ANTHROPIC_API_KEY = _get_env_value("ANTHROPIC_API_KEY", "ANTHROPIC_KEY")
 ANTHROPIC_AGENT_ID = _get_env_value("ANTHROPIC_AGENT_ID", "CLAUDE_AGENT_ID")
 GEMINI_API_KEY = _get_env_value("GEMINI_API_KEY", "GOOGLE_AI_API_KEY", "GEMINI_KEY")
+PERPLEXITY_API_KEY = _get_env_value("PERPLEXITY_API_KEY")
 
 
 def _get_anthropic_config() -> tuple[str | None, str | None]:
@@ -175,6 +178,47 @@ async def call_openai(prompt: str, temperature: float = 0.7, response_json_schem
     return payload["choices"][0]["message"]["content"].strip()
 
 
+async def call_perplexity(prompt: str, temperature: float = 0.7, image_data: str | None = None) -> str:
+    if not PERPLEXITY_API_KEY:
+        raise HTTPException(status_code=503, detail="Perplexity provider is not configured")
+
+    async with httpx.AsyncClient(timeout=45.0) as client:
+        response = await client.post(
+            "https://api.perplexity.ai/chat/completions",
+            headers={
+                "Authorization": f"Bearer {PERPLEXITY_API_KEY}",
+                "Content-Type": "application/json",
+            },
+            json={
+                "model": os.getenv("PERPLEXITY_MODEL", "sonar-pro"),
+                "search_mode": "web",
+                "messages": [
+                    {"role": "system", "content": "Tu es Kôrô, un assistant généraliste, linguistique et culturel précis, naturel et pédagogique. Respecte strictement la langue, le format et la demande de l'utilisateur. N'impose jamais le français et ne limite jamais ta réponse à un dictionnaire local. Pour les faits, dates, chiffres, actualités, sciences, histoire, cultures et traductions, utilise obligatoirement la recherche web Perplexity en mode web, approfondis la recherche avec plusieurs sources fiables, recoupe les informations et ne présente jamais une hypothèse comme un fait. Réponds directement à la question, cite les sources utiles et signale clairement toute incertitude au lieu d'inventer."},
+                    {"role": "user", "content": ([
+                        {"type": "text", "text": prompt},
+                        {"type": "image_url", "image_url": {"url": image_data}},
+                    ] if image_data else prompt)},
+                ],
+                "temperature": temperature,
+                "max_tokens": 1800,
+                "return_citations": True,
+            },
+        )
+
+    if response.status_code >= 300:
+        raise HTTPException(status_code=502, detail="Perplexity provider request failed")
+    try:
+        body = response.json()
+        content = body["choices"][0]["message"]["content"].strip()
+        citations = body.get("citations") or []
+        if citations and not image_data:
+            sources = "\n\nSources Perplexity :\n" + "\n".join(f"- {url}" for url in citations[:8])
+            content = f"{content}{sources}"
+        return content
+    except (KeyError, IndexError, TypeError, AttributeError) as exc:
+        raise HTTPException(status_code=502, detail="Perplexity returned an invalid response") from exc
+
+
 @router.post("/chat")
 async def chat(
     payload: LLMRequest,
@@ -200,19 +244,23 @@ async def chat(
         "openai": lambda: call_openai(prompt, temperature, payload.response_json_schema),
         "anthropic": lambda: call_anthropic(prompt, temperature),
         "gemini": lambda: call_gemini(prompt, temperature),
+        "perplexity": lambda: call_perplexity(prompt, temperature, payload.image_data),
     }
-    if provider == "auto":
-        order = [name for name, configured in (("openai", openai_api_key), ("anthropic", anthropic_api_key), ("gemini", gemini_api_key)) if configured]
+    selected_provider = payload.provider or provider
+    if selected_provider == "auto":
+        order = [name for name, configured in (("openai", openai_api_key), ("anthropic", anthropic_api_key), ("gemini", gemini_api_key), ("perplexity", _get_env_value("PERPLEXITY_API_KEY"))) if configured]
     else:
-        if provider not in providers:
+        if selected_provider not in providers:
             raise HTTPException(status_code=400, detail="Unsupported AI provider")
-        if provider == "openai" and not openai_api_key:
+        if selected_provider == "openai" and not openai_api_key:
             raise HTTPException(status_code=503, detail="OpenAI provider is not configured")
-        if provider == "anthropic" and not anthropic_api_key:
+        if selected_provider == "anthropic" and not anthropic_api_key:
             raise HTTPException(status_code=503, detail="Anthropic provider is not configured")
-        if provider == "gemini" and not gemini_api_key:
+        if selected_provider == "gemini" and not gemini_api_key:
             raise HTTPException(status_code=503, detail="Gemini provider is not configured")
-        order = [provider]
+        if selected_provider == "perplexity" and not _get_env_value("PERPLEXITY_API_KEY"):
+            raise HTTPException(status_code=503, detail="Perplexity provider is not configured")
+        order = [selected_provider]
     if not order:
         raise HTTPException(status_code=503, detail="No AI provider is configured")
 

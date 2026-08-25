@@ -1,11 +1,12 @@
 import { useEffect, useState } from "react";
-import { Link, useSearchParams } from "react-router-dom";
+import { useNavigate, useSearchParams } from "react-router-dom";
 import { verifyEmail } from "@/api/authService";
 
 export default function VerifyEmail() {
   const [searchParams] = useSearchParams();
   const [state, setState] = useState("loading");
   const [message, setMessage] = useState("");
+  const navigate = useNavigate();
 
   useEffect(() => {
     const token = searchParams.get("token");
@@ -18,7 +19,8 @@ export default function VerifyEmail() {
     verifyEmail(token)
       .then(() => {
         setState("success");
-        setMessage("Adresse e-mail vérifiée. Vous pouvez maintenant vous connecter.");
+        setMessage("Adresse e-mail vérifiée. Connexion automatique en cours...");
+        window.setTimeout(() => navigate("/", { replace: true }), 900);
       })
       .catch((error) => {
         setState("error");
@@ -33,10 +35,10 @@ export default function VerifyEmail() {
         <p className={`mt-4 text-sm ${state === "error" ? "text-destructive" : state === "success" ? "text-emerald-600" : "text-muted-foreground"}`}>
           {state === "loading" ? "Vérification en cours..." : message}
         </p>
-        {state !== "loading" ? (
-          <Link to="/login" className="mt-6 inline-flex rounded-2xl bg-primary px-5 py-3 text-sm font-semibold text-primary-foreground">
+        {state === "error" ? (
+          <button type="button" onClick={() => navigate("/login")} className="mt-6 inline-flex rounded-2xl bg-primary px-5 py-3 text-sm font-semibold text-primary-foreground">
             Aller à la connexion
-          </Link>
+          </button>
         ) : null}
       </section>
     </main>

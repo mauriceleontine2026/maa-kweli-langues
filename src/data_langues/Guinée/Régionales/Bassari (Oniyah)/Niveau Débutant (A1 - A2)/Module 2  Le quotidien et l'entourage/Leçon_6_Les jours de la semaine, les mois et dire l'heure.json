@@ -6,184 +6,206 @@
   "lesson_number": 6,
   "title": "Les jours de la semaine, les mois et dire l'heure",
   "learning_objectives": [
-    "Nommer les jours de la semaine et repérer les cycles lunaires/mois",
-    "Exprimer le moment présent, le passé récent (hier) et le futur proche (demain)",
-    "Demander et indiquer l'heure ou les divisions de la journée"
+    "Réutiliser les numéraux attestés pour compter des unités de temps (jours, heures)",
+    "Comprendre qu'aucun calendrier de jours/mois nommés n'est attesté dans les sources disponibles",
+    "Construire des expressions de temps approximatives à partir du système numérique vérifié"
   ],
   "phonetic_focus": {
-    "key_sounds": "La notion de temps s'articule autour du mot 'dya' (jour/soleil) avec son articulation palatale /ɟ/. Le mot pour demain 'pəwá̰' introduit une nasalisation finale sur le phonème vocalique. Marquez distinctement la longueur des voyelles doubles.",
-    "common_pitfalls": "Ne pas confondre le mot pour la journée 'dya' avec l'interrogatif de lieu. Gardez le ton descendant stable sur les repères temporels.",
-    "vocabulary": [
-      {
-        "word_id": "v21",
-        "term": "dya",
-        "phonetic_api": "/dja/",
-        "phonetic_simple": "DYA",
-        "translation": "jour / soleil / temps",
-        "example_sentence": "Dya bɛ̀ɛ̀ oŋ.",
-        "example_phonetic": "/dja bɛ̀ː oŋ/",
-        "example_translation": "C'est un jour de paix."
-      },
-      {
-        "word_id": "v22",
-        "term": "pəwá̰",
-        "phonetic_api": "/pəwá̰/",
-        "phonetic_simple": "PE-WANG",
-        "translation": "demain",
-        "example_sentence": "Məfɔ́ pəwá̰.",
-        "example_phonetic": "/məfɔ́ pəwá̰/",
-        "example_translation": "Je viendrai demain."
-      },
-      {
-        "word_id": "v23",
-        "term": "kəwul",
-        "phonetic_api": "/kəwul/",
-        "phonetic_simple": "KE-WOUL",
-        "translation": "la lune / le mois",
-        "example_sentence": "Kəwul ɛ́ɛ́n oŋ.",
-        "example_phonetic": "/kəwul ɛ́ːn oŋ/",
-        "example_translation": "Un mois complet."
-      },
-      {
-        "word_id": "v24",
-        "term": "gwiye",
-        "phonetic_api": "/ɡwije/",
-        "phonetic_simple": "GWI-YE",
-        "translation": "hier",
-        "example_sentence": "Məgaw gwiye.",
-        "example_phonetic": "/məɡaw ɡwije/",
-        "example_translation": "J'ai entendu hier."
-      }
-    ],
-    "common_phrases": [
-      {
-        "phrase_id": "p41",
-        "original": "Anee dya oŋ bə̂?",
-        "phonetic_api": "/aneː dja oŋ ɓə̂/",
-        "phonetic_simple": "A-NEE DYA ONG BHE",
-        "translation": "Quel jour sommes-nous ?",
-        "context": "S'informer du repère temporel dans la semaine."
-      },
-      {
-        "phrase_id": "p42",
-        "original": "Məwunǐ pəwá̰.",
-        "phonetic_api": "/məwunǐ pəwá̰/",
-        "phonetic_simple": "ME-WOU-NI PE-WANG",
-        "translation": "À demain. (Au revoir pour demain)",
-        "context": "Formule de congé extrêmement fréquente en fin de journée."
-      },
-      {
-        "phrase_id": "p43",
-        "original": "Anee dya apɔɔ kɔ̂?",
-        "phonetic_api": "/aneː dja apɔː kɔ̂/",
-        "phonetic_simple": "A-NEE DYA A-POO KO",
-        "translation": "Quelle heure est-il ? (Où en est le soleil ?)",
-        "context": "Demander l'heure en se basant sur la course du soleil."
-      },
-      {
-        "phrase_id": "p44",
-        "original": "Dya oŋ fə́ siki bɛ̀ɛ̀.",
-        "phonetic_api": "/dja oŋ fə́ siki bɛ̀ː/",
-        "phonetic_simple": "DYA ONG FE SI-KI BEE",
-        "translation": "Le temps est magnifique au village aujourd'hui.",
-        "context": "Commenter la météo ou le climat social du moment."
-      },
-      {
-        "phrase_id": "p45",
-        "original": "Məɟe nɛ̂ kəwul fəla.",
-        "phonetic_api": "/məɟe nɛ̂ kəwul fəla/",
-        "phonetic_simple": "ME-DYE NE KE-WOUL FE-LA",
-        "translation": "Je reste pour deux mois.",
-        "context": "Exprimer une durée planifiée."
-      },
-      {
-        "phrase_id": "p46",
-        "original": "Gwiye məɟe kəwə́ra.",
-        "phonetic_api": "/ɡwije məɟe kəwə́ra/",
-        "phonetic_simple": "GWI-YE ME-DYE KE-WE-RA",
-        "translation": "Hier, j'étais au village.",
-        "context": "Ancrer un fait dans le passé immédiat."
-      },
-      {
-        "phrase_id": "p47",
-        "original": "Dya oŋ ləɟɛɛ fə́ mərã.",
-        "phonetic_api": "/dja oŋ ləɟɛː fə́ mərã/",
-        "phonetic_simple": "DYA ONG LE-DIEE FE ME-RAN",
-        "translation": "Il est six heures du matin.",
-        "context": "Indiquer un horaire matinal fixe."
-      },
-      {
-        "phrase_id": "p48",
-        "original": "Pəwá̰ ɔsuku oŋ kərã.",
-        "phonetic_api": "/pəwá̰ ɔsuku oŋ kərã/",
-        "phonetic_simple": "PE-WANG O-SOU-KOU ONG KE-RAN",
-        "translation": "Demain, les élèves vont étudier.",
-        "context": "Annoncer une action future certaine."
-      }
-    ],
-    "grammar_points": [
-      {
-        "concept": "L'organisation syntaxique des adverbes de temps",
-        "explanation": "En Oniyan, les indicateurs temporels de cadrage comme 'gwiye' (hier) ou 'pəwá̰' (demain) se positionnent préférentiellement en tout début de proposition pour focaliser l'attention sur la chronologie, ou en fin de phrase comme compléments circonstanciels.",
-        "rules": [
-          "Placer l'adverbe au début modifie l'ordre de focalisation sans altérer la clarté du verbe.",
-          "Le mot 'dya' sert à la fois à dire le jour, l'heure et le soleil, le contexte linguistique lève l'ambiguïté."
-        ],
-        "examples": [
-          {
-            "structure": "[Adverbe de temps] + Pronom + Verbe",
-            "phonetic_api": "/pəwá̰ məfɔ́/",
-            "meaning": "Demain je viendrai"
-          }
-        ]
-      }
-    ],
-    "dialogue": [
-      {
-        "speaker": "Samba",
-        "text": "Anee dya apɔɔ kɔ̂?",
-        "phonetic_api": "/aneː dja apɔː kɔ̂/",
-        "phonetic_simple": "A-NEE DYA A-POO KO",
-        "translation": "Quelle heure est-il maintenant ?"
-      },
-      {
-        "speaker": "Idrissa",
-        "text": "Dya oŋ ɓəni fə́ mərã. Məfɔ́ fə́ siki.",
-        "phonetic_api": "/dja oŋ ɓəni fə́ mərã məfɔ́ fə́ siki/",
-        "phonetic_simple": "DYA ONG BHE-NI FE ME-RAN. ME-FO FE SI-KI",
-        "translation": "Il est cinq heures de l'après-midi. Je rentre du village."
-      },
-      {
-        "speaker": "Samba",
-        "text": "Məwunǐ pəwá̰ fə́ siki.",
-        "phonetic_api": "/məwunǐ pəwá̰ fə́ siki/",
-        "phonetic_simple": "ME-WOU-NI PE-WANG FE SI-KI",
-        "translation": "D'accord, à demain au village."
-      }
-    ],
-    "cultural_notes": [
-      "Le calcul du temps traditionnel chez les Bəliyan n'obéit pas à une montre mécanique. On pointe le bras vers le ciel pour indiquer la position du soleil ('dya') afin de donner l'heure exacte. Le mois est calqué sur le cycle visible de la lune ('kəwul'), essentiel pour les dates de rites agraires."
-    ],
-    "exercises": [
-      {
-        "exercise_id": "ex11",
-        "type": "multiple_choice",
-        "question": "Que signifie l'indicateur temporel 'pəwá̰' ?",
-        "options": [
-          "Hier",
-          "Aujourd'hui",
-          "Demain"
-        ],
-        "correct_answer": "Demain",
-        "explanation": "'pəwá̰' désigne le jour suivant (demain) et projette la phrase dans le futur."
-      },
-      {
-        "exercise_id": "ex12",
-        "type": "fill_in_the_blanks",
-        "sentence_with_blank": "Məwunǐ [ ___ ].",
-        "correct_answer": "pəwá̰",
-        "hint": "Le mot pour dire 'demain' dans la formule de congé."
-      }
-    ]
-  }
+    "key_sounds": "Aucun son spécifique nouveau n'est introduit dans cette leçon : elle réemploie la phonologie des numéraux déjà vus (implosives ɓ, nasale prénasalisée nj), qu'il convient de réviser avec soin.",
+    "common_pitfalls": "Les francophones s'attendent à des noms de jours et de mois calqués sur un calendrier fixe (comme les emprunts arabes ou européens dans d'autres langues africaines) ; aucun de ces noms n'est attesté ici, et il ne faut donc pas en inventer, même par emprunt supposé au français ou au peul."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "imat",
+      "phonetic_api": "/imat/",
+      "phonetic_simple": "I-MAT",
+      "translation": "un (réutilisé pour « un jour », « une heure »)",
+      "example_sentence": "Icas imat.",
+      "example_phonetic": "/itʃas imat/",
+      "example_translation": "Un couteau (exemple original ; structure numérique réutilisable pour le temps)."
+    },
+    {
+      "word_id": "v2",
+      "term": "ɓëki",
+      "phonetic_api": "/ɓəki/",
+      "phonetic_simple": "BË-KI",
+      "translation": "deux (réutilisé pour compter des unités de temps)",
+      "example_sentence": "Ɓësoçan ɓëxi.",
+      "example_phonetic": "/ɓəsoʃan ɓəxi/",
+      "example_translation": "Deux hommes (exemple original)."
+    },
+    {
+      "word_id": "v3",
+      "term": "epëxw",
+      "phonetic_api": "/epəxʷ/",
+      "phonetic_simple": "É-PËHOU",
+      "translation": "dix (réutilisable pour dire « dix heures », par exemple)",
+      "example_sentence": "Epëxw g'imat.",
+      "example_phonetic": "/epəxʷ gimat/",
+      "example_translation": "Onze (dix et un)."
+    },
+    {
+      "word_id": "vx13",
+      "term": "doro",
+      "phonetic_api": "/doro/",
+      "phonetic_simple": "DO-RO",
+      "translation": "aujourd'hui",
+      "example_sentence": "doro",
+      "example_phonetic": "/doro/",
+      "example_translation": "aujourd'hui."
+    },
+    {
+      "word_id": "vx14",
+      "term": "ecan",
+      "phonetic_api": "/etʃan/",
+      "phonetic_simple": "É-TCHAN",
+      "translation": "demain",
+      "example_sentence": "ecan",
+      "example_phonetic": "/etʃan/",
+      "example_translation": "demain."
+    },
+    {
+      "word_id": "vx15",
+      "term": "ganëka",
+      "phonetic_api": "/ganəka/",
+      "phonetic_simple": "GA-NË-KA",
+      "translation": "hier",
+      "example_sentence": "ganëka",
+      "example_phonetic": "/ganəka/",
+      "example_translation": "hier."
+    },
+    {
+      "word_id": "vx16",
+      "term": "gako",
+      "phonetic_api": "/gako/",
+      "phonetic_simple": "GA-KO",
+      "translation": "maintenant",
+      "example_sentence": "gako",
+      "example_phonetic": "/gako/",
+      "example_translation": "maintenant."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Iyo.",
+      "phonetic_api": "/ijo/",
+      "phonetic_simple": "I-YO",
+      "translation": "Oui.",
+      "context": "Réponse affirmative générale, réutilisable dans toute conversation."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "O-oye.",
+      "phonetic_api": "/o.oje/",
+      "phonetic_simple": "O-O-YÉ",
+      "translation": "Non.",
+      "context": "Réponse négative générale, réutilisable dans toute conversation."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Awa.",
+      "phonetic_api": "/awa/",
+      "phonetic_simple": "A-OUA",
+      "translation": "D'accord / Bien.",
+      "context": "Marque d'accord ou de validation, utile pour conclure un échange."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Sel ke.",
+      "phonetic_api": "/sel ke/",
+      "phonetic_simple": "SÈL KÉ",
+      "translation": "J'ai soif.",
+      "context": "Expression attestée d'un besoin immédiat, réutilisable comme illustration de phrase courte."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Réemploi du système numérique pour exprimer le temps",
+      "explanation": "En l'absence de noms attestés pour les jours de la semaine, les mois du calendrier ou une expression figée de l'heure en oniyan, la seule stratégie fiable est de réutiliser le système numérique déjà établi (base 5, accord de classe pour 1-5, formation additive pour les grands nombres) pour compter des unités abstraites de temps, sans inventer de lexique calendaire.",
+      "rules": [
+        "Les numéraux s'accordent en classe avec le nom compté (par exemple, la classe hypothétique du mot « heure », non attestée elle-même).",
+        "Aucune règle spécifique de calendrier n'est attestée : cette leçon se limite au réemploi prudent des numéraux."
+      ],
+      "examples": [
+        {
+          "structure": "epëxw gë ɓëki",
+          "phonetic_api": "/epəxʷ gə ɓəki/",
+          "meaning": "douze (dix avec deux) — réutilisable en principe pour dire « douze heures », bien qu'aucune phrase de ce type ne soit directement attestée"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Élève 1",
+      "text": "Epëxw gë ɓëki?",
+      "phonetic_api": "/epəxʷ gə ɓəki/",
+      "phonetic_simple": "É-PËHOU GË BË-KI ?",
+      "translation": "Douze ? (exercice de révision numérique, transposable à une heure)"
+    },
+    {
+      "speaker": "Élève 2",
+      "text": "Iyo, epëxw gë ɓëki.",
+      "phonetic_api": "/ijo epəxʷ gə ɓəki/",
+      "phonetic_simple": "I-YO, É-PËHOU GË BË-KI",
+      "translation": "Oui, douze."
+    },
+    {
+      "speaker": "Locuteur A",
+      "text": "Awa?",
+      "phonetic_api": "/awa/",
+      "phonetic_simple": "A-OUA ?",
+      "translation": "D'accord ?"
+    },
+    {
+      "speaker": "Locuteur B",
+      "text": "Iyo, awa.",
+      "phonetic_api": "/ijo awa/",
+      "phonetic_simple": "I-YO, A-OUA",
+      "translation": "Oui, d'accord."
+    }
+  ],
+  "cultural_notes": [
+    "Aucune source disponible ne mentionne de noms de jours de la semaine ou de mois en oniyan ; les communautés bassari, largement multilingues avec le peul, le malinké et le français, empruntent probablement des repères calendaires à ces langues dans l'usage courant, mais cela n'a pas pu être vérifié dans les sources consultées.",
+    "Le rythme agricole traditionnel (semailles, désherbage, récoltes) structure le temps social dans le pays bassari selon le dossier UNESCO du Pays bassari, davantage que des unités calendaires abstraites."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Quels noms de jours de la semaine ou de mois sont attestés en oniyan dans les sources disponibles ?",
+      "options": [
+        "Aucun n'a été trouvé",
+        "Les sept jours calqués sur le français",
+        "Les douze mois calqués sur l'arabe"
+      ],
+      "correct_answer": "Aucun n'a été trouvé",
+      "explanation": "Aucune source consultée ne documente de noms de jours ou de mois en oniyan ; il ne faut donc pas en inventer."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "___ gë ɓëki. (« douze », réutilisable pour une heure)",
+      "correct_answer": "Epëxw",
+      "hint": "Le nombre « dix »."
+    }
+  ],
+  "sources": [
+    {
+      "label": "SIL — A Grammar of Oniyan (Winters & Winters, 2004)",
+      "url": "https://www.sil.org/system/files/reapdata/18/63/15/1863153183176772870767650622005357320/BSC_Oniyan_grammar_En_2004.pdf"
+    },
+    {
+      "label": "SIL — Bassari Phonology / Orthographe Oniyan (2003)",
+      "url": "https://www.sil.org/system/files/reapdata/13/27/28/132728046882691513259738660939179774460/BSC_Orthographe_Oniyan_Fr_2003.pdf"
+    },
+    {
+      "label": "Ferry, M.-P. (1991) — Thesaurus tenda (référence bibliographique, non consulté en texte intégral)",
+      "url": "https://senelangues.huma-num.fr/pdf/BiblAtl.pdf"
+    }
+  ],
+  "confidence": "faible",
+  "confidence_note": "Aucun nom de jour de la semaine, de mois du calendrier, ni aucune expression figée pour dire l'heure n'a été trouvé dans les sources disponibles pour l'oniyan. Cette leçon documente honnêtement cette lacune importante et se limite à réutiliser le système numérique vérifié (base 5, formation additive) comme seule ressource transposable, sans jamais inventer de vocabulaire calendaire. Le Thesaurus tenda de Ferry (1991), non consulté en texte intégral, pourrait combler cette lacune."
 }

@@ -6,217 +6,214 @@
   "lesson_number": 9,
   "title": "Les couleurs et les vêtements",
   "learning_objectives": [
-    "Nommer les couleurs fondamentales en langue Yalunka",
-    "Identifier et désigner les principaux vêtements et accessoires du quotidien",
-    "Décrire un habit en associant un nom et un adjectif de couleur"
+    "Nommer les couleurs de base attestées (blanc, noir, rouge, bleu)",
+    "Nommer des vêtements traditionnels attestés (pagne, habit, chaussure)",
+    "Reconnaître les limites de la documentation disponible pour cette leçon"
   ],
   "phonetic_focus": {
-    "key_sounds": "La consonne 'x' produit le son fricatif vélaire sourd /x/. Le 'g' est toujours occlusif et sonore /ɡ/ (comme dans 'gâteau'). Les voyelles redoublées comme 'ee' ou 'ii' indiquent une quantité vocalique longue indispensable à la bonne compréhension du lexique vestimentaire.",
-    "common_pitfalls": "Veillez à ne pas prononcer le 'u' de 'gbeeliu' à la française (/y/). Il s'agit du son /u/ (proche de 'ou') combiné de façon fluide avec la voyelle précédente."
+    "key_sounds": "Le yalunka (dialonké) comporte une occlusive uvulaire notée « q » (cognat du « x » soussou, prononcée en raclant le fond de la gorge, comme la jota espagnole), des voyelles longues notées par redoublement (ex. « áa »), et des consonnes nasales finales notées « ŋ » (comme le « ng » anglais de « sing »). Le ton (haut ´ / bas `) est phonologiquement distinctif dans la variété de Faléya décrite par Creissels (2010).",
+    "common_pitfalls": "Les francophones prononcent souvent « q » comme un simple « k » au lieu de le racler au fond de la gorge ; ils réduisent le « ŋ » final à « n » ou « ngue » ; et ils ignorent les tons, ce qui peut changer le sens d'un mot puisque le ton est distinctif en yalunka."
   },
   "vocabulary": [
     {
-      "word_id": "v9_1",
-      "term": "Donma",
-      "phonetic_api": "/don.ma/",
-      "phonetic_simple": "DON-MA",
-      "translation": "Vêtement / Habit / Boubou",
-      "example_sentence": "Donma fanyin nan a ra.",
-      "example_phonetic": "/don.ma fan.jin nan a ra/",
-      "example_translation": "C'est un bel habit."
+      "word_id": "v1",
+      "term": "fíiqè",
+      "phonetic_api": "/fíiqè/",
+      "phonetic_simple": "FI-i-qè",
+      "translation": "blanc",
+      "example_sentence": "Dùgí fíiqè.",
+      "example_phonetic": "/dùgí fíiqè/",
+      "example_translation": "Un pagne blanc."
     },
     {
-      "word_id": "v9_2",
-      "term": "Gbeeli",
-      "phonetic_api": "/ɡbeː.li/",
-      "phonetic_simple": "GBEELI",
-      "translation": "Rouge",
-      "example_sentence": "Donma gbeeli nan na.",
-      "example_phonetic": "/don.ma ɡbeː.li nan na/",
-      "example_translation": "C'est un vêtement rouge."
+      "word_id": "v2",
+      "term": "fɔ́ɔrɛ̀",
+      "phonetic_api": "/fɔ́ɔrɛ̀/",
+      "phonetic_simple": "FÔ-ô-rè",
+      "translation": "noir",
+      "example_sentence": "Dùgí fɔ́ɔrɛ̀.",
+      "example_phonetic": "/dùgí fɔ́ɔrɛ̀/",
+      "example_translation": "Un pagne noir."
     },
     {
-      "word_id": "v9_3",
-      "term": "Fixɛ",
-      "phonetic_api": "/fi.xɛ/",
-      "phonetic_simple": "FI-KHÈ",
-      "translation": "Blanc",
-      "example_sentence": "Kuba fixɛ xun m bɛ.",
-      "example_phonetic": "/ku.ba fi.xɛ xun m bɛ/",
-      "example_translation": "Donne-moi le chapeau blanc."
+      "word_id": "v3",
+      "term": "gwéelì",
+      "phonetic_api": "/gwéelì/",
+      "phonetic_simple": "GUÉ-é-li",
+      "translation": "rouge",
+      "example_sentence": "Dùgí gwéelì.",
+      "example_phonetic": "/dùgí gwéelì/",
+      "example_translation": "Un pagne rouge."
     },
     {
-      "word_id": "v9_4",
-      "term": "Fori",
-      "phonetic_api": "/fo.ri/",
-      "phonetic_simple": "FO-RI",
-      "translation": "Noir",
-      "example_sentence": "Sankiri fori nan a ra.",
-      "example_phonetic": "/san.ki.ri fo.ri nan a ra/",
-      "example_translation": "Ce sont des chaussures noires."
+      "word_id": "v4",
+      "term": "búlú",
+      "phonetic_api": "/búlú/",
+      "phonetic_simple": "BOU-lou",
+      "translation": "bleu",
+      "example_sentence": "Dùgí búlú.",
+      "example_phonetic": "/dùgí búlú/",
+      "example_translation": "Un pagne bleu."
     },
     {
-      "word_id": "v9_5",
-      "term": "Sankiri",
-      "phonetic_api": "/san.ki.ri/",
-      "phonetic_simple": "SAN-KI-RI",
-      "translation": "Chaussures / Sandales",
-      "example_sentence": "N bɛ sankiri fidin tongo.",
-      "example_phonetic": "/ŋ bɛ san.ki.ri fi.din ton.ɡo/",
-      "example_translation": "Je prends deux paires de chaussures."
+      "word_id": "v5",
+      "term": "dùgí",
+      "phonetic_api": "/dùgí/",
+      "phonetic_simple": "dou-GI",
+      "translation": "pagne, tissu, linge",
+      "example_sentence": "Ń sàrá dùgí.",
+      "example_phonetic": "/ń sàrá dùgí/",
+      "example_translation": "J'achète un pagne."
+    },
+    {
+      "word_id": "v6",
+      "term": "jábáa",
+      "phonetic_api": "/jábáa/",
+      "phonetic_simple": "dja-BA-a",
+      "translation": "habit",
+      "example_sentence": "Ń jábáa fíiqè.",
+      "example_phonetic": "/ń jábáa fíiqè/",
+      "example_translation": "Mon habit est blanc."
+    },
+    {
+      "word_id": "v7",
+      "term": "sàŋkírì",
+      "phonetic_api": "/sàŋkírì/",
+      "phonetic_simple": "sang-KI-ri",
+      "translation": "chaussure",
+      "example_sentence": "Ń sàŋkírì fɔ́ɔrɛ̀.",
+      "example_phonetic": "/ń sàŋkírì fɔ́ɔrɛ̀/",
+      "example_translation": "Ma chaussure est noire."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p9_1",
-      "original": "Mun maalin na i bɛ ?",
-      "phonetic_api": "/mun maː.lin na i bɛ/",
-      "phonetic_simple": "MOUN MAA-LIN NA I BÈ ?",
-      "translation": "Quelle couleur aimes-tu ?",
-      "context": "Interroger quelqu'un sur ses préférences de teintes ou de couleurs."
+      "phrase_id": "p1",
+      "original": "Dùgí mín kánsì?",
+      "phonetic_api": "/dùgí mín kánsì/",
+      "phonetic_simple": "dou-GI min KAN-si",
+      "translation": "Quel pagne préfères-tu ?",
+      "context": "Combine 'dùgí' (pagne) avec un mot interrogatif ; formule construite, à valider à l'usage."
     },
     {
-      "phrase_id": "p9_2",
-      "original": "N bɛ maalin fixɛ nan xanfe.",
-      "phonetic_api": "/ŋ bɛ maː.lin fi.xɛ nan xan.fe/",
-      "phonetic_simple": "N BÈ MAA-LIN FI-KHÈ NAN KHAN-FÉ",
-      "translation": "Je préfère / je veux la couleur blanche.",
-      "context": "Exprimer son choix de couleur lors d'un achat de tissu."
+      "phrase_id": "p2",
+      "original": "Ń jábáa fíiqè nùŋ gwéelì.",
+      "phonetic_api": "/ń jábáa fíiqè nùŋ gwéelì/",
+      "phonetic_simple": "n dja-BA-a FI-i-qè noung GUÉ-é-li",
+      "translation": "Mon habit est blanc et rouge.",
+      "context": "Combine deux couleurs attestées avec la conjonction 'nùŋ' (et)."
     },
     {
-      "phrase_id": "p9_3",
-      "original": "I bɛ donma mɛni xanfe ?",
-      "phonetic_api": "/i bɛ don.ma mɛ.ni xan.fe/",
-      "phonetic_simple": "I BÈ DON-MA MÈ-NI KHAN-FÉ ?",
-      "translation": "Combien de vêtements veux-tu ?",
-      "context": "Demander la quantité d'habits à confectionner ou à acheter."
+      "phrase_id": "p3",
+      "original": "Sàŋkírì fɔ́ɔrɛ̀ tóofáŋ.",
+      "phonetic_api": "/sàŋkírì fɔ́ɔrɛ̀ tóofáŋ/",
+      "phonetic_simple": "sang-KI-ri FÔ-ô-rè TO-o-fang",
+      "translation": "La chaussure noire est belle.",
+      "context": "Utilise 'tóofáŋ' (être beau, être propre), attesté par Creissels."
     },
     {
-      "phrase_id": "p9_4",
-      "original": "Donma gbeeli na n bɛ.",
-      "phonetic_api": "/don.ma ɡbeː.li na ŋ bɛ/",
-      "phonetic_simple": "DON-MA GBEELI NA N BÈ",
-      "translation": "Je porte un vêtement rouge.",
-      "context": "Décrire sa propre tenue ou celle de quelqu'un."
-    },
-    {
-      "phrase_id": "p9_5",
-      "original": "Sankiri mɛni sɔnka ?",
-      "phonetic_api": "/san.ki.ri mɛ.ni sɔn.ka/",
-      "phonetic_simple": "SAN-KI-RI MÈ-NI SON-KA ?",
-      "translation": "Combien coûtent ces chaussures ?",
-      "context": "Se renseigner sur le prix d'une paire de chaussures au marché."
-    },
-    {
-      "phrase_id": "p9_6",
-      "original": "A bata donma fanyin rafala.",
-      "phonetic_api": "/a ba.ta don.ma fan.jin ra.fa.la/",
-      "phonetic_simple": "A BA-TA DON-MA FAN-YIN RA-FA-LA",
-      "translation": "Il a confectionné un très bel habit.",
-      "context": "Complimenter le travail d'un tailleur local."
-    },
-    {
-      "phrase_id": "p9_7",
-      "original": "N tani bɛ kuba fori xanfe.",
-      "phonetic_api": "/ŋ ta.ni bɛ ku.ba fo.ri xan.fe/",
-      "phonetic_simple": "N TA-NI BÈ KOU-BA FO-RI KHAN-FÉ",
-      "translation": "Mon grand frère veut un chapeau noir.",
-      "context": "Exprimer le souhait ou la commande d'un membre de la famille."
-    },
-    {
-      "phrase_id": "p9_8",
-      "original": "Donma fixɛ na danyi.",
-      "phonetic_api": "/don.ma fi.xɛ na da.ɲi/",
-      "phonetic_simple": "DON-MA FI-KHÈ NA DA-NYI",
-      "translation": "Le boubou blanc est là-bas.",
-      "context": "Désigner et localiser un vêtement spécifique dans l'espace."
+      "phrase_id": "p4",
+      "original": "Dùgí fíiqè kɛ́ndí.",
+      "phonetic_api": "/dùgí fíiqè kɛ́ndí/",
+      "phonetic_simple": "dou-GI FI-i-qè KEN-di",
+      "translation": "Le pagne blanc est beau/bon.",
+      "context": "Combine 'dùgí' (pagne) et 'fíiqè' (blanc), tous deux attestés."
     }
   ],
   "grammar_points": [
     {
-      "concept": "La place de l'adjectif qualificatif de couleur",
-      "explanation": "En Yalunka, les adjectifs décrivant une caractéristique physique ou une couleur se placent systématiquement après le nom ou le substantif qu'ils qualifient.",
+      "concept": "Adjectif de couleur après le nom",
+      "explanation": "En yalunka, l'adjectif de couleur suit directement le nom qu'il qualifie, sans marque d'accord visible dans les données disponibles (ex. 'dùgí fíiqè' = pagne blanc).",
       "rules": [
-        "Structure : Substantif + Adjectif de couleur",
-        "L'adjectif reste invariable en genre."
+        "nom + couleur",
+        "Les couleurs peuvent aussi s'employer comme verbes d'état (ex. 'fíiqá' = être blanc, 'fɔ́ɔrɔ́' = être noir)"
       ],
       "examples": [
         {
-          "structure": "Kuba gbeeli",
-          "phonetic_api": "/ku.ba ɡbeː.li/",
-          "meaning": "Un chapeau rouge (littéralement : Chapeau rouge)"
-        }
-      ]
-    },
-    {
-      "concept": "L'expression du choix sélectif avec 'nan'",
-      "explanation": "Lorsqu'on sélectionne une couleur ou un objet précis parmi d'autres, la particule de focalisation 'nan' s'intercale immédiatement après l'adjectif pour appuyer l'affirmation ou le désir.",
-      "rules": [
-        "Nom + Couleur + nan + Verbe/Postposition",
-        "Sert à valider un choix devant un vendeur."
-      ],
-      "examples": [
+          "structure": "dùgí + fíiqè",
+          "phonetic_api": "/dùgí fíiqè/",
+          "meaning": "un pagne blanc"
+        },
         {
-          "structure": "Donma fori nan na.",
-          "phonetic_api": "/don.ma fo.ri nan na/",
-          "meaning": "C'est précisément l'habit noir."
+          "structure": "à + fíiqá",
+          "phonetic_api": "/à fíiqá/",
+          "meaning": "il/elle est blanc(he)"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Fanta",
-      "text": "Amara, i sigama taaxui mɛ ? N bɛ donma xanfe.",
-      "phonetic_api": "/a.ma.ra i si.ɡa.ma taː.xui mɛ ŋ bɛ don.ma xan.fe/",
-      "phonetic_simple": "A-MA-RA, I SI-GA-MA TAA-KHOUI MÈ ? N BÈ DON-MA KHAN-FÉ",
-      "translation": "Amara, tu vas au marché ? Je voudrais un vêtement."
+      "speaker": "Vendeur",
+      "text": "Dùgí fíiqè náŋ bée, dùgí fɔ́ɔrɛ̀ fàn náŋ bée.",
+      "phonetic_api": "/dùgí fíiqè náŋ bée, dùgí fɔ́ɔrɛ̀ fàn náŋ bée/",
+      "phonetic_simple": "dou-GI FI-i-qè nang BÉ-é, dou-GI FÔ-ô-rè fan nang BÉ-é",
+      "translation": "Il y a un pagne blanc ici, et aussi un pagne noir ici."
     },
     {
-      "speaker": "Amara",
-      "text": "Nba, n sigama. Mun maalin nan na i bɛ ?",
-      "phonetic_api": "/ŋba ŋ si.ɡa.ma mun maː.lin nan na i bɛ/",
-      "phonetic_simple": "NBA, N SI-GA-MA. MOUN MAA-LIN NAN NA I BÈ ?",
-      "translation": "Oui, j'y vais. Quelle couleur désires-tu ?"
+      "speaker": "Client",
+      "text": "Ń wáa dùgí gwéelì.",
+      "phonetic_api": "/ń wáa dùgí gwéelì/",
+      "phonetic_simple": "n WA-a dou-GI GUÉ-é-li",
+      "translation": "Je veux le pagne rouge."
     },
     {
-      "speaker": "Fanta",
-      "text": "N bɛ donma fixɛ nun sankiri fori nan xanfe.",
-      "phonetic_api": "/ŋ bɛ don.ma fi.xɛ nun san.ki.ri fo.ri nan xan.fe/",
-      "phonetic_simple": "N BÈ DON-MA FI-KHÈ NOUN SAN-KI-RI FO-RI NAN KHAN-FÉ",
-      "translation": "Je veux un vêtement blanc et des chaussures noires."
+      "speaker": "Vendeur",
+      "text": "Awa, sàré mín.",
+      "phonetic_api": "/awa, sàré mín/",
+      "phonetic_simple": "a-wa, sa-RÉ min",
+      "translation": "D'accord, voici le prix."
     },
     {
-      "speaker": "Amara",
-      "text": "Nba, n na e tongo i bɛ. Won mami.",
-      "phonetic_api": "/ŋba ŋ na e ton.ɡo i bɛ won ma.mi/",
-      "phonetic_simple": "NBA, N NA É TON-GO I BÈ. WON MA-MI",
-      "translation": "D'accord, je vais les prendre pour toi. Au revoir."
+      "speaker": "Client",
+      "text": "Sàŋkírì fɔ́ɔrɛ̀ náŋ bà?",
+      "phonetic_api": "/sàŋkírì fɔ́ɔrɛ̀ náŋ bà/",
+      "phonetic_simple": "sang-KI-ri FÔ-ô-rè nang ba",
+      "translation": "Y a-t-il des chaussures noires ?"
+    },
+    {
+      "speaker": "Vendeur",
+      "text": "Awa, sàŋkírì fɔ́ɔrɛ̀ náŋ.",
+      "phonetic_api": "/awa, sàŋkírì fɔ́ɔrɛ̀ náŋ/",
+      "phonetic_simple": "a-wa, sang-KI-ri FÔ-ô-rè nang",
+      "translation": "Oui, il y a des chaussures noires."
     }
   ],
   "cultural_notes": [
-    "Les vêtements traditionnels en tissu blanc ('fixɛ') revêtent une symbolique de pureté et de respect très forte en Guinée, portés préférentiellement lors des jours de prière, des cérémonies de mariage ou des événements communautaires.",
-    "Les tailleurs locaux occupent une place centrale dans les marchés des villes comme Faranah, où l'achat de tissus colorés précède toujours la confection sur mesure d'un grand boubou ('donma')."
+    "Le port du pagne (dùgí) reste très répandu dans la vie quotidienne et lors des cérémonies en Guinée, y compris chez les Yalunka.",
+    "Selon une source ethnographique (D.I.C.E. Missouri), le 'Ronko', vêtement traditionnel ample porté par les chefs, forgerons et guerriers, est documenté chez plusieurs peuples de Sierra Leone dont les Yalunka."
   ],
   "exercises": [
     {
-      "exercise_id": "ex9_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Comment dit-on 'Un habit noir' en Yalunka ?",
+      "question": "Que signifie 'fɔ́ɔrɛ̀' ?",
       "options": [
-        "Fori donma",
-        "Donma fori",
-        "Donma fixɛ"
+        "noir",
+        "blanc",
+        "rouge"
       ],
-      "correct_answer": "Donma fori",
-      "explanation": "L'adjectif se place après le nom. 'Donma' (habit) est suivi de 'fori' (noir)."
+      "correct_answer": "noir",
+      "explanation": "Attesté dans Creissels (2010)."
     },
     {
-      "exercise_id": "ex9_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Pour demander la couleur d'un tissu, on utilise le terme désignant la couleur : Mun [ ___ ] na i bɛ ?",
-      "correct_answer": "maalin",
-      "hint": "C'est le mot générique pour dire teinte, couleur ou aspect coloré."
+      "sentence_with_blank": "« Un pagne » se dit : [ ___ ].",
+      "correct_answer": "dùgí",
+      "hint": "C'est le mot pour 'pagne, tissu, linge'."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Denis Creissels — Liste lexicale du dialonké de Faléya, Mandenkan 46 (2010), pp. 49-71",
+      "url": "http://www.deniscreissels.fr/public/Creissels-liste_lexicale_dialonke.pdf"
+    },
+    {
+      "label": "D.I.C.E. Missouri — Yalunka (fiche ethnographique : société, vêtements, croyances)",
+      "url": "https://dice.missouri.edu/assets/docs/niger-congo/Yalunka.pdf"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Les couleurs blanc, noir, rouge et bleu ainsi que les mots pagne/habit/chaussure sont attestés dans Creissels (2010). Aucune source consultée ne fournit de mot pour 'jaune' ou 'vert' en yalunka : ces couleurs sont donc volontairement absentes de cette leçon plutôt que inventées."
 }

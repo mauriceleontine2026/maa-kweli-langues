@@ -13,6 +13,9 @@ export async function signInWithGoogle() {
     provider: 'google',
     options: {
       redirectTo,
+      queryParams: {
+        prompt: 'select_account',
+      },
     },
   });
   if (error) throw error;
@@ -29,7 +32,7 @@ export async function signUp(email, password, fullName) {
     password,
     options: {
       data: fullName ? { full_name: fullName } : undefined,
-      emailRedirectTo: `${window.location.origin}/login`,
+      emailRedirectTo: 'https://maa-kweli-langues.vercel.app/login',
     },
   });
   if (error) throw error;

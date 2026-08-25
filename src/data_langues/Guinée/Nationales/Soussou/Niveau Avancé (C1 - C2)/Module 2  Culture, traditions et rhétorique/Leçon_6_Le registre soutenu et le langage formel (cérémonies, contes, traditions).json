@@ -6,285 +6,206 @@
   "lesson_number": 6,
   "title": "Le registre soutenu et le langage formel (cérémonies, contes, traditions)",
   "learning_objectives": [
-    "Maîtriser les formules honorifiques protocolaires utilisées lors des cérémonies coutumières (mariages, baptêmes)",
-    "Employer le lexique de la poétique et de la bénédiction ancestrale ('xari')",
-    "Adapter son niveau de langue aux exigences oratoires de la déclamation des contes et récits sacrés"
+    "Employer les formules optatives figées en 'Ala xa...' (que Dieu...) propres aux discours de cérémonie",
+    "Utiliser le vocabulaire des événements de vie formels : baptême, mariage, décès",
+    "Reconnaître les formules de salutation cérémonielles longues, plus élaborées que les salutations courantes"
   ],
   "phonetic_focus": {
-    "key_sounds": "Cette leçon met l'accent sur les intonations solennelles et l'allongement mélodique des voyelles dans les termes rituels comme 'xari' /xari/ et 'fala'. La consonne fricative vélaire sourde /x/ doit être prononcée de manière très nette pour solenniser le discours.",
-    "common_pitfalls": "Évitez absolument d'introduire des tics de langage du registre familier urbain. Le rythme de déclamation cérémoniel est posé, chaque syllabe finale étant légèrement étirée pour marquer la déférence due à l'audience."
+    "key_sounds": "Les formules cérémonielles s'enchaînent souvent sans pause marquée ('Ala lantu ! Barakh'Ala !') ; à l'oral formel, l'intonation reste égale et posée, sans emphase excessive, signe de respect.",
+    "common_pitfalls": "Le registre formel emploie des constructions figées qu'il ne faut pas décomposer ou modifier librement (par exemple 'Ala xa diyçrE balo' ne s'improvise pas librement mot à mot) ; il s'agit de formules fixes à mémoriser comme des blocs, à la manière des formules de politesse françaises figées ('Veuillez agréer...')."
   },
   "vocabulary": [
     {
-      "word_id": "v24_1",
-      "term": "Xari",
-      "phonetic_api": "/xari/",
-      "phonetic_simple": "KHA-RI",
-      "translation": "Bénédiction ancestrale / Grâce / Protection rituelle",
-      "example_sentence": "Benbaé xari na won xun ma to.",
-      "example_phonetic": "/beⁿbae xari na woⁿ xuⁿ ma to/",
-      "example_translation": "La bénédiction des ancêtres repose sur nos têtes aujourd'hui."
+      "word_id": "v1",
+      "term": "diyçrE / dimè",
+      "phonetic_api": "/dijɔrɛ/",
+      "phonetic_simple": "di-YO-rè",
+      "translation": "l'enfant, le nouveau-né (registre cérémoniel)",
+      "example_sentence": "Ala xa diyçrE balo.",
+      "example_phonetic": "/ala xa dijɔrɛ balo/",
+      "example_translation": "Que Dieu fasse grandir l'enfant."
     },
     {
-      "word_id": "v24_2",
-      "term": "Saranxun",
-      "phonetic_api": "/saraⁿxuⁿ/",
-      "phonetic_simple": "SA-RAN-KHOUN",
-      "translation": "Assemblée sacrée / Conseil des notables / Tribunal coutumier",
-      "example_sentence": "Saranxun dɔxɔxi fanyi ra.",
-      "example_phonetic": "/saraⁿxuⁿ dɔxɔxi faɲi ra/",
-      "example_translation": "L'assemblée des sages est solennellement installée."
+      "word_id": "v2",
+      "term": "futixiri",
+      "phonetic_api": "/futixiri/",
+      "phonetic_simple": "fou-ti-KHI-ri",
+      "translation": "le mariage (cérémonie)",
+      "example_sentence": "Ala xa futi sabati.",
+      "example_phonetic": "/ala xa futi sabati/",
+      "example_translation": "Que Dieu fasse réussir le mariage."
     },
     {
-      "word_id": "v24_3",
-      "term": "Tinnafiixɛ",
-      "phonetic_api": "/tiⁿnafiːxɛ/",
-      "phonetic_simple": "TIN-NA-FII-KHÈ",
-      "translation": "Pureté morale / Intégrité absolue / Sincérité rituelle",
-      "example_sentence": "Won xa na raba tinnafiixɛ yati ra.",
-      "example_phonetic": "/woⁿ xa na raba tiⁿnafiːxɛ yati ra/",
-      "example_translation": "Nous devons accomplir cela avec une intégrité rituelle absolue."
+      "word_id": "v3",
+      "term": "dibari",
+      "phonetic_api": "/dibari/",
+      "phonetic_simple": "di-BA-ri",
+      "translation": "la naissance",
+      "example_sentence": "Ala xa di ramini hEri.",
+      "example_phonetic": "/ala xa di ramini hɛri/",
+      "example_translation": "Que Dieu fasse que la naissance se passe bien."
     },
     {
-      "word_id": "v24_4",
-      "term": "Taruxu",
-      "phonetic_api": "/taruxu/",
-      "phonetic_simple": "TA-ROU-KHOU",
-      "translation": "Récit sacré / Conte traditionnel / Épopée / Chronique",
-      "example_sentence": "Karamoxo na taruxu falafe won bɛ.",
-      "example_phonetic": "/karamoxo na taruxu falafɛ woⁿ bɛ/",
-      "example_translation": "Le maître est en train de déclamer un récit sacré pour nous."
+      "word_id": "v4",
+      "term": "faxE",
+      "phonetic_api": "/faxɛ/",
+      "phonetic_simple": "fa-KHÈ",
+      "translation": "la mort, le décès",
+      "example_sentence": "Ala xa i hEri lina.",
+      "example_phonetic": "/ala xa i hɛri lina/",
+      "example_translation": "Que Dieu t'apporte le bien demain (formule de réconfort après un décès)."
     },
     {
-      "word_id": "v24_5",
-      "term": "Bɔɲɛ fan",
-      "phonetic_api": "/bɔɲɛ faⁿ/",
-      "phonetic_simple": "BO-NYÈ FAN",
-      "translation": "Magnanimité / Bienveillance magnanime / Clémence",
-      "example_sentence": "I ma bɔɲɛ fan dangi fe birin ma.",
-      "example_phonetic": "/i ma bɔɲɛ faⁿ daⁿɡi fɛ biriⁿ ma/",
-      "example_translation": "Ta magnanimité surpasse toute chose."
+      "word_id": "v5",
+      "term": "Alhamdulilahi",
+      "phonetic_api": "/alhamdulilahi/",
+      "phonetic_simple": "al-ham-dou-li-LA-hi",
+      "translation": "Dieu soit loué, grâce à Dieu (formule religieuse figée d'origine arabe)",
+      "example_sentence": "Alhamdulilahi, n bara sEwa.",
+      "example_phonetic": "/alhamdulilahi, n bara sɛwa/",
+      "example_translation": "Dieu soit loué, je suis heureux/heureuse."
     },
     {
-      "word_id": "v24_6",
-      "term": "Moni",
-      "phonetic_api": "/moni/",
-      "phonetic_simple": "MO-NI",
-      "translation": "Sanctifier / Écarter le blasphème / Exclure le mal",
-      "example_sentence": "Ala xa fe foraxi moni won ma saranxun ma.",
-      "example_phonetic": "/ala xa fɛ foraxi moni woⁿ ma saraⁿxuⁿ ma/",
-      "example_translation": "Que Dieu exclue le mal (les dérives obscures) de notre assemblée sacrée."
-    },
-    {
-      "word_id": "v24_7",
-      "term": "Marasiyati",
-      "phonetic_api": "/marasiyati/",
-      "phonetic_simple": "MA-RA-SI-YA-TI",
-      "translation": "Précepte ancestral / Enseignement suprême des anciens",
-      "example_sentence": "Won xa marasiyati ki tongo.",
-      "example_phonetic": "/woⁿ xa marasiyati ki toⁿɡo/",
-      "example_translation": "Suivons ce précepte ancestral."
-    },
-    {
-      "word_id": "v24_8",
-      "term": "Taalɛ",
-      "phonetic_api": "/taːlɛ/",
-      "phonetic_simple": "TAA-LÈ",
-      "translation": "Parabole rituelle / Allégorie poétique",
-      "example_sentence": "Taruxu na taalɛé barife.",
-      "example_phonetic": "/taruxu na taːlɛe barifɛ/",
-      "example_translation": "Le récit sacré enfante des paraboles rituelles."
-    },
-    {
-      "word_id": "v24_9",
-      "term": "Dɔxɔxi",
-      "phonetic_api": "/dɔxɔxi/",
-      "phonetic_simple": "DO-KHO-KHI",
-      "translation": "Consacré / Établi de droit / Immuable",
-      "example_sentence": "Tɔɲɛé dɔxɔxi won bɛ babilong.",
-      "example_phonetic": "/tɔɲɛe dɔxɔxi woⁿ bɛ babiloⁿ/",
-      "example_translation": "Les règles sont établies pour nous de manière immuable pour l'avenir."
-    },
-    {
-      "word_id": "v24_10",
-      "term": "Babilong yati ma",
-      "phonetic_api": "/babiloⁿ yati ma/",
-      "phonetic_simple": "BA-BI-LONG YA-TI MA",
-      "translation": "Dans l'éternité / À travers les générations futures",
-      "example_sentence": "Won ma xari fama findife fe yati ra babilong yati ma.",
-      "example_phonetic": "/woⁿ ma xari fama fiⁿdifɛ fɛ yati ra babiloⁿ yati ma/",
-      "example_translation": "Notre bénédiction se transformera en réalité concrète à travers les générations futures."
+      "word_id": "v6",
+      "term": "wini",
+      "phonetic_api": "/wini/",
+      "phonetic_simple": "WI-ni",
+      "translation": "la réussite, le succès",
+      "example_sentence": "Ala xa i xa wali siga yare.",
+      "example_phonetic": "/ala xa i xa wali siɡa jare/",
+      "example_translation": "Que Dieu t'aide à réussir dans ton travail là-bas."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p24_1",
-      "original": "Ala xa won bɔɲɛé maxa tinnafiixɛ ra, won xa xari tongo to ma ma ségé ma.",
-      "phonetic_api": "/ala xa woⁿ bɔɲɛe maxa tiⁿnafiːxɛ ra woⁿ xa xari toⁿɡo to ma ma seɡe ma/",
-      "phonetic_simple": "A-LA KHA WON BO-NYÈÈ MA-KHA TIN-NA-FII-KHÈ RA, WON KHA KHA-RI TON-GO TO MA MA SÉ-GUÉ MA",
-      "translation": "Que Dieu purifie nos cœurs par l'intégrité absolue, afin que nous recevions la bénédiction cérémonielle ce matin.",
-      "context": "Ouverture d'une cérémonie de mariage ou de baptême par l'orateur officiel."
+      "phrase_id": "p1",
+      "original": "Ala xa diyçrE balo",
+      "phonetic_api": "/ala xa dijɔrɛ balo/",
+      "phonetic_simple": "a-LA kha di-YO-rè BA-lo",
+      "translation": "Que Dieu fasse grandir l'enfant",
+      "context": "Formule prononcée lors d'un baptême ou en apprenant une naissance."
     },
     {
-      "phrase_id": "p24_2",
-      "original": "Saranxun naxan dɔxɔxi yanbɛ, na findi fe gbeengbe ra naxan dangi fe birin ma.",
-      "phonetic_api": "/saraⁿxuⁿ naxaⁿ dɔxɔxi yaⁿbɛ na fiⁿdi fɛ ɡbeːnɡbɛ ra naxaⁿ daⁿɡi fɛ biriⁿ ma/",
-      "phonetic_simple": "SA-RAN-KHOUN NA-KHAN DO-KHO-KHI YAN-BÈ, NA FIN-DI FÈ GBÉÉN-GBÈ RA NA-KHAN DAN-GUI FÈ BI-RIN MA",
-      "translation": "L'assemblée sacrée qui est établie ici constitue l'instance suprême qui l'emporte sur toute chose.",
-      "context": "Formule solennelle pour asseoir la légitimité d'un conseil de sages lors d'un arbitrage."
+      "phrase_id": "p2",
+      "original": "Ala xa futi sabati",
+      "phonetic_api": "/ala xa futi sabati/",
+      "phonetic_simple": "a-LA kha FOU-ti sa-ba-TI",
+      "translation": "Que Dieu fasse réussir le mariage",
+      "context": "Formule de bénédiction adressée aux mariés ou à leur famille."
     },
     {
-      "phrase_id": "p24_3",
-      "original": "Naxan ma fe ra, won xa benbaé ma marasiyatié sanka alɔ taruxu mu xa ɔlɔ babilong.",
-      "phonetic_api": "/naxaⁿ ma fɛ ra woⁿ xa beⁿbae ma marasiyatiɛ saⁿka alɔ taruxu mu xa ɔlɔ babiloⁿ/",
-      "phonetic_simple": "NA-KHAN MA FÈ RA, WON KHA BEN-BA-É MA MA-RA-SI-YA-TI-É SAN-KA A-LO TA-ROU-KHOU MOU KHA O-LO BA-BI-LONG",
-      "translation": "C'est pourquoi nous devons impérativement défendre les préceptes de nos ancêtres afin que notre épopée sacrée ne soit pas corrompue à l'avenir.",
-      "context": "Transition rhétorique au cœur d'une harangue sur la préservation des traditions."
+      "phrase_id": "p3",
+      "original": "Ala tantun",
+      "phonetic_api": "/ala tantun/",
+      "phonetic_simple": "a-LA tan-TOUN",
+      "translation": "Dieu merci / grâce à Dieu",
+      "context": "Réponse formelle à une question de politesse ('comment vas-tu ?') dans un registre soutenu ou pieux."
     },
     {
-      "phrase_id": "p24_4",
-      "original": "Hali yati won ma gɔfɛé xa kere ki ma, won ma tinnafiixɛ fama sewa barife babilong yati ma.",
-      "phonetic_api": "/hali yati woⁿ ma ɡɔfɛe xa kerɛ ki ma woⁿ ma tiⁿnafiːxɛ fama sewa barifɛ babiloⁿ yati ma/",
-      "phonetic_simple": "HA-LI YA-TI WON MA GO-FÈ-É KHA KÉ-RÈ KI MA, WON MA TIN-NA-FII-KHÈ FA-MA SÉ-WA BA-RI-FÈ BA-BI-LONG YA-TI MA",
-      "translation": "Quand bien même nos ressources matérielles viendraient à manquer à présent, notre intégrité morale enfantera la joie à travers les générations futures.",
-      "context": "Plaidoyer éthique lors d'un grand rassemblement villageois ou d'une cérémonie de dot."
+      "phrase_id": "p4",
+      "original": "Alla lantu !",
+      "phonetic_api": "/alla lantu/",
+      "phonetic_simple": "A-la LAN-tou",
+      "translation": "Dieu soit loué !",
+      "context": "Exclamation formelle de clôture d'un échange de salutations cérémonielles, attestée dans les recueils de phrases usuelles."
     },
     {
-      "phrase_id": "p24_5",
-      "original": "Na fe ma, won xa fe foraxi birin moni alɔ won ma taalɛé xa dɔxɔ fanyi ra won bɔɲɛé ma.",
-      "phonetic_api": "/na fɛ ma woⁿ xa fɛ foraxi biriⁿ moni alɔ woⁿ ma taːlɛe xa dɔxɔ faɲi ra woⁿ ma bɔɲɛe ma/",
-      "phonetic_simple": "NA FÈ MA, WON KHA FÈ FO-RA-KHI BI-RIN MO-NI A-LO WON MA TAA-LÈ-É KHA DO-KHO FAN-YI RA WON MA BO-NYÈÈ MA",
-      "translation": "À ce sujet, il nous faut sanctifier l'espace de toutes les dérives obscures afin que nos paraboles rituelles s'installent durablement dans nos esprits.",
-      "context": "Formule d'introduction à la déclamation nocturne des contes sacrés sous l'arbre à palabres."
-    },
-    {
-      "phrase_id": "p24_6",
-      "original": "Naxanba won ma taruxué xa dɔxɔ, na findi fe ra naxan won fama nɔfe babilong yati.",
-      "phonetic_api": "/naxaⁿba woⁿ ma taruxuɛ xa dɔxɔ na fiⁿdi fɛ ra naxaⁿ woⁿ fama nɔfɛ babiloⁿ yati/",
-      "phonetic_simple": "NA-KHAN-BA WON MA TA-ROU-KHOU-É KHA DO-KHO, NA FIN-DI FÈ RA NA-KHAN WON FA-MA NO-FÈ BA-BI-LONG YA-TI",
-      "translation": "Au cas où nos récits sacrés demeureraient immuables, ce qui implique que nous l'emporterons à travers l'éternité.",
-      "context": "Formuler une prophétie ou un voeu de pérennité pour l'identité culturelle du clan."
-    },
-    {
-      "phrase_id": "p24_7",
-      "original": "A ma bɔɲɛ fan nan na ra naxan na won birin malife fe yati ma ki ra.",
-      "phonetic_api": "/a ma bɔɲɛ faⁿ naⁿ na ra naxaⁿ na woⁿ biriⁿ malifɛ fɛ yati ma ki ra/",
-      "phonetic_simple": "A MA BO-NYÈ FAN NAN NA RA NA-KHAN NA WON BI-RIN MA-LI-FÈ FÈ YA-TI MA KI RA",
-      "translation": "Sa clémence magnanime s'avère être la force qui nous guide tous dans la réalité concrète en ce jour.",
-      "context": "Prononcer l'éloge traditionnel ('panégyrique') d'un chef coutumier ou d'un tuteur bienveillant."
-    },
-    {
-      "phrase_id": "p24_8",
-      "original": "Na ɲɛndɛxi fanyi ra, won ma xarié birin fama findife fe yati ra babilong yati ma.",
-      "phonetic_api": "/na ɲɛndɛxi faɲi ra woⁿ ma xarie biriⁿ fama fiⁿdifɛ fɛ yati ra babiloⁿ yati ma/",
-      "phonetic_simple": "NA NYÈN-DÈ-KHI FAN-YI RA, WON MA KHA-RI-É BI-RIN FA-MA FIN-DI-FÈ FÈ YA-TI RA BA-BI-LONG YA-TI MA",
-      "translation": "Cela étant rigoureusement ordonné selon les rites, toutes nos grâces ancestrales se transformeront en réalité concrète pour l'éternité.",
-      "context": "Formule de bénédiction finale et de clôture solennelle d'un grand protocole traditionnel."
+      "phrase_id": "p5",
+      "original": "N bara sEwa",
+      "phonetic_api": "/n bara sɛwa/",
+      "phonetic_simple": "n BA-ra SÈ-wa",
+      "translation": "Je suis heureux/heureuse (formule d'accompli, registre soutenu)",
+      "context": "S'emploie pour exprimer une joie sincère lors d'un événement heureux (naissance, mariage, réussite)."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'impératif poli d'exhortation collective au subjonctif-optatif de registre soutenu",
-      "explanation": "Dans le langage formel des cérémonies et des contes, donner un ordre direct à l'impératif est proscrit car jugé impoli envers les anciens. L'orateur recourt à la structure d'exhortation collective au subjonctif avec la particule 'xa' précédée du pronom inclusif 'won' (nous ensemble), remplaçant l'impératif.",
+      "concept": "Les formules optatives figées 'Ala xa...' du registre cérémoniel",
+      "explanation": "Le registre soutenu soussou, notamment lors des événements de vie (naissance, mariage, décès, réussite), mobilise des formules figées introduites par 'Ala xa' (littéralement 'Dieu que') suivi d'un verbe au radical simple, sans marqueur temporel : ce sont des bénédictions ritualisées, non des phrases construites librement. Elles doivent être apprises comme des unités globales.",
       "rules": [
-        "Structure : Won + xa + [Verbe d'action à la forme nue] + [Compléments].",
-        "Cette tournure est traduite en français par 'il nous faut impérativement' ou 'veillons à'."
+        "Structure figée : Ala xa + Sujet + Verbe(radical) — ne pas ajouter de marqueur temporel comme -ma ou nu",
+        "Ces formules varient selon l'événement : naissance (diyçrE balo), mariage (futi sabati), départ/tâche (wali siga yare)"
       ],
       "examples": [
         {
-          "structure": "Won + xa + xari + tongo",
-          "phonetic_api": "/woⁿ xa xari toⁿɡo/",
-          "meaning": "Recevons la bénédiction cérémonielle (Veillons à recueillir la grâce)."
-        }
-      ]
-    },
-    {
-      "concept": "La complexification des groupes compléments circonstanciels de temps à portée mémorielle",
-      "explanation": "Pour inscrire l'action présente dans la continuité mémorielle et mythique de la culture soussou, les repères temporels simples sont remplacés par des locutions denses fusionnant le destin et la postposition locative 'ma', à l'instar de 'babilong yati ma' (dans l'éternité).",
-      "rules": [
-        "Le nom composé 'babilong yati' (le futur absolu / l'éternité du destin) se place en bloc prépositionnel.",
-        "Il est suivi de la postposition d'ancrage spirituel 'ma'."
-      ],
-      "examples": [
+          "structure": "Ala xa diyçrE balo",
+          "phonetic_api": "/ala xa dijɔrɛ balo/",
+          "meaning": "Que Dieu fasse grandir l'enfant (bénédiction de naissance/baptême)"
+        },
         {
-          "structure": "Babilong yati + ma",
-          "phonetic_api": "/babiloⁿ yati ma/",
-          "meaning": "Pour l'éternité / À travers les générations futures."
+          "structure": "Ala xa futi sabati",
+          "phonetic_api": "/ala xa futi sabati/",
+          "meaning": "Que Dieu fasse réussir le mariage (bénédiction de mariage)"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Le Maître de Cérémonie (Griot)",
-      "text": "Saranxun kanyéé, won ma saranxun dɔxɔxi fanyi ra yanbɛ ! Ala xa won bɔɲɛé maxa tinnafiixɛ ra fe ki ma.",
-      "phonetic_api": "/saraⁿxuⁿ kaɲeː woⁿ ma saraⁿxuⁿ dɔxɔxi faɲi ra yaⁿbɛ ala xa woⁿ bɔɲɛe maxa tiⁿnafiːxɛ ra fɛ ki ma/",
-      "phonetic_simple": "SA-RAN-KHOUN KA-NYÉÉ, WON MA SA-RAN-KHOUN DO-KHO-KHI FAN-YI RA YAN-BÈ ! A-LA KHA WON BO-NYÈÈ MA-KHA TIN-NA-FII-KHÈ RA FÈ KI MA.",
-      "translation": "Honorables membres du conseil, notre assemblée sacrée est magnifiquement établie ici ! Que Dieu purifie nos cœurs par une intégrité absolue en cette heure sainte."
+      "speaker": "L'hôte",
+      "text": "Won bara diyçrE sotokhi. A Ramini nE xoro.",
+      "phonetic_api": "/won bara dijɔrɛ sotoxi, a ramini nɛ xoro/",
+      "phonetic_simple": "won BA-ra di-YO-rè so-to-KHI, a ra-MI-ni nè kho-RO",
+      "translation": "Nous avons eu un enfant. Il/elle est né(e) hier."
     },
     {
-      "speaker": "L'Aîné du Conseil (Notable)",
-      "text": "I nuwali, n ma karamoxo. Na fe ma, won xa won ma benbaé ma marasiyatié sanka alɔ taruxu mu xa ɔlɔ babilong.",
-      "phonetic_api": "/i nuwali n ma karamoxo na fɛ ma woⁿ xa beⁿbae ma marasiyatiɛ saⁿka alɔ taruxu mu xa ɔlɔ babiloⁿ/",
-      "phonetic_simple": "I NOU-WA-LI, N MA KA-RA-MO-KHO. NA FÈ MA, WON KHA WON MA BEN-BA-É MA MA-RA-SI-YA-TI-É SAN-KA A-LO TA-ROU-KHOU MOU KHA O-LO BA-BI-LONG.",
-      "translation": "Je te remercie, ô grand maître du verbe. À ce sujet, il nous incombe de défendre les préceptes de nos ancêtres afin que notre épopée sacrée ne soit pas corrompue à l'avenir."
+      "speaker": "L'invité",
+      "text": "Alhamdulilahi ! Ala xa diyçrE balo. Ala xa i hEri lina fan.",
+      "phonetic_api": "/alhamdulilahi, ala xa dijɔrɛ balo, ala xa i hɛri lina fan/",
+      "phonetic_simple": "al-ham-dou-li-LA-hi, a-LA kha di-YO-rè BA-lo, a-LA kha i HÈ-ri LI-na fan",
+      "translation": "Dieu soit loué ! Que Dieu fasse grandir l'enfant. Que Dieu t'apporte aussi le bien demain."
     },
     {
-      "speaker": "Le Maître de Cérémonie (Griot)",
-      "text": "Fe yati nan na ra. Naxanba won ma taruxué xa dɔxɔ fanyi ra, won ma xarié fama findife fe yati ra babilong yati ma.",
-      "phonetic_api": "/fɛ yati naⁿ na ra naxaⁿba woⁿ ma taruxuɛ xa dɔxɔ faɲi ra woⁿ ma xarie fama fiⁿdifɛ fɛ yati ra babiloⁿ yati ma/",
-      "phonetic_simple": "FÈ YA-TI NAN NA RA. NA-KHAN-BA WON MA TA-ROU-KHOU-É KHA DO-KHO FAN-YI RA, WON MA KHA-RI-É BI-RIN FA-MA FIN-DI-FÈ FÈ YA-TI RA BA-BI-LONG YA-TI MA.",
-      "translation": "C'est la pure vérité. Au cas où nos récits sacrés demeureraient immuables et respectés, toutes nos grâces ancestrales se transformeront en réalité concrète pour l'éternité."
+      "speaker": "L'hôte",
+      "text": "N bara sEwa apissa. I nu wali i xa fama.",
+      "phonetic_api": "/n bara sɛwa apissa, i nu wali i xa fama/",
+      "phonetic_simple": "n BA-ra SÈ-wa a-PI-sa, i nou WA-li i kha fa-MA",
+      "translation": "Je suis extrêmement heureux/heureuse. Merci d'être venu(e)."
     },
     {
-      "speaker": "L'Aîné du Conseil (Notable)",
-      "text": "A ma bɔɲɛ fan nan na ra naxan na won birin malife. Ala xa won moni fe foraxi birin ma won ma tete ma. Won tina !",
-      "phonetic_api": "/a ma bɔɲɛ faⁿ naⁿ na ra naxaⁿ na woⁿ biriⁿ malifɛ ala xa woⁿ moni fɛ foraxi biriⁿ ma woⁿ ma tetɛ ma woⁿ tina/",
-      "phonetic_simple": "A MA BO-NYÈ FAN NAN NA RA NA-KHAN NA WON BI-RIN MA-LI-FÈ. A-LA KHA WON MO-NI FÈ FO-RA-KHI BI-RIN MA WON MA TÉ-TÈ MA. WON TI-NA !",
-      "translation": "C'est sa clémence magnanime qui nous guide tous. Que Dieu nous préserve de toutes les dérives obscures au sein de notre concession. À demain !"
+      "speaker": "L'invité",
+      "text": "Ala tantun. Won gèsègè.",
+      "phonetic_api": "/ala tantun, won ɡɛsɛɡɛ/",
+      "phonetic_simple": "a-LA tan-TOUN, won GUÈ-sè-GUÈ",
+      "translation": "Dieu merci. À demain matin."
     }
   ],
   "cultural_notes": [
-    "Dans la tradition soussou de la Basse-Guinée, le langage formel et le registre soutenu atteignent leur apogée lors des rituels familiaux et communautaires. La parole y est portée par le griot ou un notable désigné, qui utilise le concept de 'xari' (la bénédiction / grâce recueillie auprès de Dieu et des ancêtres) pour sceller l'autorité morale de l'événement. Un discours cérémoniel réussi doit entrelacer des vœux de pureté ('tinnafiixɛ'), des rappels d'épopées historiques ('taruxu') et des bénédictions protectrices, garantissant la transmission et l'immuabilité de l'identité collective face aux outrages du temps."
+    "Le registre formel soussou, très marqué religieusement (islam majoritaire), attribue systématiquement les événements heureux ou malheureux à la volonté divine, d'où l'omniprésence de formules invoquant Ala (Dieu) dans le discours cérémoniel.",
+    "Les événements de vie majeurs — 'di ramini' (baptême), 'futixiri' (mariage), 'dibari' (naissance), 'faxE' (décès) — sont chacun accompagnés de formules figées spécifiques que la communauté prononce collectivement, renforçant la cohésion sociale.",
+    "Lors d'un événement malheureux ('masiboe' = accident, 'mu¯En' = vol, 'tE so' = incendie), les formules de réconfort ('Ala xa i hEri lina' = que Dieu t'apporte le bien demain) remplacent toute expression de blâme ou de colère, dans un registre de dignité posée."
   ],
   "exercises": [
     {
-      "exercise_id": "ex24_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel terme de registre supérieur désigne une bénédiction ancestrale ou une grâce rituelle en soussou formel ?",
+      "question": "Quelle formule prononce-t-on typiquement lors d'un mariage ?",
       "options": [
-        "Taruxu",
-        "Xari",
-        "Taalɛ"
+        "Ala xa futi sabati",
+        "Ala xa diyçrE balo",
+        "Won gèsègè"
       ],
-      "correct_answer": "Xari",
-      "explanation": "'Xari' désigne explicitement la bénédiction, la protection spirituelle ou la grâce obtenue lors d'un protocole traditionnel."
+      "correct_answer": "Ala xa futi sabati",
+      "explanation": "'Futi sabati' signifie littéralement 'que le mariage réussisse/soit stable'."
     },
     {
-      "exercise_id": "ex24_2",
-      "type": "multiple_choice",
-      "question": "Que désigne le substantif noble 'Taruxu' déclamé par les anciens sous l'arbre à palabres ?",
-      "options": [
-        "Un règlement commercial",
-        "Une perte monétaire",
-        "Un récit sacré / un conte traditionnel / une épopée historique"
-      ],
-      "correct_answer": "Un récit sacré / un conte traditionnel / une épopée historique",
-      "explanation": "'Taruxu' est le terme consacré pour désigner le patrimoine narratif, historique et mythique de la culture soussou."
-    },
-    {
-      "exercise_id": "ex24_3",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Ala xa won bɔɲɛé maxa [ ___ ] ra. (Que Dieu purifie nos cœurs par l'intégrité absolue...)",
-      "correct_answer": "tinnafiixɛ",
-      "hint": "Ce concept moral supérieur désigne la pureté d'intention, la bonne foi ou la sincérité rituelle."
-    },
-    {
-      "exercise_id": "ex24_4",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Won ma xari fama findife fe yati ra babilong [ ___ ] ma. (...à travers l'éternité.)",
-      "correct_answer": "yati",
-      "hint": "Ce terme renforce le concept de futur lointain pour forger l'expression soutenue de l'éternité temporelle."
+      "sentence_with_blank": "'Dieu soit loué !' se dit : Alla [ ___ ] !",
+      "correct_answer": "lantu",
+      "hint": "C'est le verbe qui signifie 'être loué' dans cette formule figée."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Peace Corps Guinée — Xarandi Xa Buki, Livre du stagiaire Sosoxui (Susu Language Lessons)",
+      "url": "https://fsi-languages.yojik.eu/languages/PeaceCorps/Susu/susu-language-course.pdf"
+    },
+    {
+      "label": "Calaméo — Grammaire et Dictionnaire Français-Soussou et Soussou-Français (proverbes, salutations, conjonctions)",
+      "url": "https://www.calameo.com/books/000061616e6f8234fccef"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Les formules 'Ala xa...' et le vocabulaire des événements de vie (di ramini, futixiri, dibari, faxE) sont directement attestés dans la Compétence 14 du manuel Peace Corps Susu. Les formules générales de bénédiction ('Alla lantu', 'Barakh'Alla', 'Ala tantun') sont corroborées par le recueil de salutations formelles de la source Calaméo, bien que ce dernier utilise une orthographe légèrement différente ('Alla' avec double l, accents) ; ces variations graphiques mineures n'affectent pas le sens attesté des formules."
 }

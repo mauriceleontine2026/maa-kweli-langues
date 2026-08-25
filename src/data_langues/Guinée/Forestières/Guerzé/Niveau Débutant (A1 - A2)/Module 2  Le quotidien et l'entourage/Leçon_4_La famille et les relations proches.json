@@ -6,403 +6,221 @@
   "lesson_number": 4,
   "title": "La famille et les relations proches",
   "learning_objectives": [
-    "Nommer les membres de sa famille proche (père, mère, frère, sœur, mari, épouse, enfant).",
-    "Distinguer l'aîné (líê) du cadet (léɠê) dans la fratrie, une distinction essentielle en kpele.",
-    "Utiliser l'alternance de personne sur les noms relationnels de parenté (nâŋ/náŋ/ǹâŋ).",
-    "Comprendre l'institution culturelle du « cousin à plaisanterie » (kǎna)."
+    "Nommer les principaux membres de la famille en guerzé",
+    "Comprendre la notion de « nom relationnel » (nom qui exige toujours un possesseur)",
+    "Utiliser les marqueurs possessifs de base avec les termes de parenté"
   ],
   "phonetic_focus": {
-    "key_sounds": "Cette leçon multiplie les noms relationnels (rn) déjà rencontrés en Leçon 2 avec láa (prénom) : nâŋ (père), lěe (mère), líê (grand frère/sœur) suivent tous le même schéma d'alternance de personne. On y retrouve aussi le ton descendant HB très fréquent dans les termes de parenté (mánîŋ, léɠê, líê) et la consonne ɲ (comme dans mánîŋ 'neveu, nièce').",
-    "common_pitfalls": "Les francophones ont tendance à : (1) chercher un seul mot pour 'frère' ou 'sœur' sans distinguer l'aîné (líê) du cadet (léɠê), alors que cette distinction est obligatoire en kpele ; (2) traduire lěe uniquement par 'mère biologique', alors que le mot couvre aussi la sœur de la mère et la coépouse de la mère ; (3) oublier que nâŋ (père) change de consonne et de ton selon la personne : nâŋ / náŋ (mon père) / ǹâŋ (son père)."
+    "key_sounds": "Les noms de parenté sont presque tous des « noms relationnels » (rn) : ils ne s'emploient jamais seuls, mais toujours précédés d'un possesseur (mon, ton, son...). Le ton haut-bas descendant (â) est fréquent sur ces mots, par ex. nâŋ « père ».",
+    "common_pitfalls": "Les francophones ont tendance à utiliser les noms de parenté sans marqueur possessif, alors qu'en guerzé cela est presque toujours agrammatical : il faut dire « mon père » (ŋá nâŋ) et non « père » tout seul."
   },
   "vocabulary": [
     {
       "word_id": "v1",
       "term": "nâŋ",
       "phonetic_api": "/nâŋ/",
-      "phonetic_simple": "NANG (descendant)",
-      "translation": "père, oncle paternel (nom relationnel : náŋ = mon père, ǹâŋ = son père)",
-      "example_sentence": "Náŋ gɛ̀áaìn.",
-      "example_phonetic": "/náŋ gɛ̀áaìn/",
-      "example_translation": "Mon père est sévère."
+      "phonetic_simple": "NANG",
+      "translation": "père, oncle paternel (nom relationnel)",
+      "example_sentence": "Ŋá nâŋ ɓáa kólôkɛlaa.",
+      "example_phonetic": "/ŋá nâŋ ɓáa kólôkɛlaa/",
+      "example_translation": "Mon père est un travailleur."
     },
     {
       "word_id": "v2",
       "term": "lěe",
       "phonetic_api": "/lěe/",
-      "phonetic_simple": "lè-e (ton bas)",
-      "translation": "mère (aussi : sœur de la mère, femme du frère du père, coépouse de la mère)",
-      "example_sentence": "lěe kɛ́nɛmûŋ",
-      "example_phonetic": "/lěe kɛ́nɛmûŋ/",
-      "example_translation": "la grande sœur de la mère"
+      "phonetic_simple": "LÉ-è",
+      "translation": "mère (nom relationnel)",
+      "example_sentence": "Ŋá lěe ɓáa Zálikwɛ̀lɛ.",
+      "example_phonetic": "/ŋá lěe ɓáa zálikwɛ̀lɛ/",
+      "example_translation": "Ma mère est à Nzérékoré."
     },
     {
       "word_id": "v3",
-      "term": "líê",
-      "phonetic_api": "/líê/",
-      "phonetic_simple": "LI-ê",
-      "translation": "grand frère, grande sœur (aîné·e) ; aussi forme de courtoisie pour une personne plus âgée",
-      "example_sentence": "líê",
-      "example_phonetic": "/líê/",
-      "example_translation": "grand frère, grande sœur"
+      "term": "mǎa",
+      "phonetic_api": "/mǎa/",
+      "phonetic_simple": "MA-a",
+      "translation": "grand-mère, maman (terme de respect)",
+      "example_sentence": "Ŋá mǎa hɛ̀ɠɛ̂ɛ.",
+      "example_phonetic": "/ŋá mǎa hɛ̀ɠɛ̂ɛ/",
+      "example_translation": "Merci, grand-mère (formule de respect)."
     },
     {
       "word_id": "v4",
-      "term": "léɠê",
-      "phonetic_api": "/léɣê/",
-      "phonetic_simple": "LÉ-ghê",
-      "translation": "petit frère, petite sœur (cadet·te) ; aussi forme de courtoisie pour une personne plus jeune",
-      "example_sentence": "léɠê",
-      "example_phonetic": "/léɣê/",
-      "example_translation": "petit frère, petite sœur"
+      "term": "hǐle",
+      "phonetic_api": "/hǐle/",
+      "phonetic_simple": "HI-lè",
+      "translation": "mari",
+      "example_sentence": "Ŋwɔ̀ hǐle ɓáa kólôkɛlaa.",
+      "example_phonetic": "/ŋwɔ̀ hǐle ɓáa kólôkɛlaa/",
+      "example_translation": "Son mari est un travailleur."
     },
     {
       "word_id": "v5",
-      "term": "mǎa",
-      "phonetic_api": "/mǎa/",
-      "phonetic_simple": "ma-a (ton bas)",
-      "translation": "grand-mère ; aussi « maman » (forme de courtoisie pour les femmes âgées)",
-      "example_sentence": "mǎa",
-      "example_phonetic": "/mǎa/",
-      "example_translation": "grand-mère"
+      "term": "nɛ́a",
+      "phonetic_api": "/nɛ́a/",
+      "phonetic_simple": "NÉ-a",
+      "translation": "épouse, femme (mariée)",
+      "example_sentence": "Ŋwɔ́ nɛ́a ɓáa Zálikwɛ̀lɛ.",
+      "example_phonetic": "/ŋwɔ́ nɛ́a ɓáa zálikwɛ̀lɛ/",
+      "example_translation": "Sa femme est de Nzérékoré."
     },
     {
       "word_id": "v6",
-      "term": "kálâ",
-      "phonetic_api": "/kálâ/",
-      "phonetic_simple": "KA-lâ",
-      "translation": "oncle maternel ; aussi « oncle » (forme de courtoisie pour les hommes âgés)",
-      "example_sentence": "kálâ",
-      "example_phonetic": "/kálâ/",
-      "example_translation": "oncle maternel"
+      "term": "lókòlo",
+      "phonetic_api": "/lókòlo/",
+      "phonetic_simple": "LO-ko-lo",
+      "translation": "enfant",
+      "example_sentence": "Ŋá lókòlo ɓáa tɔ́nɔ̂.",
+      "example_phonetic": "/ŋá lókòlo ɓáa tɔ́nɔ̂/",
+      "example_translation": "J'ai un enfant (litt. mon enfant est un)."
     },
     {
       "word_id": "v7",
-      "term": "tɛ́lɛ̂ŋ",
-      "phonetic_api": "/tɛ́lɛ̂ŋ/",
-      "phonetic_simple": "TÈ-lêng",
-      "translation": "tante (sœur du père)",
-      "example_sentence": "tɛ́lɛ̂ŋ",
-      "example_phonetic": "/tɛ́lɛ̂ŋ/",
-      "example_translation": "tante (sœur du père)"
+      "term": "mɛ́niê",
+      "phonetic_api": "/mɛ́niê/",
+      "phonetic_simple": "MÉ-ni-è",
+      "translation": "ami(e), frère/sœur (au sens large)",
+      "example_sentence": "Ŋá mɛ́niê ɓáa Pépée.",
+      "example_phonetic": "/ŋá mɛ́niê ɓáa pépée/",
+      "example_translation": "Mon ami s'appelle Pépé."
     },
     {
       "word_id": "v8",
-      "term": "mánîŋ",
-      "phonetic_api": "/mánîŋ/",
-      "phonetic_simple": "MA-nîng",
-      "translation": "neveu, nièce (descendants de la sœur)",
-      "example_sentence": "mánîŋ",
-      "example_phonetic": "/mánîŋ/",
-      "example_translation": "neveu, nièce"
-    },
-    {
-      "word_id": "v9",
-      "term": "hǐle",
-      "phonetic_api": "/hǐle/",
-      "phonetic_simple": "hi-le (ton bas)",
-      "translation": "mari (~ hěɠe = se marier, avoir un mari)",
-      "example_sentence": "É híle ká.",
-      "example_phonetic": "/é híle ká/",
-      "example_translation": "Voici ton mari."
-    },
-    {
-      "word_id": "v10",
-      "term": "nɛ́a",
-      "phonetic_api": "/nɛ́a/",
-      "phonetic_simple": "NÈ-a",
-      "translation": "épouse, femme (~ hěɠe = se marier, prendre une femme)",
-      "example_sentence": "nɛ́a",
-      "example_phonetic": "/nɛ́a/",
-      "example_translation": "épouse"
-    },
-    {
-      "word_id": "v11",
-      "term": "lókòlo",
-      "phonetic_api": "/lókòlò/",
-      "phonetic_simple": "LO-ko-lo",
-      "translation": "enfant",
-      "example_sentence": "Ɲàákwɛì kwèí nɛ̀ɛî nòŋ bɔ́.",
-      "example_phonetic": "/ɲàákwɛì kwèí nɛ̀ɛî nòŋ bɔ́/",
-      "example_translation": "Nyaakwei est content de son fils."
-    },
-    {
-      "word_id": "v12",
-      "term": "kǎna",
-      "phonetic_api": "/kǎna/",
-      "phonetic_simple": "ka-na (ton bas)",
-      "translation": "cousin à plaisanterie (relation de parenté à plaisanterie propre à chaque clan)",
-      "example_sentence": "kànalâa",
-      "example_phonetic": "/kànalâa/",
-      "example_translation": "la parenté à plaisanterie"
+      "term": "tɛ́lɛ̂ŋ",
+      "phonetic_api": "/tɛ́lɛ̂ŋ/",
+      "phonetic_simple": "TÉ-lèng",
+      "translation": "tante",
+      "example_sentence": "Ŋá tɛ́lɛ̂ŋ ɓáa Zálikwɛ̀lɛ.",
+      "example_phonetic": "/ŋá tɛ́lɛ̂ŋ ɓáa zálikwɛ̀lɛ/",
+      "example_translation": "Ma tante est de Nzérékoré."
     }
   ],
   "common_phrases": [
     {
       "phrase_id": "p1",
-      "original": "Náŋ gɛ̀áaìn.",
-      "phonetic_api": "/náŋ gɛ̀áaìn/",
-      "phonetic_simple": "NANG guè-AA-in",
-      "translation": "Mon père est sévère.",
-      "context": "Décrire le caractère de son père"
+      "original": "Ŋá nâŋ ɓáa kólôkɛlaa.",
+      "phonetic_api": "/ŋá nâŋ ɓáa kólôkɛlaa/",
+      "phonetic_simple": "nga NANG ba ko-lô-kè-LA",
+      "translation": "Mon père est un travailleur.",
+      "context": "Présenter le père avec le possessif 1SG ŋá."
     },
     {
       "phrase_id": "p2",
-      "original": "É híle ká.",
-      "phonetic_api": "/é híle ká/",
-      "phonetic_simple": "é HI-le ka",
-      "translation": "Voici ton mari.",
-      "context": "Présenter le mari de quelqu'un"
+      "original": "Ŋá lěe ɓáa Zálikwɛ̀lɛ.",
+      "phonetic_api": "/ŋá lěe ɓáa zálikwɛ̀lɛ/",
+      "phonetic_simple": "nga LÉ-è ba ZA-li-kwè-lè",
+      "translation": "Ma mère est à Nzérékoré.",
+      "context": "Indiquer où se trouve la mère."
     },
     {
       "phrase_id": "p3",
-      "original": "Ɲàákwɛì kwèí nɛ̀ɛî nòŋ bɔ́.",
-      "phonetic_api": "/ɲàákwɛì kwèí nɛ̀ɛî nòŋ bɔ́/",
-      "phonetic_simple": "nyaa-KWÈ-i kwè-i nè-è-î nong bó",
-      "translation": "Nyaakwei est content de son fils.",
-      "context": "Exprimer la fierté ou la joie envers un enfant"
+      "original": "Ŋá lókòlo ɓáa tɔ́nɔ̂.",
+      "phonetic_api": "/ŋá lókòlo ɓáa tɔ́nɔ̂/",
+      "phonetic_simple": "nga LO-ko-lo ba TO-no",
+      "translation": "J'ai un enfant.",
+      "context": "Utilisation du numéral tɔ́nɔ̂ (un) pour indiquer le nombre d'enfants."
     },
     {
       "phrase_id": "p4",
-      "original": "É pá mɛ́ni ↓ɓɛ́ àa kú kwèi nɛ́ɛ.",
-      "phonetic_api": "/é pá mɛ́ni ↓ɓɛ́ àa kú kwèi nɛ́ɛ/",
-      "phonetic_simple": "é pa MÉ-ni bé aa kou kwè-i NÈ-è",
-      "translation": "Nous sommes contents que tu sois venue ici.",
-      "context": "Accueillir chaleureusement un membre de la famille"
+      "original": "É nâŋ ɓáa mí ?",
+      "phonetic_api": "/é nâŋ ɓáa mí/",
+      "phonetic_simple": "é NANG ba MI",
+      "translation": "Où est ton père ?",
+      "context": "Question sur la localisation d'un membre de la famille."
     },
     {
       "phrase_id": "p5",
-      "original": "Hìletâi kɛ́.",
-      "phonetic_api": "/hìletâi kɛ́/",
-      "phonetic_simple": "hi-le-TA-i ké",
-      "translation": "Se marier.",
-      "context": "Parler du mariage"
-    },
-    {
-      "phrase_id": "p6",
-      "original": "Kànalâa.",
-      "phonetic_api": "/kànalâa/",
-      "phonetic_simple": "ka-na-LA-a",
-      "translation": "La parenté à plaisanterie.",
-      "context": "Nommer la relation de blague traditionnelle entre certains clans"
-    },
-    {
-      "phrase_id": "p7",
-      "original": "lěe ~ kòlo",
-      "phonetic_api": "/lěe kòlo/",
-      "phonetic_simple": "lè-e ko-lo",
-      "translation": "la petite sœur de la mère",
-      "context": "Préciser un lien de parenté (variante avec ~ lògolo, même sens)"
-    },
-    {
-      "phrase_id": "p8",
-      "original": "nâŋ ~ kɛ́nɛmûŋ",
-      "phonetic_api": "/nâŋ kɛ́nɛmûŋ/",
-      "phonetic_simple": "NANG ké-nè-mûng",
-      "translation": "le grand frère du père",
-      "context": "Préciser un lien de parenté paternel"
-    },
-    {
-      "phrase_id": "p9",
-      "original": "nâŋ / náŋ / ǹâŋ",
-      "phonetic_api": "/nâŋ/ /náŋ/ /ǹâŋ/",
-      "phonetic_simple": "NANG / NANG (haut) / nang (bas)",
-      "translation": "père / mon père / son père",
-      "context": "Illustrer l'alternance de personne sur un nom relationnel"
-    },
-    {
-      "phrase_id": "p10",
-      "original": "É yɛ́lɛ péle à gwéi nɛ̀ɛ.",
-      "phonetic_api": "/é yɛ́lɛ péle à gwéi nɛ̀ɛ/",
-      "phonetic_simple": "é YÈ-lè PÉ-le a GWÉ-i nè-è",
-      "translation": "J'aime ta façon de rire.",
-      "context": "Complimenter un proche affectueusement"
+      "original": "Ŋá mɛ́niê ɓáa Pépée.",
+      "phonetic_api": "/ŋá mɛ́niê ɓáa pépée/",
+      "phonetic_simple": "nga MÉ-ni-è ba pé-PÉ",
+      "translation": "Mon ami s'appelle Pépé.",
+      "context": "Présenter un ami ou un proche."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'alternance de personne sur les noms de parenté",
-      "explanation": "Comme láa (prénom) en Leçon 2, la plupart des noms de parenté sont des noms relationnels (rn) : ils changent de consonne initiale et de ton selon la personne qui « possède » le parent désigné.",
+      "concept": "Les noms relationnels et la possession obligatoire",
+      "explanation": "En guerzé, la plupart des termes de parenté sont des « noms relationnels » : ils ne peuvent pas apparaître sans possesseur exprimé (contrairement au français où l'on peut dire « père » seul). Le possesseur est marqué soit par un marqueur possessif placé avant le nom (ŋá « mon », é « ton »), soit par la fusion tonale.",
       "rules": [
-        "nâŋ (père) → náŋ (mon père, ton haut) → ǹâŋ (son père, ton bas).",
-        "Cette alternance touche la plupart des termes de parenté : elle permet de dire « mon », « ton », « son » sans mot séparé pour le possessif.",
-        "Comme pour láa, on retrouve les alternances p→b, t→d, k→g, l→n, etc. vues en Leçon 3."
+        "ŋá + [nom relationnel] = mon [nom relationnel] : ŋá nâŋ = mon père.",
+        "é + [nom relationnel] = ton [nom relationnel] : é lěe = ta mère.",
+        "Les noms relationnels ne s'utilisent jamais sans marqueur de possession en guerzé standard."
       ],
       "examples": [
         {
-          "structure": "nâŋ / náŋ / ǹâŋ",
-          "phonetic_api": "/nâŋ/ /náŋ/ /ǹâŋ/",
-          "meaning": "père / mon père / son père"
-        }
-      ]
-    },
-    {
-      "concept": "L'aîné et le cadet : líê et léɠê",
-      "explanation": "Le kpele ne distingue pas 'frère' de 'sœur' en priorité, mais l'aîné du cadet : líê et léɠê s'emploient aussi bien pour un frère que pour une sœur, selon l'âge relatif par rapport au locuteur.",
-      "rules": [
-        "líê = grand frère OU grande sœur (aîné·e), et par extension une personne plus âgée ou de statut social plus élevé.",
-        "léɠê = petit frère OU petite sœur (cadet·te), et par extension une personne plus jeune ou de statut social plus bas.",
-        "Ces deux mots sont antonymes l'un de l'autre (• Ant.) dans le dictionnaire."
-      ],
-      "examples": [
-        {
-          "structure": "líê ≠ léɠê",
-          "phonetic_api": "/líê/ ≠ /léɣê/",
-          "meaning": "aîné·e ≠ cadet·te"
-        }
-      ]
-    },
-    {
-      "concept": "Les collocations pour préciser un lien de parenté",
-      "explanation": "Plusieurs noms de parenté (nâŋ, lěe) se combinent avec de petits mots invariables pour préciser exactement quel parent est désigné, un peu comme des adjectifs en français.",
-      "rules": [
-        "~ lògolo, ~ kòlo (accolé à nâŋ ou lěe) = le petit frère / la petite sœur de ce parent.",
-        "~ kɛ́nɛmûŋ (accolé à nâŋ ou lěe) = le grand frère / la grande sœur de ce parent.",
-        "~ hěɠe (accolé à hǐle ou nɛ́a) = se marier (litt. « avoir » un mari/une femme)."
-      ],
-      "examples": [
-        {
-          "structure": "nâŋ ~ kɛ́nɛmûŋ",
-          "phonetic_api": "/nâŋ kɛ́nɛmûŋ/",
-          "meaning": "le grand frère du père"
-        }
-      ]
-    },
-    {
-      "concept": "Le cousin à plaisanterie (kǎna) : une institution sociale",
-      "explanation": "kǎna désigne un type particulier de cousin avec lequel une relation de taquinerie ritualisée est autorisée, voire attendue — une institution que l'on retrouve dans plusieurs cultures d'Afrique de l'Ouest.",
-      "rules": [
-        "kǎna = cousin à plaisanterie.",
-        "kànalâa = le nom de cette relation elle-même (la parenté à plaisanterie).",
-        "Tous les clans ont des cousins à plaisanterie, sauf les Tɔ́ŋɔnàa (Tɛ́âa)."
-      ],
-      "examples": [
-        {
-          "structure": "kǎna / kànalâa",
-          "phonetic_api": "/kǎna/ /kànalâa/",
-          "meaning": "cousin à plaisanterie / la parenté à plaisanterie"
+          "structure": "ŋá nâŋ / é nâŋ / ŋwɔ̀ nâŋ",
+          "phonetic_api": "/ŋá nâŋ, é nâŋ, ŋwɔ̀ nâŋ/",
+          "meaning": "mon père / ton père / son père"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Personne A",
-      "text": "É láa ɓáa à gbɛ̀ɛ̂ ?",
-      "phonetic_api": "/é láá ɓáá à gbɛ̀ɛ̂/",
-      "phonetic_simple": "é laa BAA a GBÈ-ê ?",
-      "translation": "Comment tu t'appelles ?"
+      "speaker": "Hehee",
+      "text": "É nâŋ ɓáa mí ?",
+      "phonetic_api": "/é nâŋ ɓáa mí/",
+      "phonetic_simple": "é NANG ba MI",
+      "translation": "Où est ton père ?"
     },
     {
-      "speaker": "Personne B",
-      "text": "Náá Pépèe.",
-      "phonetic_api": "/náá pépèe/",
-      "phonetic_simple": "NAA PÉ-pè-è",
-      "translation": "Je m'appelle Pépé."
+      "speaker": "Pépé",
+      "text": "Ŋá nâŋ ɓáa kólôkɛlaa, ɓáa Zálikwɛ̀lɛ.",
+      "phonetic_api": "/ŋá nâŋ ɓáa kólôkɛlaa ɓáa zálikwɛ̀lɛ/",
+      "phonetic_simple": "nga NANG ba ko-lô-kè-LA ba ZA-li-kwè-lè",
+      "translation": "Mon père est un travailleur, il est à Nzérékoré."
     },
     {
-      "speaker": "Personne A",
-      "text": "Náŋ ɓàa léi ?",
-      "phonetic_api": "/náŋ ɓàa léí/",
-      "phonetic_simple": "NANG baa LÉ-i ?",
-      "translation": "Comment va ton père ?"
+      "speaker": "Hehee",
+      "text": "É lókòlo ɓáa tɔ́nɔ̂ ?",
+      "phonetic_api": "/é lókòlo ɓáa tɔ́nɔ̂/",
+      "phonetic_simple": "é LO-ko-lo ba TO-no",
+      "translation": "As-tu un enfant ?"
     },
     {
-      "speaker": "Personne B",
-      "text": "Náŋ gɛ̀áaìn, kɛ́laa gáa wɛ́li káa mîi.",
-      "phonetic_api": "/náŋ gɛ̀áaìn kɛ́laa gáa wɛ́li káa mîi/",
-      "phonetic_simple": "NANG guè-AA-in ké-laa gaa WÈ-li kaa MI-i",
-      "translation": "Mon père est sévère, mais je l'aime."
-    },
-    {
-      "speaker": "Personne A",
-      "text": "É líê ↓gáa mí ?",
-      "phonetic_api": "/é líê ↓gáa mí/",
-      "phonetic_simple": "é LI-ê gaa mi ?",
-      "translation": "Où est ton grand frère ?"
-    },
-    {
-      "speaker": "Personne B",
-      "text": "Ɲàákwɛì kwèí nɛ̀ɛî nòŋ bɔ́.",
-      "phonetic_api": "/ɲàákwɛì kwèí nɛ̀ɛî nòŋ bɔ́/",
-      "phonetic_simple": "nyaa-KWÈ-i kwè-i nè-è-î nong bó",
-      "translation": "Nyaakwei est content de son fils."
-    },
-    {
-      "speaker": "Personne A",
-      "text": "Máma, mɛ́niê !",
-      "phonetic_api": "/máma mɛ́niê/",
-      "phonetic_simple": "MA-ma MÉ-ni-Ê",
-      "translation": "Merci, mon ami !"
+      "speaker": "Pépé",
+      "text": "Òowɛi, ŋá lókòlo ɓáa tɔ́nɔ̂.",
+      "phonetic_api": "/òowɛi ŋá lókòlo ɓáa tɔ́nɔ̂/",
+      "phonetic_simple": "o-wè-i nga LO-ko-lo ba TO-no",
+      "translation": "Oui, j'ai un enfant."
     }
   ],
   "cultural_notes": [
-    "En kpele, líê (aîné·e) et léɠê (cadet·te) s'emploient aussi comme formes de courtoisie envers des personnes non parentes, selon leur âge ou leur statut social — l'ancienneté prime souvent sur le lien de sang.",
-    "lěe (mère) désigne aussi bien la mère biologique que la sœur de la mère, la femme du frère du père, ou une coépouse de la mère : la parenté kpele regroupe plusieurs rôles sous un même terme, contrairement au français.",
-    "Le mariage traditionnel (hìletâi, hwúlu) commence par les fiançailles : la famille du garçon envoie une délégation (kɛ́la) négocier dans la famille de la fille.",
-    "Le « cousin à plaisanterie » (kǎna) est une relation où la taquinerie rituelle est non seulement permise mais socialement attendue ; cette institution existe entre presque tous les clans kpele.",
-    "mǎa et kálâ, en plus de désigner grand-mère et oncle maternel, servent aussi de formes de courtoisie pour s'adresser respectueusement à toute femme ou tout homme âgé, même sans lien de parenté."
+    "Dans la société guerzé traditionnelle, l'oncle paternel est désigné par le même terme que le père (nâŋ), reflétant l'importance de la famille élargie patrilinéaire (Konoshenko 2019).",
+    "mǎa (grand-mère) est aussi employé comme terme de respect général envers une femme âgée, même sans lien de parenté direct."
   ],
   "exercises": [
     {
       "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Que signifient líê et léɠê ?",
+      "question": "Comment dit-on « mon père » en guerzé ?",
       "options": [
-        "Père et mère",
-        "Aîné·e et cadet·te",
-        "Mari et épouse",
-        "Oncle et tante"
+        "ŋá nâŋ",
+        "é nâŋ",
+        "nâŋ"
       ],
-      "correct_answer": "Aîné·e et cadet·te",
-      "explanation": "líê désigne un grand frère ou une grande sœur (aîné·e), léɠê un petit frère ou une petite sœur (cadet·te) — la distinction se fait par âge relatif, pas par genre."
+      "correct_answer": "ŋá nâŋ",
+      "explanation": "nâŋ est un nom relationnel : il exige toujours un possesseur, ici ŋá (mon)."
     },
     {
       "exercise_id": "ex2",
-      "type": "multiple_choice",
-      "question": "Comment dit-on « mon père » à partir de nâŋ ?",
-      "options": [
-        "nâŋ",
-        "náŋ",
-        "ǹâŋ",
-        "làa"
-      ],
-      "correct_answer": "náŋ",
-      "explanation": "náŋ (mon père) résulte de l'alternance avec un ton haut préfixé pour la 1ère personne du singulier."
-    },
-    {
-      "exercise_id": "ex3",
-      "type": "multiple_choice",
-      "question": "Qu'est-ce que kǎna ?",
-      "options": [
-        "Un enfant",
-        "Un cousin à plaisanterie",
-        "Une belle-sœur",
-        "Un chef de village"
-      ],
-      "correct_answer": "Un cousin à plaisanterie",
-      "explanation": "kǎna désigne un cousin avec lequel la taquinerie ritualisée est une tradition sociale reconnue."
-    },
-    {
-      "exercise_id": "ex4",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Pour dire « voici ton mari », on dit : « É [ ___ ] ká. »",
-      "correct_answer": "híle",
-      "hint": "C'est la forme alternée de hǐle (mari) après é (ton)."
-    },
-    {
-      "exercise_id": "ex5",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "lěe désigne la mère, mais aussi la [ ___ ] de la mère.",
-      "correct_answer": "sœur",
-      "hint": "Ce lien de parenté partage le même mot que la mère elle-même en kpele."
-    },
-    {
-      "exercise_id": "ex6",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Avant le mariage, la famille du garçon envoie une délégation appelée [ ___ ] négocier avec la famille de la fille.",
-      "correct_answer": "kɛ́la",
-      "hint": "Ce mot désigne aussi un simple messager ou témoin."
+      "sentence_with_blank": "[ ___ ] lěe ɓáa Zálikwɛ̀lɛ. (Ma mère est à Nzérékoré.)",
+      "correct_answer": "Ŋá",
+      "hint": "Marqueur possessif de la première personne du singulier."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Konoshenko, M. (2019). Dictionnaire kpele de la Guinée (guerzé) – français. Mandenkan 62.",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan62/62konoshenko.pdf"
+    },
+    {
+      "label": "Wikipédia — Kpèllé (langue) / Guerzé",
+      "url": "https://fr.wikipedia.org/wiki/Guerze"
+    }
+  ],
+  "confidence": "élevée",
+  "confidence_note": "Tous les termes de parenté sont directement attestés dans le dictionnaire Konoshenko (2019) avec leur statut grammatical de nom relationnel. Les phrases d'exemple combinent ce vocabulaire attesté avec la copule ɓáa et le possessif ŋá déjà vus en leçon 2."
 }

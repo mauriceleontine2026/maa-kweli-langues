@@ -6,271 +6,277 @@
   "lesson_number": 4,
   "title": "La famille et les relations proches",
   "learning_objectives": [
-    "Nommer les membres de sa famille nucléaire et élargie en pular",
-    "Exprimer les liens de parenté et les relations affectives proches",
-    "Utiliser les pronoms possessifs de base pour décrire son entourage"
+    "Nommer les membres de la famille proche et élargie",
+    "Utiliser les pronoms possessifs pour parler de sa famille",
+    "Poser des questions sur l'identité d'une personne (Ko hombo nii?)"
   ],
   "phonetic_focus": {
-    "key_sounds": "Le pular possède deux consonnes implosives fréquentes dans le vocabulaire familial : 'ɓ' (/ɓ/) et 'ɗ' (/ɗ/). La consonne prénasalisée 'ny' (/ɲ/) est présente dans 'minyio'. Respectez la gémination (consonnes doubles) comme dans 'neene' ou 'debbo'.",
-    "common_pitfalls": "Ne prononcez pas 'ɓidɗo' avec des consonnes explosives européennes (b/d). L'aspiration vers l'intérieur est indispensable pour être compris par un locuteur natif."
+    "key_sounds": "Les mots de parenté se terminent souvent par le suffixe possessif 'an' (mon/ma) : baaba an (mon père), neene an (ma mère). Le son 'kh' guttural n'existe pas ; 'kaawu' se prononce avec un k net suivi d'un souffle.",
+    "common_pitfalls": "Les francophones traduisent trop littéralement les termes de parenté : en pular, 'baaba' peut désigner le père mais aussi l'oncle paternel âgé, et 'miñan' désigne un frère OU une sœur plus jeune, sans distinction de genre."
   },
   "vocabulary": [
     {
-      "word_id": "v4_1",
+      "word_id": "v1",
       "term": "baaba",
       "phonetic_api": "/baːba/",
       "phonetic_simple": "BAA-BA",
-      "translation": "père, papa",
-      "example_sentence": "Baaba am no golloo.",
-      "example_phonetic": "/baːba am no ɡolːoː/",
-      "example_translation": "Mon père travaille."
+      "translation": "père",
+      "example_sentence": "Ko baaba an nii.",
+      "example_phonetic": "/ko baːba an niː/",
+      "example_translation": "C'est mon père."
     },
     {
-      "word_id": "v4_2",
+      "word_id": "v2",
       "term": "neene",
       "phonetic_api": "/neːne/",
-      "phonetic_simple": "NEE-NE",
-      "translation": "mère, maman",
-      "example_sentence": "Neene am no defa ndiyam.",
-      "example_phonetic": "/neːne am no deɸa ndijam/",
-      "example_translation": "Ma mère cuisine (prépare le repas)."
+      "phonetic_simple": "NÉÉ-NÉ",
+      "translation": "mère",
+      "example_sentence": "Neene an no e jam.",
+      "example_phonetic": "/neːne an no e dʒam/",
+      "example_translation": "Ma mère va bien."
     },
     {
-      "word_id": "v4_3",
-      "term": "ɓidɗo",
-      "phonetic_api": "/ɓiɗːo/",
-      "phonetic_simple": "BHID-DHO",
-      "translation": "enfant, fils, fille",
-      "example_sentence": "Omo jogii ɓidɗo gorko.",
-      "example_phonetic": "/omo d͡ʒoɡiː ɓiɗːo ɡorko/",
-      "example_translation": "Il/Elle a un fils (enfant garçon)."
+      "word_id": "v3",
+      "term": "miñan",
+      "phonetic_api": "/miɲan/",
+      "phonetic_simple": "MI-GNAN",
+      "translation": "frère/sœur plus jeune",
+      "example_sentence": "Ko miñan an nii.",
+      "example_phonetic": "/ko miɲan an niː/",
+      "example_translation": "C'est mon petit frère/ma petite sœur."
     },
     {
-      "word_id": "v4_4",
-      "term": "mawɗo",
-      "phonetic_api": "/mawɗo/",
-      "phonetic_simple": "MAW-DHO",
-      "translation": "aîné, grand frère, grande sœur",
-      "example_sentence": "Mawɗo am gorko no hoɗi Labe.",
-      "example_phonetic": "/mawɗo am ɡorko no hoɗi labe/",
-      "example_translation": "Mon grand frère habite à Labé."
+      "word_id": "v4",
+      "term": "koto",
+      "phonetic_api": "/koto/",
+      "phonetic_simple": "KO-TO",
+      "translation": "frère aîné",
+      "example_sentence": "Ko koto an nii.",
+      "example_phonetic": "/ko koto an niː/",
+      "example_translation": "C'est mon grand frère."
     },
     {
-      "word_id": "v4_5",
-      "term": "minyio",
-      "phonetic_api": "/miɲio/",
-      "phonetic_simple": "MI-NYIO",
-      "translation": "cadet, petit frère, petite sœur",
-      "example_sentence": "Minyio am debbo no jannga.",
-      "example_phonetic": "/miɲio am debːo no d͡ʒanːɡa/",
-      "example_translation": "Ma petite sœur étudie."
+      "word_id": "v5",
+      "term": "jaaja",
+      "phonetic_api": "/dʒaːdʒa/",
+      "phonetic_simple": "DJAA-DJA",
+      "translation": "sœur aînée",
+      "example_sentence": "Adama Hawa ko jaaja an.",
+      "example_phonetic": "/adama hawa ko dʒaːdʒa an/",
+      "example_translation": "Adama Hawa est ma grande sœur."
     },
     {
-      "word_id": "v4_6",
-      "term": "gorko",
-      "phonetic_api": "/ɡorko/",
-      "phonetic_simple": "GOR-KO",
-      "translation": "mari, époux (aussi homme)",
-      "example_sentence": "Gorko makko ko jannginoowo.",
-      "example_phonetic": "/ɡorko makːo ko d͡ʒanːɡinoːwo/",
-      "example_translation": "Son mari est enseignant."
+      "word_id": "v6",
+      "term": "åeyngu",
+      "phonetic_api": "/ɓeyŋɡu/",
+      "phonetic_simple": "BÉYNE-GOU",
+      "translation": "épouse",
+      "example_sentence": "Honno åeyngu maa waði?",
+      "example_phonetic": "/honːo ɓeyŋɡu maː waɗi/",
+      "example_translation": "Comment va ta femme ?"
     },
     {
-      "word_id": "v4_7",
-      "term": "debbo",
-      "phonetic_api": "/debːo/",
-      "phonetic_simple": "DEB-BO",
-      "translation": "femme, épouse",
-      "example_sentence": "Debbo am no celli.",
-      "example_phonetic": "/debːo am no t͡ʃelːi/",
-      "example_translation": "Ma femme va bien."
+      "word_id": "v7",
+      "term": "moodi",
+      "phonetic_api": "/moːdi/",
+      "phonetic_simple": "MOO-DI",
+      "translation": "mari",
+      "example_sentence": "Ko moodi maa nii?",
+      "example_phonetic": "/ko moːdi maː niː/",
+      "example_translation": "C'est ton mari ?"
     },
     {
-      "word_id": "v4_8",
-      "term": "maama",
-      "phonetic_api": "/maːma/",
-      "phonetic_simple": "MAA-MA",
-      "translation": "grand-père, grand-mère, aïeul",
-      "example_sentence": "Maama am debbo no jogii duuɓi joweeree.",
-      "example_phonetic": "/maːma am debːo no d͡ʒoɡiː duːɓi d͡ʒoweːreː/",
-      "example_translation": "Ma grand-mère a quatre-vingts ans."
-    },
-    {
-      "word_id": "v4_9",
-      "term": "saare",
-      "phonetic_api": "/saːre/",
-      "phonetic_simple": "SAA-RE",
-      "translation": "famille, maisonnée, concession",
-      "example_sentence": "No saare nden wa'i ?",
-      "example_phonetic": "/no saːre nden waʔi/",
-      "example_translation": "Comment va la famille ?"
-    },
-    {
-      "word_id": "v4_10",
-      "term": "musidɗo",
-      "phonetic_api": "/musiɗːo/",
-      "phonetic_simple": "MOU-SID-DHO",
-      "translation": "parent, proche, frère/sœur en religion/sang",
-      "example_sentence": "Oon ko musidɗo am.",
-      "example_phonetic": "/oːn ko musiɗːo am/",
-      "example_translation": "Celui-ci est mon parent."
+      "word_id": "v8",
+      "term": "biððo",
+      "phonetic_api": "/biɗːo/",
+      "phonetic_simple": "BID-DO",
+      "translation": "enfant (fils, fille, ou neveu/nièce au sens large)",
+      "example_sentence": "Ko biððo makko.",
+      "example_phonetic": "/ko biɗːo makːo/",
+      "example_translation": "C'est son enfant."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p4_1",
-      "original": "No saare nden wa'i ?",
-      "phonetic_api": "/no saːre nden waʔi/",
-      "phonetic_simple": "NO SAA-RE NDEN WA-I ?",
-      "translation": "Comment va la famille ?",
-      "context": "Formule incontournable au début de toute salutation sociale."
+      "phrase_id": "p1",
+      "original": "Ko hombo nii?",
+      "phonetic_api": "/ko hombo niː/",
+      "phonetic_simple": "KO HOM-BO NI-I",
+      "translation": "Qui est-ce ?",
+      "context": "Pour demander l'identité d'une personne présente."
     },
     {
-      "phrase_id": "p4_2",
-      "original": "Saare nden fow no e jam.",
-      "phonetic_api": "/saːre nden fow no e d͡ʒam/",
-      "phonetic_simple": "SAA-RE NDEN FOW NO E JAM",
-      "translation": "Toute la famille va bien (est en paix).",
-      "context": "Réponse standard aux salutations sur la famille."
+      "phrase_id": "p2",
+      "original": "Ko miñiraaåe njelo maruðaa?",
+      "phonetic_api": "/ko miɲiraːɓe ndʒelo maruɗaː/",
+      "phonetic_simple": "KO MI-GNI-RAA-BÉ ENDJÉ-LO MA-ROU-DAA",
+      "translation": "Combien de frères et sœurs cadets as-tu ?",
+      "context": "Question sur la fratrie."
     },
     {
-      "phrase_id": "p4_3",
-      "original": "Koni a jogii ɓiɓɓe ?",
-      "phonetic_api": "/koni a d͡ʒoɡiː ɓiɓːe/",
-      "phonetic_simple": "KO-NI A DJO-GII BHIBH-BHE ?",
-      "translation": "As-tu des enfants ?",
-      "context": "Cadre informel, discussion amicale sur la vie de famille."
+      "phrase_id": "p3",
+      "original": "Ko duuåi jelu maruðaa?",
+      "phonetic_api": "/ko duːɓi dʒelu maruɗaː/",
+      "phonetic_simple": "KO DOU-BI DJÉ-LOU MA-ROU-DAA",
+      "translation": "Quel âge as-tu ?",
+      "context": "Question sur l'âge (littéralement « combien d'années as-tu »)."
     },
     {
-      "phrase_id": "p4_4",
-      "original": "Mido jogii ɓiɓɓe tato.",
-      "phonetic_api": "/mido d͡ʒoɡiː ɓiɓːe tato/",
-      "phonetic_simple": "MI-DO DJO-GII BHIBH-BHE TA-TO",
-      "translation": "J'ai trois enfants.",
-      "context": "Réponse indiquant le nombre de descendants."
+      "phrase_id": "p4",
+      "original": "Ko duuåi nogay e jeetati mi mari.",
+      "phonetic_api": "/ko duːɓi noɡaj e dʒeːtati mi mari/",
+      "phonetic_simple": "KO DOU-BI NO-GAÏ É DJÉÉ-TA-TI MI MA-RI",
+      "translation": "J'ai vingt-huit ans.",
+      "context": "Réponse à la question de l'âge."
     },
     {
-      "phrase_id": "p4_5",
-      "original": "Honto baaba maa woni ?",
-      "phonetic_api": "/honto baːba maː woni/",
-      "phonetic_simple": "HON-TO BAA-BA MAA WO-NI ?",
-      "translation": "Où est ton père ?",
-      "context": "Prendre des nouvelles spécifiques d'un parent."
-    },
-    {
-      "phrase_id": "p4_6",
-      "original": "Neene am no celli, alhamdulillaahi.",
-      "phonetic_api": "/neːne am no t͡ʃelːi alhamdulilːaːhi/",
-      "phonetic_simple": "NEE-NE AM NO TCHEL-LI, AL-HAM-DOU-LIL-LAA-HI",
-      "translation": "Ma mère se porte bien, Dieu soit loué.",
-      "context": "Donner des nouvelles positives sur la santé d'un parent."
-    },
-    {
-      "phrase_id": "p4_7",
-      "original": "Ko mi gorko resando.",
-      "phonetic_api": "/ko mi ɡorko resando/",
-      "phonetic_simple": "KO MI GOR-KO RE-SAN-DO",
-      "translation": "Je suis un homme marié.",
-      "context": "Définir son statut matrimonial."
-    },
-    {
-      "phrase_id": "p4_8",
-      "original": "Mawɗo am debbo no hoɗi Conakry.",
-      "phonetic_api": "/mawɗo am debːo no hoɗi konakri/",
-      "phonetic_simple": "MAW-DHO AM DEB-BO NO HO-DHI CO-NA-KRY",
-      "translation": "Ma grande sœur habite à Conakry.",
-      "context": "Parler du lieu de résidence d'un membre de la famille."
+      "phrase_id": "p5",
+      "original": "Jariatu ko åeyngu Yunuusa.",
+      "phonetic_api": "/dʒariatu ko ɓeyŋɡu junuːsa/",
+      "phonetic_simple": "DJA-RIA-TOU KO BÉYNE-GOU YOU-NOU-SA",
+      "translation": "Jariatou est l'épouse de Younoussa.",
+      "context": "Pour exprimer un lien familial en utilisant le nom propre."
     }
   ],
   "grammar_points": [
     {
-      "concept": "Les Adjectifs Possessifs avec les noms de parenté",
-      "explanation": "En pular, la possession pour la proche famille s'exprime par l'ajout direct de pronoms possessifs postposés, sans déterminant intermédiaire.",
+      "concept": "Le pronom possessif après le nom",
+      "explanation": "En pular, le pronom possessif se place après le nom (et non avant comme en français). Il peut aussi être remplacé par le nom propre de la personne.",
       "rules": [
-        "Placer le pronom possessif immédiatement après le nom.",
-        "'am' signifie mon/ma, 'maa' signifie ton/ta, 'makko' signifie son/sa (pour les êtres humains)."
+        "nom + possessif : baaba an = mon père (litt. « père moi »)",
+        "nom + nom propre : baaba Aamadu = le père d'Amadou",
+        "Possessifs de base : an (mon/ma), maa (ton/ta), makko (son/sa), men/amen (notre)"
       ],
       "examples": [
         {
-          "structure": "baaba + am",
-          "phonetic_api": "/baːba am/",
-          "meaning": "Mon père"
+          "structure": "Ko baaba an nii.",
+          "phonetic_api": "/ko baːba an niː/",
+          "meaning": "C'est mon père."
         },
         {
-          "structure": "neene + maa",
-          "phonetic_api": "/neːne maː/",
-          "meaning": "Ta mère"
+          "structure": "Ko baaba Aamadu nii.",
+          "phonetic_api": "/ko baːba aːmadu niː/",
+          "meaning": "C'est le père d'Amadou."
         }
       ]
     },
     {
-      "concept": "L'alternance consonantique au pluriel",
-      "explanation": "Les noms de classe humaine subissent souvent une modification de leur consonne initiale lorsqu'ils passent du singulier au pluriel.",
+      "concept": "Les nombres pour compter les personnes vs les choses",
+      "explanation": "Le pular possède une forme numérique distincte lorsqu'on compte des personnes (par opposition aux choses ou animaux). De même, « combien » se dit différemment (njelo pour les personnes, jelu pour les choses).",
       "rules": [
-        "L'implosive 'ɓ' ou 'ɗ' se transforme au pluriel.",
-        "Exemple type : 'ɓidɗo' (enfant) devient 'ɓiɓɓe' (enfants) au pluriel."
+        "gooto, ðiðo, tato... = un, deux, trois (personnes)",
+        "go'o, ðiði, tati... = un, deux, trois (choses, animaux)",
+        "njelo = combien (personnes) / jelu = combien (choses)"
       ],
       "examples": [
         {
-          "structure": "ɓidɗo -> ɓiɓɓe",
-          "phonetic_api": "/ɓiɓːe/",
-          "meaning": "Les enfants"
+          "structure": "Amerikenåe tato",
+          "phonetic_api": "/amerikenɓe tato/",
+          "meaning": "trois Américains (personnes)"
+        },
+        {
+          "structure": "duuåi tati",
+          "phonetic_api": "/duːɓi tati/",
+          "meaning": "trois années (choses)"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Ousmane",
-      "text": "Alpha, no saare nden wa'i ?",
-      "phonetic_api": "/alɸa no saːre nden waʔi/",
-      "phonetic_simple": "AL-PHA, NO SAA-RE NDEN WA-I ?",
-      "translation": "Alpha, comment va la famille ?"
+      "speaker": "Binta",
+      "text": "Ko hombo nii?",
+      "phonetic_api": "/ko hombo niː/",
+      "phonetic_simple": "KO HOM-BO NI-I",
+      "translation": "Qui est-ce ?"
     },
     {
-      "speaker": "Alpha",
-      "text": "Saare nden no e jam. Baaba am no celli, neene am kadi no celli.",
-      "phonetic_api": "/saːre nden no e d͡ʒam baːba am no t͡ʃelːi neːne am kadi no t͡ʃelːi/",
-      "phonetic_simple": "SAA-RE NDEN NO E JAM. BAA-BA AM NO TCHEL-LI, NEE-NE AM KA-DI NO TCHEL-LI.",
-      "translation": "La famille est en paix. Mon père va bien, ma mère aussi va bien."
+      "speaker": "Aliu",
+      "text": "Ko miñan an nii, Bubakar.",
+      "phonetic_api": "/ko miɲan an niː bubakar/",
+      "phonetic_simple": "KO MI-GNAN AN NI-I, BOU-BA-KAR",
+      "translation": "C'est mon petit frère, Bubakar."
     },
     {
-      "speaker": "Ousmane",
-      "text": "Koni a jogii ɓiɓɓe ?",
-      "phonetic_api": "/koni a d͡ʒoɡiː ɓiɓːe/",
-      "phonetic_simple": "KO-NI A DJO-GII BHIBH-BHE ?",
-      "translation": "As-tu des enfants ?"
+      "speaker": "Binta",
+      "text": "Ko duuåi jelu o mari?",
+      "phonetic_api": "/ko duːɓi dʒelu o mari/",
+      "phonetic_simple": "KO DOU-BI DJÉ-LOU O MA-RI",
+      "translation": "Quel âge a-t-il ?"
     },
     {
-      "speaker": "Alpha",
-      "text": "Eyyo, mido jogii ɓidɗo gorko e ɓidɗo debbo. Minyio am gorko no walli mi.",
-      "phonetic_api": "/ejːo mido d͡ʒoɡiː ɓiɗːo ɡorko e ɓiɗːo debːo miɲio am ɡorko no walːi mi/",
-      "phonetic_simple": "EY-YO, MI-DO DJO-GII BHID-DHO GOR-KO E BHID-DHO DEB-BO. MI-NYIO AM GOR-KO NO WAL-LI MI.",
-      "translation": "Oui, j'ai un fils et une fille. Mon petit frère m'aide."
+      "speaker": "Aliu",
+      "text": "Ko duuåi sappo o mari.",
+      "phonetic_api": "/ko duːɓi sapːo o mari/",
+      "phonetic_simple": "KO DOU-BI SAP-PO O MA-RI",
+      "translation": "Il a dix ans."
+    },
+    {
+      "speaker": "Binta",
+      "text": "Ko miñiraaåe njelo maruðaa?",
+      "phonetic_api": "/ko miɲiraːɓe ndʒelo maruɗaː/",
+      "phonetic_simple": "KO MI-GNI-RAA-BÉ ENDJÉ-LO MA-ROU-DAA",
+      "translation": "Combien de frères et sœurs cadets as-tu ?"
+    },
+    {
+      "speaker": "Aliu",
+      "text": "Ko miñiraaåe tato mi mari.",
+      "phonetic_api": "/ko miɲiraːɓe tato mi mari/",
+      "phonetic_simple": "KO MI-GNI-RAA-BÉ TA-TO MI MA-RI",
+      "translation": "J'ai trois frères et sœurs cadets."
     }
   ],
   "cultural_notes": [
-    "Dans la société peule, la notion de famille ('saare' ou 'golle') dépasse largement le cadre nucléaire. Le grand frère ('mawɗo') possède une autorité morale et un rôle de protecteur quasi équivalent à celui du père. Il est d'usage obligatoire de saluer et demander des nouvelles de chaque membre de la maison."
+    "Les termes de parenté sont appliqués de façon large dans la société peule : « frère » peut désigner un demi-frère, un cousin, ou même un ami proche du même village ; « père » peut désigner un oncle ou un grand-père (source : Learner's Guide to Pular, Peace Corps Guinée).",
+    "La polygamie est répandue au Fouta-Djalon ; un homme peut avoir deux, trois ou quatre épouses, ce qui complexifie les relations de coépouses (siinaa) et de demi-fratrie (baabagooto)."
   ],
   "exercises": [
     {
-      "exercise_id": "ex4_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Que signifie 'Minyio am debbo' ?",
+      "question": "Comment dit-on « mon père » en pular ?",
       "options": [
-        "Ma grande sœur",
-        "Ma petite sœur",
-        "Ma maman"
+        "An baaba",
+        "Baaba an",
+        "Baaba maa"
       ],
-      "correct_answer": "Ma petite sœur",
-      "explanation": "'Minyio' désigne le cadet/la cadette, et 'debbo' spécifie le genre féminin."
+      "correct_answer": "Baaba an",
+      "explanation": "Le possessif se place après le nom en pular : nom + possessif."
     },
     {
-      "exercise_id": "ex4_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Baaba [ ___ ] no celli. (Mon père va bien).",
-      "correct_answer": "am",
-      "hint": "Le pronom possessif de la 1ère personne du singulier."
+      "sentence_with_blank": "Ko duuåi jelu maruðaa? — Ko duuåi [ ___ ] mi mari. (vingt ans)",
+      "correct_answer": "nogay",
+      "hint": "Le nombre vingt en pular est 'nogay'."
+    },
+    {
+      "exercise_id": "ex3",
+      "type": "multiple_choice",
+      "question": "Que signifie 'miñan' ?",
+      "options": [
+        "Frère/sœur aîné(e)",
+        "Frère/sœur cadet(te)",
+        "Oncle"
+      ],
+      "correct_answer": "Frère/sœur cadet(te)",
+      "explanation": "'Miñan' désigne un frère ou une sœur plus jeune, sans distinction de genre."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Learner's Guide to Pular (Fuuta Jallon) — Peace Corps Guinée (Herb Caudill & Ousmane Besseko Diallo)",
+      "url": "https://ibamba.net/pular/manual.pdf"
+    },
+    {
+      "label": "Live Lingua Project — Peace Corps Manual of Fulfulde",
+      "url": "https://www.livelingua.com/course/peace-corps/manual-of-fulfulde"
+    },
+    {
+      "label": "My Little Word Land — cours Fulfulde (vocabulaire vêtements, famille, métiers)",
+      "url": "https://mylittlewordland.com/course/379346/fulfulde"
+    }
+  ],
+  "confidence": "élevée",
+  "confidence_note": "Vocabulaire familial, structure possessive et système numérique confirmés par le chapitre 'Family' du manuel Peace Corps Guinée."
 }

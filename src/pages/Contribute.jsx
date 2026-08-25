@@ -1,8 +1,9 @@
 // @ts-nocheck
 import { useEffect, useRef, useState } from "react";
 import { uploadFile } from "@/api/uploadService";
+import { createContribution } from "@/api/contributionService";
 import { getLanguages } from "@/api/languageService";
-import { Mic, Upload, Square, Trash2, ShieldCheck } from "lucide-react";
+import { Mic, Upload, Square, Trash2, ShieldCheck, BookOpen, MapPin, CheckCircle2 } from "lucide-react";
 import { moderateContent, getModerationMessage } from "@/lib/moderation";
 import AudioVisualizer from "@/components/contribute/AudioVisualizer";
 
@@ -44,6 +45,7 @@ export default function Contribute() {
 
   const startRecording = async () => {
     setMsg("");
+    if (audioUrl) deleteRecording();
     if (!navigator.mediaDevices?.getUserMedia || !window.MediaRecorder) {
       setMsg("❌ Ton navigateur ne supporte pas l'enregistrement. Utilise Chrome, Edge ou Safari récent.");
       return;
@@ -119,6 +121,7 @@ export default function Contribute() {
         const uploadRes = await uploadFile(file);
         audio_url = uploadRes?.file_url || "";
       }
+      await createContribution({ ...form, audio_url });
       setMsg("✅ Contribution soumise ! Après validation, elle enrichira l'app pour tous les apprenants.");
       setForm({ ...form, word: "", phonetic: "", translation_fr: "", context_notes: "" });
       deleteRecording();
@@ -131,11 +134,16 @@ export default function Contribute() {
   const fmtTime = (s) => `${Math.floor(s / 60)}:${String(s % 60).padStart(2, "0")}`;
 
   return (
-    <div className="p-6 lg:p-10 max-w-2xl mx-auto">
-      <h1 className="font-heading text-3xl font-bold text-foreground mb-1">Studio Contribution</h1>
+    <div className="mx-auto w-full max-w-5xl p-4 sm:p-6 lg:p-10">
+      <header className="mb-6 rounded-2xl border border-border bg-card p-5 shadow-sm sm:p-6">
+        <div className="flex items-start gap-3">
+          <div className="rounded-xl bg-primary/10 p-2.5 text-primary"><Mic size={21} /></div>
+          <div><h1 className="font-heading text-3xl font-bold text-foreground">Contribuer à une langue</h1><p className="mt-1 text-sm text-muted-foreground">Partagez un mot, une prononciation ou un usage local. Chaque contribution est vérifiée avant publication.</p></div>
+        </div>
+      </header>
 
       {/* Callout */}
-      <div className="flex items-center gap-3 mb-6">
+      <div className="mb-6 flex items-start gap-3 rounded-2xl border border-border bg-background/60 p-4">
         <div className="shrink-0 w-10 h-10 rounded-full bg-yellow-500/20 flex items-center justify-center">
           <Mic className="text-yellow-500" size={20} />
         </div>
@@ -145,22 +153,23 @@ export default function Contribute() {
         </div>
       </div>
       {/* Language selector */}
-      <div className="mb-6">
-        <label className="text-xs font-semibold text-muted-foreground uppercase tracking-wider mb-2 block">Langue concernée</label>
-        <select value={form.language_code} onChange={e => setForm({ ...form, language_code: e.target.value })}
+      <div className="mb-6 rounded-2xl border border-border bg-card p-4 shadow-sm">
+        <div className="mb-3 flex items-center gap-2"><BookOpen size={17} className="text-primary" /><div><label className="text-sm font-semibold text-foreground">Langue concernée</label><p className="text-xs text-muted-foreground">Sélectionnez la langue du mot ou de l’expression.</p></div></div>
+        <select aria-label="Langue concernée" value={form.language_code} onChange={e => setForm({ ...form, language_code: e.target.value })}
           className="w-full bg-card border border-border rounded-xl px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-primary/40">
           <option value="">Sélectionner une langue...</option>
           {languages.map(l => <option key={l.code} value={l.code}>{l.name_fr}</option>)}
         </select>
       </div>
 
+      <div className="mb-6 grid gap-4 lg:grid-cols-[1.05fr_.95fr]">
       {/* Recording studio */}
-      <div className="bg-card border border-border rounded-2xl p-8 mb-6 text-center">
+      <div className="rounded-2xl border border-border bg-card p-6 text-center shadow-sm sm:p-8">
         <p className="text-xs font-semibold text-muted-foreground uppercase tracking-wider mb-4">Studio d'enregistrement</p>
 
         {!audioUrl ? (
           <>
-            <button onClick={recording ? stopRecording : startRecording}
+            <button type="button" onClick={recording ? stopRecording : startRecording}
               className={`w-20 h-20 rounded-full flex items-center justify-center mx-auto transition shadow-lg ${
                 recording ? "bg-red-500 animate-pulse shadow-red-500/30" : "bg-yellow-500 hover:bg-yellow-600 shadow-yellow-500/20"
               }`}>
@@ -186,11 +195,11 @@ export default function Contribute() {
             </div>
             <audio controls src={audioUrl} className="w-full max-w-sm mx-auto" />
             <div className="flex items-center justify-center gap-3">
-              <button onClick={startRecording}
+              <button type="button" onClick={startRecording}
                 className="flex items-center gap-2 px-4 py-2 rounded-xl bg-yellow-500 text-white text-sm font-medium hover:bg-yellow-600 transition">
                 <Mic size={16} /> Réenregistrer
               </button>
-              <button onClick={deleteRecording}
+              <button type="button" onClick={deleteRecording}
                 className="flex items-center gap-2 px-4 py-2 rounded-xl bg-secondary text-secondary-foreground text-sm font-medium hover:bg-secondary/70 transition">
                 <Trash2 size={16} /> Supprimer
               </button>
@@ -200,36 +209,38 @@ export default function Contribute() {
       </div>
 
       {/* Form */}
-      <form onSubmit={handleSubmit} className="space-y-5">
+      <form onSubmit={handleSubmit} className="rounded-2xl border border-border bg-card p-5 shadow-sm sm:p-6">
         <div>
-          <h3 className="text-xs font-semibold text-muted-foreground uppercase tracking-wider mb-3">Informations du contenu</h3>
+          <h3 className="mb-1 text-sm font-semibold text-foreground">Informations du contenu</h3>
+          <p className="mb-4 text-xs text-muted-foreground">Les champs marqués d’un astérisque sont obligatoires.</p>
           <div className="space-y-3">
-            <input value={form.word} onChange={e => setForm({ ...form, word: e.target.value })}
+            <input required aria-label="Mot ou expression" value={form.word} onChange={e => setForm({ ...form, word: e.target.value })}
               placeholder="Mot ou expression (Ex: Teranga, Asante...)"
               className="w-full bg-card border border-border rounded-xl px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-primary/40" />
             <input value={form.phonetic} onChange={e => setForm({ ...form, phonetic: e.target.value })}
               placeholder="Phonétique (IPA ou simple) (Ex: te-ran-ga, /tεrãga/)"
               className="w-full bg-card border border-border rounded-xl px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-primary/40" />
-            <input value={form.translation_fr} onChange={e => setForm({ ...form, translation_fr: e.target.value })}
+            <input required aria-label="Traduction française" value={form.translation_fr} onChange={e => setForm({ ...form, translation_fr: e.target.value })}
               placeholder="Traduction française * (Ex: hospitalité, merci...)"
               className="w-full bg-card border border-border rounded-xl px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-primary/40" />
           </div>
         </div>
 
-        <div>
-          <h3 className="text-xs font-semibold text-muted-foreground uppercase tracking-wider mb-3">Ton profil de locuteur</h3>
+        <div className="mt-5 border-t border-border pt-5">
+          <h3 className="mb-1 text-sm font-semibold text-foreground">Ton profil de locuteur</h3>
+          <p className="mb-4 text-xs text-muted-foreground">Ces informations aident à documenter les variantes régionales.</p>
           <div className="grid grid-cols-2 gap-3">
-            <input value={form.contributor_name} onChange={e => setForm({ ...form, contributor_name: e.target.value })}
+            <label className="text-xs text-muted-foreground">Prénom<input value={form.contributor_name} onChange={e => setForm({ ...form, contributor_name: e.target.value })}
               placeholder="Ton prénom (Mamadou, Fatou...)"
-              className="bg-card border border-border rounded-xl px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-primary/40" />
-            <input value={form.region} onChange={e => setForm({ ...form, region: e.target.value })}
+              className="mt-1 w-full rounded-xl border border-border bg-background px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-primary/40" /></label>
+            <label className="text-xs text-muted-foreground"><span className="inline-flex items-center gap-1">Région <MapPin size={11} /></span><input value={form.region} onChange={e => setForm({ ...form, region: e.target.value })}
               placeholder="Ta région / ville (Conakry, Dakar...)"
-              className="bg-card border border-border rounded-xl px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-primary/40" />
+              className="mt-1 w-full rounded-xl border border-border bg-background px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-primary/40" /></label>
           </div>
         </div>
 
-        <div>
-          <h3 className="text-xs font-semibold text-muted-foreground uppercase tracking-wider mb-3">Notes / Contexte (optionnel)</h3>
+        <div className="mt-5 border-t border-border pt-5">
+          <h3 className="mb-1 text-sm font-semibold text-foreground">Notes et contexte <span className="font-normal text-muted-foreground">(optionnel)</span></h3>
           <textarea value={form.context_notes} onChange={e => setForm({ ...form, context_notes: e.target.value })}
             placeholder="Contexte d'utilisation, dialecte spécifique..."
             rows={3}
@@ -247,6 +258,9 @@ export default function Contribute() {
           <Upload size={18} /> {saving ? "Envoi..." : "Soumettre ma contribution"}
         </button>
       </form>
+      </div>
+
+      <div className="mt-5 flex items-start gap-3 rounded-2xl border border-emerald-500/20 bg-emerald-500/5 p-4 text-sm text-muted-foreground"><CheckCircle2 size={18} className="mt-0.5 shrink-0 text-emerald-500" /><p><b className="text-foreground">Après l’envoi :</b> votre contribution sera examinée par l’équipe avant d’être ajoutée au contenu public.</p></div>
     </div>
   );
 }

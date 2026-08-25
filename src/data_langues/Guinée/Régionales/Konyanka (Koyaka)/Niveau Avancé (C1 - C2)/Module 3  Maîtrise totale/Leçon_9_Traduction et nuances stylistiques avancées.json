@@ -6,146 +6,194 @@
   "lesson_number": 9,
   "title": "Traduction et nuances stylistiques avancées",
   "learning_objectives": [
-    "Traduire des textes complexes du français au konyanka en préservant l'équivalence stylistique et pragmatique",
-    "Maîtriser les glissements de sens et les faux amis stylistiques entre les structures indo-européennes et mandingues",
-    "Restituer l'élégance poétique, le rythme et le registre solennel lors d'une interprétation simultanée"
+    "Identifier les limites d'une traduction littérale entre konianké/maninka et français",
+    "Restituer les nuances stylistiques d'un proverbe konianké authentique en français",
+    "Reconnaître les choix de traduction faits par des locuteurs/rédacteurs konianké eux-mêmes"
   ],
   "phonetic_focus": {
-    "key_sounds": "L'expression stylistique de haut niveau exige une fluidité parfaite dans l'assimilation des nasales. Dans le terme composé 'kuma-fala' /ku.ma.fa.la/ (registre soutenu), l'enchaînement des consonnes exige une articulation continue. Les variations tonales sur 'kura' (neuf/tôt) par rapport à 'kúra' (force/énergie) doivent être rigoureusement appliquées pour éviter les contresens stylistiques.",
-    "common_pitfalls": "Attention à ne pas calquer l'intonation descendante du français sur les propositions subordonnées complexes en konyanka. Gardez une tension mélodique haute jusqu'à la postposition finale pour structurer correctement le rythme de la phrase."
+    "key_sounds": "La traduction orale des proverbes implique souvent un décalage entre l'image concrète du konianké ('le vent ira derrière la calebasse') et l'équivalent conceptuel attendu en français ; le respect de l'image d'origine prime sur une équivalence idiomatique automatique.",
+    "common_pitfalls": "Remplacer systématiquement une image konianké par un proverbe français équivalent tout fait (ex. traduire automatiquement par 'qui sème le vent récolte la tempête'), ce qui effacerait la spécificité culturelle du texte source."
   },
   "vocabulary": [
     {
       "word_id": "v1",
-      "term": "Bayalali",
-      "phonetic_api": "/ba.ja.la.li/",
-      "phonetic_simple": "BA-YA-LA-LI",
-      "translation": "Traduction / Interprétation / Explication stylistique",
-      "example_sentence": "Sɛbɛn nin la bayalali ka nyan.",
-      "example_phonetic": "/sɛ.bɛ̃ nĩ la ba.ja.la.li ka ɲã/",
-      "example_translation": "La traduction de ce texte est excellente."
+      "term": "kɔrɔ (double sens)",
+      "phonetic_api": "[kɔrɔ]",
+      "phonetic_simple": "ko-ro",
+      "translation": "sens caché, signification profonde (à distinguer de 'kɔrɔ' = sous/vieux selon le ton)",
+      "example_sentence": "Kuma in kɔrɔ ka dun.",
+      "example_phonetic": "[kuma in kɔrɔ ka dun]",
+      "example_translation": "Le sens profond de cette parole est difficile (à saisir)."
     },
     {
       "word_id": "v2",
-      "term": "Kuma-fala",
-      "phonetic_api": "/ku.ma.fa.la/",
-      "phonetic_simple": "KOU-MA-FA-LA",
-      "translation": "Nuance stylistique / Éloquence / Registre de langue soutenu",
-      "example_sentence": "A bɛ kuma-fala lɔn bɛrɛbɛrɛ.",
-      "example_phonetic": "/a bɛ ku.ma.fa.la lɔ̃ bɛ.rɛ.bɛ.rɛ/",
-      "example_translation": "Il maîtrise parfaitement les nuances stylistiques de la langue."
+      "term": "yamaruya (traduction fidèle)",
+      "phonetic_api": "[jamaruja]",
+      "phonetic_simple": "ya-ma-rou-ya",
+      "translation": "fidélité, exactitude (appliqué à une traduction)",
+      "example_sentence": "A ka baara ka yamaruya.",
+      "example_phonetic": "[a ka baːra ka jamaruja]",
+      "example_translation": "Son travail (de traduction) est fidèle/exact."
     },
     {
       "word_id": "v3",
-      "term": "Kuma-kudun",
-      "phonetic_api": "/ku.ma.ku.dũ/",
-      "phonetic_simple": "KOU-MA-KOU-DOUN",
-      "translation": "Idiome / Expression figée / Tournure stylistique (litt. morceau de parole)",
-      "example_sentence": "Konyanka la kuma-kudun lu ka gban.",
-      "example_phonetic": "/ko.jã.ka la ku.ma.ku.dũ ka ɡ͡bã/",
-      "example_translation": "Les expressions idiomatiques du konyanka sont denses / complexes."
+      "term": "kan fila kɔrɔfɔ",
+      "phonetic_api": "[kan fila kɔrɔfɔ]",
+      "phonetic_simple": "kan-fi-la-ko-ro-fo",
+      "translation": "traduire (litt. « expliquer deux langues »)",
+      "example_sentence": "A bɛ se ka kan fila kɔrɔfɔ.",
+      "example_phonetic": "[a bɛ se ka kan fila kɔrɔfɔ]",
+      "example_translation": "Il/elle sait traduire (entre deux langues)."
+    },
+    {
+      "word_id": "v4",
+      "term": "jɛlen / cogo",
+      "phonetic_api": "[dʒɛlɛn] / [tʃoɡo]",
+      "phonetic_simple": "djè-lèn / tcho-go",
+      "translation": "manière, style (façon de dire une chose)",
+      "example_sentence": "A ka kuma cogo ka di.",
+      "example_phonetic": "[a ka kuma tʃoɡo ka di]",
+      "example_translation": "Sa manière de parler (son style) est agréable."
+    },
+    {
+      "word_id": "v5",
+      "term": "kan fɔlen",
+      "phonetic_api": "[kan fɔlɛn]",
+      "phonetic_simple": "kan-fo-lèn",
+      "translation": "langue parlée, parole prononcée",
+      "example_sentence": "Konyan kan fɔlen ka di n ma.",
+      "example_phonetic": "[konjan kan fɔlɛn ka di n ma]",
+      "example_translation": "La langue parlée du Konyan me plaît."
     }
   ],
   "common_phrases": [
     {
       "phrase_id": "p1",
-      "original": "Bayalali kɛ, o tɛ fɔ ka kuma-kolo fɔ kelen di.",
-      "phonetic_api": "/ba.ja.la.li kɛ o tɛ fɔ ka ku.ma.ko.lo fɔ ke.lẽ di/",
-      "phonetic_simple": "BA-YA-LA-LI KÈ, O TÈ FƆ KA KOU-MA-KO-LO FƆ KÉ-LEN DI",
-      "translation": "Traduire ne se limite pas à restituer le sens mot à mot (litt. de manière identique).",
-      "context": "Principe fondamental énoncé lors des ateliers de traduction ou de linguistique avancée."
+      "original": "A bɛ se ka kan fila kɔrɔfɔ",
+      "phonetic_api": "[a bɛ se ka kan fila kɔrɔfɔ]",
+      "phonetic_simple": "a-bè-sé-ka-kan-fi-la-ko-ro-fo",
+      "translation": "Il/elle sait traduire entre deux langues",
+      "context": "Décrire une compétence de traduction"
     },
     {
       "phrase_id": "p2",
-      "original": "Fɔ i ka kuma-fala nin lami kura lɔn kulu sani i ka bayalali damina.",
-      "phonetic_api": "/fɔ i ka ku.ma.fa.la nĩ la.mi ku.ra lɔ̃ ku.lu sa.ni i ka ba.ja.la.li da.mi.na/",
-      "phonetic_simple": "FƆ I KA KOU-MA-FA-LA NIN LA-MI KOU-RA LƆN KOU-LOU SA-NI I KA BA-YA-LA-LI DA-MI-NA",
-      "translation": "Tu dois impérativement assimiler la nuance stylistique de cet environnement avant de commencer la traduction.",
-      "context": "Consigne méthodologique stricte pour un interprète professionnel."
+      "original": "Kuma in kɔrɔ ka dun",
+      "phonetic_api": "[kuma in kɔrɔ ka dun]",
+      "phonetic_simple": "kou-ma-in-ko-ro-ka-dun",
+      "translation": "Le sens profond de cette parole est difficile à saisir",
+      "context": "Signaler une difficulté d'interprétation ou de traduction"
     },
     {
       "phrase_id": "p3",
-      "original": "Kuma-kudun nin ka gban, kɔni a bayalali bɛ nyan n'ɲa.",
-      "phonetic_api": "/ku.ma.ku.dũ nĩ ka ɡ͡bã kɔ.ni a ba.ja.la.li bɛ ɲã nɲa/",
-      "phonetic_simple": "KOU-MA-KOU-DOUN NIN KA GBAN, KƆ-NI A BA-YA-LA-LI BÈ NYAN N-NYA",
-      "translation": "Cette tournure idiomatique est complexe, mais sa traduction me convient parfaitement.",
-      "context": "Validation stylistique d'une adaptation textuelle soutenue."
+      "original": "A ka kuma cogo ka di",
+      "phonetic_api": "[a ka kuma tʃoɡo ka di]",
+      "phonetic_simple": "a-ka-kou-ma-tcho-go-ka-di",
+      "translation": "Sa manière de parler est agréable",
+      "context": "Commenter le style oratoire de quelqu'un"
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Kan fila kɔrɔfɔ man nɔgɔn",
+      "phonetic_api": "[kan fila kɔrɔfɔ man nɔɡɔn]",
+      "phonetic_simple": "kan-fi-la-ko-ro-fo-man-no-gon",
+      "translation": "Traduire entre deux langues n'est pas facile",
+      "context": "Souligner la difficulté de l'exercice de traduction"
     }
   ],
   "grammar_points": [
     {
-      "concept": "La transposition syntaxique et l'ajustement pragmatique",
-      "explanation": "La traduction avancée du français vers le konyanka impose de s'affranchir de la structure 'Sujet-Verbe-Objet' occidentale pour épouser la logique 'Sujet-Objet-Verbe / Postposition' mandingue. Les concepts métaphoriques français (ex: 'avoir le cœur sur la main') se transposent par des équivalents organiques locaux focalisés sur le foie ('bɛ̀n') ou le cœur ('jusu').",
+      "concept": "L'écart entre image source et sens visé dans les proverbes",
+      "explanation": "Comme l'illustrent les proverbes konianké authentiques de Damaro (ex. « le vent ira derrière la calebasse »), une traduction avancée doit choisir entre restituer l'image concrète d'origine ou l'adapter à un équivalent culturellement plus transparent en français, chaque choix ayant un effet stylistique différent.",
       "rules": [
-        "Transposition des subordonnées relatives françaises en propositions participiales ou thématiques introduites par 'mɛn' ou 'o'.",
-        "Respect absolu de la place des connecteurs logiques de fin de phrase, essentiels pour stabiliser le registre soutenu."
+        "Traduction littérale = conserve l'image culturelle d'origine, au prix d'une clarté immédiate moindre",
+        "Traduction équivalente = restitue le sens général au prix de la spécificité imagée"
       ],
       "examples": [
         {
-          "structure": "A jusu ka diya",
-          "phonetic_api": "/a d͡ʒu.su ka di.ja/",
-          "meaning": "Il est généreux / joyeux (Traduction pragmatique : litt. son cœur est agréable)"
-        },
-        {
-          "structure": "Kuma-fala bayalali",
-          "phonetic_api": "/ku.ma.fa.la ba.ja.la.li/",
-          "meaning": "La traduction des nuances stylistiques"
+          "structure": "traduction littérale : « le vent ira derrière la calebasse »",
+          "phonetic_api": "—",
+          "meaning": "conserve l'image konianké d'origine (déséquilibre des forces)"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Karamɔgɔ (Le Professeur de linguistique)",
-      "text": "Lamine, i ye sɛbɛn-ko la maana nin bayalali kɛ ni nyan di?",
-      "phonetic_api": "/la.mĩ i jɛ sɛ.bɛ̃.ko la maː.na nĩ ba.ja.la.li kɛ ni ɲã di/",
-      "phonetic_simple": "LA-MINE, I YÈ SÈ-BÈN-KO LA MAA-NA NIN BA-YA-LA-LI KÈ NI NYAN DI ?",
-      "translation": "Lamine, as-tu traduit ce récit épique administratif avec toute l'élégance requise ?"
+      "speaker": "Traducteur en formation",
+      "text": "N bɛ se ka nin sana 'Abé föla ko dji douma djabala' kan fila kɔrɔfɔ, kono a kɔrɔ ka dun n bolo.",
+      "phonetic_api": "[n bɛ se ka nin sana abe fɔla ko dʒi duma dʒabala kan fila kɔrɔfɔ kono a kɔrɔ ka dun n bolo]",
+      "phonetic_simple": "n-bè-sé-ka-nin-sa-na",
+      "translation": "Je peux traduire ce proverbe 'On dit que l'eau est bonne pour l'oignon', mais son sens profond m'est difficile à rendre."
     },
     {
-      "speaker": "Lamine (Le Traducteur expert)",
-      "text": "Hali n'karamɔgɔ. Kɔni kuma-kudun lu tun ka gban bɛrɛbɛrɛ, o ladi n'ye n'jusu bila a la bɛrɛ.",
-      "phonetic_api": "/ha.li ŋka.ra.mɔ.ɡɔ kɔ.ni ku.ma.ku.dũ lu tũ ka ɡ͡bã bɛ.rɛ.bɛ.rɛ o la.di ɲɛ nd͡ʒu.su bi.la a la bɛ.rɛ/",
-      "phonetic_simple": "HA-LI N-KA-RA-MƆ-GƆ. KƆ-NI KOU-MA-KOU-DOUN LOU TOUN KA GBAN BÈ-RÈ-BÈ-RÈ, O LA-DI N-YÈ N-DJOU-SOU BI-LA A LA BÈ-RÈ",
-      "translation": "Oui mon maître. Cependant, les expressions idiomatiques étaient particulièrement complexes, c'est pourquoi je m'y suis investi avec une concentration absolue."
+      "speaker": "Formateur",
+      "text": "I ka kan ka a kɔrɔ fɔ ten: bonya la fanga tɛ diya lon o lon.",
+      "phonetic_api": "[i ka kan ka a kɔrɔ fɔ tɛn bonja la fanɡa tɛ dija lɔn o lɔn]",
+      "phonetic_simple": "i-ka-kan-ka-a-ko-ro-fo-tèn",
+      "translation": "Tu dois en rendre le sens ainsi : même une bonne chose en excès n'est pas toujours profitable."
     },
     {
-      "speaker": "Karamɔgɔ (Le Professeur de linguistique)",
-      "text": "Nyan le! Katuguni ni i ma kuma-fala lɔn kulu, bayalali tɛ se ka kɛ sariyabɔ di.",
-      "phonetic_api": "/ɲã le ka.tu.ɡu.ni ni i ma ku.ma.fa.la lɔ̃ ku.lu ba.ja.la.li tɛ se ka kɛ sa.ri.ja.bɔ di/",
-      "phonetic_simple": "NYAN LÉ ! KA-TOU-GOU-NI NI I MA KOU-MA-FA-LA LƆN KOU-LOU, BA-YA-LA-LI TÈ SÉ KA KÈ SA-RI-YA-BƆ DI",
-      "translation": "Excellent ! Car si l'on ne saisit pas d'abord la nuance stylistique, la traduction ne peut faire jurisprudence (faire autorité)."
+      "speaker": "Traducteur en formation",
+      "text": "Kan fila kɔrɔfɔ man nɔgɔn, kono a ka di n ma.",
+      "phonetic_api": "[kan fila kɔrɔfɔ man nɔɡɔn kono a ka di n ma]",
+      "phonetic_simple": "kan-fi-la-ko-ro-fo-man-no-gon",
+      "translation": "Traduire entre deux langues n'est pas facile, mais cela me plaît."
     },
     {
-      "speaker": "Lamine (Le Traducteur expert)",
-      "text": "Siga tɛ a la. Sisan, kuma-kolo bɛ gbe fɔ mɔgɔ o mɔgɔ ye. Alla bɛ a kɛ.",
-      "phonetic_api": "/si.ɡa tɛ a la si.sã ku.ma.ko.lo bɛ ɡ͡be fɔ mɔ.ɡɔ o mɔ.ɡɔ d͡ʒɛ al.la bɛ a kɛ/",
-      "phonetic_simple": "SI-GA TÈ A LA. SI-SAN, KOU-MA-KO-LO BÈ GBE FƆ MƆ-GƆ O MƆ-GƆ YÈ. AL-LA BÈ A KÈ",
-      "translation": "Aucun doute là-dessus. À présent, le sens profond est d'une clarté limpide pour quiconque le lit. Si Dieu le veut."
+      "speaker": "Formateur",
+      "text": "A ka kuma cogo ka di, i bɛna se ka nyi.",
+      "phonetic_api": "[a ka kuma tʃoɡo ka di i bɛna se ka ɲi]",
+      "phonetic_simple": "a-ka-kou-ma-tcho-go-ka-di",
+      "translation": "Ta manière de t'exprimer est agréable, tu vas réussir."
     }
   ],
   "cultural_notes": [
-    "Dans la tradition guinéenne, l'exercice de la traduction et de l'exégèse orale est dévolu aux grands maîtres de la parole et aux médiateurs culturels. Le passage du registre courant au registre soutenu ('kuma-fala') exige non seulement une parfaite virtuosité technique, mais aussi une profonde imprégnation des valeurs éthiques de la charte de Kouroukan Fouga, garantissant que la parole traduite conserve sa puissance de concorde ('badenya')."
+    "L'exercice de traduction des proverbes konianké authentiques de Damaro, tels que documentés par Donkosira, illustre concrètement la difficulté de restituer en français des images culturelles spécifiques (calebasse, arbre fruitier, lait maternel) sans perdre leur portée symbolique locale.",
+    "Aucune référence académique dédiée à la traductologie konianké-français n'a été trouvée : les principes de traduction présentés ici s'appuient sur les pratiques générales de traduction des proverbes manding et sur l'exemple direct des proverbes cités."
   ],
   "exercises": [
     {
-      "exercise_id": "ex1",
-      "type": "multiple_choice",
-      "question": "Que désigne précisément le terme 'Kuma-fala' en linguistique konyanka ?",
+      "exercise_id": "e1",
+      "type": "choix_multiple",
+      "question": "Comment dit-on 'traduire' (litt. « expliquer deux langues ») ?",
       "options": [
-        "Une parole rapide",
-        "La nuance stylistique / l'éloquence du registre soutenu",
-        "Une erreur de prononciation"
+        "kan fila kɔrɔfɔ",
+        "furakɛli",
+        "maana kɛ",
+        "sana"
       ],
-      "correct_answer": "La nuance stylistique / l'éloquence du registre soutenu",
-      "explanation": "Composé de 'kuma' (la parole) et 'fala' (la manière ou la nuance raffinée), ce terme qualifie l'éloquence et la finesse des registres littéraires."
+      "correct_answer": "kan fila kɔrɔfɔ",
+      "explanation": "'kan fila kɔrɔfɔ' signifie littéralement 'expliquer deux langues', soit traduire."
     },
     {
-      "exercise_id": "ex2",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Sɛbɛn nin la [ ___ ] ka nyan bɛrɛbɛrɛ (La traduction de ce texte est extrêmement réussie).",
-      "correct_answer": "bayalali",
-      "hint": "Le substantif konyanka pour désigner l'action d'expliquer, d'interpréter ou de traduire d'une langue à une autre."
+      "exercise_id": "e2",
+      "type": "traduction",
+      "question": "Quel est l'enjeu principal lors de la traduction d'un proverbe konianké comme « le vent ira derrière la calebasse » ?",
+      "correct_answer": "Choisir entre conserver l'image culturelle d'origine ou restituer seulement le sens général.",
+      "explanation": "C'est le dilemme central de la traduction stylistique avancée abordé dans cette leçon."
+    },
+    {
+      "exercise_id": "e3",
+      "type": "texte_a_trous",
+      "sentence_with_blank": "Kuma in ___ ka dun. (Le sens profond de cette parole est difficile à saisir.)",
+      "correct_answer": "kɔrɔ",
+      "explanation": "'kɔrɔ' ici désigne le sens caché/profond d'une parole."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Donkosira — Les contes dans la région de Damaro (Guinée), conte et chant en konianké authentiques",
+      "url": "https://www.donkosira.org/les-contes-dans-la-region-de-damaro-guinee/"
+    },
+    {
+      "label": "Vydrin & Diané — Propositions pour l'orthographe du maninka (Guinée), Mandenkan 52 (2014)",
+      "url": "https://shs.hal.science/halshs-01096594v1/document"
+    },
+    {
+      "label": "Malinkuia — Introduction à la langue malinké (grammaire complète, variété du Wulada, Haute-Guinée)",
+      "url": "https://fr.scribd.com/document/499114939/Malinkuia"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Les proverbes cités en illustration proviennent directement de la source konianké authentique Donkosira. Toutefois, la terminologie linguistique/traductologique employée (traduire, style, sens profond) provient du continuum maninka/malinké général, faute de métalangage grammatical spécifiquement documenté et attesté pour le Konyanka."
 }

@@ -6,226 +6,200 @@
   "lesson_number": 4,
   "title": "Raconter des faits passés (les temps du récit)",
   "learning_objectives": [
-    "Utiliser le suffixe ou la particule du passé pour situer une action complétée",
-    "Raconter une anecdote simple ou un événement survenu la veille",
-    "Différencier l'état présent de l'état accompli dans une narration"
+    "Comprendre le système attesté des deux suffixes de passé -ako-/-akəd- décrit par Cover (2010)",
+    "Reconnaître la morphologie narrative (NM1/NM2) utilisée dans les contes/récits",
+    "Distinguer perfectif et imperfectif dans le système TAM badiaranké"
   ],
   "phonetic_focus": {
-    "key_sounds": "La marque du passé entraîne souvent un glissement tonique ou une modification de la voyelle finale du radical verbal. Le ton du morphème d'aspect accompli doit rester bas pour se distinguer des interrogations.",
-    "common_pitfalls": "Confondre la marque du passé avec la particule négative postposée 'ɓe' en raison d'une mauvaise articulation de la consonne initiale de l'enclitique temporel."
+    "key_sounds": "Les suffixes -ako-/-akəd- s'attachent directement à la racine verbale ; la voyelle finale -o ou la séquence -əd- marquent une nuance aspectuelle précise selon Cover (2010).",
+    "common_pitfalls": "Confondre les deux suffixes de passé, qui encodent des distinctions aspectuelles fines (proche du perfectif vs. un passé plus éloigné/narratif) non résumables en une seule règle simple."
   },
   "vocabulary": [
     {
-      "word_id": "v13_1",
-      "term": "Meema",
-      "phonetic_api": "/meːma/",
-      "phonetic_simple": "MEE-MA",
-      "translation": "Hier / Le jour précédent",
-      "example_sentence": "Meema n wa e maree.",
-      "example_phonetic": "/meːma n wa e mareː/",
-      "example_translation": "Hier, je suis allé au marché."
+      "word_id": "v1",
+      "term": "ra:-",
+      "phonetic_api": "/ra:-/",
+      "phonetic_simple": "ra-",
+      "translation": "aller",
+      "_src": "COVER"
     },
     {
-      "word_id": "v13_2",
-      "term": "Fari-ma",
-      "phonetic_api": "/farima/",
-      "phonetic_simple": "FA-RI-MA",
-      "translation": "A fait / A travaillé (accompli)",
-      "example_sentence": "M baa o fari-ma sae.",
-      "example_phonetic": "/m ɓaː o farima sae/",
-      "example_translation": "Mon père a bien travaillé."
+      "word_id": "v2",
+      "term": "re:-",
+      "phonetic_api": "/re:-/",
+      "phonetic_simple": "ré-",
+      "translation": "venir",
+      "_src": "COVER"
     },
     {
-      "word_id": "v13_3",
-      "term": "Wona-ma",
-      "phonetic_api": "/wonama/",
-      "phonetic_simple": "WO-NA-MA",
-      "translation": "Était / A habité",
-      "example_sentence": "O wona-ma e seŋeni.",
-      "example_phonetic": "/o wonama e seŋeni/",
-      "example_translation": "Il était là-bas."
+      "word_id": "v3",
+      "term": "dZa:-",
+      "phonetic_api": "/dʒa:-/",
+      "phonetic_simple": "dja-",
+      "translation": "manger",
+      "_src": "COVER"
     },
     {
-      "word_id": "v13_4",
-      "term": "Wure",
-      "phonetic_api": "/wure/",
-      "phonetic_simple": "WOU-RE",
-      "translation": "Arriver / Venir de passer",
-      "example_sentence": "M maama o wure-ma.",
-      "example_phonetic": "/m maːma o wurema/",
-      "example_translation": "Mon grand-père est arrivé."
+      "word_id": "v4",
+      "term": "dZe:n-",
+      "phonetic_api": "/dʒe:n-/",
+      "phonetic_simple": "djé-ne-",
+      "translation": "voir / regarder",
+      "_src": "COVER"
     },
     {
-      "word_id": "v13_5",
-      "term": "Mase-ma",
-      "phonetic_api": "/masema/",
-      "phonetic_simple": "MA-SE-MA",
-      "translation": "Est fini / Est achevé / Est vieux",
-      "example_sentence": "Bari o mase-ma.",
-      "example_phonetic": "/ɓari o masema/",
-      "example_translation": "Le jour s'est achevé."
+      "word_id": "v5",
+      "term": "datta-",
+      "phonetic_api": "/datta-/",
+      "phonetic_simple": "dat-ta-",
+      "translation": "dormir",
+      "_src": "COVER"
     },
     {
-      "word_id": "v13_6",
-      "term": "Abaari",
-      "phonetic_api": "/aɓaːri/",
-      "phonetic_simple": "A-BAA-RI",
-      "translation": "L'histoire / L'événement passé",
-      "example_sentence": "N lenb abaari m mmanza.",
-      "example_phonetic": "/n lɛnɓ aɓaːri m mːanza/",
-      "example_translation": "Je raconte une histoire."
-    },
-    {
-      "word_id": "v13_7",
-      "term": "Mee-n-meema",
-      "phonetic_api": "/meː n meːma/",
-      "phonetic_simple": "MEE-N-MEE-MA",
-      "translation": "Avant-hier",
-      "example_sentence": "Mee-n-meema n seŋeni e teeŋ.",
-      "example_phonetic": "/meː n meːma n seŋeni e teːŋ/",
-      "example_translation": "Avant-hier, j'étais au village."
+      "word_id": "v6",
+      "term": "s@m-",
+      "phonetic_api": "/səm-/",
+      "phonetic_simple": "seum-",
+      "translation": "arriver / rencontrer / se produire",
+      "_src": "COVER"
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p13_1",
-      "original": "Meema i fari maami ?",
-      "phonetic_api": "/meːma i fari maːmi/",
-      "phonetic_simple": "MEE-MA I FA-RI MAA-MI ?",
-      "translation": "Qu'as-tu fait hier ?",
-      "context": "Prendre des nouvelles des occupations passées de son interlocuteur."
+      "phrase_id": "p1",
+      "original": "ra:-ako-",
+      "phonetic_api": "/ra:-ako-/",
+      "phonetic_simple": "ra-a-ko-",
+      "translation": "est allé (passé, suffixe -ako-)",
+      "context": "Construction attestée par Cover (2010) : racine + suffixe de passé -ako-."
     },
     {
-      "phrase_id": "p13_2",
-      "original": "N fari-ma maaso e wula.",
-      "phonetic_api": "/n farima maːso e wula/",
-      "phonetic_simple": "N FA-RI-MA MAA-SO E WOU-LA",
-      "translation": "J'ai mangé du riz cet après-midi.",
-      "context": "Expliquer ce que l'on a consommé lors du repas précédent."
+      "phrase_id": "p2",
+      "original": "dZe:n-akəd-",
+      "phonetic_api": "/dʒe:n-akəd-/",
+      "phonetic_simple": "djé-ne-a-keud-",
+      "translation": "a vu (passé, suffixe -akəd-)",
+      "context": "Construction attestée par Cover (2010) avec le second suffixe de passé."
     },
     {
-      "phrase_id": "p13_3",
-      "original": "M nkaet o wure-ma e subaka.",
-      "phonetic_api": "/m nkaːɛt o wurema e suɓaka/",
-      "phonetic_simple": "M NKAE-TT O WOU-RE-MA E SOU-BHA-KA",
-      "translation": "Mon frère est arrivé ce matin.",
-      "context": "Annoncer l'arrivée récente d'un membre de la fratrie."
+      "phrase_id": "p3",
+      "original": "ra:- re:-",
+      "phonetic_api": "/ra:-/ /re:-/",
+      "phonetic_simple": "ra- ré-",
+      "translation": "aller venir",
+      "context": "Juxtaposition pédagogique de mots déjà attestés dans cette leçon (recombinaison, PAS une phrase attestée telle quelle dans les sources)."
     },
     {
-      "phrase_id": "p13_4",
-      "original": "Meema o aluma ɓe, o mazaŋe.",
-      "phonetic_api": "/meːma o aluma ɓe o mazaŋe/",
-      "phonetic_simple": "MEE-MA O A-LOU-MA BHE, O MA-ZAN-GE",
-      "translation": "Hier ce n'était pas vendredi, c'était le quatrième jour (jeudi).",
-      "context": "Rectifier une date ou un repère temporel dans une conversation."
-    },
-    {
-      "phrase_id": "p13_5",
-      "original": "Fari m mi o mase-ma sae.",
-      "phonetic_api": "/fari m mi o masema sae/",
-      "phonetic_simple": "FA-RI M MI O MA-SE-MA SA-E",
-      "translation": "Mon travail est complètement terminé.",
-      "context": "Informer son employeur ou sa famille de la fin d'une tâche."
-    },
-    {
-      "phrase_id": "p13_6",
-      "original": "M baa o wona-ma e Koundara.",
-      "phonetic_api": "/m ɓaː o wonama e koundara/",
-      "phonetic_simple": "M BHAA O WO-NA-MA E KOUN-DA-RA",
-      "translation": "Mon père habitait à Koundara.",
-      "context": "Donner des indications historiques sur la résidence d'un parent."
-    },
-    {
-      "phrase_id": "p13_7",
-      "original": "N gese-ma n paɗa meema.",
-      "phonetic_api": "/n ɡesema n paɗa meːma/",
-      "phonetic_simple": "N GUE-SE-MA N PA-DHA MEE-MA",
-      "translation": "J'ai joué avec les enfants hier.",
-      "context": "Évoquer ses moments de détente passés."
-    },
-    {
-      "phrase_id": "p13_8",
-      "original": "Abaari o sae-ma korom !",
-      "phonetic_api": "/aɓaːri o saema korom/",
-      "phonetic_simple": "A-BAA-RI O SA-E-MA KO-ROM !",
-      "translation": "L'histoire s'est très bien terminée !",
-      "context": "Commenter la conclusion heureuse d'un récit ou d'un conflit."
+      "phrase_id": "p4",
+      "original": "ra:- dZa:-",
+      "phonetic_api": "/ra:-/ /dʒa:-/",
+      "phonetic_simple": "ra- dja-",
+      "translation": "aller manger",
+      "context": "Juxtaposition pédagogique de mots déjà attestés dans cette leçon (recombinaison, PAS une phrase attestée telle quelle dans les sources)."
     }
   ],
   "grammar_points": [
     {
-      "concept": "Le marqueur de l'aspect accompli / passé '-ma'",
-      "explanation": "En Badiaranké, pour indiquer qu'une action est complètement achevée dans le passé, on adjoint le suffixe aspectuel '-ma' directement après le radical verbal. Ce morphème verrouille le récit dans le domaine du révolu ou du parfait.",
+      "concept": "Les deux suffixes de passé -ako-/-akəd-",
+      "explanation": "Cover (2010) décrit en détail un système temps-aspect-mode (TAM) opposant deux suffixes de passé : -ako- et -akəd-, dont la distinction précise (proximité temporelle, degré d'assertion, ou statut narratif) est analysée dans sa thèse à travers de nombreux exemples en contexte. Le badiaranké possède également des marqueurs narratifs dédiés (NM1, NM2) employés spécifiquement dans les contes.",
       "rules": [
-        "Le suffixe '-ma' se lie à la fin du verbe d'action ou d'état.",
-        "Les compléments d'objet ou les circonstants de lieu se placent après ce bloc verbal complexifié."
+        "Racine verbale + -ako- = une forme de passé",
+        "Racine verbale + -akəd- = une autre forme de passé, aspectuellement distincte",
+        "NM1/NM2 = marqueurs narratifs propres aux contes, distincts des suffixes de passé conversationnels"
       ],
       "examples": [
         {
-          "structure": "n fari-ma",
-          "phonetic_api": "/n farima/",
-          "meaning": "j'ai fait / j'ai mangé"
+          "structure": "ra:-ako-",
+          "phonetic_api": "/ra:-ako-/",
+          "meaning": "est allé"
         },
         {
-          "structure": "o wure-ma",
-          "phonetic_api": "/o wurema/",
-          "meaning": "il est arrivé"
+          "structure": "dZe:n-akəd-",
+          "phonetic_api": "/dʒe:n-akəd-/",
+          "meaning": "a vu"
+        }
+      ]
+    },
+    {
+      "concept": "Perfectif vs imperfectif",
+      "explanation": "Le système verbal badiaranké, selon Cover (2010), oppose un aspect perfectif (action vue comme un tout achevé) à un aspect imperfectif (action en cours ou habituelle), en plus des deux suffixes de passé. La thèse documente aussi une forme progressive/habituelle périphrastique et un prospectif, mais les paradigmes complets ne sont pas repris ici faute d'exemples suffisamment simples à isoler sans risque de déformation.",
+      "rules": [
+        "Le perfectif encode une action achevée.",
+        "L'imperfectif encode une action en cours/habituelle."
+      ],
+      "examples": [
+        {
+          "structure": "(forme perfective non isolée simplement dans nos extraits)",
+          "phonetic_api": "-",
+          "meaning": "voir Cover (2010) chapitres sur l'aspect pour le détail complet"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Samba",
-      "text": "Moussa, i fari-ma maami meema e wula ?",
-      "phonetic_api": "/moussa i farima maːmi meːma e wula/",
-      "phonetic_simple": "MOUS-SA, I FA-RI-MA MAA-MI MEE-MA E WOU-LA ?",
-      "translation": "Moussa, qu'as-tu fait hier après-midi ?"
+      "speaker": "Conteur",
+      "text": "ra:-ako-.",
+      "phonetic_api": "/ra:-ako-/",
+      "phonetic_simple": "ra-a-ko-",
+      "translation": "Il/elle est allé(e)."
     },
     {
-      "speaker": "Moussa",
-      "text": "Meema n wa-ma e maree. N fari-ma maaso n kense e seŋeni.",
-      "phonetic_api": "/meːma n wama e mareː n farima maːso n kɛnse e seŋeni/",
-      "phonetic_simple": "MEE-MA N WA-MA E MA-REE. N FA-RI-MA MAA-SO N KEN-SE E SE-NGE-NI.",
-      "translation": "Hier je suis allé au marché. J'y ai mangé du riz et du poisson."
+      "speaker": "Auditeur",
+      "text": "dZe:n-akəd-?",
+      "phonetic_api": "/dʒe:n-akəd-/",
+      "phonetic_simple": "djé-ne-a-keud-",
+      "translation": "A-t-il/elle vu ? (forme juxtaposée, pas de question complète attestée)"
     },
     {
-      "speaker": "Samba",
-      "text": "I nkaet o wona-ma n i meema ?",
-      "phonetic_api": "/i nkaːɛt o wonama n i meːma/",
-      "phonetic_simple": "I NKAE-TT O WO-NA-MA N I MEE-MA ?",
-      "translation": "Ton frère était-il avec toi hier ?"
+      "speaker": "Professeur",
+      "text": "ra:-.",
+      "phonetic_api": "/ra:-/",
+      "phonetic_simple": "ra-",
+      "translation": "Aller. (mot attesté isolé, recombiné pédagogiquement dans ce dialogue)"
     },
     {
-      "speaker": "Moussa",
-      "text": "Aé, o fari-ma e maari. Fari o mase-ma sae.",
-      "phonetic_api": "/aeː a farima e maːri fari o masema sae/",
-      "phonetic_simple": "AEE, A FA-RI-MA E MAA-RI. FA-RI O MA-SE-MA SA-E.",
-      "translation": "Non, il a travaillé à la maison. Sa tâche est tout à fait finie."
+      "speaker": "Élève",
+      "text": "re:-.",
+      "phonetic_api": "/re:-/",
+      "phonetic_simple": "ré-",
+      "translation": "Venir. (mot attesté isolé, recombiné pédagogiquement dans ce dialogue)"
     }
   ],
   "cultural_notes": [
-    "La transmission des récits historiques et familiaux chez les Badiaranké se fait traditionnellement lors des veillées, une fois les travaux des champs achevés ('fari o mase-ma'). Les anciens utilisent le suffixe du passé de manière méticuleuse pour marquer la généalogie et ancrer les mythes fondateurs dans le temps des ancêtres."
+    "Les récits/contes (voir aussi Meyer 1995, Contes du pays Badiaranké, mentionné dans la bibliographie mais non consulté en texte intégral) emploient des marqueurs narratifs spécifiques (NM1/NM2) distincts de la conversation courante, selon la description de Cover (2010)."
   ],
   "exercises": [
     {
-      "exercise_id": "ex13_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel suffixe s'ajoute au verbe pour exprimer une action passée en Badiaranké ?",
+      "question": "Combien de suffixes de passé distincts Cover (2010) décrit-elle pour le badiaranké ?",
       "options": [
-        "-ɓe",
-        "-ma",
-        "-rek"
+        "deux (-ako- et -akəd-)",
+        "un seul",
+        "quatre"
       ],
-      "correct_answer": "-ma",
-      "explanation": "Le suffixe '-ma' est la marque de l'accompli ou du passé, tandis que '-ɓe' marque la négation."
+      "correct_answer": "deux (-ako- et -akəd-)",
+      "explanation": "C'est le cœur de l'analyse TAM de la thèse de Cover (2010)."
     },
     {
-      "exercise_id": "ex13_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "[ ___ ] n wa-ma e maree. (Hier je suis allé au marché.)",
-      "correct_answer": "meema",
-      "hint": "Adverbe temporel désignant le jour précédant aujourd'hui."
+      "sentence_with_blank": "ra:-[ ___ ]- = « est allé »",
+      "correct_answer": "ako",
+      "hint": "Un des deux suffixes de passé attestés."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Cover, R. (2010) — Aspect, Modality, and Tense in Badiaranke, UC Berkeley (PhD dissertation)",
+      "url": "https://escholarship.org/uc/item/6f91m5dg"
+    },
+    {
+      "label": "Cover, R. (2010) — texte intégral PDF (eScholarship, UC Berkeley)",
+      "url": "https://escholarship.org/content/qt6f91m5dg/qt6f91m5dg.pdf"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Le système des deux suffixes de passé (-ako-/-akəd-) et la distinction perfectif/imperfectif sont bien attestés et documentés en détail par Cover (2010) ; cependant, faute de pouvoir reproduire ici l'ensemble des paradigmes complets et des exemples contextualisés de sa thèse sans risque de simplification excessive, cette leçon reste partielle et devrait être complétée par une lecture directe des chapitres TAM de Cover (2010)."
 }

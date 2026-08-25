@@ -6,184 +6,223 @@
   "lesson_number": 3,
   "title": "Exprimer ses goûts, ses préférences et ses sentiments",
   "learning_objectives": [
-    "Exprimer l'appréciation, l'amour ou la préférence pour une chose ou une action",
-    "Exprimer l'aversion, le désaccord ou le désintérêt",
-    "Décrire des états émotionnels de base (joie, tristesse, colère, peur)"
+    "Exprimer qu'on aime ou n'aime pas quelque chose",
+    "Nommer des émotions simples",
+    "Comparer deux préférences"
   ],
   "phonetic_focus": {
-    "key_sounds": "La particule postpositionnelle de préférence 'fɛ' se prononce avec une friction labio-dentale sourde /f/ bien nette. Le mot 'diya' /di.ja/ (plaisir/joie) demande une semi-voyelle palatale fluide. La nasalisation de la voyelle dans 'gbo' /ɡ͡bɔ̃/ (colère/haine) requiert l'articulation simultanée labio-vélaire combinée à une résonance nasale.",
-    "common_pitfalls": "Attention à ne pas omettre l'allongement vocalique dans 'diyara' /di.jaː.ra/. Ne confondez pas 'fɛ' (vouloir/aimer) et 'fɛ́' (souffler)."
+    "key_sounds": "La construction 'diya ... na' (plaire à) inverse la logique du français ('j'aime X' devient littéralement 'X me plaît') ; il faut s'entraîner à ne pas traduire mot à mot.",
+    "common_pitfalls": "Vouloir utiliser un verbe unique équivalent à 'aimer' comme en français, alors que le continuum manding préfère la construction impersonnelle 'diya...na'."
   },
   "vocabulary": [
     {
       "word_id": "v1",
-      "term": "Kan",
-      "phonetic_api": "/kã/",
-      "phonetic_simple": "KAN",
-      "translation": "Aimer / Chérir / Vouloir (fortement)",
-      "example_sentence": "N'bɛ i kan.",
-      "example_phonetic": "/mbɛ i kã/",
-      "example_translation": "Je t'aime."
+      "term": "diya",
+      "phonetic_api": "[dija]",
+      "phonetic_simple": "di-ya",
+      "translation": "plaire, être agréable",
+      "example_sentence": "Malo ka diya n na.",
+      "example_phonetic": "[malo ka dija n na]",
+      "example_translation": "J'aime le riz (litt. le riz me plaît)."
     },
     {
       "word_id": "v2",
-      "term": "Diya",
-      "phonetic_api": "/di.ja/",
-      "phonetic_simple": "DI-YA",
-      "translation": "Plaire / Rendre heureux / Être agréable",
-      "example_sentence": "Tulon nin ka diya n'ye.",
-      "example_phonetic": "/tu.lɔ̃ nĩ ka di.ja ɲe/",
-      "example_translation": "Ce jeu me plaît."
+      "term": "kɔniya / kɔrɔfɛ",
+      "phonetic_api": "[kɔɲa] / [kɔrɔfɛ]",
+      "phonetic_simple": "ko-nya / ko-ro-fè",
+      "translation": "détester, ne pas aimer",
+      "example_sentence": "A tɛ diya n na.",
+      "example_phonetic": "[a tɛ dija n na]",
+      "example_translation": "Je n'aime pas ça."
     },
     {
       "word_id": "v3",
-      "term": "Gbo",
-      "phonetic_api": "/ɡ͡bɔ̃/",
-      "phonetic_simple": "GBO",
-      "translation": "Haïr / Détester / Se mettre en colère",
-      "example_sentence": "N'bɛ fani fin gbo.",
-      "example_phonetic": "/mbɛ fa.nĩ fĩ ɡ͡bɔ̃/",
-      "example_translation": "Je déteste le pagne noir."
+      "term": "nisɔndiya",
+      "phonetic_api": "[nisɔndija]",
+      "phonetic_simple": "ni-son-di-ya",
+      "translation": "joie, bonheur",
+      "example_sentence": "N bɛ nisɔndiya la.",
+      "example_phonetic": "[n bɛ nisɔndija la]",
+      "example_translation": "Je suis heureux."
     },
     {
       "word_id": "v4",
-      "term": "Sevɛ",
-      "phonetic_api": "/se.vɛ/",
-      "phonetic_simple": "SÉ-VÈ",
-      "translation": "Préférer / Choisir de préférence",
-      "example_sentence": "N'bɛ malo sevɛ sogo fɛ.",
-      "example_phonetic": "/mbɛ ma.lo se.vɛ so.ɡo fɛ/",
-      "example_translation": "Je préfère le riz à la viande."
+      "term": "dusukasi",
+      "phonetic_api": "[dusukasi]",
+      "phonetic_simple": "dou-sou-ka-si",
+      "translation": "tristesse",
+      "example_sentence": "A bɛ dusukasi la.",
+      "example_phonetic": "[a bɛ dusukasi la]",
+      "example_translation": "Il/elle est triste."
     },
     {
       "word_id": "v5",
-      "term": "Silan",
-      "phonetic_api": "/si.lã/",
-      "phonetic_simple": "SI-LAN",
-      "translation": "Avoir peur / Craindre",
-      "example_sentence": "N'bɛ silan kɔnɔba lu la.",
-      "example_phonetic": "/mbɛ si.lã kɔ.nɔ.ba lu la/",
-      "example_translation": "J'ai peur des gros serpents."
+      "term": "dimi",
+      "phonetic_api": "[dimi]",
+      "phonetic_simple": "di-mi",
+      "translation": "colère",
+      "example_sentence": "A dimi bɔra.",
+      "example_phonetic": "[a dimi bɔra]",
+      "example_translation": "Il/elle s'est mis(e) en colère."
     },
     {
       "word_id": "v6",
-      "term": "Kunu",
-      "phonetic_api": "/ku.nu/",
-      "phonetic_simple": "KOU-NOU",
-      "translation": "Être triste / Avoir le cœur lourd",
-      "example_sentence": "A jusu kunura bi la.",
-      "example_phonetic": "/a d͡ʒu.su ku.nu.ra bi la/",
-      "example_translation": "Son cœur est triste aujourd'hui."
+      "term": "siran",
+      "phonetic_api": "[siran]",
+      "phonetic_simple": "si-ran",
+      "translation": "avoir peur",
+      "example_sentence": "N siranna.",
+      "example_phonetic": "[n siranna]",
+      "example_translation": "J'ai eu peur."
+    },
+    {
+      "word_id": "v7",
+      "term": "fisa",
+      "phonetic_api": "[fisa]",
+      "phonetic_simple": "fi-sa",
+      "translation": "meilleur, préférable",
+      "example_sentence": "Nin ye fisa ti wo ye.",
+      "example_phonetic": "[nin je fisa ti wo je]",
+      "example_translation": "Ceci est meilleur que cela."
     }
   ],
   "common_phrases": [
     {
       "phrase_id": "p1",
-      "original": "Mun bɛ diya i ye?",
-      "phonetic_api": "/mũ bɛ di.ja i d͡ʒɛ/",
-      "phonetic_simple": "MOUN BÈ DI-YA I YÈ",
-      "translation": "Qu'est-ce qui te plaît ? / Qu'aimes-tu ?",
-      "context": "Question ouverte pour s'informer des goûts de quelqu'un."
+      "original": "A ka diya i na wa?",
+      "phonetic_api": "[a ka dija i na wa]",
+      "phonetic_simple": "a-ka-di-ya-i-na-wa",
+      "translation": "Est-ce que ça te plaît ?",
+      "context": "Demander l'avis ou la préférence"
     },
     {
       "phrase_id": "p2",
-      "original": "A bɛ nyan n'ɲa bɛrɛbɛrɛ.",
-      "phonetic_api": "/a bɛ ɲã nɲa bɛ.rɛ.bɛ.rɛ/",
-      "phonetic_simple": "A BÈ NYAN N-NYA BÈ-RÈ-BÈ-RÈ",
-      "translation": "Ça me plaît énormément (litt. c'est très beau à mes yeux).",
-      "context": "Expression de satisfaction ou d'admiration."
+      "original": "Nin ye fisa ti wo ye",
+      "phonetic_api": "[nin je fisa ti wo je]",
+      "phonetic_simple": "nin-yé-fi-sa-ti-wo-yé",
+      "translation": "Celui-ci est meilleur que celui-là",
+      "context": "Comparer deux options"
     },
     {
       "phrase_id": "p3",
-      "original": "N'jusu bɛ diya la bi.",
-      "phonetic_api": "/nd͡ʒu.su bɛ di.ja la bi/",
-      "phonetic_simple": "N-DJOU-SOU BÈ DI-YA LA BI",
-      "translation": "Je suis heureux aujourd'hui (litt. mon cœur est dans la joie).",
-      "context": "Façon idiomatique d'exprimer son bonheur actuel."
+      "original": "N bɛ nisɔndiya la kosɛbɛ",
+      "phonetic_api": "[n bɛ nisɔndija la kosɛbɛ]",
+      "phonetic_simple": "n-bè-ni-son-di-ya-la-ko-sè-bè",
+      "translation": "Je suis très heureux/heureuse",
+      "context": "Exprimer un sentiment de joie intense"
     },
     {
       "phrase_id": "p4",
-      "original": "N'tɛ fɛ hali dɔɔni.",
-      "phonetic_api": "/ntɛ fɛ ha.li dɔː.ni/",
-      "phonetic_simple": "N-TÈ FÈ HA-LI DƆƆ-NI",
-      "translation": "Je n'en veux pas, pas même un peu.",
-      "context": "Refus net mais poli pour décliner une proposition."
+      "original": "Dusukasi tɛ diya mɔɔ si la",
+      "phonetic_api": "[dusukasi tɛ dija mɔːɔ si la]",
+      "phonetic_simple": "dou-sou-ka-si-tè-di-ya-mo-o-si-la",
+      "translation": "La tristesse ne plaît à personne",
+      "context": "Formule générale sur les émotions négatives"
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'expression du goût avec 'diya + ye' (plaire à)",
-      "explanation": "En konyanka, le plaisir ou l'appréciation est fréquemment exprimé à l'aide de l'adjectif verbal 'diya' (bon/agréable) associé au destinataire introduit par la postposition 'ye' (pour/à).",
+      "concept": "La comparaison avec 'fisa ... ye'",
+      "explanation": "Pour comparer deux éléments, on utilise 'fisa' (meilleur) suivi de l'élément comparé et de la postposition 'ye'.",
       "rules": [
-        "Structure : Sujet (la chose) + bɛ (ou ka) + diya + destinataire + ye.",
-        "Le pronom réfléchi ou l'organe 'jusu' (le cœur/l'esprit) est souvent utilisé pour personnifier le sentiment."
+        "A ye fisa ti B ye = A est meilleur que B"
       ],
       "examples": [
         {
-          "structure": "Malo ka diya n'ye",
-          "phonetic_api": "/ma.lo ka di.ja ɲe/",
-          "meaning": "Le riz me plaît / J'aime le riz"
-        },
+          "structure": "malo ye fisa ti sobo ye",
+          "phonetic_api": "[malo je fisa ti sobo je]",
+          "meaning": "le riz est préférable à la viande"
+        }
+      ]
+    },
+    {
+      "concept": "Exprimer un état émotionnel avec 'bɛ ... la'",
+      "explanation": "Pour dire qu'on est dans un état émotionnel donné, on utilise 'bɛ' + le nom du sentiment + la postposition 'la'.",
+      "rules": [
+        "Sujet + bɛ + sentiment + la = être dans cet état"
+      ],
+      "examples": [
         {
-          "structure": "A tɛ diya u ye",
-          "phonetic_api": "/a tɛ di.ja u d͡ʒɛ/",
-          "meaning": "Ça ne leur plaît pas"
+          "structure": "n bɛ nisɔndiya la",
+          "phonetic_api": "[n bɛ nisɔndija la]",
+          "meaning": "je suis heureux"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Fanta",
-      "text": "Lamine, i bɛ dɔnkili nin toli fɛ? A ka diya i ye?",
-      "phonetic_api": "/la.mĩ i bɛ dɔn.ki.li nĩ to.li fɛ a ka di.ja i d͡ʒɛ/",
-      "phonetic_simple": "LA-MINE, I BÈ DON-KI-LI NIN TO-LI FÈ? A KA DI-YA I YÈ?",
-      "translation": "Lamine, aimes-tu écouter ce chant ? Est-ce qu'il te plaît ?"
+      "speaker": "Oumar",
+      "text": "I bɛ dusukasi la wa? I ye mun ye?",
+      "phonetic_api": "[i bɛ dusukasi la wa i je mun je]",
+      "phonetic_simple": "i-bè-dou-sou-ka-si-la-wa",
+      "translation": "Es-tu triste ? Qu'as-tu ?"
     },
     {
-      "speaker": "Lamine",
-      "text": "Hali, a ka diya n'ye bɛrɛbɛrɛ! N'jusu bɛ diya la ni a mɛnna.",
-      "phonetic_api": "/ha.li a ka di.ja ɲe bɛ.rɛ.bɛ.rɛ nd͡ʒu.su bɛ di.ja la ni a mɛn.na/",
-      "phonetic_simple": "HA-LI, A KA DI-YA N-YÈ BÈ-RÈ-BÈ-RÈ! N-DJOU-SOU BÈ DI-YA LA NI A MÈN-NA",
-      "translation": "Oui, il me plaît énormément ! Mon cœur est en joie quand je l'entends."
+      "speaker": "Kadiatou",
+      "text": "Ntè, n bɛ nisɔndiya la, kalan ka diya n na kosɛbɛ.",
+      "phonetic_api": "[n.tɛ n bɛ nisɔndija la kalan ka dija n na kosɛbɛ]",
+      "phonetic_simple": "n-tè, n-bè-ni-son-di-ya-la",
+      "translation": "Non, je suis heureuse, les études me plaisent beaucoup."
     },
     {
-      "speaker": "Fanta",
-      "text": "N'fa fana bɛ dɔnkili nin kan, a tɛ dɔn fin gbo fana.",
-      "phonetic_api": "/nfa fa.na bɛ dɔn.ki.li nĩ kã a tɛ dɔ̃ fĩ ɡ͡bɔ̃ fa.na/",
-      "phonetic_simple": "N-FA FA-NA BÈ DON-KI-LI NIN KAN, A TÈ DON FIN GBO FA-NA",
-      "translation": "Mon père aussi adore ce chant, il ne déteste aucune danse d'ailleurs."
+      "speaker": "Oumar",
+      "text": "A ka fisa!",
+      "phonetic_api": "[a ka fisa]",
+      "phonetic_simple": "a-ka-fi-sa",
+      "translation": "Tant mieux !"
     },
     {
-      "speaker": "Lamine",
-      "text": "Nyan le! Tana t'a la hali dɔɔni.",
-      "phonetic_api": "/ɲã le ta.na ta la ha.li dɔː.ni/",
-      "phonetic_simple": "NYAN LÉ! TA-NA TA LA HA-LI DƆƆ-NI",
-      "translation": "C'est magnifique ! Aucun problème là-dessus."
+      "speaker": "Kadiatou",
+      "text": "Dusukasi tɛ diya mɔɔ si la, o la n bɛ n janto n yɛrɛ la.",
+      "phonetic_api": "[dusukasi tɛ dija mɔːɔ si la o la n bɛ n dʒanto n jɛrɛ la]",
+      "phonetic_simple": "dou-sou-ka-si-tè-di-ya",
+      "translation": "La tristesse ne plaît à personne, c'est pourquoi je prends soin de moi-même."
     }
   ],
   "cultural_notes": [
-    "Dans la pudeur langagière des Konyanka, exprimer des sentiments trop directs ou impétueux de colère est découragé en public. On préfère utiliser des métaphores liées au cœur ('jusu') ou au foie ('bɛ̀n') pour décrire un état émotionnel, par exemple 'n'jusu kurun' (avoir le cœur noué/triste)."
+    "L'expression des sentiments dans le continuum manding recourt souvent à des constructions où le sentiment 'affecte' la personne plutôt que d'être 'possédé' par elle — logique grammaticale distincte du français qu'il faut intégrer.",
+    "La retenue émotionnelle en public est culturellement valorisée dans de nombreuses sociétés manding, y compris dans la région de Beyla/Kérouane où vit une partie des Koniankés."
   ],
   "exercises": [
     {
-      "exercise_id": "ex1",
-      "type": "multiple_choice",
-      "question": "Que signifie littéralement 'N'jusu bɛ diya la' ?",
+      "exercise_id": "e1",
+      "type": "choix_multiple",
+      "question": "Comment exprime-t-on qu'on aime quelque chose ?",
       "options": [
-        "J'ai peur du danger",
-        "Je suis triste",
-        "Mon cœur est dans la joie / Je suis heureux"
+        "X diya",
+        "X ka diya n na",
+        "X dimi",
+        "X siran"
       ],
-      "correct_answer": "Mon cœur est dans la joie / Je suis heureux",
-      "explanation": "'Jusu' est le cœur et 'diya' représente la joie ou le plaisir."
+      "correct_answer": "X ka diya n na",
+      "explanation": "'X ka diya n na' signifie littéralement 'X me plaît', soit 'j'aime X'."
     },
     {
-      "exercise_id": "ex2",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "N'bɛ i [ ___ ] (Je t'aime).",
-      "correct_answer": "kan",
-      "hint": "Le mot pour aimer fortement."
+      "exercise_id": "e2",
+      "type": "traduction",
+      "question": "Traduisez : 'Je suis heureux.'",
+      "correct_answer": "N bɛ nisɔndiya la.",
+      "explanation": "'bɛ ... la' + 'nisɔndiya' (joie) = être dans la joie, être heureux."
+    },
+    {
+      "exercise_id": "e3",
+      "type": "texte_a_trous",
+      "sentence_with_blank": "Nin ye ___ ti wo ye. (Ceci est meilleur que cela.)",
+      "correct_answer": "fisa",
+      "explanation": "'fisa' = meilleur, utilisé dans la structure comparative 'ye...ti...ye'."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Malinkuia — Introduction à la langue malinké (grammaire complète, variété du Wulada, Haute-Guinée)",
+      "url": "https://fr.scribd.com/document/499114939/Malinkuia"
+    },
+    {
+      "label": "An ka taa — Maninka/Malinké greetings and phrases",
+      "url": "https://www.ankataa.com/maninka-greetings-and-phrases"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Aucun lexique ou grammaire publiés et dédiés spécifiquement au Konyanka (Koyaka/Konianka, ISO mku) n'a été localisé. Le vocabulaire de cette leçon provient donc du continuum dialectal Maninka/Malinké de Guinée dans lequel le Konyanka s'inscrit (intelligibilité mutuelle attestée), via la grammaire pratique Malinkuia (variété du Wulada, Haute-Guinée). Les spécificités confirmées du Konyanka sont indiquées dans les notes culturelles plutôt que dans le lexique."
 }

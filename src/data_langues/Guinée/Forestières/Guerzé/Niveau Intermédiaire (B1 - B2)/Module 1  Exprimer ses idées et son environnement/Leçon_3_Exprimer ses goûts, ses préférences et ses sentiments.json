@@ -6,135 +6,94 @@
   "lesson_number": 3,
   "title": "Exprimer ses goûts, ses préférences et ses sentiments",
   "learning_objectives": [
-    "Exprimer l'amour et l'affection avec wɛ́li (ŋ̀~ káa mà).",
-    "Décrire des états émotionnels : content (kǒo), triste (mǎa-wólôŋ), en colère (lìiɲɛŋwánâ), effrayé (ɲɔ̌u).",
-    "Exprimer le doute avec hɛ́â et contredire quelqu'un poliment.",
-    "Relier les sentiments aux sensations physiques déjà vues (faim, soif) dans un même système grammatical."
+    "Exprimer l'amour et l'affection avec la construction wɛ́li káa [pronom fusionné]",
+    "Exprimer le contentement avec l'expression figée [pronom] kwèi nɛ̌ɛ ... bɔ̀",
+    "Comprendre la fusion de la postposition ɓà (« sur ») avec les pronoms"
   ],
   "phonetic_focus": {
-    "key_sounds": "Cette leçon regroupe plusieurs constructions du type [nom d'état] + káa + [pronom], déjà vue en Leçon 8 pour la faim et la soif : le kpele exprime la plupart des sentiments comme des noms « attachés » à une personne plutôt que comme des verbes d'état purs. Attention à ne pas confondre wɛ́li (amour, Leçon 3) avec wěle (chanson/savoir, Leçon 2), très proches phonétiquement.",
-    "common_pitfalls": "Les francophones ont tendance à : (1) chercher un verbe unique pour chaque sentiment, alors que le kpele utilise souvent un nom + káa + pronom (comme pour la faim) ; (2) traduire kɛ̌an uniquement par « être sévère », alors que ce même mot couvre aussi « être désobéissant » et « se révolter », des nuances liées à l'idée de résistance ; (3) oublier que gwěi (façon, manière) s'utilise pour qualifier une émotion exprimée à travers un comportement (« ta façon de rire »)."
+    "key_sounds": "La postposition ɓà (« sur ») se fusionne avec les pronoms : mîi (sur moi, 1SG), yɛ̂ (sur toi, 2SG), mà (sur lui/elle, 3SG). Ces formes fusionnées sont indispensables pour exprimer l'amour et l'affection.",
+    "common_pitfalls": "Les francophones cherchent un verbe unique « aimer » alors que le guerzé utilise une construction nominale : wɛ́li (amour) + káa (être) + [pronom fusionné avec ɓà]."
   },
   "vocabulary": [
     {
       "word_id": "v1",
       "term": "wɛ́li",
-      "phonetic_api": "/wɛ́li/",
-      "phonetic_simple": "WÈ-li",
-      "translation": "amour, envie (ŋ̀~ káa mà = aimer qn ou qch)",
+      "phonetic_api": "/wɜ́li/",
+      "phonetic_simple": "WÉ-li",
+      "translation": "amour",
       "example_sentence": "É wɛ́li káa mîi.",
       "example_phonetic": "/é wɛ́li káa mîi/",
-      "example_translation": "Je t'aime (litt. ton amour est en moi)."
+      "example_translation": "Je t'aime (litt. ton amour est sur moi)."
     },
     {
       "word_id": "v2",
-      "term": "kǒo",
-      "phonetic_api": "/kǒo/",
-      "phonetic_simple": "ko-o (ton bas)",
-      "translation": "ventre (gwěi nɛ̌ɛì bɔ̀ = il est content de qn ou qch)",
-      "example_sentence": "Ɲàákwɛì kwèí nɛ̀ɛî nòŋ bɔ́.",
-      "example_phonetic": "/ɲàákwɛì kwèí nɛ̀ɛî nòŋ bɔ́/",
-      "example_translation": "Nyaakwei est content de son fils."
+      "term": "mîi",
+      "phonetic_api": "/mîi/",
+      "phonetic_simple": "MI-i",
+      "translation": "sur moi (postposition ɓà fusionnée, 1SG)",
+      "example_sentence": "É wɛ́li káa mîi.",
+      "example_phonetic": "/é wɛ́li káa mîi/",
+      "example_translation": "Je t'aime."
     },
     {
       "word_id": "v3",
-      "term": "mǎa-wólôŋ",
-      "phonetic_api": "/mǎawólôŋ/",
-      "phonetic_simple": "ma-a-WO-lông",
-      "translation": "être triste, misérable",
-      "example_sentence": "mǎa-wólôŋ",
-      "example_phonetic": "/mǎawólôŋ/",
-      "example_translation": "être triste"
+      "term": "ɓà",
+      "phonetic_api": "/ɓà/",
+      "phonetic_simple": "BA",
+      "translation": "sur (postposition, forme de base)",
+      "example_sentence": "Wɛ́li káa Hèhee ɓà.",
+      "example_phonetic": "/wɛ́li káa hèhee ɓà/",
+      "example_translation": "Hehee aime (l'amour est sur Hehee)."
     },
     {
       "word_id": "v4",
-      "term": "lìiɲɛŋwánâ",
-      "phonetic_api": "/lìiɲɛŋwánâ/",
-      "phonetic_simple": "li-i-nyèng-WA-nâ",
-      "translation": "colère, irritation, énervement",
-      "example_sentence": "lìiɲɛŋwánâ",
-      "example_phonetic": "/lìiɲɛŋwánâ/",
-      "example_translation": "colère"
+      "term": "nɛ̌ɛ ... bɔ̀",
+      "phonetic_api": "/nɛ̌ɛ ... bɔ̀/",
+      "phonetic_simple": "NÈ-è ... bo",
+      "translation": "être content de (litt. le ventre est doux pour qn/qch)",
+      "example_sentence": "Gwěi nɛ̌ɛì bɔ̀.",
+      "example_phonetic": "/gwěi nɛ̌ɛì bɔ̀/",
+      "example_translation": "Il est content de qn ou qch."
     },
     {
       "word_id": "v5",
-      "term": "ɲɔ̌u",
-      "phonetic_api": "/ɲɔ̌u/",
-      "phonetic_simple": "nyo-ou (ton bas)",
-      "translation": "peur, crainte (v : craindre – ɓà)",
-      "example_sentence": "Gɔ̀bú káa ɲɔ̀wíi hàa ɓâ.",
-      "example_phonetic": "/gɔ̀bú káa ɲɔ̀wíi hàa ɓâ/",
-      "example_translation": "Gobu a peur de ça."
+      "term": "kǒo",
+      "phonetic_api": "/kǒo/",
+      "phonetic_simple": "KO-o",
+      "translation": "ventre (nom relationnel, siège des émotions)",
+      "example_sentence": "Kú kwèi nɛ́ɛ.",
+      "example_phonetic": "/kú kwèi nɛ́ɛ/",
+      "example_translation": "Nous sommes contents (litt. notre ventre est doux)."
     },
     {
       "word_id": "v6",
-      "term": "hɛ́â",
-      "phonetic_api": "/hɛ́â/",
-      "phonetic_simple": "HÈ-â",
-      "translation": "doute, contradiction (~ tǒo = contredire)",
-      "example_sentence": "hɛ́â tǒo",
-      "example_phonetic": "/hɛ́â tǒo/",
-      "example_translation": "contredire"
+      "term": "hwɔ̌nɛ",
+      "phonetic_api": "/hwɔ̌nɛ/",
+      "phonetic_simple": "HWO-nè",
+      "translation": "aimer beaucoup (la viande, un aliment)",
+      "example_sentence": "Ǹókòloi ɲɛ́i hwɔ̀nɛ́ɛi à mɔ̌lɔɔ.",
+      "example_phonetic": "/ǹókòloi ɲɛ́i hwɔ̀nɛ́ɛi à mɔ̌lɔɔ/",
+      "example_translation": "Cet enfant aime beaucoup la viande."
     },
     {
       "word_id": "v7",
-      "term": "kɛ̌an",
-      "phonetic_api": "/kɛ̌an/",
-      "phonetic_simple": "kè-an (ton bas)",
-      "translation": "être désobéissant, hargneux ; se révolter, s'indigner ; être sévère",
-      "example_sentence": "Náŋ gɛ̀áaìn.",
-      "example_phonetic": "/náŋ gɛ̀áaìn/",
-      "example_translation": "Mon père est sévère."
+      "term": "kpɔ̀naâi",
+      "phonetic_api": "/kpɔ̀naâi/",
+      "phonetic_simple": "KPO-na-a-i",
+      "translation": "avoir mal, être triste (à propos d'une nouvelle)",
+      "example_sentence": "Gɔ́lɔ kpɔ̀naâi mîi.",
+      "example_phonetic": "/gɔ́lɔ kpɔ̀naâi mîi/",
+      "example_translation": "J'ai mal au corps / je suis affecté."
     },
     {
       "word_id": "v8",
-      "term": "gwěi",
-      "phonetic_api": "/gwěi/",
-      "phonetic_simple": "gwè-i (ton bas)",
-      "translation": "façon, manière",
-      "example_sentence": "É yɛ́lɛ péle à gwéi nɛ̀ɛ.",
-      "example_phonetic": "/é yɛ́lɛ péle à gwéi nɛ̀ɛ/",
-      "example_translation": "J'aime ta façon de rire."
-    },
-    {
-      "word_id": "v9",
-      "term": "mǎa-láɠi",
-      "phonetic_api": "/mǎaláɣi/",
-      "phonetic_simple": "ma-a-LA-ghi",
-      "translation": "être lent ; être moche",
-      "example_sentence": "É ɲɛ́ilaalèe màaláɠiâi.",
-      "example_phonetic": "/é ɲɛ́ilaalèe màaláɣiâi/",
-      "example_translation": "Ton visage est dégoûtant."
-    },
-    {
-      "word_id": "v10",
-      "term": "pùlu",
-      "phonetic_api": "/pùlu/",
-      "phonetic_simple": "pou-lou (ton bas)",
-      "translation": "faim",
-      "example_sentence": "Pùlu káa mîi.",
-      "example_phonetic": "/pùlu káa mîi/",
-      "example_translation": "J'ai faim."
-    },
-    {
-      "word_id": "v11",
-      "term": "gbéle",
-      "phonetic_api": "/gbéle/",
-      "phonetic_simple": "GBÉ-le",
-      "translation": "avoir soif, se désaltérer",
-      "example_sentence": "Gɛ́ ↓ŋé gbéle.",
-      "example_phonetic": "/gɛ́ ↓ŋé gbéle/",
-      "example_translation": "Je veux boire, j'ai soif."
-    },
-    {
-      "word_id": "v12",
-      "term": "dɔ̀ɔmúŋ",
-      "phonetic_api": "/dɔ̀ɔmúŋ/",
-      "phonetic_simple": "do-o-MOUNG",
-      "translation": "roi (contexte : dɔ̀ɔmúŋ àá kɛ̌an = le roi s'est énervé)",
-      "example_sentence": "Dɔ̀ɔmúŋ àá kɛ̌an.",
-      "example_phonetic": "/dɔ̀ɔmúŋ àá kɛ̌an/",
-      "example_translation": "Le roi s'est énervé."
+      "term": "hǎɠa",
+      "phonetic_api": "/hǎɠa/",
+      "phonetic_simple": "HA-gha",
+      "translation": "s'attacher à, éprouver de l'amitié/l'amour pour",
+      "example_sentence": "Nú à háɠá.",
+      "example_phonetic": "/nú à háɠá/",
+      "example_translation": "Quelqu'un s'est attaché à lui (par amitié ou amour)."
     }
   ],
   "common_phrases": [
@@ -142,240 +101,127 @@
       "phrase_id": "p1",
       "original": "É wɛ́li káa mîi.",
       "phonetic_api": "/é wɛ́li káa mîi/",
-      "phonetic_simple": "é WÈ-li kaa MI-i",
+      "phonetic_simple": "é WÉ-li KA-a MI-i",
       "translation": "Je t'aime.",
-      "context": "Exprimer un attachement fort"
+      "context": "Formule attestée dans la grammaire de Konoshenko (2019, exemple 30)."
     },
     {
       "phrase_id": "p2",
-      "original": "Kɔ̀lukɔlu wɛ́li káa Pépèe ɓà.",
-      "phonetic_api": "/kɔ̀lukɔlu wɛ́li káa pépèe ɓà/",
-      "phonetic_simple": "ko-lou-KO-lou WÈ-li kaa PÉ-pè-è ba",
-      "translation": "Pépé aime Kolkol.",
-      "context": "Décrire les sentiments de quelqu'un d'autre"
+      "original": "Wɛ́li káa Hèhee ɓà.",
+      "phonetic_api": "/wɛ́li káa hèhee ɓà/",
+      "phonetic_simple": "WÉ-li KA-a HÈ-hè-è BA",
+      "translation": "Hehee aime (quelqu'un).",
+      "context": "Exemple attesté (31) montrant la forme non-fusionnée de la postposition ɓà avec un nom propre."
     },
     {
       "phrase_id": "p3",
-      "original": "Ɲàákwɛì kwèí nɛ̀ɛî nòŋ bɔ́.",
-      "phonetic_api": "/ɲàákwɛì kwèí nɛ̀ɛî nòŋ bɔ́/",
-      "phonetic_simple": "nyaa-KWÈ-i kwè-i nè-è-î nong bó",
-      "translation": "Nyaakwei est content de son fils.",
-      "context": "Exprimer la satisfaction"
+      "original": "Gwěi nɛ̌ɛì bɔ̀.",
+      "phonetic_api": "/gwěi nɛ̌ɛì bɔ̀/",
+      "phonetic_simple": "GWÈ-i NÈ-è-i bo",
+      "translation": "Il est content de quelque chose.",
+      "context": "Expression figée pour exprimer la satisfaction ou le contentement."
     },
     {
       "phrase_id": "p4",
-      "original": "Gɔ̀bú káa ɲɔ̀wíi hàa ɓâ.",
-      "phonetic_api": "/gɔ̀bú káa ɲɔ̀wíi hàa ɓâ/",
-      "phonetic_simple": "go-BOU kaa NYO-wi-i haa ɓâ",
-      "translation": "Gobu a peur de ça.",
-      "context": "Décrire une peur précise"
+      "original": "Kú kwèi nɛ́ɛ nous sommes contents.",
+      "phonetic_api": "/kú kwèi nɛ́ɛ/",
+      "phonetic_simple": "kou KWÈ-i NÉ-è",
+      "translation": "Nous sommes contents.",
+      "context": "Phrase attestée exprimant un contentement partagé (« nous sommes contents que tu sois venue »)."
     },
     {
       "phrase_id": "p5",
-      "original": "Náŋ gɛ̀áaìn.",
-      "phonetic_api": "/náŋ gɛ̀áaìn/",
-      "phonetic_simple": "NANG guè-AA-in",
-      "translation": "Mon père est sévère.",
-      "context": "Décrire un trait de caractère"
-    },
-    {
-      "phrase_id": "p6",
-      "original": "Dɔ̀ɔmúŋ àá kɛ̌an.",
-      "phonetic_api": "/dɔ̀ɔmúŋ àá kɛ̌an/",
-      "phonetic_simple": "do-o-MOUNG aa kè-an",
-      "translation": "Le roi s'est énervé.",
-      "context": "Raconter un événement où quelqu'un se met en colère"
-    },
-    {
-      "phrase_id": "p7",
-      "original": "É yɛ́lɛ péle à gwéi nɛ̀ɛ.",
-      "phonetic_api": "/é yɛ́lɛ péle à gwéi nɛ̀ɛ/",
-      "phonetic_simple": "é YÈ-lè PÉ-le a GWÉ-i nè-è",
-      "translation": "J'aime ta façon de rire.",
-      "context": "Complimenter le comportement de quelqu'un"
-    },
-    {
-      "phrase_id": "p8",
-      "original": "É ɲɛ́ilaalèe màaláɠiâi.",
-      "phonetic_api": "/é ɲɛ́ilaalèe màaláɣiâi/",
-      "phonetic_simple": "é NYÉ-i-la-a-lè-è ma-a-LA-ghi-â-i",
-      "translation": "Ton visage est dégoûtant.",
-      "context": "Exprimer le dégoût ou l'irritation (à manier avec humour entre proches)"
+      "original": "Gɔ́lɔ kpɔ̀naâi mîi.",
+      "phonetic_api": "/gɔ́lɔ kpɔ̀naâi mîi/",
+      "phonetic_simple": "GO-lo KPO-na-a-i MI-i",
+      "translation": "Je suis affecté (j'ai mal au corps).",
+      "context": "Expression attestée pour une nouvelle triste ou un malaise."
     }
   ],
   "grammar_points": [
     {
-      "concept": "Le schéma [nom d'état] + káa + [pronom] pour les sentiments",
-      "explanation": "Comme pour la faim et la soif (Leçon 8), plusieurs sentiments kpele s'expriment par un nom suivi de káa (être) et d'un pronom, plutôt que par un verbe d'état pur.",
+      "concept": "La fusion de la postposition ɓà (« sur ») avec les pronoms",
+      "explanation": "La postposition ɓà (« sur ») fusionne avec certains pronoms pour exprimer des relations affectives (amour, sentiment) : mîi (1SG), yɛ̂ (2SG), mà (3SG). Cette fusion pronominale est un exemple du phénomène plus général de fusion pronom+postposition en guerzé.",
       "rules": [
-        "pùlu káa mîi (j'ai faim) suit exactement le même moule que d'autres constructions de sentiment.",
-        "É wɛ́li káa mîi (je t'aime, litt. ton amour est en moi) applique ce schéma à l'amour.",
-        "Ce moule grammatical est très productif : il peut s'étendre à d'autres noms d'état non vus dans ce cours."
+        "ɓà + 1SG → mîi (« sur moi »)",
+        "ɓà + 2SG → yɛ̂ (« sur toi »)",
+        "ɓà + 3SG → mà (« sur lui/elle »)",
+        "Avec un nom propre ou un nom commun (non pronominal), on garde la forme non fusionnée ɓà : wɛ́li káa Hèhee ɓà."
       ],
       "examples": [
         {
           "structure": "É wɛ́li káa mîi.",
           "phonetic_api": "/é wɛ́li káa mîi/",
-          "meaning": "je t'aime (litt. ton amour est en moi)"
-        }
-      ]
-    },
-    {
-      "concept": "kǒo (ventre) : le siège de la satisfaction",
-      "explanation": "Comme dans de nombreuses langues d'Afrique de l'Ouest, le ventre (kǒo) est perçu comme le siège des émotions positives en kpele : « être content » se dit littéralement à travers le ventre.",
-      "rules": [
-        "gwěi nɛ̌ɛì bɔ̀ = il est content de qn ou qch (construction fixe autour de kǒo).",
-        "Ɲàákwɛì kwèí nɛ̀ɛî nòŋ bɔ́ = Nyaakwei est content de son fils (kwèí = forme locative de kǒo)."
-      ],
-      "examples": [
-        {
-          "structure": "kwèí nɛ̀ɛî nòŋ bɔ́",
-          "phonetic_api": "/kwèí nɛ̀ɛî nòŋ bɔ́/",
-          "meaning": "être content de son fils"
-        }
-      ]
-    },
-    {
-      "concept": "kɛ̌an : un mot pour plusieurs nuances de résistance",
-      "explanation": "kɛ̌an couvre un champ sémantique large autour de l'idée de résistance ou de dureté, du caractère sévère d'une personne à la révolte ouverte.",
-      "rules": [
-        "vi 1 = être désobéissant, hargneux (pour un enfant).",
-        "vi 2 = se révolter, s'indigner (contre – mɛ̌i), pour une personne en position de pouvoir comme un roi.",
-        "vi 3 = être sévère (pour un parent, comme dans náŋ gɛ̀áaìn)."
-      ],
-      "examples": [
-        {
-          "structure": "dɔ̀ɔmúŋ àá kɛ̌an",
-          "phonetic_api": "/dɔ̀ɔmúŋ àá kɛ̌an/",
-          "meaning": "le roi s'est énervé/révolté"
-        }
-      ]
-    },
-    {
-      "concept": "Exprimer le doute et contredire poliment",
-      "explanation": "hɛ́â (doute, contradiction) se combine avec le verbe léger tǒo pour exprimer le désaccord, une compétence utile dans une conversation de niveau intermédiaire.",
-      "rules": [
-        "hɛ́â tǒo = contredire (litt. « porter le doute »).",
-        "Cette construction permet d'exprimer un désaccord de façon nommée plutôt que par une simple négation."
-      ],
-      "examples": [
-        {
-          "structure": "hɛ́â tǒo",
-          "phonetic_api": "/hɛ́â tǒo/",
-          "meaning": "contredire"
+          "meaning": "Je t'aime (litt. ton amour est sur moi)."
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Personne A",
+      "speaker": "Pépé",
       "text": "É wɛ́li káa mîi.",
       "phonetic_api": "/é wɛ́li káa mîi/",
-      "phonetic_simple": "é WÈ-li kaa MI-i",
+      "phonetic_simple": "é WÉ-li KA-a MI-i",
       "translation": "Je t'aime."
     },
     {
-      "speaker": "Personne B",
-      "text": "Ŋàá mɛ̌ŋ. Gwěi nɛ̌ɛì bɔ̀.",
-      "phonetic_api": "/ŋàá mɛ̌ŋ gwěi nɛ̌ɛì bɔ̀/",
-      "phonetic_simple": "nga-a MENG. gwè-i nè-a-i bo",
-      "translation": "J'ai compris. Je suis content(e)."
+      "speaker": "Hehee",
+      "text": "Kú kwèi nɛ́ɛ.",
+      "phonetic_api": "/kú kwèi nɛ́ɛ/",
+      "phonetic_simple": "kou KWÈ-i NÉ-è",
+      "translation": "Nous sommes contents."
     },
     {
-      "speaker": "Personne A",
-      "text": "É ɲɔ̌u káa mí ɓà ?",
-      "phonetic_api": "/é ɲɔ̌u káa mí ɓà/",
-      "phonetic_simple": "é NYO-ou kaa mi ba ?",
-      "translation": "De quoi as-tu peur ?"
+      "speaker": "Pépé",
+      "text": "Ǹókòloi ɲɛ́i hwɔ̀nɛ́ɛi à mɔ̌lɔɔ.",
+      "phonetic_api": "/ǹókòloi ɲɛ́i hwɔ̀nɛ́ɛi à mɔ̌lɔɔ/",
+      "phonetic_simple": "no-KO-lo-i NYÉ-i HWO-nè-i a MO-lo-o",
+      "translation": "Cet enfant aime beaucoup la viande."
     },
     {
-      "speaker": "Personne B",
-      "text": "Náŋ gɛ̀áaìn, kɛ́laa gáa wɛ́li káa mîi.",
-      "phonetic_api": "/náŋ gɛ̀áaìn kɛ́laa gáa wɛ́li káa mîi/",
-      "phonetic_simple": "NANG guè-AA-in, ké-laa gaa WÈ-li kaa MI-i",
-      "translation": "Mon père est sévère, mais je l'aime."
-    },
-    {
-      "speaker": "Personne A",
-      "text": "Hɛ́â hwàa, mɛ́niê. É yɛ́lɛ péle à gwéi nɛ̀ɛ.",
-      "phonetic_api": "/hɛ́â hwàa mɛ́niê é yɛ́lɛ péle à gwéi nɛ̀ɛ/",
-      "phonetic_simple": "HÈ-â hwaa, MÉ-ni-Ê. é YÈ-lè PÉ-le a GWÉ-i nè-è",
-      "translation": "Pas de doute là-dessus, mon ami. J'aime ta façon de rire."
-    },
-    {
-      "speaker": "Personne B",
-      "text": "Máma !",
-      "phonetic_api": "/máma/",
-      "phonetic_simple": "MA-ma",
-      "translation": "Merci !"
+      "speaker": "Hehee",
+      "text": "Gɔ́lɔ kpɔ̀naâi mîi wɛ̀ɛ.",
+      "phonetic_api": "/gɔ́lɔ kpɔ̀naâi mîi wɛ̀ɛ/",
+      "phonetic_simple": "GO-lo KPO-na-a-i MI-i WÈ-è",
+      "translation": "Moi aussi je suis affecté."
     }
   ],
   "cultural_notes": [
-    "Le fait que kǒo (ventre) serve à exprimer la satisfaction rappelle une conception du corps répandue en Afrique de l'Ouest, où les organes internes sont associés à des états émotionnels précis, un peu comme le cœur en français pour l'amour.",
-    "kɛ̌an, qui relie désobéissance enfantine, révolte d'un roi et sévérité parentale sous un même mot, illustre une vision culturelle où l'autorité et la résistance à l'autorité sont perçues comme deux faces d'un même phénomène.",
-    "Le fait de reprendre exactement la même construction grammaticale pour la faim (Leçon 8) et pour l'amour montre que le kpele traite de nombreux états — physiques comme émotionnels — de manière grammaticalement unifiée."
+    "L'expression de l'amour en guerzé passe par une construction nominale (wɛ́li « amour » + verbe káa « être ») plutôt que par un verbe unique « aimer », ce qui reflète une structure grammaticale répandue dans les langues mandé (Konoshenko 2019).",
+    "Le ventre (kǒo) est perçu comme le siège des émotions positives (contentement) dans plusieurs expressions figées guerzé, un motif culturel que l'on retrouve dans de nombreuses langues d'Afrique de l'Ouest."
   ],
   "exercises": [
     {
       "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Comment dit-on « je t'aime » ?",
+      "question": "Comment dit-on « Je t'aime » en guerzé ?",
       "options": [
         "É wɛ́li káa mîi.",
-        "Pùlu káa mîi.",
-        "É ɲɔ̌u káa mí.",
-        "Hɛ́â tǒo."
+        "É wɛ́li káa yɛ̂.",
+        "Wɛ́li káa Hèhee ɓà."
       ],
       "correct_answer": "É wɛ́li káa mîi.",
-      "explanation": "wɛ́li (amour) suit le même schéma [nom] + káa + pronom que pùlu (faim)."
+      "explanation": "La formule attestée par Konoshenko (2019, exemple 30) utilise mîi (« sur moi »), la forme fusionnée 1SG de ɓà, car c'est le locuteur qui est aimé."
     },
     {
       "exercise_id": "ex2",
-      "type": "multiple_choice",
-      "question": "Quel organe est associé à la satisfaction, « être content », en kpele ?",
-      "options": [
-        "Le cœur",
-        "Le ventre (kǒo)",
-        "La tête",
-        "Les yeux"
-      ],
-      "correct_answer": "Le ventre (kǒo)",
-      "explanation": "kǒo (ventre) est le siège de la satisfaction dans les expressions kpele, comme gwěi nɛ̌ɛì bɔ̀ (il est content)."
-    },
-    {
-      "exercise_id": "ex3",
-      "type": "multiple_choice",
-      "question": "Quels sens couvre kɛ̌an ?",
-      "options": [
-        "Uniquement « être sévère »",
-        "Être désobéissant, se révolter, être sévère",
-        "Uniquement « avoir peur »",
-        "Uniquement « être content »"
-      ],
-      "correct_answer": "Être désobéissant, se révolter, être sévère",
-      "explanation": "kɛ̌an couvre un champ sémantique large autour de la résistance et de la dureté."
-    },
-    {
-      "exercise_id": "ex4",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Pour dire « j'ai peur de ça », on dit : « Gáa [ ___ ] káa hàa ɓâ. »",
-      "correct_answer": "ɲɔ̀wíi",
-      "hint": "C'est la forme du nom « peur, crainte »."
-    },
-    {
-      "exercise_id": "ex5",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "« Contredire » se dit littéralement « porter le doute » : « [ ___ ] tǒo. »",
-      "correct_answer": "hɛ́â",
-      "hint": "Ce nom signifie « doute, contradiction »."
-    },
-    {
-      "exercise_id": "ex6",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "« J'aime ta façon de rire » se dit : « É yɛ́lɛ péle à [ ___ ] nɛ̀ɛ. »",
-      "correct_answer": "gwéi",
-      "hint": "Ce mot signifie « façon, manière »."
+      "sentence_with_blank": "Kú [ ___ ] nɛ́ɛ. (Nous sommes contents.)",
+      "correct_answer": "kwèi",
+      "hint": "C'est la forme locative du mot pour « ventre », siège des émotions."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Konoshenko, M. (2019). Dictionnaire kpele de la Guinée (guerzé) – français. Mandenkan 62.",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan62/62konoshenko.pdf"
+    },
+    {
+      "label": "Wikipédia — Kpèllé (langue) / Guerzé",
+      "url": "https://fr.wikipedia.org/wiki/Guerze"
+    }
+  ],
+  "confidence": "élevée",
+  "confidence_note": "Les constructions grammaticales sur l'expression de l'amour (exemples 30-31 du chapitre grammaire) et du contentement sont directement attestées dans Konoshenko (2019), avec traduction française fournie par l'auteure elle-même."
 }

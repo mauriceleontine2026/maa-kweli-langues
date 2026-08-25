@@ -6,425 +6,221 @@
   "lesson_number": 9,
   "title": "Demander et donner des conseils ou des instructions",
   "learning_objectives": [
-    "Donner un conseil avec le nom lìewôo (~ kɛ́ = donner des conseils).",
-    "Expliquer et montrer avec hǔ-kǔlo (expliquer) et kéleeŋ/lɛ́ (montrer, indiquer).",
-    "Donner un ordre ferme avec le verbe tí (commander, ordonner) à la construction consécutive.",
-    "Combiner obligation (Leçon 7), savoir-faire (Leçon 2) et explication pour donner une instruction complète."
+    "Utiliser le nom lìewôo (conseil) et l'expression lìewôo ~ kɛ́ (donner des conseils)",
+    "Utiliser l'impératif pour donner une instruction directe",
+    "Combiner obligation modérée (màánɛ̀ɛ́) et conseil pour formuler une recommandation"
   ],
   "phonetic_focus": {
-    "key_sounds": "Cette dernière leçon du niveau intermédiaire réutilise volontairement plusieurs constructions déjà vues (hwókɛli, wěle, gwěi) pour montrer comment elles s'articulent ensemble dans un discours d'instruction cohérent. Portez une attention particulière à la construction consécutive après tí (commander) : le second verbe change de forme et de ton, un schéma proche du subjonctif français.",
-    "common_pitfalls": "Les francophones ont tendance à : (1) utiliser tí (commander, plus autoritaire) pour toute demande, alors qu'un conseil se donne plutôt avec lìewôo, une forme plus douce ; (2) confondre kéleeŋ (montrer avec insistance, du doigt) et lɛ́ (montrer plus généralement, comme montrer sa maison) ; (3) oublier que hǔ-kǔlo (expliquer) se construit avec ɓà pour introduire la personne à qui l'on explique, comme la plupart des verbes de communication déjà vus."
+    "key_sounds": "lìewôo (conseil) porte un ton bas-descendant sur sa deuxième syllabe ; il ne faut pas le confondre avec kìikâ (consultation), qui a une structure tonale différente (bas-bas-descendant).",
+    "common_pitfalls": "Les francophones confondent parfois « donner un conseil » (lìewôo ~ kɛ́) et « tenir une réunion de concertation » (kìikâ ~ kɛ́), qui sont deux actes de parole distincts en guerzé."
   },
   "vocabulary": [
     {
       "word_id": "v1",
       "term": "lìewôo",
       "phonetic_api": "/lìewôo/",
-      "phonetic_simple": "li-è-WO-o",
-      "translation": "conseil (~ kɛ́ = donner des conseils)",
-      "example_sentence": "Lìewôo kɛ́.",
+      "phonetic_simple": "LI-è-WO-o",
+      "translation": "conseil",
+      "example_sentence": "Lìewôo ~ kɛ́.",
       "example_phonetic": "/lìewôo kɛ́/",
       "example_translation": "Donner des conseils."
     },
     {
       "word_id": "v2",
-      "term": "hǔ-kǔlo",
-      "phonetic_api": "/hǔkǔlo/",
-      "phonetic_simple": "hou-KOU-lo",
-      "translation": "expliquer (à – ɓà)",
-      "example_sentence": "hǔ-kǔlo",
-      "example_phonetic": "/hǔkǔlo/",
-      "example_translation": "expliquer"
+      "term": "kìikâ",
+      "phonetic_api": "/kìikâ/",
+      "phonetic_simple": "KI-i-ka",
+      "translation": "consultation, concertation",
+      "example_sentence": "Kìikâ ~ kɛ́.",
+      "example_phonetic": "/kìikâ kɛ́/",
+      "example_translation": "Tenir conseil, se concerter."
     },
     {
       "word_id": "v3",
-      "term": "kéleeŋ",
-      "phonetic_api": "/kéleeŋ/",
-      "phonetic_simple": "KÉ-lè-èng",
-      "translation": "montrer, indiquer (à – ɓà)",
-      "example_sentence": "È kɛ́i ↓núaa tàŋáa kèleeŋ.",
-      "example_phonetic": "/è kɛ́i ↓núaa tàŋáa kèleeŋ/",
-      "example_translation": "Il montrait du doigt certaines personnes dans la foule."
+      "term": "màánɛ̀ɛ́",
+      "phonetic_api": "/màánɛ̀ɛ́/",
+      "phonetic_simple": "MA-a-nè-è",
+      "translation": "il faudrait que (conseil/obligation faible)",
+      "example_sentence": "Màánɛ̀ɛ́ è kúlo.",
+      "example_phonetic": "/màánɛ̀ɛ́ è kúlo/",
+      "example_translation": "Il faudrait qu'il sorte."
     },
     {
       "word_id": "v4",
-      "term": "lɛ́",
-      "phonetic_api": "/lɛ́/",
-      "phonetic_simple": "LÈ",
-      "translation": "montrer (à – ɓà)",
-      "example_sentence": "Àá ŋwɔ̀ pɛ́lɛ lɛ́ mîi.",
-      "example_phonetic": "/àá ŋwɔ̀ pɛ́lɛ lɛ́ mîi/",
-      "example_translation": "Il m'a montré sa maison."
+      "term": "pá",
+      "phonetic_api": "/pá/",
+      "phonetic_simple": "PA",
+      "translation": "viens ! (impératif de « venir »)",
+      "example_sentence": "Pá gù kɔ́nɔŋ míi.",
+      "example_phonetic": "/pá gù kɔ́nɔŋ míi/",
+      "example_translation": "Viens manger."
     },
     {
       "word_id": "v5",
-      "term": "tí",
-      "phonetic_api": "/tí/",
-      "phonetic_simple": "TI",
-      "translation": "commander, ordonner",
-      "example_sentence": "Ŋàá Pépèe tí yɛ̌ ŋwùlú ɓɛ́lâ.",
-      "example_phonetic": "/ŋàá pépèe tí yɛ̌ ŋwùlú ɓɛ́lâ/",
-      "example_translation": "J'ai ordonné à Pépé de scier l'arbre."
+      "term": "mà ... hɔ̀lɔ̂",
+      "phonetic_api": "/mà ... hɔ̀lɔ̂/",
+      "phonetic_simple": "ma ... HO-lô",
+      "translation": "montre(-lui) (instruction, impératif)",
+      "example_sentence": "Mà pěle hɔ̀lɔ̂.",
+      "example_phonetic": "/mà pěle hɔ̀lɔ̂/",
+      "example_translation": "Montre-lui la route."
     },
     {
       "word_id": "v6",
       "term": "hwókɛli",
       "phonetic_api": "/hwókɛli/",
       "phonetic_simple": "HWO-kè-li",
-      "translation": "il faut que (obligation forte)",
-      "example_sentence": "Hwókɛli yà kɔ́nɔŋ mîi.",
-      "example_phonetic": "/hwókɛli yà kɔ́nɔŋ mîi/",
-      "example_translation": "Tu dois manger."
+      "translation": "tu dois (instruction ferme)",
+      "example_sentence": "Hwókɛli yà é yéi wàa.",
+      "example_phonetic": "/hwókɛli yà é yéi wàa/",
+      "example_translation": "Tu dois te laver les mains."
     },
     {
       "word_id": "v7",
-      "term": "màánɛ̀ɛ ́",
-      "phonetic_api": "/màánɛ̀ɛ́/",
-      "phonetic_simple": "ma-a-NÈ-è",
-      "translation": "il faut que (obligation plus faible)",
-      "example_sentence": "màánɛ̀ɛ ́",
-      "example_phonetic": "/màánɛ̀ɛ́/",
-      "example_translation": "il faudrait que"
+      "term": "yée",
+      "phonetic_api": "/yée/",
+      "phonetic_simple": "YÉ-è",
+      "translation": "main, bras (nom relationnel)",
+      "example_sentence": "Hwókɛli yà é yéi wàa.",
+      "example_phonetic": "/hwókɛli yà é yéi wàa/",
+      "example_translation": "Tu dois te laver les mains (avant de manger)."
     },
     {
       "word_id": "v8",
-      "term": "mɛ̌ŋ",
-      "phonetic_api": "/mɛ̌ŋ/",
-      "phonetic_simple": "mèng (ton bas)",
-      "translation": "entendre, comprendre",
-      "example_sentence": "Ŋàá mɛ̌ŋ.",
-      "example_phonetic": "/ŋàá mɛ̌ŋ/",
-      "example_translation": "J'ai compris."
-    },
-    {
-      "word_id": "v9",
-      "term": "wěle",
-      "phonetic_api": "/wěle/",
-      "phonetic_simple": "wè-le (ton bas)",
-      "translation": "savoir (faire quelque chose)",
-      "example_sentence": "É wěle mǎna kɛ́i ?",
-      "example_phonetic": "/é wěle mǎna kɛ́i/",
-      "example_translation": "Sais-tu danser ?"
-    },
-    {
-      "word_id": "v10",
-      "term": "gwěi",
-      "phonetic_api": "/gwěi/",
-      "phonetic_simple": "gwè-i (ton bas)",
-      "translation": "façon, manière",
-      "example_sentence": "É yɛ́lɛ péle à gwéi nɛ̀ɛ.",
-      "example_phonetic": "/é yɛ́lɛ péle à gwéi nɛ̀ɛ/",
-      "example_translation": "J'aime ta façon de rire."
-    },
-    {
-      "word_id": "v11",
-      "term": "kánaŋ",
-      "phonetic_api": "/kánaŋ/",
-      "phonetic_simple": "KA-nang",
-      "translation": "obliger, contraindre ; être coincé",
-      "example_sentence": "Yàa gánaŋ yɛ́ ŋé wáli tɛ̀ɠɛ é pɔ́.",
-      "example_phonetic": "/yàa gánaŋ yɛ́ ŋé wáli tɛ̀ɣɛ é pɔ́/",
-      "example_translation": "Tu m'as obligé de te donner mon argent."
-    },
-    {
-      "word_id": "v12",
-      "term": "yée-tɔ̌ɔ",
-      "phonetic_api": "/yéetɔ̌ɔ/",
-      "phonetic_simple": "YÉ-è-to-o",
-      "translation": "commencer (une tâche, une explication)",
-      "example_sentence": "Gáa ŋwɔ́ tíi yée tɔ̀ɔî tínaa.",
-      "example_phonetic": "/gáa ŋwɔ́ tíi yée tɔ̀ɔî tínaa/",
-      "example_translation": "Demain, je vais commencer le travail."
-    },
-    {
-      "word_id": "v13",
-      "term": "élɛɛ",
-      "phonetic_api": "/élɛɛ/",
-      "phonetic_simple": "É-lè-è",
-      "translation": "puis",
-      "example_sentence": "élɛɛ",
-      "example_phonetic": "/élɛɛ/",
-      "example_translation": "puis"
-    },
-    {
-      "word_id": "v14",
-      "term": "ŋwùlú",
-      "phonetic_api": "/ŋwùlú/",
-      "phonetic_simple": "ngwou-LOU",
-      "translation": "arbre, bois (objet de l'ordre « scier »)",
-      "example_sentence": "Ŋàá Pépèe tí yɛ̌ ŋwùlú ɓɛ́lâ.",
-      "example_phonetic": "/ŋàá pépèe tí yɛ̌ ŋwùlú ɓɛ́lâ/",
-      "example_translation": "J'ai ordonné à Pépé de scier l'arbre."
+      "term": "wǎa",
+      "phonetic_api": "/wǎa/",
+      "phonetic_simple": "WA-a",
+      "translation": "laver (se laver)",
+      "example_sentence": "Gɛ́ ↓ŋé ŋwáa.",
+      "example_phonetic": "/gɛ́ ↓ŋé ŋwáa/",
+      "example_translation": "Je veux me laver."
     }
   ],
   "common_phrases": [
     {
       "phrase_id": "p1",
-      "original": "Lìewôo kɛ́.",
+      "original": "Lìewôo ~ kɛ́.",
       "phonetic_api": "/lìewôo kɛ́/",
-      "phonetic_simple": "li-è-WO-o ké",
+      "phonetic_simple": "LI-è-WO-o KÉ",
       "translation": "Donner des conseils.",
-      "context": "Introduire une série de recommandations"
+      "context": "Expression figée attestée pour l'acte de conseiller."
     },
     {
       "phrase_id": "p2",
-      "original": "Àá ŋwɔ̀ pɛ́lɛ lɛ́ mîi.",
-      "phonetic_api": "/àá ŋwɔ̀ pɛ́lɛ lɛ́ mîi/",
-      "phonetic_simple": "a-a ngwo PÈ-lè LÈ MI-i",
-      "translation": "Il m'a montré sa maison.",
-      "context": "Décrire une visite guidée ou une démonstration"
+      "original": "É lìewôo kɛ́ mîi.",
+      "phonetic_api": "/é lìewôo kɛ́ mîi/",
+      "phonetic_simple": "é LI-è-WO-o KÉ MI-i",
+      "translation": "Donne-moi un conseil.",
+      "context": "Demande de conseil, réutilisant la forme fusionnée mîi (« sur moi », vue en B1_M1_L3)."
     },
     {
       "phrase_id": "p3",
-      "original": "È kɛ́i ↓núaa tàŋáa kèleeŋ.",
-      "phonetic_api": "/è kɛ́i ↓núaa tàŋáa kèleeŋ/",
-      "phonetic_simple": "è KÈ-i nou-a-a ta-NGA-a kè-lè-èng",
-      "translation": "Il montrait du doigt certaines personnes dans la foule.",
-      "context": "Indiquer précisément quelqu'un ou quelque chose"
+      "original": "Hwókɛli yà é yéi wàa.",
+      "phonetic_api": "/hwókɛli yà é yéi wàa/",
+      "phonetic_simple": "HWO-kè-li ya é YÉ-i WA-a",
+      "translation": "Tu dois te laver les mains.",
+      "context": "Instruction ferme attestée dans le dictionnaire, contexte d'hygiène avant le repas."
     },
     {
       "phrase_id": "p4",
-      "original": "Ŋàá Pépèe tí yɛ̌ ŋwùlú ɓɛ́lâ.",
-      "phonetic_api": "/ŋàá pépèe tí yɛ̌ ŋwùlú ɓɛ́lâ/",
-      "phonetic_simple": "nga-a PÉ-pè-è ti yè ngwou-LOU BÈ-lâ",
-      "translation": "J'ai ordonné à Pépé de scier l'arbre.",
-      "context": "Rapporter un ordre donné à quelqu'un"
+      "original": "Mà pěle hɔ̀lɔ̂.",
+      "phonetic_api": "/mà pěle hɔ̀lɔ̂/",
+      "phonetic_simple": "ma PÈ-lè HO-lô",
+      "translation": "Montre-lui la route.",
+      "context": "Instruction directe déjà vue en A1_M3_L7."
     },
     {
       "phrase_id": "p5",
-      "original": "Hwókɛli yà kɔ́nɔŋ mîi.",
-      "phonetic_api": "/hwókɛli yà kɔ́nɔŋ mîi/",
-      "phonetic_simple": "HWO-kè-li ya KO-nong MI-i",
-      "translation": "Tu dois manger.",
-      "context": "Donner une instruction ferme (rappel Leçon 7)"
-    },
-    {
-      "phrase_id": "p6",
-      "original": "É wěle mǎna kɛ́i ?",
-      "phonetic_api": "/é wěle mǎna kɛ́i/",
-      "phonetic_simple": "é wè-le ma-na KÈ-i ?",
-      "translation": "Sais-tu danser ?",
-      "context": "Vérifier une compétence avant de donner une instruction (rappel Leçon 2)"
-    },
-    {
-      "phrase_id": "p7",
-      "original": "É yɛ́lɛ péle à gwéi nɛ̀ɛ.",
-      "phonetic_api": "/é yɛ́lɛ péle à gwéi nɛ̀ɛ/",
-      "phonetic_simple": "é YÈ-lè PÉ-le a GWÉ-i nè-è",
-      "translation": "J'aime ta façon de rire.",
-      "context": "Commenter la manière de faire de quelqu'un (rappel Leçon 3)"
-    },
-    {
-      "phrase_id": "p8",
-      "original": "Yàa gánaŋ yɛ́ ŋé wáli tɛ̀ɠɛ é pɔ́.",
-      "phonetic_api": "/yàa gánaŋ yɛ́ ŋé wáli tɛ̀ɣɛ é pɔ́/",
-      "phonetic_simple": "ya-a GA-nang yè ngé WA-li tè-ghè é PO",
-      "translation": "Tu m'as obligé de te donner mon argent.",
-      "context": "Décrire une contrainte imposée par quelqu'un"
-    },
-    {
-      "phrase_id": "p9",
-      "original": "Ŋàá mɛ̌ŋ, élɛɛ ŋé wěle kɛ́i.",
-      "phonetic_api": "/ŋàá mɛ̌ŋ élɛɛ ŋé wěle kɛ́i/",
-      "phonetic_simple": "nga-a MENG, É-lè-è ngé wè-le KÈ-i",
-      "translation": "J'ai compris, alors je sais le faire.",
-      "context": "Confirmer qu'une instruction a été comprise et peut être exécutée"
-    },
-    {
-      "phrase_id": "p10",
-      "original": "Gáa ŋwɔ́ tíi yée tɔ̀ɔî.",
-      "phonetic_api": "/gáa ŋwɔ́ tíi yée tɔ̀ɔî/",
-      "phonetic_simple": "gaa ngwo TI-i YÉ-è to-o-i",
-      "translation": "Je vais commencer.",
-      "context": "Annoncer le début de l'exécution d'une instruction"
+      "original": "Màánɛ̀ɛ́ è kúlo.",
+      "phonetic_api": "/màánɛ̀ɛ́ è kúlo/",
+      "phonetic_simple": "MA-a-nè-è è KOU-lo",
+      "translation": "Il faudrait qu'il sorte.",
+      "context": "Conseil formulé comme une obligation modérée, déjà vu en B1_M3_L7."
     }
   ],
   "grammar_points": [
     {
-      "concept": "Trois façons de faire agir quelqu'un : conseiller, montrer, ordonner",
-      "explanation": "Le kpele distingue nettement trois degrés d'intervention sur l'action d'autrui, du plus doux au plus ferme, chacun avec son propre verbe ou construction.",
+      "concept": "Donner un conseil vs donner un ordre",
+      "explanation": "Le guerzé distingue l'acte de « conseiller » (lìewôo ~ kɛ́, littéralement « faire le conseil ») de l'instruction ferme construite avec hwókɛli (« tu dois »), et de l'obligation modérée avec màánɛ̀ɛ́ (« il faudrait que »). Le choix de la construction dépend du degré de fermeté souhaité par le locuteur.",
       "rules": [
-        "lìewôo kɛ́ (donner des conseils) : le degré le plus doux, une suggestion.",
-        "kéleeŋ / lɛ́ (montrer, indiquer) : degré intermédiaire, on guide sans imposer.",
-        "tí (commander, ordonner) : le degré le plus ferme, un ordre direct."
+        "lìewôo ~ kɛ́ = donner un conseil (acte de parole, sans contrainte).",
+        "màánɛ̀ɛ́ + subjonctif = conseil formulé comme obligation modérée.",
+        "hwókɛli + conditionnel/subjonctif = instruction ferme, proche de l'ordre."
       ],
       "examples": [
         {
-          "structure": "lìewôo kɛ́ / kéleeŋ / tí",
-          "phonetic_api": "/lìewôo kɛ́/ /kéleeŋ/ /tí/",
-          "meaning": "conseiller / montrer / ordonner"
-        }
-      ]
-    },
-    {
-      "concept": "La construction consécutive après tí (commander)",
-      "explanation": "Après tí, le verbe qui suit prend une forme consécutive ou infinitive spéciale, introduite par un pronom au ton particulier (yɛ̌ pour la 3e personne du singulier).",
-      "rules": [
-        "ŋàá Pépèe tí yɛ̌ ŋwùlú ɓɛ́lâ = j'ai ordonné à Pépé de scier l'arbre : yɛ̌ introduit l'action ordonnée.",
-        "Cette construction est proche du subjonctif français (« que Pépé scie »), mais utilise un marqueur pronominal dédié plutôt qu'une conjonction."
-      ],
-      "examples": [
-        {
-          "structure": "tí yɛ̌ [verbe]",
-          "phonetic_api": "/tí yɛ̌/",
-          "meaning": "ordonner de [faire quelque chose]"
-        }
-      ]
-    },
-    {
-      "concept": "Vérifier la compréhension avant d'agir",
-      "explanation": "Une instruction complète en kpele s'accompagne souvent d'une vérification de compréhension (mɛ̌ŋ, comprendre) et de compétence (wěle, savoir faire), avant l'exécution proprement dite.",
-      "rules": [
-        "ŋàá mɛ̌ŋ (j'ai compris) confirme la réception de l'instruction.",
-        "é wěle [verbe] kɛ́i ? (sais-tu faire [verbe] ?) vérifie la capacité à l'exécuter.",
-        "Cette double vérification — compréhension puis compétence — structure un échange d'instructions poli et efficace."
-      ],
-      "examples": [
-        {
-          "structure": "ŋàá mɛ̌ŋ, élɛɛ ŋé wěle kɛ́i",
-          "phonetic_api": "/ŋàá mɛ̌ŋ élɛɛ ŋé wěle kɛ́i/",
-          "meaning": "j'ai compris, alors je sais le faire"
-        }
-      ]
-    },
-    {
-      "concept": "Combiner obligation et instruction pour un ordre complet",
-      "explanation": "Une instruction détaillée combine souvent hwókɛli/màánɛ̀ɛ ́ (obligation, Leçon 7) avec yée-tɔ̌ɔ (commencer) et élɛɛ (puis, Leçon 4) pour structurer une série d'étapes à suivre.",
-      "rules": [
-        "hwókɛli yà [action 1], élɛɛ é pái [action 2] kɛ̂i = tu dois [action 1], puis tu feras [action 2].",
-        "Cette structure permet de donner des instructions à plusieurs étapes en réutilisant uniquement des outils grammaticaux déjà maîtrisés."
-      ],
-      "examples": [
-        {
-          "structure": "hwókɛli yà kɔ́nɔŋ mîi, élɛɛ é pái ↓kólo ↓kɛ̂i",
-          "phonetic_api": "/hwókɛli yà kɔ́nɔŋ mîi élɛɛ é pái ↓kólo ↓kɛ̂i/",
-          "meaning": "tu dois manger, puis tu travailleras"
+          "structure": "É lìewôo kɛ́ mîi.",
+          "phonetic_api": "/é lìewôo kɛ́ mîi/",
+          "meaning": "Donne-moi un conseil."
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Personne A (le maître)",
-      "text": "Lìewôo kɛ́ : hwókɛli yà kɔ́nɔŋ mîi, élɛɛ é pái ↓kólo ↓kɛ̂i.",
-      "phonetic_api": "/lìewôo kɛ́ hwókɛli yà kɔ́nɔŋ mîi élɛɛ é pái ↓kólo ↓kɛ̂i/",
-      "phonetic_simple": "li-è-WO-o ké: HWO-kè-li ya KO-nong MI-i, É-lè-è é PA-i KO-lo kê-i",
-      "translation": "Un conseil : tu dois manger, puis tu travailleras."
+      "speaker": "Le jeune",
+      "text": "É lìewôo kɛ́ mîi.",
+      "phonetic_api": "/é lìewôo kɛ́ mîi/",
+      "phonetic_simple": "é LI-è-WO-o KÉ MI-i",
+      "translation": "Donne-moi un conseil."
     },
     {
-      "speaker": "Personne B (l'apprenti)",
-      "text": "Ŋàá mɛ̌ŋ. É wěle híŋ kɛ́i mîi ?",
-      "phonetic_api": "/ŋàá mɛ̌ŋ é wěle híŋ kɛ́i mîi/",
-      "phonetic_simple": "nga-a MENG. é wè-le HING KÈ-i MI-i ?",
-      "translation": "J'ai compris. Peux-tu me montrer comment cultiver ?"
+      "speaker": "L'aîné",
+      "text": "Màánɛ̀ɛ́ è kúlo kólô kɛ́ ɓɛ̀ɛ.",
+      "phonetic_api": "/màánɛ̀ɛ́ è kúlo kólô kɛ́ ɓɛ̀ɛ/",
+      "phonetic_simple": "MA-a-nè-è è KOU-lo KO-lô KÉ bè-è",
+      "translation": "Il faudrait qu'il sorte pour aller travailler là-bas."
     },
     {
-      "speaker": "Personne A (le maître)",
-      "text": "Ŋàá mɛ̌ŋ, ŋé pái é kéleeŋ.",
-      "phonetic_api": "/ŋàá mɛ̌ŋ ŋé pái é kéleeŋ/",
-      "phonetic_simple": "nga-a MENG, ngé PA-i é KÉ-lè-èng",
-      "translation": "D'accord, je vais te montrer."
+      "speaker": "Le jeune",
+      "text": "Hwókɛli yà é yéi wàa àpi ?",
+      "phonetic_api": "/hwókɛli yà é yéi wàa àpi/",
+      "phonetic_simple": "HWO-kè-li ya é YÉ-i WA-a A-pi",
+      "translation": "Dois-je aussi me laver les mains avant ?"
     },
     {
-      "speaker": "Personne A (le maître)",
-      "text": "Ŋàá Pépèe tí yɛ̌ ŋwùlú ɓɛ́lâ ; máŋ, hwókɛli yà mɛ̌ŋ à gwéi.",
-      "phonetic_api": "/ŋàá pépèe tí yɛ̌ ŋwùlú ɓɛ́lâ máŋ hwókɛli yà mɛ̌ŋ à gwéi/",
-      "phonetic_simple": "nga-a PÉ-pè-è ti yè ngwou-LOU BÈ-lâ; mang, HWO-kè-li ya MENG a GWÉ-i",
-      "translation": "J'ai aussi ordonné à Pépé de scier l'arbre ; il faut que tu comprennes sa façon de faire."
-    },
-    {
-      "speaker": "Personne B (l'apprenti)",
-      "text": "Ŋàá mɛ̌ŋ, élɛɛ ŋé wěle kɛ́i kɛ̀â.",
-      "phonetic_api": "/ŋàá mɛ̌ŋ élɛɛ ŋé wěle kɛ́i kɛ̀â/",
-      "phonetic_simple": "nga-a MENG, É-lè-è ngé wè-le KÈ-i kè-â",
-      "translation": "J'ai compris, je sais donc le faire maintenant."
-    },
-    {
-      "speaker": "Personne A (le maître)",
-      "text": "Máma, mɛ́niê !",
-      "phonetic_api": "/máma mɛ́niê/",
-      "phonetic_simple": "MA-ma MÉ-ni-Ê",
-      "translation": "Merci, mon ami !"
+      "speaker": "L'aîné",
+      "text": "Òowɛi, hwókɛli yà é yéi wàa.",
+      "phonetic_api": "/òowɛi hwókɛli yà é yéi wàa/",
+      "phonetic_simple": "o-wè-i HWO-kè-li ya é YÉ-i WA-a",
+      "translation": "Oui, tu dois te laver les mains."
     }
   ],
   "cultural_notes": [
-    "La hiérarchie entre lìewôo (conseil doux), kéleeŋ/lɛ́ (démonstration guidée) et tí (ordre ferme) reflète l'importance de l'apprentissage par l'exemple dans la transmission traditionnelle des savoirs kpele, notamment entre un aîné (líê, Leçon 4) et un cadet (léɠê).",
-    "La construction consécutive après tí, avec son marqueur pronominal dédié (yɛ̌), illustre la richesse du système des marqueurs prédicatifs kpele déjà entrevue à travers le résultatif (Leçon 4) et le futur (Leçon 5).",
-    "Le fait de terminer le niveau intermédiaire sur une leçon d'instructions est révélateur : transmettre correctement un savoir-faire, avec les bons degrés de fermeté et les bonnes vérifications de compréhension, est une compétence sociale aussi importante que linguistique en pays kpele."
+    "Dans la société guerzé, le conseil (lìewôo) est traditionnellement donné par les aînés, dans un cadre respectueux où l'expérience est valorisée (Konoshenko 2019).",
+    "L'instruction de se laver les mains avant de manger (hwókɛli yà é yéi wàa) reflète une règle sociale d'hygiène attestée dans le dictionnaire, à observer avant tout repas pris avec les mains."
   ],
   "exercises": [
     {
       "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel est le verbe le plus ferme pour faire agir quelqu'un ?",
+      "question": "Comment dit-on « donner des conseils » en guerzé ?",
       "options": [
-        "lìewôo kɛ́",
-        "kéleeŋ",
-        "tí",
-        "lɛ́"
+        "Lìewôo ~ kɛ́",
+        "Kìikâ ~ kɛ́",
+        "Hwókɛli ~ kɛ́"
       ],
-      "correct_answer": "tí",
-      "explanation": "tí (commander, ordonner) exprime le degré le plus ferme, contrairement au conseil (lìewôo) ou à la démonstration (kéleeŋ/lɛ́)."
+      "correct_answer": "Lìewôo ~ kɛ́",
+      "explanation": "lìewôo signifie « conseil » et se construit avec le verbe support kɛ́ (« faire »)."
     },
     {
       "exercise_id": "ex2",
-      "type": "multiple_choice",
-      "question": "Quel marqueur introduit l'action ordonnée après tí à la 3e personne du singulier ?",
-      "options": [
-        "ŋé",
-        "yɛ̌",
-        "kàa",
-        "gùó"
-      ],
-      "correct_answer": "yɛ̌",
-      "explanation": "yɛ̌ introduit le verbe consécutif après tí, comme dans ŋàá Pépèe tí yɛ̌ ŋwùlú ɓɛ́lâ."
-    },
-    {
-      "exercise_id": "ex3",
-      "type": "multiple_choice",
-      "question": "Que vérifie-t-on typiquement avant l'exécution d'une instruction ?",
-      "options": [
-        "Le prix",
-        "La compréhension et la compétence",
-        "La couleur",
-        "La date de naissance"
-      ],
-      "correct_answer": "La compréhension et la compétence",
-      "explanation": "On confirme d'abord la compréhension (mɛ̌ŋ) puis la compétence (wěle) avant l'exécution."
-    },
-    {
-      "exercise_id": "ex4",
-      "type": "multiple_choice",
-      "question": "Comment dit-on « il m'a montré sa maison » ?",
-      "options": [
-        "Àá ŋwɔ̀ pɛ́lɛ lɛ́ mîi.",
-        "Ŋàá Pépèe tí yɛ̌ pɛ́lɛ tɔ́ɔ.",
-        "Hwókɛli yà pɛ́lɛ tɔ́ɔ.",
-        "Lìewôo kɛ́ pɛ́lɛ hù."
-      ],
-      "correct_answer": "Àá ŋwɔ̀ pɛ́lɛ lɛ́ mîi.",
-      "explanation": "lɛ́ (montrer) se construit avec mîi (à moi) pour indiquer le destinataire de la démonstration."
-    },
-    {
-      "exercise_id": "ex5",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "« Donner des conseils » se dit : « [ ___ ] kɛ́. »",
-      "correct_answer": "Lìewôo",
-      "hint": "C'est le nom « conseil »."
-    },
-    {
-      "exercise_id": "ex6",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "« Expliquer » se dit [ ___ ], toujours construit avec ɓà.",
-      "correct_answer": "hǔ-kǔlo",
-      "hint": "Ce verbe combine deux racines déjà connues."
-    },
-    {
-      "exercise_id": "ex7",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "« Tu m'as obligé de te donner mon argent » se dit : « Yàa [ ___ ] yɛ́ ŋé wáli tɛ̀ɠɛ é pɔ́. »",
-      "correct_answer": "gánaŋ",
-      "hint": "C'est la forme alternée de kánaŋ (obliger, contraindre)."
+      "sentence_with_blank": "Hwókɛli yà é [ ___ ] wàa. (Tu dois te laver les mains.)",
+      "correct_answer": "yéi",
+      "hint": "Forme locative du nom relationnel « main »."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Konoshenko, M. (2019). Dictionnaire kpele de la Guinée (guerzé) – français. Mandenkan 62.",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan62/62konoshenko.pdf"
+    },
+    {
+      "label": "Wikipédia — Kpèllé (langue) / Guerzé",
+      "url": "https://fr.wikipedia.org/wiki/Guerze"
+    }
+  ],
+  "confidence": "élevée",
+  "confidence_note": "Le vocabulaire du conseil (lìewôo, kìikâ) et de l'instruction (hwókɛli, màánɛ̀ɛ́, l'exemple sur le lavage des mains) sont directement attestés avec exemples dans Konoshenko (2019)."
 }

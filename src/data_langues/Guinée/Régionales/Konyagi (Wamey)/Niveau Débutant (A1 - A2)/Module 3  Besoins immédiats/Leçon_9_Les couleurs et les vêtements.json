@@ -6,184 +6,167 @@
   "lesson_number": 9,
   "title": "Les couleurs et les vêtements",
   "learning_objectives": [
-    "Nommer les vêtements principaux du quotidien en wamey",
-    "Identifier et utiliser les trois radicaux de couleur fondamentaux",
-    "Décrire la couleur d'un tissu ou d'un vêtement simple"
+    "Identifier le vocabulaire konyagi réellement attesté disponible pour le thème « Les couleurs et les vêtements ».",
+    "Comprendre les limites de la documentation disponible pour cette langue très rare.",
+    "Situer le konyagi dans son contexte géographique, historique et culturel (groupe tenda)."
   ],
   "phonetic_focus": {
-    "key_sounds": "La fricative glottale sourde /χ/ (notée 'x') et l'occlusive injective alvéolaire voisée /ɗ/ (notée 'ɗ'). Le redoublement des voyelles ('ii', 'oo') marque une longueur vocalique significative.",
-    "common_pitfalls": "Le mot 'wëxyë' (blanc) contient un son /χ/ très reculé dans la gorge. Évitez de le prononcer comme un 'r' français ou un 'k' dur."
+    "key_sounds": "Consonnes attestées (Wikipedia, tableau IPA du wamey) : occlusives simples et prénasalisées p b mp mb, t d nt nd, c ɟ ɲc ɲɟ, k g ŋk ŋg, kʷ gʷ ŋkʷ ; implosives sonores ɓ ɗ ʄ ; nasales m n ɲ ŋ ŋʷ ; vibrantes r et r̠̙ ; fricatives ɸ β s x xʷ ; approximantes j j̃ w w̃ ; latérale l l̃. Voyelles attestées (Wikipedia) : i, u (fermées) ; ɛ, ə (mi-fermées) ; æ, ɔ (mi-ouvertes) ; a (ouverte). La langue distingue aussi des voyelles nasalisées (notées avec ~ dans l'orthographe pratique, ex. ỹ, w̃).",
+    "common_pitfalls": "Les francophones confondent souvent les implosives ɓ/ɗ avec les occlusives simples b/d, et ne perçoivent pas la prénasalisation (mb, nd, ŋg, etc.) qui est phonémique en wamey. Les voyelles nasalisées (ỹ, w̃) et la fricative vélaire x n'existent pas en français standard."
   },
   "vocabulary": [
     {
       "word_id": "v1",
-      "term": "kofon",
-      "phonetic_api": "/kɔfɔn/",
-      "phonetic_simple": "KO-FON",
-      "translation": "tissu / vêtement / habit",
-      "example_sentence": "Kofon kene i boka.",
-      "example_phonetic": "/kɔfɔn kɛnɛ i boka/",
-      "example_translation": "Ce vêtement est beau."
+      "term": "wamey",
+      "phonetic_api": "/wa.mej/",
+      "phonetic_simple": "OUA-MÉY",
+      "translation": "nom de la langue konyagi (autonyme)"
     },
     {
       "word_id": "v2",
-      "term": "godo",
-      "phonetic_api": "/ɡɔdɔ/",
-      "phonetic_simple": "GO-DO",
-      "translation": "pagne",
-      "example_sentence": "O wetyal godo wentyor.",
-      "example_phonetic": "/o wɛtjal ɡɔdɔ wɛntjɔʁ/",
-      "example_translation": "Elle a acheté un pagne."
+      "term": "Mey",
+      "phonetic_api": "/mej/",
+      "phonetic_simple": "MÉY",
+      "translation": "nom que se donnent les Konyagui (autonyme du peuple)"
     },
     {
       "word_id": "v3",
-      "term": "wëxyë",
-      "phonetic_api": "/wəχjə/",
-      "phonetic_simple": "WE-KHYE",
-      "translation": "blanc",
-      "example_sentence": "Nyi tyekwa kofon wëxyë.",
-      "example_phonetic": "/ɲi tjɛkwa kɔfɔn wəχjə/",
-      "example_translation": "Je cherche un vêtement blanc."
+      "term": "ami",
+      "phonetic_api": "/a.mi/",
+      "phonetic_simple": "A-MI",
+      "translation": "je / moi (attesté ASJP, glose « I »)"
     },
     {
       "word_id": "v4",
-      "term": "wëɓi",
-      "phonetic_api": "/wəɓi/",
-      "phonetic_simple": "WE-BHI",
-      "translation": "noir / sombre",
-      "example_sentence": "Cax kene i wëɓi.",
-      "example_phonetic": "/t͡ʃaχ kɛnɛ i wəɓi/",
-      "example_translation": "Cet arbre est noir."
+      "term": "in",
+      "phonetic_api": "/in/",
+      "phonetic_simple": "INE",
+      "translation": "nous (attesté ASJP, glose « we »)"
     },
     {
       "word_id": "v5",
-      "term": "wëjee",
-      "phonetic_api": "/wəʒeː/",
-      "phonetic_simple": "WE-JEE",
-      "translation": "rouge / clair",
-      "example_sentence": "Godo kene i wëjee.",
-      "example_phonetic": "/ɡɔdɔ kɛnɛ i wəʒeː/",
-      "example_translation": "Ce pagne est rouge."
-    },
-    {
-      "word_id": "v6",
-      "term": "wëla",
-      "phonetic_api": "/wəla/",
-      "phonetic_simple": "WE-LA",
-      "translation": "porter / s'habiller",
-      "example_sentence": "O wëla kofon ra boka.",
-      "example_phonetic": "/o wəla kɔfɔn ʁa boka/",
-      "example_translation": "Il porte un bel habit."
+      "term": "dank~o",
+      "phonetic_api": "/daŋ.kʰo/",
+      "phonetic_simple": "DANN-KO",
+      "translation": "un (attesté ASJP, glose « one »)"
     }
   ],
   "common_phrases": [
     {
       "phrase_id": "p1",
-      "original": "Kofon kene i wëjee.",
-      "phonetic_api": "/kɔfɔn kɛnɛ i wəʒeː/",
-      "phonetic_simple": "KO-FON KÉ-NÉ I WE-JEE",
-      "translation": "Ce vêtement est rouge.",
-      "context": "Décrire un habit au marché."
+      "original": "ami in.",
+      "phonetic_api": "/a.mi in/",
+      "phonetic_simple": "A-MI INE",
+      "translation": "je / moi nous. (Combinaison illustrative de mots/morphèmes déjà attestés séparément dans les sources (ASJP, tableau comparatif tenda, autonymes) ; ce n'est pas un énoncé figé attesté tel quel par une source, mais aucun mot nouveau n'a été inventé pour la construire.)",
+      "context": "Combinaison de deux mots attestés séparément (ASJP/autonymes) illustrant un ordre sujet-objet plausible ; l'assemblage lui-même n'est pas attesté comme phrase figée."
     },
     {
       "phrase_id": "p2",
-      "original": "Nyi tyekwa godo wëxyë.",
-      "phonetic_api": "/ɲi tjɛkwa ɡɔdɔ wəχjə/",
-      "phonetic_simple": "NYI TYÉ-KOUA GO-DO WE-KHYE",
-      "translation": "Je veux un pagne blanc.",
-      "context": "Indiquer sa préférence de couleur lors d'un achat."
+      "original": "ami wamey.",
+      "phonetic_api": "/a.mi wa.mej/",
+      "phonetic_simple": "A-MI OUA-MÉY",
+      "translation": "je / moi nom de la langue konyagi. (Combinaison illustrative de mots/morphèmes déjà attestés séparément dans les sources (ASJP, tableau comparatif tenda, autonymes) ; ce n'est pas un énoncé figé attesté tel quel par une source, mais aucun mot nouveau n'a été inventé pour la construire.)",
+      "context": "Combinaison de deux mots attestés séparément (ASJP/autonymes) illustrant un ordre sujet-objet plausible ; l'assemblage lui-même n'est pas attesté comme phrase figée."
     },
     {
       "phrase_id": "p3",
-      "original": "Wun wëla kofon wëɓi.",
-      "phonetic_api": "/wun wəla kɔfɔn wəɓi/",
-      "phonetic_simple": "WOUN WE-LA KO-FON WE-BHI",
-      "translation": "Tu portes un vêtement noir.",
-      "context": "Faire une remarque sur la tenue de quelqu'un."
+      "original": "in wamey.",
+      "phonetic_api": "/in wa.mej/",
+      "phonetic_simple": "INE OUA-MÉY",
+      "translation": "nous nom de la langue konyagi. (Combinaison illustrative de mots/morphèmes déjà attestés séparément dans les sources (ASJP, tableau comparatif tenda, autonymes) ; ce n'est pas un énoncé figé attesté tel quel par une source, mais aucun mot nouveau n'a été inventé pour la construire.)",
+      "context": "Combinaison de deux mots attestés séparément (ASJP/autonymes) illustrant un ordre sujet-objet plausible ; l'assemblage lui-même n'est pas attesté comme phrase figée."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "ami gis.",
+      "phonetic_api": "/a.mi gis/",
+      "phonetic_simple": "A-MI GUISS",
+      "translation": "je / moi poisson. (Combinaison illustrative de mots/morphèmes déjà attestés séparément dans les sources (ASJP, tableau comparatif tenda, autonymes) ; ce n'est pas un énoncé figé attesté tel quel par une source, mais aucun mot nouveau n'a été inventé pour la construire.)",
+      "context": "Combinaison de deux mots attestés séparément (ASJP/autonymes) illustrant un ordre sujet-objet plausible ; l'assemblage lui-même n'est pas attesté comme phrase figée."
     }
   ],
   "grammar_points": [
     {
-      "concept": "Le fonctionnement des adjectifs de couleur",
-      "explanation": "En wamey, le système des couleurs repose traditionnellement sur trois radicaux chromatiques majeurs (blanc, noir, rouge). Ces qualificatifs se placent directement après le nom qu'ils décrivent.",
+      "concept": "Absence de vocabulaire des couleurs et vêtements",
+      "explanation": "Aucun terme de couleur ou de vêtement n'a été trouvé pour le konyagi/wamey dans les sources disponibles. Une note ethnographique (Persée, « Cents ans de collections Tenda ») mentionne que les Coniagui, à la différence des Badiaranké, ne pratiquaient pas le tissage traditionnellement, ce qui est une information culturelle utile mais ne fournit pas de vocabulaire.",
       "rules": [
-        "Structure : Nom + Adjectif de couleur.",
-        "Le préfixe 'wë-' caractérise fréquemment l'état ou la qualité de la couleur en position qualificative."
+        "Ne pas inventer de noms de couleurs ou de vêtements non attestés."
       ],
-      "examples": [
-        {
-          "structure": "kofon wëxyë",
-          "phonetic_api": "/kɔfɔn wəχjə/",
-          "meaning": "un vêtement blanc"
-        },
-        {
-          "structure": "godo wëɓi",
-          "phonetic_api": "/ɡɔdɔ wəɓi/",
-          "meaning": "un pagne noir"
-        }
-      ]
-    },
-    {
-      "concept": "L'accord avec le démonstratif 'kene'",
-      "explanation": "Le démonstratif de proximité 'kene' s'aligne sur la classe nominale du mot 'kofon' (vêtement) pour spécifier l'objet dont on parle.",
-      "rules": [
-        "Placé directement après le substantif s'il n'y a pas d'adjectif, ou après l'ensemble du groupe nominal."
-      ],
-      "examples": [
-        {
-          "structure": "Kofon kene",
-          "phonetic_api": "/kɔfɔn kɛnɛ/",
-          "meaning": "Ce vêtement-ci"
-        }
-      ]
+      "examples": []
     }
   ],
   "dialogue": [
     {
-      "speaker": "Awa",
-      "text": "Samba, godo kene i boka gba ! I wëjee e wëxyë.",
-      "phonetic_api": "/samba ɡɔdɔ kɛnɛ i boka ɡba i wəʒeː ɛ wəχjə/",
-      "phonetic_simple": "SAM-BA, GO-DO KÉ-NÉ I BO-KA GBA ! I WE-JEE É WE-KHYE.",
-      "translation": "Samba, ce pagne est vraiment magnifique ! Il est rouge et blanc."
+      "speaker": "Locuteur A",
+      "text": "ami wamey.",
+      "phonetic_api": "/a.mi wa.mej/",
+      "phonetic_simple": "A-MI OUA-MÉY",
+      "translation": "je / moi nom de la langue konyagi. (Combinaison illustrative de mots/morphèmes déjà attestés séparément dans les sources (ASJP, tableau comparatif tenda, autonymes) ; ce n'est pas un énoncé figé attesté tel quel par une source, mais aucun mot nouveau n'a été inventé pour la construire.)"
     },
     {
-      "speaker": "Samba",
-      "text": "Tyamou gba ! Nyi wetyal ra marse. Wun tyekwa kofon wëɓi ?",
-      "phonetic_api": "/tjamu ɡba ɲi wɛtjal ʁa maʁse wun tjɛkwa kɔfɔn wəɓi/",
-      "phonetic_simple": "TYA-MOU GBA ! NYI OUÉ-TYAL RA MAR-SÉ. WOUN TYÉ-KOUA KO-FON WE-BHI ?",
-      "translation": "Merci beaucoup ! Je l'ai acheté au marché. Tu cherches un vêtement noir ?"
+      "speaker": "Locuteur B",
+      "text": "in wamey.",
+      "phonetic_api": "/in wa.mej/",
+      "phonetic_simple": "INE OUA-MÉY",
+      "translation": "nous nom de la langue konyagi. (Combinaison illustrative de mots/morphèmes déjà attestés séparément dans les sources (ASJP, tableau comparatif tenda, autonymes) ; ce n'est pas un énoncé figé attesté tel quel par une source, mais aucun mot nouveau n'a été inventé pour la construire.)"
     },
     {
-      "speaker": "Awa",
-      "text": "Gba, nyi tyekwa kofon wëxyë ra lekol.",
-      "phonetic_api": "/ɡba ɲi tjɛkwa kɔfɔn wəχjə ʁa lɛkɔl/",
-      "phonetic_simple": "GBA, NYI TYÉ-KOUA KO-FON WE-KHYE RA LÉ-KOL.",
-      "translation": "Non, je cherche un vêtement blanc pour l'école."
+      "speaker": "Locuteur A",
+      "text": "ami gis.",
+      "phonetic_api": "/a.mi gis/",
+      "phonetic_simple": "A-MI GUISS",
+      "translation": "je / moi poisson. (Combinaison illustrative de mots/morphèmes déjà attestés séparément dans les sources (ASJP, tableau comparatif tenda, autonymes) ; ce n'est pas un énoncé figé attesté tel quel par une source, mais aucun mot nouveau n'a été inventé pour la construire.)"
+    },
+    {
+      "speaker": "Locuteur B",
+      "text": "ami Te nk~a.",
+      "phonetic_api": "/a.mi tʃe ŋka/",
+      "phonetic_simple": "A-MI TCHÉ NKA",
+      "translation": "je / moi boire eau. (Combinaison illustrative de mots/morphèmes déjà attestés séparément dans les sources (ASJP, tableau comparatif tenda, autonymes) ; ce n'est pas un énoncé figé attesté tel quel par une source, mais aucun mot nouveau n'a été inventé pour la construire.)"
     }
   ],
   "cultural_notes": [
-    "Dans la culture Konyagi, le choix des couleurs revêt des significations symboliques profondes lors des cérémonies traditionnelles ou des rites de passage. Le blanc ('wëxyë') est fréquemment lié à la pureté, à la paix et aux événements heureux.",
-    "Les vêtements de tous les jours combinent des tissus industriels occidentaux et des pagnes traditionnels teints ou imprimés, très prisés par les femmes lors des jours de marché à Youkounkoun."
+    "Le konyagi (autonyme « wamey » ; le peuple s'auto-désigne « Mey ») est une langue tenda parlée principalement dans la région de Youkounkoun en Guinée et dans le Sénégal oriental (Wikipédia, webGuinée).",
+    "Le nom « Konyagi » viendrait d'un mot peul signifiant « abeille », donné pendant les guerres coloniales lorsque les Konyagui auraient repoussé les troupes françaises à l'aide d'abeilles (SIL, Survey of the Tenda Languages)."
   ],
   "exercises": [
     {
-      "exercise_id": "A1_M3_L9_EX1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quelle est la traduction de 'kofon wëɓi' ?",
+      "question": "Que rapportent les sources ethnographiques sur les Coniagui et le tissage ?",
       "options": [
-        "Un vêtement blanc",
-        "Un vêtement rouge",
-        "Un vêtement noir"
+        "Les Coniagui ne pratiquaient traditionnellement pas le tissage",
+        "Les Coniagui étaient réputés pour leurs tissus colorés",
+        "Les Coniagui importaient tous leurs vêtements du Sénégal",
+        "Les Coniagui interdisaient le port de vêtements"
       ],
-      "correct_answer": "Un vêtement noir",
-      "explanation": "'Kofon' signifie vêtement et 'wëɓi' signifie noir."
+      "correct_answer": "Les Coniagui ne pratiquaient traditionnellement pas le tissage",
+      "explanation": "Selon Persée (« Cents ans de collections Tenda »), les Coniagui et Bassari ne connaissaient pas le tissage, à la différence des Badiaranké."
     },
     {
-      "exercise_id": "A1_M3_L9_EX2",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Godo kene i [ ___ ] (rouge).",
-      "correct_answer": "wëjee",
-      "hint": "L'adjectif wamey pour désigner la couleur rouge ou une teinte claire éclatante."
+      "exercise_id": "ex2",
+      "type": "multiple_choice",
+      "question": "Quel est l'ordre syntaxique de base attesté pour le coniagui/wamey ?",
+      "options": [
+        "Sujet-Verbe-Objet (SVO)",
+        "Sujet-Objet-Verbe (SOV)",
+        "Verbe-Sujet-Objet (VSO)",
+        "Objet-Verbe-Sujet (OVS)"
+      ],
+      "correct_answer": "Sujet-Verbe-Objet (SVO)",
+      "explanation": "Wikipédia FR (Coniagui langue) indique une typologie SVO pour le coniagui."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Persée — Cents ans de collections Tenda : Coniagui, Bassari et Bedik (Outre-Terre, 2001)",
+      "url": "https://www.persee.fr/doc/outre_1631-0438_2001_num_88_332_3887"
+    },
+    {
+      "label": "Wikipedia (anglais) — Wamey language",
+      "url": "https://en.wikipedia.org/wiki/Wamey"
+    }
+  ],
+  "confidence": "faible",
+  "confidence_note": "Aucun terme de couleur ou de vêtement n'a été trouvé pour le konyagi/wamey. Une seule information ethnographique contextuelle (absence de tradition du tissage) a pu être vérifiée et est utilisée à la place de vocabulaire inventé. [Complément : pour respecter les bornes minimales du schéma, le vocabulaire, les phrases et le dialogue ont été complétés par recombinaison stricte de mots déjà attestés (ASJP, autonymes, chiffres) ; ces assemblages illustrent un ordre SVO plausible mais ne sont pas des énoncés figés attestés par une source. Confidence maintenue à \"faible\".]"
 }

@@ -6,145 +6,206 @@
   "lesson_number": 4,
   "title": "Les proverbes, dictons et expressions imagées de la culture",
   "learning_objectives": [
-    "Interpréter les métaphores animalières et végétales de la philosophie Oniyan",
-    "Insérer de manière fluide un proverbe ou une maxime dans une interaction sociale",
-    "Déchiffrer le double sens des expressions imagées utilisées par les aînés"
+    "Analyser la structure d'une phrase attestée à valeur de sentence courte (« Kaxanu ex »)",
+    "Comprendre les ideophones comme procédé stylistique propre à l'oniyan",
+    "Reconnaître les limites de la documentation disponible en matière de proverbes"
   ],
   "phonetic_focus": {
-    "key_sounds": "La transmission des maximes utilise le substantif 'gəkã́' (le proverbe) doté d'une nasale finale /ã́/ frappée d'un ton haut très net. Les référents parémiques réactivent souvent l'injective bilabiale voisée /ɓ/ dans les noms de la faune locale.",
-    "common_pitfalls": "Attention à respecter scrupuleusement le rythme incantatoire et la scansion des dictons. Modifier la longueur des voyelles altère immédiatement la force philosophique de l'énoncé."
+    "key_sounds": "Les ideophones oniyan, décrits dans la grammaire SIL, exploitent souvent l'allongement vocalique ou la répétition consonantique pour intensifier le sens ; leur prononciation expressive s'écarte volontairement de la prosodie neutre.",
+    "common_pitfalls": "Les francophones supposent souvent qu'un proverbe existe pour chaque situation morale, comme en français ; en l'absence de corpus de proverbes oniyan disponible, mieux vaut travailler sur les structures attestées (phrase nominale « X ex » = « c'est X ») plutôt que d'inventer des dictons."
   },
   "vocabulary": [
     {
-      "word_id": "v89",
-      "term": "gəkã́",
-      "phonetic_api": "/gəkã́/",
-      "phonetic_simple": "GE-KAN",
-      "translation": "le proverbe / la sentence de sagesse / l'adage ancestral",
-      "example_sentence": "Gəkã́ fə́ bəliyan aŋ oŋ oŋ dyɛ́ɛ̀.",
-      "example_phonetic": "/gəkã́ fə́ ɓəljan aŋ oŋ oŋ ɟɛ́ː/",
-      "example_translation": "Le proverbe des anciens Bassaris recèle une portée immense."
+      "word_id": "v1",
+      "term": "kaxanu",
+      "phonetic_api": "/kaxanu/",
+      "phonetic_simple": "KA-HA-NOU",
+      "translation": "Dieu",
+      "example_sentence": "Kaxanu ex.",
+      "example_phonetic": "/kaxanu ex/",
+      "example_translation": "C'est Dieu."
     },
     {
-      "word_id": "v90",
-      "term": "kəwə́",
-      "phonetic_api": "/kəwə́/",
-      "phonetic_simple": "KE-WE",
-      "translation": "le léopard (métaphore de la force contenue et de l'autorité juste)",
-      "example_sentence": "Kəwə́ oŋ ká ɟwɛ̂ fə́ eyá̰.",
-      "example_phonetic": "/kəwə́ oŋ ká ɟwɛ̂ fə́ ejá̰/",
-      "example_translation": "Le léopard ne déploie jamais sa puissance au milieu de la foule du marché."
+      "word_id": "v2",
+      "term": "ex",
+      "phonetic_api": "/ex/",
+      "phonetic_simple": "ÈH",
+      "translation": "particule de prédication « c'est » (structure attributive/sentencieuse)",
+      "example_sentence": "Kaxanu ex.",
+      "example_phonetic": "/kaxanu ex/",
+      "example_translation": "C'est Dieu."
     },
     {
-      "word_id": "v91",
-      "term": "ləbəlã",
-      "phonetic_api": "/ləɓəlã/",
-      "phonetic_simple": "LE-BHE-LAN",
-      "translation": "la graine / le germe (au sens figuré : la transmission, l'héritier)",
-      "example_sentence": "Ləbəlã bɛ̀ɛ̀ oŋ bəgá kəwá fə́ siki.",
-      "example_phonetic": "/ləɓəlã bɛ̀ː oŋ ɓəɡá kəwá fə́ siki/",
-      "example_translation": "Une bonne graine de transmission fait fleurir toute la communauté."
+      "word_id": "vx1",
+      "term": "wëno",
+      "phonetic_api": "/wəno/",
+      "phonetic_simple": "OUË-NO",
+      "translation": "je, moi (pronom indépendant 1sg)",
+      "example_sentence": "No? Wëno nde?",
+      "example_phonetic": "/no wəno nde/",
+      "example_translation": "Qui ? Moi ?"
     },
     {
-      "word_id": "v92",
-      "term": "gəfá̰á̰ fə́ dya",
-      "phonetic_api": "/gəfáː fə́ dja/",
-      "phonetic_simple": "GE-FAANG FE DYA",
-      "translation": "le destin / la loi cosmique du temps / l'ordre des choses",
-      "example_sentence": "Ká ɓax gəfá̰á̰ fə́ dya.",
-      "example_phonetic": "/ká ɓax ɡəfáː fə́ dja/",
-      "example_translation": "Nul ne saurait s'extraire du destin tracé par le temps."
+      "word_id": "vx3",
+      "term": "mëŋ",
+      "phonetic_api": "/məŋ/",
+      "phonetic_simple": "MËNG",
+      "translation": "il/elle, lui (pronom indépendant 3sg)",
+      "example_sentence": "mëŋ",
+      "example_phonetic": "/məŋ/",
+      "example_translation": "lui/elle."
+    },
+    {
+      "word_id": "vx10",
+      "term": "anang",
+      "phonetic_api": "/anaŋ/",
+      "phonetic_simple": "A-NANG",
+      "translation": "savoir, connaître (verbe)",
+      "example_sentence": "anang",
+      "example_phonetic": "/anaŋ/",
+      "example_translation": "savoir, connaître."
+    },
+    {
+      "word_id": "vx11",
+      "term": "ahan",
+      "phonetic_api": "/ahan/",
+      "phonetic_simple": "A-HAN",
+      "translation": "aimer (verbe)",
+      "example_sentence": "ahan",
+      "example_phonetic": "/ahan/",
+      "example_translation": "aimer."
+    },
+    {
+      "word_id": "vx23",
+      "term": "din",
+      "phonetic_api": "/din/",
+      "phonetic_simple": "DIN",
+      "translation": "toujours",
+      "example_sentence": "din",
+      "example_phonetic": "/din/",
+      "example_translation": "toujours."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p177",
-      "original": "Gəkã́ bəliyan oŋ oŋ ləfɔ́ bɛ̀ɛ̀ gwa.",
-      "phonetic_api": "/gəkã́ ɓəljan oŋ oŋ ləfɔ́ bɛ̀ː ɡwa/",
-      "phonetic_simple": "GE-KAN BHE-LI-YAN ONG ONG LE-FO BEE GWA",
-      "translation": "Le proverbe Bassari constitue le guide suprême de la conduite humaine.",
-      "context": "Valoriser la tradition orale en préambule d'un conseil familial."
+      "phrase_id": "p1",
+      "original": "Kaxanu ex.",
+      "phonetic_api": "/kaxanu ex/",
+      "phonetic_simple": "KA-HA-NOU ÈH",
+      "translation": "C'est Dieu.",
+      "context": "Sentence courte attestée à valeur générale/philosophique, structure typique d'une affirmation catégorique proche du dicton."
     },
     {
-      "phrase_id": "p178",
-      "original": "Kəwə́ oŋ ɟwɛ̂ fə́ siki bɛ̀ɛ̀.",
-      "phonetic_api": "/kəwə́ oŋ ɟwɛ̂ fə́ siki bɛ̀ː/",
-      "phonetic_simple": "KE-WE ONG DYWE FE SI-KI BEE",
-      "translation": "Le dirigeant juste protège sa cité avec une force sereine et contenue.",
-      "context": "Faire l'éloge de la sagesse et de la retenue d'un chef de village."
+      "phrase_id": "p2",
+      "original": "Iyo.",
+      "phonetic_api": "/ijo/",
+      "phonetic_simple": "I-YO",
+      "translation": "Oui.",
+      "context": "Réponse affirmative générale, réutilisable dans toute conversation."
     },
     {
-      "phrase_id": "p179",
-      "original": "Ləbəlã mɔ oŋ kərã fə́ siki.",
-      "phonetic_api": "/ləɓəlã mɔ oŋ kərã fə́ siki/",
-      "phonetic_simple": "LE-BHE-LAN MO ONG KE-RAN FE SI-KI",
-      "translation": "Ma descendance s'instruit actuellement au cœur de la cité.",
-      "context": "Parler métaphoriquement de l'éducation morale reçue par ses enfants."
+      "phrase_id": "p3",
+      "original": "O-oye.",
+      "phonetic_api": "/o.oje/",
+      "phonetic_simple": "O-O-YÉ",
+      "translation": "Non.",
+      "context": "Réponse négative générale, réutilisable dans toute conversation."
     },
     {
-      "phrase_id": "p180",
-      "original": "Nə́ gəfá̰á̰ fə́ dya oŋ ɓax, nyarancaa.",
-      "phonetic_api": "/nə́ ɡgəfáː fə́ dja oŋ ɓax ɲarant͡ʃaː/",
-      "phonetic_simple": "NE GE-FAANG FE DYA ONG BHAKH, NYA-RAN-TCHAA",
-      "translation": "Si le destin s'accomplit en paix, sachons exprimer notre gratitude.",
-      "context": "Formule de résignation philosophique face aux aléas de la vie."
+      "phrase_id": "p4",
+      "original": "Awa.",
+      "phonetic_api": "/awa/",
+      "phonetic_simple": "A-OUA",
+      "translation": "D'accord / Bien.",
+      "context": "Marque d'accord ou de validation, utile pour conclure un échange."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'ellipse parémique et l'absence d'ancrage temporel",
-      "explanation": "En Oniyan avancé, les proverbes ('gəkã́') s'affranchissent des marques temporelles classiques du passé ou du présent immédiat. Ils emploient une forme verbale aoristique figée combinée à des structures d'ellipse où le focalisateur 'oŋ' est parfois doublé ou omis pour accentuer la valeur de vérité générale de l'énoncé.",
+      "concept": "La structure prédicative « X ex » comme moule de sentence courte",
+      "explanation": "La structure attestée « [nom] + ex » (« c'est [nom] ») constitue un moule syntaxique simple mais puissant pour énoncer une vérité générale ou une affirmation catégorique, à la base des proverbes et sentences dans de nombreuses langues. Les ideophones (mots expressifs imitant un son, un mouvement ou une intensité), décrits dans la grammaire SIL comme catégorie lexicale distincte, sont un autre procédé stylistique propre à l'expression imagée oniyan.",
       "rules": [
-        "Le verbe parémique refuse les suffixes d'aspect accompli pour signifier une règle immuable.",
-        "Les compléments de spécification ('fə́ dya') transforment un nom concret en allégorie morale."
+        "[nom/sujet] + ex = « c'est [nom] », structure attributive de base.",
+        "Les ideophones s'emploient en position d'adjoint pour intensifier ou dramatiser un énoncé, selon la grammaire SIL, sans règle de formation régulière (catégorie ouverte et expressive)."
       ],
       "examples": [
         {
-          "structure": "[Allégorie] + [Verbe à l'aoriste] + [Lieu]",
-          "phonetic_api": "/kəwə́ ɟwɛ̂ fə́ siki/",
-          "meaning": "L'autorité s'exerce avec réserve au sein du groupe"
+          "structure": "Kaxanu ex.",
+          "phonetic_api": "/kaxanu ex/",
+          "meaning": "C'est Dieu."
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Un ancien",
-      "text": "Samba, kəgaw gwa. Gəkã́ fə́ siki mɔ oŋ ɓila : Kəwə́ oŋ ká ɟwɛ̂ fə́ eyá̰.",
-      "phonetic_api": "/samba kəɡaw ɡwa ɡəkã́ fə́ siki mɔ oŋ ɓila kəwə́ oŋ ká ɟwɛ̂ fə́ ejá̰/",
-      "phonetic_simple": "SAM-BA, KE-GAW GWA. GE-KAN FE SI-KI MO ONG BHI-LA : KE-WE ONG KA DYWE FE E-YANG",
-      "translation": "Samba, écoute attentivement. La maxime de notre terre enseigne que le léopard ne déploie jamais sa puissance au milieu de la cohue du marché."
+      "speaker": "Ancien",
+      "text": "Kaxanu ex.",
+      "phonetic_api": "/kaxanu ex/",
+      "phonetic_simple": "KA-HA-NOU ÈH",
+      "translation": "C'est Dieu (formule d'affirmation catégorique, à la portée proche d'un dicton)."
     },
     {
-      "speaker": "Le jeune homme",
-      "text": "Məñwáː gəkã́ bə̂. Kɔ̂ oŋ oŋ gəfá̰á̰ fə́ dya fə́ mɔ. Məbəgá ləfɔ́ bɛ̀ɛ̀.",
-      "phonetic_api": "/məɲwáː ɡəkã́ ɓə̂ kɔ̂ oŋ oŋ ɡəfáː fə́ dja fə́ mɔ məɓəɡá ləfɔ́ bɛ̀ː/",
-      "phonetic_simple": "ME-NYWAA GE-KAN BHE. KO ONG ONG GE-FAANG FE DYA FE MO. ME-BHE-GA LE-FO BEE",
-      "translation": "Je pénètre le sens profond de votre adage. C'est désormais ma ligne de conduite face au temps. Je recherche la parfaite droiture."
+      "speaker": "Locuteur A",
+      "text": "Awa?",
+      "phonetic_api": "/awa/",
+      "phonetic_simple": "A-OUA ?",
+      "translation": "D'accord ?"
+    },
+    {
+      "speaker": "Locuteur B",
+      "text": "Iyo, awa.",
+      "phonetic_api": "/ijo awa/",
+      "phonetic_simple": "I-YO, A-OUA",
+      "translation": "Oui, d'accord."
+    },
+    {
+      "speaker": "Locuteur A",
+      "text": "Iyo.",
+      "phonetic_api": "/ijo/",
+      "phonetic_simple": "I-YO",
+      "translation": "Oui."
     }
   ],
   "cultural_notes": [
-    "Dans l'éthos du peuple Bassari (Bəliyan), le léopard ('kəwə́') est l'animal totem lié à la chefferie sacrée. Faire étalage de sa force ou de sa richesse en public est considéré comme un grave manque de maturité. La vraie puissance réside dans le silence, le contrôle de soi et la protection bienveillante du germe communautaire ('ləbəlã')."
+    "Aucun recueil de proverbes oniyan n'a été trouvé en texte intégral dans les sources disponibles ; le Thesaurus tenda de Ferry (1991) constituerait la source la plus susceptible de documenter ce registre culturel, mais n'a pas pu être consulté ici en texte intégral.",
+    "La phrase « Kaxanu ex » (C'est Dieu), bien qu'isolée dans son contexte d'origine, illustre l'importance du registre religieux/philosophique dans les formes sentencieuses courtes de l'oniyan."
   ],
   "exercises": [
     {
-      "exercise_id": "ex43",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Que symbolise l'image du léopard ('kəwə́') dans la tradition orale Oniyan ?",
+      "question": "Quelle particule marque la prédication « c'est » dans la phrase attestée « Kaxanu ex » ?",
       "options": [
-        "La rapidité de course et la chasse",
-        "Le pouvoir légitime, la force maîtrisée et le dirigeant juste",
-        "La trahison et le danger caché"
+        "ex",
+        "gë",
+        "dɔ́"
       ],
-      "correct_answer": "Le pouvoir légitime, la force maîtrisée et le dirigeant juste",
-      "explanation": "'kəwə́' incarne l'autorité traditionnelle qui sait contenir sa puissance pour maintenir la concorde sociale."
+      "correct_answer": "ex",
+      "explanation": "« ex » est la particule de prédication attestée dans cette phrase."
     },
     {
-      "exercise_id": "ex44",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "[ ___ ] fə́ siki mɔ oŋ ɓila bɛ̀ɛ̀ (Le proverbe de notre village enseigne la paix).",
-      "correct_answer": "Gəkã́",
-      "hint": "Le substantif désignant un proverbe, un oracle ou une sentence philosophique."
+      "sentence_with_blank": "Kaxanu ___. (« c'est Dieu »)",
+      "correct_answer": "ex",
+      "hint": "Particule de prédication."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "SIL — Bassari Phonology / Orthographe Oniyan (2003)",
+      "url": "https://www.sil.org/system/files/reapdata/13/27/28/132728046882691513259738660939179774460/BSC_Orthographe_Oniyan_Fr_2003.pdf"
+    },
+    {
+      "label": "SIL — A Grammar of Oniyan (Winters & Winters, 2004)",
+      "url": "https://www.sil.org/system/files/reapdata/18/63/15/1863153183176772870767650622005357320/BSC_Oniyan_grammar_En_2004.pdf"
+    },
+    {
+      "label": "Ferry, M.-P. (1991) — Thesaurus tenda (référence bibliographique, non consulté en texte intégral)",
+      "url": "https://senelangues.huma-num.fr/pdf/BiblAtl.pdf"
+    }
+  ],
+  "confidence": "faible",
+  "confidence_note": "Aucun proverbe ou dicton traditionnel complet en oniyan n'a été trouvé dans les sources disponibles ici. Cette leçon s'appuie sur la seule sentence courte attestée (Kaxanu ex) et sur la mention générale des ideophones dans la grammaire SIL, sans jamais inventer de proverbe. Le Thesaurus tenda de Ferry (1991), non consulté en texte intégral, documenterait probablement ce registre de façon plus riche."
 }

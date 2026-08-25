@@ -6,158 +6,210 @@
   "lesson_number": 3,
   "title": "L'alphabet et les sons spécifiques de la langue",
   "learning_objectives": [
-    "Identifier l'alphabet et le système phonologique nalu",
-    "Prononcer correctement les consonnes co-articulées et les voyelles longues"
+    "Identifier l'inventaire des voyelles et consonnes du nalu selon Seidel (2024)",
+    "Distinguer les sons absents du français (θ, gb, ŋ, voyelles longues)",
+    "Comprendre la position du nalu au sein des langues atlantiques et sa relation distincte du Landuma"
   ],
   "phonetic_focus": {
-    "key_sounds": "Le système phonétique nalu se distingue par l'utilisation de consonnes labio-vélaires complexes comme /gb/ et /kp/, ainsi que par la présence d'une occlusive glottale (coup de glotte) notée /ʔ/. Les voyelles peuvent être brèves (a, e, i, o, u) ou longues (aa, ee, ii, oo, uu).",
-    "common_pitfalls": "La confusion entre une voyelle brève et une voyelle longue peut changer radicalement le sens d'un mot. Veillez également à ne pas séparer les deux lettres du 'gb' en disant 'g-b', mais à presser les lèvres tout en reculant la langue."
+    "key_sounds": "7 voyelles avec opposition +ATR/-ATR et longueur : i, u, e [ɪ], o [ʊ], ɛ, ɔ, a. Consonnes incluant occlusives p b t d k g, l'occlusive labio-vélaire double gb (ex. m-yaaŋk « queue »), l'affriquée ʧ, les fricatives f, θ [f], s [ş], h [x], et les nasales m n ɲ ŋ. Source : Seidel (2024).",
+    "common_pitfalls": "Le francophone ne distingue pas naturellement les voyelles longues (notées par redoublement, ex. ɔɔ, aa) des brèves ; il faut s'entraîner à allonger consciemment. Le gb (occlusive labio-vélaire) n'existe pas en français et est souvent réduit à un simple 'g' ou 'b'. Le θ, bien que théoriquement un son dur comme le 'th' anglais, est souvent réalisé [f] même par les locuteurs natifs, ce qui peut dérouter l'apprenant."
   },
   "vocabulary": [
     {
-      "word_id": "v3_1",
-      "term": "Gbala",
-      "phonetic_api": "/g͡ba.la/",
-      "phonetic_simple": "GBA-LA",
-      "translation": "Écorce / Peau",
-      "example_sentence": "Gbala n'wut ce.",
-      "example_phonetic": "/g͡ba.la nwut tʃe/",
-      "example_translation": "L'écorce de l'arbre est bonne."
+      "word_id": "v1",
+      "term": "gb (ex. m-gbank)",
+      "phonetic_api": "/ɡ͜b/",
+      "phonetic_simple": "GB (occlusive double)",
+      "translation": "son occlusif labio-vélaire, ex. dans « pied »",
+      "example_sentence": "n-gbank",
+      "example_phonetic": "/ŋɡ͜bank/",
+      "example_translation": "pied (tableau comparatif Wiktionary/Fields 2001)"
     },
     {
-      "word_id": "v3_2",
-      "term": "Kpatale",
-      "phonetic_api": "/k͡pa.ta.le/",
-      "phonetic_simple": "KPA-TA-LÉ",
-      "translation": "Table / Support",
-      "example_sentence": "Ina, ror kpatale.",
-      "example_phonetic": "/i.na ror k͡pa.ta.le/",
-      "example_translation": "S'il te plaît, nettoie la table."
+      "word_id": "v2",
+      "term": "θ (ex. m-θaay)",
+      "phonetic_api": "/θ/ ~ [f]",
+      "phonetic_simple": "TH dur",
+      "translation": "consonne fricative, souvent réalisée [f]",
+      "example_sentence": "mθaay",
+      "example_phonetic": "/mθaːj/",
+      "example_translation": "femme, épouse (Seidel 2024)"
     },
     {
-      "word_id": "v3_3",
-      "term": "Ŋal",
-      "phonetic_api": "/ŋal/",
-      "phonetic_simple": "NGAL",
-      "translation": "Femme / Épouse",
-      "example_sentence": "Ŋal mi a mboye.",
-      "example_phonetic": "/ŋal mi a mbo.je/",
-      "example_translation": "Mon épouse va bien."
+      "word_id": "v3",
+      "term": "ŋ (ex. m-yaaŋk)",
+      "phonetic_api": "/ŋ/",
+      "phonetic_simple": "NG (comme 'parking')",
+      "translation": "consonne nasale vélaire",
+      "example_sentence": "m-yaaŋk",
+      "example_phonetic": "/mjaːŋk/",
+      "example_translation": "queue (Seidel 2024)"
     },
     {
-      "word_id": "v3_4",
-      "term": "Ceeb",
-      "phonetic_api": "/tʃeːb/",
-      "phonetic_simple": "TCHÉÉB",
-      "translation": "Poisson",
-      "example_sentence": "M malang ceeb.",
-      "example_phonetic": "/m ba.laŋ tʃeːb/",
-      "example_translation": "J'ai du poisson."
+      "word_id": "v4",
+      "term": "ɔɔ (voyelle longue)",
+      "phonetic_api": "/ɔː/",
+      "phonetic_simple": "O-ouvert long",
+      "translation": "voyelle mi-ouverte postérieure longue",
+      "example_sentence": "mɔɔ",
+      "example_phonetic": "/mɔː/",
+      "example_translation": "cela, plus loin (démonstratif classe 1, Seidel 2024)"
     },
     {
-      "word_id": "v3_5",
-      "term": "M'ba",
-      "phonetic_api": "/m.ba/",
-      "phonetic_simple": "M-BA",
-      "translation": "Grand-père",
-      "example_sentence": "M'ba mi a kanyen Boké.",
-      "example_phonetic": "/m.ba mi a ka.ɲeŋ bo.ke/",
-      "example_translation": "Mon grand-père habite à Boké."
+      "word_id": "v5",
+      "term": "ɲ (ex. m-ɲaaŋ)",
+      "phonetic_api": "/ɲ/",
+      "phonetic_simple": "GN (comme 'agneau')",
+      "translation": "consonne nasale palatale",
+      "example_sentence": "mɲaaŋ",
+      "example_phonetic": "/mɲaːŋ/",
+      "example_translation": "mère (Seidel 2024)"
+    },
+    {
+      "word_id": "v6",
+      "term": "ʧ (ex. mceel via évolution)",
+      "phonetic_api": "/ʧ/",
+      "phonetic_simple": "TCH",
+      "translation": "affriquée sourde",
+      "example_sentence": "—",
+      "example_phonetic": "/ʧ/",
+      "example_translation": "son consonantique attesté dans l'inventaire phonologique (Seidel 2024), sans exemple lexical isolé disponible"
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p3_1",
-      "original": "A rila foti we?",
-      "phonetic_api": "/a ri.la fo.ti we/",
-      "phonetic_simple": "A RI-LA FO-TI WÉ",
-      "translation": "Comment dit-on cela ?",
-      "context": "Utile pour demander la prononciation correcte d'un terme inconnu."
+      "phrase_id": "p1",
+      "original": "kaθɔɔθ θata",
+      "phonetic_api": "/kaθɔːθ θata/",
+      "phonetic_simple": "KA-THÔÔTH THATA",
+      "translation": "Le sol est dur.",
+      "context": "Illustre la répétition du son θ, caractéristique du nalu (Seidel 2024)."
     },
     {
-      "phrase_id": "p3_2",
-      "original": "Foti ce, ina.",
-      "phonetic_api": "/fo.ti tʃe i.na/",
-      "phonetic_simple": "FO-TI TCHÉ I-NA",
-      "translation": "Prononce bien, s'il te plaît.",
-      "context": "Demande pédagogique adressée à un interlocuteur pour mieux capter les sons."
+      "phrase_id": "p2",
+      "original": "mθɔɔθ ciiŋkyɛ haaŋ",
+      "phonetic_api": "/mθɔːθ t͜siːŋkjɛ haːŋ/",
+      "phonetic_simple": "M-THÔÔTH TSIINGKYÈ HAANG",
+      "translation": "La terre était très belle.",
+      "context": "Exemple illustrant les voyelles longues et le groupe -ŋk-."
     },
     {
-      "phrase_id": "p3_3",
-      "original": "M n'gbe balang b'at.",
-      "phonetic_api": "/m ŋgbe ba.laŋ ɓat/",
-      "phonetic_simple": "M NG-BÉ BA-LANG BAT",
-      "translation": "J'ai fini de parler.",
-      "context": "Indique la fin d'une intervention orale ou d'une lecture de mots."
+      "phrase_id": "p_extra1",
+      "original": "n-gbank",
+      "phonetic_api": "/ŋɡ͜bank/",
+      "phonetic_simple": "GB (occlusive double)",
+      "translation": "pied (tableau comparatif Wiktionary/Fields 2001)",
+      "context": "Réemploi de l'exemple attesté pour le terme « gb (ex. m-gbank) » (voir vocabulaire de cette leçon), afin d'illustrer son usage en phrase."
+    },
+    {
+      "phrase_id": "p_extra2",
+      "original": "mθaay",
+      "phonetic_api": "/mθaːj/",
+      "phonetic_simple": "TH dur",
+      "translation": "femme, épouse (Seidel 2024)",
+      "context": "Réemploi de l'exemple attesté pour le terme « θ (ex. m-θaay) » (voir vocabulaire de cette leçon), afin d'illustrer son usage en phrase."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'allongement vocalique comme marqueur lexical",
-      "explanation": "Le nalu utilise l'allongement de la voyelle pour créer des paires minimales (deux mots distincts qui ne diffèrent que par un seul phonème). Le doublement orthographique d'une lettre implique une durée de prononciation accrue.",
+      "concept": "Inventaire phonologique",
+      "explanation": "D'après Seidel (2024), le nalu a 7 voyelles avec opposition de longueur, et un inventaire consonantique incluant les occlusives p b t d k g, l'occlusive double gb, l'affriquée ʧ (et un (ʤ) d'emprunt), les fricatives f θ s h, les glides w y, la liquide l, la vibrante r et les nasales m n ɲ ŋ.",
       "rules": [
-        "Les voyelles simples sont brèves et sèches.",
-        "Les voyelles doublées nécessitent de soutenir l'expiration de la voix de manière continue."
+        "Les groupes NC (nasale + consonne) sont fréquents, y compris en position finale : cend « descendre », m-yaaŋk « queue ».",
+        "La gémination existe : mmaa.bit « chien », bett « nous (inclusif) devrions »."
       ],
       "examples": [
         {
-          "structure": "Baa (Père)",
-          "phonetic_api": "/baː/",
-          "meaning": "Père (voyelle soutenue)"
-        },
+          "structure": "m-saŋta",
+          "phonetic_api": "/msaŋta/",
+          "meaning": "chaussure (exemple de groupe consonantique à la frontière syllabique, Seidel 2024)"
+        }
+      ]
+    },
+    {
+      "concept": "Le nalu n'est pas un simple dialecte du Landuma",
+      "explanation": "Bien que géographiquement proche du Landuma sur la côte guinéenne et parfois classé dans un ensemble large de langues atlantiques dites « Mel », le nalu forme en réalité, avec le Mbulungish (Baga Foré) et le Baga Mboteni, un groupe distinct (« Mbulungish-Nalu »). Les comparaisons lexicales (Fields 2001/2008) montrent des racines très différentes du Landuma pour le vocabulaire de base (ex. « un » : nalu d-endek vs landuma iin ; « eau » : nalu ngɔl vs landuma da-mun), alors que les ressemblances avec le Mbulungish sont plus nombreuses.",
+      "rules": [
+        "Ne pas présenter le nalu comme un dialecte du Landuma : c'est une langue distincte, à la classification interne débattue (Güldemann 2018 la considère même comme non classée au sein du Niger-Congo)."
+      ],
+      "examples": [
         {
-          "structure": "Ba (Venir)",
-          "phonetic_api": "/ba/",
-          "meaning": "Venir (voyelle brève)"
+          "structure": "d-endek (nalu) vs iin (landuma) « un »",
+          "phonetic_api": "/deːndek/ vs /iːn/",
+          "meaning": "comparaison lexicale illustrant la distance entre les deux langues"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Lamine",
-      "text": "Ina, a rila foti we: gbala?",
-      "phonetic_api": "/i.na a ri.la fo.ti we g͡ba.la/",
-      "phonetic_simple": "I-NA, A RI-LA FO-TI WÉ : GBA-LA ?",
-      "translation": "S'il te plaît, comment prononce-t-on cela : gbala ?"
+      "speaker": "Enseignant",
+      "text": "kaθɔɔθ θata",
+      "phonetic_api": "/kaθɔːθ θata/",
+      "phonetic_simple": "KA-THÔÔTH THATA",
+      "translation": "Le sol est dur."
     },
     {
-      "speaker": "Aissata",
-      "text": "Foti ce gbe /g͡ba.la/. A foti 'gb' gbe o mboye.",
-      "phonetic_api": "/fo.ti tʃe gbe g͡ba.la a fo.ti g͡b gbe o mbo.je/",
-      "phonetic_simple": "FO-TI TCHÉ GBÉ GBA-LA. A FO-TI 'GB' GBÉ O MBO-YÉ.",
-      "translation": "La bonne prononciation est /gbala/. Prononcer le 'gb' est important."
+      "speaker": "Élève",
+      "text": "mθɔɔθ ciiŋkyɛ haaŋ",
+      "phonetic_api": "/mθɔːθ t͜siːŋkjɛ haːŋ/",
+      "phonetic_simple": "M-THÔÔTH TSIINGKYÈ HAANG",
+      "translation": "La terre était très belle."
     },
     {
-      "speaker": "Lamine",
-      "text": "M n'gbe karang ce. Nu koka !",
-      "phonetic_api": "/m ŋgbe ka.raŋ tʃe nu ko.ka/",
-      "phonetic_simple": "M NG-BÉ KA-RANG TCHÉ. NOU KO-KA !",
-      "translation": "J'ai bien compris la leçon. Merci !"
+      "speaker": "Enseignant",
+      "text": "n-gbank",
+      "phonetic_api": "/ŋɡ͜bank/",
+      "phonetic_simple": "GB (occlusive double)",
+      "translation": "pied (tableau comparatif Wiktionary/Fields 2001)"
+    },
+    {
+      "speaker": "Élève",
+      "text": "mθaay",
+      "phonetic_api": "/mθaːj/",
+      "phonetic_simple": "TH dur",
+      "translation": "femme, épouse (Seidel 2024)"
     }
   ],
   "cultural_notes": [
-    "La transmission de la langue nalu s'est faite historiquement de manière orale. L'adoption d'un alphabet écrit standardisé utilise des symboles de l'Alphabet Africain de Référence (comme Ŋ et Ɛ) pour aider à préserver l'intégrité sonore de ce patrimoine guinéen face aux langues dominantes."
+    "Le nalu n'a pas d'orthographe officielle largement diffusée : la transcription utilisée dans les sources académiques (API/IPA) sert de référence, mais aucun alphabet pratique standardisé n'est mentionné comme adopté par la communauté (Seidel 2024).",
+    "La proximité géographique entre Nalu et Landuma (tous deux dans la région de Boké) explique une confusion fréquente entre les deux langues, alors qu'elles sont linguistiquement distinctes."
   ],
   "exercises": [
     {
-      "exercise_id": "ex3_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel son représente le symbole 'Ŋ' ?",
+      "question": "Le nalu forme-t-il un sous-groupe direct avec le Landuma selon les données lexicales comparées ?",
       "options": [
-        "Le son 'ch' comme dans chat",
-        "Le son 'ng' comme dans parking",
-        "Le son 'gn' comme dans gagner"
+        "Oui, ce sont des dialectes d'une même langue",
+        "Non, les racines de base diffèrent largement ; le nalu est plus proche du Mbulungish",
+        "Le Landuma est un emprunt récent au nalu"
       ],
-      "correct_answer": "Le son 'ng' comme dans parking",
-      "explanation": "Le caractère 'Ŋ' correspond à la nasale vélaire présente dans beaucoup de langues d'Afrique de l'Ouest."
+      "correct_answer": "Non, les racines de base diffèrent largement ; le nalu est plus proche du Mbulungish",
+      "explanation": "La comparaison des tables de vocabulaire de base (Fields 2001/2008) montre des racines distinctes entre nalu et landuma, alors que le nalu partage davantage avec le Mbulungish (Baga Foré)."
     },
     {
-      "exercise_id": "ex3_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Le mot pour dire table se prononce avec un son co-articulé initial : [ ___ ]atale.",
-      "correct_answer": "kpatale",
-      "hint": "Commence par le groupe consonantique K-P fusionné"
+      "sentence_with_blank": "Le son [ ___ ] est une occlusive labio-vélaire double absente du français, illustrée dans « n-gbank » (pied).",
+      "correct_answer": "gb",
+      "hint": "Deux lettres combinées représentant un seul son occlusif complexe."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Seidel, F. (2024) « Nalu », in The Oxford Guide to the Atlantic Languages of West Africa, Oxford University Press",
+      "url": "https://academic.oup.com/book/59850/chapter/511378992"
+    },
+    {
+      "label": "Wiktionary, « Appendix:Word lists of Atlantic languages of Guinea » (d'après Fields 2001, 2008)",
+      "url": "https://en.wiktionary.org/wiki/Appendix:Word_lists_of_Atlantic_languages_of_Guinea"
+    },
+    {
+      "label": "Creissels, D. « Noun class systems in Atlantic languages »",
+      "url": "http://www.deniscreissels.fr/public/Creissels-noun_classes_Atl.pdf"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "L'inventaire phonologique est bien documenté par Seidel (2024) ; en revanche, aucune orthographe pratique standardisée n'est attestée, et les transcriptions restent celles de l'API utilisée en linguistique académique."
 }

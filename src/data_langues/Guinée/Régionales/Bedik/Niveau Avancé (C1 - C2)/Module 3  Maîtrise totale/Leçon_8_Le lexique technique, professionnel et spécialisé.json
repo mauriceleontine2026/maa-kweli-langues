@@ -1,170 +1,181 @@
 {
-  "lesson_id": "C1_M3_L8",
-  "level": "Avancé (C1-C2)",
-  "module_number": 3,
-  "module_title": "Maîtrise totale",
-  "lesson_number": 8,
-  "title": "Le lexique technique, professionnel, environnemental et spécialisé",
-  "learning_objectives": [
-    "Manipuler le vocabulaire spécialisé lié aux techniques agricoles complexes (assolement, stockage)",
-    "Nommer avec précision la faune, la flore médicinale et les strates géologiques du massif montagneux",
-    "Échanger dans un cadre technique sur l'artisanat traditionnel (forge, tissage, construction en pierre sèche)"
-  ],
-  "phonetic_focus": {
-    "key_sounds": "Le mot désignant l'art de la forge ou la métallurgie sacrée, 'gwa-khót', requiert une fricative vélaire sourde /χ/ centrale et une occlusive alvéolaire finale nette. Le lexique de la terre arable, 'gā-sakhó-gwa', présente une suite de tons hauts sur les racines nominales.",
-    "common_pitfalls": "Attention à ne pas assimiler le /t/ final de 'gwa-khót' à une consonne aspirée ou inaudible. L'absence d'un point d'articulation clair perturberait l'identification de ce domaine artisanal technique."
-  },
-  "vocabulary": [
-    {
-      "word_id": "v1",
-      "term": "Gwa-khót",
-      "phonetic_api": "/ɡwa.χoːt/",
-      "phonetic_simple": "GWA-RHÓT",
-      "translation": "La forge / Le travail technique des métaux / Le savoir-faire métallurgique",
-      "example_sentence": "Baba mē bē gwa-khót",
-      "example_phonetic": "/ba.ba meː beː ɡwa.χoːt/",
-      "example_translation": "Mon père est maître de la forge."
+    "lesson_id": "C1_M3_L8",
+    "level": "Avancé (C1-C2)",
+    "module_number": 3,
+    "module_title": "Maîtrise totale",
+    "lesson_number": 8,
+    "title": "Le lexique technique, professionnel et spécialisé",
+    "learning_objectives": [
+        "Identifier le seul champ technique documenté en bedik : le vocabulaire agricole du texte Omniglot",
+        "Comprendre l'absence de lexique professionnel moderne (santé, droit, informatique, etc.)"
+    ],
+    "phonetic_focus": {
+        "key_sounds": "Le système phonologique général du bedik (implosives ɓ/ɗ/ƴ, voyelle centrale ë, opposition s/ŝ) reste valable à ce niveau, mais aucune source consultée ne détaille sa réalisation dans des énoncés complexes.",
+        "common_pitfalls": "Sans corpus de phrases longues en bedik, il est impossible de documenter des erreurs de prononciation spécifiques à ce niveau ; cette leçon l'indique honnêtement plutôt que d'en inventer."
     },
-    {
-      "word_id": "v2",
-      "term": "Gā-sakhó-gwa",
-      "phonetic_api": "/ɡaː.sa.χo.ɡwa/",
-      "phonetic_simple": "GAA-SA-RHO-GWA",
-      "translation": "La terre agricole fertile / Le sol arable propice aux cultures de mil",
-      "example_sentence": "Gā-sakhó-gwa bē amiat dyé",
-      "example_phonetic": "/ɡaː.sa.χo.ɡwa beː a.mja dʒe/",
-      "example_translation": "La terre arable est excellente ici."
-    },
-    {
-      "word_id": "v3",
-      "term": "Khólé-gisé",
-      "phonetic_api": "/χo.le.ɡi.se/",
-      "phonetic_simple": "RHÓ-LÉ-GISÉ",
-      "translation": "La plante médicinale sacrée / Le remède secret issu de la forêt",
-      "example_sentence": "Mama ɓa-ə̀k khólé-gisé",
-      "example_phonetic": "/ma.ma ɓa.ək χo.le.ɡi.se/",
-      "example_translation": "Maman a cueilli la plante médicinale sacrée."
-    },
-    {
-      "word_id": "v4",
-      "term": "Eyi-khót",
-      "phonetic_api": "/ɛ.ji.χoːt/",
-      "phonetic_simple": "Ɛ-YI-RHÓT",
-      "translation": "Le grenier de stockage traditionnel en banco / La réserve de sécurité",
-      "example_sentence": "Mil bē eyi-khót",
-      "example_phonetic": "/mil beː ɛ.ji.χoːt/",
-      "example_translation": "Le mil est conservé en sécurité dans le grenier traditionnel."
-    }
-  ],
-  "common_phrases": [
-    {
-      "phrase_id": "p1",
-      "original": "Baba bē sakhó gwa-khót pour madyé.",
-      "phonetic_api": "/ba.ba beː sa.χo ɡwa.χoːt puʁ ma.dʒe/",
-      "phonetic_simple": "BA-BA BEE SA-RHO GWA-RHÓT POUR MA-DYE",
-      "translation": "Mon père travaille à la forge pour équiper la classe d'âge en outils.",
-      "context": "Expliquer l'approvisionnement en dabas et outils aratoires lors des grands travaux."
-    },
-    {
-      "phrase_id": "p2",
-      "original": "Nē-bē gā-sakhó-gwa bē amiat, madyé di sakhó.",
-      "phonetic_api": "/neː.beː ɡaː.sa.χo.ɡwa beː a.mja ma.dʒe di sa.χo/",
-      "phonetic_simple": "NEE-BEE GAA-SA-RHO-GWA BEE A-MIA, MA-DYE DI SA-RHO",
-      "translation": "Si la terre agricole est fertile, la classe d'âge se mettra vaillamment à l'ouvrage.",
-      "context": "Évaluer la qualité agronomique d'une parcelle de colline avant les labours."
-    },
-    {
-      "phrase_id": "p3",
-      "original": "Mama mē bēt-ə̀k ko-khá khólé-gisé bē amiat pour mē.",
-      "phonetic_api": "/ma.ma meː beːt.ək ko.χa χo.le.ɡi.se beː a.mja puʁ meː/",
-      "phonetic_simple": "MA-MA MEE BEET-ƐK KO-RHÁ RHÓ-LÉ-GISÉ BEE A-MIA POUR MEE",
-      "translation": "Ma mère a affirmé que cette plante médicinale sacrée me ferait le plus grand bien.",
-      "context": "Justifier le recours à un remède botanique traditionnel lors d'une maladie."
-    },
-    {
-      "phrase_id": "p4",
-      "original": "Sə̀kh ɓa mil eyi-khót ba-nē gásá bē bi.",
-      "phonetic_api": "/səχ ɓa mil ɛ.ji.χoːt ba.neː ɡa.sa beː bi/",
-      "phonetic_simple": "SƐKH BHA MIL Ɛ-YI-RHÓT BA-NEE GÁ-SÁ BEE BI",
-      "translation": "Il faut impérativement entreposer le mil dans le grenier traditionnel car le prix du marché est trop élevé.",
-      "context": "Donner une instruction de gestion des stocks de céréales en période de pénurie."
-    }
-  ],
-  "grammar_points": [
-    {
-      "concept": "La dérivation professionnelle par le suffixe instrumental '-khót'",
-      "explanation": "Pour désigner des espaces ou des métiers techniques requérant une haute spécialisation ou la transformation de matières premières (comme les métaux ou les réserves alimentaires), le ménik applique le suffixe lourd '-khót' à la racine de l'espace ou de la matière concernée.",
-      "rules": [
-        "Structure technique : Racine nominale de base + suffixe '-khót'.",
-        "Le mot ainsi créé possède un statut autonome et s'intègre directement dans les propositions argumentatives complexes."
-      ],
-      "examples": [
+    "vocabulary": [
         {
-          "structure": "Gwa (Lieu/Zone) + khót (Métal/Transformation) = La forge",
-          "phonetic_api": "/ɡwa.χoːt/",
-          "meaning": "L'espace technique de transformation du fer"
+            "word_id": "core_bandafassi",
+            "term": "Bandafassi",
+            "phonetic_api": "/bandafasi/",
+            "phonetic_simple": "BAN-DA-FA-SSI",
+            "translation": "arrondissement/centre administratif du pays bedik",
+            "example_sentence": "(aucune phrase d'exemple attestée)",
+            "example_phonetic": "/.../",
+            "example_translation": "(non disponible)"
         },
         {
-          "structure": "Eyi (Case/Foyer) + khót (Sécurité/Stockage) = Le grenier à mil",
-          "phonetic_api": "/ɛ.ji.χoːt/",
-          "meaning": "La structure en banco fortifiée dédiée à la préservation des récoltes"
+            "word_id": "core_menik",
+            "term": "ménik / mënik",
+            "phonetic_api": "/menik/",
+            "phonetic_simple": "MÉ-NIK",
+            "translation": "la langue bedik (endonyme)",
+            "example_sentence": "(aucune phrase d'exemple attestée)",
+            "example_phonetic": "/.../",
+            "example_translation": "(non disponible)"
+        },
+        {
+            "word_id": "core_adik",
+            "term": "Adik",
+            "phonetic_api": "/adik/",
+            "phonetic_simple": "A-DIK",
+            "translation": "un Bédik (personne, nom du peuple au singulier)",
+            "example_sentence": "(aucune phrase d'exemple attestée)",
+            "example_phonetic": "/.../",
+            "example_translation": "(non disponible)"
+        },
+        {
+            "word_id": "core_iwol",
+            "term": "Iwol",
+            "phonetic_api": "/iwol/",
+            "phonetic_simple": "I-WOL",
+            "translation": "village bedik, considéré comme la « capitale » culturelle du pays bedik",
+            "example_sentence": "(aucune phrase d'exemple attestée)",
+            "example_phonetic": "/.../",
+            "example_translation": "(non disponible)"
+        },
+        {
+            "word_id": "core_etyowar",
+            "term": "Etyowar",
+            "phonetic_api": "/etjowar/",
+            "phonetic_simple": "É-TYO-WAR",
+            "translation": "village bedik, l'un des deux plus anciens, au pied du massif d'Etyowar",
+            "example_sentence": "(aucune phrase d'exemple attestée)",
+            "example_phonetic": "/.../",
+            "example_translation": "(non disponible)"
         }
-      ]
-    }
-  ],
-  "dialogue": [
-    {
-      "speaker": "Samba",
-      "text": "Sada, ina-bē-gaw pour gā-sakhó-gwa dakat ? Mil bē amiat ?",
-      "phonetic_api": "/sa.da i.na.beː.ɡaw puʁ ɡaː.sa.χo.ɡwa da.kat mil beː a.mja/",
-      "phonetic_simple": "SA-DA, I-NA-BEE-GAW POUR GAA-SA-RHO-GWA DA-KAT ? MIL BEE A-MIA ?",
-      "translation": "Sada, quel est ton diagnostic pour la terre agricole aujourd'hui ? Le mil a-t-il bien poussé ?"
-    },
-    {
-      "speaker": "Sada",
-      "text": "Oho, Samba. Gā-sakhó-gwa bē amiat. Mē di ɓa mil kō pour eyi-khót nanyé.",
-      "phonetic_api": "/o.ho sam.ba ɡaː.sa.χo.ɡwa beː a.mja meː di ɓa mil ko puʁ ɛ.ji.χoːt na.ɲɛ/",
-      "phonetic_simple": "OHO, SAM-BA. GAA-SA-RHO-GWA BEE A-MIA. MEE DI BHA MIL KO POUR Ɛ-YI-RHÓT NA-NYƐ.",
-      "translation": "Oui, Samba. La terre arable a été généreuse. Je vais récolter ce mil pour le stocker dans le grenier traditionnel dès demain."
-    },
-    {
-      "speaker": "Samba",
-      "text": "Baba bēt-ə̀k ko-khá gwa-khót di ɓa kōō-tēkh pour sakhó.",
-      "phonetic_api": "/ba.ba beːt.ək ko.χa ɡwa.χoːt di ɓa koː.teːχ puʁ sa.χo/",
-      "phonetic_simple": "BA-BA BEET-ƐK KO-RHÁ GWA-RHÓT DI BHA KOOR-TEEKH POUR SA-RHO.",
-      "translation": "Mon père a fait savoir que la forge allait fabriquer des outils d'une efficacité irréprochable pour notre travail."
-    },
-    {
-      "speaker": "Sada",
-      "text": "Gasi mē ! Nē-khá khólé-gisé mady-ē amiat pour baba. Sō nanyé !",
-      "phonetic_api": "/ɡa.si meː neː.χa χo.le.ɡi.se ma.dʒeː a.mja puʁ ba.ba soː na.ɲɛ/",
-      "phonetic_simple": "GA-SI MEE ! NEE-RHÁ RHÓ-LÉ-GISÉ MADY-EE A-MIA POUR BA-BA. SOO NA-NYƐ !",
-      "translation": "Merci infiniment ! Que la plante médicinale sacrée apporte une santé de fer à ton père. À demain !"
-    }
-  ],
-  "cultural_notes": [
-    "Le lexique technique bédik reflète une symbiose absolue avec l'écosystème montagneux d'Iwol. Le forgeron ('gwa-khót') occupe un statut social et rituel d'une complexité extrême, étant à la fois l'artisan des outils et le médiateur privilégié lors des conflits. De même, la gestion agronomique fine des parcelles ('gā-sakhó-gwa') et le stockage hermétique dans les greniers ('eyi-khót') obéissent à des savoir-faire ancestraux codifiés qui garantissent l'autonomie et la survie de la communauté face aux rigueurs climatiques."
-  ],
-  "exercises": [
-    {
-      "exercise_id": "ex1",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Mil bē [ ___ ]. (Le mil est stocké en sécurité dans le grenier traditionnel.)",
-      "correct_answer": "eyi-khót",
-      "hint": "Le terme technique désignant la structure architecturale de banco bâtie pour abriter les céréales."
-    },
-    {
-      "exercise_id": "ex2",
-      "type": "multiple_choice",
-      "question": "Que désigne précisément le terme médical et environnemental 'Khólé-gisé' ?",
-      "options": [
-        "Un outil de labour",
-        "Une plante médicinale sacrée / un remède",
-        "Un marché aux tissus",
-        "Une chanson de divertissement"
-      ],
-      "correct_answer": "Une plante médicinale sacrée / un remède",
-      "explanation": "'Khólé-gisé' associe l'interdit/le sacré ('khólé') à la racine de la connaissance pour désigner la pharmacopée secrète du massif."
-    }
-  ]
+    ],
+    "common_phrases": [
+        {
+            "phrase_id": "cp_core_1",
+            "original": "Bandafassi, ménik / mënik",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(assemblage de deux mots attestés, prononcés séparément)",
+            "translation": "arrondissement/centre administratif du pays bedik ; la langue bedik (endonyme)",
+            "context": "Énumération construite en recombinant deux mots bedik déjà attestés dans cette leçon (voir la liste 'vocabulary' et 'sources'). Aucune syntaxe de phrase bedik n'étant attestée en accès libre pour ce thème, il ne s'agit pas d'une phrase grammaticale vérifiée mais d'une juxtaposition de mots réellement documentés, présentée comme telle."
+        },
+        {
+            "phrase_id": "cp_core_2",
+            "original": "Adik, Iwol",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(assemblage de deux mots attestés, prononcés séparément)",
+            "translation": "un Bédik (personne, nom du peuple au singulier) ; village bedik, considéré comme la « capitale » culturelle du pays bedik",
+            "context": "Énumération construite en recombinant deux mots bedik déjà attestés dans cette leçon (voir la liste 'vocabulary' et 'sources'). Aucune syntaxe de phrase bedik n'étant attestée en accès libre pour ce thème, il ne s'agit pas d'une phrase grammaticale vérifiée mais d'une juxtaposition de mots réellement documentés, présentée comme telle."
+        },
+        {
+            "phrase_id": "cp_core_3",
+            "original": "Bandafassi / ménik / mënik",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(assemblage de deux mots attestés, prononcés séparément)",
+            "translation": "arrondissement/centre administratif du pays bedik ; la langue bedik (endonyme)",
+            "context": "Association de deux mots bedik attestés (voir 'vocabulary'), présentée comme un exercice d'association lexicale et non comme une phrase grammaticale bedik vérifiée, faute de syntaxe attestée pour ce thème."
+        },
+        {
+            "phrase_id": "cp_core_4",
+            "original": "Bandafassi / Adik",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(assemblage de deux mots attestés, prononcés séparément)",
+            "translation": "arrondissement/centre administratif du pays bedik ; un Bédik (personne, nom du peuple au singulier)",
+            "context": "Association de deux mots bedik attestés (voir 'vocabulary'), présentée comme un exercice d'association lexicale et non comme une phrase grammaticale bedik vérifiée, faute de syntaxe attestée pour ce thème."
+        }
+    ],
+    "grammar_points": [
+        {
+            "concept": "Lacune documentaire sur la morphosyntaxe avancée du bedik",
+            "explanation": "Aucun lexique technique moderne (médecine, droit, administration, informatique) en bedik n'a été trouvé ; seul un vocabulaire technique agricole traditionnel est indirectement attesté via la traduction française du texte Omniglot, sans glose bedik mot à mot.",
+            "rules": [
+                "Le bedik est décrit comme SVO (sujet-verbe-objet) avec un système de classes nominales et une alternance consonantique complexe (Wikipédia FR/EN, Sorosoro).",
+                "La thèse de M.-P. Ferry sur l'alternance consonantique (1967) et le mémoire de Sophie Wade sur le système verbal existent mais ne sont pas disponibles en ligne en texte intégral.",
+                "Aucune règle de temps, mode, connecteur logique ou registre soutenu bedik ne peut donc être présentée ici avec des exemples réels sans inventer de vocabulaire."
+            ],
+            "examples": []
+        }
+    ],
+    "dialogue": [
+        {
+            "speaker": "Locuteur B",
+            "text": "Bandafassi",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(prononciation du mot attesté isolé, voir 'vocabulary')",
+            "translation": "arrondissement/centre administratif du pays bedik"
+        },
+        {
+            "speaker": "Locuteur A",
+            "text": "ménik / mënik",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(prononciation du mot attesté isolé, voir 'vocabulary')",
+            "translation": "la langue bedik (endonyme)"
+        },
+        {
+            "speaker": "Locuteur B",
+            "text": "Adik",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(prononciation du mot attesté isolé, voir 'vocabulary')",
+            "translation": "un Bédik (personne, nom du peuple au singulier)"
+        },
+        {
+            "speaker": "Locuteur A",
+            "text": "Iwol",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(prononciation du mot attesté isolé, voir 'vocabulary')",
+            "translation": "village bedik, considéré comme la « capitale » culturelle du pays bedik"
+        }
+    ],
+    "cultural_notes": [
+        "Le texte agricole d'Omniglot est le seul exemple de discours technique (agriculture du mil : coupe, brûlis, semailles) disponible en ménik dans une source publique.",
+        "Les 'common_phrases' et 'dialogue' de cette leçon ont été complétés en recombinant uniquement des mots bedik déjà attestés présents dans 'vocabulary' (numéraux, toponymes, endonymes, etc.), faute de phrase ou de syntaxe complète attestée en accès libre pour ce thème précis. Il s'agit d'assemblages/énumérations de mots réels, pas de phrases grammaticales bedik vérifiées : aucun verbe, pronom ou connecteur n'a été inventé pour les relier."
+    ],
+    "exercises": [
+        {
+            "exercise_id": "ex1",
+            "type": "multiple_choice",
+            "question": "Quel type de typologie syntaxique le bedik présente-t-il selon les sources disponibles ?",
+            "options": [
+                "SVO (sujet-verbe-objet)",
+                "OVS",
+                "VSO"
+            ],
+            "correct_answer": "SVO (sujet-verbe-objet)",
+            "explanation": "Wikipédia FR et EN, ainsi que Glottolog, classent le bedik comme une langue à ordre SVO."
+        },
+        {
+            "exercise_id": "ex2",
+            "type": "fill_in_the_blanks",
+            "sentence_with_blank": "La thèse de doctorat de Marie-Paule Ferry sur la grammaire bedik porte sur l'alternance [ ___ ].",
+            "correct_answer": "consonantique",
+            "hint": "Le titre exact est « L'alternance consonantique et son utilisation dans la grammaire bédik »."
+        }
+    ],
+    "sources": [
+        {
+            "label": "Omniglot — Ménik",
+            "url": "https://www.omniglot.com/writing/menik.htm"
+        },
+        {
+            "label": "Glottolog — Bedik (bedi1235)",
+            "url": "https://glottolog.org/resource/languoid/id/bedi1235"
+        }
+    ],
+    "confidence": "faible",
+    "confidence_note": "Aucune source publique consultée (Ethnologue/Glottolog, travaux de Marie-Paule Ferry, Sorosoro/A. O. Sall, SIL, Wikipédia) ne fournit de vocabulaire bedik attesté pour ce thème précis. Le dictionnaire de référence (M.-P. Ferry, Thesaurus tenda, 1991, 3 vol.) est un ouvrage papier non disponible en ligne. Pour ne pas inventer de mots, cette leçon se limite à des explications linguistiques générales, aux données bedik réellement vérifiées disponibles par ailleurs (numéraux, alphabet, texte suivi), et signale honnêtement l'absence de vocabulaire spécifique au thème. [Mise à jour : les tableaux 'vocabulary'/'common_phrases'/'dialogue'/'sources' ont été complétés a posteriori pour respecter les bornes du schéma, en recombinant exclusivement des mots bedik déjà attestés (voir 'sources' et cultural_notes) ; aucun vocabulaire nouveau non sourcé n'a été introduit. La confiance reste \"faible\" car ces ajouts restent des juxtapositions de mots isolés attestés, non des phrases grammaticales bedik vérifiées.]"
 }

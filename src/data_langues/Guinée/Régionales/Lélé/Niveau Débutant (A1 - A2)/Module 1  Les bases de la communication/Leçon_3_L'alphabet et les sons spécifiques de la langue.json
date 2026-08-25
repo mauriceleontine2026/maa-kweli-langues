@@ -6,207 +6,209 @@
   "lesson_number": 3,
   "title": "L'alphabet et les sons spécifiques de la langue",
   "learning_objectives": [
-    "Identifier les caractères de l'alphabet utilisés pour transcrire le lélé",
-    "Prononcer correctement les consonnes co-articulées complexes gb et kp",
-    "Distinguer les voyelles orales des voyelles nasales"
+    "Identifier les sept voyelles du lélé",
+    "Reconnaître les deux tons distinctifs",
+    "Repérer les variations consonantiques dialectales (j/y, kp/gb)"
   ],
   "phonetic_focus": {
-    "key_sounds": "Le lélé utilise l'alphabet latin enrichi de symboles phonétiques standardisés. Les lettres clés incluent 'ɛ' [ɛ], 'ɔ' [ɔ], et la consonne nasale vélaire 'ŋ' [ŋ] (comme le 'ng' du mot anglais 'sing'). Les digraphes 'gb' [ɡ͡b] et 'kp' [k͡p] représentent des sons produits en articulant simultanément deux points de contact dans la bouche.",
-    "common_pitfalls": "Ne séparez jamais le 'g' et le 'b' dans 'gb'. Ce n'est pas deux sons distincts, mais un seul bloc articulé en même temps. Veillez aussi à ne pas omettre la nasalisation des voyelles surmontées d'un tilde (~) ou suivies d'un 'n' de fermeture."
+    "key_sounds": "Sept voyelles orales, deux tons distinctifs, consonnes implosives b/d, alternance kp/gb selon le dialecte.",
+    "common_pitfalls": "Les francophones négligent souvent les tons et les consonnes implosives, qui sont pourtant distinctifs en lélé."
   },
   "vocabulary": [
     {
       "word_id": "v1",
-      "term": "Gbe",
-      "phonetic_api": "/ɡ͡be/",
-      "phonetic_simple": "GBE",
-      "translation": "Voix / Langue / Clarté",
-      "example_sentence": "Lélé gbe mu fisa di.",
-      "example_phonetic": "/le.le ɡ͡be mu fi.sa di/",
-      "example_translation": "La langue lélé est belle."
+      "term": "jí",
+      "phonetic_api": "/jí/",
+      "phonetic_simple": "DJI",
+      "translation": "eau (variante : yí)",
+      "example_sentence": "jí",
+      "example_phonetic": "/jí/",
+      "example_translation": "eau (variante : yí)"
     },
     {
       "word_id": "v2",
-      "term": "Kpɛlɛ",
-      "phonetic_api": "/k͡pɛ.lɛ/",
-      "phonetic_simple": "KPÈ-LÈ",
-      "translation": "Tout / Totalité",
-      "example_sentence": "Mɔ kpɛlɛ bɛ ya.",
-      "example_phonetic": "/mɔ k͡pɛ.lɛ bɛ ja/",
-      "example_translation": "Tout le monde est ici."
+      "term": "kìn",
+      "phonetic_api": "/kìn/",
+      "phonetic_simple": "KIN",
+      "translation": "pied, jambe (réalisé [kìŋ ~ kìɲ] devant pause)",
+      "example_sentence": "kìn",
+      "example_phonetic": "/kìn/",
+      "example_translation": "pied, jambe (réalisé [kìŋ ~ kìɲ] devant pause)"
     },
     {
       "word_id": "v3",
-      "term": "Ŋwãn",
-      "phonetic_api": "/ŋwã/",
-      "phonetic_simple": "NGWÂN",
-      "translation": "Femme / Épouse",
-      "example_sentence": "Ŋwãn mɛnɛ kɔ.",
-      "example_phonetic": "/ŋwã mɛ.nɛ kɔ/",
-      "example_translation": "Bonjour la femme."
+      "term": "kɛ̀",
+      "phonetic_api": "/kɛ̀/",
+      "phonetic_simple": "KÈ",
+      "translation": "ce, cela (variante : cɛ̀)",
+      "example_sentence": "kɛ̀",
+      "example_phonetic": "/kɛ̀/",
+      "example_translation": "ce, cela (variante : cɛ̀)"
     },
     {
       "word_id": "v4",
-      "term": "Nyĩ",
-      "phonetic_api": "/ɲĩ/",
-      "phonetic_simple": "NYÎN",
-      "translation": "Dent",
-      "example_sentence": "Nyĩ mu gbɛ di.",
-      "example_phonetic": "/ɲĩ mu ɡ͡bɛ di/",
-      "example_translation": "La dent est blanche."
+      "term": "nɛ̀ɛ",
+      "phonetic_api": "/nɛ̀ɛ/",
+      "phonetic_simple": "NÈ-È",
+      "translation": "fer",
+      "example_sentence": "nɛ̀ɛ",
+      "example_phonetic": "/nɛ̀ɛ/",
+      "example_translation": "fer"
     },
     {
       "word_id": "v5",
-      "term": "Suu",
-      "phonetic_api": "/suː/",
-      "phonetic_simple": "SOUU",
-      "translation": "Nuit",
-      "example_sentence": "Suu bɛ fisa.",
-      "example_phonetic": "/suː bɛ fi.sa/",
-      "example_translation": "La nuit est douce."
+      "term": "sí",
+      "phonetic_api": "/sí/",
+      "phonetic_simple": "SI",
+      "translation": "poil",
+      "example_sentence": "sí",
+      "example_phonetic": "/sí/",
+      "example_translation": "poil"
     }
   ],
   "common_phrases": [
     {
       "phrase_id": "p1",
-      "original": "A fɔ lélé gbe ya.",
-      "phonetic_api": "/a fɔ le.le ɡ͡be ja/",
-      "phonetic_simple": "A FƆ LÉ-LÉ GBE YA.",
-      "translation": "Dis-le en langue lélé.",
-      "context": "Consigne pédagogique ou demande d'aide pour traduire un terme."
+      "original": "Ń fɔ́n.",
+      "phonetic_api": "/ń fɔ́n/",
+      "phonetic_simple": "Ń FƆ́N.",
+      "translation": "C'est moi.",
+      "context": "Exemple illustrant : présentatif."
     },
     {
       "phrase_id": "p2",
-      "original": "N tō bɛ le.",
-      "phonetic_api": "/ɲ toː bɛ le/",
-      "phonetic_simple": "N TOO BÈ LÉ.",
-      "translation": "Mon oreille écoute (J'entends bien).",
-      "context": "Confirmer que l'on comprend les sons ou la prononciation."
+      "original": "Túngbɛɛ fɔ́n.",
+      "phonetic_api": "/túngbɛ̀ɛ fɔ́n/",
+      "phonetic_simple": "TÚNGBƐƐ FƆ́N.",
+      "translation": "C'est un bâton.",
+      "context": "Exemple illustrant : présentatif."
     },
     {
       "phrase_id": "p3",
-      "original": "I gbe bɛ bɔ kɔ.",
-      "phonetic_api": "/i ɡ͡be bɛ bɔ kɔ/",
-      "phonetic_simple": "I GBE BÈ BƆ KƆ.",
-      "translation": "Ta voix sort bien (Tu prononces bien).",
-      "context": "Féliciter un interlocuteur pour sa diction claire."
+      "original": "Cɛ̀ mɔ̀ ń tá và là.",
+      "phonetic_api": "/cɛ̀ mɔ̀ ń tá và là/",
+      "phonetic_simple": "CƐ̀ MƆ̀ Ń TÁ VÀ LÀ.",
+      "translation": "C'est à moi, c'est ma propriété.",
+      "context": "Exemple illustrant : équatif."
     },
     {
       "phrase_id": "p4",
-      "original": "Kpɛlɛ mu fisa di.",
-      "phonetic_api": "/k͡pɛ.lɛ mu fi.sa di/",
-      "phonetic_simple": "KPÈ-LÈ MOU FI-SA DI.",
-      "translation": "Tout est parfait / Tout est bon.",
-      "context": "Valider globalement une situation ou une prononciation."
-    },
-    {
-      "phrase_id": "p5",
-      "original": "N mɔn bɛ lélé gbe fɔ.",
-      "phonetic_api": "/ɲ mɔn bɛ le.le ɡ͡be fɔ/",
-      "phonetic_simple": "N MƆN BÈ LÉ-LÉ GBE FƆ.",
-      "translation": "Je sais parler la langue lélé.",
-      "context": "Affirmer ses compétences linguistiques de base."
-    },
-    {
-      "phrase_id": "p6",
-      "original": "A fɔ dɔɔni dɔɔni kɔ.",
-      "phonetic_api": "/a fɔ dɔː.ni dɔː.ni kɔ/",
-      "phonetic_simple": "A FƆ DƆƆ-NI DƆƆ-NI KƆ.",
-      "translation": "Parle doucement, s'il te plaît.",
-      "context": "Demander de ralentir le débit de parole pour mieux analyser les sons."
-    },
-    {
-      "phrase_id": "p7",
-      "original": "Karamɔɔ, a fɔ tũ kɔ.",
-      "phonetic_api": "/ka.ra.mɔː a fɔ tũ kɔ/",
-      "phonetic_simple": "KA-RA-MƆƆ, A FƆ TOÛN KƆ.",
-      "translation": "Maître, répète encore s'il te plaît.",
-      "context": "Formule de classe pour réentendre un mot complexe."
-    },
-    {
-      "phrase_id": "p8",
-      "original": "Gbe fisa bɛ ya.",
-      "phonetic_api": "/ɡ͡be fi.sa bɛ ja/",
-      "phonetic_simple": "GBE FI-SA BÈ YA.",
-      "translation": "Il y a une bonne ambiance ici.",
-      "context": "Commenter positivement l'environnement ou les échanges sonores."
+      "original": "Yɔ́ mɔ̀ à là súri là?",
+      "phonetic_api": "/yɔ́ mɔ̀ à là súri là/",
+      "phonetic_simple": "YƆ́ MƆ̀ À LÀ SÚRI LÀ?",
+      "translation": "Qui est son mari ?",
+      "context": "Exemple illustrant : question équative."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'importance des voyelles longues et des nasalisations",
-      "explanation": "En lélé, la longueur d'une voyelle change radicalement le sens d'un radical lexical. Une voyelle simple est brève, alors qu'une voyelle doublée s'allonge dans le temps. De même, la présence d'une résonance nasale crée de nouvelles distinctions de vocabulaire.",
+      "concept": "Système vocalique et tonal",
+      "explanation": "Le lélé comporte sept voyelles orales (i, e, ɛ, a, ɔ, o, u), pas de voyelles nasales phonématiques attestées dans le lélé du nord (les nasales apparaissent comme séquences -VN), et deux registres tonals (haut/bas) avec un phénomène de déclinaison tonale progressive.",
       "rules": [
-        "Les voyelles doublées (aa, ee, ɛɛ, ii, oo, ɔɔ, uu) marquent un allongement phonologique indispensable.",
-        "Le tilde ou la présence d'un 'n' en fin de syllabe nasalisent le flux d'air à travers le nez.",
-        "Les consonnes gb et kp agissent comme des phonèmes uniques indivisibles en début de mot."
+        "7 voyelles : i, e, ɛ, a, ɔ, o, u",
+        "Les voyelles longues résultent souvent de la chute historique d'une consonne intervocalique (ex. kìnɔɔ « dormir » < *kìnɔgɔ)",
+        "Deux tons distinctifs : haut et bas, notés respectivement avec accent aigu (á) et grave (à)",
+        "Le ton peut seul distinguer deux mots par ailleurs identiques (ń « je » vs ǹ « nous »)"
       ],
       "examples": [
         {
-          "structure": "su",
-          "phonetic_api": "/su/",
-          "meaning": "piler / écraser"
+          "structure": "kìnɔɔ",
+          "phonetic_api": "/kìnɔ́ɔ/",
+          "meaning": "dormir"
         },
         {
-          "structure": "suu",
-          "phonetic_api": "/suː/",
-          "meaning": "la nuit"
+          "structure": "nɛ̀ɛ",
+          "phonetic_api": "/nɛ̀ɛ/",
+          "meaning": "fer"
+        }
+      ]
+    },
+    {
+      "concept": "Consonnes particulières",
+      "explanation": "Certaines consonnes ont des réalisations variables selon le locuteur et le dialecte.",
+      "rules": [
+        "b et d sont le plus souvent réalisés comme implosifs [ɓ], [ɗ]",
+        "kp et gb sont des variantes libres/dialectales (Hélène Tounkara utilise plutôt gb, Fayida Koroma et Sory Doumbouya plutôt kp)",
+        "j alterne librement avec y (jí ~ yí « eau »)",
+        "[c] est une variante de /k/ devant voyelle antérieure ([kɛ̀] ~ [cɛ̀] « ce »)"
+      ],
+      "examples": [
+        {
+          "structure": "jí ~ yí",
+          "phonetic_api": "/jí/, /yí/",
+          "meaning": "eau"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Karamɔɔ",
-      "text": "Mɛnɛ kɔ, a fɔ 'gbe' kɔ.",
-      "phonetic_api": "/mɛ.nɛ kɔ a fɔ ɡ͡be kɔ/",
-      "phonetic_simple": "MÈ-NÈ KƆ, A FƆ 'GBE' KƆ.",
-      "translation": "Bonjour, dis le mot 'gbe' s'il te plaît."
+      "speaker": "Professeur",
+      "text": "Í yé jí fɔ́ kámà?",
+      "phonetic_api": "/í yé jí fɔ́ kámà/",
+      "phonetic_simple": "I YÉ DJI FO KA-MA",
+      "translation": "Comment dis-tu « eau » ?"
     },
     {
-      "speaker": "Karan-deng",
-      "text": "Gbe. N bɛ lélé gbe fɔ dɔɔni dɔɔni.",
-      "phonetic_api": "/ɡ͡be ɲ bɛ le.le ɡ͡be fɔ dɔː.ni dɔː.ni/",
-      "phonetic_simple": "GBE. N BÈ LÉ-LÉ GBE FƆ DƆƆ-NI DƆƆ-NI.",
-      "translation": "Gbe. Je parle la langue lélé petit à petit."
+      "speaker": "Élève",
+      "text": "Jí, wala yí.",
+      "phonetic_api": "/jí wàla yí/",
+      "phonetic_simple": "DJI WA-LA YI",
+      "translation": "Jí, ou bien yí."
     },
     {
-      "speaker": "Karamɔɔ",
-      "text": "I gbe bɛ bɔ kɔ! Kpɛlɛ mu fisa di.",
-      "phonetic_api": "/i ɡ͡be bɛ bɔ kɔ k͡pɛ.lɛ mu fi.sa di/",
-      "phonetic_simple": "I GBE BÈ BƆ KƆ! KPÈ-LÈ MOU FI-SA DI.",
-      "translation": "Ta prononciation est excellente ! Tout est parfait."
+      "speaker": "Professeur",
+      "text": "Ń fɔ́n.",
+      "phonetic_api": "/ń fɔ́n/",
+      "phonetic_simple": "Ń FƆ́N.",
+      "translation": "C'est moi."
     },
     {
-      "speaker": "Karan-deng",
-      "text": "I nɔwɔ kɔ, karamɔɔ.",
-      "phonetic_api": "/i nɔ.wɔ kɔ ka.ra.mɔː/",
-      "phonetic_simple": "I NƆ-WƆ KƆ, KA-RA-MƆƆ.",
-      "translation": "Merci beaucoup, maître."
+      "speaker": "Élève",
+      "text": "Túngbɛɛ fɔ́n.",
+      "phonetic_api": "/túngbɛ̀ɛ fɔ́n/",
+      "phonetic_simple": "TÚNGBƐƐ FƆ́N.",
+      "translation": "C'est un bâton."
     }
   ],
   "cultural_notes": [
-    "La transmission de la langue lélé repose historiquement sur une forte tradition orale. La justesse de l'articulation vocale et le respect du rythme des voyelles longues montrent une maîtrise culturelle valorisée par les anciens lors des assemblées et des salutations traditionnelles dans la région de Kissidougou."
+    "La variation j/y et kp/gb reflète des différences entre locuteurs et sous-dialectes (nord, centre, sud) documentées par Vydrine (2009), qui a travaillé avec des informateurs de zones différentes (Hélène Tounkara et Fayida Koroma au nord ; Sory Doumbouya au sud)."
   ],
   "exercises": [
     {
       "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Comment prononce-t-on correctement la combinaison 'gb' en lélé ?",
+      "question": "Combien de voyelles orales compte le système vocalique du lélé ?",
       "options": [
-        "En séparant le son 'g' puis le son 'b'",
-        "En articulant simultanément les sons 'g' et 'b' en un seul bloc",
-        "Comme un simple son 'b' français"
+        "5",
+        "7",
+        "9"
       ],
-      "correct_answer": "En articulant simultanément les sons 'g' et 'b' en un seul bloc",
-      "explanation": "Le 'gb' est une consonne co-articulée complexe qui se prononce d'un seul coup sans couper l'émission d'air."
+      "correct_answer": "7",
+      "explanation": "Vydrine (2009) décrit un système à sept voyelles : i, e, ɛ, a, ɔ, o, u."
     },
     {
       "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Le mot pour désigner la 'langue' ou la 'voix' s'écrit : [ ___ ].",
-      "correct_answer": "Gbe",
-      "hint": "Il utilise la consonne co-articulée étudiée et se termine par un e court."
+      "sentence_with_blank": "En lélé, « eau » se dit jí ou [ ___ ] selon le locuteur.",
+      "correct_answer": "yí",
+      "hint": "j et y alternent librement dans ce mot."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "V. Vydrine, « Esquisse de la langue lélé (groupe mokolé) », Mandenkan 45, 2009, pp. 29-104 (LLACAN/CNRS)",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan45/45vydrine.pdf"
+    },
+    {
+      "label": "Glottolog — Lele (Guinea) [lele1266]",
+      "url": "https://glottolog.org/resource/languoid/id/lele1266"
+    },
+    {
+      "label": "Wikipédia — Lélé (langue mandée)",
+      "url": "https://fr.wikipedia.org/wiki/L%C3%A9l%C3%A9_(langue_mand%C3%A9e)"
+    }
+  ],
+  "confidence": "élevée",
+  "confidence_note": "La phonologie décrite ici (voyelles, tons, variations consonantiques) est directement rapportée d'après la description structurée de Vydrine (2009), la seule source phonologique disponible sur cette langue ; c'est la leçon la mieux étayée du corpus disponible. Les répliques/phrases supplémentaires nécessaires pour atteindre le nombre minimum requis par le schéma ont été obtenues en recombinant les phrases d'exemple déjà attestées dans cette même leçon (aucun vocabulaire nouveau non attesté n'a été ajouté)."
 }

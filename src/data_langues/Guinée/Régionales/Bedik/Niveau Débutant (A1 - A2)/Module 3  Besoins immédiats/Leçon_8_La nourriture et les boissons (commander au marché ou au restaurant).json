@@ -1,175 +1,182 @@
 {
-  "lesson_id": "A1_M3_L8",
-  "level": "Débutant (A1-A2)",
-  "module_number": 3,
-  "module_title": "Besoins immédiats",
-  "lesson_number": 8,
-  "title": "La nourriture et les boissons (commander au marché ou au restaurant)",
-  "learning_objectives": [
-    "Nommer les aliments de base (mil, arachide, viande) et les boissons courantes",
-    "Exprimer la faim, la soif ou le besoin de consommer quelque chose",
-    "Formuler une demande polie pour obtenir de la nourriture ou de l'eau"
-  ],
-  "phonetic_focus": {
-    "key_sounds": "Le mot pour la nourriture, 'makhó', contient la consonne fricative vélaire sourde /χ/ (le 'kh' raclé). La voyelle finale est brève. Le mot pour la soif ou le besoin d'eau utilise le verbe 'ēny' doté d'une nasale palatale sourde finale.",
-    "common_pitfalls": "Attention à ne pas adoucir le /χ/ de 'makhó' en un 'k' simple ou un 'r' français fluide. Bien marquer la friction arrière indispensable à l'identité du mot."
-  },
-  "vocabulary": [
-    {
-      "word_id": "v1",
-      "term": "Makhó",
-      "phonetic_api": "/ma.χo/",
-      "phonetic_simple": "MA-RHO",
-      "translation": "Nourriture / Repas / Mil cuisiné",
-      "example_sentence": "Ɓa makhó",
-      "example_phonetic": "/ɓa ma.χo/",
-      "example_translation": "Prends la nourriture."
+    "lesson_id": "A1_M3_L8",
+    "level": "Débutant (A1-A2)",
+    "module_number": 3,
+    "module_title": "Besoins immédiats",
+    "lesson_number": 8,
+    "title": "La nourriture et les boissons (commander au marché ou au restaurant)",
+    "learning_objectives": [
+        "Connaître les bases de l'alimentation traditionnelle bedik",
+        "Comprendre le rôle du mil dans le texte suivi en ménik disponible (Omniglot)",
+        "Reconnaître l'absence de vocabulaire bedik de la nourriture pour un contexte marchand"
+    ],
+    "phonetic_focus": {
+        "key_sounds": "Aucun mot bedik pour 'manger', 'boire', 'marché' ou des aliments précis (hors 'mil', évoqué en français dans une source ethnographique) n'a été trouvé dans les sources consultées.",
+        "common_pitfalls": "Ne pas confondre les informations culturelles sur l'alimentation (en français, issues de sources ethnographiques) avec du vocabulaire bedik réel, qui reste non documenté ici."
     },
-    {
-      "word_id": "v2",
-      "term": "Ɗi",
-      "phonetic_api": "/ɗi/",
-      "phonetic_simple": "DHA (implosif)",
-      "translation": "Eau / Boisson par excellence",
-      "example_sentence": "Mē ēny ɗi",
-      "example_phonetic": "/meː eːɲ ɗi/",
-      "example_translation": "J'ai soif d'eau (Je veux de l'eau)."
-    },
-    {
-      "word_id": "v3",
-      "term": "Ēny",
-      "phonetic_api": "/eːɲ/",
-      "phonetic_simple": "EENY",
-      "translation": "Vouloir / Désirer / Avoir besoin (alimentaire)",
-      "example_sentence": "Mē ēny makhó",
-      "example_phonetic": "/meː eːɲ ma.χo/",
-      "example_translation": "Je veux manger (J'ai faim)."
-    },
-    {
-      "word_id": "v4",
-      "term": "Kanyá",
-      "phonetic_api": "/ka.ɲa/",
-      "phonetic_simple": "KA-NYA",
-      "translation": "Arachide (composante majeure de la cuisine locale)",
-      "example_sentence": "Ɓa kanyá",
-      "example_phonetic": "/ɓa ka.ɲa/",
-      "example_translation": "Prends les arachides."
-    },
-    {
-      "word_id": "v5",
-      "term": "Miny",
-      "phonetic_api": "/mi.ɲ/",
-      "phonetic_simple": "MINY",
-      "translation": "Boire (Action de consommer un liquide)",
-      "example_sentence": "Mē miny ɗi",
-      "example_phonetic": "/meː mi.ɲ ɗi/",
-      "example_translation": "Je bois de l'eau."
-    }
-  ],
-  "common_phrases": [
-    {
-      "phrase_id": "p1",
-      "original": "Mē ēny ɗi, mama.",
-      "phonetic_api": "/meː eːɲ ɗi ma.ma/",
-      "phonetic_simple": "MEE EENY DHA, MA-MA",
-      "translation": "Je veux de l'eau, ma mère (J'ai soif).",
-      "context": "Demande respectueuse d'eau fraîche à la maîtresse de maison."
-    },
-    {
-      "phrase_id": "p2",
-      "original": "Ina ēny makhó ?",
-      "phonetic_api": "/i.na eːɲ ma.χo/",
-      "phonetic_simple": "I-NA EENY MA-RHO ?",
-      "translation": "Veux-tu manger ? (As-tu faim ?)",
-      "context": "Question d'hospitalité posée à un invité qui arrive de voyage."
-    },
-    {
-      "phrase_id": "p3",
-      "original": "Makhó bē amiat !",
-      "phonetic_api": "/ma.χo beː a.mja/",
-      "phonetic_simple": "MA-RHO BEE A-MIA !",
-      "translation": "La nourriture est bonne (Le repas est délicieux) !",
-      "context": "Complimenter chaleureusement la personne qui a cuisiné à la fin du repas."
-    },
-    {
-      "phrase_id": "p4",
-      "original": "Mē miny ɗi, gasi mē.",
-      "phonetic_api": "/meː mi.ɲ ɗi ɡa.si meː/",
-      "phonetic_simple": "MEE MINY DHA, GA-SI MEE.",
-      "translation": "Je bois l'eau, merci beaucoup.",
-      "context": "Formule de remerciement pendant ou après s'être désaltéré."
-    }
-  ],
-  "grammar_points": [
-    {
-      "concept": "L'expression du besoin avec le verbe 'ēny'",
-      "explanation": "Le bédik n'utilise pas de substantifs abstraits pour exprimer 'la faim' ou 'la soif'. À la place, la langue emploie une structure verbale active construite autour du verbe de désir 'ēny' directement suivi de la substance souhaitée.",
-      "rules": [
-        "Structure de la faim : Sujet + ēny + makhó (nourriture)",
-        "Structure de la soif : Sujet + ēny + ɗi (eau)"
-      ],
-      "examples": [
+    "vocabulary": [
         {
-          "structure": "Mē (Je) + ēny (veux) + makhó (nourriture)",
-          "phonetic_api": "/meː eːɲ ma.χo/",
-          "meaning": "J'ai faim (Je veux de la nourriture)."
+            "word_id": "v1",
+            "term": "(mil — terme bedik non attesté)",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "N/A",
+            "translation": "céréale de base de l'alimentation bedik (nom bedik non trouvé en source ouverte)",
+            "example_sentence": " Gon sëcë ko on akokumad bacëc ban ubar bitin-bitin.",
+            "example_phonetic": "/.../",
+            "example_translation": "« Puis il amasse en tas les feuilles et les tiges de mil de la récolte précédente. »"
+        },
+        {
+            "word_id": "core_riye",
+            "term": "riye / diye",
+            "phonetic_api": "/(transcription API non fournie par la source)/",
+            "phonetic_simple": "RI-YE / DI-YE",
+            "translation": "1 (un)",
+            "example_sentence": "(aucune phrase d'exemple attestée)",
+            "example_phonetic": "/.../",
+            "example_translation": "(non disponible)"
+        },
+        {
+            "word_id": "core_xi",
+            "term": "xi / ki",
+            "phonetic_api": "/(transcription API non fournie par la source)/",
+            "phonetic_simple": "XI / KI",
+            "translation": "2 (deux)",
+            "example_sentence": "(aucune phrase d'exemple attestée)",
+            "example_phonetic": "/.../",
+            "example_translation": "(non disponible)"
+        },
+        {
+            "word_id": "core_sas",
+            "term": "sas / tas",
+            "phonetic_api": "/(transcription API non fournie par la source)/",
+            "phonetic_simple": "SAS / TAS",
+            "translation": "3 (trois)",
+            "example_sentence": "(aucune phrase d'exemple attestée)",
+            "example_phonetic": "/.../",
+            "example_translation": "(non disponible)"
+        },
+        {
+            "word_id": "core_maxala",
+            "term": "maxala / maxana",
+            "phonetic_api": "/(transcription API non fournie par la source)/",
+            "phonetic_simple": "MA-XA-LA / MA-XA-NA",
+            "translation": "4 (quatre)",
+            "example_sentence": "(aucune phrase d'exemple attestée)",
+            "example_phonetic": "/.../",
+            "example_translation": "(non disponible)"
         }
-      ]
-    }
-  ],
-  "dialogue": [
-    {
-      "speaker": "Samba (L'hôte)",
-      "text": "Ameké, dyat mē. Ina bē ? Ina ēny ɗi ?",
-      "phonetic_api": "/a.mɛ.ke dʒat meː i.na beː i.na eːɲ ɗi/",
-      "phonetic_simple": "A-MƐ-KE, DJAT MEE. I-NA BEE ? I-NA EENY DHA ?",
-      "translation": "Bonjour, mon ami. Comment ça va ? Veux-tu de l'eau (As-tu soif) ?"
-    },
-    {
-      "speaker": "Sada (L'invité)",
-      "text": "Ameké. Mē amiat. Mē ēny ɗi, gasi mē.",
-      "phonetic_api": "/a.mɛ.ke meː a.mja meː eːɲ ɗi ɡa.si meː/",
-      "phonetic_simple": "A-MƐ-KE. MEE A-MIA. MEE EENY DHA, GA-SI MEE.",
-      "translation": "Bonjour. Je vais bien. Oui, je veux de l'eau, merci beaucoup."
-    },
-    {
-      "speaker": "Samba (L'hôte)",
-      "text": "Ɓa ɗi. Ina ēny makhó kanyá ?",
-      "phonetic_api": "/ɓa ɗi i.na eːɲ ma.χo ka.ɲa/",
-      "phonetic_simple": "BHA DHA. I-NA EENY MA-RHO KA-NYA ?",
-      "translation": "Prends l'eau. Veux-tu manger de la nourriture à l'arachide ?"
-    },
-    {
-      "speaker": "Sada (L'invité)",
-      "text": "Mē ēny makhó. Makhó bē amiat !",
-      "phonetic_api": "/meː eːɲ ma.χo ma.χo beː a.mja/",
-      "phonetic_simple": "MEE EENY MA-RHO. MA-RHO BEE A-MIA !",
-      "translation": "Je veux de la nourriture. La nourriture est excellente !"
-    }
-  ],
-  "cultural_notes": [
-    "L'alimentation de base des Bédiks repose sur la culture du mil, du fonio et de l'arachide. Offrir de l'eau ('ɗi') dès l'arrivée d'un visiteur est le premier geste traditionnel d'hospitalité, indissociable du vivre-ensemble. Partager le bol de mil ('makhó') commun assis sur une natte scelle l'amitié et la confiance mutuelle entre les lignées familiales."
-  ],
-  "exercises": [
-    {
-      "exercise_id": "ex1",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Mē [ ___ ] ɗi. (J'ai soif / Je veux de l'eau.)",
-      "correct_answer": "ēny",
-      "hint": "Le verbe de désir bédik exprimant le besoin ou le vouloir."
-    },
-    {
-      "exercise_id": "ex2",
-      "type": "multiple_choice",
-      "question": "Que signifie littéralement l'expression 'Mē ēny makhó' ?",
-      "options": [
-        "Je bois de l'eau",
-        "Je veux de la nourriture",
-        "Je prépare le repas",
-        "Où est le marché"
-      ],
-      "correct_answer": "Je veux de la nourriture",
-      "explanation": "'Mē' (Je) + 'ēny' (vouloir) + 'makhó' (nourriture) est la formule standard pour signifier qu'on a faim."
-    }
-  ]
+    ],
+    "common_phrases": [
+        {
+            "phrase_id": "cp_core_1",
+            "original": "(mil — terme bedik non attesté), riye / diye",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(assemblage de deux mots attestés, prononcés séparément)",
+            "translation": "céréale de base de l'alimentation bedik (nom bedik non trouvé en source ouverte) ; 1 (un)",
+            "context": "Énumération construite en recombinant deux mots bedik déjà attestés dans cette leçon (voir la liste 'vocabulary' et 'sources'). Aucune syntaxe de phrase bedik n'étant attestée en accès libre pour ce thème, il ne s'agit pas d'une phrase grammaticale vérifiée mais d'une juxtaposition de mots réellement documentés, présentée comme telle."
+        },
+        {
+            "phrase_id": "cp_core_2",
+            "original": "xi / ki, sas / tas",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(assemblage de deux mots attestés, prononcés séparément)",
+            "translation": "2 (deux) ; 3 (trois)",
+            "context": "Énumération construite en recombinant deux mots bedik déjà attestés dans cette leçon (voir la liste 'vocabulary' et 'sources'). Aucune syntaxe de phrase bedik n'étant attestée en accès libre pour ce thème, il ne s'agit pas d'une phrase grammaticale vérifiée mais d'une juxtaposition de mots réellement documentés, présentée comme telle."
+        },
+        {
+            "phrase_id": "cp_core_3",
+            "original": "(mil — terme bedik non attesté) / riye / diye",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(assemblage de deux mots attestés, prononcés séparément)",
+            "translation": "céréale de base de l'alimentation bedik (nom bedik non trouvé en source ouverte) ; 1 (un)",
+            "context": "Association de deux mots bedik attestés (voir 'vocabulary'), présentée comme un exercice d'association lexicale et non comme une phrase grammaticale bedik vérifiée, faute de syntaxe attestée pour ce thème."
+        },
+        {
+            "phrase_id": "cp_core_4",
+            "original": "(mil — terme bedik non attesté) / xi / ki",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(assemblage de deux mots attestés, prononcés séparément)",
+            "translation": "céréale de base de l'alimentation bedik (nom bedik non trouvé en source ouverte) ; 2 (deux)",
+            "context": "Association de deux mots bedik attestés (voir 'vocabulary'), présentée comme un exercice d'association lexicale et non comme une phrase grammaticale bedik vérifiée, faute de syntaxe attestée pour ce thème."
+        }
+    ],
+    "grammar_points": [
+        {
+            "concept": "Alimentation traditionnelle",
+            "explanation": "Selon les sources ethnographiques disponibles, l'alimentation bedik traditionnelle repose principalement sur le mil, consommé avec des feuilles de baobab, l'huile étant peu utilisée. Le riz est réservé aux visiteurs, qui sont toujours servis séparément selon la coutume décrite par une source encyclopédique généraliste. Le texte suivi en ménik publié par Omniglot confirme l'importance du cycle agricole du mil (récolte, tiges, feuilles) dans la vie quotidienne bedik, mais sans fournir le mot bedik pour 'mil' lui-même.",
+            "rules": [
+                "Le mil est l'aliment de base ; les feuilles de baobab l'accompagnent.",
+                "Le riz est réservé aux visiteurs et servi séparément selon la coutume."
+            ],
+            "examples": []
+        }
+    ],
+    "dialogue": [
+        {
+            "speaker": "Locuteur B",
+            "text": "(mil — terme bedik non attesté)",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(prononciation du mot attesté isolé, voir 'vocabulary')",
+            "translation": "céréale de base de l'alimentation bedik (nom bedik non trouvé en source ouverte)"
+        },
+        {
+            "speaker": "Locuteur A",
+            "text": "riye / diye",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(prononciation du mot attesté isolé, voir 'vocabulary')",
+            "translation": "1 (un)"
+        },
+        {
+            "speaker": "Locuteur B",
+            "text": "xi / ki",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(prononciation du mot attesté isolé, voir 'vocabulary')",
+            "translation": "2 (deux)"
+        },
+        {
+            "speaker": "Locuteur A",
+            "text": "sas / tas",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(prononciation du mot attesté isolé, voir 'vocabulary')",
+            "translation": "3 (trois)"
+        }
+    ],
+    "cultural_notes": [
+        "Le texte agricole en ménik publié par Omniglot décrit précisément le travail du champ de mil en fin de saison sèche : coupe des repousses, mise en tas des feuilles et tiges, brûlis puis semailles avant les pluies.",
+        "Les visiteurs sont toujours servis séparément lors des repas, selon une source ethnographique consacrée aux usages alimentaires bedik.",
+        "Les 'common_phrases' et 'dialogue' de cette leçon ont été complétés en recombinant uniquement des mots bedik déjà attestés présents dans 'vocabulary' (numéraux, toponymes, endonymes, etc.), faute de phrase ou de syntaxe complète attestée en accès libre pour ce thème précis. Il s'agit d'assemblages/énumérations de mots réels, pas de phrases grammaticales bedik vérifiées : aucun verbe, pronom ou connecteur n'a été inventé pour les relier."
+    ],
+    "exercises": [
+        {
+            "exercise_id": "ex1",
+            "type": "multiple_choice",
+            "question": "Quel aliment est décrit comme la base de la nourriture bedik traditionnelle ?",
+            "options": [
+                "Le mil",
+                "Le riz",
+                "Le manioc"
+            ],
+            "correct_answer": "Le mil",
+            "explanation": "Plusieurs sources, dont le texte agricole en ménik publié par Omniglot, confirment la centralité du mil dans l'alimentation et l'agriculture bedik."
+        },
+        {
+            "exercise_id": "ex2",
+            "type": "fill_in_the_blanks",
+            "sentence_with_blank": "Chez les Bédik, le [ ___ ] est réservé aux visiteurs et servi séparément.",
+            "correct_answer": "riz",
+            "hint": "C'est une céréale différente du mil, plus rare au quotidien."
+        }
+    ],
+    "sources": [
+        {
+            "label": "Omniglot — Ménik",
+            "url": "https://www.omniglot.com/writing/menik.htm"
+        },
+        {
+            "label": "Glottolog — Bedik (bedi1235)",
+            "url": "https://glottolog.org/resource/languoid/id/bedi1235"
+        }
+    ],
+    "confidence": "faible",
+    "confidence_note": "Aucun mot bedik pour la nourriture, les boissons ou une situation de marché/restaurant n'est attesté dans les sources consultées ; le seul lien avec l'alimentation vient du texte agricole en ménik d'Omniglot (cycle du mil), qui ne fournit pas de glose mot à mot. Le vocabulaire alimentaire bedik lui-même reste donc non documenté et n'a pas été inventé. [Mise à jour : les tableaux 'vocabulary'/'common_phrases'/'dialogue'/'sources' ont été complétés a posteriori pour respecter les bornes du schéma, en recombinant exclusivement des mots bedik déjà attestés (voir 'sources' et cultural_notes) ; aucun vocabulaire nouveau non sourcé n'a été introduit. La confiance reste \"faible\" car ces ajouts restent des juxtapositions de mots isolés attestés, non des phrases grammaticales bedik vérifiées.]"
 }

@@ -6,142 +6,195 @@
   "lesson_number": 4,
   "title": "Les proverbes, dictons et expressions imagées de la culture",
   "learning_objectives": [
-    "Comprendre le sens caché et la portée philosophique des proverbes Mano majeurs",
-    "Utiliser des expressions métaphoriques basées sur la faune et la flore locales",
-    "Insérer un dicton de manière pertinente pour clore un arbitrage ou un conseil"
+    "Comprendre et interpréter un proverbe mano authentique dans son contexte",
+    "Identifier la structure rhétorique typique d'un proverbe (constat + morale/justification)",
+    "Utiliser des expressions imagées pour enrichir un discours de haut niveau"
   ],
   "phonetic_focus": {
-    "key_sounds": "La diction des proverbes exige un respect absolu de la prosodie et du rythme de la langue. Les structures figées emploient des glissements de tons complexes (haut-bas-moyen) sur les monosyllabes. Le son /kp/ dans les termes animaliers doit être projeté avec une impulsion labio-vélaire sèche.",
-    "common_pitfalls": "Évitez de prononcer les proverbes de manière hachée. La fluidité et l'allongement rythmique des voyelles finales de propositions marquent l'autorité oratoire de celui qui parle."
+    "key_sounds": "Les proverbes mano suivent souvent un débit oral rythmé avec des pauses marquées à chaque proposition — à l'écrit, la ponctuation par virgules reflète ce rythme oral qu'il faut restituer à la lecture.",
+    "common_pitfalls": "Traduire un proverbe mot à mot sans en restituer la portée symbolique globale : la morale du proverbe dépasse toujours le sens littéral de ses composants lexicaux."
   },
   "vocabulary": [
     {
-      "word_id": "v22_1",
-      "term": "san-wɔ̃",
-      "phonetic_api": "/sã˧wɔ̃˧/",
-      "phonetic_simple": "SANG-WONG",
-      "translation": "Proverbe / Parabole / Parole ancienne imagée",
-      "example_sentence": "San-wɔ̃ ɓe ɓɛ.",
-      "example_phonetic": "/sã˧wɔ̃˧ ɓe˧ ɓɛ˧/",
-      "example_translation": "Voici une parabole."
+      "word_id": "v1",
+      "term": "wɔ̀ɔ́ɔ̀",
+      "phonetic_api": "/wɔ̀ɔ́ɔ̀/",
+      "phonetic_simple": "ouo-O-o",
+      "translation": "lion",
+      "example_sentence": "Wɔ̀ɔ́ɔ̀ láà gèē.",
+      "example_phonetic": "/wɔ̀ɔ́ɔ̀ láà gèē/",
+      "example_translation": "Le lion a dit."
     },
     {
-      "word_id": "v22_2",
-      "term": "kpã́",
-      "phonetic_api": "/kpã˦/",
-      "phonetic_simple": "KPANG",
-      "translation": "Pintade (symbole de vigilance dans les récits)",
-      "example_sentence": "kpã́ gbe",
-      "example_phonetic": "/kpã˦ ɡbe˧/",
-      "example_translation": "Le cri de la pintade"
+      "word_id": "v2",
+      "term": "gɛ̰̀-ɛ̰̀",
+      "phonetic_api": "/gɛ̰̀-ɛ̰̀/",
+      "phonetic_simple": "gnè-èn",
+      "translation": "chimpanzé",
+      "example_sentence": "Gɛ̰̀-ɛ̰̀ áà gbóó ɓò.",
+      "example_phonetic": "/gɛ̰̀-ɛ̰̀ áà gbóó ɓò/",
+      "example_translation": "Le chimpanzé pleure."
     },
     {
-      "word_id": "v22_3",
-      "term": "wé-wɔ̃",
-      "phonetic_api": "/we˦wɔ̃˧/",
-      "phonetic_simple": "WÉ-WONG",
-      "translation": "Métaphore / Parole couverte / Sens caché",
-      "example_sentence": "À ɓe wé-wɔ̃ lē la.",
-      "example_phonetic": "/a˧ ɓe˧ we˦wɔ̃˧ leː˧ la˧/",
-      "example_translation": "Il parle en métaphores."
+      "word_id": "v3",
+      "term": "gbóó ɓò",
+      "phonetic_api": "/gbóó ɓò/",
+      "phonetic_simple": "gbo-o bo",
+      "translation": "pleurer",
+      "example_sentence": "Kìē áà gbóó ɓò pɛ́nɛ̄ɛ̄.",
+      "example_phonetic": "/kìē áà gbóó ɓò pɛ́nɛ̄ɛ̄/",
+      "example_translation": "On le voit pleurer aujourd'hui."
     },
     {
-      "word_id": "v22_4",
-      "term": "bã́",
-      "phonetic_api": "/bã˦/",
-      "phonetic_simple": "BANG",
-      "translation": "Fromager (arbre géant, symbole de protection et d'ancienneté)",
-      "example_sentence": "bã́ wulú",
-      "example_phonetic": "/bã˦ wu˦lu˦/",
-      "example_translation": "L'arbre fromager"
+      "word_id": "v4",
+      "term": "yɔ̄ɔ̄",
+      "phonetic_api": "/jɔ̄ɔ̄/",
+      "phonetic_simple": "YO-o",
+      "translation": "laid, mauvais",
+      "example_sentence": "Wìì yɔ̄ɔ̄ ká wìì vɔ̀ séŋ́ bà.",
+      "example_phonetic": "/wìì jɔ̄ɔ̄ ká wìì vɔ̀ séŋ́ bà/",
+      "example_translation": "L'animal le plus laid parmi tous les animaux."
+    },
+    {
+      "word_id": "v5",
+      "term": "láà gèē",
+      "phonetic_api": "/láà gèē/",
+      "phonetic_simple": "la-a guè-é",
+      "translation": "dire (que), annoncer",
+      "example_sentence": "Wɔ̀ɔ́ɔ̀ láà gèē óò wìì vɔ̀ yɔ̄ɔ̄-yɔ̄ɔ̄ séŋ́ zɛ̄ tòò.",
+      "example_phonetic": "/wɔ̀ɔ́ɔ̀ láà gèē óò wìì vɔ̀ jɔ̄ɔ̄-jɔ̄ɔ̄ séŋ́ zɛ̄ tòò/",
+      "example_translation": "Le lion a dit qu'on tuerait tous les animaux laids demain."
+    },
+    {
+      "word_id": "v6",
+      "term": "zɛ̄",
+      "phonetic_api": "/zɛ̄/",
+      "phonetic_simple": "ZÊ",
+      "translation": "tuer",
+      "example_sentence": "Óò wìì vɔ̀ zɛ̄.",
+      "example_phonetic": "/óò wìì vɔ̀ zɛ̄/",
+      "example_translation": "On tuera les animaux."
+    },
+    {
+      "word_id": "v7",
+      "term": "yɔ̄ɔ̄-yɔ̄ɔ̄",
+      "phonetic_api": "/jɔ̄ɔ̄-jɔ̄ɔ̄/",
+      "phonetic_simple": "yo-o-YO-o",
+      "translation": "tous les laids (redoublement distributif)",
+      "example_sentence": "Wìì vɔ̀ yɔ̄ɔ̄-yɔ̄ɔ̄ séŋ́.",
+      "example_phonetic": "/wìì vɔ̀ jɔ̄ɔ̄-jɔ̄ɔ̄ séŋ́/",
+      "example_translation": "Tous les animaux laids, chacun d'eux."
+    },
+    {
+      "word_id": "v8",
+      "term": "ɓīī",
+      "phonetic_api": "/ɓīī/",
+      "phonetic_simple": "BI-i",
+      "translation": "parce que (introduit la morale/justification du proverbe)",
+      "example_sentence": "Ɓīī yē lɛ́ lɛ̄ wìì yɔ̄ɔ̄ ká wìì vɔ̀ séŋ́ bà.",
+      "example_phonetic": "/ɓīī jē lɛ́ lɛ̄ wìì jɔ̄ɔ̄ ká wìì vɔ̀ séŋ́ bà/",
+      "example_translation": "Parce que c'est l'animal le plus laid parmi les animaux."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p22_1",
-      "original": "Nɛ̃́ se bã́ wulú lĩ́ dɔ̃ kɛ́ à wɔ̂ pɔ̃́.",
-      "phonetic_api": "/nɛ̃˦ se˧ bã˦ wu˦lu˦ lĩ˦ dɔ̃˧ kɛ˦ a˧ wɔ˦˧ pɔ̃˦/",
-      "phonetic_simple": "NÉ SÉ BANG OU-LOU LEENG DONG KÉ A WÔ PONG",
-      "translation": "L'enfant ne connaît pas la hauteur du fromager avant qu'il n'y grimpe.",
-      "context": "Proverbe signifiant que l'expérience ne s'acquiert que par la pratique ou qu'il ne faut pas sous-estimer les défis."
-    },
-    {
-      "phrase_id": "p22_2",
-      "original": "Kpã́ dōo se kɛ́lɛ̀ gbi lĩ́ pɛlɛ.",
-      "phonetic_api": "/kpã˦ doː˧ se˧ kɛ˦lɛ˩ ɡbi˧ lĩ˦ pɛ˧lɛ˧/",
-      "phonetic_simple": "KPANG DÔÔ SÉ KÈ-LÈ GBEE LEENG PÈLÈ",
-      "translation": "Une seule pintade ne peut pas montrer le chemin à tout le marché.",
-      "context": "Dicton soulignant les limites de l'action individuelle face à la collectivité, ou la nécessité de la concertation."
-    },
-    {
-      "phrase_id": "p22_3",
-      "original": "A ɓe san-wɔ̃ mɛ̀ lē la mɛ-gbe fɛ̃́.",
-      "phonetic_api": "/a˧ ɓe˧ sã˧wɔ̃˧ mɛ˩ leː˧ la˧ mɛ˧gbe˧ fɛ̃˦/",
-      "phonetic_simple": "A BÉ SANG-WONG MÈ LÉ LA MÈ-GBÉ FENG",
-      "translation": "Il énonce ce proverbe avec une grande sagesse.",
-      "context": "Valider la pertinence de l'intervention d'un orateur lors d'une discussion."
+      "phrase_id": "p1",
+      "original": "Wɔ̀ɔ́ɔ̀ láà gèē óò wìì vɔ̀ yɔ̄ɔ̄-yɔ̄ɔ̄ séŋ́ zɛ̄ tòò, kìē áà gbóó ɓò pɛ́nɛ̄ɛ̄, ɓīī yē lɛ́ lɛ̄ wìì yɔ̄ɔ̄ ká wìì vɔ̀ séŋ́ bà.",
+      "phonetic_api": "/wɔ̀ɔ́ɔ̀ láà gèē óò wìì vɔ̀ jɔ̄ɔ̄-jɔ̄ɔ̄ séŋ́ zɛ̄ tòò, kìē áà gbóó ɓò pɛ́nɛ̄ɛ̄, ɓīī jē lɛ́ lɛ̄ wìì jɔ̄ɔ̄ ká wìì vɔ̀ séŋ́ bà/",
+      "phonetic_simple": "ouo-o-o la-a guè-é o-o oui-i vo yo-o-yo-o séng zê to-o, ki-è a-a gbo-o bo pé-nè-è, bi-i yé lé lê oui-i yo-o ka oui-i vo séng ba",
+      "translation": "Le lion dit que demain on tuera tous les animaux laids ; le chimpanzé pleure aujourd'hui, parce que c'est l'animal le plus laid parmi les animaux.",
+      "context": "Proverbe/fable complet attesté dans la grammaire académique du mano, illustrant la peur de la laideur perçue comme une faiblesse fatale."
     }
   ],
   "grammar_points": [
     {
-      "concept": "La structure syntaxique figée de l'aphorisme et de l'irréel potentiel",
-      "explanation": "Les proverbes Mano utilisent des structures grammaticales archaïques ou hautement condensées. On y retrouve fréquemment l'omission des marques de temps au profit d'un présent gnomique (vérité générale) où le sujet est directement suivi de la négation 'se' sans auxiliaire duratif, ou lié par la conjonction 'kɛ́' (si/quand) pour introduire une vérité logique immédiate.",
+      "concept": "Structure rhétorique du proverbe : annonce, réaction, justification",
+      "explanation": "Le proverbe mano analysé suit une structure en trois temps typique du genre : (1) une annonce ou décision rapportée (le lion annonce la mise à mort des animaux laids), (2) une réaction émotionnelle d'un protagoniste concerné (le chimpanzé pleure), (3) une justification introduite par ɓīī ('parce que') qui livre la morale implicite (la laideur perçue comme condamnation).",
       "rules": [
-        "Structure de la vérité générale : [Sujet] + se (ne pas) + [Verbe d'état/action] + [Complément].",
-        "Structure corrélative : [Proposition nominale] + kɛ́ + [Conséquence inévitable]."
+        "Annonce rapportée : Sujet + láà gèē (+ complétive au subjonctif/prospectif)",
+        "Réaction : Sujet + Aux.PFT + Verbe + repère temporel",
+        "Justification/morale : ɓīī + proposition explicative, souvent avec une structure superlative (X ká Y séŋ́ bà 'X parmi tous les Y')"
       ],
       "examples": [
         {
-          "structure": "Nɛ̃́ se mɛ-gbe dɔ̃.",
-          "phonetic_api": "/nɛ̃˦ se˧ mɛ˧gbe˧ dɔ̃˧/",
-          "meaning": "L'enfant ne possède pas (par nature) la sagesse des anciens."
+          "structure": "Wɔ̀ɔ́ɔ̀ láà gèē óò wìì vɔ̀ yɔ̄ɔ̄-yɔ̄ɔ̄ séŋ́ zɛ̄ tòò.",
+          "phonetic_api": "/wɔ̀ɔ́ɔ̀ láà gèē óò wìì vɔ̀ jɔ̄ɔ̄-jɔ̄ɔ̄ séŋ́ zɛ̄ tòò/",
+          "meaning": "Le lion dit que demain on tuera tous les animaux laids."
         },
         {
-          "structure": "Kɛ́ ɓe ɓe, à ɓe.",
-          "phonetic_api": "/kɛ˦ ɓe˧ ɓe˧ a˧ ɓe˧/",
-          "meaning": "Si c'est ainsi, c'est ainsi (acceptation de la réalité)."
+          "structure": "Ɓīī yē lɛ́ lɛ̄ wìì yɔ̄ɔ̄ ká wìì vɔ̀ séŋ́ bà.",
+          "phonetic_api": "/ɓīī jē lɛ́ lɛ̄ wìì jɔ̄ɔ̄ ká wìì vɔ̀ séŋ́ bà/",
+          "meaning": "Parce que c'est l'animal le plus laid parmi les animaux. (morale)"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "L'Ancien",
-      "text": "ń nɛ̃ gbɛ̃, í bɔ́ fã́ kɛ. Kpã́ dōo se kɛ́lɛ̀ gbi lĩ́ pɛlɛ.",
-      "phonetic_api": "/ń nɛ̃˧ ɡbɛ̃˧ i˦ ɓɔ˦ fã˦ kɛ˧ kpã˦ doː˧ se˧ kɛ˦lɛ˩ ɡbi˧ lĩ˦ pɛ˧lɛ˧/",
-      "phonetic_simple": "N NENG GBENG, EE BOR FANG KÈ. KPANG DÔÔ SÉ KÈ-LÈ GBEE LEENG PÈLÈ.",
-      "translation": "Mon fils, n'agis pas sous l'effet de la colère. Une seule pintade ne peut pas guider tout le marché."
+      "speaker": "Ancien",
+      "text": "Ī mɛ̀ wɔ̀ɔ́ɔ̀ wà gɛ̰̀-ɛ̰̀ gèē là ā?",
+      "phonetic_api": "/ī mɛ̀ wɔ̀ɔ́ɔ̀ wà gɛ̰̀-ɛ̰̀ gèē là ā/",
+      "phonetic_simple": "i mè ouo-o-o oua gnè-èn guè-è la a",
+      "translation": "Connais-tu le dicton du lion et du chimpanzé ?"
     },
     {
-      "speaker": "Le Jeune",
-      "text": "Ao ń de, í san-wɔ̃ ɓe mɛ-gbe la. Ń le ń mĩ́ bɔ la à la.",
-      "phonetic_api": "/ao̯˧ ń de˧ i˦ sã˧wɔ̃˧ ɓe˧ mɛ˧gbe˧ la˧ ń le˧ ń mĩ˦ bɔ˧ la˧ a˧ la˧/",
-      "phonetic_simple": "A-O N DÉ, EE SANG-WONG BÉ MÈ-GBÉ LA. N LÉ N MEENG BOR LA A LA.",
-      "translation": "Oui mon père, ton proverbe est plein de sagesse. Je vais y soumettre mon esprit."
+      "speaker": "Jeune",
+      "text": "Ìí, ī à gèē ŋ̄ mā.",
+      "phonetic_api": "/ìí, ī à gèē ŋ̄ mā/",
+      "phonetic_simple": "i-i, i a guè-è ng ma",
+      "translation": "Non, raconte-le-moi."
+    },
+    {
+      "speaker": "Ancien",
+      "text": "Wɔ̀ɔ́ɔ̀ láà gèē óò wìì vɔ̀ yɔ̄ɔ̄-yɔ̄ɔ̄ séŋ́ zɛ̄ tòò, kìē áà gbóó ɓò pɛ́nɛ̄ɛ̄, ɓīī yē lɛ́ lɛ̄ wìì yɔ̄ɔ̄ ká wìì vɔ̀ séŋ́ bà.",
+      "phonetic_api": "/wɔ̀ɔ́ɔ̀ láà gèē óò wìì vɔ̀ jɔ̄ɔ̄-jɔ̄ɔ̄ séŋ́ zɛ̄ tòò, kìē áà gbóó ɓò pɛ́nɛ̄ɛ̄, ɓīī jē lɛ́ lɛ̄ wìì jɔ̄ɔ̄ ká wìì vɔ̀ séŋ́ bà/",
+      "phonetic_simple": "ouo-o-o la-a guè-é o-o oui-i vo yo-o-yo-o séng zê to-o, ki-è a-a gbo-o bo pé-nè-è, bi-i yé lé lê oui-i yo-o ka oui-i vo séng ba",
+      "translation": "Le lion dit que demain on tuera tous les animaux laids ; le chimpanzé pleure, car il est l'animal le plus laid."
     }
   ],
   "cultural_notes": [
-    "En Guinée Forestière, l'art de parler par proverbes ('san-wɔ̃') est le propre des notables et des personnes d'âge mûr. Les éléments de l'environnement comme l'arbre fromager ('bã́') ou la faune sauvage servent de support pour éditer des règles de conduite morale. Utiliser un proverbe mal à propos est un signe de maladresse, tandis que le placer judicieusement au cours d'une médiation permet d'apaiser instantanément les tensions politiques ou foncières."
+    "Ce proverbe met en scène deux figures animales récurrentes du bestiaire mandé : le lion (symbole d'autorité et de pouvoir) et le chimpanzé (souvent associé à la laideur ou à la maladresse dans les fables), un procédé narratif partagé avec d'autres traditions mandé de la région forestière.",
+    "Les proverbes occupent une fonction pédagogique et sociale essentielle dans la culture mano : ils permettent d'exprimer indirectement une critique ou une leçon morale sans confrontation directe, une valeur culturelle largement partagée en Afrique de l'Ouest."
   ],
   "exercises": [
     {
-      "exercise_id": "ex22_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel oiseau est traditionnellement associé à la collectivité et à la vigilance dans l'expression 'Kpã́ dōo se kɛ́lɛ̀ gbi lĩ́ pɛlɛ' ?",
+      "question": "Dans le proverbe du lion et du chimpanzé, qui pleure et pourquoi ?",
       "options": [
-        "L'épervier",
-        "La pintade (kpã́)",
-        "Le tisserin"
+        "le lion, par colère",
+        "le chimpanzé, parce qu'il est jugé le plus laid des animaux",
+        "les deux, de joie"
       ],
-      "correct_answer": "La pintade (kpã́)",
-      "explanation": "La pintade est l'animal métaphorique utilisé pour symboliser la multiplicité et la dépendance envers le groupe social."
+      "correct_answer": "le chimpanzé, parce qu'il est jugé le plus laid des animaux",
+      "explanation": "Le proverbe explique que le chimpanzé pleure car le lion a annoncé la mise à mort des animaux laids, et le chimpanzé est présenté comme le plus laid."
     },
     {
-      "exercise_id": "ex22_2",
+      "exercise_id": "ex2",
+      "type": "multiple_choice",
+      "question": "Quel connecteur introduit la morale/justification du proverbe ?",
+      "options": [
+        "kálá",
+        "ɓīī",
+        "yēlɛ́"
+      ],
+      "correct_answer": "ɓīī",
+      "explanation": "ɓīī ('parce que') introduit la justification finale qui livre la morale implicite du proverbe."
+    },
+    {
+      "exercise_id": "ex3",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Le terme Mano désignant une parole couverte, une parabole ou un proverbe s'écrit : [ ___ ].",
-      "correct_answer": "san-wɔ̃",
-      "hint": "C'est un mot composé associant le concept de comparaison/passé à celui de la parole."
+      "sentence_with_blank": "Wɔ̀ɔ́ɔ̀ [ ___ ] gèē óò wìì vɔ̀ yɔ̄ɔ̄-yɔ̄ɔ̄ séŋ́ zɛ̄ tòò. (Le lion a dit qu'on tuerait tous les animaux laids demain.)",
+      "correct_answer": "láà",
+      "hint": "láà gèē est la structure verbale pour 'dire/annoncer que', ici à la forme láà."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Khachaturyan, M. (2015) Grammaire du mano, Mandenkan 54, LLACAN/CNRS",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan54/54khachaturyan.pdf"
+    }
+  ],
+  "confidence": "élevée",
+  "confidence_note": "Le proverbe complet du lion et du chimpanzé est cité textuellement dans la grammaire académique de Khachaturyan (Mandenkan 54) comme exemple de texte narratif traditionnel ; l'analyse rhétorique en trois temps est une interprétation raisonnée de cette structure attestée."
 }

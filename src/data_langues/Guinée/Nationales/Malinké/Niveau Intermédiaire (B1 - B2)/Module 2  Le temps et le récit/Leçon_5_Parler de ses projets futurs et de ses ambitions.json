@@ -6,224 +6,255 @@
   "lesson_number": 5,
   "title": "Parler de ses projets futurs et de ses ambitions",
   "learning_objectives": [
-    "Utiliser le marqueur de futur et d'inaccompli 'bɛ' pour projeter des actions",
-    "Exprimer le souhait, l'ambition et la volonté avec le verbe 'fɛ'",
-    "Planifier des événements à court et à long terme dans l'espace mandingue"
+    "Utiliser le futur simple avec 'di' devant le verbe",
+    "Nier une action au futur avec 'tè'",
+    "Exprimer une intention proche avec le suffixe '-to' (prospectif)",
+    "Parler de ses ambitions professionnelles ou scolaires"
   ],
   "phonetic_focus": {
-    "key_sounds": "Le marqueur 'bɛ' se prononce avec une voyelle ouverte claire /bɛ/. Le terme de souhait 'fɛ' (/fɛ/) doit rester court sans allongement artificiel.",
-    "common_pitfalls": "Confondre la construction de futur progressif 'bɛ ta... la' avec la simple présence locative. Marquez bien la transition rythmique de la postposition 'la'."
+    "key_sounds": [
+      "Le [d] bref de la particule future 'di', bien distincte de 'di' (donner) selon le contexte",
+      "Le suffixe '-to' du prospectif, à ne pas confondre avec la postposition 'to' (chez)",
+      "Distinction 'tè' (négation présent/futur) et 'tèrè' (marque du passé)"
+    ],
+    "common_pitfalls": [
+      "Confondre 'di' (futur) et 'di' (donner) : deux homophones à distinguer uniquement par le contexte grammatical",
+      "Utiliser 'ma' (négation du passé) au lieu de 'tè' pour nier une phrase au futur"
+    ]
   },
   "vocabulary": [
     {
-      "word_id": "v5_1",
-      "term": "Sini",
-      "phonetic_api": "/si.ni/",
-      "phonetic_simple": "SI-NI",
-      "translation": "Demain / L'avenir",
-      "example_sentence": "Sini ka di an ye",
-      "example_phonetic": "/si.ni ka di an ye/",
-      "example_translation": "L'avenir est prometteur pour nous."
+      "word_id": "v1",
+      "term": "di (futur)",
+      "phonetic_api": "[di]",
+      "phonetic_simple": "di",
+      "translation": "marque du futur (va/ira)",
+      "example_sentence": "N di wa lèkoli la.",
+      "example_phonetic": "[n di wa lɛkoli la]",
+      "example_translation": "J'irai à l'école."
     },
     {
-      "word_id": "v5_2",
-      "term": "Sinasini",
-      "phonetic_api": "/si.na.si.ni/",
-      "phonetic_simple": "SI-NA-SI-NI",
-      "translation": "Après-demain",
-      "example_sentence": "An bɛ bɛn la sinasini",
-      "example_phonetic": "/an bɛ bɛn la si.na.si.ni/",
-      "example_translation": "Nous nous rencontrerons après-demain."
+      "word_id": "v2",
+      "term": "tè (négation future)",
+      "phonetic_api": "[tɛ]",
+      "phonetic_simple": "tè",
+      "translation": "marque de négation au présent/futur",
+      "example_sentence": "Den tè sinoo.",
+      "example_phonetic": "[dɛn tɛ sinoː]",
+      "example_translation": "L'enfant ne dormira pas."
     },
     {
-      "word_id": "v5_3",
-      "term": "Fɛ",
-      "phonetic_api": "/fɛ/",
-      "phonetic_simple": "FƐ",
-      "translation": "Vouloir / Désirer / Avoir l'intention de",
-      "example_sentence": "N bɛ baara dila fɛ",
-      "example_phonetic": "/n̩ bɛ baː.ra di.la fɛ/",
-      "example_translation": "Je veux créer une activité professionnelle."
+      "word_id": "v3",
+      "term": "-to (prospectif)",
+      "phonetic_api": "[-to]",
+      "phonetic_simple": "-to",
+      "translation": "sur le point de (futur proche)",
+      "example_sentence": "N watô lekoli la.",
+      "example_phonetic": "[n watoː lekoli la]",
+      "example_translation": "Je suis sur le point de partir à l'école."
     },
     {
-      "word_id": "v5_4",
-      "term": "Ɲinan",
-      "phonetic_api": "/ɲi.nã/",
-      "phonetic_simple": "NYI-NAN",
-      "translation": "Cette année / L'année en cours",
-      "example_sentence": "Ɲinan n bɛ malo san la",
-      "example_phonetic": "/ɲi.nã n̩ bɛ ma.lo sã la/",
-      "example_translation": "Cette année, je vais acheter du riz."
+      "word_id": "v4",
+      "term": "ka doja",
+      "phonetic_api": "[ka dodʒa]",
+      "phonetic_simple": "ka-do-dja",
+      "translation": "faire des efforts, progresser",
+      "example_sentence": "I kakan ka i doja.",
+      "example_phonetic": "[i kakan ka i dodʒa]",
+      "example_translation": "Tu dois encore faire un effort."
     },
     {
-      "word_id": "v5_5",
-      "term": "Natɔ",
-      "phonetic_api": "/na.tɔ/",
-      "phonetic_simple": "NA-TƆ",
-      "translation": "Prochain / À venir / Futur",
-      "example_sentence": "Kalo natɔ n bɛ ta so",
-      "example_phonetic": "/ka.lo na.tɔ n̩ bɛ ta so/",
-      "example_translation": "Le mois prochain, j'irai au village."
+      "word_id": "v5",
+      "term": "ka fisaya",
+      "phonetic_api": "[ka fisaja]",
+      "phonetic_simple": "ka-fi-sa-ya",
+      "translation": "s'améliorer, aller mieux",
+      "example_sentence": "Alu la baara di fisaya.",
+      "example_phonetic": "[alu la baːra di fisaja]",
+      "example_translation": "Votre travail va s'améliorer."
     },
     {
-      "word_id": "v5_6",
-      "term": "Kalo",
-      "phonetic_api": "/ka.lo/",
-      "phonetic_simple": "KA-LO",
-      "translation": "Le mois / La lune",
-      "example_sentence": "Kalo fila bɛ n na yan",
-      "example_phonetic": "/ka.lo fi.la bɛ n̩ na d͡ʒan/",
-      "example_translation": "Je passerai deux mois ici."
+      "word_id": "v6",
+      "term": "ka baarala",
+      "phonetic_api": "[ka baːrala]",
+      "phonetic_simple": "ka-ba-a-ra-la",
+      "translation": "travailler",
+      "example_sentence": "A bada wa baara diya.",
+      "example_phonetic": "[a bada wa baːra dija]",
+      "example_translation": "Il est allé au travail."
     },
     {
-      "word_id": "v5_7",
-      "term": "Mirila",
-      "phonetic_api": "/mi.ri.la/",
-      "phonetic_simple": "MI-RI-LA",
-      "translation": "Le projet / La pensée / L'intention",
-      "example_sentence": "N ka mirila ka bon",
-      "example_phonetic": "/n̩ ka mi.ri.la ka bõ/",
-      "example_translation": "Mon projet est grand."
+      "word_id": "v7",
+      "term": "ka karan",
+      "phonetic_api": "[ka karan]",
+      "phonetic_simple": "ka-ka-ran",
+      "translation": "lire, étudier, apprendre",
+      "example_sentence": "Karan bada ban.",
+      "example_phonetic": "[karan bada ban]",
+      "example_translation": "La lecture/l'étude est finie."
     },
     {
-      "word_id": "v5_8",
-      "term": "Sigi",
-      "phonetic_api": "/si.ɡi/",
-      "phonetic_simple": "SI-GUI",
-      "translation": "S'installer / Demeurer / Établir",
-      "example_sentence": "N bɛ n sigi la Kankan",
-      "example_phonetic": "/n̩ bɛ n̩ si.ɡi la kan.kan/",
-      "example_translation": "Je vais m'installer à Kankan."
-    },
-    {
-      "word_id": "v5_9",
-      "term": "Baaraba",
-      "phonetic_api": "/baː.ra.ba/",
-      "phonetic_simple": "BAA-RA-BA",
-      "translation": "Un grand travail / Une grande entreprise",
-      "example_sentence": "A bɛ baaraba dila la",
-      "example_phonetic": "/a bɛ baː.ra.ba di.la la/",
-      "example_translation": "Il va fonder une grande entreprise."
-    },
-    {
-      "word_id": "v5_10",
-      "term": "Ala k'a kɛ",
-      "phonetic_api": "/a.la k'a kɛ/",
-      "phonetic_simple": "A-LA K'A KƐ",
-      "translation": "Espérons-le / Que Dieu le fasse (Inshallah)",
-      "example_sentence": "N bɛ se la, Ala k'a kɛ",
-      "example_phonetic": "/n̩ bɛ se la a.la k'a kɛ/",
-      "example_translation": "Je vais réussir, espérons-le."
+      "word_id": "v8",
+      "term": "sinin",
+      "phonetic_api": "[sinin]",
+      "phonetic_simple": "si-nin",
+      "translation": "demain",
+      "example_sentence": "Nɛnɛ dí bɔ́ sínin.",
+      "example_phonetic": "[nɛnɛ di bo sinin]",
+      "example_translation": "Il fera froid demain."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p5_1",
-      "original": "I bɛ mun kɛ la kalo natɔ la ?",
-      "phonetic_api": "/i bɛ mũ kɛ la ka.lo na.tɔ la/",
-      "phonetic_simple": "I BƐ MOUN KƐ LA KA-LO NA-TƆ LA ?",
-      "translation": "Que vas-tu faire le mois prochain ?",
-      "context": "Interroger un collaborateur ou un ami sur ses intentions futures."
+      "phrase_id": "p1",
+      "original": "N di wa lèkoli la",
+      "phonetic_api": "[n di wa lɛkoli la]",
+      "phonetic_simple": "n-di-wa-lè-ko-li-la",
+      "translation": "J'irai à l'école",
+      "context": "Futur simple avec 'di'"
     },
     {
-      "phrase_id": "p5_2",
-      "original": "N bɛ baaraba dila fɛ yan.",
-      "phonetic_api": "/n̩ bɛ baː.ra.ba di.la fɛ d͡ʒan/",
-      "phonetic_simple": "N BƐ BAA-RA-BA DI-LA FƐ YAN.",
-      "translation": "J'ai l'intention de créer une grande entreprise ici.",
-      "context": "Partager ses ambitions professionnelles ou économiques."
+      "phrase_id": "p2",
+      "original": "N watô lekoli la",
+      "phonetic_api": "[n watoː lekoli la]",
+      "phonetic_simple": "n-wa-to-lé-ko-li-la",
+      "translation": "Je suis sur le point de partir à l'école",
+      "context": "Futur proche/prospectif avec '-to'"
     },
     {
-      "phrase_id": "p5_3",
-      "original": "Sini do fisa ni bi ra, Ala k'a kɛ.",
-      "phonetic_api": "/si.ni do fi.sa ni bi ra a.la k'a kɛ/",
-      "phonetic_simple": "SI-NI DO FI-SA NI BI RA, A-LA K'A KƐ.",
-      "translation": "Demain vaudra mieux qu'aujourd'hui, espérons-le.",
-      "context": "Formule d'encouragement et d'optimisme face à l'avenir."
+      "phrase_id": "p3",
+      "original": "I kakan ka i doja",
+      "phonetic_api": "[i kakan ka i dodʒa]",
+      "phonetic_simple": "i-ka-kan-ka-i-do-dja",
+      "translation": "Tu dois encore faire un effort",
+      "context": "Encouragement à progresser vers un objectif futur"
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Alu la baara di fisaya",
+      "phonetic_api": "[alu la baːra di fisaja]",
+      "phonetic_simple": "a-lou-la-ba-a-ra-di-fi-sa-ya",
+      "translation": "Votre travail va s'améliorer",
+      "context": "Encouragement porté sur un progrès futur collectif"
+    },
+    {
+      "phrase_id": "p5",
+      "original": "N di n na faninnu ko, sinin",
+      "phonetic_api": "[n di n na faninnu ko sinin]",
+      "phonetic_simple": "n-di-n-na-fa-nin-nou-ko, si-nin",
+      "translation": "Je laverai mes habits demain",
+      "context": "Projet concret pour le lendemain"
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'expression du futur avec l'inaccompli 'bɛ... la'",
-      "explanation": "En malinké, le futur et les projets à venir partagent la même structure grammaticale que le présent progressif. C'est l'adjonction d'un marqueur temporel futur (comme 'sini' ou 'kalo natɔ') qui bascule sémantiquement l'action dans l'avenir.",
+      "concept": "Le futur simple avec 'di'",
+      "explanation": "Le futur le plus courant se forme en plaçant la particule 'di' entre le sujet et le verbe (ou avant le complément d'objet s'il y en a un).",
       "rules": [
-        "Structure : [Indicateur de futur] + Sujet + 'bɛ' + Verbe + 'la'."
+        "Structure affirmative : [Sujet] + di + ([COD]) + [Verbe]",
+        "Structure négative : [Sujet] + tè + ([COD]) + [Verbe]"
       ],
       "examples": [
         {
-          "structure": "Sini n bɛ ta la lɔgɔfe la",
-          "phonetic_api": "/si.ni n̩ bɛ ta la lɔ.ɡɔ.fe la/",
-          "meaning": "Demain, j'irai au marché."
+          "structure": "[Sujet] di [Verbe]",
+          "phonetic_api": "[di]",
+          "meaning": "[Sujet] fera [verbe]"
+        },
+        {
+          "structure": "[Sujet] tè [Verbe]",
+          "phonetic_api": "[tɛ]",
+          "meaning": "[Sujet] ne fera pas [verbe]"
         }
       ]
     },
     {
-      "concept": "L'expression de la volonté et du souhait avec 'fɛ'",
-      "explanation": "Pour exprimer la volonté ou l'ambition d'accomplir un projet, on utilise la marque positive 'bɛ' combinée à la postposition de souhait 'fɛ' placée après le verbe d'action.",
+      "concept": "Le futur proche/prospectif avec '-to'",
+      "explanation": "Pour exprimer une action imminente ('être sur le point de'), on ajoute le suffixe '-to' directement au verbe.",
       "rules": [
-        "Structure : Sujet + 'bɛ' + Verbe d'action / Projet + 'fɛ'."
+        "Structure : [Sujet] + [Verbe]-to + [Complément]",
+        "Exprime une intention ou une action très proche dans le temps"
       ],
       "examples": [
         {
-          "structure": "N bɛ sigi fɛ yan",
-          "phonetic_api": "/n̩ bɛ si.ɡi fɛ d͡ʒan/",
-          "meaning": "Je souhaite m'installer ici."
+          "structure": "[Verbe]-to",
+          "phonetic_api": "[-to]",
+          "meaning": "être sur le point de [verbe]"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Fanta",
-      "text": "Aminata, i ka mirila juman bɛ i la ɲinan ?",
-      "phonetic_api": "/a.mi.na.ta i ka mi.ri.la d͡ʒu.man bɛ i la ɲi.nã/",
-      "phonetic_simple": "A-MI-NA-TA, I KA MI-RI-LA DJOU-MAN BƐ I LA NYI-NAN ?",
-      "translation": "Aminata, quels sont tes projets pour cette année ?"
+      "speaker": "Karamoo",
+      "text": "I kakan ka i doja, i la baara di fisaya.",
+      "phonetic_api": "[i kakan ka i dodʒa i la baːra di fisaja]",
+      "phonetic_simple": "i-ka-kan-ka-i-do-dja, i-la-ba-a-ra-di-fi-sa-ya",
+      "translation": "Tu dois encore faire un effort, ton travail va s'améliorer."
     },
     {
-      "speaker": "Aminata",
-      "text": "Fanta, ɲinan n bɛ sugufeela baara dila fɛ. N bɛ ta la Siguiri.",
-      "phonetic_api": "/fan.ta ɲi.nã n̩ bɛ su.ɡu.feː.la baː.ra di.la fɛ n̩ bɛ ta la si.ɡi.ri/",
-      "phonetic_simple": "FAN-TA, NYI-NAN N BƐ SOU-GOU-FÉE-LA BAA-RA DI-LA FƐ. N BƐ TA LA SI-GUI-RI.",
-      "translation": "Fanta, cette année je veux lancer une activité commerciale. Je vais me rendre à Siguiri."
+      "speaker": "Karanden",
+      "text": "Awa, karamoo. N watô lekoli la sinin.",
+      "phonetic_api": "[awa karamoː n watoː lekoli la sinin]",
+      "phonetic_simple": "a-wa, ka-ra-mo-o. n-wa-to-lé-ko-li-la-si-nin",
+      "translation": "D'accord, maître. Je serai sur le point de partir à l'école demain."
     },
     {
-      "speaker": "Fanta",
-      "text": "O ka ɲi ! I bɛ i sigi la fɛ Siguiri soba kɔnɔ ko ?",
-      "phonetic_api": "/o ka ɲi i bɛ i si.ɡi la fɛ si.ɡi.ri so.ba kɔ.nɔ ko/",
-      "phonetic_simple": "O KA NYI ! I BƐ I SI-GUI LA FƐ SI-GUI-RI SO-BA KƆ-NƆ KO ?",
-      "translation": "Oh c'est bien ! As-tu l'intention de t'installer définitivement dans la grande ville de Siguiri ?"
+      "speaker": "Karamoo",
+      "text": "A di kè nyuma !",
+      "phonetic_api": "[a di kɛ ɲuma]",
+      "phonetic_simple": "a-di-kè-nyou-ma",
+      "translation": "Cela ira bien !"
     },
     {
-      "speaker": "Aminata",
-      "text": "Hali kpe, n bɛ baaraba dila fɛ, Ala k'a kɛ !",
-      "phonetic_api": "/ha.li k͡pe n̩ bɛ baː.ra.ba di.la fɛ a.la k'a kɛ/",
-      "phonetic_simple": "HA-LI KPÉ, N BƐ BAA-RA-BA DI-LA FƐ, A-LA K'A KƐ !",
-      "translation": "Absolument, je veux y fonder une grande entreprise, espérons-le !"
+      "speaker": "Karanden",
+      "text": "N di n hakili di, n di baarala kosobè sinin.",
+      "phonetic_api": "[n di n hakili di n di baːrala kosobɛ sinin]",
+      "phonetic_simple": "n-di-n-ha-ki-li-di, n-di-ba-a-ra-la-ko-so-bè-si-nin",
+      "translation": "Je vais me concentrer, je travaillerai beaucoup demain."
     }
   ],
   "cultural_notes": [
-    "Dans l'éthos culturel mandingue, formuler un projet d'avenir s'accompagne systématiquement de la bénédiction 'Ala k'a kɛ' (Que Dieu le réalise). Il est perçu comme une marque d'arrogance ou de présomption sociale d'affirmer un événement futur sans en référer à la volonté divine ou au destin communautaire."
+    "L'encouragement scolaire ('i doja' = fais des efforts) est une formule très courante dans les échanges entre maîtres ('karamoo') et élèves ('karanden'), reflétant l'importance de la persévérance dans l'éducation traditionnelle ([Malinkuia](https://fr.scribd.com/document/499114939/Malinkuia))."
   ],
   "exercises": [
     {
-      "exercise_id": "B1_M2_L5_ex1",
-      "type": "multiple_choice",
-      "question": "Que signifie la formule culturelle 'Ala k'a kɛ' ?",
-      "options": [
-        "C'est impossible",
-        "Que Dieu fasse qu'il en soit ainsi (Inshallah)",
-        "Au revoir"
-      ],
-      "correct_answer": "Que Dieu fasse qu'il en soit ainsi (Inshallah)",
-      "explanation": "C'est la formule d'accompagnement obligatoire pour tout projet ou souhait futur."
+      "exercise_id": "e1",
+      "type": "traduction",
+      "question": "Traduisez : 'J'irai à l'école.'",
+      "correct_answer": "N di wa lèkoli la.",
+      "explanation": "Futur simple : sujet + di + verbe."
     },
     {
-      "exercise_id": "B1_M2_L5_ex2",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Kalo [ ___ ] n bɛ ta so (Le mois prochain j'irai à la maison).",
-      "correct_answer": "nato",
-      "hint": "Mot signifiant 'prochain' ou 'qui vient'."
+      "exercise_id": "e2",
+      "type": "choix_multiple",
+      "question": "Quelle particule marque le futur proche/imminent ?",
+      "options": [
+        "di",
+        "-to",
+        "tèrè",
+        "bada"
+      ],
+      "correct_answer": "-to",
+      "explanation": "Le suffixe '-to' exprime une action sur le point de se produire."
+    },
+    {
+      "exercise_id": "e3",
+      "type": "texte_a_trous",
+      "sentence_with_blank": "Den ___ sinoo.  (L'enfant ne dormira pas.)",
+      "correct_answer": "tè",
+      "hint": "C'est la négation utilisée au présent/futur (différente de 'ma' au passé)."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Malinkuia — Introduction à la langue malinké (grammaire complète, variété du Wulada, Haute-Guinée)",
+      "url": "https://fr.scribd.com/document/499114939/Malinkuia"
+    },
+    {
+      "label": "Vydrin, « Le TAM en maninka de Guinée : la zone du futur », Mandenkan 70 (2023)",
+      "url": "https://journals.openedition.org/mandenkan/pdf/3253"
+    }
+  ],
+  "confidence": "élevée",
+  "confidence_note": "Le futur simple avec 'di' et le prospectif avec '-to' sont attestés à la fois dans Malinkuia (variété du Wulada) et confirmés par l'étude académique de Vydrin sur le futur en maninka de Guinée (qui documente 'dí' comme futur-1, le plus fréquent, et le suffixe '-tɔ' comme marqueur prospectif) — une convergence qui renforce fortement la confiance."
 }

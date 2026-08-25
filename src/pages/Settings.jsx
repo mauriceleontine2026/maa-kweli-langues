@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { ShieldCheck, Bell, Lock, UserRound, ChevronRight, Save } from "lucide-react";
+import { ShieldCheck, Bell, Lock, UserRound, ChevronRight, Save, RotateCcw, Info } from "lucide-react";
 import { useAuth } from "@/lib/AuthContext";
 
 const settingsItems = [
@@ -82,16 +82,28 @@ export default function Settings() {
     window.setTimeout(() => setSaved(false), 2200);
   };
 
+  const handleReset = () => {
+    setNotificationsEnabled(true);
+    setSecurityAlertsEnabled(true);
+    setPrivateModeEnabled(false);
+    setSavedAt(null);
+    saveSettings({ notificationsEnabled: true, securityAlertsEnabled: true, privateModeEnabled: false });
+    setSaved(true);
+    window.setTimeout(() => setSaved(false), 2200);
+  };
+
+  const activeTitle = activePanel === "security" ? "Sécurité & confidentialité" : "Notifications";
+
   return (
-    <div className="space-y-6 px-4 py-6">
-      <div className="rounded-3xl border border-border bg-card p-5 shadow-sm">
+    <div className="mx-auto w-full max-w-6xl space-y-6 px-4 py-6 sm:px-6 lg:px-10">
+      <div className="rounded-3xl border border-border bg-card p-5 shadow-sm sm:p-7">
         <div className="mb-4 flex items-center gap-3">
           <div className="rounded-2xl bg-primary/15 p-2 text-primary">
             <ShieldCheck size={20} />
           </div>
           <div>
-            <h1 className="text-xl font-bold text-foreground">Réglages, Paramètres & Confidentialité</h1>
-            <p className="text-sm text-muted-foreground">Centralisez vos préférences et votre sécurité.</p>
+            <h1 className="text-2xl font-bold text-foreground sm:text-3xl">Réglages et confidentialité</h1>
+            <p className="mt-1 text-sm text-muted-foreground">Centralisez vos préférences, votre sécurité et votre profil.</p>
           </div>
         </div>
 
@@ -108,30 +120,27 @@ export default function Settings() {
               </div>
               <div className="text-sm font-semibold text-foreground">{title}</div>
               <p className="mt-1 text-sm text-muted-foreground">{description}</p>
-              <div className="mt-3 text-xs font-semibold text-primary">{title === "Compte" ? "Ouvrir mon profil →" : "Gérer maintenant →"}</div>
+              <div className="mt-3 inline-flex items-center gap-1 text-xs font-semibold text-primary">{title === "Compte" ? "Ouvrir mon profil" : "Gérer maintenant"} <ChevronRight size={13} /></div>
             </button>
           ))}
         </div>
       </div>
 
-      <div className="rounded-3xl border border-border bg-card p-5 shadow-sm">
-        <div className="mb-4 flex items-center justify-between gap-3">
+      <div className="grid gap-6 lg:grid-cols-[220px_minmax(0,1fr)]">
+        <nav className="h-fit rounded-2xl border border-border bg-card p-2 shadow-sm" aria-label="Sections des réglages">
+          <button type="button" onClick={() => navigate("/profil")} className="flex w-full items-center gap-3 rounded-xl px-3 py-3 text-left text-sm font-semibold text-foreground transition hover:bg-secondary"><UserRound size={17} className="text-primary" /> Mon compte</button>
+          <button type="button" onClick={() => setActivePanel("notifications")} className={`flex w-full items-center gap-3 rounded-xl px-3 py-3 text-left text-sm font-semibold transition ${activePanel === "notifications" ? "bg-primary/10 text-primary" : "text-muted-foreground hover:bg-secondary hover:text-foreground"}`}><Bell size={17} /> Notifications</button>
+          <button type="button" onClick={() => setActivePanel("security")} className={`flex w-full items-center gap-3 rounded-xl px-3 py-3 text-left text-sm font-semibold transition ${activePanel === "security" ? "bg-primary/10 text-primary" : "text-muted-foreground hover:bg-secondary hover:text-foreground"}`}><Lock size={17} /> Sécurité</button>
+        </nav>
+
+        <section className="rounded-3xl border border-border bg-card p-5 shadow-sm sm:p-7">
+        <div className="mb-5 flex flex-col gap-4 border-b border-border pb-5 sm:flex-row sm:items-center sm:justify-between">
           <div>
-            <h2 className="text-lg font-bold text-foreground">Préférences de confidentialité</h2>
+            <div className="mb-1 text-xs font-semibold uppercase tracking-[0.16em] text-primary">{activeTitle}</div>
+            <h2 className="text-xl font-bold text-foreground">Vos préférences</h2>
             <p className="text-sm text-muted-foreground">{profileSummary}</p>
           </div>
-          <button
-            onClick={handleSave}
-            className="inline-flex items-center gap-2 rounded-xl bg-primary px-3 py-2 text-sm font-semibold text-primary-foreground"
-          >
-            <Save size={16} />
-            Enregistrer
-          </button>
-        </div>
-
-        <div className="mb-3 flex flex-wrap gap-2">
-          <button type="button" onClick={() => setActivePanel("notifications")} className={`rounded-xl px-3 py-2 text-sm font-semibold transition ${activePanel === "notifications" ? "bg-primary text-primary-foreground" : "border border-border text-muted-foreground hover:bg-secondary"}`}>Notifications</button>
-          <button type="button" onClick={() => setActivePanel("security")} className={`rounded-xl px-3 py-2 text-sm font-semibold transition ${activePanel === "security" ? "bg-primary text-primary-foreground" : "border border-border text-muted-foreground hover:bg-secondary"}`}>Sécurité & confidentialité</button>
+          <div className="flex gap-2"><button type="button" onClick={handleReset} className="inline-flex items-center gap-2 rounded-xl border border-border px-3 py-2 text-sm font-medium text-muted-foreground transition hover:bg-secondary"><RotateCcw size={15} /> Réinitialiser</button><button type="button" onClick={handleSave} className="inline-flex items-center gap-2 rounded-xl bg-primary px-3 py-2 text-sm font-semibold text-primary-foreground transition hover:opacity-90"><Save size={16} /> Enregistrer</button></div>
         </div>
 
         <div className="grid gap-3 md:grid-cols-2">
@@ -172,6 +181,8 @@ export default function Settings() {
           </label>}
         </div>
 
+        <div className="mt-5 flex items-start gap-2 rounded-xl border border-border bg-background/70 p-3 text-xs leading-5 text-muted-foreground"><Info size={15} className="mt-0.5 shrink-0 text-primary" /><span>Les préférences sont enregistrées sur cet appareil. Les données de votre compte restent gérées depuis votre profil.</span></div>
+
         <div className="mt-4 flex flex-wrap gap-3">
           <button
             onClick={() => navigate("/profil")}
@@ -205,6 +216,7 @@ export default function Settings() {
             })}
           </div>
         ) : null}
+        </section>
       </div>
     </div>
   );

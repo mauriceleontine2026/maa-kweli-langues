@@ -6,368 +6,220 @@
   "lesson_number": 5,
   "title": "Parler de ses projets futurs et de ses ambitions",
   "learning_objectives": [
-    "Former le futur avec la construction káa pái + verbe-ì.",
-    "Exprimer le désir avec la construction káa ... bɔ̀/pɔ́ (vouloir).",
-    "Parler de ses rêves avec hěe (~ ɓó = rêver de).",
-    "Construire des phrases sur ses projets personnels et professionnels."
+    "Construire le futur avec le marqueur káa + pâi + verbe-ì",
+    "Exprimer une volonté ou un souhait avec gɛ́ (marqueur quotatif de volonté)",
+    "Parler d'un projet en utilisant le vocabulaire du travail et du village"
   ],
   "phonetic_focus": {
-    "key_sounds": "Le futur kpele ajoute simplement pái entre le marqueur progressif káa (1SG gáa) et le verbe à sa forme spéciale en -ì : gáa wèlé tòôi (je chante) devient gáa pái wèlé tòôi (je chanterai). Ce redoublement káa + pái peut surprendre à l'oral, mais suit une logique régulière déjà croisée avec d'autres constructions progressives.",
-    "common_pitfalls": "Les francophones ont tendance à : (1) oublier pái et utiliser seulement la construction progressive, ce qui donne un sens présent (« je chante ») et non futur (« je chanterai ») ; (2) chercher un verbe unique pour « vouloir », alors que le kpele utilise káa + [chose désirée] + bɔ̀/pɔ́, une construction proche de « avoir envie de » ; (3) confondre hěe (rêve, ton bas) avec hěe 2 (s'asseoir/mettre, un verbe totalement différent malgré la même orthographe)."
+    "key_sounds": "Le futur combine trois éléments : le marqueur progressif káa, le morphème pâi (proche du sens de « aller, s'apprêter à ») et le verbe portant le suffixe -ì. Chaque élément garde son propre ton, ce qui donne une séquence tonale à mémoriser comme un tout.",
+    "common_pitfalls": "Les francophones oublient souvent l'un des trois éléments de la construction du futur (káa, pâi ou le suffixe -ì), alors que les trois sont nécessaires ensemble pour marquer le futur, contrairement au français où un seul auxiliaire (« aller ») suffit."
   },
   "vocabulary": [
     {
       "word_id": "v1",
-      "term": "pái",
-      "phonetic_api": "/pái/",
-      "phonetic_simple": "PA-i",
-      "translation": "marqueur du futur (káa pái + verbe = je/il ferai)",
-      "example_sentence": "Tínaa gáa pái ↓kólo ↓kɛ̂i.",
-      "example_phonetic": "/tínaa gáa pái ↓kólo ↓kɛ̂i/",
-      "example_translation": "Je vais travailler demain."
+      "term": "káa pâi",
+      "phonetic_api": "/káa pâi/",
+      "phonetic_simple": "KA-a PA-i",
+      "translation": "marqueur du futur (litt. être + aller)",
+      "example_sentence": "Ŋé káa pâi kólô kɛ́ì.",
+      "example_phonetic": "/ŋé káa pâi kólô kɛ́ì/",
+      "example_translation": "Je vais travailler."
     },
     {
       "word_id": "v2",
-      "term": "hěe",
-      "phonetic_api": "/hěe/",
-      "phonetic_simple": "hè-e (ton bas)",
-      "translation": "rêve (~ ɓó = rêver de – à)",
-      "example_sentence": "È hìín ɓò à mɔ̀ɓílîi.",
-      "example_phonetic": "/è hìín ɓò à mɔ̀ɓílîi/",
-      "example_translation": "Il a rêvé d'une voiture."
+      "term": "gɛ́",
+      "phonetic_api": "/gɛ́/",
+      "phonetic_simple": "GHÉ",
+      "translation": "je (marqueur exprimant un souhait/une volonté, avec « vouloir »)",
+      "example_sentence": "Gɛ́ ↓ŋé gbéle.",
+      "example_phonetic": "/gɛ́ ↓ŋé gbéle/",
+      "example_translation": "Je veux boire."
     },
     {
       "word_id": "v3",
-      "term": "bɔ̀",
-      "phonetic_api": "/bɔ̀/",
-      "phonetic_simple": "bo",
-      "translation": "vouloir (que...) — s'utilise avec káa",
-      "example_sentence": "Gáa bɔ̀ Hɛ́ni è lí nɔ̀ɠɔ́kpalaŋ ↓ɲá.",
-      "example_phonetic": "/gáa bɔ̀ hɛ́ni è lí nɔ̀ɣɔ́kpalaŋ ↓ɲá/",
-      "example_translation": "Je veux que Heni aille au marché."
-    },
-    {
-      "word_id": "v4",
-      "term": "pɔ́",
-      "phonetic_api": "/pɔ́/",
-      "phonetic_simple": "PO",
-      "translation": "vouloir qch, vouloir faire qch — s'utilise avec káa",
-      "example_sentence": "Pépèe káa mɔ̀ɓílii nìnɛ pɔ́.",
-      "example_phonetic": "/pépèe káa mɔ̀ɓílii nìnɛ pɔ́/",
-      "example_translation": "Pépé veut une nouvelle voiture."
-    },
-    {
-      "word_id": "v5",
-      "term": "mɔ̀ɓílii",
-      "phonetic_api": "/mɔ̀ɓílii/",
-      "phonetic_simple": "mo-ɓI-li-i",
-      "translation": "voiture",
-      "example_sentence": "Pépèe káa mɔ̀ɓílii nìnɛ pɔ́.",
-      "example_phonetic": "/pépèe káa mɔ̀ɓílii nìnɛ pɔ́/",
-      "example_translation": "Pépé veut une nouvelle voiture."
-    },
-    {
-      "word_id": "v6",
-      "term": "nìnɛ",
-      "phonetic_api": "/nìnɛ/",
-      "phonetic_simple": "ni-nè",
-      "translation": "nouveau, neuf",
-      "example_sentence": "mɔ̀ɓílii nìnɛ",
-      "example_phonetic": "/mɔ̀ɓílii nìnɛ/",
-      "example_translation": "une nouvelle voiture"
-    },
-    {
-      "word_id": "v7",
-      "term": "wèlé",
-      "phonetic_api": "/wèlé/",
-      "phonetic_simple": "wè-LÉ",
-      "translation": "chanson (dans la construction wèlé tǒo, chanter)",
-      "example_sentence": "Gáa pái wèlé tòôi.",
-      "example_phonetic": "/gáa pái wèlé tòôi/",
-      "example_translation": "Je chanterai."
-    },
-    {
-      "word_id": "v8",
       "term": "kólô",
       "phonetic_api": "/kólô/",
       "phonetic_simple": "KO-lô",
-      "translation": "travail (~ kɛ́ = travailler)",
-      "example_sentence": "Tínaa gáa pái ↓kólo ↓kɛ̂i.",
-      "example_phonetic": "/tínaa gáa pái ↓kólo ↓kɛ̂i/",
-      "example_translation": "Je vais travailler demain."
+      "translation": "travail",
+      "example_sentence": "Ŋé káa pâi kólô kɛ́ì Zálikwɛ̀lɛ.",
+      "example_phonetic": "/ŋé káa pâi kólô kɛ́ì zálikwɛ̀lɛ/",
+      "example_translation": "Je vais travailler à Nzérékoré."
     },
     {
-      "word_id": "v9",
-      "term": "tínaa",
-      "phonetic_api": "/tínaa/",
-      "phonetic_simple": "TI-naa",
-      "translation": "demain",
-      "example_sentence": "Tínaa gáa pái ↓kólo ↓kɛ̂i.",
-      "example_phonetic": "/tínaa gáa pái ↓kólo ↓kɛ̂i/",
-      "example_translation": "Je vais travailler demain."
+      "word_id": "v4",
+      "term": "hěɠe",
+      "phonetic_api": "/hěɠe/",
+      "phonetic_simple": "HÉ-guè",
+      "translation": "partir, quitter",
+      "example_sentence": "Ŋé káa pâi héɠeì.",
+      "example_phonetic": "/ŋé káa pâi héɠeì/",
+      "example_translation": "Je vais partir."
     },
     {
-      "word_id": "v10",
-      "term": "lǐ",
-      "phonetic_api": "/lǐ/",
-      "phonetic_simple": "li (ton bas)",
-      "translation": "aller, partir",
-      "example_sentence": "Gáa bɔ̀ Hɛ́ni è lí nɔ̀ɠɔ́kpalaŋ ↓ɲá.",
-      "example_phonetic": "/gáa bɔ̀ hɛ́ni è lí nɔ̀ɣɔ́kpalaŋ ↓ɲá/",
-      "example_translation": "Je veux que Heni aille au marché."
+      "word_id": "v5",
+      "term": "hǔ-kɛ́nɛ",
+      "phonetic_api": "/hǔ-kɛ́nɛ/",
+      "phonetic_simple": "HOU-ké-nè",
+      "translation": "manger beaucoup, être gourmand (verbe attesté, réutilisable comme projet ironique)",
+      "example_sentence": "É hùkɛ́nɛi ↓dɛ́!",
+      "example_phonetic": "/é hùkɛ́nɛi ↓dɛ́/",
+      "example_translation": "Tu es assez gourmand !"
     },
     {
-      "word_id": "v11",
-      "term": "nɔ̀ɠɔ́kpalaŋ",
-      "phonetic_api": "/nɔ̀ɣɔ́kpalaŋ/",
-      "phonetic_simple": "no-gho-KPA-lang",
-      "translation": "marché",
-      "example_sentence": "Gáa lìí nɔ̀ɠɔ́kpalaŋ ↓ɲá.",
-      "example_phonetic": "/gáa lìí nɔ̀ɣɔ́kpalaŋ ↓ɲá/",
-      "example_translation": "Je vais au marché."
+      "word_id": "v6",
+      "term": "lókòlo",
+      "phonetic_api": "/lókòlo/",
+      "phonetic_simple": "LO-ko-lo",
+      "translation": "enfant",
+      "example_sentence": "Ŋá lókòlo káa pâi kólô kɛ́ì.",
+      "example_phonetic": "/ŋá lókòlo káa pâi kólô kɛ́ì/",
+      "example_translation": "Mon enfant va travailler."
     },
     {
-      "word_id": "v12",
-      "term": "káa",
-      "phonetic_api": "/káa/",
-      "phonetic_simple": "KA-a",
-      "translation": "être (auxiliaire des constructions progressive et future)",
-      "example_sentence": "Gáa wèlé tòôi.",
-      "example_phonetic": "/gáa wèlé tòôi/",
-      "example_translation": "Je chante."
+      "word_id": "v7",
+      "term": "pá",
+      "phonetic_api": "/pá/",
+      "phonetic_simple": "PA",
+      "translation": "venir (impératif : viens)",
+      "example_sentence": "Pá gù kɔ́nɔŋ míi.",
+      "example_phonetic": "/pá gù kɔ́nɔŋ míi/",
+      "example_translation": "Viens manger."
+    },
+    {
+      "word_id": "v8",
+      "term": "mǎa-tíi",
+      "phonetic_api": "/mǎa-tíi/",
+      "phonetic_simple": "MA-a-TI-i",
+      "translation": "devoir, occupation (projet à réaliser)",
+      "example_sentence": "Ŋá màatii ɓáa kólô.",
+      "example_phonetic": "/ŋá màatii ɓáa kólô/",
+      "example_translation": "Mon devoir (occupation) est le travail."
     }
   ],
   "common_phrases": [
     {
       "phrase_id": "p1",
-      "original": "Tínaa gáa pái ↓kólo ↓kɛ̂i.",
-      "phonetic_api": "/tínaa gáa pái ↓kólo ↓kɛ̂i/",
-      "phonetic_simple": "TI-naa gaa PA-i KO-lo kê-i",
-      "translation": "Je vais travailler demain.",
-      "context": "Annoncer un projet pour le lendemain"
+      "original": "Ŋé káa pâi kólô kɛ́ì Zálikwɛ̀lɛ.",
+      "phonetic_api": "/ŋé káa pâi kólô kɛ́ì zálikwɛ̀lɛ/",
+      "phonetic_simple": "ngé KA-a PA-i KO-lô KÉ-i ZA-li-kwè-lè",
+      "translation": "Je vais travailler à Nzérékoré.",
+      "context": "Expression d'un projet futur construit sur le modèle grammatical káa + pâi + V-ì (Tableau 11)."
     },
     {
       "phrase_id": "p2",
-      "original": "Gáa pái wèlé tòôi.",
-      "phonetic_api": "/gáa pái wèlé tòôi/",
-      "phonetic_simple": "gaa PA-i wè-LÉ to-o-i",
-      "translation": "Je chanterai.",
-      "context": "Annoncer une action future"
+      "original": "Ŋé káa pâi héɠeì.",
+      "phonetic_api": "/ŋé káa pâi héɠeì/",
+      "phonetic_simple": "ngé KA-a PA-i HÉ-guè-i",
+      "translation": "Je vais partir.",
+      "context": "Futur immédiat, projet de départ."
     },
     {
       "phrase_id": "p3",
-      "original": "É hìín ɓò à mɔ̀ɓílîi.",
-      "phonetic_api": "/é hìín ɓò à mɔ̀ɓílîi/",
-      "phonetic_simple": "é hi-IN bo a mo-ɓI-li-i",
-      "translation": "Tu rêves d'une voiture.",
-      "context": "Parler des rêves ou ambitions matérielles de quelqu'un"
+      "original": "É káa pâi mí ?",
+      "phonetic_api": "/é káa pâi mí/",
+      "phonetic_simple": "é KA-a PA-i MI",
+      "translation": "Où vas-tu aller ?",
+      "context": "Question sur les projets futurs, combinant futur et interrogatif mí (où)."
     },
     {
       "phrase_id": "p4",
-      "original": "Pépèe káa mɔ̀ɓílii nìnɛ pɔ́.",
-      "phonetic_api": "/pépèe káa mɔ̀ɓílii nìnɛ pɔ́/",
-      "phonetic_simple": "PÉ-pè-è kaa mo-ɓI-li-i ni-nè PO",
-      "translation": "Pépé veut une nouvelle voiture.",
-      "context": "Exprimer un désir matériel précis"
+      "original": "Ŋá lókòlo káa pâi kólô kɛ́ì.",
+      "phonetic_api": "/ŋá lókòlo káa pâi kólô kɛ́ì/",
+      "phonetic_simple": "nga LO-ko-lo KA-a PA-i KO-lô KÉ-i",
+      "translation": "Mon enfant va travailler.",
+      "context": "Projet futur concernant un membre de la famille."
     },
     {
       "phrase_id": "p5",
-      "original": "Gáa bɔ̀ Hɛ́ni è lí nɔ̀ɠɔ́kpalaŋ ↓ɲá.",
-      "phonetic_api": "/gáa bɔ̀ hɛ́ni è lí nɔ̀ɣɔ́kpalaŋ ↓ɲá/",
-      "phonetic_simple": "gaa bo HÈ-ni è li no-gho-KPA-lang nya",
-      "translation": "Je veux que Heni aille au marché.",
-      "context": "Exprimer un souhait concernant une autre personne"
-    },
-    {
-      "phrase_id": "p6",
-      "original": "Gáa lìí nɔ̀ɠɔ́kpalaŋ ↓ɲá.",
-      "phonetic_api": "/gáa lìí nɔ̀ɣɔ́kpalaŋ ↓ɲá/",
-      "phonetic_simple": "gaa LI-i no-gho-KPA-lang nya",
-      "translation": "Je vais au marché.",
-      "context": "Annoncer une destination immédiate (rappel Leçon 6)"
-    },
-    {
-      "phrase_id": "p7",
-      "original": "Gáa wèlé tòôi.",
-      "phonetic_api": "/gáa wèlé tòôi/",
-      "phonetic_simple": "gaa wè-LÉ to-o-i",
-      "translation": "Je chante.",
-      "context": "Distinguer le présent progressif du futur (sans pái)"
+      "original": "Ŋá màatii ɓáa kólô.",
+      "phonetic_api": "/ŋá màatii ɓáa kólô/",
+      "phonetic_simple": "nga MA-a-TI-i ba KO-lô",
+      "translation": "Mon devoir (occupation) est le travail.",
+      "context": "Expression d'une ambition ou d'un devoir personnel, avec le nom màatii (devoir/occupation)."
     }
   ],
   "grammar_points": [
     {
-      "concept": "Le futur : káa pái + verbe-ì",
-      "explanation": "Le futur kpele s'obtient en insérant pái entre le marqueur progressif (káa, 1SG gáa) et le verbe à sa forme progressive en -ì, déjà vue dans les constructions présentes.",
+      "concept": "Le futur : káa + pâi + verbe-ì",
+      "explanation": "Le futur en guerzé se construit avec le marqueur progressif káa, suivi de pâi (élément verbal signifiant approximativement « aller, s'apprêter à »), puis du verbe principal portant le suffixe -ì, selon le Tableau 11 de Konoshenko (2019).",
       "rules": [
-        "gáa wèlé tòôi (je chante, présent progressif) → gáa pái wèlé tòôi (je chanterai, futur).",
-        "tínaa gáa pái ↓kólo ↓kɛ̂i = je vais travailler demain : pái signale que l'action n'a pas encore eu lieu.",
-        "Le verbe garde sa forme en -ì, identique à celle du présent progressif ; seul l'ajout de pái change le sens en futur."
+        "Sujet + káa + pâi + Objet + Verbe-ì = le sujet va faire l'action (futur proche/intention).",
+        "Cette construction s'oppose formellement au progressif (káa + V-ì seul, sans pâi), qui décrit une action en cours et non future."
       ],
       "examples": [
         {
-          "structure": "gáa wèlé tòôi → gáa pái wèlé tòôi",
-          "phonetic_api": "/gáa wèlé tòôi/ → /gáa pái wèlé tòôi/",
-          "meaning": "je chante → je chanterai"
-        }
-      ]
-    },
-    {
-      "concept": "Exprimer le désir : káa ... bɔ̀ / káa ... pɔ́",
-      "explanation": "Le kpele n'a pas de verbe simple pour « vouloir » : il utilise káa (être) avec la chose désirée, suivie de bɔ̀ ou pɔ́ selon la construction.",
-      "rules": [
-        "káa [chose] pɔ́ = vouloir [chose] : Pépèe káa mɔ̀ɓílii nìnɛ pɔ́ (Pépé veut une nouvelle voiture).",
-        "káa bɔ̀ [proposition] = vouloir que [quelqu'un fasse quelque chose] : gáa bɔ̀ Hɛ́ni è lí nɔ̀ɠɔ́kpalaŋ ↓ɲá (je veux que Heni aille au marché).",
-        "Cette double construction distingue vouloir un objet (pɔ́) de vouloir qu'un événement se produise (bɔ̀)."
-      ],
-      "examples": [
-        {
-          "structure": "káa mɔ̀ɓílii nìnɛ pɔ́",
-          "phonetic_api": "/káa mɔ̀ɓílii nìnɛ pɔ́/",
-          "meaning": "vouloir une nouvelle voiture"
-        }
-      ]
-    },
-    {
-      "concept": "Parler de ses rêves avec hěe",
-      "explanation": "hěe (rêve) fonctionne comme les autres noms d'état déjà vus (Leçon 3, wɛ́li) : il se combine avec le verbe léger ɓó et la postposition à pour préciser l'objet du rêve.",
-      "rules": [
-        "~ ɓó à [chose] = rêver de [chose] : è hìín ɓò à mɔ̀ɓílîi (il a rêvé d'une voiture).",
-        "Cette construction peut s'utiliser au sens propre (rêve nocturne) comme au sens figuré (ambition, souhait profond)."
-      ],
-      "examples": [
-        {
-          "structure": "hìín ɓò à mɔ̀ɓílîi",
-          "phonetic_api": "/hìín ɓò à mɔ̀ɓílîi/",
-          "meaning": "rêver d'une voiture"
-        }
-      ]
-    },
-    {
-      "concept": "nìnɛ : décrire ce qui est neuf ou à venir",
-      "explanation": "nìnɛ (nouveau, neuf) qualifie un nom pour indiquer qu'il s'agit de quelque chose de récent ou attendu, un mot utile pour parler de projets et d'ambitions matérielles.",
-      "rules": [
-        "L'adjectif qualificatif nìnɛ se place après le nom qu'il qualifie : mɔ̀ɓílii nìnɛ (une nouvelle voiture).",
-        "Il peut s'appliquer à n'importe quel objet dont on rêve ou que l'on projette d'acquérir."
-      ],
-      "examples": [
-        {
-          "structure": "mɔ̀ɓílii nìnɛ",
-          "phonetic_api": "/mɔ̀ɓílii nìnɛ/",
-          "meaning": "une nouvelle voiture"
+          "structure": "ŋé káa pâi kólô kɛ́ì",
+          "phonetic_api": "/ŋé káa pâi kólô kɛ́ì/",
+          "meaning": "je vais travailler (futur)"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Personne A",
-      "text": "É hìín ɓò à mí ?",
-      "phonetic_api": "/é hìín ɓò à mí/",
-      "phonetic_simple": "é hi-IN bo a mi ?",
-      "translation": "De quoi rêves-tu ?"
+      "speaker": "Hehee",
+      "text": "É káa pâi mí ?",
+      "phonetic_api": "/é káa pâi mí/",
+      "phonetic_simple": "é KA-a PA-i MI",
+      "translation": "Où vas-tu aller ?"
     },
     {
-      "speaker": "Personne B",
-      "text": "Ŋé hìín ɓò à mɔ̀ɓílii nìnɛ.",
-      "phonetic_api": "/ŋé hìín ɓò à mɔ̀ɓílii nìnɛ/",
-      "phonetic_simple": "ngé hi-IN bo a mo-ɓI-li-i ni-nè",
-      "translation": "Je rêve d'une nouvelle voiture."
+      "speaker": "Pépé",
+      "text": "Ŋé káa pâi kólô kɛ́ì Zálikwɛ̀lɛ.",
+      "phonetic_api": "/ŋé káa pâi kólô kɛ́ì zálikwɛ̀lɛ/",
+      "phonetic_simple": "ngé KA-a PA-i KO-lô KÉ-i ZA-li-kwè-lè",
+      "translation": "Je vais travailler à Nzérékoré."
     },
     {
-      "speaker": "Personne A",
-      "text": "É pái mí kɛ̂i tínaa ?",
-      "phonetic_api": "/é pái mí kɛ̂i tínaa/",
-      "phonetic_simple": "é PA-i mi kê-i TI-naa ?",
-      "translation": "Que vas-tu faire demain ?"
+      "speaker": "Hehee",
+      "text": "Ŋá màatii ɓáa kólô wɛ̀ɛ.",
+      "phonetic_api": "/ŋá màatii ɓáa kólô wɛ̀ɛ/",
+      "phonetic_simple": "nga MA-a-TI-i ba KO-lô WÈ-è",
+      "translation": "Mon devoir aussi, c'est le travail."
     },
     {
-      "speaker": "Personne B",
-      "text": "Tínaa gáa pái ↓kólo ↓kɛ̂i, élɛɛ gáa pái wèlé tòôi.",
-      "phonetic_api": "/tínaa gáa pái ↓kólo ↓kɛ̂i élɛɛ gáa pái wèlé tòôi/",
-      "phonetic_simple": "TI-naa gaa PA-i KO-lo kê-i, É-lè-è gaa PA-i wè-LÉ to-o-i",
-      "translation": "Je vais travailler demain, puis je chanterai."
-    },
-    {
-      "speaker": "Personne A",
-      "text": "Gáa bɔ̀ é lì nɔ̀ɠɔ́kpalaŋ ↓ɲá máŋ.",
-      "phonetic_api": "/gáa bɔ̀ é lì nɔ̀ɣɔ́kpalaŋ ↓ɲá máŋ/",
-      "phonetic_simple": "gaa bo é li no-gho-KPA-lang nya mang",
-      "translation": "Je veux aussi que tu ailles au marché."
-    },
-    {
-      "speaker": "Personne B",
-      "text": "Ŋàá mɛ̌ŋ, máma !",
-      "phonetic_api": "/ŋàá mɛ̌ŋ máma/",
-      "phonetic_simple": "nga-a MENG, MA-ma !",
-      "translation": "J'ai compris, merci !"
+      "speaker": "Pépé",
+      "text": "Ŋá lókòlo káa pâi kólô kɛ́ì wɛ̀ɛ.",
+      "phonetic_api": "/ŋá lókòlo káa pâi kólô kɛ́ì wɛ̀ɛ/",
+      "phonetic_simple": "nga LO-ko-lo KA-a pa-i KO-lô KÉ-i wè-è",
+      "translation": "Mon enfant va aussi travailler."
     }
   ],
   "cultural_notes": [
-    "La voiture (mɔ̀ɓílii, un emprunt évident au français « automobile ») apparaît dans le dictionnaire comme un symbole d'ambition matérielle moderne, aux côtés du vocabulaire traditionnel hérité du fonds ancien du kpele.",
-    "La construction du futur avec pái, ajoutée à une base progressive déjà existante, montre comment le kpele construit des nuances temporelles supplémentaires à partir d'éléments grammaticaux déjà en place, plutôt que par des formes entièrement nouvelles.",
-    "La distinction entre vouloir un objet (káa ... pɔ́) et vouloir qu'un événement arrive (káa bɔ̀ ...) reflète une structuration fine du désir dans la grammaire kpele, utile pour exprimer des ambitions complexes impliquant d'autres personnes."
+    "Nzérékoré (Zálikwɛ̀lɛ) est souvent citée comme destination de projets professionnels dans le dictionnaire, en tant que centre urbain principal de la Guinée forestière (Konoshenko 2019).",
+    "La notion de màatii (devoir, occupation) reflète l'importance accordée au travail communautaire et individuel dans les valeurs sociales guerzé."
   ],
   "exercises": [
     {
       "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Comment forme-t-on le futur en kpele ?",
+      "question": "Quels sont les trois éléments de la construction du futur en guerzé ?",
       "options": [
-        "káa + verbe-ì seulement",
-        "káa pái + verbe-ì",
-        "àa + verbe",
-        "élɛɛ + verbe"
+        "káa + pâi + verbe-ì",
+        "Un seul auxiliaire séparé",
+        "Le verbe seul avec un ton différent"
       ],
-      "correct_answer": "káa pái + verbe-ì",
-      "explanation": "pái s'insère entre káa et le verbe pour marquer le futur : gáa pái wèlé tòôi (je chanterai)."
+      "correct_answer": "káa + pâi + verbe-ì",
+      "explanation": "Le Tableau 11 de Konoshenko (2019) décrit le futur comme « káa + pâi + V-ì »."
     },
     {
       "exercise_id": "ex2",
-      "type": "multiple_choice",
-      "question": "Comment dit-on « Pépé veut une nouvelle voiture » ?",
-      "options": [
-        "Pépèe káa mɔ̀ɓílii nìnɛ pɔ́.",
-        "Pépèe àá mɔ̀ɓílii tɔ́ɔ.",
-        "Pépèe káa pái mɔ̀ɓílii kɛ̂i.",
-        "É hìín ɓò à mɔ̀ɓílii."
-      ],
-      "correct_answer": "Pépèe káa mɔ̀ɓílii nìnɛ pɔ́.",
-      "explanation": "La construction káa [chose] pɔ́ exprime « vouloir [chose] »."
-    },
-    {
-      "exercise_id": "ex3",
-      "type": "multiple_choice",
-      "question": "Que signifie hěe, dans le contexte de cette leçon ?",
-      "options": [
-        "Voiture",
-        "Rêve",
-        "Travail",
-        "Demain"
-      ],
-      "correct_answer": "Rêve",
-      "explanation": "hěe (rêve) s'utilise avec ~ ɓó à pour dire « rêver de »."
-    },
-    {
-      "exercise_id": "ex4",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "« Je vais travailler demain » se dit : « Tínaa gáa [ ___ ] ↓kólo ↓kɛ̂i. »",
-      "correct_answer": "pái",
-      "hint": "C'est le marqueur du futur."
-    },
-    {
-      "exercise_id": "ex5",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "« Je veux que Heni aille au marché » se dit : « Gáa [ ___ ] Hɛ́ni è lí nɔ̀ɠɔ́kpalaŋ ↓ɲá. »",
-      "correct_answer": "bɔ̀",
-      "hint": "C'est la forme utilisée pour vouloir qu'un événement se produise."
-    },
-    {
-      "exercise_id": "ex6",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "« Nouveau, neuf » se dit [ ___ ], comme dans mɔ̀ɓílii [ ___ ] (nouvelle voiture).",
-      "correct_answer": "nìnɛ",
-      "hint": "C'est un qualificatif placé après le nom."
+      "sentence_with_blank": "Ŋé káa [ ___ ] kólô kɛ́ì. (Je vais travailler.)",
+      "correct_answer": "pâi",
+      "hint": "C'est l'élément intermédiaire de la construction du futur, entre káa et le verbe."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Konoshenko, M. (2019). Dictionnaire kpele de la Guinée (guerzé) – français. Mandenkan 62.",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan62/62konoshenko.pdf"
+    },
+    {
+      "label": "Wikipédia — Kpèllé (langue) / Guerzé",
+      "url": "https://fr.wikipedia.org/wiki/Guerze"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "La construction grammaticale du futur (káa + pâi + V-ì) est directement attestée dans le Tableau 11 de Konoshenko (2019). Les phrases spécifiques sur les projets professionnels ont été composées par l'auteur à partir de ce schéma attesté combiné à du vocabulaire déjà vérifié (kólô, Zálikwɛ̀lɛ, màatii), et non copiées telles quelles d'un exemple unique du dictionnaire."
 }

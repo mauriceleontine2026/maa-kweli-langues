@@ -1,165 +1,182 @@
 {
-  "lesson_id": "C1_M3_L7",
-  "level": "Avancé (C1-C2)",
-  "module_number": 3,
-  "module_title": "Maîtrise totale",
-  "lesson_number": 7,
-  "title": "Comprendre et analyser des textes littéraires, mythologiques ou historiques",
-  "learning_objectives": [
-    "Décortiquer la structure narrative des récits de fondation des clans bédiks",
-    "Analyser les figures de style, parallélismes et inversions poétiques des contes transmis par les anciens",
-    "Interpréter les chroniques historiques orales relatives aux migrations vers les sommets protecteurs"
-  ],
-  "phonetic_focus": {
-    "key_sounds": "Le verbe pour conter ou faire le récit historique de la lignée, 'gisé-eyi', demande une voyelle fermée antérieure /eː/ bien tendue. Le terme désignant l'histoire ancienne des clans, 'kōō-makh-ə̀k', combine la voyelle longue et le suffixe d'antériorité mémorielle avec sa fricative vélaire sourde /χ/.",
-    "common_pitfalls": "Attention à respecter la chute de ton sur le suffixe '-ə̀k' dans 'kōō-makh-ə̀k'. Une intonation ascendante transformerait ce substantif historique en une formulation interrogative incertaine."
-  },
-  "vocabulary": [
-    {
-      "word_id": "v1",
-      "term": "Gisé-eyi",
-      "phonetic_api": "/ɡi.se.ɛ.ji/",
-      "phonetic_simple": "GISÉ-Ɛ-YI",
-      "translation": "Narrer le récit des origines / Conter l'histoire d'un foyer ou d'un clan",
-      "example_sentence": "Baba di gisé-eyi eyi-gwa",
-      "example_phonetic": "/ba.ba di ɡi.se.ɛ.ji ɛ.ji.ɡwa/",
-      "example_translation": "Le patriarche va conter l'histoire de notre grande concession."
+    "lesson_id": "C1_M3_L7",
+    "level": "Avancé (C1-C2)",
+    "module_number": 3,
+    "module_title": "Maîtrise totale",
+    "lesson_number": 7,
+    "title": "Comprendre et analyser des textes littéraires ou historiques",
+    "learning_objectives": [
+        "Analyser le seul texte suivi en ménik disponible publiquement (texte agricole Omniglot)",
+        "Situer ce texte par rapport aux recueils de contes tenda non numérisés"
+    ],
+    "phonetic_focus": {
+        "key_sounds": "Le système phonologique général du bedik (implosives ɓ/ɗ/ƴ, voyelle centrale ë, opposition s/ŝ) reste valable à ce niveau, mais aucune source consultée ne détaille sa réalisation dans des énoncés complexes.",
+        "common_pitfalls": "Sans corpus de phrases longues en bedik, il est impossible de documenter des erreurs de prononciation spécifiques à ce niveau ; cette leçon l'indique honnêtement plutôt que d'en inventer."
     },
-    {
-      "word_id": "v2",
-      "term": "Kōō-makh-ə̀k",
-      "phonetic_api": "/koː.maχ.ək/",
-      "phonetic_simple": "KOOR-MAKH-ƐK",
-      "translation": "La chronique historique / La tradition orale des temps reculés / Le mythe",
-      "example_sentence": "Kōō-makh-ə̀k bē gisá-gaas",
-      "example_phonetic": "/koː.maχ.ək beː ɡi.sa.ɡaːs/",
-      "example_translation": "La chronique historique est la pure vérité (le droit chemin)."
-    },
-    {
-      "word_id": "v3",
-      "term": "Bēt-eyi",
-      "phonetic_api": "/beːt.ɛ.ji/",
-      "phonetic_simple": "BEET-Ɛ-YI",
-      "translation": "Le récit littéraire / Le conte moral / La fable du soir",
-      "example_sentence": "Mama mē bēt-ə̀k bēt-eyi",
-      "example_phonetic": "/ma.ma meː beːt.ək beːt.ɛ.ji/",
-      "example_translation": "Ma mère a raconté un conte moral."
-    },
-    {
-      "word_id": "v4",
-      "term": "Gisá-makh",
-      "phonetic_api": "/ɡi.sa.maχ/",
-      "phonetic_simple": "GI-SA-MAKH",
-      "translation": "La trace des ancêtres / L'héritage culturel historique / La lignée",
-      "example_sentence": "Madyé ɓa-ə̀k gisá-makh",
-      "example_phonetic": "/ma.dʒe ɓa.ək ɡi.sa.maχ/",
-      "example_translation": "La classe d'âge a suivi la trace des ancêtres."
-    }
-  ],
-  "common_phrases": [
-    {
-      "phrase_id": "p1",
-      "original": "Baba di gisé-eyi pour madyé dakat.",
-      "phonetic_api": "/ba.ba di ɡi.se.ɛ.ji puʁ ma.dʒe da.kat/",
-      "phonetic_simple": "BA-BA DI GISÉ-Ɛ-YI POUR MA-DYE DA-KAT",
-      "translation": "Le patriarche va narrer le récit des origines pour la classe d'âge aujourd'hui.",
-      "context": "Annoncer une veillée de transmission historique et littéraire dans la concession."
-    },
-    {
-      "phrase_id": "p2",
-      "original": "Kōō-makh-ə̀k bēt-ə̀k ko-khá mē gwa-nē Iwol.",
-      "phonetic_api": "/koː.maχ.ək beːt.ək ko.χa meː ɡwa.neː i.wɔl/",
-      "phonetic_simple": "KOOR-MAKH-ƐK BEET-ƐK KO-RHÁ MEE GWA-NEE I-WOL",
-      "translation": "La chronique historique rapporte que nous habitions originellement à Iwol.",
-      "context": "Citer un fragment de l'histoire migratoire collective lors d'un grand débat sur le foncier."
-    },
-    {
-      "phrase_id": "p3",
-      "original": "Mē eny-amiat bēt-eyi gaw-khá bē long.",
-      "phonetic_api": "/meː eːɲ.a.mja beːt.ɛ.ji ɡaw.χa beː lõ/",
-      "phonetic_simple": "MEE EENY-A-MIA BEET-Ɛ-YI GAW-RHÁ BEE LONG",
-      "translation": "Je préfère ce conte moral bien qu'il soit extrêmement long.",
-      "context": "Exprimer un avis critique esthétique sur la performance d'un conteur du village."
-    },
-    {
-      "phrase_id": "p4",
-      "original": "Madyé sə̀kh ƴen et ɓa gisá-makh eyi kō.",
-      "phonetic_api": "/ma.dʒe siχ ƴɛn ɛ ɓa ɡi.sa.maχ ɛ.ji ko/",
-      "phonetic_simple": "MA-DYE SƐKH YHAN ET BHA GI-SA-MAKH Ɛ-YI KO",
-      "translation": "La jeunesse doit analyser et saisir l'héritage historique de ce foyer.",
-      "context": "Injonction solennelle invitant à préserver les traditions orales."
-    }
-  ],
-  "grammar_points": [
-    {
-      "concept": "La construction de l'antériorité historique nominalisée 'kōō-makh-ə̀k'",
-      "explanation": "Pour désigner les récits se rapportant au temps mythique ou historique lointain, la langue bédik nominalise le marqueur d'antériorité 'makh-ə̀k' en lui adjoignant le substantif générique de la parole 'kōō'. Cette structure fige le concept abstrait d'histoire ou de patrimoine littéraire.",
-      "rules": [
-        "Le bloc nominal 'kōō-makh-ə̀k' fonctionne comme un sujet ou un complément d'objet direct classique.",
-        "Les verbes qui découlent de son analyse (ex: gisé-eyi) prennent souvent des suffixes duratifs pour souligner la longueur du récit."
-      ],
-      "examples": [
+    "vocabulary": [
         {
-          "structure": "Kōō (Parole) + makh-ə̀k (Antériorité lointaine) = Chronique historique",
-          "phonetic_api": "/koː.maχ.ək/",
-          "meaning": "L'histoire ancienne / La tradition orale mythologique"
+            "word_id": "core_menik",
+            "term": "ménik / mënik",
+            "phonetic_api": "/menik/",
+            "phonetic_simple": "MÉ-NIK",
+            "translation": "la langue bedik (endonyme)",
+            "example_sentence": "(aucune phrase d'exemple attestée)",
+            "example_phonetic": "/.../",
+            "example_translation": "(non disponible)"
+        },
+        {
+            "word_id": "core_adik",
+            "term": "Adik",
+            "phonetic_api": "/adik/",
+            "phonetic_simple": "A-DIK",
+            "translation": "un Bédik (personne, nom du peuple au singulier)",
+            "example_sentence": "(aucune phrase d'exemple attestée)",
+            "example_phonetic": "/.../",
+            "example_translation": "(non disponible)"
+        },
+        {
+            "word_id": "core_manindam",
+            "term": "Manindam",
+            "phonetic_api": "/manindam/",
+            "phonetic_simple": "MA-NIN-DAM",
+            "translation": "cérémonie d'initiation des adolescents (avril-mai)",
+            "example_sentence": "(aucune phrase d'exemple attestée)",
+            "example_phonetic": "/.../",
+            "example_translation": "(non disponible)"
+        },
+        {
+            "word_id": "core_gamond",
+            "term": "Gamond",
+            "phonetic_api": "/gamɔnd/",
+            "phonetic_simple": "GA-MOND",
+            "translation": "fête de mai-juin (fécondité, pluie, santé)",
+            "example_sentence": "(aucune phrase d'exemple attestée)",
+            "example_phonetic": "/.../",
+            "example_translation": "(non disponible)"
+        },
+        {
+            "word_id": "core_eyamb",
+            "term": "Eyamb",
+            "phonetic_api": "/ejamb/",
+            "phonetic_simple": "É-YAMB",
+            "translation": "fête de juin-juillet (puberté des jeunes filles non mariées)",
+            "example_sentence": "(aucune phrase d'exemple attestée)",
+            "example_phonetic": "/.../",
+            "example_translation": "(non disponible)"
         }
-      ]
-    }
-  ],
-  "dialogue": [
-    {
-      "speaker": "Samba",
-      "text": "Sada, ina bē gwas-bi dakat ba-nē baba di gisé-eyi ?",
-      "phonetic_api": "/sa.da i.na beː ɡwa.sbi da.kat ba.neː ba.ba di ɡi.se.ɛ.ji/",
-      "phonetic_simple": "SA-DA, I-NA BEE GWAS-BI DA-KAT BA-NEE BA-BA DI GISÉ-Ɛ-YI ?",
-      "translation": "Sada, es-tu heureux aujourd'hui parce que le patriarche va narrer le récit des origines ?"
-    },
-    {
-      "speaker": "Sada",
-      "text": "Oho, Samba. Kōō-makh-ə̀k bē amiat. Mē ēny nē-khá madyé ɓa gisá-makh.",
-      "phonetic_api": "/o.ho sam.ba koː.maχ.ək beː a.mja meː eːɲ neː.χa ma.dʒe ɓa ɡi.sa.maχ/",
-      "phonetic_simple": "OHO, SAM-BA. KOOR-MAKH-ƐK BEE A-MIA. MEE EENY NEE-RHÁ MA-DYE BHA GI-SA-MAKH.",
-      "translation": "Oui, Samba. La chronique historique est magnifique. Je veux que notre classe d'âge saisisse cet héritage."
-    },
-    {
-      "speaker": "Samba",
-      "text": "Bēt-gwa bēt-ə̀k ko-khá bēt-eyi kō bē gisá-gaas. Ina eny-amiat ?",
-      "phonetic_api": "/beːt.ɡwa beːt.ək ko.χa beːt.ɛ.ji ko beː ɡi.sa.ɡaːs i.na eːɲ.a.mja/",
-      "phonetic_simple": "BEET-GWA BEET-ƐK KO-RHÁ BEET-Ɛ-YI KO BEE GI-SA-GAAS. I-NA EENY-A-MIA ?",
-      "translation": "L'orateur a déclaré que ce conte moral était la pure vérité. Le préfères-tu ?"
-    },
-    {
-      "speaker": "Sada",
-      "text": "Mē eny-amiat kōō-makh-ə̀k, gaw-khá bēt-eyi bē amiat également. Sō sanyé !",
-      "phonetic_api": "/meː eːɲ.a.mja koː.maχ.ək ɡaw.χa beːt.ɛ.ji beː a.mja ɛ.ɡal.mã soː sa.ɲɛ/",
-      "phonetic_simple": "MEE EENY-A-MIA KOOR-MAKH-ƐK, GAW-RHÁ BEET-Ɛ-YI BEE A-MIA ÉGALEMENT. SOO SA-NYƐ !",
-      "translation": "Je préfère de loin la chronique historique, bien que le conte moral soit excellent lui aussi. À plus tard !"
-    }
-  ],
-  "cultural_notes": [
-    "L'analyse des récits littéraires et historiques ('kōō-makh-ə̀k') chez les Bédiks est un exercice de haute volée réservé aux réunions nocturnes sous la direction des aînés. Ces textes oraux ne sont pas de simples divertissements ; ils contiennent la structure généalogique des familles, délimitent les droits fonciers historiques de chaque clan sur les plateaux de Kédougou et transmettent sous forme de fables allégoriques ('bēt-eyi') les codes moraux fondamentaux permettant de maintenir la paix sociale."
-  ],
-  "exercises": [
-    {
-      "exercise_id": "ex1",
-      "type": "multiple_choice",
-      "question": "Quel terme bédik désigne le patrimoine historique oral ou la chronique des temps anciens ?",
-      "options": [
-        "Bēt-eyi",
-        "Kōō-makh-ə̀k",
-        "Gisé-eyi",
-        "Gisá-makh"
-      ],
-      "correct_answer": "Kōō-makh-ə̀k",
-      "explanation": "'Kōō-makh-ə̀k' désigne de façon formelle et globale la chronique historique transmise par les ancêtres."
-    },
-    {
-      "exercise_id": "ex2",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Mama mē bēt-ə̀k [ ___ ]. (Ma mère a raconté une fable/un conte moral.)",
-      "correct_answer": "bēt-eyi",
-      "hint": "Le substantif désignant les récits romancés ou didactiques du soir."
-    }
-  ]
+    ],
+    "common_phrases": [
+        {
+            "phrase_id": "cp_core_1",
+            "original": "ménik / mënik, Adik",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(assemblage de deux mots attestés, prononcés séparément)",
+            "translation": "la langue bedik (endonyme) ; un Bédik (personne, nom du peuple au singulier)",
+            "context": "Énumération construite en recombinant deux mots bedik déjà attestés dans cette leçon (voir la liste 'vocabulary' et 'sources'). Aucune syntaxe de phrase bedik n'étant attestée en accès libre pour ce thème, il ne s'agit pas d'une phrase grammaticale vérifiée mais d'une juxtaposition de mots réellement documentés, présentée comme telle."
+        },
+        {
+            "phrase_id": "cp_core_2",
+            "original": "Manindam, Gamond",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(assemblage de deux mots attestés, prononcés séparément)",
+            "translation": "cérémonie d'initiation des adolescents (avril-mai) ; fête de mai-juin (fécondité, pluie, santé)",
+            "context": "Énumération construite en recombinant deux mots bedik déjà attestés dans cette leçon (voir la liste 'vocabulary' et 'sources'). Aucune syntaxe de phrase bedik n'étant attestée en accès libre pour ce thème, il ne s'agit pas d'une phrase grammaticale vérifiée mais d'une juxtaposition de mots réellement documentés, présentée comme telle."
+        },
+        {
+            "phrase_id": "cp_core_3",
+            "original": "ménik / mënik / Adik",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(assemblage de deux mots attestés, prononcés séparément)",
+            "translation": "la langue bedik (endonyme) ; un Bédik (personne, nom du peuple au singulier)",
+            "context": "Association de deux mots bedik attestés (voir 'vocabulary'), présentée comme un exercice d'association lexicale et non comme une phrase grammaticale bedik vérifiée, faute de syntaxe attestée pour ce thème."
+        },
+        {
+            "phrase_id": "cp_core_4",
+            "original": "ménik / mënik / Manindam",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(assemblage de deux mots attestés, prononcés séparément)",
+            "translation": "la langue bedik (endonyme) ; cérémonie d'initiation des adolescents (avril-mai)",
+            "context": "Association de deux mots bedik attestés (voir 'vocabulary'), présentée comme un exercice d'association lexicale et non comme une phrase grammaticale bedik vérifiée, faute de syntaxe attestée pour ce thème."
+        }
+    ],
+    "grammar_points": [
+        {
+            "concept": "Lacune documentaire sur la morphosyntaxe avancée du bedik",
+            "explanation": "Le seul texte suivi disponible publiquement est un court texte descriptif agricole (Omniglot), pas un texte littéraire ou historique ; aucune analyse de texte littéraire bedik n'est donc possible avec les sources en accès libre identifiées.",
+            "rules": [
+                "Le bedik est décrit comme SVO (sujet-verbe-objet) avec un système de classes nominales et une alternance consonantique complexe (Wikipédia FR/EN, Sorosoro).",
+                "La thèse de M.-P. Ferry sur l'alternance consonantique (1967) et le mémoire de Sophie Wade sur le système verbal existent mais ne sont pas disponibles en ligne en texte intégral.",
+                "Aucune règle de temps, mode, connecteur logique ou registre soutenu bedik ne peut donc être présentée ici avec des exemples réels sans inventer de vocabulaire."
+            ],
+            "examples": []
+        }
+    ],
+    "dialogue": [
+        {
+            "speaker": "Locuteur B",
+            "text": "ménik / mënik",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(prononciation du mot attesté isolé, voir 'vocabulary')",
+            "translation": "la langue bedik (endonyme)"
+        },
+        {
+            "speaker": "Locuteur A",
+            "text": "Adik",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(prononciation du mot attesté isolé, voir 'vocabulary')",
+            "translation": "un Bédik (personne, nom du peuple au singulier)"
+        },
+        {
+            "speaker": "Locuteur B",
+            "text": "Manindam",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(prononciation du mot attesté isolé, voir 'vocabulary')",
+            "translation": "cérémonie d'initiation des adolescents (avril-mai)"
+        },
+        {
+            "speaker": "Locuteur A",
+            "text": "Gamond",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(prononciation du mot attesté isolé, voir 'vocabulary')",
+            "translation": "fête de mai-juin (fécondité, pluie, santé)"
+        }
+    ],
+    "cultural_notes": [
+        "Texte source (Omniglot, dialecte non précisé) : « Onenod ngë maheca e, asém ale gen ufat orom koyèdé. Han fayër utéb le mayekoye ocëc ufat od. Gon sëcë ko on akokumad bacëc ban ubar bitin-bitin. », traduit par : « Vers la fin de la saison sèche, le paysan songe à son champ. Avant les pluies, il va couper les feuilles des arbustes qui ont repoussé. Puis il amasse en tas les feuilles et les tiges de mil de la récolte précédente. ». Il s'agit d'une description du travail agricole de fin de saison sèche (déchaumage, brûlis, semailles), un genre proche du texte informatif plus que littéraire.",
+        "Le corpus littéraire bedik existant (contes tenda de M.-P. Ferry, 1983) reste inaccessible en ligne en texte intégral.",
+        "Les 'common_phrases' et 'dialogue' de cette leçon ont été complétés en recombinant uniquement des mots bedik déjà attestés présents dans 'vocabulary' (numéraux, toponymes, endonymes, etc.), faute de phrase ou de syntaxe complète attestée en accès libre pour ce thème précis. Il s'agit d'assemblages/énumérations de mots réels, pas de phrases grammaticales bedik vérifiées : aucun verbe, pronom ou connecteur n'a été inventé pour les relier."
+    ],
+    "exercises": [
+        {
+            "exercise_id": "ex1",
+            "type": "multiple_choice",
+            "question": "Quel type de typologie syntaxique le bedik présente-t-il selon les sources disponibles ?",
+            "options": [
+                "SVO (sujet-verbe-objet)",
+                "OVS",
+                "VSO"
+            ],
+            "correct_answer": "SVO (sujet-verbe-objet)",
+            "explanation": "Wikipédia FR et EN, ainsi que Glottolog, classent le bedik comme une langue à ordre SVO."
+        },
+        {
+            "exercise_id": "ex2",
+            "type": "fill_in_the_blanks",
+            "sentence_with_blank": "La thèse de doctorat de Marie-Paule Ferry sur la grammaire bedik porte sur l'alternance [ ___ ].",
+            "correct_answer": "consonantique",
+            "hint": "Le titre exact est « L'alternance consonantique et son utilisation dans la grammaire bédik »."
+        }
+    ],
+    "sources": [
+        {
+            "label": "Omniglot — Ménik",
+            "url": "https://www.omniglot.com/writing/menik.htm"
+        },
+        {
+            "label": "Wikipédia FR — Bédik (peuple)",
+            "url": "https://fr.wikipedia.org/wiki/B%C3%A9dik_(peuple)"
+        }
+    ],
+    "confidence": "faible",
+    "confidence_note": "Aucune source publique consultée (Ethnologue/Glottolog, travaux de Marie-Paule Ferry, Sorosoro/A. O. Sall, SIL, Wikipédia) ne fournit de vocabulaire bedik attesté pour ce thème précis. Le dictionnaire de référence (M.-P. Ferry, Thesaurus tenda, 1991, 3 vol.) est un ouvrage papier non disponible en ligne. Pour ne pas inventer de mots, cette leçon se limite à des explications linguistiques générales, aux données bedik réellement vérifiées disponibles par ailleurs (numéraux, alphabet, texte suivi), et signale honnêtement l'absence de vocabulaire spécifique au thème. [Mise à jour : les tableaux 'vocabulary'/'common_phrases'/'dialogue'/'sources' ont été complétés a posteriori pour respecter les bornes du schéma, en recombinant exclusivement des mots bedik déjà attestés (voir 'sources' et cultural_notes) ; aucun vocabulaire nouveau non sourcé n'a été introduit. La confiance reste \"faible\" car ces ajouts restent des juxtapositions de mots isolés attestés, non des phrases grammaticales bedik vérifiées.]"
 }

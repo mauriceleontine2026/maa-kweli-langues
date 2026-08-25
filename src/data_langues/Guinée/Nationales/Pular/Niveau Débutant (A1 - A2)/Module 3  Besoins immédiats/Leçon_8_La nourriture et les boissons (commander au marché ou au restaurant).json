@@ -4,267 +4,263 @@
   "module_number": 3,
   "module_title": "Besoins immédiats",
   "lesson_number": 8,
-  "title": "La nourriture et les boissons",
+  "title": "La nourriture et les boissons (commander au marché ou au restaurant)",
   "learning_objectives": [
-    "Identifier les aliments de base, les plats courants et les boissons en pular",
-    "Exprimer la faim, la soif et les préférences gustatives basiques",
-    "Savoir passer une commande simple sur un marché ou dans un restaurant"
+    "Nommer les aliments et boissons de base",
+    "Exprimer la faim, la soif et la satiété avec les verbes statifs",
+    "Commander un repas au restaurant ou chez l'habitant"
   ],
   "phonetic_focus": {
-    "key_sounds": "La consonne double 'ɗɗ' (/ɗː/) exige un blocage ferme du flux d'air au niveau alvéolaire avant l'ingression dans 'ɗacclam' (sucré). Le groupe 'mb' (/mb/) est prénasalisé dans 'mbeewa' (viande de chèvre).",
-    "common_pitfalls": "Attention à la longueur de la voyelle dans 'maaro' (/maːro/, riz). Prononcer une voyelle courte fausse le mot. Le 'ñ' de 'ñari' (saveur) doit être articulé avec soin."
+    "key_sounds": "Le pular utilise des verbes statifs (état) plutôt que des adjectifs pour exprimer la faim ou la soif : 'Miðo weelaa' (je suis affamé). Attention à ne pas confondre 'weelegol' (avoir faim) et 'welugol' (avoir bon goût), qui se ressemblent mais ont des sens très différents.",
+    "common_pitfalls": "Les francophones veulent souvent utiliser un adjectif après 'être' comme en français, alors que le pular emploie un verbe conjugué avec le pronom statif (miðo, hiða, himo...)."
   },
   "vocabulary": [
     {
-      "word_id": "v8_1",
-      "term": "maaro",
-      "phonetic_api": "/maːro/",
-      "phonetic_simple": "MAA-RO",
-      "translation": "riz",
-      "example_sentence": "Mido ñaama maaro e teew.",
-      "example_phonetic": "/mido ɲaːma maːro e teːw/",
-      "example_translation": "Je mange du riz avec de la viande."
+      "word_id": "v1",
+      "term": "ñiiri",
+      "phonetic_api": "/ɲiːri/",
+      "phonetic_simple": "GNI-I-RI",
+      "translation": "nourriture, riz cuit",
+      "example_sentence": "Ñiiri no woodi?",
+      "example_phonetic": "/ɲiːri no woːdi/",
+      "example_translation": "Y a-t-il de la nourriture ?"
     },
     {
-      "word_id": "v8_2",
-      "term": "ndiyam",
+      "word_id": "v2",
+      "term": "ndiyan",
       "phonetic_api": "/ndijam/",
       "phonetic_simple": "NDI-YAM",
       "translation": "eau",
-      "example_sentence": "Mido yara ndiyam joni.",
-      "example_phonetic": "/mido jara ndijam d͡ʒoni/",
-      "example_translation": "Je bois de l'eau maintenant."
+      "example_sentence": "Okkoran ndiyan mi yara.",
+      "example_phonetic": "/okoran ndijam mi jara/",
+      "example_translation": "Donne-moi de l'eau à boire."
     },
     {
-      "word_id": "v8_3",
-      "term": "teew",
-      "phonetic_api": "/teːw/",
-      "phonetic_simple": "TEEW",
-      "translation": "viande",
-      "example_sentence": "Teew nagge no ɓuri moƴƴude.",
-      "example_phonetic": "/teːw naɡːe no ɓuri moʔɟːude/",
-      "example_translation": "La viande de bœuf est la meilleure."
+      "word_id": "v3",
+      "term": "maafe",
+      "phonetic_api": "/maːfe/",
+      "phonetic_simple": "MAA-FÉ",
+      "translation": "sauce",
+      "example_sentence": "Miðo yiði mafe tiga buy!",
+      "example_phonetic": "/miɗo jiɗi mafe tiɡa buj/",
+      "example_translation": "J'aime beaucoup la sauce d'arachide !"
     },
     {
-      "word_id": "v8_4",
-      "term": "kosam",
+      "word_id": "v4",
+      "term": "tiga",
+      "phonetic_api": "/tiɡa/",
+      "phonetic_simple": "TI-GA",
+      "translation": "arachide (peanut)",
+      "example_sentence": "Hiða andi mafe tiga?",
+      "example_phonetic": "/hiɗa andi mafe tiɡa/",
+      "example_translation": "Connais-tu la sauce d'arachide ?"
+    },
+    {
+      "word_id": "v5",
+      "term": "kosan",
       "phonetic_api": "/kosam/",
       "phonetic_simple": "KO-SAM",
-      "translation": "lait (frais ou caillé)",
-      "example_sentence": "Kosam ɗam no weli.",
-      "example_phonetic": "/kosam ɗam no weli/",
-      "example_translation": "Le lait est bon / doux."
+      "translation": "lait caillé",
+      "example_sentence": "Lacciri e kosan kadi no woodi.",
+      "example_phonetic": "/latʃiri e kosam kadi no woːdi/",
+      "example_translation": "Il y a aussi du couscous de maïs et du lait caillé."
     },
     {
-      "word_id": "v8_5",
-      "term": "ñari",
-      "phonetic_api": "/ɲari/",
-      "phonetic_simple": "NYA-RI",
-      "translation": "sauce",
-      "example_sentence": "Ñari hakko no weli sanne.",
-      "example_phonetic": "/ɲari hakːo no weli sanːe/",
-      "example_translation": "La sauce de feuilles est très bonne."
+      "word_id": "v6",
+      "term": "weelegol",
+      "phonetic_api": "/weːleɡol/",
+      "phonetic_simple": "OUÉÉ-LÉ-GOL",
+      "translation": "avoir faim",
+      "example_sentence": "Miðo weela.",
+      "example_phonetic": "/miɗo weːla/",
+      "example_translation": "J'ai faim."
     },
     {
-      "word_id": "v8_6",
-      "term": " weelo",
-      "phonetic_api": "/weːlo/",
-      "phonetic_simple": "WEE-LO",
-      "translation": "la faim (avoir faim se dit avec weelo)",
-      "example_sentence": "Weelo no jogii mi.",
-      "example_phonetic": "/weːlo no d͡ʒoɡiː mi/",
-      "example_translation": "J'ai faim (litt. La faim me possède)."
+      "word_id": "v7",
+      "term": "ðonðegol",
+      "phonetic_api": "/ɗonɗeɡol/",
+      "phonetic_simple": "DON-DÉ-GOL",
+      "translation": "avoir soif",
+      "example_sentence": "Miðo ðonða.",
+      "example_phonetic": "/miɗo ɗonɗa/",
+      "example_translation": "J'ai soif."
     },
     {
-      "word_id": "v8_7",
-      "term": "ɗonka",
-      "phonetic_api": "/ɗonka/",
-      "phonetic_simple": "DHON-KA",
-      "translation": "la soif",
-      "example_sentence": "Ɗonka ndiyam no jogii mi.",
-      "example_phonetic": "/ɗonka ndijam no d͡ʒoɡiː mi/",
-      "example_translation": "J'ai soif d'eau."
-    },
-    {
-      "word_id": "v8_8",
-      "term": "ñaamugol",
-      "phonetic_api": "/ɲaːmuɡol/",
-      "phonetic_simple": "NYAAM-OU-GOL",
-      "translation": "manger, la nourriture",
-      "example_sentence": "Ñaamugol ngol no laabi.",
-      "example_phonetic": "/ɲaːmuɡol nɡol no laːbi/",
-      "example_translation": "La nourriture est propre."
-    },
-    {
-      "word_id": "v8_9",
-      "term": "yarugol",
-      "phonetic_api": "/jaruɡol/",
-      "phonetic_simple": "YA-ROU-GOL",
-      "translation": "boire, l'action de boire",
-      "example_sentence": "Yarugol kafe no weli e subaka.",
-      "example_phonetic": "/jaruɡol kaɸe no weli e subaka/",
-      "example_translation": "Boire du café est agréable le matin."
-    },
-    {
-      "word_id": "v8_10",
-      "term": "weli",
-      "phonetic_api": "/weli/",
-      "phonetic_simple": "WE-LI",
-      "translation": "être bon, savoureux, doux",
-      "example_sentence": "Maaro ngon no weli.",
-      "example_phonetic": "/maːro nɡon no weli/",
-      "example_translation": "Ce riz est délicieux."
+      "word_id": "v8",
+      "term": "haarugol",
+      "phonetic_api": "/haːruɡol/",
+      "phonetic_simple": "HAA-ROU-GOL",
+      "translation": "être rassasié, plein",
+      "example_sentence": "Mi haari.",
+      "example_phonetic": "/mi haːri/",
+      "example_translation": "Je suis rassasié."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p8_1",
-      "original": "Weelo no jogii mi, mido lara ñaamugol.",
-      "phonetic_api": "/weːlo no d͡ʒoɡiː mi mido lara ɲaːmuɡol/",
-      "phonetic_simple": "WEE-LO NO DJO-GII MI, MI-DO LA-RA NYAAM-OU-GOL",
-      "translation": "J'ai faim, je cherche de la nourriture.",
-      "context": "Exprimer un besoin vital de manger à son hôte."
+      "phrase_id": "p1",
+      "original": "Ñiiri no woodi?",
+      "phonetic_api": "/ɲiːri no woːdi/",
+      "phonetic_simple": "GNI-I-RI NO WO-O-DI",
+      "translation": "Y a-t-il de la nourriture ?",
+      "context": "Question standard en arrivant chez quelqu'un à l'heure des repas."
     },
     {
-      "phrase_id": "p8_2",
-      "original": "Okku mi ndiyam mi yara, ɗonka no jogii mi.",
-      "phonetic_api": "/okːu mi ndijam mi jara ɗonka no d͡ʒoɡiː mi/",
-      "phonetic_simple": "OK-KOU MI NDI-YAM MI YA-RA, DHON-KA NO DJO-GII MI",
-      "translation": "Donne-moi de l'eau que je boive, j'ai soif.",
-      "context": "Demander à boire de façon polie mais directe."
+      "phrase_id": "p2",
+      "original": "Miðo faala …",
+      "phonetic_api": "/miɗo faːla/",
+      "phonetic_simple": "MI-DO FAA-LA",
+      "translation": "Je veux …",
+      "context": "Pour formuler une demande ou une commande."
     },
     {
-      "phrase_id": "p8_3",
-      "original": "Mido yidi maaro e teew nagge.",
-      "phonetic_api": "/mido jidi maːro e teːw naɡːe/",
-      "phonetic_simple": "MI-DO YI-DI MAA-RO E TEEW NAG-GE",
-      "translation": "Je voudrais du riz avec de la viande de bœuf.",
-      "context": "Passer une commande dans une gargote ou un restaurant."
+      "phrase_id": "p3",
+      "original": "Mi faalaaka …",
+      "phonetic_api": "/mi faːlaːka/",
+      "phonetic_simple": "MI FAA-LAA-KA",
+      "translation": "Je ne veux pas …",
+      "context": "Pour refuser poliment quelque chose."
     },
     {
-      "phrase_id": "p8_4",
-      "original": "Ko jelu ñaamugol ngol woni ?",
-      "phonetic_api": "/ko d͡ʒelu ɲaːmuɡol nɡol woni/",
-      "phonetic_simple": "KO DJE-LOU NYAAM-OU-GOL NGOL WO-NI ?",
-      "translation": "Combien coûte ce repas ?",
-      "context": "Demander le prix avant de consommer au marché."
+      "phrase_id": "p4",
+      "original": "No weli!",
+      "phonetic_api": "/no weli/",
+      "phonetic_simple": "NO OUÉ-LI",
+      "translation": "Ça a bon goût !",
+      "context": "Compliment à faire à l'hôte après avoir goûté le plat."
     },
     {
-      "phrase_id": "p8_5",
-      "original": "Ñari nden no weli sanne, jaraama.",
-      "phonetic_api": "/ɲari nden no weli sanːe d͡ʒaraːma/",
-      "phonetic_simple": "NYA-RI NDEN NO WE-LI SAN-NE, DJA-RAA-MA",
-      "translation": "La sauce est très bonne, merci.",
-      "context": "Complimenter la cuisinière à la fin du repas."
+      "phrase_id": "p5",
+      "original": "Åeydu seeða!",
+      "phonetic_api": "/ɓeydu seːɗa/",
+      "phonetic_simple": "BÉY-DOU SÉÉ-DA",
+      "translation": "Mange (reprends) encore un peu !",
+      "context": "Formule d'hospitalité très fréquente pour insister à table."
     },
     {
-      "phrase_id": "p8_6",
-      "original": "Mido hofi, mi yaraali kosam hande.",
-      "phonetic_api": "/mido hoɸi mi jaraːli kosam hande/",
-      "phonetic_simple": "MI-DO HO-FI, MI YA-RAA-LI KO-SAM HAN-DE",
-      "translation": "Je suis rassasié, je n'ai pas bu de lait aujourd'hui.",
-      "context": "Indiquer qu'on n'a plus faim lors d'un repas."
+      "phrase_id": "p6",
+      "original": "Mi haari tef!",
+      "phonetic_api": "/mi haːri tef/",
+      "phonetic_simple": "MI HAA-RI TÈF",
+      "translation": "Je suis complètement rassasié !",
+      "context": "Réponse polie pour décliner une nouvelle portion."
     },
     {
-      "phrase_id": "p8_7",
-      "original": "Koni hiba e joggol kafe ɗacclam ?",
-      "phonetic_api": "/koni hiba e d͡ʒoɡːol kaɸe ɗat͡t͡ʃlam/",
-      "phonetic_simple": "KO-NI HI-BA E DJOG-GOL KA-FE DHAT-CHLAM ?",
-      "translation": "Est-ce que tu as du café sucré ?",
-      "context": "S'informer sur la disponibilité d'une boisson le matin."
-    },
-    {
-      "phrase_id": "p8_8",
-      "original": "Accu jam, mido yahat joni.",
-      "phonetic_api": "/at͡t͡ʃu d͡ʒam mi d͡ʒahat d͡ʒoni/",
-      "phonetic_simple": "AT-TCHOU DJAM, MI-DO YA-HAT DJO-NI",
-      "translation": "Au revoir, je dois y aller maintenant.",
-      "context": "Prendre congé après avoir mangé."
+      "phrase_id": "p7",
+      "original": "Bismillahi!",
+      "phonetic_api": "/bismilːahi/",
+      "phonetic_simple": "BIS-MIL-LA-HI",
+      "translation": "Bienvenue (au nom de Dieu) !",
+      "context": "Formule pour inviter quelqu'un à manger, d'origine arabe/islamique."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'expression des sensations physiques (faim / soif)",
-      "explanation": "En pular, on n'utilise pas le verbe 'avoir' pour la faim ou la soif. La sensation devient le sujet grammatical de la phrase, et elle agit sur la personne via le verbe 'jogii' (tenir/posséder).",
+      "concept": "Les verbes statifs pour exprimer les besoins physiques",
+      "explanation": "Contrairement au français qui utilise 'avoir faim/soif' ou 'être rassasié', le pular utilise des verbes statifs conjugués avec des pronoms statifs spécifiques (miðo, hiða, himo...) pour exprimer un état physique.",
       "rules": [
-        "Structure : Sensation (Sujet Nom) + 'no jogii' + Pronom personnel objet (mi, ma, mo).",
-        "Weelo = la faim ; Ɗonka = la soif."
+        "miðo + [verbe statif conjugué en -a] = je suis dans tel état",
+        "weelegol (avoir faim) → Miðo weela (j'ai faim)",
+        "La négation utilise le pronom actif (mi) + terminaison -aaka : Mi weelaaka (je n'ai pas faim)"
       ],
       "examples": [
         {
-          "structure": "Weelo + no jogii + mi",
-          "phonetic_api": "/weːlo no d͡ʒoɡiː mi/",
-          "meaning": "J'ai faim (litt. La faim me tient)"
-        }
-      ]
-    },
-    {
-      "concept": "L'accord des classes nominales liquides : la classe 'ƊAM'",
-      "explanation": "Les substances liquides (ndiyam, kosam) appartiennent systématiquement à la classe nominale 'ƊAM'. Les adjectifs ou démonstratifs qui s'y rapportent adoptent cette marque.",
-      "rules": [
-        "L'indice de rappel ou le pronom relatif associé à l'eau ou au lait est 'ɗam'."
-      ],
-      "examples": [
+          "structure": "Miðo ðonða.",
+          "phonetic_api": "/miɗo ɗonɗa/",
+          "meaning": "J'ai soif."
+        },
         {
-          "structure": "kosam + ɗam",
-          "phonetic_api": "/kosam ɗam/",
-          "meaning": "Le lait en question"
+          "structure": "Mi ðonðaaka.",
+          "phonetic_api": "/mi ɗonɗaːka/",
+          "meaning": "Je n'ai pas soif."
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Karan (Client)",
-      "text": "Mbolee neene ! Koni hiba e joggol maaro e teew hande ?",
-      "phonetic_api": "/mboleː neːne koni hiba e d͡ʒoɡːol maːro e teːw hande/",
-      "phonetic_simple": "MBO-LEE NEE-NE ! KO-NI HI-BA E DJOG-GOL MAA-RO E TEEW HAN-DE ?",
-      "translation": "Salut maman ! Est-ce que tu as du riz et de la viande aujourd'hui ?"
+      "speaker": "Client",
+      "text": "Miðo weela. Ñiiri no woodi?",
+      "phonetic_api": "/miɗo weːla ɲiːri no woːdi/",
+      "phonetic_simple": "MI-DO OUÉÉ-LA. GNI-I-RI NO WO-O-DI",
+      "translation": "J'ai faim. Y a-t-il de la nourriture ?"
     },
     {
-      "speaker": "Defoowo (Cuisinière)",
-      "text": "Eyyo, mido jogii maaro ngon e ñari hakko moƴƴo sanne. Weelo no jogii ma ?",
-      "phonetic_api": "/ejːo mido d͡ʒoɡiː maːro nɡon e ɲari hakːo moʔɟːo sanːe weːlo no d͡ʒoɡiː ma/",
-      "phonetic_simple": "EY-YO, MI-DO DJO-GII MAA-RO NGON E NYA-RI HAK-KO MOY-YO SAN-NE. WEE-LO NO DJO-GII MA ?",
-      "translation": "Oui, j'ai du riz et une très bonne sauce de feuilles. Tu as faim ?"
+      "speaker": "Serveuse",
+      "text": "Hii-hi, ñiiri e mafe suppu no woodi. Lacciri e kosan kadi no woodi.",
+      "phonetic_api": "/hiː-hi ɲiːri e mafe supːu no woːdi latʃiri e kosam kadi no woːdi/",
+      "phonetic_simple": "HI-HI, GNI-I-RI É MA-FÉ SOUP-POU NO WO-O-DI. LAT-CHI-RI É KO-SAM KA-DI NO WO-O-DI",
+      "translation": "Oui, il y a du riz avec sauce soupe. Il y a aussi du couscous de maïs et du lait caillé."
     },
     {
-      "speaker": "Karan (Client)",
-      "text": "Eyyo, weelo no jogii mi sanne. Okku mi plat gooto e ndiyam ɗam.",
-      "phonetic_api": "/ejːo weːlo no d͡ʒoɡiː mi sanːe okːu mi plat ɡoːto e ndijam ɗam/",
-      "phonetic_simple": "EY-YO, WEE-LO NO DJO-GII MI SAN-NE. OK-KOU MI PLAT GOO-TO E NDI-YAM DHAM.",
-      "translation": "Oui, j'ai vraiment très faim. Donne-moi un plat et de l'eau."
+      "speaker": "Client",
+      "text": "Miðo yiði foññe e mafe suppu.",
+      "phonetic_api": "/miɗo jiɗi foɲːe e mafe supːu/",
+      "phonetic_simple": "MI-DO YI-DI FONN-NÉ É MA-FÉ SOUP-POU",
+      "translation": "J'aime le foutou avec sauce soupe."
     },
     {
-      "speaker": "Defoowo (Cuisinière)",
-      "text": "Ngal ko ñaamugol maa. Yara kosam ɗam kadi, no weli !",
-      "phonetic_api": "/nɡal ko ɲaːmuɡol maː jara kosam ɗam kadi no weli/",
-      "phonetic_simple": "NGAL KO NYAAM-OU-GOL MAA. YA-RA KO-SAM DHAM KA-DI, NO WE-LI !",
-      "translation": "Voici ton repas. Bois ce lait aussi, il est très bon !"
+      "speaker": "Serveuse",
+      "text": "O'o, foññe alaa. Ko ñiiri maaro tun mi defi.",
+      "phonetic_api": "/oʔo foɲːe alaː ko ɲiːri maːro tun mi defi/",
+      "phonetic_simple": "O-O, FONN-NÉ A-LAA. KO GNI-I-RI MAA-RO TOUNE MI DÉ-FI",
+      "translation": "Non, il n'y a pas de foutou. Je n'ai fait que du riz."
+    },
+    {
+      "speaker": "Client",
+      "text": "Awa, addu lacciri e kosan.",
+      "phonetic_api": "/awa adːu latʃiri e kosam/",
+      "phonetic_simple": "A-OUA, AD-DOU LAT-CHI-RI É KO-SAM",
+      "translation": "Bon, donne le couscous de maïs et le lait caillé."
     }
   ],
   "cultural_notes": [
-    "Dans la culture peule, le lait ('kosam') revêt une dimension presque sacrée et hautement identitaire liée au pastoralisme. Offrir du lait frais ou caillé ('biraadam' ou 'pendaidan') à un invité est la marque suprême de considération. Traditionnellement, le repas se partage collectivement autour d'un grand plat unique."
+    "Insister pour que l'invité reprenne de la nourriture ('Åeydu seeða!') est une marque d'hospitalité essentielle dans la culture peule ; refuser fermement peut être perçu comme un manque de courtoisie (source : Learner's Guide to Pular, chapitre Food).",
+    "Le ramadan (mois de jeûne musulman) rythme profondément les habitudes alimentaires au Fouta-Djalon, une grande partie de la population étant musulmane pratiquante."
   ],
   "exercises": [
     {
-      "exercise_id": "ex8_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Comment dit-on 'J'ai soif' en pular ?",
+      "question": "Comment dit-on « j'ai faim » en pular ?",
       "options": [
-        "Weelo no jogii mi",
-        "Ɗonka no jogii mi",
-        "Mido yidi maaro"
+        "Mi haari",
+        "Miðo weela",
+        "Miðo ðonða"
       ],
-      "correct_answer": "Ɗonka no jogii mi",
-      "explanation": "'Ɗonka' désigne la soif, la structure signifie littéralement 'La soif me possède'."
+      "correct_answer": "Miðo weela",
+      "explanation": "Weelegol signifie avoir faim ; haarugol signifie être rassasié, et ðonðegol signifie avoir soif."
     },
     {
-      "exercise_id": "ex8_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Okku mi [ ___ ] mi yara (Donne-moi de l'eau que je boive).",
-      "correct_answer": "ndiyam",
-      "hint": "Le liquide vital essentiel appartenant à la classe ƊAM."
+      "sentence_with_blank": "Miðo faala ndiyan mi [ ___ ]. (je veux boire de l'eau)",
+      "correct_answer": "yara",
+      "hint": "Utilisez le verbe 'yarugol' (boire) à la forme appropriée."
+    },
+    {
+      "exercise_id": "ex3",
+      "type": "multiple_choice",
+      "question": "Que répond-on poliment quand on est rassasié et qu'on vous propose encore à manger ?",
+      "options": [
+        "Miðo weela",
+        "Mi haari tef",
+        "Ñiiri no woodi"
+      ],
+      "correct_answer": "Mi haari tef",
+      "explanation": "'Mi haari tef' signifie 'je suis complètement rassasié', formule polie pour décliner."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Learner's Guide to Pular (Fuuta Jallon) — Peace Corps Guinée (Herb Caudill & Ousmane Besseko Diallo)",
+      "url": "https://ibamba.net/pular/manual.pdf"
+    },
+    {
+      "label": "Live Lingua Project — Peace Corps Manual of Fulfulde",
+      "url": "https://www.livelingua.com/course/peace-corps/manual-of-fulfulde"
+    }
+  ],
+  "confidence": "élevée",
+  "confidence_note": "Vocabulaire alimentaire, verbes statifs et dialogues extraits directement du chapitre 'Food' du manuel Peace Corps Guinée."
 }

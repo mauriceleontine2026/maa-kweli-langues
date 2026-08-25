@@ -6,142 +6,229 @@
   "lesson_number": 6,
   "title": "Les jours de la semaine, les mois et dire l'heure",
   "learning_objectives": [
-    "Nommer et utiliser les jours de la semaine en Mano",
-    "Comprendre la notion de division du temps et de mois",
-    "Demander et exprimer l'heure de manière simple"
+    "Nommer les jours de la semaine en mano",
+    "Utiliser les expressions de temps de base (aujourd'hui, demain, hier, maintenant)",
+    "Distinguer matin, soir et nuit"
   ],
   "phonetic_focus": {
-    "key_sounds": "L'expression du temps utilise beaucoup la consonne palatale nasale /ɲ/ et des voyelles longues ouvertes telles que /ɔː/ et /ɛː/. Le mot pour jour ou soleil est souvent associé à des variations de tons médians et hauts.",
-    "common_pitfalls": "Faites attention à la longueur de la voyelle dans les termes temporels. Raccourcir un son long peut transformer un repère de temps en un nom d'objet totalement différent."
+    "key_sounds": "Les noms des jours se terminent souvent par le suffixe -lɔ̀ɔ̀ ('jour de'), sauf le vendredi musulman zìmàzí, emprunt à l'arabe via le mandingue.",
+    "common_pitfalls": "Confondre pɛ́nɛ̄ɛ̄ ('aujourd'hui') et ɲɛ́nɛ́ ('soleil/jour'), qui partagent la même racine mais des usages différents."
   },
   "vocabulary": [
     {
-      "word_id": "v6_1",
-      "term": "yɛlɛ",
-      "phonetic_api": "/jɛ˧lɛ˧/",
-      "phonetic_simple": "YÈ-LÈ",
-      "translation": "Jour / Soleil",
-      "example_sentence": "yɛlɛ kɛ̃ɛ",
-      "example_phonetic": "/jɛ˧lɛ˧ kɛ̃ː˧/",
-      "example_translation": "Un beau jour"
+      "word_id": "v1",
+      "term": "tɛ̀nɛ̀lɔ̀ɔ̀",
+      "phonetic_api": "/tɛ̀nɛ̀lɔ̀ɔ̀/",
+      "phonetic_simple": "tè-nè-lo-o",
+      "translation": "lundi",
+      "example_sentence": "Tɛ̀nɛ̀lɔ̀ɔ̀ ŋ́ŋ̀ lō lɔ́ɔ́í.",
+      "example_phonetic": "/tɛ̀nɛ̀lɔ̀ɔ̀ ŋ́ŋ̀ lō lɔ́ɔ́í/",
+      "example_translation": "Le lundi, je vais au marché."
     },
     {
-      "word_id": "v6_2",
-      "term": "tɔ̃",
-      "phonetic_api": "/tɔ̃˧/",
-      "phonetic_simple": "TONG",
-      "translation": "Semaine / Lune / Mois",
-      "example_sentence": "tɔ̃ dōo",
-      "example_phonetic": "/tɔ̃˧ doː˧/",
-      "example_translation": "Une semaine (ou une lune/un mois selon le contexte)"
+      "word_id": "v2",
+      "term": "sāālɔ̀ɔ̀",
+      "phonetic_api": "/sāālɔ̀ɔ̀/",
+      "phonetic_simple": "sa-a-lo-o",
+      "translation": "vendredi",
+      "example_sentence": "Sāālɔ̀ɔ̀ lɛ̄ pɛ́nɛ̄ɛ̄.",
+      "example_phonetic": "/sāālɔ̀ɔ̀ lɛ̄ pɛ́nɛ̄ɛ̄/",
+      "example_translation": "Aujourd'hui, c'est vendredi."
     },
     {
-      "word_id": "v6_3",
-      "term": "mɔ́nɛ̀",
-      "phonetic_api": "/mɔ˦nɛ˩/",
-      "phonetic_simple": "MOR-NÈ",
-      "translation": "Lundi",
-      "example_sentence": "mɔ́nɛ̀ yɛlɛ",
-      "example_phonetic": "/mɔ˦nɛ˩ jɛ˧lɛ˧/",
-      "example_translation": "Le jour de lundi"
+      "word_id": "v3",
+      "term": "wɛ̀lɛ̀lɔ̀ɔ̀",
+      "phonetic_api": "/wɛ̀lɛ̀lɔ̀ɔ̀/",
+      "phonetic_simple": "ouè-lè-lo-o",
+      "translation": "samedi",
+      "example_sentence": "Wɛ̀lɛ̀lɔ̀ɔ̀ lɛ̄ sà̰ā̰ kɛ̄-pɛ̀lɛ̀ wɔ́.",
+      "example_phonetic": "/wɛ̀lɛ̀lɔ̀ɔ̀ lɛ̄ sà̰ā̰ kɛ̄-pɛ̀lɛ̀ wɔ́/",
+      "example_translation": "Le samedi, on ne travaille pas."
     },
     {
-      "word_id": "v6_4",
-      "term": "nɛɛwɔ̃",
-      "phonetic_api": "/nɛː˧wɔ̃˧/",
-      "phonetic_simple": "NÈÈ-WONG",
-      "translation": "Heure / Moment précis",
-      "example_sentence": "nɛɛwɔ̃ ɓe mɛ̀ ?",
-      "example_phonetic": "/nɛː˧wɔ̃˧ ɓe˧ mɛ˩/",
-      "example_translation": "Quelle heure est-il ?"
+      "word_id": "v4",
+      "term": "fı̰́dɔ̄lɔ̀ɔ̀",
+      "phonetic_api": "/fĩ́dɔ̄lɔ̀ɔ̀/",
+      "phonetic_simple": "fi-do-lo-o",
+      "translation": "dimanche",
+      "example_sentence": "Fı̰́dɔ̄lɔ̀ɔ̀ kō lō kélè.",
+      "example_phonetic": "/fĩ́dɔ̄lɔ̀ɔ̀ kō lō kélè/",
+      "example_translation": "Le dimanche, nous allons à l'église."
+    },
+    {
+      "word_id": "v5",
+      "term": "pɛ́nɛ̄ɛ̄",
+      "phonetic_api": "/pɛ́nɛ̄ɛ̄/",
+      "phonetic_simple": "PÉ-nè-è",
+      "translation": "aujourd'hui",
+      "example_sentence": "Pɛ́nɛ̄ sà̰ā̰ yā māā kɛ̄-pɛ̀lɛ̀.",
+      "example_phonetic": "/pɛ́nɛ̄ sà̰ā̰ jā māā kɛ̄-pɛ̀lɛ̀/",
+      "example_translation": "Aujourd'hui, je fais toujours ce travail."
+    },
+    {
+      "word_id": "v6",
+      "term": "tòò",
+      "phonetic_api": "/tòò/",
+      "phonetic_simple": "to-o",
+      "translation": "demain",
+      "example_sentence": "Íì béī kā̰ tòò.",
+      "example_phonetic": "/íì béī kā̰ tòò/",
+      "example_translation": "Tu couperas le manioc demain."
+    },
+    {
+      "word_id": "v7",
+      "term": "yālá",
+      "phonetic_api": "/jālá/",
+      "phonetic_simple": "ya-LA",
+      "translation": "hier",
+      "example_sentence": "Sèé wà Ɲàá wā gɔ̰̄ yālá.",
+      "example_phonetic": "/sèé wà ɲàá wā gɔ̰̄ jālá/",
+      "example_translation": "Cé et Nyaa se sont battus hier."
+    },
+    {
+      "word_id": "v8",
+      "term": "bı̰́",
+      "phonetic_api": "/bḭ́/",
+      "phonetic_simple": "BI (nasalisé)",
+      "translation": "nuit",
+      "example_sentence": "Bı̰́míà ŋ̄ yī zɛ̄.",
+      "example_phonetic": "/bḭ́míà ŋ̄ jī zɛ̄/",
+      "example_translation": "Dans la nuit, je dors."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p6_1",
-      "original": "Nɛɛwɔ̃ ɓe mɛ̀ ?",
-      "phonetic_api": "/nɛː˧wɔ̃˧ ɓe˧ mɛ˩/",
-      "phonetic_simple": "NÈÈ-WONG BÉ MÈ ?",
-      "translation": "Quelle heure est-il ?",
-      "context": "Demander l'heure à quelqu'un dans la rue ou à la maison."
+      "phrase_id": "p1",
+      "original": "Pɛ́nɛ̄ɛ̄ lɛ̄ mɛ́nɛ̄?",
+      "phonetic_api": "/pɛ́nɛ̄ɛ̄ lɛ̄ mɛ́nɛ̄/",
+      "phonetic_simple": "pé-nè-è lê mé-nè",
+      "translation": "Quel jour sommes-nous aujourd'hui ?",
+      "context": "Question sur le jour de la semaine."
     },
     {
-      "phrase_id": "p6_2",
-      "original": "A ɓe nɛɛwɔ̃ yaá.",
-      "phonetic_api": "/a˧ ɓe˧ nɛː˧wɔ̃˧ jaː˦/",
-      "phonetic_simple": "A BÉ NÈÈ-WONG YAA",
-      "translation": "Il est trois heures.",
-      "context": "Donner l'heure exacte."
+      "phrase_id": "p2",
+      "original": "Làāpíé lɛ̄ sɛ̀.",
+      "phonetic_api": "/làāpíé lɛ̄ sɛ̀/",
+      "phonetic_simple": "la-a-pié lê sè",
+      "translation": "C'est un bon matin.",
+      "context": "Formule pour parler du matin."
     },
     {
-      "phrase_id": "p6_3",
-      "original": "Wa lɔ mɔ́nɛ̀ yɛlɛ la.",
-      "phonetic_api": "/wa˧ lɔ˧ mɔ˦nɛ˩ jɛ˧lɛ˧ la˧/",
-      "phonetic_simple": "WA LOR MOR-NÈ YÈLÈ LA",
-      "translation": "Nous irons lundi.",
-      "context": "Planifier une activité ou un déplacement."
+      "phrase_id": "p3",
+      "original": "Ɲɛ́ŋɛ̀īpíé kō ló kálémɔ̀.",
+      "phonetic_api": "/ɲɛ́ŋɛ̀īpíé kō ló kálémɔ̀/",
+      "phonetic_simple": "gné-ngè-i-pié ko lo ka-lé-mo",
+      "translation": "Le soir, nous allons à la maison.",
+      "context": "Usage de ɲɛ́ŋɛ̀īpíé 'le soir' dans une phrase temporelle."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Kɛ̀ɛ̀ dōó gbāā.",
+      "phonetic_api": "/kɛ̀ɛ̀ dōó gbāā/",
+      "phonetic_simple": "kè-è do-o gba-a",
+      "translation": "Une année maintenant.",
+      "context": "Utilisation de kɛ̀ɛ̀ 'année' avec un numéral."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'expression de la temporalité et de l'heure",
-      "explanation": "Pour indiquer l'heure en Mano, on utilise le terme 'nɛɛwɔ̃' (qui désigne le moment ou l'heure) suivi immédiatement du nombre cardinal correspondant au cycle horaire. La structure reste calquée sur celle de la quantification des objets.",
+      "concept": "Adverbes de temps et leur place dans la phrase",
+      "explanation": "Les expressions temporelles comme pɛ́nɛ̄ɛ̄ 'aujourd'hui', tòò 'demain' et yālá 'hier' se placent généralement en fin de phrase, après le verbe, mais peuvent aussi apparaître en tête de phrase pour insister sur le repère temporel.",
       "rules": [
-        "Structure pour l'heure : nɛɛwɔ̃ + [Chiffre/Nombre].",
-        "Pour situer un événement dans un jour précis, on fait suivre le nom du jour par le terme 'yɛlɛ' (jour)."
+        "Position neutre : Sujet + Auxiliaire + Verbe + (complément) + Temps",
+        "Position emphatique : Temps + reste de la phrase, pour souligner le moment"
       ],
       "examples": [
         {
-          "structure": "nɛɛwɔ̃ pɛ̄ɛ",
-          "phonetic_api": "/nɛː˧wɔ̃˧ pɛː˧/",
-          "meaning": "Deux heures"
+          "structure": "Íì béī kā̰ pɛ́nɛ̄.",
+          "phonetic_api": "/íì béī kā̰ pɛ́nɛ̄/",
+          "meaning": "Aujourd'hui tu couperas le manioc."
         },
         {
-          "structure": "mɔ́nɛ̀ yɛlɛ",
-          "phonetic_api": "/mɔ˦nɛ˩ jɛ˧lɛ˧/",
-          "meaning": "Le jour de lundi / Lundi"
+          "structure": "Sèé wà Ɲàá wā gɔ̰̄ yālá.",
+          "phonetic_api": "/sèé wà ɲàá wā gɔ̰̄ jālá/",
+          "meaning": "Cé et Nyaa se sont battus hier."
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Personne A",
-      "text": "Ń bo, nɛɛwɔ̃ ɓe mɛ̀ ?",
-      "phonetic_api": "/ń bo˧ nɛː˧wɔ̃˧ ɓe˧ mɛ˩/",
-      "phonetic_simple": "N BÔ, NÈÈ-WONG BÉ MÈ ?",
-      "translation": "Mon ami, quelle heure est-il ?"
+      "speaker": "Kɔ̀ɔ́",
+      "text": "Pɛ́nɛ̄ɛ̄ lɛ̄ mɛ́nɛ̄?",
+      "phonetic_api": "/pɛ́nɛ̄ɛ̄ lɛ̄ mɛ́nɛ̄/",
+      "phonetic_simple": "pé-nè-è lê mé-nè",
+      "translation": "Quel jour sommes-nous aujourd'hui ?"
     },
     {
-      "speaker": "Personne B",
-      "text": "A ɓe nɛɛwɔ̃ dɔ́ːlú.",
-      "phonetic_api": "/a˧ ɓe˧ nɛː˧wɔ̃˧ dɔː˦lu˦/",
-      "phonetic_simple": "A BÉ NÈÈ-WONG DOR-LOU.",
-      "translation": "Il est cinq heures."
+      "speaker": "Pèé",
+      "text": "Sāālɔ̀ɔ̀ lɛ̄.",
+      "phonetic_api": "/sāālɔ̀ɔ̀ lɛ̄/",
+      "phonetic_simple": "sa-a-lo-o lê",
+      "translation": "C'est vendredi."
+    },
+    {
+      "speaker": "Kɔ̀ɔ́",
+      "text": "Tòò, kóò lō nū-ù Ɓɛ́lɛ́tɔ̰̀.",
+      "phonetic_api": "/tòò kóò lō nū-ù ɓɛ́lɛ́tɔ̰̀/",
+      "phonetic_simple": "to-o ko-o lo nou-ou bé-lé-ton",
+      "translation": "Demain, nous irons à Beleton."
+    },
+    {
+      "speaker": "Pèé",
+      "text": "Ɲɛ́ŋɛ̀īpíé lɛ̄ sɛ̀ ká lé mɔ̀.",
+      "phonetic_api": "/ɲɛ́ŋɛ̀īpíé lɛ̄ sɛ̀ ká lé mɔ̀/",
+      "phonetic_simple": "gné-ngè-i-pié lê sè ka lé mo",
+      "translation": "Le soir, c'est agréable à la maison."
     }
   ],
   "cultural_notes": [
-    "Dans la région forestière de la Guinée, la perception traditionnelle du temps est fortement calquée sur les cycles de la nature (la position du soleil dans le ciel pour la journée et les phases de la lune pour les mois). Le même mot 'tɔ̃' désigne ainsi la lune et le mois, marquant le lien indissociable entre l'astre et la mesure du temps."
+    "Le vendredi porte deux noms selon le contexte : sāālɔ̀ɔ̀ (nom courant) et zìmàzí, ce dernier étant utilisé spécifiquement dans le contexte musulman, reflétant l'influence de l'islam mandingue en Guinée forestière.",
+    "Le calendrier mano traditionnel comportait des noms de mois liés aux activités agricoles (semailles, récolte du riz), aujourd'hui concurrencés par les noms de mois calqués sur le calendrier grégorien/français."
   ],
   "exercises": [
     {
-      "exercise_id": "ex6_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Que signifie la question 'Nɛɛwɔ̃ ɓe mɛ̀ ?' en Mano ?",
+      "question": "Comment dit-on 'dimanche' en mano ?",
       "options": [
-        "Quel jour sommes-nous ?",
-        "Quelle heure est-il ?",
-        "Combien ça coûte ?"
+        "sāālɔ̀ɔ̀",
+        "fı̰́dɔ̄lɔ̀ɔ̀",
+        "tɛ̀nɛ̀lɔ̀ɔ̀"
       ],
-      "correct_answer": "Quelle heure est-il ?",
-      "explanation": "'Nɛɛwɔ̃' fait référence à l'heure ou au moment, et la particule finale interroge sur la quantité/mesure."
+      "correct_answer": "fı̰́dɔ̄lɔ̀ɔ̀",
+      "explanation": "fı̰́dɔ̄lɔ̀ɔ̀ désigne le dimanche ; sāālɔ̀ɔ̀ est vendredi et tɛ̀nɛ̀lɔ̀ɔ̀ est lundi."
     },
     {
-      "exercise_id": "ex6_2",
+      "exercise_id": "ex2",
+      "type": "multiple_choice",
+      "question": "Que signifie 'yālá' ?",
+      "options": [
+        "demain",
+        "hier",
+        "maintenant"
+      ],
+      "correct_answer": "hier",
+      "explanation": "yālá (avec ses variantes yēlá, yīlá) signifie 'hier'."
+    },
+    {
+      "exercise_id": "ex3",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Pour dire 'Il est deux heures', on complète ainsi : A ɓe nɛɛwɔ̃ [ ___ ].",
-      "correct_answer": "pɛ̄ɛ",
-      "hint": "C'est le chiffre deux en Mano."
+      "sentence_with_blank": "[ ___ ], kóò lō nū-ù Ɓɛ́lɛ́tɔ̰̀. (Demain, nous irons à Beleton.)",
+      "correct_answer": "Tòò",
+      "hint": "tòò signifie 'demain', il introduit ici la phrase pour insister sur le moment."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Khachaturyan, M., Carbo, M., Mamy, P. (2022) Dictionnaire mano-français, Mandenkan 67, LLACAN/CNRS",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan67/67mano_dict_all.pdf"
+    },
+    {
+      "label": "Khachaturyan, M. (2015) Grammaire du mano, Mandenkan 54, LLACAN/CNRS",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan54/54khachaturyan.pdf"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Les jours de la semaine et expressions temporelles sont attestés dans le dictionnaire académique ; les mois du calendrier grégorien en mano existent mais sont moins fréquemment utilisés au quotidien que les repères saisonniers traditionnels, d'où une confidence moyenne sur leur usage réel."
 }

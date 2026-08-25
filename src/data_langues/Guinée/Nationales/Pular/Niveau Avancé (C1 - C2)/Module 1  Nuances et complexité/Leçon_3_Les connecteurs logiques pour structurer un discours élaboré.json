@@ -6,139 +6,218 @@
   "lesson_number": 3,
   "title": "Les connecteurs logiques pour structurer un discours élaboré",
   "learning_objectives": [
-    "Articuler un plaidoyer ou un discours complexe en utilisant les connecteurs de cause, de conséquence et d'opposition",
-    "Maîtriser la transition discursive entre l'explication théorique et l'illustration factuelle",
-    "Structurer une argumentation hiérarchisée (premièrement, par conséquent, néanmoins)"
+    "Utiliser les principaux connecteurs de cause, opposition et alternative en pular",
+    "Structurer une argumentation avec 'sabu' (parce que) et 'kono' (mais)",
+    "Employer la forme interrogative courte pour un discours plus soutenu"
   ],
   "phonetic_focus": {
-    "key_sounds": "La clarté des connecteurs comme 'saabi' (/saːbi/) ou 'wano' (/wano/) dépend de l'absence de nasalisation parasite. Le groupe 'nd' dans 'e dow ɗum' (/e dow ɗum/) nécessite une occlusion alvéolaire nette.",
-    "common_pitfalls": "L'expression de l'opposition avec 'kono' (/kono/) ou 'kono tigi' ne doit pas occulter l'allongement de la voyelle dans les termes d'enchaînement comme 'gila' ou 'refti'."
+    "key_sounds": "'Kono' (mais) et 'sabu' (parce que) sont des mots invariables qui se placent en tête de la proposition qu'ils introduisent, contrairement à certains connecteurs français qui peuvent se déplacer dans la phrase.",
+    "common_pitfalls": "Le pular ne possède pas d'équivalent direct isolé pour 'donc' ; la conséquence s'exprime souvent par la juxtaposition de propositions ou par des expressions comme 'ko ðun waði' (c'est pourquoi/voilà pourquoi), attestée dans les textes explicatifs du manuel."
   },
   "vocabulary": [
     {
-      "word_id": "v21_1",
-      "term": "saabi",
-      "phonetic_api": "/saːbi/",
-      "phonetic_simple": "SAA-BI",
-      "translation": "à cause de, la raison pour laquelle, par conséquent",
-      "example_sentence": "Saabi ngal haala, mi tikku.",
-      "example_phonetic": "/saːbi nɡal haːla mi tikːu/",
-      "example_translation": "C'est en raison de cette affaire que je suis en colère."
+      "word_id": "v1",
+      "term": "kono",
+      "phonetic_api": "/kono/",
+      "phonetic_simple": "KO-NO",
+      "translation": "mais",
+      "example_sentence": "Mi yahay hara wonaa hande, kono jango.",
+      "example_phonetic": "/mi jahaj hara wonaː hande kono dʒaŋɡo/",
+      "example_translation": "J'irai, mais pas aujourd'hui, plutôt demain."
     },
     {
-      "word_id": "v21_2",
-      "term": "e dow ɗum",
-      "phonetic_api": "/e dow ɗum/",
-      "phonetic_simple": "E DOW DHUM",
-      "translation": "de surcroît, par conséquent, en plus de cela",
-      "example_sentence": "E dow ɗum, haa_e mbolden tigi.",
-      "example_phonetic": "/e dow ɗum haːʔe mbolden tiɡi/",
-      "example_translation": "De surcroît, il nous faut parler sans détours."
+      "word_id": "v2",
+      "term": "sabu",
+      "phonetic_api": "/sabu/",
+      "phonetic_simple": "SA-BOU",
+      "translation": "parce que",
+      "example_sentence": "Mi lootii sabu mi tuggi.",
+      "example_phonetic": "/mi loːtiː sabu mi tuɡːi/",
+      "example_translation": "Je me suis lavé parce que j'étais sale."
     },
     {
-      "word_id": "v21_3",
-      "term": "fijirdeji",
-      "phonetic_api": "/ɸid͡ʒirded͡ʒi/",
-      "phonetic_simple": "FI-DJIR-DEE-JI",
-      "translation": "les problématiques, les enjeux logiques (dérivé abstrait avancé)",
-      "example_sentence": "Fijirdeji saare nden no keewi.",
-      "example_phonetic": "/ɸid͡ʒirded͡ʒi saːre nden no keːwi/",
-      "example_translation": "Les enjeux systémiques de cette communauté sont multiples."
+      "word_id": "v3",
+      "term": "walla",
+      "phonetic_api": "/walːa/",
+      "phonetic_simple": "OUAL-LA",
+      "translation": "ou",
+      "example_sentence": "Ko ka saare walla ko ka suudu?",
+      "example_phonetic": "/ko ka saːre walːa ko ka suːdu/",
+      "example_translation": "Est-ce en ville ou à la maison ?"
     },
     {
-      "word_id": "v21_4",
-      "term": "wano",
-      "phonetic_api": "/wano/",
-      "phonetic_simple": "WA-NO",
-      "translation": "ainsi que, de même que, tel que (illustration)",
-      "example_sentence": "Omo gollat wano baaba makko.",
-      "example_phonetic": "/omo ɡolːat wano baːba makːo/",
-      "example_translation": "Il œuvre de la même manière que son père."
+      "word_id": "v4",
+      "term": "e",
+      "phonetic_api": "/e/",
+      "phonetic_simple": "É",
+      "translation": "et",
+      "example_simple_sentence": "",
+      "example_sentence": "O soodoya maafeeji, o arta, o defa.",
+      "example_phonetic": "/o soːdoja maːfeːdʒi o arta o defa/",
+      "example_translation": "Elle achètera des légumes, reviendra et cuisinera."
     },
     {
-      "word_id": "v21_5",
-      "term": "kono tigi",
-      "phonetic_api": "/kono tiɡi/",
-      "phonetic_simple": "KO-NO TI-GI",
-      "translation": "néanmoins, cependant, force est de constater que",
-      "example_sentence": "Kono tigi, mi tawti alaa kaalis.",
-      "example_phonetic": "/kono tiɡi mi tawti alaː kaːlis/",
-      "example_translation": "Néanmoins, force fut de constater l'absence de fonds."
+      "word_id": "v5",
+      "term": "ko ðun waði",
+      "phonetic_api": "/ko ɗun waɗi/",
+      "phonetic_simple": "KO DOUNE OUA-DI",
+      "translation": "c'est pourquoi, voilà pourquoi (conséquence)",
+      "example_sentence": "Ko ðun waði si no haani ka ñaameteeji, no ði defiraa.",
+      "example_phonetic": "/ko ɗun waɗi si no haːni ka ɲaːmeteːdʒi no ɗi defiraː/",
+      "example_translation": "C'est pourquoi il faut que la nourriture soit bien cuite."
+    },
+    {
+      "word_id": "v6",
+      "term": "haray (opposition)",
+      "phonetic_api": "/haraj/",
+      "phonetic_simple": "HA-RAÏ",
+      "translation": "mais, cependant (à la place de kono, plus soutenu)",
+      "example_sentence": "Mi yahay hara wonaa hande.",
+      "example_phonetic": "/mi jahaj hara wonaː hande/",
+      "example_translation": "J'irai, cependant pas aujourd'hui."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p21_1",
-      "original": "Saabi ngal fahu, e dow ɗum mi sawnditinoo mo laawol laabi, kono tigi o reesaali.",
-      "phonetic_api": "/saːbi nɡal ɸahu e dow ɗum mi sawnditinoː mo laːwol laːbi kono tiɡi o reːsaːli/",
-      "phonetic_simple": "SAA-BI NGAL FA-HOU, E DOW DHUM MI SAW-NDI-TI-NOO MO LAA-WOL LAA-BI, KO-NO TI-GI O REE-SAA-LI",
-      "translation": "En raison de cet objectif, et de surcroît, je lui avais suggéré une stratégie transparente ; néanmoins, il omit de s'y conformer.",
-      "context": "Rapport critique d'évaluation d'un projet oratoire ou professionnel."
+      "phrase_id": "p1",
+      "original": "Ko ðun haðata ði wonde e ñaametee.",
+      "phonetic_api": "/ko ɗun haɗata ɗi wonde e ɲaːmeteː/",
+      "phonetic_simple": "KO DOUNE HA-DA-TA DI OUON-DÉ É GNA-MÉ-TÉÉ",
+      "translation": "C'est cela qui empêche qu'ils soient dans la nourriture.",
+      "context": "Structure causale explicative, fréquente dans les textes didactiques."
     },
     {
-      "phrase_id": "p21_2",
-      "original": "Wano laawaleeji saare nden yamiriri, haa_e gollidenden fow pour heɓugol mbiilu.",
-      "phonetic_api": "/wano laːwaleːd͡ʒi saːre nden jamiriri haːʔe ɡollidenden ɸow pour heɓuɡol mbiːlu/",
-      "phonetic_simple": "WA-NO LAA-WA-LEE-JI SAA-RE NDEN YA-MI-RI-RI, HAA-E GOL-LI-DEN-DEN FOW POUR HE-BHOU-GOL MBII-LOU",
-      "translation": "Tel que les principes de la communauté le prescrivent, il est impératif que nous collaborions pleinement afin d'obtenir un rendement substantiel.",
-      "context": "Allocution formelle lors d'une assemblée générale de développement."
+      "phrase_id": "p2",
+      "original": "Ka o yahi?",
+      "phonetic_api": "/ka o jahi/",
+      "phonetic_simple": "KA O YA-HI",
+      "translation": "Où est-elle allée ? (forme courte, plus directe)",
+      "context": "La forme interrogative courte (proposition subordonnée employée seule) marque un registre plus abrupt/direct, à nuancer selon le contexte."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Ko honto o yahi?",
+      "phonetic_api": "/ko honto o jahi/",
+      "phonetic_simple": "KO HON-TO O YA-HI",
+      "translation": "Où est-elle allée ? (forme longue, plus polie)",
+      "context": "Forme complète et plus soutenue de la même question."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'enchaînement par subordination causative et consécutive",
-      "explanation": "Pour lier deux propositions complexes, l'intellectuel peul emploie 'saabi' comme charnière. Le verbe de la proposition consécutive adopte souvent une forme relative si le connecteur est lui-même mis en emphase.",
+      "concept": "Les connecteurs de base pour structurer un discours",
+      "explanation": "Le pular dispose d'un jeu de connecteurs invariables permettant d'articuler cause (sabu), opposition (kono/haray), alternative (walla) et addition (e), auxquels s'ajoute l'expression figée 'ko ðun waði' pour la conséquence.",
       "rules": [
-        "Placer 'saabi' devant la cause ou la conséquence logique factuelle.",
-        "Employer 'e dow ɗum' pour empiler des arguments de manière cumulative."
+        "sabu + proposition = cause explicite ('parce que')",
+        "kono / haray + proposition = opposition ('mais'/'cependant')",
+        "walla = alternative ('ou')",
+        "ko ðun waði + proposition = conséquence ('c'est pourquoi')"
       ],
       "examples": [
         {
-          "structure": "saabi + Haala + Suffixe relatif",
-          "phonetic_api": "/saːbi ɗum o ari/",
-          "meaning": "C'est en raison de cela qu'il est venu"
+          "structure": "Mi lootii sabu mi tuggi, kono mi lootaali seeda.",
+          "phonetic_api": "/mi loːtiː sabu mi tuɡːi kono mi loːtaːli seːda/",
+          "meaning": "Je me suis lavé parce que j'étais sale, mais je ne me suis pas lavé complètement."
+        }
+      ]
+    },
+    {
+      "concept": "La forme interrogative courte pour un registre plus direct",
+      "explanation": "Une proposition subordonnée peut se transformer directement en question autonome, sans la formule complète 'ko honto/ko fii honðun', ce qui donne un ton plus abrupt, adapté à un discours rapide et soutenu.",
+      "rules": [
+        "Forme longue et polie : Ko honto o yahi?",
+        "Forme courte et directe : Ka o yahi?"
+      ],
+      "examples": [
+        {
+          "structure": "Ka yahataa? / Ko honto yahataa?",
+          "phonetic_api": "/ka jahataː/, /ko honto jahataː/",
+          "meaning": "Où vas-tu ? (forme brusque / forme polie)"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Mamadou (Orateur)",
-      "text": "Musidɗo am, wano tinndintinoon ka gollirde, saabi ngal gollal mawngal, haa_e mbolden e dow laabi.",
-      "phonetic_api": "/musiɗːo am wano tinːdintinoːn ka ɡollirde saːbi nɡal ɡolːal mawnɡal haːʔe mbolden e dow laːbi/",
-      "phonetic_simple": "MOU-SID-DHO AM, WA-NO TINN-DIN-TI-NOON KA GOL-LIR-DE, SAA-BI NGAL GOL-LAL MAWN-GAL, HAA-E MGOL-DEN E DOW LAA-BI.",
-      "translation": "Mon cher parent, à l'instar des instructions que nous avions explicitées au bureau, et en raison de l'envergure de ce projet, il nous faut discourir avec une transparence totale."
+      "speaker": "Alpha",
+      "text": "Ka yahataa jooni?",
+      "phonetic_api": "/ka jahataː dʒoːni/",
+      "phonetic_simple": "KA YA-HA-TAA DJO-O-NI",
+      "translation": "Où vas-tu maintenant ?"
     },
     {
-      "speaker": "Saliou (Médiateur)",
-      "text": "E dow ɗum, haala maa no jogii fahu. Kono tigi, mi tawti sikke no ɗon e dow mbiilu ngol. Sino en reesitinoo laawaleeji ɗen, hama en saɗatnoo lah !",
-      "phonetic_api": "/e dow ɗum haːla maː no d͡ʒoɡiː ɸahu kono tiɡi mi tawti sikke no ɗon e dow mbiːlu nɡol sino en reːsitinoː laːwaleːd͡ʒi ɗen hama en saɗatnoː lah/",
-      "phonetic_simple": "E DOW DHUM, HAA-LA MAA NO DJO-GII FA-HOU. KO-NO TI-GI, MI TAW-TI SIK-KE NO DHON E DOW MBII-LOU NGOL. SI-NO EN REE-SI-TI-NOO LAA-WA-LEE-JI DHEN, HA-MA EN SA-DHAT-NOO LAH !",
-      "translation": "De surcroît, ton argumentation s'avère parfaitement sensée. Néanmoins, force est de constater qu'une incertitude subsiste quant au profit escompté. Si seulement nous avions formalisé ces règles, d'aventure nous n'aurions jamais rencontré d'écueils !"
+      "speaker": "Binta",
+      "text": "Mi yahay ka lekkol, sabu miðo foti jangude.",
+      "phonetic_api": "/mi jahaj ka lekːol sabu miɗo foti dʒaŋɡude/",
+      "phonetic_simple": "MI YA-HAÏ KA LÈK-KOL, SA-BOU MI-DO FO-TI DJAN-GOU-DÉ",
+      "translation": "Je vais à l'école, parce que je dois étudier."
+    },
+    {
+      "speaker": "Alpha",
+      "text": "Kono a foti waɗde walla a wattii yaade?",
+      "phonetic_api": "/kono a foti waɗde walːa a watːiː jaːde/",
+      "phonetic_simple": "KO-NO A FO-TI OUAD-DÉ OUAL-LA A OUAT-TI-I YA-A-DÉ",
+      "translation": "Mais devrais-tu attendre, ou as-tu déjà commencé à partir ?"
+    },
+    {
+      "speaker": "Binta",
+      "text": "Ko ðun waði mi yahi jooni, sabu waqtu foti.",
+      "phonetic_api": "/ko ɗun waɗi mi jahi dʒoːni sabu waktu foti/",
+      "phonetic_simple": "KO DOUNE OUA-DI MI YA-HI DJO-O-NI, SA-BOU OUAK-TOU FO-TI",
+      "translation": "C'est pourquoi je pars maintenant, car il est temps."
     }
   ],
   "cultural_notes": [
-    "La rhétorique pular ('gandal bolide') valorise les transitions fluides et l'usage de connecteurs logiques imagés. Un discours sans liens argumentatifs clairs est qualifié de 'haala ɓuree' (parole décousue). Les connecteurs complexes issus ou non de sémantismes pastoraux métaphoriques permettent de structurer des harangues d'une haute tenue civique."
+    "Le connecteur 'kono' apparaît fréquemment dans les textes explicatifs et narratifs du manuel Peace Corps pour marquer une opposition ou une nuance dans un raisonnement (source : Learner's Guide to Pular, Texte 3 Useful Advice, section grammaire Haray et Hara).",
+    "La grammaire de référence pulaar.org confirme l'usage de 'sabu' (parce que), 'so' (si réalisable), 'sinno' (si irréel), 'walla' (ou) et 'e' (et) comme connecteurs standards du pulaar/fulfulde, transposables au pular du Fouta-Djalon."
   ],
   "exercises": [
     {
-      "exercise_id": "ex21_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel connecteur logique sert à introduire une restriction forte ou une concession ('néanmoins') ?",
+      "question": "Quel mot signifie 'parce que' en pular ?",
       "options": [
-        "Wano",
-        "Kono tigi",
-        "Saabi"
+        "Kono",
+        "Sabu",
+        "Walla"
       ],
-      "correct_answer": "Kono tigi",
-      "explanation": "'Kono tigi' signifie 'cependant/néanmoins avec insistance', alors que 'wano' illustre (comme) et 'saabi' causalise (à cause de)."
+      "correct_answer": "Sabu",
+      "explanation": "Sabu introduit une cause explicite, équivalent de 'parce que'."
     },
     {
-      "exercise_id": "ex21_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "[ ___ ] ngal fahu, mi resi waaju maa ngon. (En raison de / À cause de cet objectif, j'ai conservé ton conseil).",
-      "correct_answer": "Saabi",
-      "hint": "Connecteur logique de causalité ou de conséquence en tête de phrase."
+      "sentence_with_blank": "Mi yahay, [ ___ ] wonaa hande. (J'irai, mais pas aujourd'hui)",
+      "correct_answer": "kono",
+      "hint": "Utilisez le connecteur d'opposition le plus courant."
+    },
+    {
+      "exercise_id": "ex3",
+      "type": "multiple_choice",
+      "question": "Que signifie l'expression 'ko ðun waði' ?",
+      "options": [
+        "Peut-être",
+        "C'est pourquoi",
+        "Jamais plus"
+      ],
+      "correct_answer": "C'est pourquoi",
+      "explanation": "Cette expression figée introduit une conséquence, équivalente à 'c'est pourquoi/voilà pourquoi'."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Learner's Guide to Pular (Fuuta Jallon) — Peace Corps Guinée (Herb Caudill & Ousmane Besseko Diallo)",
+      "url": "https://ibamba.net/pular/manual.pdf"
+    },
+    {
+      "label": "Live Lingua Project — Peace Corps Manual of Fulfulde",
+      "url": "https://www.livelingua.com/course/peace-corps/manual-of-fulfulde"
+    },
+    {
+      "label": "pulaar.org — Grammaire de Référence Pulaar/Fulfulde (connecteurs logiques et marqueurs de subordination)",
+      "url": "https://pulaar.org/pulaar/grammaire_pulaar_v2.html"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Les connecteurs 'kono' et 'haray' (opposition) sont bien attestés dans le manuel Peace Corps Guinée (variété Fouta-Djalon). Les connecteurs 'sabu' (parce que), 'so'/'sinno' (si) et 'walla' (ou) proviennent de la grammaire de référence pulaar.org, qui documente le pulaar/fulfulde de façon plus générale ; leur usage exact dans la variété spécifique du Fouta-Djalon n'a pas pu être confirmé par une seconde source indépendante, d'où une confiance modérée sur ce point précis."
 }

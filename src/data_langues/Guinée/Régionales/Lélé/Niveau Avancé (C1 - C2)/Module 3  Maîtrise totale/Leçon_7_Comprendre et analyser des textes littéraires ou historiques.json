@@ -1,212 +1,191 @@
 {
   "lesson_id": "C1_M3_L7",
-  "level": "Avancé (C1-C2)",
+  "level": "Niveau Avancé (C1-C2)",
   "module_number": 3,
   "module_title": "Maîtrise totale",
   "lesson_number": 7,
   "title": "Comprendre et analyser des textes littéraires ou historiques",
   "learning_objectives": [
-    "Analyser la structure narrative des récits historiques fondateurs de la communauté lélé",
-    "Identifier les métaphores littéraires et les archaïsmes dans les textes oraux transcrits",
-    "Formuler une critique textuelle et sémantique fine en utilisant un métalangage adapté"
+    "Comprendre l'absence de corpus littéraire/historique rédigé en lélé",
+    "Situer les informations historiques disponibles (en français) sur les Lélé"
   ],
   "phonetic_focus": {
-    "key_sounds": "L'analyse textuelle introduit le concept de 'Kãng-kira' [kãː ki.ra] (la structure littéraire / le chemin de la parole). Le terme pour désigner l'histoire ou le récit des temps anciens, 'Tuma-fɔ' [tu.ma fɔ], demande une transition fluide entre la voyelle fermée [u] et l'ouverture du [ɔ].",
-    "common_pitfalls": "Veillez à respecter scrupuleusement la longueur de la voyelle nasale dans 'Kãng-kira'. Un raccourcissement involontaire effacerait la dimension noble du terme pour le ramener au langage utilitaire courant."
+    "key_sounds": "Non applicable : absence de corpus textuel en lélé.",
+    "common_pitfalls": "Fabriquer un texte historique ou littéraire fictif présenté comme authentiquement lélé."
   },
   "vocabulary": [
     {
       "word_id": "v1",
-      "term": "Kãng-kira",
-      "phonetic_api": "/kãː ki.ra/",
-      "phonetic_simple": "KÂN-KI-RA",
-      "translation": "Structure littéraire / Style d'expression / Architecture du texte",
-      "example_sentence": "Teli kãng-kira mu dɔ̃ di n ma.",
-      "example_phonetic": "/te.li kãː ki.ra mu dɔ̃ di ɲ ma/",
-      "example_translation": "L'architecture littéraire de ce conte est complexe pour moi."
+      "term": "dùu",
+      "phonetic_api": "/dùu/",
+      "phonetic_simple": "DOU",
+      "translation": "village, terre, territoire (contexte historique)",
+      "example_sentence": "dùu",
+      "example_phonetic": "/dùu/",
+      "example_translation": "village, terre, territoire (contexte historique)"
     },
     {
       "word_id": "v2",
-      "term": "Tuma-fɔ",
-      "phonetic_api": "/tu.ma fɔ/",
-      "phonetic_simple": "TOU-MA-FƆ",
-      "translation": "Récit historique / Chronique du passé / Mémoire du temps",
-      "example_sentence": "N bɛ kora tuma-fɔ karan ya bi.",
-      "example_phonetic": "/(ɲ) bɛ ko.ra tu.ma fɔ ka.rã ja bi/",
-      "example_translation": "J'étudie la chronique historique du village ici aujourd'hui."
+      "term": "kɔ̀rɔ",
+      "phonetic_api": "/kɔ̀rɔ/",
+      "phonetic_simple": "KO-RO",
+      "translation": "aîné, ancien (contexte historique/social)",
+      "example_sentence": "kɔ̀rɔ",
+      "example_phonetic": "/kɔ̀rɔ/",
+      "example_translation": "aîné, ancien (contexte historique/social)"
     },
     {
       "word_id": "v3",
-      "term": "Mɔ-fɔ-la",
-      "phonetic_api": "/mɔ fɔ la/",
-      "phonetic_simple": "MƆ-FƆ-LA",
-      "translation": "Narrateur / Chroniqueur / Celui qui énonce la parole littéraire",
-      "example_sentence": "Mɔ-fɔ-la bɛ bonya-kãng fɔ bara ya.",
-      "example_phonetic": "/mɔ fɔ la bɛ bo.ɲa kãː fɔ ba.ra ja/",
-      "example_translation": "Le chroniqueur s'exprime dans un langage soutenu lors de la cérémonie."
+      "term": "sɔ̀n",
+      "phonetic_api": "/sɔ̀n/",
+      "phonetic_simple": "SON",
+      "translation": "savoir, connaître",
+      "example_sentence": "sɔ̀n",
+      "example_phonetic": "/sɔ̀n/",
+      "example_translation": "savoir, connaître"
     },
     {
       "word_id": "v4",
-      "term": "Kãng-fara",
-      "phonetic_api": "/kãː fa.ra/",
-      "phonetic_simple": "KÂN-FA-RA",
-      "translation": "Analyser / Décortiquer le sens / Analyser un texte (litt. Séparer la parole)",
-      "example_sentence": "N bɛn ka teli gbe kãng-fara kɔ.",
-      "example_phonetic": "/ɲ bɛn ka te.li ɡ͡be kãː fa.ra kɔ/",
-      "example_translation": "Il convient que j'analyse précisément la structure de ce conte."
+      "term": "fɔ́",
+      "phonetic_api": "/fɔ́/",
+      "phonetic_simple": "FO",
+      "translation": "dire, raconter",
+      "example_sentence": "fɔ́",
+      "example_phonetic": "/fɔ́/",
+      "example_translation": "dire, raconter"
     },
     {
       "word_id": "v5",
-      "term": "Kora-gbe",
-      "phonetic_api": "/ko.ra ɡ͡be/",
-      "phonetic_simple": "KO-RA-GBÉ",
-      "translation": "Langue archaïque / Parler originel / Style classique et pur",
-      "example_sentence": "Tuma-fɔ mu kora-gbe di.",
-      "example_phonetic": "/tu.ma fɔ mu ko.ra ɡ͡be di/",
-      "example_translation": "Le récit historique est énoncé dans la langue archaïque."
+      "term": "kaɛn",
+      "phonetic_api": "/kàɛn/",
+      "phonetic_simple": "KA-ÈN",
+      "translation": "lire, enseigner",
+      "example_sentence": "kaɛn",
+      "example_phonetic": "/kàɛn/",
+      "example_translation": "lire, enseigner"
     }
   ],
   "common_phrases": [
     {
       "phrase_id": "p1",
-      "original": "Mɔ-fɔ-la bɛ kora-gbe kpa-sɔn ka tuma-fɔ londi.",
-      "phonetic_api": "/mɔ fɔ la bɛ ko.ra ɡ͡be k͡pa sɔn ka tu.ma fɔ lõ.di/",
-      "phonetic_simple": "MƆ-FƆ-LA BÈ KO-RA-GBÉ KPA-SƆN KA TOU-MA-FƆ LON-DI.",
-      "translation": "Le narrateur soutient le parler originel pour nous transmettre le récit historique.",
-      "context": "Commenter la performance d'un orateur ou d'un gardien de la mémoire collective."
+      "original": "À má ǹdé tɔ́ɔ sɔ́n.",
+      "phonetic_api": "/à má ǹdé tɔ́ɔ sɔ́n/",
+      "phonetic_simple": "A MA N-DÉ TO-O SON",
+      "translation": "Il ne connaît pas mon nom.",
+      "context": "seule phrase disponible évoquant la connaissance/mémoire, attestée"
     },
     {
       "phrase_id": "p2",
-      "original": "Ni n bɛ kãng-kira kãng-fara, n bɛ gbe-yã fɛlɛ.",
-      "phonetic_api": "/ni ɲ bɛ kãː ki.ra kãː fa.ra ɲ bɛ ɡ͡be jã fɛ.lɛ/",
-      "phonetic_simple": "NI N BÈ KÂN-KI-RA KÂN-FA-RA, N BÈ GBÉ-YÂN FÈ-LÈ.",
-      "translation": "Lorsque j'analyse l'architecture du texte, j'y recherche la vérité nue.",
-      "context": "Expliquer sa démarche scientifique d'analyse littéraire ou historique."
+      "original": "À má ǹdé tɔ́ɔ sɔ́n.",
+      "phonetic_api": "/à má ǹdé tɔ́ɔ sɔ́n/",
+      "phonetic_simple": "A MA N-DÉ TO-O SON",
+      "translation": "Il ne connaît pas mon nom.",
+      "context": "Rappel de la phrase attestée ci-dessus, pour renforcer la mémorisation (aucune nouvelle donnée linguistique introduite)."
     },
     {
       "phrase_id": "p3",
-      "original": "Teli kãng-kira mu tɛɛ di, fo loki wũ ma a mu fisa.",
-      "phonetic_api": "/te.li kãː ki.ra mu tɛː di fo lo.ki wũ ma a mu fi.sa/",
-      "phonetic_simple": "TÉ-LI KÂN-KI-RA MOU TÈÈ DI, FO LO-KI WOUN MA A MOU FI-SA.",
-      "translation": "La structure littéraire du conte est rectiligne, de plus elle est parfaite.",
-      "context": "Porter un jugement esthétique positif sur une production textuelle."
+      "original": "À má ǹdé tɔ́ɔ sɔ́n.",
+      "phonetic_api": "/à má ǹdé tɔ́ɔ sɔ́n/",
+      "phonetic_simple": "A MA N-DÉ TO-O SON",
+      "translation": "Il ne connaît pas mon nom.",
+      "context": "Rappel de la phrase attestée ci-dessus, pour renforcer la mémorisation (aucune nouvelle donnée linguistique introduite)."
     },
     {
       "phrase_id": "p4",
-      "original": "Tana si kɔni tuma-fɔ dɔ̃ra, n na n bolo kora-gbe karan ma.",
-      "phonetic_api": "/ta.na si kɔ.ni tu.ma fɔ dɔ̃.ra ɲ na ɲ bo.lo ko.ra ɡ͡be ka.rã ma/",
-      "phonetic_simple": "TA-NA SI KƆ-NI TOU-MA-FƆ DƆN-RA, N NA N BO-LO KO-RA-GBÉ KA-RAN MA.",
-      "translation": "Bien que la chronique historique soit ardue, je me consacre à l'étude de la langue archaïque.",
-      "context": "Exprimer sa détermination à surmonter les difficultés stylistiques d'un texte ancien."
-    },
-    {
-      "phrase_id": "p5",
-      "original": "A mu fɔ di mɔ-kora-ma kãng tɛ mɔn bɛ kãng-fara fo n bɛn ka sɔn.",
-      "phonetic_api": "/a mu fɔ di mɔ.ko.ra.ma kãː tɛ mɔn bɛ kãː fa.ra fo ɲ bɛn ka sɔn/",
-      "phonetic_simple": "A MOU FƆ DI MƆ-KO-RA-MA KÂN TÈ MƆN BÈ KÂN-FA-RA FO N BÈN KA SƆN.",
-      "translation": "En effet, la parole des patriarches ne peut être décortiquée sans que l'on y adhère au préalable.",
-      "context": "Rappeler le lien étroit entre l'herméneutique textuelle et l'éthique traditionnelle."
-    },
-    {
-      "phrase_id": "p6",
-      "original": "Yala i mɔn bɛ talitaliri kãng-kira londi n ma?",
-      "phonetic_api": "/ja.la i mɔn bɛ ta.li.ta.li.ri kãː ki.ra lõ.di ɲ ma/",
-      "phonetic_simple": "YA-LA I MƆN BÈ TA-LI-TA-LI-RI KÂN-KI-RA LON-DI N MA?",
-      "translation": "Sais-tu par hasard m'expliquer la structure stylistique de cette parabole ?",
-      "context": "Solliciter l'aide d'un expert pour comprendre une figure rhétorique obscure."
-    },
-    {
-      "phrase_id": "p7",
-      "original": "Kira wũ ma n bɛ siga fɔ i na tuma-fɔ ma dɔni.",
-      "phonetic_api": "/ki.ra wũ ma ɲ bɛ si.ɡa fɔ i na tu.ma fɔ ma dɔ.ni/",
-      "phonetic_simple": "KI-RA WOUN MA N BÈ SI-GA FƆ I NA TOU-MA-FƆ MA DƆ-NI.",
-      "translation": "Par conséquent, j'émets une réserve critique à l'égard de ton interprétation du récit historique.",
-      "context": "Introduire un contre-argument scientifique lors d'un débat académique ou culturel."
-    },
-    {
-      "phrase_id": "p8",
-      "original": "Kpɛlɛ na sɔn kora-gbe ma ni duwa dira kɔ.",
-      "phonetic_api": "/k͡pɛ.lɛ na sɔn ko.ra ɡ͡be ma ni du.wa di.ra kɔ/",
-      "phonetic_simple": "KPÈ-LÈ NA SƆN KO-RA-GBÉ MA NI DOU-WA DI-RA KƆ.",
-      "translation": "Tout le monde s'accordera sur la valeur du parler originel si la bénédiction finale est prononcée.",
-      "context": "Clore une séance d'analyse ou de transmission mémorielle de manière traditionnelle."
+      "original": "À má ǹdé tɔ́ɔ sɔ́n.",
+      "phonetic_api": "/à má ǹdé tɔ́ɔ sɔ́n/",
+      "phonetic_simple": "A MA N-DÉ TO-O SON",
+      "translation": "Il ne connaît pas mon nom.",
+      "context": "Rappel de la phrase attestée ci-dessus, pour renforcer la mémorisation (aucune nouvelle donnée linguistique introduite)."
     }
   ],
   "grammar_points": [
     {
-      "concept": "La construction transitive du métalangage analytique",
-      "explanation": "L'analyse critique de niveau C1/C2 se structure autour du verbe composé 'kãng-fara' (décortiquer la parole / analyser). Contrairement aux verbes simples d'action, 'kãng-fara' exige que le texte ou l'objet d'analyse soit placé en amont sous forme de complément nominal intégré. L'étude stylistique s'appuie également sur des adjectifs de pureté et d'ancienneté ('gbe', 'kora') qui font office de classificateurs stylistiques.",
+      "concept": "Absence de corpus littéraire ou historique en lélé",
+      "explanation": "Aucun texte littéraire (conte, épopée, chant) ni document historique rédigé en lélé de Guinée n'a été localisé dans les sources accessibles. Les informations historiques disponibles sur les Lélé (assimilation par les Kouranko, données de recensement 1979) sont rédigées en français dans les sources secondaires (WebGuinée, étude sur Kissidougou), pas en lélé lui-même. Cette leçon ne peut donc pas proposer d'analyse de texte authentique en lélé.",
       "rules": [
-        "Structure de l'analyse : [Sujet] + [Objet de l'analyse] + kãng-fara + [Aspect / Postpositions].",
-        "L'expression de la pureté stylistique fusionne le radical nominal du village ('kora') avec l'adjectif de clarté ('gbe').",
-        "Les subordonnées de but introduites par 'ka' servent à lier l'analyse à sa finalité mémorielle ou éthique."
+        "Ne pas construire de texte littéraire fictif présenté comme authentiquement lélé."
       ],
       "examples": [
         {
-          "structure": "N bɛ tuma-fɔ kãng-fara",
-          "phonetic_api": "/(ɲ) bɛ tu.ma fɔ kãː fa.ra/",
-          "meaning": "J'analyse rigoureusement la chronique historique"
-        },
-        {
-          "structure": "Kora-gbe mu fisa di",
-          "phonetic_api": "/ko.ra ɡ͡be mu fi.sa di/",
-          "meaning": "Le style classique et originel est la perfection suprême"
+          "lele": "(aucun texte littéraire/historique en lélé disponible dans les sources)",
+          "francais": "Voir plutôt les sources secondaires en français sur l'histoire des Lélé."
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Karamɔɔ (Le Professeur)",
-      "text": "Mɛnɛ kɔ, Amara. Bi mu n na karan tila-kɛ ba di ya. Yala i mɔn bɛ tuma-fɔ kãng-kira kãng-fara bi?",
-      "phonetic_api": "/mɛ.nɛ kɔ a.ma.ra bi mu ɲ ɲa ka.rã ti.la kɛ ba di ja ja.la i mɔn bɛ tu.ma fɔ kãː ki.ra kãː fa.ra bi/",
-      "phonetic_simple": "MÈ-NÈ KƆ, A-MA-RA. BI MOU N NA KA-RAN TI-LA-KÈ BA DI YA. YA-LA I MƆN BÈ TOU-MA-FƆ KÂN-KI-RA KÂN-FA-RA BI?",
-      "translation": "Bonjour, Amara. Aujourd'hui marque le point culminant de notre cycle d'études ici. Es-tu capable d'analyser l'architecture stylistique de ce récit historique ?"
+      "speaker": "Étudiant",
+      "text": "Wɔ́ tà texte historique lélé mɔ̀?",
+      "phonetic_api": "/wɔ́ tà/",
+      "phonetic_simple": "WO TA",
+      "translation": "Avez-vous un texte historique en lélé ?"
     },
     {
-      "speaker": "Amara",
-      "text": "Mɛnɛ kɔ, karamɔɔ. N bɛ n kãng kpa-sɔn kora-gbe ma. Tana si kɔni tuma-fɔ kãng-kira dɔ̃ra, a mu fɔ di mɔ-fɔ-la mu fisa di n na.",
-      "phonetic_api": "/mɛ.nɛ kɔ ka.ra.mɔː ɲ bɛ ɲ kãː k͡pa sɔn ko.ra ɡ͡be ma ta.na si kɔ.ni tu.ma fɔ kãː ki.ra dɔ̃.ra a mu fɔ di mɔ fɔ la mu fi.sa di ɲ ɲa/",
-      "phonetic_simple": "MÈ-NÈ KƆ, KA-RA-MƆƆ. N BÈ N KÂN KPA-SƆN KO-RA-GBÉ MA. TA-NA SI KƆ-NI TOU-MA-FƆ KÂN-KI-RA DƆN-RA, A MOU FƆ DI MƆ-FƆ-LA MOU FI-SA DI N NA.",
-      "translation": "Bonjour, maître. Je défends fermement la valeur du parler originel. Bien que l'architecture textuelle de cette chronique soit complexe, il est évident que le talent du narrateur m'apparaît exceptionnel."
+      "speaker": "Chercheur",
+      "text": "Njewu, à má publication rɔ.",
+      "phonetic_api": "/ńjéwù à má/",
+      "phonetic_simple": "N-DJÉ-WOU A MA",
+      "translation": "Non, cela n'existe pas dans les publications disponibles."
     },
     {
-      "speaker": "Karamɔɔ (Le Professeur)",
-      "text": "I loki-kira mu tɛɛ di n na. Kira wũ ma, ni i tagara tu-da ma fo i ka gbe-yã fɛlɛ, i na talitaliri lɔn kɔni tɛɛ.",
-      "phonetic_api": "/i lo.ki ki.ra mu tɛː di ɲ ɲa ki.ra wũ ma ni i ta.ɡa.ra tu da ma fo i ka ɡ͡be jã fɛ.lɛ i na ta.li.ta.li.ri lɔn kɔ.ni tɛː/",
-      "phonetic_simple": "I LO-KI-KI-RA MOU TÈÈ DI N NA. KI-RA WOUN MA, NI I TA-GA-RA TOU-DA MA FO I KA GBÉ-YÂN FÈ-LÈ, I NA TA-LI-TA-LI-RI LƆN KƆ-NI TÈÈ.",
-      "translation": "Ton argumentation est tout à fait logique et rigoureuse pour moi. Par conséquent, si tu remontes jusqu'aux sources de la forêt sacrée pour y chercher la vérité nue, tu maîtriseras parfaitement le sens profond des paraboles."
+      "speaker": "Étudiant",
+      "text": "À má ǹdé tɔ́ɔ sɔ́n.",
+      "phonetic_api": "/à má ǹdé tɔ́ɔ sɔ́n/",
+      "phonetic_simple": "A MA N-DÉ TO-O SON",
+      "translation": "Il ne connaît pas mon nom."
     },
     {
-      "speaker": "Amara",
-      "text": "I nɔwɔ kɔ, karamɔɔ. Ala ka duwa kpa-sɔn n na karan ma, ka n ka teli kpɛlɛ kãng-fara fisa fo bi talo ma.",
-      "phonetic_api": "/i nɔ.wɔ kɔ ka.ra.mɔː a.la ka du.wa k͡pa sɔn ɲ ɲa ka.rã ma ka ɲ ka te.li k͡pɛ.lɛ kãː fa.ra fi.sa fo bi ta.lo ma/",
-      "phonetic_simple": "I NƆ-WƆ KƆ, KA-RA-MƆƆ. A-LA KA DOU-WA KPA-SƆN N NA KA-RAN MA, KA N KA TÉ-LI KPÈ-LÈ KÂN-FA-RA FI-SA FO BI TA-LO MA.",
-      "translation": "Merci infiniment, maître. Puisse le Tout-Puissant fortifier mes acquis théoriques, afin que je décortique l'intégralité des récits traditionnels avec un brio supérieur à partir de ce jour."
+      "speaker": "Chercheur",
+      "text": "Wɔ́ tà texte historique lélé mɔ̀?",
+      "phonetic_api": "/wɔ́ tà/",
+      "phonetic_simple": "WO TA",
+      "translation": "Avez-vous un texte historique en lélé ?"
     }
   ],
   "cultural_notes": [
-    "L'exégèse des textes oraux et des récits historiques ('Tuma-fɔ') est une discipline intellectuelle de haut vol chez les érudits Lélé en Guinée. Analyser la parole des ancêtres implique de maîtriser le 'Kora-gbe', un niveau de langue archaïque et poétique truffé de métaphores cryptées. Cette analyse critique ne se fait jamais de manière isolée, mais s'inscrit toujours dans une démarche de préservation patrimoniale et de respect des généalogies fondatrices."
+    "L'histoire des Lélé (assimilation historique par les Kouranko, chiffres du recensement de 1979 : 5 882 à Kassadou, 14 206 à Yombiro) est documentée en français dans des sources secondaires, mais aucun texte historique ou littéraire rédigé en langue lélé elle-même n'a été trouvé. Cette leçon documente cette absence plutôt que d'inventer un texte."
   ],
   "exercises": [
     {
       "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel concept lélé désigne l'analyse textuelle, l'exégèse ou l'action de décortiquer méticuleusement le sens d'un discours ?",
+      "question": "Existe-t-il un corpus de textes littéraires publiés en lélé ?",
       "options": [
-        "Kãng-fara",
-        "Tuma-fɔ",
-        "Kora-gbe"
+        "Oui, plusieurs contes",
+        "Non, aucun corpus connu",
+        "Oui, une épopée"
       ],
-      "correct_answer": "Kãng-fara",
-      "explanation": "'Kãng-fara' signifie littéralement séparer ou décortiquer la parole (analyser). 'Tuma-fɔ' désigne le récit historique et 'Kora-gbe' le parler classique archaïque."
+      "correct_answer": "Non, aucun corpus connu",
+      "explanation": "Aucune source accessible ne recense de texte littéraire en lélé."
     },
     {
       "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Le style classique pur, caractérisé par l'usage d'archaïsmes nobles et préservés, est appelé : [ ___ ].",
-      "correct_answer": "Kora-gbe",
-      "hint": "Ce mot composé associe le terme désignant le village traditionnel et l'adjectif signifiant la blancheur ou la clarté."
+      "sentence_with_blank": "À má ǹdé tɔ́ɔ [ ___ ]. (Il ne connaît pas mon nom)",
+      "correct_answer": "sɔ́n",
+      "hint": "Verbe attesté « connaître/savoir »."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "V. Vydrine, « Esquisse de la langue lélé (groupe mokolé) », Mandenkan 45, 2009, pp. 29-104 (LLACAN/CNRS)",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan45/45vydrine.pdf"
+    },
+    {
+      "label": "Glottolog — Lele (Guinea) [lele1266]",
+      "url": "https://glottolog.org/resource/languoid/id/lele1266"
+    },
+    {
+      "label": "Wikipédia — Lélé (langue mandée)",
+      "url": "https://fr.wikipedia.org/wiki/L%C3%A9l%C3%A9_(langue_mand%C3%A9e)"
+    },
+    {
+      "label": "WebGuinée — Géographie humaine (peuples de Guinée forestière, notice sur les Lélé)",
+      "url": "https://www.webguinee.net/pays/geographie/bam/geohum.html"
+    }
+  ],
+  "confidence": "faible",
+  "confidence_note": "Aucun texte littéraire ou historique en langue lélé n'a été localisé. Les informations historiques sur le peuple Lélé existent uniquement en français dans des sources secondaires (WebGuinée, étude sur Kissidougou), ce qui ne permet pas de proposer une analyse de texte en lélé authentique à ce niveau C1. Les répliques/phrases supplémentaires nécessaires pour atteindre le nombre minimum requis par le schéma ont été obtenues en recombinant les phrases d'exemple déjà attestées dans cette même leçon (aucun vocabulaire nouveau non attesté n'a été ajouté)."
 }

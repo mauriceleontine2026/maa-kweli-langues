@@ -3,7 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 from .database import Base, engine
 from .config import get_allowed_origins, get_backend_proxy_target
-from .routers import health, auth, lessons, progress, audio, ai, languages, vocabulary, contributions, users, leaderboard
+from .routers import health, auth, lessons, progress, audio, ai, languages, vocabulary, contributions, users, leaderboard, research
 from fastapi.staticfiles import StaticFiles
 from pathlib import Path
 import json
@@ -21,6 +21,7 @@ from .services.security import require_admin
 app = FastAPI(title="M'baara API", version="0.1.0")
 
 allowed_origins = get_allowed_origins()
+allowed_origin_regex = r"https://(?:[A-Za-z0-9-]+\.)*(?:vercel\.app|web\.app)$|http://localhost:\d+$|https://localhost:\d+$|http://127\.0\.0\.1:\d+$|https://127\.0\.0\.1:\d+$"
 
 if any(origin.strip() in {"*", "null"} for origin in allowed_origins):
     raise RuntimeError(
@@ -634,6 +635,7 @@ _seed_default_languages()
 app.add_middleware(
     CORSMiddleware,
     allow_origins=allowed_origins,
+    allow_origin_regex=allowed_origin_regex,
     allow_credentials=True,
     allow_methods=["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
     allow_headers=[
@@ -675,6 +677,8 @@ async def csrf_protect(request, call_next):
             "/api/auth/register/form",
             "/api/auth/supabase",
             "/api/auth/supabase/form",
+            "/api/auth/verify-email",
+            "/api/auth/me/photo",
         }
         if cookie_token and not header_auth and request.url.path not in exempt_paths:
             csrf_cookie = request.cookies.get(security.CSRF_COOKIE_NAME)
@@ -733,6 +737,7 @@ app.include_router(languages, prefix="/api/languages")
 app.include_router(vocabulary, prefix="/api/vocabulary")
 app.include_router(contributions, prefix="/api/contributions")
 app.include_router(users, prefix="/api/users")
+app.include_router(research, prefix="/api/v1/agent")
 
 # Admin endpoint to trigger dictionary seeding on demand
 @app.post("/api/admin/seed-dictionaries")

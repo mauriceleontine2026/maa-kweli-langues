@@ -30,7 +30,7 @@ import { useTheme } from "@/contexts/ThemeContext";
 const NAV_ITEMS = [
   { to: "/", label: "Accueil", icon: Home },
   { to: "/apprendre", label: "Apprendre", icon: BookOpen },
-  { to: "/tuteur", label: "Tuteur IA", icon: GraduationCap },
+  { to: "/tuteur", label: "Kôrô", icon: GraduationCap, featured: true },
   { to: "/contribuer", label: "Contribuer", icon: Mic },
   { to: "/progres", label: "Progrès", icon: TrendingUp },
   { to: "/revision", label: "Révision", icon: Clock },
@@ -171,16 +171,24 @@ export default function AppLayout() {
 
       <nav className="fixed inset-x-0 bottom-0 z-40 border-t border-border/70 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/85">
         <div className="mx-auto grid max-w-7xl grid-cols-6 gap-0.5 px-0.5 py-1">
-          {NAV_ITEMS.map(({ to, label, icon: Icon }) => (
+          {NAV_ITEMS.map(({ to, label, icon: Icon, featured }) => (
             <NavLink
               key={to}
               to={to}
+              aria-label={featured ? "Kôrô, tuteur IA" : label}
+              title={featured ? "Kôrô, tuteur IA" : label}
               className={({ isActive: navActive }) => {
                 const active = navActive || isActive(to);
-                return `flex min-w-0 flex-col items-center justify-center gap-0.5 rounded-lg px-0.5 py-1 text-[9px] font-medium transition sm:text-[11px] ${
+                return `relative flex min-w-0 flex-col items-center justify-center gap-0.5 rounded-lg px-0.5 py-1.5 text-[9px] font-medium transition sm:text-[11px] ${
+                  featured ? "rounded-xl border border-[#1554a0]/35 bg-[#1554a0]/10 font-semibold" : ""
+                } ${
                   active
-                    ? "relative bg-primary/15 text-primary shadow-sm"
-                    : "text-muted-foreground hover:bg-secondary hover:text-foreground"
+                    ? featured
+                      ? "border-[#1554a0] bg-[#1554a0] text-white shadow-md shadow-[#1554a0]/25"
+                      : "bg-primary/15 text-primary shadow-sm"
+                    : featured
+                      ? "text-[#1554a0] hover:bg-[#1554a0]/20"
+                      : "text-muted-foreground hover:bg-secondary hover:text-foreground"
                 }`;
               }}
             >
@@ -188,8 +196,11 @@ export default function AppLayout() {
                 const active = navActive || isActive(to);
                 return (
                   <>
-                    <Icon size={16} strokeWidth={active ? 2.25 : 2} />
+                    <span className={`grid h-7 w-7 place-items-center rounded-lg ${featured ? "bg-[#1554a0]/15" : ""}`}>
+                      <Icon size={featured ? 18 : 16} strokeWidth={active || featured ? 2.25 : 2} />
+                    </span>
                     <span className="max-w-full truncate text-center leading-none">{label}</span>
+                    {featured && <span className={`h-1 w-1 rounded-full ${active ? "bg-white" : "bg-[#1554a0]"}`} />}
                   </>
                 );
               }}

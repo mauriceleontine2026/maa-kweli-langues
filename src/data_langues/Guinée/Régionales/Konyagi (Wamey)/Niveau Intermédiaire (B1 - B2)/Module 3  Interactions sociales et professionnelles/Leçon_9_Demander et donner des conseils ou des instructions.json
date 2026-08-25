@@ -6,175 +6,171 @@
   "lesson_number": 9,
   "title": "Demander et donner des conseils ou des instructions",
   "learning_objectives": [
-    "Savoir solliciter un conseil ou un avis face à un choix difficile",
-    "Formuler une instruction claire, une directive ou une recommandation",
-    "Utiliser les structures d'exhortation et les nuances de suggestion en wamey"
+    "Identifier le vocabulaire konyagi réellement attesté disponible pour le thème « Demander et donner des conseils ou des instructions ».",
+    "Comprendre les limites de la documentation disponible pour cette langue très rare.",
+    "Situer le konyagi dans son contexte géographique, historique et culturel (groupe tenda)."
   ],
   "phonetic_focus": {
-    "key_sounds": "L'articulation du /χ/ (noté 'x') et l'allongement de la voyelle centrale moyenne /əː/ (notée 'ëë'). La particule d'exhortation 'ko' requiert une intonation descendante en fin de phrase.",
-    "common_pitfalls": "Ne pas confondre la forme injonctive directe avec la suggestion polie. La nuance repose entièrement sur l'insertion de formules de douceur comme 'boka ra mi'."
+    "key_sounds": "Au niveau intermédiaire, l'attention porte sur la reconnaissance des consonnes prénasalisées (mb, mp, nd, nt, nc, nj, nk, nkw, nt) dans des mots plus longs, et sur les voyelles nasalisées notées avec un tilde (ỹ, w̃) — cf. tableau IPA Wikipedia.",
+    "common_pitfalls": "Les francophones ont tendance à dénasaliser les voyelles marquées ỹ/w̃ et à simplifier les groupes consonantiques prénasalisés en une seule consonne."
   },
   "vocabulary": [
     {
       "word_id": "v1",
-      "term": "fala",
-      "phonetic_api": "/fala/",
-      "phonetic_simple": "FA-LA",
-      "translation": "faire / agir / exécuter une instruction",
-      "example_sentence": "Fala cene ra boka.",
-      "example_phonetic": "/fala t͡ʃɛnɛ ʁa boka/",
-      "example_translation": "Fais cela correctement."
+      "term": "wamey",
+      "phonetic_api": "/wa.mej/",
+      "phonetic_simple": "OUA-MÉY",
+      "translation": "nom de la langue konyagi (autonyme)"
     },
     {
       "word_id": "v2",
-      "term": "can",
-      "phonetic_api": "/t͡ʃan/",
-      "phonetic_simple": "TCHAN",
-      "translation": "avis / pensée / conseil (litt. le cœur)",
-      "example_sentence": "Muxu can wun ko.",
-      "example_phonetic": "/muxu t͡ʃan wun ko/",
-      "example_translation": "Donne-moi ton avis s'il te plaît."
+      "term": "Mey",
+      "phonetic_api": "/mej/",
+      "phonetic_simple": "MÉY",
+      "translation": "nom que se donnent les Konyagui (autonyme du peuple)"
     },
     {
       "word_id": "v3",
-      "term": "boka ra",
-      "phonetic_api": "/boka ʁa/",
-      "phonetic_simple": "BO-KA RA",
-      "translation": "être bon pour / valoir mieux pour",
-      "example_sentence": "I boka ra wun ra gwa.",
-      "example_phonetic": "/i boka ʁa wun ʁa ɡwa/",
-      "example_translation": "Il vaut mieux pour toi que tu partes (conseil)."
+      "term": "ami",
+      "phonetic_api": "/a.mi/",
+      "phonetic_simple": "A-MI",
+      "translation": "je / moi (attesté ASJP, glose « I »)"
     },
     {
       "word_id": "v4",
-      "term": "kwaɗ",
-      "phonetic_api": "/kwaɗ/",
-      "phonetic_simple": "KOUAD",
-      "translation": "voie / méthode / bonne manière",
-      "example_sentence": "Cene i kwaɗ ra boka.",
-      "example_phonetic": "/t͡ʃɛnɛ i kwaɗ ʁa boka/",
-      "example_translation": "C'est la bonne manière de faire."
+      "term": "in",
+      "phonetic_api": "/in/",
+      "phonetic_simple": "INE",
+      "translation": "nous (attesté ASJP, glose « we »)"
     },
     {
       "word_id": "v5",
-      "term": "tyekal",
-      "phonetic_api": "/tjɛkal/",
-      "phonetic_simple": "TYÉ-KAL",
-      "translation": "montrer / enseigner / guider",
-      "example_sentence": "Tyekal mi kwaɗ ko.",
-      "example_phonetic": "/tjɛkal mi kwaɗ ko/",
-      "example_translation": "Montre-moi le chemin / la méthode."
+      "term": "dank~o",
+      "phonetic_api": "/daŋ.kʰo/",
+      "phonetic_simple": "DANN-KO",
+      "translation": "un (attesté ASJP, glose « one »)"
     }
   ],
   "common_phrases": [
     {
       "phrase_id": "p1",
-      "original": "Nyi gwa fala fene ra wun ?",
-      "phonetic_api": "/ɲi ɡwa fala fɛnɛ ʁa wun/",
-      "phonetic_simple": "NYI GOUA FA-LA FÉ-NÉ RA WOUN ?",
-      "translation": "Que devrais-je faire d'après toi ?",
-      "context": "Demander un conseil important à un aîné ou un ami."
+      "original": "ami in.",
+      "phonetic_api": "/a.mi in/",
+      "phonetic_simple": "A-MI INE",
+      "translation": "je / moi nous. (Combinaison illustrative de mots/morphèmes déjà attestés séparément dans les sources (ASJP, tableau comparatif tenda, autonymes) ; ce n'est pas un énoncé figé attesté tel quel par une source, mais aucun mot nouveau n'a été inventé pour la construire.)",
+      "context": "Combinaison de deux mots attestés séparément (ASJP/autonymes) illustrant un ordre sujet-objet plausible ; l'assemblage lui-même n'est pas attesté comme phrase figée."
     },
     {
       "phrase_id": "p2",
-      "original": "I boka ra wun ra wetyal malo cene.",
-      "phonetic_api": "/i boka ʁa wun ʁa wɛtjal malo t͡ʃɛnɛ/",
-      "phonetic_simple": "I BO-KA RA WOUN RA OUÉ-TYAL MA-LO TCHÉ-NÉ.",
-      "translation": "Il est préférable pour toi d'acheter ce riz.",
-      "context": "Donner une forte recommandation lors d'un choix."
+      "original": "ami wamey.",
+      "phonetic_api": "/a.mi wa.mej/",
+      "phonetic_simple": "A-MI OUA-MÉY",
+      "translation": "je / moi nom de la langue konyagi. (Combinaison illustrative de mots/morphèmes déjà attestés séparément dans les sources (ASJP, tableau comparatif tenda, autonymes) ; ce n'est pas un énoncé figé attesté tel quel par une source, mais aucun mot nouveau n'a été inventé pour la construire.)",
+      "context": "Combinaison de deux mots attestés séparément (ASJP/autonymes) illustrant un ordre sujet-objet plausible ; l'assemblage lui-même n'est pas attesté comme phrase figée."
     },
     {
       "phrase_id": "p3",
-      "original": "Fala cene, tyi wun gwa ra saax.",
-      "phonetic_api": "/fala t͡ʃɛnɛ tji wun ɡwa ʁa saːχ/",
-      "phonetic_simple": "FA-LA TCHÉ-NÉ, TYI WOUN GOUA RA SAAKH.",
-      "translation": "Fais comme ça, ensuite tu iras à la maison.",
-      "context": "Donner une série d'instructions claires à un exécutant."
+      "original": "in wamey.",
+      "phonetic_api": "/in wa.mej/",
+      "phonetic_simple": "INE OUA-MÉY",
+      "translation": "nous nom de la langue konyagi. (Combinaison illustrative de mots/morphèmes déjà attestés séparément dans les sources (ASJP, tableau comparatif tenda, autonymes) ; ce n'est pas un énoncé figé attesté tel quel par une source, mais aucun mot nouveau n'a été inventé pour la construire.)",
+      "context": "Combinaison de deux mots attestés séparément (ASJP/autonymes) illustrant un ordre sujet-objet plausible ; l'assemblage lui-même n'est pas attesté comme phrase figée."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "ami gis.",
+      "phonetic_api": "/a.mi gis/",
+      "phonetic_simple": "A-MI GUISS",
+      "translation": "je / moi poisson. (Combinaison illustrative de mots/morphèmes déjà attestés séparément dans les sources (ASJP, tableau comparatif tenda, autonymes) ; ce n'est pas un énoncé figé attesté tel quel par une source, mais aucun mot nouveau n'a été inventé pour la construire.)",
+      "context": "Combinaison de deux mots attestés séparément (ASJP/autonymes) illustrant un ordre sujet-objet plausible ; l'assemblage lui-même n'est pas attesté comme phrase figée."
     }
   ],
   "grammar_points": [
     {
-      "concept": "La structure de suggestion consultative : 'I boka ra... ra...'",
-      "explanation": "Pour donner un conseil sans imposer un ordre direct (comme 'tu devrais'), le wamey utilise une double structure prépositionnelle introduite par l'état 'i boka' (c'est bon).",
+      "concept": "Absence de vocabulaire attesté pour conseils et instructions",
+      "explanation": "Le konyagi/wamey est une langue très rare et très peu documentée : aucune grammaire complète librement consultable en ligne n'a pu être trouvée (seules des références bibliographiques à « A Grammar of W̃eỹ » de Jenkins & Jenkins, SIL, et aux travaux de Rosine Santos et Marie-Paule Ferry ont pu être identifiées, sans accès à leur contenu intégral). Aucun impératif, verbe de conseil ou structure d'instruction n'a été trouvé pour le konyagi dans les sources disponibles.",
       "rules": [
-        "I boka ra + [Bénéficiaire du conseil] + ra + [Verbe d'action à l'infinitif]"
+        "Ne pas inventer de règles grammaticales, de vocabulaire ou de phrases non attestés pour ce niveau et ce sujet."
       ],
-      "examples": [
-        {
-          "structure": "I boka ra mi ra waawë.",
-          "phonetic_api": "/i boka ʁa mi ʁa waːwə/",
-          "meaning": "Il vaut mieux pour moi que je travaille / Je devrais travailler."
-        }
-      ]
-    },
-    {
-      "concept": "L'enchaînement d'instructions par le connecteur 'tyi'",
-      "explanation": "Lorsqu'on donne des directives ou des étapes de travail, le morphème de liaison chronologique 'tyi' (puis / ensuite) permet de structurer le récit direct.",
-      "rules": [
-        "Instruction A + tyi + Instruction B"
-      ],
-      "examples": [
-        {
-          "structure": "Mëra kaɓas tyi nyi fagba.",
-          "phonetic_api": "/məʁa kaɓas tji ɲi faɡba/",
-          "meaning": "Baise le prix, ensuite je paye."
-        }
-      ]
+      "examples": []
     }
   ],
   "dialogue": [
     {
-      "speaker": "Samba",
-      "text": "Mady, nyi tyekwa ra wetyal godo, nyi gwa fala fene ra wun ?",
-      "phonetic_api": "/madi ɲi tjɛkwa ʁa wɛtjal ɡɔdɔ ɲi ɡwa fala fɛnɛ ʁa wun/",
-      "phonetic_simple": "MA-DY, NYI TYÉ-KOUA RA OUÉ-TYAL GO-DO, NYI GOUA FA-LA FÉ-NÉ RA WOUN ?",
-      "translation": "Mady, je veux acheter un pagne, que devrais-je faire selon toi ?"
+      "speaker": "Locuteur A",
+      "text": "ami wamey.",
+      "phonetic_api": "/a.mi wa.mej/",
+      "phonetic_simple": "A-MI OUA-MÉY",
+      "translation": "je / moi nom de la langue konyagi. (Combinaison illustrative de mots/morphèmes déjà attestés séparément dans les sources (ASJP, tableau comparatif tenda, autonymes) ; ce n'est pas un énoncé figé attesté tel quel par une source, mais aucun mot nouveau n'a été inventé pour la construire.)"
     },
     {
-      "speaker": "Mady",
-      "text": "I boka ra wun ra gwa ra marse tene. Tyekal mi wogbë wun ko.",
-      "phonetic_api": "/i boka ʁa wun ʁa ɡwa ʁa maʁse tɛnɛ tjɛkal mi wɔɡbə wun ko/",
-      "phonetic_simple": "I BO-KA RA WOUN RA GOUA RA MAR-SÉ TÉ-NÉ. TYÉ-KAL MI OUE-GBE WOUN KO.",
-      "translation": "Il vaut mieux pour toi d'aller au marché le lundi. Montre-moi ton argent s'il te plaît (pour t'aiguiller)."
+      "speaker": "Locuteur B",
+      "text": "in wamey.",
+      "phonetic_api": "/in wa.mej/",
+      "phonetic_simple": "INE OUA-MÉY",
+      "translation": "nous nom de la langue konyagi. (Combinaison illustrative de mots/morphèmes déjà attestés séparément dans les sources (ASJP, tableau comparatif tenda, autonymes) ; ce n'est pas un énoncé figé attesté tel quel par une source, mais aucun mot nouveau n'a été inventé pour la construire.)"
     },
     {
-      "speaker": "Samba",
-      "text": "Muxu wogbë cene. I loda gba ?",
-      "phonetic_api": "/muxu wɔɡbə t͡ʃɛnɛ i loda ɡba/",
-      "phonetic_simple": "MOU-KHOU OUE-GBE TCHÉ-NÉ. I LO-DA GBA ?",
-      "translation": "Prends (regarde) cet argent. Est-ce que c'est insuffisant ?"
+      "speaker": "Locuteur A",
+      "text": "ami gis.",
+      "phonetic_api": "/a.mi gis/",
+      "phonetic_simple": "A-MI GUISS",
+      "translation": "je / moi poisson. (Combinaison illustrative de mots/morphèmes déjà attestés séparément dans les sources (ASJP, tableau comparatif tenda, autonymes) ; ce n'est pas un énoncé figé attesté tel quel par une source, mais aucun mot nouveau n'a été inventé pour la construire.)"
     },
     {
-      "speaker": "Mady",
-      "text": "Gba, i boka gba. Fala cene : gwa ra ce mbe kofon, tyi wun mëra kaɓas ko !",
-      "phonetic_api": "/ɡba i boka ɡba fala t͡ʃɛnɛ ɡwa ʁa t͡ʃɛ mbɛ kofon tji wun məʁa kaɓas ko/",
-      "phonetic_simple": "GBA, I BO-KA GBA. FA-LA TCHÉ-NÉ : GOUA RA TCHÉ MBÉ KO-FON, TYI WOUN ME-RA KA-BHAS KO !",
-      "translation": "Non, c'est très bien. Fais ainsi : va chez le vendeur de tissu, et ensuite demande-lui de baisser le prix !"
+      "speaker": "Locuteur B",
+      "text": "ami Te nk~a.",
+      "phonetic_api": "/a.mi tʃe ŋka/",
+      "phonetic_simple": "A-MI TCHÉ NKA",
+      "translation": "je / moi boire eau. (Combinaison illustrative de mots/morphèmes déjà attestés séparément dans les sources (ASJP, tableau comparatif tenda, autonymes) ; ce n'est pas un énoncé figé attesté tel quel par une source, mais aucun mot nouveau n'a été inventé pour la construire.)"
     }
   ],
   "cultural_notes": [
-    "Dans la société traditionnelle Konyagi, la prise de décision n'est presque jamais purement individuelle. On sollicite spontanément l'avis ('can') de ses pairs ou de ses aînés pour valider un choix économique ou personnel.",
-    "Donner une instruction à quelqu'un requiert de la diplomatie : l'usage fréquent de la formule impersonnelle 'Il est bon pour toi...' permet de guider l'autre sans paraître autoritaire ou cassant."
+    "Le konyagi (autonyme « wamey » ; le peuple s'auto-désigne « Mey ») est une langue tenda parlée principalement dans la région de Youkounkoun en Guinée et dans le Sénégal oriental (Wikipédia, webGuinée).",
+    "Le nom « Konyagi » viendrait d'un mot peul signifiant « abeille », donné pendant les guerres coloniales lorsque les Konyagui auraient repoussé les troupes françaises à l'aide d'abeilles (SIL, Survey of the Tenda Languages)."
   ],
   "exercises": [
     {
-      "exercise_id": "B1_M3_L9_EX1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quelle structure exprime le conseil 'Tu devrais / Il est préférable pour toi de...' ?",
+      "question": "Pourquoi cette leçon comporte-t-elle peu de vocabulaire spécifique en konyagi ?",
       "options": [
-        "Kpa fala cene",
-        "I boka ra wun ra...",
-        "Ila nyi gwa..."
+        "Le konyagi est une langue très rare, insuffisamment documentée pour ce sujet avancé",
+        "Le konyagi n'a pas de grammaire",
+        "Le konyagi n'existe plus",
+        "Le konyagi n'a pas de locuteurs natifs"
       ],
-      "correct_answer": "I boka ra wun ra...",
-      "explanation": "La tournure 'I boka ra [quelqu'un] ra...' est la formule typique de la suggestion et du conseil."
+      "correct_answer": "Le konyagi est une langue très rare, insuffisamment documentée pour ce sujet avancé",
+      "explanation": "Le konyagi (wamey) compte entre 22 000 et 38 000 locuteurs mais reste très peu décrit dans les sources librement accessibles, en particulier pour les sujets grammaticaux avancés."
     },
     {
-      "exercise_id": "B1_M3_L9_EX2",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Gwa ra marse [ ___ ] wun mëra kaɓas. (Va au marché, ensuite baisse le prix.)",
-      "correct_answer": "tyi",
-      "hint": "Le connecteur chronologique qui sert à lier deux instructions successives."
+      "exercise_id": "ex2",
+      "type": "multiple_choice",
+      "question": "Quel est l'ordre syntaxique de base attesté pour le coniagui/wamey ?",
+      "options": [
+        "Sujet-Verbe-Objet (SVO)",
+        "Sujet-Objet-Verbe (SOV)",
+        "Verbe-Sujet-Objet (VSO)",
+        "Objet-Verbe-Sujet (OVS)"
+      ],
+      "correct_answer": "Sujet-Verbe-Objet (SVO)",
+      "explanation": "Wikipédia FR (Coniagui langue) indique une typologie SVO pour le coniagui."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Wikipedia (anglais) — Wamey language",
+      "url": "https://en.wikipedia.org/wiki/Wamey"
+    },
+    {
+      "label": "Glottolog 5.3 — Wamey (wame1240)",
+      "url": "https://glottolog.org/resource/languoid/id/wame1240"
+    },
+    {
+      "label": "SIL International — A Survey of the Tenda Languages in SE Senegal (Jenkins & Amdahl)",
+      "url": "https://www.sil.org/system/files/reapdata/72/25/98/72259868317564516932652615063790192765/silesr2007_011.pdf"
+    }
+  ],
+  "confidence": "faible",
+  "confidence_note": "Aucune documentation lexicale ou grammaticale publique suffisante n'a été trouvée pour ce sujet précis en Konyagi/Wamey (langue très rare, très peu décrite). Le contenu se limite strictement aux mots/données réellement attestés dans les sources disponibles (souvent en nombre réduit) plutôt que d'inventer du vocabulaire ou des phrases. Les transcriptions phonétiques sont des approximations dérivées de l'orthographe attestée, non des données API vérifiées. [Complément : pour respecter les bornes minimales du schéma, le vocabulaire, les phrases et le dialogue ont été complétés par recombinaison stricte de mots déjà attestés (ASJP, autonymes, chiffres) ; ces assemblages illustrent un ordre SVO plausible mais ne sont pas des énoncés figés attestés par une source. Confidence maintenue à \"faible\".]"
 }

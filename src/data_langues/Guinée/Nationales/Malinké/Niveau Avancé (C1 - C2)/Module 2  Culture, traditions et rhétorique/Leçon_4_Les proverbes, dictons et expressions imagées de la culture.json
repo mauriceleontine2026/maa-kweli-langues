@@ -6,210 +6,235 @@
   "lesson_number": 4,
   "title": "Les proverbes, dictons et expressions imagées de la culture",
   "learning_objectives": [
-    "Comprendre la portée métaphorique et philosophique des proverbes mandingues",
-    "Manipuler le lexique figuré lié à la faune et aux éléments de la nature",
-    "Insérer un dicton traditionnel de manière fluide dans une argumentation"
+    "Comprendre et interpréter des proverbes malinké/mandingues traditionnels",
+    "Identifier la structure imagée typique des proverbes (métaphore animale, nature)",
+    "Utiliser un proverbe pour illustrer un argument dans une conversation",
+    "Reconnaître le rôle social des proverbes dans la culture mandingue"
   ],
   "phonetic_focus": {
-    "key_sounds": "La prononciation du mot 'Sanya' (pureté) requiert une voyelle nasale brève et claire. Le terme 'Kɔnɔgan' (secret profond) associe deux syllabes ouvertes se terminant par une fermeture nasale douce.",
-    "common_pitfalls": "Attention à la longueur vocalique de 'Saa' (le serpent/la mort) qui doit être étirée (/saː/), pour éviter la confusion avec 'sa' (le panier/finir)."
+    "key_sounds": [
+      "Le rythme binaire typique du proverbe malinké (deux propositions courtes, souvent parallèles)",
+      "Les tons contrastifs qui portent souvent le sens figuré du proverbe",
+      "La prononciation soignée des noms d'animaux symboliques (sò=cheval, sonsan=lièvre, etc.)"
+    ],
+    "common_pitfalls": [
+      "Traduire un proverbe mot à mot sans saisir son sens figuré global",
+      "Employer un proverbe hors contexte social approprié : certains proverbes sont réservés aux anciens ou à des situations précises (conflit, deuil, conseil)"
+    ]
   },
   "vocabulary": [
     {
-      "word_id": "v4_1",
-      "term": "Talen",
-      "phonetic_api": "/ta.lẽ/",
-      "phonetic_simple": "TA-LEN",
-      "translation": "Proverbe / Parabole / Énigme",
-      "example_sentence": "Mɔgɔba lu bɛ talen fɔ",
-      "example_phonetic": "/mɔ.ɡɔ.ba lu bɛ ta.lẽ fɔ/",
-      "example_translation": "Les sages s'expriment par des proverbes."
+      "word_id": "v1",
+      "term": "nsiirin / talenna",
+      "phonetic_api": "[nsiːrin]/[talɛnna]",
+      "phonetic_simple": "n-si-i-rin",
+      "translation": "proverbe, dicton",
+      "example_sentence": "Talenna kelen ka fisa kuma caman ye.",
+      "example_phonetic": "[talɛnna kelen ka fisa kuma tʃaman je]",
+      "example_translation": "Un seul proverbe vaut mieux que beaucoup de paroles."
     },
     {
-      "word_id": "v4_2",
-      "term": "Saa",
-      "phonetic_api": "/saː/",
-      "phonetic_simple": "SAA",
-      "translation": "Le serpent (utilisé dans les métaphores de prudence)",
-      "example_sentence": "Saa mu se la ka faden dɛmɛ",
-      "example_phonetic": "/saː mu se la ka fa.dẽ dɛ.mɛ/",
-      "example_translation": "Le serpent ne peut aider son rival."
+      "word_id": "v2",
+      "term": "nɛgɛ",
+      "phonetic_api": "[nɛɡɛ]",
+      "phonetic_simple": "nè-guè",
+      "translation": "fer",
+      "example_sentence": "Nɛgɛ kelen dɔrɔn de bɛ se ka nɛgɛ tigɛ.",
+      "example_phonetic": "[nɛɡɛ kelen dɔrɔn de bɛ se ka nɛɡɛ tiɡɛ]",
+      "example_translation": "Le fer seul peut scier le fer."
     },
     {
-      "word_id": "v4_3",
-      "term": "Balanza",
-      "phonetic_api": "/ba.lan.za/",
-      "phonetic_simple": "BA-LAN-ZA",
-      "translation": "L'acacia (arbre sacré symbole de résilience)",
-      "example_sentence": "A ka sariya bɛ lɔ la i n’a fɔ balanza",
-      "example_phonetic": "/a ka sa.ri.ja bɛ lɔ la i n‿a fɔ ba.lan.za/",
-      "example_translation": "Sa droiture est solide comme l'acacia."
+      "word_id": "v3",
+      "term": "bɔrɔ lankolon",
+      "phonetic_api": "[bɔrɔ lankolon]",
+      "phonetic_simple": "bo-ro-lan-ko-lon",
+      "translation": "sac vide",
+      "example_sentence": "Bɔrɔ lankolon tè se ka lɔ.",
+      "example_phonetic": "[bɔrɔ lankolon tɛ se ka lɔ]",
+      "example_translation": "Un sac vide ne peut pas se tenir debout."
     },
     {
-      "word_id": "v4_4",
-      "term": "Kɔnɔgan",
-      "phonetic_api": "/kɔ.nɔ.ɡã/",
-      "phonetic_simple": "KƆ-NƆ-GAN",
-      "translation": "La pensée cachée / L'énigme du cœur",
-      "example_sentence": "Kɔnɔgan faha ka gbanan",
-      "example_phonetic": "/kɔ.nɔ.ɡã fa.ha ka ɡ͡ba.nã/",
-      "example_translation": "Comprendre les secrets profonds est difficile."
+      "word_id": "v4",
+      "term": "ɲa",
+      "phonetic_api": "[ɲa]",
+      "phonetic_simple": "nya",
+      "translation": "œil",
+      "example_sentence": "Ɲa tè lamɔgɔ dun, nka a bɛ a lɔn a ka di.",
+      "example_phonetic": "[ɲa tɛ lamɔɡɔ dun nka a bɛ a lɔn a ka di]",
+      "example_translation": "L'œil ne mange pas l'orange, mais il sait qu'elle est sucrée."
     },
     {
-      "word_id": "v4_5",
-      "term": "Kulu",
-      "phonetic_api": "/ku.lu/",
-      "phonetic_simple": "KOU-LOU",
-      "translation": "La montagne / Symbole d'épreuve ou d'immobilité",
-      "example_sentence": "Ni kulu mu ta la, fo ni kila tara",
-      "example_phonetic": "/ni ku.lu mu ta la fo ni ki.la ta.ra/",
-      "example_translation": "Si la montagne ne bouge pas, le messager s'y rend."
+      "word_id": "v5",
+      "term": "sonsannin",
+      "phonetic_api": "[sonsannin]",
+      "phonetic_simple": "son-san-nin",
+      "translation": "petit lièvre (personnage rusé des contes)",
+      "example_sentence": "Sonsannin ye hakilitigi ye.",
+      "example_phonetic": "[sonsannin je hakilitiɡi je]",
+      "example_translation": "Le petit lièvre est un rusé."
     },
     {
-      "word_id": "v4_6",
-      "term": "Jeliya",
-      "phonetic_api": "/d͡ʒe.li.ja/",
-      "phonetic_simple": "DJÉ-LI-YA",
-      "translation": "L'art de la louange / La fonction de griot",
-      "example_sentence": "Jeliya na lɔgɔfe ra Manding",
-      "example_phonetic": "/d͡ʒe.li.ja na lɔ.ɡɔ.fe ra man.diŋ/",
-      "example_translation": "Le griottisme est une institution sacrée au Manding."
+      "word_id": "v6",
+      "term": "samaa",
+      "phonetic_api": "[samaː]",
+      "phonetic_simple": "sa-ma-a",
+      "translation": "éléphant",
+      "example_sentence": "Sɔrɔsɔrɔnin tè samaa bali ka ji min.",
+      "example_phonetic": "[sɔrɔsɔrɔnin tɛ samaː bali ka dʒi min]",
+      "example_translation": "Le coassement des grenouilles n'empêche pas l'éléphant de boire."
     },
     {
-      "word_id": "v4_7",
-      "term": "Sanya",
-      "phonetic_api": "/sa.nja/",
-      "phonetic_simple": "SAN-YA",
-      "translation": "La pureté / L'intégrité morale",
-      "example_sentence": "Dusukun sanya fisa ni wari ra",
-      "example_phonetic": "/du.su.kũ sa.nja fi.sa ni wa.ri ra/",
-      "example_translation": "La pureté du cœur vaut mieux que la richesse."
+      "word_id": "v7",
+      "term": "ka lɔn",
+      "phonetic_api": "[ka lɔn]",
+      "phonetic_simple": "ka-lon",
+      "translation": "savoir, connaître",
+      "example_sentence": "A bɛ a lɔn a ka di.",
+      "example_phonetic": "[a bɛ a lɔn a ka di]",
+      "example_translation": "Il sait que c'est sucré/bon."
     },
     {
-      "word_id": "v4_8",
-      "term": "Dunan",
-      "phonetic_api": "/du.nã/",
-      "phonetic_simple": "DOU-NAN",
-      "translation": "L'étranger / L'hôte de passage",
-      "example_sentence": "Dunan mu so da dila la",
-      "example_phonetic": "/du.nã mu so da di.la la/",
-      "example_translation": "L'étranger ne construit pas le seuil de la maison."
-    },
-    {
-      "word_id": "v4_9",
-      "term": "Kila",
-      "phonetic_api": "/ki.la/",
-      "phonetic_simple": "KI-LA",
-      "translation": "Le messager / L'émissaire",
-      "example_sentence": "Kila mu gasi la",
-      "example_phonetic": "/ki.la mu ɡa.si la/",
-      "example_translation": "On ne frappe pas le messager."
-    },
-    {
-      "word_id": "v4_10",
-      "term": "Maana",
-      "phonetic_api": "/maː.na/",
-      "phonetic_simple": "MAA-NA",
-      "translation": "Le récit mythique / L'histoire ancestrale",
-      "example_sentence": "An bɛ maana mɛn la bi su la",
-      "example_phonetic": "/an bɛ maː.na mɛn la bi su la/",
-      "example_translation": "Nous écoutons l'épopée ce soir."
+      "word_id": "v8",
+      "term": "hakili",
+      "phonetic_api": "[hakili]",
+      "phonetic_simple": "ha-ki-li",
+      "translation": "intelligence, sagesse, pensée",
+      "example_sentence": "Hakilitigi le, a tè kuma fɔ fu.",
+      "example_phonetic": "[hakilitiɡi le a tɛ kuma fɔ fu]",
+      "example_translation": "C'est un sage, il ne parle pas pour rien."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p4_1",
-      "original": "Mɔgɔ tɛ i bolo fila bila saa da kɔnɔ.",
-      "phonetic_api": "/mɔ.ɡɔ tɛ i bo.lo fi.la bi.la saː da kɔ.nɔ/",
-      "phonetic_simple": "MƆ-GƆ TƐ I BO-LO FI-LA BI-LA SAA DA KƆ-NƆ.",
-      "translation": "On ne met pas ses deux mains à la fois dans la bouche du serpent.",
-      "context": "Dicton de prudence absolue signifiant qu'il ne faut pas tenter le diable ou cumuler les risques."
+      "phrase_id": "p1",
+      "original": "Nɛgɛ kelen dɔrɔn de bɛ se ka nɛgɛ tigɛ",
+      "phonetic_api": "[nɛɡɛ kelen dɔrɔn de bɛ se ka nɛɡɛ tiɡɛ]",
+      "phonetic_simple": "nè-guè-ké-lèn-do-ron-dé-bè-sé-ka-nè-guè-ti-guè",
+      "translation": "Le fer seul peut scier le fer",
+      "context": "Proverbe : seul un égal peut vaincre ou corriger son semblable"
     },
     {
-      "phrase_id": "p4_2",
-      "original": "Dunan mu so da dila la katuguni a bɛ ta la sini.",
-      "phonetic_api": "/du.nã mu so da di.la la ka.tu.ɡu.ni a bɛ ta la si.ni/",
-      "phonetic_simple": "DOU-NAN MOU SO DA DI-LA LA KA-TOU-GOU-NI A BƐ TA LA SI-NI.",
-      "translation": "L'étranger ne bâtit pas le seuil de la porte car il repart demain.",
-      "context": "Rappeler poliment les limites de prérogatives d'un intervenant externe."
+      "phrase_id": "p2",
+      "original": "Bɔrɔ lankolon tè se ka lɔ",
+      "phonetic_api": "[bɔrɔ lankolon tɛ se ka lɔ]",
+      "phonetic_simple": "bo-ro-lan-ko-lon-tè-sé-ka-lo",
+      "translation": "Un sac vide ne peut pas se tenir debout",
+      "context": "Proverbe sur le besoin matériel/la faim comme frein à l'action"
     },
     {
-      "phrase_id": "p4_3",
-      "original": "Talen na kuma kun ra i n’a fɔ ji gbe.",
-      "phonetic_api": "/ta.lẽ na ku.ma kũ ra i n‿a fɔ d͡ʒi ɡ͡be/",
-      "phonetic_simple": "TA-LEN NA KOU-MA KOUN RA I N'A FƆ DJI GBÉ.",
-      "translation": "Le proverbe apporte au discours la clarté de l'eau pure.",
-      "context": "Formule d'introduction stylée avant d'énoncer une vérité coutumière."
+      "phrase_id": "p3",
+      "original": "Ɲa tè lamɔgɔ dun, nka a bɛ a lɔn a ka di",
+      "phonetic_api": "[ɲa tɛ lamɔɡɔ dun nka a bɛ a lɔn a ka di]",
+      "phonetic_simple": "nya-tè-la-mo-go-dun, n-ka-a-bè-a-lon-a-ka-di",
+      "translation": "L'œil ne mange pas l'orange, mais il sait qu'elle est sucrée",
+      "context": "Proverbe sur la perception/le désir sans possession"
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Sɔrɔsɔrɔnin tè samaa bali ka ji min",
+      "phonetic_api": "[sɔrɔsɔrɔnin tɛ samaː bali ka dʒi min]",
+      "phonetic_simple": "so-ro-so-ro-nin-tè-sa-ma-a-ba-li-ka-dji-min",
+      "translation": "Le coassement des grenouilles n'empêche pas l'éléphant de boire",
+      "context": "Proverbe sur l'indifférence du puissant face aux critiques mineures"
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Talenna kelen ka fisa kuma caman ye",
+      "phonetic_api": "[talɛnna kelen ka fisa kuma tʃaman je]",
+      "phonetic_simple": "ta-lèn-na-ké-lèn-ka-fi-sa-kou-ma-tcha-man-yé",
+      "translation": "Un seul proverbe vaut mieux que beaucoup de paroles",
+      "context": "Proverbe méta-linguistique sur la valeur de la sagesse condensée"
     }
   ],
   "grammar_points": [
     {
-      "concept": "La comparaison métaphorique figée avec 'i n’a fɔ'",
-      "explanation": "En malinké soutenu, la locution conjonctive 'i n’a fɔ' (exactement comme / tel que) introduit une proposition comparative ou une allégorie poétique sans altérer la fonction syntaxique du bloc nominal qui la suit.",
+      "concept": "La structure binaire du proverbe",
+      "explanation": "De nombreux proverbes malinké/mandingues opposent deux images ou deux propositions (souvent avec 'nka' = mais, ou une simple juxtaposition), créant un contraste qui porte la leçon morale.",
       "rules": [
-        "Structure : [Idée principale] + 'i n’a fɔ' + [Élément naturel ou animal symbolique]."
+        "Structure : [Image A], nka/tè [Image B]",
+        "Le sens figuré se déduit de l'analogie entre les deux images, jamais du sens littéral seul"
       ],
       "examples": [
         {
-          "structure": "A ka sariya ka gbanan i n’a fɔ kulu",
-          "phonetic_api": "/a ka sa.ri.ja ka ɡ͡ba.nã i n‿a fɔ ku.lu/",
-          "meaning": "Sa règle est immuable comme une montagne."
+          "structure": "[Image A] tè [Verbe], nka a bɛ [Verbe2]",
+          "phonetic_api": "[tɛ... nka]",
+          "meaning": "[A] ne fait pas [action1], mais il [action2] (contraste révélateur)"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Le Vieux Griot",
-      "text": "Denkɛ, i ka kuma ka di kɔni, nka fo i ka talen lu fahamya.",
-      "phonetic_api": "/dẽ.kɛ i ka ku.ma ka di kɔ.ni n̩.ka fo i ka ta.lẽ lu fa.ham.ja/",
-      "phonetic_simple": "DEN-KƐ, I KA KOU-MA KA DI KƆ-NI, N-KA FO I KA TA-LEN LOU FA-HAM-YA.",
-      "translation": "Mon fils, tes paroles sont certes plaisantes, mais il te faut maîtriser le sens des proverbes."
+      "speaker": "Le vieux Fodé",
+      "text": "Aw ye a lɔn : nɛgɛ kelen dɔrɔn de bɛ se ka nɛgɛ tigɛ.",
+      "phonetic_api": "[aw je a lɔn nɛɡɛ kelen dɔrɔn de bɛ se ka nɛɡɛ tiɡɛ]",
+      "phonetic_simple": "aw-yé-a-lon: nè-guè-ké-lèn-do-ron-dé-bè-sé-ka-nè-guè-ti-guè",
+      "translation": "Vous le savez : le fer seul peut scier le fer."
     },
     {
-      "speaker": "Le Jeune Homme",
-      "text": "Nse karamɔgɔ. N bɛ yan katuguni n fɛ ka dusukun sanya sɔrɔ talen fɛ.",
-      "phonetic_api": "/n̩.se ka.ra.mɔ.ɡɔ n̩ bɛ d͡ʒan ka.tu.ɡu.ni n̩ fɛ ka du.su.kũ sa.nja sɔ.rɔ ta.lẽ fɛ/",
-      "phonetic_simple": "N-SÉ KA-RA-MƆ-GƆ. N BƐ YAN KA-TOU-GOU-NI N FƐ KA DOU-SOU-KOUN SAN-YA SƆ-RƆ TA-LEN FƐ.",
-      "translation": "Merci maître. Je me tiens ici parce que je désire acquérir la pureté de l'esprit par les dictons."
+      "speaker": "Jeune Sékou",
+      "text": "A ka di, nka a fɔ nin kɔrɔ le mun ye ?",
+      "phonetic_api": "[a ka di nka a fɔ nin kɔrɔ le mun je]",
+      "phonetic_simple": "a-ka-di, n-ka-a-fo-nin-ko-ro-lé-moun-yé",
+      "translation": "C'est joli, mais que veut dire ce proverbe ?"
     },
     {
-      "speaker": "Le Vieux Griot",
-      "text": "O bɛnna. I n’a fɔ mɔgɔba lu bɛ a fɔ la : mɔgɔ tɛ i bolo fila bila saa da kɔnɔ.",
-      "phonetic_api": "/o bɛn.na i n‿a fɔ mɔ.ɡɔ.ba lu bɛ a fɔ la mɔ.ɡɔ tɛ i bo.lo fi.la bi.la saː da kɔ.nɔ/",
-      "phonetic_simple": "O BƐN-NA. I N'A FƆ MƆ-GƆ-BA LOU BƐ A FƆ LA : MƆ-GƆ TƐ I BO-LO FI-LA BI-LA SAA DA KƆ-NƆ.",
-      "translation": "C'est bien. Comme le disent les anciens : on ne met pas ses deux mains à la fois dans la gueule du serpent."
+      "speaker": "Le vieux Fodé",
+      "text": "A kɔrɔ ye ko : moo dɔ dɔrɔn de bɛ se ka i faamuya.",
+      "phonetic_api": "[a kɔrɔ je ko moː dɔ dɔrɔn de bɛ se ka i faːmuja]",
+      "phonetic_simple": "a-ko-ro-yé-ko: mo-o-do-do-ron-dé-bè-sé-ka-i-fa-a-mou-ya",
+      "translation": "Cela veut dire : seule une personne comme toi peut te comprendre."
     },
     {
-      "speaker": "Le Jeune Homme",
-      "text": "N a fahamya nɛ ! O na wajibila ra n ye ka n ka mirila lu sanya.",
-      "phonetic_api": "/n̩ a fa.ham.ja nɛ o na wa.d͡ʒi.bi.la ra n̩ de ka n̩ ka mi.ri.la lu sa.nja/",
-      "phonetic_simple": "N A FA-HAM-YA NƐ ! O NA OUA-DJI-BI-LA RA N YE KA N KA MI-RI-LA LOU SAN-YA.",
-      "translation": "Je l'ai parfaitement saisi ! C'est désormais un devoir pour moi de purifier mes intentions."
+      "speaker": "Jeune Sékou",
+      "text": "Awa, n bada a faamu sisèn.",
+      "phonetic_api": "[awa n bada a faːmu sisɛn]",
+      "phonetic_simple": "a-wa, n-ba-da-a-fa-a-mou-si-sèn",
+      "translation": "D'accord, je le comprends maintenant."
     }
   ],
   "cultural_notes": [
-    "Dans l'univers culturel mandingue, le proverbe ('talen') est l'habillage indispensable de la vérité. Un discours sans métaphore est jugé sec et sans saveur. Les animaux (le serpent, l'hyène, le lion) et la flore (le balanza, le baobab) servent de vecteurs anthropomorphiques pour corriger les comportements sans heurter de front la sensibilité de l'interlocuteur."
+    "Les proverbes ('talenna'/'nsiirin') occupent une place centrale dans la culture malinké/mandingue, transmis oralement lors des veillées, des palabres et des contes ; ils condensent la sagesse collective et sont un marqueur de maîtrise linguistique avancée ([Donkosira — Proverbes de Damaro](https://www.donkosira.org/proverbes-de-damaro-guinee/), [African Heritage](https://afrolegends.com/tag/guinean-proverb/))."
   ],
   "exercises": [
     {
-      "exercise_id": "C1_M2_L4_ex1",
-      "type": "multiple_choice",
-      "question": "Que symbolise le proverbe de la bouche du serpent ('saa da') ?",
+      "exercise_id": "e1",
+      "type": "choix_multiple",
+      "question": "Que signifie le proverbe 'Nɛgɛ kelen dɔrɔn de bɛ se ka nɛgɛ tigɛ' ?",
       "options": [
-        "L'obligation de chasser",
-        "La prudence face au danger cumulé",
-        "L'accueil des étrangers"
+        "Le feu brûle tout",
+        "Le fer seul peut scier le fer",
+        "L'eau est plus forte que le fer",
+        "Le bois flotte sur l'eau"
       ],
-      "correct_answer": "La prudence face au danger cumulé",
-      "explanation": "Le dicton enseigne qu'il faut se préserver en évitant de s'exposer de manière insensée aux périls."
+      "correct_answer": "Le fer seul peut scier le fer",
+      "explanation": "Traduction littérale et sens figuré : seul un égal (de force ou de nature semblable) peut vaincre/corriger son semblable."
     },
     {
-      "exercise_id": "C1_M2_L4_ex2",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "A ka kuma ka di [ ___ ] ji gbe (Sa parole est limpide comme de l'eau pure).",
-      "correct_answer": "i n'a fo",
-      "hint": "Locution comparative de trois mots signifiant 'tel que' ou 'comme'."
+      "exercise_id": "e2",
+      "type": "traduction",
+      "question": "Traduisez le sens du proverbe : 'Bɔrɔ lankolon tè se ka lɔ.'",
+      "correct_answer": "Un sac vide ne peut pas se tenir debout.",
+      "explanation": "Ce proverbe illustre l'idée qu'on ne peut agir efficacement sans ressources de base (comme la nourriture)."
+    },
+    {
+      "exercise_id": "e3",
+      "type": "texte_a_trous",
+      "sentence_with_blank": "___ kelen ka fisa kuma caman ye.  (Un seul proverbe vaut mieux que beaucoup de paroles.)",
+      "correct_answer": "Talenna",
+      "hint": "C'est le mot pour 'proverbe/dicton'."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Donkosira — Proverbes de Damaro (Guinée), malinké/konianké",
+      "url": "https://www.donkosira.org/proverbes-de-damaro-guinee/"
+    },
+    {
+      "label": "African Heritage — Guinean/Mandingue proverbs",
+      "url": "https://afrolegends.com/tag/guinean-proverb/"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Les quatre proverbes centraux (fer/fer, sac vide, œil/orange, grenouilles/éléphant) sont attestés avec traduction française sur des sites spécialisés en proverbes mandingues/guinéens (Donkosira, African Heritage), mais la transcription phonétique en maninka standardisé (tons, orthographe) et le vocabulaire additionnel du dialogue sont des reconstructions à partir de cognates bambara/dioula largement partagés dans les langues mandingues, non vérifiées mot-à-mot en maninka de Guinée strict — d'où une confiance moyenne."
 }

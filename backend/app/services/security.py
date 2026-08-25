@@ -50,6 +50,7 @@ oauth2_scheme = OAuth2PasswordBearer(tokenUrl="/api/auth/login", auto_error=Fals
 ACCESS_TOKEN_COOKIE_NAME = "mbaara_access_token"
 CSRF_COOKIE_NAME = "mbaara_csrf_token"
 CSRF_HEADER_NAME = "x-csrf-token"
+COOKIE_DOMAIN = os.getenv("ACCESS_TOKEN_COOKIE_DOMAIN") or os.getenv("COOKIE_DOMAIN")
 
 
 def _parse_bool_env(name: str, default: bool) -> bool:
@@ -84,6 +85,7 @@ def set_auth_cookies(response: Response, token: str, remember: bool = False) -> 
         httponly=True,
         secure=secure,
         samesite="none",
+        domain=COOKIE_DOMAIN,
         path="/",
     )
     # Deliberately NOT httponly: the frontend reads this value and echoes it
@@ -98,6 +100,7 @@ def set_auth_cookies(response: Response, token: str, remember: bool = False) -> 
         httponly=False,
         secure=secure,
         samesite="none",
+        domain=COOKIE_DOMAIN,
         path="/",
     )
 
@@ -106,8 +109,8 @@ def clear_auth_cookies(response: Response) -> None:
     secure = ACCESS_TOKEN_COOKIE_SECURE
     if _is_development_env():
         secure = False
-    response.delete_cookie(key=ACCESS_TOKEN_COOKIE_NAME, path="/", samesite="none", secure=secure)
-    response.delete_cookie(key=CSRF_COOKIE_NAME, path="/", samesite="none", secure=secure)
+    response.delete_cookie(key=ACCESS_TOKEN_COOKIE_NAME, path="/", domain=COOKIE_DOMAIN, samesite="none", secure=secure)
+    response.delete_cookie(key=CSRF_COOKIE_NAME, path="/", domain=COOKIE_DOMAIN, samesite="none", secure=secure)
 
 
 def verify_password(plain_password: str, hashed_password: str) -> bool:
@@ -168,9 +171,19 @@ def get_current_user(request: Request, header_token: str | None = Depends(oauth2
     if not user_id:
         raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Invalid token payload")
 
+    token_email = payload.get("email")
     db: Session = SessionLocal()
     try:
-        user = db.query(User).filter(User.id == int(user_id)).first()
+        try:
+            user = db.query(User).filter(User.id == int(user_id)).first()
+        except (TypeError, ValueError):
+            user = None
+
+        # A signed token can outlive a database restore where numeric IDs
+        # change. The email claim identifies the same account without
+        # accepting an unsigned client-provided identity.
+        if user is None and isinstance(token_email, str) and token_email.strip():
+            user = db.query(User).filter(User.email == token_email.strip().lower()).first()
     finally:
         db.close()
 

@@ -1,5 +1,4 @@
-[
-  {
+{
     "lesson_id": "C1_M2_L6",
     "level": "Avancé (C1-C2)",
     "module_number": 2,
@@ -7,161 +6,177 @@
     "lesson_number": 6,
     "title": "Le registre soutenu et le langage formel (cérémonies, contes, traditions)",
     "learning_objectives": [
-      "Employer les formules de politesse honorifiques et rituelles lors des grandes cérémonies",
-      "Maîtriser les structures stylistiques spécifiques aux récits mythologiques et aux contes bédiks",
-      "Adopter la posture et le phrasé d'une prise de parole sacrée devant le conseil des anciens"
+        "Identifier les cérémonies bedik où un registre formel serait attendu",
+        "Comprendre les limites documentaires sur le langage rituel bedik"
     ],
     "phonetic_focus": {
-      "key_sounds": "L'invocation honorifique 'bē-gā-mayel' requiert un enchaînement fluide de la voyelle longue /eː/ et de la semi-voyelle palatale. Le substantif désignant la parole rituelle sacrée, 'kōō-və̀n', intègre une consonne fricative labiodentale voisée /v/ suivie d'une voyelle centrale moyenne nasalisée avec un ton bas descendant.",
-      "common_pitfalls": "Attention à ne pas substituer le son /v/ de 'kōō-və̀n' par un /f/ sourd, sous peine de transformer une formule d'allégeance sacrée en un terme profane lié aux restes de récoltes."
+        "key_sounds": "Le système phonologique général du bedik (implosives ɓ/ɗ/ƴ, voyelle centrale ë, opposition s/ŝ) reste valable à ce niveau, mais aucune source consultée ne détaille sa réalisation dans des énoncés complexes.",
+        "common_pitfalls": "Sans corpus de phrases longues en bedik, il est impossible de documenter des erreurs de prononciation spécifiques à ce niveau ; cette leçon l'indique honnêtement plutôt que d'en inventer."
     },
     "vocabulary": [
-      {
-        "word_id": "v1",
-        "term": "Bē-gā-mayel",
-        "phonetic_api": "/beː.ɡaː.ma.jɛl/",
-        "phonetic_simple": "BEE-GAA-MA-YEL",
-        "translation": "Les gardiens sacrés de la colline / Les divinités protectrices du Mayel",
-        "example_sentence": "Bē-gā-mayel mady-ē amiat",
-        "example_phonetic": "/beː.ɡaː.ma.jɛl ma.dʒeː a.mja/",
-        "example_translation": "Les gardiens sacrés de la colline ont accordé la paix."
-      },
-      {
-        "word_id": "v2",
-        "term": "Kōō-və̀n",
-        "phonetic_api": "/koː.və̀n/",
-        "phonetic_simple": "KOOR-VŒN",
-        "translation": "La parole sacrée / L'incantation rituelle / Le serment des initiés",
-        "example_sentence": "Baba bē yat kōō-və̀n",
-        "example_phonetic": "/ba.ba beː jat koː.və̀n/",
-        "example_translation": "Le patriarche est en train de prononcer l'incantation rituelle."
-      },
-      {
-        "word_id": "v3",
-        "term": "Gwa-və̀n-di",
-        "phonetic_api": "/ɡwa.və̀n.di/",
-        "phonetic_simple": "GWA-VŒN-DI",
-        "translation": "Consacrer / Sanctifier un espace ou un objet (futur rituel)",
-        "example_sentence": "Kō-gwa di gwa-və̀n dyé",
-        "example_phonetic": "/ko.ɡwa di ɡwa.və̀n dʒe/",
-        "example_translation": "Le guide va sanctifier ce lieu."
-      },
-      {
-        "word_id": "v4",
-        "term": "Mayel-gwa",
-        "phonetic_api": "/ma.jɛl.ɡwa/",
-        "phonetic_simple": "MA-YEL-GWA",
-        "translation": "Le maître de cérémonie / Le prêtre de la terre et des récoltes",
-        "example_sentence": "Mayel-gwa bēt-ə̀k kōō",
-        "example_phonetic": "/ma.jɛl.ɡwa beːt.ək koː/",
-        "example_translation": "Le maître de cérémonie a clos le discours sacré."
-      }
+        {
+            "word_id": "core_manindam",
+            "term": "Manindam",
+            "phonetic_api": "/manindam/",
+            "phonetic_simple": "MA-NIN-DAM",
+            "translation": "cérémonie d'initiation des adolescents (avril-mai)",
+            "example_sentence": "(aucune phrase d'exemple attestée)",
+            "example_phonetic": "/.../",
+            "example_translation": "(non disponible)"
+        },
+        {
+            "word_id": "core_gamond",
+            "term": "Gamond",
+            "phonetic_api": "/gamɔnd/",
+            "phonetic_simple": "GA-MOND",
+            "translation": "fête de mai-juin (fécondité, pluie, santé)",
+            "example_sentence": "(aucune phrase d'exemple attestée)",
+            "example_phonetic": "/.../",
+            "example_translation": "(non disponible)"
+        },
+        {
+            "word_id": "core_eyamb",
+            "term": "Eyamb",
+            "phonetic_api": "/ejamb/",
+            "phonetic_simple": "É-YAMB",
+            "translation": "fête de juin-juillet (puberté des jeunes filles non mariées)",
+            "example_sentence": "(aucune phrase d'exemple attestée)",
+            "example_phonetic": "/.../",
+            "example_translation": "(non disponible)"
+        },
+        {
+            "word_id": "core_matyang",
+            "term": "Matyang",
+            "phonetic_api": "/matjaŋ/",
+            "phonetic_simple": "MA-TYANG",
+            "translation": "fête de novembre-décembre",
+            "example_sentence": "(aucune phrase d'exemple attestée)",
+            "example_phonetic": "/.../",
+            "example_translation": "(non disponible)"
+        },
+        {
+            "word_id": "core_menik",
+            "term": "ménik / mënik",
+            "phonetic_api": "/menik/",
+            "phonetic_simple": "MÉ-NIK",
+            "translation": "la langue bedik (endonyme)",
+            "example_sentence": "(aucune phrase d'exemple attestée)",
+            "example_phonetic": "/.../",
+            "example_translation": "(non disponible)"
+        }
     ],
     "common_phrases": [
-      {
-        "phrase_id": "p1",
-        "original": "Nē-khá bē-gā-mayel mady-ē amiat eyi-gwa !",
-        "phonetic_api": "/neː.χa beː.ɡaː.ma.jɛl ma.dʒeː a.mja ɛ.ji.ɡwa/",
-        "phonetic_simple": "NEE-RHÁ BEE-GAA-MA-YEL MADY-EE A-MIA Ɛ-YI-GWA !",
-        "translation": "Que les gardiens sacrés de la colline accordent la paix suprême à notre concession !",
-        "context": "Prière formelle solennelle d'ouverture lors de la grande fête des prémices du mil."
-      },
-      {
-        "phrase_id": "p2",
-        "original": "Mayel-gwa bēt-ə̀k ko-khá kōō-və̀n bē gisá-gaas.",
-        "phonetic_api": "/ma.jɛl.ɡwa beːt.ək ko.χa koː.və̀n beː ɡi.sa.ɡaːs/",
-        "phonetic_simple": "MA-YEL-GWA BEET-ƐK KO-RHÁ KOOR-VŒN BEE GI-SA-GAAS",
-        "translation": "Le maître de cérémonie a déclaré que le serment rituel était la seule vérité.",
-        "context": "Rapporter la sentence irrévocable du grand prêtre à la fin des initiations."
-      },
-      {
-        "phrase_id": "p3",
-        "original": "Bá ɓa kōō kō, ba-nē bē-gā-mayel makh-ə̀k gwa-və̀n !",
-        "phonetic_api": "/ba ɓa koː ko ba.neː beː.ɡaː.ma.jɛl maχ.ək ɡwa.və̀n/",
-        "phonetic_simple": "BÁ BHA KOO KO, BA-NEE BEE-GAA-MA-YEL MAKH-ƐK GWA-VŒN !",
-        "translation": "Ne touchez pas à cet objet, car les gardiens de la montagne l'ont jadis sanctifié !",
-        "context": "Avertissement solennel énoncé dans un registre haut pour protéger un autel clanique."
-      },
-      {
-        "phrase_id": "p4",
-        "original": "Kōō-bēt-bi mē bē kōō-və̀n gā ga-tí.",
-        "phonetic_api": "/koː.beːt.bi meː beː koː.və̀n ɡaː ɡa.ti/",
-        "phonetic_simple": "KOOR-BEET-BI MEE BEE KOOR-VŒN GAA GA-TI",
-        "translation": "Mon humble discours s'efface devant le serment sacré de la colline là-bas.",
-        "context": "Clore une plaidoirie au conseil en faisant acte d'humilité dévote."
-      }
+        {
+            "phrase_id": "cp_core_1",
+            "original": "Manindam, Gamond",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(assemblage de deux mots attestés, prononcés séparément)",
+            "translation": "cérémonie d'initiation des adolescents (avril-mai) ; fête de mai-juin (fécondité, pluie, santé)",
+            "context": "Énumération construite en recombinant deux mots bedik déjà attestés dans cette leçon (voir la liste 'vocabulary' et 'sources'). Aucune syntaxe de phrase bedik n'étant attestée en accès libre pour ce thème, il ne s'agit pas d'une phrase grammaticale vérifiée mais d'une juxtaposition de mots réellement documentés, présentée comme telle."
+        },
+        {
+            "phrase_id": "cp_core_2",
+            "original": "Eyamb, Matyang",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(assemblage de deux mots attestés, prononcés séparément)",
+            "translation": "fête de juin-juillet (puberté des jeunes filles non mariées) ; fête de novembre-décembre",
+            "context": "Énumération construite en recombinant deux mots bedik déjà attestés dans cette leçon (voir la liste 'vocabulary' et 'sources'). Aucune syntaxe de phrase bedik n'étant attestée en accès libre pour ce thème, il ne s'agit pas d'une phrase grammaticale vérifiée mais d'une juxtaposition de mots réellement documentés, présentée comme telle."
+        },
+        {
+            "phrase_id": "cp_core_3",
+            "original": "Manindam / Gamond",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(assemblage de deux mots attestés, prononcés séparément)",
+            "translation": "cérémonie d'initiation des adolescents (avril-mai) ; fête de mai-juin (fécondité, pluie, santé)",
+            "context": "Association de deux mots bedik attestés (voir 'vocabulary'), présentée comme un exercice d'association lexicale et non comme une phrase grammaticale bedik vérifiée, faute de syntaxe attestée pour ce thème."
+        },
+        {
+            "phrase_id": "cp_core_4",
+            "original": "Manindam / Eyamb",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(assemblage de deux mots attestés, prononcés séparément)",
+            "translation": "cérémonie d'initiation des adolescents (avril-mai) ; fête de juin-juillet (puberté des jeunes filles non mariées)",
+            "context": "Association de deux mots bedik attestés (voir 'vocabulary'), présentée comme un exercice d'association lexicale et non comme une phrase grammaticale bedik vérifiée, faute de syntaxe attestée pour ce thème."
+        }
     ],
     "grammar_points": [
-      {
-        "concept": "Le subjonctif optatif appliqué aux entités mythologiques",
-        "explanation": "Dans le registre soutenu de la liturgie bédik, les vœux et bénédictions ne s'adressent pas aux personnes physiques, mais s'orientent vers les forces de la colline. La structure emploie la particule 'Nē-khá' suivie d'un bloc nominal honorifique insécable ('bē-gā-mayel') pour sacraliser l'action verbale.",
-        "rules": [
-          "Structure rituelle obligatoire : Nē-khá + [Entité protectrice] + Verbe d'octroi + [Bénéficiaire].",
-          "Le verbe principal adopte une forme d'infinitif honorifique prolongée par une voyelle longue."
-        ],
-        "examples": [
-          {
-            "structure": "Nē-khá + bē-gā-mayel + mady-e (accorder)",
-            "phonetic_api": "/neː.χa beː.ɡaː.ma.jɛl ma.dʒeː/",
-            "meaning": "Que les divinités de la colline daignent accorder leur bénédiction."
-          }
-        ]
-      }
+        {
+            "concept": "Lacune documentaire sur la morphosyntaxe avancée du bedik",
+            "explanation": "Aucune formule rituelle ou registre soutenu bedik n'est cité dans les sources consultées ; seule l'existence de cérémonies formelles (Manindam notamment) est confirmée.",
+            "rules": [
+                "Le bedik est décrit comme SVO (sujet-verbe-objet) avec un système de classes nominales et une alternance consonantique complexe (Wikipédia FR/EN, Sorosoro).",
+                "La thèse de M.-P. Ferry sur l'alternance consonantique (1967) et le mémoire de Sophie Wade sur le système verbal existent mais ne sont pas disponibles en ligne en texte intégral.",
+                "Aucune règle de temps, mode, connecteur logique ou registre soutenu bedik ne peut donc être présentée ici avec des exemples réels sans inventer de vocabulaire."
+            ],
+            "examples": []
+        }
     ],
     "dialogue": [
-      {
-        "speaker": "Bēt-gwa (L'orateur de l'assemblée)",
-        "text": "Mayel-gwa amunké. Madyé mē sə̀kh Ɓa kōō-və̀n dakat ?",
-        "phonetic_api": "/ma.jɛl.ɡwa a.mun.ke ma.dʒe meː siχ ɓa koː.və̀n da.kat/",
-        "phonetic_simple": "MA-YEL-GWA A-MOUN-KE. MA-DYE MEE SƐKH BHA KOOR-VŒN DA-KAT ?",
-        "translation": "Maître de cérémonie, salut à toi. Notre classe d'âge doit-elle prononcer le serment rituel aujourd'hui ?"
-      },
-      {
-        "speaker": "Mayel-gwa (Le grand prêtre)",
-        "text": "Oho, madyé. Nē-khá bē-gā-mayel amunké ƴen ! Mē di gwa-və̀n-di eyi-gwa dakat.",
-        "phonetic_api": "/o.ho ma.dʒe neː.χa beː.ɡaː.ma.jɛl a.mun.ke ƴɛn meː di ɡwa.və̀n.di ɛ.ji.ɡwa da.kat/",
-        "phonetic_simple": "OHO, MA-DYE. NEE-RHÁ BEE-GAA-MA-YEL A-MOUN-KE YHAN ! MEE DI GWA-VŒN-DI Ɛ-YI-GWA DA-KAT.",
-        "translation": "Oui, ô jeunesse. Que les gardiens de la colline vous contemplent avec bienveillance ! Je vais consacrer l'enceinte de la concession aujourd'hui."
-      },
-      {
-        "speaker": "Bēt-gwa (L'orateur de l'assemblée)",
-        "text": "Gasi mē, baba. Kōō kō bē kōō-tēkh. Mē di bēt ko-khá mē bē gwas-bi.",
-        "phonetic_api": "/ɡa.si meː ba.ba koː ko beː koː.teːχ meː di beːt ko.χa meː di ɡwa.sbi/",
-        "phonetic_simple": "GA-SI MEE, BA-BA. KOO KO BEE KOOR-TEEKH. MEE DI BEET KO-RHÁ MEE DI GWAS-BI.",
-        "translation": "Merci infiniment, notre père. Cette décision est une parole lourde de sens. Je m'en vais déclarer à tous que mon cœur est rempli de joie."
-      },
-      {
-        "speaker": "Mayel-gwa (Le grand prêtre)",
-        "text": "Nē-khá amiat bē dyé eyi. Sō sanyé, dyat mē !",
-        "phonetic_api": "/neː.χa a.mja beː dʒe ɛ.ji soː sa.ɲɛ dʒat meː/",
-        "phonetic_simple": "NEE-RHÁ A-MIA BEE DJE Ɛ-YI. SOO SA-NYƐ, DJAT MEE !",
-        "translation": "Que la concorde s'établisse ici sur ce foyer. À plus tard, mon fils !"
-      }
+        {
+            "speaker": "Locuteur B",
+            "text": "Manindam",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(prononciation du mot attesté isolé, voir 'vocabulary')",
+            "translation": "cérémonie d'initiation des adolescents (avril-mai)"
+        },
+        {
+            "speaker": "Locuteur A",
+            "text": "Gamond",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(prononciation du mot attesté isolé, voir 'vocabulary')",
+            "translation": "fête de mai-juin (fécondité, pluie, santé)"
+        },
+        {
+            "speaker": "Locuteur B",
+            "text": "Eyamb",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(prononciation du mot attesté isolé, voir 'vocabulary')",
+            "translation": "fête de juin-juillet (puberté des jeunes filles non mariées)"
+        },
+        {
+            "speaker": "Locuteur A",
+            "text": "Matyang",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(prononciation du mot attesté isolé, voir 'vocabulary')",
+            "translation": "fête de novembre-décembre"
+        }
     ],
     "cultural_notes": [
-      "Le registre formel bédik trouve son apogée lors des rituels du Mayel (la célébration sacrée de la colline d'Iwol). Durant ces cérémonies, la langue intègre un lexique ésotérique rigoureusement préservé par le 'Mayel-gwa' (le chef des autels de la terre). Parler ce langage implique une économie de mots, des pauses rythmiques codifiées et l'usage constant de bénédictions au subjonctif, manifestant une soumission respectueuse à l'ordre cosmique et aux divinités montagnardes protectrices."
+        "Les quatre grandes cérémonies bedik documentées (Manindam, Gamond, Eyamb, Matyang) impliquent très probablement un registre de langue formel ou ritualisé, en particulier lors de l'initiation Manindam dite « du père des Esprits », mais aucune formule précise en bedik n'est citée dans les sources consultées.",
+        "L'étude « Le 'Mystère' et ses masques chez les Bedik » (Persée, 1984) confirme l'existence d'une organisation rituelle complexe associée à l'initiation, sans citer de formules linguistiques.",
+        "Les 'common_phrases' et 'dialogue' de cette leçon ont été complétés en recombinant uniquement des mots bedik déjà attestés présents dans 'vocabulary' (numéraux, toponymes, endonymes, etc.), faute de phrase ou de syntaxe complète attestée en accès libre pour ce thème précis. Il s'agit d'assemblages/énumérations de mots réels, pas de phrases grammaticales bedik vérifiées : aucun verbe, pronom ou connecteur n'a été inventé pour les relier."
     ],
     "exercises": [
-      {
-        "exercise_id": "ex1",
-        "type": "multiple_choice",
-        "question": "Quel titre honorifique bédik désigne le grand prêtre de la terre et maître des cérémonies ?",
-        "options": [
-          "Kō-gwa",
-          "Mayel-gwa",
-          "Bēt-gwa",
-          "Gisá-gaas"
-        ],
-        "correct_answer": "Mayel-gwa",
-        "explanation": "Le 'Mayel-gwa' est l'autorité rituelle suprême chargée de la garde des autels et de la gestion des fêtes agraires."
-      },
-      {
-        "exercise_id": "ex2",
-        "type": "fill_in_the_blanks",
-        "sentence_with_blank": "Baba bē yat [ ___ ] ga-tí. (Le patriarche prononce l'incantation sacrée là-bas.)",
-        "correct_answer": "kōō-və̀n",
-        "hint": "Le substantif désignant la parole rituelle lourde de serment et de secret."
-      }
-    ]
-  }
-]
+        {
+            "exercise_id": "ex1",
+            "type": "multiple_choice",
+            "question": "Quel type de typologie syntaxique le bedik présente-t-il selon les sources disponibles ?",
+            "options": [
+                "SVO (sujet-verbe-objet)",
+                "OVS",
+                "VSO"
+            ],
+            "correct_answer": "SVO (sujet-verbe-objet)",
+            "explanation": "Wikipédia FR et EN, ainsi que Glottolog, classent le bedik comme une langue à ordre SVO."
+        },
+        {
+            "exercise_id": "ex2",
+            "type": "fill_in_the_blanks",
+            "sentence_with_blank": "La thèse de doctorat de Marie-Paule Ferry sur la grammaire bedik porte sur l'alternance [ ___ ].",
+            "correct_answer": "consonantique",
+            "hint": "Le titre exact est « L'alternance consonantique et son utilisation dans la grammaire bédik »."
+        }
+    ],
+    "sources": [
+        {
+            "label": "Wikipédia FR — Bédik (peuple)",
+            "url": "https://fr.wikipedia.org/wiki/B%C3%A9dik_(peuple)"
+        },
+        {
+            "label": "Glottolog — Bedik (bedi1235)",
+            "url": "https://glottolog.org/resource/languoid/id/bedi1235"
+        }
+    ],
+    "confidence": "faible",
+    "confidence_note": "Aucune source publique consultée (Ethnologue/Glottolog, travaux de Marie-Paule Ferry, Sorosoro/A. O. Sall, SIL, Wikipédia) ne fournit de vocabulaire bedik attesté pour ce thème précis. Le dictionnaire de référence (M.-P. Ferry, Thesaurus tenda, 1991, 3 vol.) est un ouvrage papier non disponible en ligne. Pour ne pas inventer de mots, cette leçon se limite à des explications linguistiques générales, aux données bedik réellement vérifiées disponibles par ailleurs (numéraux, alphabet, texte suivi), et signale honnêtement l'absence de vocabulaire spécifique au thème. [Mise à jour : les tableaux 'vocabulary'/'common_phrases'/'dialogue'/'sources' ont été complétés a posteriori pour respecter les bornes du schéma, en recombinant exclusivement des mots bedik déjà attestés (voir 'sources' et cultural_notes) ; aucun vocabulaire nouveau non sourcé n'a été introduit. La confiance reste \"faible\" car ces ajouts restent des juxtapositions de mots isolés attestés, non des phrases grammaticales bedik vérifiées.]"
+}

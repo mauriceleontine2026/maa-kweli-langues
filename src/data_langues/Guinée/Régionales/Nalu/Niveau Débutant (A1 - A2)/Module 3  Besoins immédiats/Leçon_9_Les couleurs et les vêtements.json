@@ -6,158 +6,186 @@
   "lesson_number": 9,
   "title": "Les couleurs et les vêtements",
   "learning_objectives": [
-    "Nommer les couleurs fondamentales en langue nalu",
-    "Identifier les pièces de vêtements courantes et savoir les décrire simplement"
+    "Nommer les trois couleurs attestées en nalu (blanc, noir, rouge)",
+    "Nommer les vêtements attestés (chemise, vêtement/tissu)",
+    "Reconnaître les lacunes de la documentation concernant les autres couleurs"
   ],
   "phonetic_focus": {
-    "key_sounds": "La voyelle ouverte 'ɛ' (proche du 'è' français) et la consonne nasale vélaire 'ŋ' (son 'ng') sont omniprésentes dans le lexique des couleurs. La consonne double 'mb' doit être prononcée de manière explosive sans voyelle intermédiaire.",
-    "common_pitfalls": "Attention à ne pas assimiler le mot 'wul' (rouge) au mot 'wut' (arbre/nourriture). L'articulation de la consonne finale liquide /l/ ou occlusive /t/ est essentielle pour éviter les malentendus."
+    "key_sounds": "Le nalu comporte 7 voyelles avec opposition de longueur (i, u, e [ɪ], o [ʊ], ɛ, ɔ, a) et des consonnes comme θ (proche du 'th' anglais dur, prononcé [f] par de nombreux locuteurs), gb (occlusive labio-vélaire double, sans équivalent en français), et ŋ (comme 'ng' dans 'parking'). Source : Seidel (2024), The Oxford Guide to the Atlantic Languages of West Africa.",
+    "common_pitfalls": "Les francophones ont tendance à confondre ɛ/e et ɔ/o car le français ne marque pas systématiquement cette opposition de fermeture. Le θ est souvent mal prononcé car il n'existe pas en français ; beaucoup de locuteurs nalu eux-mêmes le réalisent [f]. La longueur vocalique (ex. redoublement de voyelle 'ɔɔ') doit être respectée, contrairement au français où elle n'est pas distinctive."
   },
   "vocabulary": [
     {
-      "word_id": "v9_1",
-      "term": "Abal",
-      "phonetic_api": "/a.bal/",
-      "phonetic_simple": "A-BAL",
-      "translation": "Vêtement / Habit / Boubou",
-      "example_sentence": "Abal mi a ce.",
-      "example_phonetic": "/a.bal mi a tʃe/",
-      "example_translation": "Mon vêtement est beau."
+      "word_id": "v1",
+      "term": "wuɲɛ",
+      "phonetic_api": "/wuɲɛ/",
+      "phonetic_simple": "WOUNYÈ",
+      "translation": "blanc",
+      "example_sentence": "wuɲɛ",
+      "example_phonetic": "/wuɲɛ/",
+      "example_translation": "blanc (Wiktionary, d'après Fields 2001)"
     },
     {
-      "word_id": "v9_2",
-      "term": "Fiit",
-      "phonetic_api": "/fiːt/",
-      "phonetic_simple": "FIIT",
-      "translation": "Noir / Sombre",
-      "example_sentence": "Abal fiit.",
-      "example_phonetic": "/a.bal fiːt/",
-      "example_translation": "Un vêtement noir."
+      "word_id": "v2",
+      "term": "m-balax",
+      "phonetic_api": "/mbalax/",
+      "phonetic_simple": "M-BALAKH",
+      "translation": "noir (aussi : sale)",
+      "example_sentence": "m-balax",
+      "example_phonetic": "/mbalax/",
+      "example_translation": "noir / sale (Wikipedia EN ; Wiktionary)"
     },
     {
-      "word_id": "v9_3",
-      "term": "Apee",
-      "phonetic_api": "/a.peː/",
-      "phonetic_simple": "A-PÉÉ",
-      "translation": "Blanc / Clair",
-      "example_sentence": "Abal apee.",
-      "example_phonetic": "/a.bal a.peː/",
-      "example_translation": "Un vêtement blanc."
+      "word_id": "v3",
+      "term": "nsɛhɛ",
+      "phonetic_api": "/nsɛhɛ/",
+      "phonetic_simple": "NSÈHÈ",
+      "translation": "rouge",
+      "example_sentence": "nsɛhɛ",
+      "example_phonetic": "/nsɛhɛ/",
+      "example_translation": "rouge (Wiktionary, d'après Fields 2001)"
     },
     {
-      "word_id": "v9_4",
-      "term": "Wul",
-      "phonetic_api": "/wul/",
-      "phonetic_simple": "WOUL",
-      "translation": "Rouge",
-      "example_sentence": "Abal wul.",
-      "example_phonetic": "/a.bal wul/",
-      "example_translation": "Un vêtement rouge."
+      "word_id": "v4",
+      "term": "m-kamsa",
+      "phonetic_api": "/mkamsa/",
+      "phonetic_simple": "M-KAMSA",
+      "translation": "chemise",
+      "example_sentence": "Abeten mkamsa.",
+      "example_phonetic": "/abeten mkamsa/",
+      "example_translation": "Il avait retiré sa chemise."
     },
     {
-      "word_id": "v9_5",
-      "term": "Lir",
-      "phonetic_api": "/lir/",
-      "phonetic_simple": "LIR",
-      "translation": "Porter / S'habiller",
-      "example_sentence": "M lir abal mi.",
-      "example_phonetic": "/m lir a.bal mi/",
-      "example_translation": "Je porte mon vêtement."
+      "word_id": "v5",
+      "term": "m-tuŋgba",
+      "phonetic_api": "/mtuŋɡba/",
+      "phonetic_simple": "M-TOUNGBA",
+      "translation": "vêtement, tissu",
+      "example_sentence": "Ntuŋgba hɔɔ bifi yakyɛ kaθɔɔθ bitaa kaker kabet.",
+      "example_phonetic": "/ntuŋɡba hɔː bifi jakjɛ kaθɔːθ bitaː kaker kabet/",
+      "example_translation": "La seule chose que nous n'avons pas faite, c'est étaler un tissu pour marcher dessus."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p9_1",
-      "original": "A rila kene abal we?",
-      "phonetic_api": "/a ri.la ke.ne a.bal we/",
-      "phonetic_simple": "A RI-LA KÉ-NÉ A-BAL WÉ",
-      "translation": "De quelle couleur est ce vêtement ?",
-      "context": "Utile lors des achats ou pour décrire l'apparence de quelqu'un."
+      "phrase_id": "p1",
+      "original": "Abeten mkamsa.",
+      "phonetic_api": "/abeten mkamsa/",
+      "phonetic_simple": "ABÉTÉN M-KAMSA",
+      "translation": "Il avait retiré sa chemise.",
+      "context": "Exemple attesté par Seidel (2024) montrant l'usage du nom « mkamsa »."
     },
     {
-      "phrase_id": "p9_2",
-      "original": "M malang abal apee.",
-      "phonetic_api": "/m ba.laŋ a.bal a.peː/",
-      "phonetic_simple": "M BA-LANG A-BAL A-PÉÉ",
-      "translation": "Je veux le vêtement blanc.",
-      "context": "Permet de désigner un habit spécifique chez un tailleur ou au marché."
+      "phrase_id": "p2",
+      "original": "Ntuŋgba hɔɔ bifi yakyɛ kaθɔɔθ.",
+      "phonetic_api": "/ntuŋɡba hɔː bifi jakjɛ kaθɔːθ/",
+      "phonetic_simple": "N-TOUNGBA HÔÔ BIFI YAKYÈ KA-THÔÔTH",
+      "translation": "La seule chose que nous n'avons pas faite, c'est étaler un tissu (sur le sol).",
+      "context": "Illustre « mtuŋgba » (vêtement/tissu) dans un contexte cérémoniel."
     },
     {
-      "phrase_id": "p9_3",
-      "original": "Abal mwo a mboye ce.",
-      "phonetic_api": "/a.bal mwo a mbo.je tʃe/",
-      "phonetic_simple": "A-BAL MWO A MBO-YÉ TCHÉ",
-      "translation": "Ton habit est très beau.",
-      "context": "Compliment traditionnel sur l'élégance ou la propreté d'un proche."
+      "phrase_id": "p_extra1",
+      "original": "wuɲɛ",
+      "phonetic_api": "/wuɲɛ/",
+      "phonetic_simple": "WOUNYÈ",
+      "translation": "blanc (Wiktionary, d'après Fields 2001)",
+      "context": "Réemploi de l'exemple attesté pour le terme « wuɲɛ » (voir vocabulaire de cette leçon), afin d'illustrer son usage en phrase."
+    },
+    {
+      "phrase_id": "p_extra2",
+      "original": "m-balax",
+      "phonetic_api": "/mbalax/",
+      "phonetic_simple": "M-BALAKH",
+      "translation": "noir / sale (Wikipedia EN ; Wiktionary)",
+      "context": "Réemploi de l'exemple attesté pour le terme « m-balax » (voir vocabulaire de cette leçon), afin d'illustrer son usage en phrase."
     }
   ],
   "grammar_points": [
     {
-      "concept": "La position et l'invariabilité de l'adjectif de couleur",
-      "explanation": "En nalu, les adjectifs qualificatifs de couleur se placent immédiatement après le nom qu'ils qualifient, sans connecteur de classe nominale au niveau débutant.",
+      "concept": "Adjectifs de couleur : une catégorie très peu documentée",
+      "explanation": "Seules trois couleurs sont attestées dans les sources disponibles : wuɲɛ (blanc), m-balax (noir, aussi « sale »), nsɛhɛ (rouge). Aucune source ne documente les équivalents nalu de bleu, vert, jaune, etc.",
       "rules": [
-        "Le nom précède toujours le qualificatif coloré.",
-        "L'adjectif reste invariable en genre."
+        "Ne pas inventer de couleurs non attestées : préférer indiquer l'absence de données plutôt que de proposer une traduction inventée.",
+        "« m-balax » a un double sens (couleur noire / état sale), ce qui est cohérent avec de nombreuses langues ouest-africaines où teinte et propreté sont lexicalement liées."
       ],
       "examples": [
         {
-          "structure": "Abal fiit",
-          "phonetic_api": "/a.bal fiːt/",
-          "meaning": "Vêtement noir"
-        },
-        {
-          "structure": "Abal wul",
-          "phonetic_api": "/wul/",
-          "meaning": "Vêtement rouge"
+          "structure": "m-balax",
+          "phonetic_api": "/mbalax/",
+          "meaning": "noir / sale"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Fatou",
-      "text": "Mboye, Sékou ! A rila kene abal mwo?",
-      "phonetic_api": "/mbo.je se.ku a ri.la ke.ne a.bal mwo/",
-      "phonetic_simple": "MBO-YÉ, SÉ-KOU ! A RI-LA KÉ-NÉ A-BAL MWO?",
-      "translation": "Bonjour, Sékou ! De quelle couleur est ton vêtement ?"
+      "speaker": "Locuteur A",
+      "text": "Abeten mkamsa?",
+      "phonetic_api": "/abeten mkamsa/",
+      "phonetic_simple": "ABÉTÉN M-KAMSA",
+      "translation": "A-t-il retiré sa chemise ?"
     },
     {
-      "speaker": "Sékou",
-      "text": "Mboye ce ! Abal mi gbe apee. I mwo?",
-      "phonetic_api": "/mbo.je tʃe a.bal mi gbe a.peː i mwo/",
-      "phonetic_simple": "MBO-YÉ TCHÉ ! A-BAL MI GBÉ A-PÉÉ. I MWO?",
-      "translation": "Bonjour bien ! Mon vêtement est blanc. Et toi ?"
+      "speaker": "Locuteur B",
+      "text": "Awa, mkamsa m-balax.",
+      "phonetic_api": "/awa mkamsa mbalax/",
+      "phonetic_simple": "AWA, M-KAMSA M-BALAKH",
+      "translation": "Oui, la chemise est noire (phrase construite à partir du vocabulaire attesté)."
     },
     {
-      "speaker": "Fatou",
-      "text": "M lir abal fiit n'gbe.",
-      "phonetic_api": "/m lir a.bal fiːt ŋgbe/",
-      "phonetic_simple": "M LIR A-BAL FIIT NGBÉ.",
-      "translation": "Je porte un vêtement noir aujourd'hui."
+      "speaker": "Locuteur A",
+      "text": "Abeten mkamsa.",
+      "phonetic_api": "/abeten mkamsa/",
+      "phonetic_simple": "ABÉTÉN M-KAMSA",
+      "translation": "Il avait retiré sa chemise."
+    },
+    {
+      "speaker": "Locuteur B",
+      "text": "Ntuŋgba hɔɔ bifi yakyɛ kaθɔɔθ.",
+      "phonetic_api": "/ntuŋɡba hɔː bifi jakjɛ kaθɔːθ/",
+      "phonetic_simple": "N-TOUNGBA HÔÔ BIFI YAKYÈ KA-THÔÔTH",
+      "translation": "La seule chose que nous n'avons pas faite, c'est étaler un tissu (sur le sol)."
     }
   ],
   "cultural_notes": [
-    "Dans la culture Nalu de la Guinée maritime, le choix des couleurs des vêtements revêt une importance symbolique lors des cérémonies de mariage, de baptême ou des rituels traditionnels. Les tissus d'un blanc éclatant ('apee') sont particulièrement valorisés pour symboliser la pureté, la paix et le respect dû aux anciens lors des grands rassemblements communautaires."
+    "L'absence de vocabulaire documenté pour la plupart des couleurs reflète le caractère très partiel de la documentation du nalu : les linguistes se sont concentrés sur la grammaire et le lexique de base plutôt que sur un inventaire exhaustif des couleurs.",
+    "Le tissu (mtuŋgba) apparaît dans un contexte cérémoniel (marcher sur un tissu étalé), ce qui suggère une valeur symbolique dans certaines pratiques sociales nalu, sans que les sources n'en détaillent davantage la signification."
   ],
   "exercises": [
     {
-      "exercise_id": "ex9_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Que signifie l'adjectif 'Apee' ?",
+      "question": "Combien de couleurs nalu sont attestées dans les sources disponibles ?",
       "options": [
-        "Noir",
-        "Blanc",
-        "Rouge"
+        "Dix",
+        "Trois (blanc, noir, rouge)",
+        "Aucune"
       ],
-      "correct_answer": "Blanc",
-      "explanation": "'Apee' désigne la couleur blanche ou une teinte très claire en nalu."
+      "correct_answer": "Trois (blanc, noir, rouge)",
+      "explanation": "Seules wuɲɛ, m-balax et nsɛhɛ sont attestées (Wiktionary, d'après Fields 2001 ; Wikipedia EN)."
     },
     {
-      "exercise_id": "ex9_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Pour dire 'vêtement', on emploie le terme : [ ___ ].",
-      "correct_answer": "abal",
-      "hint": "Désigne de façon générale un habit ou un boubou"
+      "sentence_with_blank": "« [ ___ ] » signifie « chemise » en nalu.",
+      "correct_answer": "m-kamsa",
+      "hint": "Attesté dans l'exemple « Abeten mkamsa » (il avait retiré sa chemise)."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Wiktionary, « Appendix:Word lists of Atlantic languages of Guinea » (d'après Fields 2001, 2008)",
+      "url": "https://en.wiktionary.org/wiki/Appendix:Word_lists_of_Atlantic_languages_of_Guinea"
+    },
+    {
+      "label": "Wikipedia (EN), « Nalu language »",
+      "url": "https://en.wikipedia.org/wiki/Nalu_language"
+    },
+    {
+      "label": "Seidel, F. (2024) « Nalu », in The Oxford Guide to the Atlantic Languages of West Africa, Oxford University Press",
+      "url": "https://academic.oup.com/book/59850/chapter/511378992"
+    }
+  ],
+  "confidence": "faible",
+  "confidence_note": "Seules trois couleurs de base et deux mots de vêtement sont attestés dans l'ensemble des sources consultées. Cette leçon signale explicitement l'absence de données pour les autres couleurs et types de vêtements plutôt que d'inventer du vocabulaire."
 }

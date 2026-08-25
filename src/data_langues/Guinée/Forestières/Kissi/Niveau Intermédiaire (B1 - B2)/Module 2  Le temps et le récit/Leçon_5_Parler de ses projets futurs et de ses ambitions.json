@@ -1,114 +1,188 @@
 {
   "lesson_id": "B1_M2_L5",
-  "level": "Niveau Intermédiaire (B1-B2)",
+  "level": "Intermédiaire (B1-B2)",
   "module_number": 2,
   "module_title": "Le temps et le récit",
   "lesson_number": 5,
   "title": "Parler de ses projets futurs et de ses ambitions",
   "learning_objectives": [
-    "Exprimer une action future ou un projet",
-    "Formuler un souhait professionnel ou personnel",
-    "Utiliser les marqueurs de temps à venir"
+    "Utiliser l'auxiliaire de futur 'c' documenté par Sarah Rose/Childs",
+    "Exprimer un souhait ou une intention avec le vocabulaire attesté du travail (wali-) et de la réussite (tɔ̀nɔ́ɔ)",
+    "Construire une phrase de projet simple au futur"
   ],
   "phonetic_focus": {
-    "key_sounds": "L'expression du futur s'appuie sur le verbe auxiliaire 'co' combiné avec la marque d'intention 'loolu' ou l'adverbe de temps 'cɔwɔ̄' (demain).",
-    "common_pitfalls": "Assurez-vous de bien maintenir la longueur de la voyelle dans 'loolu' (/loː.lu/) pour marquer clairement l'intention prospective."
+    "key_sounds": "L'auxiliaire de futur, transcrit approximativement 'cɛ' dans les sources disponibles (voyelle nasalisée endommagée à l'extraction), se prononce comme une syllabe brève et nasalisée.",
+    "common_pitfalls": "La transcription exacte de cet auxiliaire est partiellement illisible dans la source consultée (caractères spéciaux non rendus) : il faut donc rester prudent sur sa forme précise plutôt que d'en inventer une graphie certaine."
   },
   "vocabulary": [
     {
-      "word_id": "v14_1",
-      "term": "loolu",
-      "phonetic_api": "/loː.lu/",
-      "phonetic_simple": "LOO-LOU",
-      "translation": "particule de projet / futur proche / intention",
-      "example_sentence": "I co wali loolu.",
-      "example_phonetic": "/i tʃo wa.li loː.lu/",
+      "word_id": "v1",
+      "term": "wali-",
+      "phonetic_api": "/wali/",
+      "phonetic_simple": "wa-li",
+      "translation": "travail, travail rémunéré",
+      "example_sentence": "Yá có wali.",
+      "example_phonetic": "/ja tʃo wali/",
       "example_translation": "Je vais travailler."
     },
     {
-      "word_id": "v14_2",
-      "term": "ambisɔŋ",
-      "phonetic_api": "/am.bi.sɔŋ/",
-      "phonetic_simple": "AM-BI-SONG",
-      "translation": "ambition / projet / rêve (emprunt moderne adapté)",
-      "example_sentence": "Ambisɔŋ nio o co bɛndɛ.",
-      "example_phonetic": "/am.bi.sɔŋ njo o tʃo bɛⁿdɛ/",
-      "example_translation": "Mon projet est grand."
+      "word_id": "v2",
+      "term": "tɔ̀nɔ́ɔ",
+      "phonetic_api": "/tɔnɔː/",
+      "phonetic_simple": "tô-nô",
+      "translation": "gain, profit, bonne fortune",
+      "example_sentence": "Yá có tɔ̀nɔ́ɔ.",
+      "example_phonetic": "/ja tʃo tɔnɔː/",
+      "example_translation": "J'aurai du succès/un gain."
+    },
+    {
+      "word_id": "v3",
+      "term": "kpaayaa",
+      "phonetic_api": "/kpaːjaː/",
+      "phonetic_simple": "kpaa-yaa",
+      "translation": "force, pouvoir, autorité (aussi au sens de capacité à réussir)",
+      "example_sentence": "Yá kpaayaa ndu wo.",
+      "example_phonetic": "/ja kpaːjaː ndu wo/",
+      "example_translation": "J'ai la force/la capacité (de réussir)."
+    },
+    {
+      "word_id": "v4",
+      "term": "laalagndó",
+      "phonetic_api": "/laːlaɡndo/",
+      "phonetic_simple": "laa-lagn-do",
+      "translation": "croire, faire confiance, être sûr de",
+      "example_sentence": "Yá laalagndó ndu wo.",
+      "example_phonetic": "/ja laːlaɡndo ndu wo/",
+      "example_translation": "J'ai confiance/je suis sûr(e)."
+    },
+    {
+      "word_id": "v5",
+      "term": "kɔ",
+      "phonetic_api": "/kɔ/",
+      "phonetic_simple": "kô",
+      "translation": "aller (utilisé aussi pour un projet de déplacement futur)",
+      "example_sentence": "Yá có kɔ Gekedu.",
+      "example_phonetic": "/ja tʃo kɔ gekedu/",
+      "example_translation": "J'irai à Guéckédou."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p14_1",
-      "original": "I co cando nɔŋ loolu.",
-      "phonetic_api": "/i tʃo tʃa.ⁿdo nɔŋ loː.lu/",
-      "phonetic_simple": "I TCHO TCHAN-DO NONG LOO-LOU",
-      "translation": "Je vais acheter une maison.",
-      "context": "Parler de ses projets à long terme"
+      "phrase_id": "p1",
+      "original": "Yá có wali.",
+      "phonetic_api": "/ja tʃo wali/",
+      "phonetic_simple": "ya tcho wa-li",
+      "translation": "Je vais travailler (à l'avenir).",
+      "context": "Pour évoquer un projet de travail."
     },
     {
-      "phrase_id": "p14_2",
-      "original": "O co wana wali co loolu.",
-      "phonetic_api": "/o tʃo wa.na wa.li tʃo loː.lu/",
-      "phonetic_simple": "O TCHO WA-NA WA-LI TCHO LOO-LOU",
-      "translation": "Il veut devenir un grand travailleur.",
-      "context": "Exprimer une ambition professionnelle"
+      "phrase_id": "p2",
+      "original": "Yá có kɔ Gekedu.",
+      "phonetic_api": "/ja tʃo kɔ gekedu/",
+      "phonetic_simple": "ya tcho kô gué-ké-dou",
+      "translation": "J'irai à Guéckédou.",
+      "context": "Pour annoncer un déplacement futur."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Yá laalagndó ndu wo.",
+      "phonetic_api": "/ja laːlaɡndo ndu wo/",
+      "phonetic_simple": "ya laa-lagn-do ndou wo",
+      "translation": "J'ai confiance / je suis sûr(e) (de réussir).",
+      "context": "Pour exprimer une conviction sur l'avenir."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Yá có tɔ̀nɔ́ɔ.",
+      "phonetic_api": "/ja tʃo tɔnɔː/",
+      "phonetic_simple": "ya tcho tô-nô",
+      "translation": "J'aurai du succès.",
+      "context": "Pour exprimer une ambition ou un espoir de réussite."
     }
   ],
   "grammar_points": [
     {
-      "concept": "Le futur d'intention",
-      "explanation": "Pour bâtir le futur en kissi, la structure s'organise autour de l'auxiliaire de mouvement ou d'état 'co' couplé à la postposition modale 'loolu' qui ferme la phrase.",
+      "concept": "L'auxiliaire de futur 'c'",
+      "explanation": "Sarah Rose, synthétisant la grammaire de Childs, signale un auxiliaire de futur distinct de l'auxiliaire présent/réaliste 'có' ; sa transcription précise n'a pas pu être totalement récupérée dans la source disponible en ligne (problème d'encodage des caractères spéciaux). Par prudence, cette leçon utilise 'có' (attesté comme auxiliaire présent/futur réaliste) pour exprimer les projets, en le signalant explicitement comme approximation.",
       "rules": [
-        "L'auxiliaire précède immédiatement l'action ou l'objet.",
-        "La particule 'loolu' valide l'intentionnalité future à la toute fin."
+        "có + [verbe] peut exprimer un futur proche ou une intention, selon Sarah Rose/Childs.",
+        "Les noms abstraits de réussite (tɔ̀nɔ́ɔ, kpaayaa) se combinent avec le pronom possessif (yá) et l'auxiliaire có pour exprimer une ambition.",
+        "'laalagndó' (croire, être sûr) permet d'exprimer la conviction associée à un projet futur."
       ],
       "examples": [
         {
-          "structure": "Sujet + co + Verbe + loolu",
-          "phonetic_api": "/i tʃo lo loː.lu/",
-          "meaning": "Je vais partir."
+          "structure": "yá có + [verbe]",
+          "phonetic_api": "/ja tʃo .../",
+          "meaning": "je vais/j'ai l'intention de [verbe]"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Sia",
-      "text": "Tamba, wali yɛŋ o co co loolu ?",
-      "phonetic_api": "/ta.ᵐba wa.li jɛŋ o tʃo tʃo loː.lu/",
-      "phonetic_simple": "TAM-BA, WA-LI YENG O TCHO TCHO LOO-LOU ?",
-      "translation": "Tamba, quel travail veux-tu faire (plus tard) ?"
+      "speaker": "Mamadou",
+      "text": "Yá có wali Gekedu.",
+      "phonetic_api": "/ja tʃo wali gekedu/",
+      "phonetic_simple": "ya tcho wa-li gué-ké-dou",
+      "translation": "Je vais travailler à Guéckédou."
     },
     {
-      "speaker": "Tamba",
-      "text": "I co wana peeku co loolu lebol bɛndɛ ning.",
-      "phonetic_api": "/i tʃo wa.na peː.ku tʃo loː.lu le.bol bɛⁿdɛ niŋ/",
-      "phonetic_simple": "I TCHO WA-NA PÉÉ-KOU TCHO LOO-LOU LÉ-BOL BEN-DE NING.",
-      "translation": "Je veux être un étudiant dans la grande ville."
+      "speaker": "Aïssatou",
+      "text": "I laalagndó ndu wo?",
+      "phonetic_api": "/i laːlaɡndo ndu wo/",
+      "phonetic_simple": "i laa-lagn-do ndou wo",
+      "translation": "Tu es sûr(e) (de cela) ?"
+    },
+    {
+      "speaker": "Mamadou",
+      "text": "Naam. Yá có tɔ̀nɔ́ɔ.",
+      "phonetic_api": "/naːm ja tʃo tɔnɔː/",
+      "phonetic_simple": "naam, ya tcho tô-nô",
+      "translation": "Oui. J'aurai du succès."
+    },
+    {
+      "speaker": "Aïssatou",
+      "text": "Kpaayaa i wo, i có kɔ Gekedu.",
+      "phonetic_api": "/kpaːjaː i wo i tʃo kɔ gekedu/",
+      "phonetic_simple": "kpaa-yaa i wo, i tcho kô gué-ké-dou",
+      "translation": "Tu as la force (le courage), tu vas réussir à Guéckédou."
     }
   ],
   "cultural_notes": [
-    "Les projets d'avenir individuels sont traditionnellement concertés avec les aînés de la famille, qui valident les orientations et soutiennent matériellement et spirituellement les ambitions des jeunes générations."
+    "L'ambition de trouver un travail salarié ('wali-', qui contraste avec le travail agricole non rémunéré) est mentionnée par Childs (2002) dans le contexte des emprunts mandé, ce qui suggère une monétisation ancienne du travail dans la société kissi.",
+    "L'idée de 'tɔ̀nɔ́ɔ' (gain, chance, bonne fortune) mêle succès matériel et notion de destin favorable, reflet d'une vision du succès qui n'est pas purement individuelle mais aussi liée à la faveur collective ou spirituelle."
   ],
   "exercises": [
     {
-      "exercise_id": "ex14_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quelle particule valide l'intention future en fin de phrase ?",
+      "question": "Que signifie 'wali-' ?",
       "options": [
-        "le",
-        "loolu",
-        "ning"
+        "travail, travail rémunéré",
+        "voyage",
+        "récolte"
       ],
-      "correct_answer": "loolu",
-      "explanation": "'loolu' marque l'intention, le projet ou le futur proche."
+      "correct_answer": "travail, travail rémunéré",
+      "explanation": "Attesté par Childs (2002)."
     },
     {
-      "exercise_id": "ex14_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "I co lo [ ___ ]. (Je vais partir/y aller)",
-      "correct_answer": "loolu",
-      "hint": "Particule de projet futur"
+      "sentence_with_blank": "Yá [ ___ ] kɔ Gekedu. (J'irai à Guéckédou.)",
+      "correct_answer": "có",
+      "hint": "Auxiliaire présent/futur réaliste attesté par Sarah Rose."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Sarah Rose, « Kisi » (chapitre synthétisant Childs 1995), Memorial University of Newfoundland",
+      "url": "https://www.mun.ca/linguistics/media/production/memorial/academic/faculty-of-humanities-and-social-sciences/linguistics/media-library/more/e-books/Kisi_Chapter_Sixteen_Sarah_Rose.pdf"
+    },
+    {
+      "label": "G. Tucker Childs, « Borrowings into Kisi as Evidence of Mande Expansionism and Influence », Journal of West African Languages 29-2 (2002)",
+      "url": "https://scispace.com/pdf/borrowings-into-kisi-as-evidence-of-mande-expansionism-and-3zquof59kt.pdf"
+    }
+  ],
+  "confidence": "faible",
+  "confidence_note": "L'auxiliaire de futur proprement dit n'a pas pu être récupéré avec certitude dans la source disponible en ligne (caractères spéciaux corrompus à l'extraction) ; cette leçon utilise donc par prudence l'auxiliaire présent/réaliste 'có' documenté comme pouvant couvrir aussi le futur proche, ce qui est signalé explicitement comme une approximation raisonnée plutôt qu'une certitude grammaticale."
 }

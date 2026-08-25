@@ -1,215 +1,255 @@
 {
-  "lesson_id": "C2_M3_L8",
+  "lesson_id": "C1_M3_L8",
   "level": "Avancé (C1-C2)",
   "module_number": 3,
   "module_title": "Maîtrise totale",
   "lesson_number": 8,
   "title": "Le lexique technique, professionnel et spécialisé",
   "learning_objectives": [
-    "Maîtriser les néologismes et les termes spécialisés des secteurs administratifs et de gestion",
-    "Conduire des négociations contractuelles techniques complexes",
-    "Employer le vocabulaire technique de l'artisanat supérieur, de la métallurgie et du droit moderne"
+    "Nommer les métiers traditionnels et spécialisés en maninka",
+    "Comprendre le vocabulaire du corps de métier (forgeron, tisserand, chasseur)",
+    "Utiliser le vocabulaire médical de base pour décrire un symptôme",
+    "Distinguer les emprunts techniques modernes (français) intégrés au maninka"
   ],
   "phonetic_focus": {
-    "key_sounds": "Le néologisme juridique 'Sariyatigi' exige d'enchaîner distinctement quatre syllabes brèves. Le terme 'Warijɛgɛ' (budget/finance technique) doit lier sa consonne affriquée sonore finale.",
-    "common_pitfalls": "Prononcer 'Sariyatigi' de manière hachée. En malinké technique soutenu, les mots composés se lisent comme une seule unité de souffle prosodique."
+    "key_sounds": [
+      "Le suffixe agentif '-la/-kèla' (celui qui fait), très productif pour former des noms de métier",
+      "Le [ŋ] final de 'siyaki' (tisserand), à articuler distinctement",
+      "L'adaptation phonétique des emprunts techniques au français ('dootoro' pour docteur)"
+    ],
+    "common_pitfalls": [
+      "Oublier que de nombreux noms de métiers se construisent par dérivation (racine + '-la'/'-kèla') plutôt que d'être des mots simples isolés",
+      "Prononcer les emprunts au français ('dootoro', 'mobili') avec une phonologie trop française, alors qu'ils sont intégrés au système phonologique maninka"
+    ]
   },
   "vocabulary": [
     {
-      "word_id": "v8_1",
-      "term": "Sariyatigi",
-      "phonetic_api": "/sa.ri.ja.ti.ɡi/",
-      "phonetic_simple": "SA-RI-YA-TI-GUI",
-      "translation": "Magistrat / Juriste / Homme de loi",
-      "example_sentence": "Sariyatigi bɛ sɛbɛli lu lajɛ la",
-      "example_phonetic": "/sa.ri.ja.ti.ɡi bɛ sɛ.bɛ.li lu la.d͡ʒɛ la/",
-      "example_translation": "Le juriste examine les documents officiels."
+      "word_id": "v1",
+      "term": "numuu",
+      "phonetic_api": "[numuː]",
+      "phonetic_simple": "nou-mou",
+      "translation": "forgeron",
+      "example_sentence": "Numuu le, a bɛ nɛgɛ tigɛ.",
+      "example_phonetic": "[numuː le a bɛ nɛɡɛ tiɡɛ]",
+      "example_translation": "C'est un forgeron, il travaille le fer."
     },
     {
-      "word_id": "v8_2",
-      "term": "Warijɛgɛ",
-      "phonetic_api": "/wa.ri.d͡ʒɛ.ɡɛ/",
-      "phonetic_simple": "OUA-RI-DJƐ-GƐ",
-      "translation": "Budget / Ressources financières / Trésorerie",
-      "example_sentence": "An ka warijɛgɛ ka dɔgɔ ɲinan",
-      "example_phonetic": "/an ka wa.ri.d͡ʒɛ.ɡɛ ka dɔ.ɡɔ ɲi.nã/",
-      "example_translation": "Notre budget est restreint cette année."
+      "word_id": "v2",
+      "term": "siyaki",
+      "phonetic_api": "[sijaki]",
+      "phonetic_simple": "si-ya-ki",
+      "translation": "tisserand",
+      "example_sentence": "Siyaki le, a bɛ fani nu.",
+      "example_phonetic": "[sijaki le a bɛ fani nu]",
+      "example_translation": "C'est un tisserand, il tisse des habits."
     },
     {
-      "word_id": "v8_3",
-      "term": "Baaralada",
-      "phonetic_api": "/baː.ra.la.da/",
-      "phonetic_simple": "BAA-RA-LA-DA",
-      "translation": "Cahier des charges / Statuts professionnels",
-      "example_sentence": "Fo an ka baaralada sariya mɛn",
-      "example_phonetic": "/fo an ka baː.ra.la.da sa.ri.ja mɛn/",
-      "example_translation": "Il faut respecter les règles du cahier des charges."
+      "word_id": "v3",
+      "term": "donso",
+      "phonetic_api": "[donso]",
+      "phonetic_simple": "don-so",
+      "translation": "chasseur",
+      "example_sentence": "Donso le, a bɛ wula kɔnɔ.",
+      "example_phonetic": "[donso le a bɛ wula kɔnɔ]",
+      "example_translation": "C'est un chasseur, il va dans la brousse."
     },
     {
-      "word_id": "v8_4",
-      "term": "Kabilatigi",
-      "phonetic_api": "/ka.bi.la.ti.ɡi/",
-      "phonetic_simple": "KA-BI-LA-TI-GUI",
-      "translation": "Administrateur / Chef de collectivité locale",
-      "example_sentence": "Kabilatigi nana kunbɛn la",
-      "example_phonetic": "/ka.bi.la.ti.ɡi na.na kun.bɛn la/",
-      "example_translation": "L'administrateur est arrivé à la réunion."
+      "word_id": "v4",
+      "term": "dootoro",
+      "phonetic_api": "[doːtoro]",
+      "phonetic_simple": "do-o-to-ro",
+      "translation": "médecin, docteur (emprunt au français)",
+      "example_sentence": "N tɛ se ka taa dootoro fɛ.",
+      "example_phonetic": "[n tɛ se ka taː doːtoro fɛ]",
+      "example_translation": "Je ne peux pas aller chez le docteur."
     },
     {
-      "word_id": "v8_5",
-      "term": "Ton",
-      "phonetic_api": "/tõ/",
-      "phonetic_simple": "TON",
-      "translation": "Association / Corporation / Syndicat professionnel",
-      "example_sentence": "Sugufeela lu ka ton ka bon",
-      "example_phonetic": "/su.ɡu.feː.la lu ka tõ ka bõ/",
-      "example_translation": "Le syndicat des commerçants est puissant."
+      "word_id": "v5",
+      "term": "somono",
+      "phonetic_api": "[somono]",
+      "phonetic_simple": "so-mo-no",
+      "translation": "pêcheur",
+      "example_sentence": "Somono le, a bɛ jɛgɛ min.",
+      "example_phonetic": "[somono le a bɛ dʒɛɡɛ min]",
+      "example_translation": "C'est un pêcheur, il attrape des poissons."
     },
     {
-      "word_id": "v8_6",
-      "term": "Lajɛba",
-      "phonetic_api": "/la.d͡ʒɛ.ba/",
-      "phonetic_simple": "LA-DJƐ-BA",
-      "translation": "Congrès / Assemblée générale administrative",
-      "example_sentence": "Lajɛba bɛ kɛ la kalo natɔ la",
-      "example_phonetic": "/la.d͡ʒɛ.ba bɛ kɛ la ka.lo na.tɔ la/",
-      "example_translation": "L'assemblée générale se tiendra le mois prochain."
+      "word_id": "v6",
+      "term": "mori(mou)",
+      "phonetic_api": "[mori]",
+      "phonetic_simple": "mo-ri",
+      "translation": "lettré/maître coranique",
+      "example_sentence": "Mori le, a bɛ Kuru kalan.",
+      "example_phonetic": "[mori le a bɛ kuru kalan]",
+      "example_translation": "C'est un lettré, il enseigne le Coran."
     },
     {
-      "word_id": "v8_7",
-      "term": "Sɛbɛlikun",
-      "phonetic_api": "/sɛ.bɛ.li.kũ/",
-      "phonetic_simple": "SƐ-BƐ-LI-KOUN",
-      "translation": "Le contrat écrit / L'acte authentique",
-      "example_sentence": "An bɛ sɛbɛlikun dila la sisan",
-      "example_phonetic": "/an bɛ sɛ.bɛ.li.kũ di.la la si.sã/",
-      "example_translation": "Nous allons rédiger le contrat écrit maintenant."
+      "word_id": "v7",
+      "term": "karanke",
+      "phonetic_api": "[karanke]",
+      "phonetic_simple": "ka-ran-ké",
+      "translation": "cordonnier",
+      "example_sentence": "Karanke le, a bɛ sabara dila.",
+      "example_phonetic": "[karanke le a bɛ sabara dila]",
+      "example_translation": "C'est un cordonnier, il fabrique des sandales."
     },
     {
-      "word_id": "v8_8",
-      "term": "San-ni-feere",
-      "phonetic_api": "/sã.ni.feː.re/",
-      "phonetic_simple": "SAN-NI-FÉE-RE",
-      "translation": "Le commerce international / Les flux commerciaux",
-      "example_sentence": "San-ni-feere bɛ ɲɛ la soba kɔnɔ",
-      "example_phonetic": "/sã.ni.feː.re bɛ ɲɛ la so.ba kɔ.nɔ/",
-      "example_translation": "Le commerce international prospère dans la capitale."
-    },
-    {
-      "word_id": "v8_9",
-      "term": "Hakilinatɔ",
-      "phonetic_api": "/ha.ki.li.na.tɔ/",
-      "phonetic_simple": "HA-KI-LI-NA-TƆ",
-      "translation": "Planification stratégique / Vision d'avenir",
-      "example_sentence": "Hakilinatɔ ka wajibila baaraba ye",
-      "example_phonetic": "/ha.ki.li.na.tɔ ka wa.d͡ʒi.bi.la baː.ra.ba de/",
-      "example_translation": "La planification stratégique est vitale pour la grande entreprise."
-    },
-    {
-      "word_id": "v8_10",
-      "term": "Laban-wari",
-      "phonetic_api": "/la.bã.wa.ri/",
-      "phonetic_simple": "LA-BAN-OUA-RI",
-      "translation": "Le solde de tout compte / Bénéfice net liquidé",
-      "example_sentence": "Laban-wari dila ra n ye",
-      "example_phonetic": "/la.bã.wa.ri di.la ra n̩ de/",
-      "example_translation": "Le solde de tout compte m'a été versé."
+      "word_id": "v8",
+      "term": "kunatɔɔ (mal de tête)",
+      "phonetic_api": "[kunatɔː]",
+      "phonetic_simple": "kou-na-to-o",
+      "translation": "mal de tête (litt. 'tête cassée/malade')",
+      "example_sentence": "N kunatɔɔ bɛ n na.",
+      "example_phonetic": "[n kunatɔː bɛ n na]",
+      "example_translation": "J'ai mal à la tête."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p8_1",
-      "original": "Sariyatigi bɛ sɛbɛlikun lu dila la katuguni baaralada sariya bɛ yan.",
-      "phonetic_api": "/sa.ri.ja.ti.ɡi bɛ sɛ.bɛ.li.kũ lu di.la la ka.tu.ɡu.ni baː.ra.la.da sa.ri.ja bɛ d͡ʒan/",
-      "phonetic_simple": "SA-RI-YA-TI-GUI BƐ SƐ-BƐ-LI-KOUN LOU DI-LA LA KA-TOU-GOU-NI BAA-RA-LA-DA SA-RI-YA BƐ YAN.",
-      "translation": "Le juriste rédigera les actes contractuels car les statuts professionnels font loi ici.",
-      "context": "Validation de conventions d'affaires lors d'un conseil d'administration."
+      "phrase_id": "p1",
+      "original": "Numuu le, a bɛ nɛgɛ tigɛ",
+      "phonetic_api": "[numuː le a bɛ nɛɡɛ tiɡɛ]",
+      "phonetic_simple": "nou-mou-lé, a-bè-nè-guè-ti-guè",
+      "translation": "C'est un forgeron, il travaille le fer",
+      "context": "Décrire un métier traditionnel"
     },
     {
-      "phrase_id": "p8_2",
-      "original": "An ka warijɛgɛ fo a ka latilami fasafasa yalisa hakilinatɔ ka ɲɛ.",
-      "phonetic_api": "/an ka wa.ri.d͡ʒɛ.ɡɛ fo a ka la.ti.la.mi fa.sa.fa.sa ja.li.sa ha.ki.li.na.tɔ ka ɲɛ/",
-      "phonetic_simple": "AN KA OUA-RI-DJƐ-GƐ FO A KA LA-TI-LA-MI FA-SA-FA-SA YA-LI-SA HA-KI-LI-NA-TƆ KA NYƐ.",
-      "translation": "Il faut que notre budget soit redressé de manière rigoureuse afin que la planification stratégique réussisse.",
-      "context": "Analyse de performance administrative et financière."
+      "phrase_id": "p2",
+      "original": "N tɛ se ka taa dootoro fɛ",
+      "phonetic_api": "[n tɛ se ka taː doːtoro fɛ]",
+      "phonetic_simple": "n-tè-sé-ka-ta-a-do-o-to-ro-fè",
+      "translation": "Je ne peux pas aller chez le docteur",
+      "context": "Empêchement exprimé dans un contexte médical/professionnel"
     },
     {
-      "phrase_id": "p8_3",
-      "original": "Ton ka lajɛba bɛ kulu dila la laban-wari kun ra bi wula la.",
-      "phonetic_api": "/tõ ka la.d͡ʒɛ.ba bɛ ku.lu di.la la la.bã.wa.ri kũ ra bi wu.la la/",
-      "phonetic_simple": "TON KA LA-DJƐ-BA BƐ KOU-LOU DI-LA LA LA-BAN-OUA-RI KOUN RA BI OU-LA LA.",
-      "translation": "L'assemblée générale de la corporation fera bloc concernant la répartition du bénéfice liquidé cet après-midi.",
-      "context": "Clôture d'un congrès syndical ou coopératif."
+      "phrase_id": "p3",
+      "original": "N kunatɔɔ bɛ n na",
+      "phonetic_api": "[n kunatɔː bɛ n na]",
+      "phonetic_simple": "n-kou-na-to-o-bè-n-na",
+      "translation": "J'ai mal à la tête",
+      "context": "Décrire un symptôme au médecin"
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Mafèlèli sara, wa lolu le",
+      "phonetic_api": "[mafɛlɛli sara wa lolu le]",
+      "phonetic_simple": "ma-fè-lè-li-sa-ra, wa-lo-lou-lé",
+      "translation": "La consultation coûte 5 000",
+      "context": "Contexte médical professionnel (prix d'une consultation)"
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Somono le, a bɛ jɛgɛ min",
+      "phonetic_api": "[somono le a bɛ dʒɛɡɛ min]",
+      "phonetic_simple": "so-mo-no-lé, a-bè-djè-guè-min",
+      "translation": "C'est un pêcheur, il attrape des poissons",
+      "context": "Décrire une profession spécialisée liée à l'eau"
     }
   ],
   "grammar_points": [
     {
-      "concept": "La dérivation lexicale technique par composition nominale élargie",
-      "explanation": "En malinké moderneisé et de haut niveau, le lexique professionnel recourt à la composition de racines nominales d'action soudées par le suffixe d'agent ou de possession '-tigi' (le maître de/le détenteur de) ou '-kun' (le motif/le support physique), créant des concepts techniques monoblocs.",
+      "concept": "La dérivation agentive des noms de métier",
+      "explanation": "De nombreux noms de métiers en maninka se forment par composition d'une racine (souvent l'objet ou l'activité du métier) avec un suffixe agentif comme '-la' ou '-kèla' (celui qui fait), ex. 'sènè' (champ/culture) + '-kèla' = 'sènèkèla' (cultivateur).",
       "rules": [
-        "Structure : [Domaine d'activité / Concept] + Suffixe fonctionnel '-tigi' ou '-kun'."
+        "Structure : [Racine liée au métier] + -la/-kèla = [Nom de métier]",
+        "Certains métiers ont cependant un nom simple, non dérivé (numuu, donso, mori)"
       ],
       "examples": [
         {
-          "structure": "Sariya + tigi = Sariyatigi",
-          "phonetic_api": "/sa.ri.ja.ti.ɡi/",
-          "meaning": "Le maître de la loi (Le magistrat / Le juriste)."
+          "structure": "[Racine]-kèla",
+          "phonetic_api": "[-kɛla]",
+          "meaning": "celui qui fait [racine]"
+        }
+      ]
+    },
+    {
+      "concept": "Décrire un symptôme avec '[Partie du corps] + tɔɔ/tɔɔrɔ + bɛ + [Personne] + na'",
+      "explanation": "Pour indiquer une douleur ou un symptôme localisé, le maninka combine la partie du corps avec un terme de douleur, suivi de la structure '[symptôme] bɛ [personne] na' (le symptôme est sur/chez la personne).",
+      "rules": [
+        "Structure : [Partie du corps + douleur] + bɛ + [Personne] + na",
+        "Utilisé couramment dans les consultations médicales"
+      ],
+      "examples": [
+        {
+          "structure": "[Symptôme] bɛ [Personne] na",
+          "phonetic_api": "[bɛ na]",
+          "meaning": "[Personne] a [symptôme]"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Le Directeur (Kabilatigi)",
-      "text": "Sariyatigi, i ni tile. Sɛbɛlikun lu bɛ nɛma ko ? An ka warijɛgɛ wajibila ka bon.",
-      "phonetic_api": "/sa.ri.ja.ti.ɡi i ni ti.le sɛ.bɛ.li.kũ lu bɛ nɛ.ma ko an ka wa.ri.d͡ʒɛ.ɡɛ wa.d͡ʒi.bi.la ka bõ/",
-      "phonetic_simple": "SA-RI-YA-TI-GUI, I NI TI-LÉ. SƐ-BƐ-LI-KOUN LOU BƐ NƐ-MA KO ? AN KA OUA-RI-DJƐ-GƐ OUA-DJI-BI-LA KA BON.",
-      "translation": "Maître, bonjour. Les contrats écrits sont-ils prêts ? Notre budget de fonctionnement est de première importance."
+      "speaker": "Le patient",
+      "text": "Dootoro, n kunatɔɔ bɛ n na kosobè.",
+      "phonetic_api": "[doːtoro n kunatɔː bɛ n na kosobɛ]",
+      "phonetic_simple": "do-o-to-ro, n-kou-na-to-o-bè-n-na-ko-so-bè",
+      "translation": "Docteur, j'ai très mal à la tête."
     },
     {
-      "speaker": "Le Conseiller Juridique",
-      "text": "Nse kabilatigi. Baaralada dila ra fasafasa. Nka nasi ra bɛ n na laban-wari nin kun ra.",
-      "phonetic_api": "/n̩.se ka.bi.la.ti.ɡi baː.ra.la.da di.la ra fa.sa.fa.sa n̩.ka na.si ra bɛ n̩ na la.bã.wa.ri nĩ kũ ra/",
-      "phonetic_simple": "N-SÉ KA-BI-LA-TI-GUI. BAA-RA-LA-DA DI-LA RA FA-SA-FA-SA. N-KA NA-SI RA BƐ N NA LA-BAN-OUA-RI NIN KOUN RA.",
-      "translation": "Je vous salue, directeur. Le cahier des charges a été rédigé en détail. Cependant, j'émets une réserve sur le calcul du solde liquidé."
+      "speaker": "Le docteur (dootoro)",
+      "text": "A bɛnna kabini tuma jumɛn ?",
+      "phonetic_api": "[a bɛnna kabini tuma dʒumɛn]",
+      "phonetic_simple": "a-bèn-na-ka-bi-ni-tou-ma-dju-mèn",
+      "translation": "Depuis quand as-tu cela ?"
     },
     {
-      "speaker": "Le Directeur (Kabilatigi)",
-      "text": "Hali ni o ra, fo an ka ton ka lajɛba dila kalo natɔ la yalisa hakilinatɔ ka gbangban.",
-      "phonetic_api": "/ha.li ni o ra fo an ka tõ ka la.d͡ʒɛ.ba di.la ka.lo na.tɔ la ja.li.sa ha.ki.li.na.tɔ ka ɡ͡baŋ.ɡ͡bã/",
-      "phonetic_simple": "HA-LI NI O RA, FO AN KA TON KA LA-DJƐ-BA DI-LA KA-LO NA-TƆ LA YA-LI-SA HA-KI-LI-NA-TƆ KA GBANG-GBAN.",
-      "translation": "Malgré cela, nous devons convoquer l'assemblée générale de la corporation le mois prochain afin que notre planification stratégique soit consolidée."
+      "speaker": "Le patient",
+      "text": "Kabini kunun. Mafèlèli sara di ?",
+      "phonetic_api": "[kabini kunun mafɛlɛli sara di]",
+      "phonetic_simple": "ka-bi-ni-kou-noun. ma-fè-lè-li-sa-ra-di",
+      "translation": "Depuis hier. La consultation coûte combien ?"
     },
     {
-      "speaker": "Le Conseiller Juridique",
-      "text": "A bɛnna ! O sila fɛ, san-ni-feere bɛ ɲɛ la gbe do la. Ala k'an dɛmɛ !",
-      "phonetic_api": "/a bɛn.na o si.la fɛ sã.ni.feː.re bɛ ɲɛ la ɡ͡be do la a.la k'an dɛ.mɛ/",
-      "phonetic_simple": "A BƐN-NA ! O SI-LA FƐ, SAN-NI-FÉE-RE BƐ NYƐ LA GBÉ DO LA. A-LA K'AN DƐ-MƐ !",
-      "translation": "C'est parfait ! Par ce biais, nos flux commerciaux prospéreront de toute évidence chaque jour. Que l'Assistance Divine nous accompagne !"
+      "speaker": "Le docteur (dootoro)",
+      "text": "Wa lolu le.",
+      "phonetic_api": "[wa lolu le]",
+      "phonetic_simple": "wa-lo-lou-lé",
+      "translation": "5 000."
     }
   ],
   "cultural_notes": [
-    "Le malinké s'adapte aux réalités économiques contemporaines par le biais de l'académie N'ko et des linguistes d'Afrique de l'Ouest. Les termes de gestion moderne ne sont pas de simples calques du français, mais des recompositions poétiques et logiques basées sur des structures mandingues authentiques (ex: l'argent associé au poisson pour conceptualiser le mouvement fluide du 'budget')."
+    "Les métiers traditionnels (forgeron 'numuu', griot 'jeli', tisserand 'siyaki', chasseur 'donso') appartiennent souvent à des castes héréditaires dans l'organisation sociale mandingue historique, chacune associée à un savoir-faire et un statut social particuliers ([Malinkuia](https://fr.scribd.com/document/499114939/Malinkuia))."
   ],
   "exercises": [
     {
-      "exercise_id": "C2_M3_L8_ex1",
-      "type": "multiple_choice",
-      "question": "Que désigne techniquement le mot composé 'Warijɛgɛ' ?",
-      "options": [
-        "Un poisson d'eau douce",
-        "Le budget / Les finances de gestion",
-        "Une amende contractuelle"
-      ],
-      "correct_answer": "Le budget / Les finances de gestion",
-      "explanation": "C'est l'assemblage conceptuel moderne unifié désignant les flux de trésorerie et les ressources budgétaires."
+      "exercise_id": "e1",
+      "type": "traduction",
+      "question": "Traduisez : 'J'ai mal à la tête.'",
+      "correct_answer": "N kunatɔɔ bɛ n na.",
+      "explanation": "Structure : [symptôme] + bɛ + [personne] + na."
     },
     {
-      "exercise_id": "C2_M3_L8_ex2",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "An bɛ [ ___ ] dila la sisan (Nous allons rédiger le contrat écrit maintenant).",
-      "correct_answer": "sɛbɛlikun",
-      "hint": "Terme technique qualifiant l'acte écrit ou le contrat officiel liant deux entités."
+      "exercise_id": "e2",
+      "type": "choix_multiple",
+      "question": "Que signifie 'numuu' ?",
+      "options": [
+        "tisserand",
+        "chasseur",
+        "forgeron",
+        "pêcheur"
+      ],
+      "correct_answer": "forgeron",
+      "explanation": "'numuu' désigne le forgeron, un métier traditionnel important dans la société mandingue."
+    },
+    {
+      "exercise_id": "e3",
+      "type": "texte_a_trous",
+      "sentence_with_blank": "N tɛ se ka taa ___ fɛ.  (Je ne peux pas aller chez le docteur.)",
+      "correct_answer": "dootoro",
+      "hint": "C'est l'emprunt maninka au mot français 'docteur'."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Malinkuia — Introduction à la langue malinké (grammaire complète, variété du Wulada, Haute-Guinée)",
+      "url": "https://fr.scribd.com/document/499114939/Malinkuia"
+    },
+    {
+      "label": "Malidaba / Bamadaba — dictionnaire mandingue (corpus Bambara de référence)",
+      "url": "http://cormand.huma-num.fr/Bamadaba/index-french/"
+    }
+  ],
+  "confidence": "élevée",
+  "confidence_note": "Le vocabulaire des métiers traditionnels (numuu, siyaki, donso, somono, mori, karanke) et le dialogue médical (dootoro, mafèlèli, symptômes) sont directement attestés dans la grammaire Malinkuia (sections lexique des professions et 'Chez le médecin'), avec confirmation croisée possible via le dictionnaire mandingue Malidaba."
 }

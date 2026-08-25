@@ -6,128 +6,189 @@
   "lesson_number": 9,
   "title": "Demander et donner des conseils ou des instructions",
   "learning_objectives": [
-    "Solliciter un avis ou une orientation face à un problème",
-    "Formuler des instructions claires ou un conseil bienveillant en toma"
+    "Utiliser la forme verbale de base pour donner un ordre ou une instruction",
+    "Demander l'avis ou le conseil de quelqu'un avec 'gaazakee' (questionner)",
+    "Structurer une instruction en étapes avec 'ovee' (avant) et 'eyesu' (jusqu'à/après)"
   ],
   "phonetic_focus": {
-    "key_sounds": "Les verbes de conseil emploient des voyelles semi-ouvertes /ɔ/ et /ɛ/ nécessitant une projection claire du souffle pour marquer la nuance d'exhortation.",
-    "common_pitfalls": "Veillez à utiliser une intonation douce et descendante pour les conseils afin de ne pas calquer le ton impératif d'une obligation stricte."
+    "key_sounds": "L'impératif utilise directement la forme de base du verbe, sans marque spécifique ; le ton peut monter légèrement en fin de phrase pour marquer l'insistance dans une instruction.",
+    "common_pitfalls": "Les francophones cherchent parfois une terminaison verbale spéciale pour l'impératif ; en toma/loma, c'est souvent la forme de base du verbe qui sert directement de commande, comme documenté par Sadler."
   },
   "vocabulary": [
     {
-      "word_id": "v18_1",
-      "term": "kɔni",
-      "phonetic_api": "/kɔ.ni/",
-      "phonetic_simple": "KO-NI",
-      "translation": "conseil / avis / enseignement",
-      "example_sentence": "Na i kɔni mɛni.",
-      "example_phonetic": "/na i kɔ.ni mɛ.ni/",
-      "example_translation": "J'écoute ton conseil."
+      "word_id": "v1",
+      "term": "Gaazakee",
+      "phonetic_api": "/gaːzakeː/",
+      "phonetic_simple": "GA-A-ZA-KÉÉ",
+      "translation": "Questionner, demander",
+      "example_sentence": "Zebee ya e gaazakee?",
+      "example_phonetic": "/zebeː ja e gaːzakeː/",
+      "example_translation": "Qu'a-t-il demandé ?"
     },
     {
-      "word_id": "v18_2",
-      "term": "pɛlɛ-ke",
-      "phonetic_api": "/pɛ.lɛ.kɛ/",
-      "phonetic_simple": "PE-LE-KE",
-      "translation": "montrer le chemin / guider / instruire",
-      "example_sentence": "Kwɛnɛ pɛlɛ-ke na ma.",
-      "example_phonetic": "/kpɛ.nɛ pɛ.lɛ.kɛ na ma/",
-      "example_translation": "S'il te plaît, montre-moi la voie."
+      "word_id": "v2",
+      "term": "Gaawote",
+      "phonetic_api": "/gaːwɔte/",
+      "phonetic_simple": "GA-A-WO-TÉ",
+      "translation": "Répondre",
+      "example_sentence": "Zebee ya e gaawote?",
+      "example_phonetic": "/zebeː ja e gaːwɔte/",
+      "example_translation": "Qu'a-t-il répondu ?"
     },
     {
-      "word_id": "v18_3",
-      "term": "za-waza",
-      "phonetic_api": "/za.va.za/",
-      "phonetic_simple": "ZA-VA-ZA",
-      "translation": "sage / de bon conseil",
-      "example_sentence": "Kêe za-waza ɓaa ni.",
-      "example_phonetic": "/kɛ̂ː za.va.za ɓaː ni/",
-      "example_translation": "C'est un homme sage."
+      "word_id": "v3",
+      "term": "Ovee",
+      "phonetic_api": "/ɔveː/",
+      "phonetic_simple": "O-VÉÉ",
+      "translation": "Avant (de faire quelque chose)",
+      "example_sentence": "Zunui ovec laamizu, eyaa wuoni.",
+      "example_phonetic": "/zunui ɔveː laːmizu ejaː wuɔni/",
+      "example_translation": "Avant de manger, l'homme s'est lavé les mains."
     },
     {
-      "word_id": "v18_4",
-      "term": "tɔñ",
-      "phonetic_api": "/tɔ̃/",
-      "phonetic_simple": "TON",
-      "translation": "vérité / parole juste",
-      "example_sentence": "I tɔñ lɔ ɓɛñ.",
-      "example_phonetic": "/i tɔ̃ lɔ ɓɛ̃/",
-      "example_translation": "Ta parole est vraie."
+      "word_id": "v4",
+      "term": "Eyesu",
+      "phonetic_api": "/ejesu/",
+      "phonetic_simple": "É-YÉ-SOU",
+      "translation": "Jusqu'à, jusqu'à ce que",
+      "example_sentence": "Te tiiyeeni, eyesu, kpidi vaa.",
+      "example_phonetic": "/te tiːjeːni ejesu kpidi vaː/",
+      "example_translation": "Ils ont travaillé jusqu'à la tombée de la nuit."
+    },
+    {
+      "word_id": "v5",
+      "term": "Bo / Boni",
+      "phonetic_api": "/bɔ/ ; /bɔni/",
+      "phonetic_simple": "BO / BO-NI",
+      "translation": "Dire (donner une instruction orale)",
+      "example_sentence": "e b3ni temaa gaa te kol3 lodo.",
+      "example_phonetic": "/e bɔni temaː gaː te kɔlɔ lɔdɔ/",
+      "example_translation": "Il leur a dit de lire un livre."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p18_1",
-      "original": "Mizɛ kɔni ɓɛ i va ve na ma?",
-      "phonetic_api": "/mi.zɛ kɔ.ni ɓɛ i va vɛ na ma/",
-      "phonetic_simple": "MI-ZE KO-NI BE I VA VE NA MA",
-      "translation": "Quel conseil peux-tu me donner ?",
-      "context": "Formule typique pour solliciter respectueusement la guidance d'un aîné."
+      "phrase_id": "p1",
+      "original": "Vele ya ya leve da ovec liizu salevelela.",
+      "phonetic_api": "/vele ja ja leve da ɔveː liːzu salevelela/",
+      "phonetic_simple": "VÉ-LÉ-YA-YA-LÉ-VÉ-DA-O-VÉÉ-LI-ZOU-SA-LÉ-VÉ-LÉ-LA",
+      "translation": "Voici la procédure à suivre avant d'aller à l'hôpital.",
+      "context": "Introduire une série d'instructions étape par étape."
     },
     {
-      "phrase_id": "p18_2",
-      "original": "Li za-waza pɛlɛ zu, ni lɔ vaza.",
-      "phonetic_api": "/li za.va.za pɛ.lɛ zu ni lɔ va.za/",
-      "phonetic_simple": "LI ZA-VA-ZA PE-LE ZOU, NI LO VA-ZA",
-      "translation": "Agis avec sagesse, c'est ce qui est bon.",
-      "context": "Instruction ou recommandation de vie courante."
+      "phrase_id": "p2",
+      "original": "e b3ni temaa gaa te kol3 lodo.",
+      "phonetic_api": "/e bɔni temaː gaː te kɔlɔ lɔdɔ/",
+      "phonetic_simple": "É-BO-NI-TÉ-MA-GA-TÉ-KO-LO-LO-DO",
+      "translation": "Il leur a dit de lire un livre.",
+      "context": "Rapporter une instruction donnée à d'autres personnes."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Zebee ya e gaazakee?",
+      "phonetic_api": "/zebeː ja e gaːzakeː/",
+      "phonetic_simple": "ZÉ-BÉÉ-YA-É-GA-A-ZA-KÉÉ",
+      "translation": "Qu'a-t-il demandé ?",
+      "context": "Demander le contenu d'une question posée par un tiers, utile pour rapporter un conseil."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Anii kasoi lamaage, moteezieveaitiie, ta kapa tamaa wulo eya.",
+      "phonetic_api": "/anii kasɔi lamaːge mɔteːzieveaitiːe ta kapa tamaː wulɔ eja/",
+      "phonetic_simple": "A-NI-I-KA-SOÏ-LA-MA-A-GUÉ-MO-TÉÉ-ZI-É-VÉ-A-I-TI-É-TA-KA-PA-TA-MA-WOU-LO-É-YA",
+      "translation": "Si les bagages sont trop nombreux, les chauffeurs te demanderont plus d'argent.",
+      "context": "Donner un conseil pratique sous forme de condition-conséquence."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'exhortation douce avec la postposition 'ma'",
-      "explanation": "Pour orienter ou conseiller sans contraindre, le toma emploie des tournures où l'action souhaitée est orientée vers la personne à l'aide du marqueur d'attribution 'ma'.",
+      "concept": "Rapporter une instruction avec 'bo/boni' (dire) + subordonnée",
+      "explanation": "Pour rapporter un conseil ou une instruction donnée par quelqu'un, le toma/loma utilise le verbe 'bo/boni' (dire) suivi d'une proposition introduite par 'gaa' indiquant le contenu de l'instruction rapportée.",
       "rules": [
-        "Le verbe d'instruction se place souvent à l'impératif poli en omettant le pronom sujet.",
-        "La structure bénéficiaire ('na ma' = à moi, 'i ma' = à toi) se positionne en stricte fin de syntagme."
+        "Sujet + bo/boni + [destinataire] + gaa + proposition = 'il a dit à [destinataire] de faire...'."
       ],
       "examples": [
         {
-          "structure": "kɔni ve na ma",
-          "phonetic_api": "/kɔ.ni vɛ na ma/",
-          "meaning": "donne-moi un conseil"
+          "structure": "e b3ni temaa gaa te kol3 lodo.",
+          "phonetic_api": "/e bɔni temaː gaː te kɔlɔ lɔdɔ/",
+          "meaning": "Il leur a dit de lire un livre."
+        }
+      ]
+    },
+    {
+      "concept": "Structurer une série d'instructions avec 'ovee' et 'eyesu'",
+      "explanation": "Pour donner des instructions en plusieurs étapes, le toma/loma utilise 'ovee' (avant) pour indiquer ce qui doit précéder une action, et 'eyesu' (jusqu'à) pour indiquer la limite ou la durée d'une action à accomplir.",
+      "rules": [
+        "Ovee + proposition = 'avant de...'.",
+        "Eyesu + proposition = 'jusqu'à ce que...'."
+      ],
+      "examples": [
+        {
+          "structure": "Zunui ovec laamizu, eyaa wuoni.",
+          "phonetic_api": "/zunui ɔveː laːmizu ejaː wuɔni/",
+          "meaning": "Avant de manger, l'homme s'est lavé les mains."
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Peewee",
-      "text": "Na kêe, na lo-zu gâté. Mizɛ kɔni lɔ i ma?",
-      "phonetic_api": "/na kɛ̂ː na lo.zu ɡa.tɛ mi.zɛ kɔ.ni lɔ i ma/",
-      "phonetic_simple": "NA KEE, NA LO-ZOU GA-TE. MI-ZE KO-NI LO I MA",
-      "translation": "Mon père, mes projets sont bloqués. Quel conseil as-tu pour moi ?"
+      "speaker": "Apprenti",
+      "text": "Zebee ya e gaazakee?",
+      "phonetic_api": "/zebeː ja e gaːzakeː/",
+      "phonetic_simple": "ZÉ-BÉÉ-YA-É-GA-A-ZA-KÉÉ",
+      "translation": "Qu'a-t-il demandé ?"
     },
     {
-      "speaker": "L'ancien",
-      "text": "Mɛni vaza. Tii kɛ gaza, e tɔñ mɛni.",
-      "phonetic_api": "/mɛ.ni va.za tiː kɛ ɡa.za ɛ tɔ̃ mɛ.ni/",
-      "phonetic_simple": "ME-NI VA-ZA. TII KE GA-ZA, E TON ME-NI",
-      "translation": "Écoute bien. Travaille beaucoup et écoute la vérité."
+      "speaker": "Formateur",
+      "text": "e b3ni gaa maaneeve ya kol3 lodo ovec tiiyeezu.",
+      "phonetic_api": "/e bɔni gaː maːneːve ja kɔlɔ lɔdɔ ɔveː tiːjeːzu/",
+      "phonetic_simple": "É-BO-NI-GA-MA-A-NÉÉ-VÉ-YA-KO-LO-LO-DO-O-VÉÉ-TI-I-YÉÉ-ZOU",
+      "translation": "Il a dit qu'il fallait lire le livre avant de commencer le travail."
+    },
+    {
+      "speaker": "Apprenti",
+      "text": "Owe, ga liizu kol3 lodozu zaa.",
+      "phonetic_api": "/ɔwe ga liːzu kɔlɔ lɔdɔzu zaː/",
+      "phonetic_simple": "O-WÉ-GA-LI-ZOU-KO-LO-LO-DO-ZOU-ZA",
+      "translation": "D'accord, je vais lire le livre maintenant."
     }
   ],
   "cultural_notes": [
-    "Solliciter le conseil des anciens ('kɔni') est une démarche hautement valorisée en milieu Toma. On considère que l'expérience accumulée par les aînés confère une légitimité naturelle pour guider la jeunesse."
+    "Les instructions et conseils passent traditionnellement par la parole rapportée d'un aîné ou d'un formateur, la transmission orale restant centrale dans l'apprentissage des tâches en Guinée forestière et au Libéria.",
+    "La structure en étapes ('avant... jusqu'à...') est couramment utilisée pour transmettre des procédures pratiques, par exemple sur la santé ou l'agriculture, comme documenté dans le manuel Peace Corps."
   ],
   "exercises": [
     {
-      "exercise_id": "ex18_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Que signifie le mot 'tɔñ' en langue toma ?",
+      "question": "Que signifie 'ovee' ?",
       "options": [
-        "Le mensonge",
-        "La vérité / la parole juste",
-        "Le chemin"
+        "Avant",
+        "Après",
+        "Pendant"
       ],
-      "correct_answer": "La vérité / la parole juste",
-      "explanation": "'tɔñ' renvoie au concept de vérité et d'alignement moral."
+      "correct_answer": "Avant",
+      "explanation": "Attesté dans le manuel Peace Corps sur le Lorma pour structurer une séquence d'instructions."
     },
     {
-      "exercise_id": "ex18_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Kwɛnɛ [ ___ ]-ke na ma (S'il te plaît, montre-moi le chemin).",
-      "correct_answer": "pɛlɛ",
-      "hint": "Le mot signifiant route ou chemin, utilisé ici dans un verbe composé."
+      "sentence_with_blank": "Zunui ovec laamizu, eyaa [ ___ ]. (Avant de manger, l'homme s'est lavé les mains.)",
+      "correct_answer": "wuoni",
+      "hint": "C'est le verbe pour 'se laver (les mains)'."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Dwyer, Bodegie & Bague, \"A Learner Directed Approach to Lorma\" (Peace Corps/Michigan State University, 1981)",
+      "url": "https://files.eric.ed.gov/fulltext/ED247766.pdf"
+    },
+    {
+      "label": "Wesley Sadler, \"A Complete Analysis of the Lɔɔma Language\", Mandenkan 42 (LLACAN/CNRS)",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan42/sadler.pdf"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Vocabulaire et exemples pour rapporter des instructions/conseils directement attestés dans le manuel Peace Corps sur le Lorma. Le toma de Guinée forestière et le loma/lorma du Libéria (dialecte Gizima) forment un continuum dialectal du même groupe Mande du Sud (Mende-Loma) ; les formes citées ici proviennent des meilleures sources disponibles pour ce continuum linguistique (grammaire de Sadler et manuel Peace Corps de Dwyer), la documentation publiée spécifique au parler de Guinée étant plus rare."
 }

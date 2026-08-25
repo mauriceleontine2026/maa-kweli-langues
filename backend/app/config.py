@@ -2,6 +2,7 @@ import os
 
 DEFAULT_ALLOWED_ORIGINS = [
     "https://maa-kweli-langues.vercel.app",
+    "https://maa-kwelilangues-l4ty03xvr-maa-kweli-langues.vercel.app",
     "https://maa-kwelilangues-8ipabazry-maa-kweli-langues.vercel.app",
     "https://maa-kwelilangues-o6nchawdz-maa-kweli-langues.vercel.app",
     "https://maa-kwelilangues-qt54s2sr4-maa-kweli-langues.vercel.app",
@@ -9,6 +10,7 @@ DEFAULT_ALLOWED_ORIGINS = [
     "https://mbaara-web.vercel.app",
     "https://mbaara-web-m-baara-langues.vercel.app",
     "https://m-baara-langues.web.app",
+    "https://mbaara-backend.vercel.app",
     "https://mbaara-backend-m6hbjeb7i-m-baara-langues.vercel.app",
     "http://localhost:5173",
     "http://127.0.0.1:5173",
@@ -50,3 +52,8 @@ def get_backend_proxy_target() -> str:
         if cleaned:
             return cleaned.rstrip("/")
     return "https://mbaara-backend-m6hbjeb7i-m-baara-langues.vercel.app"
+
+
+def get_perplexity_api_key() -> str | None:
+    value = os.getenv("PERPLEXITY_API_KEY")
+    return value.strip() if value and value.strip() else None

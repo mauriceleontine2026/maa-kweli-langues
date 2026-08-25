@@ -1,162 +1,200 @@
 {
-  "lesson_id": "C1_M2_L6_CORRIGEE",
+  "lesson_id": "C1_M2_L6",
   "level": "Avancé (C1-C2)",
   "module_number": 2,
   "module_title": "Culture, traditions et rhétorique",
   "lesson_number": 6,
   "title": "Le registre soutenu et le langage formel (cérémonies, contes, traditions)",
   "learning_objectives": [
-    "Employer les salutations protocolaires et honorifiques adaptées aux chefs de clan ou aînés",
-    "Utiliser les structures idiomatiques et les introducteurs spécifiques aux contes et récits traditionnels",
-    "Formuler des bénédictions et des invocations rituelles lors d'événements solennels"
+    "Reconnaître le rôle du jeliba (griot) et du karamorgo dans le langage cérémoniel kuranko",
+    "Utiliser les formules de bénédiction et d'invocation attestées dans un registre formel",
+    "Analyser la structure des sacrifices rituels (sarake) comme actes de langage formel"
   ],
   "phonetic_focus": {
-    "key_sounds": "La prononciation du mot de bénédiction 'baraka' /ba.ra.ka/ doit s'effectuer de manière claire avec un 'r' battu doux. Le digramme 'gb' dans 'gbansan' exige une occlusion bilabiale-vélaire simultanée et énergique sans rupture de souffle.",
-    "common_pitfalls": "Attention à ne pas faire disparaître le 'h' aspiré de 'haqi' ou 'hala' ; il doit être clairement produit depuis le pharynx pour respecter l'empreinte oratoire formelle."
+    "key_sounds": "Dans le discours cérémoniel, les formules figées comme « Allah ma tanke » et « i duwé sotoma » sont prononcées avec un débit plus lent et une insistance tonale marquée sur chaque mot, contrairement au débit courant.",
+    "common_pitfalls": "Les francophones ont tendance à prononcer les formules rituelles au même débit que la conversation ordinaire, alors que le registre cérémoniel kuranko valorise la solennité du débit."
   },
   "vocabulary": [
     {
-      "word_id": "v1_c1_m2_l6_corr",
-      "term": "Mansa",
-      "phonetic_api": "/man.sa/",
-      "phonetic_simple": "MAN-SA",
-      "translation": "Roi / Souverain / Chef suprême / Dieu (Mansa Ba)",
-      "example_sentence": "Mansa ba m'an to kɛnɛya ra",
-      "example_phonetic": "/man.sa ba ɱ͡man to kɛ.nɛ.ja ra/",
-      "example_translation": "Que le Grand Souverain (Dieu) nous garde en bonne santé"
+      "word_id": "v1",
+      "term": "sarake",
+      "phonetic_api": "/sarakɛ/",
+      "phonetic_simple": "sa-RA-ké",
+      "translation": "offrande/sacrifice rituel formel (empr. arabe sadaqah), acte de langage et de geste cérémoniel",
+      "example_sentence": "Sarake ye degé don.",
+      "example_phonetic": "/sarakɛ je dɛɡe don/",
+      "example_translation": "L'offrande rituelle contient de la farine de riz."
     },
     {
-      "word_id": "v2_c1_m2_l6_corr",
-      "term": "Baraka",
-      "phonetic_api": "/ba.ra.ka/",
-      "phonetic_simple": "BA-RA-KA",
-      "translation": "Bénédiction / Grâce spirituelle / Abondance",
-      "example_sentence": "Baraka bɛ i ya so la",
-      "example_phonetic": "/ba.ra.ka bɛ i ja so la/",
-      "example_translation": "Que la bénédiction soit sur ta demeure"
+      "word_id": "v2",
+      "term": "karamorgo",
+      "phonetic_api": "/karamorgo/",
+      "phonetic_simple": "ka-ra-MOR-go",
+      "translation": "maître coranique/officiant, orateur du registre formel religieux",
+      "example_sentence": "Karamorgo bara don fo.",
+      "example_phonetic": "/karamorgo bara don fo/",
+      "example_translation": "Le maître religieux a solennellement annoncé le jour (de la cérémonie)."
     },
     {
-      "word_id": "v3_c1_m2_l6_corr",
-      "term": "Gbansan",
-      "phonetic_api": "/g͡ban.san/",
-      "phonetic_simple": "GBAN-SAN",
-      "translation": "Pur / Sacré / Intègre / Noble (par opposition à commun)",
-      "example_sentence": "Kuma gbansan le nɛ ri",
-      "example_phonetic": "/ku.ma g͡ban.san le nɛ ri/",
-      "example_translation": "C'est une parole pure / sacrée"
+      "word_id": "v3",
+      "term": "jeliba",
+      "phonetic_api": "/dʲɛliba/",
+      "phonetic_simple": "djè-li-BA",
+      "translation": "griot, dépositaire du langage cérémoniel et généalogique formel",
+      "example_sentence": "Jeliba bara don ke.",
+      "example_phonetic": "/dʲɛliba bara don kɛ/",
+      "example_translation": "Le griot se produit (dans un cadre cérémoniel formel)."
     },
     {
-      "word_id": "v4_c1_m2_l6_corr",
-      "term": "Taale",
-      "phonetic_api": "/taː.le/",
-      "phonetic_simple": "TAA-LE",
-      "translation": "Conte / Récit mythologique / Légende",
-      "example_sentence": "N fɛ ka taale lani",
-      "example_phonetic": "/ɲ͡fɛ ka taː.le la.ni/",
-      "example_translation": "Je veux introduire (raconter) un conte"
+      "word_id": "v4",
+      "term": "duwé",
+      "phonetic_api": "/duwe/",
+      "phonetic_simple": "dou-WÉ",
+      "translation": "bénédiction formelle, invocation rituelle",
+      "example_sentence": "I duwé sotoma.",
+      "example_phonetic": "/i duwe sotoma/",
+      "example_translation": "Que tu reçoives la bénédiction (formule cérémonielle)."
+    },
+    {
+      "word_id": "v5",
+      "term": "bimbanu",
+      "phonetic_api": "/bimbanu/",
+      "phonetic_simple": "bim-BA-nou",
+      "translation": "les ancêtres, invoqués dans le registre cérémoniel soutenu",
+      "example_sentence": "Bimbanu bara duwé mennu fo, wo lɔn.",
+      "example_phonetic": "/bimbanu bara duwe mɛnːu fo wɔ lɔn/",
+      "example_translation": "Sache les bénédictions que les ancêtres ont prononcées."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p1_c1_m2_l6_corr",
-      "original": "Mansa ba ka baraka don an na",
-      "phonetic_api": "/man.sa ba ka ba.ra.ka don an na/",
-      "phonetic_simple": "MAN-SA BA KA BA-RA-KA DON AN NA",
-      "translation": "Que le Grand Souverain répande sa grâce sur nous",
-      "context": "Formule rituelle d'ouverture ou de clôture lors d'une cérémonie importante."
+      "phrase_id": "p1",
+      "original": "Allah ma tanke.",
+      "phonetic_api": "/alːah ma taŋkɛ/",
+      "phonetic_simple": "AL-lah ma TAN-ké",
+      "translation": "Que Dieu te protège.",
+      "context": "Formule de bénédiction formelle prononcée lors des cérémonies, adieux solennels et transitions rituelles importantes."
     },
     {
-      "phrase_id": "p2_c1_m2_l6_corr",
-      "original": "Taale nani le ! Kuma gbansan to taminfa ra",
-      "phonetic_api": "/taː.le na.ni le ku.ma g͡ban.san to ta.min.fa ra/",
-      "phonetic_simple": "TAA-LE NA-NI LE ! KOU-MA GBAN-SAN TO TA-MIN-FA RA",
-      "translation": "Voici venir le conte ! La parole sacrée réside dans le passé",
-      "context": "Formule d'introduction consacrée employée par le conteur pour captiver l'auditoire."
+      "phrase_id": "p2",
+      "original": "I duwé sotoma.",
+      "phonetic_api": "/i duwe sotoma/",
+      "phonetic_simple": "i dou-WÉ so-TO-ma",
+      "translation": "Que tu reçoives la bénédiction.",
+      "context": "Invocation formelle adressée par un aîné ou un officiant à l'issue d'un service ou d'une cérémonie."
     },
     {
-      "phrase_id": "p3_c1_m2_l6_corr",
-      "original": "N bɛ n ya haqi di alu ma, alu m'an lamɛn",
-      "phonetic_api": "/ɱ͡bɛ ɲ͡ja ha.qi di a.lu ma a.lu ɱ͡man la.mɛn/",
-      "phonetic_simple": "N BƐ N YA HA-QI DI A-LU MA, A-LU M'AN LA-MƐN",
-      "translation": "Je vous présente mes hommages (je vous donne mon esprit), écoutez-moi",
-      "context": "S'adresser solennellement à un conseil de notables ou d'aînés."
+      "phrase_id": "p3",
+      "original": "Sarake ye degé don.",
+      "phonetic_api": "/sarakɛ je dɛɡe don/",
+      "phonetic_simple": "sa-RA-ké yè dè-GUÉ don",
+      "translation": "L'offrande rituelle contient de la farine de riz.",
+      "context": "Décrit la composante matérielle du sarake, acte de langage et de don formalisé documenté par Michael Jackson."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Bimbanu bara duwé mennu fo, wo lɔn.",
+      "phonetic_api": "/bimbanu bara duwe mɛnːu fo wɔ lɔn/",
+      "phonetic_simple": "bim-BA-nou BA-ra dou-WÉ MÈN-nou fo, wo lon",
+      "translation": "Sache les bénédictions que les ancêtres ont prononcées.",
+      "context": "Formule d'ouverture cérémonielle invoquant l'autorité des ancêtres (bimbanu), typique du registre soutenu utilisé lors des rites et des contes traditionnels."
     }
   ],
   "grammar_points": [
     {
-      "concept": "Le mode optatif / bénédictif avec 'Ka'",
-      "explanation": "Pour formuler des souhaits, des prières ou des bénédictions lors des cérémonies formelles, le kuranko utilise la particule 'ka' placée entre le sujet divin/ancestral et le verbe d'action. Le verbe reste à sa forme nue.",
+      "concept": "Les formules figées du registre cérémoniel",
+      "explanation": "Le registre formel kuranko documenté chez Michael Jackson repose largement sur des formules figées et récurrentes (bénédictions, annonces rituelles) plutôt que sur une syntaxe complexe propre au registre soutenu. La solennité provient davantage du contexte d'énonciation (officiant, occasion, débit) que d'une grammaire distincte.",
       "rules": [
-        "Structure : [Sujet Divin / Entité] + ka + [Bénéficiaire] + Verbe"
+        "Les formules de bénédiction se construisent souvent avec un sujet (Allah, ancêtre) suivi d'un souhait exprimé pour le destinataire.",
+        "Le respect de l'ordre figé de la formule est essentiel : contrairement au discours ordinaire, ces expressions ne se reformulent pas librement."
       ],
       "examples": [
         {
-          "structure": "Alla ka i dɛmɛ",
-          "phonetic_api": "/al.la ka i dɛ.mɛ/",
-          "meaning": "Que Dieu t'assiste"
-        }
-      ]
-    },
-    {
-      "concept": "L'inversion narrative de focalisation du conte",
-      "explanation": "Dans le registre soutenu des contes ('taale'), la structure syntaxique standard bascule souvent en plaçant l'objet ou le concept central en tête de phrase suivi de la particule 'le', afin de détacher le récit du cadre temporel quotidien.",
-      "rules": [
-        "Structure : [Concept / Type de récit] + nani le + [Proposition historique]"
-      ],
-      "examples": [
-        {
-          "structure": "Taale nani le !",
-          "phonetic_api": "/taː.le na.ni le/",
-          "meaning": "Voici le conte qui s'amène !"
+          "structure": "Allah + ma + [verbe de protection]",
+          "phonetic_api": "/alːah ma taŋkɛ/",
+          "meaning": "que Dieu [protège toi]"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Lansana (Le Conteur)",
-      "text": "Alu m'an lamɛn ! Taale nani le ! Kuma gbansan to mansa taminfanu ra.",
-      "phonetic_api": "/a.lu ɱ͡man la.mɛn taː.le na.ni le ku.ma g͡ban.san to man.sa ta.min.fa.nu ra/",
-      "phonetic_simple": "A-LU M'AN LA-MƐN ! TAA-LE NA-NI LE ! KOU-MA GBAN-SAN TO MAN-SA TA-MIN-FA-NOU RA.",
-      "translation": "Écoutez-moi tous ! Voici venir le conte ! La parole sacrée résidait chez les souverains d'autrefois."
+      "speaker": "Karamorgo",
+      "text": "Sarake ye degé don. Allah ma tanke, morgo bɛɛ ma.",
+      "phonetic_api": "/sarakɛ je dɛɡe don alːah ma taŋkɛ morgo bɛː ma/",
+      "phonetic_simple": "sa-RA-ké yè dè-GUÉ don. AL-lah ma TAN-ké, MOR-go bèː ma",
+      "translation": "L'offrande rituelle contient de la farine de riz. Que Dieu vous protège tous."
     },
     {
-      "speaker": "Sori (Le Chef du Village)",
-      "text": "N bɛ n ya haqi to i ya taale la. Mansa ba ka baraka don i ya kuma ra.",
-      "phonetic_api": "/ɱ͡bɛ ɲ͡ja ha.qi to i ja taː.le la man.sa ba ka ba.ra.ka don i ja ku.ma ra/",
-      "phonetic_simple": "N BƐ N YA HA-QI TO I YA TAA-LE LA. MAN-SA BA KA BA-RA-KA DON I YA KOU-MA RA.",
-      "translation": "Je prête toute mon attention (mon esprit) à ton récit. Que le Grand Souverain accorde sa grâce à ta parole."
+      "speaker": "Assemblée",
+      "text": "Amiin. I duwé sotoma, karamorgo.",
+      "phonetic_api": "/amiːn i duwe sotoma karamorgo/",
+      "phonetic_simple": "a-MIN, i dou-WÉ so-TO-ma, ka-ra-MOR-go",
+      "translation": "Amen. Que tu reçoives la bénédiction, maître religieux."
     },
     {
-      "speaker": "Lansana (Le Conteur)",
-      "text": "Ami. Tariki nɛ di nyɛ bilen barisa an mɔmɔnu ye ɛrɛ le fɔ.",
-      "phonetic_api": "/a.mi ta.ri.ki nɛ di ɲɛ bi.len ba.ri.sa an ɲ͡mɔ.mɔ.nu d͡ʒe ɛ.rɛ le fɔ/",
-      "phonetic_simple": "A-MI. TA-RI-KI NƐ DI NYƐ BI-LEN BA-RI-SA AN MƆ-MƆ-NOU YE Ɛ-RƐ LE FƆ.",
-      "translation": "Amen. Cette chronique historique va s'illuminer à présent car nos ancêtres ont énoncé la stricte vérité."
+      "speaker": "Jeliba",
+      "text": "Bimbanu bara hankili di, morgoye le nyorgo dii.",
+      "phonetic_api": "/bimbanu bara hankili di morgoje lɛ ɲorgo diː/",
+      "phonetic_simple": "bim-BA-nou BA-ra an-ki-LI di, mor-GO-yé lè gnor-GO diː",
+      "translation": "Les ancêtres ont transmis leur sagesse, c'est bien la dignité humaine qui est précieuse."
+    },
+    {
+      "speaker": "Officiant",
+      "text": "Bimbanu bara duwé mennu fo, wo lɔn.",
+      "phonetic_api": "/bimbanu bara duwe mɛnːu fo wɔ lɔn/",
+      "phonetic_simple": "bim-BA-nou BA-ra dou-WÉ MÈN-nou fo, wo lon",
+      "translation": "Sache les bénédictions que les ancêtres ont prononcées."
     }
   ],
   "cultural_notes": [
-    "Dans la tradition kuranko, le langage n'est pas seulement un outil de communication, c'est un dépôt sacré. Lors des mariages, des baptêmes ou des veillées de contes, l'orateur ou le griot élève son niveau de langue en évitant les termes du quotidien. Invoquer le nom de 'Mansa' ou implorer la 'baraka' permet de s'inscrire dans une continuité spirituelle. Le respect du protocole oratoire est si strict qu'un jeune ne commencera jamais un récit sans s'incliner verbalement devant les anciens par la formule 'N bɛ n ya haqi di alu ma'."
+    "Le sarake (offrande rituelle), documenté par Michael Jackson, illustre l'articulation entre langage formel, geste rituel et don matériel (souvent de la farine de riz ou de la nourriture) dans les cérémonies kuranko.",
+    "Le karamorgo (officiant religieux) et le jeliba (griot) constituent les deux pôles du registre cérémoniel formel kuranko : l'un lié à l'autorité religieuse islamique, l'autre à la tradition orale et généalogique préislamique.",
+    "Le mot « amiin » (amen) est un emprunt arabe largement partagé dans le monde musulman, reconstruit ici par analogie et non directement attesté dans une source spécifiquement kuranko consultée."
   ],
   "exercises": [
     {
-      "exercise_id": "ex1_c1_m2_l6_corr",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quelle formule sacrée le conteur utilise-t-on traditionnellement pour lancer un récit ?",
+      "question": "Quel type d'officiant est associé au registre formel religieux islamique chez les Kuranko ?",
       "options": [
-        "N bɛ ta lɔgɔfaga la",
-        "Taale nani le !",
-        "A sɔngɔ ka gwan"
+        "Le karamorgo",
+        "Le jeliba",
+        "Le morgo ordinaire"
       ],
-      "correct_answer": "Taale nani le !",
-      "explanation": "C'est la formule d'introduction théâtrale consacrée pour annoncer le début du conte ou de la légende."
+      "correct_answer": "Le karamorgo",
+      "explanation": "Le karamorgo (maître coranique) est la figure d'autorité du registre formel religieux, attestée par Michael Jackson."
     },
     {
-      "exercise_id": "ex2_c1_m2_l6_corr",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Pour demander que la grâce divine se pose sur l'assemblée, on emploie le mot de bénédiction : Alla ka [ ___ ] don an na.",
-      "correct_answer": "baraka",
-      "hint": "Signifie la grâce ou la bénédiction spirituelle"
+      "sentence_with_blank": "I [ ___ ] sotoma. (Que tu reçoives la bénédiction.)",
+      "correct_answer": "duwé",
+      "hint": "Ce mot signifie « bénédiction »."
+    },
+    {
+      "exercise_id": "ex3",
+      "type": "multiple_choice",
+      "question": "Quel matériau est associé au sarake (offrande rituelle) documenté par Michael Jackson ?",
+      "options": [
+        "La farine de riz (degé)",
+        "Le tissu importé",
+        "L'or"
+      ],
+      "correct_answer": "La farine de riz (degé)",
+      "explanation": "Michael Jackson documente le lien entre le sarake et le degé (farine de riz) comme composante matérielle rituelle courante."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Michael Jackson, \"How Lifeworlds Work\" (Univ. of Chicago Press, 2022) — extraits",
+      "url": "https://dokumen.pub/how-lifeworlds-work-emotionality-sociality-and-the-ambiguity-of-being-9780226492018.html"
+    },
+    {
+      "label": "Michael Jackson, \"Intersubjective ambiguities\" (Tijdschrift voor Medische Antropologie)",
+      "url": "https://tma.socsci.uva.nl/19_1/jackson.pdf"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "« Sarake », « karamorgo », « jeliba » et « duwé » sont directement attestés chez Michael Jackson. Le mot « amiin » n'est pas confirmé spécifiquement pour le kuranko mais reconstruit par analogie avec l'usage islamique général ; les dialogues complets restent des constructions pédagogiques non vérifiées mot à mot dans une source unique."
 }

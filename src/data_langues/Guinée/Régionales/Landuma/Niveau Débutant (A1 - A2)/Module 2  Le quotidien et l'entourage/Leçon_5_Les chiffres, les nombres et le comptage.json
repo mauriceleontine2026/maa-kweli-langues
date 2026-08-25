@@ -6,121 +6,200 @@
   "lesson_number": 5,
   "title": "Les chiffres, les nombres et le comptage",
   "learning_objectives": [
-    "Compter de 1 à 10 de manière fluide",
-    "Comprendre la structure quinaire (base 5) du système numérique",
-    "Énumérer des objets du quotidien"
+    "Compter de un à cinq en landuma à partir des formes attestées par Fields (2001) et l'ASJP.",
+    "Reconnaître le préfixe de classe ma- présent dans plusieurs numéraux (ma-rʊŋ, ma-saas, ma-ŋgʊlɛ).",
+    "Identifier les cognats avec le temne pour les nombres 2 à 4 (ma-rʊŋ/rʊŋ, ma-saas/sas, ma-ŋgʊlɛ/ma-ŋle), preuve de la proximité de sous-groupe Mel du Nord."
   ],
   "phonetic_focus": {
-    "key_sounds": "La consonne 'p' en position finale de mot (comme dans taspand) doit être relâchée proprement sans explosion excessive.",
-    "common_pitfalls": "Ne pas omettre l'élément de liaison syllabique quand on passe de la base 5 aux unités suivantes."
+    "key_sounds": "Le landuma comporte des voyelles i, e, ɛ, u, o, ɔ, ʌ, ə, a et des consonnes prénasalisées complexes (mb-, nc-, nt-, ns-, ŋg-) absentes du français, ainsi qu'une affriquée c proche du « tch » et une occlusive labiovélaire gb (Sumbatova & Vydrin 2021).",
+    "common_pitfalls": "Les francophones tendent à scinder en deux syllabes les groupes consonantiques prénasalisés initiaux (ex. mb-, nc-, nt-), qui forment pourtant une seule attaque consonantique en landuma ; ils confondent aussi souvent les voyelles centrales ə/a et les voyelles mi-ouvertes ɛ/ɔ, qui n'ont pas d'équivalent phonémique net en français."
   },
   "vocabulary": [
     {
-      "word_id": "v5_1",
-      "term": "taspand",
-      "phonetic_api": "/tas.pand/",
-      "phonetic_simple": "TAS-PAND",
+      "word_id": "v1",
+      "term": "iin",
+      "phonetic_api": "/iin/",
+      "phonetic_simple": "IINE",
       "translation": "un",
-      "example_sentence": "wuto taspand",
-      "example_phonetic": "/wu.to tas.pand/",
-      "example_translation": "Un enfant."
+      "example_sentence": "iin",
+      "example_phonetic": "/iin/",
+      "example_translation": "« un » — mot isolé attesté dans le corpus lexical disponible ; aucune phrase complète d'exemple n'a été trouvée pour ce terme dans les sources consultées, seule la forme du mot est donc garantie."
     },
     {
-      "word_id": "v5_2",
-      "term": "mɛrən",
-      "phonetic_api": "/mɛ.rən/",
-      "phonetic_simple": "MÈ-REN",
+      "word_id": "v2",
+      "term": "ma-rʊŋ",
+      "phonetic_api": "/ma-rʊŋ/",
+      "phonetic_simple": "ma-ROUNG",
       "translation": "deux",
-      "example_sentence": "wuto mɛrən",
-      "example_phonetic": "/wu.to mɛ.rən/",
-      "example_translation": "Deux enfants."
+      "example_sentence": "ma-rʊŋ",
+      "example_phonetic": "/ma-rʊŋ/",
+      "example_translation": "« deux » — mot isolé attesté dans le corpus lexical disponible ; aucune phrase complète d'exemple n'a été trouvée pour ce terme dans les sources consultées, seule la forme du mot est donc garantie."
     },
     {
-      "word_id": "v5_3",
-      "term": "tsaat",
-      "phonetic_api": "/t͡saːt/",
-      "phonetic_simple": "TSAAT",
+      "word_id": "v3",
+      "term": "ma-saas",
+      "phonetic_api": "/ma-saas/",
+      "phonetic_simple": "ma-SAASS",
       "translation": "trois",
-      "example_sentence": "ɛpɛ tsaat",
-      "example_phonetic": "/ɛ.pɛ t͡saːt/",
-      "example_translation": "Trois couteaux."
+      "example_sentence": "ma-saas",
+      "example_phonetic": "/ma-saas/",
+      "example_translation": "« trois » — mot isolé attesté dans le corpus lexical disponible ; aucune phrase complète d'exemple n'a été trouvée pour ce terme dans les sources consultées, seule la forme du mot est donc garantie."
     },
     {
-      "word_id": "v5_4",
-      "term": "mankana",
-      "phonetic_api": "/man.ka.na/",
-      "phonetic_simple": "MAN-KA-NA",
+      "word_id": "v4",
+      "term": "ma-ŋgʊlɛ",
+      "phonetic_api": "/ma-ŋgʊlɛ/",
+      "phonetic_simple": "ma-NGOU-lè",
+      "translation": "quatre",
+      "example_sentence": "ma-ŋgʊlɛ",
+      "example_phonetic": "/ma-ŋgʊlɛ/",
+      "example_translation": "« quatre » — mot isolé attesté dans le corpus lexical disponible ; aucune phrase complète d'exemple n'a été trouvée pour ce terme dans les sources consultées, seule la forme du mot est donc garantie."
+    },
+    {
+      "word_id": "v5",
+      "term": "kʊ-caamʊt",
+      "phonetic_api": "/kʊ-caamʊt/",
+      "phonetic_simple": "kou-TSAA-mout",
       "translation": "cinq",
-      "example_sentence": "ɛpɛ mankana",
-      "example_phonetic": "/ɛ.pɛ man.ka.na/",
-      "example_translation": "Cinq couteaux."
+      "example_sentence": "kʊ-caamʊt",
+      "example_phonetic": "/kʊ-caamʊt/",
+      "example_translation": "« cinq » — mot isolé attesté dans le corpus lexical disponible ; aucune phrase complète d'exemple n'a été trouvée pour ce terme dans les sources consultées, seule la forme du mot est donc garantie."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p5_1",
-      "original": "wuto mɛrən mɔ lɔndɔ",
-      "phonetic_api": "/wu.to mɛ.rən mɔ lɔn.dɔ/",
-      "phonetic_simple": "WOU-TO MÈ-REN MO LON-DO",
-      "translation": "Deux enfants sont ici",
-      "context": "Dénombrer la présence de personnes."
+      "phrase_id": "p1",
+      "original": "iin",
+      "phonetic_api": "/iin/",
+      "phonetic_simple": "IINE",
+      "translation": "un",
+      "context": "Aucune phrase complète figée n'est attestée pour ce contexte précis dans les sources disponibles ; seul ce mot isolé du corpus vérifié est proposé comme point d'ancrage, à utiliser avec prudence."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "ma-rʊŋ iin",
+      "phonetic_api": "/ma-rʊŋ iin/",
+      "phonetic_simple": "ma-ROUNG IINE",
+      "translation": "« deux » + « un » (juxtaposition)",
+      "context": "Recombinaison prudente de deux mots déjà attestés séparément dans le corpus lexical de cette leçon (deux, un) : cette juxtaposition n'est PAS une expression idiomatique attestée en tant que telle dans les sources, mais une association pédagogique construite uniquement à partir de vocabulaire vérifié, utile pour la mémorisation et la pratique orale."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "ma-saas iin",
+      "phonetic_api": "/ma-saas iin/",
+      "phonetic_simple": "ma-SAASS IINE",
+      "translation": "« trois » + « un » (juxtaposition)",
+      "context": "Recombinaison prudente de deux mots déjà attestés séparément dans le corpus lexical de cette leçon (trois, un) : cette juxtaposition n'est PAS une expression idiomatique attestée en tant que telle dans les sources, mais une association pédagogique construite uniquement à partir de vocabulaire vérifié, utile pour la mémorisation et la pratique orale."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "ma-ŋgʊlɛ iin",
+      "phonetic_api": "/ma-ŋgʊlɛ iin/",
+      "phonetic_simple": "ma-NGOU-lè IINE",
+      "translation": "« quatre » + « un » (juxtaposition)",
+      "context": "Recombinaison prudente de deux mots déjà attestés séparément dans le corpus lexical de cette leçon (quatre, un) : cette juxtaposition n'est PAS une expression idiomatique attestée en tant que telle dans les sources, mais une association pédagogique construite uniquement à partir de vocabulaire vérifié, utile pour la mémorisation et la pratique orale."
     }
   ],
   "grammar_points": [
     {
-      "concept": "La syntaxe de la quantification",
-      "explanation": "En landouma, les adjectifs numéraux se placent toujours immédiatement après le substantif qu'ils qualifient. Ils ne prennent pas de marqueur de pluriel supplémentaire car le nombre est explicitement porté par le chiffre.",
+      "concept": "Accord alitératif radical (classes nominales)",
+      "explanation": "Le landuma, comme d'autres langues Mel du Nord, marque l'accord grammatical par un préfixe dont la consonne initiale reprend celle du nom qu'il qualifie ou remplace : c'est un accord dit « alitératif radical », distinct de l'accord par classes nominales à préfixes fixes qu'on trouve dans d'autres langues Niger-Congo. On observe dans le corpus attesté des préfixes tels que a-, da-, ta-, kʊ-, ke-, o-, ma- selon la classe et l'initiale du radical.",
       "rules": [
-        "Ordre strict : Nom + Chiffre.",
-        "Aucun changement morphologique du nom devant le chiffre de 1 à 5."
+        "Les noms attestés portent presque tous un préfixe de classe : da-wump (tête), ta-fera (blanc), kʊ-suŋ (bouche), o-runi (homme), ma-rʊŋ (deux).",
+        "Le préfixe d'accord d'un qualificatif ou d'un déterminant tend à reprendre la consonne initiale du nom contrôleur plutôt qu'une classe grammaticale fixe et arbitraire.",
+        "Cette règle est documentée pour les noms inanimés dans les travaux académiques, mais son fonctionnement précis pour chaque catégorie de mots n'est pas intégralement publié en accès libre : la prudence s'impose pour toute généralisation."
       ],
       "examples": [
         {
-          "structure": "Nom + mɛrən",
-          "phonetic_api": "/baba mɛ.rən/",
-          "meaning": "Deux pères"
+          "structure": "da-wump / da-fɔr",
+          "phonetic_api": "/da-wump/, /da-fɔr/",
+          "meaning": "tête / œil (même préfixe da- : classe nominale partagée)"
+        },
+        {
+          "structure": "ta-fera / ta-bi / ta-tɔt",
+          "phonetic_api": "/ta-fera/, /ta-bi/, /ta-tɔt/",
+          "meaning": "blanc / noir / bon (préfixe ta- pour ces qualificatifs attestés)"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "L'acheteur",
-      "text": "mbi dɛp ɛpɛ mɛrən.",
-      "phonetic_api": "/mbi dɛp ɛ.pɛ mɛ.rən/",
-      "phonetic_simple": "MBI DÈP È-PÈ MÈ-REN",
-      "translation": "Je prends deux couteaux."
+      "speaker": "Locuteur A",
+      "text": "iin",
+      "phonetic_api": "/iin/",
+      "phonetic_simple": "IINE",
+      "translation": "(mot isolé : « un ») — aucun dialogue naturel complet n'est attesté dans les sources disponibles pour ce thème ; cet échange reste donc une simple juxtaposition prudente du vocabulaire vérifié, non une phrase authentique de conversation."
     },
     {
-      "speaker": "Le vendeur",
-      "text": "yoo, ɛpɛ mɛrən mɔ lɔndɔ.",
-      "phonetic_api": "/joː ɛ.pɛ mɛ.rən mɔ lɔn.dɔ/",
-      "phonetic_simple": "YOO È-PÈ MÈ-REN MO LON-DO",
-      "translation": "D'accord, les deux couteaux sont ici."
+      "speaker": "Locuteur B",
+      "text": "ma-rʊŋ",
+      "phonetic_api": "/ma-rʊŋ/",
+      "phonetic_simple": "ma-ROUNG",
+      "translation": "(mot isolé : « deux ») — aucun dialogue naturel complet n'est attesté dans les sources disponibles pour ce thème ; cet échange reste donc une simple juxtaposition prudente du vocabulaire vérifié, non une phrase authentique de conversation."
+    },
+    {
+      "speaker": "Locuteur A",
+      "text": "ma-saas",
+      "phonetic_api": "/ma-saas/",
+      "phonetic_simple": "ma-SAASS",
+      "translation": "(mot isolé : « trois ») — aucun dialogue naturel complet n'est attesté dans les sources disponibles pour ce thème ; cet échange reste donc une simple juxtaposition prudente du vocabulaire vérifié, non une phrase authentique de conversation."
+    },
+    {
+      "speaker": "Locuteur B",
+      "text": "ma-ŋgʊlɛ",
+      "phonetic_api": "/ma-ŋgʊlɛ/",
+      "phonetic_simple": "ma-NGOU-lè",
+      "translation": "(mot isolé : « quatre ») — aucun dialogue naturel complet n'est attesté dans les sources disponibles pour ce thème ; cet échange reste donc une simple juxtaposition prudente du vocabulaire vérifié, non une phrase authentique de conversation."
     }
   ],
   "cultural_notes": [
-    "Le système de comptage landouma traditionnel repose historiquement sur l'usage des cinq doigts de la main (base quinaire), se combinant ensuite pour former les nombres supérieurs à Impression."
+    "Le landuma appartient à la branche Mel du Nord de la famille Atlantique-Congo, proche du temne (Sierra Leone) et des langues baga du nord (Sitemu, Kaloum, Koga...), mais SEULEMENT distante parente du nalu, qui appartient à un autre sous-groupe atlantique ; les deux communautés partagent cependant une identité culturelle côtière commune de riziculteurs du Rio Nunez ([Fields 1999](https://www.africabib.org/rec.php?RID=217582427) ; [Glottolog](https://glottolog.org/resource/languoid/id/land1256)).",
+    "Les estimations du nombre de locuteurs varient fortement selon les sources : environ 62 100 selon l'ASJP, 30 000 selon le travail de terrain de Sumbatova & Vydrin (2015-2018), 20 000 à 25 000 selon Britannica et 101 Last Tribes, et seulement 14 400 selon un recensement de 1991 cité par Wikipédia — signe d'une documentation démographique peu consolidée ([Sumbatova & Vydrin 2021](https://www.jolr.ru/files/(303)jlr2021-19-1-2(136-151).pdf))."
   ],
   "exercises": [
     {
-      "exercise_id": "ex5_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel chiffre correspond au mot 'mankana' ?",
+      "question": "Comment dit-on « un » en landuma ?",
       "options": [
-        "Deux",
-        "Trois",
-        "Cinq"
+        "kʊ-caamʊt",
+        "ma-rʊŋ",
+        "iin"
       ],
-      "correct_answer": "Cinq",
-      "explanation": "'mankana' désigne la quantité fermée de cinq."
+      "correct_answer": "iin",
+      "explanation": "« iin » est la forme attestée pour « un » d'après le corpus lexical collecté (confiance : moyenne)."
     },
     {
-      "exercise_id": "ex5_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "wuto [ ___ ] (Un enfant)",
-      "correct_answer": "taspand",
-      "hint": "Le chiffre un en landouma."
+      "sentence_with_blank": "[ ___ ] = « deux »",
+      "correct_answer": "ma-rʊŋ",
+      "hint": "Ce mot appartient au vocabulaire de base attesté par les sources académiques (confiance : moyenne)."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Wiktionary — Word lists of Atlantic languages of Guinea (d'après Fields 2001)",
+      "url": "https://en.wiktionary.org/wiki/Appendix:Word_lists_of_Atlantic_languages_of_Guinea"
+    },
+    {
+      "label": "ASJP Database — Wordlist Landuma (d'après Wilson 2007 et Rogers & Bryant 2012)",
+      "url": "https://asjp.clld.org/languages/LANDUMA_4"
+    },
+    {
+      "label": "Fields (1999), \"Identity, Rice and Oral Traditions\" (résumé, africabib.org)",
+      "url": "https://www.africabib.org/rec.php?RID=217582427"
+    },
+    {
+      "label": "Sumbatova & Vydrin (2021), Journal of Language Relationship 19-1/2, p.136-151",
+      "url": "https://www.jolr.ru/files/(303)jlr2021-19-1-2(136-151).pdf"
+    },
+    {
+      "label": "Glottolog — Landoma [land1256]",
+      "url": "https://glottolog.org/resource/languoid/id/land1256"
+    }
+  ],
+  "confidence": "faible",
+  "confidence_note": "Le vocabulaire cible de cette leçon provient exclusivement du corpus lexical attesté (ASJP/Wilson 2007/Rogers & Bryant 2012, Wiktionary/Fields 2001, Sumbatova & Vydrin 2021) ; confiance des mots utilisés : faible, moyenne. Les mots eux-mêmes sont documentés par au moins une source académique ou lexicographique identifiée, mais aucun enregistrement audio ni locuteur natif n'a pu être consulté pour valider la prosodie exacte : la confiance globale est donc plafonnée à 'moyenne'. Les phrases de la section 'common_phrases' au-delà de la première ont été obtenues par recombinaison de mots individuellement attestés du vocabulaire de cette leçon (juxtapositions pédagogiques), et non par une source directe attestant la phrase entière : elles sont signalées comme telles dans leur champ 'context'."
 }

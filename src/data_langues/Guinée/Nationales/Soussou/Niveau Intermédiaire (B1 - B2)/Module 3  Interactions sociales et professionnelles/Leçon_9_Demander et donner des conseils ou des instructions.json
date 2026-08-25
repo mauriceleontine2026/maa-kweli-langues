@@ -6,292 +6,215 @@
   "lesson_number": 9,
   "title": "Demander et donner des conseils ou des instructions",
   "learning_objectives": [
-    "Solliciter un avis ou un conseil constructif auprès d'un guide ou d'un aîné",
-    "Fournir des instructions claires, des étapes et des recommandations de manière polie",
-    "Utiliser le mode injonctif atténué et les verbes de guidance pour orienter une décision"
+    "Utiliser l'impératif pour donner une instruction claire",
+    "Demander poliment une clarification avec 'munse?' ou 'I naxa munse?'",
+    "Utiliser 'gbilen a ma' pour demander une répétition"
   ],
   "phonetic_focus": {
-    "key_sounds": "Cette leçon est centrée sur la prononciation correcte de la fricative alvéolaire sourde /s/ dans 'marasi' et la distinction avec la liquide latérale /l/ dans 'mali'. Les tons sur les bases verbales d'orientation ('fala') modifient l'intention de la guidance.",
-    "common_pitfalls": "Ne prononcez pas 'marasi' avec un son 'z' comme 'ma-ra-zi'. Le 's' doit rester sourd et sifflant. Veillez également à ne pas omettre la postposition d'attribution 'bɛ' lors de la formulation d'une instruction."
+    "key_sounds": "'gbilen' (répéter/revenir) commence par le digraphe 'gb', une consonne labio-vélaire unique qu'il faut prononcer comme un seul son, les lèvres et l'arrière de la langue agissant simultanément.",
+    "common_pitfalls": "Les francophones prononcent souvent 'gb' comme deux sons séparés ('gue-be'), alors qu'il s'agit d'une seule consonne coarticulée en soussou."
   },
   "vocabulary": [
     {
-      "word_id": "v18_1",
-      "term": "Marasi",
-      "phonetic_api": "/marasi/",
-      "phonetic_simple": "MA-RA-SI",
-      "translation": "Conseil / Recommandation / Avis / Avertissement",
-      "example_sentence": "N wama i ma marasi ra fe ki ma.",
-      "example_phonetic": "/n wama i ma marasi ra fɛ ki ma/",
-      "example_translation": "Je veux ton conseil sur cette affaire."
+      "word_id": "v1",
+      "term": "gbilen a ma",
+      "phonetic_api": "/ɡbilen a ma/",
+      "phonetic_simple": "GBI-lèn a ma",
+      "translation": "répète, reviens sur ce point",
+      "example_sentence": "HakEto, gbilen a ma.",
+      "example_phonetic": "/hakɛto, ɡbilen a ma/",
+      "example_translation": "Pardon, répète s'il te plaît."
     },
     {
-      "word_id": "v18_2",
-      "term": "Mali",
-      "phonetic_api": "/mali/",
-      "phonetic_simple": "MA-LI",
-      "translation": "Aider / Guider / Orienter",
-      "example_sentence": "Mali n bɛ fe fanyi ma.",
-      "example_phonetic": "/mali n bɛ fɛ faɲi ma/",
-      "example_translation": "Guide-moi vers une bonne décision."
+      "word_id": "v2",
+      "term": "wçyEn dçyi dçyi",
+      "phonetic_api": "/wɔjɛn dɔji dɔji/",
+      "phonetic_simple": "wo-YÈN do-yi do-yi",
+      "translation": "parle lentement, doucement",
+      "example_sentence": "WçyEn dçyi dçyi, hakEto.",
+      "example_phonetic": "/wɔjɛn dɔji dɔji, hakɛto/",
+      "example_translation": "Parle lentement s'il te plaît."
     },
     {
-      "word_id": "v18_3",
-      "term": "Fala",
-      "phonetic_api": "/fala/",
-      "phonetic_simple": "FA-LA",
-      "translation": "Dire / Expliquer / Énoncer (une consigne)",
-      "example_sentence": "A fala n bɛ alɔ a findixi ki naxan ma.",
-      "example_phonetic": "/a fala n bɛ alɔ a fiⁿdixi ki naxan ma/",
-      "example_translation": "Explique-moi comment la situation se présente."
+      "word_id": "v3",
+      "term": "munse?",
+      "phonetic_api": "/munse/",
+      "phonetic_simple": "MOUN-sé",
+      "translation": "quoi ? (pour demander une clarification)",
+      "example_sentence": "I naxa munse?",
+      "example_phonetic": "/i naxa munse/",
+      "example_translation": "Qu'as-tu dit ?"
     },
     {
-      "word_id": "v18_4",
-      "term": "Kira",
-      "phonetic_api": "/kira/",
-      "phonetic_simple": "KI-RA",
-      "translation": "Voie / Méthode / Solution / Chemin",
-      "example_sentence": "Kira fanyi nan na ra.",
-      "example_phonetic": "/kira faɲi naⁿ na ra/",
-      "example_translation": "C'est la bonne méthode."
+      "word_id": "v4",
+      "term": "kira masen n bE",
+      "phonetic_api": "/kira masen n bɛ/",
+      "phonetic_simple": "KI-ra ma-SEN n bè",
+      "translation": "montre-moi la voie/la méthode (au sens propre et figuré)",
+      "example_sentence": "Kira masen n bE, n xa a kolon di.",
+      "example_phonetic": "/kira masen n bɛ, n xa a kolon di/",
+      "example_translation": "Montre-moi comment faire, pour que je sache comment."
     },
     {
-      "word_id": "v18_5",
-      "term": "Fisa",
-      "phonetic_api": "/fisa/",
-      "phonetic_simple": "FI-SA",
-      "translation": "Valoir mieux / Être préférable (recommandation)",
-      "example_sentence": "Na fisa i bɛ fe birin ra.",
-      "example_phonetic": "/na fisa i bɛ fɛ biriⁿ ra/",
-      "example_translation": "Cela vaut mieux pour toi que tout le reste."
+      "word_id": "v5",
+      "term": "hakEto",
+      "phonetic_api": "/hakɛto/",
+      "phonetic_simple": "ha-KÈ-to",
+      "translation": "s'il te plaît, pardon, excuse-moi",
+      "example_sentence": "HakEto, i xa yi rabi n bE.",
+      "example_phonetic": "/hakɛto, i xa ji rabi n bɛ/",
+      "example_translation": "S'il te plaît, explique-moi cela."
     },
     {
-      "word_id": "v18_6",
-      "term": "Kolon",
-      "phonetic_api": "/koloⁿ/",
-      "phonetic_simple": "KO-LON",
-      "translation": "Savoir / Comprendre / Maîtriser",
-      "example_sentence": "N wama a kolonfe alɔ n na a rabafe.",
-      "example_phonetic": "/n wama a koloⁿfɛ alɔ n na a rabafɛ/",
-      "example_translation": "Je veux savoir comment je dois procéder."
-    },
-    {
-      "word_id": "v18_7",
-      "term": "Tongo",
-      "phonetic_api": "/toⁿɡo/",
-      "phonetic_simple": "TON-GO",
-      "translation": "Prendre / Suivre (un conseil ou une voie)",
-      "example_sentence": "Tongo marasi fanyi ki.",
-      "example_phonetic": "/toⁿɡo marasi faɲi ki/",
-      "example_translation": "Suis ce bon conseil."
-    },
-    {
-      "word_id": "v18_8",
-      "term": "Singe",
-      "phonetic_api": "/siⁿdʒɛ/",
-      "phonetic_simple": "SIN-DJÉ",
-      "translation": "D'abord / Premièrement (étape d'instruction)",
-      "example_sentence": "Singe, i wasaxi i ma wali gbafe.",
-      "example_phonetic": "/siⁿdʒɛ i wasaxi i ma wali ɡbafɛ/",
-      "example_translation": "D'abord, il te faut terminer ton travail."
-    },
-    {
-      "word_id": "v18_9",
-      "term": "Na dangi",
-      "phonetic_api": "/na daⁿɡi/",
-      "phonetic_simple": "NA DAN-GUI",
-      "translation": "Ensuite / Après cela (étape d'instruction)",
-      "example_sentence": "Na dangi, won fama malanyi ma.",
-      "example_phonetic": "/na daⁿɡi woⁿ fama malaɲi ma/",
-      "example_translation": "Ensuite, nous irons en réunion."
-    },
-    {
-      "word_id": "v18_10",
-      "term": "Karamoxo",
-      "phonetic_api": "/karamoxo/",
-      "phonetic_simple": "KA-RA-MO-KHO",
-      "translation": "Conseiller / Maître / Guide sage",
-      "example_sentence": "Karamoxo fama marasi fanyi fife.",
-      "example_phonetic": "/karamoxo fama marasi faɲi fifɛ/",
-      "example_translation": "Le conseiller va donner un bon avis."
+      "word_id": "v6",
+      "term": "falan",
+      "phonetic_api": "/falan/",
+      "phonetic_simple": "fa-LAN",
+      "translation": "dire, expliquer (forme dérivée de 'fala')",
+      "example_sentence": "A falama di?",
+      "example_phonetic": "/a falama di/",
+      "example_translation": "Comment dit-on cela ?"
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p18_1",
-      "original": "Mali n bɛ, n wama i ma marasi ra fe ki ma.",
-      "phonetic_api": "/mali n bɛ n wama i ma marasi ra fɛ ki ma/",
-      "phonetic_simple": "MA-LI N BÈ, N WA-MA I MA MA-RA-SI RA FÈ KI MA",
-      "translation": "Aide-moi, je veux ton conseil sur cette affaire.",
-      "context": "Solliciter officiellement l'avis consultatif d'un collègue ou d'un aîné."
+      "phrase_id": "p1",
+      "original": "A falama di?",
+      "phonetic_api": "/a falama di/",
+      "phonetic_simple": "a fa-LA-ma di",
+      "translation": "Comment dit-on cela ?",
+      "context": "Question typique pour demander une explication linguistique ou pratique."
     },
     {
-      "phrase_id": "p18_2",
-      "original": "Marasi fanyi nan na ra, a tongo !",
-      "phonetic_api": "/marasi faɲi naⁿ na ra a toⁿɡo/",
-      "phonetic_simple": "MA-RA-SI FAN-YI NAN NA RA, A TON-GO !",
-      "translation": "C'est un excellent conseil, suis-le (prends-le) !",
-      "context": "Recommander vivement une option à un proche ou un subordonné."
+      "phrase_id": "p2",
+      "original": "I naxa munse?",
+      "phonetic_api": "/i naxa munse/",
+      "phonetic_simple": "i NA-kha MOUN-sé",
+      "translation": "Qu'as-tu dit ?",
+      "context": "Pour demander une clarification sur ce que l'interlocuteur vient de dire."
     },
     {
-      "phrase_id": "p18_3",
-      "original": "Singe, i wasaxi masɛbɛé birin ɲɛndɛfe baté ma.",
-      "phonetic_api": "/siⁿdʒɛ i wasaxi masɛbɛe biriⁿ ɲɛndɛfɛ baté ma/",
-      "phonetic_simple": "SIN-DJÉ, I WA-SA-KHI MA-SÈ-BÈÈ BI-RIN NYÈN-DÈ-FÈ BA-TÉ MA",
-      "translation": "D'abord, il te faut organiser tous les documents sur le bureau.",
-      "context": "Donner la première étape d'une série d'instructions professionnelles."
+      "phrase_id": "p3",
+      "original": "Gbilen a ma",
+      "phonetic_api": "/ɡbilen a ma/",
+      "phonetic_simple": "GBI-lèn a ma",
+      "translation": "Répète (reviens sur ce point)",
+      "context": "Pour demander poliment une répétition d'une instruction ou explication."
     },
     {
-      "phrase_id": "p18_4",
-      "original": "Na dangi, won sigama malanyi ma léri fu ma.",
-      "phonetic_api": "/na daⁿɡi woⁿ siɡama malaɲi ma leri fu ma/",
-      "phonetic_simple": "NA DAN-GUI, WON SI-GA-MA MA-LAN-YI MA LÉ-RI FOU MA",
-      "translation": "Ensuite, nous irons en réunion à dix heures.",
-      "context": "Énoncer l'instruction suivante dans la planification de la routine."
+      "phrase_id": "p4",
+      "original": "WçyEn dçyi dçyi",
+      "phonetic_api": "/wɔjɛn dɔji dɔji/",
+      "phonetic_simple": "wo-YÈN do-yi do-yi",
+      "translation": "Parle lentement",
+      "context": "Pour demander à l'interlocuteur de ralentir son débit de parole."
     },
     {
-      "phrase_id": "p18_5",
-      "original": "Na fisa i bɛ i mu xɔnɔfe fe yo ma.",
-      "phonetic_api": "/na fisa i bɛ i mu xɔnɔfɛ fɛ yo ma/",
-      "phonetic_simple": "NA FI-SA I BÈ I MOU KHO-NO-FÈ FÈ YO MA",
-      "translation": "Il est préférable pour toi de ne pas te fâcher pour cette affaire.",
-      "context": "Donner une instruction de modération comportementale."
-    },
-    {
-      "phrase_id": "p18_6",
-      "original": "Kira fanyi na mi won na a tongofe ?",
-      "phonetic_api": "/kira faɲi na mi woⁿ na a toⁿɡofɛ/",
-      "phonetic_simple": "KI-RA FAN-YI NA MI WON NA A TON-GO-FÈ ?",
-      "translation": "Quelle est la meilleure méthode (voie) que nous suivons ?",
-      "context": "Ouvrir une délibération d'équipe sur l'orientation d'un projet."
-    },
-    {
-      "phrase_id": "p18_7",
-      "original": "Won ma karamoxo fama won malife kira ma.",
-      "phonetic_api": "/woⁿ ma karamoxo fama woⁿ malifɛ kira ma/",
-      "phonetic_simple": "WON MA KA-RA-MO-KHO FA-MA WON MA-LI-FÈ KI-RA MA",
-      "translation": "Notre directeur va nous guider sur la marche à suivre.",
-      "context": "Rassurer l'équipe sur l'obtention d'instructions claires."
-    },
-    {
-      "phrase_id": "p18_8",
-      "original": "I nouwali marasi ra, na findixi fe fanyi ra.",
-      "phonetic_api": "/i nuwali marasi ra na fiⁿdixi fɛ faɲi ra/",
-      "phonetic_simple": "I NOU-WA-LI MA-RA-SI RA, NA FIN-DI-KHI FÈ FAN-YI RA",
-      "translation": "Merci pour le conseil, c'est une excellente chose.",
-      "context": "Exprimer sa gratitude après avoir reçu des instructions bénéfiques."
+      "phrase_id": "p5",
+      "original": "Siga tinxinyima han kiraxunyi",
+      "phonetic_api": "/siɡa tinxiɲima han kiraxuɲi/",
+      "phonetic_simple": "SI-ga tin-khi-GNI-ma han ki-ra-KHOU-gni",
+      "translation": "Va tout droit jusqu'au carrefour",
+      "context": "Exemple d'instruction précise à l'impératif, réutilisable pour tout type de consigne séquentielle."
     }
   ],
   "grammar_points": [
     {
-      "concept": "La structuration chronologique des instructions avec 'Singe' et 'Na dangi'",
-      "explanation": "Pour ordonner des consignes ou décrire un processus de travail étape par étape en soussou intermédiaire, on articule le discours en tête de proposition avec les adverbes de classement 'Singe' (premièrement/d'abord) et 'Na dangi' (ensuite/après cela).",
+      "concept": "Demander une clarification ou une répétition",
+      "explanation": "Le soussou dispose d'un ensemble figé de formules pour la gestion de la communication : demander ce qui a été dit ('I naxa munse?'), demander de répéter ('Gbilen a ma'), ou demander de parler plus lentement ('WçyEn dçyi dçyi'). Ces formules sont essentielles pour suivre des instructions.",
       "rules": [
-        "Placer 'Singe' devant l'instruction initiale (souvent combinée avec l'obligation 'wasa').",
-        "Amorcer la phrase suivante avec le connecteur de transition 'Na dangi' pour lier logiquement les étapes."
+        "Ces formules s'emploient généralement précédées de 'hakEto' (excuse-moi/pardon) par politesse",
+        "'Gbilen a ma' utilise le verbe 'gbilen' (revenir) suivi de 'a ma' (sur cela)"
       ],
       "examples": [
         {
-          "structure": "Singe, i wasaxi wali gbafe. Na dangi, won sigama.",
-          "phonetic_api": "/siⁿdʒɛ i wasaxi wali ɡbafɛ na daⁿgi woⁿ siɡama/",
-          "meaning": "D'abord, il te faut finir le travail. Ensuite, nous partirons."
+          "structure": "HakEto, gbilen a ma",
+          "phonetic_api": "/hakɛto, ɡbilen a ma/",
+          "meaning": "Pardon, répète s'il te plaît"
         }
       ]
     },
     {
-      "concept": "L'expression de la suggestion forte avec le comparatif d'excellence 'fisa... bɛ'",
-      "explanation": "Plutôt que d'employer un impératif direct perçu comme trop abrupt, le conseil et la recommandation d'instructions s'expriment au niveau intermédiaire via la structure préférentielle 'na fisa [Pronom] bɛ' (cela vaut mieux pour toi).",
+      "concept": "Donner une instruction à l'impératif",
+      "explanation": "Comme vu en leçon sur les directions, l'impératif utilise le radical verbal seul pour une instruction directe. Cette même structure sert à donner des conseils ou instructions dans n'importe quel contexte (cuisine, travail, orientation).",
       "rules": [
-        "Structure : Na + fisa + [Pronom bénéficiaire] + bɛ + [Proposition décrivant le conseil].",
-        "Cette tournure atténue l'ordre tout en soulignant le bénéfice de l'instruction."
+        "Structure : Verbe(radical) + Complément (ex. Yi kira giri = Traverse cette route)",
+        "Pour enchaîner plusieurs instructions, on les juxtapose simplement dans l'ordre chronologique"
       ],
       "examples": [
         {
-          "structure": "Na + fisa + i + bɛ + i + mu + xɔnɔ",
-          "phonetic_api": "/na fisa i bɛ i mu xɔnɔ/",
-          "meaning": "Il vaut mieux pour toi ne pas te fâcher (Je te conseille de rester calme)."
+          "structure": "So rabi, siga tinxinyima",
+          "phonetic_api": "/so rabi, siɡa tinxiɲima/",
+          "meaning": "Ouvre (la porte), va tout droit"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Marie",
-      "text": "Sékou, i kéna ! Mali n bɛ, n wama i ma marasi ra won ma wali fe ra.",
-      "phonetic_api": "/seku i kéna mali n bɛ n wama i ma marasi ra woⁿ ma wali fɛ ra/",
-      "phonetic_simple": "SÉ-KOU, I KÉ-NA ! MA-LI N BÈ, N WA-MA I MA MA-RA-SI RA WON MA WA-LI FÈ RA.",
-      "translation": "Sékou, salut ! Aide-moi, je sollicite ton conseil concernant notre projet de travail."
+      "speaker": "Apprenant",
+      "text": "HakEto, i naxa munse?",
+      "phonetic_api": "/hakɛto, i naxa munse/",
+      "phonetic_simple": "ha-KÈ-to, i NA-kha MOUN-sé",
+      "translation": "Pardon, qu'as-tu dit ?"
     },
     {
-      "speaker": "Sékou",
-      "text": "Marie, i kéna. Fala n bɛ, munse na i xonbiri ma alɔ kira ? N fama i malife.",
-      "phonetic_api": "/mari i kéna fala n bɛ muⁿsɛ na i xoⁿbiri ma alɔ kira n fama i malifɛ/",
-      "phonetic_simple": "MA-RI, I KÉ-NA. FA-LA N BÈ, MOUN-SÈ NA I KHON-BI-RI MA A-LO KI-RA ? N FA-MA I MA-LI-FÈ.",
-      "translation": "Marie, salut. Explique-moi, quelle est la méthode ou la difficulté actuelle ? Je vais te guider."
+      "speaker": "Formateur",
+      "text": "Gbilen a ma. Yi kira giri, na so yifanyima.",
+      "phonetic_api": "/ɡbilen a ma, ji kira ɡiri, na so jifaɲima/",
+      "phonetic_simple": "GBI-lèn a ma, yi KI-ra gui-ri, na so yi-fa-GNI-ma",
+      "translation": "Je répète. Traverse cette route, puis tourne à droite."
     },
     {
-      "speaker": "Marie",
-      "text": "Masɛbɛé gbe na yanbɛ baté ma, n mu kolon alɔ n na a ɲɛndɛfe.",
-      "phonetic_api": "/masɛbɛe ɡbɛ na yaⁿbɛ baté ma n mu koloⁿ alɔ n na a ɲɛndɛfɛ/",
-      "phonetic_simple": "MA-SÈ-BÈÈ GBÈ NA YAN-BÈ BA-TÉ MA, N MOU KO-LON A-LO N NA A NYÈN-DÈ-FÈ.",
-      "translation": "Il y a beaucoup de documents ici sur le bureau, je ne sais pas comment les organiser."
+      "speaker": "Apprenant",
+      "text": "WçyEn dçyi dçyi, hakEto.",
+      "phonetic_api": "/wɔjɛn dɔji dɔji, hakɛto/",
+      "phonetic_simple": "wo-YÈN do-yi do-yi, ha-KÈ-to",
+      "translation": "Parle lentement, s'il te plaît."
     },
     {
-      "speaker": "Sékou",
-      "text": "Nba ! Singe, i wasaxi masɛbɛé ɲɛndɛfe loxi birin ma fe ra. Na dangi, won fama a fife karamoxo bɛ.",
-      "phonetic_api": "/ⁿba siⁿdʒɛ i wasaxi masɛbɛe ɲɛndɛfɛ loxi biriⁿ ma fɛ ra na daⁿgi woⁿ fama a fifɛ karamoxo bɛ/",
-      "phonetic_simple": "N-BA ! SIN-DJÉ, I WA-SA-KHI MA-SÈ-BÈÈ NYÈN-DÈ-FÈ LO-KHI BI-RIN MA FÈ RA. NA DAN-GUI, WON FA-MA A FI-FÈ KA-RA-MO-KHO BÈ.",
-      "translation": "D'accord ! D'abord, il te faut classer les documents selon l'ordre quotidien. Ensuite, nous allons les transmettre au directeur."
-    },
-    {
-      "speaker": "Marie",
-      "text": "Na fisa n bɛ gbe ra ! Tongo marasi fanyi ki, n na a fahaamufe ki ma. I nouwali !",
-      "phonetic_api": "/na fisa n bɛ ɡbɛ ra toⁿɡo marasi faɲi ki n na a fahaːmufɛ ki ma i nuwali/",
-      "phonetic_simple": "NA FI-SA N BÈ GBÈ RA ! TON-GO MA-RA-SI FAN-YI KI, N NA A FA-HA-A-MOU-FÈ KI MA. I NOU-WA-LI !",
-      "translation": "C'est une excellente recommandation pour moi ! Je suis (prends) ce bon conseil, je comprends mieux maintenant. Merci !"
+      "speaker": "Formateur",
+      "text": "Awa. Yi... kira... giri.",
+      "phonetic_api": "/awa, ji, kira, ɡiri/",
+      "phonetic_simple": "a-wa, yi... KI-ra... gui-ri",
+      "translation": "D'accord. Traverse... cette... route."
     }
   ],
   "cultural_notes": [
-    "En Basse-Guinée, la transmission des consignes et la demande de conseils ('marasi') obéissent à un protocole d'écoute respectueux. Solliciter l'avis de ses collègues expérimentés ou de son tuteur démontre une volonté d'intégration et rejette l'arrogance individuelle. Pour formuler une directive sans paraître autoritaire, la langue utilise des tournures bienveillantes comme 'na fisa i bɛ', renforçant l'harmonie et l'entraide ('mali') nécessaires au sein du groupe social ou professionnel."
+    "Demander à quelqu'un de répéter ou de parler plus lentement n'est jamais perçu comme impoli en soussou, à condition d'introduire la demande avec 'hakEto' (pardon).",
+    "Dans le cadre d'un apprentissage (langue, artisanat), il est courant que le formateur répète plusieurs fois une instruction de façon très posée, la pédagogie orale traditionnelle valorisant la répétition patiente."
   ],
   "exercises": [
     {
-      "exercise_id": "ex18_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel substantif désigne de façon précise un conseil, un avis ou une recommandation directive ?",
+      "question": "Comment demande-t-on à quelqu'un de répéter en soussou ?",
       "options": [
-        "Kira",
-        "Marasi",
-        "Wali"
+        "Gbilen a ma",
+        "A falama di?",
+        "I naxa munse?"
       ],
-      "correct_answer": "Marasi",
-      "explanation": "'Marasi' désigne explicitement un conseil ou un avertissement constructif donné par un tiers."
+      "correct_answer": "Gbilen a ma",
+      "explanation": "'Gbilen a ma' signifie littéralement 'reviens sur cela', c'est-à-dire 'répète'."
     },
     {
-      "exercise_id": "ex18_2",
-      "type": "multiple_choice",
-      "question": "Quel connecteur utilisez-vous pour marquer l'enchaînement de la seconde étape d'une instruction ?",
-      "options": [
-        "Singe",
-        "Babilong ma",
-        "Na dangi"
-      ],
-      "correct_answer": "Na dangi",
-      "explanation": "'Na dangi' dérive de 'passer cela' et sert à introduire la suite chronologique d'une consigne ('ensuite')."
-    },
-    {
-      "exercise_id": "ex18_3",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "[ ___ ], i wasaxi masɛbɛé ɲɛndɛfe. (D'abord, il te faut classer...)",
-      "correct_answer": "Singe",
-      "hint": "C'est l'adverbe ordinal utilisé pour introduire la toute première étape d'une action."
-    },
-    {
-      "exercise_id": "ex18_4",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Na fisa i [ ___ ] i mu xɔnɔfe. (Il vaut mieux pour toi...)",
-      "correct_answer": "bɛ",
-      "hint": "C'est la postposition de bénéfice rattachée à la personne qui reçoit la suggestion."
+      "sentence_with_blank": "'Parle lentement' se dit : WçyEn [ ___ ] [ ___ ].",
+      "correct_answer": "dçyi dçyi",
+      "hint": "Le mot est répété deux fois pour insister sur la lenteur."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Peace Corps Guinée — Xarandi Xa Buki, Livre du stagiaire Sosoxui (Susu Language Lessons)",
+      "url": "https://fsi-languages.yojik.eu/languages/PeaceCorps/Susu/susu-language-course.pdf"
+    },
+    {
+      "label": "Live Lingua Project — Peace Corps Susu Language Lessons",
+      "url": "https://www.livelingua.com/course/peace_corps/susu_language_lessons"
+    }
+  ],
+  "confidence": "élevée",
+  "confidence_note": "Toutes les formules de clarification et l'impératif directionnel sont directement extraits et traduits dans les Compétences 2 et 4 du manuel Peace Corps Susu."
 }

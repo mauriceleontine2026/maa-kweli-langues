@@ -4,167 +4,195 @@
   "module_number": 2,
   "module_title": "Le temps et le récit",
   "lesson_number": 4,
-  "title": "Raconter des faits passés",
+  "title": "Raconter des faits passés (les temps du récit)",
   "learning_objectives": [
-    "Utiliser le suffixe ou la particule du passé pour relater un événement",
-    "Structurer chronologiquement un récit simple à l'aide d'adverbes temporels"
+    "Distinguer les trois régions temporelles du passé nalu (courant, distal, détaché)",
+    "Utiliser les suffixes -et (passé distal) et -yɛ (passé détaché) pour situer un récit",
+    "Reconnaître la particule narrative « bi » assurant la continuité thématique"
   ],
   "phonetic_focus": {
-    "key_sounds": "La consonne occlusive injective bilabiale /ɓ/ (souvent notée b') demande une légère dépression de l'air dans la bouche avant le relâchement des lèvres. Le morphème du passé '-a' crée une extension de la dernière syllabe du verbe.",
-    "common_pitfalls": "Attention à ne pas confondre la particule narrative 'n'gbe' (qui sert aussi de coordonnant ou d'adverbe pour 'aujourd'hui') avec le marqueur spécifique de l'aspect accompli."
+    "key_sounds": "Le nalu comporte 7 voyelles avec opposition de longueur (i, u, e [ɪ], o [ʊ], ɛ, ɔ, a) et des consonnes comme θ (proche du 'th' anglais dur, prononcé [f] par de nombreux locuteurs), gb (occlusive labio-vélaire double, sans équivalent en français), et ŋ (comme 'ng' dans 'parking'). Source : Seidel (2024), The Oxford Guide to the Atlantic Languages of West Africa.",
+    "common_pitfalls": "Les francophones ont tendance à confondre ɛ/e et ɔ/o car le français ne marque pas systématiquement cette opposition de fermeture. Le θ est souvent mal prononcé car il n'existe pas en français ; beaucoup de locuteurs nalu eux-mêmes le réalisent [f]. La longueur vocalique (ex. redoublement de voyelle 'ɔɔ') doit être respectée, contrairement au français où elle n'est pas distinctive."
   },
   "vocabulary": [
     {
-      "word_id": "v13_1",
-      "term": "Cen",
-      "phonetic_api": "/tʃen/",
-      "phonetic_simple": "TCHEN",
-      "translation": "Hier",
-      "example_sentence": "M boku cen.",
-      "example_phonetic": "/m bo.ku tʃen/",
-      "example_translation": "Je suis venu hier."
+      "word_id": "v1",
+      "term": "kɔh / kɔhet / kɔhyɛ",
+      "phonetic_api": "/kɔh/, /kɔhet/, /kɔhjɛ/",
+      "phonetic_simple": "KOH / KOHÉT / KOHYÈ",
+      "translation": "aller (présent/passé récent, passé distal, passé détaché)",
+      "example_sentence": "Mkɔy koya kaa kanɛɛn kɔhyɛ mtah muh.",
+      "example_phonetic": "/mkɔj koja kaː kanɛːn kɔhjɛ mtah muh/",
+      "example_translation": "La forêt est là où tu es allé l'autre jour (passé détaché)."
     },
     {
-      "word_id": "v13_2",
-      "term": "Ba-a",
-      "phonetic_api": "/ba.a/",
-      "phonetic_simple": "BA-A",
-      "translation": "Être venu (passé du verbe Ba)",
-      "example_sentence": "Baa mi a ba-a.",
-      "example_phonetic": "/baː mi a ba.a/",
-      "example_translation": "Mon père est venu."
+      "word_id": "v2",
+      "term": "-et (suffixe)",
+      "phonetic_api": "/-et/",
+      "phonetic_simple": "-ÉT",
+      "translation": "marque du passé distal",
+      "example_sentence": "Ataktet abirik nufɔɔden.",
+      "example_phonetic": "/ataktet abirik nufɔːden/",
+      "example_translation": "Il a transporté des briques hier."
     },
     {
-      "word_id": "v13_3",
-      "term": "Lir-a",
-      "phonetic_api": "/lir.a/",
-      "phonetic_simple": "LIR-A",
-      "translation": "A porté / A mis (vêtement)",
-      "example_sentence": "M lir-a abal mi cen.",
-      "example_phonetic": "/m lir.a a.bal mi tʃen/",
-      "example_translation": "J'ai porté mon vêtement hier."
+      "word_id": "v3",
+      "term": "-yɛ (suffixe)",
+      "phonetic_api": "/-jɛ/",
+      "phonetic_simple": "-YÈ",
+      "translation": "marque du passé détaché",
+      "example_sentence": "Ameyyɛ dɛ pupaŋ maam refyɛ nufur?",
+      "example_phonetic": "/amejːɛ dɛ pupaŋ maːm refjɛ nufur/",
+      "example_translation": "Connaissais-tu mon père, qui est mort la dernière saison sèche ?"
     },
     {
-      "word_id": "v13_4",
-      "term": "Wale-a",
-      "phonetic_api": "/wa.le.a/",
-      "phonetic_simple": "WA-LÉ-A",
-      "translation": "A travaillé / A fait",
-      "example_sentence": "M wale-a di gbarano.",
-      "example_phonetic": "/m wa.le.a di g͡ba.ra.no/",
-      "example_translation": "J'ai travaillé dans la cour."
+      "word_id": "v4",
+      "term": "bi (particule narrative)",
+      "phonetic_api": "/bi/",
+      "phonetic_simple": "BI",
+      "translation": "particule de narration, continuité",
+      "example_sentence": "Mtah dooŋ abi yina betna wa amaaro wah.",
+      "example_phonetic": "/mtah dɔːŋ abi jina betna wa amaːro wah/",
+      "example_translation": "Un jour, il sortit ce riz-là."
     },
     {
-      "word_id": "v13_5",
-      "term": "Mun",
-      "phonetic_api": "/mun/",
-      "phonetic_simple": "MOUN",
-      "translation": "Avant / Jadis / Passé",
-      "example_sentence": "Mun, m kanyen Boké.",
-      "example_phonetic": "/mun m ka.ɲeŋ bo.ke/",
-      "example_translation": "Avant, j'habitais à Boké."
+      "word_id": "v5",
+      "term": "resey / resyah",
+      "phonetic_api": "/resej/, /resjah/",
+      "phonetic_simple": "RÉSÉY / RÉSYAH",
+      "translation": "casser, ruiner / être ruiné",
+      "example_sentence": "Nɛɛ bɛɲɛɛn yinyina bɛ-y bɛreseyta a-fɔɔn kabaabelkɛ.",
+      "example_phonetic": "/nɛː bɛɲɛːn jinjina bɛj bɛresejta afɔːn kabaːbelkɛ/",
+      "example_translation": "Ces gens qui vinrent et vinrent, ils détruisirent les lieux rituels des Nalu."
+    },
+    {
+      "word_id": "v6",
+      "term": "ref",
+      "phonetic_api": "/ref/",
+      "phonetic_simple": "RÉF",
+      "translation": "mourir",
+      "example_sentence": "Mayil Sɛku Ture ref en 84.",
+      "example_phonetic": "/majil sɛku ture ref en 84/",
+      "example_translation": "L'année où Sékou Touré est mort, en 1984…"
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p13_1",
-      "original": "A rila a wale-a cen?",
-      "phonetic_api": "/a ri.la a wa.le.a tʃen/",
-      "phonetic_simple": "A RI-LA A WA-LÉ-A TCHEN",
-      "translation": "Qu'as-tu fait hier ?",
-      "context": "Question de base pour s'informer du déroulement de la journée précédente d'un proche."
+      "phrase_id": "p1",
+      "original": "Mtah dooŋ abi yina betna wa amaaro wah.",
+      "phonetic_api": "/mtah dɔːŋ abi jina betna wa amaːro wah/",
+      "phonetic_simple": "M-TAH DOONG ABI YINA BÉTNA WA AMAARO WAH",
+      "translation": "Un jour, il sortit ce riz-là.",
+      "context": "Amorce narrative typique utilisant la particule « bi »."
     },
     {
-      "phrase_id": "p13_2",
-      "original": "M ba-a mu thand cen.",
-      "phonetic_api": "/m ba.a mu θand tʃen/",
-      "phonetic_simple": "M BA-A MOU THAND TCHEN",
-      "translation": "Je suis venu tout près hier.",
-      "context": "Permet de justifier ou de situer son déplacement récent."
+      "phrase_id": "p2",
+      "original": "Mayil Sɛku Ture ref en 84.",
+      "phonetic_api": "/majil sɛku ture ref en 84/",
+      "phonetic_simple": "MAYIL SÉKOU TOURÉ RÉF ÉN 84",
+      "translation": "L'année où Sékou Touré est mort, en 1984…",
+      "context": "Ancrage historique réel (mort de Sékou Touré, président guinéen, en 1984) attesté par Seidel (2024)."
     },
     {
-      "phrase_id": "p13_3",
-      "original": "Mun, nalu mi a ce b'at.",
-      "phonetic_api": "/mun na.lu mi a tʃe ɓat/",
-      "phonetic_simple": "MOUN, NA-LU MI A TCHÉ BAT",
-      "translation": "Autrefois, ma famille était très prospère.",
-      "context": "Formule d'introduction courante pour entamer un récit historique familial."
+      "phrase_id": "p3",
+      "original": "Min ti bel kayɛnɛ kaacek.",
+      "phonetic_api": "/min ti bel kajɛnɛ kaːt͜sek/",
+      "phonetic_simple": "MIN TI BÉL KAYÈNÈ KAATSÉK",
+      "translation": "En '85, le 3 avril '85, je suis entré à Kacek.",
+      "context": "Récit autobiographique attesté avec date précise."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Min ti dikrahtɛn nikamsar.",
+      "phonetic_api": "/min ti dikrahtɛn nikamsar/",
+      "phonetic_simple": "MIN TI DIKRAHTÈN NI-KAMSAR",
+      "translation": "En '86, je suis retourné à Kamsar.",
+      "context": "Suite du récit autobiographique attesté."
     }
   ],
   "grammar_points": [
     {
-      "concept": "Le suffixe du passé accompli '-a'",
-      "explanation": "En nalu, l'accompli (le passé) des verbes d'action s'exprime régulièrement par l'adjonction d'un suffixe vocalique '-a' directement soudé à la fin de la racine verbale.",
+      "concept": "Trois régions temporelles du passé",
+      "explanation": "Le nalu organise le passé en trois « régions temporelles » distinctes plutôt qu'en temps grammaticaux classiques : la région courante (forme non marquée, ex. kɔh « être allé »), la région distale marquée par -et (kɔhet « alla »), et la région détachée marquée par -yɛ (kɔhyɛ « était allé », événement dissocié du présent) (Seidel 2024).",
       "rules": [
-        "Si le verbe se termine par une consonne, le '-a' se prononce distinctement comme une syllabe finale.",
-        "Si le verbe se termine déjà par une voyelle, celle-ci s'allonge ou s'ouvre légèrement pour marquer la rupture temporelle."
+        "Le passé distal (-et) sert pour des événements récents mais achevés, souvent combiné à des adverbes comme nufɔɔden « hier ».",
+        "Le passé détaché (-yɛ) marque une distance temporelle ou psychologique plus grande, utilisé pour des faits historiques ou anciens.",
+        "La particule « bi » structure la narration et maintient la continuité entre les phrases d'un récit."
       ],
       "examples": [
         {
-          "structure": "Wale (Travailler) -> Wale-a (A travaillé)",
-          "phonetic_api": "/wa.le.a/",
-          "meaning": "A travaillé / A fait"
-        },
-        {
-          "structure": "Ba (Venir) -> Ba-a (Est venu)",
-          "phonetic_api": "/ba.a/",
-          "meaning": "Est venu"
+          "structure": "kɔh / kɔhet / kɔhyɛ",
+          "phonetic_api": "/kɔh/, /kɔhet/, /kɔhjɛ/",
+          "meaning": "« être allé » (courant) / « alla » (distal) / « était allé » (détaché)"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Amara",
-      "text": "Mboye, Sékou ! A rila a wale-a cen?",
-      "phonetic_api": "/mbo.je se.ku a ri.la a wa.le.a tʃen/",
-      "phonetic_simple": "MBO-YÉ, SÉ-KOU ! A RI-LA A WA-LÉ-A TCHEN?",
-      "translation": "Bonjour, Sékou ! Qu'as-tu fait hier ?"
+      "speaker": "Narrateur",
+      "text": "Mtah dooŋ abi yina betna wa amaaro wah.",
+      "phonetic_api": "/mtah dɔːŋ abi jina betna wa amaːro wah/",
+      "phonetic_simple": "M-TAH DOONG ABI YINA BÉTNA WA AMAARO WAH",
+      "translation": "Un jour, il sortit ce riz-là."
     },
     {
-      "speaker": "Sékou",
-      "text": "Mboye ce ! Cen, m ba-a di thaŋa Boké. M malang-a ceeb.",
-      "phonetic_api": "/mbo.je tʃe tʃen m ba.a di θa.ŋa bo.ke m ba.laŋ.a tʃeːb/",
-      "phonetic_simple": "MBO-YÉ TCHÉ ! TCHEN, M BA-A DI THA-NGA BO-KÉ. M BA-LANG-A TCHÉÉB.",
-      "translation": "Bonjour bien ! Hier, je suis allé en ville à Boké. J'ai acheté (voulu) du poisson."
+      "speaker": "Auditeur",
+      "text": "Ameyyɛ dɛ pupaŋ maam refyɛ nufur?",
+      "phonetic_api": "/amejːɛ dɛ pupaŋ maːm refjɛ nufur/",
+      "phonetic_simple": "AMÉYYÈ DÈ POUPANG MAAM RÉFYÈ NOUFOUR",
+      "translation": "Savais-tu que mon père est mort la dernière saison sèche ?"
     },
     {
-      "speaker": "Amara",
-      "text": "A ce ! A mboye nalu mwo cen?",
-      "phonetic_api": "/a tʃe a mbo.je na.lu mwo tʃen/",
-      "phonetic_simple": "A TCHÉ ! A MBO-YÉ NA-LU MWO TCHEN?",
-      "translation": "C'est bien ! Comment allait ta famille hier ?"
+      "speaker": "Narrateur",
+      "text": "Min ti bel kayɛnɛ kaacek.",
+      "phonetic_api": "/min ti bel kajɛnɛ kaːt͜sek/",
+      "phonetic_simple": "MIN TI BÉL KAYÈNÈ KAATSÉK",
+      "translation": "En '85, je suis entré à Kacek."
     },
     {
-      "speaker": "Sékou",
-      "text": "Nalu mi a gbe kunu ce, nu koka.",
-      "phonetic_api": "/na.lu mi a ŋgbe ku.nu tʃe nu ko.ka/",
-      "phonetic_simple": "NA-LU MI A NGBÉ KOU-NOU TCHÉ, NOU KO-KA.",
-      "translation": "Ma famille était heureuse, merci."
+      "speaker": "Narrateur",
+      "text": "Mayil Sɛku Ture ref en 84.",
+      "phonetic_api": "/majil sɛku ture ref en 84/",
+      "phonetic_simple": "MAYIL SÉKOU TOURÉ RÉF ÉN 84",
+      "translation": "L'année où Sékou Touré est mort, en 1984…"
     }
   ],
   "cultural_notes": [
-    "L'art du récit et de la palabre historique est un pilier de la transmission chez les Nalu. Lorsqu'un ancien commence sa phrase par l'adverbe 'Mun' (Jadis / Autrefois), l'auditoire observe un silence total en signe de profond respect, car le passé est perçu comme la source de la sagesse et de la cohésion du clan."
+    "L'exemple attesté « Mayil Sɛku Ture ref en 84 » fait référence à Ahmed Sékou Touré, premier président de la République de Guinée, mort en 1984 — preuve que les locuteurs nalu situent leurs récits personnels par rapport à de grands repères historiques nationaux (Seidel 2024).",
+    "Le récit autobiographique cité par Seidel, mentionnant Kamsar, Kacek et les années 84-86, illustre les migrations de travail des Nalu vers les zones industrielles (usine, contrat) dans les années 1980."
   ],
   "exercises": [
     {
-      "exercise_id": "ex13_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel adverbe temporel utilise-t-on pour dire 'Hier' ?",
+      "question": "Quel suffixe marque le « passé détaché » en nalu ?",
       "options": [
-        "Suba",
-        "N'gbe",
-        "Cen"
+        "-et",
+        "-yɛ",
+        "-ŋah"
       ],
-      "correct_answer": "Cen",
-      "explanation": "'Cen' est le terme nalu équivalent à la journée d'hier, à distinguer de 'suba' (demain) et 'n'gbe' (aujourd'hui)."
+      "correct_answer": "-yɛ",
+      "explanation": "Le passé détaché (période dissociée du présent) est marqué par -yɛ (Seidel 2024)."
     },
     {
-      "exercise_id": "ex13_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Pour marquer le passé sur le verbe wale (travailler), on lui ajoute le suffixe exact : m [ ___ ].",
-      "correct_answer": "wale-a",
-      "hint": "C'est la forme accomplie de l'action de travailler"
+      "sentence_with_blank": "« Ataktet abirik nufɔɔden » utilise le suffixe [ ___ ] pour marquer le passé distal.",
+      "correct_answer": "-et",
+      "hint": "Visible dans « ataktet » (il transporta)."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Seidel, F. (2024) « Nalu », in The Oxford Guide to the Atlantic Languages of West Africa, Oxford University Press",
+      "url": "https://academic.oup.com/book/59850/chapter/511378992"
+    },
+    {
+      "label": "Glottolog 5.3, « Nalu » (nalu1240 / naj)",
+      "url": "https://glottolog.org/resource/languoid/id/nalu1240"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Le système des trois régions temporelles du passé est bien décrit et illustré par des phrases attestées dans Seidel (2024), ce qui permet une leçon relativement solide malgré la rareté générale de la documentation sur le nalu."
 }

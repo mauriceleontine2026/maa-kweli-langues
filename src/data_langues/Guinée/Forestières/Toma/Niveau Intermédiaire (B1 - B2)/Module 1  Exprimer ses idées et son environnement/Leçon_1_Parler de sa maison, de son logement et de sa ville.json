@@ -6,128 +6,229 @@
   "lesson_number": 1,
   "title": "Parler de sa maison, de son logement et de sa ville",
   "learning_objectives": [
-    "Décrire les différentes pièces d'une habitation en toma",
-    "Situer son logement au sein de l'espace urbain ou du village"
+    "Décrire les différentes parties et formes d'une maison traditionnelle",
+    "Nommer les lieux importants d'une ville ou d'un village",
+    "Utiliser les postpositions de lieu pour situer un endroit dans la maison"
   ],
   "phonetic_focus": {
-    "key_sounds": "La consonne implosive /ɗ/ (parfois notée d barré) demande un mouvement d'aspiration glottale inverse. L'allongement vocalique interne (ex: 'éé') détermine le type de bâtiment.",
-    "common_pitfalls": "Ne pas substituer le /ɗ/ par un /d/ standard européen, sous peine de changer radicalement la signification sémantique de l'espace décrit."
+    "key_sounds": "Les noms composés désignant les types d'habitat (kiliyilipelei, kpesapelei) combinent plusieurs racines ; il est important de bien marquer chaque syllabe et le ton pour distinguer ces mots longs.",
+    "common_pitfalls": "Les francophones ont tendance à raccourcir les mots composés longs, ce qui peut rendre le mot méconnaissable ; il faut prononcer chaque partie du composé distinctement."
   },
   "vocabulary": [
     {
-      "word_id": "v10_1",
-      "term": "pɛlɛ vɛlɛ",
-      "phonetic_api": "/pɛ.lɛ vɛ.lɛ/",
-      "phonetic_simple": "PE-LE VE-LE",
-      "translation": "maison / bâtiment d'habitation",
-      "example_sentence": "Na pɛlɛ vɛlɛ vaza.",
-      "example_phonetic": "/na pɛ.lɛ vɛ.lɛ va.za/",
-      "example_translation": "Ma maison est belle."
+      "word_id": "v1",
+      "term": "Pele / Peleí",
+      "phonetic_api": "/pele/",
+      "phonetic_simple": "PÉ-LÉ",
+      "translation": "Maison",
+      "example_sentence": "Ge peleí gaa gwaÿla.",
+      "example_phonetic": "/ge peleː gaː gwaɤla/",
+      "example_translation": "Ma maison est grande."
     },
     {
-      "word_id": "v10_2",
-      "term": "kpɔɔñ",
-      "phonetic_api": "/kpɔː̃/",
-      "phonetic_simple": "KPOON",
-      "translation": "chambre / espace privé",
-      "example_sentence": "Na li na kpɔɔñ zu.",
-      "example_phonetic": "/na li na kpɔː̃ zu/",
-      "example_translation": "Je vais dans ma chambre."
+      "word_id": "v2",
+      "term": "Kiliyilipelei",
+      "phonetic_api": "/kilijilipelei/",
+      "phonetic_simple": "KI-LI-YI-LI-PÉ-LÉÏ",
+      "translation": "Maison circulaire (traditionnelle)",
+      "example_sentence": "Kiliyilipelei ya na.",
+      "example_phonetic": "/kilijilipelei ja na/",
+      "example_translation": "Voici une maison circulaire."
     },
     {
-      "word_id": "v10_3",
-      "term": "taa",
-      "phonetic_api": "/taː/",
-      "phonetic_simple": "TAA",
-      "translation": "ville / grand village",
-      "example_sentence": "Giriwaza taa gaza ɓaa.",
-      "example_phonetic": "/ɡi.ri.wa.za taː ɡa.za ɓaː/",
-      "example_translation": "Macenta est une grande ville."
+      "word_id": "v3",
+      "term": "Kpesapelei",
+      "phonetic_api": "/kpesapelei/",
+      "phonetic_simple": "KPÉ-SA-PÉ-LÉÏ",
+      "translation": "Maison carrée/rectangulaire",
+      "example_sentence": "Kpesapelei ya kpokpo.",
+      "example_phonetic": "/kpesapelei ja kpɔkpɔ/",
+      "example_translation": "La maison carrée est neuve."
     },
     {
-      "word_id": "v10_4",
-      "term": "kwi-vɛlɛ",
-      "phonetic_api": "/kwi.vɛ.lɛ/",
-      "phonetic_simple": "KWI-VE-LE",
-      "translation": "bâtiment en dur / moderne",
-      "example_sentence": "Ta kwi-vɛlɛ lɔɔza.",
-      "example_phonetic": "/ta kwi.vɛ.lɛ lɔː.za/",
-      "example_translation": "Ils construisent un bâtiment moderne."
+      "word_id": "v4",
+      "term": "Pelewalai",
+      "phonetic_api": "/pelewalai/",
+      "phonetic_simple": "PÉ-LÉ-WA-LAÏ",
+      "translation": "Grande salle/pièce",
+      "example_sentence": "Pelewalai zu.",
+      "example_phonetic": "/pelewalai zu/",
+      "example_translation": "Dans la grande pièce."
+    },
+    {
+      "word_id": "v5",
+      "term": "Zamazuve",
+      "phonetic_api": "/zamazuve/",
+      "phonetic_simple": "ZA-MA-ZOU-VÉ",
+      "translation": "Au milieu de",
+      "example_sentence": "Peleí zamazuve.",
+      "example_phonetic": "/peleː zamazuve/",
+      "example_translation": "Au milieu de la maison."
+    },
+    {
+      "word_id": "v6",
+      "term": "Taÿi",
+      "phonetic_api": "/taɤi/",
+      "phonetic_simple": "TA-I",
+      "translation": "Ville, village",
+      "example_sentence": "Ge taÿi gaa gwaÿla.",
+      "example_phonetic": "/ge taɤi gaː gwaɤla/",
+      "example_translation": "Mon village est grand."
+    },
+    {
+      "word_id": "v7",
+      "term": "Motee",
+      "phonetic_api": "/mɔteː/",
+      "phonetic_simple": "MO-TÉÉ",
+      "translation": "Voiture",
+      "example_sentence": "Motee ya taÿi zu.",
+      "example_phonetic": "/mɔteː ja taɤi zu/",
+      "example_translation": "La voiture est dans la ville."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p10_1",
-      "original": "I pɛlɛ vɛlɛ lɔ taa zu?",
-      "phonetic_api": "/i pɛ.lɛ vɛ.lɛ lɔ taː zu/",
-      "phonetic_simple": "I PE-LE VE-LE LO TAA ZOU",
-      "translation": "Ta maison se trouve-t-elle en ville ?",
-      "context": "Question de niveau intermédiaire pour situer l'habitat d'un ami."
+      "phrase_id": "p1",
+      "original": "Ge peleí gaa gwaÿla.",
+      "phonetic_api": "/ge peleː gaː gwaɤla/",
+      "phonetic_simple": "GUÉ-PÉ-LÉ-GA-GWA-LA",
+      "translation": "Ma maison est grande.",
+      "context": "Décrire sa propre maison."
     },
     {
-      "phrase_id": "p10_2",
-      "original": "Na pɛlɛ vɛlɛ ɓila taa gbala.",
-      "phonetic_api": "/na pɛ.lɛ vɛ.lɛ ɓi.la taː ɡba.la/",
-      "phonetic_simple": "NA PE-LE VE-LE BILA TAA GBA-LA",
-      "translation": "Ma maison est proche de la ville.",
-      "context": "Réponse topographique courante."
+      "phrase_id": "p2",
+      "original": "Ya wulo mine?",
+      "phonetic_api": "/ja wulɔ mine/",
+      "phonetic_simple": "YA-WOU-LO-MI-NÉ",
+      "translation": "D'où viens-tu (de quelle ville/maison) ?",
+      "context": "Demander l'origine géographique de quelqu'un."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Ge liini taazu.",
+      "phonetic_api": "/ge liːni taːzu/",
+      "phonetic_simple": "GUÉ-LI-NI-TA-ZOU",
+      "translation": "Je suis allé en ville.",
+      "context": "Décrire un déplacement vers la ville."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Kiliyilipelei ya na.",
+      "phonetic_api": "/kilijilipelei ja na/",
+      "phonetic_simple": "KI-LI-YI-LI-PÉ-LÉÏ-YA-NA",
+      "translation": "Voici une maison circulaire.",
+      "context": "Présenter/montrer un type d'habitat traditionnel."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'expression de la localisation complexe",
-      "explanation": "Pour décrire des positions complexes (dans, à côté, loin), le toma superpose les postpositions 'zu' ou 'gbala' en fin de groupe nominal.",
+      "concept": "Les noms composés pour décrire l'habitat",
+      "explanation": "Le toma/loma forme des noms composés en associant une racine décrivant la forme ('kili' = rond/cercle, 'kpesa' = carré) à la racine 'pele/pelei' (maison/pièce). Ceci reflète une catégorisation culturelle des types d'architecture traditionnelle.",
       "rules": [
-        "Le complément d'objet spatial précède toujours la postposition locative.",
-        "Les modificateurs d'intensité s'ajoutent après la postposition."
+        "Racine de forme + pele/pelei = type de maison.",
+        "'Kili-yili-pelei' désigne une maison ronde, 'kpesa-pelei' une maison carrée."
       ],
       "examples": [
         {
-          "structure": "taa zu gaza",
-          "phonetic_api": "/taː zu ɡa.za/",
-          "meaning": "au plein cœur de la ville"
+          "structure": "Kiliyilipelei",
+          "phonetic_api": "/kilijilipelei/",
+          "meaning": "Maison circulaire traditionnelle."
+        }
+      ]
+    },
+    {
+      "concept": "Situer un lieu avec les postpositions déjà connues",
+      "explanation": "Pour parler de sa maison ou de sa ville, on réutilise les postpositions de lieu ('zu' = dans, 'ma' = sur) déjà vues en A1, appliquées désormais à des noms d'habitation et de lieux urbains.",
+      "rules": [
+        "Nom de lieu + zu = dans (le lieu).",
+        "Zamazuve = expression figée signifiant 'au milieu de'."
+      ],
+      "examples": [
+        {
+          "structure": "Peleí zamazuve.",
+          "phonetic_api": "/peleː zamazuve/",
+          "meaning": "Au milieu de la maison."
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "ZÉzé",
-      "text": "I vɛlɛ vaza gaza! Kpɔɔñ lɔsa na ma?",
-      "phonetic_api": "/i vɛ.lɛ va.za ɡa.za kpɔː̃ lɔ.sa na ma/",
-      "phonetic_simple": "I VE-LE VA-ZA GA-ZA! KPOON LO-SA NA MA",
-      "translation": "Ta maison est très belle ! Combien de chambres y a-t-il ?"
+      "speaker": "Ami 1",
+      "text": "Ya wulo mine?",
+      "phonetic_api": "/ja wulɔ mine/",
+      "phonetic_simple": "YA-WOU-LO-MI-NÉ",
+      "translation": "D'où viens-tu ?"
     },
     {
-      "speaker": "Massa",
-      "text": "Kpɔɔñ saawa lɔ na vɛlɛ zu.",
-      "phonetic_api": "/kpɔː̃ saː.wa lɔ na vɛ.lɛ zu/",
-      "phonetic_simple": "KPOON SAA-WA LO NA VE-LE ZOU",
-      "translation": "Il y a trois chambres dans ma maison."
+      "speaker": "Ami 2",
+      "text": "Ge liini taazu. Ge peleí gaa gwaÿla, kiliyilipelei ya na.",
+      "phonetic_api": "/ge liːni taːzu ge peleː gaː gwaɤla kilijilipelei ja na/",
+      "phonetic_simple": "GUÉ-LI-NI-TA-ZOU GUÉ-PÉ-LÉ-GA-GWA-LA KI-LI-YI-LI-PÉ-LÉÏ-YA-NA",
+      "translation": "Je viens de la ville. Ma maison est grande, c'est une maison circulaire."
+    },
+    {
+      "speaker": "Ami 1",
+      "text": "Kpesapelei ya kpokpo taazu?",
+      "phonetic_api": "/kpesapelei ja kpɔkpɔ taːzu/",
+      "phonetic_simple": "KPÉ-SA-PÉ-LÉÏ-YA-KPO-KPO-TA-ZOU",
+      "translation": "Y a-t-il des maisons carrées neuves en ville ?"
+    },
+    {
+      "speaker": "Ami 2",
+      "text": "Owe, motee taa ya taÿi zu.",
+      "phonetic_api": "/ɔwe mɔteː taː ja taɤi zu/",
+      "phonetic_simple": "O-WÉ-MO-TÉÉ-TA-YA-TA-I-ZOU",
+      "translation": "Oui, il y a aussi des voitures dans la ville."
     }
   ],
   "cultural_notes": [
-    "Dans l'architecture traditionnelle Toma, les maisons circulaires en banco côtoient de plus en plus les structures rectangulaires (kwi-vɛlɛ). Le centre du village (taa-zu) conserve une valeur sacrée et sociale majeure."
+    "L'habitat traditionnel loma/toma comprend historiquement des maisons circulaires ('kiliyilipelei') à toit de chaume, aujourd'hui de plus en plus remplacées par des maisons carrées ('kpesapelei') à toit de tôle, reflet de l'évolution socio-économique de la région.",
+    "En Guinée forestière comme au Libéria, la maison et le village restent des repères identitaires forts, souvent évoqués en premier lors des présentations."
   ],
   "exercises": [
     {
-      "exercise_id": "ex10_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Que signifie la structure 'taa zu' ?",
+      "question": "Que signifie 'kiliyilipelei' ?",
       "options": [
-        "Près du fleuve",
-        "Dans la ville / au village",
-        "Derrière la maison"
+        "Maison circulaire",
+        "Maison carrée",
+        "Grande pièce"
       ],
-      "correct_answer": "Dans la ville / au village",
-      "explanation": "'taa' signifie la ville ou le grand centre habité, 'zu' exprime l'intérieur."
+      "correct_answer": "Maison circulaire",
+      "explanation": "Attesté dans le manuel Peace Corps sur le Lorma comme désignant les maisons rondes traditionnelles."
     },
     {
-      "exercise_id": "ex10_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Na li na [ ___ ] zu (Je vais dans ma chambre).",
-      "correct_answer": "kpɔɔñ",
-      "hint": "Le terme pour désigner l'espace de la chambre à coucher."
+      "sentence_with_blank": "Ge peleí gaa [ ___ ]. (Ma maison est grande.)",
+      "correct_answer": "gwaÿla",
+      "hint": "C'est l'adjectif pour 'grand'."
+    },
+    {
+      "exercise_id": "ex3",
+      "type": "multiple_choice",
+      "question": "Que signifie 'zamazuve' ?",
+      "options": [
+        "Au milieu de",
+        "Devant",
+        "Derrière"
+      ],
+      "correct_answer": "Au milieu de",
+      "explanation": "Attesté dans le manuel Peace Corps sur le Lorma comme expression figée de localisation."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Dwyer, Bodegie & Bague, \"A Learner Directed Approach to Lorma\" (Peace Corps/Michigan State University, 1981)",
+      "url": "https://files.eric.ed.gov/fulltext/ED247766.pdf"
+    },
+    {
+      "label": "Wesley Sadler, \"A Complete Analysis of the Lɔɔma Language\", Mandenkan 42 (LLACAN/CNRS)",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan42/sadler.pdf"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Vocabulaire de l'habitat attesté dans le manuel Peace Corps sur le Lorma ; Le toma de Guinée forestière et le loma/lorma du Libéria (dialecte Gizima) forment un continuum dialectal du même groupe Mande du Sud (Mende-Loma) ; les formes citées ici proviennent des meilleures sources disponibles pour ce continuum linguistique (grammaire de Sadler et manuel Peace Corps de Dwyer), la documentation publiée spécifique au parler de Guinée étant plus rare."
 }

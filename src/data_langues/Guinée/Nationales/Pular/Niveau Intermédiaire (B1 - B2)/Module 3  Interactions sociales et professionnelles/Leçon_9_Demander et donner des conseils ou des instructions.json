@@ -6,204 +6,220 @@
   "lesson_number": 9,
   "title": "Demander et donner des conseils ou des instructions",
   "learning_objectives": [
-    "Solliciter un avis d'expert ou un conseil de sagesse en pular",
-    "Donner des instructions claires, directes ou nuancées à un tiers",
-    "Utiliser les structures conditionnelles ou atténuées pour guider un choix"
+    "Former l'impératif singulier et pluriel pour donner des instructions",
+    "Utiliser le désidératif pour donner un conseil indirect",
+    "Comprendre un texte de conseils pratiques (hygiène) et en tirer du vocabulaire"
   ],
   "phonetic_focus": {
-    "key_sounds": "La consonne implosive alvéolaire 'ɗ' (/ɗ/) retentit dans 'waajugol' (conseiller/faire un sermon). Le son 'c' (/c/) se repère dans 'sawcugol' (alléger/orienter).",
-    "common_pitfalls": "Veillez à la prononciation du groupe 'ñ' dans 'sawndingol' (proposer). Ne doublez pas la consonne par erreur sous peine d'évoquer un concept mécanique."
+    "key_sounds": "L'impératif pluriel ajoute -ee à la racine verbale (contre -u/-o au singulier) : sooðor! (lave-toi !) devient sooðoree! (lavez-vous !, pluriel). La forme négative de l'impératif utilise 'wata' devant le pronom sujet.",
+    "common_pitfalls": "Les francophones oublient souvent la distinction singulier/pluriel de l'impératif pular, qui n'existe pas en français informel courant (« lave-toi » vs « lavez-vous » disparaît souvent au profit d'une seule forme)."
   },
   "vocabulary": [
     {
-      "word_id": "v18_1",
-      "term": "waaju",
-      "phonetic_api": "/waːd͡ʒu/",
-      "phonetic_simple": "WAA-DJOU",
-      "translation": "le conseil, le sermon, l'instruction morale",
-      "example_sentence": "Waaju baaba am no moƴƴi.",
-      "example_phonetic": "/waːd͡ʒu baːba am no moʔɟːi/",
-      "example_translation": "Le conseil de mon père est précieux."
+      "word_id": "v1",
+      "term": "sooðagol",
+      "phonetic_api": "/soːɗaɡol/",
+      "phonetic_simple": "SOO-DA-GOL",
+      "translation": "se laver (les mains)",
+      "example_sentence": "Sooðor juuðe maa!",
+      "example_phonetic": "/soːɗor dʒuːɗe maː/",
+      "example_translation": "Lave-toi les mains !"
     },
     {
-      "word_id": "v18_2",
-      "term": "waajugol",
-      "phonetic_api": "/waːd͡ʒuɡol/",
-      "phonetic_simple": "WAA-DJOU-GOL",
-      "translation": "donner un conseil, orienter la conduite",
-      "example_sentence": "Mido yidi waajude ma hande.",
-      "example_phonetic": "/mido jidi waːd͡ʒude ma hande/",
-      "example_translation": "Je veux te conseiller aujourd'hui."
+      "word_id": "v2",
+      "term": "haðugol",
+      "phonetic_api": "/haɗuɡol/",
+      "phonetic_simple": "HA-DOU-GOL",
+      "translation": "empêcher, prévenir",
+      "example_sentence": "Ko ðun haðata mikoroobuuji.",
+      "example_phonetic": "/ko ɗun haɗata mikoroːbuːdʒi/",
+      "example_translation": "C'est ce qui empêche les microbes."
     },
     {
-      "word_id": "v18_3",
-      "term": "larnugol",
-      "phonetic_api": "/larnuɡol/",
-      "phonetic_simple": "LAR-NOU-GOL",
-      "translation": "demander un avis, solliciter une orientation",
-      "example_sentence": "Mi larnii mo laawol ngol.",
-      "example_phonetic": "/mi larnuː mo laːwol nɡol/",
-      "example_translation": "Je lui ai demandé conseil pour ce chemin."
+      "word_id": "v3",
+      "term": "fatingol",
+      "phonetic_api": "/fatinɡol/",
+      "phonetic_simple": "FA-TIN-GOL",
+      "translation": "faire bouillir",
+      "example_sentence": "Ko fatingol ndiyan ðan warata mikoroobuuji.",
+      "example_phonetic": "/ko fatinɡol ndijam ɗan warata mikoroːbuːdʒi/",
+      "example_translation": "C'est le fait de faire bouillir l'eau qui tue les microbes."
     },
     {
-      "word_id": "v18_4",
-      "term": "tinndingol",
-      "phonetic_api": "/tinːdinɡol/",
-      "phonetic_simple": "TINN-DIN-GOL",
-      "translation": "expliquer, donner des instructions d'exécution, guider",
-      "example_sentence": "Tinndin mi gollal maa ngal.",
-      "example_phonetic": "/tinːdin mi ɡolːal maː nɡal/",
-      "example_translation": "Explique-moi (donne-moi des instructions pour) ton projet."
+      "word_id": "v4",
+      "term": "laååingol",
+      "phonetic_api": "/laɟːinɡol/",
+      "phonetic_simple": "LAY-YIN-GOL",
+      "translation": "nettoyer",
+      "example_sentence": "Gaynir laååingol paykun maa.",
+      "example_phonetic": "/ɡajnir laɟːinɡol pajkun maː/",
+      "example_translation": "Finis de nettoyer ton enfant."
     },
     {
-      "word_id": "v18_5",
-      "term": "sawndaagol",
-      "phonetic_api": "/sawndaːɡol/",
-      "phonetic_simple": "SAW-NDAA-GOL",
-      "translation": "proposer une option alternative, suggérer",
-      "example_sentence": "Mido sawndoo ma ɗum.",
-      "example_phonetic": "/mido sawndoː ma ɗum/",
-      "example_translation": "Je te suggère cette option."
+      "word_id": "v5",
+      "term": "habbagol",
+      "phonetic_api": "/habːaɡol/",
+      "phonetic_simple": "HAB-BA-GOL",
+      "translation": "attendre",
+      "example_sentence": "Habbo haa mi lootoo.",
+      "example_phonetic": "/habːo haː mi loːtoː/",
+      "example_translation": "Attends jusqu'à ce que je me lave."
     },
     {
-      "word_id": "v18_6",
-      "term": "moƴƴere",
-      "phonetic_api": "/moʔɟːere/",
-      "phonetic_simple": "MOY-YE-RE",
-      "translation": "la bonté, la meilleure option, le bien",
-      "example_sentence": "Ɗum ko moƴƴere e maa.",
-      "example_phonetic": "/ɗum ko moʔɟːere e maː/",
-      "example_translation": "C'est un bien pour toi."
-    },
-    {
-      "word_id": "v18_7",
-      "term": "fahu",
-      "phonetic_api": "/ɸahu/",
-      "phonetic_simple": "FA-HOU",
-      "translation": "le sens, la direction logique du conseil",
-      "example_sentence": "Waaju ngal no jogii fahu.",
-      "example_phonetic": "/waːd͡ʒu nɡal no d͡ʒoɡiː ɸahu/",
-      "example_translation": "Ce conseil a du sens."
-    },
-    {
-      "word_id": "v18_8",
-      "term": "faamugol",
-      "phonetic_api": "/ɸaːmuɡol/",
-      "phonetic_simple": "FAA-MOU-GOL",
-      "translation": "comprendre, assimiler l'instruction",
-      "example_sentence": "Koni a faamii waaju ngal ?",
-      "example_phonetic": "/koni a ɸaːmiː waːd͡ʒu nɡal/",
-      "example_translation": "As-tu compris ce conseil ?"
-    },
-    {
-      "word_id": "v18_9",
-      "term": "reesugol",
-      "phonetic_api": "/reːsuɡol/",
-      "phonetic_simple": "REE-SOU-GOL",
-      "translation": "garder en mémoire, appliquer scrupuleusement",
-      "example_sentence": "Reesu haala am ngon fow.",
-      "example_phonetic": "/reːsu haːla am nɡon ɸow/",
-      "example_translation": "Garde bien en mémoire toute ma parole."
-    },
-    {
-      "word_id": "v18_10",
-      "term": "ɓuri",
-      "phonetic_api": "/ɓuri/",
-      "phonetic_simple": "BHOU-RI",
-      "translation": "valeur de conseil : 'il vaut mieux que'",
-      "example_sentence": "No ɓuri moƴƴude a yahat joni.",
-      "example_phonetic": "/no ɓuri moʔɟːude a jahat d͡ʒoni/",
-      "example_translation": "Il vaut mieux que tu partes maintenant."
+      "word_id": "v6",
+      "term": "hittugol",
+      "phonetic_api": "/hitːuɡol/",
+      "phonetic_simple": "HIT-TOU-GOL",
+      "translation": "être important",
+      "example_sentence": "No hitti fota ka juuðe sooðoree.",
+      "example_phonetic": "/no hitːi fota ka dʒuːɗe soːɗoreː/",
+      "example_translation": "Il est très important que les mains soient lavées."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p18_1",
-      "original": "Mido yidi larnugol ma e dow ndee gollirde kesal.",
-      "phonetic_api": "/mido jidi larnuɡol ma e dow ndeː ɡollirde kesal/",
-      "phonetic_simple": "MI-DO YI-DI LAR-NOU-GOL MA E DOW NDEE GOL-LIR-DE KE-SAL",
-      "translation": "Je souhaite solliciter ton conseil concernant ce nouveau bureau.",
-      "context": "Demander l'avis d'un aîné expérimenté avant un choix professionnel."
+      "phrase_id": "p1",
+      "original": "Ko honno mi foti waðude?",
+      "phonetic_api": "/ko honːo mi foti waɗude/",
+      "phonetic_simple": "KO HONNO MI FO-TI OUA-DOU-DÉ",
+      "translation": "Comment devrais-je faire ?",
+      "context": "Pour demander un conseil ou une instruction."
     },
     {
-      "phrase_id": "p18_2",
-      "original": "No ɓuri moƴƴude reesaa waaju baaba maa ngon, no jogii fahu sanne !",
-      "phonetic_api": "/no ɓuri moʔɟːude reːsaː waːd͡ʒu baːba maː nɡon no d͡ʒoɡiː ɸahu sanːe/",
-      "phonetic_simple": "NO BHOU-RI MOY-YOU-DE REE-SAA WAA-DJOU BAA-BA MAA NGON, NO DJO-GII FA-HOU SAN-NE !",
-      "translation": "Il vaut mieux que tu appliques le conseil de ton père, il a énormément de sens !",
-      "context": "Donner une instruction bienveillante sous forme de conseil."
+      "phrase_id": "p2",
+      "original": "Sooðor juuðe maa ado a ñaamude.",
+      "phonetic_api": "/soːɗor dʒuːɗe maː ado a ɲaːmude/",
+      "phonetic_simple": "SOO-DOR DJOU-DÉ MAA A-DO A GNAA-MOU-DÉ",
+      "translation": "Lave-toi les mains avant de manger.",
+      "context": "Instruction d'hygiène courante."
     },
     {
-      "phrase_id": "p18_3",
-      "original": "Tinndin mi laawol ngol, honto mi selat pour hewtude gare nden ?",
-      "phonetic_api": "/tinːdin mi laːwol nɡol honto mi selat pour hewtoːde ɡare nden/",
-      "phonetic_simple": "TINN-DIN MI LAA-WOL NGOL, HON-TO MI SE-LAT POUR HEW-TOU-DE GA-RE NDEN ?",
-      "translation": "Guide-moi pour ce chemin, où dois-je tourner pour atteindre la gare ?",
-      "context": "Demander des instructions d'itinéraire précises."
+      "phrase_id": "p3",
+      "original": "Habbo haa mi lootoo.",
+      "phonetic_api": "/habːo haː mi loːtoː/",
+      "phonetic_simple": "HAB-BO HAA MI LO-O-TO-O",
+      "translation": "Attends jusqu'à ce que je me lave.",
+      "context": "Instruction/demande d'attente."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Yo ðan fatine, ðan åuttinee.",
+      "phonetic_api": "/jo ɗan fatine ɗan ɓutːineː/",
+      "phonetic_simple": "YO DAN FA-TI-NÉ, DAN BOUT-TI-NÉ-É",
+      "translation": "Que l'eau bouille, puis qu'on la laisse refroidir.",
+      "context": "Instruction de type recette/conseil de santé, avec le désidératif."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'expression du conseil atténué avec 'No ɓuri moƴƴude'",
-      "explanation": "Pour formuler une instruction ou un conseil sans paraître trop directif (ce qui heurterait la politesse), le pular recourt à l'expression impersonnelle fixe 'No ɓuri moƴƴude' (Il dépasse en bonté / Il est préférable que) suivie du verbe au subjonctif.",
+      "concept": "L'impératif singulier et pluriel",
+      "explanation": "L'impératif pular varie selon qu'on s'adresse à une seule personne ou à plusieurs. La forme négative se construit avec 'wata' devant le pronom sujet (a pour singulier, on pour pluriel).",
       "rules": [
-        "Placer la formule figée 'No ɓuri moƴƴude' en début de phrase.",
-        "Le verbe de l'action conseillée prend la flexion du subjonctif ou de l'inaccompli dépendant."
+        "Singulier affirmatif : racine + -u/-o (ex. aru! = viens ! ; sooðor! = lave-toi !)",
+        "Pluriel affirmatif : racine + -ee (ex. aree! = venez !, sooðoree! = lavez-vous !)",
+        "Négatif singulier : wata a + [imperfective simple] (ex. wata a aru! = ne viens pas !)",
+        "Négatif pluriel : wata on + [imperfective simple] (ex. wata on aru! = ne venez pas !)"
       ],
       "examples": [
         {
-          "structure": "No ɓuri moƴƴude + Sujet + Verbe",
-          "phonetic_api": "/no ɓuri moʔɟːude a jahu/",
-          "meaning": "Il est préférable que tu partes / Il vaut mieux partir"
+          "structure": "Aru! / Aree! / Wata a aru! / Wata on aru!",
+          "phonetic_api": "/aru/, /areː/, /wata a aru/, /wata on aru/",
+          "meaning": "Viens ! / Venez ! / Ne viens pas ! / Ne venez pas !"
+        }
+      ]
+    },
+    {
+      "concept": "Le désidératif comme conseil indirect",
+      "explanation": "Dans les textes de conseils pratiques (comme le texte sur l'hygiène), le désidératif ('yo' + verbe) est utilisé pour donner des recommandations générales applicables à tous, plutôt que l'impératif direct.",
+      "rules": [
+        "yo + [verbe à l'impératif] = recommandation générale ('il faudrait que...', 'que l'on fasse...')"
+      ],
+      "examples": [
+        {
+          "structure": "Yo ðan fatine, ðan åuttinee.",
+          "phonetic_api": "/jo ɗan fatine ɗan ɓutːineː/",
+          "meaning": "Il faut faire bouillir (l'eau), puis la laisser refroidir."
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Alpha",
-      "text": "Aissatou, mido yidi larnugol ma e dow gollal am ngal. Njeegu ngol no saɗi seeda.",
-      "phonetic_api": "/ajsatu mido jidi larnuɡol ma e dow ɡolːal am nɡal nd͡ʒeːɡu nɡol no saɗi seːda/",
-      "phonetic_simple": "AIS-SA-TOU, MI-DO YI-DI LAR-NOU-GOL MA E DOW GOL-LAL AM NGAL. NJEE-GOU NGAL NO SA-DHI SEE-DA.",
-      "translation": "Aissatou, je souhaite te demander conseil sur mon projet. Son coût est un peu cher."
+      "speaker": "Infirmière",
+      "text": "Ko honno mi foti waðude fii laabal biððo an?",
+      "phonetic_api": "/ko honːo mi foti waɗude fiː laːbal biɗːo an/",
+      "phonetic_simple": "KO HONNO MI FO-TI OUA-DOU-DÉ FI LAA-BAL BID-DO AN",
+      "translation": "Comment devrais-je faire pour l'hygiène de mon enfant ?"
     },
     {
-      "speaker": "Aissatou",
-      "text": "Mido sawndoo ma ɗum : no ɓuri moƴƴude uスタaa gollotooɓe ɗen. Tinndin mi fow, mi lara.",
-      "phonetic_api": "/mido sawndoː ma ɗum no ɓuri moʔɟːude ustaː ɡolːotːoːɓe ɗen tinːdin mi ɸow mi lara/",
-      "phonetic_simple": "MI-DO SAW-NDOO MA DHUM : NO BHOU-RI MOY-YOU-DE OUS-TAA GOL-LOT-TOO-BHE DHEN. TINN-DIN MI FOW, MI LA-RA.",
-      "translation": "Je te suggère ceci : il vaut mieux que tu réduises le nombre d'employés. Explique-moi tout le plan, que je regarde."
+      "speaker": "Agent de santé",
+      "text": "Sooðor juuðe maa ado a defude ñaamateeji.",
+      "phonetic_api": "/soːɗor dʒuːɗe maː ado a defude ɲaːmateːdʒi/",
+      "phonetic_simple": "SOO-DOR DJOU-DÉ MAA A-DO A DÉ-FOU-DÉ GNAA-MA-TÉÉ-DJI",
+      "translation": "Lave-toi les mains avant de préparer la nourriture."
     },
     {
-      "speaker": "Alpha",
-      "text": "Jaraama e waaju maa ngon. Mido reesat haala maa ka fahu fow, mi huwwat ɗum !",
-      "phonetic_api": "/d͡ʒaraːma e waːd͡ʒu maː nɡon mido reːsat haːla maː ka ɸahu ɸow mi huːwat ɗum/",
-      "phonetic_simple": "DJA-RAA-MA E WAA-DJOU MAA NGON. MI-DO REE-SAT HAA-LA MAA KA FA-HOU FOW, MI HUU-WAT DHUM !",
-      "translation": "Merci pour ton conseil. Je vais garder en mémoire toute ta parole sensée, je vais l'exécuter !"
+      "speaker": "Infirmière",
+      "text": "Awa. E fii ndiyan ðan, ko honno?",
+      "phonetic_api": "/awa e fiː ndijam ɗan ko honːo/",
+      "phonetic_simple": "A-OUA. É FI NDI-YAM DAN, KO HONNO",
+      "translation": "D'accord. Et pour l'eau, comment fait-on ?"
+    },
+    {
+      "speaker": "Agent de santé",
+      "text": "Yo ðan fatine hade maa yarude ðan.",
+      "phonetic_api": "/jo ɗan fatine hade maː jarude ɗan/",
+      "phonetic_simple": "YO DAN FA-TI-NÉ HA-DÉ MAA YA-ROU-DÉ DAN",
+      "translation": "Il faut la faire bouillir avant de la boire."
     }
   ],
   "cultural_notes": [
-    "Dans l'univers relationnel des Fulbe, solliciter le 'waaju' (le conseil d'un sage ou d'un ami proche) est une démarche hautement valorisée qui témoigne du refus de l'orgueil. Écouter attentivement sans couper la parole est la règle absolue de politesse lors de la transmission des instructions."
+    "Le texte 'Ko åeyngure kala haani andude fii laabal' (« Ce que chaque famille devrait savoir sur l'hygiène ») provient d'une traduction en pular du manuel de santé communautaire 'Savoir pour Sauver' publié par le Service National d'Alphabétisation de Guinée (1995), illustrant le rôle de la langue pular dans l'éducation sanitaire (source : Learner's Guide to Pular, texte 'Useful Advice').",
+    "Les conseils de santé communautaire traduits en pular ont historiquement joué un rôle important dans la lutte contre les maladies liées à l'eau non traitée en Guinée rurale."
   ],
   "exercises": [
     {
-      "exercise_id": "ex18_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Que signifie la structure polie 'No ɓuri moƴƴude' ?",
+      "question": "Comment dit-on « lavez-vous » (pluriel) à l'impératif ?",
       "options": [
-        "Il est interdit de",
-        "Il vaut mieux que / Il est préférable de",
-        "C'est totalement faux"
+        "Sooðor",
+        "Sooðoree",
+        "Wata sooðor"
       ],
-      "correct_answer": "Il vaut mieux que / Il est préférable de",
-      "explanation": "Cette formule sert à introduire un conseil de façon adoucie et respectueuse sans imposer de contrainte tyrannique."
+      "correct_answer": "Sooðoree",
+      "explanation": "Le pluriel de l'impératif ajoute -ee à la racine (sooðor → sooðoree)."
     },
     {
-      "exercise_id": "ex18_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "[ ___ ] mi laawol ngol, mido lara gare nden. (Guide-moi / Explique-moi ce chemin, je cherche la gare).",
-      "correct_answer": "Tinndin",
-      "hint": "Impératif du verbe signifiant guider, donner des instructions ou des repères spatiaux."
+      "sentence_with_blank": "[ ___ ] a aru! (Ne viens pas, singulier)",
+      "correct_answer": "Wata",
+      "hint": "Utilisez le mot qui marque l'impératif négatif."
+    },
+    {
+      "exercise_id": "ex3",
+      "type": "multiple_choice",
+      "question": "Pourquoi faut-il faire bouillir l'eau selon le texte étudié ?",
+      "options": [
+        "Pour la refroidir plus vite",
+        "Pour tuer les microbes",
+        "Pour la colorer"
+      ],
+      "correct_answer": "Pour tuer les microbes",
+      "explanation": "Le texte explique que faire bouillir l'eau (fatingol) tue les microbes (mikoroobuuji)."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Learner's Guide to Pular (Fuuta Jallon) — Peace Corps Guinée (Herb Caudill & Ousmane Besseko Diallo)",
+      "url": "https://ibamba.net/pular/manual.pdf"
+    },
+    {
+      "label": "Live Lingua Project — Peace Corps Manual of Fulfulde",
+      "url": "https://www.livelingua.com/course/peace-corps/manual-of-fulfulde"
+    }
+  ],
+  "confidence": "élevée",
+  "confidence_note": "Grammaire de l'impératif et vocabulaire de conseils pratiques directement issus du texte 'Useful Advice' (traduction pular du manuel de santé Savoir pour Sauver) dans le manuel Peace Corps Guinée."
 }

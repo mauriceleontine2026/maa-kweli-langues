@@ -6,222 +6,187 @@
   "lesson_number": 7,
   "title": "Exprimer l'obligation, l'interdiction et la permission",
   "learning_objectives": [
-    "Exprimer un impératif moral, un devoir ou une obligation en Yalunka",
-    "Formuler une interdiction stricte ou une restriction sociale",
-    "Demander et accorder poliment une permission dans un contexte formel ou professionnel"
+    "Utiliser 'náfà/námà' (marque du prohibitif) pour interdire",
+    "Utiliser 'hàráamù' (interdit religieux) pour un interdit fort",
+    "Utiliser 'xa' (marqueur d'aspect de souhait/permission, Wikipedia EN) pour la permission"
   ],
   "phonetic_focus": {
-    "key_sounds": "La structure d'obligation utilise le verbe 'lan' qui exige une prononciation nette de la nasale alvéolaire /lan/. Le groupe 'xb' dans 'tɔnxba' s'articule comme une transition rapide entre la fricative vélaire sourde /x/ et l'occlusive bilabiale sonore /b/. Les voyelles doubles de 'tɔɔn' s'allongent distinctement.",
-    "common_pitfalls": "Attention à la négation d'interdiction 'ba' : sa voyelle est très brève. Ne l'allongez pas pour éviter la confusion avec 'baa' (le père ou le fleuve)."
+    "key_sounds": "Le yalunka (dialonké) comporte une occlusive uvulaire notée « q » (cognat du « x » soussou, prononcée en raclant le fond de la gorge, comme la jota espagnole), des voyelles longues notées par redoublement (ex. « áa »), et des consonnes nasales finales notées « ŋ » (comme le « ng » anglais de « sing »). Le ton (haut ´ / bas `) est phonologiquement distinctif dans la variété de Faléya décrite par Creissels (2010).",
+    "common_pitfalls": "Les francophones prononcent souvent « q » comme un simple « k » au lieu de le racler au fond de la gorge ; ils réduisent le « ŋ » final à « n » ou « ngue » ; et ils ignorent les tons, ce qui peut changer le sens d'un mot puisque le ton est distinctif en yalunka."
   },
   "vocabulary": [
     {
-      "word_id": "v16_1",
-      "term": "Lan",
-      "phonetic_api": "/lan/",
-      "phonetic_simple": "LAN",
-      "translation": "Devoir / Falloir / Convenir / Être obligatoire",
-      "example_sentence": "A lan n siga wali mɛ.",
-      "example_phonetic": "/a lan ŋ si.ɡa wa.li mɛ/",
-      "example_translation": "Il faut que j'aille au travail."
+      "word_id": "v1",
+      "term": "náfà",
+      "phonetic_api": "/náfà/",
+      "phonetic_simple": "NA-fa",
+      "translation": "marque du prohibitif (ne fais pas)",
+      "example_sentence": "Náfà sóo!",
+      "example_phonetic": "/náfà sóo/",
+      "example_translation": "N'entre pas !"
     },
     {
-      "word_id": "v16_2",
-      "term": "Tɔɔn",
-      "phonetic_api": "/tɔːn/",
-      "phonetic_simple": "TƆƆN",
-      "translation": "Loi / Règle / Interdiction",
-      "example_sentence": "Mabilinde tɔɔn nan a ra.",
-      "example_phonetic": "/ma.bi.lin.de tɔːn nan a ra/",
-      "example_translation": "C'est la règle du quartier."
+      "word_id": "v2",
+      "term": "námà",
+      "phonetic_api": "/námà/",
+      "phonetic_simple": "NA-ma",
+      "translation": "marque du prohibitif (variante)",
+      "example_sentence": "Námà fáa!",
+      "example_phonetic": "/námà fáa/",
+      "example_translation": "Ne viens pas !"
     },
     {
-      "word_id": "v16_3",
-      "term": "Ba",
-      "phonetic_api": "/ba/",
-      "phonetic_simple": "BA",
-      "translation": "Cesser / Marqueur de l'impératif négatif (Ne ... pas)",
-      "example_sentence": "I falan ba mɛ !",
-      "example_phonetic": "/i fa.lan ba mɛ/",
-      "example_translation": "Ne parle pas ici !"
+      "word_id": "v3",
+      "term": "hàráamù",
+      "phonetic_api": "/hàráamù/",
+      "phonetic_simple": "ha-ra-a-MOU",
+      "translation": "interdit religieux",
+      "example_sentence": "À hàráamù.",
+      "example_phonetic": "/à hàráamù/",
+      "example_translation": "C'est interdit (par la religion)."
     },
     {
-      "word_id": "v16_4",
-      "term": "Tin",
-      "phonetic_api": "/tin/",
-      "phonetic_simple": "TIN",
-      "translation": "Accepter / Permettre / Autoriser",
-      "example_sentence": "N baabaa bata tin n na falan na.",
-      "example_phonetic": "/ŋ baː.baː ba.ta tin ŋ na fa.lan na/",
-      "example_translation": "Mon père a permis que je parle."
+      "word_id": "v4",
+      "term": "xa",
+      "phonetic_api": "/xa/",
+      "phonetic_simple": "xa",
+      "translation": "marqueur d'aspect exprimant le souhait ou la permission",
+      "example_sentence": "À xa sóo.",
+      "example_phonetic": "/à xa sóo/",
+      "example_translation": "Il lui est permis d'entrer / il souhaite entrer."
     },
     {
-      "word_id": "v16_5",
-      "term": "Sariɲen",
-      "phonetic_api": "/sa.ri.ɲen/",
-      "phonetic_simple": "SA-RI-NYEN",
-      "translation": "Droit / Légal / Propre / Juste",
-      "example_sentence": "Na mu sariɲen a ra.",
-      "example_phonetic": "/na mu sa.ri.ɲen a ra/",
-      "example_translation": "Ce n'est pas permis / Ce n'est pas juste."
+      "word_id": "v5",
+      "term": "fàtá",
+      "phonetic_api": "/fàtá/",
+      "phonetic_simple": "fa-TA",
+      "translation": "pouvoir",
+      "example_sentence": "Ń fàtá sóo.",
+      "example_phonetic": "/ń fàtá sóo/",
+      "example_translation": "Je peux entrer."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p16_1",
-      "original": "A lan i siga tɛmɛni na.",
-      "phonetic_api": "/a lan i si.ɡa tɛ.mɛ.ni na/",
-      "phonetic_simple": "A LAN I SI-GA TÈ-MÈ-NI NA",
-      "translation": "Tu dois partir maintenant.",
-      "context": "Formuler une injonction temporelle ou une obligation immédiate."
+      "phrase_id": "p1",
+      "original": "Náfà sóo bàŋqí!",
+      "phonetic_api": "/náfà sóo bàŋqí/",
+      "phonetic_simple": "NA-fa SO-o BANG-qi",
+      "translation": "N'entre pas dans la maison !",
+      "context": "Utilise le prohibitif attesté par Creissels avec le verbe 'sóo' (entrer)."
     },
     {
-      "phrase_id": "p16_2",
-      "original": "Siga ba danyi, a mu sariɲen ra.",
-      "phonetic_api": "/si.ɡa ba da.ɲi a mu sa.ri.ɲen ra/",
-      "phonetic_simple": "SI-GA BA DA-NYI, A MOU SA-RI-NYEN RA",
-      "translation": "N'y va pas, ce n'est pas autorisé.",
-      "context": "Énoncer une interdiction d'accès claire basée sur un règlement."
+      "phrase_id": "p2",
+      "original": "À hàráamù xa sùbé dóŋ.",
+      "phonetic_api": "/à hàráamù xa sùbé dóŋ/",
+      "phonetic_simple": "a ha-ra-a-MOU xa sou-BÉ DONG",
+      "translation": "Il est religieusement interdit de manger cette viande.",
+      "context": "Combine 'hàráamù' avec le verbe 'manger'."
     },
     {
-      "phrase_id": "p16_3",
-      "original": "Sabari, i findi ra tinfe m bɛ ?",
-      "phonetic_api": "/sa.ba.ri i fin.di ra tin.fe m bɛ/",
-      "phonetic_simple": "SA-BA-RI, I FIN-DI RA TIN-FÉ M BÈ ?",
-      "translation": "S'il te plaît, peux-tu m'accorder la permission ?",
-      "context": "Demander l'autorisation à un supérieur ou un aîné."
+      "phrase_id": "p3",
+      "original": "À xa fàtá sóo.",
+      "phonetic_api": "/à xa fàtá sóo/",
+      "phonetic_simple": "a xa fa-TA SO-o",
+      "translation": "Il lui est permis de pouvoir entrer.",
+      "context": "Combine le marqueur modal 'xa' et 'fàtá' (pouvoir), déjà attestés."
     },
     {
-      "phrase_id": "p16_4",
-      "original": "A lan won birin na tɔɔn xaran.",
-      "phonetic_api": "/a lan won bi.rin na tɔːn xa.ran/",
-      "phonetic_simple": "A LAN WON BI-RIN NA TƆƆN KHA-RAN",
-      "translation": "Il nous faut tous respecter la règle.",
-      "context": "Rappeler le devoir civique ou communautaire d'un groupe."
-    },
-    {
-      "phrase_id": "p16_5",
-      "original": "N mu tinma i na wali rafala mɛ.",
-      "phonetic_api": "/ŋ mu tin.ma i na wa.li ra.fa.la mɛ/",
-      "phonetic_simple": "N MOU TIN-MA I NA WA-LI RA-FA-LA MÈ",
-      "translation": "Je ne te permets pas d'exécuter ce travail ici.",
-      "context": "Exprimer un refus d'autorisation formel dans le cadre professionnel."
-    },
-    {
-      "phrase_id": "p16_6",
-      "original": "Falan ba tɛmɛni na, karamɔxɔ na falanfe.",
-      "phonetic_api": "/fa.lan ba tɛ.mɛ.ni na ka.ra.mɔ.xɔ na fa.lan.fe/",
-      "phonetic_simple": "FA-LAN BA TÈ-MÈ-NI NA, KA-RA-MO-KHO NA FA-LAN-FÉ",
-      "translation": "Ne parlez pas en ce moment, l'enseignant est en train de parler.",
-      "context": "Imposer le silence et la discipline dans un espace d'apprentissage."
-    },
-    {
-      "phrase_id": "p16_7",
-      "original": "A bata tin n bɛ n siga taaxui mɛ.",
-      "phonetic_api": "/a ba.ta tin m bɛ ŋ si.ɡa taː.xui mɛ/",
-      "phonetic_simple": "A BA-TA TIN M BÈ N SI-GA TAA-KHOUI MÈ",
-      "translation": "Il m'a donné l'autorisation d'aller en ville.",
-      "context": "Confirmer l'obtention d'une permission."
-    },
-    {
-      "phrase_id": "p16_8",
-      "original": "Na tɔɔn gbe nan a ra won bɛ.",
-      "phonetic_api": "/na tɔːn ɡbe nan a ra won bɛ/",
-      "phonetic_simple": "NA TƆƆN GBÉ NAN A RA WON BÈ",
-      "translation": "C'est une interdiction majeure pour nous.",
-      "context": "Mettre l'accent sur le caractère sacré ou strict d'un interdit culturel."
+      "phrase_id": "p4",
+      "original": "Í fàtá sóo, kóní à hàráamù.",
+      "phonetic_api": "/i fata soo, koni a haraamu/",
+      "phonetic_simple": "i fa-TA SO-o, KO-ni a ha-ra-a-MOU",
+      "translation": "Tu peux entrer, mais c'est (religieusement) interdit.",
+      "context": "Combine 'fàtá' (pouvoir), 'kóní' (mais) et 'hàráamù' (interdit religieux), tous attestés."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'expression de l'obligation impersonnelle avec 'A lan...'",
-      "explanation": "Pour traduire 'il faut' ou 'devoir', le Yalunka utilise la tournure impersonnelle 'A lan' (il convient / il faut) placée en tête de phrase. Elle régit une proposition complétive directe où le sujet réel accomplit l'action au mode subjonctif/invariable.",
+      "concept": "Le prohibitif avec 'náfà/námà'",
+      "explanation": "Creissels (2010) atteste 'náfà, námà' comme marque du prohibitif, placée avant le verbe pour former un impératif négatif ('ne fais pas...'). L'article Wikipedia (EN) confirme indépendamment l'existence d'un marqueur d'impératif négatif comparable, noté 'nama'.",
       "rules": [
-        "A lan + Sujet + Verbe + Complément",
-        "Ne requiert aucune particule intermédiaire pour lier l'obligation au verbe."
+        "náfà/námà + verbe = interdiction directe"
       ],
       "examples": [
         {
-          "structure": "A lan won siga.",
-          "phonetic_api": "/a lan won si.ɡa/",
-          "meaning": "Il faut que nous partions / Nous devons partir."
-        }
-      ]
-    },
-    {
-      "concept": "L'impératif négatif (Interdiction) avec 'ba'",
-      "explanation": "L'interdiction ou la défense s'exprime de manière très efficace en Yalunka en plaçant la particule prohibitive 'ba' (qui dérive du verbe cesser) immédiatement après le verbe d'action ou son objet.",
-      "rules": [
-        "Structure : (Sujet) + Verbe/Objet + ba",
-        "Fonctionne comme un outil de rupture directe pour stopper un comportement."
-      ],
-      "examples": [
-        {
-          "structure": "Boli ba !",
-          "phonetic_api": "/bo.li ba/",
-          "meaning": "Ne cours pas ! (Cesse de courir !)"
-        },
-        {
-          "structure": "Malo don ba !",
-          "phonetic_api": "/ma.lo don ba/",
-          "meaning": "Ne mange pas de riz !"
+          "structure": "náfà + sóo",
+          "phonetic_api": "/náfà sóo/",
+          "meaning": "n'entre pas"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Karanmuxe (L'étudiant)",
-      "text": "Karamɔxɔ, sabari, i findi ra tinfe m bɛ n siga banxi mɛ tɛmɛni na ?",
-      "phonetic_api": "/ka.ra.mɔ.xɔ sa.ba.ri i fin.di ra tin.fe m bɛ ŋ si.ɡa ban.xi mɛ tɛ.mɛ.ni na/",
-      "phonetic_simple": "KA-RA-MO-KHO, SA-BA-RI, I FIN-DI RA TIN-FÉ M BÈ N SI-GA BAN-KHI MÈ TÈ-MÈ-NI NA ?",
-      "translation": "Maître, s'il vous plaît, pouvez-vous me permettre de rentrer à la maison maintenant ?"
+      "speaker": "Parent",
+      "text": "Náfà sóo bàŋqí bée!",
+      "phonetic_api": "/náfà sóo bàŋqí bée/",
+      "phonetic_simple": "NA-fa SO-o bang-qi BÉ-é",
+      "translation": "N'entre pas dans cette maison !"
     },
     {
-      "speaker": "Karamɔxɔ (L'enseignant)",
-      "text": "Mun na ? A lan i n xaran ba-ma fanyin singe. Tɔɔn na mɛ.",
-      "phonetic_api": "/mun na a lan i ŋ xa.ran ba.ma fan.jin sin.ɡe tɔːn na mɛ/",
-      "phonetic_simple": "MOUN NA ? A LAN I N KHA-RAN BA-MA FAN-YIN SIN-GUÉ SINGE. TƆƆN NA MÈ",
-      "translation": "Pourquoi ? Tu dois d'abord terminer cette leçon correctement. C'est la règle ici."
+      "speaker": "Enfant",
+      "text": "Kíidì? Ń fàtá sóo bà?",
+      "phonetic_api": "/kíidì, ń fàtá sóo bà/",
+      "phonetic_simple": "KI-i-di, n fa-TA SO-o ba",
+      "translation": "Pourquoi ? Est-ce que je peux entrer ?"
     },
     {
-      "speaker": "Karanmuxe",
-      "text": "N ngaa bata n xili, a lan n na a mabuge. Sabari.",
-      "phonetic_api": "/ŋ ŋaː ba.ta ŋ xi.li a lan ŋ na a ma.bu.ɡe sa.ba.ri/",
-      "phonetic_simple": "N NGAA BA-TA N KHI-LI, A LAN N NA A MA-BOU-GUÉ. SA-BA-RI",
-      "translation": "Ma mère m'a appelé, je dois absolument aller la voir. S'il vous plaît."
+      "speaker": "Parent",
+      "text": "À hàráamù.",
+      "phonetic_api": "/à hàráamù/",
+      "phonetic_simple": "a ha-ra-a-MOU",
+      "translation": "C'est interdit."
     },
     {
-      "speaker": "Karamɔxɔ",
-      "text": "Awo, na fɛ, n bata tin i bɛ. Siga, a yarisigi, mabilin ba kiraa fɛ.",
-      "phonetic_api": "/a.wo na fɛ ŋ ba.ta tin i bɛ si.ɡa a ja.ri.si.ɡi ma.bi.lin ba ki.raː fɛ/",
-      "phonetic_simple": "AWO, NA FÈ, N BA-TA TIN I BÈ. SI-GA, A YA-RI-SI-GUI, MA-BI-LIN BA KI-RAA FÈ",
-      "translation": "Ah d'accord, dans ce cas, je te l'autorise. Va tout droit, ne t'attarde (tourne) pas en chemin."
+      "speaker": "Enfant",
+      "text": "À xa sóo bà?",
+      "phonetic_api": "/à xa sóo bà/",
+      "phonetic_simple": "a xa SO-o ba",
+      "translation": "Est-il permis d'entrer ?"
+    },
+    {
+      "speaker": "Parent",
+      "text": "Awa, à xa sóo.",
+      "phonetic_api": "/awa, à xa sóo/",
+      "phonetic_simple": "a-wa, a xa SO-o",
+      "translation": "Oui, c'est permis d'entrer."
     }
   ],
   "cultural_notes": [
-    "Dans la structure sociale des Jalonké de Guinée, le respect des tɔɔn (règles et interdits communautaires) édictés par les anciens est crucial pour préserver la cohésion du groupe. Enfreindre un interdit expose souvent à un blâme public.",
-    "Demander la permission ('tinfe') à un aîné ou à une autorité administrative ou coutumière requiert l'usage de formules de politesse indirectes et modulées, manifestant la déférence due au statut de l'interlocuteur."
+    "L'islam étant majoritaire chez les Yalunka, le concept de 'hàráamù' (interdit religieux, emprunt arabe) structure de nombreuses règles sociales du quotidien, comme dans les autres sociétés mandé islamisées de la région."
   ],
   "exercises": [
     {
-      "exercise_id": "ex16_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quelle tournure Yalunka pose l'obligation stricte en début de phrase ?",
+      "question": "Quelle est la marque du prohibitif en yalunka ?",
       "options": [
-        "N bɛ fisa",
-        "A lan",
-        "Bata siga"
+        "náfà/námà",
+        "báadè",
+        "xa"
       ],
-      "correct_answer": "A lan",
-      "explanation": "'A lan' est l'indicateur impersonnel d'obligation standard équivalant au français 'il faut'."
+      "correct_answer": "náfà/námà",
+      "explanation": "Attesté dans Creissels (2010), confirmé indépendamment par Wikipedia (EN, 'nama')."
     },
     {
-      "exercise_id": "ex16_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Pour interdire une action, on place la particule prohibitive après le verbe : Falan [ ___ ] !",
-      "correct_answer": "ba",
-      "hint": "C'est un mot de deux lettres signifiant 'cesse' ou 'ne ... pas'."
+      "sentence_with_blank": "« C'est interdit (religieusement) » se dit : à [ ___ ].",
+      "correct_answer": "hàráamù",
+      "hint": "Emprunt arabe attesté par Creissels."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Denis Creissels — Liste lexicale du dialonké de Faléya, Mandenkan 46 (2010), pp. 49-71",
+      "url": "http://www.deniscreissels.fr/public/Creissels-liste_lexicale_dialonke.pdf"
+    },
+    {
+      "label": "Wikipedia (EN) — Yalunka language (classification, aspect markers, exemple de phrase)",
+      "url": "https://en.wikipedia.org/wiki/Yalunka_language"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Le marqueur prohibitif (náfà/námà) est attesté à la fois par Creissels (2010) et, sous une forme convergente ('nama'), par Wikipedia (EN), ce qui renforce sa fiabilité. Le marqueur 'xa' pour la permission est attesté par Wikipedia (EN) mais sa portée exacte (souhait vs permission) reste décrite de manière sommaire dans les sources."
 }

@@ -6,265 +6,229 @@
   "lesson_number": 2,
   "title": "Les loisirs, les passions et les activités sportives",
   "learning_objectives": [
-    "Parler de ses activités de détente, de ses passe-temps et de ses passions en pular",
-    "Nommer et décrire la pratique des principaux sports (football, course)",
-    "Utiliser les structures verbales d'habitude pour exprimer la régularité d'un loisir"
+    "Nommer des activités de loisir courantes (jouer, danser, chanter, lire)",
+    "Exprimer une passion ou un intérêt avec le verbe 'yiðugol' (aimer)",
+    "Utiliser le verbe modal 'waawugol' (pouvoir/savoir faire) pour parler de compétences"
   ],
   "phonetic_focus": {
-    "key_sounds": "Le pular utilise la consonne occlusive palatale sourde 'c' (/c/) et sonore 'j' (/d͡ʒ/). On les retrouve dans 'fijirde' (jeu/loisir) et 'fijugol'. Notez l'allongement de la voyelle dans 'ool_eejo' ou 'falkagol'.",
-    "common_pitfalls": "Attention au mot 'fijirde'. Le 'j' doit être prononcé comme le 'dj' de djembé, jamais comme le 'j' français. Ne confondez pas le radical 'fij-' (jouer) avec 'fid-' (tirer/viser)."
+    "key_sounds": "Le verbe 'fijugol' (jouer) partage sa racine avec 'fijindaaru' (jeu, divertissement). Attention à la nasale finale de 'amugol' (danser), à ne pas confondre avec 'amunugol' dans d'autres dialectes.",
+    "common_pitfalls": "Le pular ne possède pas de vocabulaire spécifique largement attesté pour les sports modernes occidentaux (football, basketball) dans les sources disponibles : ces sports sont généralement désignés par des emprunts au français dans l'usage courant, plutôt que par des mots pular d'origine."
   },
   "vocabulary": [
     {
-      "word_id": "v11_1",
-      "term": "fijirde",
-      "phonetic_api": "/ɸid͡ʒirde/",
-      "phonetic_simple": "FI-DJIR-DE",
-      "translation": "loisir, jeu, amusement, match",
-      "example_sentence": "Fijirde hande nden no weli.",
-      "example_phonetic": "/ɸid͡ʒirde hande nden no weli/",
-      "example_translation": "Le match d'aujourd'hui est intéressant."
-    },
-    {
-      "word_id": "v11_2",
+      "word_id": "v1",
       "term": "fijugol",
-      "phonetic_api": "/ɸid͡ʒuɡol/",
+      "phonetic_api": "/fidʒuɡol/",
       "phonetic_simple": "FI-DJOU-GOL",
-      "translation": "jouer, pratiquer un sport/jeu",
-      "example_sentence": "Mido yidi fijugol balon.",
-      "example_phonetic": "/mido jidi ɸid͡ʒuɡol balon/",
-      "example_translation": "Je veux jouer au football."
+      "translation": "jouer",
+      "example_sentence": "Yahee fijugol ka yaasi.",
+      "example_phonetic": "/jaheː fidʒuɡol ka jaːsi/",
+      "example_translation": "Allez jouer dehors."
     },
     {
-      "word_id": "v11_3",
-      "term": "balon",
-      "phonetic_api": "/balon/",
-      "phonetic_simple": "BA-LON",
-      "translation": "ballon, football (emprunt pularisé)",
-      "example_sentence": "Omo jogii balon ɓaleejo.",
-      "example_phonetic": "/omo d͡ʒoɡiː balon ɓaleːd͡ʒo/",
-      "example_translation": "Il a un ballon noir."
+      "word_id": "v2",
+      "term": "amugol",
+      "phonetic_api": "/amuɡol/",
+      "phonetic_simple": "A-MOU-GOL",
+      "translation": "danser",
+      "example_sentence": "Faatu no yiði amugol.",
+      "example_phonetic": "/faːtu no jiɗi amuɡol/",
+      "example_translation": "Fatou aime danser."
     },
     {
-      "word_id": "v11_4",
+      "word_id": "v3",
+      "term": "yimugol",
+      "phonetic_api": "/jimuɡol/",
+      "phonetic_simple": "YI-MOU-GOL",
+      "translation": "chanter",
+      "example_sentence": "Miðo yiði yimugol.",
+      "example_phonetic": "/miɗo jiɗi jimuɡol/",
+      "example_translation": "J'aime chanter."
+    },
+    {
+      "word_id": "v4",
+      "term": "jangugol",
+      "phonetic_api": "/dʒaŋɡuɡol/",
+      "phonetic_simple": "DJAN-GOU-GOL",
+      "translation": "lire, étudier",
+      "example_sentence": "Men falaaka jangugol hande.",
+      "example_phonetic": "/men falaːka dʒaŋɡuɡol hande/",
+      "example_translation": "Nous ne voulons pas étudier aujourd'hui."
+    },
+    {
+      "word_id": "v5",
+      "term": "yiðugol",
+      "phonetic_api": "/jiɗuɡol/",
+      "phonetic_simple": "YI-DOU-GOL",
+      "translation": "aimer, préférer",
+      "example_sentence": "Hiðe yiði maafe tiga.",
+      "example_phonetic": "/hiɗe jiɗi mafe tiɡa/",
+      "example_translation": "Ils aiment la sauce d'arachide."
+    },
+    {
+      "word_id": "v6",
+      "term": "waawugol",
+      "phonetic_api": "/waːwuɡol/",
+      "phonetic_simple": "WAA-WOU-GOL",
+      "translation": "pouvoir, savoir faire",
+      "example_sentence": "Himo waawi dogugol.",
+      "example_phonetic": "/himo waːwi doɡuɡol/",
+      "example_translation": "Il sait (bien) courir."
+    },
+    {
+      "word_id": "v7",
       "term": "dogugol",
       "phonetic_api": "/doɡuɡol/",
       "phonetic_simple": "DO-GOU-GOL",
-      "translation": "courir, la course à pied / athlétisme",
-      "example_sentence": "Dogugol no moƴƴi e cellal.",
-      "example_phonetic": "/doɡuɡol no moʔɟːi e t͡ʃelːal/",
-      "example_translation": "Courir est bon pour la santé."
+      "translation": "courir",
+      "example_sentence": "Aliu no dogude.",
+      "example_phonetic": "/aliu no doɡude/",
+      "example_translation": "Aliou est en train de courir."
     },
     {
-      "word_id": "v11_5",
-      "term": "weltaare",
-      "phonetic_api": "/weltaːre/",
-      "phonetic_simple": "WEL-TAA-RE",
-      "translation": "la joie, le plaisir, la passion",
-      "example_sentence": "Fijugol ngol ko weltaare am.",
-      "example_phonetic": "/ɸid͡ʒuɡol nɡol ko weltaːre am/",
-      "example_translation": "Ce jeu est mon plaisir."
-    },
-    {
-      "word_id": "v11_6",
-      "term": "foolugol",
-      "phonetic_api": "/ɸoːluɡol/",
-      "phonetic_simple": "FOO-LOU-GOL",
-      "translation": "gagner, vaincre, remporter la victoire",
-      "example_sentence": "Équipe am ngon no fooli.",
-      "example_phonetic": "/ekip am nɡon no ɸoːli/",
-      "example_translation": "Mon équipe a gagné."
-    },
-    {
-      "word_id": "v11_7",
-      "term": "foolaagol",
-      "phonetic_api": "/ɸoːlaːɡol/",
-      "phonetic_simple": "FOO-LAA-GOL",
-      "translation": "perdre, être vaincu (forme passive)",
-      "example_sentence": "Hanki, on foolaama kadi.",
-      "example_phonetic": "/hanki on ɸoːlaːma kadi/",
-      "example_translation": "Hier, vous avez encore perdu."
-    },
-    {
-      "word_id": "v11_8",
-      "term": "gimol",
-      "phonetic_api": "/ɡimol/",
-      "phonetic_simple": "GI-MOL",
-      "translation": "chant, musique, chanson (gimi au pluriel)",
-      "example_sentence": "Mido lara gimol Fouta hande.",
-      "example_phonetic": "/mido lara ɡimol ɸuːta hande/",
-      "example_translation": "J'écoute une musique du Fouta aujourd'hui."
-    },
-    {
-      "word_id": "v11_9",
-      "term": "jaŋŋugol",
-      "phonetic_api": "/d͡ʒaŋːuɡol/",
-      "phonetic_simple": "DJANG-NGOU-GOL",
-      "translation": "lire, l'action de lire pour le plaisir / s'instruire",
-      "example_sentence": "Jaŋŋugol defte ko passion am.",
-      "example_phonetic": "/d͡ʒaŋːuɡol deɸte ko pasjon am/",
-      "example_translation": "Lire des livres est ma passion."
-    },
-    {
-      "word_id": "v11_10",
-      "term": "pootal",
-      "phonetic_api": "/poːtal/",
-      "phonetic_simple": "POO-TAL",
-      "translation": "rassemblement, club, association sportive/culturelle",
-      "example_sentence": "Pootal meɗen no tiiɗi.",
-      "example_phonetic": "/poːtal meɗen no tiːɗi/",
-      "example_translation": "Notre club est solide."
+      "word_id": "v8",
+      "term": "weltagol",
+      "phonetic_api": "/weltaɡol/",
+      "phonetic_simple": "OUÈL-TA-GOL",
+      "translation": "être content, joyeux",
+      "example_sentence": "Himo welti fii fijugol.",
+      "example_phonetic": "/himo welti fiː fidʒuɡol/",
+      "example_translation": "Il est content de jouer."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p11_1",
-      "original": "Mido fijat balon fow ka kikiide.",
-      "phonetic_api": "/mido ɸid͡ʒat balon ɸow ka kikiːde/",
-      "phonetic_simple": "MI-DO FI-DJAT BA-LON FOW KA KI-KII-DE",
-      "translation": "Je joue au football tous les soirs.",
-      "context": "Exprimer une habitude de loisir régulière."
+      "phrase_id": "p1",
+      "original": "Ko honðun njiðuðaa fii fijugol?",
+      "phonetic_api": "/ko honɗun ndʒiɗuɗaː fiː fidʒuɡol/",
+      "phonetic_simple": "KO HON-DOUNE ENDJI-DOU-DAA FI FI-DJOU-GOL",
+      "translation": "Qu'aimes-tu faire comme loisir ?",
+      "context": "Question ouverte pour parler de ses passe-temps."
     },
     {
-      "phrase_id": "p11_2",
-      "original": "Koni a yidi dogugol e subaka ?",
-      "phonetic_api": "/koni a jidi doɡuɡol e subaka/",
-      "phonetic_simple": "KO-NI A YI-DI DO-GOU-GOL E SOU-BA-KA ?",
-      "translation": "Aimes-tu courir le matin ?",
-      "context": "Questionner un ami sur ses habitudes sportives."
+      "phrase_id": "p2",
+      "original": "Miðo yiði amugol e yimugol.",
+      "phonetic_api": "/miɗo jiɗi amuɡol e jimuɡol/",
+      "phonetic_simple": "MI-DO YI-DI A-MOU-GOL É YI-MOU-GOL",
+      "translation": "J'aime danser et chanter.",
+      "context": "Pour exprimer plusieurs passions à la fois."
     },
     {
-      "phrase_id": "p11_3",
-      "original": "Équipe am ngon no fooli hanki ka kikiide.",
-      "phonetic_api": "/ekip am nɡon no ɸoːli hanki ka kikiːde/",
-      "phonetic_simple": "EKIP AM NGON NO FOO-LI HAN-KI KA KI-KII-DE",
-      "translation": "Mon équipe a gagné hier soir.",
-      "context": "Annoncer fièrement un résultat sportif."
+      "phrase_id": "p3",
+      "original": "Himo waawi dogugol no moýýiri.",
+      "phonetic_api": "/himo waːwi doɡuɡol no moɟːiri/",
+      "phonetic_simple": "HI-MO OUAA-OUI DO-GOU-GOL NO MOY-YI-RI",
+      "translation": "Il sait très bien courir.",
+      "context": "Pour évaluer une compétence sportive."
     },
     {
-      "phrase_id": "p11_4",
-      "original": "Mido jogii passion e jaŋŋugol defte pular.",
-      "phonetic_api": "/mido d͡ʒoɡiː pasjon e d͡ʒaŋːuɡol deɸte pular/",
-      "phonetic_simple": "MI-DO DJO-GII PAS-JON E DJANG-NGOU-GOL DEF-TE POU-LAR",
-      "translation": "J'ai une passion pour la lecture de livres en pular.",
-      "context": "Parler de ses loisirs intellectuels."
-    },
-    {
-      "phrase_id": "p11_5",
-      "original": "Larugol gimi no weltina mi sanne.",
-      "phonetic_api": "/laruɡol ɡimi no weltina mi sanːe/",
-      "phonetic_simple": "LA-ROU-GOL GI-MI NO WEL-TI-NA MI SAN-NE",
-      "translation": "Écouter de la musique me fait grandement plaisir.",
-      "context": "Partager ses goûts en matière de détente."
-    },
-    {
-      "phrase_id": "p11_6",
-      "original": "Yo en yahu ka terrain, waktu fijirde no yoni.",
-      "phonetic_api": "/jo en jahu ka teren waktu ɸid͡ʒirde no joni/",
-      "phonetic_simple": "YO EN YA-HOU KA TER-RAIN, WAK-TOU FI-DJIR-DE NO YO-NI",
-      "translation": "Allons au terrain, l'heure du match est arrivée.",
-      "context": "Inviter des partenaires à démarrer une activité."
-    },
-    {
-      "phrase_id": "p11_7",
-      "original": "Pootal meɗen ngon foolaama hande.",
-      "phonetic_api": "/poːtal meɗen nɡon ɸoːlaːma hande/",
-      "phonetic_simple": "POO-TAL ME-DHEN NGON FOO-LAA-MA HAN-DE",
-      "translation": "Notre club a été vaincu aujourd'hui.",
-      "context": "Constater une défaite avec déception."
-    },
-    {
-      "phrase_id": "p11_8",
-      "original": "Fijugol fije traditionnel ɗen no ɓuri welde.",
-      "phonetic_api": "/ɸid͡ʒuɡol ɸid͡ʒe tradisjonel ɗen no ɓuri welde/",
-      "phonetic_simple": "FI-DJOU-GOL FI-DJE TRA-DI-TION-NEL DHEN NO BHOU-RI WEL-DE",
-      "translation": "Jouer aux jeux traditionnels est ce qu'il y a de plus amusant.",
-      "context": "Affirmer sa préférence culturelle."
+      "phrase_id": "p4",
+      "original": "Yahee fijugol ka yaasi!",
+      "phonetic_api": "/jaheː fidʒuɡol ka jaːsi/",
+      "phonetic_simple": "YA-HÉÉ FI-DJOU-GOL KA YAA-SI",
+      "translation": "Allez jouer dehors !",
+      "context": "Phrase typique d'un adulte à des enfants."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'inaccompli d'habitude avec le suffixe '-at'",
-      "explanation": "Pour exprimer une action répétée, habituelle ou un loisir régulier au présent, le pular insère l'infinitif inaccompli habituel marqué par la désinence '-at' sur le radical verbal actif.",
+      "concept": "Exprimer une passion ou une compétence avec 'yiðugol' et 'waawugol'",
+      "explanation": "Pour dire qu'on aime faire une activité, on conjugue 'yiðugol' (aimer) suivi de l'infinitif de l'activité en -gol. Pour dire qu'on sait ou qu'on peut faire quelque chose, on utilise 'waawugol' de la même façon.",
       "rules": [
-        "Prendre le radical du verbe (ex: fij-).",
-        "Ajouter le suffixe '-at' pour la première personne ou les formes verbales régulières de l'habitude."
+        "sujet + yiðugol conjugué + verbe-gol = aimer faire quelque chose",
+        "sujet + waawugol conjugué + verbe-gol = savoir/pouvoir faire quelque chose"
       ],
       "examples": [
         {
-          "structure": "fij- + -at",
-          "phonetic_api": "/mido ɸid͡ʒat/",
-          "meaning": "Je joue habituellement / régulièrement"
-        }
-      ]
-    },
-    {
-      "concept": "La voix passive à l'accompli : '-aama'",
-      "explanation": "Lorsqu'on parle de sport, subir une action (être battu, être vaincu) s'exprime de manière synthétique par la voix passive via le suffixe '-aama' appliqué au parfait inaccompli.",
-      "rules": [
-        "Radical verbal + '-aama' indique que le sujet subit l'action à l'accompli."
-      ],
-      "examples": [
+          "structure": "Miðo yiði jangugol.",
+          "phonetic_api": "/miɗo jiɗi dʒaŋɡuɡol/",
+          "meaning": "J'aime lire/étudier."
+        },
         {
-          "structure": "fool- + -aama",
-          "phonetic_api": "/ɸoːlaːma/",
-          "meaning": "A été vaincu / a perdu"
+          "structure": "Himo waawi amugol.",
+          "phonetic_api": "/himo waːwi amuɡol/",
+          "meaning": "Il/elle sait danser."
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Mamadou",
-      "text": "Saliou, koni a yahat ka terrain hande ka kikiide ?",
-      "phonetic_api": "/saliu koni a jahat ka teren hande ka kikiːde/",
-      "phonetic_simple": "SA-LIOU, KO-NI A YA-HAT KA TER-RAIN HAN-DE KA KI-KII-DE ?",
-      "translation": "Saliou, est-ce que tu vas au terrain ce soir ?"
+      "speaker": "Mariama",
+      "text": "Ko honðun njiðuðaa fii fijugol?",
+      "phonetic_api": "/ko honɗun ndʒiɗuɗaː fiː fidʒuɡol/",
+      "phonetic_simple": "KO HON-DOUNE ENDJI-DOU-DAA FI FI-DJOU-GOL",
+      "translation": "Qu'aimes-tu faire comme loisir ?"
     },
     {
-      "speaker": "Saliou",
-      "text": "Eyyo, mido fijat balon fow ka kikiide e pootal meɗen. Fijugol ko weltaare am !",
-      "phonetic_api": "/ejːo mido ɸid͡ʒat balon ɸow ka kikiːde e pootal meɗen ɸid͡ʒuɡol ko weltaːre am/",
-      "phonetic_simple": "EY-YO, MI-DO FI-DJAT BA-LON FOW KA KI-KII-DE E POO-TAL ME-DHEN. FI-DJOU-GOL KO WEL-TAA-RE AM !",
-      "translation": "Oui, je joue au football tous les soirs avec notre club. Jouer est mon grand plaisir !"
+      "speaker": "Boubacar",
+      "text": "Miðo yiði dogugol e fijugol. An le?",
+      "phonetic_api": "/miɗo jiɗi doɡuɡol e fidʒuɡol an le/",
+      "phonetic_simple": "MI-DO YI-DI DO-GOU-GOL É FI-DJOU-GOL. AN LÉ",
+      "translation": "J'aime courir et jouer. Et toi ?"
     },
     {
-      "speaker": "Mamadou",
-      "text": "Koni on fooli hanki e fijirde nden ?",
-      "phonetic_api": "/koni on ɸoːli hanki e ɸid͡ʒirde nden/",
-      "phonetic_simple": "KO-NI ON FOO-LI HAN-KI E FI-DJIR-DE NDEN ?",
-      "translation": "Est-ce que vous avez gagné hier pendant le match ?"
+      "speaker": "Mariama",
+      "text": "Min, miðo yiði amugol e yimugol buy.",
+      "phonetic_api": "/min miɗo jiɗi amuɡol e jimuɡol buj/",
+      "phonetic_simple": "MIN, MI-DO YI-DI A-MOU-GOL É YI-MOU-GOL BOUY",
+      "translation": "Moi, j'aime beaucoup danser et chanter."
     },
     {
-      "speaker": "Saliou",
-      "text": "Eyyo, en fooli ɓe tato e nayee. Larugol gimi kadi no ɗon e miñngo nden joni pour fêter !",
-      "phonetic_api": "/ejːo en ɸoːli ɓe tato e najeː laruɡol ɡimi kadi no ɗon e miɲːɡo nden d͡ʒoni/",
-      "phonetic_simple": "EY-YO, EN FOO-LI BHE TA-TO E NAY-EE. LA-ROU-GOL GI-MI KA-DI NO DHON E MI-NYNGO NDEN DJO-NI POUR FEE-TER !",
-      "translation": "Oui, nous les avons battus trois à quatre. Écouter de la musique est aussi au programme dans la cour maintenant pour fêter ça !"
+      "speaker": "Boubacar",
+      "text": "Himo welti fii jangugol kadi.",
+      "phonetic_api": "/himo welti fiː dʒaŋɡuɡol kadi/",
+      "phonetic_simple": "HI-MO OUÈL-TI FI DJAN-GOU-GOL KA-DI",
+      "translation": "Il/elle est content(e) d'étudier aussi."
     }
   ],
   "cultural_notes": [
-    "Le football ('balon') est une passion nationale absolue en Guinée et rassemble la jeunesse de chaque quartier ou village lors des tournois inter-secteurs ('fijirde kikiide'). Parallèlement, les luttes traditionnelles et les danses rythmiques au son du djembé lors des célébrations villageoises constituent des loisirs historiques majeurs."
+    "Le chant (yimugol) et la danse (amugol) occupent une place centrale dans les fêtes et cérémonies peules (mariages, baptêmes), souvent accompagnés du tambour (source : Learner's Guide to Pular, chapitres Body et Ceremonies).",
+    "Le vocabulaire pular relatif aux sports modernes (football, basketball) n'est pas standardisé dans les sources disponibles (manuel Peace Corps, dictionnaires en ligne) : ces sports sont généralement nommés par des emprunts directs au français dans la conversation courante."
   ],
   "exercises": [
     {
-      "exercise_id": "ex11_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Que signifie le verbe 'foolaagol' à la voix passive ?",
+      "question": "Comment dit-on « il sait courir » en pular ?",
       "options": [
-        "Gagner le match",
-        "Être vaincu / perdre",
-        "Courir très vite"
+        "Himo yiði dogugol",
+        "Himo waawi dogugol",
+        "Himo welti dogugol"
       ],
-      "correct_answer": "Être vaincu / perdre",
-      "explanation": "'Foolugol' signifie vaincre. La forme passive 'foolaagol' signifie être vaincu, donc perdre la confrontation."
+      "correct_answer": "Himo waawi dogugol",
+      "explanation": "Waawugol exprime la capacité/le savoir-faire ; yiðugol exprime le goût, la préférence."
     },
     {
-      "exercise_id": "ex11_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Mido fij [ ___ ] balon fow ka kikiide. (Je joue régulièrement au football).",
-      "correct_answer": "at",
-      "hint": "Le suffixe d'inaccompli habituel indiquant la répétition fréquente."
+      "sentence_with_blank": "Miðo [ ___ ] amugol. (j'aime danser)",
+      "correct_answer": "yiði",
+      "hint": "Utilisez le verbe 'aimer' à la forme conjuguée avec 'miðo'."
+    },
+    {
+      "exercise_id": "ex3",
+      "type": "multiple_choice",
+      "question": "Que signifie 'weltagol' ?",
+      "options": [
+        "Être fatigué",
+        "Être content",
+        "Être malade"
+      ],
+      "correct_answer": "Être content",
+      "explanation": "Weltagol signifie être content, joyeux."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Learner's Guide to Pular (Fuuta Jallon) — Peace Corps Guinée (Herb Caudill & Ousmane Besseko Diallo)",
+      "url": "https://ibamba.net/pular/manual.pdf"
+    },
+    {
+      "label": "Live Lingua Project — Peace Corps Manual of Fulfulde",
+      "url": "https://www.livelingua.com/course/peace-corps/manual-of-fulfulde"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Les verbes de base (fijugol, amugol, yimugol, jangugol, waawugol) sont attestés dans le manuel Peace Corps Guinée. Cependant, aucune source fiable n'a été trouvée pour un vocabulaire pular natif des sports modernes (football, basketball) : la leçon se limite donc volontairement aux activités de loisir traditionnelles bien attestées, et signale explicitement l'absence de terminologie sportive moderne standardisée."
 }

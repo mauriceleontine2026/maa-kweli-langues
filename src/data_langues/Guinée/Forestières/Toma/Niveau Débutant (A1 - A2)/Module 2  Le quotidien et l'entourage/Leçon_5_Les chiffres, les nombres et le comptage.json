@@ -6,86 +6,196 @@
   "lesson_number": 5,
   "title": "Les chiffres, les nombres et le comptage",
   "learning_objectives": [
-    "Compter de 1 à 10 en toma",
-    "Associer une quantité de base à des objets du quotidien"
+    "Compter de 1 à 10 et jusqu'à 100 en toma/loma",
+    "Utiliser les nombres avec des noms (accord numéral-nom)",
+    "Comprendre le système de numération en base 5 et 20 (vigésimal)"
   ],
   "phonetic_focus": {
-    "key_sounds": "La consonne nasale vélaire 'ŋ' (comme à la fin de 'sing' en anglais) se retrouve fréquemment en fin de chiffre ou de mot.",
-    "common_pitfalls": "Évitez de prononcer le 'g' de manière forte à la fin d'une nasale vélaire. Le son doit résonner uniquement dans le nez."
+    "key_sounds": "Les nombres composés se construisent par addition à partir de la base 5 ('dooluo') et de la base 10 ('puugo') avec le connecteur 'kai' (plus). Le nombre 20 se dit 'zee-felego' (2×10), révélant une structure vigésimale résiduelle.",
+    "common_pitfalls": "Les francophones ont tendance à traduire littéralement l'ordre des nombres composés en français, alors que le toma/loma place toujours la base (dix, cinq) avant l'unité ajoutée (ex: 'puugo kai gila' = dix plus un = onze)."
   },
   "vocabulary": [
     {
-      "word_id": "v5_1",
-      "term": "gila",
-      "phonetic_api": "/ɡi.la/",
-      "phonetic_simple": "GHI-LA",
-      "translation": "un (1)",
-      "example_sentence": "Loi gila.",
-      "example_phonetic": "/loi ɡi.la/",
-      "example_translation": "Un enfant."
+      "word_id": "v1",
+      "term": "Gila / Giála",
+      "phonetic_api": "/ɡilá/",
+      "phonetic_simple": "GUI-LA",
+      "translation": "Un",
+      "example_sentence": "Giála zo.",
+      "example_phonetic": "/ɡiálá zɔ/",
+      "example_translation": "Attrape-en un."
     },
     {
-      "word_id": "v5_2",
-      "term": "fele",
-      "phonetic_api": "/fe.le/",
-      "phonetic_simple": "FE-LE",
-      "translation": "deux (2)",
-      "example_sentence": "Pére fele.",
-      "example_phonetic": "/pe.re fe.le/",
-      "example_translation": "Deux maisons."
+      "word_id": "v2",
+      "term": "Felego / Feÿlégÿ",
+      "phonetic_api": "/felégɤ/",
+      "phonetic_simple": "FÉ-LÉ-GO",
+      "translation": "Deux",
+      "example_sentence": "Felego.",
+      "example_phonetic": "/felégɤ/",
+      "example_translation": "Deux."
     },
     {
-      "word_id": "v5_3",
-      "term": "saawa",
-      "phonetic_api": "/saː.wa/",
-      "phonetic_simple": "SAA-OUA",
-      "translation": "trois (3)",
-      "example_sentence": "Nâi saawa.",
-      "example_phonetic": "/nâi saː.wa/",
-      "example_translation": "Trois vaches."
+      "word_id": "v3",
+      "term": "Saago / Saagý",
+      "phonetic_api": "/saːɡɤ/",
+      "phonetic_simple": "SA-A-GO",
+      "translation": "Trois",
+      "example_sentence": "Saago zo.",
+      "example_phonetic": "/saːɡɤ zɔ/",
+      "example_translation": "Attrape-en trois."
     },
     {
-      "word_id": "v5_4",
-      "term": "puu",
-      "phonetic_api": "/puː/",
-      "phonetic_simple": "POUOU",
-      "translation": "dix (10)",
-      "example_sentence": "Bala puu.",
-      "example_phonetic": "/ba.la puː/",
-      "example_translation": "Dix paniers."
+      "word_id": "v4",
+      "term": "Naago / Naagý",
+      "phonetic_api": "/naːɡɤ/",
+      "phonetic_simple": "NA-A-GO",
+      "translation": "Quatre",
+      "example_sentence": "Naago zo.",
+      "example_phonetic": "/naːɡɤ zɔ/",
+      "example_translation": "Attrape-en quatre."
+    },
+    {
+      "word_id": "v5",
+      "term": "Dooluo",
+      "phonetic_api": "/doːluɔ/",
+      "phonetic_simple": "DO-O-LOU-O",
+      "translation": "Cinq",
+      "example_sentence": "Tý loolu.",
+      "example_phonetic": "/tɤ loːlu/",
+      "example_translation": "Il y en a cinq."
+    },
+    {
+      "word_id": "v6",
+      "term": "Puugo / Puugý",
+      "phonetic_api": "/puːɡɤ/",
+      "phonetic_simple": "POU-GO",
+      "translation": "Dix",
+      "example_sentence": "Puugo kai gila.",
+      "example_phonetic": "/puːɡɤ kai ɡilá/",
+      "example_translation": "Onze (dix plus un)."
+    },
+    {
+      "word_id": "v7",
+      "term": "Taawu / Taawuo",
+      "phonetic_api": "/taːwu/",
+      "phonetic_simple": "TA-A-WOU",
+      "translation": "Neuf",
+      "example_sentence": "Ge pýtýni taawu.",
+      "example_phonetic": "/ge pɤtɤni taːwu/",
+      "example_translation": "Je l'ai vu neuf fois."
+    },
+    {
+      "word_id": "v8",
+      "term": "Zee-felego",
+      "phonetic_api": "/zeː felégɤ/",
+      "phonetic_simple": "ZÉ-FÉ-LÉ-GO",
+      "translation": "Vingt",
+      "example_sentence": "Zee-felego.",
+      "example_phonetic": "/zeː felégɤ/",
+      "example_translation": "Vingt."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p5_1",
-      "original": "É na sée-ye e ze e ɓɛ̀?",
-      "phonetic_api": "/e na seː.je e ze e ɓɛ̀/",
-      "phonetic_simple": "E NA SEE-YE E ZE E BE?",
-      "translation": "Combien cela coûte-t-il ?",
-      "context": "Question de base lors du comptage d'argent ou d'achats marchands."
+      "phrase_id": "p1",
+      "original": "Puugo kai felego",
+      "phonetic_api": "/puːɡɤ kai felégɤ/",
+      "phonetic_simple": "POU-GO-KAÏ-FÉ-LÉ-GO",
+      "translation": "Douze (dix plus deux)",
+      "context": "Construction additive typique des nombres 11 à 19."
     },
     {
-      "phrase_id": "p5_2",
-      "original": "Puu gila yaa lo.",
-      "phonetic_api": "/puː ɡi.la jaː lo/",
-      "phonetic_simple": "POU GHI-LA YAA LO",
-      "translation": "Cela fait onze.",
-      "context": "Utilisé pour exprimer l'addition d'une unité à la dizaine."
+      "phrase_id": "p2",
+      "original": "Wungila",
+      "phonetic_api": "/wuŋɡilá/",
+      "phonetic_simple": "WOUN-GUI-LA",
+      "translation": "Cent",
+      "context": "Nombre rond utilisé pour les grandes quantités."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Wungila zee-felego kai gila",
+      "phonetic_api": "/wuŋɡilá zeː felégɤ kai ɡilá/",
+      "phonetic_simple": "WOUN-GUI-LA-ZÉ-FÉ-LÉ-GO-KAÏ-GUI-LA",
+      "translation": "Cent vingt-un (121)",
+      "context": "Exemple de grand nombre composé (cent + vingt + un)."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Giále-giále",
+      "phonetic_api": "/ɡiálé ɡiálé/",
+      "phonetic_simple": "GUI-A-LÉ-GUI-A-LÉ",
+      "translation": "Un par un",
+      "context": "Adverbe de répartition, utilisé par exemple pour distribuer des objets."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Dýýlu-dýýlu",
+      "phonetic_api": "/dɤːlu dɤːlu/",
+      "phonetic_simple": "DEU-LOU-DEU-LOU",
+      "translation": "Cinq par cinq",
+      "context": "Répartir par groupes de cinq."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "Kýlýi feÿle keleiá",
+      "phonetic_api": "/kɤlɤi féle keléiá/",
+      "phonetic_simple": "KEU-LEU-I-FÉ-LÉ-KÉ-LÉ-YA",
+      "translation": "Le deuxième livre",
+      "context": "Formation de l'ordinal 'deuxième' à partir du cardinal 'deux' + 'kele'."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "Kýlý maÿwuËgiá",
+      "phonetic_api": "/kɤlɤ mawuːŋɡiá/",
+      "phonetic_simple": "KEU-LEU-MA-OUN-GUI-A",
+      "translation": "Le premier livre",
+      "context": "'Premier' est irrégulier, contrairement aux autres ordinaux."
     }
   ],
   "grammar_points": [
     {
-      "concept": "La position des numéraux adjectivaux",
-      "explanation": "En toma, les adjectifs de quantité et les chiffres se placent toujours après le nom qu'ils qualifient.",
+      "concept": "Construction additive des nombres 11 à 19 (dix + kai + unité)",
+      "explanation": "Les nombres de 11 à 19 se forment en ajoutant l'unité au dix ('puugo') via le connecteur 'kai' (plus) : puugo kai gila (onze), puugo kai felego (douze), etc. Ce même principe additif s'applique aux centaines (wungila = cent, puis wungila + kai + reste).",
       "rules": [
-        "Le nom reste en général invariable dans sa forme de base.",
-        "C'est le chiffre postposé qui indique la pluralité."
+        "10 + kai + unité (1-9) = 11 à 19.",
+        "100 = wungila ; 100 + dizaine + unité pour les grands nombres."
       ],
       "examples": [
         {
-          "structure": "loi saawa",
-          "phonetic_api": "/loi saː.wa/",
-          "meaning": "trois enfants"
+          "structure": "Puugo kai naago",
+          "phonetic_api": "/puːɡɤ kai naːɡɤ/",
+          "meaning": "Quatorze (dix plus quatre)."
+        }
+      ]
+    },
+    {
+      "concept": "Les dizaines par multiplication de dix (zee- + unité)",
+      "explanation": "Les dizaines (20, 30, 40...) se forment avec le préfixe 'zee-' (probablement lié à une base vigésimale ancienne) suivi du chiffre multiplicateur : zee-felego (2×10=20), zee-saago (3×10=30), etc.",
+      "rules": [
+        "zee- + chiffre (2-9) = dizaine correspondante (chiffre × 10)."
+      ],
+      "examples": [
+        {
+          "structure": "Zee-dooluo",
+          "phonetic_api": "/zeː doːluɔ/",
+          "meaning": "Cinquante (5×10)."
+        }
+      ]
+    },
+    {
+      "concept": "Les ordinaux avec 'kele'",
+      "explanation": "Pour former les ordinaux (deuxième, troisième...), on ajoute l'élément 'kele' au cardinal, sauf pour 'premier' qui utilise une forme irrégulière ('maÿwuËgiá').",
+      "rules": [
+        "Cardinal + kele(-i) = ordinal (à partir de 'deuxième').",
+        "'Premier' est une forme à part, non dérivée de 'un'."
+      ],
+      "examples": [
+        {
+          "structure": "Saava keleÿi",
+          "phonetic_api": "/saːva keléɤi/",
+          "meaning": "Troisième."
         }
       ]
     }
@@ -93,41 +203,84 @@
   "dialogue": [
     {
       "speaker": "Vendeur",
-      "text": "I zaza yee sée-ye e ze e ɓɛ̀?",
-      "phonetic_api": "/i za.za jeː seː.je e ze e ɓɛ̀/",
-      "phonetic_simple": "I ZA-ZA YEE SEE-YE E ZE E BE?",
-      "translation": "Combien de mangues veux-tu ?"
+      "text": "Maazagii ya gaa felego fowungii.",
+      "phonetic_api": "/maːzaɡiː ja gaː felégɤ fɔwuŋɡiː/",
+      "phonetic_simple": "MA-A-ZA-GUI-YA-GA-FÉ-LÉ-GO-FO-OUN-GUI",
+      "translation": "Les bananes sont deux pour cinq cents (5 cents)."
     },
     {
       "speaker": "Client",
-      "text": "Pɛ̀ na zaza fele.",
-      "phonetic_api": "/pɛ̀ na za.za fe.le/",
-      "phonetic_simple": "PE NA ZA-ZA FE-LE",
-      "translation": "Donne-moi deux mangues."
+      "text": "Ga woini gaa puugo.",
+      "phonetic_api": "/ga wɔini gaː puːɡɤ/",
+      "phonetic_simple": "GA-WOÏ-NI-GA-POU-GO",
+      "translation": "J'en veux dix."
+    },
+    {
+      "speaker": "Vendeur",
+      "text": "Puugo kai gila?",
+      "phonetic_api": "/puːɡɤ kai ɡilá/",
+      "phonetic_simple": "POU-GO-KAÏ-GUI-LA",
+      "translation": "Onze (dix plus un) ?"
+    },
+    {
+      "speaker": "Client",
+      "text": "Bha, puugo giála.",
+      "phonetic_api": "/ɓa puːɡɤ ɡiálá/",
+      "phonetic_simple": "BHA-POU-GO-GUI-A-LA",
+      "translation": "Non, dix exactement."
     }
   ],
   "cultural_notes": [
-    "Le système de numération traditionnel toma repose sur une base quinaire (base 5), liée historiquement aux cinq doigts de la main, avant d'aboutir à la dizaine 'puu'."
+    "La numération en toma/loma présente des traces d'un système vigésimal (base 20), fréquent dans plusieurs langues d'Afrique de l'Ouest, où 'zee-' semble lié historiquement à la notion de vingtaine.",
+    "Au marché, la maîtrise des nombres est indispensable pour négocier les prix, très souvent exprimés en unités composées (cinq, dix, vingt)."
   ],
   "exercises": [
     {
-      "exercise_id": "ex5_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel mot désigne le chiffre 'deux' en toma ?",
+      "question": "Comment dit-on 'dix' en toma/loma ?",
       "options": [
-        "gila",
-        "fele",
-        "saawa"
+        "Puugo",
+        "Dooluo",
+        "Taawu"
       ],
-      "correct_answer": "fele",
-      "explanation": "'fele' signifie deux, 'gila' un, et 'saawa' trois."
+      "correct_answer": "Puugo",
+      "explanation": "'Puugo/puugý' signifie dix, attesté à la fois par Omniglot et par Sadler (Mandenkan 42)."
     },
     {
-      "exercise_id": "ex5_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Pére [ ___ ] (Une maison).",
-      "correct_answer": "gila",
-      "hint": "Le chiffre un en langue toma."
+      "sentence_with_blank": "Puugo kai [ ___ ] = quinze.",
+      "correct_answer": "dooluo",
+      "hint": "Quinze = dix plus cinq."
+    },
+    {
+      "exercise_id": "ex3",
+      "type": "multiple_choice",
+      "question": "Comment se forme 'trente' en toma/loma ?",
+      "options": [
+        "Zee-saago",
+        "Puugo kai saago",
+        "Saago-puugo"
+      ],
+      "correct_answer": "Zee-saago",
+      "explanation": "Les dizaines se forment avec le préfixe 'zee-' + le chiffre multiplicateur (zee-saago = 3×10 = 30)."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Omniglot, \"Loma (Löömàgòòi / Löghömàgòòi)\"",
+      "url": "https://www.omniglot.com/writing/loma.htm"
+    },
+    {
+      "label": "Wesley Sadler, \"A Complete Analysis of the Lɔɔma Language\", Mandenkan 42 (LLACAN/CNRS)",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan42/sadler.pdf"
+    },
+    {
+      "label": "Dwyer, Bodegie & Bague, \"A Learner Directed Approach to Lorma\" (Peace Corps/Michigan State University, 1981)",
+      "url": "https://files.eric.ed.gov/fulltext/ED247766.pdf"
+    }
+  ],
+  "confidence": "élevée",
+  "confidence_note": "Les nombres cardinaux de 1 à 10 sont confirmés de façon convergente par deux sources indépendantes (Sadler et Omniglot/Dwyer), avec une légère variation orthographique attendue entre transcriptions académiques et pratiques."
 }

@@ -26,6 +26,10 @@ def _is_sqlite(url: str) -> bool:
 
 def _build_engine(url: str):
     connect_args = {"check_same_thread": False} if _is_sqlite(url) else {}
+    if url.startswith("postgresql://"):
+        url = url.replace("postgresql://", "postgresql+psycopg://", 1)
+    elif url.startswith("postgres://"):
+        url = url.replace("postgres://", "postgresql+psycopg://", 1)
     return create_engine(url, connect_args=connect_args, pool_pre_ping=True)
 
 

@@ -1,165 +1,181 @@
 {
-  "lesson_id": "C1_M2_L5",
-  "level": "Avancé (C1-C2)",
-  "module_number": 2,
-  "module_title": "Culture, traditions et rhétorique",
-  "lesson_number": 5,
-  "title": "Débattre, argumenter et défendre un point de vue",
-  "learning_objectives": [
-    "Prendre position de manière vigoureuse et respectueuse au sein d'une assemblée villageoise",
-    "Réfuter un argument adverse en exploitant les paradoxes logiques de son interlocuteur",
-    "Structurer une harangue ou un plaidoyer en articulant habilement concession, cause et finalité"
-  ],
-  "phonetic_focus": {
-    "key_sounds": "Le verbe pour mener une joute oratoire ou défendre une opinion, 'gā-sakhó', demande une émission vocalique longue /aː/ suivie de la fricative vélaire sourde /χ/. L'expression du désaccord poli, 'gisá-bi-ə̀k', porte un ton bas marqué sur sa désinence accomplie.",
-    "common_pitfalls": "Attention à ne pas monter le ton de façon agressive lors de l'articulation de 'gisá-bi-ə̀k'. En rhétorique bédik, la fermeté d'un argument se manifeste par un timbre de voix grave, posé et stable."
-  },
-  "vocabulary": [
-    {
-      "word_id": "v1",
-      "term": "Gā-sakhó",
-      "phonetic_api": "/ɡaː.sa.χo/",
-      "phonetic_simple": "GAA-SA-RHO",
-      "translation": "Débattre / Défendre son point de vue / Argumenter avec vigueur",
-      "example_sentence": "Mē di gā-sakhó eyi-gwa dyé",
-      "example_phonetic": "/meː di ɡaː.sa.χo ɛ.ji.ɡwa dʒe/",
-      "translation_example": "Je vais défendre mon point de vue ici dans la concession."
+    "lesson_id": "C1_M2_L5",
+    "level": "Avancé (C1-C2)",
+    "module_number": 2,
+    "module_title": "Culture, traditions et rhétorique",
+    "lesson_number": 5,
+    "title": "Débattre, argumenter et défendre un point de vue",
+    "learning_objectives": [
+        "Situer les espaces traditionnels de délibération dans la société bedik",
+        "Reconnaître l'absence de vocabulaire bedik de l'argumentation en accès libre"
+    ],
+    "phonetic_focus": {
+        "key_sounds": "Le système phonologique général du bedik (implosives ɓ/ɗ/ƴ, voyelle centrale ë, opposition s/ŝ) reste valable à ce niveau, mais aucune source consultée ne détaille sa réalisation dans des énoncés complexes.",
+        "common_pitfalls": "Sans corpus de phrases longues en bedik, il est impossible de documenter des erreurs de prononciation spécifiques à ce niveau ; cette leçon l'indique honnêtement plutôt que d'en inventer."
     },
-    {
-      "word_id": "v2",
-      "term": "Gisá-bi-ə̀k",
-      "phonetic_api": "/ɡi.sa.bi.ək/",
-      "phonetic_simple": "GI-SA-BI-ƐK",
-      "translation": "A réfuté / S'est opposé logiquement / A contredit (passé accompli)",
-      "example_sentence": "Samba gisá-bi-ə̀k kōō-bēt kō",
-      "example_phonetic": "/sam.ba ɡi.sa.bi.ək koː.beːt ko/",
-      "translation_example": "Samba a réfuté cette déclaration."
-    },
-    {
-      "word_id": "v3",
-      "term": "Kōō-tēkh",
-      "phonetic_api": "/koː.teːχ/",
-      "phonetic_simple": "KOOR-TEEKH",
-      "translation": "L'argument massue / La parole lourde de sens / La preuve irréfutable",
-      "example_sentence": "Ɓa kōō-tēkh ina !",
-      "example_phonetic": "/ɓa koː.teːχ i.na/",
-      "translation_example": "Avance ton argument massue !"
-    },
-    {
-      "word_id": "v4",
-      "term": "Bēt-gwa",
-      "phonetic_api": "/beːt.ɡwa/",
-      "phonetic_simple": "BEET-GWA",
-      "translation": "L'orateur / Le porte-parole / Celui qui maîtrise l'éloquence",
-      "example_sentence": "Mady bē bēt-gwa amiat",
-      "example_phonetic": "/ma.di beː beːt.ɡwa a.mja/",
-      "translation_example": "Mady est un excellent orateur."
-    }
-  ],
-  "common_phrases": [
-    {
-      "phrase_id": "p1",
-      "original": "Mē sə̀kh gā-sakhó ba-nē kōō-bēt bē bi.",
-      "phonetic_api": "/meː siχ ɡaː.sa.χo ba.neː koː.beːt beː bi/",
-      "phonetic_simple": "MEE SƐKH GAA-SA-RHO BA-NEE KOOR-BEET BEE BI",
-      "translation": "Je dois prendre la parole car la décision actuelle est mauvaise.",
-      "context": "Intervenir de manière tranchée au cours d'une palabre communautaire."
-    },
-    {
-      "phrase_id": "p2",
-      "original": "Mē di gisá-bi-ə̀k kōō kō gaw-khá ina bē baba.",
-      "phonetic_api": "/meː di ɡi.sa.bi.ək koː ko ɡaw.χa i.na beː ba.ba/",
-      "phonetic_simple": "MEE DI GI-SA-BI-ƐK KOO KO GAW-RHÁ I-NA BEE BA-BA",
-      "translation": "Je vais réfuter cet argument bien que tu sois mon aîné (respectueusement).",
-      "context": "Formuler une objection logique et polie mais ferme face à une autorité."
-    },
-    {
-      "phrase_id": "p3",
-      "original": "Ɓa kōō-tēkh ina, nē-khá madyé amunké ƴen !",
-      "phonetic_api": "/ɓa koː.teːχ i.na neː.χa ma.dʒe a.mun.ke ƴɛn/",
-      "phonetic_simple": "BHA KOOR-TEEKH I-NA, NEE-RHÁ MA-DYE A-MOUN-KE YHAN !",
-      "translation": "Avance ta preuve irréfutable, afin que toute l'assemblée en soit témoin !",
-      "context": "Mettre son interlocuteur au défi de prouver ses affirmations devant les pairs."
-    },
-    {
-      "phrase_id": "p4",
-      "original": "Bēt-gwa bēt-ə̀k ko-khá gisá-gaas di gwas-bi.",
-      "phonetic_api": "/beːt.ɡwa beːt.ək ko.χa ɡi.sa.ɡaːs di ɡwa.sbi/",
-      "phonetic_simple": "BEET-GWA BEET-ƐK KO-RHÁ GI-SA-GAAS DI GWAS-BI",
-      "translation": "L'orateur a déclaré que la voie de la vérité triompherait.",
-      "context": "Conclure une joute verbale en se ralliant à la sagesse collective."
-    }
-  ],
-  "grammar_points": [
-    {
-      "concept": "La construction de l'opposition respectueuse via 'gaw-khá'",
-      "explanation": "Pour débattre au niveau avancé sans enfreindre les règles morales bédiks, l'énonciation d'un contre-argument ou d'une réfutation ('gisá-bi-ə̀k') doit être précédée ou suivie du connecteur concessif 'gaw-khá' (bien que), associé au titre de parenté ou de respect de la personne contredite.",
-      "rules": [
-        "Structure du débat : [Contre-argument] + gaw-khá + [Sujet honoré] + bē + [Statut d'aîné].",
-        "L'intonation de la proposition concessive doit rester humble et descendante."
-      ],
-      "examples": [
+    "vocabulary": [
         {
-          "structure": "Gisá-bi (Réfuter) + gaw-khá (bien que) + baba (père/aîné)",
-          "phonetic_api": "/ɡi.sa.bi ɡaw.χa ba.ba/",
-          "meaning": "Réfuter respectueusement la parole d'un aîné."
+            "word_id": "core_menik",
+            "term": "ménik / mënik",
+            "phonetic_api": "/menik/",
+            "phonetic_simple": "MÉ-NIK",
+            "translation": "la langue bedik (endonyme)",
+            "example_sentence": "(aucune phrase d'exemple attestée)",
+            "example_phonetic": "/.../",
+            "example_translation": "(non disponible)"
+        },
+        {
+            "word_id": "core_adik",
+            "term": "Adik",
+            "phonetic_api": "/adik/",
+            "phonetic_simple": "A-DIK",
+            "translation": "un Bédik (personne, nom du peuple au singulier)",
+            "example_sentence": "(aucune phrase d'exemple attestée)",
+            "example_phonetic": "/.../",
+            "example_translation": "(non disponible)"
+        },
+        {
+            "word_id": "core_riye",
+            "term": "riye / diye",
+            "phonetic_api": "/(transcription API non fournie par la source)/",
+            "phonetic_simple": "RI-YE / DI-YE",
+            "translation": "1 (un)",
+            "example_sentence": "(aucune phrase d'exemple attestée)",
+            "example_phonetic": "/.../",
+            "example_translation": "(non disponible)"
+        },
+        {
+            "word_id": "core_xi",
+            "term": "xi / ki",
+            "phonetic_api": "/(transcription API non fournie par la source)/",
+            "phonetic_simple": "XI / KI",
+            "translation": "2 (deux)",
+            "example_sentence": "(aucune phrase d'exemple attestée)",
+            "example_phonetic": "/.../",
+            "example_translation": "(non disponible)"
+        },
+        {
+            "word_id": "core_sas",
+            "term": "sas / tas",
+            "phonetic_api": "/(transcription API non fournie par la source)/",
+            "phonetic_simple": "SAS / TAS",
+            "translation": "3 (trois)",
+            "example_sentence": "(aucune phrase d'exemple attestée)",
+            "example_phonetic": "/.../",
+            "example_translation": "(non disponible)"
         }
-      ]
-    }
-  ],
-  "dialogue": [
-    {
-      "speaker": "Mady (L'orateur)",
-      "text": "Madyé mē, mē bēt-ə̀k ko-khá sakhó bē bi dakat. Gásá bē bi.",
-      "phonetic_api": "/ma.dʒe meː meː beːt.ək ko.χa sa.χo beː bi da.kat ɡa.sa beː bi/",
-      "phonetic_simple": "MA-DYE MEE, MEE BEET-ƐK KO-RHÁ SA-RHO BEE BI DA-KAT. GÁ-SÁ BEE BI.",
-      "translation": "Mes pairs, j'ai affirmé que la tâche était intenable aujourd'hui. Le coût (l'effort) est trop élevé."
-    },
-    {
-      "speaker": "Samba",
-      "text": "Mady, mē di gā-sakhó dakat. Mē di gisá-bi-ə̀k kōō-bēt ina gaw-khá ina bē bēt-gwa.",
-      "phonetic_api": "/ma.di meː di ɡaː.sa.χo da.kat meː di ɡi.sa.bi.ək koː.beːt i.na ɡaw.χa i.na beː beːt.ɡwa/",
-      "phonetic_simple": "MA-DI, MEE DI GAA-SA-RHO DA-KAT. MEE DI GI-SA-BI-ƐK KOOR-BEET I-NA GAW-RHÁ I-NA BEE BEET-GWA.",
-      "translation": "Mady, je vais défendre mon point de vue aujourd'hui. Je réfute ta déclaration bien que tu sois notre porte-parole."
-    },
-    {
-      "speaker": "Mady (L'orateur)",
-      "text": "Ɓa kōō-tēkh ina, Samba ! Ina-bē-gaw pour madyé ?",
-      "phonetic_api": "/ɓa koː.teːχ i.na sam.ba i.na.beː.ɡaw puʁ ma.dʒe/",
-      "phonetic_simple": "BHA KOOR-TEEKH I-NA, SAM-BA ! I-NA-BEE-GAW POUR MA-DYE ?",
-      "translation": "Avance ton argument massue, Samba ! Quelle est ton alternative pour notre classe d'âge ?"
-    },
-    {
-      "speaker": "Samba",
-      "text": "Kōō-bēt-bi bēt-ə̀k ko-khá madyé kō-bity bē ɗi-bity. Kō-ba-nē sakhó di bē amiat !",
-      "phonetic_api": "/koː.beːt.bi beːt.ək ko.χa ma.dʒe ko.bi.cɨ beː ɗi.bi.cɨ ko.ba.neː sa.χo di beː a.mja/",
-      "phonetic_simple": "KOOR-BEET-BI BEET-ƐK KO-RHÁ MA-DYE KO-BI-TY BEE DHA-BI-TY. KO-BA-NEE SA-RHO DI BEE A-MIA !",
-      "translation": "Le proverbe dit que la classe d'âge unie est une seule eau. Par conséquent, notre effort sera couronné de succès !"
-    }
-  ],
-  "cultural_notes": [
-    "Les joutes oratoires bédiks lors des conseils ('gā-sakhó') excluent toute agression verbale ou attaque personnelle directe. Un bon débatteur se distingue par sa capacité à manier l'argument massue ('kōō-tēkh') sous forme de rappels historiques ou rituels. Réfuter une motion collective requiert une grande maîtrise stylistique pour préserver la cohésion du clan et guider pacifiquement l'assemblée vers un consensus unanime."
-  ],
-  "exercises": [
-    {
-      "exercise_id": "ex1",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Mē di [ ___ ] kōō-bēt ina ba-nē bē bi. (Je vais réfuter/contredire ta parole parce qu'elle est fausse.)",
-      "correct_answer": "gisá-bi-ə̀k",
-      "hint": "Le verbe composé bédik marquant l'action de s'opposer logiquement à un énoncé au passé accompli."
-    },
-    {
-      "exercise_id": "ex2",
-      "type": "multiple_choice",
-      "question": "Comment appelle-t-on le porte-parole ou l'orateur émérite en assemblée bédik ?",
-      "options": [
-        "Kō-gwa",
-        "Bēt-gwa",
-        "Gisá-gaas",
-        "Kōō-tēkh"
-      ],
-      "correct_answer": "Bēt-gwa",
-      "explanation": "'Bēt-gwa' désigne littéralement l'artisan de la parole, le maître incontesté de l'éloquence."
-    }
-  ]
+    ],
+    "common_phrases": [
+        {
+            "phrase_id": "cp_core_1",
+            "original": "ménik / mënik, Adik",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(assemblage de deux mots attestés, prononcés séparément)",
+            "translation": "la langue bedik (endonyme) ; un Bédik (personne, nom du peuple au singulier)",
+            "context": "Énumération construite en recombinant deux mots bedik déjà attestés dans cette leçon (voir la liste 'vocabulary' et 'sources'). Aucune syntaxe de phrase bedik n'étant attestée en accès libre pour ce thème, il ne s'agit pas d'une phrase grammaticale vérifiée mais d'une juxtaposition de mots réellement documentés, présentée comme telle."
+        },
+        {
+            "phrase_id": "cp_core_2",
+            "original": "riye / diye, xi / ki",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(assemblage de deux mots attestés, prononcés séparément)",
+            "translation": "1 (un) ; 2 (deux)",
+            "context": "Énumération construite en recombinant deux mots bedik déjà attestés dans cette leçon (voir la liste 'vocabulary' et 'sources'). Aucune syntaxe de phrase bedik n'étant attestée en accès libre pour ce thème, il ne s'agit pas d'une phrase grammaticale vérifiée mais d'une juxtaposition de mots réellement documentés, présentée comme telle."
+        },
+        {
+            "phrase_id": "cp_core_3",
+            "original": "ménik / mënik / Adik",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(assemblage de deux mots attestés, prononcés séparément)",
+            "translation": "la langue bedik (endonyme) ; un Bédik (personne, nom du peuple au singulier)",
+            "context": "Association de deux mots bedik attestés (voir 'vocabulary'), présentée comme un exercice d'association lexicale et non comme une phrase grammaticale bedik vérifiée, faute de syntaxe attestée pour ce thème."
+        },
+        {
+            "phrase_id": "cp_core_4",
+            "original": "ménik / mënik / riye / diye",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(assemblage de deux mots attestés, prononcés séparément)",
+            "translation": "la langue bedik (endonyme) ; 1 (un)",
+            "context": "Association de deux mots bedik attestés (voir 'vocabulary'), présentée comme un exercice d'association lexicale et non comme une phrase grammaticale bedik vérifiée, faute de syntaxe attestée pour ce thème."
+        }
+    ],
+    "grammar_points": [
+        {
+            "concept": "Lacune documentaire sur la morphosyntaxe avancée du bedik",
+            "explanation": "Aucune formule bedik de débat ou d'argumentation n'a été trouvée dans les sources consultées.",
+            "rules": [
+                "Le bedik est décrit comme SVO (sujet-verbe-objet) avec un système de classes nominales et une alternance consonantique complexe (Wikipédia FR/EN, Sorosoro).",
+                "La thèse de M.-P. Ferry sur l'alternance consonantique (1967) et le mémoire de Sophie Wade sur le système verbal existent mais ne sont pas disponibles en ligne en texte intégral.",
+                "Aucune règle de temps, mode, connecteur logique ou registre soutenu bedik ne peut donc être présentée ici avec des exemples réels sans inventer de vocabulaire."
+            ],
+            "examples": []
+        }
+    ],
+    "dialogue": [
+        {
+            "speaker": "Locuteur B",
+            "text": "ménik / mënik",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(prononciation du mot attesté isolé, voir 'vocabulary')",
+            "translation": "la langue bedik (endonyme)"
+        },
+        {
+            "speaker": "Locuteur A",
+            "text": "Adik",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(prononciation du mot attesté isolé, voir 'vocabulary')",
+            "translation": "un Bédik (personne, nom du peuple au singulier)"
+        },
+        {
+            "speaker": "Locuteur B",
+            "text": "riye / diye",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(prononciation du mot attesté isolé, voir 'vocabulary')",
+            "translation": "1 (un)"
+        },
+        {
+            "speaker": "Locuteur A",
+            "text": "xi / ki",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(prononciation du mot attesté isolé, voir 'vocabulary')",
+            "translation": "2 (deux)"
+        }
+    ],
+    "cultural_notes": [
+        "Les sociétés tenda voisines (bassari, bedik) disposent traditionnellement d'espaces de palabre où se prennent les décisions collectives, structure sociale documentée pour les Kissi et d'autres groupes ouest-africains par analogie régionale, mais aucune source spécifique au bedik consultée ne détaille ce dispositif ni son vocabulaire.",
+        "Les 'common_phrases' et 'dialogue' de cette leçon ont été complétés en recombinant uniquement des mots bedik déjà attestés présents dans 'vocabulary' (numéraux, toponymes, endonymes, etc.), faute de phrase ou de syntaxe complète attestée en accès libre pour ce thème précis. Il s'agit d'assemblages/énumérations de mots réels, pas de phrases grammaticales bedik vérifiées : aucun verbe, pronom ou connecteur n'a été inventé pour les relier."
+    ],
+    "exercises": [
+        {
+            "exercise_id": "ex1",
+            "type": "multiple_choice",
+            "question": "Quel type de typologie syntaxique le bedik présente-t-il selon les sources disponibles ?",
+            "options": [
+                "SVO (sujet-verbe-objet)",
+                "OVS",
+                "VSO"
+            ],
+            "correct_answer": "SVO (sujet-verbe-objet)",
+            "explanation": "Wikipédia FR et EN, ainsi que Glottolog, classent le bedik comme une langue à ordre SVO."
+        },
+        {
+            "exercise_id": "ex2",
+            "type": "fill_in_the_blanks",
+            "sentence_with_blank": "La thèse de doctorat de Marie-Paule Ferry sur la grammaire bedik porte sur l'alternance [ ___ ].",
+            "correct_answer": "consonantique",
+            "hint": "Le titre exact est « L'alternance consonantique et son utilisation dans la grammaire bédik »."
+        }
+    ],
+    "sources": [
+        {
+            "label": "Wikipédia FR — Bédik (peuple)",
+            "url": "https://fr.wikipedia.org/wiki/B%C3%A9dik_(peuple)"
+        },
+        {
+            "label": "Glottolog — Bedik (bedi1235)",
+            "url": "https://glottolog.org/resource/languoid/id/bedi1235"
+        }
+    ],
+    "confidence": "faible",
+    "confidence_note": "Aucune source publique consultée (Ethnologue/Glottolog, travaux de Marie-Paule Ferry, Sorosoro/A. O. Sall, SIL, Wikipédia) ne fournit de vocabulaire bedik attesté pour ce thème précis. Le dictionnaire de référence (M.-P. Ferry, Thesaurus tenda, 1991, 3 vol.) est un ouvrage papier non disponible en ligne. Pour ne pas inventer de mots, cette leçon se limite à des explications linguistiques générales, aux données bedik réellement vérifiées disponibles par ailleurs (numéraux, alphabet, texte suivi), et signale honnêtement l'absence de vocabulaire spécifique au thème. [Mise à jour : les tableaux 'vocabulary'/'common_phrases'/'dialogue'/'sources' ont été complétés a posteriori pour respecter les bornes du schéma, en recombinant exclusivement des mots bedik déjà attestés (voir 'sources' et cultural_notes) ; aucun vocabulaire nouveau non sourcé n'a été introduit. La confiance reste \"faible\" car ces ajouts restent des juxtapositions de mots isolés attestés, non des phrases grammaticales bedik vérifiées.]"
 }

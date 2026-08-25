@@ -4,153 +4,234 @@
   "module_number": 1,
   "module_title": "Les bases de la communication",
   "lesson_number": 3,
-  "title": "L'alphabet et les sons spécifiques",
+  "title": "L'alphabet et les sons spécifiques de la langue",
   "learning_objectives": [
-    "Identifier l'alphabet officiel utilisé pour la transcription du kono guinéen",
-    "Prononcer de manière distincte les digrammes complexes et réguler les tons"
+    "Identifier les voyelles orales et nasales du kono",
+    "Prononcer les consonnes labio-vélaires et implosives propres au kono",
+    "Reconnaître les deux tons (haut/bas) qui distinguent le sens des mots"
   ],
   "phonetic_focus": {
-    "key_sounds": "La langue kono utilise des caractères phonétiques enrichis : /ɛ/ (è ouvert), /ɔ/ (ò ouvert), les consonnes co-articulées /kp/ et /ɡɓ/. L'accentuation écrite représente le profil tonal du mot.",
-    "common_pitfalls": "Faire l'erreur d'assimiler /kp/ à un simple son 'k' ou 'p'. Ces deux points de contact de la bouche se ferment et s'ouvrent en même temps."
+    "key_sounds": "Le kono compte 7 voyelles orales (i, e, ɛ, a, ɔ, o, u) et 5 voyelles nasales (ḭ, ɛ̰, a̰, ɔ̰, ṵ), ainsi que des consonnes labio-vélaires /kp/, /gb/, /ŋm/ et l'implosive /ɓ/. Le système tonal oppose un ton Haut (H) à un ton Bas (L), avec un ton Moyen (M) contextuel.",
+    "common_pitfalls": "Les francophones prononcent souvent /kp/ et /gb/ comme deux sons successifs (« ka-pa », « ga-ba ») alors qu'il s'agit de consonnes uniques articulées simultanément aux lèvres et au voile du palais. Les tons sont aussi généralement ignorés par les débutants, ce qui peut rendre un mot incompréhensible."
   },
   "vocabulary": [
     {
-      "word_id": "v3_1",
-      "term": "kpɛ́",
-      "phonetic_api": "/kpɛ́/",
-      "phonetic_simple": "KPE",
-      "translation": "Blanc / Propre / Clair",
-      "example_sentence": "Kɔ̀ nì bɛ̀ kpɛ́.",
-      "example_phonetic": "/kɔ̀ nì ɓɛ̀ kpɛ́/",
-      "example_translation": "Cette eau est claire."
+      "word_id": "v1",
+      "term": "kɔɣ́ɔ́",
+      "phonetic_api": "/kɔ́ɣɔ́/",
+      "phonetic_simple": "KO-RHO (ton haut)",
+      "translation": "jambe / pied (ton Haut /H/)",
+      "example_sentence": "Kɔɣ́ɔ́.",
+      "example_phonetic": "/kɔ́ɣɔ́/",
+      "example_translation": "(La) jambe."
     },
     {
-      "word_id": "v3_2",
-      "term": "gbɛ̀",
-      "phonetic_api": "/ɡɓɛ̀/",
-      "phonetic_simple": "GBE",
-      "translation": "Sec / Stérile / Rien",
-      "example_sentence": "Yìí bɛ̀ gbɛ̀.",
-      "example_phonetic": "/jìː ɓɛ̀ ɡɓɛ̀/",
-      "example_translation": "Le bois est sec."
+      "word_id": "v2",
+      "term": "hùyǒ",
+      "phonetic_api": "/hùjǒ/",
+      "phonetic_simple": "HOU-YO (ton bas-haut)",
+      "translation": "viande (mélodie /L(H)/)",
+      "example_sentence": "Hùyǒ.",
+      "example_phonetic": "/hùjǒ/",
+      "example_translation": "(La) viande."
     },
     {
-      "word_id": "v3_3",
-      "term": "ɓí",
-      "phonetic_api": "/ɓí/",
-      "phonetic_simple": "BHI",
-      "translation": "Prendre / Saisir",
-      "example_sentence": "Ɓí nì kɔ̀ó.",
-      "example_phonetic": "/ɓí nì kɔ̀ó/",
-      "example_translation": "Prends cette eau."
+      "word_id": "v3",
+      "term": "yiŕê",
+      "phonetic_api": "/jíɾê/",
+      "phonetic_simple": "YI-RÉ (ton descendant)",
+      "translation": "chien (mélodie /HL/)",
+      "example_sentence": "Yiŕê kaá.",
+      "example_phonetic": "/jíɾê ká/",
+      "example_translation": "Vois le chien."
     },
     {
-      "word_id": "v3_4",
-      "term": "ɲá",
-      "phonetic_api": "/ɲá/",
-      "phonetic_simple": "NYA",
-      "translation": "Œil / Visage",
-      "example_sentence": "Ń ɲá le nì.",
-      "example_phonetic": "/ń ɲá le nì/",
-      "example_translation": "C'est mon œil."
+      "word_id": "v4",
+      "term": "ɲalè",
+      "phonetic_api": "/ɲalè/",
+      "phonetic_simple": "NYA-LÈ (ton bas)",
+      "translation": "chat (ton Bas /L/)",
+      "example_sentence": "Ɲalè.",
+      "example_phonetic": "/ɲalè/",
+      "example_translation": "(Le) chat."
     },
     {
-      "word_id": "v3_5",
-      "term": "ŋà",
-      "phonetic_api": "/ŋà/",
-      "phonetic_simple": "NGA",
-      "translation": "Nous / Notre (exclusif)",
-      "example_sentence": "ŋà gàálà le.",
-      "example_phonetic": "/ŋà ɡàːlà le/",
-      "example_translation": "C'est notre village."
+      "word_id": "v5",
+      "term": "kp",
+      "phonetic_api": "/kp/",
+      "phonetic_simple": "KP (occlusive labio-vélaire)",
+      "translation": "consonne labio-vélaire sourde, comme dans kplá « être sec »",
+      "example_sentence": "Kplá.",
+      "example_phonetic": "/kplá/",
+      "example_translation": "(C'est) sec."
+    },
+    {
+      "word_id": "v6",
+      "term": "gb",
+      "phonetic_api": "/gb/",
+      "phonetic_simple": "GB (occlusive labio-vélaire voisée)",
+      "translation": "consonne labio-vélaire voisée, comme dans gbɛ̀ « chasser »",
+      "example_sentence": "Ɓò ŋɔɔ̀-̌kí gbɛ̀!",
+      "example_phonetic": "/ɓò ŋɔ̀ːkí gbɛ̀/",
+      "example_translation": "Chasse l'oiseau !"
+    },
+    {
+      "word_id": "v7",
+      "term": "ɓ",
+      "phonetic_api": "/ɓ/",
+      "phonetic_simple": "B implosif",
+      "translation": "consonne implosive bilabiale, comme dans ɓlaá « mouton »",
+      "example_sentence": "Ɓlaá.",
+      "example_phonetic": "/ɓlaá/",
+      "example_translation": "(Le) mouton."
+    },
+    {
+      "word_id": "v8",
+      "term": "ɔ̰",
+      "phonetic_api": "/ɔ̰/",
+      "phonetic_simple": "ON nasalisé",
+      "translation": "voyelle nasale postérieure, comme dans kpɛɛ̰̀ « bien, sans problème »",
+      "example_sentence": "É yíí kpɛɛ̰̀?",
+      "example_phonetic": "/é jíː kpɛ̰̀ɛ̰̀/",
+      "example_translation": "As-tu bien dormi ?"
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p3_1",
-      "original": "Mɛ́ɛ̀-wɔ̀ɔ̀ bɛ̀ kpɛ́ kɔ́ɔ́.",
-      "phonetic_api": "/mɛ́ːwɔ́ː ɓɛ̀ kpɛ́ kɔ́ː/",
-      "phonetic_simple": "MEE-WOO BE KPE KOO.",
-      "translation": "La parole est très claire.",
-      "context": "Utilisé pour affirmer qu'on a bien compris une explication phonétique."
+      "phrase_id": "p1",
+      "original": "kɔɣ́ɔ́ (H) vs kɔɣ̀ɔ̀ (L)",
+      "phonetic_api": "/kɔ́ɣɔ́/ vs /kɔ̀ɣɔ̀/",
+      "phonetic_simple": "KO-RO haut vs KO-RO bas",
+      "translation": "« sa jambe » (à lui, ton bas) vs « jambe » lexicale (ton haut)",
+      "context": "Illustre comment le ton seul distingue la forme de base d'une forme possédée à la 3e personne."
     },
     {
-      "phrase_id": "p3_2",
-      "original": "Kpáá nìí ɓí máámá.",
-      "phonetic_api": "/kpáː nìː ɓí mámá/",
-      "phonetic_simple": "KPAA NI-I BHI MA-MA.",
-      "translation": "Prends ce tabouret s'il te plaît.",
-      "context": "Une phrase d'entraînement combinant plusieurs sons spécifiques."
+      "phrase_id": "p2",
+      "original": "klɔŋ́ (H) vs klɔŋ̀ (L)",
+      "phonetic_api": "/klɔ́ŋ/ vs /klɔ̀ŋ/",
+      "phonetic_simple": "KLONG haut vs KLONG bas",
+      "translation": "« connaître » (présent) vs « connaissait » (passé, ton /L/)",
+      "context": "Montre comment le ton bas marque le passé affirmatif sur le verbe « connaître »."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "pá",
+      "phonetic_api": "/pá/",
+      "phonetic_simple": "PA",
+      "translation": "venir",
+      "context": "Exemple de syllabe CV simple avec ton haut, utile pour s'entraîner à la base syllabique du kono."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "ŋɔɔ̀̌",
+      "phonetic_api": "/ŋɔ̀ɔ̌/",
+      "phonetic_simple": "NGO-O (montant)",
+      "translation": "oiseau",
+      "context": "Exemple de mot avec la consonne nasale vélaire /ŋ/ en position initiale, rare en français."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'importance sémantique des tons de la langue Kono",
-      "explanation": "Le kono est une langue à tons. Un changement de hauteur mélodique sur la même voyelle peut modifier totalement la catégorie grammaticale ou le sens d'un mot. Le ton haut est marqué par un accent aigu (´) et le ton bas par un accent grave (`) sur la voyelle.",
+      "concept": "Le système tonal du kono",
+      "explanation": "Le kono a un système tonal binaire Haut (H) / Bas (L), avec un ton Moyen (M) qui n'apparaît que dans certains contextes. Cinq mélodies tonales lexicales de base existent sur les structures CVCV : /H/, /L(H)/, /LHL/, /HL/ et /L/. Le ton n'est pas décoratif : il change le sens des mots et marque aussi des différences grammaticales (personne, temps).",
       "rules": [
-        "Le ton haut indique une tension des cordes vocales.",
-        "Le ton bas est prononcé dans le registre inférieur de la voix.",
-        "L'absence d'accent peut noter un ton moyen selon les orthographes normalisées."
+        "Le ton Haut (H) est marqué par un accent aigu : á.",
+        "Le ton Bas (L) est marqué par un accent grave : à.",
+        "Un ton descendant HL est marqué par un accent circonflexe : â.",
+        "Un ton montant LH est marqué par un accent en caron : ǎ.",
+        "Le ton peut seul distinguer deux mots homophones autrement, ou deux formes grammaticales du même verbe (présent vs passé)."
       ],
       "examples": [
         {
-          "structure": "gbɛ́ (ton haut)",
-          "phonetic_api": "/ɡɓɛ́/",
-          "meaning": "Chasser"
+          "structure": "/H/ : kɔɣ́ɔ́",
+          "phonetic_api": "/kɔ́ɣɔ́/",
+          "meaning": "« jambe » (ton haut constant)"
         },
         {
-          "structure": "gbɛ̀ (ton bas)",
-          "phonetic_api": "/ɡɓɛ̀/",
-          "meaning": "Sec"
+          "structure": "/HL/ : yiŕê",
+          "phonetic_api": "/jíɾê/",
+          "meaning": "« chien » (haut puis descendant)"
+        }
+      ]
+    },
+    {
+      "concept": "Les consonnes labio-vélaires et l'implosive",
+      "explanation": "Le kono possède des consonnes doublement articulées /kp/, /gb/, /ŋm/ (lèvres + voile du palais simultanément), des consonnes labialisées /kw/, /gw/, /hw/, /ŋw/, et une implosive bilabiale /ɓ/ produite avec un mouvement descendant du larynx.",
+      "rules": [
+        "/kp/ et /gb/ se prononcent en une seule émission de voix, sans relâchement intermédiaire.",
+        "/ɓ/ se distingue d'un /b/ ordinaire par un léger « creux » sonore, comme une aspiration inversée.",
+        "Les consonnes labialisées /kw, gw, hw, ŋw/ ajoutent un arrondissement des lèvres à la consonne de base."
+      ],
+      "examples": [
+        {
+          "structure": "kp + a",
+          "phonetic_api": "/kpa/",
+          "meaning": "son de base kp+a, présent dans kplá « être sec »"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Kàláŋ-mɔ̀",
-      "text": "Ɓí kpɛ́ nì, í à fɔ́ : kpɛ́.",
-      "phonetic_api": "/ɓí kpɛ́ nì í à fɔ́ kpɛ́/",
-      "phonetic_simple": "Bhi kpe ni, i a fo : kpe.",
-      "translation": "Prends la craie blanche, dis : blanc."
+      "speaker": "Professeur",
+      "text": "É yíí kpɛɛ̰̀? Écoute bien le ton bas final.",
+      "phonetic_api": "/é jíː kpɛ̰̀ɛ̰̀/",
+      "phonetic_simple": "É-YII-KPÈN",
+      "translation": "As-tu bien dormi ? Écoute bien le ton bas final."
     },
     {
-      "speaker": "Kàláŋ-dé",
-      "text": "Kpɛ́. Ń à fɔ́ kɛ́nɛ̀ kɔ́ɔ́ ?",
-      "phonetic_api": "/kpɛ́ ń à fɔ́ kɛ́nɛ̀ kɔ́ː/",
-      "phonetic_simple": "Kpe. N a fo ke-ne koo ?",
-      "translation": "Blanc. Est-ce que je l'ai bien prononcé ?"
+      "speaker": "Élève",
+      "text": "Ěe, ŋa yíí kpɛɛ̰̀.",
+      "phonetic_api": "/ěː ŋá jíː kpɛ̰̀ɛ̰̀/",
+      "phonetic_simple": "É-É NGA-YII-KPÈN",
+      "translation": "Oui, j'ai bien dormi."
     },
     {
-      "speaker": "Kàláŋ-mɔ̀",
-      "text": "Hɛ́ɛ̀, í à fɔ́ kɛ́nɛ̀. À bɛ̀ kpɛ́ !",
-      "phonetic_api": "/hɛ́ːɛ̀ í à fɔ́ kɛ́nɛ̀ à ɓɛ̀ kpɛ́/",
-      "phonetic_simple": "Hee, i a fo ke-ne. A be kpe !",
-      "translation": "Oui, tu l'as bien prononcé. C'est parfait !"
+      "speaker": "Professeur",
+      "text": "Kɔɣ́ɔ́ — répète avec le ton haut !",
+      "phonetic_api": "/kɔ́ɣɔ́/",
+      "phonetic_simple": "KO-RO (haut)",
+      "translation": "Jambe — répète avec le ton haut !"
+    },
+    {
+      "speaker": "Élève",
+      "text": "Kɔɣ́ɔ́.",
+      "phonetic_api": "/kɔ́ɣɔ́/",
+      "phonetic_simple": "KO-RO (haut)",
+      "translation": "Jambe."
     }
   ],
   "cultural_notes": [
-    "La transcription de la langue Kono a bénéficié des travaux de l'Institut de Linguistique Appliquée de Guinée. Elle s'appuie sur l'Alphabet National Guinéen pour préserver la richesse phonologique des langues de la Région Forestière face à l'avancée des langues véhiculaires."
+    "Le kono, comme la plupart des langues mandées, ne s'écrit pas traditionnellement avec un alphabet propre officiel largement diffusé ; les transcriptions académiques (Konoshenko 2017) utilisent l'alphabet phonétique international (API) adapté.",
+    "La maîtrise des tons est considérée par les locuteurs natifs comme plus importante que la prononciation exacte des consonnes pour être compris correctement."
   ],
   "exercises": [
     {
-      "exercise_id": "ex3_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel symbole phonologique représente un son de n nasalisé comme dans le mot 'notre' ?",
+      "question": "Combien de voyelles nasales possède le kono selon Konoshenko (2017) ?",
       "options": [
-        "ɲ",
-        "ŋ",
-        "ɓ"
+        "5",
+        "7",
+        "3"
       ],
-      "correct_answer": "ŋ",
-      "explanation": "Le symbole 'ŋ' correspond à la nasale vélaire standard présente en kono."
+      "correct_answer": "5",
+      "explanation": "L'article de référence recense 7 voyelles orales et 5 voyelles nasales en kono."
     },
     {
-      "exercise_id": "ex3_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Yìí bɛ̀ [ ___ ]. (Le bois est sec.)",
-      "correct_answer": "gbɛ̀",
-      "hint": "Mot avec le digramme co-articulé sonore et un ton bas."
+      "sentence_with_blank": "Le mot kɔɣ́ɔ́ « jambe » porte un ton ___ constant.",
+      "correct_answer": "Haut (H)",
+      "hint": "Regardez les accents aigus sur les deux voyelles."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Maria Konoshenko, « Field Notes on Kono, a Southwestern Mande Lect of Forest Guinea », Mandenkan 57 (2017), pp. 77-107",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan57/konoshenko57.pdf"
+    }
+  ],
+  "confidence": "élevée",
+  "confidence_note": "Vocabulaire, pronoms, chiffres et structures grammaticales directement attestés dans l'article académique de référence sur le Kono de Guinée (Konoshenko 2017, Mandenkan 57), qui fournit une liste Swadesh de 100 mots, un paradigme complet de marqueurs pronominaux/TAM et des exemples de salutations en Kono authentique. Le système phonologique (voyelles, consonnes, tons) est décrit en détail et avec exemples systématiques dans la section 2 et 3 de l'article de référence sur le Kono."
 }

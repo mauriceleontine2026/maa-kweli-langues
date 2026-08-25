@@ -6,111 +6,196 @@
   "lesson_number": 6,
   "title": "Le registre soutenu et le langage formel (cérémonies, contes, traditions)",
   "learning_objectives": [
-    "Maîtriser les formules d'ouverture et de clôture rituelles des contes traditionnels",
-    "Employer le lexique honorifique requis lors des cérémonies coutumières",
-    "Adopter les structures syntaxiques archaïques spécifiques à la transmission mémorielle"
+    "Relier le vocabulaire de l'ancêtre (mbenba) et du grand-parent (məma) au registre cérémoniel documenté (culte des ancêtres, rites d'initiation tenus secrets).",
+    "Reconnaître qu'aucun texte de conte ou de cérémonie landuma n'a été trouvé publié en langue originale dans les sources disponibles.",
+    "Comprendre le rôle du masque *numbe* et des sculptures rituelles dans les cérémonies traditionnelles, en l'absence de transcription linguistique associée."
   ],
   "phonetic_focus": {
-    "key_sounds": "En registre soutenu, les voyelles longues initiales doivent être étirées avec un contour tonal stable (haut ou descendant) pour souligner la solennité de l'énoncé.",
-    "common_pitfalls": "Évitez toute élision ou contraction familière des préfixes de classe nominale, qui briserait la dignité du discours formel."
+    "key_sounds": "Le landuma comporte des voyelles i, e, ɛ, u, o, ɔ, ʌ, ə, a et des consonnes prénasalisées complexes (mb-, nc-, nt-, ns-, ŋg-) absentes du français, ainsi qu'une affriquée c proche du « tch » et une occlusive labiovélaire gb (Sumbatova & Vydrin 2021).",
+    "common_pitfalls": "Les francophones tendent à scinder en deux syllabes les groupes consonantiques prénasalisés initiaux (ex. mb-, nc-, nt-), qui forment pourtant une seule attaque consonantique en landuma ; ils confondent aussi souvent les voyelles centrales ə/a et les voyelles mi-ouvertes ɛ/ɔ, qui n'ont pas d'équivalent phonémique net en français."
   },
   "vocabulary": [
     {
-      "word_id": "v24_1",
-      "term": "tannkiya",
-      "phonetic_api": "/tanː.ki.ja/",
-      "phonetic_simple": "TANN-KI-YA",
-      "translation": "la voie sacrée des ancêtres / la tradition immuable",
-      "example_sentence": "nu wɔ dɛp tannkiya lɔndɔ",
-      "example_phonetic": "/nu wɔ dɛp tanː.ki.ja lɔn.dɔ/",
-      "example_translation": "Nous devons suivre la voie sacrée des ancêtres ici."
+      "word_id": "v1",
+      "term": "mbenba",
+      "phonetic_api": "/mbenba/",
+      "phonetic_simple": "m-BÈN-ba",
+      "translation": "ancêtre",
+      "example_sentence": "mbenba",
+      "example_phonetic": "/mbenba/",
+      "example_translation": "« ancêtre » — mot isolé attesté dans le corpus lexical disponible ; aucune phrase complète d'exemple n'a été trouvée pour ce terme dans les sources consultées, seule la forme du mot est donc garantie."
     },
     {
-      "word_id": "v24_2",
-      "term": "wunfɔfɛ",
-      "phonetic_api": "/wun.fɔ.fɛ/",
-      "phonetic_simple": "WOUN-FO-FÈ",
-      "translation": "proclamer solennellement / conter (récit mythique ou historique)",
-      "example_sentence": "karamɔkɔ kɔn wunfɔfɛ tsinn ka dare",
-      "example_phonetic": "/ka.ra.mɔ.kɔ kɔn wun.fɔ.fɛ t͡sinː ka da.re/",
-      "example_translation": "Le maître est allé proclamer solennellement le récit hier en ville."
+      "word_id": "v2",
+      "term": "məma",
+      "phonetic_api": "/məma/",
+      "phonetic_simple": "meu-MA",
+      "translation": "grand-parent",
+      "example_sentence": "məma",
+      "example_phonetic": "/məma/",
+      "example_translation": "« grand-parent » — mot isolé attesté dans le corpus lexical disponible ; aucune phrase complète d'exemple n'a été trouvée pour ce terme dans les sources consultées, seule la forme du mot est donc garantie."
     },
     {
-      "word_id": "v24_3",
-      "term": "mabɛn",
-      "phonetic_api": "/ma.bɛn/",
-      "phonetic_simple": "MA-BÈN",
-      "translation": "l'assemblée des sages / le conseil rituel",
-      "example_sentence": "mabɛn mɔ mɔ lɔndɔ ka karka",
-      "example_phonetic": "/ma.bɛn mɔ mɔ lɔn.dɔ ka kar.ka/",
-      "example_translation": "Le conseil des sages est réuni ici dans la concession."
+      "word_id": "v3",
+      "term": "fum",
+      "phonetic_api": "/fum/",
+      "phonetic_simple": "FOUME",
+      "translation": "personne",
+      "example_sentence": "fum",
+      "example_phonetic": "/fum/",
+      "example_translation": "« personne » — mot isolé attesté dans le corpus lexical disponible ; aucune phrase complète d'exemple n'a été trouvée pour ce terme dans les sources consultées, seule la forme du mot est donc garantie."
+    },
+    {
+      "word_id": "v4",
+      "term": "ta-tɔt",
+      "phonetic_api": "/ta-tɔt/",
+      "phonetic_simple": "ta-TÔT",
+      "translation": "bon",
+      "example_sentence": "ta-tɔt",
+      "example_phonetic": "/ta-tɔt/",
+      "example_translation": "« bon » — mot isolé attesté dans le corpus lexical disponible ; aucune phrase complète d'exemple n'a été trouvée pour ce terme dans les sources consultées, seule la forme du mot est donc garantie."
+    },
+    {
+      "word_id": "v5",
+      "term": "o-baki",
+      "phonetic_api": "/o-baki/",
+      "phonetic_simple": "o-BA-ki",
+      "translation": "grand",
+      "example_sentence": "o-baki",
+      "example_phonetic": "/o-baki/",
+      "example_translation": "« grand » — mot isolé attesté dans le corpus lexical disponible ; aucune phrase complète d'exemple n'a été trouvée pour ce terme dans les sources consultées, seule la forme du mot est donc garantie."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p24_1",
-      "original": "hamaŋ mabɛn mɔ wunfɔfɛ, tsɛkɛma tannkiya mɔ mɔ sɔn kɛma",
-      "phonetic_api": "/ha.maŋ ma.bɛn mɔ wun.fɔ.fɛ t͡sɛ.kɛ.ma tanː.ki.ja mɔ mɔ sɔn kɛ.ma/",
-      "phonetic_simple": "HA-MANG MA-BÈN MO WOUN-FO-FÈ, TSÈ-KÈ-MA TANN-KI-YA MO MO SON KÈ-MA",
-      "translation": "Puisque l'assemblée des sages l'a proclamé solennellement, c'est pourquoi la tradition s'établit ainsi de manière immuable",
-      "context": "Formule rituelle de clôture utilisée pour sceller une décision juridique ou un arbitrage coutumier."
+      "phrase_id": "p1",
+      "original": "mbenba",
+      "phonetic_api": "/mbenba/",
+      "phonetic_simple": "m-BÈN-ba",
+      "translation": "ancêtre",
+      "context": "Aucune phrase complète figée n'est attestée pour ce contexte précis dans les sources disponibles ; seul ce mot isolé du corpus vérifié est proposé comme point d'ancrage, à utiliser avec prudence."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "məma mbenba",
+      "phonetic_api": "/məma mbenba/",
+      "phonetic_simple": "meu-MA m-BÈN-ba",
+      "translation": "« grand-parent » + « ancêtre » (juxtaposition)",
+      "context": "Recombinaison prudente de deux mots déjà attestés séparément dans le corpus lexical de cette leçon (grand-parent, ancêtre) : cette juxtaposition n'est PAS une expression idiomatique attestée en tant que telle dans les sources, mais une association pédagogique construite uniquement à partir de vocabulaire vérifié, utile pour la mémorisation et la pratique orale."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "fum mbenba",
+      "phonetic_api": "/fum mbenba/",
+      "phonetic_simple": "FOUME m-BÈN-ba",
+      "translation": "« personne » + « ancêtre » (juxtaposition)",
+      "context": "Recombinaison prudente de deux mots déjà attestés séparément dans le corpus lexical de cette leçon (personne, ancêtre) : cette juxtaposition n'est PAS une expression idiomatique attestée en tant que telle dans les sources, mais une association pédagogique construite uniquement à partir de vocabulaire vérifié, utile pour la mémorisation et la pratique orale."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "ta-tɔt mbenba",
+      "phonetic_api": "/ta-tɔt mbenba/",
+      "phonetic_simple": "ta-TÔT m-BÈN-ba",
+      "translation": "« bon » + « ancêtre » (juxtaposition)",
+      "context": "Recombinaison prudente de deux mots déjà attestés séparément dans le corpus lexical de cette leçon (bon, ancêtre) : cette juxtaposition n'est PAS une expression idiomatique attestée en tant que telle dans les sources, mais une association pédagogique construite uniquement à partir de vocabulaire vérifié, utile pour la mémorisation et la pratique orale."
     }
   ],
   "grammar_points": [
     {
-      "concept": "Le passif coutumier par le morphème d'ancrage 'sɔn'",
-      "explanation": "Dans les récits de contes ou les proclamations rituelles, pour exprimer qu'un état ou qu'une coutume est établie par les forces ancestrales de manière permanente, le landouma utilise le marqueur 'sɔn' après le sujet, conférant une valeur intemporelle et passive à l'action.",
+      "concept": "Accord alitératif radical (classes nominales)",
+      "explanation": "Le landuma, comme d'autres langues Mel du Nord, marque l'accord grammatical par un préfixe dont la consonne initiale reprend celle du nom qu'il qualifie ou remplace : c'est un accord dit « alitératif radical », distinct de l'accord par classes nominales à préfixes fixes qu'on trouve dans d'autres langues Niger-Congo. On observe dans le corpus attesté des préfixes tels que a-, da-, ta-, kʊ-, ke-, o-, ma- selon la classe et l'initiale du radical.",
       "rules": [
-        "Structure : Sujet + Marqueur mɔ + Marqueur d'état immuable 'sɔn' + kɛma (ainsi).",
-        "Cette tournure est exclusive au langage soutenu et ne s'emploie pas dans les conversations du quotidien."
+        "Les noms attestés portent presque tous un préfixe de classe : da-wump (tête), ta-fera (blanc), kʊ-suŋ (bouche), o-runi (homme), ma-rʊŋ (deux).",
+        "Le préfixe d'accord d'un qualificatif ou d'un déterminant tend à reprendre la consonne initiale du nom contrôleur plutôt qu'une classe grammaticale fixe et arbitraire.",
+        "Cette règle est documentée pour les noms inanimés dans les travaux académiques, mais son fonctionnement précis pour chaque catégorie de mots n'est pas intégralement publié en accès libre : la prudence s'impose pour toute généralisation."
       ],
       "examples": [
         {
-          "structure": "Sujet + mɔ + sɔn",
-          "phonetic_api": "/tann.ki.ja mɔ mɔ sɔn/",
-          "meaning": "La tradition est établie pour l'éternité."
+          "structure": "da-wump / da-fɔr",
+          "phonetic_api": "/da-wump/, /da-fɔr/",
+          "meaning": "tête / œil (même préfixe da- : classe nominale partagée)"
+        },
+        {
+          "structure": "ta-fera / ta-bi / ta-tɔt",
+          "phonetic_api": "/ta-fera/, /ta-bi/, /ta-tɔt/",
+          "meaning": "blanc / noir / bon (préfixe ta- pour ces qualificatifs attestés)"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "L'Ancien du Conseil",
-      "text": "mabɛn kɔn, nu wɔ fɔftɛŋ tɛkɛ ka dare ?",
-      "phonetic_api": "/ma.bɛn kɔn nu wɔ fɔf.tɛŋ tɛ.kɛ ka da.re/",
-      "phonetic_simple": "MA-BÈN KON, NU WO FOF-TENG TÈ-KÈ KA DA-RE ?",
-      "translation": "Mon conseil des sages, devons-nous énoncer notre arbitrage aujourd'hui en ville ?"
+      "speaker": "Locuteur A",
+      "text": "mbenba",
+      "phonetic_api": "/mbenba/",
+      "phonetic_simple": "m-BÈN-ba",
+      "translation": "(mot isolé : « ancêtre ») — aucun dialogue naturel complet n'est attesté dans les sources disponibles pour ce thème ; cet échange reste donc une simple juxtaposition prudente du vocabulaire vérifié, non une phrase authentique de conversation."
     },
     {
-      "speaker": "Le Chef des Sages",
-      "text": "yoo. hamaŋ tannkiya mɔ mɔ bɔn tsanntɛŋ, tsɛkɛma nu kɔn wunfɔfɛ kɛma.",
-      "phonetic_api": "/joː ha.maŋ tanː.ki.ja mɔ mɔ bɔn t͡sanː.tɛŋ t͡sɛ.kɛ.ma nu kɔn wun.fɔ.fɛ kɛ.ma/",
-      "phonetic_simple": "YOO. HA-MANG TANN-KI-YA MO MO BON TSANN-TENG, TSÈ-KÈ-MA NU KON WOUN-FO-FÈ KÈ-MA",
-      "translation": "Oui. Puisque la voie sacrée des anciens détient la vérité absolue, c'est pourquoi nous allons la proclamer solennellement ainsi."
+      "speaker": "Locuteur B",
+      "text": "məma",
+      "phonetic_api": "/məma/",
+      "phonetic_simple": "meu-MA",
+      "translation": "(mot isolé : « grand-parent ») — aucun dialogue naturel complet n'est attesté dans les sources disponibles pour ce thème ; cet échange reste donc une simple juxtaposition prudente du vocabulaire vérifié, non une phrase authentique de conversation."
+    },
+    {
+      "speaker": "Locuteur A",
+      "text": "fum",
+      "phonetic_api": "/fum/",
+      "phonetic_simple": "FOUME",
+      "translation": "(mot isolé : « personne ») — aucun dialogue naturel complet n'est attesté dans les sources disponibles pour ce thème ; cet échange reste donc une simple juxtaposition prudente du vocabulaire vérifié, non une phrase authentique de conversation."
+    },
+    {
+      "speaker": "Locuteur B",
+      "text": "ta-tɔt",
+      "phonetic_api": "/ta-tɔt/",
+      "phonetic_simple": "ta-TÔT",
+      "translation": "(mot isolé : « bon ») — aucun dialogue naturel complet n'est attesté dans les sources disponibles pour ce thème ; cet échange reste donc une simple juxtaposition prudente du vocabulaire vérifié, non une phrase authentique de conversation."
     }
   ],
   "cultural_notes": [
-    "En basse Guinée, la transmission des contes et des généalogies s'effectue selon un protocole strict. L'orateur doit obtenir l'assentiment visuel ou verbal des membres du 'mabɛn' (conseil) avant de déployer sa parole, matérialisant le respect de la hiérarchie sociale."
+    "L'art landuma comprend le masque *numbe*, à tête animale stylisée évoquant un buffle, utilisé à des fins protectrices, ainsi que des sculptures en forme de python liées à un culte du serpent associé à la fertilité ([101 Last Tribes](http://www.101lasttribes.com/tribes/landuma.html)).",
+    "Les rites d'initiation des jeunes Landuma restent traditionnellement tenus secrets, dans le cadre plus large des sociétés initiatiques attestées chez les peuples voisins de la région (par ex. le Poro) ([101 Last Tribes](http://www.101lasttribes.com/tribes/landuma.html) ; [Etnolog.ru](http://etnolog.ru/people.php?id=LAND))."
   ],
   "exercises": [
     {
-      "exercise_id": "ex24_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel terme honorifique désigne l'assemblée ou le conseil rituel des sages ?",
+      "question": "Comment dit-on « ancêtre » en landuma ?",
       "options": [
-        "karka",
-        "mabɛn",
-        "tannkiya"
+        "o-baki",
+        "məma",
+        "mbenba"
       ],
-      "correct_answer": "mabɛn",
-      "explanation": "'mabɛn' fait référence à l'instance sacrée détenant l'autorité morale et juridique de la communauté."
+      "correct_answer": "mbenba",
+      "explanation": "« mbenba » est la forme attestée pour « ancêtre » d'après le corpus lexical collecté (confiance : moyenne)."
     },
     {
-      "exercise_id": "ex24_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "karamɔkɔ mɔ [ ___ ] tannkiya ka nu (Le maître proclame solennellement la tradition pour nous)",
-      "correct_answer": "wunfɔfɛ",
-      "hint": "Le verbe de transmission formelle utilisé pour les contes, les mythes ou les lois coutumières."
+      "sentence_with_blank": "[ ___ ] = « grand-parent »",
+      "correct_answer": "məma",
+      "hint": "Ce mot appartient au vocabulaire de base attesté par les sources académiques (confiance : moyenne)."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Sumbatova & Vydrin (2021), Journal of Language Relationship 19-1/2, p.136-151",
+      "url": "https://www.jolr.ru/files/(303)jlr2021-19-1-2(136-151).pdf"
+    },
+    {
+      "label": "Wiktionary — Word lists of Atlantic languages of Guinea (d'après Fields 2001)",
+      "url": "https://en.wiktionary.org/wiki/Appendix:Word_lists_of_Atlantic_languages_of_Guinea"
+    },
+    {
+      "label": "101 Last Tribes — Landuma",
+      "url": "http://www.101lasttribes.com/tribes/landuma.html"
+    },
+    {
+      "label": "Glottolog — Landoma [land1256]",
+      "url": "https://glottolog.org/resource/languoid/id/land1256"
+    }
+  ],
+  "confidence": "faible",
+  "confidence_note": "Le vocabulaire cible de cette leçon provient exclusivement du corpus lexical attesté (ASJP/Wilson 2007/Rogers & Bryant 2012, Wiktionary/Fields 2001, Sumbatova & Vydrin 2021) ; confiance des mots utilisés : moyenne. Aucune phrase complète, formule figée ou règle grammaticale spécifique à ce sujet précis n'a été trouvée dans les sources disponibles : le contenu reste donc au niveau du vocabulaire isolé et la confiance globale du fichier est abaissée à 'faible' par prudence, conformément à l'exigence de ne jamais présenter une extrapolation comme une donnée sûre. Les phrases de la section 'common_phrases' au-delà de la première ont été obtenues par recombinaison de mots individuellement attestés du vocabulaire de cette leçon (juxtapositions pédagogiques), et non par une source directe attestant la phrase entière : elles sont signalées comme telles dans leur champ 'context'."
 }

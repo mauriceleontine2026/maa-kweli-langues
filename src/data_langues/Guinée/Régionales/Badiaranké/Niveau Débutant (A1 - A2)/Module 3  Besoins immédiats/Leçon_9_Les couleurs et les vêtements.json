@@ -6,226 +6,190 @@
   "lesson_number": 9,
   "title": "Les couleurs et les vêtements",
   "learning_objectives": [
-    "Décrire la couleur d'un tissu ou d'un objet usuel",
-    "Nommer les pièces de vêtements essentielles de la garde-robe locale",
-    "Associer des qualificatifs chromatiques élémentaires aux habits"
+    "Nommer quatre couleurs de base attestées : rouge, vert, blanc, noir",
+    "Nommer des vêtements attestés : chemise, tissu, vêtements",
+    "Utiliser le verbe attesté « porter (un vêtement) »"
   ],
   "phonetic_focus": {
-    "key_sounds": "La distinction de la longueur vocalique s'applique aussi à l'expression descriptive des couleurs. Les finales accentuées doivent être prononcées sans interruption abrupte du souffle.",
-    "common_pitfalls": "Oublier d'allonger la voyelle sur les termes de couleurs comme le blanc, ce qui modifie la structure rythmique et descriptive attendue en Badiaranké."
+    "key_sounds": "Les mots de couleur viennent de la liste ASJP (notation simplifiée, sans API précise) ; leur phonétique réelle reste approximative.",
+    "common_pitfalls": "Ne pas traiter la transcription ASJP comme une phonétique fiable : il s'agit d'une notation dérivée, marquée « (dérivé) » dans ce cours."
   },
   "vocabulary": [
     {
-      "word_id": "v9_1",
-      "term": "Doni",
-      "phonetic_api": "/doni/",
-      "phonetic_simple": "DO-NI",
-      "translation": "Vêtement / Habit / Boubou",
-      "example_sentence": "Doni o sae.",
-      "example_phonetic": "/doni o sae/",
-      "example_translation": "Le vêtement est beau."
+      "word_id": "v1",
+      "term": "jinn",
+      "phonetic_api": "/dʲinn/ (dérivé)",
+      "phonetic_simple": "djinn",
+      "translation": "rouge"
     },
     {
-      "word_id": "v9_2",
-      "term": "Feeo",
-      "phonetic_api": "/feːɔ/",
-      "phonetic_simple": "FEE-O",
-      "translation": "Blanc (couleur)",
-      "example_sentence": "Doni feeo.",
-      "example_phonetic": "/doni feːɔ/",
-      "example_translation": "Un habit blanc."
+      "word_id": "v2",
+      "term": "keren",
+      "phonetic_api": "/keren/ (dérivé)",
+      "phonetic_simple": "ké-rèn",
+      "translation": "vert"
     },
     {
-      "word_id": "v9_3",
-      "term": "Ubiin",
-      "phonetic_api": "/uɓiːn/",
-      "phonetic_simple": "OU-BHIIN",
-      "translation": "Noir / Sombre (couleur)",
-      "example_sentence": "Gisila ubiin.",
-      "example_phonetic": "/ɡisila uɓiːn/",
-      "example_translation": "Une route noire (goudronnée)."
+      "word_id": "v3",
+      "term": "fas",
+      "phonetic_api": "/fas/ (dérivé)",
+      "phonetic_simple": "fas",
+      "translation": "blanc"
     },
     {
-      "word_id": "v9_4",
-      "term": "Awun",
-      "phonetic_api": "/awun/",
-      "phonetic_simple": "A-WOUN",
-      "translation": "Rouge (couleur)",
-      "example_sentence": "Maree awun.",
-      "example_phonetic": "/mareː awun/",
-      "example_translation": "Le marché rouge (coloré/animé)."
+      "word_id": "v4",
+      "term": "ba",
+      "phonetic_api": "/ba/ (dérivé)",
+      "phonetic_simple": "ba",
+      "translation": "noir"
     },
     {
-      "word_id": "v9_5",
-      "term": "Mukulu",
-      "phonetic_api": "/mukulu/",
-      "phonetic_simple": "MOU-KOU-LOU",
-      "translation": "Chapeau / Bonnet de protection",
-      "example_sentence": "M baa o seŋeni n mukulu.",
-      "example_phonetic": "/m ɓaː o seŋeni n mukulu/",
-      "example_translation": "Mon père a un chapeau."
+      "word_id": "v5",
+      "term": "kab˜at˜a",
+      "phonetic_api": "/kab̃atã/",
+      "phonetic_simple": "ka-ban-tan",
+      "translation": "chemise"
     },
     {
-      "word_id": "v9_6",
-      "term": "Taba",
-      "phonetic_api": "/taɓa/",
-      "phonetic_simple": "TA-BHA",
-      "translation": "Chaussures / Sandales",
-      "example_sentence": "M taba o seŋeni e maari.",
-      "example_phonetic": "/m taɓa o seŋeni e maːri/",
-      "example_translation": "Mes chaussures sont à la maison."
+      "word_id": "v6",
+      "term": "kam@s",
+      "phonetic_api": "/kaməs/",
+      "phonetic_simple": "ka-meus",
+      "translation": "tissu"
     },
     {
-      "word_id": "v9_7",
-      "term": "Wolo",
-      "phonetic_api": "/wolo/",
-      "phonetic_simple": "WO-LO",
-      "translation": "Porter / Mettre un habit",
-      "example_sentence": "N wolo doni.",
-      "example_phonetic": "/n wolo doni/",
-      "example_translation": "Je porte un vêtement."
+      "word_id": "v7",
+      "term": "be:ñi",
+      "phonetic_api": "/be:ɲi/",
+      "phonetic_simple": "bé-gni",
+      "translation": "vêtements"
+    },
+    {
+      "word_id": "v8",
+      "term": "dunna:-",
+      "phonetic_api": "/dunna:-/",
+      "phonetic_simple": "dou-na-",
+      "translation": "mettre un vêtement / porter"
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p9_1",
-      "original": "N wolo doni feeo.",
-      "phonetic_api": "/n wolo doni feːɔ/",
-      "phonetic_simple": "N WO-LO DO-NI FEE-O",
-      "translation": "Je porte un habit blanc.",
-      "context": "Décrire sa tenue vestimentaire avant d'aller à une cérémonie."
+      "phrase_id": "p1",
+      "original": "kab˜at˜a",
+      "phonetic_api": "/kab̃atã/",
+      "phonetic_simple": "ka-ban-tan",
+      "translation": "chemise",
+      "context": "Attesté par Cover (2010)."
     },
     {
-      "phrase_id": "p9_2",
-      "original": "Doni awun o seŋeni ?",
-      "phonetic_api": "/doni awun o seŋeni/",
-      "phonetic_simple": "DO-NI A-WOUN O SE-NGE-NI",
-      "translation": "Y a-t-il un vêtement rouge ?",
-      "context": "S'enquérir des couleurs disponibles chez un tailleur."
+      "phrase_id": "p2",
+      "original": "be:ñi",
+      "phonetic_api": "/be:ɲi/",
+      "phonetic_simple": "bé-gni",
+      "translation": "vêtements",
+      "context": "Attesté par Cover (2010)."
     },
     {
-      "phrase_id": "p9_3",
-      "original": "M taba o seŋeni e garaŋ.",
-      "phonetic_api": "/m taɓa o seŋeni e ɡaraŋ/",
-      "phonetic_simple": "M TA-BHA O SE-NGE-NI E GA-RANG",
-      "translation": "Mes chaussures sont à gauche.",
-      "context": "Chercher ses sandales sur le perron de la case."
+      "phrase_id": "p3",
+      "original": "jinn keren",
+      "phonetic_api": "/dʲinn/ (dérivé) /keren/ (dérivé)",
+      "phonetic_simple": "djinn ké-rèn",
+      "translation": "rouge vert",
+      "context": "Juxtaposition pédagogique de mots déjà attestés dans cette leçon (recombinaison, PAS une phrase attestée telle quelle dans les sources)."
     },
     {
-      "phrase_id": "p9_4",
-      "original": "I mukulu o sae sae.",
-      "phonetic_api": "/i mukulu o sae sae/",
-      "phonetic_simple": "I MOU-KOU-LOU O SA-E SA-E",
-      "translation": "Ton chapeau est très joli.",
-      "context": "Adresser un compliment amical sur l'apparence de quelqu'un."
-    },
-    {
-      "phrase_id": "p9_5",
-      "original": "Doni ubiin o seŋeni e mi.",
-      "phonetic_api": "/doni ubiːn o seŋeni e mi/",
-      "phonetic_simple": "DO-NI OU-BHIIN O SE-NGE-NI E MI",
-      "translation": "J'ai un habit noir.",
-      "context": "Indiquer la possession d'une pièce vestimentaire spécifique."
-    },
-    {
-      "phrase_id": "p9_6",
-      "original": "Wolo i taba !",
-      "phonetic_api": "/wolo i taɓa/",
-      "phonetic_simple": "WO-LO I TA-BHA",
-      "translation": "Mets tes chaussures !",
-      "context": "Donner un ordre à un enfant avant de sortir marcher."
-    },
-    {
-      "phrase_id": "p9_7",
-      "original": "Doni mmanza rek o seŋeni.",
-      "phonetic_api": "/doni mːanza rek o seŋeni/",
-      "phonetic_simple": "DO-NI MMAN-ZA REK O SE-NGE-NI",
-      "translation": "Il y a seulement un vêtement.",
-      "context": "Faire le compte des habits propres restants."
-    },
-    {
-      "phrase_id": "p9_8",
-      "original": "Yo sae e fari doni !",
-      "phonetic_api": "/jo sae e fari doni/",
-      "phonetic_simple": "YO SA-E E FA-RI DO-NI",
-      "translation": "Que la bénédiction soit sur la confection de l'habit !",
-      "context": "Formule traditionnelle pour féliciter quelqu'un qui étrenne un habit neuf."
+      "phrase_id": "p4",
+      "original": "jinn fas",
+      "phonetic_api": "/dʲinn/ (dérivé) /fas/ (dérivé)",
+      "phonetic_simple": "djinn fas",
+      "translation": "rouge blanc",
+      "context": "Juxtaposition pédagogique de mots déjà attestés dans cette leçon (recombinaison, PAS une phrase attestée telle quelle dans les sources)."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'ordre des qualificatifs de couleur dans le groupe nominal",
-      "explanation": "En Badiaranké, l'adjectif qualificatif de couleur se place systématiquement après le nom qu'il modifie. Il n'y a pas de verbe d'état obligatoire entre le nom et la couleur pour former une qualification directe.",
+      "concept": "Deux niveaux de fiabilité phonétique dans cette leçon",
+      "explanation": "Les mots de vêtements (chemise, tissu, vêtements, porter) proviennent de Cover (2010) avec une API précise. Les couleurs proviennent de la liste ASJP (Meyer 2001) dans une notation simplifiée sans vraie transcription phonétique ; nous les marquons donc comme moins fiables.",
       "rules": [
-        "Le substantif (ex: 'doni') se place en premier.",
-        "La couleur (ex: 'feeo') suit immédiatement pour compléter le sens du groupe nominal."
+        "Préférer toujours signaler la source d'un mot pour que l'apprenant connaisse le niveau de certitude."
       ],
       "examples": [
         {
-          "structure": "doni feeo",
-          "phonetic_api": "/doni feːɔ/",
-          "meaning": "vêtement blanc"
-        },
-        {
-          "structure": "taba ubiin",
-          "phonetic_api": "/taɓa ubiːn/",
-          "meaning": "chaussures noires"
+          "structure": "be:ñi",
+          "phonetic_api": "/be:ɲi/",
+          "meaning": "vêtements (source: Cover 2010, fiable)"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Amadou",
-      "text": "Samba, i wolo doni feeo sene ?",
-      "phonetic_api": "/samɓa i wolo doni feːɔ sene/",
-      "phonetic_simple": "SAM-BHA, I WO-LO DO-NI FEE-O SE-NE ?",
-      "translation": "Samba, tu portes un habit blanc aujourd'hui ?"
+      "speaker": "Vendeuse",
+      "text": "kam@s. kab˜at˜a.",
+      "phonetic_api": "/kaməs/ /kab̃atã/",
+      "phonetic_simple": "ka-meus. ka-ban-tan.",
+      "translation": "Tissu. Chemise. (mots juxtaposés)"
     },
     {
-      "speaker": "Samba",
-      "text": "Iyo Amadou, n wolo doni feeo n mukulu feeo.",
-      "phonetic_api": "/ijo amadou n wolo doni feːɔ n mukulu feːɔ/",
-      "phonetic_simple": "I-YO A-MA-DOU, N WO-LO DO-NI FEE-O N MOU-KOU-LOU FEE-O.",
-      "translation": "Oui Amadou, je porte un habit blanc et un chapeau blanc."
+      "speaker": "Binta",
+      "text": "jinn.",
+      "phonetic_api": "/dʲinn/ (dérivé)",
+      "phonetic_simple": "djinn",
+      "translation": "Rouge. (mot attesté isolé, recombiné pédagogiquement dans ce dialogue)"
     },
     {
-      "speaker": "Amadou",
-      "text": "I taba o seŋeni awun ?",
-      "phonetic_api": "/i taɓa o seŋeni awun/",
-      "phonetic_simple": "I TA-BHA O SE-NGE-NI A-WOUN ?",
-      "translation": "Tes chaussures sont-elles rouges ?"
+      "speaker": "Professeur",
+      "text": "keren.",
+      "phonetic_api": "/keren/ (dérivé)",
+      "phonetic_simple": "ké-rèn",
+      "translation": "Vert. (mot attesté isolé, recombiné pédagogiquement dans ce dialogue)"
     },
     {
-      "speaker": "Samba",
-      "text": "Aé, m taba o seŋeni ubiin. A sae sae !",
-      "phonetic_api": "/aeː m taɓa o seŋeni ubiːn a sae sae/",
-      "phonetic_simple": "AEE, M TA-BHA O SE-NGE-NI OU-BHIIN. A SA-E SA-E !",
-      "translation": "Non, mes chaussures sont noires. C'est très bien !"
+      "speaker": "Élève",
+      "text": "fas.",
+      "phonetic_api": "/fas/ (dérivé)",
+      "phonetic_simple": "fas",
+      "translation": "Blanc. (mot attesté isolé, recombiné pédagogiquement dans ce dialogue)"
     }
   ],
   "cultural_notes": [
-    "L'habillement en milieu Badiaranké revêt une importance sociale majeure lors des événements rituels, mariages et fêtes de fin de récolte. Porter un habit blanc ('doni feeo') symbolise la pureté, la paix et le respect des traditions. Complimenter l'allure d'un aîné paré de ses plus beaux atours est une règle de savoir-vivre incontournable."
+    "Le tissu (bazin, wax) occupe une place culturelle importante dans toute la région ouest-africaine ; le mot attesté par Cover (2010) désigne spécifiquement l'objet matériel, sans connotation de couleur ou de motif documentée."
   ],
   "exercises": [
     {
-      "exercise_id": "ex9_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Que signifie la couleur 'ubiin' en Badiaranké ?",
+      "question": "Quelle est la source des mots de couleur dans cette leçon ?",
       "options": [
-        "Blanc",
-        "Noir",
-        "Rouge"
+        "la liste ASJP (Meyer 2001), notation simplifiée",
+        "la thèse de Cover (2010), API précise",
+        "un dictionnaire officiel du badiaranké"
       ],
-      "correct_answer": "Noir",
-      "explanation": "'Ubiin' signifie noir ou sombre, tandis que 'feeo' signifie blanc et 'awun' désigne le rouge."
+      "correct_answer": "la liste ASJP (Meyer 2001), notation simplifiée",
+      "explanation": "Aucune couleur n'est attestée dans la thèse de Cover (2010) ; seule la liste ASJP en fournit, en notation approximative."
     },
     {
-      "exercise_id": "ex9_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "N wolo [ ___ ] feeo. (Je porte un vêtement blanc.)",
-      "correct_answer": "doni",
-      "hint": "Le mot générique pour désigner un vêtement ou un habit."
+      "sentence_with_blank": "[ ___ ] = « vêtements » (attesté par Cover, 2010)",
+      "correct_answer": "be:ñi",
+      "hint": "Nom pluriel générique."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Cover, R. (2010) — Aspect, Modality, and Tense in Badiaranke, UC Berkeley (PhD dissertation)",
+      "url": "https://escholarship.org/uc/item/6f91m5dg"
+    },
+    {
+      "label": "Cover, R. (2010) — texte intégral PDF (eScholarship, UC Berkeley)",
+      "url": "https://escholarship.org/content/qt6f91m5dg/qt6f91m5dg.pdf"
+    },
+    {
+      "label": "ASJP Database — Wordlist Jaad Badiaranke 4 (d'après Meyer 2001)",
+      "url": "https://asjp.clld.org/languages/JAAD_BADIARANKE_4"
+    }
+  ],
+  "confidence": "faible",
+  "confidence_note": "Les mots de vêtements (chemise, tissu, vêtements, porter) sont attestés de façon fiable par Cover (2010) ; les quatre couleurs proviennent uniquement de la liste ASJP (Meyer 2001) en notation approximative sans API véritable, ce qui abaisse la confiance globale de cette leçon."
 }

@@ -1,174 +1,199 @@
 {
   "lesson_id": "C1_M1_L2",
-  "level": "Avancé (C1-C2)",
+  "level": "Niveau Avancé (C1 - C2)",
   "module_number": 1,
   "module_title": "Nuances et complexité",
   "lesson_number": 2,
   "title": "Exprimer l'hypothèse, le doute et la condition",
   "learning_objectives": [
-    "Structurer des propositions hypothétiques complexes à l'aide de conjonctions de condition",
-    "Nuancer le degré de certitude en exprimant le doute et l'éventualité",
-    "Manipuler les structures corrélatives pour articuler une condition et sa conséquence potentielle"
+    "Comprendre le rôle du complémenteur 'hali' dans les propositions conditionnelles/finales",
+    "Reconnaître les limites de la documentation sur les subordonnées hypothétiques",
+    "Analyser un proverbe mani comme expression indirecte d'une vérité générale conditionnelle"
   ],
   "phonetic_focus": {
-    "key_sounds": "La particule conditionnelle 'xa' nécessite une articulation précise de la fricative vélaire sourde /x/, produite sans occlusion dans l'arrière-bouche. Le timbre de la voyelle longue dans 'fale' doit rester stable et distinctement distinct des voyelles nasales environnantes.",
-    "common_pitfalls": "Veillez à ne pas adoucir le /x/ de 'xa' en un /h/ aspiré simple. Maintenez la friction caractéristique de la consonne."
+    "key_sounds": "Le mani distingue 8 voyelles (i, e, ɛ, a, ɔ, o, u, ə) et des consonnes prénasalisées (mp, nt/nd, ŋk) ainsi qu'une labiovélaire /gb/ absentes du français. Le ton (registre haut/bas) est phonémique (Childs 2011, ch.2).",
+    "common_pitfalls": "Les francophones ont tendance à ne pas distinguer ɛ/e et ɔ/o, à simplifier les consonnes prénasalisées en de simples séquences nasale+consonne, et à ignorer les contrastes de ton, qui changent pourtant le sens ou la fonction grammaticale du mot (ex. hortatif vs perfectif marqués uniquement par le ton)."
   },
   "vocabulary": [
     {
-      "word_id": "v20_1",
-      "term": "xa",
-      "phonetic_api": "/xa/",
-      "phonetic_simple": "KHA",
-      "translation": "si / au cas où / à condition que (particule conditionnelle)",
-      "example_sentence": "Xa wun fɔkɔ, n ce tunkɛ.",
-      "example_phonetic": "/xa wun fɔ.kɔ n̩ tʃe tun.kɛ/",
-      "example_translation": "Si tu viens, je serai dans la joie."
+      "word_id": "v1",
+      "term": "hali",
+      "phonetic_api": "/hali/",
+      "phonetic_simple": "HA-LI",
+      "translation": "pour, afin de, si (complémenteur de but/condition)"
     },
     {
-      "word_id": "v20_2",
-      "term": "fale",
-      "phonetic_api": "/fa.le/",
-      "phonetic_simple": "FA-LÉ",
-      "translation": "peut-être / il se peut / probabilité / incertitude",
-      "example_sentence": "Fale a ce tira woni.",
-      "example_phonetic": "/fa.le a tʃe ti.ra wo.ni/",
-      "example_translation": "Peut-être va-t-il voyager demain."
+      "word_id": "v2",
+      "term": "gɔ",
+      "phonetic_api": "/gɔ/",
+      "phonetic_simple": "GO",
+      "translation": "particule de focus, aussi utilisée comme 'comment' interrogatif"
     },
     {
-      "word_id": "v20_3",
-      "term": "tɔgɔ-mɛlɛ",
-      "phonetic_api": "/tɔ.ɡɔ mɛ.lɛ/",
-      "phonetic_simple": "TO-GO-MÈ-LÈ",
-      "translation": "à moins que / sauf si la règle permet",
-      "example_sentence": "N ce gbana, tɔgɔ-mɛlɛ wun lɔ fɔkɔ.",
-      "example_phonetic": "/n̩ tʃe ɡba.na tɔ.ɡɔ mɛ.lɛ wun lɔ fɔ.kɔ/",
-      "example_translation": "Je vais partir, à moins que tu n'arrives."
+      "word_id": "v3",
+      "term": "tɔ",
+      "phonetic_api": "/tɔ/",
+      "phonetic_simple": "TO",
+      "translation": "quand, si (subordonnant conditionnel principal)",
+      "example_sentence": "tɔ n hi-m yɛmde, mɔ hi wu",
+      "example_phonetic": "/tɔ n hiːm jɛmdɛ mɔ hi wu/",
+      "example_translation": "Si tu n'as pas de nourriture, tu mourras. (attesté Childs 2011, ex.362a)"
     },
     {
-      "word_id": "v20_4",
-      "term": "kunu-wo",
-      "phonetic_api": "/ku.nu wo/",
-      "phonetic_simple": "KOU-NOU-WO",
-      "translation": "le doute / l'état d'incertitude / l'inquiétude spéculative",
-      "example_sentence": "Kunu-wo bɛ n cɛm hɔnkɔ lɔ.",
-      "example_phonetic": "/ku.nu wo bɛ n̩ tʃem hɔn.kɔ lɔ/",
-      "example_translation": "Le doute habite en moi aujourd'hui."
+      "word_id": "v4",
+      "term": "lɔgkɔ",
+      "phonetic_api": "/lɔgkɔ/",
+      "phonetic_simple": "LONG-KO",
+      "translation": "si (variante conditionnelle avec 'gɔ')",
+      "example_sentence": "lɔgkɔ n kɔ, n pin-ne mi ugbeggbe",
+      "example_phonetic": "/lɔgkɔ n kɔ n pinnɛ mi ugbɛggbɛ/",
+      "example_translation": "Si tu vas, achète-moi un tas de piments. (attesté Childs 2011, ex.362c)"
     },
     {
-      "word_id": "v20_5",
-      "term": "yoma-ra",
-      "phonetic_api": "/jo.ma ra/",
-      "phonetic_simple": "YO-MA-RA",
-      "translation": "certitude / assurance / vérité établie",
-      "example_sentence": "Yoma-ra na, a ce wɔli.",
-      "example_phonetic": "/jo.ma ra na a tʃe wɔ.li/",
-      "example_translation": "C'est une certitude, il va travailler."
+      "word_id": "v5",
+      "term": "bari",
+      "phonetic_api": "/bari/",
+      "phonetic_simple": "BA-RI",
+      "translation": "parce que, puisque (subordonnant causal, proche du champ conditionnel)",
+      "example_sentence": "bari wɔ hi kopɛr, wɔ mi mar",
+      "example_phonetic": "/bari wɔ hi kɔpɛr wɔ mi mar/",
+      "example_translation": "Puisqu'elle a de l'argent, elle m'aidera. (attesté Childs 2011, ex.365a)"
+    },
+    {
+      "word_id": "v6",
+      "term": "yɔ (conditionnel)",
+      "phonetic_api": "/jɔ/",
+      "phonetic_simple": "YO",
+      "translation": "si (marqueur conditionnel postposé, distinct de la particule de focus homophone)",
+      "example_sentence": "rilbɔm wɔ hi bankɛm lepe yɔ nde wɔ nde pe",
+      "example_phonetic": "/rilbɔm wɔ hi baŋkɛm lɛpɛ jɔ ndɛ wɔ ndɛ pɛ/",
+      "example_translation": "Mbom sera constipé s'il mange encore du riz."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p20_1",
-      "original": "Xa gbeŋu bɛ wun fɛ, yila guba kɔŋ.",
-      "phonetic_api": "/xa ɡbe.ŋu bɛ wun fɛ ji.la ɡu.ba kɔŋ/",
-      "phonetic_simple": "KHA GBÉ-NGOU BÈ WOUN FÈ, YI-LA GOU-BA KONG",
-      "translation": "Si tu as de l'argent sur toi, achète le vêtement s'il te plaît.",
-      "context": "Formuler une condition pratique lors d'une sortie au marché."
+      "phrase_id": "p1",
+      "original": "upɔŋkɔreŋ uce wɔ cem kimɔ ipal fufaru",
+      "phonetic_api": "/upɔŋkɔrɛŋ utʃɛ wɔ tʃɛm kimɔ ipal fufaru/",
+      "phonetic_simple": "OU-PONG-KO-RENG OU-TCHÉ WO TCHÈM KI-MO I-PAL FOU-FA-ROU",
+      "translation": "La grenouille ne fuit pas le soleil sans raison.",
+      "context": "Proverbe authentique (Childs 2011, appendice 1) exprimant une vérité générale de type conditionnel implicite : 'si la grenouille fuit, c'est qu'il y a une cause'."
     },
     {
-      "phrase_id": "p20_2",
-      "original": "Fale n fara ce fɔkɔ-wo woni.",
-      "phonetic_api": "/fa.le n̩ fa.ra tʃe fɔ.kɔ wo wo.ni/",
-      "phonetic_simple": "FA-LÉ N FA-RA TCHÉ FƆ-KƆ-WO WO-NI",
-      "translation": "Il se peut que mon père arrive demain.",
-      "context": "Exprimer une éventualité temporelle avec un degré d'incertitude."
+      "phrase_id": "p2",
+      "original": "tɔ n hi-m yɛmde, mɔ hi wu",
+      "phonetic_api": "/tɔ n hiːm jɛmdɛ mɔ hi wu/",
+      "phonetic_simple": "TO N HI-M YÈM-DÉ, MO HI WOU",
+      "translation": "Si tu n'as pas de nourriture, tu mourras.",
+      "context": "Conditionnelle attestée avec 'tɔ' (Childs 2011, ex.362a) — la seule structure hypothétique clairement documentée."
     },
     {
-      "phrase_id": "p20_3",
-      "original": "Xa wun tuli-wo tɔgɔ, kunu-wo ce gbana.",
-      "phonetic_api": "/xa wun tu.li wo tɔ.ɡɔ ku.nu wo tʃe ɡba.na/",
-      "phonetic_simple": "KHA WOUN TOU-LI-WO TO-GO, KOU-NOU-WO TCHÉ GBA-NA",
-      "translation": "Si tu avais écouté les conseils, le doute se serait dissipé.",
-      "context": "Analyser une situation passée sous un angle hypothétique."
+      "phrase_id": "p3",
+      "original": "lɔgkɔ n kɔ, n pin-ne mi ugbeggbe",
+      "phonetic_api": "/lɔgkɔ n kɔ n pinnɛ mi ugbɛggbɛ/",
+      "phonetic_simple": "LONG-KO N KO, N PIN-NÉ MI OU-GBÈG-GBÈ",
+      "translation": "Si tu vas, achète-moi un tas de piments.",
+      "context": "Conditionnelle attestée avec 'lɔ...gɔ' et l'Hortatif combiné (Childs 2011, ex.362c)."
     },
     {
-      "phrase_id": "p20_4",
-      "original": "Tɔgɔ-mɛlɛ lan ce fɔkɔ, n ce tira.",
-      "phonetic_api": "/tɔ.ɡɔ mɛ.lɛ lan tʃe fɔ.kɔ n̩ tʃe ti.ra/",
-      "phonetic_simple": "TO-GO-MÈ-LÈ LAN TCHÉ FƆ-KƆ, N TCHÉ TI-RA",
-      "translation": "Sauf si la pluie (l'eau) arrive, je vais voyager.",
-      "context": "Poser une restriction majeure à la réalisation d'un projet."
+      "phrase_id": "p4",
+      "original": "bari wɔ hi kopɛr, wɔ mi mar",
+      "phonetic_api": "/bari wɔ hi kɔpɛr wɔ mi mar/",
+      "phonetic_simple": "BA-RI WO HI KO-PÈR, WO MI MAR",
+      "translation": "Puisqu'elle a de l'argent, elle m'aidera.",
+      "context": "Causale attestée, proche sémantiquement de la condition réalisée (Childs 2011, ex.365a)."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "rilbɔm wɔ hi bankɛm lepe yɔ nde wɔ nde pe",
+      "phonetic_api": "/rilbɔm wɔ hi baŋkɛm lɛpɛ jɔ ndɛ wɔ ndɛ pɛ/",
+      "phonetic_simple": "RILBƆM WƆ HI BANKƐM LEPE YƆ NDE WƆ NDE PE",
+      "translation": "Mbom sera constipé s'il mange encore du riz.",
+      "context": "Conditionnelle réelle attestée avec 'yɔ' (si), complétant les autres conditionnelles avec 'tɔ' et 'lɔ...gɔ' (Childs 2011, ex.148b)."
     }
   ],
   "grammar_points": [
     {
-      "concept": "La subordination conditionnelle corrélative avec 'xa'",
-      "explanation": "L'expression de la condition repose sur l'introduction de la particule 'xa' au tout début de la proposition subordonnée. La proposition principale, qui exprime la conséquence, emploie généralement le marqueur d'inaccompli/futur 'ce' ou la particule d'irréel 'wo-ce' selon le degré de réalisation de l'hypothèse.",
+      "concept": "Le complémenteur 'hali' au service de l'hypothèse et du but",
+      "explanation": "Le complémenteur hali « pour, afin de » introduit des propositions exprimant le but ou l'obligation (« il faut que… », « pour que… »). Bien qu'aucune conjonction hypothétique dédiée équivalente à « si » ne soit clairement isolée dans la documentation disponible, 'hali' introduit des propositions de but qui recouvrent partiellement le champ conditionnel/final en français.",
       "rules": [
-        "Hypothèse réalisable : xa + Sujet + Verbe (présent), Sujet + ce + Verbe (conséquence future).",
-        "Hypothèse irréalisable du passé : xa + Sujet + Verbe + wo, Sujet + wo-ce + Verbe."
+        "hali + proposition = 'pour que...', 'afin que...', parfois 'il faut que...'.",
+        "Le doute et l'hypothèse pure ('si jamais...', 'il se pourrait que...') ne disposent pas, dans la documentation consultée, de marqueurs grammaticaux clairement identifiés — lacune reconnue honnêtement."
       ],
       "examples": [
         {
-          "structure": "Xa n ŋon lan, n ce tunkɛ",
-          "phonetic_api": "/xa n̩ ŋon lan n̩ tʃe tun.kɛ/",
-          "meaning": "Si je bois de l'eau, je serai content"
+          "structure": "hali + proposition",
+          "phonetic_api": "/hali .../",
+          "meaning": "pour que / afin que / il faut que..."
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Marie",
-      "text": "Mboi Fanta. Xa sègé bɛ ni yoma woni, wun ce yila nin ?",
-      "phonetic_api": "/mboi fan.ta xa se.ɡe bɛ ni jo.ma wo.ni wun tʃe ji.la nin/",
-      "phonetic_simple": "MBOÏ FAN-TA. KHA SÉ-GÉ BÈ NI YO-MA WO-NI, WOUN TCHÉ YI-LA NIN ?",
-      "translation": "Bonjour Fanta. Si le marché est praticable (en paix) demain, vas-tu acheter du poisson ?"
+      "speaker": "Sage",
+      "text": "upɔŋkɔreŋ uce wɔ cem kimɔ ipal fufaru.",
+      "phonetic_api": "/upɔŋkɔrɛŋ utʃɛ wɔ tʃɛm kimɔ ipal fufaru/",
+      "phonetic_simple": "OU-PONG-KO-RENG OU-TCHÉ WO TCHÈM KI-MO I-PAL FOU-FA-ROU",
+      "translation": "La grenouille ne fuit pas le soleil sans raison."
     },
     {
-      "speaker": "Fanta",
-      "text": "Mboi Marie. Fale n ce yila nin gbun, xa gbeŋu yoma ce fɔkɔ mi fɛ.",
-      "phonetic_api": "/mboi ma.ri fa.le n̩ tʃe ji.la nin ɡbun xa ɡbe.ŋu jo.ma tʃe fɔ.kɔ mi fɛ/",
-      "phonetic_simple": "MBOÏ MA-RI. FA-LÉ N TCHÉ YI-LA NIN GBOUN, KHA GBÉ-NGOU YO-MA TCHÉ FƆ-KƆ MI FÈ.",
-      "translation": "Bonjour Marie. Il se peut que j'achète un grand poisson, à condition qu'une bonne somme d'argent me parvienne."
+      "speaker": "Jeune",
+      "text": "nyɔyɛ kimɔ?",
+      "phonetic_api": "/ɲɔjɛ kimɔ/",
+      "phonetic_simple": "NYO-YÈ KI-MO",
+      "translation": "Quelle raison ? (structure reconstruite avec l'interrogatif attesté 'nyɔyɛ')"
     },
     {
-      "speaker": "Marie",
-      "text": "Wun bɛ ni kunu-wo gbun ? Yoma-ra na, sègé ce bɛŋ hɔnkɔ-fɔkɔ.",
-      "phonetic_api": "/wun bɛ ni ku.nu wo ɡbun jo.ma ra na se.ɡe tʃe bɛŋ hɔn.kɔ fɔ.kɔ/",
-      "phonetic_simple": "WOUN BÈ NI KOU-NOU-WO GBOUN ? YO-MA-RA NA, SÉ-GÉ TCHÉ BÈNG HON-KƆ-FƆ-KƆ.",
-      "translation": "As-tu un grand doute ? C'est une certitude, le marché va se rassembler tôt demain matin."
+      "speaker": "Sage",
+      "text": "lɔgkɔ n kɔ, n pin-ne mi ugbeggbe.",
+      "phonetic_api": "/lɔgkɔ n kɔ n pinnɛ mi ugbɛggbɛ/",
+      "phonetic_simple": "LONG-KO N KO, N PIN-NÉ MI OU-GBÈG-GBÈ",
+      "translation": "Si tu vas, achète-moi un tas de piments. (attesté, Childs 2011, ex.362c)"
     },
     {
-      "speaker": "Fanta",
-      "text": "Yoma a ra ! Tɔgɔ-mɛlɛ lan ce fɔkɔ cece, n ce fɔkɔ lɔ baara sègé. Gbana !",
-      "phonetic_api": "/jo.ma a ra tɔ.ɡɔ mɛ.lɛ lan tʃe fɔ.kɔ tʃe.tʃe n̩ tʃe fɔ.kɔ lɔ baː.ra se.ɡe ɡba.na/",
-      "phonetic_simple": "YO-MA A RA ! TO-GO-MÈ-LÈ LAN TCHÉ FƆ-KƆ TCHÉ-TCHÉ, N TCHÉ FƆ-KƆ LƆ BAA-RA SÉ-GÉ. GBA-NA !",
-      "translation": "C'est bien ! À moins que la pluie ne tombe abondamment, je viendrai ici à droite au marché. Au revoir !"
+      "speaker": "Jeune 2",
+      "text": "rilbɔm wɔ hi bankɛm lepe yɔ nde wɔ nde pe",
+      "phonetic_api": "/rilbɔm wɔ hi baŋkɛm lɛpɛ jɔ ndɛ wɔ ndɛ pɛ/",
+      "phonetic_simple": "RILBƆM WƆ HI BANKƐM LEPE YƆ NDE WƆ NDE PE",
+      "translation": "Mbom sera constipé s'il mange encore du riz."
     }
   ],
   "cultural_notes": [
-    "Dans la pensée traditionnelle des locuteurs Mani, l'avenir est fondamentalement soumis aux aléas climatiques et de la nature littorale. Planifier un événement sans utiliser d'atténuateur comme 'fale' (peut-être) ou de clause conditionnelle 'xa' est perçu comme une forme de présomption. L'incertitude linguistique reflète le respect humain face aux forces invisibles."
+    "Dans la culture orale mani, les proverbes servent souvent de raisonnement hypothétique implicite : ils énoncent une vérité générale d'où l'auditeur doit inférer une conclusion pratique pour sa propre situation (Childs 2011, appendice 1).",
+    "L'absence de conjonction hypothétique explicitement documentée pour 'si' est probablement due à la rareté des données disponibles plutôt qu'à une absence réelle dans la langue parlée."
   ],
   "exercises": [
     {
-      "exercise_id": "ex20_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel adverbe modal utilise-t-on en Mani pour traduire 'peut-être' ou exprimer une éventualité ?",
+      "question": "Quel complémenteur mani couvre en partie le sens de 'pour que' / 'afin que' ?",
       "options": [
-        "xa",
-        "fale",
-        "yoma-ra"
+        "hali",
+        "ce",
+        "-di"
       ],
-      "correct_answer": "fale",
-      "explanation": "'Fale' introduit l'éventualité, le doute ou l'incertitude dans la proposition."
+      "correct_answer": "hali",
+      "explanation": "'hali' est le complémenteur de but attesté dans Childs (2011)."
     },
     {
-      "exercise_id": "ex20_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "[ ___ ] wun fɔkɔ, n ce tunkɛ. (Si tu viens, je serai heureux).",
-      "correct_answer": "xa",
-      "hint": "La particule conditionnelle monosyllabique qui commence par la lettre 'x'."
+      "sentence_with_blank": "upɔŋkɔreŋ uce wɔ cem kimɔ ipal [ ___ ]. (La grenouille ne fuit pas le soleil sans raison.)",
+      "correct_answer": "fufaru",
+      "hint": "Dernier mot du proverbe attesté, renforçant l'idée de 'sans raison/en vain'."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Childs, G. Tucker (2011), A Grammar of Mani, Mouton Grammar Library 54, De Gruyter Mouton",
+      "url": "https://theswissbay.ch/pdf/Books/Linguistics/Mega%20linguistics%20pack/African/Niger-Congo/other%20Atlantic-Congo/Bullom%20So;%20A%20Grammar%20of%20Mani%20(Childs).pdf"
+    },
+    {
+      "label": "Glottolog 5.3 — Bullom So (bull1247)",
+      "url": "https://glottolog.org/resource/languoid/id/bull1247"
+    }
+  ],
+  "confidence": "faible",
+  "confidence_note": "Le complémenteur 'hali' est attesté, mais aucune conjonction hypothétique dédiée ('si') n'a été identifiée dans les sources disponibles. Cette leçon s'appuie sur un proverbe authentique pour illustrer un raisonnement conditionnel implicite plutôt que sur une structure grammaticale hypothétique clairement documentée."
 }

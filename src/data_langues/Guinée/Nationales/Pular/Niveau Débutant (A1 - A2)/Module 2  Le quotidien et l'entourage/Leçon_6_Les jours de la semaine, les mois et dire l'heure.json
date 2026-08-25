@@ -6,266 +6,237 @@
   "lesson_number": 6,
   "title": "Les jours de la semaine, les mois et dire l'heure",
   "learning_objectives": [
-    "Nommer les 7 jours de la semaine en pular",
-    "Se repérer dans les notions temporelles de base (hier, aujourd'hui, demain)",
-    "Demander et indiquer l'heure de façon élémentaire"
+    "Nommer les sept jours de la semaine en pular",
+    "Utiliser les moments de la journée liés aux prières islamiques",
+    "Demander et dire l'heure (souvent en français au Fouta-Djalon)"
   ],
   "phonetic_focus": {
-    "key_sounds": "La consonne 'l' est souvent géminée dans les jours de la semaine empruntés à l'arabe ('altine', 'talata'). Le coup de glotte dans 'hanki' (/hanki/) ou 'hande' (/hande/) doit être net.",
-    "common_pitfalls": "Ne confondez pas 'hande' (aujourd'hui) et 'janngo' (demain). Dans la prononciation de l'heure, le mot français 'heure' est couramment pularisé sous la forme 'waktu' ou 'alwaktu'."
+    "key_sounds": "Les noms des jours de la semaine sont emprunts à l'arabe (Alat, Tenen, Talata...), une influence de l'islam très présente au Fouta-Djalon. Le son 'j' de 'Juma' (vendredi) se prononce comme le 'dj' anglais.",
+    "common_pitfalls": "Les francophones essaient parfois de traduire les noms de jours littéralement, alors qu'il s'agit d'emprunts arabes à mémoriser comme des unités lexicales à part."
   },
   "vocabulary": [
     {
-      "word_id": "v6_1",
-      "term": "hande",
-      "phonetic_api": "/hande/",
-      "phonetic_simple": "HAN-DE",
-      "translation": "aujourd'hui",
-      "example_sentence": "Hande ko altine.",
-      "example_phonetic": "/hande ko altine/",
-      "example_translation": "Aujourd'hui c'est lundi."
+      "word_id": "v1",
+      "term": "Alat",
+      "phonetic_api": "/alat/",
+      "phonetic_simple": "A-LAT",
+      "translation": "dimanche",
+      "example_sentence": "Hande ko Alat.",
+      "example_phonetic": "/hande ko alat/",
+      "example_translation": "Aujourd'hui c'est dimanche."
     },
     {
-      "word_id": "v6_2",
-      "term": "janngo",
-      "phonetic_api": "/d͡ʒanɡo/",
-      "phonetic_simple": "DJAN-GO",
-      "translation": "demain",
-      "example_sentence": "En janngo, yo jam waal en.",
-      "example_phonetic": "/en d͡ʒanɡo jo d͡ʒam waːl en/",
-      "example_translation": "À demain, que la paix passe la nuit avec nous."
-    },
-    {
-      "word_id": "v6_3",
-      "term": "hanki",
-      "phonetic_api": "/hanki/",
-      "phonetic_simple": "HAN-KI",
-      "translation": "hier",
-      "example_sentence": "Hanki mi yahi Conakry.",
-      "example_phonetic": "/hanki mi jahi konakri/",
-      "example_translation": "Hier, je suis allé à Conakry."
-    },
-    {
-      "word_id": "v6_4",
-      "term": "altine",
-      "phonetic_api": "/altine/",
-      "phonetic_simple": "AL-TI-NE",
-      "translation": "lundi",
-      "example_sentence": "Golle ɗen no puɗɗoo altine.",
-      "example_phonetic": "/ɡolːe ɗen no puɗːoː altine/",
-      "example_translation": "Le travail commence lundi."
-    },
-    {
-      "word_id": "v6_5",
-      "term": "jumaare",
-      "phonetic_api": "/d͡ʒumaːre/",
-      "phonetic_simple": "DJOU-MAA-RE",
+      "word_id": "v2",
+      "term": "Juma",
+      "phonetic_api": "/dʒuma/",
+      "phonetic_simple": "DJOU-MA",
       "translation": "vendredi",
-      "example_sentence": "Jumaare ko ñannde juulugol.",
-      "example_phonetic": "/d͡ʒumaːre ko ɲanːde d͡ʒuːluɡol/",
-      "example_translation": "Le vendredi est le jour de la prière."
+      "example_sentence": "Juma ko ñalaande diine.",
+      "example_phonetic": "/dʒuma ko ɲalaːnde diːne/",
+      "example_translation": "Le vendredi est le jour de la religion."
     },
     {
-      "word_id": "v6_6",
-      "term": "waktu",
-      "phonetic_api": "/waktu/",
-      "phonetic_simple": "WAK-TOU",
-      "translation": "l'heure, le moment, le temps",
-      "example_sentence": "Waktu jelu joni ?",
-      "example_phonetic": "/waktu d͡ʒelu d͡ʒoni/",
-      "example_translation": "Quelle heure est-il maintenant ?"
+      "word_id": "v3",
+      "term": "ñalaande",
+      "phonetic_api": "/ɲalaːnde/",
+      "phonetic_simple": "GNA-LAAN-DÉ",
+      "translation": "jour",
+      "example_sentence": "Ñalaande honde nii hande?",
+      "example_phonetic": "/ɲalaːnde honde niː hande/",
+      "example_translation": "Quel jour est-on aujourd'hui ?"
     },
     {
-      "word_id": "v6_7",
-      "term": "ñannde",
-      "phonetic_api": "/ɲanːde/",
-      "phonetic_simple": "NYAN-DE",
-      "translation": "le jour (spécifique), la date",
-      "example_sentence": "Ñannde jelu hande ?",
-      "example_phonetic": "/ɲanːde d͡ʒelu hande/",
-      "example_translation": "Quelle est la date d'aujourd'hui ?"
-    },
-    {
-      "word_id": "v6_8",
+      "word_id": "v4",
       "term": "lewru",
       "phonetic_api": "/lewru/",
-      "phonetic_simple": "LEW-ROU",
-      "translation": "le mois, la lune",
-      "example_sentence": "Lewru nduu no laabi.",
-      "example_phonetic": "/lewru nduː no laːbi/",
-      "example_translation": "Ce mois-ci est clair (la lune est visible)."
+      "phonetic_simple": "LÉ-OU-ROU",
+      "translation": "mois / lune",
+      "example_sentence": "e nder lewru",
+      "example_phonetic": "/e nder lewru/",
+      "example_translation": "dans le mois"
     },
     {
-      "word_id": "v6_9",
+      "word_id": "v5",
+      "term": "hande",
+      "phonetic_api": "/hande/",
+      "phonetic_simple": "HAN-DÉ",
+      "translation": "aujourd'hui",
+      "example_sentence": "Hande no åuuåi.",
+      "example_phonetic": "/hande no ɓuːɓi/",
+      "example_translation": "Aujourd'hui il fait froid."
+    },
+    {
+      "word_id": "v6",
+      "term": "jango",
+      "phonetic_api": "/dʒaŋɡo/",
+      "phonetic_simple": "DJAN-GO",
+      "translation": "demain",
+      "example_sentence": "En jango.",
+      "example_phonetic": "/en dʒaŋɡo/",
+      "example_translation": "À demain."
+    },
+    {
+      "word_id": "v7",
+      "term": "hanki",
+      "phonetic_api": "/haŋki/",
+      "phonetic_simple": "HAN-KI",
+      "translation": "hier",
+      "example_sentence": "Hanki kiikiiðe.",
+      "example_phonetic": "/haŋki kiːkiːɗe/",
+      "example_translation": "Hier après-midi."
+    },
+    {
+      "word_id": "v8",
       "term": "subaka",
       "phonetic_api": "/subaka/",
       "phonetic_simple": "SOU-BA-KA",
-      "translation": "le matin, l'aube",
-      "example_sentence": "Mi tigi no subaka.",
-      "example_phonetic": "/mi tiɡi no subaka/",
-      "example_translation": "Je me suis levé le matin."
-    },
-    {
-      "word_id": "v6_10",
-      "term": "kikiide",
-      "phonetic_api": "/kikiːde/",
-      "phonetic_simple": "KI-KII-DE",
-      "translation": "l'après-midi, le soir",
-      "example_sentence": "En kikiide kadi.",
-      "example_phonetic": "/en kikiːde kadi/",
-      "example_translation": "À cet après-midi alors."
+      "translation": "matin / aube (heure de prière)",
+      "example_sentence": "Mi artay e subaka.",
+      "example_phonetic": "/mi artaj e subaka/",
+      "example_translation": "Je reviendrai à l'aube."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p6_1",
-      "original": "Waktu jelu joni ?",
-      "phonetic_api": "/waktu d͡ʒelu d͡ʒoni/",
-      "phonetic_simple": "WAK-TOU DJE-LOU DJO-NI ?",
-      "translation": "Quelle heure est-il maintenant ?",
-      "context": "Demander l'heure à un passant ou un collègue."
+      "phrase_id": "p1",
+      "original": "Ko leer hombo nii?",
+      "phonetic_api": "/ko leːr hombo niː/",
+      "phonetic_simple": "KO LÉÉR HOM-BO NI-I",
+      "translation": "Quelle heure est-il ?",
+      "context": "Question standard sur l'heure (souvent répondue en français : 'Ko huit heures trente')."
     },
     {
-      "phrase_id": "p6_2",
-      "original": "Ko waktu sappo e ɗiɗo.",
-      "phonetic_api": "/ko waktu sapːo e ɗiɗo/",
-      "phonetic_simple": "KO WAK-TOU SAP-PO E DHI-DHO",
-      "translation": "Il est douze heures (midi / minuit).",
-      "context": "Indiquer l'heure exacte."
+      "phrase_id": "p2",
+      "original": "Ko waqtu hombo arataa?",
+      "phonetic_api": "/ko waktu hombo arataː/",
+      "phonetic_simple": "KO OUAK-TOU HOM-BO A-RA-TAA",
+      "translation": "À quelle heure viendras-tu ?",
+      "context": "Utilise 'waqtu' (moment/heure de prière) plutôt que l'heure précise."
     },
     {
-      "phrase_id": "p6_3",
-      "original": "Hande ko ñannde jelu ?",
-      "phonetic_api": "/hande ko ɲanːde d͡ʒelu/",
-      "phonetic_simple": "HAN-DE KO NYAN-DE DJE-LOU ?",
-      "translation": "Quel jour de la semaine sommes-nous aujourd'hui ?",
-      "context": "S'informer sur le jour actuel."
+      "phrase_id": "p3",
+      "original": "Ko e subaka mi arata.",
+      "phonetic_api": "/ko e subaka mi arata/",
+      "phonetic_simple": "KO É SOU-BA-KA MI A-RA-TA",
+      "translation": "Je viendrai à l'aube.",
+      "context": "Réponse utilisant un moment de prière comme repère temporel."
     },
     {
-      "phrase_id": "p6_4",
-      "original": "Hande ko talata.",
-      "phonetic_api": "/hande ko talata/",
-      "phonetic_simple": "HAN-DE KO TA-LA-TA",
-      "translation": "Aujourd'hui c'est mardi.",
-      "context": "Répondre sur le jour de la semaine."
+      "phrase_id": "p4",
+      "original": "Mi artay e nder balde nayi.",
+      "phonetic_api": "/mi artaj e nder balde naji/",
+      "phonetic_simple": "MI AR-TAÏ É NDÈR BAL-DÉ NA-YI",
+      "translation": "Je reviendrai dans quatre jours.",
+      "context": "Pour indiquer une durée avant un événement futur."
     },
     {
-      "phrase_id": "p6_5",
-      "original": "Mi yahat e subaka.",
-      "phonetic_api": "/mi jahat e subaka/",
-      "phonetic_simple": "MI YA-HAT E SOU-BA-KA",
-      "translation": "Je partirai le matin.",
-      "context": "Planifier une action temporelle matinale."
-    },
-    {
-      "phrase_id": "p6_6",
-      "original": "Hanki mi gollaali.",
-      "phonetic_api": "/hanki mi ɡolːaːli/",
-      "phonetic_simple": "HAN-KI MI GOL-LAA-LI",
-      "translation": "Hier, je n'ai pas travaillé.",
-      "context": "Raconter un fait temporel passé négatif."
-    },
-    {
-      "phrase_id": "p6_7",
-      "original": "Waktu golle no yoni.",
-      "phonetic_api": "/waktu ɡolːe no joni/",
-      "phonetic_simple": "WAK-TOU GOL-LE NO YO-NI",
-      "translation": "L'heure du travail est arrivée.",
-      "context": "Annoncer le début ou la fin de l'activité."
-    },
-    {
-      "phrase_id": "p6_8",
-      "original": "Yo jam ñallu e jumaare.",
-      "phonetic_api": "/jo d͡ʒam ɲalːu e d͡ʒumaːre/",
-      "phonetic_simple": "YO JAM NYAL-LOU E DJOU-MAA-RE",
-      "translation": "Passe un bon vendredi en paix.",
-      "context": "Formule de bénédiction spécifique au vendredi."
+      "phrase_id": "p5",
+      "original": "A heåulike?",
+      "phonetic_api": "/a heɓulike/",
+      "phonetic_simple": "A HÉ-BOU-LI-KÉ",
+      "translation": "Es-tu prêt ?",
+      "context": "Question courante avant un départ ou une activité prévue à une heure donnée."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'expression de l'heure avec 'waktu'",
-      "explanation": "Pour dire l'heure en pular, on utilise le mot d'origine arabe 'waktu' suivi du chiffre correspondant.",
+      "concept": "Les repères temporels traditionnels (heures de prière)",
+      "explanation": "Traditionnellement, le temps est découpé en pular selon les cinq moments de prière musulmans plutôt que selon l'heure occidentale, bien que l'heure « à la française » (ex. 'huit heures trente') soit aussi couramment utilisée, surtout en ville.",
       "rules": [
-        "Structure : 'Ko waktu' + Chiffre.",
-        "Les minutes sont ajoutées après l'heure en utilisant la conjonction 'e' (et)."
+        "subaka (aube) → fanaa (début d'après-midi) → alansara (fin d'après-midi) → futuroo (coucher du soleil) → geeýe (nuit)",
+        "L'heure précise se dit généralement en français, même dans une phrase pular : « Ko huit heures trente »"
       ],
       "examples": [
         {
-          "structure": "Ko waktu + sappo",
-          "phonetic_api": "/ko waktu sapːo/",
-          "meaning": "Il est 10 heures"
-        }
-      ]
-    },
-    {
-      "concept": "Les adverbes de temps absolus",
-      "explanation": "Les adverbes comme 'hande' (aujourd'hui) ou 'hanki' (hier) se placent généralement en début ou en fin de proposition sans préposition.",
-      "rules": [
-        "Pas de préposition 'en' ou 'à' devant 'hande' ou 'janngo'.",
-        "Ils servent de repères de focalisation temporelle directe."
-      ],
-      "examples": [
+          "structure": "Ko e subaka mi arata.",
+          "phonetic_api": "/ko e subaka mi arata/",
+          "meaning": "Je viendrai à l'aube (heure de la première prière)."
+        },
         {
-          "structure": "Hande + ko + jour",
-          "phonetic_api": "/hande ko altine/",
-          "meaning": "Aujourd'hui c'est lundi"
+          "structure": "Ko huit heures trente.",
+          "phonetic_api": "/ko ɥit œr trɑ̃t/",
+          "meaning": "Il est huit heures trente (emprunt direct au français)."
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Aissatou",
-      "text": "Ousmane, waktu jelu joni e subaka ?",
-      "phonetic_api": "/usmaːne waktu d͡ʒelu d͡ʒoni e subaka/",
-      "phonetic_simple": "OUS-MA-NE, WAK-TOU DJE-LOU DJO-NI E SOU-BA-KA ?",
-      "translation": "Ousmane, quelle heure est-il maintenant ce matin ?"
+      "speaker": "Amadou",
+      "text": "Ko leer hombo nii?",
+      "phonetic_api": "/ko leːr hombo niː/",
+      "phonetic_simple": "KO LÉÉR HOM-BO NI-I",
+      "translation": "Quelle heure est-il ?"
     },
     {
-      "speaker": "Ousmane",
-      "text": "Ko waktu joweetato. Koni, honto jahata hande ?",
-      "phonetic_api": "/ko waktu d͡ʒoweːtato koni honto jahata hande/",
-      "phonetic_simple": "KO WAK-TOU DJO-WEE-TA-TO. KO-NI, HON-TO JA-HA-TA HAN-DE ?",
-      "translation": "Il est 8 heures. Au fait, où vas-tu aujourd'hui ?"
+      "speaker": "Fatou",
+      "text": "Ko huit heures trente.",
+      "phonetic_api": "/ko ɥit œr trɑ̃t/",
+      "phonetic_simple": "KO UIT ÈRE TRAN-TE",
+      "translation": "Il est huit heures trente."
     },
     {
-      "speaker": "Aissatou",
-      "text": "Hande ko altine, mido yahat e ngesa am. Hanki mi yahaali.",
-      "phonetic_api": "/hande ko altine mido jahat e nɡesa am hanki mi jahaːli/",
-      "phonetic_simple": "HAN-DE KO AL-TI-NE, MI-DO YA-HAT E NGE-SA AM. HAN-KI MI YA-HAA-LI.",
-      "translation": "Aujourd'hui c'est lundi, je vais à mon champ. Hier, je n'y suis pas allée."
+      "speaker": "Amadou",
+      "text": "Awa. Ko waqtu hombo arataa ka lekkol?",
+      "phonetic_api": "/awa ko waktu hombo arataː ka lekːol/",
+      "phonetic_simple": "A-OUA. KO OUAK-TOU HOM-BO A-RA-TAA KA LÈK-KOL",
+      "translation": "Bon. À quelle heure viens-tu à l'école ?"
     },
     {
-      "speaker": "Ousmane",
-      "text": "Yo jam ñallu e golle maa ! En kikiide.",
-      "phonetic_api": "/jo d͡ʒam ɲalːu e ɡolːe maː en kikiːde/",
-      "phonetic_simple": "YO JAM NYAL-LOU E GOL-LE MAA ! EN KI-KII-DE.",
-      "translation": "Passe une bonne journée de travail en paix ! À ce soir."
+      "speaker": "Fatou",
+      "text": "Ko e subaka mi arata, si Alla jaåi.",
+      "phonetic_api": "/ko e subaka mi arata si alla dʒaɓi/",
+      "phonetic_simple": "KO É SOU-BA-KA MI A-RA-TA, SI AL-LA DJA-BI",
+      "translation": "Je viendrai à l'aube, si Dieu le veut."
     }
   ],
   "cultural_notes": [
-    "Les jours de la semaine en pular (Altine, Talata, Alarba, Alamisa, Jumaare, Essawe, Aladdi) proviennent directement de l'arabe en raison de l'islamisation ancienne des Fulbe. Le vendredi (Jumaare) est un jour social très important, marqué par l'arrêt partiel des activités agricoles ou commerciales l'après-midi."
+    "L'heure de l'horloge (leer) se donne presque toujours en français au Fouta-Djalon, tandis que les moments approximatifs de la journée (subaka, fanaa, alansara, futuroo, geeýe) suivent le rythme des cinq prières musulmanes quotidiennes (source : Learner's Guide to Pular, chapitre Daily Activities).",
+    "Les jours de la semaine en pular sont des emprunts directs à l'arabe, refletant l'ancienneté de l'influence islamique dans le royaume théocratique du Fouta-Djalon."
   ],
   "exercises": [
     {
-      "exercise_id": "ex6_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel jour correspond au mot 'Altine' ?",
+      "question": "Quel jour correspond à 'Juma' ?",
       "options": [
         "Lundi",
         "Vendredi",
         "Dimanche"
       ],
-      "correct_answer": "Lundi",
-      "explanation": "'Altine' est le premier jour ouvrable de la semaine, le lundi."
+      "correct_answer": "Vendredi",
+      "explanation": "Juma (de l'arabe jum'a) désigne le vendredi, jour de la grande prière collective."
     },
     {
-      "exercise_id": "ex6_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "[ ___ ] mi yahi Conakry. (Hier, je suis allé à Conakry).",
-      "correct_answer": "Hanki",
-      "hint": "Adverbe de temps signifiant le jour précédent."
+      "sentence_with_blank": "Ko [ ___ ] mi arata. (à l'aube)",
+      "correct_answer": "e subaka",
+      "hint": "Utilisez le mot pour le moment de la première prière du jour."
+    },
+    {
+      "exercise_id": "ex3",
+      "type": "multiple_choice",
+      "question": "Comment demande-t-on habituellement l'heure exacte au Fouta-Djalon ?",
+      "options": [
+        "Toujours en pular traditionnel",
+        "Généralement en emprunt au français",
+        "Uniquement en arabe"
+      ],
+      "correct_answer": "Généralement en emprunt au français",
+      "explanation": "Le manuel Peace Corps précise que l'heure de l'horloge se donne presque toujours en français, même dans une phrase pular."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Learner's Guide to Pular (Fuuta Jallon) — Peace Corps Guinée (Herb Caudill & Ousmane Besseko Diallo)",
+      "url": "https://ibamba.net/pular/manual.pdf"
+    },
+    {
+      "label": "Live Lingua Project — Peace Corps Manual of Fulfulde",
+      "url": "https://www.livelingua.com/course/peace-corps/manual-of-fulfulde"
+    }
+  ],
+  "confidence": "élevée",
+  "confidence_note": "Jours de la semaine, moments de prière et usage du français pour l'heure directement confirmés par le chapitre 'Daily Activities' du manuel Peace Corps Guinée."
 }

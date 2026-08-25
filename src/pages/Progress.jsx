@@ -10,6 +10,7 @@ export default function Progress() {
   const { user } = useAuth();
   const [progresses, setProgresses] = useState(/** @type {any[]} */ ([]));
   const [languages, setLanguages] = useState(/** @type {any[]} */ ([]));
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     getLanguages().then(data => setLanguages(Array.isArray(data) ? data : [])).catch(() => setLanguages([]));
@@ -18,9 +19,10 @@ export default function Progress() {
   useEffect(() => {
     const refreshProgress = () => {
       if (user) {
-        getProgress().then(data => setProgresses(Array.isArray(data) ? data : [])).catch(() => setProgresses([]));
+        getProgress().then(data => setProgresses(Array.isArray(data) ? data : [])).catch(() => setProgresses([])).finally(() => setLoading(false));
       } else {
         setProgresses([]);
+        setLoading(false);
       }
     };
 
@@ -48,12 +50,18 @@ export default function Progress() {
 
   const rank = totalLessons < 10 ? "Débutant" : totalLessons < 30 ? "Apprenti" : totalLessons < 60 ? "Intermédiaire" : "Avancé";
   const nextRank = totalLessons < 10 ? "Apprenti" : totalLessons < 30 ? "Intermédiaire" : "Avancé";
-  const toNext = totalLessons < 10 ? 10 - totalLessons : totalLessons < 30 ? 30 - totalLessons : 60 - totalLessons;
+  const currentRankStart = totalLessons < 10 ? 0 : totalLessons < 30 ? 10 : totalLessons < 60 ? 30 : 60;
+  const nextRankTarget = totalLessons < 10 ? 10 : totalLessons < 30 ? 30 : totalLessons < 60 ? 60 : 60;
+  const toNext = Math.max(0, nextRankTarget - totalLessons);
+  const rankProgress = totalLessons >= 60 ? 100 : Math.min(100, ((totalLessons - currentRankStart) / Math.max(1, nextRankTarget - currentRankStart)) * 100);
+  const startedRows = languageRows.filter(({ progress }) => progress);
+  const availableRows = languageRows.filter(({ progress }) => !progress);
 
   return (
-    <div className="p-6 lg:p-10 max-w-4xl mx-auto">
-      <h1 className="font-heading text-3xl font-bold text-foreground mb-1">Ma Progression</h1>
-      <p className="text-muted-foreground mb-6">Suivez votre avancement dans toutes les langues</p>
+    <div className="mx-auto w-full max-w-6xl p-4 sm:p-6 lg:p-10">
+      <header className="mb-6 rounded-3xl border border-border bg-card p-5 shadow-sm sm:p-7">
+        <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between"><div><div className="mb-2 text-xs font-semibold uppercase tracking-[0.16em] text-primary">Tableau de bord personnel</div><h1 className="font-heading text-3xl font-bold text-foreground">Ma progression</h1><p className="mt-1 text-sm text-muted-foreground">Suivez vos progrès et reprenez vos parcours en un coup d’œil.</p></div><Link to="/apprendre" className="inline-flex items-center justify-center gap-2 rounded-xl bg-primary px-4 py-2.5 text-sm font-semibold text-primary-foreground transition hover:opacity-90">Explorer les langues <ArrowRight size={16} /></Link></div>
+      </header>
 
       {/* Rank card */}
       <div className="bg-gradient-to-br from-purple-600/20 via-card to-card border border-border rounded-2xl p-6 mb-6">
@@ -64,12 +72,12 @@ export default function Progress() {
           <div className="flex-1">
             <p className="text-sm text-muted-foreground">Votre rang actuel</p>
             <h2 className="font-heading text-2xl font-bold text-foreground">{rank}</h2>
-            <p className="text-sm text-muted-foreground">Encore {toNext} leçons pour devenir '{nextRank}'</p>
+            <p className="text-sm text-muted-foreground">{toNext > 0 ? `Encore ${toNext} leçons pour devenir « ${nextRank} »` : "Niveau maximum atteint"}</p>
           </div>
         </div>
         <div className="mt-4">
           <div className="w-full bg-secondary rounded-full h-2">
-            <div className="h-2 rounded-full bg-gradient-to-r from-purple-500 to-primary" style={{ width: `${Math.min(100, (totalLessons / 60) * 100)}%` }} />
+            <div className="h-2 rounded-full bg-gradient-to-r from-purple-500 to-primary" style={{ width: `${rankProgress}%` }} />
           </div>
           <p className="text-xs text-muted-foreground mt-1.5 text-right">{totalLessons} leçons totales</p>
         </div>
@@ -100,7 +108,9 @@ export default function Progress() {
         <h2 className="font-heading text-xl font-bold text-foreground">Progression par langue</h2>
       </div>
 
-      {languageRows.length === 0 ? (
+      {loading ? (
+        <div className="rounded-2xl border border-border bg-card p-10 text-center text-sm text-muted-foreground">Chargement de votre progression...</div>
+      ) : languageRows.length === 0 ? (
         <div className="bg-card border border-border rounded-2xl p-12 text-center">
           <BookOpen size={40} className="mx-auto mb-3 text-muted-foreground/40" />
           <p className="font-semibold text-foreground mb-1">Aucune progression encore</p>
@@ -110,26 +120,32 @@ export default function Progress() {
           </Link>
         </div>
       ) : (
-        <div className="space-y-3">
-          {languageRows.map(({ language: lang, progress: p }) => {
+        <div className="space-y-6">
+          {startedRows.length > 0 && <section><div className="mb-3 flex items-end justify-between"><div><h3 className="font-heading text-lg font-bold text-foreground">Parcours en cours</h3><p className="text-sm text-muted-foreground">Continuez là où vous vous êtes arrêté.</p></div><span className="text-xs text-muted-foreground">{startedRows.length} langue(s)</span></div><div className="grid gap-3 md:grid-cols-2">{startedRows.map(({ language: lang, progress: p }) => {
             const completed = p?.completed_lessons?.length || 0;
             return (
-              <Link to={`/apprendre/${lang.code}`} key={lang.code} className="group bg-card border border-border rounded-2xl p-4 flex items-center gap-4 transition hover:-translate-y-0.5 hover:border-primary/50 hover:shadow-md">
+              <Link to={`/apprendre/${lang.code}`} key={lang.code} className="group rounded-2xl border border-border bg-card p-4 transition hover:-translate-y-0.5 hover:border-primary/50 hover:shadow-md">
                 <LanguageFlag language={lang} size="md" />
-                <div className="flex-1">
-                  <div className="font-semibold text-foreground text-sm">{lang.name_fr}</div>
-                  <div className="w-full bg-secondary rounded-full h-1.5 mt-1.5">
-                    <div className="h-1.5 rounded-full" style={{ width: `${Math.min(100, (completed / Math.max(1, lang.total_lessons || 20)) * 100)}%`, background: lang.color }} />
-                  </div>
-                </div>
-                <div className="text-right">
-                  <div className="text-sm font-bold text-foreground">{p?.xp || 0} XP</div>
-                  <div className="text-xs text-muted-foreground">{completed} leçons</div>
-                  {!p && <div className="text-[10px] font-semibold text-primary opacity-0 transition group-hover:opacity-100">Commencer →</div>}
+                <div className="mt-3 flex items-center justify-between gap-3"><div className="min-w-0"><div className="truncate font-semibold text-foreground text-sm">{lang.name_fr}</div><div className="text-xs text-muted-foreground">{completed} leçon(s) · {p?.xp || 0} XP</div></div><ArrowRight size={16} className="shrink-0 text-primary transition group-hover:translate-x-1" /></div>
+                <div className="mt-3 w-full bg-secondary rounded-full h-1.5">
+                  <div className="h-1.5 rounded-full" style={{ width: `${Math.min(100, (completed / Math.max(1, lang.total_lessons || 20)) * 100)}%`, background: lang.color }} />
                 </div>
               </Link>
             );
-          })}
+          })}</div></section>}
+          {availableRows.length > 0 && <section><div className="mb-3 flex items-end justify-between"><div><h3 className="font-heading text-lg font-bold text-foreground">À découvrir</h3><p className="text-sm text-muted-foreground">Commencez un nouveau parcours.</p></div><span className="text-xs text-muted-foreground">{availableRows.length} langue(s)</span></div><div className="grid gap-3 md:grid-cols-2">{availableRows.map(({ language: lang, progress: p }) => {
+            const completed = p?.completed_lessons?.length || 0;
+            return (
+              <Link to={`/apprendre/${lang.code}`} key={lang.code} className="group flex items-center gap-4 rounded-2xl border border-border bg-card p-4 transition hover:-translate-y-0.5 hover:border-primary/50 hover:shadow-md">
+                <LanguageFlag language={lang} size="md" />
+                <div className="flex-1 min-w-0">
+                  <div className="font-semibold text-foreground text-sm">{lang.name_fr}</div>
+                  <div className="text-xs text-muted-foreground">Pas encore commencé</div>
+                </div>
+                <span className="shrink-0 text-xs font-semibold text-primary transition group-hover:translate-x-1">Commencer <ArrowRight size={13} className="inline" /></span>
+              </Link>
+            );
+          })}</div></section>}
         </div>
       )}
     </div>

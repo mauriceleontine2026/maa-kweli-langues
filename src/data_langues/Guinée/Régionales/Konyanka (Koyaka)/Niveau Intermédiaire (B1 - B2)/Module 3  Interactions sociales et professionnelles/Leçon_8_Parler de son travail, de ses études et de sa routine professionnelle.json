@@ -6,184 +6,213 @@
   "lesson_number": 8,
   "title": "Parler de son travail, de ses études et de sa routine professionnelle",
   "learning_objectives": [
-    "Décrire son métier ou son domaine d'études en konyanka",
-    "Présenter les étapes de sa routine professionnelle quotidienne",
-    "Exprimer la régularité et les horaires liés aux activités professionnelles"
+    "Nommer quelques professions courantes",
+    "Décrire sa routine de travail quotidienne",
+    "Utiliser le présent habituel pour parler de sa routine"
   ],
   "phonetic_focus": {
-    "key_sounds": "Le mot pour le travail 'bara' /ba.ra/ s'articule avec un 'r' battu alvéolaire très doux. Le nom composé 'barakɛla' /ba.ra.kɛ.la/ (travailleur) enchaîne trois voyelles ouvertes antérieures /a/ et /ɛ/ de manière fluide. La nasalisation de 'sɔgɔma' /sɔ.ɡɔ.ma/ doit s'effectuer sans forcer.",
-    "common_pitfalls": "Attention à ne pas doubler indûment le 'r' dans 'bara'. Veillez à bien ouvrir la voyelle /ɛ/ dans 'kɛ' (faire) pour éviter toute confusion avec une prononciation fermée."
+    "key_sounds": "Les noms de métiers se terminent souvent par le suffixe agentif '-la/-baga' (sènèkèla = agriculteur, litt. 'celui qui fait le champ').",
+    "common_pitfalls": "Oublier le suffixe agentif et utiliser seulement le radical verbal, ce qui rend le nom de métier incomplet ou ambigu."
   },
   "vocabulary": [
     {
       "word_id": "v1",
-      "term": "Bara",
-      "phonetic_api": "/ba.ra/",
-      "phonetic_simple": "BA-RA",
-      "translation": "Travail / Boulot / Tâche",
-      "example_sentence": "N'bɛ taa bara la bi sɔgɔma.",
-      "example_phonetic": "/mbɛ taː ba.ra la bi sɔ.ɡɔ.ma/",
-      "example_translation": "Je vais au travail ce matin."
+      "term": "sènèkèla",
+      "phonetic_api": "[sɛnɛkɛla]",
+      "phonetic_simple": "sè-nè-kè-la",
+      "translation": "agriculteur, cultivateur",
+      "example_sentence": "N fa ye sènèkèla ti.",
+      "example_phonetic": "[n fa je sɛnɛkɛla ti]",
+      "example_translation": "Mon père est agriculteur."
     },
     {
       "word_id": "v2",
-      "term": "Barakɛla",
-      "phonetic_api": "/ba.ra.kɛ.la/",
-      "phonetic_simple": "BA-RA-KÈ-LA",
-      "translation": "Travailleur / Ouvrier / Employé",
-      "example_sentence": "Cɛ nin ye barakɛla ŋana di.",
-      "example_phonetic": "/t͡ʃɛ nĩ jɛ ba.ra.kɛ.la ŋa.na di/",
-      "example_translation": "Cet homme est un travailleur vaillant."
+      "term": "karamoo",
+      "phonetic_api": "[karamoː]",
+      "phonetic_simple": "ka-ra-mo-o",
+      "translation": "enseignant, maître",
+      "example_sentence": "N na ye karamoo ti.",
+      "example_phonetic": "[n na je karamoː ti]",
+      "example_translation": "Ma mère est enseignante."
     },
     {
       "word_id": "v3",
-      "term": "Lakarika",
-      "phonetic_api": "/la.ka.ri.ka/",
-      "phonetic_simple": "LA-KA-RI-KA",
-      "translation": "École / Études",
-      "example_sentence": "N'denmuso bɛ lakarika la.",
-      "example_phonetic": "/nden.mu.so bɛ la.ka.ri.ka la/",
-      "example_translation": "Ma fille est à l'école."
+      "term": "jula",
+      "phonetic_api": "[dʒula]",
+      "phonetic_simple": "dou-la",
+      "translation": "commerçant",
+      "example_sentence": "N kodo ye jula ti.",
+      "example_phonetic": "[n kodo je dʒula ti]",
+      "example_translation": "Mon aîné(e) est commerçant(e)."
     },
     {
       "word_id": "v4",
-      "term": "Sɔgɔma",
-      "phonetic_api": "/sɔ.ɡɔ.ma/",
-      "phonetic_simple": "SƆ-GƆ-MA",
-      "translation": "Matin / Matinée",
-      "example_sentence": "N'bɛ bara damina sɔgɔma kura la.",
-      "example_phonetic": "/mbɛ ba.ra da.mi.na sɔ.ɡɔ.ma ku.ra la/",
-      "example_translation": "Je commence le travail tôt le matin."
+      "term": "dɔgɔtɔrɔ",
+      "phonetic_api": "[dɔɡɔtɔrɔ]",
+      "phonetic_simple": "do-go-to-ro",
+      "translation": "médecin",
+      "example_sentence": "A bɛna kɛ dɔgɔtɔrɔ ti.",
+      "example_phonetic": "[a bɛna kɛ dɔɡɔtɔrɔ ti]",
+      "example_translation": "Il/elle sera médecin."
     },
     {
       "word_id": "v5",
-      "term": "Damina",
-      "phonetic_api": "/da.mi.na/",
-      "phonetic_simple": "DA-MI-NA",
-      "translation": "Commencer / Débuter",
-      "example_sentence": "Bara daminara sisan.",
-      "example_phonetic": "/ba.ra da.mi.na.ra si.sã/",
-      "example_translation": "Le travail a commencé maintenant."
+      "term": "baarakɛla",
+      "phonetic_api": "[baːrakɛla]",
+      "phonetic_simple": "ba-a-ra-kè-la",
+      "translation": "travailleur, employé",
+      "example_sentence": "N ye baarakɛla ti banki la.",
+      "example_phonetic": "[n je baːrakɛla ti banki la]",
+      "example_translation": "Je suis employé dans une banque."
     },
     {
       "word_id": "v6",
-      "term": "Ban",
-      "phonetic_api": "/bã/",
-      "phonetic_simple": "BAN",
-      "translation": "Terminer / Finir / Achever",
-      "example_sentence": "N'bɛ ban bara la tile wɔrɔ la.",
-      "example_phonetic": "/mbɛ bã ba.ra la ti.le wɔ.rɔ la/",
-      "example_translation": "Je finis le travail à six heures."
+      "term": "wuli",
+      "phonetic_api": "[wuli]",
+      "phonetic_simple": "wou-li",
+      "translation": "se lever",
+      "example_sentence": "N bɛ wuli sooma joona.",
+      "example_phonetic": "[n bɛ wuli soːma dʒoːna]",
+      "example_translation": "Je me lève tôt le matin."
+    },
+    {
+      "word_id": "v7",
+      "term": "baara daminɛ",
+      "phonetic_api": "[baːra daminɛ]",
+      "phonetic_simple": "ba-a-ra-da-mi-nè",
+      "translation": "commencer le travail",
+      "example_sentence": "N ka baara bɛ daminɛ lèrè segin na.",
+      "example_phonetic": "[n ka baːra bɛ daminɛ lɛrɛ seɡin na]",
+      "example_translation": "Mon travail commence à sept heures."
     }
   ],
   "common_phrases": [
     {
       "phrase_id": "p1",
-      "original": "I bɛ bara juman kɛ la?",
-      "phonetic_api": "/i bɛ ba.ra d͡ʒu.mã kɛ la/",
-      "phonetic_simple": "I BÈ BA-RA DJOU-MAN KÈ LA",
-      "translation": "Quel travail fais-tu ? / Quel est ton métier ?",
-      "context": "Question usuelle pour s'informer de l'occupation professionnelle de quelqu'un."
+      "original": "I ye mun baarakɛla ti?",
+      "phonetic_api": "[i je mun baːrakɛla ti]",
+      "phonetic_simple": "i-yé-mun-ba-a-ra-kè-la-ti",
+      "translation": "Quel est ton métier ?",
+      "context": "Demander la profession de quelqu'un"
     },
     {
       "phrase_id": "p2",
-      "original": "N'ye lakarika ba karamɔgɔ le di.",
-      "phonetic_api": "/ɲɛ la.ka.ri.ka ba ka.ra.mɔ.ɡɔ le di/",
-      "phonetic_simple": "N-YÈ LA-KA-RI-KA BA KA-RA-MƆ-GƆ LÉ DI",
-      "translation": "Je est un enseignant de l'école (instituteur/professeur).",
-      "context": "Présentation de sa profession."
+      "original": "N bɛ wuli sooma joona, ka taa n ka baara la",
+      "phonetic_api": "[n bɛ wuli soːma dʒoːna ka taː n ka baːra la]",
+      "phonetic_simple": "n-bè-wou-li-so-o-ma-djo-o-na",
+      "translation": "Je me lève tôt le matin pour aller à mon travail",
+      "context": "Décrire sa routine professionnelle"
     },
     {
       "phrase_id": "p3",
-      "original": "N'bɛ bara la lon o lon.",
-      "phonetic_api": "/mbɛ ba.ra la lɔ̃ o lɔ̃/",
-      "phonetic_simple": "N-BÈ BA-RA LA LON O LON",
-      "translation": "Je travaille tous les jours / chaque jour.",
-      "context": "Indication de la routine et de la régularité professionnelle."
+      "original": "N ka baara ka gɛlɛn dɔɔnin",
+      "phonetic_api": "[n ka baːra ka ɡɛlɛn dɔːnin]",
+      "phonetic_simple": "n-ka-ba-a-ra-ka-gè-lèn-do-o-nin",
+      "translation": "Mon travail est un peu difficile",
+      "context": "Décrire la difficulté de son travail"
     },
     {
       "phrase_id": "p4",
-      "original": "Bara tɛ n'bolo bi.",
-      "phonetic_api": "/ba.ra tɛ mbo.lo bi/",
-      "phonetic_simple": "BA-RA TÈ N-BO-LO BI",
-      "translation": "Je n'ai pas de travail aujourd'hui / Je chôme aujourd'hui.",
-      "context": "Signaler un jour d'inactivité ou de repos."
+      "original": "N ka baara daminɛ lèrè segin na",
+      "phonetic_api": "[n ka baːra daminɛ lɛrɛ seɡin na]",
+      "phonetic_simple": "n-ka-ba-a-ra-da-mi-nè-lè-rè-sé-gin-na",
+      "translation": "Mon travail commence à sept heures",
+      "context": "Préciser l'heure de début de sa routine professionnelle"
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'expression de l'habitude et de la régularité : 'lon o lon'",
-      "explanation": "Pour exprimer la routine, la répétition ou l'habitude (comme faire une tâche quotidiennement), le konyanka redouble le nom temporel 'lon' (jour) intercalé avec la particule 'o' (chaque/tout).",
+      "concept": "Le présent habituel avec 'bɛ'",
+      "explanation": "Le marqueur 'bɛ' devant le verbe exprime une action habituelle ou en cours, adapté pour décrire une routine régulière.",
       "rules": [
-        "Structure : Nom + o + Nom (ex: lon o lon = jour après jour / chaque jour ; sɔgɔma o sɔgɔma = chaque matin).",
-        "Cette locution adverbiale de temps se place généralement en fin de proposition ou juste après le sujet."
+        "Sujet + bɛ + verbe (+ complément) = action habituelle ou présente"
       ],
       "examples": [
         {
-          "structure": "Sɔgɔma o sɔgɔma",
-          "phonetic_api": "/sɔ.ɡɔ.ma o sɔ.ɡɔ.ma/",
-          "meaning": "Chaque matin"
-        },
-        {
-          "structure": "N'bɛ taa lakarika la lon o lon",
-          "phonetic_api": "/mbɛ taː la.ka.ri.ka la lɔ̃ o lɔ̃/",
-          "meaning": "Je vais à l'école tous les jours"
+          "structure": "n bɛ wuli sooma",
+          "phonetic_api": "[n bɛ wuli soːma]",
+          "meaning": "je me lève le matin (habituellement)"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Moussa",
-      "text": "Lamine, i bɛ bara juman kɛ la bi la?",
-      "phonetic_api": "/la.mĩ i bɛ ba.ra d͡ʒu.mã kɛ la bi la/",
-      "phonetic_simple": "LA-MINE, I BÈ BA-RA DJOU-MAN KÈ LA BI LA ?",
-      "translation": "Lamine, quel travail fais-tu actuellement ?"
+      "speaker": "Mamadou",
+      "text": "I ye mun baarakɛla ti?",
+      "phonetic_api": "[i je mun baːrakɛla ti]",
+      "phonetic_simple": "i-yé-mun-ba-a-ra-kè-la-ti",
+      "translation": "Quel est ton métier ?"
     },
     {
-      "speaker": "Lamine",
-      "text": "N'ye lakarika karamɔgɔ di. N'bɛ den lu kalan lon o lon.",
-      "phonetic_api": "/ɲɛ la.ka.ri.ka ka.ra.mɔ.ɡɔ di mbɛ dẽ lu ka.lã lɔ̃ o lɔ̃/",
-      "phonetic_simple": "N-YÈ LA-KA-RI-KA KA-RA-MƆ-GƆ DI. N-BÈ DEN LOU KA-LAN LON O LON",
-      "translation": "Je suis enseignant. J'instruis (enseigne) les enfants tous les jours."
+      "speaker": "Bintou",
+      "text": "N ye karamoo ti lekoli la. N bɛ wuli sooma joona ka taa lekoli.",
+      "phonetic_api": "[n je karamoː ti lekoli la n bɛ wuli soːma dʒoːna ka taː lekoli]",
+      "phonetic_simple": "n-yé-ka-ra-mo-o-ti",
+      "translation": "Je suis enseignante à l'école. Je me lève tôt le matin pour aller à l'école."
     },
     {
-      "speaker": "Moussa",
-      "text": "I bɛ i la bara damina tile joli la sɔgɔma?",
-      "phonetic_api": "/i bɛ i la ba.ra da.mi.na ti.le d͡ʒo.li la sɔ.ɡɔ.ma/",
-      "phonetic_simple": "I BÈ I LA BA-RA DA-MI-NA TI-LÉ DJO-LI LA SƆ-GƆ-MA ?",
-      "translation": "À quelle heure commences-tu ton travail le matin ?"
+      "speaker": "Mamadou",
+      "text": "I ka baara ka nyi kosɛbɛ!",
+      "phonetic_api": "[i ka baːra ka ɲi kosɛbɛ]",
+      "phonetic_simple": "i-ka-ba-a-ra-ka-nyi-ko-sè-bè",
+      "translation": "Ton travail est vraiment bien !"
     },
     {
-      "speaker": "Lamine",
-      "text": "N'bɛ damina tile saba la, ka ban tile lolu la.",
-      "phonetic_api": "/mbɛ da.mi.na ti.le sa.ba la ka bã ti.le lo.lu la/",
-      "phonetic_simple": "N-BÈ DA-MI-NA TI-LÉ SA-BA LA, KA BAN TI-LÉ LO-LOU LA",
-      "translation": "Je commence à la troisième heure (repère du matin) et je termine à la cinquième heure (de l'après-midi)."
+      "speaker": "Bintou",
+      "text": "I ka baara bɛ daminɛ lèrè joli la?",
+      "phonetic_api": "[i ka baːra bɛ daminɛ lɛrɛ dʒoli la]",
+      "phonetic_simple": "i-ka-ba-a-ra-bè-da-mi-nè-lè-rè-djo-li-la",
+      "translation": "À quelle heure commence ton travail ?"
     }
   ],
   "cultural_notes": [
-    "Dans le bassin culturel konyanka en Guinée, le travail agricole ou éducatif rythme intensément la vie de la communauté. La notion d'effort et de courage professionnel ('barakɛ ŋana') est une vertu cardinale célébrée publiquement. Saluer un travailleur par l'expression 'I ni bara' (Bravo pour ton travail) est une marque de courtoisie indispensable tout au long de la journée."
+    "L'agriculture (riz, café, cacao) demeure l'activité économique dominante dans la région de Beyla et Kérouane, cœur du Konyanka, selon les données géographiques disponibles (Wikipédia — Konyanka).",
+    "Le commerce transfrontalier avec le Liberia et la Côte d'Ivoire, pays voisins de la zone koniaké, est également une activité économique notable dans cette région du sud-est guinéen."
   ],
   "exercises": [
     {
-      "exercise_id": "ex1",
-      "type": "multiple_choice",
-      "question": "Que signifie le terme 'Barakɛla' ?",
+      "exercise_id": "e1",
+      "type": "choix_multiple",
+      "question": "Comment dit-on 'agriculteur' ?",
       "options": [
-        "Un étudiant",
-        "Un travailleur / ouvrier",
-        "Un commerçant"
+        "karamoo",
+        "jula",
+        "sènèkèla",
+        "dɔgɔtɔrɔ"
       ],
-      "correct_answer": "Un travailleur / ouvrier",
-      "explanation": "'Bara' est le travail, 'kɛ' signifie faire, et le suffixe '-la' désigne l'agent qui accomplit l'action."
+      "correct_answer": "sènèkèla",
+      "explanation": "'sènèkèla' désigne l'agriculteur/cultivateur, litt. 'celui qui fait le champ'."
     },
     {
-      "exercise_id": "ex2",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "N'bɛ taa [ ___ ] la bi sɔgɔma (Je vais au travail ce matin).",
-      "correct_answer": "bara",
-      "hint": "Le mot de base pour le travail."
+      "exercise_id": "e2",
+      "type": "traduction",
+      "question": "Traduisez : 'Je suis enseignant(e).'",
+      "correct_answer": "N ye karamoo ti.",
+      "explanation": "Structure identificatoire 'ye...ti' avec le nom de métier 'karamoo'."
+    },
+    {
+      "exercise_id": "e3",
+      "type": "texte_a_trous",
+      "sentence_with_blank": "N bɛ ___ sooma joona. (Je me lève tôt le matin.)",
+      "correct_answer": "wuli",
+      "explanation": "'wuli' = se lever."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Malinkuia — Introduction à la langue malinké (grammaire complète, variété du Wulada, Haute-Guinée)",
+      "url": "https://fr.scribd.com/document/499114939/Malinkuia"
+    },
+    {
+      "label": "An ka taa — Maninka/Malinké greetings and phrases",
+      "url": "https://www.ankataa.com/maninka-greetings-and-phrases"
+    },
+    {
+      "label": "Wikipédia — Konyanka (classification, géographie, codes ISO/Glottolog)",
+      "url": "https://fr.wikipedia.org/wiki/Konyanka"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Aucun lexique ou grammaire publiés et dédiés spécifiquement au Konyanka (Koyaka/Konianka, ISO mku) n'a été localisé. Le vocabulaire de cette leçon provient donc du continuum dialectal Maninka/Malinké de Guinée dans lequel le Konyanka s'inscrit (intelligibilité mutuelle attestée), via la grammaire pratique Malinkuia (variété du Wulada, Haute-Guinée). Les spécificités confirmées du Konyanka sont indiquées dans les notes culturelles plutôt que dans le lexique."
 }

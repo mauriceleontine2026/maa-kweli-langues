@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import { createLesson, getLessonsForLanguage, updateLesson } from "@/api/languageService";
-import { Plus, Eye, EyeOff, ChevronDown, ChevronUp } from "lucide-react";
+import { auditLanguage, createLesson, getLessonsForLanguage, updateLesson } from "@/api/languageService";
+import { Plus, Eye, EyeOff, ChevronDown, ChevronUp, Sparkles, Loader2, Check } from "lucide-react";
 
 const normalizeLessonLevel = (value) => {
   const raw = String(value || "").trim().toUpperCase();
@@ -22,6 +22,8 @@ export default function AdminLessons({ languages }) {
   const [expandedLessonId, setExpandedLessonId] = useState(null);
   const [editingLessonId, setEditingLessonId] = useState(null);
   const [editLessonDraft, setEditLessonDraft] = useState({ theme: "", niveau: "Débutant", type: "vocabulary", order: 1, description: "", title_fr: "" });
+  const [auditing, setAuditing] = useState(false);
+  const [audit, setAudit] = useState(null);
 
   useEffect(() => {
     if (languages.length > 0 && !lang) setLang(languages[0].code);
@@ -49,6 +51,39 @@ export default function AdminLessons({ languages }) {
 
   const refreshLessons = () => {
     getLessonsForLanguage(lang).then(setLessons).catch(() => setLessons([]));
+  };
+
+  const runLanguageAudit = async () => {
+    if (!lang) return;
+    setAuditing(true);
+    setAudit(null);
+    setMsg("");
+    try {
+      setAudit(await auditLanguage(lang));
+    } catch (err) {
+      setMsg("❌ " + err.message);
+    } finally {
+      setAuditing(false);
+    }
+  };
+
+  const applyLanguageAudit = async () => {
+    if (!lang) return;
+    setAuditing(true);
+    setMsg("");
+    try {
+      const result = await auditLanguage(lang, true, {
+        lesson_corrections: audit.lesson_corrections,
+        missing_lessons: audit.missing_lessons,
+      });
+      setAudit(result);
+      setMsg("✅ Corrections appliquées et leçons manquantes créées.");
+      refreshLessons();
+    } catch (err) {
+      setMsg("❌ " + err.message);
+    } finally {
+      setAuditing(false);
+    }
   };
 
   const togglePublish = async (l) => {
@@ -109,6 +144,33 @@ export default function AdminLessons({ languages }) {
       <select value={lang} onChange={e => setLang(e.target.value)} className="w-full sm:w-auto border border-border bg-card rounded-xl px-4 py-2.5 text-sm">
         {languages.map(l => <option key={l.code} value={l.code}>{l.flag_emoji} {l.name_fr}</option>)}
       </select>
+
+      <div className="rounded-2xl border border-primary/30 bg-primary/5 p-5 space-y-4">
+        <div className="flex items-start gap-3">
+          <div className="rounded-xl bg-primary/15 p-2 text-primary"><Sparkles size={20} /></div>
+          <div>
+            <h3 className="font-semibold text-foreground">Assistant Perplexity pour toute la langue</h3>
+            <p className="mt-1 text-sm text-muted-foreground">Analyse les leçons existantes, corrige les modules et propose les thèmes manquants pour la langue sélectionnée.</p>
+          </div>
+        </div>
+        <button type="button" onClick={runLanguageAudit} disabled={auditing || !lang} className="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-primary px-4 py-3 text-sm font-bold text-primary-foreground hover:opacity-90 disabled:opacity-60">
+          {auditing ? <Loader2 size={17} className="animate-spin" /> : <Sparkles size={17} />}
+          {auditing ? "Analyse de la langue en cours..." : "Analyser et corriger toute la langue"}
+        </button>
+        {audit && (
+          <div className="space-y-3 rounded-xl border border-border bg-card p-4 text-sm">
+            <div className="flex items-center justify-between gap-3">
+              <div className="font-semibold text-foreground">Rapport Perplexity</div>
+              <span className="text-xs text-muted-foreground">{audit.lesson_corrections.length} correction(s) · {audit.missing_lessons.length} leçon(s) proposée(s)</span>
+            </div>
+            <p className="text-xs leading-5 text-muted-foreground">{audit.research_note}</p>
+            {audit.lesson_corrections.length > 0 && <div><div className="mb-2 text-xs font-semibold text-foreground">Corrections modifiables</div><div className="space-y-3">{audit.lesson_corrections.map((item, index) => <div key={item.lesson_id} className="rounded-lg border border-border bg-background p-3 space-y-2"><div className="text-xs font-semibold text-muted-foreground">Leçon #{item.lesson_id} · {item.reason}</div><div className="grid grid-cols-2 gap-2"><input value={item.title} onChange={e => setAudit(prev => ({ ...prev, lesson_corrections: prev.lesson_corrections.map((entry, i) => i === index ? { ...entry, title: e.target.value } : entry) }))} className={inputCls} placeholder="Titre cible" /><input value={item.title_fr} onChange={e => setAudit(prev => ({ ...prev, lesson_corrections: prev.lesson_corrections.map((entry, i) => i === index ? { ...entry, title_fr: e.target.value } : entry) }))} className={inputCls} placeholder="Titre français" /></div><textarea value={item.description} onChange={e => setAudit(prev => ({ ...prev, lesson_corrections: prev.lesson_corrections.map((entry, i) => i === index ? { ...entry, description: e.target.value } : entry) }))} className={inputCls} rows={2} placeholder="Description" /></div>)}</div></div>}
+            {audit.missing_lessons.length > 0 && <div><div className="mb-2 text-xs font-semibold text-foreground">Leçons manquantes modifiables</div><div className="space-y-3">{audit.missing_lessons.map((item, index) => <div key={`${item.title}-${item.level}`} className="rounded-lg border border-border bg-background p-3 space-y-2"><div className="grid grid-cols-2 gap-2"><input value={item.title} onChange={e => setAudit(prev => ({ ...prev, missing_lessons: prev.missing_lessons.map((entry, i) => i === index ? { ...entry, title: e.target.value } : entry) }))} className={inputCls} placeholder="Titre cible" /><input value={item.title_fr} onChange={e => setAudit(prev => ({ ...prev, missing_lessons: prev.missing_lessons.map((entry, i) => i === index ? { ...entry, title_fr: e.target.value } : entry) }))} className={inputCls} placeholder="Titre français" /></div><textarea value={item.description} onChange={e => setAudit(prev => ({ ...prev, missing_lessons: prev.missing_lessons.map((entry, i) => i === index ? { ...entry, description: e.target.value } : entry) }))} className={inputCls} rows={2} placeholder="Description" /><div className="grid grid-cols-2 gap-2"><select value={item.level} onChange={e => setAudit(prev => ({ ...prev, missing_lessons: prev.missing_lessons.map((entry, i) => i === index ? { ...entry, level: e.target.value } : entry) }))} className={inputCls}><option>Débutant</option><option>Intermédiaire</option><option>Avancé</option></select><select value={item.type} onChange={e => setAudit(prev => ({ ...prev, missing_lessons: prev.missing_lessons.map((entry, i) => i === index ? { ...entry, type: e.target.value } : entry) }))} className={inputCls}><option value="vocabulary">Vocabulaire</option><option value="phrases">Phrases</option><option value="letters">Lettres</option><option value="sounds">Sons</option></select></div></div>)}</div></div>}
+            {!audit.applied && <button type="button" onClick={applyLanguageAudit} disabled={auditing} className="inline-flex items-center gap-2 rounded-xl bg-green-600 px-4 py-2.5 text-sm font-semibold text-white hover:opacity-90 disabled:opacity-60"><Check size={16} /> Appliquer les corrections et créer les leçons</button>}
+            {audit.applied && <div className="text-xs font-semibold text-green-600">Modifications appliquées à cette langue.</div>}
+          </div>
+        )}
+      </div>
 
       {/* Create form */}
       <form onSubmit={handleSave} className="bg-card rounded-2xl p-5 border border-border space-y-3">

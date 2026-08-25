@@ -2,188 +2,215 @@
   "lesson_id": "C1_M1_L2",
   "level": "Avancé (C1-C2)",
   "module_number": 1,
-  "module_title": "Discours complexe et argumentation",
+  "module_title": "Nuances et complexité",
   "lesson_number": 2,
-  "title": "Les connecteurs logiques et structurer un débat ou un discours",
+  "title": "Exprimer l'hypothèse, le doute et la condition",
   "learning_objectives": [
-    "Articuler un discours oral fluide en utilisant des connecteurs de cause, conséquence et opposition",
-    "Soutenir une argumentation contradictoire lors d'une palabre traditionnelle",
-    "Hiérarchiser ses idées (premièrement, deuxièmement, enfin) dans une harangue publique"
+    "Utiliser les marqueurs d'hypothèse/irréel gəmənɛ́ et kidɔ́kɔ (analyse INALCO)",
+    "Construire une phrase conditionnelle avec le marqueur -do-/-dɔ-",
+    "Distinguer condition réalisable et hypothèse irréelle"
   ],
   "phonetic_focus": {
-    "key_sounds": "Les charnières logiques utilisent des consonnes occlusives complexes. Le connecteur d'opposition 'kəbə́ni' requiert l'injective /ɓ/ combinée au ton haut syllabique. La cause utilise le mot 'fə́' suivi d'un accent d'insistance.",
-    "common_pitfalls": "Attention à ne pas neutraliser l'accent d'intensité sur les connecteurs de conséquence. Sans cette dynamique articulatoire, le fil du raisonnement perd sa force persuasive face à l'assemblée."
+    "key_sounds": "Le ɛ́ de gəmənɛ́ porte un ton haut marqué dans l'analyse phonologique fine (INALCO) ; à l'oral, ce ton distingue potentiellement cette particule d'homophones apparents, bien que le système tonal ne soit pas noté dans l'orthographe pratique courante.",
+    "common_pitfalls": "Les francophones traduisent souvent « si » par un seul mot invariable ; l'oniyan distingue plusieurs stratégies (marqueur -do-/-dɔ- sur le verbe, particules gəmənɛ́/kidɔ́kɔ en tête de proposition) dont l'emploi précis dépend du degré de réalisme de l'hypothèse."
   },
   "vocabulary": [
     {
-      "word_id": "v77",
-      "term": "kəbə́ni",
-      "phonetic_api": "/kəɓə́ni/",
-      "phonetic_simple": "KE-BHE-NI",
-      "translation": "cependant / pourtant / mais / en contrepartie",
-      "example_sentence": "Məɟwɛ̂ bɛ̀ɛ̀, kəbə́ni məɟe nɛ̂ doute.",
-      "example_phonetic": "/məɟwɛ̂ bɛ̀ː kəɓə́ni məɟe nɛ̂ doute/",
-      "example_translation": "Je travaille dur, cependant je reste assailli par le doute."
+      "word_id": "v1",
+      "term": "gəmənɛ́",
+      "phonetic_api": "/gəmənɛ́/",
+      "phonetic_simple": "GË-MË-NÉ",
+      "translation": "particule d'hypothèse/irréel (« si », registre hypothétique)",
+      "example_sentence": "gəmənɛ́ a-do-gan",
+      "example_phonetic": "/gəmənɛ́ adogan/",
+      "example_translation": "si (par hypothèse) il/elle marchait... (construction combinant la particule et le conditionnel attestés)."
     },
     {
-      "word_id": "v78",
-      "term": "pə́ba",
-      "phonetic_api": "/pə́ɓa/",
-      "phonetic_simple": "PE-BHA",
-      "translation": "parce que / en raison de / car (introducteur de cause)",
-      "example_sentence": "Məɟaa fə́ siki pə́ba ɓâ mɔ oŋ fɔ́.",
-      "example_phonetic": "/məɟaː fə́ siki pə́ɓa ɓâ mɔ oŋ fɔ́/",
-      "example_translation": "Je me rends au village parce que mon père y est arrivé."
+      "word_id": "v2",
+      "term": "kidɔ́kɔ",
+      "phonetic_api": "/kidɔ́kɔ/",
+      "phonetic_simple": "KI-DO-KO",
+      "translation": "particule d'hypothèse/irréel, variante",
+      "example_sentence": "kidɔ́kɔ a-do-gan",
+      "example_phonetic": "/kidɔ́kɔ adogan/",
+      "example_translation": "si seulement il/elle marchait... (nuance irréelle plus marquée, selon l'analyse INALCO)."
     },
     {
-      "word_id": "v79",
-      "term": "fəwɔ́ ɛ́ɛ́n",
-      "phonetic_api": "/fəwɔ́ ɛ́ːn/",
-      "phonetic_simple": "FE-WO EEN",
-      "translation": "premièrement / en premier lieu (litt : premier chemin)",
-      "example_sentence": "Fəwɔ́ ɛ́ɛ́n, kəgaw bəliyan aŋ.",
-      "example_phonetic": "/fəwɔ́ ɛ́ːn kəɡaw ɓəljan aŋ/",
-      "example_translation": "En premier lieu, il convient d'écouter les anciens."
+      "word_id": "v3",
+      "term": "-do-/-dɔ-",
+      "phonetic_api": "/do/, /dɔ/",
+      "phonetic_simple": "DO / DÔ",
+      "translation": "marqueur verbal du conditionnel/irréel",
+      "example_sentence": "a-do-gan",
+      "example_phonetic": "/adogan/",
+      "example_translation": "il/elle marcherait."
     },
     {
-      "word_id": "v80",
-      "term": "kɔ̂ɔ̂ŋ",
-      "phonetic_api": "/kɔ̂ːŋ/",
-      "phonetic_simple": "KOONG",
-      "translation": "c'est pourquoi / par conséquent / ainsi donc",
-      "example_sentence": "Məfɔ́ nɛ̂ ləkɔ̂, kɔ̂ɔ̂ŋ məɟǐ məkǎndɔŋ.",
-      "example_phonetic": "/məfɔ́ nɛ̂ ləkɔ̂ kɔ̂ːŋ məɟǐ məkǎndɔŋ/",
-      "example_translation": "Je ressens la faim, c'est pourquoi je consomme ce riz."
+      "word_id": "vx1",
+      "term": "wëno",
+      "phonetic_api": "/wəno/",
+      "phonetic_simple": "OUË-NO",
+      "translation": "je, moi (pronom indépendant 1sg)",
+      "example_sentence": "No? Wëno nde?",
+      "example_phonetic": "/no wəno nde/",
+      "example_translation": "Qui ? Moi ?"
+    },
+    {
+      "word_id": "vx3",
+      "term": "mëŋ",
+      "phonetic_api": "/məŋ/",
+      "phonetic_simple": "MËNG",
+      "translation": "il/elle, lui (pronom indépendant 3sg)",
+      "example_sentence": "mëŋ",
+      "example_phonetic": "/məŋ/",
+      "example_translation": "lui/elle."
+    },
+    {
+      "word_id": "vx12",
+      "term": "axam",
+      "phonetic_api": "/axam/",
+      "phonetic_simple": "A-HAM",
+      "translation": "pouvoir (verbe modal)",
+      "example_sentence": "axam",
+      "example_phonetic": "/axam/",
+      "example_translation": "pouvoir."
+    },
+    {
+      "word_id": "vx10",
+      "term": "anang",
+      "phonetic_api": "/anaŋ/",
+      "phonetic_simple": "A-NANG",
+      "translation": "savoir, connaître (verbe)",
+      "example_sentence": "anang",
+      "example_phonetic": "/anaŋ/",
+      "example_translation": "savoir, connaître."
+    },
+    {
+      "word_id": "vx23",
+      "term": "din",
+      "phonetic_api": "/din/",
+      "phonetic_simple": "DIN",
+      "translation": "toujours",
+      "example_sentence": "din",
+      "example_phonetic": "/din/",
+      "example_translation": "toujours."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p153",
-      "original": "Fəwɔ́ ɛ́ɛ́n, məbəgá kəgaw fə́ bə̂.",
-      "phonetic_api": "/fəwɔ́ ɛ́ːn məɓəɡá kəɡaw fə́ ɓə̂/",
-      "phonetic_simple": "FE-WO EEN, ME-BHE-GA KE-GAW FE BHE",
-      "translation": "Premièrement, je tiens à recueillir votre propre témoignage.",
-      "context": "Introduire le premier point d'un discours officiel ou d'un arbitrage."
+      "phrase_id": "p1",
+      "original": "gəmənɛ́ a-do-gan",
+      "phonetic_api": "/gəmənɛ́ adogan/",
+      "phonetic_simple": "GË-MË-NÉ A-DO-GAN",
+      "translation": "Si (par hypothèse) il/elle marchait...",
+      "context": "Introduction d'une proposition hypothétique."
     },
     {
-      "phrase_id": "p154",
-      "original": "Məkɔ́ñ gəbɛ̂ kɔ̂ pə́ba oŋ bɛ̀ɛ̀ gwa.",
-      "phonetic_api": "/məkɔ́ñ ɡəɓɛ̂ kɔ̂ pə́ɓa oŋ bɛ̀ː ɡwa/",
-      "phonetic_simple": "ME-KONY GE-BHE KO PE-BHA ONG BEE GWA",
-      "translation": "J'achète cet habit car sa manufacture s'avère d'une qualité unique.",
-      "context": "Justifier logiquement un choix de consommation."
+      "phrase_id": "p2",
+      "original": "Iyo.",
+      "phonetic_api": "/ijo/",
+      "phonetic_simple": "I-YO",
+      "translation": "Oui.",
+      "context": "Réponse affirmative générale, réutilisable dans toute conversation."
     },
     {
-      "phrase_id": "p155",
-      "original": "Ləɟɛ́ɛ́ oŋ dyɛ́ɛ̀, kəbə́ni məkɔ́ñ kɔ̂.",
-      "phonetic_api": "/ləɟɛ́ː oŋ ɟɛ́ː kəɓə́ni məkɔ́ñ kɔ̂/",
-      "phonetic_simple": "LE-DYEE ONG DYEE, KE-BHE-NI ME-KONY KO",
-      "translation": "Le coût est exorbitant, et pourtant je me résous à l'acquérir.",
-      "context": "Exprimer une concession ou opposition logique dans une négociation."
+      "phrase_id": "p3",
+      "original": "O-oye.",
+      "phonetic_api": "/o.oje/",
+      "phonetic_simple": "O-O-YÉ",
+      "translation": "Non.",
+      "context": "Réponse négative générale, réutilisable dans toute conversation."
     },
     {
-      "phrase_id": "p156",
-      "original": "Məɟwɛ̂ fə́ gəbɛ́ñ, kɔ̂ɔ̂ŋ məɟe nɛ̂ kəfɔ́k.",
-      "phonetic_api": "/məɟwɛ̂ fə́ ɡəɓɛ́ñ kɔ̂ːŋ məɟe nɛ̂ kəfɔ́k/",
-      "phonetic_simple": "ME-DYWE FE GE-BHENY, KOONG ME-DYE NE KE-FOK",
-      "translation": "J'ai peiné de longues heures aux champs, par conséquent je m'accorde du repos.",
-      "context": "Déduire logiquement un état physique d'une action achevée."
-    },
-    {
-      "phrase_id": "p157",
-      "original": "Anee ɓila bə̂ oŋ bɛ̀ɛ̀, kəbə́ni ká gəfá̰á̰.",
-      "phonetic_api": "/aneː ɓila ɓə̂ oŋ bɛ̀ː kəɓə́ni ká ɡəfáː/",
-      "phonetic_simple": "A-NEE BHI-LA BHE ONG BEE, KE-BHE-NI KA GE-FAANG",
-      "translation": "Votre argumentation est brillante, cependant elle se heurte à l'interdit coutumier.",
-      "context": "Contredire avec déférence le point de vue d'un opposant dans un débat."
-    },
-    {
-      "phrase_id": "p158",
-      "original": "Fəwɔ́ fəla, məbəgá kəɟwɛ̂ fə́ Conakry.",
-      "phonetic_api": "/fəwɔ́ fəla məɓəɡá kəɟwɛ̂ fə́ konakri/",
-      "phonetic_simple": "FE-WO FE-LA, ME-BHE-GA KE-DYWE FE KO-NA-KRI",
-      "translation": "Deuxièmement, j'ambitionne de travailler au sein de la capitale.",
-      "context": "Poursuivre l'énumération méthodique de ses projets de vie."
-    },
-    {
-      "phrase_id": "p159",
-      "original": "Kɔ̂ɔ̂ŋ aŋal mɔ oŋ nɛ̂ kəwuny gwa.",
-      "phonetic_api": "/kɔ̂ːŋ aŋal mɔ oŋ nɛ̂ kəwuɲ ɡwa/",
-      "phonetic_simple": "KOONG A-NGAL MO ONG NE KE-WOUNY GWA",
-      "translation": "C'est la raison pour laquelle ma famille baigne dans l'allégresse.",
-      "context": "Conclure une tirade par le constat d'un état positif collectif."
-    },
-    {
-      "phrase_id": "p160",
-      "original": "Məkərã ɔniyanɔŋ pə́ba oŋ oŋ ləfɔ́ bɛ̀ɛ̀.",
-      "phonetic_api": "/məkərã ɔnəjanɔŋ pə́ɓa oŋ oŋ ləfɔ́ bɛ̀ː/",
-      "phonetic_simple": "ME-KE-RAN O-NI-YA-NONG PE-BHA ONG ONG LE-FO BEE",
-      "translation": "Je m'investis dans l'Oniyan car cette démarche honore notre communauté.",
-      "context": "Donner la cause fondamentale d'un engagement intellectuel permanent."
+      "phrase_id": "p4",
+      "original": "Awa.",
+      "phonetic_api": "/awa/",
+      "phonetic_simple": "A-OUA",
+      "translation": "D'accord / Bien.",
+      "context": "Marque d'accord ou de validation, utile pour conclure un échange."
     }
   ],
   "grammar_points": [
     {
-      "concept": "La parataxe et l'hypotaxe des connecteurs logiques de niveau supérieur",
-      "explanation": "Le discours structuré en Oniyan s'appuie sur des foncteurs logiques rigides. La cause s'introduit par 'pə́ba' (parce que) et lie deux propositions indépendantes. L'opposition s'articule autour de 'kəbə́ni' (cependant), outil de dérivation rhétorique qui concède la validité de la thèse adverse avant d'introduire une restriction décisive. L'énumération s'organise via la métaphore du chemin ('fəwɔ́').",
+      "concept": "Marqueurs de l'hypothèse et de l'irréel : gəmənɛ́ / kidɔ́kɔ + -do-/-dɔ-",
+      "explanation": "Selon l'analyse grammaticale de Ségerer (INALCO), l'oniyan dispose de particules dédiées en tête de proposition hypothétique (gəmənɛ́, kidɔ́kɔ) qui se combinent avec le marqueur verbal du conditionnel/irréel (-do-/-dɔ-) porté par le verbe de la proposition. Cette double marque (particule + suffixe) distingue l'oniyan de langues à marque unique comme le français.",
       "rules": [
-        "Le connecteur de conséquence 'kɔ̂ɔ̂ŋ' se place impérativement à la césure, en tête de la proposition déductive.",
-        "Les expressions de classement ('fəwɔ́ ɛ́ɛ́n') s'isolent par une pause rythmique obligatoire (notée par la virgule)."
+        "Structure : [particule hypothétique] + [proposition avec verbe marqué -do-/-dɔ-].",
+        "kidɔ́kɔ tend à marquer une hypothèse plus contrefactuelle/irréelle que gəmənɛ́ selon la description disponible."
       ],
       "examples": [
         {
-          "structure": "[Proposition A] + kəbə́ni + [Proposition B]",
-          "phonetic_api": "/məɟwɛ̂ kəɓə́ni məɟe nɛ̂ doute/",
-          "meaning": "Je travaille, cependant je doute"
+          "structure": "gəmənɛ́ a-do-gan",
+          "phonetic_api": "/gəmənɛ́ adogan/",
+          "meaning": "si (par hypothèse) il/elle marchait..."
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Le chef de siki",
-      "text": "Aɓəliyan aŋ, anee ɓila ɓə̂? Fəwɔ́ ɛ́ɛ́n, anee problème oŋ mɛ́ɛ̀?",
-      "phonetic_api": "/aɓəljan aŋ aneː ɓila ɓə̂ fəwɔ́ ɛ́ːn aneː problème oŋ mɛ́ː/",
-      "phonetic_simple": "A-BHE-LI-YAN ANG, A-NEE BHI-LA BHE? FE-WO EEN, A-NEE PRO-BLE-ME ONG MEE",
-      "translation": "Anciens du village, quelle est votre sentence ? En premier lieu, où se situe exactement la racine du conflit ?"
+      "speaker": "Locuteur A",
+      "text": "gəmənɛ́ a-do-gan, a-do-ke sel?",
+      "phonetic_api": "/gəmənɛ́ adogan adoke sel/",
+      "phonetic_simple": "GË-MË-NÉ A-DO-GAN, A-DO-KÉ SÈL ?",
+      "translation": "S'il/elle marchait, aurait-il/elle soif ? (phrase composée à partir des éléments attestés, à visée illustrative)"
     },
     {
-      "speaker": "L'orateur",
-      "text": "Fəwɔ́ ɛ́ɛ́n, fəwɔ́ fə́ eyá̰ oŋ dyɛ́ɛ̀. Mady oŋ ɟaa fə́ bəgəlax, kəbə́ni gəfá̰á̰ oŋ ká ɟaa fə́ kəwá̰.",
-      "phonetic_api": "/fəwɔ́ ɛ́ːn fəwɔ́ fə́ ejá̰ oŋ ɟɛ́ː mady oŋ ɟaː fə́ ɓəɡalax kəɓə́ni ɡəfáː oŋ ká ɟaː fə́ kəwá̰/",
-      "phonetic_simple": "FE-WO EEN, FE-WO FE E-YANG ONG DYEE. MA-DY ONG DYAA FE BHE-GA-LAKH, KE-BHE-NI GE-FAANG ONG KA DYAA FE KE-WANG",
-      "translation": "Premièrement, l'accès au marché est très long. Mady a choisi d'emprunter la piste de gauche, pourtant la coutume interdit formellement de traverser cet espace de la concession."
+      "speaker": "Locuteur B",
+      "text": "Kidɔ́kɔ a-do-ke sel.",
+      "phonetic_api": "/kidɔ́kɔ adoke sel/",
+      "phonetic_simple": "KI-DO-KO A-DO-KÉ SÈL",
+      "translation": "Si seulement il/elle avait soif (pour illustrer)... (exemple didactique)"
     },
     {
-      "speaker": "Le chef de siki",
-      "text": "Kɔ̂ɔ̂ŋ Mady oŋ bə̀gá kəfɔ́ fəwã́ñ pə́ repair. Kɔ̂ oŋ oŋ ləfɔ́ bɛ̀ɛ̀ fə́ siki.",
-      "phonetic_api": "/kɔ̂ːŋ mady oŋ ɓə̀ɡá kəfɔ́ fəwã́ɲ pə́ repair kɔ̂ oŋ oŋ ləfɔ́ bɛ̀ː fə́ siki/",
-      "phonetic_simple": "KOONG MA-DY ONG BHE-GA KE-FO FE-WANY PE RE-PAIR. KO ONG ONG LE-FO BEE FE SI-KI",
-      "translation": "C'est pourquoi Mady se trouve dans l'obligation de verser une amende en argent pour réparation. Ainsi s'applique la saine justice de notre communauté."
+      "speaker": "Locuteur A",
+      "text": "Awa?",
+      "phonetic_api": "/awa/",
+      "phonetic_simple": "A-OUA ?",
+      "translation": "D'accord ?"
+    },
+    {
+      "speaker": "Locuteur B",
+      "text": "Iyo, awa.",
+      "phonetic_api": "/ijo awa/",
+      "phonetic_simple": "I-YO, A-OUA",
+      "translation": "Oui, d'accord."
     }
   ],
   "cultural_notes": [
-    "La palabre traditionnelle chez les Bəliyan est un espace démocratique hautement codifié où le prestige d'un homme dépend de son éloquence et de sa capacité à manier les connecteurs d'opposition ('kəbə́ni') sans générer de haine. Structurer son discours par des étapes claires ('fəwɔ́ ɛ́ɛ́n') montre que le locuteur ne parle pas sous le coup de l'impulsion mais s'aligner sur la rationalité des ancêtres."
+    "La distinction fine entre plusieurs marqueurs de l'hypothèse (gəmənɛ́ vs kidɔ́kɔ) illustrée par l'analyse de Ségerer révèle la richesse modale de l'oniyan, comparable à des systèmes de conditionnel/irréel à plusieurs degrés observés dans d'autres langues atlantiques."
   ],
   "exercises": [
     {
-      "exercise_id": "ex37",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel connecteur logique introduit la cause fondamentale d'un événement (parce que) ?",
+      "question": "Quel suffixe verbal accompagne les particules hypothétiques gəmənɛ́ et kidɔ́kɔ ?",
       "options": [
-        "kəbə́ni",
-        "pə́ba",
-        "kɔ̂ɔ̂ŋ"
+        "-do-/-dɔ-",
+        "-nd",
+        "-ba-"
       ],
-      "correct_answer": "pə́ba",
-      "explanation": "'pə́ba' sert d'introducteur causal pour expliquer la raison profonde d'une situation."
+      "correct_answer": "-do-/-dɔ-",
+      "explanation": "Le marqueur -do-/-dɔ- porte la valeur conditionnelle/irréelle sur le verbe."
     },
     {
-      "exercise_id": "ex38",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Məfɔ́ nɛ̂ ləkɔ̂, [ ___ ] məɟǐ məkǎndɔŋ (C'est pourquoi je mange du riz).",
-      "correct_answer": "kɔ̂ɔ̂ŋ",
-      "hint": "Le coordonnant consécutif traduisant la conséquence logique immédiate."
+      "sentence_with_blank": "___ a-do-gan (« si (par hypothèse) il/elle marchait »)",
+      "correct_answer": "gəmənɛ́",
+      "hint": "Particule hypothétique générale."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Ségerer, G. — Description grammaticale du basari (oniyan), INALCO",
+      "url": "https://books.openedition.org/pressesinalco/pdf/36937"
+    },
+    {
+      "label": "SIL — A Grammar of Oniyan (Winters & Winters, 2004)",
+      "url": "https://www.sil.org/system/files/reapdata/18/63/15/1863153183176772870767650622005357320/BSC_Oniyan_grammar_En_2004.pdf"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Les particules gəmənɛ́ et kidɔ́kɔ ainsi que le marqueur verbal -do-/-dɔ- sont attestés dans l'analyse grammaticale de Ségerer (INALCO), avec une extraction PDF partiellement corrompue sur certains diacritiques qui a été corrigée au mieux. Les phrases complètes combinant ces éléments sont des constructions pédagogiques dérivées des règles, non des citations directes d'un texte suivi."
 }

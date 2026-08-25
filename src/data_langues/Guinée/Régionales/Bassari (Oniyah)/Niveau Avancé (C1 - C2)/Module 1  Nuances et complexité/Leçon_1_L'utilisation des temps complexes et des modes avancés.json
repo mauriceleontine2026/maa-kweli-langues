@@ -2,188 +2,220 @@
   "lesson_id": "C1_M1_L1",
   "level": "Avancé (C1-C2)",
   "module_number": 1,
-  "module_title": "Discours complexe et argumentation",
+  "module_title": "Nuances et complexité",
   "lesson_number": 1,
-  "title": "Exprimer l'hypothèse, la condition et le regret",
+  "title": "L'utilisation des temps complexes et des modes avancés",
   "learning_objectives": [
-    "Formuler des structures conditionnelles complexes (Si... alors...)",
-    "Exprimer un regret ou une action non réalisée dans le passé",
-    "Nuancer le degré de certitude face à des événements futurs hypothétiques"
+    "Combiner plusieurs marqueurs TAM (perfectif, -ba-, -ɗ, -nd) pour exprimer des nuances temporelles fines",
+    "Utiliser le subjonctif et l'impératif dans des propositions complexes",
+    "Analyser la place du pronom comme marqueur aspectuel central du système verbal oniyan"
   ],
   "phonetic_focus": {
-    "key_sounds": "La particule conditionnelle hypotactique 'nə́' exige un ton haut bref et précis. L'expression du regret profond réactive la vibrante alvéolaire voisée /r/ combinée au phonème nasal /ŋ/ dans les adverbes d'évaluation.",
-    "common_pitfalls": "Ne confondez pas la particule 'nə́' (si) avec le connecteur 'na' (et/avec). Le glissement du ton haut vers un ton neutre détruirait la valeur hypothétique de la subordonnée."
+    "key_sounds": "Dans une chaîne verbale à plusieurs suffixes (radical + -ba- + -ɗ), chaque morphème conserve sa syllabe propre ; l'accent tonal (non noté à l'écrit standard) peut cependant se déplacer légèrement selon la longueur du mot.",
+    "common_pitfalls": "Les apprenants avancés francophones cherchent des équivalences temps-à-temps avec le français (plus-que-parfait, futur antérieur) ; l'oniyan combine librement position du pronom + suffixes, ce qui permet des nuances (futur dans le passé, habituel antérieur) sans équivalent morphologique unique en français."
   },
   "vocabulary": [
     {
-      "word_id": "v73",
-      "term": "nə́",
-      "phonetic_api": "/nə́/",
-      "phonetic_simple": "NE",
-      "translation": "si / au cas où (conjonction de subordination conditionnelle)",
-      "example_sentence": "Nə́ məfɔ́ pəwá̰, məɟwɛ̂.",
-      "example_phonetic": "/nə́ məfɔ́ pəwá̰ məɟwɛ̂/",
-      "example_translation": "Si je viens demain, je travaillerai."
+      "word_id": "v1",
+      "term": "-ba-",
+      "phonetic_api": "/ba/",
+      "phonetic_simple": "BA",
+      "translation": "marqueur du passé/antériorité",
+      "example_sentence": "a-ba-gan-ɗ",
+      "example_phonetic": "/abaganɗ/",
+      "example_translation": "il/elle allait devoir marcher (futur dans le passé, forme construite selon les règles combinées attestées)."
     },
     {
-      "word_id": "v74",
-      "term": "kəwʉ́rã",
-      "phonetic_api": "/kəwʉ́rã/",
-      "phonetic_simple": "KE-WOU-RAN",
-      "translation": "le regret / regretter / la nostalgie d'un fait manqué",
-      "example_sentence": "Məɟe nɛ̂ kəwʉ́rã dyɛ́ɛ̀.",
-      "example_phonetic": "/məɟe nɛ̂ kəwʉ́rã ɟɛ́ː/",
-      "example_translation": "J'éprouve un profond regret intérieur."
+      "word_id": "v2",
+      "term": "-ɗ",
+      "phonetic_api": "/ɗ/",
+      "phonetic_simple": "D (implosif)",
+      "translation": "marqueur du futur",
+      "example_sentence": "a-gan-ɗ",
+      "example_phonetic": "/aganɗ/",
+      "example_translation": "il/elle marchera."
     },
     {
-      "word_id": "v75",
-      "term": "kambə́",
-      "phonetic_api": "/kamɓə́/",
-      "phonetic_simple": "KAM-BHE",
-      "translation": "peut-être / probablement / selon les circonstances",
-      "example_sentence": "Kambə́ ɓâ mɔ oŋ fɔ́ pəwá̰.",
-      "example_phonetic": "/kamɓə́ ɓâ mɔ oŋ fɔ́ pəwá̰/",
-      "example_translation": "Peut-être que mon père viendra demain."
+      "word_id": "v3",
+      "term": "-nd",
+      "phonetic_api": "/nd/",
+      "phonetic_simple": "ND",
+      "translation": "marqueur du progressif/habituel",
+      "example_sentence": "a-gan-nd",
+      "example_phonetic": "/agannd/",
+      "example_translation": "il/elle marche habituellement."
     },
     {
-      "word_id": "v76",
-      "term": "gəfɔ́kɔ́ñ",
-      "phonetic_api": "/gəfɔ́kɔ́ɲ/",
-      "phonetic_simple": "GE-FO-KONY",
-      "translation": "manquer / rater une opportunité / perdre une occasion",
-      "example_sentence": "Məgəfɔ́kɔ́ñ fəwɔ́ fə́ eyá̰.",
-      "example_phonetic": "/məgəfɔ́kɔ́ɲ fəwɔ́ fə́ ejá̰/",
-      "example_translation": "J'ai manqué le chemin menant au marché."
+      "word_id": "v4",
+      "term": "-do-/-dɔ-",
+      "phonetic_api": "/do/, /dɔ/",
+      "phonetic_simple": "DO / DÔ",
+      "translation": "marqueur du conditionnel/irréel",
+      "example_sentence": "a-do-gan",
+      "example_phonetic": "/adogan/",
+      "example_translation": "il/elle marcherait (forme construite selon la règle attestée)."
+    },
+    {
+      "word_id": "vx1",
+      "term": "wëno",
+      "phonetic_api": "/wəno/",
+      "phonetic_simple": "OUË-NO",
+      "translation": "je, moi (pronom indépendant 1sg)",
+      "example_sentence": "No? Wëno nde?",
+      "example_phonetic": "/no wəno nde/",
+      "example_translation": "Qui ? Moi ?"
+    },
+    {
+      "word_id": "vx3",
+      "term": "mëŋ",
+      "phonetic_api": "/məŋ/",
+      "phonetic_simple": "MËNG",
+      "translation": "il/elle, lui (pronom indépendant 3sg)",
+      "example_sentence": "mëŋ",
+      "example_phonetic": "/məŋ/",
+      "example_translation": "lui/elle."
+    },
+    {
+      "word_id": "vx8",
+      "term": "aƴe",
+      "phonetic_api": "/aʄe/",
+      "phonetic_simple": "A-YÉ",
+      "translation": "aller (verbe)",
+      "example_sentence": "Fe ƴe baƴ?",
+      "example_phonetic": "/fe ʄe baʄ/",
+      "example_translation": "Où es-tu allé ?"
+    },
+    {
+      "word_id": "vx10",
+      "term": "anang",
+      "phonetic_api": "/anaŋ/",
+      "phonetic_simple": "A-NANG",
+      "translation": "savoir, connaître (verbe)",
+      "example_sentence": "anang",
+      "example_phonetic": "/anaŋ/",
+      "example_translation": "savoir, connaître."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p145",
-      "original": "Nə́ məɟe nɛ̂ fəwã́ñ, məkɔ́ñ gəbɛ̂.",
-      "phonetic_api": "/nə́ məɟe nɛ̂ fəwã́ɲ məkɔ́ñ ɡəɓɛ̂/",
-      "phonetic_simple": "NE ME-DYE NE FE-WANY, ME-KONY GE-BHE",
-      "translation": "Si j'avais de l'argent, j'achèterais ce vêtement.",
-      "context": "Formuler une condition économique irréelle au moment présent."
+      "phrase_id": "p1",
+      "original": "a-ba-gan-ɗ",
+      "phonetic_api": "/abaganɗ/",
+      "phonetic_simple": "A-BA-GAN-D",
+      "translation": "il/elle allait marcher (futur dans le passé)",
+      "context": "Combinaison du marqueur passé -ba- et futur -ɗ pour une nuance temporelle complexe."
     },
     {
-      "phrase_id": "p146",
-      "original": "Məɟe nɛ̂ kəwʉ́rã fə́ gwiye.",
-      "phonetic_api": "/məɟe nɛ̂ kəwʉ́rã fə́ ɡwije/",
-      "phonetic_simple": "ME-DYE NE KE-WOU-RAN FE GWI-YE",
-      "translation": "Je regrette amèrement le déroulement des événements d'hier.",
-      "context": "Exprimer un remords ou une insatisfaction face au passé."
+      "phrase_id": "p2",
+      "original": "a-do-gan",
+      "phonetic_api": "/adogan/",
+      "phonetic_simple": "A-DO-GAN",
+      "translation": "il/elle marcherait",
+      "context": "Conditionnel/irréel construit avec -do-."
     },
     {
-      "phrase_id": "p147",
-      "original": "Kambə́ pəwá̰ dya oŋ bɛ̀ɛ̀ fə́ siki.",
-      "phonetic_api": "/kamɓə́ pəwá̰ dja oŋ bɛ̀ː fə́ siki/",
-      "phonetic_simple": "KAM-BHE PE-WANG DYA ONG BEE FE SI-KI",
-      "translation": "Peut-être que demain le climat sera favorable au village.",
-      "context": "Émettre une supposition prudente concernant l'avenir."
+      "phrase_id": "p3",
+      "original": "Iyo.",
+      "phonetic_api": "/ijo/",
+      "phonetic_simple": "I-YO",
+      "translation": "Oui.",
+      "context": "Réponse affirmative générale, réutilisable dans toute conversation."
     },
     {
-      "phrase_id": "p148",
-      "original": "Nə́ ká kəgaw mɔ, bəɟe nɛ̂ problème.",
-      "phonetic_api": "/nə́ ká kəɡaw mɔ ɓəɟe nɛ̂ problème/",
-      "phonetic_simple": "NE KA KE-GAW MO, BHE-DYE NE PRO-BLE-ME",
-      "translation": "Si tu ne m'écoutes pas, tu vas au-devant de graves ennuis.",
-      "context": "Mettre en garde un interlocuteur de manière conditionnelle."
-    },
-    {
-      "phrase_id": "p149",
-      "original": "Məgəfɔ́kɔ́ñ kəɟwɛ̂ ləbəlã fə́ mɔ.",
-      "phonetic_api": "/məgəfɔ́kɔ́ɲ kəɟwɛ̂ ləɓəlã fə́ mɔ/",
-      "phonetic_simple": "ME-GE-FO-KONY KE-DYWE LE-BHE-LAN FE MO",
-      "translation": "J'ai gâché mon opportunité de travail l'année passée.",
-      "context": "Analyser ses échecs professionnels antérieurs."
-    },
-    {
-      "phrase_id": "p150",
-      "original": "Nə́ ɓâ bə̂ oŋ ləwʉ́, ɟaa fə́ siki.",
-      "phonetic_api": "/nə́ ɓâ ɓə̂ oŋ ləwʉ́ ɟaː fə́ siki/",
-      "phonetic_simple": "NE BHAA BHE ONG LE-WOU, DYAA FE SI-KI",
-      "translation": "Si ton père t'en accorde le droit, alors rends-toi au village.",
-      "context": "Soumettre une action à une autorisation préalable obligatoire."
-    },
-    {
-      "phrase_id": "p151",
-      "original": "Kəwʉ́rã mɔ oŋ dyɛ́ɛ̀ gwa kəbə̂.",
-      "phonetic_api": "/kəwʉ́rã mɔ oŋ ɟɛ́ː ɡwa kəɓə̂/",
-      "phonetic_simple": "KE-WOU-RAN MO ONG DYEE GWA KE-BHE",
-      "translation": "Ma nostalgie du temps jadis est infiniment grande.",
-      "context": "Évoquer poétiquement son attachement au passé lointain."
-    },
-    {
-      "phrase_id": "p152",
-      "original": "Nə́ məñwǎ məyǐ kɔ̂, məɟe nɛ̂ santé.",
-      "phonetic_api": "/nə́ məɲwǎ məjǐ kɔ̂ məɟe nɛ̂ santé/",
-      "phonetic_simple": "NE ME-NYWA ME-YI KO, ME-DYE NE SAN-TE",
-      "translation": "Si je bois cette eau purifiée, je préserverai ma santé.",
-      "context": "Établir un lien logique de cause à effet hypothétique."
+      "phrase_id": "p4",
+      "original": "O-oye.",
+      "phonetic_api": "/o.oje/",
+      "phonetic_simple": "O-O-YÉ",
+      "translation": "Non.",
+      "context": "Réponse négative générale, réutilisable dans toute conversation."
     }
   ],
   "grammar_points": [
     {
-      "concept": "La syntaxe de la période hypothétique complexe",
-      "explanation": "Le niveau avancé en Oniyan requiert la maîtrise de la subordination logique. La conjonction conditionnelle 'nə́' (si) se place impérativement à l'initiale de la proposition subordonnée. La proposition principale qui en découle adopte une forme verbale dont le ton ou l'auxiliaire ('kambə́') traduit le degré d'engagement du locuteur face au résultat.",
+      "concept": "Combinatoire des marqueurs TAM",
+      "explanation": "Le système verbal oniyan permet la combinaison de plusieurs suffixes/marqueurs (position du pronom + -ba- + -ɗ/-nd/-do-) pour exprimer des nuances temporelles fines telles que le futur dans le passé, l'habituel antérieur, ou l'irréel, chaque marqueur gardant sa valeur propre et s'empilant selon un ordre fixe.",
       "rules": [
-        "Structure standard : Nə́ + [Subordonnée] + [Principale].",
-        "Pour le regret historique (irréel du passé), la principale combine l'accompli avec le substantif nominalisé 'kəwʉ́rã' (le regret)."
+        "Ordre relatif : [pronom] + [radical] + [-ba- passé] + [-ɗ futur / -nd habituel / -do- conditionnel].",
+        "L'absence de -ba- situe l'événement au présent/futur simple ; sa présence le rapporte à un point de référence passé."
       ],
       "examples": [
         {
-          "structure": "Nə́ + [Sujet] + [Verbe], [Sujet] + [Verbe]",
-          "phonetic_api": "/nə́ məɟwɛ̂ məfɔ́ nɛ̂ fəwã́ñ/",
-          "meaning": "Si je travaille, j'obtiendrai de l'argent"
+          "structure": "a-ba-gan-ɗ",
+          "phonetic_api": "/abaganɗ/",
+          "meaning": "il/elle allait marcher (futur vu depuis un point du passé)"
+        },
+        {
+          "structure": "a-do-gan",
+          "phonetic_api": "/adogan/",
+          "meaning": "il/elle marcherait (conditionnel/irréel)"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Idrissa",
-      "text": "Nə́ gwiye ɟaa na mɔ fə́ ləbɛ́l, anee ləfɔ́ bə̂?",
-      "phonetic_api": "/nə́ ɡwije ɟaː na mɔ fə́ ləɓɛ́l aneː ləfɔ́ ɓə̂/",
-      "phonetic_simple": "NE GWI-YE DYAA NA MO FE LE-BHEL, A-NEE LE-FO BHE",
-      "translation": "Si tu m'avais accompagné hier au tournoi de lutte, qu'aurais-tu fait ?"
+      "speaker": "Locuteur A",
+      "text": "a-ba-gan-ɗ?",
+      "phonetic_api": "/abaganɗ/",
+      "phonetic_simple": "A-BA-GAN-D ?",
+      "translation": "Il/elle allait marcher ?"
     },
     {
-      "speaker": "Samba",
-      "text": "Məɟe nɛ̂ kəwuny dyɛ́ɛ̀. Məgəfɔ́kɔ́ñ kɔ̂, oŋ oŋ kəwʉ́rã mɔ fə́ siki.",
-      "phonetic_api": "/məɟe nɛ̂ kəwuɲ ɟɛ́ː məgəfɔ́kɔ́ɲ kɔ̂ oŋ oŋ kəwʉ́rã mɔ fə́ siki/",
-      "phonetic_simple": "ME-DYE NE KE-WOUNY DYEE. ME-GE-FO-KONY KO, ONG ONG KE-WOU-RAN MO FE SI-KI",
-      "translation": "J'en aurais éprouvé un immense bonheur. J'ai raté cette occasion, et c'est mon grand regret ici au village."
+      "speaker": "Locuteur B",
+      "text": "Iyo, a-do-gan sa a-ba-ke sel.",
+      "phonetic_api": "/ijo adogan sa abake sel/",
+      "phonetic_simple": "I-YO, A-DO-GAN SA A-BA-KÉ SÈL",
+      "translation": "Oui, il/elle marcherait s'il/elle n'avait pas eu soif (phrase combinée illustrant conditionnel + passé, construite à partir des éléments attestés)."
     },
     {
-      "speaker": "Idrissa",
-      "text": "Kambə́ pəwá̰ aɓəliyan aŋ oŋ nɛ̂ lutte fəla. Nə́ bəgá, ɟaa tɛ̂ɛ̂ŋ.",
-      "phonetic_api": "/kamɓə́ pəwá̰ aɓəljan aŋ oŋ nɛ̂ lutte fəla nə́ ɓəɡá ɟaː tɛ̂ːŋ/",
-      "phonetic_simple": "KAM-BHE PE-WANG A-BHE-LI-YAN ANG ONG NE LUTTE FE-LA. NE BHE-GA, DYAA TEENG",
-      "translation": "Peut-être que de nouveaux combats auront lieu demain. Si tu le désires vraiment, marchons-y directement."
+      "speaker": "Locuteur A",
+      "text": "Awa?",
+      "phonetic_api": "/awa/",
+      "phonetic_simple": "A-OUA ?",
+      "translation": "D'accord ?"
+    },
+    {
+      "speaker": "Locuteur B",
+      "text": "Iyo, awa.",
+      "phonetic_api": "/ijo awa/",
+      "phonetic_simple": "I-YO, A-OUA",
+      "translation": "Oui, d'accord."
     }
   ],
   "cultural_notes": [
-    "Dans l'art oratoire Bassari, l'usage de l'hypothèse ('nə́') et de la nuance ('kambə́') caractérise le discours des sages ('aɓəliyan aŋ'). Un locuteur avancé évite les affirmations brutes ou catégoriques, jugées agressives, et préfère soumettre ses projets ou ses analyses à l'ordre naturel des choses et aux décisions invisibles de la communauté."
+    "La richesse du système TAM oniyan (au moins cinq marqueurs combinables) reflète une structuration fine de la temporalité typique des langues atlantiques, où la relation entre les événements (plutôt que leur simple datation absolue) organise le discours."
   ],
   "exercises": [
     {
-      "exercise_id": "ex35",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel morphème grammatical introduit la condition (Si...) en début de phrase ?",
+      "question": "Quel marqueur permet d'exprimer un « futur dans le passé » combiné à -ɗ ?",
       "options": [
-        "na",
-        "nə́",
-        "ká"
+        "-ba-",
+        "-nd",
+        "-do-"
       ],
-      "correct_answer": "nə́",
-      "explanation": "'nə́' est la conjonction de subordination conditionnelle exclusive du système hypothétique Oniyan."
+      "correct_answer": "-ba-",
+      "explanation": "-ba- rapporte l'événement à un point de référence passé, combinable avec -ɗ pour le futur dans le passé."
     },
     {
-      "exercise_id": "ex36",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "[ ___ ] pəwá̰ dya oŋ bɛ̀ɛ̀ (Peut-être que demain le temps sera au beau fixe).",
-      "correct_answer": "Kambə́",
-      "hint": "L'adverbe d'atténuation servant à exprimer la probabilité ou l'éventualité."
+      "sentence_with_blank": "a-___-gan (« il/elle marcherait »)",
+      "correct_answer": "do",
+      "hint": "Marqueur du conditionnel/irréel."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "SIL — A Grammar of Oniyan (Winters & Winters, 2004)",
+      "url": "https://www.sil.org/system/files/reapdata/18/63/15/1863153183176772870767650622005357320/BSC_Oniyan_grammar_En_2004.pdf"
+    },
+    {
+      "label": "Ségerer, G. — Description grammaticale du basari (oniyan), INALCO",
+      "url": "https://books.openedition.org/pressesinalco/pdf/36937"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Chaque marqueur TAM pris isolément est bien attesté dans la grammaire SIL et confirmé par l'analyse INALCO. Les combinaisons multi-suffixes présentées (futur dans le passé, conditionnel) sont des constructions dérivées par application régulière des règles, non des citations directes de phrases-exemples des sources ; elles doivent être comprises comme illustratives de la logique combinatoire plutôt que comme des attestations littérales."
 }

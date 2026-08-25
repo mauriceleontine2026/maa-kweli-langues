@@ -1,162 +1,199 @@
 {
-  "lesson_id": "C1_M2_L5_CORRIGEE",
+  "lesson_id": "C1_M2_L5",
   "level": "Avancé (C1-C2)",
   "module_number": 2,
   "module_title": "Culture, traditions et rhétorique",
   "lesson_number": 5,
   "title": "Débattre, argumenter et défendre un point de vue",
   "learning_objectives": [
-    "Structurer une argumentation logique et fluide en utilisant des connecteurs de cause et de concession",
-    "Défendre fermement une opinion lors d'une palabre ou d'une réunion formelle",
-    "Réfuter poliment mais directement les arguments d'un contradicteur"
+    "Utiliser les proverbes attestés comme arguments rhétoriques dans un débat",
+    "Manier la concession et la réfutation nuancée (koni, ma...lon)",
+    "Construire un raisonnement en plusieurs étapes à partir du vocabulaire attesté"
   ],
   "phonetic_focus": {
-    "key_sounds": "La particule affirmative 'ɛrɛ' /ɛ.rɛ/ s'articule avec deux voyelles ouvertes identiques et un 'r' tapé très doux. Le phonème /f/ dans 'fanka' doit être nettement soufflé.",
-    "common_pitfalls": "Ne confondez pas le connecteur de concession 'kɔni' (cependant/pourtant) avec le verbe 'kɔni' (haïr). L'intonation de 'kɔni' en tant que connecteur remonte légèrement en fin de mot."
+    "key_sounds": "Dans le débat oral kuranko, l'intonation montante sur les questions rhétoriques (« wu bi wo si dia kama ? ») porte une valeur argumentative forte, à ne pas negliger.",
+    "common_pitfalls": "Les francophones ont tendance à traiter les questions rhétoriques kuranko comme de simples questions d'information, alors qu'elles fonctionnent comme des affirmations argumentatives déguisées."
   },
   "vocabulary": [
     {
-      "word_id": "v1_c1_m2_l5_corr",
-      "term": "Fanka",
-      "phonetic_api": "/fan.ka/",
-      "phonetic_simple": "FAN-KA",
-      "translation": "Force / Puissance / Argument massue / Autorité",
-      "example_sentence": "Kuma nɛ fanka ka bon",
-      "example_phonetic": "/ku.ma nɛ fan.ka ka bon/",
-      "example_translation": "Cette parole a une grande force (cet argument est puissant)"
+      "word_id": "v1",
+      "term": "kerenteye",
+      "phonetic_api": "/kɛrɛnteje/",
+      "phonetic_simple": "kè-rèn-tè-YÉ",
+      "translation": "courage, fermeté (qualité attendue dans un débat argumenté)",
+      "example_sentence": "A morgoye kerenteye le.",
+      "example_phonetic": "/a morgoje kɛrɛnteje lɛ/",
+      "example_translation": "Sa personnalité est faite de courage/fermeté."
     },
     {
-      "word_id": "v2_c1_m2_l5_corr",
-      "term": "Kɔni",
-      "phonetic_api": "/kɔ.ni/",
-      "phonetic_simple": "KƆ-NI",
-      "translation": "Cependant / Pourtant / Mais (concession)",
-      "example_sentence": "I ka kuma, kɔni n tɛ sɔn",
-      "example_phonetic": "/i ka ku.ma kɔ.ni ɲ͡tɛ sɔn/",
-      "example_translation": "Tu parles, cependant je ne suis pas d'accord"
+      "word_id": "v2",
+      "term": "yuse gbele",
+      "phonetic_api": "/juse ɡ͡bɛlɛ/",
+      "phonetic_simple": "you-SÈ GBÈ-lè",
+      "translation": "cœur dur / fortitude (littéralement : cœur difficile), qualité de résistance argumentative",
+      "example_sentence": "N ye yuse gbele sɔtɔ ka n hankili fo.",
+      "example_phonetic": "/n je juse ɡ͡bɛlɛ sɔtɔ ka n hankili fo/",
+      "example_translation": "J'ai trouvé la fortitude pour exprimer mon opinion."
     },
     {
-      "word_id": "v3_c1_m2_l5_corr",
-      "term": "Lafasa",
-      "phonetic_api": "/la.fa.sa/",
-      "phonetic_simple": "LA-FA-SA",
-      "translation": "Défendre / Soutenir / Témoigner en faveur de",
-      "example_sentence": "N di i ya ko lafasa",
-      "example_phonetic": "/ɲ͡di i ja ko la.fa.sa/",
-      "example_translation": "Je vais défendre ta cause"
+      "word_id": "v3",
+      "term": "kalai nyerela",
+      "phonetic_api": "/kalaj ɲɛrɛla/",
+      "phonetic_simple": "ka-LAÏ gné-rè-LA",
+      "translation": "confiance en soi, assurance dans l'argumentation",
+      "example_sentence": "Kalai nyerela ka wajibi debat kɛlɛ ro.",
+      "example_phonetic": "/kalaj ɲɛrɛla ka wadʲibi dɛbat kɛlɛ ro/",
+      "example_translation": "La confiance en soi est nécessaire dans un débat."
     },
     {
-      "word_id": "v4_c1_m2_l5_corr",
-      "term": "Ɛrɛ",
-      "phonetic_api": "/ɛ.rɛ/",
-      "phonetic_simple": "Ɛ-RƐ",
-      "translation": "Vérité / Vrai / Authentique",
-      "example_sentence": "Ɛrɛ le nɛ ri !",
-      "example_phonetic": "/ɛ.rɛ le nɛ ri/",
-      "example_translation": "C'est la stricte vérité !"
+      "word_id": "v4",
+      "term": "koni",
+      "phonetic_api": "/koni/",
+      "phonetic_simple": "KO-ni",
+      "translation": "mais, cependant, sauf (pour introduire une objection/concession)",
+      "example_sentence": "N ye a faham, koni morgo te do ka ban.",
+      "example_phonetic": "/n je a faham koni morgo tɛ do ka ban/",
+      "example_translation": "Je comprends, mais une personne ne peut jamais être entièrement comprise."
+    },
+    {
+      "word_id": "v5",
+      "term": "hankili kura",
+      "phonetic_api": "/hankili kura/",
+      "phonetic_simple": "an-ki-LI kou-RA",
+      "translation": "nouvelle compréhension, prise de conscience (utile pour conclure un débat)",
+      "example_sentence": "N na hankili kura sɔtɔ i la kuma la.",
+      "example_phonetic": "/n na hankili kura sɔtɔ i la kuma la/",
+      "example_translation": "J'ai acquis une nouvelle compréhension grâce à ton argument."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p1_c1_m2_l5_corr",
-      "original": "N bɛ n ya ko lafasa ra, barisa n ya kuma bɛ ɛrɛ ra",
-      "phonetic_api": "/ɱ͡bɛ ɲ͡ja ko la.fa.sa ra ba.ri.sa ɲ͡ja ku.ma bɛ ɛ.rɛ ra/",
-      "phonetic_simple": "N BƐ N YA KO LA-FA-SA RA, BA-RI-SA N YA KOU-MA BƐ Ɛ-RƐ RA",
-      "translation": "Je défends ma cause, car ma parole repose sur la vérité",
-      "context": "Affirmer sa position lors d'un débat officiel."
+      "phrase_id": "p1",
+      "original": "N ye a faham, koni morgo te do ka ban.",
+      "phonetic_api": "/n je a faham koni morgo tɛ do ka ban/",
+      "phonetic_simple": "n yè a fa-AM, KO-ni MOR-go tè do ka ban",
+      "translation": "Je comprends, mais une personne ne peut jamais être entièrement comprise.",
+      "context": "Formule de concession argumentative combinant l'acquiescement (« n ye a faham ») avec l'objection introduite par « koni », réutilisant le proverbe attesté par Michael Jackson."
     },
     {
-      "phrase_id": "p2_c1_m2_l5_corr",
-      "original": "I ya kuma ka ni, kɔni sinka bɛ n na o ra fɔlɔ",
-      "phonetic_api": "/i ja ku.ma ka ni kɔ.ni sin.ka bɛ ɱ͡na o ra fɔ.lɔ/",
-      "phonetic_simple": "I YA KOU-MA KA NI, KƆ-NI SIN-KA BƐ N NA O RA FƆ-LƆ",
-      "translation": "Ta parole est belle, cependant j'ai encore un doute à ce sujet",
-      "context": "Faire une concession polie avant d'apporter une objection."
+      "phrase_id": "p2",
+      "original": "Wu bi wo si dia kama?",
+      "phonetic_api": "/wu bi wo si dia kama/",
+      "phonetic_simple": "wu bi wo si di-A ka-ma",
+      "translation": "Comment cela pourrait-il rester acceptable/possible ?",
+      "context": "Question rhétorique attestée par Michael Jackson, utilisée pour clore un argument par l'évidence plutôt que par une réponse explicite."
     },
     {
-      "phrase_id": "p3_c1_m2_l5_corr",
-      "original": "Kuma nɛ fanka tɛ yan, fo an ka fanko ko nɛ gbanan",
-      "phonetic_api": "/ku.ma nɛ fan.ka tɛ jan fo an ka fan.ko ko nɛ g͡ba.nan/",
-      "phonetic_simple": "KOU-MA NƐ FAN-KA TƐ YAN, FO AN KA FAN-KO KO NƐ GBANAN",
-      "translation": "Cet argument n'a pas de force, il faut absolument que nous tirions cette affaire au clair",
-      "context": "Réfuter un argument faible et demander des explications supplémentaires."
+      "phrase_id": "p3",
+      "original": "Kerenteye tinye wale kɛ.",
+      "phonetic_api": "/kɛrɛnteje tiɲɛ walɛ kɛ/",
+      "phonetic_simple": "kè-rèn-tè-YÉ ti-GNÈ OUA-lé kè",
+      "translation": "Le courage permet de réussir l'entreprise/l'argumentation.",
+      "context": "Réemploie « kerenteye » (courage), attesté chez Jackson, pour souligner la vertu nécessaire au débat."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "N na hankili kura sɔtɔ i la kuma la.",
+      "phonetic_api": "/n na hankili kura sɔtɔ i la kuma la/",
+      "phonetic_simple": "n na an-ki-LI kou-RA SO-to i la KOU-ma la",
+      "translation": "J'ai acquis une nouvelle compréhension grâce à ton argument.",
+      "context": "Formule de clôture positive d'un débat, reconnaissant la force de l'argument adverse sans admettre une défaite totale."
     }
   ],
   "grammar_points": [
     {
-      "concept": "La concession argumentative avec 'Kɔni'",
-      "explanation": "Pour nuancer un propos ou introduire une objection sans bloquer la discussion, le kuranko utilise la particule 'kɔni' (cependant/pourtant). Elle se place généralement en tête de la proposition de contre-argumentation.",
+      "concept": "La concession suivie de réfutation nuancée",
+      "explanation": "Le débat argumenté en kuranko, tel qu'observable dans les citations attestées, suit souvent le schéma : acquiescement partiel (« n ye a faham » = je comprends) + connecteur de restriction (« koni ») + contre-argument sous forme de vérité générale (proverbe). Ce procédé permet de contester un point de vue sans confrontation directe, préservant la face de l'interlocuteur — cohérent avec l'importance de la « morgoye » (dignité) dans les interactions sociales kuranko.",
       "rules": [
-        "Structure : [Argument A du contradicteur] + ka ni / ka bon, + kɔni + [Argument B restrictif]"
+        "Acquiescement + koni + contre-argument général (souvent un proverbe attesté).",
+        "Une question rhétorique peut clore l'argumentation à la place d'une conclusion explicite."
       ],
       "examples": [
         {
-          "structure": "A ka bon, kɔni a ka fari",
-          "phonetic_api": "/a ka bon kɔ.ni a ka fa.ri/",
-          "meaning": "C'est grand, pourtant c'est difficile"
-        }
-      ]
-    },
-    {
-      "concept": "La causalité logique avec 'Barisa'",
-      "explanation": "Le connecteur 'barisa' (parce que / car) permet d'étayer une opinion en introduisant une preuve ou une justification incontestable.",
-      "rules": [
-        "Structure : [Opinion / Thèse] + barisa + [Preuve / Justification]"
-      ],
-      "examples": [
-        {
-          "structure": "N tɛ ta, barisa n bɛ bara la",
-          "phonetic_api": "/ɲ͡tɛ ta ba.ri.sa ɱ͡bɛ ba.ra la/",
-          "meaning": "Je ne pars pas, car je suis au travail"
+          "structure": "N ye a faham, koni [proverbe]",
+          "phonetic_api": "/n je a faham koni/",
+          "meaning": "je comprends [ton point], mais [vérité générale qui le nuance]"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Ousmane",
-      "text": "Lansana, n fɛ ka a fɔ ko lɔgɔfaga ko nɛ ka fari. An kana wari san bi.",
-      "phonetic_api": "/lan.sa.na ɲ͡fɛ ka a fɔ ko lɔ.gɔ.fa.ga ko nɛ ka fa.ri an ka.na wa.ri san bi/",
-      "phonetic_simple": "LAN-SA-NA, N FƐ KA A FƆ KO LƆ-GƆ-FA-GA KO NƐ KA FA-RI. AN KA-NA WA-RI SAN BI.",
-      "translation": "Lansana, je veux dire que cette affaire de marché est difficile. Ne dépensons pas (n'achetons pas) d'argent aujourd'hui."
+      "speaker": "Débatteur A",
+      "text": "N bɛ a fɔ ko wale kura ka fisa.",
+      "phonetic_api": "/n bɛ a fɔ ko walɛ kura ka fisa/",
+      "phonetic_simple": "n bè a fo ko OUA-lé kou-RA ka FI-sa",
+      "translation": "Je dis que le nouveau travail/projet est meilleur."
     },
     {
-      "speaker": "Lansana",
-      "text": "I ya kuma ka ni, kɔni n bɛ n ya ko lafasa ra. Fo an ka ta bi, barisa sini-kɛnɛ ra sɔngɔ di gwan fanko.",
-      "phonetic_api": "/i ja ku.ma ka ni kɔ.ni ɱ͡bɛ ɲ͡ja ko la.fa.sa ra fo an ka ta bi ba.ri.sa si.ni.kɛ.nɛ ra sɔn.gɔ di gwan fan.ko/",
-      "phonetic_simple": "I YA KOU-MA KA NI, KƆ-NI N BƐ N YA KO LA-FA-SA RA. FO AN KA TA BI, BA-RI-SA SI-NI-KƐ-NƐ RA SƆN-GƆ DI GWAN FAN-KO.",
-      "translation": "Ta parole est bonne, cependant je défends ma position. Il faut absolument que nous y allions aujourd'hui, car à l'avenir le prix va encore augmenter (chauffer)."
+      "speaker": "Débatteur B",
+      "text": "N ye a faham, koni morgo te do ka ban.",
+      "phonetic_api": "/n je a faham koni morgo tɛ do ka ban/",
+      "phonetic_simple": "n yè a fa-AM, KO-ni MOR-go tè do ka ban",
+      "translation": "Je comprends, mais une personne ne peut jamais être entièrement comprise (donc on ne peut juger si vite)."
     },
     {
-      "speaker": "Ousmane",
-      "text": "Ɛrɛ le nɛ ri ! I ya kuma fanka ka bon. N sɔnna i ya fɔta ma bilen.",
-      "phonetic_api": "/ɛ.rɛ le nɛ ri i ja ku.ma fan.ka ka bon ɲ͡sɔn.na i ja fɔ.ta ma bi.len/",
-      "phonetic_simple": "Ɛ-RƐ LE NƐ RI ! I YA KOU-MA FAN-KA KA BON. N SƆN-NA I YA FƆ-TA MA BI-LEN.",
-      "translation": "C'est la stricte vérité ! Ton argument a une grande force. J'accepte tes paroles désormais."
+      "speaker": "Débatteur A",
+      "text": "Kerenteye tinye wale kɛ, wu bi wo si dia kama?",
+      "phonetic_api": "/kɛrɛnteje tiɲɛ walɛ kɛ wu bi wo si dia kama/",
+      "phonetic_simple": "kè-rèn-tè-YÉ ti-GNÈ OUA-lé kè, wu bi wo si di-A ka-ma",
+      "translation": "Le courage permet de réussir le projet, comment pourrait-il en être autrement ?"
+    },
+    {
+      "speaker": "Débatteur B",
+      "text": "Kalai nyerela ka wajibi debat kɛlɛ ro, koni n'de ma konto lon.",
+      "phonetic_api": "/kalaj ɲɛrɛla ka wadʲibi dɛbat kɛlɛ ro koni n de ma konto lɔn/",
+      "phonetic_simple": "ka-LAÏ gné-rè-LA ka oua-DJI-bi dè-BAT kè-lè ro, KO-ni n dè ma KON-to lon",
+      "translation": "La confiance en soi est nécessaire dans un débat, mais je n'en connais pas tous les dessous."
     }
   ],
   "cultural_notes": [
-    "Lors des débats d'assemblée ou des palabres ('baranza') en pays kuranko, la confrontation verbale agressive est exclue. Un bon orateur valide toujours d'abord la forme ou la beauté de la parole de son opposant ('I ya kuma ka ni...') avant d'utiliser 'kɔni' pour introduire sa propre thèse. Le gagnant d'un débat est celui qui réussit à démontrer que son argument possède de la force ('fanka') tout en restant ancré dans le respect des convenances sociales."
+    "Le débat argumenté kuranko, tel que documenté indirectement par Michael Jackson à travers les proverbes, valorise la nuance et la préservation de la dignité (morgoye) de l'interlocuteur plutôt que la confrontation frontale.",
+    "Les qualités de « kerenteye » (courage) et « kalai nyerela » (confiance en soi) sont présentées comme des vertus nécessaires à quiconque souhaite s'exprimer publiquement ou défendre une opinion dans un contexte social kuranko."
   ],
   "exercises": [
     {
-      "exercise_id": "ex1_c1_m2_l5_corr",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel connecteur logique utilisez-vous pour introduire une cause (car / parce que) ?",
+      "question": "Quel schéma argumentatif est typique du débat nuancé kuranko attesté ?",
       "options": [
-        "kɔni",
-        "barisa",
-        "ɛrɛ"
+        "Acquiescement + koni + contre-argument général",
+        "Refus direct sans justification",
+        "Silence total"
       ],
-      "correct_answer": "barisa",
-      "explanation": "'Barisa' est le connecteur de subordination causal utilisé pour justifier un point de vue."
+      "correct_answer": "Acquiescement + koni + contre-argument général",
+      "explanation": "Les citations attestées par Michael Jackson montrent ce schéma de concession suivie d'un contre-argument nuancé introduit par « koni »."
     },
     {
-      "exercise_id": "ex2_c1_m2_l5_corr",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Pour dire 'C'est la vérité', on utilise le mot authentique : [ ___ ] le nɛ ri.",
-      "correct_answer": "ɛrɛ",
-      "hint": "Mot de trois lettres avec deux voyelles 'ɛ'"
+      "sentence_with_blank": "N ye a faham, [ ___ ] morgo te do ka ban.",
+      "correct_answer": "koni",
+      "hint": "Ce connecteur introduit une objection nuancée."
+    },
+    {
+      "exercise_id": "ex3",
+      "type": "multiple_choice",
+      "question": "Quelle qualité, attestée par Michael Jackson, est nécessaire pour s'exprimer avec assurance dans un débat ?",
+      "options": [
+        "Kalai nyerela (confiance en soi)",
+        "Konke (la faim)",
+        "Fadenye (rivalité de demi-fratrie)"
+      ],
+      "correct_answer": "Kalai nyerela (confiance en soi)",
+      "explanation": "« Kalai nyerela » est attesté par Michael Jackson comme signifiant la confiance en soi, qualité valorisée dans l'expression argumentée."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Michael Jackson, \"How Lifeworlds Work\" (Univ. of Chicago Press, 2022) — extraits",
+      "url": "https://dokumen.pub/how-lifeworlds-work-emotionality-sociality-and-the-ambiguity-of-being-9780226492018.html"
+    },
+    {
+      "label": "Michael Jackson, \"Intersubjective ambiguities\" (Tijdschrift voor Medische Antropologie)",
+      "url": "https://tma.socsci.uva.nl/19_1/jackson.pdf"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Le vocabulaire (kerenteye, yuse gbele, kalai nyerela, koni) et les citations réutilisées sont directement attestés chez Michael Jackson. Le schéma argumentatif synthétique et les phrases de dialogue combinant ces éléments dans un contexte de « débat » sont des extrapolations pédagogiques raisonnables, non un relevé direct d'un débat kuranko réel."
 }

@@ -6,224 +6,250 @@
   "lesson_number": 2,
   "title": "Exprimer l'hypothèse, le doute et la condition",
   "learning_objectives": [
-    "Formuler des hypothèses complexes avec le connecteur double 'ni... ra / ni... tereen'",
-    "Exprimer le doute, la probabilité et la réserve avec 'tumado do' ou 'nasi ra'",
-    "Articuler des conditions restrictives croisées dans un débat d'idées"
+    "Construire une phrase conditionnelle avec 'ni ... ka/ba'",
+    "Utiliser le conditionnel 'báa' pour une hypothèse contraire à la réalité",
+    "Exprimer le doute avec des tournures atténuées",
+    "Distinguer condition réelle et condition irréelle"
   ],
   "phonetic_focus": {
-    "key_sounds": "La particule conditionnelle 'ni' se prononce de façon très sèche et brève. Le mot 'tumado' (/tu.ma.do/) ne doit pas subir d'accentuation tonale erronée sur la dernière syllabe.",
-    "common_pitfalls": "Confondre la conjonction 'ni' (si / condition) avec le coordonnant 'ni' (et / avec). C'est le contexte verbal et l'intonation descendante en fin de première proposition qui marquent la condition."
+    "key_sounds": [
+      "Le [ni] initial de la subordonnée conditionnelle, à bien détacher de la principale",
+      "Le ton bas-haut de 'báa' (conditionnel irréel), à ne pas confondre avec 'bada' (accompli)",
+      "La particule 'ka/ba' à l'intérieur de la subordonnée, qui varie selon le dialecte"
+    ],
+    "common_pitfalls": [
+      "Oublier d'utiliser 'ni' en tête de la subordonnée conditionnelle, structure obligatoire pour marquer l'hypothèse",
+      "Confondre condition réelle (ni + présent/futur) et condition irréelle/hypothétique (báa), qui demandent des marques différentes"
+    ]
   },
   "vocabulary": [
     {
-      "word_id": "v2_1",
-      "term": "Ni",
-      "phonetic_api": "/ni/",
-      "phonetic_simple": "NI",
-      "translation": "Si / Au cas où (introduction de la condition)",
-      "example_sentence": "Ni i tara, n bɛ ta la",
-      "example_phonetic": "/ni i ta.ra n̩ bɛ ta la/",
-      "example_translation": "Si tu pars, je partirai."
+      "word_id": "v1",
+      "term": "ni (si, condition)",
+      "phonetic_api": "[ni]",
+      "phonetic_simple": "ni",
+      "translation": "si (introduit une condition)",
+      "example_sentence": "Ni sanji na, n tè taa.",
+      "example_phonetic": "[ni sandʒi na n tɛ taː]",
+      "example_translation": "S'il pleut, je n'irai pas."
     },
     {
-      "word_id": "v2_2",
-      "term": "Tumado do",
-      "phonetic_api": "/tu.ma.do do/",
-      "phonetic_simple": "TOU-MA-DO DO",
-      "translation": "Peut-être / Il est possible que / Probablement",
-      "example_sentence": "Tumado do a bɛ se la",
-      "example_phonetic": "/tu.ma.do do a bɛ se la/",
-      "example_translation": "Peut-être qu'il y parviendra."
+      "word_id": "v2",
+      "term": "báa (conditionnel irréel)",
+      "phonetic_api": "[báa]",
+      "phonetic_simple": "ba-a",
+      "translation": "marque du conditionnel irréel (si + imparfait)",
+      "example_sentence": "Ń báa a lɔ́n, ń tùn dí a fɔ́.",
+      "example_phonetic": "[ń báa a lɔn ń tùn dí a fɔ]",
+      "example_translation": "Si je le savais, je le dirais."
     },
     {
-      "word_id": "v2_3",
-      "term": "Nasi ra",
-      "phonetic_api": "/na.si ra/",
-      "phonetic_simple": "NA-SI RA",
-      "translation": "Le doute / Être incertain / Hésitation",
-      "example_sentence": "Nasi ra bɛ n na nin la",
-      "example_phonetic": "/na.si ra bɛ n̩ na nĩ la/",
-      "example_translation": "J'ai un doute concernant ceci."
+      "word_id": "v3",
+      "term": "n'a fɔ́ (peut-être, à supposer que)",
+      "phonetic_api": "[n a fɔ]",
+      "phonetic_simple": "n-a-fo",
+      "translation": "à supposer que, mettons que",
+      "example_sentence": "N'a fɔ́ i tɛ nà, an dí to yan.",
+      "example_phonetic": "[n a fɔ i tɛ nà an dí to yan]",
+      "example_translation": "Si jamais tu ne viens pas, nous resterons ici."
     },
     {
-      "word_id": "v2_4",
-      "term": "Hali ni",
-      "phonetic_api": "/ha.li ni/",
-      "phonetic_simple": "HA-LI NI",
-      "translation": "Même si / Quand bien même",
-      "example_sentence": "Hali ni i dusu bɔra, fo i ka mɛn",
-      "example_phonetic": "/ha.li ni i du.su bɔ.ra fo i ka mɛn/",
-      "example_translation": "Même si tu es en colère, il faut écouter."
+      "word_id": "v4",
+      "term": "kɔni (mais, tout de même)",
+      "phonetic_api": "[kɔni]",
+      "phonetic_simple": "ko-ni",
+      "translation": "mais, cependant (nuance de doute/réserve)",
+      "example_sentence": "A bɛ se ka nà, kɔni a tɛ dan.",
+      "example_phonetic": "[a bɛ se ka nà kɔni a tɛ dan]",
+      "example_translation": "Il peut venir, mais ce n'est pas sûr."
     },
     {
-      "word_id": "v2_5",
-      "term": "Kɔni ni",
-      "phonetic_api": "/kɔ.ni ni/",
-      "phonetic_simple": "KƆ-NI NI",
-      "translation": "Sauf si / À condition que seulement",
-      "example_sentence": "N bɛ dila kɔni ni i nana",
-      "example_phonetic": "/n̩ bɛ di.la kɔ.ni ni i na.na/",
-      "example_translation": "Je paierai, à condition seulement que tu viennes."
+      "word_id": "v5",
+      "term": "wo dɔrɔn ni... ",
+      "phonetic_api": "[wo dɔrɔn ni]",
+      "phonetic_simple": "wo-do-ron-ni",
+      "translation": "à condition que, à moins que",
+      "example_sentence": "Wo dɔrɔn ni a nada, an dí taa.",
+      "example_phonetic": "[wo dɔrɔn ni a nada an dí taː]",
+      "example_translation": "À condition qu'il vienne, nous partirons."
     },
     {
-      "word_id": "v2_6",
-      "term": "Namirila",
-      "phonetic_api": "/na.mi.ri.la/",
-      "phonetic_simple": "NA-MI-RI-LA",
-      "translation": "L'hypothèse / La supposition",
-      "example_sentence": "Nin na namirila dɔrɔn ra",
-      "example_phonetic": "/nĩ na na.mi.ri.la dɔ.rɔn ra/",
-      "example_translation": "C'est une simple supposition."
+      "word_id": "v6",
+      "term": "sigina (peut-être)",
+      "phonetic_api": "[siɡina]",
+      "phonetic_simple": "si-gui-na",
+      "translation": "peut-être, probablement",
+      "example_sentence": "Sigina a dí nà.",
+      "example_phonetic": "[siɡina a dí nà]",
+      "example_translation": "Peut-être qu'il viendra."
     },
     {
-      "word_id": "v2_7",
-      "term": "Seeli",
-      "phonetic_api": "/seː.li/",
-      "phonetic_simple": "SÉE-LI",
-      "translation": "Être probable / Sembler / Apparence",
-      "example_sentence": "A seeli bɛ kɛ la baaraba ra",
-      "example_phonetic": "/a seː.li bɛ kɛ la baː.ra.ba ra/",
-      "example_translation": "Il semble que cela devienne une grande entreprise."
+      "word_id": "v7",
+      "term": "n tè da a la",
+      "phonetic_api": "[n tɛ da a la]",
+      "phonetic_simple": "n-tè-da-a-la",
+      "translation": "je n'y crois pas, j'en doute",
+      "example_sentence": "N tè da a la, a dí se ka baara ban bi.",
+      "example_phonetic": "[n tɛ da a la a dí se ka baːra ban bi]",
+      "example_translation": "J'en doute, qu'il puisse finir le travail aujourd'hui."
     },
     {
-      "word_id": "v2_8",
-      "term": "Fo ni",
-      "phonetic_api": "/fo ni/",
-      "phonetic_simple": "FO NI",
-      "translation": "À moins que / Sauf si",
-      "example_sentence": "Baara mu ban la fo ni kunu nana",
-      "example_phonetic": "/baː.ra mu bã la fo ni ku.nu na.na/",
-      "example_translation": "Le travail ne finira pas à moins que hier ne revienne (impossible)."
-    },
-    {
-      "word_id": "v2_9",
-      "term": "Ja",
-      "phonetic_api": "/d͡ʒa/",
-      "phonetic_simple": "DJA",
-      "translation": "Assurément / En vérité (particule de confirmation)",
-      "example_sentence": "A ja tara nɛ !",
-      "example_phonetic": "/a d͡ʒa ta.ra nɛ/",
-      "example_translation": "En vérité, il est vraiment parti !"
-    },
-    {
-      "word_id": "v2_10",
-      "term": "Mankɛra",
-      "phonetic_api": "/man.kɛ.ra/",
-      "phonetic_simple": "MAN-KƐ-RA",
-      "translation": "Si cela ne se fait pas / Sinon",
-      "example_sentence": "Mankɛra fo an ka ta",
-      "example_phonetic": "/man.kɛ.ra fo an ka ta/",
-      "example_translation": "Sinon, il faut que nous partions."
+      "word_id": "v8",
+      "term": "kana miiri ko...",
+      "phonetic_api": "[kana miːri ko]",
+      "phonetic_simple": "ka-na-mi-i-ri-ko",
+      "translation": "ne pense pas que...",
+      "example_sentence": "Kana miiri ko a bada dan.",
+      "example_phonetic": "[kana miːri ko a bada dan]",
+      "example_translation": "Ne pense pas que ce soit sûr."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p2_1",
-      "original": "Ni i ka baara kɛra ka ɲɛ, i bɛ wari sɔrɔ la wajibila.",
-      "phonetic_api": "/ni i ka baː.ra kɛ.ra ka ɲɛ i bɛ wa.ri sɔ.rɔ la wa.d͡ʒi.bi.la/",
-      "phonetic_simple": "NI I KA BAA-RA KƐ-RA KA NYƐ, I BƐ OUA-RI SƆ-RƆ LA OUA-DJI-BI-LA.",
-      "translation": "Si ton travail est bien fait, tu obtiendras de l'argent obligatoirement.",
-      "context": "Énoncer une condition logique absolue de réussite économique."
+      "phrase_id": "p1",
+      "original": "Ni sanji na, n tè taa",
+      "phonetic_api": "[ni sandʒi na n tɛ taː]",
+      "phonetic_simple": "ni-san-dji-na, n-tè-ta-a",
+      "translation": "S'il pleut, je n'irai pas",
+      "context": "Condition réelle (probable)"
     },
     {
-      "phrase_id": "p2_2",
-      "original": "Nasi ra bɛ n na hali ni a ka kuma ka di kɔni.",
-      "phonetic_api": "/na.si ra bɛ n̩ na ha.li ni a ka ku.ma ka di kɔ.ni/",
-      "phonetic_simple": "NA-SI RA BƐ N NA HA-LI NI A KA KOU-MA KA DI KƆ-NI.",
-      "translation": "J'ai un doute, même si sa parole est certes séduisante.",
-      "context": "Exprimer sa réserve lors d'une négociation politique ou clanique."
+      "phrase_id": "p2",
+      "original": "Ń báa a lɔ́n, ń tùn dí a fɔ́",
+      "phonetic_api": "[ń báa a lɔn ń tùn dí a fɔ]",
+      "phonetic_simple": "n-ba-a-a-lon, n-toun-di-a-fo",
+      "translation": "Si je le savais, je le dirais",
+      "context": "Condition irréelle/hypothétique dans le présent"
     },
     {
-      "phrase_id": "p2_3",
-      "original": "Tumado do a bɛ se la ka nana sinasini do.",
-      "phonetic_api": "/tu.ma.do do a bɛ se la ka na.na si.na.si.ni do/",
-      "phonetic_simple": "TOU-MA-DO DO A BƐ SÉ LA KA NA-NA SI-NA-SI-NI DO.",
-      "translation": "Peut-être sera-t-il capable de venir après-demain.",
-      "context": "Émettre une hypothèse sur un planning futur incertain."
+      "phrase_id": "p3",
+      "original": "Sigina a dí nà",
+      "phonetic_api": "[siɡina a dí nà]",
+      "phonetic_simple": "si-gui-na-a-di-na",
+      "translation": "Peut-être qu'il viendra",
+      "context": "Exprimer le doute/l'incertitude sur un futur"
+    },
+    {
+      "phrase_id": "p4",
+      "original": "N tè da a la",
+      "phonetic_api": "[n tɛ da a la]",
+      "phonetic_simple": "n-tè-da-a-la",
+      "translation": "Je n'y crois pas / j'en doute",
+      "context": "Exprimer un doute ferme"
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Wo dɔrɔn ni a nada, an dí taa",
+      "phonetic_api": "[wo dɔrɔn ni a nada an dí taː]",
+      "phonetic_simple": "wo-do-ron-ni-a-na-da, an-di-ta-a",
+      "translation": "À condition qu'il vienne, nous partirons",
+      "context": "Condition restrictive"
     }
   ],
   "grammar_points": [
     {
-      "concept": "La proposition conditionnelle réelle avec 'ni... accompli'",
-      "explanation": "Pour formuler une condition dont la réalisation dépend d'un événement futur probable, le malinké introduit la subordonnée par la particule 'ni' (si) et conjugue impérativement le verbe de la condition à l'aspect accompli (suffixe '-ra' ou racine nue achevée), tandis que la principale reste à l'inaccompli futur.",
+      "concept": "La condition réelle avec 'ni'",
+      "explanation": "Pour exprimer une condition jugée réalisable, le maninka place 'ni' en tête de la subordonnée, suivie du verbe au présent/aoriste ; la principale utilise le présent, le futur ou l'impératif selon le sens visé.",
       "rules": [
-        "Structure : 'Ni' + Sujet + Verbe à l'accompli + [Pause] + Sujet + 'bɛ' + Verbe + 'la'."
+        "Structure : Ni + [subordonnée], [principale]",
+        "La subordonnée avec 'ni' précède généralement la principale"
       ],
       "examples": [
         {
-          "structure": "Ni a nana, an bɛ baara kɛ la",
-          "phonetic_api": "/ni a na.na an bɛ baː.ra kɛ la/",
-          "meaning": "S'il vient (litt. S'il est venu), nous travaillerons."
+          "structure": "Ni [subordonnée], [principale]",
+          "phonetic_api": "[ni]",
+          "meaning": "Si [condition], alors [conséquence]"
         }
       ]
     },
     {
-      "concept": "L'expression de l'incertitude et du doute existentiel avec 'nasi ra'",
-      "explanation": "Le doute abstrait n'est pas traduit par un verbe subjectif direct. On nominalise le doute sous la forme 'nasi ra' (l'incertitude/le doute) que l'on positionne comme sujet ou attribut au sein d'une proposition locative d'état avec 'bɛ... la/na'.",
+      "concept": "Le conditionnel irréel avec 'báa'",
+      "explanation": "Lorsque la condition est présentée comme non réalisée ou peu probable (hypothèse contraire à la réalité), le maninka utilise la marque 'báa' dans la subordonnée, combinée à 'tùn dí' dans la principale.",
       "rules": [
-        "Structure : 'Nasi ra' + bɛ + [Pronom] + la/na."
+        "Structure : [Sujet] báa [Verbe], [Sujet] tùn dí [Verbe]",
+        "Cette construction correspond à l'équivalent français 'si + imparfait, + conditionnel présent'"
       ],
       "examples": [
         {
-          "structure": "Nasi ra bɛ n na",
-          "phonetic_api": "/na.si ra bɛ n̩ na/",
-          "meaning": "Le doute est en moi (Je doute / Je ne suis pas sûr)."
+          "structure": "[Sujet] báa [Verbe], [Sujet] tùn dí [Verbe]",
+          "phonetic_api": "[báa]",
+          "meaning": "Si [sujet] [verbe]ait, [sujet] [verbe]rait"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Fodé",
-      "text": "Aminata, ni an ka baaraba kɛra ka ban ɲinan, i bɛ sigi la yan ko ?",
-      "phonetic_api": "/a.mi.na.ta ni an ka baː.ra.ba kɛ.ra ka bã ɲi.nã i bɛ si.ɡi la d͡ʒan ko/",
-      "phonetic_simple": "A-MI-NA-TA, NI AN KA BAA-RA-BA KƐ-RA KA BAN NYI-NAN, I BƐ SI-GUI LA YAN KO ?",
-      "translation": "Aminata, si notre grande entreprise se finalise cette année, vas-tu t'installer ici ?"
+      "speaker": "Oumar",
+      "text": "Ni sanji na sini, i dí taa sènè ma ?",
+      "phonetic_api": "[ni sandʒi na sini i dí taː sɛnɛ ma]",
+      "phonetic_simple": "ni-san-dji-na-si-ni, i-di-ta-a-sè-nè-ma",
+      "translation": "S'il pleut demain, iras-tu au champ ?"
     },
     {
-      "speaker": "Aminata",
-      "text": "Fodé, nasi ra kɔni bɛ n na. Tumado do n bɛ ta la Faranfasi dankala la.",
-      "phonetic_api": "/se.ku na.si ra kɔ.ni bɛ n̩ na tu.ma.do do n̩ bɛ ta la fa.ran.fa.si dan.ka.la la/",
-      "phonetic_simple": "FODÉ, NA-SI RA KƆ-NI BƐ N NA. TOU-MA-DO DO N BƐ TA LA FARANFASI DAN-KA-LA LA.",
-      "translation": "Fodé, j'ai certes un doute. Il est possible que je me rende plutôt en France."
+      "speaker": "Néné",
+      "text": "N tè da a la, sigina n tè taa.",
+      "phonetic_api": "[n tɛ da a la siɡina n tɛ taː]",
+      "phonetic_simple": "n-tè-da-a-la, si-gui-na-n-tè-ta-a",
+      "translation": "J'en doute, peut-être que je n'irai pas."
     },
     {
-      "speaker": "Fodé",
-      "text": "Hali ni i tara, fo i ka n ka mirila lu mɛn. Sila fɛ o bɛ an ye la.",
-      "phonetic_api": "/ha.li ni i ta.ra fo i ka n̩ ka mi.ri.la lu mɛn si.la fɛ o bɛ an de la/",
-      "phonetic_simple": "HA-LI NI I TA-RA, FO I KA N KA MI-RI-LA LOU MƐN. SI-LA FƐ O BƐ AN YE LA.",
-      "translation": "Même si tu pars, il faut que tu gardes à l'esprit mes intentions. Par ce moyen, cela nous guidera."
+      "speaker": "Oumar",
+      "text": "Wo dɔrɔn ni tele bɔra, an dí taa ɲɔgɔn fɛ.",
+      "phonetic_api": "[wo dɔrɔn ni tele bɔra an dí taː ɲɔɡɔn fɛ]",
+      "phonetic_simple": "wo-do-ron-ni-té-lé-bo-ra, an-di-ta-a-nyo-gon-fè",
+      "translation": "À condition que le soleil sorte, nous irons ensemble."
     },
     {
-      "speaker": "Aminata",
-      "text": "A bɛnna, a ja ka di ! Kɔni ni wari nana, o bɛ kɛ la sabuya ra, Ala k'a kɛ !",
-      "phonetic_api": "/a bɛn.na a d͡ʒa ka di kɔ.ni ni wa.ri na.na o bɛ kɛ la sa.bu.ja ra a.la k'a kɛ/",
-      "phonetic_simple": "A BƐN-NA, A DJA KA DI ! KƆ-NI NI OUA-RI NA-NA, O BƐ KƐ LA SA-BOU-YA RA, A-LA K'A KƐ !",
-      "translation": "C'est entendu, c'est en vérité une excellente chose ! À condition seulement que l'argent rentre, cela servira de moyen, espérons-le !"
+      "speaker": "Néné",
+      "text": "N báa lɔn, n tùn dí nà i fɛ.",
+      "phonetic_api": "[n báa lɔn n tùn dí nà i fɛ]",
+      "phonetic_simple": "n-ba-a-lon, n-toun-di-na-i-fè",
+      "translation": "Si je savais, je viendrais avec toi."
     }
   ],
   "cultural_notes": [
-    "Dans l'éthique de la parole des élites mandingues, exprimer une certitude abrupte sans y associer des nuances de doute ('nasi ra') ou des clauses de réserve est jugé impoli et imprudent. On préfère la finesse discursive des hypothèses emboîtées pour maintenir le consensus social lors des arbitrages collectifs."
+    "Les structures conditionnelles précises (réelle vs. irréelle) relèvent d'un usage soutenu du maninka, souvent réservé aux discussions argumentées ou aux discours réfléchis, d'où leur place au niveau avancé ([Malinkuia](https://fr.scribd.com/document/499114939/Malinkuia), [Vydrin, Mandenkan 70](https://journals.openedition.org/mandenkan/pdf/3253))."
   ],
   "exercises": [
     {
-      "exercise_id": "C1_M1_L2_ex1",
-      "type": "multiple_choice",
-      "question": "Quel mot introduit la condition logique 'Si' en début de phrase ?",
-      "options": [
-        "Fo",
-        "Ni",
-        "Nka"
-      ],
-      "correct_answer": "Ni",
-      "explanation": "'Ni' est la conjonction conditionnelle standard requise pour bâtir une hypothèse."
+      "exercise_id": "e1",
+      "type": "traduction",
+      "question": "Traduisez : 'S'il pleut, je n'irai pas.'",
+      "correct_answer": "Ni sanji na, n tè taa.",
+      "explanation": "Condition réelle : Ni + subordonnée, + principale au présent/futur."
     },
     {
-      "exercise_id": "C1_M1_L2_ex2",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "[ ___ ] bɛ n na nin kuma la (J'ai un doute concernant cette parole).",
-      "correct_answer": "Nasi ra",
-      "hint": "Expression noble en deux mots matérialisant l'état d'incertitude."
+      "exercise_id": "e2",
+      "type": "choix_multiple",
+      "question": "Quelle marque introduit un conditionnel irréel (hypothèse contraire à la réalité) ?",
+      "options": [
+        "ni",
+        "báa",
+        "kana",
+        "tè"
+      ],
+      "correct_answer": "báa",
+      "explanation": "'báa' marque une hypothèse jugée irréelle ou peu probable, contrairement à 'ni' qui introduit une condition réelle."
+    },
+    {
+      "exercise_id": "e3",
+      "type": "texte_a_trous",
+      "sentence_with_blank": "N ___ da a la.  (Je n'y crois pas.)",
+      "correct_answer": "tè",
+      "hint": "C'est la négation du présent, utilisée dans l'expression figée du doute."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Vydrin, « Le TAM en maninka de Guinée : la zone du futur », Mandenkan 70 (2023)",
+      "url": "https://journals.openedition.org/mandenkan/pdf/3253"
+    },
+    {
+      "label": "Malinkuia — Introduction à la langue malinké (grammaire complète, variété du Wulada, Haute-Guinée)",
+      "url": "https://fr.scribd.com/document/499114939/Malinkuia"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "La structure conditionnelle réelle avec 'ni' est attestée dans Malinkuia (section subordonnées conditionnelles) et le conditionnel irréel 'báa' est documenté par Vydrin. Les phrases combinant plusieurs marques (ex. dialogue) restent des constructions assemblées et non des citations directes d'un corpus audio natif, d'où une confiance moyenne."
 }

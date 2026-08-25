@@ -4,203 +4,298 @@
   "module_number": 1,
   "module_title": "Les bases de la communication",
   "lesson_number": 1,
-  "title": "Les salutations et les formules de politesse",
+  "title": "Les salutations et les formules de politesse (bonjour, merci, au revoir)",
   "learning_objectives": [
-    "Savoir saluer selon le moment de la journée",
-    "Exprimer la politesse, la gratitude et prendre congé d'un interlocuteur",
-    "Maîtriser les variations de salutation selon le statut de respect"
+    "Utiliser « laossɛ », le mot kissi attesté pour saluer / dire bonjour",
+    "Utiliser les formules de politesse attestées en kissi (kqs, Guinée forestière)",
+    "Remercier et répondre à une salutation selon l'usage kissi",
+    "Comprendre le rôle central du salut dans la politesse kissi"
   ],
   "phonetic_focus": {
-    "key_sounds": "La langue kissi (gisi) est une langue à tons. La distinction entre les tons haut, moyen et bas est cruciale. Les voyelles suivies d'une marque nasale comme /ẽ/ ou /õ/ impliquent une résonance dans la cavité nasale sans fermer complètement la bouche.",
-    "common_pitfalls": "Attention à ne pas omettre l'allongement vocalique dans les réponses cérémonielles. Par exemple, étirer le 'aa' final montre le respect. Un ton descendant mal maîtrisé sur 'buundé' peut altérer la clarté du message."
+    "key_sounds": "Le kissi comporte des consonnes implosives (b, d) notées [ɓ], [ɗ] et des voyelles nasalisées ; l'accent (et non le ton) porte l'essentiel du relief prosodique selon Childs. La voyelle ɛ (comme dans « laossɛ ») est une voyelle moyenne-inférieure antérieure non arrondie, proche du « ê » ouvert français.",
+    "common_pitfalls": "Les francophones ont tendance à sur-articuler les consonnes implosives comme des consonnes ordinaires, et à ignorer les nasalisations vocaliques."
   },
   "vocabulary": [
     {
-      "word_id": "v1_1",
-      "term": "buundé",
-      "phonetic_api": "/buːⁿdé/",
-      "phonetic_simple": "BOUOUN-DÉ",
-      "translation": "bonjour / salut",
-      "example_sentence": "Buundé, saa.",
-      "example_phonetic": "/buːⁿdé saː/",
-      "example_translation": "Bonjour, Saa."
+      "word_id": "v1",
+      "term": "laossɛ",
+      "phonetic_api": "/laosːɛ/",
+      "phonetic_simple": "la-o-ssè",
+      "translation": "bonjour, salutation (mot générique kissi pour saluer)",
+      "example_sentence": "Laossɛ!",
+      "example_phonetic": "/laosːɛ/",
+      "example_translation": "Bonjour ! / Salut !"
     },
     {
-      "word_id": "v1_2",
-      "term": "bale",
-      "phonetic_api": "/ba.le/",
-      "phonetic_simple": "BA-LÉ",
+      "word_id": "v2",
+      "term": "baleka",
+      "phonetic_api": "/baleka/",
+      "phonetic_simple": "ba-lé-ka",
       "translation": "merci",
-      "example_sentence": "Bale fiaa.",
-      "example_phonetic": "/ba.le fjaː/",
-      "example_translation": "Merci beaucoup."
+      "example_sentence": "Baleka, ndiamɔ́ɔ.",
+      "example_phonetic": "/baleka ndiamɔːɔ/",
+      "example_translation": "Merci, mon ami(e)."
     },
     {
-      "word_id": "v1_3",
-      "term": "haa",
-      "phonetic_api": "/haː/",
-      "phonetic_simple": "HAA",
-      "translation": "oui",
-      "example_sentence": "Haa, i co kpou.",
-      "example_phonetic": "/haː i tʃo kpu/",
-      "example_translation": "Oui, nous allons bien."
+      "word_id": "v3",
+      "term": "mbaa",
+      "phonetic_api": "/mbaː/",
+      "phonetic_simple": "mbaa",
+      "translation": "réponse à une salutation",
+      "example_sentence": "— Nikene! — Mbaa.",
+      "example_phonetic": "/nikene mbaː/",
+      "example_translation": "— Bonjour (du matin) ! — (réponse convenue)."
     },
     {
-      "word_id": "v1_4",
-      "term": "mbo",
-      "phonetic_api": "/ᵐbo/",
-      "phonetic_simple": "MBO",
-      "translation": "non",
-      "example_sentence": "Mbo, o co wa le.",
-      "example_phonetic": "/ᵐbo o tʃo wa le/",
-      "example_translation": "Non, il n'est pas là."
+      "word_id": "v4",
+      "term": "nikene",
+      "phonetic_api": "/nikene/",
+      "phonetic_simple": "ni-ké-né",
+      "translation": "salutation du matin (emprunt mandé, surtout utilisée par les personnes âgées)",
+      "example_sentence": "Nikene, keke.",
+      "example_phonetic": "/nikene keke/",
+      "example_translation": "Bonjour (du matin), père."
     },
     {
-      "word_id": "v1_5",
-      "term": "maaluon",
-      "phonetic_api": "/maː.lu.õ/",
-      "phonetic_simple": "MAA-LOU-ONN",
-      "translation": "s'il te plaît / s'il vous plaît",
-      "example_sentence": "Maaluon, co mi ni.",
-      "example_phonetic": "/maː.lu.õ tʃo mi ni/",
-      "example_translation": "S'il te plaît, donne-moi cela."
+      "word_id": "v5",
+      "term": "yandii",
+      "phonetic_api": "/jandiː/",
+      "phonetic_simple": "yan-dii",
+      "translation": "s'il te plaît",
+      "example_sentence": "Yandii, ke yá.",
+      "example_phonetic": "/jandiː ke ja/",
+      "example_translation": "S'il te plaît, donne-moi (le)."
+    },
+    {
+      "word_id": "v6",
+      "term": "naam",
+      "phonetic_api": "/naːm/",
+      "phonetic_simple": "naam",
+      "translation": "oui (réponse à un appel)",
+      "example_sentence": "— Ndé! — Naam.",
+      "example_phonetic": "/nde naːm/",
+      "example_translation": "— Maman ! — Oui."
+    },
+    {
+      "word_id": "v7",
+      "term": "hakató",
+      "phonetic_api": "/hakato/",
+      "phonetic_simple": "ha-ka-to",
+      "translation": "excuse-moi",
+      "example_sentence": "Hakató, mama.",
+      "example_phonetic": "/hakato mama/",
+      "example_translation": "Excuse-moi, grand-mère."
+    },
+    {
+      "word_id": "v8",
+      "term": "kendé-",
+      "phonetic_api": "/kende/",
+      "phonetic_simple": "kèn-dé",
+      "translation": "bon, bien, en bonne santé",
+      "example_sentence": "I kendé le?",
+      "example_phonetic": "/i kende le/",
+      "example_translation": "Tu vas bien ?"
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p1_1",
-      "original": "Yaa nɔ̄n ?",
-      "phonetic_api": "/jaː nɔ̄n/",
-      "phonetic_simple": "YAA NONN",
-      "translation": "Comment vas-tu ? (Littéralement: As-tu dormi ?)",
-      "context": "Matin / Cadre informel et formel"
+      "phrase_id": "p0",
+      "original": "Laossɛ!",
+      "phonetic_api": "/laosːɛ/",
+      "phonetic_simple": "la-o-ssè",
+      "translation": "Bonjour ! / Salut !",
+      "context": "Salutation générique kissi, utilisable à tout moment de la journée, quel que soit l'interlocuteur."
     },
     {
-      "phrase_id": "p1_2",
-      "original": "I nɔ̄n kpou.",
-      "phonetic_api": "/i nɔ̄n kpu/",
-      "phonetic_simple": "I NONN KPOU",
-      "translation": "J'ai bien dormi. / Tout va bien.",
-      "context": "Réponse courante le matin"
+      "phrase_id": "p1",
+      "original": "Nikene.",
+      "phonetic_api": "/nikene/",
+      "phonetic_simple": "ni-ké-né",
+      "translation": "Bonjour (le matin).",
+      "context": "Salutation du matin, emprunt mandé attesté dans les expressions courantes du kissi, surtout employée par les personnes âgées."
     },
     {
-      "phrase_id": "p1_3",
-      "original": "Vana diali o co kpou ?",
-      "phonetic_api": "/va.na dja.li o tʃo kpu/",
-      "phonetic_simple": "VA-NA DJA-LI O TCHO KPOU",
-      "translation": "Est-ce que tout le monde va bien à la maison ?",
-      "context": "Prendre des nouvelles de l'entourage"
+      "phrase_id": "p2",
+      "original": "Mbaa.",
+      "phonetic_api": "/mbaː/",
+      "phonetic_simple": "mbaa",
+      "translation": "(formule de réponse à une salutation)",
+      "context": "Se dit en réponse à toute salutation, quel que soit le moment de la journée."
     },
     {
-      "phrase_id": "p1_4",
-      "original": "Haa, o co kpou.",
-      "phonetic_api": "/haː o tʃo kpu/",
-      "phonetic_simple": "HAA O TCHO KPOU",
-      "translation": "Oui, ils vont bien.",
-      "context": "Réponse sur la famille"
+      "phrase_id": "p3",
+      "original": "Baleka.",
+      "phonetic_api": "/baleka/",
+      "phonetic_simple": "ba-lé-ka",
+      "translation": "Merci.",
+      "context": "Remerciement général, pour un cadeau ou un service."
     },
     {
-      "phrase_id": "p1_5",
-      "original": "I sika tchie le.",
-      "phonetic_api": "/i si.ka tʃje le/",
-      "phonetic_simple": "I SI-KA TCHI-É LÉ",
-      "translation": "Il n'y a pas de problème. / De rien.",
-      "context": "Répondre à un remerciement"
+      "phrase_id": "p4",
+      "original": "Ntiwali.",
+      "phonetic_api": "/ntiwali/",
+      "phonetic_simple": "n-ti-wa-li",
+      "translation": "Merci pour ce travail.",
+      "context": "Remerciement spécifique adressé à quelqu'un qui vient de terminer une tâche ou un travail agricole."
     },
     {
-      "phrase_id": "p1_6",
-      "original": "O dion hɔn o nɔ̄n bɛndɛ.",
-      "phonetic_api": "/o djõ hɔ̃ o nɔ̄n bɛⁿdɛ/",
-      "phonetic_simple": "O DION HONT O NONN BENDE",
-      "translation": "Passe une bonne nuit.",
-      "context": "Formule de congé le soir"
+      "phrase_id": "p5",
+      "original": "Hakató.",
+      "phonetic_api": "/hakato/",
+      "phonetic_simple": "ha-ka-to",
+      "translation": "Excuse-moi / pardon.",
+      "context": "Pour s'excuser poliment avant de déranger quelqu'un ou de le quitter."
     },
     {
-      "phrase_id": "p1_7",
-      "original": "I cho hɔn miongo.",
-      "phonetic_api": "/i tʃo hɔ̃ mjõ.ɡo/",
-      "phonetic_simple": "I TCHO HONT MYON-GO",
-      "translation": "Au revoir (À plus tard).",
-      "context": "Prendre congé à tout moment"
+      "phrase_id": "p6",
+      "original": "Kanikokueiyó!",
+      "phonetic_api": "/kanikokwejo/",
+      "phonetic_simple": "ka-ni-ko-kwé-yo",
+      "translation": "Félicitations !",
+      "context": "Pour féliciter quelqu'un lors d'un événement heureux (naissance, mariage, réussite)."
     },
     {
-      "phrase_id": "p1_8",
-      "original": "Hana cɔwɔ̄.",
-      "phonetic_api": "/ha.na tʃɔ.wɔ̄/",
-      "phonetic_simple": "HA-NA TCHO-WO",
-      "translation": "À demain.",
-      "context": "Formule de congé"
+      "phrase_id": "p7",
+      "original": "Maanuu.",
+      "phonetic_api": "/maːnuː/",
+      "phonetic_simple": "maa-nou",
+      "translation": "Je suis désolé(e) (compassion).",
+      "context": "Formule de sympathie face à un malheur ou une difficulté d'autrui."
     }
   ],
   "grammar_points": [
     {
-      "concept": "La particule négative de fin de phrase",
-      "explanation": "En kissi, la négation est double ou marquée de manière essentielle par l'élément négatif placé en toute fin de proposition ou d'énoncé.",
+      "concept": "Deux registres de salutation : le mot générique et la formule du matin",
+      "explanation": "Le kissi dispose d'un mot générique et autochtone pour saluer, laossɛ (cité comme exemple lexical dans les descriptions phonologiques du kissi, notamment pour illustrer la voyelle ɛ), utilisable à tout moment. À côté de ce mot, le kissi connaît aussi des formules de politesse empruntées historiquement au mandé (maninka) et à l'arabe via le mandé, documentées par Childs (2002) : nikene désigne spécifiquement une salutation du matin surtout employée par les personnes âgées, tandis que mbaa sert de réponse convenue à presque toute salutation. Chez les Kissi de Guinée forestière, la salutation n'est pas un simple mot isolé mais souvent un échange à deux voix.",
       "rules": [
-        "La structure de base utilise généralement un marqueur ou l'élément négatif 'le' en fin de phrase.",
-        "Aucun changement de verbe ne remplace cette particule de fin."
+        "« Laossɛ » est le terme générique et convient dans la plupart des situations, à toute heure.",
+        "« Nikene » est réservé à la salutation du matin, dans un registre plus traditionnel/emprunté, surtout chez les aînés.",
+        "La réponse mbaa peut suivre presque toute salutation, sans dépendre du contenu exact de celle-ci.",
+        "Le remerciement se différencie selon le contexte : baleka pour un remerciement général, ntiwali spécifiquement pour un travail accompli."
       ],
       "examples": [
         {
-          "structure": "Phrase Affirmative + le",
-          "phonetic_api": "/o tʃo wa le/",
-          "meaning": "Il n'est pas présent / Il n'est pas là."
+          "structure": "Laossɛ! — Mbaa.",
+          "phonetic_api": "/laosːɛ mbaː/",
+          "meaning": "Bonjour ! — (réponse rituelle)."
+        },
+        {
+          "structure": "Nikene. — Mbaa.",
+          "phonetic_api": "/nikene mbaː/",
+          "meaning": "Bonjour (du matin). — (réponse rituelle)."
+        },
+        {
+          "structure": "Baleka o walo.",
+          "phonetic_api": "/baleka o walo/",
+          "meaning": "Merci pour le travail."
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Tamba",
-      "text": "Buundé, faya.",
-      "phonetic_api": "/buːⁿdé fa.ja/",
-      "phonetic_simple": "BOUOUN-DÉ FA-YA",
-      "translation": "Bonjour, Faya."
+      "speaker": "Kemo",
+      "text": "Laossɛ, keke!",
+      "phonetic_api": "/laosːɛ keke/",
+      "phonetic_simple": "la-o-ssè, kè-kè",
+      "translation": "Bonjour, père !"
     },
     {
-      "speaker": "Faya",
-      "text": "Buundé. Yaa nɔ̄n ?",
-      "phonetic_api": "/buːⁿdé jaː nɔ̄n/",
-      "phonetic_simple": "BOUOUN-DÉ YAA NONN",
-      "translation": "Bonjour. Comment vas-tu ?"
+      "speaker": "Père",
+      "text": "Mbaa. I kendé le?",
+      "phonetic_api": "/mbaː i kende le/",
+      "phonetic_simple": "mbaa, i kèn-dé lé",
+      "translation": "(réponse). Tu vas bien ?"
     },
     {
-      "speaker": "Tamba",
-      "text": "I nɔ̄n kpou. Bale. Vana diali ?",
-      "phonetic_api": "/i nɔ̄n kpu ba.le va.na dja.li/",
-      "phonetic_simple": "I NONN KPOU BA-LÉ VA-NA DJA-LI",
-      "translation": "Je vais bien. Merci. Et la famille ?"
+      "speaker": "Kemo",
+      "text": "Naam, kendé.",
+      "phonetic_api": "/naːm kende/",
+      "phonetic_simple": "naam, kèn-dé",
+      "translation": "Oui, bien."
     },
     {
-      "speaker": "Faya",
-      "text": "O co kpou, bale fiaa.",
-      "phonetic_api": "/o tʃo kpu ba.le fjaː/",
-      "phonetic_simple": "O TCHO KPOU BA-LÉ FIA-A",
-      "translation": "Ils vont bien, merci beaucoup."
+      "speaker": "Kemo",
+      "text": "Yandii, ke yá.",
+      "phonetic_api": "/jandiː ke ja/",
+      "phonetic_simple": "yan-dii, ké ya",
+      "translation": "S'il te plaît, donne-moi (le)."
+    },
+    {
+      "speaker": "Père",
+      "text": "Baleka o le walo.",
+      "phonetic_api": "/baleka o le walo/",
+      "phonetic_simple": "ba-lé-ka o lé wa-lo",
+      "translation": "Merci pour ce travail-là."
+    },
+    {
+      "speaker": "Kemo",
+      "text": "Hakató, ndé kɛ́la.",
+      "phonetic_api": "/hakato nde kɛla/",
+      "phonetic_simple": "ha-ka-to, ndé ké-la",
+      "translation": "Excuse-moi, oncle."
     }
   ],
   "cultural_notes": [
-    "Chez les Kissi, la salutation du matin ('Yaa nɔ̄n') fait directement référence au sommeil. Ne pas saluer longuement ses voisins et s'enquérir de l'état de toute leur maisonnée est considéré comme un manque de respect important ou un signe d'animosité."
+    "Le kissi possède son propre mot autochtone pour saluer, laossɛ, cité comme exemple lexical de base dans les descriptions phonologiques de la langue (Wikipédia, article « Kissi (langue) ») ; c'est le mot à privilégier pour dire simplement bonjour/salut en toute situation.",
+    "Les salutations en pays kissi respectent une hiérarchie d'âge et de statut : on salue en général les aînés en premier, et le vocabulaire de politesse est étroitement lié à celui de la parenté (keke = père, mama = grand-mère/femme respectée) selon les travaux ethnographiques de Denise Paulme sur les Kissi de Haute-Guinée.",
+    "À côté de laossɛ, certains termes de politesse kissi comme 'baleka', 'nikene' ou 'hakató' sont des emprunts anciens au mandé (maninka) et à l'arabe via le mandingue, signe des contacts historiques entre les Kissi et les populations mandé voisines, documentés par G. Tucker Childs (2002) ; ils restent d'usage courant mais dans des registres/contextes plus spécifiques que laossɛ."
   ],
   "exercises": [
     {
-      "exercise_id": "ex1_1",
+      "exercise_id": "ex0",
       "type": "multiple_choice",
-      "question": "Quelle expression utilise-t-on pour dire 'Merci beaucoup' ?",
+      "question": "Comment dit-on « bonjour / salut » en kissi, de façon générale et à toute heure ?",
       "options": [
-        "Bale fiaa",
-        "Buundé",
-        "Hana cɔwɔ̄"
+        "laossɛ",
+        "nikene",
+        "baleka"
       ],
-      "correct_answer": "Bale fiaa",
-      "explanation": "'Bale' signifie merci, et 'fiaa' signifie beaucoup ou grandement."
+      "correct_answer": "laossɛ",
+      "explanation": "« Laossɛ » est le mot kissi générique pour saluer, attesté dans les descriptions phonologiques du kissi (Wikipédia, « Kissi (langue) ») ; « nikene » est un emprunt mandé réservé à la salutation du matin."
     },
     {
-      "exercise_id": "ex1_2",
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Comment dit-on « merci » en kissi (formule générale) ?",
+      "options": [
+        "baleka",
+        "hakató",
+        "naam"
+      ],
+      "correct_answer": "baleka",
+      "explanation": "« Baleka » est le remerciement général attesté par G. Tucker Childs (2002)."
+    },
+    {
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "O co wa [ ___ ]. (Il n'est pas là)",
-      "correct_answer": "le",
-      "hint": "Particule négative obligatoire en fin de proposition"
+      "sentence_with_blank": "— Laossɛ ! — [ ___ ].",
+      "correct_answer": "Mbaa",
+      "hint": "C'est la réponse rituelle à toute salutation."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "G. Tucker Childs, « Borrowings into Kisi as Evidence of Mande Expansionism and Influence », Journal of West African Languages 29-2 (2002)",
+      "url": "https://scispace.com/pdf/borrowings-into-kisi-as-evidence-of-mande-expansionism-and-3zquof59kt.pdf"
+    },
+    {
+      "label": "Denise Paulme, Les Gens du riz : les Kissi de Haute-Guinée, chap. 6 (WebGuinée)",
+      "url": "https://www.webguinee.net/bibliotheque/ethnographie/kisi/dpaulme/chap06.html"
+    },
+    {
+      "label": "Master Any Language — Kissi Common Phrases",
+      "url": "https://www.masteranylanguage.com/c/r/en/Kissi/CommonPhrases/o/ql001"
+    },
+    {
+      "label": "Ethnologue — Kissi, Northern (kqs)",
+      "url": "https://www.ethnologue.com/language/kqs/"
+    },
+    {
+      "label": "Wikipédia — « Kissi (langue) » (tableau de phonologie citant laossɛ comme mot de salutation)",
+      "url": "https://fr.wikipedia.org/wiki/Kissi_(langue)"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Correction du 23/08/2026 : le mot générique et autochtone pour saluer en kissi, laossɛ, avait été omis de la version précédente de cette leçon ; il est attesté comme exemple lexical dans les tableaux de phonologie de l'article Wikipédia « Kissi (langue) » (version française et miroir de la version anglaise), traduit « salutation ». Les autres mots de politesse (baleka, ntiwali, nikene, mbaa, hakató, yandii, naam, kendé) restent attestés dans l'article académique de Childs (2002) sur les emprunts mandé/arabes en kissi — ce sont des mots réellement employés en kissi, mais dans des registres plus spécifiques (nikene = salutation du matin, mbaa = réponse à une salutation) que le mot générique laossɛ. Aucune source ne fournit un dialogue kissi authentique de salutation prêt à l'emploi — le dialogue ci-dessus est construit à partir de ces mots vérifiés, et la formule exacte 'au revoir' n'a pas pu être confirmée dans les sources consultées."
 }

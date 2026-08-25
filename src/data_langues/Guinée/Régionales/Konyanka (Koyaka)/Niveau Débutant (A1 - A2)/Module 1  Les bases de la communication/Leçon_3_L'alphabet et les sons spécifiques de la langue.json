@@ -6,144 +6,226 @@
   "lesson_number": 3,
   "title": "L'alphabet et les sons spécifiques de la langue",
   "learning_objectives": [
-    "Maîtriser le système de notation de la langue konyanka",
-    "Prononcer correctement les consonnes doubles et nasales complexes",
-    "Différencier les tons haut et bas sur les voyelles"
+    "Identifier les voyelles orales et nasales du continuum maninka/malinké dont relève le Konyanka",
+    "Reconnaître les tons haut et bas comme porteurs de sens",
+    "Distinguer les consonnes propres à cette famille dialectale (ny, gb, kh)",
+    "Situer l'écriture N'Ko et l'alphabet 'konia' local face à l'alphabet latin"
   ],
   "phonetic_focus": {
-    "key_sounds": "Le konyanka utilise des consonnes co-articulées comme 'gb' et 'kp' qui se prononcent en un seul mouvement simultané de la gorge et des lèvres. Les voyelles peuvent être courtes ou longues (doublées graphiquement) et portent une modulation tonale indispensable au sens.",
-    "common_pitfalls": "Éviter de dissocier le 'g' et le 'b' dans 'gb'. Ne dites pas 'g-b', mais bloquez l'air simultanément pour relâcher le son d'un coup sec."
+    "key_sounds": "7 voyelles orales (i, e, ɛ, a, ɔ, o, u), leurs équivalents nasaux, et un système tonal à deux niveaux (haut/bas) qui change le sens des mots. Consonnes composées : ny [ɲ], gb [ɡ͜b].",
+    "common_pitfalls": "Les francophones ignorent souvent le ton (ex. bà = mère selon le ton, un autre sens selon un autre ton) et prononcent 'gb' comme un simple 'g' alors qu'il s'agit d'une occlusive labio-vélaire double."
   },
   "vocabulary": [
     {
       "word_id": "v1",
-      "term": "Gbe",
-      "phonetic_api": "/ɡ͡be/",
-      "phonetic_simple": "GBE",
-      "translation": "Clair / Blanc / Pur",
-      "example_sentence": "Ji gbe le.",
-      "example_phonetic": "/d͡ʒi ɡ͡be le/",
-      "example_translation": "C'est de l'eau claire."
+      "term": "a",
+      "phonetic_api": "[a]",
+      "phonetic_simple": "a",
+      "translation": "voyelle a (orale)",
+      "example_sentence": "Fa",
+      "example_phonetic": "[fa]",
+      "example_translation": "père"
     },
     {
       "word_id": "v2",
-      "term": "Kpe",
-      "phonetic_api": "/k͡pe/",
-      "phonetic_simple": "KPE",
-      "translation": "Sec / Tassé",
-      "example_sentence": "Malo kpe.",
-      "example_phonetic": "/ma.lo k͡pe/",
-      "example_translation": "Le riz est sec."
+      "term": "an",
+      "phonetic_api": "[ã]",
+      "phonetic_simple": "an (nasal)",
+      "translation": "voyelle a nasalisée",
+      "example_sentence": "An bè kola",
+      "example_phonetic": "[an bɛ kola]",
+      "example_translation": "Au revoir (litt. nous restons)"
     },
     {
       "word_id": "v3",
-      "term": "Ɲa",
-      "phonetic_api": "/ɲa/",
-      "phonetic_simple": "NYA",
-      "translation": "Œil / Visage",
-      "example_sentence": "A ɲa bɛ kɛnɛma.",
-      "example_phonetic": "/a ɲa bɛ kɛ.nɛ.ma/",
-      "example_translation": "Ses yeux vont bien (sa vue est bonne)."
+      "term": "ny",
+      "phonetic_api": "[ɲ]",
+      "phonetic_simple": "gn",
+      "translation": "consonne palatale nasale",
+      "example_sentence": "Nyari",
+      "example_phonetic": "[ɲari]",
+      "example_translation": "chat"
     },
     {
       "word_id": "v4",
-      "term": "Ŋana",
-      "phonetic_api": "/ŋa.na/",
-      "phonetic_simple": "NGA-NA",
-      "translation": "Héros / Champion (le 'ŋ' se prononce comme le 'ng' du mot 'parking')",
-      "example_sentence": "Cɛ ŋana le.",
-      "example_phonetic": "/t͡ʃɛ ŋa.na le/",
-      "example_translation": "C'est un homme vaillant."
+      "term": "gb",
+      "phonetic_api": "[ɡ͜b]",
+      "phonetic_simple": "gb (occlusive double)",
+      "translation": "consonne labio-vélaire",
+      "example_sentence": "Gbèman",
+      "example_phonetic": "[ɡ͜bɛman]",
+      "example_translation": "blanc"
     },
     {
       "word_id": "v5",
-      "term": "Da",
-      "phonetic_api": "/da/",
-      "phonetic_simple": "DA",
-      "translation": "Bouche / Porte",
-      "example_sentence": "Da tugu.",
-      "example_phonetic": "/da tu.ɡu/",
-      "example_translation": "Ferme la porte."
+      "term": "kh / x",
+      "phonetic_api": "[x]",
+      "phonetic_simple": "kh (fricative gutturale)",
+      "translation": "consonne fricative vélaire, présente dans certaines variétés maninka/malinké",
+      "example_sentence": "I xa kɛndɛ?",
+      "example_phonetic": "[i xa kɛndɛ]",
+      "example_translation": "Comment vas-tu ? (variante avec x/kh)"
+    },
+    {
+      "word_id": "v6",
+      "term": "tɛ",
+      "phonetic_api": "[tɛ]",
+      "phonetic_simple": "tè",
+      "translation": "particule de négation (présent/futur)",
+      "example_sentence": "Tana tɛ",
+      "example_phonetic": "[tana tɛ]",
+      "example_translation": "Il n'y a pas de mal"
+    },
+    {
+      "word_id": "v7",
+      "term": "ɔ",
+      "phonetic_api": "[ɔ]",
+      "phonetic_simple": "o ouvert",
+      "translation": "voyelle ouverte mi-fermée",
+      "example_sentence": "Kɔnɔ",
+      "example_phonetic": "[kɔnɔ]",
+      "example_translation": "oiseau (à ton bas) / ventre (à ton haut)"
     }
   ],
   "common_phrases": [
     {
       "phrase_id": "p1",
-      "original": "A fɔ konyanka kan na.",
-      "phonetic_api": "/a fɔ ko.ɲan.ka kan na/",
-      "phonetic_simple": "A FƆ KO-NYAN-KA KAN NA",
-      "translation": "Dis-le en langue konyanka.",
-      "context": "Utilisé en classe ou lors d'un échange pour s'exercer à la prononciation locale."
+      "original": "Kɔ̀nɔ̀ / Kɔ́nɔ̀",
+      "phonetic_api": "[kɔ̀nɔ̀] / [kɔ́nɔ̀]",
+      "phonetic_simple": "ko-no (ton bas) / KO-no (ton haut)",
+      "translation": "un oiseau / un ventre",
+      "context": "Exemple classique illustrant l'opposition tonale dans le continuum maninka"
     },
     {
       "phrase_id": "p2",
-      "original": "N'ma a mɛn bɛrɛbɛrɛ.",
-      "phonetic_api": "/nma a mɛn bɛ.rɛ.bɛ.rɛ/",
-      "phonetic_simple": "N-MA A MÈN BÈ-RÈ-BÈ-RÈ",
-      "translation": "Je n'ai pas bien entendu / compris.",
-      "context": "Pratique lorsque l'interlocuteur parle trop vite ou articule mal un son complexe."
+      "original": "N'Ko",
+      "phonetic_api": "[ŋ.ko]",
+      "phonetic_simple": "n-ko",
+      "translation": "écriture N'Ko (litt. « je dis »)",
+      "context": "Système d'écriture créé en 1949 par Solomana Kanté à Kankan, utilisé pour transcrire les langues manding dont le continuum maninka/malinké"
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Ba",
+      "phonetic_api": "[ba]",
+      "phonetic_simple": "ba",
+      "translation": "chèvre (mot court illustrant la voyelle orale simple 'a')",
+      "context": "Exemple de mot monosyllabique CV utilisé pour l'entraînement à la prononciation des voyelles orales"
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Kɔnɔ ka di",
+      "phonetic_api": "[kɔnɔ ka di]",
+      "phonetic_simple": "ko-no-ka-di",
+      "translation": "L'oiseau est agréable / le ventre va bien (selon le ton)",
+      "context": "Illustre concrètement l'importance du ton pour distinguer 'oiseau' et 'ventre' dans une phrase complète"
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'importance des tons et la longueur des voyelles",
-      "explanation": "En konyanka, le changement de ton (hauteur de la voix) ou le doublement d'une voyelle modifie radicalement le sens d'un mot orthographié de manière similaire.",
+      "concept": "Le ton comme unité distinctive",
+      "explanation": "Dans le continuum maninka/malinké-konyanka, deux mots peuvent s'écrire de façon identique en alphabet latin mais avoir un sens différent selon le ton porté par la voyelle.",
       "rules": [
-        "Les voyelles simples (a, e, ɛ, i, o, ɔ, u) ont une durée courte.",
-        "Le doublement de la voyelle (aa, ee, oo) indique un allongement vocalique indispensable."
+        "Le ton haut est souvent marqué par un accent aigu (´) dans les transcriptions académiques",
+        "Le ton bas est souvent marqué par un accent grave (`)",
+        "L'orthographe pratique courante (Malinkuia, presse) omet généralement les tons, laissant le contexte lever l'ambiguïté"
       ],
       "examples": [
         {
-          "structure": "Ba (court)",
-          "phonetic_api": "/ba/",
-          "meaning": "Mère / Grand"
+          "structure": "kɔ̀nɔ̀ (ton bas-bas)",
+          "phonetic_api": "[kɔ̀nɔ̀]",
+          "meaning": "un oiseau"
         },
         {
-          "structure": "Baa (long)",
-          "phonetic_api": "/baː/",
-          "meaning": "Chèvre"
+          "structure": "kɔ́nɔ̀ (ton haut-bas)",
+          "phonetic_api": "[kɔ́nɔ̀]",
+          "meaning": "un ventre"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Sékou",
-      "text": "I bɛ se ka n'demun nin fɔ la?",
-      "phonetic_api": "/i bɛ se ka nde.mun nin fɔ la/",
-      "phonetic_simple": "I BÈ SÉ KA N-DÉ-MOUN NIN FƆ LA",
-      "translation": "Peux-tu m'aider à prononcer ceci ?"
+      "speaker": "Karamoo",
+      "text": "I ye kɔnɔ fɔ wa a kɔnɔ?",
+      "phonetic_api": "[i je kɔnɔ fɔ wa a kɔnɔ]",
+      "phonetic_simple": "i-yé-ko-no-fo-wa-a-ko-no",
+      "translation": "As-tu dit 'oiseau' ou 'ventre' ?"
     },
     {
-      "speaker": "Mariama",
-      "text": "Hali tana t'ɛ fɔ gbe!",
-      "phonetic_api": "/ha.li ta.na tɛ fɔ ɡe/",
-      "phonetic_simple": "HA-LI TA-NA TÈ FƆ GBÉ",
-      "translation": "Pas de problème, dis-le clairement !"
+      "speaker": "Karanden",
+      "text": "N y'a fɔ kɔ̀nɔ̀, kɔnɔnin.",
+      "phonetic_api": "[n ja fɔ kɔ̀nɔ̀ kɔnɔnin]",
+      "phonetic_simple": "n-ya-fo-ko-no, ko-no-nin",
+      "translation": "J'ai dit 'kɔ̀nɔ̀', le petit oiseau."
+    },
+    {
+      "speaker": "Karamoo",
+      "text": "I y'a mɛn ko gbèman ye mun ye?",
+      "phonetic_api": "[i ja mɛn ko ɡ͜bɛman je mun je]",
+      "phonetic_simple": "i-ya-mèn-ko-gbè-man-yé-mun-yé",
+      "translation": "As-tu entendu ce que signifie 'gbèman' ?"
+    },
+    {
+      "speaker": "Karanden",
+      "text": "Awa, gbèman ye kulɛri le ti, a kɔrɔ ye 'blanc' ti.",
+      "phonetic_api": "[awa ɡ͜bɛman je kulɛri le ti a kɔrɔ je blanc ti]",
+      "phonetic_simple": "a-wa, gbè-man-yé-kou-lè-ri-lé-ti",
+      "translation": "Oui, 'gbèman' est une couleur, son sens est 'blanc'."
     }
   ],
   "cultural_notes": [
-    "La tradition orale konyanka accorde une grande importance à l'éloquence et à la justesse de l'articulation. Un bon locuteur sait manier les inflections de voix pour nuancer le respect dû aux anciens."
+    "En Guinée, le maninka/malinké — dont le Konyanka est une variété — s'écrit soit en alphabet latin (orthographe officielle depuis 1988, héritière d'une orthographe antérieure de la Première République 1958-1984), soit en écriture N'Ko, créée par Solomana Kanté à Kankan en 1949.",
+    "À Beyla, zone principale du Konyanka, un alphabet local dit « konia » est utilisé pour transcrire ce parler (Langues de Guinée — fr-academic).",
+    "Aucune orthographe standardisée propre et spécifique au Konyanka n'a été recensée dans les sources consultées : les locuteurs utilisent le plus souvent l'alphabet latin du maninka de Guinée ou le N'Ko, communs à l'ensemble du continuum manding."
   ],
   "exercises": [
     {
-      "exercise_id": "ex1",
-      "type": "multiple_choice",
-      "question": "Comment se prononce la consonne orthographiée 'ɲ' ?",
+      "exercise_id": "e1",
+      "type": "choix_multiple",
+      "question": "Qu'est-ce qui distingue 'un oiseau' (kɔ̀nɔ̀) de 'un ventre' (kɔ́nɔ̀) dans le continuum maninka ?",
       "options": [
-        "Comme le 'gn' français dans 'gagner'",
-        "Comme un 'g' dur",
-        "Comme un 'p' aspiré"
+        "L'orthographe latine",
+        "Le ton",
+        "La longueur de la voyelle",
+        "Le genre grammatical"
       ],
-      "correct_answer": "Comme le 'gn' français dans 'gagner'",
-      "explanation": "Le 'ɲ' est une consonne nasale palatale qui correspond exactement au son 'gn' en français."
+      "correct_answer": "Le ton",
+      "explanation": "Les deux mots ont la même suite de phonèmes mais des tons différents (bas-bas vs haut-bas)."
     },
     {
-      "exercise_id": "ex2",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Ji [ ___ ] le (C'est de l'eau claire).",
-      "correct_answer": "gbe",
-      "hint": "Utilise la consonne double labio-vélaire"
+      "exercise_id": "e2",
+      "type": "traduction",
+      "question": "Quel système d'écriture a été créé en 1949 par Solomana Kanté à Kankan ?",
+      "correct_answer": "Le N'Ko",
+      "explanation": "Le N'Ko est un système d'écriture spécifique aux langues manding, créé à Kankan en Guinée."
+    },
+    {
+      "exercise_id": "e3",
+      "type": "texte_a_trous",
+      "sentence_with_blank": "Le son 'ny' se prononce [___] comme dans 'nyari' (chat).",
+      "correct_answer": "ɲ",
+      "explanation": "'ny' transcrit la consonne palatale nasale [ɲ], équivalente au 'gn' français."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Malinkuia — Introduction à la langue malinké (grammaire complète, variété du Wulada, Haute-Guinée)",
+      "url": "https://fr.scribd.com/document/499114939/Malinkuia"
+    },
+    {
+      "label": "An ka taa — Maninka/Malinké greetings and phrases",
+      "url": "https://www.ankataa.com/maninka-greetings-and-phrases"
+    },
+    {
+      "label": "Wikipédia — Konyanka (classification, géographie, codes ISO/Glottolog)",
+      "url": "https://fr.wikipedia.org/wiki/Konyanka"
+    },
+    {
+      "label": "Langues de Guinée (fr-academic) — répartition géographique, alphabet konia",
+      "url": "https://fr-academic.com/dic.nsf/frwiki/971120"
+    }
+  ],
+  "confidence": "faible",
+  "confidence_note": "Le système tonal et phonologique décrit ici est celui, bien documenté, du maninka/malinké de Guinée (continuum dont le Konyanka fait partie). Aucune source ne détaille la phonologie spécifique du Konyanka lui-même (aucun inventaire consonantique, tonal ou vocalique propre n'a été trouvé) : la confiance est donc faible quant à l'exactitude phonologique précise pour cette variété particulière, bien qu'élevée pour le continuum manding-est en général."
 }

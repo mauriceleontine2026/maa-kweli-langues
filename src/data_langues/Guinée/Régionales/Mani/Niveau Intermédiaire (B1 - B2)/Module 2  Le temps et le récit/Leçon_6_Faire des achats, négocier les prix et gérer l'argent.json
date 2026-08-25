@@ -1,179 +1,180 @@
 {
   "lesson_id": "B1_M2_L6",
-  "level": "Intermédiaire (B1-B2)",
+  "level": "Niveau Intermédiaire (B1 - B2)",
   "module_number": 2,
   "module_title": "Le temps et le récit",
   "lesson_number": 6,
   "title": "Faire des achats, négocier les prix et gérer l'argent",
   "learning_objectives": [
-    "Demander le prix d'un produit ou d'une marchandise au marché en Mani",
-    "Négocier un coût et exprimer la cherté ou l'accessibilité financière",
-    "Gérer les transactions monétaires basiques et compter les sommes courantes"
+    "Utiliser les nombres mani pour indiquer une quantité ou un prix",
+    "Comprendre l'origine des mots pour 'cent' en mani (emprunt et calque)",
+    "Reconnaître les limites de la documentation sur le vocabulaire commercial"
   ],
   "phonetic_focus": {
-    "key_sounds": "Le phonème /w/ initial dans 'wɔni' ou 'wɔli' exige un arrondissement marqué des lèvres. La voyelle fermée /u/ dans 'gbeŋu' doit garder une résonance brève et tendue, sans diphtongaison.",
-    "common_pitfalls": "Attention à ne pas assimiler le 'g' de 'gbeŋu' à un 'k'. Marquez bien la sonorité de l'occlusive vélaire voisée /ɡ/."
+    "key_sounds": "Le mani distingue 8 voyelles (i, e, ɛ, a, ɔ, o, u, ə) et des consonnes prénasalisées (mp, nt/nd, ŋk) ainsi qu'une labiovélaire /gb/ absentes du français. Le ton (registre haut/bas) est phonémique (Childs 2011, ch.2).",
+    "common_pitfalls": "Les francophones ont tendance à ne pas distinguer ɛ/e et ɔ/o, à simplifier les consonnes prénasalisées en de simples séquences nasale+consonne, et à ignorer les contrastes de ton, qui changent pourtant le sens ou la fonction grammaticale du mot (ex. hortatif vs perfectif marqués uniquement par le ton)."
   },
   "vocabulary": [
     {
-      "word_id": "v15_1",
-      "term": "gbeŋu",
-      "phonetic_api": "/ɡbe.ŋu/",
-      "phonetic_simple": "GBÉ-NGOU",
-      "translation": "argent / monnaie / richesse",
-      "example_sentence": "N bɛ ni gbeŋu sɔm.",
-      "example_phonetic": "/n̩ bɛ ni ɡbe.ŋu sɔm/",
-      "example_translation": "J'ai un peu d'argent."
+      "word_id": "v1",
+      "term": "keme",
+      "phonetic_api": "/kɛmɛ/",
+      "phonetic_simple": "KÉ-MÉ",
+      "translation": "cent (emprunt direct au soso, lié au mot pour 'pierre' dans les langues mandées)"
     },
     {
-      "word_id": "v15_2",
-      "term": "wɔni",
-      "phonetic_api": "/wɔ.ni/",
-      "phonetic_simple": "WƆ-NI",
-      "translation": "prix / coût / valeur",
-      "example_sentence": "Wɔni bɛ gbun.",
-      "example_phonetic": "/wɔ.ni bɛ ɡbun/",
-      "example_translation": "Le prix est grand (c'est cher)."
+      "word_id": "v2",
+      "term": "pe",
+      "phonetic_api": "/pɛ/",
+      "phonetic_simple": "PÈ",
+      "translation": "cent (forme alternative mani, identique au mot pour 'pierre' — un calque du soso)"
     },
     {
-      "word_id": "v15_3",
-      "term": "yila",
-      "phonetic_api": "/ji.la/",
-      "phonetic_simple": "YI-LA",
-      "translation": "acheter / acquérir par troc",
-      "example_sentence": "N haani yila nin.",
-      "example_phonetic": "/n̩ haː.ni ji.la nin/",
-      "example_translation": "Je veux acheter du poisson."
+      "word_id": "v3",
+      "term": "wulu",
+      "phonetic_api": "/wulu/",
+      "phonetic_simple": "OU-LOU",
+      "translation": "mille (mot propre au mani, contrairement à 'cent')"
     },
     {
-      "word_id": "v15_4",
-      "term": "tari",
-      "phonetic_api": "/ta.ri/",
-      "phonetic_simple": "TA-RI",
-      "translation": "vendre / échanger / céder",
-      "example_sentence": "A bɛ tari guba furi-furi-ee.",
-      "example_phonetic": "/a bɛ ta.ri ɡu.ba fu.ri fu.ri eː/",
-      "example_translation": "Elle vend un tissu blanc."
+      "word_id": "v4",
+      "term": "kili",
+      "phonetic_api": "/kili/",
+      "phonetic_simple": "KI-LI",
+      "translation": "donner"
     },
     {
-      "word_id": "v15_5",
-      "term": "sɔm-lala",
-      "phonetic_api": "/sɔm la.la/",
-      "phonetic_simple": "SƆM-LA-LA",
-      "translation": "diminuer / rabaisser / réduire",
-      "example_sentence": "Kɔŋ, sɔm-lala wɔni.",
-      "example_phonetic": "/kɔŋ sɔm la.la wɔ.ni/",
-      "example_translation": "S'il te plaît, diminue le prix."
+      "word_id": "v5",
+      "term": "kwɛ",
+      "phonetic_api": "/kwɛ/",
+      "phonetic_simple": "KOUÈ",
+      "translation": "prendre"
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p15_1",
-      "original": "Guba lɔ, wɔni bɛ nɛ ?",
-      "phonetic_api": "/ɡu.ba lɔ wɔ.ni bɛ nɛ/",
-      "phonetic_simple": "GOU-BA LƆ, WƆ-NI BÈ NÈ ?",
-      "translation": "Ce vêtement, quel est son prix ?",
-      "context": "Demander le coût d'un tissu ou habit à un marchand."
+      "phrase_id": "p1",
+      "original": "keme / pe",
+      "phonetic_api": "/kɛmɛ/, /pɛ/",
+      "phonetic_simple": "KÉ-MÉ / PÈ",
+      "translation": "cent",
+      "context": "Deux formes attestées pour 'cent' : l'une emprunt direct au soso (keme), l'autre un calque interne utilisant le mot mani pour 'pierre' (pe), Childs 2011, ch.4."
     },
     {
-      "phrase_id": "p15_2",
-      "original": "Wɔni bɛ gbun cece, sɔm-lala kɔŋ !",
-      "phonetic_api": "/wɔ.ni bɛ ɡbun tʃe.tʃe sɔm la.la kɔŋ/",
-      "phonetic_simple": "WƆ-NI BÈ GBOUN TCHÉ-TCHÉ, SƆM-LA-LA KONG !",
-      "translation": "Le prix est trop grand, diminue s'il te plaît !",
-      "context": "Formule de négociation courante face à un coût jugé excessif."
+      "phrase_id": "p2",
+      "original": "usu bilu kɔ cem kwɛ uba",
+      "phonetic_api": "/usu bilu kɔ tʃɛm kwɛ uba/",
+      "phonetic_simple": "OU-SOU BI-LOU KO TCHÈM KOUÈ OU-BA",
+      "translation": "Un seul doigt ne soulève pas un palmier.",
+      "context": "Proverbe authentique employant le verbe 'prendre/soulever' (kwɛ), utile pour illustrer la coopération nécessaire dans le commerce ou le travail collectif (Childs 2011, appendice 1)."
     },
     {
-      "phrase_id": "p15_3",
-      "original": "N ce yila mɛl ni gbeŋu mɛlɛŋ.",
-      "phonetic_api": "/n̩ tʃe ji.la mɛl ni ɡbe.ŋu mɛ.lɛŋ/",
-      "phonetic_simple": "N TCHÉ YI-LA MÈL NI GBÉ-NGOU MÈ-LÈNG",
-      "translation": "Je vais acheter du riz avec deux pièces d'argent.",
-      "context": "Annoncer une transaction commerciale simple."
+      "phrase_id": "p3",
+      "original": "bulunɔ ce kɔndi it-ɛpailaiyɔ ali kɔ pin kara",
+      "phonetic_api": "/bulunɔ tʃɛ kɔndi it ɛpailajɔ ali kɔ pin kara/",
+      "phonetic_simple": "BOU-LOU-NO TCHÉ KON-DI IT-É-PAI-LAI-YO A-LI KO PIN KA-RA",
+      "translation": "Le fermier est allé au marché pour acheter une houe.",
+      "context": "Exemple attesté mentionnant le marché (ɛpailaiyɔ) et l'achat (pin) — Childs 2011, ex.363a."
     },
     {
-      "phrase_id": "p15_4",
-      "original": "N bɛ ni gbeŋu bulu fɔkɔ.",
-      "phonetic_api": "/n̩ bɛ ni ɡbe.ŋu bu.lu fɔ.kɔ/",
-      "phonetic_simple": "N BÈ NI GBÉ-NGOU BOU-LOU FƆ-KƆ",
-      "translation": "Il me reste une seule pièce d'argent (une pièce est venue).",
-      "context": "Faire le point sur ses finances à la fin du marché."
+      "phrase_id": "p4",
+      "original": "bari wɔ hi kopɛr, wɔ mi mar",
+      "phonetic_api": "/bari wɔ hi kɔpɛr wɔ mi mar/",
+      "phonetic_simple": "BA-RI WO HI KO-PÈR, WO MI MAR",
+      "translation": "Puisqu'elle a de l'argent, elle m'aidera.",
+      "context": "Illustre l'usage du mot attesté 'kopɛr' (argent) dans une structure causale, utile pour parler de moyens financiers (Childs 2011, ex.365a)."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'expression du prix et de la qualification monétaire",
-      "explanation": "Pour traduire la notion de cherté en Mani, on associe le substantif 'wɔni' (prix) à l'adjectif qualificatif de taille 'gbun' (grand). Le coût ou la monnaie d'échange est introduit par le connecteur d'accompagnement 'ni' (avec/et) après le verbe de transaction.",
+      "concept": "Emprunt et calque dans le lexique numérique commercial",
+      "explanation": "Le mot mani pour 'cent' existe sous deux formes : un emprunt phonétique direct au soso (keme, lié au mot mandé pour 'pierre', kime) et un calque sémantique interne, où le mani a simplement réutilisé son propre mot pour 'pierre' (pe) avec le sens de 'cent', suivant le modèle du soso (Childs 2011, ch.4). Ce doublet illustre deux stratégies différentes d'emprunt sous pression linguistique.",
       "rules": [
-        "Cher = 'wɔni bɛ gbun' (le prix est grand).",
-        "Acheter quelque chose avec de l'argent = Verbe 'yila' + Objet + ni + gbeŋu."
+        "'keme' = emprunt direct de la forme sonore du soso.",
+        "'pe' = calque : réutilisation du sens grâce à un mot mani déjà existant ('pierre').",
+        "'wulu' (mille) reste un mot propre au mani, sans emprunt apparent."
       ],
       "examples": [
         {
-          "structure": "wɔni sɔm",
-          "phonetic_api": "/wɔ.ni sɔm/",
-          "meaning": "petit prix (bon marché)"
-        },
-        {
-          "structure": "yila ni gbeŋu",
-          "phonetic_api": "/ji.la ni ɡbe.ŋu/",
-          "meaning": "acheter avec de l'argent"
+          "structure": "keme (empr.) vs pe (calque)",
+          "phonetic_api": "/kɛmɛ/ vs /pɛ/",
+          "meaning": "les deux formes pour 'cent'"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Marie",
-      "text": "Mboi mami ! Wun bɛ ni nin yoma hɔnkɔ lɔ ?",
-      "phonetic_api": "/mboi ma.mi wun bɛ ni nin jo.ma hɔn.kɔ lɔ/",
-      "phonetic_simple": "MBOÏ MA-MI ! WOUN BÈ NI NIN YO-MA HON-KƆ LƆ ?",
-      "translation": "Bonjour amie ! As-tu du bon poisson aujourd'hui ?"
+      "speaker": "Acheteur",
+      "text": "nyɔyɛ ke mo yema? (Combien en veux-tu ?)",
+      "phonetic_api": "/ɲɔjɛ kɛ mo jɛma/",
+      "phonetic_simple": "NYO-YÈ KÉ MO YÉ-MA",
+      "translation": "Combien en veux-tu ? (structure reconstruite)"
     },
     {
-      "speaker": "Fanta",
-      "text": "Oon Marie ! Nin gbun bɛ lɔ. Wɔni bɛ gbeŋu raŋ.",
-      "phonetic_api": "/oːn ma.ri nin ɡbun bɛ lɔ wɔ.ni bɛ ɡbe.ŋu raŋ/",
-      "phonetic_simple": "OON MA-RI ! NIN GBOUN BÈ LƆ. WƆ-NI BÈ GBÉ-NGOU RANG.",
-      "translation": "Oui Marie ! Un grand poisson est ici. Le prix est de trois pièces d'argent."
+      "speaker": "Vendeur",
+      "text": "keme bu, kena.",
+      "phonetic_api": "/kɛmɛ bu, kɛna/",
+      "phonetic_simple": "KÉ-MÉ BOU, KÉ-NA",
+      "translation": "Cent (francs), s'il te plaît."
     },
     {
-      "speaker": "Marie",
-      "text": "AIE ! Wɔni bɛ gbun cece. Kɔŋ, sɔm-lala ni gbeŋu mɛlɛŋ !",
-      "phonetic_api": "/ai wɔ.ni bɛ ɡbun tʃe.tʃe kɔŋ sɔm la.la ni ɡbe.ŋu mɛ.lɛŋ/",
-      "phonetic_simple": "AÏE ! WƆ-NI BÈ GBOUN TCHÉ-TCHÉ. KONG, SƆM-LA-LA NI GBÉ-NGOU MÈ-LÈNG !",
-      "translation": "Aïe ! Le prix est trop grand. S'il te plaît, diminue à deux pièces d'argent !"
+      "speaker": "Acheteur",
+      "text": "kili mi de, ya kili mo keme.",
+      "phonetic_api": "/kili mi dɛ, ja kili mo kɛmɛ/",
+      "phonetic_simple": "KI-LI MI DÉ, YA KI-LI MO KÉ-MÉ",
+      "translation": "Donne-moi le riz, je te donne cent (francs). (structure reconstruite)"
     },
     {
-      "speaker": "Fanta",
-      "text": "Yoma a ra ! Kperɛ mi gbeŋu mɛlɛŋ. Nin na lɔ. Cece !",
-      "phonetic_api": "/jo.ma a ra kpe.rɛ mi ɡbe.ŋu mɛ.lɛŋ nin na lɔ tʃe.tʃe/",
-      "phonetic_simple": "YO-MA A RA ! KPE-RÈ MI GBÉ-NGOU MÈ-LÈNG. NIN NA LƆ. TCHÉ-TCHÉ !",
-      "translation": "C'est bien ! Donne-moi deux pièces d'argent. Le poisson est là. Merci !"
+      "speaker": "Vendeur",
+      "text": "bari mo hi kopɛr, kili mi de.",
+      "phonetic_api": "/bari mo hi kɔpɛr kili mi dɛ/",
+      "phonetic_simple": "BA-RI MO HI KO-PÈR, KI-LI MI DÉ",
+      "translation": "Puisque tu as de l'argent, donne-moi le riz. (structure reconstruite combinant la causale attestée 'bari...hi kopɛr' et le vocabulaire déjà présent dans ce fichier)"
+    },
+    {
+      "speaker": "Vendeur",
+      "text": "bari mo hi kopɛr, kili mi de.",
+      "phonetic_api": "/bari mo hi kɔpɛr kili mi dɛ/",
+      "phonetic_simple": "BA-RI MO HI KO-PÈR, KI-LI MI DÉ",
+      "translation": "Puisque tu as de l'argent, donne-moi le riz. (structure reconstruite combinant la causale attestée 'bari...hi kopɛr' et le vocabulaire déjà présent dans ce fichier)"
     }
   ],
   "cultural_notes": [
-    "Au marché, dans la tradition côtière des Mani, la négociation n'est pas qu'une transaction financière, c'est un moment d'échange verbal convivial hautement codifié. Accepter immédiatement le premier prix sans discuter ('sɔm-lala') est parfois perçu comme un manque d'intérêt pour la discussion ou pour le travail du producteur."
+    "L'existence de deux mots pour 'cent' (l'un emprunté, l'autre calqué) illustre concrètement, à l'échelle d'un seul mot, la pression exercée par le soso sur le lexique mani (Childs 2011, ch.4).",
+    "Aucune documentation sur les unités monétaires locales historiques ou contemporaines (franc guinéen, leone) n'a été trouvée en mani propre ; les locuteurs utilisent vraisemblablement les termes soso ou français dans la pratique commerciale actuelle."
   ],
   "exercises": [
     {
-      "exercise_id": "ex15_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Que signifie le mot 'gbeŋu' en langue Mani ?",
+      "question": "D'où vient le mot mani « keme » (cent) ?",
       "options": [
-        "Le poisson",
-        "L'argent / la monnaie",
-        "Le marché"
+        "emprunt direct au soso",
+        "mot mani d'origine",
+        "emprunt à l'arabe"
       ],
-      "correct_answer": "L'argent / la monnaie",
-      "explanation": "'Gbeŋu' désigne les ressources financières, la monnaie ou l'argent de manière générale."
+      "correct_answer": "emprunt direct au soso",
+      "explanation": "Childs (2011) explique que 'keme' est un emprunt direct au soso, lui-même lié au mot mandé pour 'pierre' (kime)."
     },
     {
-      "exercise_id": "ex15_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Kɔŋ, [ ___ ] wɔni (S'il te plaît, diminue le prix).",
-      "correct_answer": "sɔm-lala",
-      "hint": "Expression composée signifiant littéralement rendre petit ou abaisser."
+      "sentence_with_blank": "Le mot mani « [ ___ ] » désigne aussi bien 'pierre' que 'cent' par calque du soso.",
+      "correct_answer": "pe",
+      "hint": "C'est la forme alternative attestée pour 'cent'."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Childs, G. Tucker (2011), A Grammar of Mani, Mouton Grammar Library 54, De Gruyter Mouton",
+      "url": "https://theswissbay.ch/pdf/Books/Linguistics/Mega%20linguistics%20pack/African/Niger-Congo/other%20Atlantic-Congo/Bullom%20So;%20A%20Grammar%20of%20Mani%20(Childs).pdf"
+    },
+    {
+      "label": "Glottolog 5.3 — Bullom So (bull1247)",
+      "url": "https://glottolog.org/resource/languoid/id/bull1247"
+    }
+  ],
+  "confidence": "faible",
+  "confidence_note": "Les mots pour cent et mille sont attestés avec leur étymologie précise (Childs 2011, ch.4). Aucun vocabulaire commercial détaillé (marchander, prix, monnaie locale) n'a été trouvé ; les phrases de négociation sont des reconstructions raisonnables à partir d'éléments lexicaux attestés séparément, non des citations directes."
 }

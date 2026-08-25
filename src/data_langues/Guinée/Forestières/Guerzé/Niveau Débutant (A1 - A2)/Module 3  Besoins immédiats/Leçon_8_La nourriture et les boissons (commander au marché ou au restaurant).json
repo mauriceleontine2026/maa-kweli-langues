@@ -6,135 +6,94 @@
   "lesson_number": 8,
   "title": "La nourriture et les boissons (commander au marché ou au restaurant)",
   "learning_objectives": [
-    "Nommer les aliments et boissons de base (riz, eau, sel, piment, vin de palme).",
-    "Exprimer la faim et la soif (pǔlu, gbéle).",
-    "Utiliser le verbe kpěle (boire) et le mot kɔ́nɔŋ (nourriture, repas ; manger).",
-    "Inviter quelqu'un à manger ou à boire poliment."
+    "Nommer les aliments et boissons de base (riz, eau, vin de palme, maïs)",
+    "Utiliser les verbes mǐi (manger) et kpěle (boire)",
+    "Demander le prix d'un produit au marché"
   ],
   "phonetic_focus": {
-    "key_sounds": "Cette leçon revient sur la consonne ɓ (implosive) dans ɓá (riz), déjà rencontrée en Leçon 3, et sur le ton haut de kpǒlo (sel) à ne pas confondre avec kpɔ̌lu (être rouge/mûr), qui partage presque la même forme sonore mais un sens très différent.",
-    "common_pitfalls": "Les francophones ont tendance à : (1) confondre kɔ́nɔŋ (nourriture, repas) avec kɔ̀nɔŋ (moineau, passereau) — seul le ton distingue ces deux mots ; (2) chercher un verbe séparé pour « avoir faim/soif », alors que le kpele utilise des constructions avec pǔlu (faim, nom) et gbéle (avoir soif, littéralement lié au désir de boire) ; (3) oublier que kpěle (boire) est un verbe transitif qui demande un complément (ce qu'on boit)."
+    "key_sounds": "Le verbe mǐi (manger) porte un ton descendant sur sa voyelle longue ; kɔ́nɔŋ (nourriture) a un ton haut sur la première syllabe suivi de deux tons bas.",
+    "common_pitfalls": "Les francophones confondent parfois ɓá (riz cuit/repas) et kɔ́nɔŋ (nourriture en général) : ɓá renvoie spécifiquement au riz avec sa sauce, plat de base de l'alimentation guerzé, alors que kɔ́nɔŋ est le terme générique pour « nourriture, repas »."
   },
   "vocabulary": [
     {
       "word_id": "v1",
-      "term": "ɓá",
-      "phonetic_api": "/ɓá/",
-      "phonetic_simple": "ɓA",
-      "translation": "riz",
-      "example_sentence": "ɓá",
-      "example_phonetic": "/ɓá/",
-      "example_translation": "riz"
-    },
-    {
-      "word_id": "v2",
-      "term": "yá",
-      "phonetic_api": "/yá/",
-      "phonetic_simple": "YA",
-      "translation": "eau",
-      "example_sentence": "Pá à yá !",
-      "example_phonetic": "/pá à yá/",
-      "example_translation": "Apporte de l'eau !"
-    },
-    {
-      "word_id": "v3",
-      "term": "kɔ́nɔŋ",
-      "phonetic_api": "/kɔ́nɔŋ/",
-      "phonetic_simple": "KO-nong",
-      "translation": "nourriture, repas ; manger",
+      "term": "mǐi",
+      "phonetic_api": "/mǐi/",
+      "phonetic_simple": "MI-i",
+      "translation": "manger",
       "example_sentence": "Pá gù kɔ́nɔŋ míi.",
       "example_phonetic": "/pá gù kɔ́nɔŋ míi/",
       "example_translation": "Viens manger."
     },
     {
+      "word_id": "v2",
+      "term": "kɔ́nɔŋ",
+      "phonetic_api": "/kɔ́nɔŋ/",
+      "phonetic_simple": "KO-nong",
+      "translation": "nourriture, repas",
+      "example_sentence": "Pá gù kɔ́nɔŋ míi.",
+      "example_phonetic": "/pá gù kɔ́nɔŋ míi/",
+      "example_translation": "Viens manger (litt. viens manger la nourriture)."
+    },
+    {
+      "word_id": "v3",
+      "term": "ɓá",
+      "phonetic_api": "/ɓá/",
+      "phonetic_simple": "BA",
+      "translation": "riz cuit (avec sauce), repas",
+      "example_sentence": "Ɓá ɓáa gɛ̀ɛ.",
+      "example_phonetic": "/ɓá ɓáa gɛ̀ɛ/",
+      "example_translation": "Le riz (repas) est là."
+    },
+    {
       "word_id": "v4",
-      "term": "kpǒlo",
-      "phonetic_api": "/kpǒlo/",
-      "phonetic_simple": "kpo-lo (ton bas)",
-      "translation": "sel",
-      "example_sentence": "Ŋé pái kpòlo kɔ̀ɔŋ́ jì ŋé ɲǎ.",
-      "example_phonetic": "/ŋé pái kpòlo kɔ̀ɔŋ́ jì ŋé ɲǎ/",
-      "example_translation": "Je vais mesurer du sel pour en acheter."
+      "term": "kpǎi",
+      "phonetic_api": "/kpǎi/",
+      "phonetic_simple": "KPA-i",
+      "translation": "maïs",
+      "example_sentence": "Kpàiɓáɠâ ɓáa hɛ̀ɠɛ̂ɛ.",
+      "example_phonetic": "/kpàiɓáɠâ ɓáa hɛ̀ɠɛ̂ɛ/",
+      "example_translation": "La bouillie de maïs est bonne (litt. merci pour la bouillie de maïs)."
     },
     {
       "word_id": "v5",
-      "term": "kìêŋ",
-      "phonetic_api": "/kìêŋ/",
-      "phonetic_simple": "ki-êng",
-      "translation": "piment",
-      "example_sentence": "Kìéŋ ↓gáa zólui.",
-      "example_phonetic": "/kìéŋ ↓gáa zólui/",
-      "example_translation": "Le piment me pique."
+      "term": "yá",
+      "phonetic_api": "/yá/",
+      "phonetic_simple": "YA",
+      "translation": "eau",
+      "example_sentence": "Gɛ́ ↓ŋé gbéle, yá ɓé kɛ̀ɛ.",
+      "example_phonetic": "/gɛ́ ↓ŋé gbéle yá ɓé kɛ̀ɛ/",
+      "example_translation": "J'ai soif, c'est de l'eau qu'il me faut."
     },
     {
       "word_id": "v6",
-      "term": "lɔ̀ɔ",
-      "phonetic_api": "/lɔ̀ɔ/",
-      "phonetic_simple": "lo-o (ton bas)",
-      "translation": "vin de palme",
-      "example_sentence": "Kú káa lɔ̀ɔ ́ kpèlêi.",
+      "term": "kpěle",
+      "phonetic_api": "/kpěle/",
+      "phonetic_simple": "KPÈ-lè",
+      "translation": "boire",
+      "example_sentence": "Kú káa lɔ̀ɔ́ kpèlêi.",
       "example_phonetic": "/kú káa lɔ̀ɔ́ kpèlêi/",
       "example_translation": "Nous sommes en train de boire du vin de palme."
     },
     {
       "word_id": "v7",
-      "term": "kpěle",
-      "phonetic_api": "/kpěle/",
-      "phonetic_simple": "kpè-le (ton bas)",
-      "translation": "boire",
-      "example_sentence": "Gɛ́ ↓ŋé gbéle.",
-      "example_phonetic": "/gɛ́ ↓ŋé gbéle/",
-      "example_translation": "Je veux boire, j'ai soif."
+      "term": "lɔ̌ɔ",
+      "phonetic_api": "/lɔ̌ɔ/",
+      "phonetic_simple": "LO-o",
+      "translation": "vin de palme",
+      "example_sentence": "Àa háa lɔ̀ɔ kpéle à mɔ̌lɔɔ.",
+      "example_phonetic": "/àa háa lɔ̀ɔ kpéle à mɔ̌lɔɔ/",
+      "example_translation": "Il a bu beaucoup de vin de palme aujourd'hui."
     },
     {
       "word_id": "v8",
-      "term": "pǔlu",
-      "phonetic_api": "/pǔlu/",
-      "phonetic_simple": "pou-lou (ton bas)",
-      "translation": "faim",
-      "example_sentence": "Pùlu káa mîi.",
-      "example_phonetic": "/pùlu káa mîi/",
-      "example_translation": "J'ai faim."
-    },
-    {
-      "word_id": "v9",
-      "term": "gbéle",
-      "phonetic_api": "/gbéle/",
-      "phonetic_simple": "GBÉ-le",
-      "translation": "avoir soif, se désaltérer",
-      "example_sentence": "Gɛ́ ↓ŋé gbéle.",
-      "example_phonetic": "/gɛ́ ↓ŋé gbéle/",
-      "example_translation": "Je veux boire, j'ai soif."
-    },
-    {
-      "word_id": "v10",
-      "term": "bǒo",
-      "phonetic_api": "/bǒo/",
-      "phonetic_simple": "bo-o (ton bas)",
-      "translation": "rizière, bas-fond (terrain marécageux où on cultive le riz)",
-      "example_sentence": "bǒo téɠe",
-      "example_phonetic": "/bǒo téɣe/",
-      "example_translation": "récolter le riz de bas-fond"
-    },
-    {
-      "word_id": "v11",
-      "term": "tɔ̂ŋ",
-      "phonetic_api": "/tɔ̂ŋ/",
-      "phonetic_simple": "TÔNG",
-      "translation": "interdit (~ tɔ̌ɔ = interdire)",
-      "example_sentence": "Dàá lɔ̀ɔ tɔ́ŋ dɔ̀ɔ mâa.",
-      "example_phonetic": "/dàá lɔ̀ɔ tɔ́ŋ dɔ̀ɔ mâa/",
-      "example_translation": "Ils m'ont interdit de boire le vin."
-    },
-    {
-      "word_id": "v12",
-      "term": "hùkɛ́nɛ",
-      "phonetic_api": "/hùkɛ́nɛ/",
-      "phonetic_simple": "hou-KÉ-nè",
-      "translation": "manger trop, être gourmand",
-      "example_sentence": "É hùkɛ́nɛi ↓dɛ́!",
-      "example_phonetic": "/é hùkɛ́nɛi ↓dɛ́/",
-      "example_translation": "Tu es assez gourmand !"
+      "term": "hɔ́ŋɔ",
+      "phonetic_api": "/hɔ́ŋɔ/",
+      "phonetic_simple": "HO-ngo",
+      "translation": "prix",
+      "example_sentence": "Hɔ́ŋɔ ɓáa gbɛ̀ɛ̂ ?",
+      "example_phonetic": "/hɔ́ŋɔ ɓáa gbɛ̀ɛ̂/",
+      "example_translation": "Quel est le prix ? (litt. le prix est comment)"
     }
   ],
   "common_phrases": [
@@ -144,239 +103,131 @@
       "phonetic_api": "/pá gù kɔ́nɔŋ míi/",
       "phonetic_simple": "pa gou KO-nong MI-i",
       "translation": "Viens manger.",
-      "context": "Inviter quelqu'un à table"
+      "context": "Invitation attestée dans le dictionnaire pour inviter quelqu'un à table."
     },
     {
       "phrase_id": "p2",
-      "original": "Pá à yá !",
-      "phonetic_api": "/pá à yá/",
-      "phonetic_simple": "pa a YA !",
-      "translation": "Apporte de l'eau !",
-      "context": "Demander à boire ou pour cuisiner"
+      "original": "Gɛ́ ↓ŋé gbéle.",
+      "phonetic_api": "/gɛ́ ↓ŋé gbéle/",
+      "phonetic_simple": "ghé ngé GBÉ-lè",
+      "translation": "J'ai soif, je veux boire.",
+      "context": "Formule attestée pour exprimer la soif."
     },
     {
       "phrase_id": "p3",
-      "original": "Pùlu káa mîi.",
-      "phonetic_api": "/pùlu káa mîi/",
-      "phonetic_simple": "pou-lou kaa MI-i",
-      "translation": "J'ai faim.",
-      "context": "Exprimer la faim"
+      "original": "Kú káa lɔ̀ɔ́ kpèlêi.",
+      "phonetic_api": "/kú káa lɔ̀ɔ́ kpèlêi/",
+      "phonetic_simple": "kou KA-a LO-o KPÈ-lè-i",
+      "translation": "Nous sommes en train de boire du vin de palme.",
+      "context": "Phrase attestée illustrant le progressif káa + V-i."
     },
     {
       "phrase_id": "p4",
-      "original": "Gɛ́ ↓ŋé gbéle.",
-      "phonetic_api": "/gɛ́ ↓ŋé gbéle/",
-      "phonetic_simple": "gué ngé GBÉ-le",
-      "translation": "Je veux boire, j'ai soif.",
-      "context": "Exprimer la soif"
+      "original": "Hɔ́ŋɔ ɓáa gbɛ̀ɛ̂ ?",
+      "phonetic_api": "/hɔ́ŋɔ ɓáa gbɛ̀ɛ̂/",
+      "phonetic_simple": "HO-ngo ba GBÈ",
+      "translation": "Quel est le prix ?",
+      "context": "Question standard à poser au marché."
     },
     {
       "phrase_id": "p5",
-      "original": "Kú káa lɔ̀ɔ ́ kpèlêi.",
-      "phonetic_api": "/kú káa lɔ̀ɔ́ kpèlêi/",
-      "phonetic_simple": "kou kaa lo-O KPÈ-lê-i",
-      "translation": "Nous sommes en train de boire du vin de palme.",
-      "context": "Décrire une activité en cours (repas, réunion)"
+      "original": "Wálî nɛ̀lɛ́ ɓé kɛ̀ɛ ?",
+      "phonetic_api": "/wálî nɛ̀lɛ́ ɓé kɛ̀ɛ/",
+      "phonetic_simple": "wa-LI nè-LÈ bé kè-è",
+      "translation": "Combien ça coûte ?",
+      "context": "Variante déjà vue en leçon 5, réutilisable au marché."
     },
     {
       "phrase_id": "p6",
-      "original": "Kìéŋ ↓gáa zólui.",
-      "phonetic_api": "/kìéŋ ↓gáa zólui/",
-      "phonetic_simple": "ki-É ngaa ZO-lou-i",
-      "translation": "Le piment me pique.",
-      "context": "Réagir à un plat épicé"
-    },
-    {
-      "phrase_id": "p7",
-      "original": "É hùkɛ́nɛi ↓dɛ́ !",
-      "phonetic_api": "/é hùkɛ́nɛi ↓dɛ́/",
-      "phonetic_simple": "é hou-KÉ-nè-i dé !",
-      "translation": "Tu es assez gourmand !",
-      "context": "Taquiner quelqu'un qui mange beaucoup"
-    },
-    {
-      "phrase_id": "p8",
-      "original": "Ŋé pái kpòlo kɔ̀ɔŋ́ jì ŋé ɲǎ.",
-      "phonetic_api": "/ŋé pái kpòlo kɔ̀ɔŋ́ jì ŋé ɲǎ/",
-      "phonetic_simple": "ngé pa-i kpo-lo KO-ong dji ngé NYA",
-      "translation": "Je vais mesurer du sel pour en acheter.",
-      "context": "Faire des courses au marché"
+      "original": "Gwíikpɔ̀lu hàaɓa káa à wáa tɔ́nɔ̂.",
+      "phonetic_api": "/gwíikpɔ̀lu hàaɓa káa à wáa tɔ́nɔ̂/",
+      "phonetic_simple": "gwi-i-KPO-lu HA-a-ba ka a WA TO-no",
+      "translation": "Trois bananes coûtent mille francs.",
+      "context": "Réponse-type à une question de prix au marché (déjà vue en leçon 5)."
     }
   ],
   "grammar_points": [
     {
-      "concept": "Exprimer la faim et la soif : constructions avec un nom",
-      "explanation": "Le kpele n'a pas de verbe unique pour « avoir faim » ou « avoir soif » : il utilise un nom (pǔlu, faim) suivi du verbe káa (être) et d'un pronom, une construction déjà vue avec kǒo (ventre, content de) en Leçon 4.",
+      "concept": "L'aspect progressif káa + V-i",
+      "explanation": "Pour exprimer une action en cours (« être en train de »), le guerzé utilise le marqueur prédicatif káa suivi du verbe portant un suffixe -i (forme dite « infinitif » ou nominalisée dans la construction progressive).",
       "rules": [
-        "pùlu káa [pronom] = [pronom] a faim : pùlu káa mîi (j'ai faim).",
-        "gbéle s'utilise avec le marqueur volitif : gɛ́ ↓ŋé gbéle (je veux boire, j'ai soif).",
-        "Cette construction en [nom d'état] + káa + [pronom] est un schéma productif en kpele, à retenir pour d'autres sensations."
+        "Sujet + káa + Objet + Verbe-i = sujet est en train de faire l'action.",
+        "kú káa lɔ̀ɔ́ kpèlêi = nous sommes en train de boire du vin de palme."
       ],
       "examples": [
         {
-          "structure": "pùlu káa mîi",
-          "phonetic_api": "/pùlu káa mîi/",
-          "meaning": "j'ai faim (litt. la faim est à moi)"
-        }
-      ]
-    },
-    {
-      "concept": "kɔ́nɔŋ : nourriture, repas et manger",
-      "explanation": "kɔ́nɔŋ est un nom qui fonctionne à la fois comme « nourriture » et comme « repas », et s'emploie couramment dans des collocations pour inviter quelqu'un à manger.",
-      "rules": [
-        "pá gù kɔ́nɔŋ míi (viens manger) : litt. « viens vers la nourriture ».",
-        "Attention au ton : kɔ́nɔŋ (nourriture) est différent de kɔ̀nɔŋ (moineau, passereau).",
-        "kɔ́nɔŋ se distingue de hùkɛ́nɛ (manger trop, être gourmand), qui porte un jugement sur la quantité."
-      ],
-      "examples": [
-        {
-          "structure": "kɔ́nɔŋ vs kɔ̀nɔŋ",
-          "phonetic_api": "/kɔ́nɔŋ/ vs /kɔ̀nɔŋ/",
-          "meaning": "nourriture, repas vs moineau"
-        }
-      ]
-    },
-    {
-      "concept": "kpěle : le verbe boire",
-      "explanation": "kpěle est un verbe transitif (vt) : il exige toujours un complément désignant ce qu'on boit.",
-      "rules": [
-        "kú káa lɔ̀ɔ ́ kpèlêi (nous sommes en train de boire du vin de palme) : lɔ̀ɔ ́ (vin de palme) est le complément direct de kpěle.",
-        "On retrouve la construction progressive káa ... -i déjà vue avec d'autres verbes (Leçon 2, gáa kɛ̀ɛ híŋzî)."
-      ],
-      "examples": [
-        {
-          "structure": "lɔ̀ɔ ́ kpèlêi",
-          "phonetic_api": "/lɔ̀ɔ́ kpèlêi/",
-          "meaning": "boire du vin de palme"
-        }
-      ]
-    },
-    {
-      "concept": "Interdits et politesse alimentaire",
-      "explanation": "Le mot tɔ̂ŋ (interdit) et le verbe qui l'accompagne, ~ tɔ̌ɔ (interdire), servent à parler des restrictions alimentaires ou sociales autour de la nourriture et de la boisson.",
-      "rules": [
-        "dàá lɔ̀ɔ tɔ́ŋ dɔ̀ɔ mâa (ils m'ont interdit de boire le vin) : construction avec tɔ̂ŋ + le nom de ce qui est interdit.",
-        "Cette structure peut s'appliquer à d'autres interdits (nourriture, comportement) au-delà des boissons."
-      ],
-      "examples": [
-        {
-          "structure": "lɔ̀ɔ tɔ́ŋ",
-          "phonetic_api": "/lɔ̀ɔ tɔ́ŋ/",
-          "meaning": "interdiction de boire le vin"
+          "structure": "kú káa lɔ̀ɔ́ kpèlêi",
+          "phonetic_api": "/kú káa lɔ̀ɔ́ kpèlêi/",
+          "meaning": "nous sommes en train de boire du vin de palme"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Personne A",
+      "speaker": "L'hôte",
       "text": "Pá gù kɔ́nɔŋ míi.",
       "phonetic_api": "/pá gù kɔ́nɔŋ míi/",
       "phonetic_simple": "pa gou KO-nong MI-i",
       "translation": "Viens manger."
     },
     {
-      "speaker": "Personne B",
-      "text": "Máma ! Pùlu káa mîi.",
-      "phonetic_api": "/máma pùlu káa mîi/",
-      "phonetic_simple": "MA-ma ! pou-lou kaa MI-i",
-      "translation": "Merci ! J'ai faim."
+      "speaker": "L'invité",
+      "text": "É hɛ̀ɠɛ̂ɛ ! Gɛ́ ↓ŋé gbéle wɛ̀ɛ.",
+      "phonetic_api": "/é hɛ̀ɠɛ̂ɛ gɛ́ ↓ŋé gbéle wɛ̀ɛ/",
+      "phonetic_simple": "é HÈ-guè-è ghé ngé GBÉ-lè wè-è",
+      "translation": "Merci ! J'ai aussi soif."
     },
     {
-      "speaker": "Personne A",
-      "text": "À wáli yɛ̌li ? Gwíikpɔ̀lu hàaɓa káa à wáa tɔ́nɔ̂.",
-      "phonetic_api": "/à wáli yɛ̌li gwíikpɔ̀lu hàaɓa káa à wáa tɔ́nɔ̂/",
-      "phonetic_simple": "a WA-li yè-li ? GWI-i-kpo-lou HA-a-ɓa kaa a WA-a TO-nô",
-      "translation": "C'est combien ? Trois bananes coûtent mille francs."
+      "speaker": "L'hôte",
+      "text": "Kú káa lɔ̀ɔ́ kpèlêi.",
+      "phonetic_api": "/kú káa lɔ̀ɔ́ kpèlêi/",
+      "phonetic_simple": "kou KA-a LO-o KPÈ-lè-i",
+      "translation": "Nous sommes en train de boire du vin de palme."
     },
     {
-      "speaker": "Personne B",
-      "text": "Gɛ́ ↓ŋé gbéle. Pá à yá !",
-      "phonetic_api": "/gɛ́ ↓ŋé gbéle pá à yá/",
-      "phonetic_simple": "gué ngé GBÉ-le. pa a YA !",
-      "translation": "Je veux boire, j'ai soif. Apporte de l'eau !"
-    },
-    {
-      "speaker": "Personne A",
-      "text": "Kìéŋ ↓gáa zólui !",
-      "phonetic_api": "/kìéŋ ↓gáa zólui/",
-      "phonetic_simple": "ki-É ngaa ZO-lou-i !",
-      "translation": "Le piment me pique !"
-    },
-    {
-      "speaker": "Personne B",
-      "text": "É hùkɛ́nɛi ↓dɛ́ ! Máma, mɛ́niê.",
-      "phonetic_api": "/é hùkɛ́nɛi ↓dɛ́ máma mɛ́niê/",
-      "phonetic_simple": "é hou-KÉ-nè-i dé ! MA-ma, MÉ-ni-Ê",
-      "translation": "Tu es assez gourmand ! Merci, mon ami."
+      "speaker": "L'invité",
+      "text": "Hɔ́ŋɔ ɓáa gbɛ̀ɛ̂ ?",
+      "phonetic_api": "/hɔ́ŋɔ ɓáa gbɛ̀ɛ̂/",
+      "phonetic_simple": "HO-ngo ba GBÈ",
+      "translation": "Quel est le prix (pour en acheter aussi) ?"
     }
   ],
   "cultural_notes": [
-    "Le riz (ɓá) est la base de l'alimentation en pays kpele, cultivé dans les rizières de bas-fond (bǒo) ; le dictionnaire note même une distinction précise entre le riz mûr et le riz encore vert (kpóɠolo).",
-    "Traditionnellement, chez les Kpɛlɛɛ on mange d'abord le riz seul, puis on partage ensuite la viande ou le poisson — manger les deux en même temps (nàŋama) est considéré comme une mauvaise manière de table.",
-    "Le vin de palme (lɔ̀ɔ) occupe une place sociale importante, au point que certains interdits (tɔ̂ŋ) peuvent en réglementer la consommation dans certains contextes rituels ou familiaux.",
-    "Le sel (kpǒlo) s'achetait traditionnellement « à la mesure » plutôt qu'au poids, comme en témoigne l'exemple du dictionnaire sur l'achat de sel."
+    "Le riz (ɓá) accompagné de sauce constitue la base de l'alimentation quotidienne en Guinée forestière ; kɔ́nɔŋ désigne plus largement la « nourriture » ou le « repas » (Konoshenko 2019).",
+    "Le vin de palme (lɔ̌ɔ) occupe une place culturelle importante lors des fêtes et des visites, et sa consommation excessive est également commentée dans le dictionnaire (« il est encore soûl »)."
   ],
   "exercises": [
     {
       "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Comment dit-on « j'ai faim » ?",
+      "question": "Quel verbe signifie « boire » en guerzé ?",
       "options": [
-        "Pùlu káa mîi.",
-        "Gɛ́ ↓ŋé gbéle.",
-        "Pá à yá !",
-        "É hùkɛ́nɛi."
+        "kpěle",
+        "mǐi",
+        "héɠe"
       ],
-      "correct_answer": "Pùlu káa mîi.",
-      "explanation": "pùlu (faim) + káa (être) + mîi (à moi) = « la faim est à moi », soit « j'ai faim »."
+      "correct_answer": "kpěle",
+      "explanation": "kpěle signifie « boire » (ex. kú káa lɔ̀ɔ́ kpèlêi = nous sommes en train de boire du vin de palme)."
     },
     {
       "exercise_id": "ex2",
-      "type": "multiple_choice",
-      "question": "Quelle est la différence entre kɔ́nɔŋ et kɔ̀nɔŋ ?",
-      "options": [
-        "Aucune différence",
-        "kɔ́nɔŋ = nourriture, kɔ̀nɔŋ = moineau",
-        "kɔ́nɔŋ = boisson, kɔ̀nɔŋ = nourriture",
-        "Ce sont deux orthographes du même mot"
-      ],
-      "correct_answer": "kɔ́nɔŋ = nourriture, kɔ̀nɔŋ = moineau",
-      "explanation": "Seul le ton distingue ces deux mots : kɔ́nɔŋ (ton haut) = nourriture/repas, kɔ̀nɔŋ (ton bas) = moineau."
-    },
-    {
-      "exercise_id": "ex3",
-      "type": "multiple_choice",
-      "question": "Quel verbe signifie « boire » et exige toujours un complément ?",
-      "options": [
-        "kɔ́nɔŋ",
-        "kpěle",
-        "gbéle",
-        "tɔ̂ŋ"
-      ],
-      "correct_answer": "kpěle",
-      "explanation": "kpěle est transitif : on dit toujours ce qu'on boit, comme dans lɔ̀ɔ ́ kpèlêi (boire du vin de palme)."
-    },
-    {
-      "exercise_id": "ex4",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Pour inviter quelqu'un à manger, on dit : « Pá gù [ ___ ] míi. »",
+      "sentence_with_blank": "Pá gù [ ___ ] míi. (Viens manger.)",
       "correct_answer": "kɔ́nɔŋ",
-      "hint": "Ce mot signifie « nourriture, repas »."
-    },
-    {
-      "exercise_id": "ex5",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "« Apporte de l'eau ! » se dit : « Pá à [ ___ ] ! »",
-      "correct_answer": "yá",
-      "hint": "C'est le mot pour « eau », déjà vu en Leçon 3."
-    },
-    {
-      "exercise_id": "ex6",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Le riz se cultive dans une [ ___ ], terrain marécageux appelé bǒo.",
-      "correct_answer": "rizière",
-      "hint": "On y récolte le riz de bas-fond."
+      "hint": "C'est le mot général pour « nourriture »."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Konoshenko, M. (2019). Dictionnaire kpele de la Guinée (guerzé) – français. Mandenkan 62.",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan62/62konoshenko.pdf"
+    },
+    {
+      "label": "Wikipédia — Kpèllé (langue) / Guerzé",
+      "url": "https://fr.wikipedia.org/wiki/Guerze"
+    }
+  ],
+  "confidence": "élevée",
+  "confidence_note": "Le vocabulaire alimentaire (manger, boire, riz, maïs, eau, vin de palme, prix) et les phrases d'exemple correspondantes sont directement attestés dans Konoshenko (2019). Aucune expression de type « addition/restaurant moderne » n'étant attestée, le contexte reste celui, culturellement pertinent, du marché et du repas partagé."
 }

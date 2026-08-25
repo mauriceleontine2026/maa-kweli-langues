@@ -6,222 +6,220 @@
   "lesson_number": 3,
   "title": "L'alphabet et les sons spécifiques de la langue",
   "learning_objectives": [
-    "Maîtriser le système phonologique et orthographique standard de la langue Yalunka",
-    "Prononcer correctement les consonnes complexes et nasales particulières",
-    "Identifier la longueur vocalique et son impact sur la signification des mots"
+    "Identifier les particularités de la transcription du yalunka (q, ŋ, voyelles longues, tons)",
+    "Distinguer les mots par leur ton dans des paires attestées",
+    "Reconnaître l'alphabet latin utilisé pour écrire le yalunka"
   ],
   "phonetic_focus": {
-    "key_sounds": "L'alphabet Yalunka repose sur les caractères latins adaptés aux langues mandées de Guinée. Les phonèmes clés incluent la consonne fricative vélaire sourd /x/ (notée 'x'), la nasale palatale /ɲ/ (notée 'ɲ'), la nasale vélaire /ŋ/ (notée 'ŋ'), ainsi que les consonnes co-articulées labio-vélaires /gb/ et /kp/.",
-    "common_pitfalls": "Éviter d'articuler le 'gb' ou le 'kp' comme deux consonnes successives. Ils doivent être émis simultanément d'un seul mouvement buccal."
+    "key_sounds": "Le yalunka (dialonké) comporte une occlusive uvulaire notée « q » (cognat du « x » soussou, prononcée en raclant le fond de la gorge, comme la jota espagnole), des voyelles longues notées par redoublement (ex. « áa »), et des consonnes nasales finales notées « ŋ » (comme le « ng » anglais de « sing »). Le ton (haut ´ / bas `) est phonologiquement distinctif dans la variété de Faléya décrite par Creissels (2010).",
+    "common_pitfalls": "Les francophones prononcent souvent « q » comme un simple « k » au lieu de le racler au fond de la gorge ; ils réduisent le « ŋ » final à « n » ou « ngue » ; et ils ignorent les tons, ce qui peut changer le sens d'un mot puisque le ton est distinctif en yalunka."
   },
   "vocabulary": [
     {
-      "word_id": "v3_1",
-      "term": "Xaran",
-      "phonetic_api": "/xa.ran/",
-      "phonetic_simple": "KHA-RAN",
-      "translation": "Lire / Étudier / Compter",
-      "example_sentence": "N a xaranfe.",
-      "example_phonetic": "/ŋ a xa.ran.fe/",
-      "example_translation": "Je suis en train de lire."
+      "word_id": "v1",
+      "term": "q",
+      "phonetic_api": "/q/",
+      "phonetic_simple": "q (occlusive uvulaire)",
+      "translation": "lettre représentant une occlusive uvulaire sourde",
+      "example_sentence": "qùŋ́",
+      "example_phonetic": "/qùŋ́/",
+      "example_translation": "tête"
     },
     {
-      "word_id": "v3_2",
-      "term": "Ɲari",
-      "phonetic_api": "/ɲa.ri/",
-      "phonetic_simple": "NYA-RI",
-      "translation": "Dessiner / Peindre / Écrire",
-      "example_sentence": "Kitabu ɲari.",
-      "example_phonetic": "/ki.ta.bu ɲa.ri/",
-      "example_translation": "Écris sur le cahier."
+      "word_id": "v2",
+      "term": "ŋ",
+      "phonetic_api": "/ŋ/",
+      "phonetic_simple": "ng",
+      "translation": "lettre représentant la nasale vélaire finale",
+      "example_sentence": "bàŋqí",
+      "example_phonetic": "/bàŋqí/",
+      "example_translation": "maison"
     },
     {
-      "word_id": "v3_3",
-      "term": "Gbe",
-      "phonetic_api": "/ɡbe/",
-      "phonetic_simple": "GBÉ",
-      "translation": "Beaucoup / Propriété",
-      "example_sentence": "Banxi gbe nan a ra.",
-      "example_phonetic": "/ban.xi ɡbe nan a ra/",
-      "example_translation": "C'est une grande propriété / Il y a beaucoup de maisons."
+      "word_id": "v3",
+      "term": "báa",
+      "phonetic_api": "/báa/",
+      "phonetic_simple": "BA-a (ton haut)",
+      "translation": "mourir",
+      "example_sentence": "À báa.",
+      "example_phonetic": "/à báa/",
+      "example_translation": "Il/elle est mort(e)."
     },
     {
-      "word_id": "v3_4",
-      "term": "Kpetɛ",
-      "phonetic_api": "/kpe.tɛ/",
-      "phonetic_simple": "KPÉ-TÈ",
-      "translation": "Sauter / Claquer",
-      "example_sentence": "Dengme bata kpetɛ.",
-      "example_phonetic": "/deŋ.me ba.ta kpe.tɛ/",
-      "example_translation": "L'enfant a sauté."
+      "word_id": "v4",
+      "term": "báa",
+      "phonetic_api": "/bàa/",
+      "phonetic_simple": "ba-a (ton bas)",
+      "translation": "puiser, extraire, faire sortir",
+      "example_sentence": "Ń báa jée.",
+      "example_phonetic": "/ń báa jée/",
+      "example_translation": "Je puise de l'eau."
     },
     {
-      "word_id": "v3_5",
-      "term": "Ɛlɛɛbu",
-      "phonetic_api": "/ɛ.lɛː.bu/",
-      "phonetic_simple": "È-LÈÈ-BOU",
-      "translation": "Éponge",
-      "example_sentence": "Ɛlɛɛbu xun.",
-      "example_phonetic": "/ɛ.lɛː.bu xun/",
-      "example_translation": "Prends l'éponge."
+      "word_id": "v5",
+      "term": "jée",
+      "phonetic_api": "/jée/",
+      "phonetic_simple": "DJÉ-é (voyelle longue)",
+      "translation": "eau",
+      "example_sentence": "Jée fɔ́ɔrɛ̀.",
+      "example_phonetic": "/jée fɔ́ɔrɛ̀/",
+      "example_translation": "L'eau est sale (noire)."
+    },
+    {
+      "word_id": "v6",
+      "term": "qɔ́ɔ",
+      "phonetic_api": "/qɔ́ɔ/",
+      "phonetic_simple": "QÔ-ô",
+      "translation": "voyelle ouverte allongée, ex. dans qɔ́ɲɛ́gi ́nɛ̀ (étrangère)",
+      "example_sentence": "qɔ́ɲɛ́gi ́nɛ̀",
+      "example_phonetic": "/qɔ́ɲɛ́gi ́nɛ̀/",
+      "example_translation": "étrangère, nouvelle"
+    },
+    {
+      "word_id": "v7",
+      "term": "ɛ",
+      "phonetic_api": "/ɛ/",
+      "phonetic_simple": "è ouvert",
+      "translation": "voyelle ouverte notée ɛ, comme dans bàaɲɛ́ (tante paternelle)",
+      "example_sentence": "bàaɲɛ́",
+      "example_phonetic": "/bàaɲɛ́/",
+      "example_translation": "tante paternelle"
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p3_1",
-      "original": "A falen m bɛ.",
-      "phonetic_api": "/a fa.len m bɛ/",
-      "phonetic_simple": "A FA-LEN M BÈ",
-      "translation": "Dis-le-moi. / Répète-le.",
-      "context": "Demander à l'interlocuteur de prononcer un mot."
+      "phrase_id": "p1",
+      "original": "qùŋ́",
+      "phonetic_api": "/qùŋ́/",
+      "phonetic_simple": "QOU-ng",
+      "translation": "tête",
+      "context": "Mot illustrant à la fois 'q' initial et 'ŋ' final."
     },
     {
-      "phrase_id": "p3_2",
-      "original": "N mu a famu.",
-      "phonetic_api": "/ŋ mu a fa.mu/",
-      "phonetic_simple": "N MOU A FA-MOU",
-      "translation": "Je ne comprends pas.",
-      "context": "Indiquer une incompréhension linguistique ou auditive."
+      "phrase_id": "p2",
+      "original": "bàŋqí",
+      "phonetic_api": "/bàŋqí/",
+      "phonetic_simple": "BANG-qi",
+      "translation": "maison",
+      "context": "Mot illustrant la nasale interne 'ŋ' suivie de l'occlusive uvulaire 'q'."
     },
     {
-      "phrase_id": "p3_3",
-      "original": "A falan dɔnxɔn dɔnxɔn.",
-      "phonetic_api": "/a fa.lan dɔ.nxɔn dɔ.nxɔn/",
-      "phonetic_simple": "A FA-LAN DON-KHON DON-KHON",
-      "translation": "Parle lentement.",
-      "context": "Demander de ralentir le débit de parole pour mieux assimiler les sons."
+      "phrase_id": "p3",
+      "original": "báa / bàa",
+      "phonetic_api": "/báa/ vs /bàa/",
+      "phonetic_simple": "BA-a (haut) / ba-a (bas)",
+      "translation": "mourir / puiser",
+      "context": "Paire illustrant l'importance du ton : le même mot écrit sans accent peut avoir deux sens selon le ton, d'après Creissels (2010)."
     },
     {
-      "phrase_id": "p3_4",
-      "original": "A ɲari banxi mɛ.",
-      "phonetic_api": "/a ɲa.ri ban.xi mɛ/",
-      "phonetic_simple": "A NYA-RI BAN-KHI MÈ",
-      "translation": "Écris-le sur le mur / le tableau.",
-      "context": "Demander une transcription écrite d'un mot difficile."
-    },
-    {
-      "phrase_id": "p3_5",
-      "original": "Na tɔn i falan nɛ ?",
-      "phonetic_api": "/na tɔn i fa.lan nɛ/",
-      "phonetic_simple": "NA TON I FA-LAN NÈ ?",
-      "translation": "Est-ce ainsi que l'on prononce ?",
-      "context": "Vérifier sa propre prononciation auprès d'un locuteur natif."
-    },
-    {
-      "phrase_id": "p3_6",
-      "original": "I tɔn falen.",
-      "phonetic_api": "/i tɔn fa.len/",
-      "phonetic_simple": "I TON FA-LEN",
-      "translation": "C'est bien prononcé.",
-      "context": "Validation ou encouragement venant du formateur."
-    },
-    {
-      "phrase_id": "p3_7",
-      "original": "Xɛmɛ xili na.",
-      "phonetic_api": "/xɛ.mɛ xi.li na/",
-      "phonetic_simple": "KHÈ-MÈ KHI-LI NA",
-      "translation": "C'est le nom d'un homme.",
-      "context": "Expliquer l'usage phonétique d'un mot."
-    },
-    {
-      "phrase_id": "p3_8",
-      "original": "A sɔnxɔ !",
-      "phonetic_api": "/a sɔ.nxɔ/",
-      "phonetic_simple": "A SON-KHO !",
-      "translation": "Crie ! / Hausse la voix !",
-      "context": "Demander d'articuler plus fort en classe."
+      "phrase_id": "p4",
+      "original": "Qùŋ́ nùŋ qàráŋ̀.",
+      "phonetic_api": "/qùŋ́ nùŋ qàráŋ̀/",
+      "phonetic_simple": "qoung noung qa-RANG",
+      "translation": "La tête et l'étude.",
+      "context": "Illustre la consonne 'q', spécifique au yalunka, dans deux mots attestés différents."
     }
   ],
   "grammar_points": [
     {
-      "concept": "La longueur vocalique distinctive",
-      "explanation": "Le redoublement des voyelles graphiques (aa, ee, ɛɛ, ii, oo, ɔɔ, uu) modifie radicalement le sens d'un terme. Une voyelle simple est brève, une voyelle double doit durer le double de temps.",
+      "concept": "Le système tonal et la longueur vocalique",
+      "explanation": "D'après Creissels (2010), le dialonké de Faléya distingue des tons hauts (´) et bas (`), ainsi que des voyelles longues (notées par redoublement, ex. 'áa') et courtes. Ces distinctions changent le sens des mots, mais la variété décrite par Lüpke (2005) en Guinée aurait perdu ces distinctions tonales selon Creissels.",
       "rules": [
-        "Voyelle simple : sens A (ex: 'ba' = fin/cessation).",
-        "Voyelle double : sens B (ex: 'baa' = mer/fleuve ou père)."
+        "Un accent aigu (´) note un ton haut",
+        "Un accent grave (`) note un ton bas",
+        "Une voyelle redoublée (ex. 'áa', 'ìi') note une voyelle longue, distincte d'une voyelle simple"
       ],
       "examples": [
         {
-          "structure": "Ba",
-          "phonetic_api": "/ba/",
-          "meaning": "Terminer / Enlever"
+          "structure": "báa (ton haut)",
+          "phonetic_api": "/báa/",
+          "meaning": "mourir"
         },
         {
-          "structure": "Baa",
-          "phonetic_api": "/baː/",
-          "meaning": "Fleuve / Mer"
-        }
-      ]
-    },
-    {
-      "concept": "Le comportement syntaxique de la particule négative 'mu'",
-      "explanation": "Pour nier une capacité de compréhension ou une action verbale au présent/passé immédiat, la particule 'mu' s'intercale directement entre le sujet et le verbe ou son objet.",
-      "rules": [
-        "Sujet + mu + Verbe/Objet.",
-        "Devant la consonne bilabiale 'm', la nasale du pronom 'N' peut s'assimiler ou s'effacer."
-      ],
-      "examples": [
-        {
-          "structure": "N mu a famu.",
-          "phonetic_api": "/ŋ mu a fa.mu/",
-          "meaning": "Je ne le comprends pas."
+          "structure": "bàa (ton bas)",
+          "phonetic_api": "/bàa/",
+          "meaning": "puiser, extraire"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Moussa",
-      "text": "Sabari, a falen m bɛ : mun a ra 'Xaran' ?",
-      "phonetic_api": "/sa.ba.ri a fa.len m bɛ mun a ra xa.ran/",
-      "phonetic_simple": "SA-BA-RI, A FA-LEN M BÈ : MOUN A RA KHA-RAN ?",
-      "translation": "S'il vous plaît, dites-moi : que signifie 'Xaran' ?"
+      "speaker": "Enseignant",
+      "text": "Qùŋ́ — c'est la tête.",
+      "phonetic_api": "/qùŋ́/",
+      "phonetic_simple": "QOU-ng",
+      "translation": "La tête."
     },
     {
-      "speaker": "Karamɔxɔ",
-      "text": "'Xaran' naxan e kitabu xaranfe. I tɔn falen ?",
-      "phonetic_api": "/xa.ran na.xan e ki.ta.bu xa.ran.fe i tɔn fa.len/",
-      "phonetic_simple": "KHA-RAN NA-XAN É KI-TA-BOU KHA-RAN-FÉ. I TON FA-LEN ?",
-      "translation": "'Xaran' signifie étudier un livre. Arrives-tu à le prononcer ?"
+      "speaker": "Élève",
+      "text": "Bàŋqí — c'est la maison ?",
+      "phonetic_api": "/bàŋqí/",
+      "phonetic_simple": "BANG-qi",
+      "translation": "C'est la maison ?"
     },
     {
-      "speaker": "Moussa",
-      "text": "N mu a falen fanyin. A falan dɔnxɔn dɔnxɔ.",
-      "phonetic_api": "/ŋ mu a fa.len fan.jin a fa.lan dɔ.nxɔn dɔ.nxɔ/",
-      "phonetic_simple": "N MOU A FA-LEN FAN-YIN. A FA-LAN DON-KHON DON-KHO",
-      "translation": "Je ne le prononce pas bien. Dis-le lentement."
+      "speaker": "Enseignant",
+      "text": "Awa, bàŋqí, ń bárí bàŋqí.",
+      "phonetic_api": "/awa, bàŋqí, ń bárí bàŋqí/",
+      "phonetic_simple": "a-wa, BANG-qi, n BA-ri BANG-qi",
+      "translation": "Oui, la maison ; je suis né dans une maison."
     },
     {
-      "speaker": "Karamɔxɔ",
-      "text": "X-a-r-a-n. Nu wali, i bata a famu na nɛ.",
-      "phonetic_api": "/xa.ran nu wa.li i ba.ta a fa.mu na nɛ/",
-      "phonetic_simple": "KH-A-R-A-N. NOU WA-LI, I BA-TA A FA-MOU NA NÈ",
-      "translation": "X-a-r-a-n. Bravo, tu l'as maintenant compris."
+      "speaker": "Élève",
+      "text": "Q sàŋ qùŋ́ xa bà?",
+      "phonetic_api": "/q sàŋ qùŋ́ xa bà/",
+      "phonetic_simple": "q sang qoung xa ba",
+      "translation": "Le son 'q' est-il comme dans 'qùŋ́' (tête) ?"
+    },
+    {
+      "speaker": "Maître",
+      "text": "Awa, à sàŋ bée.",
+      "phonetic_api": "/awa, à sàŋ bée/",
+      "phonetic_simple": "a-wa, a sang BÉ-é",
+      "translation": "Oui, le son est celui-ci."
     }
   ],
   "cultural_notes": [
-    "L'écriture officielle du Yalunka en Guinée utilise les règles harmonisées de l'Institut National des Langues (alphabets nationaux guinéens). Les symboles comme 'ɛ' (è) et 'ɔ' (o ouvert) y sont systématiques pour éviter les approximations de l'alphabet français standard.",
-    "La transmission orale historique du peuple Jalonké confère une importance sacrée à la musicalité et à la justesse de l'articulation des mots."
+    "Le yalunka s'écrit avec l'alphabet latin, comme l'indique Omniglot ; il n'existe pas d'alphabet syllabique propre à cette langue.",
+    "La lettre 'q' du dialonké de Faléya correspond à la fricative notée 'x' en soussou : c'est une convergence documentée entre les deux langues très proches (note de transcription de Creissels, 2010).",
+    "PHOIBLE recense un inventaire phonologique pour le « Jalonke », preuve que des travaux de phonologie descriptive existent sur cette langue."
   ],
   "exercises": [
     {
-      "exercise_id": "ex3_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel phonème correspond à la lettre 'x' dans l'orthographe Yalunka ?",
+      "question": "À quoi correspond la lettre 'q' du dialonké par rapport au soussou ?",
       "options": [
-        "Un son 'ks' comme dans taxi",
-        "Un son fricatif vélaire sourd /x/ (guttural)",
-        "Un son 'z' doux"
+        "au 'x' du soussou",
+        "au 'k' du français",
+        "à aucune consonne du soussou"
       ],
-      "correct_answer": "Un son fricatif vélaire sourd /x/ (guttural)",
-      "explanation": "La lettre 'x' est l'équivalent de la jota ou de la rhotique forte, un souffle venant de l'arrière de la gorge."
+      "correct_answer": "au 'x' du soussou",
+      "explanation": "Confirmé par les notes de transcription de Creissels (2010)."
     },
     {
-      "exercise_id": "ex3_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Pour demander de parler plus lentement, on utilise l'expression : A falan [ ___ ] dɔnxɔn.",
-      "correct_answer": "dɔnxɔn",
-      "hint": "C'est la répétition du mot signifiant doucement ou lentement."
+      "sentence_with_blank": "Le mot pour « tête » est : [ ___ ].",
+      "correct_answer": "qùŋ́",
+      "hint": "Il commence par la lettre spécifique 'q'."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Denis Creissels — Liste lexicale du dialonké de Faléya, Mandenkan 46 (2010), pp. 49-71",
+      "url": "http://www.deniscreissels.fr/public/Creissels-liste_lexicale_dialonke.pdf"
+    },
+    {
+      "label": "PHOIBLE — Inventory Jalonke (PH 895), inventaire phonologique de référence",
+      "url": "https://phoible.org/inventories/view/895"
+    },
+    {
+      "label": "Omniglot — Yalunka (Yalunkanya)",
+      "url": "https://www.omniglot.com/writing/yalunka.htm"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "L'existence et la nature des sons 'q', 'ŋ', des voyelles longues et des tons est confirmée par une source académique dédiée (Creissels 2010) et par l'inventaire PHOIBLE. Le tableau IPA affiché par PHOIBLE pour 'Jalonke' n'a cependant pas pu être confirmé exhaustivement (la page renvoyait une grille générique de l'AFI) ; nous nous limitons donc aux sons directement illustrés par des mots attestés."
 }

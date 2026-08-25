@@ -1,41 +1,30 @@
 const PROD_BACKEND_FALLBACK = "https://mbaara-backend.vercel.app";
 let inMemoryAccessToken = null;
 
-const getApiBaseUrl = () => {
+export const getApiBaseUrl = () => {
   const configuredBaseUrl = import.meta.env.VITE_API_BASE_URL;
   const normalizedConfigured = configuredBaseUrl && String(configuredBaseUrl).trim();
 
   if (typeof window !== "undefined") {
-    const currentOrigin = window.location.origin;
-    const currentHost = new URL(currentOrigin).host;
-
-    if (normalizedConfigured) {
-      try {
-        const parsed = new URL(normalizedConfigured);
-        const parsedHost = parsed.host;
-
-        // In Vercel deployments, the app's /api route is already proxied through
-        // the same origin. Prefer that proxy to avoid stale backend URLs such as
-        // the old frontend host or an outdated alias.
-        const staleHosts = new Set([
-          "maa-kweli-langues.vercel.app",
-          "mbaara-backend-m6hbjeb7i-m-baara-langues.vercel.app",
-        ]);
-
-        if (parsedHost === currentHost || staleHosts.has(parsedHost)) {
-          return currentOrigin;
-        }
-
-        return normalizedConfigured.replace(/\/$/, "");
-      } catch {
-        return currentOrigin;
-      }
+    const hostname = window.location.hostname.toLowerCase();
+    if (hostname.endsWith(".vercel.app") || hostname.endsWith(".web.app")) {
+      return normalizedConfigured ? normalizedConfigured.replace(/\/$/, "") : PROD_BACKEND_FALLBACK;
     }
-
-    return currentOrigin;
   }
 
-  return normalizedConfigured ? normalizedConfigured.replace(/\/$/, "") : PROD_BACKEND_FALLBACK;
+  if (normalizedConfigured) {
+    try {
+      return new URL(normalizedConfigured).origin.replace(/\/$/, "");
+    } catch {
+      return typeof window !== "undefined" ? window.location.origin : PROD_BACKEND_FALLBACK;
+    }
+  }
+
+  if (typeof window !== "undefined") {
+    return window.location.origin;
+  }
+
+  return PROD_BACKEND_FALLBACK;
 };
 
 // The access token itself now lives only in an httpOnly cookie the backend
@@ -191,7 +180,7 @@ const request = async (method, path, body, queryParams) => {
     throw error;
   }
 
-  if (path === "/api/auth/supabase" && data?.access_token) {
+  if (data && typeof data === "object" && data.access_token) {
     setInMemoryAccessToken(data.access_token);
   }
 

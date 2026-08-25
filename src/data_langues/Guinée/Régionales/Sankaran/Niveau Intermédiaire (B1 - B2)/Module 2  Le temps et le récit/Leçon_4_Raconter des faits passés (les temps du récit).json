@@ -6,224 +6,278 @@
   "lesson_number": 4,
   "title": "Raconter des faits passés (les temps du récit)",
   "learning_objectives": [
-    "Maîtriser les marques de l'accompli positif (passé) pour les verbes transitifs et intransitifs",
-    "Structurer un récit chronologique simple en utilisant les connecteurs temporels de succession",
-    "Formuler une négation au passé pour contrecarrer un fait ou une action non réalisée"
+    "Utiliser le passé narratif avec 'ka' (Sékou ka den gbasi)",
+    "Utiliser le passé absolu avec le suffixe '-da/-nda'",
+    "Former la négation du passé avec 'ma'",
+    "Exprimer le passé progressif/imparfait avec 'tèrè'"
   ],
   "phonetic_focus": {
-    "key_sounds": "Le système du passé s'appuie sur des suffixes et affixes très dynamiques. Le suffixe intransitif '-ra' /ra/ exige un /r/ très doux, légèrement roulé de manière alvéolaire. La particule transitive 'ye' /je/ emploie une semi-voyelle palatale tendue. Le phonème /ɔ/ ouvert s'entend distinctement dans la particule négative du passé 'ma' /ma/.",
-    "common_pitfalls": "Ne confondez pas le suffixe accompli '-ra' avec la postposition locative 'la'. Le suffixe '-ra' s'amalgame directement au radical verbal sans coupure glottale."
+    "key_sounds": [
+      "Le suffixe '-da' du passé absolu, collé directement au verbe",
+      "Le ton de 'tèrè' (marque du passé progressif), à distinguer de 'tè' (négation)",
+      "La particule négative 'ma' placée avant le verbe (et non après)"
+    ],
+    "common_pitfalls": [
+      "Confondre 'tèrè' (passé progressif) et 'tè' (négation du présent/futur), qui ne diffèrent que par une syllabe",
+      "Utiliser 'tè' pour nier le passé alors que c'est 'ma' qui s'emploie"
+    ]
   },
   "vocabulary": [
     {
-      "word_id": "v13_1",
-      "term": "Kunu",
-      "phonetic_api": "/ku.nu/",
-      "phonetic_simple": "KOU-NOU",
-      "translation": "Hier",
-      "example_sentence": "N bɔra Faranah kunu.",
-      "example_phonetic": "/ɲ bɔ.ra fa.ra.na ku.nu/",
-      "example_translation": "Je suis parti de Faranah hier."
+      "word_id": "v1",
+      "term": "ka (passé narratif)",
+      "phonetic_api": "[ka]",
+      "phonetic_simple": "ka",
+      "translation": "marque du passé narratif (a fait)",
+      "example_sentence": "Seku ka den gbasi.",
+      "example_phonetic": "[seku ka dɛn ɡ͜basi]",
+      "example_translation": "Sékou a battu l'enfant."
     },
     {
-      "word_id": "v13_2",
-      "term": "Silo",
-      "phonetic_api": "/si.lo/",
-      "phonetic_simple": "SI-LO",
-      "translation": "Passer la nuit / Passer le temps",
-      "example_sentence": "An silora kɛndɛya la.",
-      "example_phonetic": "/an si.lo.ra kɛn.dɛ.ja la/",
-      "example_translation": "Nous avons passé la nuit en bonne santé."
+      "word_id": "v2",
+      "term": "-da (passé absolu)",
+      "phonetic_api": "[-da]",
+      "phonetic_simple": "-da",
+      "translation": "suffixe du passé le plus lointain",
+      "example_sentence": "Nia mènda, tonya di lon.",
+      "example_phonetic": "[nia mɛnda tonja di lon]",
+      "example_translation": "À la longue, la vérité se saura."
     },
     {
-      "word_id": "v13_3",
-      "term": "Ye",
-      "phonetic_api": "/je/",
-      "phonetic_simple": "YÉ",
-      "translation": "Marque de l'accompli transitif (auxiliaire du passé)",
-      "example_sentence": "Lamine ye malo dun.",
-      "example_phonetic": "/la.min je ma.lo dun/",
-      "example_translation": "Lamine a mangé du riz."
+      "word_id": "v3",
+      "term": "tèrè",
+      "phonetic_api": "[tɛrɛ]",
+      "phonetic_simple": "tè-rè",
+      "translation": "marque du passé progressif/imparfait",
+      "example_sentence": "Nyari tèrè lanin kudun do.",
+      "example_phonetic": "[ɲari tɛrɛ lanin kudun do]",
+      "example_translation": "Le chat était couché dans un fauteuil."
     },
     {
-      "word_id": "v13_4",
-      "term": "Ma",
-      "phonetic_api": "/ma/",
-      "phonetic_simple": "MA",
-      "translation": "Marque de l'accompli négatif (passé négatif)",
-      "example_sentence": "N ma a lɔn.",
-      "example_phonetic": "/m ma a lɔn/",
-      "example_translation": "Je ne l'ai pas connu / Je ne savais pas."
+      "word_id": "v4",
+      "term": "ma (négation passée)",
+      "phonetic_api": "[ma]",
+      "phonetic_simple": "ma",
+      "translation": "marque de négation au passé",
+      "example_sentence": "Den ma sinôo.",
+      "example_phonetic": "[dɛn ma sinoː]",
+      "example_translation": "L'enfant n'a pas dormi."
     },
     {
-      "word_id": "v13_5",
-      "term": "Tila",
-      "phonetic_api": "/ti.la/",
-      "phonetic_simple": "TI-LA",
-      "translation": "Finir / Terminer / Après avoir fait",
-      "example_sentence": "N tilara baara la.",
-      "example_phonetic": "/ɲ ti.la.ra baː.ra la/",
-      "example_translation": "J'ai fini de travailler."
+      "word_id": "v5",
+      "term": "bada (passé récent)",
+      "phonetic_api": "[bada]",
+      "phonetic_simple": "ba-da",
+      "translation": "marque du passé récent accompli",
+      "example_sentence": "Den bada kunun.",
+      "example_phonetic": "[dɛn bada kunun]",
+      "example_translation": "L'enfant s'est réveillé."
     },
     {
-      "word_id": "v13_6",
-      "term": "Sɔrɔ",
-      "phonetic_api": "/sɔ.rɔ/",
-      "phonetic_simple": "SƆ-RƆ",
-      "translation": "Obtenir / Trouver / Réussir à",
-      "example_sentence": "A ye wari sɔrɔ.",
-      "example_phonetic": "/a je wa.ri sɔ.rɔ/",
-      "example_translation": "Il a trouvé de l'argent."
+      "word_id": "v6",
+      "term": "kunun",
+      "phonetic_api": "[kunun]",
+      "phonetic_simple": "kou-noun",
+      "translation": "hier",
+      "example_sentence": "Londan min nada kunun, a di wa sinin.",
+      "example_phonetic": "[londan min nada kunun a di wa sinin]",
+      "example_translation": "L'étranger qui est arrivé hier partira demain."
     },
     {
-      "word_id": "v13_7",
-      "term": "Kabuya",
-      "phonetic_api": "/ka.bu.ja/",
-      "phonetic_simple": "KA-BOU-YA",
-      "translation": "Étonnement / Histoire surprenante / Miracle",
-      "example_sentence": "Kabuya ba le kɛra kunu.",
-      "example_phonetic": "/ka.bu.ja ba le kɛ.ra ku.nu/",
-      "example_translation": "Un grand miracle s'est produit hier."
+      "word_id": "v7",
+      "term": "ka gbasi",
+      "phonetic_api": "[ka ɡ͜basi]",
+      "phonetic_simple": "ka-gba-si",
+      "translation": "frapper, taper",
+      "example_sentence": "A gbasinin a fa le bolo.",
+      "example_phonetic": "[a ɡ͜basinin a fa le bolo]",
+      "example_translation": "Il a été battu par son père."
     },
     {
-      "word_id": "v13_8",
-      "term": "O kɔ fɛ",
-      "phonetic_api": "/o kɔ fɛ/",
-      "phonetic_simple": "O KƆ FƐ",
-      "translation": "Ensuite / Après cela / Plus tard",
-      "example_sentence": "O kɔ fɛ, an wara lofɛ la.",
-      "example_phonetic": "/o kɔ fɛ an wa.ra lo.fɛ la/",
-      "example_translation": "Ensuite, nous sommes allés au marché."
+      "word_id": "v8",
+      "term": "ka nda / ka na",
+      "phonetic_api": "[ka nda]",
+      "phonetic_simple": "ka-nda",
+      "translation": "arriver, venir (passé)",
+      "example_sentence": "Londan min nada kunun.",
+      "example_phonetic": "[londan min nada kunun]",
+      "example_translation": "L'étranger qui est arrivé hier."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p13_1",
-      "original": "I kɛra mun di kunu wura la?",
-      "phonetic_api": "/i kɛ.ra mun di ku.nu wu.ra la/",
-      "phonetic_simple": "I KƐ-RA MOUN DI KOU-NOU WOU-RA LA ?",
-      "translation": "Qu'as-tu fait hier après-midi ?",
-      "context": "Question type pour s'enquérir des activités passées d'un interlocuteur."
+      "phrase_id": "p1",
+      "original": "Seku ka den gbasi",
+      "phonetic_api": "[seku ka dɛn ɡ͜basi]",
+      "phonetic_simple": "sé-kou-ka-dèn-gba-si",
+      "translation": "Sékou a battu l'enfant",
+      "context": "Passé narratif, structure Sujet + ka + COD + Verbe"
     },
     {
-      "phrase_id": "p13_2",
-      "original": "N wara dugu kɔnɔ, o kɔ fɛ n ye n kɔrɔke jɛn.",
-      "phonetic_api": "/ɲ wa.ra du.ɣu kɔ.nɔ o kɔ fɛ ɲ je ɲ kɔ.rɔ.ke d͡ʒɛn/",
-      "phonetic_simple": "N WA-RA DOU-GOU KƆ-NƆ, O KƆ FƐ N YÉ N KƆ-RƆ-KÉ DJƐNE.",
-      "translation": "Je suis allé en ville, ensuite j'ai rencontré mon grand frère.",
-      "context": "Enchaînement d'actions passées alternant l'intransitif et le transitif."
+      "phrase_id": "p2",
+      "original": "Den bada kunun",
+      "phonetic_api": "[dɛn bada kunun]",
+      "phonetic_simple": "dèn-ba-da-kou-noun",
+      "translation": "L'enfant s'est réveillé",
+      "context": "Passé récent accompli avec 'bada'"
     },
     {
-      "phrase_id": "p13_3",
-      "original": "N ma wa baara la kunu, n sɔnna kende.",
-      "phonetic_api": "/ɲ ma wa baː.ra la ku.nu ɲ sɔn.na ken.de/",
-      "phonetic_simple": "N MA WA BAA-RA LA KOU-NOU, N SƆNE-NA KÈNE-DÉ.",
-      "translation": "Je ne suis pas allé au travail hier, je n'étais pas bien portant.",
-      "context": "Justification d'une absence au passé par le biais de la structure négative."
+      "phrase_id": "p3",
+      "original": "Den ma sinôo",
+      "phonetic_api": "[dɛn ma sinoː]",
+      "phonetic_simple": "dèn-ma-si-no-o",
+      "translation": "L'enfant n'a pas dormi",
+      "context": "Négation du passé avec 'ma'"
     },
     {
-      "phrase_id": "p13_4",
-      "original": "A tilara dumuni la bang?",
-      "phonetic_api": "/a ti.la.ra du.mu.ni la baŋ/",
-      "phonetic_simple": "A TI-LA-RA DOU-MOU-NI LA BANGE ?",
-      "translation": "A-t-il fini de manger ?",
-      "context": "Vérification de l'accomplissement d'une tâche ou d'une action."
+      "phrase_id": "p4",
+      "original": "Nyari tèrè lanin kudun do",
+      "phonetic_api": "[ɲari tɛrɛ lanin kudun do]",
+      "phonetic_simple": "nya-ri-tè-rè-la-nin-kou-doun-do",
+      "translation": "Le chat était couché dans un fauteuil",
+      "context": "Passé progressif/imparfait avec 'tèrè'"
+    },
+    {
+      "phrase_id": "p5",
+      "original": "N tèrè ye maninka kan fola, konin n bada nyina",
+      "phonetic_api": "[n tɛrɛ je maninka kan fola konin n bada ɲina]",
+      "phonetic_simple": "n-tè-rè-yé-ma-nin-ka-kan-fo-la, ko-nin-n-ba-da-nyi-na",
+      "translation": "Je parlais malinké, mais j'ai oublié",
+      "context": "Passé progressif combiné à un passé récent, avec 'tèrè ye ... la'"
     }
   ],
   "grammar_points": [
     {
-      "concept": "La scission de l'accompli positif : Verbes Intransitifs vs Transitifs",
-      "explanation": "En Sankaran, la conjugaison au passé dépend de la nature du verbe. Les verbes intransitifs (sans complément d'objet direct) reçoivent le suffixe '-ra'. Les verbes transitifs (avec complément) insèrent la particule 'ye' avant le complément, et le verbe reste à sa forme nue en fin de proposition.",
+      "concept": "Le passé narratif avec 'ka'",
+      "explanation": "Pour raconter un fait accompli et daté au passé (comme dans un récit), le malinké utilise la particule 'ka' entre le sujet et le complément/verbe.",
       "rules": [
-        "Structure Intransitive : Sujet + Verbe + ra",
-        "Structure Transitive : Sujet + ye + Complément d'Objet + Verbe"
+        "Structure : [Sujet] + ka + [COD] + [Verbe]",
+        "Utilisé pour enchaîner plusieurs actions successives dans un récit"
       ],
       "examples": [
         {
-          "structure": "N wara (de wa - aller).",
-          "phonetic_api": "/ɲ wa.ra/",
-          "meaning": "Je suis allé."
-        },
-        {
-          "structure": "N ye jii min.",
-          "phonetic_api": "/ɲ je d͡ʒiː min/",
-          "meaning": "J'ai bu de l'eau."
+          "structure": "[Sujet] ka [COD] [Verbe]",
+          "phonetic_api": "[ka]",
+          "meaning": "[Sujet] a fait [verbe] à [COD]"
         }
       ]
     },
     {
-      "concept": "L'unification de la négation au passé avec la particule 'ma'",
-      "explanation": "Contrairement à l'affirmation, la négation du passé efface la distinction entre transitif et intransitif. On utilise uniformément la particule 'ma' placée immédiatement après le sujet, et le verbe garde sa forme de base.",
+      "concept": "Le passé progressif avec 'tèrè'",
+      "explanation": "'Tèrè' marque une action qui était en cours ou un état qui existait dans le passé (équivalent de l'imparfait français), et peut aussi indiquer un plus-que-parfait selon le contexte.",
       "rules": [
-        "Structure Négative Globale : Sujet + ma + (Complément si transitif) + Verbe"
+        "Structure : [Sujet] + tèrè + [Complément] + [Verbe]",
+        "Variante avec le progressif : [Sujet] + tèrè ye + [Verbe] + la"
       ],
       "examples": [
         {
-          "structure": "N ma wa.",
-          "phonetic_api": "/ɲ ma wa/",
-          "meaning": "Je ne suis pas allé."
-        },
+          "structure": "[Sujet] tèrè [Verbe]",
+          "phonetic_api": "[tɛrɛ]",
+          "meaning": "[Sujet] était en train de/avait [verbe]"
+        }
+      ]
+    },
+    {
+      "concept": "La négation du passé avec 'ma'",
+      "explanation": "Contrairement au présent et au futur qui utilisent 'tè', le passé se nie avec la particule 'ma', placée devant le verbe.",
+      "rules": [
+        "Structure : [Sujet] + ma + [Verbe]",
+        "Ex. : Den ma sinôo = l'enfant n'a pas dormi"
+      ],
+      "examples": [
         {
-          "structure": "N ma malo dun.",
-          "phonetic_api": "/ɲ ma ma.lo dun/",
-          "meaning": "Je n'ai pas mangé de riz."
+          "structure": "[Sujet] ma [Verbe]",
+          "phonetic_api": "[ma]",
+          "meaning": "[Sujet] n'a pas [verbe]"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Sekou",
-      "text": "Lamine, i silora di? N ma i jɛn kunu su la.",
-      "phonetic_api": "/la.min i si.lo.ra di | ɲ ma i d͡ʒɛn ku.nu su la/",
-      "phonetic_simple": "LA-MINE, I SI-LO-RA DI ? N MA I DJƐNE KOU-NOU SOU LA.",
-      "translation": "Lamine, comment as-tu passé la nuit ? Je ne t'ai pas vu hier soir."
+      "speaker": "Fatou",
+      "text": "Den bada kunun ?",
+      "phonetic_api": "[dɛn bada kunun]",
+      "phonetic_simple": "dèn-ba-da-kou-noun",
+      "translation": "L'enfant s'est réveillé ?"
     },
     {
-      "speaker": "Lamine",
-      "text": "Nba, Sekou. N silora kɛndɛya la. N ma bɔ so kɔnɔ kunu wura la.",
-      "phonetic_api": "/ɲ.ba se.ku | ɲ si.lo.ra kɛn.dɛ.ja la | ɲ ma bɔ so kɔ.nɔ ku.nu wu.ra la/",
-      "phonetic_simple": "NBA, SÉ-KOU. N SI-LO-RA KƐ-NDƐ-YA LA. N MA BƆ SO KƆ-NƆ KOU-NOU WOU-RA LA.",
-      "translation": "Eh bien, Sekou. J'ai passé une bonne nuit. Je ne suis pas sorti de la chambre hier après-midi."
+      "speaker": "Sékou",
+      "text": "Ntè, den ma sinôo su do, a tèrè kasila.",
+      "phonetic_api": "[n.tɛ dɛn ma sinoː su do a tɛrɛ kasila]",
+      "phonetic_simple": "n-tè, dèn-ma-si-no-o-sou-do, a-tè-rè-ka-si-la",
+      "translation": "Non, l'enfant n'a pas dormi la nuit, il pleurait."
     },
     {
-      "speaker": "Sekou",
-      "text": "Mun mu? I ye baara kɛ so kɔnɔ bang?",
-      "phonetic_api": "/mun mu | i je baː.ra kɛ so kɔ.nɔ baŋ/",
-      "phonetic_simple": "MOUN MOU ? I YÉ BAA-RA KƐ SO KƆ-NƆ BANGE ?",
-      "translation": "Pourquoi ? As-tu travaillé à la maison ?"
+      "speaker": "Fatou",
+      "text": "Jon ka a gbasi ?",
+      "phonetic_api": "[dʒɔn ka a ɡ͜basi]",
+      "phonetic_simple": "djon-ka-a-gba-si",
+      "translation": "Qui l'a frappé ?"
     },
     {
-      "speaker": "Lamine",
-      "text": "Awo, n ye sɛbɛ kura kalan, o kɔ fɛ n ye n lafia. N tilara fɔlɔ.",
-      "phonetic_api": "/a.wo ɲ je sɛ.bɛ ku.ra ka.lan o kɔ fɛ ɲ je ɲ la.fi.a | ɲ ti.la.ra fɔ.lɔ/",
-      "phonetic_simple": "A-WO, N YÉ SƐ-BƐ KOU-RA KA-LANE, O KƆ FƐ N YÉ N LA-FI-A. N TI-LA-RA FƆ-LƆ.",
-      "translation": "Oui, j'ai lu un nouveau livre, ensuite je me suis reposé. J'ai maintenant tout terminé."
+      "speaker": "Sékou",
+      "text": "Moo do, konin a bada fisaya sisèn.",
+      "phonetic_api": "[moː do konin a bada fisaja sisɛn]",
+      "phonetic_simple": "mo-o-do, ko-nin-a-ba-da-fi-sa-ya-si-sèn",
+      "translation": "Quelqu'un, mais il va mieux maintenant."
     }
   ],
   "cultural_notes": [
-    "La salutation 'I silora di?' (Comment as-tu passé la nuit/la journée ?) fait directement référence à la capacité d'avoir traversé le temps en paix. C'est une marque de respect obligatoire pour entamer un récit ou un bilan de la veille.",
-    "Dans la tradition orale du Sankaran, la narration d'événements passés respecte un ordre chronologique strict scandé par des formules transitionnelles comme 'o kɔ fɛ' (après cela) pour maintenir l'attention de l'auditoire."
+    "La tradition orale malinké accorde une grande importance à l'art de raconter ; les griots ('jeli') utilisent des enchaînements de passés narratifs avec 'ka' pour dérouler des récits historiques ou légendaires ([Malinkuia](https://fr.scribd.com/document/499114939/Malinkuia)).",
+    "Note dialectale (Sankaran) : cette leçon présente le maninka du Sankaran, parlé traditionnellement dans la région historique du Sankaran, aujourd'hui la préfecture et région de Faranah (Haute-Guinée), berceau historique du clan Condé et zone antérieure au Mandén selon la tradition orale. Le sankaran (ISO 639-3 msc) est très proche du malinké/maninka standard de Kankan, avec lequel il est mutuellement intelligible ; les mots et structures de cette leçon reflètent ce fonds commun du maninka de l'Est, complété par les spécificités phonologiques et grammaticales du parler de Faranah documentées par Spears (voir sources)."
   ],
   "exercises": [
     {
-      "exercise_id": "ex13_1",
-      "type": "multiple_choice",
-      "question": "Identifiez la phrase affirmative correcte traduisant : 'J'ai bu de l'eau.'",
-      "options": [
-        "N jii minna.",
-        "N ye jii min.",
-        "N ma jii min."
-      ],
-      "correct_answer": "N ye jii min.",
-      "explanation": "Le verbe boire est transitif. On utilise l'auxiliaire 'ye' devant le complément d'objet 'jii'."
+      "exercise_id": "e1",
+      "type": "traduction",
+      "question": "Traduisez : 'Sékou a battu l'enfant.'",
+      "correct_answer": "Seku ka den gbasi.",
+      "explanation": "Passé narratif : Sujet + ka + COD + Verbe."
     },
     {
-      "exercise_id": "ex13_2",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Pour nier une action passée, on place le marqueur unique : N [ ___ ] wa lofɛ la kunu. (Je ne suis pas allé au marché hier.)",
-      "correct_answer": "ma",
-      "hint": "C'est la particule négative de l'accompli composée de deux lettres."
+      "exercise_id": "e2",
+      "type": "choix_multiple",
+      "question": "Comment nie-t-on une phrase au passé ?",
+      "options": [
+        "avec tè",
+        "avec ma",
+        "avec kana",
+        "avec bada"
+      ],
+      "correct_answer": "avec ma",
+      "explanation": "'ma' est la particule négative spécifique au passé, contrairement à 'tè' (présent/futur)."
+    },
+    {
+      "exercise_id": "e3",
+      "type": "texte_a_trous",
+      "sentence_with_blank": "Nyari ___ lanin kudun do.  (Le chat était couché dans un fauteuil.)",
+      "correct_answer": "tèrè",
+      "hint": "C'est la marque du passé progressif/imparfait."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Ethnologue — Maninka, Sankaran [msc]",
+      "url": "https://www.ethnologue.com/language/msc/"
+    },
+    {
+      "label": "Glottolog 5.3 — Sankaran Maninka [sank1253]",
+      "url": "https://glottolog.org/resource/languoid/id/sank1253"
+    },
+    {
+      "label": "Wikipédia — Sankaran (langue, msc)",
+      "url": "https://fr.wikipedia.org/wiki/Sankaran"
+    },
+    {
+      "label": "Spears, R. A. — The Structure of Faranah-Maninka (Indiana University, description structurale du parler de Faranah, historiquement le Sankaran)",
+      "url": "https://theswissbay.ch/pdf/Books/Linguistics/Mega%20linguistics%20pack/African/Niger-Congo/Mande/Maninka,%20The%20Structure%20of%20Faranah-%20(Spears).pdf"
+    },
+    {
+      "label": "Vydrin (2023) — Le TAM en maninka de Guinée : la zone du futur, Mandenkan 70",
+      "url": "https://journals.openedition.org/mandenkan/pdf/3253"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Aucune source lexicale ou grammaticale dédiée et indépendante n'a été trouvée pour cette leçon spécifiquement en sankaran : le contenu reprend le fonds commun du maninka/malinké de Haute-Guinée (vérifié pour le malinké standard), dont la proximité avec le sankaran est confirmée par les classifications Ethnologue/Glottolog/Vydrin, mais sans confirmation lexème par lexème pour ce dialecte précis. Confiance donc revue à la baisse par rapport à une attestation directe."
 }

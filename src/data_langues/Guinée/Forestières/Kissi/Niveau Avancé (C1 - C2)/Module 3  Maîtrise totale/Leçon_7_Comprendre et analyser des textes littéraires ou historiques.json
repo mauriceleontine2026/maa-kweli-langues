@@ -1,114 +1,184 @@
 {
   "lesson_id": "C1_M3_L7",
-  "level": "Niveau Avancé (C1-C2)",
+  "level": "Avancé (C1-C2)",
   "module_number": 3,
   "module_title": "Maîtrise totale",
   "lesson_number": 7,
   "title": "Comprendre et analyser des textes littéraires ou historiques",
   "learning_objectives": [
-    "Analyser la structure narrative des récits fondateurs de l'histoire Kissi",
-    "Déchiffrer le vocabulaire archaïque utilisé dans les récits de fondation",
-    "Interpréter les figures de style propres aux récits épiques"
+    "Lire et analyser l'article 1 de la Déclaration universelle des droits de l'homme traduit en kissi (Omniglot)",
+    "Identifier le vocabulaire abstrait attesté (droits, dignité, raison, conscience) dans ce texte fondateur",
+    "Situer ce texte dans le contexte historique de l'écriture missionnaire et institutionnelle du kissi"
   ],
   "phonetic_focus": {
-    "key_sounds": "Les récits historiques solennels font appel à une élongation marquée des voyelles ouvertes (/ɔː/, /ɛː/) pour accentuer la portée des faits anciens.",
-    "common_pitfalls": "Attention à ne pas appliquer les contractions du langage familier urbain. Les voyelles et les tons doivent être restitués dans leur forme pleine d'origine."
+    "key_sounds": "Le texte de la Déclaration utilise des groupes consonantiques complexes (mb, nd, ny) typiques du kissi écrit standardisé, à articuler sans les simplifier en une seule consonne.",
+    "common_pitfalls": "Les francophones simplifient souvent les groupes nasal+consonne (mb, nd) en consonnes simples, perdant une distinction phonémique importante du kissi standardisé."
   },
   "vocabulary": [
     {
-      "word_id": "v25_1",
-      "term": "simbonda",
-      "phonetic_api": "/si.ᵐbɔ.ⁿda/",
-      "phonetic_simple": "SEEM-BON-DA",
-      "translation": "histoire ancienne / épopée / faits d'armes historiques",
-      "example_sentence": "Simbonda lebol nio o co bɛndɛ.",
-      "example_phonetic": "/si.ᵐbɔ.ⁿda le.bol njo o tʃo bɛⁿdɛ/",
-      "example_translation": "L'épopée historique de mon pays est immense."
+      "word_id": "v1",
+      "term": "wanaa",
+      "phonetic_api": "/wanaː/",
+      "phonetic_simple": "wa-naa",
+      "translation": "les gens, les personnes, l'humanité (dans un sens collectif/abstrait)",
+      "example_sentence": "Wanaa wo ndu kposɔ.",
+      "example_phonetic": "/wanaː wo ndu kposɔ/",
+      "example_translation": "Tous les êtres humains naissent (litt. les gens naissent)."
     },
     {
-      "word_id": "v25_2",
-      "term": "massa",
-      "phonetic_api": "/ma.sa/",
-      "phonetic_simple": "MAS-SA",
-      "translation": "chef souverain / roi / autorité suprême historique",
-      "example_sentence": "Massa o pa lo wo fassa cɔɔ.",
-      "example_phonetic": "/ma.sa o pa lo wo fa.sa tʃɔː/",
-      "example_translation": "Le roi était autrefois parti vers une direction très lointaine."
+      "word_id": "v2",
+      "term": "kposɔ",
+      "phonetic_api": "/kposɔ/",
+      "phonetic_simple": "kpo-sô",
+      "translation": "naître, être né(e)",
+      "example_sentence": "Ndu kposɔ.",
+      "example_phonetic": "/ndu kposɔ/",
+      "example_translation": "Il/elle est né(e)."
+    },
+    {
+      "word_id": "v3",
+      "term": "kɔlɔ́ɔ",
+      "phonetic_api": "/kɔlɔː/",
+      "phonetic_simple": "kô-lô",
+      "translation": "manière d'être, dignité, condition (selon contexte)",
+      "example_sentence": "Wanaa ndu kɔlɔ́ɔ ndu kendé.",
+      "example_translation": "La dignité des personnes est bonne (respectée).",
+      "example_phonetic": "/wanaː ndu kɔlɔː ndu kende/"
+    },
+    {
+      "word_id": "v4",
+      "term": "laalagndó",
+      "phonetic_api": "/laːlaɡndo/",
+      "phonetic_simple": "laa-lagn-do",
+      "translation": "conscience, conviction, raison (au sens de faculté de juger)",
+      "example_sentence": "Wanaa wana laalagndó.",
+      "example_phonetic": "/wanaː wana laːlaɡndo/",
+      "example_translation": "Les gens ont une conscience/raison."
+    },
+    {
+      "word_id": "v5",
+      "term": "kale",
+      "phonetic_api": "/kale/",
+      "phonetic_simple": "ka-lé",
+      "translation": "lignage, fraternité, appartenance commune (au sens élargi)",
+      "example_sentence": "Wanaa wana kale wo.",
+      "example_phonetic": "/wanaː wana kale wo/",
+      "example_translation": "Les gens ont une appartenance commune (fraternité)."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p25_1",
-      "original": "Simbonda nɔɔ o dimul mi fuaaa.",
-      "phonetic_api": "/si.ᵐbɔ.ⁿda noː o di.mul mi fwaːː/",
-      "phonetic_simple": "SEEM-BON-DA NOO O DI-MOUL MEE FOU-AAA",
-      "translation": "Notre histoire ancienne nous parle du temps jadis.",
-      "context": "Introduction d'un récit sur les origines du peuple"
+      "phrase_id": "p1",
+      "original": "Wanaa wo ndu kposɔ dee ndu i lándíí, dee ndu kɔlɔ́ɔ.",
+      "phonetic_api": "/wanaː wo ndu kposɔ deː ndu i landiː deː ndu kɔlɔː/",
+      "phonetic_simple": "wa-naa wo ndou kpo-sô dèè ndou i lan-dii, dèè ndou kô-lô",
+      "translation": "Tous les êtres humains naissent libres et égaux en dignité et en droits (article 1 de la DUDH, traduction kissi, Omniglot).",
+      "context": "Premier article de la Déclaration universelle des droits de l'homme, référence pour le registre juridique/philosophique."
     },
     {
-      "phrase_id": "p25_2",
-      "original": "Massa o nɔndɛ lebol bɛndɛ fassa wa.",
-      "phonetic_api": "/ma.sa o nɔ̃.ⁿdɛ le.bol bɛⁿdɛ fa.sa wa/",
-      "phonetic_simple": "MAS-SA O NON-DÈ LÉ-BOL BEN-DÈ FAS-SA WA",
-      "translation": "Le roi fonda une grande cité de ce côté.",
-      "context": "Chroniques historiques orales"
+      "phrase_id": "p2",
+      "original": "Wana wana laalagndó dee wana có yómu.",
+      "phonetic_api": "/wana wana laːlaɡndo deː wana tʃo jomu/",
+      "phonetic_simple": "wa-na wa-na laa-lagn-do dèè wa-na tcho yo-mou",
+      "translation": "Ils sont doués de raison et de conscience (paraphrase du même article).",
+      "context": "Pour analyser la notion abstraite de conscience/raison en kissi."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Wanaa wana kale wo, wana n diambɔ́ɔ ndɔ̀ɔ ndu bɛ.",
+      "phonetic_api": "/wanaː wana kale wo wana n djambɔː ndɔː ndu bɛ/",
+      "phonetic_simple": "wa-naa wa-na ka-lé wo, wa-na n dyam-bô ndô ndou bè",
+      "translation": "Ils forment une même fraternité, ils doivent se traiter les uns les autres dans cet esprit.",
+      "context": "Paraphrase de la fin de l'article 1, sur la fraternité universelle."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Wanaa wana kɔlɔ́ɔ ndu kendé.",
+      "phonetic_api": "/wanaː wana kɔlɔː ndu kende/",
+      "phonetic_simple": "wa-naa wa-na kô-lô ndou kèn-dé",
+      "translation": "La dignité des êtres humains est respectée (bonne).",
+      "context": "Paraphrase analytique reprenant le vocabulaire de dignité du texte de la DUDH."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'infixe de glorification historique et d'antériorité",
-      "explanation": "Dans la langue littéraire et historique, l'usage de 'pa' combiné à un redoublement pronominal emphatique sert à détacher l'événement du cadre temporel ordinaire pour le placer dans une dimension héroïque.",
+      "concept": "Le lexique abstrait dans un texte fondateur traduit",
+      "explanation": "La traduction kissi de l'article 1 de la Déclaration universelle des droits de l'homme, disponible sur Omniglot, constitue une rare attestation écrite de vocabulaire abstrait (droit, dignité, raison, conscience, fraternité) dans cette langue majoritairement orale. Elle illustre comment les traducteurs ont réemployé des racines concrètes du lexique courant (kɔlɔ́ɔ=manière d'être/condition, kale=lignage) pour exprimer des concepts juridiques et philosophiques abstraits issus d'un contexte international.",
       "rules": [
-        "Le pronom sujet est suivi de la marque 'pa'.",
-        "Le verbe qui suit adopte une tonalité basse solennelle."
+        "Le texte juridique/philosophique traduit réutilise des racines du vocabulaire courant avec un sens étendu, plutôt que de créer des néologismes.",
+        "La coordination 'dee' (et) relie les compléments de qualité dans une énumération formelle (libres et égaux en dignité et en droits).",
+        "L'analyse d'un texte historique/littéraire en kissi nécessite de comparer systématiquement avec l'original (ici le français ou l'anglais de la DUDH) pour identifier les choix de traduction."
       ],
       "examples": [
         {
-          "structure": "Sujet + pa + Verbe historique",
-          "phonetic_api": "/o pa lo wo/",
-          "meaning": "Il partit jadis de manière irréversible."
+          "structure": "Wanaa wo ndu kposɔ dee ndu [qualité1], dee ndu [qualité2]",
+          "phonetic_api": "/wanaː wo ndu kposɔ deː .../",
+          "meaning": "tous les êtres humains naissent [qualité1] et [qualité2]"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "L'Historien",
-      "text": "Simbo, simbonda lebol nɔɔ o kandɛ wo tele cɔɔ ning.",
-      "phonetic_api": "/si.ᵐbo si.ᵐbɔ.ⁿda le.bol noː o ka.ⁿdɛ wo te.le tʃɔː niŋ/",
-      "phonetic_simple": "SEEM-BO, SEEM-BON-DA LÉ-BOL NOO O KAN-DÈ WO TÉ-LÉ TCHOO NING.",
-      "translation": "Vénérable, l'histoire ancienne de notre pays a commencé il y a fort longtemps."
+      "speaker": "Professeur",
+      "text": "I có kɔlɔ́ɔ 'wanaa wo ndu kposɔ dee ndu i lándíí'?",
+      "phonetic_api": "/i tʃo kɔlɔː wanaː wo ndu kposɔ deː ndu i landiː/",
+      "phonetic_simple": "i tcho kô-lô wa-naa wo ndou kpo-sô dèè ndou i lan-dii",
+      "translation": "Comprends-tu le sens de 'tous les êtres humains naissent libres'?"
     },
     {
-      "speaker": "L'Ancien",
-      "text": "Haa, i tchie ni. Massa nɔɔ o pa wali bɛndɛ co wo.",
-      "phonetic_api": "/haː i tʃje ni ma.sa noː o pa wa.li bɛⁿdɛ tʃo wo/",
-      "phonetic_simple": "HAA, EE TCHEE NEE. MAS-SA NOO O PA WA-LEE BEN-DÈ TCHO WO.",
-      "translation": "Oui, je le sais. Notre roi avait autrefois accompli de grandes œuvres."
+      "speaker": "Étudiant",
+      "text": "Naam, ndu diambɔ́ɔ o wanaa wana kɔlɔ́ɔ dee wana laalagndó.",
+      "phonetic_api": "/naːm ndu djambɔː o wanaː wana kɔlɔː deː wana laːlaɡndo/",
+      "phonetic_simple": "naam, ndou dyam-bô o wa-naa wa-na kô-lô dèè wa-na laa-lagn-do",
+      "translation": "Oui, cela parle de la dignité et de la raison des êtres humains."
+    },
+    {
+      "speaker": "Professeur",
+      "text": "Baleka. Ndu ndɔ̀ɔ ndu kale wo halli.",
+      "phonetic_api": "/baleka ndu ndɔː ndu kale wo hali/",
+      "phonetic_simple": "ba-lé-ka. ndou ndô ndou ka-lé wo ha-li",
+      "translation": "Merci. Cela concerne justement leur appartenance commune (fraternité)."
+    },
+    {
+      "speaker": "Étudiant",
+      "text": "Baleka, ndu kɔ́naa kendé o wanaa dee wana kɔlɔ́ɔ.",
+      "phonetic_api": "/baleka ndu kɔnaː kende o wanaː deː wana kɔlɔː/",
+      "phonetic_simple": "ba-lé-ka, ndou kô-naa kèn-dé o wa-naa dèè wa-na kô-lô",
+      "translation": "Merci, c'est un beau message sur les humains et leur dignité."
     }
   ],
   "cultural_notes": [
-    "L'histoire des Kissi (en Guinée forestière, Sierra Leone et Liberia) est intimement liée aux migrations et aux chefferies guerrières historiques. Le souvenir des souverains ('massa') fondateurs est précieusement gardé par des lignées de traditionalistes."
+    "La disponibilité de la Déclaration universelle des droits de l'homme en kissi, documentée par Omniglot, témoigne d'un effort de traduction institutionnelle rare pour cette langue, aux côtés des traductions bibliques déjà mentionnées dans le module précédent.",
+    "L'analyse comparée de tels textes fondateurs traduits offre, en l'absence de corpus littéraire kissi abondant en ligne, l'un des rares points d'entrée pour étudier le registre soutenu écrit de cette langue à l'échelle d'un texte suivi plutôt que de mots isolés."
   ],
   "exercises": [
     {
-      "exercise_id": "ex25_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Que désigne le mot 'massa' dans un texte historique ?",
+      "question": "D'après l'article 1 de la DUDH en kissi, les êtres humains naissent...",
       "options": [
-        "Un grand chasseur",
-        "Un roi / chef souverain",
-        "Une jeune fille"
+        "libres et égaux en dignité et en droits",
+        "riches et puissants",
+        "silencieux et soumis"
       ],
-      "correct_answer": "Un roi / chef souverain",
-      "explanation": "'Massa' est le terme traditionnel désignant le roi, le souverain ou le chef suprême d'une contrée."
+      "correct_answer": "libres et égaux en dignité et en droits",
+      "explanation": "Traduction attestée par Omniglot de l'article 1 de la DUDH en kissi."
     },
     {
-      "exercise_id": "ex25_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "[ ___ ] lebol nio o co bɛndɛ. (L'épopée historique de mon pays est immense)",
-      "correct_answer": "Simbonda",
-      "hint": "Substantif pour l'histoire ancienne ou l'épopée"
+      "sentence_with_blank": "Wanaa wo ndu [ ___ ] dee ndu i lándíí. (Tous les êtres humains naissent libres...)",
+      "correct_answer": "kposɔ",
+      "hint": "Verbe attesté pour « naître »."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Omniglot — Kissi language and alphabet (Déclaration universelle des droits de l'homme, art. 1)",
+      "url": "https://www.omniglot.com/writing/kissi.htm"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Le texte de l'article 1 de la DUDH en kissi est attesté mot pour mot par Omniglot ; les paraphrases et le dialogue d'analyse construits autour de ce texte restent cependant des extensions pédagogiques raisonnées, non des citations supplémentaires directement sourcées."
 }

@@ -1,4 +1,4 @@
-import { useMemo, useState } from "react";
+import { useMemo, useRef, useState } from "react";
 import { ArrowRight, Chrome, Lock, Mail, Sparkles, UserRound } from "lucide-react";
 
 /**
@@ -35,6 +35,7 @@ export default function AuthSplitPanel(props) {
   const [mode, setMode] = useState(initialMode);
   const [form, setForm] = useState({ name: "", email: "", password: "", confirmPassword: "", remember: false });
   const [showPassword, setShowPassword] = useState(false);
+  const submittingRef = useRef(false);
 
   const isSignUp = mode === "signup";
 
@@ -60,6 +61,9 @@ export default function AuthSplitPanel(props) {
 
   const handleSubmit = (/** @type {any} */ event) => {
     event.preventDefault();
+    event.stopPropagation();
+    if (submittingRef.current || loading) return;
+    submittingRef.current = true;
     const formElement = event.currentTarget;
     const formData = new FormData(formElement);
     const submittedValues = {
@@ -69,15 +73,17 @@ export default function AuthSplitPanel(props) {
       confirmPassword: String(formData.get("confirmPassword") || form.confirmPassword || ""),
       remember: formData.get("remember") === "on",
     };
-    onSubmit?.({ ...submittedValues, mode });
+    Promise.resolve(onSubmit?.({ ...submittedValues, mode })).finally(() => {
+      submittingRef.current = false;
+    });
   };
 
 
   return (
-    <div className="min-h-screen bg-background px-4 py-8 sm:px-6 lg:px-8 flex items-center justify-center">
+    <div className="flex min-h-screen items-center justify-center bg-background px-4 py-6 sm:px-6 sm:py-10 lg:px-8">
       <div className="w-full max-w-6xl overflow-hidden rounded-[2rem] border border-border bg-card shadow-[0_20px_80px_-20px_rgba(0,0,0,0.25)]">
         <div className={`flex flex-col transition-all duration-700 ease-&lsqb;cubic-bezier(0.4,0,0.2,1)&rsqb; lg:flex-row ${isSignUp ? "lg:flex-row-reverse" : "lg:flex-row"}`}>
-          <div className="relative flex w-full items-center justify-center overflow-hidden bg-gradient-to-br from-primary via-primary/90 to-accent/90 px-6 py-12 text-primary-foreground sm:px-10 lg:w-[46%] lg:px-12 lg:py-16">
+          <div className="relative flex w-full items-center justify-center overflow-hidden bg-gradient-to-br from-primary via-primary/90 to-accent/90 px-6 py-10 text-primary-foreground sm:px-10 sm:py-12 lg:w-[46%] lg:px-12 lg:py-16">
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(255,255,255,0.25),transparent_40%)]" />
             <div className="relative z-10 w-full max-w-md transition-all duration-500">
               <div className="mb-6 flex items-center gap-3">
@@ -120,10 +126,12 @@ export default function AuthSplitPanel(props) {
                   <button
                     type="button"
                     onClick={onGoogle}
+                    disabled={loading}
+                    aria-busy={loading}
                     className="flex flex-1 items-center justify-center gap-2 rounded-xl border border-border bg-background px-4 py-3 text-sm font-medium text-foreground transition-all duration-300 hover:-translate-y-0.5 hover:scale-[1.01] hover:bg-secondary"
                   >
                     <Chrome className="h-4 w-4 text-primary" />
-                    Continuer avec Google
+                    {loading ? "Connexion en cours..." : "Continuer avec Google"}
                   </button>
                 </div>
               ) : null}
@@ -236,8 +244,8 @@ export default function AuthSplitPanel(props) {
                     </div>
                   )}
 
-                  {error ? <p role="alert" className="text-sm text-destructive">{error}</p> : null}
-                  {message ? <p role="status" className="text-sm text-emerald-600">{message}</p> : null}
+                  {error ? <p role="alert" className="rounded-xl border border-destructive/20 bg-destructive/10 px-3 py-2.5 text-sm leading-5 text-destructive">{error}</p> : null}
+                  {message ? <p role="status" className="rounded-xl border border-emerald-500/20 bg-emerald-500/10 px-3 py-2.5 text-sm leading-5 text-emerald-700">{message}</p> : null}
 
                                   <button
                     type="submit"
@@ -253,6 +261,12 @@ export default function AuthSplitPanel(props) {
 
 
               {children ? <div className="mt-4">{children}</div> : null}
+
+              {!hideForm ? (
+                <div className="mt-6 flex items-center justify-center gap-2 text-center text-xs text-muted-foreground">
+                  <Lock className="h-3.5 w-3.5 text-primary" /> Connexion sécurisée · Vos données restent privées
+                </div>
+              ) : null}
 
               {!hideForm ? (
                 <p className="mt-6 text-center text-sm text-muted-foreground">

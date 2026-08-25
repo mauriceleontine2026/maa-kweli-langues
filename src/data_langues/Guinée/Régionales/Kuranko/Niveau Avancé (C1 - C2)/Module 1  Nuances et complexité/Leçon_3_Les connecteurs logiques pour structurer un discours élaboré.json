@@ -4,160 +4,202 @@
   "module_number": 1,
   "module_title": "Nuances et complexité",
   "lesson_number": 3,
-  "title": "Le discours rapporté, les citations et l'art de l'éloquence",
+  "title": "Les connecteurs logiques pour structurer un discours élaboré",
   "learning_objectives": [
-    "Maîtriser les structures du discours rapporté direct et indirect avec le relateur 'ko'",
-    "Utiliser les formules de citation traditionnelles et les proverbes dans une argumentation",
-    "Intégrer les particules de politesse oratoire pour structurer un discours formel"
+    "Identifier les connecteurs logiques attestés dans les proverbes kuranko (koni = mais/sauf)",
+    "Analyser la structure argumentative des proverbes recueillis par Michael Jackson",
+    "Construire un discours à deux propositions liées par un connecteur d'opposition"
   ],
   "phonetic_focus": {
-    "key_sounds": "Le relateur 'ko' porte une voyelle fermée /ko/ bien distincte du verbe 'kɔni'. La consonne nasale initiale dans 'ɱ͡ba' ou 'ɲ͡ja' doit fusionner avec l'attaque syllabique sans rupture d'expiration.",
-    "common_pitfalls": "Ne pas confondre le relateur de discours 'ko' (dire que / que voici) avec le nom commun 'ko' (affaire / problème / chose) dont le comportement tonal varie."
+    "key_sounds": "« Koni » porte l'accent sur sa première syllabe, contrairement à d'autres connecteurs mandé qui peuvent porter l'accent sur la finale.",
+    "common_pitfalls": "Les francophones ont tendance à traiter « koni » comme un simple équivalent de « mais » sans percevoir sa nuance supplémentaire d'exception restrictive (« sauf »)."
   },
   "vocabulary": [
     {
-      "word_id": "v1_c1_m1_l3",
-      "term": "Ko",
+      "word_id": "v1",
+      "term": "koni",
+      "phonetic_api": "/koni/",
+      "phonetic_simple": "KO-ni",
+      "translation": "mais, cependant, sauf (connecteur d'opposition/restriction)",
+      "example_sentence": "Kele da ma si ban, koni musu ko kele ti ban.",
+      "example_phonetic": "/kele da ma si ban koni musu ko kele ti ban/",
+      "example_translation": "Toutes les querelles finissent, sauf celles causées par les femmes."
+    },
+    {
+      "word_id": "v2",
+      "term": "ma",
+      "phonetic_api": "/ma/",
+      "phonetic_simple": "ma",
+      "translation": "marqueur négatif de l'accompli",
+      "example_sentence": "Kele da ma si ban.",
+      "example_phonetic": "/kele da ma si ban/",
+      "example_translation": "Les querelles ne cessent pas."
+    },
+    {
+      "word_id": "v3",
+      "term": "le",
+      "phonetic_api": "/lɛ/",
+      "phonetic_simple": "lè",
+      "translation": "particule emphatique/de mise en relief, souvent en fin d'énoncé pour souligner un point",
+      "example_sentence": "Morgoye le nyorgo dii.",
+      "example_phonetic": "/morgoje lɛ ɲorgo diː/",
+      "example_translation": "C'est bien la dignité humaine qui est précieuse."
+    },
+    {
+      "word_id": "v4",
+      "term": "ko",
       "phonetic_api": "/ko/",
-      "phonetic_simple": "KO",
-      "translation": "Dire que / Que (introduit le discours rapporté)",
-      "example_sentence": "A ye a fɔ ko i ka na",
-      "example_phonetic": "/a d͡ʒe a fɔ ko i ka na/",
-      "example_translation": "Il a dit que tu devais venir"
+      "phonetic_simple": "ko",
+      "translation": "particule introduisant une cause/un motif (« parce que », « le fait que »)",
+      "example_sentence": "N' kende i ko konke.",
+      "example_phonetic": "/n kɛndɛ i ko konkɛ/",
+      "example_translation": "Je vais aussi bien que la faim me le permet (littéralement : je vais bien parce que la faim)."
     },
     {
-      "word_id": "v2_c1_m1_l3",
-      "term": "Talalon",
-      "phonetic_api": "/ta.la.lon/",
-      "phonetic_simple": "TA-LA-LON",
-      "translation": "Proverbe / Parabole / Formule de sagesse",
-      "example_sentence": "N fa ye talalon fɔ",
-      "example_phonetic": "/ɱ͡fa d͡ʒe ta.la.lon fɔ/",
-      "example_translation": "Mon père a énoncé un proverbe"
-    },
-    {
-      "word_id": "v3_c1_m1_l3",
-      "term": "Kuma-la-fasa",
-      "phonetic_api": "/ku.ma.la.fa.sa/",
-      "phonetic_simple": "KOU-MA-LA-FA-SA",
-      "translation": "Éloquence / Plaidoyer / Art oratoire",
-      "example_sentence": "A ya kuma-la-fasa ka ni",
-      "example_phonetic": "/a ja ku.ma.la.fa.sa ka ni/",
-      "example_translation": "Son éloquence est excellente"
-    },
-    {
-      "word_id": "v4_c1_m1_l3",
-      "term": "Minyan",
-      "phonetic_api": "/min.jan/",
-      "phonetic_simple": "MIN-YAN",
-      "translation": "Citer / Rapporter fidèlement les propos",
-      "example_sentence": "N bɛ a ya fɔta minyan ra",
-      "example_phonetic": "/ɱ͡bɛ a ja fɔ.ta min.jan ra/",
-      "example_translation": "Je rapporte fidèlement ce qu'il a dit"
+      "word_id": "v5",
+      "term": "musu",
+      "phonetic_api": "/musu/",
+      "phonetic_simple": "MOU-sou",
+      "translation": "femme (contexte du proverbe sur les querelles)",
+      "example_sentence": "Kele da ma si ban, koni musu ko kele ti ban.",
+      "example_phonetic": "/kele da ma si ban koni musu ko kele ti ban/",
+      "example_translation": "Toutes les querelles finissent par se résoudre, sauf celles causées par les femmes."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p1_c1_m1_l3",
-      "original": "Mɔgɔbanu ye a fɔ ko : baa tɛ doli kɛ wulu fɛ",
-      "phonetic_api": "/mɔ.gɔ.ba.nu d͡ʒe a fɔ ko baː tɛ do.li kɛ wu.lu fɛ/",
-      "phonetic_simple": "MƆ-GƆ-BA-NOU YE A FƆ KO : BAA TƐ DO-LI KƐ WOU-LOU FƐ",
-      "translation": "Les anciens ont dit : la chèvre ne négocie pas avec le chien",
-      "context": "Citer une parole d'autorité ou un proverbe pour appuyer un argument."
+      "phrase_id": "p1",
+      "original": "Kele da ma si ban, koni musu ko kele ti ban.",
+      "phonetic_api": "/kele da ma si ban koni musu ko kele ti ban/",
+      "phonetic_simple": "KÈ-lè da ma si ban, KO-ni MOU-sou ko KÈ-lè ti ban",
+      "translation": "Toutes les querelles finissent, sauf celles causées par les femmes.",
+      "context": "Illustre l'usage du connecteur « koni » pour introduire une exception restrictive à une affirmation générale, structure rhétorique typique des proverbes attestés par Michael Jackson."
     },
     {
-      "phrase_id": "p2_c1_m1_l3",
-      "original": "A ye n lali ko n kana sinka kɛ bilen",
-      "phonetic_api": "/a d͡ʒe ɲ͡la.li ko ŋ͡ka.na sin.ka kɛ bi.len/",
-      "phonetic_simple": "A YE N LA-LI KO N KA-NA SIN-KA KƐ BI-LEN",
-      "translation": "Il m'a conseillé de ne plus douter désormais (discours indirect)",
-      "context": "Rapporter une consigne ou une recommandation reçue."
+      "phrase_id": "p2",
+      "original": "Morgoye le nyorgo dii.",
+      "phonetic_api": "/morgoje lɛ ɲorgo diː/",
+      "phonetic_simple": "mor-GO-yé lè gnor-GO diː",
+      "translation": "C'est bien la dignité humaine qui est précieuse.",
+      "context": "La particule « le » met en relief le sujet « morgoye », structure emphatique fréquente dans le discours élaboré kuranko."
     },
     {
-      "phrase_id": "p3_c1_m1_l3",
-      "original": "Alu m'an lamɛn, n fɛ ka kuma nɛ minyan",
-      "phonetic_api": "/a.lu ɱ͡man la.mɛn ɲ͡fɛ ka ku.ma nɛ min.jan/",
-      "phonetic_simple": "A-LU M'AN LA-MƐN, N FƐ KA KOU-MA NƐ MIN-YAN",
-      "translation": "Écoutez-moi, je veux citer (rapporter) cette parole",
-      "context": "Capter l'attention d'un auditoire lors d'une assemblée."
+      "phrase_id": "p3",
+      "original": "N' kende i ko konke.",
+      "phonetic_api": "/n kɛndɛ i ko konkɛ/",
+      "phonetic_simple": "n-KEN-dé i ko KON-ké",
+      "translation": "Je vais aussi bien que la faim me le permet.",
+      "context": "« Ko » introduit ici une nuance causale/comparative, illustrant la polysémie de cette particule dans le discours nuancé."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Kele da ma si ban, koni musu ko kele ti ban.",
+      "phonetic_api": "/kele da ma si ban koni musu ko kele ti ban/",
+      "phonetic_simple": "KÈ-lè da ma si ban, KO-ni MOU-sou ko KÈ-lè ti ban",
+      "translation": "Toutes les querelles finissent par se résoudre, sauf celles causées par les femmes.",
+      "context": "Emploi du connecteur d'opposition « koni » (mais/sauf que) pour structurer une exception logique dans ce proverbe attesté par Jackson."
     }
   ],
   "grammar_points": [
     {
-      "concept": "Le relateur polyvalent de discours 'Ko'",
-      "explanation": "En kuranko, l'introduction du discours direct ou indirect ne nécessite pas de modifications complexes des pronoms ou des temps comme en français. On utilise la particule invariable 'ko' juste après le verbe de parole ou de pensée.",
+      "concept": "Les connecteurs logiques d'opposition et de mise en relief",
+      "explanation": "Le discours élaboré kuranko attesté chez Michael Jackson s'appuie sur un nombre restreint de particules polyvalentes (« koni », « le », « ko ») dont le sens précis dépend fortement du contexte. « Koni » marque une restriction/opposition à une généralisation ; « le » met en relief un élément de la phrase (souvent le sujet) ; « ko » introduit un lien causal ou comparatif souple.",
       "rules": [
-        "Structure : [Sujet] + ye a fɔ / lali + ko + [Propos rapportés]",
-        "Le relateur 'ko' peut lui-même porter le sens du verbe 'dire' dans un registre fluide si le locuteur est clairement identifié."
+        "« Koni » se place entre la proposition générale et l'exception qui la restreint.",
+        "« Le » suit immédiatement l'élément mis en relief, sans nécessairement se traduire par un mot séparé en français.",
+        "« Ko » peut introduire une cause, une comparaison ou un discours rapporté selon le contexte — sa polysémie doit être interprétée à partir de l'énoncé entier."
       ],
       "examples": [
         {
-          "structure": "N fa ko : ta so !",
-          "phonetic_api": "/ɱ͡fa ko ta so/",
-          "meaning": "Mon père dit : va à la maison !"
-        }
-      ]
-    },
-    {
-      "concept": "L'intégration syntaxique des proverbes ('Talalon')",
-      "explanation": "Pour insérer un proverbe dans une joute oratoire avancée, le kuranko utilise une structure d'ancrage historique qui légitime la parole en l'attribuant aux anciens ('mɔgɔbanu') ou aux ancêtres.",
-      "rules": [
-        "Structure : Mɔgɔbanu ye a fɔ talalon ra ko + [Texte du proverbe]"
-      ],
-      "examples": [
+          "structure": "[généralité], koni [exception]",
+          "phonetic_api": "/koni/",
+          "meaning": "..., sauf/mais [exception]"
+        },
         {
-          "structure": "Alu ye a fɔ ko : kɔngɔ tɛ donki fin san",
-          "phonetic_api": "/a.lu d͡ʒe a fɔ ko kɔn.gɔ tɛ don.ki fin san/",
-          "meaning": "Ils ont dit : la faim n'achète pas un boubou noir (priorité aux besoins vitaux)"
+          "structure": "[élément] + le + [prédicat]",
+          "phonetic_api": "/lɛ/",
+          "meaning": "c'est bien [élément] qui..."
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Lansana (L'orateur)",
-      "text": "Alu m'an lamɛn ! N mɔmɔ kɛ ye a fɔ n ma ko : haqi le ye mɔgɔ dɛmɛ ra.",
-      "phonetic_api": "/a.lu ɱ͡man la.mɛn ɲ͡mɔ.mɔ kɛ d͡ʒe a fɔ ɱ͡ma ko ha.qi le d͡ʒe mɔ.gɔ dɛ.mɛ ra/",
-      "phonetic_simple": "A-LU M'AN LA-MƐN ! N MƆ-MƆ KƐ YE A FƆ N MA KO : HA-QI LE YE MƆ-GƆ DƐ-MƐ RA.",
-      "translation": "Écoutez-moi tous ! Mon grand-père m'a dit : c'est la sagesse (l'esprit) qui aide l'homme."
+      "speaker": "Orateur",
+      "text": "Morgoye le nyorgo dii, koni morgo te do ka ban.",
+      "phonetic_api": "/morgoje lɛ ɲorgo diː koni morgo tɛ do ka ban/",
+      "phonetic_simple": "mor-GO-yé lè gnor-GO diː, KO-ni MOR-go tè do ka ban",
+      "translation": "C'est bien la dignité humaine qui est précieuse, mais une personne ne peut jamais être entièrement comprise."
     },
     {
-      "speaker": "Sori (Le notable)",
-      "text": "Ɛrɛ le ! Talalon nɛ ka ni kosɛbɛ. A fɔ fanko ko n ka a lɔn gbanan.",
-      "phonetic_api": "/ɛ.rɛ le ta.la.lon nɛ ka ni ko.sɛ.bɛ a fɔ fan.ko ko ŋ͡ka a lɔn g͡ba.nan/",
-      "phonetic_simple": "Ɛ-RƐ LE ! TA-LA-LON NƐ KA NI KO-SÊ-BƐ. A FƆ FAN-KO KO N KA A LƆN GBANAN.",
-      "translation": "C'est vrai ! Ce proverbe est excellent. Répète-le encore une fois pour que je le comprenne totalement."
+      "speaker": "Auditeur",
+      "text": "N'de ma konto lon, koni n bɛ a fɔ ko i tinye le fɔ.",
+      "phonetic_api": "/n de ma konto lɔn koni n bɛ a fɔ ko i tiɲɛ lɛ fɔ/",
+      "phonetic_simple": "n dè ma KON-to lon, KO-ni n bè a fo ko i ti-GNÈ lè fo",
+      "translation": "Je n'en connais pas les dessous, mais je dis que tu dis vrai."
     },
     {
-      "speaker": "Lansana (L'orateur)",
-      "text": "A ko ko ni i ma haqi to i ya bara la, i tɛ nɛfala sɔn. O le ra, fo an ka sinka tɔgɔya.",
-      "phonetic_api": "/a ko ko ni i ma ha.qi to i ja ba.ra la i tɛ nɛ.fa.la sɔn o le ra fo an ka sin.ka tɔ.gɔ.ja/",
-      "phonetic_simple": "A KO KO NI I MA HA-QI TO I YA BA-RA LA, I TƐ NƐ-FA-LA SƆN. O LE RA, FO AN KA SIN-KA TƆ-GƆ-YA.",
-      "translation": "Il a dit que si tu ne te concentres pas sur ton travail, tu n'obtiendras pas de profit. C'est pourquoi il faut absolument que nous calmions nos doutes."
+      "speaker": "Ancien",
+      "text": "Kele da ma si ban, koni musu ko kele ti ban.",
+      "phonetic_api": "/kele da ma si ban koni musu ko kele ti ban/",
+      "phonetic_simple": "KÈ-lè da ma si ban, KO-ni MOU-sou ko KÈ-lè ti ban",
+      "translation": "Toutes les querelles finissent par se résoudre, sauf celles causées par les femmes."
+    },
+    {
+      "speaker": "Ancien",
+      "text": "I ko a lɔn: kele da ma si ban, koni musu ko kele ti ban.",
+      "phonetic_api": "/i ko a lɔn kele da ma si ban koni musu ko kele ti ban/",
+      "phonetic_simple": "i ko a lon: KÈ-lè da ma si ban, KO-ni MOU-sou ko KÈ-lè ti ban",
+      "translation": "Sache donc ceci : toutes les querelles finissent par se résoudre, sauf celles causées par les femmes."
     }
   ],
   "cultural_notes": [
-    "En Haute-Guinée, l'art de la parole ('kuma-la-fasa') est le pilier de la cohésion sociale kuranko. Lors des assemblées de village, les décisions ne sont jamais prises de façon abrupte. Un bon orateur doit truffer son discours de citations des anciens et de proverbes ('talalon') adaptés. Rapporter fidèlement les propos d'un aîné en utilisant 'ko' démontre une excellente éducation et confère une autorité morale incontestée à l'argumentation."
+    "L'usage des connecteurs « koni », « le » et « ko » dans les proverbes recueillis par Michael Jackson révèle une rhétorique de la nuance et de la restriction, où l'affirmation générale est presque toujours suivie d'une exception ou d'une mise en garde — trait stylistique caractéristique de la sagesse orale kuranko.",
+    "Cette leçon reste fondée sur un corpus restreint de citations authentiques ; elle ne prétend pas épuiser l'inventaire complet des connecteurs logiques du kuranko, faute de grammaire académique exhaustive disponible en ligne."
   ],
   "exercises": [
     {
-      "exercise_id": "ex1_c1_m1_l3",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel mot outil utilise-t-on systématiquement en kuranko pour introduire des paroles rapportées (discours direct ou indirect) ?",
+      "question": "Quelle nuance porte le connecteur « koni » au-delà du simple « mais » français ?",
       "options": [
-        "le",
-        "ko",
-        "tun"
+        "Une restriction/exception à une généralité",
+        "Une addition",
+        "Une négation totale"
       ],
-      "correct_answer": "ko",
-      "explanation": "'ko' sert de conjonction de subordination ou de relateur de discours pour introduire une citation ou une phrase rapportée."
+      "correct_answer": "Une restriction/exception à une généralité",
+      "explanation": "Dans le proverbe attesté sur les querelles, « koni » introduit une exception restrictive à l'affirmation générale précédente."
     },
     {
-      "exercise_id": "ex2_c1_m1_l3",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Un proverbe ou une formule imagée de sagesse se dit en kuranko : [ ___ ].",
-      "correct_answer": "talalon",
-      "hint": "Composé de trois syllabes, commence par 'ta'"
+      "sentence_with_blank": "Morgoye [ ___ ] nyorgo dii. (C'est bien la dignité humaine qui est précieuse.)",
+      "correct_answer": "le",
+      "hint": "Cette particule met en relief l'élément qui précède."
+    },
+    {
+      "exercise_id": "ex3",
+      "type": "multiple_choice",
+      "question": "Pourquoi cette leçon limite-t-elle ses conclusions grammaticales ?",
+      "options": [
+        "Le corpus disponible se limite à des citations authentiques restreintes, sans grammaire académique exhaustive accessible",
+        "Le kuranko n'a aucun connecteur logique",
+        "Les connecteurs logiques sont identiques au français"
+      ],
+      "correct_answer": "Le corpus disponible se limite à des citations authentiques restreintes, sans grammaire académique exhaustive accessible",
+      "explanation": "L'analyse s'appuie uniquement sur les proverbes cités par Michael Jackson, la thèse de référence de Kastenholz n'étant pas accessible en ligne."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Michael Jackson, \"How Lifeworlds Work\" (Univ. of Chicago Press, 2022) — extraits",
+      "url": "https://dokumen.pub/how-lifeworlds-work-emotionality-sociality-and-the-ambiguity-of-being-9780226492018.html"
+    },
+    {
+      "label": "Michael Jackson, \"Intersubjective ambiguities\" (Tijdschrift voor Medische Antropologie)",
+      "url": "https://tma.socsci.uva.nl/19_1/jackson.pdf"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Les trois particules (koni, le, ko) et leurs exemples sont directement attestés dans des citations authentiques traduites par Michael Jackson. L'analyse grammaticale synthétique de leur fonctionnement est une interprétation raisonnée mais non exhaustive, faute d'accès à une grammaire académique complète du kuranko."
 }

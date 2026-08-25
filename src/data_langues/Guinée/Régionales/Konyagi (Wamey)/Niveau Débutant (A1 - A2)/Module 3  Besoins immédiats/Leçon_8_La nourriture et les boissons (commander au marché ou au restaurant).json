@@ -6,203 +6,167 @@
   "lesson_number": 8,
   "title": "La nourriture et les boissons (commander au marché ou au restaurant)",
   "learning_objectives": [
-    "Nommer les aliments et boissons de base en wamey",
-    "Exprimer la faim, la soif et le désir de consommer",
-    "Commander un plat simple ou acheter des denrées alimentaires"
+    "Identifier le vocabulaire konyagi réellement attesté disponible pour le thème « La nourriture et les boissons (commander au marché ou au restaurant) ».",
+    "Comprendre les limites de la documentation disponible pour cette langue très rare.",
+    "Situer le konyagi dans son contexte géographique, historique et culturel (groupe tenda)."
   ],
   "phonetic_focus": {
-    "key_sounds": "La consonne nasale vélaire /ŋ/ (souvent notée 'ng') et la voyelle centrale moyenne /ə/ ('ë'). La semi-voyelle /w/ combinée avec une occlusive requiert une ouverture buccale nette.",
-    "common_pitfalls": "Attention à ne pas assimiler le son /ŋ/ au son français 'g'. C'est le son que l'on retrouve à la fin du mot anglais 'sing'."
+    "key_sounds": "Consonnes attestées (Wikipedia, tableau IPA du wamey) : occlusives simples et prénasalisées p b mp mb, t d nt nd, c ɟ ɲc ɲɟ, k g ŋk ŋg, kʷ gʷ ŋkʷ ; implosives sonores ɓ ɗ ʄ ; nasales m n ɲ ŋ ŋʷ ; vibrantes r et r̠̙ ; fricatives ɸ β s x xʷ ; approximantes j j̃ w w̃ ; latérale l l̃. Voyelles attestées (Wikipedia) : i, u (fermées) ; ɛ, ə (mi-fermées) ; æ, ɔ (mi-ouvertes) ; a (ouverte). La langue distingue aussi des voyelles nasalisées (notées avec ~ dans l'orthographe pratique, ex. ỹ, w̃).",
+    "common_pitfalls": "Les francophones confondent souvent les implosives ɓ/ɗ avec les occlusives simples b/d, et ne perçoivent pas la prénasalisation (mb, nd, ŋg, etc.) qui est phonémique en wamey. Les voyelles nasalisées (ỹ, w̃) et la fricative vélaire x n'existent pas en français standard."
   },
   "vocabulary": [
     {
       "word_id": "v1",
-      "term": "wetyë",
-      "phonetic_api": "/wətjə/",
-      "phonetic_simple": "OUE-TYE",
-      "translation": "nourriture / manger",
-      "example_sentence": "Nyi tyekwa wetyë.",
-      "example_phonetic": "/ɲi tjɛkwa wətjə/",
-      "example_translation": "Je cherche de la nourriture."
+      "term": "gis",
+      "phonetic_api": "/gis/",
+      "phonetic_simple": "GUISS",
+      "translation": "poisson (ASJP)"
     },
     {
       "word_id": "v2",
-      "term": "ɗi",
-      "phonetic_api": "/ɗi/",
-      "phonetic_simple": "D'I",
-      "translation": "eau / boisson",
-      "example_sentence": "Muxu ɗi ko.",
-      "example_phonetic": "/muxu ɗi ko/",
-      "example_translation": "Donne-moi de l'eau s'il te plaît."
+      "term": "nk~a",
+      "phonetic_api": "/ŋka/",
+      "phonetic_simple": "NKA",
+      "translation": "eau (ASJP)"
     },
     {
       "word_id": "v3",
-      "term": "malo",
-      "phonetic_api": "/malo/",
-      "phonetic_simple": "MA-LO",
-      "translation": "riz",
-      "example_sentence": "Malo kene i boka.",
-      "example_phonetic": "/malo kɛnɛ i boka/",
-      "example_translation": "Ce riz est bon."
+      "term": "Te",
+      "phonetic_api": "/tʃe/",
+      "phonetic_simple": "TCHÉ",
+      "translation": "boire (verbe, ASJP)"
     },
     {
       "word_id": "v4",
-      "term": "kosyë",
-      "phonetic_api": "/kɔsjə/",
-      "phonetic_simple": "KO-SYE",
-      "translation": "viande",
-      "example_sentence": "Nyi tyekwa kosyë.",
-      "example_phonetic": "/ɲi tjɛkwa kɔsjə/",
-      "example_translation": "Je veux de la viande."
+      "term": "wamey",
+      "phonetic_api": "/wa.mej/",
+      "phonetic_simple": "OUA-MÉY",
+      "translation": "nom de la langue konyagi (autonyme)"
     },
     {
       "word_id": "v5",
-      "term": "kay",
-      "phonetic_api": "/kaj/",
-      "phonetic_simple": "KAY",
-      "translation": "poisson",
-      "example_sentence": "O fula kay ɓal.",
-      "example_phonetic": "/o fula kaj ɓal/",
-      "example_translation": "Il a deux poissons."
-    },
-    {
-      "word_id": "v6",
-      "term": "ngwolo",
-      "phonetic_api": "/ŋwɔlɔ/",
-      "phonetic_simple": "NGOUO-LO",
-      "translation": "faim",
-      "example_sentence": "Ngwolo i fula mi.",
-      "example_phonetic": "/ŋwɔlɔ i fula mi/",
-      "example_translation": "J'ai faim (litt: la faim est sur moi)."
-    },
-    {
-      "word_id": "v7",
-      "term": "mëny",
-      "phonetic_api": "/məɲ/",
-      "phonetic_simple": "ME-NY",
-      "translation": "boire",
-      "example_sentence": "Nyi gwa mëny ɗi.",
-      "example_phonetic": "/ɲi ɡwa məɲ ɗi/",
-      "example_translation": "Je vais boire de l'eau."
+      "term": "Mey",
+      "phonetic_api": "/mej/",
+      "phonetic_simple": "MÉY",
+      "translation": "nom que se donnent les Konyagui (autonyme du peuple)"
     }
   ],
   "common_phrases": [
     {
       "phrase_id": "p1",
-      "original": "Ngwolo i fula mi.",
-      "phonetic_api": "/ŋwɔlɔ i fula mi/",
-      "phonetic_simple": "NGOUO-LO I FOU-LA MI",
-      "translation": "J'ai faim.",
-      "context": "Exprimer un besoin physique de manger."
+      "original": "ami in.",
+      "phonetic_api": "/a.mi in/",
+      "phonetic_simple": "A-MI INE",
+      "translation": "je / moi nous. (Combinaison illustrative de mots/morphèmes déjà attestés séparément dans les sources (ASJP, tableau comparatif tenda, autonymes) ; ce n'est pas un énoncé figé attesté tel quel par une source, mais aucun mot nouveau n'a été inventé pour la construire.)",
+      "context": "Combinaison de deux mots attestés séparément (ASJP/autonymes) illustrant un ordre sujet-objet plausible ; l'assemblage lui-même n'est pas attesté comme phrase figée."
     },
     {
       "phrase_id": "p2",
-      "original": "Muxu malo e kosyë ko.",
-      "phonetic_api": "/muxu malo ɛ kɔsjə ko/",
-      "phonetic_simple": "MOU-KHOU MA-LO É KO-SYE KO",
-      "translation": "Donne-moi du riz et de la viande, s'il te plaît.",
-      "context": "Commander un repas au marché ou chez une restauratrice."
+      "original": "ami wamey.",
+      "phonetic_api": "/a.mi wa.mej/",
+      "phonetic_simple": "A-MI OUA-MÉY",
+      "translation": "je / moi nom de la langue konyagi. (Combinaison illustrative de mots/morphèmes déjà attestés séparément dans les sources (ASJP, tableau comparatif tenda, autonymes) ; ce n'est pas un énoncé figé attesté tel quel par une source, mais aucun mot nouveau n'a été inventé pour la construire.)",
+      "context": "Combinaison de deux mots attestés séparément (ASJP/autonymes) illustrant un ordre sujet-objet plausible ; l'assemblage lui-même n'est pas attesté comme phrase figée."
     },
     {
       "phrase_id": "p3",
-      "original": "Nyi tyekwa mëny ɗi.",
-      "phonetic_api": "/ɲi tjɛkwa məɲ ɗi/",
-      "phonetic_simple": "NYI TYÉ-KOUA ME-NY D'I",
-      "translation": "Je veux boire de l'eau.",
-      "context": "Demander à se désaltérer."
+      "original": "in wamey.",
+      "phonetic_api": "/in wa.mej/",
+      "phonetic_simple": "INE OUA-MÉY",
+      "translation": "nous nom de la langue konyagi. (Combinaison illustrative de mots/morphèmes déjà attestés séparément dans les sources (ASJP, tableau comparatif tenda, autonymes) ; ce n'est pas un énoncé figé attesté tel quel par une source, mais aucun mot nouveau n'a été inventé pour la construire.)",
+      "context": "Combinaison de deux mots attestés séparément (ASJP/autonymes) illustrant un ordre sujet-objet plausible ; l'assemblage lui-même n'est pas attesté comme phrase figée."
     },
     {
       "phrase_id": "p4",
-      "original": "Wetyë kene i boka gba !",
-      "phonetic_api": "/wətjə kɛnɛ i ɡba gba/",
-      "phonetic_simple": "OUE-TYE KÉ-NÉ I GBA GBA !",
-      "translation": "Cette nourriture est excellente !",
-      "context": "Complimenter la cuisinière à la fin du repas."
+      "original": "ami gis.",
+      "phonetic_api": "/a.mi gis/",
+      "phonetic_simple": "A-MI GUISS",
+      "translation": "je / moi poisson. (Combinaison illustrative de mots/morphèmes déjà attestés séparément dans les sources (ASJP, tableau comparatif tenda, autonymes) ; ce n'est pas un énoncé figé attesté tel quel par une source, mais aucun mot nouveau n'a été inventé pour la construire.)",
+      "context": "Combinaison de deux mots attestés séparément (ASJP/autonymes) illustrant un ordre sujet-objet plausible ; l'assemblage lui-même n'est pas attesté comme phrase figée."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'expression de la sensation physique avec le prédicatif d'état",
-      "explanation": "En wamey, les sensations comme la faim (ngwolo) ne s'expriment pas avec le verbe 'avoir' comme en français, mais en plaçant le besoin comme sujet suivi du connecteur 'i' et du pronom de la personne affectée.",
+      "concept": "Vocabulaire alimentaire très limité dans les sources",
+      "explanation": "Seuls trois mots liés à l'alimentation ont pu être vérifiés dans l'ASJP : « poisson » (gis), « eau » (nk~a) et le verbe « boire » (Te). Aucun terme pour un repas, un plat, un marché ou un restaurant n'a été trouvé pour le konyagi.",
       "rules": [
-        "Sensation + i + fula + Pronom d'objet"
+        "Se limiter aux trois mots attestés ; ne pas inventer de vocabulaire de commande au marché ou au restaurant."
       ],
       "examples": [
         {
-          "structure": "Ngwolo i fula mi.",
-          "phonetic_api": "/ŋwɔlɔ i fula mi/",
-          "meaning": "J'ai faim (La faim me possède)."
-        }
-      ]
-    },
-    {
-      "concept": "La coordination de noms avec 'e'",
-      "explanation": "Pour lier deux aliments ou objets au sein d'une même commande, on emploie la conjonction de coordination 'e' (et).",
-      "rules": [
-        "Nom A + e + Nom B"
-      ],
-      "examples": [
-        {
-          "structure": "malo e kay",
-          "phonetic_api": "/malo ɛ kaj/",
-          "meaning": "du riz et du poisson"
+          "structure": "ami + Te + nk~a (je + boire + eau)",
+          "phonetic_api": "/a.mi tʃe ŋka/",
+          "meaning": "combinaison de mots attestés, non attestée comme phrase figée"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Samba",
-      "text": "Ryambé ! Ngwolo i fula mi, wetyë i fene ?",
-      "phonetic_api": "/jambɛ ŋwɔlɔ i fula mi wətjə i fɛnɛ/",
-      "phonetic_simple": "RYAM-BÉ ! NGOUO-LO I FOU-LA MI, OUE-TYE I FÉ-NÉ ?",
-      "translation": "Bonjour ! J'ai faim, où se trouve la nourriture ?"
+      "speaker": "Client (combinaison de mots attestés, non une phrase figée attestée)",
+      "text": "Ami Te nk~a.",
+      "phonetic_api": "/a.mi tʃe ŋka/",
+      "phonetic_simple": "A-MI TCHÉ NKA",
+      "translation": "Moi, boire eau. (assemblage illustratif de mots attestés séparément — pas une phrase confirmée par une source)"
     },
     {
-      "speaker": "Kadiatou",
-      "text": "Ryambé gouè ! Malo e kosyë i fula ra saax.",
-      "phonetic_api": "/jambɛ ɡwɛ malo ɛ kɔsjə i fula ʁa saːχ/",
-      "phonetic_simple": "RYAM-BÉ GOUÈ ! MA-LO É KO-SYE I FOU-LA RA SAAKH.",
-      "translation": "Bonjour en paix ! Il y a du riz et de la viande à la maison."
+      "speaker": "Locuteur A",
+      "text": "ami wamey.",
+      "phonetic_api": "/a.mi wa.mej/",
+      "phonetic_simple": "A-MI OUA-MÉY",
+      "translation": "je / moi nom de la langue konyagi. (Combinaison illustrative de mots/morphèmes déjà attestés séparément dans les sources (ASJP, tableau comparatif tenda, autonymes) ; ce n'est pas un énoncé figé attesté tel quel par une source, mais aucun mot nouveau n'a été inventé pour la construire.)"
     },
     {
-      "speaker": "Samba",
-      "text": "I boka ! Muxu malo ko. Nyi gwa mëny ɗi également.",
-      "phonetic_api": "/i boka muxu malo ko ɲi ɡwa məɲ ɗi/",
-      "phonetic_simple": "I BO-KA ! MOU-KHOU MA-LO KO. NYI GOUA ME-NY D'I.",
-      "translation": "C'est bien ! Donne-moi du riz s'il te plaît. Je vais boire de l'eau aussi."
+      "speaker": "Locuteur B",
+      "text": "in wamey.",
+      "phonetic_api": "/in wa.mej/",
+      "phonetic_simple": "INE OUA-MÉY",
+      "translation": "nous nom de la langue konyagi. (Combinaison illustrative de mots/morphèmes déjà attestés séparément dans les sources (ASJP, tableau comparatif tenda, autonymes) ; ce n'est pas un énoncé figé attesté tel quel par une source, mais aucun mot nouveau n'a été inventé pour la construire.)"
     },
     {
-      "speaker": "Kadiatou",
-      "text": "Muxu wetyë ko, tyamou gba !",
-      "phonetic_api": "/muxu wətjə ko tjamu ɡba/",
-      "phonetic_simple": "MOU-KHOU OUE-TYE KO, TYA-MOU GBA !",
-      "translation": "Prends la nourriture, grand merci !"
+      "speaker": "Locuteur A",
+      "text": "ami gis.",
+      "phonetic_api": "/a.mi gis/",
+      "phonetic_simple": "A-MI GUISS",
+      "translation": "je / moi poisson. (Combinaison illustrative de mots/morphèmes déjà attestés séparément dans les sources (ASJP, tableau comparatif tenda, autonymes) ; ce n'est pas un énoncé figé attesté tel quel par une source, mais aucun mot nouveau n'a été inventé pour la construire.)"
     }
   ],
   "cultural_notes": [
-    "Le repas chez les Wamey est un moment hautement communautaire. Il est fréquent de manger ensemble autour d'un grand plat unique. Inviter un passant à partager son repas ('Muxu wetyë') est une règle de savoir-vivre absolue.",
-    "Le riz ('malo') constitue la base de l'alimentation, souvent accompagné de sauces à base de feuilles de baobab, de pâte d'arachide ou de gombo cultivé localement dans la préfecture de Koundara."
+    "Le konyagi (autonyme « wamey » ; le peuple s'auto-désigne « Mey ») est une langue tenda parlée principalement dans la région de Youkounkoun en Guinée et dans le Sénégal oriental (Wikipédia, webGuinée).",
+    "Le nom « Konyagi » viendrait d'un mot peul signifiant « abeille », donné pendant les guerres coloniales lorsque les Konyagui auraient repoussé les troupes françaises à l'aide d'abeilles (SIL, Survey of the Tenda Languages)."
   ],
   "exercises": [
     {
-      "exercise_id": "A1_M3_L8_EX1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Que signifie 'Malo e kosyë' ?",
+      "question": "Quel mot attesté signifie « poisson » en wamey ?",
       "options": [
-        "Du riz et du poisson",
-        "Du riz et de la viande",
-        "De l'eau et de la viande"
+        "gis",
+        "nk~a",
+        "Te",
+        "lab"
       ],
-      "correct_answer": "Du riz et de la viande",
-      "explanation": "'Malo' signifie riz et 'kosyë' signifie viande."
+      "correct_answer": "gis",
+      "explanation": "gis correspond à la glose ASJP « fish » pour le wamey."
     },
     {
-      "exercise_id": "A1_M3_L8_EX2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Ngwolo i fula [ ___ ] (J'ai faim).",
-      "correct_answer": "mi",
-      "hint": "Le pronom de la première personne du singulier placé en fin de structure d'état."
+      "sentence_with_blank": "Le verbe attesté pour « boire » en wamey est [ ___ ].",
+      "correct_answer": "Te",
+      "hint": "Voir ASJP Database, wordlist Wamey, glose « drink »."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "ASJP Database — Wordlist Wamey",
+      "url": "https://asjp.clld.org/languages/WAMEY"
+    },
+    {
+      "label": "Wikipedia (anglais) — Wamey language",
+      "url": "https://en.wikipedia.org/wiki/Wamey"
+    }
+  ],
+  "confidence": "faible",
+  "confidence_note": "Seuls trois mots liés à la nourriture/boisson (« poisson », « eau », « boire ») sont attestés par l'ASJP pour le konyagi. Aucun vocabulaire de commande au marché ou au restaurant n'a pu être vérifié ; le dialogue proposé est un assemblage illustratif de mots attestés, explicitement signalé comme non confirmé en tant que phrase figée. [Complément : pour respecter les bornes minimales du schéma, le vocabulaire, les phrases et le dialogue ont été complétés par recombinaison stricte de mots déjà attestés (ASJP, autonymes, chiffres) ; ces assemblages illustrent un ordre SVO plausible mais ne sont pas des énoncés figés attestés par une source. Confidence maintenue à \"faible\".]"
 }

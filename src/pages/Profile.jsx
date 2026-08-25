@@ -7,7 +7,7 @@ import { logout as logoutService, updateMe } from "@/api/authService";
 import { listContributions } from "@/api/contributionService";
 import { uploadProfilePhoto } from "@/api/uploadService";
 import { useTheme } from "@/contexts/ThemeContext";
-import { Mail, Shield, Flame, Star, BookOpen, Globe, LogOut, Clock, CheckCircle, XCircle, Hourglass, Award, Settings, Camera, Loader2, Save, Lock } from "lucide-react";
+import { Mail, Shield, Flame, Star, BookOpen, Globe, LogOut, Clock, CheckCircle, XCircle, Hourglass, Award, Settings, Camera, Loader2, Save, Lock, CheckCircle2 } from "lucide-react";
 import LanguageFlag from "@/components/ui/LanguageFlag";
 // public logo at /logo.png
 
@@ -68,6 +68,8 @@ export default function Profile() {
   const maxStreak = Array.isArray(progresses) ? progresses.reduce((s, p) => Math.max(s, p.streak || 0), 0) : 0;
   const activeLangs = Array.isArray(progresses) ? progresses.length : 0;
   const totalLessons = Array.isArray(progresses) ? progresses.reduce((s, p) => s + (p.completed_lessons?.length || 0), 0) : 0;
+  const pendingContributions = contributions.filter((contribution) => contribution.status === "pending").length;
+  const approvedContributions = contributions.filter((contribution) => contribution.status === "approved").length;
 
   const achievements = [
     { icon: "🎯", title: "Premiers pas", desc: "1 leçon complétée", unlocked: totalLessons >= 1 },
@@ -155,17 +157,18 @@ export default function Profile() {
   const initial = (user.full_name || user.email || "?")[0].toUpperCase();
 
   return (
-    <div className="p-6 lg:p-10 max-w-3xl mx-auto">
+    <div className="mx-auto w-full max-w-6xl space-y-5 p-3 sm:p-6 lg:p-10">
       {/* Header card */}
-      <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-primary/20 via-card to-card border border-border p-6 mb-6">
-        <div className="flex items-center gap-4">
-          <div className="relative shrink-0">
-            <div className="w-20 h-20 rounded-full bg-gradient-to-br from-primary to-purple-500 flex items-center justify-center text-3xl font-bold text-white shadow-lg overflow-hidden">
+      <div className="relative overflow-hidden rounded-3xl border border-border bg-gradient-to-br from-primary/20 via-card to-card p-4 shadow-sm sm:p-7">
+        <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top_right,_rgba(255,255,255,0.18),transparent_35%)]" />
+        <div className="relative flex flex-col gap-4 sm:flex-row sm:items-center">
+          <div className="relative shrink-0 self-center sm:self-auto">
+            <div className="h-16 w-16 rounded-full bg-gradient-to-br from-primary to-purple-500 flex items-center justify-center text-2xl font-bold text-white shadow-lg overflow-hidden sm:h-20 sm:w-20 sm:text-3xl">
               {user.photo_url ? (
                 <img
                   src={user.photo_url}
                   alt={user.full_name || "Profil"}
-                  className="w-full h-full object-cover"
+                  className="h-full w-full object-cover"
                   referrerPolicy="no-referrer"
                   onError={(event) => {
                     event.currentTarget.style.display = "none";
@@ -178,54 +181,55 @@ export default function Profile() {
             <button
               onClick={() => fileInputRef.current?.click()}
               disabled={uploading}
-              className="absolute bottom-0 right-0 w-7 h-7 rounded-full bg-primary text-primary-foreground flex items-center justify-center shadow-md hover:opacity-90 transition disabled:opacity-60 border-2 border-card"
+              className="absolute bottom-0 right-0 h-7 w-7 rounded-full bg-primary text-primary-foreground flex items-center justify-center shadow-md hover:opacity-90 transition disabled:opacity-60 border-2 border-card"
             >
               {uploading ? <Loader2 size={14} className="animate-spin" /> : <Camera size={14} />}
             </button>
             <input ref={fileInputRef} type="file" accept="image/*" onChange={handlePhotoUpload} className="hidden" />
           </div>
-          <div className="flex-1">
-            <h1 className="font-heading text-2xl font-bold text-foreground">{user.full_name || "Apprenant"}</h1>
-            <div className="flex items-center gap-2 text-sm text-muted-foreground mt-1">
-              <Mail size={14} /> {user.email}
+          <div className="min-w-0 flex-1 text-center sm:text-left">
+            <h1 className="font-heading text-2xl font-bold text-foreground break-words">{user.full_name || "Apprenant"}</h1>
+            <div className="mt-1 flex items-center justify-center gap-2 text-sm text-muted-foreground break-all sm:justify-start">
+              <Mail size={14} className="shrink-0" /> <span className="min-w-0 break-all">{user.email}</span>
             </div>
-            <div className="flex items-center gap-2 mt-2">
-              <span className={`text-xs px-2.5 py-1 rounded-full font-medium flex items-center gap-1 ${user.role === "admin" ? "bg-primary/15 text-primary" : "bg-secondary text-muted-foreground"}`}>
+            <div className="mt-2 flex flex-wrap items-center justify-center gap-2 sm:justify-start">
+              <span className={`inline-flex items-center gap-1 rounded-full px-2.5 py-1 text-xs font-medium ${user.role === "admin" ? "bg-primary/15 text-primary" : "bg-secondary text-muted-foreground"}`}>
                 <Shield size={12} /> {user.role === "admin" ? "Administrateur" : "Apprenant"}
               </span>
+              <span className="inline-flex items-center gap-1 rounded-full bg-emerald-500/10 px-2.5 py-1 text-xs font-medium text-emerald-600 dark:text-emerald-400"><CheckCircle2 size={12} /> Compte actif</span>
             </div>
           </div>
-          <img src="/logo.png" alt="Mǎa-kwɛ́lî Langues" className="w-14 h-14 rounded-full object-cover shadow-md ring-2 ring-primary/20 hidden sm:block" />
+          <img src="/logo.png" alt="Mǎa-kwɛ́lî Langues" className="hidden h-14 w-14 rounded-full object-cover shadow-md ring-2 ring-primary/20 sm:block" />
         </div>
       </div>
 
       {/* Stats */}
-      <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-6">
+      <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
         {[
           { icon: Star, color: "text-blue-500", value: totalXP, label: "XP totaux" },
           { icon: Flame, color: "text-primary", value: maxStreak, label: "Série max (j)" },
           { icon: BookOpen, color: "text-green-500", value: totalLessons, label: "Leçons" },
           { icon: Globe, color: "text-purple-500", value: activeLangs, label: "Langues" },
         ].map(({ icon: Icon, color, value, label }) => (
-          <div key={label} className="bg-card border border-border rounded-2xl p-4 text-center">
+          <div key={label} className="rounded-2xl border border-border bg-card p-3 text-center shadow-sm sm:p-4">
             <Icon className={`mx-auto mb-1.5 ${color}`} size={22} />
-            <div className="text-2xl font-bold text-foreground">{value}</div>
-            <div className="text-xs text-muted-foreground">{label}</div>
+            <div className="text-xl font-bold text-foreground sm:text-2xl">{value}</div>
+            <div className="text-[10px] text-muted-foreground sm:text-xs">{label}</div>
           </div>
         ))}
       </div>
 
       {/* Achievements */}
-      <div className="mb-6">
-        <div className="flex items-center gap-2 mb-3">
+      <div className="rounded-2xl border border-border bg-card p-4 shadow-sm sm:p-5">
+        <div className="mb-3 flex items-center gap-2">
           <Award size={18} className="text-primary" />
           <h2 className="font-heading text-xl font-bold text-foreground">Mes badges</h2>
         </div>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+        <div className="grid grid-cols-2 gap-3 md:grid-cols-4">
           {achievements.map((a) => (
-            <div key={a.title} className={`rounded-2xl p-4 text-center border transition ${a.unlocked ? "bg-card border-primary/30" : "bg-secondary/30 border-border opacity-50"}`}>
-              <div className={`text-3xl mb-1.5 ${a.unlocked ? "" : "grayscale"}`}>{a.icon}</div>
-              <div className="text-xs font-semibold text-foreground">{a.title}</div>
+            <div key={a.title} className={`rounded-2xl border p-3 text-center transition sm:p-4 ${a.unlocked ? "border-primary/30 bg-card" : "border-border bg-secondary/30 opacity-50"}`}>
+              <div className={`mb-1.5 text-2xl sm:text-3xl ${a.unlocked ? "" : "grayscale"}`}>{a.icon}</div>
+              <div className="text-[11px] font-semibold text-foreground sm:text-xs">{a.title}</div>
               <div className="text-[10px] text-muted-foreground">{a.desc}</div>
             </div>
           ))}
@@ -233,8 +237,8 @@ export default function Profile() {
       </div>
 
       {/* My contributions */}
-      <div className="mb-6">
-        <div className="flex items-center gap-2 mb-3">
+      <div className="rounded-2xl border border-border bg-card p-4 shadow-sm sm:p-5">
+        <div className="mb-3 flex items-center gap-2">
           <Clock size={18} className="text-muted-foreground" />
           <h2 className="font-heading text-xl font-bold text-foreground">Mes contributions</h2>
         </div>
@@ -244,33 +248,35 @@ export default function Profile() {
             <Link to="/contribuer" className="text-primary text-sm font-medium hover:underline">Contribuer maintenant →</Link>
           </div>
         ) : (
+          <>
+            <div className="mb-4 grid grid-cols-2 gap-3"><div className="rounded-xl bg-yellow-500/10 p-3"><div className="text-lg font-bold text-foreground">{pendingContributions}</div><div className="text-xs text-muted-foreground">En attente</div></div><div className="rounded-xl bg-emerald-500/10 p-3"><div className="text-lg font-bold text-foreground">{approvedContributions}</div><div className="text-xs text-muted-foreground">Validées</div></div></div>
           <div className="space-y-2">
             {contributions.map(c => {
               const lang = languages.find(l => l.code === c.language_code);
               return (
-                <div key={c.id} className="bg-card border border-border rounded-xl p-3 flex items-center gap-3">
+                <div key={c.id} className="flex flex-col gap-2 rounded-xl border border-border bg-card p-3 sm:flex-row sm:items-center sm:gap-3">
                   <LanguageFlag language={lang} size="md" />
-                  <div className="flex-1 min-w-0">
-                    <div className="font-medium text-foreground text-sm">{c.word} <span className="text-muted-foreground">→ {c.translation_fr}</span></div>
+                  <div className="min-w-0 flex-1">
+                    <div className="text-sm font-medium text-foreground break-words">{c.word} <span className="text-muted-foreground">→ {c.translation_fr}</span></div>
                     <div className="text-xs text-muted-foreground">{lang?.name_fr || c.language_code}</div>
                   </div>
-                  {c.status === "pending" && <span className="text-xs text-yellow-500 flex items-center gap-1"><Hourglass size={12} /> En attente</span>}
-                  {c.status === "approved" && <span className="text-xs text-green-500 flex items-center gap-1"><CheckCircle size={12} /> Validé</span>}
-                  {c.status === "rejected" && <span className="text-xs text-red-500 flex items-center gap-1"><XCircle size={12} /> Refusé</span>}
+                  {c.status === "pending" && <span className="inline-flex items-center gap-1 text-xs text-yellow-500"><Hourglass size={12} /> En attente</span>}
+                  {c.status === "approved" && <span className="inline-flex items-center gap-1 text-xs text-green-500"><CheckCircle size={12} /> Validé</span>}
+                  {c.status === "rejected" && <span className="inline-flex items-center gap-1 text-xs text-red-500"><XCircle size={12} /> Refusé</span>}
                 </div>
               );
             })}
-          </div>
+          </div></>
         )}
       </div>
 
       {/* Settings */}
-      <div className="bg-card border border-border rounded-2xl p-5">
-        <div className="flex items-center gap-2 mb-4">
+      <div className="rounded-2xl border border-border bg-card p-4 shadow-sm sm:p-5">
+        <div className="mb-4 flex items-center gap-2">
           <Settings size={18} className="text-muted-foreground" />
           <h2 className="font-heading text-lg font-bold text-foreground">Paramètres</h2>
         </div>
-        <form onSubmit={handleProfileSave} className="mb-4 rounded-2xl border border-border bg-secondary/30 p-4">
+        <form onSubmit={handleProfileSave} className="mb-4 rounded-2xl border border-border bg-secondary/30 p-3 sm:p-4">
           <div className="mb-4 flex items-center gap-2">
             <Lock size={17} className="text-primary" />
             <div>
@@ -282,7 +288,7 @@ export default function Profile() {
             Nom utilisateur
             <input value={profileName} onChange={(event) => setProfileName(event.target.value)} maxLength={120} className="mt-1.5 w-full rounded-xl border border-border bg-background px-3 py-2.5 text-sm text-foreground outline-none focus:border-primary focus:ring-2 focus:ring-primary/20" />
           </label>
-          <div className="grid gap-3 md:grid-cols-3">
+          <div className="grid gap-3 sm:grid-cols-3">
             <label className="text-sm font-medium text-foreground">Mot de passe actuel<input type="password" autoComplete="current-password" value={currentPassword} onChange={(event) => setCurrentPassword(event.target.value)} className="mt-1.5 w-full rounded-xl border border-border bg-background px-3 py-2.5 text-sm text-foreground outline-none focus:border-primary focus:ring-2 focus:ring-primary/20" /></label>
             <label className="text-sm font-medium text-foreground">Nouveau mot de passe<input type="password" autoComplete="new-password" value={newPassword} onChange={(event) => setNewPassword(event.target.value)} className="mt-1.5 w-full rounded-xl border border-border bg-background px-3 py-2.5 text-sm text-foreground outline-none focus:border-primary focus:ring-2 focus:ring-primary/20" /></label>
             <label className="text-sm font-medium text-foreground">Confirmer le nouveau<input type="password" autoComplete="new-password" value={confirmNewPassword} onChange={(event) => setConfirmNewPassword(event.target.value)} className="mt-1.5 w-full rounded-xl border border-border bg-background px-3 py-2.5 text-sm text-foreground outline-none focus:border-primary focus:ring-2 focus:ring-primary/20" /></label>
@@ -296,12 +302,12 @@ export default function Profile() {
           </button>
         </form>
         <button onClick={toggleTheme}
-          className="w-full flex items-center justify-between py-3 px-4 rounded-xl bg-secondary/50 hover:bg-secondary transition mb-2">
-          <span className="text-sm font-medium text-foreground">Thème {theme === "dark" ? "sombre" : "clair"}</span>
+          className="mb-2 flex w-full items-center justify-between rounded-xl bg-secondary/50 px-4 py-3 text-sm font-medium text-foreground transition hover:bg-secondary">
+          <span>Thème {theme === "dark" ? "sombre" : "clair"}</span>
           <span className="text-xs text-primary">Basculer</span>
         </button>
         <button onClick={handleLogout}
-          className="w-full flex items-center justify-center gap-2 py-3 rounded-xl bg-red-500/10 text-red-500 font-medium text-sm hover:bg-red-500/20 transition">
+          className="flex w-full items-center justify-center gap-2 rounded-xl bg-red-500/10 px-4 py-3 text-sm font-medium text-red-500 transition hover:bg-red-500/20">
           <LogOut size={16} /> Se déconnecter
         </button>
       </div>

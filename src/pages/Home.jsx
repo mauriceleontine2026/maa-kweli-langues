@@ -1,30 +1,41 @@
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { useAuth } from "@/lib/AuthContext";
 import { getLanguages } from "@/api/languageService";
 import { getProgress } from "@/api/progressService";
-import { BookOpen, GraduationCap, Mic, Trophy, ArrowRight, Flame, Star, Sparkles, Search } from "lucide-react";
+import {
+  ArrowRight,
+  BookOpen,
+  Flame,
+  GraduationCap,
+  Mic,
+  Play,
+  Search,
+  Star,
+  Wrench,
+} from "lucide-react";
 import LanguageFlag from "@/components/ui/LanguageFlag";
-
-// public logo at /logo.png
+import { getCountryForLanguage } from "@/lib/localLanguageData";
 
 export default function Home() {
-  const [menuOpen, setMenuOpen] = useState(false);
   const { user } = useAuth();
   const [languages, setLanguages] = useState(/** @type {any[]} */ ([]));
   const [progresses, setProgresses] = useState(/** @type {any[]} */ ([]));
+  const [loadingLanguages, setLoadingLanguages] = useState(true);
+  const [loadingProgress, setLoadingProgress] = useState(true);
 
   useEffect(() => {
-    getLanguages().then((data) => setLanguages(Array.isArray(data) ? data : [])).catch(() => setLanguages([]));
+    getLanguages().then((data) => setLanguages(Array.isArray(data) ? data : [])).catch(() => setLanguages([])).finally(() => setLoadingLanguages(false));
   }, []);
 
   useEffect(() => {
     const refreshProgress = () => {
       if (user) {
-        getProgress().then((data) => setProgresses(Array.isArray(data) ? data : [])).catch(() => setProgresses([]));
+        getProgress().then((data) => setProgresses(Array.isArray(data) ? data : [])).catch(() => setProgresses([])).finally(() => setLoadingProgress(false));
       } else {
         setProgresses([]);
+        setLoadingProgress(false);
       }
     };
 
@@ -42,87 +53,192 @@ export default function Home() {
   const safeLanguages = /** @type {any[]} */ (Array.isArray(languages) ? languages : []);
   const totalXP = safeProgresses.reduce((s, p) => s + (p.xp || 0), 0);
   const maxStreak = safeProgresses.reduce((s, p) => Math.max(s, p.streak || 0), 0);
-  const activeLangs = safeProgresses.length;
-  const currentProgress = safeProgresses[0];
+  const currentProgress = [...safeProgresses].sort((first, second) => (second.current_lesson || 1) - (first.current_lesson || 1))[0];
+  const startedLanguages = safeProgresses.map((progress) => ({
+    progress,
+    language: safeLanguages.find((language) => language.code === progress.language_code),
+  })).filter((item) => item.language);
+  const activeLangs = startedLanguages.length;
   const currentLanguage = safeLanguages.find((language) => language.code === currentProgress?.language_code);
+  const displayName = user?.full_name || user?.user_metadata?.full_name || user?.user_metadata?.name || user?.email?.split("@")[0] || "";
+  const discoveryLanguages = useMemo(() => {
+    const startedCodes = new Set(safeProgresses.map((progress) => progress.language_code));
+    const availableLanguages = safeLanguages.filter((language) => !startedCodes.has(language.code));
+    return [...availableLanguages].sort(() => Math.random() - 0.5).slice(0, 3);
+  }, [safeLanguages, safeProgresses]);
+
   const actions = [
     { to: "/apprendre", label: "Rechercher une langue", icon: Search, color: "text-orange-500" },
     { to: "/contribuer", label: "Contribuer", icon: Mic, color: "text-pink-500" },
-    { to: "/revision", label: "Révision SRS", icon: Trophy, color: "text-yellow-500" },
+    { to: "/studio", label: "Atelier", icon: Wrench, color: "text-yellow-500" },
   ];
 
   return (
-    <div className="mx-auto w-full max-w-5xl min-w-0 p-4 sm:p-6 lg:p-10">
-      {/* Welcome card */}
-      <motion.div initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} className="relative mb-6 w-full min-w-0 overflow-hidden rounded-[2rem] border border-border bg-gradient-to-br from-primary/20 via-card to-card p-5 shadow-[0_18px_55px_-48px_rgba(249,115,22,.3)] sm:p-8">
-        
-        <div className="flex min-w-0 items-center gap-3 mb-4">
-          <img src="/logo.png" alt="Mǎa-kwɛ́lî Langues" className="w-20 h-20 rounded-full object-cover shadow-md ring-2 ring-primary/30" />
-          <div className="min-w-0">
-            <div className="font-heading font-bold text-lg text-foreground leading-none">Mǎa-kwɛ́lî</div>
-            <span className="text-xs text-primary font-semibold">Langues</span>
-          </div>
-        </div>
-        <h1 className="break-words font-heading text-3xl lg:text-4xl font-bold text-foreground mb-2">
-          Bienvenue sur Mǎa-kwɛ́lî Langues !{user?.full_name ? ` ${user.full_name}` : ""}
-        </h1>
-        <p className="text-muted-foreground mb-5">Commencez votre voyage linguistique africain et international</p>
-        <div className="flex flex-wrap gap-3 mb-5">
-          <div className="flex items-center gap-1.5 bg-secondary/60 rounded-full px-3 py-1.5 text-sm">
-            <Flame size={14} className="text-primary" /> {maxStreak} jours série
-          </div>
-          <div className="flex items-center gap-1.5 bg-secondary/60 rounded-full px-3 py-1.5 text-sm">
-            <Star size={14} className="text-blue-500" /> {totalXP} XP
-          </div>
-          <div className="flex items-center gap-1.5 bg-secondary/60 rounded-full px-3 py-1.5 text-sm">
-            <BookOpen size={14} className="text-green-500" /> {activeLangs} langues
-          </div>
-        </div>
-        {currentLanguage && <Link to={`/apprendre/${currentLanguage.code}`} className="inline-flex items-center gap-2 bg-primary text-primary-foreground font-semibold px-5 py-3 rounded-xl hover:opacity-90 transition shadow-lg shadow-primary/20">Continuer mon apprentissage <ArrowRight size={18} /></Link>}
-      </motion.div>
+    <div className="mx-auto w-full max-w-6xl min-w-0 p-4 sm:p-6 lg:p-8">
+      <motion.section
+        initial={{ opacity: 0, y: 18 }}
+        animate={{ opacity: 1, y: 0 }}
+        className="relative mb-8 overflow-hidden rounded-[2rem] border border-border bg-gradient-to-br from-primary/18 via-card to-card p-4 shadow-[0_30px_90px_-50px_rgba(249,115,22,0.55)] sm:p-7 lg:p-9"
+      >
+        <div className="absolute -right-12 -top-12 h-52 w-52 rounded-full bg-primary/10 blur-3xl" />
+        <div className="absolute -bottom-16 left-8 h-56 w-56 rounded-full bg-[#1554a0]/10 blur-3xl" />
 
-      {currentLanguage && (
-        <motion.div initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: .12 }} className="mb-6 flex items-center gap-4 rounded-2xl border border-primary/20 bg-primary/5 p-4">
-          <LanguageFlag language={currentLanguage} size="md" />
-          <div className="min-w-0 flex-1"><p className="text-xs font-bold uppercase tracking-[0.18em] text-primary">Reprendre là où vous vous êtes arrêté</p><p className="mt-1 truncate font-semibold text-foreground">{currentLanguage.name_fr}</p></div>
-          <Link to={`/apprendre/${currentLanguage.code}`} className="rounded-xl bg-primary px-4 py-2 text-sm font-bold text-primary-foreground transition hover:brightness-105">Reprendre</Link>
-        </motion.div>
+        <div className="relative lg:grid lg:grid-cols-[1.15fr_0.85fr] lg:items-center lg:gap-8">
+          <div className="text-left">
+            <div className="mb-4 flex items-center gap-3">
+              <img src="/logo.png" alt="Mǎa-kwɛ́lî Langues" className="h-14 w-14 rounded-full object-cover shadow-md ring-2 ring-primary/30 sm:h-16 sm:w-16" />
+              <div>
+                <div className="font-heading text-lg font-bold leading-none text-foreground">Mǎa-kwɛ́lî</div>
+                <div className="text-xs font-semibold uppercase tracking-[0.18em] text-primary">Langues</div>
+              </div>
+            </div>
+
+            <h1 className="mb-3 max-w-xl break-words font-heading text-2xl font-bold leading-tight text-foreground sm:mb-4 sm:text-4xl lg:text-[2.65rem]">
+              Bienvenue sur Mǎa-kwɛ́lî Langues{displayName ? `, ${displayName}` : ""} !
+            </h1>
+
+            <p className="mb-5 max-w-lg text-sm leading-6 text-muted-foreground sm:mb-6 sm:text-base">
+              Poursuivez votre apprentissage à votre rythme et développez une maîtrise durable des langues qui vous ouvrent au monde.
+            </p>
+
+          </div>
+
+          <div className="mt-5 text-left lg:mt-0">
+            <div className="mb-5 flex flex-col items-start gap-2.5 sm:mb-6 sm:flex-row sm:flex-wrap sm:gap-3">
+              {currentLanguage ? (
+                <Link
+                  to={`/apprendre/${currentLanguage.code}`}
+                  className="inline-flex w-full max-w-xs items-center justify-center gap-2 rounded-xl bg-primary px-4 py-3 text-sm font-semibold text-primary-foreground shadow-lg shadow-primary/25 transition hover:opacity-95 sm:w-auto sm:px-5"
+                >
+                  Continuer mon apprentissage <ArrowRight size={18} />
+                </Link>
+              ) : (
+                <Link
+                  to="/apprendre"
+                  className="inline-flex w-full max-w-xs items-center justify-center gap-2 rounded-xl bg-primary px-4 py-3 text-sm font-semibold text-primary-foreground shadow-lg shadow-primary/25 transition hover:opacity-95 sm:w-auto sm:px-5"
+                >
+                  Commencer maintenant <ArrowRight size={18} />
+                </Link>
+              )}
+
+              <Link
+                to="/tuteur"
+                className="inline-flex w-full max-w-xs items-center justify-center gap-2 rounded-xl border border-border bg-card px-4 py-3 text-sm font-semibold text-foreground transition hover:border-primary/40 hover:text-primary sm:w-auto sm:px-5"
+              >
+                <GraduationCap size={18} /> Tuteur IA
+              </Link>
+            </div>
+
+            <div className="-mx-1 flex flex-nowrap items-center gap-2 overflow-x-auto px-1 pb-1 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+              <div className="flex shrink-0 items-center gap-1.5 whitespace-nowrap rounded-full bg-secondary/70 px-2.5 py-1.5 text-[11px] text-foreground sm:gap-2 sm:px-3 sm:text-sm">
+                <Flame size={14} className="text-primary" /> {maxStreak} jours de série
+              </div>
+              <div className="flex shrink-0 items-center gap-1.5 whitespace-nowrap rounded-full bg-secondary/70 px-2.5 py-1.5 text-[11px] text-foreground sm:gap-2 sm:px-3 sm:text-sm">
+                <Star size={14} className="text-blue-500" /> {totalXP} XP
+              </div>
+              <div className="flex shrink-0 items-center gap-1.5 whitespace-nowrap rounded-full bg-secondary/70 px-2.5 py-1.5 text-[11px] text-foreground sm:gap-2 sm:px-3 sm:text-sm">
+                <BookOpen size={14} className="text-green-500" /> {loadingLanguages || loadingProgress ? "..." : activeLangs} langues actives
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </motion.section>
+
+      {startedLanguages.length > 0 && (
+        <section className="mb-8">
+          <div className="mb-4 flex items-end justify-between gap-3">
+            <div>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] text-primary">Vos parcours</p>
+              <h2 className="font-heading text-3xl font-bold text-foreground">Reprenez là où vous en êtes</h2>
+            </div>
+            <Link to="/apprendre" className="text-sm font-semibold text-primary hover:underline">Voir tout</Link>
+          </div>
+
+          <div className="grid gap-4 md:grid-cols-2">
+            {startedLanguages.slice(0, 4).map(({ progress, language }) => {
+              const totalLessons = Math.max(1, language.total_lessons || 20);
+              const lesson = Math.max(1, progress.current_lesson || 1);
+              const percentage = Math.min(100, ((lesson - 1) / totalLessons) * 100);
+
+              return (
+                <Link key={language.code} to={`/apprendre/${language.code}`} className="group rounded-2xl border border-border bg-card p-4 transition hover:-translate-y-1 hover:border-primary/40 hover:shadow-lg">
+                  <div className="flex items-center gap-3">
+                    <LanguageFlag language={language} size="md" />
+                    <div className="min-w-0 flex-1">
+                      <div className="truncate font-semibold text-foreground">{language.name_fr}</div>
+                      <div className="text-xs text-muted-foreground">Leçon {lesson} sur {totalLessons} · {progress.xp || 0} XP</div>
+                    </div>
+                    <span className="flex h-9 w-9 items-center justify-center rounded-full bg-primary/10 text-primary transition group-hover:bg-primary group-hover:text-primary-foreground">
+                      <Play size={14} fill="currentColor" />
+                    </span>
+                  </div>
+                  <div className="mt-4 h-2.5 rounded-full bg-secondary">
+                    <div className="h-2.5 rounded-full bg-primary transition-all" style={{ width: `${percentage}%` }} />
+                  </div>
+                </Link>
+              );
+            })}
+          </div>
+        </section>
       )}
 
-      {/* Action grid */}
-      <div className="grid grid-cols-2 lg:grid-cols-3 gap-4 mb-6">
-        {actions.map(({ to, label, icon: Icon, color }, index) => (
-          <motion.div key={to} initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: index * .06 }}>
-          <Link to={to}
-            className="group block h-full rounded-2xl border border-border bg-card p-5 transition-all hover:-translate-y-1 hover:border-primary/40 hover:shadow-lg">
-            <div className={`mb-3 ${color}`}><Icon size={28} /></div>
-            <div className="font-semibold text-foreground text-sm">{label}</div>
-            <div className="flex items-center gap-1 text-xs text-muted-foreground mt-1 group-hover:text-primary transition">
-              Ouvrir <ArrowRight size={12} />
+      {discoveryLanguages.length > 0 && (
+        <section className="mb-8">
+          <div className="mb-4 flex items-end justify-between gap-3">
+            <div className="min-w-0 flex-1">
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] text-primary">À découvrir</p>
+              <h2 className="font-heading text-2xl font-bold leading-tight text-foreground sm:text-3xl">Des parcours qui donnent envie de commencer</h2>
             </div>
-          </Link></motion.div>
-        ))}
-      </div>
-
-      {/* Kôrô AI Tutor featured card */}
-      <Link to="/tuteur"
-        className="block relative overflow-hidden rounded-2xl bg-gradient-to-r from-purple-600/20 via-card to-primary/15 border border-border p-6 mb-6 hover:border-purple-400/40 transition group">
-        <div className="flex items-center gap-4">
-          <div className="relative shrink-0">
-            <img src="/logo.png" alt="Kôrô" className="w-16 h-16 rounded-full object-cover shadow-lg ring-2 ring-purple-400/30" />
-            <span className="absolute -bottom-0.5 -right-0.5 w-4 h-4 rounded-full bg-green-500 border-2 border-card" />
+            <Link to="/apprendre" className="shrink-0 pb-0.5 text-sm font-semibold text-primary hover:underline">Explorer</Link>
           </div>
+
+          <div className="grid gap-4 md:grid-cols-3">
+            {discoveryLanguages.map((language) => (
+              <Link key={language.code} to={`/apprendre/${language.code}`} className="group flex items-center gap-3 rounded-2xl border border-border bg-card p-4 transition hover:-translate-y-1 hover:border-primary/40 hover:shadow-lg">
+                <LanguageFlag language={language} size="md" />
+                <div className="min-w-0 flex-1">
+                  <div className="truncate font-semibold text-foreground">{language.name_fr}</div>
+                  <div className="truncate text-xs text-muted-foreground">{getCountryForLanguage(language)}</div>
+                </div>
+                <ArrowRight size={15} className="shrink-0 text-muted-foreground transition group-hover:translate-x-1 group-hover:text-primary" />
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
+
+      <section className="mb-8">
+        <div className="mb-6 flex items-end justify-between gap-3">
           <div className="min-w-0 flex-1">
-            <div className="flex items-center gap-2 mb-1"><GraduationCap size={18} className="text-purple-400" /><h2 className="font-heading text-xl font-bold text-foreground">Kôrô — Tuteur IA</h2></div>
-            <p className="text-sm text-muted-foreground">Converse vocalement, pose tes questions, apprends à ton rythme avec ton assistant intelligent</p>
+            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-primary">Actions rapides</p>
+            <h2 className="font-heading text-2xl font-bold leading-tight text-foreground sm:text-3xl">Accédez directement à ce qui compte</h2>
           </div>
-          <ArrowRight size={24} className="text-muted-foreground group-hover:text-purple-400 group-hover:translate-x-1 transition shrink-0" />
         </div>
-      </Link>
 
-      <Link to="/studio" className="block relative overflow-hidden rounded-2xl bg-gradient-to-r from-purple-600/20 via-card to-primary/15 border border-border p-6 mb-6 hover:border-primary/40 transition group">
-        <div className="flex min-w-0 items-center justify-between gap-4"><div className="min-w-0"><div className="flex min-w-0 items-center gap-2 mb-1"><Sparkles size={18} className="shrink-0 text-purple-400" /><h2 className="min-w-0 break-words font-heading text-xl font-bold text-foreground">Studio IA &amp; Data Science</h2></div><p className="text-sm text-muted-foreground">Tuteur vocal · accent · scan OCR · ligues en direct</p></div><ArrowRight size={24} className="shrink-0 text-muted-foreground group-hover:text-primary group-hover:translate-x-1 transition" /></div>
-      </Link>
+        <div className="grid items-stretch gap-4 md:grid-cols-3">
+          {actions.map(({ to, label, icon: Icon, color }) => {
+            const isWorkshop = to === "/studio";
+            return (
+            <Link key={to} to={to} className={`group relative flex min-h-[10.5rem] flex-col justify-between overflow-hidden rounded-2xl border p-5 transition duration-300 hover:-translate-y-1.5 hover:shadow-lg ${isWorkshop ? "border-white/25 bg-gradient-to-br from-[#1554a0] via-[#10447f] to-[#08294f] text-white shadow-[0_20px_45px_-18px_rgba(8,41,79,0.9)] ring-1 ring-[#facc15]/20 hover:border-[#facc15]/60 hover:shadow-[0_28px_55px_-18px_rgba(8,41,79,0.95)]" : "border-border bg-card hover:border-primary/40"}`}>
+              {isWorkshop && <><div className="absolute -right-10 -top-10 h-32 w-32 rounded-full border-[18px] border-[#facc15]/15 transition-transform duration-500 group-hover:scale-110" /><div className="absolute inset-x-5 top-0 h-px bg-gradient-to-r from-transparent via-[#facc15]/70 to-transparent" /></>}
+              <div className={`relative mb-3 inline-flex h-12 w-12 items-center justify-center rounded-xl ${isWorkshop ? "bg-[#facc15] text-[#1554a0] shadow-[0_8px_20px_rgba(0,0,0,0.2)] ring-4 ring-white/10 transition-transform duration-300 group-hover:rotate-3 group-hover:scale-105" : `bg-primary/10 ${color}`}`}>
+                <Icon size={22} />
+              </div>
+              <div className="relative">
+                {isWorkshop && <div className="mb-1 text-[10px] font-bold uppercase tracking-[0.2em] text-[#facc15]">Espace créatif</div>}
+                <div className={`mb-2 font-heading text-lg font-bold ${isWorkshop ? "text-white" : "text-foreground"}`}>{label}</div>
+                {isWorkshop && <p className="mb-3 max-w-[15rem] text-xs leading-5 text-blue-100">Pratiquez, enregistrez et perfectionnez votre expression.</p>}
+                <div className={`flex items-center gap-2 text-sm font-semibold ${isWorkshop ? "text-white group-hover:text-[#facc15]" : "text-muted-foreground group-hover:text-primary"}`}>
+                  Découvrir <ArrowRight size={15} />
+                </div>
+              </div>
+            </Link>
+            );
+          })}
+        </div>
+      </section>
+
     </div>
   );
 }

@@ -6,224 +6,256 @@
   "lesson_number": 1,
   "title": "L'utilisation des temps complexes et des modes avancés",
   "learning_objectives": [
-    "Maîtriser le conditionnel passé et le subjonctif avec la marque 'ka' en contexte complexe",
-    "Exprimer une antériorité reculée (plus-que-parfait) avec le double marqueur 'tun... -ra'",
-    "Nuancer le discours en utilisant l'aspect itératif et fréquentatif avancé"
+    "Distinguer les deux futurs du maninka : futur-1 (dí) et futur-2 (dínà/bɛ́nà)",
+    "Utiliser le résultatif (-nin/-nɛn) pour exprimer un état résultant d'une action",
+    "Utiliser le rétrospectif (tùn) pour situer une action antérieure à un autre repère passé",
+    "Combiner aspect et négation dans des énoncés complexes"
   ],
   "phonetic_focus": {
-    "key_sounds": "La particule complexe 'tereen' ou 'tun' (/tũ/) demande une nasalisation complète. Dans la structure verbale 'bɛ kɛ la', la syllabe finale 'la' s'articule de manière très brève, presque clitique.",
-    "common_pitfalls": "Ne pas confondre l'aspect habituel présent 'bɛ... kɛ' avec l'aspect accompli itératif passé 'tun bɛ... kɛ'. Veillez à marquer l'accent sur la voyelle double de 'tereen'."
+    "key_sounds": [
+      "Le ton bas de 'tùn' (rétrospectif), qui module tout l'énoncé qui suit",
+      "La nasale finale du suffixe résultatif '-nin/-nɛn', selon l'harmonie vocalique de la racine",
+      "L'opposition tonale entre 'dí' (futur-1, ton haut) et 'dì' dans d'autres contextes"
+    ],
+    "common_pitfalls": [
+      "Confondre le futur-1 'dí' (plus proche, plus certain) et le futur-2 'dínà/bɛ́nà' (plus lointain ou hypothétique) : le choix dépend du degré de certitude et de distance temporelle du locuteur",
+      "Oublier que 'tùn' se place avant le verbe et non après, contrairement à certains suffixes aspectuels"
+    ]
   },
   "vocabulary": [
     {
-      "word_id": "v1_1",
-      "term": "Tereen",
-      "phonetic_api": "/te.reːn/",
-      "phonetic_simple": "TÉ-RÉEN",
-      "translation": "Était jadis / Marqueur d'antériorité reculée ou de conditionnel",
-      "example_sentence": "A tereen bɛ n bɔ la",
-      "example_phonetic": "/a te.reːn bɛ n̩ bɔ la/",
-      "example_translation": "Il aurait dû / était sur le point de me rendre visite."
+      "word_id": "v1",
+      "term": "dí (futur-1)",
+      "phonetic_api": "[dí]",
+      "phonetic_simple": "di",
+      "translation": "marque du futur proche/certain",
+      "example_sentence": "Sékou dí nà sínin.",
+      "example_phonetic": "[sekú dí nà sínin]",
+      "example_translation": "Sékou viendra demain (futur proche/certain)."
     },
     {
-      "word_id": "v1_2",
-      "term": "Tun",
-      "phonetic_api": "/tũ/",
-      "phonetic_simple": "TOUN",
-      "translation": "Déjà / Jadis (particule de recul temporel)",
-      "example_sentence": "N tun tara ko",
-      "example_phonetic": "/n̩ tũ ta.ra ko/",
-      "example_translation": "J'étais déjà parti (plus-que-parfait)."
+      "word_id": "v2",
+      "term": "dínà (futur-2)",
+      "phonetic_api": "[dínà]",
+      "phonetic_simple": "di-na",
+      "translation": "marque du futur lointain/moins certain",
+      "example_sentence": "Sékou dínà nà lɔ́n dɔ́.",
+      "example_phonetic": "[sekú dínà nà lɔn dɔ]",
+      "example_translation": "Sékou viendra un jour (futur plus lointain/incertain)."
     },
     {
-      "word_id": "v1_3",
-      "term": "Nka",
-      "phonetic_api": "/n̩.ka/",
-      "phonetic_simple": "N-KA",
-      "translation": "Mais / Cependant",
-      "example_sentence": "N tun bɛ se la nka n mu a kɛ",
-      "example_phonetic": "/n̩ tũ bɛ se la n̩.ka n̩ mu a kɛ/",
-      "example_translation": "J'en étais capable, mais je ne l'ai pas fait."
+      "word_id": "v3",
+      "term": "tùn (rétrospectif)",
+      "phonetic_api": "[tùn]",
+      "phonetic_simple": "toun",
+      "translation": "marque du passé antérieur à un autre repère (plus-que-parfait)",
+      "example_sentence": "A tùn bàda nà kà a to a bára tága.",
+      "example_phonetic": "[a tùn bàda nà kà a to a bára tága]",
+      "example_translation": "Il était déjà venu quand il est reparti."
     },
     {
-      "word_id": "v1_4",
-      "term": "Hali do",
-      "phonetic_api": "/ha.li do/",
-      "phonetic_simple": "HA-LI DO",
-      "translation": "Même un jour / Même si",
-      "example_sentence": "Hali do a mu nana",
-      "example_phonetic": "/ha.li do a mu na.na/",
-      "example_translation": "Même à ce jour, il n'est pas venu."
+      "word_id": "v4",
+      "term": "-nin/-nɛn (résultatif)",
+      "phonetic_api": "[-nin]/[-nɛn]",
+      "phonetic_simple": "-nin/-nèn",
+      "translation": "suffixe résultatif (état résultant d'une action)",
+      "example_sentence": "A síginin bɛ.",
+      "example_phonetic": "[a síginin bɛ]",
+      "example_translation": "Il est assis (résultat d'une action de s'asseoir)."
     },
     {
-      "word_id": "v1_5",
-      "term": "Kɔni",
-      "phonetic_api": "/kɔ.ni/",
-      "phonetic_simple": "KƆ-NI",
-      "translation": "Certes / Cependant / En tout cas",
-      "example_sentence": "N ka baara kɔni ka gbanan",
-      "example_phonetic": "/n̩ ka baː.ra kɔ.ni ka ɡ͡ba.nã/",
-      "example_translation": "Mon travail est certes difficile."
+      "word_id": "v5",
+      "term": "báda / bára (parfait)",
+      "phonetic_api": "[báda]/[bára]",
+      "phonetic_simple": "ba-da/ba-ra",
+      "translation": "marque du parfait accompli",
+      "example_sentence": "A bára tága.",
+      "example_phonetic": "[a bára tága]",
+      "example_translation": "Il est déjà parti."
     },
     {
-      "word_id": "v1_6",
-      "term": "Yalisa",
-      "phonetic_api": "/ja.li.sa/",
-      "phonetic_simple": "YA-LI-SA",
-      "translation": "Afin que / Pour que (subjonctif de but)",
-      "example_sentence": "N nana yan yalisa i ka n ladon",
-      "example_phonetic": "/n̩ na.na d͡ʒan ja.li.sa i ka n̩ la.dõ/",
-      "example_translation": "Je suis venu ici afin que tu me conseilles."
+      "word_id": "v6",
+      "term": "kà (aoriste)",
+      "phonetic_api": "[kà]",
+      "phonetic_simple": "ka",
+      "translation": "marque du passé narratif (aoriste)",
+      "example_sentence": "A kà tága.",
+      "example_phonetic": "[a kà tága]",
+      "example_translation": "Il partit (dans un récit)."
     },
     {
-      "word_id": "v1_7",
-      "term": "Tumado",
-      "phonetic_api": "/tu.ma.do/",
-      "phonetic_simple": "TOU-MA-DO",
-      "translation": "Parfois / Quelquefois",
-      "example_sentence": "Tumado a bɛ kasi la",
-      "example_phonetic": "/tu.ma.do a bɛ ka.si la/",
-      "example_translation": "Parfois, il pleure."
+      "word_id": "v7",
+      "term": "báa (conditionnel)",
+      "phonetic_api": "[báa]",
+      "phonetic_simple": "ba-a",
+      "translation": "marque du conditionnel",
+      "example_sentence": "Ń báa a lɔ́n, ń tùn dí a fɔ́.",
+      "example_phonetic": "[ń báa a lɔn ń tùn dí a fɔ]",
+      "example_translation": "Si je le savais, je le dirais."
     },
     {
-      "word_id": "v1_8",
-      "term": "Sila fɛ",
-      "phonetic_api": "/si.la fɛ/",
-      "phonetic_simple": "SI-LA FƐ",
-      "translation": "Par le moyen de / À travers",
-      "example_sentence": "O sila fɛ an bɛ se la",
-      "example_phonetic": "/o si.la fɛ an bɛ se la/",
-      "example_translation": "Par ce moyen, nous réussirons."
-    },
-    {
-      "word_id": "v1_9",
-      "term": "Kabila",
-      "phonetic_api": "/ka.bi.la/",
-      "phonetic_simple": "KA-BI-LA",
-      "translation": "Depuis que / Dès lors",
-      "example_sentence": "Kabila n tara, a mu n mɛn",
-      "example_phonetic": "/ka.bi.la n̩ ta.ra a mu n̩ mɛn/",
-      "example_translation": "Depuis que je suis parti, il ne m'a pas entendu."
-    },
-    {
-      "word_id": "v1_10",
-      "term": "Wati do",
-      "phonetic_api": "/wa.ti do/",
-      "phonetic_simple": "OUA-TI DO",
-      "translation": "Toujours / Tout le temps",
-      "example_sentence": "A bɛ baara la wati do",
-      "example_phonetic": "/a bɛ baː.ra la wa.ti do/",
-      "example_translation": "Il est tout le temps au travail."
+      "word_id": "v8",
+      "term": "yé (subjonctif)",
+      "phonetic_api": "[yé]",
+      "phonetic_simple": "yé",
+      "translation": "marque du subjonctif (souhait, but)",
+      "example_sentence": "A yé nà.",
+      "example_phonetic": "[a yé nà]",
+      "example_translation": "Qu'il vienne."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p1_1",
-      "original": "N tun tara ko yalisa n ka n mɔgɔba lu bɔ.",
-      "phonetic_api": "/n̩ tũ ta.ra ko ja.li.sa n̩ ka n̩ mɔ.ɡɔ.ba lu bɔ/",
-      "phonetic_simple": "N TOUN TA-RA KO YA-LI-SA N KA N MƆ-GƆ-BA LOU BƆ.",
-      "translation": "J'étais déjà parti afin de rendre visite à mes grands-parents.",
-      "context": "Justifier une action passée complexe et antérieure à un repère narratif."
+      "phrase_id": "p1",
+      "original": "Sékou dí nà sínin",
+      "phonetic_api": "[sekú dí nà sínin]",
+      "phonetic_simple": "sé-kou-di-na-si-nin",
+      "translation": "Sékou viendra demain",
+      "context": "Futur-1, action certaine et proche"
     },
     {
-      "phrase_id": "p1_2",
-      "original": "A tereen bɛ n dila fɛ nka wari mu tun n bolo.",
-      "phonetic_api": "/a te.reːn bɛ n̩ di.la fɛ n̩.ka wa.ri mu tũ n̩ bo.lo/",
-      "phonetic_simple": "A TÉ-RÉEN BƐ N DI-LA FƐ N-KA OUA-RI MOU TOUN N BOLO.",
-      "translation": "Il aurait voulu me payer, mais il n'avait plus d'argent sur lui.",
-      "context": "Formuler une structure irréelle du passé ou un regret économique."
+      "phrase_id": "p2",
+      "original": "Sékou dínà nà lɔ́n dɔ́",
+      "phonetic_api": "[sekú dínà nà lɔn dɔ]",
+      "phonetic_simple": "sé-kou-di-na-na-lon-do",
+      "translation": "Sékou viendra un jour",
+      "context": "Futur-2, action lointaine ou incertaine"
     },
     {
-      "phrase_id": "p1_3",
-      "original": "Kabila n nana yan, a bɛ n ladon la wati do.",
-      "phonetic_api": "/ka.bi.la n̩ na.na d͡ʒan a bɛ n̩ la.dõ la wa.ti do/",
-      "phonetic_simple": "KA-BI-LA N NA-NA YAN, A BƐ N LA-DON LA OUA-TI DO.",
-      "translation": "Depuis que je suis arrivé ici, il me conseille tout le temps.",
-      "context": "Exprimer une continuité aspectuelle temporelle depuis un point fixe."
+      "phrase_id": "p3",
+      "original": "A bára tága",
+      "phonetic_api": "[a bára tága]",
+      "phonetic_simple": "a-ba-ra-ta-ga",
+      "translation": "Il est déjà parti",
+      "context": "Parfait accompli, résultat visible dans le présent"
+    },
+    {
+      "phrase_id": "p4",
+      "original": "A síginin bɛ",
+      "phonetic_api": "[a síginin bɛ]",
+      "phonetic_simple": "a-si-gi-nin-bè",
+      "translation": "Il est assis",
+      "context": "Résultatif : état actuel résultant d'une action passée"
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Ń báa a lɔ́n, ń tùn dí a fɔ́",
+      "phonetic_api": "[ń báa a lɔn ń tùn dí a fɔ]",
+      "phonetic_simple": "n-ba-a-a-lon, n-toun-di-a-fo",
+      "translation": "Si je le savais, je le dirais",
+      "context": "Conditionnel hypothétique combinant báa et tùn dí"
     }
   ],
   "grammar_points": [
     {
-      "concept": "La construction du plus-que-parfait avec 'tun... -ra'",
-      "explanation": "Pour marquer l'antériorité absolue d'une action par rapport à une autre action passée dans le récit, le malinké combine la marque de recul temporel 'tun' placée après le sujet et le suffixe d'accompli intransitif '-ra' ou transitif en fin de racine.",
+      "concept": "Le système à deux futurs du maninka",
+      "explanation": "Le maninka de Guinée distingue un futur-1 ('dí', plus fréquent, exprimant une certitude ou une proximité plus grande) et un futur-2 ('dínà'/'bɛ́nà', exprimant un futur plus lointain, plus incertain ou plus formel), selon l'analyse de Vydrin sur le système TAM du maninka.",
       "rules": [
-        "Structure : Sujet + 'tun' + Racine du verbe + '-ra' (ou marque transitive)."
+        "Futur-1 : [Sujet] + dí + [Verbe] — action proche/certaine",
+        "Futur-2 : [Sujet] + dínà + [Verbe] — action lointaine/moins certaine",
+        "Négation des deux futurs : [Sujet] + tɛ́(nà) + [Verbe]"
       ],
       "examples": [
         {
-          "structure": "N tun bɔra ko",
-          "phonetic_api": "/n̩ tũ bɔ.ra ko/",
-          "meaning": "J'étais déjà sorti."
+          "structure": "[Sujet] dí [Verbe]",
+          "phonetic_api": "[dí]",
+          "meaning": "[Sujet] fera bientôt/certainement [verbe]"
+        },
+        {
+          "structure": "[Sujet] dínà [Verbe]",
+          "phonetic_api": "[dínà]",
+          "meaning": "[Sujet] fera un jour/peut-être [verbe]"
         }
       ]
     },
     {
-      "concept": "Le mode subjonctif final avec 'yalisa... ka'",
-      "explanation": "Pour exprimer le but vers lequel tend une action complexe ('afin que' / 'dans l'intention de'), on introduit la proposition subordonnée par la conjonction 'yalisa' et on utilise la particule injonctive-subjonctive 'ka' devant le verbe de l'action visée.",
+      "concept": "Le résultatif et le rétrospectif",
+      "explanation": "Le suffixe résultatif '-nin/-nɛn' décrit un état présent résultant d'une action passée (proche du participe passé employé comme adjectif), tandis que 'tùn' (rétrospectif) situe une action comme antérieure à un autre moment du passé (plus-que-parfait).",
       "rules": [
-        "Structure : Proposition principale + 'yalisa' + Sujet + 'ka' + Verbe."
+        "Résultatif : [Sujet] + [Verbe]-nin/-nɛn + bɛ",
+        "Rétrospectif : [Sujet] + tùn + [marque aspectuelle] + [Verbe]"
       ],
       "examples": [
         {
-          "structure": "Yalisa an ka se",
-          "phonetic_api": "/ja.li.sa an ka se/",
-          "meaning": "Afin que nous puissions réussir."
+          "structure": "[Verbe]-nin bɛ",
+          "phonetic_api": "[-nin bɛ]",
+          "meaning": "est dans l'état de [verbe]"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Lamine",
-      "text": "Moussa, kunu wula la n tun tara i ka so la. I tereen bɛ mi ?",
-      "phonetic_api": "/mu.sa ku.nu wu.la la n̩ tũ ta.ra i ka so la i te.reːn bɛ mi/",
-      "phonetic_simple": "MOUS-SA, KOU-NOU OU-LA LA N TOUN TA-RA I KA SO LA. I TÉ-RÉEN BƐ MI ?",
-      "translation": "Moussa, hier après-midi j'étais déjà allé chez toi. Où étais-tu passé ?"
+      "speaker": "Fodé",
+      "text": "I fa dí nà mun waati la ?",
+      "phonetic_api": "[i fa dí nà mun waːti la]",
+      "phonetic_simple": "i-fa-di-na-moun-wa-a-ti-la",
+      "translation": "Ton père viendra à quelle heure ?"
     },
     {
-      "speaker": "Moussa",
-      "text": "Nba Lamine. N tun bɔra so kɔnɔla yalisa n ka n ka baarakɛyɔrɔ dila.",
-      "phonetic_api": "/n̩.ba la.min n̩ tũ bɔ.ra so kɔ.nɔ.la ja.li.sa n̩ ka n̩ ka baː.ra.kɛ.jɔ.rɔ di.la/",
-      "phonetic_simple": "N-BA LA-MINE. N TOUN BƆ-RA SO KƆ-NƆ-LA YA-LI-SA N KA N KA BAA-RA-KƐ-YƆ-RƆ DI-LA.",
-      "translation": "Bonjour Lamine. J'étais déjà sorti de la maison afin d'organiser mon lieu de travail."
+      "speaker": "Aïcha",
+      "text": "A bára tága kɛ́nɛnkɛ, konin a dínà nà kunun tuma.",
+      "phonetic_api": "[a bára tága kɛnɛnkɛ konin a dínà nà kunun tuma]",
+      "phonetic_simple": "a-ba-ra-ta-ga-kè-nèn-kè, ko-nin-a-di-na-na-kou-noun-tou-ma",
+      "translation": "Il est déjà parti au champ, mais il reviendra vers le soir."
     },
     {
-      "speaker": "Lamine",
-      "text": "O ! N tun bɛ i mirila fɛ yan, nka i ka fani kɔni mu tun bɛ so dafɛ.",
-      "phonetic_api": "/o n̩ tũ bɛ i mi.ri.la fɛ d͡ʒan n̩.ka i ka fa.ni kɔ.ni mu tũ bɛ so da.fɛ/",
-      "phonetic_simple": "O ! N TOUN BƐ I MI-RI-LA FƐ YAN, N-KA I KA FA-NI KƆ-NI MOU TOUN BƐ SO DA-FƐ.",
-      "translation": "Oh ! J'avais l'intention de te voir ici, mais ton tissu n'était pourtant plus près de la porte."
+      "speaker": "Fodé",
+      "text": "A tùn síginin lɔ́ n bòlo tuma bɛɛ.",
+      "phonetic_api": "[a tùn síginin lɔ n bɔlo tuma bɛɛ]",
+      "phonetic_simple": "a-toun-si-gi-nin-lo-n-bo-lo-tou-ma-bè-è",
+      "translation": "Il était toujours assis à côté de moi autrefois."
     },
     {
-      "speaker": "Moussa",
-      "text": "Kabila n tara, tumado n bɛ n ka sariya dila la. Hali do an bɛ se la, Ala k'a kɛ !",
-      "phonetic_api": "/ka.bi.la n̩ ta.ra tu.ma.do n̩ bɛ n̩ ka sa.ri.ja di.la la ha.li do an bɛ se la a.la k'a kɛ/",
-      "phonetic_simple": "KA-BI-LA N TA-RA, TOU-MA-DO N BƐ N KA SA-RI-YA DI-LA LA. HA-LI DO AN BƐ SÉ LA, A-LA K'A KƐ !",
-      "translation": "Depuis que je suis parti, j'organise parfois mes règles de gestion. Même à l'avenir nous réussirons, espérons-le !"
+      "speaker": "Aïcha",
+      "text": "Awa, a bɛ se ka nà tuma jumɛn, dínà walima dí ?",
+      "phonetic_api": "[awa a bɛ se ka nà tuma dʒumɛn dínà walima dí]",
+      "phonetic_simple": "a-wa, a-bè-sé-ka-na-tou-ma-dju-mèn, di-na-wa-li-ma-di",
+      "translation": "D'accord, il peut venir à un moment quelconque, futur lointain ou futur proche ?"
     }
   ],
   "cultural_notes": [
-    "Dans l'éloquence supérieure oratoire du Mandingue, l'usage fluide des temps reculés ('tun... -ra') et des modalisateurs comme 'tereen' permet au locuteur de démontrer sa maîtrise de la lignée historique du récit. C'est le style caractéristique des palabres solennelles sous l'arbre à palabres."
+    "La distinction fine entre futur-1 et futur-2 est un des apports majeurs des travaux académiques de Vydrin sur le maninka de Guinée et reste peu documentée dans les manuels grand public, ce qui en fait un point avancé nécessitant une référence académique ([Vydrin, Mandenkan 70](https://journals.openedition.org/mandenkan/pdf/3253))."
   ],
   "exercises": [
     {
-      "exercise_id": "C1_M1_L1_ex1",
-      "type": "multiple_choice",
-      "question": "Quelle structure grammaticale exprime le plus-que-parfait d'action ?",
+      "exercise_id": "e1",
+      "type": "choix_multiple",
+      "question": "Quelle marque exprime un futur plus lointain et moins certain ?",
       "options": [
-        "bɛ... la",
-        "tun... -ra",
-        "kana... kɛ"
+        "dí",
+        "dínà",
+        "tùn",
+        "báda"
       ],
-      "correct_answer": "tun... -ra",
-      "explanation": "L'association de la particule d'antériorité 'tun' et du suffixe d'accompli '-ra' recule l'action dans le passé absolu."
+      "correct_answer": "dínà",
+      "explanation": "'dínà' (futur-2) marque un futur plus éloigné ou incertain, contrairement à 'dí' (futur-1, proche/certain)."
     },
     {
-      "exercise_id": "C1_M1_L1_ex2",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "N nana yan [ ___ ] i ka n ka fɔ mɛn (Je suis venu afin que tu écoutes mes paroles).",
-      "correct_answer": "yalisa",
-      "hint": "C'est la conjonction finale supérieure équivalente à 'pour que/afin que'."
+      "exercise_id": "e2",
+      "type": "traduction",
+      "question": "Traduisez : 'Il est déjà parti.'",
+      "correct_answer": "A bára tága.",
+      "explanation": "Le parfait accompli s'exprime avec 'bára/báda' devant le verbe."
+    },
+    {
+      "exercise_id": "e3",
+      "type": "texte_a_trous",
+      "sentence_with_blank": "A ___ síginin lɔ n bòlo tuma bɛɛ.  (Il était toujours assis à côté de moi autrefois.)",
+      "correct_answer": "tùn",
+      "hint": "C'est la marque du rétrospectif, qui situe une action dans un passé antérieur à un autre repère."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Vydrin, « Le TAM en maninka de Guinée : la zone du futur », Mandenkan 70 (2023)",
+      "url": "https://journals.openedition.org/mandenkan/pdf/3253"
+    },
+    {
+      "label": "Malinkuia — Introduction à la langue malinké (grammaire complète, variété du Wulada, Haute-Guinée)",
+      "url": "https://fr.scribd.com/document/499114939/Malinkuia"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Le système des deux futurs (dí/dínà), le résultatif (-nin/-nɛn), le rétrospectif (tùn) et le conditionnel (báa) sont directement documentés et glosés dans l'étude académique de Vydrin sur le TAM du maninka de Guinée. Cependant, les phrases d'exemple complètes de cette leçon (dialogue, phrases combinées) sont des constructions originales assemblées à partir des morphèmes attestés isolément dans la source académique, et n'ont pas pu être confirmées mot-à-mot par un locuteur natif ou un second corpus — d'où une confiance moyenne malgré la solidité de la source grammaticale."
 }

@@ -6,88 +6,77 @@
   "lesson_number": 6,
   "title": "Les jours de la semaine, les mois et dire l'heure",
   "learning_objectives": [
-    "Nommer les sept jours de la semaine et comprendre leur origine culturelle.",
-    "Nommer les douze mois du calendrier agricole traditionnel kpele.",
-    "Dire aujourd'hui, hier et demain (kèlěe, wɛ́i, tínaa).",
-    "Compter les heures et situer un moment avec lǒwai (à, heure)."
+    "Nommer les sept jours de la semaine en guerzé, liés à leurs fonctions traditionnelles",
+    "Connaître quelques noms traditionnels des mois, liés au calendrier agricole",
+    "Demander et dire l'heure avec le mot lɛ́ɛlɛ"
   ],
   "phonetic_focus": {
-    "key_sounds": "Les noms des jours sont souvent des mots composés très longs (wéleŋdɛlɔɠɔmàayîi 'vendredi'), utiles pour s'entraîner à enchaîner plusieurs syllabes à tons différents sans perdre le rythme. On y retrouve aussi le mot lɔ́ɠɔ (semaine), présent dans plusieurs noms de jours, avec sa variante régionale lɔ́ɣwɔ́.",
-    "common_pitfalls": "Les francophones ont tendance à : (1) chercher un mot simple et court pour chaque jour, alors que plusieurs noms de jours sont des mots composés décrivant leur signification culturelle (mercredi = « jour du marché ») ; (2) confondre hâa (hier soir, ou « aujourd'hui » dans le dialecte du sud) avec kèlěe (aujourd'hui dans le dialecte central) — le kpele varie selon la région ; (3) oublier que hwɛ̀lâaŋ signifie à la fois « avant-hier » et « après-demain » selon le contexte."
+    "key_sounds": "Les noms des jours de la semaine sont souvent des composés longs faisant référence à une activité rituelle (marché, danse, fête) ; il faut bien marquer le ton descendant final (ŋ̂) de tɛ̀lɛ̂ŋ (lundi).",
+    "common_pitfalls": "Les francophones cherchent parfois des noms de jours calqués sur les noms européens (jour du soleil, jour de la lune...), alors que les noms guerzé renvoient à des activités sociales locales (jour du marché, jour des danses)."
   },
   "vocabulary": [
     {
       "word_id": "v1",
       "term": "tɛ̀lɛ̂ŋ",
       "phonetic_api": "/tɛ̀lɛ̂ŋ/",
-      "phonetic_simple": "TÈ-lêng",
-      "translation": "lundi (jour des fêtes, funérailles, baptêmes selon la coutume)",
-      "example_sentence": "tɛ̀lɛ̂ŋ",
-      "example_phonetic": "/tɛ̀lɛ̂ŋ/",
-      "example_translation": "lundi"
+      "phonetic_simple": "tè-LÈNG",
+      "translation": "lundi (litt. jour des fêtes, funérailles et baptêmes)",
+      "example_sentence": "Tɛ̀lɛ̂ŋ ɓáa kólô lɛ̀ɛ.",
+      "example_phonetic": "/tɛ̀lɛ̂ŋ ɓáa kólô lɛ̀ɛ/",
+      "example_translation": "Lundi est un jour de travail."
     },
     {
       "word_id": "v2",
-      "term": "tɛ̀lɛ́ŋgùláaɲɛ̀",
-      "phonetic_api": "/tɛ̀lɛ́ŋgùláaɲɛ̀/",
-      "phonetic_simple": "tè-lèng-gou-LAA-nyè",
-      "translation": "mardi (litt. « après-lundi »)",
-      "example_sentence": "tɛ̀lɛ́ŋgùláaɲɛ̀",
-      "example_phonetic": "/tɛ̀lɛ́ŋgùláaɲɛ̀/",
-      "example_translation": "mardi"
+      "term": "táɠahwolô",
+      "phonetic_api": "/táɠahwolô/",
+      "phonetic_simple": "TA-gua-wo-lô",
+      "translation": "mercredi (litt. jour du marché)",
+      "example_sentence": "Táɠahwolô ɓáa lɔ́ɠɔkpalâŋ ɓɔ̀ɔ.",
+      "example_phonetic": "/táɠahwolô ɓáa lɔ́ɠɔkpalâŋ ɓɔ̀ɔ/",
+      "example_translation": "Mercredi il y a le marché."
     },
     {
       "word_id": "v3",
-      "term": "táɠahwolô",
-      "phonetic_api": "/táɣahwolô/",
-      "phonetic_simple": "TA-gha-hwo-lô",
-      "translation": "mercredi (jour du marché)",
-      "example_sentence": "táɠahwolô",
-      "example_phonetic": "/táɣahwolô/",
-      "example_translation": "mercredi"
+      "term": "wéleŋdɛlɔɠɔ̂",
+      "phonetic_api": "/wéleŋdɛlɔɠɔ̂/",
+      "phonetic_simple": "WÉ-lèng-dè-lo-ghô",
+      "translation": "samedi (litt. jour des danses)",
+      "example_sentence": "Wéleŋdɛlɔɠɔ̂ ɓáa mǎna hîŋ.",
+      "example_phonetic": "/wéleŋdɛlɔɠɔ̂ ɓáa mǎna hîŋ/",
+      "example_translation": "Samedi est le jour de la danse."
     },
     {
       "word_id": "v4",
-      "term": "dìelɔɠɔ",
-      "phonetic_api": "/dìelɔɣɔ/",
-      "phonetic_simple": "di-e-lo-gho",
-      "translation": "jeudi (jour où on fixe la date des grandes fêtes)",
-      "example_sentence": "dìelɔɠɔ",
-      "example_phonetic": "/dìelɔɣɔ/",
-      "example_translation": "jeudi"
+      "term": "gìlímàlɔɠɔ",
+      "phonetic_api": "/gìlímàlɔɠɔ/",
+      "phonetic_simple": "gui-LI-ma-lo-ghô",
+      "translation": "dimanche",
+      "example_sentence": "Gìlímàlɔɠɔ ɓáa kólô hìí.",
+      "example_phonetic": "/gìlímàlɔɠɔ ɓáa kólô hìí/",
+      "example_translation": "Dimanche, il n'y a pas de travail."
     },
     {
       "word_id": "v5",
-      "term": "wéleŋdɛlɔɠɔmàayîi",
-      "phonetic_api": "/wéleŋtɛ́lɔɣɔmàayîi/",
-      "phonetic_simple": "WÉ-lèng-dè-lo-gho-maa-YI-i",
-      "translation": "vendredi",
-      "example_sentence": "Tínaa ɓáa à wéleŋ.",
-      "example_phonetic": "/tínaa ɓáa à wéleŋ/",
-      "example_translation": "Demain, ce sera vendredi."
+      "term": "vìŋ́zìle",
+      "phonetic_api": "/vìŋ́zìle/",
+      "phonetic_simple": "VING-zi-lè",
+      "translation": "janvier (litt. mois du froid, début du défrichement des champs)",
+      "example_sentence": "Vìŋ́zìle ɓáa hɔ̀ɔ.",
+      "example_phonetic": "/vìŋ́zìle ɓáa hɔ̀ɔ/",
+      "example_translation": "Janvier est froid."
     },
     {
       "word_id": "v6",
-      "term": "wéleŋdɛlɔɠɔ̂",
-      "phonetic_api": "/wéleŋtɛ́lɔɣɔ̂/",
-      "phonetic_simple": "WÉ-lèng-dè-lo-ghô",
-      "translation": "samedi (jour des danses selon la coutume)",
-      "example_sentence": "wéleŋdɛlɔɠɔ̂",
-      "example_phonetic": "/wéleŋtɛ́lɔɣɔ̂/",
-      "example_translation": "samedi"
+      "term": "tàna",
+      "phonetic_api": "/tàna/",
+      "phonetic_simple": "TA-na",
+      "translation": "octobre (litt. mois de la récolte du riz)",
+      "example_sentence": "Tàna ɓáa ɓá kpàlei.",
+      "example_phonetic": "/tàna ɓáa ɓá kpàlei/",
+      "example_translation": "Octobre est le mois de la récolte du riz."
     },
     {
       "word_id": "v7",
-      "term": "gìlímàlɔɠɔ",
-      "phonetic_api": "/gìlímàlɔɣɔ/",
-      "phonetic_simple": "gi-li-ma-lo-gho",
-      "translation": "dimanche",
-      "example_sentence": "gìlímàlɔɠɔ",
-      "example_phonetic": "/gìlímàlɔɣɔ/",
-      "example_translation": "dimanche"
-    },
-    {
-      "word_id": "v8",
       "term": "lɛ́ɛlɛ",
       "phonetic_api": "/lɛ́ɛlɛ/",
       "phonetic_simple": "LÉ-è-lè",
@@ -97,319 +86,141 @@
       "example_translation": "J'ai passé deux heures là-bas."
     },
     {
-      "word_id": "v9",
-      "term": "lɔ́ɠɔ",
-      "phonetic_api": "/lɔ́ɣɔ/",
-      "phonetic_simple": "LO-gho",
-      "translation": "semaine",
-      "example_sentence": "Hìéhû.",
-      "example_phonetic": "/hìéhû/",
-      "example_translation": "Dans une semaine."
-    },
-    {
-      "word_id": "v10",
-      "term": "kèlěe",
-      "phonetic_api": "/kèlěe/",
-      "phonetic_simple": "kè-lè-e",
-      "translation": "aujourd'hui",
-      "example_sentence": "kèlěe",
-      "example_phonetic": "/kèlěe/",
-      "example_translation": "aujourd'hui"
-    },
-    {
-      "word_id": "v11",
-      "term": "wɛ́i",
-      "phonetic_api": "/wɛ́i/",
-      "phonetic_simple": "WÈ-i",
-      "translation": "hier",
-      "example_sentence": "wɛ́i",
-      "example_phonetic": "/wɛ́i/",
-      "example_translation": "hier"
-    },
-    {
-      "word_id": "v12",
-      "term": "tínaa",
-      "phonetic_api": "/tínaa/",
-      "phonetic_simple": "TI-naa",
-      "translation": "demain",
-      "example_sentence": "Tínaa ɓáa à wéleŋ.",
-      "example_phonetic": "/tínaa ɓáa à wéleŋ/",
-      "example_translation": "Demain, ce sera vendredi."
-    },
-    {
-      "word_id": "v13",
-      "term": "hwɛ̀lâaŋ",
-      "phonetic_api": "/hwɛ̀lâaŋ/",
-      "phonetic_simple": "HWÈ-lâang",
-      "translation": "avant-hier ; après-demain (selon le contexte)",
-      "example_sentence": "hwɛ̀lâaŋ",
-      "example_phonetic": "/hwɛ̀lâaŋ/",
-      "example_translation": "avant-hier / après-demain"
-    },
-    {
-      "word_id": "v14",
-      "term": "tàna",
-      "phonetic_api": "/tàna/",
-      "phonetic_simple": "ta-na",
-      "translation": "octobre (mois de récolte du riz, des orages réguliers et des pluies abondantes mais brèves)",
-      "example_sentence": "tàna",
-      "example_phonetic": "/tàna/",
-      "example_translation": "octobre"
+      "word_id": "v8",
+      "term": "hwólokɔ̂u",
+      "phonetic_api": "/hwólokɔ̂u/",
+      "phonetic_simple": "HWO-lo-kôou",
+      "translation": "soleil ardent, midi (litt. le soleil brûlant)",
+      "example_sentence": "Hwólokɔ̂u ɓáa pú.",
+      "example_phonetic": "/hwólokɔ̂u ɓáa pú/",
+      "example_translation": "Il est midi (le soleil est fort)."
     }
   ],
   "common_phrases": [
     {
       "phrase_id": "p1",
-      "original": "Lé yélê ?",
-      "phonetic_api": "/lé yélê/",
-      "phonetic_simple": "lé YÉ-lê ?",
-      "translation": "Quel jour ?",
-      "context": "Demander quand quelque chose s'est passé (par exemple, quand quelqu'un est arrivé)"
+      "original": "Táɠahwolô ɓáa lɔ́ɠɔkpalâŋ ɓɔ̀ɔ.",
+      "phonetic_api": "/táɠahwolô ɓáa lɔ́ɠɔkpalâŋ ɓɔ̀ɔ/",
+      "phonetic_simple": "TA-gua-wo-lô ba lo-ghô-kpa-LANG bo-o",
+      "translation": "Mercredi il y a le marché.",
+      "context": "Le mercredi est traditionnellement le jour du marché dans la région."
     },
     {
       "phrase_id": "p2",
-      "original": "Dì é káa è lé yéle ?",
-      "phonetic_api": "/dì é káa è lé yéle/",
-      "phonetic_simple": "di é kaa è lé YÉ-le ?",
-      "translation": "Quel jour es-tu né ? Quel est ton jour d'anniversaire ?",
-      "context": "Demander une date de naissance"
+      "original": "Wéleŋdɛlɔɠɔ̂ ɓáa mǎna hîŋ.",
+      "phonetic_api": "/wéleŋdɛlɔɠɔ̂ ɓáa mǎna hîŋ/",
+      "phonetic_simple": "WÉ-lèng-dè-lo-ghô ba MA-na hing",
+      "translation": "Samedi est le jour de la danse.",
+      "context": "Jour traditionnel des réjouissances et danses collectives."
     },
     {
       "phrase_id": "p3",
       "original": "Ŋé lɛ́ɛlɛ hwèelɛ́ kɛ́ làa.",
       "phonetic_api": "/ŋé lɛ́ɛlɛ hwèelɛ́ kɛ́ làa/",
-      "phonetic_simple": "ngé LÉ-è-lè HWÈ-è-lé ké laa",
+      "phonetic_simple": "ngé LÉ-è-lè HWÉ-è-lè ké LA-a",
       "translation": "J'ai passé deux heures là-bas.",
-      "context": "Décrire une durée en heures"
+      "context": "Phrase attestée dans le dictionnaire, utilisant lɛ́ɛlɛ (heure)."
     },
     {
       "phrase_id": "p4",
-      "original": "Kú lɔ́ kɛ̀â àbíjâŋ 21 heures lòwai yèlewílii ↓pɔ́.",
-      "phonetic_api": "/kú lɔ́ kɛ̀â àbíjâŋ 21 lòwai yèlewílii ↓pɔ́/",
-      "phonetic_simple": "kou LO kè-a a-bi-DJANG vingt-et-un lo-wai yè-lè-WI-li-i pó",
-      "translation": "Nous sommes arrivés à Abidjan à 21 heures.",
-      "context": "Préciser l'heure d'arrivée avec un nombre + lǒwai (à)"
+      "original": "Lɛ́ɛlɛ nɛ̀lɛ́ ɓé kɛ̀ɛ ?",
+      "phonetic_api": "/lɛ́ɛlɛ nɛ̀lɛ́ ɓé kɛ̀ɛ/",
+      "phonetic_simple": "LÉ-è-lè nè-LÈ bé kè-è",
+      "translation": "Quelle heure est-il ?",
+      "context": "Question construite avec l'interrogatif nɛ̀lɛ́ (quel) déjà vu en leçon 5."
     },
     {
       "phrase_id": "p5",
-      "original": "Hìéhû.",
-      "phonetic_api": "/hìéhû/",
-      "phonetic_simple": "hi-É-hû",
-      "translation": "Dans une semaine.",
-      "context": "Situer un événement futur"
-    },
-    {
-      "phrase_id": "p6",
-      "original": "Híê.",
-      "phonetic_api": "/híê/",
-      "phonetic_simple": "HI-ê",
-      "translation": "Il y a une semaine.",
-      "context": "Situer un événement passé"
-    },
-    {
-      "phrase_id": "p7",
-      "original": "Tínaa ɓáa à wéleŋ.",
-      "phonetic_api": "/tínaa ɓáa à wéleŋ/",
-      "phonetic_simple": "TI-naa BAA a WÉ-lèng",
-      "translation": "Demain, ce sera vendredi.",
-      "context": "Situer un jour de la semaine par rapport à demain"
-    },
-    {
-      "phrase_id": "p8",
-      "original": "Kèlěe.",
-      "phonetic_api": "/kèlěe/",
-      "phonetic_simple": "kè-lè-e",
-      "translation": "Aujourd'hui.",
-      "context": "Réponse courte à « quel jour sommes-nous ? »"
+      "original": "Tàna ɓáa ɓá kpàlei.",
+      "phonetic_api": "/tàna ɓáa ɓá kpàlei/",
+      "phonetic_simple": "TA-na ba ba KPA-lè-i",
+      "translation": "Octobre est le mois de la récolte du riz.",
+      "context": "Référence au calendrier agricole traditionnel guerzé."
     }
   ],
   "grammar_points": [
     {
-      "concept": "Les sept jours de la semaine et leur origine culturelle",
-      "explanation": "Contrairement au français, plusieurs noms de jours kpele décrivent directement leur fonction sociale ou rituelle plutôt qu'un nom de divinité ou de planète.",
+      "concept": "Les noms de jours et de mois comme composés motivés",
+      "explanation": "Les jours de la semaine et les mois en guerzé ne sont pas des emprunts (contrairement au français dérivé du latin) : ce sont des composés nominaux qui décrivent une activité sociale ou un phénomène naturel associé à cette période (jour du marché, mois de la récolte du riz, mois du froid...).",
       "rules": [
-        "tɛ̀lɛ̂ŋ (lundi) = jour des fêtes, funérailles, baptêmes.",
-        "tɛ̀lɛ́ŋgùláaɲɛ̀ (mardi) = litt. « après-lundi ».",
-        "táɠahwolô (mercredi) = jour du marché.",
-        "dìelɔɠɔ (jeudi) = jour où l'on fixe la date des grandes fêtes.",
-        "wéleŋdɛlɔɠɔ̂ (samedi) = jour des danses."
+        "táɠahwolô (mercredi) = jour + marché : jour où se tient le marché.",
+        "tàna (octobre) est motivé par la récolte du riz qui a lieu à cette période.",
+        "Ce principe de nomination reflète le calendrier agricole traditionnel de la Guinée forestière."
       ],
       "examples": [
         {
-          "structure": "tɛ̀lɛ̂ŋ → tɛ̀lɛ́ŋgùláaɲɛ̀",
-          "phonetic_api": "/tɛ̀lɛ̂ŋ/ → /tɛ̀lɛ́ŋgùláaɲɛ̀/",
-          "meaning": "lundi → mardi (litt. « après-lundi »)"
-        }
-      ]
-    },
-    {
-      "concept": "Les douze mois du calendrier agricole kpele",
-      "explanation": "Chaque mois porte un nom lié aux activités agricoles ou au climat, hérité d'un calendrier traditionnel centré sur la riziculture.",
-      "rules": [
-        "vìŋ́zìle (janvier) = mois du froid, début du défrichement des champs.",
-        "vìŋ́zàa (février) = mois du début de la chaleur.",
-        "hwáɠaŋ (mars) = mois de la grande chaleur, on abat des arbres.",
-        "tɛ́liŋ (avril) = mois où on nettoie le champ après abattage.",
-        "gébekpo (mai) = mois du début des labours des champs de riz.",
-        "ɓɛ́lɛpowawùo (juin) = dernier mois de labour.",
-        "gbólìelie (juillet) = mois de désherbage.",
-        "kùloŋ (août) = mois froid, désherbage, période de famine.",
-        "yɛ̀ɠɛ́yɛ̀ɠɛ (septembre) = dernier mois de famine, début de la récolte.",
-        "tàna (octobre) = mois de récolte du riz, orages réguliers.",
-        "hàaɓɛ́la↓pɔ́lɛɛ (novembre) = il ne pleut plus, mais le sol reste humide.",
-        "pɔ́lɔ↓kpála (décembre) = premier mois de la saison sèche."
-      ],
-      "examples": [
-        {
-          "structure": "gébekpo (mai)",
-          "phonetic_api": "/gébekpo/",
-          "meaning": "mois du début des labours des champs de riz"
-        }
-      ]
-    },
-    {
-      "concept": "Aujourd'hui, hier, demain : kèlěe, wɛ́i, tínaa",
-      "explanation": "Ces trois adverbes de temps sont invariables et se placent librement dans la phrase, souvent en tête ou en fin d'énoncé.",
-      "rules": [
-        "kèlěe = aujourd'hui (dans le dialecte central) ; hâa peut aussi signifier « aujourd'hui » dans le dialecte du sud, mais désigne surtout « hier soir » ailleurs.",
-        "wɛ́i = hier.",
-        "tínaa = demain.",
-        "hwɛ̀lâaŋ = avant-hier OU après-demain, selon le contexte de la phrase."
-      ],
-      "examples": [
-        {
-          "structure": "kèlěe / wɛ́i / tínaa",
-          "phonetic_api": "/kèlěe/ /wɛ́i/ /tínaa/",
-          "meaning": "aujourd'hui / hier / demain"
-        }
-      ]
-    },
-    {
-      "concept": "Dire l'heure avec lǒwai",
-      "explanation": "Pour situer un événement à une heure précise, le kpele place le nombre d'heures suivi de lǒwai (à, l'équivalent d'« à » devant une heure), parfois précisé par un moment de la journée comme yèlewílii pɔ́ (le soir).",
-      "rules": [
-        "[nombre] + lǒwai = à [nombre] heures.",
-        "On peut préciser le moment de la journée en ajoutant yèlewílii pɔ́ (le soir) après lǒwai.",
-        "Exemple : 21 heures lòwai yèlewílii pɔ́ = à 21 heures, le soir."
-      ],
-      "examples": [
-        {
-          "structure": "21 heures lòwai yèlewílii pɔ́",
-          "phonetic_api": "/21 lòwai yèlewílii ↓pɔ́/",
-          "meaning": "à 21 heures, le soir"
+          "structure": "[jour/mois] motivé par une activité",
+          "phonetic_api": "/táɠahwolô, tàna/",
+          "meaning": "mercredi (jour du marché), octobre (mois de la récolte)"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Personne A",
-      "text": "Lé yélê ?",
-      "phonetic_api": "/lé yélê/",
-      "phonetic_simple": "lé YÉ-lê ?",
-      "translation": "Quel jour sommes-nous ?"
+      "speaker": "Hehee",
+      "text": "Lɛ́ɛlɛ nɛ̀lɛ́ ɓé kɛ̀ɛ ?",
+      "phonetic_api": "/lɛ́ɛlɛ nɛ̀lɛ́ ɓé kɛ̀ɛ/",
+      "phonetic_simple": "LÉ-è-lè nè-LÈ bé kè-è",
+      "translation": "Quelle heure est-il ?"
     },
     {
-      "speaker": "Personne B",
-      "text": "Kèlěe táɠahwolô.",
-      "phonetic_api": "/kèlěe táɣahwolô/",
-      "phonetic_simple": "kè-lè-e TA-gha-hwo-lô",
-      "translation": "Aujourd'hui, c'est mercredi."
+      "speaker": "Pépé",
+      "text": "Hwólokɔ̂u ɓáa pú.",
+      "phonetic_api": "/hwólokɔ̂u ɓáa pú/",
+      "phonetic_simple": "HWO-lo-kôou ba POU",
+      "translation": "Il est midi."
     },
     {
-      "speaker": "Personne A",
-      "text": "Tínaa ɓáa à wéleŋ ?",
-      "phonetic_api": "/tínaa ɓáa à wéleŋ/",
-      "phonetic_simple": "TI-naa BAA a WÉ-lèng ?",
-      "translation": "Demain, ce sera vendredi ?"
+      "speaker": "Hehee",
+      "text": "Táɠahwolô ɓáa lɔ́ɠɔkpalâŋ ɓɔ̀ɔ ?",
+      "phonetic_api": "/táɠahwolô ɓáa lɔ́ɠɔkpalâŋ ɓɔ̀ɔ/",
+      "phonetic_simple": "TA-gua-wo-lô ba lo-ghô-kpa-LANG bo-o",
+      "translation": "Est-ce que mercredi il y a le marché ?"
     },
     {
-      "speaker": "Personne B",
-      "text": "Ŋàá mɛ̌ŋ, tínaa ɓáa à wéleŋ.",
-      "phonetic_api": "/ŋàá mɛ̌ŋ tínaa ɓáa à wéleŋ/",
-      "phonetic_simple": "nga-a MENG, TI-naa BAA a WÉ-lèng",
-      "translation": "J'ai compris, demain ce sera vendredi."
-    },
-    {
-      "speaker": "Personne A",
-      "text": "Kú lɔ́ kɛ̀â àbíjâŋ 21 heures lòwai yèlewílii ↓pɔ́.",
-      "phonetic_api": "/kú lɔ́ kɛ̀â àbíjâŋ 21 lòwai yèlewílii ↓pɔ́/",
-      "phonetic_simple": "kou LO kè-a a-bi-DJANG vingt-et-un lo-wai yè-lè-WI-li-i pó",
-      "translation": "Nous sommes arrivés à Abidjan à 21 heures."
-    },
-    {
-      "speaker": "Personne B",
-      "text": "Máma, mɛ́niê !",
-      "phonetic_api": "/máma mɛ́niê/",
-      "phonetic_simple": "MA-ma MÉ-ni-Ê",
-      "translation": "Merci, mon ami !"
+      "speaker": "Pépé",
+      "text": "Òowɛi, táɠahwolô ɓáa lɔ́ɠɔkpalâŋ.",
+      "phonetic_api": "/òowɛi táɠahwolô ɓáa lɔ́ɠɔkpalâŋ/",
+      "phonetic_simple": "o-wè-i TA-gua-wo-lô ba lo-ghô-kpa-LANG",
+      "translation": "Oui, mercredi il y a le marché."
     }
   ],
   "cultural_notes": [
-    "Les noms des jours reflètent la vie sociale traditionnelle du village : lundi pour les grandes cérémonies, mercredi pour le marché, jeudi pour fixer les dates des fêtes à venir, samedi pour les danses.",
-    "Le calendrier des douze mois est entièrement agricole et rythmé par le cycle du riz : labours en mai-juin, désherbage en juillet-août, récolte en octobre, saison sèche à partir de décembre.",
-    "Le dictionnaire note que hâa peut signifier « aujourd'hui » dans le dialecte du sud (Yomou) alors qu'il signifie « hier soir » dans le dialecte central de référence — un bon rappel que les variantes régionales du kpele restent importantes."
+    "Les sept jours de la semaine guerzé sont tous nommés d'après une fonction sociale précise : lundi (fêtes/funérailles/baptêmes), mardi, mercredi (marché), jeudi (fixation de la date des grandes fêtes), vendredi, samedi (danses) et dimanche (Konoshenko 2019).",
+    "Le calendrier traditionnel guerzé comporte douze mois nommés d'après les travaux agricoles (labour, désherbage, récolte du riz) et les phénomènes climatiques (froid, grande chaleur, saison sèche), reflétant l'importance de la riziculture dans la culture kpèlè."
   ],
   "exercises": [
     {
       "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel jour est associé au marché ?",
+      "question": "Que signifie littéralement táɠahwolô (mercredi) ?",
       "options": [
-        "tɛ̀lɛ̂ŋ (lundi)",
-        "táɠahwolô (mercredi)",
-        "dìelɔɠɔ (jeudi)",
-        "gìlímàlɔɠɔ (dimanche)"
+        "Jour du marché",
+        "Jour des danses",
+        "Jour des funérailles"
       ],
-      "correct_answer": "táɠahwolô (mercredi)",
-      "explanation": "táɠahwolô (mercredi) est décrit dans le dictionnaire comme le jour du marché."
+      "correct_answer": "Jour du marché",
+      "explanation": "táɠahwolô est un composé signifiant « jour du marché » (Konoshenko 2019)."
     },
     {
       "exercise_id": "ex2",
-      "type": "multiple_choice",
-      "question": "Que signifie littéralement tɛ̀lɛ́ŋgùláaɲɛ̀ (mardi) ?",
-      "options": [
-        "Jour du marché",
-        "Après-lundi",
-        "Jour des danses",
-        "Avant-jeudi"
-      ],
-      "correct_answer": "Après-lundi",
-      "explanation": "tɛ̀lɛ́ŋgùláaɲɛ̀ se construit directement sur tɛ̀lɛ̂ŋ (lundi) pour signifier « après-lundi »."
-    },
-    {
-      "exercise_id": "ex3",
-      "type": "multiple_choice",
-      "question": "Quel mois correspond à tàna, mois de récolte du riz ?",
-      "options": [
-        "Mai",
-        "Août",
-        "Octobre",
-        "Décembre"
-      ],
-      "correct_answer": "Octobre",
-      "explanation": "tàna est le mois de la récolte du riz, marqué par des orages réguliers."
-    },
-    {
-      "exercise_id": "ex4",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "« Aujourd'hui » se dit [ ___ ] dans le dialecte central.",
-      "correct_answer": "kèlěe",
-      "hint": "Attention : hâa signifie autre chose dans ce dialecte."
-    },
-    {
-      "exercise_id": "ex5",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Pour dire « à 21 heures », on place le nombre suivi de [ ___ ].",
-      "correct_answer": "lǒwai",
-      "hint": "C'est le même mot qui signifie aussi « distance, différence »."
-    },
-    {
-      "exercise_id": "ex6",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "hwɛ̀lâaŋ peut signifier « avant-hier » ou « [ ___ ] », selon le contexte.",
-      "correct_answer": "après-demain",
-      "hint": "Un seul mot kpele couvre ces deux sens opposés en français."
+      "sentence_with_blank": "Ŋé [ ___ ] hwèelɛ́ kɛ́ làa. (J'ai passé deux heures là-bas.)",
+      "correct_answer": "lɛ́ɛlɛ",
+      "hint": "C'est le mot pour « heure »."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Konoshenko, M. (2019). Dictionnaire kpele de la Guinée (guerzé) – français. Mandenkan 62.",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan62/62konoshenko.pdf"
+    },
+    {
+      "label": "Wikipédia — Kpèllé (langue) / Guerzé",
+      "url": "https://fr.wikipedia.org/wiki/Guerze"
+    }
+  ],
+  "confidence": "élevée",
+  "confidence_note": "Les sept jours de la semaine et les douze mois traditionnels ainsi que le mot pour « heure » (lɛ́ɛlɛ) et sa phrase d'exemple sont tous directement attestés dans le dictionnaire Konoshenko (2019). Aucun système horaire décimal (minutes/secondes) n'étant décrit dans la source, seules les expressions attestées de moment de la journée sont utilisées."
 }

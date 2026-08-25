@@ -1,210 +1,268 @@
 {
-  "lesson_id": "C2_M3_L8",
+  "lesson_id": "C1_M3_L8",
   "level": "Avancé (C1-C2)",
   "module_number": 3,
   "module_title": "Maîtrise totale",
   "lesson_number": 8,
   "title": "Le lexique technique, professionnel et spécialisé",
   "learning_objectives": [
-    "Manipuler le vocabulaire spécialisé de la gestion de projets, des technologies et des métiers modernes",
-    "Formuler des rapports d'activité techniques en utilisant les structures de la planification et de l'évaluation",
-    "Exprimer l'expertise, les compétences spécifiques et les termes managériaux en langue Sankaran"
+    "Nommer les métiers traditionnels et spécialisés en maninka",
+    "Comprendre le vocabulaire du corps de métier (forgeron, tisserand, chasseur)",
+    "Utiliser le vocabulaire médical de base pour décrire un symptôme",
+    "Distinguer les emprunts techniques modernes (français) intégrés au maninka"
   ],
   "phonetic_focus": {
-    "key_sounds": "Le lexique technique requiert une grande clarté syllabique. Le terme pour désigner l'expertise ou le savoir-faire 'Lɔnbaliya' /lɔn.ba.li.ja/ ou 'Lɔnko' exige un enchaînement fluide du /ɔ/ ouvert. Le concept de planification 'Ladan-silo' /la.dan.si.lo/ mobilise des voyelles brèves suivies d'une structure fermée en fin de mot.",
-    "common_pitfalls": "Veillez à ne pas assimiler le groupe consonantique complexe du néologisme ou des termes composés. Prononcez le 'n' de 'Lɔnko' (science/expertise) de manière nette et alvéolaire, sans le nasaliser à la manière d'un 'on' français."
+    "key_sounds": [
+      "Le suffixe agentif '-la/-kèla' (celui qui fait), très productif pour former des noms de métier",
+      "Le [ŋ] final de 'siyaki' (tisserand), à articuler distinctement",
+      "L'adaptation phonétique des emprunts techniques au français ('dootoro' pour docteur)"
+    ],
+    "common_pitfalls": [
+      "Oublier que de nombreux noms de métiers se construisent par dérivation (racine + '-la'/'-kèla') plutôt que d'être des mots simples isolés",
+      "Prononcer les emprunts au français ('dootoro', 'mobili') avec une phonologie trop française, alors qu'ils sont intégrés au système phonologique maninka"
+    ]
   },
   "vocabulary": [
     {
-      "word_id": "v26_1",
-      "term": "Lɔnko",
-      "phonetic_api": "/lɔn.ko/",
-      "phonetic_simple": "LƆNE-KO",
-      "translation": "Science / Expertise / Compétence technique / Technologie",
-      "example_sentence": "Lɔnko kura nin mu dugu tɔnɔ di.",
-      "example_phonetic": "/lɔn.ko ku.ra nin mu du.ɣu tɔ.nɔ di/",
-      "example_translation": "Cette nouvelle technologie constitue un profit pour la communauté."
+      "word_id": "v1",
+      "term": "numuu",
+      "phonetic_api": "[numuː]",
+      "phonetic_simple": "nou-mou",
+      "translation": "forgeron",
+      "example_sentence": "Numuu le, a bɛ nɛgɛ tigɛ.",
+      "example_phonetic": "[numuː le a bɛ nɛɡɛ tiɡɛ]",
+      "example_translation": "C'est un forgeron, il travaille le fer."
     },
     {
-      "word_id": "v26_2",
-      "term": "Ladan-silo",
-      "phonetic_api": "/la.dan.si.lo/",
-      "phonetic_simple": "LA-DANE-SI-LO",
-      "translation": "Planification / Plan d'action / Schéma directeur technique",
-      "example_sentence": "An na baara ladan-silo tilara.",
-      "example_phonetic": "/an na baː.ra la.dan.si.lo ti.la.ra/",
-      "example_translation": "La planification de notre projet est achevée."
+      "word_id": "v2",
+      "term": "siyaki",
+      "phonetic_api": "[sijaki]",
+      "phonetic_simple": "si-ya-ki",
+      "translation": "tisserand",
+      "example_sentence": "Siyaki le, a bɛ fani nu.",
+      "example_phonetic": "[sijaki le a bɛ fani nu]",
+      "example_translation": "C'est un tisserand, il tisse des habits."
     },
     {
-      "word_id": "v26_3",
-      "term": "Jateminɛ",
-      "phonetic_api": "/d͡ʒa.te.mi.nɛ/",
-      "phonetic_simple": "DJA-TÉ-MI-NƐ",
-      "translation": "Comptabilité / Audit / Évaluation budgétaire / Gestion financière",
-      "example_sentence": "Jateminɛ kani kɛ kɛndɛya la.",
-      "example_phonetic": "/d͡ʒa.te.mi.nɛ ka.ni kɛ kɛn.dɛ.ja la/",
-      "example_translation": "L'évaluation budgétaire doit être faite en toute transparence."
+      "word_id": "v3",
+      "term": "donso",
+      "phonetic_api": "[donso]",
+      "phonetic_simple": "don-so",
+      "translation": "chasseur",
+      "example_sentence": "Donso le, a bɛ wula kɔnɔ.",
+      "example_phonetic": "[donso le a bɛ wula kɔnɔ]",
+      "example_translation": "C'est un chasseur, il va dans la brousse."
     },
     {
-      "word_id": "v26_4",
-      "term": "Baarakuntigi",
-      "phonetic_api": "/baː.ra.kun.ti.ɣi/",
-      "phonetic_simple": "BAA-RA-KOUNE-TI-GI",
-      "translation": "Directeur de projet / Manager / Chef des opérations",
-      "example_sentence": "Baarakuntigi ye ladilikan ba di an ma.",
-      "example_phonetic": "/baː.ra.kun.ti.ɣi d͡ʒe la.di.li.kan ba di an ma/",
-      "example_translation": "Le directeur de projet nous a donné une recommandation majeure."
+      "word_id": "v4",
+      "term": "dootoro",
+      "phonetic_api": "[doːtoro]",
+      "phonetic_simple": "do-o-to-ro",
+      "translation": "médecin, docteur (emprunt au français)",
+      "example_sentence": "N tɛ se ka taa dootoro fɛ.",
+      "example_phonetic": "[n tɛ se ka taː doːtoro fɛ]",
+      "example_translation": "Je ne peux pas aller chez le docteur."
     },
     {
-      "word_id": "v26_5",
-      "term": "Kunlatigɛ",
-      "phonetic_api": "/kun.la.ti.ɣɛ/",
-      "phonetic_simple": "KOUNE-LA-TI-GƐ",
-      "translation": "Objectif stratégique / But final / Résolution technique",
-      "example_sentence": "An na kunlatigɛ sɔrɔra bi.",
-      "example_phonetic": "/an na kun.la.ti.ɣɛ sɔ.rɔ.ra bi/",
-      "example_translation": "Notre objectif stratégique a été atteint aujourd'hui."
+      "word_id": "v5",
+      "term": "somono",
+      "phonetic_api": "[somono]",
+      "phonetic_simple": "so-mo-no",
+      "translation": "pêcheur",
+      "example_sentence": "Somono le, a bɛ jɛgɛ min.",
+      "example_phonetic": "[somono le a bɛ dʒɛɡɛ min]",
+      "example_translation": "C'est un pêcheur, il attrape des poissons."
     },
     {
-      "word_id": "v26_6",
-      "term": "Wari-silo",
-      "phonetic_api": "/wa.ri.si.lo/",
-      "phonetic_simple": "WA-RI-SI-LO",
-      "translation": "Ligne budgétaire / Financement / Ressource économique",
-      "example_sentence": "Wari-silo nin gbɛlɛyara dɔːni.",
-      "example_phonetic": "/wa.ri.si.lo nin ɡ͡bɛ.lɛ.ja.ra dɔːni/",
-      "example_translation": "Cette ligne budgétaire s'est un peu compliquée."
+      "word_id": "v6",
+      "term": "mori(mou)",
+      "phonetic_api": "[mori]",
+      "phonetic_simple": "mo-ri",
+      "translation": "lettré/maître coranique",
+      "example_sentence": "Mori le, a bɛ Kuru kalan.",
+      "example_phonetic": "[mori le a bɛ kuru kalan]",
+      "example_translation": "C'est un lettré, il enseigne le Coran."
     },
     {
-      "word_id": "v26_7",
-      "term": "Sebenya",
-      "phonetic_api": "/se.ben.ja/",
-      "phonetic_simple": "SÉ-BÈNE-YA",
-      "translation": "Efficacité / Rendement / Capacité d'exécution professionnelle",
-      "example_sentence": "Baarakɛla lu na sebenya ka bon.",
-      "example_phonetic": "/baː.ra.kɛ.la lu na se.ben.ja ka bon/",
-      "example_translation": "Le rendement des travailleurs est élevé (grand)."
+      "word_id": "v7",
+      "term": "karanke",
+      "phonetic_api": "[karanke]",
+      "phonetic_simple": "ka-ran-ké",
+      "translation": "cordonnier",
+      "example_sentence": "Karanke le, a bɛ sabara dila.",
+      "example_phonetic": "[karanke le a bɛ sabara dila]",
+      "example_translation": "C'est un cordonnier, il fabrique des sandales."
     },
     {
-      "word_id": "v26_8",
-      "term": "Baaramana",
-      "phonetic_api": "/baː.ra.ma.na/",
-      "phonetic_simple": "BAA-RA-MA-NA",
-      "translation": "Rapport d'activité / Compte-rendu technique / Bilan de mission",
-      "example_sentence": "N ye baaramana sɛbɛ kunu su la.",
-      "example_phonetic": "/ɲ d͡ʒe baː.ra.ma.na sɛ.bɛ ku.nu su la/",
-      "example_translation": "J'ai rédigé le rapport d'activité hier soir."
+      "word_id": "v8",
+      "term": "kunatɔɔ (mal de tête)",
+      "phonetic_api": "[kunatɔː]",
+      "phonetic_simple": "kou-na-to-o",
+      "translation": "mal de tête (litt. 'tête cassée/malade')",
+      "example_sentence": "N kunatɔɔ bɛ n na.",
+      "example_phonetic": "[n kunatɔː bɛ n na]",
+      "example_translation": "J'ai mal à la tête."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p26_1",
-      "original": "N na hakilojagbɛ fɛ, baara ladan-silo kani kɛ fɔlɔ sani wari-silo ka bɔ.",
-      "phonetic_api": "/_ɲ na ha.ki.lo.d͡ʒa.ɡ͡bɛ fɛ baː.ra la.dan.si.lo ka.ni kɛ fɔ.lɔ sa.ni wa.ri.si.lo ka bɔ/",
-      "phonetic_simple": "N NA HA-KI-LO-DJA-GBƐ FƐ, BAA-RA LA-DANE-SI-LO KA-NI KƐ FƆ-LƆ SA-NI WA-RI-SI-LO KA BƆ.",
-      "translation": "Selon mon point de vue, la planification du projet doit être impérativement réalisée avant que la ligne budgétaire ne soit débloquée.",
-      "context": "Déclaration technique lors d'une réunion de cadrage ou de pilotage opérationnel."
+      "phrase_id": "p1",
+      "original": "Numuu le, a bɛ nɛgɛ tigɛ",
+      "phonetic_api": "[numuː le a bɛ nɛɡɛ tiɡɛ]",
+      "phonetic_simple": "nou-mou-lé, a-bè-nè-guè-ti-guè",
+      "translation": "C'est un forgeron, il travaille le fer",
+      "context": "Décrire un métier traditionnel"
     },
     {
-      "phrase_id": "p26_2",
-      "original": "Baarakuntigi ye jateminɛ lafasa, katuguni sebenya mu an na kunlatigɛ di.",
-      "phonetic_api": "/baː.ra.kun.ti.ɣi d͡ʒe d͡ʒa.te.mi.nɛ la.fa.sa ka.tu.ɣu.ni se.ben.ja mu an na kun.la.ti.ɣɛ di/",
-      "phonetic_simple": "BAA-RA-KOUNE-TI-GI YÉ DJA-TÉ-MI-NƐ LA-FA-SA, KA-TOU-GOU-NI SÉ-BÈNE-YA MOU ANE NA KOUNE-LA-TI-GƐ DI.",
-      "translation": "Le directeur de projet a défendu l'évaluation budgétaire, car le rendement constitue notre objectif stratégique.",
-      "context": "Analyse managériale de haut niveau décrivant l'articulation entre budget et efficacité."
+      "phrase_id": "p2",
+      "original": "N tɛ se ka taa dootoro fɛ",
+      "phonetic_api": "[n tɛ se ka taː doːtoro fɛ]",
+      "phonetic_simple": "n-tè-sé-ka-ta-a-do-o-to-ro-fè",
+      "translation": "Je ne peux pas aller chez le docteur",
+      "context": "Empêchement exprimé dans un contexte médical/professionnel"
     },
     {
-      "phrase_id": "p26_3",
-      "original": "Labanyala, baaramana nin ye a yira ko lɔnko kura nin ye tɔnɔ ba di an ma.",
-      "phonetic_api": "/la.ba.nja la baː.ra.ma.na nin d͡ʒe a ji.ra ko lɔn.ko ku.ra nin d͡ʒe tɔ.nɔ ba di an ma/",
-      "phonetic_simple": "LA-BA-NYA LA, BAA-RA-MA-NA NINE YÉ A YI-RA KO LƆNE-KO KOU-RA NINE YÉ TƆ-NƆ BA DI ANE MA.",
-      "translation": "En conclusion, ce rapport d'activité démontre que cette nouvelle technologie nous a apporté un grand bénéfice.",
-      "context": "Clôture d'une présentation ou d'un rapport technique de fin de mission."
+      "phrase_id": "p3",
+      "original": "N kunatɔɔ bɛ n na",
+      "phonetic_api": "[n kunatɔː bɛ n na]",
+      "phonetic_simple": "n-kou-na-to-o-bè-n-na",
+      "translation": "J'ai mal à la tête",
+      "context": "Décrire un symptôme au médecin"
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Mafèlèli sara, wa lolu le",
+      "phonetic_api": "[mafɛlɛli sara wa lolu le]",
+      "phonetic_simple": "ma-fè-lè-li-sa-ra, wa-lo-lou-lé",
+      "translation": "La consultation coûte 5 000",
+      "context": "Contexte médical professionnel (prix d'une consultation)"
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Somono le, a bɛ jɛgɛ min",
+      "phonetic_api": "[somono le a bɛ dʒɛɡɛ min]",
+      "phonetic_simple": "so-mo-no-lé, a-bè-djè-guè-min",
+      "translation": "C'est un pêcheur, il attrape des poissons",
+      "context": "Décrire une profession spécialisée liée à l'eau"
     }
   ],
   "grammar_points": [
     {
-      "concept": "La création de néologismes professionnels par juxtaposition de termes directifs ('Ladan-silo')",
-      "explanation": "Pour désigner des réalités managériales et institutionnelles modernes au niveau avancé, le Sankaran recourt de façon systémique à la composition nominale : le verbe d'ordonnancement 'ladan' (mettre en ordre / préparer) s'unit au substantif 'silo' (chemin / règle) pour forger le terme technique de 'planification' ou 'schéma directeur'.",
+      "concept": "La dérivation agentive des noms de métier",
+      "explanation": "De nombreux noms de métiers en maninka se forment par composition d'une racine (souvent l'objet ou l'activité du métier) avec un suffixe agentif comme '-la' ou '-kèla' (celui qui fait), ex. 'sènè' (champ/culture) + '-kèla' = 'sènèkèla' (cultivateur).",
       "rules": [
-        "Structure : [Verbe d'action de base] + [Substantif d'orientation (silo / kuntigi / mana)]"
+        "Structure : [Racine liée au métier] + -la/-kèla = [Nom de métier]",
+        "Certains métiers ont cependant un nom simple, non dérivé (numuu, donso, mori)"
       ],
       "examples": [
         {
-          "structure": "Wari-silo",
-          "phonetic_api": "/wa.ri.si.lo/",
-          "meaning": "Ligne budgétaire / Cheminement financier"
+          "structure": "[Racine]-kèla",
+          "phonetic_api": "[-kɛla]",
+          "meaning": "celui qui fait [racine]"
         }
       ]
     },
     {
-      "concept": "L'encapsulation de l'évaluation professionnelle par le suffixe d'état '-nya'",
-      "explanation": "Le suffixe dérivationnel '-nya' est utilisé en contexte professionnel avancé pour transformer un verbe ou un adjectif opérationnel en une métrique d'évaluation qualitative abstraite (ex: 'se' = pouvoir/réussir -> 'sebenya' = efficacité / capacité de rendement au travail).",
+      "concept": "Décrire un symptôme avec '[Partie du corps] + tɔɔ/tɔɔrɔ + bɛ + [Personne] + na'",
+      "explanation": "Pour indiquer une douleur ou un symptôme localisé, le maninka combine la partie du corps avec un terme de douleur, suivi de la structure '[symptôme] bɛ [personne] na' (le symptôme est sur/chez la personne).",
       "rules": [
-        "Structure : [Verbe d'action ou capacité] + nya"
+        "Structure : [Partie du corps + douleur] + bɛ + [Personne] + na",
+        "Utilisé couramment dans les consultations médicales"
       ],
       "examples": [
         {
-          "structure": "Lɔnbyanya",
-          "phonetic_api": "/lɔn.bjan.ja/",
-          "meaning": "L'expertise avérée / Le niveau de compétence technique"
+          "structure": "[Symptôme] bɛ [Personne] na",
+          "phonetic_api": "[bɛ na]",
+          "meaning": "[Personne] a [symptôme]"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Baarakuntigi (Manager)",
-      "text": "Lamine, i ni wura. Baaramana kura nin mu n na hami di sisan. Jateminɛ tilara kɛndɛya la bang?",
-      "phonetic_api": "/la.min i ni wu.ra | baː.ra.ma.na ku.ra nin mu ɲ na ha.mi di si.san | d͡ʒa.te.mi.nɛ ti.la.ra kɛn.dɛ.ja la baŋ/",
-      "phonetic_simple": "LA-MINE, I NI MOU-RA. BAA-RA-MA-NA KOU-RA NINE MOU N NA HA-MI DI SI-SANE. DJA-TÉ-MI-NƐ TI-LA-RA GBƐ-LƐ-YA LA BANGE ?",
-      "translation": "Lamine, bonsoir. Ce nouveau rapport d'activité est ma préoccupation majeure actuellement. L'évaluation budgétaire s'est-elle achevée de façon transparente ?"
+      "speaker": "Le patient",
+      "text": "Dootoro, n kunatɔɔ bɛ n na kosobè.",
+      "phonetic_api": "[doːtoro n kunatɔː bɛ n na kosobɛ]",
+      "phonetic_simple": "do-o-to-ro, n-kou-na-to-o-bè-n-na-ko-so-bè",
+      "translation": "Docteur, j'ai très mal à la tête."
     },
     {
-      "speaker": "Lamine (Expert)",
-      "text": "Awo n kuntigi. Fɔlɔfɔlɔ la, an na baara ladan-silo ye a yira ko wari-silo tora a yɔrɔ la. Sebenya sɔrɔra jateminɛ nin kɔnɔ.",
-      "phonetic_api": "/a.wo ɲ kun.ti.ɣi | fɔ.lɔ.fɔ.lɔ la an na baː.ra la.dan.si.lo d͡ʒe a ji.ra ko wa.ri.si.lo to.ra a jɔ.rɔ la | se.ben.ja sɔ.rɔ.ra d͡ʒa.te.mi.nɛ nin kɔ.nɔ/",
-      "phonetic_simple": "A-WO N KOUNE-TI-GI. FƆ-LƆ-FƆ-LƆ LA, ANE NA BAA-RA LA-DANE-SI-LO YÉ A YI-RA KO WA-RI-SI-LO TO-RA A YƆ-RƆ LA. SÉ-BÈNE-YA SƆ-RƆ-RA DJA-TÉ-MI-NƐ NINE KƆ-NƆ.",
-      "translation": "Oui mon chef. Tout d'abord, notre planification de projet a démontré que la ligne budgétaire est restée intacte à sa place. Un excellent rendement a été constaté au sein de cet audit."
+      "speaker": "Le docteur (dootoro)",
+      "text": "A bɛnna kabini tuma jumɛn ?",
+      "phonetic_api": "[a bɛnna kabini tuma dʒumɛn]",
+      "phonetic_simple": "a-bèn-na-ka-bi-ni-tou-ma-dju-mèn",
+      "translation": "Depuis quand as-tu cela ?"
     },
     {
-      "speaker": "Baarakuntigi (Manager)",
-      "text": "O ka fisa jaati ! Lɔnko kura nin ye an bali na ka wari ba tɔgɔ fɛ feere bang? Kunlatigɛ kani sɔrɔ na.",
-      "phonetic_api": "/o ka fi.sa d͡ʒaː.ti | lɔn.ko ku.ra nin d͡ʒe an ba.li na ka wa.ri ba tɔ.ɣu fɛ feː.re baŋ | kun.la.ti.ɣɛ ka.ni sɔ.rɔ na/",
-      "phonetic_simple": "O KA FI-SA DJAA-TI ! LƆNE-KO KOU-RA NINE YÉ ANE BA-LI NA KA WA-RI BA TƆ-GƆ FƐ FEE-RÉ BANGE ? KOUNE-LA-TI-GƐ KA-NI SƆ-RƆ NA.",
-      "translation": "C'est parfait assurément ! Cette nouvelle technologie nous a-t-elle évité de gaspiller (perdre) d'importantes ressources financières ? Notre objectif stratégique doit impérativement être atteint."
+      "speaker": "Le patient",
+      "text": "Kabini kunun. Mafèlèli sara di ?",
+      "phonetic_api": "[kabini kunun mafɛlɛli sara di]",
+      "phonetic_simple": "ka-bi-ni-kou-noun. ma-fè-lè-li-sa-ra-di",
+      "translation": "Depuis hier. La consultation coûte combien ?"
     },
     {
-      "speaker": "Lamine (Expert)",
-      "text": "Awo, katuguni an na lɔnko kura ye baarakɛla lu dɔgɔya baara la, o le yɛ kunlatigɛ sɔrɔra labanyala kɛndɛya la.",
-      "phonetic_api": "/a.wo ka.tu.ɣu.ni an na lɔn.ko ku.ra d͡ʒe baː.ra.kɛ.la lu dɔ.ɣɔ.ja baː.ra la o le jɛ kun.la.ti.ɣɛ sɔ.rɔ.ra la.ba.nja la kɛn.dɛ.ja la/",
-      "phonetic_simple": "A-WO, KA-TOU-GOU-NI ANE NA LƆNE-KO KOU-RA YÉ BAA-RA-KƐ-LA LOU DƆ-GƆ-YA BAA-RA LA, O LÉ YƐ KOUNE-LA-TI-GƐ SƆ-RƆ-RA LA-BA-NYA LA KƐN.DƐ.JA LA.",
-      "translation": "Tout à fait, car notre nouvelle solution technique a permis de soulager (diminuer) l'effort des travailleurs, c'est pourquoi l'objectif stratégique a été atteint au bout du compte dans de parfaites conditions."
+      "speaker": "Le docteur (dootoro)",
+      "text": "Wa lolu le.",
+      "phonetic_api": "[wa lolu le]",
+      "phonetic_simple": "wa-lo-lou-lé",
+      "translation": "5 000."
     }
   ],
   "cultural_notes": [
-    "Dans l'administration moderne en Guinée et particulièrement dans la préfecture de Faranah, les cadres techniques et les chefs de projets ('baarakuntigi') veillent à associer le lexique entrepreneurial aux valeurs traditionnelles de concertation et d'intégrité budgétaire ('jateminɛ'), assurant l'adhésion des équipes locales.",
-    "L'introduction des outils informatiques et des innovations agronomiques est pensée sous le pronom global de 'Lɔnko kura' (la science nouvelle). Ce terme valorise l'adaptation de la langue aux réalités contemporaines du développement tout en conservant sa pureté syntaxique."
+    "Les métiers traditionnels (forgeron 'numuu', griot 'jeli', tisserand 'siyaki', chasseur 'donso') appartiennent souvent à des castes héréditaires dans l'organisation sociale mandingue historique, chacune associée à un savoir-faire et un statut social particuliers ([Malinkuia](https://fr.scribd.com/document/499114939/Malinkuia)).",
+    "Note dialectale (Sankaran) : cette leçon présente le maninka du Sankaran, parlé traditionnellement dans la région historique du Sankaran, aujourd'hui la préfecture et région de Faranah (Haute-Guinée), berceau historique du clan Condé et zone antérieure au Mandén selon la tradition orale. Le sankaran (ISO 639-3 msc) est très proche du malinké/maninka standard de Kankan, avec lequel il est mutuellement intelligible ; les mots et structures de cette leçon reflètent ce fonds commun du maninka de l'Est, complété par les spécificités phonologiques et grammaticales du parler de Faranah documentées par Spears (voir sources)."
   ],
   "exercises": [
     {
-      "exercise_id": "ex26_1",
-      "type": "multiple_choice",
-      "question": "Quel concept technique désigne de façon précise la planification ou un schéma directeur d'action ?",
-      "options": [
-        "Jateminɛ",
-        "Ladan-silo",
-        "Baaramana"
-      ],
-      "correct_answer": "Ladan-silo",
-      "explanation": "'Ladan' (préparer/ordonner) et 'silo' (le chemin/la règle) forment le terme spécialisé qualifiant la planification de projet."
+      "exercise_id": "e1",
+      "type": "traduction",
+      "question": "Traduisez : 'J'ai mal à la tête.'",
+      "correct_answer": "N kunatɔɔ bɛ n na.",
+      "explanation": "Structure : [symptôme] + bɛ + [personne] + na."
     },
     {
-      "exercise_id": "ex26_2",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Pour parler du manager ou du directeur d'une opération technique, on emploie le terme : [ ___ ].",
-      "correct_answer": "Baarakuntigi",
-      "hint": "Substantif composé de neuf lettres qui réunit le travail et le concept de leadership/tête, débute par B."
+      "exercise_id": "e2",
+      "type": "choix_multiple",
+      "question": "Que signifie 'numuu' ?",
+      "options": [
+        "tisserand",
+        "chasseur",
+        "forgeron",
+        "pêcheur"
+      ],
+      "correct_answer": "forgeron",
+      "explanation": "'numuu' désigne le forgeron, un métier traditionnel important dans la société mandingue."
+    },
+    {
+      "exercise_id": "e3",
+      "type": "texte_a_trous",
+      "sentence_with_blank": "N tɛ se ka taa ___ fɛ.  (Je ne peux pas aller chez le docteur.)",
+      "correct_answer": "dootoro",
+      "hint": "C'est l'emprunt maninka au mot français 'docteur'."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Ethnologue — Maninka, Sankaran [msc]",
+      "url": "https://www.ethnologue.com/language/msc/"
+    },
+    {
+      "label": "Glottolog 5.3 — Sankaran Maninka [sank1253]",
+      "url": "https://glottolog.org/resource/languoid/id/sank1253"
+    },
+    {
+      "label": "Wikipédia — Sankaran (langue, msc)",
+      "url": "https://fr.wikipedia.org/wiki/Sankaran"
+    },
+    {
+      "label": "Spears, R. A. — The Structure of Faranah-Maninka (Indiana University, description structurale du parler de Faranah, historiquement le Sankaran)",
+      "url": "https://theswissbay.ch/pdf/Books/Linguistics/Mega%20linguistics%20pack/African/Niger-Congo/Mande/Maninka,%20The%20Structure%20of%20Faranah-%20(Spears).pdf"
+    },
+    {
+      "label": "Vydrin & Diané (2014) — Propositions pour l'orthographe du maninka (Guinée), Mandenkan 52",
+      "url": "https://journals.openedition.org/mandenkan/pdf/301"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Aucune source lexicale ou grammaticale dédiée et indépendante n'a été trouvée pour cette leçon spécifiquement en sankaran : le contenu reprend le fonds commun du maninka/malinké de Haute-Guinée (vérifié pour le malinké standard), dont la proximité avec le sankaran est confirmée par les classifications Ethnologue/Glottolog/Vydrin, mais sans confirmation lexème par lexème pour ce dialecte précis. Confiance donc revue à la baisse par rapport à une attestation directe."
 }

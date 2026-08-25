@@ -6,184 +6,212 @@
   "lesson_number": 3,
   "title": "L'alphabet et les sons spécifiques de la langue",
   "learning_objectives": [
-    "Maîtriser l'alphabet Oniyan standardisé et ses caractères spéciaux",
-    "Émettre correctement les articulations injectives, nasales et vélaires",
-    "Distinguer la hauteur de ton pour éviter les contresens lexicaux"
+    "Identifier les 6 voyelles et les principales consonnes de l'orthographe pratique de l'oniyan",
+    "Prononcer les implosives ɓ, ɗ, ƴ et la fricative vélaire x",
+    "Reconnaître les digraphes/trigraphes (mb, nd, ng, nj, kw, gw, xw, ŋw, ww̃, yw̃, hw̃)"
   ],
   "phonetic_focus": {
-    "key_sounds": "L'alphabet comporte des caractères cruciaux : 'ə' représente le schwa (son central neutre). Le 'ñ' correspond au 'gn' français dans 'gagner'. Les couples de consonnes comme 'ñw' ou 'ŋw' s'articulent dans un seul et même mouvement d'expiration.",
-    "common_pitfalls": "Oublier de nasaliser la voyelle lorsqu'un tilde ou une consonne nasale la suit. La non-différenciation entre 'b' (explosif) et 'ɓ' (implosif) altère totalement le sens du mot.",
-    "vocabulary": [
-      {
-        "word_id": "v9",
-        "term": "ə (schwa)",
-        "phonetic_api": "/ə/",
-        "phonetic_simple": "EU",
-        "translation": "la voyelle centrale moyenne",
-        "example_sentence": "bəliyan oŋ.",
-        "example_phonetic": "/ɓəljan oŋ/",
-        "example_translation": "Ce sont les Bassaris."
-      },
-      {
-        "word_id": "v10",
-        "term": "ɓ (injective)",
-        "phonetic_api": "/ɓ/",
-        "phonetic_simple": "BH",
-        "translation": "la consonne occlusive injective bilabiale",
-        "example_sentence": "ɓila oŋ kɔ̂.",
-        "example_phonetic": "/ɓila oŋ kɔ̂/",
-        "example_translation": "Dis cette parole exacte."
-      },
-      {
-        "word_id": "v11",
-        "term": "ɖ (rétroflexe)",
-        "phonetic_api": "/ɖ/",
-        "phonetic_simple": "DH",
-        "translation": "la consonne occlusive rétroflexe sonore",
-        "example_sentence": "Amniwăḍ oŋ.",
-        "example_phonetic": "/amniwăɖ oŋ/",
-        "example_translation": "Voici la salutation."
-      },
-      {
-        "word_id": "v12",
-        "term": "ŋ (vélaire)",
-        "phonetic_api": "/ŋ/",
-        "phonetic_simple": "NG",
-        "translation": "la consonne nasale vélaire sourde",
-        "example_sentence": "ɔniyanɔŋ bɛ̀ɛ̀.",
-        "example_phonetic": "/ɔnəjanɔŋ bɛ̀ː/",
-        "example_translation": "La belle langue Oniyan."
-      }
-    ],
-    "common_phrases": [
-      {
-        "phrase_id": "p17",
-        "original": "Anee aɓila kɔ̂?",
-        "phonetic_api": "/aneː aɓila kɔ̂/",
-        "phonetic_simple": "A-NEE A-BHI-LA KO",
-        "translation": "De quelle manière articule-t-on cela ?",
-        "context": "Requête formulée par l'élève face à un mot complexe."
-      },
-      {
-        "phrase_id": "p18",
-        "original": "ɓila ɛni ɔnə́yanɔŋ.",
-        "phonetic_api": "/ɓila ɛni ɔnə́janɔŋ/",
-        "phonetic_simple": "BHI-LA E-NI O-NE-YA-NONG",
-        "translation": "Parle un petit peu la langue Oniyan.",
-        "context": "Encouragement prodigué pour stimuler l'expression orale."
-      },
-      {
-        "phrase_id": "p19",
-        "original": "Məgaw bɛ̀ɛ̀ fə́ siki.",
-        "phonetic_api": "/məɡaw bɛ̀ː fə́ siki/",
-        "phonetic_simple": "ME-GAW BEE FE SI-KI",
-        "translation": "J'ai parfaitement entendu le son du village.",
-        "context": "Validation d'un exercice d'écoute et de discernement."
-      },
-      {
-        "phrase_id": "p20",
-        "original": "Kərã oŋ ɛni ɛni.",
-        "phonetic_api": "/kərã oŋ ɛni ɛni/",
-        "phonetic_simple": "KE-RAN ONG E-NI E-NI",
-        "translation": "Lis ce texte par étapes régulières.",
-        "context": "Consigne didactique donnée par le maître de langue."
-      },
-      {
-        "phrase_id": "p21",
-        "original": "Anee apɔɔ kɔ̂ fə́ mərã?",
-        "phonetic_api": "/aneː apɔː kɔ̂ fə́ mərã/",
-        "phonetic_simple": "A-NEE A-POO KO FE ME-RAN",
-        "translation": "Comment trace-t-on l'écriture de ce mot ?",
-        "context": "Demande d'éclaircissement sur l'orthographe d'un terme."
-      },
-      {
-        "phrase_id": "p22",
-        "original": "Məñwáá dya kɔ̂.",
-        "phonetic_api": "/məɲwáː dja kɔ̂/",
-        "phonetic_simple": "ME-NYWAA DYA KO",
-        "translation": "Je saisis la signification profonde de cette parole.",
-        "context": "Indique qu'une notion subtile vient d'être assimilée."
-      },
-      {
-        "phrase_id": "p23",
-        "original": "ɓila kəwə́ra bə̂ bɛ̀ɛ̀.",
-        "phonetic_api": "/ɓila kəwə́ra ɓə̂ bɛ̀ː/",
-        "phonetic_simple": "BHI-LA KE-WE-RA BHE BEE",
-        "translation": "Prononce le nom de ton village clairement.",
-        "context": "Exercice pratique d'articulation des phonèmes locaux."
-      },
-      {
-        "phrase_id": "p24",
-        "original": "Nyarancaa fə́ kəgaw mɔ oŋ.",
-        "phonetic_api": "/ɲarant͡ʃaː fə́ kəɡaw mɔ oŋ/",
-        "phonetic_simple": "NYA-RAN-TCHAA FE KE-GAW MO ONG",
-        "translation": "Merci pour l'attention que vous m'accordez.",
-        "context": "Formule terminale de politesse après une récitation."
-      }
-    ],
-    "grammar_points": [
-      {
-        "concept": "Les mutations consonantiques à l'initiale des mots",
-        "explanation": "L'Oniyan fait partie des langues nigéro-congolaises caractérisées par des alternances consonantiques. La première lettre d'un nom ou d'un verbe se transforme radicalement selon le nombre (singulier/pluriel) ou l'influence grammaticale des morphèmes qui le précèdent.",
-        "rules": [
-          "La consonne injective /ɓ/ subit une mutation et se transforme en occlusive bilabiale sourde /p/ sous certaines conditions de pluralité.",
-          "La présence du ton haut sur une voyelle peut modifier la fonction syntaxique du terme, le transformant d'affirmation en injonction."
-        ],
-        "examples": [
-          {
-            "structure": "Mutation: ɓ- (Individuel) -> p- (Collectif)",
-            "phonetic_api": "/ɓ/ -> /p/",
-            "meaning": "Règle morphophonologique majeure de la langue Oniyan"
-          }
-        ]
-      }
-    ],
-    "dialogue": [
-      {
-        "speaker": "L'instructeur",
-        "text": "Kərã oŋ: bəliyan.",
-        "phonetic_api": "/kərã oŋ ɓəljan/",
-        "phonetic_simple": "KE-RAN ONG: BHE-LI-YAN",
-        "translation": "Lis cette phrase à voix haute : bəliyan."
-      },
-      {
-        "speaker": "L'élève",
-        "text": "Anee aɓila kɔ̂? bəliyan bə̂?",
-        "phonetic_api": "/aneː aɓila kɔ̂ ɓəljan ɓə̂/",
-        "phonetic_simple": "A-NEE A-BHI-LA KO? BHE-LI-YAN BHE?",
-        "translation": "Comment prononce-t-on cela ? Dit-on bəliyan ?"
-      },
-      {
-        "speaker": "L'instructeur",
-        "text": "Məgaw bɛ̀ɛ̀! ɓila ɛni ɔnə́yanɔŋ.",
-        "phonetic_api": "/məɡaw bɛ̀ː ɓila ɛni ɔnə́janɔŋ/",
-        "phonetic_simple": "ME-GAW BEE! BHI-LA E-NI O-NE-YA-NONG",
-        "translation": "J'ai très bien entendu ! Parle maintenant la langue Oniyan avec assurance."
-      }
-    ],
-    "cultural_notes": [
-      "L'alphabet Oniyan en Guinée est un outil de préservation historique. Comme la transmission était exclusivement orale à travers les chants sacrés d'initiation dans les bois sacrés, l'écriture standardisée respecte fidèlement les phonèmes pour ne pas dénaturer la portée mystique des paroles ancestrales."
-    ],
-    "exercises": [
-      {
-        "exercise_id": "ex5",
-        "type": "multiple_choice",
-        "question": "Quel phonème correspond à la consonne nasale vélaire finale dans 'ɔniyanɔŋ' ?",
-        "options": [
-          "Le son 'm'",
-          "Le son 'ŋ'",
-          "Le son 'ñ'"
-        ],
-        "correct_answer": "Le son 'ŋ'",
-        "explanation": "Le 'ŋ' traduit l'articulation nasale vélaire postérieure obligatoire en fin de mot."
-      },
-      {
-        "exercise_id": "ex6",
-        "type": "fill_in_the_blanks",
-        "sentence_with_blank": "Anee aɓila [ ___ ] fə́ mərã ?",
-        "correct_answer": "kɔ̂",
-        "hint": "Particule démonstrative neutre servant de complément d'objet pour désigner la chose énoncée."
-      }
-    ]
-  }
+    "key_sounds": "L'oniyan compte 42 phonèmes : 36 consonnes et 6 voyelles (a, e, ë, i, o, u). Les implosives ɓ, ɗ, ƴ se prononcent avec une aspiration rentrante (air aspiré vers l'intérieur), contrairement aux occlusives sonores ordinaires b, d, j.",
+    "common_pitfalls": "Confusion fréquente entre x (fricative vélaire sourde, comme la jota espagnole) et h (spirante voisée, comme le h aspiré français mais sonore) ; les francophones réalisent aussi souvent g comme [ʒ], alors qu'en oniyan g n'est jamais réalisé [ʒ]."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "ɓaçët",
+      "phonetic_api": "/ɓaʃət/",
+      "phonetic_simple": "BHA-TCHËT",
+      "translation": "épaule",
+      "example_sentence": "ɓaçët",
+      "example_phonetic": "/ɓaʃət/",
+      "example_translation": "épaule"
+    },
+    {
+      "word_id": "v2",
+      "term": "ɗal",
+      "phonetic_api": "/ɗal/",
+      "phonetic_simple": "DHAL",
+      "translation": "vérité",
+      "example_sentence": "Kam ko Icar ɗal ex.",
+      "example_phonetic": "/kam ko itʃar ɗal ex/",
+      "example_translation": "Selon Icar, c'est vrai."
+    },
+    {
+      "word_id": "v3",
+      "term": "ƴaŋ",
+      "phonetic_api": "/ʄaŋ/",
+      "phonetic_simple": "YHANG",
+      "translation": "en haut",
+      "example_sentence": "Përëƴëtal ƴaŋ gër atëx.",
+      "example_phonetic": "/pərəʄətal ʄaŋ gər atəx/",
+      "example_translation": "Grimpe en haut de l'arbre."
+    },
+    {
+      "word_id": "v4",
+      "term": "çira",
+      "phonetic_api": "/ʃira/",
+      "phonetic_simple": "TCHI-RA",
+      "translation": "tabac",
+      "example_sentence": "çira",
+      "example_phonetic": "/ʃira/",
+      "example_translation": "tabac"
+    },
+    {
+      "word_id": "v5",
+      "term": "xali",
+      "phonetic_api": "/xali/",
+      "phonetic_simple": "RHA-LI (jota espagnole)",
+      "translation": "jusqu'à",
+      "example_sentence": "Xali ecan.",
+      "example_phonetic": "/xali etʃan/",
+      "example_translation": "Jusqu'à demain."
+    },
+    {
+      "word_id": "v6",
+      "term": "ŋonin",
+      "phonetic_api": "/ŋonin/",
+      "phonetic_simple": "NGO-NIN",
+      "translation": "guêpe",
+      "example_sentence": "eŋonin",
+      "example_phonetic": "/eŋonin/",
+      "example_translation": "la guêpe"
+    },
+    {
+      "word_id": "v7",
+      "term": "gwer-gwer",
+      "phonetic_api": "/gwer.gwer/",
+      "phonetic_simple": "GOUÈR-GOUÈR",
+      "translation": "droit (rectitude)",
+      "example_sentence": "gwer-gwer",
+      "example_phonetic": "/gwer.gwer/",
+      "example_translation": "droit"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Ine'x ejo?",
+      "phonetic_api": "/ine.x eɟo/",
+      "phonetic_simple": "I-NÉ-EX É-DJO",
+      "translation": "Qu'est-ce que c'est ?",
+      "context": "Pour demander le nom d'un objet en apprenant le vocabulaire."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Ame nangena ake ko ƴend.",
+      "phonetic_api": "/ame naŋena ake ko ʄend/",
+      "phonetic_simple": "A-MÉ NAN-GUÉ-NA A-KÉ KO YEND",
+      "translation": "Je ne sais pas comment (le prononcer/il va).",
+      "context": "Pour exprimer une difficulté de prononciation."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Iyo.",
+      "phonetic_api": "/ijo/",
+      "phonetic_simple": "I-YO",
+      "translation": "Oui.",
+      "context": "Réponse affirmative générale, réutilisable dans toute conversation."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "O-oye.",
+      "phonetic_api": "/o.oje/",
+      "phonetic_simple": "O-O-YÉ",
+      "translation": "Non.",
+      "context": "Réponse négative générale, réutilisable dans toute conversation."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le système consonantique et l'alternance à 3 niveaux",
+      "explanation": "L'oniyan distingue 3 niveaux d'alternance consonantique initiale : niveau I (non-occlusives : f, s, ç, x, w, r, y, h, xw, ww̃, yw̃, hw̃), niveau II (occlusives simples et implosives : p, t, c, k, kw, b, d, j, g, gw, ɓ, ɗ, ƴ) et niveau III (nasales/prénasalisées : m, n, ñ, ŋ, ŋw, mb, nd, nj, ng, ngw). Un même radical change de consonne initiale selon la classe nominale ou le mode verbal.",
+      "rules": [
+        "Niveau I → Niveau II : f→p, s→t, ç→c, x→k, w→b, r→d, l→ɗ, y→j, h→g.",
+        "Niveau II → Niveau III : p→p (inchangé), b→mb, d→nd, j→nj, g→ng.",
+        "Les occlusives sourdes p, t, c, k ne changent jamais au niveau III."
+      ],
+      "examples": [
+        {
+          "structure": "aland (I) → ɗandël (II) « tire ! »",
+          "phonetic_api": "/aland/ → /ɗandəl/",
+          "meaning": "alternance verbale niveau I → II"
+        },
+        {
+          "structure": "awis (I) → mbis (III) « vomissement »",
+          "phonetic_api": "/awis/ → /mbis/",
+          "meaning": "alternance verbale niveau I → III (nominalisation)"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Élève",
+      "text": "Ine'x ejo?",
+      "phonetic_api": "/ine.x eɟo/",
+      "phonetic_simple": "I-NÉ-EX É-DJO",
+      "translation": "Qu'est-ce que c'est ?"
+    },
+    {
+      "speaker": "Maître",
+      "text": "Ɓaçët.",
+      "phonetic_api": "/ɓaʃət/",
+      "phonetic_simple": "BHA-TCHËT",
+      "translation": "Une épaule."
+    },
+    {
+      "speaker": "Élève",
+      "text": "Ame nangena ake ko ƴend.",
+      "phonetic_api": "/ame naŋena ake ko ʄend/",
+      "phonetic_simple": "A-MÉ NAN-GUÉ-NA A-KÉ KO YEND",
+      "translation": "Je ne sais pas bien le prononcer."
+    },
+    {
+      "speaker": "Maître",
+      "text": "Awa, ɗal!",
+      "phonetic_api": "/awa ɗal/",
+      "phonetic_simple": "A-OUA, DHAL",
+      "translation": "D'accord, c'est vrai (courage) !"
+    }
+  ],
+  "cultural_notes": [
+    "L'orthographe pratique de l'oniyan a été officialisée par décret en Guinée en 1958 (langue nationale) et par un décret sénégalais d'octobre 2005 ; elle ne note pas les tons, bien que l'oniyan soit une langue à tons (registre haut/bas).",
+    "Le linguiste Guillaume Ségerer (INALCO/LLACAN) estime que le classement UNESCO « vulnérable » sous-estime la fragilité réelle de la langue, la norme orthographique étant très peu utilisée et son enseignement peu développé."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Combien de phonèmes compte l'oniyan selon la description SIL ?",
+      "options": [
+        "26 (comme le français)",
+        "42 (36 consonnes + 6 voyelles)",
+        "12 voyelles seulement"
+      ],
+      "correct_answer": "42 (36 consonnes + 6 voyelles)",
+      "explanation": "La phonologie SIL de 2003 recense 42 phonèmes : 36 consonnes et 6 voyelles dans l'orthographe pratique."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "La lettre ___ se prononce comme la jota espagnole.",
+      "correct_answer": "x",
+      "hint": "C'est une fricative vélaire sourde."
+    }
+  ],
+  "sources": [
+    {
+      "label": "SIL — Bassari Phonology / Orthographe Oniyan (2003)",
+      "url": "https://www.sil.org/system/files/reapdata/13/27/28/132728046882691513259738660939179774460/BSC_Orthographe_Oniyan_Fr_2003.pdf"
+    },
+    {
+      "label": "Ségerer, G. — Description grammaticale du basari (oniyan), INALCO",
+      "url": "https://books.openedition.org/pressesinalco/pdf/36937"
+    },
+    {
+      "label": "Glottolog — Bassari-Tanda",
+      "url": "https://glottolog.org/resource/languoid/id/bass1258"
+    }
+  ],
+  "confidence": "élevée",
+  "confidence_note": "Le système phonétique/orthographique est décrit en détail et de façon convergente par deux sources académiques indépendantes (SIL 2003 et Ségerer/INALCO), avec exemples et gloses vérifiables."
 }

@@ -41,12 +41,6 @@ def _next_unlocked_lesson(completed_lessons: list | None) -> int:
 def get_progress(current_user=Depends(get_current_user), db: Session = Depends(get_db)):
     user_id = str(current_user.id)
     progresses = db.query(UserProgress).filter(UserProgress.user_id == user_id).all()
-    if not progresses:
-        progress = UserProgress(user_id=user_id, language_code="fr", xp=240, streak=6, completed_lessons=[1, 2], next_goal="Terminer 3 leçons cette semaine")
-        db.add(progress)
-        db.commit()
-        db.refresh(progress)
-        progresses = [progress]
 
     return [
         {

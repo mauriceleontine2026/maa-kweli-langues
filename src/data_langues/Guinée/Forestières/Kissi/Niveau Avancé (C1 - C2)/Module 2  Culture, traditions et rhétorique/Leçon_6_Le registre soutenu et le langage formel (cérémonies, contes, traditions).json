@@ -1,114 +1,192 @@
 {
   "lesson_id": "C1_M2_L6",
-  "level": "Niveau Avancé (C1-C2)",
+  "level": "Avancé (C1-C2)",
   "module_number": 2,
   "module_title": "Culture, traditions et rhétorique",
   "lesson_number": 6,
   "title": "Le registre soutenu et le langage formel (cérémonies, contes, traditions)",
   "learning_objectives": [
-    "Identifier et utiliser les formules archaïques spécifiques aux contes",
-    "Employer le lexique honorifique requis lors des cérémonies coutumières",
-    "Développer une diction fluide adaptée à la narration rituelle"
+    "Identifier le vocabulaire rituel attesté par Denise Paulme (poro/initiation, funérailles, offrandes)",
+    "Reconnaître les formules cérémonielles et leur contexte social (deuil, initiation, intronisation)",
+    "Distinguer le registre courant du registre solennel employé lors des rites"
   ],
   "phonetic_focus": {
-    "key_sounds": "Le registre cérémoniel met en œuvre une théâtralité phonétique caractérisée par des intonations solennelles et des pauses respiratoires allongées après chaque énoncé nominal.",
-    "common_pitfalls": "Ne parlez pas trop vite. Le langage soutenu des contes exige de laisser résonner les consonnes nasales finales et de respecter scrupuleusement la durée des voyelles longues."
+    "key_sounds": "Les termes rituels comme 'yemya' ou 'sawaa' se prononcent souvent avec un débit plus lent et solennel en contexte cérémoniel, une prosodie que les sources écrites ne peuvent que partiellement refléter.",
+    "common_pitfalls": "Les apprenants tendent à appliquer le débit rapide du registre courant même aux formules rituelles, alors que le contexte cérémoniel impose traditionnellement une élocution plus posée selon les descriptions ethnographiques disponibles."
   },
   "vocabulary": [
     {
-      "word_id": "v24_1",
-      "term": "simbo",
-      "phonetic_api": "/si.ᵐbo/",
-      "phonetic_simple": "SIM-BO",
-      "translation": "titre honorifique des grands chasseurs / anciens / notables",
-      "example_sentence": "Simbo, yaa nɔ̄n ?",
-      "example_phonetic": "/si.ᵐbo jaː nɔ̄n/",
-      "example_translation": "Grand sage, comment vas-tu ?"
+      "word_id": "v1",
+      "term": "yemya",
+      "phonetic_api": "/jemja/",
+      "phonetic_simple": "yèm-ya",
+      "translation": "interdit rituel, tabou de clan (vocabulaire formel/religieux)",
+      "example_sentence": "Ndu yemya kale.",
+      "example_phonetic": "/ndu jemja kale/",
+      "example_translation": "C'est un interdit rituel du clan."
     },
     {
-      "word_id": "v24_2",
-      "term": "fuaaa",
-      "phonetic_api": "/fwaːː/",
-      "phonetic_simple": "FOU-AAA",
-      "translation": "formule d'ouverture rituelle des contes (jadis / il était une fois)",
-      "example_sentence": "Fuaaa, sua pilɔ o pa wa.",
-      "example_phonetic": "/fwaːː swa pi.lɔ o pa wa/",
-      "example_translation": "Il était une fois, un animal qui vivait autrefois."
+      "word_id": "v2",
+      "term": "sawaa",
+      "phonetic_api": "/sawaː/",
+      "phonetic_simple": "sa-waa",
+      "translation": "loi, règle coutumière solennelle",
+      "example_sentence": "Ndu sawaa kale.",
+      "example_phonetic": "/ndu sawaː kale/",
+      "example_translation": "C'est la loi du clan."
+    },
+    {
+      "word_id": "v3",
+      "term": "masaa",
+      "phonetic_api": "/masaː/",
+      "phonetic_simple": "ma-saa",
+      "translation": "chef (titre solennel lors des intronisations et cérémonies)",
+      "example_sentence": "Ndu có masaa nî.",
+      "example_phonetic": "/ndu tʃo masaː ni/",
+      "example_translation": "Il devient chef maintenant (intronisation)."
+    },
+    {
+      "word_id": "v4",
+      "term": "kale",
+      "phonetic_api": "/kale/",
+      "phonetic_simple": "ka-lé",
+      "translation": "clan, lignage (référence identitaire formelle)",
+      "example_sentence": "Ndu kale ndu bana.",
+      "example_phonetic": "/ndu kale ndu bana/",
+      "example_translation": "Son clan est grand/important."
+    },
+    {
+      "word_id": "v5",
+      "term": "mandenɔ́ɔ",
+      "phonetic_api": "/mandenɔː/",
+      "phonetic_simple": "man-dé-nô",
+      "translation": "devin/guérisseur, officiant des rites traditionnels",
+      "example_sentence": "Mandenɔ́ɔ có ndu.",
+      "example_phonetic": "/mandenɔː tʃo ndu/",
+      "example_translation": "Le devin/guérisseur va officier."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p24_1",
-      "original": "Simbo fiaa, co mi diom i diɔ̄ gbalaŋ.",
-      "phonetic_api": "/si.ᵐbo fjaː tʃo mi dʒom i djɔ̄ g͡ba.laŋ/",
-      "phonetic_simple": "SIM-BO FIA-A, TCHO MI DIOM I DION GBA-LANG",
-      "translation": "Grand notable vénérable, accorde-moi le droit de verser l'offrande / la contribution.",
-      "context": "Formule protocolaire obligatoire lors d'un mariage ou d'une cérémonie rituelle"
+      "phrase_id": "p1",
+      "original": "Ndu có masaa nî.",
+      "phonetic_api": "/ndu tʃo masaː ni/",
+      "phonetic_simple": "ndou tcho ma-saa ni",
+      "translation": "Il devient chef maintenant.",
+      "context": "Formule d'annonce solennelle lors d'une intronisation."
     },
     {
-      "phrase_id": "p24_2",
-      "original": "Fuaaa, tele o lo wo o pa hɔn bɛndɛ.",
-      "phonetic_api": "/fwaːː te.le o lo wo o pa hɔn bɛⁿdɛ/",
-      "phonetic_simple": "FOU-AAA, TÉ-LÉ O LO WO O PA HONT BEN-DE",
-      "translation": "Il était une fois, un temps lointain qui s'est autrefois écoulé.",
-      "context": "Formule d'ouverture d'un conte villageois le soir"
+      "phrase_id": "p2",
+      "original": "Ndu yemya kale, i n dio.",
+      "phonetic_api": "/ndu jemja kale i n djo/",
+      "phonetic_simple": "ndou yèm-ya ka-lé, i n djo",
+      "translation": "C'est un interdit rituel du clan, tu ne dois pas en manger.",
+      "context": "Formule rituelle rappelant un interdit alimentaire lors d'une cérémonie."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Mandenɔ́ɔ có ndu o wasyo.",
+      "phonetic_api": "/mandenɔː tʃo ndu o wasjo/",
+      "phonetic_simple": "man-dé-nô tcho ndou o wa-syo",
+      "translation": "Le devin/guérisseur va officier sur la place publique.",
+      "context": "Pour annoncer le déroulement formel d'un rite collectif."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Ndu sawaa kale, wana n laalagndó.",
+      "phonetic_api": "/ndu sawaː kale wana n laːlaɡndo/",
+      "phonetic_simple": "ndou sa-waa ka-lé, wa-na n laa-lagn-do",
+      "translation": "C'est la loi du clan, tous doivent s'y conformer/y croire.",
+      "context": "Formule d'autorité rappelant l'adhésion collective attendue à une règle coutumière."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'accumulation des particules aspectuelles du passé mythique",
-      "explanation": "Pour installer le récit dans une dimension intemporelle ou sacrée (le temps du mythe et du conte), les orateurs associent au sein d'une même phrase le marqueur d'antériorité 'wo' et l'indice d'habitude passée 'pa'.",
+      "concept": "Le registre formel s'appuie sur un lexique rituel et institutionnel dédié",
+      "explanation": "D'après l'ethnographie de Denise Paulme sur les Kissi, le registre soutenu ne repose pas nécessairement sur une grammaire distincte, mais sur un lexique spécialisé (yemya, sawaa, kale, mandenɔ́ɔ) associé aux moments cérémoniels (intronisation, initiation, funérailles) et une élocution plus lente et solennelle. La structure de phrase reste celle du kissi courant (SVO, copule ndu), mais le vocabulaire employé signale immédiatement le registre formel.",
       "rules": [
-        "L'élément 'wo' suit immédiatement le premier verbe.",
-        "L'élément 'pa' renforce le cadre narratif de la proposition coordonnée."
+        "Le suffixe/le nom 'kale' (clan) qualifie souvent un interdit (yemya) ou une loi (sawaa) pour en souligner la portée collective plutôt qu'individuelle.",
+        "Les titres comme 'masaa' (chef) et 'mandenɔ́ɔ' (devin/guérisseur) s'emploient sans article ni déterminant supplémentaire, valant en eux-mêmes marque de respect.",
+        "Le marqueur temporel 'nî' (maintenant) accompagné du verbe 'có' souligne le caractère performatif de l'énoncé rituel (l'intronisation se réalise par la parole même)."
       ],
       "examples": [
         {
-          "structure": "Verbe + wo + pa + Verbe d'action",
-          "phonetic_api": "/o lo wo o pa wa/",
-          "meaning": "Il était déjà parti et vivait autrefois."
+          "structure": "Ndu có + [titre] + nî",
+          "phonetic_api": "/ndu tʃo ... ni/",
+          "meaning": "il/elle devient [titre] maintenant (formule performative)"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Le Conteur",
-      "text": "Fuaaa ! Sua kpou o pa baŋa ciao ning.",
-      "phonetic_api": "/fwaːː swa k͡pu o pa ba.ŋa tʃja.o niŋ/",
-      "phonetic_simple": "FOU-AAA ! SOUA KPOU O PA BA-NGA TCHIA-O NING.",
-      "translation": "Il était une fois ! Tous les animaux s'amusaient autrefois au milieu du marché."
+      "speaker": "Officiant (mandenɔ́ɔ)",
+      "text": "Ndu có masaa nî. Wana laalagndó.",
+      "phonetic_api": "/ndu tʃo masaː ni wana laːlaɡndo/",
+      "phonetic_simple": "ndou tcho ma-saa ni. wa-na laa-lagn-do",
+      "translation": "Il devient chef maintenant. Que tous y croient (l'acceptent)."
     },
     {
-      "speaker": "L'Auditoire",
-      "text": "Haa, i co tchie kpou kpou ! Dimul ni, simbo !",
-      "phonetic_api": "/haː i tʃje k͡pu k͡pu di.mul ni si.ᵐbo/",
-      "phonetic_simple": "HAA, I TCHI-É KPOU KPOU ! DI-MOUL NI, SIM-BO !",
-      "translation": "Oui, nous écoutons attentivement ! Raconte-le, grand sage !"
+      "speaker": "Assemblée (chœur)",
+      "text": "Naam, ndu sawaa kale.",
+      "phonetic_api": "/naːm ndu sawaː kale/",
+      "phonetic_simple": "naam, ndou sa-waa ka-lé",
+      "translation": "Oui, c'est la loi du clan."
+    },
+    {
+      "speaker": "Officiant (mandenɔ́ɔ)",
+      "text": "Ndu yemya kale, wana n dio ndu.",
+      "phonetic_api": "/ndu jemja kale wana n djo ndu/",
+      "phonetic_simple": "ndou yèm-ya ka-lé, wa-na n djo ndou",
+      "translation": "C'est un interdit rituel du clan, personne ne doit en manger."
+    },
+    {
+      "speaker": "Assemblée (chœur)",
+      "text": "Naam, wana laalagndó ndu kɔ́naa.",
+      "phonetic_api": "/naːm wana laːlaɡndo ndu kɔnaː/",
+      "phonetic_simple": "naam, wa-na laa-lagn-do ndou kô-naa",
+      "translation": "Oui, tous se rangent à son message (l'acceptent)."
     }
   ],
   "cultural_notes": [
-    "Le terme 'Simbo' est un titre honorifique suprême hérité de la confrérie des chasseurs traditionnels. L'utiliser dans une salutation protocolaire montre que l'on reconnaît la sagesse, le courage et l'autorité morale absolue de l'interlocuteur."
+    "Les rites d'intronisation et les cérémonies de clan décrits par Denise Paulme s'accompagnent de formules figées prononcées par un officiant (souvent le mandenɔ́ɔ) et reprises collectivement, une structure proche de l'antiphonie que l'on retrouve dans de nombreuses cérémonies ouest-africaines.",
+    "Le lien entre 'sawaa' (loi) et 'kale' (clan) souligne que, dans le registre formel kissi documenté, la légitimité d'une règle est indissociable de son ancrage lignager, contrairement à une loi générale et abstraite au sens occidental moderne."
   ],
   "exercises": [
     {
-      "exercise_id": "ex24_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quelle formule utilise-t-textuellement un conteur pour dire 'Il était une fois' ?",
+      "question": "Qui officie typiquement lors des rites décrits par Denise Paulme ?",
       "options": [
-        "Bale fiaa",
-        "Fuaaa",
-        "Haala o co"
+        "le mandenɔ́ɔ (devin/guérisseur)",
+        "le commerçant du marché",
+        "l'enseignant"
       ],
-      "correct_answer": "Fuaaa",
-      "explanation": "'Fuaaa' est l'interjection d'ouverture mythologique codifiée des récits oraux."
+      "correct_answer": "le mandenɔ́ɔ (devin/guérisseur)",
+      "explanation": "Attesté dans l'ethnographie de Denise Paulme sur les rites kissi."
     },
     {
-      "exercise_id": "ex24_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "[ ___ ], yaa nɔ̄n ? (Salutation honorifique à un ancien)",
-      "correct_answer": "Simbo",
-      "hint": "Titre respectueux lié aux sages ou grands gardiens de la tradition"
+      "sentence_with_blank": "Ndu [ ___ ] kale, wana n dio ndu. (C'est un interdit rituel du clan, personne ne doit en manger.)",
+      "correct_answer": "yemya",
+      "hint": "Terme rituel attesté pour « interdit/tabou de clan »."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Denise Paulme, Les Gens du riz : les Kissi de Haute-Guinée, chap. 9 (WebGuinée)",
+      "url": "https://webguine.site/bibliotheque/ethnographie/kisi/dpaulme/chap09.html"
+    },
+    {
+      "label": "Denise Paulme, Les Gens du riz : les Kissi de Haute-Guinée, chap. 6 (WebGuinée)",
+      "url": "https://www.webguinee.net/bibliotheque/ethnographie/kisi/dpaulme/chap06.html"
+    },
+    {
+      "label": "G. Tucker Childs, « Borrowings into Kisi as Evidence of Mande Expansionism and Influence », Journal of West African Languages 29-2 (2002)",
+      "url": "https://scispace.com/pdf/borrowings-into-kisi-as-evidence-of-mande-expansionism-and-3zquof59kt.pdf"
+    }
+  ],
+  "confidence": "faible",
+  "confidence_note": "Le vocabulaire rituel (yemya, sawaa, kale, mandenɔ́ɔ, masaa) est attesté par l'ethnographie de Denise Paulme et par Childs (2002), mais aucune formule cérémonielle complète en kissi n'a pu être trouvée mot pour mot dans les sources ; les formules et le dialogue proposés sont des reconstructions raisonnées à partir de ce lexique vérifié, et doivent être traités comme illustratifs plutôt que comme citations directes."
 }

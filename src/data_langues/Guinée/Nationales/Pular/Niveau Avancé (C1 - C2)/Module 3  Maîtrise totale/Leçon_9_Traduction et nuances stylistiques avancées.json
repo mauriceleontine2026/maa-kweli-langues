@@ -1,144 +1,203 @@
 {
-  "lesson_id": "C2_M3_L9",
+  "lesson_id": "C1_M3_L9",
   "level": "Avancé (C1-C2)",
   "module_number": 3,
   "module_title": "Maîtrise totale",
   "lesson_number": 9,
   "title": "Traduction et nuances stylistiques avancées",
   "learning_objectives": [
-    "Transposer les concepts philosophiques et stylistiques complexes du français vers le pular sans dénaturation",
-    "Maîtriser les correspondances de registres littéraires soutenus entre les deux systèmes linguistiques",
-    "Restituer l'ambiguïté rhétorique et les double-sens poétiques lors d'une traduction simultanée"
+    "Utiliser les intensificateurs spécifiques à chaque verbe d'état pour un style plus expressif",
+    "Choisir le connecteur ou la forme temporelle la plus fine selon la nuance recherchée en traduction",
+    "Reconnaître les limites de la traduction littérale entre le français et le pular"
   ],
   "phonetic_focus": {
-    "key_sounds": "La fluidité suprême exige un respect rigoureux de la prosodie et de l'accentuation des morphèmes d'emphase relative. Notez le coup de glotte glottalisé /ʔ/ au cœur des charnières discursives complexes.",
-    "common_pitfalls": "Le piège majeur en traduction de niveau C2 est le calque structurel du français. Le pular rejette la voix passive française systématique et lui préfère la focalisation d'objet ou d'action, exigeant des réarrangements phonétiques complets."
+    "key_sounds": "Chaque intensificateur pular ('très') est un mot différent et non un adverbe générique : il s'accorde spécifiquement avec un seul verbe d'état ou une famille restreinte de verbes apparentés, contrairement au français où 'très' s'utilise universellement.",
+    "common_pitfalls": "Vouloir traduire 'très' par un seul mot pular universel est une erreur : le manuel signale qu'il existe environ une centaine de façons de dire 'très/totalement' en pular, chacune réservée à un verbe ou groupe de verbes précis."
   },
   "vocabulary": [
     {
-      "word_id": "v27_1",
-      "term": "firditande",
-      "phonetic_api": "/ɸirditande/",
-      "phonetic_simple": "FIR-DI-TAN-DE",
-      "translation": "l'acte de traduction fidèle, la transposition sémantique, l'interprétation stylistique",
-      "example_sentence": "Firditande makko nden no laabi sanne.",
-      "example_phonetic": "/ɸirditande makːo nden no laːbi sanːe/",
-      "example_translation": "Sa transposition sémantique est d'une clarté limpide."
+      "word_id": "v1",
+      "term": "tef (avec haarugol/heewugol)",
+      "phonetic_api": "/tef/",
+      "phonetic_simple": "TÈF",
+      "translation": "totalement, complètement (réservé aux verbes de plénitude)",
+      "example_sentence": "Mi haari tef!",
+      "example_phonetic": "/mi haːri tef/",
+      "example_translation": "Je suis totalement rassasié !"
     },
     {
-      "word_id": "v27_2",
-      "term": "bolidal",
-      "phonetic_api": "/bolidal/",
-      "phonetic_simple": "BO-LI-DAL",
-      "translation": "la stylistique, l'éloquence formelle ordonnée, l'art de la rhétorique pure",
-      "example_sentence": "Bolidal Fouta ngon ko pulaaku tigi.",
-      "example_phonetic": "/bolidal ɸuːta nɡon ko pulaːku tiɡi/",
-      "example_translation": "La stylistique du Fouta incarne la dignité même."
+      "word_id": "v2",
+      "term": "cos (avec wojjugol)",
+      "phonetic_api": "/tʃos/",
+      "phonetic_simple": "TCHOS",
+      "translation": "totalement (réservé au rouge)",
+      "example_sentence": "Ɗan ndiyan no wojji cos!",
+      "example_phonetic": "/ɗan ndijam no wodʒːi tʃos/",
+      "example_translation": "Cette eau est complètement rouge !"
     },
     {
-      "word_id": "v27_3",
-      "term": "faamunde",
-      "phonetic_api": "/ɸaːmunde/",
-      "phonetic_simple": "FAA-MOUN-DE",
-      "translation": "la conceptualisation intellectuelle, l'entendement métaphysique ou logique",
-      "example_sentence": "Faamunde maa nden no jogii fahu.",
-      "example_phonetic": "/ɸaːmunde maː nden no d͡ʒoɡiː ɸahu/",
-      "example_translation": "Ta conceptualisation intellectuelle s'avère parfaitement sensée."
+      "word_id": "v3",
+      "term": "kas (avec kaanugol)",
+      "phonetic_api": "/kas/",
+      "phonetic_simple": "KAS",
+      "translation": "très (réservé à la laideur)",
+      "example_sentence": "Hiɗa kaani kas!",
+      "example_phonetic": "/hiɗa kaːni kas/",
+      "example_translation": "Tu es vraiment très laid(e) !"
     },
     {
-      "word_id": "v27_4",
-      "term": "laawitinde",
-      "phonetic_api": "/laːwitinde/",
-      "phonetic_simple": "LAA-WI-TIN-DE",
-      "translation": "harmoniser le style, épurer le discours de toute scorie syntaxique",
-      "example_sentence": "Haa_e mi laawitina ngal ballifol.",
-      "example_phonetic": "/haːʔe mi laːwitina nɡal balːiɸol/",
-      "example_translation": "Il me faut impérativement harmoniser le style de cette œuvre."
+      "word_id": "v4",
+      "term": "ɓawli kis (très noir)",
+      "phonetic_api": "/ɓawli kis/",
+      "phonetic_simple": "BAOU-LI KIS",
+      "translation": "tout noir, très noir",
+      "example_sentence": "Ko ɓawli kis.",
+      "example_phonetic": "/ko ɓawli kis/",
+      "example_translation": "C'est tout noir."
     },
     {
-      "word_id": "v27_5",
-      "term": "laabi",
-      "phonetic_api": "/laːbi/",
-      "phonetic_simple": "LAA-BI",
-      "translation": "la perfection stylistique, la limpidité sémantique absolue (classe humaine/abstraite)",
-      "example_sentence": "Pular makko ko laabi tun.",
-      "example_phonetic": "/pular makːo ko laːbi tun/",
-      "example_translation": "Son pular est d'une limpidité absolue."
+      "word_id": "v5",
+      "term": "rawni pen (très blanc)",
+      "phonetic_api": "/rawni pen/",
+      "phonetic_simple": "RA-OU-NI PÈNE",
+      "translation": "tout blanc, très blanc",
+      "example_sentence": "Ko rawni pen.",
+      "example_phonetic": "/ko rawni pen/",
+      "example_translation": "C'est tout blanc."
+    },
+    {
+      "word_id": "v6",
+      "term": "wuli kat (très chaud)",
+      "phonetic_api": "/wuli kat/",
+      "phonetic_simple": "OU-LI KAT",
+      "translation": "très chaud, brûlant",
+      "example_sentence": "Ndiyan ɗan no wuli kat.",
+      "example_phonetic": "/ndijam ɗan no wuli kat/",
+      "example_translation": "Cette eau est brûlante."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p27_1",
-      "original": "Firditande nden haa_e laawitina bolidal ngal wano finnde nden yamiriri.",
-      "phonetic_api": "/ɸirditande nden haːʔe laːwitina bolidal nɡal wano ɸinːde nden jamiriri/",
-      "phonetic_simple": "FIR-DI-TAN-DE NDEN HAA-E LAA-WI-TI-NA BO-LI-DAL NGAL WA-NO FINN-DE NDEN YA-MI-RI-RI",
-      "translation": "La transposition sémantique doit impérativement harmoniser la stylistique du discours, tel que la sagesse ancestrale le prescrit.",
-      "context": "Directive académique énoncée lors d'un travail de traduction de textes doctrinaux."
+      "phrase_id": "p1",
+      "original": "Oto on no heewi tef!",
+      "phonetic_api": "/oto on no heːwi tef/",
+      "phonetic_simple": "O-TO ON NO HÈ-É-OUI TÈF",
+      "translation": "La voiture est complètement pleine !",
+      "context": "Exemple emblématique cité dans le manuel pour illustrer les intensificateurs spécifiques."
     },
     {
-      "phrase_id": "p27_2",
-      "original": "Sino en reesitinoo laabi faamunde nden, gollital meɗen saɗatnoo lah tigi.",
-      "phonetic_api": "/sino en reːsitinoː laːbi ɸaːmunde nden ɡollital meɗen saɗatnoː lah tiɡi/",
-      "phonetic_simple": "SI-NO EN REE-SI-TI-NOO LAA-BI FAA-MOUN-DE NDEN, GOL-LI-TAL ME-DHEN SA-DHAT-NOO LAH TI-GI",
-      "translation": "Si seulement nous avions préservé la limpidité de cette conceptualisation, notre administration n'aurait jamais rencontré d'écueils systémiques.",
-      "context": "Bilan de clôture d'un séminaire de haute traduction administrative."
+      "phrase_id": "p2",
+      "original": "Laaɓi poy.",
+      "phonetic_api": "/laːɓi poj/",
+      "phonetic_simple": "LA-A-BI POÏ",
+      "translation": "Complètement propre.",
+      "context": "Intensificateur spécifique au verbe laaɓugol (être propre)."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Selli ken.",
+      "phonetic_api": "/selːi ken/",
+      "phonetic_simple": "SÈL-LI KÈNE",
+      "translation": "En parfaite santé.",
+      "context": "Intensificateur spécifique au verbe sellugol (être en bonne santé)."
     }
   ],
   "grammar_points": [
     {
-      "concept": "Le réarrangement syntaxique de focalisation en traduction réciproque",
-      "explanation": "Lors de la traduction de structures passives complexes ou emphatiques du français, le pular C2 rejette la linéarité passive lourde. Il opère un réarrangement complet : le complément d'agent devient le sujet d'un verbe conjugué au mode relatif-focalisateur, ramenant la tension dramatique sur l'élément porteur de l'information.",
+      "concept": "Les intensificateurs lexicalement spécifiques : un défi de traduction",
+      "explanation": "Le pular ne possède pas d'adverbe universel équivalent à 'très/totalement' : chaque verbe d'état (ou petit groupe de verbes apparentés) a son propre intensificateur figé, appris comme une paire lexicale indissociable. Une traduction fine du français vers le pular doit donc choisir l'intensificateur exact correspondant au verbe, non un mot générique.",
       "rules": [
-        "Isoler l'élément mis en emphase dans la phrase source.",
-        "Sélectionner la particule de focalisation adéquate ('ko' pour l'identité, ou la désinence relative sur le verbe pour l'action) afin d'assurer l'élégance stylistique ('bolidal')."
+        "cos ne s'utilise qu'avec wojjugol (être rouge)",
+        "tef s'utilise avec les verbes de plénitude (haarugol, heewugol)",
+        "kas ne s'utilise qu'avec kaanugol (être laid)",
+        "Il existe environ une centaine de ces paires figées selon le manuel ; les maîtriser est un signe de très haute compétence stylistique"
       ],
       "examples": [
         {
-          "structure": "Ko + Élément + Verbe (Relatif)",
-          "phonetic_api": "/ko alɸa ɸirditini/",
-          "meaning": "C'est Alpha qui a traduit (Traduction stylistique de 'Fut traduit par Alpha')"
+          "structure": "wojji cos / kaani kas / heewi tef",
+          "phonetic_api": "/wodʒːi tʃos/, /kaːni kas/, /heːwi tef/",
+          "meaning": "totalement rouge / très laid / complètement plein — trois intensificateurs différents, chacun figé à son verbe."
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Médiateur Littéraire (Firditoowo)",
-      "text": "Saliou, ngal firditande ballifol meɗen no jogii fahu mawndo. Koni a laawitiniri bolidal ngal e nder pular ?",
-      "phonetic_api": "/saliu nɡal ɸirditande balːiɸol meɗen no d͡ʒoɡiː ɸahu mawnːdo koni a laːwitiniri bolidal nɡal e nder pular/",
-      "phonetic_simple": "SA-LIOU, NGAL FIR-DI-TAN-DE BAL-LI-FOL ME-DHEN NO DJO-GII FA-HOU MAWN-DHO. KO-NI A LAA-WI-TIN-I-RI BO-LI-DAL NGAL E NDER POU-LAR ?",
-      "translation": "Saliou, cette transposition sémantique de notre œuvre possède une portée intellectuelle majeure. Comment as-tu harmonisé la stylistique du discours au sein de la langue pular ?"
+      "speaker": "Traducteur en formation",
+      "text": "Ko honno mi firannoo 'complètement plein' e pular?",
+      "phonetic_api": "/ko honːo mi firanːoː kompleːtmɑ̃ plɛ̃ e pular/",
+      "phonetic_simple": "KO HONNO MI FI-RAN-NO-O KOM-PLÈT-MENT PLEN É PU-LAR",
+      "translation": "Comment aurais-je dû traduire 'complètement plein' en pular ?"
     },
     {
-      "speaker": "Traducteur Expert (Saliou)",
-      "text": "Wano faamunde nden yamiriri, saabi ngal tar_oore, mi tabitinii laabi haala ka. Sino mi naftoratnoo bolidal bonde, finnde nden saɗatnoo lah tigi !",
-      "phonetic_api": "/wano ɸaːmunde nden jamiriri saːbi nɡal taroːre mi tabitiniː laːbi haːla ka sino mi naɸtoratnoː bolidal bonde ɸinːde nden saɗatnoː lah tiɡi/",
-      "phonetic_simple": "WA-NO FAA-MOUN-DE NDEN YA-MI-RI-RI, SAA-BI NGAL TAR-OORE, MI TA-BI-TI-NII LAA-BI HAA-LA KA. SI-NO MI NAF-TOR-AT-NOO BO-LI-DAL BON-DE, FINN-DE NDEN SA-DHAT-NOO LAH TI-GI !",
-      "translation": "Tel que la conceptualisation l'exigeait, et en raison de cette historiographie, j'ai matérialisé la limpidité absolue du propos. Si j'avais fait usage d'une mauvaise stylistique, la sagesse profonde du texte aurait subi une opacité totale !"
+      "speaker": "Cerno",
+      "text": "Si ko fii oto, wi'aa: Oto on no heewi tef!",
+      "phonetic_api": "/si ko fiː oto wiʔaː oto on no heːwi tef/",
+      "phonetic_simple": "SI KO FI O-TO, OUI-A-A: O-TO ON NO HÈ-É-OUI TÈF",
+      "translation": "S'il s'agit d'une voiture, on dit : « La voiture est complètement pleine ! »"
+    },
+    {
+      "speaker": "Traducteur en formation",
+      "text": "E si ko fii ndiyan wojjuɗan?",
+      "phonetic_api": "/e si ko fiː ndijam wodʒːuɗam/",
+      "phonetic_simple": "É SI KO FI NDI-YAM OUOD-JOU-DAM",
+      "translation": "Et s'il s'agit d'une eau rouge ?"
+    },
+    {
+      "speaker": "Cerno",
+      "text": "Ontuma wi'aa: no wojji cos! Kono cos ngon tan yahi e wojjugol.",
+      "phonetic_api": "/ontuma wiʔaː no wodʒːi tʃos kono tʃos ŋɡon tan jahi e wodʒːuɡol/",
+      "phonetic_simple": "ON-TOU-MA OUI-A-A: NO OUOD-JI TCHOS! KO-NO TCHOS NGONE TAN YA-HI É OUOD-JOU-GOL",
+      "translation": "Dans ce cas, on dit : « c'est totalement rouge ! » Mais 'cos' ne va qu'avec le verbe être-rouge."
     }
   ],
   "cultural_notes": [
-    "L'art de la traduction ('firditande') et de l'exégèse au Fouta-Djallon est historiquement lié à la tradition du 'Pellital' et du 'Firu'. Les érudits passaient de longues années à transposer oralement ou par écrit les subtilités des textes classiques vers un pular hautement poétique, contribuant ainsi à faire du pular une langue de haute culture, de philosophie et d'administration."
+    "Le manuel Peace Corps souligne qu'il existe environ une centaine de façons de dire 'très/totalement' en pular, chacune propre à un verbe d'état ou une famille de verbes apparentés, et que maîtriser correctement quelques-unes de ces paires impressionne les locuteurs natifs bien au-delà de l'effort d'apprentissage requis (source : Learner's Guide to Pular, section Intensifiers).",
+    "Cette caractéristique illustre une limite fondamentale de la traduction mot à mot entre le français et le pular : un traducteur avancé doit connaître le verbe d'état ET son intensificateur associé comme une unité lexicale unique, non composable librement."
   ],
   "exercises": [
     {
-      "exercise_id": "ex27_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel concept est rigoureusement traduit par le mot 'bolidal' ?",
+      "question": "Quel intensificateur s'utilise uniquement avec le verbe 'être rouge' (wojjugol) ?",
       "options": [
-        "Un dictionnaire de poche",
-        "La stylistique, l'éloquence littéraire ou l'art de la rhétorique",
-        "Une faute de grammaire urbaine"
+        "Tef",
+        "Cos",
+        "Kas"
       ],
-      "correct_answer": "La stylistique, l'éloquence littéraire ou l'art de la rhétorique",
-      "explanation": "'Bolidal' découle de la racine liée à la parole ordonnée, qualifiant la haute tenue stylistique et l'esthétique oratoire d'un discours."
+      "correct_answer": "Cos",
+      "explanation": "Cos est l'intensificateur figé qui ne s'utilise qu'avec wojjugol (être rouge)."
     },
     {
-      "exercise_id": "ex27_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Firditande maa nden ko [ ___ ] tun. (Ta traduction/transposition est d'une limpidité/perfection stylistique absolue).",
-      "correct_answer": "laabi",
-      "hint": "Terme abstrait C2 marquant l'épuration totale, la clarté pure et l'exactitude sémantique."
+      "sentence_with_blank": "Oto on no heewi [ ___ ]! (La voiture est complètement pleine)",
+      "correct_answer": "tef",
+      "hint": "Utilisez l'intensificateur réservé aux verbes de plénitude comme heewugol."
+    },
+    {
+      "exercise_id": "ex3",
+      "type": "multiple_choice",
+      "question": "Pourquoi ne peut-on pas traduire 'très' par un seul mot universel en pular ?",
+      "options": [
+        "Parce que le pular n'a pas d'adjectifs",
+        "Parce que chaque verbe d'état a son propre intensificateur figé",
+        "Parce que le pular n'exprime jamais l'intensité"
+      ],
+      "correct_answer": "Parce que chaque verbe d'état a son propre intensificateur figé",
+      "explanation": "Le pular associe à chaque verbe d'état (ou petit groupe de verbes) un intensificateur spécifique et non interchangeable."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Learner's Guide to Pular (Fuuta Jallon) — Peace Corps Guinée (Herb Caudill & Ousmane Besseko Diallo)",
+      "url": "https://ibamba.net/pular/manual.pdf"
+    },
+    {
+      "label": "Live Lingua Project — Peace Corps Manual of Fulfulde",
+      "url": "https://www.livelingua.com/course/peace-corps/manual-of-fulfulde"
+    }
+  ],
+  "confidence": "élevée",
+  "confidence_note": "Le système des intensificateurs lexicalement spécifiques (cos, tef, kas, etc.) est directement documenté dans la section 'Intensifiers' du manuel Peace Corps Guinée, avec des exemples authentiques et une note explicite sur la variation régionale de certaines formes."
 }

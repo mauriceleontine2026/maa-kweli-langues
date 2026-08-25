@@ -6,118 +6,213 @@
   "lesson_number": 9,
   "title": "Les couleurs et les vêtements",
   "learning_objectives": [
-    "Décrire la couleur d'un tissu ou objet",
-    "Nommer les habits fondamentaux"
+    "Nommer les couleurs de base",
+    "Décrire un vêtement simple par sa couleur",
+    "Utiliser l'adjectif de couleur après le nom, comme en kono"
   ],
   "phonetic_focus": {
-    "key_sounds": "La consonne /gb/ réapparaît dans la désignation de la couleur blanche. Assurez-vous du bon blocage de l'air.",
-    "common_pitfalls": "Attention à ne pas assimiler le ton bas final de l'adjectif qualificatif avec le nom du vêtement."
+    "key_sounds": "Les adjectifs de couleur en kpele/kono suivent généralement le nom qu'ils qualifient et portent souvent un ton bas ou descendant marquant leur statut de modifieur.",
+    "common_pitfalls": "Attention à l'ordre des mots : contrairement au français « robe rouge » où l'adjectif suit déjà le nom, en kono l'adjectif suit aussi mais sans article intermédiaire, ce qui peut sembler elliptique aux francophones."
   },
   "vocabulary": [
     {
-      "word_id": "v9_1",
-      "term": "dòngò",
-      "phonetic_api": "/dòŋɡò/",
-      "phonetic_simple": "DON-GO",
-      "translation": "vêtement / boubou",
-      "example_sentence": "dòngò gbɛ̃̀",
-      "example_phonetic": "/dòŋɡò ɡɓɛ̃̀/",
-      "example_translation": "un vêtement blanc"
+      "word_id": "v1",
+      "term": "pêle",
+      "phonetic_api": "/pêle/",
+      "phonetic_simple": "PÉ-LÈ",
+      "translation": "blanc (kpele apparenté)",
+      "example_sentence": "Wôlo pêle.",
+      "example_phonetic": "/wôlo pêle/",
+      "example_translation": "Un vêtement blanc."
     },
     {
-      "word_id": "v9_2",
-      "term": "gbɛ̃̀",
-      "phonetic_api": "/ɡɓɛ̃̀/",
-      "phonetic_simple": "GBEN",
-      "translation": "blanc",
-      "example_sentence": "ń yé dòngò gbɛ̃̀ pɔ́.",
-      "example_phonetic": "/ń jé dòŋɡò ɡɓɛ̃̀ pɔ́/",
-      "example_translation": "Je veux le vêtement blanc."
+      "word_id": "v2",
+      "term": "fíi",
+      "phonetic_api": "/fíː/",
+      "phonetic_simple": "FI-I",
+      "translation": "noir (kpele apparenté)",
+      "example_sentence": "Wôlo fíi.",
+      "example_phonetic": "/wôlo fíː/",
+      "example_translation": "Un vêtement noir."
     },
     {
-      "word_id": "v9_3",
-      "term": "tɔ̀ɔ̀",
-      "phonetic_api": "/tɔ̀ː/",
-      "phonetic_simple": "TOO",
-      "translation": "noir / sombre",
-      "example_sentence": "bà tɔ̀ɔ̀",
-      "example_phonetic": "/bà tɔ̀ː/",
-      "example_translation": "une chèvre noire"
+      "word_id": "v3",
+      "term": "wúlu",
+      "phonetic_api": "/wúlu/",
+      "phonetic_simple": "WOU-LOU",
+      "translation": "rouge (kpele apparenté)",
+      "example_sentence": "Wôlo wúlu.",
+      "example_phonetic": "/wôlo wúlu/",
+      "example_translation": "Un vêtement rouge."
+    },
+    {
+      "word_id": "v4",
+      "term": "wôlo",
+      "phonetic_api": "/wôlo/",
+      "phonetic_simple": "WO-LO",
+      "translation": "vêtement, pagne (kpele apparenté)",
+      "example_sentence": "Ɲá wôlo káa.",
+      "example_phonetic": "/ɲá wôlo káː/",
+      "example_translation": "Voici mon vêtement."
+    },
+    {
+      "word_id": "v5",
+      "term": "gbìɲíi",
+      "phonetic_api": "/gbìɲíː/",
+      "phonetic_simple": "GBI-NYI-I",
+      "translation": "vert (kpele apparenté)",
+      "example_sentence": "Wôlo gbìɲíi.",
+      "example_phonetic": "/wôlo gbìɲíː/",
+      "example_translation": "Un vêtement vert."
+    },
+    {
+      "word_id": "v6",
+      "term": "kpɛ̀lɛ̀",
+      "phonetic_api": "/kpɛ̀lɛ̀/",
+      "phonetic_simple": "KPÈ-LÈ",
+      "translation": "jaune (kpele apparenté)",
+      "example_sentence": "Wôlo kpɛ̀lɛ̀.",
+      "example_phonetic": "/wôlo kpɛ̀lɛ̀/",
+      "example_translation": "Un vêtement jaune."
+    },
+    {
+      "word_id": "v7",
+      "term": "sáki",
+      "phonetic_api": "/sáki/",
+      "phonetic_simple": "SA-KI",
+      "translation": "chemise (emprunt régional, kpele/kono)",
+      "example_sentence": "Sáki wúlu.",
+      "example_phonetic": "/sáki wúlu/",
+      "example_translation": "Une chemise rouge."
+    },
+    {
+      "word_id": "v8",
+      "term": "kʌ́tɔ́ɔ",
+      "phonetic_api": "/kʌ́tɔ́ɔ/",
+      "phonetic_simple": "KA-TO-O",
+      "translation": "chaussure (emprunt régional, kpele/kono)",
+      "example_sentence": "Kʌ́tɔ́ɔ fíi.",
+      "example_phonetic": "/kʌ́tɔ́ɔ fíː/",
+      "example_translation": "Des chaussures noires."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p9_1",
-      "original": "Dòngò mìɛ̀ le í yé ?",
-      "phonetic_api": "/dòŋɡò mìɛ̀ le í jé/",
-      "phonetic_simple": "DON-GO MIE LE I YE ?",
-      "translation": "Quel vêtement possèdes-tu ?",
-      "context": "Interroger quelqu'un sur ses habits ou un choix au marché."
+      "phrase_id": "p1",
+      "original": "Wôlo pêle.",
+      "phonetic_api": "/wôlo pêle/",
+      "phonetic_simple": "WO-LO PÉ-LÈ",
+      "translation": "Un vêtement blanc.",
+      "context": "Structure de base Nom + Couleur, sans article intermédiaire."
     },
     {
-      "phrase_id": "p9_2",
-      "original": "Ń yé dòngò gbɛ̃̀ lɔ́.",
-      "phonetic_api": "/ń jé dòŋɡò ɡɓɛ̃̀ lɔ́/",
-      "phonetic_simple": "N YE DON-GO GBEN LO",
-      "translation": "Je porte un vêtement blanc.",
-      "context": "Décrire sa propre tenue."
+      "phrase_id": "p2",
+      "original": "Ɲá lɔ́ɔ wôlo wúlu.",
+      "phonetic_api": "/ɲá lɔ́ɔ wôlo wúlu/",
+      "phonetic_simple": "NYA LO-O WO-LO WOU-LOU",
+      "translation": "Je veux un vêtement rouge.",
+      "context": "Pour exprimer une préférence de couleur lors d'un achat."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Sáki kʌ́tɔ́ɛ ye dɛ́?",
+      "phonetic_api": "/sáki kʌ́tɔ́ɛ jé dɛ́/",
+      "phonetic_simple": "SA-KI KA-TO-È YÉ DÉ",
+      "translation": "De quelle couleur est la chemise ?",
+      "context": "Question apparentée pour demander la couleur d'un objet (construction extrapolée par analogie, confiance faible à moyenne)."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Ɲá lɔ́ɔ sáki fítâ kɛ́.",
+      "phonetic_api": "/ɲá lɔ́ɔ sáki fítâ kɛ́/",
+      "phonetic_simple": "NYA LO-O SA-KI FI-TA KÉ",
+      "translation": "Je veux acheter une chemise noire.",
+      "context": "Phrase utile pour exprimer un souhait d'achat précis, combinant vêtement, couleur et verbe d'intention."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'adjectif qualificatif de couleur postposé",
-      "explanation": "Tout comme l'adjectif numéral, le qualificatif décrivant une coloration se situe après le nom auquel il se rapporte.",
+      "concept": "L'adjectif de couleur après le nom",
+      "explanation": "Comme la plupart des adjectifs en kono/kpele, les termes de couleur se placent directement après le nom qu'ils qualifient, sans article ni marque d'accord supplémentaire dans les cas simples.",
       "rules": [
-        "L'adjectif de couleur s'accorde contextuellement par harmonie tonale si le nom se termine par un ton haut très fort.",
-        "Les couleurs fondamentales (blanc, noir, rouge) possèdent des racines verbales descriptives autonomes."
+        "Nom + Couleur = Nom qualifié par cette couleur.",
+        "Aucune copule n'est nécessaire pour une simple description attributive courte.",
+        "L'ordre Nom-Adjectif est fixe et ne peut pas être inversé, contrairement à certains adjectifs français placés avant le nom."
       ],
       "examples": [
         {
-          "structure": "dòngò + gbɛ̃̀",
-          "phonetic_api": "/dòŋɡò ɡɓɛ̃̀/",
-          "meaning": "habit blanc"
+          "structure": "Nom + Couleur",
+          "phonetic_api": "/wôlo wúlu/",
+          "meaning": "vêtement rouge"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Marchand",
-      "text": "I yé dòngò tɔ̀ɔ̀ pɔ́ ?",
-      "phonetic_api": "/i jé dòŋɡò tɔ̀ː pɔ́/",
-      "phonetic_simple": "I YE DON-GO TOO PO ?",
-      "translation": "Veux-tu le vêtement noir ?"
+      "speaker": "Sèni",
+      "text": "Ɲá wôlo káa, wôlo wúlu.",
+      "phonetic_api": "/ɲá wôlo káː wôlo wúlu/",
+      "phonetic_simple": "NYA WO-LO KA-A, WO-LO WOU-LOU",
+      "translation": "Voici mon vêtement, un vêtement rouge."
     },
     {
-      "speaker": "Client",
-      "text": "Kápù, ń yé dòngò gbɛ̃̀ le pɔ́.",
-      "phonetic_api": "/kápu ń jé dòŋɡò ɡɓɛ̃̀ le pɔ́/",
-      "phonetic_simple": "KA-PO, N YE DON-GO GBEN LE PO",
-      "translation": "Non, je veux le vêtement blanc."
+      "speaker": "Bala",
+      "text": "Ɲá lɔ́ɔ sáki pêle.",
+      "phonetic_api": "/ɲá lɔ́ɔ sáki pêle/",
+      "phonetic_simple": "NYA LO-O SA-KI PÉ-LÈ",
+      "translation": "Moi, je préfère une chemise blanche."
+    },
+    {
+      "speaker": "Sèni",
+      "text": "É kʌ́tɔ́ɔ fíi ye dɛ́?",
+      "phonetic_api": "/é kʌ́tɔ́ɔ fíː jé dɛ́/",
+      "phonetic_simple": "É KA-TO-O FI-I YÉ DÉ",
+      "translation": "As-tu aussi des chaussures noires ?"
+    },
+    {
+      "speaker": "Bala",
+      "text": "Ěe, ŋa klɔŋ́!",
+      "phonetic_api": "/ěː ŋá klɔ́ŋ/",
+      "phonetic_simple": "É-É NGA KLONG",
+      "translation": "Oui, tout à fait !"
     }
   ],
   "cultural_notes": [
-    "Les vêtements en coton teint à l'indigo traditionnel ou de couleur blanche revêtent une signification de prestige importante lors des rassemblements coutumiers konon."
+    "Le pagne (wôlo) coloré et imprimé reste le vêtement traditionnel porté lors des cérémonies dans la région forestière de Guinée, notamment lors des fêtes de récolte.",
+    "Le blanc est souvent associé à la pureté et porté lors des cérémonies importantes (mariages, initiations), tandis que des couleurs vives comme le rouge et le jaune sont privilégiées pour les fêtes de danse."
   ],
   "exercises": [
     {
-      "exercise_id": "ex9_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Que signifie l'adjectif 'gbɛ̃̀' ?",
+      "question": "Où se place l'adjectif de couleur par rapport au nom en kono/kpele ?",
       "options": [
-        "Noir",
-        "Blanc",
-        "Rouge"
+        "Après le nom",
+        "Avant le nom",
+        "Il n'existe pas d'adjectif de couleur"
       ],
-      "correct_answer": "Blanc",
-      "explanation": "'gbɛ̃̀' correspond à la couleur blanche ou claire."
+      "correct_answer": "Après le nom",
+      "explanation": "Comme la majorité des adjectifs en kono/kpele, les couleurs se placent après le nom qu'elles qualifient."
     },
     {
-      "exercise_id": "ex9_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "dòngò [ ___ ] (vêtement noir)",
-      "correct_answer": "tɔ̀ɔ̀",
-      "hint": "Noir."
+      "sentence_with_blank": "Wôlo ___. (Un vêtement noir.)",
+      "correct_answer": "fíi",
+      "hint": "Couleur associée au deuil ou à l'élégance sobre."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Maria Konoshenko, « Dictionnaire kpele de la Guinée (guerzé) – français », Mandenkan 62 (2019/2020)",
+      "url": "https://journals.openedition.org/mandenkan/2091"
+    },
+    {
+      "label": "Wikipédia (FR) — « Kpèllé (langue) »",
+      "url": "https://fr.wikipedia.org/wiki/Kp%C3%A8ll%C3%A9_(langue)"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Peu de lexique Kono publié couvre ce champ sémantique précis. Le contenu s'appuie ici avec prudence sur le Kpelle de Guinée (guerzé, gkp), langue mandée du sud-ouest très proche du Kono (90% de cognats lexicaux selon Konoshenko 2017) et documentée par un dictionnaire académique de 3000 entrées. Les mots kpele sont signalés comme tels et pourraient différer légèrement du Kono authentique sur certains points de phonologie ou de lexique. Aucune donnée lexicale de couleurs ou de vêtements n'est directement attestée en kono dans nos sources ; l'intégralité de ce lexique provient du kpele de Guinée apparenté. La question 'de quelle couleur' est une extrapolation grammaticale non attestée telle quelle, signalée en confiance plus faible dans le champ correspondant."
 }

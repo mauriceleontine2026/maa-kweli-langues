@@ -4,154 +4,180 @@
   "module_number": 1,
   "module_title": "Les bases de la communication",
   "lesson_number": 1,
-  "title": "Les salutations et les formules de politesse",
+  "title": "Les salutations et les formules de politesse (bonjour, merci, au revoir)",
   "learning_objectives": [
-    "Savoir saluer selon le moment de la journée en Badiaranké",
-    "Exprimer les formules de politesse de base, le remerciement et l'au revoir",
-    "Maîtriser le protocole culturel de l'échange de nouvelles"
+    "Comprendre pourquoi aucune formule de « bonjour / merci / au revoir » n'est attestée en badiaranké dans les sources disponibles",
+    "Utiliser les emprunts religieux (bismila, arabi) qui jouent un rôle proche des formules de politesse",
+    "Nommer les deux catégories de personnes attestées : wusia (homme) et tSa:fe (femme)"
   ],
   "phonetic_focus": {
-    "key_sounds": "La langue Badiaranké possède des consonnes implosives transcrites /ɓ/ et /ɗ/ qu'il faut prononcer en aspirant l'air vers l'intérieur de la bouche. Les voyelles longues sont doublées graphiquement et durent deux fois plus longtemps.",
-    "common_pitfalls": "Ne pas confondre la consonne implosive /ɓ/ avec l'explosive bilabiale /b/. Veillez à bien prononcer les voyelles finales sans les amuïr ou les abréger."
+    "key_sounds": "Cover (2010) transcrit des voyelles nasales (ex. /ĩ/, /ã/, notées ˜ après la voyelle) et une consonne /tʃ/ proche du « tch » français (ex. tSa:fe).",
+    "common_pitfalls": "Les francophones oublient souvent la nasalisation vocalique et prononcent /tʃ/ comme un simple « s »."
   },
   "vocabulary": [
     {
-      "word_id": "v1_1",
-      "term": "Mbaara",
-      "phonetic_api": "/mɓaːra/",
-      "phonetic_simple": "MBAA-RA",
-      "translation": "Bonjour / Salut (général)",
-      "example_sentence": "Mbaara, i maami ?",
-      "example_phonetic": "/mɓaːra i maːmi/",
-      "example_translation": "Bonjour, comment vas-tu ?"
+      "word_id": "v1",
+      "term": "bismila",
+      "phonetic_api": "/bismila/",
+      "phonetic_simple": "bis-mi-la",
+      "translation": "bienvenue"
     },
     {
-      "word_id": "v1_2",
-      "term": "Kasumaye",
-      "phonetic_api": "/kasuːmaje/",
-      "phonetic_simple": "KA-SOU-MA-YE",
-      "translation": "La paix (salutation/réponse)",
-      "example_sentence": "Kasumaye boki.",
-      "example_phonetic": "/kasuːmaje ɓoki/",
-      "example_translation": "La paix soit avec toi."
+      "word_id": "v2",
+      "term": "arabi",
+      "phonetic_api": "/arabi/",
+      "phonetic_simple": "a-ra-bi",
+      "translation": "prière"
     },
     {
-      "word_id": "v1_3",
-      "term": "Tanu",
-      "phonetic_api": "/tanu/",
-      "phonetic_simple": "TA-NOU",
-      "translation": "Remercier",
-      "example_sentence": "N tanu i bilisa.",
-      "example_phonetic": "/n tanu i ɓilisa/",
-      "example_translation": "Je te remercie beaucoup."
+      "word_id": "v3",
+      "term": "lislam",
+      "phonetic_api": "/lislam/",
+      "phonetic_simple": "li-slam",
+      "translation": "islam"
     },
     {
-      "word_id": "v1_4",
-      "term": "Abaari",
-      "phonetic_api": "/aɓaːri/",
-      "phonetic_simple": "A-BAA-RI",
-      "translation": "Nouvelles",
-      "example_sentence": "Abaari sae ?",
-      "example_phonetic": "/aɓaːri sae/",
-      "example_translation": "Quelles sont les bonnes nouvelles ?"
+      "word_id": "v4",
+      "term": "wunu",
+      "phonetic_api": "/wunu/",
+      "phonetic_simple": "wou-nou",
+      "translation": "personne (être humain)"
+    },
+    {
+      "word_id": "v5",
+      "term": "wusia",
+      "phonetic_api": "/wusia/",
+      "phonetic_simple": "wou-si-a",
+      "translation": "homme"
+    },
+    {
+      "word_id": "v6",
+      "term": "tSa:fe",
+      "phonetic_api": "/tʃa:fe/",
+      "phonetic_simple": "tcha-fé",
+      "translation": "femme"
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p1_1",
-      "original": "Mbaara i maami ?",
-      "phonetic_api": "/mɓaːra i maːmi/",
-      "phonetic_simple": "MBAA-RA I MAA-MI",
-      "translation": "Bonjour, comment vas-tu ?",
-      "context": "Rencontre en journée, cadre informel ou formel."
+      "phrase_id": "p1",
+      "original": "bismila",
+      "phonetic_api": "/bismila/",
+      "phonetic_simple": "bis-mi-la",
+      "translation": "bienvenue",
+      "context": "Formule d'accueil attestée dans le corpus de Cover (2010), d'origine religieuse (arabe/islam)."
     },
     {
-      "phrase_id": "p1_2",
-      "original": "Iyo, kasumaye rek.",
-      "phonetic_api": "/ijo kasuːmaje rek/",
-      "phonetic_simple": "I-YO KA-SOU-MA-YE REK",
-      "translation": "Oui, la paix seulement (Tout va bien).",
-      "context": "Réponse standard et indispensable à toute salutation."
+      "phrase_id": "p2",
+      "original": "arabi",
+      "phonetic_api": "/arabi/",
+      "phonetic_simple": "a-ra-bi",
+      "translation": "prière",
+      "context": "Mot du champ religieux attesté ; utilisé dans les échanges formels liés à la pratique de l'islam."
     },
     {
-      "phrase_id": "p1_3",
-      "original": "N tanu Alla.",
-      "phonetic_api": "/n tanu alla/",
-      "phonetic_simple": "N TA-NOU AL-LA",
-      "translation": "Je remercie Dieu.",
-      "context": "Formule de gratitude pour signifier sa bonne santé."
+      "phrase_id": "p3",
+      "original": "lislam",
+      "phonetic_api": "/lislam/",
+      "phonetic_simple": "li-slam",
+      "translation": "islam",
+      "context": "Terme attesté par Cover (2010), indispensable pour comprendre le contexte religieux des salutations."
     },
     {
-      "phrase_id": "p1_4",
-      "original": "Yo sae !",
-      "phonetic_api": "/jo sae/",
-      "phonetic_simple": "YO SA-E",
-      "translation": "Au revoir (Porte-toi bien) !",
-      "context": "En quittant quelqu'un."
+      "phrase_id": "p4",
+      "original": "bismila arabi",
+      "phonetic_api": "/bismila/ /arabi/",
+      "phonetic_simple": "bis-mi-la a-ra-bi",
+      "translation": "bienvenue prière",
+      "context": "Juxtaposition pédagogique de mots déjà attestés dans cette leçon (recombinaison, PAS une phrase attestée telle quelle dans les sources)."
     }
   ],
   "grammar_points": [
     {
-      "concept": "Le pronom personnel sujet de la deuxième personne",
-      "explanation": "Pour s'adresser à une personne au singulier, on insère la marque vocalique clitique 'i' immédiatement avant le prédicat de salutation ou d'interrogation.",
+      "concept": "Absence de formules quotidiennes attestées",
+      "explanation": "Aucune source disponible ne documente les mots badiaranké pour « bonjour », « merci » ou « au revoir ». L'enquête sociolinguistique SIL (2007) indique que le peul (pulaar) est la langue du commerce dans la région et que beaucoup d'échanges se font dans cette langue plutôt qu'en badiaranké, ce qui pourrait expliquer en partie ce manque de documentation.",
       "rules": [
-        "Le morphème 'i' correspond à 'tu' ou 'toi' dans l'interrogation directe.",
-        "La marque de première personne singulière se réalise par la nasale 'n' attachée au verbe."
+        "Ne jamais présenter une traduction inventée de « bonjour/merci/au revoir ».",
+        "Utiliser les emprunts religieux attestés (bismila, arabi, lislam) comme seul contenu réel disponible pour cette leçon."
       ],
       "examples": [
         {
-          "structure": "i maami",
-          "phonetic_api": "/i maːmi/",
-          "meaning": "tu es comment"
+          "structure": "bismila",
+          "phonetic_api": "/bismila/",
+          "meaning": "bienvenue"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Personne A",
-      "text": "Mbaara, i maami ?",
-      "phonetic_api": "/mɓaːra i maːmi/",
-      "phonetic_simple": "MBAA-RA I MAA-MI",
-      "translation": "Bonjour, comment vas-tu ?"
+      "speaker": "Wusia",
+      "text": "bismila.",
+      "phonetic_api": "/bismila/",
+      "phonetic_simple": "bis-mi-la",
+      "translation": "Bienvenue."
     },
     {
-      "speaker": "Personne B",
-      "text": "Iyo, kasumaye rek. Abaari sae ?",
-      "phonetic_api": "/ijo kasuːmaje rek aɓaːri sae/",
-      "phonetic_simple": "I-YO KA-SOU-MA-YE REK A-BAA-RI SA-E",
-      "translation": "Oui, la paix seulement. Les nouvelles sont-elles bonnes ?"
+      "speaker": "TSa:fe",
+      "text": "wusia. tSa:fe.",
+      "phonetic_api": "/wusia/ /tʃa:fe/",
+      "phonetic_simple": "wou-si-a. tcha-fé.",
+      "translation": "(un) homme. (une) femme. — mots juxtaposés pour illustrer le vocabulaire, pas une phrase attestée telle quelle."
     },
     {
-      "speaker": "Personne A",
-      "text": "Kasumaye. N tanu i.",
-      "phonetic_api": "/kasuːmaje n tanu i/",
-      "phonetic_simple": "KA-SOU-MA-YE N TA-NOU I",
-      "translation": "La paix. Je te remercie."
+      "speaker": "Professeur",
+      "text": "arabi.",
+      "phonetic_api": "/arabi/",
+      "phonetic_simple": "a-ra-bi",
+      "translation": "Prière. (mot attesté isolé, recombiné pédagogiquement dans ce dialogue)"
+    },
+    {
+      "speaker": "Élève",
+      "text": "lislam.",
+      "phonetic_api": "/lislam/",
+      "phonetic_simple": "li-slam",
+      "translation": "Islam. (mot attesté isolé, recombiné pédagogiquement dans ce dialogue)"
     }
   ],
   "cultural_notes": [
-    "Chez les Badiaranké de Koundara, ne pas répondre longuement aux salutations est considéré comme une rupture d'harmonie sociale. On enchaîne souvent les questions sur la famille et la santé avant d'entamer une discussion."
+    "La majorité des interactions commerciales et administratives dans la région badiaranké se font en peul (pulaar), en mandinka/malinké ou en français, le badiaranké restant la langue du foyer (SIL, 2007).",
+    "Le badiaranké est classé « sérieusement en danger » par l'Atlas des langues en danger dans le monde (Wikipédia, d'après l'UNESCO)."
   ],
   "exercises": [
     {
-      "exercise_id": "ex1_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Que répond-on traditionnellement à la salutation 'Mbaara' ?",
+      "question": "\"bismila\" signifie :",
       "options": [
-        "Yo sae !",
-        "Iyo, kasumaye rek.",
-        "Bilisa."
+        "bienvenue",
+        "au revoir",
+        "s'il vous plaît"
       ],
-      "correct_answer": "Iyo, kasumaye rek.",
-      "explanation": "La formule marque l'acceptation de la salutation sous l'auspice de la paix."
+      "correct_answer": "bienvenue",
+      "explanation": "Attesté dans le corpus de Cover (2010) comme mot d'accueil emprunté à l'arabe via l'islam."
     },
     {
-      "exercise_id": "ex1_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "N [ ___ ] Alla.",
-      "correct_answer": "tanu",
-      "hint": "Signifie 'remercier' ou 'louer'."
+      "sentence_with_blank": "[ ___ ] est le mot pour « femme » en badiaranké.",
+      "correct_answer": "tSa:fe",
+      "hint": "Attesté à la fois par Cover (2010) et par la liste ASJP (variante CafE)."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Cover, R. (2010) — Aspect, Modality, and Tense in Badiaranke, UC Berkeley (PhD dissertation)",
+      "url": "https://escholarship.org/uc/item/6f91m5dg"
+    },
+    {
+      "label": "Jenkins, S. G. & Amdahl, J. E. (2007) — A Survey of the Tenda Languages in SE Senegal, SIL International",
+      "url": "https://www.sil.org/system/files/reapdata/72/25/98/72259868317564516932652615063790192765/silesr2007_011.pdf"
+    },
+    {
+      "label": "Wikipédia — Badiaranké (langue)",
+      "url": "https://fr.wikipedia.org/wiki/Badiarank%C3%A9_(langue)"
+    }
+  ],
+  "confidence": "faible",
+  "confidence_note": "Le badiaranké (pbp — le code \"bcj\" ne correspond à aucune langue dans les référentiels consultés) est une langue très peu documentée. Aucune ressource trouvée (thèse de R. Cover 2010, liste ASJP d'après Meyer 2001, enquête SIL 2007, Wikipédia, Gessain 1958) ne fournit de matériel complet pour ce sujet précis de leçon. Pour cette leçon spécifique, aucune formule de salutation courante n'a été trouvée ; seuls des emprunts religieux et deux noms de personnes ont pu être utilisés."
 }

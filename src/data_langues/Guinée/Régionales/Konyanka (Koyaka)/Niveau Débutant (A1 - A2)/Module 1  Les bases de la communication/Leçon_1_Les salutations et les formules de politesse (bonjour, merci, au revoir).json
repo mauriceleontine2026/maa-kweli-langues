@@ -4,163 +4,269 @@
   "module_number": 1,
   "module_title": "Les bases de la communication",
   "lesson_number": 1,
-  "title": "Les salutations et les formules de politesse",
+  "title": "Les salutations et les formules de politesse (bonjour, merci, au revoir)",
   "learning_objectives": [
-    "Savoir saluer selon le moment de la journée en konyanka",
-    "Exprimer le remerciement et les réponses de politesse élémentaires"
+    "Saluer selon le moment de la journée (matin, journée, soir/nuit)",
+    "Répondre à une salutation selon le genre du locuteur",
+    "Utiliser les formules de politesse de base : merci, oui, non",
+    "Prendre congé poliment"
   ],
   "phonetic_focus": {
-    "key_sounds": "La langue konyanka utilise des tons distinctifs. Le 'ì' initial dans les salutations possède un ton bas et indique la deuxième personne du singulier. Le 'ɔ' se prononce comme le 'o' ouvert de 'porte'.",
-    "common_pitfalls": "Ne pas prononcer le 'h' initial de 'hissɔma' de façon trop aspirée à l'anglaise ; il s'agit d'une légère friction glottale, souvent omise ou adoucie en 'ì sɔma' selon les locuteurs."
+    "key_sounds": "Le ton (haut/bas) distingue des mots par ailleurs identiques ; les voyelles nasalisées (an, en, in, on) se prononcent d'un seul geste articulatoire, sans détacher de consonne finale.",
+    "common_pitfalls": "Confondre les salutations selon le moment du jour (le matin, la journée, le soir ne se saluent pas de la même façon) ; oublier que la réponse à une interjection de salutation diffère selon que le locuteur est un homme (nba) ou une femme (nsee/n see)."
   },
   "vocabulary": [
     {
       "word_id": "v1",
-      "term": "Ì sɔma",
-      "phonetic_api": "/ì sɔ́.má/",
-      "phonetic_simple": "I SƆ-MA",
-      "translation": "Bonjour (le matin)",
-      "example_sentence": "Ì sɔma, n'ba.",
-      "example_phonetic": "/ì sɔ́.má ń bá/",
-      "example_translation": "Bonjour, ma mère."
+      "term": "i ni sɔɔma",
+      "phonetic_api": "[i ni sɔːma]",
+      "phonetic_simple": "i-ni-so-o-ma",
+      "translation": "bonjour (le matin)",
+      "example_sentence": "I ni sɔɔma, karamoo.",
+      "example_phonetic": "[i ni sɔːma karamoː]",
+      "example_translation": "Bonjour, maître (le matin)."
     },
     {
       "word_id": "v2",
-      "term": "I ni tile",
-      "phonetic_api": "/í ní tí.lé/",
-      "phonetic_simple": "I NI TI-LÉ",
-      "translation": "Bonjour / Bon après-midi",
-      "example_sentence": "I ni tile, n'fa.",
-      "example_phonetic": "/í ní tí.lé ń fá/",
-      "example_translation": "Bonjour, mon père."
+      "term": "i ni tele",
+      "phonetic_api": "[i ni tele]",
+      "phonetic_simple": "i-ni-té-lé",
+      "translation": "bonjour (la journée)",
+      "example_sentence": "N ba, i ni tele.",
+      "example_phonetic": "[n ba i ni tele]",
+      "example_translation": "Bonjour (réponse d'un homme)."
     },
     {
       "word_id": "v3",
-      "term": "I ni wula",
-      "phonetic_api": "/í ní wú.lá/",
-      "phonetic_simple": "I NI OU-LA",
-      "translation": "Bonsoir (en fin d'après-midi)",
-      "example_sentence": "I ni wula n'baden.",
-      "example_phonetic": "/í ní wú.lá ń bá.dén/",
-      "example_translation": "Bonsoir mon frère / ma sœur."
+      "term": "i ni wura",
+      "phonetic_api": "[i ni wura]",
+      "phonetic_simple": "i-ni-wou-ra",
+      "translation": "bonsoir (fin d'après-midi/soir)",
+      "example_sentence": "I ni wura, denbaya.",
+      "example_phonetic": "[i ni wura denbaja]",
+      "example_translation": "Bonsoir, à la famille."
     },
     {
       "word_id": "v4",
-      "term": "I ni su",
-      "phonetic_api": "/í ní sú/",
-      "phonetic_simple": "I NI SOU",
-      "translation": "Bonsoir / Bonne nuit (à la nuit tombée)",
-      "example_sentence": "I ni su, n'teri.",
-      "example_phonetic": "/í ní sú ń té.rí/",
-      "example_translation": "Bonsoir, mon ami."
+      "term": "barika",
+      "phonetic_api": "[barika]",
+      "phonetic_simple": "ba-ri-ka",
+      "translation": "merci",
+      "example_sentence": "Barika, i ni waale.",
+      "example_phonetic": "[barika i ni waːle]",
+      "example_translation": "Merci, bonjour à toi."
     },
     {
       "word_id": "v5",
-      "term": "Barika",
-      "phonetic_api": "/bá.rí.ká/",
-      "phonetic_simple": "BA-RI-KA",
-      "translation": "Merci / Bénédiction",
-      "example_sentence": "Barika i la.",
-      "example_phonetic": "/bá.rí.ká í lá/",
-      "example_translation": "Merci à toi."
+      "term": "awa",
+      "phonetic_api": "[awa]",
+      "phonetic_simple": "a-wa",
+      "translation": "oui, d'accord",
+      "example_sentence": "Awa, tana tɛ.",
+      "example_phonetic": "[awa tana tɛ]",
+      "example_translation": "D'accord, il n'y a pas de mal."
+    },
+    {
+      "word_id": "v6",
+      "term": "ntè / kaari",
+      "phonetic_api": "[n.tɛ] / [kaːri]",
+      "phonetic_simple": "n-tè / ka-a-ri",
+      "translation": "non",
+      "example_sentence": "Ntè, wo tɛ ten.",
+      "example_phonetic": "[n.tɛ wo tɛ ten]",
+      "example_translation": "Non, ce n'est pas ainsi."
+    },
+    {
+      "word_id": "v7",
+      "term": "an bè kola",
+      "phonetic_api": "[an bɛ kola]",
+      "phonetic_simple": "an-bè-ko-la",
+      "translation": "au revoir (litt. « nous restons »)",
+      "example_sentence": "Awa, an bè kola.",
+      "example_phonetic": "[awa an bɛ kola]",
+      "example_translation": "D'accord, au revoir."
+    },
+    {
+      "word_id": "v8",
+      "term": "an bè sinin",
+      "phonetic_api": "[an bɛ sinin]",
+      "phonetic_simple": "an-bè-si-nin",
+      "translation": "à demain",
+      "example_sentence": "An bè sinin sooma.",
+      "example_phonetic": "[an bɛ sinin soːma]",
+      "example_translation": "À demain matin."
     }
   ],
   "common_phrases": [
     {
       "phrase_id": "p1",
-      "original": "I ka kɛnɛ?",
-      "phonetic_api": "/í ká kɛ́.nɛ́/",
-      "phonetic_simple": "I KA KÈ-NÈ",
-      "translation": "Comment vas-tu ? (Es-tu en santé ?)",
-      "context": "Salutation générale et directe utilisée tout au long de la journée."
+      "original": "Tana ma sii?",
+      "phonetic_api": "[tana ma siː]",
+      "phonetic_simple": "ta-na-ma-si-i",
+      "translation": "Comment ça va ? (litt. « le mal n'a-t-il pas passé la nuit ? »)",
+      "context": "Question de courtoisie après la salutation du matin"
     },
     {
       "phrase_id": "p2",
-      "original": "Hali tana tɛ.",
-      "phonetic_api": "/há.lí tá.ná tɛ́/",
-      "phonetic_simple": "HA-LI TA-NA TÈ",
-      "translation": "Tout va bien (Pas de mal du tout).",
-      "context": "Réponse standard et polie à toute demande de nouvelles."
+      "original": "Tana sii tɛ",
+      "phonetic_api": "[tana siː tɛ]",
+      "phonetic_simple": "ta-na-si-i-tè",
+      "translation": "Ça va bien (litt. « le mal n'a pas passé la nuit »)",
+      "context": "Réponse standard à 'Tana ma sii ?'"
     },
     {
       "phrase_id": "p3",
-      "original": "I ni kɛwuli.",
-      "phonetic_api": "/í ní kɛ́.wú.lí/",
-      "phonetic_simple": "I NI KÈ-OU-LI",
-      "translation": "Merci pour le travail / Félicitations pour ton effort.",
-      "context": "Formule adressée à quelqu'un que l'on trouve en train de travailler ou de s'activer."
+      "original": "Nba",
+      "phonetic_api": "[n.ba]",
+      "phonetic_simple": "n-ba",
+      "translation": "oui (réponse d'un homme à une salutation)",
+      "context": "Interjection de reconnaissance utilisée par les hommes"
     },
     {
       "phrase_id": "p4",
-      "original": "K'an bɛn tile do.",
-      "phonetic_api": "/kán bɛ́n tí.lé dó/",
-      "phonetic_simple": "KAN BÈN TI-LÉ DO",
-      "translation": "Au revoir (À un de ces jours / À la prochaine).",
-      "context": "Formule de séparation lorsque l'on quitte un groupe ou un individu."
+      "original": "N see",
+      "phonetic_api": "[n seː]",
+      "phonetic_simple": "n-sé-é",
+      "translation": "oui (réponse d'une femme à une salutation)",
+      "context": "Interjection de reconnaissance utilisée par les femmes"
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Alu ni waale",
+      "phonetic_api": "[alu ni waːle]",
+      "phonetic_simple": "a-lou-ni-wa-a-lé",
+      "translation": "Bonjour à tous / salutations à tous",
+      "context": "Salutation collective, s'adressant à un groupe"
+    },
+    {
+      "phrase_id": "p6",
+      "original": "Salamalekun",
+      "phonetic_api": "[salamalekun]",
+      "phonetic_simple": "sa-la-ma-lé-koun",
+      "translation": "Salut (salutation d'origine arabo-musulmane)",
+      "context": "Salutation courante empruntée à l'arabe, très répandue en Guinée"
+    },
+    {
+      "phrase_id": "p7",
+      "original": "Barika tɛ i ma",
+      "phonetic_api": "[barika tɛ i ma]",
+      "phonetic_simple": "ba-ri-ka-tè-i-ma",
+      "translation": "De rien / pas de quoi",
+      "context": "Réponse polie à 'barika' (merci)"
     }
   ],
   "grammar_points": [
     {
-      "concept": "La salutation préfixée 'I ni'",
-      "explanation": "En konyanka, la majorité des salutations situationnelles se construisent avec le pronom de la deuxième personne 'I' suivi de la conjonction/particule 'ni' (avec) et de l'élément caractérisant le moment ou l'action.",
+      "concept": "Les salutations liées au moment de la journée",
+      "explanation": "Il n'existe pas une salutation unique pour « bonjour » : la formule change selon l'heure (matin, journée, soir). La structure de base est « i ni » + nom du moment.",
       "rules": [
-        "I + ni + moment (tile, wula, su) permet de saluer la personne selon la temporalité.",
-        "Si l'on s'adresse à plusieurs personnes, le pronom 'I' se transforme en 'A' ou 'Ai' (Ai ni tile)."
+        "i ni sɔɔma = bonjour le matin",
+        "i ni tele = bonjour pendant la journée",
+        "i ni wura = bonsoir (fin d'après-midi/soir)",
+        "La réponse reprend souvent la même salutation ou emploie l'interjection de reconnaissance (nba pour un homme, n see pour une femme)"
       ],
       "examples": [
         {
-          "structure": "Ai ni tile",
-          "phonetic_api": "/áí ní tí.lé/",
-          "meaning": "Bonjour à vous tous."
+          "structure": "i ni + [moment]",
+          "phonetic_api": "[i ni sɔːma]",
+          "meaning": "bonjour + moment de la journée"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Moussa",
-      "text": "Ì sɔma, n'teri! I ka kɛnɛ?",
-      "phonetic_api": "/ì sɔ́.má ń té.rí í ká kɛ́.nɛ́/",
-      "phonetic_simple": "I SƆ-MA N'TÉ-RI! I KA KÈ-NÈ?",
-      "translation": "Bonjour mon ami ! Tu vas bien ?"
+      "speaker": "Kéïta",
+      "text": "I ni sɔɔma !",
+      "phonetic_api": "[i ni sɔːma]",
+      "phonetic_simple": "i-ni-so-o-ma",
+      "translation": "Bonjour (le matin) !"
     },
     {
-      "speaker": "Sékou",
-      "text": "Hali tana tɛ, tana t'i la?",
-      "phonetic_api": "/há.lí tá.ná tɛ́ tá.ná tí lá/",
-      "phonetic_simple": "HA-LI TA-NA TÈ, TA-NA TI LA?",
-      "translation": "Tout va bien, pas de mal chez toi ?"
+      "speaker": "Kamara",
+      "text": "N ba. Tana ma sii?",
+      "phonetic_api": "[n ba tana ma siː]",
+      "phonetic_simple": "n-ba, ta-na-ma-si-i",
+      "translation": "Oui (réponse d'un homme). Comment ça va ?"
     },
     {
-      "speaker": "Moussa",
-      "text": "Tana tɛ. Barika.",
-      "phonetic_api": "/tá.ná tɛ́ bá.rí.ká/",
-      "phonetic_simple": "TA-NA TÈ. BA-RI-KA.",
-      "translation": "Pas de mal. Merci."
+      "speaker": "Kéïta",
+      "text": "Tana sii tɛ, barika.",
+      "phonetic_api": "[tana siː tɛ barika]",
+      "phonetic_simple": "ta-na-si-i-tè, ba-ri-ka",
+      "translation": "Ça va bien, merci."
+    },
+    {
+      "speaker": "Kamara",
+      "text": "Awa. An bè sinin.",
+      "phonetic_api": "[awa an bɛ sinin]",
+      "phonetic_simple": "a-wa, an-bè-si-nin",
+      "translation": "D'accord. À demain."
+    },
+    {
+      "speaker": "Kéïta",
+      "text": "Awa, an bè kola.",
+      "phonetic_api": "[awa an bɛ kola]",
+      "phonetic_simple": "a-wa, an-bè-ko-la",
+      "translation": "D'accord, au revoir."
     }
   ],
   "cultural_notes": [
-    "Les salutations en pays konyanka sont un pilier fondamental de la vie sociale. Saluer longuement et s'enquérir du bien-être de l'autre est une marque de respect obligatoire. Passer devant quelqu'un sans saluer est perçu comme une grave impolitesse."
+    "Le Konyanka (aussi Koyaka, Konianka ; code ISO mku, Glottolog kony1250) est une variété du Maninka/Malinké parlée au sud-est de la Guinée, principalement dans les préfectures de Kérouane (région de Kankan) et de Beyla (région de Nzérékoré), ainsi qu'au Liberia, en Côte d'Ivoire et en Sierra Leone (Wikipédia — Konyanka).",
+    "Les Koniankés utilisent localement un alphabet dit « konia » pour transcrire leur parler à Beyla ; le maninka/malinké standard de Haute-Guinée reste la variété la mieux documentée du continuum dont le Konyanka fait partie (Langues de Guinée).",
+    "Comme dans tout le continuum manding, il est considéré impoli de commencer une conversation sans échanger d'abord les salutations d'usage."
   ],
   "exercises": [
     {
-      "exercise_id": "ex1",
-      "type": "multiple_choice",
-      "question": "Quelle expression utilise-t-on spécifiquement pour dire bonjour le matin ?",
+      "exercise_id": "e1",
+      "type": "choix_multiple",
+      "question": "Quelle formule utilise-t-on pour dire bonjour LE MATIN ?",
       "options": [
-        "I ni tile",
-        "Ì sɔma",
-        "I ni su"
+        "i ni tele",
+        "i ni sɔɔma",
+        "i ni wura",
+        "barika"
       ],
-      "correct_answer": "Ì sɔma",
-      "explanation": "'Ì sɔma' est la salutation exclusive de la matinée (l'aurore et le début de journée)."
+      "correct_answer": "i ni sɔɔma",
+      "explanation": "'i ni sɔɔma' est réservé à la salutation du matin ; 'i ni tele' se dit en journée."
     },
     {
-      "exercise_id": "ex2",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "I ni [ ___ ] (Salutation employée la nuit ou le soir tard).",
-      "correct_answer": "su",
-      "hint": "Un mot court de deux lettres signifiant la nuit."
+      "exercise_id": "e2",
+      "type": "traduction",
+      "question": "Traduisez : 'Merci'",
+      "correct_answer": "Barika",
+      "explanation": "'Barika' est la formule générale de remerciement dans le continuum maninka/malinké dont relève le Konyanka."
+    },
+    {
+      "exercise_id": "e3",
+      "type": "texte_a_trous",
+      "sentence_with_blank": "Tana ___ tɛ. (Ça va bien.)",
+      "correct_answer": "sii",
+      "explanation": "'Tana sii tɛ' est la réponse standard, litt. 'le mal n'a pas passé la nuit'."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Malinkuia — Introduction à la langue malinké (grammaire complète, variété du Wulada, Haute-Guinée)",
+      "url": "https://fr.scribd.com/document/499114939/Malinkuia"
+    },
+    {
+      "label": "An ka taa — Maninka/Malinké greetings and phrases",
+      "url": "https://www.ankataa.com/maninka-greetings-and-phrases"
+    },
+    {
+      "label": "An ka taa — Yes/No and other essentials in Maninka",
+      "url": "https://www.ankataa.com/blog/2026/3/16/yes-no-and-other-essentials-in-maninka"
+    },
+    {
+      "label": "Wikipédia — Konyanka (classification, géographie, codes ISO/Glottolog)",
+      "url": "https://fr.wikipedia.org/wiki/Konyanka"
+    },
+    {
+      "label": "Langues de Guinée (fr-academic) — répartition géographique, alphabet konia",
+      "url": "https://fr-academic.com/dic.nsf/frwiki/971120"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Aucun lexique ou grammaire publiés et dédiés spécifiquement au Konyanka (Koyaka/Konianka, ISO mku) n'a été localisé : les sources académiques disponibles (SIL, Ethnologue, Glottolog) confirment son existence, sa localisation (Beyla, Kérouane, Nzérékoré, Damaro) et son statut de variété vigoureuse du Manding-Est, mais aucune ne fournit de corpus lexical ou phonologique propre à cette variété. Le vocabulaire de cette leçon provient donc du continuum dialectal Maninka/Malinké de Guinée dans lequel le Konyanka s'inscrit (intelligibilité mutuelle attestée), via la grammaire pratique Malinkuia (variété du Wulada, Haute-Guinée) et le site An ka taa. Les spécificités confirmées du Konyanka (nom, localisation, code ISO) sont indiquées dans les notes culturelles plutôt que dans le lexique."
 }

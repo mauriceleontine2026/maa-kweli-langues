@@ -6,108 +6,127 @@
   "lesson_number": 2,
   "title": "Exprimer l'hypothèse, le doute et la condition",
   "learning_objectives": [
-    "Formuler des structures conditionnelles réelles et irréelles (potentiel et irréel du passé)",
-    "Exprimer l'incertitude, la suspicion et le doute de manière nuancée",
-    "Utiliser les particules de subordination hypothétique pour structurer un raisonnement complexe"
+    "Construire une phrase conditionnelle avec 'ni ... , ...'",
+    "Exprimer le doute avec des particules modales",
+    "Nuancer une affirmation par l'incertitude"
   ],
   "phonetic_focus": {
-    "key_sounds": "La conjonction de condition 'ni' /ni/ s'articule brièvement. La particule de doute potentiel 'mankɛ' ou 'n'fɛlɛ' exige une articulation nasale souple. Le marqueur de l'irréel passé 'tun' /tũ/ conserve sa voyelle nasale fermée et s'associe souvent à la fin de la proposition conditionnelle.",
-    "common_pitfalls": "Ne confondez pas le 'ni' de condition (si) avec le 'ni' de coordination (et) ou le 'ni' optatif. C'est la structure globale et l'intonation de la phrase qui guident le sens."
+    "key_sounds": "La conjonction conditionnelle 'ni' (si) est brève et se distingue du 'ni' possessif/pronom (nous) uniquement par la position syntaxique en tête de proposition.",
+    "common_pitfalls": "Confondre le 'ni' conditionnel ('si') avec le 'ni' de coordination ('et/avec') : le contexte syntaxique (début de proposition vs entre deux noms) permet de les distinguer."
   },
   "vocabulary": [
     {
       "word_id": "v1",
-      "term": "Ni",
-      "phonetic_api": "/ni/",
-      "phonetic_simple": "NI",
-      "translation": "Si (conjonction de condition / hypothèse)",
-      "example_sentence": "Ni wari bɛ i bolo, i bɛ se ka so san.",
-      "example_phonetic": "/ni wa.ri bɛ i bo.lo i bɛ se ka so sã/",
-      "example_translation": "Si tu as de l'argent, tu peux acheter une maison."
+      "term": "ni ... , ...",
+      "phonetic_api": "[ni]",
+      "phonetic_simple": "ni",
+      "translation": "si (introduit une condition)",
+      "example_sentence": "Ni a nana, an bɛna taa.",
+      "example_phonetic": "[ni a nana an bɛna taː]",
+      "example_translation": "S'il vient, nous partirons."
     },
     {
       "word_id": "v2",
-      "term": "Siga",
-      "phonetic_api": "/si.ɡa/",
-      "phonetic_simple": "SI-GA",
-      "translation": "Douter / Soupçonner / Doute",
-      "example_sentence": "N'bɛ siga nin ko la.",
-      "example_phonetic": "/mbɛ si.ɡa nĩ ko la/",
-      "example_translation": "Je doute de cette affaire."
+      "term": "n'a fɔ",
+      "phonetic_api": "[na fɔ]",
+      "phonetic_simple": "n-a-fo",
+      "translation": "comme si, par exemple (introduit une comparaison hypothétique)",
+      "example_sentence": "N'a fɔ i tɛ n dɔn.",
+      "example_phonetic": "[na fɔ i tɛ n dɔn]",
+      "example_translation": "Comme si tu ne me connaissais pas."
     },
     {
       "word_id": "v3",
-      "term": "N'fɛlɛ",
-      "phonetic_api": "/nfɛ.lɛ/",
-      "phonetic_simple": "N-FÈ-LÈ",
-      "translation": "Peut-être / Il se peut que (litt. regarde-moi / d'après mon observation)",
-      "example_sentence": "N'fɛlɛ u bɛ na bi.",
-      "example_phonetic": "/nfɛ.lɛ u bɛ na bi/",
-      "example_translation": "Peut-être qu'ils viendront aujourd'hui."
+      "term": "fo ni",
+      "phonetic_api": "[fo ni]",
+      "phonetic_simple": "fo-ni",
+      "translation": "à moins que",
+      "example_sentence": "A tɛ na, fo ni a labɛnna.",
+      "example_phonetic": "[a tɛ na fo ni a labɛnna]",
+      "example_translation": "Il ne viendra pas, à moins qu'il ne se prépare."
     },
     {
       "word_id": "v4",
-      "term": "Hali ni",
-      "phonetic_api": "/ha.li ni/",
-      "phonetic_simple": "HA-LI NI",
-      "translation": "Même si / Quand bien même",
-      "example_sentence": "Hali ni a taara, n'bɛ to yan.",
-      "example_phonetic": "/ha.li ni a taː.ra mbɛ to jã/",
-      "example_translation": "Même s'il est parti, je reste ici."
+      "term": "n'tɛ dɔn",
+      "phonetic_api": "[n.tɛ dɔn]",
+      "phonetic_simple": "n-tè-don",
+      "translation": "je ne sais pas (marque le doute)",
+      "example_sentence": "N t'a dɔn n'a bɛna na.",
+      "example_phonetic": "[n ta dɔn na bɛna na]",
+      "example_translation": "Je ne sais pas s'il va venir."
+    },
+    {
+      "word_id": "v5",
+      "term": "kɔni",
+      "phonetic_api": "[kɔni]",
+      "phonetic_simple": "ko-ni",
+      "translation": "particule d'insistance/nuance ('en tout cas', 'quant à')",
+      "example_sentence": "N kɔni, n b'a fɛ.",
+      "example_phonetic": "[n kɔni n ba fɛ]",
+      "example_translation": "Moi en tout cas, je le veux."
     }
   ],
   "common_phrases": [
     {
       "phrase_id": "p1",
-      "original": "Ni n'tun a lɔn, n'tun tɛ taa yen.",
-      "phonetic_api": "/ni ntũ a lɔ̃ ntũ tɛ taː jẽ/",
-      "phonetic_simple": "NI N-TOUN A LƆN, N-TOUN TÈ TAA YEN",
-      "translation": "Si je l'avais su, je n'y serais pas allé (irréel du passé).",
-      "context": "Formule pour exprimer un regret ou analyser une situation passée manquée."
+      "original": "Ni a bɛnna, an bɛna taa",
+      "phonetic_api": "[ni a bɛnna an bɛna taː]",
+      "phonetic_simple": "ni-a-bèn-na",
+      "translation": "S'il fait beau (si c'est adapté), nous partirons",
+      "context": "Formuler une condition simple pour une action future"
     },
     {
       "phrase_id": "p2",
-      "original": "Siga tɛ a la hali dɔɔni.",
-      "phonetic_api": "/si.ɡa tɛ a la ha.li dɔː.ni/",
-      "phonetic_simple": "SI-GA TÈ A LA HA-LI DƆƆ-NI",
-      "translation": "Il n'y a aucun doute là-dessus, pas même un peu.",
-      "context": "Pour affirmer une certitude absolue lors d'une discussion ou d'un arbitrage."
+      "original": "N t'a dɔn n'a bɛ tinyɛ ti",
+      "phonetic_api": "[n ta dɔn na bɛ tiɲɛ ti]",
+      "phonetic_simple": "n-ta-don-a-bè-ti-nyè-ti",
+      "translation": "Je ne sais pas si c'est vrai",
+      "context": "Exprimer un doute sur la véracité d'une affirmation"
     },
     {
       "phrase_id": "p3",
-      "original": "Ni Alla sɔnna, an bɛ ban bara la sini.",
-      "phonetic_api": "/ni al.la sɔ̃.na ã bɛ bã ba.ra la si.ni/",
-      "phonetic_simple": "NI AL-LA SƆN-NA, AN BÈ BAN BA-RA LA SI-NI",
-      "translation": "Si Dieu le veut (si Dieu y consent), nous finirons le travail demain.",
-      "context": "Condition essentielle et polie pour planifier un futur."
+      "original": "A tɛ se ka kɛ, fo ni Ala sɔnna",
+      "phonetic_api": "[a tɛ se ka kɛ fo ni ala sɔnna]",
+      "phonetic_simple": "a-tè-sé-ka-kè, fo-ni-a-la-son-na",
+      "translation": "Cela ne peut se faire, à moins que Dieu ne le permette",
+      "context": "Exprimer une condition forte à caractère religieux, courante dans le discours quotidien"
     },
     {
       "phrase_id": "p4",
-      "original": "A bɛ se ka kɛ hali di, n'tɛ sɔn.",
-      "phonetic_api": "/a bɛ se ka kɛ ha.li di ntɛ sɔ̃/",
-      "phonetic_simple": "A BÈ SÉ KA KÈ HA-LI DI, N-TÈ SƆN",
-      "translation": "Il se peut que ce soit ainsi, mais je n'approuve pas (expression du doute constructif).",
-      "context": "Utilisé pour marquer une réserve polie lors d'une argumentation formelle."
+      "original": "N kɔni, n t'a dɔn",
+      "phonetic_api": "[n kɔni n ta dɔn]",
+      "phonetic_simple": "n-ko-ni, n-ta-don",
+      "translation": "Moi, en tout cas, je ne sais pas",
+      "context": "Nuancer son propre doute tout en le signalant explicitement"
     }
   ],
   "grammar_points": [
     {
-      "concept": "La construction de la condition réelle et irréelle",
-      "explanation": "La condition se construit toujours avec la conjonction 'Ni' en début de phrase. La nature de la conséquence détermine le type d'hypothèse.",
+      "concept": "La structure conditionnelle 'ni P, Q'",
+      "explanation": "La condition se construit en plaçant 'ni' en tête de la proposition conditionnelle, suivie de la proposition principale, sans conjonction supplémentaire.",
       "rules": [
-        "Condition réelle (Futur/Potentiel) : Ni + Sujet + accompli, Sujet + bɛ + Verbe (ex: Ni i nana, an bɛ taa = Si tu viens, nous irons).",
-        "Condition irréelle (Passé/Regret) : Ni + Sujet + tun + Verbe, Sujet + tun + marque du passé (ex: Ni n'tun taara... = Si j'étais allé...)."
+        "ni + proposition condition + , + proposition résultat",
+        "Le verbe de la condition peut être à l'accompli ou au présent selon le degré de certitude visé"
       ],
       "examples": [
         {
-          "structure": "Ni wari bɛ i bolo",
-          "phonetic_api": "/ni wa.ri bɛ i bo.lo/",
-          "meaning": "Si tu as de l'argent"
-        },
+          "structure": "ni a nana, an bɛna taa",
+          "phonetic_api": "[ni a nana an bɛna taː]",
+          "meaning": "s'il vient, nous partirons"
+        }
+      ]
+    },
+    {
+      "concept": "Exprimer le doute avec 'n'tɛ dɔn' + interrogation indirecte",
+      "explanation": "Le doute s'exprime en combinant la négation de 'dɔn' (savoir) avec une proposition interrogative indirecte introduite par 'ni'.",
+      "rules": [
+        "n t'a dɔn + ni + proposition = je ne sais pas si..."
+      ],
+      "examples": [
         {
-          "structure": "Ni i tun ye n'ladiya",
-          "phonetic_api": "/ni i tũ jɛ nladi.ja/",
-          "meaning": "Si tu m'avais conseillé"
+          "structure": "n t'a dɔn ni a bɛna na",
+          "phonetic_api": "[n ta dɔn ni a bɛna na]",
+          "meaning": "je ne sais pas s'il viendra"
         }
       ]
     }
@@ -115,55 +134,76 @@
   "dialogue": [
     {
       "speaker": "Fanta",
-      "text": "Moussa, ni sini-ndɔfɛ san ma na, i bɛ taa lɔgɔfɛ la?",
-      "phonetic_api": "/mu.sa ni si.ni.ndo.fɛ sã ma na i bɛ taː lɔ.ɡɔ.fɛ la/",
-      "phonetic_simple": "MOU-SA, NI SI-NI-NDO-FÈ SAN MA NA, I BÈ TAA LƆ-GƆ-FÈ LA ?",
-      "translation": "Moussa, si après-demain il ne pleut pas, iras-tu au marché ?"
+      "text": "Ni sanji nana, an bɛna taa senekunbe la wa?",
+      "phonetic_api": "[ni sandʒi nana an bɛna taː senekunbe la wa]",
+      "phonetic_simple": "ni-san-dji-na-na",
+      "translation": "S'il pleut, irons-nous quand même au champ ?"
     },
     {
-      "speaker": "Moussa",
-      "text": "Hali, n'bɛ taa. Kɔni n'fɛlɛ lɔgɔfɛ sɔngɔ lu bɛ gban na.",
-      "phonetic_api": "/ha.li mbɛ taː kɔ.ni nfɛ.lɛ lɔ.ɡɔ.fɛ sɔn.ɡɔ lu bɛ ɡ͡bã na/",
-      "phonetic_simple": "HA-LI, N-BÈ TAA. KƆ-NI N-FÈ-LÈ LƆ-GƆ-FÈ SƆN-GƆ LOU BÈ GBAN NA",
-      "translation": "Oui, j'irai. Mais il se peut que les prix du marché soient élevés."
+      "speaker": "Lansana",
+      "text": "N t'a dɔn. Fo ni sanji ma bon kosɛbɛ.",
+      "phonetic_api": "[n ta dɔn fo ni sandʒi ma bɔn kosɛbɛ]",
+      "phonetic_simple": "n-ta-don, fo-ni-san-dji-ma-bon",
+      "translation": "Je ne sais pas. À moins que la pluie ne soit pas trop forte."
     },
     {
       "speaker": "Fanta",
-      "text": "Ni i tun ye lɔgɔfɛ kura san kunu, i tun bɛ wari sɔrɔ sisan.",
-      "phonetic_api": "/ni i tũ jɛ lɔ.ɡɔ.fɛ ku.ra sã ku.nu i tũ mbɛ wa.ri sɔ.rɔ si.sã/",
-      "phonetic_simple": "NI I TOUN YÈ LƆ-GƆ-FÈ KOU-RA SAN KOU-NOU, I TOUN BÈ WA-RI SƆ-RƆ SI-SAN",
-      "translation": "Si tu avais fait des achats au nouveau marché hier, tu aurais économisé de l'argent (trouvé de l'argent) maintenant."
+      "text": "N kɔni, n bɛna sabali.",
+      "phonetic_api": "[n kɔni n bɛna sabali]",
+      "phonetic_simple": "n-ko-ni, n-bè-na-sa-ba-li",
+      "translation": "Moi, en tout cas, je vais patienter."
     },
     {
-      "speaker": "Moussa",
-      "text": "Siga tɛ a la! Kɔni n'tun ma lɔn bɛrɛbɛrɛ.",
-      "phonetic_api": "/si.ɡa tɛ a la kɔ.ni ntũ ma lɔ̃ bɛ.rɛ.bɛ.rɛ/",
-      "phonetic_simple": "SI-GA TÈ A LA ! KƆ-NI N-TOUN MA LƆN BÈ-RÈ-BÈ-RÈ",
-      "translation": "Aucun doute là-dessus ! Mais je ne le savais pas vraiment."
+      "speaker": "Lansana",
+      "text": "N kɔni, n t'a dɔn ni sanji bɛna bɔ.",
+      "phonetic_api": "[n kɔni n ta dɔn ni sandʒi bɛna bɔ]",
+      "phonetic_simple": "n-ko-ni, n-ta-don-ni-san-dji-bè-na-bo",
+      "translation": "Moi, en tout cas, je ne sais pas s'il va pleuvoir."
     }
   ],
   "cultural_notes": [
-    "Dans l'art oratoire de la culture Konyanka, exprimer le doute ou contredire une hypothèse se fait toujours avec beaucoup de tact. On utilise fréquemment des expressions d'atténuation comme 'n'fɛlɛ' (peut-être/il me semble) ou l'invocation de la volonté divine 'Ni Alla sɔnna' pour ne pas paraître trop péremptoire face à son interlocuteur."
+    "L'expression 'fo ni Ala sɔnna' (à moins que Dieu ne le permette) est une formule extrêmement fréquente dans le discours quotidien des sociétés manding musulmanes, y compris dans la région de Beyla/Kérouane où vit une partie des Koniankés, traduisant une vision où toute condition future dépend en dernier lieu de la volonté divine.",
+    "Cette structure grammaticale conditionnelle est un trait partagé de l'ensemble du continuum manding-est ; aucune variation spécifique au Konyanka n'a été relevée dans les sources disponibles."
   ],
   "exercises": [
     {
-      "exercise_id": "ex1",
-      "type": "multiple_choice",
-      "question": "Quel mot utilise-t-on pour introduire une condition ('Si') en début de phrase ?",
+      "exercise_id": "e1",
+      "type": "choix_multiple",
+      "question": "Quelle particule introduit une condition ('si') ?",
       "options": [
-        "Ni",
-        "Siga",
-        "Hali"
+        "kɔni",
+        "ni",
+        "fo",
+        "n'a fɔ"
       ],
-      "correct_answer": "Ni",
-      "explanation": "'Ni' est la conjonction de subordination de base pour marquer l'hypothèse ou la condition."
+      "correct_answer": "ni",
+      "explanation": "'ni' en tête de proposition introduit une condition."
     },
     {
-      "exercise_id": "ex2",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "[ ___ ] tɛ a la (Il n'y a aucun doute là-dessus).",
-      "correct_answer": "Siga",
-      "hint": "Le mot commence par 'S' et exprime l'incertitude ou le doute."
+      "exercise_id": "e2",
+      "type": "traduction",
+      "question": "Traduisez : 'Je ne sais pas s'il viendra.'",
+      "correct_answer": "N t'a dɔn ni a bɛna na.",
+      "explanation": "'n t'a dɔn' = je ne sais pas ; 'ni a bɛna na' = s'il viendra."
+    },
+    {
+      "exercise_id": "e3",
+      "type": "texte_a_trous",
+      "sentence_with_blank": "A tɛ na, ___ ni a labɛnna. (Il ne viendra pas, à moins qu'il ne se prépare.)",
+      "correct_answer": "fo",
+      "explanation": "'fo ni' = à moins que."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Malinkuia — Introduction à la langue malinké (grammaire complète, variété du Wulada, Haute-Guinée)",
+      "url": "https://fr.scribd.com/document/499114939/Malinkuia"
+    },
+    {
+      "label": "Vydrin & Diané — L'interrogation en maninka de Guinée, Mandenkan 56 (2016)",
+      "url": "https://journals.openedition.org/mandenkan/906"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Aucun lexique ou grammaire publiés et dédiés spécifiquement au Konyanka (Koyaka/Konianka, ISO mku) n'a été localisé. Les structures grammaticales avancées présentées ici s'appuient sur les travaux académiques de Vydrin et son équipe (Mandenkan/LLACAN) sur le maninka de Guinée, dont le Konyanka constitue une variété dialectale au sein du même sous-groupe Manding-Est. Le vocabulaire de base provient de la grammaire pratique Malinkuia (variété du Wulada, Haute-Guinée). Les spécificités confirmées du Konyanka sont indiquées dans les notes culturelles plutôt que dans le lexique."
 }

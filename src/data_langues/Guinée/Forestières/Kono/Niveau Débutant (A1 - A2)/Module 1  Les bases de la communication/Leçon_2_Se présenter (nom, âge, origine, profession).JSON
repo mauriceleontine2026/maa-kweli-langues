@@ -4,207 +4,224 @@
   "module_number": 1,
   "module_title": "Les bases de la communication",
   "lesson_number": 2,
-  "title": "Se présenter",
+  "title": "Se présenter (nom, âge, origine, profession)",
   "learning_objectives": [
-    "Dire son nom, son origine et son âge en kono",
-    "Poser des questions d'identité de base à un interlocuteur"
+    "Utiliser les pronoms personnels forts du kono pour se présenter",
+    "Nommer les personnes en utilisant la structure sujet-attribut attestée en kono",
+    "Demander et donner son identité et son origine de façon simple"
   ],
   "phonetic_focus": {
-    "key_sounds": "La consonne implosive /ɓ/ s'articule par une légère succion de l'air vers l'intérieur. Le son /ɲ/ se prononce comme le groupe 'gn' dans le mot français 'oignon'.",
-    "common_pitfalls": "Veillez à bien détacher le pronom possessif collé au verbe ou au substantif pour éviter les amalgames phonétiques."
+    "key_sounds": "Les pronoms forts du kono (ɲá, ɓié, yà...) comportent des tons contrastifs : ɲá « moi » porte un ton haut, tandis que yà « lui/elle » porte un ton bas.",
+    "common_pitfalls": "Les francophones confondent souvent ɲá (1SG, moi) avec un simple « n » car le son [ɲ] (comme « gn » de agneau) n'existe pas isolément en français standard."
   },
   "vocabulary": [
     {
-      "word_id": "v2_1",
-      "term": "tɔ́",
-      "phonetic_api": "/tɔ́/",
-      "phonetic_simple": "TO",
-      "translation": "Nom / Prénom",
-      "example_sentence": "Ń tɔ́ le Sâa.",
-      "example_phonetic": "/ń tɔ́ le sâː/",
-      "example_translation": "Mon nom est Saa."
+      "word_id": "v1",
+      "term": "ɲá",
+      "phonetic_api": "/ɲá/",
+      "phonetic_simple": "NYA",
+      "translation": "moi, je (pronom fort 1SG)",
+      "example_sentence": "Ɲá, Hɛ́ni.",
+      "example_phonetic": "/ɲá hɛ́ni/",
+      "example_translation": "Moi, (je suis) Hɛni."
     },
     {
-      "word_id": "v2_2",
-      "term": "mí",
-      "phonetic_api": "/mí/",
-      "phonetic_simple": "MI",
-      "translation": "Où / Provenance",
-      "example_sentence": "Í bɔ̀ mí ?",
-      "example_phonetic": "/í ɓɔ̀ mí/",
-      "example_translation": "Tu viens d'où ?"
+      "word_id": "v2",
+      "term": "ɓié",
+      "phonetic_api": "/ɓjé/",
+      "phonetic_simple": "BIÉ",
+      "translation": "toi, tu (pronom fort 2SG)",
+      "example_sentence": "Ɓié dɛ́?",
+      "example_phonetic": "/ɓjé dɛ́/",
+      "example_translation": "Et toi ?"
     },
     {
-      "word_id": "v2_3",
-      "term": "kàláŋ",
-      "phonetic_api": "/kàláŋ/",
-      "phonetic_simple": "KA-LANG",
-      "translation": "Étudier / École / Profession intellectuelle",
-      "example_sentence": "Ń bɛ̀ kàláŋ nì.",
-      "example_phonetic": "/ń ɓɛ̀ kàláŋ nì/",
-      "example_translation": "Je suis en train d'étudier."
+      "word_id": "v3",
+      "term": "yà",
+      "phonetic_api": "/jà/",
+      "phonetic_simple": "YA",
+      "translation": "lui, elle (pronom fort 3SG)",
+      "example_sentence": "Yà Bala.",
+      "example_phonetic": "/jà bala/",
+      "example_translation": "Lui, (c'est) Bala."
     },
     {
-      "word_id": "v2_4",
-      "term": "pɛ́ɛ̀",
-      "phonetic_api": "/pɛ́ːɛ̀/",
-      "phonetic_simple": "PEE",
-      "translation": "Année / Âge",
-      "example_sentence": "Pɛ́ɛ̀ nìà bɛ̀ í yí ?",
-      "example_phonetic": "/pɛ́ːɛ̀ nìà ɓɛ̀ í jí/",
-      "example_translation": "Combien d'années as-tu ?"
+      "word_id": "v4",
+      "term": "nɔẁá",
+      "phonetic_api": "/nɔ̀wá/",
+      "phonetic_simple": "NO-OUA",
+      "translation": "nous (exclusif, sans l'interlocuteur)",
+      "example_sentence": "Nɔẁá Lɔ̀raà.",
+      "example_phonetic": "/nɔ̀wá lɔ̀raː/",
+      "example_translation": "Nous sommes de Lola."
     },
     {
-      "word_id": "v2_5",
-      "term": "gàálà",
-      "phonetic_api": "/gàːlà/",
-      "phonetic_simple": "GAA-LA",
-      "translation": "Village / Ville / Pays natal",
-      "example_sentence": "Ń gàálà le Lólà.",
-      "example_phonetic": "/ń ɡàːlà le lólà/",
-      "example_translation": "Mon village est Lola."
+      "word_id": "v5",
+      "term": "kaá",
+      "phonetic_api": "/kaá/",
+      "phonetic_simple": "KAA",
+      "translation": "vous (pronom fort 2PL)",
+      "example_sentence": "Kaá dɛ́?",
+      "example_phonetic": "/kaá dɛ́/",
+      "example_translation": "Et vous ?"
+    },
+    {
+      "word_id": "v6",
+      "term": "nú",
+      "phonetic_api": "/nú/",
+      "phonetic_simple": "NOU",
+      "translation": "personne, une personne",
+      "example_sentence": "Ɲá nú Lɔ̀raà.",
+      "example_phonetic": "/ɲá nú lɔ̀raː/",
+      "example_translation": "Je suis une personne de Lola."
+    },
+    {
+      "word_id": "v7",
+      "term": "klô",
+      "phonetic_api": "/klô/",
+      "phonetic_simple": "KLO",
+      "translation": "travail (dans la collocation klô kɛ́, travailler)",
+      "example_sentence": "Hɛ́ní wɛɛ̀́ pá klô kɛ́ tińaá.",
+      "example_phonetic": "/hɛ́ní wɛ̀ːpá klô kɛ́ tíŋaː/",
+      "example_translation": "Hɛni travaillera demain."
+    },
+    {
+      "word_id": "v8",
+      "term": "Lɔ̀raà",
+      "phonetic_api": "/lɔ̀raː/",
+      "phonetic_simple": "LO-RAA",
+      "translation": "Lola (préfecture d'origine des Kono de Guinée)",
+      "example_sentence": "Ŋ́ ḿaŕaá hɛńɛ́ kà Lɔ̀raà.",
+      "example_phonetic": "/ŋ́ máraː hɛ́nɛ́ kà lɔ̀raː/",
+      "example_translation": "J'ai vu tous mes amis à Lola."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p2_1",
-      "original": "Í tɔ́ nɛ̀ ?",
-      "phonetic_api": "/í tɔ́ nɛ̀/",
-      "phonetic_simple": "I TO NE ?",
-      "translation": "Comment t'appelles-tu ?",
-      "context": "Question directe posée pour connaître le nom de quelqu'un."
+      "phrase_id": "p1",
+      "original": "Ɲá, Hɛ́ni.",
+      "phonetic_api": "/ɲá hɛ́ni/",
+      "phonetic_simple": "NYA HÉNI",
+      "translation": "Moi, je suis Hɛni.",
+      "context": "Pour se présenter en donnant son nom, structure minimale pronom + nom."
     },
     {
-      "phrase_id": "p2_2",
-      "original": "Ń tɔ́ le...",
-      "phonetic_api": "/ń tɔ́ le/",
-      "phonetic_simple": "N TO LE...",
-      "translation": "Mon nom est...",
-      "context": "Structure fixe pour donner son identité."
+      "phrase_id": "p2",
+      "original": "Ɓié dɛ́?",
+      "phonetic_api": "/ɓjé dɛ́/",
+      "phonetic_simple": "BIÉ DÉ",
+      "translation": "Et toi (comment t'appelles-tu) ?",
+      "context": "Question de retour après s'être présenté soi-même."
     },
     {
-      "phrase_id": "p2_3",
-      "original": "Í bɔ̀ mí ?",
-      "phonetic_api": "/í ɓɔ̀ mí/",
-      "phonetic_simple": "I BO MI ?",
-      "translation": "D'où viens-tu ?",
-      "context": "Interroger quelqu'un sur ses origines géographiques ou ethniques."
+      "phrase_id": "p3",
+      "original": "Ɲá nú Lɔ̀raà.",
+      "phonetic_api": "/ɲá nú lɔ̀raː/",
+      "phonetic_simple": "NYA NOU LO-RAA",
+      "translation": "Je suis une personne de Lola.",
+      "context": "Pour indiquer son origine géographique, en kono authentique."
     },
     {
-      "phrase_id": "p2_4",
-      "original": "Ǹ bɔ̀ Lólà le.",
-      "phonetic_api": "/ŋ̀ ɓɔ̀ lólà le/",
-      "phonetic_simple": "N BO LO-LA LE.",
-      "translation": "Je viens de Lola.",
-      "context": "Réponse indiquant la ville ou région d'origine."
-    },
-    {
-      "phrase_id": "p2_5",
-      "original": "Kónò mɔ̀ ǹ gɛ́ɛ̀.",
-      "phonetic_api": "/kónò mɔ̀ ŋ̀ ɡɛ́ː/",
-      "phonetic_simple": "KO-NO MO N GEE.",
-      "translation": "Je suis une personne kono.",
-      "context": "Affirmation de son identité culturelle et linguistique."
-    },
-    {
-      "phrase_id": "p2_6",
-      "original": "Í bɛ̀ kâ nɛ̀ ?",
-      "phonetic_api": "/í ɓɛ̀ kâ nɛ̀/",
-      "phonetic_simple": "I BE KA NE ?",
-      "translation": "Que fais-tu (comme travail) ?",
-      "context": "S'informer sur les occupations professionnelles de quelqu'un."
-    },
-    {
-      "phrase_id": "p2_7",
-      "original": "Sɛ́nɛ̀ mɔ̀ ǹ gɛ́ɛ̀.",
-      "phonetic_api": "/sɛ́nɛ̀ mɔ̀ ŋ̀ ɡɛ́ː/",
-      "phonetic_simple": "SE-NE MO N GEE.",
-      "translation": "Je suis cultivateur.",
-      "context": "Exemple de réponse sur l'activité principale."
-    },
-    {
-      "phrase_id": "p2_8",
-      "original": "Ní bɛ̀ kàláŋ nìó.",
-      "phonetic_api": "/ní ɓɛ̀ kàláŋ nìó/",
-      "phonetic_simple": "NI BE KA-LANG NI-O.",
-      "translation": "Je suis élève / étudiant.",
-      "context": "Indication de statut d'apprenant."
+      "phrase_id": "p4",
+      "original": "Ɲá gáa klô kɛ́i.",
+      "phonetic_api": "/ɲá gáː klô kɛ́ì/",
+      "phonetic_simple": "NYA GAA KLO KÉ-I",
+      "translation": "Je suis en train de travailler.",
+      "context": "Construction progressive apparentée (kpele) pour indiquer une profession ou une activité en cours ; confiance moyenne."
     }
   ],
   "grammar_points": [
     {
-      "concept": "La focalisation et l'affirmation d'identité avec 'le'",
-      "explanation": "En langue kono, la particule 'le' se place immédiatement après le nom ou le syntagme nominal pour affirmer fortement l'identité ou pour focaliser l'élément majeur de l'information. C'est l'équivalent structurel de 'c'est' ou du marqueur de focus.",
+      "concept": "Les pronoms forts (emphatiques) du kono",
+      "explanation": "Le kono distingue des pronoms « forts » utilisés en isolation, dans les constructions de mise en relief et avec les copules, des marqueurs pronominaux « faibles » intégrés au verbe (voir la leçon sur les temps du récit). Pour se présenter, on utilise le pronom fort suivi directement du nom ou de l'attribut, sans copule explicite obligatoire.",
       "rules": [
-        "Le focus suit toujours l'élément mis en relief.",
-        "Dans une phrase d'identité nominale simple, le verbe être est souvent omis au profit de cette particule de focalisation."
+        "Pronom fort + nom propre = présentation minimale (« Moi, X »).",
+        "La distinction inclusif/exclusif existe à la 1PL : nɔẁá (exclusif) vs gɔẁá (inclusif).",
+        "Le pronom fort de 3SG yà est aussi utilisé pour présenter une tierce personne."
       ],
       "examples": [
         {
-          "structure": "Ń tɔ́ + le + [Nom]",
-          "phonetic_api": "/ń tɔ́ le sâː/",
-          "meaning": "Mon nom [focus] Saa (C'est Saa mon nom)."
+          "structure": "Pronom fort + Nom",
+          "phonetic_api": "/ɲá X/",
+          "meaning": "Moi, (je suis) X"
         },
         {
-          "structure": "Ǹ bɔ̀ + [Lieu] + le",
-          "phonetic_api": "/ŋ̀ ɓɔ̀ lólà le/",
-          "meaning": "Je viens [focus] de Lola."
+          "structure": "Pronom fort + nú + Lieu",
+          "phonetic_api": "/ɲá nú Y/",
+          "meaning": "Je suis une personne de Y (origine)"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Fà Gbɛ̀",
-      "text": "Enté í nì wuò ! Í tɔ́ nɛ̀ ?",
-      "phonetic_api": "/ẽtē í nì wʊ̀ɔ́ í tɔ́ nɛ̀/",
-      "phonetic_simple": "En-te i ni wou-o ! I to ne ?",
-      "translation": "Salut bon après-midi ! Comment t'appelles-tu ?"
+      "speaker": "Sèni",
+      "text": "Ɓaà ŋúŋ! Ɲá, Sèni.",
+      "phonetic_api": "/ɓaː ŋúŋ ɲá sɛ̀ni/",
+      "phonetic_simple": "BAA-NOUNG. NYA, SÉNI",
+      "translation": "Bonjour ! Moi, je suis Sèni."
     },
     {
-      "speaker": "Nyàámà",
-      "text": "Ń tɔ́ le Nyàámà. Í tɔ́ nɛ̀ á yí ?",
-      "phonetic_api": "/ń tɔ́ le ɲàːmà í tɔ́ nɛ̀ á jí/",
-      "phonetic_simple": "N to le Nyaama. I to ne a yi ?",
-      "translation": "Mon nom est Nyaama. Et toi, quel est ton nom ?"
+      "speaker": "Bala",
+      "text": "Ɓié dɛ́? Ɲá, Bala.",
+      "phonetic_api": "/ɓjé dɛ́ ɲá bala/",
+      "phonetic_simple": "BIÉ DÉ. NYA, BALA",
+      "translation": "Et toi ? Moi, je suis Bala."
     },
     {
-      "speaker": "Fà Gbɛ̀",
-      "text": "Ń tɔ́ le Fà Gbɛ̀. Í bɔ̀ mí, Nyàámà ?",
-      "phonetic_api": "/ń tɔ́ le fà ɡɓɛ̀ í ɓɔ̀ mí ɲàːmà/",
-      "phonetic_simple": "N to le Fa Gbe. I bo mi, Nyaama ?",
-      "translation": "Mon nom est Fa Gbe. D'où viens-tu, Nyaama ?"
+      "speaker": "Sèni",
+      "text": "Ɲá nú Lɔ̀raà.",
+      "phonetic_api": "/ɲá nú lɔ̀raː/",
+      "phonetic_simple": "NYA NOU LO-RAA",
+      "translation": "Je suis une personne de Lola."
     },
     {
-      "speaker": "Nyàámà",
-      "text": "Ǹ bɔ̀ Lólà le. Kónò mɔ̀ ǹ gɛ́ɛ̀.",
-      "phonetic_api": "/ŋ̀ ɓɔ̀ lólà le kónò mɔ̀ ŋ̀ ɡɛ́ː/",
-      "phonetic_simple": "N bo Lo-la le. Ko-no mo n gee.",
-      "translation": "Je viens de Lola. Je suis une personne kono."
+      "speaker": "Bala",
+      "text": "Ɲá gáa klô kɛ́i Lɔ̀raà.",
+      "phonetic_api": "/ɲá gáː klô kɛ́ì lɔ̀raː/",
+      "phonetic_simple": "NYA GAA KLO KÉ-I LO-RAA",
+      "translation": "Je travaille à Lola."
     }
   ],
   "cultural_notes": [
-    "Dans l'espace kono de Guinée Conakry, les noms propres comme Sâa, Nyàámà ou Fà Gbɛ̀ portent souvent une signification liée à l'ordre de naissance ou aux circonstances familiales. Se présenter implique fréquemment de lier son nom à sa lignée ou à sa localité d'origine pour situer l'interlocuteur dans le tissu social régional."
+    "La préfecture de Lola, en Guinée forestière, est le centre historique du peuple Kono de Guinée ; se présenter en mentionnant Lola est une façon naturelle d'indiquer son origine ethnique et régionale.",
+    "Chez les Kono comme chez les peuples mandés voisins, le nom de famille et le lieu d'origine sont des éléments essentiels de la présentation, souvent plus importants que la profession."
   ],
   "exercises": [
     {
-      "exercise_id": "ex2_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Comment traduit-on l'affirmation 'Je viens de Lola' ?",
+      "question": "Quel pronom fort utilise-t-on en kono pour dire « moi » ?",
       "options": [
-        "Í bɔ̀ Lólà le.",
-        "Ǹ bɔ̀ Lólà le.",
-        "Ń tɔ́ le Lólà."
+        "ɲá",
+        "yà",
+        "kaá"
       ],
-      "correct_answer": "Ǹ bɔ̀ Lólà le.",
-      "explanation": "'Ǹ' est la première personne (je) et le verbe 'bɔ̀' indique la provenance spatiale."
+      "correct_answer": "ɲá",
+      "explanation": "ɲá est le pronom fort de la première personne du singulier en kono."
     },
     {
-      "exercise_id": "ex2_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Í [ ___ ] nɛ̀ ? (Comment t'appelles-tu ?)",
-      "correct_answer": "tɔ́",
-      "hint": "Le substantif qui veut dire nom ou prénom."
+      "sentence_with_blank": "___ nú Lɔ̀raà. (Je suis une personne de Lola.)",
+      "correct_answer": "Ɲá",
+      "hint": "Utilisez le pronom fort de la première personne du singulier."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Maria Konoshenko, « Field Notes on Kono, a Southwestern Mande Lect of Forest Guinea », Mandenkan 57 (2017), pp. 77-107",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan57/konoshenko57.pdf"
+    },
+    {
+      "label": "Maria Konoshenko, « Dictionnaire kpele de la Guinée (guerzé) – français », Mandenkan 62 (2019/2020)",
+      "url": "https://journals.openedition.org/mandenkan/2091"
+    },
+    {
+      "label": "Wikipédia (FR) — « Kono (langue de Guinée) »",
+      "url": "https://fr.wikipedia.org/wiki/Kono_(langue_de_Guin%C3%A9e)"
+    }
+  ],
+  "confidence": "élevée",
+  "confidence_note": "Vocabulaire, pronoms, chiffres et structures grammaticales directement attestés dans l'article académique de référence sur le Kono de Guinée (Konoshenko 2017, Mandenkan 57), qui fournit une liste Swadesh de 100 mots, un paradigme complet de marqueurs pronominaux/TAM et des exemples de salutations en Kono authentique. La phrase progressive de profession s'appuie sur le kpele de Guinée, langue apparentée, en l'absence d'exemple équivalent directement attesté en kono."
 }

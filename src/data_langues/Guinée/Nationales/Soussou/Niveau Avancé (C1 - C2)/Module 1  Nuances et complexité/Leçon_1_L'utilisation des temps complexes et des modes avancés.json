@@ -6,298 +6,199 @@
   "lesson_number": 1,
   "title": "L'utilisation des temps complexes et des modes avancés",
   "learning_objectives": [
-    "Maîtriser le passé antérieur et le plus-que-parfait en combinant les marques aspectuelles '-xi' et 'nu'",
-    "Utiliser le mode subjonctif-optatif avancé pour exprimer des souhaits complexes, des bénédictions rituelles ou des regrets intemporels",
-    "Nuancer le discours oratoire en maniant la concomitance et le conditionnel irréel du passé"
+    "Combiner les marqueurs aspectuels 'nu' (imparfait), 'bara' (accompli) et 'fe' (progressif) pour exprimer des nuances temporelles fines",
+    "Distinguer le passé narratif ('naxa'), l'accompli ('bara') et l'habituel passé ('nu... ma') dans un même récit",
+    "Construire une forme progressive passée ('nu na... fe') pour une action en cours interrompue"
   ],
   "phonetic_focus": {
-    "key_sounds": "Cette leçon repose sur la parfaite maîtrise de la modulation tonale lors de la superposition des marques temporelles. La particule /nu/ (ton bas) s'associe au suffixe d'accompli /-xi/ (ton haut), ce qui crée un contraste mélodique descendant-montant au sein du syntagme verbal. Le 'x' de 'naxanba' exige une friction vélaire sourde /x/ parfaitement exécutée.",
-    "common_pitfalls": "L'erreur classique à ce niveau est de raccourcir la prononciation du groupe composite verbal 'nu...xi', ce qui masquerait l'antériorité chronologique du fait raconté. Veillez également à ne pas confondre le rythme du subjonctif injonctif avec l'impératif simple."
+    "key_sounds": "La combinaison 'nu na... fe' empile trois marqueurs grammaticaux successifs ; chacun doit rester distinct phonétiquement, sans élision, pour préserver le sens exact de la phrase.",
+    "common_pitfalls": "Les apprenants avancés ont tendance à mélanger 'bara' (accompli, résultat présent d'une action passée) et 'nu' (imparfait, habitude/état passé sans lien avec le présent), alors que ces deux marqueurs relèvent de valeurs aspectuelles distinctes et non interchangeables."
   },
   "vocabulary": [
     {
-      "word_id": "v19_1",
-      "term": "Naxanba",
-      "phonetic_api": "/naxaⁿba/",
-      "phonetic_simple": "NA-KHAN-BA",
-      "translation": "Si toutefois / Au cas où / Dans l'éventualité où",
-      "example_sentence": "Naxanba i nu walixi, fe mu nu xɔnɔma.",
-      "example_phonetic": "/naxaⁿba i nu walixi fɛ mu nu xɔnɔma/",
-      "example_translation": "Si toutefois tu avais travaillé, l'affaire n'aurait pas été gâchée."
+      "word_id": "v1",
+      "term": "nu na... fe",
+      "phonetic_api": "/nu na... fe/",
+      "phonetic_simple": "nou na... fé",
+      "translation": "était en train de (imparfait progressif)",
+      "example_sentence": "Muxu nu na kEdi sEbEfe.",
+      "example_phonetic": "/muxu nu na kɛdi sɛbɛfe/",
+      "example_translation": "Nous étions en train d'écrire une lettre."
     },
     {
-      "word_id": "v19_2",
-      "term": "Nu...xi",
-      "phonetic_api": "/nu ... xi/",
-      "phonetic_simple": "NOU ... KHI",
-      "translation": "Plus-que-parfait / Passé antérieur (Structure discontinue marquant l'antériorité révolue)",
-      "example_sentence": "N nu sigaxi Conakry naxanba won mu nu malanyi bɔlɔ.",
-      "example_phonetic": "/n nu siɡaxi Conakry naxaⁿba woⁿ mu nu malaɲi bɔlɔ/",
-      "example_translation": "J'étais déjà parti à Conakry avant même que nous n'annulions la réunion."
+      "word_id": "v2",
+      "term": "bara",
+      "phonetic_api": "/bara/",
+      "phonetic_simple": "BA-ra",
+      "translation": "marqueur d'accompli (action déjà réalisée, résultat présent)",
+      "example_sentence": "A bara mini tande.",
+      "example_phonetic": "/a bara mini tande/",
+      "example_translation": "Il/elle est déjà sorti(e)."
     },
     {
-      "word_id": "v19_3",
-      "term": "Tinnafiixɛ",
-      "phonetic_api": "/tiⁿnafiːxɛ/",
-      "phonetic_simple": "TIN-NA-FII-KHÈ",
-      "translation": "Sincérité absolue / Pureté d'intention / Bonne foi",
-      "example_sentence": "A ma tinnafiixɛ findi fe gbeengbe ra won bɛ.",
-      "example_phonetic": "/a ma tiⁿnafiːxɛ fiⁿdi fɛ ɡbeːnɡbɛ ra woⁿ bɛ/",
-      "example_translation": "Sa bonne foi est un élément capital pour nous."
+      "word_id": "v3",
+      "term": "naxa",
+      "phonetic_api": "/naxa/",
+      "phonetic_simple": "NA-kha",
+      "translation": "marqueur de passé narratif",
+      "example_sentence": "Xoro, n Bubakari to nE taakui. Muxu naxa siga muxu...",
+      "example_phonetic": "/xoro, n bubakari to nɛ taːkui, muxu naxa siɡa muxu/",
+      "example_translation": "Hier, j'ai vu Bubakari en ville. Nous sommes allés..."
     },
     {
-      "word_id": "v19_4",
-      "term": "Babilong yati",
-      "phonetic_api": "/babiloⁿ yati/",
-      "phonetic_simple": "BA-BI-LONG YA-TI",
-      "translation": "Le futur lointain / Le destin ultime / À la fin des temps",
-      "example_sentence": "Won fama na kolonfe babilong yati ma.",
-      "example_phonetic": "/woⁿ fama na koloⁿfɛ babiloⁿ yati ma/",
-      "example_translation": "Nous le saurons dans le futur lointain."
+      "word_id": "v4",
+      "term": "nu... ma",
+      "phonetic_api": "/nu... ma/",
+      "phonetic_simple": "nou... ma",
+      "translation": "imparfait habituel (action répétée dans le passé)",
+      "example_sentence": "N nu sigama makiti lçxE birin singera.",
+      "example_phonetic": "/n nu siɡama makiti lɔxɛ birin sinɡera/",
+      "example_translation": "Autrefois, j'allais au marché tous les jours."
     },
     {
-      "word_id": "v19_5",
-      "term": "Nɔ",
-      "phonetic_api": "/nɔ/",
-      "phonetic_simple": "NO (ouvert)",
-      "translation": "Maîtriser / L'emporter sur / Dominer (sens abstrait avancé)",
-      "example_sentence": "A nɔxi won ma tɔɲɛé birin ma.",
-      "example_phonetic": "/a nɔxi woⁿ ma tɔɲɛe biriⁿ ma/",
-      "example_translation": "Il maîtrise parfaitement l'ensemble de nos règlements."
+      "word_id": "v5",
+      "term": "singera",
+      "phonetic_api": "/sinɡera/",
+      "phonetic_simple": "sin-GUÉ-ra",
+      "translation": "avant, autrefois (marqueur temporel de rupture avec le présent)",
+      "example_sentence": "Singera, n ma mixie nu na Konakiri.",
+      "example_phonetic": "/sinɡera, n ma mixie nu na konakiri/",
+      "example_translation": "Autrefois, mes parents vivaient à Conakry."
     },
     {
-      "word_id": "v19_6",
-      "term": "Xa",
-      "phonetic_api": "/xa/",
-      "phonetic_simple": "KHA",
-      "translation": "Particule du subjonctif / optatif / injonctif avancé",
-      "example_sentence": "Ala xa i mali i ma ambition ma.",
-      "example_phonetic": "/ala xa i mali i ma aⁿbitioⁿ ma/",
-      "example_translation": "Que Dieu t'assiste dans tes ambitions (Bénédiction)."
-    },
-    {
-      "word_id": "v19_7",
-      "term": "Marasiyati",
-      "phonetic_api": "/marasiyati/",
-      "phonetic_simple": "MA-RA-SI-YA-TI",
-      "translation": "La recommandation suprême / L'instruction fondamentale",
-      "example_sentence": "Nba tongo marasiyati ki.",
-      "example_phonetic": "/ⁿba toⁿɡo marasiyati ki/",
-      "example_translation": "Reçois cette recommandation fondamentale."
-    },
-    {
-      "word_id": "v19_8",
-      "term": "Ɲɛndɛxi",
-      "phonetic_api": "/ɲɛⁿdɛxi/",
-      "phonetic_simple": "NYÈN-DÈ-KHI",
-      "translation": "Parfaitement structuré / Planifié avec rigueur",
-      "example_sentence": "Malanyi ɲɛndɛxi nan na ra.",
-      "example_phonetic": "/malaɲi ɲɛⁿdɛxi naⁿ na ra/",
-      "example_translation": "C'est une réunion parfaitement structurée."
-    },
-    {
-      "word_id": "v19_9",
-      "term": "Moni",
-      "phonetic_api": "/moni/",
-      "phonetic_simple": "MO-NI",
-      "translation": "Prévenir / Éviter / Contrecarrer (sens juridique ou moral)",
-      "example_sentence": "Won wasaxi fe foraxi monife.",
-      "example_phonetic": "/woⁿ wasaxi fɛ foraxi monifɛ/",
-      "example_translation": "Il nous faut prévenir les dérives obscures."
-    },
-    {
-      "word_id": "v19_10",
-      "term": "Fe yati",
-      "phonetic_api": "/fɛ yati/",
-      "phonetic_simple": "FÈ YA-TI",
-      "translation": "La vérité profonde / L'essence d'une affaire / La réalité concrète",
-      "example_sentence": "N wama fe yati kolonfe ki ma.",
-      "example_phonetic": "/n wama fɛ yati koloⁿfɛ ki ma/",
-      "example_translation": "Je veux connaître la réalité concrète de l'affaire maintenant."
+      "word_id": "v6",
+      "term": "sçtç",
+      "phonetic_api": "/sɔtɔ/",
+      "phonetic_simple": "so-TO",
+      "translation": "obtenir, arriver à (verbe utilisé dans les constructions modales avancées)",
+      "example_sentence": "Xa n kçbiri sçtç, n sigama Bahamas.",
+      "example_phonetic": "/xa n kɔbiri sɔtɔ, n siɡama bahamas/",
+      "example_translation": "Si j'obtenais/j'obtiens de l'argent, j'irais/j'irai aux Bahamas."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p19_1",
-      "original": "Naxanba won nu walixi singe, fe mu nu ɔlɔma babilong.",
-      "phonetic_api": "/naxaⁿba woⁿ nu walixi siⁿdʒɛ fɛ mu nu ɔlɔma babiloⁿ/",
-      "phonetic_simple": "NA-KHAN-BA WON NOU WA-LI-KHI SIN-DJÉ, FÈ MOU NOU O-LO-MA BA-BI-LONG",
-      "translation": "Si toutefois nous avions travaillé au préalable, l'affaire ne se serait pas gâtée à l'avenir.",
-      "context": "Analyse oratoire rétrospective d'un échec ou d'un projet mal géré."
+      "phrase_id": "p1",
+      "original": "Muxu nu na kEdi sEbEfe",
+      "phonetic_api": "/muxu nu na kɛdi sɛbɛfe/",
+      "phonetic_simple": "MOU-khou nou na KÈ-di sè-BÈ-fé",
+      "translation": "Nous étions en train d'écrire une lettre",
+      "context": "Pour décrire une action en cours à un moment précis du passé, souvent interrompue par un autre événement."
     },
     {
-      "phrase_id": "p19_2",
-      "original": "Ala xa won bɔɲɛé maxa tinnafiixɛ ra.",
-      "phonetic_api": "/ala xa woⁿ bɔɲɛe maxa tiⁿnafiːxɛ ra/",
-      "phonetic_simple": "A-LA KHA WON BO-NYÈÈ MA-KHA TIN-NA-FII-KHÈ RA",
-      "translation": "Que Dieu purifie nos cœurs par la sincérité absolue.",
-      "context": "Formule honorifique solennelle prononcée à l'ouverture d'une assemblée."
+      "phrase_id": "p2",
+      "original": "Wo nu na sansi sife wo xa suntu",
+      "phonetic_api": "/wo nu na sansi sife wo xa suntu/",
+      "phonetic_simple": "wo nou na SAN-si SI-fé wo kha SOUN-tou",
+      "translation": "Vous étiez en train de planter dans votre champ",
+      "context": "Autre exemple de forme progressive à l'imparfait, tiré d'un exercice du manuel."
     },
     {
-      "phrase_id": "p19_3",
-      "original": "A nu sigaxi babilong yati ma, wati ma won nu na a xili xaranfe.",
-      "phonetic_api": "/a nu siɡaxi babiloⁿ yati ma wati ma woⁿ nu na a xili xaraⁿfɛ/",
-      "phonetic_simple": "A NOU SI-GA-KHI BA-BI-LONG YA-TI MA, WA-TI MA WON NOU NA A KHI-LI KHA-RAN-FÈ",
-      "translation": "Il était déjà parti vers son destin ultime au moment précis où nous lisions son nom.",
-      "context": "Récit d'une haute portée stylistique ou historique sur le parcours d'un notable."
+      "phrase_id": "p3",
+      "original": "N nu sigama makiti lçxE birin singera",
+      "phonetic_api": "/n nu siɡama makiti lɔxɛ birin sinɡera/",
+      "phonetic_simple": "n nou SI-ga-ma ma-KI-ti LO-khè bi-RIN sin-GUÉ-ra",
+      "translation": "Autrefois, j'allais au marché tous les jours",
+      "context": "Exemple classique d'imparfait habituel introduit par un marqueur de rupture temporelle ('singera')."
     },
     {
-      "phrase_id": "p19_4",
-      "original": "A wasaxi won bɛ won xa tɔɲɛé birin ɲɛndɛ wali yire ma.",
-      "phonetic_api": "/a wasaxi woⁿ bɛ woⁿ xa tɔɲɛe biriⁿ ɲɛndɛ wali yirɛ ma/",
-      "phonetic_simple": "A WA-SA-KHI WON BÈ WON KHA TO-NYÈÈ BI-RIN NYÈN-DÈ WA-LI YI-RÈ MA",
-      "translation": "Il nous incombe impérativement de structurer l'ensemble des règles sur notre lieu de travail.",
-      "context": "Plaidoyer managérial ou politique lors d'un conseil d'administration."
-    },
-    {
-      "phrase_id": "p19_5",
-      "original": "N mu nu a kolonxi alɔ i nu marasiyati tongoxi xoro.",
-      "phonetic_api": "/n mu nu a koloⁿxi alɔ i nu marasiyati toⁿɡoxi xoro/",
-      "phonetic_simple": "N MOU NOU A KO-LON-KHI A-LO I NOU MA-RA-SI-YA-TI TON-GO-KHI KHO-RO",
-      "translation": "Je n'avais pas su que tu avais adopté la recommandation suprême hier.",
-      "context": "Exprimer un regret cognitif face à une décision stratégique déjà actée."
-    },
-    {
-      "phrase_id": "p19_6",
-      "original": "Naxanba i mu nu nɔma fe yati kolonfe, i mu nu wasaxi fɛ yo falafe.",
-      "phonetic_api": "/naxaⁿba i mu nu nɔma fɛ yati koloⁿfɛ i mu nu wasaxi fɛ yo falafɛ/",
-      "phonetic_simple": "NA-KHAN-BA I MOU NOU NO-MA FÈ YA-TI KO-LON-FÈ, I MOU NOU WA-SA-KHI FÈ YO FA-LA-FÈ",
-      "translation": "Si au cas où tu n'avais pas pu maîtriser la réalité concrète, tu n'aurais pas dû t'exprimer.",
-      "context": "Reproche formel formulé dans un registre soutenu lors d'un débat."
-    },
-    {
-      "phrase_id": "p19_7",
-      "original": "Ala xa won moni fe foraxi birin ma won ma saranxun ma.",
-      "phonetic_api": "/ala xa woⁿ moni fɛ foraxi biriⁿ ma woⁿ ma saraⁿxuⁿ ma/",
-      "phonetic_simple": "A-LA KHA WON MO-NI FÈ FO-RA-KHI BI-RIN MA WON MA SA-RAN-KHOUN MA",
-      "translation": "Que Dieu nous préserve de toutes les dérives obscures au sein de notre quartier.",
-      "context": "Vœu collectif ou bénédiction de clôture lors d'une réunion de notables."
-    },
-    {
-      "phrase_id": "p19_8",
-      "original": "Na ɲɛndɛxi fanyi ra, won mu fama sare kerefe babilong yati.",
-      "phonetic_api": "/na ɲɛndɛxi faɲi ra woⁿ mu fama sarɛ kerɛfɛ babiloⁿ yati/",
-      "phonetic_simple": "NA NYÈN-DÈ-KHI FAN-YI RA, WON MOU FA-MA SA-RÈ KÉ-RÈ-FÈ BA-BI-LONG YA-TI",
-      "translation": "Cela étant rigoureusement planifié, nous ne subirons aucune perte financière à l'avenir.",
-      "context": "Analyse prospective et conclusion d'un rapport économique."
+      "phrase_id": "p4",
+      "original": "A bara mini tande",
+      "phonetic_api": "/a bara mini tande/",
+      "phonetic_simple": "a BA-ra MI-ni TAN-dé",
+      "translation": "Il/elle est déjà sorti(e)",
+      "context": "Accompli, insistant sur le résultat présent d'une action passée récente."
     }
   ],
   "grammar_points": [
     {
-      "concept": "La corrélation du plus-que-parfait et du conditionnel passé irréel via 'nu...xi' et 'naxanba'",
-      "explanation": "Au niveau avancé, pour formuler une hypothèse irréelle du passé (ce qui se serait produit si une condition préalable avait été remplie), la langue soussou combine le connecteur d'éventualité 'naxanba' avec la structure discontinue du plus-que-parfait 'nu + [Verbe] + xi' dans la protase. L'apodose emploie quant à elle la marque de l'inaccompli du passé 'nu...ma'.",
+      "concept": "Le système aspectuel combiné : nu, bara, fe, naxa",
+      "explanation": "Le soussou marque l'aspect (accompli, progressif, habituel) plutôt que le temps au sens strict. Ces marqueurs peuvent se combiner : 'nu' (rupture avec le présent, imparfait) + 'na' + Verbe-'fe' (progressif) donne une action en cours interrompue dans le passé. 'Bara' seul marque l'accompli avec pertinence présente. 'Naxa' structure un récit chronologique de faits accomplis. Selon la description grammaticale de Wikipedia, les marqueurs de base sont : nE/né (passé), ma (présent générique), fe (progressif) — le manuel Peace Corps documente en détail leurs usages combinés (nu, bara, naxa) qui affinent cette base.",
       "rules": [
-        "La proposition conditionnelle s'ouvre par 'Naxanba'.",
-        "Le verbe de cette proposition prend l'auxiliaire 'nu' devant lui et le suffixe '-xi' à sa fin.",
-        "Le verbe de la conséquence prend l'auxiliaire 'nu' et le suffixe d'habitude/futur '-ma'."
+        "Progressif passé : Sujet + nu + na + Verbe-fe + Complément",
+        "Accompli : Sujet + bara + Verbe + Complément",
+        "Récit chronologique : Sujet + naxa + Verbe + Complément (s'enchaîne avec d'autres propositions en 'naxa')",
+        "Habituel passé : Sujet + nu + Verbe-ma + Complément"
       ],
       "examples": [
         {
-          "structure": "Naxanba + i + nu + wali + xi ... fe + mu + nu + ɔlɔ + ma",
-          "phonetic_api": "/naxaⁿba i nu walixi fɛ mu nu ɔlɔma/",
-          "meaning": "Si toutefois tu avais travaillé, l'affaire n'aurait pas été gâchée."
-        }
-      ]
-    },
-    {
-      "concept": "Le mode subjonctif-optatif de bénédiction et d'injonction solennelle avec 'xa'",
-      "explanation": "Pour exprimer un souhait ardent, une bénédiction protocolaire ou formuler une exigence morale impersonnelle, le registre soutenu recourt à la particule modale 'xa'. Elle s'insère directement entre le sujet (souvent 'Ala' ou un collectif) et le verbe principal qui reste à sa forme nue, sans aucun suffixe aspectuel.",
-      "rules": [
-        "Structure : [Sujet] + xa + [Verbe à la forme nue] + [Compléments].",
-        "Cette structure exclut l'usage des suffixes de progressif (-fe) ou d'accompli (-xi)."
-      ],
-      "examples": [
-        {
-          "structure": "Ala + xa + won + mali",
-          "phonetic_api": "/ala xa woⁿ mali/",
-          "meaning": "Que Dieu nous assiste (Amen)."
+          "structure": "Muxu nu na kEdi sEbEfe",
+          "phonetic_api": "/muxu nu na kɛdi sɛbɛfe/",
+          "meaning": "Nous étions en train d'écrire une lettre (progressif passé)"
         },
         {
-          "structure": "Won + xa + fe yati + kolon",
-          "phonetic_api": "/woⁿ xa fɛ yati koloⁿ/",
-          "meaning": "Il faut impérativement que nous connaissions la réalité concrète."
+          "structure": "N nu sigama makiti lçxE birin",
+          "phonetic_api": "/n nu siɡama makiti lɔxɛ birin/",
+          "meaning": "J'allais au marché tous les jours (habituel passé)"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Le Sage (Notable)",
-      "text": "Marie, i kéna ! Ala xa i mali. Munse findi fe yati ra won ma saranxun ma ki ?",
-      "phonetic_api": "/mari i kéna ala xa i mali muⁿsɛ fiⁿdi fɛ yati ra woⁿ ma saraⁿxuⁿ ma ki/",
-      "phonetic_simple": "MA-RI, I KÉ-NA ! A-LA KHA I MA-LI. MOUN-SÈ FIN-DI FÈ YA-TI RA WON MA SA-RAN-KHOUN MA KI ?",
-      "translation": "Marie, bonjour ! Que Dieu t'assiste. Quelle est la réalité concrète des événements au sein de notre quartier actuellement ?"
+      "speaker": "Narrateur",
+      "text": "Singera, n ma mixie nu na Konakiri. Banxi nu na e yi.",
+      "phonetic_api": "/sinɡera, n ma mixie nu na konakiri, banxi nu na e ji/",
+      "phonetic_simple": "sin-GUÉ-ra, n ma MI-xi-é nou na ko-na-KI-ri, BAN-khi nou na é yi",
+      "translation": "Autrefois, mes parents vivaient à Conakry. Ils avaient une maison."
     },
     {
-      "speaker": "Marie",
-      "text": "I kéna, n benba. Singe, malanyi nu ɲɛndɛxi fanyi ra, koni mixié mu nu tinnafiixɛ kolonxi.",
-      "phonetic_api": "/i nuwali n beⁿba siⁿdʒɛ malaɲi nu ɲɛndɛxi faɲi ra koni mixie mu nu tiⁿnafiːxɛ koloⁿxi/",
-      "phonetic_simple": "I NOU-WA-LI N BEN-BA. SIN-DJÉ, MA-LAN-YI NOU NYÈN-DÈ-KHI FAN-YI RA, KO-NI MI-XIE MOU NOU TIN-NA-FII-KHÈ KO-LON-KHI.",
-      "translation": "Bonjour, mon aîné (grand-père). Au départ, la réunion avait été parfaitement structurée, mais les participants n'avaient pas fait preuve d'une sincérité absolue."
+      "speaker": "Narrateur",
+      "text": "N baba nu walima labitani Ignace Deen. Xaranderaba na nu nga ra.",
+      "phonetic_api": "/n baba nu walima labitani iɲas den, xaranderaba na nu nɡa ra/",
+      "phonetic_simple": "n BA-ba nou wa-LI-ma la-bi-TA-ni i-GNAS DÈN, kha-ran-dé-RA-ba na nou N-ga ra",
+      "translation": "Mon père travaillait à l'hôpital Ignace Deen. Ma mère était enseignante."
     },
     {
-      "speaker": "Le Sage (Notable)",
-      "text": "Naxanba e nu marasiyati tongoxi, won mu nu fama gɔfɛ kerefe fe ki ma babilong yati.",
-      "phonetic_api": "/naxaⁿba e nu marasiyati toⁿɡoxi woⁿ mu nu fama ɡɔfɛ kerɛfɛ fɛ ki ma babiloⁿ yati/",
-      "phonetic_simple": "NA-KHAN-BA É NOU MA-RA-SI-YA-TI TON-GO-KHI, WON MOU NOU FA-MA GO-FÈ KÉ-RÈ-FÈ FÈ KI MA BA-BI-LONG YA-TI.",
-      "translation": "Si toutefois ils avaient adopté la recommandation suprême, nous n'aurions pas subi de perte financière dans cette affaire à l'avenir."
+      "speaker": "Narrateur",
+      "text": "N nu na xaranfe. Kilasi nu bara, n yanyi donse don be nu n xa n malabu.",
+      "phonetic_api": "/n nu na xaranfe, kilasi nu bara, n jaɲi donse don be nu n xa n malabu/",
+      "phonetic_simple": "n nou na kha-RAN-fé, ki-LA-si nou BA-ra, n YA-gni DON-sé don bé nou n kha n ma-LA-bou",
+      "translation": "J'étais en train d'étudier. Après les cours, je mangeais mon repas de midi ici pour me reposer."
     },
     {
-      "speaker": "Marie",
-      "text": "Fe yati nan na ra. A wasaxi won bɛ won xa tɔɲɛé birin moni alɔ e mu nu nɔma fe ɔlɔfe.",
-      "phonetic_api": "/fɛ yati naⁿ na ra a wasaxi woⁿ bɛ woⁿ xa tɔɲɛe biriⁿ moni alɔ e mu nu nɔma fɛ ɔlɔfɛ/",
-      "phonetic_simple": "FÈ YA-TI NAN NA RA. A WA-SA-KHI WON BÈ WON KHA TO-NYÈÈ BI-RIN MO-NI A-LO É MOU NOU NO-MA FÈ O-LO-FÈ.",
-      "translation": "C'est la pure vérité. Il nous faut impérativement verrouiller l'ensemble des règles afin de prévenir les dérives, de sorte qu'ils n'auraient plus pu gâcher les projets."
-    },
-    {
-      "speaker": "Le Sage (Notable)",
-      "text": "I xui findi marasiyati ra won bɛ. Ala xa won birin maxa tinnafiixɛ ra. Won tina !",
-      "phonetic_api": "/i xui fiⁿdi marasiyati ra woⁿ bɛ ala xa woⁿ biriⁿ maxa tiⁿnafiːxɛ ra woⁿ tina/",
-      "phonetic_simple": "I KHOU-I FIN-DI MA-RA-SI-YA-TI RA WON BÈ. A-LA KHA WON BI-RIN MA-KHA TIN-NA-FII-KHÈ RA. WON TI-NA !",
-      "translation": "Ta parole fait office d'instruction fondamentale pour nous. Que Dieu nous purifie tous par la sincérité d'intention. À demain !"
+      "speaker": "Narrateur",
+      "text": "Singera, muxu nu sigama makiti lçxE birin, kono koré muxu bara xanbi na fen.",
+      "phonetic_api": "/sinɡera, muxu nu siɡama makiti lɔxɛ birin, kono kore muxu bara xanbi na fen/",
+      "phonetic_simple": "sin-GUÉ-ra, MOU-khou nou SI-ga-ma ma-KI-ti LO-khè bi-RIN, KO-no ko-RÉ MOU-khou BA-ra khan-BI na fen",
+      "translation": "Autrefois, nous allions au marché tous les jours, mais maintenant nous avons déjà changé nos habitudes."
     }
   ],
   "cultural_notes": [
-    "Au niveau de maîtrise avancée (C1-C2), la parole en Basse-Guinée s'apparente à une joute oratoire hautement ritualisée. Les notables et les gardiens de la tradition n'utilisent jamais de structures directes ou simplifiées lors des grands rassemblements communautaires. L'emploi systématique du subjonctif 'xa' pour émettre des vœux de pureté ('tinnafiixɛ') et le maniement subtil des irréels du passé permettent d'analyser la marche de la société sans heurter les sensibilités, tout en réaffirmant l'autorité de la coutume."
+    "La richesse des marqueurs aspectuels du soussou reflète une conception du temps organisée autour de l'état d'achèvement de l'action plutôt que de sa seule position chronologique, une caractéristique partagée par plusieurs langues mandées.",
+    "Dans la tradition orale, un conteur ('mixi dabari') expérimenté joue sur ces nuances aspectuelles pour rendre un récit vivant, notamment en alternant le passé narratif ('naxa') et le progressif ('nu na... fe') pour créer un effet dramatique."
   ],
   "exercises": [
     {
-      "exercise_id": "ex19_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quelle marque modale s'insère obligatoirement après le sujet pour formuler une bénédiction protocolaire ou un optatif solennel ?",
+      "question": "Quelle structure exprime une action en cours interrompue dans le passé ?",
       "options": [
-        "fama",
-        "xa",
-        "nu"
+        "Sujet + nu + na + Verbe-fe",
+        "Sujet + bara + Verbe",
+        "Sujet + naxa + Verbe"
       ],
-      "correct_answer": "xa",
-      "explanation": "La particule 'xa' est la marque exclusive du subjonctif-optatif utilisé pour les souhaits formels et les bénédictions."
+      "correct_answer": "Sujet + nu + na + Verbe-fe",
+      "explanation": "Cette structure combine l'imparfait ('nu') et le progressif ('na... fe') pour indiquer qu'une action était en cours dans le passé."
     },
     {
-      "exercise_id": "ex19_2",
-      "type": "multiple_choice",
-      "question": "Que traduit syntaxiquement la superposition des marques verbales disjointes 'nu...xi' au sein d'un récit complexe ?",
-      "options": [
-        "Un futur immédiat",
-        "Une obligation non remplie",
-        "Un plus-que-parfait / une antériorité chronologique révolue"
-      ],
-      "correct_answer": "Un plus-que-parfait / une antériorité chronologique révolue",
-      "explanation": "L'association de l'imperfectif passé 'nu' et de l'accompli '-xi' projette l'action dans le plus-que-parfait."
-    },
-    {
-      "exercise_id": "ex19_3",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "[ ___ ] won nu walixi singe, fe mu nu ɔlɔma. (Si toutefois nous avions travaillé...)",
-      "correct_answer": "Naxanba",
-      "hint": "C'est le connecteur d'éventualité et de condition avancée qui ouvre la proposition d'hypothèse irréelle."
-    },
-    {
-      "exercise_id": "ex19_4",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Ala xa won bɔɲɛé maxa [ ___ ] ra. (...par la sincérité absolue.)",
-      "correct_answer": "tinnafiixɛ",
-      "hint": "Ce substantif abstrait hautement valorisé qualifie la pureté absolue des intentions et la bonne foi."
+      "sentence_with_blank": "'Nous étions en train d'écrire une lettre' se dit : Muxu [ ___ ] na kEdi sEbEfe.",
+      "correct_answer": "nu",
+      "hint": "C'est le marqueur d'imparfait."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Peace Corps Guinée — Xarandi Xa Buki, Livre du stagiaire Sosoxui (Susu Language Lessons)",
+      "url": "https://fsi-languages.yojik.eu/languages/PeaceCorps/Susu/susu-language-course.pdf"
+    },
+    {
+      "label": "Wikipedia — Susu language (grammar, phonology, pronouns, tense markers)",
+      "url": "https://en.wikipedia.org/wiki/Susu_language"
+    }
+  ],
+  "confidence": "élevée",
+  "confidence_note": "Le système aspectuel combiné est directement documenté dans la Compétence n°13 du manuel Peace Corps Susu avec exercices dédiés, et la base des marqueurs (nE/passé, ma/présent, fe/progressif) est confirmée par le tableau grammatical de Wikipedia."
 }

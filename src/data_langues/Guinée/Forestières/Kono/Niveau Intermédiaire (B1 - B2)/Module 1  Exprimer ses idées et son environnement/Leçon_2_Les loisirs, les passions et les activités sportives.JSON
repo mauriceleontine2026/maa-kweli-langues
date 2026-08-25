@@ -1,176 +1,218 @@
 {
   "lesson_id": "B1_M1_L2",
-  "level": "Niveau Intermédiaire (B1-B2)",
+  "level": "Intermédiaire (B1-B2)",
   "module_number": 1,
   "module_title": "Exprimer ses idées et son environnement",
   "lesson_number": 2,
   "title": "Les loisirs, les passions et les activités sportives",
   "learning_objectives": [
-    "Exprimer ses activités de temps libre et ses passe-temps favoris en kono",
-    "Parler de la pratique d'un sport ou d'un jeu traditionnel",
-    "Utiliser les structures verbales d'action et d'habitude"
+    "Nommer des activités de loisir courantes",
+    "Exprimer une passion ou un intérêt avec le verbe lɔ́ɔ « aimer/vouloir »",
+    "Décrire la fréquence d'une activité"
   ],
   "phonetic_focus": {
-    "key_sounds": "L'accent tonique et la longueur vocalique sur le verbe d'action 'tó' (jouer) doivent être bien marqués pour éviter la confusion avec des homophones. Le son /gb/ est une consonne co-articulée occlusive labio-vélaire propre aux langues mandées.",
-    "common_pitfalls": "Veillez à ne pas prononcer le /w/ de manière trop appuyée dans les suffixes d'habitude, il doit glisser naturellement comme une semi-voyelle douce."
+    "key_sounds": "Les verbes d'activité en construction sérielle (lɔ́ɔ + Verbe) enchaînent deux tons hauts consécutifs, ce qui demande de bien marquer chaque syllabe sans les fusionner.",
+    "common_pitfalls": "Ne pas insérer de pause entre lɔ́ɔ et le verbe qui suit : la construction sérielle doit être prononcée comme un groupe rythmique unique."
   },
   "vocabulary": [
     {
-      "word_id": "v2_1",
-      "term": "tó-gbáá",
-      "phonetic_api": "/tó.ɡ͡báː/",
-      "phonetic_simple": "TO-GBAA",
-      "translation": "le jeu / le football / s'amuser",
-      "example_sentence": "á bɛ́ tó-gbáá kɛ́á",
-      "example_phonetic": "/á bɛ́ tó.ɡ͡báː kɛ́.á/",
-      "example_translation": "Il est en train de jouer au football."
+      "word_id": "v1",
+      "term": "lɔ̀ɔ",
+      "phonetic_api": "/lɔ̀ː/",
+      "phonetic_simple": "LO-O",
+      "translation": "danse (kpele apparenté)",
+      "example_sentence": "Ɲá lɔ́ɔ lɔ̀ɔ kɛ́.",
+      "example_phonetic": "/ɲá lɔ́ɔ lɔ̀ː kɛ́/",
+      "example_translation": "J'aime danser."
     },
     {
-      "word_id": "v2_2",
-      "term": "dɔ̀nɔ̀n",
-      "phonetic_api": "/dɔ̀nɔ̀n/",
-      "phonetic_simple": "DO-NON",
-      "translation": "la danse / danser",
-      "example_sentence": "ń bɛ́ dɔ̀nɔ̀n gbéé",
-      "example_phonetic": "/ń bɛ́ dɔ̀nɔ̀n ɡ͡béː/",
-      "example_translation": "J'aime la danse."
+      "word_id": "v2",
+      "term": "kɛ́",
+      "phonetic_api": "/kɛ́/",
+      "phonetic_simple": "KÉ",
+      "translation": "faire (verbe support, kpele apparenté)",
+      "example_sentence": "Klô kɛ́.",
+      "example_phonetic": "/klô kɛ́/",
+      "example_translation": "Travailler (litt. faire le travail)."
     },
     {
-      "word_id": "v2_3",
-      "term": "túlí-mɛ̀ɛ̀",
-      "phonetic_api": "/tú.lí.mɛ̀ː/",
-      "phonetic_simple": "TOO-LEE-MEE",
-      "translation": "la musique / écouter des chants",
-      "example_sentence": "wó bɛ́ túlí-mɛ̀ɛ̀ mɛ̀ɛ̀á",
-      "example_phonetic": "/wó bɛ́ tú.lí.mɛ̀ː mɛ̀ː.á/",
-      "example_translation": "Ils écoutent de la musique."
+      "word_id": "v3",
+      "term": "gbɛ̀",
+      "phonetic_api": "/gbɛ̀/",
+      "phonetic_simple": "GBÈ",
+      "translation": "chasser (kono attesté)",
+      "example_sentence": "Ɓò gbɛ̀!",
+      "example_phonetic": "/ɓò gbɛ̀/",
+      "example_translation": "Va chasser !"
     },
     {
-      "word_id": "v2_4",
-      "term": "yáwá-kɛ́ɛ́",
-      "phonetic_api": "/já.wá.kɛ́ː/",
-      "phonetic_simple": "YA-WA-KEE",
-      "translation": "la promenade / se balader",
-      "example_sentence": "àá táá yáwá-kɛ́ɛ́ yíá",
-      "example_phonetic": "/àː táː já.wá.kɛ́ː jí.á/",
-      "example_translation": "Nous allons faire une promenade."
+      "word_id": "v4",
+      "term": "ɓàla",
+      "phonetic_api": "/ɓàla/",
+      "phonetic_simple": "BA-LA",
+      "translation": "ballon, football (emprunt régional)",
+      "example_sentence": "Dèe gáa ɓàla kɛ́i.",
+      "example_phonetic": "/dèː gáː ɓàla kɛ́ì/",
+      "example_translation": "L'enfant joue au ballon."
+    },
+    {
+      "word_id": "v5",
+      "term": "lɔ́ɔ",
+      "phonetic_api": "/lɔ́ɔ/",
+      "phonetic_simple": "LO-O",
+      "translation": "aimer, vouloir (kpele apparenté)",
+      "example_sentence": "Ɲá lɔ́ɔ ɓàla kɛ́.",
+      "example_phonetic": "/ɲá lɔ́ɔ ɓàla kɛ́/",
+      "example_translation": "J'aime jouer au football."
+    },
+    {
+      "word_id": "v6",
+      "term": "wɛ̀lɛ",
+      "phonetic_api": "/wɛ̀lɛ/",
+      "phonetic_simple": "OUÈ-LÈ",
+      "translation": "chanter (kpele apparenté)",
+      "example_sentence": "Yà lɔ́ɔ wɛ̀lɛ kɛ́.",
+      "example_phonetic": "/jà lɔ́ɔ wɛ̀lɛ kɛ́/",
+      "example_translation": "Il/elle aime chanter."
+    },
+    {
+      "word_id": "v7",
+      "term": "súku",
+      "phonetic_api": "/súku/",
+      "phonetic_simple": "SOU-KOU",
+      "translation": "école, apprentissage (emprunt régional)",
+      "example_sentence": "Ɲá lɔ́ɔ súku kɛ́.",
+      "example_phonetic": "/ɲá lɔ́ɔ súku kɛ́/",
+      "example_translation": "J'aime étudier."
+    },
+    {
+      "word_id": "v8",
+      "term": "sáki-sáki",
+      "phonetic_api": "/sáki sáki/",
+      "phonetic_simple": "SA-KI SA-KI",
+      "translation": "souvent, régulièrement (kpele apparenté, réduplication)",
+      "example_sentence": "Ɲá lɔ́ɔ ɓàla kɛ́ sáki-sáki.",
+      "example_phonetic": "/ɲá lɔ́ɔ ɓàla kɛ́ sáki sáki/",
+      "example_translation": "J'aime jouer au football souvent."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p2_1",
-      "original": "míɛ́ le í bɛ́ á kɛ́á í lɔ̀ɔ̀-tɛ̀ɛ̀ yí ?",
-      "phonetic_api": "/mí.ɛ́ le í bɛ́ á kɛ́.á í lɔ̀ː.tɛ̀ː jí/",
-      "phonetic_simple": "MIEE LE I BE A KEA I LOO-TEE YI",
-      "translation": "Que fais-tu pendant ton temps libre ?",
-      "context": "Question informelle posée à un ami pour connaître ses habitudes."
+      "phrase_id": "p1",
+      "original": "Ɲá lɔ́ɔ ɓàla kɛ́.",
+      "phonetic_api": "/ɲá lɔ́ɔ ɓàla kɛ́/",
+      "phonetic_simple": "NYA LO-O BA-LA KÉ",
+      "translation": "J'aime jouer au football.",
+      "context": "Construction sérielle lɔ́ɔ + Nom + kɛ́ pour exprimer une passion."
     },
     {
-      "phrase_id": "p2_2",
-      "original": "ń bɛ́ tó-gbáá kɛ́á gáá-wòò kúni-kùnì",
-      "phonetic_api": "/ń bɛ́ tó.ɡ͡báː kɛ́.á ɡáː.wòː kú.ni.kù.ni/",
-      "phonetic_simple": "N BE TO-GBAA KEA GAA-WOO KOONI-KOONI",
-      "translation": "Je joue souvent au football le soir.",
-      "context": "Indiquer une habitude ou une routine de loisir régulière."
+      "phrase_id": "p2",
+      "original": "Yà lɔ́ɔ wɛ̀lɛ kɛ́.",
+      "phonetic_api": "/jà lɔ́ɔ wɛ̀lɛ kɛ́/",
+      "phonetic_simple": "YA LO-O OUÈ-LÈ KÉ",
+      "translation": "Il/elle aime chanter.",
+      "context": "Exprimer la passion d'une tierce personne pour une activité."
     },
     {
-      "phrase_id": "p2_3",
-      "original": "ń dɔ̀ɔ̀ ɓɛ́ dɔ̀nɔ̀n kɛ́á kpáán",
-      "phonetic_api": "/ń dɔ̀ː ɓɛ́ dɔ̀nɔ̀n kɛ́.á k͡páːn/",
-      "phonetic_simple": "N DOO BHE DONON KEA KPAAN",
-      "translation": "Mon petit frère adore danser.",
-      "context": "Parler des goûts et passions de son entourage proche."
+      "phrase_id": "p3",
+      "original": "Ɓò gbɛ̀!",
+      "phonetic_api": "/ɓò gbɛ̀/",
+      "phonetic_simple": "BO GBÈ",
+      "translation": "Va chasser !",
+      "context": "Activité traditionnelle attestée en kono, la chasse."
     },
     {
-      "phrase_id": "p2_4",
-      "original": "wáá táá kɔ̀nɔ̀n-wòò yíé wá?",
-      "phonetic_api": "/wáː táː kɔ̀nɔ̀n.wòː jí.é wá/",
-      "phonetic_simple": "WAA TAA KONON-WOO YIEE WA",
-      "translation": "Est-ce qu'ils vont au terrain de jeu ?",
-      "context": "S'enquérir du lieu de rassemblement des jeunes pour le sport."
+      "phrase_id": "p4",
+      "original": "Ɲá lɔ́ɔ ɓàla kɛ́ sáki-sáki.",
+      "phonetic_api": "/ɲá lɔ́ɔ ɓàla kɛ́ sáki sáki/",
+      "phonetic_simple": "NYA LO-O BA-LA KÉ SA-KI SA-KI",
+      "translation": "J'aime jouer au football souvent.",
+      "context": "Ajout de l'adverbe de fréquence en fin de phrase."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'expression de l'aspect progressif (action en cours)",
-      "explanation": "Pour exprimer qu'une action de loisir est en train de se dérouler, la langue kono utilise la structure avec l'auxiliaire verbal 'bɛ́' suivi de la marque nominalisée ou suffixée '-á' sur le verbe d'action.",
+      "concept": "La construction verbale sérielle avec kɛ́ « faire »",
+      "explanation": "Le kono/kpele utilise fréquemment un verbe support kɛ́ (« faire ») après un nom d'activité pour former un prédicat verbal complet, notamment pour les activités et loisirs (« football-faire » = jouer au football). Cette construction s'insère elle-même dans la construction sérielle avec lɔ́ɔ pour exprimer le goût.",
       "rules": [
-        "Sujet + bɛ́ + Activité / Verbe + á",
-        "À la forme négative, 'bɛ́' se transforme en 'tɛ́'."
+        "Nom d'activité + kɛ́ = pratiquer cette activité.",
+        "lɔ́ɔ + [Nom d'activité + kɛ́] = aimer pratiquer cette activité.",
+        "L'adverbe de fréquence (sáki-sáki) se place en toute fin de la phrase entière."
       ],
       "examples": [
         {
-          "structure": "ń bɛ́ tó kɛ́á",
-          "phonetic_api": "/ń bɛ́ tó kɛ́.á/",
-          "meaning": "Je suis en train de jouer."
-        },
-        {
-          "structure": "ń tɛ́ tó kɛ́á",
-          "phonetic_api": "/ń tɛ́ tó kɛ́.á/",
-          "meaning": "Je ne suis pas en train de jouer."
-        }
-      ]
-    },
-    {
-      "concept": "L'adverbe de fréquence et de répétition",
-      "explanation": "Pour qualifier la régularité d'une passion ou d'une activité, des termes redoublés comme 'kúni-kùnì' (souvent/régulièrement) ou des compléments de temps comme 'gáá-wòò' (le soir) se placent généralement en fin de proposition.",
-      "rules": [
-        "L'indicateur temporel ou fréquentiel vient clore la structure de la phrase."
-      ],
-      "examples": [
-        {
-          "structure": "á bɛ́ túlí mɛ̀ɛ̀á kúni-kùnì",
-          "phonetic_api": "/á bɛ́ tú.lí mɛ̀ː.á kú.ni.kù.ni/",
-          "meaning": "Il écoute de la musique régulièrement."
+          "structure": "lɔ́ɔ + Nom + kɛ́",
+          "phonetic_api": "/lɔ́ɔ … kɛ́/",
+          "meaning": "aimer faire [Nom]"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Koli",
-      "text": "Sia, míɛ́ le í bɛ́ á kɛ́á í lɔ̀ɔ̀-tɛ̀ɛ̀ yí ?",
-      "phonetic_api": "/sí.á mí.ɛ́ le í bɛ́ á kɛ́.á í lɔ̀ː.tɛ̀ː jí/",
-      "phonetic_simple": "SIA MIEE LE I BE A KEA I LOO-TEE YI",
-      "translation": "Sia, que fais-tu pendant ton temps libre ?"
+      "speaker": "Bala",
+      "text": "É lɔ́ɔ ɓàla kɛ́, Sèni?",
+      "phonetic_api": "/é lɔ́ɔ ɓàla kɛ́ sɛ̀ni/",
+      "phonetic_simple": "É LO-O BA-LA KÉ, SÉNI",
+      "translation": "Aimes-tu jouer au football, Sèni ?"
     },
     {
-      "speaker": "Sia",
-      "text": "ń bɛ́ táá dɔ̀nɔ̀n gbéé kɔ̀nɔ̀n-wòò yíé, í wá ?",
-      "phonetic_api": "/ń bɛ́ táː dɔ̀nɔ̀n ɡ͡béː kɔ̀nɔ̀n.wòː jí.é í wá/",
-      "phonetic_simple": "N BE TAA DONON GBEE KONON-WOO YIEE I WA",
-      "translation": "J'aime aller danser sur la place publique, et toi ?"
+      "speaker": "Sèni",
+      "text": "Ěe, ŋa lɔ́ɔ ɓàla kɛ́ sáki-sáki!",
+      "phonetic_api": "/ěː ŋá lɔ́ɔ ɓàla kɛ́ sáki sáki/",
+      "phonetic_simple": "É-É NGA LO-O BA-LA KÉ SA-KI SA-KI",
+      "translation": "Oui, j'aime souvent jouer au football !"
     },
     {
-      "speaker": "Koli",
-      "text": "ń kɔ̀n, ń bɛ́ tó-gbáá kɛ́á gáá-wòò kúni-kùnì.",
-      "phonetic_api": "/ń kɔ̀n ń bɛ́ tó.ɡ͡báː kɛ́.á ɡáː.wòː kú.ni.kù.ni/",
-      "phonetic_simple": "N KON N BE TO-GBAA KEA GAA-WOO KOONI-KOONI",
-      "translation": "Moi, je joue souvent au football le soir."
+      "speaker": "Bala",
+      "text": "Ɲá lɔ́ɔ wɛ̀lɛ kɛ́ dɔ́mɔ́.",
+      "phonetic_api": "/ɲá lɔ́ɔ wɛ̀lɛ kɛ́ dɔ́mɔ́/",
+      "phonetic_simple": "NYA LO-O OUÈ-LÈ KÉ DO-MO",
+      "translation": "Moi, j'aime aussi chanter."
+    },
+    {
+      "speaker": "Sèni",
+      "text": "É máma! Ɲá lɔ́ɔ súku kɛ́ tíŋaá.",
+      "phonetic_api": "/é mámá ɲá lɔ́ɔ súku kɛ́ tíŋaː/",
+      "phonetic_simple": "É-MAMA. NYA LO-O SOU-KOU KÉ TIN-GA-A",
+      "translation": "Merci ! Moi, j'étudierai demain."
     }
   ],
   "cultural_notes": [
-    "Chez les Konon de la Guinée forestière (région de Lola), les activités de loisir sont profondément communautaires. Les places publiques des villages accueillent en fin de journée les jeunes pour des matchs de football ou pour des séances de danses traditionnelles rythmées par les percussions locales lors des veillées."
+    "La chasse (gbɛ̀) demeure une activité culturellement valorisée chez les Kono et les peuples mandés du sud de la Guinée forestière, souvent liée à des rites d'initiation masculine.",
+    "Le football est devenu, comme dans une grande partie de l'Afrique de l'Ouest, le loisir sportif le plus populaire chez les jeunes des villages et des villes de la région."
   ],
   "exercises": [
     {
-      "exercise_id": "ex2_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Que signifie l'expression 'tó-gbáá' ?",
+      "question": "Comment dit-on « j'aime jouer au football » ?",
       "options": [
-        "Le travail des champs",
-        "Le jeu / le football",
-        "La cuisine traditionnelle"
+        "Ɲá lɔ́ɔ ɓàla kɛ́.",
+        "Ɓò gbɛ̀!",
+        "Kɛ̀lɛ̀ɛ hwer̀ɛ̀ gáa kâa pɔ́."
       ],
-      "correct_answer": "Le jeu / le football",
-      "explanation": "'tó-gbáá' désigne de manière générique le jeu et s'applique très couramment aujourd'hui au football."
+      "correct_answer": "Ɲá lɔ́ɔ ɓàla kɛ́.",
+      "explanation": "La construction sérielle lɔ́ɔ + ɓàla + kɛ́ exprime « aimer jouer au football »."
     },
     {
-      "exercise_id": "ex2_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "ń bɛ́ [ ___ ] gbéé (J'aime la danse)",
-      "correct_answer": "dɔ̀nɔ̀n",
-      "hint": "danse"
+      "sentence_with_blank": "Ɲá lɔ́ɔ ɓàla kɛ́ ___. (J'aime jouer au football souvent.)",
+      "correct_answer": "sáki-sáki",
+      "hint": "Adverbe de fréquence formé par réduplication."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Maria Konoshenko, « Field Notes on Kono, a Southwestern Mande Lect of Forest Guinea », Mandenkan 57 (2017), pp. 77-107",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan57/konoshenko57.pdf"
+    },
+    {
+      "label": "Maria Konoshenko, « Dictionnaire kpele de la Guinée (guerzé) – français », Mandenkan 62 (2019/2020)",
+      "url": "https://journals.openedition.org/mandenkan/2091"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Peu de lexique Kono publié couvre ce champ sémantique précis. Le contenu s'appuie ici avec prudence sur le Kpelle de Guinée (guerzé, gkp), langue mandée du sud-ouest très proche du Kono (90% de cognats lexicaux selon Konoshenko 2017) et documentée par un dictionnaire académique de 3000 entrées. Les mots kpele sont signalés comme tels et pourraient différer légèrement du Kono authentique sur certains points de phonologie ou de lexique. gbɛ̀ (chasser) est attesté directement en kono ; les autres activités et la construction de fréquence proviennent du kpele apparenté ou d'extrapolations prudentes."
 }

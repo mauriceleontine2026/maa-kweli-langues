@@ -6,217 +6,190 @@
   "lesson_number": 2,
   "title": "Exprimer l'hypothèse, le doute et la condition",
   "learning_objectives": [
-    "Structurer des propositions conditionnelles complexes en utilisant le morphème 'naxanba'",
-    "Exprimer l'incertitude, le doute et la probabilité avec la particule modale 'yandi'",
-    "Formuler des hypothèses irréelles dans le présent et le passé avec des nuances de probabilité"
+    "Utiliser 'qà' et 'nà' (si) pour construire une phrase conditionnelle",
+    "Combiner condition et conséquence avec le vocabulaire déjà attesté",
+    "Reconnaître les limites des sources sur l'expression du doute en yalunka"
   ],
   "phonetic_focus": {
-    "key_sounds": "Le morphème de condition 'naxanba' s'articule de manière fluide avec une occlusion bilabiale douce /na.xan.ba/. La particule de doute 'yandi' exige une prononciation nette de la prénasalisée /jan.di/. Le 'x' de 'xa' maintient une friction vélaire sourde constante /xa/.",
-    "common_pitfalls": "Attention à ne pas accentuer le 'ba' final de 'naxanba' séparément. Il s'agit d'un bloc morphologique unique servant à poser l'hypothèse."
+    "key_sounds": "Le yalunka (dialonké) comporte une occlusive uvulaire notée « q » (cognat du « x » soussou, prononcée en raclant le fond de la gorge, comme la jota espagnole), des voyelles longues notées par redoublement (ex. « áa »), et des consonnes nasales finales notées « ŋ » (comme le « ng » anglais de « sing »). Le ton (haut ´ / bas `) est phonologiquement distinctif dans la variété de Faléya décrite par Creissels (2010).",
+    "common_pitfalls": "Les francophones prononcent souvent « q » comme un simple « k » au lieu de le racler au fond de la gorge ; ils réduisent le « ŋ » final à « n » ou « ngue » ; et ils ignorent les tons, ce qui peut changer le sens d'un mot puisque le ton est distinctif en yalunka."
   },
   "vocabulary": [
     {
-      "word_id": "v20_1",
-      "term": "Naxanba",
-      "phonetic_api": "/na.xan.ba/",
-      "phonetic_simple": "NA-KHAN-BA",
-      "translation": "Si / Au cas où / À condition que (Hypothèse)",
-      "example_sentence": "I sigama naxanba, n na i malima.",
-      "example_phonetic": "/i si.ɡa.ma na.xan.ba ŋ na i ma.li.ma/",
-      "example_translation": "Au cas où tu partirais, je t'aiderais."
+      "word_id": "v1",
+      "term": "qà",
+      "phonetic_api": "/qà/",
+      "phonetic_simple": "qa",
+      "translation": "si (conjonction de condition)",
+      "example_sentence": "Qà à fáa, ń ɲàaná.",
+      "example_phonetic": "/qà à fáa, ń ɲàaná/",
+      "example_translation": "Si il/elle vient, je serai content."
     },
     {
-      "word_id": "v20_2",
-      "term": "Yandi",
-      "phonetic_api": "/jan.di/",
-      "phonetic_simple": "YAN-DI",
-      "translation": "Peut-être / Probablement / S'il se trouve que (Doute)",
-      "example_sentence": "A yandi fama to subaxɛ.",
-      "example_phonetic": "/a jan.di fa.ma to su.ba.xɛ/",
-      "example_translation": "Il viendra peut-être ce matin."
+      "word_id": "v2",
+      "term": "nà",
+      "phonetic_api": "/nà/",
+      "phonetic_simple": "na",
+      "translation": "si (postposé au sujet, variante de condition)",
+      "example_sentence": "À nà fáa, ń ɲàaná.",
+      "example_phonetic": "/à nà fáa, ń ɲàaná/",
+      "example_translation": "S'il/elle vient, je serai content."
     },
     {
-      "word_id": "v20_3",
-      "term": "Xa",
-      "phonetic_api": "/xa/",
-      "phonetic_simple": "KHA",
-      "translation": "Soit / Ou bien / Particule d'alternative incertaine",
-      "example_sentence": "A fama xa a mu fama, n mu a lɔn.",
-      "example_phonetic": "/a fa.ma xa a mu fa.ma ŋ mu a lɔn/",
-      "example_translation": "Qu'il vienne ou qu'il ne vienne pas, je ne le sais pas."
+      "word_id": "v3",
+      "term": "kóní",
+      "phonetic_api": "/kóní/",
+      "phonetic_simple": "KO-ni",
+      "translation": "mais",
+      "example_sentence": "Qà à fáa, kóní ń mí sóo.",
+      "example_phonetic": "/qà à fáa, koni n mi soo/",
+      "example_translation": "S'il vient, mais je ne serai pas là (litt. je n'entrerai pas)."
     },
     {
-      "word_id": "v20_4",
-      "term": "Sikɛ",
-      "phonetic_api": "/si.kɛ/",
-      "phonetic_simple": "SI-KÈ",
-      "translation": "Doute / Suspicion / Incertitude",
-      "example_sentence": "Sikɛ mu na n bɛ na falan na.",
-      "example_phonetic": "/si.kɛ mu na ŋ bɛ na fa.lan na/",
-      "example_translation": "Je n'ai aucun doute concernant ce discours."
+      "word_id": "v4",
+      "term": "námáa",
+      "phonetic_api": "/námáa/",
+      "phonetic_simple": "na-MA-a",
+      "translation": "alors, ensuite (valeur de conséquence dans un enchaînement)",
+      "example_sentence": "Qà í fàtá, námáa í nígá.",
+      "example_phonetic": "/qà í fàtá, námáa í nígá/",
+      "example_translation": "Si tu peux, alors fais-le."
     },
     {
-      "word_id": "v20_5",
-      "term": "Lɔnbali",
-      "phonetic_api": "/lɔn.ba.li/",
-      "phonetic_simple": "LON-BA-LI",
-      "translation": "Incertain / Inconnu / Ignoré",
-      "example_sentence": "Na wali lɔnbali nan a ra won bɛ.",
-      "example_phonetic": "/na wa.li lɔn.ba.li nan a ra won bɛ/",
-      "example_translation": "Ce projet nous est totalement inconnu."
+      "word_id": "v5",
+      "term": "fàtá",
+      "phonetic_api": "/fàtá/",
+      "phonetic_simple": "fa-TA",
+      "translation": "pouvoir",
+      "example_sentence": "Qà í fàtá, í nígá.",
+      "example_phonetic": "/qà í fàtá, í nígá/",
+      "example_translation": "Si tu peux, fais-le."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p20_1",
-      "original": "Gbelembe na i bɛ naxanba, i na donma masama nɛ.",
-      "phonetic_api": "/ɡbe.lem.be na i bɛ na.xan.ba i na don.ma ma.sa.ma nɛ/",
-      "phonetic_simple": "GBÉ-LEM-BÉ NA I BÈ NA-KHAN-BA, I NA DON-MA MA-SA-MA NÈ",
-      "translation": "Si tu as de l'argent, tu acheteras sûrement ce vêtement.",
-      "context": "Formuler une condition réelle ou potentielle sur un achat."
+      "phrase_id": "p1",
+      "original": "Qà à fáa, ń ɲàaná.",
+      "phonetic_api": "/qà à fáa, ń ɲàaná/",
+      "phonetic_simple": "qa a FA-a, n gna-a-NA",
+      "translation": "S'il vient, je suis content.",
+      "context": "Structure conditionnelle de base avec 'qà' en tête de phrase, attesté par Creissels (2010)."
     },
     {
-      "phrase_id": "p20_2",
-      "original": "A yandi findima wali fanyin ra won bɛ.",
-      "phonetic_api": "/a jan.di fin.di.ma wa.li fan.jin ra won bɛ/",
-      "phonetic_simple": "A YAN-DI FIN-DI-MA WA-LI FAN-YIN RA WON BÈ",
-      "translation": "Cela se transformera peut-être en un excellent projet pour nous.",
-      "context": "Exprimer un espoir teinté d'incertitude ou de probabilité."
+      "phrase_id": "p2",
+      "original": "À nà fáa, ń ɲàaná.",
+      "phonetic_api": "/à nà fáa, ń ɲàaná/",
+      "phonetic_simple": "a na FA-a, n gna-a-NA",
+      "translation": "S'il vient, je suis content.",
+      "context": "Variante avec 'nà' postposé au sujet, selon la description de Creissels (2010)."
     },
     {
-      "phrase_id": "p20_3",
-      "original": "Sikɛ na n bɛ, xa a na falan tinma fanyin.",
-      "phonetic_api": "/si.kɛ na ŋ bɛ xa a na fa.lan tin.ma fan.jin/",
-      "phonetic_simple": "SI-KÈ NA N BÈ, KHA A NA FA-LAN TIN-MA FAN-YIN",
-      "translation": "J'ai un doute, à savoir s'il acceptera vraiment cette parole.",
-      "context": "Manifester explicitement son scepticisme lors d'une discussion."
+      "phrase_id": "p3",
+      "original": "Qà à mí fàtá, à mí nígá.",
+      "phonetic_api": "/qà à mí fàtá, à mí nígá/",
+      "phonetic_simple": "qa a mi fa-TA, a mi ni-GA",
+      "translation": "S'il ne peut pas, il ne le fait pas.",
+      "context": "Combine 'qà' (si), 'fàtá' (pouvoir) et 'nígá' (faire), tous attestés."
     },
     {
-      "phrase_id": "p20_4",
-      "original": "Wali ba fanyin naxanba, i na sɛwɛ gbe sɔtɔ-ma.",
-      "phonetic_api": "/wa.li ba fan.jin na.xan.ba i na sɛ.wɛ ɡbe sɔ.tɔ.ma/",
-      "phonetic_simple": "WA-LI BA FAN-YIN NA-KHAN-BA, I NA SÈ-WÈ GBÉ SO-TO-MA",
-      "translation": "À condition que le travail soit bien fini, tu en retireras une grande joie.",
-      "context": "Poser une condition sine qua non à la réussite d'un projet."
-    },
-    {
-      "phrase_id": "p20_5",
-      "original": "A yandi mu tinma won bɛ maraxui na to.",
-      "phonetic_api": "/a jan.di mu tin.ma won bɛ ma.ra.xui na to/",
-      "phonetic_simple": "A YAN-DI MOU TIN-MA WON BÈ MA-RA-KHOUI NA TO",
-      "translation": "Il ne suivra peut-être pas notre conseil aujourd'hui.",
-      "context": "Envisager une hypothèse négative avec modération."
-    },
-    {
-      "phrase_id": "p20_6",
-      "original": "Na falan findi ra lɔnbali ra m bɛ fari.",
-      "phonetic_api": "/na fa.lan fin.di ra lɔn.ba.li ra m bɛ fa.ri/",
-      "phonetic_simple": "NA FA-LAN FIN-DI RA LON-BA-LI RA M BÈ FA-RI",
-      "translation": "Cette histoire me semble totalement incertaine par-dessus tout.",
-      "context": "Mettre en cause la véracité d'une information au niveau avancé."
-    },
-    {
-      "phrase_id": "p20_7",
-      "original": "Xa i nuu bata faa xoro, won nunma waliɲɔgɔnma rafala.",
-      "phonetic_api": "/xa i nuː ba.ta faː xo.ro won nunma wa.li.ɲɔ.ɡɔn.ma ra.fa.la/",
-      "phonetic_simple": "KHA I NOOU BA-TA FAA KHO-RO, WON NOUN-MA WA-LI-NYO-GON-MA RA-FA-LA",
-      "translation": "Si tu étais venu hier, nous aurions pu collaborer ensemble.",
-      "context": "Formuler une hypothèse irréelle du passé (regret)."
-    },
-    {
-      "phrase_id": "p20_8",
-      "original": "Sikɛ birin ba won bɛ, alaxɛ na raba won na lɔn.",
-      "phonetic_api": "/si.kɛ bi.rin ba won bɛ a.la.xɛ na ra.ba won na lɔn/",
-      "phonetic_simple": "SI-KÈ BI-RIN BA WON BÈ, A-LA-KHÈ NA RA-BA WON NA LON",
-      "translation": "Que tout doute s'éloigne de nous, afin que nous puissions enfin savoir.",
-      "context": "Clore une délibération en exigeant la clarté factuelle."
+      "phrase_id": "p4",
+      "original": "À nà wáa, à nígá.",
+      "phonetic_api": "/à nà wáa, à nígá/",
+      "phonetic_simple": "a na WA-a, a ni-GA",
+      "translation": "S'il veut, il le fait.",
+      "context": "Illustre la variante postposée 'nà' avec 'wáa' (vouloir) et 'nígá' (faire)."
     }
   ],
   "grammar_points": [
     {
-      "concept": "La subordination conditionnelle avec la particule finale 'naxanba'",
-      "explanation": "En Yalunka avancé, pour marquer la condition ou l'hypothèse, on place le morphème subordonnant 'naxanba' en fin de la proposition conditionnelle, juste avant la proposition principale. Cela inverse la logique structurelle du 'si' français placé en début de phrase.",
+      "concept": "La condition avec qà (antéposé) et nà (postposé)",
+      "explanation": "Creissels (2010) atteste deux moyens d'exprimer 'si' en dialonké de Faléya : la conjonction 'qà' placée en tête de la proposition conditionnelle, et la particule 'nà' postposée directement au sujet de cette proposition. Les deux semblent équivalents sémantiquement dans les exemples disponibles, mais leurs contextes d'emploi précis (registre, dialecte, nuance) ne sont pas détaillés dans la source.",
       "rules": [
-        "Structure : [Proposition Conditionnelle + naxanba] + [Proposition Principale]",
-        "Le verbe de la condition se met souvent à l'inaccompli ou à la forme nue."
+        "qà + proposition = si + proposition",
+        "sujet + nà + reste de la proposition = si + proposition"
       ],
       "examples": [
         {
-          "structure": "I n malima naxanba, n na walima.",
-          "phonetic_api": "/i ŋ ma.li.ma na.xan.ba ŋ na wa.li.ma/",
-          "meaning": "Si tu m'aides, je travaillerai."
-        }
-      ]
-    },
-    {
-      "concept": "L'expression de la modalité épistémique avec 'Yandi'",
-      "explanation": "La particule 'yandi' s'insère immédiatement après le pronom sujet ou le nom pour nuancer l'assertion en introduisant une forte probabilité ou une incertitude (l'équivalent de l'adverbe 'peut-être').",
-      "rules": [
-        "Structure : Sujet + yandi + Verbe + Suffixes aspectuels",
-        "Modifie la valeur de certitude de l'énoncé sans altérer la syntaxe du verbe."
-      ],
-      "examples": [
+          "structure": "qà + à + fáa",
+          "phonetic_api": "/qà à fáa/",
+          "meaning": "s'il vient"
+        },
         {
-          "structure": "A yandi sigama tina.",
-          "phonetic_api": "/a jan.di si.ɡa.ma ti.na/",
-          "meaning": "Il partira peut-être demain."
+          "structure": "à + nà + fáa",
+          "phonetic_api": "/à nà fáa/",
+          "meaning": "s'il vient"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Sekou",
-      "text": "Ousmane, i sigama taaxui mɛ tina subaxɛ nɛ ? N bɛ i bɛ marasife xanfe.",
-      "phonetic_api": "/us.ma.ne i si.ɡa.ma taː.xui mɛ ti.na su.ba.xɛ nɛ ŋ bɛ i bɛ ma.ra.si.fe xan.fe/",
-      "phonetic_simple": "OUS-MA-NE, I SI-GA-MA TAA-KHOUI MÈ TI-NA SOU-BA-KHÈ NÈ ? N BÈ I BÈ MA-RA-SI-FÉ KHAN-FÉ",
-      "translation": "Ousmane, iras-tu en ville demain matin ? J'aimerais te demander un conseil."
+      "speaker": "A",
+      "text": "Qà í wáa sígá Fàranà, í fàtá nígá bà?",
+      "phonetic_api": "/qà í wáa sígá fàranà, í fàtá nígá bà/",
+      "phonetic_simple": "qa i WA-a si-GA fa-ra-NA, i fa-TA ni-GA ba",
+      "translation": "Si tu veux aller à Faranah, peux-tu le faire ?"
     },
     {
-      "speaker": "Ousmane",
-      "text": "N baabaa, n yandi sigama tina, kɔni sikɛ na n bɛ tɛmɛni na wali fari.",
-      "phonetic_api": "/ŋ baː.baː ŋ jan.di si.ɡa.ma ti.na kɔ.ni si.kɛ na ŋ bɛ tɛ.mɛ.ni na wa.li fa.ri/",
-      "phonetic_simple": "N BAA-BAA, N YAN-DI SI-GA-MA TI-NA, KƆ-NI SI-KÈ NA N BÈ TÈ-MÈ-NI NA WA-LI FA-RI",
-      "translation": "Mon père, j'irais peut-être demain, mais j'ai un doute actuellement par-dessus mon travail."
+      "speaker": "B",
+      "text": "Awa, qà ń wáa, ń fàtá.",
+      "phonetic_api": "/awa, qà ń wáa, ń fàtá/",
+      "phonetic_simple": "a-wa, qa n WA-a, n fa-TA",
+      "translation": "Oui, si je veux, je peux."
     },
     {
-      "speaker": "Sekou",
-      "text": "Wali na ba fanyin naxanba tina singe, i findi ra siga ra taaxui mɛ ?",
-      "phonetic_api": "/wa.li na ba fan.jin na.xan.ba ti.na sin.ɡe i fin.di ra si.ɡa ra taː.xui mɛ/",
-      "phonetic_simple": "WA-LI NA BA FAN-YIN NA-KHAN-BA TI-NA SIN-GUÉ, I FIN-DI RA SI-GA RA TAA-KHOUI MÈ ?",
-      "translation": "Si le travail se termine bien demain d'abord, seras-tu en mesure d'aller en ville ?"
+      "speaker": "A",
+      "text": "Qà í mí fàtá, í nígá kíidì?",
+      "phonetic_api": "/qà í mí fàtá, í nígá kíidì/",
+      "phonetic_simple": "qa i mi fa-TA, i ni-GA KI-i-di",
+      "translation": "Si tu ne peux pas, comment le fais-tu ?"
     },
     {
-      "speaker": "Ousmane",
-      "text": "Nba, na naxanba, sikɛ birin na bama. N na n mabilinma i bɛ fanyin, alaxɛ na raba won na falan sɔtɔ.",
-      "phonetic_api": "/ŋba na na.xan.ba si.kɛ bi.rin na ba.ma ŋ na ŋ ma.bi.lin.ma i bɛ fan.jin a.la.xɛ na ra.ba won na fa.lan sɔ.tɔ/",
-      "phonetic_simple": "NBA, NA NA-KHAN-BA, SI-KÈ BI-RIN NA BA-MA. N NA N MA-BI-LIN-MA I BÈ FAN-YIN, A-LA-KHÈ NA RA-BA WON NA FA-LAN SO-TO",
-      "translation": "Oui, si c'est ainsi, tout doute s'éloignera. Je me déplacerai vers toi volontiers, afin que nous puissions nous parler."
+      "speaker": "B",
+      "text": "Qà ń mí fàtá, ń mí nígá.",
+      "phonetic_api": "/qà ń mí fàtá, ń mí nígá/",
+      "phonetic_simple": "qa n mi fa-TA, n mi ni-GA",
+      "translation": "Si je ne peux pas, je ne le fais pas."
     }
   ],
   "cultural_notes": [
-    "Dans la culture Jalonké, assumer une certitude absolue sur les événements futurs est considéré comme un manque d'humilité. L'emploi fréquent de 'yandi' (peut-être) et de structures hypothétiques permet de ne pas brusquer le destin et de respecter la volonté divine.",
-    "Lors des débats coutumiers, l'utilisation de la conditionnelle inverse terminée par 'naxanba' sert à poser des cadres contractuels rigoureux entre les collaborateurs ou lors des négociations de dots."
+    "Le double moyen d'exprimer la condition (qà antéposé / nà postposé) illustre une richesse syntaxique typique des langues mandé, où plusieurs stratégies grammaticales coexistent pour une même fonction logique."
   ],
   "exercises": [
     {
-      "exercise_id": "ex20_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Où se place le morphème hypothétique 'naxanba' au sein de la proposition conditionnelle en Yalunka ?",
+      "question": "Quel mot signifie 'si' en tête de phrase conditionnelle ?",
       "options": [
-        "Au tout début de la phrase",
-        "À la fin de la proposition conditionnelle",
-        "Entre le sujet et le verbe"
+        "qà",
+        "kóní",
+        "námáa"
       ],
-      "correct_answer": "À la fin de la proposition conditionnelle",
-      "explanation": "Contrairement au français 'si', 'naxanba' se positionne de façon postpositive à la fin de la proposition qui porte l'hypothèse."
+      "correct_answer": "qà",
+      "explanation": "Attesté dans Creissels (2010)."
     },
     {
-      "exercise_id": "ex20_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Pour insérer la nuance de probabilité 'peut-être' après le sujet, on utilise la particule [ ___ ].",
-      "correct_answer": "yandi",
-      "hint": "Ce mot contient cinq lettres et se termine par la voyelle fermée 'i'."
+      "sentence_with_blank": "Variante de 'si' postposée au sujet : [ ___ ].",
+      "correct_answer": "nà",
+      "hint": "Attesté par Creissels (2010)."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Denis Creissels — Liste lexicale du dialonké de Faléya, Mandenkan 46 (2010), pp. 49-71",
+      "url": "http://www.deniscreissels.fr/public/Creissels-liste_lexicale_dialonke.pdf"
+    },
+    {
+      "label": "Wikipedia (EN) — Yalunka language",
+      "url": "https://en.wikipedia.org/wiki/Yalunka_language"
+    },
+    {
+      "label": "Friederike Lüpke — A grammar of Jalonke argument structure (thèse, MPI, 2005)",
+      "url": "https://pure.mpg.de/rest/items/item_59381_8/component/file_2603778/content"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Les deux marqueurs de condition ('qà' antéposé et 'nà' postposé) sont attestés dans Creissels (2010) avec leur traduction française 'si'. Aucune source consultée ne documente en revanche de marqueur grammatical dédié au doute (par ex. un équivalent de 'peut-être') en yalunka ; cette lacune est explicitement signalée plutôt que comblée par une invention."
 }

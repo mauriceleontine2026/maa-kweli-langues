@@ -6,192 +6,181 @@
   "lesson_number": 6,
   "title": "Faire des achats, négocier les prix et gérer l'argent",
   "learning_objectives": [
-    "Mener une négociation commerciale complexe au marché (eyá̰)",
-    "Utiliser les expressions idiomatiques de réduction de prix et d'accord financier",
-    "Exprimer l'évaluation de la valeur monétaire d'un bien de consommation"
+    "Utiliser les numéraux dans un contexte de comptage de valeur",
+    "Reconnaître l'absence de vocabulaire commercial spécifique dans les sources disponibles",
+    "Réviser la formation des grands nombres (dizaines, centaines) utile pour évoquer des prix"
   ],
   "phonetic_focus": {
-    "key_sounds": "L'univers financier s'appuie sur le terme pour la valeur monétaire, 'ləɟɛ́ɛ́'. Notez bien la longueur de la voyelle ouverte doublée /ɛ́ː/ frappée d'un ton haut. Le verbe pour réduire un montant, 'gəbɨ́', exige une bonne émission de la voyelle centrale fermée non arrondie /ɨ/.",
-    "common_pitfalls": "Attention à ne pas glisser du son /ɨ/ de 'gəbɨ́' vers le /i/ français. Conservez la langue reculée pour bien marquer l'action d'abaisser le coût de la transaction.",
-    "vocabulary": [
-      {
-        "word_id": "v57",
-        "term": "ləɟɛ́ɛ́",
-        "phonetic_api": "/ləɟɛ́ː/",
-        "phonetic_simple": "LE-DYEE",
-        "translation": "le prix / la valeur financière / le coût d'un bien",
-        "example_sentence": "Ləɟɛ́ɛ́ gəbɛ̂ kɔ̂ oŋ dyɛ́ɛ̀.",
-        "example_phonetic": "/ləɟɛ́ː ɡəɓɛ̂ kɔ̂ oŋ ɟɛ́ː/",
-        "example_translation": "Le prix de ce vêtement est particulièrement élevé."
-      },
-      {
-        "word_id": "v58",
-        "term": "gəbɨ́",
-        "phonetic_api": "/gəɓɨ́/",
-        "phonetic_simple": "GE-BHI",
-        "translation": "diminuer / réduire / rabattre un montant",
-        "example_sentence": "gəbɨ́ ləɟɛ́ɛ́ ɛni, nyarancaa.",
-        "example_phonetic": "/gəɓɨ́ ləɟɛ́ː ɛni ɲarant͡ʃaː/",
-        "example_translation": "Diminue un peu le prix, s'il te plaît."
-      },
-      {
-        "word_id": "v59",
-        "term": "fəwã́ñ",
-        "phonetic_api": "/fəwã́ɲ/",
-        "phonetic_simple": "FE-WANY",
-        "translation": "l'argent / la monnaie / les pièces métalliques",
-        "example_sentence": "Məfɔ́ nɛ̂ fəwã́ñ pə́ m mɔ.",
-        "example_phonetic": "/məfɔ́ nɛ̂ fəwã́ɲ pə́ m mɔ/",
-        "example_translation": "J'ai de l'argent sur moi."
-      },
-      {
-        "word_id": "v60",
-        "term": "gəkɔ́ñ",
-        "phonetic_api": "/gəkɔ́ɲ/",
-        "phonetic_simple": "GE-KONY",
-        "translation": "acheter / faire l'acquisition de quelque chose",
-        "example_sentence": "Məbəgá kəkɔ́ñ ləbəlã bɛ̀ɛ̀.",
-        "example_phonetic": "/məɓəɡá kəkɔ́ɲ ləɓəlã bɛ̀ː/",
-        "example_translation": "Je souhaite acheter un pagne traditionnel de grande valeur."
-      }
-    ],
-    "common_phrases": [
-      {
-        "phrase_id": "p113",
-        "original": "Anee ləɟɛ́ɛ́ gəbɛ̂ kɔ̂?",
-        "phonetic_api": "/aneː ləɟɛ́ː ɡəɓɛ̂ kɔ̂/",
-        "phonetic_simple": "A-NEE LE-DYEE GE-BHE KO",
-        "translation": "À combien s'élève le prix de cet habit ?",
-        "context": "Formule incontournable d'ouverture de marchandage au marché."
-      },
-      {
-        "phrase_id": "p114",
-        "original": "Ləɟɛ́ɛ́ oŋ dyɛ́ɛ̀ gwa! gəbɨ́ ɛni.",
-        "phonetic_api": "/ləɟɛ́ː oŋ ɟɛ́ː ɡwa gəɓɨ́ ɛni/",
-        "phonetic_simple": "LE-DYEE ONG DYEE GWA! GE-BHI E-NI",
-        "translation": "Le prix est trop cher ! Diminue d'une fraction.",
-        "context": "Contester poliment le tarif initial annoncé par le vendeur."
-      },
-      {
-        "phrase_id": "p115",
-        "original": "Məfɔ́ nɛ̂ pɔɔwã fəwã́ñ.",
-        "phonetic_api": "/məfɔ́ nɛ̂ pɔːwã fəwã́ɲ/",
-        "phonetic_simple": "ME-FO NE POO-WAN FE-WANY",
-        "translation": "Je dispose de dix unités d'argent pour la transaction.",
-        "context": "Annoncer son budget maximum pour un produit."
-      },
-      {
-        "phrase_id": "p116",
-        "original": "Məbəgá kəkɔ́ñ məkǎndɔŋ na ɔñɛ́.",
-        "phonetic_api": "/məɓəɡá kəkɔ́ɲ məkǎndɔŋ na ɔɲɛ́/",
-        "phonetic_simple": "ME-BHE-GA KE-KONY ME-KAN-DONG NA O-NYE",
-        "translation": "Je veux acheter une provision de riz et de viande.",
-        "context": "Énoncer ses intentions d'achats alimentaires."
-      },
-      {
-        "phrase_id": "p117",
-        "original": "Ləɟɛ́ɛ́ oŋ oŋ bɛ̀ɛ̀. Məkɔ́ñ kɔ̂.",
-        "phonetic_api": "/ləɟɛ́ː oŋ oŋ bɛ̀ː məkɔ́ɲ kɔ̂/",
-        "phonetic_simple": "LE-DYEE ONG ONG BEE. ME-KONY KO",
-        "translation": "Le prix est honnête et convenable. J'achète cela.",
-        "context": "Conclure l'accord commercial de manière positive."
-      },
-      {
-        "phrase_id": "p118",
-        "original": "Anee fəwã́ñ oŋ mɛ́ɛ̀ fə́ eyá̰?",
-        "phonetic_api": "/aneː fəwã́ɲ oŋ mɛ́ː fə́ ejá̰/",
-        "phonetic_simple": "A-NEE FE-WANY ONG MEE FE E-YANG",
-        "translation": "Où se fait la gestion ou le change de l'argent dans ce marché ?",
-        "context": "S'informer des infrastructures financières locales."
-      },
-      {
-        "phrase_id": "p119",
-        "original": "A-a, məgəbɨ́ ləɟɛ́ɛ́ fə́ mɔ.",
-        "phonetic_api": "/aʔa məgəɓɨ́ ləɟɛ́ː fə́ mɔ/",
-        "phonetic_simple": "A-A, ME-GE-BHI LE-DYEE FE MO",
-        "translation": "Non, je ne peux pas descendre le prix davantage.",
-        "context": "Position de fermeté du vendeur refusant une baisse."
-      },
-      {
-        "phrase_id": "p120",
-        "original": "Nyarancaa fə́ fəwã́ñ bə̂ bɛ̀ɛ̀.",
-        "phonetic_api": "/ɲarant͡ʃaː fə́ fəwã́ɲ ɓə̂ bɛ̀ː/",
-        "phonetic_simple": "NYA-RAN-TCHAA FE FE-WANY BHE BEE",
-        "translation": "Merci pour le paiement exact et de bonne foi.",
-        "context": "Saluations finales après encaissement d'une somme."
-      }
-    ],
-    "grammar_points": [
-      {
-        "concept": "Les verbes de transaction impératifs et la gradation adverbiale",
-        "explanation": "Les échanges marchands en Oniyan s'articulent autour de verbes spécifiques de mouvement de valeur : 'gəkɔ́ñ' (acheter) et 'gəbɨ́' (diminuer). L'utilisation de l'impératif direct adouci par l'adverbe quantitatif 'ɛni' (un peu) est la norme de politesse pour solliciter un rabais sans offenser le vendeur.",
-        "rules": [
-          "Le terme de la monnaie 'fəwã́ñ' appartient à la classe nominale des outils et valeurs d'échange fə-.",
-          "Pour exprimer la cherté d'un objet, on accole l'adverbe intensif 'gwa' (très) directement après l'adjectif 'dyɛ́ɛ̀' (grand/élevé)."
-        ],
-        "examples": [
-          {
-            "structure": "gəbɨ́ + ləɟɛ́ɛ́ + [Adverbe d'atténuation]",
-            "phonetic_api": "/gəɓɨ́ ləɟɛ́ː ɛni/",
-            "meaning": "Réduis le coût d'une petite fraction"
-          }
-        ]
-      }
-    ],
-    "dialogue": [
-      {
-        "speaker": "L'acheteur",
-        "text": "Anee ləɟɛ́ɛ́ ləbəlã kɔ̂ fə́ eyá̰?",
-        "phonetic_api": "/aneː ləɟɛ́ː ləɓəlã kɔ̂ fə́ ejá̰/",
-        "phonetic_simple": "A-NEE LE-DYEE LE-BHE-LAN KO FE E-YANG",
-        "translation": "À combien vends-tu ce pagne traditionnel ici au marché ?"
-      },
-      {
-        "speaker": "Le vendeur",
-        "text": "Ləɟɛ́ɛ́ oŋ oŋ pɔɔwã fəwã́ñ. Ləbəlã oŋ oŋ əɟiri bɛ̀ɛ̀ gwa.",
-        "phonetic_api": "/ləɟɛ́ː oŋ oŋ pɔːwã fəwã́ɲ ləɓəlã oŋ oŋ əɟiri bɛ̀ː ɡwa/",
-        "phonetic_simple": "LE-DYEE ONG ONG POO-WAN FE-WANY. LE-BHE-LAN ONG ONG EU-DYI-RI BEE GWA",
-        "translation": "Son coût est fixé à dix monnaies. Ce pagne rouge est d'une splendeur unique."
-      },
-      {
-        "shift": "Négociation",
-        "speaker": "L'acheteur",
-        "text": "Ləɟɛ́ɛ́ oŋ dyɛ́ɛ̀ gwa! gəbɨ́ ɛni, məfɔ́ nɛ̂ ɓəni fəwã́ñ.",
-        "phonetic_api": "/ləɟɛ́ː oŋ ɟɛ́ː ɡwa gəɓɨ́ ɛni məfɔ́ nɛ̂ ɓəni fəwã́ɲ/",
-        "phonetic_simple": "LE-DYEE ONG DYEE GWA! GE-BHI E-NI, ME-FO NE BHE-NI FE-WANY",
-        "translation": "C'est bien trop cher ! Fais un geste, je n'ai que cinq monnaies avec moi."
-      },
-      {
-        "speaker": "Le vendeur",
-        "text": "Məgaw bɛ̀ɛ̀. ɟaa na fəwã́ñ ɓəni na fəla (sept). Kɔ̂ oŋ bɛ̀ɛ̀ gwa.",
-        "phonetic_api": "/məɡaw bɛ̀ː ɟaː na fəwã́ɲ ɓəni na fəla kɔ̂ oŋ bɛ̀ː ɡwa/",
-        "phonetic_simple": "ME-GAW BEE. DYAA NA FE-WANY BHE-NI NA FE-LA. KO ONG BEE GWA",
-        "translation": "Je comprends ta situation. Donne-moi sept monnaies (cinq plus deux) et l'affaire est conclue."
-      }
-    ],
-    "cultural_notes": [
-      "Dans l'espace socio-économique du peuple Bassari en Guinée, la négociation au marché ('eyá̰') n'est pas qu'une simple transaction mathématique brute. C'est un exercice de joute verbale courtoise où l'acheteur valorise la beauté du travail de l'artisan tout en défendant son propre budget. Conclure un marché forge un respect mutuel."
-    ],
-    "exercises": [
-      {
-        "exercise_id": "ex29",
-        "type": "multiple_choice",
-        "question": "Quel mot Oniyan désigne l'argent, la monnaie ou le numéraire utilisé ?",
-        "options": [
-          "ləɟɛ́ɛ́",
-          "fəwã́ñ",
-          "gəkɔ́ñ"
-        ],
-        "correct_answer": "fəwã́ñ",
-        "explanation": "'fəwã́ñ' désigne la monnaie physique servant à l'échange, tandis que 'ləɟɛ́ɛ́' désigne le prix abstrait d'un bien."
-      },
-      {
-        "exercise_id": "ex30",
-        "type": "fill_in_the_blanks",
-        "sentence_with_blank": "[ ___ ] ləɟɛ́ɛ́ ɛni, nyarancaa (Diminue le prix d'un peu, s'il te plaît).",
-        "correct_answer": "gəbɨ́",
-        "hint": "Le verbe à l'impératif signifiant l'action d'abaisser ou de rabattre un montant."
-      }
-    ]
-  }
+    "key_sounds": "Dans les nombres composés comme « okeme oco gë ɓëtas », chaque élément garde son accent tonal propre ; il ne faut pas fusionner la prononciation des mots reliés par gë.",
+    "common_pitfalls": "Les francophones ont tendance à traduire littéralement les tournures de négociation françaises (« c'est trop cher ») sans disposer d'un équivalent attesté en oniyan ; il vaut mieux s'appuyer sur les nombres, seuls éléments vérifiés pour ce thème."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "epëxw",
+      "phonetic_api": "/epəxʷ/",
+      "phonetic_simple": "É-PËHOU",
+      "translation": "dix (10)",
+      "example_sentence": "Epëxw gë ɓëki.",
+      "example_phonetic": "/epəxʷ gə ɓəki/",
+      "example_translation": "Douze (dix avec deux)."
+    },
+    {
+      "word_id": "v2",
+      "term": "keme",
+      "phonetic_api": "/keme/",
+      "phonetic_simple": "KÉ-MÉ",
+      "translation": "cent (100)",
+      "example_sentence": "Okeme oki.",
+      "example_phonetic": "/okeme oki/",
+      "example_translation": "Deux cents."
+    },
+    {
+      "word_id": "v3",
+      "term": "gë",
+      "phonetic_api": "/gə/",
+      "phonetic_simple": "GË",
+      "translation": "avec (relie les grands nombres)",
+      "example_sentence": "Okeme oco gë ɓëtas.",
+      "example_phonetic": "/okeme oko gə ɓətas/",
+      "example_translation": "Cinq cent trois."
+    },
+    {
+      "word_id": "vx4",
+      "term": "iyo",
+      "phonetic_api": "/ijo/",
+      "phonetic_simple": "I-YO",
+      "translation": "oui",
+      "example_sentence": "Iyo.",
+      "example_phonetic": "/ijo/",
+      "example_translation": "Oui."
+    },
+    {
+      "word_id": "vx12",
+      "term": "axam",
+      "phonetic_api": "/axam/",
+      "phonetic_simple": "A-HAM",
+      "translation": "pouvoir (verbe modal)",
+      "example_sentence": "axam",
+      "example_phonetic": "/axam/",
+      "example_translation": "pouvoir."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Okeme oco gë ɓëtas.",
+      "phonetic_api": "/okeme oko gə ɓətas/",
+      "phonetic_simple": "O-KÉ-MÉ O-KO GË BË-TAS",
+      "translation": "Cinq cent trois (cent-fois-cinq avec trois).",
+      "context": "Exemple de grand nombre utile pour évoquer un prix en monnaie locale."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Iyo.",
+      "phonetic_api": "/ijo/",
+      "phonetic_simple": "I-YO",
+      "translation": "Oui.",
+      "context": "Réponse affirmative générale, réutilisable dans toute conversation."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "O-oye.",
+      "phonetic_api": "/o.oje/",
+      "phonetic_simple": "O-O-YÉ",
+      "translation": "Non.",
+      "context": "Réponse négative générale, réutilisable dans toute conversation."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Awa.",
+      "phonetic_api": "/awa/",
+      "phonetic_simple": "A-OUA",
+      "translation": "D'accord / Bien.",
+      "context": "Marque d'accord ou de validation, utile pour conclure un échange."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Formation des grands nombres pour exprimer des quantités/prix",
+      "explanation": "Comme vu au niveau débutant, les centaines et milliers se forment par un principe multiplicatif-additif : [multiplicateur] + [keme/wëli] + gë + [reste]. Cette structure, seule solidement attestée dans le champ « argent/quantités », permet d'exprimer n'importe quel prix numériquement.",
+      "rules": [
+        "okeme + [multiplicateur] = centaines.",
+        "gë + [reste] relie le complément non multiplié de 1 à 99."
+      ],
+      "examples": [
+        {
+          "structure": "okeme oco gë ɓëtas",
+          "phonetic_api": "/okeme oko gə ɓətas/",
+          "meaning": "503 (cinq-cents avec trois)"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Acheteur",
+      "text": "Okeme oco gë ɓëtas?",
+      "phonetic_api": "/okeme oko gə ɓətas/",
+      "phonetic_simple": "O-KÉ-MÉ O-KO GË BË-TAS ?",
+      "translation": "Cinq cent trois (francs) ?"
+    },
+    {
+      "speaker": "Vendeur",
+      "text": "Iyo.",
+      "phonetic_api": "/ijo/",
+      "phonetic_simple": "I-YO",
+      "translation": "Oui."
+    },
+    {
+      "speaker": "Locuteur A",
+      "text": "Awa?",
+      "phonetic_api": "/awa/",
+      "phonetic_simple": "A-OUA ?",
+      "translation": "D'accord ?"
+    },
+    {
+      "speaker": "Locuteur B",
+      "text": "Iyo, awa.",
+      "phonetic_api": "/ijo awa/",
+      "phonetic_simple": "I-YO, A-OUA",
+      "translation": "Oui, d'accord."
+    }
+  ],
+  "cultural_notes": [
+    "Les marchés hebdomadaires de la région de Kédougou (Sénégal) et de Koundara (Guinée) sont des lieux d'échange multilingues où le français, le peul, le malinké et l'oniyan peuvent coexister ; aucune expression de négociation figée en oniyan n'a cependant été trouvée dans les sources disponibles."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Comment relie-t-on les centaines au reste d'un nombre en oniyan ?",
+      "options": [
+        "avec gë « avec »",
+        "avec un suffixe -ba",
+        "en les juxtaposant sans lien"
+      ],
+      "correct_answer": "avec gë « avec »",
+      "explanation": "gë « avec » relie les grands nombres non accordés en classe au reste du nombre."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Okeme oco ___ ɓëtas. (« cinq cent trois »)",
+      "correct_answer": "gë",
+      "hint": "Mot signifiant « avec », reliant les grands nombres."
+    }
+  ],
+  "sources": [
+    {
+      "label": "SIL — A Grammar of Oniyan (Winters & Winters, 2004)",
+      "url": "https://www.sil.org/system/files/reapdata/18/63/15/1863153183176772870767650622005357320/BSC_Oniyan_grammar_En_2004.pdf"
+    },
+    {
+      "label": "SIL — Bassari Phonology / Orthographe Oniyan (2003)",
+      "url": "https://www.sil.org/system/files/reapdata/13/27/28/132728046882691513259738660939179774460/BSC_Orthographe_Oniyan_Fr_2003.pdf"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "La formation des grands nombres est bien attestée et directement réutilisable pour exprimer des prix. Aucun terme spécifique pour « argent », « acheter », « vendre » ou « négocier » n'a en revanche été trouvé dans les sources disponibles ; ces verbes ne sont donc pas inclus pour éviter toute invention lexicale."
 }

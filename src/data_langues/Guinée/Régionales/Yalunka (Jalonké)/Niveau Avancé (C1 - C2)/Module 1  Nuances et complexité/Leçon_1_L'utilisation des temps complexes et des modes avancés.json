@@ -6,217 +6,198 @@
   "lesson_number": 1,
   "title": "L'utilisation des temps complexes et des modes avancés",
   "learning_objectives": [
-    "Exprimer l'antériorité et la simultanéité d'actions complexes dans le passé en Yalunka",
-    "Manipuler les combinaisons de particules aspecto-temporelles pour former le plus-que-parfait et le futur antérieur",
-    "Nuancer le discours en utilisant le mode subjonctif et l'optatif dans des propositions subordonnées complexes"
+    "Distinguer 'báadè' (passé récent) et 'nù' (inactuel/révolu) dans un récit complexe",
+    "Utiliser le marqueur 'xa' (souhait/permission) dans un énoncé modal",
+    "Comprendre les limites de la documentation grammaticale disponible sur le système temps-aspect-mode du yalunka"
   ],
   "phonetic_focus": {
-    "key_sounds": "La structure du plus-que-parfait combine 'nuu' /nuː/ (allongé) et 'bata' /ba.ta/ (bref). L'enchaînement consonantique dans 'nunma' /nun.ma/ demande une transition nasale fluide. Le ton ou l'accent sur les suffixes de subordination complexes doit être stable pour ne pas perdre la valeur modale.",
-    "common_pitfalls": "Attention à ne pas télescoper la particule 'nuu' et l'auxiliaire 'bata' en un seul mot indifférencié. Marquez une micro-pause syntaxique pour préserver la clarté du temps composé : /nuː ba.ta/."
+    "key_sounds": "Le yalunka (dialonké) comporte une occlusive uvulaire notée « q » (cognat du « x » soussou, prononcée en raclant le fond de la gorge, comme la jota espagnole), des voyelles longues notées par redoublement (ex. « áa »), et des consonnes nasales finales notées « ŋ » (comme le « ng » anglais de « sing »). Le ton (haut ´ / bas `) est phonologiquement distinctif dans la variété de Faléya décrite par Creissels (2010).",
+    "common_pitfalls": "Les francophones prononcent souvent « q » comme un simple « k » au lieu de le racler au fond de la gorge ; ils réduisent le « ŋ » final à « n » ou « ngue » ; et ils ignorent les tons, ce qui peut changer le sens d'un mot puisque le ton est distinctif en yalunka."
   },
   "vocabulary": [
     {
-      "word_id": "v19_1",
-      "term": "Nuu bata",
-      "phonetic_api": "/nuː ba.ta/",
-      "phonetic_simple": "NOOU BA-TA",
-      "translation": "Marqueur complexe du plus-que-parfait (Action déjà accomplie dans le passé)",
-      "example_sentence": "N nuu bata n na wali ba xoro.",
-      "example_phonetic": "/ŋ nuː ba.ta ŋ na wa.li ba xo.ro/",
-      "example_translation": "J'avais déjà terminé mon travail hier."
+      "word_id": "v1",
+      "term": "báadè",
+      "phonetic_api": "/báadè/",
+      "phonetic_simple": "BA-a-dè",
+      "translation": "marque du passé récent",
+      "example_sentence": "À báadè sígá.",
+      "example_phonetic": "/à báadè sígá/",
+      "example_translation": "Il/elle vient juste de partir."
     },
     {
-      "word_id": "v19_2",
-      "term": "Nunma",
-      "phonetic_api": "/nun.ma/",
-      "phonetic_simple": "NOUN-MA",
-      "translation": "Conditionnel passé / Aurait fallu / Aurait pu",
-      "example_sentence": "A nunma i malife singe.",
-      "example_phonetic": "/a nun.ma i ma.li.fe sin.ɡe/",
-      "example_translation": "Il aurait fallu qu'il t'aide d'abord."
+      "word_id": "v2",
+      "term": "nù",
+      "phonetic_api": "/nù/",
+      "phonetic_simple": "nou",
+      "translation": "marque de l'inactuel (temps révolu, contexte non actuel)",
+      "example_sentence": "À nù sígámá xɛ̀ɛn má.",
+      "example_phonetic": "/à nù sigama xɛ̀ɛn ma/",
+      "example_translation": "Il/elle était en train d'aller au champ (à un moment révolu)."
     },
     {
-      "word_id": "v19_3",
-      "term": "Tɛmɛni naxan na",
-      "phonetic_api": "/tɛ.mɛ.ni na.xan na/",
-      "phonetic_simple": "TÈ-MÈ-NI NA-XAN NA",
-      "translation": "Pendant que / Au moment même où (Simultanéité)",
-      "example_sentence": "A faa tɛmɛni naxan na, n nuu na xii.",
-      "example_phonetic": "/a faː tɛ.mɛ.ni na.xan na ŋ nuː na xiː/",
-      "example_translation": "Au moment même où il est arrivé, j'étais en train de dormir."
+      "word_id": "v3",
+      "term": "xa",
+      "phonetic_api": "/xa/",
+      "phonetic_simple": "xa",
+      "translation": "marqueur modal de souhait/permission",
+      "example_sentence": "À xa sígá.",
+      "example_phonetic": "/à xa sígá/",
+      "example_translation": "Qu'il/elle parte (souhait) / il lui est permis de partir."
     },
     {
-      "word_id": "v19_4",
-      "term": "Alaxɛ na raba",
-      "phonetic_api": "/a.la.xɛ na ra.ba/",
-      "phonetic_simple": "A-LA-KHÈ NA RA-BA",
-      "translation": "Pourvu que / Fassiez en sorte que (Optatif/Subjonctif)",
-      "example_sentence": "Alaxɛ na raba, i na xaran lɔn fanyin.",
-      "example_phonetic": "/a.la.xɛ na ra.ba i na xa.ran lɔn fan.jin/",
-      "example_translation": "Pourvu que tu maîtrises parfaitement cette leçon."
+      "word_id": "v4",
+      "term": "kóní",
+      "phonetic_api": "/kóní/",
+      "phonetic_simple": "KO-ni",
+      "translation": "mais",
+      "example_sentence": "À nù sígámá, kóní à mí sígáxí.",
+      "example_phonetic": "/à nù sigama, koni a mi sigaxi/",
+      "example_translation": "Il allait partir, mais il n'est pas parti."
     },
     {
-      "word_id": "v19_5",
-      "term": "Pian",
-      "phonetic_api": "/pi.an/",
-      "phonetic_simple": "PI-AN",
-      "translation": "Déjà / Complètement / Définitivement (Adverbe d'achèvement)",
-      "example_sentence": "Wali bata ba pian.",
-      "example_phonetic": "/wa.li ba.ta ba pi.an/",
-      "example_translation": "Le travail est déjà complètement terminé."
+      "word_id": "v5",
+      "term": "námáa",
+      "phonetic_api": "/námáa/",
+      "phonetic_simple": "na-MA-a",
+      "translation": "puis, ensuite",
+      "example_sentence": "À sígá, námáa à fáa.",
+      "example_phonetic": "/à sígá, námáa à fáa/",
+      "example_translation": "Il/elle est parti(e), puis il/elle est revenu(e)."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p19_1",
-      "original": "N nuu bata xaran ba pian, na fɛ i n xili.",
-      "phonetic_api": "/ŋ nuː ba.ta xa.ran ba pi.an na fɛ i ŋ xi.li/",
-      "phonetic_simple": "N NOOU BA-TA KHA-RAN BA PI-AN, NA FÈ I N KHI-LI",
-      "translation": "J'avais déjà complètement fini d'étudier quand tu m'as appelé.",
-      "context": "Exprimer une antériorité absolue entre deux actions passées au niveau C1."
+      "phrase_id": "p1",
+      "original": "À nù sígámá a ra nɛ́n xɛ̀ɛn ma nun, koni a mi sigaxi.",
+      "phonetic_api": "/à nù sigama a ra nɛ́n xɛ̀ɛn ma nun, koni a mi sigaxi/",
+      "phonetic_simple": "a nou si-ga-ma a ra nɛ́n xɛ̀ɛn ma noun, ko-ni a mi si-ga-xi",
+      "translation": "Il devait aller le porter au champ, mais il n'y est pas allé.",
+      "context": "Phrase-exemple attestée par Wikipedia (EN), illustrant le contraste entre un procès passé envisagé (marqué par 'nù' + forme en -ma) et sa non-réalisation."
     },
     {
-      "phrase_id": "p19_2",
-      "original": "A nunma won na siga taaxui mɛ xoro.",
-      "phonetic_api": "/a nun.ma won na si.ɡa taː.xui mɛ xo.ro/",
-      "phonetic_simple": "A NOUN-MA WON NA SI-GA TAA-KHOUI MÈ KHO-RO",
-      "translation": "Il aurait fallu que nous allions en ville hier.",
-      "context": "Exprimer un regret ou une nécessité manquée dans le passé."
+      "phrase_id": "p2",
+      "original": "À xa sígá, námáa à xa fáa.",
+      "phonetic_api": "/à xa sígá, námáa à xa fáa/",
+      "phonetic_simple": "a xa si-GA, na-MA-a a xa FA-a",
+      "translation": "Qu'il parte, puis qu'il revienne.",
+      "context": "Combine le marqueur modal 'xa' avec le connecteur séquentiel 'námáa', tous deux attestés séparément."
     },
     {
-      "phrase_id": "p19_3",
-      "original": "Tɛmɛni naxan na i nuu na walife, n nuu bata faa mɛ.",
-      "phonetic_api": "/tɛ.mɛ.ni na.xan na i nuː na wa.li.fe ŋ nuː ba.ta faː mɛ/",
-      "phonetic_simple": "TÈ-MÈ-NI NA-XAN NA I NOOU NA WA-LI-FÉ, N NOOU BA-TA FAA MÈ",
-      "translation": "Pendant que tu étais en train de travailler, j'étais déjà arrivé ici.",
-      "context": "Structurer un récit complexe croisant simultanéité et antériorité."
+      "phrase_id": "p3",
+      "original": "À nù wáa sígá, kóní à mí fàtá.",
+      "phonetic_api": "/à nù wáa sígá, koni a mi fata/",
+      "phonetic_simple": "a nou WA-a si-GA, KO-ni a mi fa-TA",
+      "translation": "Il/elle voulait partir (à un moment révolu), mais il/elle ne pouvait pas.",
+      "context": "Combine 'nù' (inactuel), 'wáa' (vouloir), 'kóní' (mais) et 'fàtá' (pouvoir), tous attestés dans le corpus."
     },
     {
-      "phrase_id": "p19_4",
-      "original": "A lan i na maraxui tin, alaxɛ na raba i findi ra karamɔxɔ ra.",
-      "phonetic_api": "/a lan i na ma.ra.xui tin a.la.xɛ na ra.ba i fin.di ra ka.ra.mɔ.xɔ ra/",
-      "phonetic_simple": "A LAN I NA MA-RA-KHOUI TIN, A-LA-KHÈ NA RA-BA I FIN-DI RA KA-RA-MO-KHO RA",
-      "translation": "Tu dois suivre les conseils, pourvu que tu deviennes ainsi enseignant.",
-      "context": "Formuler une proposition finale au mode optatif ou subjonctif avancé."
-    },
-    {
-      "phrase_id": "p19_5",
-      "original": "I nuu bata gbelembe birin tongo pian ?",
-      "phonetic_api": "/i nuː ba.ta ɡbe.lem.be bi.rin ton.ɡo pi.an/",
-      "phonetic_simple": "I NOOU BA-TA GBÉ-LEM-BÉ BI-RIN TON-GO PI-AN ?",
-      "translation": "Avais-tu déjà pris tout l'argent définitivement ?",
-      "context": "Demander des comptes sur une action passée entièrement révolue."
-    },
-    {
-      "phrase_id": "p19_6",
-      "original": "N mu nuu bata a mabilin mɛ tɛmɛni na.",
-      "phonetic_api": "/ŋ mu nuː ba.ta a ma.bi.lin mɛ tɛ.mɛ.ni na/",
-      "phonetic_simple": "N MOU NOOU BA-TA A MA-BI-LIN MÈ TÈ-MÈ-NI NA",
-      "translation": "Je ne l'avais pas encore modifié (tourné) à ce moment-là.",
-      "context": "Formuler une négation complexe au plus-que-parfait."
-    },
-    {
-      "phrase_id": "p19_7",
-      "original": "A fisa won na a rabama, alaxɛ na raba won na sɛwɛ sɔtɔ.",
-      "phonetic_api": "/a fi.sa won na a ra.ba.ma a.la.xɛ na ra.ba won na sɛ.wɛ sɔ.tɔ/",
-      "phonetic_simple": "A FI-SA WON NA A RA-BA-MA, A-LA-KHÈ NA RA-BA WON NA SÈ-WÈ SO-TO",
-      "translation": "Il vaut mieux que nous le fassions, afin que nous puissions obtenir de la joie.",
-      "context": "Défendre un choix en y adjoignant une proposition de but au subjonctif."
-    },
-    {
-      "phrase_id": "p19_8",
-      "original": "Na waliɲɔgɔnma nunma n demba, n mu xabuma nuu.",
-      "phonetic_api": "/na wa.li.ɲɔ.ɡɔn.ma nunma ŋ dem.ba ŋ mu xa.bu.ma nuː/",
-      "phonetic_simple": "NA WA-LI-NYO-GON-MA NOUN-MA N DEM-BA, N MOU KHA-BOU-MA NOOU",
-      "translation": "Si ce collaborateur m'avait épaulé, je ne serais pas fatigué aujourd'hui.",
-      "context": "Artisanalité d'un système de conditionnel passé irréel du passé."
+      "phrase_id": "p4",
+      "original": "À xa báadè fáa.",
+      "phonetic_api": "/à xa báadè fáa/",
+      "phonetic_simple": "a xa BA-a-dè FA-a",
+      "translation": "Puisse-t-il/elle venir bientôt (souhait au passé récent).",
+      "context": "Combine le marqueur modal 'xa' et le marqueur de passé récent 'báadè'."
     }
   ],
   "grammar_points": [
     {
-      "concept": "La formation du plus-que-parfait par cumul aspectuel : 'nuu' + 'bata'",
-      "explanation": "Au niveau C1, la gestion de la chronologie s'affine. En Yalunka, l'antériorité dans le passé (le plus-que-parfait) s'obtient en faisant précéder la particule de l'accompli 'bata' par le marqueur de l'imparfait 'nuu'. L'adverbe d'achèvement complet 'pian' vient souvent clore la proposition pour insister sur la totale complétion de l'acte.",
+      "concept": "Le système aspectuel : báadè, nù et xa",
+      "explanation": "Le yalunka encode des nuances temporelles et modales non pas par une conjugaison à temps multiples comme en français, mais par des marqueurs grammaticaux distincts attestés dans les sources : 'báadè' (passé très récent, Creissels 2010), 'nù' (procès situé dans un contexte non actuel/révolu, Creissels 2010) et 'xa' (modalité de souhait ou de permission, Wikipedia EN). La combinaison précise de ces marqueurs avec les différentes formes verbales (notamment la forme en '-ma' visible dans l'exemple 'sigama') n'est cependant que partiellement documentée dans les sources disponibles pour cet agent ; la description complète de ce système se trouve dans la thèse de grammaire de Friederike Lüpke (2005) sur le jalonké, que nous n'avons pas pu exploiter en raison d'un problème d'encodage du fichier PDF.",
       "rules": [
-        "Structure : Sujet + nuu + bata + Verbe + (Complément) + pian",
-        "Traduit une action achevée avant qu'une autre n'ait commencé."
+        "báadè + verbe = passé très récent",
+        "nù + verbe(-ma) = procès révolu/non actuel",
+        "xa + verbe = souhait ou permission"
       ],
       "examples": [
         {
-          "structure": "N nuu bata siga pian.",
-          "phonetic_api": "/ŋ nuː ba.ta si.ɡa pi.an/",
-          "meaning": "J'étais déjà parti définitivement."
-        }
-      ]
-    },
-    {
-      "concept": "Le mode subjonctif-optatif de but avec 'Alaxɛ na raba'",
-      "explanation": "Pour exprimer un souhait ardent, une finalité ou introduire une subordonnée de but complexe (équivalent de 'afin que' ou 'pourvu que' suivi du subjonctif en français), la langue emploie la locution figée 'Alaxɛ na raba' (littéralement : Que Dieu fasse s'accomplir cela) comme connecteur de mode.",
-      "rules": [
-        "Proposition principale + alaxɛ na raba + Proposition subordonnée (Sujet + Verbe)",
-        "Le verbe de la subordonnée se maintient à sa forme fondamentale sans marqueur temporel lourd."
-      ],
-      "examples": [
+          "structure": "à + báadè + sígá",
+          "phonetic_api": "/à báadè sígá/",
+          "meaning": "il vient de partir"
+        },
         {
-          "structure": "Wali rafala, alaxɛ na raba i na gbelembe sɔtɔ.",
-          "phonetic_api": "/wa.li ra.fa.la a.la.xɛ na ra.ba i na ɡbe.lem.be sɔ.tɔ/",
-          "meaning": "Travaille, afin que tu obtiennes de l'argent."
+          "structure": "à + nù + sígámá",
+          "phonetic_api": "/à nù sigama/",
+          "meaning": "il était en train d'aller (révolu)"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Lamine",
-      "text": "Ousmane, xoro tɛmɛni naxan na n i xili, mun na i bɛ nuu rafalafe ? I nuu bata siga ?",
-      "phonetic_api": "/us.ma.ne xo.ro tɛ.mɛ.ni na.xan na ŋ i xi.li mun na i bɛ nuː ra.fa.la.fe i nuː ba.ta si.ɡa/",
-      "phonetic_simple": "OUS-MA-NE, KHO-RO TÈ-MÈ-NI NA-XAN NA N I KHI-LI, MOUN NA I BÈ NOOU RA-FA-LA-FÉ ? I NOOU BA-TA SI-GA ?",
-      "translation": "Ousmane, hier au moment même où je t'ai appelé, qu'étais-tu en train de faire ? Étais-tu déjà parti ?"
+      "speaker": "Narrateur",
+      "text": "À nù sígámá a ra nɛ́n xɛ̀ɛn ma nun...",
+      "phonetic_api": "/à nù sigama a ra nɛ́n xɛ̀ɛn ma nun/",
+      "phonetic_simple": "a nou si-ga-ma a ra nɛ́n xɛ̀ɛn ma noun",
+      "translation": "Il devait aller le porter au champ..."
     },
     {
-      "speaker": "Ousmane",
-      "text": "Nba, n ngaxanfe. N nuu bata n na wali ba pian walide mɛ. A nunma won na falan sɔtɔ singe.",
-      "phonetic_api": "/ŋba ŋ ŋa.xan.fe ŋ nuː ba.ta ŋ na wa.li ba pi.an wa.li.de mɛ a nunma won na fa.lan sɔ.tɔ sin.ɡe/",
-      "phonetic_simple": "NBA, N NGA-KHAN-FÉ. N NOOU BA-TA N NA WA-LI BA PI-AN WA-LI-DÉ MÈ. A NOUN-MA WON NA FA-LAN SO-TO SIN-GUÉ",
-      "translation": "Oui, mon frère. J'avais déjà entièrement achevé mon travail au bureau. Il aurait fallu que nous nous parlions plus tôt."
+      "speaker": "Auditeur",
+      "text": "Kóní à mí sígáxí?",
+      "phonetic_api": "/kóní à mí sígáxí/",
+      "phonetic_simple": "KO-ni a mi si-ga-xi",
+      "translation": "Mais il n'y est pas allé ?"
     },
     {
-      "speaker": "Lamine",
-      "text": "Na sariɲen ra. A fisa won na waliɲɔgɔnma rafalama tina, alaxɛ na raba won birin na sɛwɛ gbe sɔtɔ.",
-      "phonetic_api": "/na sa.ri.ɲen ra a fi.sa won na wa.li.ɲɔ.ɡɔn.ma ra.fa.la.ma ti.na a.la.xɛ na ra.ba won bi.rin na sɛ.wɛ ɡbe sɔ.tɔ/",
-      "phonetic_simple": "NA SA-RI-NYEN RA. A FI-SA WON NA WA-LI-NYO-GON-MA RA-FA-LA-MA TI-NA, A-LA-KHÈ NA RA-BA WON BI-RIN NA SÈ-WÈ GBÉ SO-TO",
-      "translation": "C'est exact. Il vaut mieux que nous collaborions demain, afin que nous puissions tous en retirer une immense joie."
+      "speaker": "Narrateur",
+      "text": "Kóní, à mí sígáxí. Námáa à báadè fáa.",
+      "phonetic_api": "/kóní, à mí sígáxí, námáa à báadè fáa/",
+      "phonetic_simple": "KO-ni, a mi si-ga-xi, na-MA-a a BA-a-dè FA-a",
+      "translation": "En effet, il n'y est pas allé. Puis il vient de revenir."
     },
     {
-      "speaker": "Ousmane",
-      "text": "N bata tin i bɛ marasife ra. Alaxɛ na raba won bɛ fanyin.",
-      "phonetic_api": "/ŋ ba.ta tin i bɛ ma.ra.si.fe ra a.la.xɛ na ra.ba won bɛ fan.jin/",
-      "phonetic_simple": "N BA-TA TIN I BÈ MA-RA-SI-FÉ RA. A-LA-KHÈ NA RA-BA WON BÈ FAN-YIN",
-      "translation": "J'approuve pleinement ton conseil. Pourvu que tout se réalise parfaitement pour nous."
+      "speaker": "Narrateur",
+      "text": "À nù wáa sígá, kóní à mí fàtá.",
+      "phonetic_api": "/a nou WA-a si-GA, koni a mi fa-TA/",
+      "phonetic_simple": "a nou WA-a si-GA, KO-ni a mi fa-TA",
+      "translation": "Il voulait partir, mais il ne pouvait pas."
+    },
+    {
+      "speaker": "Auditeur",
+      "text": "Kíidì?",
+      "phonetic_api": "/kíidì/",
+      "phonetic_simple": "KI-i-di",
+      "translation": "Comment (pourquoi) ?"
     }
   ],
   "cultural_notes": [
-    "Dans la rhétorique avancée Yalunka, l'usage constant de formules comme 'Alaxɛ na raba' ou 'nunma' dépasse le simple cadre grammatical : cela démontre la maîtrise stylistique du locuteur qui sait nuancer ses propos, exprimer les regrets et formuler des vœux pieux selon les codes de la haute société Jalonké.",
-    "L'expression de la simultanéité rigoureuse permet de clarifier les responsabilités et de restituer de manière fidèle les faits historiques ou les récits ancestraux lors des conseils de village."
+    "La nuance entre un fait révolu envisagé mais non réalisé ('nù' + kóní) est une figure de style narrative fréquente dans les contes oraux des sociétés mandé, créant du suspense ou une leçon morale."
   ],
   "exercises": [
     {
-      "exercise_id": "ex19_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quelle combinaison de particules grammaticales permet de former le plus-que-parfait en Yalunka ?",
+      "question": "Quel marqueur exprime un souhait ou une permission ?",
       "options": [
-        "Nuu + bata",
-        "Nunma + fe",
-        "Lan + ma"
+        "xa",
+        "báadè",
+        "nù"
       ],
-      "correct_answer": "Nuu + bata",
-      "explanation": "'Nuu' (imparfait) suivi de 'bata' (accompli) projette l'accomplissement d'une action dans un passé reculé, créant le plus-que-parfait."
+      "correct_answer": "xa",
+      "explanation": "Attesté par Wikipedia (EN)."
     },
     {
-      "exercise_id": "ex19_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Pour introduire une proposition de but signifiant 'afin que / pourvu que', on emploie la locution : [ ___ ] na raba.",
-      "correct_answer": "Alaxɛ",
-      "hint": "Ce mot fait référence à la divinité suprême et sert de point de départ pour la formule d'optatif."
+      "sentence_with_blank": "« Mais » se dit : [ ___ ].",
+      "correct_answer": "kóní",
+      "hint": "Attesté par Creissels (2010) et par la phrase-exemple de Wikipedia (EN)."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Denis Creissels — Liste lexicale du dialonké de Faléya, Mandenkan 46 (2010), pp. 49-71",
+      "url": "http://www.deniscreissels.fr/public/Creissels-liste_lexicale_dialonke.pdf"
+    },
+    {
+      "label": "Wikipedia (EN) — Yalunka language (classification, aspect markers, exemple de phrase)",
+      "url": "https://en.wikipedia.org/wiki/Yalunka_language"
+    },
+    {
+      "label": "Friederike Lüpke — A grammar of Jalonke argument structure (thèse, MPI/Radboud Nijmegen, 2005)",
+      "url": "https://pure.mpg.de/rest/items/item_59381_8/component/file_2603778/content"
+    }
+  ],
+  "confidence": "faible",
+  "confidence_note": "Les marqueurs isolés (báadè, nù, xa, kóní, námáa) sont attestés individuellement par Creissels (2010) et Wikipedia (EN). Cependant, la description complète et systématique du système temps-aspect-mode du yalunka existe dans la thèse de Friederike Lüpke (2005), dont le fichier PDF n'a pas pu être exploité en raison d'un encodage de police corrompu. Cette leçon combine donc des éléments attestés séparément sans pouvoir garantir l'exhaustivité ni la subtilité complète du système grammatical réel ; la confiance est donc volontairement basse."
 }

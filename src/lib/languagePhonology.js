@@ -1,4 +1,5 @@
 // Profils phonologiques et adaptation accent/prononciation par langue
+import { getCountryForLanguage } from "@/lib/localLanguageData";
 
 // Mapping BCP-47 pour TTS/STT (avec fallback français)
 const TTS_LOCALES = {
@@ -17,6 +18,42 @@ const TTS_LOCALES = {
   ja: "ja-JP", jpn: "ja-JP", japanese: "ja-JP",
   ru: "ru-RU", rus: "ru-RU", russian: "ru-RU",
   nl: "nl-NL", nld: "nl-NL", dutch: "nl-NL",
+  hi: "hi-IN", hin: "hi-IN", hindi: "hi-IN",
+  chinois: "zh-CN", "chinois-mandarin": "zh-CN", mandarin: "zh-CN",
+  francais: "fr-FR", portugais: "pt-BR", allemand: "de-DE", anglais: "en-US",
+  arabe: "ar-SA", espagnol: "es-ES", italien: "it-IT", japonais: "ja-JP", russe: "ru-RU",
+  malinke: "fr-FR", bambara: "fr-FR", dioula: "fr-FR", bissa: "fr-FR", moore: "fr-FR",
+  mossi: "fr-FR", soussou: "fr-FR", pular: "fr-FR", peul: "fr-FR", fulfulde: "fr-FR",
+  kissi: "fr-FR", guerze: "fr-FR", koniagui: "fr-FR", konyanka: "fr-FR", kuranko: "fr-FR",
+  landuma: "fr-FR", lele: "fr-FR", mani: "fr-FR", nalu: "fr-FR", sankaran: "fr-FR",
+  yalunka: "fr-FR", kono: "fr-FR", mano: "fr-FR", toma: "fr-FR", badiaranke: "fr-FR",
+  baga: "fr-FR", bassari: "fr-FR", bedik: "fr-FR", lingala: "fr-FR", swahili: "sw-KE",
+  igbo: "ig-NG", yoruba: "yo-NG", hausa: "ha-NG", wolof: "fr-FR",
+};
+
+const PROFILE_ALIASES = {
+  soussou: "sus",
+  malinke: "mnk",
+  bambara: "bam",
+  dioula: "bam",
+  bissa: "bam",
+  moore: "hau",
+  mossi: "hau",
+  pular: "fuc",
+  peul: "fuc",
+  fulfulde: "fuc",
+  swahili: "swa",
+  lingala: "lin",
+  francais: "fra",
+  anglais: "eng",
+  arabe: "ara",
+  espagnol: "es",
+  allemand: "de",
+  italien: "it",
+  japonais: "ja",
+  russe: "ru",
+  yoruba: "yor",
+  igbo: "igb",
 };
 
 // Profils phonologiques détaillés
@@ -237,6 +274,26 @@ const PROFILES = {
       "Mal placer l'accent des mots",
     ],
   },
+  igb: {
+    name: "Igbo",
+    family: "Niger-Congo (Benue-Congo)",
+    tones: "tonal (haut, bas et contour)",
+    consonants: [
+      "/ɲ/ — nasale palatale (ny)",
+      "/ŋ/ — nasale vélaire (ng)",
+      "/ɣ/ — fricative vélaire voisée dans certaines variétés",
+      "/kp/ et /gb/ — consonnes labio-vélaires articulées simultanément",
+      "/ʃ/ — fricative palato-alvéolaire (sh)",
+    ],
+    vowels: "Voyelles à harmonie ATR : séries avancée et rétractée, avec voyelles orales et nasales selon le contexte",
+    accent: "Nigeria — tons lexicaux essentiels, rythme syllabique régulier et articulation nette des consonnes doubles",
+    pitfalls: [
+      "Négliger les tons, qui peuvent changer le sens",
+      "Séparer /kp/ ou /gb/ au lieu de les articuler ensemble",
+      "Confondre les voyelles avancées et rétractées",
+      "Remplacer /ʃ/ par /s/",
+    ],
+  },
   ara: {
     name: "Arabe",
     family: "Afro-asiatique (Sémitique)",
@@ -264,7 +321,7 @@ const PROFILES = {
 export const getPhonologyProfile = (code) => {
   if (!code) return null;
   const key = code.toLowerCase();
-  return PROFILES[key] || null;
+  return PROFILES[key] || PROFILES[PROFILE_ALIASES[key]] || null;
 };
 
 export const getTTSLocale = (code) => {
@@ -291,18 +348,21 @@ export const getBestVoice = (code) => {
 // Construit le contexte phonologique pour le prompt IA
 export const buildPhonologyContext = (code, langObj) => {
   const profile = getPhonologyProfile(code);
+  const country = getCountryForLanguage(langObj || code);
 
   if (!profile) {
     return `\n\nPROFIL PHONOLOGIQUE (${langObj?.name_fr || code}):
 Famille: ${langObj?.family || "non spécifiée"}
-Région: ${langObj?.region || "non spécifiée"}
+Pays principal: ${country}
 Système d'écriture: ${langObj?.writing_system || "non spécifié"}
 
 INSTRUCTIONS D'ADAPTATION:
-- Adapte tes conseils de prononciation aux particularités de cette langue.
+- Réponds dans cette langue avec un registre, une syntaxe et des expressions idiomatiques naturels pour un locuteur natif.
+- Adapte tes conseils de prononciation aux particularités de cette langue et à son usage au ${country}.
 - Utilise les phonétiques du dictionnaire de référence.
+- N'invente jamais une prononciation lorsque le dictionnaire ne fournit pas de donnée fiable.
 - Explique les sons difficiles par comparaison avec le français.
-- Donne des conseils d'accent basés sur la région d'origine (${langObj?.region || "non spécifiée"}).
+- Donne des conseils d'accent basés sur l'usage attesté au ${country}.
 - Si tu connais les caractéristiques phonologiques de cette langue, utilise-les.`;
   }
 
@@ -328,5 +388,5 @@ INSTRUCTIONS D'ADAPTATION À L'ACCENT:
 - Compare chaque son difficile avec le son français le plus proche.
 - Si la langue est TONALE, indique TOUJOURS le ton de chaque mot et explique comment le réaliser (monte, descend, stable).
 - Corrige activement les erreurs fréquentes listées ci-dessus quand l'apprenant s'exerce.
-- Donne des conseils d'accent basés sur la région: ${profile.accent}.`;
+- Donne des conseils d'accent associés au pays principal ${country}: ${profile.accent}.`;
 };

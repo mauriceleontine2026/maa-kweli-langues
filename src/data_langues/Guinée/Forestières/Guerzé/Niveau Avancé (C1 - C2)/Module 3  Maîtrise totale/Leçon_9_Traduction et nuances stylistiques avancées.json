@@ -1,140 +1,69 @@
 {
-  "lesson_id": "C3_M3_L9",
+  "lesson_id": "C1_M3_L9",
   "level": "Avancé (C1-C2)",
   "module_number": 3,
   "module_title": "Maîtrise totale",
   "lesson_number": 9,
   "title": "Traduction et nuances stylistiques avancées",
   "learning_objectives": [
-    "Identifier les principaux écarts structurels entre le kpele et le français qui rendent la traduction littérale impossible.",
-    "Traduire fidèlement des expressions construites sur des parties du corps ou des concepts culturels sans équivalent direct.",
-    "Adapter le registre d'une traduction selon qu'elle vise l'oral courant, le discours formel ou le style proverbial.",
-    "Synthétiser les acquis grammaticaux des 26 leçons du cours dans un exercice de traduction complet."
+    "Comparer plusieurs façons d'exprimer une même nuance affective (amour, respect, honte) selon le registre",
+    "Traduire un proverbe complexe en identifiant l'image et la morale séparément",
+    "Reconnaître les limites de la traduction littérale entre guerzé et français (constructions relationnelles, verbes composés)"
   ],
   "phonetic_focus": {
-    "key_sounds": "Cette leçon de synthèse rappelle que la traduction du kpele exige une vigilance tonale constante : des dizaines de paires quasi-homophones rencontrées dans ce cours (kwɛ̌li/kwɛ́li/kwɛ́li, kɔ́nɔŋ/kɔ̀nɔŋ, wɛ́li/wěle, kpɔ̌lu/kpǒlo) ne se distinguent que par le ton. Une traduction orale fiable suppose donc une maîtrise fine du système tonal étudié depuis la Leçon 3 du niveau Débutant.",
-    "common_pitfalls": "Les francophones ont tendance à : (1) traduire mot à mot les expressions basées sur des parties du corps (kǒo, le ventre, pour la satisfaction) au lieu d'en chercher l'équivalent culturel ou fonctionnel en français ; (2) uniformiser le registre de leur traduction, alors que le kpele distingue nettement l'oral courant, le discours cérémoniel (Leçon 6) et le style proverbial (Leçon 4) ; (3) oublier qu'une traduction fidèle du kpele nécessite souvent une périphrase française plus longue, tant les mots composés kpele condensent l'information (comme les noms de métier en -mùŋ)."
+    "key_sounds": "La traduction stylistique avancée exige de percevoir les tons distinguant des mots homophones en écriture simplifiée mais non en ton (ex. yá « eau » vs. yá « acheter », déjà vus) afin d'éviter les contresens en contexte littéraire.",
+    "common_pitfalls": "Le piège principal au niveau C1-C2 est la traduction mot-à-mot des noms relationnels et des constructions à postposition fusionnée (ex. « káa mîi » = « sur moi » = « m'aime », vu en B1_M1_L3), qui n'ont pas d'équivalent syntaxique direct en français."
   },
   "vocabulary": [
     {
       "word_id": "v1",
-      "term": "kǒo",
-      "phonetic_api": "/kǒo/",
-      "phonetic_simple": "ko-o (ton bas)",
-      "translation": "ventre — siège culturel de la satisfaction (intraduisible littéralement)",
-      "example_sentence": "Ɲàákwɛì kwèí nɛ̀ɛî nòŋ bɔ́.",
-      "example_phonetic": "/ɲàákwɛì kwèí nɛ̀ɛî nòŋ bɔ́/",
-      "example_translation": "Nyaakwei est content de son fils."
+      "term": "wɛ́li",
+      "phonetic_api": "/wɛ́li/",
+      "phonetic_simple": "WÉ-li",
+      "translation": "amour",
+      "example_sentence": "É wɛ́li káa mîi.",
+      "example_phonetic": "/é wɛ́li káa mîi/",
+      "example_translation": "Je t'aime (litt. ton amour est sur moi)."
     },
     {
       "word_id": "v2",
-      "term": "kpɛ́li",
-      "phonetic_api": "/kpɛ́li/",
-      "phonetic_simple": "KPÈ-li",
-      "translation": "zéro — utilisé au figuré dans les salutations matinales",
-      "example_sentence": "É yíi ↓kpɛ́li ?",
-      "example_phonetic": "/é yíi ↓kpɛ́lí/",
-      "example_translation": "Bonjour ! (litt. as-tu dormi sans problème/zéro problème ?)"
+      "term": "ŋwǔŋmɛ",
+      "phonetic_api": "/ŋwǔŋmɛ/",
+      "phonetic_simple": "NGWOU-ngmè",
+      "translation": "honte, confusion (aussi : respecter)",
+      "example_sentence": "Ɲɔ̀u hwó kɛ̀á zù, ɛ́lɛɛ ŋwùŋmɛ hwó kɛ̀á zù.",
+      "example_phonetic": "/ɲɔ̀u hwó kɛ̀á zù ɛ́lɛɛ ŋwùŋmɛ hwó kɛ̀á zù/",
+      "example_translation": "Il n'y a plus de peur, ni de honte."
     },
     {
       "word_id": "v3",
-      "term": "kólo-kɛ́-mùŋ",
-      "phonetic_api": "/kólò ↓kɛ́mùŋ/",
-      "phonetic_simple": "KÓ-lo kÉ-moung",
-      "translation": "travailleur, ouvrier — un mot composé condensant une périphrase française entière",
-      "example_sentence": "Gàá à kólo-↓kɛ́-mùŋ.",
-      "example_phonetic": "/gàá à kólò ↓kɛ́mùŋ/",
-      "example_translation": "Il est ouvrier."
+      "term": "kàhwíli",
+      "phonetic_api": "/kàhwíli/",
+      "phonetic_simple": "ka-HWI-li",
+      "translation": "excuse (respectueuse) — nuance stylistique de politesse",
+      "example_sentence": "Kàhwíli ↓gáa yɛ̂.",
+      "example_phonetic": "/kàhwíli gáa yɛ̂/",
+      "example_translation": "Je te présente mes excuses respectueuses."
     },
     {
       "word_id": "v4",
-      "term": "kǔlo",
-      "phonetic_api": "/kǔlo/",
-      "phonetic_simple": "kou-lo (ton bas)",
-      "translation": "sortir — employé au figuré pour « baisser (un prix) »",
-      "example_sentence": "Dà kúlo mà !",
-      "example_phonetic": "/dà kúlo mà/",
-      "example_translation": "Baisse le prix !"
+      "term": "màahwâa",
+      "phonetic_api": "/màahwâa/",
+      "phonetic_simple": "MA-a-HWA-a",
+      "translation": "pardon",
+      "example_sentence": "Ŋ̀ màahwâa lɛ̌ɛ.",
+      "example_phonetic": "/ŋ̀ màahwâa lɛ̌ɛ/",
+      "example_translation": "Pardonner quelqu'un."
     },
     {
       "word_id": "v5",
-      "term": "hù / hû",
-      "phonetic_api": "/hù/ /hû/",
-      "phonetic_simple": "hou / hoû",
-      "translation": "dans — postposition, jamais préposition, contrairement au français",
-      "example_sentence": "Gù káa gàla hù.",
-      "example_phonetic": "/gù káa gàla hù/",
-      "example_translation": "Nous sommes dans la cour."
-    },
-    {
-      "word_id": "v6",
-      "term": "gwěi",
-      "phonetic_api": "/gwěi/",
-      "phonetic_simple": "gwè-i (ton bas)",
-      "translation": "façon, manière — souvent nécessaire pour rendre une nuance de style en français",
-      "example_sentence": "É yɛ́lɛ péle à gwéi nɛ̀ɛ.",
-      "example_phonetic": "/é yɛ́lɛ péle à gwéi nɛ̀ɛ/",
-      "example_translation": "J'aime ta façon de rire."
-    },
-    {
-      "word_id": "v7",
-      "term": "màáhɔ̀lɔɓó",
-      "phonetic_api": "/màáhɔ̀lɔɓó/",
-      "phonetic_simple": "ma-a-HO-lo-ɓO",
-      "translation": "parce que — se traduit toujours par une proposition causale complète",
-      "example_sentence": "màáhɔ̀lɔɓó",
-      "example_phonetic": "/màáhɔ̀lɔɓó/",
-      "example_translation": "parce que"
-    },
-    {
-      "word_id": "v8",
       "term": "hɔ́ɔnŋ",
       "phonetic_api": "/hɔ́ɔnŋ/",
-      "phonetic_simple": "HO-onng",
-      "translation": "proverbe — exige une traduction en deux temps (littéral puis figuré)",
-      "example_sentence": "Hɔ́ɔnŋ hɔ̌ɔ.",
-      "example_phonetic": "/hɔ́ɔnŋ hɔ̌ɔ/",
-      "example_translation": "Dire un proverbe."
-    },
-    {
-      "word_id": "v9",
-      "term": "lólo",
-      "phonetic_api": "/lólo/",
-      "phonetic_simple": "LO-lo",
-      "translation": "quant à — connecteur sans équivalent grammaticalisé unique en français",
-      "example_sentence": "Maria lólo ŋwɛ̀í...",
-      "example_phonetic": "/maria lólo ŋwɛ̀í/",
-      "example_translation": "Maria, quant à elle..."
-    },
-    {
-      "word_id": "v10",
-      "term": "kwɛ̌li",
-      "phonetic_api": "/kwɛ̌li/",
-      "phonetic_simple": "kwè-li (ton bas)",
-      "translation": "fer (à distinguer de ses homonymes kwɛ́li « panthère » et kwɛ́li « chercher »)",
-      "example_sentence": "kwɛ̌li",
-      "example_phonetic": "/kwɛ̌li/",
-      "example_translation": "fer"
-    },
-    {
-      "word_id": "v11",
-      "term": "mǎa-láɠi",
-      "phonetic_api": "/mǎaláɣi/",
-      "phonetic_simple": "ma-a-LA-ghi",
-      "translation": "être lent ; être moche — deux sens qui exigent une traduction distincte selon le contexte",
-      "example_sentence": "É ɲɛ́ilaalèe màaláɠiâi.",
-      "example_phonetic": "/é ɲɛ́ilaalèe màaláɣiâi/",
-      "example_translation": "Ton visage est dégoûtant."
-    },
-    {
-      "word_id": "v12",
-      "term": "kɛ̌an",
-      "phonetic_api": "/kɛ̌an/",
-      "phonetic_simple": "kè-an (ton bas)",
-      "translation": "être désobéissant, se révolter, être sévère — un seul mot pour trois traductions françaises distinctes",
-      "example_sentence": "Náŋ gɛ̀áaìn.",
-      "example_phonetic": "/náŋ gɛ̀áaìn/",
-      "example_translation": "Mon père est sévère."
+      "phonetic_simple": "HO-ong",
+      "translation": "proverbe (à traduire en séparant image et morale)",
+      "example_sentence": "Kwàlá hwǎ gàa hwó gùló wòlolóŋ mà.",
+      "example_phonetic": "/kwàlá hwǎ gàa hwó gùló wòlolóŋ mà/",
+      "example_translation": "Le petit singe ne met jamais au monde le petit du chimpanzé (image) = tel père, tel fils (morale)."
     }
   ],
   "common_phrases": [
@@ -142,232 +71,131 @@
       "phrase_id": "p1",
       "original": "É wɛ́li káa mîi.",
       "phonetic_api": "/é wɛ́li káa mîi/",
-      "phonetic_simple": "é WÈ-li kaa MI-i",
+      "phonetic_simple": "é WÉ-li KA-a MI-i",
       "translation": "Je t'aime.",
-      "context": "Exemple de traduction fonctionnelle plutôt que littérale (litt. « ton amour est en moi »)"
+      "context": "Traduction stylistique : la structure littérale « ton amour est sur moi » se rend idiomatiquement par « je t'aime » en français, exemple typique de non-correspondance syntaxique directe."
     },
     {
       "phrase_id": "p2",
-      "original": "Pùlu káa mîi.",
-      "phonetic_api": "/pùlu káa mîi/",
-      "phonetic_simple": "pou-lou kaa MI-i",
-      "translation": "J'ai faim.",
-      "context": "Même structure grammaticale que « je t'aime » : traduire le sens, pas la forme"
+      "original": "Ɲɔ̀u hwó kɛ̀á zù, ɛ́lɛɛ ŋwùŋmɛ hwó kɛ̀á zù.",
+      "phonetic_api": "/ɲɔ̀u hwó kɛ̀á zù ɛ́lɛɛ ŋwùŋmɛ hwó kɛ̀á zù/",
+      "phonetic_simple": "ngno-ou HWO ké-a zou, é-lè-è NGWOU-ngmè HWO ké-a zou",
+      "translation": "Il n'y a plus de peur, ni de honte.",
+      "context": "Traduction avancée : la structure parallèle guerzé (peur/honte) se traduit naturellement en français par une double négation coordonnée."
     },
     {
       "phrase_id": "p3",
-      "original": "Dà kúlo mà !",
-      "phonetic_api": "/dà kúlo mà/",
-      "phonetic_simple": "da KOU-lo ma !",
-      "translation": "Baisse le prix !",
-      "context": "Traduction fonctionnelle d'une expression figée (litt. « fais-le sortir de là »)"
+      "original": "Kwàlá hwǎ gàa hwó gùló wòlolóŋ mà, wòló hwǎ gàa hwó gùló kwàlalóŋ mà.",
+      "phonetic_api": "/kwàlá hwǎ gàa hwó gùló wòlolóŋ mà wòló hwǎ gàa hwó gùló kwàlalóŋ mà/",
+      "phonetic_simple": "KWA-la hwa GA-a HWO GOU-lo WO-lo-long ma, WO-lo hwa GA-a HWO GOU-lo KWA-la-long ma",
+      "translation": "Tel père, tel fils.",
+      "context": "Traduction stylistique avancée : rendre par un équivalent idiomatique français plutôt que par la traduction littérale animale, tout en signalant l'image d'origine en note."
     },
     {
       "phrase_id": "p4",
-      "original": "Hèɠeheɠelaá dà tɔ̀ɔtɔɔlaa ɓé.",
-      "phonetic_api": "/hèɣèhèɣèlaá dà tɔ̀ɔtɔɔlaa ɓé/",
-      "phonetic_simple": "hè-ghè-hè-ghè-LAA da to-o-to-o-LAA bé",
-      "translation": "Celui qui vient succède à celui qui part.",
-      "context": "Traduction littérale possible ici, mais le sens figuré (succession sociale) doit être ajouté en note"
-    },
-    {
-      "phrase_id": "p5",
-      "original": "Gàá à kólo-↓kɛ́-mùŋ.",
-      "phonetic_api": "/gàá à kólò ↓kɛ́mùŋ/",
-      "phonetic_simple": "gaa a KÓ-lo kÉ-moung",
-      "translation": "Il est ouvrier.",
-      "context": "Un mot composé kpele traduit par un seul mot français simple : la condensation va dans les deux sens"
-    },
-    {
-      "phrase_id": "p6",
-      "original": "Maria lólo ŋwɛ̀í, yɛ̀ mà gɔ̀lɔ́i hwó pònolí.",
-      "phonetic_api": "/maria lólo ŋwɛ̀í yɛ̀ mà gɔ̀lɔ́i hwó pònolí/",
-      "phonetic_simple": "ma-RI-a LO-lo ngwè-I, yè ma go-LO-i hwo po-no-LI",
-      "translation": "Maria, quant à elle, a dit qu'elle ne se sentait pas bien.",
-      "context": "lólo se traduit par une locution adverbiale française plus longue"
+      "original": "Kàhwíli ↓gáa yɛ̂.",
+      "phonetic_api": "/kàhwíli gáa yɛ̂/",
+      "phonetic_simple": "ka-HWI-li ga-a yè",
+      "translation": "Je te présente mes excuses respectueuses.",
+      "context": "Nuance stylistique : kàhwíli porte une connotation de déférence absente d'une simple excuse informelle."
     }
   ],
   "grammar_points": [
     {
-      "concept": "Traduire les expressions corporelles culturelles",
-      "explanation": "Le kpele exprime plusieurs états émotionnels à travers des parties du corps (kǒo, le ventre, pour la satisfaction) selon une logique culturelle propre, qu'il faut rendre par l'équivalent fonctionnel français plutôt que par une traduction littérale absurde.",
+      "concept": "La non-correspondance syntaxique : constructions relationnelles fusionnées",
+      "explanation": "Au niveau de la traduction avancée, il faut savoir repérer les constructions guerzé où un nom (comme wɛ́li, « amour ») associé à la postposition ɓà (« sur ») et un pronom fusionné (mîi, yɛ̂, mà) rend une notion verbale du français (« aimer ») sans qu'il y ait de verbe équivalent direct en guerzé. Une traduction fidèle doit donc restituer le sens idiomatique, pas la structure littérale.",
       "rules": [
-        "kwèí nɛ̀ɛî nòŋ bɔ́ (litt. « son ventre est content de son fils ») se traduit fidèlement par « il est content de son fils », sans mentionner le ventre.",
-        "Une bonne traduction identifie d'abord la fonction de l'expression (exprimer la satisfaction) avant de chercher sa forme équivalente en français, plutôt que de calquer l'image corporelle."
+        "[Nom abstrait] + káa + [pronom fusionné avec ɓà] = structure guerzé rendant un verbe d'état/sentiment français.",
+        "é wɛ́li káa mîi (litt. ton amour est sur moi) = je t'aime (traduction idiomatique correcte)."
       ],
       "examples": [
         {
-          "structure": "kwèí nɛ̀ɛî nòŋ bɔ́ → il est content de son fils",
-          "phonetic_api": "/kwèí nɛ̀ɛî nòŋ bɔ́/",
-          "meaning": "traduction fonctionnelle, non littérale"
+          "structure": "é wɛ́li káa mîi",
+          "phonetic_api": "/é wɛ́li káa mîi/",
+          "meaning": "je t'aime (traduction idiomatique, non littérale)"
         }
       ]
     },
     {
-      "concept": "Condensation et expansion : les mots composés",
-      "explanation": "La traduction entre kpele et français implique souvent un changement de longueur : un mot composé kpele condense ce que le français exprime en plusieurs mots, et inversement pour certaines constructions grammaticales kpele (comme les marqueurs de personne).",
+      "concept": "Traduire un proverbe : séparer image et morale",
+      "explanation": "La traduction stylistique avancée d'un proverbe guerzé exige de fournir deux niveaux de traduction : la traduction littérale de l'image concrète (le singe et le chimpanzé), puis l'équivalent idiomatique de la morale abstraite dans la langue cible (« tel père, tel fils »), afin de préserver à la fois le sens et la saveur culturelle du texte source.",
       "rules": [
-        "kólo-kɛ́-mùŋ (un mot) → « travailleur » ou « ouvrier » (un mot) : ici la condensation est similaire.",
-        "kwɛ̀líyɔ̀umûŋ (un mot) → « forgeron » (un mot), mais nécessite une périphrase (« celui qui forge le fer ») si l'on veut expliciter la construction.",
-        "À l'inverse, une phrase kpele courte comme dà kúlo mà ! nécessite une périphrase idiomatique française (« baisse le prix ! ») pour rendre son sens figuré."
+        "Traduction littérale (image) + gloses/équivalent idiomatique (morale) = méthode de traduction recommandée pour les proverbes."
       ],
       "examples": [
         {
-          "structure": "kwɛ̀líyɔ̀umûŋ → forgeron / celui qui forge le fer",
-          "phonetic_api": "/kwɛ̀líyɔ̀umúŋ/",
-          "meaning": "traduction courte vs traduction explicative"
-        }
-      ]
-    },
-    {
-      "concept": "Adapter le registre de la traduction",
-      "explanation": "Une traduction avancée doit choisir un registre français cohérent avec le registre kpele d'origine : oral courant, discours cérémoniel (Leçon 6), ou style proverbial (Leçon 4).",
-      "rules": [
-        "Un proverbe comme hèɠeheɠelaá dà tɔ̀ɔtɔɔlaa ɓé appelle une traduction au style sentencieux français (« celui qui vient succède à celui qui part »), proche du dicton.",
-        "Une phrase de conversation courante (é wɛ́li káa mîi) appelle une traduction naturelle et directe (« je t'aime »), sans effet de style ajouté.",
-        "Confondre les registres — traduire un proverbe de façon trop plate, ou une phrase banale de façon trop soutenue — trahit le texte source autant qu'une erreur de sens."
-      ],
-      "examples": [
-        {
-          "structure": "registre proverbial vs registre courant",
-          "phonetic_api": "",
-          "meaning": "adapter le style français au registre kpele d'origine"
-        }
-      ]
-    },
-    {
-      "concept": "Synthèse : les points de vigilance d'une traduction kpele-français",
-      "explanation": "Cette dernière leçon rassemble les principaux points de vigilance étudiés tout au long du cours pour traduire fidèlement le kpele.",
-      "rules": [
-        "Vérifier le ton avant de traduire un mot isolé, car de nombreux homonymes n'existent qu'à l'écrit sans marquage tonal (kwɛ̌li/kwɛ́li/kwɛ́li).",
-        "Repérer les marqueurs prédicatifs (base, résultatif, futur, consécutif, conditionnel — Avancé Leçon 1) pour situer précisément l'action dans le temps avant de choisir le temps français.",
-        "Chercher la fonction culturelle d'une expression imagée avant sa traduction littérale, surtout pour le vocabulaire du corps, des sentiments et des proverbes.",
-        "Adapter systématiquement le registre français à celui du kpele source."
-      ],
-      "examples": [
-        {
-          "structure": "ton → temps grammatical → fonction culturelle → registre",
-          "phonetic_api": "",
-          "meaning": "les quatre vérifications successives d'une traduction fiable"
+          "structure": "kwàlá hwǎ gàa hwó gùló wòlolóŋ mà → littéral : « le petit singe ne met jamais au monde le petit du chimpanzé » → idiomatique : « tel père, tel fils »",
+          "phonetic_api": "/kwàlá hwǎ gàa hwó gùló wòlolóŋ mà/",
+          "meaning": "double niveau de traduction pour un proverbe"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Personne A (la traductrice)",
-      "text": "É wɛ́li káa mîi — màáhɔ̀lɔɓó ŋé wàla à zɛ̀ɓɛ́ɛ̂ŋ ɓé « ton amour est en moi ».",
-      "phonetic_api": "/é wɛ́li káa mîi màáhɔ̀lɔɓó ŋé wàla à zɛ̀ɓɛ́ɛ̂ŋ ɓé/",
-      "phonetic_simple": "é WÈ-li kaa MI-i — ma-a-HO-lo-ɓO ngé wa-la a zè-ɓÉ-êng bé",
-      "translation": "Je t'aime — parce que je ne traduis pas cela mot à mot dans le livre."
+      "speaker": "L'étudiant traducteur",
+      "text": "Kɛ́tɛ hwó tè gɛ̀ « É wɛ́li káa mîi » à yɛ́ɛ pàla hù ?",
+      "phonetic_api": "/kɛ́tɛ hwó tè gɛ̀ é wɛ́li káa mîi à yɛ́ɛ pàla hù/",
+      "phonetic_simple": "KÉ-tè HWO tè ghè é WÉ-li KA-a MI-i a yé-è PA-la hou",
+      "translation": "Comment traduire « É wɛ́li káa mîi » en français ?"
     },
     {
-      "speaker": "Personne B (l'élève)",
-      "text": "Ŋàá mɛ̌ŋ. Kólo-↓kɛ́-mùŋ ɓé mí gwéi hù ↓lónoŋzî ?",
-      "phonetic_api": "/ŋàá mɛ̌ŋ kólo-↓kɛ́mùŋ ɓé mí gwéi hù ↓lónoŋzí/",
-      "phonetic_simple": "nga-a MENG. KÓ-lo kÉ-moung bé mi GWÉ-i hou lo-NONG-zi ?",
-      "translation": "J'ai compris. Comment traduit-on « travailleur » ?"
+      "speaker": "Le professeur",
+      "text": "À yɛ́ɛ pàla hù, gɛ́ màí « je t'aime », kɛ́laa à kɛ́tɛ pàlaló ↓ká « ton amour est sur moi ».",
+      "phonetic_api": "/à yɛ́ɛ pàla hù gɛ́ màí je t'aime kɛ́laa à kɛ́tɛ pàlaló ká ton amour est sur moi/",
+      "phonetic_simple": "a yé-è PA-la hou, ghé ma-i «je t'aime», KÉ-la-a a KÉ-tè PA-la-lo ka «ton amour est sur moi»",
+      "translation": "En français, on dit « je t'aime », mais la traduction littérale serait « ton amour est sur moi »."
     },
     {
-      "speaker": "Personne A (la traductrice)",
-      "text": "Kàŋ, kólo-↓kɛ́-mùŋ ɓé « travailleur » ɓé, kɛ́laa hɔ́ɔnŋ lólo, gwěi ↓hwé kɛ́nɛmûŋ.",
-      "phonetic_api": "/kàŋ kólo-↓kɛ́mùŋ ɓé travailleur ɓé kɛ́laa hɔ́ɔnŋ lólo gwěi ↓hwé kɛ́nɛmûŋ/",
-      "phonetic_simple": "kang, KÓ-lo kÉ-moung bé « travailleur » bé, KÈ-laa HO-onng LO-lo, gwè-i hwé KÈ-nè-mûng",
-      "translation": "Donc, « travailleur » se traduit directement, mais pour un proverbe, quant à lui, il faut donner plus de sens."
+      "speaker": "L'étudiant traducteur",
+      "text": "Ɲɔ̀ɔ à kɛ́tɛ hɔ́ɔnŋ ↓lí, màánɛ̀ɛ́ é ɓà pàla lɛ́ɛ tèetêe.",
+      "phonetic_api": "/ɲɔ̀ɔ à kɛ́tɛ hɔ́ɔnŋ lí màánɛ̀ɛ́ é ɓà pàla lɛ́ɛ tèetêe/",
+      "phonetic_simple": "ngno-o a KÉ-tè HO-ong li, MA-a-nè-è é ba PA-la lé-è TÈ-è-tê-è",
+      "translation": "Ceci étant un proverbe, il faut le traduire de manière séparée (à part)."
     },
     {
-      "speaker": "Personne B (l'élève)",
-      "text": "Hɛ́â hwàa, gáa mɛ̌ŋ kɛ̀â.",
-      "phonetic_api": "/hɛ́â hwàa gáa mɛ̌ŋ kɛ̀â/",
-      "phonetic_simple": "HÈ-â hwaa, gaa MENG kè-â",
-      "translation": "Pas de doute, je comprends maintenant."
-    },
-    {
-      "speaker": "Personne A (la traductrice)",
-      "text": "Máma, mɛ́niê ! Hèɠeheɠelaá dà tɔ̀ɔtɔɔlaa ɓé.",
-      "phonetic_api": "/máma mɛ́niê hèɣèhèɣèlaá dà tɔ̀ɔtɔɔlaa ɓé/",
-      "phonetic_simple": "MA-ma, MÉ-ni-Ê ! hè-ghè-hè-ghè-LAA da to-o-to-o-LAA bé",
-      "translation": "Merci, mon ami ! Celui qui vient succède à celui qui part."
+      "speaker": "Le professeur",
+      "text": "Òowɛi, màánɛ̀ɛ́ é ɓà kàhwíli kɛ́ pàlaɓaa ɓà.",
+      "phonetic_api": "/òowɛi màánɛ̀ɛ́ é ɓà kàhwíli kɛ́ pàlaɓaa ɓà/",
+      "phonetic_simple": "o-wè-i, MA-a-nè-è é ba ka-HWI-li ké PA-la-BA-a ba",
+      "translation": "Oui, il faut être respectueux envers le traducteur."
     }
   ],
   "cultural_notes": [
-    "La traduction du kpele vers le français illustre un principe général de traductologie : ce n'est jamais la forme qui doit être fidèlement rendue, mais le sens et la fonction culturelle de l'énoncé, comme l'illustre kwèí nɛ̀ɛî nòŋ bɔ́ (« il est content de son fils »).",
-    "Les nombreux mots composés kpele à sens transparent (kwɛ̀líyɔ̀umûŋ, kólo-kɛ́-mùŋ) rappellent que la richesse lexicale d'une langue à tradition orale peut égaler, voire dépasser, celle d'une langue à forte tradition écrite, simplement par des moyens morphologiques différents.",
-    "Ce cours, construit entièrement à partir d'un dictionnaire de recherche linguistique, illustre lui-même un exercice de traduction et de médiation culturelle : rendre accessible en français, à des apprenants francophones, la richesse d'une langue de Guinée forestière encore peu documentée."
+    "La double traduction (image + morale) est une pratique recommandée par les linguistes travaillant sur les langues à tradition orale riche en proverbes, afin de ne pas appauvrir le texte source en se limitant à l'équivalent idiomatique (Konoshenko 2019 documente systématiquement les deux niveaux dans son dictionnaire).",
+    "L'expression fusionnée « káa mîi » pour l'amour illustre une conception guerzé du sentiment comme une force extérieure qui « repose sur » la personne, plutôt que comme une action que le sujet exerce, différence culturelle notable avec le français."
   ],
   "exercises": [
     {
       "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Comment traduire fidèlement kwèí nɛ̀ɛî nòŋ bɔ́ ?",
+      "question": "Quelle est la traduction idiomatique correcte de « É wɛ́li káa mîi » ?",
       "options": [
-        "\"Son ventre est content de son fils\" (littéral)",
-        "\"Il est content de son fils\" (fonctionnel)",
-        "On ne peut pas le traduire",
-        "\"Il a mal au ventre\""
+        "Je t'aime",
+        "Ton amour est fatigué",
+        "J'ai honte de toi"
       ],
-      "correct_answer": "\"Il est content de son fils\" (fonctionnel)",
-      "explanation": "La traduction fonctionnelle rend le sens réel de l'expression, sans calquer l'image du ventre."
+      "correct_answer": "Je t'aime",
+      "explanation": "Konoshenko (2019) donne cet exemple précisément avec la traduction idiomatique « je t'aime », bien que la structure littérale soit « ton amour est sur moi »."
     },
     {
       "exercise_id": "ex2",
-      "type": "multiple_choice",
-      "question": "Que faut-il vérifier en premier avant de traduire un mot kpele isolé ?",
-      "options": [
-        "Sa longueur",
-        "Son ton",
-        "Sa première lettre",
-        "Le nombre de syllabes"
-      ],
-      "correct_answer": "Son ton",
-      "explanation": "De nombreux homonymes kpele ne se distinguent que par le ton, un point de vigilance essentiel."
-    },
-    {
-      "exercise_id": "ex3",
-      "type": "multiple_choice",
-      "question": "Quel registre convient pour traduire un proverbe comme « hèɠeheɠelaá dà tɔ̀ɔtɔɔlaa ɓé » ?",
-      "options": [
-        "Un registre très familier",
-        "Un style sentencieux, proche du dicton français",
-        "Un registre technique",
-        "Aucun registre particulier"
-      ],
-      "correct_answer": "Un style sentencieux, proche du dicton français",
-      "explanation": "Le style proverbial appelle un registre français cohérent, à michemin entre le littéral et le figuré."
-    },
-    {
-      "exercise_id": "ex4",
-      "type": "multiple_choice",
-      "question": "Que faut-il repérer avant de choisir le temps français dans une traduction ?",
-      "options": [
-        "Le nombre de mots",
-        "Les marqueurs prédicatifs kpele (résultatif, futur, etc.)",
-        "La couleur du texte",
-        "Le nom de l'auteur"
-      ],
-      "correct_answer": "Les marqueurs prédicatifs kpele (résultatif, futur, etc.)",
-      "explanation": "Identifier précisément le marqueur prédicatif permet de choisir le temps français équivalent le plus juste."
-    },
-    {
-      "exercise_id": "ex5",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "« Dà kúlo mà ! » se traduit fidèlement par « [ ___ ] le prix ! », et non littéralement par « fais-le sortir ».",
-      "correct_answer": "Baisse",
-      "hint": "C'est la traduction fonctionnelle de cette expression figée."
-    },
-    {
-      "exercise_id": "ex6",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "kwɛ̀líyɔ̀umûŋ se traduit en un seul mot français : « [ ___ ] ».",
-      "correct_answer": "forgeron",
-      "hint": "C'est le métier qui travaille le fer."
-    },
-    {
-      "exercise_id": "ex7",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Les quatre vérifications d'une traduction fiable sont : le ton, le [ ___ ] grammatical, la fonction culturelle et le registre.",
-      "correct_answer": "temps",
-      "hint": "C'est ce que marquent les marqueurs prédicatifs (résultatif, futur...)."
+      "sentence_with_blank": "É [ ___ ] káa mîi. (Je t'aime.)",
+      "correct_answer": "wɛ́li",
+      "hint": "Nom signifiant « amour »."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Konoshenko, M. (2019). Dictionnaire kpele de la Guinée (guerzé) – français. Mandenkan 62.",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan62/62konoshenko.pdf"
+    },
+    {
+      "label": "Wikipédia — Kpèllé (langue) / Guerzé",
+      "url": "https://fr.wikipedia.org/wiki/Guerze"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Les exemples de traduction (amour, honte, proverbe) sont attestés dans Konoshenko (2019) ; la méthodologie de « double traduction » (image + morale) et le dialogue de classe sur la traduction sont une mise en forme pédagogique ajoutée par l'auteur de la leçon à partir de ces données attestées."
 }

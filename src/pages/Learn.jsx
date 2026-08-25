@@ -5,9 +5,10 @@ import { Link, useParams } from "react-router-dom";
 import { useAuth } from "@/lib/AuthContext";
 import { getLanguages, getVocabularyForLanguage, getLessonsForLanguage } from "@/api/languageService";
 import { getProgress } from "@/api/progressService";
-import { ArrowLeft, ArrowRight, Download, Trash2, WifiOff, Loader2, Search, X } from "lucide-react";
+import { ArrowLeft, ArrowRight, Download, Trash2, WifiOff, Loader2, Search, X, BookOpen, TrendingUp, CheckCircle2, LockKeyhole, Layers3 } from "lucide-react";
 import LanguageFlag from "@/components/ui/LanguageFlag";
 import { useOnlineStatus } from "@/hooks/useOnlineStatus";
+import { getCountryForLanguage } from "@/lib/localLanguageData";
 import { downloadLanguageOffline, isLanguageDownloaded, removeLanguageOffline, getOfflineVocab, getOfflineLanguages } from "@/lib/offlineStorage";
 import {
   getBeginnerCompletionStatus,
@@ -34,6 +35,7 @@ export default function Learn() {
   const online = useOnlineStatus();
   const [downloaded, setDownloaded] = useState(false);
   const [downloading, setDownloading] = useState(false);
+  const [selectedLevelId, setSelectedLevelId] = useState("niveau-debutant");
 
   useEffect(() => {
     if (online) {
@@ -109,19 +111,19 @@ export default function Learn() {
     setDownloaded(false);
   };
 
-  // Group by region
+  // Group languages by their primary country.
   const safeLanguages = Array.isArray(languages) ? languages : [];
   const safeItems = Array.isArray(items) ? items : [];
   const safeLessons = Array.isArray(lessons) ? lessons : [];
   const safeProgresses = Array.isArray(progresses) ? progresses : [];
-  /** @type {{ [region: string]: any[] }} */
-  const regions = {};
+  /** @type {{ [country: string]: any[] }} */
+  const countries = {};
   safeLanguages.forEach(l => {
-    const r = l?.region || "Autre";
-    if (!regions[r]) regions[r] = [];
-    regions[r].push(l);
+    const country = getCountryForLanguage(l);
+    if (!countries[country]) countries[country] = [];
+    countries[country].push(l);
   });
-  const regionKeys = Object.keys(regions);
+  const countryKeys = Object.keys(countries);
 
   const readExerciseRecord = (moduleId) => {
     if (typeof window === "undefined") return null;
@@ -156,6 +158,11 @@ export default function Learn() {
     const totalLessonCount = Math.max(1, Array.isArray(safeLessons) ? safeLessons.length : 0);
     const exerciseRecords = getExerciseRecords();
     const beginnerStatus = getBeginnerCompletionStatus(completed, exerciseRecords);
+    const curriculum = getCurriculumForLanguageExport(langCode);
+    const totalCurriculumLessons = curriculum.levels.reduce((total, level) => total + level.modules.reduce((count, module) => count + module.lessons.length, 0), 0);
+    const selectedLevel = curriculum.levels.find((level) => level.id === selectedLevelId) || curriculum.levels[0];
+    const selectedLevelIndex = Math.max(0, curriculum.levels.findIndex((level) => level.id === selectedLevel?.id));
+    const selectedLevelLessons = selectedLevel?.modules.reduce((total, module) => total + module.lessons.length, 0) || 0;
 
     return (
       <div className="p-6 lg:p-10 max-w-3xl mx-auto">
@@ -182,11 +189,18 @@ export default function Learn() {
           )}
         </div>
         <div className="rounded-3xl p-6 mb-6 text-white" style={{ background: `linear-gradient(135deg, ${lang.color}, ${lang.color}cc)` }}>
-          <div className="flex items-center gap-4">
+          <div className="flex flex-col gap-5 sm:flex-row sm:items-center sm:justify-between">
+            <div className="flex items-center gap-4">
             <LanguageFlag language={lang} size="lg" />
             <div>
               <h1 className="font-heading text-2xl font-bold">{lang.name_fr}</h1>
-              <p className="text-white/80 text-sm">{lang.description || lang.region}</p>
+              <p className="text-white/80 text-sm">Pays : {getCountryForLanguage(lang)}</p>
+            </div>
+            </div>
+            <div className="grid grid-cols-3 gap-2 sm:min-w-[280px]">
+              <div className="rounded-2xl bg-black/15 px-3 py-2 text-center"><div className="text-lg font-bold">{totalCurriculumLessons}</div><div className="text-[10px] uppercase tracking-wider text-white/70">leçons</div></div>
+              <div className="rounded-2xl bg-black/15 px-3 py-2 text-center"><div className="text-lg font-bold">{curriculum.levels.length}</div><div className="text-[10px] uppercase tracking-wider text-white/70">niveaux</div></div>
+              <div className="rounded-2xl bg-black/15 px-3 py-2 text-center"><div className="text-lg font-bold">{completed.length}</div><div className="text-[10px] uppercase tracking-wider text-white/70">acquises</div></div>
             </div>
           </div>
           {prog && (
@@ -209,8 +223,20 @@ export default function Learn() {
             </div>
             <span className="rounded-full bg-primary/10 px-3 py-1 text-xs font-semibold uppercase tracking-[0.2em] text-primary">Curriculum</span>
           </div>
+          <div className="mb-5 grid grid-cols-3 gap-2 rounded-2xl bg-secondary/60 p-1.5">
+            {curriculum.levels.map((level) => {
+              const levelLessons = level.modules.reduce((total, module) => total + module.lessons.length, 0);
+              const isSelected = selectedLevel?.id === level.id;
+              return <button key={level.id} type="button" onClick={() => setSelectedLevelId(level.id)} className={`rounded-xl px-3 py-3 text-left transition ${isSelected ? "bg-card text-foreground shadow-sm" : "text-muted-foreground hover:bg-card/60 hover:text-foreground"}`}><span className="block text-sm font-bold">{level.label}</span><span className="mt-1 block text-xs">{levelLessons} leçons · {level.range}</span></button>;
+            })}
+          </div>
+          <div className="mb-5 flex flex-wrap items-center justify-between gap-3 rounded-2xl border border-primary/20 bg-primary/5 px-4 py-3">
+            <div className="flex items-center gap-3"><Layers3 size={20} className="text-primary" /><div><p className="text-sm font-bold text-foreground">Parcours {selectedLevel?.label}</p><p className="text-xs text-muted-foreground">{selectedLevelLessons} leçons réparties dans {selectedLevel?.modules.length || 0} modules</p></div></div>
+            {selectedLevelIndex > 0 && <span className="inline-flex items-center gap-1.5 rounded-full bg-amber-500/10 px-3 py-1.5 text-xs font-semibold text-amber-700 dark:text-amber-300"><LockKeyhole size={13} /> Niveau à débloquer</span>}
+          </div>
           <div className="space-y-4">
-            {getCurriculumForLanguageExport(langCode).levels.map((level, levelIndex) => {
+            {[selectedLevel].filter(Boolean).map((level) => {
+              const levelIndex = curriculum.levels.findIndex((item) => item.id === level.id);
               const exerciseRecords = getExerciseRecords();
               const beginnerStatus = getBeginnerCompletionStatus(completed, exerciseRecords, 70, langCode);
               const levelModulesState = level.modules.map((module, moduleIndex) => ({
@@ -247,14 +273,26 @@ export default function Learn() {
                       const lessonLinksDisabled = !state.available || (levelIndex > 0 && !levelUnlocked);
                       const practiceDisabled = !state.available || (levelIndex > 0 && !levelUnlocked);
                       const onlyFirstLevelUnlock = levelIndex === 0 && moduleIndex === 0;
+                      const normalizePath = (value) => String(value || "")
+                        .normalize("NFD")
+                        .replace(/[\u0300-\u036f]/g, "")
+                        .toLowerCase();
+                      const expectedLevel = normalizePath(`Niveau ${level.label}`);
+                      const expectedModule = normalizePath(`Module ${moduleIndex + 1}`);
+                      const moduleLessons = module.lessons.filter((lesson) => {
+                        const sourcePath = normalizePath(lesson.source_file);
+                        return sourcePath.includes(expectedLevel) && sourcePath.includes(expectedModule);
+                      });
+                      const displayedLessons = moduleLessons.length > 0 ? moduleLessons : module.lessons.slice(0, 3);
+                      const completedModuleLessons = displayedLessons.filter((lesson) => completedSet.has(Number(lesson.lesson_number))).length;
                       return (
                           <details key={module.id} className="rounded-[20px] bg-secondary/40 p-3.5 shadow-[0_10px_25px_-20px_rgba(0,0,0,0.55)]" open={levelIndex === 0 && moduleIndex === 0}>
                           <summary className="cursor-pointer list-none text-base font-semibold text-foreground mb-2 flex items-center justify-between gap-2">
                             <span>{module.label}</span>
-                            <span className="text-sm text-muted-foreground">{module.lessons.length} leçons</span>
+                            <span className="flex items-center gap-2 text-sm text-muted-foreground"><CheckCircle2 size={15} className={completedModuleLessons === displayedLessons.length ? "text-emerald-500" : "text-muted-foreground"} />{completedModuleLessons}/{displayedLessons.length} acquises</span>
                           </summary>
                           <div className="mt-2 flex flex-wrap gap-2">
-                            {module.lessons.map((lesson) => (
+                            {displayedLessons.map((lesson) => (
                               <Link
                                 key={lesson.id}
                                 to={lessonLinksDisabled ? "#" : `/lecon/${langCode}/${lesson.lesson_number}`}
@@ -294,26 +332,40 @@ export default function Learn() {
 
   // Grid view
   const available = online ? safeLanguages : safeLanguages.filter(l => isLanguageDownloaded(l?.code));
-  const filtered = filter === "all" ? available : available.filter(l => ((l?.region || "") + "").includes(filter));
+  const filtered = filter === "all" ? available : available.filter(l => getCountryForLanguage(l).includes(filter));
   const normalizedQuery = languageQuery.trim().toLowerCase();
   const safeFiltered = (Array.isArray(filtered) ? filtered : []).filter((language) => {
     if (!normalizedQuery) return true;
-    return `${language?.name_fr || ""} ${language?.name || ""} ${language?.region || ""}`
+    return `${language?.name_fr || ""} ${language?.name || ""} ${getCountryForLanguage(language)}`
       .toLowerCase()
       .includes(normalizedQuery);
   });
 
   return (
-    <div className="p-6 lg:p-10 max-w-5xl mx-auto">
-      <h1 className="font-heading text-3xl font-bold text-foreground mb-1">Apprendre</h1>
-      <p className="text-muted-foreground mb-6">{safeLanguages.length} langues disponibles</p>
+    <div className="mx-auto w-full max-w-6xl p-4 sm:p-6 lg:p-10">
+      <section className="mb-6 overflow-hidden rounded-3xl border border-border bg-card shadow-sm">
+        <div className="relative px-5 py-6 sm:px-8 sm:py-8">
+          <div className="absolute inset-y-0 right-0 w-1/2 bg-[radial-gradient(circle_at_center,rgba(249,115,22,0.16),transparent_68%)]" />
+          <div className="relative max-w-2xl">
+            <div className="mb-3 inline-flex items-center gap-2 rounded-full bg-primary/10 px-3 py-1 text-xs font-semibold uppercase tracking-[0.16em] text-primary"><BookOpen size={14} /> Parcours d’apprentissage</div>
+            <h1 className="font-heading text-3xl font-bold tracking-normal text-foreground sm:text-4xl">Choisissez votre prochaine langue</h1>
+            <p className="mt-2 max-w-xl text-sm leading-6 text-muted-foreground">Progressez à votre rythme avec des leçons pensées pour comprendre, pratiquer et retenir.</p>
+          </div>
+        </div>
+        <div className="grid grid-cols-2 border-t border-border sm:grid-cols-4">
+          <div className="border-r border-border px-4 py-3 sm:px-6"><div className="text-xl font-bold text-foreground">{safeLanguages.length}</div><div className="text-xs text-muted-foreground">Langues disponibles</div></div>
+          <div className="border-r border-border px-4 py-3 sm:px-6"><div className="text-xl font-bold text-foreground">{safeLanguages.filter((lang) => lang.status === "active").length}</div><div className="text-xs text-muted-foreground">Parcours actifs</div></div>
+          <div className="border-r border-border px-4 py-3 sm:px-6"><div className="text-xl font-bold text-foreground">{safeProgresses.filter((progress) => progress.current_lesson > 1).length}</div><div className="text-xs text-muted-foreground">Parcours commencés</div></div>
+          <div className="px-4 py-3 sm:px-6"><div className="flex items-center gap-1 text-xl font-bold text-foreground"><TrendingUp size={18} className="text-primary" /> {safeProgresses.reduce((total, progress) => total + (progress.xp || 0), 0)}</div><div className="text-xs text-muted-foreground">XP total</div></div>
+        </div>
+      </section>
 
       <label className="group mb-5 flex items-center gap-3 rounded-2xl border-2 border-border bg-card px-4 py-3.5 text-sm text-muted-foreground transition focus-within:border-primary focus-within:shadow-[0_0_0_4px_rgba(249,115,22,.12)]">
         <Search size={20} className="shrink-0 text-primary transition group-focus-within:scale-110" />
         <input
           value={languageQuery}
           onChange={(event) => setLanguageQuery(event.target.value)}
-          placeholder="Rechercher une langue, une région..."
+          placeholder="Rechercher une langue ou un pays..."
           aria-label="Rechercher une langue"
           className="w-full bg-transparent text-foreground outline-none placeholder:text-muted-foreground"
         />
@@ -325,33 +377,38 @@ export default function Learn() {
       </label>
 
       {/* Filter tabs */}
-      <div className="flex gap-2 overflow-x-auto pb-2 mb-6">
+      <div className="mb-6 flex flex-wrap gap-2">
         <button onClick={() => setFilter("all")}
           className={`px-4 py-2 rounded-full text-sm font-medium whitespace-nowrap transition ${filter === "all" ? "bg-primary text-primary-foreground" : "bg-secondary text-secondary-foreground hover:bg-secondary/70"}`}>
           Toutes
         </button>
-        {regionKeys.map(r => (
-          <button key={r} onClick={() => setFilter(r)}
-            className={`px-4 py-2 rounded-full text-sm font-medium whitespace-nowrap transition ${filter === r ? "bg-primary text-primary-foreground" : "bg-secondary text-secondary-foreground hover:bg-secondary/70"}`}>
-            {r}
+        {countryKeys.map(country => (
+          <button key={country} onClick={() => setFilter(country)}
+            className={`px-4 py-2 rounded-full text-sm font-medium whitespace-nowrap transition ${filter === country ? "bg-primary text-primary-foreground" : "bg-secondary text-secondary-foreground hover:bg-secondary/70"}`}>
+            {country}
           </button>
         ))}
       </div>
 
       {/* Language cards */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div className="mb-4 flex items-center justify-between gap-3">
+        <h2 className="font-heading text-xl font-bold text-foreground">Tous les parcours</h2>
+        <span className="text-xs text-muted-foreground">{safeFiltered.length} résultat(s)</span>
+      </div>
+
+      <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
         {safeFiltered.map(lang => {
           const prog = safeProgresses.find(p => p.language_code === lang.code);
           const pct = prog ? Math.min(100, ((prog.current_lesson - 1) / Math.max(1, lang.total_lessons || 20)) * 100) : 0;
           return (
             <Link key={lang.id} to={`/apprendre/${lang.code}`}
-              className="group bg-card border border-border rounded-2xl p-5 hover:border-primary/40 hover:shadow-lg transition-all">
+              className="group flex min-h-[218px] flex-col rounded-2xl border border-border bg-card p-5 transition-all hover:-translate-y-0.5 hover:border-primary/40 hover:shadow-lg">
               <div className="flex items-start justify-between mb-3">
                 <div className="flex items-center gap-3">
                   <LanguageFlag language={lang} size="lg" />
                   <div>
                     <div className="font-heading font-bold text-foreground">{lang.name_fr}</div>
-                    <div className="text-xs text-muted-foreground">{lang.region}</div>
+                    <div className="text-xs text-muted-foreground">{getCountryForLanguage(lang)}</div>
                   </div>
                 </div>
                 {lang.status === "coming_soon" && (
@@ -363,8 +420,8 @@ export default function Learn() {
                   </span>
                 )}
               </div>
-              <p className="text-sm text-muted-foreground mb-4 line-clamp-2">{lang.description || `Langue de ${lang.region}`}</p>
-              <div className="w-full bg-secondary rounded-full h-1.5 mb-3">
+              <p className="mb-4 line-clamp-2 min-h-[40px] text-sm text-muted-foreground">Pays : {getCountryForLanguage(lang)}</p>
+              <div className="mb-3 h-1.5 w-full rounded-full bg-secondary">
                 <div className="h-1.5 rounded-full" style={{ width: `${pct}%`, background: lang.color }} />
               </div>
               <div className="flex items-center justify-between text-sm">

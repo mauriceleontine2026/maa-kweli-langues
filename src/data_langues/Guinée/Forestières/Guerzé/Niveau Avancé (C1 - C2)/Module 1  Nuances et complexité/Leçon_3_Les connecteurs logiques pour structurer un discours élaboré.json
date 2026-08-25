@@ -6,25 +6,24 @@
   "lesson_number": 3,
   "title": "Les connecteurs logiques pour structurer un discours élaboré",
   "learning_objectives": [
-    "Enchaîner une suite d'arguments avec élɛɛ (puis), kàŋ (donc) et máŋ (et aussi).",
-    "Marquer une opposition avec kɛ́laa (mais, cependant).",
-    "Justifier une affirmation avec màáhɔ̀lɔɓó (parce que).",
-    "Introduire un changement de sujet ou de personne avec lólo (quant à)."
+    "Utiliser les connecteurs causaux màáhɔ̀lɔɓó (parce que) et kàŋ (donc, ainsi)",
+    "Utiliser le connecteur d'opposition kɛ́laa/kɛ́lɛɛ (mais, cependant)",
+    "Structurer un discours argumentatif complexe en combinant plusieurs connecteurs logiques"
   ],
   "phonetic_focus": {
-    "key_sounds": "Cette leçon rassemble les principaux connecteurs logiques déjà croisés séparément dans les leçons précédentes (élɛɛ, kàŋ, kɛ́laa, màáhɔ̀lɔɓó, wàla) et y ajoute máŋ (et aussi) et lólo (quant à), pour former une boîte à outils complète de structuration du discours. Ces mots courts et fréquents doivent être reconnus instantanément à l'oral pour suivre un discours élaboré.",
-    "common_pitfalls": "Les francophones ont tendance à : (1) enchaîner les phrases sans connecteur, un style que le kpele élaboré évite car il rend le raisonnement moins clair ; (2) confondre máŋ (et aussi, ajout) et kɛ́laa (mais, opposition), deux connecteurs de fonctions opposées ; (3) oublier que lólo sert spécifiquement à marquer un changement de sujet dans un récit à plusieurs personnages, et non une simple addition."
+    "key_sounds": "màáhɔ̀lɔɓó est un connecteur polysyllabique avec un ton descendant sur sa première syllabe, à articuler comme une unité unique malgré sa longueur ; kɛ́laa/kɛ́lɛɛ présente deux variantes dialectales interchangeables.",
+    "common_pitfalls": "Les francophones ont tendance à multiplier les connecteurs comme en français (« donc, alors, par conséquent »), alors que le guerzé emploie un nombre plus restreint de connecteurs polyvalents dont le sens précis dépend fortement du contexte."
   },
   "vocabulary": [
     {
       "word_id": "v1",
-      "term": "élɛɛ",
-      "phonetic_api": "/élɛɛ/",
-      "phonetic_simple": "É-lè-è",
-      "translation": "puis",
-      "example_sentence": "élɛɛ",
-      "example_phonetic": "/élɛɛ/",
-      "example_translation": "puis"
+      "term": "màáhɔ̀lɔɓó",
+      "phonetic_api": "/màáhɔ̀lɔɓó/",
+      "phonetic_simple": "MA-a-HO-lo-BO",
+      "translation": "parce que",
+      "example_sentence": "Ŋà ŋwúŋmɛ mà, màáhɔ̀lɔɓó ŋà Pépèe màakpɔ́ŋ màaɓó.",
+      "example_phonetic": "/ŋà ŋwúŋmɛ mà màáhɔ̀lɔɓó ŋà pépèe màakpɔ́ŋ màaɓó/",
+      "example_translation": "J'ai aidé Pépé, parce que je le respecte."
     },
     {
       "word_id": "v2",
@@ -32,347 +31,191 @@
       "phonetic_api": "/kàŋ/",
       "phonetic_simple": "kang",
       "translation": "donc, ainsi",
-      "example_sentence": "Kà kɛ́ kàŋ́ gíli↓gílî kɛ̀ɛhíŋmɛni hù.",
-      "example_phonetic": "/kà kɛ́ kàŋ́ gíli↓gílî kɛ̀ɛhíŋmɛni hù/",
-      "example_translation": "Soyez donc prudents dans les champs."
+      "example_sentence": "Gǔ jù tɔ́nɔ hɔ̀lɔɓó kàŋ à Ɲɛ̀nɛ́ɛ tíi kpɛ̀ɛ hwó mà.",
+      "example_phonetic": "/gǔ jù tɔ́nɔ hɔ̀lɔɓó kàŋ à ɲɛ̀nɛ́ɛ tíi kpɛ̀ɛ hwó mà/",
+      "example_translation": "Nous allons donc profiter de la Vie éternelle."
     },
     {
       "word_id": "v3",
       "term": "kɛ́laa",
       "phonetic_api": "/kɛ́laa/",
-      "phonetic_simple": "KÈ-laa",
+      "phonetic_simple": "KÉ-la-a",
       "translation": "mais, cependant",
-      "example_sentence": "kɛ́laa",
-      "example_phonetic": "/kɛ́laa/",
-      "example_translation": "mais, cependant"
+      "example_sentence": "Túɠô yɛ́ nú pɔ́lɔpɔ̀lɔ, kɛ́laa kpàkolo lí.",
+      "example_phonetic": "/túɠô yɛ́ nú pɔ́lɔpɔ̀lɔ kɛ́laa kpàkolo lí/",
+      "example_translation": "C'est un enfant, mais il agit comme un sage."
     },
     {
       "word_id": "v4",
-      "term": "màáhɔ̀lɔɓó",
-      "phonetic_api": "/màáhɔ̀lɔɓó/",
-      "phonetic_simple": "ma-a-HO-lo-ɓO",
-      "translation": "parce que",
-      "example_sentence": "Zéɠe ↓hílê hwàa à yɛ́ màáhɔ̀lɔɓó pàlakpɔ́lɔɔŋ ↓gáa yɛ̂.",
-      "example_phonetic": "/zéɣe ↓hílê hwàa à yɛ́ màáhɔ̀lɔɓó pàlakpɔ́lɔɔŋ ↓gáa yɛ̂/",
-      "example_translation": "Tu n'es pas l'homme que je dois épouser, parce que tu as des cicatrices."
+      "term": "kɛ́lɛɛ",
+      "phonetic_api": "/kɛ́lɛɛ/",
+      "phonetic_simple": "KÉ-lè-è",
+      "translation": "mais, cependant (variante dialectale de kɛ́laa)",
+      "example_sentence": "Ɲɛ̀akpɛ́mûŋ kɛ́lɛɛ.",
+      "example_phonetic": "/ɲɛ̀akpɛ́mûŋ kɛ́lɛɛ/",
+      "example_translation": "Cependant (en début de phrase, valeur adversative)."
     },
     {
       "word_id": "v5",
-      "term": "wàla",
-      "phonetic_api": "/wàla/",
-      "phonetic_simple": "wa-la",
-      "translation": "sinon (marqueur conditionnel négatif)",
-      "example_sentence": "À wàla kɛ́ tíi.",
-      "example_phonetic": "/à wàla kɛ́ tíi/",
-      "example_translation": "Sinon."
+      "term": "kàní",
+      "phonetic_api": "/kàní/",
+      "phonetic_simple": "ka-ni",
+      "translation": "donc, ainsi (variante de kàŋ)",
+      "example_sentence": "Kà kɛ́ kàŋ́ gíli↓gílî kɛ̀ɛhíŋmɛni hù.",
+      "example_phonetic": "/kà kɛ́ kàŋ́ gíli↓gílî kɛ̀ɛhíŋmɛni hù/",
+      "example_translation": "Soyez donc prudents et vigilants dans les moments difficiles."
     },
     {
       "word_id": "v6",
-      "term": "máŋ",
-      "phonetic_api": "/máŋ/",
-      "phonetic_simple": "mang",
-      "translation": "et, et puis, et encore, et aussi",
-      "example_sentence": "máŋ",
-      "example_phonetic": "/máŋ/",
-      "example_translation": "et aussi"
+      "term": "gíli↓gílî",
+      "phonetic_api": "/gíli↓gílî/",
+      "phonetic_simple": "GI-li-GI-li",
+      "translation": "prudent, vigilant",
+      "example_sentence": "Kà kɛ́ kàŋ́ gíli↓gílî.",
+      "example_phonetic": "/kà kɛ́ kàŋ́ gíli↓gílî/",
+      "example_translation": "Soyez donc prudents."
     },
     {
       "word_id": "v7",
-      "term": "lólo",
-      "phonetic_api": "/lólo/",
-      "phonetic_simple": "LO-lo",
-      "translation": "quant à",
-      "example_sentence": "Wɛ́i kú kɛ́i lì kɔ́nɔŋ mɛ̀ɛì, Maria lólo ŋwɛ̀í...",
-      "example_phonetic": "/wɛ́i kú kɛ́i lì kɔ́nɔŋ mɛ̀ɛì maria lólo ŋwɛ̀í/",
-      "example_translation": "Hier nous sommes allés manger ; Maria, quant à elle..."
-    },
-    {
-      "word_id": "v8",
-      "term": "kɛ̀â",
-      "phonetic_api": "/kɛ̀â/",
-      "phonetic_simple": "kè-â",
-      "translation": "maintenant, alors, déjà, à ce moment",
-      "example_sentence": "Élɛɛ nìíɓai ↓tíi è nɛ̌ kɛ̀â.",
-      "example_phonetic": "/élɛɛ nìíɓai ↓tíi è nɛ̌ kɛ̀â/",
-      "example_translation": "Puis il montre cela, à ce moment-là."
-    },
-    {
-      "word_id": "v9",
-      "term": "kánaŋ",
-      "phonetic_api": "/kánaŋ/",
-      "phonetic_simple": "KA-nang",
-      "translation": "insister trop sur (yàa kánaŋ mɛ̀ni tɔ́nɔ ↓ɲɛ́i)",
-      "example_sentence": "Yàa kánaŋ mɛ̀ni tɔ́nɔ ↓ɲɛ́i ɓá à mɔ̌lɔɔ.",
-      "example_phonetic": "/yàa kánaŋ mɛ̀ni tɔ́nɔ ↓ɲɛ́i ɓá à mɔ̌lɔɔ/",
-      "example_translation": "Tu insistes trop sur la même chose."
-    },
-    {
-      "word_id": "v10",
-      "term": "lî",
-      "phonetic_api": "/lî/",
-      "phonetic_simple": "lî",
-      "translation": "jadis, autrefois",
-      "example_sentence": "lî",
-      "example_phonetic": "/lî/",
-      "example_translation": "jadis, autrefois"
-    },
-    {
-      "word_id": "v11",
-      "term": "màaláa",
-      "phonetic_api": "/màaláa/",
-      "phonetic_simple": "ma-a-LA-a",
-      "translation": "puissance, pouvoir",
-      "example_sentence": "màaláa",
-      "example_phonetic": "/màaláa/",
-      "example_translation": "puissance, pouvoir"
-    },
-    {
-      "word_id": "v12",
-      "term": "hɛ́â",
-      "phonetic_api": "/hɛ́â/",
-      "phonetic_simple": "HÈ-â",
-      "translation": "doute, contradiction (~ tǒo = contredire)",
-      "example_sentence": "Hɛ́â tǒo.",
-      "example_phonetic": "/hɛ́â tǒo/",
-      "example_translation": "Contredire."
+      "term": "pɔ́lɔpɔ̀lɔ",
+      "phonetic_api": "/pɔ́lɔpɔ̀lɔ/",
+      "phonetic_simple": "PO-lo-PO-lo",
+      "translation": "sage (adjectif, personne avisée)",
+      "example_sentence": "Kpàkolo lí, túɠô yɛ́ nú pɔ́lɔpɔ̀lɔ.",
+      "example_phonetic": "/kpàkolo lí túɠô yɛ́ nú pɔ́lɔpɔ̀lɔ/",
+      "example_translation": "C'est un enfant, mais il agit comme un homme sage."
     }
   ],
   "common_phrases": [
     {
       "phrase_id": "p1",
-      "original": "Wɛ́i kú kɛ́i lì kɔ́nɔŋ mɛ̀ɛì, Maria lólo ŋwɛ̀í, yɛ̀ mà gɔ̀lɔ́i hwó pònolí.",
-      "phonetic_api": "/wɛ́i kú kɛ́i lì kɔ́nɔŋ mɛ̀ɛì maria lólo ŋwɛ̀í yɛ̀ mà gɔ̀lɔ́i hwó pònolí/",
-      "phonetic_simple": "WÈ-i kou KÈ-i li KO-nong mè-è-i, ma-RI-a LO-lo ngwè-I, yè ma go-LO-i hwo po-no-LI",
-      "translation": "Hier nous sommes allés manger ; Maria, quant à elle, a dit qu'elle ne se sentait pas bien.",
-      "context": "Introduire le point de vue différent d'une autre personne dans un récit"
+      "original": "Ŋà ŋwúŋmɛ mà, màáhɔ̀lɔɓó ŋà Pépèe màakpɔ́ŋ màaɓó.",
+      "phonetic_api": "/ŋà ŋwúŋmɛ mà màáhɔ̀lɔɓó ŋà pépèe màakpɔ́ŋ màaɓó/",
+      "phonetic_simple": "nga NGWOU-ngmè ma, ma-a-HO-lo-BO nga pé-pè-è MA-a-KPONG MA-a-BO",
+      "translation": "J'ai aidé Pépé, parce que je le respecte.",
+      "context": "Exemple attesté du connecteur causal màáhɔ̀lɔɓó."
     },
     {
       "phrase_id": "p2",
-      "original": "Kà kɛ́ kàŋ́ gíli↓gílî kɛ̀ɛhíŋmɛni hù.",
-      "phonetic_api": "/kà kɛ́ kàŋ́ gíli↓gílî kɛ̀ɛhíŋmɛni hù/",
-      "phonetic_simple": "ka ké kang GI-li gi-lî kè-è-HING-mè-ni hou",
-      "translation": "Soyez donc prudents dans les champs.",
-      "context": "Tirer une conséquence pratique d'un raisonnement"
+      "original": "Gǔ jù tɔ́nɔ hɔ̀lɔɓó kàŋ à Ɲɛ̀nɛ́ɛ tíi kpɛ̀ɛ hwó mà.",
+      "phonetic_api": "/gǔ jù tɔ́nɔ hɔ̀lɔɓó kàŋ à ɲɛ̀nɛ́ɛ tíi kpɛ̀ɛ hwó mà/",
+      "phonetic_simple": "gou jou TO-no HO-lo-BO kang a NGNÈ-nè-é TI-i KPÈ-è HWO ma",
+      "translation": "Nous allons donc profiter de la Vie éternelle.",
+      "context": "Exemple attesté du connecteur conséquentiel kàŋ."
     },
     {
       "phrase_id": "p3",
-      "original": "Zéɠe ↓hílê hwàa à yɛ́ màáhɔ̀lɔɓó pàlakpɔ́lɔɔŋ ↓gáa yɛ̂.",
-      "phonetic_api": "/zéɣe ↓hílê hwàa à yɛ́ màáhɔ̀lɔɓó pàlakpɔ́lɔɔŋ ↓gáa yɛ̂/",
-      "phonetic_simple": "zé-ghè hi-LÊ hwaa a yè ma-a-HO-lo-ɓO pa-la-kpO-lo-ong gaa yè",
-      "translation": "Tu n'es pas l'homme que je dois épouser, parce que tu as des cicatrices.",
-      "context": "Justifier fermement un refus"
+      "original": "Túɠô yɛ́ nú pɔ́lɔpɔ̀lɔ, kpàkolo lí.",
+      "phonetic_api": "/túɠô yɛ́ nú pɔ́lɔpɔ̀lɔ kpàkolo lí/",
+      "phonetic_simple": "TOU-gho yé nou PO-lo-PO-lo, KPA-ko-lo li",
+      "translation": "C'est un enfant mais il agit comme un sage, donc c'est [un signe de sagesse].",
+      "context": "Exemple attesté combinant l'idée d'opposition et de conséquence dans un même énoncé (proverbe)."
     },
     {
       "phrase_id": "p4",
-      "original": "À wàla kɛ́ tíi, kú lì kólô kɛ́i.",
-      "phonetic_api": "/à wàla kɛ́ tíi kú lì kólô kɛ́i/",
-      "phonetic_simple": "a wa-la ké TI-i, kou li KO-lô KÈ-i",
-      "translation": "Sinon, nous irons travailler.",
-      "context": "Présenter l'alternative si une condition n'est pas remplie"
-    },
-    {
-      "phrase_id": "p5",
-      "original": "Yàa kánaŋ mɛ̀ni tɔ́nɔ ↓ɲɛ́i ɓá à mɔ̌lɔɔ.",
-      "phonetic_api": "/yàa kánaŋ mɛ̀ni tɔ́nɔ ↓ɲɛ́i ɓá à mɔ̌lɔɔ/",
-      "phonetic_simple": "ya-a KA-nang mè-ni TO-no NYÉ-i ɓA a mo-LO-o",
-      "translation": "Tu insistes trop sur la même chose.",
-      "context": "Faire remarquer une répétition excessive dans un débat"
-    },
-    {
-      "phrase_id": "p6",
-      "original": "Ŋàá mɛ̌ŋ, élɛɛ ŋé wěle kɛ́i, máŋ ŋé màakwɛ́lî kɛ́i.",
-      "phonetic_api": "/ŋàá mɛ̌ŋ élɛɛ ŋé wěle kɛ́i máŋ ŋé màakwɛ́lî kɛ́i/",
-      "phonetic_simple": "nga-a MENG, É-lè-è ngé wè-le KÈ-i, mang ngé ma-a-KWÈ-lî KÈ-i",
-      "translation": "J'ai compris, alors je sais le faire, et j'apprends aussi.",
-      "context": "Ajouter une information supplémentaire à un raisonnement"
-    },
-    {
-      "phrase_id": "p7",
-      "original": "Hɛ́â hwàa, mɛ́niê.",
-      "phonetic_api": "/hɛ́â hwàa mɛ́niê/",
-      "phonetic_simple": "HÈ-â hwaa, MÉ-ni-Ê",
-      "translation": "Pas de doute là-dessus, mon ami.",
-      "context": "Clore un raisonnement avec certitude"
+      "original": "Kà kɛ́ kàŋ́ gíli↓gílî kɛ̀ɛhíŋmɛni hù.",
+      "phonetic_api": "/kà kɛ́ kàŋ́ gíli↓gílî kɛ̀ɛhíŋmɛni hù/",
+      "phonetic_simple": "ka ké kang GI-li-GI-li KÈ-è-HING-mè-ni hou",
+      "translation": "Soyez donc prudents et vigilants dans les moments difficiles.",
+      "context": "Exemple attesté combinant kàŋ et un impératif pluriel (kà, série V)."
     }
   ],
   "grammar_points": [
     {
-      "concept": "Enchaîner une suite d'idées : élɛɛ, kàŋ, máŋ",
-      "explanation": "Un discours élaboré combine plusieurs connecteurs additifs et consécutifs pour éviter la simple juxtaposition de phrases, chacun ayant une nuance propre.",
+      "concept": "Le connecteur causal màáhɔ̀lɔɓó",
+      "explanation": "màáhɔ̀lɔɓó (« parce que ») introduit une proposition subordonnée exprimant la cause ; il se place typiquement après la proposition principale, comme en français, mais peut aussi structurer un raisonnement en chaîne dans un discours élaboré.",
       "rules": [
-        "élɛɛ (puis) enchaîne chronologiquement une action après une autre.",
-        "kàŋ (donc, ainsi) tire une conséquence logique de ce qui précède.",
-        "máŋ (et, et aussi) ajoute une information supplémentaire, sans lien de cause ni de temps nécessaire."
+        "[Proposition principale] + màáhɔ̀lɔɓó + [proposition causale] = ... parce que ..."
       ],
       "examples": [
         {
-          "structure": "élɛɛ / kàŋ / máŋ",
-          "phonetic_api": "/élɛɛ/ /kàŋ/ /máŋ/",
-          "meaning": "puis / donc / et aussi"
+          "structure": "ŋà ŋwúŋmɛ mà, màáhɔ̀lɔɓó ŋà Pépèe màakpɔ́ŋ màaɓó",
+          "phonetic_api": "/ŋà ŋwúŋmɛ mà màáhɔ̀lɔɓó ŋà pépèe màakpɔ́ŋ màaɓó/",
+          "meaning": "j'ai aidé Pépé, parce que je le respecte"
         }
       ]
     },
     {
-      "concept": "Marquer l'opposition et la justification : kɛ́laa, màáhɔ̀lɔɓó",
-      "explanation": "Deux connecteurs structurent l'argumentation en expliquant pourquoi ou en dépit de quoi une affirmation tient : l'un pour la cause, l'autre pour le contraste.",
+      "concept": "Le connecteur conséquentiel kàŋ et l'opposition kɛ́laa/kɛ́lɛɛ",
+      "explanation": "kàŋ (« donc, ainsi ») marque la conséquence logique d'un raisonnement précédent, tandis que kɛ́laa/kɛ́lɛɛ (« mais, cependant ») introduit une opposition ou une restriction. Dans un discours élaboré, ces connecteurs se combinent souvent pour structurer une argumentation en plusieurs temps (cause, opposition, conséquence).",
       "rules": [
-        "kɛ́laa (mais, cependant) introduit une objection ou une nuance qui limite ce qui vient d'être dit.",
-        "màáhɔ̀lɔɓó (parce que) justifie une affirmation en donnant sa cause, souvent en fin de proposition principale."
+        "[Proposition] + kàŋ + [conséquence] = ... donc ...",
+        "[Proposition A] + kɛ́laa/kɛ́lɛɛ + [proposition B] = A, mais B."
       ],
       "examples": [
         {
-          "structure": "[affirmation] màáhɔ̀lɔɓó [cause]",
-          "phonetic_api": "/màáhɔ̀lɔɓó/",
-          "meaning": "[affirmation] parce que [cause]"
-        }
-      ]
-    },
-    {
-      "concept": "lólo : changer de sujet dans un récit à plusieurs personnages",
-      "explanation": "lólo (quant à) introduit un changement de protagoniste dans un récit, en signalant que ce qui suit concerne une personne différente de celle dont on venait de parler.",
-      "rules": [
-        "Maria lólo ŋwɛ̀í = Maria, quant à elle (littéralement, en la distinguant du sujet précédent, kú « nous »).",
-        "Ce connecteur est particulièrement utile pour les récits comparant les actions ou réactions de plusieurs personnes, un procédé narratif avancé."
-      ],
-      "examples": [
-        {
-          "structure": "[personne A fait X], [personne B] lólo [fait Y]",
-          "phonetic_api": "/lólo/",
-          "meaning": "[A fait X] ; [B], quant à lui/elle, [fait Y]"
-        }
-      ]
-    },
-    {
-      "concept": "Construire un paragraphe argumentatif complet",
-      "explanation": "En combinant les connecteurs de cette leçon avec les acquis des leçons précédentes (résultatif, futur, condition), on peut construire un petit paragraphe argumentatif cohérent, à l'image d'un discours de niveau C1.",
-      "rules": [
-        "Structure possible : [affirmation] màáhɔ̀lɔɓó [cause], kɛ́laa [nuance/objection], kàŋ [conséquence].",
-        "Cette architecture rhétorique reste flexible et peut s'enrichir de élɛɛ pour la chronologie et de lólo pour changer de sujet."
-      ],
-      "examples": [
-        {
-          "structure": "[affirmation] màáhɔ̀lɔɓó [cause], kɛ́laa [nuance], kàŋ [conséquence]",
-          "phonetic_api": "/màáhɔ̀lɔɓó/ /kɛ́laa/ /kàŋ/",
-          "meaning": "un raisonnement en trois temps"
+          "structure": "túɠô yɛ́ nú pɔ́lɔpɔ̀lɔ, kɛ́laa kpàkolo lí",
+          "phonetic_api": "/túɠô yɛ́ nú pɔ́lɔpɔ̀lɔ kɛ́laa kpàkolo lí/",
+          "meaning": "c'est un enfant, mais il agit comme un sage"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Personne A",
-      "text": "Wɛ́i kú kɛ́i lì kɔ́nɔŋ mɛ̀ɛì, Maria lólo ŋwɛ̀í, yɛ̀ mà gɔ̀lɔ́i hwó pònolí.",
-      "phonetic_api": "/wɛ́i kú kɛ́i lì kɔ́nɔŋ mɛ̀ɛì maria lólo ŋwɛ̀í yɛ̀ mà gɔ̀lɔ́i hwó pònolí/",
-      "phonetic_simple": "WÈ-i kou KÈ-i li KO-nong mè-è-i, ma-RI-a LO-lo ngwè-I, yè ma go-LO-i hwo po-no-LI",
-      "translation": "Hier nous sommes allés manger ; Maria, quant à elle, a dit qu'elle ne se sentait pas bien."
+      "speaker": "L'orateur",
+      "text": "Ŋà ŋwúŋmɛ mà, màáhɔ̀lɔɓó ŋà Pépèe màakpɔ́ŋ màaɓó.",
+      "phonetic_api": "/ŋà ŋwúŋmɛ mà màáhɔ̀lɔɓó ŋà pépèe màakpɔ́ŋ màaɓó/",
+      "phonetic_simple": "nga NGWOU-ngmè ma, ma-a-HO-lo-BO nga pé-pè-è MA-a-KPONG MA-a-BO",
+      "translation": "Je le respecte, c'est pourquoi j'ai aidé Pépé."
     },
     {
-      "speaker": "Personne B",
-      "text": "Ŋàá mɛ̌ŋ, kàŋ màánɛ̀ɛ ́ è lɛ̌ɛ.",
-      "phonetic_api": "/ŋàá mɛ̌ŋ kàŋ màánɛ̀ɛ́ è lɛ̌ɛ/",
-      "phonetic_simple": "nga-a MENG, kang ma-a-NÈ-è è lè-è",
-      "translation": "J'ai compris, donc il faudrait qu'elle se repose."
+      "speaker": "L'auditeur",
+      "text": "Túɠô yɛ́ nú pɔ́lɔpɔ̀lɔ, kɛ́laa kpàkolo lí.",
+      "phonetic_api": "/túɠô yɛ́ nú pɔ́lɔpɔ̀lɔ kɛ́laa kpàkolo lí/",
+      "phonetic_simple": "TOU-gho yé nou PO-lo-PO-lo, KÉ-la-a KPA-ko-lo li",
+      "translation": "C'est un enfant, mais c'est un sage."
     },
     {
-      "speaker": "Personne A",
-      "text": "Zéɠe ↓hílê hwàa à yɛ́ màáhɔ̀lɔɓó pàlakpɔ́lɔɔŋ ↓gáa yɛ̂ — kɛ́laa gáa mɛ̌ŋ.",
-      "phonetic_api": "/zéɣe ↓hílê hwàa à yɛ́ màáhɔ̀lɔɓó pàlakpɔ́lɔɔŋ ↓gáa yɛ̂ kɛ́laa gáa mɛ̌ŋ/",
-      "phonetic_simple": "zé-ghè hi-LÊ hwaa a yè ma-a-HO-lo-ɓO pa-la-kpO-lo-ong gaa yè — KÈ-laa gaa MENG",
-      "translation": "Tu n'es pas l'homme que je dois épouser, parce que tu as des cicatrices — mais je comprends."
+      "speaker": "L'orateur",
+      "text": "Kàŋ, kà kɛ́ kàŋ́ gíli↓gílî.",
+      "phonetic_api": "/kàŋ kà kɛ́ kàŋ́ gíli↓gílî/",
+      "phonetic_simple": "kang, ka ké kang GI-li-GI-li",
+      "translation": "Donc, soyez prudents."
     },
     {
-      "speaker": "Personne B",
-      "text": "Hɛ́â hwàa, mɛ́niê. À wàla kɛ́ tíi, kú lì kólô kɛ́i máŋ.",
-      "phonetic_api": "/hɛ́â hwàa mɛ́niê à wàla kɛ́ tíi kú lì kólô kɛ́i máŋ/",
-      "phonetic_simple": "HÈ-â hwaa, MÉ-ni-Ê. a wa-la ké TI-i, kou li KO-lô KÈ-i mang",
-      "translation": "Pas de doute, mon ami. Sinon, allons aussi travailler."
-    },
-    {
-      "speaker": "Personne A",
-      "text": "Máma, mɛ́niê !",
-      "phonetic_api": "/máma mɛ́niê/",
-      "phonetic_simple": "MA-ma MÉ-ni-Ê",
-      "translation": "Merci, mon ami !"
+      "speaker": "L'auditeur",
+      "text": "Kàní, ŋé mà kàŋ́ gíli↓gílî.",
+      "phonetic_api": "/kàní ŋé mà kàŋ́ gíli↓gílî/",
+      "phonetic_simple": "ka-ni, nguè ma kang GI-li-GI-li",
+      "translation": "Ainsi, je serai donc prudent."
     }
   ],
   "cultural_notes": [
-    "La maîtrise des connecteurs logiques est traditionnellement associée à l'art oratoire dans les sociétés kpele, où les anciens et les orateurs (souvent des líê, aînés) sont valorisés pour leur capacité à construire un raisonnement clair et persuasif lors des assemblées de village.",
-    "L'existence d'un connecteur dédié comme lólo (quant à) pour distinguer plusieurs protagonistes dans un récit reflète l'importance de la clarté narrative dans une culture de tradition orale, où il n'existe pas de ponctuation écrite pour lever les ambiguïtés.",
-    "L'enchaînement kàŋ (donc) après une consigne collective, comme dans « soyez donc prudents dans les champs », illustre comment les connecteurs logiques servent aussi à renforcer l'autorité d'une injonction dans un cadre communautaire, comme le travail agricole partagé."
+    "Le style oratoire guerzé traditionnel valorise l'enchaînement de propositions causales et conséquentielles, notamment dans les proverbes et les discours de palabre (gbɛ̀áhû), où l'argumentation s'appuie sur l'observation de la vie quotidienne (Konoshenko 2019).",
+    "L'emploi de kàŋ en fin de raisonnement pour introduire une exhortation (« soyez donc prudents ») est un procédé rhétorique attesté dans le corpus religieux et proverbial du guerzé."
   ],
   "exercises": [
     {
       "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel connecteur introduit un changement de protagoniste dans un récit ?",
-      "options": [
-        "élɛɛ",
-        "lólo",
-        "kàŋ",
-        "wàla"
-      ],
-      "correct_answer": "lólo",
-      "explanation": "lólo (quant à) signale que la suite du récit concerne une autre personne."
-    },
-    {
-      "exercise_id": "ex2",
-      "type": "multiple_choice",
-      "question": "Quelle est la différence entre máŋ et kɛ́laa ?",
-      "options": [
-        "Aucune différence",
-        "máŋ ajoute une information, kɛ́laa marque une opposition",
-        "máŋ marque une opposition, kɛ́laa ajoute une information",
-        "Les deux signifient « donc »"
-      ],
-      "correct_answer": "máŋ ajoute une information, kɛ́laa marque une opposition",
-      "explanation": "máŋ (et aussi) et kɛ́laa (mais) ont des fonctions logiques opposées."
-    },
-    {
-      "exercise_id": "ex3",
-      "type": "multiple_choice",
-      "question": "Quel connecteur justifie une affirmation en donnant sa cause ?",
+      "question": "Quel connecteur signifie « parce que » en guerzé ?",
       "options": [
         "màáhɔ̀lɔɓó",
         "kàŋ",
-        "lólo",
-        "máŋ"
+        "kɛ́laa"
       ],
       "correct_answer": "màáhɔ̀lɔɓó",
-      "explanation": "màáhɔ̀lɔɓó (parce que) introduit la cause qui justifie ce qui précède."
+      "explanation": "màáhɔ̀lɔɓó est directement attesté avec le sens de « parce que » dans Konoshenko (2019)."
     },
     {
-      "exercise_id": "ex4",
-      "type": "multiple_choice",
-      "question": "Que fait kàŋ dans un raisonnement ?",
-      "options": [
-        "Il introduit une cause",
-        "Il tire une conséquence",
-        "Il marque une opposition",
-        "Il change de sujet"
-      ],
-      "correct_answer": "Il tire une conséquence",
-      "explanation": "kàŋ (donc, ainsi) tire une conséquence logique de ce qui précède."
-    },
-    {
-      "exercise_id": "ex5",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "« Maria, quant à elle, a dit... » se dit : « Maria [ ___ ] ŋwɛ̀í... »",
-      "correct_answer": "lólo",
-      "hint": "C'est le connecteur pour changer de protagoniste."
-    },
-    {
-      "exercise_id": "ex6",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "« Pas de doute là-dessus » se dit : « [ ___ ] hwàa. »",
-      "correct_answer": "Hɛ́â",
-      "hint": "C'est le nom « doute, contradiction »."
-    },
-    {
-      "exercise_id": "ex7",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Un raisonnement en trois temps s'articule ainsi : [affirmation] màáhɔ̀lɔɓó [cause], kɛ́laa [nuance], [ ___ ] [conséquence].",
-      "correct_answer": "kàŋ",
-      "hint": "C'est le connecteur qui introduit la conclusion logique."
+      "sentence_with_blank": "Túɠô yɛ́ nú pɔ́lɔpɔ̀lɔ, [ ___ ] kpàkolo lí. (C'est un enfant, mais c'est un sage.)",
+      "correct_answer": "kɛ́laa",
+      "hint": "Connecteur d'opposition « mais »."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Konoshenko, M. (2019). Dictionnaire kpele de la Guinée (guerzé) – français. Mandenkan 62.",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan62/62konoshenko.pdf"
+    },
+    {
+      "label": "Wikipédia — Kpèllé (langue) / Guerzé",
+      "url": "https://fr.wikipedia.org/wiki/Guerze"
+    }
+  ],
+  "confidence": "élevée",
+  "confidence_note": "Les trois connecteurs logiques (màáhɔ̀lɔɓó, kàŋ, kɛ́laa/kɛ́lɛɛ) sont directement attestés avec exemples de phrase complète dans Konoshenko (2019)."
 }

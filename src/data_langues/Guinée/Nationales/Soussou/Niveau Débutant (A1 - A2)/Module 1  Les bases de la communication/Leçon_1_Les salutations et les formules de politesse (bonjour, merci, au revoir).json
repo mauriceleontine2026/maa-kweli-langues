@@ -4,346 +4,278 @@
   "module_number": 1,
   "module_title": "Les bases de la communication",
   "lesson_number": 1,
-  "title": "Les salutations et les formules de politesse",
+  "title": "Les salutations et les formules de politesse (bonjour, merci, au revoir)",
   "learning_objectives": [
-    "Savoir saluer un interlocuteur selon le moment de la journée (matin, après-midi, soir)",
-    "Exprimer la gratitude, le remerciement et les codes élémentaires de la politesse",
-    "Prendre des nouvelles de la famille et de l'entourage de manière rituelle",
-    "Maîtriser les formules classiques de prise de congé"
+    "Saluer une personne le matin, l'après-midi et le soir en soussou",
+    "Répondre correctement à une salutation en utilisant les formules figées attendues",
+    "Utiliser 'i nu wali' pour remercier et 'won na tEmui' pour prendre congé"
   ],
   "phonetic_focus": {
-    "key_sounds": "La langue soussou utilise des consonnes prénasalisées comme /ⁿb/ et /ⁿɡ/. Le 'n' initial se fond immédiatement dans la consonne occlusive suivante sans voyelle d'appui. L'allongement des voyelles (marqué par le redoublement graphique) est phonologiquement distinctif.",
-    "common_pitfalls": "Évitez d'ajouter une voyelle parasite devant les consonnes prénasalisées (ne dites pas É-N-BA pour 'nba', mais lancez le son du nez directement vers le B)."
+    "key_sounds": "Le soussou comporte la consonne 'x' qui se prononce comme le 'kh' allemand/arabe (dans 'xili'), la voyelle 'E' proche du 'è' français ouvert (comme dans 'ginE'), et 'ç' proche du 'o' ouvert français (comme dans 'pçsta').",
+    "common_pitfalls": "Les francophones ont tendance à prononcer 'x' comme un 'h' aspiré ou un simple silence ; il faut au contraire racler le fond de la gorge (comme la 'jota' espagnole). Le 'E' est souvent réduit à un 'é' fermé alors qu'il doit rester ouvert."
   },
   "vocabulary": [
     {
-      "word_id": "v1_1",
-      "term": "I kéna",
-      "phonetic_api": "/i kéna/",
-      "phonetic_simple": "I KÉ-NA",
-      "translation": "Bonjour / Salut (général)",
-      "example_sentence": "I kéna, n bore fanyi.",
-      "example_phonetic": "/i kéna ⁿborɛ faɲi/",
-      "example_translation": "Bonjour, mon bon ami."
+      "word_id": "v1",
+      "term": "I kEna",
+      "phonetic_api": "/i kɛna/",
+      "phonetic_simple": "i-KÈ-na",
+      "translation": "Bonjour (le matin)",
+      "example_sentence": "I kEna, tana mu xi?",
+      "example_phonetic": "/i kɛna, tana mu xi/",
+      "example_translation": "Bonjour, as-tu passé la nuit sans problème ?"
     },
     {
-      "word_id": "v1_2",
-      "term": "I nouwali",
-      "phonetic_api": "/i nuwali/",
-      "phonetic_simple": "I NOU-WA-LI",
-      "translation": "Merci / Félicitations pour l'effort",
-      "example_sentence": "I nouwali wali fanyi ra naxan nabaxi.",
-      "example_phonetic": "/i nuwali wali faɲi ra naxan nabaxi/",
-      "example_translation": "Merci pour le bon travail qui a été accompli."
+      "word_id": "v2",
+      "term": "Tana mu xi?",
+      "phonetic_api": "/tana mu xi/",
+      "phonetic_simple": "ta-na mou xi",
+      "translation": "As-tu passé la nuit sans malheur ? (formule de salutation)",
+      "example_sentence": "Tana mu xi? Tana yo mu xi.",
+      "example_phonetic": "/tana mu xi, tana jo mu xi/",
+      "example_translation": "As-tu bien dormi ? Pas de problème."
     },
     {
-      "word_id": "v1_3",
-      "term": "Tana",
-      "phonetic_api": "/tana/",
-      "phonetic_simple": "TA-NA",
-      "translation": "Mal / Problème / Malheur / Difficulté",
-      "example_sentence": "Tana yo mou naxan ma.",
-      "example_phonetic": "/tana yo mu naxan ma/",
-      "example_translation": "Aucun malheur ne m'a touché."
+      "word_id": "v3",
+      "term": "Tana yo mu xi",
+      "phonetic_api": "/tana jo mu xi/",
+      "phonetic_simple": "ta-na yo mou xi",
+      "translation": "Pas de problème du tout (réponse standard à une salutation)",
+      "example_sentence": "Tana yo mu xi. I tan go?",
+      "example_phonetic": "/tana jo mu xi, i tan go/",
+      "example_translation": "Pas de problème. Et toi ?"
     },
     {
-      "word_id": "v1_4",
-      "term": "Ségé",
-      "phonetic_api": "/seɡe/",
-      "phonetic_simple": "SÉ-GUÉ",
-      "translation": "Matin / Matinée",
-      "example_sentence": "Ségé findi loxi fanyi ra.",
-      "example_phonetic": "/seɡe fiⁿdi loxi faɲi ra/",
-      "example_translation": "Le matin est une belle journée."
+      "word_id": "v4",
+      "term": "I fE¯ En",
+      "phonetic_api": "/i fɛŋɛn/",
+      "phonetic_simple": "i-FÈ-gnèn",
+      "translation": "Bon après-midi (salutation de l'après-midi)",
+      "example_sentence": "Tana mu fE¯ En?",
+      "example_phonetic": "/tana mu fɛŋɛn/",
+      "example_translation": "As-tu passé l'après-midi sans problème ?"
     },
     {
-      "word_id": "v1_5",
-      "term": "Numungba",
-      "phonetic_api": "/numuⁿɡba/",
-      "phonetic_simple": "NOU-MOUN-GBA",
-      "translation": "Bonsoir / Après-midi / Fin de journée",
-      "example_sentence": "Numungba fanyi, n nga.",
-      "example_phonetic": "/numuⁿɡba faɲi ⁿɡa/",
-      "example_translation": "Bonsoir, ma mère."
+      "word_id": "v5",
+      "term": "I nunmare",
+      "phonetic_api": "/i nunmare/",
+      "phonetic_simple": "i-noun-ma-ré",
+      "translation": "Bonsoir",
+      "example_sentence": "I nunmare, tana mu na?",
+      "example_phonetic": "/i nunmare, tana mu na/",
+      "example_translation": "Bonsoir, comment vas-tu ?"
     },
     {
-      "word_id": "v1_6",
-      "term": "Denbaya",
-      "phonetic_api": "/deⁿbaya/",
-      "phonetic_simple": "DEN-BA-YA",
-      "translation": "Famille / Foyer / Les proches",
-      "example_sentence": "N denbaya na subé.",
-      "example_phonetic": "/n deⁿbaya na sube/",
-      "example_translation": "Ma famille est en bonne santé."
+      "word_id": "v6",
+      "term": "I nu wali",
+      "phonetic_api": "/i nu wali/",
+      "phonetic_simple": "i-nou-wa-li",
+      "translation": "Merci",
+      "example_sentence": "I nu wali fefe!",
+      "example_phonetic": "/i nu wali fefe/",
+      "example_translation": "Merci beaucoup !"
     },
     {
-      "word_id": "v1_7",
-      "term": "Pebe",
-      "phonetic_api": "/pɛbɛ/",
-      "phonetic_simple": "PÈ-BÈ",
-      "translation": "Rien / Chose (utilisé pour renforcer la négation)",
-      "example_sentence": "Pebe mou na.",
-      "example_phonetic": "/pɛbɛ mu na/",
-      "example_translation": "Il n'y a rien."
+      "word_id": "v7",
+      "term": "Won na tEmui",
+      "phonetic_api": "/wɔn na tɛmui/",
+      "phonetic_simple": "won-na-TÈ-moui",
+      "translation": "Au revoir, à un autre moment",
+      "example_sentence": "Won na tEmui, n bore.",
+      "example_phonetic": "/wɔn na tɛmui, n bore/",
+      "example_translation": "Au revoir, mon ami."
     },
     {
-      "word_id": "v1_8",
-      "term": "Wona",
-      "phonetic_api": "/wona/",
-      "phonetic_simple": "WO-NA",
-      "translation": "Allons / Partons",
-      "example_sentence": "Wona siga.",
-      "example_phonetic": "/wona siɡa/",
-      "example_translation": "Allons-y."
-    },
-    {
-      "word_id": "v1_9",
-      "term": "Léli",
-      "phonetic_api": "/léli/",
-      "phonetic_simple": "LÉ-LI",
-      "translation": "Dormir / Se reposer",
-      "example_sentence": "A na lélife ki.",
-      "example_phonetic": "/a na lélifɛ ki/",
-      "example_translation": "Il est en train de se reposer ici."
-    },
-    {
-      "word_id": "v1_10",
-      "term": "Inouwaliwali",
-      "phonetic_api": "/inuwaliwali/",
-      "phonetic_simple": "I-NOU-WA-LI-WA-LI",
-      "translation": "Un très grand merci / Gratitude infinie",
-      "example_sentence": "Inouwaliwali gbe ra.",
-      "example_phonetic": "/inuwaliwali ɡbɛ ra/",
-      "example_translation": "Un immense merci à toi."
+      "word_id": "v8",
+      "term": "Awa",
+      "phonetic_api": "/awa/",
+      "phonetic_simple": "a-wa",
+      "translation": "D'accord / Bon (particule d'accord conclusive)",
+      "example_sentence": "Awa, won na tEmui.",
+      "example_phonetic": "/awa, wɔn na tɛmui/",
+      "example_translation": "D'accord, à bientôt."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p1_1",
-      "original": "Tana mou gna ?",
-      "phonetic_api": "/tana mu ɲa/",
-      "phonetic_simple": "TA-NA MOU NYA",
-      "translation": "Comment ça va ? (litt. Pas de mal ?)",
-      "context": "Salutation générale indispensable à l'ouverture de toute interaction."
+      "phrase_id": "p1",
+      "original": "I kEna",
+      "phonetic_api": "/i kɛna/",
+      "phonetic_simple": "i-KÈ-na",
+      "translation": "Bonjour (le matin)",
+      "context": "À utiliser uniquement le matin, en abordant quelqu'un."
     },
     {
-      "phrase_id": "p1_2",
-      "original": "Tana mou febe.",
-      "phonetic_api": "/tana mu fɛbɛ/",
-      "phonetic_simple": "TA-NA MOU FÈ-BÈ",
-      "translation": "Tout va bien. (litt. Pas de mal du tout.)",
-      "context": "Réponse rituelle obligatoire à donner à votre interlocuteur."
+      "phrase_id": "p2",
+      "original": "Tana mu xi?",
+      "phonetic_api": "/tana mu xi/",
+      "phonetic_simple": "ta-na mou xi",
+      "translation": "As-tu passé la nuit sans malheur ?",
+      "context": "Question rituelle du matin ; équivalente à 'HEri xi?'."
     },
     {
-      "phrase_id": "p1_3",
-      "original": "Wona léli.",
-      "phonetic_api": "/wona léli/",
-      "phonetic_simple": "WO-NA LÉ-LI",
-      "translation": "Au revoir. (À un groupe)",
-      "context": "Formule standard pour prendre congé de plusieurs personnes."
+      "phrase_id": "p3",
+      "original": "HEri xi?",
+      "phonetic_api": "/hɛri xi/",
+      "phonetic_simple": "HÈ-ri xi",
+      "translation": "As-tu passé la nuit en paix ?",
+      "context": "Variante de 'Tana mu xi?', utilisée dans les mêmes circonstances."
     },
     {
-      "phrase_id": "p1_4",
-      "original": "I ségé maadi ?",
-      "phonetic_api": "/i seɡe maːdi/",
-      "phonetic_simple": "I SÉ-GUÉ MA-A-DI",
-      "translation": "Comment s'est réveillé ton matin ? (Bonjour du matin)",
-      "context": "Formule exclusive du matin pour marquer le respect."
+      "phrase_id": "p4",
+      "original": "I tan go?",
+      "phonetic_api": "/i tan go/",
+      "phonetic_simple": "i tan go",
+      "translation": "Et toi ?",
+      "context": "Pour renvoyer une question déjà posée par l'interlocuteur."
     },
     {
-      "phrase_id": "p1_5",
-      "original": "I numungba maadi ?",
-      "phonetic_api": "/i numuⁿɡba maːdi/",
-      "phonetic_simple": "I NOU-MOUN-GBA MA-A-DI",
-      "translation": "Comment se passe ton après-midi / soir ? (Bonsoir)",
-      "context": "Salutation employée à partir de midi jusqu'au coucher du soleil."
+      "phrase_id": "p5",
+      "original": "Denbaya go?",
+      "phonetic_api": "/denbaja go/",
+      "phonetic_simple": "den-ba-ya go",
+      "translation": "Et la famille ?",
+      "context": "Formule quasi obligatoire après une salutation, pour prendre des nouvelles de la famille."
     },
     {
-      "phrase_id": "p1_6",
-      "original": "Nba, i nouwali.",
-      "phonetic_api": "/ⁿba i nuwali/",
-      "phonetic_simple": "N-BA, I NOU-WA-LI",
-      "translation": "Oui, merci.",
-      "context": "Acquiescement poli combiné à un remerciement."
+      "phrase_id": "p6",
+      "original": "I nu wali",
+      "phonetic_api": "/i nu wali/",
+      "phonetic_simple": "i-nou-wa-li",
+      "translation": "Merci / je te remercie",
+      "context": "Peut aussi servir de salutation générale, en plus de formule de remerciement."
     },
     {
-      "phrase_id": "p1_7",
-      "original": "I denbaya na di ?",
-      "phonetic_api": "/i deⁿbaya na di/",
-      "phonetic_simple": "I DEN-BA-YA NA DI",
-      "translation": "Comment va ta famille ?",
-      "context": "Question de courtoisie cruciale pour montrer son respect de l'entourage."
+      "phrase_id": "p7",
+      "original": "Won tina",
+      "phonetic_api": "/wɔn tina/",
+      "phonetic_simple": "won ti-na",
+      "translation": "À demain",
+      "context": "Formule d'au revoir quand on se reverra le lendemain."
     },
     {
-      "phrase_id": "p1_8",
-      "original": "E fan na tana mou ra.",
-      "phonetic_api": "/e faⁿ na tana mu ra/",
-      "phonetic_simple": "É FAN NA TA-NA MOU RA",
-      "translation": "Eux aussi vont bien (sans aucun mal).",
-      "context": "Réponse rassurante au sujet des proches."
-    },
-    {
-      "phrase_id": "p1_9",
-      "original": "Ala m'mali.",
-      "phonetic_api": "/ala mːali/",
-      "phonetic_simple": "A-LA M-MA-LI",
-      "translation": "Que Dieu nous aide / Qu'il en soit ainsi (Amen).",
-      "context": "Formule de bénédiction religieuse ou sociale pour clore l'échange."
-    },
-    {
-      "phrase_id": "p1_10",
-      "original": "Won tina.",
-      "phonetic_api": "/woⁿ tina/",
-      "phonetic_simple": "WON TI-NA",
-      "translation": "À demain.",
-      "context": "Prise de congé quand on prévoit de se revoir le lendemain."
-    },
-    {
-      "phrase_id": "p1_11",
-      "original": "Won rafé léli fanyi ra.",
-      "phonetic_api": "/woⁿ rafe leli faɲi ra/",
-      "phonetic_simple": "WON RA-FÉ LÉ-LI FAN-YI RA",
-      "translation": "Passez une bonne nuit de repos.",
-      "context": "Salutation de fin de soirée avant d'aller dormir."
-    },
-    {
-      "phrase_id": "p1_12",
-      "original": "Wali mou gna ?",
-      "phonetic_api": "/wali mu ɲa/",
-      "phonetic_simple": "WA-LI MOU NYA",
-      "translation": "Comment va le travail ?",
-      "context": "Salutation spécifique adressée à quelqu'un en pleine activité."
+      "phrase_id": "p8",
+      "original": "Won nunmare",
+      "phonetic_api": "/wɔn nunmare/",
+      "phonetic_simple": "won noun-ma-ré",
+      "translation": "À ce soir",
+      "context": "Formule d'au revoir utilisée dans la journée pour annoncer qu'on se reverra le soir."
     }
   ],
   "grammar_points": [
     {
-      "concept": "La philosophie de la négation inversée dans les salutations",
-      "explanation": "La structure des interactions en soussou n'interroge pas directement sur la présence positive de la santé, mais cherche à acter et confirmer l'absence absolue de malfaisance, de maladie ou de problème ('tana').",
+      "concept": "Salutations selon le nombre d'interlocuteurs : I vs Wo",
+      "explanation": "Le soussou distingue la deuxième personne du singulier 'I' (tu) et la deuxième personne du pluriel/forme de politesse 'Wo' (vous). Pour saluer une seule personne on utilise 'I', pour saluer plusieurs personnes on utilise 'Wo'.",
       "rules": [
-        "Le substantif nominal abstrait 'Tana' (le mal) ouvre systématiquement l'énoncé.",
-        "La particule de négation absolue 'mou' vient directement l'annuler.",
-        "L'adjonction de l'adverbe intensif 'febe' (rien/du tout) verrouille syntaxiquement l'absence de négativité."
+        "Pour une personne : I kEna (bonjour, à toi)",
+        "Pour plusieurs personnes : Wo kEna (bonjour, à vous)",
+        "La réponse à la salutation ne change pas de forme quel que soit le moment de la journée : elle reste 'Tana yo mu xi/fE¯En'."
       ],
       "examples": [
         {
-          "structure": "Tana + mou + gna",
-          "phonetic_api": "/tana mu ɲa/",
-          "meaning": "Pas de mal ? (Est-ce que tout va bien ?)"
+          "structure": "I kEna",
+          "phonetic_api": "/i kɛna/",
+          "meaning": "Bonjour (à une personne)"
         },
         {
-          "structure": "Tana + mou + febe",
-          "phonetic_api": "/tana mu fɛbɛ/",
-          "meaning": "Aucun mal du tout (Tout va parfaitement bien)"
-        }
-      ]
-    },
-    {
-      "concept": "L'utilisation des pronoms personnels sujet de base",
-      "explanation": "Pour saluer ou répondre, l'usage des pronoms personnels devant les bases nominales de temps ou de salutation est obligatoire.",
-      "rules": [
-        "Le pronom 'I' désigne la deuxième personne du singulier (Tu/Toi).",
-        "Le pronom 'E' désigne la troisième personne du pluriel (Eux/Ils) pour parler de la famille.",
-        "Le pronom 'Won' désigne la première personne du pluriel inclusive (Nous/Ensemble)."
-      ],
-      "examples": [
-        {
-          "structure": "I ségé maadi",
-          "phonetic_api": "/i seɡe maːdi/",
-          "meaning": "Ton matin s'est-il bien éveillé ?"
-        },
-        {
-          "structure": "E fan na tana mou ra",
-          "phonetic_api": "/e faⁿ na tana mu ra/",
-          "meaning": "Eux aussi (la famille) n'ont pas de mal."
+          "structure": "Wo kEna",
+          "phonetic_api": "/wo kɛna/",
+          "meaning": "Bonjour (à plusieurs personnes)"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Abdoulaye",
-      "text": "I ségé maadi, Fanta ?",
-      "phonetic_api": "/i seɡe maːdi faⁿta/",
-      "phonetic_simple": "I SÉ-GUÉ MA-A-DI FAN-TA",
-      "translation": "Bonjour Fanta, comment s'est passé ton réveil ce matin ?"
+      "speaker": "Fatu",
+      "text": "I kEna",
+      "phonetic_api": "/i kɛna/",
+      "phonetic_simple": "i-KÈ-na",
+      "translation": "Bonjour."
     },
     {
-      "speaker": "Fanta",
-      "text": "Nba, n ségé maadi. Tana mou gna ?",
-      "phonetic_api": "/ⁿba n seɡe maːdi tana mu ɲa/",
-      "phonetic_simple": "N-BA N SÉ-GUÉ MA-A-DI. TA-NA MOU NYA",
-      "translation": "Oui, mon réveil s'est très bien passé. Pas de mal chez toi ?"
+      "speaker": "Bubakari",
+      "text": "Tana mu xi?",
+      "phonetic_api": "/tana mu xi/",
+      "phonetic_simple": "ta-na mou xi",
+      "translation": "As-tu passé la nuit sans problème ?"
     },
     {
-      "speaker": "Abdoulaye",
-      "text": "Tana mou febe. I denbaya na di ?",
-      "phonetic_api": "/tana mu fɛbɛ i deⁿbaya na di/",
-      "phonetic_simple": "TA-NA MOU FÈ-BÈ. I DEN-BA-YA NA DI",
-      "translation": "Aucun mal du tout chez moi. Comment se porte ta famille ?"
+      "speaker": "Fatu",
+      "text": "Tana yo mu xi. I tan go?",
+      "phonetic_api": "/tana jo mu xi, i tan go/",
+      "phonetic_simple": "ta-na yo mou xi, i tan go",
+      "translation": "Pas de problème. Et toi ?"
     },
     {
-      "speaker": "Fanta",
-      "text": "E fan na tana mou ra. I nouwali wali ma.",
-      "phonetic_api": "/e faⁿ na tana mu ra i nuwali wali ma/",
-      "phonetic_simple": "É FAN NA TA-NA MOU RA. I NOU-WA-LI WA-LI MA",
-      "translation": "Eux aussi se portent bien et n'ont aucun mal. Merci pour tes salutations."
+      "speaker": "Bubakari",
+      "text": "Tana yo mu xi. Denbaya go?",
+      "phonetic_api": "/tana jo mu xi, denbaja go/",
+      "phonetic_simple": "ta-na yo mou xi, den-ba-ya go",
+      "translation": "Pas de problème. Et la famille ?"
     },
     {
-      "speaker": "Abdoulaye",
-      "text": "Nba, won tina, Fanta. Won rafé léli fanyi ra.",
-      "phonetic_api": "/ⁿba woⁿ tina faⁿta woⁿ rafe leli faɲi ra/",
-      "phonetic_simple": "N-BA, WON TI-NA FAN-TA. WON RA-FÉ LÉ-LI FAN-YI RA",
-      "translation": "Oui, à demain Fanta. Passe une bonne nuit de repos."
+      "speaker": "Fatu",
+      "text": "Tana yo mu a ma.",
+      "phonetic_api": "/tana jo mu a ma/",
+      "phonetic_simple": "ta-na yo mou a ma",
+      "translation": "Elle va bien (pas de problème pour elle)."
     },
     {
-      "speaker": "Fanta",
-      "text": "Ala m'mali, Abdoulaye.",
-      "phonetic_api": "/ala mːali abduⁿlaje/",
-      "phonetic_simple": "A-LA M-MA-LI AB-DOU-LA-YE",
-      "translation": "Que Dieu nous aide, Abdoulaye."
+      "speaker": "Bubakari",
+      "text": "I nu wali. Won na tEmui.",
+      "phonetic_api": "/i nu wali, wɔn na tɛmui/",
+      "phonetic_simple": "i-nou-wa-li, won-na-TÈ-moui",
+      "translation": "Merci. Au revoir."
+    },
+    {
+      "speaker": "Fatu",
+      "text": "Awa.",
+      "phonetic_api": "/awa/",
+      "phonetic_simple": "a-wa",
+      "translation": "D'accord."
     }
   ],
   "cultural_notes": [
-    "En Guinée, la salutation est un rituel social sacré. Passer devant une connaissance ou un aîné sans entamer ce protocole complet est perçu comme une rupture de politesse grave. S'enquérir de la famille ('denbaya') montre une considération sincère de l'autre."
+    "En Afrique de l'Ouest, on se salue généralement en se serrant la main ; les salutations peuvent aussi inclure des embrassades entre proches ou une légère inclinaison en signe de respect.",
+    "Il est très impoli de ne pas saluer, ou d'aborder directement une question sans passer par les formules rituelles de salutation, qui incluent souvent une question sur la famille.",
+    "La personne africaine attend généralement qu'on lui demande son nom ; elle ne le donne pas spontanément en se présentant à un inconnu."
   ],
   "exercises": [
     {
-      "exercise_id": "ex1_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quelle expression utilise-t-on spécifiquement pour saluer quelqu'un le matin ?",
+      "question": "Comment répond-on habituellement à 'Tana mu xi?'",
       "options": [
-        "I ségé maadi ?",
-        "I numungba maadi ?",
-        "Won tina"
+        "Tana yo mu xi",
+        "I xili di?",
+        "Won na tEmui"
       ],
-      "correct_answer": "I ségé maadi ?",
-      "explanation": "'Ségé' désigne le matin, tandis que 'numungba' s'utilise l'après-midi et le soir."
+      "correct_answer": "Tana yo mu xi",
+      "explanation": "'Tana yo mu xi' (pas de problème du tout) est la réponse rituelle standard à cette question de salutation."
     },
     {
-      "exercise_id": "ex1_2",
-      "type": "multiple_choice",
-      "question": "Que signifie littéralement le terme 'Tana' ?",
-      "options": [
-        "Le bonheur",
-        "Le mal / le problème",
-        "Le travail"
-      ],
-      "correct_answer": "Le mal / le problème",
-      "explanation": "Les salutations soussou reposent sur l'annulation verbale du mal ('Tana')."
-    },
-    {
-      "exercise_id": "ex1_3",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "E fan na tana mou [ ___ ].",
-      "correct_answer": "ra",
-      "hint": "C'est la postposition finale de relation d'état."
-    },
-    {
-      "exercise_id": "ex1_4",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Won [ ___ ]. (À demain !)",
-      "correct_answer": "tina",
-      "hint": "Ce mot signifie le lendemain ou demain."
+      "sentence_with_blank": "Le matin, pour dire bonjour à une seule personne, on dit : [ ___ ]",
+      "correct_answer": "I kEna",
+      "hint": "Cette formule utilise le pronom singulier 'I'."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Peace Corps Guinée — Xarandi Xa Buki, Livre du stagiaire Sosoxui (Susu Language Lessons)",
+      "url": "https://fsi-languages.yojik.eu/languages/PeaceCorps/Susu/susu-language-course.pdf"
+    },
+    {
+      "label": "Live Lingua Project — Peace Corps Susu Language Lessons",
+      "url": "https://www.livelingua.com/course/peace_corps/susu_language_lessons"
+    },
+    {
+      "label": "Wikivoyage — Susu phrasebook",
+      "url": "https://en.wikivoyage.org/wiki/Susu_phrasebook"
+    }
+  ],
+  "confidence": "élevée",
+  "confidence_note": "Vocabulaire et dialogue directement extraits du manuel Peace Corps Susu (Xarandi Xa Buki), confirmés par le Wikivoyage Susu phrasebook pour certaines formules équivalentes."
 }

@@ -1,165 +1,199 @@
 {
-  "lesson_id": "C1_M2_L4_CORRIGEE",
+  "lesson_id": "C1_M2_L4",
   "level": "Avancé (C1-C2)",
   "module_number": 2,
   "module_title": "Culture, traditions et rhétorique",
   "lesson_number": 4,
   "title": "Les proverbes, dictons et expressions imagées de la culture",
   "learning_objectives": [
-    "Maîtriser et insérer de manière fluide les proverbes (talalon) dans un discours",
-    "Décoder et employer les expressions métaphoriques basées sur l'anatomie et la nature",
-    "Comprendre le double sens des dictons traditionnels lors des échanges culturels"
+    "Analyser en profondeur le proverbe de la banane comme métaphore de la parenté kuranko",
+    "Interpréter le sens culturel des proverbes attestés sur la personne et la connaissance",
+    "Utiliser un proverbe kuranko de manière appropriée dans une conversation formelle"
   ],
   "phonetic_focus": {
-    "key_sounds": "L'accentuation tonale sur le mot 'talalon' /ta.la.lon/ doit être descendante sur la dernière syllabe. Le phonème complexe 'g͡b' dans 'g͡basi' exige une fermeture labio-vélaire simultanée et parfaite.",
-    "common_pitfalls": "Attention à la nasalisation finale dans 'fane' ou 'san'. Ne prononcez pas un 'n' français dur qui toucherait le palais, mais laissez résonner la voyelle nasale."
+    "key_sounds": "Le mot « birindi » comporte un « r » roulé léger, typique du kuranko, à distinguer du « r » français uvulaire.",
+    "common_pitfalls": "Les francophones prononcent le « r » kuranko de façon trop gutturale ; il doit rester une consonne battue légère, proche du r espagnol simple."
   },
   "vocabulary": [
     {
-      "word_id": "v1_c1_m2_l4_corr",
-      "term": "Talalon",
-      "phonetic_api": "/ta.la.lon/",
-      "phonetic_simple": "TA-LA-LON",
-      "translation": "Proverbe / Dicton / Parole imagée de sagesse",
-      "example_sentence": "N mɔmɔ ye talalon fɔ n ma",
-      "example_phonetic": "/ɲ͡mɔ.mɔ d͡ʒe ta.la.lon fɔ ɱ͡ma/",
-      "example_translation": "Mon grand-parent m'a dit un proverbe"
+      "word_id": "v1",
+      "term": "barana",
+      "phonetic_api": "/barana/",
+      "phonetic_simple": "ba-RA-na",
+      "translation": "les bananes (au sens collectif, image de la parenté)",
+      "example_sentence": "Barana n'dama na keli.",
+      "example_phonetic": "/barana ndama na kɛli/",
+      "example_translation": "Les bananes d'une même grappe sont une seule chose."
     },
     {
-      "word_id": "v2_c1_m2_l4_corr",
-      "term": "Fari-faga",
-      "phonetic_api": "/fa.ri.fa.ga/",
-      "phonetic_simple": "FA-RI-FA-GA",
-      "translation": "Se décourager / Abandonner (litt. : tuer le corps)",
-      "example_sentence": "I kana fari-faga kɛ bara la",
-      "example_phonetic": "/i ka.na fa.ri.fa.ga kɛ ba.ra la/",
-      "example_translation": "Ne te décourage pas dans le travail"
+      "word_id": "v2",
+      "term": "birindi",
+      "phonetic_api": "/birindi/",
+      "phonetic_simple": "bi-RIN-di",
+      "translation": "la main (ici, dans le sens de « régime/main de bananes »)",
+      "example_sentence": "Katara min bi birindi kela ma.",
+      "example_phonetic": "/katara min bi birindi kɛla ma/",
+      "example_translation": "Celles qui sont sur la même main."
     },
     {
-      "word_id": "v3_c1_m2_l4_corr",
-      "term": "Da-gbanan",
-      "phonetic_api": "/da.g͡ba.nan/",
-      "phonetic_simple": "DA-GBANAN",
-      "translation": "Bavarder inutilement / Exagérer (litt. : bouche sèche/vide)",
-      "example_sentence": "Da-gbanan tɛ n fɛ",
-      "example_phonetic": "/da.g͡ba.nan tɛ ɱ͡fɛ/",
-      "example_translation": "Je n'aime pas le bavardage inutile"
+      "word_id": "v3",
+      "term": "morgoye",
+      "phonetic_api": "/morgoje/",
+      "phonetic_simple": "mor-GO-yé",
+      "translation": "dignité humaine, personnalité morale (thème récurrent des proverbes)",
+      "example_sentence": "Morgoye le nyorgo dii.",
+      "example_phonetic": "/morgoje lɛ ɲorgo diː/",
+      "example_translation": "C'est bien la dignité humaine qui est précieuse."
     },
     {
-      "word_id": "v4_c1_m2_l4_corr",
-      "term": "Kɔnɔ-fin",
-      "phonetic_api": "/kɔ.nɔ.fin/",
-      "phonetic_simple": "KƆ-NƆ-FIN",
-      "translation": "Méchanceté / Rancune (litt. : ventre noir)",
-      "example_sentence": "Kɔnɔ-fin ka jan an la",
-      "example_phonetic": "/kɔ.nɔ.fin ka d͡ʒan an la/",
-      "example_translation": "La méchanceté est loin de nous"
+      "word_id": "v4",
+      "term": "konto",
+      "phonetic_api": "/konto/",
+      "phonetic_simple": "KON-to",
+      "translation": "l'intérieur, les dessous cachés (d'une situation, d'une personne)",
+      "example_sentence": "N'de ma konto lon.",
+      "example_phonetic": "/n de ma konto lɔn/",
+      "example_translation": "Je ne connais pas les dessous des choses."
+    },
+    {
+      "word_id": "v5",
+      "term": "morgo",
+      "phonetic_api": "/morgo/",
+      "phonetic_simple": "MOR-go",
+      "translation": "personne, être humain (base du mot « morgoye », dignité humaine)",
+      "example_sentence": "Morgo te do ka ban.",
+      "example_phonetic": "/morgo tɛ do ka ban/",
+      "example_translation": "Une personne ne peut jamais être entièrement comprise."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p1_c1_m2_l4_corr",
-      "original": "Mɔgɔbanu ye a fɔ talalon ra ko : baa tɛ doli kɛ wulu fɛ",
-      "phonetic_api": "/mɔ.gɔ.ba.nu d͡ʒe a fɔ ta.la.lon ra ko baː tɛ do.li kɛ wu.lu fɛ/",
-      "phonetic_simple": "MƆ-GƆ-BA-NOU YE A FƆ TA-LA-LON RA KO : BAA TƐ DO-LI KƐ WOU-LOU FƐ",
-      "translation": "Les anciens ont dit en proverbe : la chèvre ne négocie pas avec le chien",
-      "context": "Signifie qu'il est inutile de négocier avec son ennemi naturel ou plus fort que soi."
+      "phrase_id": "p1",
+      "original": "Barana n'dama na keli, ma koni katara min bi birindi kela ma.",
+      "phonetic_api": "/barana ndama na kɛli ma koni katara min bi birindi kɛla ma/",
+      "phonetic_simple": "ba-RA-na n-DA-ma na KÈ-li ma KO-ni ka-TA-ra min bi bi-RIN-di KÈ-la ma",
+      "translation": "Les bananes d'une même grappe sont toutes une seule chose, mais celles de la même main le sont plus particulièrement.",
+      "context": "Proverbe complet attesté et traduit par Michael Jackson, métaphore de la parenté : les liens de germanité (même main) sont plus étroits que les liens de clan élargi (même grappe)."
     },
     {
-      "phrase_id": "p2_c1_m2_l4_corr",
-      "original": "Ni i jusu ka gwa, i kana kuma fɔ",
-      "phonetic_api": "/ni i d͡ʒu.su ka gwa i ka.na ku.ma fɔ/",
-      "phonetic_simple": "NI I DJOU-SOU KA GWA, I KA-NA KOU-MA FƆ",
-      "translation": "Si tu es en colère (cœur chaud), ne parle pas",
-      "context": "Dicton populaire invitant à la retenue et à la maîtrise de soi."
+      "phrase_id": "p2",
+      "original": "Morgo te do ka ban.",
+      "phonetic_api": "/morgo tɛ do ka ban/",
+      "phonetic_simple": "MOR-go tè do ka ban",
+      "translation": "Une personne ne peut jamais être entièrement comprise/épuisée.",
+      "context": "Proverbe sur l'inépuisable complexité de la personne humaine, souvent cité en contexte de médiation de conflit."
     },
     {
-      "phrase_id": "p3_c1_m2_l4_corr",
-      "original": "Kɔngɔ tɛ donki fin san",
-      "phonetic_api": "/kɔn.gɔ tɛ don.ki fin san/",
-      "phonetic_simple": "KƆN-GƆ TƐ DON-KI FIN SAN",
-      "translation": "La faim n'achète pas un boubou noir",
-      "context": "Expression imagée signifiant que les besoins vitaux passent avant le luxe."
+      "phrase_id": "p3",
+      "original": "N'de ma konto lon.",
+      "phonetic_api": "/n de ma konto lɔn/",
+      "phonetic_simple": "n dè ma KON-to lon",
+      "translation": "Je ne connais pas les dessous des choses.",
+      "context": "Expression de modestie rhétorique, souvent utilisée avant d'émettre un jugement pour en atténuer la portée."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Morgo te do ka ban, i lɔn?",
+      "phonetic_api": "/morgo tɛ do ka ban i lɔn/",
+      "phonetic_simple": "MOR-go tè do ka ban, i lon",
+      "translation": "Une personne ne peut jamais être entièrement comprise, tu comprends ?",
+      "context": "Reformulation interrogative du même proverbe, utile pour vérifier la compréhension de l'interlocuteur en contexte pédagogique."
     }
   ],
   "grammar_points": [
     {
-      "concept": "La métaphore anatomique composée (Nom + Adjectif)",
-      "explanation": "La culture kuranko crée ses expressions imagées et psychologiques en associant une partie du corps (siège de l'émotion) à un adjectif qualificatif de couleur ou de température.",
+      "concept": "La structure métaphorique des proverbes de parenté",
+      "explanation": "Le proverbe de la banane emploie une double comparaison (grappe vs main) pour hiérarchiser les degrés de proximité familiale : tous les membres d'un même clan sont liés (grappe), mais les germains (même main, donc mêmes parents) le sont plus intensément. Cette structure en gradation est typique de la rhétorique proverbiale kuranko documentée par Jackson.",
       "rules": [
-        "Structure : [Organe] + [Qualificatif]",
-        "Jusu (cœur) + gwa (chaud) = en colère",
-        "Kɔnɔ (ventre/intérieur) + fin (noir) = rancunier / méchant",
-        "Da (bouche) + gbanan (vide/sec) = bavard"
+        "Le proverbe juxtapose deux images concrètes (grappe, main) pour exprimer une gradation abstraite (parenté large vs étroite).",
+        "« Ma koni » introduit la seconde partie qui affine/nuance la première affirmation."
       ],
       "examples": [
         {
-          "structure": "A kɔnɔ ka fin",
-          "phonetic_api": "/a kɔ.nɔ ka fin/",
-          "meaning": "Il est méchant (Son ventre est noir)"
-        }
-      ]
-    },
-    {
-      "concept": "L'introduction formelle de la sagesse populaire avec 'Ko'",
-      "explanation": "Pour utiliser un dicton sans s'approprier la paternité de la sagesse (ce qui serait impoli), l'orateur doit utiliser le relateur 'ko' combiné au locatif 'talalon ra'.",
-      "rules": [
-        "Structure : Mɔgɔbanu/An mɔmɔnu + ye a fɔ + talalon ra + ko + [Proverbe]"
-      ],
-      "examples": [
-        {
-          "structure": "Alu ye a fɔ talalon ra ko...",
-          "phonetic_api": "/a.lu d͡ʒe a fɔ ta.la.lon ra ko/",
-          "meaning": "Ils ont dit en proverbe que..."
+          "structure": "[image 1] na keli, ma koni [image 2] kela ma",
+          "phonetic_api": "/na kɛli ma koni kɛla ma/",
+          "meaning": "[image 1] sont une seule chose, mais [image 2] plus particulièrement"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Lansana",
-      "text": "Amara, i jusu ka gwa bi fɛ ? I kana fari-faga kɛ bara nɛ ra.",
-      "phonetic_api": "/a.ma.ra i d͡ʒu.su ka gwa bi fɛ i ka.na fa.ri.fa.ga kɛ ba.ra nɛ ra/",
-      "phonetic_simple": "A-MA-RA, I DJOU-SOU KA GWA BI FƐ ? I KA-NA FA-RI-FA-GA KƐ BA-RA NƐ RA.",
-      "translation": "Amara, tu es en colère ces temps-ci ? Ne te décourage pas (ne tue pas ton corps) dans ce travail."
+      "speaker": "Médiateur",
+      "text": "Barana n'dama na keli, ma koni katara min bi birindi kela ma.",
+      "phonetic_api": "/barana ndama na kɛli ma koni katara min bi birindi kɛla ma/",
+      "phonetic_simple": "ba-RA-na n-DA-ma na KÈ-li ma KO-ni ka-TA-ra min bi bi-RIN-di KÈ-la ma",
+      "translation": "Les bananes d'une même grappe sont toutes une seule chose, mais celles de la même main le sont plus particulièrement."
     },
     {
-      "speaker": "Amara",
-      "text": "N ya ɲɛmɔgɔ kɔnɔ ka fin n ma. A bɛ da-gbanan kɛ ra lon o lon.",
-      "phonetic_api": "/ɲ͡ja ɲɛ.mɔ.gɔ kɔ.nɔ ka fin ɱ͡ma a bɛ da.g͡ba.nan kɛ ra lon o lon/",
-      "phonetic_simple": "N YA NYƐ-MƆ-GƆ KƆ-NƆ KA FIN N MA. A BƐ DA-GBANAN KƐ RA LON O LON.",
-      "translation": "Mon responsable est méchant (a le ventre noir) envers moi. Il bavarde inutilement (fait de la bouche sèche) chaque jour."
+      "speaker": "Jeune homme",
+      "text": "N ye a faham, koni morgo te do ka ban.",
+      "phonetic_api": "/n je a faham koni morgo tɛ do ka ban/",
+      "phonetic_simple": "n yè a fa-AM, KO-ni MOR-go tè do ka ban",
+      "translation": "Je comprends, mais une personne ne peut jamais être entièrement comprise."
     },
     {
-      "speaker": "Lansana",
-      "text": "O, mɔgɔbanu ye a fɔ talalon ra ko : sanji tɛ lɔgɔfaga tiɲa. Haqi to a la dɔrɔn.",
-      "phonetic_api": "/o mɔ.gɔ.ba.nu d͡ʒe a fɔ ta.la.lon ra ko san.d͡ʒi tɛ lɔ.gɔ.fa.ga ti.ɲa ha.qi to a la dɔ.rɔn/",
-      "phonetic_simple": "O, MƆ-GƆ-BA-NOU YE A FƆ TA-LA-LON RA KO : SAN-DJI TƐ LƆ-GƆ-FA-GA TI-NYA. HA-QI TO A LA DƆ-RƆN.",
-      "translation": "Oh, les anciens ont dit en proverbe : la pluie ne détruit pas le marché (les difficultés passent). Concentre-toi sur ton but seulement."
+      "speaker": "Médiateur",
+      "text": "N'de ma konto lon fanne, koni morgoye le nyorgo dii.",
+      "phonetic_api": "/n de ma konto lɔn fanːɛ koni morgoje lɛ ɲorgo diː/",
+      "phonetic_simple": "n dè ma KON-to lon FAN-né, KO-ni mor-GO-yé lè gnor-GO diː",
+      "translation": "Je n'en connais pas non plus les dessous, mais la dignité humaine est ce qui est précieux."
+    },
+    {
+      "speaker": "Ancien",
+      "text": "Morgo te do ka ban, i lɔn?",
+      "phonetic_api": "/morgo tɛ do ka ban i lɔn/",
+      "phonetic_simple": "MOR-go tè do ka ban, i lon",
+      "translation": "Une personne ne peut jamais être entièrement comprise, tu comprends ?"
     }
   ],
   "cultural_notes": [
-    "Chez les Kuranko, manipuler les proverbes ('talalon') est le summum de l'art oratoire. Les expressions liées à l'anatomie montrent que le 'ventre' (kɔnɔ) est perçu comme le lieu des intentions cachées, tandis que le 'cœur' (jusu) est le centre des réactions immédiates. Utiliser un proverbe métaphorique animal ou naturel permet de désamorcer un conflit en transmettant une vérité morale sans attaquer directement l'interlocuteur."
+    "Le proverbe de la banane, attesté par Michael Jackson, est utilisé dans les médiations de conflits familiaux pour rappeler que les liens de germanité (même main/mêmes parents) doivent primer sur les rivalités de demi-fratrie (fadenye) au sein d'un même clan élargi.",
+    "Ces proverbes fonctionnent comme un langage rhétorique codifié permettant d'énoncer des vérités générales délicates (comme la partialité perçue des femmes dans les conflits, ou les limites de la connaissance d'autrui) sans confrontation directe."
   ],
   "exercises": [
     {
-      "exercise_id": "ex1_c1_m2_l4_corr",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Que signifie littéralement et physiquement l'expression 'Fari-faga' ?",
+      "question": "Que symbolise la « main » de bananes dans le proverbe de la parenté ?",
       "options": [
-        "Laver son corps",
-        "Tuer le corps (se décourager)",
-        "Soigner une maladie"
+        "Les germains (mêmes père et mère)",
+        "Les étrangers",
+        "Le village entier"
       ],
-      "correct_answer": "Tuer le corps (se décourager)",
-      "explanation": "'Fari' signifie le corps et 'faga' veut dire tuer. C'est l'expression imagée pour l'abandon ou le découragement."
+      "correct_answer": "Les germains (mêmes père et mère)",
+      "explanation": "Le proverbe attesté par Michael Jackson utilise la main de bananes (plus proche que la grappe entière) comme métaphore des germains, plus proches que la parenté clanique élargie."
     },
     {
-      "exercise_id": "ex2_c1_m2_l4_corr",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Pour parler de la méchanceté ou d'une rancœur cachée, on dit que la personne a le ventre noir : Kɔnɔ-[ ___ ].",
-      "correct_answer": "fin",
-      "hint": "La couleur noire en kuranko"
+      "sentence_with_blank": "Barana n'dama na keli, ma [ ___ ] katara min bi birindi kela ma.",
+      "correct_answer": "koni",
+      "hint": "Ce connecteur introduit une nuance/restriction."
+    },
+    {
+      "exercise_id": "ex3",
+      "type": "multiple_choice",
+      "question": "Dans quel contexte social ce proverbe de la banane est-il typiquement mobilisé ?",
+      "options": [
+        "La médiation de conflits familiaux",
+        "La vente au marché",
+        "L'enseignement scolaire moderne"
+      ],
+      "correct_answer": "La médiation de conflits familiaux",
+      "explanation": "Les proverbes de parenté documentés par Michael Jackson servent souvent à rappeler des hiérarchies de loyauté lors de tensions familiales."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Michael Jackson, \"How Lifeworlds Work\" (Univ. of Chicago Press, 2022) — extraits",
+      "url": "https://dokumen.pub/how-lifeworlds-work-emotionality-sociality-and-the-ambiguity-of-being-9780226492018.html"
+    },
+    {
+      "label": "Michael Jackson, \"Intersubjective ambiguities\" (Tijdschrift voor Medische Antropologie)",
+      "url": "https://tma.socsci.uva.nl/19_1/jackson.pdf"
+    }
+  ],
+  "confidence": "élevée",
+  "confidence_note": "Les quatre proverbes/expressions de cette leçon sont directement attestés et traduits mot pour mot par l'anthropologue Michael Jackson dans ses travaux ethnographiques de référence sur les Kuranko, avec un contexte culturel d'usage clairement documenté."
 }

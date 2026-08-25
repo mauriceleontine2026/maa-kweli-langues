@@ -6,205 +6,240 @@
   "lesson_number": 4,
   "title": "Raconter des faits passés (les temps du récit)",
   "learning_objectives": [
-    "Maîtriser l'utilisation du parfait accompli actif et passif pour raconter des actions révolues",
-    "Employer le suffixe du passé éloigné ou habituel (-no) pour planter le décor d'un récit",
-    "Structurer chronologiquement une narration simple grâce aux connecteurs temporels"
+    "Utiliser le mot-outil 'hari' pour ancrer une action dans le passé",
+    "Employer la forme narrative pour raconter une suite d'événements",
+    "Reconnaître le marqueur du prétérit -no- dans les récits traditionnels"
   ],
   "phonetic_focus": {
-    "key_sounds": "La marque du passé '-no' (/no/) modifie la hauteur mélodique du verbe. Faites attention à la tension articulatoire de l'implosive alvéolaire 'ɗ' (/ɗ/) combinée à la prénasalisation dans 'ndee' (/ndeː/).",
-    "common_pitfalls": "Ne pas confondre le pronom d'affirmation/état 'no' (placé devant le verbe) et le suffixe du passé '-no' (collé à la fin du radical verbal). La prononciation du suffixe est brève mais distincte."
+    "key_sounds": "Le marqueur -no- s'insère dans la terminaison verbale et peut être discret à l'oral (yahi vs yahuno) ; il faut l'écouter attentivement dans les contes traditionnels (taalol) pour bien le repérer.",
+    "common_pitfalls": "Les francophones cherchent souvent un équivalent strict du passé composé français, alors que le pular distingue plusieurs nuances : le narratif (pour enchaîner les événements d'un récit), l'assertif accompli (fait accompli isolé), et le préterit -no- (action antérieure à une autre, ou hypothèse non réalisée)."
   },
   "vocabulary": [
     {
-      "word_id": "v13_1",
-      "term": "hanki",
-      "phonetic_api": "/hanki/",
-      "phonetic_simple": "HAN-KI",
-      "translation": "hier",
-      "example_sentence": "Hanki, mi yahiino Conakry.",
-      "example_phonetic": "/hanki mi jahiːno konakri/",
-      "example_translation": "Hier, j'étais allé à Conakry."
+      "word_id": "v1",
+      "term": "hari",
+      "phonetic_api": "/hari/",
+      "phonetic_simple": "HA-RI",
+      "translation": "particule qui ancre une action dans le passé",
+      "example_sentence": "Hari miðo weltii.",
+      "example_phonetic": "/hari miɗo weltiː/",
+      "example_translation": "J'étais content."
     },
     {
-      "word_id": "v13_2",
-      "term": "ndee",
-      "phonetic_api": "/ndeː/",
-      "phonetic_simple": "NDEE",
-      "translation": "lorsque, quand (introduction du récit)",
-      "example_sentence": "Ndee mi ari, omo ɗon.",
-      "example_phonetic": "/ndeː mi ari omo ɗon/",
-      "example_translation": "Quand je suis arrivé, il était là."
+      "word_id": "v2",
+      "term": "tawi",
+      "phonetic_api": "/tawi/",
+      "phonetic_simple": "TA-OUI",
+      "translation": "il s'est avéré que, on a trouvé que (passé constaté)",
+      "example_sentence": "Tawi o alaa ton.",
+      "example_phonetic": "/tawi o alaː ton/",
+      "example_translation": "Il s'est avéré qu'il n'était pas là."
     },
     {
-      "word_id": "v13_3",
-      "term": "rawane",
-      "phonetic_api": "/rawane/",
-      "phonetic_simple": "RA-WA-NE",
-      "translation": "l'année dernière",
-      "example_sentence": "Rawane, mi jangiino pular.",
-      "example_phonetic": "/rawane mi d͡ʒanɡiːno pular/",
-      "example_translation": "L'année dernière, j'étudiais le pular."
+      "word_id": "v3",
+      "term": "yahugol",
+      "phonetic_api": "/jahuɡol/",
+      "phonetic_simple": "YA-HOU-GOL",
+      "translation": "aller (narratif : yahi = il alla)",
+      "example_sentence": "Nge yahi seeða nii.",
+      "example_phonetic": "/nɡe jahi seːɗa niː/",
+      "example_translation": "Elle (la vache) alla un peu plus loin."
     },
     {
-      "word_id": "v13_4",
-      "term": "refti",
-      "phonetic_api": "/refti/",
-      "phonetic_simple": "REF-TI",
-      "translation": "ensuite, puis",
-      "example_sentence": "Mi ñaami, refti mi yahi.",
-      "example_phonetic": "/mi ɲaːmi refti mi jahi/",
-      "example_translation": "J'ai mangé, ensuite je suis parti."
+      "word_id": "v4",
+      "term": "inugol",
+      "phonetic_api": "/inuɡol/",
+      "phonetic_simple": "I-NOU-GOL",
+      "translation": "dire (narratif : inni = il dit)",
+      "example_sentence": "Sari inni: \"Ko honðun bonnuðaa?\"",
+      "example_phonetic": "/sari inːi ko honɗun bonːuɗaː/",
+      "example_translation": "Le lapin dit : « Qu'as-tu fait de mal ? »"
     },
     {
-      "word_id": "v13_5",
-      "term": "gila",
-      "phonetic_api": "/ɡila/",
-      "phonetic_simple": "GI-LA",
-      "translation": "depuis, dès que",
-      "example_sentence": "Mido ɗoo gila subaka.",
-      "example_phonetic": "/mido ɗoː ɡila subaka/",
-      "example_translation": "Je suis ici depuis le matin."
+      "word_id": "v5",
+      "term": "sikkugol",
+      "phonetic_api": "/sikːuɡol/",
+      "phonetic_simple": "SIK-KOU-GOL",
+      "translation": "penser, croire",
+      "example_sentence": "Mi sikki ko o araay.",
+      "example_phonetic": "/mi sikːi ko o araːj/",
+      "example_translation": "Je pense qu'il ne viendra pas."
     },
     {
-      "word_id": "v13_6",
-      "term": "yaahugol",
-      "phonetic_api": "/jaːhuɡol/",
-      "phonetic_simple": "YAA-HOU-GOL",
-      "translation": "aller, être allé (action révolue)",
-      "example_sentence": "Mi yahiino ka luumo.",
-      "example_phonetic": "/mi jahiːno ka luːmo/",
-      "example_translation": "J'étais allé au marché."
+      "word_id": "v6",
+      "term": "hikka",
+      "phonetic_api": "/hikːa/",
+      "phonetic_simple": "HIK-KA",
+      "translation": "cette année",
+      "example_sentence": "Mi yahaano Conakry hikka.",
+      "example_phonetic": "/mi jahaːno konakri hikːa/",
+      "example_translation": "Je ne suis pas allé à Conakry cette année."
     },
     {
-      "word_id": "v13_7",
-      "term": "arugol",
-      "phonetic_api": "/aruɡol/",
-      "phonetic_simple": "A-ROU-GOL",
-      "translation": "arriver, venir",
-      "example_sentence": "Ɓe ariino ɗoo hanki.",
-      "example_phonetic": "/ɓe ariːno ɗoː hanki/",
-      "example_translation": "Ils étaient venus ici hier."
-    },
-    {
-      "word_id": "v13_8",
-      "term": "hewtoore",
-      "phonetic_api": "/hewtoːre/",
-      "phonetic_simple": "HEW-TOO-RE",
-      "translation": "atteindre, arriver à destination",
-      "example_sentence": "Mi hewtii Labe ka kikiide.",
-      "example_phonetic": "/mi hewtiː labe ka kikiːde/",
-      "example_translation": "J'ai atteint Labé dans la soirée."
-    },
-    {
-      "word_id": "v13_9",
-      "term": "golle",
-      "phonetic_api": "/ɡolːe/",
-      "phonetic_simple": "GOL-LE",
-      "translation": "les actions passées, les travaux",
-      "example_sentence": "Golle 1en no puɗɗino.",
-      "example_phonetic": "/ɡolːe ɗen no puɗːino/",
-      "example_translation": "Les travaux avaient commencé."
-    },
-    {
-      "word_id": "v13_10",
-      "term": "lannugol",
-      "phonetic_api": "/lanːuɡol/",
-      "phonetic_simple": "LAN-NOU-GOL",
-      "translation": "finir, terminer (une action)",
-      "example_sentence": "Mi lannii golle am.",
-      "example_phonetic": "/mi lanːiː ɡolːe am/",
-      "example_translation": "J'ai terminé mon travail."
+      "word_id": "v7",
+      "term": "hande",
+      "phonetic_api": "/hande/",
+      "phonetic_simple": "HAN-DÉ",
+      "translation": "aujourd'hui (souvent avec -no- pour le passé récent)",
+      "example_sentence": "Hande mi yahuno ka saare.",
+      "example_phonetic": "/hande mi jahuno ka saːre/",
+      "example_translation": "Je suis allé en ville aujourd'hui."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p13_1",
-      "original": "Hanki, mi yahiino ka luumo refti mi ari suudu.",
-      "phonetic_api": "/hanki mi jahiːno ka luːmo refti mi ari suudu/",
-      "phonetic_simple": "HAN-KI, MI YA-HII-NO KA LUU-MO REF-TI MI A-RI SUU-DOU",
-      "translation": "Hier, j'étais allé au marché puis je suis venu à la maison.",
-      "context": "Récit d'activités quotidiennes simples réalisées la veille."
+      "phrase_id": "p1",
+      "original": "Hari miðo jangude.",
+      "phonetic_api": "/hari miɗo dʒaŋɡude/",
+      "phonetic_simple": "HA-RI MI-DO DJAN-GOU-DÉ",
+      "translation": "J'étais en train d'étudier.",
+      "context": "Pour situer une action progressive dans le passé."
     },
     {
-      "phrase_id": "p13_2",
-      "original": "Rawane, mi hoɗiino Labe duuɓi ɗiɗo.",
-      "phonetic_api": "/rawane mi hoɗiːno labe duːɓi ɗiɗo/",
-      "phonetic_simple": "RA-WA-NE, MI HO-DHII-NO LA-BE DUU-BHI DHI-DHO",
-      "translation": "L'année dernière, j'avais habité à Labé pendant deux ans.",
-      "context": "Évoquer une situation de vie passée et terminée."
+      "phrase_id": "p2",
+      "original": "Hari o araali.",
+      "phonetic_api": "/hari o araːli/",
+      "phonetic_simple": "HA-RI O A-RAA-LI",
+      "translation": "Il n'était pas (encore) venu.",
+      "context": "Pour exprimer une action non accomplie dans le passé."
     },
     {
-      "phrase_id": "p13_3",
-      "original": "Ndee ɓe ari, mi lanniino ñaamugol ngon.",
-      "phonetic_api": "/ndeː ɓe ari mi lanːiːno ɲaːmuɡol nɡon/",
-      "phonetic_simple": "NDEE BHE A-RI, MI LAN-NII-NO NYAAM-OU-GOL NGON",
-      "translation": "Quand ils sont arrivés, j'avais déjà fini de manger.",
-      "context": "Marquer l'antériorité d'une action par rapport à une autre au passé."
+      "phrase_id": "p3",
+      "original": "Ko honto o yahunoo?",
+      "phonetic_api": "/ko honto o jahunoː/",
+      "phonetic_simple": "KO HON-TO O YA-HOU-NO-O",
+      "translation": "Où était-il allé ?",
+      "context": "Question sur une action récemment accomplie, impliquant un retour."
     },
     {
-      "phrase_id": "p13_4",
-      "original": "Gila mi hewtii ɗoo, mi laraali baaba am.",
-      "phonetic_api": "/ɡila mi hewtiː ɗoː mi laraːli baːba am/",
-      "phonetic_simple": "GI-LA MI HEW-TII DHOO, MI LA-RAA-LI BAA-BA AM",
-      "translation": "Depuis que je suis arrivé ici, je n'ai pas vu my père.",
-      "context": "Exprimer un constat temporel depuis un événement passé."
+      "phrase_id": "p4",
+      "original": "Si mi araano, mi yi'ataano ma.",
+      "phonetic_api": "/si mi araːno mi jiʔataːno ma/",
+      "phonetic_simple": "SI MI A-RAA-NO, MI YI-A-TAA-NO MA",
+      "translation": "Si je n'étais pas venu, je ne t'aurais pas vu.",
+      "context": "Hypothèse contrefactuelle utilisant le marqueur -no-."
     }
   ],
   "grammar_points": [
     {
-      "concept": "Le suffixe du passé éloigné ou de l'antériorité : '-no'",
-      "explanation": "Pour exprimer le plus-que-parfait français ou indiquer qu'un état ou une action s'est déroulé dans un passé lointain et n'a plus cours, le pular ajoute le morphème '-no' (ou '-ino') directement sur la base conjuguée.",
+      "concept": "Le mot-outil 'hari' pour situer une action dans le passé",
+      "explanation": "'Hari' se place devant un verbe statif, locatif ou progressif pour indiquer que l'état ou l'action décrite se situait dans le passé plutôt qu'au présent.",
       "rules": [
-        "S'insère immédiatement après la marque de l'accompli actif.",
-        "Verbe actif accompli 'yahi' (il est allé) devient 'yahiino' (il était allé / il alla jadis)."
+        "hari + [phrase statif/locatif/progressif] = version passée de cette phrase",
+        "Miðo weltii (je suis content) → Hari miðo weltii (j'étais content)",
+        "Hiðe gaa (ils sont ici) → Hari hiðe gaa (ils étaient ici)"
       ],
       "examples": [
         {
-          "structure": "Radical + -ii-no",
-          "phonetic_api": "/jahiːno/",
-          "meaning": "Était allé"
+          "structure": "Hari miðo jangude.",
+          "phonetic_api": "/hari miɗo dʒaŋɡude/",
+          "meaning": "J'étais en train d'étudier."
+        },
+        {
+          "structure": "Hari himo ara ñande woo.",
+          "phonetic_api": "/hari himo ara ɲande woː/",
+          "meaning": "Il avait l'habitude de venir tous les jours."
+        }
+      ]
+    },
+    {
+      "concept": "La forme narrative pour enchaîner les événements d'un récit",
+      "explanation": "Le narratif utilise les mêmes terminaisons que le statif (-i, -ii, -aa) mais avec le pronom court (actif), et sert spécifiquement à enchaîner une série d'actions dans un conte ou un récit, contrairement à l'assertif accompli qui isole un fait ponctuel.",
+      "rules": [
+        "pronom court + verbe en -i/-ii = narratif : nge yahi (elle alla, dans un récit)",
+        "Le marqueur -no- s'utilise pour une action antérieure à une autre, ou pour une hypothèse non réalisée (si + -no-, ... + -no-)"
+      ],
+      "examples": [
+        {
+          "structure": "Nge yahi seeda nii, nge tawi sari no walii.",
+          "phonetic_api": "/nɡe jahi seːda niː nɡe tawi sari no waliː/",
+          "meaning": "Elle alla un peu plus loin, elle trouva le lapin allongé."
+        },
+        {
+          "structure": "Si o yahiino, o soodayno bireedi.",
+          "phonetic_api": "/si o jahiːno o soːdajno bireːdi/",
+          "meaning": "S'il était allé, il aurait acheté du pain."
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Ousmane",
-      "text": "Alpha, honto jahiɗaa hanki ka kikiide ?",
-      "phonetic_api": "/alɸa honto d͡ʒahiɗaː hanki ka kikiːde/",
-      "phonetic_simple": "AL-PHA, HON-TO DJA-HI-DHAA HAN-KI KA KI-KII-DE ?",
-      "translation": "Alpha, où es-tu allé hier soir ?"
+      "speaker": "Grand-mère",
+      "text": "Ko honto o yahunoo hanki?",
+      "phonetic_api": "/ko honto o jahunoː haŋki/",
+      "phonetic_simple": "KO HON-TO O YA-HOU-NO-O HAN-KI",
+      "translation": "Où était-il allé hier ?"
     },
     {
-      "speaker": "Alpha",
-      "text": "Hanki, mi yahiino ka luumo. Ndee mi hewtii ɗoya, mi laraali gilaalo am. Refti mi hooti suudu.",
-      "phonetic_api": "/hanki mi jahiːno ka luːmo ndeː mi hewtiː ɗoja mi laraːli ɡilaːlo am refti mi hoːti suudu/",
-      "phonetic_simple": "HAN-KI, MI YA-HII-NO KA LUU-MO. NDEE MI HEW-TII DHO-YA, MI LA-RAA-LI GI-LAA-LO AM. REF-TI MI HOO-TI SUU-DOU.",
-      "translation": "Hier, j'étais allé au marché. Quand je suis arrivé là-bas, je n'ai pas vu mon ami. Ensuite, je suis rentré à la maison."
+      "speaker": "Petit-fils",
+      "text": "Hari himo ka maakiti, kono o artii jooni.",
+      "phonetic_api": "/hari himo ka maːkiti kono o artiː dʒoːni/",
+      "phonetic_simple": "HA-RI HI-MO KA MAA-KI-TI, KO-NO O AR-TI-I DJOO-NI",
+      "translation": "Il était au marché, mais il est revenu maintenant."
+    },
+    {
+      "speaker": "Grand-mère",
+      "text": "Mi sikki ko a andaa ðun.",
+      "phonetic_api": "/mi sikːi ko a andaː ɗun/",
+      "phonetic_simple": "MI SIK-KI KO A AN-DAA DOUNE",
+      "translation": "Je pensais que tu ne le savais pas."
+    },
+    {
+      "speaker": "Petit-fils",
+      "text": "Hande mi yahuno ka saare kadi, mi yi'ii mo ton.",
+      "phonetic_api": "/hande mi jahuno ka saːre kadi mi jiʔiː mo ton/",
+      "phonetic_simple": "HAN-DÉ MI YA-HOU-NO KA SAA-RÉ KA-DI, MI YI-I MO TON",
+      "translation": "Aujourd'hui je suis aussi allé en ville, je l'ai vu là-bas."
     }
   ],
   "cultural_notes": [
-    "Dans l'art oratoire peul, la narration historique ('tariha') s'ancre toujours par des repères temporels précis liés aux cycles agricoles ou aux événements climatiques mémorables. Le respect de la chronologie traduit la sagesse du conteur."
+    "Les contes traditionnels (taalol) mettant en scène des animaux, comme la fable du lapin et de la vache tirée d'un manuel d'alphabétisation de Labé (1992), sont un vecteur essentiel de transmission de la morale et de la sagesse peule (source : Learner's Guide to Pular, texte 'Fable').",
+    "Le narratif employé dans les contes crée un rythme oral distinctif, marqué par des répétitions et des formules de transition comme 'woni seeða tun' (peu de temps après)."
   ],
   "exercises": [
     {
-      "exercise_id": "ex13_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Que signifie le suffixe '-no' dans 'mi hoɗiino' ?",
+      "question": "Quel mot place une action dans le passé devant une phrase statif/progressive ?",
       "options": [
-        "Une action future imminente",
-        "Une action passée entièrement révolue ou éloignée",
-        "Une interdiction stricte"
+        "Hari",
+        "Ko",
+        "Kaa"
       ],
-      "correct_answer": "Une action passée entièrement révolue ou éloignée",
-      "explanation": "Le suffixe '-no' marque le prétérit ou le plus-que-parfait, indiquant une action passée ancrée dans le temps."
+      "correct_answer": "Hari",
+      "explanation": "Hari s'utilise devant une phrase statif, locative ou progressive pour l'ancrer dans le passé."
     },
     {
-      "exercise_id": "ex13_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Mi ñaami, [ ___ ] mi yahi ka terrain. (J'ai mangé, ensuite je suis allé au terrain).",
-      "correct_answer": "refti",
-      "hint": "Connecteur logique servant à marquer la succession des actions."
+      "sentence_with_blank": "[ ___ ] miðo weltii. (j'étais content)",
+      "correct_answer": "Hari",
+      "hint": "Utilisez le mot-outil du passé placé en tête de phrase."
+    },
+    {
+      "exercise_id": "ex3",
+      "type": "multiple_choice",
+      "question": "Que marque le suffixe -no- dans une conjugaison ?",
+      "options": [
+        "Le futur proche",
+        "Une action antérieure ou une hypothèse non réalisée",
+        "Un ordre poli"
+      ],
+      "correct_answer": "Une action antérieure ou une hypothèse non réalisée",
+      "explanation": "Le préterit -no- marque une action antérieure à une autre, ou une hypothèse contrefactuelle."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Learner's Guide to Pular (Fuuta Jallon) — Peace Corps Guinée (Herb Caudill & Ousmane Besseko Diallo)",
+      "url": "https://ibamba.net/pular/manual.pdf"
+    },
+    {
+      "label": "Live Lingua Project — Peace Corps Manual of Fulfulde",
+      "url": "https://www.livelingua.com/course/peace-corps/manual-of-fulfulde"
+    }
+  ],
+  "confidence": "élevée",
+  "confidence_note": "Grammaire du passé (hari, tawi, narratif, marqueur -no-) directement extraite du texte 'Fable' et de sa section grammaticale dans le manuel Peace Corps Guinée."
 }

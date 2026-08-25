@@ -3,37 +3,27 @@ import supabase, { signInWithGoogle } from "./supabaseClient";
 
 const PROD_BACKEND_FALLBACK = "https://mbaara-backend.vercel.app";
 
-const getAuthApiBaseUrl = () => {
+export const getAuthApiBaseUrl = () => {
   const configuredBaseUrl = import.meta.env.VITE_API_BASE_URL;
   const normalizedConfigured = configuredBaseUrl && String(configuredBaseUrl).trim();
 
-  if (typeof window !== "undefined") {
-    const currentOrigin = window.location.origin;
-    const currentHost = new URL(currentOrigin).host;
-
-    if (normalizedConfigured) {
-      try {
-        const parsed = new URL(normalizedConfigured);
-        const parsedHost = parsed.host;
-        const staleHosts = new Set([
-          "maa-kweli-langues.vercel.app",
-          "mbaara-backend-m6hbjeb7i-m-baara-langues.vercel.app",
-        ]);
-
-        if (parsedHost === currentHost || staleHosts.has(parsedHost)) {
-          return currentOrigin;
-        }
-
-        return normalizedConfigured.replace(/\/$/, "");
-      } catch {
-        return currentOrigin;
-      }
+  if (normalizedConfigured) {
+    try {
+      return new URL(normalizedConfigured).origin.replace(/\/$/, "");
+    } catch {
+      return typeof window !== "undefined" ? window.location.origin : PROD_BACKEND_FALLBACK;
     }
-
-    return currentOrigin;
   }
 
-  return normalizedConfigured ? normalizedConfigured.replace(/\/$/, "") : PROD_BACKEND_FALLBACK;
+  if (typeof window !== "undefined") {
+    const hostname = window.location.hostname.toLowerCase();
+    if (hostname.endsWith(".vercel.app") || hostname.endsWith(".web.app")) {
+      return PROD_BACKEND_FALLBACK;
+    }
+    return window.location.origin;
+  }
+
+  return PROD_BACKEND_FALLBACK;
 };
 
 const clearUrlHash = () => {
@@ -57,6 +47,16 @@ const getSupabaseAccessTokenFromUrl = async () => {
   access_token = hashParams.get("access_token");
   error_description = hashParams.get("error_description") || hashParams.get("error");
 
+  const searchParams = parseParams(window.location.search || "");
+  const code = searchParams.get("code");
+  if (!access_token && code) {
+    const { data, error } = await supabase.auth.exchangeCodeForSession(code);
+    if (error) {
+      throw new Error(error.message || error_description || "Impossible de terminer la connexion Google.");
+    }
+    access_token = data?.session?.access_token;
+  }
+
   // Supabase normally exchanges the PKCE `code` automatically while the
   // client initializes. Read that session first so the code is not exchanged
   // a second time by this callback handler.
@@ -69,28 +69,18 @@ const getSupabaseAccessTokenFromUrl = async () => {
   }
 
   if (!access_token) {
-    const searchParams = parseParams(window.location.search || "");
     access_token = searchParams.get("access_token");
     error_description = error_description || searchParams.get("error_description") || searchParams.get("error");
   }
 
   if (!access_token) {
-    const code = new URLSearchParams(window.location.search).get("code");
-    if (code) {
-      const { data, error } = await supabase.auth.exchangeCodeForSession(code);
-      if (error) {
-        throw new Error(error.message || error_description || "Impossible de terminer la connexion Google.");
-      }
-      access_token = data?.session?.access_token;
-    }
-  }
-
-  if (!access_token && (window.location.hash || window.location.search)) {
+    if (window.location.hash) {
     const { data, error } = await supabase.auth.getSessionFromUrl();
     if (error) {
       throw new Error(error.message || error_description || "Impossible de lire la session Supabase après redirection Google.");
     }
     access_token = data?.session?.access_token;
+    }
   }
 
   return access_token;
@@ -168,12 +158,18 @@ export async function loginWithForm(email, password, remember = false) {
     // ignore cookie read errors
   }
 
-  const response = await fetch(url, {
-    method: "POST",
-    body: formData,
-    credentials: "include",
-    mode: "cors",
-  });
+  let response;
+  try {
+    response = await fetch(url, {
+      method: "POST",
+      body: formData,
+      credentials: "include",
+      mode: "cors",
+    });
+  } catch (fetchError) {
+    const detail = fetchError instanceof Error ? fetchError.message : String(fetchError);
+    throw new Error(`Impossible de contacter le serveur de connexion. Vérifiez votre connexion et réessayez. (${detail})`);
+  }
 
   if (!response.ok) {
     const err = await response.json().catch(() => ({}));
@@ -270,7 +266,6 @@ export async function loginWithGoogleForm(accessToken) {
 export async function register(email, password, full_name) {
   try {
     const data = await request("POST", "/api/auth/register", { email, password, full_name });
-    notifyAuthChanged();
     return data;
   } catch (err) {
     const message = err?.message || "";
@@ -288,7 +283,7 @@ export async function register(email, password, full_name) {
  * Form-based registration fallback: submits form to `/api/auth/register/form`.
  */
 export async function registerWithForm(email, password, full_name) {
-  const url = `${import.meta.env.VITE_API_BASE_URL || window.location.origin}/api/auth/register/form`;
+  const url = `${getAuthApiBaseUrl()}/api/auth/register/form`;
   const formData = new FormData();
   formData.append("email", email);
   formData.append("password", password);
@@ -300,20 +295,28 @@ export async function registerWithForm(email, password, full_name) {
     if (csrfCookie) formData.append("_csrf_token", csrfCookie);
   } catch (e) {}
 
-  const response = await fetch(url, {
-    method: "POST",
-    body: formData,
-    credentials: "include",
-    mode: "cors",
-  });
+  let response;
+  try {
+    response = await fetch(url, {
+      method: "POST",
+      body: formData,
+      credentials: "include",
+      mode: "cors",
+    });
+  } catch (fetchError) {
+    const detail = fetchError instanceof Error ? fetchError.message : String(fetchError);
+    throw new Error(`Impossible de contacter le serveur d'inscription. Vérifiez votre connexion et réessayez. (${detail})`);
+  }
 
   if (!response.ok) {
     const err = await response.json().catch(() => ({}));
-    throw new Error(err.detail || `Form register failed with status ${response.status}`);
+    const error = new Error(err.detail || `Form register failed with status ${response.status}`);
+    error.status = response.status;
+    error.data = err;
+    throw error;
   }
 
   const data = await response.json();
-  notifyAuthChanged();
   return data;
 }
 

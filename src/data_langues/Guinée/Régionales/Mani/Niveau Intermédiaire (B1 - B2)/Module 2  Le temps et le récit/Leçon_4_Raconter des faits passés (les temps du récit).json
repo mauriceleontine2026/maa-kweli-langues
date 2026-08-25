@@ -1,179 +1,210 @@
 {
   "lesson_id": "B1_M2_L4",
-  "level": "Intermédiaire (B1-B2)",
+  "level": "Niveau Intermédiaire (B1 - B2)",
   "module_number": 2,
   "module_title": "Le temps et le récit",
   "lesson_number": 4,
   "title": "Raconter des faits passés (les temps du récit)",
   "learning_objectives": [
-    "Utiliser le morphème du passé accompli pour structurer une narration",
-    "Employer les adverbes de temps liés au passé (hier, autrefois)",
-    "Raconter une suite d'événements simples s'étant déroulés au village ou en ville"
+    "Comprendre le fonctionnement du Perfectif en mani",
+    "Reconnaître le marqueur -di du Perfectif dans un récit",
+    "Utiliser des phrases attestées au passé pour raconter un fait"
   ],
   "phonetic_focus": {
-    "key_sounds": "La consonne occlusive palatale sonore /ɟ/, parfois transcrite 'y' ou 'j' selon les conventions, doit être articulée avec un contact ferme de la langue sur le palais moyen. Le mot 'cece' utilise une affriquée /tʃ/ qui ne doit pas être affaiblie en /s/.",
-    "common_pitfalls": "Ne confondez pas la particule d'état présent 'bɛ' avec la particule du passé révolu 'wo'. Veillez à bien prononcer les fins de syllabes nasales sans détacher le 'ŋ'."
+    "key_sounds": "Le mani distingue 8 voyelles (i, e, ɛ, a, ɔ, o, u, ə) et des consonnes prénasalisées (mp, nt/nd, ŋk) ainsi qu'une labiovélaire /gb/ absentes du français. Le ton (registre haut/bas) est phonémique (Childs 2011, ch.2).",
+    "common_pitfalls": "Les francophones ont tendance à ne pas distinguer ɛ/e et ɔ/o, à simplifier les consonnes prénasalisées en de simples séquences nasale+consonne, et à ignorer les contrastes de ton, qui changent pourtant le sens ou la fonction grammaticale du mot (ex. hortatif vs perfectif marqués uniquement par le ton)."
   },
   "vocabulary": [
     {
-      "word_id": "v13_1",
-      "term": "wo",
-      "phonetic_api": "/wo/",
-      "phonetic_simple": "WO",
-      "translation": "marqueur du passé / avoir été / autrefois",
-      "example_sentence": "N wo sègé lɔ.",
-      "example_phonetic": "/n̩ wo se.ɡe lɔ/",
-      "example_translation": "J'étais au marché (j'ai été au marché)."
+      "word_id": "v1",
+      "term": "gbɛndi",
+      "phonetic_api": "/gbɛndi/",
+      "phonetic_simple": "GBEN-DI",
+      "translation": "finir, avoir fini (Perfectif de 'gbɛn')",
+      "example_sentence": "a gbɛndi mo yo-i?",
+      "example_phonetic": "/a gbɛndi mo joi/",
+      "example_translation": "As-tu fini de manger ? (attesté Childs 2011, ex.328d)"
     },
     {
-      "word_id": "v13_2",
-      "term": "fɔkɔ-wo",
-      "phonetic_api": "/fɔ.kɔ wo/",
-      "phonetic_simple": "FƆ-KƆ-WO",
-      "translation": "est venu (passé de venir)",
-      "example_sentence": "Mora bulu fɔkɔ-wo lɔ.",
-      "example_phonetic": "/mo.ra bu.lu fɔ.kɔ wo lɔ/",
-      "example_translation": "Une personne est venue ici."
+      "word_id": "v2",
+      "term": "yintdi",
+      "phonetic_api": "/jintdi/",
+      "phonetic_simple": "YINT-DI",
+      "translation": "avoir gonflé (Perfectif de 'yint')",
+      "example_sentence": "bɔkɔlo wɔ gɔ yintdi.",
+      "example_phonetic": "/bɔkɔlo wɔ go jintdi/",
+      "example_translation": "Son cou a gonflé. (attesté Childs 2011, ex.141a)"
     },
     {
-      "word_id": "v13_3",
-      "term": "gbana-wo",
-      "phonetic_api": "/ɡba.na wo/",
-      "phonetic_simple": "GBA-NA-WO",
-      "translation": "est parti / a quitté",
-      "example_sentence": "N fara gbana-wo woŋ.",
-      "example_phonetic": "/n̩ fa.ra ɡba.na wo woŋ/",
-      "example_translation": "Mon père est parti à la ville."
+      "word_id": "v3",
+      "term": "kɔndi",
+      "phonetic_api": "/kɔndi/",
+      "phonetic_simple": "KON-DI",
+      "translation": "être parti (Perfectif de 'kɔ')",
+      "example_sentence": "a kɔndi.",
+      "example_phonetic": "/a kɔndi/",
+      "example_translation": "Je suis parti. (attesté Childs 2011, ex.372)"
     },
     {
-      "word_id": "v13_4",
-      "term": "hɔnkɔ-fɔkɔ",
-      "phonetic_api": "/hɔn.kɔ fɔ.kɔ/",
-      "phonetic_simple": "HON-KƆ-FƆ-KƆ",
-      "translation": "hier (le jour venu et passé)",
-      "example_sentence": "N béré wo hɔnkɔ-fɔkɔ.",
-      "example_phonetic": "/n̩ be.re wo hɔn.kɔ fɔ.kɔ/",
-      "example_translation": "J'ai joué hier."
+      "word_id": "v4",
+      "term": "boli",
+      "phonetic_api": "/boli/",
+      "phonetic_simple": "BO-LI",
+      "translation": "depuis (connecteur temporel)",
+      "example_sentence": "boli gɔnɔ gɔ sɔyɔ...",
+      "example_phonetic": "/boli gɔnɔ go sɔjo/",
+      "example_translation": "Depuis ce matin... (attesté Childs 2011, ex.144)"
     },
     {
-      "word_id": "v13_5",
-      "term": "wɔli-wo",
-      "phonetic_api": "/wɔ.li wo/",
-      "phonetic_simple": "WƆ-LI-WO",
-      "translation": "a travaillé / a fait",
-      "example_sentence": "A wɔli-wo cece.",
-      "example_phonetic": "/a wɔ.li wo tʃe.tʃe/",
-      "example_translation": "Il a beaucoup travaillé."
+      "word_id": "v5",
+      "term": "bɔlɔ",
+      "phonetic_api": "/bɔlɔ/",
+      "phonetic_simple": "BO-LO",
+      "translation": "et, puis, alors (conjonction de coordination narrative)",
+      "example_sentence": "u kɔ lɔ-i bɔlɔ u pin gɔ",
+      "example_phonetic": "/u kɔ lɔi bɔlɔ u pin gɔ/",
+      "example_translation": "Il y est allé, puis il a acheté. (attesté Childs 2011, ex.367b)"
+    },
+    {
+      "word_id": "v6",
+      "term": "gbɛn",
+      "phonetic_api": "/gbɛn/",
+      "phonetic_simple": "GBÈN",
+      "translation": "finir, terminer",
+      "example_sentence": "a gbɛn ma yan, a gbɛn ma kwɛ",
+      "example_phonetic": "/a gbɛn ma jan a gbɛn ma kwɛ/",
+      "example_translation": "J'ai fini, j'ai fini de le boire. (attesté dans la complainte de Yafondo, Childs 2011, appendice 1)"
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p13_1",
-      "original": "Wun wo mi hɔnkɔ-fɔkɔ ?",
-      "phonetic_api": "/wun wo mi hɔn.kɔ fɔ.kɔ/",
-      "phonetic_simple": "WOUN WO MI HON-KƆ-FƆ-KƆ ?",
-      "translation": "Où étais-tu hier ?",
-      "context": "Demander à un proche sa localisation de la veille."
+      "phrase_id": "p1",
+      "original": "a kɔndi, ya mo bɔnt, nye",
+      "phonetic_api": "/a kɔndi, ja mo bɔnt, ɲɛ/",
+      "phonetic_simple": "A KON-DI, YA MO BONT, NYÈ",
+      "translation": "Je suis parti. On se voit, ok ?",
+      "context": "Phrase authentique attestée (Childs 2011, ex.372)."
     },
     {
-      "phrase_id": "p13_2",
-      "original": "N wo banxi lɔ si cɛm.",
-      "phonetic_api": "/n̩ wo ban.xi lɔ si tʃɛm/",
-      "phonetic_simple": "N WO BAN-KHI LƆ SI TCHÈM",
-      "translation": "J'étais à la maison pendant la nuit.",
-      "context": "Expliquer son emploi du temps passé."
+      "phrase_id": "p2",
+      "original": "bɔkɔlo wɔ gɔ yintdi",
+      "phonetic_api": "/bɔkɔlo wɔ go jintdi/",
+      "phonetic_simple": "BO-KO-LO WO GO YINT-DI",
+      "translation": "Son cou a gonflé.",
+      "context": "Phrase authentique attestée (Childs 2011, ex.141a), Perfectif marqué par -di."
     },
     {
-      "phrase_id": "p13_3",
-      "original": "A diŋɛ-wo mɛl ni nin.",
-      "phonetic_api": "/a di.ŋɛ wo mɛl ni nin/",
-      "phonetic_simple": "A DI-NGÈ WO MÈL NI NIN",
-      "translation": "Il a mangé du riz avec du poisson.",
-      "context": "Rapporter l'action passée de consommation d'un tiers."
+      "phrase_id": "p3",
+      "original": "boli gɔnɔ gɔ sɔyɔ, a sɔtmiŋ hati tatidɔl",
+      "phonetic_api": "/boli gɔnɔ go sɔjo, a sɔtmiŋ hati tatidɔl/",
+      "phonetic_simple": "BO-LI GO-NO GO SO-YO, A SOT-MING HA-TI TA-TI-DOL",
+      "translation": "Depuis ce matin, je n'ai encore rien eu, même pas de la salive amère (à manger).",
+      "context": "Phrase authentique attestée (Childs 2011, ex.144), extrait figuré exprimant la faim persistante."
     },
     {
-      "phrase_id": "p13_4",
-      "original": "Denbaya bɛŋ-wo kankaran lɔ.",
-      "phonetic_api": "/den.ba.ja bɛŋ wo kan.ka.ran lɔ/",
-      "phonetic_simple": "DEN-BA-YA BÈNG WO KAN-KA-RAN LƆ",
-      "translation": "La famille s'est rassemblée dans la cour.",
-      "context": "Décrire un événement familial qui s'est achevé."
+      "phrase_id": "p4",
+      "original": "u kɔ lɔ-i bɔlɔ u pin gɔ bɔlɔ u milni",
+      "phonetic_api": "/u kɔ lɔi bɔlɔ u pin gɔ bɔlɔ u milni/",
+      "phonetic_simple": "OU KO LO-I BO-LO OU PIN GO BO-LO OU MIL-NI",
+      "translation": "Il y est allé, puis il a acheté, puis il est rentré.",
+      "context": "Coordination narrative attestée de trois événements passés successifs (Childs 2011, ex.367b)."
     }
   ],
   "grammar_points": [
     {
-      "concept": "Le système de l'accompli narratif avec 'wo'",
-      "explanation": "En langue Mani, le récit au passé s'appuie sur l'introduction du morphème de post-position verbale ou de prédication passée 'wo'. Pour un verbe d'action, 'wo' se place juste après le radical verbal pour indiquer que l'action est totalement achevée.",
+      "concept": "Le Perfectif marqué par le suffixe -di",
+      "explanation": "Le Perfectif en mani se forme le plus souvent par l'ajout du suffixe -di au verbe, indiquant qu'une action est achevée (Childs 2011, ch.7). C'est l'un des rares temps/aspects marqués par un ton distinctif également, le distinguant de l'Hortatif dans certains verbes.",
       "rules": [
-        "Pour un état passé : Sujet + wo + Lieu/Adjectif.",
-        "Pour une action passée : Sujet + Radical Verbal + wo + Compléments."
+        "Le suffixe -di s'ajoute directement à la racine verbale pour marquer le Perfectif.",
+        "Le Perfectif porte un ton haut caractéristique.",
+        "Le marqueur sujet (SM) reste obligatoire devant le verbe au Perfectif, comme dans les autres temps sauf l'Habituel."
       ],
       "examples": [
         {
-          "structure": "N wo lɔ",
-          "phonetic_api": "/n̩ wo lɔ/",
-          "meaning": "J'étais ici"
+          "structure": "kɔ + di = kɔndi",
+          "phonetic_api": "/kɔndi/",
+          "meaning": "être parti"
         },
         {
-          "structure": "N ŋon-wo lan",
-          "phonetic_api": "/n̩ ŋon wo lan/",
-          "meaning": "J'ai bu de l'eau"
+          "structure": "yint + di = yintdi",
+          "phonetic_api": "/jintdi/",
+          "meaning": "avoir gonflé"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Sékou",
-      "text": "Mboi Fanta ! Wun wo mi hɔnkɔ-fɔkɔ ?",
-      "phonetic_api": "/mboi fan.ta wun wo mi hɔn.kɔ fɔ.kɔ/",
-      "phonetic_simple": "MBOÏ FAN-TA ! WOUN WO MI HON-KƆ-FƆ-KƆ ?",
-      "translation": "Bonjour Fanta ! Où étais-tu hier ?"
+      "speaker": "Grand-mère",
+      "text": "boli gɔnɔ gɔ sɔyɔ, a sɔtmiŋ hati tatidɔl.",
+      "phonetic_api": "/boli gɔnɔ go sɔjo, a sɔtmiŋ hati tatidɔl/",
+      "phonetic_simple": "BO-LI GO-NO GO SO-YO, A SOT-MING HA-TI TA-TI-DOL",
+      "translation": "Depuis ce matin, je n'ai rien eu à manger."
     },
     {
-      "speaker": "Fanta",
-      "text": "Mboi Sékou ! N wo sègé lɔ. N wɔli-wo mɛnni cɛm.",
-      "phonetic_api": "/mboi se.kou n̩ wo se.ɡe lɔ n̩ wɔ.li wo mɛn.ni tʃɛm/",
-      "phonetic_simple": "MBOÏ SÉ-KOU ! N WO SÉ-GÉ LƆ. N WƆ-LI WO MÈN-NI TCHÈM.",
-      "translation": "Bonjour Sékou ! J'étais au marché. J'ai travaillé là-bas à l'intérieur."
+      "speaker": "Petit-fils",
+      "text": "mo gbɛndi yo-i?",
+      "phonetic_api": "/mo gbɛndi joi/",
+      "phonetic_simple": "MO GBEN-DI YO-I",
+      "translation": "As-tu fini de manger ?"
     },
     {
-      "speaker": "Sékou",
-      "text": "Wun bɔŋ fɔkɔ-wo fan sègé ?",
-      "phonetic_api": "/wun bɔŋ fɔ.kɔ wo fan se.ɡe/",
-      "phonetic_simple": "WOUN BONG FƆ-KƆ WO FAN SÉ-GÉ ?",
-      "translation": "Ton enfant est venu aussi au marché ?"
+      "speaker": "Grand-mère",
+      "text": "a kɔndi ko kil.",
+      "phonetic_api": "/a kɔndi ko kil/",
+      "phonetic_simple": "A KON-DI KO KIL",
+      "translation": "Je suis rentrée à la maison. (structure reconstruite à partir d'éléments attestés)"
     },
     {
-      "speaker": "Fanta",
-      "text": "Inde, a béré-wo kankaran lɔ ni n wulɛ.",
-      "phonetic_api": "/in.de a be.re wo kan.ka.ran lɔ ni n̩ wu.lɛ/",
-      "phonetic_simple": "IN-DE, A BÉ-RÉ WO KAN-KA-RAN LƆ NI N WOU-LÈ.",
-      "translation": "Non, il a joué dans la cour avec ma mère."
+      "speaker": "Grand-mère",
+      "text": "tɔmrɔ-i n-wɔ kɔn-i u tɔl ko titike-i.",
+      "phonetic_api": "/tɔmrɔi nwɔ kɔni u tɔl ko titikɛi/",
+      "phonetic_simple": "TOM-RO-I N-WO KON-I OU TOL KO TI-TI-KÉ-I",
+      "translation": "Tomro partit, il descendit vers Titiké. (ouverture attestée d'un récit historique, Childs 2011, appendice 1)"
+    },
+    {
+      "speaker": "Grand-mère",
+      "text": "tɔmrɔ-i n-wɔ kɔn-i u tɔl ko titike-i.",
+      "phonetic_api": "/tɔmrɔi nwɔ kɔni u tɔl ko titikɛi/",
+      "phonetic_simple": "TOM-RO-I N-WO KON-I OU TOL KO TI-TI-KÉ-I",
+      "translation": "Tomro partit, il descendit vers Titiké. (ouverture attestée d'un récit historique, Childs 2011, appendice 1)"
     }
   ],
   "cultural_notes": [
-    "Raconter le passé chez les Mani s'accompagne d'une grande précision temporelle liée aux moments du jour (au lever du soleil, au zénith). La transmission des événements de la veille permet de maintenir la cohésion informative du village et d'informer le chef de famille des interactions ayant eu lieu hors de la concession."
+    "Le texte funéraire cité par Childs (2011) recourt fréquemment au Perfectif pour rapporter des événements achevés dans la vie du défunt Yafondo, illustrant l'usage narratif de ce temps dans les récits traditionnels mani.",
+    "Le connecteur 'boli' (depuis) introduit souvent, dans les récits, une plainte ou une situation qui dure depuis un moment donné jusqu'au présent du récit."
   ],
   "exercises": [
     {
-      "exercise_id": "ex13_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quelle particule marque le temps passé en Mani ?",
+      "question": "Quel suffixe marque le Perfectif en mani ?",
       "options": [
-        "bɛ",
-        "wo",
-        "lɔ"
+        "-di",
+        "-ya",
+        "-m"
       ],
-      "correct_answer": "wo",
-      "explanation": "'Wo' est le marqueur grammatical exclusif de l'accompli ou de l'état passé."
+      "correct_answer": "-di",
+      "explanation": "Le suffixe -di marque le Perfectif, comme dans kɔndi ('être parti') ou yintdi ('avoir gonflé')."
     },
     {
-      "exercise_id": "ex13_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "N wo sègé lɔ [ ___ ]. (J'étais au marché hier).",
-      "correct_answer": "hɔnkɔ-fɔkɔ",
-      "hint": "Expression composée signifiant littéralement le jour venu."
+      "sentence_with_blank": "a kɔn[ ___ ]. (Je suis parti.)",
+      "correct_answer": "di",
+      "hint": "Suffixe du Perfectif."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Childs, G. Tucker (2011), A Grammar of Mani, Mouton Grammar Library 54, De Gruyter Mouton",
+      "url": "https://theswissbay.ch/pdf/Books/Linguistics/Mega%20linguistics%20pack/African/Niger-Congo/other%20Atlantic-Congo/Bullom%20So;%20A%20Grammar%20of%20Mani%20(Childs).pdf"
+    },
+    {
+      "label": "Glottolog 5.3 — Bullom So (bull1247)",
+      "url": "https://glottolog.org/resource/languoid/id/bull1247"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Le marqueur Perfectif -di et plusieurs phrases authentiques (ex.141a, 144, 328d, 372) sont directement attestés dans Childs (2011). La dernière réplique du dialogue est une reconstruction raisonnable, non une citation directe."
 }

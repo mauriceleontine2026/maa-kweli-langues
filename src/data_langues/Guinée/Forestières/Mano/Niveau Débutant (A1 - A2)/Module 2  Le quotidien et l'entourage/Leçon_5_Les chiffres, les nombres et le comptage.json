@@ -6,152 +6,230 @@
   "lesson_number": 5,
   "title": "Les chiffres, les nombres et le comptage",
   "learning_objectives": [
-    "Compter de 1 à 20 en langue Mano",
-    "Exprimer des quantités simples avec des noms d'objets",
-    "Comprendre la structure quinaire (base 5) du système de numération"
+    "Compter de 1 à 10 en mano",
+    "Former les dizaines de base (20, 30) et le nombre 100",
+    "Utiliser les numéraux dans un groupe nominal (nom + numéral)"
   ],
   "phonetic_focus": {
-    "key_sounds": "La numération en Mano met en relief des allongements de voyelles (indiqués par le doublement de la lettre, ex: /eː/) et des alternances consonantiques. Le chiffre 5 /dɔ́ːlú/ utilise une consonne latérale et des tons spécifiques hauts qui marquent la fin de la première base numérique.",
-    "common_pitfalls": "Veillez à ne pas prononcer le 'u' à la française dans les nombres. Le son /u/ se prononce toujours 'ou'. Respectez scrupuleusement la durée des voyelles longues pour ne pas déformer les chiffres."
+    "key_sounds": "Les numéraux composés (7, 8, 9) sont construits par addition à partir de 5 et 10, il faut bien entendre les tons qui distinguent les racines numérales de base.",
+    "common_pitfalls": "Oublier que le numéral se place APRÈS le nom en mano (ex. ká pèèlɛ̄ 'maison deux' = 'deux maisons'), à l'inverse de l'ordre français."
   },
   "vocabulary": [
     {
-      "word_id": "v5_1",
-      "term": "dōo",
-      "phonetic_api": "/doː˧/",
-      "phonetic_simple": "DÔÔ",
-      "translation": "Un (1)",
-      "example_sentence": "kpan dōo",
-      "example_phonetic": "/kpã˧ doː˧/",
-      "example_translation": "Une assiette"
+      "word_id": "v1",
+      "term": "dōó",
+      "phonetic_api": "/dōó/",
+      "phonetic_simple": "DO-o",
+      "translation": "un (1)",
+      "example_sentence": "ká dōó",
+      "example_phonetic": "/ká dōó/",
+      "example_translation": "une maison"
     },
     {
-      "word_id": "v5_2",
-      "term": "pɛ̄ɛ",
-      "phonetic_api": "/pɛː˧/",
-      "phonetic_simple": "PÈÈ",
-      "translation": "Deux (2)",
-      "example_sentence": "nɛ̃ pɛ̄ɛ",
-      "example_phonetic": "/nɛ̃˧ pɛː˧/",
-      "example_translation": "Deux enfants"
+      "word_id": "v2",
+      "term": "pèèlɛ̄",
+      "phonetic_api": "/pèèlɛ̄/",
+      "phonetic_simple": "pè-è-LÊ",
+      "translation": "deux (2)",
+      "example_sentence": "ká pèèlɛ̄",
+      "example_phonetic": "/ká pèèlɛ̄/",
+      "example_translation": "deux maisons"
     },
     {
-      "word_id": "v5_3",
-      "term": "yaá",
-      "phonetic_api": "/jaː˦/",
-      "phonetic_simple": "YAA",
-      "translation": "Trois (3)",
-      "example_sentence": "bo yaá",
-      "example_phonetic": "/bo˧ jaː˦/",
-      "example_translation": "Trois amis"
+      "word_id": "v3",
+      "term": "yààkā",
+      "phonetic_api": "/jààkā/",
+      "phonetic_simple": "ya-a-KA",
+      "translation": "trois (3)",
+      "example_sentence": "gɔ̰̄ vɔ̀ yààkā",
+      "example_phonetic": "/gɔ̰̄ vɔ̀ jààkā/",
+      "example_translation": "trois hommes"
     },
     {
-      "word_id": "v5_4",
-      "term": "yiɛ̄",
-      "phonetic_api": "/jiɛː˧/",
-      "phonetic_simple": "YIÈ",
-      "translation": "Quatre (4)",
-      "example_sentence": "de yiɛ̄",
-      "example_phonetic": "/de˧ jiɛː˧/",
-      "example_translation": "Quatre pères"
+      "word_id": "v4",
+      "term": "yììsɛ̄",
+      "phonetic_api": "/jììsɛ̄/",
+      "phonetic_simple": "yi-i-SÊ",
+      "translation": "quatre (4)",
+      "example_sentence": "mīā pèèlɛ̄",
+      "example_phonetic": "/mīā pèèlɛ̄/",
+      "example_translation": "deux personnes (exemple de structure)"
     },
     {
-      "word_id": "v5_5",
-      "term": "dɔ́ːlú",
-      "phonetic_api": "/dɔː˦lu˦/",
-      "phonetic_simple": "DOR-LOU",
-      "translation": "Cinq (5)",
-      "example_sentence": "mī dɔ́ːlú",
-      "example_phonetic": "/miː˧ dɔː˦lu˦/",
-      "example_translation": "Cinq (bouteilles d') eau"
+      "word_id": "v5",
+      "term": "sɔ́ɔ́lī",
+      "phonetic_api": "/sɔ́ɔ́lī/",
+      "phonetic_simple": "SO-o-li",
+      "translation": "cinq (5)",
+      "example_sentence": "vṵ̄ sɔ́ɔ́lī sɔ́ɔ́lī",
+      "example_phonetic": "/vṵ̄ sɔ́ɔ́lī sɔ́ɔ́lī/",
+      "example_translation": "cinq mille (5000)"
+    },
+    {
+      "word_id": "v6",
+      "term": "vṵ̀ dōó",
+      "phonetic_api": "/vṵ̀ dōó/",
+      "phonetic_simple": "vou do-o",
+      "translation": "dix (10)",
+      "example_sentence": "vṵ̀ pèèlɛ̄",
+      "example_phonetic": "/vṵ̀ pèèlɛ̄/",
+      "example_translation": "vingt (20)"
+    },
+    {
+      "word_id": "v7",
+      "term": "vṵ̀ pèèlɛ̄",
+      "phonetic_api": "/vṵ̀ pèèlɛ̄/",
+      "phonetic_simple": "vou pè-è-lê",
+      "translation": "vingt (20)",
+      "example_sentence": "wáá vṵ̀ pèèlɛ̄ wɛ́lɛ́ yààkā",
+      "example_phonetic": "/wáá vṵ̀ pèèlɛ̄ wɛ́lɛ́ jààkā/",
+      "example_translation": "23 000"
+    },
+    {
+      "word_id": "v8",
+      "term": "ŋwū dōó",
+      "phonetic_api": "/ŋwū dōó/",
+      "phonetic_simple": "ngou do-o",
+      "translation": "cent (100)",
+      "example_sentence": "wáá ŋwū dōó",
+      "example_phonetic": "/wáá ŋwū dōó/",
+      "example_translation": "mille (1000)"
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p5_1",
-      "original": "A ɓe mɛ̀?",
-      "phonetic_api": "/a˧ ɓe˧ mɛ˩/",
-      "phonetic_simple": "A BÉ MÈ ?",
-      "translation": "Combien sont-ils ? / Combien ça coûte ?",
-      "context": "Demander une quantité ou une valeur numérique."
+      "phrase_id": "p1",
+      "original": "ká dōó",
+      "phonetic_api": "/ká dōó/",
+      "phonetic_simple": "ka do-o",
+      "translation": "une maison",
+      "context": "Structure de base : nom + numéral, le numéral suit toujours le nom."
     },
     {
-      "phrase_id": "p5_2",
-      "original": "A ɓe dɔ́ːlú.",
-      "phonetic_api": "/a˧ ɓe˧ dɔː˦lu˦/",
-      "phonetic_simple": "A BÉ DOR-LOU",
-      "translation": "Ils sont cinq. / C'est cinq.",
-      "context": "Répondre pour indiquer une quantité précise."
+      "phrase_id": "p2",
+      "original": "gɔ̰̄ vɔ̀ yààkā",
+      "phonetic_api": "/gɔ̰̄ vɔ̀ jààkā/",
+      "phonetic_simple": "gnan vo ya-a-ka",
+      "translation": "trois hommes",
+      "context": "Le déterminatif du pluriel vɔ̀ précède le numéral."
     },
     {
-      "phrase_id": "p5_3",
-      "original": "Mī yaá zɛ̃́ ń la.",
-      "phonetic_api": "/miː˧ jaː˦ zɛ̃˦ ń la˧/",
-      "phonetic_simple": "MEE YAA ZENG N LA",
-      "translation": "J'ai trois verres d'eau.",
-      "context": "Énumérer ses possessions immédiates."
+      "phrase_id": "p3",
+      "original": "wáá ŋwū dōó",
+      "phonetic_api": "/wáá ŋwū dōó/",
+      "phonetic_simple": "oua-a ngou do-o",
+      "translation": "mille (1000)",
+      "context": "wáá est la base pour 'mille' dans le système numéral mano."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Mīā séŋ́ ō ɓɔ̀ɔ́ yààkā sí.",
+      "phonetic_api": "/mīā séŋ́ ō ɓɔ̀ɔ́ jààkā sí/",
+      "phonetic_simple": "mi-a séng o bo-o ya-a-ka si",
+      "translation": "Tout le monde a pris trois sacs (les mêmes).",
+      "context": "Illustre l'usage du numéral non redoublé pour un ensemble identique distribué."
     }
   ],
   "grammar_points": [
     {
-      "concept": "La position du numéral cardinal",
-      "explanation": "En langue Mano, l'adjectif numéral cardinal (le chiffre ou nombre) se place toujours immédiatement après le nom qu'il qualifie. Le nom ne prend généralement pas de marque plurielle morphologique distincte car le nombre suffit à expliciter la quantité.",
+      "concept": "Ordre nom + numéral et redoublement distributif",
+      "explanation": "En mano, le numéral suit toujours le nom qu'il quantifie (contrairement au français). Lorsqu'un numéral qualifie une distribution différenciée par personne ou par groupe ('chacun a pris trois sacs différents'), il se redouble.",
       "rules": [
-        "Structure : [Nom] + [Nombre]",
-        "Le ton du nom peut parfois s'assimiler ou s'ajuster au ton du chiffre qui le suit immédiatement."
+        "Structure de base : Nom (+ déterminatif pluriel vɔ̀) + Numéral",
+        "Le numéral simple exprime une quantité identique pour tous (collectif)",
+        "Le numéral redoublé (ex. yààkā yààkā) exprime une distribution différenciée ('trois chacun')"
       ],
       "examples": [
         {
-          "structure": "kpan pɛ̄ɛ",
-          "phonetic_api": "/kpã˧ pɛː˧/",
-          "meaning": "Deux assiettes"
+          "structure": "Mīā séŋ́ ō ɓɔ̀ɔ́ yààkā sí.",
+          "phonetic_api": "/mīā séŋ́ ō ɓɔ̀ɔ́ jààkā sí/",
+          "meaning": "Tout le monde a pris trois sacs (identiques)."
         },
         {
-          "structure": "bo yiɛ̄",
-          "phonetic_api": "/bo˧ jiɛː˧/",
-          "meaning": "Quatre amis"
+          "structure": "Mīā séŋ́ ō ɓɔ̀ɔ́ yààkā yààkā sí.",
+          "phonetic_api": "/mīā séŋ́ ō ɓɔ̀ɔ́ jààkā jààkā sí/",
+          "meaning": "Chacun a pris trois sacs (différents)."
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Vendeur",
-      "text": "Í nɛ̃ gbɛ̃ ɓe mɛ̀ ?",
-      "phonetic_api": "/i˦ nɛ̃˧ ɡbɛ̃˧ ɓe˧ mɛ˩/",
-      "phonetic_simple": "EE NENG GBENG BÉ MÈ ?",
-      "translation": "Combien de garçons (fils) as-tu ?"
+      "speaker": "Vendeuse",
+      "text": "Íì nāā gà̰ wɛ̀ɛ̄?",
+      "phonetic_api": "/íì nāā gà̰ wɛ̀ɛ̄/",
+      "phonetic_simple": "i-i na-a gan ouè-è",
+      "translation": "Combien en veux-tu ?"
     },
     {
       "speaker": "Client",
-      "text": "Ń nɛ̃ gbɛ̃ ɓe pɛ̄ɛ.",
-      "phonetic_api": "/ń nɛ̃˧ ɡbɛ̃˧ ɓe˧ pɛː˧/",
-      "phonetic_simple": "N NENG GBENG BÉ PÈÈ.",
-      "translation": "J'ai deux garçons (fils)."
+      "text": "Ŋ̄ nāā yààkā.",
+      "phonetic_api": "/ŋ̄ nāā jààkā/",
+      "phonetic_simple": "ng na-a ya-a-ka",
+      "translation": "J'en veux trois."
+    },
+    {
+      "speaker": "Vendeuse",
+      "text": "Ká dōó wàá pèèlɛ̄?",
+      "phonetic_api": "/ká dōó wàá pèèlɛ̄/",
+      "phonetic_simple": "ka do-o oua-a pè-è-lê",
+      "translation": "Une maison ou deux ?"
+    },
+    {
+      "speaker": "Client",
+      "text": "Vṵ̀ dōó lɛ̄ sɛ̀.",
+      "phonetic_api": "/vṵ̀ dōó lɛ̄ sɛ̀/",
+      "phonetic_simple": "vou do-o lê sè",
+      "translation": "Dix, c'est bien."
     }
   ],
   "cultural_notes": [
-    "Le système traditionnel Mano s'appuie sur une base quinaire (comptage par 5). Historiquement, le calcul s'effectuait à l'aide de petits cailloux ou de graines d'arbres sacrés lors des échanges commerciaux sur les marchés de la Guinée forestière. Les nombres au-delà de cinq intègrent le mot signifiant cinq combiné aux unités inférieures."
+    "Le système numéral mano, comme dans de nombreuses langues mandé, repose sur une base quinaire-décimale : les nombres 6 à 9 se construisent par addition à partir de 5 (sɔ́ɔ́lī) et 10 (vṵ̀ dōó).",
+    "Les grandes quantités (mille wáá, cent ŋwū dōó) sont couramment utilisées au marché pour exprimer des prix en francs guinéens."
   ],
   "exercises": [
     {
-      "exercise_id": "ex5_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel est le mot Mano exact pour désigner le chiffre 'Trois (3)' ?",
+      "question": "Comment dit-on 'cinq' en mano ?",
       "options": [
-        "pɛ̄ɛ",
-        "yaá",
-        "yiɛ̄"
+        "yààkā",
+        "sɔ́ɔ́lī",
+        "vṵ̀ dōó"
       ],
-      "correct_answer": "yaá",
-      "explanation": "'yaá' est le numéral pour trois, tandis que 'pɛ̄ɛ' est deux et 'yiɛ̄' est quatre."
+      "correct_answer": "sɔ́ɔ́lī",
+      "explanation": "sɔ́ɔ́lī signifie 'cinq' ; yààkā est 'trois' et vṵ̀ dōó est 'dix'."
     },
     {
-      "exercise_id": "ex5_2",
+      "exercise_id": "ex2",
+      "type": "multiple_choice",
+      "question": "Où se place le numéral par rapport au nom en mano ?",
+      "options": [
+        "avant le nom",
+        "après le nom",
+        "cela dépend du nombre"
+      ],
+      "correct_answer": "après le nom",
+      "explanation": "Le mano place systématiquement le numéral après le nom qu'il quantifie, à l'inverse du français."
+    },
+    {
+      "exercise_id": "ex3",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Pour dire 'une assiette', on place le chiffre après le nom : kpan [ ___ ].",
-      "correct_answer": "dōo",
-      "hint": "C'est le nombre signifiant 'Un'."
+      "sentence_with_blank": "ká [ ___ ] (deux maisons)",
+      "correct_answer": "pèèlɛ̄",
+      "hint": "pèèlɛ̄ signifie 'deux' ; il se place après ká 'maison'."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Khachaturyan, M., Carbo, M., Mamy, P. (2022) Dictionnaire mano-français, Mandenkan 67, LLACAN/CNRS",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan67/67mano_dict_all.pdf"
+    },
+    {
+      "label": "Khachaturyan, M. (2015) Grammaire du mano, Mandenkan 54, LLACAN/CNRS",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan54/54khachaturyan.pdf"
+    }
+  ],
+  "confidence": "élevée",
+  "confidence_note": "Numéraux 1 à 10, 20, 100 et règle de placement/redoublement distributif directement attestés dans le dictionnaire (Mandenkan 67) et la grammaire (Mandenkan 54) de Khachaturyan."
 }

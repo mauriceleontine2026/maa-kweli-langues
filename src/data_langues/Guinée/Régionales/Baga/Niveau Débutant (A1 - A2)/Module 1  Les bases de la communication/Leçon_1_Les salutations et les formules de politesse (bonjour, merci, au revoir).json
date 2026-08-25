@@ -4,147 +4,243 @@
   "module_number": 1,
   "module_title": "Les bases de la communication",
   "lesson_number": 1,
-  "title": "Les salutations et les formules de politesse",
+  "title": "Les salutations et les formules de politesse (bonjour, merci, au revoir)",
   "learning_objectives": [
-    "Savoir saluer selon le moment de la journée en Baga",
-    "Exprimer la gratitude et la politesse élémentaire",
-    "Prendre congé d'un interlocuteur de manière formelle et informelle"
+    "Saluer une personne le matin, le jour et le soir en baga sitemu",
+    "Utiliser la formule de bienvenue et de remerciement attestées",
+    "Comprendre la logique culturelle des salutations liées à la santé (\"ton sang circule-t-il ?\")"
   ],
   "phonetic_focus": {
-    "key_sounds": "La langue Baga possède des consonnes co-articulées /gb/ et /kp/. Le son /ɛ/ est très ouvert, similaire au français 'mer'. Les tons, bien que moins marqués que dans les langues purement mandés, influencent la clarté de l'articulation finale.",
-    "common_pitfalls": "Évitez de prononcer le 'g' et le 'b' séparément dans 'gbɔk'. C'est une seule émission de voix occlusive labio-vélaire."
+    "key_sounds": "Le Baga Sitemu utilise un inventaire de voyelles incluant /a/, /ʌ~ə/ (\"a\" ouvert), /e/, /ɛ/, /i/, /ɪ/, /o/, /ɔ/, /u/ ainsi que des consonnes comme /gb/ (occlusive labio-vélaire voisée, absente du français), /ŋ/ (comme 'ng' dans 'parking'), /ʃ/ (\"sh\"), /tʃ/ (\"tsh\", comme 'tch'), /θ/ (\"th\" anglais sourd) et un /k/ décrit par le lexicographe F. Lamp comme \"glottal, quelque part entre g et k\". Ces sons n'ont pas d'équivalent exact en français standard.",
+    "common_pitfalls": "Les francophones ont tendance à prononcer /gb/ comme un simple 'g' ou 'b' séparé, à confondre /ɛ/ et /e/ (non distingués en français standard écrit), et à ne pas prononcer /ŋ/ en début de mot. Le /ʌ~ə/ ouvert (noté 'a' dans l'orthographe de Lamp) est souvent réduit à un français 'e muet', ce qui déforme le sens."
   },
   "vocabulary": [
     {
-      "word_id": "b001",
-      "term": "Ió",
-      "phonetic_api": "/ió/",
-      "phonetic_simple": "IÓ",
-      "translation": "Bonjour / Salut (général)",
-      "example_sentence": "Ió, dɛ́ɛ̀ nu ?",
-      "example_phonetic": "/ió dɛ́ː nu/",
-      "example_translation": "Salut, comment ça va ?"
+      "word_id": "v1",
+      "term": "m' sokori",
+      "phonetic_api": "/m sɔkɔri/",
+      "phonetic_simple": "meu-so-KO-ri",
+      "translation": "bonjour (le matin)",
+      "example_sentence": "m' sokori !",
+      "example_phonetic": "/m sɔkɔri/",
+      "example_translation": "Bonjour !"
     },
     {
-      "word_id": "b002",
-      "term": "mí mɔ̀n",
-      "phonetic_api": "/mí mɔ̀n/",
-      "phonetic_simple": "MII MON",
-      "translation": "merci",
-      "example_sentence": "Mí mɔ̀n dɛ́ɛ̀ kə̀ kán",
-      "example_phonetic": "/mí mɔ̀n dɛ́ː kə kán/",
-      "example_translation": "Merci pour tout"
+      "word_id": "v2",
+      "term": "mɔn-biori",
+      "phonetic_api": "/mɔn bi.ɔri/",
+      "phonetic_simple": "mon-bi-O-ri",
+      "translation": "bonsoir",
+      "example_sentence": "mɔn-biori !",
+      "example_phonetic": "/mɔn bi.ɔri/",
+      "example_translation": "Bonsoir !"
     },
     {
-      "word_id": "b003",
-      "term": "gbɔk",
-      "phonetic_api": "/gɓɔk/",
-      "phonetic_simple": "GBOK",
-      "translation": "bien / paix / santé",
-      "example_sentence": "Gbɔk bɛ́ɛ̀ mu",
-      "example_phonetic": "/gɓɔk ɓɛ́ː mu/",
-      "example_translation": "La paix soit avec toi"
+      "word_id": "v3",
+      "term": "miyinɔ",
+      "phonetic_api": "/mijinɔ/",
+      "phonetic_simple": "mi-yi-NO",
+      "translation": "bonjour (litt. \"es-tu là ?\")",
+      "example_sentence": "miyinɔ ?",
+      "example_phonetic": "/mijinɔ/",
+      "example_translation": "Bonjour (es-tu là) ?"
     },
     {
-      "word_id": "b004",
-      "term": "kə̀ sɔ̀nɔ̀",
-      "phonetic_api": "/kə sɔ̀nɔ̀/",
-      "phonetic_simple": "KE SO-NO",
-      "translation": "au revoir / à plus tard",
-      "example_sentence": "Kə̀ sɔ̀nɔ̀, n dɛ̀n",
-      "example_phonetic": "/kə sɔ̀nɔ̀ ⁿdɛ̀n/",
-      "example_translation": "Au revoir, mon ami"
+      "word_id": "v4",
+      "term": "mən-der",
+      "phonetic_api": "/mən dɛr/",
+      "phonetic_simple": "meun-DÈR",
+      "translation": "bienvenue (litt. \"tu es venu\")",
+      "example_sentence": "mən-der !",
+      "example_phonetic": "/mən dɛr/",
+      "example_translation": "Bienvenue !"
+    },
+    {
+      "word_id": "v5",
+      "term": "muno thɔro",
+      "phonetic_api": "/muno θɔro/",
+      "phonetic_simple": "MOU-no THO-ro",
+      "translation": "merci (litt. \"tu as souffert\")",
+      "example_sentence": "muno thɔro !",
+      "example_phonetic": "/muno θɔro/",
+      "example_translation": "Merci !"
+    },
+    {
+      "word_id": "v6",
+      "term": "tanatefε",
+      "phonetic_api": "/tanatɛfɛ/",
+      "phonetic_simple": "ta-na-te-FÈ",
+      "translation": "comment ça va ? (litt. \"pas de problème ?\", emprunt au maninka + négation baga)",
+      "example_sentence": "tanatefε ?",
+      "example_phonetic": "/tanatɛfɛ/",
+      "example_translation": "Comment ça va ?"
+    },
+    {
+      "word_id": "v7",
+      "term": "mǝ yεfε",
+      "phonetic_api": "/mə jɛfɛ/",
+      "phonetic_simple": "meu-yè-FÈ",
+      "translation": "es-tu levé ? (salutation matinale standard, précède tanatefε)",
+      "example_sentence": "mǝ yεfε ?",
+      "example_phonetic": "/mə jɛfɛ/",
+      "example_translation": "Es-tu levé ?"
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "bp001",
-      "original": "Ió bər kə̀ gbɔk ?",
-      "phonetic_api": "/ió ɓər kə gɓɔk/",
-      "phonetic_simple": "IÓ BER KE GBOK ?",
-      "translation": "Bonjour, as-tu passé la nuit en paix ?",
-      "context": "Salutation matinale formelle envers un adulte"
+      "phrase_id": "p1",
+      "original": "m' sokori",
+      "phonetic_api": "/m sɔkɔri/",
+      "phonetic_simple": "meu-so-KO-ri",
+      "translation": "bonjour (matin)",
+      "context": "Salutation utilisée le matin, forme attestée en Bst (Baga Sitemu)."
     },
     {
-      "phrase_id": "bp002",
-      "original": "Awan, gbɔk bɛ́ɛ̀ ya",
-      "phonetic_api": "/awan gɓɔk ɓɛ́ː ja/",
-      "phonetic_simple": "A-WAN, GBOK BÉÉ YA",
-      "translation": "Oui, la paix est ici (réponse standard).",
-      "context": "Répondre positivement à une salutation"
+      "phrase_id": "p2",
+      "original": "mɔn-biori",
+      "phonetic_api": "/mɔn bi.ɔri/",
+      "phonetic_simple": "mon-bi-O-ri",
+      "translation": "bonsoir",
+      "context": "Salutation du soir."
     },
     {
-      "phrase_id": "bp003",
-      "original": "Mí mɔ̀n kə̀ dɔ́ɔ̀n",
-      "phonetic_api": "/mí mɔ̀n kə dɔ́ːn/",
-      "phonetic_simple": "MII MON KE DOON",
-      "translation": "Merci beaucoup.",
-      "context": "Exprimer une vive gratitude"
+      "phrase_id": "p3",
+      "original": "miyinɔ",
+      "phonetic_api": "/mijinɔ/",
+      "phonetic_simple": "mi-yi-NO",
+      "translation": "bonjour / es-tu là ?",
+      "context": "Salutation générale dans la journée."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "mən-der",
+      "phonetic_api": "/mən dɛr/",
+      "phonetic_simple": "meun-DÈR",
+      "translation": "bienvenue",
+      "context": "Utilisé pour accueillir un visiteur qui arrive."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "muno thɔro",
+      "phonetic_api": "/muno θɔro/",
+      "phonetic_simple": "MOU-no THO-ro",
+      "translation": "merci",
+      "context": "Formule de remerciement, litt. reconnaît l'effort/la peine de l'autre."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "tanatefε",
+      "phonetic_api": "/tanatɛfɛ/",
+      "phonetic_simple": "ta-na-te-FÈ",
+      "translation": "comment ça va ?",
+      "context": "Se dit après \"mǝ yεfε\" le matin, ou en journée."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "mɛ-tsir mɔn-tsh kɔt",
+      "phonetic_api": "/mɛtsir mɔntʃ kɔt/",
+      "phonetic_simple": "mè-tsir mon-tch KOT",
+      "translation": "comment vas-tu ? (litt. \"ton sang circule-t-il ?\")",
+      "context": "Variante imagée pour demander des nouvelles de la santé de quelqu'un."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "tshopi-e",
+      "phonetic_api": "/tʃopije/",
+      "phonetic_simple": "TCHO-pi-yé",
+      "translation": "comment vas-tu ?",
+      "context": "Salutation générale, forme alternative attestée dans le dictionnaire de Lamp."
     }
   ],
   "grammar_points": [
     {
-      "concept": "La structure de la salutation par l'état 'kə̀ + substantif'",
-      "explanation": "En Baga, pour s'enquérir de la santé ou de l'état de paix d'une personne, on fait précéder le substantif de bien-être par le proclitique relationnel 'kə̀'. La réponse positive utilise l'adverbe d'affirmation 'Awan' suivi de la localisation de la paix.",
+      "concept": "Structure des salutations en baga sitemu",
+      "explanation": "Les salutations baga ne se limitent pas à un simple mot ; elles forment souvent de courtes phrases figées, parfois construites sur des emprunts (le maninka pour tanatefε) combinés à la négation baga (fɛ = \"pas\"). Une séquence culturelle typique existe : le matin, on demande d'abord \"mǝ yεfε\" (es-tu levé ?) avant de poser \"tanatefε\" (comment ça va ?).",
       "rules": [
-        "Formule interrogative : [Salutation] + bər + kə̀ + [État].",
-        "L'état de paix est central dans le code d'honneur Baga."
+        "Les salutations sont des expressions figées, non décomposables mot à mot par un débutant.",
+        "L'ordre \"mǝ yεfε\" puis \"tanatefε\" est culturellement attesté le matin (Lamp, Notes N:29)."
       ],
       "examples": [
         {
-          "structure": "k&grave; (avec/en) + gbɔk (paix)",
-          "phonetic_api": "/kə gɓɔk/",
-          "meaning": "En paix / En bonne santé"
+          "structure": "mǝ yεfε ? ... tanatefε ?",
+          "phonetic_api": "/mə jɛfɛ ... tanatɛfɛ/",
+          "meaning": "Es-tu levé ? ... Comment ça va ?"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Sékou",
-      "text": "Ió Temba ! Ió bər kə̀ gbɔk ?",
-      "phonetic_api": "/ió tɛmɓa ió ɓər kə gɓɔk/",
-      "phonetic_simple": "IÓ TEM-BA ! IÓ BER KE GBOK ?",
-      "translation": "Bonjour Temba ! Bonjour, as-tu passé la nuit en paix ?"
+      "speaker": "A",
+      "text": "m' sokori !",
+      "phonetic_api": "/m sɔkɔri/",
+      "phonetic_simple": "meu-so-KO-ri",
+      "translation": "Bonjour !"
     },
     {
-      "speaker": "Temba",
-      "text": "Awan, Sékou. Gbɔk bɛ́ɛ̀ ya. Mí mɔ̀n. I sɔ̀nɔ̀ bər mu ?",
-      "phonetic_api": "/awan sɛku gɓɔk ɓɛ́ː ja mí mɔ̀n i sɔ̀nɔ̀ ɓər mu/",
-      "phonetic_simple": "A-WAN, SÉ-KOO. GBOK BÉÉ YA. MII MON. I SO-NO BER MOO ?",
-      "translation": "Oui, Sékou. La paix est ici. Merci. Et toi, es-tu en paix ?"
+      "speaker": "B",
+      "text": "mən-der !",
+      "phonetic_api": "/mən dɛr/",
+      "phonetic_simple": "meun-DÈR",
+      "translation": "Bienvenue !"
     },
     {
-      "speaker": "Sékou",
-      "text": "Awan, gbɔk kpu. Kə̀ sɔ̀nɔ̀ !",
-      "phonetic_api": "/awan gɓɔk kpu kə sɔ̀nɔ̀/",
-      "phonetic_simple": "A-WAN, GBOK KPOO. KE SO-NO !",
-      "translation": "Oui, paix totale. Au revoir !"
+      "speaker": "A",
+      "text": "mǝ yεfε ?",
+      "phonetic_api": "/mə jɛfɛ/",
+      "phonetic_simple": "meu-yè-FÈ",
+      "translation": "Es-tu levé ?"
+    },
+    {
+      "speaker": "B",
+      "text": "tanatefε.",
+      "phonetic_api": "/tanatɛfɛ/",
+      "phonetic_simple": "ta-na-te-FÈ",
+      "translation": "Ça va (pas de problème)."
+    },
+    {
+      "speaker": "A",
+      "text": "muno thɔro !",
+      "phonetic_api": "/muno θɔro/",
+      "phonetic_simple": "MOU-no THO-ro",
+      "translation": "Merci !"
     }
   ],
   "cultural_notes": [
-    "Chez les Bagas de Guinée Maritime, saluer n'est jamais une simple formalité rapide. Il est d'usage de prendre le temps de s'arrêter, de s'enquérir du sommeil de l'interlocuteur et de la paix dans sa concession.",
-    "La main droite est obligatoirement utilisée pour faire un geste de salutation ou pour remercier."
+    "Les salutations baga associent souvent la santé au sang : \"mɛ-tsir mɔn-tsh kɔt\" (ton sang circule-t-il ?) illustre une conception du bien-être centrée sur la circulation vitale (Lamp, dictionnaire, entrée mɛ-tsir).",
+    "\"Muno thɔro\" (merci) reconnaît littéralement la peine/l'effort de l'interlocuteur, reflet d'une politesse basée sur la reconnaissance du service rendu plutôt que sur une formule abstraite."
   ],
   "exercises": [
     {
-      "exercise_id": "A1_M1_L1_ex1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel mot signifie 'merci' en Baga ?",
+      "question": "Comment dit-on \"bonjour\" le matin en baga sitemu ?",
       "options": [
-        "Ió",
-        "mí mɔ̀n",
-        "gbɔk"
+        "mɔn-biori",
+        "m' sokori",
+        "muno thɔro"
       ],
-      "correct_answer": "mí mɔ̀n",
-      "explanation": "'mí mɔ̀n' est l'expression consacrée pour remercier."
+      "correct_answer": "m' sokori",
+      "explanation": "\"m' sokori\" est la salutation matinale attestée (Lamp, Notes M:131)."
     },
     {
-      "exercise_id": "A1_M1_L1_ex2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Ió bər kə̀ [ ___ ] ? (Bonjour, es-tu en paix ?)",
-      "correct_answer": "gbɔk",
-      "hint": "Le mot pour paix/santé commençant par g"
+      "sentence_with_blank": "___ ! (bienvenue)",
+      "correct_answer": "mən-der",
+      "hint": "Littéralement \"tu es venu\"."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Lamp, F.J. — Baga Tshi-Tem Dictionary (Guinea, rév. 2021)",
+      "url": "https://catalogingafricana.wordpress.com/wp-content/uploads/2016/07/a.baga-vocabulary-final-notated-2021-cr.pdf"
+    },
+    {
+      "label": "Cataloging Africana — Dictionary in Baga Tshi-Tem (présentation)",
+      "url": "https://catalogingafricana.wordpress.com/2016/07/10/dictionary-in-baga-tshi-tem/"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Les formules de salutation proviennent directement du dictionnaire de terrain de F. Lamp (entrées attestées avec citations internes de ses informateurs), mais elles ne sont pas organisées en \"leçon de conversation\" dans la source — l'assemblage en dialogue est notre construction à partir de mots vérifiés. Variété choisie : Baga Sitemu (autonyme Citɛm ; ISO 639-3 bsp ; Glottocode baga1272), décrite comme \"the only vibrant Baga linguistic variety\" par Wikipédia (d'après Wilson 2007), parlée dans des villages sur le fleuve Campaces/Rio Pongo, région de Boffa, Guinée (~40 000 locuteurs, 2018). C'est la variété baga au sens strict la mieux documentée : dictionnaire de terrain de 3000 mots (Lamp 2016/2021), listes lexicales ASJP indépendantes, fiches Glottolog/WALS, et mention dans la thèse de Weller Ganong (1998) sur la morphologie/syntaxe baga. Elle appartient à la branche Mel (Niger-Congo > Atlantic-Congo > Mel > Northern Mel, avec Temne, Landuma, Baga Koba), et non à la branche Nalu-Mbulungish-Baga Mboteni décrite par Sapir (1971) comme faisant partie de l'Atlantique Nord — ces deux ensembles sont linguistiquement distincts malgré l'identité ethnique Baga commune. Le Baga Mboteni (bgm/bcg), bien que parlé par des Baga ethniques, n'est PAS une langue Mel et reste très peu documenté (pas de dictionnaire de terrain publié comparable); le Baga Fore/Mbulungish (bsp est un code distinct de mbv) est également peu documenté en comparaison. Le Sitemu a donc été retenu comme le meilleur compromis entre authenticité \"Baga\" et disponibilité de données vérifiables."
 }

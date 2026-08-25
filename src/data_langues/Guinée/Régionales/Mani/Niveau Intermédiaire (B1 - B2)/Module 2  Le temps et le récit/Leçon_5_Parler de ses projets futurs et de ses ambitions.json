@@ -1,179 +1,190 @@
 {
   "lesson_id": "B1_M2_L5",
-  "level": "Intermédiaire (B1-B2)",
+  "level": "Niveau Intermédiaire (B1 - B2)",
   "module_number": 2,
   "module_title": "Le temps et le récit",
   "lesson_number": 5,
   "title": "Parler de ses projets futurs et de ses ambitions",
   "learning_objectives": [
-    "Exprimer l'intention, le souhait et les projets futurs en Mani",
-    "Utiliser le marqueur de l'inaccompli/futur pour structurer des phrases de perspective",
-    "Parler de ses projets de voyage, de construction ou professionnels"
+    "Utiliser le modal 'bi/hi' (avoir) pour exprimer une action future certaine",
+    "Comprendre l'Habituel/Futur et son usage pour les intentions",
+    "Construire des phrases sur des projets avec le complémenteur 'hali'"
   ],
   "phonetic_focus": {
-    "key_sounds": "La particule de futur 'ce' utilise l'affriquée alvéolo-palatale sourde /tʃ/. Elle doit être courte et nette. La voyelle longue dans 'haani' demande une tension soutenue de la glotte sans nasalisation.",
-    "common_pitfalls": "Attention à ne pas confondre le marqueur de politesse 'kɔŋ' avec le marqueur d'intention ou d'ambition 'haani'."
+    "key_sounds": "Le mani distingue 8 voyelles (i, e, ɛ, a, ɔ, o, u, ə) et des consonnes prénasalisées (mp, nt/nd, ŋk) ainsi qu'une labiovélaire /gb/ absentes du français. Le ton (registre haut/bas) est phonémique (Childs 2011, ch.2).",
+    "common_pitfalls": "Les francophones ont tendance à ne pas distinguer ɛ/e et ɔ/o, à simplifier les consonnes prénasalisées en de simples séquences nasale+consonne, et à ignorer les contrastes de ton, qui changent pourtant le sens ou la fonction grammaticale du mot (ex. hortatif vs perfectif marqués uniquement par le ton)."
   },
   "vocabulary": [
     {
-      "word_id": "v14_1",
-      "term": "ce",
-      "phonetic_api": "/tʃe/",
-      "phonetic_simple": "TCHÉ",
-      "translation": "particule du futur / va / action à venir",
-      "example_sentence": "N ce wɔli woŋ lɔ.",
-      "example_phonetic": "/n̩ tʃe wɔ.li woŋ lɔ/",
-      "example_translation": "Je vais travailler en ville."
+      "word_id": "v1",
+      "term": "hi",
+      "phonetic_api": "/hi/",
+      "phonetic_simple": "HI",
+      "translation": "avoir, tenir (modal de futur certain)"
     },
     {
-      "word_id": "v14_2",
-      "term": "haani",
-      "phonetic_api": "/haː.ni/",
-      "phonetic_simple": "HAA-NI",
-      "translation": "vouloir / désirer / ambitionner",
-      "example_sentence": "N haani banxi gbun.",
-      "example_phonetic": "/n̩ haː.ni ban.xi ɡbun/",
-      "example_translation": "Je veux une grande maison."
+      "word_id": "v2",
+      "term": "hali",
+      "phonetic_api": "/hali/",
+      "phonetic_simple": "HA-LI",
+      "translation": "pour, afin de (complémenteur de but)"
     },
     {
-      "word_id": "v14_3",
-      "term": "fɔkɔ-ce",
-      "phonetic_api": "/fɔ.kɔ tʃe/",
-      "phonetic_simple": "FƆ-KƆ-TCHÉ",
-      "translation": "viendra (futur de venir)",
-      "example_sentence": "N fara ce fɔkɔ lɔ.",
-      "example_phonetic": "/n̩ fa.ra tʃe fɔ.kɔ lɔ/",
-      "example_translation": "Mon père viendra ici."
+      "word_id": "v3",
+      "term": "si pe ke nin",
+      "phonetic_api": "/si pɛ kɛ nin/",
+      "phonetic_simple": "SI PÈ KÉ NIN",
+      "translation": "nous nous reverrons (attesté, réciproque, Childs 2011 ex.69a)"
     },
     {
-      "word_id": "v14_4",
-      "term": "tira",
-      "phonetic_api": "/ti.ra/",
-      "phonetic_simple": "TI-RA",
-      "translation": "voyager / partir au loin / trajet",
-      "example_sentence": "A ce tira woni.",
-      "example_phonetic": "/a tʃe ti.ra wo.ni/",
-      "example_translation": "Il va voyager demain."
+      "word_id": "v4",
+      "term": "tcina",
+      "phonetic_api": "/tʃina/",
+      "phonetic_simple": "TCHI-NA",
+      "translation": "plus tard"
     },
     {
-      "word_id": "v14_5",
-      "term": "mɛl-ce",
-      "phonetic_api": "/mɛl tʃe/",
-      "phonetic_simple": "MÈL-TCHÉ",
-      "translation": "récolte future / cultiver à venir",
-      "example_sentence": "N ce mɛl wɔli lɔ.",
-      "example_phonetic": "/n̩ tʃe mɛl wɔ.li lɔ/",
-      "example_translation": "Je vais travailler le riz (cultiver)."
+      "word_id": "v5",
+      "term": "bari",
+      "phonetic_api": "/bari/",
+      "phonetic_simple": "BA-RI",
+      "translation": "parce que, puisque (subordonnant causal)",
+      "example_sentence": "bari wɔ hi kopɛr, wɔ mi mar",
+      "example_phonetic": "/bari wɔ hi kɔpɛr wɔ mi mar/",
+      "example_translation": "Puisqu'elle a de l'argent, elle m'aidera. (attesté Childs 2011, ex.365a)"
+    },
+    {
+      "word_id": "v6",
+      "term": "kopɛr",
+      "phonetic_api": "/kɔpɛr/",
+      "phonetic_simple": "KO-PÈR",
+      "translation": "argent",
+      "example_sentence": "bari wɔ hi kopɛr",
+      "example_phonetic": "/bari wɔ hi kɔpɛr/",
+      "example_translation": "Puisqu'elle a de l'argent... (attesté Childs 2011, ex.365a)"
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p14_1",
-      "original": "Wun ce nɛ wɔli woni ?",
-      "phonetic_api": "/wun tʃe nɛ wɔ.li wo.ni/",
-      "phonetic_simple": "WOUN TCHÉ NÈ WƆ-LI WO-NI ?",
-      "translation": "Que vas-tu faire demain ?",
-      "context": "Questionner un ami sur son emploi du temps à venir."
+      "phrase_id": "p1",
+      "original": "si pe ke nin tcina",
+      "phonetic_api": "/si pɛ kɛ nin tʃina/",
+      "phonetic_simple": "SI PÈ KÉ NIN TCHI-NA",
+      "translation": "Nous nous reverrons plus tard.",
+      "context": "Phrase authentique attestée avec le réciproque 'nin' (Childs 2011, ex.69a)."
     },
     {
-      "phrase_id": "p14_2",
-      "original": "N haani tira woŋ gbun cɛm.",
-      "phonetic_api": "/n̩ haː.ni ti.ra woŋ ɡbun tʃɛm/",
-      "phonetic_simple": "N HAA-NI TI-RA WONG GBOUN TCHÈM",
-      "translation": "Je veux voyager au centre de la grande ville.",
-      "context": "Exprimer une ambition de mobilité géographique."
+      "phrase_id": "p2",
+      "original": "ya mɔ ke nin",
+      "phonetic_api": "/ja mɔ kɛ nin/",
+      "phonetic_simple": "YA MO KÉ NIN",
+      "translation": "Je te verrai plus tard.",
+      "context": "Phrase authentique attestée (Childs 2011, ex.69a, variante avec pronoms singuliers)."
     },
     {
-      "phrase_id": "p14_3",
-      "original": "A ce banxi bulu gbun lala.",
-      "phonetic_api": "/a tʃe ban.xi bu.lu ɡbun la.la/",
-      "phonetic_simple": "A TCHÉ BAN-KHI BOU-LOU GBOUN LA-LA",
-      "translation": "Il va construire une grande maison.",
-      "context": "Annoncer les projets matériels d'un proche."
+      "phrase_id": "p3",
+      "original": "nya hi hati ye haa isɔ",
+      "phonetic_api": "/ɲa hi hati jɛ haː isɔ/",
+      "phonetic_simple": "NYA HI HA-TI YÈ HAA I-SO",
+      "translation": "Vous danserez jusqu'au matin (projet certain).",
+      "context": "Phrase authentique attestée (Childs 2011, ex.154a)."
     },
     {
-      "phrase_id": "p14_4",
-      "original": "Woni, n denbaya ce bɛŋ lɔ.",
-      "phonetic_api": "/wo.ni n̩ den.ba.ja tʃe bɛŋ lɔ/",
-      "phonetic_simple": "WO-NI, N DEN-BA-YA TCHÉ BÈNG LƆ",
-      "translation": "Demain, ma famille va se rassembler ici.",
-      "context": "Planifier un événement social ou familial."
+      "phrase_id": "p4",
+      "original": "bari wɔ hi kopɛr, wɔ mi mar",
+      "phonetic_api": "/bari wɔ hi kɔpɛr wɔ mi mar/",
+      "phonetic_simple": "BA-RI WO HI KO-PÈR, WO MI MAR",
+      "translation": "Puisqu'elle a de l'argent, elle m'aidera.",
+      "context": "Causale attestée pouvant introduire un projet futur conditionné par une ressource (Childs 2011, ex.365a)."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'expression du futur et du souhait avec 'ce' et 'haani'",
-      "explanation": "L'inaccompli à valeur de futur ou d'intention s'exprime en insérant le morphème 'ce' directement entre le pronom sujet et le verbe d'action. Pour exprimer un désir ou un but, le verbe 'haani' sert de pivot propositionnel.",
+      "concept": "Le modal « hi » pour exprimer une intention ou un futur certain",
+      "explanation": "Le mani exprime les projets et intentions futures grâce au modal 'hi/bi' (avoir), qui indique que le locuteur est certain de la réalisation de l'action, souvent renforcé par le complémenteur 'hali' (pour, afin de) (Childs 2011, ch.4 sur le mode, ex.154).",
       "rules": [
-        "Structure du futur simple : Sujet + ce + Verbe + Compléments.",
-        "Structure du souhait : Sujet + haani + Verbe d'action."
+        "Sujet + hi + (hali) + verbe = expression d'un futur certain ou d'une intention forte.",
+        "Le Réciproque 'nin' s'utilise avec les pronoms pluriels pour indiquer une action mutuelle prévue (ex. 'nous nous reverrons')."
       ],
       "examples": [
         {
-          "structure": "N ce ŋon lan",
-          "phonetic_api": "/n̩ tʃe ŋon lan/",
-          "meaning": "Je vais boire de l'eau"
+          "structure": "si pe ke nin",
+          "phonetic_api": "/si pɛ kɛ nin/",
+          "meaning": "nous nous reverrons"
         },
         {
-          "structure": "N haani wɔli",
-          "phonetic_api": "/n̩ haː.ni wɔ.li/",
-          "meaning": "Je veux travailler"
+          "structure": "sujet + hi + hati + verbe",
+          "phonetic_api": "/... hi hati .../",
+          "meaning": "sujet va certainement + verbe"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Fanta",
-      "text": "Mboi Moussa ! Wun ce mi woni ?",
-      "phonetic_api": "/mboi mou.sa wun tʃe mi wo.ni/",
-      "phonetic_simple": "MBOÏ MOUS-SA ! WOUN TCHÉ MI WO-NI ?",
-      "translation": "Bonjour Moussa ! Où vas-tu demain ?"
+      "speaker": "Adama",
+      "text": "ya mɔ ke nin tcina.",
+      "phonetic_api": "/ja mɔ kɛ nin tʃina/",
+      "phonetic_simple": "YA MO KÉ NIN TCHI-NA",
+      "translation": "Je te reverrai plus tard."
     },
     {
-      "speaker": "Moussa",
-      "text": "Mboi Fanta ! N ce tira woŋ gbun lɔ. N haani sègé wɔli.",
-      "phonetic_api": "/mboi fan.ta n̩ tʃe ti.ra woŋ ɡbun lɔ n̩ haː.ni se.ɡe wɔ.li/",
-      "phonetic_simple": "MBOÏ FAN-TA ! N TCHÉ TI-RA WONG GBOUN LƆ. N HAA-NI SÉ-GÉ WƆ-LI.",
-      "translation": "Bonjour Fanta ! Je vais voyager vers la grande ville. Je veux faire du commerce au marché."
+      "speaker": "Salematou",
+      "text": "shɛke, si pe ke nin.",
+      "phonetic_api": "/ʃɛkɛ, si pɛ kɛ nin/",
+      "phonetic_simple": "CHÉ-KÉ, SI PÈ KÉ NIN",
+      "translation": "Oui, nous nous reverrons."
     },
     {
-      "speaker": "Fanta",
-      "text": "Wun wulɛ ce fɔkɔ fan ni wun ?",
-      "phonetic_api": "/wun wu.lɛ tʃe fɔ.kɔ fan ni wun/",
-      "phonetic_simple": "WOUN WOU-LÈ TCHÉ FƆ-KƆ FAN NI WOUN ?",
-      "translation": "Ta maman viendra aussi avec toi ?"
+      "speaker": "Adama",
+      "text": "nya hi hati ye haa isɔ ya?",
+      "phonetic_api": "/ɲa hi hati jɛ haː isɔ ja/",
+      "phonetic_simple": "NYA HI HA-TI YÈ HAA I-SO YA",
+      "translation": "Danserez-vous jusqu'au matin ?"
     },
     {
-      "speaker": "Moussa",
-      "text": "Inde, a ce banxi lɔ su cɛm béré. Gbana fanta !",
-      "phonetic_api": "/in.de a tʃe ban.xi lɔ su tʃɛm be.re ɡba.na fan.ta/",
-      "phonetic_simple": "IN-DE, A TCHÉ BAN-KHI LƆ SOU TCHÈM BÉ-RÉ. GBA-NA FAN-TA !",
-      "translation": "Non, elle va rester se reposer à l'intérieur de la maison. Au revoir Fanta !"
+      "speaker": "Salematou",
+      "text": "shɛke!",
+      "phonetic_api": "/ʃɛkɛ/",
+      "phonetic_simple": "CHÉ-KÉ",
+      "translation": "Oui !"
     }
   ],
   "cultural_notes": [
-    "Pour le peuple Mani, exprimer ses ambitions ('haani') est toujours lié à la bénédiction des aînés. On évite d'annoncer un projet futur important comme un grand voyage ('tira') de manière péremptoire, sans y associer tacitement le souhait que la paix ('yoma') accompagne la route."
+    "Les 'projets d'avenir' au sens occidental (carrière, études) ne sont pas un thème documenté dans la grammaire de Childs (2011), reflet d'une société rurale organisée autour des cycles agricoles et communautaires plutôt que de la planification individuelle.",
+    "Les promesses de retrouvailles ('on se reverra') sont un motif attesté et récurrent dans les formules de politesse et de départ en mani."
   ],
   "exercises": [
     {
-      "exercise_id": "ex14_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel morphème grammatical indique une action future en Mani ?",
+      "question": "Quel modal exprime un futur certain ou une intention forte en mani ?",
       "options": [
-        "wo",
-        "ce",
-        "lɔ"
+        "hi/bi",
+        "kɔ",
+        "yo"
       ],
-      "correct_answer": "ce",
-      "explanation": "'Ce' est la particule pré-verbale qui marque le futur ou l'intention imminente."
+      "correct_answer": "hi/bi",
+      "explanation": "Le verbe 'avoir' (hi/bi) fonctionne comme modal épistémique de futur certain, Childs (2011)."
     },
     {
-      "exercise_id": "ex14_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "N [ ___ ] banxi bulu gbun. (Je veux une grande maison).",
-      "correct_answer": "haani",
-      "hint": "Le verbe de volonté qui commence par un h aspiré."
+      "sentence_with_blank": "si pe ke [ ___ ]. (Nous nous reverrons.)",
+      "correct_answer": "nin",
+      "hint": "Particule postverbale de réciprocité."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Childs, G. Tucker (2011), A Grammar of Mani, Mouton Grammar Library 54, De Gruyter Mouton",
+      "url": "https://theswissbay.ch/pdf/Books/Linguistics/Mega%20linguistics%20pack/African/Niger-Congo/other%20Atlantic-Congo/Bullom%20So;%20A%20Grammar%20of%20Mani%20(Childs).pdf"
+    },
+    {
+      "label": "Glottolog 5.3 — Bullom So (bull1247)",
+      "url": "https://glottolog.org/resource/languoid/id/bull1247"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Le modal 'hi' et le réciproque 'nin' sont attestés avec exemples authentiques (ex.69a, 154a). Aucun vocabulaire spécifique aux ambitions professionnelles ou aux études n'a été trouvé dans les sources disponibles ; cette lacune est reconnue."
 }

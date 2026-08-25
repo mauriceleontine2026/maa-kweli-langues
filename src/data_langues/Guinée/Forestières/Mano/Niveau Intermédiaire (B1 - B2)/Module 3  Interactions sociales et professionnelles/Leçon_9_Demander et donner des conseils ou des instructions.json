@@ -6,157 +6,230 @@
   "lesson_number": 9,
   "title": "Demander et donner des conseils ou des instructions",
   "learning_objectives": [
-    "Demander un avis ou un conseil face à un problème en Mano",
-    "Formuler des recommandations ou donner des instructions directes",
-    "Utiliser les expressions de guidance et de sagesse partagée"
+    "Demander un conseil avec une question ouverte",
+    "Donner une instruction séquentielle avec les connecteurs 'ensuite'",
+    "Utiliser le subjonctif pour suggérer poliment une action"
   ],
   "phonetic_focus": {
-    "key_sounds": "L'expression du conseil fait intervenir le terme /wɔ̃˧/ (parole / affaire) combiné avec le verbe de transmission /gɛ˧/ (donner). Le ton moyen sur /wɔ̃˧/ et le ton haut sur les pronoms exhortatifs demandent une modulation vocale soignée.",
-    "common_pitfalls": "Veillez à bien détacher le verbe de conseil pour ne pas l'amalgamer avec des particules temporelles. La netteté de l'articulation de la consonne initiale /g/ est essentielle."
+    "key_sounds": "Le connecteur yēlɛ́ ('ensuite') porte un ton descendant-montant qu'il faut articuler avec soin pour rythmer une série d'instructions.",
+    "common_pitfalls": "Ne pas juxtaposer les instructions sans connecteur : le mano structure une suite d'étapes avec yēlɛ́ ('ensuite'), contrairement à une simple énumération qui serait ambiguë."
   },
   "vocabulary": [
     {
-      "word_id": "v18_1",
-      "term": "lɛ-wɔ̃",
-      "phonetic_api": "/lɛ˧wɔ̃˧/",
-      "phonetic_simple": "LÈ-WONG",
-      "translation": "Conseil / Instruction / Avis",
-      "example_sentence": "lɛ-wɔ̃ kɛ̃ɛ",
-      "example_phonetic": "/lɛ˧wɔ̃˧ kɛ̃ː˧/",
-      "example_translation": "Un bon conseil"
+      "word_id": "v1",
+      "term": "yēlɛ́",
+      "phonetic_api": "/jēlɛ́/",
+      "phonetic_simple": "yé-LÉ",
+      "translation": "ensuite, alors",
+      "example_sentence": "Yēlɛ́ gbāā ē tó yī.",
+      "example_phonetic": "/jēlɛ́ gbāā ē tó jī/",
+      "example_translation": "Ensuite il est resté là-bas."
     },
     {
-      "word_id": "v18_2",
-      "term": "gɛ",
-      "phonetic_api": "/ɡɛ˧/",
-      "phonetic_simple": "GÈ",
-      "translation": "Donner / Offrir / Transmettre",
-      "example_sentence": "Lɛ-wɔ̃ gɛ ń la.",
-      "example_phonetic": "/lɛ˧wɔ̃˧ ɡɛ˧ ń la˧/",
-      "example_translation": "Donne-moi un conseil."
+      "word_id": "v2",
+      "term": "gèē",
+      "phonetic_api": "/gèē/",
+      "phonetic_simple": "guè-É",
+      "translation": "dire",
+      "example_sentence": "Ŋ̄ gèē ī mā.",
+      "example_phonetic": "/ŋ̄ gèē ī mā/",
+      "example_translation": "Je te le dis / je te conseille."
     },
     {
-      "word_id": "v18_3",
-      "term": "mɛ-gbe",
-      "phonetic_api": "/mɛ˧ɡbe˧/",
-      "phonetic_simple": "MÈ-GBÉ",
-      "translation": "Sagesse / Intelligence / Discernement",
-      "example_sentence": "Mɛ-gbe ɓe à la.",
-      "example_phonetic": "/mɛ˧|ɡbe˧ ɓe˧ a˧ la˧/",
-      "example_translation": "Il a de la sagesse."
+      "word_id": "v3",
+      "term": "kɛ̄",
+      "phonetic_api": "/kɛ̄/",
+      "phonetic_simple": "KÊ",
+      "translation": "faire",
+      "example_sentence": "Ì à kɛ̄ ē tó.",
+      "example_phonetic": "/ì à kɛ̄ ē tó/",
+      "example_translation": "Fais-le d'abord."
     },
     {
-      "word_id": "v18_4",
-      "term": "pɛlɛ-la",
-      "phonetic_api": "/pɛ˧lɛ˧la˧/",
-      "phonetic_simple": "PÈLÈ-LAH",
-      "translation": "Montrer / Guider / Expliquer",
-      "example_sentence": "pɛlɛ la ń la.",
-      "example_phonetic": "/pɛ˧lɛ˧ la˧ ń la˧/",
-      "example_translation": "Montre-moi (le chemin / la solution)."
+      "word_id": "v4",
+      "term": "sɛ̀",
+      "phonetic_api": "/sɛ̀/",
+      "phonetic_simple": "SÈ",
+      "translation": "bon, bien (adjectif de qualité)",
+      "example_sentence": "Ī gèē lɛ̄ sɛ̀.",
+      "example_phonetic": "/ī gèē lɛ̄ sɛ̀/",
+      "example_translation": "Ton conseil est bon."
+    },
+    {
+      "word_id": "v5",
+      "term": "à kɔ̀ɔ̄",
+      "phonetic_api": "/à kɔ̀ɔ̄/",
+      "phonetic_simple": "a ko-o",
+      "translation": "d'abord, avant",
+      "example_sentence": "À kɔ̀ɔ̄, ì kɛ́ì pɛ́lɛ́.",
+      "example_phonetic": "/à kɔ̀ɔ̄, ì kɛ́ì pɛ́lɛ́/",
+      "example_translation": "D'abord, balaie la chambre."
+    },
+    {
+      "word_id": "v6",
+      "term": "ɓīī",
+      "phonetic_api": "/ɓīī/",
+      "phonetic_simple": "BI-i",
+      "translation": "parce que",
+      "example_sentence": "Ɓīī yē lɛ́ lɛ̄ sɛ̀.",
+      "example_phonetic": "/ɓīī jē lɛ́ lɛ̄ sɛ̀/",
+      "example_translation": "Parce que c'est bien ainsi."
+    },
+    {
+      "word_id": "v7",
+      "term": "gé lī",
+      "phonetic_api": "/gé lī/",
+      "phonetic_simple": "gué LI",
+      "translation": "accepter, être satisfait",
+      "example_sentence": "Ŋ̄ gé lī ī gèē là.",
+      "example_phonetic": "/ŋ̄ gé lī ī gèē là/",
+      "example_translation": "J'accepte ton conseil."
+    },
+    {
+      "word_id": "v8",
+      "term": "mɛ̀",
+      "phonetic_api": "/mɛ̀/",
+      "phonetic_simple": "MÈ",
+      "translation": "savoir, comprendre",
+      "example_sentence": "Íì mɛ̀ ā?",
+      "example_phonetic": "/íì mɛ̀ ā/",
+      "example_translation": "Tu comprends ?"
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p18_1",
-      "original": "Ń ka à kɛ mɛ̀ fɛ̃́ ?",
-      "phonetic_api": "/ń ka˧ a˧ kɛ˧ mɛ˩ fɛ̃˦/",
-      "phonetic_simple": "N KAH A KÈ MÈ FENG ?",
-      "translation": "Comment dois-je faire cela ? / Que dois-je faire ?",
-      "context": "Demander une instruction ou une marche à suivre face à une difficulté."
+      "phrase_id": "p1",
+      "original": "Ŋ̄ gèē mɛ̀ɛ̄ ī ɓɛ̄?",
+      "phonetic_api": "/ŋ̄ gèē mɛ̀ɛ̄ ī ɓɛ̄/",
+      "phonetic_simple": "ng guè-è mè-è i bè",
+      "translation": "Que puis-je te conseiller ?",
+      "context": "Formule d'ouverture pour proposer un conseil."
     },
     {
-      "phrase_id": "p18_2",
-      "original": "Lɛ-wɔ̃ dōo gɛ ń la baika.",
-      "phonetic_api": "/lɛ˧wɔ̃˧ doː˧ ɡɛ˧ ń la˧ bai̯˧ka˧/",
-      "phonetic_simple": "LÈ-WONG DÔÔ GÈ N LA BAÏ-KAH.",
-      "translation": "Donne-moi un conseil s'il te plaît.",
-      "context": "Solliciter humblement l'avis d'un aîné ou d'un collègue."
+      "phrase_id": "p2",
+      "original": "À kɔ̀ɔ̄, ì kɛ́ì pɛ́lɛ́, yēlɛ́ ì ɓū ɓèlè.",
+      "phonetic_api": "/à kɔ̀ɔ̄, ì kɛ́ì pɛ́lɛ́, jēlɛ́ ì ɓū ɓèlè/",
+      "phonetic_simple": "a ko-o, i ké-i pé-lé, yé-lé i bou bè-lè",
+      "translation": "D'abord, balaie la chambre, ensuite mange le riz.",
+      "context": "Séquence d'instructions avec à kɔ̀ɔ̄...yēlɛ́."
     },
     {
-      "phrase_id": "p18_3",
-      "original": "Kɛ à gbe-gbe !",
-      "phonetic_api": "/kɛ˧ a˧ ɡbe˧ɡbe˧/",
-      "phonetic_simple": "KÈ A GBÉ-GBÉ !",
-      "translation": "Fais-le correctement ! / Suis bien l'instruction !",
-      "context": "Donner une directive claire et ferme."
+      "phrase_id": "p3",
+      "original": "Ī gèē lɛ̄ sɛ̀, ŋ̄ gé lī.",
+      "phonetic_api": "/ī gèē lɛ̄ sɛ̀, ŋ̄ gé lī/",
+      "phonetic_simple": "i guè-è lê sè, ng gué li",
+      "translation": "Ton conseil est bon, je l'accepte.",
+      "context": "Réponse positive à un conseil reçu."
     },
     {
-      "phrase_id": "p18_4",
-      "original": "Í ka kpan mɛ̀ bɔ la ɓɛ.",
-      "phonetic_api": "/i˦ ka˧ kpã˧ mɛ˩ ɓɔ˧ la˧ ɓɛ˧/",
-      "phonetic_simple": "EE KAH KPANG MÈ BOR LA BÈ.",
-      "translation": "Tu dois enlever cette assiette d'ici.",
-      "context": "Donner une consigne domestique ou organisationnelle."
+      "phrase_id": "p4",
+      "original": "Íì mɛ̀ ŋ̄ gèē là ā?",
+      "phonetic_api": "/íì mɛ̀ ŋ̄ gèē là ā/",
+      "phonetic_simple": "i-i mè ng guè-è la a",
+      "translation": "Comprends-tu mon conseil ?",
+      "context": "Vérifie la compréhension d'une instruction donnée."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'impératif direct et exhortatif pour donner des instructions",
-      "explanation": "Pour donner une instruction ou un conseil direct en Mano, on omet souvent le pronom sujet à la deuxième personne du singulier, laissant le verbe en tête de phrase. Pour adoucir l'ordre ou exprimer une forte recommandation, on emploie la structure d'obligation 'ka' vue à la leçon 7.",
+      "concept": "Structurer une instruction séquentielle avec à kɔ̀ɔ̄ et yēlɛ́",
+      "explanation": "Pour donner des instructions en plusieurs étapes, le mano encadre la première étape avec à kɔ̀ɔ̄ ('d'abord') et introduit chaque étape suivante avec le connecteur yēlɛ́ ('ensuite'), assurant la cohésion temporelle du discours instructif.",
       "rules": [
-        "Instruction directe : [Verbe d'action] + [Complément].",
-        "Conseil / Recommandation : [Pronom Sujet] + ka + [Verbe d'action]."
+        "Première étape : À kɔ̀ɔ̄, + Sujet.SBJV + Objet + Verbe",
+        "Étape suivante : Yēlɛ́ + Sujet.SBJV + Objet + Verbe",
+        "Le subjonctif (ì, è, kò...) porte la valeur d'instruction/suggestion polie, moins abrupte qu'un impératif brut"
       ],
       "examples": [
         {
-          "structure": "Lɔ tɛ́ɛ-tɛ́ɛ !",
-          "phonetic_api": "/lɔ˧ tɛ˦tɛ˦/",
-          "meaning": "Va tout droit ! (Instruction)"
+          "structure": "À kɔ̀ɔ̄, ì kɛ́ì pɛ́lɛ́.",
+          "phonetic_api": "/à kɔ̀ɔ̄, ì kɛ́ì pɛ́lɛ́/",
+          "meaning": "D'abord, balaie la chambre."
         },
         {
-          "structure": "Í ka lɔ tina.",
-          "phonetic_api": "/i˦ ka˧ lɔ˧ ti˧na˧/",
-          "meaning": "Tu devrais partir demain. / Tu dois partir demain. (Conseil)"
+          "structure": "Yēlɛ́ ì ɓū ɓèlè.",
+          "phonetic_api": "/jēlɛ́ ì ɓū ɓèlè/",
+          "meaning": "Ensuite, mange le riz."
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Jeune homme",
-      "text": "Ń de, ti-wɔ̃ mɛ̀ gbɛ̃́ ɓe ń la. Lɛ-wɔ̃ gɛ ń la baika.",
-      "phonetic_api": "/ń de˧ ti˧wɔ̃˧ mɛ˩ ɡbɛ̃˦ ɓe˧ ń la˧ lɛ˧wɔ̃˧ ɡɛ˧ ń la˧ bai̯˧ka˧/",
-      "phonetic_simple": "N DÉ, TEE-WONG MÈ GBENG BÉ N LA. LÈ-WONG GÈ N LA BAÏ-KAH.",
-      "translation": "Mon père, j'ai une grande affaire de travail sur moi. Donne-moi un conseil s'il te plaît."
+      "speaker": "Élève",
+      "text": "Ŋ̄ gèē mɛ̀ɛ̄ ī ɓɛ̄ ŋ̄ kàlà kɛ̄ là?",
+      "phonetic_api": "/ŋ̄ gèē mɛ̀ɛ̄ ī ɓɛ̄ ŋ̄ kàlà kɛ̄ là/",
+      "phonetic_simple": "ng guè-è mè-è i bè ng ka-la kê la",
+      "translation": "Que me conseilles-tu pour mes études ?"
     },
     {
-      "speaker": "Ancien",
-      "text": "Í ka ti kɛ gbe-gbe wúlù mĩ́, yí í bɔ́ fã́ kɛ la.",
-      "phonetic_api": "/i˦ ka˧ ti˧ kɛ˧ ɡbe˧ɡbe˧ wu˦lu˩ mĩ˦ ji˦ i˦ ɓɔ˦ fã˦ kɛ˧ la˧/",
-      "phonetic_simple": "EE KAH TEE KÈ GBÉ-GBÉ OU-LOU MEENG, GUEE EE BOR FANG KÈ LA.",
-      "translation": "Tu dois travailler correctement en ville, et tu ne dois pas te mettre en colère (agir avec colère)."
+      "speaker": "Kàlàmɔ́ɔ̀",
+      "text": "À kɔ̀ɔ̄, ì kàlà mɛ̰̀ɛ̰̄ sɛ̀kɛ̄, yēlɛ́ ì à kɛ̄ ɓīī yē lɛ́ lɛ̄ sɛ̀.",
+      "phonetic_api": "/à kɔ̀ɔ̄, ì kàlà mɛ̰̀ɛ̰̄ sɛ̀kɛ̄, jēlɛ́ ì à kɛ̄ ɓīī jē lɛ́ lɛ̄ sɛ̀/",
+      "phonetic_simple": "a ko-o, i ka-la mèn-èn sè-kê, yé-lé i a kê bi-i yé lé lê sè",
+      "translation": "D'abord, écoute bien la leçon, ensuite fais l'exercice parce que c'est bien ainsi."
     },
     {
-      "speaker": "Jeune homme",
-      "text": "Bika sēe ń de, ń wɔ loni.",
-      "phonetic_api": "/bi˧ka˧ seː˧˧ ń de˧ ń wɔ˦ lo˧ni˧/",
-      "phonetic_simple": "BEE-KAH SÉÉ N DÉ, N WOR LONEE.",
-      "translation": "Merci beaucoup mon père, j'ai compris."
+      "speaker": "Élève",
+      "text": "Ī gèē lɛ̄ sɛ̀, ŋ̄ gé lī.",
+      "phonetic_api": "/ī gèē lɛ̄ sɛ̀, ŋ̄ gé lī/",
+      "phonetic_simple": "i guè-è lê sè, ng gué li",
+      "translation": "Ton conseil est bon, je l'accepte."
+    },
+    {
+      "speaker": "Kàlàmɔ́ɔ̀",
+      "text": "Íì mɛ̀ ŋ̄ gèē là ā?",
+      "phonetic_api": "/íì mɛ̀ ŋ̄ gèē là ā/",
+      "phonetic_simple": "i-i mè ng guè-è la a",
+      "translation": "Comprends-tu mon conseil ?"
     }
   ],
   "cultural_notes": [
-    "Dans les communautés Mano de Guinée Forestière, l'arbre à palabres ou la cour de la concession de l'aîné est le lieu privilégié pour demander conseil ('lɛ-wɔ̃'). La jeunesse sollicite régulièrement la guidance des anciens avant de prendre des décisions majeures (mariage, voyage à Conakry, investissement agricole). Écouter un conseil avec déférence est considéré comme le signe d'une excellente éducation."
+    "Les conseils des aînés (dɔ̄mì, personnes âgées) occupent une place centrale dans la transmission orale du savoir en pays mano, souvent formulés sous forme de proverbes ou d'instructions séquentielles précises.",
+    "L'usage du connecteur yēlɛ́ ('ensuite') est également typique des contes traditionnels, où il structure la progression narrative — ce même connecteur relie donc récit et discours instructif dans la culture mano."
   ],
   "exercises": [
     {
-      "exercise_id": "ex18_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Que signifie le terme composé 'lɛ-wɔ̃' en Mano ?",
+      "question": "Quel connecteur introduit une étape suivante dans une série d'instructions ?",
       "options": [
-        "Un outil de travail",
-        "Un conseil / une instruction",
-        "Une direction spatiale"
+        "ɓīī",
+        "yēlɛ́",
+        "kálá"
       ],
-      "correct_answer": "Un conseil / une instruction",
-      "explanation": "'lɛ-wɔ̃' désigne la parole d'orientation, l'avis ou le conseil donné à quelqu'un."
+      "correct_answer": "yēlɛ́",
+      "explanation": "yēlɛ́ ('ensuite') introduit l'étape suivante ; ɓīī signifie 'parce que' et kálá signifie 'mais'."
     },
     {
-      "exercise_id": "ex18_2",
+      "exercise_id": "ex2",
+      "type": "multiple_choice",
+      "question": "Quelle série d'auxiliaires porte la valeur de suggestion polie dans une instruction ?",
+      "options": [
+        "prétérit",
+        "subjonctif",
+        "parfait"
+      ],
+      "correct_answer": "subjonctif",
+      "explanation": "Le subjonctif (ì, è, kò...) exprime une instruction ou suggestion, moins abrupte qu'un impératif direct."
+    },
+    {
+      "exercise_id": "ex3",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Pour demander un conseil, on dit : Lɛ-wɔ̃ dōo [ ___ ] ń la baika.",
-      "correct_answer": "gɛ",
-      "hint": "C'est le verbe qui signifie 'donner' ou 'transmettre'."
+      "sentence_with_blank": "À kɔ̀ɔ̄, ì kɛ́ì pɛ́lɛ́, [ ___ ] ì ɓū ɓèlè. (D'abord balaie la chambre, ensuite mange le riz.)",
+      "correct_answer": "yēlɛ́",
+      "hint": "yēlɛ́ signifie 'ensuite', il introduit la deuxième étape de l'instruction."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Khachaturyan, M. (2015) Grammaire du mano, Mandenkan 54, LLACAN/CNRS",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan54/54khachaturyan.pdf"
+    },
+    {
+      "label": "Khachaturyan, M., Carbo, M., Mamy, P. (2022) Dictionnaire mano-français, Mandenkan 67, LLACAN/CNRS",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan67/67mano_dict_all.pdf"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Le connecteur yēlɛ́ et le subjonctif sont attestés dans la grammaire de Khachaturyan (Mandenkan 54) ; les formules complètes de demande de conseil ont été construites par combinaison de structures attestées (gèē 'dire', mɛ̀ 'savoir/comprendre'), d'où une confiance moyenne sur leur usage idiomatique exact."
 }

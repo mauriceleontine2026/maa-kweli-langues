@@ -6,118 +6,213 @@
   "lesson_number": 1,
   "title": "Parler de sa maison, de son logement et de sa ville",
   "learning_objectives": [
-    "Décrire précisément les pièces d'un logement",
-    "Exprimer des notions de superficie et de confort de base"
+    "Décrire son logement et ses pièces principales",
+    "Situer sa maison dans son village ou sa ville avec des postpositions locatives",
+    "Utiliser des adjectifs descriptifs simples appliqués à l'habitat"
   ],
   "phonetic_focus": {
-    "key_sounds": "La nasale interne exige une résonance ferme. Veillez au ton haut prolongé sur le substantif désignant l'habitation.",
-    "common_pitfalls": "Attention à ne pas faire une pause glottale indue au milieu du mot composé décrivant le village."
+    "key_sounds": "Les termes d'habitat en kpele/kono comportent souvent des séquences vocaliques longues (áa, óo) marquant l'allongement expressif ou lexical, à ne pas raccourcir à l'oral.",
+    "common_pitfalls": "Les francophones ont tendance à raccourcir les voyelles longues, ce qui peut créer une ambiguïté avec des mots à voyelle brève de sens différent."
   },
   "vocabulary": [
     {
-      "word_id": "v10_1",
-      "term": "kɛ̃́ɛ́",
-      "phonetic_api": "/kɛ̃́ː/",
-      "phonetic_simple": "KEEEE",
-      "translation": "maison / case",
-      "example_sentence": "ń kɛ̃́ɛ́ a ɓá.",
-      "example_phonetic": "/ń kɛ̃́ː a ɓá/",
-      "example_translation": "Ma maison est grande."
+      "word_id": "v1",
+      "term": "kâa",
+      "phonetic_api": "/kâː/",
+      "phonetic_simple": "KA-A",
+      "translation": "maison (kpele apparenté)",
+      "example_sentence": "Ɲá kâa gáa Lɔ̀raà pɔ́.",
+      "example_phonetic": "/ɲá kâː gáː lɔ̀raː pɔ́/",
+      "example_translation": "Ma maison est à Lola."
     },
     {
-      "word_id": "v10_2",
-      "term": "táá",
-      "phonetic_api": "/táː/",
-      "phonetic_simple": "TAA",
-      "translation": "ville / grand village",
-      "example_sentence": "Lola le táá ɓá le.",
-      "example_phonetic": "/lola le táː ɓá le/",
-      "example_translation": "Lola est une grande ville."
+      "word_id": "v2",
+      "term": "wɔ́lɔ́ɔ",
+      "phonetic_api": "/wɔ́lɔ́ɔ/",
+      "phonetic_simple": "WO-LO-O",
+      "translation": "village (kpele apparenté)",
+      "example_sentence": "Ɲá wɔ́lɔ́ɔ nú kɔ́lɔ.",
+      "example_phonetic": "/ɲá wɔ́lɔ́ɔ nú kɔ́lɔ/",
+      "example_translation": "Mon village est grand."
     },
     {
-      "word_id": "v10_3",
-      "term": "kpɛ́lɛ́",
-      "phonetic_api": "/kpɛ́lɛ́/",
-      "phonetic_simple": "KPE-LE",
-      "translation": "chambre / espace clos",
-      "example_sentence": "ń yé kpɛ́lɛ́ kɔ́ɔ́.",
-      "example_phonetic": "/ń jé kpɛ́lɛ́ kɔ́ː/",
-      "example_translation": "Je suis dans la chambre."
+      "word_id": "v3",
+      "term": "kɔ́lɔ",
+      "phonetic_api": "/kɔ́lɔ/",
+      "phonetic_simple": "KO-LO",
+      "translation": "grand (kpele apparenté)",
+      "example_sentence": "Kâa kɔ́lɔ.",
+      "example_phonetic": "/kâː kɔ́lɔ/",
+      "example_translation": "Une grande maison."
+    },
+    {
+      "word_id": "v4",
+      "term": "féle",
+      "phonetic_api": "/féle/",
+      "phonetic_simple": "FÉ-LÈ",
+      "translation": "petit (kpele apparenté)",
+      "example_sentence": "Kâa féle.",
+      "example_phonetic": "/kâː féle/",
+      "example_translation": "Une petite maison."
+    },
+    {
+      "word_id": "v5",
+      "term": "kɛ̀lɛ̀ɛ",
+      "phonetic_api": "/kɛ̀lɛ̀ː/",
+      "phonetic_simple": "KÈ-LÈ-É",
+      "translation": "chambre, pièce (kpele apparenté)",
+      "example_sentence": "Kɛ̀lɛ̀ɛ hwer̀ɛ̀ gáa kâa pɔ́.",
+      "example_phonetic": "/kɛ̀lɛ̀ː hwèrɛ̀ gáː kâː pɔ́/",
+      "example_translation": "Il y a deux chambres dans la maison."
+    },
+    {
+      "word_id": "v6",
+      "term": "gáa",
+      "phonetic_api": "/gáː/",
+      "phonetic_simple": "GA-A",
+      "translation": "être (locatif), se trouver (kono attesté)",
+      "example_sentence": "Kâa gáa wɔ́lɔ́ɔ pɔ́.",
+      "example_phonetic": "/kâː gáː wɔ́lɔ́ɔ pɔ́/",
+      "example_translation": "La maison se trouve dans le village."
+    },
+    {
+      "word_id": "v7",
+      "term": "pɔ́",
+      "phonetic_api": "/pɔ́/",
+      "phonetic_simple": "PO",
+      "translation": "à, dans, vers (postposition locative, kono attesté)",
+      "example_sentence": "Ɲá gáa kâa pɔ́.",
+      "example_phonetic": "/ɲá gáː kâː pɔ́/",
+      "example_translation": "Je suis à la maison."
+    },
+    {
+      "word_id": "v8",
+      "term": "sûu",
+      "phonetic_api": "/sûː/",
+      "phonetic_simple": "SOU-OU",
+      "translation": "toit (kpele apparenté)",
+      "example_sentence": "Kâa sûu féle.",
+      "example_phonetic": "/kâː sûː féle/",
+      "example_translation": "La maison a un petit toit."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p10_1",
-      "original": "Í kɛ̃́ɛ́ a nìɛ̀ kɛ́nɛ̀.",
-      "phonetic_api": "/í kɛ̃́ː a nìɛ̀ kɛ́nɛ̀/",
-      "phonetic_simple": "I KEEEE A NIE KE-NE",
-      "translation": "Ta maison est très belle.",
-      "context": "Faire un compliment à son hôte."
+      "phrase_id": "p1",
+      "original": "Ɲá kâa gáa Lɔ̀raà pɔ́.",
+      "phonetic_api": "/ɲá kâː gáː lɔ̀raː pɔ́/",
+      "phonetic_simple": "NYA KA-A GA-A LO-RAA PO",
+      "translation": "Ma maison est à Lola.",
+      "context": "Pour situer son logement géographiquement."
     },
     {
-      "phrase_id": "p10_2",
-      "original": "Ń táá káá kánú ɓá kɔ́ɔ́.",
-      "phonetic_api": "/ń táː káː kánú ɓá kɔ́ː/",
-      "phonetic_simple": "N TAA KAA KA-NU BHA KOO",
-      "translation": "Ma ville se situe près de la grande montagne.",
-      "context": "Localiser géographiquement sa localité d'origine."
+      "phrase_id": "p2",
+      "original": "Kɛ̀lɛ̀ɛ hwer̀ɛ̀ gáa kâa pɔ́.",
+      "phonetic_api": "/kɛ̀lɛ̀ː hwèrɛ̀ gáː kâː pɔ́/",
+      "phonetic_simple": "KÈ-LÈ-É HOUÉ-RÈ GA-A KA-A PO",
+      "translation": "Il y a deux chambres dans la maison.",
+      "context": "Pour décrire l'agencement intérieur du logement."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Ɲá wɔ́lɔ́ɔ nú kɔ́lɔ.",
+      "phonetic_api": "/ɲá wɔ́lɔ́ɔ nú kɔ́lɔ/",
+      "phonetic_simple": "NYA WO-LO-O NOU KO-LO",
+      "translation": "Mon village est grand.",
+      "context": "Pour décrire la taille de sa localité."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Kâa féle, kâa kɔ́lɔ dɛ́?",
+      "phonetic_api": "/kâː féle kâː kɔ́lɔ dɛ́/",
+      "phonetic_simple": "KA-A FÉ-LÈ, KA-A KO-LO DÉ",
+      "translation": "Petite maison ou grande maison ?",
+      "context": "Question comparative simple sur la taille du logement."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'adjectif qualificatif verbalisé 'a + radical'",
-      "explanation": "Pour attribuer une qualité de manière prédicative (ex: la maison EST grande), on emploie le morphème impersonnel 'a' suivi directement de la racine qualificative sans le verbe être.",
+      "concept": "Construction existentielle avec gáa + pɔ́",
+      "explanation": "Pour indiquer qu'un élément se trouve dans un lieu ou qu'un lieu contient quelque chose, le kono/kpele utilise le verbe locatif gáa suivi de la postposition pɔ́ après le nom de lieu. Cette construction sert à la fois de verbe « être » locatif et de tournure existentielle « il y a ».",
       "rules": [
-        "Le radical qualificatif conserve son ton lexical d'origine.",
-        "Cette structure s'applique à tous les adjectifs de dimension ou d'état."
+        "Sujet + gáa + Lieu + pɔ́ = le sujet se trouve dans/à ce lieu.",
+        "La même construction peut se lire comme « il y a Sujet dans Lieu » selon le contexte.",
+        "L'adjectif qualificatif (kɔ́lɔ, féle) se place après le nom qu'il qualifie, jamais avant."
       ],
       "examples": [
         {
-          "structure": "kɛ̃́ɛ́ + a + ɓá",
-          "phonetic_api": "/kɛ̃́ː a ɓá/",
-          "meaning": "La maison est grande."
+          "structure": "Nom + gáa + Lieu + pɔ́",
+          "phonetic_api": "/gáː … pɔ́/",
+          "meaning": "Nom se trouve à/dans Lieu"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Koli",
-      "text": "Í yé habiter mí pɔ́ ?",
-      "phonetic_api": "/í jé habiter mí pɔ́/",
-      "phonetic_simple": "I YE habiter MI PO ?",
-      "translation": "Où habites-tu ?"
+      "speaker": "Sèni",
+      "text": "Ɲá kâa gáa Lɔ̀raà pɔ́, kâa kɔ́lɔ.",
+      "phonetic_api": "/ɲá kâː gáː lɔ̀raː pɔ́ kâː kɔ́lɔ/",
+      "phonetic_simple": "NYA KA-A GA-A LO-RAA PO, KA-A KO-LO",
+      "translation": "Ma maison est à Lola, une grande maison."
     },
     {
-      "speaker": "Sia",
-      "text": "Ń yé kɛ̃́ɛ́ dóó kɔ́ɔ́ táá kɔ́ɔ́ yáá.",
-      "phonetic_api": "/ń jé kɛ̃́ː dóː kɔ́ː táː kɔ́ː jáː/",
-      "phonetic_simple": "N YE KEEEE DOO KOO TAA KOO YAA",
-      "translation": "Habiter dans une maison ici en ville."
+      "speaker": "Bala",
+      "text": "Kɛ̀lɛ̀ɛ ɛ́ nú kâa pɔ́?",
+      "phonetic_api": "/kɛ̀lɛ̀ː ɛ́ nú kâː pɔ́/",
+      "phonetic_simple": "KÈ-LÈ-É É NOU KA-A PO",
+      "translation": "Combien de chambres y a-t-il dans la maison ?"
+    },
+    {
+      "speaker": "Sèni",
+      "text": "Kɛ̀lɛ̀ɛ haɓ̀à gáa kâa pɔ́.",
+      "phonetic_api": "/kɛ̀lɛ̀ː hàɓà gáː kâː pɔ́/",
+      "phonetic_simple": "KÈ-LÈ-É HA-BA GA-A KA-A PO",
+      "translation": "Il y a trois chambres dans la maison."
+    },
+    {
+      "speaker": "Bala",
+      "text": "Ɲá wɔ́lɔ́ɔ féle, kâa féle dɔ́mɔ́.",
+      "phonetic_api": "/ɲá wɔ́lɔ́ɔ féle kâː féle dɔ́mɔ́/",
+      "phonetic_simple": "NYA WO-LO-O FÉ-LÈ, KA-A FÉ-LÈ DO-MO",
+      "translation": "Mon village est petit, ma maison aussi est petite."
     }
   ],
   "cultural_notes": [
-    "L'architecture traditionnelle konon intègre de plus en plus de toitures en tôle moderne, remplaçant progressivement le chaume d'origine dans les centres comme Lola."
+    "Dans les villages de la région forestière, l'habitat traditionnel se compose souvent de plusieurs cases rondes ou rectangulaires en terre battue regroupées autour d'une cour familiale commune, plutôt que d'une seule grande maison.",
+    "Le toit de chaume (sûu) reste courant en zone rurale, bien que la tôle ondulée se généralise progressivement dans les centres urbains comme Lola ou N'Zérékoré."
   ],
   "exercises": [
     {
-      "exercise_id": "ex10_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Que signifie 'kɛ̃́ɛ́' ?",
+      "question": "Quelle postposition utilise-t-on pour situer un lieu en kono ?",
       "options": [
-        "Champ",
-        "Maison",
-        "Forêt"
+        "pɔ́",
+        "dɛ́",
+        "kɔ́lɔ"
       ],
-      "correct_answer": "Maison",
-      "explanation": "'kɛ̃́ɛ́' désigne le lieu d'habitation ou le bâtiment résidentiel."
+      "correct_answer": "pɔ́",
+      "explanation": "pɔ́ est la postposition locative kono attestée signifiant « à, dans, vers »."
     },
     {
-      "exercise_id": "ex10_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "ń táá a [ ___ ] (Ma ville est grande)",
-      "correct_answer": "ɓá",
-      "hint": "Grand / Imposant."
+      "sentence_with_blank": "Ɲá kâa ___ Lɔ̀raà pɔ́. (Ma maison est à Lola.)",
+      "correct_answer": "gáa",
+      "hint": "Le verbe locatif kono signifiant « être/se trouver »."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Maria Konoshenko, « Field Notes on Kono, a Southwestern Mande Lect of Forest Guinea », Mandenkan 57 (2017), pp. 77-107",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan57/konoshenko57.pdf"
+    },
+    {
+      "label": "Maria Konoshenko, « Dictionnaire kpele de la Guinée (guerzé) – français », Mandenkan 62 (2019/2020)",
+      "url": "https://journals.openedition.org/mandenkan/2091"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Peu de lexique Kono publié couvre ce champ sémantique précis. Le contenu s'appuie ici avec prudence sur le Kpelle de Guinée (guerzé, gkp), langue mandée du sud-ouest très proche du Kono (90% de cognats lexicaux selon Konoshenko 2017) et documentée par un dictionnaire académique de 3000 entrées. Les mots kpele sont signalés comme tels et pourraient différer légèrement du Kono authentique sur certains points de phonologie ou de lexique. Les postpositions et le verbe locatif gáa sont attestés en kono ; le lexique de l'habitat (kâa, kɛ̀lɛ̀ɛ, sûu) provient du kpele apparenté."
 }

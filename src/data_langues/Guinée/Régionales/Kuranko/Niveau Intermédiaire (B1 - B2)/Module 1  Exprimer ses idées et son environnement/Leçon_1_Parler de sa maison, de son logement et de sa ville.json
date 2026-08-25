@@ -6,183 +6,198 @@
   "lesson_number": 1,
   "title": "Parler de sa maison, de son logement et de sa ville",
   "learning_objectives": [
-    "Décrire son habitation et énumérer les principales pièces de la maison",
-    "Situer son logement dans un quartier ou une ville spécifique",
-    "Utiliser les marqueurs de localisation spatiale et les verbes d'état"
+    "Décrire son logement (so) et sa localisation en kuranko",
+    "Nommer les repères urbains réels de Kabala et Koinadugu",
+    "Construire une phrase descriptive simple sur son lieu de vie"
   ],
   "phonetic_focus": {
-    "key_sounds": "La consonne 's' dans 'so' (maison) est sibilante et très nette. Le digramme 'gb' dans 'gbun' (chambre) s'articule comme une seule unité sonore occlusive vélaire-bilabiale. La voyelle longue 'oo' dans 'sooba' doit être maintenue.",
-    "common_pitfalls": "Ne pas confondre 'so' (maison/village, voyelle brève) avec 'soo' (cheval, voyelle longue)."
+    "key_sounds": "Le mot « so » (maison) est monosyllabique avec un ton moyen ; il ne faut pas le confondre avec d'autres monosyllabes courts du kuranko qui portent des tons différents.",
+    "common_pitfalls": "Les francophones ont tendance à allonger artificiellement les monosyllabes kuranko, alors que leur brièveté et leur ton sont les seuls traits distinctifs."
   },
   "vocabulary": [
     {
-      "word_id": "v1_b1_m1",
-      "term": "So",
+      "word_id": "v1",
+      "term": "so",
       "phonetic_api": "/so/",
-      "phonetic_simple": "SO",
-      "translation": "Maison / Case / Village",
-      "example_sentence": "N bɛ n ya so la",
-      "example_phonetic": "/ɱ͡bɛ ɲ͡ja so la/",
-      "example_translation": "Je suis chez moi (dans ma maison)"
+      "phonetic_simple": "so",
+      "translation": "maison, village",
+      "example_sentence": "N so bara Kabala.",
+      "example_phonetic": "/n so bara kabala/",
+      "example_translation": "Ma maison est à Kabala."
     },
     {
-      "word_id": "v2_b1_m1",
-      "term": "Gbun",
-      "phonetic_api": "/g͡bun/",
-      "phonetic_simple": "GBOUN",
-      "translation": "Chambre / Pièce fermée",
-      "example_sentence": "N bɛ n da gbun kɔnɔ",
-      "example_phonetic": "/ɱ͡bɛ ɲ͡da g͡bun kɔ.nɔ/",
-      "example_translation": "Je dors dans ma chambre"
+      "word_id": "v2",
+      "term": "Kabala",
+      "phonetic_api": "/kabala/",
+      "phonetic_simple": "ka-BA-la",
+      "translation": "ville, chef-lieu du district de Koinadugu",
+      "example_sentence": "Kabala ka bɔ.",
+      "example_phonetic": "/kabala ka bɔ/",
+      "example_translation": "Kabala est grande/importante."
     },
     {
-      "word_id": "v3_b1_m1",
-      "term": "Kɛnɛ",
-      "phonetic_api": "/kɛ.nɛ/",
-      "phonetic_simple": "KƐ-NƐ",
-      "translation": "Cour / Espace ouvert / Lumière",
-      "example_sentence": "Alu bɛ so kɛnɛ ra",
-      "example_phonetic": "/a.lu bɛ so kɛ.nɛ ra/",
-      "example_translation": "Ils sont dans la cour de la maison"
+      "word_id": "v3",
+      "term": "Koinadugu",
+      "phonetic_api": "/kojnadugu/",
+      "phonetic_simple": "koï-na-DOU-gou",
+      "translation": "district de la Sierra Leone, cœur du pays kuranko",
+      "example_sentence": "So bara Koinadugu.",
+      "example_phonetic": "/so bara kojnadugu/",
+      "example_translation": "La maison/le village est à Koinadugu."
     },
     {
-      "word_id": "v4_b1_m1",
-      "term": "Sooba",
-      "phonetic_api": "/soː.ba/",
-      "phonetic_simple": "SOO-BA",
-      "translation": "Ville / Grande agglomération",
-      "example_sentence": "Conakry bɛ sooba ri",
-      "example_phonetic": "/co.na.kry bɛ soː.ba ri/",
-      "example_translation": "Conakry est une grande ville"
+      "word_id": "v4",
+      "term": "morgo",
+      "phonetic_api": "/morgo/",
+      "phonetic_simple": "MOR-go",
+      "translation": "personne, habitant",
+      "example_sentence": "Morgo caman bara so kelen.",
+      "example_phonetic": "/morgo tsaman bara so kɛlɛn/",
+      "example_translation": "Beaucoup de personnes vivent dans une seule maison."
     },
     {
-      "word_id": "v5_b1_m1",
-      "term": "Gwankun",
-      "phonetic_api": "/gwan.kun/",
-      "phonetic_simple": "GWAN-KOUN",
-      "translation": "Cuisine",
-      "example_sentence": "N ba bɛ gwankun kɔnɔ",
-      "example_phonetic": "/ŋ͡ba bɛ gwan.kun kɔ.nɔ/",
-      "example_translation": "Ma mère est dans la cuisine"
+      "word_id": "v5",
+      "term": "wale",
+      "phonetic_api": "/walɛ/",
+      "phonetic_simple": "OUA-lé",
+      "translation": "travail (agricole, souvent lié à la vie de village)",
+      "example_sentence": "Wale bara so dan na.",
+      "example_phonetic": "/walɛ bara so dan na/",
+      "example_translation": "Le travail se fait près de la maison."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p1_b1_m1",
-      "original": "I bɛ mi sigi ra ?",
-      "phonetic_api": "/i bɛ mi si.gi ra/",
-      "phonetic_simple": "I BƐ MI SI-GI RA ?",
-      "translation": "Où habites-tu ? (Où es-tu assis/installé ?)",
-      "context": "Demander le lieu de résidence à un niveau conversationnel."
+      "phrase_id": "p1",
+      "original": "N so bara Kabala.",
+      "phonetic_api": "/n so bara kabala/",
+      "phonetic_simple": "n so BA-ra ka-BA-la",
+      "translation": "Ma maison est à Kabala.",
+      "context": "Décrit le lieu de résidence en réutilisant « so » et le toponyme réel Kabala."
     },
     {
-      "phrase_id": "p2_b1_m1",
-      "original": "N sigira Faranah sooba ra",
-      "phonetic_api": "/ɲ͡si.gi.ra fa.ra.na soː.ba ra/",
-      "phonetic_simple": "N SI-GI-RA FA-RA-NA SOO-BA RA",
-      "translation": "J'habite dans la ville de Faranah",
-      "context": "Indiquer sa ville de résidence principale."
+      "phrase_id": "p2",
+      "original": "So bara Koinadugu.",
+      "phonetic_api": "/so bara kojnadugu/",
+      "phonetic_simple": "so BA-ra koï-na-DOU-gou",
+      "translation": "La maison/le village est à Koinadugu.",
+      "context": "Situe un lieu de vie dans le district réel où les Kuranko sont majoritaires."
     },
     {
-      "phrase_id": "p3_b1_m1",
-      "original": "Gbun jili bɛ i ya so la ?",
-      "phonetic_api": "/g͡bun d͡ʒi.li bɛ i ja so la/",
-      "phonetic_simple": "GBOUN DJI-LI BƐ I YA SO LA ?",
-      "translation": "Combien de chambres y a-t-il dans ta maison ?",
-      "context": "Demander des précisions sur les dimensions d'un logement."
+      "phrase_id": "p3",
+      "original": "Morgo caman bara so kelen.",
+      "phonetic_api": "/morgo tsaman bara so kɛlɛn/",
+      "phonetic_simple": "MOR-go tsa-MAN BA-ra so KÈ-lèn",
+      "translation": "Beaucoup de personnes vivent dans une seule maison.",
+      "context": "Reflète la structure familiale élargie typique des foyers kuranko ruraux."
     },
     {
-      "phrase_id": "p4_b1_m1",
-      "original": "Gbun sawa ni kɛnɛ kelɛn bɛ n ya so la",
-      "phonetic_api": "/g͡bun sa.wa ni kɛ.nɛ ke.lɛn bɛ ɲ͡ja so la/",
-      "phonetic_simple": "GBOUN SA-WA NI KƐ-NƐ KE-LƐN BƐ N YA SO LA",
-      "translation": "Il y a trois chambres et une cour dans ma maison",
-      "context": "Décrire succinctement son habitation."
+      "phrase_id": "p4",
+      "original": "Ɔwɔ, na keli meenu bara so kelen.",
+      "phonetic_api": "/ɔwɔ na keli meːnu bara so kelen/",
+      "phonetic_simple": "O-wo, na KÈ-li MÉ-nou BA-ra so KÈ-lèn",
+      "translation": "Oui, les enfants de mêmes parents vivent dans une seule maison.",
+      "context": "Réutilise « na keli meenu » (enfants de mêmes père et mère, terme de parenté attesté chez Jackson) pour décrire l'organisation résidentielle familiale traditionnelle."
     }
   ],
   "grammar_points": [
     {
-      "concept": "Le verbe de résidence stable 'sigi'",
-      "explanation": "Pour exprimer le fait d'habiter ou de résider de manière durable à un endroit, le kuranko emploie le verbe 'sigi' (s'asseoir / s'établir) fléchi à l'inaccompli ou à l'accompli passif/état en '-ra'.",
+      "concept": "La construction locative avec « bara ... na »",
+      "explanation": "Pour situer un lieu ou une personne, le kuranko emploie une construction verbale avec « bara » (marqueur d'état/position) suivi éventuellement de « na » (postposition locative), sur le modèle observé dans les phrases attestées avec « so bara ... ».",
       "rules": [
-        "Structure à l'accompli d'état : [Sujet] + sigira + [Lieu] + ra/la",
-        "La postposition varie entre 'ra' et 'la' selon l'harmonie consonantique précédante."
+        "Le sujet précède « bara ».",
+        "Le complément de lieu suit directement, parfois complété par la postposition « na »."
       ],
       "examples": [
         {
-          "structure": "A sigira Kankan",
-          "phonetic_api": "/a si.gi.ra kan.kan/",
-          "meaning": "Il/Elle habite à Kankan"
-        }
-      ]
-    },
-    {
-      "concept": "La postposition d'intérieur 'kɔnɔ'",
-      "explanation": "Pour spécifier qu'un sujet se situe précisément à l'intérieur d'une pièce ou d'un contenant clos (chambre, cuisine, maison), on fait suivre le nom de la postposition 'kɔnɔ' (dedans / dans le ventre de).",
-      "rules": [
-        "Structure : [Nom du lieu] + kɔnɔ"
-      ],
-      "examples": [
-        {
-          "structure": "Gbun kɔnɔ",
-          "phonetic_api": "/g͡bun kɔ.nɔ/",
-          "meaning": "Dans la chambre"
+          "structure": "[sujet] + bara + [lieu]",
+          "phonetic_api": "/so bara kabala/",
+          "meaning": "la maison est à [lieu]"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Sékou",
-      "text": "Amara, i bɛ mi sigi ra bi fɛ ?",
-      "phonetic_api": "/a.ma.ra i bɛ mi si.gi ra bi fɛ/",
-      "phonetic_simple": "A-MA-RA, I BƐ MI SI-GI RA BI FƐ ?",
-      "translation": "Amara, où habites-tu ces temps-ci ?"
+      "speaker": "Aissatou",
+      "text": "I so bara min?",
+      "phonetic_api": "/i so bara min/",
+      "phonetic_simple": "i so BA-ra min",
+      "translation": "Où est ta maison ?"
     },
     {
-      "speaker": "Amara",
-      "text": "N sigira Conakry sooba ra, Kinifi ra.",
-      "phonetic_api": "/ɲ͡si.gi.ra co.na.kry soː.ba ra ki.ni.fi ra/",
-      "phonetic_simple": "N SI-GI-RA CO-NA-KRY SOO-BA RA, KI-NI-FI RA.",
-      "translation": "J'habite dans la ville de Conakry, au quartier Kenien."
+      "speaker": "Sori",
+      "text": "N so bara Kabala, Koinadugu.",
+      "phonetic_api": "/n so bara kabala kojnadugu/",
+      "phonetic_simple": "n so BA-ra ka-BA-la, koï-na-DOU-gou",
+      "translation": "Ma maison est à Kabala, dans le Koinadugu."
     },
     {
-      "speaker": "Sékou",
-      "text": "I ya so ka bon ?",
-      "phonetic_api": "/i ja so ka bon/",
-      "phonetic_simple": "I YA SO KA BON ?",
-      "translation": "Est-ce que ta maison est grande ?"
+      "speaker": "Aissatou",
+      "text": "Morgo caman bara so kelen?",
+      "phonetic_api": "/morgo tsaman bara so kɛlɛn/",
+      "phonetic_simple": "MOR-go tsa-MAN BA-ra so KÈ-lèn",
+      "translation": "Beaucoup de personnes vivent dans une seule maison ?"
     },
     {
-      "speaker": "Amara",
-      "text": "Ɔnhɔ, a ka bon. Gbun fila ni gwankun bɛ kɔnɔ.",
-      "phonetic_api": "/ɔn.hɔ a ka bon g͡bun fi.la ni gwan.kun bɛ kɔ.nɔ/",
-      "phonetic_simple": "ƆN-HƆ, A KA BON. GBOUN FI-LA NI GWAN-KOUN BƐ KƆ-NƆ.",
-      "translation": "Oui, elle est grande. Il y a deux chambres et une cuisine à l'intérieur."
+      "speaker": "Sori",
+      "text": "Ɔwɔ, na keli meenu bara so kelen.",
+      "phonetic_api": "/ɔwɔ na kɛli meːnu bara so kɛlɛn/",
+      "phonetic_simple": "O-wo, na KÈ-li MÉ-nou BA-ra so KÈ-lèn",
+      "translation": "Oui, les germains (frères et sœurs de mêmes parents) vivent dans une seule maison."
     }
   ],
   "cultural_notes": [
-    "Chez les Kuranko, la concession familiale ('so') héberge couramment plusieurs générations. Même dans les grandes villes ('sooba') comme Conakry ou Faranah, le logement garde une dimension communautaire forte où les espaces ouverts comme la cour ('kɛnɛ') restent le lieu privilégié de la vie sociale, des palabres et de la préparation des repas."
+    "Dans les villages kuranko traditionnels, plusieurs générations et lignées d'une même famille élargie partagent souvent le même « so » (maison/enclos familial), reflet de l'importance de la parenté élargie documentée par Michael Jackson.",
+    "Kabala, chef-lieu du district de Koinadugu, est le principal centre urbain du pays kuranko, mêlant vie rurale environnante et fonctions administratives et commerciales."
   ],
   "exercises": [
     {
-      "exercise_id": "ex1_b1_m1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Que signifie littéralement l'expression 'Gbun kɔnɔ' ?",
+      "question": "Quel district de la Sierra Leone est le cœur démographique du peuple kuranko ?",
       "options": [
-        "Derrière la maison",
-        "Dans la chambre",
-        "Devant la cuisine"
+        "Koinadugu",
+        "Bombali",
+        "Kailahun"
       ],
-      "correct_answer": "Dans la chambre",
-      "explanation": "'Gbun' désigne la chambre et 'kɔnɔ' exprime l'intérieur (dans/dedans)."
+      "correct_answer": "Koinadugu",
+      "explanation": "Koinadugu, avec son chef-lieu Kabala, est le district où les Kuranko sont historiquement majoritaires."
     },
     {
-      "exercise_id": "ex2_b1_m1",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Pour dire qu'une ville est grande, on utilise le mot compas composé : [ ___ ].",
-      "correct_answer": "sooba",
-      "hint": "Formé à partir de 'so' (maison/village) et 'ba' (grand)"
+      "sentence_with_blank": "N [ ___ ] bara Kabala. (Ma maison est à Kabala.)",
+      "correct_answer": "so",
+      "hint": "Ce mot signifie « maison »."
+    },
+    {
+      "exercise_id": "ex3",
+      "type": "multiple_choice",
+      "question": "Qui partage traditionnellement le même « so » dans un village kuranko ?",
+      "options": [
+        "Plusieurs générations d'une même famille élargie",
+        "Seulement les étrangers",
+        "Uniquement le chef du village"
+      ],
+      "correct_answer": "Plusieurs générations d'une même famille élargie",
+      "explanation": "La structure familiale élargie kuranko, décrite par Michael Jackson, réunit souvent plusieurs générations sous un même toit."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Wikipedia, \"Koinadugu District\"",
+      "url": "https://en.wikipedia.org/wiki/Koinadugu_District"
+    },
+    {
+      "label": "Michael Jackson, \"How Lifeworlds Work\" (Univ. of Chicago Press, 2022) — extraits",
+      "url": "https://dokumen.pub/how-lifeworlds-work-emotionality-sociality-and-the-ambiguity-of-being-9780226492018.html"
+    },
+    {
+      "label": "Wikipedia, \"Kuranko people\"",
+      "url": "https://en.wikipedia.org/wiki/Kuranko_people"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "« So » (maison), les toponymes Kabala/Koinadugu et le concept de « na keli meenu » sont attestés séparément par les sources listées. Les phrases complètes les combinant sont des constructions pédagogiques raisonnables non vérifiées mot à mot comme énoncé unique dans une source."
 }

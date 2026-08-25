@@ -1,170 +1,222 @@
 {
   "lesson_id": "C1_M3_L7",
-  "level": "Niveau Avancé (C1-C2)",
+  "level": "Avancé (C1-C2)",
   "module_number": 3,
   "module_title": "Maîtrise totale",
   "lesson_number": 7,
   "title": "Comprendre et analyser des textes littéraires ou historiques",
   "learning_objectives": [
-    "Analyser les structures narratives des récits historiques fondateurs konon",
-    "Décoder le langage ésotérique des généalogies claniques de la région de Lola",
-    "Manier les structures grammaticales archaïques spécifiques aux chants de mémoire"
+    "Analyser un exemple de phrase glosée tirée d'un corpus académique kono",
+    "Comprendre la structure d'une glose linguistique (interlinéaire) utilisée pour documenter le kono",
+    "Situer historiquement le kono de Guinée parmi les langues mandées du sud"
   ],
   "phonetic_focus": {
-    "key_sounds": "L'expression 'mámá-wóò' (le récit historique / la mémoire) exige des tons hauts particulièrement clairs et soutenus sur les premières syllabes. La consonne nasale /m/ s'articule avec une forte résonance nasale avant la voyelle allongée finale.",
-    "common_pitfalls": "Attention à ne pas appliquer les règles de contractions verbales du langage quotidien moderne lors de la récitation de textes historiques, chaque morphème archaïque doit être détaché avec gravité."
+    "key_sounds": "Les textes académiques sur le kono utilisent la notation tonale complète (accents aigus, graves, circonflexes, carons) qu'il faut apprendre à lire couramment pour accéder aux sources primaires disponibles.",
+    "common_pitfalls": "Confondre la transcription phonétique API utilisée dans les publications savantes avec une orthographe standardisée : le kono de Guinée n'a pas, à ce jour, d'orthographe officielle largement diffusée."
   },
   "vocabulary": [
     {
-      "word_id": "v7_1",
-      "term": "mámá-wóò",
-      "phonetic_api": "/má.má.wóː/",
-      "phonetic_simple": "MA-MA-WOO",
-      "translation": "l'histoire / le récit des origines / la mémoire collective",
-      "example_sentence": "ń bɛ́ mámá-wóò lɔ́-wòò ɓɔ́á gí",
-      "phonetic_api_example": "/ń ɓɛ́ má.má.wóː lɔ̀.wòː ɓɔ́.á ɡí/",
-      "example_translation": "Je déclame l'histoire de notre fondation ici."
+      "word_id": "v1",
+      "term": "Mandenkan",
+      "phonetic_api": "/mandenkan/",
+      "phonetic_simple": "MAN-DEN-KAN",
+      "translation": "nom de la revue académique consacrée aux langues mandées, où sont publiées les sources principales sur le kono",
+      "example_sentence": "Konoshenko (2017), Mandenkan 57.",
+      "example_phonetic": "/mandenkan/",
+      "example_translation": "Article publié dans la revue Mandenkan, numéro 57."
     },
     {
-      "word_id": "v7_2",
-      "term": "tɛ́ɛ́-mɔ̀ɔ̀",
-      "phonetic_api": "/tɛ́ː.mɔ̀ː/",
-      "phonetic_simple": "TEE-MOO",
-      "translation": "le sage / le traditionaliste / le gardien de la mémoire",
-      "example_sentence": "tɛ́ɛ́-mɔ̀ɔ̀ nìí káá lɔ́ gí kpaán",
-      "phonetic_api_example": "/tɛ́ː.mɔ̀ː nìː káː lɔ́ ɡí k͡pāːn/",
-      "example_translation": "Ce sage traditionaliste est le pilier de notre savoir ici."
+      "word_id": "v2",
+      "term": "kno / knu",
+      "phonetic_api": "/kno/, /knu/",
+      "phonetic_simple": "K-N-O / K-N-U",
+      "translation": "codes ISO 639-3 des deux langues distinctes appelées « Kono » (Sierra Leone = kno ; Guinée = knu)",
+      "example_sentence": "Le Kono de Guinée porte le code ISO knu, non kno.",
+      "example_phonetic": "/knu/",
+      "example_translation": "Distinction cruciale pour toute recherche bibliographique correcte."
     },
     {
-      "word_id": "v7_3",
-      "term": "lɔ́-wòò-gbíán",
-      "phonetic_api": "/lɔ̀.wòː.ɡ͡ɓí.án/",
-      "phonetic_simple": "LO-WOO-GBIAN",
-      "translation": "la langue originelle / la racine de la parole sacrée",
-      "example_sentence": "àá bɛ́ lɔ́-wòò-gbíán káláá míé",
-      "phonetic_api_example": "/àː ɓɛ́ lɔ̀.wòː.ɡ͡ɓí.án ká.láː mí.é/",
-      "example_translation": "Nous analysons la langue originelle à présent."
+      "word_id": "v3",
+      "term": "Beyla / Lola",
+      "phonetic_api": "/bɛjla/, /lɔla/",
+      "phonetic_simple": "BÉY-LA / LO-LA",
+      "translation": "deux préfectures de Guinée forestière ; Lola est la région historique du Kono (knu), Beyla celle du Konianké/Maninka",
+      "example_sentence": "Le Kono de Guinée est parlé à Lola, non à Beyla.",
+      "example_phonetic": "/lɔla/",
+      "example_translation": "Précision géographique essentielle pour situer la langue correctement."
     },
     {
-      "word_id": "v7_4",
-      "term": "síé",
-      "phonetic_api": "/sí.é/",
-      "phonetic_simple": "SIEE",
-      "translation": "s'asseoir / s'établir / fonder (un royaume, un village)",
-      "example_sentence": "àá ɓáá-ò wó síé-ò ɓɔ́ míé-mìè",
-      "phonetic_api_example": "/àː ɓáː.ò wó sí.é.ò ɓɔ́ mí.é.mì.è/",
-      "example_translation": "Nos ancêtres se sont établis ici autrefois."
+      "word_id": "v4",
+      "term": "Swadesh",
+      "phonetic_api": "/swadɛʃ/",
+      "phonetic_simple": "SOUA-DÈCH",
+      "translation": "liste standardisée de 100 mots de base utilisée en linguistique comparative, documentée pour le kono par Konoshenko (2017)",
+      "example_sentence": "La liste Swadesh du kono comprend les numéraux, pronoms et termes de base.",
+      "example_phonetic": "/swadɛʃ/",
+      "example_translation": "Outil de référence pour comparer les langues apparentées."
+    },
+    {
+      "word_id": "v5",
+      "term": "cognat lexical",
+      "phonetic_api": "/kɔɲat/",
+      "phonetic_simple": "KO-NYAT",
+      "translation": "mot partageant une origine commune entre deux langues apparentées ; le kono et le kpele partagent environ 90% de cognats lexicaux selon Konoshenko",
+      "example_sentence": "90% des mots du kono ont un cognat en kpele.",
+      "example_phonetic": "/kɔɲat/",
+      "example_translation": "Statistique clé justifiant l'usage prudent du kpele comme source supplémentaire."
+    },
+    {
+      "word_id": "v6",
+      "term": "TAM",
+      "phonetic_api": "/te a ɛm/",
+      "phonetic_simple": "T-A-M",
+      "translation": "abréviation académique pour « Temps-Aspect-Mode », système grammatical central documenté pour le kono",
+      "example_sentence": "Le système TAM du kono combine ton et marqueurs préverbaux.",
+      "example_phonetic": "/te a ɛm/",
+      "example_translation": "Cadre d'analyse grammaticale standard en linguistique."
+    },
+    {
+      "word_id": "v7",
+      "term": "Mandé du Sud(-Ouest)",
+      "phonetic_api": "/mandé dy sud/",
+      "phonetic_simple": "MAN-DÉ DU SUD",
+      "translation": "sous-groupe de la famille Mandé auquel appartiennent le kono de Guinée, le kpelle, le loma, le mano",
+      "example_sentence": "Le kono appartient au groupe mandé du sud-ouest, distinct du groupe vaï-kono de Sierra Leone.",
+      "example_phonetic": "/mandé dy sud/",
+      "example_translation": "Classification génétique de la langue."
+    },
+    {
+      "word_id": "v8",
+      "term": "Glottolog",
+      "phonetic_api": "/glɔtɔlɔg/",
+      "phonetic_simple": "GLO-TO-LOG",
+      "translation": "base de données linguistique de référence confirmant la classification et les codes du kono de Guinée et de Sierra Leone",
+      "example_sentence": "Glottolog distingue clairement kono1267 (Guinée) et kono1268 (Sierra Leone).",
+      "example_phonetic": "/glɔtɔlɔg/",
+      "example_translation": "Ressource de vérification bibliographique essentielle."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p7_1",
-      "original": "fɔ́ àá mámá-wóò gbíán kálá gíàn-gìàn lú gíán gboi nìí yíé",
-      "phonetic_api": "/fɔ́ àː má.má.wóː ɡ͡ɓí.án ká.á ɡí.àn.ɡì.àn lú ɡí.án ɡ͡ɓo.i nìː jí.é/",
-      "phonetic_simple": "FO AA MA-MA-WOO GBIAN KA-LA GIAN-GIAN LOO GIAN GBOI NII YIEE",
-      "translation": "Il faut que nous analysions sagement la racine de l'histoire des origines au sein de cette grande concession.",
-      "context": "Formule académique ou coutumière pour introduire l'étude d'un mythe fondateur."
+      "phrase_id": "p1",
+      "original": "Konoshenko, M. (2017). Field Notes on Kono, a Southwestern Mande Lect of Forest Guinea. Mandenkan 57, pp. 77-107.",
+      "phonetic_api": "—",
+      "phonetic_simple": "—",
+      "translation": "Référence bibliographique complète de la source académique principale de ce cours.",
+      "context": "Citation à utiliser pour toute vérification ou approfondissement académique du kono de Guinée."
     },
     {
-      "phrase_id": "p7_2",
-      "original": "tɛ́ɛ́-mɔ̀ɔ̀ wá lɔ́-wòò-gbíán ɓɔ́ míé-mìè pɔ́, àá lɔ́-ò à mɛ̀ɛ̀á",
-      "phonetic_api": "/tɛ́ː.mɔ̀ː wá lɔ̀.wòː.ɡ͡ɓí.án ɓɔ́ mí.é.mì.è pɔ́ àː lɔ́.ò à mɛ̀ː.á/",
-      "phonetic_simple": "TEE-MOO WA LO-WOO-GBIAN BO MIEE-MIEE PO AA LO-O A MEEA",
-      "translation": "Sitôt que le traditionaliste eut déclamé la langue originelle de jadis, nous commençâmes à comprendre.",
-      "context": "Raconter la transmission solennelle lors d'une initiation ou d'un cours magistral."
+      "phrase_id": "p2",
+      "original": "\"Kono of Guinea should not be confused with Kono of Sierra Leone.\"",
+      "phonetic_api": "—",
+      "phonetic_simple": "—",
+      "translation": "« Le Kono de Guinée ne doit pas être confondu avec le Kono de Sierra Leone. »",
+      "context": "Avertissement explicite formulé par l'auteure de l'article de référence elle-même, dans le résumé de son article."
     },
     {
-      "phrase_id": "p7_3",
-      "original": "wóò nìí á káá mámá-wóò le, à tɛ́ sánáá gbɛ́ɛ́ lá",
-      "phonetic_api": "/wóː nìː á káː má.má.wóː le à tɛ́ sá.náː ɡ͡ɓɛ́ː lá/",
-      "phonetic_simple": "WOO NII A KAA MA-MA-WOO LE A TE SANAA GBEE LA",
-      "translation": "Ce récit relève de la mémoire historique collective, il ne s'achète pas avec de l'argent.",
-      "context": "Rappeler le caractère inestimable et sacré du patrimoine immatériel face aux dérives modernes."
+      "phrase_id": "p3",
+      "original": "\"About 90% of the Kono lexicon has cognates in Kpelle.\"",
+      "phonetic_api": "—",
+      "phonetic_simple": "—",
+      "translation": "« Environ 90% du lexique kono a des cognats en kpelle. »",
+      "context": "Justification scientifique de l'usage du kpele comme source supplétive dans ce cours."
     },
     {
-      "phrase_id": "p7_4",
-      "original": "àá ɓáá-ò wó síé-ò lòlà gí mbɔ́-ò-lá kpɛ̀lɛ̀ káá wó yíé kpaán",
-      "phonetic_api": "/àː ɓáː.ò wó sí.é.ò lò.là ɡí mɓɔ́.ò.lá k͡pɛ̀lɛ̀ káː wó jí.é k͡pāːn/",
-      "phonetic_simple": "AA BHAA-O WO SIEE-O LOLA GI MBO-O-LA KPE-LE KAA WO YIEE KPAAN",
-      "translation": "Nos ancêtres ont fondé Lola ici parce qu'ils en avaient le droit légitime absolu.",
-      "context": "Déclaration rhétorique forte visant à justifier la souveraineté historique d'un clan."
+      "phrase_id": "p4",
+      "original": "\"Kono is spoken in the Lola Prefecture, Nzérékoré Region, Guinea.\"",
+      "phonetic_api": "—",
+      "phonetic_simple": "—",
+      "translation": "« Le Kono est parlé dans la préfecture de Lola, région de N'Zérékoré, Guinée. »",
+      "context": "Localisation géographique précise, contredisant l'association erronée avec Beyla."
     }
   ],
   "grammar_points": [
     {
-      "concept": "Le pronom d'emphase pluriel archaïque 'wó' (ils / eux les ancêtres)",
-      "explanation": "Dans la littérature orale et les récits historiques, le pronom personnel de la troisième personne du pluriel 'wóó' est abrégé en 'wó' à ton haut bref lorsqu'il est associé de manière exclusive aux figures sacrées du passé ou aux ancêtres fondateurs.",
+      "concept": "Lire une glose interlinéaire académique",
+      "explanation": "Les publications de linguistique de terrain comme Konoshenko (2017) présentent les exemples en trois lignes alignées : (1) la forme en langue kono avec tons marqués, (2) une glose morphème par morphème (abréviations grammaticales comme 1SG, NEG, FUT), (3) une traduction libre en anglais ou français. Savoir lire cette structure est essentiel pour exploiter les sources primaires sur le kono.",
       "rules": [
-        "Nom des ancêtres / àá ɓáá-ò + wó + Verbe à l'accompli."
+        "La ligne 1 donne la forme phonétique/tonale exacte attestée sur le terrain.",
+        "La ligne 2 décompose chaque mot en morphèmes avec leur fonction grammaticale abrégée (ex: 1SG = première personne du singulier, NEG = négation, FUT = futur).",
+        "La ligne 3 donne le sens global, parfois différent d'une traduction mot-à-mot en raison des différences typologiques entre le kono et le français/anglais."
       ],
       "examples": [
         {
-          "structure": "àá ɓáá-ò wó síé-ò",
-          "phonetic_api": "/àː ɓáː.ò wó sí.é.ò/",
-          "meaning": "Nos ancêtres (eux) se sont établis."
-        }
-      ]
-    },
-    {
-      "concept": "La nominalisation complexe par suffixation triple",
-      "explanation": "Pour désigner des réalités abstraites de haut niveau (comme la langue originelle), la grammaire avancée konon empile un nom d'action, une particule de liaison et une racine nominale de fondement ('gbíán').",
-      "rules": [
-        "Nom principal + wòò (parole) + gbíán (racine)."
-      ],
-      "examples": [
-        {
-          "structure": "lɔ́-wòò-gbíán",
-          "phonetic_api": "/lɔ̀.wòː.ɡ͡ɓí.án/",
-          "meaning": "La substantifique moelle de notre langue (la langue originelle)."
+          "structure": "Hɛ́ni hó e klɔŋ́",
+          "phonetic_api": "/hɛ́ni hó é klɔ́ŋ/",
+          "meaning": "Hɛni(SUJET) NEG toi(OBJET) connaître → 'Hɛni ne te connaît pas'"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Le Traditionaliste",
-      "text": "Wáá mɛ̀ɛ̀ à gíí ! Mámá-wóò nìí, á gbíán káá àá ɓáá-ò wó síé-wòò yíé lòlà gí.",
-      "phonetic_api": "/wáː mɛ̀ː à ɡíː má.má.wóː nìː á ɡ͡ɓí.án káː àː ɓáː.ò wó sí.é.wòː jí.é lò.là ɡí/",
-      "phonetic_simple": "WAA MEE A GII MA-MA-WOO NII A GBIAN KAA AA BHAA-O WO SIEE-WOO YIEE LOLA GI",
-      "translation": "Écoutez-moi attentivement ! Ce récit historique puise sa racine dans la fondation de Lola par nos ancêtres."
+      "speaker": "Étudiant",
+      "text": "Pourquoi le Kono de Guinée a-t-il le code ISO 'knu' et non 'kno' ?",
+      "phonetic_api": "—",
+      "phonetic_simple": "—",
+      "translation": "Question méta-linguistique typique d'un apprenant avancé souhaitant vérifier ses sources."
     },
     {
-      "speaker": "L'Étudiant Avancé",
-      "text": "Ń ɓáá, àá bɛ́ lɔ́-wòò-gbíán káláá gíàn-gìàn mbɔ́-ò-lá à tɛ́ɛ́-wòò káá gboi.",
-      "phonetic_api": "/ń ɓáː àː ɓɛ́ lɔ̀.wòː.ɡ͡ɓí.án ká.láː ɡí.àn.ɡì.àn mɓɔ́.ò.lá à tɛ́ː.wòː káː ɡ͡ɓo.i/",
-      "phonetic_simple": "N BHAA AA BE LO-WOO-GBIAN KALAA GIAN-GIAN MBO-O-LA A TEE-WOO KAA GBOI",
-      "translation": "Mon père, nous analysons cette langue originelle avec la plus grande sagesse car sa portée philosophique est profonde."
+      "speaker": "Professeur",
+      "text": "Parce que 'kno' désigne le Kono de Sierra Leone, une langue Vaï-Kono différente ; 'knu' est le code correct pour le Kono de Guinée, langue Mandé du Sud-Ouest, selon Glottolog et Ethnologue.",
+      "phonetic_api": "—",
+      "phonetic_simple": "—",
+      "translation": "Explication de la distinction ISO, fondamentale pour éviter toute confusion bibliographique."
     },
     {
-      "speaker": "Le Traditionaliste",
-      "text": "Kénɛ̀ le kpaán ! Tɛ́ɛ́-mɔ̀ɔ̀ máá à mámá-wóò mɛ̀lɛ̀ nìí gíí, fɔ́ á à gbíán lɔ́ pɔ́.",
-      "phonetic_api": "/kɛ́nɛ̀ le k͡pāːn tɛ́ː.mɔ̀ː máː à má.má.wóː mɛ̀.lɛ̀ nìː ɡíː fɔ́ á à ɡ͡ɓí.án lɔ́ pɔ́/",
-      "phonetic_simple": "KENE LE KPAAN TEE-MOO MAA A MA-MA-WOO MELE NII GII FO A A GBIAN LO PO",
-      "translation": "C'est tout à fait exact ! Un vrai gardien du savoir n'avale pas l'histoire sans réflexion, il doit impérativement en maîtriser la racine d'abord."
+      "speaker": "Étudiant",
+      "text": "Et la région, c'est bien Lola, pas Beyla ?",
+      "phonetic_api": "—",
+      "phonetic_simple": "—",
+      "translation": "Vérification de la localisation géographique."
+    },
+    {
+      "speaker": "Professeur",
+      "text": "Exactement, Lola est la préfecture historique du Kono de Guinée ; Beyla est associée au Konianké/Maninka, une langue mandée différente.",
+      "phonetic_api": "—",
+      "phonetic_simple": "—",
+      "translation": "Confirmation finale de la localisation correcte."
     }
   ],
   "cultural_notes": [
-    "Au sommet de la pyramide linguistique konon (région forestière de Guinée), la compréhension des récits historiques ('mámá-wóò') fait office de clé de voûte juridique et culturelle. Les traditionalistes ('tɛ́ɛ́-mɔ̀ɔ̀') de Lola se réunissent périodiquement pour réciter la geste des clans fondateurs. Chaque terme utilisé résonne comme un pont entre le monde visible et les ancêtres défunts, conférant une légitimité absolue à la transmission du patrimoine historique."
+    "Cette leçon a une vocation avant tout méthodologique et bibliographique : elle vise à donner aux apprenants avancés les outils pour distinguer les sources fiables des sources erronées sur le kono de Guinée, un enjeu réel étant donné la confusion fréquente avec le Kono de Sierra Leone dans la littérature grand public et même certaines bases de données non spécialisées.",
+    "La recherche linguistique de terrain sur le kono de Guinée reste récente et limitée en volume ; la publication de Konoshenko (2017) constitue actuellement la source académique de référence la plus détaillée et la plus citée sur cette langue."
   ],
   "exercises": [
     {
-      "exercise_id": "ex7_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Que désigne précisément le terme 'tɛ́ɛ́-mɔ̀ɔ̀' dans la société konon ?",
+      "question": "Quel est le code ISO 639-3 correct du Kono de Guinée ?",
       "options": [
-        "Un jeune chasseur",
-        "Un commerçant ambulant",
-        "Un sage traditionaliste / gardien de la mémoire"
+        "knu",
+        "kno",
+        "kpe"
       ],
-      "correct_answer": "Un sage traditionaliste / gardien de la mémoire",
-      "explanation": "'tɛ́ɛ́-mɔ̀ɔ̀' désigne la personne dotée de la sagesse profonde et responsable de la garde de l'histoire sacrée."
+      "correct_answer": "knu",
+      "explanation": "knu est le code ISO correct du Kono de Guinée (Lola) ; kno désigne le Kono de Sierra Leone, une langue différente."
     },
     {
-      "exercise_id": "ex7_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "àá bɛ́ [ ___ ] káláá gíàn-gìàn (Nous analysons sagement le récit historique)",
-      "correct_answer": "mámá-wóò",
-      "hint": "Le mot pour la mémoire collective ou l'histoire des origines"
+      "sentence_with_blank": "Le Kono de Guinée est parlé dans la préfecture de ___. (nom de la préfecture)",
+      "correct_answer": "Lola",
+      "hint": "Préfecture de la région de N'Zérékoré, Guinée forestière, et non Beyla."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Maria Konoshenko, « Field Notes on Kono, a Southwestern Mande Lect of Forest Guinea », Mandenkan 57 (2017), pp. 77-107",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan57/konoshenko57.pdf"
+    },
+    {
+      "label": "Wikipédia (FR) — « Kono (langue de Guinée) »",
+      "url": "https://fr.wikipedia.org/wiki/Kono_(langue_de_Guin%C3%A9e)"
+    },
+    {
+      "label": "Wikipédia (FR) — « Kono (langue de Sierra Leone) » (clarification des codes ISO 639-3 kno/knu)",
+      "url": "https://fr.wikipedia.org/wiki/Kono_(langue_de_Sierra_Leone)"
+    }
+  ],
+  "confidence": "élevée",
+  "confidence_note": "Vocabulaire, pronoms, chiffres et structures grammaticales directement attestés dans l'article académique de référence sur le Kono de Guinée (Konoshenko 2017, Mandenkan 57), qui fournit une liste Swadesh de 100 mots, un paradigme complet de marqueurs pronominaux/TAM et des exemples de salutations en Kono authentique. Cette leçon porte sur des faits bibliographiques et méthodologiques directement vérifiés dans l'article de référence et sur Glottolog/Ethnologue/Wikipédia, avec un niveau de confiance élevé sur ces points précis."
 }

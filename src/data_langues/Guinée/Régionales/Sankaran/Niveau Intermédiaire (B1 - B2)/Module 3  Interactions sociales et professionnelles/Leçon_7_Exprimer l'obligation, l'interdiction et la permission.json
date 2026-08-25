@@ -6,213 +6,263 @@
   "lesson_number": 7,
   "title": "Exprimer l'obligation, l'interdiction et la permission",
   "learning_objectives": [
-    "Formuler des structures d'obligation stricte et de nécessité au quotidien",
-    "Exprimer l'interdiction formelle et les restrictions comportementales",
-    "Demander et accorder une permission ou une autorisation polie"
+    "Exprimer une obligation avec 'kakan ka' (devoir)",
+    "Former l'impératif négatif/interdiction avec 'kana'",
+    "Exprimer la permission avec 'son' (accepter/permettre)",
+    "Comprendre les nuances entre obligation forte et conseil"
   ],
   "phonetic_focus": {
-    "key_sounds": "Les structures d'obligation s'appuient sur le terme auxiliaire 'Kani' /ka.ni/ qui possède des voyelles brèves fermées. L'interdiction fait intervenir la particule négative restrictive 'Kana' /ka.na/ dont les deux voyelles /a/ sont ouvertes et bien distinctes. Le terme pour l'autorisation 'Diyɛ' /di.jɛ/ exige d'articuler proprement la semi-voyelle palatale.",
-    "common_pitfalls": "Ne confondez pas le 'kani' d'obligation (devoir) avec le verbe 'kanu' (aimer). Veillez également à ne pas prononcer le 'na' de 'kana' comme un son nasalisé français; les deux syllabes sont claires et égales : KA-NA."
+    "key_sounds": [
+      "Le [k] géminé implicite de 'kakan' (devoir), bien articulé en deux syllabes",
+      "Distinction entre 'kana' (impératif négatif) et 'kanun' (aimer) — proches à l'oral",
+      "Le ton de 'son' (accepter), à ne pas confondre avec d'autres mots courts similaires"
+    ],
+    "common_pitfalls": [
+      "Confondre 'kana' (défense, ne fais pas) et 'kanun' (aimer) : un seul phonème les distingue",
+      "Utiliser l'impératif affirmatif simple au lieu de 'kana' pour exprimer une interdiction"
+    ]
   },
   "vocabulary": [
     {
-      "word_id": "v16_1",
-      "term": "Kani",
-      "phonetic_api": "/ka.ni/",
-      "phonetic_simple": "KA-NI",
-      "translation": "Devoir / Falloir / Être obligé de",
-      "example_sentence": "I kani wa sisan.",
-      "example_phonetic": "/i ka.ni wa si.san/",
-      "example_translation": "Tu dois partir maintenant."
+      "word_id": "v1",
+      "term": "kakan ka",
+      "phonetic_api": "[kakan ka]",
+      "phonetic_simple": "ka-kan-ka",
+      "translation": "devoir, falloir",
+      "example_sentence": "I kakan ka i doja.",
+      "example_phonetic": "[i kakan ka i dodʒa]",
+      "example_translation": "Tu dois faire des efforts."
     },
     {
-      "word_id": "v16_2",
-      "term": "Kana",
-      "phonetic_api": "/ka.na/",
-      "phonetic_simple": "KA-NA",
-      "translation": "Ne... pas (marque de l'impératif négatif / interdiction)",
-      "example_sentence": "Kana sigi yan !",
-      "example_phonetic": "/ka.na si.ɣi jan/",
-      "example_translation": "Ne t'assieds pas ici !"
+      "word_id": "v2",
+      "term": "kana",
+      "phonetic_api": "[kana]",
+      "phonetic_simple": "ka-na",
+      "translation": "ne... pas (impératif négatif, interdiction)",
+      "example_sentence": "I kana i sinsin tabali kan !",
+      "example_phonetic": "[i kana i sinsin tabali kan]",
+      "example_translation": "Ne t'appuie pas sur la table !"
     },
     {
-      "word_id": "v16_3",
-      "term": "Diyɛ / Di yɛ",
-      "phonetic_api": "/di.jɛ/",
-      "phonetic_simple": "DI-YƐ",
-      "translation": "Permettre / Donner l'autorisation (litt: donner à)",
-      "example_sentence": "A di n yɛ ka bɔ.",
-      "example_phonetic": "/a di ɲ jɛ ka bɔ/",
-      "example_translation": "Permets-moi de sortir."
+      "word_id": "v3",
+      "term": "ka son",
+      "phonetic_api": "[ka son]",
+      "phonetic_simple": "ka-son",
+      "translation": "vouloir, accepter, permettre",
+      "example_sentence": "A ye sonna.",
+      "example_phonetic": "[a je sonna]",
+      "example_translation": "Il accepte / il permet."
     },
     {
-      "word_id": "v16_4",
-      "term": "Baara",
-      "phonetic_api": "/baː.ra/",
-      "phonetic_simple": "BAA-RA",
-      "translation": "Le travail / Travailler / Devoir professionnel",
-      "example_sentence": "Baara kani kɛ fɔlɔ.",
-      "example_phonetic": "/baː.ra ka.ni kɛ fɔ.lɔ/",
-      "example_translation": "Le travail doit être fait d'abord."
+      "word_id": "v4",
+      "term": "i kakan ka wa",
+      "phonetic_api": "[i kakan ka wa]",
+      "phonetic_simple": "i-ka-kan-ka-wa",
+      "translation": "tu dois partir",
+      "example_sentence": "N ko, i kakan ka wa.",
+      "example_phonetic": "[n ko i kakan ka wa]",
+      "example_translation": "Je dis que tu dois partir."
     },
     {
-      "word_id": "v16_5",
-      "term": "Silo",
-      "phonetic_api": "/si.lo/",
-      "phonetic_simple": "SI-LO",
-      "translation": "Loi / Règle / Chemin obligatoire",
-      "example_sentence": "Dugu silo le nin di.",
-      "example_phonetic": "/du.ɣu si.lo le nin di/",
-      "example_translation": "C'est la règle de la communauté."
+      "word_id": "v5",
+      "term": "i kana i nya lon do",
+      "phonetic_api": "[i kana i ɲa lon do]",
+      "phonetic_simple": "i-ka-na-i-nya-lon-do",
+      "translation": "ne me regarde pas",
+      "example_sentence": "I kana i nya lon do !",
+      "example_phonetic": "[i kana i ɲa lon do]",
+      "example_translation": "Ne me regarde pas !"
     },
     {
-      "word_id": "v16_6",
-      "term": "Gbelen",
-      "phonetic_api": "/ɡ͡be.len/",
-      "phonetic_simple": "GBÉ-LÈNE",
-      "translation": "Interdit / Tabou / Sacré / Dur",
-      "example_sentence": "O yɔrɔ ka gbelen.",
-      "example_phonetic": "/o jɔ.rɔ ka ɡ͡be.len/",
-      "example_translation": "Cet endroit est interdit / tabou."
+      "word_id": "v6",
+      "term": "i makun",
+      "phonetic_api": "[i makun]",
+      "phonetic_simple": "i-ma-koun",
+      "translation": "tais-toi",
+      "example_sentence": "I makun !",
+      "example_phonetic": "[i makun]",
+      "example_translation": "Tais-toi !"
     },
     {
-      "word_id": "v16_7",
-      "term": "To",
-      "phonetic_api": "/to/",
-      "phonetic_simple": "TO",
-      "translation": "Laisser / Autoriser à rester",
-      "example_sentence": "A to a ka bɔ na.",
-      "example_phonetic": "/a to a ka bɔ na/",
-      "example_translation": "Laisse-le sortir."
+      "word_id": "v7",
+      "term": "alu ye alu doja",
+      "phonetic_api": "[alu je alu dodʒa]",
+      "phonetic_simple": "a-lou-yé-a-lou-do-dja",
+      "translation": "faites des efforts (pluriel)",
+      "example_sentence": "Alu ye alu doja.",
+      "example_phonetic": "[alu je alu dodʒa]",
+      "example_translation": "Faites des efforts."
     },
     {
-      "word_id": "v16_8",
-      "term": "Sɔsɔ",
-      "phonetic_api": "/sɔ.sɔ/",
-      "phonetic_simple": "SƆ-SƆ",
-      "translation": "Enfreindre / Contredire / Refuser d'obéir",
-      "example_sentence": "Kana silo sɔsɔ.",
-      "example_phonetic": "/ka.na si.lo sɔ.sɔ/",
-      "example_translation": "N'enfreins pas la règle."
+      "word_id": "v8",
+      "term": "an nye wa",
+      "phonetic_api": "[an ɲe wa]",
+      "phonetic_simple": "an-nyé-wa",
+      "translation": "allons-y (impératif pluriel inclusif)",
+      "example_sentence": "An nye wa !",
+      "example_phonetic": "[an ɲe wa]",
+      "example_translation": "Allons-y !"
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p16_1",
-      "original": "N kani wa baara la sisan, n tilara.",
-      "phonetic_api": "/ɲ ka.ni wa baː.ra la si.san ɲ ti.la.ra/",
-      "phonetic_simple": "N KA-NI WA BAA-RA LA SI-SANE, N TI-LA-RA.",
-      "translation": "Je dois aller au travail maintenant, j'ai fini.",
-      "context": "Annoncer son obligation de déplacement professionnel après une pause."
+      "phrase_id": "p1",
+      "original": "I kakan ka i doja",
+      "phonetic_api": "[i kakan ka i dodʒa]",
+      "phonetic_simple": "i-ka-kan-ka-i-do-dja",
+      "translation": "Tu dois faire des efforts",
+      "context": "Obligation formulée par un enseignant à un élève"
     },
     {
-      "phrase_id": "p16_2",
-      "original": "Kana dumuni kɛ yan, a ka gbelen.",
-      "phonetic_api": "/ka.na du.mu.ni kɛ jan a ka ɡ͡be.len/",
-      "phonetic_simple": "KA-NA DOU-MOU-NI KƐ YANE, A KA GBÉ-LÈNE.",
-      "translation": "Ne mange pas ici, c'est interdit.",
-      "context": "Signifier une interdiction formelle dans un espace restreint ou sacré."
+      "phrase_id": "p2",
+      "original": "I kana i sinsin tabali kan !",
+      "phonetic_api": "[i kana i sinsin tabali kan]",
+      "phonetic_simple": "i-ka-na-i-sin-sin-ta-ba-li-kan",
+      "translation": "Ne t'appuie pas sur la table !",
+      "context": "Interdiction/consigne domestique"
     },
     {
-      "phrase_id": "p16_3",
-      "original": "N b'a fɛ ka bɔ, i be n diyɛ na bang?",
-      "phonetic_api": "/ɲ b'a fɛ ka bɔ i be ɲ di.jɛ na baŋ/",
-      "phonetic_simple": "N BA FƐ KA BƆ, I BÉ N DI-YƐ NA BANGE ?",
-      "translation": "Je souhaite sortir, vas-tu m'en donner la permission ?",
-      "context": "Demande de permission polie formulée à un supérieur ou un aîné."
+      "phrase_id": "p3",
+      "original": "I kana i nya lon do !",
+      "phonetic_api": "[i kana i ɲa lon do]",
+      "phonetic_simple": "i-ka-na-i-nya-lon-do",
+      "translation": "Ne me regarde pas !",
+      "context": "Interdiction dans un contexte familier"
     },
     {
-      "phrase_id": "p16_4",
-      "original": "A to a ka wa, tana t'a ma.",
-      "phonetic_api": "/a to a ka wa ta.na t'a ma/",
-      "phonetic_simple": "A TO A KA WA, TA-NA TA MA.",
-      "translation": "Laisse-le partir, il n'y a aucun problème.",
-      "context": "Accorder une autorisation ou lever une restriction pour quelqu'un."
+      "phrase_id": "p4",
+      "original": "N ko, i kakan ka wa",
+      "phonetic_api": "[n ko i kakan ka wa]",
+      "phonetic_simple": "n-ko, i-ka-kan-ka-wa",
+      "translation": "Je dis que tu dois partir",
+      "context": "Obligation rapportée dans le discours indirect (avec 'ko')"
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Alu ye alu doja",
+      "phonetic_api": "[alu je alu dodʒa]",
+      "phonetic_simple": "a-lou-yé-a-lou-do-dja",
+      "translation": "Faites des efforts",
+      "context": "Consigne collective, forme plurielle"
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'expression de l'obligation avec l'auxiliaire préverbal 'Kani'",
-      "explanation": "En langue Sankaran, l'obligation morale, légale ou professionnelle (devoir/falloir) s'exprime en insérant l'auxiliaire invariant 'kani' directement entre le sujet et le verbe d'action. Le verbe reste à sa forme de base.",
+      "concept": "L'obligation avec 'kakan ka'",
+      "explanation": "'Kakan ka' exprime la nécessité ou le devoir, suivi de l'infinitif du verbe introduit par 'ka'.",
       "rules": [
-        "Structure : Sujet + kani + Verbe + (Compléments)"
+        "Structure : [Sujet] + kakan ka + [Verbe]",
+        "'Ka' ici est le marqueur d'infinitif, distinct du 'ka' du passé narratif"
       ],
       "examples": [
         {
-          "structure": "I kani n kɔrɔke sara.",
-          "phonetic_api": "/i ka.ni ɲ kɔ.rɔ.ke sa.ra/",
-          "meaning": "Tu dois payer mon grand frère."
+          "structure": "[Sujet] kakan ka [Verbe]",
+          "phonetic_api": "[kakan ka]",
+          "meaning": "[Sujet] doit [verbe]"
         }
       ]
     },
     {
-      "concept": "L'interdiction formelle via le morphème prohibitif 'Kana'",
-      "explanation": "Pour exprimer un ordre négatif, une défense ou une interdiction à la deuxième personne, on supprime le pronom sujet et on place la particule prohibitive 'kana' en tête de proposition, immédiatement suivie du verbe.",
+      "concept": "L'interdiction avec 'kana'",
+      "explanation": "La défense ou l'interdiction se forme avec 'kana' placé entre le sujet (souvent 'i' = tu) et le verbe, remplaçant l'impératif affirmatif.",
       "rules": [
-        "Structure : Kana + Verbe + (Compléments)"
+        "Structure : [Sujet] + kana + [Verbe]",
+        "Contraste avec l'impératif affirmatif simple : [Verbe] seul, ou [Objet] + [Verbe]"
       ],
       "examples": [
         {
-          "structure": "Kana bori yan !",
-          "phonetic_api": "/ka.na bo.ri jan/",
-          "meaning": "Ne cours pas ici !"
+          "structure": "[Sujet] kana [Verbe]",
+          "phonetic_api": "[kana]",
+          "meaning": "Ne [verbe] pas, [sujet] !"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Kalanden",
-      "text": "N faa, i ni wura. N b'a fɛ ka wa tulon kɛ dugudan la sisan.",
-      "phonetic_api": "/ɲ faː i ni wu.ra | ɲ b'a fɛ ka wa tu.lon kɛ du.ɣu.dan la si.san/",
-      "phonetic_simple": "N FAA, I NI MOU-RA. N BA FƐ KA WA TOU-LONE KƐ DOU-GOU-DANE LA SI-SANE.",
-      "translation": "Mon père, bonsoir. Je souhaite aller m'amuser à la périphérie de la ville maintenant."
+      "speaker": "Karamoo",
+      "text": "I kakan ka i doja, karan bada ban.",
+      "phonetic_api": "[i kakan ka i dodʒa karan bada ban]",
+      "phonetic_simple": "i-ka-kan-ka-i-do-dja, ka-ran-ba-da-ban",
+      "translation": "Tu dois faire des efforts, la leçon est finie."
     },
     {
-      "speaker": "Faa",
-      "text": "N ma ! Kana wa dugudan la sisan, su la ka surun.",
-      "phonetic_api": "/ɲ ma ka.na wa du.ɣu.dan la si.san su la ka su.run/",
-      "phonetic_simple": "N MA ! KA-NA WA DOU-GOU-DANE LA SI-SANE, SOU LA KA SOU-ROUNE.",
-      "translation": "Ah non ! Ne va pas à la périphérie maintenant, la nuit est proche."
+      "speaker": "Karanden",
+      "text": "Awa, karamoo.",
+      "phonetic_api": "[awa karamoː]",
+      "phonetic_simple": "a-wa, ka-ra-mo-o",
+      "translation": "D'accord, maître."
     },
     {
-      "speaker": "Kalanden",
-      "text": "N dɔgɔke lu bɛɛ be yan. N kani wa jaati, an ye tori tan na.",
-      "phonetic_api": "/ɲ dɔ.ɣɔ.ke lu bɛː be jan | ɲ ka.ni wa d͡ʒaː.ti an ye to.ri tan na/",
-      "phonetic_simple": "N DƆ-GƆ-KÉ LOU BƐƐ BÉ YANE. N KA-NI WA DJAA-TI, ANE YÉ TO-RI TANE NA.",
-      "translation": "Mes petits frères y sont tous. Je dois absolument y aller, nous jouons au football."
+      "speaker": "Karamoo",
+      "text": "I kana i sinsin tabali kan !",
+      "phonetic_api": "[i kana i sinsin tabali kan]",
+      "phonetic_simple": "i-ka-na-i-sin-sin-ta-ba-li-kan",
+      "translation": "Ne t'appuie pas sur la table !"
     },
     {
-      "speaker": "Faa",
-      "text": "Nba, n be i diyɛ na biiki la. Nka i kani na yan fɔlɔ sani su ka bɔ.",
-      "phonetic_api": "/ɲ.ba ɲ be i di.jɛ na biː.ki la | ŋ.ka i ka.ni na jan fɔ.lɔ sa.ni su ka bɔ/",
-      "phonetic_simple": "NBA, N BÉ I DI-YƐ NA BII-KI LA. NG-KA I KA-NI NA YANE FƆ-LƆ SA-NI SOU KA BƆ.",
-      "translation": "Eh bien, je te le permets pour ce vendredi. Mais tu dois revenir ici impérativement avant que la nuit ne tombe."
+      "speaker": "Karanden",
+      "text": "N m'a kèla sisèn na.",
+      "phonetic_api": "[n ma kɛla sisɛn na]",
+      "phonetic_simple": "n-ma-kè-la-si-sèn-na",
+      "translation": "Je ne le fais plus maintenant."
     }
   ],
   "cultural_notes": [
-    "Dans la structure familiale traditionnelle du Sankaran, l'autorité parentale est indiscutable. Demander formellement l'autorisation ('diyɛ') à son père ou à l'aîné de la concession avant de quitter la maison à l'approche de la nuit est une marque fondamentale de respect et d'éducation.",
-    "Les interdictions communautaires ou tabous territoriaux ('gbelen') sont fortement ancrés. Certains espaces (forêts sacrées, abords de rivières à certaines heures) font l'objet d'interdictions strictes énoncées par le mot 'kana' afin de protéger les membres du village."
+    "Le respect de l'autorité du maître ('karamoo') dans le contexte scolaire traditionnel malinké implique l'usage fréquent de formules d'obligation ('kakan ka') et d'interdiction ('kana') ([Malinkuia](https://fr.scribd.com/document/499114939/Malinkuia)).",
+    "Note dialectale (Sankaran) : cette leçon présente le maninka du Sankaran, parlé traditionnellement dans la région historique du Sankaran, aujourd'hui la préfecture et région de Faranah (Haute-Guinée), berceau historique du clan Condé et zone antérieure au Mandén selon la tradition orale. Le sankaran (ISO 639-3 msc) est très proche du malinké/maninka standard de Kankan, avec lequel il est mutuellement intelligible ; les mots et structures de cette leçon reflètent ce fonds commun du maninka de l'Est, complété par les spécificités phonologiques et grammaticales du parler de Faranah documentées par Spears (voir sources)."
   ],
   "exercises": [
     {
-      "exercise_id": "ex16_1",
-      "type": "multiple_choice",
-      "question": "Quelle structure exprime un impératif d'interdiction strict : 'Ne pars pas !' ?",
-      "options": [
-        "I kani wa.",
-        "Kana wa.",
-        "A to a ka wa."
-      ],
-      "correct_answer": "Kana wa.",
-      "explanation": "La particule 'kana' en tête de phrase sans pronom sujet construit la structure prohibitive de l'interdiction."
+      "exercise_id": "e1",
+      "type": "traduction",
+      "question": "Traduisez : 'Tu dois faire des efforts.'",
+      "correct_answer": "I kakan ka i doja.",
+      "explanation": "Structure de l'obligation : sujet + kakan ka + verbe."
     },
     {
-      "exercise_id": "ex16_2",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Pour dire 'Tu dois travailler', on insère le terme : I [ ___ ] baara kɛ.",
-      "correct_answer": "kani",
-      "hint": "Auxiliaire d'obligation à quatre lettres commençant par la lettre k."
+      "exercise_id": "e2",
+      "type": "choix_multiple",
+      "question": "Quelle particule exprime l'interdiction ?",
+      "options": [
+        "kakan",
+        "kana",
+        "kanun",
+        "kola"
+      ],
+      "correct_answer": "kana",
+      "explanation": "'kana' est la marque de l'impératif négatif/interdiction."
+    },
+    {
+      "exercise_id": "e3",
+      "type": "texte_a_trous",
+      "sentence_with_blank": "I ___ i nya lon do !  (Ne me regarde pas !)",
+      "correct_answer": "kana",
+      "hint": "C'est la particule d'interdiction."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Ethnologue — Maninka, Sankaran [msc]",
+      "url": "https://www.ethnologue.com/language/msc/"
+    },
+    {
+      "label": "Glottolog 5.3 — Sankaran Maninka [sank1253]",
+      "url": "https://glottolog.org/resource/languoid/id/sank1253"
+    },
+    {
+      "label": "Wikipédia — Sankaran (langue, msc)",
+      "url": "https://fr.wikipedia.org/wiki/Sankaran"
+    },
+    {
+      "label": "Spears, R. A. — The Structure of Faranah-Maninka (Indiana University, description structurale du parler de Faranah, historiquement le Sankaran)",
+      "url": "https://theswissbay.ch/pdf/Books/Linguistics/Mega%20linguistics%20pack/African/Niger-Congo/Mande/Maninka,%20The%20Structure%20of%20Faranah-%20(Spears).pdf"
+    },
+    {
+      "label": "Vydrin (2023) — Le TAM en maninka de Guinée : la zone du futur, Mandenkan 70",
+      "url": "https://journals.openedition.org/mandenkan/pdf/3253"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Aucune source lexicale ou grammaticale dédiée et indépendante n'a été trouvée pour cette leçon spécifiquement en sankaran : le contenu reprend le fonds commun du maninka/malinké de Haute-Guinée (vérifié pour le malinké standard), dont la proximité avec le sankaran est confirmée par les classifications Ethnologue/Glottolog/Vydrin, mais sans confirmation lexème par lexème pour ce dialecte précis. Confiance donc revue à la baisse par rapport à une attestation directe."
 }

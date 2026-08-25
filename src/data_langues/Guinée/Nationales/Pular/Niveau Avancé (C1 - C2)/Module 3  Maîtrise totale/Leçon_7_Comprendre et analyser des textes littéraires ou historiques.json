@@ -1,144 +1,219 @@
 {
-  "lesson_id": "C2_M3_L7",
+  "lesson_id": "C1_M3_L7",
   "level": "Avancé (C1-C2)",
   "module_number": 3,
   "module_title": "Maîtrise totale",
   "lesson_number": 7,
   "title": "Comprendre et analyser des textes littéraires ou historiques",
   "learning_objectives": [
-    "Analyser la structure stylistique des récits épiques et des chroniques historiques peules",
-    "Interpréter les archaïsmes syntaxiques et les tournures poétiques de la littérature écrite en Ajami",
-    "Isoler et commenter les figures de style rhétoriques spécifiques à la tradition orale du Fouta-Djallon"
+    "Lire et analyser un extrait d'histoire orale peule (le récit du dernier Almaami)",
+    "Reconnaître le vocabulaire spécifique du récit historique et politique (royauté, succession, guerre)",
+    "Identifier les marqueurs de discours rapporté et de causalité dans un récit long"
   ],
   "phonetic_focus": {
-    "key_sounds": "La consonne implosive bilabiale sourde 'ƥ' ou sonore 'ɓ' (/ɓ/) et l'alvéolaire 'ɗ' (/ɗ/) s'insèrent dans un débit poétique rigoureux. La voyelle longue 'oo' (/oː/) dans 'tar_oore' et 'aa' (/aː/) dans 'firdude' portent l'accentuation rythmique du texte.",
-    "common_pitfalls": "Dans la déclamation de textes historiques, éviter de moderniser la prononciation des groupes consonantiques prénasalisés complexes comme 'ndj' (/nd͡ʒ/) ou 'ng' (/ŋɡ/). Conserver leur tension articulatoire maximale pour respecter la métrique."
+    "key_sounds": "Les textes historiques emploient un vocabulaire de haut registre incluant des verbes à « haut respect » (ex. faatagol, mourir/décéder, réservé aux personnages de haut rang), qui ne s'utilisent pas dans la conversation courante.",
+    "common_pitfalls": "Ne pas confondre les nombreux noms propres et titres (Almaami=roi/chef théocratique, lanɗo=chef de province) avec des noms communs ; leur usage correct est essentiel pour suivre un récit historique peul."
   },
   "vocabulary": [
     {
-      "word_id": "v25_1",
-      "term": "fiire",
-      "phonetic_api": "/ɸiːre/",
-      "phonetic_simple": "FII-RE",
-      "translation": "l'épopée, la chronique historique, le récit de hauts faits",
-      "example_sentence": "Fiire Fouta nden no tinndini haala ka.",
-      "example_phonetic": "/ɸiːre ɸuːta nden no tinːdini haːla ka/",
-      "example_translation": "La chronique du Fouta a explicité cette affaire."
+      "word_id": "v1",
+      "term": "Almaami",
+      "phonetic_api": "/almaːmi/",
+      "phonetic_simple": "AL-MA-A-MI",
+      "translation": "titre du souverain théocratique du Fouta-Djalon",
+      "example_sentence": "Almaami Doɓɓol Feelaa faatii e 1889.",
+      "example_phonetic": "/almaːmi doɓːol feːlaː faːtiː e 1889/",
+      "example_translation": "L'Almaami Doɓɓol Feelaa est décédé en 1889."
     },
     {
-      "word_id": "v25_2",
-      "term": "gimɗi",
-      "phonetic_api": "/ɡimɗi/",
-      "phonetic_simple": "GIM-DHI",
-      "translation": "les poèmes, la haute poésie spirituelle ou épique (pluriel de gimol)",
-      "example_sentence": "Gimɗi Thierno Samba no jogii finnde.",
-      "example_phonetic": "/ɡimɗi t͡ʃerno samba no d͡ʒoɡiː ɸinːde/",
-      "example_translation": "Les poèmes de Thierno Samba détiennent une profonde sagesse."
+      "word_id": "v2",
+      "term": "faatagol",
+      "phonetic_api": "/faːtaɡol/",
+      "phonetic_simple": "FA-A-TA-GOL",
+      "translation": "décéder, s'en aller (verbe de haut respect)",
+      "example_sentence": "Almaami on faatii.",
+      "example_phonetic": "/almaːmi on faːtiː/",
+      "example_translation": "L'Almaami est décédé."
     },
     {
-      "word_id": "v25_3",
-      "term": "firdude",
-      "phonetic_api": "/ɸirdude/",
-      "phonetic_simple": "FIR-DOU-DE",
-      "translation": "analyser en profondeur, décoder l'exégèse d'un texte",
-      "example_sentence": "Haa_e mi firdat ngal taalol.",
-      "example_phonetic": "/haːʔe mi ɸirdat nɡal taːlol/",
-      "example_translation": "Il me faut décoder l'exégèse de ce conte."
+      "word_id": "v3",
+      "term": "lontagol",
+      "phonetic_api": "/lontaɡol/",
+      "phonetic_simple": "LON-TA-GOL",
+      "translation": "succéder, remplacer",
+      "example_sentence": "Tawi ko geɗalɓe Almaami Umaru ɓen lontotoo.",
+      "example_phonetic": "/tawi ko ɡeɗalɓe almaːmi umaru ɓen lontotoː/",
+      "example_translation": "C'étaient les héritiers de l'Almaami Umaru qui devaient succéder."
     },
     {
-      "word_id": "v25_4",
-      "term": "tar_oore",
-      "phonetic_api": "/taroːre/",
-      "phonetic_simple": "TAR-OORE",
-      "translation": "l'historiographie, la tradition textuelle ou mémorielle",
-      "example_sentence": "Tar_oore meɗen ngon ko kaalis tigi.",
-      "example_phonetic": "/taroːre meɗen nɡon ko kaːlis tiɡi/",
-      "example_translation": "Notre historiographie constitue notre richesse même."
+      "word_id": "v4",
+      "term": "lanɗo (pl. lamɓe)",
+      "phonetic_api": "/lanɗo/, /lamɓe/",
+      "phonetic_simple": "LAN-DO / LAM-BÉ",
+      "translation": "chef, roi (d'une province)",
+      "example_sentence": "Lamɓe diiwe ɗen haldi.",
+      "example_simple_sentence": "",
+      "example_phonetic": "/lamɓe diːwe ɗen haldi/",
+      "example_translation": "Les chefs des provinces se sont concertés."
     },
     {
-      "word_id": "v25_5",
-      "term": "ballifol",
-      "phonetic_api": "/balːiɸol/",
-      "phonetic_simple": "BAL-LI-FOL",
-      "translation": "l'œuvre littéraire, la composition écrite ou mémorisée",
-      "example_sentence": "Ngal ballifol no ɓuri moƴƴude.",
-      "example_phonetic": "/nɡal balliɸol no ɓuri moʔɟːude/",
-      "example_translation": "Cette œuvre littéraire est la meilleure."
+      "word_id": "v5",
+      "term": "laamu",
+      "phonetic_api": "/laːmu/",
+      "phonetic_simple": "LA-A-MOU",
+      "translation": "royauté, pouvoir, gouvernement",
+      "example_sentence": "Himo faalaa laamu ngun.",
+      "example_phonetic": "/himo faːlaː laːmu ŋɡun/",
+      "example_translation": "Il veut le pouvoir."
+    },
+    {
+      "word_id": "v6",
+      "term": "hare",
+      "phonetic_api": "/hare/",
+      "phonetic_simple": "HA-RÉ",
+      "translation": "guerre, bataille",
+      "example_sentence": "Ka nder misiide Timbo hare mawnde waɗi.",
+      "example_phonetic": "/ka nder misiːde timbo hare mawnde waɗi/",
+      "example_translation": "Au centre de la ville de Timbo, une grande bataille a eu lieu."
+    },
+    {
+      "word_id": "v7",
+      "term": "foolugol",
+      "phonetic_api": "/foːluɡol/",
+      "phonetic_simple": "FO-O-LOU-GOL",
+      "translation": "vaincre, gagner",
+      "example_sentence": "Buubakar Biro fooli.",
+      "example_phonetic": "/buːbakar biro foːli/",
+      "example_translation": "Buubakar Biro a vaincu."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p25_1",
-      "original": "Sino en firditinoo ngal ballifol, tar_oore meɗen saɗatnoo lah.",
-      "phonetic_api": "/sino en ɸirditinoː nɡal balːiɸol taroːre meɗen saɗatnoː lah/",
-      "phonetic_simple": "SI-NO EN FIR-DI-TI-NOO NGAL BAL-LI-FOL, TAR-OORE ME-DHEN SA-DHAT-NOO LAH",
-      "translation": "Si nous n'avions pas analysé en profondeur cette œuvre littéraire, notre historiographie aurait subi une complexité inextricable.",
-      "context": "Commentaire académique ou critique lors d'une étude textuelle historique."
+      "phrase_id": "p1",
+      "original": "Almaami on faatii e 1889.",
+      "phonetic_api": "/almaːmi on faːtiː e 1889/",
+      "phonetic_simple": "AL-MA-A-MI ON FA-A-TI-I É DIX-HUIT-CENT-QUATRE-VINGT-NEUF",
+      "translation": "L'Almaami est décédé en 1889.",
+      "context": "Formule typique d'ouverture d'un récit historique daté."
     },
     {
-      "phrase_id": "p25_2",
-      "original": "Wano gimɗi ɗen tabitiniri, teddugal pulaaku ko karahan e dow al_umma.",
-      "phonetic_api": "/wano ɡimɗi ɗen tabitiniri tedːuɡal pulaːku ko karahan e dow alʔumːa/",
-      "phonetic_simple": "WA-NO GIM-DHI DHEN TA-BI-TIN-I-RI, TED-DOU-GAL POU-LAA-KOU KO KA-RA-HAN E DOW AL-UM-MA",
-      "translation": "Tel que les poèmes l'ont corroboré, l'honneur du Pulaaku constitue une obligation absolue pour le peuple.",
-      "context": "Analyse philosophique d'un texte d'archives littéraires peules."
+      "phrase_id": "p2",
+      "original": "Tawi Fuuta fow no andi Buubakar Biro.",
+      "phonetic_api": "/tawi fuːta fow no andi buːbakar biro/",
+      "phonetic_simple": "TA-OUI FOU-TA FOW NO AN-DI BOU-BA-KAR BI-RO",
+      "translation": "Il s'est avéré que tout le Fouta connaissait Buubakar Biro.",
+      "context": "Le marqueur narratif 'tawi' (vu au C1 Module 1) situe le fait comme une découverte du narrateur."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Fuuta fow huli, rewi ɓe.",
+      "phonetic_api": "/fuːta fow huli rewi ɓe/",
+      "phonetic_simple": "FOU-TA FOW HOU-LI, RÈ-OUI BÉ",
+      "translation": "Tout le Fouta eut peur et les suivit.",
+      "context": "Formule de clôture typique marquant la soumission collective à un pouvoir nouveau."
     }
   ],
   "grammar_points": [
     {
-      "concept": "Le suffixe d'état de focalisation intensive de l'accompli : '-iri'",
-      "explanation": "Dans les textes littéraires et analytiques de niveau C2, pour indiquer qu'une action passée s'est accomplie précisément selon une modalité ou une manière spécifique décrite par le texte, le verbe reçoit l'extension modale '-ir-' combinée à la marque relative '-i' formant la désinence '-iri'.",
+      "concept": "Le vocabulaire de « haut respect » dans le récit historique",
+      "explanation": "Certains verbes ont une forme spéciale réservée aux personnages de haut rang (rois, chefs religieux) : 'faatagol' (décéder, haut respect) remplace le verbe courant de la mort pour un dignitaire, de même que 'seenagol' (venir, haut respect) remplace 'arde' dans un contexte de déférence.",
       "rules": [
-        "Identifier le radical verbal (ex: 'tabitin-' pour prouver).",
-        "Ajouter le suffixe modal-relatif '-iri' pour lier l'accomplissement à la clause comparative ('wano')."
+        "faatagol = décéder (réservé aux personnes de haut rang) ; usage courant pour les gens ordinaires : verbe différent",
+        "seenagol = venir (haut respect) ; usage courant : arde/warde"
       ],
       "examples": [
         {
-          "structure": "wano + Radical + -iri",
-          "phonetic_api": "/wano d͡ʒanɡiri/",
-          "meaning": "De la manière exacte dont cela fut étudié"
+          "structure": "O innaa yo ɓe yiltodu kisan, ɓe taaranoya mo.",
+          "phonetic_api": "/o inːaː jo ɓe jiltodu kisan ɓe taːranoja mo/",
+          "meaning": "On lui dit qu'ils devaient revenir immédiatement pour le couronner (registre de cour, désidératif)."
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Professeur (Jannginoowo)",
-      "text": "Saliou, firdu ngal ballifol. Koni haala fiire nden no tabitini laawaleeji meɗen ?",
-      "phonetic_api": "/saliu ɸirdu nɡal balːiɸol koni haːla ɸiːre nden no tabitini laːwaleːd͡ʒi meɗen/",
-      "phonetic_simple": "SA-LIOU, FIR-DOU NGAL BAL-LI-FOL. KO-NI HAA-LA FII-RE NDEN NO TA-BI-TI-NI LAA-WA-LEE-JI ME-DHEN ?",
-      "translation": "Saliou, analyse en profondeur cette œuvre littéraire. Comment le récit de cette chronique historique a-t-il corroboré nos principes directeurs ?"
+      "speaker": "Conteur",
+      "text": "Almaami Doɓɓol Feelaa faatii e 1889.",
+      "phonetic_api": "/almaːmi doɓːol feːlaː faːtiː e 1889/",
+      "phonetic_simple": "AL-MA-A-MI DOB-BOL FÉ-É-LA-A FA-A-TI-I É 1889",
+      "translation": "L'Almaami Doɓɓol Feelaa est décédé en 1889."
     },
     {
-      "speaker": "Étudiant (Janngoowo)",
-      "text": "Wano gimɗi ɗen tinndiniri, saabi ngal tar_oore, haa_e mfolden e dow gandal. Sino en reesitinoo finnde nden, en foolatnoo lah !",
-      "phonetic_api": "/wano ɡimɗi ɗen tinːdiniri saːbi nɡal taroːre haːʔe mbolden e dow ɡandal sino en reːsitinoː ɸinːde nden en ɸoːlatnoː lah/",
-      "phonetic_simple": "WA-NO GIM-DHI DHEN TINN-DIN-I-RI, SAA-BI NGAL TAR-OORE, HAA-E MGOL-DEN E DOW GAN-DAL. SI-NO EN REE-SI-TI-NOO FINN-DE NDEN, EN FOO-LAT-NOO LAH !",
-      "translation": "À l'instar de ce que les poèmes ont explicité, et en raison de cette historiographie, il nous faut discourir avec une approche scientifique. Si seulement nous avions préservé cette sagesse ancestrale, nous aurions triomphé sans l'ombre d'un doute !"
+      "speaker": "Auditeur",
+      "text": "Ko hombo lontii mo?",
+      "phonetic_api": "/ko hombo lontiː mo/",
+      "phonetic_simple": "KO HOM-BO LON-TI-I MO",
+      "translation": "Qui lui a succédé ?"
+    },
+    {
+      "speaker": "Conteur",
+      "text": "Buubakar Biro andini ɓe wonde himo faalaa laamu ngun.",
+      "phonetic_api": "/buːbakar biro andini ɓe wonde himo faːlaː laːmu ŋɡun/",
+      "phonetic_simple": "BOU-BA-KAR BI-RO AN-DI-NI BÉ OUON-DÉ HI-MO FA-A-LA-A LA-A-MOU NGOUNE",
+      "translation": "Buubakar Biro leur fit savoir qu'il voulait le pouvoir."
+    },
+    {
+      "speaker": "Auditeur",
+      "text": "Tawi hare mawnde waɗi?",
+      "phonetic_api": "/tawi hare mawnde waɗi/",
+      "phonetic_simple": "TA-OUI HA-RÉ MAOU-NDÉ OUA-DI",
+      "translation": "Il s'est avéré qu'une grande bataille a eu lieu ?"
+    },
+    {
+      "speaker": "Conteur",
+      "text": "Ko goonga. Buubakar Biro fooli, Fuuta fow huli, rewi ɓe.",
+      "phonetic_api": "/ko ɡoːŋɡa buːbakar biro foːli fuːta fow huli rewi ɓe/",
+      "phonetic_simple": "KO GO-ON-GA. BOU-BA-KAR BI-RO FO-O-LI, FOU-TA FOW HOU-LI, RÈ-OUI BÉ",
+      "translation": "C'est vrai. Buubakar Biro a vaincu, tout le Fouta eut peur et le suivit."
     }
   ],
   "cultural_notes": [
-    "La littérature écrite peule possède une immense tradition au Fouta-Djallon. Rédigée majoritairement en caractères Ajami (arabe adapté), elle englobe des chroniques historiques ('fiire'), des poèmes théologiques et des chants épiques ('gimɗi'). Ces textes servaient à consigner les traités politiques, les généalogies des clans et les préceptes moraux du Pulaaku."
+    "Le texte 'Almaami sakkitoro on' (Le dernier Almaami) provient du récit d'histoire orale d'Alhajji Malaɗo Baamɓe Kuree sur le Fouta-Djalon, et retrace l'accession au pouvoir de Buubakar Biro, dernier souverain théocratique de la région avant la défaite face aux troupes coloniales françaises à Poredaka en 1896 (source : Learner's Guide to Pular, Texte 4 Oral History).",
+    "Le manuel souligne la remarquable cohérence de la tradition orale du Fouta-Djalon, les récits historiques restant constants d'une région à l'autre malgré la transmission purement orale."
   ],
   "exercises": [
     {
-      "exercise_id": "ex25_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel terme pular qualifie une œuvre littéraire ou une composition doctrinale ?",
+      "question": "Quel titre désigne le souverain théocratique du Fouta-Djalon ?",
       "options": [
-        "Ballifol",
-        "Fijirde",
-        "Njeegu"
+        "Lanɗo",
+        "Almaami",
+        "Cerno"
       ],
-      "correct_answer": "Ballifol",
-      "explanation": "'Ballifol' désigne une œuvre textuelle, une création littéraire ou poétique issue d'un travail de composition de l'esprit."
+      "correct_answer": "Almaami",
+      "explanation": "Almaami est le titre du souverain théocratique du Fouta-Djalon, tel Buubakar Biro, le dernier à porter ce titre."
     },
     {
-      "exercise_id": "ex25_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Haa_e mi [ ___ ] ngal fiire yeeso pootal ngal. (Il faut que j'analyse/décode cette chronique historique devant l'assemblée).",
-      "correct_answer": "firda",
-      "hint": "Verbe au subjonctif marquant l'exégèse ou l'analyse textuelle profonde."
+      "sentence_with_blank": "Buubakar Biro [ ___ ], Fuuta fow huli. (Buubakar Biro a vaincu)",
+      "correct_answer": "fooli",
+      "hint": "Utilisez le verbe signifiant 'vaincre/gagner' au perfective."
+    },
+    {
+      "exercise_id": "ex3",
+      "type": "multiple_choice",
+      "question": "Que signifie le mot 'laamu' dans ce récit historique ?",
+      "options": [
+        "La guerre",
+        "Le pouvoir/la royauté",
+        "La mosquée"
+      ],
+      "correct_answer": "Le pouvoir/la royauté",
+      "explanation": "Laamu désigne le pouvoir royal ou gouvernemental, enjeu central du récit sur Buubakar Biro."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Learner's Guide to Pular (Fuuta Jallon) — Peace Corps Guinée (Herb Caudill & Ousmane Besseko Diallo)",
+      "url": "https://ibamba.net/pular/manual.pdf"
+    },
+    {
+      "label": "Live Lingua Project — Peace Corps Manual of Fulfulde",
+      "url": "https://www.livelingua.com/course/peace-corps/manual-of-fulfulde"
+    }
+  ],
+  "confidence": "élevée",
+  "confidence_note": "Vocabulaire et extraits directement issus du Texte 4 'Oral History' (récit du dernier Almaami, Buubakar Biro) du manuel Peace Corps Guinée, transcription d'un récit d'histoire orale authentique du Fouta-Djalon."
 }

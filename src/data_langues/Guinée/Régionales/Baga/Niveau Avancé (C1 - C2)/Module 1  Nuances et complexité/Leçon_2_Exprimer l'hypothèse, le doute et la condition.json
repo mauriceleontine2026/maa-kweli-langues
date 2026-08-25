@@ -6,119 +6,181 @@
   "lesson_number": 2,
   "title": "Exprimer l'hypothèse, le doute et la condition",
   "learning_objectives": [
-    "Formuler des structures conditionnelles complexes du type 'si... alors'",
-    "Nuancer une affirmation par l'expression du doute existentiel ou de la conjecture",
-    "Maîtriser la particule de conditionnalité irréelle du passé"
+    "Reconnaître l'absence de marqueurs conditionnels/hypothétiques documentés en baga sitemu",
+    "Réviser les rares particules d'affirmation/négation disponibles (fε, (kɛ)nεr)",
+    "Comprendre pourquoi cette notion grammaticale reste indocumentée pour les langues Mel peu décrites"
   ],
   "phonetic_focus": {
-    "key_sounds": "La particule conditionnelle 'hámà' se caractérise par une fricative glottale sourde /h/ très aspirée. Le 'á' initial porte un ton haut impératif pour bien isoler le bloc hypothétique.",
-    "common_pitfalls": "Ne confondez pas 'hámà' (si/hypothèse) avec 'mámà' (devoir/obligation). Une mauvaise substitution consonantique initiale inverse le sens de la dépendance logique."
+    "key_sounds": "Le Baga Sitemu utilise un inventaire de voyelles incluant /a/, /ʌ~ə/ (\"a\" ouvert), /e/, /ɛ/, /i/, /ɪ/, /o/, /ɔ/, /u/ ainsi que des consonnes comme /gb/ (occlusive labio-vélaire voisée, absente du français), /ŋ/ (comme 'ng' dans 'parking'), /ʃ/ (\"sh\"), /tʃ/ (\"tsh\", comme 'tch'), /θ/ (\"th\" anglais sourd) et un /k/ décrit par le lexicographe F. Lamp comme \"glottal, quelque part entre g et k\". Ces sons n'ont pas d'équivalent exact en français standard.",
+    "common_pitfalls": "Les francophones ont tendance à prononcer /gb/ comme un simple 'g' ou 'b' séparé, à confondre /ɛ/ et /e/ (non distingués en français standard écrit), et à ne pas prononcer /ŋ/ en début de mot. Le /ʌ~ə/ ouvert (noté 'a' dans l'orthographe de Lamp) est souvent réduit à un français 'e muet', ce qui déforme le sens."
   },
   "vocabulary": [
     {
-      "word_id": "b304",
-      "term": "hámà",
-      "phonetic_api": "/hámà/",
-      "phonetic_simple": "HA-MA",
-      "translation": "si / au cas où / en supposant que (hypothèse réelle ou possible)",
-      "example_sentence": "Hámà i táa, mə̀ na táa gba",
-      "example_phonetic": "/hámà i táː mə̀ na táː gba/",
-      "example_translation": "Si tu pars, je partirai également"
+      "word_id": "v1",
+      "term": "fε",
+      "phonetic_api": "/fɛ/",
+      "phonetic_simple": "FÈ",
+      "translation": "non, ne...pas",
+      "example_sentence": "fε.",
+      "example_phonetic": "/fɛ/",
+      "example_translation": "non"
     },
     {
-      "word_id": "b305",
-      "term": "kíɛ̀-wɔ́",
-      "phonetic_api": "/kíɛ̀ wɔ́/",
-      "phonetic_simple": "KII-È-WÓ",
-      "translation": "probablement / il se peut que / incertitude majeure",
-      "example_sentence": "Kíɛ̀-wɔ́ a mán na bɔ̀ ya-njɔ̀ɔ̀",
-      "example_phonetic": "/kíɛ̀ wɔ́ a mán na ɓɔ̀ ja ⁿd͡ʒɔ̀ː/",
-      "example_translation": "Il est fort probable qu'il ne vienne pas aujourd'hui"
+      "word_id": "v2",
+      "term": "(kɛ)nεr",
+      "phonetic_api": "/kɛnɛr/",
+      "phonetic_simple": "keu-NÈR",
+      "translation": "dire oui, accepter",
+      "example_sentence": "(kɛ)nεr.",
+      "example_phonetic": "/kɛnɛr/",
+      "example_translation": "dire oui/accepter"
     },
     {
-      "word_id": "b306",
-      "term": "mbɛ̀rɛ̀",
-      "phonetic_api": "/ⁿɓɛ̀rɛ̀/",
-      "phonetic_simple": "M-BÈ-RÈ",
-      "translation": "si seulement / marqueur du regret ou du conditionnel irréel",
-      "example_sentence": "Mbɛ̀rɛ̀ mə̀ lɔ̀ŋ-ɛ̀ kúnù",
-      "example_phonetic": "/ⁿɓɛ̀rɛ̀ mə̀ lɔ̀ŋ ɛ̀ kúnù/",
-      "example_translation": "Si seulement j'avais su hier (regret irréel)"
+      "word_id": "v3",
+      "term": "fε / (kɛ)nεr",
+      "phonetic_api": "/fɛ, kɛnɛr/",
+      "phonetic_simple": "FΕ / (KƐ)NΕR",
+      "translation": "non / oui (accepter)",
+      "example_sentence": "fε / (kɛ)nεr",
+      "example_phonetic": "/fɛ, kɛnɛr/",
+      "example_translation": "non / oui (accepter)"
+    },
+    {
+      "word_id": "v4",
+      "term": "(kɛ)nεr ?",
+      "phonetic_api": "/kɛnɛr/",
+      "phonetic_simple": "keu-NÈR",
+      "translation": "(Est-ce que) tu acceptes ?",
+      "example_sentence": "(kɛ)nεr ?",
+      "example_phonetic": "/kɛnɛr/",
+      "example_translation": "(Est-ce que) tu acceptes ?"
+    },
+    {
+      "word_id": "v5",
+      "term": "fε.",
+      "phonetic_api": "/fɛ/",
+      "phonetic_simple": "FÈ",
+      "translation": "Non.",
+      "example_sentence": "fε.",
+      "example_phonetic": "/fɛ/",
+      "example_translation": "Non."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "bp303",
-      "original": "Hámà wòni mu i fɛ̀ɛ̀, bhea-fɛ̀ɛ̀ i sán gbɔ́n mɛ̀ɛ̀ ya-njɔ̀ɔ̀",
-      "phonetic_api": "/hámà wòni mu i fɛ̀ː ɓea fɛ̀ː i sán gɓɔ́n mɛ̀ː ja ⁿd͡ʒɔ̀ː/",
-      "phonetic_simple": "HA-MA WO-NII MOO I FÈÈ, BHE-A-FÈÈ I SAN GBON MÈÈ YA-N-DJOO",
-      "translation": "Si tu disposes de ressources financières, il est grandement préférable que tu acquières cette maison aujourd'hui.",
-      "context": "Donner une orientation stratégique majeure sous condition de faisabilité"
+      "phrase_id": "p1",
+      "original": "fε.",
+      "phonetic_api": "/fɛ/",
+      "phonetic_simple": "FÈ",
+      "translation": "non",
+      "context": "Réutilisation de la phrase d'exemple attestée pour le mot « fε »."
     },
     {
-      "phrase_id": "bp304",
-      "original": "Mbɛ̀rɛ̀ a mán bər-yà táa, tɔ́ŋ mán bər-yà kɔ̀ sɔ̀",
-      "phonetic_api": "/ⁿɓɛ̀rɛ̀ a mán ɓər jà táː tɔ́ŋ mán ɓər jà kɔ̀ sɔ̀/",
-      "phonetic_simple": "M-BÈ-RÈ A MAN BER-YA TAA, TON MAN BER-YA KO SO",
-      "translation": "S'il n'était pas parti, la loi n'aurait pas volé en éclats (regret irréel du passé).",
-      "context": "Analyser de manière rétrospective l'échec d'une médiation communautaire"
+      "phrase_id": "p2",
+      "original": "fε",
+      "phonetic_api": "/fɛ/",
+      "phonetic_simple": "FÈ",
+      "translation": "non, ne...pas",
+      "context": "Emploi du mot « fε » seul, comme énoncé minimal attesté."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "(kɛ)nεr.",
+      "phonetic_api": "/kɛnɛr/",
+      "phonetic_simple": "keu-NÈR",
+      "translation": "dire oui/accepter",
+      "context": "Réutilisation de la phrase d'exemple attestée pour le mot « (kɛ)nεr »."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "(kɛ)nεr",
+      "phonetic_api": "/kɛnɛr/",
+      "phonetic_simple": "keu-NÈR",
+      "translation": "dire oui, accepter",
+      "context": "Emploi du mot « (kɛ)nεr » seul, comme énoncé minimal attesté."
     }
   ],
   "grammar_points": [
     {
-      "concept": "La distinction fondamentale entre l'hypothèse réalisable (hámà) et l'irréel (mbɛ̀rɛ̀)",
-      "explanation": "En Baga avancé, le système hypothétique se scinde selon le degré de réalisation. 'Hámà' introduit une condition dont la réalisation dépend du futur ou d'un choix en cours. 'Mbɛ̀rɛ̀' introduit un irréel du passé ou du présent, décrivant un regret ou une situation impossible, exigeant l'appui de l'accompli complexe.",
+      "concept": "Absence de conjonction hypothétique/conditionnelle documentée",
+      "explanation": "Aucune conjonction ou particule équivalente à \"si\" (condition), \"peut-être\" (doute) ou un mode conditionnel n'a été localisée pour le baga sitemu dans les sources consultées (dictionnaire de Lamp, ASJP, WALS, Glottolog). Ce vide documentaire est cohérent avec le statut de langue en danger et peu décrite : la majorité des travaux universitaires disponibles se concentrent sur le lexique de base et la phonologie plutôt que sur la syntaxe complexe.",
       "rules": [
-        "Structure possible : hámà + Condition (Présent) -> Conséquence (Futur avec 'na').",
-        "Structure irréelle : mbɛ̀rɛ̀ + Condition (Passé accompli avec 'bər-yà') -> Conséquence au passé."
+        "Ne pas inventer de marqueur hypothétique ou conditionnel.",
+        "Seules les particules d'affirmation (kɛnεr) et de négation (fε) sont attestées avec certitude."
       ],
       "examples": [
         {
-          "structure": "Mbɛ̀rɛ̀ (Si seulement) + mə̀ lɔ̀ŋ-ɛ̀ (j'avais connu)",
-          "phonetic_api": "/ⁿɓɛ̀rɛ̀ mə̀ lɔ̀ŋ ɛ̀/",
-          "meaning": "Si seulement j'avais été informé à temps"
+          "structure": "fε / (kɛ)nεr",
+          "phonetic_api": "/fɛ, kɛnɛr/",
+          "meaning": "non / oui (accepter)"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Saa",
-      "text": "Temba, kíɛ̀-wɔ́ siɛ̀ tɛ̀n lɔ̀ mə̀ na táa Kamsar ka. Hámà wáalì mu ya di gba ?",
-      "phonetic_api": "/tɛmɓa kíɛ̀ wɔ́ siɛ̀ tɛ̀n lɔ̀ mə̀ na táː Kamsar ka hámà wáːlì mu ja di gba/",
-      "phonetic_simple": "TEM-BA, KII-È-WÓ SIÈ TÈN LO ME NA TAA KAM-SAR KA. HA-MA WAA-LII MOO YA DI GBA ?",
-      "translation": "Temba, il se peut que l'année prochaine je m'installe à Kamsar. Dis-moi, y a-t-il vraiment des opportunités de travail là-bas ?"
+      "speaker": "A",
+      "text": "(kɛ)nεr ?",
+      "phonetic_api": "/kɛnɛr/",
+      "phonetic_simple": "keu-NÈR",
+      "translation": "(Est-ce que) tu acceptes ?"
     },
     {
-      "speaker": "Temba",
-      "text": "Hámà i táa kə̀ gbɔk ka, i na wáalì kɔ́lɔ́ŋ lɔ́kɔ̀ f. Kə̀nə̀ mbɛ̀rɛ̀ i kálàŋ-ɛ̀ táà, a na mu fáá-tɔ́ŋ di gɓàŋ !",
-      "phonetic_api": "/hámà i táː kə gɓɔk ka i na wáːlì kɔ́lɔ́ŋ lɔ l lɔ́kɔ̀ f kənə ⁿɓɛ̀rɛ̀ i kálàŋ ɛ̀ taː a na mu fáː tɔ́ŋ di gɓàŋ/",
-      "phonetic_simple": "HA-MA I TAA KE GBOK KA, I NA WAA-LII KO-LON LÓ-KO FE. KE-NE M-BÈ-RÈ I KA-LANG-È TAA, A NA MOO FAA-TON DI G-BAN !",
-      "translation": "Si tu t'y rends sous de bons auspices, tu trouveras assurément du travail. Cependant, si seulement tu avais poussé tes études autrefois, cela aurait été un accomplissement parfait !"
+      "speaker": "B",
+      "text": "fε.",
+      "phonetic_api": "/fɛ/",
+      "phonetic_simple": "FÈ",
+      "translation": "Non."
+    },
+    {
+      "speaker": "A",
+      "text": "fε",
+      "phonetic_api": "/fɛ/",
+      "phonetic_simple": "FÈ",
+      "translation": "non, ne...pas"
+    },
+    {
+      "speaker": "B",
+      "text": "(kɛ)nεr.",
+      "phonetic_api": "/kɛnɛr/",
+      "phonetic_simple": "keu-NÈR",
+      "translation": "dire oui/accepter"
     }
   ],
   "cultural_notes": [
-    "Dans les assemblées de sages, énoncer une critique directe est proscrit. On utilise massivement les tournures hypothétiques et spéculatives ('kíɛ̀-wɔ́', 'hámà') pour suggérer une vérité ou corriger un comportement sans heurter la dignité de l'interlocuteur."
+    "Le raisonnement hypothétique dans les sociétés à tradition orale s'exprime souvent par des proverbes ou récits illustratifs plutôt que par une syntaxe conditionnelle abstraite — mais aucun proverbe en langue baga sitemu elle-même (par opposition aux proverbes culturels *sur* les Baga rapportés en français ou en anglais) n'a été localisé dans nos sources."
   ],
   "exercises": [
     {
-      "exercise_id": "C1_M1_L2_ex1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel mot exprime le regret face à une situation passée impossible à modifier (irréel) ?",
+      "question": "Quelle particule signifie \"dire oui, accepter\" ?",
       "options": [
-        "hámà",
-        "mbɛ̀rɛ̀",
-        "kíɛ̀-wɔ́"
+        "(kɛ)nεr",
+        "fε",
+        "(kǝ)mɔ"
       ],
-      "correct_answer": "mbɛ̀rɛ̀",
-      "explanation": "'mbɛ̀rɛ̀' est le marqueur de la conditionnalité irréelle ou du regret mélancolique."
+      "correct_answer": "(kɛ)nεr",
+      "explanation": "\"(kɛ)nεr\" = dire oui (Diassi 1974:28)."
     },
     {
-      "exercise_id": "C1_M1_L2_ex2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "[ ___ ] i táa, mə̀ na táa gba (Si tu pars, je partirai également).",
-      "correct_answer": "Hámà",
-      "hint": "Hypothèse de 5 lettres débutant par un H fortement aspiré"
+      "sentence_with_blank": "___ = non, ne...pas.",
+      "correct_answer": "fε",
+      "hint": "Adverbe de négation attesté."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Lamp, F.J. — Baga Tshi-Tem Dictionary (Guinea, rév. 2021)",
+      "url": "https://catalogingafricana.wordpress.com/wp-content/uploads/2016/07/a.baga-vocabulary-final-notated-2021-cr.pdf"
+    },
+    {
+      "label": "Weller Ganong, T. (1998) Features of Baga morphology, syntax, and narrative discourse, MA thesis, UT Arlington (référencée par WALS/ASJP)",
+      "url": "https://wals.info/languoid/lect/wals_code_bgs"
+    }
+  ],
+  "confidence": "faible",
+  "confidence_note": "Aucune structure hypothétique/conditionnelle n'est documentée pour le baga sitemu dans les sources disponibles. Cette leçon se limite honnêtement aux deux particules d'affirmation/négation réellement attestées, sans inventer de syntaxe conditionnelle. Variété choisie : Baga Sitemu (autonyme Citɛm ; ISO 639-3 bsp ; Glottocode baga1272), décrite comme \"the only vibrant Baga linguistic variety\" par Wikipédia (d'après Wilson 2007), parlée dans des villages sur le fleuve Campaces/Rio Pongo, région de Boffa, Guinée (~40 000 locuteurs, 2018). C'est la variété baga au sens strict la mieux documentée : dictionnaire de terrain de 3000 mots (Lamp 2016/2021), listes lexicales ASJP indépendantes, fiches Glottolog/WALS, et mention dans la thèse de Weller Ganong (1998) sur la morphologie/syntaxe baga. Elle appartient à la branche Mel (Niger-Congo > Atlantic-Congo > Mel > Northern Mel, avec Temne, Landuma, Baga Koba), et non à la branche Nalu-Mbulungish-Baga Mboteni décrite par Sapir (1971) comme faisant partie de l'Atlantique Nord — ces deux ensembles sont linguistiquement distincts malgré l'identité ethnique Baga commune. Le Baga Mboteni (bgm/bcg), bien que parlé par des Baga ethniques, n'est PAS une langue Mel et reste très peu documenté (pas de dictionnaire de terrain publié comparable); le Baga Fore/Mbulungish (bsp est un code distinct de mbv) est également peu documenté en comparaison. Le Sitemu a donc été retenu comme le meilleur compromis entre authenticité \"Baga\" et disponibilité de données vérifiables."
 }

@@ -4,120 +4,254 @@
   "module_number": 1,
   "module_title": "Les bases de la communication",
   "lesson_number": 3,
-  "title": "L'alphabet et les sons spécifiques",
+  "title": "L'alphabet et les sons spécifiques de la langue",
   "learning_objectives": [
-    "Maîtriser la prononciation des consonnes doubles particulières (kp, gb, ɓ)",
-    "Distinguer les voyelles orales des voyelles nasales"
+    "Identifier les 21 consonnes et les voyelles courtes/longues/nasales du toma/loma",
+    "Reconnaître les deux tons (haut et bas) et leur rôle distinctif",
+    "Prononcer les consonnes rares /ɓ/, /ɣ/, /kp/, /gb/ absentes du français"
   ],
   "phonetic_focus": {
-    "key_sounds": "La consonne implosive /ɓ/ requiert une légère aspiration de l'air vers l'intérieur lors de l'ouverture des lèvres, à la différence du /b/普通.",
-    "common_pitfalls": "Évitez de prononcer /kp/ en deux étapes distinctes. Fermez les lèvres et le voile du palais en même temps, puis relâchez."
+    "key_sounds": "Le toma/loma possède 21 consonnes et jusqu'à 28 voyelles (chaque voyelle existe en version courte, longue, nasale et longue-nasale) ainsi que 2 tons (haut ˦ et bas ˨). Consonnes spécifiques : /ɓ/ (implosive bilabiale), /ɣ/ (fricative vélaire voisée), /kp/ et /gb/ (occlusives labio-vélaires doubles), /ŋ/ (nasale vélaire, comme 'ng' dans 'parking').",
+    "common_pitfalls": "Les francophones prononcent souvent /ɣ/ comme un 'g' dur alors qu'il s'agit d'un son fricatif continu ; ils negligent aussi la distinction voyelle courte/longue (ex: 'kýti' pierre vs une forme longue) qui change le sens des mots, ainsi que les tons hauts/bas notés par des accents (á = ton haut, à = ton bas)."
   },
   "vocabulary": [
     {
-      "word_id": "v3_1",
-      "term": "ɓaa",
-      "phonetic_api": "/ɓaː/",
-      "phonetic_simple": "BAA (implosif)",
-      "translation": "grand / grandir",
-      "example_sentence": "Kêe ɓaa ni.",
-      "example_phonetic": "/kɛ̂ː ɓaː ni/",
-      "example_translation": "C'est le grand père (l'aîné)."
+      "word_id": "v1",
+      "term": "ɓ",
+      "phonetic_api": "/ɓ/",
+      "phonetic_simple": "B implosif",
+      "translation": "consonne implosive bilabiale (comme un 'b' aspiré vers l'intérieur)",
+      "example_sentence": "ɓaa",
+      "example_phonetic": "/ɓaː/",
+      "example_translation": "élément grammatical (ex. dans 'ɓaa ɣa la yà' - prière)"
     },
     {
-      "word_id": "v3_2",
-      "term": "gbala",
-      "phonetic_api": "/ɡba.la/",
-      "phonetic_simple": "GBA-LA",
-      "translation": "griller / sécher",
-      "example_sentence": "I ma-gbala.",
-      "example_phonetic": "/i ma.ɡba.la/",
-      "example_translation": "Fais sécher cela."
+      "word_id": "v2",
+      "term": "ɣ",
+      "phonetic_api": "/ɣ/",
+      "phonetic_simple": "R grasseyé doux",
+      "translation": "fricative vélaire voisée, proche d'un 'r' guttural doux",
+      "example_sentence": "Löghömàgòòi",
+      "example_phonetic": "/lɔɣɔmàɡòːi/",
+      "example_translation": "nom de la langue en Guinée (Toma)"
     },
     {
-      "word_id": "v3_3",
-      "term": "kpaté",
-      "phonetic_api": "/kpa.te/",
-      "phonetic_simple": "KPA-TE",
-      "translation": "arranger / fabriquer",
-      "example_sentence": "Kpaté vaza.",
-      "example_phonetic": "/kpa.te va.za/",
-      "example_translation": "Fabrique-le bien."
+      "word_id": "v3",
+      "term": "kp",
+      "phonetic_api": "/kp/",
+      "phonetic_simple": "KP simultané",
+      "translation": "occlusive labio-vélaire sourde (k et p prononcés ensemble)",
+      "example_sentence": "kpÿdÿ",
+      "example_phonetic": "/kpɤdɤ/",
+      "example_translation": "fusil"
+    },
+    {
+      "word_id": "v4",
+      "term": "gb",
+      "phonetic_api": "/gb/",
+      "phonetic_simple": "GB simultané",
+      "translation": "occlusive labio-vélaire voisée (g et b prononcés ensemble)",
+      "example_sentence": "gbaza",
+      "example_phonetic": "/gbaza/",
+      "example_translation": "oiseau du riz (mange-riz)"
+    },
+    {
+      "word_id": "v5",
+      "term": "ŋ",
+      "phonetic_api": "/ŋ/",
+      "phonetic_simple": "NG nasal",
+      "translation": "consonne nasale vélaire (comme 'ng' dans 'parking'), peut apparaître en début de mot",
+      "example_sentence": "ŋenigi",
+      "example_phonetic": "/ŋenigi/",
+      "example_translation": "élément du Notre Père en loma ('délivre-nous')"
+    },
+    {
+      "word_id": "v6",
+      "term": "á (ton haut)",
+      "phonetic_api": "/˦/",
+      "phonetic_simple": "accent aigu = ton monte",
+      "translation": "marque du ton haut",
+      "example_sentence": "wýlý (ton haut-haut)",
+      "example_phonetic": "/wɤ́lɤ́/",
+      "example_translation": "voir/regarder"
+    },
+    {
+      "word_id": "v7",
+      "term": "à (ton bas)",
+      "phonetic_api": "/˨/",
+      "phonetic_simple": "accent grave = ton descend",
+      "translation": "marque du ton bas",
+      "example_sentence": "làà",
+      "example_phonetic": "/làː/",
+      "example_translation": "élément grammatical à ton bas"
+    },
+    {
+      "word_id": "v8",
+      "term": "voyelles longues (aa, ee, ɛɛ, ii, oo, ɔɔ, uu)",
+      "phonetic_api": "/aː, eː, ɛː, iː, oː, ɔː, uː/",
+      "phonetic_simple": "voyelle doublée = tenue plus longue",
+      "translation": "chaque voyelle simple a une version longue distinctive",
+      "example_sentence": "koÉna (koːna)",
+      "example_phonetic": "/koːna/",
+      "example_translation": "année"
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p3_1",
-      "original": "Ɓala ma.",
-      "phonetic_api": "/ɓa.la ma/",
-      "phonetic_simple": "BALA MA",
-      "translation": "Regarde ici.",
-      "context": "Ordre ou invitation à diriger son attention visuelle vers un objet."
+      "phrase_id": "p1",
+      "original": "Löömàgòòi",
+      "phonetic_api": "/lɔːmàɡòːi/",
+      "phonetic_simple": "LÔ-MA-GO-Y",
+      "translation": "la langue loma (nom de la langue au Libéria)",
+      "context": "Utilisé pour désigner la langue elle-même."
     },
     {
-      "phrase_id": "p3_2",
-      "original": "Kpɛ dɛ̀ lɔ.",
-      "phonetic_api": "/kpɛ dɛ̀ lɔ/",
-      "phonetic_simple": "KPE DE LO",
-      "translation": "Laisse tomber / C'est fini.",
-      "context": "Expression pour clore une discussion ou minimiser un problème."
+      "phrase_id": "p2",
+      "original": "Löghömàgòòi",
+      "phonetic_api": "/lɔɣɔmàɡòːi/",
+      "phonetic_simple": "LÔ-RO-MA-GO-Y",
+      "translation": "la langue toma (nom de la langue en Guinée, avec le son /ɣ/)",
+      "context": "Variante guinéenne du nom de la langue, contenant le son fricatif /ɣ/ caractéristique."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Löömàgìtì",
+      "phonetic_api": "/lɔːmàɡìtì/",
+      "phonetic_simple": "LÔ-MA-GUI-TI",
+      "translation": "le peuple loma (Libéria)",
+      "context": "Désigne l'ethnie loma au Libéria."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Löghömagiti",
+      "phonetic_api": "/lɔɣɔmaɡiti/",
+      "phonetic_simple": "LÔ-RO-MA-GUI-TI",
+      "translation": "le peuple toma (Guinée)",
+      "context": "Désigne l'ethnie toma en Guinée."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Zicmazie",
+      "phonetic_api": "/zikmazie/",
+      "phonetic_simple": "ZIK-MA-ZI-É",
+      "translation": "nausée (litt. maladie de l'eau)",
+      "context": "Exemple de mot composé illustrant la nasale et la fricative /z/."
     }
   ],
   "grammar_points": [
     {
-      "concept": "La corrélation de sonorité et les mutations de consonnes",
-      "explanation": "En toma, la consonne initiale d'un nom ou d'un verbe peut changer (muter) selon le pronom ou le mot qui la précède pour faciliter la prononciation.",
+      "concept": "Le système tonal (haut/bas)",
+      "explanation": "Le toma/loma a deux tons phonémiques : le ton haut (˦, noté avec un accent aigu 'á') et le ton bas (˨, noté avec un accent grave 'à'). Un même mot prononcé avec des tons différents peut avoir un sens complètement différent ; c'est pourquoi les linguistes qualifient parfois le loma de 'langue à tons inversés' (cf. bibliographie de Singler, 1990).",
       "rules": [
-        "Une consonne sourde comme /k/ se transforme souvent en consonne sonore /g/ ou /ɣ/ après un pronom nasal.",
-        "C'est un principe d'harmonie consonantique fondamental."
+        "Le ton bas n'est marqué que lorsqu'il suit un ton haut dans le même mot.",
+        "Dans une suite de tons hauts, seul le premier est marqué.",
+        "Les mots composés portent chacun leur propre schéma tonal, indépendamment l'un de l'autre."
       ],
       "examples": [
         {
-          "structure": "pére -> na vére",
-          "phonetic_api": "/pe.re/ -> /na ve.re/",
-          "meaning": "maison -> ma maison"
+          "structure": "á (haut) vs à (bas)",
+          "phonetic_api": "/˦/ vs /˨/",
+          "meaning": "Deux tons distinctifs qui changent le sens des mots."
+        }
+      ]
+    },
+    {
+      "concept": "Alternance consonantique initiale",
+      "explanation": "Certaines consonnes initiales du toma/loma changent selon l'environnement grammatical (composition, suffixation, construction syntaxique). Par exemple 'b/p' devient 'v' devant certaines voyelles, 'g/k' devient 'ɣ', et 'd/t' devient 'l'. Ce phénomène, typique des langues mandé, s'appelle la mutation consonantique.",
+      "rules": [
+        "b, p + voyelle antérieure → v",
+        "g, k + voyelle antérieure → ɣ",
+        "d, t + toute voyelle → l",
+        "f + toute voyelle → š"
+      ],
+      "examples": [
+        {
+          "structure": "biáli → viáli",
+          "phonetic_api": "/biali/ → /viali/",
+          "meaning": "chèvre (forme de base vs forme mutée)"
+        },
+        {
+          "structure": "kÿ → ɣÿ",
+          "phonetic_api": "/kɤ/ → /ɣɤ/",
+          "meaning": "faire (forme de base vs forme mutée)"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Maitre",
-      "text": "Ɓala ma, i ɓo?",
-      "phonetic_api": "/ɓa.la ma i ɓo/",
-      "phonetic_simple": "BALA MA, I BO?",
-      "translation": "Regarde ici, as-tu compris ?"
+      "speaker": "Professeur",
+      "text": "Löömàgòòi ka löghömàgòòi bɛ vÿÿ?",
+      "phonetic_api": "/lɔːmàɡòːi ka lɔɣɔmàɡòːi bɤ vɤː/",
+      "phonetic_simple": "LÔ-MA-GO-Y KA LÔ-RO-MA-GO-Y BÈ VEU",
+      "translation": "Le loma et le toma, qu'est-ce qui les relie ?"
     },
     {
-      "speaker": "Élève",
-      "text": "Owo, na ɓo gba.",
-      "phonetic_api": "/o.wo na ɓo ɡba/",
-      "phonetic_simple": "O-WO, NA BO GBA",
-      "translation": "Oui, j'ai tout à fait compris."
+      "speaker": "Étudiant",
+      "text": "Löömàgòòi ka löghömàgòòi, geé kýÿ giálagi.",
+      "phonetic_api": "/lɔːmàɡòːi ka lɔɣɔmàɡòːi geː kɤɤ ɡiálaɡi/",
+      "phonetic_simple": "LÔ-MA-GO-Y KA LÔ-RO-MA-GO-Y GUÉ-KEU GUI-A-LA-GUI",
+      "translation": "Le loma et le toma, ce sont presque la même langue."
+    },
+    {
+      "speaker": "Professeur",
+      "text": "Owoi! E mama.",
+      "phonetic_api": "/ɔwɔi e mama/",
+      "phonetic_simple": "O-WOÏ É-MA-MA",
+      "translation": "Oui ! Merci."
     }
   ],
   "cultural_notes": [
-    "La langue Toma appartient au groupe des langues mandées de l'ouest. Sa structure phonétique riche reflète des éléments culturels partagés avec les peuples kpèlɛ et guerzé de la forêt guinéenne."
+    "Dans les années 1930-1940, un syllabaire propre au loma a été inventé par Wido Zobo (Widɔ Zoɓo) de Boneketa, au Libéria, avant l'adoption ultérieure de l'alphabet latin.",
+    "En Guinée, l'alphabet toma a été fixé officiellement par l'ordonnance n° 19/PRG/SGG du 10 mars 1989 dans le cadre du nouvel alphabet des langues guinéennes."
   ],
   "exercises": [
     {
-      "exercise_id": "ex3_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel son consonantique caractérise une articulation dite 'implosive' en toma ?",
+      "question": "Combien de tons distinctifs possède le toma/loma ?",
       "options": [
-        "kp",
-        "ɓ",
-        "g"
+        "Un seul",
+        "Deux (haut et bas)",
+        "Quatre"
       ],
-      "correct_answer": "ɓ",
-      "explanation": "Le symbole 'ɓ' désigne l'implosive bilabiale, typique de plusieurs langues africaines."
+      "correct_answer": "Deux (haut et bas)",
+      "explanation": "Wikipédia et Sadler confirment un système à deux tons : haut (˦) et bas (˨)."
     },
     {
-      "exercise_id": "ex3_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "[ ___ ] ma (Regarde ici).",
-      "correct_answer": "Ɓala",
-      "hint": "Le verbe regarder commence par l'implosive Ɓ."
+      "sentence_with_blank": "Le nom de la langue en Guinée est [ ___ ] (avec le son fricatif /ɣ/), contre 'Löömàgòòi' au Libéria.",
+      "correct_answer": "Löghömàgòòi",
+      "hint": "Cherche le mot contenant le digramme 'gh'."
+    },
+    {
+      "exercise_id": "ex3",
+      "type": "multiple_choice",
+      "question": "Quelle consonne est une occlusive labio-vélaire voisée (g+b simultanés) ?",
+      "options": [
+        "kp",
+        "gb",
+        "ɓ"
+      ],
+      "correct_answer": "gb",
+      "explanation": "'gb' est décrit par Wikipédia et Sadler comme une occlusive labio-vélaire voisée."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Wikipedia (en), \"Loma language\"",
+      "url": "https://en.wikipedia.org/wiki/Loma_language"
+    },
+    {
+      "label": "Wikipédia (fr), \"Loma (langue)\"",
+      "url": "https://fr.wikipedia.org/wiki/Loma_(langue)"
+    },
+    {
+      "label": "Wesley Sadler, \"A Complete Analysis of the Lɔɔma Language\", Mandenkan 42 (LLACAN/CNRS)",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan42/sadler.pdf"
+    }
+  ],
+  "confidence": "élevée",
+  "confidence_note": "L'inventaire phonologique (consonnes, voyelles, tons) est directement documenté par Wikipédia (en/fr) et la grammaire académique de Sadler, deux sources indépendantes et convergentes sur le système sonore du loma/toma."
 }

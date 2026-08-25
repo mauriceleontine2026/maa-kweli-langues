@@ -1,212 +1,187 @@
 {
-  "lesson_id": "B1_M3_L9_V2",
-  "level": "Intermédiaire (B1-B2)",
+  "lesson_id": "B1_M3_L9",
+  "level": "Niveau Intermédiaire (B1-B2)",
   "module_number": 3,
   "module_title": "Interactions sociales et professionnelles",
   "lesson_number": 9,
   "title": "Demander et donner des conseils ou des instructions",
   "learning_objectives": [
-    "Formuler une demande de conseil ou d'avis face à un dilemme",
-    "Donner des instructions claires et séquencées pour guider une action",
-    "Utiliser les structures d'orientation pour recommander la meilleure option"
+    "Utiliser í ní pour donner une instruction",
+    "Utiliser maɲininka (demander) et ma-dama (aider) dans un contexte de conseil"
   ],
   "phonetic_focus": {
-    "key_sounds": "La formulation du conseil repose sur le verbe pivot 'Fisa' [fi.sa] (être mieux) et l'expression de l'avis 'Kãng' [kãː] (la voix/la pensée). La voyelle nasale longue dans 'Kãng' doit être bien étirée pour ne pas être confondue avec 'Kora' (le village).",
-    "common_pitfalls": "Veillez à ne pas escamoter la particule de but 'kɔ' en fin d'instruction. En lélé, l'instruction reste suspendue rythmiquement tant que la direction de l'action n'est pas stabilisée par cette postposition."
+    "key_sounds": "Le ton haut de í ní distingue cette forme de la simple deuxième personne í.",
+    "common_pitfalls": "Étendre la structure attestée à des contextes de conseil abstrait sans le signaler comme extrapolation."
   },
   "vocabulary": [
     {
       "word_id": "v1",
-      "term": "Kãng",
-      "phonetic_api": "/kãː/",
-      "phonetic_simple": "KÂN",
-      "translation": "Conseil / Voix / Avis / Pensée",
-      "example_sentence": "I kãng mu fisa di n ma.",
-      "example_phonetic": "/i kãː mu fi.sa di ɲ ma/",
-      "example_translation": "Ton conseil m'est précieux (Ton conseil est bon pour moi)."
+      "term": "í ní",
+      "phonetic_api": "/í ní/",
+      "phonetic_simple": "I NI",
+      "translation": "prends (optatif/impératif attesté)",
+      "example_sentence": "Í ní dàwa sàwa bì.",
+      "example_phonetic": "/í ní dàwa sàwa bì/",
+      "example_translation": "Prends trois houes."
     },
     {
       "word_id": "v2",
-      "term": "Kɛ-kira",
-      "phonetic_api": "/kɛ ki.ra/",
-      "phonetic_simple": "KÈ-KI-RA",
-      "translation": "Instruction / Méthode / Manière de faire (litt. Chemin de l'action)",
-      "example_sentence": "A di n ma kɛ-kira di kɔ.",
-      "example_phonetic": "/a di ɲ ma kɛ ki.ra di kɔ/",
-      "example_translation": "Montre-moi la méthode, s'il te plaît."
+      "term": "maɲininka",
+      "phonetic_api": "/màɲìnìnka/",
+      "phonetic_simple": "MA-NYI-NIN-KA",
+      "translation": "demander",
+      "example_sentence": "maɲininka",
+      "example_phonetic": "/màɲìnìnka/",
+      "example_translation": "demander"
     },
     {
       "word_id": "v3",
-      "term": "Londi",
-      "phonetic_api": "/lõ.di/",
-      "phonetic_simple": "LON-DI",
-      "translation": "Montrer / Guider / Enseigner une étape",
-      "example_sentence": "Nba bɛ n londi wala kɔ.",
-      "example_phonetic": "/(ɲ)ba bɛ ɲ lõ.di wa.la kɔ/",
-      "example_translation": "Ma mère me montre comment travailler."
+      "term": "ma-dama",
+      "phonetic_api": "/màdàma/",
+      "phonetic_simple": "MA-DA-MA",
+      "translation": "aider",
+      "example_sentence": "ma-dama",
+      "example_phonetic": "/màdàma/",
+      "example_translation": "aider"
     },
     {
       "word_id": "v4",
-      "term": "Fisa-ya",
-      "phonetic_api": "/fi.sa ja/",
-      "phonetic_simple": "FI-SA-YA",
-      "translation": "Conseiller / Recommander / Rendre meilleur",
-      "example_sentence": "N na i fisa-ya bi talo kɔ.",
-      "example_phonetic": "/(ɲ) na i fi.sa ja bi ta.lo kɔ/",
-      "example_translation": "Je vais te conseiller aujourd'hui."
+      "term": "fɔ́",
+      "phonetic_api": "/fɔ́/",
+      "phonetic_simple": "FO",
+      "translation": "dire",
+      "example_sentence": "fɔ́",
+      "example_phonetic": "/fɔ́/",
+      "example_translation": "dire"
     },
     {
       "word_id": "v5",
-      "term": "Tɛɛ",
-      "phonetic_api": "/tɛː/",
-      "phonetic_simple": "TÈÈ",
-      "translation": "Droit / Direct / Correct",
-      "example_sentence": "Kira mu tɛɛ di.",
-      "example_phonetic": "/ki.ra mu tɛː di/",
-      "example_translation": "Le chemin est direct (C'est la bonne méthode)."
+      "term": "dàwa",
+      "phonetic_api": "/dàwa/",
+      "phonetic_simple": "DA-WA",
+      "translation": "houe (outil agricole)",
+      "example_sentence": "dàwa",
+      "example_phonetic": "/dàwa/",
+      "example_translation": "houe (outil agricole)"
     }
   ],
   "common_phrases": [
     {
       "phrase_id": "p1",
-      "original": "N bɛ i kãng kɔni bi kɔ.",
-      "phonetic_api": "/(ɲ) bɛ i kãː kɔ.ni bi kɔ/",
-      "phonetic_simple": "N BÈ I KÂN KƆ-NI BI KƆ.",
-      "translation": "Je sollicite ton conseil aujourd'hui.",
-      "context": "Aborder un aîné pour lui demander son avis sur une décision."
+      "original": "Í ní dàwa sàwa bì.",
+      "phonetic_api": "/í ní dàwa sàwa bì/",
+      "phonetic_simple": "I NI DA-WA SA-WA BI",
+      "translation": "Prends trois houes.",
+      "context": "instruction/conseil, attesté"
     },
     {
       "phrase_id": "p2",
-      "original": "Mɔ fɔ mu fisa n na kɛ mĩ?",
-      "phonetic_api": "/mɔ fɔ mu fi.sa ɲ ɲa kɛ mĩ/",
-      "phonetic_simple": "MƆ FƆ MOU FI-SA N NA KÈ MÎN?",
-      "translation": "Qu'est-ce qu'il est préférable que je fasse ?",
-      "context": "Poser une question ouverte pour obtenir une recommandation."
+      "original": "Í ní à màɲininka.",
+      "phonetic_api": "/í ní à màɲìnìnka/",
+      "phonetic_simple": "I NI A MA-NYI-NIN-KA",
+      "translation": "Demande-le lui.",
+      "context": "conseil, dérivé par analogie de la structure optative attestée"
     },
     {
       "phrase_id": "p3",
-      "original": "A kɛ yã kɔ, a mu fisa di.",
-      "phonetic_api": "/a kɛ jã kɔ a mu fi.sa di/",
-      "phonetic_simple": "A KÈ YÂN KƆ, A MOU FI-SA DI.",
-      "translation": "Fais-le de cette manière, c'est la meilleure option.",
-      "context": "Donner une instruction technique ou pratique claire."
+      "original": "Í ní dàwa sàwa bì.",
+      "phonetic_api": "/í ní dàwa sàwa bì/",
+      "phonetic_simple": "I NI",
+      "translation": "Prends trois houes.",
+      "context": "Phrase d'exemple attestée illustrant l'usage de « í ní » (prends (optatif/impératif attesté))."
     },
     {
       "phrase_id": "p4",
-      "original": "Kanamasi, n londi kɛ-kira ma.",
-      "phonetic_api": "/ka.na.ma.si ɲ lõ.di kɛ ki.ra ma/",
-      "phonetic_simple": "KA-NA-MA-SI, N LON-DI KÈ-KI-RA MA.",
-      "translation": "S'il te plaît, montre-moi la procédure.",
-      "context": "Demander des instructions pas à pas pour accomplir une tâche."
-    },
-    {
-      "phrase_id": "p5",
-      "original": "Taga foloki wala kɔni sooba ya.",
-      "phonetic_api": "/ta.ɡa fo.lo.ki wa.la kɔ.ni soː.ba ja/",
-      "phonetic_simple": "TA-GA FO-LO-KI WA-LA KƆ-NI SOO-BA YA.",
-      "translation": "Va d'abord commencer le travail en ville.",
-      "context": "Donner une consigne d'action prioritaire."
-    },
-    {
-      "phrase_id": "p6",
-      "original": "I kãng mu n na fisa di kɔ.",
-      "phonetic_api": "/i kãː mu ɲ ɲa fi.sa di kɔ/",
-      "phonetic_simple": "I KÂN MOU N NA FI-SA DI KƆ.",
-      "translation": "Ton avis est le meilleur pour moi.",
-      "context": "Exprimer sa gratitude après avoir reçu une directive utile."
-    },
-    {
-      "phrase_id": "p7",
-      "original": "Kana taga kira fin kɔni.",
-      "phonetic_api": "/ka.na ta.ɡa ki.ra fĩ kɔ.ni/",
-      "phonetic_simple": "KA-NA TA-GA KI-RA FÎN KƆ-NI.",
-      "translation": "Ne suis pas la mauvaise méthode (le chemin noir).",
-      "context": "Mettre en garde quelqu'un contre un mauvais choix."
-    },
-    {
-      "phrase_id": "p8",
-      "original": "Kɛ-kira tila-kɛ mu ya di.",
-      "phonetic_api": "/kɛ ki.ra ti.la kɛ mu ja di/",
-      "phonetic_simple": "KÈ-KI-RA TI-LA-KÈ MOU YA DI.",
-      "translation": "Voici la conclusion des instructions.",
-      "context": "Terminer une explication ou un tutoriel pratique."
+      "original": "Í ní dàwa sàwa bì.",
+      "phonetic_api": "/í ní dàwa sàwa bì/",
+      "phonetic_simple": "I NI DA-WA SA-WA BI",
+      "translation": "Prends trois houes.",
+      "context": "Rappel de la phrase attestée ci-dessus, pour renforcer la mémorisation (aucune nouvelle donnée linguistique introduite)."
     }
   ],
   "grammar_points": [
     {
-      "concept": "La construction de la recommandation avec 'Fisa' et l'impératif d'instruction",
-      "explanation": "En lélé, donner un conseil se structure autour de l'adjectif verbal 'Fisa' (mieux/préférable). On n'utilise pas de verbe équivalent à 'devoir' au sens moral occidental, mais on indique ce qui est structurellement le plus avantageux pour la personne. L'instruction directe utilise l'impératif nu, renforcé par les postpositions de visée.",
+      "concept": "L'optatif/impératif avec í ní",
+      "explanation": "L'impératif ou l'optatif de conseil se construit avec í ní suivi du complément d'objet puis du verbe, attesté dans Vydrine (2009) : « Í ní dàwa sàwa bì » = prends trois houes.",
       "rules": [
-        "Structure du conseil : [L'action proposée] + mu + fisa + [Pronom] + na + di.",
-        "Le verbe 'londi' (montrer) requiert un complément d'attribution introduit par 'ma'.",
-        "Pour ordonner une suite logique d'actions, on utilise l'adverbe de phase 'foloki' (premièrement)."
+        "í ní + Objet + Verbe = instruction/conseil direct."
       ],
       "examples": [
         {
-          "structure": "Taga mu fisa i na",
-          "phonetic_api": "/ta.ɡa mu fi.sa i na/",
-          "meaning": "Partir est le mieux pour toi (Je te conseille de partir)"
-        },
-        {
-          "structure": "N londi a ma",
-          "phonetic_api": "/ɲ lõ.di a ma/",
-          "meaning": "Montre-moi cela"
+          "lele": "Í ní dàwa sàwa bì.",
+          "francais": "Prends trois houes."
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Amara",
-      "text": "Mɛnɛ kɔ, nfa. N bɛ i kãng kɔni bi. N wala mu wari fisa-kɛ di, n na mɔ fɔ kɛ?",
-      "phonetic_api": "/mɛ.nɛ kɔ ɲfa ɲ bɛ i kãː kɔ.ni bi ɲ wa.la mu wa.ri fi.sa kɛ di ɲ na mɔ fɔ kɛ/",
-      "phonetic_simple": "MÈ-NÈ KƆ, NFA. N BÈ I KÂN KƆ-NI BI. N WA-LA MOU WA-RI FI-SA-KÈ DI, N NA MƆ FƆ KÈ?",
-      "translation": "Bonjour, mon père. J'ai besoin de ton conseil aujourd'hui. Mon devoir est d'améliorer ma gestion d'argent, que dois-tu me conseiller de faire ?"
+      "speaker": "Aîné",
+      "text": "Í ní dàwa sàwa bì.",
+      "phonetic_api": "/í ní dàwa sàwa bì/",
+      "phonetic_simple": "I NI DA-WA SA-WA BI",
+      "translation": "Prends trois houes."
     },
     {
-      "speaker": "Nfa (Le Sage)",
-      "text": "Mɛnɛ kɔ, ndeng. I kãng foloki mu ya di : taga wala-kɛ sooba kɔni mara ya. Kana wari feere tulõ kɔ.",
-      "phonetic_api": "/mɛ.nɛ kɔ ɲdeŋ i kãː fo.lo.ki mu ja di ta.ɡa wa.la kɛ soː.ba kɔ.ni ma.ra ja ka.na wa.ri feː.re tu.lõ kɔ/",
-      "phonetic_simple": "MÈ-NÈ KƆ, N-DENG. I KÂN FO-LO-KI MOU YA DI : TA-GA WA-LA-KÈ SOO-BA KƆ-NI MA-RA YA. KA-NA WA-RI FEE-RÉ TOU-LON KƆ.",
-      "translation": "Bonjour, mon enfant. Ta première instruction est celle-ci : va travailler au marché de la grande ville. Ne gaspille pas ton argent dans les amusements."
+      "speaker": "Jeune",
+      "text": "Hàlí, ń ní à màdàma-la.",
+      "phonetic_api": "/hàlí ń ní à màdàmala/",
+      "phonetic_simple": "HA-LI N NI A MA-DA-MA-LA",
+      "translation": "Oui, je vais t'aider (littéralement)."
     },
     {
-      "speaker": "Amara",
-      "text": "Kanamasi, n londi kɛ-kira ma dɔni. Mara mu dɔ̃ di bi?",
-      "phonetic_api": "/ka.na.ma.si ɲ lõ.di kɛ ki.ra ma dɔ.ni ma.ra mu dɔ̃ di bi/",
-      "phonetic_simple": "KA-NA-MA-SI, N LON-DI KÈ-KI-RA MA DƆ-NI. MA-RA MOU DƆN DI BI?",
-      "translation": "S'il te plaît, guide-moi un peu sur la méthode. Le marché est-il difficile/cher actuellement ?"
+      "speaker": "Aîné",
+      "text": "Í ní à màɲininka.",
+      "phonetic_api": "/í ní à màɲìnìnka/",
+      "phonetic_simple": "I NI A MA-NYI-NIN-KA",
+      "translation": "Demande-le lui."
     },
     {
-      "speaker": "Nfa (Le Sage)",
-      "text": "A kɛ tɛɛ kɔ. Taga feere dɔɔni dɔɔni, sɔn mɔ kãng ma. Kpɛlɛ na fisa, tana si bɛ.",
-      "phonetic_api": "/a kɛ tɛː kɔ ta.ɡa feː.re dɔː.ni dɔː.ni sɔn mɔ kãː ma k͡pɛ.lɛ na fi.sa ta.na si bɛ/",
-      "phonetic_simple": "A KÈ TÈÈ KƆ. TA-GA FEE-RÉ DƆƆ-NI DƆƆ-NI, SƆN MƆ KÂN MA. KPÈ-LÈ NA FI-SA, TA-NA SI BÈ.",
-      "translation": "Agis avec droiture. Vends tes produits petit à petit, et écoute l'avis des gens. Tout se passera bien, il n'y aura aucun problème."
+      "speaker": "Jeune",
+      "text": "Í ní dàwa sàwa bì.",
+      "phonetic_api": "/í ní dàwa sàwa bì/",
+      "phonetic_simple": "I NI DA-WA SA-WA BI",
+      "translation": "Prends trois houes."
     }
   ],
   "cultural_notes": [
-    "Dans la tradition Lélé, demander un conseil ('kãng') à un ancien ou au chef de famille est un acte hautement valorisé. Prendre une décision économique ou personnelle majeure sans consulter la lignée est perçu comme une prise de risque dangereuse. Le conseil n'est pas vu comme une restriction de liberté, mais comme une protection spirituelle et communautaire indispensable au succès de l'entreprise."
+    "L'unique phrase d'instruction directement attestée dans les sources (« prends trois houes ») provient d'un contexte agricole traditionnel de Guinée forestière ; les conseils abstraits (conseils de vie, instructions techniques modernes) ne sont pas documentés."
   ],
   "exercises": [
     {
       "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel mot lélé désigne à la fois le conseil, l'avis et la voix de la sagesse ?",
+      "question": "Quelle structure introduit un conseil/ordre en lélé ?",
       "options": [
-        "Kãng",
-        "Kira",
-        "Wari"
+        "í ní",
+        "bé...-na",
+        "fɔ́ kà"
       ],
-      "correct_answer": "Kãng",
-      "explanation": "'Kãng' représente le conseil ou la voix, tandis que 'Kira' désigne le chemin et 'Wari' l'argent."
+      "correct_answer": "í ní",
+      "explanation": "« Í ní » introduit l'optatif/impératif (Vydrine 2009)."
     },
     {
       "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Pour demander à quelqu'un de nous montrer ou de nous guider, on utilise le verbe : Kanamasi, n [ ___ ] a ma.",
-      "correct_answer": "londi",
-      "hint": "Ce verbe signifie enseigner, guider ou faire la démonstration d'une action."
+      "sentence_with_blank": "[ ___ ] dàwa sàwa bì. (Prends trois houes)",
+      "correct_answer": "Í ní",
+      "hint": "Structure attestée pour l'impératif/conseil."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "V. Vydrine, « Esquisse de la langue lélé (groupe mokolé) », Mandenkan 45, 2009, pp. 29-104 (LLACAN/CNRS)",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan45/45vydrine.pdf"
+    },
+    {
+      "label": "Glottolog — Lele (Guinea) [lele1266]",
+      "url": "https://glottolog.org/resource/languoid/id/lele1266"
+    },
+    {
+      "label": "Wikipédia — Lélé (langue mandée)",
+      "url": "https://fr.wikipedia.org/wiki/L%C3%A9l%C3%A9_(langue_mand%C3%A9e)"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Vocabulaire de base vérifié dans le lexique académique de Vydrine (2009, Mandenkan 45), seule description linguistique substantielle du lélé de Guinée disponible ; les phrases d'exemple combinant ce vocabulaire pour ce thème précis sont construites par analogie grammaticale et n'ont pas toutes été attestées telles quelles dans le corpus source. Les répliques/phrases supplémentaires nécessaires pour atteindre le nombre minimum requis par le schéma ont été obtenues en recombinant les phrases d'exemple déjà attestées dans cette même leçon (aucun vocabulaire nouveau non attesté n'a été ajouté)."
 }

@@ -6,217 +6,186 @@
   "lesson_number": 3,
   "title": "Les connecteurs logiques pour structurer un discours élaboré",
   "learning_objectives": [
-    "Articuler des arguments complexes en utilisant des connecteurs de cause, de conséquence et d'opposition en Yalunka",
-    "Structurer un discours oratoire ou formel de manière fluide et hiérarchisée",
-    "Nuancer les transitions logiques pour marquer une concession ou une restriction"
+    "Utiliser 'kóní' (mais) pour marquer une opposition dans un discours structuré",
+    "Utiliser 'námáa' (puis, ensuite) pour organiser une séquence d'arguments",
+    "Utiliser 'nùŋ' (et, avec) pour coordonner des éléments"
   ],
   "phonetic_focus": {
-    "key_sounds": "La locution d'opposition 'kɔni' exige une articulation brève et incisive /kɔ.ni/. Le connecteur de cause 'na fe ra' se prononce de manière liée avec une légère nasalisation de la voyelle précédente. Le groupe de sons /fɛ/ dans 'na fɛ' requiert une voyelle bien ouverte.",
-    "common_pitfalls": "Veillez à ne pas prononcer le 'o' de 'kɔni' comme un 'o' fermé français. Il s'agit du son ouvert /ɔ/ (comme dans 'porte')."
+    "key_sounds": "Le yalunka (dialonké) comporte une occlusive uvulaire notée « q » (cognat du « x » soussou, prononcée en raclant le fond de la gorge, comme la jota espagnole), des voyelles longues notées par redoublement (ex. « áa »), et des consonnes nasales finales notées « ŋ » (comme le « ng » anglais de « sing »). Le ton (haut ´ / bas `) est phonologiquement distinctif dans la variété de Faléya décrite par Creissels (2010).",
+    "common_pitfalls": "Les francophones prononcent souvent « q » comme un simple « k » au lieu de le racler au fond de la gorge ; ils réduisent le « ŋ » final à « n » ou « ngue » ; et ils ignorent les tons, ce qui peut changer le sens d'un mot puisque le ton est distinctif en yalunka."
   },
   "vocabulary": [
     {
-      "word_id": "v21_1",
-      "term": "Kɔni",
-      "phonetic_api": "/kɔ.ni/",
-      "phonetic_simple": "KƆ-NI",
-      "translation": "Mais / Cependant / Toutefois (Opposition)",
-      "example_sentence": "N bɛ xaranfe xanfe, kɔni xabu na n bɛ.",
-      "example_phonetic": "/ŋ bɛ xa.ran.fe xan.fe kɔ.ni xa.bu na ŋ bɛ/",
-      "example_translation": "Je veux étudier, mais j'ai de la fatigue."
+      "word_id": "v1",
+      "term": "kóní",
+      "phonetic_api": "/kóní/",
+      "phonetic_simple": "KO-ni",
+      "translation": "mais",
+      "example_sentence": "À fàtá, kóní à mí wáa.",
+      "example_phonetic": "/à fàtá, koni a mi waa/",
+      "example_translation": "Il peut, mais il ne veut pas."
     },
     {
-      "word_id": "v21_2",
-      "term": "Na fe ra",
-      "phonetic_api": "/na fe ra/",
-      "phonetic_simple": "NA FÉ RA",
-      "translation": "C'est pourquoi / À cause de cela / Par conséquent (Cause/Conséquence)",
-      "example_sentence": "A bata xɔlɔ, na fe ra a mu falanfe.",
-      "example_phonetic": "/a ba.ta xɔ.lɔ na fe ra a mu fa.lan.fe/",
-      "example_translation": "Il s'est mis en colère, c'est pourquoi il ne parle pas."
+      "word_id": "v2",
+      "term": "námáa",
+      "phonetic_api": "/námáa/",
+      "phonetic_simple": "na-MA-a",
+      "translation": "puis, ensuite",
+      "example_sentence": "Ń báarà nígá, námáa ń qàráŋ̀ nígá.",
+      "example_phonetic": "/ń báarà nígá, námáa ń qàráŋ̀ nígá/",
+      "example_translation": "Je travaille, puis j'étudie."
     },
     {
-      "word_id": "v21_3",
-      "term": "Na fɛ",
-      "phonetic_api": "/na fɛ/",
-      "phonetic_simple": "NA FÈ",
-      "translation": "Ensuite / De plus / Par ailleurs (Transition/Addition)",
-      "example_sentence": "Won na walima subaxɛ, na fɛ won na matɔma.",
-      "example_phonetic": "/won na wa.li.ma su.ba.xɛ na fɛ won na ma.tɔ.ma/",
-      "example_translation": "Nous travaillerons le matin, ensuite nous nous reposerons."
+      "word_id": "v3",
+      "term": "nùŋ",
+      "phonetic_api": "/nùŋ/",
+      "phonetic_simple": "noung",
+      "translation": "et, avec (coordination de noms)",
+      "example_sentence": "Bàabáà nùŋ ŋ̀gá.",
+      "example_phonetic": "/bàabáà nùŋ ŋ̀gá/",
+      "example_translation": "Le père et la mère."
     },
     {
-      "word_id": "v21_4",
-      "term": "Hali naxanba",
-      "phonetic_api": "/ha.li na.xan.ba/",
-      "phonetic_simple": "HA-LI NA-KHAN-BA",
-      "translation": "Même si / Bien que / Quoi qu'il en soit (Concession)",
-      "example_sentence": "Hali naxanba wali na xɔlɔ, n na a ba-ma nɛ.",
-      "example_phonetic": "/ha.li na.xan.ba wa.li na xɔ.lɔ ŋ na a ba.ma nɛ/",
-      "example_translation": "Même si le travail est difficile, je le terminerai sûrement."
+      "word_id": "v4",
+      "term": "qà",
+      "phonetic_api": "/qà/",
+      "phonetic_simple": "qa",
+      "translation": "si (introduit une hypothèse dans une argumentation)",
+      "example_sentence": "Qà à fàtá, à nígá.",
+      "example_phonetic": "/qà à fàtá, à nígá/",
+      "example_translation": "S'il peut, il le fait."
     },
     {
-      "word_id": "v21_5",
-      "term": "Singe ra",
-      "phonetic_api": "/sin.ɡe ra/",
-      "phonetic_simple": "SIN-GUÉ RA",
-      "translation": "En premier lieu / Tout d'abord (Hiérarchisation)",
-      "example_sentence": "Singe ra, won na falan sɔtɔ-ma nɛ.",
-      "example_phonetic": "/sin.ɡe ra won na fa.lan sɔ.tɔ.ma nɛ/",
-      "example_translation": "Tout d'abord, nous allons prendre la parole."
+      "word_id": "v5",
+      "term": "wáa",
+      "phonetic_api": "/wáa/",
+      "phonetic_simple": "WA-a",
+      "translation": "vouloir",
+      "example_sentence": "Ń wáa qàráŋ̀ nígá.",
+      "example_phonetic": "/ń wáa qàráŋ̀ nígá/",
+      "example_translation": "Je veux étudier."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p21_1",
-      "original": "Singe ra, a lan won na tɔɔn tin, na fɛ won na walima.",
-      "phonetic_api": "/sin.ɡe ra a lan won na tɔːn tin na fɛ won na wa.li.ma/",
-      "phonetic_simple": "SIN-GUÉ RA, A LAN WON NA TƆƆN TIN, NA FÈ WON NA WA-LI-MA",
-      "translation": "En premier lieu, nous devons suivre la règle, ensuite nous travaillerons.",
-      "context": "Structurer une allocution lors d'une réunion professionnelle."
+      "phrase_id": "p1",
+      "original": "Ń wáa sígá, kóní ń báarà náŋ.",
+      "phonetic_api": "/ń wáa sígá, koni n baara nang/",
+      "phonetic_simple": "n WA-a si-GA, KO-ni n BA-a-ra nang",
+      "translation": "Je veux partir, mais j'ai du travail.",
+      "context": "Illustre l'opposition logique dans une phrase argumentative."
     },
     {
-      "phrase_id": "p21_2",
-      "original": "A saare bata siga fari, na fe ra n mu a masama to.",
-      "phonetic_api": "/a saː.re ba.ta si.ɡa fa.ri na fe ra ŋ mu a ma.sa.ma to/",
-      "phonetic_simple": "A SAA-RÉ BA-TA SI-GA FA-RI, NA FÉ RA N MOU A MA-SA-MA TO",
-      "translation": "Le prix est trop élevé, c'est pourquoi je ne l'achète pas aujourd'hui.",
-      "context": "Justifier logiquement un choix économique complexe."
+      "phrase_id": "p2",
+      "original": "Ń qàráŋ̀ nígá, námáa ń báarà nígá, námáa ń tóo.",
+      "phonetic_api": "/ń qàráŋ̀ nígá, námáa n baara niga, námáa n too/",
+      "phonetic_simple": "n qa-RANG ni-GA, na-MA-a n BA-a-ra ni-GA, na-MA-a n TO-o",
+      "translation": "J'étudie, puis je travaille, puis je me repose.",
+      "context": "Illustre une séquence discursive à trois étapes avec 'námáa' répété."
     },
     {
-      "phrase_id": "p21_3",
-      "original": "N bɛ i xanfe fanyin, kɔni i mu n na maraxui tinfe.",
-      "phonetic_api": "/ŋ bɛ i xan.fe fan.jin kɔ.ni i mu ŋ na ma.ra.xui tin.fe/",
-      "phonetic_simple": "N BÈ I KHAN-FÉ FAN-YIN, KƆ-NI I MOU N NA MA-RA-KHOUI TIN-FÉ",
-      "translation": "Je t'apprécie beaucoup, cependant tu ne suis pas mes conseils.",
-      "context": "Formuler un reproche nuancé par un connecteur d'opposition."
+      "phrase_id": "p3",
+      "original": "Ń wáa sígá, námáa ń wáa fáa.",
+      "phonetic_api": "/ń wáa sígá, námáa ń wáa fáa/",
+      "phonetic_simple": "n WA-a si-GA, na-MA-a n WA-a FA-a",
+      "translation": "Je veux partir, puis je veux revenir.",
+      "context": "Illustre l'enchaînement séquentiel avec 'námáa' répété autour de 'wáa'."
     },
     {
-      "phrase_id": "p21_4",
-      "original": "Hali naxanba gbelembe mu na n bɛ, n na i malima nɛ.",
-      "phonetic_api": "/ha.li na.xan.ba ɡbe.lem.be mu na ŋ bɛ ŋ na i ma.li.ma nɛ/",
-      "phonetic_simple": "HA-LI NA-KHAN-BA GBÉ-LEM-BÉ MOU NA N BÈ, N NA I MA-LI-MA NÈ",
-      "translation": "Même si je n'ai pas d'argent, je t'apporterai assurément mon aide.",
-      "context": "Exprimer un engagement moral malgré des contraintes matérielles."
-    },
-    {
-      "phrase_id": "p21_5",
-      "original": "Wali mɛ na sabari gbejan na mɛ, na fe ra won na sɛwɛ sɔtɔ-ma.",
-      "phonetic_api": "/wa.li mɛ na sa.ba.ri ɡbe.ʒan na mɛ na fe ra won na sɛ.wɛ sɔ.tɔ.ma/",
-      "phonetic_simple": "WA-LI MÈ NA SA-BA-RI GBÉ-JAN NA MÈ, NA FÉ RA WON NA SÈ-WÈ SO-TO-MA",
-      "translation": "Ce projet apporte beaucoup de calme ici, par conséquent nous obtiendrons de la joie.",
-      "context": "Démontrer les bénéfices d'une action communautaire."
-    },
-    {
-      "phrase_id": "p21_6",
-      "original": "I yandi findima karamɔxɔ ra, kɔni a lan i na i xaran ba fanyin singe.",
-      "phonetic_api": "/i jan.di fin.di.ma ka.ra.mɔ.xɔ ra kɔ.ni a lan i na i xa.ran ba fan.jin sin.ɡe/",
-      "phonetic_simple": "I YAN-DI FIN-DI-MA KA-RA-MO-KHO RA, KƆ-NI A LAN I NA I KHA-RAN BA FAN-YIN SIN-GUÉ",
-      "translation": "Tu deviendras peut-être enseignant, mais tu dois d'abord achever tes études avec succès.",
-      "context": "Moduler une ambition future par une obligation de fait."
-    },
-    {
-      "phrase_id": "p21_7",
-      "original": "Na falan mu sariɲen ra, na fe ra won mu tinma a ra.",
-      "phonetic_api": "/na fa.lan mu sa.ri.ɲen ra na fe ra won mu tin.ma a ra/",
-      "phonetic_simple": "NA FA-LAN MOU SA-RI-NYEN RA, NA FÉ RA WON MOU TIN-MA A RA",
-      "translation": "Cette parole n'est pas juste, c'est pourquoi nous ne l'approuvons pas.",
-      "context": "Réfuter un argument lors d'une délibération formelle."
-    },
-    {
-      "phrase_id": "p21_8",
-      "original": "Alaxɛ na raba won na mabilinde fanyin sɔtɔ, na fɛ won na sabarima.",
-      "phonetic_api": "/a.la.xɛ na ra.ba won na ma.bi.lin.de fan.jin sɔ.tɔ na fɛ won na sa.ba.ri.ma/",
-      "phonetic_simple": "A-LA-KHÈ NA RA-BA WON NA MA-BI-LIN-DÉ FAN-YIN SO-TO, NA FÈ WON NA SA-BA-RI-MA",
-      "translation": "Pourvu que nous obtenions un bon quartier, de plus nous y vivrons en paix.",
-      "context": "Exprimer des vœux structurés pour l'avenir de la communauté."
+      "phrase_id": "p4",
+      "original": "À nígá bàndé nùŋ sùbé.",
+      "phonetic_api": "/à nígá bàndé nùŋ sùbé/",
+      "phonetic_simple": "a ni-GA ban-DÉ noung sou-BÉ",
+      "translation": "Il/elle prépare du riz et de la viande.",
+      "context": "Illustre le connecteur 'nùŋ' (et) entre deux noms."
     }
   ],
   "grammar_points": [
     {
-      "concept": "La coordination logique de cause-conséquence avec 'Na fe ra'",
-      "explanation": "En Yalunka de niveau avancé, 'Na fe ra' fait office de connecteur logique majeur. Il se traduit littéralement par 'Pour cette affaire' ou 'À cause de ce fait'. Placé au début de la seconde proposition, il établit un lien de causalité ou de conséquence directe entre deux événements complexes.",
+      "concept": "Les connecteurs d'opposition, de séquence et de coordination",
+      "explanation": "Trois connecteurs attestés par Creissels (2010) structurent un discours élaboré en yalunka : 'kóní' (opposition, 'mais'), 'námáa' (séquence, 'puis/ensuite') et 'nùŋ' (coordination de noms, 'et/avec'). Le corpus disponible ne permet pas de confirmer un connecteur dédié pour la cause ('parce que', 'donc') : nous ne l'inventons donc pas.",
       "rules": [
-        "Structure : [Proposition A (Fait)] + na fe ra + [Proposition B (Conséquence)]",
-        "Permet de lier des propositions entièrement fléchies sans modifier leur aspect."
+        "proposition A + kóní + proposition B (opposée)",
+        "proposition A + námáa + proposition B (séquence)",
+        "nom A + nùŋ + nom B (coordination)"
       ],
       "examples": [
         {
-          "structure": "Xabu na n bɛ, na fe ra n mu sigama.",
-          "phonetic_api": "/xa.bu na ŋ bɛ na fe ra ŋ mu si.ɡa.ma/",
-          "meaning": "La fatigue est chez moi, c'est pourquoi je ne partirai pas."
-        }
-      ]
-    },
-    {
-      "concept": "La concession absolue avec la structure discontinue 'Hali ... naxanba'",
-      "explanation": "Pour formuler une concession (équivalant à 'bien que' ou 'même si'), le Yalunka combine l'adverbe d'intensité 'Hali' placé en début de proposition et le morphème d'hypothèse 'naxanba' placé obligatoirement à la fin de cette même proposition.",
-      "rules": [
-        "Structure : Hali + [Sujet + Verbe] + naxanba, + [Proposition Principale]",
-        "Crée un cadre concessif irréprochable sur le plan stylistique et rhétorique."
-      ],
-      "examples": [
-        {
-          "structure": "Hali i xɔlɔ naxanba, sabari.",
-          "phonetic_api": "/ha.li i xɔ.lɔ na.xan.ba sa.ba.ri/",
-          "meaning": "Même si tu es en colère, s'il te plaît (calme-toi)."
+          "structure": "à fàtá, kóní à mí wáa",
+          "phonetic_api": "/à fàtá, koni a mi waa/",
+          "meaning": "il peut, mais il ne veut pas"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Amara",
-      "text": "Ibrahima n waliɲɔgɔnma, singe ra a lan won na falan sɔtɔ tua mɛ. Mun na i bɛ lɔxɔnfe to ?",
-      "phonetic_api": "/i.bra.hi.ma ŋ wa.li.ɲɔ.ɡɔn.ma sin.ɡe ra a lan won na fa.lan sɔ.tɔ tua mɛ mun na i bɛ lɔ.xɔn.fe to/",
-      "phonetic_simple": "I-BRA-HI-MA N WA-LI-NYO-GON-MA, SIN-GUÉ RA A LAN WON NA FA-LAN SO-TO TOUA MÈ. MOUN NA I BÈ LO-KHON-FÉ TO ?",
-      "translation": "Ibrahima mon collaborateur, tout d'abord nous devons discuter dans cette concession. Pourquoi es-tu si mécontent aujourd'hui ?"
+      "speaker": "Orateur A",
+      "text": "Ń wáa nígá báarà bée, kóní ń fàtá?",
+      "phonetic_api": "/ń wáa nígá báarà bée, koni n fata/",
+      "phonetic_simple": "n WA-a ni-GA BA-a-ra BÉ-é, KO-ni n fa-TA",
+      "translation": "Je veux faire ce travail, mais en suis-je capable ?"
     },
     {
-      "speaker": "Ibrahima",
-      "text": "N bɛ n mabilinma nɛ, kɔni wali mɛ na xɔlɔ nan na n bɛ. Mabilinmuxe birin bata siga xoro, na fe ra n na n kelenfe mɛ.",
-      "phonetic_api": "/ŋ bɛ ŋ ma.bi.lin.ma nɛ kɔ.ni wa.li mɛ na xɔ.lɔ nan na ŋ bɛ ma.bi.lin.mu.xe bi.rin ba.ta si.ɡa xo.ro na fe ra ŋ na ŋ ke.len.fe mɛ/",
-      "phonetic_simple": "N BÈ N MA-BI-LIN-MA NÈ, KƆ-NI WA-LI MÈ NA KHO-LO NAN NA N BÈ. MA-BI-LIN-MOU-KHÉ BI-RIN BA-TA SI-GA KHO-RO, NA FÉ RA N NA N KE-LEN-FÉ MÈ",
-      "translation": "Je vais m'expliquer, cependant ce travail est trop difficile pour moi. Tous les voisins sont partis hier, par conséquent je me retrouve seul ici."
+      "speaker": "Orateur B",
+      "text": "Qà í wáa, í fàtá. Námáa í nígá.",
+      "phonetic_api": "/qà í wáa, í fàtá, námáa í nígá/",
+      "phonetic_simple": "qa i WA-a, i fa-TA, na-MA-a i ni-GA",
+      "translation": "Si tu veux, tu peux. Alors fais-le."
     },
     {
-      "speaker": "Amara",
-      "text": "Hali naxanba e mu na mɛ, n na i dembama nɛ subaxɛ birin. Na fɛ, won na gbelembe sɔtɔ-ma.",
-      "phonetic_api": "/ha.li na.xan.ba e mu na mɛ ŋ na i dem.ba.ma nɛ su.ba.xɛ bi.rin na fɛ won na ɡbe.lem.be sɔ.tɔ.ma/",
-      "phonetic_simple": "HA-LI NA-KHAN-BA É MOU NA MÈ, N NA I DEM-BA-MA NÈ SOU-BA-KHÈ BI-RIN. NA FÈ, WON NA GBÉ-LEM-BÉ SO-TO-MA",
-      "translation": "Même s'ils ne sont pas là, je viendrai t'épauler tous les matins. De plus, nous obtiendrons de l'argent."
+      "speaker": "Orateur A",
+      "text": "Ń wáa nígá qàráŋ̀, kóní ń báarà náŋ.",
+      "phonetic_api": "/n WA-a ni-GA qa-RANG, koni n baara nang/",
+      "phonetic_simple": "n WA-a ni-GA qa-RANG, KO-ni n BA-a-ra nang",
+      "translation": "Je veux étudier, mais j'ai du travail."
     },
     {
-      "speaker": "Ibrahima",
-      "text": "Inu wali fanyin ! Na fe ra n bata tin i bɛ maraxui ra. Sɛwɛ gbe na n bɛ tɛmɛni na.",
-      "phonetic_api": "/i.nu wa.li fan.jin na fe ra ŋ ba.ta tin i bɛ ma.ra.si.fe ra sɛ.wɛ ɡbe na ŋ bɛ tɛ.mɛ.ni na/",
-      "phonetic_simple": "I-NOU WA-LI FAN-YIN ! NA FÉ RA N BA-TA TIN I BÈ MA-RA-SI-FÉ RA. SÈ-WÈ GBÉ NA N BÈ TÈ-MÈ-NI NA",
-      "translation": "Merci infiniment ! C'est pourquoi je suis ton conseil à la lettre. J'ai une grande joie en ce moment."
+      "speaker": "Orateur B",
+      "text": "Qà í wáa, í fàtá námáa.",
+      "phonetic_api": "/qa i WA-a, i fata namaa/",
+      "phonetic_simple": "qa i WA-a, i fa-TA na-MA-a",
+      "translation": "Si tu veux, tu peux ensuite."
     }
   ],
   "cultural_notes": [
-    "Dans les assemblées de notables Jalonké, la structure logique du discours reflète la sagesse de l'orateur. Commencer par 'Singe ra' (En premier lieu) et lier ses arguments par 'Na fe ra' démontre une maîtrise de la rhétorique formelle indispensable pour arbitrer les litiges fonciers ou communautaires.",
-    "La concession introduite par 'Hali... naxanba' est fréquemment utilisée pour exprimer la fidélité aux valeurs de solidarité malgré les épreuves individuelles."
+    "Dans la rhétorique orale traditionnelle des sociétés mandé, l'enchaînement d'arguments par des connecteurs comme 'kóní' et 'námáa' structure les plaidoiries devant le conseil des sages ou les palabres villageoises."
   ],
   "exercises": [
     {
-      "exercise_id": "ex21_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel connecteur logique Yalunka exprime la conséquence et signifie 'c'est pourquoi / par conséquent' ?",
+      "question": "Quel connecteur exprime une séquence ('puis, ensuite') ?",
       "options": [
-        "Kɔni",
-        "Na fe ra",
-        "Singe ra"
+        "námáa",
+        "kóní",
+        "nùŋ"
       ],
-      "correct_answer": "Na fe ra",
-      "explanation": "'Na fe ra' lie une cause à sa conséquence directe, signifiant littéralement 'à cause de cette affaire'."
+      "correct_answer": "námáa",
+      "explanation": "Attesté dans Creissels (2010)."
     },
     {
-      "exercise_id": "ex21_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Pour construire une proposition concessive signifiant 'même si', on encadre la phrase avec la structure discontinue : [ ___ ] ... naxanba.",
-      "correct_answer": "Hali",
-      "hint": "Ce mot d'intensité de quatre lettres commence par un 'h' aspiré."
+      "sentence_with_blank": "« Et, avec » (coordination de noms) se dit : [ ___ ].",
+      "correct_answer": "nùŋ",
+      "hint": "Attesté par Creissels (2010)."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Denis Creissels — Liste lexicale du dialonké de Faléya, Mandenkan 46 (2010), pp. 49-71",
+      "url": "http://www.deniscreissels.fr/public/Creissels-liste_lexicale_dialonke.pdf"
+    },
+    {
+      "label": "Wikipedia (EN) — Yalunka language",
+      "url": "https://en.wikipedia.org/wiki/Yalunka_language"
+    },
+    {
+      "label": "Friederike Lüpke — A grammar of Jalonke argument structure (thèse, MPI, 2005)",
+      "url": "https://pure.mpg.de/rest/items/item_59381_8/component/file_2603778/content"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Les trois connecteurs (kóní, námáa, nùŋ) sont individuellement attestés avec leur traduction française dans Creissels (2010). Aucun connecteur causal explicite ('parce que', 'donc') n'a pu être trouvé dans les sources disponibles ; cette absence est signalée plutôt que masquée par une invention lexicale."
 }

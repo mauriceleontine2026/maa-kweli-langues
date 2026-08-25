@@ -6,209 +6,189 @@
   "lesson_number": 6,
   "title": "Le registre soutenu et le langage formel (cérémonies, contes, traditions)",
   "learning_objectives": [
-    "Maîtriser les formules rituelles de salutation et d'introduction des récits formels",
-    "Employer le lexique archaïque et poétique lors des cérémonies coutumières jalonké",
-    "Structurer la narration d'un conte ou d'un mythe fondateur selon les règles de la déclamation oratoire"
+    "Utiliser le vocabulaire de l'autorité traditionnelle : 'màŋgá' (roi/chef), 'tàamáŋgà' (chef de village), 'bɔ́qíkáŋ̀' (chef de la terre)",
+    "Utiliser 'kíiní' (conte) dans un contexte cérémoniel",
+    "Comprendre la formule de salutation formelle 'kéndé' déjà vue au niveau débutant, réemployée en contexte cérémoniel"
   ],
   "phonetic_focus": {
-    "key_sounds": "La formule solennelle 'fala xunba' requiert l'articulation de la fricative vélaire sourde /x/ suivie de l'occlusive bilabiale sonore /b/. L'allongement de la nasale vélaire finale dans 'mambilin' /maːm.bi.lin/ est le propre d'une diction noble et ralentie.",
-    "common_pitfalls": "Dans les salutations rituelles, évitez de couper les voyelles finales. La déclamation formelle exige de soutenir la voix et de prolonger les finales pour marquer le respect envers les anciens."
+    "key_sounds": "Le yalunka (dialonké) comporte une occlusive uvulaire notée « q » (cognat du « x » soussou, prononcée en raclant le fond de la gorge, comme la jota espagnole), des voyelles longues notées par redoublement (ex. « áa »), et des consonnes nasales finales notées « ŋ » (comme le « ng » anglais de « sing »). Le ton (haut ´ / bas `) est phonologiquement distinctif dans la variété de Faléya décrite par Creissels (2010).",
+    "common_pitfalls": "Les francophones prononcent souvent « q » comme un simple « k » au lieu de le racler au fond de la gorge ; ils réduisent le « ŋ » final à « n » ou « ngue » ; et ils ignorent les tons, ce qui peut changer le sens d'un mot puisque le ton est distinctif en yalunka."
   },
   "vocabulary": [
     {
-      "word_id": "v24_1",
-      "term": "Fala xunba",
-      "phonetic_api": "/fa.la xun.ba/",
-      "phonetic_simple": "FA-LA KHOUN-BA",
-      "translation": "Discours solennel / Parole d'honneur / Allocution royale ou sacrée",
-      "example_sentence": "Doyen bata fala xunba fala won birin bɛ.",
-      "example_phonetic": "/dwa.jɛ̃ ba.ta fa.la xun.ba fa.la won bi.rin bɛ/",
-      "example_translation": "Le doyen a prononcé une allocution solennelle pour nous tous."
+      "word_id": "v1",
+      "term": "màŋgá",
+      "phonetic_api": "/màŋgá/",
+      "phonetic_simple": "mang-GA",
+      "translation": "roi, chef",
+      "example_sentence": "Màŋgá náŋ dùu bée.",
+      "example_phonetic": "/mang-ga nang dou-u bee/",
+      "example_translation": "Le chef est dans ce village."
     },
     {
-      "word_id": "v24_2",
-      "term": "Mambilin",
-      "phonetic_api": "/maːm.bi.lin/",
-      "phonetic_simple": "MAAM-BI-LIN",
-      "translation": "Lignée ancestrale / Généalogie / Origine sacrée",
-      "example_sentence": "A mambilin na fanyin nan a ra.",
-      "example_phonetic": "/a maːm.bi.lin na fan.jin nan a ra/",
-      "example_translation": "Sa lignée ancestrale est d'une grande noblesse."
+      "word_id": "v2",
+      "term": "tàamáŋgà",
+      "phonetic_api": "/tàamáŋgà/",
+      "phonetic_simple": "ta-a-mang-GA",
+      "translation": "chef de village",
+      "example_sentence": "Tàamáŋgà qúu dùu bée xa.",
+      "example_phonetic": "/ta-a-mang-ga qou-u dou-u bee xa/",
+      "example_translation": "Le chef de village parle de ce village."
     },
     {
-      "word_id": "v24_3",
-      "term": "Baraa",
-      "phonetic_api": "/ba.raː/",
-      "phonetic_simple": "BA-RAA",
-      "translation": "Bénédiction / Grâce / Faveur spirituelle",
-      "example_sentence": "Won na baraa sɔtɔ-ma nɛ to.",
-      "example_phonetic": "/won na ba.raː sɔ.tɔ.ma nɛ to/",
-      "example_translation": "Nous obtiendrons assurément des bénédictions aujourd'hui."
+      "word_id": "v3",
+      "term": "bɔ́qíkáŋ̀",
+      "phonetic_api": "/bɔ́qíkáŋ̀/",
+      "phonetic_simple": "bô-qi-KANG",
+      "translation": "chef de la terre (autorité coutumière foncière)",
+      "example_sentence": "Bɔ́qíkáŋ̀ náŋ dùu bée.",
+      "example_phonetic": "/bô-qi-kang nang dou-u bee/",
+      "example_translation": "Le chef de la terre est dans ce village."
     },
     {
-      "word_id": "v24_4",
-      "term": "Kanyin",
-      "phonetic_api": "/ka.ɲin/",
-      "phonetic_simple": "KA-NYIN",
-      "translation": "Dignitaire / Gardien du temple / Sage attitré",
-      "example_sentence": "Mabilinde kanyin nan na mɛ.",
-      "example_phonetic": "/ma.bi.lin.de ka.ɲin nan na mɛ/",
-      "example_translation": "Le gardien de notre quartier (coutumier) est ici."
+      "word_id": "v4",
+      "term": "kíiní",
+      "phonetic_api": "/kíiní/",
+      "phonetic_simple": "KI-i-ni",
+      "translation": "conte",
+      "example_sentence": "Kíiní báadè lɔ̀qɔ́ bée.",
+      "example_phonetic": "/ki-i-ni ba-a-de loqo bee/",
+      "example_translation": "Le conte vient d'avoir lieu ce jour (litt. le conte est arrivé récemment ce jour)."
     },
     {
-      "word_id": "v24_5",
-      "term": "Talatunu",
-      "phonetic_api": "/ta.la.tu.nu/",
-      "phonetic_simple": "TA-LA-TOU-NOU",
-      "translation": "Récit des temps anciens / Mythologie / Épopée historique",
-      "example_sentence": "Won na talatunu xaran-ma nɛ.",
-      "example_phonetic": "/won na ta.la.tu.nu xa.ran.ma nɛ/",
-      "example_translation": "Nous allons étudier l'épopée des temps anciens."
+      "word_id": "v5",
+      "term": "kéndé",
+      "phonetic_api": "/kéndé/",
+      "phonetic_simple": "KEN-dé",
+      "translation": "être en bonne santé (formule de salutation)",
+      "example_sentence": "Í kéndé bà?",
+      "example_phonetic": "/í kéndé bà/",
+      "example_translation": "Vas-tu bien ?"
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p24_1",
-      "original": "Singe ra, n bɛ n mabilin mambilin xili xulun fanyin ra.",
-      "phonetic_api": "/sin.ɡe ra ŋ bɛ ŋ ma.bi.lin maːm.bi.lin xi.li xu.lun fan.jin ra/",
-      "phonetic_simple": "SIN-GUÉ RA, N BÈ N MA-BI-LIN MAAM-BI-LIN KHI-LI KHOU-LOUN FAN-YIN RA",
-      "translation": "En premier lieu, je salue respectueusement la noble lignée ancestrale de notre communauté.",
-      "context": "Introduction protocolaire obligatoire avant toute prise de parole dans une cérémonie de mariage ou de baptême."
+      "phrase_id": "p1",
+      "original": "Kéndé, tàamáŋgà!",
+      "phonetic_api": "/kende, ta-a-mang-ga/",
+      "phonetic_simple": "KEN-dé, ta-a-mang-GA",
+      "translation": "Bonjour/salutations, chef de village !",
+      "context": "Réemploie la formule de salutation formelle attestée dès le niveau débutant, appliquée ici à une figure d'autorité."
     },
     {
-      "phrase_id": "p24_2",
-      "original": "Alaxɛ na ra.ba, baraa fanyin na lɔxɔ won fari subaxɛ birin.",
-      "phonetic_api": "/a.la.xɛ na ra.ba ba.raː fan.jin na lɔ.xɔ won fa.ri su.ba.xɛ bi.rin/",
-      "phonetic_simple": "A-LA-KHÈ NA RA-BA, BA-RAA FAN-YIN NA LO-KHO WON FA-RI SOU-BA-KHÈ BI-RIN",
-      "translation": "Pourvu que la grâce divine se déverse sur nous chaque matin.",
-      "context": "Formule d'invocation solennelle utilisée par les sages lors des rituels."
+      "phrase_id": "p2",
+      "original": "Màŋgá nùŋ bɔ́qíkáŋ̀ qúu dùu xa.",
+      "phonetic_api": "/mang-ga noung bo-qi-kang qou-u dou-u xa/",
+      "phonetic_simple": "mang-GA noung bô-qi-KANG QOU-ou dou-u xa",
+      "translation": "Le roi et le chef de la terre parlent du village.",
+      "context": "Coordonne deux figures d'autorité traditionnelle avec 'nùŋ' (et)."
     },
     {
-      "phrase_id": "p24_3",
-      "original": "Talatunu mɛ na sanndiya gbe nan a ra won birin bɛ.",
-      "phonetic_api": "/ta.la.tu.nu mɛ na san.di.ja ɡbe nan a ra won bi.rin bɛ/",
-      "phonetic_simple": "TA-LA-TOU-NOU MÈ NA SAN-DI-YA GBÉ NAN A RA WON BI-RIN BÈ",
-      "translation": "Ce récit des temps anciens renferme une profonde sagesse pour nous tous.",
-      "context": "Clore la déclamation d'un conte philosophique."
+      "phrase_id": "p3",
+      "original": "Kéndé, màŋgá!",
+      "phonetic_api": "/kende, mang-ga/",
+      "phonetic_simple": "KEN-dé, mang-GA",
+      "translation": "Salutations, roi/chef !",
+      "context": "Combine la salutation formelle 'kéndé' avec le titre 'màŋgá'."
     },
     {
-      "phrase_id": "p24_4",
-      "original": "Kanyin birin bata tin m bɛ fala xunba na.",
-      "phonetic_api": "/ka.ɲin bi.rin ba.ta tin m bɛ fa.la xun.ba na/",
-      "phonetic_simple": "KA-NYIN BI-RIN BA-TA TIN M BÈ FA-LA KHOUN-BA NA",
-      "translation": "Tous les hauts dignitaires ont validé mon allocution solennelle.",
-      "context": "Se réjouir du consensus obtenu auprès des anciens de la chefferie."
-    },
-    {
-      "phrase_id": "p24_5",
-      "original": "Hali naxanba lɔxɔnfe na fari, won na baraa sɔtɔ-ma nɛ.",
-      "phonetic_api": "/ha.li na.xan.ba lɔ.xɔn.fe na fa.ri won na ba.raː sɔ.tɔ.ma nɛ/",
-      "phonetic_simple": "HA-LI NA-KHAN-BA LO-KHON-FÉ NA FA-RI, WON NA BA-RAA SO-TO-MA NÈ",
-      "translation": "Même si le mécontentement gronde au-dessus de nous, nous obtiendrons la grâce divine.",
-      "context": "Apaiser les tensions lors d'un litige rituel ou successoral."
-    },
-    {
-      "phrase_id": "p24_6",
-      "original": "Fala xunba mu rafalama gbeɲanfala ra, a sariɲen nan na.",
-      "phonetic_api": "/fa.la xun.ba mu ra.fa.la.ma ɡbe.ɲan.fa.la ra a sa.ri.ɲen nan na/",
-      "phonetic_simple": "FA-LA KHOUN-BA MOU RA-FA-LA-MA GBÉ-NYAN-FA-LA RA, A SA-RI-NYEN NAN NA",
-      "translation": "La parole d'honneur ne souffre d'aucun artifice sophiste, elle est pure vérité.",
-      "context": "Rappeler la sacralité de la parole donnée devant l'assemblée."
-    },
-    {
-      "phrase_id": "p24_7",
-      "original": "A fisa won na talatunu matɔ singe, alaxɛ na ra.ba won na lɔn fanyin.",
-      "phonetic_api": "/a fi.sa won na ta.la.tu.nu ma.tɔ sin.ɡe a.la.xɛ na ra.ba won na lɔn fan.jin/",
-      "phonetic_simple": "A FI-SA WON NA TA-LA-TOU-NOU MA-TO SIN-GUÉ, A-LA-KHÈ NA RA-BA WON NA LON FAN-YIN",
-      "translation": "Il vaut mieux que nous analysions d'abord la mythologie ancienne, afin que nous la comprenions parfaitement.",
-      "context": "Guider les auditeurs vers l'interprétation ésotérique d'un mythe."
-    },
-    {
-      "phrase_id": "p24_8",
-      "original": "Na kanyin falan bata won birin sabari fari.",
-      "phonetic_api": "/na ka.ɲin fa.lan ba.ta won bi.rin sa.ba.ri fa.ri/",
-      "phonetic_simple": "NA KA-NYIN FA-LAN BA-TA WON BI-RIN SA-BA-RI FA-RI",
-      "translation": "Le discours de ce haut dignitaire a apporté la paix au-dessus de nous tous.",
-      "context": "Salu r la fin d'un conflit grâce à l'intervention d'un chef traditionnel."
+      "phrase_id": "p4",
+      "original": "Tàamáŋgà náŋ kéndé.",
+      "phonetic_api": "/taamangga nang kende/",
+      "phonetic_simple": "ta-a-mang-GA nang KEN-dé",
+      "translation": "Le chef de village va bien.",
+      "context": "Combine 'tàamáŋgà' et la formule de bonne santé 'kéndé', toutes deux attestées."
     }
   ],
   "grammar_points": [
     {
-      "concept": "La déclinaison honorifique des postpositions spatiales ('fari' / 'fɛ')",
-      "explanation": "Au niveau C1-C2, les postpositions de lieu s'emploient de manière métaphorique et honorifique. 'Fari' (au-dessus/sur) n'indique plus seulement une position physique, mais symbolise la transcendance spirituelle, la protection divine ou la suprématie de la communauté sur l'individu.",
+      "concept": "Le vocabulaire de l'autorité traditionnelle comme marqueur de registre soutenu",
+      "explanation": "Creissels (2010) atteste une hiérarchie de titres traditionnels : 'màŋgá' (roi/chef, terme général), 'tàamáŋgà' (chef de village, litt. composé sur 'màŋgá'), et 'bɔ́qíkáŋ̀' (chef de la terre, autorité coutumière liée au foncier, litt. lié à 'bɔ̀qí', la terre). L'emploi de ces titres, combiné à la formule de salutation 'kéndé' déjà connue, relève d'un registre plus soutenu que les échanges quotidiens.",
       "rules": [
-        "Baraa + fari = La bénédiction au-dessus de... (La bénédiction qui enveloppe)",
-        "Permet de conférer un style poétique et solennel hautement valorisé."
+        "màŋgá / tàamáŋgà / bɔ́qíkáŋ̀ = titres d'autorité traditionnelle, à utiliser avec la salutation formelle 'kéndé'"
       ],
       "examples": [
         {
-          "structure": "Baraa na won fari.",
-          "phonetic_api": "/ba.raː na won fa.ri/",
-          "meaning": "La grâce divine repose sur nous."
-        }
-      ]
-    },
-    {
-      "concept": "Le redoublement de focalisation identitaire : 'Nom + nan + a + ra'",
-      "explanation": "Pour insérer la solennité absolue dans le registre soutenu, l'orateur n'utilise pas la simple copule d'identité. Il recourt à la structure redoublée plaçant l'élément noble en tête, suivi de la particule de focalisation 'nan', puis du pronom de rappel 'a' et de la postposition d'état 'ra'.",
-      "rules": [
-        "Structure : [Terme Noble] + nan + a + ra",
-        "Cette lourdeur syntaxique est la marque exclusive du langage cérémoniel et des contes."
-      ],
-      "examples": [
-        {
-          "structure": "Talatunu nan a ra.",
-          "phonetic_api": "/ta.la.tu.nu nan a ra/",
-          "meaning": "C'est l'épopée sacrée elle-même."
+          "structure": "kéndé + titre",
+          "phonetic_api": "/kende, ta-a-mang-ga/",
+          "meaning": "salutations, chef de village"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Kanyin (Le haut dignitaire)",
-      "text": "Jalonké birin, singe ra n bɛ won mambilin mambilin xili fanyin ra. Fala xunba nan na mɛ won bɛ to."
+      "speaker": "Villageois",
+      "text": "Kéndé, tàamáŋgà!",
+      "phonetic_api": "/kende, ta-a-mang-ga/",
+      "phonetic_simple": "KEN-dé, ta-a-mang-GA",
+      "translation": "Salutations, chef de village !"
     },
     {
-      "speaker": "Amara (Le griot)",
-      "text": "Awo n baabaa, fala xunba na i bɛ. Won birin na i bɛ talatunu tinfe sanndiya ra. Sikɛ mu na won bɛ."
+      "speaker": "Chef de village",
+      "text": "Kéndé. Í kéndé bà?",
+      "phonetic_api": "/kende, i kende ba/",
+      "phonetic_simple": "KEN-dé, i KEN-dé ba",
+      "translation": "Salutations. Vas-tu bien ?"
     },
     {
-      "speaker": "Kanyin",
-      "text": "Talatunu na a ra : Won baabaa mambilin mu nuu bata gbeɲanfala rafala, e nuu na walife baraa ra fari. Na fe ra won na baraa gbe sɔtɔ."
+      "speaker": "Villageois",
+      "text": "Awa, ń kéndé.",
+      "phonetic_api": "/awa, n kende/",
+      "phonetic_simple": "a-wa, n KEN-dé",
+      "translation": "Oui, je vais bien."
     },
     {
-      "speaker": "Amara",
-      "text": "Na sariɲen nan a ra ! Hali naxanba tɛmɛni mabilinma, won mu na tɔɔn ba won bɛ fari. Inu wali i bɛ falan ra."
-    },
-    {
-      "speaker": "Kanyin",
-      "text": "Alaxɛ na ra.ba, baraa nun sanndiya na won birin bɛ, alaxɛ na ra.ba won na sabari."
+      "speaker": "Villageois",
+      "text": "Kéndé, bɔ́qíkáŋ̀!",
+      "phonetic_api": "/kende, boqikang/",
+      "phonetic_simple": "KEN-dé, bô-qi-KANG",
+      "translation": "Salutations, chef de la terre !"
     }
   ],
   "cultural_notes": [
-    "Dans l'univers culturel Jalonké, le registre soutenu ('fala xunba') est intimement lié à la fonction de mémoire collective. Lors des grands rituels en Haute-Guinée, l'orateur doit impérativement décliner la généalogie ('mambilin') de l'assistance avant de délivrer son message, sous peine de commettre un grave impair coutumier.",
-    "Le terme 'baraa' (bénédiction) est le pivot de la vie spirituelle : chaque parole prononcée par un aîné est perçue comme un canal de transmission de la force vitale des ancêtres vers les nouvelles générations."
+    "La structure d'autorité traditionnelle yalunka distingue le pouvoir politique/royal ('màŋgá', 'tàamáŋgà') du pouvoir coutumier lié à la terre ('bɔ́qíkáŋ̀'), une distinction courante dans les sociétés mandé où l'autorité foncière précède souvent historiquement l'autorité politique.",
+    "S'adresser à un chef ou un ancien exige l'emploi systématique des formules de salutation ('kéndé') avant toute prise de parole, quel que soit le sujet abordé."
   ],
   "exercises": [
     {
-      "exercise_id": "ex24_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel terme Yalunka de registre soutenu désigne l'épopée historique ou le récit des temps anciens ?",
+      "question": "Que signifie 'bɔ́qíkáŋ̀' ?",
       "options": [
-        "Talen",
-        "Talatunu",
-        "Gbeɲanfala"
+        "chef de la terre",
+        "conte",
+        "chef de village"
       ],
-      "correct_answer": "Talatunu",
-      "explanation": "'Talatunu' qualifie la mythologie, les récits de fondation et les épopées déclamées de manière solennelle."
+      "correct_answer": "chef de la terre",
+      "explanation": "Attesté dans Creissels (2010)."
     },
     {
-      "exercise_id": "ex24_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Pour invoquer la bénédiction ou la grâce lors d'une cérémonie, on emploie le terme spirituel [ ___ ].",
-      "correct_answer": "baraa",
-      "hint": "Ce mot à voyelle finale longue et redoublée s'écrit avec cinq lettres."
+      "sentence_with_blank": "« Chef de village » se dit : [ ___ ].",
+      "correct_answer": "tàamáŋgà",
+      "hint": "Attesté par Creissels (2010)."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Denis Creissels — Liste lexicale du dialonké de Faléya, Mandenkan 46 (2010), pp. 49-71",
+      "url": "http://www.deniscreissels.fr/public/Creissels-liste_lexicale_dialonke.pdf"
+    },
+    {
+      "label": "Wikipedia (EN) — Yalunka language",
+      "url": "https://en.wikipedia.org/wiki/Yalunka_language"
+    },
+    {
+      "label": "C. Magbaily Fyle — Oral Traditions of Sierra Leone",
+      "url": "https://www.scribd.com/document/101741178/Oral-Traditions-of-Sierra-Leone-C-MAGBAILY-FYLE"
+    },
+    {
+      "label": "Joshua Project — Yalunka",
+      "url": "https://joshuaproject.net/languages/yal"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Les trois titres d'autorité traditionnelle (màŋgá, tàamáŋgà, bɔ́qíkáŋ̀) et le mot 'kíiní' (conte) sont attestés avec leur traduction française dans Creissels (2010). Les phrases et le dialogue combinent ce vocabulaire attesté avec la formule de salutation 'kéndé' déjà validée au niveau débutant ; aucune formule cérémonielle figée plus longue n'a pu être trouvée dans les sources disponibles."
 }

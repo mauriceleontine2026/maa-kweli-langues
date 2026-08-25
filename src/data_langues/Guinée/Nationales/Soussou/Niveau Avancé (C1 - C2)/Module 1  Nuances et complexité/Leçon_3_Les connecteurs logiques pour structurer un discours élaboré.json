@@ -6,358 +6,203 @@
   "lesson_number": 3,
   "title": "Les connecteurs logiques pour structurer un discours élaboré",
   "learning_objectives": [
-    "Utiliser les connecteurs logiques de cause, de conséquence et d'opposition dans un exposé argumentatif soutenu",
-    "Articuler des propositions complexes pour structurer une plaidoirie ou un discours d'assemblée",
-    "Maîtriser les charnières discursives traditionnelles pour fluidifier l'expression oratoire"
+    "Utiliser 'nun' (et) et 'bari' (car/parce que) pour relier des idées",
+    "Reconnaître 'kono'/'kSno' (mais) comme connecteur d'opposition",
+    "Structurer un discours avec des connecteurs de cause ('fe nayan ra') et de conséquence"
   ],
   "phonetic_focus": {
-    "key_sounds": "Cette leçon met l'accent sur les liaisons et les modulations tonales induites par l'usage de locutions longues comme 'naxan ma fe ra'. Le son nasal final /ⁿ/ ou la prénasalisation dans 'na dangi' doit lier harmonieusement les segments de phrase sans coupure glottale brutale.",
-    "common_pitfalls": "L'erreur consiste à segmenter excessivement les connecteurs polyword (ex: prononcer 'na-xan' 'ma' 'fe' 'ra' comme quatre entités autonomes). Prononcez-les comme un seul bloc rythmique pour maintenir la fluidité du discours."
+    "key_sounds": "'kono' (mais) et 'kabi' (depuis/puisque) partagent la syllabe initiale 'ko/ka' mais se distinguent par la voyelle finale ; il faut l'articuler distinctement pour éviter la confusion.",
+    "common_pitfalls": "Les apprenants francophones ont tendance à omettre les connecteurs logiques en soussou et à juxtaposer simplement les phrases comme en style oral simple, alors qu'un discours élaboré ('registre soutenu') requiert leur usage explicite."
   },
   "vocabulary": [
     {
-      "word_id": "v21_1",
-      "term": "Naxan ma fe ra",
-      "phonetic_api": "/naxaⁿ ma fɛ ra/",
-      "phonetic_simple": "NA-KHAN MA FÈ RA",
-      "translation": "C'est pourquoi / En raison de quoi / Par conséquent",
-      "example_sentence": "Naxan ma fe ra, won xa marasiyati tongo.",
-      "example_phonetic": "/naxaⁿ ma fɛ ra woⁿ xa marasiyati toⁿɡo/",
-      "example_translation": "C'est pourquoi il nous faut adopter la recommandation suprême."
+      "word_id": "v1",
+      "term": "nun",
+      "phonetic_api": "/nun/",
+      "phonetic_simple": "noun",
+      "translation": "et (coordination)",
+      "example_sentence": "Tara nun xunya na i yi?",
+      "example_phonetic": "/tara nun xuɲa na i ji/",
+      "example_translation": "As-tu des frères et sœurs ?"
     },
     {
-      "word_id": "v21_2",
-      "term": "A luden ma",
-      "phonetic_api": "/a ludɛⁿ ma/",
-      "phonetic_simple": "A LOU-DÈN MA",
-      "translation": "De plus / En outre / Bien plus encore",
-      "example_sentence": "A luden ma, tɔɲɛ yati nan na ra.",
-      "example_phonetic": "/a ludɛⁿ ma tɔɲɛ yati naⁿ na ra/",
-      "example_translation": "De plus, il s'agit d'une règle absolue."
+      "word_id": "v2",
+      "term": "bari",
+      "phonetic_api": "/bari/",
+      "phonetic_simple": "ba-ri",
+      "translation": "car, parce que, mais (introduit une justification/cause)",
+      "example_sentence": "N mu nçma lande diramini bari n xunya ginEma xa futixiri rabama.",
+      "example_phonetic": "/n mu nɔma lande diramini bari n xuɲa ginɛma xa futixiri rabama/",
+      "example_translation": "Je ne peux pas assister au baptême car le mariage de ma petite sœur aura lieu (ce jour-là)."
     },
     {
-      "word_id": "v21_3",
-      "term": "Koni yati",
-      "phonetic_api": "/koni yati/",
-      "phonetic_simple": "KO-NI YA-TI",
-      "translation": "Néanmoins / Cependant / Toutefois (opposition forte)",
-      "example_sentence": "Koni yati, n sikaxi na fe yati ra.",
-      "example_phonetic": "/koni yati n sikaxi na fɛ yati ra/",
-      "example_translation": "Néanmoins, je doute de la réalité concrète de cette affaire."
+      "word_id": "v3",
+      "term": "kono",
+      "phonetic_api": "/kono/",
+      "phonetic_simple": "KO-no",
+      "translation": "mais (opposition), attesté dans la description académique de Duport comme 'kSno'",
+      "example_sentence": "N laxi a ra n sigama Bahamas, kono n mu a fisan kolon.",
+      "example_phonetic": "/n laxi a ra n siɡama bahamas, kono n mu a fisan kolon/",
+      "example_translation": "Je pense que j'irai aux Bahamas, mais je n'en suis pas encore tout à fait sûr."
     },
     {
-      "word_id": "v21_4",
-      "term": "Na fe ma",
-      "phonetic_api": "/na fɛ ma/",
-      "phonetic_simple": "NA FÈ MA",
-      "translation": "À ce sujet / En ce qui concerne cette affaire",
-      "example_sentence": "Na fe ma, won ma malanyi ɲɛndɛxi.",
-      "example_phonetic": "/na fɛ ma woⁿ ma malaɲi ɲɛndɛxi/",
-      "example_translation": "À ce sujet, notre réunion est parfaitement structurée."
+      "word_id": "v4",
+      "term": "man",
+      "phonetic_api": "/man/",
+      "phonetic_simple": "man",
+      "translation": "aussi, également, encore (ajout)",
+      "example_sentence": "Muxu sigama man fareboronde.",
+      "example_phonetic": "/muxu siɡama man fareboronde/",
+      "example_translation": "Nous allons aussi danser."
     },
     {
-      "word_id": "v21_5",
-      "term": "Alɔ",
-      "phonetic_api": "/alɔ/",
-      "phonetic_simple": "A-LO",
-      "translation": "Ainsi que / De même que / Conformément à",
-      "example_sentence": "Won xa wali raba alɔ tɔɲɛé falaxi ki naxan ma.",
-      "example_phonetic": "/woⁿ xa wali raba alɔ tɔɲɛe falaxi ki naxaⁿ ma/",
-      "example_translation": "Il faut que nous travaillions conformément à ce que prescrivent les règles."
-    },
-    {
-      "word_id": "v21_6",
-      "term": "Hali",
-      "phonetic_api": "/hali/",
-      "phonetic_simple": "HA-LI",
-      "translation": "Même si / Malgré / Bien que (concession)",
-      "example_sentence": "Hali sare xa gbo, won fama a sarafe.",
-      "example_phonetic": "/hali sarɛ xa ɡbo woⁿ fama a sarafɛ/",
-      "example_translation": "Même si le prix est élevé, nous allons l'acheter."
-    },
-    {
-      "word_id": "v21_7",
-      "term": "Na dangi ma",
-      "phonetic_api": "/na daⁿɡi ma/",
-      "phonetic_simple": "NA DAN-GUI MA",
-      "translation": "Au-delà de cela / Après quoi",
-      "example_sentence": "Na dangi ma, tinnafiixɛ wasaxi won bɛ.",
-      "example_phonetic": "/na daⁿɡi ma tiⁿnafiːxɛ wasaxi woⁿ bɛ/",
-      "example_translation": "Au-delà de cela, l'honnêteté nous est indispensable."
-    },
-    {
-      "word_id": "v21_8",
-      "term": "Na findi fe ra naxan",
-      "phonetic_api": "/na fiⁿdi fɛ ra naxaⁿ/",
-      "phonetic_simple": "NA FIN-DI FÈ RA NA-KHAN",
-      "translation": "Ce qui implique que / Ce qui s'avère être",
-      "example_sentence": "Na findi fe ra naxan na mu fama ɔlɔfe.",
-      "example_phonetic": "/na fiⁿdi fɛ ra naxaⁿ na mu fama ɔlɔfɛ/",
-      "example_translation": "Ce qui implique que l'affaire ne va pas se gâter."
-    },
-    {
-      "word_id": "v21_9",
-      "term": "Fe yati nan na ra alɔ",
-      "phonetic_api": "/fɛ yati naⁿ na ra alɔ/",
-      "phonetic_simple": "FÈ YA-TI NAN NA RA A-LO",
-      "translation": "Il est de fait que / En réalité",
-      "example_sentence": "Fe yati nan na ra alɔ won monixi fe foraxi ma.",
-      "example_phonetic": "/fɛ yati naⁿ na ra alɔ woⁿ monixi fɛ foraxi ma/",
-      "example_translation": "Il est de fait que nous avons prévenu les dérives obscures."
-    },
-    {
-      "word_id": "v21_10",
-      "term": "Babilong yati ma",
-      "phonetic_api": "/babiloⁿ yati ma/",
-      "phonetic_simple": "BA-BI-LONG YA-TI MA",
-      "translation": "En dernière analyse / Finalement pour l'avenir",
-      "example_sentence": "Babilong yati ma, won fama sewafe.",
-      "example_phonetic": "/babiloⁿ yati ma woⁿ fama sewafɛ/",
-      "example_translation": "En dernière analyse, nous allons nous réjouir."
+      "word_id": "v5",
+      "term": "kabi",
+      "phonetic_api": "/kabi/",
+      "phonetic_simple": "KA-bi",
+      "translation": "depuis, puisque (connecteur temporel/causal, attesté chez Duport)",
+      "example_sentence": "Kabi a naxa siga, muxu mu a to tugun.",
+      "example_phonetic": "/kabi a naxa siɡa, muxu mu a to tuɡun/",
+      "example_translation": "Depuis qu'il est parti, nous ne l'avons pas revu."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p21_1",
-      "original": "Naxan ma fe ra, won ma tɔɲɛé xa ɲɛndɛ fanyi ra wali yire ma.",
-      "phonetic_api": "/naxaⁿ ma fɛ ra woⁿ ma tɔɲɛe xa ɲɛndɛ faɲi ra wali yirɛ ma/",
-      "phonetic_simple": "NA-KHAN MA FÈ RA, WON MA TO-NYÈÈ KHA NYÈN-DÈ FAN-YI RA WA-LI YI-RÈ MA",
-      "translation": "C'est pourquoi nos règles doivent impérativement être structurées avec rigueur sur le lieu de travail.",
-      "context": "Articuler la conclusion logique d'un argumentaire devant une assemblée."
+      "phrase_id": "p1",
+      "original": "...bari...",
+      "phonetic_api": "/bari/",
+      "phonetic_simple": "ba-ri",
+      "translation": "...car/parce que...",
+      "context": "Connecteur de cause introduisant une justification dans une phrase complexe, très fréquent à l'oral comme à l'écrit soutenu."
     },
     {
-      "phrase_id": "p21_2",
-      "original": "A luden ma, tinnafiixɛ nan na fe yati ra won ma marafangbe ma.",
-      "phonetic_api": "/a ludɛⁿ ma tiⁿnafiːxɛ naⁿ na fɛ yati ra woⁿ ma marafaⁿɡbɛ ma/",
-      "phonetic_simple": "A LOU-DÈN MA, TIN-NA-FII-KHÈ NAN NA FÈ YA-TI RA WON MA MA-RA-FAN-GBÈ MA",
-      "translation": "De plus, l'honnêteté s'avère être la vérité profonde au sein de notre environnement.",
-      "context": "Ajouter un argument de poids d'ordre moral lors d'un plaidoyer soutenu."
+      "phrase_id": "p2",
+      "original": "N man mu n malabuma bari n boree fama n xEbuide banxi",
+      "phonetic_api": "/n man mu n malabuma bari n borːe fama n xɛbuide banxi/",
+      "phonetic_simple": "n man mou n ma-LA-bou-ma ba-ri n bo-RÉ fa-ma n khè-boui-dé BAN-khi",
+      "translation": "Je ne vais pas non plus me reposer, car mes amis vont venir me saluer",
+      "context": "Exemple attesté combinant négation, ajout ('man') et cause ('bari') dans une même phrase élaborée."
     },
     {
-      "phrase_id": "p21_3",
-      "original": "Koni yati, n ma sika mu dangi na marasiyati ma fe ra.",
-      "phonetic_api": "/koni yati n ma sika mu daⁿɡi na marasiyati ma fɛ ra/",
-      "phonetic_simple": "KO-NI YA-TI, N MA SI-KA MOU DAN-GUI NA MA-RA-SI-YA-TI MA FÈ RA",
-      "translation": "Néanmoins, mes doutes ne s'effacent pas concernant cette recommandation suprême.",
-      "context": "Introduire une restriction ferme et respectueuse lors d'une joute oratoire."
+      "phrase_id": "p3",
+      "original": "N laxi a ra..., kono...",
+      "phonetic_api": "/n laxi a ra, kono/",
+      "phonetic_simple": "n LA-khi a ra, KO-no",
+      "translation": "Je pense que..., mais...",
+      "context": "Structure permettant de nuancer une affirmation par une opposition, typique du discours argumentatif élaboré."
     },
     {
-      "phrase_id": "p21_4",
-      "original": "Hali won ma gɔfɛ xa kere ki ma, won mu fama sare matiféfe a gbe ra.",
-      "phonetic_api": "/hali woⁿ ma ɡɔfɛ xa kerɛ ki ma woⁿ mu fama sarɛ matifɛfɛ a ɡbɛ ra/",
-      "phonetic_simple": "HA-LI WON MA GO-FÈ KHA KÉ-RÈ KI MA, WON MOU FA-MA SA-RÈ MA-TI-FÉ-FÈ A GBÈ RA",
-      "translation": "Même si nos ressources financières venaient à manquer à présent, nous ne vendrons pas à un coût prohibitif.",
-      "context": "Poser une concession éthique majeure dans le cadre d'un rapport de gestion."
-    },
-    {
-      "phrase_id": "p21_5",
-      "original": "Na fe ma, won xa fe foraxi birin moni alɔ won projectsé mu xa ɔlɔ.",
-      "phonetic_api": "/na fɛ ma woⁿ xa fɛ foraxi biriⁿ moni alɔ woⁿ projɛtse mu xa ɔlɔ/",
-      "phonetic_simple": "NA FÈ MA, WON KHA FÈ FO-RA-KHI BI-RIN MO-NI A-LO WON PRO-JET-SÉ MOU KHA O-LO",
-      "translation": "À ce sujet, il nous faut prévenir toutes les dérives obscures afin que nos projets ne soient pas gâtés.",
-      "context": "Cadrer une intervention sur un sujet précis de gouvernance collective."
-    },
-    {
-      "phrase_id": "p21_6",
-      "original": "Na dangi ma, fe yati nan na ra alɔ won kano na Ala ma.",
-      "phonetic_api": "/na daⁿɡi ma fɛ yati naⁿ na ra alɔ woⁿ kano na ala ma/",
-      "phonetic_simple": "NA DAN-GUI MA, FÈ YA-TI NAN NA RA A-LO WON KA-NO NA A-LA MA",
-      "translation": "Au-delà de cela, il est de fait que notre confiance repose ultimement en Dieu.",
-      "context": "Élever la portée philosophique ou spirituelle d'une transition discursive."
-    },
-    {
-      "phrase_id": "p21_7",
-      "original": "Naxanba tinnafiixɛ xa na won ma, na findi fe ra naxan won fama nɔfe babilong.",
-      "phonetic_api": "/naxaⁿba tiⁿnafiːxɛ xa na woⁿ ma na fiⁿdi fɛ ra naxaⁿ woⁿ fama nɔfɛ babiloⁿ/",
-      "phonetic_simple": "NA-KHAN-BA TIN-NA-FII-KHÈ KHA NA WON MA, NA FIN-DI FÈ RA NA-KHAN WON FA-MA NO-FÈ BA-BI-LONG",
-      "translation": "Au cas où l'honnêteté guiderait nos pas, ce qui implique que nous l'emporterons à l'avenir.",
-      "context": "Lier une hypothèse complexe à sa conséquence logique dans une plaidoirie."
-    },
-    {
-      "phrase_id": "p21_8",
-      "original": "Babilong yati ma, won ma marasiyatié birin fama findife fe yati ra.",
-      "phonetic_api": "/babiloⁿ yati ma woⁿ ma marasiyatiɛ biriⁿ fama fiⁿdifɛ fɛ yati ra/",
-      "phonetic_simple": "BA-BI-LONG YA-TI MA, WON MA MA-RA-SI-YA-TI-É BI-RIN FA-MA FIN-DI-FÈ FÈ YA-TI RA",
-      "translation": "En dernière analyse, l'ensemble de nos recommandations suprêmes se transformera en réalité concrète.",
-      "context": "Clore un discours officiel sur une perspective d'accomplissement durable."
-    }
-  ],
-  " common_phrases ": [
-    {
-      "phrase_id": "p21_1",
-      "original": "Naxan ma fe ra, won ma tɔɲɛé xa ɲɛndɛ fanyi ra wali yire ma.",
-      "phonetic_api": "/naxaⁿ ma fɛ ra woⁿ ma tɔɲɛe xa ɲɛndɛ faɲi ra wali yirɛ ma/",
-      "phonetic_simple": "NA-KHAN MA FÈ RA, WON MA TO-NYÈÈ KHA NYÈN-DÈ FAN-YI RA WA-LI YI-RÈ MA",
-      "translation": "C'est pourquoi nos règles doivent impérativement être structurées avec rigueur sur le lieu de travail.",
-      "context": "Articuler la conclusion logique d'un argumentaire devant une assemblée."
-    },
-    {
-      "phrase_id": "p21_2",
-      "original": "A luden ma, tinnafiixɛ nan na fe yati ra won ma marafangbe ma.",
-      "phonetic_api": "/a ludɛⁿ ma tiⁿnafiːxɛ naⁿ na fɛ yati ra woⁿ ma marafaⁿɡbɛ ma/",
-      "phonetic_simple": "A LOU-DÈN MA, TIN-NA-FII-KHÈ NAN NA FÈ YA-TI RA WON MA MA-RA-FAN-GBÈ MA",
-      "translation": "De plus, l'honnêteté s'avère être la vérité profonde au sein de notre environnement.",
-      "context": "Ajouter un argument de poids d'ordre moral lors d'un plaidoyer soutenu."
-    },
-    {
-      "phrase_id": "p21_3",
-      "original": "Koni yati, n ma sika mu dangi na marasiyati ma fe ra.",
-      "phonetic_api": "/koni yati n ma sika mu daⁿɡi na marasiyati ma fɛ ra/",
-      "phonetic_simple": "KO-NI YA-TI, N MA SI-KA MOU DAN-GUI NA MA-RA-SI-YA-TI MA FÈ RA",
-      "translation": "Néanmoins, mes doutes ne s'effacent pas concernant cette recommandation suprême.",
-      "context": "Introduire une restriction ferme et respectueuse lors d'une joute oratoire."
-    },
-    {
-      "phrase_id": "p21_4",
-      "original": "Hali won ma gɔfɛ xa kere ki ma, won mu fama sare matiféfe a gbe ra.",
-      "phonetic_api": "/hali woⁿ ma ɡɔfɛ xa kerɛ ki ma woⁿ mu fama sarɛ matifɛfɛ a ɡbɛ ra/",
-      "phonetic_simple": "HA-LI WON MA GO-FÈ KHA KÉ-RÈ KI MA, WON MOU FA-MA SA-RÈ MA-TI-FÉ-FÈ A GBÈ RA",
-      "translation": "Même si nos ressources financières venaient à manquer à présent, nous ne vendrons pas à un coût prohibitif.",
-      "context": "Poser une concession éthique majeure dans le cadre d'un rapport de gestion."
-    },
-    {
-      "phrase_id": "p21_5",
-      "original": "Na fe ma, won xa fe foraxi birin moni alɔ won projectsé mu xa ɔlɔ.",
-      "phonetic_api": "/na fɛ ma woⁿ xa fɛ foraxi biriⁿ moni alɔ woⁿ projɛtse mu xa ɔlɔ/",
-      "phonetic_simple": "NA FÈ MA, WON KHA FÈ FO-RA-KHI BI-RIN MO-NI A-LO WON PRO-JET-SÉ MOU KHA O-LO",
-      "translation": "À ce sujet, il nous faut prevenir toutes les dérives obscures afin que nos projets ne soient pas gâtés.",
-      "context": "Cadrer une intervention sur un sujet précis de gouvernance collective."
-    },
-    {
-      "phrase_id": "p21_6",
-      "original": "Na dangi ma, fe yati nan na ra alɔ won kano na Ala ma.",
-      "phonetic_api": "/na daⁿɡi ma fɛ yati naⁿ na ra alɔ woⁿ kano na ala ma/",
-      "phonetic_simple": "NA DAN-GUI MA, FÈ YA-TI NAN NA RA A-LO WON KA-NO NA A-LA MA",
-      "translation": "Au-delà de cela, il est de fait que notre confiance repose ultimement en Dieu.",
-      "context": "Élever la portée philosophique ou spirituelle d'une transition discursive."
-    },
-    {
-      "phrase_id": "p21_7",
-      "original": "Naxanba tinnafiixɛ xa na won ma, na findi fe ra naxan won fama nɔfe babilong.",
-      "phonetic_api": "/naxaⁿba tiⁿnafiːxɛ xa na woⁿ ma na fiⁿdi fɛ ra naxaⁿ woⁿ fama nɔfɛ babiloⁿ/",
-      "phonetic_simple": "NA-KHAN-BA TIN-NA-FII-KHÈ KHA NA WON MA, NA FIN-DI FÈ RA NA-KHAN WON FA-MA NO-FÈ BA-BI-LONG",
-      "translation": "Au cas où l'honnêteté guiderait nos pas, ce qui implique que nous l'emporterons à l'avenir.",
-      "context": "Lier une hypothèse complexe à sa conséquence logique dans une plaidoirie."
-    },
-    {
-      "phrase_id": "p21_8",
-      "original": "Babilong yati ma, won ma marasiyatié birin fama findife fe yati ra.",
-      "phonetic_api": "/babiloⁿ yati ma woⁿ ma marasiyatiɛ biriⁿ fama fiⁿdifɛ fɛ yati ra/",
-      "phonetic_simple": "BA-BI-LONG YA-TI MA, WON MA MA-RA-SI-YA-TI-É BI-RIN FA-MA FIN-DI-FÈ FÈ YA-TI RA",
-      "translation": "En dernière analyse, l'ensemble de nos recommandations suprêmes se transformera en réalité concrète.",
-      "context": "Clore un discours officiel sur une perspective d'accomplissement durable."
+      "phrase_id": "p4",
+      "original": "Xa n kçbiri sçtç, n sigama Bahamas",
+      "phonetic_api": "/xa n kɔbiri sɔtɔ, n siɡama bahamas/",
+      "phonetic_simple": "kha n ko-BI-ri so-TO, n SI-ga-ma ba-ha-MAS",
+      "translation": "Si j'obtiens de l'argent, j'irai aux Bahamas",
+      "context": "Rappel de la structure conditionnelle 'xa', elle-même un connecteur logique essentiel du discours élaboré."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'articulation causale et consécutive complexe avec 'Naxan ma fe ra'",
-      "explanation": "Pour lier deux propositions complexes par un rapport de cause à effet dans un style soutenu, la grammaire supérieure utilise la locution conjonctive 'Naxan ma fe ra'. Elle synthétise l'ensemble des faits énoncés en amont pour introduire la conséquence incontestable.",
+      "concept": "Les connecteurs de coordination et d'opposition : nun, man, kono",
+      "explanation": "'Nun' relie deux éléments de même nature (noms, propositions) dans un rapport d'addition simple. 'Man' ajoute une information supplémentaire à ce qui précède, avec une nuance de renforcement ('aussi/également'). 'Kono' (à rapprocher de la forme académique 'kSno' documentée par Duport en 1886) marque une opposition entre deux idées.",
       "rules": [
-        "Énoncer la prémisse ou la situation factuelle complexe.",
-        "Placer le connecteur 'Naxan ma fe ra' en ouverture de la seconde proposition.",
-        "Le verbe de la conséquence prend généralement une forme modale ('xa' ou 'fama')."
+        "Coordination simple : Élément1 + nun + Élément2",
+        "Ajout renforcé : Sujet + Verbe + man + Complément",
+        "Opposition : Proposition1, + kono + Proposition2"
       ],
       "examples": [
         {
-          "structure": "Tɔɲɛ mu ɲɛndɛxi ... Naxan ma fe ra + won + xa + wali",
-          "phonetic_api": "/tɔɲɛ mu ɲɛndɛxi naxaⁿ ma fɛ ra woⁿ xa wali/",
-          "meaning": "Les règles ne sont pas structurées... C'est pourquoi il nous faut agir."
+          "structure": "Tara nun xunya",
+          "phonetic_api": "/tara nun xuɲa/",
+          "meaning": "Frères et sœurs (aînés et cadets)"
+        },
+        {
+          "structure": "Muxu sigama man fareboronde",
+          "phonetic_api": "/muxu siɡama man fareboronde/",
+          "meaning": "Nous allons aussi danser"
         }
       ]
     },
     {
-      "concept": "La concession argumentative par l'usage du coordonnant 'Hali'",
-      "explanation": "Le connecteur 'Hali' sert à introduire une restriction concessive (bien que / même si) qui n'altère pas la réalisation de l'action principale. Dans le registre formel, il est systématiquement suivi du mode subjonctif en 'xa' pour souligner le caractère potentiel ou théorique du sacrifice consenti.",
+      "concept": "Le connecteur de cause 'bari'",
+      "explanation": "'Bari' introduit la justification ou la cause d'une affirmation, d'une impossibilité ou d'une décision qui précède dans la phrase. Il se place directement après la proposition principale, avant la proposition causale.",
       "rules": [
-        "Structure : Hali + [Sujet] + xa + [Verbe nu] ... [Proposition principale au futur ou à l'accompli]."
+        "Structure : Proposition principale + bari + Proposition causale",
+        "Souvent utilisé après une négation pour expliquer un refus ou une impossibilité"
       ],
       "examples": [
         {
-          "structure": "Hali + won + ma + gɔfɛ + xa + kere ... won + mu + fama + sare + matiféfe",
-          "phonetic_api": "/hali woⁿ ma ɡɔfɛ xa kerɛ woⁿ mu fama sarɛ matifɛfɛ/",
-          "meaning": "Même si nos ressources venaient à manquer, nous ne vendrions pas à perte."
+          "structure": "N mu nçma lande diramini bari n xunya ginEma xa futixiri rabama",
+          "phonetic_api": "/n mu nɔma lande diramini bari n xuɲa ginɛma xa futixiri rabama/",
+          "meaning": "Je ne peux pas assister au baptême car le mariage de ma sœur aura lieu (ce jour-là)"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Le Notable (Orateur)",
-      "text": "Marie, i kéna ! Na fe ma, won ma malanyi ɲɛndɛxi fanyi ra, koni n ma sikaé na na fe yati ra.",
-      "phonetic_api": "/mari i kéna na fɛ ma woⁿ ma malaɲi ɲɛndɛxi faɲi ra koni n ma sikae na na fɛ yati ra/",
-      "phonetic_simple": "MA-RI, I KÉ-NA ! NA FÈ MA, WON MA MA-LAN-YI NYÈN-DÈ-KHI FAN-YI RA, KO-NI N MA SI-KA-É NA NA FÈ YA-TI RA.",
-      "translation": "Marie, bonjour ! À ce sujet, notre assemblée est parfaitement structurée, mais mes doutes persistent quant à la réalité concrète de nos résolutions."
+      "speaker": "Fode",
+      "text": "N mu nçma lande diramini bari n xunya ginEma xa futixiri rabama na lçxE keren nE.",
+      "phonetic_api": "/n mu nɔma lande diramini bari n xuɲa ginɛma xa futixiri rabama na lɔxɛ keren nɛ/",
+      "phonetic_simple": "n mou NO-ma LAN-dé di-ra-MI-ni ba-ri n khou-GNA gui-NÈ-ma kha fou-ti-KHI-ri ra-BA-ma na LO-khè ké-rèn NÈ",
+      "translation": "Je ne peux pas assister au baptême car le mariage de ma petite sœur aura lieu ce même jour."
     },
     {
-      "speaker": "Marie",
-      "text": "I nuwali, n benba. Fe yati nan na ra alɔ won monixi fe foraxi ma singe. Naxan ma fe ra, won xa kano.",
-      "phonetic_api": "/i nuwali n beⁿba fɛ yati naⁿ na ra alɔ woⁿ monixi fɛ foraxi ma siⁿdʒɛ naxaⁿ ma fɛ ra woⁿ xa kano/",
-      "phonetic_simple": "I NOU-WA-LI, N BEN-BA. FÈ YA-TI NAN NA RA A-LO WON MO-NI-KHI FÈ FO-RA-KHI MA SIN-DJÉ. NA-KHAN MA FÈ RA, WON KHA KA-NO.",
-      "translation": "Merci, mon aîné. Il est de fait que nous avons préalablement prévenu les dérives obscures. C'est pourquoi nous devons impérativement maintenir notre confiance."
+      "speaker": "Salifu",
+      "text": "N nçma a kolon, kono n laxi a ra i nçma a rabade tina.",
+      "phonetic_api": "/n nɔma a kolon, kono n laxi a ra i nɔma a rabade tina/",
+      "phonetic_simple": "n NO-ma a ko-LON, KO-no n LA-khi a ra i NO-ma a ra-BA-dé TI-na",
+      "translation": "Je comprends cela, mais je pense que tu pourras t'y rendre demain."
     },
     {
-      "speaker": "Le Notable (Orateur)",
-      "text": "A luden ma, naxanba won ma gɔfɛé mu xa kere, na findi fe ra naxan won mu fama sare gbe ra tongofe.",
-      "phonetic_api": "/a ludɛⁿ ma naxaⁿba woⁿ ma ɡɔfɛe mu xa kerɛ na fiⁿdi fɛ ra naxaⁿ woⁿ mu fama sarɛ ɡbɛ ra toⁿɡofɛ/",
-      "phonetic_simple": "A LOU-DÈN MA, NA-KHAN-BA WON MA GO-FÈ-É MOU KHA KÉ-RÈ, NA FIN-DI FÈ RA NA-KHAN WON MOU FA-MA SA-RÈ GBÈ RA TON-GO-FÈ.",
-      "translation": "De plus, au cas où nos ressources ne manqueraient pas, ce qui implique que nous ne serons pas contraints d'adopter des tarifs prohibitifs."
+      "speaker": "Fode",
+      "text": "Iyo, nun n man wama n xunya ginEma xa futi sabati.",
+      "phonetic_api": "/ijo, nun n man wama n xuɲa ginɛma xa futi sabati/",
+      "phonetic_simple": "i-yo, noun n man WA-ma n khou-GNA gui-NÈ-ma kha FOU-ti sa-ba-TI",
+      "translation": "Oui, et je souhaite aussi que le mariage de ma petite sœur réussisse."
     },
     {
-      "speaker": "Marie",
-      "text": "Na dangi ma, hali tɔɲɛé xa gbo, tinnafiixɛ fama fe birin ɲɛndɛfe alɔ won wama a ki naxan ma.",
-      "phonetic_api": "/na daⁿɡi ma hali tɔɲɛe xa ɡbo tiⁿnafiːxɛ fama fɛ biriⁿ ɲɛndɛfɛ alɔ woⁿ wama a ki naxaⁿ ma/",
-      "phonetic_simple": "NA DAN-GUI MA, HA-LI TO-NYÈÈ KHA GBO, TIN-NA-FII-KHÈ FA-MA FÈ BI-RIN NYÈN-DÈ-FÈ A-LO WON WA-MA A KI NA-KHAN MA.",
-      "translation": "Au-delà de cela, même si les règles s'avèrent strictes, l'honnêteté va tout harmoniser conformément à ce que nous désirons."
-    },
-    {
-      "speaker": "Le Notable (Orateur)",
-      "text": "Babilong yati ma, na findi fe fanyi ra won birin bɛ. Won xa na marasiyati tongo tan !",
-      "phonetic_api": "/babiloⁿ yati ma na fiⁿdi fɛ faɲi ra woⁿ biriⁿ bɛ woⁿ xa na marasiyati toⁿɡo taⁿ/",
-      "phonetic_simple": "BA-BI-LONG YA-TI MA, NA FIN-DI FÈ FAN-YI RA WON BI-RIN BÈ. WON KHA NA MA-RA-SI-YA-TI TON-GO TAN !",
-      "translation": "En dernière analyse, cela s'avérera bénéfique pour nous tous. Adoptons donc cette recommandation suprême dès à présent !"
+      "speaker": "Salifu",
+      "text": "Kabi i falaxi n bE, n bara a kolon fanyi, kono n man wama a fala i xa mixie bE.",
+      "phonetic_api": "/kabi i falaxi n bɛ, n bara a kolon faɲi, kono n man wama a fala i xa mixie bɛ/",
+      "phonetic_simple": "KA-bi i fa-LA-khi n bè, n BA-ra a ko-LON FA-gni, KO-no n man WA-ma a FA-la i kha MI-khi-é bè",
+      "translation": "Depuis que tu m'as expliqué cela, j'ai bien compris, mais je souhaite aussi le dire à ta famille."
     }
   ],
   "cultural_notes": [
-    "La maîtrise des charnières logiques complexes caractérise le sommet de l'éloquence ('art oratoire') en Basse-Guinée. Lors des assemblées rituelles de résolution de conflits ou de planification communautaire, un discours décousu ou trop direct perd toute crédibilité. L'usage de locutions denses telles que 'naxan ma fe ra' ou 'a luden ma' permet à l'orateur de tisser une toile argumentative serrée, démontrant sa sagesse et sa rigueur intellectuelle devant le conseil des notables."
+    "Dans le discours soutenu soussou (discours de cérémonie, plaidoirie familiale), l'enchaînement de connecteurs comme 'bari' et 'kono' permet de nuancer un argument tout en restant dans un registre poli et mesuré.",
+    "Le respect de la logique argumentative (cause avec 'bari', opposition avec 'kono') est particulièrement valorisé dans les prises de parole devant les aînés ou lors de médiations familiales."
   ],
   "exercises": [
     {
-      "exercise_id": "ex21_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel connecteur logique complexe introduit de façon formelle la conséquence logique ('c'est pourquoi') ?",
+      "question": "Quel connecteur introduit une cause ou une justification en soussou ?",
       "options": [
-        "A luden ma",
-        "Naxan ma fe ra",
-        "Koni yati"
+        "bari",
+        "nun",
+        "man"
       ],
-      "correct_answer": "Naxan ma fe ra",
-      "explanation": "'Naxan ma fe ra' est la locution conjonctive consacrée pour exprimer la conséquence logique ('en raison de cette affaire')."
+      "correct_answer": "bari",
+      "explanation": "'Bari' signifie 'car/parce que' et introduit la cause d'une affirmation, comme dans les exemples du manuel Peace Corps."
     },
     {
-      "exercise_id": "ex21_2",
-      "type": "multiple_choice",
-      "question": "Que traduit la charnière oratoire discursive 'A luden ma' au sein d'une argumentation ?",
-      "options": [
-        "Une opposition forte",
-        "Une conclusion temporelle",
-        "Une addition d'arguments / 'de plus'"
-      ],
-      "correct_answer": "Une addition d'arguments / 'de plus'",
-      "explanation": "'A luden ma' sert à ajouter une information ou une prémisse supplémentaire au plaidoyer."
-    },
-    {
-      "exercise_id": "ex21_3",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "[ ___ ] tɔɲɛé xa gbo, tinnafiixɛ na won ma. (Même si / bien que les règles soient strictes...)",
-      "correct_answer": "Hali",
-      "hint": "C'est le connecteur de concession par excellence utilisé dans les structures soutenues."
-    },
-    {
-      "exercise_id": "ex21_4",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Koni [ ___ ], n ma sika mu dangi na fe ma. (Néanmoins / toutefois, mes doutes ne s'effacent pas.)",
-      "correct_answer": "yati",
-      "hint": "Ce terme renforce la conjonction 'koni' pour créer une opposition ou restriction majeure."
+      "sentence_with_blank": "'Nous allons aussi danser' se dit : Muxu sigama [ ___ ] fareboronde.",
+      "correct_answer": "man",
+      "hint": "C'est le connecteur d'ajout qui signifie 'aussi'."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Peace Corps Guinée — Xarandi Xa Buki, Livre du stagiaire Sosoxui (Susu Language Lessons)",
+      "url": "https://fsi-languages.yojik.eu/languages/PeaceCorps/Susu/susu-language-course.pdf"
+    },
+    {
+      "label": "Duport, Outlines of a Grammar of the Susu Language (1886)",
+      "url": "https://theswissbay.ch/pdf/Books/Linguistics/Mega%20linguistics%20pack/African/Niger-Congo/Mande/Susu%20Language,%20Outlines%20of%20a%20Grammar%20of%20the%20(Duport)%20(1886).pdf"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "'Nun', 'man' et 'bari' sont attestés directement dans le manuel Peace Corps Susu avec traduction en contexte. Le connecteur d'opposition 'kono' repose principalement sur la transcription académique historique de Duport ('kSno', 1886) et sur des recherches complémentaires en ligne ; son orthographe moderne exacte n'a pas pu être confirmée par le manuel Peace Corps lui-même, d'où une confiance modérée sur ce point spécifique."
 }

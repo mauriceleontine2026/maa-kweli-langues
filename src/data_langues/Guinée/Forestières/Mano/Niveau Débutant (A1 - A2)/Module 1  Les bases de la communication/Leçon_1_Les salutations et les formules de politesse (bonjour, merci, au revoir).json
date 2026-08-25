@@ -4,218 +4,266 @@
   "module_number": 1,
   "module_title": "Les bases de la communication",
   "lesson_number": 1,
-  "title": "Les salutations et les formules de politesse",
+  "title": "Les salutations et les formules de politesse (bonjour, merci, au revoir)",
   "learning_objectives": [
-    "Savoir saluer une personne ou un groupe selon le moment de la journée",
-    "Exprimer la gratitude et utiliser les formules de politesse de base",
-    "Prendre congé de manière appropriée"
+    "Saluer une personne et répondre à une salutation en mano",
+    "Remercier et prendre congé poliment",
+    "Distinguer les formules adressées à une seule personne (singulier) de celles adressées à plusieurs (pluriel)"
   ],
   "phonetic_focus": {
-    "key_sounds": "La langue mano (maa) est une langue à tons (haut, moyen, bas). Le ton change le sens du mot. Les consonnes co-articulées comme /ɓ/ (implosive bilabiale) et /gb/ (occlusive labio-vélaire) doivent être prononcées en un seul bloc. Le symbole /ɛ/ se prononce comme le 'è' français, et le tilde /~_ / indique une voyelle nasale (l'air sort par le nez et la bouche).",
-    "common_pitfalls": "Ne séparez pas le 'g' et le 'b' dans /gb/. Veillez à bien marquer la nasalisation sur /ɛ̃/ pour ne pas être confondu avec une voyelle orale."
+    "key_sounds": "Le mano est une langue à trois tons (haut, moyen, bas) marqués par des diacritiques (á, ā, à). Le ton change le sens : bien prononcer la hauteur de la voyelle finale des salutations est essentiel.",
+    "common_pitfalls": "Les francophones ont tendance à aplatir les tons et à ne pas distinguer le ɓ implosif (comme dans vùòɓō) d'un simple 'b' français."
   },
   "vocabulary": [
     {
-      "word_id": "v1_1",
-      "term": "mɛgɛ",
-      "phonetic_api": "/mɛ˧ɡɛ˧/",
-      "phonetic_simple": "MÈ-GÈ",
-      "translation": "Bonjour / Salutation générale",
-      "example_sentence": "ń bo, mɛgɛ.",
-      "example_phonetic": "/ń bo˧ mɛ˧ɡɛ˧/",
-      "example_translation": "Mon ami, bonjour."
+      "word_id": "v1",
+      "term": "vùòɓō",
+      "phonetic_api": "/vṵ̀ɔ̀ɓō/",
+      "phonetic_simple": "vou-o-BO",
+      "translation": "bonjour",
+      "example_sentence": "Vùòɓō, ī sɛ̀kɛ̄ɛ̀.",
+      "example_phonetic": "/vṵ̀ɔ̀ɓō, ī sɛ̀kɛ̄ɛ̀/",
+      "example_translation": "Bonjour, merci."
     },
     {
-      "word_id": "v1_2",
-      "term": "bika",
-      "phonetic_api": "/bi˧ka˧/",
-      "phonetic_simple": "BEE-KAH",
-      "translation": "Merci",
-      "example_sentence": "bika sēe.",
-      "example_phonetic": "/bi˧ka˧ seː˧˧/",
-      "example_translation": "Merci beaucoup."
+      "word_id": "v2",
+      "term": "ī sɛ̀kɛ̄ɛ̀",
+      "phonetic_api": "/ī sɛ̀kɛ̄ɛ̀/",
+      "phonetic_simple": "i sè-kè-è",
+      "translation": "merci (à une personne)",
+      "example_sentence": "Ī bálíkábálíká.",
+      "example_phonetic": "/ī bálíkábálíká/",
+      "example_translation": "Merci beaucoup (à toi)."
     },
     {
-      "word_id": "v1_3",
-      "term": "baika",
-      "phonetic_api": "/bai̯˧ka˧/",
-      "phonetic_simple": "BAÏ-KAH",
-      "translation": "S'il te plaît / S'il vous plaît",
-      "example_sentence": "baika, mī ya.",
-      "example_phonetic": "/bai̯˧ka˧ miː˧ ja˧/",
-      "example_translation": "S'il te plaît, donne-moi de l'eau."
+      "word_id": "v3",
+      "term": "kā sɛ̀kɛ̄ɛ̀",
+      "phonetic_api": "/kā sɛ̀kɛ̄ɛ̀/",
+      "phonetic_simple": "ka sè-kè-è",
+      "translation": "merci (à plusieurs personnes)",
+      "example_sentence": "Kā bálíkábálíká.",
+      "example_phonetic": "/kā bálíkábálíká/",
+      "example_translation": "Merci beaucoup (à vous)."
     },
     {
-      "word_id": "v1_4",
-      "term": "kpɛɛ",
-      "phonetic_api": "/kpɛː˧/",
-      "phonetic_simple": "KPÈÈ",
-      "translation": "Au revoir / Pardon (selon le contexte de départ)",
-      "example_sentence": "wó kpɛɛ la.",
-      "example_phonetic": "/wo˦ kpɛː˧ la˧/",
-      "example_translation": "Au revoir à tous."
+      "word_id": "v4",
+      "term": "dɔ́ɔ́ní",
+      "phonetic_api": "/dɔ́ɔ́ní/",
+      "phonetic_simple": "DO-o-ni",
+      "translation": "au revoir, à bientôt",
+      "example_sentence": "Kō dɔ́ɔ́ní!",
+      "example_phonetic": "/kō dɔ́ɔ́ní/",
+      "example_translation": "À bientôt !"
     },
     {
-      "word_id": "v1_5",
-      "term": "ao",
-      "phonetic_api": "/ao̯˧/",
-      "phonetic_simple": "A-O",
-      "translation": "Oui",
-      "example_sentence": "ao, ɓe ɓe.",
-      "example_phonetic": "/ao̯˧ ɓe˧ ɓe˧/",
-      "example_translation": "Oui, c'est ça."
+      "word_id": "v5",
+      "term": "làāpíé",
+      "phonetic_api": "/làāpíé/",
+      "phonetic_simple": "la-a-PIÉ",
+      "translation": "à demain",
+      "example_sentence": "Kō làāpíé!",
+      "example_phonetic": "/kō làāpíé/",
+      "example_translation": "À demain !"
     },
     {
-      "word_id": "v1_6",
-      "term": "ɛɛ-ɛ",
-      "phonetic_api": "/ɛː˧ɛ˧/",
-      "phonetic_simple": "ÈÈ-È",
-      "translation": "Non",
-      "example_sentence": "ɛɛ-ɛ, ń vɔ̃ɔ.",
-      "example_phonetic": "/ɛː˧ɛ˧ ń vɔ̃ː˧/",
-      "example_translation": "Non, je refuse."
+      "word_id": "v6",
+      "term": "ī nū yòòlɔ́ɔ̀",
+      "phonetic_api": "/ī nū jòòlɔ́ɔ̀/",
+      "phonetic_simple": "i nou yo-o-LO",
+      "translation": "bienvenue (à toi)",
+      "example_sentence": "Ī nū yòòlɔ́ɔ̀!",
+      "example_phonetic": "/ī nū jòòlɔ́ɔ̀/",
+      "example_translation": "Sois le bienvenu !"
+    },
+    {
+      "word_id": "v7",
+      "term": "yūwàá",
+      "phonetic_api": "/jūwàá/",
+      "phonetic_simple": "you-oua-A",
+      "translation": "salut !",
+      "example_sentence": "Ī yūwàá.",
+      "example_phonetic": "/ī jūwàá/",
+      "example_translation": "Salut à toi."
+    },
+    {
+      "word_id": "v8",
+      "term": "túòwàá",
+      "phonetic_api": "/tṵ̀ɔ̀wàá/",
+      "phonetic_simple": "tou-o-oua-A",
+      "translation": "bonsoir",
+      "example_sentence": "Kā túòwàá.",
+      "example_phonetic": "/kā tṵ̀ɔ̀wàá/",
+      "example_translation": "Bonsoir à vous."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p1_1",
-      "original": "í nɛ̃ɛ vɔ ?",
-      "phonetic_api": "/i˦ nɛ̃ː˧ vɔ˧/",
-      "phonetic_simple": "EE NÈÈ VOR ?",
-      "translation": "Comment ça va ? / Tu as dormi en paix ?",
-      "context": "Salutation du matin, adressée à une seule personne."
+      "phrase_id": "p1",
+      "original": "Ɓāà vùòò?",
+      "phonetic_api": "/ɓāà vṵ̀ɔ̀ɔ̀/",
+      "phonetic_simple": "ba-a vou-o-o",
+      "translation": "Bonjour à toi ? (formule de salutation matinale)",
+      "context": "Salutation utilisée le matin, adressée à une seule personne."
     },
     {
-      "phrase_id": "p1_2",
-      "original": "á nɛ̃ɛ vɔ ?",
-      "phonetic_api": "/a˦ nɛ̃ː˧ vɔ˧/",
-      "phonetic_simple": "AH NÈÈ VOR ?",
-      "translation": "Comment allez-vous ? (Pluriel)",
-      "context": "Salutation du matin, adressée à un groupe de personnes."
+      "phrase_id": "p2",
+      "original": "Kāà vùòò?",
+      "phonetic_api": "/kāà vṵ̀ɔ̀ɔ̀/",
+      "phonetic_simple": "ka-a vou-o-o",
+      "translation": "Bonjour à vous ? (pluriel)",
+      "context": "Salutation adressée à plusieurs personnes."
     },
     {
-      "phrase_id": "p1_3",
-      "original": "ń nɛ̃ɛ kɛ̃ɛ.",
-      "phonetic_api": "/ń nɛ̃ː˧ kɛ̃ː˧/",
-      "phonetic_simple": "N NÈÈ KÈNG.",
-      "translation": "Ça va bien. / J'ai dormi en paix.",
-      "context": "Réponse typique à la salutation du matin."
+      "phrase_id": "p3",
+      "original": "Ī sáálɛ́ì.",
+      "phonetic_api": "/ī sáálɛ́ì/",
+      "phonetic_simple": "i sa-a-lé-i",
+      "translation": "Grâce à toi.",
+      "context": "Formule de remerciement plus formelle."
     },
     {
-      "phrase_id": "p1_4",
-      "original": "í gbe vɔ ?",
-      "phonetic_api": "/i˦ ɡbe˧ vɔ˧/",
-      "phonetic_simple": "EE GBÉ VOR ?",
-      "translation": "Comment se passe ta journée ?",
-      "context": "Salutation de l'après-midi ou du soir."
+      "phrase_id": "p4",
+      "original": "Kō lúó gbɛ̄ɛ̄!",
+      "phonetic_api": "/kō lúó gbɛ̄ɛ̄/",
+      "phonetic_simple": "ko LOU-o gbè-è",
+      "translation": "À la prochaine !",
+      "context": "Formule d'adieu, souvent en fin de rencontre."
     },
     {
-      "phrase_id": "p1_5",
-      "original": "bika lē lē.",
-      "phonetic_api": "/bi˧ka˧ leː˧ leː˧/",
-      "phonetic_simple": "BEE-KAH LÉ LÉ",
-      "translation": "Un grand merci.",
-      "context": "Formule de profonde gratitude."
+      "phrase_id": "p5",
+      "original": "Ī túòwàá.",
+      "phonetic_api": "/ī tṵ̀ɔ̀wàá/",
+      "phonetic_simple": "i tou-o-oua-A",
+      "translation": "Bonsoir à toi.",
+      "context": "Salutation du soir, une seule personne."
     },
     {
-      "phrase_id": "p1_6",
-      "original": "kɛ̃ɛ ɓe.",
-      "phonetic_api": "/kɛ̃ː˧ ɓe˧/",
-      "phonetic_simple": "KÈNG BÉ",
-      "translation": "De rien / Tout va bien.",
-      "context": "Réponse standard après un remerciement."
-    },
-    {
-      "phrase_id": "p1_7",
-      "original": "kwa lɔ kɛ̃ɛ.",
-      "phonetic_api": "/kwa˧ lɔ˧ kɛ̃ː˧/",
-      "phonetic_simple": "KWA LOR KÈNG",
-      "translation": "À plus tard / Que nous soyons en paix.",
-      "context": "Formule de séparation en journée."
-    },
-    {
-      "phrase_id": "p1_8",
-      "original": "í tɔ lɔ kɛ̃ɛ la.",
-      "phonetic_api": "/i˦ tɔ˧ lɔ˧ kɛ̃ː˧ la˧/",
-      "phonetic_simple": "EE TOR LOR KÈNG LA",
-      "translation": "Bonne nuit (Passe la nuit en paix).",
-      "context": "Prendre congé tard le soir."
+      "phrase_id": "p6",
+      "original": "Kā túòwàá.",
+      "phonetic_api": "/kā tṵ̀ɔ̀wàá/",
+      "phonetic_simple": "ka tou-o-oua-A",
+      "translation": "Bonsoir à vous.",
+      "context": "Salutation du soir, plusieurs personnes."
     }
   ],
   "grammar_points": [
     {
-      "concept": "La distinction Singulier / Pluriel dans l'interjection de salutation",
-      "explanation": "En Mano, les pronoms personnels préfixés changent la nature de l'audience saluée. Le préfixe /i-/ (ton haut) désigne la deuxième personne du singulier (toi), tandis que le préfixe /a-/ (ton haut) désigne la deuxième personne du pluriel (vous).",
+      "concept": "Distinction singulier/pluriel dans les salutations",
+      "explanation": "En mano, presque toutes les formules de politesse existent en deux versions : une pour une seule personne (avec le pronom non-sujet ī 'toi') et une pour plusieurs personnes (avec kā 'vous'). Ce redoublement pronominal est systématique dans les salutations, contrairement au français où 'bonjour' ne change pas.",
       "rules": [
-        "Utilisez le préfixe 'í' pour vous adresser individuellement à un pair ou un proche.",
-        "Utilisez le préfixe 'á' pour saluer une assemblée ou plusieurs membres d'une famille en même temps."
+        "ī = 'toi' (singulier) s'utilise avec une personne",
+        "kā = 'vous' (pluriel) s'utilise avec plusieurs personnes",
+        "La formule de remerciement/salutation se construit souvent : pronom + racine (ex. ī/kā + sɛ̀kɛ̄ɛ̀, ī/kā + túòwàá)"
       ],
       "examples": [
         {
-          "structure": "í nɛ̃ɛ vɔ ?",
-          "phonetic_api": "/i˦ nɛ̃ː˧ vɔ˧/",
-          "meaning": "Comment vas-tu ? (singulier)"
+          "structure": "ī + sɛ̀kɛ̄ɛ̀",
+          "phonetic_api": "/ī sɛ̀kɛ̄ɛ̀/",
+          "meaning": "merci (à toi)"
         },
         {
-          "structure": "á nɛ̃ɛ vɔ ?",
-          "phonetic_api": "/a˦ nɛ̃ː˧ vɔ˧/",
-          "meaning": "Comment allez-vous ? (pluriel)"
+          "structure": "kā + sɛ̀kɛ̄ɛ̀",
+          "phonetic_api": "/kā sɛ̀kɛ̄ɛ̀/",
+          "meaning": "merci (à vous)"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Mamy",
-      "text": "Mɛgɛ ! í nɛ̃ɛ vɔ ?",
-      "phonetic_api": "/mɛ˧ɡɛ˧ i˦ nɛ̃ː˧ vɔ˧/",
-      "phonetic_simple": "MÈGÈ ! EE NÈÈ VOR ?",
-      "translation": "Bonjour ! Comment vas-tu ce matin ?"
+      "speaker": "Kɔ̀ɔ́",
+      "text": "Vùòɓō!",
+      "phonetic_api": "/vṵ̀ɔ̀ɓō/",
+      "phonetic_simple": "vou-o-BO",
+      "translation": "Bonjour !"
     },
     {
-      "speaker": "Koli",
-      "text": "ń nɛ̃ɛ kɛ̃ɛ. Bika sēe. Í gbe vɔ ?",
-      "phonetic_api": "/ń nɛ̃ː˧ kɛ̃ː˧ bi˧ka˧ seː˧˧ i˦ ɡbe˧ vɔ˧/",
-      "phonetic_simple": "N NÈÈ KÈNG. BEE-KAH SÉÉ. EE GBÉ VOR ?",
-      "translation": "Je vais très bien. Merci beaucoup. Comment se passe ta journée ?"
+      "speaker": "Pèé",
+      "text": "Ɓāà vùòò?",
+      "phonetic_api": "/ɓāà vṵ̀ɔ̀ɔ̀/",
+      "phonetic_simple": "ba-a vou-o-o",
+      "translation": "Bonjour à toi ?"
     },
     {
-      "speaker": "Mamy",
-      "text": "Kɛ̃ɛ ɓe. Kwa lɔ kɛ̃ɛ.",
-      "phonetic_api": "/kɛ̃ː˧ ɓe˧ kwa˧ lɔ˧ kɛ̃ː˧/",
-      "phonetic_simple": "KÈNG BÉ. KWA LOR KÈNG.",
-      "translation": "Tout va bien. À plus tard."
+      "speaker": "Kɔ̀ɔ́",
+      "text": "Ī sɛ̀kɛ̄ɛ̀.",
+      "phonetic_api": "/ī sɛ̀kɛ̄ɛ̀/",
+      "phonetic_simple": "i sè-kè-è",
+      "translation": "Merci à toi."
     },
     {
-      "speaker": "Koli",
-      "text": "Ao, kwa lɔ kɛ̃ɛ !",
-      "phonetic_api": "/ao̯˧ kwa˧ lɔ˧ kɛ̃ː˧/",
-      "phonetic_simple": "A-O, KWA LOR KÈNG !",
-      "translation": "Oui, à plus tard !"
+      "speaker": "Pèé",
+      "text": "Ī nū yòòlɔ́ɔ̀!",
+      "phonetic_api": "/ī nū jòòlɔ́ɔ̀/",
+      "phonetic_simple": "i nou yo-o-LO",
+      "translation": "Sois le bienvenu !"
+    },
+    {
+      "speaker": "Kɔ̀ɔ́",
+      "text": "Ī bálíkábálíká.",
+      "phonetic_api": "/ī bálíkábálíká/",
+      "phonetic_simple": "i ba-li-ka-ba-li-ka",
+      "translation": "Merci beaucoup."
+    },
+    {
+      "speaker": "Pèé",
+      "text": "Kō làāpíé!",
+      "phonetic_api": "/kō làāpíé/",
+      "phonetic_simple": "ko la-a-pié",
+      "translation": "À demain !"
     }
   ],
   "cultural_notes": [
-    "Dans la culture Mano de la Guinée Forestière, saluer n'est pas une simple formalité mais un acte de respect social fondamental. Ne pas saluer un aîné ou passer devant un groupe sans dire 'Mɛgɛ' ou 'Á nɛ̃ɛ vɔ' est perçu comme une grave impolitesse. Les salutations du matin s'enquièrent directement de la qualité du sommeil de l'interlocuteur car la nuit est perçue comme un voyage dont on revient sain et sauf."
+    "Chez les Mano de Guinée forestière, saluer longuement avant d'entamer une conversation est une marque de respect essentielle ; ignorer la salutation est perçu comme impoli.",
+    "Les salutations distinguent souvent le moment de la journée (matin, soir) et le nombre de personnes présentes, ce qui reflète l'importance du contexte social dans la langue mano."
   ],
   "exercises": [
     {
-      "exercise_id": "ex1_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quelle formule utilisez-vous pour dire 'Merci beaucoup' en Mano ?",
+      "question": "Comment dit-on 'merci' à une seule personne en mano ?",
       "options": [
-        "Mɛgɛ sēe",
-        "Bika sēe",
-        "Kwa lɔ kɛ̃ɛ"
+        "kā sɛ̀kɛ̄ɛ̀",
+        "ī sɛ̀kɛ̄ɛ̀",
+        "dɔ́ɔ́ní"
       ],
-      "correct_answer": "Bika sēe",
-      "explanation": "'Bika' signifie merci, et 'sēe' est un intensificateur signifiant 'beaucoup'."
+      "correct_answer": "ī sɛ̀kɛ̄ɛ̀",
+      "explanation": "Le pronom ī s'utilise pour s'adresser à une seule personne ; kā est la forme pour plusieurs personnes."
     },
     {
-      "exercise_id": "ex1_2",
+      "exercise_id": "ex2",
+      "type": "multiple_choice",
+      "question": "Que signifie 'ī nū yòòlɔ́ɔ̀' ?",
+      "options": [
+        "Au revoir",
+        "Sois le bienvenu",
+        "Bonsoir"
+      ],
+      "correct_answer": "Sois le bienvenu",
+      "explanation": "Cette formule sert à accueillir chaleureusement quelqu'un."
+    },
+    {
+      "exercise_id": "ex3",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Pour saluer un groupe de plusieurs personnes le matin, on dit : [ ___ ] nɛ̃ɛ vɔ ?",
-      "correct_answer": "á",
-      "hint": "C'est le pronom de la deuxième personne du pluriel avec un ton haut."
+      "sentence_with_blank": "Kō [ ___ ]! (à demain !)",
+      "correct_answer": "làāpíé",
+      "hint": "C'est la formule utilisée pour se dire au revoir en pensant se revoir le lendemain."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Khachaturyan, M., Carbo, M., Mamy, P. (2022) Dictionnaire mano-français, Mandenkan 67, LLACAN/CNRS",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan67/67mano_dict_all.pdf"
+    },
+    {
+      "label": "Khachaturyan, M. (2015) Grammaire du mano, Mandenkan 54, LLACAN/CNRS",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan54/54khachaturyan.pdf"
+    },
+    {
+      "label": "Wikipédia FR — Mano (langue)",
+      "url": "https://fr.wikipedia.org/wiki/Mano_(langue)"
+    }
+  ],
+  "confidence": "élevée",
+  "confidence_note": "Vocabulaire et phrases directement attestés dans le dictionnaire académique Mano-Français (Mandenkan 67, Khachaturyan/Carbo/Mamy 2022) ; distinction singulier/pluriel confirmée par la grammaire de Khachaturyan (2015)."
 }

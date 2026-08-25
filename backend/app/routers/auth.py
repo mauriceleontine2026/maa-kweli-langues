@@ -1,4 +1,6 @@
+import base64
 import hashlib
+import logging
 import os
 import re
 import secrets
@@ -19,10 +21,12 @@ from ..models.user import User
 from ..services import security
 from ..services.security import RateLimiter, get_current_user, is_admin_email
 
+logger = logging.getLogger(__name__)
+
 SUPABASE_URL = os.getenv("VITE_SUPABASE_URL", os.getenv("SUPABASE_URL"))
 SUPABASE_SERVICE_KEY = os.getenv("SUPABASE_SERVICE_KEY")
 SUPABASE_ANON_KEY = os.getenv("VITE_SUPABASE_ANON_KEY", os.getenv("SUPABASE_ANON_KEY"))
-FRONTEND_URL = os.getenv("FRONTEND_URL", "https://m-baara-langues.web.app").rstrip("/")
+FRONTEND_URL = "https://maa-kweli-langues.vercel.app"
 PROFILE_IMAGE_MAX_BYTES = 5 * 1024 * 1024
 PROFILE_IMAGE_SIGNATURES = {
     "image/jpeg": (b"\xff\xd8\xff",),
@@ -49,10 +53,19 @@ def _check_rate_limit(request: Request) -> None:
     _auth_rate_limiter(request)
 
 
+def build_profile_photo_data_url(file_bytes: bytes, content_type: str) -> str:
+    normalized_type = (content_type or "image/png").lower()
+    if normalized_type == "image/jpg":
+        normalized_type = "image/jpeg"
+    return f"data:{normalized_type};base64,{base64.b64encode(file_bytes).decode('ascii')}"
+
+
 def _auth_response(request: Request, user: User, token: str) -> dict:
-    result = {"user": {"id": user.id, "email": user.email, "full_name": user.full_name, "photo_url": user.photo_url, "role": user.role}}
-    if request.headers.get("x-client-platform", "").strip().lower() == "mobile":
-        result.update({"access_token": token, "token_type": "bearer"})
+    result = {
+        "user": {"id": user.id, "email": user.email, "full_name": user.full_name, "photo_url": user.photo_url, "role": user.role},
+        "access_token": token,
+        "token_type": "bearer",
+    }
     return result
 
 
@@ -133,6 +146,7 @@ def _register_supabase_password(email: str, password: str, full_name: str | None
     try:
         response = httpx.post(
             f"{SUPABASE_URL.rstrip('/')}/auth/v1/signup",
+            params={"redirect_to": f"{FRONTEND_URL}/login"},
             headers={"apikey": SUPABASE_SERVICE_KEY, "Content-Type": "application/json"},
             json={"email": email, "password": password, "data": {"full_name": full_name} if full_name else {}},
             timeout=10.0,
@@ -141,16 +155,45 @@ def _register_supabase_password(email: str, password: str, full_name: str | None
         raise HTTPException(status_code=503, detail="Le service d'authentification est momentanément indisponible.")
     if response.status_code in {400, 422}:
         try:
-            error_message = str(response.json().get("msg") or response.json().get("message") or "").lower()
+            error_body = response.json()
+            error_message = str(
+                error_body.get("msg")
+                or error_body.get("message")
+                or error_body.get("error_description")
+                or error_body.get("error")
+                or ""
+            ).strip()
         except ValueError:
             error_message = ""
-        if "already" in error_message or "registered" in error_message or "exists" in error_message:
-            raise HTTPException(status_code=409, detail="Cette adresse e-mail est déjà utilisée. Connectez-vous ou réinitialisez votre mot de passe.")
+        normalized_error = error_message.lower()
+        if "rate limit" in normalized_error or "too many" in normalized_error:
+            raise HTTPException(status_code=429, detail="Supabase limite temporairement l'envoi des e-mails de confirmation. Attendez quelques minutes avant de réessayer ou utilisez le bouton de renvoi sur la page de connexion.")
+        if "already" in normalized_error or "registered" in normalized_error or "exists" in normalized_error:
+            raise HTTPException(status_code=409, detail="Cette adresse e-mail est déjà utilisée. Connectez-vous ou utilisez une autre adresse.")
+        if "password" in normalized_error or "weak" in normalized_error:
+            raise HTTPException(status_code=422, detail="Le mot de passe ne respecte pas les exigences de sécurité.")
+        if error_message:
+            raise HTTPException(status_code=400, detail=f"Création du compte refusée : {error_message}")
+        else:
+            error_message = ""
         raise HTTPException(status_code=400, detail="Impossible de créer ce compte. Vérifiez l'adresse e-mail et réessayez.")
     if response.status_code >= 500:
         raise HTTPException(status_code=503, detail="Le service d'authentification est momentanément indisponible.")
     if response.is_error:
-        raise HTTPException(status_code=400, detail="Impossible de créer ce compte.")
+        try:
+            error_body = response.json()
+            error_message = str(
+                error_body.get("msg")
+                or error_body.get("message")
+                or error_body.get("error_description")
+                or error_body.get("error")
+                or ""
+            ).strip()
+        except ValueError:
+            error_message = ""
+        if response.status_code in {401, 403}:
+            raise HTTPException(status_code=503, detail="Le service d'inscription n'est pas correctement configuré. Vérifiez la configuration Supabase du backend.")
+        raise HTTPException(status_code=400, detail=f"Création du compte refusée par le service d'authentification{': ' + error_message if error_message else '.'}")
 
     payload = response.json()
     supabase_user = payload.get("user") or payload
@@ -308,8 +351,21 @@ def _send_verification_email(user: User) -> None:
             smtp.starttls()
             smtp.login(smtp_user, smtp_password)
             smtp.send_message(message)
+    except smtplib.SMTPAuthenticationError as exc:
+        logger.exception("SMTP authentication failed while sending verification email")
+        raise HTTPException(status_code=status.HTTP_503_SERVICE_UNAVAILABLE, detail="Le serveur e-mail a refusé les identifiants SMTP. Vérifiez SMTP_USER et SMTP_PASSWORD dans Vercel.") from exc
+    except (smtplib.SMTPConnectError, TimeoutError, OSError) as exc:
+        logger.exception("SMTP connection failed while sending verification email")
+        raise HTTPException(status_code=status.HTTP_503_SERVICE_UNAVAILABLE, detail="Le serveur e-mail est inaccessible. Vérifiez SMTP_HOST, SMTP_PORT et la connexion TLS dans Vercel.") from exc
+    except smtplib.SMTPRecipientsRefused as exc:
+        logger.exception("SMTP recipient refused while sending verification email")
+        raise HTTPException(status_code=status.HTTP_503_SERVICE_UNAVAILABLE, detail="Le serveur e-mail a refusé l'adresse destinataire ou l'expéditeur. Vérifiez SMTP_FROM et l'adresse e-mail.") from exc
+    except smtplib.SMTPException as exc:
+        logger.exception("SMTP error while sending verification email")
+        raise HTTPException(status_code=status.HTTP_503_SERVICE_UNAVAILABLE, detail="Le serveur e-mail a refusé l'envoi. Vérifiez la configuration SMTP et l'adresse expéditeur vérifiée.") from exc
     except Exception as exc:
-        raise HTTPException(status_code=status.HTTP_503_SERVICE_UNAVAILABLE, detail="Impossible d'envoyer l'e-mail de vérification.") from exc
+        logger.exception("Unexpected verification email error")
+        raise HTTPException(status_code=status.HTTP_503_SERVICE_UNAVAILABLE, detail="Impossible d'envoyer l'e-mail de vérification. Vérifiez la configuration SMTP du backend.") from exc
 
 
 def _send_password_reset_email(user: User, token: str) -> None:
@@ -435,6 +491,12 @@ def supabase_auth(request: Request, payload: SupabaseAuthRequest, response: Resp
             db.commit()
             db.refresh(user)
 
+    if not user.email_verified:
+        raise HTTPException(
+            status_code=status.HTTP_403_FORBIDDEN,
+            detail="Email not verified. Confirmez votre adresse e-mail avant de vous connecter.",
+        )
+
     token = security.create_access_token({"sub": str(user.id), "email": user.email})
     security.set_auth_cookies(response, token)
     return _auth_response(request, user, token)
@@ -490,6 +552,12 @@ def supabase_auth_form(request: Request, access_token: str = Form(...), response
             db.commit()
             db.refresh(user)
 
+    if not user.email_verified:
+        raise HTTPException(
+            status_code=status.HTTP_403_FORBIDDEN,
+            detail="Email not verified. Confirmez votre adresse e-mail avant de vous connecter.",
+        )
+
     token = security.create_access_token({"sub": str(user.id), "email": user.email})
     security.set_auth_cookies(response, token)
     return _auth_response(request, user, token)
@@ -528,7 +596,7 @@ def request_email_verification(request: Request, payload: ResetPasswordRequest, 
 
 
 @router.post("/verify-email")
-def verify_email(request: Request, payload: VerifyEmailRequest, db: Session = Depends(get_db)):
+def verify_email(request: Request, response: Response, payload: VerifyEmailRequest, db: Session = Depends(get_db)):
     _check_rate_limit(request)
     try:
         token_data = security.decode_access_token(payload.resetToken)
@@ -536,13 +604,20 @@ def verify_email(request: Request, payload: VerifyEmailRequest, db: Session = De
         raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Lien de vérification invalide ou expiré.") from exc
     if token_data.get("purpose") != "email_verification" or not token_data.get("sub"):
         raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Lien de vérification invalide.")
-    user = db.query(User).filter(User.id == int(token_data["sub"]), User.email == token_data.get("email")).first()
+    try:
+        user = db.query(User).filter(User.id == int(token_data["sub"]), User.email == token_data.get("email")).first()
+    except (TypeError, ValueError):
+        user = None
+    if user is None and isinstance(token_data.get("email"), str):
+        user = db.query(User).filter(User.email == _normalize_email(token_data["email"])).first()
     if not user:
-        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="User not found")
+        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Compte introuvable. Demandez un nouveau lien de vérification.")
     user.email_verified = True
     db.add(user)
     db.commit()
-    return {"status": "ok", "email_verified": True}
+    session_token = security.create_access_token({"sub": str(user.id), "email": user.email})
+    security.set_auth_cookies(response, session_token)
+    return {"status": "ok", "email_verified": True, "user": {"id": user.id, "email": user.email, "full_name": user.full_name}}
 
 
 @router.post("/register", status_code=status.HTTP_201_CREATED)
@@ -555,7 +630,7 @@ def register(request: Request, response: Response, payload: RegisterRequest, db:
     if not _is_valid_email_address(normalized_email):
         raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Adresse e-mail invalide.")
 
-    supabase_result = _register_supabase_password(normalized_email, payload.password, payload.full_name, db)
+    supabase_result = None if _smtp_is_configured() else _register_supabase_password(normalized_email, payload.password, payload.full_name, db)
     if supabase_result is not None:
         supabase_result["message"] = "Compte créé. Consultez votre boîte mail et confirmez votre adresse avant de vous connecter."
         return supabase_result
@@ -581,6 +656,10 @@ def register(request: Request, response: Response, payload: RegisterRequest, db:
         except HTTPException:
             db.rollback()
             raise
+        except Exception as exc:
+            db.rollback()
+            logger.exception("Unexpected registration email error")
+            raise HTTPException(status_code=status.HTTP_503_SERVICE_UNAVAILABLE, detail="Le compte ne peut pas être finalisé car l'e-mail de vérification n'a pas pu être envoyé. Vérifiez la configuration SMTP.") from exc
     db.commit()
 
     response = {
@@ -621,7 +700,7 @@ def register_form(
     if not _is_valid_email_address(normalized_email):
         raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Adresse e-mail invalide.")
 
-    supabase_result = _register_supabase_password(normalized_email, password, full_name, db)
+    supabase_result = None if _smtp_is_configured() else _register_supabase_password(normalized_email, password, full_name, db)
     if supabase_result is not None:
         supabase_result["message"] = "Compte créé. Consultez votre boîte mail et confirmez votre adresse avant de vous connecter."
         return supabase_result
@@ -647,6 +726,10 @@ def register_form(
         except HTTPException:
             db.rollback()
             raise
+        except Exception as exc:
+            db.rollback()
+            logger.exception("Unexpected form registration email error")
+            raise HTTPException(status_code=status.HTTP_503_SERVICE_UNAVAILABLE, detail="Le compte ne peut pas être finalisé car l'e-mail de vérification n'a pas pu être envoyé. Vérifiez la configuration SMTP.") from exc
     db.commit()
 
     response = {
@@ -816,16 +899,11 @@ async def update_profile_photo(
     if content_type == "image/webp" and (len(contents) < 12 or contents[8:12] != b"WEBP"):
         raise HTTPException(status_code=400, detail="The uploaded WEBP file is invalid.")
 
-    extension = {"image/jpeg": "jpg", "image/png": "png", "image/gif": "gif", "image/webp": "webp"}[content_type]
-    profile_dir = Path(os.environ.get("MBAARA_STATIC_DIR", "/tmp/mbaara/static")) / "profiles"
-    profile_dir.mkdir(parents=True, exist_ok=True)
-    filename = f"profile_{uuid.uuid4().hex}.{extension}"
-    (profile_dir / filename).write_bytes(contents)
-
     user = db.query(User).filter(User.id == current_user.id).first()
     if not user:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Votre session utilisateur doit être renouvelée.")
-    user.photo_url = str(request.url_for("static", path=f"profiles/{filename}"))
+
+    user.photo_url = build_profile_photo_data_url(contents, content_type)
     db.add(user)
     db.commit()
     db.refresh(user)

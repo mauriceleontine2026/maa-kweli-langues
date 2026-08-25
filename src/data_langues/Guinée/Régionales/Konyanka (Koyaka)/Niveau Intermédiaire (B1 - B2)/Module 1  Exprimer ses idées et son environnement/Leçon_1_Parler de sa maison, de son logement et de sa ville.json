@@ -6,184 +6,214 @@
   "lesson_number": 1,
   "title": "Parler de sa maison, de son logement et de sa ville",
   "learning_objectives": [
-    "Décrire l'espace intérieur de son habitation et nommer les pièces",
-    "Situer son logement dans un quartier ou une localité",
-    "Utiliser les expressions de localisation intermédiaire pour parler de sa ville"
+    "Décrire son logement et ses pièces",
+    "Situer sa ville ou son village d'origine",
+    "Utiliser les postpositions de lieu dans des phrases plus complexes"
   ],
   "phonetic_focus": {
-    "key_sounds": "La consonne nasale bilabiale /m/ devant une alvéolaire implique une transition douce. Dans le mot 'so' /so/, la voyelle fermée exige une projection nette. Le terme 'duguba' /du.ɡu.ba/ comporte une occlusive vélaire voisée /ɡ/ qui s'articule sans interruption du souffle.",
-    "common_pitfalls": "Attention à ne pas assimiler 'so' (maison, village) à 'sɔ' (obtenir). La distinction entre les voyelles fermée /o/ et ouverte /ɔ/ modifie totalement le sens de l'énoncé."
+    "key_sounds": "Le mot composé 'bon-kônô' (intérieur de la maison) illustre la construction par juxtaposition typique du continuum manding.",
+    "common_pitfalls": "Oublier la postposition 'la/na' de localisation générale après le nom de lieu (ex. 'Beyla la' = à Beyla)."
   },
   "vocabulary": [
     {
       "word_id": "v1",
-      "term": "So",
-      "phonetic_api": "/so/",
-      "phonetic_simple": "SO",
-      "translation": "Maison / Concession / Habitation / Village",
-      "example_sentence": "N'bɛ n'fa so la.",
-      "example_phonetic": "/mbɛ nfa so la/",
-      "example_translation": "Je suis dans la maison de mon père."
+      "term": "bon",
+      "phonetic_api": "[bɔn]",
+      "phonetic_simple": "bon",
+      "translation": "maison",
+      "example_sentence": "N bon ka bon.",
+      "example_phonetic": "[n bɔn ka bɔn]",
+      "example_translation": "Ma maison est grande."
     },
     {
       "word_id": "v2",
-      "term": "Bongda",
-      "phonetic_api": "/bɔnɡ.da/",
-      "phonetic_simple": "BONG-DA",
-      "translation": "Chambre / Pièce",
-      "example_sentence": "Bongda fila bɛ so kɔnɔ.",
-      "example_phonetic": "/bɔnɡ.da fi.la bɛ so kɔ.nɔ/",
-      "example_translation": "Il y a deux chambres dans la maison."
+      "term": "so",
+      "phonetic_api": "[so]",
+      "phonetic_simple": "so",
+      "translation": "village, concession familiale",
+      "example_sentence": "N so bɛ Beyla la.",
+      "example_phonetic": "[n so bɛ bɛjla la]",
+      "example_translation": "Mon village est à Beyla."
     },
     {
       "word_id": "v3",
-      "term": "Duguba",
-      "phonetic_api": "/du.ɡu.ba/",
-      "phonetic_simple": "DOU-GOU-BA",
-      "translation": "Ville / Grande agglomération",
-      "example_sentence": "N'bɛ sigi duguba kɔnɔ.",
-      "example_phonetic": "/mbɛ si.ɡi du.ɡu.ba kɔ.nɔ/",
-      "example_translation": "J'habite dans une grande ville."
+      "term": "duguba",
+      "phonetic_api": "[duɡuba]",
+      "phonetic_simple": "dou-gou-ba",
+      "translation": "ville (litt. « grand village »)",
+      "example_sentence": "Kankan ye duguba le ti.",
+      "example_phonetic": "[kankan je duɡuba le ti]",
+      "example_translation": "Kankan est une ville."
     },
     {
       "word_id": "v4",
-      "term": "Kɛnɛma",
-      "phonetic_api": "/kɛ.nɛ.ma/",
-      "phonetic_simple": "KÈ-NÈ-MA",
-      "translation": "Cour / Espace extérieur de la concession",
-      "example_sentence": "Den lu bɛ bori kɛnɛma na.",
-      "example_phonetic": "/dẽ lu bɛ bo.ri kɛ.nɛ.ma na/",
-      "example_translation": "Les enfants courent dans la cour."
+      "term": "da",
+      "phonetic_api": "[da]",
+      "phonetic_simple": "da",
+      "translation": "porte",
+      "example_sentence": "Da bɛ dabɛn.",
+      "example_phonetic": "[da bɛ dabɛn]",
+      "example_translation": "La porte est fermée."
     },
     {
       "word_id": "v5",
-      "term": "Gwankiri",
-      "phonetic_api": "/ɡwã.ki.ri/",
-      "phonetic_simple": "GWAN-KI-RI",
-      "translation": "Cuisine",
-      "example_sentence": "N'ba bɛ gwankiri la.",
-      "example_phonetic": "/mba bɛ ɡwã.ki.ri la/",
-      "example_translation": "Ma mère est à la cuisine."
+      "term": "finè",
+      "phonetic_api": "[finɛ]",
+      "phonetic_simple": "fi-nè",
+      "translation": "chambre",
+      "example_sentence": "N finè ka dɔgɔ.",
+      "example_phonetic": "[n finɛ ka dɔɡɔ]",
+      "example_translation": "Ma chambre est petite."
     },
     {
       "word_id": "v6",
-      "term": "Sigi",
-      "phonetic_api": "/si.ɡi/",
-      "phonetic_simple": "SI-GUI",
-      "translation": "Habiter / S'asseoir / S'installer",
-      "example_sentence": "I bɛ sigi min?",
-      "example_phonetic": "/i bɛ si.ɡi mĩ/",
-      "example_translation": "Où habites-tu ?"
+      "term": "kɛnɛ",
+      "phonetic_api": "[kɛnɛ]",
+      "phonetic_simple": "kè-nè",
+      "translation": "cour, espace ouvert",
+      "example_sentence": "Denmisenw bɛ tulon na kɛnɛ kan.",
+      "example_phonetic": "[dɛnmisɛnw bɛ tulon na kɛnɛ kan]",
+      "example_translation": "Les enfants jouent dans la cour."
+    },
+    {
+      "word_id": "v7",
+      "term": "sigi",
+      "phonetic_api": "[siɡi]",
+      "phonetic_simple": "si-gi",
+      "translation": "habiter, s'asseoir",
+      "example_sentence": "N bɛ sigi Kérouane.",
+      "example_phonetic": "[n bɛ siɡi kerwan]",
+      "example_translation": "J'habite à Kérouane."
     }
   ],
   "common_phrases": [
     {
       "phrase_id": "p1",
-      "original": "N'fa so bɛ duguba kɔnɔ.",
-      "phonetic_api": "/nfa so bɛ du.ɡu.ba kɔ.nɔ/",
-      "phonetic_simple": "N-FA SO BÈ DOU-GOU-BA KƆ-NƆ",
-      "translation": "La maison de mon père se trouve en ville.",
-      "context": "Utilisé pour décrire la situation géographique de sa demeure familiale."
+      "original": "I bɛ sigi min?",
+      "phonetic_api": "[i bɛ siɡi min]",
+      "phonetic_simple": "i-bè-si-gi-min",
+      "translation": "Où habites-tu ?",
+      "context": "Demander le lieu de résidence"
     },
     {
       "phrase_id": "p2",
-      "original": "I bɛ sigi so juman kɔnɔ?",
-      "phonetic_api": "/i bɛ si.ɡi so d͡ʒu.mã kɔ.nɔ/",
-      "phonetic_simple": "I BÈ SI-GUI SO DJOU-MAN KƆ-NƆ",
-      "translation": "Dans quelle maison habites-tu ?",
-      "context": "Question courante pour s'informer du quartier ou de l'adresse de quelqu'un."
+      "original": "N bɛ sigi Beyla la",
+      "phonetic_api": "[n bɛ siɡi bɛjla la]",
+      "phonetic_simple": "n-bè-si-gi-bè-y-la-la",
+      "translation": "J'habite à Beyla",
+      "context": "Répondre en indiquant sa ville"
     },
     {
       "phrase_id": "p3",
-      "original": "N'so bɛ surun lɔgɔfɛ la.",
-      "phonetic_api": "/nso bɛ su.rũ lɔ.ɡɔ.fɛ la/",
-      "phonetic_simple": "N-SO BÈ SOU-ROUN LƆ-GƆ-FÈ LA",
-      "translation": "Ma maison est proche du marché.",
-      "context": "Pratique pour donner un repère urbain simple à un interlocuteur."
+      "original": "N bon bɛ finè saba le la",
+      "phonetic_api": "[n bɔn bɛ finɛ saba le la]",
+      "phonetic_simple": "n-bon-bè-fi-nè-sa-ba-lé-la",
+      "translation": "Ma maison a trois chambres",
+      "context": "Décrire son logement"
     },
     {
       "phrase_id": "p4",
-      "original": "So kɔnɔ bɛ gbe bɛrɛbɛrɛ.",
-      "phonetic_api": "/so kɔ.nɔ bɛ ɡ͡be bɛ.rɛ.bɛ.rɛ/",
-      "phonetic_simple": "SO KƆ-NƆ BÈ GBE BÈ-RÈ-BÈ-RÈ",
-      "translation": "L'intérieur de la maison est très propre / clair.",
-      "context": "Formule d'appréciation de l'état d'un logement."
+      "original": "N so bɛ Kérouane la",
+      "phonetic_api": "[n so bɛ kerwan la]",
+      "phonetic_simple": "n-so-bè-ké-rwan-la",
+      "translation": "Mon village est à Kérouane",
+      "context": "Préciser le lieu d'origine familiale"
     }
   ],
   "grammar_points": [
     {
-      "concept": "La postposition locative 'kɔnɔ' (dedans / dans)",
-      "explanation": "En konyanka, l'expression de l'intérieur d'un espace fermé (maison, chambre, ville) requiert l'usage de la postposition 'kɔnɔ'. Elle se place invariablement après le nom du lieu concerné.",
+      "concept": "La postposition 'la/na' de localisation",
+      "explanation": "Pour situer un lieu en général (là où l'on habite, une ville), le nom de lieu est suivi de la postposition 'la' (ou 'na' selon l'harmonie vocalique).",
       "rules": [
-        "Structure : Nom de lieu + kɔnɔ (ex: 'duguba kɔnɔ' = dans la ville).",
-        "Pour affirmer la présence dans ce lieu, on associe la marque de l'inaccompli ou de l'état 'bɛ'."
+        "Nom de lieu + la/na = 'à/dans ce lieu'",
+        "Après une voyelle nasale, on utilise généralement 'na' ; ailleurs, 'la'"
       ],
       "examples": [
         {
-          "structure": "Bongda kɔnɔ",
-          "phonetic_api": "/bɔnɡ.da kɔ.nɔ/",
-          "meaning": "Dans la chambre"
-        },
-        {
-          "structure": "A bɛ so kɔnɔ",
-          "phonetic_api": "/a bɛ so kɔ.nɔ/",
-          "meaning": "Il/Elle est à l'intérieur de la maison"
+          "structure": "Beyla la",
+          "phonetic_api": "[bɛjla la]",
+          "meaning": "à Beyla"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Amara",
-      "text": "Sékou, i bɛ sigi min bi la?",
-      "phonetic_api": "/se.ku i bɛ si.ɡi mĩ bi la/",
-      "phonetic_simple": "SÉ-KOU, I BÈ SI-GUI MIN BI LA",
-      "translation": "Sékou, où habites-tu actuellement ?"
+      "speaker": "Fatoumata",
+      "text": "I bɛ sigi min sisan?",
+      "phonetic_api": "[i bɛ siɡi min sisan]",
+      "phonetic_simple": "i-bè-si-gi-min-si-san",
+      "translation": "Où habites-tu maintenant ?"
     },
     {
-      "speaker": "Sékou",
-      "text": "N'bɛ sigi duguba kɔnɔ, lɔgɔfɛ kɔfɛ.",
-      "phonetic_api": "/mbɛ si.ɡi du.ɡu.ba kɔ.nɔ lɔ.ɡɔ.fɛ kɔ.fɛ/",
-      "phonetic_simple": "N-BÈ SI-GUI DOU-GOU-BA KƆ-NƆ, LƆ-GƆ-FÈ KƆ-FÈ",
-      "translation": "J'habite en ville, derrière le marché."
+      "speaker": "Ibrahima",
+      "text": "N bɛ sigi Kérouane duguba kono, n bon bɛ finè naani le la.",
+      "phonetic_api": "[n bɛ siɡi kerwan duɡuba kono n bɔn bɛ finɛ naːni le la]",
+      "phonetic_simple": "n-bè-si-gi-ké-rwan-dou-gou-ba-ko-no",
+      "translation": "J'habite dans la ville de Kérouane, ma maison a quatre chambres."
     },
     {
-      "speaker": "Amara",
-      "text": "I so bɛ ba? Bongda joli bɛ yen?",
-      "phonetic_api": "/i so bɛ ba bɔnɡ.da d͡ʒo.li bɛ jẽ/",
-      "phonetic_simple": "I SO BÈ BA? BONG-DA DJO-LI BÈ YEN",
-      "translation": "Ta maison est-elle grande ? Combien de chambres y a-t-il ?"
+      "speaker": "Fatoumata",
+      "text": "A ka bon!",
+      "phonetic_api": "[a ka bɔn]",
+      "phonetic_simple": "a-ka-bon",
+      "translation": "C'est grand !"
     },
     {
-      "speaker": "Sékou",
-      "text": "Hali, a bɛ ba dɔɔni. Bongda saba bɛ so kɔnɔ.",
-      "phonetic_api": "/ha.li a bɛ ba dɔː.ni bɔnɡ.da sa.ba bɛ so kɔ.nɔ/",
-      "phonetic_simple": "HA-LI, A BÈ BA DƆƆ-NI. BONG-DA SA-BA BÈ SO KƆ-NƆ",
-      "translation": "Oui, elle est assez grande. Il y a trois chambres à l'intérieur de la maison."
+      "speaker": "Ibrahima",
+      "text": "I ka kɛnɛ ka bon fanan wa?",
+      "phonetic_api": "[i ka kɛnɛ ka bɔn fanan wa]",
+      "phonetic_simple": "i-ka-kè-nè-ka-bon-fa-nan-wa",
+      "translation": "Ta cour est-elle grande aussi ?"
     }
   ],
   "cultural_notes": [
-    "L'habitat traditionnel en milieu konyanka s'organise autour de la concession familiale élargie ('so' ou 'lu'). Même en milieu urbain, la cour intérieure ('kɛnɛma') demeure le pivot de l'interaction sociale collective, des discussions quotidiennes et de la préparation des repas collectifs."
+    "Kérouane et Beyla, deux préfectures citées comme cœur géographique du Konyanka (Wikipédia — Konyanka), sont des centres urbains de taille moyenne en Guinée forestière/Haute-Guinée.",
+    "La notion de 'so' (village/concession) reste centrale dans l'organisation sociale manding : elle désigne à la fois l'habitat et le groupe familial élargi qui y vit."
   ],
   "exercises": [
     {
-      "exercise_id": "ex1",
-      "type": "multiple_choice",
-      "question": "Que signifie le mot 'Duguba' ?",
+      "exercise_id": "e1",
+      "type": "choix_multiple",
+      "question": "Comment dit-on 'ville' ?",
       "options": [
-        "Une chambre",
-        "Une cuisine",
-        "Une ville / grande agglomération"
+        "so",
+        "bon",
+        "duguba",
+        "finè"
       ],
-      "correct_answer": "Une ville / grande agglomération",
-      "explanation": "'Dugu' désigne la terre ou la localité, et 'ba' marque la grandeur, formant le terme pour la ville."
+      "correct_answer": "duguba",
+      "explanation": "'duguba' signifie littéralement 'grand village', soit une ville."
     },
     {
-      "exercise_id": "ex2",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "N'bɛ [ ___ ] kɔnɔ (Je suis dans la chambre).",
-      "correct_answer": "bongda",
-      "hint": "Le nom composé pour désigner la pièce à coucher."
+      "exercise_id": "e2",
+      "type": "traduction",
+      "question": "Traduisez : 'J'habite à Beyla.'",
+      "correct_answer": "N bɛ sigi Beyla la.",
+      "explanation": "'n bɛ sigi' = j'habite ; 'Beyla la' = à Beyla."
+    },
+    {
+      "exercise_id": "e3",
+      "type": "texte_a_trous",
+      "sentence_with_blank": "N bon ka ___. (Ma maison est grande.)",
+      "correct_answer": "bon",
+      "explanation": "'bon' comme adjectif signifie 'grand' (homonyme du nom 'bon' = maison)."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Malinkuia — Introduction à la langue malinké (grammaire complète, variété du Wulada, Haute-Guinée)",
+      "url": "https://fr.scribd.com/document/499114939/Malinkuia"
+    },
+    {
+      "label": "An ka taa — Maninka/Malinké greetings and phrases",
+      "url": "https://www.ankataa.com/maninka-greetings-and-phrases"
+    },
+    {
+      "label": "Wikipédia — Konyanka (classification, géographie, codes ISO/Glottolog)",
+      "url": "https://fr.wikipedia.org/wiki/Konyanka"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Aucun lexique ou grammaire publiés et dédiés spécifiquement au Konyanka (Koyaka/Konianka, ISO mku) n'a été localisé. Le vocabulaire de cette leçon provient donc du continuum dialectal Maninka/Malinké de Guinée dans lequel le Konyanka s'inscrit (intelligibilité mutuelle attestée), via la grammaire pratique Malinkuia (variété du Wulada, Haute-Guinée). Les spécificités confirmées du Konyanka sont indiquées dans les notes culturelles plutôt que dans le lexique."
 }

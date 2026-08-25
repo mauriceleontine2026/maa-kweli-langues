@@ -6,226 +6,186 @@
   "lesson_number": 6,
   "title": "Faire des achats, négocier les prix et gérer l'argent",
   "learning_objectives": [
-    "Demander le prix d'une marchandise au marché en Badiaranké",
-    "Conduire une négociation commerciale simple (proposer un prix inférieur)",
-    "Maîtriser le lexique de l'échange, de l'argent et du commerce de proximité"
+    "Utiliser les verbes commerciaux attestés : acheter, vendre, payer",
+    "Nommer le nom attesté « argent » et sa forme possessive « mon argent »",
+    "Nommer des biens modernes attestés : voiture, moto, téléphone"
   ],
   "phonetic_focus": {
-    "key_sounds": "Les occlusives injectives /ɓ/ et /ɗ/ interviennent dans le vocabulaire financier traditionnel. L'intonation interrogative lors de la demande de prix est vive et se déploie sur la dernière syllabe du mot désignant la valeur.",
-    "common_pitfalls": "Prononcer les montants ou les demandes sans accentuer le connecteur de prix, ce qui pourrait amener le vendeur à croire que vous validez son tarif initial sans discuter."
+    "key_sounds": "« so:s- » (payer) et « wa:f- » (vendre) partagent la structure CV:C- typique des racines verbales de Cover (2010).",
+    "common_pitfalls": "Confondre « k˜atə- » (acheter) et « wa:f- » (vendre), sémantiquement opposés mais phonétiquement différents."
   },
   "vocabulary": [
     {
-      "word_id": "v15_1",
-      "term": "Wari",
-      "phonetic_api": "/wari/",
-      "phonetic_simple": "WA-RI",
-      "translation": "Argent / Monnaie / Richesse (emprunt régional intégré)",
-      "example_sentence": "Wari o seŋeni e mi ?",
-      "example_phonetic": "/wari o seŋeni e mi/",
-      "example_translation": "As-tu de l'argent pour moi ?"
+      "word_id": "v1",
+      "term": "kodi",
+      "phonetic_api": "/kodi/",
+      "phonetic_simple": "ko-di",
+      "translation": "argent"
     },
     {
-      "word_id": "v15_2",
-      "term": "Maami",
-      "phonetic_api": "/maːmi/",
-      "phonetic_simple": "MAA-MI",
-      "translation": "Combien / Quel montant",
-      "example_sentence": "A fari maami ?",
-      "example_phonetic": "/a fari maːmi/",
-      "example_translation": "Ça fait combien ?"
+      "word_id": "v2",
+      "term": "kodiem˜an˜@",
+      "phonetic_api": "/kodiemãnə̃/",
+      "phonetic_simple": "ko-di-man-neu",
+      "translation": "mon argent"
     },
     {
-      "word_id": "v15_3",
-      "term": "Soko",
-      "phonetic_api": "/soko/",
-      "phonetic_simple": "SO-KO",
-      "translation": "Acheter / Acquérir par l'argent",
-      "example_sentence": "N soko doni feeo.",
-      "example_phonetic": "/n soko doni feːɔ/",
-      "example_translation": "J'achète un habit blanc."
+      "word_id": "v3",
+      "term": "k˜at@-",
+      "phonetic_api": "/k̃atə-/",
+      "phonetic_simple": "kan-te-",
+      "translation": "acheter"
     },
     {
-      "word_id": "v15_4",
-      "term": "Fiya",
-      "phonetic_api": "/fija/",
-      "phonetic_simple": "FI-YA",
-      "translation": "Vendre / Échanger contre valeur",
-      "example_sentence": "O fiya maaso e maree.",
-      "example_phonetic": "/o fija maːso e mareː/",
-      "example_translation": "Il vend du riz au marché."
+      "word_id": "v4",
+      "term": "wa:f-",
+      "phonetic_api": "/wa:f-/",
+      "phonetic_simple": "wa-f-",
+      "translation": "vendre"
     },
     {
-      "word_id": "v15_5",
-      "term": "Mase",
-      "phonetic_api": "/mase/",
-      "phonetic_simple": "MA-SE",
-      "translation": "Cher / Coûteux / Élevé",
-      "example_sentence": "Cebila o mase korom.",
-      "example_phonetic": "/ceɓila o mase korom/",
-      "example_translation": "La viande est extrêmement chère."
+      "word_id": "v5",
+      "term": "so:s-",
+      "phonetic_api": "/so:s-/",
+      "phonetic_simple": "so-s-",
+      "translation": "payer"
     },
     {
-      "word_id": "v15_6",
-      "term": "Duse",
-      "phonetic_api": "/duse/",
-      "phonetic_simple": "DOU-SE",
-      "translation": "Diminuer / Rabaisser (le prix)",
-      "example_sentence": "Duse wari !",
-      "example_phonetic": "/duse wari/",
-      "example_translation": "Diminue le prix !"
+      "word_id": "v6",
+      "term": "wotto",
+      "phonetic_api": "/wotto/",
+      "phonetic_simple": "wot-to",
+      "translation": "voiture"
     },
     {
-      "word_id": "v15_7",
-      "term": "Kanu",
-      "phonetic_api": "/kanu/",
-      "phonetic_simple": "KA-NOU",
-      "translation": "Accepter / Agréer le marché",
-      "example_sentence": "N kanu wari o.",
-      "example_phonetic": "/n kanu wari o/",
-      "example_translation": "J'accepte ce prix."
+      "word_id": "v7",
+      "term": "moto",
+      "phonetic_api": "/moto/",
+      "phonetic_simple": "mo-to",
+      "translation": "moto"
+    },
+    {
+      "word_id": "v8",
+      "term": "telefon",
+      "phonetic_api": "/telefon/",
+      "phonetic_simple": "té-lé-fon",
+      "translation": "téléphone"
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p15_1",
-      "original": "Maaso o fari maami ?",
-      "phonetic_api": "/maːso o fari maːmi/",
-      "phonetic_simple": "MAA-SO O FA-RI MAA-MI ?",
-      "translation": "Combien coûte le riz ?",
-      "context": "S'enquérir du prix d'une denrée auprès d'un étal."
+      "phrase_id": "p1",
+      "original": "kodiem˜an˜@",
+      "phonetic_api": "/kodiemãnə̃/",
+      "phonetic_simple": "ko-di-man-neu",
+      "translation": "mon argent",
+      "context": "Forme possessive attestée par Cover (2010), suffixée sur la racine « argent »."
     },
     {
-      "phrase_id": "p15_2",
-      "original": "A mase korom, duse wari !",
-      "phonetic_api": "/a mase korom duse wari/",
-      "phonetic_simple": "A MA-SE KO-ROM, DOU-SE WA-RI !",
-      "translation": "C'est trop cher, diminue le prix !",
-      "context": "Lancer fermement la phase de négociation ou de marchandage."
+      "phrase_id": "p2",
+      "original": "so:s-",
+      "phonetic_api": "/so:s-/",
+      "phonetic_simple": "so-s-",
+      "translation": "payer",
+      "context": "Attesté par Cover (2010)."
     },
     {
-      "phrase_id": "p15_3",
-      "original": "N soko n kense sene e maree.",
-      "phonetic_api": "/n soko n kɛnse sene e mareː/",
-      "phonetic_simple": "N SO-KO N KEN-SE SE-NE E MA-REE",
-      "translation": "J'achète du poisson aujourd'hui au marché.",
-      "context": "Annoncer ses intentions d'achats à ses proches."
+      "phrase_id": "p3",
+      "original": "kodi kodiem˜an˜@",
+      "phonetic_api": "/kodi/ /kodiemãnə̃/",
+      "phonetic_simple": "ko-di ko-di-man-neu",
+      "translation": "argent mon argent",
+      "context": "Juxtaposition pédagogique de mots déjà attestés dans cette leçon (recombinaison, PAS une phrase attestée telle quelle dans les sources)."
     },
     {
-      "phrase_id": "p15_4",
-      "original": "Wari o seŋeni e mi ɓe.",
-      "phonetic_api": "/wari o seŋeni e mi ɓe/",
-      "phonetic_simple": "WA-RI O SE-NGE-NI E MI BHE",
-      "translation": "Je n'ai pas d'argent.",
-      "context": "Justifier poliment son incapacité à acheter un produit."
-    },
-    {
-      "phrase_id": "p15_5",
-      "original": "I fiya doni awun maami ?",
-      "phonetic_api": "/i fija doni awun maːmi/",
-      "phonetic_simple": "I FI-YA DO-NI A-WOUN MAA-MI ?",
-      "translation": "À combien vends-tu le vêtement rouge ?",
-      "context": "Demander le coût d'un habit confectionné."
-    },
-    {
-      "phrase_id": "p15_6",
-      "original": "Iyo, n kanu wari i maasŋe.",
-      "phonetic_api": "/ijo n kanu wari i maːsŋe/",
-      "phonetic_simple": "I-YO, N KA-NOU WA-RI I MAAS-NGE",
-      "translation": "D'accord, j'accepte tes deux pièces d'argent.",
-      "context": "Conclure l'accord commercial de manière cordiale."
-    },
-    {
-      "phrase_id": "p15_7",
-      "original": "Taba o mase ɓe, a sae.",
-      "phonetic_api": "/taɓa o mase ɓe a sae/",
-      "phonetic_simple": "TA-BHA O MA-SE BHE, A SA-E",
-      "translation": "Les chaussures ne sont pas chères, c'est une bonne affaire.",
-      "context": "Valider le bon rapport qualité-prix d'un article."
-    },
-    {
-      "phrase_id": "p15_8",
-      "original": "N tanu e maree sae !",
-      "phonetic_api": "/n tanu e mareː sae/",
-      "phonetic_simple": "N TA-NOU E MA-REE SA-E !",
-      "translation": "Merci pour le bon marché !",
-      "context": "Prendre congé du marchand après une transaction satisfaisante."
+      "phrase_id": "p4",
+      "original": "kodi k˜at@-",
+      "phonetic_api": "/kodi/ /k̃atə-/",
+      "phonetic_simple": "ko-di kan-te-",
+      "translation": "argent acheter",
+      "context": "Juxtaposition pédagogique de mots déjà attestés dans cette leçon (recombinaison, PAS une phrase attestée telle quelle dans les sources)."
     }
   ],
   "grammar_points": [
     {
-      "concept": "La syntaxe du coût et de la quantification monétaire",
-      "explanation": "En Badiaranké, l'interrogation financière associe l'objet au verbe fonctionnel 'fari' (faire) combiné au pronom interrogatif de quantité 'maami' (combien). La réponse juxtapose l'unité monétaire ou le chiffre directement après le verbe de transaction.",
+      "concept": "Possessif suffixé sur « argent »",
+      "explanation": "Comme pour « ma mère » (na:jemma, voir niveau A1), Cover (2010) atteste que le nom « argent » prend un suffixe possessif de 1ère personne pour donner « mon argent ». Ce parallèle confirme un système possessif suffixé cohérent à travers différentes classes de noms, mais le paradigme complet (ton argent, son argent...) n'est pas attesté.",
       "rules": [
-        "L'objet à évaluer se place en ouverture absolue de la proposition.",
-        "Pour ordonner une baisse de tarif, l'impératif direct utilise le verbe 'duse' suivi de la monnaie 'wari'."
+        "Nom + suffixe possessif -jemma = mon [nom]"
       ],
       "examples": [
         {
-          "structure": "wari maami",
-          "phonetic_api": "/wari maːmi/",
-          "meaning": "combien d'argent"
-        },
-        {
-          "structure": "duse wari",
-          "phonetic_api": "/duse wari/",
-          "meaning": "diminue l'argent (baisse le prix)"
+          "structure": "kodiem˜an˜@",
+          "phonetic_api": "/kodiemãnə̃/",
+          "meaning": "mon argent"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Awa",
-      "text": "Mbaara nkaet, i fiya kense o maami sene ?",
-      "phonetic_api": "/mɓaːra nkaːɛt i fija kɛnse o maːmi sene/",
-      "phonetic_simple": "MBAA-RA NKAE-TT, I FI-YA KEN-SE O MAA-MI SE-NE ?",
-      "translation": "Bonjour mon frère, à combien vends-tu ce poisson aujourd'hui ?"
-    },
-    {
       "speaker": "Vendeur",
-      "text": "Kense o fari wari madae. A sae korom !",
-      "phonetic_api": "/kɛnse o fari wari madae a sae korom/",
-      "phonetic_simple": "KEN-SE O FA-RI WA-RI MA-DA-E. A SA-E KO-ROM !",
-      "translation": "Le poisson fait cinq unités d'argent. Il est de toute fraîcheur !"
+      "text": "wa:f-.",
+      "phonetic_api": "/wa:f-/",
+      "phonetic_simple": "wa-f-",
+      "translation": "Vendre."
     },
     {
-      "speaker": "Awa",
-      "text": "Aé, a mase korom ! Duse wari, n wa soko e wari masaat.",
-      "phonetic_api": "/aeː a mase korom duse wari n wa soko e wari masaːt/",
-      "phonetic_simple": "AEE, A MA-SE KO-ROM ! DOU-SE WA-RI, N WA SO-KO E WA-RI MA-SAATT.",
-      "translation": "Oh non, c'est beaucoup trop cher ! Diminue le prix, je vais l'acheter pour trois unités."
+      "speaker": "Client",
+      "text": "k˜at@-. kodiem˜an˜@.",
+      "phonetic_api": "/k̃atə-/ /kodiemãnə̃/",
+      "phonetic_simple": "kan-te-. ko-di-man-neu.",
+      "translation": "Acheter. Mon argent. (mots juxtaposés)"
     },
     {
-      "speaker": "Vendeur",
-      "text": "Iyo, n kanu wari mazaŋe. Yo sae !",
-      "phonetic_api": "/ijo n kanu wari mazaŋe jo sae/",
-      "phonetic_simple": "I-YO, N KA-NOU WA-RI MA-ZAN-GE. YO SA-E !",
-      "translation": "D'accord, coupons la poire en deux, j'accepte quatre unités. Que cela te soit bénéfique !"
+      "speaker": "Professeur",
+      "text": "kodi.",
+      "phonetic_api": "/kodi/",
+      "phonetic_simple": "ko-di",
+      "translation": "Argent. (mot attesté isolé, recombiné pédagogiquement dans ce dialogue)"
+    },
+    {
+      "speaker": "Élève",
+      "text": "kodiem˜an˜@.",
+      "phonetic_api": "/kodiemãnə̃/",
+      "phonetic_simple": "ko-di-man-neu",
+      "translation": "Mon argent. (mot attesté isolé, recombiné pédagogiquement dans ce dialogue)"
     }
   ],
   "cultural_notes": [
-    "Le marchandage ('duse wari') au marché hebdomadaire de Koundara ou des localités environnantes est un jeu relationnel indispensable. Ne pas négocier est parfois perçu comme un manque d'intérêt pour la marchandise ou une rupture de l'échange social. Le mot 'wari', d'origine mandingue, est universellement compris dans toute la zone transfrontalière guinéenne."
+    "La présence de mots pour « voiture », « moto » et « téléphone » (probables emprunts modernes) dans le corpus de Cover (2010) montre que la langue continue d'intégrer du vocabulaire technologique contemporain malgré l'absence d'écriture standardisée."
   ],
   "exercises": [
     {
-      "exercise_id": "ex15_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Que signifie le terme 'duse wari' dans un marché Badiaranké ?",
+      "question": "Comment dit-on « mon argent » ?",
       "options": [
-        "Augmente la quantité",
-        "Diminue le prix / l'argent",
-        "Donne-moi le poisson"
+        "kodiem˜an˜@",
+        "kodi",
+        "so:s-"
       ],
-      "correct_answer": "Diminue le prix / l'argent",
-      "explanation": "'Duse' signifie réduire ou faire descendre, appliqué à 'wari' (l'argent/le coût)."
+      "correct_answer": "kodiem˜an˜@",
+      "explanation": "Forme possessive attestée par Cover (2010)."
     },
     {
-      "exercise_id": "ex15_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "[ ___ ] o fari maami ? (Combien coûte l'argent / l'objet ?)",
-      "correct_answer": "wari",
-      "hint": "Le substantif désignant l'argent ou la monnaie d'échange."
+      "sentence_with_blank": "[ ___ ] = « vendre » (attesté par Cover, 2010)",
+      "correct_answer": "wa:f-",
+      "hint": "Commence par /w/."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Cover, R. (2010) — Aspect, Modality, and Tense in Badiaranke, UC Berkeley (PhD dissertation)",
+      "url": "https://escholarship.org/uc/item/6f91m5dg"
+    },
+    {
+      "label": "Cover, R. (2010) — texte intégral PDF (eScholarship, UC Berkeley)",
+      "url": "https://escholarship.org/content/qt6f91m5dg/qt6f91m5dg.pdf"
+    }
+  ],
+  "confidence": "faible",
+  "confidence_note": "Les verbes commerciaux (acheter, vendre, payer) et le nom « argent »/« mon argent » sont attestés par Cover (2010), mais aucune phrase de négociation de prix (« c'est trop cher », « fais-moi un prix ») n'est documentée dans les sources disponibles."
 }

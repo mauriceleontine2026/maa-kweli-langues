@@ -6,149 +6,230 @@
   "lesson_number": 2,
   "title": "Les loisirs, les passions et les activités sportives",
   "learning_objectives": [
-    "Exprimer ses passe-temps, divertissements et activités de détente en Mano",
-    "Parler des sports populaires et des jeux communautaires",
-    "Utiliser les structures verbales d'action continue pour décrire un loisir en cours"
+    "Parler de ses activités de loisir (jeu, danse, musique, football)",
+    "Exprimer une activité habituelle avec l'imperfectif",
+    "Utiliser le verbe composé sɔ̀ ɓō ('jouer')"
   ],
   "phonetic_focus": {
-    "key_sounds": "Les termes liés au divertissement et au mouvement font un usage fréquent du digramme /ɡb/ combiné avec des voyelles fermées comme /i/. Le mot pour 'jeu' ou 'danser' emploie souvent des structures à tons montants qui traduisent l'énergie de l'action.",
-    "common_pitfalls": "Veillez à ne pas escamoter la finale nasale lorsque vous parlez de chanter ou de jouer, sous peine de rendre le verbe incompréhensible."
+    "key_sounds": "tá̰ est un mot nasalisé court (danse/chanson) à ne pas confondre avec tà (autre racine) : la nasalisation vocalique est distinctive en mano.",
+    "common_pitfalls": "Oublier que de nombreuses activités se construisent en verbes composés (nom + ɓō 'faire'), et non avec un verbe simple unique."
   },
   "vocabulary": [
     {
-      "word_id": "v11_1",
-      "term": "gbe",
-      "phonetic_api": "/ɡbe˧/",
-      "phonetic_simple": "GBÉ",
-      "translation": "Jeu / Amusement / Sport",
-      "example_sentence": "gbe kɛ",
-      "example_phonetic": "/ɡbe˧ kɛ˧/",
-      "example_translation": "Jouer / Pratiquer un sport"
+      "word_id": "v1",
+      "term": "sɔ̀ ɓō",
+      "phonetic_api": "/sɔ̀ ɓō/",
+      "phonetic_simple": "so BO",
+      "translation": "jouer, s'amuser",
+      "example_sentence": "Fúú vɔ̀ óò sɔ̀ ɓō.",
+      "example_phonetic": "/fúú vɔ̀ óò sɔ̀ ɓō/",
+      "example_translation": "Les enfants jouent."
     },
     {
-      "word_id": "v11_2",
-      "term": "pɔ̃́",
-      "phonetic_api": "/pɔ̃˦/",
-      "phonetic_simple": "PONG",
-      "translation": "Chanson / Chant",
-      "example_sentence": "pɔ̃́ lē",
-      "example_phonetic": "/pɔ̃˦ leː˧/",
-      "example_translation": "Chanter une chanson"
+      "word_id": "v2",
+      "term": "dɛ̀ɛ̀ mɛ̀ɛ̀",
+      "phonetic_api": "/dɛ̀ɛ̀ mɛ̀ɛ̀/",
+      "phonetic_simple": "dè-è mè-è",
+      "translation": "football",
+      "example_sentence": "Ŋ̄ nāā dɛ̀ɛ̀ mɛ̀ɛ̀ ɓō.",
+      "example_phonetic": "/ŋ̄ nāā dɛ̀ɛ̀ mɛ̀ɛ̀ ɓō/",
+      "example_translation": "J'aime jouer au football."
     },
     {
-      "word_id": "v11_3",
-      "term": "yɛ̃́ɛ",
-      "phonetic_api": "/jɛ̃˦ɛ˧/",
-      "phonetic_simple": "YÈNG-È",
-      "translation": "Danse",
-      "example_sentence": "yɛ̃́ɛ kɛ",
-      "example_phonetic": "/jɛ̃˦ɛ˧ kɛ˧/",
-      "example_translation": "Danser"
+      "word_id": "v3",
+      "term": "tá̰",
+      "phonetic_api": "/tá̰/",
+      "phonetic_simple": "TA (nasalisé)",
+      "translation": "danse, chanson",
+      "example_sentence": "Ō tá̰ ɓō pɛ́nɛ̄ɛ̄.",
+      "example_phonetic": "/ō tá̰ ɓō pɛ́nɛ̄ɛ̄/",
+      "example_translation": "Ils dansent/chantent aujourd'hui."
     },
     {
-      "word_id": "v11_4",
-      "term": "bɔ̀lù",
-      "phonetic_api": "/bɔ˩lu˩/",
-      "phonetic_simple": "BOR-LOU",
-      "translation": "Ballon / Football (emprunt)",
-      "example_sentence": "bɔ̀lù gbe",
-      "example_phonetic": "/bɔ˩lu˩ ɡbe˧/",
-      "example_translation": "Le jeu de football"
+      "word_id": "v4",
+      "term": "tá̰ ɓō",
+      "phonetic_api": "/tá̰ ɓō/",
+      "phonetic_simple": "TA BO",
+      "translation": "chanter, danser",
+      "example_sentence": "Íì tá̰ ɓō?",
+      "example_phonetic": "/íì tá̰ ɓō/",
+      "example_translation": "Tu chantes ?"
+    },
+    {
+      "word_id": "v5",
+      "term": "wéépɛ̀",
+      "phonetic_api": "/wéépɛ̀/",
+      "phonetic_simple": "OUÉ-é-pè",
+      "translation": "musique",
+      "example_sentence": "Ŋ̄ wéépɛ̀ mɛ̰̀ɛ̰̄.",
+      "example_phonetic": "/ŋ̄ wéépɛ̀ mɛ̰̀ɛ̰̄/",
+      "example_translation": "J'écoute de la musique."
+    },
+    {
+      "word_id": "v6",
+      "term": "kpílì",
+      "phonetic_api": "/kpílì/",
+      "phonetic_simple": "KPI-li",
+      "translation": "fête",
+      "example_sentence": "Kpílì lɛ̄ tòò.",
+      "example_phonetic": "/kpílì lɛ̄ tòò/",
+      "example_translation": "La fête est demain."
+    },
+    {
+      "word_id": "v7",
+      "term": "lɔ̀ kɛ̄",
+      "phonetic_api": "/lɔ̀ kɛ̄/",
+      "phonetic_simple": "lo KÊ",
+      "translation": "aimer",
+      "example_sentence": "Ŋ̄ dɛ̀ɛ̀ mɛ̀ɛ̀ lɔ̀ kɛ̄.",
+      "example_phonetic": "/ŋ̄ dɛ̀ɛ̀ mɛ̀ɛ̀ lɔ̀ kɛ̄/",
+      "example_translation": "J'aime le football."
+    },
+    {
+      "word_id": "v8",
+      "term": "kpɛ̀ɛ̄",
+      "phonetic_api": "/kpɛ̀ɛ̄/",
+      "phonetic_simple": "kpè-Ê",
+      "translation": "joie",
+      "example_sentence": "Kpɛ̀ɛ̄ lɛ̄ ŋ̄ ɓɛ̄.",
+      "example_phonetic": "/kpɛ̀ɛ̄ lɛ̄ ŋ̄ ɓɛ̄/",
+      "example_translation": "J'ai de la joie."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p11_1",
-      "original": "Wɔ̃́ mɛ́ ɓe í lo lo ?",
-      "phonetic_api": "/wɔ̃˦ mɛ˦ ɓe˧ i˦ lo˧ lo˧/",
-      "phonetic_simple": "WONG MÉ BÉ EE LO LO ?",
-      "translation": "Qu'est-ce que tu aimes faire pendant ton temps libre ?",
-      "context": "Interroger un ami sur ses passions ou ses loisirs."
+      "phrase_id": "p1",
+      "original": "Íì nāā mɛ̀ɛ̄ ɓō?",
+      "phonetic_api": "/íì nāā mɛ̀ɛ̄ ɓō/",
+      "phonetic_simple": "i-i na-a mè-è bo",
+      "translation": "Qu'aimes-tu faire (comme loisir) ?",
+      "context": "Question ouverte sur les loisirs préférés."
     },
     {
-      "phrase_id": "p11_2",
-      "original": "Bɔ̀lù gbe kɛ́ ɓe ń lo.",
-      "phonetic_api": "/bɔ˩lu˩ ɡbe˧ kɛ˦ ɓe˧ ń lo˧/",
-      "phonetic_simple": "BOR-LOU GBÉ KÉ BÉ N LO",
-      "translation": "J'aime jouer au football.",
-      "context": "Partager sa passion pour le sport le plus populaire."
+      "phrase_id": "p2",
+      "original": "Ŋ́ŋ̀ dɛ̀ɛ̀ mɛ̀ɛ̀ ɓō sɛ́lɛ́í séŋ́.",
+      "phonetic_api": "/ŋ́ŋ̀ dɛ̀ɛ̀ mɛ̀ɛ̀ ɓō sɛ́lɛ́í séŋ́/",
+      "phonetic_simple": "ngng dè-è mè-è bo sé-lé-i séng",
+      "translation": "Je joue au football tous les jours.",
+      "context": "Imperfectif ŋ́ŋ̀ pour une habitude répétée."
     },
     {
-      "phrase_id": "p11_3",
-      "original": "Wa lɔ yɛ̃́ɛ kɛ́ mī tɔ̃́ la.",
-      "phonetic_api": "/wa˧ lɔ˧ jɛ̃˦ɛ˧ kɛ˦ miː˧ tɔ̃˦ la˧/",
-      "phonetic_simple": "WA LOR YÈNG-È KÉ MEE TONG LA",
-      "translation": "Nous allons danser ce soir.",
-      "context": "Proposer une sortie festive ou de détente à des proches."
+      "phrase_id": "p3",
+      "original": "Kō tá̰ ɓō kpílì lā.",
+      "phonetic_api": "/kō tá̰ ɓō kpílì lā/",
+      "phonetic_simple": "ko ta bo kpi-li la",
+      "translation": "Nous dansons à la fête.",
+      "context": "Verbe composé tá̰ ɓō avec complément de lieu."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Wéépɛ̀ lɛ̄ ŋ̄ lɔ̀ kɛ̄.",
+      "phonetic_api": "/wéépɛ̀ lɛ̄ ŋ̄ lɔ̀ kɛ̄/",
+      "phonetic_simple": "oué-é-pè lê ng lo kê",
+      "translation": "J'aime la musique.",
+      "context": "Structure : Objet + auxiliaire + sujet + verbe lɔ̀ kɛ̄ 'aimer'."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'association verbale d'action : Nom d'activité + verbe 'kɛ' (faire)",
-      "explanation": "En Mano, de nombreux loisirs et sports ne possèdent pas de verbe unique dédié. On utilise une construction analytique combinant le substantif de l'activité (jeu, danse, lutte) suivi du verbe passe-partout 'kɛ' qui signifie 'faire' ou 'exécuter'.",
+      "concept": "L'imperfectif pour les habitudes et les verbes composés d'activité",
+      "explanation": "L'auxiliaire imperfectif (série 'imperfectif' : ŋ́ŋ̀, íì, lɛ́ɛ̀, kóò, káà, óò) exprime une action habituelle ou en cours. De nombreuses activités de loisir se forment avec un nom + le verbe léger ɓō ('faire'), formant un verbe composé (sɔ̀ ɓō 'jouer', tá̰ ɓō 'danser/chanter').",
       "rules": [
-        "Structure : [Nom du loisir/sport] + kɛ (faire).",
-        "Pour exprimer l'habitude ou le goût constant, on ajoute la marque aspectuelle de focalisation."
+        "Structure habituelle : Sujet + Aux.IPFV + (Objet) + Verbe",
+        "Verbe composé : Nom + ɓō (ex. dɛ̀ɛ̀ mɛ̀ɛ̀ ɓō 'jouer au football', littéralement 'faire le football')",
+        "Le verbe lɔ̀ kɛ̄ ('aimer') précède l'objet de préférence dans une structure emphatique : Objet + lɛ̄ + Sujet + lɔ̀ kɛ̄"
       ],
       "examples": [
         {
-          "structure": "gbe kɛ",
-          "phonetic_api": "/ɡbe˧ kɛ˧/",
-          "meaning": "Faire du sport / Jouer"
+          "structure": "Ŋ́ŋ̀ dɛ̀ɛ̀ mɛ̀ɛ̀ ɓō sɛ́lɛ́í séŋ́.",
+          "phonetic_api": "/ŋ́ŋ̀ dɛ̀ɛ̀ mɛ̀ɛ̀ ɓō sɛ́lɛ́í séŋ́/",
+          "meaning": "Je joue au football tous les jours."
         },
         {
-          "structure": "yɛ̃́ɛ kɛ",
-          "phonetic_api": "/jɛ̃˦ɛ˧ kɛ˧/",
-          "meaning": "Faire la danse / Danser"
+          "structure": "Wéépɛ̀ lɛ̄ ŋ̄ lɔ̀ kɛ̄.",
+          "phonetic_api": "/wéépɛ̀ lɛ̄ ŋ̄ lɔ̀ kɛ̄/",
+          "meaning": "J'aime la musique."
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Koli",
-      "text": "Mɛgɛ ! Í lo bɔ̀lù gbe kɛ́ la ?",
-      "phonetic_api": "/mɛ˧gɛ˧ i˦ lo˧ bɔ˩lu˩ ɡbe˧ kɛ˦ la˧/",
-      "phonetic_simple": "MÈGÈ ! EE LO BOR-LOU GBÉ KÉ LA ?",
-      "translation": "Bonjour ! Tu aimes jouer au football ?"
+      "speaker": "Kɔ̀ɔ́",
+      "text": "Íì nāā mɛ̀ɛ̄ ɓō ī kɛ̀ɛ̀ pī lā?",
+      "phonetic_api": "/íì nāā mɛ̀ɛ̄ ɓō ī kɛ̀ɛ̀ pī lā/",
+      "phonetic_simple": "i-i na-a mè-è bo i kè-è pi la",
+      "translation": "Qu'aimes-tu faire pendant tes loisirs ?"
     },
     {
-      "speaker": "Céce",
-      "text": "Ao, bɔ̀lù gbe kɛ́ ɓe ń lo sēe. Í tɔ́ ?",
-      "phonetic_api": "/ao̯˧ bɔ˩lu˩ ɡbe˧ kɛ˦ ɓe˧ ń lo˧ seː˧˧ i˦ tɔ˦/",
-      "phonetic_simple": "A-O, BOR-LOU GBÉ KÉ BÉ N LO SÉÉ. EE TOR ?",
-      "translation": "Oui, j'aime énormément jouer au football. Et toi ?"
+      "speaker": "Pèé",
+      "text": "Ŋ́ŋ̀ dɛ̀ɛ̀ mɛ̀ɛ̀ ɓō, kálá ŋ̄ tá̰ ɓō bɛ̰̀ɛ̰̄.",
+      "phonetic_api": "/ŋ́ŋ̀ dɛ̀ɛ̀ mɛ̀ɛ̀ ɓō, kálá ŋ̄ tá̰ ɓō bɛ̰̀ɛ̰̄/",
+      "phonetic_simple": "ngng dè-è mè-è bo, ka-la ng ta bo bên-ên",
+      "translation": "Je joue au football, mais je danse aussi."
     },
     {
-      "speaker": "Koli",
-      "text": "Ń lo pɔ̃́ lē la.",
-      "phonetic_api": "/ń lo˧ pɔ̃˦ leː˧ la˧/",
-      "phonetic_simple": "N LO PONG LÉ LA.",
-      "translation": "Moi, j'aime chanter."
+      "speaker": "Kɔ̀ɔ́",
+      "text": "Kpílì lɛ̄ tòò, íì nū?",
+      "phonetic_api": "/kpílì lɛ̄ tòò, íì nū/",
+      "phonetic_simple": "kpi-li lê to-o, i-i nou",
+      "translation": "Il y a une fête demain, tu viens ?"
+    },
+    {
+      "speaker": "Pèé",
+      "text": "Ɔ̀ɔ́, kpɛ̀ɛ̄ lɛ̄ ŋ̄ ɓɛ̄.",
+      "phonetic_api": "/ɔ̀ɔ́, kpɛ̀ɛ̄ lɛ̄ ŋ̄ ɓɛ̄/",
+      "phonetic_simple": "o-o, kpè-è lê ng bè",
+      "translation": "Oui, j'en suis heureux."
     }
   ],
   "cultural_notes": [
-    "Dans les villages Mano en Guinée Forestière, les loisirs collectifs occupent une place centrale après les longs travaux champêtres. Le chant traditionnel, les contes au coin du feu et la lutte traditionnelle sont des moments clés de socialisation. Aujourd'hui, le football suscite un engouement intergénérationnel massif lors des tournois de quartier ou de préfecture."
+    "La danse et la musique (tá̰, wéépɛ̀) accompagnent les cérémonies importantes chez les Mano, notamment les rites initiatiques et les fêtes de village, souvent avec des tambours traditionnels.",
+    "Le football (dɛ̀ɛ̀ mɛ̀ɛ̀, terme dérivé de l'anglais/du contact colonial libérien) est aujourd'hui le loisir sportif le plus populaire dans la région de N'Zérékoré."
   ],
   "exercises": [
     {
-      "exercise_id": "ex11_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quelle est l'association de mots pour exprimer l'action de 'Danser' en Mano ?",
+      "question": "Comment dit-on 'jouer au football' en mano ?",
       "options": [
-        "pɔ̃́ lē",
-        "yɛ̃́ɛ kɛ",
-        "bɔ̀lù gbe"
+        "tá̰ ɓō",
+        "dɛ̀ɛ̀ mɛ̀ɛ̀ ɓō",
+        "sɔ̀ ɓō sɛ́lɛ́í"
       ],
-      "correct_answer": "yɛ̃́ɛ kɛ",
-      "explanation": "'yɛ̃́ɛ' signifie la danse et 'kɛ' signifie faire, l'ensemble se traduit par danser."
+      "correct_answer": "dɛ̀ɛ̀ mɛ̀ɛ̀ ɓō",
+      "explanation": "dɛ̀ɛ̀ mɛ̀ɛ̀ signifie 'football' et ɓō 'faire' ; ensemble ils forment le verbe composé 'jouer au football'."
     },
     {
-      "exercise_id": "ex11_2",
+      "exercise_id": "ex2",
+      "type": "multiple_choice",
+      "question": "Quelle série d'auxiliaires exprime une habitude répétée ?",
+      "options": [
+        "prétérit",
+        "imperfectif",
+        "subjonctif"
+      ],
+      "correct_answer": "imperfectif",
+      "explanation": "La série imperfective (ŋ́ŋ̀, íì, lɛ́ɛ̀...) exprime les actions habituelles ou en cours."
+    },
+    {
+      "exercise_id": "ex3",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Pour dire 'J'aime le football', on commence par le mot désignant le ballon : [ ___ ] gbe kɛ́ ɓe ń lo.",
-      "correct_answer": "bɔ̀lù",
-      "hint": "C'est un terme emprunté et adapté localement pour désigner la balle ou le football."
+      "sentence_with_blank": "Ŋ́ŋ̀ dɛ̀ɛ̀ mɛ̀ɛ̀ [ ___ ] sɛ́lɛ́í séŋ́. (Je joue au football tous les jours.)",
+      "correct_answer": "ɓō",
+      "hint": "ɓō est le verbe léger qui, combiné à dɛ̀ɛ̀ mɛ̀ɛ̀, forme le verbe composé 'jouer au football'."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Khachaturyan, M., Carbo, M., Mamy, P. (2022) Dictionnaire mano-français, Mandenkan 67, LLACAN/CNRS",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan67/67mano_dict_all.pdf"
+    },
+    {
+      "label": "Khachaturyan, M. (2015) Grammaire du mano, Mandenkan 54, LLACAN/CNRS",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan54/54khachaturyan.pdf"
+    }
+  ],
+  "confidence": "élevée",
+  "confidence_note": "Vocabulaire des loisirs et structure des verbes composés attestés dans le dictionnaire (Mandenkan 67) ; système imperfectif confirmé par la grammaire (Mandenkan 54)."
 }

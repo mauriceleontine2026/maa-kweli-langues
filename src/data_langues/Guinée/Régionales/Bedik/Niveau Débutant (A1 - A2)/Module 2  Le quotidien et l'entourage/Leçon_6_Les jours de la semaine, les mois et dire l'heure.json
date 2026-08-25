@@ -1,168 +1,188 @@
 {
-  "lesson_id": "A1_M2_L6",
-  "level": "Débutant (A1-A2)",
-  "module_number": 2,
-  "module_title": "Le quotidien et l'entourage",
-  "lesson_number": 6,
-  "title": "Les jours de la semaine, les mois et dire l'heure",
-  "learning_objectives": [
-    "Nommer les cycles temporels naturels et les repères de la semaine",
-    "Situer une action dans le temps (aujourd'hui, demain, hier)",
-    "Comprendre la notion bédik du suivi de l'heure liée à la course du soleil"
-  ],
-  "phonetic_focus": {
-    "key_sounds": "Le terme pour désigner le jour et le soleil ('gaas') comporte une fricative alvéolaire sourde /s/ finale très marquée et une voyelle longue /aː/ ouverte.",
-    "common_pitfalls": "Attention à ne pas assimiler 'nanyé' (demain) et 'nanyə' (hier). Une infime variation de la voyelle finale permute le futur immédiat et le passé proche."
-  },
-  "vocabulary": [
-    {
-      "word_id": "v1",
-      "term": "Gaas",
-      "phonetic_api": "/ɡaːs/",
-      "phonetic_simple": "GAAS",
-      "translation": "Soleil / Jour / Repère temporel",
-      "example_sentence": "Gaas amiat",
-      "example_phonetic": "/ɡaːs a.mja/",
-      "example_translation": "Le jour est beau."
+    "lesson_id": "A1_M2_L6",
+    "level": "Débutant (A1-A2)",
+    "module_number": 2,
+    "module_title": "Le quotidien et l'entourage",
+    "lesson_number": 6,
+    "title": "Les jours de la semaine, les mois et dire l'heure",
+    "learning_objectives": [
+        "Identifier les repères temporels bedik réellement documentés (calendrier des fêtes)",
+        "Comprendre que le calendrier bedik traditionnel est rythmé par les cérémonies saisonnières plutôt que par des semaines/mois calqués sur le calendrier grégorien",
+        "Reconnaître l'absence de vocabulaire bedik des jours/mois/heure en accès libre"
+    ],
+    "phonetic_focus": {
+        "key_sounds": "Aucun terme bedik pour les jours de la semaine, les mois ou les unités horaires n'a été trouvé dans les sources consultées ; Sorosoro mentionne l'existence de courtes vidéos sur « les jours de la semaine » en ménik, mais sans transcription texte disponible en accès libre.",
+        "common_pitfalls": "Ne pas supposer que le bedik traditionnel découpe le temps en semaines de 7 jours à l'occidentale : le calendrier bedik documenté est avant tout un calendrier rituel saisonnier."
     },
-    {
-      "word_id": "v2",
-      "term": "Nanyé",
-      "phonetic_api": "/na.ɲɛ/",
-      "phonetic_simple": "NA-NYƐ",
-      "translation": "Demain",
-      "example_sentence": "Sō nanyé",
-      "example_phonetic": "/soː na.ɲɛ/",
-      "example_translation": "À demain."
-    },
-    {
-      "word_id": "v3",
-      "term": "Nanyə",
-      "phonetic_api": "/na.ɲə/",
-      "phonetic_simple": "NA-NYŒ",
-      "translation": "Hier",
-      "example_sentence": "Mē ƴen sakhó nanyə",
-      "example_phonetic": "/meː ƴɛn sa.χo na.ɲə/",
-      "example_translation": "J'ai vu le champ hier."
-    },
-    {
-      "word_id": "v4",
-      "term": "Eré",
-      "phonetic_api": "/ɛ.ʁe/",
-      "phonetic_simple": "Ɛ-RE",
-      "translation": "Lune / Mois calendrier",
-      "example_sentence": "Eré bity",
-      "example_phonetic": "/ɛ.ʁe bi.cɨ/",
-      "example_translation": "Un mois (Une lune)."
-    },
-    {
-      "word_id": "v5",
-      "term": "Dakat",
-      "phonetic_api": "/da.kat/",
-      "phonetic_simple": "DA-KAT",
-      "translation": "Aujourd'hui / Maintenant",
-      "example_sentence": "Sakhó bē dakat",
-      "example_phonetic": "/sa.χo beː da.kat/",
-      "example_translation": "Le travail est pour aujourd'hui."
-    }
-  ],
-  "common_phrases": [
-    {
-      "phrase_id": "p1",
-      "original": "Sō nanyé, baba.",
-      "phonetic_api": "/soː na.ɲɛ ba.ba/",
-      "phonetic_simple": "SOO NA-NYƐ BA-BA",
-      "translation": "À demain, mon père.",
-      "context": "Formule indispensable pour quitter respectueusement un aîné le soir."
-    },
-    {
-      "phrase_id": "p2",
-      "original": "Gaas bē dyé.",
-      "phonetic_api": "/ɡaːs beː dʒe/",
-      "phonetic_simple": "GAAS BEE DJE",
-      "translation": "Le soleil est là (Il fait jour / Il est midi).",
-      "context": "Indiquer le zénith du soleil pour marquer le milieu de la journée de travail."
-    },
-    {
-      "phrase_id": "p3",
-      "original": "Mē sakhó dakat.",
-      "phonetic_api": "/meː sa.χo da.kat/",
-      "phonetic_simple": "MEE SA-RHO DA-KAT",
-      "translation": "Je travaille aujourd'hui.",
-      "context": "Affirmer sa disponibilité pour les tâches communautaires du jour."
-    },
-    {
-      "phrase_id": "p4",
-      "original": "Ina ƴen mama nanyə ?",
-      "phonetic_api": "/i.na ƴɛn ma.ma na.ɲə/",
-      "phonetic_simple": "I-NA YHAN MA-MA NA-NYŒ",
-      "translation": "As-tu vu ma mère hier ?",
-      "context": "Vérifier le passage ou la santé d'un proche la veille."
-    }
-  ],
-  "grammar_points": [
-    {
-      "concept": "La localisation temporelle adverbiale",
-      "explanation": "En ménik, les adverbes de temps comme 'dakat' (aujourd'hui) ou 'nanyé' (demain) jouissent d'une grande flexibilité positionnelle. Cependant, ils se placent préférentiellement en fin de proposition pour ancrer logiquement l'énoncé verbal.",
-      "rules": [
-        "L'adverbe se positionne après l'objet ou le verbe d'action pour spécifier le cadre.",
-        "Pour insister sur l'urgence, 'dakat' peut être placé en tête de phrase avec une pause prosodique."
-      ],
-      "examples": [
+    "vocabulary": [
         {
-          "structure": "Sujet + Verbe/Action + Adverbe",
-          "phonetic_api": "/meː sa.χo da.kat/",
-          "meaning": "Je travaille aujourd'hui."
+            "word_id": "v1",
+            "term": "Manindam",
+            "phonetic_api": "/ma.nin.dam/",
+            "phonetic_simple": "MA-NIN-DAM",
+            "translation": "période/cérémonie d'avril-mai (initiation des adolescents)",
+            "example_sentence": "(non disponible)",
+            "example_phonetic": "/.../",
+            "example_translation": "(non disponible)"
+        },
+        {
+            "word_id": "v2",
+            "term": "Gamond",
+            "phonetic_api": "/ɡa.mɔ̃d/",
+            "phonetic_simple": "GA-MOND",
+            "translation": "période/fête de mai-juin (fécondité, pluie, santé)",
+            "example_sentence": "(non disponible)",
+            "example_phonetic": "/.../",
+            "example_translation": "(non disponible)"
+        },
+        {
+            "word_id": "v3",
+            "term": "Eyamb",
+            "phonetic_api": "/e.jamb/",
+            "phonetic_simple": "É-YAMB",
+            "translation": "période/fête de juin-juillet (puberté des jeunes filles)",
+            "example_sentence": "(non disponible)",
+            "example_phonetic": "/.../",
+            "example_translation": "(non disponible)"
+        },
+        {
+            "word_id": "v4",
+            "term": "Matyang",
+            "phonetic_api": "/ma.tjaŋ/",
+            "phonetic_simple": "MA-TYANG",
+            "translation": "période/fête de novembre-décembre",
+            "example_sentence": "(non disponible)",
+            "example_phonetic": "/.../",
+            "example_translation": "(non disponible)"
+        },
+        {
+            "word_id": "core_menik",
+            "term": "ménik / mënik",
+            "phonetic_api": "/menik/",
+            "phonetic_simple": "MÉ-NIK",
+            "translation": "la langue bedik (endonyme)",
+            "example_sentence": "(aucune phrase d'exemple attestée)",
+            "example_phonetic": "/.../",
+            "example_translation": "(non disponible)"
         }
-      ]
-    }
-  ],
-  "dialogue": [
-    {
-      "speaker": "Mady",
-      "text": "Samba, ina bē sakhó dakat ?",
-      "phonetic_api": "/sam.ba i.na beː sa.χo da.kat/",
-      "phonetic_simple": "SAM-BA, I-NA BEE SA-RHO DA-KAT ?",
-      "translation": "Samba, as-tu du travail aujourd'hui ?"
-    },
-    {
-      "speaker": "Samba",
-      "text": "Mady, sakhó mē bē nanyé.",
-      "phonetic_api": "/ma.di sa.χo meː beː na.ɲɛ/",
-      "phonetic_simple": "MA-DI, SA-RHO MEE BEE NA-NYƐ.",
-      "translation": "Mady, mon travail est pour demain."
-    },
-    {
-      "speaker": "Mady",
-      "text": "Gasi mē, sō nanyé.",
-      "phonetic_api": "/ɡa.si meː soː na.ɲɛ/",
-      "phonetic_simple": "GA-SI MEE, SOO NA-NYƐ.",
-      "translation": "Merci beaucoup, à demain."
-    }
-  ],
-  "cultural_notes": [
-    "La conception bédik du temps reste profondément agraire et astronomique. Traditionnellement, le découpage de la semaine suit les cycles des marchés locaux de la région de Kédougou ou de la frontière guinéenne, tandis que la journée est rythmée par les positions sacrées du soleil ('gaas') : son lever, son zénith écrasant appelant au repos sous les manguiers, et son coucher derrière les reliefs montagnards."
-  ],
-  "exercises": [
-    {
-      "exercise_id": "ex1",
-      "type": "multiple_choice",
-      "question": "Que signifie exactement l'expression adverbiale 'dakat' ?",
-      "options": [
-        "Hier",
-        "Aujourd'hui",
-        "Demain",
-        "Le mois prochain"
-      ],
-      "correct_answer": "Aujourd'hui",
-      "explanation": "Dakat exprime le moment présent de la journée en cours."
-    },
-    {
-      "exercise_id": "ex2",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Sō [ ___ ]. (À demain.)",
-      "correct_answer": "nanyé",
-      "hint": "Veillez à utiliser la voyelle finale fermée correspondante au futur proche."
-    }
-  ]
+    ],
+    "common_phrases": [
+        {
+            "phrase_id": "cp_core_1",
+            "original": "Manindam, Gamond",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(assemblage de deux mots attestés, prononcés séparément)",
+            "translation": "période/cérémonie d'avril-mai (initiation des adolescents) ; période/fête de mai-juin (fécondité, pluie, santé)",
+            "context": "Énumération construite en recombinant deux mots bedik déjà attestés dans cette leçon (voir la liste 'vocabulary' et 'sources'). Aucune syntaxe de phrase bedik n'étant attestée en accès libre pour ce thème, il ne s'agit pas d'une phrase grammaticale vérifiée mais d'une juxtaposition de mots réellement documentés, présentée comme telle."
+        },
+        {
+            "phrase_id": "cp_core_2",
+            "original": "Eyamb, Matyang",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(assemblage de deux mots attestés, prononcés séparément)",
+            "translation": "période/fête de juin-juillet (puberté des jeunes filles) ; période/fête de novembre-décembre",
+            "context": "Énumération construite en recombinant deux mots bedik déjà attestés dans cette leçon (voir la liste 'vocabulary' et 'sources'). Aucune syntaxe de phrase bedik n'étant attestée en accès libre pour ce thème, il ne s'agit pas d'une phrase grammaticale vérifiée mais d'une juxtaposition de mots réellement documentés, présentée comme telle."
+        },
+        {
+            "phrase_id": "cp_core_3",
+            "original": "Manindam / Gamond",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(assemblage de deux mots attestés, prononcés séparément)",
+            "translation": "période/cérémonie d'avril-mai (initiation des adolescents) ; période/fête de mai-juin (fécondité, pluie, santé)",
+            "context": "Association de deux mots bedik attestés (voir 'vocabulary'), présentée comme un exercice d'association lexicale et non comme une phrase grammaticale bedik vérifiée, faute de syntaxe attestée pour ce thème."
+        },
+        {
+            "phrase_id": "cp_core_4",
+            "original": "Manindam / Eyamb",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(assemblage de deux mots attestés, prononcés séparément)",
+            "translation": "période/cérémonie d'avril-mai (initiation des adolescents) ; période/fête de juin-juillet (puberté des jeunes filles)",
+            "context": "Association de deux mots bedik attestés (voir 'vocabulary'), présentée comme un exercice d'association lexicale et non comme une phrase grammaticale bedik vérifiée, faute de syntaxe attestée pour ce thème."
+        }
+    ],
+    "grammar_points": [
+        {
+            "concept": "Calendrier rituel saisonnier",
+            "explanation": "Le temps social bedik documenté par les sources ethnographiques s'organise autour de quatre grandes périodes cérémonielles annuelles (Manindam, Gamond, Eyamb, Matyang), rythmées par le cycle agricole (saison sèche/pluies, cycle du mil) plutôt que par une semaine de sept jours ou des mois nommés individuellement.",
+            "rules": [
+                "Manindam (avril-mai) : initiation des adolescents.",
+                "Gamond (mai-juin) : fécondité, puberté, pluie, santé.",
+                "Eyamb (juin-juillet) : puberté des jeunes filles non mariées.",
+                "Matyang (novembre-décembre)."
+            ],
+            "examples": []
+        }
+    ],
+    "dialogue": [
+        {
+            "speaker": "Locuteur B",
+            "text": "Manindam",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(prononciation du mot attesté isolé, voir 'vocabulary')",
+            "translation": "période/cérémonie d'avril-mai (initiation des adolescents)"
+        },
+        {
+            "speaker": "Locuteur A",
+            "text": "Gamond",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(prononciation du mot attesté isolé, voir 'vocabulary')",
+            "translation": "période/fête de mai-juin (fécondité, pluie, santé)"
+        },
+        {
+            "speaker": "Locuteur B",
+            "text": "Eyamb",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(prononciation du mot attesté isolé, voir 'vocabulary')",
+            "translation": "période/fête de juin-juillet (puberté des jeunes filles)"
+        },
+        {
+            "speaker": "Locuteur A",
+            "text": "Matyang",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(prononciation du mot attesté isolé, voir 'vocabulary')",
+            "translation": "période/fête de novembre-décembre"
+        }
+    ],
+    "cultural_notes": [
+        "Le texte suivi en ménik disponible sur Omniglot évoque explicitement le rythme agricole annuel : « Onenod ngë maheca e, asém ale gen ufat orom koyèdé. Han fayër utéb le mayekoye ocëc ufat od. Gon sëcë ko on akokumad bacëc ban ubar bitin-bitin. » — traduction : « Vers la fin de la saison sèche, le paysan songe à son champ. Avant les pluies, il va couper les feuilles des arbustes qui ont repoussé. Puis il amasse en tas les feuilles et les tiges de mil de la récolte précédente. ».",
+        "Ce texte confirme l'importance de la saison sèche et des pluies comme repères temporels majeurs, plutôt qu'un découpage en jours de semaine.",
+        "Les 'common_phrases' et 'dialogue' de cette leçon ont été complétés en recombinant uniquement des mots bedik déjà attestés présents dans 'vocabulary' (numéraux, toponymes, endonymes, etc.), faute de phrase ou de syntaxe complète attestée en accès libre pour ce thème précis. Il s'agit d'assemblages/énumérations de mots réels, pas de phrases grammaticales bedik vérifiées : aucun verbe, pronom ou connecteur n'a été inventé pour les relier."
+    ],
+    "exercises": [
+        {
+            "exercise_id": "ex1",
+            "type": "multiple_choice",
+            "question": "Quelle cérémonie bedik a lieu en avril-mai ?",
+            "options": [
+                "Manindam",
+                "Matyang",
+                "Eyamb"
+            ],
+            "correct_answer": "Manindam",
+            "explanation": "Manindam, dite « du père des Esprits », est la cérémonie d'initiation des adolescents célébrée d'avril à mai."
+        },
+        {
+            "exercise_id": "ex2",
+            "type": "fill_in_the_blanks",
+            "sentence_with_blank": "La fête de novembre-décembre chez les Bédik se nomme [ ___ ].",
+            "correct_answer": "Matyang",
+            "hint": "C'est la dernière des quatre grandes périodes cérémonielles citées par Wikipédia."
+        }
+    ],
+    "sources": [
+        {
+            "label": "Wikipédia FR — Bédik (peuple)",
+            "url": "https://fr.wikipedia.org/wiki/B%C3%A9dik_(peuple)"
+        },
+        {
+            "label": "Omniglot — Ménik",
+            "url": "https://www.omniglot.com/writing/menik.htm"
+        },
+        {
+            "label": "Kedougou Tourisme — Initiation Bassari et Bédik à Kédougou",
+            "url": "https://kedougoutourisme.com/en/initiation-bassari-et-bedik-a-kedougou-tout-ce-quil-faut-savoir-sur-les-ceremonies/"
+        }
+    ],
+    "confidence": "faible",
+    "confidence_note": "Aucun mot bedik pour 'lundi', 'mardi', un mois du calendrier grégorien, ou une unité horaire n'est attesté dans les sources consultées ; Sorosoro confirme l'existence de vidéos sur ce thème sans transcription disponible. Cette leçon documente à la place le calendrier rituel saisonnier réellement attesté (Manindam, Gamond, Eyamb, Matyang) plutôt que d'inventer des noms de jours/mois. [Mise à jour : les tableaux 'vocabulary'/'common_phrases'/'dialogue'/'sources' ont été complétés a posteriori pour respecter les bornes du schéma, en recombinant exclusivement des mots bedik déjà attestés (voir 'sources' et cultural_notes) ; aucun vocabulaire nouveau non sourcé n'a été introduit. La confiance reste \"faible\" car ces ajouts restent des juxtapositions de mots isolés attestés, non des phrases grammaticales bedik vérifiées.]"
 }

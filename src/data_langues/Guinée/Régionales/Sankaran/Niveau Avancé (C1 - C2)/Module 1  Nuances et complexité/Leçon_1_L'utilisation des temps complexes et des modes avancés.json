@@ -6,211 +6,270 @@
   "lesson_number": 1,
   "title": "L'utilisation des temps complexes et des modes avancés",
   "learning_objectives": [
-    "Maîtriser le plus-que-parfait et l'expression de l'antériorité dans le passé",
-    "Utiliser le mode conditionnel irréel du passé pour exprimer des regrets ou des fictions",
-    "Manipuler les particules d'insistance et de focalisation pour nuancer le discours narratif"
+    "Distinguer les deux futurs du maninka : futur-1 (dí) et futur-2 (dínà/bɛ́nà)",
+    "Utiliser le résultatif (-nin/-nɛn) pour exprimer un état résultant d'une action",
+    "Utiliser le rétrospectif (tùn) pour situer une action antérieure à un autre repère passé",
+    "Combiner aspect et négation dans des énoncés complexes"
   ],
   "phonetic_focus": {
-    "key_sounds": "Le niveau avancé introduit des combinaisons d'auxiliaires temporels. La structure du passé composé complexe utilise 'Tun' /tun/ avec une voyelle longue fermée et arrondie. La particule de focalisation 'Le' /le/ s'articule avec une tension moyenne sur la langue. La marque de rupture 'Nterin' /n.te.rin/ exige un couplage précis entre la consonne nasale initiale et l'occlusive.",
-    "common_pitfalls": "Ne confondez pas l'auxiliaire du passé antérieur 'Tun' /tun/ avec le pronom de troisième personne ou la marque 'don'. Le son doit rester parfaitement nasal et postérieur sans s'étirer en voyelle orale française."
+    "key_sounds": [
+      "Le ton bas de 'tùn' (rétrospectif), qui module tout l'énoncé qui suit",
+      "La nasale finale du suffixe résultatif '-nin/-nɛn', selon l'harmonie vocalique de la racine",
+      "L'opposition tonale entre 'dí' (futur-1, ton haut) et 'dì' dans d'autres contextes",
+      "Le système temps-aspect-mode attesté dans le parler du Sankaran/Faranah par Spears utilise des marques proches du maninka standard (di = futur, ka = passé/accompli transitif, ma = négation de l'accompli, te = négation de la copule, tere = marque du passé antérieur/révolu) ; les préfixes verbaux causatifs La~ (causatif à agent connu) et ma~ (causatif à agent humain), ainsi que ra~ (intensif), sont des traits morphologiques documentés spécifiquement pour ce parler."
+    ],
+    "common_pitfalls": [
+      "Confondre le futur-1 'dí' (plus proche, plus certain) et le futur-2 'dínà/bɛ́nà' (plus lointain ou hypothétique) : le choix dépend du degré de certitude et de distance temporelle du locuteur",
+      "Oublier que 'tùn' se place avant le verbe et non après, contrairement à certains suffixes aspectuels"
+    ]
   },
   "vocabulary": [
     {
-      "word_id": "v19_1",
-      "term": "Tun",
-      "phonetic_api": "/tun/",
-      "phonetic_simple": "TOUNE",
-      "translation": "Auxiliaire de l'antériorité (était / avait fait / marque du passé lointain)",
-      "example_sentence": "N tun ye a fɔ i yɛ fɔlɔ.",
-      "example_phonetic": "/ɲ tun je a fɔ i jɛ fɔ.lɔ/",
-      "example_translation": "Je te l'avais déjà dit auparavant."
+      "word_id": "v1",
+      "term": "dí (futur-1)",
+      "phonetic_api": "[dí]",
+      "phonetic_simple": "di",
+      "translation": "marque du futur proche/certain",
+      "example_sentence": "Sékou dí nà sínin.",
+      "example_phonetic": "[sekú dí nà sínin]",
+      "example_translation": "Sékou viendra demain (futur proche/certain)."
     },
     {
-      "word_id": "v19_2",
-      "term": "Tun be",
-      "phonetic_api": "/tun be/",
-      "phonetic_simple": "TOUNE BÉ",
-      "translation": "Imparfait de description (était en train de / se trouvait)",
-      "example_sentence": "A tun be baara la kunu su la.",
-      "example_phonetic": "/a tun be baː.ra la ku.nu su la/",
-      "example_translation": "Il était en train de travailler hier soir."
+      "word_id": "v2",
+      "term": "dínà (futur-2)",
+      "phonetic_api": "[dínà]",
+      "phonetic_simple": "di-na",
+      "translation": "marque du futur lointain/moins certain",
+      "example_sentence": "Sékou dínà nà lɔ́n dɔ́.",
+      "example_phonetic": "[sekú dínà nà lɔn dɔ]",
+      "example_translation": "Sékou viendra un jour (futur plus lointain/incertain)."
     },
     {
-      "word_id": "v19_3",
-      "term": "Nterin / Nterin fɛ",
-      "phonetic_api": "/n.te.rin fɛ/",
-      "phonetic_simple": "N-TÉ-RINE FƐ",
-      "translation": "Alors que / Au moment exact où / Tandis que",
-      "example_sentence": "Nterin n be wa la, san nana.",
-      "example_phonetic": "/n.te.rin ɲ be wa la san na.na/",
-      "example_translation": "Au moment exact où je partais, la pluie est tombée."
+      "word_id": "v3",
+      "term": "tùn (rétrospectif)",
+      "phonetic_api": "[tùn]",
+      "phonetic_simple": "toun",
+      "translation": "marque du passé antérieur à un autre repère (plus-que-parfait)",
+      "example_sentence": "A tùn bàda nà kà a to a bára tága.",
+      "example_phonetic": "[a tùn bàda nà kà a to a bára tága]",
+      "example_translation": "Il était déjà venu quand il est reparti."
     },
     {
-      "word_id": "v19_4",
-      "term": "Jaati",
-      "phonetic_api": "/d͡ʒaː.ti/",
-      "phonetic_simple": "DJAATI",
-      "translation": "Précisément / Véritablement / En personne",
-      "example_sentence": "N jaati le ye a kɛ.",
-      "example_phonetic": "/ɲ d͡ʒaː.ti le je a kɛ/",
-      "example_translation": "C'est moi-même en personne qui l'ai fait."
+      "word_id": "v4",
+      "term": "-nin/-nɛn (résultatif)",
+      "phonetic_api": "[-nin]/[-nɛn]",
+      "phonetic_simple": "-nin/-nèn",
+      "translation": "suffixe résultatif (état résultant d'une action)",
+      "example_sentence": "A síginin bɛ.",
+      "example_phonetic": "[a síginin bɛ]",
+      "example_translation": "Il est assis (résultat d'une action de s'asseoir)."
     },
     {
-      "word_id": "v19_5",
-      "term": "Gbansan",
-      "phonetic_api": "/ɡ͡ba.san/",
-      "phonetic_simple": "GBANE-SANE",
-      "translation": "En vain / Uniquement / Sans contrepartie",
-      "example_sentence": "N ma wa gbansan.",
-      "example_phonetic": "/m ma wa ɡ͡ba.san/",
-      "example_translation": "Je ne suis pas venu en vain."
+      "word_id": "v5",
+      "term": "báda / bára (parfait)",
+      "phonetic_api": "[báda]/[bára]",
+      "phonetic_simple": "ba-da/ba-ra",
+      "translation": "marque du parfait accompli",
+      "example_sentence": "A bára tága.",
+      "example_phonetic": "[a bára tága]",
+      "example_translation": "Il est déjà parti."
     },
     {
-      "word_id": "v19_6",
-      "term": "Sɔrɔn / Sɔrɔ",
-      "phonetic_api": "/sɔ.rɔn/",
-      "phonetic_simple": "SƆ-RƆNE",
-      "translation": "Pourtant / Cependant / Alors que la réalité est",
-      "example_sentence": "I be kasila, sɔrɔn i tilara.",
-      "example_phonetic": "/i be ka.si.la sɔ.rɔn i ti.la.ra/",
-      "example_translation": "Tu pleures, alors que pourtant tu as terminé."
+      "word_id": "v6",
+      "term": "kà (aoriste)",
+      "phonetic_api": "[kà]",
+      "phonetic_simple": "ka",
+      "translation": "marque du passé narratif (aoriste)",
+      "example_sentence": "A kà tága.",
+      "example_phonetic": "[a kà tága]",
+      "example_translation": "Il partit (dans un récit)."
     },
     {
-      "word_id": "v19_7",
-      "term": "K'a sɔrɔ",
-      "phonetic_api": "/k'a sɔ.rɔ/",
-      "phonetic_simple": "K'A SƆ-RƆ",
-      "translation": "Trouvant que / Vu que / Alors même que",
-      "example_sentence": "A wara k'a sɔrɔ n ma a lɔn.",
-      "example_phonetic": "/a wa.ra k'a sɔ.rɔ m ma a lɔn/",
-      "example_translation": "Il est parti alors même que je ne le savais pas."
+      "word_id": "v7",
+      "term": "báa (conditionnel)",
+      "phonetic_api": "[báa]",
+      "phonetic_simple": "ba-a",
+      "translation": "marque du conditionnel",
+      "example_sentence": "Ń báa a lɔ́n, ń tùn dí a fɔ́.",
+      "example_phonetic": "[ń báa a lɔn ń tùn dí a fɔ]",
+      "example_translation": "Si je le savais, je le dirais."
     },
     {
-      "word_id": "v19_8",
-      "term": "Hali bi",
-      "phonetic_api": "/ha.li bi/",
-      "phonetic_simple": "HA-LI BI",
-      "translation": "Jusqu'à présent / Encore aujourd'hui",
-      "example_sentence": "A ma na hali bi.",
-      "example_phonetic": "/a ma na ha.li bi/",
-      "example_translation": "Il n'est pas venu jusqu'à présent."
+      "word_id": "v8",
+      "term": "yé (subjonctif)",
+      "phonetic_api": "[yé]",
+      "phonetic_simple": "yé",
+      "translation": "marque du subjonctif (souhait, but)",
+      "example_sentence": "A yé nà.",
+      "example_phonetic": "[a yé nà]",
+      "example_translation": "Qu'il vienne."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p19_1",
-      "original": "Ni n tun ye wari sɔrɔ kunu, n tun be finin san na jaati.",
-      "phonetic_api": "/ni ɲ tun je wa.ri sɔ.rɔ ku.nu ɲ tun be fi.nin san na d͡ʒaː.ti/",
-      "phonetic_simple": "NI N TOUNE YÉ WA-RI SƆ-RƆ KOU-NOU, N TOUNE BÉ FI-NINE SANE NA DJAA-TI.",
-      "translation": "Si j'avais trouvé de l'argent hier, j'aurais très certainement acheté le vêtement.",
-      "context": "Expression d'un irréel du passé (regret ou condition non réalisée historiquement)."
+      "phrase_id": "p1",
+      "original": "Sékou dí nà sínin",
+      "phonetic_api": "[sekú dí nà sínin]",
+      "phonetic_simple": "sé-kou-di-na-si-nin",
+      "translation": "Sékou viendra demain",
+      "context": "Futur-1, action certaine et proche"
     },
     {
-      "phrase_id": "p19_2",
-      "original": "N tun ye baara tila fɔlɔ sani karamɔgɔ ka na so kɔnɔ.",
-      "phonetic_api": "/ɲ tun je baː.ra ti.la fɔ.lɔ sa.ni ka.ra.mɔ.ɣɔ ka na so kɔ.nɔ/",
-      "phonetic_simple": "N TOUNE YÉ BAA-RA TI-LA FƆ-LƆ SA-NI KA-RA-MƆ-GƆ KA NA SO KƆ-NƆ.",
-      "translation": "J'avais déjà fini le travail avant que le maître n'entre dans la pièce.",
-      "context": "Plus-que-parfait servant à structurer l'antériorité de deux actions passées."
+      "phrase_id": "p2",
+      "original": "Sékou dínà nà lɔ́n dɔ́",
+      "phonetic_api": "[sekú dínà nà lɔn dɔ]",
+      "phonetic_simple": "sé-kou-di-na-na-lon-do",
+      "translation": "Sékou viendra un jour",
+      "context": "Futur-2, action lointaine ou incertaine"
     },
     {
-      "phrase_id": "p19_3",
-      "original": "A tun be dɔnkili la k'a sɔrɔ nterin an bɔra silo daala.",
-      "phonetic_api": "/a tun be dɔn.ki.li la k'a sɔ.rɔ n.te.rin an bɔ.ra si.lo daː.la/",
-      "phonetic_simple": "A TOUNE BÉ DƆN-KI-LI LA K'A SƆ-RƆ N-TÉ-RINE ANE BƆ-RA SI-LO DAA-LA.",
-      "translation": "Elle était en train de chanter alors même qu'au même instant nous débouchions au bord de la route.",
-      "context": "Récit littéraire complexe mariant l'imparfait descriptif et la simultanéité soudaine."
+      "phrase_id": "p3",
+      "original": "A bára tága",
+      "phonetic_api": "[a bára tága]",
+      "phonetic_simple": "a-ba-ra-ta-ga",
+      "translation": "Il est déjà parti",
+      "context": "Parfait accompli, résultat visible dans le présent"
+    },
+    {
+      "phrase_id": "p4",
+      "original": "A síginin bɛ",
+      "phonetic_api": "[a síginin bɛ]",
+      "phonetic_simple": "a-si-gi-nin-bè",
+      "translation": "Il est assis",
+      "context": "Résultatif : état actuel résultant d'une action passée"
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Ń báa a lɔ́n, ń tùn dí a fɔ́",
+      "phonetic_api": "[ń báa a lɔn ń tùn dí a fɔ]",
+      "phonetic_simple": "n-ba-a-a-lon, n-toun-di-a-fo",
+      "translation": "Si je le savais, je le dirais",
+      "context": "Conditionnel hypothétique combinant báa et tùn dí"
     }
   ],
   "grammar_points": [
     {
-      "concept": "La formation du Plus-que-parfait et de l'Imparfait avec le morphème 'Tun'",
-      "explanation": "Pour projeter une action dans un passé révolu ou décrire une action qui était en cours avant une autre, le Sankaran utilise l'auxiliaire de recul temporel 'tun'. Pour l'imparfait, il s'associe à 'be' ('tun be ... la'). Pour le plus-que-parfait transitif, il précède l'accompli 'ye' ('tun ye ...').",
+      "concept": "Le système à deux futurs du maninka",
+      "explanation": "Le maninka de Guinée distingue un futur-1 ('dí', plus fréquent, exprimant une certitude ou une proximité plus grande) et un futur-2 ('dínà'/'bɛ́nà', exprimant un futur plus lointain, plus incertain ou plus formel), selon l'analyse de Vydrin sur le système TAM du maninka.",
       "rules": [
-        "Imparfait descriptif : Sujet + tun be + Activité + la / na",
-        "Plus-que-parfait transitif : Sujet + tun ye + Complément + Verbe"
+        "Futur-1 : [Sujet] + dí + [Verbe] — action proche/certaine",
+        "Futur-2 : [Sujet] + dínà + [Verbe] — action lointaine/moins certaine",
+        "Négation des deux futurs : [Sujet] + tɛ́(nà) + [Verbe]"
       ],
       "examples": [
         {
-          "structure": "N tun be malo feere la.",
-          "phonetic_api": "/ɲ tun be ma.lo feː.re la/",
-          "meaning": "J'étais en train de vendre du riz."
+          "structure": "[Sujet] dí [Verbe]",
+          "phonetic_api": "[dí]",
+          "meaning": "[Sujet] fera bientôt/certainement [verbe]"
         },
         {
-          "structure": "A tun ye so lɔ.",
-          "phonetic_api": "/a tun je so lɔ/",
-          "meaning": "Il avait construit une maison."
+          "structure": "[Sujet] dínà [Verbe]",
+          "phonetic_api": "[dínà]",
+          "meaning": "[Sujet] fera un jour/peut-être [verbe]"
         }
       ]
     },
     {
-      "concept": "La structure de l'irréel du passé (Conditionnel passé complexe)",
-      "explanation": "Pour exprimer une hypothèse qui ne s'est pas réalisée dans le passé (Si j'avais su, j'aurais fait), le morphème 'tun' s'insère obligatoirement à la fois dans la proposition subordonnée introduite par 'ni' et dans la proposition principale de conclusion.",
+      "concept": "Le résultatif et le rétrospectif",
+      "explanation": "Le suffixe résultatif '-nin/-nɛn' décrit un état présent résultant d'une action passée (proche du participe passé employé comme adjectif), tandis que 'tùn' (rétrospectif) situe une action comme antérieure à un autre moment du passé (plus-que-parfait).",
       "rules": [
-        "Structure : Ni + Sujet + tun + [Bloc verbal passé], Sujet + tun + [Bloc verbal conséquence]"
+        "Résultatif : [Sujet] + [Verbe]-nin/-nɛn + bɛ",
+        "Rétrospectif : [Sujet] + tùn + [marque aspectuelle] + [Verbe]"
       ],
       "examples": [
         {
-          "structure": "Ni i tun wa-ra, n tun be i sara na.",
-          "phonetic_api": "/ni i tun wa.ra ɲ tun be i sa.ra na/",
-          "meaning": "Si tu étais parti, je t'aurais payé."
+          "structure": "[Verbe]-nin bɛ",
+          "phonetic_api": "[-nin bɛ]",
+          "meaning": "est dans l'état de [verbe]"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Sekou",
-      "text": "Lamine, mun mu i ma na kunu tulon yɔrɔ la? An tun be i kɔnɔna la kosɛbɛ.",
-      "phonetic_api": "/la.min mun mu i ma na ku.nu tu.lon jɔ.rɔ la | an tun be i kɔ.nɔ.na la ko.sɛ.bɛ/",
-      "phonetic_simple": "LA-MINE, MOUN MOU I MA NA KOU-NOU TOU-LONE YƆ-RƆ LA ? ANE TOUNE BÉ I KƆ-NƆ-NA LA KO-SƐ-BƐ.",
-      "translation": "Lamine, pourquoi n'es-tu pas venu hier au terrain de jeu ? Nous étions en train de t'attendre avec impatience."
+      "speaker": "Fodé",
+      "text": "I fa dí nà mun waati la ?",
+      "phonetic_api": "[i fa dí nà mun waːti la]",
+      "phonetic_simple": "i-fa-di-na-moun-wa-a-ti-la",
+      "translation": "Ton père viendra à quelle heure ?"
     },
     {
-      "speaker": "Lamine",
-      "text": "Nba, Sekou. Ni n tun ye n baara tila sɔɔma la, n tun be na na jaati. Nka baara nin gbɛlɛyara kosɛbɛ.",
-      "phonetic_api": "/ɲ.ba se.ku | ni ɲ tun je ɲ baː.ra ti.la sɔː.ma la ɲ tun be na na d͡ʒaː.ti ŋ.ka baː.ra nin ɡ͡bɛ.lɛ.ja.ra ko.sɛ.bɛ/",
-      "phonetic_simple": "NBA, SÉ-KOU. NI N TOUNE YÉ N BAA-RA TI-LA SƆƆ-MA LA, N TOUNE BÉ NA NA DJAA-TI. NG-KA BAA-RA NINE GBƐ-LƐ-YA-RA KO-SƐ-BƐ.",
-      "translation": "Eh bien, Sekou. Si avait fini mon travail le matin, je serais venu très certainement. Mais cette tâche s'est révélée extrêmement difficile."
+      "speaker": "Aïcha",
+      "text": "A bára tága kɛ́nɛnkɛ, konin a dínà nà kunun tuma.",
+      "phonetic_api": "[a bára tága kɛnɛnkɛ konin a dínà nà kunun tuma]",
+      "phonetic_simple": "a-ba-ra-ta-ga-kè-nèn-kè, ko-nin-a-di-na-na-kou-noun-tou-ma",
+      "translation": "Il est déjà parti au champ, mais il reviendra vers le soir."
     },
     {
-      "speaker": "Sekou",
-      "text": "K'a sɔrɔ i tun be so kɔnɔ nterin Lamine kura nana i nyinika la?",
-      "phonetic_api": "/k'a sɔ.rɔ i tun be so kɔ.nɔ n.te.rin la.min ku.ra na.na i ɲi.ni.ka la/",
-      "phonetic_simple": "K'A SƆ-RƆ I TOUNE BÉ SO KƆ-NƆ N-TÉ-RINE LA-MINE KOU-RA NA-NA I NYI-NI-KA LA ?",
-      "translation": "Pourtant tu étais bien à la maison au moment exact où le nouveau Lamine est venu s'enquérir de toi ?"
+      "speaker": "Fodé",
+      "text": "A tùn síginin lɔ́ n bòlo tuma bɛɛ.",
+      "phonetic_api": "[a tùn síginin lɔ n bɔlo tuma bɛɛ]",
+      "phonetic_simple": "a-toun-si-gi-nin-lo-n-bo-lo-tou-ma-bè-è",
+      "translation": "Il était toujours assis à côté de moi autrefois."
     },
     {
-      "speaker": "Lamine",
-      "text": "Awo, n tun be baara la k'a sɔrɔ a ye n jɛn. N tun te sɛbɛ ka n baara to gbansan.",
-      "phonetic_api": "/a.wo ɲ tun be baː.ra la k'a sɔ.rɔ a je ɲ d͡ʒɛn | ɲ tun te sɛ.bɛ ka ɲ baː.ra to ɡ͡ba.san/",
-      "phonetic_simple": "A-WO, N TOUNE BÉ BAA-RA LA K'A SƆ-RƆ A YÉ N DJƐNE. N TOUNE TÉ SƐ-BƐ KA N BAA-RA TO GBANE-SANE.",
-      "translation": "Oui, j'étais en plein travail alors même qu'il m'a croisé. Je ne pouvais pas abandonner mon ouvrage en vain."
+      "speaker": "Aïcha",
+      "text": "Awa, a bɛ se ka nà tuma jumɛn, dínà walima dí ?",
+      "phonetic_api": "[awa a bɛ se ka nà tuma dʒumɛn dínà walima dí]",
+      "phonetic_simple": "a-wa, a-bè-sé-ka-na-tou-ma-dju-mèn, di-na-wa-li-ma-di",
+      "translation": "D'accord, il peut venir à un moment quelconque, futur lointain ou futur proche ?"
     }
   ],
   "cultural_notes": [
-    "Au niveau de la rhétorique avancée dans le Sankaran, l'utilisation raffinée de 'sɔrɔn' ou 'k'a sɔrɔ' (alors que / pourtant) permet de confronter des arguments lors de palabres sans accuser directement l'interlocuteur de mensonge, préservant ainsi la diplomatie verbale.",
-    "L'expression de l'irréel du passé ('ni n tun ye...') sert régulièrement à atténuer la responsabilité sociale face à un rendez-vous manqué. Invoquer un travail plus lourd que prévu ('baara gbɛlɛyara') légitime l'absence aux yeux de la communauté."
+    "La distinction fine entre futur-1 et futur-2 est un des apports majeurs des travaux académiques de Vydrin sur le maninka de Guinée et reste peu documentée dans les manuels grand public, ce qui en fait un point avancé nécessitant une référence académique ([Vydrin, Mandenkan 70](https://journals.openedition.org/mandenkan/pdf/3253)).",
+    "Note dialectale (Sankaran) : cette leçon présente le maninka du Sankaran, parlé traditionnellement dans la région historique du Sankaran, aujourd'hui la préfecture et région de Faranah (Haute-Guinée), berceau historique du clan Condé et zone antérieure au Mandén selon la tradition orale. Le sankaran (ISO 639-3 msc) est très proche du malinké/maninka standard de Kankan, avec lequel il est mutuellement intelligible ; les mots et structures de cette leçon reflètent ce fonds commun du maninka de l'Est, complété par les spécificités phonologiques et grammaticales du parler de Faranah documentées par Spears (voir sources)."
   ],
   "exercises": [
     {
-      "exercise_id": "ex19_1",
-      "type": "multiple_choice",
-      "question": "Quelle phrase traduit exactement le regret : 'Si j'avais su, je serais venu.' ?",
+      "exercise_id": "e1",
+      "type": "choix_multiple",
+      "question": "Quelle marque exprime un futur plus lointain et moins certain ?",
       "options": [
-        "Ni n ye a lɔn, n be na na.",
-        "Ni n tun ye a lɔn, n tun be na na.",
-        "N tun ye a lɔn sani n ka na."
+        "dí",
+        "dínà",
+        "tùn",
+        "báda"
       ],
-      "correct_answer": "Ni n tun ye a lɔn, n tun be na na.",
-      "explanation": "La structure exige le double emploi de l'auxiliaire d'antériorité 'tun' dans la condition et la conséquence pour ancrer l'irréel dans le passé."
+      "correct_answer": "dínà",
+      "explanation": "'dínà' (futur-2) marque un futur plus éloigné ou incertain, contrairement à 'dí' (futur-1, proche/certain)."
     },
     {
-      "exercise_id": "ex19_2",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Pour marquer la simultanéité soudaine de deux faits passés, on débute par : [ ___ ] n be wa la, a nana. (Au moment exact où...)",
-      "correct_answer": "Nterin",
-      "hint": "Conjonction temporelle avancée commençant par un N majuscule et contenant le radical de la rupture."
+      "exercise_id": "e2",
+      "type": "traduction",
+      "question": "Traduisez : 'Il est déjà parti.'",
+      "correct_answer": "A bára tága.",
+      "explanation": "Le parfait accompli s'exprime avec 'bára/báda' devant le verbe."
+    },
+    {
+      "exercise_id": "e3",
+      "type": "texte_a_trous",
+      "sentence_with_blank": "A ___ síginin lɔ n bòlo tuma bɛɛ.  (Il était toujours assis à côté de moi autrefois.)",
+      "correct_answer": "tùn",
+      "hint": "C'est la marque du rétrospectif, qui situe une action dans un passé antérieur à un autre repère."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Ethnologue — Maninka, Sankaran [msc]",
+      "url": "https://www.ethnologue.com/language/msc/"
+    },
+    {
+      "label": "Glottolog 5.3 — Sankaran Maninka [sank1253]",
+      "url": "https://glottolog.org/resource/languoid/id/sank1253"
+    },
+    {
+      "label": "Wikipédia — Sankaran (langue, msc)",
+      "url": "https://fr.wikipedia.org/wiki/Sankaran"
+    },
+    {
+      "label": "Spears, R. A. — The Structure of Faranah-Maninka (Indiana University, description structurale du parler de Faranah, historiquement le Sankaran)",
+      "url": "https://theswissbay.ch/pdf/Books/Linguistics/Mega%20linguistics%20pack/African/Niger-Congo/Mande/Maninka,%20The%20Structure%20of%20Faranah-%20(Spears).pdf"
+    },
+    {
+      "label": "Vydrin (2023) — Le TAM en maninka de Guinée : la zone du futur, Mandenkan 70",
+      "url": "https://journals.openedition.org/mandenkan/pdf/3253"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Vocabulaire et grammaire de base communs au maninka/malinké standard de Guinée (fonds partagé du continuum maninka de l'Est, confirmé pour le Sankaran par Ethnologue, Glottolog et Vydrin). Les points signalés comme « spécifiques au Sankaran » dans cette leçon proviennent de la description structurale du Faranah-Maninka par Spears (Indiana University), seule étude dédiée disponible pour ce parler ; elle date des années 1960-70 et repose sur un informateur unique, d'où une confiance modérée plutôt qu'élevée."
 }

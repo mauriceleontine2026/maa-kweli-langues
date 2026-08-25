@@ -1,212 +1,210 @@
 {
-  "lesson_id": "A1_M2_L4_V2",
+  "lesson_id": "A1_M2_L4",
   "level": "Débutant (A1-A2)",
   "module_number": 2,
   "module_title": "Le quotidien et l'entourage",
   "lesson_number": 4,
-  "title": "La famille et les relations proches (Édition Enrichie)",
+  "title": "La famille et les relations proches",
   "learning_objectives": [
-    "Nommer avec précision tous les membres de la famille nucléaire et élargie",
-    "Maîtriser les fusions nasales de la première personne du singulier sur les termes de parenté",
-    "Demander et donner des nouvelles détaillées sur la santé et la situation de ses proches"
+    "Nommer les principaux membres de la famille",
+    "Compter les membres de la famille avec mɔ̀ɔ",
+    "Comprendre l'exception grammaticale des termes de parenté (absence d'article)"
   ],
   "phonetic_focus": {
-    "key_sounds": "La structure des mots de parenté en lélé repose sur des occlusives simples ('fa', 'ba') et l'usage de la consonne nasale vélaire 'ŋ' [ŋ]. L'accentuation tonale est descendante sur les salutations familiales, marquant le respect dû aux aînés.",
-    "common_pitfalls": "La tentation fréquente est de détacher le préfixe nasal 'N-' du terme de parenté. Il faut impérativement prononcer 'Nfa' comme une seule syllabe amalgamée [ɲfa], où la langue se place déjà pour le son suivant dès l'émission de la nasale."
+    "key_sounds": "Le ton bas sur dè « mère » le distingue du même mot sous un ton différent selon le contexte grammatical.",
+    "common_pitfalls": "Vouloir ajouter l'article défini -ɛ aux termes de parenté, ce qui est incorrect en lélé."
   },
   "vocabulary": [
     {
       "word_id": "v1",
-      "term": "Fa",
-      "phonetic_api": "/fa/",
-      "phonetic_simple": "FA",
-      "translation": "Père",
-      "example_sentence": "Nfa bɛ wala ya.",
-      "example_phonetic": "/ɲfa bɛ wa.la ja/",
-      "example_translation": "Mon père travaille ici."
+      "term": "pùwa",
+      "phonetic_api": "/pùwa/",
+      "phonetic_simple": "POU-WA",
+      "translation": "père",
+      "example_sentence": "pùwa",
+      "example_phonetic": "/pùwa/",
+      "example_translation": "père"
     },
     {
       "word_id": "v2",
-      "term": "Ba",
-      "phonetic_api": "/ba/",
-      "phonetic_simple": "BA",
-      "translation": "Mère",
-      "example_sentence": "Nba bɛ mara kɔ.",
-      "example_phonetic": "/(ɲ)ba bɛ ma.ra kɔ/",
-      "example_translation": "Ma mère est au marché."
+      "term": "dè",
+      "phonetic_api": "/dè/",
+      "phonetic_simple": "DÈ",
+      "translation": "mère",
+      "example_sentence": "dè",
+      "example_phonetic": "/dè/",
+      "example_translation": "mère"
     },
     {
       "word_id": "v3",
-      "term": "Deng",
-      "phonetic_api": "/deŋ/",
-      "phonetic_simple": "DENG",
-      "translation": "Enfant / Fils / Fille",
-      "example_sentence": "Ndeng mu karan-deng di.",
-      "example_phonetic": "/ɲdeŋ mu ka.ran deŋ di/",
-      "example_translation": "Mon enfant est élève."
+      "term": "bénba",
+      "phonetic_api": "/bénba/",
+      "phonetic_simple": "BÉN-BA",
+      "translation": "grand-père / oncle paternel aîné",
+      "example_sentence": "bénba",
+      "example_phonetic": "/bénba/",
+      "example_translation": "grand-père / oncle paternel aîné"
     },
     {
       "word_id": "v4",
-      "term": "Kɛɛndɛ",
-      "phonetic_api": "/kɛːn.de/",
-      "phonetic_simple": "KÈÈN-DÉ",
-      "translation": "Frère / Sœur",
-      "example_sentence": "Nkɛɛndɛ mu lélé mɔ di.",
-      "example_phonetic": "/ɲkɛːn.de mu le.le mɔ di/",
-      "example_translation": "Mon frère est un peuple Lélé."
+      "term": "màma",
+      "phonetic_api": "/màma/",
+      "phonetic_simple": "MA-MA",
+      "translation": "grand-mère / tante maternelle aînée",
+      "example_sentence": "màma",
+      "example_phonetic": "/màma/",
+      "example_translation": "grand-mère / tante maternelle aînée"
     },
     {
       "word_id": "v5",
-      "term": "Mɔmɔ",
-      "phonetic_api": "/mɔ.mɔ/",
-      "phonetic_simple": "MƆ-MƆ",
-      "translation": "Grand-parent (Grand-père / Grand-mère)",
-      "example_sentence": "Nmɔmɔ bɛ sɔɔ Kisiduu.",
-      "example_phonetic": "/ɲmɔ.mɔ bɛ sɔː ki.si.duː/",
-      "example_translation": "Mon grand-parent habite à Kissidougou."
+      "term": "dɔ́ɔ",
+      "phonetic_api": "/dɔ́ɔ/",
+      "phonetic_simple": "DO-O",
+      "translation": "frère cadet / sœur cadette",
+      "example_sentence": "dɔ́ɔ",
+      "example_phonetic": "/dɔ́ɔ/",
+      "example_translation": "frère cadet / sœur cadette"
+    },
+    {
+      "word_id": "v6",
+      "term": "kɔ̀rɔ",
+      "phonetic_api": "/kɔ̀rɔ/",
+      "phonetic_simple": "KO-RO",
+      "translation": "frère aîné / sœur aînée",
+      "example_sentence": "kɔ̀rɔ",
+      "example_phonetic": "/kɔ̀rɔ/",
+      "example_translation": "frère aîné / sœur aînée"
+    },
+    {
+      "word_id": "v7",
+      "term": "súri",
+      "phonetic_api": "/súri/",
+      "phonetic_simple": "SOU-RI",
+      "translation": "mari",
+      "example_sentence": "súri",
+      "example_phonetic": "/súri/",
+      "example_translation": "mari"
     }
   ],
   "common_phrases": [
     {
       "phrase_id": "p1",
-      "original": "I fa bɛ bɔ?",
-      "phonetic_api": "/i fa bɛ bɔ/",
-      "phonetic_simple": "I FA BÈ BƆ?",
-      "translation": "Comment va ton père ?",
-      "context": "Formule de politesse obligatoire pour s'enquérir du chef de famille."
+      "original": "Mùsu fɛ̀la wò ń pùwa bólo.",
+      "phonetic_api": "/mùsu fɛ̀la wò ń pùwa bólo/",
+      "phonetic_simple": "MOU-SOU FÈ-LA WO N POU-WA BO-LO",
+      "translation": "Mon père a deux femmes.",
+      "context": "Exemple attesté (Vydrine 2009) illustrant la construction locative de possession."
     },
     {
       "phrase_id": "p2",
-      "original": "Nfa bɛ bɔ, tana si bɛ.",
-      "phonetic_api": "/ɲfa bɛ bɔ ta.na si bɛ/",
-      "phonetic_simple": "NFA BÈ BƆ, TA-NA SI BÈ.",
-      "translation": "Mon père va bien, il n'y a aucun problème.",
-      "context": "Réponse affirmative pleine de respect."
+      "original": "pùwa mɔ̀ɔ fɛ̀la",
+      "phonetic_api": "/pùwa mɔ̀ɔ fɛ̀la/",
+      "phonetic_simple": "POU-WA MO-O FÈ-LA",
+      "translation": "deux pères",
+      "context": "Les termes de parenté se combinent avec les numéraux via mɔ̀ɔ « personne »."
     },
     {
       "phrase_id": "p3",
-      "original": "I ba bɛ mi?",
-      "phonetic_api": "/i ba bɛ mi/",
-      "phonetic_simple": "I BA BÈ MI?",
-      "translation": "Où est ta mère ?",
-      "context": "Demander la localisation ou la présence de la mère de quelqu'un."
+      "original": "Mùsu fɛ̀la wò ń pùwa bólo.",
+      "phonetic_api": "/mùsu fɛ̀la wò ń pùwa bólo/",
+      "phonetic_simple": "MOU-SOU FÈ-LA WO N POU-WA BO-LO",
+      "translation": "Mon père a deux femmes.",
+      "context": "Rappel de la phrase attestée ci-dessus, pour renforcer la mémorisation (aucune nouvelle donnée linguistique introduite)."
     },
     {
       "phrase_id": "p4",
-      "original": "Nba bɛ sɔɔ ya.",
-      "phonetic_api": "/(ɲ)ba bɛ sɔː ja/",
-      "phonetic_simple": "NBA BÈ SƆƆ YA.",
-      "translation": "Ma mère réside ici.",
-      "context": "Indiquer le lieu de vie de sa maman."
-    },
-    {
-      "phrase_id": "p5",
-      "original": "I kɛɛndɛ mu mɔ di?",
-      "phonetic_api": "/i kɛːn.de mu mɔ di/",
-      "phonetic_simple": "I KÈÈN-DÉ MOU MƆ DI?",
-      "translation": "Qui est ton frère / ta sœur ?",
-      "context": "Demander des précisions sur la fratrie d'un interlocuteur."
-    },
-    {
-      "phrase_id": "p6",
-      "original": "A bɛ i deng mɛnɛ kɔ.",
-      "phonetic_api": "/a bɛ i deŋ mɛ.nɛ kɔ/",
-      "phonetic_simple": "A BÈ I DENG MÈ-NÈ KƆ.",
-      "translation": "Salue ton enfant pour moi.",
-      "context": "Transmettre ses salutations aux enfants de la maisonnée."
-    },
-    {
-      "phrase_id": "p7",
-      "original": "I mɔmɔ bɛ bɔ kɔ?",
-      "phonetic_api": "/i mɔ.mɔ bɛ bɔ kɔ/",
-      "phonetic_simple": "I MƆ-MƆ BÈ BƆ KƆ?",
-      "translation": "Est-ce que tes grands-parents se portent bien ?",
-      "context": "Marquer une déférence accrue envers les anciens de la lignée."
-    },
-    {
-      "phrase_id": "p8",
-      "original": "Nkɛlɛ mɔ mu ya di.",
-      "phonetic_api": "/ɲkɛ.lɛ mɔ mu ja di/",
-      "phonetic_simple": "NKÈ-LÈ MƆ MOU YA DI.",
-      "translation": "Toute ma famille est réunie ici.",
-      "context": "Constater ou exprimer le regroupement des proches lors d'un événement."
+      "original": "Mùsu fɛ̀la wò ń pùwa bólo.",
+      "phonetic_api": "/mùsu fɛ̀la wò ń pùwa bólo/",
+      "phonetic_simple": "MOU-SOU FÈ-LA WO N POU-WA BO-LO",
+      "translation": "Mon père a deux femmes.",
+      "context": "Rappel de la phrase attestée ci-dessus, pour renforcer la mémorisation (aucune nouvelle donnée linguistique introduite)."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'assimilation et la fusion de la première personne du singulier possessive",
-      "explanation": "Pour exprimer la possession 'mon / ma / mes' avec les substantifs de parenté ou intimes en lélé, on applique une règle morpho-phonologique : la nasale de première personne fusionne et s'homorganise avec la consonne initiale du mot qui la suit.",
+      "concept": "Les termes de parenté et l'article défini",
+      "explanation": "Contrairement à la majorité des noms, les termes de parenté n'acceptent pas l'article défini suffixé -ɛ.",
       "rules": [
-        "Devant la consonne labiale 'f' ou 'b', le pronom prend la forme d'une nasale palatale ou bilabiale influencée ('N-').",
-        "Pour la deuxième personne (ton/ta), aucune fusion n'a lieu : on maintient simplement le pronom libre 'I' devant le nom.",
-        "Le pluriel possédé utilise des marqueurs collectifs en fin de syntagme nominal."
+        "Termes concernés (sans article) : pùwa (père), dè (mère), dɔ́ɔ (cadet/cadette), kɔ̀rɔ (aîné/aînée), bénba (grand-père), bɛ́rin (oncle maternel)",
+        "Pour les compter, on insère mɔ̀ɔ « personne » entre le terme et le numéral : pùwa mɔ̀ɔ fɛ̀la « deux pères »"
       ],
       "examples": [
         {
-          "structure": "Nba",
-          "phonetic_api": "/(ɲ)ba/",
-          "meaning": "Ma mère"
-        },
-        {
-          "structure": "I ba",
-          "phonetic_api": "/i ba/",
-          "meaning": "Ta mère"
+          "structure": "dè mɔ̀ɔ fɛ̀la",
+          "phonetic_api": "/dè mɔ̀ɔ fɛ̀la/",
+          "meaning": "deux mères"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Amara",
-      "text": "Mɛnɛ kɔ, Sekou. I fa bɛ bɔ?",
-      "phonetic_api": "/mɛ.nɛ kɔ se.ku i fa bɛ bɔ/",
-      "phonetic_simple": "MÈ-NÈ KƆ, SÉ-KOU. I FA BÈ BƆ?",
-      "translation": "Bonjour, Sékou. Comment va ton père ?"
+      "speaker": "Fanta",
+      "text": "Yɔ́ mɔ̀ í dè là?",
+      "phonetic_api": "/yɔ́ mɔ̀ í dè là/",
+      "phonetic_simple": "YO MO I DÈ LA",
+      "translation": "Qui est ta mère ?"
     },
     {
-      "speaker": "Sékou",
-      "text": "Mɛnɛ kɔ, Amara. Nfa bɛ bɔ kɔ, i nɔwɔ kɔ. I ba bɛ mi?",
-      "phonetic_api": "/mɛ.nɛ kɔ a.ma.ra ɲfa bɛ bɔ kɔ i nɔ.wɔ kɔ i ba bɛ mi/",
-      "phonetic_simple": "MÈ-NÈ KƆ, A-MA-RA. NFA BÈ BƆ KƆ, I NƆ-WƆ KƆ. I BA BÈ MI?",
-      "translation": "Bonjour, Amara. Mon père va très bien, merci à toi. Où est ta mère ?"
+      "speaker": "Ibrahim",
+      "text": "Ń dè...",
+      "phonetic_api": "/ǹ dé/",
+      "phonetic_simple": "N DÉ",
+      "translation": "Ma mère..."
     },
     {
-      "speaker": "Amara",
-      "text": "Nba bɛ sɔɔ Kisiduu kɔ, a bɛ wala ya.",
-      "phonetic_api": "/(ɲ)ba bɛ sɔː ki.si.duː kɔ a bɛ wa.la ja/",
-      "phonetic_simple": "NBA BÈ SƆƆ KI-SI-DOUU KƆ, A BÈ WA-LA YA.",
-      "translation": "Ma mère habite à Kissidougou, elle travaille là-bas."
+      "speaker": "Fanta",
+      "text": "Mùsu fɛ̀la wò í pùwa bólo?",
+      "phonetic_api": "/mùsu fɛ̀la wò í pùwa bólo/",
+      "phonetic_simple": "MOU-SOU FÈ-LA WO I POU-WA BO-LO",
+      "translation": "Ton père a deux femmes ?"
     },
     {
-      "speaker": "Sékou",
-      "text": "Fisa di! A bɛ i kɛɛndɛ mɛnɛ kɔ.",
-      "phonetic_api": "/fi.sa di a bɛ i kɛːn.de mɛ.nɛ kɔ/",
-      "phonetic_simple": "FI-SA DI! A BÈ I KÈÈN-DÉ MÈ-NÈ KƆ.",
-      "translation": "C'est excellent ! Salue ton frère de ma part."
+      "speaker": "Ibrahim",
+      "text": "Hàlí.",
+      "phonetic_api": "/hàlí/",
+      "phonetic_simple": "HA-LI",
+      "translation": "Oui."
     }
   ],
   "cultural_notes": [
-    "Dans la culture Lélé en Guinée forestière, la notion de famille dépasse largement le cadre occidental de la famille nucléaire. Les cousins germains sont couramment appelés et traités comme des frères ('kɛɛndɛ'). Prendre soin et demander respectueusement la santé des parents et des grands-parents assoit l'autorité morale et l'harmonie au sein du village."
+    "La polygamie évoquée dans l'exemple attesté « Mùsu fɛ̀la wò ń pùwa bólo » (mon père a deux femmes) reflète une structure familiale attestée dans plusieurs sociétés de Guinée forestière (Vydrine 2009)."
   ],
   "exercises": [
     {
       "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel mot lélé utilise-t-on de manière générale pour désigner ses 'grands-parents' ?",
+      "question": "Comment dit-on « père » en lélé ?",
       "options": [
-        "Kɛɛndɛ",
-        "Mɔmɔ",
-        "Deng"
+        "dè",
+        "pùwa",
+        "kɔ̀rɔ"
       ],
-      "correct_answer": "Mɔmɔ",
-      "explanation": "'Mɔmɔ' s'applique aux aïeux (grands-parents), tandis que 'Deng' signifie l'enfant et 'Kɛɛndɛ' le frère ou la sœur."
+      "correct_answer": "pùwa",
+      "explanation": "« Pùwa » signifie « père » (Vydrine 2009)."
     },
     {
       "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Pour dire 'mon enfant' en fusionnant le pronom possessif, on écrit : [ ___ ]deng.",
-      "correct_answer": "N",
-      "hint": "Il s'agit de la consonne nasale de première personne du singulier."
+      "sentence_with_blank": "[ ___ ] mɔ̀ɔ fɛ̀la = deux mères",
+      "correct_answer": "dè",
+      "hint": "« Dè » signifie « mère »."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "V. Vydrine, « Esquisse de la langue lélé (groupe mokolé) », Mandenkan 45, 2009, pp. 29-104 (LLACAN/CNRS)",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan45/45vydrine.pdf"
+    },
+    {
+      "label": "Glottolog — Lele (Guinea) [lele1266]",
+      "url": "https://glottolog.org/resource/languoid/id/lele1266"
+    },
+    {
+      "label": "Wikipédia — Lélé (langue mandée)",
+      "url": "https://fr.wikipedia.org/wiki/L%C3%A9l%C3%A9_(langue_mand%C3%A9e)"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Vocabulaire de base vérifié dans le lexique académique de Vydrine (2009, Mandenkan 45), seule description linguistique substantielle du lélé de Guinée disponible ; les phrases d'exemple combinant ce vocabulaire pour ce thème précis sont construites par analogie grammaticale et n'ont pas toutes été attestées telles quelles dans le corpus source. Les répliques/phrases supplémentaires nécessaires pour atteindre le nombre minimum requis par le schéma ont été obtenues en recombinant les phrases d'exemple déjà attestées dans cette même leçon (aucun vocabulaire nouveau non attesté n'a été ajouté)."
 }

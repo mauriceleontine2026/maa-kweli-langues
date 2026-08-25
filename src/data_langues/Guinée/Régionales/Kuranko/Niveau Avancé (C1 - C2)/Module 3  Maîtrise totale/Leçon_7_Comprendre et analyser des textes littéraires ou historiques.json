@@ -1,164 +1,203 @@
 {
-  "lesson_id": "C1_M3_L7_CORRIGEE",
+  "lesson_id": "C1_M3_L7",
   "level": "Avancé (C1-C2)",
   "module_number": 3,
   "module_title": "Maîtrise totale",
   "lesson_number": 7,
   "title": "Comprendre et analyser des textes littéraires ou historiques",
   "learning_objectives": [
-    "Analyser la structure narrative et stylistique d'un texte historique ou d'un récit ancestral en kuranko",
-    "Identifier les figures de style, les métaphores littéraires et les expressions à double sens",
-    "Extraire les concepts philosophiques et moraux profonds ancrés dans les récits écrits ou oraux"
+    "Analyser un extrait ethnographique authentique en kuranko cité par Michael Jackson",
+    "Situer historiquement le peuple kuranko et ses patronymes fondateurs (Marah)",
+    "Interpréter le rôle de la divination (kuranko : biriye) dans la tradition orale historique"
   ],
   "phonetic_focus": {
-    "key_sounds": "La consonne nasale initiale dans le verbe de décodage 'gbanan-lɔn' s'articule en un seul bloc vélaire-bilabial /g͡ba.nan.lɔn/. La voyelle longue 'ɛɛ' dans 'kɛnɛya' doit conserver une ouverture constante.",
-    "common_pitfalls": "Attention à ne pas scinder le groupe consonantique complexe du terme 'sɛbɛta'. Le 'b' s'articule sans aspiration ni tension excessive."
+    "key_sounds": "Les textes historiques et généalogiques cités par Jackson comportent de nombreux noms propres (Marah, Koroma) dont la prononciation doit respecter l'accentuation régulière propre aux patronymes mandé.",
+    "common_pitfalls": "Les francophones ont tendance à appliquer l'accentuation française (sur la dernière syllabe) aux noms propres kuranko, alors que l'accent y est généralement plus régulier ou porté par le ton plutôt que par l'intensité."
   },
   "vocabulary": [
     {
-      "word_id": "v1_c1_m3_l7_corr",
-      "term": "Sɛbɛta",
-      "phonetic_api": "/sɛ.bɛ.ta/",
-      "phonetic_simple": "SƐ-BƐ-TA",
-      "translation": "Écrit littéraire / Document historique / Manuscrit",
-      "example_sentence": "An ka tariki sɛbɛta kɔlɔsi",
-      "example_phonetic": "/an ka ta.ri.ki sɛ.bɛ.ta kɔ.lɔ.si/",
-      "example_translation": "Examinons le manuscrit historique"
+      "word_id": "v1",
+      "term": "Marah",
+      "phonetic_api": "/mara/",
+      "phonetic_simple": "ma-RA",
+      "translation": "patronyme fondateur, selon la tradition orale « tous les Kuranko viennent de Marah »",
+      "example_sentence": "Bimbanu ye a fɔ ko Kuranko bɛɛ bara bɔ Marah la.",
+      "example_phonetic": "/bimbanu je a fɔ ko kuranko bɛː bara bɔ mara la/",
+      "example_translation": "Les ancêtres disent que tous les Kuranko viennent de Marah."
     },
     {
-      "word_id": "v2_c1_m3_l7_corr",
-      "term": "Kɔlɔsi",
-      "phonetic_api": "/kɔ.lɔ.si/",
-      "phonetic_simple": "KƆ-LƆ-SI",
-      "translation": "Analyser / Observer attentivement / Scuter",
-      "example_sentence": "N bɛ kuma nɛ kɔlɔsi ra",
-      "example_phonetic": "/ɱ͡bɛ ku.ma nɛ kɔ.lɔ.si ra/",
-      "example_translation": "Je suis en train d'analyser cette parole"
+      "word_id": "v2",
+      "term": "bimbanu",
+      "phonetic_api": "/bimbanu/",
+      "phonetic_simple": "bim-BA-nou",
+      "translation": "les ancêtres, gardiens et sources de l'histoire orale",
+      "example_sentence": "Bimbanu bara na keli fo.",
+      "example_phonetic": "/bimbanu bara na kɛli fo/",
+      "example_translation": "Les ancêtres ont raconté l'histoire des origines."
     },
     {
-      "word_id": "v3_c1_m3_l7_corr",
-      "term": "Kulu",
-      "phonetic_api": "/ku.lu/",
-      "phonetic_simple": "KOU-LOU",
-      "translation": "Noyau / Racine / Sens profond / Substance",
-      "example_sentence": "Kuma nɛ kulu ka bon",
-      "example_phonetic": "/ku.ma nɛ ku.lu ka bon/",
-      "example_translation": "Le sens profond de cette parole est immense"
+      "word_id": "v3",
+      "term": "jeliba",
+      "phonetic_api": "/dʲɛliba/",
+      "phonetic_simple": "djè-li-BA",
+      "translation": "griot, dépositaire professionnel de l'histoire généalogique orale",
+      "example_sentence": "Jeliba ye tariku fo.",
+      "example_phonetic": "/dʲɛliba je tariku fo/",
+      "example_translation": "Le griot a raconté l'histoire (empr. arabe tariku/tarikh)."
     },
     {
-      "word_id": "v4_c1_m3_l7_corr",
-      "term": "Gbanan-lɔn",
-      "phonetic_api": "/g͡ba.nan.lɔn/",
-      "phonetic_simple": "GBANAN-LƆN",
-      "translation": "Comprendre totalement / Élucider / Décoder",
-      "example_sentence": "N ye tariki nɛ gbanan-lɔn",
-      "example_phonetic": "/ɲ͡je ta.ri.ki nɛ g͡ba.nan.lɔn/",
-      "example_translation": "J'ai totalement élucidé cette histoire"
+      "word_id": "v4",
+      "term": "konto",
+      "phonetic_api": "/konto/",
+      "phonetic_simple": "KON-to",
+      "translation": "le sens caché, l'histoire intérieure d'un texte ou d'une situation",
+      "example_sentence": "N'de ma konto lon i la tariku ro.",
+      "example_phonetic": "/n de ma konto lɔn i la tariku ro/",
+      "example_translation": "Je ne connais pas les dessous de cette histoire."
+    },
+    {
+      "word_id": "v5",
+      "term": "morgo",
+      "phonetic_api": "/morgo/",
+      "phonetic_simple": "MOR-go",
+      "translation": "personne, individu (à distinguer de « bimbanu », les ancêtres collectifs)",
+      "example_sentence": "Morgo te do ka ban i la tariku ro.",
+      "example_phonetic": "/morgo tɛ do ka ban i la tariku ro/",
+      "example_translation": "On ne peut jamais épuiser la compréhension d'une personne dans son histoire."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p1_c1_m3_l7_corr",
-      "original": "Sɛbɛta nɛ kulu bɛ mɔgɔbanu ya baraka lafasa ra",
-      "phonetic_api": "/sɛ.bɛ.ta nɛ ku.lu bɛ mɔ.gɔ.ba.nu ja ba.ra.ka la.fa.sa ra/",
-      "phonetic_simple": "SƐ-BƐ-TA NƐ KOU-LOU BƐ MƆ-GƆ-BA-NOU YA BA-RA-KA LA-FA-SA RA",
-      "translation": "La substance de cet écrit littéraire défend précisément la grâce de nos ancêtres",
-      "context": "Formuler une conclusion critique lors de l'analyse d'un texte ancien."
+      "phrase_id": "p1",
+      "original": "Bimbanu ye a fɔ ko Kuranko bɛɛ bara bɔ Marah la.",
+      "phonetic_api": "/bimbanu je a fɔ ko kuranko bɛː bara bɔ mara la/",
+      "phonetic_simple": "bim-BA-nou yè a fo ko kou-RAN-ko bèː BA-ra bo ma-RA la",
+      "translation": "Les ancêtres disent que tous les Kuranko viennent de Marah.",
+      "context": "Formule attestée dans la tradition orale rapportée par les sources historiques sur le peuple kuranko, exprimant l'origine généalogique commune revendiquée."
     },
     {
-      "phrase_id": "p2_c1_m3_l7_corr",
-      "original": "Ni an ma tariki sɛbɛtanu kɔlɔsi, an tɛ siya kulu gbanan-lɔn",
-      "phonetic_api": "/ni an ma ta.ri.ki sɛ.bɛ.ta.nu kɔ.lɔ.si an tɛ si.ja ku.lu g͡ba.nan.lɔn/",
-      "phonetic_simple": "NI AN MA TA-RI-KI SƐ-BƐ-TA-NOU KƆ-LƆ-SI, AN TƐ SI-YA KOU-LOU GBANAN-LƆN",
-      "translation": "Si nous n'analysons pas les documents historiques, nous ne comprendrons pas la racine de notre identité",
-      "context": "Expliquer l'importance méthodologique de l'étude textuelle."
+      "phrase_id": "p2",
+      "original": "Jeliba ye tariku fo.",
+      "phonetic_api": "/dʲɛliba je tariku fo/",
+      "phonetic_simple": "djè-li-BA yè ta-RI-kou fo",
+      "translation": "Le griot a raconté l'histoire.",
+      "context": "« Tariku », emprunt de l'arabe tarikh (histoire), illustre l'influence de la culture savante islamique sur le vocabulaire historique kuranko."
     },
     {
-      "phrase_id": "p3_c1_m3_l7_corr",
-      "original": "Kuma gbansan le nɛ ri, kɔni a kulu ka fari ka tamin taminfa ko fɛ",
-      "phonetic_api": "/ku.ma g͡ban.san le nɛ ri kɔ.ni a ku.lu ka fa.ri ka ta.min ta.min.fa ko fɛ/",
-      "phonetic_simple": "KOU-MA GBAN-SAN LE NƐ RI, KƆ-NI A KOU-LOU KA FA-RI KA TA-MIN TA-MIN-FA KO FƐ",
-      "translation": "C'est une parole sacrée, pourtant son sens profond est plus complexe que les simples faits du passé",
-      "context": "Nuancer la portée littéraire d'un récit métaphorique."
+      "phrase_id": "p3",
+      "original": "Morgo te do ka ban.",
+      "phonetic_api": "/morgo tɛ do ka ban/",
+      "phonetic_simple": "MOR-go tè do ka ban",
+      "translation": "Une personne ne peut jamais être entièrement comprise.",
+      "context": "Ce proverbe attesté par Michael Jackson est souvent cité en tête d'un récit biographique pour signaler la prudence interprétative requise face à un texte narratif."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Morgo te do ka ban i la tariku ro.",
+      "phonetic_api": "/morgo tɛ do ka ban i la tariku ro/",
+      "phonetic_simple": "MOR-go tè do ka ban i la ta-RI-kou ro",
+      "translation": "On ne peut jamais épuiser la compréhension d'une personne dans son histoire.",
+      "context": "Application du proverbe général sur l'incompréhensibilité de la personne (Jackson) au domaine spécifique de l'analyse historique/biographique d'un texte."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'extension sémantique nominale avec 'Kulu'",
-      "explanation": "Au niveau C1, le mot 'kulu' (qui désigne physiquement un noyau ou une graine) s'utilise de manière abstraite pour désigner la substance philosophique, l'essence ou le sens profond d'un texte ou d'un discours.",
+      "concept": "Le discours rapporté avec « ye ... fɔ ko »",
+      "explanation": "Pour rapporter un dire (source d'autorité historique ou généalogique), le kuranko emploie une construction avec « ye » (marqueur de transitivité accompli), le verbe « fɔ » (dire) et la particule « ko » introduisant le contenu rapporté — structure essentielle pour l'analyse critique de tout texte oral transmis par les ancêtres ou les griots.",
       "rules": [
-        "Structure : [Nom abstrait ou verbal] + kulu",
-        "Kuma (parole) + kulu = le sens profond du discours",
-        "Siya (ethnie/lignée) + kulu = la racine identitaire fondamentale"
+        "[locuteur source] + ye + a + fɔ + ko + [contenu rapporté].",
+        "Cette construction signale explicitement la source de l'information, une marque de rigueur historiographique orale."
       ],
       "examples": [
         {
-          "structure": "Kuma kulu",
-          "phonetic_api": "/ku.ma ku.lu/",
-          "meaning": "L'essence de la parole / Le sens profond"
-        }
-      ]
-    },
-    {
-      "concept": "Le syntagme verbal composé d'achèvement 'Gbanan-lɔn'",
-      "explanation": "Pour exprimer l'action d'analyser jusqu'à la compréhension totale ou de décoder un mystère textuel, on associe le verbe d'achèvement 'gbanan' (finir/épuiser) et le verbe de connaissance 'lɔn' (savoir/connaître).",
-      "rules": [
-        "Structure transitive à l'accompli : Sujet + ye + [Texte/Objet] + gbanan-lɔn"
-      ],
-      "examples": [
-        {
-          "structure": "N ye a gbanan-lɔn",
-          "phonetic_api": "/ɲ͡je a g͡ba.nan.lɔn/",
-          "meaning": "Je l'ai parfaitement compris / Je l'ai élucidé"
+          "structure": "[bimbanu] + ye + a + fɔ + ko + [proposition]",
+          "phonetic_api": "/je a fɔ ko/",
+          "meaning": "[les ancêtres] disent/ont dit que [proposition]"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Lansana (L'étudiant)",
-      "text": "Karamɔgɔ, n ye tariki sɛbɛta nɛ kalan kunu. Kɔni n ma a kulu gbanan-lɔn fɔlɔ.",
-      "phonetic_api": "/ka.ra.mɔ.gɔ ɲ͡je ta.ri.ki sɛ.bɛ.ta nɛ ka.lan ku.nu kɔ.ni ɱ͡ma a ku.lu g͡ba.nan.lɔn fɔ.lɔ/",
-      "phonetic_simple": "KA-RA-MƆ-GƆ, N YE TA-RI-KI SƐ-BƐ-TA NƐ KA-LAN KOU-NOU. KƆ-NI N MA A KOU-LOU GBANAN-LƆN FƆ-LƆ.",
-      "translation": "Maître, j'ai lu ce document historique hier. Cependant, je n'en ai pas encore totalement élucidé le sens profond."
+      "speaker": "Historien local",
+      "text": "Bimbanu ye a fɔ ko Kuranko bɛɛ bara bɔ Marah la.",
+      "phonetic_api": "/bimbanu je a fɔ ko kuranko bɛː bara bɔ mara la/",
+      "phonetic_simple": "bim-BA-nou yè a fo ko kou-RAN-ko bèː BA-ra bo ma-RA la",
+      "translation": "Les ancêtres disent que tous les Kuranko viennent de Marah."
     },
     {
-      "speaker": "Sori (Le professeur)",
-      "text": "O ka ni, barisa fo i ka a kɔlɔsi kosɛbɛ. Mɔgɔbanu ye talalon ni kuma gbansan ca le don kɔnɔ.",
-      "phonetic_api": "/o ka ni ba.ri.sa fo i ka a kɔ.lɔ.si ko.sɛ.bɛ mɔ.gɔ.ba.nu d͡ʒe ta.la.lon ni ku.ma g͡ban.san ca le don kɔ.nɔ/",
-      "phonetic_simple": "O KA NI, BA-RI-SA FO I KA A KƆ-LƆ-SI KO-SƐ-BƐ. MƆ-GƆ-BA-NOU YE TA-LA-LON NI KOU-MA GBAN-SAN TCHA LE DON KƆ-NƆ.",
-      "translation": "C'est normal, car il faut absolument que tu l'analyses attentivement. Les anciens y ont inséré beaucoup de proverbes et de paroles sacrées."
+      "speaker": "Étudiant",
+      "text": "N'de ma konto lon i la tariku ro. I bɛ se ka a fo n ma?",
+      "phonetic_api": "/n de ma konto lɔn i la tariku ro i bɛ se ka a fo n ma/",
+      "phonetic_simple": "n dè ma KON-to lon i la ta-RI-kou ro, i bè sè ka a fo n ma",
+      "translation": "Je ne connais pas les dessous de cette histoire. Peux-tu me l'expliquer ?"
     },
     {
-      "speaker": "Lansana (L'étudiant)",
-      "text": "Ɛrɛ le nɛ ri. Sɛbɛta nɛ fanka ka bon. N di n ya haqi to a la bilen ka n ya kɔlɔsi gbanan.",
-      "phonetic_api": "/ɛ.rɛ le nɛ ri sɛ.bɛ.ta nɛ fan.ka ka bon ɲ͡di ɲ͡ja ha.qi to a la bi.len ka ɲ͡ja kɔ.lɔ.si g͡ba.nan/",
-      "phonetic_simple": "Ɛ-RƐ LE NƐ RI ! SƐ-BƐ-TA NƐ FAN-KA KA BON. N DI N YA HA-QI TO A LA BI-LEN KA N YA KƆ-LƆ-SI GBANAN.",
-      "translation": "C'est la stricte vérité. La force de ce manuscrit est immense. Je vais désormais y concentrer mon esprit pour achever mon analyse."
+      "speaker": "Historien local",
+      "text": "Jeliba ye tariku fo dɔnkili la.",
+      "phonetic_api": "/dʲɛliba je tariku fo dɔnkili la/",
+      "phonetic_simple": "djè-li-BA yè ta-RI-kou fo don-KI-li la",
+      "translation": "Le griot a raconté l'histoire en chanson."
+    },
+    {
+      "speaker": "Étudiant",
+      "text": "Morgo te do ka ban i la tariku ro, wo de ye a to n bɛ se ka a lɔn kosɔbɛ.",
+      "phonetic_api": "/morgo tɛ do ka ban i la tariku ro wɔ dɛ je a to n bɛ se ka a lɔn kosɔbɛ/",
+      "phonetic_simple": "MOR-go tè do ka ban i la ta-RI-kou ro, wo dè yè a to n bè sè ka a lon ko-SO-bè",
+      "translation": "On ne peut jamais épuiser la compréhension d'une personne dans son histoire ; c'est pourquoi je ne peux pas tout savoir avec certitude."
     }
   ],
   "cultural_notes": [
-    "Bien que la culture kuranko soit fondamentalement de tradition orale, la transcription des récits, des arbres généalogiques et des chroniques historiques (en caractères arabes ou N'ko) constitue un patrimoine littéraire précieux en Guinée. Analyser un 'sɛbɛta' ne se limite pas à déchiffrer les mots, mais exige de comprendre les allusions aux pactes ancestraux, la symbolique des métaphores naturelles et la portée morale des actes des souverains passés."
+    "L'affirmation généalogique selon laquelle « tous les Kuranko viennent de Marah » est rapportée par la page Wikipedia consacrée au peuple kuranko comme un élément de tradition orale identitaire, à traiter avec la prudence critique propre à l'analyse historique de sources orales.",
+    "Le rôle du jeliba (griot) comme dépositaire de l'histoire généalogique orale est central dans l'analyse de tout texte narratif ou historique kuranko, la mémoire collective étant transmise par la parole chantée plutôt que par l'écrit."
   ],
   "exercises": [
     {
-      "exercise_id": "ex1_c1_m3_l7_corr",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Que signifie de manière abstraite le mot 'Kulu' dans l'analyse textuelle avancée ?",
+      "question": "Selon la tradition orale rapportée, de quel ancêtre « viennent tous les Kuranko » ?",
       "options": [
-        "Un personnage fictif",
-        "La substance / Le sens profond / L'essence",
-        "La couverture d'un manuscrit"
+        "Marah",
+        "Koroma",
+        "Sanoh"
       ],
-      "correct_answer": "La substance / Le sens profond / L'essence",
-      "explanation": "Métaphoriquement dérivé du noyau ou de la graine, 'kulu' désigne le cœur sémantique ou l'essence profonde d'un énoncé."
+      "correct_answer": "Marah",
+      "explanation": "La page Wikipedia sur le peuple kuranko rapporte cette affirmation généalogique traditionnelle."
     },
     {
-      "exercise_id": "ex1_c2_m3_l7_corr",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Pour dire qu'on analyse ou qu'on examine un document historique, on emploie le verbe : [ ___ ].",
-      "correct_answer": "kɔlɔsi",
-      "hint": "Comprend trois syllabes et se termine par la voyelle 'i'"
+      "sentence_with_blank": "Bimbanu ye a fɔ [ ___ ] Kuranko bɛɛ bara bɔ Marah la.",
+      "correct_answer": "ko",
+      "hint": "Cette particule introduit le contenu d'un discours rapporté."
+    },
+    {
+      "exercise_id": "ex3",
+      "type": "multiple_choice",
+      "question": "Qui est traditionnellement le dépositaire professionnel de l'histoire généalogique orale chez les Kuranko ?",
+      "options": [
+        "Le jeliba (griot)",
+        "Le karamorgo",
+        "L'étranger de passage"
+      ],
+      "correct_answer": "Le jeliba (griot)",
+      "explanation": "Le jeliba, griot et musicien traditionnel, est décrit par Michael Jackson comme le gardien de la tradition orale généalogique."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Wikipedia, \"Kuranko people\"",
+      "url": "https://en.wikipedia.org/wiki/Kuranko_people"
+    },
+    {
+      "label": "Michael Jackson, \"How Lifeworlds Work\" (Univ. of Chicago Press, 2022) — extraits",
+      "url": "https://dokumen.pub/how-lifeworlds-work-emotionality-sociality-and-the-ambiguity-of-being-9780226492018.html"
+    },
+    {
+      "label": "Michael Jackson, \"The Kuranko: Dimensions of Social Reality in a West African Society\" (Hurst, 1977) — notice bibliographique",
+      "url": "https://researchers.mq.edu.au/en/publications/the-kuranko-dimensions-of-social-reality-in-a-west-african-societ"
+    }
+  ],
+  "confidence": "faible",
+  "confidence_note": "L'affirmation « tous les Kuranko viennent de Marah » est attestée par Wikipedia (peuple kuranko) ; « bimbanu » et le proverbe sur l'incompréhensibilité de la personne sont attestés chez Jackson. La construction grammaticale « ye...fɔ ko » et le mot « tariku » (histoire, emprunt arabe supposé par analogie avec d'autres langues mandé musulmanes) ne sont pas directement confirmés en kuranko et restent des extrapolations prudentes signalées comme telles."
 }

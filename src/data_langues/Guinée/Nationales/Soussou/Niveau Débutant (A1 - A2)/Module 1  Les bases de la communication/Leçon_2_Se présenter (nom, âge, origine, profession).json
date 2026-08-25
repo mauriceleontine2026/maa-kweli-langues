@@ -6,326 +6,286 @@
   "lesson_number": 2,
   "title": "Se présenter (nom, âge, origine, profession)",
   "learning_objectives": [
-    "Savoir décliner son identité nominale et demander le nom de son interlocuteur",
-    "Exprimer son origine géographique, sa nationalité et son lieu de résidence",
-    "Énoncer sa profession et formuler son âge en manipulant les structures d'état de base"
+    "Dire son nom avec le verbe 'xili' (s'appeler)",
+    "Donner sa nationalité avec le suffixe '-ka' et le verbe 'na... ra' (être)",
+    "Demander et indiquer sa profession et son état civil"
   ],
   "phonetic_focus": {
-    "key_sounds": "Cette leçon introduit le phonème palatal nasal /ɲ/ (noté 'ɲ' ou parfois 'gn' en transcription courante) qui se prononce comme le début du mot 'agneau'. On y trouve aussi la fricative vélaire sourde /x/, qui se réalise par un flux d'air continu au fond de la gorge, identique au 'j' espagnol.",
-    "common_pitfalls": "Ne prononcez pas le 'x' de 'xili' ou 'sabatixi' comme un 'ks' ou un 'z' français. C'est un son purement expiré du fond de la gorge, proche d'un 'h' fortement expiré."
+    "key_sounds": "Le digramme 'gb' se prononce en une seule articulation labio-vélaire (comme dans 'gbEngbE') ; 'ny'/'¯' rend le son du 'gn' français (comme dans '¯ari').",
+    "common_pitfalls": "Les francophones séparent souvent 'gb' en deux sons distincts (g puis b) alors qu'il s'agit d'une seule consonne coarticulée. Le pronom sujet 'n' (je) est souvent prononcé comme une syllabe complète alors qu'il reste une nasale brève devant la voyelle suivante."
   },
   "vocabulary": [
     {
-      "word_id": "v2_1",
-      "term": "Xili",
+      "word_id": "v1",
+      "term": "xili",
       "phonetic_api": "/xili/",
-      "phonetic_simple": "KHI-LI",
-      "translation": "Nom / Prénom / Appellation",
-      "example_sentence": "N xili Alimou.",
-      "example_phonetic": "/n xili alimu/",
-      "example_translation": "Mon nom est Alimou."
+      "phonetic_simple": "KHI-li",
+      "translation": "s'appeler, être appelé",
+      "example_sentence": "N xili Fatu.",
+      "example_phonetic": "/n xili fatu/",
+      "example_translation": "Je m'appelle Fatou."
     },
     {
-      "word_id": "v2_2",
-      "term": "Fatoxi",
-      "phonetic_api": "/fatoxi/",
-      "phonetic_simple": "FA-TO-KHI",
-      "translation": "Originaire de / Né à",
-      "example_sentence": "N fatoxi Kindia nan na.",
-      "example_phonetic": "/n fatoxi kiⁿdia nan na/",
-      "example_translation": "Je suis originaire de Kindia."
+      "word_id": "v2",
+      "term": "LaginEka",
+      "phonetic_api": "/laginɛka/",
+      "phonetic_simple": "la-gui-NÈ-ka",
+      "translation": "Guinéen(ne)",
+      "example_sentence": "LaginEka na n na.",
+      "example_phonetic": "/laginɛka na n na/",
+      "example_translation": "Je suis Guinéen(ne)."
     },
     {
-      "word_id": "v2_3",
-      "term": "Sabatixi",
-      "phonetic_api": "/sabatixi/",
-      "phonetic_simple": "SA-BA-TI-KHI",
-      "translation": "Résidant à / Habitant à",
-      "example_sentence": "N sabatixi Conakry.",
-      "example_phonetic": "/n sabatixi Conakry/",
-      "example_translation": "Je réside actuellement à Conakry."
+      "word_id": "v3",
+      "term": "Amerikika",
+      "phonetic_api": "/amerikika/",
+      "phonetic_simple": "a-mé-ri-KI-ka",
+      "translation": "Américain(e)",
+      "example_sentence": "Amerikika na muxu ra.",
+      "example_phonetic": "/amerikika na muxu ra/",
+      "example_translation": "Nous sommes Américains."
     },
     {
-      "word_id": "v2_4",
-      "term": "Karamoxo",
-      "phonetic_api": "/karamoxo/",
-      "phonetic_simple": "KA-RA-MO-KHO",
-      "translation": "Enseignant / Professeur / Maître",
-      "example_sentence": "N findi karamoxo ra.",
-      "example_phonetic": "/n fiⁿdi karamoxo ra/",
-      "example_translation": "Je suis enseignant."
+      "word_id": "v4",
+      "term": "xaranderaba",
+      "phonetic_api": "/xaranderaba/",
+      "phonetic_simple": "kha-ran-dé-RA-ba",
+      "translation": "enseignant(e)",
+      "example_sentence": "Xaranderaba na i ra?",
+      "example_phonetic": "/xaranderaba na i ra/",
+      "example_translation": "Es-tu enseignant(e) ?"
     },
     {
-      "word_id": "v2_5",
-      "term": "Xaranmudi",
-      "phonetic_api": "/xaraⁿmudi/",
-      "phonetic_simple": "KHA-RAN-MOU-DI",
-      "translation": "Élève / Étudiant",
-      "example_sentence": "I findi xaranmudi ra ?",
-      "example_phonetic": "/i fiⁿdi xaraⁿmudi ra/",
-      "example_translation": "Es-tu étudiant ?"
+      "word_id": "v5",
+      "term": "dçktçri",
+      "phonetic_api": "/dɔktɔri/",
+      "phonetic_simple": "DOK-to-ri",
+      "translation": "docteur, médecin",
+      "example_sentence": "Dçktçri na n na.",
+      "example_phonetic": "/dɔktɔri na n na/",
+      "example_translation": "Je suis médecin."
     },
     {
-      "word_id": "v2_6",
-      "term": "Doti",
-      "phonetic_api": "/doti/",
-      "phonetic_simple": "DO-TI",
-      "translation": "Médecin / Docteur (emprunt)",
-      "example_sentence": "N nga findi doti ra.",
-      "example_phonetic": "/n ⁿɡa fiⁿdi doti ra/",
-      "example_translation": "Ma mère est médecin."
+      "word_id": "v6",
+      "term": "tela",
+      "phonetic_api": "/tela/",
+      "phonetic_simple": "TÉ-la",
+      "translation": "tailleur (couturier)",
+      "example_sentence": "Tela na a ra.",
+      "example_phonetic": "/tela na a ra/",
+      "example_translation": "Il/elle est tailleur."
     },
     {
-      "word_id": "v2_7",
-      "term": "Ɲɛ",
-      "phonetic_api": "/ɲɛ/",
-      "phonetic_simple": "NYÈ",
-      "translation": "Année / Âge",
-      "example_sentence": "Ɲɛ muxe i ma ?",
-      "example_phonetic": "/ɲɛ muxɛ i ma/",
-      "example_translation": "Quel âge as-tu ? (litt. Combien d'années sur toi ?)"
+      "word_id": "v7",
+      "term": "i munse wali rabama?",
+      "phonetic_api": "/i munse wali rabama/",
+      "phonetic_simple": "i moun-sé wa-li ra-ba-ma",
+      "translation": "que fais-tu comme travail ?",
+      "example_sentence": "I munse wali rabama?",
+      "example_phonetic": "/i munse wali rabama/",
+      "example_translation": "Quel est ton métier ?"
     },
     {
-      "word_id": "v2_8",
-      "term": "Muxe",
-      "phonetic_api": "/muxɛ/",
-      "phonetic_simple": "MOU-KHÈ",
-      "translation": "Combien (interrogatif pour une quantité)",
-      "example_sentence": "I maadi muxe ?",
-      "example_phonetic": "/i maːdi muxɛ/",
-      "example_translation": "Combien pour cela ?"
-    },
-    {
-      "word_id": "v2_9",
-      "term": "Koni",
-      "phonetic_api": "/koni/",
-      "phonetic_simple": "KO-NI",
-      "translation": "Mais / Cependant",
-      "example_sentence": "N fatoxi Paris, koni n sabatixi Boké.",
-      "example_phonetic": "/n fatoxi paris koni n sabatixi boke/",
-      "example_translation": "Je viens de Paris, mais j'habite à Boké."
-    },
-    {
-      "word_id": "v2_10",
-      "term": "Tan",
-      "phonetic_api": "/taⁿ/",
-      "phonetic_simple": "TAN",
-      "translation": "Quant à / En ce qui concerne (particule d'insistance)",
-      "example_sentence": "I tan xili di ?",
-      "example_phonetic": "/i taⁿ xili di/",
-      "example_translation": "Et toi, comment t'appelles-tu ?"
+      "word_id": "v8",
+      "term": "dçxç",
+      "phonetic_api": "/dɔxɔ/",
+      "phonetic_simple": "DO-kho",
+      "translation": "mariage / marié(e)",
+      "example_sentence": "N bara dçxç xamEta.",
+      "example_phonetic": "/n bara dɔxɔ xamɛta/",
+      "example_translation": "Je suis mariée (pour une femme)."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p2_1",
-      "original": "I xili di ?",
+      "phrase_id": "p1",
+      "original": "I xili di?",
       "phonetic_api": "/i xili di/",
-      "phonetic_simple": "I KHI-LI DI",
+      "phonetic_simple": "i KHI-li di",
       "translation": "Comment t'appelles-tu ?",
-      "context": "Question de base incontournable pour faire la connaissance de quelqu'un."
+      "context": "Question standard pour demander le nom d'une personne."
     },
     {
-      "phrase_id": "p2_2",
-      "original": "N xili Sékou.",
-      "phonetic_api": "/n xili seku/",
-      "phonetic_simple": "N KHI-LI SÉ-KOU",
-      "translation": "Je m'appelle Sékou.",
-      "context": "Formule d'auto-présentation standard."
+      "phrase_id": "p2",
+      "original": "N xili...",
+      "phonetic_api": "/n xili/",
+      "phonetic_simple": "n KHI-li",
+      "translation": "Je m'appelle...",
+      "context": "Pour donner son propre nom."
     },
     {
-      "phrase_id": "p2_3",
-      "original": "I fatoxi mi i ra ?",
-      "phonetic_api": "/i fatoxi mi i ra/",
-      "phonetic_simple": "I FA-TO-KHI MI I RA",
-      "translation": "D'où viens-tu ? / Quelle est ton origine ?",
-      "context": "Demander les origines géographiques ou familiales de quelqu'un."
+      "phrase_id": "p3",
+      "original": "LaginEka na i ra?",
+      "phonetic_api": "/laginɛka na i ra/",
+      "phonetic_simple": "la-gui-NÈ-ka na i ra",
+      "translation": "Es-tu Guinéen(ne) ?",
+      "context": "Pour demander la nationalité de son interlocuteur."
     },
     {
-      "phrase_id": "p2_4",
-      "original": "N fatoxi Guinea nan na.",
-      "phonetic_api": "/n fatoxi ɡuinɛa nan na/",
-      "phonetic_simple": "N FA-TO-KHI GUI-NÉ-A NAN NA",
-      "translation": "Je viens de Guinée.",
-      "context": "Indiquer sa nationalité ou son pays de naissance."
+      "phrase_id": "p4",
+      "original": "I munse wali rabama?",
+      "phonetic_api": "/i munse wali rabama/",
+      "phonetic_simple": "i moun-sé wa-li ra-ba-ma",
+      "translation": "Quel est ton travail ?",
+      "context": "Pour demander la profession de quelqu'un."
     },
     {
-      "phrase_id": "p2_5",
-      "original": "Munse findi i ra ?",
-      "phonetic_api": "/muⁿsɛ fiⁿdi i ra/",
-      "phonetic_simple": "MOUN-SÈ FIN-DI I RA",
-      "translation": "Que fais-tu dans la vie ? / Qui es-tu ?",
-      "context": "Interroger son interlocuteur sur sa profession ou son statut."
+      "phrase_id": "p5",
+      "original": "I bara ginE dçxç?",
+      "phonetic_api": "/i bara ginɛ dɔxɔ/",
+      "phonetic_simple": "i ba-ra gui-NÈ do-kho",
+      "translation": "Es-tu marié ? (à un homme)",
+      "context": "Question sur l'état civil, forme utilisée pour un homme."
     },
     {
-      "phrase_id": "p2_6",
-      "original": "N findi karamoxo ra.",
-      "phonetic_api": "/n fiⁿdi karamoxo ra/",
-      "phonetic_simple": "N FIN-DI KA-RA-MO-KHO RA",
-      "translation": "Je suis enseignant.",
-      "context": "Déclaration claire de son activité professionnelle."
+      "phrase_id": "p6",
+      "original": "N bore nan yiki",
+      "phonetic_api": "/n bore nan jiki/",
+      "phonetic_simple": "n bo-ré nan yi-ki",
+      "translation": "C'est mon ami/e",
+      "context": "Pour présenter un tiers à quelqu'un."
     },
     {
-      "phrase_id": "p2_7",
-      "original": "Ɲɛ muxe i ma ?",
-      "phonetic_api": "/ɲɛ muxɛ i ma/",
-      "phonetic_simple": "NYÈ MOU-KHÈ I MA",
-      "translation": "Quel âge as-tu ?",
-      "context": "Demander l'âge dans un cadre informel ou administratif."
-    },
-    {
-      "phrase_id": "p2_8",
-      "original": "Ɲɛ tongo firini na n ma.",
-      "phonetic_api": "/ɲɛ toⁿɡo firini na n ma/",
-      "phonetic_simple": "NYÈ TON-GO FI-RI-NI NA N MA",
-      "translation": "J'ai vingt ans. (litt. Vingt années sont sur moi.)",
-      "context": "Exprimer son âge exact (tongo firini = 20)."
-    },
-    {
-      "phrase_id": "p2_9",
-      "original": "I sabatixi mi ?",
-      "phonetic_api": "/i sabatixi mi/",
-      "phonetic_simple": "I SA-BA-TI-KHI MI",
-      "translation": "Où habites-tu ?",
-      "context": "S'informer sur le lieu de résidence actuel de son interlocuteur."
-    },
-    {
-      "phrase_id": "p2_10",
-      "original": "N sabatixi Paris nan na.",
-      "phonetic_api": "/n sabatixi paris nan na/",
-      "phonetic_simple": "N SA-BA-TI-KHI PA-RIS NAN NA",
-      "translation": "J'habite à Paris.",
-      "context": "Déclarer sa ville actuelle de résidence."
+      "phrase_id": "p7",
+      "original": "I xi hEri?",
+      "phonetic_api": "/i xi hɛri/",
+      "phonetic_simple": "i xi HÈ-ri",
+      "translation": "Quel est ton nom de famille ?",
+      "context": "Variante utilisée pour demander le patronyme."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'expression de la profession avec la structure discontinue 'findi... ra'",
-      "explanation": "En soussou, pour exprimer un métier, un rôle social ou un état stable, on utilise le verbe 'findi' (devenir / se trouver en tant que) combiné obligatoirement avec la postposition finale 'ra'. Le nom du métier vient s'insérer exactement entre ces deux éléments.",
+      "concept": "Le verbe 'na... ra' (être) avec profession et nationalité",
+      "explanation": "Pour dire 'je suis médecin' ou 'je suis Guinéen', le soussou place le nom/l'attribut avant 'na', puis répète le pronom suivi de 'ra' (ou 'na' à la première personne). C'est une structure figée : Attribut + na + Pronom + ra.",
       "rules": [
-        "Le pronom sujet se place devant 'findi'.",
-        "Le nom de la profession se place directement après 'findi'.",
-        "La postposition 'ra' ferme la proposition verbale."
+        "Structure : [Attribut] + na + [pronom] + ra (ou na pour 'n')",
+        "Par contraction courante à l'oral : 'na n na' devient 'nan na', 'na i ra' devient 'ni ra'",
+        "Négation : [Attribut] + mu na + [pronom] + ra"
       ],
       "examples": [
         {
-          "structure": "N + findi + doti + ra",
-          "phonetic_api": "/n fiⁿdi doti ra/",
-          "meaning": "Je suis médecin."
+          "structure": "Tela na n na",
+          "phonetic_api": "/tela na n na/",
+          "meaning": "Je suis tailleur"
         },
         {
-          "structure": "I + findi + xaranmudi + ra",
-          "phonetic_api": "/i fiⁿdi xaraⁿmudi ra/",
-          "meaning": "Tu es étudiant."
+          "structure": "LaginEka na i ra",
+          "phonetic_api": "/laginɛka na i ra/",
+          "meaning": "Tu es Guinéen"
+        },
+        {
+          "structure": "Tela mu na n na",
+          "phonetic_api": "/tela mu na n na/",
+          "meaning": "Je ne suis pas tailleur"
         }
       ]
     },
     {
-      "concept": "La construction de la possession de l'âge avec 'na... ma'",
-      "explanation": "Contrairement au français qui utilise le verbe 'avoir' ou à l'anglais qui utilise 'être', le soussou exprime l'âge en positionnant les années comme un élément physique situé 'sur' la personne, via la postposition locative 'ma'.",
+      "concept": "Le verbe 'xili' (s'appeler) et la nationalité en '-ka'",
+      "explanation": "Le verbe 'xili' se conjugue directement avec le pronom suivi du nom propre. La nationalité se forme en ajoutant le suffixe '-ka' au nom du pays (LaginE + ka = LaginEka, 'Guinéen').",
       "rules": [
-        "Le nombre d'années ('ɲɛ' + chiffre) se place en premier.",
-        "La particule d'existence 'na' (être là) suit le nombre.",
-        "Le pronom possessif associé à la postposition 'ma' (sur moi / sur toi) termine l'affirmation."
+        "Structure : Pronom + xili + Nom",
+        "Négation : Pronom + mu + xili + Nom",
+        "Nationalité : [Pays] + ka"
       ],
       "examples": [
         {
-          "structure": "Ɲɛ [Nombre] + na + n ma",
-          "phonetic_api": "/ɲɛ ... na n ma/",
-          "meaning": "J'ai [Nombre] ans (litt. Des années sont sur moi)."
+          "structure": "N xili Fatu",
+          "phonetic_api": "/n xili fatu/",
+          "meaning": "Je m'appelle Fatou"
+        },
+        {
+          "structure": "N mu xili John",
+          "phonetic_api": "/n mu xili dʒon/",
+          "meaning": "Je ne m'appelle pas John"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Sékou",
-      "text": "I kéna ! I xili di ?",
-      "phonetic_api": "/i kéna i xili di/",
-      "phonetic_simple": "I KÉ-NA ! I KHI-LI DI",
-      "translation": "Salut ! Comment t'appelles-tu ?"
+      "speaker": "A",
+      "text": "I kEna. I xili di?",
+      "phonetic_api": "/i kɛna, i xili di/",
+      "phonetic_simple": "i-KÈ-na, i KHI-li di",
+      "translation": "Bonjour. Comment t'appelles-tu ?"
     },
     {
-      "speaker": "Marie",
-      "text": "N xili Marie. I tan xili di ?",
-      "phonetic_api": "/n xili mari i taⁿ xili di/",
-      "phonetic_simple": "N KHI-LI MA-RI. I TAN KHI-LI DI",
-      "translation": "Mon nom est Marie. Et toi, quel est ton nom ?"
+      "speaker": "B",
+      "text": "N xili Fatu. I tan go?",
+      "phonetic_api": "/n xili fatu, i tan go/",
+      "phonetic_simple": "n KHI-li fa-tou, i tan go",
+      "translation": "Je m'appelle Fatou. Et toi ?"
     },
     {
-      "speaker": "Sékou",
-      "text": "N xili Sékou. Marie, i fatoxi mi i ra ?",
-      "phonetic_api": "/n xili seku mari i fatoxi mi i ra/",
-      "phonetic_simple": "N KHI-LI SÉ-KOU. MA-RI, I FA-TO-KHI MI I RA",
-      "translation": "Mon nom est Sékou. Marie, d'où es-tu originaire ?"
+      "speaker": "A",
+      "text": "N tan xili Bubakari. LaginEka na i ra?",
+      "phonetic_api": "/n tan xili bubakari, laginɛka na i ra/",
+      "phonetic_simple": "n tan KHI-li bou-ba-ka-ri, la-gui-NÈ-ka na i ra",
+      "translation": "Moi, je m'appelle Boubacar. Es-tu Guinéenne ?"
     },
     {
-      "speaker": "Marie",
-      "text": "N fatoxi France nan na, koni n sabatixi Conakry. Munse findi i ra ?",
-      "phonetic_api": "/n fatoxi fraⁿsɛ nan na koni n sabatixi conakry muⁿsɛ fiⁿdi i ra/",
-      "phonetic_simple": "N FA-TO-KHI FRAN-SÈ NAN NA, KO-NI N SA-BA-TI-KHI CO-NA-KRY. MOUN-SÈ FIN-DI I RA",
-      "translation": "Je viens de France, mais je réside à Conakry. Que fais-tu comme métier ?"
+      "speaker": "B",
+      "text": "Iyo, LaginEka na n na. I munse wali rabama?",
+      "phonetic_api": "/ijo, laginɛka na n na, i munse wali rabama/",
+      "phonetic_simple": "i-yo, la-gui-NÈ-ka na n na, i moun-sé wa-li ra-ba-ma",
+      "translation": "Oui, je suis Guinéenne. Quel est ton métier ?"
     },
     {
-      "speaker": "Sékou",
-      "text": "N findi karamoxo ra. I tan ?",
-      "phonetic_api": "/n fiⁿdi karamoxo ra i taⁿ/",
-      "phonetic_simple": "N FIN-DI KA-RA-MO-KHO RA. I TAN",
-      "translation": "Je suis enseignant. Et toi ?"
+      "speaker": "A",
+      "text": "Dçktçri na n na. I tan go?",
+      "phonetic_api": "/dɔktɔri na n na, i tan go/",
+      "phonetic_simple": "dok-TO-ri na n na, i tan go",
+      "translation": "Je suis médecin. Et toi ?"
     },
     {
-      "speaker": "Marie",
-      "text": "N findi doti ra. Ɲɛ muxe i ma, Sékou ?",
-      "phonetic_api": "/n fiⁿdi doti ra ɲɛ muxɛ i ma seku/",
-      "phonetic_simple": "N FIN-DI DO-TI RA. NYÈ MOU-KHÈ I MA, SÉ-KOU ?",
-      "translation": "Je suis médecin. Quel âge as-tu, Sékou ?"
-    },
-    {
-      "speaker": "Sékou",
-      "text": "Ɲɛ tongo firini na n ma. I nouwali.",
-      "phonetic_api": "/ɲɛ toⁿɡo firini na n ma i nuwali/",
-      "phonetic_simple": "NYÈ TON-GO FI-RI-NI NA N MA. I NOU-WA-LI",
-      "translation": "J'ai vingt ans. Merci."
+      "speaker": "B",
+      "text": "Xaranderaba na n na.",
+      "phonetic_api": "/xaranderaba na n na/",
+      "phonetic_simple": "kha-ran-dé-RA-ba na n na",
+      "translation": "Je suis enseignante."
     }
+  ],
+  "cultural_notes": [
+    "L'Africain attend en général qu'on lui demande son nom ; il ne le donne pas spontanément en abordant un inconnu.",
+    "Lorsque des personnes de sexes opposés se rencontrent, il n'est généralement pas d'usage de se demander mutuellement leur statut matrimonial dès la première rencontre."
   ],
   "exercises": [
     {
-      "exercise_id": "ex2_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quelle expression utilise-t-on pour demander 'D'où viens-tu ?'",
+      "question": "Comment dit-on 'Je suis médecin' en soussou ?",
       "options": [
-        "I xili di ?",
-        "I fatoxi mi i ra ?",
-        "I sabatixi mi ?"
+        "Dçktçri na n na",
+        "N xili dçktçri",
+        "I dçktçri na"
       ],
-      "correct_answer": "I fatoxi mi i ra ?",
-      "explanation": "'Fatoxi' désigne l'origine ou la provenance, c'est la formule exacte pour s'enquérir de la ville natale."
+      "correct_answer": "Dçktçri na n na",
+      "explanation": "La structure figée pour indiquer une profession est [Attribut] + na + n + na."
     },
     {
-      "exercise_id": "ex2_2",
-      "type": "multiple_choice",
-      "question": "Que signifie la phrase 'N sabatixi Conakry' ?",
-      "options": [
-        "Je suis né à Conakry",
-        "Je pars à Conakry",
-        "Je réside/habite à Conakry"
-      ],
-      "correct_answer": "Je réside/habite à Conakry",
-      "explanation": "Le mot 'sabatixi' indique explicitement l'installation, la résidence présente."
-    },
-    {
-      "exercise_id": "ex2_3",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "N findi doti [ ___ ].",
-      "correct_answer": "ra",
-      "hint": "C'est la postposition finale de clôture obligatoire avec le verbe findi."
-    },
-    {
-      "exercise_id": "ex2_4",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Ɲɛ muxe i [ ___ ] ?",
-      "correct_answer": "ma",
-      "hint": "Postposition signifiant 'sur toi' pour demander l'âge."
+      "sentence_with_blank": "Pour demander le nom de quelqu'un, on dit : I [ ___ ] di?",
+      "correct_answer": "xili",
+      "hint": "C'est le verbe 's'appeler' en soussou."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Peace Corps Guinée — Xarandi Xa Buki, Livre du stagiaire Sosoxui (Susu Language Lessons)",
+      "url": "https://fsi-languages.yojik.eu/languages/PeaceCorps/Susu/susu-language-course.pdf"
+    },
+    {
+      "label": "Live Lingua Project — Peace Corps Susu Language Lessons",
+      "url": "https://www.livelingua.com/course/peace_corps/susu_language_lessons"
+    },
+    {
+      "label": "Wikipedia — Susu language (grammar, phonology, pronouns, tense markers)",
+      "url": "https://en.wikipedia.org/wiki/Susu_language"
+    }
+  ],
+  "confidence": "élevée",
+  "confidence_note": "Dialogue et vocabulaire tirés intégralement de la Compétence n°1 du manuel Peace Corps Susu ; structure grammaticale confirmée par les pronoms sujets de Wikipedia."
 }

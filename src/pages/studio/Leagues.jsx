@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { getLeaderboard } from "@/api/leaderboardService";
 import { getCurrentUser } from "@/api/authService";
-import { Trophy, ArrowLeft, Crown, Medal, Flame, Star, TrendingUp, ChevronUp } from "lucide-react";
+import { Trophy, ArrowLeft, Crown, Medal, Flame, Star, TrendingUp, ChevronUp, RefreshCw, Users, Clock3 } from "lucide-react";
 
 /**
  * @typedef {{ name: string; color: string; bg: string; border: string; min: number; icon: string }} League
@@ -37,8 +37,10 @@ export default function Leagues() {
   const [entries, setEntries] = useState(/** @type {LeaderboardEntry[]} */ ([]));
   const [currentUser, setCurrentUser] = useState(/** @type {any | null} */ (null));
   const [loading, setLoading] = useState(true);
+  const [refreshing, setRefreshing] = useState(false);
 
   const fetchLeaderboard = async () => {
+    setRefreshing(true);
     try {
       const [user, leaderboard] = await Promise.all([
         getCurrentUser().catch(() => null),
@@ -54,6 +56,7 @@ export default function Leagues() {
       setEntries(entriesWithSelf);
     } finally {
       setLoading(false);
+      setRefreshing(false);
     }
   };
 
@@ -96,19 +99,25 @@ export default function Leagues() {
   };
 
   return (
-    <div className="p-6 lg:p-10 max-w-3xl mx-auto">
+    <div className="mx-auto w-full max-w-6xl p-4 sm:p-6 lg:p-10">
       <Link to="/studio" className="inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground mb-4">
         <ArrowLeft size={16} /> Studio
       </Link>
-      <div className="flex items-center gap-3 mb-6">
-        <div className="w-12 h-12 rounded-full bg-yellow-500/20 flex items-center justify-center">
-          <Trophy className="text-yellow-500" size={24} />
+      <header className="mb-6 rounded-3xl border border-border bg-card p-5 shadow-sm sm:p-7">
+        <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+          <div className="flex items-center gap-3">
+            <div className="w-12 h-12 rounded-full bg-yellow-500/20 flex items-center justify-center">
+              <Trophy className="text-yellow-500" size={24} />
+            </div>
+            <div>
+              <h1 className="font-heading text-2xl font-bold text-foreground">Ligues en Direct</h1>
+              <p className="text-sm text-muted-foreground">Classement hebdomadaire · nouvelle semaine dans {getNextReset()}</p>
+            </div>
+          </div>
+          <button type="button" onClick={fetchLeaderboard} disabled={refreshing} title="Actualiser le classement" className="inline-flex items-center justify-center gap-2 rounded-xl border border-border px-3 py-2 text-sm font-semibold text-muted-foreground transition hover:bg-secondary disabled:opacity-50"><RefreshCw size={15} className={refreshing ? "animate-spin" : ""} /> Actualiser</button>
         </div>
-        <div>
-          <h1 className="font-heading text-2xl font-bold text-foreground">Ligues en Direct</h1>
-          <p className="text-sm text-muted-foreground">Classement hebdomadaire · reset dans {getNextReset()}</p>
-        </div>
-      </div>
+      <div className="mt-5 grid grid-cols-3 gap-2 sm:gap-3"><div className="rounded-xl bg-secondary/50 p-3"><div className="flex items-center gap-1 text-lg font-bold text-foreground"><Users size={15} className="text-primary" /> {entries.length}</div><div className="text-[11px] text-muted-foreground">Participants</div></div><div className="rounded-xl bg-secondary/50 p-3"><div className="flex items-center gap-1 text-lg font-bold text-foreground"><Star size={15} className="text-blue-500" /> {entries.reduce((total, entry) => total + (entry.xp || 0), 0)}</div><div className="text-[11px] text-muted-foreground">XP en jeu</div></div><div className="rounded-xl bg-secondary/50 p-3"><div className="flex items-center gap-1 text-lg font-bold text-foreground"><Clock3 size={15} className="text-primary" /> {getNextReset()}</div><div className="text-[11px] text-muted-foreground">Avant le reset</div></div></div>
+      </header>
 
       {/* My league card with progress bar */}
       {myEntry && (
@@ -144,7 +153,7 @@ export default function Leagues() {
 
       {/* Gap to next person */}
       {personAbove && (
-        <div className="bg-card border border-border rounded-2xl p-4 mb-6 flex items-center gap-3">
+        <div className="bg-card border border-border rounded-2xl p-4 mb-6 flex items-center gap-3 shadow-sm">
           <div className="w-9 h-9 rounded-full bg-primary/15 flex items-center justify-center shrink-0">
             <ChevronUp size={18} className="text-primary" />
           </div>
@@ -232,7 +241,7 @@ export default function Leagues() {
                       </div>
                       <span className={`text-xs font-medium ${league.color} shrink-0 ml-2`}>{league.name}</span>
                     </div>
-                    <div className="flex items-center gap-2">
+                    <div className="flex min-w-0 items-center gap-2">
                       <div className="flex-1 bg-secondary rounded-full h-1.5 overflow-hidden min-w-[60px]">
                         <div className={`h-1.5 rounded-full transition-all duration-500 ${e.isMe ? "bg-primary" : "bg-muted-foreground/40"}`} style={{ width: `${pct}%` }} />
                       </div>

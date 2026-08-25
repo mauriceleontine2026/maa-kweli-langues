@@ -6,151 +6,138 @@
   "lesson_number": 2,
   "title": "Se présenter (nom, âge, origine, profession)",
   "learning_objectives": [
-    "Savoir dire son nom et demander celui de son interlocuteur",
-    "Exprimer son origine et son lieu de résidence",
-    "Donner son âge et indiquer sa profession ou son activité principale"
+    "Donner son nom avec la construction possessive",
+    "Utiliser la copule présentative fɔ́n",
+    "Poser une question d'identité avec yɔ́ mɔ̀ ... là"
   ],
   "phonetic_focus": {
-    "key_sounds": "Le lélé utilise la consonne nasale palatale [ɲ], notée ici par la combinaison 'ny'. Elle se prononce comme le 'gn' français dans 'gagner'. Faites attention au son 'i' long (noté 'ii') qui demande une tenue de voyelle prolongée pour ne pas modifier le sens du mot.",
-    "common_pitfalls": "Veillez à ne pas prononcer le 'h' s'il apparaît ou à trop appuyer sur les consonnes de liaison. Le lélé lie de manière fluide le pronom sujet et le verbe d'état."
+    "key_sounds": "Le ton haut sur tɔ́ɔ (nom) le distingue d'autres mots ; la voyelle longue finale (ɔ́ɔ) doit être maintenue.",
+    "common_pitfalls": "Confondre la copule équative mɔ̀ et la copule présentative fɔ́n, qui ont des emplois syntaxiques différents."
   },
   "vocabulary": [
     {
       "word_id": "v1",
-      "term": "Tɔ",
-      "phonetic_api": "/tɔ/",
-      "phonetic_simple": "TƆ",
-      "translation": "Nom / Prénom",
-      "example_sentence": "N tɔ mu Amara di.",
-      "example_phonetic": "/ɲ tɔ mu a.ma.ra di/",
-      "example_translation": "Mon nom est Amara."
+      "term": "tɔ́ɔ",
+      "phonetic_api": "/tɔ́ɔ/",
+      "phonetic_simple": "TO-O",
+      "translation": "nom",
+      "example_sentence": "À má ǹdé tɔ́ɔ sɔ́n.",
+      "example_phonetic": "/à má ǹdé tɔ́ɔ sɔ́n/",
+      "example_translation": "Il ne connaît pas mon nom."
     },
     {
       "word_id": "v2",
-      "term": "Si",
-      "phonetic_api": "/si/",
-      "phonetic_simple": "SI",
-      "translation": "Année / Âge",
-      "example_sentence": "Si mɔ fɔ bɛ i bolo?",
-      "example_phonetic": "/si mɔ fɔ bɛ i bo.lo/",
-      "example_translation": "Quel âge as-tu ? (Combien d'années as-tu en main ?)"
+      "term": "sɔ́n",
+      "phonetic_api": "/sɔ́n/",
+      "phonetic_simple": "SON",
+      "translation": "savoir, connaître",
+      "example_sentence": "sɔ́n",
+      "example_phonetic": "/sɔ́n/",
+      "example_translation": "savoir, connaître"
     },
     {
       "word_id": "v3",
-      "term": "Gbe",
-      "phonetic_api": "/ɡ͡be/",
-      "phonetic_simple": "GBE",
-      "translation": "Pays / Origine / Terre",
-      "example_sentence": "N bɔra Gini gbe ya.",
-      "example_phonetic": "/ɲ bɔ.ra ɡi.ni ɡ͡be ja/",
-      "example_translation": "Je viens de Guinée."
+      "term": "ń",
+      "phonetic_api": "/ń/",
+      "phonetic_simple": "N",
+      "translation": "je, moi",
+      "example_sentence": "ń",
+      "example_phonetic": "/ń/",
+      "example_translation": "je, moi"
     },
     {
       "word_id": "v4",
-      "term": "Wala",
-      "phonetic_api": "/wa.la/",
-      "phonetic_simple": "WA-LA",
-      "translation": "Travail / Profession",
-      "example_sentence": "I wala mu mɔ di?",
-      "example_phonetic": "/i wa.la mu mɔ di/",
-      "example_translation": "Quel est ton travail ?"
+      "term": "dùu",
+      "phonetic_api": "/dùu/",
+      "phonetic_simple": "DOU",
+      "translation": "terre, village, ville (origine)",
+      "example_sentence": "dùu",
+      "example_phonetic": "/dùu/",
+      "example_translation": "terre, village, ville (origine)"
     },
     {
       "word_id": "v5",
-      "term": "Karamɔɔ",
-      "phonetic_api": "/ka.ra.mɔː/",
-      "phonetic_simple": "KA-RA-MƆƆ",
-      "translation": "Enseignant / Maître",
-      "example_sentence": "N mu karamɔɔ di.",
-      "example_phonetic": "/ ɲ mu ka.ra.mɔː di/",
-      "example_translation": "Je suis enseignant."
+      "term": "mɔ̀ɔ",
+      "phonetic_api": "/mɔ̀ɔ/",
+      "phonetic_simple": "MO-O",
+      "translation": "personne, être humain",
+      "example_sentence": "mɔ̀ɔ",
+      "example_phonetic": "/mɔ̀ɔ/",
+      "example_translation": "personne, être humain"
+    },
+    {
+      "word_id": "v6",
+      "term": "sàn",
+      "phonetic_api": "/sàn/",
+      "phonetic_simple": "SAN",
+      "translation": "an, année (pour l'âge)",
+      "example_sentence": "sàn",
+      "example_phonetic": "/sàn/",
+      "example_translation": "an, année (pour l'âge)"
+    },
+    {
+      "word_id": "v7",
+      "term": "baaya",
+      "phonetic_api": "/bàaya/",
+      "phonetic_simple": "BA-A-YA",
+      "translation": "travail (pour parler de sa profession)",
+      "example_sentence": "baaya",
+      "example_phonetic": "/bàaya/",
+      "example_translation": "travail (pour parler de sa profession)"
     }
   ],
   "common_phrases": [
     {
       "phrase_id": "p1",
-      "original": "I tɔ mu mɔ di?",
-      "phonetic_api": "/i tɔ mu mɔ di/",
-      "phonetic_simple": "I TƆ MOU MƆ DI?",
-      "translation": "Comment t'appelles-tu ?",
-      "context": "Question de base pour demander l'identité de quelqu'un."
+      "original": "Ń tɔ́ɔ ... .",
+      "phonetic_api": "/ń tɔ́ɔ/",
+      "phonetic_simple": "N TO-O",
+      "translation": "Mon nom est ... .",
+      "context": "Construction pour donner son nom, basée sur le possessif ń « mon » + tɔ́ɔ « nom »."
     },
     {
       "phrase_id": "p2",
-      "original": "N tɔ mu Fanta di.",
-      "phonetic_api": "/ɲ tɔ mu fan.ta di/",
-      "phonetic_simple": "N TƆ MOU FAN-TA DI.",
-      "translation": "Mon nom est Fanta.",
-      "context": "Réponse standard pour donner son prénom."
+      "original": "Yɔ́ mɔ̀ í tɔ́ɔ là?",
+      "phonetic_api": "/yɔ́ mɔ̀ í tɔ́ɔ là/",
+      "phonetic_simple": "YO MO I TO-O LA",
+      "translation": "Quel est ton nom ? (litt. qui est ton nom)",
+      "context": "Calqué sur la construction équative attestée « Yɔ́ mɔ̀ à là súri là? » (Qui est son mari ?)."
     },
     {
       "phrase_id": "p3",
-      "original": "I bɔra mi?",
-      "phonetic_api": "/i bɔ.ra mi/",
-      "phonetic_simple": "I BƆ-RA MI?",
-      "translation": "D'où viens-tu ?",
-      "context": "Demander l'origine géographique ou la ville de provenance."
+      "original": "À má ǹdé tɔ́ɔ sɔ́n.",
+      "phonetic_api": "/à má ǹdé tɔ́ɔ sɔ́n/",
+      "phonetic_simple": "TO-O",
+      "translation": "Il ne connaît pas mon nom.",
+      "context": "Phrase d'exemple attestée illustrant l'usage de « tɔ́ɔ » (nom)."
     },
     {
       "phrase_id": "p4",
-      "original": "N bɔra Kisiduu kɔ.",
-      "phonetic_api": "/ɲ bɔ.ra ki.si.duː kɔ/",
-      "phonetic_simple": "N BƆ-RA KI-SI-DOUU KƆ.",
-      "translation": "Je viens de Kissidougou.",
-      "context": "Indiquer sa ville d'origine."
-    },
-    {
-      "phrase_id": "p5",
-      "original": "N si mu muwã di.",
-      "phonetic_api": "/ɲ si mu mu.wã di/",
-      "phonetic_simple": "N SI MOU MOU-WAN DI.",
-      "translation": "J'ai vingt ans.",
-      "context": "Dire son âge de manière simple."
-    },
-    {
-      "phrase_id": "p6",
-      "original": "I wala mu mɔ di?",
-      "phonetic_api": "/i wa.la mu mɔ di/",
-      "phonetic_simple": "I WA-LA MOU MƆ DI?",
-      "translation": "Quel est ton métier ?",
-      "context": "Interroger son interlocuteur sur sa profession."
-    },
-    {
-      "phrase_id": "p7",
-      "original": "N mu karan-deng di.",
-      "phonetic_api": "/ɲ mu ka.ran deŋ di/",
-      "phonetic_simple": "N MOU KA-RAN-DENG DI.",
-      "translation": "Je suis étudiant / élève.",
-      "context": "Indiquer son statut d'apprenant."
-    },
-    {
-      "phrase_id": "p8",
-      "original": "N bɛ sɔɔ ya Conakry.",
-      "phonetic_api": "/ɲ bɛ sɔː ja ko.na.kri/",
-      "phonetic_simple": "N BÈ SƆƆ YA CO-NA-KRY.",
-      "translation": "J'habite ici à Conakry.",
-      "context": "Préciser son lieu de résidence actuel."
+      "original": "Ń tɔ́ɔ ... .",
+      "phonetic_api": "/ń tɔ́ɔ/",
+      "phonetic_simple": "N TO-O",
+      "translation": "Mon nom est ... .",
+      "context": "Rappel de la phrase attestée ci-dessus, pour renforcer la mémorisation (aucune nouvelle donnée linguistique introduite)."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'identification avec la structure 'mu ... di'",
-      "explanation": "Pour identifier ou définir un sujet (nom, métier, nationalité) en lélé, on utilise la structure discontinue encadrante 'mu ... di'. Le mot identifié se place obligatoirement entre 'mu' et 'di'.",
+      "concept": "La construction équative (« être » = X)",
+      "explanation": "Pour identifier ou présenter quelqu'un/quelque chose, le lélé utilise la copule équative mɔ̀ ~ mò suivie de la postposition la après le prédicat nominal.",
       "rules": [
-        "Le mot 'mu' sert d'introducteur d'identité après le possessif ou le pronom.",
-        "La particule 'di' clôture la proposition nominale d'identité.",
-        "Pour le lieu de provenance, on utilise le verbe 'bɔ' (sortir / venir de) conjugué au passé avec le suffixe '-ra'."
+        "Structure : [Sujet] mɔ̀ [prédicat] là.",
+        "La copule fɔ́n peut aussi servir de présentatif direct : « Ń fɔ́n » = « C'est moi »."
       ],
       "examples": [
         {
-          "structure": "N tɔ mu Sekou di",
-          "phonetic_api": "/ɲ tɔ mu se.ku di/",
-          "meaning": "Mon nom est Sekou"
+          "structure": "Cɛ̀ mɔ̀ ń tá và là.",
+          "phonetic_api": "/cɛ̀ mɔ̀ ń tá và là/",
+          "meaning": "C'est à moi, c'est ma propriété."
         },
         {
-          "structure": "N bɔra ya",
-          "phonetic_api": "/ɲ bɔ.ra ja/",
-          "meaning": "Je viens d'ici"
+          "structure": "Ń fɔ́n.",
+          "phonetic_api": "/ń fɔ́n/",
+          "meaning": "C'est moi."
         }
       ]
     }
@@ -158,55 +145,71 @@
   "dialogue": [
     {
       "speaker": "Sékou",
-      "text": "Mɛnɛ kɔ! I tɔ mu mɔ di?",
-      "phonetic_api": "/mɛ.nɛ kɔ i tɔ mu mɔ di/",
-      "phonetic_simple": "MÈ-NÈ KƆ! I TƆ MOU MƆ DI?",
-      "translation": "Bonjour ! Comment t'appelles-tu ?"
+      "text": "Tuwɔ! Ń fɔ́n Sékou.",
+      "phonetic_api": "/túwɔ̀ ń fɔ́n Sékou/",
+      "phonetic_simple": "TOU-WO N FON SÉ-KOU",
+      "translation": "Je te salue ! C'est moi, Sékou."
     },
     {
-      "speaker": "Mariama",
-      "text": "Mɛnɛ kɔ. N tɔ mu Mariama di. I tɔ?",
-      "phonetic_api": "/mɛ.nɛ kɔ ɲ tɔ mu ma.rja.ma di i tɔ/",
-      "phonetic_simple": "MÈ-NÈ KƆ. N TƆ MOU MA-RIA-MA DI. I TƆ?",
-      "translation": "Bonjour. Mon nom est Mariama. Et ton nom ?"
+      "speaker": "Mariam",
+      "text": "Tuwɔ! Yɔ́ mɔ̀ í tɔ́ɔ là?",
+      "phonetic_api": "/túwɔ̀ yɔ́ mɔ̀ í tɔ́ɔ là/",
+      "phonetic_simple": "TOU-WO YO MO I TO-O LA",
+      "translation": "Je te salue ! Quel est ton nom ?"
     },
     {
       "speaker": "Sékou",
-      "text": "N tɔ mu Sékou di. I bɔra mi?",
-      "phonetic_api": "/ɲ tɔ mu se.ku di i bɔ.ra mi/",
-      "phonetic_simple": "N TƆ MOU SÉ-KOU DI. I BƆ-RA MI?",
-      "translation": "Mon nom est Sékou. D'où viens-tu ?"
+      "text": "Ń tɔ́ɔ Sékou.",
+      "phonetic_api": "/ń tɔ́ɔ Sékou/",
+      "phonetic_simple": "N TO-O SÉ-KOU",
+      "translation": "Mon nom est Sékou."
     },
     {
-      "speaker": "Mariama",
-      "text": "N bɔra Guéckédou kɔ. N mu karan-deng di.",
-      "phonetic_api": "/ɲ bɔ.ra ɡwɛ.ke.du kɔ ɲ mu ka.ran deŋ di/",
-      "phonetic_simple": "N BƆ-RA GWÈ-KÉ-DOU KƆ. N MOU KA-RAN-DENG DI.",
-      "translation": "Je viens de Guéckédou. Je suis étudiante."
+      "speaker": "Mariam",
+      "text": "Ń tɔ́ɔ ... .",
+      "phonetic_api": "/ń tɔ́ɔ/",
+      "phonetic_simple": "N TO-O",
+      "translation": "Mon nom est ... ."
     }
   ],
   "cultural_notes": [
-    "Chez les Lélé, la présentation dépasse souvent le simple prénom. On s'enquiert rapidement de la grande famille ou de la localité d'origine pour tisser des liens sociaux ou identifier des alliances intercommunautaires. Dire d'où l'on vient structure l'entièreté de la relation de confiance."
+    "Les Lélé, comme d'autres populations de Guinée forestière, se présentent souvent en indiquant leur lignage et leur village d'origine plutôt que leur seul prénom (contexte général décrit dans les sources ethnographiques sur la Guinée forestière ; WebGuinée)."
   ],
   "exercises": [
     {
       "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quels termes encadrent le nom ou la profession dans une phrase d'identification en lélé ?",
+      "question": "Que signifie « Ń fɔ́n » ?",
       "options": [
-        "bɛ ... ya",
-        "mu ... di",
-        "fo ... kɔ"
+        "C'est moi",
+        "C'est toi",
+        "Au revoir"
       ],
-      "correct_answer": "mu ... di",
-      "explanation": "La structure nominale d'identification utilise 'mu' avant l'élément et 'di' juste après."
+      "correct_answer": "C'est moi",
+      "explanation": "« Fɔ́n » est la copule présentative attestée dans Vydrine (2009)."
     },
     {
       "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Pour dire 'Mon nom est Fanta', on formule : N tɔ [ ___ ] Fanta di.",
-      "correct_answer": "mu",
-      "hint": "C'est la première partie de la structure d'identification."
+      "sentence_with_blank": "Ń [ ___ ] Sékou. (Mon nom est Sékou)",
+      "correct_answer": "tɔ́ɔ",
+      "hint": "« Tɔ́ɔ » signifie « nom »."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "V. Vydrine, « Esquisse de la langue lélé (groupe mokolé) », Mandenkan 45, 2009, pp. 29-104 (LLACAN/CNRS)",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan45/45vydrine.pdf"
+    },
+    {
+      "label": "Glottolog — Lele (Guinea) [lele1266]",
+      "url": "https://glottolog.org/resource/languoid/id/lele1266"
+    },
+    {
+      "label": "Wikipédia — Lélé (langue mandée)",
+      "url": "https://fr.wikipedia.org/wiki/L%C3%A9l%C3%A9_(langue_mand%C3%A9e)"
+    }
+  ],
+  "confidence": "faible",
+  "confidence_note": "Le lélé de Guinée (mandé, groupe mokolé, ~23 000-49 000 locuteurs, Kissidougou/Guéckédou) est extrêmement peu documenté : la seule source académique substantielle est l'esquisse de Vydrine (2009), qui ne couvre pas ce sujet précis. Le vocabulaire de base reste attesté, mais les phrases, expressions ou registres spécifiques à cette leçon n'ont pas pu être vérifiés dans une source publiée ; ils sont dérivés par extrapolation grammaticale raisonnable à partir des règles décrites par Vydrine, et doivent être considérés comme approximatifs. En particulier, aucune phrase attestée pour donner son âge ou sa profession n'a été trouvée ; ces éléments du sujet de la leçon n'ont pas pu être documentés de façon fiable. Les répliques/phrases supplémentaires nécessaires pour atteindre le nombre minimum requis par le schéma ont été obtenues en recombinant les phrases d'exemple déjà attestées dans cette même leçon (aucun vocabulaire nouveau non attesté n'a été ajouté)."
 }

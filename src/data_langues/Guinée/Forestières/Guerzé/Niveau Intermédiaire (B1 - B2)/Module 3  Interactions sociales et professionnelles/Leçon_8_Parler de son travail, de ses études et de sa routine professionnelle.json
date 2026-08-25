@@ -6,454 +6,220 @@
   "lesson_number": 8,
   "title": "Parler de son travail, de ses études et de sa routine professionnelle",
   "learning_objectives": [
-    "Décrire sa routine matinale : se réveiller (ŋwúŋ), se lever (mǐ-hěɠe), commencer le travail (yée-tɔ̌ɔ).",
-    "Nommer plusieurs métiers traditionnels et leur construction en -mùŋ (rappel Leçon 2).",
-    "Parler de ses études avec mǎa-kwɛ́lî (apprendre) et hǔ-kɔ́lɔŋ (apprendre une nouvelle, être informé).",
-    "Construire un petit récit de journée de travail en enchaînant plusieurs actions."
+    "Nommer le travail (kólô) et l'occupation/devoir (màatii)",
+    "Décrire une routine professionnelle simple avec les marqueurs habituels",
+    "Utiliser le vocabulaire du métier à tisser comme exemple d'activité artisanale traditionnelle"
   ],
   "phonetic_focus": {
-    "key_sounds": "Cette leçon regroupe plusieurs verbes réfléchis marqués par le préfixe mǐ-/mǔ- (mǐ-hěɠe, se lever) ou mǎa- (mǎa-kwɛ́lî, apprendre), un schéma de dérivation déjà croisé avec mǎa-kwéâ (être loin, Leçon 7 Débutant) et mǎa-wólôŋ (être triste, Leçon 3). Reconnaître ce préfixe aide à deviner le sens de nouveaux verbes composés.",
-    "common_pitfalls": "Les francophones ont tendance à : (1) confondre ŋwúŋ (se réveiller, déjà vu comme salutation en Leçon 1) et mǐ-hěɠe (se lever), deux étapes distinctes de la routine matinale que le français regroupe parfois sous un seul verbe ; (2) chercher un seul verbe pour « apprendre », alors que mǎa-kwɛ́lî (apprendre une compétence) et hǔ-kɔ́lɔŋ (apprendre une nouvelle, être informé de quelque chose) ne sont pas interchangeables ; (3) oublier que les noms de métier en -mùŋ (Leçon 2) restent le moyen le plus courant de nommer une profession, plutôt qu'un nom de métier isolé."
+    "key_sounds": "L'aspect habituel se marque par les marqueurs prédicatifs de la série IV du Tableau 10 (ŋǎ, yǎ, ǎ, gwǎ, kwǎ, kǎ, dǎ), à ne pas confondre avec les marqueurs résultatifs de la série III qui ont un ton légèrement différent (ŋǎa, yǎa, ǎa...).",
+    "common_pitfalls": "Les francophones confondent souvent l'aspect habituel (routine régulière) et le résultatif (état résultant d'une action ponctuelle), alors que le guerzé les distingue par des séries de marqueurs prédicatifs différentes."
   },
   "vocabulary": [
     {
       "word_id": "v1",
-      "term": "ŋwúŋ",
-      "phonetic_api": "/ŋwúŋ/",
-      "phonetic_simple": "NGWOUNG",
-      "translation": "se réveiller",
-      "example_sentence": "Yàa ŋwúŋ ?",
-      "example_phonetic": "/yàa ŋwúŋ/",
-      "example_translation": "Bonjour ! (litt. t'es-tu réveillé ?)"
-    },
-    {
-      "word_id": "v2",
-      "term": "mǐ-hěɠe",
-      "phonetic_api": "/mǐhěɣe/",
-      "phonetic_simple": "mi-HÈ-ghè",
-      "translation": "se lever",
-      "example_sentence": "Hwólo àá mìhéɠe.",
-      "example_phonetic": "/hwólo àá mìhéɣe/",
-      "example_translation": "Le soleil s'est levé."
-    },
-    {
-      "word_id": "v3",
-      "term": "yée-tɔ̌ɔ",
-      "phonetic_api": "/yéetɔ̌ɔ/",
-      "phonetic_simple": "YÉ-è-to-o",
-      "translation": "commencer (le travail)",
-      "example_sentence": "Gáa ŋwɔ́ tíi yée tɔ̀ɔî tínaa.",
-      "example_phonetic": "/gáa ŋwɔ́ tíi yée tɔ̀ɔî tínaa/",
-      "example_translation": "Demain, je vais commencer le travail."
-    },
-    {
-      "word_id": "v4",
       "term": "kólô",
       "phonetic_api": "/kólô/",
       "phonetic_simple": "KO-lô",
-      "translation": "travail (~ kɛ́ = travailler)",
-      "example_sentence": "Gáa kólô kɛ́i.",
-      "example_phonetic": "/gáa kólô kɛ́í/",
-      "example_translation": "Je travaille."
+      "translation": "travail",
+      "example_sentence": "Ŋǎ kólô kɛ́ kélee.",
+      "example_phonetic": "/ŋǎ kólô kɛ́ kélee/",
+      "example_translation": "Je travaille chaque jour (habituel)."
+    },
+    {
+      "word_id": "v2",
+      "term": "màatii",
+      "phonetic_api": "/màatii/",
+      "phonetic_simple": "MA-a-TI-i",
+      "translation": "devoir, occupation",
+      "example_sentence": "Ŋá màatii ɓáa kólô.",
+      "example_phonetic": "/ŋá màatii ɓáa kólô/",
+      "example_translation": "Mon occupation, c'est le travail."
+    },
+    {
+      "word_id": "v3",
+      "term": "kwɛ̌lɛ 1",
+      "phonetic_api": "/kwɛ̌lɛ/",
+      "phonetic_simple": "KWÈ-lè",
+      "translation": "métier à tisser",
+      "example_sentence": "Ǎ kwɛ̌lɛ kɛ́.",
+      "example_phonetic": "/ǎ kwɛ̌lɛ kɛ́/",
+      "example_translation": "Il/elle tisse habituellement (au métier à tisser)."
+    },
+    {
+      "word_id": "v4",
+      "term": "kélee",
+      "phonetic_api": "/kélee/",
+      "phonetic_simple": "KÉ-lè-è",
+      "translation": "chaque jour, tous les jours",
+      "example_sentence": "Àa gbáaŋ gɛ́ zàla à yèle kélee.",
+      "example_phonetic": "/àa gbáaŋ gɛ́ zàla à yèle kélee/",
+      "example_translation": "Il m'a obligé à lui payer chaque jour."
     },
     {
       "word_id": "v5",
-      "term": "kólo-kɛ́-mùŋ",
-      "phonetic_api": "/kólò ↓kɛ́mùŋ/",
-      "phonetic_simple": "KÓ-lo kÉ-moung",
-      "translation": "travailleur, ouvrier (litt. « travail-faire-celui qui »)",
-      "example_sentence": "Gàá à kólo-↓kɛ́-mùŋ.",
-      "example_phonetic": "/gàá à kólò ↓kɛ́mùŋ/",
-      "example_translation": "Il est ouvrier."
+      "term": "kìikâ",
+      "phonetic_api": "/kìikâ/",
+      "phonetic_simple": "KI-i-ka",
+      "translation": "consultation, concertation professionnelle",
+      "example_sentence": "Kìikâ ~ kɛ́.",
+      "example_phonetic": "/kìikâ kɛ́/",
+      "example_translation": "Tenir conseil, se concerter."
     },
     {
       "word_id": "v6",
-      "term": "híŋ",
-      "phonetic_api": "/híŋ/",
-      "phonetic_simple": "HING",
-      "translation": "cultiver (un champ)",
-      "example_sentence": "Gáa kɛ̀ɛ híŋzî.",
-      "example_phonetic": "/gáa kɛ̀ɛ híŋzí/",
-      "example_translation": "Je suis en train de cultiver le champ."
+      "term": "kpáaŋ kɛ́",
+      "phonetic_api": "/kpáaŋ kɛ́/",
+      "phonetic_simple": "KPA-ang KÉ",
+      "translation": "obliger (quelqu'un à faire quelque chose, dans un contexte professionnel)",
+      "example_sentence": "Àa gbáaŋ gɛ́ zàla à yèle kélee.",
+      "example_phonetic": "/àa gbáaŋ gɛ́ zàla à yèle kélee/",
+      "example_translation": "Il m'a obligé à lui payer chaque jour."
     },
     {
       "word_id": "v7",
-      "term": "kwɛ̀líyɔ̀umûŋ",
-      "phonetic_api": "/kwɛ̀líyɔ̀umúŋ/",
-      "phonetic_simple": "KWÈ-li-yo-ou-mûng",
-      "translation": "forgeron (litt. « fer-forger-celui qui »)",
-      "example_sentence": "kwɛ̀líyɔ̀umûŋ",
-      "example_phonetic": "/kwɛ̀líyɔ̀umúŋ/",
-      "example_translation": "forgeron"
+      "term": "hěɠe",
+      "phonetic_api": "/hěɠe/",
+      "phonetic_simple": "HÉ-guè",
+      "translation": "venir de, être originaire de",
+      "example_sentence": "Ŋà héɠe Zálikwɛ̀lɛ, ŋǎ kólô kɛ́ gɛ̀ɛ.",
+      "example_phonetic": "/ŋà héɠé zálikwɛ̀lɛ ŋǎ kólô kɛ́ gɛ̀ɛ/",
+      "example_translation": "Je viens de Nzérékoré, je travaille ici."
     },
     {
       "word_id": "v8",
-      "term": "híɓaɠâ",
-      "phonetic_api": "/híɓaɣâ/",
-      "phonetic_simple": "HI-ɓa-ghâ",
-      "translation": "guérisseur",
-      "example_sentence": "Ɲàákɔ̀i à ɓɔ́luɓo ↓kɛ́.",
-      "example_phonetic": "/ɲàákɔ̀i à ɓɔ́luɓo ↓kɛ́/",
-      "example_translation": "Nyaakwei soigne les gens (comme son métier)."
-    },
-    {
-      "word_id": "v9",
-      "term": "lǒzo",
-      "phonetic_api": "/lǒzo/",
-      "phonetic_simple": "lo-zo (ton bas)",
-      "translation": "chasseur",
-      "example_sentence": "lǒzo",
-      "example_phonetic": "/lǒzo/",
-      "example_translation": "chasseur"
-    },
-    {
-      "word_id": "v10",
-      "term": "mǎa-kwɛ́lî",
-      "phonetic_api": "/mǎakwɛ́lî/",
-      "phonetic_simple": "ma-a-KWÈ-lî",
-      "translation": "apprendre (une compétence, une matière)",
-      "example_sentence": "Gáa kpɛ̀lɛɛwoo màakwɛ́lîi.",
-      "example_phonetic": "/gáa kpɛ̀lɛɛwoo màakwɛ́lîi/",
-      "example_translation": "J'apprends le kpele."
-    },
-    {
-      "word_id": "v11",
-      "term": "hǔ-kɔ́lɔŋ",
-      "phonetic_api": "/hǔkɔ́lɔŋ/",
-      "phonetic_simple": "hou-KO-long",
-      "translation": "apprendre (une nouvelle), être informé",
-      "example_sentence": "Ŋàa é pámɛni hùkɔ́lɔŋ.",
-      "example_phonetic": "/ŋàa é pámɛni hùkɔ́lɔŋ/",
-      "example_translation": "J'ai su que tu viendrais."
-    },
-    {
-      "word_id": "v12",
-      "term": "zɛ̀ɓɛ́",
-      "phonetic_api": "/zɛ̀ɓɛ́/",
-      "phonetic_simple": "zè-ɓÉ",
-      "translation": "livre",
-      "example_sentence": "Gáa zɛ̀ɓɛ́ ↓lónoŋzî.",
-      "example_phonetic": "/gáa zɛ̀ɓɛ́ ↓lónoŋzí/",
-      "example_translation": "Je suis en train de lire le livre."
-    },
-    {
-      "word_id": "v13",
-      "term": "lónoŋ",
-      "phonetic_api": "/lónoŋ/",
-      "phonetic_simple": "LO-nong",
-      "translation": "compter ; aussi lire",
-      "example_sentence": "Gáa zɛ̀ɓɛ́ ↓lónoŋzî.",
-      "example_phonetic": "/gáa zɛ̀ɓɛ́ ↓lónoŋzí/",
-      "example_translation": "Je suis en train de lire le livre."
-    },
-    {
-      "word_id": "v14",
-      "term": "màatii",
-      "phonetic_api": "/màatii/",
-      "phonetic_simple": "ma-a-TI-i",
-      "translation": "devoir, occupation",
-      "example_sentence": "màatii",
-      "example_phonetic": "/màatii/",
-      "example_translation": "devoir, occupation"
-    },
-    {
-      "word_id": "v15",
-      "term": "hwólo",
-      "phonetic_api": "/hwólo/",
-      "phonetic_simple": "HWO-lo",
-      "translation": "soleil ; jour",
-      "example_sentence": "Hwólo àá mìhéɠe.",
-      "example_phonetic": "/hwólo àá mìhéɣe/",
-      "example_translation": "Le soleil s'est levé."
-    },
-    {
-      "word_id": "v16",
-      "term": "tínaa",
-      "phonetic_api": "/tínaa/",
-      "phonetic_simple": "TI-naa",
-      "translation": "demain",
-      "example_sentence": "Gáa ŋwɔ́ tíi yée tɔ̀ɔî tínaa.",
-      "example_phonetic": "/gáa ŋwɔ́ tíi yée tɔ̀ɔî tínaa/",
-      "example_translation": "Demain, je vais commencer le travail."
+      "term": "lókòlo",
+      "phonetic_api": "/lókòlo/",
+      "phonetic_simple": "LO-ko-lo",
+      "translation": "enfant (aussi utilisé pour désigner un jeune apprenti)",
+      "example_sentence": "Ŋá lókòlo ǎ kwɛ̌lɛ kɛ́.",
+      "example_phonetic": "/ŋá lókòlo ǎ kwɛ̌lɛ kɛ́/",
+      "example_translation": "Mon enfant tisse habituellement."
     }
   ],
   "common_phrases": [
     {
       "phrase_id": "p1",
-      "original": "Hwólo àá mìhéɠe.",
-      "phonetic_api": "/hwólo àá mìhéɣe/",
-      "phonetic_simple": "HWO-lo a-a mi-HÉ-ghè",
-      "translation": "Le soleil s'est levé.",
-      "context": "Décrire le tout début de la journée"
+      "original": "Ŋǎ kólô kɛ́ kélee.",
+      "phonetic_api": "/ŋǎ kólô kɛ́ kélee/",
+      "phonetic_simple": "ngwa KO-lô KÉ KÉ-lè-è",
+      "translation": "Je travaille chaque jour.",
+      "context": "Routine professionnelle exprimée avec l'aspect habituel (série IV du Tableau 10)."
     },
     {
       "phrase_id": "p2",
-      "original": "Ŋé míhèɠe.",
-      "phonetic_api": "/ŋé míhèɣe/",
-      "phonetic_simple": "ngé MI-hè-ghè",
-      "translation": "Je me lève.",
-      "context": "Décrire sa propre routine matinale"
+      "original": "Ŋá màatii ɓáa kólô.",
+      "phonetic_api": "/ŋá màatii ɓáa kólô/",
+      "phonetic_simple": "nga MA-a-TI-i ba KO-lô",
+      "translation": "Mon occupation, c'est le travail.",
+      "context": "Réutilise màatii (devoir/occupation) déjà vu en B1_M2_L5."
     },
     {
       "phrase_id": "p3",
-      "original": "Gáa ŋwɔ́ tíi yée tɔ̀ɔî tínaa.",
-      "phonetic_api": "/gáa ŋwɔ́ tíi yée tɔ̀ɔî tínaa/",
-      "phonetic_simple": "gaa ngwo TI-i YÉ-è to-o-i TI-naa",
-      "translation": "Demain, je vais commencer le travail.",
-      "context": "Annoncer le début d'une nouvelle activité professionnelle"
+      "original": "Àa gbáaŋ gɛ́ zàla à yèle kélee.",
+      "phonetic_api": "/àa gbáaŋ gɛ́ zàla à yèle kélee/",
+      "phonetic_simple": "a-a GBA-ang ghé ZA-la a YÈ-lè KÉ-lè-è",
+      "translation": "Il m'a obligé à lui payer chaque jour.",
+      "context": "Phrase attestée dans le dictionnaire, illustrant une routine professionnelle contraignante."
     },
     {
       "phrase_id": "p4",
-      "original": "Gáa kólô kɛ́i.",
-      "phonetic_api": "/gáa kólô kɛ́í/",
-      "phonetic_simple": "gaa KO-lô KÈ-i",
-      "translation": "Je travaille.",
-      "context": "Décrire une activité professionnelle en cours"
+      "original": "Kìikâ ~ kɛ́.",
+      "phonetic_api": "/kìikâ kɛ́/",
+      "phonetic_simple": "KI-i-ka KÉ",
+      "translation": "Tenir conseil, se concerter.",
+      "context": "Expression figée pour une réunion professionnelle ou une concertation."
     },
     {
       "phrase_id": "p5",
-      "original": "Gàá à kólo-↓kɛ́-mùŋ.",
-      "phonetic_api": "/gàá à kólò ↓kɛ́mùŋ/",
-      "phonetic_simple": "gaa a KÓ-lo kÉ-moung",
-      "translation": "Il est ouvrier.",
-      "context": "Présenter le métier de quelqu'un (rappel Leçon 2)"
-    },
-    {
-      "phrase_id": "p6",
-      "original": "Gáa kpɛ̀lɛɛwoo màakwɛ́lîi.",
-      "phonetic_api": "/gáa kpɛ̀lɛɛwoo màakwɛ́lîi/",
-      "phonetic_simple": "gaa KPÈ-lè-è-wo-o ma-a-KWÈ-lî-i",
-      "translation": "J'apprends le kpele.",
-      "context": "Parler de ses propres études"
-    },
-    {
-      "phrase_id": "p7",
-      "original": "Ŋàa é pámɛni hùkɔ́lɔŋ.",
-      "phonetic_api": "/ŋàa é pámɛni hùkɔ́lɔŋ/",
-      "phonetic_simple": "nga-a é PA-mè-ni hou-KO-long",
-      "translation": "J'ai su que tu viendrais.",
-      "context": "Rapporter une information reçue"
-    },
-    {
-      "phrase_id": "p8",
-      "original": "Gáa zɛ̀ɓɛ́ ↓lónoŋzî.",
-      "phonetic_api": "/gáa zɛ̀ɓɛ́ ↓lónoŋzí/",
-      "phonetic_simple": "gaa zè-ɓÉ lo-NONG-zi",
-      "translation": "Je suis en train de lire le livre.",
-      "context": "Décrire une activité d'étude en cours"
-    },
-    {
-      "phrase_id": "p9",
-      "original": "Ɲàákɔ̀i à ɓɔ́luɓo ↓kɛ́.",
-      "phonetic_api": "/ɲàákɔ̀i à ɓɔ́luɓo ↓kɛ́/",
-      "phonetic_simple": "nyaa-KO-i a BO-lou-bo ké",
-      "translation": "Nyaakwei soigne les gens (comme son métier).",
-      "context": "Décrire le métier de quelqu'un (rappel Leçon 2)"
-    },
-    {
-      "phrase_id": "p10",
-      "original": "Hwókɛli yà kɔ́nɔŋ mîi, élɛɛ é pái ↓kólo ↓kɛ̂i.",
-      "phonetic_api": "/hwókɛli yà kɔ́nɔŋ mîi élɛɛ é pái ↓kólo ↓kɛ̂i/",
-      "phonetic_simple": "HWO-kè-li ya KO-nong MI-i, É-lè-è é PA-i KO-lo kê-i",
-      "translation": "Tu dois manger, puis tu travailleras.",
-      "context": "Donner une consigne de routine quotidienne (rappel Leçon 7)"
+      "original": "Ŋá lókòlo ǎ kwɛ̌lɛ kɛ́.",
+      "phonetic_api": "/ŋá lókòlo ǎ kwɛ̌lɛ kɛ́/",
+      "phonetic_simple": "nga LO-ko-lo a KWÈ-lè KÉ",
+      "translation": "Mon enfant tisse habituellement (au métier à tisser).",
+      "context": "Exemple d'activité artisanale traditionnelle, avec l'aspect habituel 3SG (ǎ)."
     }
   ],
   "grammar_points": [
     {
-      "concept": "Le préfixe réfléchi mǐ-/mǔ- et mǎa-",
-      "explanation": "Plusieurs verbes de routine et d'état se construisent avec un préfixe qui marque le retour de l'action sur le sujet lui-même (proche d'un réfléchi français) ou une extension figurée du verbe de base.",
+      "concept": "L'aspect habituel (routine)",
+      "explanation": "Pour exprimer une routine ou une habitude régulière (comme un travail quotidien), le guerzé utilise les marqueurs prédicatifs de la série IV « Habituel » du Tableau 10 (ŋǎ 1SG, yǎ 2SG, ǎ 3SG, gwǎ 1INCL, kwǎ 1EXCL, kǎ 2PL, dǎ 3PL).",
       "rules": [
-        "mǐ-hěɠe (se lever) : mǐ- + hěɠe (quitter, Leçon 2) — « se quitter [du lit] », soit se lever.",
-        "mǎa-kwɛ́lî (apprendre) suit le même schéma de préfixation que mǎa-kwéâ (être loin) et mǎa-wólôŋ (être triste), déjà rencontrés.",
-        "Ce préfixe aide à repérer immédiatement qu'un verbe est composé, même sans en connaître le sens exact."
+        "Sujet + [marqueur habituel] + Objet + Verbe = action habituelle, routine.",
+        "ŋǎ kólô kɛ́ kélee = je travaille chaque jour (habituel, 1SG)."
       ],
       "examples": [
         {
-          "structure": "mǐ-hěɠe / mǎa-kwɛ́lî",
-          "phonetic_api": "/mǐhěɣe/ /mǎakwɛ́lî/",
-          "meaning": "se lever / apprendre"
-        }
-      ]
-    },
-    {
-      "concept": "Deux verbes pour « apprendre » : mǎa-kwɛ́lî et hǔ-kɔ́lɔŋ",
-      "explanation": "Le kpele distingue nettement apprendre une compétence ou une matière (mǎa-kwɛ́lî) d'apprendre une information, une nouvelle (hǔ-kɔ́lɔŋ).",
-      "rules": [
-        "mǎa-kwɛ́lî s'emploie pour un savoir-faire ou une langue : gáa kpɛ̀lɛɛwoo màakwɛ́lîi (j'apprends le kpele).",
-        "hǔ-kɔ́lɔŋ s'emploie pour être informé d'un fait : ŋàa é pámɛni hùkɔ́lɔŋ (j'ai su que tu viendrais).",
-        "Ne pas confondre ces deux verbes est essentiel pour parler correctement de ses études par opposition à ses sources d'information."
-      ],
-      "examples": [
-        {
-          "structure": "mǎa-kwɛ́lî vs hǔ-kɔ́lɔŋ",
-          "phonetic_api": "/mǎakwɛ́lî/ vs /hǔkɔ́lɔŋ/",
-          "meaning": "apprendre une compétence vs apprendre une nouvelle"
-        }
-      ]
-    },
-    {
-      "concept": "Récapitulatif : les noms de métier en -mùŋ",
-      "explanation": "Cette leçon consolide le suffixe agentif -mùŋ vu en Leçon 2, en l'appliquant à un plus grand nombre de métiers traditionnels.",
-      "rules": [
-        "kólo-kɛ́-mùŋ (travailleur), kwɛ̀líyɔ̀u-mûŋ (forgeron) suivent tous deux le schéma [activité]-mùŋ.",
-        "Certains métiers, comme híɓaɠâ (guérisseur) ou lǒzo (chasseur), restent des noms simples sans ce suffixe, ce qui montre que -mùŋ n'est pas systématique pour tous les métiers.",
-        "On peut aussi décrire un métier par l'activité elle-même (híŋ, cultiver), sans passer par un nom de métier du tout."
-      ],
-      "examples": [
-        {
-          "structure": "kólo-kɛ́-mùŋ / kwɛ̀líyɔ̀u-mûŋ / híɓaɠâ",
-          "phonetic_api": "/kólò kɛ́mùŋ/ /kwɛ̀líyɔ̀umûŋ/ /híɓaɣâ/",
-          "meaning": "travailleur / forgeron / guérisseur"
-        }
-      ]
-    },
-    {
-      "concept": "Commencer et enchaîner sa routine avec yée-tɔ̌ɔ",
-      "explanation": "yée-tɔ̌ɔ (commencer le travail) se combine naturellement avec le futur (Leçon 5) et le connecteur élɛɛ (Leçon 4) pour raconter une journée de travail complète.",
-      "rules": [
-        "tínaa gáa ŋwɔ́ tíi yée tɔ̀ɔî = demain, je vais commencer le travail.",
-        "On peut enchaîner : se réveiller (ŋwúŋ) → se lever (mǐ-hěɠe) → commencer le travail (yée-tɔ̌ɔ) → travailler (kólô kɛ́), une routine complète construite entièrement avec le vocabulaire déjà connu."
-      ],
-      "examples": [
-        {
-          "structure": "ŋwúŋ → mǐ-hěɠe → yée-tɔ̌ɔ → kólô kɛ́",
-          "phonetic_api": "/ŋwúŋ/ /mǐhěɣe/ /yéetɔ̌ɔ/ /kólô kɛ́/",
-          "meaning": "se réveiller → se lever → commencer le travail → travailler"
+          "structure": "ŋǎ kólô kɛ́ kélee",
+          "phonetic_api": "/ŋǎ kólô kɛ́ kélee/",
+          "meaning": "je travaille chaque jour (routine)"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Personne A",
-      "text": "Yàa ŋwúŋ ?",
-      "phonetic_api": "/yàa ŋwúŋ/",
-      "phonetic_simple": "YAA ngwoung ?",
-      "translation": "Bonjour ! (T'es-tu réveillé ?)"
+      "speaker": "Hehee",
+      "text": "É kólô kɛ́ kélee ?",
+      "phonetic_api": "/é kólô kɛ́ kélee/",
+      "phonetic_simple": "é KO-lô KÉ KÉ-lè-è",
+      "translation": "Travailles-tu chaque jour ?"
     },
     {
-      "speaker": "Personne B",
-      "text": "Ŋàá mɛ̌ŋ, ŋé míhèɠe kɛ̀â.",
-      "phonetic_api": "/ŋàá mɛ̌ŋ ŋé míhèɣe kɛ̀â/",
-      "phonetic_simple": "nga-a MENG, ngé MI-hè-ghè kè-â",
-      "translation": "Oui, je me lève à ce moment."
+      "speaker": "Pépé",
+      "text": "Òowɛi, ŋǎ kólô kɛ́ kélee. Ŋá màatii ɓáa kólô.",
+      "phonetic_api": "/òowɛi ŋǎ kólô kɛ́ kélee ŋá màatii ɓáa kólô/",
+      "phonetic_simple": "o-wè-i ngwa KO-lô KÉ KÉ-lè-è, nga MA-a-TI-i ba KO-lô",
+      "translation": "Oui, je travaille chaque jour. Mon occupation, c'est le travail."
     },
     {
-      "speaker": "Personne A",
-      "text": "É pái mí kɛ̂i tínaa ?",
-      "phonetic_api": "/é pái mí kɛ̂i tínaa/",
-      "phonetic_simple": "é PA-i mi kê-i TI-naa ?",
-      "translation": "Que vas-tu faire demain ?"
+      "speaker": "Hehee",
+      "text": "Ŋá lókòlo ǎ kwɛ̌lɛ kɛ́ ɓɛ̀lɛhǎa mà.",
+      "phonetic_api": "/ŋá lókòlo ǎ kwɛ̌lɛ kɛ́ ɓɛ̀lɛhǎa mà/",
+      "phonetic_simple": "nga LO-ko-lo a KWÈ-lè KÉ BÈ-lè-HA-a ma",
+      "translation": "Mon enfant tisse habituellement de la cotonnade."
     },
     {
-      "speaker": "Personne B",
-      "text": "Gáa ŋwɔ́ tíi yée tɔ̀ɔî tínaa, élɛɛ gáa kpɛ̀lɛɛwoo màakwɛ́lîi.",
-      "phonetic_api": "/gáa ŋwɔ́ tíi yée tɔ̀ɔî tínaa élɛɛ gáa kpɛ̀lɛɛwoo màakwɛ́lîi/",
-      "phonetic_simple": "gaa ngwo TI-i YÉ-è to-o-i TI-naa, É-lè-è gaa KPÈ-lè-è-wo-o ma-a-KWÈ-lî-i",
-      "translation": "Je vais commencer le travail demain, puis j'apprends le kpele."
-    },
-    {
-      "speaker": "Personne A",
-      "text": "Gàá à kólo-↓kɛ́-mùŋ, ↓ɓé é káa bɔ̀ ?",
-      "phonetic_api": "/gàá à kólò ↓kɛ́mùŋ ↓ɓé é káa bɔ̀/",
-      "phonetic_simple": "gaa a KÓ-lo kÉ-moung, bé é kaa bo ?",
-      "translation": "Tu veux devenir ouvrier ?"
-    },
-    {
-      "speaker": "Personne B",
-      "text": "Ŋàá mɛ̌ŋ. Gáa zɛ̀ɓɛ́ ↓lónoŋzî máŋ.",
-      "phonetic_api": "/ŋàá mɛ̌ŋ gáa zɛ̀ɓɛ́ ↓lónoŋzí máŋ/",
-      "phonetic_simple": "nga-a MENG. gaa zè-ɓÉ lo-NONG-zi mang",
-      "translation": "Oui. Je lis aussi le livre."
-    },
-    {
-      "speaker": "Personne A",
-      "text": "Máma, mɛ́niê !",
-      "phonetic_api": "/máma mɛ́niê/",
-      "phonetic_simple": "MA-ma MÉ-ni-Ê",
-      "translation": "Merci, mon ami !"
+      "speaker": "Pépé",
+      "text": "Kìikâ ~ kɛ́ kélee wɛ̀ɛ.",
+      "phonetic_api": "/kìikâ kɛ́ kélee wɛ̀ɛ/",
+      "phonetic_simple": "KI-i-ka KÉ KÉ-lè-è wè-è",
+      "translation": "Nous nous concertons aussi chaque jour."
     }
   ],
   "cultural_notes": [
-    "La distinction entre ŋwúŋ (se réveiller) et mǐ-hěɠe (se lever) rappelle que, dans un village kpele traditionnel, le lever est rythmé par le soleil (hwólo àá mìhéɠe, le soleil s'est levé) plutôt que par une heure fixe.",
-    "Le suffixe -mùŋ, déjà vu en Leçon 2, continue de structurer le vocabulaire des métiers modernes comme traditionnels, montrant la vitalité de ce procédé grammatical au-delà des professions rurales.",
-    "L'existence de deux verbes distincts pour « apprendre » (mǎa-kwɛ́lî pour une compétence, hǔ-kɔ́lɔŋ pour une information) reflète une distinction culturelle entre le savoir-faire transmis par la pratique et la nouvelle transmise par la parole.",
-    "L'exemple même utilisé par le dictionnaire pour illustrer mǎa-kwɛ́lî — gáa kpɛ̀lɛɛwoo màakwɛ́lîi, « j'apprends le kpele » — montre que l'apprentissage de la langue elle-même occupe une place symbolique dans la documentation de cette langue."
+    "Le tissage traditionnel (kwɛ̌lɛ) de la cotonnade ɓɛ̀lɛhǎa constitue une activité artisanale importante liée aux échanges matrimoniaux (dot) dans la culture guerzé (Konoshenko 2019).",
+    "La distinction entre màatii (devoir/occupation personnelle) et kólô (travail en général) illustre la richesse du vocabulaire guerzé pour parler des activités quotidiennes et professionnelles."
   ],
   "exercises": [
     {
       "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quelle est la différence entre ŋwúŋ et mǐ-hěɠe ?",
+      "question": "Quel marqueur prédicatif exprime une routine habituelle à la 1ère personne du singulier ?",
       "options": [
-        "Aucune différence",
-        "ŋwúŋ = se réveiller, mǐ-hěɠe = se lever",
-        "ŋwúŋ = se lever, mǐ-hěɠe = se réveiller",
-        "Ce sont deux mots pour « travailler »"
+        "ŋǎ",
+        "ŋé",
+        "ŋǎa"
       ],
-      "correct_answer": "ŋwúŋ = se réveiller, mǐ-hěɠe = se lever",
-      "explanation": "Ce sont deux étapes distinctes de la routine matinale, que le français regroupe parfois sous un seul verbe."
+      "correct_answer": "ŋǎ",
+      "explanation": "ŋǎ appartient à la série IV « Habituel » du Tableau 10 de Konoshenko (2019), distincte du marqueur de base ŋé et du résultatif ŋǎa."
     },
     {
       "exercise_id": "ex2",
-      "type": "multiple_choice",
-      "question": "Quel verbe utilise-t-on pour « apprendre le kpele » ?",
-      "options": [
-        "hǔ-kɔ́lɔŋ",
-        "mǎa-kwɛ́lî",
-        "yée-tɔ̌ɔ",
-        "lónoŋ"
-      ],
-      "correct_answer": "mǎa-kwɛ́lî",
-      "explanation": "mǎa-kwɛ́lî s'emploie pour apprendre une compétence ou une langue, comme dans gáa kpɛ̀lɛɛwoo màakwɛ́lîi."
-    },
-    {
-      "exercise_id": "ex3",
-      "type": "multiple_choice",
-      "question": "Que signifie yée-tɔ̌ɔ ?",
-      "options": [
-        "Se réveiller",
-        "Commencer le travail",
-        "Lire un livre",
-        "Être ouvrier"
-      ],
-      "correct_answer": "Commencer le travail",
-      "explanation": "yée-tɔ̌ɔ signifie précisément « commencer », employé notamment pour le travail."
-    },
-    {
-      "exercise_id": "ex4",
-      "type": "multiple_choice",
-      "question": "Quel métier suit le schéma [activité]-mùŋ ?",
-      "options": [
-        "híɓaɠâ (guérisseur)",
-        "lǒzo (chasseur)",
-        "kwɛ̀líyɔ̀u-mûŋ (forgeron)",
-        "màatii (devoir)"
-      ],
-      "correct_answer": "kwɛ̀líyɔ̀u-mûŋ (forgeron)",
-      "explanation": "kwɛ̀líyɔ̀u-mûŋ suit le suffixe agentif -mùŋ vu en Leçon 2, contrairement à híɓaɠâ ou lǒzo."
-    },
-    {
-      "exercise_id": "ex5",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "« Le soleil s'est levé » se dit : « Hwólo áa [ ___ ]. »",
-      "correct_answer": "mìhéɠe",
-      "hint": "C'est le verbe « se lever »."
-    },
-    {
-      "exercise_id": "ex6",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "« J'ai su que tu viendrais » se dit : « Ŋàa é pámɛni [ ___ ]. »",
-      "correct_answer": "hùkɔ́lɔŋ",
-      "hint": "C'est le verbe « apprendre une nouvelle »."
-    },
-    {
-      "exercise_id": "ex7",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "« Je suis en train de lire le livre » se dit : « Gáa [ ___ ] ↓lónoŋzî. »",
-      "correct_answer": "zɛ̀ɓɛ́",
-      "hint": "C'est le nom « livre »."
+      "sentence_with_blank": "Ŋá lókòlo [ ___ ] kwɛ̌lɛ kɛ́. (Mon enfant tisse habituellement.)",
+      "correct_answer": "ǎ",
+      "hint": "Marqueur habituel de la 3e personne du singulier."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Konoshenko, M. (2019). Dictionnaire kpele de la Guinée (guerzé) – français. Mandenkan 62.",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan62/62konoshenko.pdf"
+    },
+    {
+      "label": "Wikipédia — Kpèllé (langue) / Guerzé",
+      "url": "https://fr.wikipedia.org/wiki/Guerze"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Le marqueur de l'aspect habituel (Tableau 10) et les mots kólô, màatii, kwɛ̌lɛ sont directement attestés dans Konoshenko (2019). Les phrases combinant ces éléments en contexte de « routine professionnelle » sont composées par l'auteur à partir de vocabulaire attesté séparément ; aucune phrase toute faite sur ce thème précis n'existait dans le dictionnaire."
 }

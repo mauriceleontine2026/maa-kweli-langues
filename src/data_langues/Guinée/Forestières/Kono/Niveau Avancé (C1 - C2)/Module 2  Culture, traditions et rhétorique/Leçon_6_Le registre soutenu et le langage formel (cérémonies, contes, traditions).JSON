@@ -1,170 +1,218 @@
 {
   "lesson_id": "C1_M2_L6",
-  "level": "Niveau Avancé (C1-C2)",
+  "level": "Avancé (C1-C2)",
   "module_number": 2,
   "module_title": "Culture, traditions et rhétorique",
   "lesson_number": 6,
   "title": "Le registre soutenu et le langage formel (cérémonies, contes, traditions)",
   "learning_objectives": [
-    "Maîtriser les formules d'ouverture et de fermeture des contes traditionnels konon",
-    "Employer les expressions honorifiques adaptées aux cérémonies et rituels à Lola",
-    "Utiliser le lexique de la solennité, des bénédictions et du sacré"
+    "Utiliser les formules de salutation et de politesse au pluriel en contexte cérémoniel",
+    "Reconnaître le rôle du kpele/kono dans les contes et récits traditionnels",
+    "Identifier les limites de la documentation sur le registre formel du kono"
   ],
   "phonetic_focus": {
-    "key_sounds": "L'expression rituelle 'màyá-màyá' (bénédiction) requiert des voyelles antérieures ouvertes bien nettes. Le phonème /v/ dans 'vóòn' s'accompagne d'un allongement vocalique nasalisé à ton bas, indispensable pour marquer la solennité.",
-    "common_pitfalls": "Ne pas prononcer de manière hachée les formules rituelles sacrées. Elles doivent être déclamées d'un ton chantant, fluide et continu."
+    "key_sounds": "Le registre cérémoniel privilégie systématiquement les formes plurielles de politesse (ka-) même en s'adressant symboliquement à une seule autorité, une convention attestée dans les salutations kono.",
+    "common_pitfalls": "Utiliser par erreur la forme singulière (é-) envers une assemblée ou une autorité écoute peut sembler familier ou irrespectueux dans un contexte cérémoniel."
   },
   "vocabulary": [
     {
-      "word_id": "v6_1",
-      "term": "màyá-màyá",
-      "phonetic_api": "/mà.já.mà.já/",
-      "phonetic_simple": "MA-YA-MA-YA",
-      "translation": "les bénédictions / la grâce / l'onction spirituelle",
-      "example_sentence": "àá ɓɛ́ màyá-màyá fɛ́ɛ́á ɓɔ́",
-      "phonetic_api_example": "/àː ɓɛ́ mà.já.mà.já fɛ́ː.á ɓɔ́/",
-      "example_translation": "Nous demandons les bénédictions ici."
+      "word_id": "v1",
+      "term": "Kaà ŋúŋ?",
+      "phonetic_api": "/kaː ŋúŋ/",
+      "phonetic_simple": "KAA-NOUNG",
+      "translation": "Bonjour (forme plurielle/respectueuse, kono attesté)",
+      "example_sentence": "Kaà ŋúŋ, kaá nu kɔ́lɔ!",
+      "example_phonetic": "/kaː ŋúŋ kaá nu kɔ́lɔ/",
+      "example_translation": "Bonjour à vous, personnes importantes !"
     },
     {
-      "word_id": "v6_2",
-      "term": "vóòn",
-      "phonetic_api": "/vóːn/",
-      "phonetic_simple": "VOON",
-      "translation": "les ancêtres / les esprits protecteurs / la lignée sacrée",
-      "example_sentence": "vóòn-wóò káá lɔ́ gí kpaán",
-      "phonetic_api_example": "/vóːn.wóː káː lɔ́ ɡí k͡pāːn/",
-      "example_translation": "La parole des ancêtres est éternellement ancrée ici."
+      "word_id": "v2",
+      "term": "Ka máma!",
+      "phonetic_api": "/ka mámá/",
+      "phonetic_simple": "KA-MAMA",
+      "translation": "Merci (forme plurielle/respectueuse, kono attesté)",
+      "example_sentence": "Ka máma ka hɛɣɛ!",
+      "example_phonetic": "/ka mámá ka hɛɣɛ/",
+      "example_translation": "Merci beaucoup à vous tous !"
     },
     {
-      "word_id": "v6_3",
-      "term": "pɔ́-tɛ́ɛ́",
-      "phonetic_api": "/pɔ́.tɛ́ː/",
-      "phonetic_simple": "PO-TEE",
-      "translation": "le conte / le récit mythologique / la parabole",
-      "example_sentence": "ń bɛ́ pɔ́-tɛ́ɛ́ lɔ́-wòò ɓɔ́á míé",
-      "phonetic_api_example": "/ń ɓɛ́ pɔ́.tɛ́ː lɔ̀.wòː ɓɔ́.á mí.é/",
-      "example_translation": "Je vais déclamer un conte traditionnel à présent."
+      "word_id": "v3",
+      "term": "kaá",
+      "phonetic_api": "/kaá/",
+      "phonetic_simple": "KAA",
+      "translation": "vous (pronom fort pluriel, kono attesté), forme respectueuse par excellence",
+      "example_sentence": "Kaá nú kɔ́lɔ.",
+      "example_phonetic": "/kaá nú kɔ́lɔ/",
+      "example_translation": "Vous êtes des personnes importantes."
     },
     {
-      "word_id": "v6_4",
-      "term": "gbɛ́lɛ́-wóò",
-      "phonetic_api": "/ɡ͡ɓɛ́.lɛ́.wóː/",
-      "phonetic_simple": "GBE-LE-WOO",
-      "translation": "la parole solennelle / le discours d'apparat",
-      "example_sentence": "á bɛ́ gbɛ́lɛ́-wóò kɛ́á gáá-wòò",
-      "phonetic_api_example": "/á ɓɛ́ ɡ͡ɓɛ́.lɛ́.wóː kɛ́.á ɡáː.wòː/",
-      "example_translation": "Il prononce le discours d'apparat ce soir."
+      "word_id": "v4",
+      "term": "gɔẁá",
+      "phonetic_api": "/gɔ̀wá/",
+      "phonetic_simple": "GO-OUA",
+      "translation": "nous (inclusif, kono attesté), utilisé pour souder l'assemblée dans un discours cérémoniel",
+      "example_sentence": "Gɔẁá klɔ́ŋ hɛ́ɣɛ.",
+      "example_phonetic": "/gɔ̀wá klɔ́ŋ hɛ́ɣɛ/",
+      "example_translation": "Nous (tous ensemble) savons beaucoup."
+    },
+    {
+      "word_id": "v5",
+      "term": "nú kɔ́lɔ",
+      "phonetic_api": "/nú kɔ́lɔ/",
+      "phonetic_simple": "NOU KO-LO",
+      "translation": "personne importante, grande personne (kpele apparenté), titre honorifique informel",
+      "example_sentence": "Kaá nú kɔ́lɔ Lɔ̀raà pɔ́.",
+      "example_phonetic": "/kaá nú kɔ́lɔ lɔ̀raː pɔ́/",
+      "example_translation": "Vous êtes des personnes importantes à Lola."
+    },
+    {
+      "word_id": "v6",
+      "term": "É túga!",
+      "phonetic_api": "/é túɡá/",
+      "phonetic_simple": "É-TOUGA",
+      "translation": "Bon après-midi (forme respectueuse, kono attesté)",
+      "example_sentence": "Ka túgâ, ma ŕaŋaà!",
+      "example_phonetic": "/ka túɡâ maɾaŋaː/",
+      "example_translation": "Bon après-midi à vous, mes chers amis !"
+    },
+    {
+      "word_id": "v7",
+      "term": "hɛ́ɣɛ",
+      "phonetic_api": "/hɛ́ɣɛ/",
+      "phonetic_simple": "HÉ-GHÉ",
+      "translation": "beaucoup, grandement (kono attesté), intensificateur du registre solennel",
+      "example_sentence": "Ka máma é hɛ́ɣɛ!",
+      "example_phonetic": "/ka mámá é hɛ́ɣɛ/",
+      "example_translation": "Merci grandement à vous !"
+    },
+    {
+      "word_id": "v8",
+      "term": "kɔ́lɔ (ancien/sage)",
+      "phonetic_api": "/kɔ́lɔ/",
+      "phonetic_simple": "KO-LO",
+      "translation": "grand, ancien, digne (kpele apparenté), titre implicite d'autorité dans le discours formel",
+      "example_sentence": "Nú kɔ́lɔ dɛ́ klɔŋ́ hɛ́ɣɛ.",
+      "example_phonetic": "/nú kɔ́lɔ dɛ́ klɔ́ŋ hɛ́ɣɛ/",
+      "example_translation": "Les sages/anciens en savent beaucoup."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p6_1",
-      "original": "vóòn-mɔ̀ɔ̀ wá màyá-màyá ɓɔ́ àá yíé kpaán !",
-      "phonetic_api": "/vóːn.mɔ̀ː wá mà.já.mà.já ɓɔ́ àː jí.é k͡pāːn/",
-      "phonetic_simple": "VOON-MOO WA MA-YA-MA-YA BO AA YIEE KPAAN",
-      "translation": "Que les esprits de nos ancêtres répandent leurs bénédictions sur nous à jamais !",
-      "context": "Formule d'ouverture ou de clôture incontournable lors d'une cérémonie coutumière."
+      "phrase_id": "p1",
+      "original": "Kaà ŋúŋ, kaá nu kɔ́lɔ!",
+      "phonetic_api": "/kaː ŋúŋ kaá nu kɔ́lɔ/",
+      "phonetic_simple": "KAA-NOUNG, KAA NOU KO-LO",
+      "translation": "Bonjour à vous, personnes importantes !",
+      "context": "Salutation cérémonielle formelle adressée à une assemblée ou une autorité, utilisant systématiquement la forme plurielle."
     },
     {
-      "phrase_id": "p6_2",
-      "original": "pɔ́-tɛ́ɛ́ lɔ́-ò lɔ́, à gbíán káá míé-mìè yíé",
-      "phonetic_api": "/pɔ́.tɛ́ː lɔ́.ò lɔ́ à ɡ͡ɓí.án káː mí.é.mì.è jí.é/",
-      "phonetic_simple": "PO-TEE LO-O LO A GBIAN KAA MIEE-MIEE YIEE",
-      "translation": "Le conte s'élève (commence), ses racines plongent dans la nuit des temps.",
-      "context": "Introduction poétique ritualisée utilisée par le griot ou le conteur."
+      "phrase_id": "p2",
+      "original": "Ka máma ka hɛɣɛ!",
+      "phonetic_api": "/ka mámá ka hɛɣɛ/",
+      "phonetic_simple": "KA-MAMA KA HÉ-GHÉ",
+      "translation": "Merci beaucoup à vous tous !",
+      "context": "Remerciement solennel de clôture, typique des discours de fin de cérémonie."
     },
     {
-      "phrase_id": "p6_3",
-      "original": "fɔ́ àá gbɛ́lɛ́-wóò mɛ̀ɛ̀ gíàn-gìàn lú gíán gboi gí",
-      "phonetic_api": "/fɔ́ àː ɡ͡ɓɛ́.lɛ́.wóː mɛ̀ː ɡí.àn.ɡì.àn lú ɡí.án ɡ͡ɓo.i ɡí/",
-      "phonetic_simple": "FO AA GBE-LE-WOO MEE GIAN-GIAN LOO GIAN GBOI GI",
-      "translation": "Nous devons écouter religieusement le discours d'apparat dans cette grande concession.",
-      "context": "Rappeler l'assemblée au silence solennel lors des rites funéraires ou des mariages."
+      "phrase_id": "p3",
+      "original": "Ka túgâ, ma ŕaŋaà!",
+      "phonetic_api": "/ka túɡâ maɾaŋaː/",
+      "phonetic_simple": "KA-TOUGA, MA-RA-NGA-A",
+      "translation": "Bon après-midi à vous, mes chers amis !",
+      "context": "Formule d'ouverture solennelle d'un discours ou d'une réunion communautaire l'après-midi."
     },
     {
-      "phrase_id": "p6_4",
-      "original": "wóò nìí, á káá gbɛ́lɛ́-wóò le, à tɛ́ sɔ̀sɔ́á lá",
-      "phonetic_api": "/wóː nìː á káː ɡ͡ɓɛ́.lɛ́.wóː le à tɛ́ sɔ̀.sɔ́.á lá/",
-      "phonetic_simple": "WOO NII A KAA GBE-LE-WOO LE A TE SOSOA LA",
-      "translation": "Cette parole est une sentence sacrée, elle ne saurait être contestée.",
-      "context": "Validation finale d'une décision par le conseil des anciens de Lola."
+      "phrase_id": "p4",
+      "original": "Gɔẁá klɔ́ŋ hɛ́ɣɛ.",
+      "phonetic_api": "/gɔ̀wá klɔ́ŋ hɛ́ɣɛ/",
+      "phonetic_simple": "GO-OUA KLONG HÉ-GHÉ",
+      "translation": "Nous savons tous beaucoup (à ce sujet), ensemble.",
+      "context": "Formule de clôture rassemblant l'assemblée autour d'un savoir partagé, usage du pronom inclusif à valeur unificatrice."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'expression du vœu pieux ou de l'optatif cérémoniel",
-      "explanation": "Pour formuler des bénédictions ou invoquer la protection des esprits, la langue konon utilise l'auxiliaire 'wá' (normalement dévolu au futur) combiné à un ton haut d'insistance mystique, projetant la prière dans une dimension intemporelle de réalisation sacrée.",
+      "concept": "L'emploi systématique du pluriel de respect",
+      "explanation": "Le kono attesté marque le registre formel/cérémoniel par l'emploi systématique des formes plurielles de salutation et de politesse (préfixe ka-, pronom kaá), même quand un seul destinataire éminent est visé, un procédé de respect similaire au vouvoiement français mais structurellement plus large (touchant aussi les salutations figées).",
       "rules": [
-        "Entité spirituelle/Sujet + wá + Bienfait recherché (verbe d'action) + Destinataire."
+        "Toute adresse formelle ou cérémonielle privilégie ka- plutôt que é- (singulier), même envers une seule personne d'autorité.",
+        "Le pronom inclusif gɔẁá renforce la cohésion communautaire dans un discours public, contrairement au pronom exclusif nɔẁá réservé aux contextes excluant l'auditoire.",
+        "Aucune documentation spécifique sur un registre grammatical cérémoniel distinct (vocabulaire rituel propre, formes verbales spéciales) n'a été trouvée pour le kono dans nos sources ; cette leçon se limite donc aux extensions attestées du système de politesse déjà documenté."
       ],
       "examples": [
         {
-          "structure": "vóòn wá í gbéé",
-          "phonetic_api": "/vóːn wá í ɡ͡ɓéː/",
-          "meaning": "Que les ancêtres te protègent / t'aiment."
-        }
-      ]
-    },
-    {
-      "concept": "L'emploi des suffixes d'emphase d'apparat '-kpaán'",
-      "explanation": "Dans le registre soutenu, le terme intensificateur 'kpaán' (vraiment/totalement) est accolé aux verbes ou postpositions pour sanctuariser l'immuabilité d'un fait ou d'une décision collective.",
-      "rules": [
-        "S'ajoute en fin de syntagme verbal pour accentuer le caractère éternel ou définitif du propos."
-      ],
-      "examples": [
-        {
-          "structure": "à lɔ́-ò kpaán",
-          "phonetic_api": "/à lɔ́.ò k͡pāːn/",
-          "meaning": "C'est définitivement scellé."
+          "structure": "Ka- + Salutation",
+          "phonetic_api": "/ka.../",
+          "meaning": "forme respectueuse/cérémonielle, même envers une personne"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Le Chef de Lignée",
-      "text": "Wáá mɛ̀ɛ̀ à gíí ! Gbɛ́lɛ́-wóò nìí, á káá vóòn-wóò le. Fɔ́ àá lɔ́ gbàn-wòò yíé kpaán.",
-      "phonetic_api": "/wáː mɛ̀ː à ɡíː ɡ͡ɓɛ́.lɛ́.wóː nìː á káː vóːn.wóː le fɔ́ àː lɔ́ ɡ͡ɓàn.wòː jí.é k͡pāːn/",
-      "phonetic_simple": "WAA MEE A GII GBE-LE-WOO NII A KAA VOON-WOO LE FO AA LO GBAN-WOO YIEE KPAAN",
-      "translation": "Écoutez-moi attentivement ! Ce discours d'apparat porte la voix de nos ancêtres. Nous devons absolument maintenir l'accord définitif."
+      "speaker": "Orateur (Sèni)",
+      "text": "Kaà ŋúŋ, kaá nu kɔ́lɔ Lɔ̀raà pɔ́!",
+      "phonetic_api": "/kaː ŋúŋ kaá nu kɔ́lɔ lɔ̀raː pɔ́/",
+      "phonetic_simple": "KAA-NOUNG, KAA NOU KO-LO LO-RAA PO",
+      "translation": "Bonjour à vous, personnes importantes de Lola !"
     },
     {
-      "speaker": "L'Assemblée",
-      "text": "Gáá-wɔ̀ɔ̀ ! Àá wá í wóò mɛ̀ɛ̀ gíàn-gìàn. Màyá-màyá fɔ́ á lɔ́ àá fɛ́.",
-      "phonetic_api": "/ɡáː.wɔ̀ː àː wá í wóː mɛ̀ː ɡí.àn.ɡì.àn mà.já.mà.já fɔ́ á lɔ́ àː fɛ́/",
-      "phonetic_simple": "GAA-WOO AA WA I WOO MEE GIAN-GIAN MA-YA-MA-YA FO A LO AA FEE",
-      "translation": "Assurément ! Nous recevons ta parole avec la plus grande sagesse. Que les bénédictions reposent sur nous."
+      "speaker": "Assemblée (Bala)",
+      "text": "Ěe, ka máma é hɛ́ɣɛ!",
+      "phonetic_api": "/ěː ka mámá é hɛ́ɣɛ/",
+      "phonetic_simple": "É-É, KA-MAMA É HÉ-GHÉ",
+      "translation": "Oui, merci grandement à vous !"
     },
     {
-      "speaker": "Le Chef de Lignée",
-      "text": "Vóòn-mɔ̀ɔ̀ wá màyá-màyá ɓɔ́ àá yíé kpaán ! Pɔ́-tɛ́ɛ́ lɔ́-ò lɔ́ míé !",
-      "phonetic_api": "/vóːn.mɔ̀ː wá mà.já.mà.já ɓɔ́ àː jí.é k͡pāːn pɔ́.tɛ́ː lɔ́.ò lɔ́ mí.é/",
-      "phonetic_simple": "VOON-MOO WA MA-YA-MA-YA BO AA YIEE KPAAN PO-TEE LO-O LO MIEE",
-      "translation": "Que les esprits de nos ancêtres répandent leurs bénédictions sur nous à jamais ! Que le rituel commence à présent !"
+      "speaker": "Orateur (Sèni)",
+      "text": "Gɔẁá klɔ́ŋ hɛ́ɣɛ, nú kɔ́lɔ dɛ́ klɔŋ́ hɛ́ɣɛ.",
+      "phonetic_api": "/gɔ̀wá klɔ́ŋ hɛ́ɣɛ nú kɔ́lɔ dɛ́ klɔ́ŋ hɛ́ɣɛ/",
+      "phonetic_simple": "GO-OUA KLONG HÉ-GHÉ, NOU KO-LO DÉ KLONG HÉ-GHÉ",
+      "translation": "Nous savons tous beaucoup, et les sages en savent encore davantage."
+    },
+    {
+      "speaker": "Assemblée (Bala)",
+      "text": "Ka túgâ, ma ŕaŋaà!",
+      "phonetic_api": "/ka túɡâ maɾaŋaː/",
+      "phonetic_simple": "KA-TOUGA, MA-RA-NGA-A",
+      "translation": "Bon après-midi à vous, chers amis !"
     }
   ],
   "cultural_notes": [
-    "Dans la région forestière de Lola, le langage formel ('gbɛ́ɛ́lɛ́-wóò') fait office de constitution orale. Lors de l'intronisation d'un chef traditionnel, des mariages sacrés ou des rituels agraires, les termes quotidiens sont proscrits au profit de concepts métaphoriques anciens. Faire référence aux ancêtres ('vóòn') valide le pouvoir temporel et rappelle à chaque membre de la communauté konon qu'il n'est qu'un maillon d'une chaîne spirituelle ininterrompue."
+    "Les cérémonies traditionnelles (mariages, funérailles, intronisations) dans la région forestière de Guinée s'ouvrent presque toujours par une série de salutations formelles adressées successivement aux différentes catégories de participants, en commençant par les plus âgés.",
+    "Les contes traditionnels (souvent en kpele ou en kono selon les zones) sont généralement racontés le soir, avec des formules d'ouverture et de clôture figées connues de toute la communauté ; ces formules spécifiques n'ont cependant pas pu être documentées précisément pour le kono dans les sources disponibles pour cette recherche, ce qui limite la confiance accordée à cette leçon."
   ],
   "exercises": [
     {
-      "exercise_id": "ex6_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Que désigne précisément le terme 'màyá-màyá' dans un rituel konon ?",
+      "question": "Quelle forme de salutation privilégie-t-on dans un registre cérémoniel, même envers une seule autorité ?",
       "options": [
-        "Une amende financière",
-        "Les bénédictions / la grâce spirituelle",
-        "Une dispute entre villages"
+        "La forme plurielle (ka-)",
+        "La forme singulière (é-)",
+        "Aucune forme spécifique n'existe"
       ],
-      "correct_answer": "Les bénédictions / la grâce spirituelle",
-      "explanation": "'màyá-màyá' qualifie l'onction positive, les souhaits de prospérité et la bienveillance des anciens."
+      "correct_answer": "La forme plurielle (ka-)",
+      "explanation": "Le préfixe pluriel ka- est utilisé par respect, même envers une seule personne d'autorité, dans le registre cérémoniel."
     },
     {
-      "exercise_id": "ex6_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "[ ___ ] wá màyá-màyá ɓɔ́ àá yíé kpaán (Que les ancêtres nous bénissent à jamais)",
-      "correct_answer": "vóòn-mɔ̀ɔ̀",
-      "hint": "Les esprits des ancêtres ou les personnes de la lignée sacrée"
+      "sentence_with_blank": "___ máma é hɛ́ɣɛ! (Merci grandement à vous !)",
+      "correct_answer": "Ka",
+      "hint": "Le préfixe pluriel/respectueux kono."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Maria Konoshenko, « Field Notes on Kono, a Southwestern Mande Lect of Forest Guinea », Mandenkan 57 (2017), pp. 77-107",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan57/konoshenko57.pdf"
+    },
+    {
+      "label": "Maria Konoshenko, « Dictionnaire kpele de la Guinée (guerzé) – français », Mandenkan 62 (2019/2020)",
+      "url": "https://journals.openedition.org/mandenkan/2091"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Peu de lexique Kono publié couvre ce champ sémantique précis. Le contenu s'appuie ici avec prudence sur le Kpelle de Guinée (guerzé, gkp), langue mandée du sud-ouest très proche du Kono (90% de cognats lexicaux selon Konoshenko 2017) et documentée par un dictionnaire académique de 3000 entrées. Les mots kpele sont signalés comme tels et pourraient différer légèrement du Kono authentique sur certains points de phonologie ou de lexique. Les formules de salutation plurielles/respectueuses sont directement attestées en kono ; leur usage étendu au registre cérémoniel formel (discours, contes) est une extension raisonnée, faute de documentation spécifique sur un registre rituel distinct en kono."
 }

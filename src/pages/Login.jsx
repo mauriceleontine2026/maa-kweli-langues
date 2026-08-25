@@ -29,7 +29,9 @@ export default function Login() {
         navigate("/", { replace: true });
       } catch (err) {
         const errorMessage = err instanceof Error ? err.message : "Connexion Google impossible";
-        setError(errorMessage);
+        setError(err?.status === 403 || errorMessage.toLowerCase().includes("email not verified")
+          ? "Votre adresse e-mail Google doit être confirmée avant d'accéder à l'application. Consultez votre boîte mail."
+          : errorMessage);
       } finally {
         setLoading(false);
       }
@@ -50,7 +52,9 @@ export default function Login() {
       const errorMessage = err instanceof Error
         ? err.message
         : "Connexion Google impossible";
-      setError(errorMessage);
+      setError(err?.status === 403 || errorMessage.toLowerCase().includes("email not verified")
+        ? "Votre adresse e-mail Google doit être confirmée avant d'accéder à l'application. Consultez votre boîte mail."
+        : errorMessage);
     } finally {
       setLoading(false);
     }
@@ -150,7 +154,7 @@ export default function Login() {
           >
             {resendLoading ? "Envoi..." : "Renvoyer l'e-mail de vérification"}
           </button>
-          {resendStatus ? <p className="mt-3 text-sm text-emerald-600">{resendStatus}</p> : null}
+          {resendStatus ? <p className={`mt-3 text-sm ${resendStatus.includes("envoyé") ? "text-emerald-600" : "text-destructive"}`}>{resendStatus}</p> : null}
         </div>
       ) : null}
     </AuthSplitPanel>

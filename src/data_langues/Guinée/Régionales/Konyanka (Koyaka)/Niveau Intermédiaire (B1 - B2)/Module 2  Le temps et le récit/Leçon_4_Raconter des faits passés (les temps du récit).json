@@ -6,185 +6,233 @@
   "lesson_number": 4,
   "title": "Raconter des faits passés (les temps du récit)",
   "learning_objectives": [
-    "Utiliser les suffixes de l'accompli pour les verbes intransitifs",
-    "Employer les marques du passé pour les verbes transitifs",
-    "Structurer un récit simple à l'aide d'adverbes de temps passés (hier, l'année dernière)"
+    "Former le passé accompli avec les marqueurs verbaux appropriés",
+    "Distinguer l'accompli affirmatif et négatif",
+    "Raconter une suite d'événements passés"
   ],
   "phonetic_focus": {
-    "key_sounds": "Le suffixe de l'accompli passif/intransitif '-ra' /ra/ s'articule avec un 'r' battu très doux. La particule du passé transitif 'ye' /jɛ/ ou /je/ nécessite une semi-voyelle brève sans allongement artificiel.",
-    "common_pitfalls": "Attention à ne pas omettre le changement de ton ou l'adjonction de la marque de l'accompli en fin de verbe. Par exemple, 'taa' (aller) devient 'taara' (est allé), ne confondez pas avec la racine simple."
+    "key_sounds": "Le marqueur d'accompli affirmatif '-ra/-la/-na' (selon harmonie consonantique/vocalique) se fixe directement au radical verbal, sans pause : 'taa' + 'ra' = 'tara' (est allé).",
+    "common_pitfalls": "Oublier que la négation de l'accompli utilise un marqueur différent ('ma') placé avant le verbe, et non le suffixe '-ra' inversé."
   },
   "vocabulary": [
     {
       "word_id": "v1",
-      "term": "Kunu",
-      "phonetic_api": "/ku.nu/",
-      "phonetic_simple": "KOU-NOU",
-      "translation": "Hier",
-      "example_sentence": "Kunu n'taara lɔgɔfɛ la.",
-      "example_phonetic": "/ku.nu ntaː.ra lɔ.ɡɔ.fɛ la/",
-      "example_translation": "Hier, je suis allé au marché."
+      "term": "kera",
+      "phonetic_api": "[kera]",
+      "phonetic_simple": "ké-ra",
+      "translation": "s'est passé, est arrivé (accompli de 'kɛ')",
+      "example_sentence": "Mun kera?",
+      "example_phonetic": "[mun kera]",
+      "example_translation": "Qu'est-il arrivé ?"
     },
     {
       "word_id": "v2",
-      "term": "Sinasini",
-      "phonetic_api": "/si.na.si.ni/",
-      "phonetic_simple": "SI-NA-SI-NI",
-      "translation": "Avant-hier",
-      "example_sentence": "A nana yan sinasini.",
-      "example_phonetic": "/a na.na jã si.na.si.ni/",
-      "example_translation": "Il est venu ici avant-hier."
+      "term": "tara / wara",
+      "phonetic_api": "[tara] / [wara]",
+      "phonetic_simple": "ta-ra / wa-ra",
+      "translation": "est allé (accompli de 'taa/wa')",
+      "example_sentence": "A tara sugu la.",
+      "example_phonetic": "[a tara suɡu la]",
+      "example_translation": "Il/elle est allé(e) au marché."
     },
     {
       "word_id": "v3",
-      "term": "San tɛmɛnen",
-      "phonetic_api": "/sã tɛ.mɛ.nẽ/",
-      "phonetic_simple": "SAN TÈ-MÈ-NEN",
-      "translation": "L'année dernière / L'année passée",
-      "example_sentence": "N'fa bara kɛ lakarika la san tɛmɛnen.",
-      "example_phonetic": "/nfa ba.ra kɛ la.ka.ri.ka la sã tɛ.mɛ.nẽ/",
-      "example_translation": "Mon père a travaillé à l'école l'année dernière."
+      "term": "nana",
+      "phonetic_api": "[nana]",
+      "phonetic_simple": "na-na",
+      "translation": "est venu (accompli de 'na')",
+      "example_sentence": "A nana n ma.",
+      "example_phonetic": "[a nana n ma]",
+      "example_translation": "Il/elle est venu(e) chez moi."
     },
     {
       "word_id": "v4",
-      "term": "Taa",
-      "phonetic_api": "/taː/",
-      "phonetic_simple": "TAA",
-      "translation": "Aller",
-      "example_sentence": "U taara so kɔnɔ.",
-      "example_phonetic": "/u taː.ra so kɔ.nɔ/",
-      "example_translation": "Ils sont allés au village / à la maison."
+      "term": "dira",
+      "phonetic_api": "[dira]",
+      "phonetic_simple": "di-ra",
+      "translation": "a donné (accompli de 'di')",
+      "example_sentence": "N y'a dira a ma.",
+      "example_phonetic": "[n ja dira a ma]",
+      "example_translation": "Je le lui ai donné."
     },
     {
       "word_id": "v5",
-      "term": "Na",
-      "phonetic_api": "/na/",
-      "phonetic_simple": "NA",
-      "translation": "Venir",
-      "example_sentence": "Karamɔgɔ nana bi sɔgɔma.",
-      "example_phonetic": "/ka.ra.mɔ.ɡɔ na.na bi sɔ.ɡɔ.ma/",
-      "example_translation": "L'enseignant est venu ce matin."
+      "term": "ma ... kɛ",
+      "phonetic_api": "[ma kɛ]",
+      "phonetic_simple": "ma-kè",
+      "translation": "négation de l'accompli : n'a pas fait",
+      "example_sentence": "A ma kɛ.",
+      "example_phonetic": "[a ma kɛ]",
+      "example_translation": "Cela ne s'est pas produit."
     },
     {
       "word_id": "v6",
-      "term": "Dun",
-      "phonetic_api": "/dũ/",
-      "phonetic_simple": "DOUN",
-      "translation": "Manger",
-      "example_sentence": "N'ye malo dun kunu.",
-      "example_phonetic": "/ɲɛ ma.lo dũ ku.nu/",
-      "example_translation": "J'ai mangé du riz hier."
+      "term": "kabini / kabi",
+      "phonetic_api": "[kabini]",
+      "phonetic_simple": "ka-bi-ni",
+      "translation": "depuis (point de départ temporel)",
+      "example_sentence": "Kabini kunun.",
+      "example_phonetic": "[kabini kunun]",
+      "example_translation": "Depuis hier."
+    },
+    {
+      "word_id": "v7",
+      "term": "o kɔ",
+      "phonetic_api": "[o kɔ]",
+      "phonetic_simple": "o-ko",
+      "translation": "après cela, ensuite",
+      "example_sentence": "O kɔ, an tara so.",
+      "example_phonetic": "[o kɔ an tara so]",
+      "example_translation": "Ensuite, nous sommes allés au village."
     }
   ],
   "common_phrases": [
     {
       "phrase_id": "p1",
-      "original": "I taara min kunu?",
-      "phonetic_api": "/i taː.ra mĩ ku.nu/",
-      "phonetic_simple": "I TAA-RA MIN KOU-NOU",
-      "translation": "Où es-tu allé hier ?",
-      "context": "Question usuelle pour s'informer des activités passées d'un proche."
+      "original": "Mun kera?",
+      "phonetic_api": "[mun kera]",
+      "phonetic_simple": "mun-ké-ra",
+      "translation": "Qu'est-il arrivé ?",
+      "context": "Demander ce qui s'est passé"
     },
     {
       "phrase_id": "p2",
-      "original": "N'ye bara ba kɛ kunu.",
-      "phonetic_api": "/ɲɛ ba.ra ba kɛ ku.nu/",
-      "phonetic_simple": "N-YÈ BA-RA BA KÈ KOU-NOU",
-      "translation": "J'ai fait un grand travail hier.",
-      "context": "Formule pour raconter une journée bien remplie."
+      "original": "A tara sugu la kunun",
+      "phonetic_api": "[a tara suɡu la kunun]",
+      "phonetic_simple": "a-ta-ra-sou-gou-la-kou-noun",
+      "translation": "Il est allé au marché hier",
+      "context": "Raconter un événement passé daté"
     },
     {
       "phrase_id": "p3",
-      "original": "A nana yan san tɛmɛnen na.",
-      "phonetic_api": "/a na.na jã sã tɛ.mɛ.nẽ na/",
-      "phonetic_simple": "A NA-NA YAN SAN TÈ-MÈ-NEN NA",
-      "translation": "Il est venu ici l'année dernière.",
-      "context": "Indication temporelle sur un événement plus lointain."
+      "original": "N ma a fɔ",
+      "phonetic_api": "[n ma a fɔ]",
+      "phonetic_simple": "n-ma-a-fo",
+      "translation": "Je ne l'ai pas dit",
+      "context": "Nier un fait passé"
     },
     {
       "phrase_id": "p4",
-      "original": "U m'a mɛn.",
-      "phonetic_api": "/u ma a mɛn/",
-      "phonetic_simple": "OU M'A MÈN",
-      "translation": "Ils ne l'ont pas entendu / compris.",
-      "context": "Négation d'un fait accompli dans le passé."
+      "original": "A ma na kunun",
+      "phonetic_api": "[a ma na kunun]",
+      "phonetic_simple": "a-ma-na-kou-noun",
+      "translation": "Il/elle n'est pas venu(e) hier",
+      "context": "Nier un fait daté au passé"
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'accompli transitif et intransitif",
-      "explanation": "En konyanka, la conjugaison au passé dépend de la nature du verbe. Si le verbe est intransitif (sans objet), on ajoute le suffixe '-ra' ou '-na' au verbe. Si le verbe est transitif (avec un objet direct), on insère la particule 'ye' entre le sujet et l'objet, et le verbe reste à sa forme de base.",
+      "concept": "L'accompli affirmatif en '-ra/-la/-na'",
+      "explanation": "Pour exprimer un fait accompli, on suffixe au verbe une marque tirée de '-ra', '-la' ou '-na' selon la consonne/voyelle finale du radical.",
       "rules": [
-        "Verbe Intransitif : Sujet + Verbe-ra (ex: N'taara = Je suis allé).",
-        "Verbe Transitif : Sujet + ye + Objet + Verbe (ex: N'ye malo dun = J'ai mangé du riz).",
-        "La négation du passé utilise la particule 'ma' à la place de 'ye' ou du suffixe."
+        "Radical verbal + ra/la/na = accompli affirmatif",
+        "Le choix entre ra/la/na dépend de règles d'harmonie consonantique propres au continuum manding"
       ],
       "examples": [
         {
-          "structure": "A nana",
-          "phonetic_api": "/a na.na/",
-          "meaning": "Il/Elle est venu(e)"
+          "structure": "taa + ra → tara",
+          "phonetic_api": "[tara]",
+          "meaning": "est allé"
         },
         {
-          "structure": "N'ye so san",
-          "phonetic_api": "/ɲɛ so sã/",
-          "meaning": "J'ai acheté une maison"
+          "structure": "na + na → nana",
+          "phonetic_api": "[nana]",
+          "meaning": "est venu"
+        }
+      ]
+    },
+    {
+      "concept": "La négation de l'accompli avec 'ma'",
+      "explanation": "Contrairement à l'affirmatif qui suffixe le verbe, le négatif de l'accompli place la particule 'ma' avant le verbe non fléchi.",
+      "rules": [
+        "Sujet + ma + verbe (radical nu) = n'a pas fait X"
+      ],
+      "examples": [
+        {
+          "structure": "a ma taa",
+          "phonetic_api": "[a ma taː]",
+          "meaning": "il/elle n'est pas allé(e)"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Lamine",
-      "text": "Moussa, i taara min kunu tile la?",
-      "phonetic_api": "/mu.sa i taː.ra mĩ ku.nu ti.le la/",
-      "phonetic_simple": "MOU-SA, I TAA-RA MIN KOU-NOU TI-LÉ LA",
-      "translation": "Moussa, où es-tu allé hier pendant la journée ?"
+      "speaker": "Sékou",
+      "text": "Mun kera kunun?",
+      "phonetic_api": "[mun kera kunun]",
+      "phonetic_simple": "mun-ké-ra-kou-noun",
+      "translation": "Qu'est-il arrivé hier ?"
     },
     {
-      "speaker": "Moussa",
-      "text": "N'taara duguba kɔnɔ. N'ye fani kura san n'ba ye.",
-      "phonetic_api": "/ntaː.ra du.ɡu.ba kɔ.nɔ ɲɛ fa.nĩ ku.ra sã mba d͡ʒɛ/",
-      "phonetic_simple": "N-TAA-RA DOU-GOU-BA KƆ-NƆ. N-YÈ FA-NI KOU-RA SAN M-BA YÈ",
-      "translation": "Je suis allé en ville. J'ai acheté un nouveau pagne pour ma mère."
+      "speaker": "Djénabou",
+      "text": "N tara sugu la, o kɔ n nana so.",
+      "phonetic_api": "[n tara suɡu la o kɔ n nana so]",
+      "phonetic_simple": "n-ta-ra-sou-gou-la, o-ko-n-na-na-so",
+      "translation": "Je suis allée au marché, ensuite je suis rentrée à la maison."
     },
     {
-      "speaker": "Lamine",
-      "text": "I ba jusu diyara mɛn ni?",
-      "phonetic_api": "/i ba d͡ʒu.su di.ja.ra mɛn ni/",
-      "phonetic_simple": "I BA DJOU-SOU DI-YA-RA MÈN NI ?",
-      "translation": "Est-ce que ta mère était contente de cela ?"
+      "speaker": "Sékou",
+      "text": "I ma n dɛmɛ wa?",
+      "phonetic_api": "[i ma n dɛmɛ wa]",
+      "phonetic_simple": "i-ma-n-dè-mè-wa",
+      "translation": "Tu ne m'as pas aidé ?"
     },
     {
-      "speaker": "Moussa",
-      "text": "Hali, a jusu diyara bɛrɛbɛrɛ, a ye n'bariji.",
-      "phonetic_api": "/ha.li a d͡ʒu.su di.ja.ra bɛ.rɛ.bɛ.rɛ a jɛ nba.ri.d͡ʒi/",
-      "phonetic_simple": "HA-LI, A DJOU-SOU DI-YA-RA BÈ-RÈ-BÈ-RÈ, A YÈ N-BA-RI-DJI",
-      "translation": "Oui, elle était extrêmement heureuse, elle m'a béni."
+      "speaker": "Djénabou",
+      "text": "Ntè, n ma i ye kunun.",
+      "phonetic_api": "[n.tɛ n ma i je kunun]",
+      "phonetic_simple": "n-tè, n-ma-i-yé-kou-noun",
+      "translation": "Non, je ne t'ai pas vu hier."
     }
   ],
   "cultural_notes": [
-    "Dans la tradition narrative des Konyanka, le récit au passé est intimement lié au respect de la chronologie et à l'invocation des bénédictions des anciens. Introduire des récits en rappelant le lieu et le moment ('kunu', 'san tɛmɛnen') est essentiel pour asseoir la crédibilité de ses propos."
+    "Selon les travaux de Vydrin sur le système TAM (temps-aspect-mode) du maninka de Guinée, la morphologie de l'accompli par suffixation (-ra/-la/-na) est un trait bien attesté du continuum manding oriental (Mandenkan 70, 2023), auquel appartient le Konyanka.",
+    "Aucune source consultée ne signale de marqueur d'accompli distinct pour le Konyanka spécifiquement : cette structure verbale est considérée comme un trait partagé du continuum."
   ],
   "exercises": [
     {
-      "exercise_id": "ex1",
-      "type": "multiple_choice",
-      "question": "Quelle est la structure correcte pour dire 'J'ai mangé du riz' au passé ?",
+      "exercise_id": "e1",
+      "type": "choix_multiple",
+      "question": "Comment forme-t-on l'accompli affirmatif du verbe 'taa' (aller) ?",
       "options": [
-        "N'bɛ malo dun",
-        "N'ye malo dun",
-        "N'malo dunra"
+        "taa ma",
+        "tara",
+        "bɛ taa",
+        "taa la"
       ],
-      "correct_answer": "N'ye malo dun",
-      "explanation": "Le verbe manger ('dun') étant transitif, on utilise la marque 'ye' entre le pronom sujet 'N'' et l'objet 'malo'."
+      "correct_answer": "tara",
+      "explanation": "'taa' + suffixe d'accompli '-ra' = 'tara' (est allé)."
     },
     {
-      "exercise_id": "ex2",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Kunu n'ta[ ___ ] lɔgɔfɛ la (Hier, je suis allé au marché).",
-      "correct_answer": "ara",
-      "hint": "Complétez le suffixe de l'accompli intransitif pour le verbe taa."
+      "exercise_id": "e2",
+      "type": "traduction",
+      "question": "Traduisez : 'Il n'est pas venu.'",
+      "correct_answer": "A ma na.",
+      "explanation": "Négation de l'accompli : 'ma' + radical nu 'na' (venir)."
+    },
+    {
+      "exercise_id": "e3",
+      "type": "texte_a_trous",
+      "sentence_with_blank": "Mun ___? (Qu'est-il arrivé ?)",
+      "correct_answer": "kera",
+      "explanation": "'kera' = accompli du verbe 'kɛ' (faire/se passer)."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Malinkuia — Introduction à la langue malinké (grammaire complète, variété du Wulada, Haute-Guinée)",
+      "url": "https://fr.scribd.com/document/499114939/Malinkuia"
+    },
+    {
+      "label": "An ka taa — Maninka/Malinké greetings and phrases",
+      "url": "https://www.ankataa.com/maninka-greetings-and-phrases"
+    },
+    {
+      "label": "Vydrin — Le TAM en maninka de Guinée : la zone du futur, Mandenkan 70 (2023)",
+      "url": "https://journals.openedition.org/mandenkan/pdf/3253"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Aucun lexique ou grammaire publiés et dédiés spécifiquement au Konyanka (Koyaka/Konianka, ISO mku) n'a été localisé. Le vocabulaire de cette leçon provient donc du continuum dialectal Maninka/Malinké de Guinée dans lequel le Konyanka s'inscrit (intelligibilité mutuelle attestée), via la grammaire pratique Malinkuia (variété du Wulada, Haute-Guinée). Les spécificités confirmées du Konyanka sont indiquées dans les notes culturelles plutôt que dans le lexique."
 }

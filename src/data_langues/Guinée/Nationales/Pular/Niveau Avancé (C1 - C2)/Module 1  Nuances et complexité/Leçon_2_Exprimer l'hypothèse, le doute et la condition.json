@@ -6,138 +6,243 @@
   "lesson_number": 2,
   "title": "Exprimer l'hypothèse, le doute et la condition",
   "learning_objectives": [
-    "Formuler l'irréel du passé et le potentiel complexe en utilisant la particule 'sino' et l'inaccompli",
-    "Exprimer le doute méthodique et la conjecture via les structures modales dubitatives",
-    "Nuancer une argumentation en articulant des clauses restrictives ou concessives avancées"
+    "Distinguer 'si' réalisable (so) de 'si' irréel (sinno)",
+    "Utiliser 'hari'/'tawi' pour situer un fait dans le passé narratif",
+    "Exprimer le doute avec 'sikke' et le verbe 'sikkugol'"
   ],
   "phonetic_focus": {
-    "key_sounds": "L'accentuation rhétorique repose sur les particules de condition comme 'sino' (/sino/) et 'tuma' (/tuma/). Le coup de glotte glottalisé est fort dans 'laawol' lorsqu'il subit une focalisation hypothétique.",
-    "common_pitfalls": "Confondre 'sino' (si seulement / sinon) et 'si' (si simple). 'Sino' introduit des structures de l'irréel du passé exigeant des flexions verbales hautement spécifiques en '-no'."
+    "key_sounds": "Les particules conditionnelles 'so' et 'sinno' se distinguent uniquement par leur nuance de réalisabilité et non par leur forme verbale suivante systématique ; il faut mémoriser chaque particule comme un marqueur sémantique distinct.",
+    "common_pitfalls": "Les francophones traduisent souvent tout 'si' par un seul mot, alors que le pular distingue nettement le conditionnel réalisable (so, proche du 'si' réel français) et le conditionnel irréel (sinno, proche du 'si j'avais su' français, condition non réalisée)."
   },
   "vocabulary": [
     {
-      "word_id": "v20_1",
-      "term": "sino",
-      "phonetic_api": "/sino/",
-      "phonetic_simple": "SI-NO",
-      "translation": "si seulement, n'eût été, si d'aventure (irréel du passé)",
-      "example_sentence": "Sino a ariino, mi heɓatnoo kaalis.",
-      "example_phonetic": "/sino a ariːno mi heɓatnoː kaːlis/",
-      "example_translation": "Si seulement tu étais venu, j'aurais obtenu l'argent."
+      "word_id": "v1",
+      "term": "so",
+      "phonetic_api": "/so/",
+      "phonetic_simple": "SO",
+      "translation": "si / quand (condition réalisable)",
+      "example_sentence": "Si mi hewtoyii, mi ñamay.",
+      "example_phonetic": "/si mi hewtojiː mi ɲamaj/",
+      "example_translation": "Quand j'arriverai, je mangerai."
     },
     {
-      "word_id": "v20_2",
-      "term": "tamyijogol",
-      "phonetic_api": "/tamjid͡ʒoɡol/",
-      "phonetic_simple": "TAM-YI-DJO-GOL",
-      "translation": "conjecturer, supputer, suspecter une probabilité",
-      "example_sentence": "Mido tamyijoo wonde haala makko no boni.",
-      "example_phonetic": "/mido tamjid͡ʒoː wonde haːla makːo no boni/",
-      "example_translation": "Je suspecte fortement que son argumentation soit fallacieuse."
+      "word_id": "v2",
+      "term": "sinno",
+      "phonetic_api": "/sinːo/",
+      "phonetic_simple": "SIN-NO",
+      "translation": "si (condition irréelle, non réalisée)",
+      "example_sentence": "Si a yahaano, harayno moyyaa.",
+      "example_phonetic": "/si a jahaːno harajno moɟːaː/",
+      "example_translation": "Si tu n'étais pas parti, cela aurait été bien."
     },
     {
-      "word_id": "v20_3",
+      "word_id": "v3",
+      "term": "hari",
+      "phonetic_api": "/hari/",
+      "phonetic_simple": "HA-RI",
+      "translation": "marqueur du passé ferme (situe un fait dans le passé)",
+      "example_sentence": "Hari himo ton.",
+      "example_phonetic": "/hari himo ton/",
+      "example_translation": "Il était là (fait établi du passé)."
+    },
+    {
+      "word_id": "v4",
+      "term": "tawi",
+      "phonetic_api": "/tawi/",
+      "phonetic_simple": "TA-OUI",
+      "translation": "marqueur narratif du passé (implique un témoin/observateur)",
+      "example_sentence": "Tawi o alaa ton.",
+      "example_phonetic": "/tawi o alaː ton/",
+      "example_translation": "Il s'est avéré qu'il n'était pas là."
+    },
+    {
+      "word_id": "v5",
+      "term": "haray",
+      "phonetic_api": "/haraj/",
+      "phonetic_simple": "HA-RAÏ",
+      "translation": "probablement (prédiction future incertaine)",
+      "example_sentence": "Haray himo jangude.",
+      "example_phonetic": "/haraj himo dʒaŋɡude/",
+      "example_translation": "Il est probablement en train d'étudier."
+    },
+    {
+      "word_id": "v6",
+      "term": "sikkugol",
+      "phonetic_api": "/sikːuɡol/",
+      "phonetic_simple": "SIK-KOU-GOL",
+      "translation": "penser, croire, douter",
+      "example_sentence": "Mi sikki ko o ɓiɗɗo Cerno.",
+      "example_phonetic": "/mi sikːi ko o ɓiɗːo tʃerno/",
+      "example_translation": "Je pense/crois qu'il est le fils de Cerno."
+    },
+    {
+      "word_id": "v7",
       "term": "sikke",
       "phonetic_api": "/sikːe/",
-      "phonetic_simple": "SIK-KE",
-      "translation": "le doute, l'incertitude philosophique ou factuelle",
-      "example_sentence": "Sikke alaa e dow moƴƴere maa.",
-      "example_phonetic": "/sikːe alaː e dow moʔɟːere maː/",
-      "example_translation": "Aucun doute n'existe quant à ta bienveillance."
-    },
-    {
-      "word_id": "v20_4",
-      "term": "hama",
-      "phonetic_api": "/hama/",
-      "phonetic_simple": "HA-MA",
-      "translation": "peut-être, il se pourrait que (adverbe dubitatif)",
-      "example_sentence": "Hama yo en yahu ka pootal.",
-      "example_phonetic": "/hama jo en jahu ka pootal/",
-      "example_translation": "Il se pourrait que nous dussions nous rendre au rassemblement."
-    },
-    {
-      "word_id": "v20_5",
-      "term": "taw_o",
-      "phonetic_api": "/tawʔo/",
-      "phonetic_simple": "TAW-O",
-      "translation": "à condition que, pourvu que (particule restrictive)",
-      "example_sentence": "Mi huwwat ngal gollal, taw_o hiba ɗon.",
-      "example_phonetic": "/mi huːwat nɡal ɡolːal tawʔo hiba ɗon/",
-      "example_translation": "J'exécuterai ce projet, pourvu que tu sois présent."
+      "phonetic_simple": "SIK-KÉ",
+      "translation": "doute, opinion, incertitude",
+      "example_sentence": "E sikke am, ɗun ko pular sellungal.",
+      "example_phonetic": "/e sikːe am ɗun ko pular selːuŋɡal/",
+      "example_translation": "À mon avis, c'est du pular correct."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p20_1",
-      "original": "Sino ɓe reesitinoo waaju ngal, mbiilu muɗen saɗatnoo lah kadi.",
-      "phonetic_api": "/sino ɓe reːsitinoː waːd͡ʒu nɡal mbiːlu muɗen saɗatnoː lah kadi/",
-      "phonetic_simple": "SI-NO BHE REE-SI-TI-NOO WAA-DJOU NGAL, MBII-LOU MOU-DHEN SA-DHAT-NOO LAH KA-DI",
-      "translation": "S'ils avaient scrupuleusement appliqué ce conseil, leur rendement n'aurait jamais subi une telle complexité.",
-      "context": "Analyse rétrospective d'un échec industriel ou organisationnel."
+      "phrase_id": "p1",
+      "original": "Si mi hewtoyii, mi ñamay.",
+      "phonetic_api": "/si mi hewtojiː mi ɲamaj/",
+      "phonetic_simple": "SI MI HÈ-OU-TO-YI-I, MI GNA-MAÏ",
+      "translation": "Quand j'arriverai là-bas, je mangerai.",
+      "context": "Condition réalisable au futur avec 'si/so'."
     },
     {
-      "phrase_id": "p20_2",
-      "original": "Sikke alaa, hama yo ɓe ustu njeegu ngol taw_o en soodii.",
-      "phonetic_api": "/sikːe alaː hama jo ɓe ustu nd͡ʒeːɡu nɡol tawʔo en soːdiː/",
-      "phonetic_simple": "SIK-KE A-LAA, HA-MA YO BHE OUS-TOU NJEE-GOU NGOL TAW-O EN SOO-DII",
-      "translation": "Sans l'ombre d'un doute, il se pourrait qu'ils baissent le prix à condition que nous achetions immédiatement.",
-      "context": "Spéculation commerciale avancée lors d'une transaction de gros."
+      "phrase_id": "p2",
+      "original": "Si a yahaano, harayno moyyaa.",
+      "phonetic_api": "/si a jahaːno harajno moɟːaː/",
+      "phonetic_simple": "SI A YA-HA-A-NO, HA-RAÏ-NO MOY-YA-A",
+      "translation": "Si tu n'étais pas parti, ça aurait été bien.",
+      "context": "Condition irréelle au passé, avec 'harayno' (aurait été)."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Haray mi artaali.",
+      "phonetic_api": "/haraj mi artaːli/",
+      "phonetic_simple": "HA-RAÏ MI AR-TA-A-LI",
+      "translation": "Je ne serai probablement pas rentré.",
+      "context": "Prédiction incertaine avec 'haray'."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "E sikke am...",
+      "phonetic_api": "/e sikːe am/",
+      "phonetic_simple": "É SIK-KÉ AM",
+      "translation": "À mon avis...",
+      "context": "Expression figée pour introduire une opinion personnelle."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'irréel du passé avec 'Sino ... -atnoo'",
-      "explanation": "Pour exprimer une condition non réalisée dans le passé (Si X avait eu lieu, Y se serait produit), le pular déploie une corrélation morphologique stricte : la subordonnée s'ouvre par 'Sino' et prend le suffixe '-no', tandis que la principale reçoit le suffixe conditionnel complexe '-atnoo'.",
+      "concept": "So vs sinno : deux degrés de conditionnel",
+      "explanation": "'So' introduit une condition réalisable ou habituelle (comme 'quand/si' en français réel), tandis que 'sinno' introduit une condition irréelle ou non réalisée (comme le conditionnel passé français 'si j'avais su').",
       "rules": [
-        "Structure : Sino + Sujet + Verbe-inoo (passé révolue), Sujet + Verbe-atnoo (conditionnel)."
+        "so + imperfective = condition réalisable au futur/habituel",
+        "sinno / si...-aano (négatif passé) + harayno = condition irréelle avec conséquence hypothétique"
       ],
       "examples": [
         {
-          "structure": "Sino ... mi huwwatnoo",
-          "phonetic_api": "/sino mi huːwatnoː/",
-          "meaning": "Si seulement... j'aurais agi"
+          "structure": "Si mi hewtoyii, mi ñamay.",
+          "phonetic_api": "/si mi hewtojiː mi ɲamaj/",
+          "meaning": "Quand j'arriverai, je mangerai (réalisable)."
+        },
+        {
+          "structure": "Si a yahaano, harayno moyyaa.",
+          "phonetic_api": "/si a jahaːno harajno moɟːaː/",
+          "meaning": "Si tu n'étais pas parti, ça aurait été bien (irréel)."
+        }
+      ]
+    },
+    {
+      "concept": "Hari et tawi : ancrer un récit dans le passé",
+      "explanation": "'Hari' situe fermement une proposition dans le passé comme un fait établi ; 'tawi' fait la même chose mais implique la perspective d'un témoin/observateur, et est fréquent dans les récits narratifs.",
+      "rules": [
+        "hari = fait objectif du passé",
+        "tawi = fait découvert/observé, typique des contes et fables",
+        "hara peut aussi marquer deux actions simultanées, ou s'utiliser comme 'mais' (à la place de kono)"
+      ],
+      "examples": [
+        {
+          "structure": "Tawi o alaa ka suudu.",
+          "phonetic_api": "/tawi o alaː ka suːdu/",
+          "meaning": "Il s'est avéré que personne n'était à la maison."
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Saliou (Sage)",
-      "text": "Alpha, mido jogii sikke e dow fadande ngal gollal. Koni a tamyijoo foolugol muɗen ?",
-      "phonetic_api": "/alɸa mido d͡ʒoɡiː sikːe e dow ɸadande nɡal ɡolːal koni a tamjid͡ʒoː ɸoːluɡol muɗen/",
-      "phonetic_simple": "AL-PHA, MI-DO DJO-GII SIK-KE E DOW FA-DAN-DE NGAL GOL-LAL. KO-NI A TAM-YI-DJOO FOO-LOU-GOL MOU-DHEN ?",
-      "translation": "Alpha, j'entretiens un doute méthodique quant à l'avenir de ce projet. Comment peux-tu conjecturer notre victoire ?"
+      "speaker": "Cerno",
+      "text": "So a hewtii ka lekkol, ko honðun waɗataa?",
+      "phonetic_api": "/so a hewtiː ka lekːol ko honɗun waɗataː/",
+      "phonetic_simple": "SO A HÈ-OU-TI-I KA LÈK-KOL, KO HON-DOUNE OUA-DA-TAA",
+      "translation": "Quand tu arriveras à l'école, que feras-tu ?"
     },
     {
-      "speaker": "Alpha (Entrepreneur)",
-      "text": "Sino en puɗɗitinoo e subaka, sikke alaa en lannatnoo hande. Kono taw_o gollottooɓe ɗen no ɗon, hama en foolat tun !",
-      "phonetic_api": "/sino en puɗːitinoː e subaka sikːe alaː en lanːatnoː hande kono tawʔo ɡolːotːoːɓe ɗen no ɗon hama en ɸoːlat tun/",
-      "phonetic_simple": "SI-NO EN PUD-DHI-TI-NOO E SOU-BA-KA, SIK-KE A-LAA EN LAN-NAT-NOO HAN-DE. KO-NO TAW-O GOL-LOT-TOO-BHE DHEN NO DHON, HA-MA EN FOO-LAT TOUN !",
-      "translation": "N'eût été notre manque de diligence ce matin, nous aurions sans conteste achevé la tâche aujourd'hui. Néanmoins, pourvu que nos équipes demeurent mobilisées, il se pourrait bien que nous l'emportions !"
+      "speaker": "Binta",
+      "text": "Mi sikki mi jangay tan.",
+      "phonetic_api": "/mi sikːi mi dʒaŋɡaj tan/",
+      "phonetic_simple": "MI SIK-KI MI DJAN-GAÏ TAN",
+      "translation": "Je pense que j'étudierai simplement."
+    },
+    {
+      "speaker": "Cerno",
+      "text": "Sinno a yahaano hanki, harayno haani daraade.",
+      "phonetic_api": "/sinːo a jahaːno hanki harajno haːni daraːde/",
+      "phonetic_simple": "SIN-NO A YA-HA-A-NO HAN-KI, HA-RAÏ-NO HAA-NI DA-RA-A-DÉ",
+      "translation": "Si tu n'étais pas parti hier, tu aurais dû t'arrêter."
+    },
+    {
+      "speaker": "Binta",
+      "text": "E sikke am, ko moyyi tan mi yahi.",
+      "phonetic_api": "/e sikːe am ko moɟːi tan mi jahi/",
+      "phonetic_simple": "É SIK-KÉ AM, KO MOY-YI TAN MI YA-HI",
+      "translation": "À mon avis, c'était bien que je parte."
     }
   ],
   "cultural_notes": [
-    "Dans les joutes oratoires et négociations complexes (ex: le règlement des litiges fonciers coutumiers au Fouta), l'usage de 'Sikke alaa' (sans doute) combiné à des clauses restrictives comme 'taw_o' permet de poser des cadres contractuels rigoureux tout en préservant le 'Pulaaku' (la retenue et la courtoisie mutuelle)."
+    "Le texte de fable du manuel Peace Corps ('Fii nafa jeyeede', les avantages d'être possédé) utilise systématiquement 'hari' et 'tawi' pour structurer le récit, un procédé narratif typique de la tradition orale peule (source : Learner's Guide to Pular, Texte 2 Fable).",
+    "La distinction so/sinno reflète une logique grammaticale fine du réel/irréel que l'on retrouve documentée dans les grammaires pulaar en ligne (source : pulaar.org)."
   ],
   "exercises": [
     {
-      "exercise_id": "ex20_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quelle flexion verbale indique le conditionnel irréel dans la proposition principale après 'Sino' ?",
+      "question": "Quelle particule introduit une condition irréelle (non réalisée) ?",
       "options": [
-        "-at (inaccompli simple)",
-        "-atnoo (conditionnel passé/présent de l'irréel)",
-        "-aama (passif accompli)"
+        "So",
+        "Sinno",
+        "Haray"
       ],
-      "correct_answer": "-atnoo (conditionnel passé/présent de l'irréel)",
-      "explanation": "Le suffixe complexe '-atnoo' fusionne la marque de l'inaccompli futur ('-at-') et celle de l'antériorité révolue ('-noo'), générant le conditionnel de l'irréel."
+      "correct_answer": "Sinno",
+      "explanation": "Sinno marque une condition non réalisée, comme le conditionnel passé français."
     },
     {
-      "exercise_id": "ex20_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Mi yahat ka pootal, [ ___ ] aawa no walli mi. (J'irais au rassemblement, à condition/pourvu qu'Awa m'aide).",
-      "correct_answer": "taw_o",
-      "hint": "Locution conjonctive marquant la restriction ou la condition sine qua non."
+      "sentence_with_blank": "Mi [ ___ ] ko o ɓiɗɗo Cerno. (Je pense/crois qu'il est le fils de Cerno)",
+      "correct_answer": "sikki",
+      "hint": "Utilisez la forme conjuguée de 'sikkugol' (penser/croire)."
+    },
+    {
+      "exercise_id": "ex3",
+      "type": "multiple_choice",
+      "question": "Que signifie 'haray' ?",
+      "options": [
+        "Certainement",
+        "Probablement",
+        "Jamais"
+      ],
+      "correct_answer": "Probablement",
+      "explanation": "Haray marque une prédiction incertaine, traduit au mieux par 'probablement'."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Learner's Guide to Pular (Fuuta Jallon) — Peace Corps Guinée (Herb Caudill & Ousmane Besseko Diallo)",
+      "url": "https://ibamba.net/pular/manual.pdf"
+    },
+    {
+      "label": "Live Lingua Project — Peace Corps Manual of Fulfulde",
+      "url": "https://www.livelingua.com/course/peace-corps/manual-of-fulfulde"
+    },
+    {
+      "label": "Grammaire de la Langue Pular Fula (cours PCV, notes grammaticales détaillées)",
+      "url": "https://www.scribd.com/document/770009186/Grammaire-de-La-Langue-Pular-Fula"
+    },
+    {
+      "label": "pulaar.org — Grammaire de Référence Pulaar/Fulfulde (connecteurs logiques et marqueurs de subordination)",
+      "url": "https://pulaar.org/pulaar/grammaire_pulaar_v2.html"
+    }
+  ],
+  "confidence": "élevée",
+  "confidence_note": "Grammaire du conditionnel (so/sinno) et des marqueurs narratifs (hari/tawi/haray) directement issue des textes 'Fable' et 'Useful Advice' du manuel Peace Corps, complétée par la grammaire de référence en ligne pulaar.org pour la distinction so/sinno."
 }

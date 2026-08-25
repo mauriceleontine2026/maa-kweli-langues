@@ -6,184 +6,190 @@
   "lesson_number": 8,
   "title": "La nourriture et les boissons (commander au marché ou au restaurant)",
   "learning_objectives": [
-    "Identifier les aliments de base (riz, eau, viande, sauce) en Oniyan",
-    "Exprimer la faim, la soif et formuler une demande d'achat polie",
-    "Négocier des denrées comestibles courantes au marché local"
+    "Exprimer la faim et la soif avec des phrases attestées",
+    "Nommer quelques aliments et boissons attestés dans les sources disponibles",
+    "Utiliser le marqueur perfectif pour dire qu'on a déjà fait une action (« j'ai soif », littéralement « la soif m'a attrapé »)"
   ],
   "phonetic_focus": {
-    "key_sounds": "Le mot pour l'eau 'məyǐ' comporte un ton modulé ascendant très distinctif sur le 'i'. Le terme pour le riz 'məkǎndɔŋ' présente une structure nasale complexe avec une consonne finale sourde vélaire /ŋ/.",
-    "common_pitfalls": "Attention à ne pas confondre le préfixe de classe de masse/liquide 'mə-' présent dans 'məyǐ' (eau) et 'məkǎndɔŋ' (riz). Ce préfixe doit rester court et non accentué."
+    "key_sounds": "Le e final de « Sel ke » se prononce fermé, bref, sans diphtongue, contrairement au « é » ouvert du français « été ».",
+    "common_pitfalls": "« Sel ke » (j'ai soif) suit une construction impersonnelle (littéralement « soif prend/tient ») ; les francophones veulent souvent placer un pronom sujet « je » explicite avant, ce qui n'est pas la structure attestée."
   },
   "vocabulary": [
     {
-      "word_id": "v29",
-      "term": "məyǐ",
-      "phonetic_api": "/məjǐ/",
-      "phonetic_simple": "ME-YI",
-      "translation": "l'eau (boisson)",
-      "example_sentence": "Məñwǎ məyǐ ɛni.",
-      "example_phonetic": "/məɲwǎ məjǐ ɛni/",
-      "example_translation": "Je bois un peu d'eau."
+      "word_id": "v1",
+      "term": "sel",
+      "phonetic_api": "/sel/",
+      "phonetic_simple": "SÈL",
+      "translation": "soif",
+      "example_sentence": "Sel ke.",
+      "example_phonetic": "/sel ke/",
+      "example_translation": "J'ai soif."
     },
     {
-      "word_id": "v30",
-      "term": "məkǎndɔŋ",
-      "phonetic_api": "/məkǎndɔŋ/",
-      "phonetic_simple": "ME-KAN-DONG",
-      "translation": "le riz (aliment de base)",
-      "example_sentence": "Məɟǐ məkǎndɔŋ oŋ.",
-      "example_phonetic": "/məɟǐ məkǎndɔŋ oŋ/",
-      "example_translation": "Je mange ce riz."
+      "word_id": "v2",
+      "term": "ke",
+      "phonetic_api": "/ke/",
+      "phonetic_simple": "KÉ",
+      "translation": "attraper, tenir (verbe utilisé dans les expressions de sensation)",
+      "example_sentence": "Sel ke.",
+      "example_phonetic": "/sel ke/",
+      "example_translation": "J'ai soif (litt. la soif me tient)."
     },
     {
-      "word_id": "v31",
-      "term": "ɔñɛ́",
-      "phonetic_api": "/ɔɲɛ́/",
-      "phonetic_simple": "O-NYE",
-      "translation": "la viande",
-      "example_sentence": "Məfɔ́ nɛ̂ ɔñɛ́ bɛ̀ɛ̀.",
-      "example_phonetic": "/məfɔ́ nɛ̂ ɔɲɛ́ bɛ̀ː/",
-      "example_translation": "J'ai de la bonne viande."
+      "word_id": "v3",
+      "term": "ex",
+      "phonetic_api": "/ex/",
+      "phonetic_simple": "ÈH",
+      "translation": "particule de prédication « c'est »",
+      "example_sentence": "Kaxanu ex.",
+      "example_phonetic": "/kaxanu ex/",
+      "example_translation": "C'est Dieu."
     },
     {
-      "word_id": "v32",
-      "term": "məsɔ́",
-      "phonetic_api": "/məsɔ́/",
-      "phonetic_simple": "ME-SO",
-      "translation": "la sauce / le bouillon",
-      "example_sentence": "Məsɔ́ oŋ fə́ məkǎndɔŋ.",
-      "example_phonetic": "/məsɔ́ oŋ fə́ məkǎndɔŋ/",
-      "example_translation": "La sauce accompagne le riz."
+      "word_id": "vx4",
+      "term": "iyo",
+      "phonetic_api": "/ijo/",
+      "phonetic_simple": "I-YO",
+      "translation": "oui",
+      "example_sentence": "Iyo.",
+      "example_phonetic": "/ijo/",
+      "example_translation": "Oui."
+    },
+    {
+      "word_id": "vx5",
+      "term": "o-oye",
+      "phonetic_api": "/o.oje/",
+      "phonetic_simple": "O-O-YÉ",
+      "translation": "non",
+      "example_sentence": "O-oye.",
+      "example_phonetic": "/o.oje/",
+      "example_translation": "Non."
+    },
+    {
+      "word_id": "vx12",
+      "term": "axam",
+      "phonetic_api": "/axam/",
+      "phonetic_simple": "A-HAM",
+      "translation": "pouvoir (verbe modal)",
+      "example_sentence": "axam",
+      "example_phonetic": "/axam/",
+      "example_translation": "pouvoir."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p57",
-      "original": "Məkǎndɔŋ oŋ mɛ́ɛ̀?",
-      "phonetic_api": "/məkǎndɔŋ oŋ mɛ́ː/",
-      "phonetic_simple": "ME-KAN-DONG ONG MEE",
-      "translation": "Où se trouve le riz ?",
-      "context": "Chercher de la nourriture au marché."
+      "phrase_id": "p1",
+      "original": "Sel ke.",
+      "phonetic_api": "/sel ke/",
+      "phonetic_simple": "SÈL KÉ",
+      "translation": "J'ai soif.",
+      "context": "Phrase attestée pour exprimer un besoin immédiat de boire."
     },
     {
-      "phrase_id": "p58",
-      "original": "Məgaw nɛ̂ ləkɔ̂ (faim).",
-      "phonetic_api": "/məɡaw nɛ̂ ləkɔ̂/",
-      "phonetic_simple": "ME-GAW NE LE-KO",
-      "translation": "J'ai faim. (litt: Je ressens la faim)",
-      "context": "Exprimer un besoin biologique immédiat de nourriture."
+      "phrase_id": "p2",
+      "original": "Iyo.",
+      "phonetic_api": "/ijo/",
+      "phonetic_simple": "I-YO",
+      "translation": "Oui.",
+      "context": "Réponse affirmative générale, réutilisable dans toute conversation."
     },
     {
-      "phrase_id": "p59",
-      "original": "Məgaw nɛ̂ kəñwǎ (soif).",
-      "phonetic_api": "/məɡaw nɛ̂ kəɲwǎ/",
-      "phonetic_simple": "ME-GAW NE KE-NYWA",
-      "translation": "J'ai soif. (litt: Je ressens le besoin de boire)",
-      "context": "Exprimer le besoin urgent de s'hydrater."
+      "phrase_id": "p3",
+      "original": "O-oye.",
+      "phonetic_api": "/o.oje/",
+      "phonetic_simple": "O-O-YÉ",
+      "translation": "Non.",
+      "context": "Réponse négative générale, réutilisable dans toute conversation."
     },
     {
-      "phrase_id": "p60",
-      "original": "ɛni məyǐ, nyarancaa.",
-      "phonetic_api": "/ɛni məjǐ ɲarant͡ʃaː/",
-      "phonetic_simple": "E-NI ME-YI, NYA-RAN-TCHAA",
-      "translation": "Un peu d'eau, s'il vous plaît (merci).",
-      "context": "Demander à boire poliment chez un hôte."
-    },
-    {
-      "phrase_id": "p61",
-      "original": "Məfɔ́ fə́ kəɟǐ ɔñɛ́.",
-      "phonetic_api": "/məfɔ́ fə́ kəɟǐ ɔɲɛ́/",
-      "phonetic_simple": "ME-FO FE KE-DYI O-NYE",
-      "translation": "Je viens manger de la viande.",
-      "context": "Passer commande dans un lieu de restauration."
-    },
-    {
-      "phrase_id": "p62",
-      "original": "Anee ləɟɛ́ɛ́ bə̂?",
-      "phonetic_api": "/aneː ləɟɛ́ː ɓə̂/",
-      "phonetic_simple": "A-NEE LE-DYEE BHE",
-      "translation": "Quel est le prix ? (Combien ça coûte ?)",
-      "context": "Entamer une transaction marchande pour de la nourriture."
-    },
-    {
-      "phrase_id": "p63",
-      "original": "Məkǎndɔŋ oŋ bɛ̀ɛ̀ gwa.",
-      "phonetic_api": "/məkǎndɔŋ oŋ bɛ̀ː ɡwa/",
-      "phonetic_simple": "ME-KAN-DONG ONG BEE GWA",
-      "translation": "Le riz est délicieux.",
-      "context": "Complimenter la cuisinière à la fin du repas."
-    },
-    {
-      "phrase_id": "p64",
-      "original": "Məfɔ́ nɛ̂ pɔɔwã ləɟɛ́ɛ́.",
-      "phonetic_api": "/məfɔ́ nɛ̂ pɔːwã ləɟɛ́ː/",
-      "phonetic_simple": "ME-FO NE POO-WAN LE-DYEE",
-      "translation": "Je donne dix unités monétaires.",
-      "context": "Payer son repas ou sa marchandise."
+      "phrase_id": "p4",
+      "original": "Awa.",
+      "phonetic_api": "/awa/",
+      "phonetic_simple": "A-OUA",
+      "translation": "D'accord / Bien.",
+      "context": "Marque d'accord ou de validation, utile pour conclure un échange."
     }
   ],
   "grammar_points": [
     {
-      "concept": "La classe nominale des liquides et masses 'mə-'",
-      "explanation": "En Oniyan, la plupart des éléments non dénombrables, liquides ou pulvérulents (eau, riz, sauce, lait) appartiennent à la classe nominale caractérisée par le préfixe 'mə-'. Les verbes associés à l'ingestion se séparent strictement entre 'ɟǐ' (mâcher/manger des solides) et 'ñwǎ' (avaler/boire des liquides).",
+      "concept": "Constructions impersonnelles de sensation",
+      "explanation": "Certaines sensations physiques (soif, faim) s'expriment en oniyan par une construction où le nom de la sensation est le sujet grammatical d'un verbe comme ke (« attraper, tenir »), plutôt que par un adjectif attribué à une personne comme en français.",
       "rules": [
-        "On utilise invariablement 'ɟǐ' pour le riz, la viande et les fruits solides.",
-        "On utilise invariablement 'ñwǎ' pour l'eau, les bouillons fluides et la bière traditionnelle."
+        "Structure attestée : [nom de la sensation] + ke = « J'ai [sensation] » (le sujet réel/bénéficiaire n'est pas toujours marqué explicitement dans la forme courte attestée)."
       ],
       "examples": [
         {
-          "structure": "Məɟǐ + [Aliment solide de classe mə-]",
-          "phonetic_api": "/məɟǐ məkǎndɔŋ/",
-          "meaning": "Je mange du riz"
+          "structure": "Sel ke.",
+          "phonetic_api": "/sel ke/",
+          "meaning": "J'ai soif."
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Le client",
-      "text": "Məgaw nɛ̂ ləkɔ̂. Məkǎndɔŋ oŋ mɛ́ɛ̀?",
-      "phonetic_api": "/məɡaw nɛ̂ ləkɔ̂ məkǎndɔŋ oŋ mɛ́ː/",
-      "phonetic_simple": "ME-GAW NE LE-KO. ME-KAN-DONG ONG MEE",
-      "translation": "J'ai vraiment faim. Où se trouve le riz ?"
+      "speaker": "Voyageur",
+      "text": "Sel ke.",
+      "phonetic_api": "/sel ke/",
+      "phonetic_simple": "SÈL KÉ",
+      "translation": "J'ai soif."
     },
     {
-      "speaker": "La vendeuse",
-      "text": "Məkǎndɔŋ na ɔñɛ́ oŋ fatǎ. Anee ləɟɛ́ɛ́ fəla.",
-      "phonetic_api": "/məkǎndɔŋ na ɔɲɛ́ oŋ fatǎ aneː ləɟɛ́ː fəla/",
-      "phonetic_simple": "ME-KAN-DONG NA O-NYE ONG FA-TAA. A-NEE LE-DYEE FE-LA",
-      "translation": "Le riz avec la viande est juste ici. Le prix est de deux monnaies."
+      "speaker": "Locuteur A",
+      "text": "Awa?",
+      "phonetic_api": "/awa/",
+      "phonetic_simple": "A-OUA ?",
+      "translation": "D'accord ?"
     },
     {
-      "speaker": "Le client",
-      "text": "Nyarancaa. Məñwǎ məyǐ ɛni gwa.",
-      "phonetic_api": "/ɲarant͡ʃaː məɲwǎ məjǐ ɛni ɡwa/",
-      "phonetic_simple": "NYA-RAN-TCHAA. ME-NYWA ME-YI E-NI GWA",
-      "translation": "Merci beaucoup. Je vais boire un peu d'eau aussi."
+      "speaker": "Locuteur B",
+      "text": "Iyo, awa.",
+      "phonetic_api": "/ijo awa/",
+      "phonetic_simple": "I-YO, A-OUA",
+      "translation": "Oui, d'accord."
+    },
+    {
+      "speaker": "Locuteur A",
+      "text": "Iyo.",
+      "phonetic_api": "/ijo/",
+      "phonetic_simple": "I-YO",
+      "translation": "Oui."
     }
   ],
   "cultural_notes": [
-    "Le partage de l'eau ('məyǐ') est le premier geste d'hospitalité obligatoire chez les Bassaris de Guinée lorsqu'un visiteur franchit la concession. Même si l'hôte n'a pas de nourriture à offrir, donner de l'eau fraîche purifiée symbolise la paix et l'acceptation de l'étranger."
+    "L'agriculture vivrière du pays bassari (mil, sorgho, arachide) et l'élevage transhumant structurent l'alimentation traditionnelle, selon le dossier de classement UNESCO du Pays bassari — mais aucun terme culinaire spécifique n'a pu être vérifié dans les sources disponibles."
   ],
   "exercises": [
     {
-      "exercise_id": "ex15",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel verbe utilisez-vous impérativement pour consommer de l'eau ?",
+      "question": "Comment dit-on « j'ai soif » en oniyan (attesté) ?",
       "options": [
-        "ɟǐ",
-        "ñwǎ",
-        "ɟaa"
+        "Sel ke.",
+        "Kaxanu ex.",
+        "Yowu ro."
       ],
-      "correct_answer": "ñwǎ",
-      "explanation": "'ñwǎ' est le verbe exclusif pour boire des substances liquides en Oniyan."
+      "correct_answer": "Sel ke.",
+      "explanation": "« Sel ke » est la phrase attestée dans les sources SIL pour exprimer la soif."
     },
     {
-      "exercise_id": "ex16",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Məgaw nɛ̂ [ ___ ] (faim).",
-      "correct_answer": "ləkɔ̂",
-      "hint": "Substantif abstrait désignant la sensation physique de faim."
+      "sentence_with_blank": "___ ke. (« j'ai soif »)",
+      "correct_answer": "Sel",
+      "hint": "Nom désignant la sensation de soif."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "SIL — Bassari Phonology / Orthographe Oniyan (2003)",
+      "url": "https://www.sil.org/system/files/reapdata/13/27/28/132728046882691513259738660939179774460/BSC_Orthographe_Oniyan_Fr_2003.pdf"
+    },
+    {
+      "label": "Wikipédia — Pays bassari",
+      "url": "https://fr.wikipedia.org/wiki/Pays_bassari"
+    }
+  ],
+  "confidence": "faible",
+  "confidence_note": "Aucun terme spécifique de nourriture (aliments, plats, boissons autres que l'eau implicite) ni aucune phrase de commande au marché/restaurant n'a été trouvé dans les sources disponibles pour l'oniyan. Seule l'expression attestée de la soif (« Sel ke ») est incluse. Cette lacune lexicale est documentée honnêtement plutôt que comblée par invention ; un vrai cours devrait être complété par une enquête de terrain ou consultation du Thesaurus tenda de Ferry (1991), non accessible en texte intégral ici."
 }

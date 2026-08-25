@@ -4,221 +4,270 @@
   "module_number": 2,
   "module_title": "Le temps et le récit",
   "lesson_number": 5,
-  "title": "Parler du futur et de ses projets",
+  "title": "Parler de ses projets futurs et de ses ambitions",
   "learning_objectives": [
-    "Exprimer des actions futures certaines et des projets à court ou long terme",
-    "Maîtriser les marques de l'inaccompli prospectif positif et négatif",
-    "Utiliser les indicateurs de temps et adverbes liés à l'avenir"
+    "Utiliser le futur simple avec 'di' devant le verbe",
+    "Nier une action au futur avec 'tè'",
+    "Exprimer une intention proche avec le suffixe '-to' (prospectif)",
+    "Parler de ses ambitions professionnelles ou scolaires"
   ],
   "phonetic_focus": {
-    "key_sounds": "La conjugaison du futur s'appuie fortement sur la marque d'inaccompli 'be' /be/ suivie de la marque projective 'na' /na/. La forme négative introduit 'te' /te/ avec un /e/ fermé très net. Le mot pour l'année prochaine 'Siniŋali' /si.ni.ŋa.li/ ou 'San kura' intègre la nasale vélaire /ŋ/ (ng) qui s'articule en bloquant le flux d'air au fond du palais.",
-    "common_pitfalls": "Ne confondez pas la particule négative du futur 'te' /te/ avec la particule de focalisation 'le' /le/. Veillez également à ne pas détacher la marque 'na' du bloc verbal lors d'un débit rapide."
+    "key_sounds": [
+      "Le [d] bref de la particule future 'di', bien distincte de 'di' (donner) selon le contexte",
+      "Le suffixe '-to' du prospectif, à ne pas confondre avec la postposition 'to' (chez)",
+      "Distinction 'tè' (négation présent/futur) et 'tèrè' (marque du passé)"
+    ],
+    "common_pitfalls": [
+      "Confondre 'di' (futur) et 'di' (donner) : deux homophones à distinguer uniquement par le contexte grammatical",
+      "Utiliser 'ma' (négation du passé) au lieu de 'tè' pour nier une phrase au futur"
+    ]
   },
   "vocabulary": [
     {
-      "word_id": "v14_1",
-      "term": "Sini",
-      "phonetic_api": "/si.ni/",
-      "phonetic_simple": "SI-NI",
-      "translation": "Demain / L'avenir",
-      "example_sentence": "Sini mu Ala bolo le di.",
-      "example_phonetic": "/si.ni mu a.la bo.lo le di/",
-      "example_translation": "Demain (l'avenir) appartient à Dieu."
+      "word_id": "v1",
+      "term": "di (futur)",
+      "phonetic_api": "[di]",
+      "phonetic_simple": "di",
+      "translation": "marque du futur (va/ira)",
+      "example_sentence": "N di wa lèkoli la.",
+      "example_phonetic": "[n di wa lɛkoli la]",
+      "example_translation": "J'irai à l'école."
     },
     {
-      "word_id": "v14_2",
-      "term": "Sini tondɔ",
-      "phonetic_api": "/si.ni ton.dɔ/",
-      "phonetic_simple": "SI-NI TONE-DƆ",
-      "translation": "Après-demain",
-      "example_sentence": "An be bɔ na yan sini tondɔ.",
-      "example_phonetic": "/an be bɔ na jan si.ni ton.dɔ/",
-      "example_translation": "Nous partirons d'ici après-demain."
+      "word_id": "v2",
+      "term": "tè (négation future)",
+      "phonetic_api": "[tɛ]",
+      "phonetic_simple": "tè",
+      "translation": "marque de négation au présent/futur",
+      "example_sentence": "Den tè sinoo.",
+      "example_phonetic": "[dɛn tɛ sinoː]",
+      "example_translation": "L'enfant ne dormira pas."
     },
     {
-      "word_id": "v14_3",
-      "term": "Siniŋali",
-      "phonetic_api": "/si.ni.ŋa.li/",
-      "phonetic_simple": "SI-NI-NGA-LI",
-      "translation": "L'année prochaine",
-      "example_sentence": "N be wa na Conakry siniŋali.",
-      "example_phonetic": "/ɲ be wa na ko.na.kri si.ni.ŋa.li/",
-      "example_translation": "J'irai à Conakry l'année prochaine."
+      "word_id": "v3",
+      "term": "-to (prospectif)",
+      "phonetic_api": "[-to]",
+      "phonetic_simple": "-to",
+      "translation": "sur le point de (futur proche)",
+      "example_sentence": "N watô lekoli la.",
+      "example_phonetic": "[n watoː lekoli la]",
+      "example_translation": "Je suis sur le point de partir à l'école."
     },
     {
-      "word_id": "v14_4",
-      "term": "Na",
-      "phonetic_api": "/na/",
-      "phonetic_simple": "NA",
-      "translation": "Venir / Marque projective du futur (placée après la base verbale)",
-      "example_sentence": "A be kɛ na dugu ba di.",
-      "example_phonetic": "/a be kɛ na du.ɣu ba di/",
-      "example_translation": "Cela va devenir une grande ville."
+      "word_id": "v4",
+      "term": "ka doja",
+      "phonetic_api": "[ka dodʒa]",
+      "phonetic_simple": "ka-do-dja",
+      "translation": "faire des efforts, progresser",
+      "example_sentence": "I kakan ka i doja.",
+      "example_phonetic": "[i kakan ka i dodʒa]",
+      "example_translation": "Tu dois encore faire un effort."
     },
     {
-      "word_id": "v14_5",
-      "term": "Te",
-      "phonetic_api": "/te/",
-      "phonetic_simple": "TÉ",
-      "translation": "Marque de l'inaccompli négatif (futur négatif)",
-      "example_sentence": "N te wa na lofɛ la bi.",
-      "example_phonetic": "/ɲ te wa na lo.fɛ la bi/",
-      "example_translation": "Je n'irai pas au marché aujourd'hui."
+      "word_id": "v5",
+      "term": "ka fisaya",
+      "phonetic_api": "[ka fisaja]",
+      "phonetic_simple": "ka-fi-sa-ya",
+      "translation": "s'améliorer, aller mieux",
+      "example_sentence": "Alu la baara di fisaya.",
+      "example_phonetic": "[alu la baːra di fisaja]",
+      "example_translation": "Votre travail va s'améliorer."
     },
     {
-      "word_id": "v14_6",
-      "term": "Lɔ",
-      "phonetic_api": "/lɔ/",
-      "phonetic_simple": "LƆ",
-      "translation": "Bâtir / Construire / Dresser",
-      "example_sentence": "An be so kura lɔ na yan.",
-      "example_phonetic": "/an be so ku.ra lɔ na jan/",
-      "example_translation": "Nous allons construire une nouvelle maison ici."
+      "word_id": "v6",
+      "term": "ka baarala",
+      "phonetic_api": "[ka baːrala]",
+      "phonetic_simple": "ka-ba-a-ra-la",
+      "translation": "travailler",
+      "example_sentence": "A bada wa baara diya.",
+      "example_phonetic": "[a bada wa baːra dija]",
+      "example_translation": "Il est allé au travail."
     },
     {
-      "word_id": "v14_7",
-      "term": "Habako",
-      "phonetic_api": "/ha.ba.ko/",
-      "phonetic_simple": "HA-BA-KO",
-      "translation": "Projet / Ambition / Intention (litt: chose enviée)",
-      "example_sentence": "Habako ba be n bolo.",
-      "example_phonetic": "/ha.ba.ko ba be ɲ bo.lo/",
-      "example_translation": "J'ai un grand projet en vue."
+      "word_id": "v7",
+      "term": "ka karan",
+      "phonetic_api": "[ka karan]",
+      "phonetic_simple": "ka-ka-ran",
+      "translation": "lire, étudier, apprendre",
+      "example_sentence": "Karan bada ban.",
+      "example_phonetic": "[karan bada ban]",
+      "example_translation": "La lecture/l'étude est finie."
     },
     {
-      "word_id": "v14_8",
-      "term": "Sɔsɔ",
-      "phonetic_api": "/sɔ.sɔ/",
-      "phonetic_simple": "SƆ-SƆ",
-      "translation": "Refuser / Contredire / S'opposer",
-      "example_sentence": "A te n na fɔta sɔsɔ na.",
-      "example_phonetic": "/a te ɲ na fɔ.ta sɔ.sɔ na/",
-      "example_translation": "Il ne refusera pas ma proposition."
+      "word_id": "v8",
+      "term": "sinin",
+      "phonetic_api": "[sinin]",
+      "phonetic_simple": "si-nin",
+      "translation": "demain",
+      "example_sentence": "Nɛnɛ dí bɔ́ sínin.",
+      "example_phonetic": "[nɛnɛ di bo sinin]",
+      "example_translation": "Il fera froid demain."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p14_1",
-      "original": "I be mun kɛ na sini sɔɔma la?",
-      "phonetic_api": "/i be mun kɛ na si.ni sɔː.ma la/",
-      "phonetic_simple": "I BÉ MOUN KƐ NA SI-NI SƆƆ-MA LA ?",
-      "translation": "Qu'est-ce que tu vas faire demain matin ?",
-      "context": "Question de base pour s'informer des projets immédiats de quelqu'un."
+      "phrase_id": "p1",
+      "original": "N di wa lèkoli la",
+      "phonetic_api": "[n di wa lɛkoli la]",
+      "phonetic_simple": "n-di-wa-lè-ko-li-la",
+      "translation": "J'irai à l'école",
+      "context": "Futur simple avec 'di'"
     },
     {
-      "phrase_id": "p14_2",
-      "original": "N be wa na sene la, o kɔ fɛ n be wa na lofɛ la.",
-      "phonetic_api": "/ɲ be wa na se.ne la o kɔ fɛ ɲ be wa na lo.fɛ la/",
-      "phonetic_simple": "N BÉ WA NA SÉ-NÉ LA, O KƆ FƐ N BÉ WA NA LO-FƐ LA.",
-      "translation": "J'irai au champ, ensuite j'irai au marché.",
-      "context": "Énumération chronologique d'activités futures planifiées."
+      "phrase_id": "p2",
+      "original": "N watô lekoli la",
+      "phonetic_api": "[n watoː lekoli la]",
+      "phonetic_simple": "n-wa-to-lé-ko-li-la",
+      "translation": "Je suis sur le point de partir à l'école",
+      "context": "Futur proche/prospectif avec '-to'"
     },
     {
-      "phrase_id": "p14_3",
-      "original": "N te wa na Conakry kalo nin kɔnɔ.",
-      "phonetic_api": "/ɲ te wa na ko.na.kri ka.lo nin kɔ.nɔ/",
-      "phonetic_simple": "N TÉ WA NA KO-NA-KRI KA-LO NINE KƆ-NƆ.",
-      "translation": "Je n'irai pas à Conakry durant ce mois.",
-      "context": "Exprimer une certitude négative concernant un déplacement futur."
+      "phrase_id": "p3",
+      "original": "I kakan ka i doja",
+      "phonetic_api": "[i kakan ka i dodʒa]",
+      "phonetic_simple": "i-ka-kan-ka-i-do-dja",
+      "translation": "Tu dois encore faire un effort",
+      "context": "Encouragement à progresser vers un objectif futur"
     },
     {
-      "phrase_id": "p14_4",
-      "original": "I habako lu be kɛ na gba di.",
-      "phonetic_api": "/i ha.ba.ko lu be kɛ na ɡ͡ba di/",
-      "phonetic_simple": "I HA-BA-KO LOU BÉ KƐ NA GBA DI.",
-      "translation": "Tes projets vont se réaliser pleinement.",
-      "context": "Formule d'encouragement ou de bénédiction adressée à un entrepreneur ou un proche."
+      "phrase_id": "p4",
+      "original": "Alu la baara di fisaya",
+      "phonetic_api": "[alu la baːra di fisaja]",
+      "phonetic_simple": "a-lou-la-ba-a-ra-di-fi-sa-ya",
+      "translation": "Votre travail va s'améliorer",
+      "context": "Encouragement porté sur un progrès futur collectif"
+    },
+    {
+      "phrase_id": "p5",
+      "original": "N di n na faninnu ko, sinin",
+      "phonetic_api": "[n di n na faninnu ko sinin]",
+      "phonetic_simple": "n-di-n-na-fa-nin-nou-ko, si-nin",
+      "translation": "Je laverai mes habits demain",
+      "context": "Projet concret pour le lendemain"
     }
   ],
   "grammar_points": [
     {
-      "concept": "La formation du futur affirmatif avec 'be ... na'",
-      "explanation": "En Sankaran, le futur certain ou intentionnel s'exprime à l'aide de l'indice de l'inaccompli 'be' placé après le sujet, complété par la particule projective 'na' qui vient s'insérer immédiatement après la base verbale.",
+      "concept": "Le futur simple avec 'di'",
+      "explanation": "Le futur le plus courant se forme en plaçant la particule 'di' entre le sujet et le verbe (ou avant le complément d'objet s'il y en a un).",
       "rules": [
-        "Structure affirmative : Sujet + be + Verbe + na + (Compléments / Postpositions)",
-        "Si le verbe est transitif avec un complément d'objet direct, la structure devient : Sujet + be + Complément + Verbe + na"
+        "Structure affirmative : [Sujet] + di + ([COD]) + [Verbe]",
+        "Structure négative : [Sujet] + tè + ([COD]) + [Verbe]"
       ],
       "examples": [
         {
-          "structure": "N be wa na.",
-          "phonetic_api": "/ɲ be wa na/",
-          "meaning": "J'irai / Je viendrai à partir."
+          "structure": "[Sujet] di [Verbe]",
+          "phonetic_api": "[di]",
+          "meaning": "[Sujet] fera [verbe]"
         },
         {
-          "structure": "N be wari sɔrɔ na.",
-          "phonetic_api": "/ɲ be wa.ri sɔ.rɔ na/",
-          "meaning": "Je trouverai de l'argent."
+          "structure": "[Sujet] tè [Verbe]",
+          "phonetic_api": "[tɛ]",
+          "meaning": "[Sujet] ne fera pas [verbe]"
         }
       ]
     },
     {
-      "concept": "La formation du futur négatif avec 'te ... na'",
-      "explanation": "Pour exprimer qu'une action ne se réalisera pas dans le futur, on substitue la marque affirmative 'be' par la marque négative d'inaccompli 'te'. La particule projective 'na' reste obligatoirement positionnée après le verbe.",
+      "concept": "Le futur proche/prospectif avec '-to'",
+      "explanation": "Pour exprimer une action imminente ('être sur le point de'), on ajoute le suffixe '-to' directement au verbe.",
       "rules": [
-        "Structure négative : Sujet + te + Verbe + na"
+        "Structure : [Sujet] + [Verbe]-to + [Complément]",
+        "Exprime une intention ou une action très proche dans le temps"
       ],
       "examples": [
         {
-          "structure": "A te baara kɛ na sini.",
-          "phonetic_api": "/a te baː.ra kɛ na si.ni/",
-          "meaning": "Il ne travaillera pas demain."
+          "structure": "[Verbe]-to",
+          "phonetic_api": "[-to]",
+          "meaning": "être sur le point de [verbe]"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Lamine",
-      "text": "Fanta, i habako lu mu mun di siniŋali?",
-      "phonetic_api": "/fan.ta i ha.ba.ko lu mu mun di si.ni.ŋa.li/",
-      "phonetic_simple": "FAN-TA, I HA-BA-KO LOU MOU MOUN DI SI-NI-NGA-LI ?",
-      "translation": "Fanta, quels sont tes projets pour l'année prochaine ?"
+      "speaker": "Karamoo",
+      "text": "I kakan ka i doja, i la baara di fisaya.",
+      "phonetic_api": "[i kakan ka i dodʒa i la baːra di fisaja]",
+      "phonetic_simple": "i-ka-kan-ka-i-do-dja, i-la-ba-a-ra-di-fi-sa-ya",
+      "translation": "Tu dois encore faire un effort, ton travail va s'améliorer."
     },
     {
-      "speaker": "Fanta",
-      "text": "Nba, Lamine. N b'a fɛ ka so kura lɔ na yan Faranah dugu kɔnɔ.",
-      "phonetic_api": "/ɲ.ba la.min | ɲ b'a fɛ ka so ku.ra lɔ na jan fa.ra.na du.ɣu kɔ.nɔ/",
-      "phonetic_simple": "NBA, LA-MINE. N BA FƐ KA SO KOU-RA LƆ NA YANE FA-RA-NA DOU-GOU KƆ-NƆ.",
-      "translation": "Eh bien, Lamine. Je souhaite construire une nouvelle maison ici même dans la ville de Faranah."
+      "speaker": "Karanden",
+      "text": "Awa, karamoo. N watô lekoli la sinin.",
+      "phonetic_api": "[awa karamoː n watoː lekoli la sinin]",
+      "phonetic_simple": "a-wa, ka-ra-mo-o. n-wa-to-lé-ko-li-la-si-nin",
+      "translation": "D'accord, maître. Je serai sur le point de partir à l'école demain."
     },
     {
-      "speaker": "Lamine",
-      "text": "O ka fisa gba ! I te wa na Conakry fana bang?",
-      "phonetic_api": "/o ka fi.sa ɡ͡ba | i te wa na ko.na.kri fa.na baŋ/",
-      "phonetic_simple": "O KA FI-SA GBA ! I TÉ WA NA KO-NA-KRI FA-NA BANGE ?",
-      "translation": "C'est une excellente idée ! Tu n'iras plus à Conakry alors ?"
+      "speaker": "Karamoo",
+      "text": "A di kè nyuma !",
+      "phonetic_api": "[a di kɛ ɲuma]",
+      "phonetic_simple": "a-di-kè-nyou-ma",
+      "translation": "Cela ira bien !"
     },
     {
-      "speaker": "Fanta",
-      "text": "N te wa na Conakry sisan. N be sigi na yan ka baara kɛ n faa sene la.",
-      "phonetic_api": "/ɲ te wa na ko.na.kri si.san | ɲ be si.ɣi na jan ka baː.ra kɛ ɲ faː se.ne la/",
-      "phonetic_simple": "N TÉ WA NA KO-NA-KRI SI-SANE. N BÉ SI-GOU NA YANE KA BAA-RA KƐ N FAA SÉ-NÉ LA.",
-      "translation": "Je n'irai pas à Conakry pour le moment. Je vais rester m'installer ici pour travailler dans le champ de mon père."
+      "speaker": "Karanden",
+      "text": "N di n hakili di, n di baarala kosobè sinin.",
+      "phonetic_api": "[n di n hakili di n di baːrala kosobɛ sinin]",
+      "phonetic_simple": "n-di-n-ha-ki-li-di, n-di-ba-a-ra-la-ko-so-bè-si-nin",
+      "translation": "Je vais me concentrer, je travaillerai beaucoup demain."
     }
   ],
   "cultural_notes": [
-    "Dans la culture du Sankaran, lorsqu'on évoque ses projets ou des actions futures, il est d'usage constant d'ajouter la formule de déférence spirituelle 'N'Ala sɔnna' (Si Dieu le veut / Inchallah). Annoncer l'avenir de manière trop péremptoire sans cette nuance est perçu comme un manque d'humilité face aux aléas de la vie.",
-    "L'attachement à la terre et l'investissement immobilier local (construire une maison dans sa ville natale ou celle de ses parents) constituent l'accomplissement social et le projet de vie majeur pour tout natif de la région de Faranah."
+    "L'encouragement scolaire ('i doja' = fais des efforts) est une formule très courante dans les échanges entre maîtres ('karamoo') et élèves ('karanden'), reflétant l'importance de la persévérance dans l'éducation traditionnelle ([Malinkuia](https://fr.scribd.com/document/499114939/Malinkuia)).",
+    "Note dialectale (Sankaran) : cette leçon présente le maninka du Sankaran, parlé traditionnellement dans la région historique du Sankaran, aujourd'hui la préfecture et région de Faranah (Haute-Guinée), berceau historique du clan Condé et zone antérieure au Mandén selon la tradition orale. Le sankaran (ISO 639-3 msc) est très proche du malinké/maninka standard de Kankan, avec lequel il est mutuellement intelligible ; les mots et structures de cette leçon reflètent ce fonds commun du maninka de l'Est, complété par les spécificités phonologiques et grammaticales du parler de Faranah documentées par Spears (voir sources)."
   ],
   "exercises": [
     {
-      "exercise_id": "ex14_1",
-      "type": "multiple_choice",
-      "question": "Choisissez la traduction exacte de : 'Je travaillerai demain.'",
-      "options": [
-        "N ye baara kɛ kunu.",
-        "N be baara kɛ na sini.",
-        "N te baara kɛ na sini."
-      ],
-      "correct_answer": "N be baara kɛ na sini.",
-      "explanation": "La structure utilise 'be' avant le bloc d'objet-verbe et insère 'na' après le verbe 'kɛ' (faire) pour projeter l'action dans l'avenir ('sini')."
+      "exercise_id": "e1",
+      "type": "traduction",
+      "question": "Traduisez : 'J'irai à l'école.'",
+      "correct_answer": "N di wa lèkoli la.",
+      "explanation": "Futur simple : sujet + di + verbe."
     },
     {
-      "exercise_id": "ex14_2",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Pour exprimer le futur négatif (je ne ferai pas), on utilise l'auxiliaire : N [ ___ ] wa na lofɛ la sini.",
-      "correct_answer": "te",
-      "hint": "C'est la marque d'inaccompli négatif composée de deux lettres se terminant par un e fermé."
+      "exercise_id": "e2",
+      "type": "choix_multiple",
+      "question": "Quelle particule marque le futur proche/imminent ?",
+      "options": [
+        "di",
+        "-to",
+        "tèrè",
+        "bada"
+      ],
+      "correct_answer": "-to",
+      "explanation": "Le suffixe '-to' exprime une action sur le point de se produire."
+    },
+    {
+      "exercise_id": "e3",
+      "type": "texte_a_trous",
+      "sentence_with_blank": "Den ___ sinoo.  (L'enfant ne dormira pas.)",
+      "correct_answer": "tè",
+      "hint": "C'est la négation utilisée au présent/futur (différente de 'ma' au passé)."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Ethnologue — Maninka, Sankaran [msc]",
+      "url": "https://www.ethnologue.com/language/msc/"
+    },
+    {
+      "label": "Glottolog 5.3 — Sankaran Maninka [sank1253]",
+      "url": "https://glottolog.org/resource/languoid/id/sank1253"
+    },
+    {
+      "label": "Wikipédia — Sankaran (langue, msc)",
+      "url": "https://fr.wikipedia.org/wiki/Sankaran"
+    },
+    {
+      "label": "Spears, R. A. — The Structure of Faranah-Maninka (Indiana University, description structurale du parler de Faranah, historiquement le Sankaran)",
+      "url": "https://theswissbay.ch/pdf/Books/Linguistics/Mega%20linguistics%20pack/African/Niger-Congo/Mande/Maninka,%20The%20Structure%20of%20Faranah-%20(Spears).pdf"
+    },
+    {
+      "label": "Vydrin (2023) — Le TAM en maninka de Guinée : la zone du futur, Mandenkan 70",
+      "url": "https://journals.openedition.org/mandenkan/pdf/3253"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Aucune source lexicale ou grammaticale dédiée et indépendante n'a été trouvée pour cette leçon spécifiquement en sankaran : le contenu reprend le fonds commun du maninka/malinké de Haute-Guinée (vérifié pour le malinké standard), dont la proximité avec le sankaran est confirmée par les classifications Ethnologue/Glottolog/Vydrin, mais sans confirmation lexème par lexème pour ce dialecte précis. Confiance donc revue à la baisse par rapport à une attestation directe."
 }

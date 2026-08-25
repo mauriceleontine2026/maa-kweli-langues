@@ -6,128 +6,185 @@
   "lesson_number": 1,
   "title": "L'utilisation des temps complexes et des modes avancés",
   "learning_objectives": [
-    "Maîtriser les aspects de l'antériorité et de l'action non-révolue (plus-que-parfait, subjonctif)",
-    "Exprimer des nuances de simultanéité temporelle dans un récit long"
+    "Maîtriser les quatre formes verbales fondamentales du toma/loma (base, progressive, passé récent, passé lointain)",
+    "Comprendre la polyvalence de la forme de base (présent, futur, impératif, conditionnel, but)",
+    "Distinguer précisément l'aspect progressif de l'aspect ponctuel"
   ],
   "phonetic_focus": {
-    "key_sounds": "Au niveau avancé, les variations tonales (combinaisons de tons modulés montant-descendant /ɛ᷈/) sur les suffixes aspectuels modifient radicalement la perspective temporelle.",
-    "common_pitfalls": "Évitez d'omettre l'allongement de la voyelle du marqueur 'ni-a' sous peine de ramener l'action à un passé simple accompli."
+    "key_sounds": "La forme progressive se marque par un suffixe '-zu/-su' qui s'attache directement au radical et peut légèrement modifier le ton final du verbe ; il faut la distinguer nettement du suffixe du passé récent '-ga/-a'.",
+    "common_pitfalls": "Les francophones, habitués à des désinences verbales très distinctes pour chaque temps, sous-estiment le fait qu'une seule 'forme de base' couvre en toma/loma le présent, l'impératif, le futur simple, le conditionnel ET le but ; il faut se fier au contexte plutôt qu'à la morphologie seule pour ces cas."
   },
   "vocabulary": [
     {
-      "word_id": "v19_1",
-      "term": "kɛna-gbe",
-      "phonetic_api": "/kɛ.na.ɡbɛ/",
-      "phonetic_simple": "KE-NA-GBE",
-      "translation": "avoir déjà accompli / fait auparavant (plus-que-parfait)",
-      "example_sentence": "Na tii ni kɛna-gbe.",
-      "example_phonetic": "/na tiː ni kɛ.na.ɡbɛ/",
-      "example_translation": "J'avais déjà fini ce travail."
+      "word_id": "v1",
+      "term": "Forme de base",
+      "phonetic_api": "/-/",
+      "phonetic_simple": "FORME-DE-BASE",
+      "translation": "Forme verbale couvrant présent, impératif, futur, conditionnel, but, habituel",
+      "example_sentence": "E lii.",
+      "example_phonetic": "/e liː/",
+      "example_translation": "Il va / il ira / qu'il aille (selon contexte)."
     },
     {
-      "word_id": "v19_2",
-      "term": "woba-wɛñ",
-      "phonetic_api": "/wo.ba.wɛ̃/",
-      "phonetic_simple": "WO-BA-WEN",
-      "translation": "pendant ce temps / simultanément",
-      "example_sentence": "O va-na woba-wɛñ na mɔlɔ mɛ.",
-      "example_phonetic": "/o va.na wo.ba.wɛ̃ na mɔ.lɔ mɛ/",
-      "example_translation": "Il est venu pendant que je mangeais du riz."
+      "word_id": "v2",
+      "term": "-zu / -su",
+      "phonetic_api": "/-zu/ ; /-su/",
+      "phonetic_simple": "-ZOU / -SOU",
+      "translation": "Suffixe de la forme progressive",
+      "example_sentence": "Ga liizu taazu.",
+      "example_phonetic": "/ga liːzu taːzu/",
+      "example_translation": "Je suis en train d'aller / je vais bientôt en ville."
     },
     {
-      "word_id": "v19_3",
-      "term": "kɛ-vai",
-      "phonetic_api": "/kɛ.vai/",
-      "phonetic_simple": "KE-VAÏ",
-      "translation": "afin que / pour que (mode subjonctif/intentionnel)",
-      "example_sentence": "Li kɛ-vai i va mɛni.",
-      "example_phonetic": "/li kɛ.vai i va mɛ.ni/",
-      "example_translation": "Pars afin que tu puisses comprendre."
+      "word_id": "v3",
+      "term": "-ga / -a",
+      "phonetic_api": "/-ga/",
+      "phonetic_simple": "-GA",
+      "translation": "Suffixe du passé récent",
+      "example_sentence": "E tenega.",
+      "example_phonetic": "/e teneɡa/",
+      "example_translation": "Il s'est arrêté (récemment)."
     },
     {
-      "word_id": "v19_4",
-      "term": "lapatɛ-zu",
-      "phonetic_api": "/la.pa.tɛ.zu/",
-      "phonetic_simple": "LA-PA-TE-ZOU",
-      "translation": "durant une longue période / jadis",
-      "example_sentence": "Ta ɓilana ɓɛñ lapatɛ-zu.",
-      "example_phonetic": "/ta ɓi.la.na ɓɛ̃ la.pa.tɛ.zu/",
-      "example_translation": "Ils habitaient ici depuis fort longtemps."
+      "word_id": "v4",
+      "term": "-ni",
+      "phonetic_api": "/-ni/",
+      "phonetic_simple": "-NI",
+      "translation": "Suffixe du passé lointain (invariable)",
+      "example_sentence": "E liini Zorzor.",
+      "example_phonetic": "/e liːni zɔrzɔr/",
+      "example_translation": "Il est allé à Zorzor (autrefois)."
+    },
+    {
+      "word_id": "v5",
+      "term": "Maaneeve",
+      "phonetic_api": "/maːneːve/",
+      "phonetic_simple": "MA-A-NÉÉ-VÉ",
+      "translation": "Il faut (modalité de nécessité)",
+      "example_sentence": "Maaneeve ge tiiyec.",
+      "example_phonetic": "/maːneːve ge tiːjek/",
+      "example_translation": "Il faut que je travaille."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p19_1",
-      "original": "Na kɛna-gbe na i toli mɛni, kɛ́ɛ i pɛ́ va.",
-      "phonetic_api": "/na kɛ.na.ɡbɛ na i to.li mɛ.ni kɛ́ː i pɛ́ va/",
-      "phonetic_simple": "NA KE-NA-GBE NA I TO-LI ME-NI, KEE I PE VA",
-      "translation": "Je t'avais déjà appelé au loin, mais tu n'es pas venu.",
-      "context": "Registre soutenu pour exprimer un reproche sur une action antérieure déjà manquée."
+      "phrase_id": "p1",
+      "original": "Ga saa galii.",
+      "phonetic_api": "/ga saː galiː/",
+      "phonetic_simple": "GA-SA-GA-LI",
+      "translation": "J'irai maintenant.",
+      "context": "Forme de base employée pour un futur immédiat."
     },
     {
-      "phrase_id": "p19_2",
-      "original": "Kɛ kɔni ni ma kɛ-vai i lii va wɛlɛ.",
-      "phonetic_api": "/kɛ kɔ.ni ni ma kɛ.vai i liː va wɛ.lɛ/",
-      "phonetic_simple": "KE KO-NI NI MA KE-VAÏ I LII VA WE-LE",
-      "translation": "Agis selon ce conseil afin que ton cœur s'épanouisse pleinement.",
-      "context": "Bénédiction ou exhortation formelle lors d'une cérémonie de passage."
+      "phrase_id": "p2",
+      "original": "Ga liizu taazu.",
+      "phonetic_api": "/ga liːzu taːzu/",
+      "phonetic_simple": "GA-LI-ZOU-TA-ZOU",
+      "translation": "Je vais en ville / je suis en train d'y aller.",
+      "context": "Forme progressive marquant une action en cours ou imminente."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "E napelei loogi oinaa.",
+      "phonetic_api": "/e napelei lɔːgi ɔinaː/",
+      "phonetic_simple": "É-NA-PÉ-LÉÏ-LO-O-GUI-OÏ-NA",
+      "translation": "Il a construit sa maison hier.",
+      "context": "Passé récent, action achevée peu de temps auparavant."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Anii Gala k3e na, ga e wulo kpialgii felegDima.",
+      "phonetic_api": "/anii ɡala kɔe na ɡa e wulɔ kpialɡiː feleɡɔima/",
+      "phonetic_simple": "A-NI-I-GA-LA-KO-É-NA-GA-É-WOU-LO-KPI-AL-GUI-FÉ-LÉ-GO-I-MA",
+      "translation": "Si Dieu le bénit, il obtiendra son diplôme.",
+      "context": "Forme de base employée dans une proposition conditionnelle au futur."
     }
   ],
   "grammar_points": [
     {
-      "concept": "La construction de l'antériorité complexe (Plus-que-parfait)",
-      "explanation": "L'antériorité par rapport à une autre action passée se forme en combinant le suffixe accompli '-na' avec l'auxiliaire de rupture temporelle 'gbe'.",
+      "concept": "Le système des quatre formes verbales et la polyvalence de la forme de base",
+      "explanation": "D'après l'analyse académique de Sadler, le loma/toma organise son système verbal autour de quatre formes : la forme de base (présent, impératif, exclamation, futur, conditionnel, permission, but, action habituelle, verbes en série), la forme progressive (suffixe -zu/-su, action en cours ou imminente), le passé récent (suffixe variable -ga/-a) et le passé lointain (suffixe invariable -ni). La forme de base est remarquable par sa très large polyvalence fonctionnelle : un même verbe non marqué peut, selon le contexte, exprimer un ordre, une promesse, un souhait ou une action habituelle.",
       "rules": [
-        "Le verbe principal reçoit l'affixe ou se place au radical nu si l'auxiliaire est marqué.",
-        "La particule 'gbe' rejette l'action dans un plan temporel entièrement décroché du présent."
+        "Forme de base (sans suffixe) = présent, impératif, futur, conditionnel, permission, but, habituel, verbes en série.",
+        "Forme de base + -zu/-su = progressif (action en cours/imminente).",
+        "Forme de base + -ga/-a = passé récent.",
+        "Forme de base + -ni = passé lointain (universel, ne varie pas selon la classe verbale)."
       ],
       "examples": [
         {
-          "structure": "na lina-gbe",
-          "phonetic_api": "/na li.na.ɡbɛ/",
-          "meaning": "j'étais déjà parti (auparavant)"
+          "structure": "E lii. (contexte présent) / E lii! (contexte impératif) / Anii..., e lii. (contexte conditionnel)",
+          "phonetic_api": "/e liː/",
+          "meaning": "Il va / Va ! / ...il irait (selon le contexte de la phrase)."
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "L'Ancien",
-      "text": "Tokpa, i kɛna-gbe i tɔ́gɔ mɛni woi?",
-      "phonetic_api": "/tok.pa i kɛ.na.ɡbɛ i tɔ́.ɡɔ mɛ.ni woi/",
-      "phonetic_simple": "TOK-PA I KE-NA-GBE I TO-GO ME-NI WOÏ",
-      "translation": "Tokpa, avais-tu déjà assimilé la loi de la forêt hier ?"
+      "speaker": "Locuteur 1",
+      "text": "Ga liizu taazu zaa.",
+      "phonetic_api": "/ga liːzu taːzu zaː/",
+      "phonetic_simple": "GA-LI-ZOU-TA-ZOU-ZA",
+      "translation": "Je suis en train d'aller en ville maintenant."
     },
     {
-      "speaker": "Tokpa",
-      "text": "Owo, na mɛnina-gbe vaza, kɛ-vai na li za-waza.",
-      "phonetic_api": "/o.wo na mɛ.ni.na.ɡbɛ va.za kɛ.vai na li za.va.za/",
-      "phonetic_simple": "O-WO NA ME-NI-NA-GBE VA-ZA, KE-VAÏ NA LI ZA-VA-ZA",
-      "translation": "Oui, je l'avais déjà bien apprise, afin de me conduire avec sagesse."
+      "speaker": "Locuteur 2",
+      "text": "E napelei loogi oinaa, navaama zaa yaa yebili.",
+      "phonetic_api": "/e napelei lɔːgi ɔinaː navaːma zaː jaː jebili/",
+      "phonetic_simple": "É-NA-PÉ-LÉÏ-LO-O-GUI-OÏ-NA-NA-VA-A-MA-ZA-YA-YÉ-BI-LI",
+      "translation": "Il a construit sa maison hier, donc il peut y dormir aujourd'hui."
+    },
+    {
+      "speaker": "Locuteur 1",
+      "text": "Anii Gala k3e na, ga e wulo kpialgii felegDima.",
+      "phonetic_api": "/anii ɡala kɔe na ɡa e wulɔ kpialɡiː feleɡɔima/",
+      "phonetic_simple": "A-NI-I-GA-LA-KO-É-NA-GA-É-WOU-LO-KPI-AL-GUI-FÉ-LÉ-GO-I-MA",
+      "translation": "Si Dieu le bénit, il obtiendra son diplôme."
     }
   ],
   "cultural_notes": [
-    "La maîtrise des aspects temporels complexes sépare les locuteurs basiques des grands orateurs de la tradition Loma/Toma. Savoir manier le subjonctif et l'antériorité permet d'intervenir dignement dans les palabres du village."
+    "La polyvalence de la forme de base reflète une économie morphologique typique des langues mandé du Sud, où le contexte pragmatique porte une grande partie du sens temporel/modal, contrairement au français qui multiplie les désinences.",
+    "La maîtrise de ce système à quatre formes est considérée comme la marque d'une compétence avancée dans l'apprentissage du loma/toma par les linguistes qui l'ont étudié (Sadler)."
   ],
   "exercises": [
     {
-      "exercise_id": "ex19_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel morphème indique le but ou l'intention au subjonctif ('afin que') ?",
+      "question": "Quelles fonctions couvre la 'forme de base' du verbe en toma/loma ?",
       "options": [
-        "kɛna-gbe",
-        "kɛ-vai",
-        "woba-wɛñ"
+        "Présent, impératif, futur, conditionnel, but, habituel",
+        "Uniquement le présent",
+        "Uniquement le passé"
       ],
-      "correct_answer": "kɛ-vai",
-      "explanation": "'kɛ-vai' introduit une proposition finale ou un souhait articulé."
+      "correct_answer": "Présent, impératif, futur, conditionnel, but, habituel",
+      "explanation": "Selon Sadler (Mandenkan 42), la forme de base est remarquablement polyvalente et couvre toutes ces fonctions selon le contexte."
     },
     {
-      "exercise_id": "ex19_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Na tii ni kɛna-[ ___ ] (J'avais déjà fini ce travail).",
-      "correct_answer": "gbe",
-      "hint": "La particule d'antériorité absolue."
+      "sentence_with_blank": "E teneg[ ___ ]. (Il s'est arrêté récemment.)",
+      "correct_answer": "a",
+      "hint": "C'est le suffixe du passé récent."
+    },
+    {
+      "exercise_id": "ex3",
+      "type": "multiple_choice",
+      "question": "Quel suffixe marque le passé lointain, invariable quelle que soit la classe verbale ?",
+      "options": [
+        "-ni",
+        "-ga",
+        "-zu"
+      ],
+      "correct_answer": "-ni",
+      "explanation": "Le suffixe '-ni' est universel pour le passé lointain, documenté par Sadler."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Wesley Sadler, \"A Complete Analysis of the Lɔɔma Language\", Mandenkan 42 (LLACAN/CNRS)",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan42/sadler.pdf"
+    }
+  ],
+  "confidence": "élevée",
+  "confidence_note": "Le système des quatre formes verbales (base/progressive/passé récent/passé lointain) et la polyvalence de la forme de base sont explicitement décrits et illustrés par la grammaire académique de Sadler (Mandenkan 42), source de référence pour cette langue. Le toma de Guinée forestière et le loma/lorma du Libéria (dialecte Gizima) forment un continuum dialectal du même groupe Mande du Sud (Mende-Loma) ; les formes citées ici proviennent des meilleures sources disponibles pour ce continuum linguistique (grammaire de Sadler et manuel Peace Corps de Dwyer), la documentation publiée spécifique au parler de Guinée étant plus rare."
 }

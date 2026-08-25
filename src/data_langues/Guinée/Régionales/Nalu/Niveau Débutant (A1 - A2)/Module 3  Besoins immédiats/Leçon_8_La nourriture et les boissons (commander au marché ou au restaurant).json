@@ -4,167 +4,204 @@
   "module_number": 3,
   "module_title": "Besoins immédiats",
   "lesson_number": 8,
-  "title": "La nourriture et les boissons",
+  "title": "La nourriture et les boissons (commander au marché ou au restaurant)",
   "learning_objectives": [
-    "Nommer les aliments de base et les boissons courantes",
-    "Savoir passer une commande simple au marché ou pour un repas"
+    "Nommer les aliments de base attestés (riz, nourriture) et les verbes liés à l'alimentation",
+    "Utiliser les verbes « manger », « cuire le riz », « vendre » et « acheter » dans des phrases simples",
+    "Comprendre le rôle du riz dans l'économie et la culture nalu"
   ],
   "phonetic_focus": {
-    "key_sounds": "Le groupe de lettres 'ce' se prononce toujours comme le son 'tch' en français. La présence d'une voyelle longue doublée (comme dans 'ceeb') signifie qu'il faut étirer le son de la voyelle deux fois plus longtemps qu'une voyelle simple.",
-    "common_pitfalls": "Veillez à ne pas prononcer le 'm' initial de 'm mela' de manière détachée; il s'agit d'une nasalisation labiale très courte qui fusionne avec le début du verbe."
+    "key_sounds": "Le nalu comporte 7 voyelles avec opposition de longueur (i, u, e [ɪ], o [ʊ], ɛ, ɔ, a) et des consonnes comme θ (proche du 'th' anglais dur, prononcé [f] par de nombreux locuteurs), gb (occlusive labio-vélaire double, sans équivalent en français), et ŋ (comme 'ng' dans 'parking'). Source : Seidel (2024), The Oxford Guide to the Atlantic Languages of West Africa.",
+    "common_pitfalls": "Les francophones ont tendance à confondre ɛ/e et ɔ/o car le français ne marque pas systématiquement cette opposition de fermeture. Le θ est souvent mal prononcé car il n'existe pas en français ; beaucoup de locuteurs nalu eux-mêmes le réalisent [f]. La longueur vocalique (ex. redoublement de voyelle 'ɔɔ') doit être respectée, contrairement au français où elle n'est pas distinctive."
   },
   "vocabulary": [
     {
-      "word_id": "v8_1",
-      "term": "Ceeb",
-      "phonetic_api": "/tʃeːb/",
-      "phonetic_simple": "TCHÉÉB",
-      "translation": "Poisson",
-      "example_sentence": "M malang ceeb.",
-      "example_phonetic": "/m ba.laŋ tʃeːb/",
-      "example_translation": "Je veux du poisson."
+      "word_id": "v1",
+      "term": "m-feef",
+      "phonetic_api": "/mfeːf/",
+      "phonetic_simple": "M-FÉÉF",
+      "translation": "riz",
+      "example_sentence": "Ati fɛɛfer bɛyaaw nɛɛ bɛyaaw faaŋa mkantaŋ.",
+      "example_phonetic": "/ati fɛːfer bɛjaːw nɛː bɛjaːw faːŋa mkantaŋ/",
+      "example_translation": "Elle doit cuire le riz pour les invités, car les invités veulent continuer (leur route)."
     },
     {
-      "word_id": "v8_2",
-      "term": "Malaŋ",
-      "phonetic_api": "/ma.laŋ/",
-      "phonetic_simple": "MA-LANG",
-      "translation": "Riz",
-      "example_sentence": "Malaŋ a ce.",
-      "example_phonetic": "/ma.laŋ a tʃe/",
-      "example_translation": "Le riz est bon."
+      "word_id": "v2",
+      "term": "m-reb",
+      "phonetic_api": "/mreb/",
+      "phonetic_simple": "M-RÉB",
+      "translation": "nourriture",
+      "example_sentence": "Bɛdeey duŋna mrebtah.",
+      "example_phonetic": "/bɛdeːj duŋna mrebtah/",
+      "example_translation": "Ils venaient juste de finir de manger."
     },
     {
-      "word_id": "v8_3",
-      "term": "M'mela",
-      "phonetic_api": "/m.me.la/",
-      "phonetic_simple": "M-MÉ-LA",
-      "translation": "Eau",
-      "example_sentence": "Ina, ror m'mela.",
-      "example_phonetic": "/i.na ror m.me.la/",
-      "example_translation": "S'il te plaît, donne-moi de l'eau."
+      "word_id": "v3",
+      "term": "reb",
+      "phonetic_api": "/reb/",
+      "phonetic_simple": "RÉB",
+      "translation": "manger (verbe)",
+      "example_sentence": "rɛp tahan",
+      "example_phonetic": "/rɛp tahan/",
+      "example_translation": "manger (forme comparative, tableau Wiktionary)"
     },
     {
-      "word_id": "v8_4",
-      "term": "N'wut",
-      "phonetic_api": "/nwut/",
-      "phonetic_simple": "N-WOUT",
-      "translation": "Nourriture / Manger",
-      "example_sentence": "M malang n'wut.",
-      "example_phonetic": "/m ba.laŋ nwut/",
-      "example_translation": "Je veux manger."
+      "word_id": "v4",
+      "term": "fɛɛf",
+      "phonetic_api": "/fɛːf/",
+      "phonetic_simple": "FÉÉF",
+      "translation": "cuire le riz",
+      "example_sentence": "Asehel mreb timdeŋk.",
+      "example_phonetic": "/asehel mreb timdeŋk/",
+      "example_translation": "Elle mélange la nourriture avec de la boue (image dépréciative attestée dans le corpus)."
     },
     {
-      "word_id": "v8_5",
-      "term": "Meŋ",
-      "phonetic_api": "/meŋ/",
-      "phonetic_simple": "MENG",
-      "translation": "Boire",
-      "example_sentence": "M malang meŋ m'mela.",
-      "example_phonetic": "/m ba.laŋ meŋ m.me.la/",
-      "example_translation": "Je veux boire de l'eau."
+      "word_id": "v5",
+      "term": "caames",
+      "phonetic_api": "/kaːmes/",
+      "phonetic_simple": "TSAAMÈS",
+      "translation": "vendre",
+      "example_sentence": "Msiŋcaames ha makoy?",
+      "example_phonetic": "/msiŋkaːmes ha makoj/",
+      "example_translation": "N'est-il pas commerçant (celui qui vend) ?"
+    },
+    {
+      "word_id": "v6",
+      "term": "waay",
+      "phonetic_api": "/waːj/",
+      "phonetic_simple": "WAAY",
+      "translation": "acheter",
+      "example_sentence": "waaytaha",
+      "example_phonetic": "/waːjtaha/",
+      "example_translation": "faire des achats (forme dérivée attestée par Seidel 2024)"
+    },
+    {
+      "word_id": "v7",
+      "term": "m-siis",
+      "phonetic_api": "/msiːs/",
+      "phonetic_simple": "M-SIIS",
+      "translation": "palmier à huile",
+      "example_sentence": "Bɛbakaa pɔten mɔ mti mɔɔ mati yooŋ bet tikanɔɔmp mɔ msiis mɔh.",
+      "example_phonetic": "/bɛbakaː pɔten mɔ mti mɔː mati jɔːŋ bet tikanɔːmp mɔ msiːs mɔh/",
+      "example_translation": "Ils en extrayaient le vin de palme ; cet arbre-là, en quittant Nompu, c'est là qu'on commence à voir ce palmier."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p8_1",
-      "original": "M malang n'wut, ina.",
-      "phonetic_api": "/m ba.laŋ nwut i.na/",
-      "phonetic_simple": "M BA-LANG N-WOUT I-NA",
-      "translation": "Je voudrais manger, s'il vous plaît.",
-      "context": "Expression essentielle pour commander un repas ou exprimer sa faim."
+      "phrase_id": "p1",
+      "original": "Ati fɛɛfer bɛyaaw nɛɛ bɛyaaw faaŋa mkantaŋ.",
+      "phonetic_api": "/ati fɛːfer bɛjaːw nɛː bɛjaːw faːŋa mkantaŋ/",
+      "phonetic_simple": "ATI FÉÉFÉR BÈYAAW NÈÈ BÈYAAW FAANGA M-KANTANG",
+      "translation": "Elle doit cuire le riz pour les invités, car ils veulent continuer.",
+      "context": "Exemple attesté illustrant la préparation du riz pour des hôtes."
     },
     {
-      "phrase_id": "p8_2",
-      "original": "Ror mi m'mela, baa.",
-      "phonetic_api": "/ror mi m.me.la baː/",
-      "phonetic_simple": "ROR MI M-MÉ-LA BAA",
-      "translation": "Donne-moi de l'eau, mon père.",
-      "context": "Formule polie pour demander à boire à un aîné."
+      "phrase_id": "p2",
+      "original": "Bɛdeey duŋna mrebtah.",
+      "phonetic_api": "/bɛdeːj duŋna mrebtah/",
+      "phonetic_simple": "BÈDÉÉY DOUNGNA M-RÉBTAH",
+      "translation": "Ils venaient juste de finir de manger.",
+      "context": "Utilise l'extension complétive « duŋ »."
     },
     {
-      "phrase_id": "p8_3",
-      "original": "A rila tange ceeb we?",
-      "phonetic_api": "/a ri.la taŋ.e tʃeːb we/",
-      "phonetic_simple": "A RI-LA TANG-É TCHÉÉB WÉ",
-      "translation": "Combien coûte ce poisson ?",
-      "context": "Indispensable pour négocier la nourriture sur les marchés côtiers."
+      "phrase_id": "p3",
+      "original": "Msiŋcaames ha makoy?",
+      "phonetic_api": "/msiŋkaːmes ha makoj/",
+      "phonetic_simple": "MSING-TSAAMÈS HA MAKOY",
+      "translation": "N'est-il pas commerçant ?",
+      "context": "Pour identifier un vendeur au marché."
+    },
+    {
+      "phrase_id": "p_extra1",
+      "original": "rɛp tahan",
+      "phonetic_api": "/rɛp tahan/",
+      "phonetic_simple": "RÉB",
+      "translation": "manger (forme comparative, tableau Wiktionary)",
+      "context": "Réemploi de l'exemple attesté pour le terme « reb » (voir vocabulaire de cette leçon), afin d'illustrer son usage en phrase."
     }
   ],
   "grammar_points": [
     {
-      "concept": "Le verbe de volonté et de désir 'malang'",
-      "explanation": "En nalu, pour exprimer le souhait, le besoin ou une commande, on emploie le verbe de base 'malang' (vouloir / désirer). Il se place immédiatement après le pronom personnel sujet.",
+      "concept": "Dérivation applicative -er/-ir/-ar",
+      "explanation": "L'extension applicative ajoute un bénéficiaire à l'action : fɛɛf « cuire le riz » devient fɛɛfer « cuire le riz pour quelqu'un » (Seidel 2024). C'est une structure clé pour parler de service (préparer/vendre/donner de la nourriture à quelqu'un).",
       "rules": [
-        "Il peut être suivi directement d'un nom (ex: du riz) ou d'un verbe à l'infinitif (ex: manger).",
-        "Le verbe reste invariable quelle que soit la nourriture demandée."
+        "L'extension s'attache directement à la racine verbale.",
+        "Elle est très productive avec les verbes liés à la préparation alimentaire et à l'hospitalité."
       ],
       "examples": [
         {
-          "structure": "M malang malaŋ",
-          "phonetic_api": "/m ba.laŋ ma.laŋ/",
-          "meaning": "Je veux du riz"
-        },
-        {
-          "structure": "M malang meŋ",
-          "phonetic_api": "/m ba.laŋ meŋ/",
-          "meaning": "Je veux boire"
+          "structure": "fɛɛfer",
+          "phonetic_api": "/fɛːfer/",
+          "meaning": "cuire le riz pour quelqu'un (fɛɛf + -er)"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Fatou",
-      "text": "Mboye, baa ! A malang n'wut?",
-      "phonetic_api": "/mbo.je baː a ba.laŋ nwut/",
-      "phonetic_simple": "MBO-YÉ BAA ! A BA-LANG N-WOUT?",
-      "translation": "Bonjour mon père ! Tu veux manger ?"
+      "speaker": "Hôte",
+      "text": "Ati fɛɛfer bɛyaaw nɛɛ bɛyaaw faaŋa mkantaŋ.",
+      "phonetic_api": "/ati fɛːfer bɛjaːw nɛː bɛjaːw faːŋa mkantaŋ/",
+      "phonetic_simple": "ATI FÉÉFÉR BÈYAAW NÈÈ BÈYAAW FAANGA M-KANTANG",
+      "translation": "Elle doit cuire le riz pour les invités, car ils veulent repartir."
     },
     {
-      "speaker": "Amara",
-      "text": "Mboye ce ! M malang malaŋ n'gbe ceeb.",
-      "phonetic_api": "/mbo.je tʃe m ba.laŋ ma.laŋ ŋgbe tʃeːb/",
-      "phonetic_simple": "MBO-YÉ TCHÉ ! M BA-LANG MA-LANG NGBÉ TCHÉÉB.",
-      "translation": "Bonjour bien ! Je veux du riz avec du poisson."
+      "speaker": "Invité",
+      "text": "Msiŋcaames ha makoy kalah?",
+      "phonetic_api": "/msiŋkaːmes ha makoj kalah/",
+      "phonetic_simple": "MSING-TSAAMÈS HA MAKOY KALAH",
+      "translation": "N'y a-t-il pas un commerçant à l'intérieur (du village) ?"
     },
     {
-      "speaker": "Fatou",
-      "text": "A ce ! Ina, m'mela we.",
-      "phonetic_api": "/a tʃe i.na m.me.la we/",
-      "phonetic_simple": "A TCHÉ ! I-NA, M-MÉ-LA WÉ.",
-      "translation": "C'est bien ! S'il te plaît, voici de l'eau."
+      "speaker": "Hôte",
+      "text": "Bɛdeey duŋna mrebtah.",
+      "phonetic_api": "/bɛdeːj duŋna mrebtah/",
+      "phonetic_simple": "BÈDÉÉY DOUNGNA M-RÉBTAH",
+      "translation": "Ils viennent juste de finir de manger."
     },
     {
-      "speaker": "Amara",
-      "text": "Nu koka, bweten mi.",
-      "phonetic_api": "/nu ko.ka bʷe.ten mi/",
-      "phonetic_simple": "NOU KO-KA, BOUÉ-TEN MI.",
-      "translation": "Merci, mon enfant."
+      "speaker": "Hôte",
+      "text": "Msiŋcaames ha makoy?",
+      "phonetic_api": "/msiŋkaːmes ha makoj/",
+      "phonetic_simple": "MSING-TSAAMÈS HA MAKOY",
+      "translation": "N'est-il pas commerçant ?"
     }
   ],
   "cultural_notes": [
-    "Le peuple Nalu vivant principalement sur le littoral de la Guinée maritime, le riz blanc accompagné de poissons frais ou fumés (souvent cuisinés avec de l'huile de palme ou une sauce aux arachides) constitue la base absolue de l'alimentation quotidienne. Partager l'eau ('m'mela') est un symbole d'accueil fondamental avant chaque repas."
+    "Le riz (m-feef) est central dans l'économie nalu : les sections de rizière (mcisɔŋ) sont un vocabulaire attesté spécifique, et l'hospitalité passe par le fait de cuire le riz pour les invités (Seidel 2024).",
+    "Le palmier à huile (m-siis) et son vin (extrait par le verbe « pɔten ») font partie des ressources traditionnelles importantes, mentionnées explicitement par Seidel (2024) près du village de Nompu."
   ],
   "exercises": [
     {
-      "exercise_id": "ex8_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Que signifie le mot 'M'mela' ?",
+      "question": "Que signifie « m-feef » en nalu ?",
       "options": [
-        "Le poisson",
-        "L'eau",
-        "Le riz"
+        "Poisson",
+        "Riz",
+        "Palmier"
       ],
-      "correct_answer": "L'eau",
-      "explanation": "'M'mela' désigne l'eau potable ou l'élément liquide à boire en nalu."
+      "correct_answer": "Riz",
+      "explanation": "« m-feef » est attesté comme le riz dans les exemples de Seidel (2024)."
     },
     {
-      "exercise_id": "ex8_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Pour dire 'Je veux manger', on dit : M [ ___ ] n'wut.",
-      "correct_answer": "malang",
-      "hint": "C'est le verbe nalu qui exprime le fait de vouloir ou désirer quelque chose"
+      "sentence_with_blank": "« Ati [ ___ ] bɛyaaw » signifie « Elle cuit le riz pour les invités ».",
+      "correct_answer": "fɛɛfer",
+      "hint": "Forme applicative de « fɛɛf » (cuire le riz)."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Seidel, F. (2024) « Nalu », in The Oxford Guide to the Atlantic Languages of West Africa, Oxford University Press",
+      "url": "https://academic.oup.com/book/59850/chapter/511378992"
+    },
+    {
+      "label": "Glottolog 5.3, « Nalu » (nalu1240 / naj)",
+      "url": "https://glottolog.org/resource/languoid/id/nalu1240"
+    }
+  ],
+  "confidence": "faible",
+  "confidence_note": "Le vocabulaire alimentaire disponible se limite au riz, à la nourriture en général et aux verbes manger/cuire/vendre/acheter ; aucune boisson spécifique (eau, vin de palme excepté indirectement) ni formule de commande au marché/restaurant n'est attestée dans les sources. Cette leçon évite donc d'inventer des scénarios de commande non documentés."
 }

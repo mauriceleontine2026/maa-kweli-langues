@@ -4,159 +4,240 @@
   "module_number": 3,
   "module_title": "Besoins immédiats",
   "lesson_number": 8,
-  "title": "La nourriture et les boissons",
+  "title": "La nourriture et les boissons (commander au marché ou au restaurant)",
   "learning_objectives": [
-    "Nommer les aliments de base et les boissons courantes en Mano",
-    "Demander ou commander de la nourriture au marché ou dans un lieu de restauration",
-    "Exprimer la faim, la soif et la satisfaction après un repas"
+    "Nommer les aliments et boissons de base (riz, viande, eau, sel)",
+    "Utiliser les verbes ɓèlè ('manger') et mī ('boire') dans des phrases simples",
+    "Acheter un produit au marché avec le verbe lɔ́ ('acheter')"
   ],
   "phonetic_focus": {
-    "key_sounds": "Le terme pour désigner l'eau ou les liquides (/miː/) nécessite une voyelle longue tendue. Le mot pour le riz ou la nourriture cuite emploie la consonne nasale /m/ combinée à des structures vocaliques brèves à ton moyen.",
-    "common_pitfalls": "Ne confondez pas le mot 'mī' (eau, ton moyen) avec la particule interrogative de lieu 'mī' (où). Le contexte syntaxique et la légère inflexion de fin de phrase aident à les différencier."
+    "key_sounds": "Les verbes ɓèlè ('manger') et mī ('boire') ont des tons bas caractéristiques ; bien distinguer mī ('boire') de mì ('personne, parent'), formes proches uniquement différenciées par le ton et le contexte.",
+    "common_pitfalls": "Confondre ɓū ('riz') avec ɓū utilisé dans d'autres composés alimentaires (ɓíī 'riz pour bouillie', ɓūmɛ́kpàà 'riz séché') : le sens précis dépend du composé complet."
   },
   "vocabulary": [
     {
-      "word_id": "v8_1",
+      "word_id": "v1",
+      "term": "yíí",
+      "phonetic_api": "/jíí/",
+      "phonetic_simple": "YI-i",
+      "translation": "eau",
+      "example_sentence": "Ŋ̄ lópɛ̀lɛ̀ yíí bà.",
+      "example_phonetic": "/ŋ̄ lópɛ̀lɛ̀ jíí bà/",
+      "example_translation": "Je vais puiser de l'eau."
+    },
+    {
+      "word_id": "v2",
+      "term": "ɓū",
+      "phonetic_api": "/ɓū/",
+      "phonetic_simple": "BOU",
+      "translation": "riz",
+      "example_sentence": "Ē ɓū ɓèlè.",
+      "example_phonetic": "/ē ɓū ɓèlè/",
+      "example_translation": "Il a mangé du riz."
+    },
+    {
+      "word_id": "v3",
+      "term": "nɛ̀ɛ̄ / wìì",
+      "phonetic_api": "/nɛ̀ɛ̄/",
+      "phonetic_simple": "nè-Ê",
+      "translation": "viande",
+      "example_sentence": "Ē wìì lɔ́.",
+      "example_phonetic": "/ē wìì lɔ́/",
+      "example_translation": "Elle a acheté de la viande."
+    },
+    {
+      "word_id": "v4",
+      "term": "béì",
+      "phonetic_api": "/bèì/",
+      "phonetic_simple": "bè-i",
+      "translation": "manioc",
+      "example_sentence": "Íì béī kā̰ pɛ́nɛ̄.",
+      "example_phonetic": "/íì béī kā̰ pɛ́nɛ̄/",
+      "example_translation": "Aujourd'hui tu couperas le manioc."
+    },
+    {
+      "word_id": "v5",
+      "term": "ɓèlè",
+      "phonetic_api": "/ɓèlè/",
+      "phonetic_simple": "bè-lè",
+      "translation": "manger",
+      "example_sentence": "Ē ɓū ɓèlè ē tó á là kóŋ́kóŋ́.",
+      "example_phonetic": "/ē ɓū ɓèlè ē tó á là kóŋ́kóŋ́/",
+      "example_translation": "Il a passé trop de temps à manger du riz."
+    },
+    {
+      "word_id": "v6",
       "term": "mī",
-      "phonetic_api": "/miː˧/",
-      "phonetic_simple": "MEE",
-      "translation": "Eau / Boisson",
-      "example_sentence": "ń mī mĩ.",
-      "example_phonetic": "/ń miː˧ mĩ˧/",
+      "phonetic_api": "/mī/",
+      "phonetic_simple": "MI",
+      "translation": "boire",
+      "example_sentence": "Ŋ̄ yíí mī.",
+      "example_phonetic": "/ŋ̄ jíí mī/",
       "example_translation": "Je bois de l'eau."
     },
     {
-      "word_id": "v8_2",
-      "term": "mɛ̃",
-      "phonetic_api": "/mɛ̃˧/",
-      "phonetic_simple": "MENG",
-      "translation": "Riz (cuit) / Nourriture",
-      "example_sentence": "ń mɛ̃ mi.",
-      "example_phonetic": "/ń mɛ̃˧ mi˧/",
-      "example_translation": "Je mange du riz."
+      "word_id": "v7",
+      "term": "wèŋ̄",
+      "phonetic_api": "/wèŋ̄/",
+      "phonetic_simple": "OUÈN",
+      "translation": "sel",
+      "example_sentence": "Wèŋ̄ ɓū là.",
+      "example_phonetic": "/wèŋ̄ ɓū là/",
+      "example_translation": "Du sel sur le riz."
     },
     {
-      "word_id": "v8_3",
-      "term": "zɔ̀",
-      "phonetic_api": "/zɔ˩/",
-      "phonetic_simple": "ZOR",
-      "translation": "Viande / Poisson",
-      "example_sentence": "zɔ̀ dōo",
-      "example_phonetic": "/zɔ˩ doː˧/",
-      "example_translation": "Un morceau de viande"
-    },
-    {
-      "word_id": "v8_4",
-      "term": "wulú",
-      "phonetic_api": "/wu˦lu˦/",
-      "phonetic_simple": "OU-LOU",
-      "translation": "Huile / Matière grasse",
-      "example_sentence": "wulú mɛ ɓɛ.",
-      "example_phonetic": "/wu˦lu˦ mɛ˧ ɓɛ˧/",
-      "example_translation": "Mets de l'huile ici."
+      "word_id": "v8",
+      "term": "lɔ́í",
+      "phonetic_api": "/lɔ́í/",
+      "phonetic_simple": "LO-i",
+      "translation": "marché",
+      "example_sentence": "Ŋ̄ lō lɔ́í.",
+      "example_phonetic": "/ŋ̄ lō lɔ́í/",
+      "example_translation": "Je vais au marché."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p8_1",
-      "original": "Kɔ̀nɔ̀ ɓe ń la.",
-      "phonetic_api": "/kɔ˩nɔ˩ ɓe˧ ń la˧/",
-      "phonetic_simple": "KOR-NOR BÉ N LA",
-      "translation": "J'ai faim.",
-      "context": "Exprimer un besoin physique de manger."
+      "phrase_id": "p1",
+      "original": "Ŋ̄ lópɛ̀lɛ̀ yíí bà.",
+      "phonetic_api": "/ŋ̄ lópɛ̀lɛ̀ jíí bà/",
+      "phonetic_simple": "ng lo-pè-lè yi-i ba",
+      "translation": "Je vais puiser de l'eau.",
+      "context": "Formule courante pour signaler qu'on va chercher de l'eau."
     },
     {
-      "phrase_id": "p8_2",
-      "original": "Mī gba ɓe ń la.",
-      "phonetic_api": "/miː˧ ɡba˧ ɓe˧ ń la˧/",
-      "phonetic_simple": "MEE GBA BÉ N LA",
-      "translation": "J'ai soif (Littéralement : L'envie d'eau est sur moi).",
-      "context": "Exprimer le besoin de boire."
+      "phrase_id": "p2",
+      "original": "Ē wìì lɔ́.",
+      "phonetic_api": "/ē wìì lɔ́/",
+      "phonetic_simple": "é oui-i lo",
+      "translation": "Elle a acheté de la viande.",
+      "context": "Structure de base sujet + objet + verbe (SOV) pour un achat."
     },
     {
-      "phrase_id": "p8_3",
-      "original": "Mī ya ń la.",
-      "phonetic_api": "/miː˧ ja˧ ń la˧/",
-      "phonetic_simple": "MEE YAH N LA",
-      "translation": "Donne-moi de l'eau.",
-      "context": "Formule pour réclamer à boire."
+      "phrase_id": "p3",
+      "original": "Ŋ̄ nāā ɓū.",
+      "phonetic_api": "/ŋ̄ nāā ɓū/",
+      "phonetic_simple": "ng na-a bou",
+      "translation": "Je veux du riz.",
+      "context": "Utilise nāā ('vouloir') pour commander un plat, construit sur le verbe attesté 'vouloir'."
     },
     {
-      "phrase_id": "p8_4",
-      "original": "Ń vɔ̃ɔ lē sēe.",
-      "phonetic_api": "/ń vɔ̃ː˧ leː˧ seː˧˧/",
-      "phonetic_simple": "N VONG-OR LÉ SÉÉ",
-      "translation": "Je suis rassasié / C'était très bon.",
-      "context": "Remercier ou exprimer sa satisfaction après le repas."
+      "phrase_id": "p4",
+      "original": "Wɛ̀ɛ̄ lɛ̄ sɔ̄ŋ́ ká?",
+      "phonetic_api": "/wɛ̀ɛ̄ lɛ̄ sɔ̄ŋ́ ká/",
+      "phonetic_simple": "ouè-è lê song ka",
+      "translation": "Combien ça coûte ?",
+      "context": "Combine wɛ̀ɛ̄ ('combien') et sɔ̄ŋ́ ('prix') pour demander un prix au marché."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Kɔ̀ɔ́ lɛ̄ yī bà.",
+      "phonetic_api": "/kɔ̀ɔ́ lɛ̄ jī bà/",
+      "phonetic_simple": "ko-o lê yi ba",
+      "translation": "Ko dort. (exemple contextuel de la vie quotidienne)",
+      "context": "Illustre la construction imperfective avec un verbe de la vie quotidienne."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'expression de la nécessité corporelle ('ɓe ń la')",
-      "explanation": "En Mano, la faim, la soif ou la fatigue ne se traduisent pas par le verbe 'avoir', mais par une structure locative : [Le besoin substantivé] + ɓe (est) + [Pronom possessif + la (sur moi/avec moi)].",
+      "concept": "Ordre Sujet-Objet-Verbe (SOV) avec les verbes de consommation",
+      "explanation": "Le mano suit l'ordre SOV typique des langues mandé : l'objet (l'aliment) se place entre le sujet/auxiliaire et le verbe. Ainsi 'il a acheté de la viande' se dit littéralement 'il viande a-acheté'.",
       "rules": [
-        "Structure : [Besoin] + ɓe + ń (moi) + la (sur).",
-        "Pour une autre personne, remplacez le pronom personnel 'ń' par 'í' (toi) ou 'à' (lui/elle)."
+        "Structure : Sujet + Auxiliaire (+ Objet) + Verbe",
+        "Ē wìì lɔ́. = 'il/elle viande a-acheté' = 'il/elle a acheté de la viande'",
+        "Le même schéma s'applique à ɓèlè ('manger') et mī ('boire')"
       ],
       "examples": [
         {
-          "structure": "Kɔ̀nɔ̀ ɓe ń la.",
-          "phonetic_api": "/kɔ˩nɔ˩ ɓe˧ ń la˧/",
-          "meaning": "J'ai faim (La faim est sur moi)."
+          "structure": "Ē ɓū ɓèlè.",
+          "phonetic_api": "/ē ɓū ɓèlè/",
+          "meaning": "Il a mangé du riz."
         },
         {
-          "structure": "Kɔ̀nɔ̀ ɓe í la ?",
-          "phonetic_api": "/kɔ˩nɔ˩ ɓe˧ i˦ la˧/",
-          "meaning": "As-tu faim ?"
+          "structure": "Ŋ̄ yíí mī.",
+          "phonetic_api": "/ŋ̄ jíí mī/",
+          "meaning": "Je bois de l'eau."
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Hôte",
-      "text": "Í nɛ̃ɛ vɔ ? Kɔ̀nɔ̀ ɓe í la ?",
-      "phonetic_api": "/i˦ nɛ̃ː˧ vɔ˧ kɔ˩nɔ˩ ɓe˧ i˦ la˧/",
-      "phonetic_simple": "EE NÈÈ VOR ? KOR-NOR BÉ EE LA ?",
-      "translation": "Bonjour ! As-tu faim ?"
+      "speaker": "Client",
+      "text": "Ŋ̄ nāā ɓū wɔ̀ nɛ̀ɛ̄ ká.",
+      "phonetic_api": "/ŋ̄ nāā ɓū wɔ̀ nɛ̀ɛ̄ ká/",
+      "phonetic_simple": "ng na-a bou wo nè-è ka",
+      "translation": "Je veux du riz avec de la viande."
     },
     {
-      "speaker": "Invité",
-      "text": "Ao, kɔ̀nɔ̀ ɓe ń la. Mī ya ń la baika.",
-      "phonetic_api": "/ao̯˧ kɔ˩nɔ˩ ɓe˧ ń la˧ miː˧ ja˧ ń la˧ bai̯˧ka˧/",
-      "phonetic_simple": "A-O, KOR-NOR BÉ N LA. MEE YAH N LA BAÏ-KAH.",
-      "translation": "Oui, j'ai faim. Donne-moi de l'eau s'il te plaît."
+      "speaker": "Vendeuse",
+      "text": "Wɛ̀ɛ̄ lɛ̄ sɔ̄ŋ́ ká?",
+      "phonetic_api": "/wɛ̀ɛ̄ lɛ̄ sɔ̄ŋ́ ká/",
+      "phonetic_simple": "ouè-è lê song ka",
+      "translation": "Combien en veux-tu (quel prix) ?"
     },
     {
-      "speaker": "Hôte",
-      "text": "Mɛ̃ ɓe ɓɛ, mi !",
-      "phonetic_api": "/mɛ̃˧ ɓe˧ ɓɛ˧ mi˧/",
-      "phonetic_simple": "MENG BÉ BÈ, MEE !",
-      "translation": "Voici le riz, mange !"
+      "speaker": "Client",
+      "text": "Ŋ̄ yíí mī bɛ̰̀ɛ̰̄.",
+      "phonetic_api": "/ŋ̄ jíí mī bɛ̰̀ɛ̰̄/",
+      "phonetic_simple": "ng yi-i mi bên-ên",
+      "translation": "Je bois aussi de l'eau."
+    },
+    {
+      "speaker": "Vendeuse",
+      "text": "Wèŋ̄ lɛ̄ ɓū là bɛ̰̀ɛ̰̄?",
+      "phonetic_api": "/wèŋ̄ lɛ̄ ɓū là bɛ̰̀ɛ̰̄/",
+      "phonetic_simple": "ouèn lê bou la bên-ên",
+      "translation": "Il y a aussi du sel sur le riz ?"
     }
   ],
   "cultural_notes": [
-    "En Guinée forestière, le riz blanc servi avec une sauce (souvent à base de feuilles de patate, de manioc ou de graines de palme) constitue la base absolue de l'alimentation quotidienne. Partager son repas est une valeur d'hospitalité cardinale : refuser une offre de nourriture sans goûter au moins une bouchée peut être perçu comme un rejet de l'amitié de la famille qui vous reçoit."
+    "Le riz (ɓū) est l'aliment de base de l'alimentation mano en Guinée forestière ; le dictionnaire mano distingue de nombreuses variétés selon leur préparation (ɓíī pour la bouillie, gbɔ̀ŋ̄ pour le riz aplati, fìlí pour le riz au gras).",
+    "L'huile de palme (ɲɔ́nɔ́ zóló) et le manioc (béì) sont des ingrédients centraux dans la cuisine traditionnelle de la région de N'Zérékoré."
   ],
   "exercises": [
     {
-      "exercise_id": "ex8_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Que signifie littéralement l'expression 'Mī gba ɓe ń la' ?",
+      "question": "Comment dit-on 'boire' en mano ?",
       "options": [
-        "L'eau est chaude",
-        "J'ai soif",
-        "Je veux cuisiner"
+        "ɓèlè",
+        "mī",
+        "lɔ́"
       ],
-      "correct_answer": "J'ai soif",
-      "explanation": "Cette formulation traditionnelle attribue la sensation de soif à l'appel de l'eau sur le corps."
+      "correct_answer": "mī",
+      "explanation": "mī signifie 'boire' ; ɓèlè signifie 'manger' et lɔ́ signifie 'acheter'."
     },
     {
-      "exercise_id": "ex8_2",
+      "exercise_id": "ex2",
+      "type": "multiple_choice",
+      "question": "Quel est l'ordre des mots dans 'Ē wìì lɔ́' (elle a acheté de la viande) ?",
+      "options": [
+        "Sujet-Verbe-Objet",
+        "Objet-Sujet-Verbe",
+        "Sujet-Objet-Verbe"
+      ],
+      "correct_answer": "Sujet-Objet-Verbe",
+      "explanation": "Le mano suit l'ordre SOV : 'elle' (sujet/auxiliaire) + 'viande' (objet) + 'a acheté' (verbe)."
+    },
+    {
+      "exercise_id": "ex3",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Pour inviter quelqu'un à manger le riz présent devant lui, on dit : Mɛ̃ ɓe ɓɛ, [ ___ ] !",
-      "correct_answer": "mi",
-      "hint": "C'est le verbe manger à l'impératif."
+      "sentence_with_blank": "Ŋ̄ [ ___ ] mī. (Je bois de l'eau.)",
+      "correct_answer": "yíí",
+      "hint": "yíí signifie 'eau' ; il se place entre le sujet et le verbe mī ('boire')."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Khachaturyan, M., Carbo, M., Mamy, P. (2022) Dictionnaire mano-français, Mandenkan 67, LLACAN/CNRS",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan67/67mano_dict_all.pdf"
+    },
+    {
+      "label": "Khachaturyan, M. (2015) Grammaire du mano, Mandenkan 54, LLACAN/CNRS",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan54/54khachaturyan.pdf"
+    }
+  ],
+  "confidence": "élevée",
+  "confidence_note": "Vocabulaire alimentaire et phrases exemples issus directement du dictionnaire mano-français (Mandenkan 67) ; structure SOV confirmée par la grammaire académique (Mandenkan 54)."
 }

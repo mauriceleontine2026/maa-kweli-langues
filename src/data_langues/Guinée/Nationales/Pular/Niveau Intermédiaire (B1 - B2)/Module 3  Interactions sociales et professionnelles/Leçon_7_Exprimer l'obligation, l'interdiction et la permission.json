@@ -6,204 +6,237 @@
   "lesson_number": 7,
   "title": "Exprimer l'obligation, l'interdiction et la permission",
   "learning_objectives": [
-    "Exprimer le devoir, la nécessité et la contrainte légale ou sociale en pular",
-    "Formuler une interdiction stricte ou une réserve comportementale",
-    "Demander et accorder une permission poliment"
+    "Utiliser les quatre degrés d'obligation en pular, de la plus forte à la plus faible",
+    "Employer le desideratif 'yo' pour donner une permission ou exprimer un souhait",
+    "Utiliser 'wata' pour interdire ou déconseiller une action"
   ],
   "phonetic_focus": {
-    "key_sounds": "La consonne glottale /ʔ/ (notée par l'apostrophe) est indispensable dans 'haa_e' (il faut). Respectez la tension sur le 'ɗ' implosif géminé (/ɗː/) dans 'haɗugol' (interdire).",
-    "common_pitfalls": "Ne pas confondre 'haa_e' (il faut / obligation) et 'haɗi' (il a interdit). Une confusion sur l'implosive inverse totalement la modalité de la phrase."
+    "key_sounds": "Les verbes d'obligation (åee/maa, haanugol, fotugol) sont suivis d'un verbe à l'imperfective simple (terminaisons -a, -oo, -ee), et non à l'infinitif -gol. Bien distinguer 'haanugol' (devoir/il convient de) de 'haani' déjà vu comme forme conjuguée.",
+    "common_pitfalls": "Les francophones traduisent souvent toutes les obligations par un seul mot (« devoir »), alors que le pular hiérarchise finement l'intensité : åee/maa (obligation très forte) > haanugol (devrait) > fotugol (devrait, un ton en dessous) > faalaade (avoir besoin de)."
   },
   "vocabulary": [
     {
-      "word_id": "v16_1",
-      "term": "haa_e",
-      "phonetic_api": "/haːʔe/",
-      "phonetic_simple": "HAA-E",
-      "translation": "il faut, il est obligatoire de",
-      "example_sentence": "Haa_e mi yahu joni.",
-      "example_phonetic": "/haːʔe mi jahu d͡ʒoni/",
-      "example_translation": "Il faut que je parte maintenant."
+      "word_id": "v1",
+      "term": "åee / maa",
+      "phonetic_api": "/ɓeː/, /maː/",
+      "phonetic_simple": "BÉÉ / MAA",
+      "translation": "il faut absolument que (obligation très forte)",
+      "example_sentence": "Åee mi yaha.",
+      "example_phonetic": "/ɓeː mi jaha/",
+      "example_translation": "Je dois absolument y aller."
     },
     {
-      "word_id": "v16_2",
-      "term": "haɗugol",
-      "phonetic_api": "/haɗuɡol/",
-      "phonetic_simple": "HA-DHOU-GOL",
-      "translation": "interdire, empêcher, refuser l'accès",
-      "example_sentence": "Baaba am no haɗi mi yahu ɗoya.",
-      "example_phonetic": "/baːba am no haɗi mi jahu ɗoja/",
-      "example_translation": "Mon père m'a interdit d'aller là-bas."
+      "word_id": "v2",
+      "term": "haanugol",
+      "phonetic_api": "/haːnuɡol/",
+      "phonetic_simple": "HAA-NOU-GOL",
+      "translation": "devoir, être normal/approprié de",
+      "example_sentence": "Miðo haani yaade.",
+      "example_phonetic": "/miɗo haːni jaːde/",
+      "example_translation": "Je devrais y aller."
     },
     {
-      "word_id": "v16_3",
-      "term": "wawugol",
-      "phonetic_api": "/wawuɡol/",
-      "phonetic_simple": "WA-WOU-GOL",
-      "translation": "pouvoir, être capable, avoir la permission",
-      "example_sentence": "Aawa no wawi jangoore.",
-      "example_phonetic": "/aːwa no wawi d͡ʒanɡoːre/",
-      "example_translation": "Awa peut étudier (elle y est autorisée)."
+      "word_id": "v3",
+      "term": "fotugol",
+      "phonetic_api": "/fotuɡol/",
+      "phonetic_simple": "FO-TOU-GOL",
+      "translation": "devoir, être convenable de (obligation plus légère)",
+      "example_sentence": "Miðo foti yaade.",
+      "example_phonetic": "/miɗo foti jaːde/",
+      "example_translation": "Je devrais (idéalement) y aller."
     },
     {
-      "word_id": "v16_4",
-      "term": "accugol",
-      "phonetic_api": "/at͡t͡ʃuɡol/",
-      "phonetic_simple": "AT-TCHOU-GOL",
-      "translation": "permettre, laisser faire, accorder la liberté",
-      "example_sentence": "Accu mo o yara ndiyam.",
-      "example_phonetic": "/at͡t͡ʃu mo o jara ndijam/",
-      "example_translation": "Permets-lui de boire de l'eau."
+      "word_id": "v4",
+      "term": "faalaade (au sens de besoin)",
+      "phonetic_api": "/faːlaːde/",
+      "phonetic_simple": "FAA-LAA-DÉ",
+      "translation": "avoir besoin de",
+      "example_sentence": "Mi faalaama yaade.",
+      "example_phonetic": "/mi faːlaːma jaːde/",
+      "example_translation": "J'ai besoin d'y aller."
     },
     {
-      "word_id": "v16_5",
-      "term": "karahan",
-      "phonetic_api": "/karahan/",
-      "phonetic_simple": "KA-RA-HAN",
-      "translation": "obligation stricte, contrainte absolue",
-      "example_sentence": "Ɗum ko karahan e dow maa.",
-      "example_phonetic": "/ɗum ko karahan e dow maː/",
-      "example_translation": "C'est une obligation absolue pour toi."
-    },
-    {
-      "word_id": "v16_6",
-      "term": "harmee",
-      "phonetic_api": "/harmeː/",
-      "phonetic_simple": "HAR-MEE",
-      "translation": "interdit religieux ou culturel, tabou",
-      "example_sentence": "Ñaamugol ngol ko harmee.",
-      "example_phonetic": "/ɲaːmuɡol nɡol ko harmeː/",
-      "example_translation": "Cette nourriture est interdite."
-    },
-    {
-      "word_id": "v16_7",
-      "term": "dug_al",
-      "phonetic_api": "/duɡal/",
-      "phonetic_simple": "DOU-GAL",
-      "translation": "la permission, l'autorisation",
-      "example_sentence": "Mido lara dug_al maa.",
-      "example_phonetic": "/mido lara duɡal maː/",
-      "example_translation": "Je cherche ton autorisation."
-    },
-    {
-      "word_id": "v16_8",
-      "term": "yamirgol",
-      "phonetic_api": "/jamirɡol/",
-      "phonetic_simple": "YA-MIR-GOL",
-      "translation": "ordonner, exiger officiellement",
-      "example_sentence": "Jannginoowo on no yamiri ɗum.",
-      "example_phonetic": "/d͡ʒanːɡinoːwo on no jamiri ɗum/",
-      "example_translation": "L'enseignant l'a ordonné."
-    },
-    {
-      "word_id": "v16_9",
-      "term": "wata",
-      "phonetic_api": "/wata/",
-      "phonetic_simple": "WA-TA",
-      "translation": "ne pas (particule prohibitive servant à l'interdiction)",
-      "example_sentence": "Wata a huwu ɗum !",
-      "example_phonetic": "/wata a huːwu ɗum/",
-      "example_translation": "Ne fais pas ça !"
-    },
-    {
-      "word_id": "v16_10",
-      "term": "yo",
+      "word_id": "v5",
+      "term": "yo (désidératif)",
       "phonetic_api": "/jo/",
       "phonetic_simple": "YO",
-      "translation": "que, particule d'obligation / injonction",
-      "example_sentence": "Yo o ari ɗoo hande.",
-      "example_phonetic": "/jo o ari ɗoː hande/",
-      "example_translation": "Qu'il vienne ici aujourd'hui."
+      "translation": "que (souhait, permission, ordre indirect)",
+      "example_sentence": "Yo mi yahu.",
+      "example_phonetic": "/jo mi jahu/",
+      "example_translation": "Que j'y aille (je devrais y aller / laisse-moi y aller)."
+    },
+    {
+      "word_id": "v6",
+      "term": "wata",
+      "phonetic_api": "/wata/",
+      "phonetic_simple": "OUA-TA",
+      "translation": "que...ne...pas (défense, interdiction)",
+      "example_sentence": "Wata åe aru!",
+      "example_phonetic": "/wata ɓe aru/",
+      "example_translation": "Qu'ils ne viennent pas ! (ils ne doivent pas venir)"
+    },
+    {
+      "word_id": "v7",
+      "term": "haðugol",
+      "phonetic_api": "/haɗuɡol/",
+      "phonetic_simple": "HA-DOU-GOL",
+      "translation": "empêcher, prévenir",
+      "example_sentence": "Ko ðun haðata ði wonde e ñaametee.",
+      "example_phonetic": "/ko ɗun haɗata ɗi wonde e ɲaːmeteː/",
+      "example_translation": "C'est ce qui empêche qu'ils soient dans la nourriture."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p16_1",
-      "original": "Haa_e ngollaa hande gila subaka tun.",
-      "phonetic_api": "/haːʔe nɡolːaː hande ɡila subaka tun/",
-      "phonetic_simple": "HAA-E NGOL-LAA HAN-DE GI-LA SOU-BA-KA TOUN",
-      "translation": "Il faut que tu travailles aujourd'hui dès le matin.",
-      "context": "Formuler une obligation professionnelle stricte."
+      "phrase_id": "p1",
+      "original": "Åee mi hoota.",
+      "phonetic_api": "/ɓeː mi hoːta/",
+      "phonetic_simple": "BÉÉ MI HO-O-TA",
+      "translation": "Je dois absolument rentrer.",
+      "context": "Obligation forte et non négociable."
     },
     {
-      "phrase_id": "p16_2",
-      "original": "Wata a yahu ka ngesa hanki, no haɗi masiibo !",
-      "phonetic_api": "/wata a jahu ka nɡesa hanki no haɗi masiːbo/",
-      "phonetic_simple": "WA-TA A YA-HOU KA NGE-SA HAN-KI, NO HA-DHI MA-SII-BO !",
-      "translation": "Ne va surtout pas au champ, c'est formellement interdit !",
-      "context": "Énoncer une interdiction impérative de sécurité."
+      "phrase_id": "p2",
+      "original": "Woo a haanaa tiggude njaatigi maa.",
+      "phonetic_api": "/woː a haːnaː tigːude ndʒaːtiɡi maː/",
+      "phonetic_simple": "OU-O A HAA-NAA TIG-GOU-DÉ ENDJAA-TI-GUI MAA",
+      "translation": "On dit que tu ne devrais pas te disputer avec ton hôte.",
+      "context": "Conseil rapporté, obligation modérée."
     },
     {
-      "phrase_id": "p16_3",
-      "original": "Koni mido wawi hoɗude e ndee suudu louwande ?",
-      "phonetic_api": "/koni mido wawi hoɗude e nder suudu luwande/",
-      "phonetic_simple": "KO-NI MI-DO WA-WI HO-DHOU-DE E NDEE SUU-DOU LOU-WAN-DE ?",
-      "translation": "Est-ce que j'ai la permission d'habiter dans cette maison de location ?",
-      "context": "Demander une autorisation d'occupation résidentielle."
+      "phrase_id": "p3",
+      "original": "Wata a aru!",
+      "phonetic_api": "/wata a aru/",
+      "phonetic_simple": "OUA-TA A A-ROU",
+      "translation": "Ne viens pas !",
+      "context": "Interdiction directe et ferme."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Yo mi yahu.",
+      "phonetic_api": "/jo mi jahu/",
+      "phonetic_simple": "YO MI YA-HOU",
+      "translation": "Laisse-moi y aller. / Je devrais y aller.",
+      "context": "Le désidératif peut exprimer un souhait qu'on s'adresse à soi-même."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'injonction et la prohibition avec 'Yo' et 'Wata'",
-      "explanation": "Pour donner un ordre indirect ou formuler une obligation à la troisième personne, le pular déploie la particule 'Yo'. Pour l'interdiction directe ou prohibitive (ne fais pas), on utilise systématiquement 'Wata'.",
+      "concept": "L'échelle des obligations, de la plus forte à la plus faible",
+      "explanation": "Le pular distingue plusieurs degrés d'obligation, chacun suivi d'un verbe à l'imperfective simple (terminaisons -a/-oo/-ee).",
       "rules": [
-        "Placer 'Yo' ou 'Wata' en tête de proposition, directement devant le pronom personnel sujet.",
-        "Le verbe qui suit adopte la forme subjonctive/impérative."
+        "1. åee / maa = obligation la plus forte (« je dois absolument »)",
+        "2. haanugol = obligation normale (« je devrais », ce qui est approprié)",
+        "3. fotugol = obligation plus douce (« je devrais idéalement »)",
+        "4. faalaade (au sens de besoin) = simple besoin (« j'ai besoin de »)"
       ],
       "examples": [
         {
-          "structure": "Wata + Sujet + Verbe",
-          "phonetic_api": "/wata a jahu/",
-          "meaning": "Ne pars pas / Interdiction de partir"
+          "structure": "Åee mi yaha. / Miðo haani yaade. / Miðo foti yaade.",
+          "phonetic_api": "/ɓeː mi jaha/, /miɗo haːni jaːde/, /miɗo foti jaːde/",
+          "meaning": "Je dois absolument y aller. / Je devrais y aller. / Je devrais idéalement y aller."
+        }
+      ]
+    },
+    {
+      "concept": "Le désidératif yo/wata pour la permission et l'interdiction",
+      "explanation": "'Yo' + impératif forme le désidératif, utilisé pour exprimer un souhait, une permission ou un ordre indirect applicable à n'importe quelle personne. 'Wata' en est l'exact opposé, exprimant une interdiction.",
+      "rules": [
+        "yo + [forme impérative] = souhait/permission (que quelqu'un fasse quelque chose)",
+        "wata + [forme impérative] = interdiction (que quelqu'un ne fasse pas quelque chose)",
+        "Ces constructions s'utilisent avec toute personne : yo o yahu (qu'il/elle y aille), wata åe aru (qu'ils ne viennent pas)"
+      ],
+      "examples": [
+        {
+          "structure": "Himo faalaa yo a yahu.",
+          "phonetic_api": "/himo faːlaː jo a jahu/",
+          "meaning": "Il veut que tu y ailles."
+        },
+        {
+          "structure": "Wata gerto yaw ko hoccata.",
+          "phonetic_api": "/wata ɡerto jaw ko hotʃːata/",
+          "meaning": "Qu'une poule ne dédaigne pas ce qu'elle picore (proverbe : les mendiants ne sont pas choisisseurs)."
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Mamadou (Chef)",
-      "text": "Saliou, haa_e ngollaa e ndee saare hande. Wata a yahu ka terrain !",
-      "phonetic_api": "/saliu haːʔe nɡolːaː e ndeː saːre hande wata a jahu ka teren/",
-      "phonetic_simple": "SA-LIOU, HAA-E NGOL-LAA E NDEE SAA-RE HAN-DE. WA-TA A YA-HOU KA TER-RAIN !",
-      "translation": "Saliou, il faut que tu travailles dans cette concession aujourd'hui. Ne va surtout pas au terrain !"
+      "speaker": "Père",
+      "text": "Åee a hoota kisan, wecci no niååi.",
+      "phonetic_api": "/ɓeː a hoːta kisan wetːʃi no niɗːi/",
+      "phonetic_simple": "BÉÉ A HO-O-TA KI-SAN, OUÈT-TCHI NO NID-DI",
+      "translation": "Tu dois absolument rentrer maintenant, il commence à faire nuit."
     },
     {
-      "speaker": "Saliou (Employé)",
-      "text": "Mido fahi haala maa. Koni mi wawi accugol minyio am gorko o walli mi ɗoo ?",
-      "phonetic_api": "/mido ɸahi haːla maː koni mi wawi at͡t͡ʃuɡol miɲio am ɡorko o walːi mi ɗoː/",
-      "phonetic_simple": "MI-DO FA-HI HAA-LA MAA. KO-NI MI WA-WI AT-TCHOU-GOL MI-NYIO AM GOR-KO O WAL-LI MI DHOO ?",
-      "translation": "Je comprends ton ordre. Est-ce que je peux autoriser mon petit frère à m'aider ici ?"
+      "speaker": "Fils",
+      "text": "Awa, kono miðo foti habbude giðo an tan.",
+      "phonetic_api": "/awa kono miɗo foti habːude ɡiɗo an tan/",
+      "phonetic_simple": "A-OUA, KO-NO MI-DO FO-TI HAB-BOU-DÉ GUI-DO AN TAN",
+      "translation": "D'accord, mais je devrais idéalement attendre mon ami un peu."
     },
     {
-      "speaker": "Mamadou (Chef)",
-      "text": "Eyyo, ɗum no moƴƴi. Yo o ari, kono wata on lannu golle ɗen ka kikiide !",
-      "phonetic_api": "/ejːo ɗum no moʔɟːi jo o ari kono wata on lanːu ɡolːe ɗen ka kikiːde/",
-      "phonetic_simple": "EY-YO, DHUM NO MOY-YI. YO O A-RI, KO-NO WA-TA ON LAN-NOU GOL-LE DHEN KA KI-KII-DE !",
-      "translation": "Oui, c'est une bonne chose. Qu'il vienne, mais ne terminez pas ce travail tard dans la soirée !"
+      "speaker": "Père",
+      "text": "Wata a habbu ðoo woðði. Yo o arto ka galle.",
+      "phonetic_api": "/wata a habːu ɗoː woɗːi jo o arto ka ɡale/",
+      "phonetic_simple": "OUA-TA A HAB-BOU DOO OUOD-DI. YO O AR-TO KA GAL-LÉ",
+      "translation": "Ne reste pas là trop longtemps. Qu'il vienne te retrouver à la maison."
+    },
+    {
+      "speaker": "Fils",
+      "text": "Awa, mi faalaama yaade jooni.",
+      "phonetic_api": "/awa mi faːlaːma jaːde dʒoːni/",
+      "phonetic_simple": "A-OUA, MI FAA-LAA-MA YAA-DÉ DJOO-NI",
+      "translation": "D'accord, j'ai besoin d'y aller maintenant."
     }
   ],
   "cultural_notes": [
-    "Dans l'organisation sociale traditionnelle du Fouta-Djallon, le respect des interdictions de la maisonnée énoncées par les aînés ou les chefs de clan ('haɗugol baaba') relève du code d'honneur. Enfreindre sciemment un interdit culturel ('harmee') expose le contrevenant à l'opprobre de la communauté."
+    "Le manuel Peace Corps classe explicitement quatre degrés d'obligation en pular, de la plus contraignante (åee/maa) à la plus légère (faalaade), une nuance essentielle absente d'une simple traduction par « devoir » (source : Learner's Guide to Pular, texte 'Useful Advice').",
+    "Le proverbe 'Wata gerto yaw ko hoccata' (qu'une poule ne dédaigne pas ce qu'elle picore) illustre l'usage fréquent du désidératif dans la sagesse populaire peule."
   ],
   "exercises": [
     {
-      "exercise_id": "ex16_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quelle particule pular sert à formuler une interdiction ou prohibition ?",
+      "question": "Quelle expression marque l'obligation la plus forte ?",
       "options": [
-        "Yo",
-        "Wata",
-        "Haa_e"
+        "Fotugol",
+        "Åee / maa",
+        "Faalaade"
       ],
-      "correct_answer": "Wata",
-      "explanation": "'Wata' introduit l'interdiction stricte (prohibition), alors que 'Yo' marque l'injonction positive et 'Haa_e' l'obligation."
+      "correct_answer": "Åee / maa",
+      "explanation": "Åee et maa expriment l'obligation la plus forte, équivalente à « je dois absolument »."
     },
     {
-      "exercise_id": "ex16_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "[ ___ ] mi yahu ka lopital joni. (Il faut que j'aille à l'hôpital maintenant).",
-      "correct_answer": "Haa_e",
-      "hint": "Expression impersonnelle marquant la nécessité ou l'obligation absolue."
+      "sentence_with_blank": "[ ___ ] a aru! (Ne viens pas ! — interdiction)",
+      "correct_answer": "Wata",
+      "hint": "Utilisez le mot qui marque l'interdiction, opposé de 'yo'."
+    },
+    {
+      "exercise_id": "ex3",
+      "type": "multiple_choice",
+      "question": "Que signifie 'haanugol' ?",
+      "options": [
+        "Interdire",
+        "Devoir/être approprié de",
+        "Vouloir fortement"
+      ],
+      "correct_answer": "Devoir/être approprié de",
+      "explanation": "Haanugol exprime une obligation modérée, ce qui est normal ou approprié de faire."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Learner's Guide to Pular (Fuuta Jallon) — Peace Corps Guinée (Herb Caudill & Ousmane Besseko Diallo)",
+      "url": "https://ibamba.net/pular/manual.pdf"
+    },
+    {
+      "label": "Live Lingua Project — Peace Corps Manual of Fulfulde",
+      "url": "https://www.livelingua.com/course/peace-corps/manual-of-fulfulde"
+    }
+  ],
+  "confidence": "élevée",
+  "confidence_note": "Hiérarchie complète des expressions d'obligation et grammaire du désidératif (yo/wata) directement issues du texte 'Useful Advice' et du chapitre 'Food' du manuel Peace Corps Guinée."
 }

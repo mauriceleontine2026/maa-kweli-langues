@@ -6,298 +6,229 @@
   "lesson_number": 7,
   "title": "Exprimer l'obligation, l'interdiction et la permission",
   "learning_objectives": [
-    "Exprimer une obligation morale ou professionnelle en utilisant la structure impersonnelle 'wasa'",
-    "Formuler une interdiction stricte ou une règle collective au sein de la communauté",
-    "Demander et accorder une permission polie dans le cadre du travail ou du foyer"
+    "Exprimer une capacité ou une permission avec 'nçma' (pouvoir/être capable)",
+    "Exprimer l'incapacité ou l'interdiction avec la négation 'mu nçma'",
+    "Reconnaître la structure de l'obligation liée à 'xa' (devoir/falloir que)"
   ],
   "phonetic_focus": {
-    "key_sounds": "Cette leçon met en avant la prononciation du phonème fricatif alvéolaire sourd /s/ dans 'wasa' et 'siga', ainsi que la clarté de la voyelle ouverte /ɔ/ dans 'nɔ'. L'articulation de la consonne nasale vélaire n'influe pas sur la brièveté de la syllabe.",
-    "common_pitfalls": "Ne confondez pas le verbe de modalité 'wasa' (suffire / falloir) avec le mot 'wasa' qui exprime la satisfaction ou la fin d'un besoin selon le ton. Veillez à garder une intonation descendante ferme lors de la formulation d'une interdiction."
+    "key_sounds": "'nçma' (pouvoir) contient le 'ç' ouvert suivi d'un 'm' nasal ; il ne faut pas le confondre avec 'nama' qui n'a pas cette valeur modale.",
+    "common_pitfalls": "Les francophones ont tendance à chercher un verbe unique équivalent à 'devoir', alors que le soussou exprime souvent l'obligation de façon indirecte, par la structure 'xa' (que) associée à un contexte de nécessité, plutôt que par un modal dédié."
   },
   "vocabulary": [
     {
-      "word_id": "v16_1",
-      "term": "Wasa",
-      "phonetic_api": "/wasa/",
-      "phonetic_simple": "WA-SA",
-      "translation": "Falloir / Suffire / Être obligatoire",
-      "example_sentence": "A wasaxi n bɛ n siga.",
-      "example_phonetic": "/a wasaxi n bɛ n siɡa/",
-      "example_translation": "Il me faut partir (C'est une obligation pour moi)."
+      "word_id": "v1",
+      "term": "nçma",
+      "phonetic_api": "/nɔma/",
+      "phonetic_simple": "NO-ma",
+      "translation": "pouvoir, être capable de, avoir la force de",
+      "example_sentence": "N mu nçma lande diramini.",
+      "example_phonetic": "/n mu nɔma lande diramini/",
+      "example_translation": "Je ne peux pas assister au baptême."
     },
     {
-      "word_id": "v16_2",
-      "term": "Nɔ",
-      "phonetic_api": "/nɔ/",
-      "phonetic_simple": "NO (ouvert)",
-      "translation": "Pouvoir / Être capable de / Avoir la permission",
-      "example_sentence": "N nɔma i malife to.",
-      "example_phonetic": "/n nɔma i malifɛ to/",
-      "example_translation": "Je peux t'aider aujourd'hui."
+      "word_id": "v2",
+      "term": "wali",
+      "phonetic_api": "/wali/",
+      "phonetic_simple": "WA-li",
+      "translation": "travailler, le travail",
+      "example_sentence": "Nde wali fe sçtç kçbiri.",
+      "example_phonetic": "/nde wali fe sɔtɔ kɔbiri/",
+      "example_translation": "On doit travailler pour avoir de l'argent."
     },
     {
-      "word_id": "v16_3",
-      "term": "Tɔɲɛ",
-      "phonetic_api": "/tɔɲɛ/",
-      "phonetic_simple": "TO-NYÈ (ouvert)",
-      "translation": "Loi / Règle / Interdiction / Tabou",
-      "example_sentence": "Tɔɲɛ na yanbɛ.",
-      "example_phonetic": "/tɔɲɛ na yaⁿbɛ/",
-      "example_translation": "Il y a une règle stricte ici."
+      "word_id": "v3",
+      "term": "xa",
+      "phonetic_api": "/xa/",
+      "phonetic_simple": "kha",
+      "translation": "particule liant une intention/nécessité à une action d'un tiers",
+      "example_sentence": "N wama i xa mini.",
+      "example_phonetic": "/n wama i xa mini/",
+      "example_translation": "Je veux/il faut que tu sortes."
     },
     {
-      "word_id": "v16_4",
-      "term": "Siga",
-      "phonetic_api": "/siɡa/",
-      "phonetic_simple": "SI-GA",
-      "translation": "Partir / Aller / Circuler",
-      "example_sentence": "I mu nɔma sigade.",
-      "example_phonetic": "/i mu nɔma siɡadɛ/",
-      "example_translation": "Tu ne peux pas circuler (C'est interdit)."
+      "word_id": "v4",
+      "term": "balan",
+      "phonetic_api": "/balan/",
+      "phonetic_simple": "ba-LAN",
+      "translation": "fermer, interdire l'accès",
+      "example_sentence": "So balan.",
+      "example_phonetic": "/so balan/",
+      "example_translation": "Ferme la porte."
     },
     {
-      "word_id": "v16_5",
-      "term": "Tin",
-      "phonetic_api": "/tiⁿ/",
-      "phonetic_simple": "TIN",
-      "translation": "Accepter / Permettre / Accorder son droit",
-      "example_sentence": "Nba, n tinxi i bɛ.",
-      "example_phonetic": "/ⁿba n tiⁿxi i bɛ/",
-      "example_translation": "Oui, je t'accorde ma permission."
+      "word_id": "v5",
+      "term": "radangi",
+      "phonetic_api": "/radanɡi/",
+      "phonetic_simple": "ra-DAN-gui",
+      "translation": "passer/faire passer (donner l'autorisation de faire circuler)",
+      "example_sentence": "Radangi n bE.",
+      "example_phonetic": "/radanɡi n bɛ/",
+      "example_translation": "Fais-le moi passer (donne-le moi)."
     },
     {
-      "word_id": "v16_6",
-      "term": "Yatagi",
-      "phonetic_api": "/yataɡi/",
-      "phonetic_simple": "YA-TA-GUI",
-      "translation": "Autorisation / Visage / Présence (selon contexte d'usage)",
-      "example_sentence": "N wama i yatagi ra.",
-      "example_phonetic": "/n wama i yataɡi ra/",
-      "example_translation": "Je veux ton autorisation / ta validation."
+      "word_id": "v6",
+      "term": "rabi",
+      "phonetic_api": "/rabi/",
+      "phonetic_simple": "RA-bi",
+      "translation": "ouvrir",
+      "example_sentence": "So rabi, n xa mini.",
+      "example_phonetic": "/so rabi, n xa mini/",
+      "example_translation": "Ouvre la porte pour que je puisse sortir."
     },
     {
-      "word_id": "v16_7",
-      "term": "Fe",
-      "phonetic_api": "/fɛ/",
-      "phonetic_simple": "FÈ",
-      "translation": "Action / Fait / Devoir",
-      "example_sentence": "Na findi fe obligatoire ra.",
-      "example_phonetic": "/na fiⁿdi fɛ oⁿbliɡatuarɛ ra/",
-      "example_translation": "C'est une action obligatoire."
-    },
-    {
-      "word_id": "v16_8",
-      "term": "Karamoxo",
-      "phonetic_api": "/karamoxo/",
-      "phonetic_simple": "KA-RA-MO-KHO",
-      "translation": "Maître / Supérieur / Enseignant",
-      "example_sentence": "Karamoxo mu tinxi na ra.",
-      "example_phonetic": "/karamoxo mu tiⁿxi na ra/",
-      "example_translation": "Le maître n'a pas accepté cela."
-    },
-    {
-      "word_id": "v16_9",
-      "term": "Moni",
-      "phonetic_api": "/moni/",
-      "phonetic_simple": "MO-NI",
-      "translation": "Arrêter / Bloquer / Interdire un acte",
-      "example_sentence": "A i monixi kira ma.",
-      "example_phonetic": "/a i monixi kira ma/",
-      "example_translation": "Il t'a bloqué / interdit le chemin."
-    },
-    {
-      "word_id": "v16_10",
-      "term": "Yati",
-      "phonetic_api": "/yati/",
-      "phonetic_simple": "YA-TI",
-      "translation": "Même / Absolument / Précisément",
-      "example_sentence": "Tɔɲɛ yati nan na ra.",
-      "example_phonetic": "/tɔɲɛ yati naⁿ na ra/",
-      "example_translation": "C'est absolument une interdiction."
+      "word_id": "v7",
+      "term": "mu nçma",
+      "phonetic_api": "/mu nɔma/",
+      "phonetic_simple": "mou NO-ma",
+      "translation": "ne pas pouvoir / ne pas être autorisé",
+      "example_sentence": "I mu nçma sigafe be.",
+      "example_phonetic": "/i mu nɔma siɡafe be/",
+      "example_translation": "Tu ne peux pas/ne dois pas aller là."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p16_1",
-      "original": "A wasaxi n bɛ n na wali to ma.",
-      "phonetic_api": "/a wasaxi n bɛ n na wali to ma/",
-      "phonetic_simple": "A WA-SA-KHI N BÈ N NA WA-LI TO MA",
-      "translation": "Il faut absolument que je travaille aujourd'hui.",
-      "context": "Exprimer un impératif ou un devoir professionnel pressant."
+      "phrase_id": "p1",
+      "original": "N mu nçma lande diramini bari...",
+      "phonetic_api": "/n mu nɔma lande diramini bari/",
+      "phonetic_simple": "n mou NO-ma LAN-dé di-ra-MI-ni ba-ri",
+      "translation": "Je ne peux pas assister au baptême parce que...",
+      "context": "Pour exprimer une impossibilité liée à une contrainte, avec justification introduite par 'bari' (car/parce que)."
     },
     {
-      "phrase_id": "p16_2",
-      "original": "I mu nɔma sigade yanbɛ fe ra.",
-      "phonetic_api": "/i mu nɔma siɡadɛ yaⁿbɛ fɛ ra/",
-      "phonetic_simple": "I MOU NO-MA SI-GA-DÉ YAN-BÈ FÈ RA",
-      "translation": "Tu ne peux pas circuler ici pour cette raison.",
-      "context": "Signifier une interdiction formelle d'accès à un espace."
+      "phrase_id": "p2",
+      "original": "Nde wali fe sçtç kçbiri",
+      "phonetic_api": "/nde wali fe sɔtɔ kɔbiri/",
+      "phonetic_simple": "N-dé WA-li fé so-TO ko-BI-ri",
+      "translation": "On doit travailler pour obtenir de l'argent",
+      "context": "Expression d'une nécessité générale, phrase attestée comme exercice de traduction dans le manuel Peace Corps."
     },
     {
-      "phrase_id": "p16_3",
-      "original": "N nɔma xonbiri rabafe ki ma ?",
-      "phonetic_api": "/n nɔma xoⁿbiri rabafɛ ki ma/",
-      "phonetic_simple": "N NO-MA KHON-BI-RI RA-BA-FÈ KI MA ?",
-      "translation": "Puis-je ouvrir la pièce maintenant ? (Demande de permission)",
-      "context": "Solliciter poliment l'autorisation d'un responsable ou d'un aîné."
+      "phrase_id": "p3",
+      "original": "So rabi",
+      "phonetic_api": "/so rabi/",
+      "phonetic_simple": "so RA-bi",
+      "translation": "Ouvre (la porte)",
+      "context": "Ordre/permission donnée à l'impératif."
     },
     {
-      "phrase_id": "p16_4",
-      "original": "Karamoxo tinxi n bɛ n siga banxi ma.",
-      "phonetic_api": "/karamoxo tiⁿxi n bɛ n siɡa baⁿxi ma/",
-      "phonetic_simple": "KA-RA-MO-KHO TIN-KHI N BÈ N SI-GA BAN-KHI MA",
-      "translation": "Le supérieur m'a permis de rentrer chez moi.",
-      "context": "Expliquer qu'une autorisation officielle a été validée."
+      "phrase_id": "p4",
+      "original": "So balan",
+      "phonetic_api": "/so balan/",
+      "phonetic_simple": "so ba-LAN",
+      "translation": "Ferme (la porte)",
+      "context": "Ordre à l'impératif, pouvant impliquer une interdiction de passage."
     },
     {
-      "phrase_id": "p16_5",
-      "original": "Tɔɲɛ yati nan na tete ma ki ra.",
-      "phonetic_api": "/tɔɲɛ yati naⁿ na tetɛ ma ki ra/",
-      "phonetic_simple": "TO-NYÈ YA-TI NAN NA TÉ-TÈ MA KI RA",
-      "translation": "C'est une règle absolue au sein de la concession en ce moment.",
-      "context": "Rappeler le règlement interne d'un foyer ou d'un groupement social."
-    },
-    {
-      "phrase_id": "p16_6",
-      "original": "A mu wasaxi i bɛ i xɔnɔfe fe ra.",
-      "phonetic_api": "/a mu wasaxi i bɛ i xɔnɔfɛ fɛ ra/",
-      "phonetic_simple": "A MOU WA-SA-KHI I BÈ I KHO-NO-FÈ FÈ RA",
-      "translation": "Il ne te faut pas te mettre en colère pour cette affaire.",
-      "context": "Rappeler un devoir de retenue ou d'éthique comportementale."
-    },
-    {
-      "phrase_id": "p16_7",
-      "original": "I monixi, i mu nɔma donse donfe yanbɛ.",
-      "phonetic_api": "/i monixi i mu nɔma doⁿsɛ doⁿfɛ yaⁿbɛ/",
-      "phonetic_simple": "I MO-NI-KHI, I MOU NO-MA DON-SÈ DON-FÈ YAN-BÈ",
-      "translation": "C'est exclu, tu n'as pas le droit de consommer de la nourriture ici.",
-      "context": "Énoncer un interdit alimentaire ou un espace non dédié."
-    },
-    {
-      "phrase_id": "p16_8",
-      "original": "Won birin tinxi tɔɲɛ ma wali yire ma.",
-      "phonetic_api": "/woⁿ biriⁿ tiⁿxi tɔɲɛ ma wali yirɛ ma/",
-      "phonetic_simple": "WON BI-RIN TIN-KHI TO-NYÈ MA WA-LI YI-RÈ MA",
-      "translation": "Nous acceptons tous le règlement sur le lieu de travail.",
-      "context": "Affirmer la cohésion professionnelle autour d'une charte."
+      "phrase_id": "p5",
+      "original": "HakEto",
+      "phonetic_api": "/hakɛto/",
+      "phonetic_simple": "ha-KÈ-to",
+      "translation": "S'il te plaît / excuse-moi / permets-moi",
+      "context": "Formule de politesse utilisée pour demander une permission implicite avant de parler ou d'agir."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'expression de l'obligation impersonnelle avec 'wasa'",
-      "explanation": "En soussou intermédiaire, l'obligation ne se formule pas par un équivalent direct du pronom français 'je dois'. On emploie la structure prédicative impersonnelle 'a wasaxi' (cela suffit / il faut) adjointe au bénéficiaire ('n bɛ' = pour moi) et suivie de l'action à accomplir.",
+      "concept": "Exprimer la capacité et l'incapacité avec 'nçma'",
+      "explanation": "'Nçma' fonctionne comme un verbe modal exprimant la capacité physique, la force ou, par extension, la permission/possibilité. Sa négation ('mu nçma') exprime l'incapacité ou l'interdiction implicite.",
       "rules": [
-        "Placer le bloc verbal impersonnel 'a wasaxi' en amorce.",
-        "Introduire la personne soumise à l'obligation par la postposition de bénéfice 'bɛ'.",
-        "Énoncer la proposition verbale finale décrivant la tâche."
+        "Structure affirmative : Sujet + nçma + Verbe(fe) (ex. n nçma sigafe = je peux aller)",
+        "Structure négative : Sujet + mu + nçma + Verbe(fe) (ex. n mu nçma sigafe = je ne peux pas aller)"
       ],
       "examples": [
         {
-          "structure": "A wasaxi + n bɛ + n + siga",
-          "phonetic_api": "/a wasaxi n bɛ n siɡa/",
-          "meaning": "Il me faut partir / Je dois partir."
+          "structure": "N mu nçma lande diramini",
+          "phonetic_api": "/n mu nɔma lande diramini/",
+          "meaning": "Je ne peux pas assister au baptême"
         }
       ]
     },
     {
-      "concept": "La formulation de la capacité et de la permission avec 'nɔ'",
-      "explanation": "Le verbe modal 'nɔ' sert à la fois à traduire la capacité physique et l'autorisation morale ou contractuelle (pouvoir / avoir le droit). S'il est associé à la négation absolue 'mu', il bascule automatiquement vers la traduction de l'interdiction ou de l'impossibilité.",
+      "concept": "L'obligation exprimée par le contexte et la structure 'xa'",
+      "explanation": "Le soussou n'a pas de verbe modal unique équivalent à 'devoir'. L'obligation se traduit soit par une formulation générale de nécessité (ex. 'nde wali fe sçtç kçbiri' = on doit travailler pour avoir de l'argent, littéralement 'quelqu'un travaille pour obtenir de l'argent'), soit par la structure 'xa' qui relie une intention à l'action attendue d'un tiers.",
       "rules": [
-        "À l'affirmatif (autorisation) : [Sujet] + nɔma (nɔ + suffixe d'habitude/futur) + [Action].",
-        "Au négatif (interdit) : [Sujet] + mu (négation) + nɔma + [Action au gérondif en -de]."
+        "Nécessité générale : structure descriptive sans modal dédié",
+        "Obligation impliquant un tiers : Sujet1 + wama/veut + Sujet2 + xa + Verbe"
       ],
       "examples": [
         {
-          "structure": "N + nɔma + i + mali + fe",
-          "phonetic_api": "/n nɔma i malifɛ/",
-          "meaning": "Je peux t'aider / J'ai l'autorisation de t'aider."
-        },
-        {
-          "structure": "I + mu + nɔma + siga + de",
-          "phonetic_api": "/i mu nɔma siɡadɛ/",
-          "meaning": "Tu ne peux pas circuler (C'est formellement interdit)."
+          "structure": "N wama i xa mini",
+          "phonetic_api": "/n wama i xa mini/",
+          "meaning": "Il faut que tu sortes / je veux que tu sortes"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Marie",
-      "text": "Karamoxo, i kéna ! N nɔma sigafe banxi ma ki ma ? N nba toraxi gbe ra.",
-      "phonetic_api": "/karamoxo i kéna n nɔma siɡafɛ baⁿxi ma ki ma n ⁿba toraxi ɡbɛ ra/",
-      "phonetic_simple": "KA-RA-MO-KHO, I KÉ-NA ! N NO-MA SI-GA-FÈ BAN-KHI MA KI MA ? N N-BA TO-RA-KHI GBÈ RA.",
-      "translation": "Monsieur (supérieur), bonjour ! Puis-je rentrer à la maison actuellement ? Mon père est très malade (fatigué)."
+      "speaker": "Salifu",
+      "text": "I nçma fa n bE diramini na lçxE?",
+      "phonetic_api": "/i nɔma fa n bɛ diramini na lɔxɛ/",
+      "phonetic_simple": "i NO-ma fa n bè di-ra-MI-ni na LO-khè",
+      "translation": "Peux-tu venir avec moi au baptême ce jour-là ?"
     },
     {
-      "speaker": "Karamoxo",
-      "text": "Marie, i kéna. I nba toraxi fe ra, n tinxi i bɛ. I nɔma sigafe tan ma.",
-      "phonetic_api": "/mari i kéna i ⁿba toraxi fɛ ra n tiⁿxi i bɛ i nɔma siɡafɛ taⁿ ma/",
-      "phonetic_simple": "MA-RI, I KÉ-NA. I N-BA TO-RA-KHI FÈ RA, N TIN-KHI I BÈ. I NO-MA SI-GA-FÈ TAN MA.",
-      "translation": "Marie, bonjour. En raison de la maladie de ton père, je t'accorde la permission. Tu peux partir dès maintenant."
+      "speaker": "Fode",
+      "text": "N mu nçma lande diramini bari n xunya ginEma xa futixiri rabama na lçxE keren nE.",
+      "phonetic_api": "/n mu nɔma lande diramini bari n xuɲa ginɛma xa futixiri rabama na lɔxɛ keren nɛ/",
+      "phonetic_simple": "n mou NO-ma LAN-dé di-ra-MI-ni ba-ri n khou-GNA gui-NÈ-ma kha fou-ti-KHI-ri ra-BA-ma na LO-khè ké-rèn NÈ",
+      "translation": "Je ne peux pas assister au baptême parce que le mariage de ma petite sœur aura lieu ce même jour."
     },
     {
-      "speaker": "Marie",
-      "text": "I nouwali gbe ra ! Koni, n na projet ki xon, a wasaxi n bɛ n na a rabafe to ma ?",
-      "phonetic_api": "/i nuwali ɡbɛ ra koni n na projɛ ki xoⁿ a wasaxi n bɛ n na a rabafɛ to ma/",
-      "phonetic_simple": "I NOU-WA-LI GBÈ RA ! KO-NI, N NA PRO-JET KI KHON, A WA-SA-KHI N BÈ N NA A RA-BA-FÈ TO MA ?",
-      "translation": "Merci infiniment ! Cependant, concernant ce projet de travail, est-il obligatoire que je le termine aujourd'hui ?"
+      "speaker": "Salifu",
+      "text": "Ala xa a balo bE.",
+      "phonetic_api": "/ala xa a balo bɛ/",
+      "phonetic_simple": "a-LA kha a BA-lo bè",
+      "translation": "Que Dieu t'aide."
     },
     {
-      "speaker": "Karamoxo",
-      "text": "Iyo, na findi fe obligatoire ra. Koni i boreé fama i malife, i mu nɔma a lude mɛnni ki.",
-      "phonetic_api": "/iyo na fiⁿdi fɛ oⁿbliɡatuarɛ ra koni i borɛɛ fama i malifɛ i mu nɔma a ludɛ mɛnni ki/",
-      "phonetic_simple": "I-YO, NA FIN-DI FÈ OM-BLI-GA-TUA-RÈ RA. KO-NI I BO-RÈÈ FA-MA I MA-LI-FÈ, I MOU NO-MA A LOU-DÉ MÈN-NI KI.",
-      "translation": "Oui, c'est impératif. Mais tes collègues vont t'aider, tu ne dois pas (tu n'as pas le droit de) laisser ce travail en suspens là-bas."
-    },
-    {
-      "speaker": "Marie",
-      "text": "Nba. Tɔɲɛ yati nan na ra, n fama a fahaamufe. Won tina, karamoxo !",
-      "phonetic_api": "/ⁿba tɔɲɛ yati naⁿ na ra n fama a fahaːmufɛ woⁿ tina karamoxo/",
-      "phonetic_simple": "N-BA. TO-NYÈ YA-TI NAN NA RA, N FA-MA A FA-HA-A-MOU-FÈ. WON TI-NA, KA-RA-MO-KHO !",
-      "translation": "Parfait. C'est le règlement absolu, je le comprends parfaitement. À demain, monsieur !"
+      "speaker": "Fode",
+      "text": "Iyo, kono n xa wali raba sinden na lçxE.",
+      "phonetic_api": "/ijo, kono n xa wali raba sinden na lɔxɛ/",
+      "phonetic_simple": "i-yo, KO-no n kha WA-li ra-BA sin-DEN na LO-khè",
+      "translation": "Oui, mais je dois d'abord finir mon travail ce jour-là."
     }
   ],
   "cultural_notes": [
-    "Dans les structures sociales et professionnelles en Guinée, le respect de la hiérarchie et de l'autorité des aînés ou des supérieurs ('karamoxo') est primordial. Demander une autorisation ('permission') implique toujours de justifier sa démarche par un impératif familial ou communautaire (comme la santé d'un parent), ce qui garantit l'acceptation polie du groupe. Les interdits rituels ou réglementaires ('tɔɲɛ') servent à préserver l'équilibre et le respect mutuel au sein de l'espace de travail."
+    "En Guinée, il est généralement considéré comme obligatoire (une forme de devoir social) de participer aux cérémonies familiales importantes (baptêmes, mariages), ce qui explique les excuses élaborées lorsque cette participation devient impossible.",
+    "Demander la permission avant d'agir ou de parler (avec 'hakEto') est une marque de respect essentielle, particulièrement envers les aînés."
   ],
   "exercises": [
     {
-      "exercise_id": "ex16_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel terme impersonnel introduit de façon obligatoire une notion d'impératif ou de devoir ?",
+      "question": "Comment dit-on 'je ne peux pas' en soussou ?",
       "options": [
-        "Nɔ",
-        "Wasa",
-        "Tin"
+        "n mu nçma",
+        "n wama",
+        "n bara"
       ],
-      "correct_answer": "Wasa",
-      "explanation": "'Wasa' est le terme de modalité utilisé pour traduire l'obligation (falloir / suffire)."
+      "correct_answer": "n mu nçma",
+      "explanation": "'Nçma' signifie pouvoir/être capable, et sa négation 'mu nçma' exprime l'incapacité ou l'impossibilité."
     },
     {
-      "exercise_id": "ex16_2",
-      "type": "multiple_choice",
-      "question": "Que signifie la phrase négative stricte 'I mu nɔma sigade' ?",
-      "options": [
-        "Tu veux partir",
-        "Tu es déjà parti",
-        "Tu n'as pas l'autorisation de circuler / c'est interdit"
-      ],
-      "correct_answer": "Tu n'as pas l'autorisation de circuler / c'est interdit",
-      "explanation": "La combinaison de la négation 'mu' et du modal 'nɔma' exprime l'interdiction de faire l'action."
-    },
-    {
-      "exercise_id": "ex16_3",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "A wasaxi n [ ___ ] n na wali rabafe. (Il me faut accomplir le travail.)",
-      "correct_answer": "bɛ",
-      "hint": "C'est la postposition de bénéfice indirect rattachée au sujet soumis à l'obligation."
-    },
-    {
-      "exercise_id": "ex16_4",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "[ ___ ] yati nan na tete ma ki ra. (C'est le règlement absolu de la concession...)",
-      "correct_answer": "Tɔɲɛ",
-      "hint": "Ce substantif abstrait désigne la loi, la règle sociale ou la prescription collective."
+      "sentence_with_blank": "'Ferme la porte' se dit : So [ ___ ].",
+      "correct_answer": "balan",
+      "hint": "C'est le verbe qui signifie 'fermer'."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Peace Corps Guinée — Xarandi Xa Buki, Livre du stagiaire Sosoxui (Susu Language Lessons)",
+      "url": "https://fsi-languages.yojik.eu/languages/PeaceCorps/Susu/susu-language-course.pdf"
+    },
+    {
+      "label": "Live Lingua Project — Peace Corps Susu Language Lessons",
+      "url": "https://www.livelingua.com/course/peace_corps/susu_language_lessons"
+    },
+    {
+      "label": "Duport, Outlines of a Grammar of the Susu Language (1886)",
+      "url": "https://theswissbay.ch/pdf/Books/Linguistics/Mega%20linguistics%20pack/African/Niger-Congo/Mande/Susu%20Language,%20Outlines%20of%20a%20Grammar%20of%20the%20(Duport)%20(1886).pdf"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Le verbe modal 'nçma' (pouvoir) et la phrase 'on doit travailler pour avoir de l'argent' sont attestés dans le manuel Peace Corps Susu (Compétences 3 et 12) ; la grammaire de Duport (1886) confirme une construction d'obligation similaire ('iya rafan' = tu dois aimer) mais aucune des sources consultées ne fournit un verbe modal dédié unique et moderne pour 'devoir', d'où une confiance modérée sur ce point précis."
 }

@@ -9,3 +9,4 @@ from .languages import router as languages
 from .vocabulary import router as vocabulary
 from .contributions import router as contributions
 from .users import router as users
+from .research import router as research

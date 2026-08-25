@@ -6,204 +6,266 @@
   "lesson_number": 5,
   "title": "Les chiffres, les nombres et le comptage",
   "learning_objectives": [
-    "Compter de 1 à 10 avec assurance en malinké",
-    "Associer un chiffre à un nom pour dénombrer des objets",
-    "Comprendre la structure de base pour former les dizaines"
+    "Compter de zéro à dix en malinké",
+    "Former les nombres de 11 à 20 avec 'ni' (addition)",
+    "Reconnaître les dizaines (muwan=20, bisaba=30...)",
+    "Utiliser les nombres dans une phrase pour compter des objets ou des personnes"
   ],
   "phonetic_focus": {
-    "key_sounds": "Le chiffre 3 'saba' possède des voyelles brèves et claires. Le chiffre 5 'loolu' contient une voyelle longue qu'il faut étirer (/loː.lu/). Le chiffre 9 'kononto' demande de bien articuler la nasale sans détacher le 'n'.",
-    "common_pitfalls": "Prononcer 'loolu' trop court comme 'lolu'. La longueur de la voyelle est indispensable pour se faire comprendre correctement."
+    "key_sounds": [
+      "Le groupe consonantique 'w' de 'wooro' (6) et 'woronwila' (7), à bien distinguer",
+      "La nasale finale de 'tan' (10) et 'naanin' (4)",
+      "Le ton descendant de 'fila' (2)"
+    ],
+    "common_pitfalls": [
+      "Confondre 'tan ni kelen' (11, dix-et-un) avec 'muwan' (20) : la structure additive n'est utilisée que pour les unités après une dizaine",
+      "Oublier 'ni' comme mot de liaison additive entre dizaine et unité"
+    ]
   },
   "vocabulary": [
     {
-      "word_id": "v5_1",
-      "term": "Kelen",
-      "phonetic_api": "/ke.lẽ/",
-      "phonetic_simple": "KÉ-LEN",
-      "translation": "Un (1)",
-      "example_sentence": "Mɔgɔ kelen",
-      "example_phonetic": "/mɔ.ɡɔ ke.lẽ/",
-      "example_translation": "Une personne."
+      "word_id": "v1",
+      "term": "kelen",
+      "phonetic_api": "[kelen]",
+      "phonetic_simple": "ké-lèn",
+      "translation": "un (1)",
+      "example_sentence": "Den kelen le ye n bolo.",
+      "example_phonetic": "[dɛn kelen le je n bolo]",
+      "example_translation": "J'ai un enfant."
     },
     {
-      "word_id": "v5_2",
-      "term": "Fila",
-      "phonetic_api": "/fi.la/",
-      "phonetic_simple": "FI-LA",
-      "translation": "Deux (2)",
-      "example_sentence": "So fila",
-      "example_phonetic": "/so fi.la/",
-      "example_translation": "Deux maisons."
+      "word_id": "v2",
+      "term": "fila",
+      "phonetic_api": "[fila]",
+      "phonetic_simple": "fi-la",
+      "translation": "deux (2)",
+      "example_sentence": "Den fila le ye n bolo.",
+      "example_phonetic": "[dɛn fila le je n bolo]",
+      "example_translation": "J'ai deux enfants."
     },
     {
-      "word_id": "v5_3",
-      "term": "Saba",
-      "phonetic_api": "/sa.ba/",
-      "phonetic_simple": "SA-BA",
-      "translation": "Trois (3)",
-      "example_sentence": "Muruba saba",
-      "example_phonetic": "/mu.ru.ba sa.ba/",
-      "example_translation": "Trois grands couteaux."
+      "word_id": "v3",
+      "term": "saba",
+      "phonetic_api": "[saba]",
+      "phonetic_simple": "sa-ba",
+      "translation": "trois (3)",
+      "example_sentence": "Tele saba.",
+      "example_phonetic": "[tele saba]",
+      "example_translation": "Trois jours."
     },
     {
-      "word_id": "v5_4",
-      "term": "Nani",
-      "phonetic_api": "/na.ni/",
-      "phonetic_simple": "NA-NI",
-      "translation": "Quatre (4)",
-      "example_sentence": "Den nani",
-      "example_phonetic": "/dẽ na.ni/",
-      "example_translation": "Quatre enfants."
+      "word_id": "v4",
+      "term": "naanin",
+      "phonetic_api": "[naːnin]",
+      "phonetic_simple": "na-a-nin",
+      "translation": "quatre (4)",
+      "example_sentence": "San binaanin ani fila.",
+      "example_phonetic": "[san binaːnin ani fila]",
+      "example_translation": "Quarante-deux ans."
     },
     {
-      "word_id": "v5_5",
-      "term": "Loolu",
-      "phonetic_api": "/loː.lu/",
-      "phonetic_simple": "LOO-LOU",
-      "translation": "Cinq (5)",
-      "example_sentence": "Wulu loolu",
-      "example_phonetic": "/wu.lu loː.lu/",
-      "example_translation": "Cinq chiens."
+      "word_id": "v5",
+      "term": "lolu",
+      "phonetic_api": "[lolu]",
+      "phonetic_simple": "lo-lou",
+      "translation": "cinq (5)",
+      "example_sentence": "Bilolu le.",
+      "example_phonetic": "[bilolu le]",
+      "example_translation": "C'est cinquante."
     },
     {
-      "word_id": "v5_6",
-      "term": "Wɔɔro",
-      "phonetic_api": "/wɔː.ro/",
-      "phonetic_simple": "WƆƆ-RO",
-      "translation": "Six (6)",
-      "example_sentence": "Baa wɔɔro",
-      "example_phonetic": "/baː wɔː.ro/",
-      "example_translation": "Six chèvres."
+      "word_id": "v6",
+      "term": "tan",
+      "phonetic_api": "[tan]",
+      "phonetic_simple": "tan",
+      "translation": "dix (10)",
+      "example_sentence": "Tan ni kelen.",
+      "example_phonetic": "[tan ni kelen]",
+      "example_translation": "Onze (dix-et-un)."
     },
     {
-      "word_id": "v5_7",
-      "term": "Wolofrila",
-      "phonetic_api": "/wo.lo.fri.la/",
-      "phonetic_simple": "WO-LO-FRI-LA",
-      "translation": "Sept (7)",
-      "example_sentence": "Cɛ wolofrila",
-      "example_phonetic": "/t͡ʃɛ wo.lo.fri.la/",
-      "example_translation": "Sept hommes."
+      "word_id": "v7",
+      "term": "muwan",
+      "phonetic_api": "[muwan]",
+      "phonetic_simple": "mou-wan",
+      "translation": "vingt (20)",
+      "example_sentence": "Wa muwan ni lolu.",
+      "example_phonetic": "[wa muwan ni lolu]",
+      "example_translation": "25 000 (mille × 25)."
     },
     {
-      "word_id": "v5_8",
-      "term": "Seegin",
-      "phonetic_api": "/seː.ɡĩ/",
-      "phonetic_simple": "SÉE-GUIN",
-      "translation": "Huit (8)",
-      "example_sentence": "Muso seegin",
-      "example_phonetic": "/mu.so seː.ɡĩ/",
-      "example_translation": "Huit femmes."
-    },
-    {
-      "word_id": "v5_9",
-      "term": "Kononto",
-      "phonetic_api": "/ko.nõ.to/",
-      "phonetic_simple": "KO-NON-TO",
-      "translation": "Neuf (9)",
-      "example_sentence": "Sugu kononto",
-      "example_phonetic": "/su.ɡu ko.nõ.to/",
-      "example_translation": "Neuf marchés."
-    },
-    {
-      "word_id": "v5_10",
-      "term": "Tan",
-      "phonetic_api": "/tã/",
-      "phonetic_simple": "TAN",
-      "translation": "Dix (10)",
-      "example_sentence": "Bari tan",
-      "example_phonetic": "/ba.ri tã/",
-      "example_translation": "Dix barriques."
+      "word_id": "v8",
+      "term": "kèmè",
+      "phonetic_api": "[kɛmɛ]",
+      "phonetic_simple": "kè-mè",
+      "translation": "cent (100)",
+      "example_sentence": "Kilo kèmè woronwila ni bi seyin.",
+      "example_phonetic": "[kilo kɛmɛ woronwila ni bi sejin]",
+      "example_translation": "780 km."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p5_1",
-      "original": "A jeli ?",
-      "phonetic_api": "/a d͡ʒe.li/",
-      "phonetic_simple": "A DJÉ-LI",
-      "translation": "C'est combien ? / Combien ?",
-      "context": "Expression passe-partout pour demander une quantité ou un prix."
+      "phrase_id": "p1",
+      "original": "Tan ni kelen",
+      "phonetic_api": "[tan ni kelen]",
+      "phonetic_simple": "tan-ni-ké-lèn",
+      "translation": "onze (11)",
+      "context": "Formation additive : dizaine + ni + unité"
     },
     {
-      "phrase_id": "p5_2",
-      "original": "Nani dɔrɔn.",
-      "phonetic_api": "/na.ni dɔ.rɔn/",
-      "phonetic_simple": "NA-NI DƆ-RƆN",
-      "translation": "Quatre seulement.",
-      "context": "Indiquer une restriction sur la quantité d'objets voulus."
+      "phrase_id": "p2",
+      "original": "Tan ni fila",
+      "phonetic_api": "[tan ni fila]",
+      "phonetic_simple": "tan-ni-fi-la",
+      "translation": "douze (12)",
+      "context": "Suite de la série 'tan ni...'"
     },
     {
-      "phrase_id": "p5_3",
-      "original": "N bɛ fila fɛ.",
-      "phonetic_api": "/n̩ bɛ fi.la fɛ/",
-      "phonetic_simple": "N BƐ FI-LA FƐ",
-      "translation": "Je veux deux (unités).",
-      "context": "Faire un choix quantitatif lors d'une transaction."
+      "phrase_id": "p3",
+      "original": "Muwan ni kelen",
+      "phonetic_api": "[muwan ni kelen]",
+      "phonetic_simple": "mou-wan-ni-ké-lèn",
+      "translation": "vingt-et-un (21)",
+      "context": "Même logique additive appliquée à la dizaine 'muwan'"
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Bisaba",
+      "phonetic_api": "[bisaba]",
+      "phonetic_simple": "bi-sa-ba",
+      "translation": "trente (30)",
+      "context": "Dizaine formée par préfixe 'bi-' + chiffre des unités (bi+saba)"
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Binaanin",
+      "phonetic_api": "[binaːnin]",
+      "phonetic_simple": "bi-na-a-nin",
+      "translation": "quarante (40)",
+      "context": "bi- + naanin (4)"
+    },
+    {
+      "phrase_id": "p6",
+      "original": "Wa kelen",
+      "phonetic_api": "[wa kelen]",
+      "phonetic_simple": "wa-ké-lèn",
+      "translation": "mille (1 000)",
+      "context": "Utilisé dans les prix au marché"
     }
   ],
   "grammar_points": [
     {
-      "concept": "La place du numéral dans le groupe nominal",
-      "explanation": "En malinké, le chiffre se place toujours immédiatement APRÈS le nom qu'il qualifie. Contrairement au français, on dit 'homme deux' et non 'deux hommes'.",
+      "concept": "La formation additive des nombres (11 à 19, 21 à 29...)",
+      "explanation": "Les nombres composés se forment en ajoutant l'unité à la dizaine avec le mot 'ni' (et).",
       "rules": [
-        "Structure : Nom au singulier + Chiffre.",
-        "Le nom ne prend pas la marque du pluriel 'lu' si un chiffre précis le suit déjà."
+        "Structure : [Dizaine] + ni + [Unité]",
+        "tan (10) + ni + kelen (1) = tan ni kelen (11)",
+        "muwan (20) + ni + fila (2) = muwan ni fila (22)"
       ],
       "examples": [
         {
-          "structure": "Mɔgɔ saba",
-          "phonetic_api": "/mɔ.ɡɔ sa.ba/",
-          "meaning": "Trois personnes (Personne + Trois)"
+          "structure": "tan ni [unité]",
+          "phonetic_api": "[tan ni]",
+          "meaning": "onze à dix-neuf"
+        },
+        {
+          "structure": "muwan ni [unité]",
+          "phonetic_api": "[muwan ni]",
+          "meaning": "vingt-et-un à vingt-neuf"
+        }
+      ]
+    },
+    {
+      "concept": "Les dizaines formées avec le préfixe 'bi-'",
+      "explanation": "À partir de trente, les dizaines (sauf vingt='muwan') se forment avec le préfixe 'bi-' suivi du chiffre correspondant à la dizaine.",
+      "rules": [
+        "bi- + saba (3) = bisaba (30)",
+        "bi- + naanin (4) = binaanin (40)",
+        "bi- + lolu (5) = bilolu (50)"
+      ],
+      "examples": [
+        {
+          "structure": "bi- + [chiffre]",
+          "phonetic_api": "[bi]",
+          "meaning": "dizaine correspondante (30, 40, 50...)"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Le Marchand",
-      "text": "I ni tile, mɔgɔba. I bɛ nani fɛ ?",
-      "phonetic_api": "/i ni ti.le mɔ.ɡɔ.ba i bɛ na.ni fɛ/",
-      "phonetic_simple": "I NI TI-LÉ, MƆ-GƆ-BA. I BƐ NA-NI FƐ ?",
-      "translation": "Bonjour, monsieur. En veux-tu quatre ?"
+      "speaker": "Karamoo",
+      "text": "Den ye i bolo, jeli ?",
+      "phonetic_api": "[dɛn je i bolo dʒeli]",
+      "phonetic_simple": "dèn-yé-i-bo-lo, dié-li",
+      "translation": "Combien d'enfants as-tu ?"
     },
     {
-      "speaker": "L'Acheteur",
-      "text": "Ayi, n bɛ loolu fɛ. Baa loolu.",
-      "phonetic_api": "/a.ji n̩ bɛ loː.lu fɛ baː loː.lu/",
-      "phonetic_simple": "A-YI, N BƐ LOO-LOU FƐ. BAA LOO-LOU.",
-      "translation": "Non, j'en veux cinq. Cinq chèvres."
+      "speaker": "Sékou",
+      "text": "Den saba le ye n bolo.",
+      "phonetic_api": "[dɛn saba le je n bolo]",
+      "phonetic_simple": "dèn-sa-ba-lé-yé-n-bo-lo",
+      "translation": "J'ai trois enfants."
     },
     {
-      "speaker": "Le Marchand",
-      "text": "Baa loolu ? A bɛnna, inu baara !",
-      "phonetic_api": "/baː loː.lu a bɛn.na i.nu baː.ra/",
-      "phonetic_simple": "BAA LOO-LOU ? A BƐN-NA, I-NOU BAA-RA !",
-      "translation": "Cinq chèvres ? C'est d'accord, merci pour l'achat !"
+      "speaker": "Karamoo",
+      "text": "I san jeli le ?",
+      "phonetic_api": "[i san dʒeli le]",
+      "phonetic_simple": "i-san-dié-li-lé",
+      "translation": "Quel âge as-tu ?"
+    },
+    {
+      "speaker": "Sékou",
+      "text": "San muwan ni lolu.",
+      "phonetic_api": "[san muwan ni lolu]",
+      "phonetic_simple": "san-mou-wan-ni-lo-lou",
+      "translation": "Vingt-cinq ans."
     }
   ],
   "cultural_notes": [
-    "Le comptage traditionnel mandingue utilise une base vigésimale (base 20) historique, mais le système décimal moderne basé sur 'Tan' (10) est universellement utilisé pour les transactions courantes et l'apprentissage de base de nos jours."
+    "Les nombres sont indispensables pour marchander au marché : les prix se comptent souvent en centaines ou en milliers de francs guinéens, en utilisant 'wa' (mille) ([Malinkuia](https://fr.scribd.com/document/499114939/Malinkuia)).",
+    "Le système numérique malinké, comme dans beaucoup de langues mandingues, repose sur une base vigésimale (base 20) pour les grands nombres, visible dans la construction des dizaines à partir de 'muwan' (20) ([Omniglot](https://www.omniglot.com/language/numbers/maninka.htm))."
   ],
   "exercises": [
     {
-      "exercise_id": "A1_M2_L5_ex1",
-      "type": "multiple_choice",
-      "question": "Quel est le chiffre correspondant au terme 'Loolu' ?",
-      "options": [
-        "3",
-        "5",
-        "9"
-      ],
-      "correct_answer": "5",
-      "explanation": "'Loolu' signifie cinq et comporte une voyelle longue caractéristique."
+      "exercise_id": "e1",
+      "type": "traduction",
+      "question": "Traduisez le nombre 'quinze' en malinké.",
+      "correct_answer": "Tan ni lolu",
+      "explanation": "tan (10) + ni + lolu (5) = 15."
     },
     {
-      "exercise_id": "A1_M2_L5_ex2",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "So [ ___ ] (Une seule maison).",
-      "correct_answer": "kelen",
-      "hint": "C'est le chiffre un."
+      "exercise_id": "e2",
+      "type": "choix_multiple",
+      "question": "Que signifie 'bisaba' ?",
+      "options": [
+        "13",
+        "30",
+        "3",
+        "23"
+      ],
+      "correct_answer": "30",
+      "explanation": "'bi-' + 'saba' (3) forme la dizaine 'trente'."
+    },
+    {
+      "exercise_id": "e3",
+      "type": "texte_a_trous",
+      "sentence_with_blank": "Muwan ___ fila = vingt-deux (22)",
+      "correct_answer": "ni",
+      "hint": "C'est le mot de liaison additive entre la dizaine et l'unité."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Malinkuia — Introduction à la langue malinké (grammaire complète, variété du Wulada, Haute-Guinée)",
+      "url": "https://fr.scribd.com/document/499114939/Malinkuia"
+    },
+    {
+      "label": "Omniglot — Maninka numbers (écriture N'Ko)",
+      "url": "https://www.omniglot.com/language/numbers/maninka.htm"
+    }
+  ],
+  "confidence": "élevée",
+  "confidence_note": "Les nombres cardinaux sont attestés de façon convergente dans deux sources indépendantes (Malinkuia et Omniglot avec transcription N'Ko), ce qui renforce la fiabilité malgré de légères variantes orthographiques entre elles (ex. 'lolu' vs 'lóolu')."
 }

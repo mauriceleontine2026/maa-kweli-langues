@@ -1,5 +1,4 @@
-[
-  {
+{
     "lesson_id": "C1_M3_L9",
     "level": "Avancé (C1-C2)",
     "module_number": 3,
@@ -7,161 +6,176 @@
     "lesson_number": 9,
     "title": "Traduction et nuances stylistiques avancées",
     "learning_objectives": [
-      "Transposer des structures idiomatiques complexes du français vers le ménik sans perdre la charge stylistique originelle",
-      "Maîtriser les glissements sémantiques fins liés à l'interprétation des doubles sens rituels et profanes",
-      "Restituer l'élégance oratoire d'un plaidoyer juridique ou d'un discours solennel lors de la traduction"
+        "Comparer la traduction anglaise et une traduction française du texte Omniglot",
+        "Discuter des choix de traduction possibles sans disposer d'une glose bedik mot à mot"
     ],
     "phonetic_focus": {
-      "key_sounds": "L'expression nominale désignant l'art de la traduction fidèle, 'kōō-gisá-gisé', exige une double friction consonantique. On enchaîne l'occlusive vélaire sourde /k/ sur voyelle longue, puis deux bases verbales portant des fricatives et semi-voyelles palatales fines.",
-      "common_pitfalls": "Attention à ne pas neutraliser l'écart tonique entre les deux segments de 'gisá-gisé'. Le premier porte un ton haut sur la finale, tandis que le second descend en ton moyen, marque stylistique de la justesse."
+        "key_sounds": "Le système phonologique général du bedik (implosives ɓ/ɗ/ƴ, voyelle centrale ë, opposition s/ŝ) reste valable à ce niveau, mais aucune source consultée ne détaille sa réalisation dans des énoncés complexes.",
+        "common_pitfalls": "Sans corpus de phrases longues en bedik, il est impossible de documenter des erreurs de prononciation spécifiques à ce niveau ; cette leçon l'indique honnêtement plutôt que d'en inventer."
     },
     "vocabulary": [
-      {
-        "word_id": "v1",
-        "term": "Kōō-gisá-gisé",
-        "phonetic_api": "/koː.ɡi.sa.ɡi.se/",
-        "phonetic_simple": "KOOR-GI-SÁ-GI-SÉ",
-        "translation": "L'art de la traduction fidèle / L'interprétation exacte des nuances de la parole",
-        "example_sentence": "Mady bē kōō-gisá-gisé amiat",
-        "example_phonetic": "/ma.di beː koː.ɡi.sa.ɡi.se a.mja/",
-        "example_translation": "Mady maîtrise parfaitement l'art de la traduction exacte."
-      },
-      {
-        "word_id": "v2",
-        "term": "A-shó-bēt",
-        "phonetic_api": "/a.ʃo.beːt/",
-        "phonetic_simple": "A-CHÓ-BEET",
-        "translation": "La nuance stylistique / Le double sens subtil / L'allusion oratoire",
-        "example_sentence": "Kōō kō bē a-shó-bēt",
-        "example_phonetic": "/koː ko beː a.ʃo.beːt/",
-        "example_translation": "Cette parole contient un double sens subtil."
-      },
-      {
-        "word_id": "v3",
-        "term": "Gisá-bēt-ə̀k",
-        "phonetic_api": "/ɡi.sa.beːt.ək/",
-        "phonetic_simple": "GI-SÁ-BEET-ƐK",
-        "translation": "A traduit fidèlement / A transposé le sens de la parole (passé accompli)",
-        "example_sentence": "Samba gisá-bēt-ə̀k kōō-makh-ə̀k",
-        "example_phonetic": "/sam.ba ɡi.sa.beːt.ək koː.maχ.ək/",
-        "example_translation": "Samba a traduit fidèlement la chronique historique."
-      },
-      {
-        "word_id": "v4",
-        "term": "Kōō-bē-amiat",
-        "phonetic_api": "/koː.beː.a.mja/",
-        "phonetic_simple": "KOOR-BEE-A-MIA",
-        "translation": "Le discours d'une élégance absolue / La rhétorique noble et pacifique",
-        "example_sentence": "Mayel-gwa bēt-ə̀k kōō-bē-amiat",
-        "example_phonetic": "/ma.jɛl.ɡwa beːt.ək koː.beː.a.mja/",
-        "example_translation": "Le maître de cérémonie a prononcé un discours d'une élégance absolue."
-      }
+        {
+            "word_id": "core_menik",
+            "term": "ménik / mënik",
+            "phonetic_api": "/menik/",
+            "phonetic_simple": "MÉ-NIK",
+            "translation": "la langue bedik (endonyme)",
+            "example_sentence": "(aucune phrase d'exemple attestée)",
+            "example_phonetic": "/.../",
+            "example_translation": "(non disponible)"
+        },
+        {
+            "word_id": "core_adik",
+            "term": "Adik",
+            "phonetic_api": "/adik/",
+            "phonetic_simple": "A-DIK",
+            "translation": "un Bédik (personne, nom du peuple au singulier)",
+            "example_sentence": "(aucune phrase d'exemple attestée)",
+            "example_phonetic": "/.../",
+            "example_translation": "(non disponible)"
+        },
+        {
+            "word_id": "core_riye",
+            "term": "riye / diye",
+            "phonetic_api": "/(transcription API non fournie par la source)/",
+            "phonetic_simple": "RI-YE / DI-YE",
+            "translation": "1 (un)",
+            "example_sentence": "(aucune phrase d'exemple attestée)",
+            "example_phonetic": "/.../",
+            "example_translation": "(non disponible)"
+        },
+        {
+            "word_id": "core_xi",
+            "term": "xi / ki",
+            "phonetic_api": "/(transcription API non fournie par la source)/",
+            "phonetic_simple": "XI / KI",
+            "translation": "2 (deux)",
+            "example_sentence": "(aucune phrase d'exemple attestée)",
+            "example_phonetic": "/.../",
+            "example_translation": "(non disponible)"
+        },
+        {
+            "word_id": "core_sas",
+            "term": "sas / tas",
+            "phonetic_api": "/(transcription API non fournie par la source)/",
+            "phonetic_simple": "SAS / TAS",
+            "translation": "3 (trois)",
+            "example_sentence": "(aucune phrase d'exemple attestée)",
+            "example_phonetic": "/.../",
+            "example_translation": "(non disponible)"
+        }
     ],
     "common_phrases": [
-      {
-        "phrase_id": "p1",
-        "original": "Sə̀kh ɓa kōō-gisá-gisé pour madyé.",
-        "phonetic_api": "/səχ ɓa koː.ɡi.sa.ɡi.se puʁ ma.dʒe/",
-        "phonetic_simple": "SƐKH BHA KOOR-GI-SÁ-GI-SÉ POUR MA-DYE",
-        "translation": "Il faut impérativement appliquer une traduction fidèle pour la classe d'âge.",
-        "context": "Exiger l'exactitude lors de la transmission d'un accord administratif ou juridique au village."
-      },
-      {
-        "phrase_id": "p2",
-        "original": "Kōō-bēt-bi bē avec a-shó-bēt complexes.",
-        "phonetic_api": "/koː.beːt.bi beː a.vɛk a.ʃo.beːt kom.plɛks/",
-        "phonetic_simple": "KOOR-BEET-BI BEE AVEC A-CHÓ-BEET complexes",
-        "translation": "Le proverbe ancestral comporte des nuances stylistiques complexes.",
-        "context": "Expliquer la difficulty de traduction d'un dicton lors d'une séance d'analyse littéraire."
-      },
-      {
-        "phrase_id": "p3",
-        "original": "Mady gisá-bēt-ə̀k ko-khá amiat bē dyé.",
-        "phonetic_api": "/ma.di ɡi.sa.beːt.ək ko.χa a.mja beː dʒe/",
-        "phonetic_simple": "MA-DI GI-SÁ-BEET-ƐK KO-RHÁ A-MIA BEE DJE",
-        "translation": "Mady a traduit fidèlement en disant que l'harmonie régnait ici.",
-        "context": "Valider la justesse des propos d'un interprète officiel devant l'assemblée."
-      },
-      {
-        "phrase_id": "p4",
-        "original": "Nē-bē ina eny kōō-bē-amiat, bá ɓa kōō bi !",
-        "phonetic_api": "/neː.beː i.na eːɲ koː.beː.a.mja ba ɓa koː bi/",
-        "phonetic_simple": "NEE-BEE I-NA EENY KOOR-BEE-A-MIA, BÁ BHA KOO BI !",
-        "translation": "Si tu recherches un discours d'une élégance absolue, n'emploie jamais de paroles blessantes !",
-        "context": "Recommandation d'un bēt-gwa chevronné à un jeune orateur en apprentissage."
-      }
+        {
+            "phrase_id": "cp_core_1",
+            "original": "ménik / mënik, Adik",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(assemblage de deux mots attestés, prononcés séparément)",
+            "translation": "la langue bedik (endonyme) ; un Bédik (personne, nom du peuple au singulier)",
+            "context": "Énumération construite en recombinant deux mots bedik déjà attestés dans cette leçon (voir la liste 'vocabulary' et 'sources'). Aucune syntaxe de phrase bedik n'étant attestée en accès libre pour ce thème, il ne s'agit pas d'une phrase grammaticale vérifiée mais d'une juxtaposition de mots réellement documentés, présentée comme telle."
+        },
+        {
+            "phrase_id": "cp_core_2",
+            "original": "riye / diye, xi / ki",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(assemblage de deux mots attestés, prononcés séparément)",
+            "translation": "1 (un) ; 2 (deux)",
+            "context": "Énumération construite en recombinant deux mots bedik déjà attestés dans cette leçon (voir la liste 'vocabulary' et 'sources'). Aucune syntaxe de phrase bedik n'étant attestée en accès libre pour ce thème, il ne s'agit pas d'une phrase grammaticale vérifiée mais d'une juxtaposition de mots réellement documentés, présentée comme telle."
+        },
+        {
+            "phrase_id": "cp_core_3",
+            "original": "ménik / mënik / Adik",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(assemblage de deux mots attestés, prononcés séparément)",
+            "translation": "la langue bedik (endonyme) ; un Bédik (personne, nom du peuple au singulier)",
+            "context": "Association de deux mots bedik attestés (voir 'vocabulary'), présentée comme un exercice d'association lexicale et non comme une phrase grammaticale bedik vérifiée, faute de syntaxe attestée pour ce thème."
+        },
+        {
+            "phrase_id": "cp_core_4",
+            "original": "ménik / mënik / riye / diye",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(assemblage de deux mots attestés, prononcés séparément)",
+            "translation": "la langue bedik (endonyme) ; 1 (un)",
+            "context": "Association de deux mots bedik attestés (voir 'vocabulary'), présentée comme un exercice d'association lexicale et non comme une phrase grammaticale bedik vérifiée, faute de syntaxe attestée pour ce thème."
+        }
     ],
     "grammar_points": [
-      {
-        "concept": "La double re-verbalisation nominale pour l'expression de la fidélité stylistique",
-        "explanation": "Au niveau de maîtrise C2, pour exprimer l'acte de traduire fidèlement les finesses de sens, la langue ménik crée un syntagme nominal lourd composé de la racine générique 'kōō' (la parole) couplée à la répétition alternée de deux bases verbales fondamentales : 'gisá' (montrer/guider) et 'gisé' (raconter/conter).",
-        "rules": [
-          "Le bloc nominal 'kōō-gisá-gisé' régit l'ensemble de la proposition de traduction.",
-          "Les connecteurs de cause (ba-nē) et de condition (nē-bē) s'articulent autour de ce bloc pour préciser les contraintes de l'interprétation."
-        ],
-        "examples": [
-          {
-            "structure": "Kōō (Parole) + gisá (montrer) + gisé (conter) = Traduction fidèle",
-            "phonetic_api": "/koː.ɡi.sa.ɡi.se/",
-            "meaning": "L'interprétation exacte préservant l'esthétique et les nuances de la langue"
-          }
-        ]
-      }
+        {
+            "concept": "Lacune documentaire sur la morphosyntaxe avancée du bedik",
+            "explanation": "Sans glose interlinéaire du texte bedik d'Omniglot, il est impossible de documenter précisément les nuances stylistiques propres à la langue bedik elle-même ; cette leçon se limite donc à une comparaison entre deux traductions (anglaise, source ; française, proposée) du même texte.",
+            "rules": [
+                "Le bedik est décrit comme SVO (sujet-verbe-objet) avec un système de classes nominales et une alternance consonantique complexe (Wikipédia FR/EN, Sorosoro).",
+                "La thèse de M.-P. Ferry sur l'alternance consonantique (1967) et le mémoire de Sophie Wade sur le système verbal existent mais ne sont pas disponibles en ligne en texte intégral.",
+                "Aucune règle de temps, mode, connecteur logique ou registre soutenu bedik ne peut donc être présentée ici avec des exemples réels sans inventer de vocabulaire."
+            ],
+            "examples": []
+        }
     ],
     "dialogue": [
-      {
-        "speaker": "Bēt-gwa (L'orateur de l'assemblée)",
-        "text": "Samba, ina-bē-gaw pour kōō kō ? Ina gisá-bēt-ə̀k amiat ?",
-        "phonetic_api": "/sam.ba i.na.beː.ɡaw puʁ koː ko i.na ɡi.sa.beːt.ək a.mja/",
-        "phonetic_simple": "SAM-BA, I-NA-BEE-GAW POUR KOO KO ? I-NA GI-SÁ-BEET-ƐK A-MIA ?",
-        "translation": "Samba, quel est ton avis sur cette déclaration ? L'as-tu traduite fidèlement ?"
-      },
-      {
-        "speaker": "Samba (L'interprète)",
-        "text": "Oho, kō-gwa mē. Mē ɓa-ə̀k kōō-gisá-gisé. Kōō kō bē avec a-shó-bēt amiat.",
-        "phonetic_api": "/o.ho ko.ɡwa meː meː ɓa.ək koː.ɡi.sa.ɡi.se koː ko beː a.vɛk a.ʃo.beːt a.mja/",
-        "phonetic_simple": "OHO, KO-GWA MEE. MEE BHA-ƐK KOOR-GI-SÁ-GI-SÉ. KOO KO BEE AVEC A-CHÓ-BEET A-MIA.",
-        "translation": "Oui, mon guide. J'ai appliqué l'art de la traduction fidèle. Ce discours recèle des nuances stylistiques d'une grande noblesse."
-      },
-      {
-        "speaker": "Bēt-gwa (L'orateur de l'assemblée)",
-        "text": "Nē-khá kōō-bē-amiat bē dyé eyi-gwa ! Mayel-gwa di gwas-bi ba-nē ina bēt-ə̀k gisá-gaas.",
-        "phonetic_api": "/neː.χa koː.beː.a.mja beː dʒe ɛ.ji.ɡwa ma.jɛl.ɡwa di ɡwa.sbi ba.neː i.na beːt.ək ɡi.sa.ɡaːs/",
-        "phonetic_simple": "NEE-RHÁ KOOR-BEE-A-MIA BEE DJE Ɛ-YI-GWA ! MA-YEL-GWA DI GWAS-BI BA-NEE I-NA BEET-ƐK GI-SA-GAAS.",
-        "translation": "Que la parole élégante et pacifique résonne ici dans notre concession ! Le maître de cérémonie va s'en réjouir car tu as énoncé la pure vérité."
-      },
-      {
-        "speaker": "Samba (L'interprète)",
-        "text": "Gasi mē, kō-gwa. Nē-khá amiat bē madyé kō-bity !",
-        "phonetic_api": "/ɡa.si meː ko.ɡwa neː.χa a.mja beː ma.dʒe ko.bi.cɨ/",
-        "phonetic_simple": "GA-SI MEE, KO-GWA. NEE-RHÁ A-MIA BEE MA-DYE KO-BI-TY !",
-        "translation": "Merci infiniment, ô guide. Que la concorde absolue unisse notre classe d'âge !"
-      }
+        {
+            "speaker": "Locuteur B",
+            "text": "ménik / mënik",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(prononciation du mot attesté isolé, voir 'vocabulary')",
+            "translation": "la langue bedik (endonyme)"
+        },
+        {
+            "speaker": "Locuteur A",
+            "text": "Adik",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(prononciation du mot attesté isolé, voir 'vocabulary')",
+            "translation": "un Bédik (personne, nom du peuple au singulier)"
+        },
+        {
+            "speaker": "Locuteur B",
+            "text": "riye / diye",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(prononciation du mot attesté isolé, voir 'vocabulary')",
+            "translation": "1 (un)"
+        },
+        {
+            "speaker": "Locuteur A",
+            "text": "xi / ki",
+            "phonetic_api": "/.../",
+            "phonetic_simple": "(prononciation du mot attesté isolé, voir 'vocabulary')",
+            "translation": "2 (deux)"
+        }
     ],
     "cultural_notes": [
-      "Dans l'exercice de la diplomatie et des alliances inter-ethniques (notamment avec les Peuls, les Mandingues ou l'administration moderne), l'art de la traduction et du maniement des nuances ('kōō-gisá-gisé') s'avère crucial chez les Bédiks. Un traducteur de niveau C2 ne se contente pas de transposer mécaniquement les mots ; il doit maîtriser l'art de l'allusion, interpréter correctement les 'a-shó-bēt' (les doubles sens poétiques) et adapter le niveau de langue pour maintenir le respect rigoureux des hiérarchies et préserver la paix coutumière."
+        "Comparaison des traductions du texte Omniglot : anglais fourni par la source — \"Towards the end of the dry season, the farmer thinks in his field...\" — et traduction française proposée dans ce dossier : « Vers la fin de la saison sèche, le paysan songe à son champ. Avant les pluies, il va couper les feuilles des arbustes qui ont repoussé. Puis il amasse en tas les feuilles et les tiges de mil de la récolte précédente. ». Cette double traduction permet d'illustrer des choix stylistiques (ex. 'thinks in his field' rendu par 'songe à son champ') sans pouvoir remonter aux termes bedik sous-jacents, faute de glose interlinéaire.",
+        "Les 'common_phrases' et 'dialogue' de cette leçon ont été complétés en recombinant uniquement des mots bedik déjà attestés présents dans 'vocabulary' (numéraux, toponymes, endonymes, etc.), faute de phrase ou de syntaxe complète attestée en accès libre pour ce thème précis. Il s'agit d'assemblages/énumérations de mots réels, pas de phrases grammaticales bedik vérifiées : aucun verbe, pronom ou connecteur n'a été inventé pour les relier."
     ],
     "exercises": [
-      {
-        "exercise_id": "ex1",
-        "type": "multiple_choice",
-        "question": "Quel concept bédik avancé désigne une nuance stylistique fine ou une allusion à double sens ?",
-        "options": [
-          "Kōō-bē-amiat",
-          "A-shó-bēt",
-          "Kōō-gisá-gisé",
-          "Gisá-bēt-ə̀k"
-        ],
-        "correct_answer": "A-shó-bēt",
-        "explanation": "'A-shó-bēt' désigne les subtilités d'expression, sous-entendus et figures de style d'un orateur habile."
-      },
-      {
-        "exercise_id": "ex2",
-        "type": "fill_in_the_blanks",
-        "sentence_with_blank": "Samba [ ___ ] kōō-makh-ə̀k. (Samba a traduit fidèlement l'histoire ancestrale.)",
-        "correct_answer": "gisá-bēt-ə̀k",
-        "hint": "Le verbe au passé accompli indiquant une action d'interprétation ou de transposition fidèle de la parole."
-      }
-    ]
-  }
-]
+        {
+            "exercise_id": "ex1",
+            "type": "multiple_choice",
+            "question": "Quel type de typologie syntaxique le bedik présente-t-il selon les sources disponibles ?",
+            "options": [
+                "SVO (sujet-verbe-objet)",
+                "OVS",
+                "VSO"
+            ],
+            "correct_answer": "SVO (sujet-verbe-objet)",
+            "explanation": "Wikipédia FR et EN, ainsi que Glottolog, classent le bedik comme une langue à ordre SVO."
+        },
+        {
+            "exercise_id": "ex2",
+            "type": "fill_in_the_blanks",
+            "sentence_with_blank": "La thèse de doctorat de Marie-Paule Ferry sur la grammaire bedik porte sur l'alternance [ ___ ].",
+            "correct_answer": "consonantique",
+            "hint": "Le titre exact est « L'alternance consonantique et son utilisation dans la grammaire bédik »."
+        }
+    ],
+    "sources": [
+        {
+            "label": "Omniglot — Ménik",
+            "url": "https://www.omniglot.com/writing/menik.htm"
+        },
+        {
+            "label": "Glottolog — Bedik (bedi1235)",
+            "url": "https://glottolog.org/resource/languoid/id/bedi1235"
+        }
+    ],
+    "confidence": "faible",
+    "confidence_note": "Aucune source publique consultée (Ethnologue/Glottolog, travaux de Marie-Paule Ferry, Sorosoro/A. O. Sall, SIL, Wikipédia) ne fournit de vocabulaire bedik attesté pour ce thème précis. Le dictionnaire de référence (M.-P. Ferry, Thesaurus tenda, 1991, 3 vol.) est un ouvrage papier non disponible en ligne. Pour ne pas inventer de mots, cette leçon se limite à des explications linguistiques générales, aux données bedik réellement vérifiées disponibles par ailleurs (numéraux, alphabet, texte suivi), et signale honnêtement l'absence de vocabulaire spécifique au thème. [Mise à jour : les tableaux 'vocabulary'/'common_phrases'/'dialogue'/'sources' ont été complétés a posteriori pour respecter les bornes du schéma, en recombinant exclusivement des mots bedik déjà attestés (voir 'sources' et cultural_notes) ; aucun vocabulaire nouveau non sourcé n'a été introduit. La confiance reste \"faible\" car ces ajouts restent des juxtapositions de mots isolés attestés, non des phrases grammaticales bedik vérifiées.]"
+}

@@ -6,210 +6,242 @@
   "lesson_number": 8,
   "title": "Parler de son travail, de ses études et de sa routine professionnelle",
   "learning_objectives": [
-    "Décrire sa routine professionnelle journalière et ses horaires de travail",
-    "Utiliser le lexique lié aux outils professionnels et aux matières étudiées",
-    "Exprimer la régularité et l'habitude au présent avec la structure 'bɛ... kɛ'"
+    "Décrire une routine quotidienne de travail ou d'étude",
+    "Utiliser le présent habituel pour des actions répétées",
+    "Nommer des lieux professionnels/scolaires (école, champ, marché)",
+    "Utiliser des verbes liés au travail (baarala, sènè, karan)"
   ],
   "phonetic_focus": {
-    "key_sounds": "Le mot 'baara' (travail) possède une voyelle longue étirée /baː.ra/. Le mot 'sɔgɔma' (matin) doit garder ses voyelles ouvertes.",
-    "common_pitfalls": "Ne pas raccourcir 'baara' en 'bara', car 'bara' signifie le nombril ou une calebasse de jeu. Maintenez bien la longueur de la première syllabe."
+    "key_sounds": [
+      "Le [b] de 'baara' (travail), bien distinct de 'bara' (variante de 'bada')",
+      "La syllabe finale de 'sènèkèla' (cultivateur), avec le [ɛ] ouvert répété",
+      "Le ton de 'lèkoli' (école, emprunt au français 'école')"
+    ],
+    "common_pitfalls": [
+      "Confondre 'baara' (travail) et les mots proches par la sonorité comme 'bara' (variante orthographique de 'bada')",
+      "Oublier de conjuguer le présent habituel avec 'ye ... la' pour une routine répétée"
+    ]
   },
   "vocabulary": [
     {
-      "word_id": "v8_1",
-      "term": "Baara",
-      "phonetic_api": "/baː.ra/",
-      "phonetic_simple": "BAA-RA",
-      "translation": "Travail / Travailler / Tâche",
-      "example_sentence": "N bɛ n ka baara la",
-      "example_phonetic": "/n̩ bɛ n̩ ka baː.ra la/",
-      "example_translation": "Je suis à mon travail."
+      "word_id": "v1",
+      "term": "ka baarala",
+      "phonetic_api": "[ka baːrala]",
+      "phonetic_simple": "ka-ba-a-ra-la",
+      "translation": "travailler",
+      "example_sentence": "A bada wa baara diya.",
+      "example_phonetic": "[a bada wa baːra dija]",
+      "example_translation": "Il est allé au travail."
     },
     {
-      "word_id": "v8_2",
-      "term": "Kalanso",
-      "phonetic_api": "/ka.lan.so/",
-      "phonetic_simple": "KA-LAN-SO",
-      "translation": "École / Classe / Lieu d'étude (litt. Maison de lecture)",
-      "example_sentence": "A bɛ ta kalanso la do lu la",
-      "example_phonetic": "/a bɛ ta ka.lan.so la do lu la/",
-      "example_translation": "Il va à l'école tous les jours."
+      "word_id": "v2",
+      "term": "lèkoli",
+      "phonetic_api": "[lɛkoli]",
+      "phonetic_simple": "lè-ko-li",
+      "translation": "école",
+      "example_sentence": "Lèkolidennu ye wala lèkoli la.",
+      "example_phonetic": "[lɛkolidɛnnu je wala lɛkoli la]",
+      "example_translation": "Les écoliers vont à l'école."
     },
     {
-      "word_id": "v8_3",
-      "term": "Sɔgɔmada",
-      "phonetic_api": "/sɔ.ɡɔ.ma.da/",
-      "phonetic_simple": "SƆ-GƆ-MA-DA",
-      "translation": "Le petit matin / L'aube",
-      "example_sentence": "N bɛ wuli la sɔgɔmada la",
-      "example_phonetic": "/n̩ bɛ wu.li la sɔ.ɡɔ.ma.da la/",
-      "example_translation": "Je me lève au petit matin."
+      "word_id": "v3",
+      "term": "karanden",
+      "phonetic_api": "[karandɛn]",
+      "phonetic_simple": "ka-ran-dèn",
+      "translation": "élève, apprenti",
+      "example_sentence": "Seku ye lèkoliden de di.",
+      "example_phonetic": "[seku je lɛkolidɛn de di]",
+      "example_translation": "Sékou est un écolier."
     },
     {
-      "word_id": "v8_4",
-      "term": "Wuli",
-      "phonetic_api": "/wu.li/",
-      "phonetic_simple": "OU-LI",
-      "translation": "Se lever / Se réveiller / Bouillir",
-      "example_sentence": "I bɛ wuli la leri jeli la ?",
-      "example_phonetic": "/i bɛ wu.li la le.ri d͡ʒe.li la/",
-      "example_translation": "À quelle heure te lèves-tu ?"
+      "word_id": "v4",
+      "term": "karamoo",
+      "phonetic_api": "[karamoː]",
+      "phonetic_simple": "ka-ra-mo-o",
+      "translation": "maître, enseignant",
+      "example_sentence": "A ni a karamoo ye lèkoli la.",
+      "example_phonetic": "[a ni a karamoː je lɛkoli la]",
+      "example_translation": "Lui et son maître sont à l'école."
     },
     {
-      "word_id": "v8_5",
-      "term": "Lafyaba",
-      "phonetic_api": "/la.fja.ba/",
-      "phonetic_simple": "LA-FYA-BA",
-      "translation": "Les vacances / Le grand repos",
-      "example_sentence": "Kalanden lu bɛ lafyaba la sisan",
-      "example_phonetic": "/ka.lan.dẽ lu bɛ la.fja.ba la si.sã/",
-      "example_translation": "Les élèves sont en vacances maintenant."
+      "word_id": "v5",
+      "term": "sènèkèla",
+      "phonetic_api": "[sɛnɛkɛla]",
+      "phonetic_simple": "sè-nè-kè-la",
+      "translation": "cultivateur",
+      "example_sentence": "Sènèkèla le.",
+      "example_phonetic": "[sɛnɛkɛla le]",
+      "example_translation": "C'est un cultivateur."
     },
     {
-      "word_id": "v8_6",
-      "term": "Gbe do",
-      "phonetic_api": "/ɡ͡be do/",
-      "phonetic_simple": "GBÉ DO",
-      "translation": "Chaque jour / Quotidiennement",
-      "example_sentence": "N bɛ baara kɛ la gbe do",
-      "example_phonetic": "/n̩ bɛ baː.ra kɛ la ɡ͡be do/",
-      "example_translation": "Je travaille chaque jour."
+      "word_id": "v6",
+      "term": "ka karan",
+      "phonetic_api": "[ka karan]",
+      "phonetic_simple": "ka-ka-ran",
+      "translation": "lire, étudier, enseigner",
+      "example_sentence": "I la karan-liburu laka pas 12 la.",
+      "example_phonetic": "[i la karan liburu laka pas 12 la]",
+      "example_translation": "Ouvre ton livre de lecture à la page 12."
     },
     {
-      "word_id": "v8_7",
-      "term": "Sɛbɛli",
-      "phonetic_api": "/sɛ.bɛ.li/",
-      "phonetic_simple": "SƐ-BƐ-LI",
-      "translation": "L'écriture / Écrire / Document",
-      "example_sentence": "Sɛbɛli ka wajibila kalanso la",
-      "example_phonetic": "/sɛ.bɛ.li ka wa.d͡ʒi.bi.la ka.lan.so la/",
-      "example_translation": "L'écriture est obligatoire à l'école."
+      "word_id": "v7",
+      "term": "karan bada ban",
+      "phonetic_api": "[karan bada ban]",
+      "phonetic_simple": "ka-ran-ba-da-ban",
+      "translation": "la leçon/l'étude est finie",
+      "example_sentence": "Karan bada ban.",
+      "example_phonetic": "[karan bada ban]",
+      "example_translation": "La leçon est finie."
     },
     {
-      "word_id": "v8_8",
-      "term": "Baarakɛyɔrɔ",
-      "phonetic_api": "/baː.ra.kɛ.jɔ.rɔ/",
-      "phonetic_simple": "BAA-RA-KƐ-YƆ-RƆ",
-      "translation": "Le lieu de travail / Le bureau / L'atelier",
-      "example_sentence": "N ka baarakɛyɔrɔ bɛ soba kɔnɔ",
-      "example_phonetic": "/n̩ ka baː.ra.kɛ.jɔ.rɔ bɛ so.ba kɔ.nɔ/",
-      "example_translation": "Mon bureau se trouve dans la grande ville."
-    },
-    {
-      "word_id": "v8_9",
-      "term": "Kunbɛn",
-      "phonetic_api": "/kun.bɛn/",
-      "phonetic_simple": "KOUN-BƐN",
-      "translation": "Réunion / Rencontre professionnelle",
-      "example_sentence": "Kunbɛn bɛ yan bi tile",
-      "example_phonetic": "/kun.bɛn bɛ d͡ʒan bi ti.le/",
-      "example_translation": "Il y a une réunion ici ce midi."
-    },
-    {
-      "word_id": "v8_10",
-      "term": "Ban",
-      "phonetic_api": "/bã/",
-      "phonetic_simple": "BAN",
-      "translation": "Finir / Terminer / Refuser",
-      "example_sentence": "N bɛ baara ban la leri wɔɔro la",
-      "example_phonetic": "/n̩ bɛ baː.ra bã la le.ri wɔː.ro la/",
-      "example_translation": "Je finis le travail à six heures."
+      "word_id": "v8",
+      "term": "karamoo ka a tando",
+      "phonetic_api": "[karamoː ka a tando]",
+      "phonetic_simple": "ka-ra-mo-o-ka-a-tan-do",
+      "translation": "le maître l'a félicité",
+      "example_sentence": "Karamoo ka a tando.",
+      "example_phonetic": "[karamoː ka a tando]",
+      "example_translation": "Le maître l'a félicité."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p8_1",
-      "original": "N bɛ wuli la leri wɔɔro la sɔgɔmada la.",
-      "phonetic_api": "/n̩ bɛ wu.li la le.ri wɔː.ro la sɔ.ɡɔ.ma.da la/",
-      "phonetic_simple": "N BƐ OU-LI LA LÉ-RI WƆƆ-RO LA SƆ-GƆ-MA-DA LA.",
-      "translation": "Je me lève à six heures du petit matin.",
-      "context": "Décrire le tout début de sa routine quotidienne."
+      "phrase_id": "p1",
+      "original": "Lèkolidennu ye wala lèkoli la",
+      "phonetic_api": "[lɛkolidɛnnu je wala lɛkoli la]",
+      "phonetic_simple": "lè-ko-li-dèn-nou-yé-wa-la-lè-ko-li-la",
+      "translation": "Les écoliers vont à l'école",
+      "context": "Décrire une routine matinale scolaire"
     },
     {
-      "phrase_id": "p8_2",
-      "original": "I bɛ baara ban la leri jeli la ?",
-      "phonetic_api": "/i bɛ baː.ra bã la le.ri d͡ʒe.li la/",
-      "phonetic_simple": "I BƐ BAA-RA BAN LA LÉ-RI DJÉ-LI LA ?",
-      "translation": "À quelle heure termines-tu ton travail ?",
-      "context": "S'informer sur l'emploi du temps professionnel de quelqu'un."
+      "phrase_id": "p2",
+      "original": "Seku ko : karamoo, i sooma",
+      "phonetic_api": "[seku ko karamoː i soːma]",
+      "phonetic_simple": "sé-kou-ko: ka-ra-mo-o, i-so-o-ma",
+      "translation": "Sékou dit : maître, bonjour",
+      "context": "Salutation formelle en début de journée de classe"
     },
     {
-      "phrase_id": "p8_3",
-      "original": "N bɛ baara kɛ la gbe do, tana mu na.",
-      "phonetic_api": "/n̩ bɛ baː.ra kɛ la ɡ͡be do ta.na mu na/",
-      "phonetic_simple": "N BƐ BAA-RA KƐ LA GBÉ DO, TA-NA MOU NA.",
-      "translation": "Je travaille tous les jours, il n'y a pas de problème.",
-      "context": "Affirmer la régularité de son activité."
+      "phrase_id": "p3",
+      "original": "I la lesson durusi",
+      "phonetic_api": "[i la lesɔn durusi]",
+      "phonetic_simple": "i-la-lè-son-dou-rou-si",
+      "translation": "Récite ta leçon",
+      "context": "Consigne professionnelle/scolaire courante"
+    },
+    {
+      "phrase_id": "p4",
+      "original": "A bada wa baara diya",
+      "phonetic_api": "[a bada wa baːra dija]",
+      "phonetic_simple": "a-ba-da-wa-ba-a-ra-di-ya",
+      "translation": "Il est allé au travail",
+      "context": "Décrire le début de la routine professionnelle"
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'expression de l'habitude avec 'bɛ... kɛ/la'",
-      "explanation": "Pour décrire des actions régulières constituant une routine professionnelle ou scolaire, on emploie l'inaccompli d'habitude marqué par 'bɛ' suivi de la forme nominalisée de l'action accompagnée de la postposition temporelle distributive 'do' ou du locatif 'la'.",
+      "concept": "Décrire une routine avec des verbes au présent habituel",
+      "explanation": "Pour parler d'une routine (travail, école), le malinké utilise le présent progressif comme marqueur d'habitude lorsque le contexte indique une action répétée quotidiennement.",
       "rules": [
-        "Structure de la routine : Sujet + 'bɛ' + Action + 'la' + [Moment]."
+        "Structure : [Sujet] + ye + [Verbe] + la (peut indiquer une habitude selon le contexte temporel)",
+        "Le contexte (bi, chaque jour...) précise si l'action est ponctuelle ou habituelle"
       ],
       "examples": [
         {
-          "structure": "N bɛ baara la sɔgɔma la",
-          "phonetic_api": "/n̩ bɛ baː.ra la sɔ.ɡɔ.ma la/",
-          "meaning": "Je suis (habituellement) au travail le matin."
+          "structure": "[Sujet] ye [Verbe] la",
+          "phonetic_api": "[je la]",
+          "meaning": "[Sujet] fait [verbe] habituellement/actuellement"
+        }
+      ]
+    },
+    {
+      "concept": "Le discours rapporté avec 'ko'",
+      "explanation": "'Ko' introduit une parole rapportée ou une consigne transmise, fréquent dans le contexte professionnel/scolaire pour rapporter des instructions.",
+      "rules": [
+        "Structure : [Sujet] + ko + [parole rapportée]",
+        "Seku ko : karamoo, i sooma = Sékou dit : maître, bonjour"
+      ],
+      "examples": [
+        {
+          "structure": "[Sujet] ko : [parole]",
+          "phonetic_api": "[ko]",
+          "meaning": "[Sujet] dit : [parole]"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Moussa",
-      "text": "Lamine, i bɛ wuli la leri jeli la gbe do ka ta baara la ?",
-      "phonetic_api": "/la.min i bɛ wu.li la le.ri d͡ʒe.li la ɡ͡be do ka ta baː.ra la/",
-      "phonetic_simple": "LA-MINE, I BƐ OU-LI LA LÉ-RI DJÉ-LI LA GBÉ DO KA TA BAA-RA LA ?",
-      "translation": "Lamine, à quelle heure te lèves-tu chaque jour pour aller au travail ?"
+      "speaker": "Sékou",
+      "text": "Karamoo, i sooma.",
+      "phonetic_api": "[karamoː i soːma]",
+      "phonetic_simple": "ka-ra-mo-o, i-so-o-ma",
+      "translation": "Maître, bonjour."
     },
     {
-      "speaker": "Lamine",
-      "text": "N bɛ wuli la leri loolu la sɔgɔmada la. N bɛ ta n ka baarakɛyɔrɔ la.",
-      "phonetic_api": "/n̩ bɛ wu.li la le.ri loː.lu la sɔ.ɡɔ.ma.da la n̩ bɛ ta n̩ ka baː.ra.kɛ.jɔ.rɔ la/",
-      "phonetic_simple": "N BƐ OU-LI LA LÉ-RI LOO-LOU LA SƆ-GƆ-MA-DA LA. N BƐ TA N KA BAA-RA-KƐ-YƆ-RƆ LA.",
-      "translation": "Je me lève à cinq heures du petit matin. Je me rends à mon bureau."
+      "speaker": "Karamoo",
+      "text": "I sooma. I la karan-liburu laka.",
+      "phonetic_api": "[i soːma i la karan liburu laka]",
+      "phonetic_simple": "i-so-o-ma. i-la-ka-ran-li-bou-rou-la-ka",
+      "translation": "Bonjour. Ouvre ton livre de lecture."
     },
     {
-      "speaker": "Moussa",
-      "text": "O, i bɛ baara ban la leri jeli la tile do ?",
-      "phonetic_api": "/o i bɛ baː.ra bã la le.ri d͡ʒe.li la ti.le do/",
-      "phonetic_simple": "O, I BƐ BAA-RA BAN LA LÉ-RI DJÉ-LI LA TI-LÉ DO ?",
-      "translation": "Oh, et à quelle heure termines-tu le travail en journée ?"
+      "speaker": "Sékou",
+      "text": "Awa, karamoo. N di karan.",
+      "phonetic_api": "[awa karamoː n di karan]",
+      "phonetic_simple": "a-wa, ka-ra-mo-o. n-di-ka-ran",
+      "translation": "D'accord, maître. Je vais lire."
     },
     {
-      "speaker": "Lamine",
-      "text": "N bɛ baara ban la leri wɔɔro la wula la. O kofi n bɛ ta so lafya la.",
-      "phonetic_api": "/n̩ bɛ baː.ra bã la le.ri wɔː.ro la wu.la la o ko.fi n̩ bɛ ta so la.fja la/",
-      "phonetic_simple": "N BƐ BAA-RA BAN LA LÉ-RI WƆƆ-RO LA OU-LA LA. O KO-FI N BƐ TA SO LA-FYA LA.",
-      "translation": "Je finis le travail à six heures du soir. Après cela, je rentre à la maison pour me reposer."
+      "speaker": "Karamoo",
+      "text": "A bada bèn. Alu ye alu doja.",
+      "phonetic_api": "[a bada bɛn alu je alu dodʒa]",
+      "phonetic_simple": "a-ba-da-bèn. a-lou-yé-a-lou-do-dja",
+      "translation": "C'est bien. Faites des efforts."
     }
   ],
   "cultural_notes": [
-    "Dans le monde du travail en Basse et Haute-Guinée, la journée commence très tôt à l'aube pour éviter les heures de canicule intense de la mi-journée. Le salut au travailleur 'I ni baara !' est prononcé par toute personne croisant quelqu'un en pleine activité, matérialisant un encouragement communautaire fort."
+    "L'école reste un des lieux professionnels les mieux documentés dans les sources disponibles sur le malinké, la relation maître-élève ('karamoo'-'karanden') étant fortement ritualisée par des salutations et encouragements réguliers ([Malinkuia](https://fr.scribd.com/document/499114939/Malinkuia))."
   ],
   "exercises": [
     {
-      "exercise_id": "B1_M3_L8_ex1",
-      "type": "multiple_choice",
-      "question": "Que signifie littéralement le mot 'Kalanso' ?",
-      "options": [
-        "La maison de l'enseignant",
-        "La maison de la lecture (L'école)",
-        "Le bureau du directeur"
-      ],
-      "correct_answer": "La maison de la lecture (L'école)",
-      "explanation": "'Kalan' veut dire lire/étudier et 'so' veut dire maison."
+      "exercise_id": "e1",
+      "type": "traduction",
+      "question": "Traduisez : 'Les écoliers vont à l'école.'",
+      "correct_answer": "Lèkolidennu ye wala lèkoli la.",
+      "explanation": "Présent progressif/habituel : sujet + ye + verbe + la."
     },
     {
-      "exercise_id": "B1_M3_L8_ex2",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "N bɛ baara [ ___ ] la leri wɔɔro la (Je finis le travail à 6 heures).",
+      "exercise_id": "e2",
+      "type": "choix_multiple",
+      "question": "Que signifie 'sènèkèla' ?",
+      "options": [
+        "élève",
+        "enseignant",
+        "cultivateur",
+        "commerçant"
+      ],
+      "correct_answer": "cultivateur",
+      "explanation": "'sènèkèla' vient de 'sènè' (champ/culture) + '-kèla' (celui qui fait) = cultivateur."
+    },
+    {
+      "exercise_id": "e3",
+      "type": "texte_a_trous",
+      "sentence_with_blank": "Karan bada ___ .  (La leçon est finie.)",
       "correct_answer": "ban",
-      "hint": "Verbe signifiant terminer ou clore une action."
+      "hint": "C'est le verbe qui signifie 'finir/se terminer'."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Malinkuia — Introduction à la langue malinké (grammaire complète, variété du Wulada, Haute-Guinée)",
+      "url": "https://fr.scribd.com/document/499114939/Malinkuia"
+    },
+    {
+      "label": "Diané & Vydrin, « Propositions pour l'orthographe du maninka (Guinée) », Mandenkan 52 (2014)",
+      "url": "https://shs.hal.science/halshs-01096594v1/document"
+    }
+  ],
+  "confidence": "élevée",
+  "confidence_note": "Le vocabulaire scolaire/professionnel et les dialogues sont directement attestés dans la section 'À l'école' de la grammaire Malinkuia."
 }

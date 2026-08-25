@@ -1,150 +1,205 @@
 {
-  "lesson_id": "C2_M3_L7",
+  "lesson_id": "C1_M3_L7",
   "level": "Avancé (C1-C2)",
   "module_number": 3,
   "module_title": "Maîtrise totale",
   "lesson_number": 7,
   "title": "Comprendre et analyser des textes littéraires ou historiques",
   "learning_objectives": [
-    "Analyser la structure narrative des récits de fondation et des épopées historiques",
-    "Identifier les archaïsmes grammaticaux préservés dans les chroniques orales",
-    "Restituer fidèlement l'arborescence généalogique et historique d'un clan Bassari"
+    "Analyser la structure grammaticale d'une phrase-exemple longue tirée d'un texte académique",
+    "Identifier les 16-19 classes nominales comme clé de lecture d'un texte suivi",
+    "Situer l'oniyan dans son histoire de documentation académique (Ferry, SIL, INALCO)"
   ],
   "phonetic_focus": {
-    "key_sounds": "L'analyse historique nécessite l'emploi du terme 'gəwə́ra kəbə̂' (l'histoire du village jadis). La fricative glottale sourde /h/ ou les occlusives complexes du passé lointain doivent être articulées sans modification de la hauteur tonale.",
-    "common_pitfalls": "Attention à ne pas moderniser la prononciation des préfixes de classes archaïques présents dans les récits de fondation. Respecter ces formes anciennes préserve l'authenticité historique du récit.",
-    "vocabulary": [
-      {
-        "word_id": "v101",
-        "term": "gəwə́ra kəbə̂",
-        "phonetic_api": "/gəwə́ra kəɓə̂/",
-        "phonetic_simple": "GE-WE-RA KE-BHE",
-        "translation": "la chronique historique / le récit des temps anciens / la fondation",
-        "example_sentence": "Məgaw gəwə́ra kəbə̂ fə́ siki.",
-        "example_phonetic": "/məɡaw ɡgəwə́ra kəɓə̂ fə́ siki/",
-        "example_translation": "Je recueille le récit de la fondation ancienne de notre cité."
-      },
-      {
-        "word_id": "v102",
-        "term": "kəfɔ̂w",
-        "phonetic_api": "/kəfɔ̂w/",
-        "phonetic_simple": "KE-FOW",
-        "translation": "la lignée paternelle / le clan constitutionnel / la branche familiale",
-        "example_sentence": "Kəfɔ̂w mɔ oŋ fatǎ fə́ siki.",
-        "example_phonetic": "/kəfɔ̂w mɔ oŋ fatǎ fə́ siki/",
-        "example_translation": "Mon clan paternel est établi à proximité du village historique."
-      },
-      {
-        "word_id": "v103",
-        "term": "gəkã́ dyɛ́ɛ̀",
-        "phonetic_api": "/gəkã́ ɟɛ́ː/",
-        "phonetic_simple": "GE-KAN DYEE",
-        "translation": "l'épopée littéraire / la grande parole historique sacrée",
-        "example_sentence": "ɓâ mɔ oŋ ɓila gəkã́ dyɛ́ɛ̀.",
-        "example_phonetic": "/ɓâ mɔ oŋ ɓila ɡəkã́ ɟɛ́ː/",
-        "example_translation": "Mon père récite la grande épopée historique de notre peuple."
-      },
-      {
-        "word_id": "v104",
-        "term": "ɔwá kəbə̂",
-        "phonetic_api": "/ɔwá kəɓə̂/",
-        "phonetic_simple": "O-WA KE-BHE",
-        "translation": "l'ancêtre fondateur / le premier né de la lignée historique",
-        "example_sentence": "ɔwá kəbə̂ oŋ bã siki mɔ.",
-        "example_phonetic": "/ɔwá kəɓə̂ oŋ ɓã siki mɔ/",
-        "example_translation": "L'ancêtre fondateur a tracé les contours de notre village."
-      }
-    ],
-    "common_phrases": [
-      {
-        "phrase_id": "p189",
-        "original": "Məbəgá kəkərã gəwə́ra kəbə̂ bəliyan.",
-        "phonetic_api": "/məɓəɡá kəkərã ɡgəwə́ra kəɓə̂ ɓəljan/",
-        "phonetic_simple": "ME-BHE-GA KE-KE-RAN GE-WE-RA KE-BHE BHE-LI-YAN",
-        "translation": "J'ambitionne d'étudier en profondeur les chroniques historiques du peuple Bassari.",
-        "context": "Exposer un projet de recherche linguistique ou mémoriel à un sage."
-      },
-      {
-        "phrase_id": "p190",
-        "original": "Kəfɔ̂w kɔ̂ oŋ fɔ́ nɛ̂ ləfɔ́ bɛ̀ɛ̀ kəbə̂.",
-        "phonetic_api": "/kəfɔ̂w kɔ̂ oŋ fɔ́ nɛ̂ ləfɔ́ bɛ̀ː kəɓə̂/",
-        "phonetic_simple": "KE-FOW KO ONG FO NE LE-FO BEE KE-BHE",
-        "translation": "Cette lignée clanique a préservé sa parfaite droiture morale depuis les temps anciens.",
-        "context": "Valider la respectabilité d'un clan lors de négociations foncières ou d'alliances."
-      },
-      {
-        "phrase_id": "p191",
-        "original": "Gəkã́ dyɛ́ɛ̀ oŋ ɓila ləfɔ́ fə́ siki.",
-        "phonetic_api": "/gəkã́ ɟɛ́ː oŋ ɓila ləfɔ́ fə́ siki/",
-        "phonetic_simple": "GE-KAN DYEE ONG BHI-LA LE-FO FE SI-KI",
-        "translation": "La grande épopée littéraire relate fidèlement la genèse de notre agglomération.",
-        "context": "Introduire une veillée de transmission historique."
-      },
-      {
-        "phrase_id": "p192",
-        "original": "Nə́ kəgaw ɔwá kəbə̂, bəɟwɛ̂ bɛ̀ɛ̀.",
-        "phonetic_api": "/nə́ kəɡaw ɔwá kəɓə̂ ɓəɟwɛ̂ bɛ̀ː/",
-        "phonetic_simple": "NE KE-GAW O-WA KE-BHE, BHE-DYWE BEE",
-        "translation": "Si tu suis les préceptes de l'ancêtre fondateur, tes œuvres prospéreront.",
-        "context": "Donner une orientation morale supérieure à un jeune initié."
-      }
-    ],
-    "grammar_points": [
-      {
-        "concept": "L'analyse des morphèmes de mise en relief des récits anciens",
-        "explanation": "Les textes historiques et littéraires en Oniyan se caractérisent par l'emploi du focalisateur d'ancienneté 'kəbə̂' directement soudé aux substantifs de classe pour créer des termes conceptuels sacrés. Le système de subordination combine des subordonnées temporelles imbriquées et un rejet systématique des pronoms de la langue vernaculaire moderne.",
-        "rules": [
-          "Le suffixe d'ancienneté 'kəbə̂' modifie le ton du substantif régisseur qui adopte une courbe mélodique descendante.",
-          "Les propositions relatives historiques intègrent le marqueur de classe d'origine du sujet, même si celui-ci a disparu de la langue parlée quotidienne."
-        ],
-        "examples": [
-          {
-            "structure": "[Nom de classe] + [Marqueur de passé figé] + [Verbe d'état]",
-            "phonetic_api": "/ɔwá kəɓə̂ oŋ ɓã/",
-            "meaning": "Le premier père de la lignée instaura la loi"
-          }
-        ]
-      }
-    ],
-    "dialogue": [
-      {
-        "speaker": "L'historien du siki",
-        "text": "Kəgaw gwa. Fəwɔ́ ɛ́ɛ́n, məbəgá kəɓila gəkã́ dyɛ́ɛ̀ fə́ kəfɔ̂w mɔ. ɔwá kəbə̂ oŋ fɔ́ fə́ siki.",
-        "phonetic_api": "/kəɡaw ɡwa fəwɔ́ ɛ́ːn məɓəɡá kəɓila ɡəkã́ ɟɛ́ː fə́ kəfɔ̂w mɔ ɔwá kəɓə̂ oŋ fɔ́ fə́ siki/",
-        "phonetic_simple": "KE-GAW GWA. FE-WO EEN, ME-BHE-GA KE-BHI-LA GE-KAN DYEE FE KE-FOW MO. O-WA KE-BHE ONG FO FE SI-KI",
-        "translation": "Écoutez avec ferveur. En premier lieu, je vais déclamer la grande épopée historique de mon clan. Notre ancêtre fondateur s'établit en ces lieux sacrés."
-      },
-      {
-        "speaker": "Le chercheur",
-        "text": "Nyarancaa. Məñwáá gəwə́ra kəbə̂ bə̂ bɛ̀ɛ̀. Kɔ̂ oŋ oŋ ləfɔ́ bɛ̀ɛ̀ gwa pə́ mɔ.",
-        "phonetic_api": "/ɲarant͡ʃaː məɲwáː ɡgəwə́ra kəɓə̂ ɓə̂ bɛ̀ː kɔ̂ oŋ oŋ ləfɔ́ bɛ̀ː ɡwa pə́ mɔ/",
-        "phonetic_simple": "NYA-RAN-TCHAA. ME-NYWAA GE-WE-RA KE-BHE BHE BEE. KO ONG ONG LE-FO BEE GWA PE MO",
-        "translation": "Je vous remercie. Je saisis parfaitement toute la richesse de votre chronique ancienne. C'est pour moi une source de savoir inestimable."
-      }
-    ],
-    "cultural_notes": [
-      "Chez les Bassaris, l'histoire n'est pas consignée dans des manuels, mais gravée dans la mémoire des généalogistes attitrés de chaque clan ('kəfɔ̂w'). Connaître le récit de fondation ('gəwə́ra kəbə̂') et citer le nom des ancêtres fondateurs est obligatoire pour revendiquer des droits fonciers ou accéder aux grades supérieurs de la chefferie traditionnelle en Guinée."
-    ],
-    "exercises": [
-      {
-        "exercise_id": "ex49",
-        "type": "multiple_choice",
-        "question": "Quel terme Oniyan désigne la lignée clanique paternelle ou la branche familiale ?",
-        "options": [
-          "gəkã́",
-          "kəfɔ̂w",
-          "ɔbʉ̂"
-        ],
-        "correct_answer": "kəfɔ̂w",
-        "explanation": "'kəfɔ̂w' fait référence à la structure clanique patrilinéaire qui détermine l'appartenance sociale de chaque individu."
-      },
-      {
-        "exercise_id": "ex50",
-        "type": "fill_in_the_blanks",
-        "sentence_with_blank": "ɔwá [ ___ ] oŋ bã siki mɔ (L'ancêtre fondateur a établi les fondements de notre village).",
-        "correct_answer": "kəbə̂",
-        "hint": "Le morphème de cadrage historique renvoyant au passé lointain et immuable."
-      }
-    ]
-  }
+    "key_sounds": "La lecture d'un texte suivi en oniyan exige de repérer les tons (registres haut/bas, tons flottants) décrits par l'analyse INALCO, même si l'orthographe pratique courante (SIL) ne les note pas systématiquement — un défi majeur pour l'analyse de textes écrits.",
+    "common_pitfalls": "Un lecteur avancé francophone risque de traiter chaque mot isolément ; en oniyan, l'analyse d'un texte suppose de suivre les chaînes d'accord de classe nominale (préfixes/suffixes) sur plusieurs phrases pour restituer la cohérence référentielle du texte."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "opanac",
+      "phonetic_api": "/opanak/",
+      "phonetic_simple": "O-PA-NAK",
+      "translation": "jeune homme (sujet d'une phrase-exemple analysée en classe)",
+      "example_sentence": "Opanac ojëgwe çambënjarin yël këŋo itoxiŋ?",
+      "example_phonetic": "/opanak oɟəgwe tʃambənɟarin ʄəl kəŋo itoxiŋ/",
+      "example_translation": "Combien de chevaux le jeune homme a-t-il donné à l'enfant ?"
+    },
+    {
+      "word_id": "v2",
+      "term": "itox",
+      "phonetic_api": "/itox/",
+      "phonetic_simple": "I-TOH",
+      "translation": "enfant (complément de la même phrase-exemple)",
+      "example_sentence": "itoxiŋ",
+      "example_phonetic": "/itoxiŋ/",
+      "example_translation": "à l'enfant (forme fléchie attestée dans la phrase-exemple)."
+    },
+    {
+      "word_id": "vx17",
+      "term": "fanac",
+      "phonetic_api": "/fanak/",
+      "phonetic_simple": "FA-NAK",
+      "translation": "cheval",
+      "example_sentence": "Opanac ojëgwe çambënjarin yël këŋo itoxiŋ?",
+      "example_phonetic": "/opanak oɟəgwe tʃambənɟarin ʄəl kəŋo itoxiŋ/",
+      "example_translation": "Combien de chevaux le jeune homme a-t-il donné à l'enfant ?"
+    },
+    {
+      "word_id": "vx3",
+      "term": "mëŋ",
+      "phonetic_api": "/məŋ/",
+      "phonetic_simple": "MËNG",
+      "translation": "il/elle, lui (pronom indépendant 3sg)",
+      "example_sentence": "mëŋ",
+      "example_phonetic": "/məŋ/",
+      "example_translation": "lui/elle."
+    },
+    {
+      "word_id": "vx10",
+      "term": "anang",
+      "phonetic_api": "/anaŋ/",
+      "phonetic_simple": "A-NANG",
+      "translation": "savoir, connaître (verbe)",
+      "example_sentence": "anang",
+      "example_phonetic": "/anaŋ/",
+      "example_translation": "savoir, connaître."
+    },
+    {
+      "word_id": "vx21",
+      "term": "gë",
+      "phonetic_api": "/gə/",
+      "phonetic_simple": "GË",
+      "translation": "avec (préposition/connecteur)",
+      "example_sentence": "Mërëxand ir faba gë nëma.",
+      "example_phonetic": "/mərəxand ir faba gə nəma/",
+      "example_translation": "Entre le père et la mère."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Opanac ojëgwe çambënjarin yël këŋo itoxiŋ?",
+      "phonetic_api": "/opanak oɟəgwe tʃambənɟarin ʄəl kəŋo itoxiŋ/",
+      "phonetic_simple": "O-PA-NAK O-DJË-GOUÉ TCHAM-BËN-DJA-RIN YËL KË-NGO I-TO-HING",
+      "translation": "Combien de chevaux le jeune homme a-t-il donné à l'enfant ?",
+      "context": "Phrase-exemple longue, idéale pour l'analyse morphologique détaillée (accord de classe sur plusieurs constituants)."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Iyo.",
+      "phonetic_api": "/ijo/",
+      "phonetic_simple": "I-YO",
+      "translation": "Oui.",
+      "context": "Réponse affirmative générale, réutilisable dans toute conversation."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "O-oye.",
+      "phonetic_api": "/o.oje/",
+      "phonetic_simple": "O-O-YÉ",
+      "translation": "Non.",
+      "context": "Réponse négative générale, réutilisable dans toute conversation."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Awa.",
+      "phonetic_api": "/awa/",
+      "phonetic_simple": "A-OUA",
+      "translation": "D'accord / Bien.",
+      "context": "Marque d'accord ou de validation, utile pour conclure un échange."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Lecture analytique par les classes nominales",
+      "explanation": "Pour analyser un texte oniyan, il faut repérer sur chaque nom son préfixe de classe et suivre comment les modificateurs (numéraux, démonstratifs, relatifs) s'accordent à cette classe à travers la phrase, y compris dans les compléments obliques comme itoxiŋ (« à l'enfant », avec une marque casuelle/locative attestée).",
+      "rules": [
+        "Chaque nom porte un préfixe de classe qui doit être identifié pour comprendre les accords environnants.",
+        "Les marques casuelles ou locatives (comme le -ŋ final de itoxiŋ) peuvent s'ajouter au nom fléchi selon sa fonction dans la phrase."
+      ],
+      "examples": [
+        {
+          "structure": "Opanac ojëgwe çambënjarin yël këŋo itoxiŋ?",
+          "phonetic_api": "/opanak oɟəgwe tʃambənɟarin ʄəl kəŋo itoxiŋ/",
+          "meaning": "Combien de chevaux le jeune homme a-t-il donné à l'enfant ?"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Enseignant",
+      "text": "Opanac ojëgwe çambënjarin yël këŋo itoxiŋ?",
+      "phonetic_api": "/opanak oɟəgwe tʃambənɟarin ʄəl kəŋo itoxiŋ/",
+      "phonetic_simple": "O-PA-NAK O-DJË-GOUÉ...",
+      "translation": "Combien de chevaux le jeune homme a-t-il donné à l'enfant ? (phrase à analyser)"
+    },
+    {
+      "speaker": "Étudiant",
+      "text": "Itoxiŋ ex complément indirect, opanac ex sujet.",
+      "phonetic_api": "—",
+      "phonetic_simple": "—",
+      "translation": "« itoxiŋ » est le complément indirect, « opanac » est le sujet (commentaire métalinguistique de l'étudiant, en registre mixte)."
+    },
+    {
+      "speaker": "Locuteur A",
+      "text": "Awa?",
+      "phonetic_api": "/awa/",
+      "phonetic_simple": "A-OUA ?",
+      "translation": "D'accord ?"
+    },
+    {
+      "speaker": "Locuteur B",
+      "text": "Iyo, awa.",
+      "phonetic_api": "/ijo awa/",
+      "phonetic_simple": "I-YO, A-OUA",
+      "translation": "Oui, d'accord."
+    }
+  ],
+  "cultural_notes": [
+    "La documentation académique de l'oniyan reste rare : les travaux principaux sont ceux de Marie-Paule Ferry (publications de 1968 à 1991, dont le Thesaurus tenda), la grammaire SIL de Winters & Winters (2004) et l'analyse plus récente de Guillaume Ségerer (INALCO) ; aucun corpus de textes littéraires ou historiques suivis en oniyan n'a pu être consulté en texte intégral dans le cadre de cette recherche.",
+    "L'oniyan/bassari est classé dans le groupe Tenda de la branche atlantique de la famille Niger-Congo, selon Glottolog, aux côtés du bedik et du konyagi."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Quels sont les trois principaux travaux/auteurs académiques sur l'oniyan identifiés dans les sources ?",
+      "options": [
+        "Ferry, SIL (Winters & Winters), Ségerer/INALCO",
+        "Bloomfield, Chomsky, Sapir",
+        "Diagne, Sambou, Ka"
+      ],
+      "correct_answer": "Ferry, SIL (Winters & Winters), Ségerer/INALCO",
+      "explanation": "Ce sont les trois sources/auteurs académiques identifiés dans la recherche pour cette langue rare."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "L'oniyan appartient au groupe ___ de la branche atlantique (Niger-Congo).",
+      "correct_answer": "Tenda",
+      "hint": "Groupe incluant aussi le bedik et le konyagi."
+    }
+  ],
+  "sources": [
+    {
+      "label": "SIL — A Grammar of Oniyan (Winters & Winters, 2004)",
+      "url": "https://www.sil.org/system/files/reapdata/18/63/15/1863153183176772870767650622005357320/BSC_Oniyan_grammar_En_2004.pdf"
+    },
+    {
+      "label": "Ferry, M.-P. (1991) — Thesaurus tenda (référence bibliographique, non consulté en texte intégral)",
+      "url": "https://senelangues.huma-num.fr/pdf/BiblAtl.pdf"
+    },
+    {
+      "label": "Glottolog — Bassari-Tanda",
+      "url": "https://glottolog.org/resource/languoid/id/bass1258"
+    },
+    {
+      "label": "Wikipedia — Bassari language",
+      "url": "https://en.wikipedia.org/wiki/Bassari_language"
+    }
+  ],
+  "confidence": "faible",
+  "confidence_note": "Aucun texte littéraire ou historique suivi en oniyan n'a été trouvé en texte intégral dans les sources disponibles ici. Cette leçon s'appuie donc sur l'analyse morphologique détaillée de la seule phrase-exemple longue attestée dans la grammaire SIL, complétée par des repères bibliographiques et historiographiques vérifiés, plutôt que sur un véritable texte suivi analysable, ce qui limite fortement la portée de l'exercice par rapport à l'objectif visé."
 }

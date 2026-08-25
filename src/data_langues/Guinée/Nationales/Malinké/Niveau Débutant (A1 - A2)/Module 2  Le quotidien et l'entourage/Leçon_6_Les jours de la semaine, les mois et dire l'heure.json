@@ -6,204 +6,267 @@
   "lesson_number": 6,
   "title": "Les jours de la semaine, les mois et dire l'heure",
   "learning_objectives": [
-    "Citer les sept jours de la semaine en malinké",
-    "Se situer élémentairement dans le temps (aujourd'hui, demain, hier)",
-    "Demander et donner l'heure basique"
+    "Nommer les jours de la semaine en malinké",
+    "Utiliser 'bi', 'kunun', 'sinin' pour situer un événement dans le temps (aujourd'hui, hier, demain)",
+    "Exprimer les moments de la journée (matin, midi, soir, nuit)",
+    "Utiliser 'karo' (mois) et 'san' (année) pour des durées"
   ],
   "phonetic_focus": {
-    "key_sounds": "La consonne 't' se prononce de façon nette. Le mot 'bi' (aujourd'hui) possède une voyelle brève, à ne pas étirer. Le mot 'sinasini' (après-demain) demande une diction régulière sans accentuer les syllabes finales.",
-    "common_pitfalls": "Confondre 'Ntɛnɛn' (Lundi) avec un mot se terminant par un 'n' fort à la française. C'est une fermeture nasale douce."
+    "key_sounds": [
+      "La syllabe finale de 'kunun' (hier), légèrement nasalisée",
+      "Distinction entre 'sooma' (matinée) et 'sinin' (demain), sons proches mais sens différents",
+      "Le [l] de 'lahadi' (dimanche), emprunt à l'arabe via le français"
+    ],
+    "common_pitfalls": [
+      "Confondre 'karo' (mois) et 'san' (année)",
+      "Mélanger les jours empruntés à l'arabe (araba=mercredi, juma=vendredi, lahadi=dimanche) avec les noms locaux (tènèn=lundi)"
+    ]
   },
   "vocabulary": [
     {
-      "word_id": "v6_1",
-      "term": "Ntɛnɛn",
-      "phonetic_api": "/n̩.tɛ.nɛn/",
-      "phonetic_simple": "N-TƐ-NƐN",
-      "translation": "Lundi",
-      "example_sentence": "Ntɛnɛn do, n bɛ baara la",
-      "example_phonetic": "/n̩.tɛ.nɛn do n̩ bɛ baː.ra la/",
-      "example_translation": "Lundi, je serai au travail."
+      "word_id": "v1",
+      "term": "bi",
+      "phonetic_api": "[bi]",
+      "phonetic_simple": "bi",
+      "translation": "aujourd'hui",
+      "example_sentence": "Bi, n ye baarala.",
+      "example_phonetic": "[bi n je baːrala]",
+      "example_translation": "Aujourd'hui, je travaille."
     },
     {
-      "word_id": "v6_2",
-      "term": "Tarata",
-      "phonetic_api": "/ta.ra.ta/",
-      "phonetic_simple": "TA-RA-TA",
-      "translation": "Mardi",
-      "example_sentence": "Tarata bɛ sɔgɔma",
-      "example_phonetic": "/ta.ra.ta bɛ sɔ.ɡɔ.ma/",
-      "example_translation": "C'est mardi matin."
+      "word_id": "v2",
+      "term": "kunun",
+      "phonetic_api": "[kunun]",
+      "phonetic_simple": "kou-noun",
+      "translation": "hier",
+      "example_sentence": "Londan min nada kunun.",
+      "example_phonetic": "[londan min nada kunun]",
+      "example_translation": "L'étranger qui est arrivé hier."
     },
     {
-      "word_id": "v6_3",
-      "term": "Araba",
-      "phonetic_api": "/a.ra.ba/",
-      "phonetic_simple": "A-RA-BA",
-      "translation": "Mercredi",
-      "example_sentence": "Araba do, sugu bɛ dya",
-      "example_phonetic": "/a.ra.ba do su.ɡu bɛ d͡ʒa/",
-      "example_translation": "Le mercredi, le marché est animé."
+      "word_id": "v3",
+      "term": "sinin",
+      "phonetic_api": "[sinin]",
+      "phonetic_simple": "si-nin",
+      "translation": "demain",
+      "example_sentence": "A di wa sinin.",
+      "example_phonetic": "[a di wa sinin]",
+      "example_translation": "Il partira demain."
     },
     {
-      "word_id": "v6_4",
-      "term": "Alamisa",
-      "phonetic_api": "/a.la.mi.sa/",
-      "phonetic_simple": "A-LA-MI-SA",
-      "translation": "Jeudi",
-      "example_sentence": "Alamisa bɛ yan",
-      "example_phonetic": "/a.la.mi.sa bɛ jan/",
-      "example_translation": "Jeudi est arrivé."
+      "word_id": "v4",
+      "term": "sooma",
+      "phonetic_api": "[soːma]",
+      "phonetic_simple": "so-o-ma",
+      "translation": "matinée",
+      "example_sentence": "N na ye sooma.",
+      "example_phonetic": "[n na je soːma]",
+      "example_translation": "Ma mère est là ce matin."
     },
     {
-      "word_id": "v6_5",
-      "term": "Juma",
-      "phonetic_api": "/d͡ʒu.ma/",
-      "phonetic_simple": "DJOU-MA",
-      "translation": "Vendredi",
-      "example_sentence": "Juma do, an bɛ seli la",
-      "example_phonetic": "/d͡ʒu.ma do an bɛ se.li la/",
-      "example_translation": "Vendredi, nous prions."
+      "word_id": "v5",
+      "term": "wurala",
+      "phonetic_api": "[wurala]",
+      "phonetic_simple": "wou-ra-la",
+      "translation": "le soir",
+      "example_sentence": "I ni wula, wurala fè.",
+      "example_phonetic": "[i ni wula wurala fɛ]",
+      "example_translation": "Bonsoir, en fin de journée."
     },
     {
-      "word_id": "v6_6",
-      "term": "Sibiri",
-      "phonetic_api": "/si.bi.ri/",
-      "phonetic_simple": "SI-BI-RI",
-      "translation": "Samedi",
-      "example_sentence": "Sibiri do, n bɛ lafya la",
-      "example_phonetic": "/si.bi.ri do n̩ bɛ la.fja la/",
-      "example_translation": "Samedi, je me repose."
+      "word_id": "v6",
+      "term": "karo",
+      "phonetic_api": "[karo]",
+      "phonetic_simple": "ka-ro",
+      "translation": "mois",
+      "example_sentence": "Kabi karo kelen, a jankaro le.",
+      "example_phonetic": "[kabi karo kelen a dʒankaro le]",
+      "example_translation": "Depuis un mois, il est malade."
     },
     {
-      "word_id": "v6_7",
-      "term": "Kari",
-      "phonetic_api": "/ka.ri/",
-      "phonetic_simple": "KA-RI",
-      "translation": "Dimanche",
-      "example_sentence": "Kari do, baara mu na",
-      "example_phonetic": "/ka.ri do baː.ra mu na/",
-      "example_translation": "Dimanche, il n'y a pas de travail."
+      "word_id": "v7",
+      "term": "san",
+      "phonetic_api": "[san]",
+      "phonetic_simple": "san",
+      "translation": "année",
+      "example_sentence": "San binaanin ani fila.",
+      "example_phonetic": "[san binaːnin ani fila]",
+      "example_translation": "Quarante-deux ans."
     },
     {
-      "word_id": "v6_8",
-      "term": "Bi",
-      "phonetic_api": "/bi/",
-      "phonetic_simple": "BI",
-      "translation": "Aujourd'hui",
-      "example_sentence": "Bi na juma ra",
-      "example_phonetic": "/bi na d͡ʒu.ma ra/",
-      "example_translation": "Aujourd'hui c'est vendredi."
-    },
-    {
-      "word_id": "v6_9",
-      "term": "Sini",
-      "phonetic_api": "/si.ni/",
-      "phonetic_simple": "SI-NI",
-      "translation": "Demain",
-      "example_sentence": "Sini n bɛ bɔ i bɔ",
-      "example_phonetic": "/si.ni n̩ bɛ bɔ i bɔ/",
-      "example_translation": "Demain, je te rendrai visite."
-    },
-    {
-      "word_id": "v6_10",
-      "term": "Leri",
-      "phonetic_api": "/le.ri/",
-      "phonetic_simple": "LÉ-RI",
-      "translation": "L'heure / La montre (emprunt)",
-      "example_sentence": "Leri jeli bɛ ?",
-      "example_phonetic": "/le.ri d͡ʒe.li bɛ/",
-      "example_translation": "Quelle heure est-il ?"
+      "word_id": "v8",
+      "term": "tènèn",
+      "phonetic_api": "[tɛnɛn]",
+      "phonetic_simple": "tè-nèn",
+      "translation": "lundi",
+      "example_sentence": "Tènèn, n di wa lèkoli la.",
+      "example_phonetic": "[tɛnɛn n di wa lɛkoli la]",
+      "example_translation": "Lundi, j'irai à l'école."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p6_1",
-      "original": "Leri jeli bɛ ?",
-      "phonetic_api": "/le.ri d͡ʒe.li bɛ/",
-      "phonetic_simple": "LÉ-RI DJÉ-LI BƐ ?",
-      "translation": "Quelle heure est-il ?",
-      "context": "Demande de repère temporel immédiat au quotidien."
+      "phrase_id": "p1",
+      "original": "Talata",
+      "phonetic_api": "[talata]",
+      "phonetic_simple": "ta-la-ta",
+      "translation": "mardi",
+      "context": "Deuxième jour de la semaine"
     },
     {
-      "phrase_id": "p6_2",
-      "original": "Leri loolu bɛ.",
-      "phonetic_api": "/le.ri loː.lu bɛ/",
-      "phonetic_simple": "LÉ-RI LOO-LOU BƐ.",
-      "translation": "Il est cinq heures.",
-      "context": "Réponse simple pour donner l'heure exacte."
+      "phrase_id": "p2",
+      "original": "Araba",
+      "phonetic_api": "[araba]",
+      "phonetic_simple": "a-ra-ba",
+      "translation": "mercredi",
+      "context": "Troisième jour, emprunt arabe"
     },
     {
-      "phrase_id": "p6_3",
-      "original": "Bi na dankala do ra ?",
-      "phonetic_api": "/bi na dan.ka.la do ra/",
-      "phonetic_simple": "BI NA DAN-KA-LA DO RA ?",
-      "translation": "Quel jour sommes-aujourd'hui ?",
-      "context": "S'informer sur le jour de la semaine."
+      "phrase_id": "p3",
+      "original": "Alamisa",
+      "phonetic_api": "[alamisa]",
+      "phonetic_simple": "a-la-mi-sa",
+      "translation": "jeudi",
+      "context": "Quatrième jour, emprunt arabe"
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Juma",
+      "phonetic_api": "[dʒuma]",
+      "phonetic_simple": "dju-ma",
+      "translation": "vendredi",
+      "context": "Jour de la prière collective musulmane"
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Simidi",
+      "phonetic_api": "[simidi]",
+      "phonetic_simple": "si-mi-di",
+      "translation": "samedi",
+      "context": "Sixième jour de la semaine"
+    },
+    {
+      "phrase_id": "p6",
+      "original": "Lahadi",
+      "phonetic_api": "[lahadi]",
+      "phonetic_simple": "la-ha-di",
+      "translation": "dimanche",
+      "context": "Septième jour de la semaine"
+    },
+    {
+      "phrase_id": "p7",
+      "original": "An bè sinin",
+      "phonetic_api": "[an bɛ sinin]",
+      "phonetic_simple": "an-bè-si-nin",
+      "translation": "à demain",
+      "context": "Formule d'adieu indiquant un rendez-vous le jour suivant"
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'utilisation de la particule 'do' pour situer le jour",
-      "explanation": "Pour préciser qu'une action se passe un jour particulier ou pour nommer le contexte temporel journalier, on fait suivre le nom du jour de la particule de spécification 'do'.",
+      "concept": "Situer un événement dans le temps",
+      "explanation": "Le malinké utilise des adverbes de temps simples (bi, kunun, sinin) placés généralement en tête de phrase pour situer une action.",
       "rules": [
-        "Structure : Nom du jour + 'do'.",
-        "Exemple : 'Juma do' signifie 'Le jour de vendredi' ou 'un vendredi'."
+        "bi = aujourd'hui ; kunun = hier ; sinin = demain",
+        "L'adverbe de temps précède généralement le sujet et le verbe"
       ],
       "examples": [
         {
-          "structure": "Sibiri do",
-          "phonetic_api": "/si.bi.ri do/",
-          "meaning": "Samedi / Le samedi"
+          "structure": "[Adverbe de temps], [Sujet] + [Verbe]",
+          "phonetic_api": "[bi]",
+          "meaning": "Aujourd'hui, je (fais quelque chose)"
+        }
+      ]
+    },
+    {
+      "concept": "Les jours de la semaine : noms locaux et emprunts",
+      "explanation": "Certains jours ont un nom d'origine locale (tènèn=lundi), d'autres sont des emprunts à l'arabe via l'islam (araba=mercredi, alamisa=jeudi, juma=vendredi, lahadi=dimanche).",
+      "rules": [
+        "La semaine traditionnelle mandingue commence souvent le jeudi dans certains usages culturels",
+        "Les jours empruntés à l'arabe restent proches de leur forme d'origine"
+      ],
+      "examples": [
+        {
+          "structure": "[Jour] + , + [action]",
+          "phonetic_api": "[tɛnɛn]",
+          "meaning": "Lundi, (une action a lieu)"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Fanta",
-      "text": "Lamine, leri jeli bɛ bi ?",
-      "phonetic_api": "/la.min le.ri d͡ʒe.li bɛ bi/",
-      "phonetic_simple": "LA-MINE, LÉ-RI DJÉ-LI BƐ BI ?",
-      "translation": "Lamine, quelle heure est-il aujourd'hui ?"
+      "speaker": "Fatou",
+      "text": "Bi ye lon juman ?",
+      "phonetic_api": "[bi je lon dʒuman]",
+      "phonetic_simple": "bi-yé-lon-dju-man",
+      "translation": "Quel jour sommes-nous aujourd'hui ?"
     },
     {
-      "speaker": "Lamine",
-      "text": "Leri nani bɛ. Bi na araba ra, i mu baara la ?",
-      "phonetic_api": "/le.ri na.ni bɛ bi na a.ra.ba ra i mu baː.ra la/",
-      "phonetic_simple": "LÉ-RI NA-NI BƐ. BI NA A-RA-BA RA, I MOU BAA-RA LA ?",
-      "translation": "Il est quatre heures. Aujourd'hui c'est mercredi, tu n'es pas au travail ?"
+      "speaker": "Sékou",
+      "text": "Bi ye tènèn le.",
+      "phonetic_api": "[bi je tɛnɛn le]",
+      "phonetic_simple": "bi-yé-tè-nèn-lé",
+      "translation": "Aujourd'hui, c'est lundi."
+    },
+    {
+      "speaker": "Fatou",
+      "text": "Awa, an bè sinin, talata !",
+      "phonetic_api": "[awa an bɛ sinin talata]",
+      "phonetic_simple": "a-wa, an-bè-si-nin, ta-la-ta",
+      "translation": "D'accord, à demain, mardi !"
     },
     {
       "speaker": "Fanta",
-      "text": "Ayi, n bɛ lafya la bi. Sini do n bɛ baara la.",
-      "phonetic_api": "/a.ji n̩ bɛ la.fja la bi si.ni do n̩ bɛ baː.ra la/",
-      "phonetic_simple": "A-YI, N BƐ LA-FYA LA BI. SI-NI DO N BƐ BAA-RA LA.",
-      "translation": "Non, je me repose aujourd'hui. Demain, je serai au travail."
+      "text": "Awa, an bɛ bɛn juma don na.",
+      "phonetic_api": "[awa an bɛ bɛn dʒuma don na]",
+      "phonetic_simple": "a-wa, an-bè-bèn-dju-ma-don-na",
+      "translation": "D'accord, on se retrouve vendredi."
     }
   ],
   "cultural_notes": [
-    "Les noms des jours de la semaine en malinké sont profondément influencés par les structures linguistiques et historiques arabes suite aux contacts séculaires transsahariens, tout en étant parfaitement adaptés au système vocalique et tonal mandingue."
+    "L'influence de l'islam se reflète dans plusieurs noms de jours (araba, alamisa, juma, lahadi), emprunts adaptés de l'arabe, très répandus dans les langues mandingues de Guinée ([Malinkuia](https://fr.scribd.com/document/499114939/Malinkuia)).",
+    "Le vendredi ('juma') garde une importance particulière car il correspond au jour de la grande prière collective musulmane."
   ],
   "exercises": [
     {
-      "exercise_id": "A1_M2_L6_ex1",
-      "type": "multiple_choice",
-      "question": "Que signifie 'Juma' en malinké ?",
-      "options": [
-        "Mardi",
-        "Vendredi",
-        "Dimanche"
-      ],
-      "correct_answer": "Vendredi",
-      "explanation": "'Juma' désigne le vendredi, jour traditionnel de repos et de rassemblement."
+      "exercise_id": "e1",
+      "type": "traduction",
+      "question": "Traduisez : 'demain'",
+      "correct_answer": "Sinin",
+      "explanation": "'sinin' signifie 'demain' dans les deux sources consultées."
     },
     {
-      "exercise_id": "A1_M2_L6_ex2",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Leri [ ___ ] bɛ (Il est deux heures).",
-      "correct_answer": "fila",
-      "hint": "Utilisez le chiffre deux."
+      "exercise_id": "e2",
+      "type": "choix_multiple",
+      "question": "Quel jour correspond à 'juma' ?",
+      "options": [
+        "lundi",
+        "mercredi",
+        "vendredi",
+        "dimanche"
+      ],
+      "correct_answer": "vendredi",
+      "explanation": "'juma' désigne le vendredi, jour de la prière collective."
+    },
+    {
+      "exercise_id": "e3",
+      "type": "texte_a_trous",
+      "sentence_with_blank": "___, n di wa lèkoli la.  (Lundi, j'irai à l'école.)",
+      "correct_answer": "Tènèn",
+      "hint": "C'est le premier jour de la semaine."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Malinkuia — Introduction à la langue malinké (grammaire complète, variété du Wulada, Haute-Guinée)",
+      "url": "https://fr.scribd.com/document/499114939/Malinkuia"
+    },
+    {
+      "label": "Diané & Vydrin, « Propositions pour l'orthographe du maninka (Guinée) », Mandenkan 52 (2014)",
+      "url": "https://shs.hal.science/halshs-01096594v1/document"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Les jours de la semaine et adverbes temporels proviennent de la grammaire Malinkuia (source spécifique au malinké). Ces noms de jours sont largement partagés (cognats) avec le bambara et le dioula dans l'ensemble mandingue ; leur forme exacte en maninka de Kankan/Haute-Guinée n'a pas pu être confirmée par une seconde source indépendante, d'où une confiance 'moyenne'."
 }

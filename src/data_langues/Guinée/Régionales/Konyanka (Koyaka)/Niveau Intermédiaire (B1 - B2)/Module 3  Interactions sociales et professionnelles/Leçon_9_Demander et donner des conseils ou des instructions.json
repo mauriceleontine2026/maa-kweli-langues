@@ -6,164 +6,216 @@
   "lesson_number": 9,
   "title": "Demander et donner des conseils ou des instructions",
   "learning_objectives": [
-    "Solliciter un avis ou une orientation face à une situation complexe",
-    "Formuler des recommandations et donner des directives précises",
-    "Employer les formes adéquates pour guider ou instruire une personne"
+    "Demander un conseil poliment",
+    "Donner une instruction à l'impératif",
+    "Utiliser des connecteurs simples pour organiser une série d'instructions"
   ],
   "phonetic_focus": {
-    "key_sounds": "Le verbe pour conseiller 'ladiya' /la.di.ja/ demande une articulation continue de la palatale. Le terme pour la sagesse ou l'avis 'hakili' /ha.ki.li/ exige que la consonne fricative glottale sourde /h/ soit soufflée de manière douce mais perceptible.",
-    "common_pitfalls": "Veillez à ne pas durcir le son /h/ initial de 'hakili' comme un 'r' français ou une jota espagnole ; il s'agit d'une simple expiration."
+    "key_sounds": "L'impératif se forme souvent avec le radical verbal nu, sans marqueur ; le ton monte légèrement en fin d'instruction pour marquer l'insistance.",
+    "common_pitfalls": "Ajouter un marqueur de sujet explicite à l'impératif alors que celui-ci est normalement omis (comme en français 'Va !' et non 'Tu vas !')."
   },
   "vocabulary": [
     {
       "word_id": "v1",
-      "term": "Ladiya",
-      "phonetic_api": "/la.di.ja/",
-      "phonetic_simple": "LA-DI-YA",
-      "translation": "Conseiller / Exhorter / Donner un avis bienveillant",
-      "example_sentence": "N'fa ye n'ladiya bɛrɛbɛrɛ.",
-      "example_phonetic": "/nfa jɛ nladi.ja bɛ.rɛ.bɛ.rɛ/",
-      "example_translation": "Mon père m'a beaucoup conseillé."
+      "term": "laadi",
+      "phonetic_api": "[laːdi]",
+      "phonetic_simple": "la-a-di",
+      "translation": "conseil",
+      "example_sentence": "A y'a laadi di n ma.",
+      "example_phonetic": "[a ja laːdi di n ma]",
+      "example_translation": "Il/elle m'a donné un conseil."
     },
     {
       "word_id": "v2",
-      "term": "Hakili",
-      "phonetic_api": "/ha.ki.li/",
-      "phonetic_simple": "HA-KI-LI",
-      "translation": "Esprit / Sagesse / Conseil / Intelligence",
-      "example_sentence": "Hakili di n'ma nin la.",
-      "example_phonetic": "/ha.ki.li di nma nĩ la/",
-      "example_translation": "Donne-moi un conseil / ton avis sur cette affaire."
+      "term": "laadi di",
+      "phonetic_api": "[laːdi di]",
+      "phonetic_simple": "la-a-di-di",
+      "translation": "conseiller (litt. donner un conseil)",
+      "example_sentence": "N bɛ i laadi.",
+      "example_phonetic": "[n bɛ i laːdi]",
+      "example_translation": "Je te conseille."
     },
     {
       "word_id": "v3",
-      "term": "Kalan",
-      "phonetic_api": "/ka.lã/",
-      "phonetic_simple": "KA-LAN",
-      "translation": "Instruire / Enseigner / Lire",
-      "example_sentence": "A bɛ n'kalan na sila la.",
-      "example_phonetic": "/a bɛ nkã.lã na si.la la/",
-      "example_translation": "Il m'instruit sur la route à suivre."
+      "term": "kalan / karan",
+      "phonetic_api": "[karan]",
+      "phonetic_simple": "ka-ran",
+      "translation": "enseigner, montrer comment faire",
+      "example_sentence": "A y'a karan n na.",
+      "example_phonetic": "[a ja karan n na]",
+      "example_translation": "Il/elle me l'a montré/enseigné."
     },
     {
       "word_id": "v4",
-      "term": "Taa-sila",
-      "phonetic_api": "/taː.si.la/",
-      "phonetic_simple": "TAA-SI-LA",
-      "translation": "Manière de procéder / Direction / Conduite (litt. le chemin pour aller)",
-      "example_sentence": "Taa-sila juman le ka nyan?",
-      "example_phonetic": "/taː.si.la d͡ʒu.mã le ka ɲã/",
-      "example_translation": "Quelle démarche / conduite est la meilleure ?"
+      "term": "fɔlɔ",
+      "phonetic_api": "[fɔlɔ]",
+      "phonetic_simple": "fo-lo",
+      "translation": "premièrement, d'abord",
+      "example_sentence": "Fɔlɔ, i bolo ko.",
+      "example_phonetic": "[fɔlɔ i bolo ko]",
+      "example_translation": "D'abord, lave-toi les mains."
+    },
+    {
+      "word_id": "v5",
+      "term": "o kɔfɛ",
+      "phonetic_api": "[o kɔfɛ]",
+      "phonetic_simple": "o-ko-fè",
+      "translation": "ensuite, après cela",
+      "example_sentence": "O kɔfɛ, i bɛ malo don daga kɔnɔ.",
+      "example_phonetic": "[o kɔfɛ i bɛ malo don daɡa kɔnɔ]",
+      "example_translation": "Ensuite, tu mets le riz dans la marmite."
+    },
+    {
+      "word_id": "v6",
+      "term": "labanna",
+      "phonetic_api": "[labanna]",
+      "phonetic_simple": "la-ban-na",
+      "translation": "enfin, pour finir",
+      "example_sentence": "Labanna, i bɛ a dumu.",
+      "example_phonetic": "[labanna i bɛ a dumu]",
+      "example_translation": "Enfin, tu le manges."
     }
   ],
   "common_phrases": [
     {
       "phrase_id": "p1",
-      "original": "N'bɛ mun kɛ la nin la?",
-      "phonetic_api": "/mbɛ mũ kɛ la nĩ la/",
-      "phonetic_simple": "N-BÈ MOUN KÈ LA NIN LA ?",
-      "translation": "Que dois-je faire dans cette situation ?",
-      "context": "Formule ouverte pour solliciter le conseil d'un aîné ou d'un collègue."
+      "original": "I bɛ se ka n laadi wa?",
+      "phonetic_api": "[i bɛ se ka n laːdi wa]",
+      "phonetic_simple": "i-bè-sé-ka-n-la-a-di-wa",
+      "translation": "Peux-tu me conseiller ?",
+      "context": "Demander un conseil poliment"
     },
     {
       "phrase_id": "p2",
-      "original": "I la hakili fɔ n'ma.",
-      "phonetic_api": "/i la ha.ki.li fɔ nma/",
-      "phonetic_simple": "I LA HA-KI-LI FƆ N-MA",
-      "translation": "Donne-moi ton avis / Partage ton avis avec moi.",
-      "context": "Demande directe visant à obtenir l'opinion éclairée de quelqu'un."
+      "original": "Fɔlɔ, i ka kan k'a kɛ nyin sira",
+      "phonetic_api": "[fɔlɔ i ka kan ka kɛ ɲin sira]",
+      "phonetic_simple": "fo-lo, i-ka-kan-ka-kè-nyin-si-ra",
+      "translation": "D'abord, tu dois le faire de cette manière",
+      "context": "Donner une première instruction"
     },
     {
       "phrase_id": "p3",
-      "original": "A bɛ nyan i ka taa sisan.",
-      "phonetic_api": "/a bɛ ɲã i ka taː si.sã/",
-      "phonetic_simple": "A BÈ NYAN I KA TAA SI-SAN",
-      "translation": "Il est préférable que tu partes maintenant / Je te conseille de partir maintenant.",
-      "context": "Donner une instruction ou une recommandation claire sous forme de suggestion forte."
+      "original": "O kɔfɛ, i bɛ...",
+      "phonetic_api": "[o kɔfɛ i bɛ]",
+      "phonetic_simple": "o-ko-fè, i-bè",
+      "translation": "Ensuite, tu...",
+      "context": "Enchaîner une série d'instructions"
     },
     {
       "phrase_id": "p4",
-      "original": "I ni la hakili sɔn.",
-      "phonetic_api": "/i ni la ha.ki.li sɔ̃/",
-      "phonetic_simple": "I NI LA HA-KI-LI SƆN",
-      "translation": "Suis ce conseil / Écoute cette sagesse.",
-      "context": "Exhortation finale à mettre en pratique la directive reçue."
+      "original": "Barika i ka laadi la",
+      "phonetic_api": "[barika i ka laːdi la]",
+      "phonetic_simple": "ba-ri-ka-i-ka-la-a-di-la",
+      "translation": "Merci pour ton conseil",
+      "context": "Remercier après avoir reçu un conseil ou une instruction"
     }
   ],
   "grammar_points": [
     {
-      "concept": "La structure conjonctive 'ka' pour exprimer le conseil",
-      "explanation": "Pour donner une directive mitigée, un conseil ou formuler une suggestion en konyanka, on utilise la tournure impersonnelle 'a ka nyan' (c'est bien/il est préférable) suivie du pronom sujet et de la marque injonctive/subjonctive 'ka' devant le verbe d'action.",
+      "concept": "L'impératif au radical nu",
+      "explanation": "L'impératif se forme en général en utilisant le radical verbal seul, sans sujet ni marqueur, exactement comme en français pour le tutoiement.",
       "rules": [
-        "Structure : [A ka nyan] + Sujet + ka + Verbe (ex: A ka nyan i ka bara kɛ = Il est bon que tu travailles).",
-        "Pour une instruction impérative directe, on omet l'introduction impersonnelle."
+        "Radical verbal seul = ordre/instruction directe",
+        "L'ajout de 'i ka kan ka' rend l'instruction plus polie/formelle qu'un impératif brut"
       ],
       "examples": [
         {
-          "structure": "A ka nyan i ka na yan",
-          "phonetic_api": "/a ka ɲã i ka na jã/",
-          "meaning": "Il est préférable que tu viennes ici"
-        },
+          "structure": "bolo ko!",
+          "phonetic_api": "[bolo ko]",
+          "meaning": "lave-toi les mains !"
+        }
+      ]
+    },
+    {
+      "concept": "Les connecteurs de séquence (fɔlɔ, o kɔfɛ, labanna)",
+      "explanation": "Pour organiser une série d'instructions, on utilise des connecteurs temporels qui marquent l'ordre des étapes : 'fɔlɔ' (d'abord), 'o kɔfɛ' (ensuite), 'labanna' (enfin).",
+      "rules": [
+        "fɔlɔ = première étape",
+        "o kɔfɛ = étape suivante",
+        "labanna = dernière étape"
+      ],
+      "examples": [
         {
-          "structure": "I ka hakili sɔn",
-          "phonetic_api": "/i ka ha.ki.li sɔ̃/",
-          "meaning": "Tu devrais écouter le conseil"
+          "structure": "fɔlɔ ... o kɔfɛ ... labanna",
+          "phonetic_api": "[fɔlɔ o kɔfɛ labanna]",
+          "meaning": "d'abord ... ensuite ... enfin"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Lamine",
-      "text": "N'mɔgɔbaxun, hakili di n'ma. N'bɛ fɛ ka bara ba damina.",
-      "phonetic_api": "/mmɔ.ɡɔ.ba.xun ha.ki.li di nma mbɛ fɛ ka ba.ra ba da.mi.na/",
-      "phonetic_simple": "N-MƆ-GƆ-BA-ROUN, HA-KI-LI DI N-MA. N-BÈ FÈ KA BA-RA BA DA-MI-NA",
-      "translation": "Mon grand-parent, donne-moi un conseil. Je veux débuter un projet important."
+      "speaker": "Apprenti",
+      "text": "I bɛ se ka n karan ka malo tobi wa?",
+      "phonetic_api": "[i bɛ se ka n karan ka malo tobi wa]",
+      "phonetic_simple": "i-bè-sé-ka-n-ka-ran-ka-ma-lo-to-bi-wa",
+      "translation": "Peux-tu m'apprendre à cuisiner le riz ?"
     },
     {
-      "speaker": "Mɔgɔbaxun (L'ancien)",
-      "text": "A ka nyan i ka ladiya ɲini i somogo lu fɛ kulu.",
-      "phonetic_api": "/a ka ɲã i ka la.di.ja ɲi.ni i so.mo.ɡo lu fɛ ku.lu/",
-      "phonetic_simple": "A KA NYAN I KA LA-DI-YA NYI-NI I SO-MO-GO LOU FÈ KOU-LOU",
-      "translation": "Il est préférable que tu cherches d'abord l'avis des gens de ta famille."
+      "speaker": "Cuisinière",
+      "text": "Awa. Fɔlɔ, i bɛ ji don daga kɔnɔ. O kɔfɛ, i bɛ malo don a la.",
+      "phonetic_api": "[awa fɔlɔ i bɛ dʒi don daɡa kɔnɔ o kɔfɛ i bɛ malo don a la]",
+      "phonetic_simple": "a-wa, fo-lo, i-bè-dji-don-da-ga-ko-no",
+      "translation": "D'accord. D'abord, tu mets de l'eau dans la marmite. Ensuite, tu y mets le riz."
     },
     {
-      "speaker": "Lamine",
-      "text": "U sɔnna a la kunu le. Taa-sila juman le ka nyan sisan?",
-      "phonetic_api": "/u sɔ̃.na a la ku.nu le taː.si.la d͡ʒu.mã le ka ɲã si.sã/",
-      "phonetic_simple": "OU SƆN-NA A LA KOU-NOU LÉ. TAA-SI-LA DJOU-MAN LÉ KA NYAN SI-SAN ?",
-      "translation": "Ils ont donné leur accord hier déjà. Quelle démarche est la meilleure à présent ?"
+      "speaker": "Apprenti",
+      "text": "Labanna, mun le bɛ kɛ?",
+      "phonetic_api": "[labanna mun le bɛ kɛ]",
+      "phonetic_simple": "la-ban-na, mun-lé-bè-kè",
+      "translation": "Enfin, que faut-il faire ?"
     },
     {
-      "speaker": "Mɔgɔbaxun (L'ancien)",
-      "text": "I ka bara kɛ ni sɔgɔma o sɔgɔma, kana lari. Hakili nin sɔn.",
-      "phonetic_api": "/i ka ba.ra kɛ ni sɔ.ɡɔ.ma o sɔ.ɡɔ.ma ka.na la.ri ha.ki.li nĩ sɔ̃/",
-      "phonetic_simple": "I KA BA-RA KÈ NI SƆ-GƆ-MA O SƆ-GƆ-MA, KA-NA LA-RI. HA-KI-LI NIN SƆN",
-      "translation": "Travaille d'arrache-pied chaque matin, ne paresse pas. Suis ce conseil."
+      "speaker": "Cuisinière",
+      "text": "Labanna, i bɛ a tobi lèrè kelen kɔnɔ.",
+      "phonetic_api": "[labanna i bɛ a tobi lɛrɛ kelen kɔnɔ]",
+      "phonetic_simple": "la-ban-na, i-bè-a-to-bi-lè-rè-ké-len-ko-no",
+      "translation": "Enfin, tu le cuisines pendant une heure."
     }
   ],
   "cultural_notes": [
-    "Dans la société konyanka de Guinée, solliciter les directives et l'approbation morale des anciens ('mɔgɔbaxun lu') avant d'initier un projet d'envergure est un pilier de la sagesse coutumière. Le mépris du conseil d'un aîné est traditionnellement perçu comme un facteur d'échec social."
+    "La transmission orale des savoir-faire (cuisine, agriculture, artisanat) par une série d'instructions structurées reste la norme d'apprentissage dans les sociétés manding rurales, dont fait partie la zone koniaké.",
+    "Le respect envers celui qui donne le conseil (souvent un aîné) s'accompagne traditionnellement de formules de remerciement comme 'barika' (merci)."
   ],
   "exercises": [
     {
-      "exercise_id": "ex1",
-      "type": "multiple_choice",
-      "question": "Que désigne le terme 'Hakili' dans le cadre d'un échange ?",
+      "exercise_id": "e1",
+      "type": "choix_multiple",
+      "question": "Quel connecteur signifie 'd'abord' ?",
       "options": [
-        "Un outil de travail",
-        "Un conseil / un avis / l'esprit",
-        "Une direction géographique"
+        "o kɔfɛ",
+        "fɔlɔ",
+        "labanna",
+        "kabini"
       ],
-      "correct_answer": "Un conseil / un avis / l'esprit",
-      "explanation": "'Hakili' englobe l'esprit, l'intelligence et, par extension, le conseil sage émanant de la réflexion."
+      "correct_answer": "fɔlɔ",
+      "explanation": "'fɔlɔ' signifie 'd'abord', pour introduire la première étape."
     },
     {
-      "exercise_id": "ex2",
-      "type": "fill_in_the_blanks",
-      "sentence_with_blank": "A ka nyan i [ ___ ] taa sisan (Il est préférable que tu partes maintenant).",
-      "correct_answer": "ka",
-      "hint": "La marque du subjonctif/injonctif employée pour formuler la recommandation."
+      "exercise_id": "e2",
+      "type": "traduction",
+      "question": "Traduisez : 'Peux-tu me conseiller ?'",
+      "correct_answer": "I bɛ se ka n laadi wa?",
+      "explanation": "'bɛ se ka' = pouvoir ; 'laadi' = conseiller."
+    },
+    {
+      "exercise_id": "e3",
+      "type": "texte_a_trous",
+      "sentence_with_blank": "___, i bɛ a tobi. (Enfin, tu le cuisines.)",
+      "correct_answer": "Labanna",
+      "explanation": "'Labanna' = enfin, pour introduire la dernière étape."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Malinkuia — Introduction à la langue malinké (grammaire complète, variété du Wulada, Haute-Guinée)",
+      "url": "https://fr.scribd.com/document/499114939/Malinkuia"
+    },
+    {
+      "label": "An ka taa — Maninka/Malinké greetings and phrases",
+      "url": "https://www.ankataa.com/maninka-greetings-and-phrases"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Aucun lexique ou grammaire publiés et dédiés spécifiquement au Konyanka (Koyaka/Konianka, ISO mku) n'a été localisé. Le vocabulaire de cette leçon provient donc du continuum dialectal Maninka/Malinké de Guinée dans lequel le Konyanka s'inscrit (intelligibilité mutuelle attestée), via la grammaire pratique Malinkuia (variété du Wulada, Haute-Guinée). Les spécificités confirmées du Konyanka sont indiquées dans les notes culturelles plutôt que dans le lexique."
 }

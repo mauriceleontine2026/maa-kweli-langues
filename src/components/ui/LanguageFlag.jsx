@@ -1,3 +1,5 @@
+import { getFlagForLanguage } from "@/lib/localLanguageData";
+
 const FLAG_EMOJIS = {
   gn: "🇬🇳",
   sn: "🇸🇳",
@@ -60,6 +62,9 @@ export default function LanguageFlag({ language, className = "", size = "md" }) 
       language?.country_code || language?.countryCode || language?.flag_code || language?.flagCode || language?.country || language?.nationality
     );
     if (countryCode && FLAG_EMOJIS[countryCode]) return FLAG_EMOJIS[countryCode];
+
+    const countryFlag = getFlagForLanguage(language);
+    if (countryFlag) return countryFlag;
 
     const languageCode = normalizeCode(
       language?.code || language?.language_code || language?.languageCode || language?.slug || language?.id || language?.name_fr || language?.name || ""

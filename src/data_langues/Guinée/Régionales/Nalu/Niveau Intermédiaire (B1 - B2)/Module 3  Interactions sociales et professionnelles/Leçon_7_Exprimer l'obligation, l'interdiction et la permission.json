@@ -6,158 +6,182 @@
   "lesson_number": 7,
   "title": "Exprimer l'obligation, l'interdiction et la permission",
   "learning_objectives": [
-    "Exprimer le devoir, la nécessité et les contraintes sociales",
-    "Formuler des interdictions strictes et demander l'autorisation de faire quelque chose"
+    "Utiliser la forme dépendante « ti » pour exprimer une obligation ou un but",
+    "Reconnaître la construction de la permission avec « awa » + subjonctif dépendant",
+    "Distinguer les négations « hali » et « ha » selon le contexte"
   ],
   "phonetic_focus": {
-    "key_sounds": "L'occlusive glottale /ʔ/ (le coup de glotte) intervient parfois de manière tranchée au cœur des structures négatives. La voyelle fermée /u/ dans 'suba' contraste fortement avec la voyelle ouverte /ɔ/ présente dans les constructions de défense.",
-    "common_pitfalls": "Attention à ne pas escamoter la fricative sourde /θ/ (notée 'th') dans les particules de permission au risque de fausser la portée polie de votre énoncé."
+    "key_sounds": "Le nalu comporte 7 voyelles avec opposition de longueur (i, u, e [ɪ], o [ʊ], ɛ, ɔ, a) et des consonnes comme θ (proche du 'th' anglais dur, prononcé [f] par de nombreux locuteurs), gb (occlusive labio-vélaire double, sans équivalent en français), et ŋ (comme 'ng' dans 'parking'). Source : Seidel (2024), The Oxford Guide to the Atlantic Languages of West Africa.",
+    "common_pitfalls": "Les francophones ont tendance à confondre ɛ/e et ɔ/o car le français ne marque pas systématiquement cette opposition de fermeture. Le θ est souvent mal prononcé car il n'existe pas en français ; beaucoup de locuteurs nalu eux-mêmes le réalisent [f]. La longueur vocalique (ex. redoublement de voyelle 'ɔɔ') doit être respectée, contrairement au français où elle n'est pas distinctive."
   },
   "vocabulary": [
     {
-      "word_id": "v16_1",
-      "term": "Kanɛ",
-      "phonetic_api": "/ka.nɛ/",
-      "phonetic_simple": "KA-NÈ",
-      "translation": "Devoir / Falloir / Être obligatoire",
-      "example_sentence": "M kanɛ wale suba.",
-      "example_phonetic": "/m ka.nɛ wa.le su.ba/",
-      "example_translation": "Je dois travailler demain."
+      "word_id": "v1",
+      "term": "ti (marqueur TAM dépendant)",
+      "phonetic_api": "/ti/",
+      "phonetic_simple": "TI",
+      "translation": "marqueur de subjonctif/but/obligation",
+      "example_sentence": "Ati fɛɛfer bɛyaaw nɛɛ bɛyaaw faaŋa mkantaŋ.",
+      "example_phonetic": "/ati fɛːfer bɛjaːw nɛː bɛjaːw faːŋa mkantaŋ/",
+      "example_translation": "Elle doit cuire le riz pour les invités, car ils veulent continuer."
     },
     {
-      "word_id": "v16_2",
-      "term": "A gbe lan",
-      "phonetic_api": "/a ŋgbe lan/",
-      "phonetic_simple": "A NGBÉ LAN",
-      "translation": "C'est permis / Autorisé",
-      "example_sentence": "A gbe lan di ba we.",
-      "example_phonetic": "/a ŋgbe lan di ba we/",
-      "example_translation": "Il est permis de venir ici."
+      "word_id": "v2",
+      "term": "awa",
+      "phonetic_api": "/awa/",
+      "phonetic_simple": "AWA",
+      "translation": "permission accordée, formule introductive (« que... »)",
+      "example_sentence": "Awa a mɔ ŋɛya nikaθaay koy kamceknah.",
+      "example_phonetic": "/awa a mɔ ŋɛja nikaθaːj koj kamt͜seknah/",
+      "example_translation": "Qu'il aille donc là où sa femme extrait le sel."
     },
     {
-      "word_id": "v16_3",
-      "term": "Bosh",
-      "phonetic_api": "/bɔʃ/",
-      "phonetic_simple": "BOSH",
-      "translation": "Interdire / Refuser",
-      "example_sentence": "M bosh wale we.",
-      "example_phonetic": "/m bɔʃ wa.le we/",
-      "example_translation": "J'interdis ce travail."
+      "word_id": "v3",
+      "term": "ha (négation)",
+      "phonetic_api": "/ha/",
+      "phonetic_simple": "HA",
+      "translation": "négation verbale (« ne pas »)",
+      "example_sentence": "Mɔɔ ha yina lo timbaaθen mɔh de.",
+      "example_phonetic": "/mɔː ha jina lo timbaːθen mɔh de/",
+      "example_translation": "Il n'est pas venu ici ce matin."
     },
     {
-      "word_id": "v16_4",
-      "term": "Ina thand",
-      "phonetic_api": "/i.na θand/",
-      "phonetic_simple": "I-NA THAND",
-      "translation": "Permettre / Laisser passer",
-      "example_sentence": "Ina thand mi, baa.",
-      "example_phonetic": "/i.na θand mi baː/",
-      "example_translation": "Permets-moi (laisse-moi passer), mon père."
+      "word_id": "v4",
+      "term": "hali (négation catégorique)",
+      "phonetic_api": "/hali/",
+      "phonetic_simple": "HALI",
+      "translation": "non, absolument pas",
+      "example_sentence": "Hali mɔ nti kɔɔmnahar amaam.",
+      "example_phonetic": "/hali mɔ nti kɔːmnahar amaːm/",
+      "example_translation": "Non. Celui-ci a préparé ses affaires pour lui-même."
     },
     {
-      "word_id": "v16_5",
-      "term": "Ce",
-      "phonetic_api": "/tʃe/",
-      "phonetic_simple": "TCHÉ",
-      "translation": "Droit / Légal / Correct",
-      "example_sentence": "A gbe ce nalu.",
-      "example_phonetic": "/a ŋgbe tʃe na.lu/",
-      "example_translation": "C'est le droit / la coutume de la famille."
+      "word_id": "v5",
+      "term": "yaamari / m-yaamari",
+      "phonetic_api": "/jaːmari/, /mjaːmari/",
+      "phonetic_simple": "YAAMARI",
+      "translation": "ordre, commandement",
+      "example_sentence": "Abi kɔha resya mɔ myaamari mɔɔ.",
+      "example_phonetic": "/abi kɔha resja mɔ mjaːmari mɔː/",
+      "example_translation": "Il finit par transgresser cet ordre-là."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p16_1",
-      "original": "M kanɛ ba di n'boka n'gbe.",
-      "phonetic_api": "/m ka.nɛ ba di n͡bo.ka ŋgbe/",
-      "phonetic_simple": "M KA-NÈ BA DI N-BO-KA NGBÉ",
-      "translation": "Je dois impérativement rentrer à la maison aujourd'hui.",
-      "context": "Indique une obligation familiale ou une contrainte horaire forte."
+      "phrase_id": "p1",
+      "original": "Ati fɛɛfer bɛyaaw.",
+      "phonetic_api": "/ati fɛːfer bɛjaːw/",
+      "phonetic_simple": "ATI FÉÉFÉR BÈYAAW",
+      "translation": "Elle doit cuire le riz pour les invités.",
+      "context": "Obligation exprimée avec le marqueur dépendant « ti »."
     },
     {
-      "phrase_id": "p16_2",
-      "original": "A rila a gbe lan di n'wut we?",
-      "phonetic_api": "/a ri.la a ŋgbe lan di nwut we/",
-      "phonetic_simple": "A RI-LA A NGBÉ LAN DI N-WOUT WÉ",
-      "translation": "Est-il permis de manger ceci ?",
-      "context": "Question polie pour s'assurer du respect des règles alimentaires ou de politesse."
+      "phrase_id": "p2",
+      "original": "Awa a mɔ ŋɛya nikaθaay koy kamceknah.",
+      "phonetic_api": "/awa a mɔ ŋɛja nikaθaːj koj kamt͜seknah/",
+      "phonetic_simple": "AWA A MO NGÈYA NIKATHAAY KOY KAM-TSÉKNAH",
+      "translation": "Qu'il aille donc là où sa femme extrait le sel.",
+      "context": "Formule de permission/souhait avec « awa »."
     },
     {
-      "phrase_id": "p16_3",
-      "original": "A gbe bosh di soka we !",
-      "phonetic_api": "/a ŋgbe bɔʃ di so.ka we/",
-      "phonetic_simple": "A NGBÉ BOSH DI SO-KA WÉ !",
-      "translation": "Il est strictement interdit de jouer ici !",
-      "context": "Formule d'autorité employée par un adulte à l'adresse de jeunes enfants."
+      "phrase_id": "p3",
+      "original": "Abi kɔha resya mɔ myaamari mɔɔ.",
+      "phonetic_api": "/abi kɔha resja mɔ mjaːmari mɔː/",
+      "phonetic_simple": "ABI KOHA RÉSYA MO MYAAMARI MÔÔ",
+      "translation": "Il finit par transgresser cet ordre-là.",
+      "context": "Illustre la violation d'une obligation/interdiction (« yaamari »)."
+    },
+    {
+      "phrase_id": "p_extra1",
+      "original": "Ati fɛɛfer bɛyaaw nɛɛ bɛyaaw faaŋa mkantaŋ.",
+      "phonetic_api": "/ati fɛːfer bɛjaːw nɛː bɛjaːw faːŋa mkantaŋ/",
+      "phonetic_simple": "TI",
+      "translation": "Elle doit cuire le riz pour les invités, car ils veulent continuer.",
+      "context": "Réemploi de l'exemple attesté pour le terme « ti (marqueur TAM dépendant) » (voir vocabulaire de cette leçon), afin d'illustrer son usage en phrase."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'expression impersonnelle de l'obligation et de l'interdiction",
-      "explanation": "En nalu, les notions de permission et de contrainte recourent fréquemment à des structures verbales précédées de la particule affirmative ou négative stabilisée par 'a gbe' (c'est / il est).",
+      "concept": "Le marqueur TAM « ti » pour l'obligation et le but",
+      "explanation": "Le marqueur « ti » du nalu n'a pas de valeur temporelle autonome : il s'emploie pour le subjonctif, le but, la condition et la narration, incluant les contextes d'obligation (« devoir faire quelque chose ») (Seidel 2024).",
       "rules": [
-        "L'obligation ou la permission formelle introduit le verbe d'action par la préposition 'di'.",
-        "Pour basculer dans l'interdiction, le verbe restrictif 'bosh' (refuser) s'installe directement après le marqueur impersonnel."
+        "« ti » précède le verbe et dépend du contexte de la phrase (souvent introduit par « nɛɛ » que).",
+        "L'interdiction/transgression s'exprime avec des verbes comme « resey » (casser, ruiner, transgresser) appliqués à un « yaamari » (ordre)."
       ],
       "examples": [
         {
-          "structure": "A gbe lan di meŋ",
-          "phonetic_api": "/a ŋgbe lan di meŋ/",
-          "meaning": "Il est permis de boire"
-        },
-        {
-          "structure": "A gbe bosh di ba",
-          "phonetic_api": "/a ŋgbe bɔʃ di ba/",
-          "meaning": "Il est interdit de venir"
+          "structure": "ati fɛɛfer",
+          "phonetic_api": "/ati fɛːfer/",
+          "meaning": "elle doit cuire (le riz) pour"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Lamine",
-      "text": "Ina, baa ! A rila a gbe lan di ba di cula mwo?",
-      "phonetic_api": "/i.na baː a ri.la a ŋgbe lan di ba di tʃu.la mwo/",
-      "phonetic_simple": "I-NA, BAA ! A RI-LA A NGBÉ LAN DI BA DI TCHOU-LA MWO?",
-      "translation": "S'il te plaît, mon père ! Est-il permis d'entrer dans ta chambre ?"
+      "speaker": "Locuteur A",
+      "text": "Ati fɛɛfer bɛyaaw nɛɛ bɛyaaw faaŋa mkantaŋ.",
+      "phonetic_api": "/ati fɛːfer bɛjaːw nɛː bɛjaːw faːŋa mkantaŋ/",
+      "phonetic_simple": "ATI FÉÉFÉR BÈYAAW NÈÈ BÈYAAW FAANGA M-KANTANG",
+      "translation": "Elle doit cuire le riz pour les invités, car ils veulent repartir."
     },
     {
-      "speaker": "Ousmane",
-      "text": "Mboye, bweten mi ! A gbe bosh n'gbe. M kanɛ wale di gbarano.",
-      "phonetic_api": "/mbo.je bʷe.ten mi a ŋgbe bɔʃ ŋgbe m ka.nɛ wa.le di g͡ba.ra.no/",
-      "phonetic_simple": "MBO-YÉ, BOUÉ-TEN MI ! A NGBÉ BOSH NGBÉ. M KA-NÈ WA-LÉ DI GBA-RA-NO.",
-      "translation": "Bonjour, mon enfant ! C'est interdit maintenant. Je dois accomplir un travail dans la cour."
+      "speaker": "Locuteur B",
+      "text": "Awa a mɔ ŋɛya nikaθaay koy kamceknah.",
+      "phonetic_api": "/awa a mɔ ŋɛja nikaθaːj koj kamt͜seknah/",
+      "phonetic_simple": "AWA A MO NGÈYA NIKATHAAY KOY KAM-TSÉKNAH",
+      "translation": "Qu'il aille là où sa femme extrait le sel, alors."
     },
     {
-      "speaker": "Lamine",
-      "text": "A ce ! M boku ba suba, ina thand mi.",
-      "phonetic_api": "/a tʃe m bo.ku ba su.ba i.na θand mi/",
-      "phonetic_simple": "A TCHÉ ! M BO-KOU BA SOU-BA, I-NA THAND MI.",
-      "translation": "C'est d'accord ! Je reviendrai demain, permets-moi de me retirer."
+      "speaker": "Locuteur A",
+      "text": "Hali mɔ nti kɔɔmnahar amaam.",
+      "phonetic_api": "/hali mɔ nti kɔːmnahar amaːm/",
+      "phonetic_simple": "HALI MO NTI KÔÔMNAHAR AMAAM",
+      "translation": "Non, celui-ci a déjà préparé ses affaires seul."
+    },
+    {
+      "speaker": "Locuteur A",
+      "text": "Ati fɛɛfer bɛyaaw.",
+      "phonetic_api": "/ati fɛːfer bɛjaːw/",
+      "phonetic_simple": "ATI FÉÉFÉR BÈYAAW",
+      "translation": "Elle doit cuire le riz pour les invités."
     }
   ],
   "cultural_notes": [
-    "Dans la société traditionnelle nalu, le respect des espaces privés et des prérogatives des aînés est régi par un code strict de préséance. On n'entre jamais dans la demeure ou la chambre ('cula') d'un ancien sans formuler explicitement une demande d'autorisation polie. L'interdiction ('bosh') notifiée par un sage est incontestable et acceptée avec déférence par l'ensemble de la communauté."
+    "L'exemple attesté sur la transgression d'un « myaamari » (ordre, commandement) provient d'un récit traditionnel/moral collecté par Seidel (2024), illustrant l'importance de l'autorité et de sa violation dans les récits nalu.",
+    "L'expression de l'obligation domestique (cuire le riz pour les invités) souligne les normes d'hospitalité fortement genrées observées dans les récits de vie recueillis."
   ],
   "exercises": [
     {
-      "exercise_id": "ex16_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Que signifie le terme verbal 'Kanɛ' ?",
+      "question": "Quel marqueur TAM du nalu sert notamment à exprimer l'obligation ou le but ?",
       "options": [
-        "Aimer",
-        "Devoir / Falloir",
-        "Nager"
+        "ti",
+        "koy",
+        "bi"
       ],
-      "correct_answer": "Devoir / Falloir",
-      "explanation": "'Kanɛ' exprime l'obligation impérative ou la nécessité absolue d'accomplir une action."
+      "correct_answer": "ti",
+      "explanation": "« ti » est une forme dépendante du contexte incluant subjonctif, but et obligation (Seidel 2024)."
     },
     {
-      "exercise_id": "ex16_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Pour exprimer qu'une chose est proscrite ou rejetée, on dit : A gbe [ ___ ] di ba.",
-      "correct_answer": "bosh",
-      "hint": "C'est la racine signifiant détester ou refuser"
+      "sentence_with_blank": "« Abi kɔha resya mɔ [ ___ ] mɔɔ » signifie « Il finit par transgresser cet ordre-là ».",
+      "correct_answer": "myaamari",
+      "hint": "Nom signifiant « ordre, commandement »."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Seidel, F. (2024) « Nalu », in The Oxford Guide to the Atlantic Languages of West Africa, Oxford University Press",
+      "url": "https://academic.oup.com/book/59850/chapter/511378992"
+    },
+    {
+      "label": "Glottolog 5.3, « Nalu » (nalu1240 / naj)",
+      "url": "https://glottolog.org/resource/languoid/id/nalu1240"
+    }
+  ],
+  "confidence": "faible",
+  "confidence_note": "Les notions d'obligation et de transgression sont illustrées par quelques phrases de récit ; aucune formule standard d'interdiction explicite (« il est interdit de... ») n'a été trouvée dans les sources disponibles."
 }

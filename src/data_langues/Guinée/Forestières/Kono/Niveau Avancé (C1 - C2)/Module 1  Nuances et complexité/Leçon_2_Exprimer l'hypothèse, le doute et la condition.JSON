@@ -1,177 +1,218 @@
 {
   "lesson_id": "C1_M1_L2",
-  "level": "Niveau Avancé (C1-C2)",
+  "level": "Avancé (C1-C2)",
   "module_number": 1,
   "module_title": "Nuances et complexité",
   "lesson_number": 2,
   "title": "Exprimer l'hypothèse, le doute et la condition",
   "learning_objectives": [
-    "Formuler des structures conditionnelles complexes (Si... alors) en kono",
-    "Exprimer l'incertitude, la probabilité et le doute face à un événement",
-    "Nuancer son discours en utilisant les particules de supposition"
+    "Formuler une condition simple avec une structure conditionnelle par juxtaposition",
+    "Exprimer le doute à l'aide de particules modales apparentées",
+    "Comprendre la structure générale des phrases conditionnelles en langues mandées"
   ],
   "phonetic_focus": {
-    "key_sounds": "Le mot 'kpɛ́á' (si / dans le cas où) commence par la consonne occlusive labio-vélaire sourde /k͡p/. Sa réalisation doit être parfaitement synchrone. La voyelle finale porte un ton haut suivi d'un glissement doux.",
-    "common_pitfalls": "Attention à ne pas confondre le mot de doute 'fɔ̀lɔ̀-fɔ́lɔ́' avec 'fɔ́lɔ́' (premier/d'abord). Le redoublement tonal bas-haut est obligatoire pour véhiculer l'incertitude."
+    "key_sounds": "Les particules de doute et de condition portent souvent un ton bas discret, en retrait par rapport au reste de la phrase, marquant leur statut de mot grammatical plutôt que lexical plein.",
+    "common_pitfalls": "Il n'existe pas de conjonction unique équivalente au « si » français clairement attestée en kono dans nos sources ; éviter de forcer une traduction littérale terme à terme."
   },
   "vocabulary": [
     {
-      "word_id": "v2_1",
-      "term": "kpɛ́á",
-      "phonetic_api": "/k͡pɛ́.á/",
-      "phonetic_simple": "KPE-A",
-      "translation": "si / au cas où / à condition que",
-      "example_sentence": "kpɛ́á í nà-ò, àá wá táá",
-      "phonetic_api_example": "/k͡pɛ́.á í nà.ò àː wá táː/",
-      "example_translation": "Si tu es venu, nous irons."
+      "word_id": "v1",
+      "term": "ná (extrapolé)",
+      "phonetic_api": "/ná/",
+      "phonetic_simple": "NA",
+      "translation": "si (conjonction hypothétique, extrapolée par analogie avec le maninka/mandingue voisin, NON attestée en kono dans nos sources)",
+      "example_sentence": "Ná é pá, ɲá lɔ́ɔ pá dɔ́mɔ́.",
+      "example_phonetic": "/ná é pá ɲá lɔ́ɔ pá dɔ́mɔ́/",
+      "example_translation": "Si tu viens, je viendrai aussi (structure hypothétique, confiance faible)."
     },
     {
-      "word_id": "v2_2",
-      "term": "fɔ̀lɔ̀-fɔ́lɔ́",
-      "phonetic_api": "/fɔ̀.lɔ̀.fɔ́.lɔ́/",
-      "phonetic_simple": "FO-LO-FO-LO",
-      "translation": "peut-être / sans certitude / il se peut",
-      "example_sentence": "fɔ̀lɔ̀-fɔ́lɔ́ á wá nà sínà",
-      "phonetic_api_example": "/fɔ̀.lɔ̀.fɔ́.lɔ́ á wá nà sí.nà/",
-      "example_translation": "Peut-être qu'il viendra demain."
+      "word_id": "v2",
+      "term": "dɔ́ɔ",
+      "phonetic_api": "/dɔ́ɔ/",
+      "phonetic_simple": "DO-O",
+      "translation": "pouvoir, possibilité (kpele apparenté)",
+      "example_sentence": "Yà dɔ́ɔ pá.",
+      "example_phonetic": "/jà dɔ́ɔ pá/",
+      "example_translation": "Il/elle pourrait venir (possibilité)."
     },
     {
-      "word_id": "v2_3",
-      "term": "hàà-yíé",
-      "phonetic_api": "/hàː.jí.é/",
-      "phonetic_simple": "HAA-YIEE",
-      "translation": "le doute / l'hésitation",
-      "example_sentence": "hàà-yíé tɛ́ ń yíé nìí lá",
-      "phonetic_api_example": "/hàː.jí.é tɛ́ ń jí.é nìː lá/",
-      "example_translation": "Je n'ai aucun doute là-dessus."
+      "word_id": "v3",
+      "term": "hó",
+      "phonetic_api": "/hó/",
+      "phonetic_simple": "HO",
+      "translation": "négation (kono attesté), utile pour l'hypothèse négative",
+      "example_sentence": "Ná é hó pá, ɲá wɛɛ̀́ hó klô kɛ́.",
+      "example_phonetic": "/ná é hó pá ɲá wɛ̀ː hó klô kɛ́/",
+      "example_translation": "Si tu ne viens pas, je ne travaillerai pas (structure extrapolée)."
     },
     {
-      "word_id": "v2_4",
-      "term": "fɛ́ɛ́-ò",
-      "phonetic_api": "/fɛ́ː.ò/",
-      "phonetic_simple": "FEE-O",
-      "translation": "pourvu que / si seulement",
-      "example_sentence": "fɛ́ɛ́-ò sámá á dɔ́ɔ́-dɔ̀ɔ̀",
-      "phonetic_api_example": "/fɛ́ː.ò sá.má á dɔ́ː.dɔ̀ː/",
-      "example_translation": "Pourvu que la pluie diminue."
+      "word_id": "v4",
+      "term": "dɛ́",
+      "phonetic_api": "/dɛ́/",
+      "phonetic_simple": "DÉ",
+      "translation": "particule interrogative, utile pour exprimer le doute sous forme de question rhétorique (kono attesté)",
+      "example_sentence": "Yà wɛɛ̀́ pá dɛ́?",
+      "example_phonetic": "/jà wɛ̀ːpá dɛ́/",
+      "example_translation": "Viendra-t-il/elle vraiment ? (exprime le doute par intonation interrogative)"
+    },
+    {
+      "word_id": "v5",
+      "term": "kɔ̀lɔ (marqueur discursif)",
+      "phonetic_api": "/kɔ̀lɔ/",
+      "phonetic_simple": "KO-LO",
+      "translation": "peut-être (extrapolation depuis le sens de « grand/étendu », usage discursif non directement attesté avec ce sens précis)",
+      "example_sentence": "Yà wɛɛ̀́ pá kɔ̀lɔ.",
+      "example_phonetic": "/jà wɛ̀ːpá kɔ̀lɔ/",
+      "example_translation": "Il/elle viendra peut-être (structure hypothétique, confiance faible)."
+    },
+    {
+      "word_id": "v6",
+      "term": "wɛɛ̀́",
+      "phonetic_api": "/wɛ̀ː/",
+      "phonetic_simple": "OUÉ-É",
+      "translation": "marqueur du futur (kono attesté), utilisé dans l'apodose conditionnelle",
+      "example_sentence": "Ná é pá, ɲá wɛɛ̀́ klô kɛ́.",
+      "example_phonetic": "/ná é pá ɲá wɛ̀ː klô kɛ́/",
+      "example_translation": "Si tu viens, je travaillerai."
+    },
+    {
+      "word_id": "v7",
+      "term": "ěe",
+      "phonetic_api": "/ěː/",
+      "phonetic_simple": "É-É",
+      "translation": "oui (kono attesté)",
+      "example_sentence": "Ěe, yà dɔ́ɔ pá.",
+      "example_phonetic": "/ěː jà dɔ́ɔ pá/",
+      "example_translation": "Oui, il/elle pourrait venir."
+    },
+    {
+      "word_id": "v8",
+      "term": "hó (doute)",
+      "phonetic_api": "/hó/",
+      "phonetic_simple": "HO",
+      "translation": "non, pas sûr (réponse dubitative, kono attesté)",
+      "example_sentence": "Hó, ŋa hó klɔŋ́.",
+      "example_phonetic": "/hó ŋá hó klɔ́ŋ/",
+      "example_translation": "Non, je ne sais pas (avec certitude)."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p2_1",
-      "original": "kpɛ́á sámá máá nà, àá wá táá kɔ̀nɔ̀n yí sɔ̀ɔ̀-gɓɛ̀ɛ̀",
-      "phonetic_api": "/k͡pɛ́.á sá.má máː nà àː wá táː kɔ̀nɔ̀n jí sɔ̀ː.ɡ͡ɓɛ̀ː/",
-      "phonetic_simple": "KPE-A SA-MA MAA NA AA WA TAA KONON YI SOO-GBEE",
-      "translation": "S'il ne pleut pas, nous irons au champ tôt ce matin.",
-      "context": "Planifier le travail agricole sous condition météorologique."
+      "phrase_id": "p1",
+      "original": "Ná é pá, ɲá wɛɛ̀́ klô kɛ́ (extrapolé).",
+      "phonetic_api": "/ná é pá ɲá wɛ̀ː klô kɛ́/",
+      "phonetic_simple": "NA É PA, NYA OUÉ-É KLO KÉ",
+      "translation": "Si tu viens, je travaillerai.",
+      "context": "Structure conditionnelle hypothétique, non attestée directement en kono ; confiance faible, basée sur une analogie avec les langues mandées voisines."
     },
     {
-      "phrase_id": "p2_2",
-      "original": "ń yíé káá hàà-yíé yíé á wóò nìí lá kpaán",
-      "phonetic_api": "/ń jí.é káː hàː.jí.é jí.é á wóː nìː lá k͡pāːn/",
-      "phonetic_simple": "N YIEE KAA HAA-YIEE YIEE A WOO NII LA KPAAN",
-      "translation": "Je doute énormément de sa parole.",
-      "context": "Exprimer son scepticisme lors d'une discussion importante."
+      "phrase_id": "p2",
+      "original": "Yà dɔ́ɔ pá.",
+      "phonetic_api": "/jà dɔ́ɔ pá/",
+      "phonetic_simple": "YA DO-O PA",
+      "translation": "Il/elle pourrait venir.",
+      "context": "Expression de la possibilité avec le modal dɔ́ɔ, apparenté kpele."
     },
     {
-      "phrase_id": "p2_3",
-      "original": "fɔ̀lɔ̀-fɔ́lɔ́ gbɛ́ɛ́ nìí tɛ́ wá lɔ́ gboi á sónɔ̀ lá",
-      "phonetic_api": "/fɔ̀.lɔ̀.fɔ́.lɔ́ ɡ͡ɓɛ́ː nìː tɛ́ wá lɔ́ ɡ͡ɓo.i á só.nɔ̀ lá/",
-      "phonetic_simple": "FO-LO-FO-LO GBEE NII TE WA LO GBOI A SONO LA",
-      "translation": "Peut-être que cet argent ne suffira pas pour son prix.",
-      "context": "Évaluer une probabilité financière lors d'un achat important."
+      "phrase_id": "p3",
+      "original": "Yà wɛɛ̀́ pá dɛ́?",
+      "phonetic_api": "/jà wɛ̀ːpá dɛ́/",
+      "phonetic_simple": "YA OUÉ-É PA DÉ",
+      "translation": "Viendra-t-il/elle vraiment ?",
+      "context": "Question rhétorique attestée en structure, exprimant le doute par l'intonation plutôt que par un mot dédié."
     },
     {
-      "phrase_id": "p2_4",
-      "original": "fɛ́ɛ́-ò í ɓáá káá kɛ́nɛ̀, àá wá á mɛ̀ɛ̀ sínà",
-      "phonetic_api": "/fɛ́ː.ò í ɓáː káː kɛ́nɛ̀ àː wá á mɛ̀ː sí.nà/",
-      "phonetic_simple": "FEE-O I BHAA KAA KENE AA WA A MEE SI-NA",
-      "translation": "Pourvu que ton père aille bien, nous le saurons demain.",
-      "context": "Formuler un souhait conditionnel concernant la santé d'un proche."
+      "phrase_id": "p4",
+      "original": "Hó, ŋa hó klɔŋ́.",
+      "phonetic_api": "/hó ŋá hó klɔ́ŋ/",
+      "phonetic_simple": "HO, NGA HO KLONG",
+      "translation": "Non, je ne sais pas.",
+      "context": "Réponse exprimant l'incertitude, combinant deux négations attestées hó."
     }
   ],
   "grammar_points": [
     {
-      "concept": "Le système conditionnel réel avec 'kpɛ́á'",
-      "explanation": "Pour exprimer une condition réelle ou probable dans le futur, la proposition subordonnée commence par 'kpɛ́á' (si). Le verbe de la condition se met souvent à l'accompli ou à la forme nue, tandis que la proposition principale utilise l'auxiliaire du futur 'wá'.",
+      "concept": "La structure conditionnelle par juxtaposition (hypothèse à confiance faible)",
+      "explanation": "Faute d'attestation directe d'une conjonction conditionnelle en kono dans les sources disponibles, cette leçon propose, par analogie avec les langues mandées voisines (maninka, mandingue), une structure hypothétique par juxtaposition de deux propositions : protase + apodose introduite par wɛɛ̀́. Cette structure DOIT être vérifiée avec un locuteur natif avant tout usage professionnel.",
       "rules": [
-        "kpɛ́á + Sujet + Verbe 1 (accompli/nu), Sujet + wá + Verbe 2 (futur)."
+        "Protase (condition) + Apodose (conséquence, souvent au futur wɛɛ̀́) = structure conditionnelle générale des langues mandées.",
+        "Le doute peut s'exprimer par une simple question avec dɛ́ en fin de phrase, structure elle bien attestée en kono.",
+        "La double négation hó...hó peut renforcer une réponse dubitative, mais cet usage combiné reste une extrapolation à valider."
       ],
       "examples": [
         {
-          "structure": "kpɛ́á í kɛ́-ò, ń wá í bɔ́",
-          "phonetic_api": "/k͡pɛ́.á í kɛ́.ò ń wá í ɓɔ́/",
-          "meaning": "Si tu le fais, je te paierai."
-        }
-      ]
-    },
-    {
-      "concept": "L'expression du doute intérieur avec 'yíé ... káá hàà-yíé'",
-      "explanation": "À l'instar des sentiments, le doute n'est pas un verbe d'action direct mais un état. Le mot 'hàà-yíé' (doute/balancement) habite l'espace intérieur ('yíé') du locuteur.",
-      "rules": [
-        "Sujet + yíé + káá + hàà-yíé + yíé (L'esprit du sujet est habité par le doute)."
-      ],
-      "examples": [
-        {
-          "structure": "ń yíé káá hàà-yíé yíé",
-          "phonetic_api": "/ń jí.é káː hàː.jí.é jí.é/",
-          "meaning": "Je doute / Je suis indécis."
+          "structure": "[Protase] , [Sujet + wɛɛ̀́ + Verbe]",
+          "phonetic_api": "/wɛ̀ː/",
+          "meaning": "Si [protase], alors [apodose] (structure hypothétique)"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Sia",
-      "text": "Koli, í wá táá kɔ̀nɔ̀n-wòò yíé bòn-wòò-gbɛ́ɛ́ wá ?",
-      "phonetic_api": "/kó.lí í wá táː kɔ̀nɔ̀n.wòː jí.é bòn.wòː.ɡ͡ɓɛ́ː wá/",
-      "phonetic_simple": "KOLI I WA TAA KONON-WOO YIEE BON-WOO-GBEE WA",
-      "translation": "Koli, iras-tu en voyage l'année prochaine ?"
+      "speaker": "Bala",
+      "text": "Yà wɛɛ̀́ pá dɛ́?",
+      "phonetic_api": "/jà wɛ̀ːpá dɛ́/",
+      "phonetic_simple": "YA OUÉ-É PA DÉ",
+      "translation": "Viendra-t-il/elle vraiment ?"
     },
     {
-      "speaker": "Koli",
-      "text": "fɔ̀lɔ̀-fɔ́lɔ́ ń wá táá. ń yíé káá hàà-yíé yíé míé, kpɛ́á gbɛ́ɛ́ tɛ́ ń fɛ́.",
-      "phonetic_api": "/fɔ̀.lɔ̀.fɔ́.lɔ́ ń wá táː ń jí.é káː hàː.jí.é jí.é mí.é k͡pɛ́.á ɡ͡ɓɛ́ː tɛ́ ń fɛ́/",
-      "phonetic_simple": "FO-LO-FO-LO N WA TAA. N YIEE KAA HAA-YIEE YIEE MIEE KPE-A GBEE TE N FEE",
-      "translation": "Peut-être que j'irai. Je suis indécis pour le moment, car je n'ai pas d'argent avec moi."
+      "speaker": "Sèni",
+      "text": "Hó, ŋa hó klɔŋ́ hɛ́ɣɛ.",
+      "phonetic_api": "/hó ŋá hó klɔ́ŋ hɛ́ɣɛ/",
+      "phonetic_simple": "HO, NGA HO KLONG HÉ-GHÉ",
+      "translation": "Non, je ne sais pas vraiment (avec certitude)."
     },
     {
-      "speaker": "Sia",
-      "text": "kpɛ́á í kpálá kɛ́-ò gíàn-gìàn, í wá gbɛ́ɛ́ sɔ̀ kpaán.",
-      "phonetic_api": "/k͡pɛ́.á í k͡pā.lá kɛ́.ò ɡí.àn.ɡì.àn í wá ɡ͡ɓɛ́ː sɔ̀ k͡pāːn/",
-      "phonetic_simple": "KPE-A I KPA-LA KE-O GIAN-GIAN I WA GBEE SO KPAAN",
-      "translation": "Si tu travailles sagement, tu obtiendras sûrement de l'argent."
+      "speaker": "Bala",
+      "text": "Yà dɔ́ɔ pá kɔ̀lɔ.",
+      "phonetic_api": "/jà dɔ́ɔ pá kɔ̀lɔ/",
+      "phonetic_simple": "YA DO-O PA KO-LO",
+      "translation": "Il/elle pourrait venir, peut-être."
     },
     {
-      "speaker": "Koli",
-      "text": "fɛ́ɛ́-ò á kɛ́ nìí gíí-gíí ! ń wá ń lɔ́ à kɛ́á.",
-      "phonetic_api": "/fɛ́ː.ò á kɛ́ nìː ɡíː.ɡíː ń wá ń lɔ́ à kɛ́.á/",
-      "phonetic_simple": "FEE-O A KE NII GII-GII N WA N LO A KEA",
-      "translation": "Pourvu qu'il en soit exactement ainsi ! Je vais m'y mettre de ce pas."
+      "speaker": "Sèni",
+      "text": "Ěe, ná yà pá, gɔẁá wɛɛ̀́ klô kɛ́.",
+      "phonetic_api": "/ěː ná jà pá gɔ̀wá wɛ̀ː klô kɛ́/",
+      "phonetic_simple": "É-É, NA YA PA, GO-OUA OUÉ-É KLO KÉ",
+      "translation": "Oui, s'il/elle vient, nous travaillerons."
     }
   ],
   "cultural_notes": [
-    "Dans la rhétorique konon à Lola, affirmer un événement futur avec une certitude absolue sans y adjoindre une nuance de réserve ou d'hypothèse ('kpɛ́á') est parfois perçu comme de la présomption vis-à-vis des forces de la nature et de la volonté des ancêtres. Utiliser des adverbes comme 'fɔ̀lɔ̀-fɔ́lɔ́' témoigne d'une prudence verbale valorisée lors des discussions communautaires."
+    "L'expression du doute et de l'incertitude passe souvent, dans les cultures mandées, par des réponses volontairement vagues ou indirectes plutôt que par un « je ne sais pas » abrupt, afin de préserver l'harmonie sociale.",
+    "Cette leçon illustre une zone de la grammaire kono particulièrement peu documentée : les phrases conditionnelles complexes restent un terrain de recherche linguistique ouvert pour cette langue, d'où la confiance faible affichée."
   ],
   "exercises": [
     {
-      "exercise_id": "ex2_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel mot correspond à la conjonction de condition 'si' en kono ?",
+      "question": "Quelle particule permet d'exprimer le doute par une question rhétorique en kono attesté ?",
       "options": [
-        "fɔ̀lɔ̀-fɔ́lɔ́",
-        "kpɛ́á",
-        "hàà-yíé"
+        "dɛ́",
+        "ná",
+        "kɔ̀lɔ"
       ],
-      "correct_answer": "kpɛ́á",
-      "explanation": "'kpɛ́á' introduit la condition ou l'hypothèse, tandis que 'fɔ̀lɔ̀-fɔ́lɔ́' exprime la probabilité (peut-être)."
+      "correct_answer": "dɛ́",
+      "explanation": "dɛ́ est la particule interrogative kono attestée, utilisable pour exprimer le doute via une question rhétorique."
     },
     {
-      "exercise_id": "ex2_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "ń yíé káá [ ___ ] yíé míé (Je suis dans le doute à présent)",
-      "correct_answer": "hàà-yíé",
-      "hint": "Le concept nominal pour le doute ou l'indécision"
+      "sentence_with_blank": "Hó, ŋa ___ klɔŋ́. (Non, je ne sais pas.)",
+      "correct_answer": "hó",
+      "hint": "Répétition de la négation kono attestée pour renforcer l'incertitude."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Maria Konoshenko, « Field Notes on Kono, a Southwestern Mande Lect of Forest Guinea », Mandenkan 57 (2017), pp. 77-107",
+      "url": "https://llacan.cnrs.fr/PDF/Mandenkan57/konoshenko57.pdf"
+    },
+    {
+      "label": "Maria Konoshenko, « Dictionnaire kpele de la Guinée (guerzé) – français », Mandenkan 62 (2019/2020)",
+      "url": "https://journals.openedition.org/mandenkan/2091"
+    }
+  ],
+  "confidence": "faible",
+  "confidence_note": "Ce sujet grammatical avancé n'est pas documenté dans les sources disponibles pour le Kono ou le Kpelle de Guinée. Le contenu a été construit par extrapolation prudente à partir des règles grammaticales attestées (système TAM, tons, alternance consonantique) décrites dans Konoshenko (2017), en respectant la structure typologique connue de la langue, mais sans validation par des exemples de phrases réellement attestés pour ce point précis. Aucune conjonction conditionnelle (« si ») n'est attestée en kono dans les sources disponibles ; la structure proposée est une extrapolation prudente par analogie typologique avec les langues mandées voisines, à valider impérativement avec des locuteurs natifs avant tout usage réel."
 }

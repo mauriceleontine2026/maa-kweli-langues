@@ -6,158 +6,182 @@
   "lesson_number": 5,
   "title": "Les chiffres, les nombres et le comptage",
   "learning_objectives": [
-    "Compter de 1 à 10 en langue nalu",
-    "Comprendre le système de base 5 pour exprimer les quantités"
+    "Compter de un à quatre en utilisant les formes attestées",
+    "Comprendre le système additif partiellement attesté pour cinq et neuf",
+    "Reconnaître les limites de la documentation sur les nombres nalu au-delà de quatre"
   ],
   "phonetic_focus": {
-    "key_sounds": "La consonne nasale finale '-ŋ' doit être articulée au fond de la gorge. Les groupes de voyelles comme '-ua' dans 'bitua' forment des diphtongues fluides qu'il ne faut pas couper par un coup de glotte.",
-    "common_pitfalls": "Attention à ne pas assimiler le chiffre '4' (binaang) à un mot français. Il faut insister sur le double 'aa' allongé pour être compris."
+    "key_sounds": "Le nalu comporte 7 voyelles avec opposition de longueur (i, u, e [ɪ], o [ʊ], ɛ, ɔ, a) et des consonnes comme θ (proche du 'th' anglais dur, prononcé [f] par de nombreux locuteurs), gb (occlusive labio-vélaire double, sans équivalent en français), et ŋ (comme 'ng' dans 'parking'). Source : Seidel (2024), The Oxford Guide to the Atlantic Languages of West Africa.",
+    "common_pitfalls": "Les francophones ont tendance à confondre ɛ/e et ɔ/o car le français ne marque pas systématiquement cette opposition de fermeture. Le θ est souvent mal prononcé car il n'existe pas en français ; beaucoup de locuteurs nalu eux-mêmes le réalisent [f]. La longueur vocalique (ex. redoublement de voyelle 'ɔɔ') doit être respectée, contrairement au français où elle n'est pas distinctive."
   },
   "vocabulary": [
     {
-      "word_id": "v5_1",
-      "term": "Deenung",
-      "phonetic_api": "/deː.nuŋ/",
-      "phonetic_simple": "DÉÉ-NOUNG",
-      "translation": "Un (1)",
-      "example_sentence": "Ceeb deenung.",
-      "example_phonetic": "/tʃeːb deː.nuŋ/",
-      "example_translation": "Un poisson."
+      "word_id": "v1",
+      "term": "deendek / d-endek",
+      "phonetic_api": "/deːndek/",
+      "phonetic_simple": "DÉÉNDÉK",
+      "translation": "un",
+      "example_sentence": "Mɲiin deendek koya lo.",
+      "example_phonetic": "/mɲiːn deːndek koja lo/",
+      "example_translation": "Un homme est ici."
     },
     {
-      "word_id": "v5_2",
-      "term": "Bileng",
-      "phonetic_api": "/bi.leŋ/",
-      "phonetic_simple": "BI-LENG",
-      "translation": "Deux (2)",
-      "example_sentence": "Ceeb bileng.",
-      "example_phonetic": "/tʃeːb bi.leŋ/",
-      "example_translation": "Deux poissons."
+      "word_id": "v2",
+      "term": "b-ilɛ",
+      "phonetic_api": "/bilɛ/",
+      "phonetic_simple": "BILÈ",
+      "translation": "deux",
+      "example_sentence": "b-ilɛ",
+      "example_phonetic": "/bilɛ/",
+      "example_translation": "deux (Wiktionary, d'après Fields 2001)"
     },
     {
-      "word_id": "v5_3",
-      "term": "Bitua",
-      "phonetic_api": "/bi.twa/",
-      "phonetic_simple": "BI-TOUA",
-      "translation": "Trois (3)",
-      "example_sentence": "Ceeb bitua.",
-      "example_phonetic": "/tʃeːb bi.twa/",
-      "example_translation": "Trois poissons."
+      "word_id": "v3",
+      "term": "p-aat / pat / pwaat",
+      "phonetic_api": "/paːt/",
+      "phonetic_simple": "PAAT",
+      "translation": "trois",
+      "example_sentence": "p-aat",
+      "example_phonetic": "/paːt/",
+      "example_translation": "trois (Wiktionary, d'après Fields 2001)"
     },
     {
-      "word_id": "v5_4",
-      "term": "Binaang",
-      "phonetic_api": "/bi.naːŋ/",
-      "phonetic_simple": "BI-NAANG",
-      "translation": "Quatre (4)",
-      "example_sentence": "Ceeb binaang.",
-      "example_phonetic": "/tʃeːb bi.naːŋ/",
-      "example_translation": "Quatre poissons."
+      "word_id": "v4",
+      "term": "bii-naan / bi-na",
+      "phonetic_api": "/biːnaːn/",
+      "phonetic_simple": "BIINAAN",
+      "translation": "quatre",
+      "example_sentence": "teedoŋ ti=biinaaŋ",
+      "example_phonetic": "/teːdɔŋ ti biːnaːŋ/",
+      "example_translation": "neuf, littéralement « cinq avec quatre » (Seidel 2024)"
     },
     {
-      "word_id": "v5_5",
-      "term": "Beeduŋ",
-      "phonetic_api": "/beː.duŋ/",
-      "phonetic_simple": "BÉÉ-DOUNG",
-      "translation": "Cinq (5)",
-      "example_sentence": "Ceeb beeduŋ.",
-      "example_phonetic": "/tʃeːb beː.duŋ/",
-      "example_translation": "Cinq poissons."
+      "word_id": "v5",
+      "term": "teedoŋ",
+      "phonetic_api": "/teːdɔŋ/",
+      "phonetic_simple": "TÉÉDONG",
+      "translation": "cinq",
+      "example_sentence": "teedoŋ ti=m-deendek",
+      "example_phonetic": "/teːdɔŋ ti mdeːndek/",
+      "example_translation": "six, littéralement « cinq avec un » (Seidel 2024, ex. « alah teedoŋ timdeendek » : six chambres)"
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p5_1",
-      "original": "A rila tange we?",
-      "phonetic_api": "/a ri.la taŋ.e we/",
-      "phonetic_simple": "A RI-LA TANG-É WÉ",
-      "translation": "Combien cela coûte-t-shirt / Combien y en a-t-il ?",
-      "context": "Indispensable pour demander une quantité ou un prix sur un marché nalu."
+      "phrase_id": "p1",
+      "original": "Teedoŋ ti=biinaaŋ.",
+      "phonetic_api": "/teːdɔŋ ti biːnaːŋ/",
+      "phonetic_simple": "TÉÉDONG TI BIINAANG",
+      "translation": "Neuf (littéralement « cinq avec quatre »).",
+      "context": "Exemple attesté par Seidel (2024) montrant un système additif partiel."
     },
     {
-      "phrase_id": "p5_2",
-      "original": "M balang abana tila.",
-      "phonetic_api": "/m ba.laŋ a.ba.na ti.la/",
-      "phonetic_simple": "M BA-LANG A-BA-NA TI-LA",
-      "translation": "J'ai trente ans.",
-      "context": "Permet d'utiliser les dizaines pour exprimer son âge."
+      "phrase_id": "p2",
+      "original": "Teedoŋ ti=m-deendek.",
+      "phonetic_api": "/teːdɔŋ ti mdeːndek/",
+      "phonetic_simple": "TÉÉDONG TI M-DÉÉNDÉK",
+      "translation": "Six (littéralement « cinq avec un »).",
+      "context": "Employé dans l'exemple « alah teedoŋ timdeendek » : « six chambres »."
     },
     {
-      "phrase_id": "p5_3",
-      "original": "Beeduŋ n'gbe deenung.",
-      "phonetic_api": "/beː.duŋ ŋgbe deː.nuŋ/",
-      "phonetic_simple": "BÉÉ-DOUNG NG-BÉ DÉÉ-NOUNG",
-      "translation": "Six (Cinq et un).",
-      "context": "Construction structurelle pour compter au-delà de cinq."
+      "phrase_id": "p3",
+      "original": "Alah teedoŋ timdeendek.",
+      "phonetic_api": "/alah teːdɔŋ timdeːndek/",
+      "phonetic_simple": "ALAH TÉÉDONG TIM-DÉÉNDÉK",
+      "translation": "Six chambres.",
+      "context": "Phrase complète attestée par Seidel (2024) dans un contexte de construction/mesure."
+    },
+    {
+      "phrase_id": "p_extra1",
+      "original": "Mɲiin deendek koya lo.",
+      "phonetic_api": "/mɲiːn deːndek koja lo/",
+      "phonetic_simple": "DÉÉNDÉK",
+      "translation": "Un homme est ici.",
+      "context": "Réemploi de l'exemple attesté pour le terme « deendek / d-endek » (voir vocabulaire de cette leçon), afin d'illustrer son usage en phrase."
     }
   ],
   "grammar_points": [
     {
-      "concept": "Le système de numération en base 5",
-      "explanation": "La langue nalu utilise un système de comptage quinaire (base 5). Les chiffres de 1 à 5 possèdent des racines uniques, tandis que les chiffres de 6 à 9 se forment par addition à partir de la base 5 ('beeduŋ').",
+      "concept": "Système numéral partiellement additif",
+      "explanation": "Les nombres un à quatre ont des racines propres (deendek, bilɛ, paat, biinaaŋ). Le cinq (teedoŋ) sert ensuite de base additive : « teedoŋ ti=X » = « cinq + X », comme dans teedoŋ ti=m-deendek « six » (cinq+un) et teedoŋ ti=biinaaŋ « neuf » (cinq+quatre) (Seidel 2024).",
       "rules": [
-        "Les nombres se placent toujours après le nom qu'ils qualifient.",
-        "Pour former 6, on associe la base 5 (beeduŋ) au chiffre 1 (deenung) relié par la particule de coordination."
+        "Les nombres 7, 8 et 10 ne sont attestés dans aucune des sources consultées : on peut supposer par analogie « teedoŋ ti=bilɛ » pour sept et « teedoŋ ti=paat » pour huit, mais ce ne sont pas des formes confirmées par une source — elles ne doivent donc pas être présentées comme certaines.",
+        "Le dix n'a aucune forme attestée ni déductible avec certitude dans la documentation disponible."
       ],
       "examples": [
         {
-          "structure": "Beeduŋ n'gbe bileng",
-          "phonetic_api": "/beː.duŋ ŋgbe bi.leŋ/",
-          "meaning": "Sept (5 + 2)"
-        },
-        {
-          "structure": "Tila",
-          "phonetic_api": "/ti.la/",
-          "meaning": "Dix / Trente (selon le contexte des classes nominales de dizaines)"
+          "structure": "teedoŋ ti=m-deendek",
+          "phonetic_api": "/teːdɔŋ ti mdeːndek/",
+          "meaning": "six (cinq+un)"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Samba",
-      "text": "Ina, ceeb a rila tange?",
-      "phonetic_api": "/i.na tʃeːb a ri.la taŋ.e/",
-      "phonetic_simple": "I-NA, TCHÉÉB A RI-LA TANG-É?",
-      "translation": "S'il te plaît, combien coûtent les poissons ?"
+      "speaker": "Enseignant",
+      "text": "Mɲiin deendek koya lo.",
+      "phonetic_api": "/mɲiːn deːndek koja lo/",
+      "phonetic_simple": "M-NYIIN DÉÉNDÉK KOYA LO",
+      "translation": "Un homme est ici."
     },
     {
-      "speaker": "Fatou",
-      "text": "Ceeb binaang gbe mboye ce.",
-      "phonetic_api": "/tʃeːb bi.naːŋ gbe mbo.je tʃe/",
-      "phonetic_simple": "TCHÉÉB BI-NAANG GBÉ MBO-YÉ TCHÉ.",
-      "translation": "Quatre poissons sont de bonne qualité."
+      "speaker": "Élève",
+      "text": "Alah teedoŋ timdeendek.",
+      "phonetic_api": "/alah teːdɔŋ timdeːndek/",
+      "phonetic_simple": "ALAH TÉÉDONG TIM-DÉÉNDÉK",
+      "translation": "Six chambres."
     },
     {
-      "speaker": "Samba",
-      "text": "M malang beeduŋ n'gbe deenung. Nu koka!",
-      "phonetic_api": "/m ba.laŋ beː.duŋ ŋgbe deː.nuŋ nu ko.ka/",
-      "phonetic_simple": "M BA-LANG BÉÉ-DOUNG NG-BÉ DÉÉ-NOUNG. NOU KO-KA!",
-      "translation": "J'en prends six (5+1). Merci !"
+      "speaker": "Enseignant",
+      "text": "Teedoŋ ti=biinaaŋ.",
+      "phonetic_api": "/teːdɔŋ ti biːnaːŋ/",
+      "phonetic_simple": "TÉÉDONG TI BIINAANG",
+      "translation": "Neuf (littéralement « cinq avec quatre »)."
+    },
+    {
+      "speaker": "Élève",
+      "text": "Teedoŋ ti=m-deendek.",
+      "phonetic_api": "/teːdɔŋ ti mdeːndek/",
+      "phonetic_simple": "TÉÉDONG TI M-DÉÉNDÉK",
+      "translation": "Six (littéralement « cinq avec un »)."
     }
   ],
   "cultural_notes": [
-    "Dans les échanges commerciaux sur les marchés du littoral de Boké, le comptage traditionnel nalu est très lié aux doigts de la main (une main complète représentant la base 5). Bien que le calcul monétaire moderne utilise parfois les monnaies guinéennes ou des termes empruntés, l'usage des chiffres natifs est préservé pour les produits de la pêche et de l'agriculture."
+    "Le système numéral nalu documenté (1 à 4 puis un système additif à partir de 5) est typique de nombreuses langues atlantiques de la région, mais la documentation disponible pour le nalu reste incomplète au-delà de neuf.",
+    "Aucune ressource pédagogique ne propose de liste complète des nombres nalu de 1 à 100 ; cette lacune reflète le manque général de matériel d'enseignement pour cette langue très rare."
   ],
   "exercises": [
     {
-      "exercise_id": "ex5_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Comment dit-on le chiffre 'Deux' en nalu ?",
+      "question": "Comment se forme le nombre « neuf » en nalu d'après les sources attestées ?",
       "options": [
-        "Deenung",
-        "Bileng",
-        "Bitua"
+        "Une racine indépendante",
+        "« cinq + quatre » (teedoŋ ti=biinaaŋ)",
+        "Un emprunt au français"
       ],
-      "correct_answer": "Bileng",
-      "explanation": "'Bileng' correspond au nombre deux dans la série numérique élémentaire."
+      "correct_answer": "« cinq + quatre » (teedoŋ ti=biinaaŋ)",
+      "explanation": "Seidel (2024) atteste cette construction additive."
     },
     {
-      "exercise_id": "ex5_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Le chiffre cinq se dit : [ ___ ].",
-      "correct_answer": "beeduŋ",
-      "hint": "C'est la base indispensable pour former le chiffre six"
+      "sentence_with_blank": "« [ ___ ] » signifie « cinq » en nalu.",
+      "correct_answer": "teedoŋ",
+      "hint": "Base du système additif pour les nombres supérieurs à quatre."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Seidel, F. (2024) « Nalu », in The Oxford Guide to the Atlantic Languages of West Africa, Oxford University Press",
+      "url": "https://academic.oup.com/book/59850/chapter/511378992"
+    },
+    {
+      "label": "Wiktionary, « Appendix:Word lists of Atlantic languages of Guinea » (d'après Fields 2001, 2008)",
+      "url": "https://en.wiktionary.org/wiki/Appendix:Word_lists_of_Atlantic_languages_of_Guinea"
+    }
+  ],
+  "confidence": "faible",
+  "confidence_note": "Seuls les nombres un à cinq, ainsi que six et neuf par construction additive attestée dans des phrases d'exemple, sont documentés. Les nombres sept, huit et dix ne sont attestés dans aucune source trouvée ; ils ne sont donc pas présentés dans cette leçon pour éviter toute invention."
 }

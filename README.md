@@ -73,6 +73,7 @@ DATABASE_URL=sqlite:///./mbaara.db
 JWT_SECRET=change-this-secret
 JWT_ALGORITHM=HS256
 OPENAI_API_KEY=<your_openai_api_key>
+PERPLEXITY_API_KEY=<your_perplexity_api_key>
 ```
 
 5. Once the Repl is running, verify the backend is available at:

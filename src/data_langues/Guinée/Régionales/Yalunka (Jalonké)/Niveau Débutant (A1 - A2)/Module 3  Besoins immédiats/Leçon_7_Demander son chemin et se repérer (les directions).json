@@ -4,226 +4,211 @@
   "module_number": 3,
   "module_title": "Besoins immédiats",
   "lesson_number": 7,
-  "title": "Demander son chemin et se repérer",
+  "title": "Demander son chemin et se repérer (les directions)",
   "learning_objectives": [
-    "Demander la localisation d'un lieu public ou d'une habitation en Yalunka",
-    "Comprendre et utiliser les principaux indicateurs de direction et d'orientation",
-    "S'orienter dans l'espace en utilisant des repères visuels simples"
+    "Utiliser 'jìifáŋ̀' (droite) et 'kɔ̀láà' (gauche) pour indiquer une direction",
+    "Utiliser les verbes de mouvement 'mátèé/tèé' (monter) et 'gòró' (descendre)",
+    "Poser une question simple avec 'bà'"
   ],
   "phonetic_focus": {
-    "key_sounds": "La lettre 'x' produit le son fricatif vélaire sourd /x/. Le groupe de lettres 'fanyin' comporte une nasale palatale /ɲ/ suivie d'une nasalisation finale. Les voyelles longues comme le 'ii' dans 'fariinde' doivent durer distinctement plus longtemps que les voyelles brèves.",
-    "common_pitfalls": "Attention à ne pas omettre la nasalisation finale dans les postpositions de lieu se terminant par '-nde' ou '-ma', essentielles pour la précision géographique."
+    "key_sounds": "Le yalunka (dialonké) comporte une occlusive uvulaire notée « q » (cognat du « x » soussou, prononcée en raclant le fond de la gorge, comme la jota espagnole), des voyelles longues notées par redoublement (ex. « áa »), et des consonnes nasales finales notées « ŋ » (comme le « ng » anglais de « sing »). Le ton (haut ´ / bas `) est phonologiquement distinctif dans la variété de Faléya décrite par Creissels (2010).",
+    "common_pitfalls": "Les francophones prononcent souvent « q » comme un simple « k » au lieu de le racler au fond de la gorge ; ils réduisent le « ŋ » final à « n » ou « ngue » ; et ils ignorent les tons, ce qui peut changer le sens d'un mot puisque le ton est distinctif en yalunka."
   },
   "vocabulary": [
     {
-      "word_id": "v7_1",
-      "term": "Kiraa",
-      "phonetic_api": "/ki.raː/",
-      "phonetic_simple": "KI-RAA",
-      "translation": "Chemin / Route / Rue",
-      "example_sentence": "Kiraa na min ?",
-      "example_phonetic": "/ki.raː na min/",
-      "example_translation": "Où est le chemin ?"
+      "word_id": "v1",
+      "term": "jìifáŋ̀",
+      "phonetic_api": "/jìifáŋ̀/",
+      "phonetic_simple": "dji-i-FANG",
+      "translation": "main droite / à droite",
+      "example_sentence": "Bàŋqí náŋ jìifáŋ̀.",
+      "example_phonetic": "/bàŋqí náŋ jìifáŋ̀/",
+      "example_translation": "La maison est à droite."
     },
     {
-      "word_id": "v7_2",
-      "term": "Banxi",
-      "phonetic_api": "/ban.xi/",
-      "phonetic_simple": "BAN-KHI",
-      "translation": "Maison / Bâtiment",
-      "example_sentence": "N na sigama banxi mɛ.",
-      "example_phonetic": "/ŋ na si.ɡa.ma ban.xi mɛ/",
-      "example_translation": "Je vais à la maison."
+      "word_id": "v2",
+      "term": "kɔ̀láà",
+      "phonetic_api": "/kɔ̀láà/",
+      "phonetic_simple": "kô-LA-a",
+      "translation": "main gauche / à gauche",
+      "example_sentence": "Bàŋqí náŋ kɔ̀láà.",
+      "example_phonetic": "/bàŋqí náŋ kɔ̀láà/",
+      "example_translation": "La maison est à gauche."
     },
     {
-      "word_id": "v7_3",
-      "term": "Fariinde",
-      "phonetic_api": "/fa.riːn.de/",
-      "phonetic_simple": "FA-RIIN-DÉ",
-      "translation": "À droite / Le côté droit",
-      "example_sentence": "Siga i fariinde.",
-      "example_phonetic": "/si.ɡa i fa.riːn.de/",
-      "example_translation": "Va sur ta droite."
+      "word_id": "v3",
+      "term": "tèé",
+      "phonetic_api": "/tèé/",
+      "phonetic_simple": "TÉ-é",
+      "translation": "monter",
+      "example_sentence": "Ń tèé.",
+      "example_phonetic": "/ń tèé/",
+      "example_translation": "Je monte."
     },
     {
-      "word_id": "v7_4",
-      "term": "Kɔmɛnde",
-      "phonetic_api": "/kɔ.mɛn.de/",
-      "phonetic_simple": "KƆ-MÈN-DÉ",
-      "translation": "À gauche / Le côté gauche",
-      "example_sentence": "Banxi na i kɔmɛnde.",
-      "example_phonetic": "/ban.xi na i kɔ.mɛn.de/",
-      "example_translation": "La maison est à ta gauche."
+      "word_id": "v4",
+      "term": "gòró",
+      "phonetic_api": "/gòró/",
+      "phonetic_simple": "go-RO",
+      "translation": "descendre",
+      "example_sentence": "Ń gòró.",
+      "example_phonetic": "/ń gòró/",
+      "example_translation": "Je descends."
     },
     {
-      "word_id": "v7_5",
-      "term": "Taaxui",
-      "phonetic_api": "/taː.xui/",
-      "phonetic_simple": "TAA-KHOUI",
-      "translation": "Marché / Ville / Centre",
-      "example_sentence": "Taaxui na danyi.",
-      "example_phonetic": "/taː.xui na da.ɲi/",
-      "example_translation": "Le marché est là-bas."
+      "word_id": "v5",
+      "term": "sóo",
+      "phonetic_api": "/sóo/",
+      "phonetic_simple": "SO-o",
+      "translation": "entrer",
+      "example_sentence": "Ń sóo bàŋqí.",
+      "example_phonetic": "/ń sóo bàŋqí/",
+      "example_translation": "J'entre dans la maison."
+    },
+    {
+      "word_id": "v6",
+      "term": "fáa",
+      "phonetic_api": "/fáa/",
+      "phonetic_simple": "FA-a",
+      "translation": "venir",
+      "example_sentence": "Fáa bée!",
+      "example_phonetic": "/fáa bée/",
+      "example_translation": "Viens ici !"
+    },
+    {
+      "word_id": "v7",
+      "term": "bée",
+      "phonetic_api": "/bée/",
+      "phonetic_simple": "BÉ-é",
+      "translation": "ici",
+      "example_sentence": "Bàŋqí náŋ bée.",
+      "example_phonetic": "/bàŋqí náŋ bée/",
+      "example_translation": "La maison est ici."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p7_1",
-      "original": "Taaxui na min ?",
-      "phonetic_api": "/taː.xui na min/",
-      "phonetic_simple": "TAA-KHOUI NA MIN ?",
-      "translation": "Où se trouve le marché ?",
-      "context": "Demander sa direction pour trouver un lieu central d'activité économique."
+      "phrase_id": "p1",
+      "original": "Bàŋqí náŋ jìifáŋ̀ bà?",
+      "phonetic_api": "/bàŋqí náŋ jìifáŋ̀ bà/",
+      "phonetic_simple": "BANG-qi nang dji-i-FANG ba",
+      "translation": "Est-ce que la maison est à droite ?",
+      "context": "Question de direction combinant 'bàŋqí' (maison), 'jìifáŋ̀' (droite) et la particule interrogative 'bà'."
     },
     {
-      "phrase_id": "p7_2",
-      "original": "Siga a yarisigi.",
-      "phonetic_api": "/si.ɡa a ja.ri.si.ɡi/",
-      "phonetic_simple": "SI-GA A YA-RI-SI-GUI",
-      "translation": "Va tout droit.",
-      "context": "Indiquer une trajectoire rectiligne sans bifurquer."
+      "phrase_id": "p2",
+      "original": "Fáa bée!",
+      "phonetic_api": "/fáa bée/",
+      "phonetic_simple": "FA-a BÉ-é",
+      "translation": "Viens ici !",
+      "context": "Ordre simple utilisant le verbe 'fáa' (venir) et l'adverbe 'bée' (ici)."
     },
     {
-      "phrase_id": "p7_3",
-      "original": "Mabilin i fariinde.",
-      "phonetic_api": "/ma.bi.lin i fa.riːn.de/",
-      "phonetic_simple": "MA-BI-LIN I FA-RIIN-DÉ",
-      "translation": "Tourne sur ta droite.",
-      "context": "Donner une instruction de changement de direction à une intersection."
+      "phrase_id": "p3",
+      "original": "Ń gòró, ń sóo bàŋqí.",
+      "phonetic_api": "/ń gòró, ń sóo bàŋqí/",
+      "phonetic_simple": "n go-RO, n SO-o BANG-qi",
+      "translation": "Je descends, j'entre dans la maison.",
+      "context": "Enchaînement de deux verbes de mouvement."
     },
     {
-      "phrase_id": "p7_4",
-      "original": "A na xuye nan na ?",
-      "phonetic_api": "/a na xu.je nan na/",
-      "phonetic_simple": "A NA KHOU-YÉ NAN NA ?",
-      "translation": "Est-ce que c'est loin ?",
-      "context": "S'enquérir de la distance d'un point géographique."
-    },
-    {
-      "phrase_id": "p7_5",
-      "original": "A mu xuye, a na dɔnxɔn.",
-      "phonetic_api": "/a mu xu.je a na dɔ.nxɔn/",
-      "phonetic_simple": "A MOU KHOU-YÉ, A NA DON-KHON",
-      "translation": "Ce n'est pas loin, c'est tout près.",
-      "context": "Rassurer un piéton ou un voyageur sur la proximité d'une destination."
-    },
-    {
-      "phrase_id": "p7_6",
-      "original": "N bata kiraa lɔn.",
-      "phonetic_api": "/ŋ ba.ta ki.raː lɔn/",
-      "phonetic_simple": "N BA-TA KI-RAA LON",
-      "translation": "Je me suis trompé de chemin / Je suis perdu.",
-      "context": "Signaler son orientation erronée à un habitant pour obtenir de l'aide."
-    },
-    {
-      "phrase_id": "p7_7",
-      "original": "Karamɔxɔ banxi na min ?",
-      "phonetic_api": "/ka.ra.mɔ.xɔ ban.xi na min/",
-      "phonetic_simple": "KA-RA-MO-KHO BAN-KHI NA MIN ?",
-      "translation": "Où est la maison de l'enseignant ?",
-      "context": "Rechercher la concession d'une personne spécifique du village."
-    },
-    {
-      "phrase_id": "p7_8",
-      "original": "A mabilin banxi fidin.",
-      "phonetic_api": "/a ma.bi.lin ban.xi fi.din/",
-      "phonetic_simple": "A MA-BI-LIN BAN-KHI FI-DIN",
-      "translation": "Tourne après la deuxième maison.",
-      "context": "Utiliser des structures urbaines comme repères de comptage."
+      "phrase_id": "p4",
+      "original": "Bàŋqí náŋ jìifáŋ̀ xa.",
+      "phonetic_api": "/bàŋqí náŋ jìifáŋ̀ xa/",
+      "phonetic_simple": "BANG-qi nang dji-i-FANG xa",
+      "translation": "La maison est du côté droit.",
+      "context": "Combine 'bàŋqí' (maison) et 'jìifáŋ̀' (droite), tous deux attestés."
     }
   ],
   "grammar_points": [
     {
-      "concept": "L'interrogatif de lieu 'min'",
-      "explanation": "Pour demander la position ou l'emplacement d'un objet ou d'un lieu, le Yalunka emploie le morphème interrogatif 'min'. Il est précédé du sujet et du marqueur de présence locative 'na'.",
+      "concept": "Les verbes de mouvement de base",
+      "explanation": "Le yalunka dispose de verbes simples et invariables pour les mouvements de base : 'tèé/mátèé' (monter), 'gòró' (descendre), 'sóo' (entrer), 'fáa' (venir). Ces verbes se placent après le sujet, conformément à l'ordre SVO signalé par Wikipédia (FR) pour cette langue.",
       "rules": [
-        "Sujet + na + min ?",
-        "Se place toujours en fin de proposition interrogative."
+        "sujet + verbe de mouvement",
+        "'bée' (ici) peut suivre le verbe pour préciser le lieu"
       ],
       "examples": [
         {
-          "structure": "Kiraa na min ?",
-          "phonetic_api": "/ki.raː na min/",
-          "meaning": "Où est le chemin ?"
-        }
-      ]
-    },
-    {
-      "concept": "Les suffixes directeurs et locatifs '-nde'",
-      "explanation": "Les notions de repérage latéral (droite, gauche) utilisent le suffixe casuel locatif '-nde' attaché aux radicaux d'orientation.",
-      "rules": [
-        "Fariin (droite) + de = Fariinde (vers la droite / à droite)",
-        "Kɔmɛn (gauche) + de = Kɔmɛnde (vers la gauche / à gauche)"
-      ],
-      "examples": [
-        {
-          "structure": "Siga i kɔmɛnde",
-          "phonetic_api": "/si.ɡa i kɔ.mɛn.de/",
-          "meaning": "Va sur ta gauche"
+          "structure": "fáa + bée",
+          "phonetic_api": "/fáa bée/",
+          "meaning": "viens ici"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Amadou",
-      "text": "Sabari n ngaxanfe, taaxui na min ?",
-      "phonetic_api": "/sa.ba.ri ŋ ŋa.xan.fe taː.xui na min/",
-      "phonetic_simple": "SA-BA-RI N NGA-KHAN-FÉ, TAA-KHOUI NA MIN ?",
-      "translation": "Excuse-moi mon frère, où se trouve le marché ?"
+      "speaker": "Voyageur",
+      "text": "Bàŋqí náŋ jìifáŋ̀ bà?",
+      "phonetic_api": "/bàŋqí náŋ jìifáŋ̀ bà/",
+      "phonetic_simple": "BANG-qi nang dji-i-FANG ba",
+      "translation": "Est-ce que la maison est à droite ?"
     },
     {
-      "speaker": "Sekou",
-      "text": "Siga a yarisigi, na fariinde mabilin.",
-      "phonetic_api": "/si.ɡa a ja.ri.si.ɡi na fa.riːn.de ma.bi.lin/",
-      "phonetic_simple": "SI-GA A YA-RI-SI-GUI, NA FA-RIIN-DÉ MA-BI-LIN",
-      "translation": "Va tout droit, puis tourne sur la droite."
+      "speaker": "Habitant",
+      "text": "Áyí, bàŋqí náŋ kɔ̀láà.",
+      "phonetic_api": "/áyí, bàŋqí náŋ kɔ̀láà/",
+      "phonetic_simple": "A-yi, BANG-qi nang kô-LA-a",
+      "translation": "Non, la maison est à gauche."
     },
     {
-      "speaker": "Amadou",
-      "text": "A na xuye nan na ?",
-      "phonetic_api": "/a na xu.je nan na/",
-      "phonetic_simple": "A NA KHOU-YÉ NAN NA ?",
-      "translation": "Est-ce que c'est loin ?"
+      "speaker": "Voyageur",
+      "text": "Awa, ń gòró náŋ kɔ̀láà.",
+      "phonetic_api": "/awa, ń gòró náŋ kɔ̀láà/",
+      "phonetic_simple": "a-wa, n go-RO nang kô-LA-a",
+      "translation": "D'accord, je descends à gauche."
     },
     {
-      "speaker": "Sekou",
-      "text": "A mu xuye, a na dɔnxɔn banxi naani mɛ.",
-      "phonetic_api": "/a mu xu.je a na dɔ.nxɔn ban.xi naː.ni mɛ/",
-      "phonetic_simple": "A MOU KHOU-YÉ, A NA DON-KHON BAN-KHI NAA-NI MÈ",
-      "translation": "Ce n'est pas loin, c'est tout près à quatre maisons d'ici."
+      "speaker": "Voyageur",
+      "text": "Lúumù náŋ mín?",
+      "phonetic_api": "/lúumù náŋ mín/",
+      "phonetic_simple": "LOU-ou-mou nang min",
+      "translation": "Où est le marché ?"
     },
     {
-      "speaker": "Amadou",
-      "text": "Inu wali, Sekou.",
-      "phonetic_api": "/i.nu wa.li se.ku/",
-      "phonetic_simple": "I-NOU WA-LI, SÉ-KOU",
-      "translation": "Merci pour ton aide, Sekou."
+      "speaker": "Habitant",
+      "text": "À náŋ kɔ̀láà.",
+      "phonetic_api": "/à náŋ kɔ̀láà/",
+      "phonetic_simple": "a nang KÔ-la-a",
+      "translation": "Il est à gauche."
     }
   ],
   "cultural_notes": [
-    "Dans l'espace culturel Jalonké, s'orienter repose fortement sur la topographie locale et les édifices d'intérêt collectif comme les marchés ('taaxui') ou les arbres à palabres majeurs.",
-    "Il est d'usage constant d'initier toute demande d'itinéraire par une salutation complète et chaleureuse auprès de la personne sollicitée avant d'exposer son besoin de repérage."
+    "Dans les villages de la région de Faranah, les repères de direction s'appuient souvent sur des éléments naturels (rivière, colline) plutôt que sur des noms de rues.",
+    "Demander son chemin à un aîné s'accompagne généralement d'une formule de politesse préalable, comme dans le reste de la culture guinéenne."
   ],
   "exercises": [
     {
-      "exercise_id": "ex7_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quelle expression permet d'ordonner à quelqu'un d'aller 'tout droit' ?",
+      "question": "Que signifie 'kɔ̀láà' ?",
       "options": [
-        "Mabilin kɔmɛnde",
-        "Siga a yarisigi",
-        "A na xuye"
+        "à gauche / main gauche",
+        "à droite",
+        "tout droit"
       ],
-      "correct_answer": "Siga a yarisigi",
-      "explanation": "'Siga a yarisigi' intègre le verbe de mouvement 'siga' (aller/partir) combiné à l'adverbe signifiant en ligne droite."
+      "correct_answer": "à gauche / main gauche",
+      "explanation": "Attesté dans Creissels (2010)."
     },
     {
-      "exercise_id": "ex7_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Pour exprimer le côté gauche, on emploie le terme [ ___ ].",
-      "correct_answer": "kɔmɛnde",
-      "hint": "Ce mot porte le suffixe de localisation et commence par une consonne occlusive sourde."
+      "sentence_with_blank": "« Viens ici » se dit : [ ___ ] bée.",
+      "correct_answer": "fáa",
+      "hint": "C'est le verbe 'venir'."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Denis Creissels — Liste lexicale du dialonké de Faléya, Mandenkan 46 (2010), pp. 49-71",
+      "url": "http://www.deniscreissels.fr/public/Creissels-liste_lexicale_dialonke.pdf"
+    },
+    {
+      "label": "Wikipédia (FR) — Jalonké (langue)",
+      "url": "https://fr.wikipedia.org/wiki/Jalonk%C3%A9_(langue)"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Les mots pour 'droite', 'gauche', 'monter', 'descendre', 'entrer' et 'venir' sont attestés (Creissels 2010). Aucune source ne fournit cependant un vocabulaire dédié aux points cardinaux (nord/sud/est/ouest) ni des expressions figées pour demander son chemin : ces éléments sont absents et non inventés."
 }

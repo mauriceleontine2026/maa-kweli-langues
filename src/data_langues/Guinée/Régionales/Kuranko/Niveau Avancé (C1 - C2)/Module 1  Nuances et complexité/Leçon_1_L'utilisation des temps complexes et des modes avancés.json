@@ -6,172 +6,204 @@
   "lesson_number": 1,
   "title": "L'utilisation des temps complexes et des modes avancés",
   "learning_objectives": [
-    "Maîtriser le plus-que-parfait et les actions antérieures dans le récit",
-    "Utiliser le conditionnel passé pour exprimer des regrets ou des opportunités manquées",
-    "Manipuler les particules d'insistance et de focalisation pour nuancer le discours"
+    "Distinguer les marqueurs aspectuels attestés « bara » (accompli) et « bɛ » (état/présent général)",
+    "Comprendre les limites documentaires disponibles sur le système temporel complet du kuranko",
+    "Analyser des énoncés combinant plusieurs marqueurs aspectuels dans des citations authentiques"
   ],
   "phonetic_focus": {
-    "key_sounds": "L'articulation du morphème complexe 'tun' nécessite une nasalisation occlusive alvéolaire sourde /tun/. Le phonème /g͡b/ dans 'gbanan' doit être parfaitement co-articulé sans insertion de voyelle épenthétique.",
-    "common_pitfalls": "Veillez à ne pas confondre la particule de focalisation 'le' (qui porte un ton haut ou descendant selon le contexte) avec le pronom objet de troisième personne dans d'autres variantes mandingues."
+    "key_sounds": "La distinction tonale entre « bɛ » (présent d'état, ton bas) et « bara » (accompli, deux tons moyens) est cruciale pour ne pas confondre les deux marqueurs aspectuels.",
+    "common_pitfalls": "Les francophones cherchent souvent des équivalents stricts aux temps français (imparfait, plus-que-parfait) alors que le kuranko, comme les autres langues mandé, organise son système autour de l'aspect (accompli/inaccompli) plutôt que du temps chronologique."
   },
   "vocabulary": [
     {
-      "word_id": "v1_c1_m1",
-      "term": "Tun",
-      "phonetic_api": "/tun/",
-      "phonetic_simple": "TOUN",
-      "translation": "Particule de l'antériorité / Décalage temporel (équivalent de l'imparfait/plus-que-parfait)",
-      "example_sentence": "A tun tara",
-      "example_phonetic": "/a tun ta.ra/",
-      "example_translation": "Il était parti (Plus-que-parfait)"
+      "word_id": "v1",
+      "term": "bara",
+      "phonetic_api": "/bara/",
+      "phonetic_simple": "BA-ra",
+      "translation": "marqueur d'accompli (action achevée, état atteint)",
+      "example_sentence": "Karamorgo bara don fo.",
+      "example_phonetic": "/karamorgo bara don fo/",
+      "example_translation": "Le maître religieux a annoncé le jour."
     },
     {
-      "word_id": "v2_c1_m1",
-      "term": "Gbanan",
-      "phonetic_api": "/g͡ba.nan/",
-      "phonetic_simple": "GBANAN",
-      "translation": "Terminer / Achever complètement / Épuiser",
-      "example_sentence": "N tun ye bara nɛ gbanan",
-      "example_phonetic": "/ɲ͡tun d͡ʒe ba.ra nɛ g͡ba.nan/",
-      "example_translation": "J'avais complètement achevé ce travail"
+      "word_id": "v2",
+      "term": "bɛ",
+      "phonetic_api": "/bɛ/",
+      "phonetic_simple": "bè",
+      "translation": "marqueur de présent général/état habituel",
+      "example_sentence": "Morgo te do ka ban.",
+      "example_phonetic": "/morgo tɛ do ka ban/",
+      "example_translation": "Une personne ne peut jamais être entièrement comprise (vérité générale, présent gnomique)."
     },
     {
-      "word_id": "v3_c1_m1",
-      "term": "Nimbɔsa",
-      "phonetic_api": "/nim.bɔ.sa/",
-      "phonetic_simple": "NIM-BƆ-SA",
-      "translation": "Regret / Regretter amèrement",
-      "example_sentence": "Nimbɔsa ba bɛ n na",
-      "example_phonetic": "/nim.bɔ.sa ba bɛ ɱ͡na/",
-      "example_translation": "Un grand regret pèse sur moi"
+      "word_id": "v3",
+      "term": "te",
+      "phonetic_api": "/tɛ/",
+      "phonetic_simple": "tè",
+      "translation": "marqueur négatif (associé à bɛ pour former le présent négatif habituel)",
+      "example_sentence": "Kele da ma si ban, koni musu ko kele ti ban.",
+      "example_phonetic": "/kele da ma si ban koni musu ko kele ti ban/",
+      "example_translation": "Toutes les querelles finissent, sauf celles causées par les femmes."
     },
     {
-      "word_id": "v4_c1_m1",
-      "term": "Bilen",
-      "phonetic_api": "/bi.len/",
-      "phonetic_simple": "BI-LEN",
-      "translation": "Désormais / Déjà / À présent (marque de changement d'état)",
-      "example_sentence": "A tara bilen",
-      "example_phonetic": "/a ta.ra bi.len/",
-      "example_translation": "Il est déjà parti / Il s'en est allé désormais"
+      "word_id": "v4",
+      "term": "lɔn",
+      "phonetic_api": "/lɔn/",
+      "phonetic_simple": "lon",
+      "translation": "savoir, connaître (verbe d'état, souvent combiné à la négation pour exprimer l'ignorance ou le mystère irréductible)",
+      "example_sentence": "N'de ma konto lon.",
+      "example_phonetic": "/n de ma konto lɔn/",
+      "example_translation": "Je ne connais pas l'histoire intérieure (des choses)."
+    },
+    {
+      "word_id": "v5",
+      "term": "sɔtɔ",
+      "phonetic_api": "/sɔtɔ/",
+      "phonetic_simple": "SO-to",
+      "translation": "obtenir, acquérir (marqueur de l'accompli avec « bara » vu plus haut)",
+      "example_sentence": "A bara hankili kura sɔtɔ.",
+      "example_phonetic": "/a bara hankili kura sɔtɔ/",
+      "example_translation": "Il/elle a acquis une nouvelle compréhension."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p1_c1_m1",
-      "original": "Ni n tun ye a lɔn, n tun di na yan",
-      "phonetic_api": "/ni ɲ͡tun d͡ʒe a lɔn ɲ͡tun di na jan/",
-      "phonetic_simple": "NI N TOUN YE A LƆN, N TOUN DI NA YAN",
-      "translation": "Si j'avais su, je serais venu ici (Conditionnel passé)",
-      "context": "Exprimer un regret ou une hypothèse non réalisée dans le passé."
+      "phrase_id": "p1",
+      "original": "Morgo te do ka ban.",
+      "phonetic_api": "/morgo tɛ do ka ban/",
+      "phonetic_simple": "MOR-go tè do ka ban",
+      "translation": "Une personne ne peut jamais être entièrement comprise/épuisée.",
+      "context": "Proverbe attesté et traduit par Michael Jackson, illustrant le présent gnomique (vérité générale intemporelle) en kuranko."
     },
     {
-      "phrase_id": "p2_c1_m1",
-      "original": "A tun ye a fɔ n ma fɔlɔ ka tamin a ta lon fɛ",
-      "phonetic_api": "/a tun d͡ʒe a fɔ ɱ͡ma fɔ.lɔ ka ta.min a ta lon fɛ/",
-      "phonetic_simple": "A TOUN YE A FƆ N MA FƆ-LƆ KA TA-MIN A TA LON FƐ",
-      "translation": "Il me l'avait dit bien avant le jour de son départ",
-      "context": "Préciser la chronologie fine d'événements passés interconnectés."
+      "phrase_id": "p2",
+      "original": "N'de ma konto lon.",
+      "phonetic_api": "/n de ma konto lɔn/",
+      "phonetic_simple": "n dè ma KON-to lon",
+      "translation": "Je ne connais pas l'histoire intérieure / les dessous des choses.",
+      "context": "Expression attestée par Michael Jackson, à la forme négative marquant une incertitude persistante."
     },
     {
-      "phrase_id": "p3_c1_m1",
-      "original": "I ya lafasa fɔta le ye n dɛmɛ kosɛbɛ",
-      "phonetic_api": "/i ja la.fa.sa fɔ.ta le d͡ʒe ɲ͡dɛ.mɛ ko.sɛ.bɛ/",
-      "phonetic_simple": "I YA LA-FA-SA FƆ-TA LE YE N DƐ-MƐ KO-SƐ-BƐ",
-      "translation": "C'est précisément ton plaidoyer exprimé qui m'a beaucoup aidé",
-      "context": "Mettre l'accent sur un élément précis du discours grâce à la particule 'le'."
+      "phrase_id": "p3",
+      "original": "Kele da ma si ban, koni musu ko kele ti ban.",
+      "phonetic_api": "/kele da ma si ban koni musu ko kele ti ban/",
+      "phonetic_simple": "KÈ-lè da ma si ban, KO-ni MOU-sou ko KÈ-lè ti ban",
+      "translation": "Toutes les querelles finissent, sauf celles causées par les femmes.",
+      "context": "Proverbe attesté par Michael Jackson, combinant une forme accomplie négative (« ma si ban ») et une forme d'exception introduite par « koni » (sauf/mais)."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "A bara hankili kura sɔtɔ.",
+      "phonetic_api": "/a bara hankili kura sɔtɔ/",
+      "phonetic_simple": "a BA-ra an-ki-LI kou-RA SO-to",
+      "translation": "Il/elle a acquis une nouvelle compréhension.",
+      "context": "Combine le marqueur d'accompli « bara » avec le verbe « sɔtɔ » (obtenir) pour illustrer l'usage du temps complexe étudié dans cette leçon."
     }
   ],
   "grammar_points": [
     {
-      "concept": "La particule de décalage temporel 'Tun'",
-      "explanation": "Pour exprimer le plus-que-parfait (une action accomplie antérieurement à une autre action passée) ou l'imparfait de rupture, la langue kuranko insère le morphème 'tun' directement après le pronom sujet.",
+      "concept": "L'opposition aspectuelle accompli/général plutôt que temporelle",
+      "explanation": "Les proverbes attestés chez Michael Jackson montrent que le kuranko structure ses énoncés autour de l'aspect : « bara » signale un accompli concret et daté, tandis que la négation de « ban » (finir) sans marqueur temporel explicite sert à formuler des vérités générales valables en tout temps (aspect gnomique). Cette organisation diffère fondamentalement du système temporel français à base de temps grammaticaux (passé/présent/futur).",
       "rules": [
-        "Structure intransitive : Sujet + tun + Verbe + ra",
-        "Structure transitive : Sujet + tun + ye + Objet + Verbe",
-        "Cette particule sert également de base pivot pour la construction du conditionnel passé."
+        "L'absence de marqueur temporel explicite dans un proverbe n'indique pas une omission, mais un aspect gnomique intemporel.",
+        "« Koni » introduit une exception ou une opposition dans un énoncé à valeur générale, structurant un discours nuancé.",
+        "La négation se combine avec des verbes d'état comme « lɔn » (savoir) pour exprimer un mystère ou une incertitude assumée, trait stylistique fréquent dans les proverbes rapportés par Jackson."
       ],
       "examples": [
         {
-          "structure": "N tun ye malo dun",
-          "phonetic_api": "/ɲ͡tun d͡ʒe ma.lo dun/",
-          "meaning": "J'avais mangé du riz (avant qu'un autre événement ne survienne)"
+          "structure": "[sujet] + te + [verbe] + ka + ban",
+          "phonetic_api": "/tɛ ka ban/",
+          "meaning": "ne peut jamais finir/être épuisé (vérité générale)"
         },
         {
-          "structure": "A tun sigira yan",
-          "phonetic_api": "/a tun si.gi.ra jan/",
-          "meaning": "Il s'était établi ici"
-        }
-      ]
-    },
-    {
-      "concept": "La focalisation intensive par la particule 'le'",
-      "explanation": "Au niveau avancé, la structuration syntaxique utilise la particule 'le' pour isoler et mettre en relief un actant, un argument ou une proposition entière, modifiant subtilement la portée sémantique de l'énoncé.",
-      "rules": [
-        "Structure : [Élément focalisé] + le + [Reste de la proposition]",
-        "L'élément placé juste avant 'le' devient le centre d'intérêt exclusif de l'information."
-      ],
-      "examples": [
-        {
-          "structure": "N fa le ye a fɔ",
-          "phonetic_api": "/ɱ͡fa le d͡ʒe a fɔ/",
-          "meaning": "C'est mon père (et personne d'autre) qui l'a dit"
+          "structure": "[proposition] + koni + [proposition d'exception]",
+          "phonetic_api": "/koni/",
+          "meaning": "..., sauf/mais [exception]"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Lansana",
-      "text": "Amara, i tun ye n ya sɛbɛn kɔlɔsi kunu ?",
-      "phonetic_api": "/a.ma.ra i tun d͡ʒe ɲ͡ja sɛ.bɛn kɔ.lɔ.si ku.nu/",
-      "phonetic_simple": "A-MA-RA, I TOUN YE N YA SƐ-BƐN KƆ-LƆ-SI KOU-NOU ?",
-      "translation": "Amara, avais-tu examiné mon document hier ?"
+      "speaker": "Sage",
+      "text": "Morgo te do ka ban.",
+      "phonetic_api": "/morgo tɛ do ka ban/",
+      "phonetic_simple": "MOR-go tè do ka ban",
+      "translation": "Une personne ne peut jamais être entièrement comprise."
     },
     {
-      "speaker": "Amara",
-      "text": "Ɔnhɔ, n tun ye a kalan gbanan ka tamin i nara lon fɛ yan. I ya sɛbɛn sɛbɛta le ka ni.",
-      "phonetic_api": "/ɔn.hɔ ɲ͡tun d͡ʒe a ka.lan g͡ba.nan ka ta.min i na.ra lon fɛ jan i ja sɛ.bɛn sɛ.bɛ.ta le ka ni/",
-      "phonetic_simple": "ƆN-HƆ, N TOUN YE A KA-LAN GBANAN KA TA-MIN I NA-RA LON FƐ YAN. I YA SƐ-BƐN SƐ-BƐ-TA LE KA NI.",
-      "translation": "Oui, je l'avais lu entièrement avant le jour de ton arrivée ici. C'est ton texte écrit précis qui est excellent."
+      "speaker": "Disciple",
+      "text": "N'de ma konto lon. I bɛ a fo n ma?",
+      "phonetic_api": "/n de ma konto lɔn i bɛ a fo n ma/",
+      "phonetic_simple": "n dè ma KON-to lon, i bè a fo n ma",
+      "translation": "Je ne connais pas les dessous des choses. Peux-tu me l'expliquer ?"
     },
     {
-      "speaker": "Lansana",
-      "text": "Ni n tun ye i ya lali kɔlɔsi, n tun tɛ nimbɔsa nɛ ra bilen.",
-      "phonetic_api": "/ni ɲ͡tun d͡ʒe i ja la.li kɔ.lɔ.si ɲ͡tun tɛ nim.bɔ.sa nɛ ra bi.len/",
-      "phonetic_simple": "NI N TOUN YE I YA LA-LI KƆ-LƆ-SI, N TOUN TƐ NIM-BƆ-SA NƐ RA BI-LEN.",
-      "translation": "Si j'avais suivi (observé) ton conseil, je ne ressentirais pas ce regret à présent."
+      "speaker": "Sage",
+      "text": "Kele da ma si ban, koni musu ko kele ti ban.",
+      "phonetic_api": "/kele da ma si ban koni musu ko kele ti ban/",
+      "phonetic_simple": "KÈ-lè da ma si ban, KO-ni MOU-sou ko KÈ-lè ti ban",
+      "translation": "Toutes les querelles finissent, sauf celles causées par les femmes."
     },
     {
-      "speaker": "Amara",
-      "text": "Taminfa ko le ri. Haqi to sini-kɛnɛ ɲɛtaa la dɔrɔn.",
-      "phonetic_api": "/ta.min.fa ko le ri ha.qi to si.ni.kɛ.nɛ ɲɛ.taː la dɔ.rɔn/",
-      "phonetic_simple": "TA-MIN-FA KO LE RI. HA-QI TO SI-NI-KƐ-NƐ NYƐ-TAA LA DƆ-RƆN.",
-      "translation": "C'est une histoire du passé désormais. Concentre-toi seulement sur les progrès de l'avenir."
+      "speaker": "Disciple",
+      "text": "Hankili kura bara n' na sɔtɔ.",
+      "phonetic_api": "/hankili kura bara n na sɔtɔ/",
+      "phonetic_simple": "an-ki-LI kou-RA BA-ra n na so-TO",
+      "translation": "J'ai acquis une nouvelle compréhension."
     }
   ],
   "cultural_notes": [
-    "L'usage des structures temporelles décalées avec 'tun' et de la focalisation avec 'le' caractérise l'éloquence des grands parleurs et des sages lors des conseils de notables en Haute-Guinée. Savoir agencer l'antériorité permet de rappeler les faits historiques, les pactes ancestraux ou les décisions antérieures avec une précision juridique indispensable à la rhétorique traditionnelle."
+    "Les proverbes recueillis par Michael Jackson illustrent une rhétorique kuranko fondée sur l'aspect gnomique et l'exception (« koni »), typique du discours de sagesse transmis par les aînés.",
+    "Aucune grammaire académique complète et librement accessible en ligne décrivant l'ensemble du système temporel/modal du kuranko (comme la thèse de Kastenholz, non consultable directement) n'a pu être trouvée ; cette leçon se limite donc aux structures observables dans les citations authentiques disponibles."
   ],
   "exercises": [
     {
-      "exercise_id": "ex1_c1_m1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quelle particule ajoute-t-on pour marquer un décalage temporel vers le passé (plus-que-parfait / imparfait) ?",
+      "question": "Que signifie le proverbe « Morgo te do ka ban » ?",
       "options": [
-        "bilen",
-        "tun",
-        "le"
+        "Une personne ne peut jamais être entièrement comprise",
+        "Une personne ne mange jamais seule",
+        "Une personne ne vieillit jamais"
       ],
-      "correct_answer": "tun",
-      "explanation": "'tun' s'insère juste après le sujet pour basculer l'action dans une antériorité passée."
+      "correct_answer": "Une personne ne peut jamais être entièrement comprise",
+      "explanation": "Ce proverbe est attesté et traduit ainsi par Michael Jackson dans ses travaux ethnographiques."
     },
     {
-      "exercise_id": "ex2_c1_m1",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Pour marquer l'exclusivité ou insister sur un mot précis, on ajoute la particule de focalisation [ ___ ] juste après ce mot.",
-      "correct_answer": "le",
-      "hint": "Composé d'une consonne liquide et d'une voyelle fermée"
+      "sentence_with_blank": "Kele da ma si ban, [ ___ ] musu ko kele ti ban.",
+      "correct_answer": "koni",
+      "hint": "Ce mot introduit une exception, proche de « sauf » ou « mais »."
+    },
+    {
+      "exercise_id": "ex3",
+      "type": "multiple_choice",
+      "question": "Pourquoi cette leçon indique-t-elle une confiance limitée sur le système temporel complet du kuranko ?",
+      "options": [
+        "Aucune grammaire académique complète et librement accessible n'a pu être consultée",
+        "Le kuranko n'a pas de système temporel",
+        "Le système temporel est identique au français"
+      ],
+      "correct_answer": "Aucune grammaire académique complète et librement accessible n'a pu être consultée",
+      "explanation": "La thèse de référence (Kastenholz, 1987) n'est pas directement accessible en ligne ; l'analyse se limite donc aux citations disponibles chez Michael Jackson."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Michael Jackson, \"How Lifeworlds Work\" (Univ. of Chicago Press, 2022) — extraits",
+      "url": "https://dokumen.pub/how-lifeworlds-work-emotionality-sociality-and-the-ambiguity-of-being-9780226492018.html"
+    },
+    {
+      "label": "Michael Jackson, \"Intersubjective ambiguities\" (Tijdschrift voor Medische Antropologie)",
+      "url": "https://tma.socsci.uva.nl/19_1/jackson.pdf"
+    },
+    {
+      "label": "Glottolog 5.3 — Kuranko (kura1250)",
+      "url": "https://glottolog.org/resource/languoid/id/kura1250"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Les trois proverbes et leurs traductions sont directement attestés chez Michael Jackson. L'analyse grammaticale de l'aspect gnomique et de « koni » est une interprétation raisonnée de ces citations authentiques, mais ne s'appuie pas sur une grammaire académique complète du kuranko (la thèse de référence de Kastenholz n'étant pas accessible en ligne), ce qui limite la portée générale des règles énoncées."
 }

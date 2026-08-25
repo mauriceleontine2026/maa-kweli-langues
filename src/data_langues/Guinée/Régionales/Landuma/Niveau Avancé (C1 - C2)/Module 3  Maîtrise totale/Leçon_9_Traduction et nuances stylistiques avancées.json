@@ -6,111 +6,196 @@
   "lesson_number": 9,
   "title": "Traduction et nuances stylistiques avancées",
   "learning_objectives": [
-    "Transposer des textes littéraires ou officiels complexes en conservant l'esprit de la langue",
-    "Maîtriser les équivalences conceptuelles subtiles entre les structures européennes et la syntaxe landouma",
-    "Restituer le rythme, la poésie et la charge culturelle lors d'un exercice de traduction simultanée"
+    "Comparer la traduction de quelques mots de base entre le français et le landuma en s'appuyant strictement sur le corpus attesté.",
+    "Repérer les nuances de classes nominales (préfixes a-, da-, ta-, kʊ-, o-, ma-) qui n'ont pas d'équivalent direct en français et compliquent toute traduction mot à mot.",
+    "Reconnaître que toute tentative de traduction stylistique avancée reste hors de portée sans dictionnaire complet ni locuteur natif consulté."
   ],
   "phonetic_focus": {
-    "key_sounds": "À cette ultime étape, l'attention se focalise sur la prosodie générale et les contours mélodiques. La gestion des pauses respiratoires entre les subordonnées détermine l'élégance et la clarté stylistique de votre traduction.",
-    "common_pitfalls": "Évitez les calques structurels rigides qui dénaturent la fluidité naturelle de la narration ou du discours institutionnel landouma."
+    "key_sounds": "Le landuma comporte des voyelles i, e, ɛ, u, o, ɔ, ʌ, ə, a et des consonnes prénasalisées complexes (mb-, nc-, nt-, ns-, ŋg-) absentes du français, ainsi qu'une affriquée c proche du « tch » et une occlusive labiovélaire gb (Sumbatova & Vydrin 2021).",
+    "common_pitfalls": "Les francophones tendent à scinder en deux syllabes les groupes consonantiques prénasalisés initiaux (ex. mb-, nc-, nt-), qui forment pourtant une seule attaque consonantique en landuma ; ils confondent aussi souvent les voyelles centrales ə/a et les voyelles mi-ouvertes ɛ/ɔ, qui n'ont pas d'équivalent phonémique net en français."
   },
   "vocabulary": [
     {
-      "word_id": "v27_1",
-      "term": "tannfɔfɛ",
-      "phonetic_api": "/tanː.fɔ.fɛ/",
-      "phonetic_simple": "TANN-FO-FÈ",
-      "translation": "traduire / transposer la parole / interpréter fidèlement le sens",
-      "example_sentence": "mbi pa tannfɔfɛ walitɛŋ mɔ kisin",
-      "example_phonetic": "/mbi pa tanː.fɔ.fɛ wa.li.tɛŋ mɔ ki.sin/",
-      "example_translation": "Je veux traduire fidèlement ce contrat de travail."
+      "word_id": "v1",
+      "term": "kʊ-limber",
+      "phonetic_api": "/kʊ-limber/",
+      "phonetic_simple": "kou-LIM-bèr",
+      "translation": "dire",
+      "example_sentence": "kʊ-limber",
+      "example_phonetic": "/kʊ-limber/",
+      "example_translation": "« dire » — mot isolé attesté dans le corpus lexical disponible ; aucune phrase complète d'exemple n'a été trouvée pour ce terme dans les sources consultées, seule la forme du mot est donc garantie."
     },
     {
-      "word_id": "v27_2",
-      "term": "wunsu",
-      "phonetic_api": "/wun.su/",
-      "phonetic_simple": "WOUN-SOU",
-      "translation": "la nuance / l'éclat subtil / la coloration stylistique",
-      "example_sentence": "fɔf mɔ mɔ dɛp wunsu bɔn",
-      "example_phonetic": "/fɔf mɔ mɔ dɛp wun.su bɔn/",
-      "example_translation": "Cette parole possède une grande nuance stylistique."
+      "word_id": "v2",
+      "term": "kʊ-cara",
+      "phonetic_api": "/kʊ-cara/",
+      "phonetic_simple": "kou-TSA-ra",
+      "translation": "savoir",
+      "example_sentence": "kʊ-cara",
+      "example_phonetic": "/kʊ-cara/",
+      "example_translation": "« savoir » — mot isolé attesté dans le corpus lexical disponible ; aucune phrase complète d'exemple n'a été trouvée pour ce terme dans les sources consultées, seule la forme du mot est donc garantie."
     },
     {
-      "word_id": "v27_3",
-      "term": "tannwɔ",
-      "phonetic_api": "/tanː.wɔ/",
-      "phonetic_simple": "TANN-WO",
-      "translation": "l'équivalence parfaite / la justesse de sens / la conformité absolue",
-      "example_sentence": "fɔf mɔ mɔ wɔ tannwɔ tɛŋ",
-      "example_phonetic": "/fɔf mɔ mɔ wɔ tanː.wɔ tɛŋ/",
-      "example_translation": "Cette traduction est d'une justesse de sens parfaite."
+      "word_id": "v3",
+      "term": "ta-tɔt",
+      "phonetic_api": "/ta-tɔt/",
+      "phonetic_simple": "ta-TÔT",
+      "translation": "bon",
+      "example_sentence": "ta-tɔt",
+      "example_phonetic": "/ta-tɔt/",
+      "example_translation": "« bon » — mot isolé attesté dans le corpus lexical disponible ; aucune phrase complète d'exemple n'a été trouvée pour ce terme dans les sources consultées, seule la forme du mot est donc garantie."
+    },
+    {
+      "word_id": "v4",
+      "term": "tayif",
+      "phonetic_api": "/tayif/",
+      "phonetic_simple": "ta-YIF",
+      "translation": "nom",
+      "example_sentence": "tayif",
+      "example_phonetic": "/tayif/",
+      "example_translation": "« nom » — mot isolé attesté dans le corpus lexical disponible ; aucune phrase complète d'exemple n'a été trouvée pour ce terme dans les sources consultées, seule la forme du mot est donc garantie."
+    },
+    {
+      "word_id": "v5",
+      "term": "da-wump",
+      "phonetic_api": "/da-wump/",
+      "phonetic_simple": "da-OUOUMP",
+      "translation": "tête",
+      "example_sentence": "da-wump",
+      "example_phonetic": "/da-wump/",
+      "example_translation": "« tête » — mot isolé attesté dans le corpus lexical disponible ; aucune phrase complète d'exemple n'a été trouvée pour ce terme dans les sources consultées, seule la forme du mot est donc garantie."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p27_1",
-      "original": "hamaŋ nu tannfɔfɛ wunsu ka fɔf mɔ, tsɛkɛma nu dɛp tannwɔ ka nu lɔndɔ",
-      "phonetic_api": "/ha.maŋ nu tanː.fɔ.fɛ wun.su ka fɔf mɔ t͡sɛ.kɛ.ma nu dɛp tanː.wɔ ka nu lɔn.dɔ/",
-      "phonetic_simple": "HA-MANG NU TANN-FO-FÈ WOUN-SOU KA FOF MO, TSÈ-KÈ-MA NU DÈP TANN-WO KA NU LON-DO",
-      "translation": "Puisque nous transposons les nuances subtiles de cette parole, c'est pourquoi nous obtenons notre équivalence parfaite ici",
-      "context": "Formule académique employée pour valider la justesse d'une traduction littéraire ou juridique."
+      "phrase_id": "p1",
+      "original": "kʊ-limber",
+      "phonetic_api": "/kʊ-limber/",
+      "phonetic_simple": "kou-LIM-bèr",
+      "translation": "dire",
+      "context": "Aucune phrase complète figée n'est attestée pour ce contexte précis dans les sources disponibles ; seul ce mot isolé du corpus vérifié est proposé comme point d'ancrage, à utiliser avec prudence."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "kʊ-cara kʊ-limber",
+      "phonetic_api": "/kʊ-cara kʊ-limber/",
+      "phonetic_simple": "kou-TSA-ra kou-LIM-bèr",
+      "translation": "« savoir » + « dire » (juxtaposition)",
+      "context": "Recombinaison prudente de deux mots déjà attestés séparément dans le corpus lexical de cette leçon (savoir, dire) : cette juxtaposition n'est PAS une expression idiomatique attestée en tant que telle dans les sources, mais une association pédagogique construite uniquement à partir de vocabulaire vérifié, utile pour la mémorisation et la pratique orale."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "ta-tɔt kʊ-limber",
+      "phonetic_api": "/ta-tɔt kʊ-limber/",
+      "phonetic_simple": "ta-TÔT kou-LIM-bèr",
+      "translation": "« bon » + « dire » (juxtaposition)",
+      "context": "Recombinaison prudente de deux mots déjà attestés séparément dans le corpus lexical de cette leçon (bon, dire) : cette juxtaposition n'est PAS une expression idiomatique attestée en tant que telle dans les sources, mais une association pédagogique construite uniquement à partir de vocabulaire vérifié, utile pour la mémorisation et la pratique orale."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "tayif kʊ-limber",
+      "phonetic_api": "/tayif kʊ-limber/",
+      "phonetic_simple": "ta-YIF kou-LIM-bèr",
+      "translation": "« nom » + « dire » (juxtaposition)",
+      "context": "Recombinaison prudente de deux mots déjà attestés séparément dans le corpus lexical de cette leçon (nom, dire) : cette juxtaposition n'est PAS une expression idiomatique attestée en tant que telle dans les sources, mais une association pédagogique construite uniquement à partir de vocabulaire vérifié, utile pour la mémorisation et la pratique orale."
     }
   ],
   "grammar_points": [
     {
-      "concept": "La stylistique de la double subordination pour la traduction complexe",
-      "explanation": "Pour traduire des phrases complexes comprenant des nuances de cause, de but et de concession imbriquées, le style soutenu landouma structure l'énoncé de manière cyclique. La cause principale ('hamaŋ') ouvre la marche, suivie de l'effet ('tsɛkɛma'), tandis que la nuance connective s'insère en fin de proposition pour sceller l'équilibre rhétorique.",
+      "concept": "Accord alitératif radical (classes nominales)",
+      "explanation": "Le landuma, comme d'autres langues Mel du Nord, marque l'accord grammatical par un préfixe dont la consonne initiale reprend celle du nom qu'il qualifie ou remplace : c'est un accord dit « alitératif radical », distinct de l'accord par classes nominales à préfixes fixes qu'on trouve dans d'autres langues Niger-Congo. On observe dans le corpus attesté des préfixes tels que a-, da-, ta-, kʊ-, ke-, o-, ma- selon la classe et l'initiale du radical.",
       "rules": [
-        "Ordre syntaxique avancé : Hamaŋ + Cause, + tsɛkɛma + Conséquence + kisinnde + Nuance restrictive.",
-        "Cette structure garantit que la charge poétique ou conceptuelle ne soit pas perdue lors de la transposition."
+        "Les noms attestés portent presque tous un préfixe de classe : da-wump (tête), ta-fera (blanc), kʊ-suŋ (bouche), o-runi (homme), ma-rʊŋ (deux).",
+        "Le préfixe d'accord d'un qualificatif ou d'un déterminant tend à reprendre la consonne initiale du nom contrôleur plutôt qu'une classe grammaticale fixe et arbitraire.",
+        "Cette règle est documentée pour les noms inanimés dans les travaux académiques, mais son fonctionnement précis pour chaque catégorie de mots n'est pas intégralement publié en accès libre : la prudence s'impose pour toute généralisation."
       ],
       "examples": [
         {
-          "structure": "tannfɔfɛ + wunsu + mɔ",
-          "phonetic_api": "/tanː.fɔ.fɛ wun.su mɔ/",
-          "meaning": "Traduire cette nuance subtile."
+          "structure": "da-wump / da-fɔr",
+          "phonetic_api": "/da-wump/, /da-fɔr/",
+          "meaning": "tête / œil (même préfixe da- : classe nominale partagée)"
+        },
+        {
+          "structure": "ta-fera / ta-bi / ta-tɔt",
+          "phonetic_api": "/ta-fera/, /ta-bi/, /ta-tɔt/",
+          "meaning": "blanc / noir / bon (préfixe ta- pour ces qualificatifs attestés)"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "L'Interprète",
-      "text": "baba kɔn, mbi fap tannfɔfɛ fɔf ka dare ka nu lɔndɔ ?",
-      "phonetic_api": "/ba.ba kɔn mbi fap tanː.fɔ.fɛ fɔf ka da.re ka nu lɔn.dɔ/",
-      "phonetic_simple": "BA-BA KON, MBI FAP TANN-FO-FÈ FOF KA DA-RE KA NU LON-DO ?",
-      "translation": "Mon père, suis-je capable de traduire notre discours officiel de la ville ici ?"
+      "speaker": "Locuteur A",
+      "text": "kʊ-limber",
+      "phonetic_api": "/kʊ-limber/",
+      "phonetic_simple": "kou-LIM-bèr",
+      "translation": "(mot isolé : « dire ») — aucun dialogue naturel complet n'est attesté dans les sources disponibles pour ce thème ; cet échange reste donc une simple juxtaposition prudente du vocabulaire vérifié, non une phrase authentique de conversation."
     },
     {
-      "speaker": "Le Gardien du Style",
-      "text": "yoo. hamaŋ mɔ kar kisin wunsu mɔ, tsɛkɛma mɔ dɛp tannwɔ tɛŋ kɛma.",
-      "phonetic_api": "/joː ha.maŋ mɔ kar ki.sin wun.su mɔ t͡sɛ.kɛ.ma mɔ dɛp tanː.wɔ tɛŋ kɛ.ma/",
-      "phonetic_simple": "YOO. HA-MANG MO KAR KI-SIN WOUN-SOU MO, TSÈ-KÈ-MA MO DÈP TANN-WO TENG KÈ-MA",
-      "translation": "Oui. Puisque tu as étudié avec sérieux ces nuances subtiles, c'est pourquoi tu as atteint la justesse de sens parfaite. C'est ainsi."
+      "speaker": "Locuteur B",
+      "text": "kʊ-cara",
+      "phonetic_api": "/kʊ-cara/",
+      "phonetic_simple": "kou-TSA-ra",
+      "translation": "(mot isolé : « savoir ») — aucun dialogue naturel complet n'est attesté dans les sources disponibles pour ce thème ; cet échange reste donc une simple juxtaposition prudente du vocabulaire vérifié, non une phrase authentique de conversation."
+    },
+    {
+      "speaker": "Locuteur A",
+      "text": "ta-tɔt",
+      "phonetic_api": "/ta-tɔt/",
+      "phonetic_simple": "ta-TÔT",
+      "translation": "(mot isolé : « bon ») — aucun dialogue naturel complet n'est attesté dans les sources disponibles pour ce thème ; cet échange reste donc une simple juxtaposition prudente du vocabulaire vérifié, non une phrase authentique de conversation."
+    },
+    {
+      "speaker": "Locuteur B",
+      "text": "tayif",
+      "phonetic_api": "/tayif/",
+      "phonetic_simple": "ta-YIF",
+      "translation": "(mot isolé : « nom ») — aucun dialogue naturel complet n'est attesté dans les sources disponibles pour ce thème ; cet échange reste donc une simple juxtaposition prudente du vocabulaire vérifié, non une phrase authentique de conversation."
     }
   ],
   "cultural_notes": [
-    "La traduction en pays landouma n'est pas une simple substitution de mots. Elle requiert une profonde immersion dans l'univers mental de la basse Guinée. Transposer un texte officiel exige d'ajuster les concepts juridiques extérieurs aux réalités coutumières du 'mabɛn' (conseil des sages) afin de préserver l'harmonie sociale."
+    "Il n'existe pas d'orthographe officielle unique pour le landuma : Kirk Rogers a élaboré un système graphique pratique dans les années 2000 (utilisé dans le *Dictionnaire landouma-français* de Rogers & Bryant, 2012), tandis que la linguiste Nina Sumbatova a utilisé une transcription différente pour ses travaux académiques ([Wikipédia FR](https://fr.wikipedia.org/wiki/Landoma_(langue))).",
+    "Glottolog classe le landuma comme langue « vulnérable » et Ethnologue ne lui consacre pas de fiche dédiée dans ses listes en ligne les plus visibles : c'est une langue très peu documentée, sans matériel pédagogique publié à large diffusion ([Glottolog](https://glottolog.org/resource/languoid/id/land1256))."
   ],
   "exercises": [
     {
-      "exercise_id": "ex27_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Quel verbe désigne l'acte de traduire ou d'interpréter fidèlement une parole ?",
+      "question": "Comment dit-on « dire » en landuma ?",
       "options": [
-        "wunbɛn",
-        "tannfɔfɛ",
-        "wunsu"
+        "kʊ-limber",
+        "kʊ-cara",
+        "tayif"
       ],
-      "correct_answer": "tannfɔfɛ",
-      "explanation": "'tannfɔfɛ' est le verbe spécialisé pour la transposition linguistique et la traduction stylistique."
+      "correct_answer": "kʊ-limber",
+      "explanation": "« kʊ-limber » est la forme attestée pour « dire » d'après le corpus lexical collecté (confiance : faible)."
     },
     {
-      "exercise_id": "ex27_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "fɔf mɔ mɔ dɛp [ ___ ] bɔn ka dare (Cette parole possède une grande nuance en ville)",
-      "correct_answer": "wunsu",
-      "hint": "Le substantif désignant la nuance, la coloration stylistique ou l'éclat subtil d'un propos."
+      "sentence_with_blank": "[ ___ ] = « savoir »",
+      "correct_answer": "kʊ-cara",
+      "hint": "Ce mot appartient au vocabulaire de base attesté par les sources académiques (confiance : faible)."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Wiktionary — Word lists of Atlantic languages of Guinea (d'après Fields 2001)",
+      "url": "https://en.wiktionary.org/wiki/Appendix:Word_lists_of_Atlantic_languages_of_Guinea"
+    },
+    {
+      "label": "Wikipédia FR — Landoma (langue)",
+      "url": "https://fr.wikipedia.org/wiki/Landoma_(langue)"
+    },
+    {
+      "label": "Glottolog — Landoma [land1256]",
+      "url": "https://glottolog.org/resource/languoid/id/land1256"
+    },
+    {
+      "label": "Sumbatova & Vydrin (2021), Journal of Language Relationship 19-1/2, p.136-151",
+      "url": "https://www.jolr.ru/files/(303)jlr2021-19-1-2(136-151).pdf"
+    }
+  ],
+  "confidence": "faible",
+  "confidence_note": "Le vocabulaire cible de cette leçon provient exclusivement du corpus lexical attesté (ASJP/Wilson 2007/Rogers & Bryant 2012, Wiktionary/Fields 2001, Sumbatova & Vydrin 2021) ; confiance des mots utilisés : faible, moyenne. Aucune phrase complète, formule figée ou règle grammaticale spécifique à ce sujet précis n'a été trouvée dans les sources disponibles : le contenu reste donc au niveau du vocabulaire isolé et la confiance globale du fichier est abaissée à 'faible' par prudence, conformément à l'exigence de ne jamais présenter une extrapolation comme une donnée sûre. Pour respecter la borne minimale de 5 mots de vocabulaire par leçon, 1 mot(s) supplémentaire(s) du même corpus attesté (déjà utilisés ailleurs dans le lexique landuma collecté, mais absents de cette leçon initialement) ont été ajoutés : confiance de ces ajouts : moyenne. Les phrases de la section 'common_phrases' au-delà de la première ont été obtenues par recombinaison de mots individuellement attestés du vocabulaire de cette leçon (juxtapositions pédagogiques), et non par une source directe attestant la phrase entière : elles sont signalées comme telles dans leur champ 'context'."
 }

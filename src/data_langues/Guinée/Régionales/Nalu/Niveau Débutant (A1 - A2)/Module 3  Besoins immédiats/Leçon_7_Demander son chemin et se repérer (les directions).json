@@ -4,160 +4,204 @@
   "module_number": 3,
   "module_title": "Besoins immédiats",
   "lesson_number": 7,
-  "title": "Demander son chemin et se repérer",
+  "title": "Demander son chemin et se repérer (les directions)",
   "learning_objectives": [
-    "Demander la localisation d'un lieu important",
-    "Comprendre et utiliser les indicateurs de direction spatiale de base"
+    "Utiliser les démonstratifs de lieu (classe 4, préfixe ka-) pour indiquer une direction",
+    "Nommer des lieux réels attestés (forêt, chemin, océan, village) pour s'orienter",
+    "Employer les adverbes de lieu attestés (ici, là, là-bas) selon leur degré d'éloignement"
   ],
   "phonetic_focus": {
-    "key_sounds": "La consonne /r/ en milieu de mot (comme dans 'korat') doit être légèrement roulée avec la pointe de la langue sur le palais. Le digramme 'th' ou la variante fricative /θ/ nécessite de placer la langue entre les dents.",
-    "common_pitfalls": "Veillez à bien détacher le morphème locatif 'di' de la racine nominale qui le suit, sans contracter la voyelle /i/."
+    "key_sounds": "Le nalu comporte 7 voyelles avec opposition de longueur (i, u, e [ɪ], o [ʊ], ɛ, ɔ, a) et des consonnes comme θ (proche du 'th' anglais dur, prononcé [f] par de nombreux locuteurs), gb (occlusive labio-vélaire double, sans équivalent en français), et ŋ (comme 'ng' dans 'parking'). Source : Seidel (2024), The Oxford Guide to the Atlantic Languages of West Africa.",
+    "common_pitfalls": "Les francophones ont tendance à confondre ɛ/e et ɔ/o car le français ne marque pas systématiquement cette opposition de fermeture. Le θ est souvent mal prononcé car il n'existe pas en français ; beaucoup de locuteurs nalu eux-mêmes le réalisent [f]. La longueur vocalique (ex. redoublement de voyelle 'ɔɔ') doit être respectée, contrairement au français où elle n'est pas distinctive."
   },
   "vocabulary": [
     {
-      "word_id": "v7_1",
-      "term": "Gbeila",
-      "phonetic_api": "/g͡bei.la/",
-      "phonetic_simple": "GBEÏ-LA",
-      "translation": "Chemin / Route",
-      "example_sentence": "Gbeila a ce.",
-      "example_phonetic": "/g͡bei.la a tʃe/",
-      "example_translation": "La route est bonne."
+      "word_id": "v1",
+      "term": "ka-yɛt / m-yɛt",
+      "phonetic_api": "/kajɛt/, /mjɛt/",
+      "phonetic_simple": "KA-YÈT",
+      "translation": "chemin, sentier",
+      "example_sentence": "Ntuŋgba hɔɔ bifi yakyɛ kaθɔɔθ bitaa kaker kabet.",
+      "example_phonetic": "/ntuŋɡba hɔː bifi jakjɛ kaθɔːθ bitaː kaker kabet/",
+      "example_translation": "La seule chose que nous n'avons pas faite, c'est étaler un tissu pour marcher dessus."
     },
     {
-      "word_id": "v7_2",
-      "term": "N'da",
-      "phonetic_api": "/nda/",
-      "phonetic_simple": "N-DA",
-      "translation": "Lieu / Endroit",
-      "example_sentence": "N'da we a mboye.",
-      "example_phonetic": "/nda we a mbo.je/",
-      "example_translation": "Cet endroit est calme."
+      "word_id": "v2",
+      "term": "ka-kɔy",
+      "phonetic_api": "/kakɔj/",
+      "phonetic_simple": "KA-KOY",
+      "translation": "forêt",
+      "example_sentence": "Mkɔy koya kaa kanɛɛn kɔhyɛ mtah muh.",
+      "example_phonetic": "/mkɔj koja kaː kanɛːn kɔhjɛ mtah muh/",
+      "example_translation": "La forêt est là où tu es allé l'autre jour."
     },
     {
-      "word_id": "v7_3",
-      "term": "Korat",
-      "phonetic_api": "/ko.rat/",
-      "phonetic_simple": "KO-RAT",
-      "translation": "Droite",
-      "example_sentence": "Ba di korat.",
-      "example_phonetic": "/ba di ko.rat/",
-      "example_translation": "Va à droite."
+      "word_id": "v3",
+      "term": "ka-dab",
+      "phonetic_api": "/kadab/",
+      "phonetic_simple": "KA-DAB",
+      "translation": "océan",
+      "example_sentence": "ka-dab",
+      "example_phonetic": "/kadab/",
+      "example_translation": "océan (Seidel 2024, vocabulaire nominal)"
     },
     {
-      "word_id": "v7_4",
-      "term": "Kowe",
-      "phonetic_api": "/ko.we/",
-      "phonetic_simple": "KO-WÉ",
-      "translation": "Gauche",
-      "example_sentence": "Ba di kowe.",
-      "example_phonetic": "/ba di ko.we/",
-      "example_translation": "Va à gauche."
+      "word_id": "v4",
+      "term": "lo",
+      "phonetic_api": "/lo/",
+      "phonetic_simple": "LO",
+      "translation": "ici",
+      "example_sentence": "Mɲiin deendek koya lo.",
+      "example_phonetic": "/mɲiːn deːndek koja lo/",
+      "example_translation": "Un homme est ici."
     },
     {
-      "word_id": "v7_5",
-      "term": "Kanyen",
-      "phonetic_api": "/ka.ɲeŋ/",
-      "phonetic_simple": "KA-NYEN",
-      "translation": "Être situé / Rester",
-      "example_sentence": "Marce a kanyen we.",
-      "example_phonetic": "/mar.ʃe a ka.ɲeŋ we/",
-      "example_translation": "Le marché est situé ici."
+      "word_id": "v5",
+      "term": "lɔɔ / yoŋ / kɛɛ",
+      "phonetic_api": "/lɔː/, /jɔŋ/, /kɛː/",
+      "phonetic_simple": "LÔÔ / YONG / KÈÈ",
+      "translation": "là, là-bas (selon la distance)",
+      "example_sentence": "Min ti kenah tikɛɛ.",
+      "example_phonetic": "/min ti kenah tikɛː/",
+      "example_translation": "Je pars de là-bas."
+    },
+    {
+      "word_id": "v6",
+      "term": "ka-baŋ",
+      "phonetic_api": "/kabaŋ/",
+      "phonetic_simple": "KA-BANG",
+      "translation": "village principal, centre",
+      "example_sentence": "ka-baŋ",
+      "example_phonetic": "/kabaŋ/",
+      "example_translation": "centre du village (Seidel 2024)"
+    },
+    {
+      "word_id": "v7",
+      "term": "ki-bɔɔl",
+      "phonetic_api": "/kibɔːl/",
+      "phonetic_simple": "KI-BÔÔL",
+      "translation": "en bas, au fond",
+      "example_sentence": "Mbi kɔha nikibɔɔl.",
+      "example_phonetic": "/mbi kɔha nikibɔːl/",
+      "example_translation": "Je descends vers l'île de Katrak."
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "p7_1",
-      "original": "Gbeila marce a rila?",
-      "phonetic_api": "/g͡bei.la mar.ʃe a ri.la/",
-      "phonetic_simple": "GBEÏ-LA MAR-TCHÉ A RI-LA",
-      "translation": "Où est le chemin du marché ?",
-      "context": "Question essentielle pour s'orienter dans un village ou une ville."
+      "phrase_id": "p1",
+      "original": "Mkɔy koya kaa kanɛɛn kɔhyɛ mtah muh.",
+      "phonetic_api": "/mkɔj koja kaː kanɛːn kɔhjɛ mtah muh/",
+      "phonetic_simple": "M-KOY KOYA KAA KANÈÈN KOHYÈ M-TAH MOUH",
+      "translation": "La forêt est là où tu es allé l'autre jour.",
+      "context": "Exemple attesté combinant démonstratif de lieu et référence temporelle passée."
     },
     {
-      "phrase_id": "p7_2",
-      "original": "Ba di korat, i suba.",
-      "phonetic_api": "/ba di ko.rat i su.ba/",
-      "phonetic_simple": "BA DI KO-RAT, I SOU-BA",
-      "translation": "Tourne à droite, puis continue.",
-      "context": "Indication typique donnée par un habitant pour guider un voyageur."
+      "phrase_id": "p2",
+      "original": "Min ti kenah tikɛɛ.",
+      "phonetic_api": "/min ti kenah tikɛː/",
+      "phonetic_simple": "MIN TI KÉNAH TI-KÈÈ",
+      "translation": "Je pars de là-bas.",
+      "context": "Indication d'un point de départ éloigné."
     },
     {
-      "phrase_id": "p7_3",
-      "original": "A gbe mu thand.",
-      "phonetic_api": "/a g͡be mu θand/",
-      "phonetic_simple": "A GBÉ MOU THAND",
-      "translation": "Ce n'est pas loin / C'est tout près.",
-      "context": "Formule rassurante indiquant la proximité immédiate de la destination."
+      "phrase_id": "p3",
+      "original": "Mbi kɔha nikibɔɔl.",
+      "phonetic_api": "/mbi kɔha nikibɔːl/",
+      "phonetic_simple": "M-BI KOHA NI-KI-BÔÔL",
+      "translation": "Je descends vers l'île de Katrak.",
+      "context": "Utilisation du locatif ki- pour indiquer une direction précise vers le bas/le fond."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Beenuŋ wa biki yinsin yoŋ abet.",
+      "phonetic_api": "/beːnuŋ wa biki jinsin jɔŋ abet/",
+      "phonetic_simple": "BÉÉNOUNG WA BIKI YINSIN YONG ABÉT",
+      "translation": "Avant que nous arrivions là-bas, il était déjà parti.",
+      "context": "Illustre l'adverbe « yoŋ » (là-bas) combiné à une subordonnée temporelle."
     }
   ],
   "grammar_points": [
     {
-      "concept": "La particule locative 'di'",
-      "explanation": "En nalu, les rapports spatiaux et les directions sont introduits par la particule prépositionnelle 'di'. Elle équivaut aux prépositions françaises 'à', 'vers' ou 'dans'.",
+      "concept": "Démonstratifs locatifs de classe 4 (préfixe ka-)",
+      "explanation": "Le nalu possède une classe d'accord spécifique aux lieux, marquée par le préfixe locatif ka- (parfois ki-). Les démonstratifs associés indiquent trois degrés de distance : ka (ici, proche), kaa (là, plus loin), kah/kaaaa (là-bas, très loin) ; l'interrogatif correspondant est kaan « où » (Seidel 2024).",
       "rules": [
-        "Placée directement devant les noms d'orientation (droite, gauche).",
-        "Elle ne varie pas selon le genre ou le nombre du nom qui la suit."
+        "L'allongement vocalique et la montée de ton (ex. káááá) marquent une distance encore plus grande.",
+        "« ki- » est réservé à quelques formes lexicalisées comme kibɔɔl « en bas » et kiiki « en haut »."
       ],
       "examples": [
         {
-          "structure": "di korat",
-          "phonetic_api": "/di ko.rat/",
-          "meaning": "à droite"
-        },
-        {
-          "structure": "di kowe",
-          "phonetic_api": "/di ko.we/",
-          "meaning": "à gauche"
+          "structure": "kaan",
+          "phonetic_api": "/kaːn/",
+          "meaning": "où (interrogatif locatif, classe 4)"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Lamine",
-      "text": "Ina, gbeila marce a rila?",
-      "phonetic_api": "/i.na g͡bei.la mar.ʃe a ri.la/",
-      "phonetic_simple": "I-NA, GBEÏ-LA MAR-TCHÉ A RI-LA?",
-      "translation": "S'il vous plaît, où est le chemin du marché ?"
+      "speaker": "Voyageur",
+      "text": "Kaan mkɔy koya?",
+      "phonetic_api": "/kaːn mkɔj koja/",
+      "phonetic_simple": "KAAN M-KOY KOYA",
+      "translation": "Où est la forêt ? (construit à partir de « kaan » où et « mkɔy koya » la forêt est)"
     },
     {
-      "speaker": "Ousmane",
-      "text": "Mboye! Ba di korat. Marce a kanyen mu thand.",
-      "phonetic_api": "/mbo.je ba di ko.rat mar.ʃe a ka.ɲeŋ mu θand/",
-      "phonetic_simple": "MBO-YÉ! BA DI KO-RAT. MAR-TCHÉ A KA-NYEN MOU THAND.",
-      "translation": "Bonjour ! Allez à droite. Le marché est situé tout près."
+      "speaker": "Habitant",
+      "text": "Mkɔy koya kaa kanɛɛn kɔhyɛ mtah muh.",
+      "phonetic_api": "/mkɔj koja kaː kanɛːn kɔhjɛ mtah muh/",
+      "phonetic_simple": "M-KOY KOYA KAA KANÈÈN KOHYÈ M-TAH MOUH",
+      "translation": "La forêt est là où tu es allé l'autre jour."
     },
     {
-      "speaker": "Lamine",
-      "text": "A ce, nu koka!",
-      "phonetic_api": "/a tʃe nu ko.ka/",
-      "phonetic_simple": "A TCHÉ, NOU KO-KA!",
-      "translation": "C'est bien, merci !"
+      "speaker": "Voyageur",
+      "text": "Mbi kɔha nikibɔɔl.",
+      "phonetic_api": "/mbi kɔha nikibɔːl/",
+      "phonetic_simple": "M-BI KOHA NI-KI-BÔÔL",
+      "translation": "Je descends vers l'île de Katrak."
+    },
+    {
+      "speaker": "Voyageur",
+      "text": "Min ti kenah tikɛɛ.",
+      "phonetic_api": "/min ti kenah tikɛː/",
+      "phonetic_simple": "MIN TI KÉNAH TI-KÈÈ",
+      "translation": "Je pars de là-bas."
     }
   ],
   "cultural_notes": [
-    "Dans les zones côtières habitées par les Nalu, les repères géographiques naturels (comme les rivières, les bras de mer ou les grands arbres sacrés) sont fréquemment utilisés à la place des points cardinaux abstraits pour indiquer une direction."
+    "Les repères géographiques nalu sont fortement liés à la mer et aux îles (îles Tristão, île de Katrak), reflétant le mode de vie littoral du peuple nalu (Wikipedia EN ; Seidel 2024).",
+    "Le système de démonstratifs à trois degrés de distance, renforcé par l'allongement vocalique, est une caractéristique typologique notable du nalu qui n'a pas d'équivalent direct en français."
   ],
   "exercises": [
     {
-      "exercise_id": "ex7_1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Que signifie le mot 'Korat' ?",
+      "question": "Quel préfixe marque la classe d'accord des lieux en nalu ?",
       "options": [
-        "Gauche",
-        "Droite",
-        "Tout droit"
+        "ka-",
+        "bɛ-",
+        "m-"
       ],
-      "correct_answer": "Droite",
-      "explanation": "'Korat' désigne la direction droite en langue nalu."
+      "correct_answer": "ka-",
+      "explanation": "La classe 4 (locative) est marquée par ka-, parfois ki- pour quelques formes lexicalisées (Seidel 2024)."
     },
     {
-      "exercise_id": "ex7_2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Pour dire 'à gauche', on utilise la particule locative : di [ ___ ].",
-      "correct_answer": "kowe",
-      "hint": "C'est l'opposé de korat"
+      "sentence_with_blank": "« [ ___ ] » signifie « où » en nalu.",
+      "correct_answer": "kaan",
+      "hint": "Interrogatif de la classe locative 4."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Seidel, F. (2024) « Nalu », in The Oxford Guide to the Atlantic Languages of West Africa, Oxford University Press",
+      "url": "https://academic.oup.com/book/59850/chapter/511378992"
+    },
+    {
+      "label": "Glottolog 5.3, « Nalu » (nalu1240 / naj)",
+      "url": "https://glottolog.org/resource/languoid/id/nalu1240"
+    }
+  ],
+  "confidence": "moyenne",
+  "confidence_note": "Le système de démonstratifs locatifs et plusieurs noms de lieux sont bien attestés par Seidel (2024) ; en revanche, aucune expression standard du type « tournez à gauche/à droite » n'a été trouvée, ce qui limite cette leçon aux structures de localisation disponibles."
 }

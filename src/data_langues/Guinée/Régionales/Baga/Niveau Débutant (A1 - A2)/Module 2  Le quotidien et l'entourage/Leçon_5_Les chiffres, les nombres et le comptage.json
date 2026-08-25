@@ -6,128 +6,233 @@
   "lesson_number": 5,
   "title": "Les chiffres, les nombres et le comptage",
   "learning_objectives": [
-    "Compter de 1 à 10 en langue Baga",
-    "Associer un chiffre à un substantif dénombrable",
-    "Exprimer une quantité élémentaire"
+    "Compter de 1 à 10 en baga sitemu",
+    "Reconnaître la construction des dizaines/centaines/milliers",
+    "Utiliser \"tsəke\" pour demander \"combien ?\""
   ],
   "phonetic_focus": {
-    "key_sounds": "Les chiffres exigent une diction claire des occlusives finales. Le nombre un, 'dúu', possède une voyelle longue fermée /uː/ qui doit garder une hauteur tonale stable.",
-    "common_pitfalls": "Attention à ne pas écraser l'articulation de 'múù-kpu' (dix). Le saut consonantique entre le 'ù' et le 'k' doit marquer une courte pause glottale."
+    "key_sounds": "Le Baga Sitemu utilise un inventaire de voyelles incluant /a/, /ʌ~ə/ (\"a\" ouvert), /e/, /ɛ/, /i/, /ɪ/, /o/, /ɔ/, /u/ ainsi que des consonnes comme /gb/ (occlusive labio-vélaire voisée, absente du français), /ŋ/ (comme 'ng' dans 'parking'), /ʃ/ (\"sh\"), /tʃ/ (\"tsh\", comme 'tch'), /θ/ (\"th\" anglais sourd) et un /k/ décrit par le lexicographe F. Lamp comme \"glottal, quelque part entre g et k\". Ces sons n'ont pas d'équivalent exact en français standard.",
+    "common_pitfalls": "Les francophones ont tendance à prononcer /gb/ comme un simple 'g' ou 'b' séparé, à confondre /ɛ/ et /e/ (non distingués en français standard écrit), et à ne pas prononcer /ŋ/ en début de mot. Le /ʌ~ə/ ouvert (noté 'a' dans l'orthographe de Lamp) est souvent réduit à un français 'e muet', ce qui déforme le sens."
   },
   "vocabulary": [
     {
-      "word_id": "b016",
-      "term": "dúu",
-      "phonetic_api": "/dúː/",
-      "phonetic_simple": "DOO",
+      "word_id": "v1",
+      "term": "pin",
+      "phonetic_api": "/pin/",
+      "phonetic_simple": "PINE",
       "translation": "un (1)",
-      "example_sentence": "Bədɛ̀n dúu mu ya",
-      "example_phonetic": "/ɓədɛ̀n dúː mu ja/",
-      "example_translation": "Un enfant est ici"
+      "example_sentence": "pin.",
+      "example_phonetic": "/pin/",
+      "example_translation": "un"
     },
     {
-      "word_id": "b017",
-      "term": "bhə̀rə̀ŋ",
-      "phonetic_api": "/ɓə̀rə̀ŋ/",
-      "phonetic_simple": "BHE-RENG",
+      "word_id": "v2",
+      "term": "mεrəŋ",
+      "phonetic_api": "/mɛrəŋ/",
+      "phonetic_simple": "mè-REUNG",
       "translation": "deux (2)",
-      "example_sentence": "Gbɔ́n bhə̀rə̀ŋ mu di",
-      "example_phonetic": "/gɓɔ́n ɓə̀rə̀ŋ mu di/",
-      "example_translation": "Ce sont deux maisons"
+      "example_sentence": "mεrəŋ.",
+      "example_phonetic": "/mɛrəŋ/",
+      "example_translation": "deux"
     },
     {
-      "word_id": "b018",
-      "term": "bhààhà",
-      "phonetic_api": "/ɓàːhà/",
-      "phonetic_simple": "BHAA-HA",
+      "word_id": "v3",
+      "term": "mas",
+      "phonetic_api": "/mas/",
+      "phonetic_simple": "MASS",
       "translation": "trois (3)",
-      "example_sentence": "Wətɛ́ɛn bhààhà fɛ̀ɛ̀",
-      "example_phonetic": "/wətɛ́ːn ɓàːhà fɛ̀ː/",
-      "example_translation": "Trois frères/sœurs"
+      "example_sentence": "mas.",
+      "example_phonetic": "/mas/",
+      "example_translation": "trois"
     },
     {
-      "word_id": "b019",
-      "term": "múù-kpu",
-      "phonetic_api": "/múː kpu/",
-      "phonetic_simple": "MOO-KPU",
+      "word_id": "v4",
+      "term": "maŋklε",
+      "phonetic_api": "/maŋklɛ/",
+      "phonetic_simple": "mang-KLÈ",
+      "translation": "quatre (4)",
+      "example_sentence": "maŋklε.",
+      "example_phonetic": "/maŋklɛ/",
+      "example_translation": "quatre"
+    },
+    {
+      "word_id": "v5",
+      "term": "kətsamət",
+      "phonetic_api": "/kətsamət/",
+      "phonetic_simple": "keu-tsa-MEUT",
+      "translation": "cinq (5)",
+      "example_sentence": "kətsamət.",
+      "example_phonetic": "/kətsamət/",
+      "example_translation": "cinq"
+    },
+    {
+      "word_id": "v6",
+      "term": "tsamtitin",
+      "phonetic_api": "/tsamtitin/",
+      "phonetic_simple": "tsam-ti-TINE",
+      "translation": "six (6)",
+      "example_sentence": "tsamtitin.",
+      "example_phonetic": "/tsamtitin/",
+      "example_translation": "six"
+    },
+    {
+      "word_id": "v7",
+      "term": "wotsho",
+      "phonetic_api": "/wotʃo/",
+      "phonetic_simple": "wo-TCHO",
       "translation": "dix (10)",
-      "example_sentence": "Múù-kpu kpu ka",
-      "example_phonetic": "/múː kpu kpu ka/",
-      "example_translation": "Dix au total"
+      "example_sentence": "wotsho-kɔ-pin.",
+      "example_phonetic": "/wotʃo kɔ pin/",
+      "example_translation": "onze (10+1)."
+    },
+    {
+      "word_id": "v8",
+      "term": "ta-sar-tin",
+      "phonetic_api": "/tasartin/",
+      "phonetic_simple": "ta-sar-TINE",
+      "translation": "cent (100)",
+      "example_sentence": "ta-sar-tin.",
+      "example_phonetic": "/tasartin/",
+      "example_translation": "cent"
     }
   ],
   "common_phrases": [
     {
-      "phrase_id": "bp011",
-      "original": "Bə̀nə̀ŋ mu ya di ?",
-      "phonetic_api": "/ɓə̀nə̀ŋ mu ja di/",
-      "phonetic_simple": "BÈ-NÈNG MOO YA DI ?",
-      "translation": "Combien y en a-t-il ici ?",
-      "context": "S'enquérir d'une quantité sur un étal de vente"
+      "phrase_id": "p1",
+      "original": "tsamtəmεrəŋ",
+      "phonetic_api": "/tsamtəmɛrəŋ/",
+      "phonetic_simple": "tsam-teu-mè-REUNG",
+      "translation": "sept (7)",
+      "context": "Construit sur le radical \"tsamt-\" + mεrəŋ (2), motif visible dans 6-9."
     },
     {
-      "phrase_id": "bp012",
-      "original": "Mə̀ fɛ̀ɛ̀ bədɛ̀n bhə̀rə̀ŋ mu ya",
-      "phonetic_api": "/mə̀ fɛ̀ː ɓədɛ̀n ɓə̀rə̀ŋ mu ja/",
-      "phonetic_simple": "ME FÈÈ BE-DÈN BHE-RENG MOO YA",
-      "translation": "J'ai deux enfants ici.",
-      "context": "Déclarer la taille de sa descendance immédiate"
+      "phrase_id": "p2",
+      "original": "tsamtəmas",
+      "phonetic_api": "/tsamtəmas/",
+      "phonetic_simple": "tsam-teu-MASS",
+      "translation": "huit (8)",
+      "context": "\"tsamt-\" + mas (3)."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "tsamtəmaŋklε",
+      "phonetic_api": "/tsamtəmaŋklɛ/",
+      "phonetic_simple": "tsam-teu-mang-KLÈ",
+      "translation": "neuf (9)",
+      "context": "\"tsamt-\" + maŋklε (4)."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "wotsho-kɔ-pin",
+      "phonetic_api": "/wotʃo kɔ pin/",
+      "phonetic_simple": "wo-tcho-ko-PINE",
+      "translation": "onze (11)",
+      "context": "dix + un, construction additive attestée (Notes L:37)."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "ma-sar-mεrəŋ",
+      "phonetic_api": "/masarmɛrəŋ/",
+      "phonetic_simple": "ma-sar-mè-REUNG",
+      "translation": "deux cents (200)",
+      "context": "cent (racine sar) multiplié par deux (mεrəŋ)."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "te-tsir-tin",
+      "phonetic_api": "/tetsirtin/",
+      "phonetic_simple": "te-tsir-TINE",
+      "translation": "mille (1000)",
+      "context": "Attesté par Lamp, Notes L:37."
     }
   ],
   "grammar_points": [
     {
-      "concept": "La position de l'adjectif numéral cardinal",
-      "explanation": "En Baga, le nombre se place toujours après le nom qu'il comptabilise ou modifie. Le nom ne change généralement pas de forme au pluriel, c'est le numéral qui définit la quantité.",
+      "concept": "Système de numération additive à base 5/10",
+      "explanation": "Les nombres 6 à 9 sont formés à partir d'un radical \"tsamt-\" (apparenté à \"cinq\" = kətsamət) suivi du chiffre de 1 à 4 : tsamtitin (6=5+1), tsamtəmεrəŋ (7=5+2), tsamtəmas (8=5+3), tsamtəmaŋklε (9=5+4). Le nombre dix (wotsho) sert ensuite de base pour les nombres suivants par addition (wotsho-kɔ-pin = onze = dix+un).",
       "rules": [
-        "Structure quantitative : Nom + Chiffre/Nombre."
+        "6-9 = base \"cinq\" (tsamt-) + 1,2,3,4.",
+        "11+ = wotsho (dix) + kɔ (et/plus) + unité.",
+        "Centaines/milliers utilisent des racines dédiées (sar pour cent, tsir pour mille) multipliées par le chiffre."
       ],
       "examples": [
         {
-          "structure": "gbɔ́n (maison) + bhə̀rə̀ŋ (deux)",
-          "phonetic_api": "/gɓɔ́n ɓə̀rə̀ŋ/",
-          "meaning": "Deux maisons"
+          "structure": "kətsamət + tin → tsamtitin",
+          "phonetic_api": "/kətsamət, tsamtitin/",
+          "meaning": "cinq + un → six"
+        },
+        {
+          "structure": "wotsho + kɔ + pin → wotsho-kɔ-pin",
+          "phonetic_api": "/wotʃo kɔ pin/",
+          "meaning": "dix + et + un → onze"
         }
       ]
     }
   ],
   "dialogue": [
     {
-      "speaker": "Marchand",
-      "text": "Ió Sékou, i bədɛ̀n bə̀nə̀ŋ mu ya di ?",
-      "phonetic_api": "/ió sɛku i ɓədɛ̀n ɓə̀nə̀ŋ mu ja di/",
-      "phonetic_simple": "IÓ SÉ-KOO, I BE-DÈN BÈ-NÈNG MOO YA DI ?",
-      "translation": "Bonjour Sékou, combien d'enfants as-tu ici ?"
+      "speaker": "A",
+      "text": "tsəke ?",
+      "phonetic_api": "/tsəke/",
+      "phonetic_simple": "tseu-KÉ",
+      "translation": "Combien ?"
     },
     {
-      "speaker": "Sékou",
-      "text": "N bɛ́ɛ bədɛ̀n bhààhà mu ya di, kàn wətɛ́ɛn dúu.",
-      "phonetic_api": "/ⁿɓɛ́ː ɓədɛ̀n ɓàːhà mu ja di kàn wətɛ́ɛn dúː/",
-      "phonetic_simple": "N BÉÉ BE-DÈN BHAA-HA MOO YA DI, KAN WE-TÉÉN DOO.",
-      "translation": "J'ai trois enfants ici, et un frère."
+      "speaker": "B",
+      "text": "kətsamət.",
+      "phonetic_api": "/kətsamət/",
+      "phonetic_simple": "keu-tsa-MEUT",
+      "translation": "Cinq."
+    },
+    {
+      "speaker": "A",
+      "text": "wotsho-kɔ-pin ?",
+      "phonetic_api": "/wotʃo kɔ pin/",
+      "phonetic_simple": "wo-tcho-ko-PINE",
+      "translation": "Onze ?"
+    },
+    {
+      "speaker": "B",
+      "text": "pin, mεrəŋ, mas...",
+      "phonetic_api": "/pin mɛrəŋ mas/",
+      "phonetic_simple": "pine, mè-reung, mass",
+      "translation": "Un, deux, trois..."
     }
   ],
   "cultural_notes": [
-    "Le comptage traditionnel Baga s'appuie sur une base quinaire (système de 5). Les nombres au-delà de cinq se construisent en ajoutant des unités à la base cinq, menant de façon fluide vers la dizaine complète 'múù-kpu'."
+    "Le système décimal/quinaire du baga sitemu (base 5 pour 6-9, base 10 ensuite) est un schéma courant en Afrique de l'Ouest et reflète une numération orale ancienne, distincte des emprunts numériques au français ou au maninka utilisés dans le commerce moderne."
   ],
   "exercises": [
     {
-      "exercise_id": "A1_M2_L5_ex1",
+      "exercise_id": "ex1",
       "type": "multiple_choice",
-      "question": "Que signifie le chiffre 'bhə̀rə̀ŋ' ?",
+      "question": "Comment dit-on \"dix\" en baga sitemu ?",
       "options": [
-        "Un",
-        "Deux",
-        "Trois"
+        "wotsho",
+        "pin",
+        "mas"
       ],
-      "correct_answer": "Deux",
-      "explanation": "'bhə̀rə̀ŋ' est le terme précis pour le chiffre 2."
+      "correct_answer": "wotsho",
+      "explanation": "\"wotsho\" = dix (Notes L:37)."
     },
     {
-      "exercise_id": "A1_M2_L5_ex2",
+      "exercise_id": "ex2",
       "type": "fill_in_the_blanks",
-      "sentence_with_blank": "Bədɛ̀n [ ___ ] mu ya (Un enfant est ici).",
-      "correct_answer": "dúu",
-      "hint": "Le chiffre un en Baga"
+      "sentence_with_blank": "6 = 5 (kətsamət) + 1 = ___",
+      "correct_answer": "tsamtitin",
+      "hint": "Le radical \"tsamt-\" marque la base 5."
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Lamp, F.J. — Baga Tshi-Tem Dictionary (Guinea, rév. 2021)",
+      "url": "https://catalogingafricana.wordpress.com/wp-content/uploads/2016/07/a.baga-vocabulary-final-notated-2021-cr.pdf"
+    },
+    {
+      "label": "Glottolog 5.3 — Baga Sitemu (baga1272)",
+      "url": "https://glottolog.org/resource/languoid/id/baga1272"
+    }
+  ],
+  "confidence": "élevée",
+  "confidence_note": "Le système numérique complet de 1 à 1000 est attesté avec la même référence interne (\"Notes L:37\") dans le dictionnaire de Lamp, ce qui suggère une collecte cohérente auprès d'un même informateur — c'est l'un des champs lexicaux les plus complets et fiables du corpus disponible pour le baga sitemu. Variété choisie : Baga Sitemu (autonyme Citɛm ; ISO 639-3 bsp ; Glottocode baga1272), décrite comme \"the only vibrant Baga linguistic variety\" par Wikipédia (d'après Wilson 2007), parlée dans des villages sur le fleuve Campaces/Rio Pongo, région de Boffa, Guinée (~40 000 locuteurs, 2018). C'est la variété baga au sens strict la mieux documentée : dictionnaire de terrain de 3000 mots (Lamp 2016/2021), listes lexicales ASJP indépendantes, fiches Glottolog/WALS, et mention dans la thèse de Weller Ganong (1998) sur la morphologie/syntaxe baga. Elle appartient à la branche Mel (Niger-Congo > Atlantic-Congo > Mel > Northern Mel, avec Temne, Landuma, Baga Koba), et non à la branche Nalu-Mbulungish-Baga Mboteni décrite par Sapir (1971) comme faisant partie de l'Atlantique Nord — ces deux ensembles sont linguistiquement distincts malgré l'identité ethnique Baga commune. Le Baga Mboteni (bgm/bcg), bien que parlé par des Baga ethniques, n'est PAS une langue Mel et reste très peu documenté (pas de dictionnaire de terrain publié comparable); le Baga Fore/Mbulungish (bsp est un code distinct de mbv) est également peu documenté en comparaison. Le Sitemu a donc été retenu comme le meilleur compromis entre authenticité \"Baga\" et disponibilité de données vérifiables."
 }
