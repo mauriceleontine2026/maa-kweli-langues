@@ -1,6 +1,8 @@
 import { useEffect, useState, useRef } from "react";
 import { Link } from "react-router-dom";
 import { useAuth } from "@/lib/AuthContext";
+import { useLanguage } from "@/contexts/LanguageContext";
+import { getLanguageName } from "@/lib/localLanguageData";
 import { getLanguages } from "@/api/languageService";
 import { getProgress } from "@/api/progressService";
 import { logout as logoutService, updateMe } from "@/api/authService";
@@ -16,6 +18,7 @@ export default function Profile() {
   const [languages, setLanguages] = useState(/** @type {any[]} */ ([]));
   const [contributions, setContributions] = useState(/** @type {any[]} */ ([]));
   const { theme, toggleTheme } = useTheme();
+  const { t, language: interfaceLanguage } = useLanguage();
   const [uploading, setUploading] = useState(false);
   const [profileName, setProfileName] = useState("");
   const [currentPassword, setCurrentPassword] = useState("");
@@ -72,14 +75,14 @@ export default function Profile() {
   const approvedContributions = contributions.filter((contribution) => contribution.status === "approved").length;
 
   const achievements = [
-    { icon: "🎯", title: "Premiers pas", desc: "1 leçon complétée", unlocked: totalLessons >= 1 },
-    { icon: "📚", title: "Assidu", desc: "10 leçons", unlocked: totalLessons >= 10 },
-    { icon: "🏆", title: "Expert", desc: "30 leçons", unlocked: totalLessons >= 30 },
-    { icon: "🌍", title: "Polyglotte", desc: "3 langues", unlocked: activeLangs >= 3 },
-    { icon: "🔥", title: "Régulier", desc: "7 jours de série", unlocked: maxStreak >= 7 },
-    { icon: "⭐", title: "Chasseur d'XP", desc: "500 XP", unlocked: totalXP >= 500 },
-    { icon: "📝", title: "Contributeur", desc: "1 contribution", unlocked: contributions.length >= 1 },
-    { icon: "💎", title: "Bienfaiteur", desc: "5 contributions", unlocked: contributions.length >= 5 },
+    { icon: "🎯", title: t("badgeBeginnerTitle"), desc: t("badgeBeginnerDesc"), unlocked: totalLessons >= 1 },
+    { icon: "📚", title: t("badgeDiligentTitle"), desc: t("badgeDiligentDesc"), unlocked: totalLessons >= 10 },
+    { icon: "🏆", title: t("badgeExpertTitle"), desc: t("badgeExpertDesc"), unlocked: totalLessons >= 30 },
+    { icon: "🌍", title: t("badgePolyglotTitle"), desc: t("badgePolyglotDesc"), unlocked: activeLangs >= 3 },
+    { icon: "🔥", title: t("badgeRegularTitle"), desc: t("badgeRegularDesc"), unlocked: maxStreak >= 7 },
+    { icon: "⭐", title: t("badgeXPHunterTitle"), desc: t("badgeXPHunterDesc"), unlocked: totalXP >= 500 },
+    { icon: "📝", title: t("badgeContributorTitle"), desc: t("badgeContributorDesc"), unlocked: contributions.length >= 1 },
+    { icon: "💎", title: t("badgeBenefactorTitle"), desc: t("badgeBenefactorDesc"), unlocked: contributions.length >= 5 },
   ];
 
   const handlePhotoUpload = async (/** @type {import("react").ChangeEvent<HTMLInputElement>} */ e) => {
@@ -89,12 +92,12 @@ export default function Profile() {
     try {
       const uploadData = await uploadProfilePhoto(file);
       const file_url = uploadData?.photo_url;
-      if (!file_url) throw new Error("Aucune URL de photo renvoyée.");
+      if (!file_url) throw new Error(t("Aucune URL de photo renvoyée."));
       updateUser(uploadData.user || { photo_url: file_url });
     } catch (err) {
       const errorValue = /** @type {unknown} */ (err);
       const message = errorValue instanceof Error ? errorValue.message : String(errorValue);
-      alert("Erreur lors de l'upload : " + message);
+      alert(t("Erreur lors de l'upload :") + " " + message);
     } finally {
       setUploading(false);
     }
@@ -113,20 +116,20 @@ export default function Profile() {
     const changingPassword = Boolean(currentPassword || newPassword || confirmNewPassword);
 
     if (!nameChanged && !changingPassword) {
-      setProfileMessage("Aucune modification à enregistrer.");
+      setProfileMessage(t("Aucune modification à enregistrer."));
       return;
     }
     if (changingPassword) {
       if (!currentPassword || !newPassword || !confirmNewPassword) {
-        setProfileError("Remplissez les trois champs du changement de mot de passe.");
+        setProfileError(t("Remplissez les trois champs du changement de mot de passe."));
         return;
       }
       if (newPassword !== confirmNewPassword) {
-        setProfileError("Les nouveaux mots de passe ne correspondent pas.");
+        setProfileError(t("Les nouveaux mots de passe ne correspondent pas."));
         return;
       }
       if (newPassword.length < 12 || !/[a-z]/.test(newPassword) || !/[A-Z]/.test(newPassword) || !/\d/.test(newPassword) || !/[^A-Za-z0-9]/.test(newPassword)) {
-        setProfileError("Le nouveau mot de passe doit contenir 12 caractères, une majuscule, une minuscule, un chiffre et un caractère spécial.");
+        setProfileError(t("Le nouveau mot de passe doit contenir 12 caractères, une majuscule, une minuscule, un chiffre et un caractère spécial."));
         return;
       }
     }
@@ -144,9 +147,9 @@ export default function Profile() {
       setCurrentPassword("");
       setNewPassword("");
       setConfirmNewPassword("");
-      setProfileMessage("Profil et sécurité mis à jour.");
+      setProfileMessage(t("Profil et sécurité mis à jour."));
     } catch (error) {
-      setProfileError(error instanceof Error ? error.message : "Impossible de mettre à jour le profil.");
+      setProfileError(error instanceof Error ? error.message : t("Impossible de mettre à jour le profil."));
     } finally {
       setProfileSaving(false);
     }
@@ -167,7 +170,7 @@ export default function Profile() {
               {user.photo_url ? (
                 <img
                   src={user.photo_url}
-                  alt={user.full_name || "Profil"}
+                  alt={user.full_name || t("Profil")}
                   className="h-full w-full object-cover"
                   referrerPolicy="no-referrer"
                   onError={(event) => {
@@ -188,15 +191,15 @@ export default function Profile() {
             <input ref={fileInputRef} type="file" accept="image/*" onChange={handlePhotoUpload} className="hidden" />
           </div>
           <div className="min-w-0 flex-1 text-center sm:text-left">
-            <h1 className="font-heading text-2xl font-bold text-foreground break-words">{user.full_name || "Apprenant"}</h1>
+            <h1 className="font-heading text-2xl font-bold text-foreground break-words">{user.full_name || t("account")}</h1>
             <div className="mt-1 flex items-center justify-center gap-2 text-sm text-muted-foreground break-all sm:justify-start">
               <Mail size={14} className="shrink-0" /> <span className="min-w-0 break-all">{user.email}</span>
             </div>
             <div className="mt-2 flex flex-wrap items-center justify-center gap-2 sm:justify-start">
               <span className={`inline-flex items-center gap-1 rounded-full px-2.5 py-1 text-xs font-medium ${user.role === "admin" ? "bg-primary/15 text-primary" : "bg-secondary text-muted-foreground"}`}>
-                <Shield size={12} /> {user.role === "admin" ? "Administrateur" : "Apprenant"}
+                <Shield size={12} /> {user.role === "admin" ? t("administration") : t("personalSpace")}
               </span>
-              <span className="inline-flex items-center gap-1 rounded-full bg-emerald-500/10 px-2.5 py-1 text-xs font-medium text-emerald-600 dark:text-emerald-400"><CheckCircle2 size={12} /> Compte actif</span>
+              <span className="inline-flex items-center gap-1 rounded-full bg-emerald-500/10 px-2.5 py-1 text-xs font-medium text-emerald-600 dark:text-emerald-400"><CheckCircle2 size={12} /> {t("signedIn")}</span>
             </div>
           </div>
           <img src="/logo.png" alt="Mǎa-kwɛ́lî Langues" className="hidden h-14 w-14 rounded-full object-cover shadow-md ring-2 ring-primary/20 sm:block" />
@@ -206,10 +209,10 @@ export default function Profile() {
       {/* Stats */}
       <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
         {[
-          { icon: Star, color: "text-blue-500", value: totalXP, label: "XP totaux" },
-          { icon: Flame, color: "text-primary", value: maxStreak, label: "Série max (j)" },
-          { icon: BookOpen, color: "text-green-500", value: totalLessons, label: "Leçons" },
-          { icon: Globe, color: "text-purple-500", value: activeLangs, label: "Langues" },
+          { icon: Star, color: "text-blue-500", value: totalXP, label: t("XP totaux") },
+          { icon: Flame, color: "text-primary", value: maxStreak, label: t("Série max (j)") },
+          { icon: BookOpen, color: "text-green-500", value: totalLessons, label: t("Leçons") },
+          { icon: Globe, color: "text-purple-500", value: activeLangs, label: t("Langues") },
         ].map(({ icon: Icon, color, value, label }) => (
           <div key={label} className="rounded-2xl border border-border bg-card p-3 text-center shadow-sm sm:p-4">
             <Icon className={`mx-auto mb-1.5 ${color}`} size={22} />
@@ -223,7 +226,7 @@ export default function Profile() {
       <div className="rounded-2xl border border-border bg-card p-4 shadow-sm sm:p-5">
         <div className="mb-3 flex items-center gap-2">
           <Award size={18} className="text-primary" />
-          <h2 className="font-heading text-xl font-bold text-foreground">Mes badges</h2>
+          <h2 className="font-heading text-xl font-bold text-foreground">{t("My badges")}</h2>
         </div>
         <div className="grid grid-cols-2 gap-3 md:grid-cols-4">
           {achievements.map((a) => (
@@ -240,16 +243,16 @@ export default function Profile() {
       <div className="rounded-2xl border border-border bg-card p-4 shadow-sm sm:p-5">
         <div className="mb-3 flex items-center gap-2">
           <Clock size={18} className="text-muted-foreground" />
-          <h2 className="font-heading text-xl font-bold text-foreground">Mes contributions</h2>
+          <h2 className="font-heading text-xl font-bold text-foreground">{t("My contributions")}</h2>
         </div>
         {contributions.length === 0 ? (
           <div className="bg-card border border-border rounded-2xl p-6 text-center">
-            <p className="text-sm text-muted-foreground mb-3">Vous n'avez pas encore contribué.</p>
-            <Link to="/contribuer" className="text-primary text-sm font-medium hover:underline">Contribuer maintenant →</Link>
+            <p className="text-sm text-muted-foreground mb-3">{t("Vous n'avez pas encore contribué.")}</p>
+            <Link to="/contribuer" className="text-primary text-sm font-medium hover:underline">{t("contribute")} →</Link>
           </div>
         ) : (
           <>
-            <div className="mb-4 grid grid-cols-2 gap-3"><div className="rounded-xl bg-yellow-500/10 p-3"><div className="text-lg font-bold text-foreground">{pendingContributions}</div><div className="text-xs text-muted-foreground">En attente</div></div><div className="rounded-xl bg-emerald-500/10 p-3"><div className="text-lg font-bold text-foreground">{approvedContributions}</div><div className="text-xs text-muted-foreground">Validées</div></div></div>
+            <div className="mb-4 grid grid-cols-2 gap-3"><div className="rounded-xl bg-yellow-500/10 p-3"><div className="text-lg font-bold text-foreground">{pendingContributions}</div><div className="text-xs text-muted-foreground">{t("En attente")}</div></div><div className="rounded-xl bg-emerald-500/10 p-3"><div className="text-lg font-bold text-foreground">{approvedContributions}</div><div className="text-xs text-muted-foreground">{t("Validées")}</div></div></div>
           <div className="space-y-2">
             {contributions.map(c => {
               const lang = languages.find(l => l.code === c.language_code);
@@ -258,11 +261,11 @@ export default function Profile() {
                   <LanguageFlag language={lang} size="md" />
                   <div className="min-w-0 flex-1">
                     <div className="text-sm font-medium text-foreground break-words">{c.word} <span className="text-muted-foreground">→ {c.translation_fr}</span></div>
-                    <div className="text-xs text-muted-foreground">{lang?.name_fr || c.language_code}</div>
+                    <div className="text-xs text-muted-foreground">{getLanguageName(lang, interfaceLanguage) || c.language_code}</div>
                   </div>
-                  {c.status === "pending" && <span className="inline-flex items-center gap-1 text-xs text-yellow-500"><Hourglass size={12} /> En attente</span>}
-                  {c.status === "approved" && <span className="inline-flex items-center gap-1 text-xs text-green-500"><CheckCircle size={12} /> Validé</span>}
-                  {c.status === "rejected" && <span className="inline-flex items-center gap-1 text-xs text-red-500"><XCircle size={12} /> Refusé</span>}
+                  {c.status === "pending" && <span className="inline-flex items-center gap-1 text-xs text-yellow-500"><Hourglass size={12} /> {t("En attente")}</span>}
+                  {c.status === "approved" && <span className="inline-flex items-center gap-1 text-xs text-green-500"><CheckCircle size={12} /> {t("Validé")}</span>}
+                  {c.status === "rejected" && <span className="inline-flex items-center gap-1 text-xs text-red-500"><XCircle size={12} /> {t("Refusé")}</span>}
                 </div>
               );
             })}
@@ -274,41 +277,41 @@ export default function Profile() {
       <div className="rounded-2xl border border-border bg-card p-4 shadow-sm sm:p-5">
         <div className="mb-4 flex items-center gap-2">
           <Settings size={18} className="text-muted-foreground" />
-          <h2 className="font-heading text-lg font-bold text-foreground">Paramètres</h2>
+          <h2 className="font-heading text-lg font-bold text-foreground">{t("Settings")}</h2>
         </div>
         <form onSubmit={handleProfileSave} className="mb-4 rounded-2xl border border-border bg-secondary/30 p-3 sm:p-4">
           <div className="mb-4 flex items-center gap-2">
             <Lock size={17} className="text-primary" />
             <div>
-              <h3 className="text-sm font-bold text-foreground">Informations du compte</h3>
-              <p className="text-xs text-muted-foreground">Modifiez votre nom et votre mot de passe.</p>
+              <h3 className="text-sm font-bold text-foreground">{t("Account Information")}</h3>
+              <p className="text-xs text-muted-foreground">{t("Update your name and password.")}</p>
             </div>
           </div>
           <label className="mb-3 block text-sm font-medium text-foreground">
-            Nom utilisateur
+            {t("Username")}
             <input value={profileName} onChange={(event) => setProfileName(event.target.value)} maxLength={120} className="mt-1.5 w-full rounded-xl border border-border bg-background px-3 py-2.5 text-sm text-foreground outline-none focus:border-primary focus:ring-2 focus:ring-primary/20" />
           </label>
           <div className="grid gap-3 sm:grid-cols-3">
-            <label className="text-sm font-medium text-foreground">Mot de passe actuel<input type="password" autoComplete="current-password" value={currentPassword} onChange={(event) => setCurrentPassword(event.target.value)} className="mt-1.5 w-full rounded-xl border border-border bg-background px-3 py-2.5 text-sm text-foreground outline-none focus:border-primary focus:ring-2 focus:ring-primary/20" /></label>
-            <label className="text-sm font-medium text-foreground">Nouveau mot de passe<input type="password" autoComplete="new-password" value={newPassword} onChange={(event) => setNewPassword(event.target.value)} className="mt-1.5 w-full rounded-xl border border-border bg-background px-3 py-2.5 text-sm text-foreground outline-none focus:border-primary focus:ring-2 focus:ring-primary/20" /></label>
-            <label className="text-sm font-medium text-foreground">Confirmer le nouveau<input type="password" autoComplete="new-password" value={confirmNewPassword} onChange={(event) => setConfirmNewPassword(event.target.value)} className="mt-1.5 w-full rounded-xl border border-border bg-background px-3 py-2.5 text-sm text-foreground outline-none focus:border-primary focus:ring-2 focus:ring-primary/20" /></label>
+            <label className="text-sm font-medium text-foreground">{t("Current password")}<input type="password" autoComplete="current-password" value={currentPassword} onChange={(event) => setCurrentPassword(event.target.value)} className="mt-1.5 w-full rounded-xl border border-border bg-background px-3 py-2.5 text-sm text-foreground outline-none focus:border-primary focus:ring-2 focus:ring-primary/20" /></label>
+            <label className="text-sm font-medium text-foreground">{t("New password")}<input type="password" autoComplete="new-password" value={newPassword} onChange={(event) => setNewPassword(event.target.value)} className="mt-1.5 w-full rounded-xl border border-border bg-background px-3 py-2.5 text-sm text-foreground outline-none focus:border-primary focus:ring-2 focus:ring-primary/20" /></label>
+            <label className="text-sm font-medium text-foreground">{t("Confirm new password")}<input type="password" autoComplete="new-password" value={confirmNewPassword} onChange={(event) => setConfirmNewPassword(event.target.value)} className="mt-1.5 w-full rounded-xl border border-border bg-background px-3 py-2.5 text-sm text-foreground outline-none focus:border-primary focus:ring-2 focus:ring-primary/20" /></label>
           </div>
-          <p className="mt-2 text-xs text-muted-foreground">Le nouveau mot de passe doit contenir au moins 12 caractères, une majuscule, une minuscule, un chiffre et un caractère spécial.</p>
+          <p className="mt-2 text-xs text-muted-foreground">{t("The new password must contain 12 characters, an uppercase letter, a lowercase letter, a number, and a special character.")}</p>
           {profileError ? <p role="alert" className="mt-3 text-sm text-destructive">{profileError}</p> : null}
           {profileMessage ? <p role="status" className="mt-3 text-sm text-emerald-600">{profileMessage}</p> : null}
           <button type="submit" disabled={profileSaving} className="mt-4 inline-flex items-center gap-2 rounded-xl bg-primary px-4 py-2.5 text-sm font-semibold text-primary-foreground transition hover:opacity-90 disabled:opacity-60">
             {profileSaving ? <Loader2 size={16} className="animate-spin" /> : <Save size={16} />}
-            {profileSaving ? "Enregistrement..." : "Enregistrer les modifications"}
+            {profileSaving ? t("Enregistrement...") : t("Enregistrer les modifications")}
           </button>
         </form>
         <button onClick={toggleTheme}
           className="mb-2 flex w-full items-center justify-between rounded-xl bg-secondary/50 px-4 py-3 text-sm font-medium text-foreground transition hover:bg-secondary">
-          <span>Thème {theme === "dark" ? "sombre" : "clair"}</span>
-          <span className="text-xs text-primary">Basculer</span>
+          <span>{t("Thème")} {theme === "dark" ? t("Thème sombre") : t("Thème clair")}</span>
+          <span className="text-xs text-primary">{t("Basculer")}</span>
         </button>
         <button onClick={handleLogout}
           className="flex w-full items-center justify-center gap-2 rounded-xl bg-red-500/10 px-4 py-3 text-sm font-medium text-red-500 transition hover:bg-red-500/20">
-          <LogOut size={16} /> Se déconnecter
+          <LogOut size={16} /> {t("Se déconnecter")}
         </button>
       </div>
     </div>

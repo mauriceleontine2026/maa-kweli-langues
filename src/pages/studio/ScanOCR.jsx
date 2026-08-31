@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { invokeAI } from "@/api/aiService";
 import { restoreBackendSession } from "@/api/authService";
 import { createVocabulary, getLanguages } from "@/api/languageService";
+import { useLanguage } from "@/contexts/LanguageContext";
 import { Scan, ArrowLeft, Upload, Loader2, Plus, CheckCircle, Languages } from "lucide-react";
 import { createWorker } from "tesseract.js";
 
@@ -13,6 +14,67 @@ import { createWorker } from "tesseract.js";
  */
 
 export default function ScanOCR() {
+  const { language } = useLanguage();
+  const isEnglish = language === "en";
+  const labels = isEnglish ? {
+    title: "Scan & Translate",
+    subtitle: "Import an image, verify the text, then review the useful words.",
+    step1: "1. Import an image",
+    step2: "2. Scan & translate",
+    step3: "3. Add to review",
+    targetLanguage: "Translation language",
+    uploadTitle: "Take a photo or import an image",
+    uploadSubtitle: "Board, menu, book... the AI extracts and translates the text.",
+    scan: "Scan & Translate",
+    change: "Change",
+    loading: "Analyzing...",
+    detect: "Detected language",
+    original: "Original text",
+    translation: "Translation in ",
+    noWords: "No words extracted",
+    addReview: "Add to my review queue",
+    added: "Added to your review queue!",
+    errorImage: "Select an image file.",
+    errorLarge: "The image must be under 10 MB.",
+    notReadable: "Unable to read the image for analysis.",
+    notPrepared: "Unable to prepare the image for analysis.",
+    scanError: "Error during analysis: ",
+    changeLanguage: "Choose a language",
+    confidenceBanner: "Confidence level: ",
+    confidenceDisclaimer: "Check the original text before adding it to your review.",
+    wordsExtracted: "Extracted words",
+    unidentified: "Unidentified",
+    previewAlt: "Preview"
+  } : {
+    title: "Scan & Traduit",
+    subtitle: "Importez une image, vérifiez le texte, puis révisez les mots utiles.",
+    step1: "1. Importer une image",
+    step2: "2. Scanner et traduire",
+    step3: "3. Ajouter à la révision",
+    targetLanguage: "Langue de traduction",
+    uploadTitle: "Photographier ou importer une image",
+    uploadSubtitle: "Panneau, menu, livre... l'IA extrait et traduit le texte",
+    scan: "Scanner & Traduire",
+    change: "Changer",
+    loading: "Analyse...",
+    detect: "Langue détectée",
+    original: "Texte original",
+    translation: "Traduction en ",
+    noWords: "Aucun mot extrait",
+    addReview: "Ajouter à ma file de révision",
+    added: "Ajouté à ta file de révision !",
+    errorImage: "Sélectionnez un fichier image.",
+    errorLarge: "L’image doit faire moins de 10 Mo.",
+    notReadable: "Impossible de lire l’image pour l’analyse.",
+    notPrepared: "Impossible de préparer l’image pour l’analyse.",
+    scanError: "Erreur pendant l’analyse : ",
+    changeLanguage: "Choisir une langue",
+    confidenceBanner: "Niveau de confiance : ",
+    confidenceDisclaimer: "Vérifiez le texte original avant de l’ajouter à votre révision.",
+    wordsExtracted: "Mots extraits",
+    unidentified: "Non identifiée",
+    previewAlt: "Aperçu"
+  };
   const [imageFile, setImageFile] = useState(/** @type {File | null} */ (null));
   const [imagePreview, setImagePreview] = useState(/** @type {string | null} */ (null));
   const [loading, setLoading] = useState(false);
@@ -42,11 +104,11 @@ export default function ScanOCR() {
     const file = target.files?.[0];
     if (!file) return;
     if (!file.type.startsWith("image/")) {
-      setError("Sélectionnez un fichier image.");
+      setError(labels.errorImage);
       return;
     }
     if (file.size > 10 * 1024 * 1024) {
-      setError("L’image doit faire moins de 10 Mo.");
+      setError(labels.errorLarge);
       return;
     }
     setImageFile(file);
@@ -142,7 +204,7 @@ ${extractedText || "[aucun texte OCR fiable : lis l'image directement]"}`,
       }
       setResult(typeof res === "object" && res !== null ? res : { original_text: String(res ?? ""), translated_text: "", source_language: "", words: [] });
     } catch (err) {
-      setError("Erreur pendant l’analyse : " + (err instanceof Error ? err.message : String(err)));
+      setError(labels.scanError + (err instanceof Error ? err.message : String(err)));
     } finally {
       await worker?.terminate();
       setLoading(false);
@@ -201,33 +263,33 @@ ${extractedText || "[aucun texte OCR fiable : lis l'image directement]"}`,
           <Scan className="text-green-500" size={24} />
         </div>
         <div>
-          <h1 className="font-heading text-2xl font-bold text-foreground">Scan &amp; Traduit</h1>
-          <p className="text-sm text-muted-foreground">Importez une image, vérifiez le texte, puis révisez les mots utiles.</p>
+          <h1 className="font-heading text-2xl font-bold text-foreground">{labels.title}</h1>
+          <p className="text-sm text-muted-foreground">{labels.subtitle}</p>
         </div>
       </div>
-      <div className="mt-5 grid gap-2 text-xs text-muted-foreground sm:grid-cols-3"><div className="rounded-xl bg-green-500/10 px-3 py-2"><b className="text-foreground">1.</b> Importer une image</div><div className="rounded-xl bg-green-500/10 px-3 py-2"><b className="text-foreground">2.</b> Scanner et traduire</div><div className="rounded-xl bg-green-500/10 px-3 py-2"><b className="text-foreground">3.</b> Ajouter à la révision</div></div>
+      <div className="mt-5 grid gap-2 text-xs text-muted-foreground sm:grid-cols-3"><div className="rounded-xl bg-green-500/10 px-3 py-2"><b className="text-foreground">{labels.step1}</b></div><div className="rounded-xl bg-green-500/10 px-3 py-2"><b className="text-foreground">{labels.step2}</b></div><div className="rounded-xl bg-green-500/10 px-3 py-2"><b className="text-foreground">{labels.step3}</b></div></div>
       </header>
 
-      <div className="mb-5 rounded-2xl border border-border bg-card p-4 shadow-sm"><label className="mb-2 block text-sm font-semibold text-foreground">Langue de traduction</label><select value={targetLanguage} onChange={(event) => setTargetLanguage(event.target.value)} className="w-full rounded-xl border border-border bg-background px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-primary/40"><option value="français">Français</option>{languages.filter((language) => language.name_fr && language.name_fr.toLowerCase() !== "français").map((language) => <option key={language.code} value={language.name_fr}>{language.name_fr}{language.name && language.name !== language.name_fr ? ` (${language.name})` : ""}</option>)}</select></div>
+      <div className="mb-5 rounded-2xl border border-border bg-card p-4 shadow-sm"><label className="mb-2 block text-sm font-semibold text-foreground">{labels.targetLanguage}</label><select value={targetLanguage} onChange={(event) => setTargetLanguage(event.target.value)} className="w-full rounded-xl border border-border bg-background px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-primary/40"><option value="français">Français</option>{languages.filter((language) => language.name_fr && language.name_fr.toLowerCase() !== "français").map((language) => <option key={language.code} value={language.name_fr}>{language.name_fr}{language.name && language.name !== language.name_fr ? ` (${language.name})` : ""}</option>)}</select></div>
 
       {/* Upload area */}
       {!imagePreview ? (
         <button type="button" onClick={() => fileInputRef.current?.click()}
           className="w-full rounded-2xl border-2 border-dashed border-border p-10 text-center transition hover:border-primary/40 hover:bg-primary/5 sm:p-14">
           <Upload className="mx-auto text-muted-foreground mb-3" size={40} />
-          <p className="font-semibold text-foreground">Photographier ou importer une image</p>
-          <p className="text-sm text-muted-foreground mt-1">Panneau, menu, livre... l'IA extrait et traduit le texte</p>
+          <p className="font-semibold text-foreground">{labels.uploadTitle}</p>
+          <p className="text-sm text-muted-foreground mt-1">{labels.uploadSubtitle}</p>
         </button>
       ) : (
         <div className="mb-5 rounded-2xl border border-border bg-card p-4 shadow-sm">
-          <img src={imagePreview} alt="Aperçu" className="w-full rounded-xl max-h-64 object-contain mb-3" />
+          <img src={imagePreview} alt={labels.previewAlt} className="w-full rounded-xl max-h-64 object-contain mb-3" />
           <div className="flex gap-2">
             <button type="button" onClick={reset} className="flex-1 rounded-xl bg-secondary py-2 text-sm font-medium text-secondary-foreground transition hover:bg-secondary/70">
-              Changer
+              {labels.change}
             </button>
             <button type="button" onClick={scanAndTranslate} disabled={loading}
               className="flex-1 flex items-center justify-center gap-2 py-2 rounded-xl bg-primary text-primary-foreground text-sm font-medium hover:opacity-90 transition disabled:opacity-60">
-              {loading ? <><Loader2 size={16} className="animate-spin" /> Analyse...</> : <><Scan size={16} /> Scanner &amp; Traduire</>}
+              {loading ? <><Loader2 size={16} className="animate-spin" /> {labels.loading}</> : <><Scan size={16} /> {labels.scan}</>}
             </button>
           </div>
         </div>
@@ -241,30 +303,30 @@ ${extractedText || "[aucun texte OCR fiable : lis l'image directement]"}`,
         <div className="grid gap-4 lg:grid-cols-2">
           {resultAny?.confidence && resultAny.confidence !== "élevée" && (
             <div className="rounded-2xl border border-amber-500/30 bg-amber-500/10 p-4 text-sm text-amber-700 dark:text-amber-300 lg:col-span-2">
-              Niveau de confiance : {resultAny.confidence}. Vérifiez le texte original avant de l’ajouter à votre révision.
+              {labels.confidenceBanner}{resultAny.confidence}. {labels.confidenceDisclaimer}
             </div>
           )}
           <div className="rounded-2xl border border-border bg-card p-5 shadow-sm">
                 <div className="flex items-center gap-2 mb-3">
                   <Languages size={18} className="text-primary" />
-                  <span className="text-xs font-semibold text-muted-foreground uppercase tracking-wider">Langue détectée</span>
+                  <span className="text-xs font-semibold text-muted-foreground uppercase tracking-wider">{labels.detect}</span>
                 </div>
-                <p className="text-foreground font-medium">{resultAny?.source_language || "Non identifiée"}</p>
+                <p className="text-foreground font-medium">{resultAny?.source_language || labels.unidentified}</p>
               </div>
 
           <div className="rounded-2xl border border-border bg-card p-5 shadow-sm">
-            <h3 className="text-xs font-semibold text-muted-foreground uppercase tracking-wider mb-2">Texte original</h3>
+            <h3 className="text-xs font-semibold text-muted-foreground uppercase tracking-wider mb-2">{labels.original}</h3>
             <p className="text-foreground whitespace-pre-wrap">{resultAny?.original_text}</p>
           </div>
 
           <div className="rounded-2xl border border-border bg-card p-5 shadow-sm">
-            <h3 className="text-xs font-semibold text-muted-foreground uppercase tracking-wider mb-2">Traduction en {targetLanguage}</h3>
+            <h3 className="text-xs font-semibold text-muted-foreground uppercase tracking-wider mb-2">{labels.translation}{targetLanguage}</h3>
             <p className="text-foreground whitespace-pre-wrap">{resultAny?.translated_text}</p>
           </div>
 
           {(resultAny?.words && resultAny.words.length > 0) && (
             <div className="rounded-2xl border border-border bg-card p-5 shadow-sm lg:col-span-2">
-              <h3 className="text-xs font-semibold text-muted-foreground uppercase tracking-wider mb-3">Mots extraits ({resultAny?.words?.length || 0})</h3>
+              <h3 className="text-xs font-semibold text-muted-foreground uppercase tracking-wider mb-3">{labels.wordsExtracted} ({resultAny?.words?.length || 0})</h3>
               <div className="space-y-2 mb-4">
                 {resultAny.words.map((/** @type {any} */ w, /** @type {number} */ i) => (
                   <div key={i} className="flex items-center justify-between text-sm">
@@ -275,13 +337,13 @@ ${extractedText || "[aucun texte OCR fiable : lis l'image directement]"}`,
               </div>
               {added ? (
                 <div className="flex items-center justify-center gap-2 text-green-500 text-sm font-medium py-2">
-                  <CheckCircle size={18} /> Ajouté à ta file de révision !
+                  <CheckCircle size={18} /> {labels.added}
                 </div>
               ) : (
                 <button onClick={addToReview} disabled={adding}
                   className="w-full flex items-center justify-center gap-2 py-3 rounded-xl bg-primary text-primary-foreground text-sm font-semibold hover:opacity-90 transition disabled:opacity-60">
                   {adding ? <Loader2 size={16} className="animate-spin" /> : <Plus size={16} />}
-                  {adding ? "Ajout..." : "Ajouter à ma file de révision"}
+                  {adding ? (isEnglish ? "Adding..." : "Ajout...") : labels.addReview}
                 </button>
               )}
             </div>

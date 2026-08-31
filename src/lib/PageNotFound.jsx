@@ -6,8 +6,14 @@ export default function PageNotFound({}) {
     const location = useLocation();
     const pageName = location.pathname.substring(1);
 
+    const hasStoredSession = typeof window !== 'undefined' && (
+        !!window.localStorage.getItem('mbaara_user') ||
+        !!window.sessionStorage.getItem('mbaara_user')
+    );
+
     const { data: authData, isFetched } = useQuery({
         queryKey: ['user'],
+        enabled: hasStoredSession,
         queryFn: async () => {
             try {
                 const user = await getCurrentUser();

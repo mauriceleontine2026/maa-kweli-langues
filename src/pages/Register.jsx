@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { register, requestEmailVerification } from "@/api/authService";
 import AuthSplitPanel from "@/components/AuthSplitPanel";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 export default function Register() {
   const [error, setError] = useState("");
@@ -10,6 +11,7 @@ export default function Register() {
   const [createdEmail, setCreatedEmail] = useState("");
   const [resendStatus, setResendStatus] = useState("");
   const [resendLoading, setResendLoading] = useState(false);
+  const { t } = useLanguage();
 
   /**
    * @param {{ email: string; password: string; confirmPassword: string; name: string; mode: string }} props
@@ -25,17 +27,17 @@ export default function Register() {
     setResendStatus("");
     setAlreadyRegistered(false);
     if (formPassword !== confirmPassword) {
-      setError("Les mots de passe ne correspondent pas");
+      setError(t("passwordMismatch"));
       return;
     }
 
     const normalizedEmail = typeof formEmail === "string" ? formEmail.trim() : "";
     if (normalizedEmail.length === 0) {
-      setError("Veuillez saisir une adresse e-mail.");
+      setError(t("emailAddressRequired"));
       return;
     }
     if (formPassword.length < 12 || !/[a-z]/.test(formPassword) || !/[A-Z]/.test(formPassword) || !/\d/.test(formPassword) || !/[^A-Za-z0-9]/.test(formPassword)) {
-      setError("Le mot de passe doit contenir au moins 12 caractères, une majuscule, une minuscule, un chiffre et un caractère spécial.");
+      setError(t("passwordRequirements"));
       return;
     }
     setLoading(true);
@@ -43,22 +45,22 @@ export default function Register() {
       const result = await register(normalizedEmail, formPassword, name);
       setCreatedEmail(normalizedEmail);
       if (result?.verification_required === false) {
-        setMessage("Compte créé. Votre adresse e-mail est déjà vérifiée, vous pouvez vous connecter immédiatement.");
+        setMessage(t("registrationAlreadyVerified"));
       } else if (result?.message) {
         setMessage(result.message);
       } else {
-        setMessage("Compte créé. Consultez votre boîte mail et cliquez sur le lien de vérification avant de vous connecter.");
+        setMessage(t("registrationSuccess"));
       }
     } catch (err) {
-      const rawMessage = err instanceof Error ? err.message : "Erreur lors de l'inscription";
+      const rawMessage = err instanceof Error ? err.message : t("registrationError");
       const normalized = String(rawMessage || "").trim();
       if (err?.status === 429 || normalized.toLowerCase().includes("rate limit") || normalized.toLowerCase().includes("limite temporairement")) {
-        setError("Trop de demandes d'e-mails de confirmation ont été envoyées. Attendez quelques minutes, puis réessayez avec la même adresse ou utilisez le renvoi depuis la page de connexion.");
+        setError(t("verificationRateLimit"));
       } else if (err?.status === 409 || normalized.toLowerCase().includes("already") || normalized.toLowerCase().includes("déjà")) {
         setAlreadyRegistered(true);
-        setError("Cette adresse e-mail est déjà utilisée. Connectez-vous avec ce compte ou réinitialisez votre mot de passe.");
+        setError(t("emailAlreadyUsed"));
       } else {
-        setError(normalized || "Erreur lors de l'inscription");
+        setError(normalized || t("registrationError"));
       }
     } finally {
       setLoading(false);
@@ -71,9 +73,9 @@ export default function Register() {
     setResendStatus("");
     try {
       await requestEmailVerification(createdEmail);
-      setResendStatus("Un nouvel e-mail de vérification a été envoyé.");
+      setResendStatus(t("verificationSent"));
     } catch (err) {
-      setResendStatus(err instanceof Error ? err.message : "Impossible d'envoyer l'e-mail de vérification.");
+      setResendStatus(err instanceof Error ? err.message : t("verificationSent"));
     } finally {
       setResendLoading(false);
     }
@@ -86,25 +88,25 @@ export default function Register() {
       error={error}
       message={message}
       initialMode="signup"
-      submitLabel="S'inscrire"
-      switchLabel="Déjà inscrit ?"
-      switchButtonLabel="Se connecter"
+      submitLabel={t("signUp")}
+      switchLabel={t("alreadyAccount")}
+      switchButtonLabel={t("signIn")}
     >
       {createdEmail && message && !alreadyRegistered ? (
         <div className="mt-4 rounded-2xl border border-primary/20 bg-primary/5 p-4 text-left text-sm text-foreground">
-          <p>Vérifiez votre boîte mail pour confirmer :</p>
+          <p>{t("verificationSent")}</p>
           <p className="mt-1 break-all font-semibold">{createdEmail}</p>
           <button type="button" onClick={handleResendVerification} disabled={resendLoading} className="mt-3 font-semibold text-primary hover:underline disabled:opacity-60">
-            {resendLoading ? "Envoi..." : "Renvoyer l'e-mail de vérification"}
+            {resendLoading ? t("sending") : t("resendVerification")}
           </button>
-          {resendStatus ? <p className={`mt-2 ${resendStatus.includes("envoyé") ? "text-emerald-600" : "text-destructive"}`}>{resendStatus}</p> : null}
+          {resendStatus ? <p className={`mt-2 ${resendStatus.includes("sent") || resendStatus.includes("envoy") ? "text-emerald-600" : "text-destructive"}`}>{resendStatus}</p> : null}
         </div>
       ) : null}
       {alreadyRegistered ? (
         <div className="rounded-xl border border-primary/20 bg-primary/5 p-3 text-center text-sm">
-          <a href="/login" className="font-semibold text-primary hover:underline">Aller à la connexion</a>
-          <span className="mx-2 text-muted-foreground">ou</span>
-          <a href="/forgot-password" className="font-semibold text-primary hover:underline">Réinitialiser le mot de passe</a>
+          <a href="/login" className="font-semibold text-primary hover:underline">{t("goToLoginAlt")}</a>
+          <span className="mx-2 text-muted-foreground">or</span>
+          <a href="/forgot-password" className="font-semibold text-primary hover:underline">{t("resetPasswordAlt")}</a>
         </div>
       ) : null}
     </AuthSplitPanel>

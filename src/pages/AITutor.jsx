@@ -2,29 +2,37 @@ import { useEffect, useRef, useState } from "react";
 import { invokeAI } from "@/api/aiService";
 import { restoreBackendSession } from "@/api/authService";
 import { getLanguages, getVocabularyForLanguage } from "@/api/languageService";
+import { useLanguage } from "@/contexts/LanguageContext";
 import { Send, Mic, Volume2, Square, Headphones, Languages, Sparkles, MessageSquareText, ArrowUpRight, CheckCircle2, RotateCcw } from "lucide-react";
 import { moderateContent, getModerationMessage } from "@/lib/moderation";
 import { buildPhonologyContext, getTTSLocale, getBestVoice, getPhonologyProfile } from "@/lib/languagePhonology";
 import { getCountryForLanguage, getFlagForLanguage } from "@/lib/localLanguageData";
+import { playAudioSource, speakText, startVoiceRecognition, stopVoiceRecognition } from "@/lib/audioService";
 // public logo at /logo.png
 
-const SUGGESTIONS = [
-  "Apprends-moi l'alphabet Soussou",
-  "Comment dire bonjour en Wolof ?",
-  "Explique les tons du Yoruba",
-  "Comment prononcer les implosives ɓ et ɗ ?",
-  "Quels sons sont difficiles en Malinké ?",
-  "Corrige ma prononciation des voyelles ɛ et ɔ",
+const getSuggestions = (t) => [
+  t("suggestionAlpha"),
+  t("suggestionGreeting"),
+  t("suggestionTones"),
+  t("suggestionImplosives"),
+  t("suggestionDifficultSounds"),
+  t("suggestionVowels"),
 ];
 
-const QUICK_ACTIONS = [
-  { label: "Prononciation", prompt: "Corrige ma prononciation et donne-moi un exemple réel.", icon: "🎯" },
-  { label: "Conversation", prompt: "Fais-moi une petite conversation en wolof pour m'entraîner.", icon: "💬" },
-  { label: "Culture", prompt: "Explique-moi le contexte culturel derrière cette langue.", icon: "🌍" },
-  { label: "Traduction", prompt: "Traduis-moi cette phrase et explique les nuances.", icon: "📝" },
+const getQuickActions = (t) => [
+  { label: t("pronunciation"), prompt: t("promptPronunciation"), icon: "🎯" },
+  { label: t("conversation"), prompt: t("promptConversation"), icon: "💬" },
+  { label: t("culture"), prompt: t("promptCulture"), icon: "🌍" },
+  { label: t("translation"), prompt: t("promptTranslation"), icon: "📝" },
 ];
 
 export default function AITutor() {
+  const { t, language } = useLanguage();
+  const getLanguageDisplayName = (languageItem) => language === "en"
+    ? (languageItem?.name || languageItem?.name_fr)
+    : languageItem?.name_fr;
+  const QUICK_ACTIONS = getQuickActions(t);
+  const SUGGESTIONS = getSuggestions(t);
   /** @type {{ role: string; content: string }[]} */
   const initialMessages = [];
   /** @type {any[]} */
@@ -78,45 +86,33 @@ export default function AITutor() {
    * @param {() => void} [onEnd]
    */
   const speak = (text, onEnd) => {
-    if (!("speechSynthesis" in window)) { onEnd?.(); return; }
-    window.speechSynthesis.cancel();
     const speechText = cleanForSpeech(text);
     if (!speechText) { onEnd?.(); return; }
-    const u = new SpeechSynthesisUtterance(speechText);
-    const locale = getTTSLocale(lang);
-    const voice = getBestVoice(lang);
-    if (voice) u.voice = voice;
-    u.lang = locale;
-    u.rate = 0.88; // Légèrement ralenti pour l'apprentissage
-    u.onend = () => onEnd?.();
-    u.onerror = () => onEnd?.();
-    window.speechSynthesis.speak(u);
+    return speakText(speechText, lang, { onEnd });
   };
 
   /**
    * @param {(transcript: string) => void} onResult
    */
   const startListening = (onResult) => {
-    const win = /** @type {any} */ (window);
-    const SR = win.SpeechRecognition || win.webkitSpeechRecognition;
-    if (!SR) {
-      alert("Reconnaissance vocale non supportée. Utilisez Chrome ou Edge.");
-      return;
-    }
-    const rec = /** @type {any} */ (new SR());
-    rec.lang = getTTSLocale(lang);
-    rec.continuous = false;
-    rec.interimResults = false;
-    rec.onresult = /** @param {any} e */ (e) => onResult(e.results[0][0].transcript);
-    rec.onerror = () => setListening(false);
-    rec.onend = () => setListening(false);
-    rec.start();
+    const rec = startVoiceRecognition(lang, {
+      onResult: (transcript) => {
+        onResult(transcript);
+      },
+      onError: () => {
+        alert(t("micUnsupported"));
+        setListening(false);
+      },
+      onEnd: () => setListening(false),
+    });
+
     recognitionRef.current = rec;
-    setListening(true);
+    setListening(Boolean(rec));
   };
 
   const stopListening = () => {
-    recognitionRef.current?.stop();
+    stopVoiceRecognition();
+    recognitionRef.current = null;
     setListening(false);
   };
 
@@ -138,8 +134,9 @@ export default function AITutor() {
   };
   /** @param {string} msg @param {boolean} [voiceReply] */  const callLLM = async (msg, voiceReply = false) => {
     const langObj = languages.find(l => l.code === lang);
-    const langLabel = langObj ? `${langObj.name_fr} (${langObj.name})` : lang;
+    const langLabel = langObj ? `${getLanguageDisplayName(langObj)} (${langObj.name})` : lang;
     const country = getCountryForLanguage(langObj || lang);
+    const explanationLanguage = language === "en" ? "English" : "French";
     const dictContext = buildDictContext(langLabel);
     const phonologyContext = buildPhonologyContext(lang, langObj);
     const conversationContext = messages.slice(-8).map((message) => `${message.role === "user" ? "Utilisateur" : "Kôrô"}: ${message.content}`).join("\n");
@@ -149,13 +146,13 @@ export default function AITutor() {
 L'apprenant a choisi la langue: ${langLabel}. Pays principal de référence: ${country}.
 
 RÈGLES:
-  1. Réponds D'ABORD dans la langue choisie (${langLabel}), avec la grammaire, le vocabulaire, les expressions idiomatiques, le niveau de politesse et le registre naturel d'un locuteur natif de cette langue. N'utilise le français que pour une traduction ou une explication pédagogique explicitement utile.
+  1. Réponds D'ABORD dans la langue choisie (${langLabel}), avec la grammaire, le vocabulaire, les expressions idiomatiques, le niveau de politesse et le registre naturel d'un locuteur natif de cette langue. Utilise ${explanationLanguage} pour les traductions et les explications pédagogiques.
 2. Le dictionnaire est une référence prioritaire uniquement pour les mots, exemples audio et phonétiques qu'il contient. Il ne limite ni tes recherches ni les sujets auxquels tu peux répondre. Pour un mot absent du dictionnaire, recherche une source linguistique fiable et indique clairement la source et ton niveau de certitude ; n'invente jamais de phonétique.
   3. ADOPTE LA PRONONCIATION ET L'ACCENT naturels de la langue choisie en suivant fidèlement son profil phonologique : rythme, intonation, longueur vocalique, tons, voyelles, consonnes et enchaînements. Ne remplace jamais ses sons par des équivalents français lorsque tu écris ou transcris la langue cible.
 4. Pour chaque mot ou expression dans la langue cible:
-   - Donne la phonétique IPA ET une prononciation simplifiée en français
+  - Donne la phonétique IPA ET une prononciation simplifiée expliquée en ${explanationLanguage}
    - Explique comment articuler les sons spécifiques (implosives, tons, nasales, emphatiques, etc.)
-   - Compare avec les sons français les plus proches
+  - Compare avec les sons les plus proches de ${explanationLanguage}
    - Si la langue est tonale, indique le ton de chaque mot et explique comment le réaliser
 5. Corrige activement les erreurs de prononciation fréquentes listées dans le profil phonologique.
 6. Si un mot demandé est dans le dictionnaire, donne sa phonétique exacte et mentionne si un audio est disponible.
@@ -165,7 +162,7 @@ RÈGLES:
 10. Si la question est ambiguë, demande une précision. Si elle concerne une langue peu documentée, distingue les formes attestées des hypothèses et n'invente aucun mot ni aucune prononciation.
 11. Reste respectueux, professionnel et bienveillant. Refuse uniquement les demandes dangereuses, illégales, haineuses, sexuelles impliquant des mineurs, ou visant à causer un préjudice. Pour les sujets sensibles, donne des informations générales et oriente vers une aide qualifiée si nécessaire.
 12. Sois concis mais complet. Donne des exemples concrets et adapte le niveau de détail à la question.${voiceReply ? `
-13. MODE VOCAL SIRI : réponds avec des phrases courtes, naturelles et faciles à écouter dans la langue choisie. N'utilise pas de Markdown, de tableaux, de symboles décoratifs, d'URL ni de marqueurs audio. Exécute directement la demande de l'apprenant. Ne donne une transcription IPA ou une explication en français que si elle est nécessaire ou explicitement demandée.` : ""}${dictContext}${phonologyContext}
+13. MODE VOCAL SIRI : réponds avec des phrases courtes, naturelles et faciles à écouter dans la langue choisie. N'utilise pas de Markdown, de tableaux, de symboles décoratifs, d'URL ni de marqueurs audio. Exécute directement la demande de l'apprenant. Ne donne une transcription IPA ou une explication en ${explanationLanguage} que si elle est nécessaire ou explicitement demandée.` : ""}${dictContext}${phonologyContext}
 
 HISTORIQUE RÉCENT DE LA CONVERSATION:
 ${conversationContext || "[aucun historique]"}
@@ -220,10 +217,10 @@ Question actuelle de l'apprenant: ${msg}`;
     setSiriMode(true);
     siriModeRef.current = true;
     setMessages(prev => prev.length === 0
-      ? [{ role: "assistant", content: "Mode conversation vocale activé ! Parle naturellement, je t'écoute. Clique sur Stop pour arrêter." }]
+      ? [{ role: "assistant", content: t("siriActivated") }]
       : prev
     );
-    speak("Mode conversation vocale activé. Parle naturellement, je t'écoute.", () => {
+    speak(t("siriActivatedVoice"), () => {
       if (siriModeRef.current) setTimeout(() => siriListen(), 500);
     });
   };
@@ -245,8 +242,8 @@ Question actuelle de l'apprenant: ${msg}`;
         if (siriModeRef.current) setTimeout(() => siriListen(), 500);
       });
     } catch (error) {
-      const detail = error instanceof Error ? error.message : "Erreur inconnue";
-      setMessages(prev => [...prev, { role: "assistant", content: `Désolé, je n'ai pas pu répondre. ${detail}` }]);
+      const detail = error instanceof Error ? error.message : t("unknownError");
+      setMessages(prev => [...prev, { role: "assistant", content: `${t("tutorError")} ${detail}` }]);
       if (siriModeRef.current) setTimeout(() => siriListen(), 2000);
     } finally {
       setLoading(false);
@@ -284,8 +281,8 @@ Question actuelle de l'apprenant: ${msg}`;
       setMessages(prev => [...prev, { role: "assistant", content: res }]);
       if (voiceModeRef.current) speak(cleanContent(res));
     } catch (error) {
-      const detail = error instanceof Error ? error.message : "Erreur inconnue";
-      setMessages(prev => [...prev, { role: "assistant", content: `Désolé, je n'ai pas pu répondre. ${detail}` }]);
+      const detail = error instanceof Error ? error.message : t("unknownError");
+      setMessages(prev => [...prev, { role: "assistant", content: `${t("tutorError")} ${detail}` }]);
     } finally {
       setLoading(false);
     }
@@ -311,20 +308,20 @@ Question actuelle de l'apprenant: ${msg}`;
               </div>
               <div>
                 <div className="flex items-center gap-2">
-                  <h1 className="font-heading text-3xl font-bold text-foreground">Kôrô</h1>
+                  <h1 className="font-heading text-3xl font-bold text-foreground">{t("assistantLabel")}</h1>
                   <span className="rounded-full border border-primary/20 bg-primary/10 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-[0.18em] text-primary">
-                    Tuteur IA
+                    {t("aiCoach")}
                   </span>
                 </div>
                 <p className="text-xs text-muted-foreground">
-                  {activeLanguage ? `${getFlagForLanguage(activeLanguage)} ${activeLanguage.name_fr}` : "Assistant IA Mǎa-kwɛ́lî"} · {languages.length} langues · {vocab.length} mots
+                  {activeLanguage ? `${getFlagForLanguage(activeLanguage)} ${getLanguageDisplayName(activeLanguage)}` : t("assistantDescription")} · {languages.length} {t("languagesCount")} · {vocab.length} {t("wordsCount")}
                 </p>
               </div>
             </div>
 
             <div className="flex flex-wrap items-center gap-2">
               <span className="hidden items-center gap-1.5 rounded-full bg-emerald-500/10 px-2.5 py-1.5 text-[11px] font-medium text-emerald-600 sm:inline-flex">
-                <span className="h-2 w-2 rounded-full bg-emerald-500" /> En ligne
+                <span className="h-2 w-2 rounded-full bg-emerald-500" /> {t("online")}
               </span>
               <button
                 onClick={() => setVoiceMode(!voiceMode)}
@@ -334,7 +331,7 @@ Question actuelle de l'apprenant: ${msg}`;
                     : "bg-secondary text-secondary-foreground hover:bg-secondary/80"
                 }`}
               >
-                <Volume2 size={14} /> Voix
+                <Volume2 size={14} /> {t("voice")}
               </button>
               <button
                 onClick={siriMode ? stopSiriMode : startSiriMode}
@@ -344,7 +341,7 @@ Question actuelle de l'apprenant: ${msg}`;
                     : "bg-gradient-to-r from-violet-500 to-purple-600 text-white hover:from-violet-600 hover:to-purple-700"
                 }`}
               >
-                <Headphones size={14} /> {siriMode ? "Stop" : "Mode Siri"}
+                <Headphones size={14} /> {siriMode ? t("stop") : t("modeSiri")}
               </button>
             </div>
           </div>
@@ -353,11 +350,11 @@ Question actuelle de l'apprenant: ${msg}`;
             <div className="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
               <div className="flex items-center gap-2 text-sm font-medium text-foreground/90">
                 <Languages size={16} className="text-primary" />
-                <span>{activeLanguage ? `Langue active : ${activeLanguage.name_fr}` : "Langue active"}</span>
+                <span>{activeLanguage ? `${t("languageActive")} : ${getLanguageDisplayName(activeLanguage)}` : t("languageActive")}</span>
               </div>
               {getPhonologyProfile(lang) && (
                 <span className="inline-flex items-center gap-1 rounded-full bg-violet-500/10 px-2.5 py-1 text-[10px] font-semibold uppercase tracking-[0.12em] text-violet-600">
-                  <Languages size={10} /> Accent {getPhonologyProfile(lang).name}
+                  <Languages size={10} /> {t("accent")} {getPhonologyProfile(lang).name}
                 </span>
               )}
             </div>
@@ -373,7 +370,7 @@ Question actuelle de l'apprenant: ${msg}`;
                       : "border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80"
                   }`}
                 >
-                  <span>{getFlagForLanguage(l)}</span> {l.name_fr}
+                  <span>{getFlagForLanguage(l)}</span> {getLanguageDisplayName(l)}
                 </button>
               ))}
             </div>
@@ -383,7 +380,7 @@ Question actuelle de l'apprenant: ${msg}`;
         <main className="mt-4 grid gap-4 lg:grid-cols-[300px_minmax(0,1fr)]">
           <aside className="rounded-[28px] border border-border/80 bg-card/80 p-4 shadow-[0_18px_45px_rgba(15,23,42,0.05)] backdrop-blur-sm">
             <div className="mb-4 flex items-center justify-between">
-              <h2 className="font-heading text-xl font-bold text-foreground">Focus</h2>
+              <h2 className="font-heading text-xl font-bold text-foreground">{t("focusTitle")}</h2>
               <span className="rounded-full bg-primary/10 px-2 py-1 text-[10px] font-semibold uppercase tracking-[0.14em] text-primary">
                 AI coach
               </span>
@@ -391,10 +388,10 @@ Question actuelle de l'apprenant: ${msg}`;
 
             <div className="space-y-3">
               {[
-                { label: "Prononciation", value: "IPA + ton", icon: "🎧" },
-                { label: "Culture", value: "Historique & usages", icon: "🌍" },
-                { label: "Contexte", value: "Adapté à l’accent", icon: "✨" },
-                { label: "Dictionnaire", value: `${vocab.length} mots`, icon: "📚" }
+                { label: t("pronunciation"), value: t("ipaTones"), icon: "🎧" },
+                { label: t("culture"), value: t("historicalUses"), icon: "🌍" },
+                { label: t("context"), value: t("adaptedAccent"), icon: "✨" },
+                { label: t("dictionary"), value: `${vocab.length} ${t("wordsCount")}`, icon: "📚" }
               ].map(item => (
                 <div key={item.label} className="rounded-[20px] border border-border bg-gradient-to-br from-secondary/50 to-white/80 px-3 py-2.5 shadow-sm dark:from-slate-900/70 dark:to-slate-950/80">
                   <div className="flex items-center gap-3">
@@ -412,7 +409,7 @@ Question actuelle de l'apprenant: ${msg}`;
 
             <div className="mt-5 rounded-[22px] border border-dashed border-primary/30 bg-primary/5 p-3">
               <div className="mb-3 flex items-center justify-between">
-                <p className="text-xs font-semibold uppercase tracking-[0.18em] text-primary">Suggestions</p>
+                <p className="text-xs font-semibold uppercase tracking-[0.18em] text-primary">{t("suggestionsTitle")}</p>
                 <Sparkles size={14} className="text-primary" />
               </div>
               <div className="space-y-2">
@@ -435,12 +432,12 @@ Question actuelle de l'apprenant: ${msg}`;
             <div className="mt-5 rounded-[22px] border border-border bg-gradient-to-br from-emerald-500/10 to-primary/10 p-3 shadow-inner shadow-emerald-500/5">
               <div className="mb-2 flex items-center gap-2 text-sm font-semibold text-foreground">
                 <CheckCircle2 size={16} className="text-emerald-500" />
-                Progression du jour
+                {t("progressToday")}
               </div>
               <div className="space-y-2">
                 <div>
                   <div className="mb-1 flex justify-between text-[11px] text-muted-foreground">
-                    <span>Prononciation</span>
+                    <span>{t("pronunciation")}</span>
                     <span>78%</span>
                   </div>
                   <div className="h-2 rounded-full bg-white/70 dark:bg-slate-900/80">
@@ -449,7 +446,7 @@ Question actuelle de l'apprenant: ${msg}`;
                 </div>
                 <div>
                   <div className="mb-1 flex justify-between text-[11px] text-muted-foreground">
-                    <span>Conversation</span>
+                    <span>{t("conversation")}</span>
                     <span>64%</span>
                   </div>
                   <div className="h-2 rounded-full bg-white/70 dark:bg-slate-900/80">
@@ -463,10 +460,10 @@ Question actuelle de l'apprenant: ${msg}`;
           <section className="flex min-h-[620px] flex-col overflow-hidden rounded-[28px] border border-border/80 bg-card/80 shadow-sm backdrop-blur-sm">
             <div className="flex items-center justify-between border-b border-border/70 px-4 py-3 sm:px-5 lg:px-6">
               <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.16em] text-muted-foreground">
-                <MessageSquareText size={14} className="text-primary" /> Conversation
-                <span className="rounded-full bg-secondary px-2 py-0.5 text-[10px] tracking-normal">{messages.length} message{messages.length > 1 ? "s" : ""}</span>
+                <MessageSquareText size={14} className="text-primary" /> {t("conversation")}
+                <span className="rounded-full bg-secondary px-2 py-0.5 text-[10px] tracking-normal">{messages.length} {t("messageCount", messages.length)}</span>
               </div>
-              {messages.length > 0 && <button type="button" onClick={() => setMessages([])} title="Réinitialiser la conversation" className="inline-flex items-center gap-1.5 rounded-lg px-2.5 py-1.5 text-xs font-medium text-muted-foreground transition hover:bg-secondary hover:text-foreground"><RotateCcw size={13} /> Nouvelle conversation</button>}
+              {messages.length > 0 && <button type="button" onClick={() => setMessages([])} title={t("newConversation")} className="inline-flex items-center gap-1.5 rounded-lg px-2.5 py-1.5 text-xs font-medium text-muted-foreground transition hover:bg-secondary hover:text-foreground"><RotateCcw size={13} /> {t("newConversation")}</button>}
             </div>
             <div ref={scrollRef} className="flex-1 overflow-y-auto px-4 py-5 sm:px-5 lg:px-6">
               <div className="mx-auto max-w-3xl space-y-4">
@@ -478,11 +475,11 @@ Question actuelle de l'apprenant: ${msg}`;
                       </div>
                       <div className="mb-3 flex items-center justify-center gap-2 text-xs font-semibold uppercase tracking-[0.2em] text-primary">
                         <Sparkles size={12} />
-                        <span>Coach de langue</span>
+                        <span>{t("languageCoach")}</span>
                       </div>
-                      <h2 className="font-heading text-3xl font-bold text-foreground">Bonjour ! Je suis Kôrô</h2>
+                      <h2 className="font-heading text-3xl font-bold text-foreground">{t("helloKoro")}</h2>
                       <p className="mx-auto mt-3 max-w-lg text-sm leading-relaxed text-muted-foreground">
-                        Ton assistant IA pour apprendre les langues africaines et internationales. Pose-moi une question, ou active le <strong>Mode Siri</strong> pour parler naturellement.
+                        {t("koroIntro")}
                       </p>
 
                       <div className="mt-6 grid gap-2 sm:grid-cols-2">
@@ -519,14 +516,14 @@ Question actuelle de l'apprenant: ${msg}`;
                         <div className="mb-2 flex items-center justify-between gap-3 text-[10px] font-semibold uppercase tracking-[0.14em] opacity-80">
                           <span className="inline-flex items-center gap-1.5">
                             {isUser ? <MessageSquareText size={12} /> : <Sparkles size={12} />}
-                            {isUser ? "Toi" : "Kôrô"}
+                            {isUser ? t("userLabel") : t("assistantLabel")}
                           </span>
                         </div>
                         <p className="whitespace-pre-wrap break-words text-sm leading-7 [overflow-wrap:anywhere]">{display}</p>
                         {!isUser && (
                           <div className="mt-3 flex flex-wrap items-center gap-3">
                             <button onClick={() => speak(display)} className="inline-flex items-center gap-1 text-[11px] font-medium text-muted-foreground transition hover:text-primary">
-                              <Volume2 size={12} /> Écouter
+                              <Volume2 size={12} /> {t("audioListen")}
                             </button>
                             {audioUrls.map((url, j) => (
                               <audio key={j} controls src={url} className="h-7 max-w-full" />
@@ -542,7 +539,7 @@ Question actuelle de l'apprenant: ${msg}`;
                   <div className="flex justify-start">
                     <div className="rounded-[24px] border border-border bg-secondary/30 px-4 py-3">
                       <div className="flex items-center gap-2 text-xs font-medium uppercase tracking-[0.16em] text-muted-foreground">
-                        <span>Kôrô réfléchit</span>
+                        <span>{t("assistantLabel")} {t("thinking")}</span>
                       </div>
                       <div className="mt-3 flex gap-1.5">
                         <span className="h-2.5 w-2.5 rounded-full bg-muted-foreground/50 animate-bounce" style={{ animationDelay: "0ms" }} />
@@ -557,7 +554,7 @@ Question actuelle de l'apprenant: ${msg}`;
                   <div className="pt-2 text-center">
                     <div className="inline-flex items-center gap-2 rounded-full bg-violet-500/10 px-4 py-2 text-sm font-medium text-violet-600">
                       <Mic size={16} className={listening ? "animate-pulse" : ""} />
-                      {listening ? "J'écoute..." : loading ? "Je réfléchis..." : "Prêt à écouter"}
+                      {listening ? t("listening") : loading ? t("thinking") : t("readyToListen")}
                     </div>
                   </div>
                 )}
@@ -582,8 +579,8 @@ Question actuelle de l'apprenant: ${msg}`;
                       value={input}
                       onChange={e => setInput(e.target.value)}
                       onKeyDown={e => e.key === "Enter" && sendMessage()}
-                      placeholder={listening ? "Écoute..." : "Posez une question sur une langue..."}
-                      aria-label="Question au tuteur IA"
+                      placeholder={listening ? t("listening") : t("askLanguageQuestion")}
+                      aria-label={t("askLanguageQuestion")}
                       className="min-w-0 flex-1 rounded-full border-0 bg-transparent px-3 py-3 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none"
                     />
 

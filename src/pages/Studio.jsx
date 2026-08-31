@@ -1,8 +1,10 @@
 import { Link } from "react-router-dom";
 import { Mic, Waves, Scan, Trophy, ArrowRight } from "lucide-react";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 const MODULES = [
   {
+    key: "studioVoiceTutor",
     title: "Tuteur Vocal Kôrô",
     desc: "Parlez à voix haute — transcription, corrections IA et réponse parlée.",
     icon: Mic,
@@ -11,6 +13,7 @@ const MODULES = [
     iconColor: "text-orange-500",
   },
   {
+    key: "studioAccent",
     title: "Atelier d'Accent",
     desc: "Comparez votre voix à un locuteur de référence — analyse spectrale en %.",
     icon: Waves,
@@ -19,6 +22,7 @@ const MODULES = [
     iconColor: "text-blue-500",
   },
   {
+    key: "studioScan",
     title: "Scan & Traduit",
     desc: "Photographiez un texte — OCR local gratuit, traduction et ajout à la file SRS.",
     icon: Scan,
@@ -27,6 +31,7 @@ const MODULES = [
     iconColor: "text-green-500",
   },
   {
+    key: "studioLeagues",
     title: "Ligues en Direct",
     desc: "Classement hebdomadaire XP, synchronisé en temps réel entre joueurs.",
     icon: Trophy,
@@ -37,13 +42,45 @@ const MODULES = [
 ];
 
 export default function Studio() {
+  const { language, t } = useLanguage();
+
+  const localizedModules = MODULES.map((module) => {
+    const isEnglish = language === "en";
+    return {
+      ...module,
+      title: isEnglish
+        ? module.key === "studioVoiceTutor"
+          ? "Kôrô Voice Tutor"
+          : module.key === "studioAccent"
+            ? "Accent Workshop"
+            : module.key === "studioScan"
+              ? "Scan & Translate"
+              : "Live Leagues"
+        : module.title,
+      desc: isEnglish
+        ? module.key === "studioVoiceTutor"
+          ? "Speak aloud — transcription, AI corrections, and spoken responses."
+          : module.key === "studioAccent"
+            ? "Compare your voice to a reference speaker — spectral analysis in %."
+            : module.key === "studioScan"
+              ? "Photograph a text — free local OCR, translation, and add to the SRS queue."
+              : "Weekly XP leaderboard, synced in real time between players."
+        : module.desc,
+      openLabel: isEnglish ? "Open" : "Ouvrir",
+      headline: isEnglish ? "AI Studio & Data Science" : "Studio IA & Data Science",
+      subtitle: isEnglish
+        ? "Mǎa-kwɛ́lî advanced modules — voice, accent, vision, and competition."
+        : "Les modules avancés de Mǎa-kwɛ́lî — voix, accent, vision et compétition.",
+    };
+  });
+
   return (
     <div className="p-6 lg:p-10 max-w-4xl mx-auto">
-      <h1 className="font-heading text-3xl font-bold text-foreground mb-1">Studio IA &amp; Data Science</h1>
-      <p className="text-muted-foreground mb-8">Les modules avancés de Mǎa-kwɛ́lî — voix, accent, vision et compétition.</p>
+      <h1 className="font-heading text-3xl font-bold text-foreground mb-1">{localizedModules[0]?.headline}</h1>
+      <p className="text-muted-foreground mb-8">{localizedModules[0]?.subtitle}</p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        {MODULES.map(({ title, desc, icon: Icon, to, gradient, iconColor }) => (
+        {localizedModules.map(({ title, desc, icon: Icon, to, gradient, iconColor, openLabel }) => (
           <Link key={to} to={to}
             className={`group bg-gradient-to-br ${gradient} via-card to-card border border-border rounded-2xl p-6 hover:border-primary/40 hover:shadow-xl transition-all`}>
             <div className={`mb-4 ${iconColor}`}>
@@ -52,7 +89,7 @@ export default function Studio() {
             <h2 className="font-heading text-xl font-bold text-foreground mb-2">{title}</h2>
             <p className="text-sm text-muted-foreground mb-4">{desc}</p>
             <div className="flex items-center gap-1 text-sm font-medium text-primary group-hover:gap-2 transition-all">
-              Ouvrir <ArrowRight size={14} />
+              {openLabel} <ArrowRight size={14} />
             </div>
           </Link>
         ))}

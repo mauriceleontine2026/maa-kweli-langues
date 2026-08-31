@@ -16,10 +16,12 @@ import {
   Wrench,
 } from "lucide-react";
 import LanguageFlag from "@/components/ui/LanguageFlag";
-import { getCountryForLanguage } from "@/lib/localLanguageData";
+import { getLanguageName, getLocalizedCountryForLanguage } from "@/lib/localLanguageData";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 export default function Home() {
   const { user } = useAuth();
+  const { t, language: interfaceLanguage } = useLanguage();
   const [languages, setLanguages] = useState(/** @type {any[]} */ ([]));
   const [progresses, setProgresses] = useState(/** @type {any[]} */ ([]));
   const [loadingLanguages, setLoadingLanguages] = useState(true);
@@ -68,9 +70,9 @@ export default function Home() {
   }, [safeLanguages, safeProgresses]);
 
   const actions = [
-    { to: "/apprendre", label: "Rechercher une langue", icon: Search, color: "text-orange-500" },
-    { to: "/contribuer", label: "Contribuer", icon: Mic, color: "text-pink-500" },
-    { to: "/studio", label: "Atelier", icon: Wrench, color: "text-yellow-500" },
+    { to: "/apprendre", label: t("learn"), icon: Search, color: "text-orange-500" },
+    { to: "/contribuer", label: t("contribute"), icon: Mic, color: "text-pink-500" },
+    { to: "/studio", label: t("workshop"), icon: Wrench, color: "text-yellow-500" },
   ];
 
   return (
@@ -94,11 +96,11 @@ export default function Home() {
             </div>
 
             <h1 className="mb-3 max-w-xl break-words font-heading text-2xl font-bold leading-tight text-foreground sm:mb-4 sm:text-4xl lg:text-[2.65rem]">
-              Bienvenue sur Mǎa-kwɛ́lî Langues{displayName ? `, ${displayName}` : ""} !
+              {t("welcome")}{displayName ? `, ${displayName}` : ""} !
             </h1>
 
             <p className="mb-5 max-w-lg text-sm leading-6 text-muted-foreground sm:mb-6 sm:text-base">
-              Poursuivez votre apprentissage à votre rythme et développez une maîtrise durable des langues qui vous ouvrent au monde.
+              {t("welcomeText")}
             </p>
 
           </div>
@@ -110,14 +112,14 @@ export default function Home() {
                   to={`/apprendre/${currentLanguage.code}`}
                   className="inline-flex w-full max-w-xs items-center justify-center gap-2 rounded-xl bg-primary px-4 py-3 text-sm font-semibold text-primary-foreground shadow-lg shadow-primary/25 transition hover:opacity-95 sm:w-auto sm:px-5"
                 >
-                  Continuer mon apprentissage <ArrowRight size={18} />
+                  {t("continueLearning")} <ArrowRight size={18} />
                 </Link>
               ) : (
                 <Link
                   to="/apprendre"
                   className="inline-flex w-full max-w-xs items-center justify-center gap-2 rounded-xl bg-primary px-4 py-3 text-sm font-semibold text-primary-foreground shadow-lg shadow-primary/25 transition hover:opacity-95 sm:w-auto sm:px-5"
                 >
-                  Commencer maintenant <ArrowRight size={18} />
+                  {t("startNow")} <ArrowRight size={18} />
                 </Link>
               )}
 
@@ -125,19 +127,19 @@ export default function Home() {
                 to="/tuteur"
                 className="inline-flex w-full max-w-xs items-center justify-center gap-2 rounded-xl border border-border bg-card px-4 py-3 text-sm font-semibold text-foreground transition hover:border-primary/40 hover:text-primary sm:w-auto sm:px-5"
               >
-                <GraduationCap size={18} /> Tuteur IA
+                <GraduationCap size={18} /> {t("tutor")}
               </Link>
             </div>
 
             <div className="-mx-1 flex flex-nowrap items-center gap-2 overflow-x-auto px-1 pb-1 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
               <div className="flex shrink-0 items-center gap-1.5 whitespace-nowrap rounded-full bg-secondary/70 px-2.5 py-1.5 text-[11px] text-foreground sm:gap-2 sm:px-3 sm:text-sm">
-                <Flame size={14} className="text-primary" /> {maxStreak} jours de série
+                <Flame size={14} className="text-primary" /> {maxStreak} {t("jours série")}
               </div>
               <div className="flex shrink-0 items-center gap-1.5 whitespace-nowrap rounded-full bg-secondary/70 px-2.5 py-1.5 text-[11px] text-foreground sm:gap-2 sm:px-3 sm:text-sm">
                 <Star size={14} className="text-blue-500" /> {totalXP} XP
               </div>
               <div className="flex shrink-0 items-center gap-1.5 whitespace-nowrap rounded-full bg-secondary/70 px-2.5 py-1.5 text-[11px] text-foreground sm:gap-2 sm:px-3 sm:text-sm">
-                <BookOpen size={14} className="text-green-500" /> {loadingLanguages || loadingProgress ? "..." : activeLangs} langues actives
+                <BookOpen size={14} className="text-green-500" /> {loadingLanguages || loadingProgress ? "..." : activeLangs} {t("activeLanguages")}
               </div>
             </div>
           </div>
@@ -149,10 +151,10 @@ export default function Home() {
         <section className="mb-8">
           <div className="mb-4 flex items-end justify-between gap-3">
             <div>
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] text-primary">Vos parcours</p>
-              <h2 className="font-heading text-3xl font-bold text-foreground">Reprenez là où vous en êtes</h2>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] text-primary">{t("yourPaths")}</p>
+              <h2 className="font-heading text-3xl font-bold text-foreground">{t("resume")}</h2>
             </div>
-            <Link to="/apprendre" className="text-sm font-semibold text-primary hover:underline">Voir tout</Link>
+            <Link to="/apprendre" className="text-sm font-semibold text-primary hover:underline">{t("seeAll")}</Link>
           </div>
 
           <div className="grid gap-4 md:grid-cols-2">
@@ -166,8 +168,8 @@ export default function Home() {
                   <div className="flex items-center gap-3">
                     <LanguageFlag language={language} size="md" />
                     <div className="min-w-0 flex-1">
-                      <div className="truncate font-semibold text-foreground">{language.name_fr}</div>
-                      <div className="text-xs text-muted-foreground">Leçon {lesson} sur {totalLessons} · {progress.xp || 0} XP</div>
+                      <div className="truncate font-semibold text-foreground">{getLanguageName(language, interfaceLanguage)}</div>
+                      <div className="text-xs text-muted-foreground">{t("lessonOf", lesson, totalLessons)} · {progress.xp || 0} XP</div>
                     </div>
                     <span className="flex h-9 w-9 items-center justify-center rounded-full bg-primary/10 text-primary transition group-hover:bg-primary group-hover:text-primary-foreground">
                       <Play size={14} fill="currentColor" />
@@ -187,10 +189,10 @@ export default function Home() {
         <section className="mb-8">
           <div className="mb-4 flex items-end justify-between gap-3">
             <div className="min-w-0 flex-1">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] text-primary">À découvrir</p>
-              <h2 className="font-heading text-2xl font-bold leading-tight text-foreground sm:text-3xl">Des parcours qui donnent envie de commencer</h2>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] text-primary">{t("discover")}</p>
+              <h2 className="font-heading text-2xl font-bold leading-tight text-foreground sm:text-3xl">{t("discoverPaths")}</h2>
             </div>
-            <Link to="/apprendre" className="shrink-0 pb-0.5 text-sm font-semibold text-primary hover:underline">Explorer</Link>
+            <Link to="/apprendre" className="shrink-0 pb-0.5 text-sm font-semibold text-primary hover:underline">{t("explore")}</Link>
           </div>
 
           <div className="grid gap-4 md:grid-cols-3">
@@ -198,8 +200,8 @@ export default function Home() {
               <Link key={language.code} to={`/apprendre/${language.code}`} className="group flex items-center gap-3 rounded-2xl border border-border bg-card p-4 transition hover:-translate-y-1 hover:border-primary/40 hover:shadow-lg">
                 <LanguageFlag language={language} size="md" />
                 <div className="min-w-0 flex-1">
-                  <div className="truncate font-semibold text-foreground">{language.name_fr}</div>
-                  <div className="truncate text-xs text-muted-foreground">{getCountryForLanguage(language)}</div>
+                  <div className="truncate font-semibold text-foreground">{getLanguageName(language, interfaceLanguage)}</div>
+                  <div className="truncate text-xs text-muted-foreground">{getLocalizedCountryForLanguage(language, interfaceLanguage)}</div>
                 </div>
                 <ArrowRight size={15} className="shrink-0 text-muted-foreground transition group-hover:translate-x-1 group-hover:text-primary" />
               </Link>
@@ -211,8 +213,8 @@ export default function Home() {
       <section className="mb-8">
         <div className="mb-6 flex items-end justify-between gap-3">
           <div className="min-w-0 flex-1">
-            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-primary">Actions rapides</p>
-            <h2 className="font-heading text-2xl font-bold leading-tight text-foreground sm:text-3xl">Accédez directement à ce qui compte</h2>
+            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-primary">{t("quickActions")}</p>
+            <h2 className="font-heading text-2xl font-bold leading-tight text-foreground sm:text-3xl">{t("directAccess")}</h2>
           </div>
         </div>
 
@@ -226,11 +228,11 @@ export default function Home() {
                 <Icon size={22} />
               </div>
               <div className="relative">
-                {isWorkshop && <div className="mb-1 text-[10px] font-bold uppercase tracking-[0.2em] text-[#facc15]">Espace créatif</div>}
+                {isWorkshop && <div className="mb-1 text-[10px] font-bold uppercase tracking-[0.2em] text-[#facc15]">{t("workshop")}</div>}
                 <div className={`mb-2 font-heading text-lg font-bold ${isWorkshop ? "text-white" : "text-foreground"}`}>{label}</div>
-                {isWorkshop && <p className="mb-3 max-w-[15rem] text-xs leading-5 text-blue-100">Pratiquez, enregistrez et perfectionnez votre expression.</p>}
+                {isWorkshop && <p className="mb-3 max-w-[15rem] text-xs leading-5 text-blue-100">{t("workshopText")}</p>}
                 <div className={`flex items-center gap-2 text-sm font-semibold ${isWorkshop ? "text-white group-hover:text-[#facc15]" : "text-muted-foreground group-hover:text-primary"}`}>
-                  Découvrir <ArrowRight size={15} />
+                  {t("discover")} <ArrowRight size={15} />
                 </div>
               </div>
             </Link>

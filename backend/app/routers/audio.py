@@ -1,3 +1,4 @@
+import base64
 import time
 from fastapi import APIRouter, Depends, UploadFile, File, HTTPException, Request
 from pydantic import BaseModel, Field
@@ -6,6 +7,7 @@ import os
 import uuid
 from pathlib import Path
 import httpx
+import unicodedata
 
 
 def validate_audio_upload_bytes(filename: str, contents: bytes) -> str:
@@ -41,9 +43,114 @@ def validate_audio_upload_bytes(filename: str, contents: bytes) -> str:
             raise ValueError("Invalid M4A/AAC header")
     return suffix
 
-from ..services.security import RateLimiter, get_current_user
+from ..services.security import RateLimiter, get_current_user, get_current_user_optional
 
 router = APIRouter()
+
+TTS_LANGUAGE_MAP = {
+    "fr": "fr",
+    "fra": "fr",
+    "francais": "fr",
+    "french": "fr",
+    "en": "en",
+    "eng": "en",
+    "anglais": "en",
+    "english": "en",
+    "es": "es",
+    "spa": "es",
+    "espagnol": "es",
+    "spanish": "es",
+    "de": "de",
+    "deu": "de",
+    "allemand": "de",
+    "german": "de",
+    "ar": "ar",
+    "ara": "ar",
+    "arabe": "ar",
+    "arabic": "ar",
+    "pt": "pt",
+    "por": "pt",
+    "portugais": "pt",
+    "portuguese": "pt",
+    "it": "it",
+    "ita": "it",
+    "italien": "it",
+    "italian": "it",
+    "ja": "ja",
+    "jpn": "ja",
+    "japonais": "ja",
+    "japanese": "ja",
+    "ru": "ru",
+    "rus": "ru",
+    "russe": "ru",
+    "russian": "ru",
+    "hi": "hi",
+    "hin": "hi",
+    "hindi": "hi",
+    "sw": "sw",
+    "swa": "sw",
+    "swahili": "sw",
+    "yo": "yo",
+    "yor": "yo",
+    "yoruba": "yo",
+    "ig": "ig",
+    "igb": "ig",
+    "igbo": "ig",
+    "ha": "ha",
+    "hau": "ha",
+    "hausa": "ha",
+    "zh": "zh-cn",
+    "zho": "zh-cn",
+    "chinois": "zh-cn",
+    "chinois-mandarin": "zh-cn",
+    "mandarin": "zh-cn",
+    "chinese": "zh-cn",
+    "lingala": "fr",
+    "bissa": "fr",
+    "dioula": "fr",
+    "moore": "fr",
+    "soussou": "fr",
+    "pular": "fr",
+    "malinke": "fr",
+    "kissi": "fr",
+    "guerze": "fr",
+    "koniagui": "fr",
+    "konyanka": "fr",
+    "kuranko": "fr",
+    "landuma": "fr",
+    "lele": "fr",
+    "mani": "fr",
+    "nalu": "fr",
+    "sankaran": "fr",
+    "yalunka": "fr",
+    "kono": "fr",
+    "mano": "fr",
+    "toma": "fr",
+    "badiaranke": "fr",
+    "baga": "fr",
+    "bassari": "fr",
+    "bedik": "fr",
+    "wolof": "fr",
+    "mossi": "fr",
+    "peul": "fr",
+    "fulfulde": "fr",
+    "bambara": "fr",
+}
+
+
+def normalize_tts_language_code(code: str | None) -> str:
+    if not code:
+        return "fr"
+    key = str(code).strip().lower()
+    key = unicodedata.normalize("NFKD", key)
+    key = "".join(ch for ch in key if not unicodedata.combining(ch))
+    key = key.replace("_", "-").replace(" ", "-")
+    key = "".join(ch for ch in key if ch.isascii() and (ch.isalnum() or ch == "-"))
+    normalized = TTS_LANGUAGE_MAP.get(key)
+    if normalized:
+        return normalized
+    return TTS_LANGUAGE_MAP.get(key.split("-")[0], "fr")
+
 
 STATIC_DIR = Path(os.environ.get("MBAARA_STATIC_DIR", "/tmp/mbaara/static"))
 if os.access(Path(__file__).resolve().parents[2], os.W_OK):
@@ -165,31 +272,39 @@ async def transcribe_audio(
 @router.post("/synthesize")
 async def synthesize_audio(
     payload: SynthesizeRequest,
-    current_user=Depends(get_current_user),
+    current_user=Depends(get_current_user_optional),
     _rate_limit=Depends(_synthesize_rate_limiter),
 ):
     if not payload.text.strip():
         raise HTTPException(status_code=400, detail="No text provided")
 
+    normalized_language = normalize_tts_language_code(payload.language_code)
+
+    allow_premium_tts = str(os.getenv("ENABLE_PREMIUM_TTS", "false")).strip().lower() in {"1", "true", "yes", "on"}
     elevenlabs_key = os.getenv("ELEVENLABS_API_KEY")
-    if elevenlabs_key:
-        voice_id = os.getenv("ELEVENLABS_VOICE_ID", "21m00Tcm4TlvDq8ikWAM")
-        try:
-            async with httpx.AsyncClient(timeout=60.0) as client:
-                response = await client.post(
-                    f"https://api.elevenlabs.io/v1/text-to-speech/{voice_id}",
-                    headers={"xi-api-key": elevenlabs_key, "Accept": "audio/mpeg", "Content-Type": "application/json"},
-                    json={"text": payload.text, "model_id": os.getenv("ELEVENLABS_MODEL", "eleven_multilingual_v2")},
-                )
-            if response.status_code < 300:
-                out_dir = Path(__file__).resolve().parents[1] / "static" / "audio"
-                out_dir.mkdir(parents=True, exist_ok=True)
-                _purge_stale_audio_files(out_dir)
-                fname = f"tts_{uuid.uuid4().hex}.mp3"
-                (out_dir / fname).write_bytes(response.content)
-                return {"audio_url": f"/static/audio/{fname}", "text": payload.text, "language_code": payload.language_code or "fr", "duration_seconds": None, "provider": "elevenlabs"}
-        except httpx.HTTPError:
-            pass
+    if allow_premium_tts and elevenlabs_key:
+        voice_id = os.getenv("ELEVENLABS_VOICE_ID")
+        if voice_id:
+            try:
+                async with httpx.AsyncClient(timeout=60.0) as client:
+                    response = await client.post(
+                        f"https://api.elevenlabs.io/v1/text-to-speech/{voice_id}",
+                        headers={"xi-api-key": elevenlabs_key, "Accept": "audio/mpeg", "Content-Type": "application/json"},
+                        json={"text": payload.text, "model_id": os.getenv("ELEVENLABS_MODEL", "eleven_multilingual_v2")},
+                    )
+                if response.status_code < 300:
+                    try:
+                        out_dir = Path(__file__).resolve().parents[1] / "static" / "audio"
+                        out_dir.mkdir(parents=True, exist_ok=True)
+                        _purge_stale_audio_files(out_dir)
+                        fname = f"tts_{uuid.uuid4().hex}.mp3"
+                        (out_dir / fname).write_bytes(response.content)
+                        return {"audio_url": f"/static/audio/{fname}", "text": payload.text, "language_code": payload.language_code or "fr", "duration_seconds": None, "provider": "elevenlabs"}
+                    except OSError:
+                        encoded = base64.b64encode(response.content).decode("ascii")
+                        return {"audio_url": f"data:audio/mpeg;base64,{encoded}", "text": payload.text, "language_code": payload.language_code or "fr", "duration_seconds": None, "provider": "elevenlabs"}
+            except httpx.HTTPError:
+                pass
 
     # Fallback to gTTS for low-cost speech synthesis.
     try:
@@ -199,13 +314,20 @@ async def synthesize_audio(
         _purge_stale_audio_files(out_dir)
         fname = f"tts_{uuid.uuid4().hex}.mp3"
         out_path = out_dir / fname
-        tts = gTTS(text=payload.text, lang=(payload.language_code or "fr"))
-        tts.save(str(out_path))
-        audio_url = f"/static/audio/{fname}"
-        return {"audio_url": audio_url, "text": payload.text, "language_code": payload.language_code or "fr", "duration_seconds": None}
+        tts = gTTS(text=payload.text, lang=normalized_language)
+        try:
+            tts.save(str(out_path))
+            audio_url = f"/static/audio/{fname}"
+        except OSError:
+            import io
+            buffer = io.BytesIO()
+            tts.write_to_fp(buffer)
+            encoded = base64.b64encode(buffer.getvalue()).decode("ascii")
+            audio_url = f"data:audio/mpeg;base64,{encoded}"
+        return {"audio_url": audio_url, "text": payload.text, "language_code": normalized_language, "duration_seconds": None}
     except Exception:
         # Fallback: suggest client-side synthesis via Expo
-        return {"audio_url": None, "text": payload.text, "language_code": payload.language_code or "fr", "duration_seconds": None, "note": "gTTS unavailable; client should use local TTS (expo-speech)"}
+        return {"audio_url": None, "text": payload.text, "language_code": normalized_language, "duration_seconds": None, "note": "gTTS unavailable; client should use local TTS (expo-speech)"}
 
 
 @router.post("/upload")

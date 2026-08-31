@@ -53,9 +53,9 @@ export default function Admin() {
   };
 
   const handleAddLanguage = async () => {
-    const code = prompt("Code de la langue (ex: bambara) :");
-    const name = prompt("Nom de la langue :");
-    const country = prompt("Pays :");
+    const code = prompt("Language code (e.g. bambara):");
+    const name = prompt("Language name:");
+    const country = prompt("Country:");
     if (!code || !name) return;
     try {
       await createLanguage({ code, name, name_fr: name, region: country, country, status: "active", color: "#E8A838", flag_emoji: getFlagForLanguage({ code, country }), total_lessons: 0 });
@@ -72,33 +72,33 @@ export default function Admin() {
         <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-red-500/10 flex items-center justify-center">
           <ShieldAlert className="text-red-500" size={32} />
         </div>
-        <h1 className="font-heading text-2xl font-bold text-foreground mb-2">Accès refusé</h1>
-        <p className="text-muted-foreground mb-4">Cette page est réservée aux administrateurs.</p>
-        <Link to="/" className="text-primary font-medium hover:underline">← Retour à l'accueil</Link>
+        <h1 className="font-heading text-2xl font-bold text-foreground mb-2">Access denied</h1>
+        <p className="text-muted-foreground mb-4">This page is reserved for administrators.</p>
+        <Link to="/" className="text-primary font-medium hover:underline">← Back to home</Link>
       </div>
     );
   }
 
   const TABS = [
-    { val: "overview", label: "Vue d'ensemble", icon: Globe },
-    { val: "vocab", label: "Vocabulaire", icon: BookOpen },
-    { val: "langs", label: "Langues", icon: Plus },
+    { val: "overview", label: "Overview", icon: Globe },
+    { val: "vocab", label: "Vocabulary", icon: BookOpen },
+    { val: "langs", label: "Languages", icon: Plus },
     { val: "contributions", label: "Contributions", icon: FileText },
-    { val: "users", label: "Utilisateurs", icon: Users },
-    { val: "lessons", label: "Leçons", icon: Clock },
+    { val: "users", label: "Users", icon: Users },
+    { val: "lessons", label: "Lessons", icon: Clock },
   ];
 
   return (
     <div className="mx-auto w-full max-w-6xl p-4 sm:p-6 lg:p-10">
       <header className="mb-6 flex flex-col gap-4 rounded-2xl border border-border bg-card p-5 shadow-sm sm:flex-row sm:items-center sm:justify-between">
         <div>
-          <div className="mb-2 flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-primary"><Activity size={14} /> Centre de contrôle</div>
+          <div className="mb-2 flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-primary"><Activity size={14} /> Control center</div>
           <h1 className="font-heading text-3xl font-bold text-foreground">Administration</h1>
-          <p className="mt-1 text-sm text-muted-foreground">Gérer les langues, les leçons, les utilisateurs et les contenus assistés par IA.</p>
+          <p className="mt-1 text-sm text-muted-foreground">Manage languages, lessons, users, and AI-assisted content.</p>
         </div>
         <div className="flex items-center gap-3">
-          <div className="flex items-center gap-2 rounded-full border border-green-500/20 bg-green-500/10 px-3 py-2 text-xs font-medium text-green-600 dark:text-green-400"><span className="h-2 w-2 rounded-full bg-green-500" /> Accès administrateur</div>
-          <button type="button" onClick={() => loadAdminData(true)} disabled={refreshing} title="Actualiser les données" className="rounded-xl border border-border bg-background p-2.5 text-muted-foreground transition hover:bg-secondary disabled:opacity-50">
+          <div className="flex items-center gap-2 rounded-full border border-green-500/20 bg-green-500/10 px-3 py-2 text-xs font-medium text-green-600 dark:text-green-400"><span className="h-2 w-2 rounded-full bg-green-500" /> Administrator access</div>
+          <button type="button" onClick={() => loadAdminData(true)} disabled={refreshing} title="Refresh data" className="rounded-xl border border-border bg-background p-2.5 text-muted-foreground transition hover:bg-secondary disabled:opacity-50">
             <RefreshCw size={17} className={refreshing ? "animate-spin" : ""} />
           </button>
         </div>
@@ -107,11 +107,11 @@ export default function Admin() {
       {/* Stats */}
       <div className="grid grid-cols-3 sm:grid-cols-6 gap-3 mb-6">
         {[
-          { icon: Globe, color: "text-primary", value: languages.length, label: "Langues" },
-          { icon: BookOpen, color: "text-blue-500", value: vocabCount, label: "Mots" },
+          { icon: Globe, color: "text-primary", value: languages.length, label: "Languages" },
+          { icon: BookOpen, color: "text-blue-500", value: vocabCount, label: "Words" },
           { icon: Users, color: "text-green-500", value: users.length, label: "Users" },
           { icon: FileText, color: "text-yellow-500", value: contribCount, label: "Contribs" },
-          { icon: Clock, color: "text-purple-500", value: lessonCount, label: "Leçons" },
+          { icon: Clock, color: "text-purple-500", value: lessonCount, label: "Lessons" },
         ].map(({ icon: Icon, color, value, label }) => (
           <div key={label} className="bg-card rounded-xl p-3 text-center border border-border">
             <Icon className={`mx-auto mb-1 ${color}`} size={18} />
@@ -135,14 +135,14 @@ export default function Admin() {
       {tab === "overview" && (
         <div className="space-y-6">
           <section>
-            <div className="mb-3 flex items-center justify-between"><div><h2 className="font-heading text-xl font-bold text-foreground">Accès rapide</h2><p className="text-sm text-muted-foreground">Ouvrez directement l’espace à gérer.</p></div></div>
+            <div className="mb-3 flex items-center justify-between"><div><h2 className="font-heading text-xl font-bold text-foreground">Quick access</h2><p className="text-sm text-muted-foreground">Open the area to manage directly.</p></div></div>
             <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
-              {[{ tab: "vocab", icon: BookOpen, label: "Vocabulaire", value: vocabCount, text: "Gérer les mots" }, { tab: "lessons", icon: Clock, label: "Leçons", value: lessonCount, text: "Gérer les parcours" }, { tab: "contributions", icon: FileText, label: "Contributions", value: contribCount, text: "Modérer les ajouts" }, { tab: "users", icon: Users, label: "Utilisateurs", value: users.length, text: "Gérer les comptes" }].map(({ tab: targetTab, icon: Icon, label, value, text }) => <button key={targetTab} type="button" onClick={() => setTab(targetTab)} className="group rounded-2xl border border-border bg-card p-4 text-left shadow-sm transition hover:-translate-y-0.5 hover:border-primary/40 hover:shadow-md"><div className="mb-4 flex items-center justify-between"><span className="rounded-xl bg-primary/10 p-2 text-primary"><Icon size={18} /></span><span className="text-2xl font-bold text-foreground">{loadingData ? "-" : value}</span></div><div className="font-semibold text-foreground">{label}</div><div className="mt-1 text-xs text-muted-foreground">{text} <span className="text-primary transition group-hover:ml-1">→</span></div></button>)}
+              {[{ tab: "vocab", icon: BookOpen, label: "Vocabulary", value: vocabCount, text: "Manage words" }, { tab: "lessons", icon: Clock, label: "Lessons", value: lessonCount, text: "Manage learning paths" }, { tab: "contributions", icon: FileText, label: "Contributions", value: contribCount, text: "Moderate additions" }, { tab: "users", icon: Users, label: "Users", value: users.length, text: "Manage accounts" }].map(({ tab: targetTab, icon: Icon, label, value, text }) => <button key={targetTab} type="button" onClick={() => setTab(targetTab)} className="group rounded-2xl border border-border bg-card p-4 text-left shadow-sm transition hover:-translate-y-0.5 hover:border-primary/40 hover:shadow-md"><div className="mb-4 flex items-center justify-between"><span className="rounded-xl bg-primary/10 p-2 text-primary"><Icon size={18} /></span><span className="text-2xl font-bold text-foreground">{loadingData ? "-" : value}</span></div><div className="font-semibold text-foreground">{label}</div><div className="mt-1 text-xs text-muted-foreground">{text} <span className="text-primary transition group-hover:ml-1">→</span></div></button>)}
             </div>
           </section>
           <section>
-            <div className="mb-3 flex items-end justify-between"><div><h2 className="font-heading text-xl font-bold text-foreground">Langues et contenu</h2><p className="text-sm text-muted-foreground">Vue rapide des parcours disponibles.</p></div><button type="button" onClick={() => setTab("langs")} className="text-sm font-semibold text-primary hover:underline">Gérer les langues</button></div>
-            <div className="grid gap-3 md:grid-cols-2">{languages.map(lang => <div key={lang.id} className="flex items-center gap-3 rounded-2xl border border-border bg-card p-4"><span className="text-2xl">{getFlagForLanguage(lang)}</span><div className="min-w-0 flex-1"><div className="font-semibold text-foreground">{lang.name_fr}</div><div className="truncate text-xs text-muted-foreground">{getCountryForLanguage(lang)} · {lang.status === "active" ? "Actif" : "Bientôt"}</div></div><Link to={`/apprendre/${lang.code}`} className="shrink-0 rounded-lg px-2 py-1 text-xs font-semibold text-primary hover:bg-primary/10">Voir</Link></div>)}</div>
+            <div className="mb-3 flex items-end justify-between"><div><h2 className="font-heading text-xl font-bold text-foreground">Languages and content</h2><p className="text-sm text-muted-foreground">Quick overview of available paths.</p></div><button type="button" onClick={() => setTab("langs")} className="text-sm font-semibold text-primary hover:underline">Manage languages</button></div>
+            <div className="grid gap-3 md:grid-cols-2">{languages.map(lang => <div key={lang.id} className="flex items-center gap-3 rounded-2xl border border-border bg-card p-4"><span className="text-2xl">{getFlagForLanguage(lang)}</span><div className="min-w-0 flex-1"><div className="font-semibold text-foreground">{lang.name_fr}</div><div className="truncate text-xs text-muted-foreground">{getCountryForLanguage(lang)} · {lang.status === "active" ? "Active" : "Coming soon"}</div></div><Link to={`/apprendre/${lang.code}`} className="shrink-0 rounded-lg px-2 py-1 text-xs font-semibold text-primary hover:bg-primary/10">View</Link></div>)}</div>
           </section>
         </div>
       )}
@@ -155,9 +155,9 @@ export default function Admin() {
       {tab === "langs" && (
         <div>
           <div className="flex items-center justify-between mb-4">
-            <h3 className="font-semibold text-foreground text-sm">Gérer les langues</h3>
+            <h3 className="font-semibold text-foreground text-sm">Manage languages</h3>
             <button onClick={handleAddLanguage} className="flex items-center gap-2 bg-primary text-primary-foreground px-3 py-2 rounded-xl text-sm font-medium hover:opacity-90 transition">
-              <Plus size={14} /> Nouvelle langue
+              <Plus size={14} /> New language
             </button>
           </div>
           <div className="space-y-2">
@@ -169,7 +169,7 @@ export default function Admin() {
                   <div className="text-xs text-muted-foreground">{lang.code} · {lang.family} · {getCountryForLanguage(lang)}</div>
                 </div>
                 <span className={`text-xs px-2 py-0.5 rounded-full font-medium ${lang.status === "active" ? "bg-green-500/15 text-green-600 dark:text-green-400" : "bg-secondary text-muted-foreground"}`}>
-                  {lang.status === "active" ? "Actif" : "Bientôt"}
+                  {lang.status === "active" ? "Active" : "Coming soon"}
                 </span>
               </div>
             ))}

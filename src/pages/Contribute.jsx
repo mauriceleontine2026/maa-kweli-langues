@@ -3,11 +3,16 @@ import { useEffect, useRef, useState } from "react";
 import { uploadFile } from "@/api/uploadService";
 import { createContribution } from "@/api/contributionService";
 import { getLanguages } from "@/api/languageService";
+import { useLanguage } from "@/contexts/LanguageContext";
 import { Mic, Upload, Square, Trash2, ShieldCheck, BookOpen, MapPin, CheckCircle2 } from "lucide-react";
 import { moderateContent, getModerationMessage } from "@/lib/moderation";
 import AudioVisualizer from "@/components/contribute/AudioVisualizer";
 
 export default function Contribute() {
+  const { t, language } = useLanguage();
+  const getLanguageDisplayName = (languageItem) => language === "en"
+    ? (languageItem?.name || languageItem?.name_fr)
+    : languageItem?.name_fr;
   const [languages, setLanguages] = useState(/** @type {any[]} */ ([]));
   const [form, setForm] = useState({
     language_code: "", word: "", phonetic: "", translation_fr: "",
@@ -47,7 +52,7 @@ export default function Contribute() {
     setMsg("");
     if (audioUrl) deleteRecording();
     if (!navigator.mediaDevices?.getUserMedia || !window.MediaRecorder) {
-      setMsg("❌ Ton navigateur ne supporte pas l'enregistrement. Utilise Chrome, Edge ou Safari récent.");
+      setMsg(`❌ ${t("microphoneUnsupported")}`);
       return;
     }
     try {
@@ -77,7 +82,7 @@ export default function Contribute() {
       timerRef.current = setInterval(() => setRecordTime((t) => t + 1), 1000);
     } catch (err) {
       const errorMessage = err instanceof Error ? err.message : String(err);
-      setMsg("❌ Microphone inaccessible : " + (errorMessage || "autorise l'accès au micro dans ton navigateur."));
+      setMsg(`❌ ${t("microphoneAccess")} ${errorMessage ? errorMessage : ""}`.trim());
     }
   };
 
@@ -98,7 +103,7 @@ export default function Contribute() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     if (!form.word || !form.translation_fr || !form.language_code) {
-      setMsg("❌ Veuillez remplir tous les champs obligatoires.");
+      setMsg(`❌ ${t("fillRequiredFields")}`);
       return;
     }
 
@@ -122,12 +127,12 @@ export default function Contribute() {
         audio_url = uploadRes?.file_url || "";
       }
       await createContribution({ ...form, audio_url });
-      setMsg("✅ Contribution soumise ! Après validation, elle enrichira l'app pour tous les apprenants.");
+      setMsg(`✅ ${t("contributionSubmitted")}`);
       setForm({ ...form, word: "", phonetic: "", translation_fr: "", context_notes: "" });
       deleteRecording();
     } catch (err) {
       const errorMessage = err instanceof Error ? err.message : String(err);
-      setMsg("❌ Erreur lors de l'envoi : " + errorMessage);
+      setMsg("❌ " + t("Erreur lors de l'envoi :") + " " + errorMessage);
     }
   };
 
@@ -138,7 +143,7 @@ export default function Contribute() {
       <header className="mb-6 rounded-2xl border border-border bg-card p-5 shadow-sm sm:p-6">
         <div className="flex items-start gap-3">
           <div className="rounded-xl bg-primary/10 p-2.5 text-primary"><Mic size={21} /></div>
-          <div><h1 className="font-heading text-3xl font-bold text-foreground">Contribuer à une langue</h1><p className="mt-1 text-sm text-muted-foreground">Partagez un mot, une prononciation ou un usage local. Chaque contribution est vérifiée avant publication.</p></div>
+          <div><h1 className="font-heading text-3xl font-bold text-foreground">{t("contributeTitle")}</h1><p className="mt-1 text-sm text-muted-foreground">{t("contributeSubtitle")}</p></div>
         </div>
       </header>
 
@@ -148,24 +153,24 @@ export default function Contribute() {
           <Mic className="text-yellow-500" size={20} />
         </div>
         <div>
-          <p className="font-semibold text-foreground mb-1">Tu es un locuteur natif ?</p>
-          <p className="text-sm text-muted-foreground">Enregistre ta voix, ajoute des mots et phonétiques pour ta langue. Après validation, ta contribution enrichit l'application pour tous les apprenants.</p>
+          <p className="font-semibold text-foreground mb-1">{t("contributeCalloutTitle")}</p>
+          <p className="text-sm text-muted-foreground">{t("contributeCalloutText")}</p>
         </div>
       </div>
       {/* Language selector */}
       <div className="mb-6 rounded-2xl border border-border bg-card p-4 shadow-sm">
-        <div className="mb-3 flex items-center gap-2"><BookOpen size={17} className="text-primary" /><div><label className="text-sm font-semibold text-foreground">Langue concernée</label><p className="text-xs text-muted-foreground">Sélectionnez la langue du mot ou de l’expression.</p></div></div>
-        <select aria-label="Langue concernée" value={form.language_code} onChange={e => setForm({ ...form, language_code: e.target.value })}
+        <div className="mb-3 flex items-center gap-2"><BookOpen size={17} className="text-primary" /><div><label className="text-sm font-semibold text-foreground">{t("languageConcerned")}</label><p className="text-xs text-muted-foreground">{t("languageConcernedHint")}</p></div></div>
+        <select aria-label={t("languageConcerned")} value={form.language_code} onChange={e => setForm({ ...form, language_code: e.target.value })}
           className="w-full bg-card border border-border rounded-xl px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-primary/40">
-          <option value="">Sélectionner une langue...</option>
-          {languages.map(l => <option key={l.code} value={l.code}>{l.name_fr}</option>)}
+          <option value="">{t("selectLanguagePlaceholder")}</option>
+          {languages.map(l => <option key={l.code} value={l.code}>{getLanguageDisplayName(l)}</option>)}
         </select>
       </div>
 
       <div className="mb-6 grid gap-4 lg:grid-cols-[1.05fr_.95fr]">
       {/* Recording studio */}
       <div className="rounded-2xl border border-border bg-card p-6 text-center shadow-sm sm:p-8">
-        <p className="text-xs font-semibold text-muted-foreground uppercase tracking-wider mb-4">Studio d'enregistrement</p>
+        <p className="text-xs font-semibold text-muted-foreground uppercase tracking-wider mb-4">{t("recordingStudio")}</p>
 
         {!audioUrl ? (
           <>
@@ -181,27 +186,27 @@ export default function Contribute() {
               </div>
             )}
             <p className="text-sm text-muted-foreground mt-4">
-              {recording ? `Enregistrement... ${fmtTime(recordTime)}` : "Clique pour enregistrer"}
+              {recording ? `${t("recordingInProgress")} ${fmtTime(recordTime)}` : t("clickToRecord")}
             </p>
             {recording && (
-              <p className="text-xs text-red-500 mt-1">Clique sur le carré pour arrêter</p>
+              <p className="text-xs text-red-500 mt-1">{t("stopRecording")}</p>
             )}
           </>
         ) : (
           <div className="space-y-4">
             <div className="flex items-center justify-center gap-2 text-green-500">
               <ShieldCheck size={20} />
-              <span className="text-sm font-medium">Enregistrement prêt ({fmtTime(recordTime)})</span>
+              <span className="text-sm font-medium">{t("recordingReady")} ({fmtTime(recordTime)})</span>
             </div>
             <audio controls src={audioUrl} className="w-full max-w-sm mx-auto" />
             <div className="flex items-center justify-center gap-3">
               <button type="button" onClick={startRecording}
                 className="flex items-center gap-2 px-4 py-2 rounded-xl bg-yellow-500 text-white text-sm font-medium hover:bg-yellow-600 transition">
-                <Mic size={16} /> Réenregistrer
+                <Mic size={16} /> {t("reRecord")}
               </button>
               <button type="button" onClick={deleteRecording}
                 className="flex items-center gap-2 px-4 py-2 rounded-xl bg-secondary text-secondary-foreground text-sm font-medium hover:bg-secondary/70 transition">
-                <Trash2 size={16} /> Supprimer
+                <Trash2 size={16} /> {t("deleteText")}
               </button>
             </div>
           </div>
@@ -211,38 +216,38 @@ export default function Contribute() {
       {/* Form */}
       <form onSubmit={handleSubmit} className="rounded-2xl border border-border bg-card p-5 shadow-sm sm:p-6">
         <div>
-          <h3 className="mb-1 text-sm font-semibold text-foreground">Informations du contenu</h3>
-          <p className="mb-4 text-xs text-muted-foreground">Les champs marqués d’un astérisque sont obligatoires.</p>
+          <h3 className="mb-1 text-sm font-semibold text-foreground">{t("speakerProfile")}</h3>
+          <p className="mb-4 text-xs text-muted-foreground">{t("requiredFields")}</p>
           <div className="space-y-3">
-            <input required aria-label="Mot ou expression" value={form.word} onChange={e => setForm({ ...form, word: e.target.value })}
-              placeholder="Mot ou expression (Ex: Teranga, Asante...)"
+            <input required aria-label={t("wordExpression")} value={form.word} onChange={e => setForm({ ...form, word: e.target.value })}
+              placeholder={t("wordExpression")}
               className="w-full bg-card border border-border rounded-xl px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-primary/40" />
             <input value={form.phonetic} onChange={e => setForm({ ...form, phonetic: e.target.value })}
-              placeholder="Phonétique (IPA ou simple) (Ex: te-ran-ga, /tεrãga/)"
+              placeholder={t("phoneticLabel")}
               className="w-full bg-card border border-border rounded-xl px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-primary/40" />
-            <input required aria-label="Traduction française" value={form.translation_fr} onChange={e => setForm({ ...form, translation_fr: e.target.value })}
-              placeholder="Traduction française * (Ex: hospitalité, merci...)"
+            <input required aria-label={t("translationFrench")} value={form.translation_fr} onChange={e => setForm({ ...form, translation_fr: e.target.value })}
+              placeholder={`${t("translationFrench")} *`}
               className="w-full bg-card border border-border rounded-xl px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-primary/40" />
           </div>
         </div>
 
         <div className="mt-5 border-t border-border pt-5">
-          <h3 className="mb-1 text-sm font-semibold text-foreground">Ton profil de locuteur</h3>
-          <p className="mb-4 text-xs text-muted-foreground">Ces informations aident à documenter les variantes régionales.</p>
+          <h3 className="mb-1 text-sm font-semibold text-foreground">{t("speakerProfile")}</h3>
+          <p className="mb-4 text-xs text-muted-foreground">{t("speakerProfileText")}</p>
           <div className="grid grid-cols-2 gap-3">
-            <label className="text-xs text-muted-foreground">Prénom<input value={form.contributor_name} onChange={e => setForm({ ...form, contributor_name: e.target.value })}
-              placeholder="Ton prénom (Mamadou, Fatou...)"
+            <label className="text-xs text-muted-foreground">{t("firstName")}<input value={form.contributor_name} onChange={e => setForm({ ...form, contributor_name: e.target.value })}
+              placeholder={t("firstName")}
               className="mt-1 w-full rounded-xl border border-border bg-background px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-primary/40" /></label>
-            <label className="text-xs text-muted-foreground"><span className="inline-flex items-center gap-1">Région <MapPin size={11} /></span><input value={form.region} onChange={e => setForm({ ...form, region: e.target.value })}
-              placeholder="Ta région / ville (Conakry, Dakar...)"
+            <label className="text-xs text-muted-foreground"><span className="inline-flex items-center gap-1">{t("region")} <MapPin size={11} /></span><input value={form.region} onChange={e => setForm({ ...form, region: e.target.value })}
+              placeholder={t("region")}
               className="mt-1 w-full rounded-xl border border-border bg-background px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-primary/40" /></label>
           </div>
         </div>
 
         <div className="mt-5 border-t border-border pt-5">
-          <h3 className="mb-1 text-sm font-semibold text-foreground">Notes et contexte <span className="font-normal text-muted-foreground">(optionnel)</span></h3>
+          <h3 className="mb-1 text-sm font-semibold text-foreground">{t("notesContext")} <span className="font-normal text-muted-foreground">({t("optional")})</span></h3>
           <textarea value={form.context_notes} onChange={e => setForm({ ...form, context_notes: e.target.value })}
-            placeholder="Contexte d'utilisation, dialecte spécifique..."
+            placeholder={t("notesContext")}
             rows={3}
             className="w-full bg-card border border-border rounded-xl px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-primary/40 resize-none" />
         </div>
@@ -255,12 +260,12 @@ export default function Contribute() {
 
         <button type="submit" disabled={saving}
           className="w-full flex items-center justify-center gap-2 bg-primary text-primary-foreground font-semibold py-3.5 rounded-xl hover:opacity-90 transition disabled:opacity-60">
-          <Upload size={18} /> {saving ? "Envoi..." : "Soumettre ma contribution"}
+          <Upload size={18} /> {saving ? t("sendingContribution") : t("submitContribution")}
         </button>
       </form>
       </div>
 
-      <div className="mt-5 flex items-start gap-3 rounded-2xl border border-emerald-500/20 bg-emerald-500/5 p-4 text-sm text-muted-foreground"><CheckCircle2 size={18} className="mt-0.5 shrink-0 text-emerald-500" /><p><b className="text-foreground">Après l’envoi :</b> votre contribution sera examinée par l’équipe avant d’être ajoutée au contenu public.</p></div>
+      <div className="mt-5 flex items-start gap-3 rounded-2xl border border-emerald-500/20 bg-emerald-500/5 p-4 text-sm text-muted-foreground"><CheckCircle2 size={18} className="mt-0.5 shrink-0 text-emerald-500" /><p><b className="text-foreground">{t("afterSubmission")}</b> {t("contributeAfterReview")}</p></div>
     </div>
   );
 }

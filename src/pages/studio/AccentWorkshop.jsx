@@ -2,9 +2,53 @@ import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import { invokeAI } from "@/api/aiService";
 import { getLanguages, getVocabularyForLanguage } from "@/api/languageService";
+import { useLanguage } from "@/contexts/LanguageContext";
 import { Waves, Mic, Square, Play, RefreshCw, ArrowLeft, Volume2 } from "lucide-react";
 
 export default function AccentWorkshop() {
+  const { language } = useLanguage();
+  const isEnglish = language === "en";
+  const labels = isEnglish ? {
+    title: "Accent Workshop",
+    subtitle: "Listen, record, and compare your pronunciation.",
+    step1: "Choose a word",
+    step2: "Record your voice",
+    step3: "Read the tips",
+    languageLabel: "Language",
+    wordLabel: "Word to pronounce",
+    noVocabulary: "No vocabulary available for this language. Contribute to add some!",
+    referenceAudio: "Reference audio:",
+    selectWordFirst: "Choose a word first",
+    record: "Click to record",
+    recording: "Recording...",
+    analyze: "Analyze",
+    reRecord: "Record again",
+    chooseWord: "Choose a word first",
+    analyzeError: "Analysis error: ",
+    microError: "❌ Micro unavailable: ",
+    audioNotAvailable: "Micro access is required.",
+    spectralSimilarity: "Spectral similarity"
+  } : {
+    title: "Atelier d'Accent",
+    subtitle: "Écoutez, enregistrez et comparez votre prononciation.",
+    step1: "Choisir un mot",
+    step2: "Enregistrer votre voix",
+    step3: "Lire les conseils",
+    languageLabel: "Langue",
+    wordLabel: "Mot à prononcer",
+    noVocabulary: "Aucun vocabulaire disponible pour cette langue. Contribue pour en ajouter !",
+    referenceAudio: "Audio de référence :",
+    selectWordFirst: "Choisis un mot d'abord",
+    record: "Clique pour t'enregistrer",
+    recording: "Enregistrement...",
+    analyze: "Analyser",
+    reRecord: "Réenregistrer",
+    chooseWord: "Choisis un mot d'abord",
+    analyzeError: "Erreur d'analyse : ",
+    microError: "❌ Micro inaccessible : ",
+    audioNotAvailable: "autorise l'accès au micro.",
+    spectralSimilarity: "Similarité spectrale"
+  };
   const [languages, setLanguages] = useState(/** @type {any[]} */ ([]));
   const [lang, setLang] = useState("");
   const [vocab, setVocab] = useState(/** @type {any[]} */ ([]));
@@ -70,7 +114,7 @@ export default function AccentWorkshop() {
       timerRef.current = setInterval(() => setRecordTime(t => t + 1), 1000);
     } catch (err) {
       const message = err instanceof Error ? err.message : String(err);
-      setMsg("❌ Micro inaccessible : " + (message || "autorise l'accès au micro."));
+      setMsg(labels.microError + (message || labels.audioNotAvailable));
     }
   };
 
@@ -171,13 +215,15 @@ export default function AccentWorkshop() {
 
       // LLM feedback
       const langObj = languages.find((l) => l.code === lang);
-      const prompt = `Tu es Kôrô, coach d'accent de Mǎa-kwɛ́lî. L'apprenant a prononcé le mot "${selectedWord.word}" en ${langObj?.name_fr || lang}. Phonétique de référence: ${selectedWord.phonetic || selectedWord.phonetic_simple || "non disponible"}. Traduction: ${selectedWord.translation_fr}. Score de similarité: ${Math.round(similarity)}%. Donne un feedback constructif et concis (2-3 phrases) en français sur la prononciation, avec des conseils pratiques pour s'améliorer.`;
+      const prompt = isEnglish
+        ? `You are Kôrô, an accent coach for Mǎa-kwɛ́lî. The learner pronounced the word "${selectedWord.word}" in ${langObj?.name_fr || lang}. Reference phonetics: ${selectedWord.phonetic || selectedWord.phonetic_simple || "not available"}. Translation: ${selectedWord.translation_fr}. Similarity score: ${Math.round(similarity)}%. Give constructive and concise feedback (2–3 sentences) in English about the pronunciation, with practical tips to improve.`
+        : `Tu es Kôrô, coach d'accent de Mǎa-kwɛ́lî. L'apprenant a prononcé le mot "${selectedWord.word}" en ${langObj?.name_fr || lang}. Phonétique de référence: ${selectedWord.phonetic || selectedWord.phonetic_simple || "non disponible"}. Traduction: ${selectedWord.translation_fr}. Score de similarité: ${Math.round(similarity)}%. Donne un feedback constructif et concis (2-3 phrases) en français sur la prononciation, avec des conseils pratiques pour s'améliorer.`;
       const llmFeedback = await invokeAI(prompt);
       const feedbackContent = llmFeedback && typeof llmFeedback === "object" && "content" in llmFeedback ? llmFeedback.content : llmFeedback;
       setFeedback(typeof feedbackContent === "string" ? feedbackContent : JSON.stringify(feedbackContent ?? ""));
     } catch (err) {
       const message = err instanceof Error ? err.message : String(err);
-      setFeedback("Erreur d'analyse : " + message);
+      setFeedback(labels.analyzeError + message);
     } finally {
       setAnalyzing(false);
     }
@@ -204,15 +250,15 @@ export default function AccentWorkshop() {
           <Waves className="text-blue-500" size={24} />
         </div>
         <div>
-          <h1 className="font-heading text-2xl font-bold text-foreground">Atelier d'Accent</h1>
-          <p className="text-sm text-muted-foreground">Écoutez, enregistrez et comparez votre prononciation.</p>
+          <h1 className="font-heading text-2xl font-bold text-foreground">{labels.title}</h1>
+          <p className="text-sm text-muted-foreground">{labels.subtitle}</p>
         </div>
       </div>
-      <div className="mt-5 grid gap-2 text-xs text-muted-foreground sm:grid-cols-3"><div className="flex items-center gap-2 rounded-xl bg-primary/5 px-3 py-2"><span className="flex h-6 w-6 items-center justify-center rounded-full bg-primary text-xs font-bold text-primary-foreground">1</span> Choisir un mot</div><div className="flex items-center gap-2 rounded-xl bg-primary/5 px-3 py-2"><span className="flex h-6 w-6 items-center justify-center rounded-full bg-primary text-xs font-bold text-primary-foreground">2</span> Enregistrer votre voix</div><div className="flex items-center gap-2 rounded-xl bg-primary/5 px-3 py-2"><span className="flex h-6 w-6 items-center justify-center rounded-full bg-primary text-xs font-bold text-primary-foreground">3</span> Lire les conseils</div></div>
+      <div className="mt-5 grid gap-2 text-xs text-muted-foreground sm:grid-cols-3"><div className="flex items-center gap-2 rounded-xl bg-primary/5 px-3 py-2"><span className="flex h-6 w-6 items-center justify-center rounded-full bg-primary text-xs font-bold text-primary-foreground">1</span> {labels.step1}</div><div className="flex items-center gap-2 rounded-xl bg-primary/5 px-3 py-2"><span className="flex h-6 w-6 items-center justify-center rounded-full bg-primary text-xs font-bold text-primary-foreground">2</span> {labels.step2}</div><div className="flex items-center gap-2 rounded-xl bg-primary/5 px-3 py-2"><span className="flex h-6 w-6 items-center justify-center rounded-full bg-primary text-xs font-bold text-primary-foreground">3</span> {labels.step3}</div></div>
       </header>
 
       <div className="mb-5 rounded-2xl border border-border bg-card p-4 shadow-sm">
-        <label className="text-xs font-semibold text-muted-foreground uppercase tracking-wider mb-2 block">Langue</label>
+        <label className="text-xs font-semibold text-muted-foreground uppercase tracking-wider mb-2 block">{labels.languageLabel}</label>
         <select value={lang} onChange={e => setLang(e.target.value)}
           className="w-full bg-card border border-border rounded-xl px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-primary/40">
           {languages.map(l => <option key={l.code} value={l.code}>{l.name_fr}</option>)}
@@ -220,9 +266,9 @@ export default function AccentWorkshop() {
       </div>
 
       <div className="mb-5 rounded-2xl border border-border bg-card p-4 shadow-sm">
-        <label className="text-xs font-semibold text-muted-foreground uppercase tracking-wider mb-2 block">Mot à prononcer</label>
+        <label className="text-xs font-semibold text-muted-foreground uppercase tracking-wider mb-2 block">{labels.wordLabel}</label>
         {vocab.length === 0 ? (
-          <p className="text-sm text-muted-foreground bg-secondary/50 rounded-xl p-4">Aucun vocabulaire disponible pour cette langue. Contribue pour en ajouter !</p>
+          <p className="text-sm text-muted-foreground bg-secondary/50 rounded-xl p-4">{labels.noVocabulary}</p>
         ) : (
           <div className="grid max-h-44 grid-cols-2 gap-2 overflow-y-auto sm:grid-cols-4">
             {vocab.slice(0, 20).map(v => (
@@ -252,7 +298,7 @@ export default function AccentWorkshop() {
           {selectedWord.audio_url && (
             <div className="flex items-center gap-2 mt-3">
               <Volume2 size={16} className="text-primary" />
-              <span className="text-xs text-muted-foreground">Audio de référence :</span>
+              <span className="text-xs text-muted-foreground">{labels.referenceAudio}</span>
               <audio controls src={selectedWord.audio_url} className="h-7 flex-1" />
             </div>
           )}
@@ -270,7 +316,7 @@ export default function AccentWorkshop() {
               {recording ? <Square size={28} className="text-white" /> : <Mic size={32} className="text-white" />}
             </button>
             <p className="text-sm text-muted-foreground mt-4">
-              {recording ? `Enregistrement... ${fmtTime(recordTime)}` : selectedWord ? "Clique pour t'enregistrer" : "Choisis un mot d'abord"}
+              {recording ? `${labels.recording} ${fmtTime(recordTime)}` : selectedWord ? labels.record : labels.chooseWord}
             </p>
           </>
         ) : (
@@ -278,11 +324,11 @@ export default function AccentWorkshop() {
             <audio controls src={userAudioUrl} className="w-full max-w-sm mx-auto" />
             <div className="flex items-center justify-center gap-3">
               <button type="button" onClick={reset} className="flex items-center gap-2 px-4 py-2 rounded-xl bg-secondary text-secondary-foreground text-sm font-medium hover:bg-secondary/70 transition">
-                <RefreshCw size={16} /> Réenregistrer
+                <RefreshCw size={16} /> {labels.reRecord}
               </button>
               <button type="button" onClick={analyze} disabled={analyzing}
                 className="flex items-center gap-2 px-4 py-2 rounded-xl bg-primary text-primary-foreground text-sm font-medium hover:opacity-90 transition disabled:opacity-60">
-                {analyzing ? "Analyse..." : <><Play size={16} /> Analyser</>}
+                {analyzing ? `${labels.analyze}...` : <><Play size={16} /> {labels.analyze}</>}
               </button>
             </div>
           </div>
@@ -296,7 +342,7 @@ export default function AccentWorkshop() {
         <div className="rounded-2xl border border-border bg-card p-6 shadow-sm">
           <div className="text-center mb-4">
             <div className={`text-5xl font-bold ${scoreColor}`}>{score}%</div>
-            <p className="text-sm text-muted-foreground mt-1">Similarité spectrale</p>
+            <p className="text-sm text-muted-foreground mt-1">{labels.spectralSimilarity}</p>
           </div>
           <div className="w-full bg-secondary rounded-full h-3 mb-4">
             <div className={`h-3 rounded-full transition-all ${score >= 75 ? "bg-green-500" : score >= 50 ? "bg-yellow-500" : "bg-red-500"}`} style={{ width: `${score}%` }} />

@@ -8,7 +8,7 @@ export const getApiBaseUrl = () => {
   if (typeof window !== "undefined") {
     const hostname = window.location.hostname.toLowerCase();
     if (hostname.endsWith(".vercel.app") || hostname.endsWith(".web.app")) {
-      return normalizedConfigured ? normalizedConfigured.replace(/\/$/, "") : PROD_BACKEND_FALLBACK;
+      return window.location.origin;
     }
   }
 
@@ -41,9 +41,9 @@ const getCsrfToken = () => {
   return match ? decodeURIComponent(match[1]) : null;
 };
 
-const notifyAuthChanged = () => {
+const notifyAuthChanged = (user = null) => {
   if (typeof window !== "undefined") {
-    window.dispatchEvent(new Event("mbaara-auth-changed"));
+    window.dispatchEvent(new CustomEvent("mbaara-auth-changed", { detail: user }));
   }
 };
 

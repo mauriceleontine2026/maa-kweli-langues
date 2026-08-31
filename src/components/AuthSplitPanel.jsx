@@ -1,5 +1,6 @@
 import { useMemo, useRef, useState } from "react";
 import { ArrowRight, Chrome, Lock, Mail, Sparkles, UserRound } from "lucide-react";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 /**
  * @param {{
@@ -25,13 +26,14 @@ export default function AuthSplitPanel(props) {
     error = "",
     message = "",
     initialMode = "signin",
-    submitLabel = "Se connecter",
-    switchLabel = "Pas encore de compte ?",
-    switchButtonLabel = "Créer un compte",
+    submitLabel = "Sign in",
+    switchLabel = "Need an account?",
+    switchButtonLabel = "Create an account",
     children = null,
     hideForm = false,
     forgotPasswordHref = "/forgot-password",
   } = props;
+  const { language, toggleLanguage, t } = useLanguage();
   const [mode, setMode] = useState(initialMode);
   const [form, setForm] = useState({ name: "", email: "", password: "", confirmPassword: "", remember: false });
   const [showPassword, setShowPassword] = useState(false);
@@ -39,24 +41,24 @@ export default function AuthSplitPanel(props) {
 
   const isSignUp = mode === "signup";
 
-  const title = useMemo(() => (isSignUp ? "Créer votre compte" : "Bon retour parmi nous"), [isSignUp]);
+  const title = useMemo(() => (isSignUp ? t("createAccount") : t("welcomeBack")), [isSignUp, t]);
   const subtitle = useMemo(
     () =>
       isSignUp
-        ? "Rejoignez Mǎa-kwɛ́lî Langues et débloquez un apprentissage plus vivant."
-        : "Accédez à vos leçons, progrès et contenus préférés en un instant.",
-    [isSignUp]
+        ? t("authSignupSubtitle")
+        : t("authSubtitle"),
+      [isSignUp, t]
   );
 
-  const buttonLabel = useMemo(() => (isSignUp ? "Créer mon compte" : submitLabel), [isSignUp, submitLabel]);
+  const buttonLabel = useMemo(() => (isSignUp ? t("signUpNow") : t("signIn")), [isSignUp, t]);
 
-  const accentTitle = useMemo(() => (isSignUp ? "Bienvenue chez Mǎa-kwɛ́lî" : "Apprends autrement"), [isSignUp]);
+  const accentTitle = useMemo(() => (isSignUp ? t("welcomeTo") : t("learnDifferently")), [isSignUp, t]);
   const accentBody = useMemo(
     () =>
       isSignUp
-        ? "Construisez votre parcours de langues avec des contenus immersifs et des activités guidées."
-        : "Votre espace d’apprentissage est prêt. Connectez-vous pour reprendre là où vous vous êtes arrêté.",
-    [isSignUp]
+        ? t("buildPath")
+        : t("readySpace"),
+      [isSignUp, t]
   );
 
   const handleSubmit = (/** @type {any} */ event) => {
@@ -86,7 +88,7 @@ export default function AuthSplitPanel(props) {
           <div className="relative flex w-full items-center justify-center overflow-hidden bg-gradient-to-br from-primary via-primary/90 to-accent/90 px-6 py-10 text-primary-foreground sm:px-10 sm:py-12 lg:w-[46%] lg:px-12 lg:py-16">
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(255,255,255,0.25),transparent_40%)]" />
             <div className="relative z-10 w-full max-w-md transition-all duration-500">
-              <div className="mb-6 flex items-center gap-3">
+              <div className="mb-6 flex items-center justify-between gap-3">
                 <img
                   src="/logo.png"
                   alt="Logo Mǎa-kwɛ́lî Langues"
@@ -96,18 +98,21 @@ export default function AuthSplitPanel(props) {
                   <Sparkles className="h-4 w-4" />
                   Mǎa-kwɛ́lî Langues
                 </div>
+                <button type="button" onClick={toggleLanguage} className="rounded-full border border-white/30 px-3 py-1 text-xs font-semibold text-white hover:bg-white/15" aria-label={t("language")}>
+                  {language === "fr" ? "EN" : "FR"}
+                </button>
               </div>
               <h2 className="font-heading text-3xl font-semibold leading-tight sm:text-4xl">{accentTitle}</h2>
               <p className="mt-4 text-sm leading-7 text-primary-foreground/90 sm:text-base">{accentBody}</p>
 
               <div className="mt-8 rounded-2xl border border-white/20 bg-white/10 p-4 backdrop-blur-sm transition-transform duration-300 hover:scale-[1.01]">
-                <p className="text-sm font-medium">{isSignUp ? "Déjà un compte ?" : "Nouveau ici ?"}</p>
+                <p className="text-sm font-medium">{isSignUp ? t("alreadyAccount") : t("newHere")}</p>
                 <button
                   type="button"
                   onClick={() => setMode(isSignUp ? "signin" : "signup")}
                   className="mt-3 inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-4 py-2 text-sm font-semibold text-primary-foreground transition-all duration-300 hover:scale-[1.02] hover:bg-white/20"
                 >
-                  {isSignUp ? "Se connecter" : switchButtonLabel}
+                  {isSignUp ? t("signIn") : t("signUp")}
                   <ArrowRight className="h-4 w-4" />
                 </button>
               </div>
@@ -131,7 +136,7 @@ export default function AuthSplitPanel(props) {
                     className="flex flex-1 items-center justify-center gap-2 rounded-xl border border-border bg-background px-4 py-3 text-sm font-medium text-foreground transition-all duration-300 hover:-translate-y-0.5 hover:scale-[1.01] hover:bg-secondary"
                   >
                     <Chrome className="h-4 w-4 text-primary" />
-                    {loading ? "Connexion en cours..." : "Continuer avec Google"}
+                    {loading ? t("signingIn") : t("continueGoogle")}
                   </button>
                 </div>
               ) : null}
@@ -141,7 +146,7 @@ export default function AuthSplitPanel(props) {
                   <div className="w-full border-t border-border" />
                 </div>
                 <div className="relative flex justify-center">
-                  <span className="bg-card px-3 text-xs font-medium uppercase tracking-[0.24em] text-muted-foreground">ou</span>
+                  <span className="bg-card px-3 text-xs font-medium uppercase tracking-[0.24em] text-muted-foreground">{t("or")}</span>
                 </div>
               </div>
 
@@ -149,7 +154,7 @@ export default function AuthSplitPanel(props) {
                 <form onSubmit={handleSubmit} className="space-y-4">
                   {isSignUp && (
                     <label className="block">
-                      <span className="mb-2 block text-sm font-medium text-foreground">Nom complet</span>
+                      <span className="mb-2 block text-sm font-medium text-foreground">{t("fullName")}</span>
                       <div className="flex items-center gap-3 rounded-2xl border border-border bg-background px-4 py-3 transition-all duration-300 focus-within:border-primary focus-within:ring-2 focus-within:ring-primary/20">
                         <UserRound className="h-4 w-4 text-muted-foreground" />
                         <input
@@ -157,7 +162,7 @@ export default function AuthSplitPanel(props) {
                           type="text"
                           value={form.name}
                           onChange={(event) => setForm((current) => ({ ...current, name: event.target.value }))}
-                          placeholder="Votre nom"
+                          placeholder={t("yourName")}
                           className="w-full border-none bg-transparent text-sm text-foreground outline-none"
                           required={isSignUp}
                         />
@@ -174,7 +179,7 @@ export default function AuthSplitPanel(props) {
                         type="email"
                         value={form.email}
                         onChange={(event) => setForm((current) => ({ ...current, email: event.target.value.trim() }))}
-                        placeholder="votre@email.com"
+                        placeholder={language === "en" ? "your@email.com" : "votre@email.com"}
                         className="w-full border-none bg-transparent text-sm text-foreground outline-none"
                         autoComplete="email"
                         inputMode="email"
@@ -185,7 +190,7 @@ export default function AuthSplitPanel(props) {
                   </label>
 
                   <label className="block">
-                    <span className="mb-2 block text-sm font-medium text-foreground">Mot de passe</span>
+                    <span className="mb-2 block text-sm font-medium text-foreground">{t("password")}</span>
                     <div className="flex items-center gap-3 rounded-2xl border border-border bg-background px-4 py-3 transition-all duration-300 focus-within:border-primary focus-within:ring-2 focus-within:ring-primary/20">
                       <Lock className="h-4 w-4 text-muted-foreground" />
                       <input
@@ -205,14 +210,14 @@ export default function AuthSplitPanel(props) {
                         onClick={() => setShowPassword((current) => !current)}
                         className="text-xs font-medium text-muted-foreground transition-colors hover:text-foreground"
                       >
-                        {showPassword ? "Masquer" : "Voir"}
+                        {showPassword ? t("hide") : t("show")}
                       </button>
                     </div>
                   </label>
 
                   {isSignUp ? (
                     <label className="block">
-                      <span className="mb-2 block text-sm font-medium text-foreground">Confirmer le mot de passe</span>
+                      <span className="mb-2 block text-sm font-medium text-foreground">{t("confirmPassword")}</span>
                       <div className="flex items-center gap-3 rounded-2xl border border-border bg-background px-4 py-3 transition-all duration-300 focus-within:border-primary focus-within:ring-2 focus-within:ring-primary/20">
                         <Lock className="h-4 w-4 text-muted-foreground" />
                         <input
@@ -230,16 +235,16 @@ export default function AuthSplitPanel(props) {
 
                   {isSignUp ? (
                     <p id="password-requirements" className="text-xs leading-5 text-muted-foreground">
-                      12 caractères minimum, avec une majuscule, une minuscule, un chiffre et un caractère spécial.
+                      {t("passwordRequirements")}
                     </p>
                   ) : (
                     <div className="flex items-center justify-between gap-3">
                       <label className="flex items-center gap-2 text-sm text-muted-foreground">
                         <input name="remember" type="checkbox" className="h-4 w-4 rounded border-border text-primary focus:ring-primary" />
-                        Se souvenir de moi
+                        {t("rememberMe")}
                       </label>
                       <a href={forgotPasswordHref} className="text-sm font-semibold text-primary transition-colors hover:text-primary/80">
-                        Mot de passe oublié ?
+                        {t("forgotPassword")}
                       </a>
                     </div>
                   )}
@@ -253,7 +258,7 @@ export default function AuthSplitPanel(props) {
                     aria-busy={loading}
                     className="flex w-full items-center justify-center gap-2 rounded-2xl bg-primary px-4 py-3 text-sm font-semibold text-primary-foreground transition-all duration-300 hover:-translate-y-0.5 hover:opacity-95 disabled:opacity-70"
                   >
-                    {loading ? (isSignUp ? "Création..." : "Connexion...") : buttonLabel}
+                    {loading ? (isSignUp ? t("creating") : t("signingIn")) : buttonLabel}
                     <ArrowRight className="h-4 w-4" />
                   </button>
                 </form>
@@ -264,19 +269,19 @@ export default function AuthSplitPanel(props) {
 
               {!hideForm ? (
                 <div className="mt-6 flex items-center justify-center gap-2 text-center text-xs text-muted-foreground">
-                  <Lock className="h-3.5 w-3.5 text-primary" /> Connexion sécurisée · Vos données restent privées
+                  <Lock className="h-3.5 w-3.5 text-primary" /> {t("secureLogin")}
                 </div>
               ) : null}
 
               {!hideForm ? (
                 <p className="mt-6 text-center text-sm text-muted-foreground">
-                  {switchLabel}{" "}
+                  {(isSignUp ? t("alreadyAccount") : t("newHere"))}{" "}
                   <button
                     type="button"
                     onClick={() => setMode(isSignUp ? "signin" : "signup")}
                     className="font-semibold text-primary transition-colors hover:text-primary/80"
                   >
-                    {isSignUp ? "Se connecter" : switchButtonLabel}
+                    {isSignUp ? t("signIn") : t("signUp")}
                   </button>
                 </p>
               ) : null}

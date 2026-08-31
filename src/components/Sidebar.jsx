@@ -4,24 +4,26 @@ import { useTheme } from "@/contexts/ThemeContext";
 import { useEffect, useState } from "react";
 import { useAuth } from "@/lib/AuthContext";
 import { useOnlineStatus } from "@/hooks/useOnlineStatus";
+import { useLanguage } from "@/contexts/LanguageContext";
 import { syncProgressQueue } from "@/lib/offlineStorage";
 import { getProgress } from "@/api/progressService";
 // public logo at /logo.png
 
 const NAV = [
-  { to: "/", label: "Accueil", icon: Home },
-  { to: "/apprendre", label: "Apprendre", icon: BookOpen },
-  { to: "/tuteur", label: "Tuteur IA", icon: GraduationCap },
-  { to: "/contribuer", label: "Contribuer", icon: Mic },
-  { to: "/progres", label: "Progrès", icon: TrendingUp },
-  { to: "/revision", label: "Révision", icon: Clock },
-  { to: "/profil", label: "Profil", icon: User },
+  { to: "/", key: "home", icon: Home },
+  { to: "/apprendre", key: "learn", icon: BookOpen },
+  { to: "/tuteur", key: "tutor", icon: GraduationCap },
+  { to: "/contribuer", key: "contribute", icon: Mic },
+  { to: "/progres", key: "progress", icon: TrendingUp },
+  { to: "/revision", key: "review", icon: Clock },
+  { to: "/profil", key: "profile", icon: User },
 ];
 
 export default function Sidebar() {
   const location = useLocation();
   const { theme, toggleTheme } = useTheme();
   const { user } = useAuth();
+  const { t } = useLanguage();
   const [progresses, setProgresses] = useState([]);
   const online = useOnlineStatus();
 
@@ -71,7 +73,7 @@ export default function Sidebar() {
 
       {/* Nav */}
       <nav className="flex-1 px-3 py-4 space-y-1 overflow-y-auto">
-        {NAV.map(({ to, label, icon: Icon }) => {
+        {NAV.map(({ to, key, icon: Icon }) => {
           const active = isActive(to);
           return (
             <Link key={to} to={to}
@@ -81,7 +83,7 @@ export default function Sidebar() {
                   : "text-muted-foreground hover:bg-secondary hover:text-foreground"
               }`}>
               <Icon size={18} strokeWidth={active ? 2.5 : 2} />
-              {label}
+              {t(key)}
             </Link>
           );
         })}
@@ -93,7 +95,7 @@ export default function Sidebar() {
                 : "text-muted-foreground hover:bg-secondary hover:text-foreground"
             }`}>
             <Shield size={18} strokeWidth={isActive("/admin") ? 2.5 : 2} />
-            Administration
+            {t("administration")}
           </Link>
         )}
       </nav>
@@ -105,24 +107,24 @@ export default function Sidebar() {
             <div className="flex items-center justify-center gap-1 text-primary font-bold text-sm">
               <Flame size={14} /> {maxStreak}
             </div>
-            <div className="text-[10px] text-muted-foreground mt-0.5">jours série</div>
+            <div className="text-[10px] text-muted-foreground mt-0.5">{t("jours série")}</div>
           </div>
           <div className="bg-secondary/60 rounded-xl p-2.5 text-center">
             <div className="flex items-center justify-center gap-1 text-blue-500 font-bold text-sm">
               <Star size={14} /> {totalXP}
             </div>
-            <div className="text-[10px] text-muted-foreground mt-0.5">XP totaux</div>
+            <div className="text-[10px] text-muted-foreground mt-0.5">{t("XP totaux")}</div>
           </div>
         </div>
         {!online && (
           <div className="flex items-center gap-2 px-3 py-2 rounded-xl text-xs text-yellow-500 bg-yellow-500/10">
-            <WifiOff size={14} /> Mode hors-ligne
+            <WifiOff size={14} /> {t("Mode hors-ligne")}
           </div>
         )}
         <button onClick={toggleTheme}
           className="w-full flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium text-muted-foreground hover:bg-secondary hover:text-foreground transition">
           {theme === "dark" ? <Sun size={18} /> : <Moon size={18} />}
-          {theme === "dark" ? "Mode clair" : "Mode sombre"}
+          {theme === "dark" ? t("lightMode") : t("darkMode")}
         </button>
       </div>
     </aside>

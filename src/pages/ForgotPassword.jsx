@@ -1,11 +1,13 @@
 import { useState } from "react";
 import { resetPasswordRequest } from "@/api/authService";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 export default function ForgotPassword() {
   const [email, setEmail] = useState("");
   const [sent, setSent] = useState(false);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
+  const { t } = useLanguage();
 
   /**
    * @param {import("react").FormEvent<HTMLFormElement>} e
@@ -18,7 +20,7 @@ export default function ForgotPassword() {
       await resetPasswordRequest(email);
       setSent(true);
     } catch (err) {
-      const message = err instanceof Error ? err.message : "Impossible d'envoyer le lien de réinitialisation";
+      const message = err instanceof Error ? err.message : t("invalidLogin");
       setError(message);
     } finally {
       setLoading(false);
@@ -36,21 +38,21 @@ export default function ForgotPassword() {
           {sent ? (
             <div className="text-center">
               <div className="text-4xl mb-3">📧</div>
-              <h2 className="font-heading text-lg font-bold text-foreground mb-2">Email envoyé !</h2>
-              <p className="text-sm text-muted-foreground">Si un compte existe pour cet email, vous recevrez un lien de réinitialisation.</p>
-              <a href="/login" className="mt-4 block text-primary font-semibold hover:underline text-sm">← Retour à la connexion</a>
+              <h2 className="font-heading text-lg font-bold text-foreground mb-2">{t("emailSent")}</h2>
+              <p className="text-sm text-muted-foreground">{t("resetPasswordSubtitle")}</p>
+              <a href="/login" className="mt-4 block text-primary font-semibold hover:underline text-sm">← {t("backToLogin")}</a>
             </div>
           ) : (
             <>
-              <h2 className="font-heading text-xl font-bold text-foreground mb-2 text-center">Mot de passe oublié</h2>
-              <p className="text-sm text-muted-foreground text-center mb-5">Entrez votre email pour recevoir un lien de réinitialisation.</p>
+              <h2 className="font-heading text-xl font-bold text-foreground mb-2 text-center">{t("resetPasswordTitle")}</h2>
+              <p className="text-sm text-muted-foreground text-center mb-5">{t("resetPasswordSubtitle")}</p>
               <form onSubmit={handleSubmit} className="space-y-4">
-                <input type="email" value={email} onChange={e => setEmail(e.target.value)} className="w-full border border-border bg-background rounded-xl px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-primary/40" placeholder="votre@email.com" required />
+                <input type="email" value={email} onChange={e => setEmail(e.target.value)} className="w-full border border-border bg-background rounded-xl px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-primary/40" placeholder="your@email.com" required />
                 <button type="submit" disabled={loading} className="w-full bg-primary text-primary-foreground font-bold py-3 rounded-xl hover:opacity-90 transition disabled:opacity-60">
-                  {loading ? "Envoi..." : "Envoyer le lien"}
+                  {loading ? t("sending") : t("sendResetLink")}
                 </button>
               </form>
-              <a href="/login" className="mt-4 block text-center text-sm text-primary hover:underline">← Retour à la connexion</a>
+              <a href="/login" className="mt-4 block text-center text-sm text-primary hover:underline">← {t("backToLogin")}</a>
             </>
           )}
         </div>

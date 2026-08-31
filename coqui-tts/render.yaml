@@ -1,0 +1,28 @@
+# Render.com deployment config pour Coqui TTS
+# 
+# Déploiement:
+# 1. Créer un compte Render.com
+# 2. Créer un nouveau Web Service
+# 3. Connecter ce repo GitHub
+# 4. Choisir le branch "main"
+# 5. Build command: pip install -r requirements.txt
+# 6. Start command: python tts_server.py
+# 7. Instance type: Premium (GPU recommandé pour performance)
+# 8. Env vars: TTS_MODEL=tts_models/multilingual/multi-dataset/xtts_v2
+#
+# URL finale: https://mbaara-tts.onrender.com (adapter le nom)
+
+services:
+  - type: web
+    name: mbaara-tts-coqui
+    runtime: python
+    pythonVersion: 3.11
+    buildCommand: "pip install -r coqui-tts/requirements.txt"
+    startCommand: "cd coqui-tts && python tts_server.py"
+    envVars:
+      - key: PORT
+        value: "5000"
+      - key: TTS_MODEL
+        value: "tts_models/multilingual/multi-dataset/xtts_v2"
+      - key: USE_CUDA
+        value: "false"

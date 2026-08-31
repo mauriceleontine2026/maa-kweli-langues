@@ -4,6 +4,7 @@ from fastapi.responses import JSONResponse
 from .database import Base, engine
 from .config import get_allowed_origins, get_backend_proxy_target
 from .routers import health, auth, lessons, progress, audio, ai, languages, vocabulary, contributions, users, leaderboard, research
+from .routers import mms_audio
 from fastapi.staticfiles import StaticFiles
 from pathlib import Path
 import json
@@ -21,7 +22,7 @@ from .services.security import require_admin
 app = FastAPI(title="M'baara API", version="0.1.0")
 
 allowed_origins = get_allowed_origins()
-allowed_origin_regex = r"https://(?:[A-Za-z0-9-]+\.)*(?:vercel\.app|web\.app)$|http://localhost:\d+$|https://localhost:\d+$|http://127\.0\.0\.1:\d+$|https://127\.0\.0\.1:\d+$"
+allowed_origin_regex = r"http://localhost:\d+$|https://localhost:\d+$|http://127\.0\.0\.1:\d+$|https://127\.0\.0\.1:\d+$"
 
 if any(origin.strip() in {"*", "null"} for origin in allowed_origins):
     raise RuntimeError(
@@ -678,7 +679,6 @@ async def csrf_protect(request, call_next):
             "/api/auth/supabase",
             "/api/auth/supabase/form",
             "/api/auth/verify-email",
-            "/api/auth/me/photo",
         }
         if cookie_token and not header_auth and request.url.path not in exempt_paths:
             csrf_cookie = request.cookies.get(security.CSRF_COOKIE_NAME)
@@ -731,6 +731,7 @@ app.include_router(auth, prefix="/api/auth")
 app.include_router(lessons, prefix="/api/lessons")
 app.include_router(progress, prefix="/api/progress")
 app.include_router(audio, prefix="/api/audio")
+app.include_router(mms_audio, prefix="/api/audio")
 app.include_router(ai, prefix="/api/ai")
 app.include_router(leaderboard, prefix="/api/leaderboard")
 app.include_router(languages, prefix="/api/languages")

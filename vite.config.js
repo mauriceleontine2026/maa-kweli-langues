@@ -9,8 +9,7 @@ export default () => {
     ],
     resolve: {
       alias: [
-        { find: '@', replacement: path.resolve(__dirname, 'src') },
-        { find: 'framer-motion', replacement: path.resolve(__dirname, 'node_modules/framer-motion/dist/cjs/index.js') }
+        { find: '@', replacement: path.resolve(__dirname, 'src') }
       ],
       extensions: ['.js', '.cjs', '.mjs', '.ts', '.jsx', '.tsx', '.json', '.JSON']
     },

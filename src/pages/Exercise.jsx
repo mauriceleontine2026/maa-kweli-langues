@@ -33,6 +33,7 @@ export default function Exercise() {
   const [results, setResults] = useState({});
 
   const { user } = useAuth();
+  const { t } = useLanguage();
   const [completedLessons, setCompletedLessons] = useState([]);
   const [moduleLocked, setModuleLocked] = useState(false);
   const [lockMessage, setLockMessage] = useState("");
@@ -172,8 +173,8 @@ export default function Exercise() {
     return (
       <div className="min-h-screen flex items-center justify-center px-6 text-center">
         <div className="max-w-md space-y-3">
-          <p className="text-muted-foreground">Module introuvable.</p>
-          <button onClick={() => navigate(-1)} className="text-primary text-sm font-medium">← Retour</button>
+          <p className="text-muted-foreground">{t("Module introuvable.")}</p>
+          <button onClick={() => navigate(-1)} className="text-primary text-sm font-medium">← {t("Retour")}</button>
         </div>
       </div>
     );
@@ -183,9 +184,9 @@ export default function Exercise() {
     return (
       <div className="min-h-screen flex items-center justify-center px-6 text-center">
         <div className="max-w-lg rounded-3xl border border-amber-300/40 bg-amber-500/10 p-8">
-          <p className="text-base font-semibold text-amber-900 mb-3">Accès restreint</p>
-          <p className="text-sm text-amber-800 mb-6">{lockMessage || "Ce module est verrouillé tant que le niveau Débutant n'est pas achevé avec tous les exercices validés."}</p>
-          <button onClick={() => navigate(`/apprendre/${langCode}`)} className="rounded-full bg-primary px-4 py-2 text-sm font-semibold text-primary-foreground">Retour au curriculum</button>
+          <p className="text-base font-semibold text-amber-900 mb-3">{t("Accès restreint")}</p>
+          <p className="text-sm text-amber-800 mb-6">{lockMessage || "This module is locked until the Beginner level is completed with all exercises passed."}</p>
+          <button onClick={() => navigate(`/apprendre/${langCode}`)} className="rounded-full bg-primary px-4 py-2 text-sm font-semibold text-primary-foreground">{t("Retour au curriculum")}</button>
         </div>
       </div>
     );
@@ -195,8 +196,8 @@ export default function Exercise() {
     return (
       <div className="min-h-screen flex items-center justify-center px-6 text-center">
         <div className="max-w-md space-y-3">
-          <p className="text-muted-foreground">Aucun exercice disponible pour cette leçon.</p>
-          <button onClick={() => navigate(-1)} className="text-primary text-sm font-medium">← Retour</button>
+          <p className="text-muted-foreground">{t("Aucun exercice disponible pour cette leçon.")}</p>
+          <button onClick={() => navigate(-1)} className="text-primary text-sm font-medium">← {t("Retour")}</button>
         </div>
       </div>
     );
@@ -207,17 +208,17 @@ export default function Exercise() {
       <div className="mx-auto max-w-3xl px-4 py-6 lg:py-10">
         <div className="mb-6 flex items-center justify-between gap-3">
           <button onClick={() => navigate(-1)} className="inline-flex items-center gap-2 rounded-xl border border-neutral-700/40 bg-[#211d1c] px-3 py-2 text-sm text-neutral-300 transition hover:border-orange-500/50 hover:text-white">
-            <ArrowLeft size={16} /> Retour
+            <ArrowLeft size={16} /> {t("Retour")}
           </button>
-          <Link to={`/apprendre/${langCode}`} className="rounded-xl px-3 py-2 text-sm font-medium text-orange-400 transition hover:bg-orange-500/10">Voir la langue</Link>
+          <Link to={`/apprendre/${langCode}`} className="rounded-xl px-3 py-2 text-sm font-medium text-orange-400 transition hover:bg-orange-500/10">{t("Voir la langue")}</Link>
         </div>
 
         <div className="mb-6 overflow-hidden rounded-3xl border border-neutral-700/40 bg-[#211d1c] p-5 shadow-[0_24px_70px_-40px_rgba(0,0,0,.9)] lg:p-7">
           <div className="mb-4 flex items-start justify-between gap-4">
-            <div><div className="flex items-center gap-2 text-xs font-bold uppercase tracking-[0.2em] text-orange-400"><Sparkles size={15} />Défi adaptatif</div><h1 className="mt-2 font-heading text-2xl font-bold text-white lg:text-3xl">{lesson?.title || module.label}</h1><p className="mt-1 text-sm text-neutral-400">Les exercices difficiles reviennent en priorité pour t’aider à progresser.</p></div>
+            <div><div className="flex items-center gap-2 text-xs font-bold uppercase tracking-[0.2em] text-orange-400"><Sparkles size={15} />{t("Défi adaptatif")}</div><h1 className="mt-2 font-heading text-2xl font-bold text-white lg:text-3xl">{lesson?.title || module.label}</h1><p className="mt-1 text-sm text-neutral-400">{t("Les exercices difficiles reviennent en priorité pour t’aider à progresser.")}</p></div>
             <div className="relative grid h-14 w-14 shrink-0 place-items-center rounded-2xl bg-orange-500/15 text-orange-400 shadow-[0_0_35px_rgba(249,115,22,.2)]"><Trophy size={25} /><span className="absolute -right-1 -top-1 grid h-5 w-5 place-items-center rounded-full bg-orange-500 text-[10px] font-black text-white">{score}</span></div>
           </div>
-          <div className="mb-2 flex items-center justify-between text-xs font-semibold text-neutral-400"><span>Progression du défi</span><span className="text-white">{currentIdx + 1} / {exercises.length}</span></div>
+          <div className="mb-2 flex items-center justify-between text-xs font-semibold text-neutral-400"><span>{t("Progression du défi")}</span><span className="text-white">{currentIdx + 1} / {exercises.length}</span></div>
           <div className="h-3 overflow-hidden rounded-full bg-neutral-800"><div className="h-full rounded-full bg-gradient-to-r from-orange-600 via-orange-400 to-amber-300 transition-all duration-500" style={{ width: `${progress}%` }} />
           </div>
           <div className="mt-3 flex items-center gap-2 text-xs text-neutral-500"><Zap size={14} className="text-amber-400" />{remaining > 0 ? `Encore ${remaining} question${remaining > 1 ? "s" : ""} pour terminer` : "Dernière question, donne tout !"}</div>
@@ -226,8 +227,7 @@ export default function Exercise() {
 
         <div className="rounded-3xl border border-neutral-700/40 bg-[#211d1c] p-5 shadow-[0_24px_70px_-40px_rgba(0,0,0,.9)] lg:p-7">
           <div className="mb-4">
-            <div className="flex items-center justify-between gap-3"><div className="text-[10px] font-semibold uppercase tracking-[0.2em] text-orange-400">Question {currentIdx + 1} · {currentExercise.type}</div><CircleHelp size={18} className="text-neutral-500" /></div>
-            <h2 className="mt-3 text-xl font-bold leading-8 text-white lg:text-2xl">{currentExercise.question || currentExercise.sentence_with_blank || currentExercise.title}</h2>
+            <div className="flex items-center justify-between gap-3"><div className="text-[10px] font-semibold uppercase tracking-[0.2em] text-orange-400">{t("Question")} {currentIdx + 1} · {currentExercise.type}</div><CircleHelp size={18} className="text-neutral-500" /></div>
           </div>
           <p className="mb-5 text-sm leading-6 text-neutral-400">{currentExercise.goal}</p>
 
@@ -235,8 +235,8 @@ export default function Exercise() {
             <div className="grid gap-3">{currentOptions.map((option, index) => <button key={option} type="button" onClick={() => setResponses((prev) => ({ ...prev, [currentIdx]: option }))} className={`flex items-center gap-3 rounded-2xl border-2 px-4 py-4 text-left text-sm font-medium transition ${currentAnswer === option ? "border-orange-500 bg-orange-500/15 text-white shadow-lg shadow-orange-950/20" : "border-neutral-700/40 bg-neutral-900/60 text-neutral-300 hover:border-orange-500/50 hover:text-white"}`}><span className="grid h-7 w-7 shrink-0 place-items-center rounded-lg bg-neutral-800 text-xs font-bold text-orange-400">{String.fromCharCode(65 + index)}</span>{option}</button>)}</div>
           ) : (
             <>
-              <label className="block text-xs font-semibold uppercase tracking-[0.18em] text-muted-foreground mb-2">{currentExercise.type === "fill_in_the_blanks" || currentExercise.type === "texte_a_trous" ? "Complète la réponse" : "Rédige ta réponse courte"}</label>
-              <textarea value={currentAnswer} onChange={(event) => setResponses((prev) => ({ ...prev, [currentIdx]: event.target.value }))} className="w-full min-h-[140px] rounded-2xl border border-neutral-700/40 bg-neutral-900/70 px-4 py-4 text-sm text-white outline-none placeholder:text-neutral-600 focus:border-orange-500 focus:ring-2 focus:ring-orange-500/30" placeholder={currentExercise.sentence_with_blank || "Écrivez votre réponse ici…"} />
+              <label className="block text-xs font-semibold uppercase tracking-[0.18em] text-muted-foreground mb-2">{currentExercise.type === "fill_in_the_blanks" || currentExercise.type === "texte_a_trous" ? t("Complète la réponse") : t("Rédige ta réponse courte")}</label>
+              <textarea value={currentAnswer} onChange={(event) => setResponses((prev) => ({ ...prev, [currentIdx]: event.target.value }))} className="w-full min-h-[140px] rounded-2xl border border-neutral-700/40 bg-neutral-900/70 px-4 py-4 text-sm text-white outline-none placeholder:text-neutral-600 focus:border-orange-500 focus:ring-2 focus:ring-orange-500/30" placeholder={currentExercise.sentence_with_blank || t("Écrivez votre réponse ici…")} />
             </>
           )}
 

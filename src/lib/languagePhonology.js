@@ -13,6 +13,7 @@ const TTS_LOCALES = {
   am: "am-ET", amh: "am-ET", amharic: "am-ET",
   ha: "ha-NG", hau: "ha-NG", hausa: "ha-NG",
   yo: "yo-NG", yor: "yo-NG", yoruba: "yo-NG",
+  ig: "ig-NG", igb: "ig-NG", igbo: "ig-NG",
   it: "it-IT", ita: "it-IT", italian: "it-IT",
   zh: "zh-CN", zho: "zh-CN", chinese: "zh-CN",
   ja: "ja-JP", jpn: "ja-JP", japanese: "ja-JP",
@@ -22,13 +23,24 @@ const TTS_LOCALES = {
   chinois: "zh-CN", "chinois-mandarin": "zh-CN", mandarin: "zh-CN",
   francais: "fr-FR", portugais: "pt-BR", allemand: "de-DE", anglais: "en-US",
   arabe: "ar-SA", espagnol: "es-ES", italien: "it-IT", japonais: "ja-JP", russe: "ru-RU",
-  malinke: "fr-FR", bambara: "fr-FR", dioula: "fr-FR", bissa: "fr-FR", moore: "fr-FR",
+  bambara: "fr-FR", dioula: "fr-FR", bissa: "fr-FR", moore: "fr-FR",
   mossi: "fr-FR", soussou: "fr-FR", pular: "fr-FR", peul: "fr-FR", fulfulde: "fr-FR",
   kissi: "fr-FR", guerze: "fr-FR", koniagui: "fr-FR", konyanka: "fr-FR", kuranko: "fr-FR",
   landuma: "fr-FR", lele: "fr-FR", mani: "fr-FR", nalu: "fr-FR", sankaran: "fr-FR",
   yalunka: "fr-FR", kono: "fr-FR", mano: "fr-FR", toma: "fr-FR", badiaranke: "fr-FR",
-  baga: "fr-FR", bassari: "fr-FR", bedik: "fr-FR", lingala: "fr-FR", swahili: "sw-KE",
-  igbo: "ig-NG", yoruba: "yo-NG", hausa: "ha-NG", wolof: "fr-FR",
+  baga: "fr-FR", bassari: "fr-FR", bedik: "fr-FR", lingala: "fr-FR", wolof: "fr-FR",
+  malinke: "fr-FR", "chinese": "zh-CN", "mandarin": "zh-CN",
+  "swahili": "sw-KE", "arabe": "ar-SA", "anglais": "en-US", "francais": "fr-FR",
+  "espagnol": "es-ES", "allemand": "de-DE", "italien": "it-IT",
+  "japonais": "ja-JP", "portugais": "pt-BR", "russe": "ru-RU",
+  "hindi": "hi-IN", "yoruba": "yo-NG", "igbo": "ig-NG", "hausa": "ha-NG",
+  "swahili": "sw-KE", "lingala": "fr-FR", "bissa": "fr-FR", "moore": "fr-FR",
+  "dioula": "fr-FR", "soussou": "fr-FR", "pular": "fr-FR", "malinke": "fr-FR",
+  "kissi": "fr-FR", "guerze": "fr-FR", "konyanka": "fr-FR", "kuranko": "fr-FR",
+  "landauma": "fr-FR", "landuma": "fr-FR", "lele": "fr-FR", "mani": "fr-FR",
+  "nalu": "fr-FR", "sankaran": "fr-FR", "yalunka": "fr-FR", "kono": "fr-FR",
+  "mano": "fr-FR", "toma": "fr-FR", "badiaranke": "fr-FR", "baga": "fr-FR",
+  "bassari": "fr-FR", "bedik": "fr-FR", "koniagui": "fr-FR",
 };
 
 const PROFILE_ALIASES = {
@@ -324,25 +336,196 @@ export const getPhonologyProfile = (code) => {
   return PROFILES[key] || PROFILES[PROFILE_ALIASES[key]] || null;
 };
 
+const normalizeLanguageLookupKey = (value) => {
+  if (!value) return "";
+  return String(value)
+    .trim()
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[_\s]+/g, "-")
+    .replace(/[^a-z0-9-]/g, "");
+};
+
+export const normalizeTtsLanguageCode = (code) => {
+  if (!code) return "fr";
+
+  const key = normalizeLanguageLookupKey(code);
+  const direct = TTS_LOCALES[key] || TTS_LOCALES[key.split("-")[0]];
+  if (direct) {
+    return direct.split("-")[0];
+  }
+
+  const appLanguageAliases = {
+    lingala: "fr",
+    swahili: "sw",
+    bissa: "fr",
+    moore: "fr",
+    dioula: "fr",
+    soussou: "fr",
+    pular: "fr",
+    malinke: "fr",
+    kissi: "fr",
+    guerze: "fr",
+    konyanka: "fr",
+    kuranko: "fr",
+    landuma: "fr",
+    lele: "fr",
+    mani: "fr",
+    nalu: "fr",
+    sankaran: "fr",
+    yalunka: "fr",
+    kono: "fr",
+    mano: "fr",
+    toma: "fr",
+    badiaranke: "fr",
+    baga: "fr",
+    bassari: "fr",
+    bedik: "fr",
+    koniagui: "fr",
+    igbo: "ig",
+    yoruba: "yo",
+    hausa: "ha",
+    wolof: "fr",
+    bambara: "fr",
+    peul: "fr",
+    fulfulde: "fr",
+    "chinois-mandarin": "zh",
+    chinois: "zh",
+    mandarin: "zh",
+    allemand: "de",
+    anglais: "en",
+    arabe: "ar",
+    espagnol: "es",
+    francais: "fr",
+    hindi: "hi",
+    italien: "it",
+    japonais: "ja",
+    portugais: "pt",
+    russe: "ru",
+    english: "en",
+    french: "fr",
+    spanish: "es",
+    german: "de",
+    portuguese: "pt",
+    italian: "it",
+    japanese: "ja",
+    russian: "ru",
+    arabic: "ar",
+    chinese: "zh",
+    swahili: "sw",
+  };
+
+  return appLanguageAliases[key] || key.split("-")[0] || "fr";
+};
+
+const PROVISIONAL_TTS_CODES = {
+  pular: "ff-Latn-FR",
+  fulfulde: "ff-Latn-FR",
+  soussou: "sus-Latn-GN",
+  malinke: "mnk-Latn-GN",
+  maninka: "mnk-Latn-GN",
+  mandinka: "mnk-Latn-GN",
+  bambara: "bm-Latn-ML",
+  dioula: "bm-Latn-ML",
+  moore: "mos-Latn-BF",
+  mossi: "mos-Latn-BF",
+  wolof: "wo-Latn-SN",
+  kissi: "kss-Latn-GN",
+  guerze: "gxx-Latn-GN",
+  koniagui: "kxp-Latn-GN",
+  konyanka: "kxp-Latn-GN",
+  kuranko: "kek-Latn-GN",
+  landuma: "ldu-Latn-GN",
+  lele: "lle-Latn-GN",
+  mani: "mni-Latn-GN",
+  nalu: "nqo-Latn-GN",
+  sankaran: "snk-Latn-GN",
+  yalunka: "yal-Latn-GN",
+  kono: "kno-Latn-GN",
+  mano: "mev-Latn-GN",
+  toma: "tom-Latn-GN",
+  badiaranke: "bsc-Latn-GN",
+  baga: "bgo-Latn-GN",
+  bassari: "bsq-Latn-GN",
+  bedik: "bif-Latn-GN",
+  kpele: "kpe-Latn-GN",
+};
+
+const UNSUPPORTED_TTS_CODES = new Set([
+  "pular", "fulfulde", "soussou", "malinke", "maninka", "mandinka", "bambara", "dioula", "moore", "mossi", "wolof",
+  "kissi", "guerze", "koniagui", "konyanka", "kuranko", "landuma", "lele", "mani", "nalu", "sankaran", "yalunka",
+  "kono", "mano", "toma", "badiaranke", "baga", "bassari", "bedik", "kpele",
+]);
+
 export const getTTSLocale = (code) => {
   if (!code) return "fr-FR";
-  const key = code.toLowerCase();
-  return TTS_LOCALES[key] || "fr-FR";
+  const key = String(code).trim().toLowerCase();
+  const normalizedKey = normalizeLanguageLookupKey(key);
+
+  if (PROVISIONAL_TTS_CODES[normalizedKey]) {
+    return PROVISIONAL_TTS_CODES[normalizedKey];
+  }
+
+  return TTS_LOCALES[normalizedKey] || TTS_LOCALES[normalizedKey.split("-")[0]] || "fr-FR";
+};
+
+export const isProvisionalSyntheticLanguage = (code) => {
+  const key = normalizeLanguageLookupKey(code || "");
+  return Boolean(key && (UNSUPPORTED_TTS_CODES.has(key) || PROVISIONAL_TTS_CODES[key]));
 };
 
 // Trouve la meilleure voix TTS disponible pour une langue
 export const getBestVoice = (code) => {
   if (typeof window === "undefined" || !("speechSynthesis" in window)) return null;
-  const locale = getTTSLocale(code);
-  const voices = window.speechSynthesis.getVoices();
-  // Match exact
-  let voice = voices.find(v => v.lang === locale);
-  if (!voice) {
-    // Match préfixe de langue
-    const prefix = locale.split("-")[0];
-    voice = voices.find(v => v.lang.toLowerCase().startsWith(prefix));
+
+  const normalizedCode = String(code || "").trim();
+  const locale = getTTSLocale(normalizedCode);
+  const voices = window.speechSynthesis.getVoices() || [];
+
+  if (!locale || !voices.length) return null;
+
+  const normalizedLocale = locale.toLowerCase();
+  const prefix = locale.split("-")[0].toLowerCase();
+  const isUnsupported = isProvisionalSyntheticLanguage(normalizedCode);
+
+  const getVoiceScore = (voice) => {
+    if (!voice || !voice.lang) return -Infinity;
+
+    const name = (voice.name || "").toLowerCase();
+    const lang = voice.lang.toLowerCase();
+    let score = 0;
+
+    if (lang === normalizedLocale) score += 120;
+    else if (lang.startsWith(prefix)) score += 85;
+    else if (lang.startsWith(normalizedLocale.split("-")[0])) score += 65;
+
+    if (/(google|natural|premium|studio|neural|voice)/i.test(name)) score += 35;
+    if (/(france|canada|united states|united kingdom|nigeria|kenya|india|germany|spain|brazil|japan|china|russia|arab|international)/i.test(`${name} ${lang}`)) score += 10;
+    if (/(default|generic|system|browser|desktop|speech)/i.test(name)) score -= 40;
+
+    return score;
+  };
+
+  const candidates = [...voices].filter((voice) => {
+    if (!voice || !voice.lang) return false;
+    const lang = voice.lang.toLowerCase();
+    if (isUnsupported) {
+      return lang === normalizedLocale || lang.startsWith(prefix + "-") || lang.startsWith(prefix);
+    }
+    return lang === normalizedLocale || lang.startsWith(prefix + "-") || lang.startsWith(prefix);
+  });
+
+  if (!candidates.length) {
+    return null;
   }
-  return voice || null;
+
+  const best = [...candidates].sort((a, b) => getVoiceScore(b) - getVoiceScore(a))[0];
+  if (isUnsupported && best && best.lang.toLowerCase() !== normalizedLocale.toLowerCase()) {
+    return null;
+  }
+
+  return best || null;
 };
 
 // Construit le contexte phonologique pour le prompt IA

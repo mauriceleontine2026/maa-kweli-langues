@@ -1,4 +1,5 @@
-import { getFlagForLanguage } from "@/lib/localLanguageData";
+import { getFlagForLanguage, getLanguageName } from "@/lib/localLanguageData";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 const FLAG_EMOJIS = {
   gn: "🇬🇳",
@@ -33,6 +34,7 @@ const normalizeCode = (value) =>
     .replace(/^-+|-+$/g, "");
 
 export default function LanguageFlag({ language, className = "", size = "md" }) {
+  const { language: interfaceLanguage } = useLanguage();
   const sizeMap = {
     sm: "24px",
     md: "32px",
@@ -112,7 +114,7 @@ export default function LanguageFlag({ language, className = "", size = "md" }) 
     <span
       className={`inline-flex items-center justify-center rounded-md border border-border/70 bg-background/80 shadow-sm ${className}`.trim()}
       style={{ width: resolvedSize, height: resolvedSize, minWidth: resolvedSize, minHeight: resolvedSize, fontSize: `calc(${resolvedSize} * 0.7)`, fontFamily: "Apple Color Emoji, Segoe UI Emoji, Noto Color Emoji, Twemoji Mozilla, sans-serif", lineHeight: 1 }}
-      aria-label={language?.name_fr || language?.name || "Langue"}
+      aria-label={getLanguageName(language, interfaceLanguage) || (interfaceLanguage === "en" ? "Language" : "Langue")}
     >
       {emoji}
     </span>

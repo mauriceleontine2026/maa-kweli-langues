@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
 import { Link, useParams, useNavigate } from "react-router-dom";
 import { useAuth } from "@/lib/AuthContext";
-import { getCountryForLanguage } from "@/lib/localLanguageData";
+import { getLanguageName, getLocalizedCountryForLanguage, getLocalizedCurriculumText } from "@/lib/localLanguageData";
+import { useLanguage } from "@/contexts/LanguageContext";
 import {
   getLanguageByCode,
   getLessonsForLanguage,
@@ -35,6 +36,7 @@ import {
   queueProgressUpdate,
 } from "@/lib/offlineStorage";
 import { getNextUnlockedLesson } from "@/lib/progressUtils";
+import { playAudioSource, speakText } from "@/lib/audioService";
 import {
   findModuleByLessonNumber,
   getAvailableState,
@@ -44,6 +46,7 @@ import {
 } from "@/lib/curriculumGate";
 
 export default function Lesson() {
+  const { t, language: interfaceLanguage } = useLanguage();
   const { langCode, lessonNum } = useParams();
   const navigate = useNavigate();
   const { user } = useAuth();
@@ -221,19 +224,15 @@ export default function Lesson() {
   }, [quizIdx, phase, items, allItems]);
 
   const speak = (text) => {
-    if (typeof window !== "undefined" && "speechSynthesis" in window) {
-      const utterance = new SpeechSynthesisUtterance(text);
-      window.speechSynthesis.speak(utterance);
-    }
+    if (!text) return;
+    speakText(text, language?.code || langCode || "fr");
   };
 
   const playAudio = (item) => {
-    if (item?.audio_url) {
-      const audio = new Audio(item.audio_url);
-      audio.play().catch(() => speak(item.word));
-      return;
-    }
-    speak(item?.word || "");
+    const source = item || {};
+    playAudioSource(source, language?.code || langCode || "fr", {
+      fallbackText: source.word || "",
+    });
   };
 
   const handleChoice = (choice) => {
@@ -309,11 +308,11 @@ export default function Lesson() {
 
       if (updated?.error) {
         if (updated.status === 401) {
-          setProgressError("Vous devez être connecté pour sauvegarder la progression.");
+          setProgressError(t("Vous devez être connecté pour sauvegarder la progression."));
         } else if (updated.status === 422) {
-          setProgressError("Impossible de sauvegarder la progression : requête invalide.");
+          setProgressError(t("Impossible de sauvegarder la progression : requête invalide."));
         } else {
-          setProgressError("Erreur lors de la sauvegarde de la progression. Réessayez plus tard.");
+          setProgressError(t("Erreur lors de la sauvegarde de la progression. Réessayez plus tard."));
         }
         return;
       }
@@ -348,11 +347,11 @@ export default function Lesson() {
     } catch (error) {
       console.error("Progress update failed", error);
       if (error?.status === 401) {
-        setProgressError("Vous devez être connecté pour sauvegarder la progression.");
+        setProgressError(t("Vous devez être connecté pour sauvegarder la progression."));
       } else if (error?.status === 422) {
-        setProgressError("Impossible de sauvegarder la progression : requête invalide.");
+        setProgressError(t("Impossible de sauvegarder la progression : requête invalide."));
       } else {
-        setProgressError("Erreur lors de la sauvegarde de la progression. Réessayez plus tard.");
+        setProgressError(t("Erreur lors de la sauvegarde de la progression. Réessayez plus tard."));
       }
     }
   };
@@ -368,26 +367,31 @@ export default function Lesson() {
     return value || null;
   };
 
-  const lessonTitle =
-    lessonMeta?.title_fr || lessonMeta?.title || lessonMeta?.module?.theme || `Leçon ${parseInt(lessonNum || "0", 10)}`;
+  const lessonTitle = getLocalizedCurriculumText(
+    lessonMeta?.title_fr || lessonMeta?.title || lessonMeta?.module?.theme || `Leçon ${parseInt(lessonNum || "0", 10)}`,
+    interfaceLanguage,
+  );
   const lessonDescription =
-    lessonMeta?.introduction ||
-    lessonMeta?.description ||
-    lessonMeta?.module?.description ||
-    `${items.length} mots à apprendre`;
+    getLocalizedCurriculumText(
+      lessonMeta?.introduction ||
+      lessonMeta?.description ||
+      lessonMeta?.module?.description ||
+      `${items.length} mots à apprendre`,
+      interfaceLanguage,
+    );
   const lessonNiveau = normalizeLessonLevel(lessonMeta?.module?.niveau || lessonMeta?.level || null);
   const lessonBlocked = lessonLocked && !loading;
 
   const lessonSections = [
-    { id: "objectifs", label: "Objectifs", icon: Target, visible: (lessonMeta?.learning_objectives?.length || 0) > 0 },
-    { id: "vocabulaire", label: "Vocabulaire", icon: BookOpen, visible: items.length > 0 },
-    { id: "phrases", label: "Phrases", icon: MessageCircle, visible: (lessonMeta?.common_phrases?.length || 0) > 0 },
-    { id: "phonetique", label: "Phonétique", icon: Volume2, visible: Boolean(lessonMeta?.phonetic_focus) },
-    { id: "grammaire", label: "Grammaire", icon: Sparkles, visible: (lessonMeta?.grammar_points?.length || 0) > 0 },
-    { id: "dialogue", label: "Dialogue", icon: MessageCircle, visible: (lessonMeta?.dialogue?.length || 0) > 0 },
-    { id: "culture", label: "Culture", icon: Sparkles, visible: (lessonMeta?.cultural_notes?.length || 0) > 0 },
-    { id: "exercices", label: "Exercices", icon: Target, visible: (lessonMeta?.exercises?.length || 0) > 0 },
-    { id: "sources", label: "Sources", icon: ExternalLink, visible: (lessonMeta?.sources?.length || 0) > 0 || Boolean(lessonMeta?.confidence_note) },
+    { id: "objectifs", label: t("Objectifs"), icon: Target, visible: (lessonMeta?.learning_objectives?.length || 0) > 0 },
+    { id: "vocabulaire", label: t("Vocabulaire"), icon: BookOpen, visible: items.length > 0 },
+    { id: "phrases", label: t("Phrases"), icon: MessageCircle, visible: (lessonMeta?.common_phrases?.length || 0) > 0 },
+    { id: "phonetique", label: t("Phonétique"), icon: Volume2, visible: Boolean(lessonMeta?.phonetic_focus) },
+    { id: "grammaire", label: t("Grammaire"), icon: Sparkles, visible: (lessonMeta?.grammar_points?.length || 0) > 0 },
+    { id: "dialogue", label: t("Dialogue"), icon: MessageCircle, visible: (lessonMeta?.dialogue?.length || 0) > 0 },
+    { id: "culture", label: t("Culture"), icon: Sparkles, visible: (lessonMeta?.cultural_notes?.length || 0) > 0 },
+    { id: "exercices", label: t("Exercices"), icon: Target, visible: (lessonMeta?.exercises?.length || 0) > 0 },
+    { id: "sources", label: t("Sources"), icon: ExternalLink, visible: (lessonMeta?.sources?.length || 0) > 0 || Boolean(lessonMeta?.confidence_note) },
   ].filter((section) => section.visible);
 
   if (loading) {
@@ -401,9 +405,9 @@ export default function Lesson() {
   if (fetchError) {
     return (
       <div className="flex min-h-screen flex-col items-center justify-center gap-3 px-6 text-center">
-        <p className="font-medium text-red-500">Erreur de chargement : {fetchError}</p>
+        <p className="font-medium text-red-500">{t("Erreur de chargement :")} {fetchError}</p>
         <button onClick={() => navigate(-1)} className="text-sm font-medium text-primary">
-          ← Retour
+          ← {t("Retour")}
         </button>
       </div>
     );
@@ -412,9 +416,9 @@ export default function Lesson() {
   if (!language) {
     return (
       <div className="flex min-h-screen flex-col items-center justify-center gap-3 px-6 text-center">
-        <p className="text-muted-foreground">Langue introuvable ou leçon invalide.</p>
+        <p className="text-muted-foreground">{t("Langue introuvable ou leçon invalide.")}</p>
         <button onClick={() => navigate(-1)} className="text-sm font-medium text-primary">
-          ← Retour
+          ← {t("Retour")}
         </button>
       </div>
     );
@@ -424,16 +428,19 @@ export default function Lesson() {
     return (
       <div className="flex min-h-screen items-center justify-center px-6 text-center">
         <div className="max-w-lg rounded-[2rem] border border-amber-300/40 bg-amber-500/10 p-8 shadow-sm">
-          <p className="mb-3 text-base font-semibold text-amber-900">Accès restreint</p>
+          <p className="mb-3 text-base font-semibold text-amber-900">{t("Accès restreint")}</p>
           <p className="mb-6 text-sm text-amber-800">
-            {lessonLockedMessage ||
-              "Cette leçon est verrouillée tant que le niveau Débutant n'est pas achevé avec tous les exercices validés."}
+            {getLocalizedCurriculumText(
+              lessonLockedMessage ||
+                "Cette leçon est verrouillée tant que le niveau Débutant n'est pas achevé avec tous les exercices validés.",
+              interfaceLanguage,
+            )}
           </p>
           <button
             onClick={() => navigate(`/apprendre/${langCode}`)}
             className="rounded-full bg-primary px-4 py-2 text-sm font-semibold text-primary-foreground"
           >
-            Retour au curriculum
+            {t("Retour au curriculum")}
           </button>
         </div>
       </div>
@@ -444,9 +451,9 @@ export default function Lesson() {
     return (
       <div className="flex min-h-screen flex-col items-center justify-center gap-3 px-6 text-center">
         <WifiOff size={40} className="text-yellow-500" />
-        <p className="text-muted-foreground">Aucun mot trouvé pour cette leçon.</p>
+        <p className="text-muted-foreground">{t("Aucun mot trouvé pour cette leçon.")}</p>
         <button onClick={() => navigate(-1)} className="text-sm font-medium text-primary">
-          ← Retour
+          ← {t("Retour")}
         </button>
       </div>
     );
@@ -459,14 +466,14 @@ export default function Lesson() {
       ? (cardIdx / Math.max(1, items.length)) * 0.5
       : 0.5 + (quizIdx / Math.max(1, items.length)) * 0.5;
   const sectionTitles = {
-    objectifs: "Objectifs à débloquer",
-    phrases: "Phrases utiles",
-    phonetique: "Focus phonétique",
-    grammaire: "Les points de grammaire",
-    dialogue: "Dialogue et conversation",
-    culture: "Notes culturelles",
-    exercices: "Le défi de la leçon",
-    sources: "Sources de la leçon",
+    objectifs: t("Objectifs à débloquer"),
+    phrases: t("Phrases utiles"),
+    phonetique: t("Focus phonétique"),
+    grammaire: t("Les points de grammaire"),
+    dialogue: t("Dialogue et conversation"),
+    culture: t("Notes culturelles"),
+    exercices: t("Le défi de la leçon"),
+    sources: t("Sources de la leçon"),
   };
 
   return (
@@ -480,12 +487,12 @@ export default function Lesson() {
         <div className="mx-auto flex max-w-5xl items-center gap-3">
           {!online && (
             <span className="flex shrink-0 items-center gap-1 text-xs font-medium text-yellow-500">
-              <WifiOff size={14} /> Hors-ligne
+              <WifiOff size={14} /> {t("Hors-ligne")}
             </span>
           )}
 
           <button
-            aria-label="Retour au curriculum"
+            aria-label={t("Retour au curriculum")}
             onClick={() => navigate(-1)}
             className="grid h-10 w-10 shrink-0 place-items-center rounded-full border border-border bg-card text-muted-foreground transition hover:border-primary/50 hover:text-foreground"
           >
@@ -494,7 +501,7 @@ export default function Lesson() {
 
           <div className="flex-1">
             <div className="mb-1 flex items-center justify-between text-[11px] font-semibold uppercase tracking-[0.18em] text-muted-foreground">
-              <span>{phase === "learn" ? "Apprentissage" : phase === "quiz" ? "Quiz" : "Terminé"}</span>
+              <span>{phase === "learn" ? t("Apprentissage") : phase === "quiz" ? t("Quiz") : t("Terminé")}</span>
               <span>
                 {phase === "learn"
                   ? `${cardIdx + 1}/${items.length}`
@@ -533,10 +540,10 @@ export default function Lesson() {
           <div className="relative flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
             <div className="max-w-3xl">
               <div className="mb-4 flex flex-wrap items-center gap-2 text-[11px] font-bold uppercase tracking-[0.22em] text-primary">
-                <span className="rounded-full bg-primary/10 px-3 py-1.5">Leçon {lessonNum}</span>
+                <span className="rounded-full bg-primary/10 px-3 py-1.5">{t("Leçon")} {lessonNum}</span>
                 {lessonNiveau && (
                   <span className="rounded-full border border-border px-3 py-1.5 text-muted-foreground">
-                    {lessonNiveau}
+                    {getLocalizedCurriculumText(lessonNiveau, interfaceLanguage)}
                   </span>
                 )}
               </div>
@@ -557,18 +564,18 @@ export default function Lesson() {
                 <LanguageFlag language={language} size="lg" />
               </div>
               <div>
-                <div className="text-sm font-semibold text-foreground">{language.name_fr}</div>
-                <div className="text-xs text-muted-foreground">{getCountryForLanguage(language)}</div>
+                <div className="text-sm font-semibold text-foreground">{getLanguageName(language, interfaceLanguage)}</div>
+                <div className="text-xs text-muted-foreground">{getLocalizedCountryForLanguage(language, interfaceLanguage)}</div>
               </div>
             </div>
           </div>
 
           <div className="relative mt-8 grid gap-3 border-t border-border/70 pt-5 sm:grid-cols-2 xl:grid-cols-4">
             {[
-              { icon: BookOpen, value: items.length, label: "mots" },
-              { icon: Target, value: lessonMeta?.learning_objectives?.length || 0, label: "objectifs" },
-              { icon: MessageCircle, value: lessonMeta?.common_phrases?.length || 0, label: "phrases" },
-              { icon: Sparkles, value: lessonMeta?.grammar_points?.length || 0, label: "points clés" },
+              { icon: BookOpen, value: items.length, label: t("mots") },
+              { icon: Target, value: lessonMeta?.learning_objectives?.length || 0, label: t("objectifs") },
+              { icon: MessageCircle, value: lessonMeta?.common_phrases?.length || 0, label: t("phrases") },
+              { icon: Sparkles, value: lessonMeta?.grammar_points?.length || 0, label: t("points clés") },
             ].map(({ icon: Icon, value, label }) => (
               <div key={label} className="flex items-center gap-3 rounded-2xl border border-border bg-secondary/25 p-3">
                 <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-primary/10 text-primary">
@@ -588,7 +595,7 @@ export default function Lesson() {
               onClick={() => setActiveSection("vocabulaire")}
               className="inline-flex items-center gap-2 rounded-xl bg-primary px-5 py-3 text-sm font-bold text-primary-foreground shadow-lg shadow-primary/20 transition hover:bg-primary/90"
             >
-              <BookOpen size={16} /> Commencer la leçon
+              <BookOpen size={16} /> {t("Commencer la leçon")}
             </button>
 
             {lessonMeta?.exercises?.length > 0 && (
@@ -597,27 +604,27 @@ export default function Lesson() {
                 onClick={() => setActiveSection("exercices")}
                 className="inline-flex items-center gap-2 rounded-xl border border-border bg-background px-5 py-3 text-sm font-bold text-foreground transition hover:border-primary/50 hover:text-primary"
               >
-                <Target size={16} /> Voir le défi
+                <Target size={16} /> {t("Voir le défi")}
               </button>
             )}
           </div>
 
           <div className="relative mt-5 flex flex-wrap items-center gap-x-5 gap-y-2 border-t border-border/70 pt-4 text-xs text-muted-foreground">
-            <span className="inline-flex items-center gap-1.5"><Clock3 size={14} className="text-primary" /> Environ {Math.max(5, Math.ceil(items.length * 1.5))} min</span>
-            <span className="inline-flex items-center gap-1.5"><ListChecks size={14} className="text-primary" /> Apprentissage puis défi</span>
-            <span className="inline-flex items-center gap-1.5"><Sparkles size={14} className="text-primary" /> Progression sauvegardée</span>
+            <span className="inline-flex items-center gap-1.5"><Clock3 size={14} className="text-primary" /> {t("Environ")} {Math.max(5, Math.ceil(items.length * 1.5))} min</span>
+            <span className="inline-flex items-center gap-1.5"><ListChecks size={14} className="text-primary" /> {t("Apprentissage puis défi")}</span>
+            <span className="inline-flex items-center gap-1.5"><Sparkles size={14} className="text-primary" /> {t("Progression sauvegardée")}</span>
           </div>
         </section>
 
         <nav
-          aria-label="Sections de la leçon"
+          aria-label={t("Sections de la leçon")}
           className="sticky top-[4.4rem] z-10 mb-8 rounded-[1.7rem] border border-border/70 bg-card/90 p-3 shadow-lg shadow-black/5 backdrop-blur-xl"
         >
           <div className="mb-3 flex items-center justify-between gap-3 px-2">
             <div className="text-[11px] font-bold uppercase tracking-[0.2em] text-muted-foreground">
-              Plan de la leçon
+              {t("Plan de la leçon")}
             </div>
-            <span className="text-xs text-muted-foreground">{lessonSections.length} parties</span>
+            <span className="text-xs text-muted-foreground">{lessonSections.length} {t("parties")}</span>
           </div>
 
           <div className="flex gap-2 overflow-x-auto pb-1 sm:grid sm:grid-cols-3 lg:grid-cols-5">
@@ -654,14 +661,14 @@ export default function Lesson() {
                   <div className="mb-5 flex items-end justify-between gap-3">
                     <div>
                       <p className="text-[11px] font-bold uppercase tracking-[0.2em] text-primary">
-                        Apprentissage / Vocabulaire
+                        {t("Apprentissage / Vocabulaire")}
                       </p>
                       <h2 className="mt-1 font-heading text-2xl font-bold text-foreground">
-                        Découvre les mots de la leçon
+                        {t("Découvre les mots de la leçon")}
                       </h2>
                     </div>
                     <span className="rounded-full border border-border bg-card px-3 py-1.5 text-xs font-semibold text-muted-foreground">
-                      {items.length} cartes
+                      {items.length} {t("cartes")}
                     </span>
                   </div>
 
@@ -682,7 +689,7 @@ export default function Lesson() {
                         </div>
 
                         <div className="flex flex-1 flex-col justify-center py-5">
-                          <h3 className="text-xl font-bold text-foreground">{item.translation_fr || item.word}</h3>
+                          <h3 className="text-xl font-bold text-foreground">{getLocalizedCurriculumText(item.translation_fr || item.word, interfaceLanguage)}</h3>
                           <p className="mt-2 text-lg font-medium text-muted-foreground">{item.word}</p>
                           {item.phonetic && <p className="mt-2 font-mono text-xs text-primary">/{item.phonetic}/</p>}
                           {item.example_target && (
@@ -701,11 +708,11 @@ export default function Lesson() {
                             onClick={() => playAudio(item)}
                             className="flex-1 rounded-xl bg-primary px-3 py-2.5 text-sm font-bold text-primary-foreground transition hover:bg-primary/90"
                           >
-                            <Volume2 size={15} className="mr-1.5 inline" /> Écouter
+                            <Volume2 size={15} className="mr-1.5 inline" /> {t("Écouter")}
                           </button>
                           <button
                             type="button"
-                            aria-label={`Écouter ${item.word}`}
+                            aria-label={`${t("Écouter")} ${item.word}`}
                             onClick={() => playAudio(item)}
                             className="grid h-10 w-10 place-items-center rounded-xl border border-border bg-secondary text-foreground transition hover:bg-muted"
                           >
@@ -726,7 +733,7 @@ export default function Lesson() {
                       }}
                       className="rounded-xl bg-primary px-6 py-3.5 text-sm font-bold text-primary-foreground shadow-lg shadow-primary/20 transition hover:bg-primary/90"
                     >
-                      Commencer l’examen →
+                      {t("Commencer l’examen")} →
                     </button>
                   </div>
                 </motion.div>
@@ -755,7 +762,7 @@ export default function Lesson() {
                     {currentItem.phonetic && (
                       <p className="font-mono text-sm text-primary">/{currentItem.phonetic}/</p>
                     )}
-                    <p className="mt-3 text-sm text-muted-foreground">Quelle est la traduction ?</p>
+                    <p className="mt-3 text-sm text-muted-foreground">{t("Quelle est la traduction ?")}</p>
                   </div>
 
                   <div className="grid grid-cols-1 gap-3">
@@ -799,7 +806,7 @@ export default function Lesson() {
                   className="flex flex-col items-center gap-6 py-8 text-center"
                 >
                   <div className="text-7xl">🎉</div>
-                  <h2 className="font-heading text-3xl font-bold text-foreground">Leçon terminée !</h2>
+                  <h2 className="font-heading text-3xl font-bold text-foreground">{t("Leçon terminée !")}</h2>
 
                   <div className="flex flex-wrap justify-center gap-4">
                     <div className="rounded-2xl bg-yellow-500/10 p-4">
@@ -838,11 +845,11 @@ export default function Lesson() {
           >
             <div className="mb-6 flex items-end justify-between gap-4 border-b border-border/70 pb-4">
               <div>
-                <p className="text-[11px] font-bold uppercase tracking-[0.2em] text-primary">Espace d’apprentissage</p>
+                <p className="text-[11px] font-bold uppercase tracking-[0.2em] text-primary">{t("Espace d’apprentissage")}</p>
                 <h2 className="mt-1 font-heading text-2xl font-bold text-foreground">{sectionTitles[activeSection]}</h2>
               </div>
               <span className="rounded-full border border-border bg-secondary px-3 py-1.5 text-xs text-muted-foreground">
-                {items.length} mots · {lessonMeta?.exercises?.length || 0} défis
+                {items.length} {t("mots")} · {lessonMeta?.exercises?.length || 0} {t("défis")}
               </span>
             </div>
 
@@ -874,13 +881,13 @@ export default function Lesson() {
                       >
                         {done ? "✓" : index + 1}
                       </span>
-                      <p className="relative mt-3 text-sm leading-6 text-foreground">{objective}</p>
+                      <p className="relative mt-3 text-sm leading-6 text-foreground">{getLocalizedCurriculumText(objective, interfaceLanguage)}</p>
                       <span
                         className={`mt-3 block text-xs font-semibold ${
                           done ? "text-emerald-600 dark:text-emerald-300" : "text-primary"
                         }`}
                       >
-                        {done ? "Objectif maîtrisé" : "Marquer comme acquis"}
+                        {done ? t("Objectif maîtrisé") : t("Marquer comme acquis")}
                       </span>
                     </motion.button>
                   );
@@ -912,10 +919,10 @@ export default function Lesson() {
                     {phrase.phonetic_simple && (
                       <p className="mt-1 font-mono text-xs text-primary">{phrase.phonetic_simple}</p>
                     )}
-                    <p className="mt-2 text-sm text-muted-foreground">{phrase.translation}</p>
+                    <p className="mt-2 text-sm text-muted-foreground">{getLocalizedCurriculumText(phrase.translation || "", interfaceLanguage)}</p>
                     {phrase.context && (
                       <p className="mt-3 border-t border-border pt-3 text-xs leading-5 text-muted-foreground">
-                        {phrase.context}
+                        {getLocalizedCurriculumText(phrase.context, interfaceLanguage)}
                       </p>
                     )}
                   </motion.article>
@@ -928,12 +935,12 @@ export default function Lesson() {
                 <article className="rounded-[1.4rem] border border-primary/20 bg-primary/5 p-5">
                   <div className="mb-4 flex items-center justify-between gap-3">
                     <div>
-                      <p className="text-[10px] font-bold uppercase tracking-[0.18em] text-primary">À retenir</p>
-                      <h3 className="mt-1 font-heading text-xl font-bold text-foreground">Les sons clés</h3>
+                      <p className="text-[10px] font-bold uppercase tracking-[0.18em] text-primary">{t("À retenir")}</p>
+                      <h3 className="mt-1 font-heading text-xl font-bold text-foreground">{t("Les sons clés")}</h3>
                     </div>
                     <button
                       type="button"
-                      aria-label="Écouter les sons clés"
+                      aria-label={t("Écouter les sons clés")}
                       onClick={() => speak(lessonMeta.phonetic_focus.key_sounds || "")}
                       className="grid h-10 w-10 place-items-center rounded-xl bg-primary text-primary-foreground transition hover:bg-primary/90"
                     >
@@ -941,15 +948,15 @@ export default function Lesson() {
                     </button>
                   </div>
                   <p className="text-sm leading-7 text-muted-foreground">
-                    {lessonMeta.phonetic_focus.key_sounds || "Répétez lentement les sons présentés dans cette leçon."}
+                    {getLocalizedCurriculumText(lessonMeta.phonetic_focus.key_sounds || "Répétez lentement les sons présentés dans cette leçon.", interfaceLanguage)}
                   </p>
                 </article>
 
                 {lessonMeta.phonetic_focus.common_pitfalls && (
                   <article className="rounded-[1.4rem] border border-amber-500/20 bg-amber-500/10 p-5">
-                    <p className="text-[10px] font-bold uppercase tracking-[0.18em] text-amber-500">Point de vigilance</p>
-                    <h3 className="mt-1 font-heading text-xl font-bold text-foreground">Les erreurs à éviter</h3>
-                    <p className="mt-3 text-sm leading-7 text-muted-foreground">{lessonMeta.phonetic_focus.common_pitfalls}</p>
+                    <p className="text-[10px] font-bold uppercase tracking-[0.18em] text-amber-500">{t("Point de vigilance")}</p>
+                    <h3 className="mt-1 font-heading text-xl font-bold text-foreground">{t("Les erreurs à éviter")}</h3>
+                    <p className="mt-3 text-sm leading-7 text-muted-foreground">{getLocalizedCurriculumText(lessonMeta.phonetic_focus.common_pitfalls, interfaceLanguage)}</p>
                   </article>
                 )}
               </div>
@@ -976,9 +983,9 @@ export default function Lesson() {
                           {pointIndex + 1}
                         </span>
                         <span className="min-w-0 flex-1">
-                          <h3 className="text-base font-semibold text-foreground">{point.concept}</h3>
+                          <h3 className="text-base font-semibold text-foreground">{getLocalizedCurriculumText(point.concept, interfaceLanguage)}</h3>
                           <span className="mt-2 block text-xs font-semibold text-primary">
-                            {isOpen ? "Réduire l’explication" : "Ouvrir l’explication →"}
+                            {isOpen ? t("Réduire l’explication") : t("Ouvrir l’explication →")}
                           </span>
                         </span>
                       </button>
@@ -989,13 +996,13 @@ export default function Lesson() {
                           animate={{ opacity: 1, height: "auto" }}
                           className="mt-4 border-t border-border pt-4"
                         >
-                          <p className="text-sm leading-6 text-muted-foreground">{point.explanation}</p>
+                          <p className="text-sm leading-6 text-muted-foreground">{getLocalizedCurriculumText(point.explanation, interfaceLanguage)}</p>
                           {point.rules?.length > 0 && (
                             <div className="mt-4 grid gap-2">
                               {point.rules.map((rule, index) => (
                                 <p key={rule} className="rounded-xl bg-card p-3 text-xs leading-5 text-muted-foreground">
-                                  <strong className="mr-1 text-primary">Règle {index + 1}.</strong>
-                                  {rule}
+                                  <strong className="mr-1 text-primary">{t("Règle")} {index + 1}.</strong>
+                                  {getLocalizedCurriculumText(rule, interfaceLanguage)}
                                 </p>
                               ))}
                             </div>
@@ -1009,7 +1016,7 @@ export default function Lesson() {
                                   className="rounded-xl border border-primary/20 bg-primary/5 p-3 text-xs text-muted-foreground"
                                 >
                                   <strong className="mb-1 block text-foreground">{example.structure}</strong>
-                                  <span>{example.meaning}</span>
+                                  <span>{getLocalizedCurriculumText(example.meaning || "", interfaceLanguage)}</span>
                                 </p>
                               ))}
                             </div>
@@ -1033,7 +1040,7 @@ export default function Lesson() {
                     <div className="mb-3 flex items-center justify-between gap-3">
                       <div>
                         <p className="text-[11px] font-bold uppercase tracking-[0.2em] text-primary">Conversation</p>
-                        <h3 className="mt-1 font-heading text-2xl font-bold text-foreground">Dialogue de la leçon</h3>
+                        <h3 className="mt-1 font-heading text-2xl font-bold text-foreground">{t("Dialogue de la leçon")}</h3>
                       </div>
                       <MessageCircle size={28} className="text-primary" />
                     </div>
@@ -1050,7 +1057,7 @@ export default function Lesson() {
                               : "border-border bg-card text-muted-foreground hover:border-primary/50"
                           }`}
                         >
-                          Je suis {speaker}
+                          {t("Je suis")} {speaker}
                         </button>
                       ))}
                     </div>
@@ -1092,11 +1099,11 @@ export default function Lesson() {
                               onClick={() => setShowDialogueTranslation((value) => !value)}
                               className="mt-3 rounded-xl border border-border bg-card px-3 py-2 text-xs font-semibold text-muted-foreground transition hover:border-primary/50 hover:text-foreground"
                             >
-                              {showDialogueTranslation ? "Masquer la traduction" : "Voir la traduction"}
+                              {showDialogueTranslation ? t("Masquer la traduction") : t("Voir la traduction")}
                             </button>
                             {showDialogueTranslation && (
                               <p className="mt-3 border-t border-border pt-3 text-sm text-muted-foreground">
-                                {line.translation}
+                                {getLocalizedCurriculumText(line.translation || "", interfaceLanguage)}
                               </p>
                             )}
                           </div>
@@ -1115,10 +1122,10 @@ export default function Lesson() {
                     <div className="mb-3 flex items-center gap-3">
                       <span className="grid h-9 w-9 place-items-center rounded-xl bg-primary/10 text-lg text-primary">✦</span>
                       <span className="text-[10px] font-bold uppercase tracking-[0.18em] text-primary">
-                        Repère {index + 1}
+                        {t("Repère")} {index + 1}
                       </span>
                     </div>
-                    <p className="text-sm leading-6 text-muted-foreground">{note}</p>
+                    <p className="text-sm leading-6 text-muted-foreground">{getLocalizedCurriculumText(note, interfaceLanguage)}</p>
                   </motion.article>
                 ))}
               </div>
@@ -1130,16 +1137,16 @@ export default function Lesson() {
                   <div className="mx-auto grid h-16 w-16 place-items-center rounded-2xl bg-primary text-white shadow-lg shadow-primary/20">
                     <Target size={30} />
                   </div>
-                  <p className="mt-4 text-[11px] font-bold uppercase tracking-[0.2em] text-primary">Évaluation</p>
-                  <h3 className="mt-2 font-heading text-2xl font-bold text-foreground">Examen de la leçon</h3>
+                  <p className="mt-4 text-[11px] font-bold uppercase tracking-[0.2em] text-primary">{t("Évaluation")}</p>
+                  <h3 className="mt-2 font-heading text-2xl font-bold text-foreground">{t("Examen de la leçon")}</h3>
                   <p className="mt-2 text-sm text-muted-foreground">
-                    Réponds à chaque question sans voir la correction. La note finale sera calculée définitivement.
+                    {t("Réponds à chaque question sans voir la correction. La note finale sera calculée définitivement.")}
                   </p>
                   <Link
                     to={`/examen/${langCode}/${lessonNum}`}
                     className="mt-5 inline-flex items-center gap-2 rounded-xl bg-primary px-5 py-3 text-sm font-bold text-primary-foreground shadow-lg shadow-primary/20 transition hover:bg-primary/90"
                   >
-                    Lancer le défi <ArrowRight size={16} />
+                    {t("Lancer le défi")} <ArrowRight size={16} />
                   </Link>
                 </div>
 
@@ -1148,14 +1155,14 @@ export default function Lesson() {
                     <article key={exercise.exercise_id || index} className="rounded-[1.4rem] border border-border bg-secondary/20 p-5">
                       <div className="mb-3 flex items-start justify-between gap-3">
                         <span className="text-[10px] font-bold uppercase tracking-[0.18em] text-primary">
-                          Question {index + 1}
+                          {t("Question")} {index + 1}
                         </span>
                         <span className="rounded-full bg-primary/10 px-2 py-1 text-[10px] font-semibold text-primary">
-                          {exercise.type || "Exercice"}
+                          {t(exercise.type || "Exercice")}
                         </span>
                       </div>
                       <h4 className="font-semibold leading-6 text-foreground">
-                        {exercise.question || exercise.sentence_with_blank || exercise.instruction || "Consigne"}
+                        {getLocalizedCurriculumText(exercise.question || exercise.sentence_with_blank || exercise.instruction || "Consigne", interfaceLanguage)}
                       </h4>
 
                       {Array.isArray(exercise.options) && (
@@ -1165,7 +1172,7 @@ export default function Lesson() {
                               key={optionIndex}
                               className="rounded-xl border border-border bg-card px-3 py-2 text-sm text-muted-foreground"
                             >
-                              {String.fromCharCode(65 + optionIndex)}. {option}
+                              {String.fromCharCode(65 + optionIndex)}. {getLocalizedCurriculumText(option, interfaceLanguage)}
                             </li>
                           ))}
                         </ul>
@@ -1180,12 +1187,12 @@ export default function Lesson() {
               <div className="space-y-5">
                 <div className="flex items-start justify-between gap-4">
                   <div>
-                    <p className="text-[11px] font-bold uppercase tracking-[0.2em] text-primary">Provenance</p>
-                    <h3 className="mt-1 font-heading text-2xl font-bold text-foreground">Sources de la leçon</h3>
+                    <p className="text-[11px] font-bold uppercase tracking-[0.2em] text-primary">{t("Provenance")}</p>
+                    <h3 className="mt-1 font-heading text-2xl font-bold text-foreground">{t("Sources de la leçon")}</h3>
                   </div>
                   {lessonMeta?.confidence && (
                     <span className="rounded-full bg-emerald-500/10 px-3 py-1.5 text-xs font-bold text-emerald-600 dark:text-emerald-300">
-                      Fiabilité : {lessonMeta.confidence}
+                      {t("Fiabilité")} : {lessonMeta.confidence}
                     </span>
                   )}
                 </div>
@@ -1215,15 +1222,15 @@ export default function Lesson() {
                 {lessonMeta?.confidence_note && (
                   <div className="rounded-[1.2rem] border border-amber-500/20 bg-amber-500/10 p-4">
                     <p className="text-[10px] font-bold uppercase tracking-[0.18em] text-amber-500">
-                      Note méthodologique
+                      {t("Note méthodologique")}
                     </p>
-                    <p className="mt-2 text-sm leading-6 text-muted-foreground">{lessonMeta.confidence_note}</p>
+                    <p className="mt-2 text-sm leading-6 text-muted-foreground">{getLocalizedCurriculumText(lessonMeta.confidence_note, interfaceLanguage)}</p>
                   </div>
                 )}
 
                 {lessonMeta?.source_file && (
                   <p className="break-words border-t border-border pt-4 text-xs leading-5 text-muted-foreground">
-                    Fichier de données : {lessonMeta.source_file.replace(/^\.\.\/data_langues\//, "")}
+                    {t("Fichier de données")} : {lessonMeta.source_file.replace(/^\.\.\/data_langues\//, "")}
                   </p>
                 )}
               </div>

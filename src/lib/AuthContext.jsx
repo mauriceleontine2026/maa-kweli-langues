@@ -5,22 +5,51 @@ const AuthContext = createContext(null);
 
 const USER_STORAGE_KEY = "mbaara_user";
 
-const getStoredUser = () => {
-  if (typeof window === "undefined" || !window.sessionStorage) return null;
-  try {
-    const raw = window.sessionStorage.getItem(USER_STORAGE_KEY);
-    return raw ? JSON.parse(raw) : null;
-  } catch {
-    return null;
+export const getStoredUser = () => {
+  if (typeof window === "undefined") return null;
+
+  const storageCandidates = [window.localStorage, window.sessionStorage];
+
+  for (const storage of storageCandidates) {
+    if (!storage) continue;
+    try {
+      const raw = storage.getItem(USER_STORAGE_KEY);
+      if (raw) {
+        return JSON.parse(raw);
+      }
+    } catch {
+      // Ignore invalid cached payloads and fall back to the next store.
+    }
   }
+
+  return null;
 };
 
-const persistUser = (user) => {
-  if (typeof window === "undefined" || !window.sessionStorage) return;
+export const persistUser = (user) => {
+  if (typeof window === "undefined") return;
+
+  const storageCandidates = [window.localStorage, window.sessionStorage];
+
   if (user) {
-    window.sessionStorage.setItem(USER_STORAGE_KEY, JSON.stringify(user));
-  } else {
-    window.sessionStorage.removeItem(USER_STORAGE_KEY);
+    for (const storage of storageCandidates) {
+      if (!storage) continue;
+      try {
+        storage.setItem(USER_STORAGE_KEY, JSON.stringify(user));
+      } catch {
+        // Ignore storage quota / unavailable storage errors. The backend cookie
+        // remains the authoritative session, while the client cache is best-effort.
+      }
+    }
+    return;
+  }
+
+  for (const storage of storageCandidates) {
+    if (!storage) continue;
+    try {
+      storage.removeItem(USER_STORAGE_KEY);
+    } catch {
+      // Ignore cleanup failures from unavailable storage.
+    }
   }
 };
 
@@ -36,7 +65,13 @@ export const AuthProvider = ({ children }) => {
     checkAppState();
 
     if (typeof window !== "undefined") {
-      const onAuthChanged = () => {
+      const onAuthChanged = (event) => {
+        const authenticatedUser = event?.detail;
+        if (authenticatedUser?.id || authenticatedUser?.email) {
+          setUser(authenticatedUser);
+          setIsAuthenticated(true);
+          persistUser(authenticatedUser);
+        }
         checkUserAuth();
       };
       window.addEventListener("mbaara-auth-changed", onAuthChanged);
@@ -53,8 +88,22 @@ export const AuthProvider = ({ children }) => {
   };
 
   const checkUserAuth = async () => {
+    const cachedUser = getStoredUser();
     setIsLoadingAuth(true);
     setAuthError(null);
+
+    if (!cachedUser) {
+      setUser(null);
+      setIsAuthenticated(false);
+      persistUser(null);
+      setIsLoadingAuth(false);
+      setAuthChecked(true);
+      if (typeof window !== 'undefined') {
+        window.dispatchEvent(new Event('mbaara-user-updated'));
+        window.dispatchEvent(new Event('mbaara-progress-updated'));
+      }
+      return;
+    }
 
     try {
       let currentUser;
@@ -75,7 +124,6 @@ export const AuthProvider = ({ children }) => {
     } catch (error) {
       const status = error?.status ?? (error instanceof Error ? null : null);
       const isAuthenticationFailure = status === 401 || status === 403;
-      const cachedUser = getStoredUser();
       if (isAuthenticationFailure || !cachedUser) {
         setUser(null);
         setIsAuthenticated(false);

@@ -14,6 +14,7 @@ import {
   GraduationCap,
   Home,
   LayoutDashboard,
+  Languages,
   LogIn,
   LogOut,
   Mic,
@@ -26,14 +27,15 @@ import {
 } from "lucide-react";
 import { useAuth } from "@/lib/AuthContext";
 import { useTheme } from "@/contexts/ThemeContext";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 const NAV_ITEMS = [
-  { to: "/", label: "Accueil", icon: Home },
-  { to: "/apprendre", label: "Apprendre", icon: BookOpen },
-  { to: "/tuteur", label: "Kôrô", icon: GraduationCap, featured: true },
-  { to: "/contribuer", label: "Contribuer", icon: Mic },
-  { to: "/progres", label: "Progrès", icon: TrendingUp },
-  { to: "/revision", label: "Révision", icon: Clock },
+  { to: "/", key: "home", icon: Home },
+  { to: "/apprendre", key: "learn", icon: BookOpen },
+  { to: "/tuteur", key: "tutor", icon: GraduationCap, featured: true },
+  { to: "/contribuer", key: "contribute", icon: Mic },
+  { to: "/progres", key: "progress", icon: TrendingUp },
+  { to: "/revision", key: "review", icon: Clock },
 ];
 
 export default function AppLayout() {
@@ -41,6 +43,7 @@ export default function AppLayout() {
   const navigate = useNavigate();
   const { user, logout } = useAuth();
   const { theme, toggleTheme } = useTheme();
+  const { language, toggleLanguage, t } = useLanguage();
 
   const isActive = (to) => {
     if (to === "/") return location.pathname === "/";
@@ -64,8 +67,20 @@ export default function AppLayout() {
             </div>
           </div>
 
-          <DropdownMenu>
-            <DropdownMenuTrigger className="inline-flex max-w-[48vw] shrink-0 items-center gap-1.5 rounded-full border border-border bg-secondary/60 px-2 py-1.5 text-sm font-medium text-foreground shadow-sm transition hover:bg-secondary sm:gap-2 sm:px-3 sm:py-2">
+          <div className="flex shrink-0 items-center gap-2">
+            <button
+              type="button"
+              onClick={toggleLanguage}
+              className="inline-flex items-center gap-1.5 rounded-full border border-border bg-secondary/60 px-2.5 py-2 text-xs font-bold text-foreground shadow-sm transition hover:bg-secondary sm:px-3"
+              aria-label={language === "fr" ? "Switch to English" : "Switch to French"}
+              title={language === "fr" ? "Switch to English" : "Switch to French"}
+            >
+              <Languages size={15} className="text-primary" />
+              <span>{language === "fr" ? "EN" : "FR"}</span>
+            </button>
+
+            <DropdownMenu>
+              <DropdownMenuTrigger className="inline-flex max-w-[48vw] shrink-0 items-center gap-1.5 rounded-full border border-border bg-secondary/60 px-2 py-1.5 text-sm font-medium text-foreground shadow-sm transition hover:bg-secondary sm:gap-2 sm:px-3 sm:py-2">
               <div className="flex h-8 w-8 items-center justify-center overflow-hidden rounded-full bg-primary/15 text-primary ring-1 ring-border/80">
                 {user?.photo_url ? (
                   <img
@@ -82,7 +97,7 @@ export default function AppLayout() {
                 )}
               </div>
               <span className="max-w-[140px] truncate hidden sm:inline">
-                {user?.full_name || user?.email || "Mon espace"}
+                {user?.full_name || user?.email || t("account")}
               </span>
               {user?.role === "admin" ? (
                 <span className="inline-flex items-center gap-1 rounded-full bg-amber-500/15 px-2 py-0.5 text-[10px] font-semibold text-amber-700 ring-1 ring-amber-400/40">
@@ -90,42 +105,42 @@ export default function AppLayout() {
                   Admin
                 </span>
               ) : null}
-            </DropdownMenuTrigger>
+              </DropdownMenuTrigger>
             <DropdownMenuContent align="end" className="w-80">
               <div className="px-3 py-2">
-                <div className="text-sm font-semibold text-foreground">Espace personnel</div>
-                <div className="text-xs text-muted-foreground">{user?.email || "Compte connecté"}</div>
+                <div className="text-sm font-semibold text-foreground">{t("personalSpace")}</div>
+                <div className="text-xs text-muted-foreground">{user?.email || t("signedIn")}</div>
               </div>
               <DropdownMenuSeparator />
               <DropdownMenuItem asChild>
                 <Link to="/dashboard" className="flex items-center gap-2">
                   <LayoutDashboard size={16} />
-                  Tableau de bord / Dashboard
+                  {t("dashboard")}
                 </Link>
               </DropdownMenuItem>
               <DropdownMenuItem asChild>
                 <Link to="/settings" className="flex items-center gap-2">
                   <Settings2 size={16} />
-                  Réglages, Paramètres & Confidentialité
+                  {t("settings")}
                 </Link>
               </DropdownMenuItem>
               <DropdownMenuItem asChild>
                 <Link to="/profil" className="flex items-center gap-2">
                   <UserRound size={16} />
-                  Profil
+                  {t("profile")}
                 </Link>
               </DropdownMenuItem>
               <DropdownMenuItem asChild>
                 <Link to="/support" className="flex items-center gap-2">
                   <CircleHelp size={16} />
-                  Centre d'aide / Support
+                  {t("support")}
                 </Link>
               </DropdownMenuItem>
               {user?.role === "admin" ? (
                 <DropdownMenuItem asChild>
                   <Link to="/admin" className="flex items-center gap-2">
                     <Shield size={16} />
-                    Administration / Admin
+                    {t("administration")}
                   </Link>
                 </DropdownMenuItem>
               ) : null}
@@ -137,7 +152,7 @@ export default function AppLayout() {
                 className="flex items-center gap-2"
               >
                 {theme === "dark" ? <Sun size={16} /> : <Moon size={16} />}
-                {theme === "dark" ? "Mode clair" : "Mode sombre"}
+                {theme === "dark" ? t("lightMode") : t("darkMode")}
               </DropdownMenuItem>
               <DropdownMenuSeparator />
               {user ? (
@@ -146,18 +161,19 @@ export default function AppLayout() {
                   handleLogout();
                 }} className="flex items-center gap-2 text-destructive focus:text-destructive">
                   <LogOut size={16} />
-                  Déconnexion
+                  {t("logout")}
                 </DropdownMenuItem>
               ) : (
                 <DropdownMenuItem asChild>
                   <Link to="/login" className="flex items-center gap-2 text-primary">
                     <LogIn size={16} />
-                    Connexion
+                    {t("login")}
                   </Link>
                 </DropdownMenuItem>
               )}
             </DropdownMenuContent>
-          </DropdownMenu>
+              </DropdownMenu>
+            </div>
         </div>
       </header>
 
@@ -171,7 +187,9 @@ export default function AppLayout() {
 
       <nav className="fixed inset-x-0 bottom-0 z-40 border-t border-border/70 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/85">
         <div className="mx-auto grid max-w-7xl grid-cols-6 gap-0.5 px-0.5 py-1">
-          {NAV_ITEMS.map(({ to, label, icon: Icon, featured }) => (
+          {NAV_ITEMS.map(({ to, key, icon: Icon, featured }) => {
+            const label = t(key);
+            return (
             <NavLink
               key={to}
               to={to}
@@ -205,7 +223,8 @@ export default function AppLayout() {
                 );
               }}
             </NavLink>
-          ))}
+            );
+          })}
         </div>
       </nav>
     </div>

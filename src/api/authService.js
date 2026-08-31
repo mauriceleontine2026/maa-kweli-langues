@@ -95,7 +95,7 @@ export async function completeGoogleLogin() {
 
     const data = await request("POST", "/api/auth/supabase", { access_token });
     const user = await syncSupabaseProfilePhoto(data?.user);
-    notifyAuthChanged();
+    notifyAuthChanged(user);
     clearUrlHash();
     return user;
   } catch (err) {
@@ -123,7 +123,7 @@ async function syncSupabaseProfilePhoto(user) {
 export async function login(email, password, remember = false) {
   try {
     const data = await request("POST", "/api/auth/login", { email, password, remember });
-    notifyAuthChanged();
+    notifyAuthChanged(data?.user || null);
     return data?.user || null;
   } catch (err) {
     const message = err?.message || "";
@@ -177,7 +177,7 @@ export async function loginWithForm(email, password, remember = false) {
   }
 
   const data = await response.json();
-  notifyAuthChanged();
+  notifyAuthChanged(data?.user || null);
   return data?.user || null;
 }
 
@@ -217,7 +217,7 @@ export async function loginWithGoogle() {
     }
     throw err;
   }
-  notifyAuthChanged();
+  notifyAuthChanged(data?.user || null);
   return data?.user || null;
 }
 
