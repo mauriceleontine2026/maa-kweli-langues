@@ -92,16 +92,21 @@ def _background_preload():
         get_tts()
         logger.info("✅ [Background] TTS model pre-loaded successfully!")
     except Exception as e:
-        logger.error(f"⚠️ [Background] Failed to pre-load TTS model: {e}. Will load on first synthesis request.")
+        logger.error(f"⚠️ [Background] Failed to pre-load TTS model: {type(e).__name__}: {str(e)[:200]}")
+        # Continue without crashing - model will load on first synthesis request
 
 @app.on_event("startup")
 async def startup():
     """Start server immediately; load model in background"""
     logger.info("✅ Coqui TTS server starting...")
-    # Start model pre-loading in background thread (non-blocking)
-    preload_thread = threading.Thread(target=_background_preload, daemon=True)
-    preload_thread.start()
-    logger.info("🔄 Background model pre-loading started (server is ready to receive requests)")
+    try:
+        # Start model pre-loading in background thread (non-blocking)
+        preload_thread = threading.Thread(target=_background_preload, daemon=True)
+        preload_thread.daemon = True  # Ensure thread doesn't keep process alive
+        preload_thread.start()
+        logger.info("🔄 Background model pre-loading started (server is ready to receive requests)")
+    except Exception as e:
+        logger.error(f"⚠️ Failed to start background preload thread: {e}")
 
 
 @app.get("/health")
