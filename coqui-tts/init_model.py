@@ -1,48 +1,14 @@
 #!/usr/bin/env python3
 """
-Pre-download and initialize TTS model before starting server.
-Runs during Docker container startup.
-Handles long model loading gracefully.
+Optional preload script. Skipped on Railway CPU-only.
+Model will load on first /tts request via lazy loading if needed.
 """
 
-import os
-import sys
 import logging
-import io
-import builtins
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-# Pre-accept CPML terms
-os.environ['TTS_HOME'] = '/tmp/tts_models'
-os.environ['PYTHONUNBUFFERED'] = '1'
-os.environ['TTS_AGREE_CPML'] = '1'
+logger.info("✅ init_model.py: Preload disabled (model will lazy-load on demand)")
+logger.info("   Coqui XTTS v2 requires significant RAM. On Railway, using gTTS fallback.")
 
-# Patch input to auto-accept
-def patched_input(prompt=""):
-    if "y/n" in str(prompt).lower():
-        logger.info("[AUTO-ACCEPT] Accepting TTS terms...")
-        return "y"
-    return ""
-
-builtins.input = patched_input
-sys.stdin = io.StringIO("y\n")
-
-try:
-    from TTS.api import TTS
-
-    logger.info("🔄 Pre-downloading TTS model (XTTS v2)...")
-    logger.info("   This may take 5-15 minutes on first run. Grab a coffee!")
-    logger.info("   Model size: 1.87GB")
-
-    TTS(model_name="tts_models/multilingual/multi-dataset/xtts_v2",
-        gpu=False,
-        progress_bar=True)
-
-    logger.info("✅ Model pre-loaded successfully!")
-except Exception as e:
-    logger.error(f"⚠️ Failed to pre-load model: {type(e).__name__}: {e}")
-    logger.info("   Continuing startup; server will lazy-load the model on first request.")
-finally:
-    logger.info("init_model.py startup check complete.")

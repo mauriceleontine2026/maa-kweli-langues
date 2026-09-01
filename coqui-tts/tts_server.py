@@ -85,25 +85,11 @@ def get_tts():
     return tts_instance
 
 
-def _background_preload():
-    """Load TTS model in a background thread so the process stays alive and can warm up quietly."""
-    try:
-        logger.info("🔄 [Background] Warmup started; model may take several minutes on CPU...")
-        get_tts()
-        logger.info("✅ [Background] TTS model ready after warmup")
-    except Exception as e:
-        logger.warning(f"⚠️ [Background] Warmup failed: {e}")
-
 @app.on_event("startup")
 async def startup():
-    """Start server and warm up the TTS model in a background thread."""
+    """Start server. Model will load on first /tts request (lazy loading on demand)."""
     logger.info("✅ Coqui TTS server starting...")
-    try:
-        thread = threading.Thread(target=_background_preload, daemon=True)
-        thread.start()
-        logger.info("🔄 Model warmup has been scheduled in a background thread")
-    except Exception as e:
-        logger.warning(f"⚠️ Could not start background warmup: {e}")
+    logger.info("🔄 Model will lazy-load on first /tts request (Coqui XTTS v2 requires significant RAM)")
 
 
 @app.get("/health")
