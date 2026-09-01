@@ -86,17 +86,24 @@ def get_tts():
 
 
 def _background_preload():
-    """Load TTS model in background thread - but disabled for now due to CPU constraints"""
-    # Disable: Model loading hangs on Railway CPU-only
-    # Will load on first /tts request instead (lazy loading)
-    logger.info("🔄 [Background] Background pre-loading disabled (will load on first request)")
-    pass
+    """Load TTS model in a background thread so the process stays alive and can warm up quietly."""
+    try:
+        logger.info("🔄 [Background] Warmup started; model may take several minutes on CPU...")
+        get_tts()
+        logger.info("✅ [Background] TTS model ready after warmup")
+    except Exception as e:
+        logger.warning(f"⚠️ [Background] Warmup failed: {e}")
 
 @app.on_event("startup")
 async def startup():
-    """Start server immediately; model loads lazily on first request"""
+    """Start server and warm up the TTS model in a background thread."""
     logger.info("✅ Coqui TTS server starting...")
-    logger.info("🔄 Model will load on first /tts request (lazy loading)")
+    try:
+        thread = threading.Thread(target=_background_preload, daemon=True)
+        thread.start()
+        logger.info("🔄 Model warmup has been scheduled in a background thread")
+    except Exception as e:
+        logger.warning(f"⚠️ Could not start background warmup: {e}")
 
 
 @app.get("/health")

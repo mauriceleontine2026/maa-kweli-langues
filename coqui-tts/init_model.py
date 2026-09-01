@@ -36,15 +36,8 @@ try:
     logger.info("   This may take 5-15 minutes on first run. Grab a coffee!")
     logger.info("   Model size: 1.87GB")
 
-tts = TTS(model_name="tts_models/multilingual/multi-dataset/xtts_v2",
-              gpu=False,
-              progress_bar=True)
-
-    logger.info("✅ Model pre-loaded successfully!")
-    logger.info("   Model is ready to use. Starting server...")
-
-except Exception as e:
-    logger.error(f"⚠️ Failed to pre-load model: {type(e).__name__}: {e}")
-    logger.info("   Continuing startup; server will lazy-load the model on first request.")
+    TTS(model_name="tts_models/multilingual/multi-dataset/xtts_v2",
+        gpu=False,
+        progress_bar=True)
     # Do not exit here: the service should stay alive and continue with lazy loading.
     sys.exit(0)
