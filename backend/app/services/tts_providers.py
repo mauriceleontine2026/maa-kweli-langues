@@ -366,9 +366,14 @@ def get_tts_router() -> TTSRouter:
     global _router
     if _router is None:
         _router = TTSRouter()
+        # URL Coqui TTS - Railway deployment
+        coqui_url = os.getenv(
+            "COQUI_TTS_URL",
+            "https://mbaara-coqui-tts-production.up.railway.app"
+        )
         # Ajouter fournisseurs par défaut
         _router.add_provider(
-            MMSTtsProvider()
+            MMSTtsProvider(coqui_server_url=coqui_url)
         )  # MMS (priorité 0)
         _router.add_provider(
             GttsTtsProvider()
