@@ -86,22 +86,31 @@ def get_tts():
 
 @app.on_event("startup")
 async def startup():
-    """Pré-charger le modèle au démarrage"""
-    try:
-        get_tts()
-        logger.info("✅ Coqui TTS server ready")
-    except Exception as e:
-        logger.error(f"❌ Failed to load TTS model: {e}")
+    """Démarrer le serveur (sans pré-charger le modèle)"""
+    logger.info("✅ Coqui TTS server starting...")
+    # Model will be loaded on first request (lazy loading)
 
 
 @app.get("/health")
 async def health_check():
     """Vérifier l'état du serveur"""
-    return {
-        "status": "ok",
-        "model": TTS_MODEL,
-        "device": DEVICE,
-    }
+    try:
+        # Try to get TTS instance to ensure it's loaded
+        get_tts()
+        return {
+            "status": "ok",
+            "model": TTS_MODEL,
+            "device": DEVICE,
+            "model_loaded": True,
+        }
+    except Exception as e:
+        return {
+            "status": "error",
+            "model": TTS_MODEL,
+            "device": DEVICE,
+            "error": str(e),
+            "model_loaded": False,
+        }
 
 
 @app.post("/tts", response_class=bytes)
