@@ -24,8 +24,17 @@ os.environ['TTS_AGREE_CPML'] = '1'  # Auto-accept Coqui CPML terms
 
 import sys
 import io
+import builtins
 
-# Redirect stdin to avoid interactive prompts
+# Patch input() function to auto-accept TTS terms
+_original_input = builtins.input
+def patched_input(prompt=""):
+    logger_inst = logging.getLogger(__name__)
+    logger_inst.info(f"[AUTO-ACCEPT] {prompt}")
+    return "y"
+builtins.input = patched_input
+
+# Also redirect stdin to avoid interactive prompts at file descriptor level
 sys.stdin = io.StringIO("y\n")
 
 logging.basicConfig(level=logging.INFO)
