@@ -52,7 +52,6 @@ async def synthesize_mms_tts(
     payload: SynthesizeRequest,
     current_user=Depends(get_current_user_optional),
     _rate_limit=Depends(rate_limiter_synthesize),
-    tts_router: TTSRouter = Depends(get_tts_router),
     cache: MMSAudioCache = Depends(get_mms_cache),
 ):
     """
@@ -99,6 +98,7 @@ async def synthesize_mms_tts(
     # ──────────────────────────────────────
     # 2. SYNTHESIZE VIA ROUTER
     # ──────────────────────────────────────
+    tts_router = get_tts_router()
     audio_bytes = await tts_router.synthesize(text, lang_code)
 
     if not audio_bytes:
