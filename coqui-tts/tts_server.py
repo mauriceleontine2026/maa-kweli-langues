@@ -86,27 +86,17 @@ def get_tts():
 
 
 def _background_preload():
-    """Load TTS model in background thread to avoid blocking startup"""
-    try:
-        logger.info("🔄 [Background] Pre-loading TTS model (may take 5-15 minutes on CPU)...")
-        get_tts()
-        logger.info("✅ [Background] TTS model pre-loaded successfully!")
-    except Exception as e:
-        logger.error(f"⚠️ [Background] Failed to pre-load TTS model: {type(e).__name__}: {str(e)[:200]}")
-        # Continue without crashing - model will load on first synthesis request
+    """Load TTS model in background thread - but disabled for now due to CPU constraints"""
+    # Disable: Model loading hangs on Railway CPU-only
+    # Will load on first /tts request instead (lazy loading)
+    logger.info("🔄 [Background] Background pre-loading disabled (will load on first request)")
+    pass
 
 @app.on_event("startup")
 async def startup():
-    """Start server immediately; load model in background"""
+    """Start server immediately; model loads lazily on first request"""
     logger.info("✅ Coqui TTS server starting...")
-    try:
-        # Start model pre-loading in background thread (non-blocking)
-        preload_thread = threading.Thread(target=_background_preload, daemon=True)
-        preload_thread.daemon = True  # Ensure thread doesn't keep process alive
-        preload_thread.start()
-        logger.info("🔄 Background model pre-loading started (server is ready to receive requests)")
-    except Exception as e:
-        logger.error(f"⚠️ Failed to start background preload thread: {e}")
+    logger.info("🔄 Model will load on first /tts request (lazy loading)")
 
 
 @app.get("/health")

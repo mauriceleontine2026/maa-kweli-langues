@@ -22,12 +22,13 @@ COPY requirements.txt .
 # Installer dépendances Python
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copier le serveur TTS
+# Copier le serveur TTS et scripts
 COPY tts_server.py .
+COPY init_model.py .
 
 # Health check
-# start-period: 120s for server startup (model loads in background, doesn't block)
-HEALTHCHECK --interval=30s --timeout=10s --start-period=120s --retries=3 \
+# start-period: 30 minutes (1800s) for initial model pre-load on CPU
+HEALTHCHECK --interval=30s --timeout=10s --start-period=1800s --retries=5 \
     CMD curl -f http://localhost:5000/health || exit 1
 
 # Port du serveur
@@ -36,4 +37,5 @@ EXPOSE 5000
 # Lancer le serveur
 ENV TTS_HOME=/tmp/tts_models
 ENV PYTHONUNBUFFERED=1
-CMD ["python", "tts_server.py"]
+# Run model initialization, then start server
+CMD python init_model.py && python tts_server.py
