@@ -89,8 +89,13 @@ class MMSAudioCache:
             "/static/audio/cached/{filename}" si trouvé en cache
             None si cache miss
         """
+        # Lazy-connect to Redis on first use (non-blocking)
         if not self.redis_client:
-            return None
+            try:
+                await self.connect()
+            except Exception as e:
+                logger.warning(f"[MMSCache] Redis unavailable, skipping cache: {e}")
+                return None
 
         cache_key = self._make_cache_key(language_code, text)
 
@@ -125,12 +130,22 @@ class MMSAudioCache:
             filepath.write_bytes(audio_bytes)
             logger.debug(f"[MMSCache] Saved: {filename} ({len(audio_bytes)} bytes)")
 
+            # Lazy-connect to Redis if needed
+            if not self.redis_client:
+                try:
+                    await self.connect()
+                except Exception as e:
+                    logger.warning(f"[MMSCache] Redis unavailable, skipping Redis cache: {e}")
+
             if self.redis_client:
-                cache_key = self._make_cache_key(language_code, text)
-                await self.redis_client.setex(
-                    cache_key, self.cache_ttl, filename
-                )
-                logger.debug(f"[MMSCache] Cached: {language_code} for 30 days")
+                try:
+                    cache_key = self._make_cache_key(language_code, text)
+                    await self.redis_client.setex(
+                        cache_key, self.cache_ttl, filename
+                    )
+                    logger.debug(f"[MMSCache] Cached: {language_code} for 30 days")
+                except Exception as e:
+                    logger.warning(f"[MMSCache] Redis setex failed: {e}")
 
             return f"/static/audio/cached/{filename}"
 
@@ -268,12 +283,13 @@ class MMSAudioCache:
 _cache_instance = None
 
 
-async def get_mms_cache() -> MMSAudioCache:
-    """Retourne l'instance globale du cache MMSAudioCache"""
+def get_mms_cache() -> MMSAudioCache:
+    """Retourne l'instance globale du cache MMSAudioCache (non-async pour FastAPI Depends)"""
     global _cache_instance
     if _cache_instance is None:
         _cache_instance = MMSAudioCache()
-        await _cache_instance.connect()
+        # Ne pas attendre la connexion Redis dans FastAPI Depends
+        # La connexion sera établie lazy au premier appel à get_audio_or_none()
     return _cache_instance
 
 
