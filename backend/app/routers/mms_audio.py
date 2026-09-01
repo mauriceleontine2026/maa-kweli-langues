@@ -50,7 +50,6 @@ class SynthesizeResponse(BaseModel):
 async def synthesize_mms_tts(
     payload: SynthesizeRequest,
     current_user=Depends(get_current_user_optional),
-    cache: MMSAudioCache = Depends(get_mms_cache),
 ):
     """
     Synthétise texte en audio via MMS/gTTS avec cache intelligent
@@ -78,24 +77,7 @@ async def synthesize_mms_tts(
 
     logger.info(f"[MMS] Request: {lang_code} ({len(text)} chars)")
 
-    # ──────────────────────────────────────
-    # 1. CHECK CACHE
-    # ──────────────────────────────────────
-    audio_url = await cache.get_audio_or_none(lang_code, text)
-    if audio_url:
-        logger.info(f"[MMS] Cache hit: {lang_code}")
-        return SynthesizeResponse(
-            audio_url=audio_url,
-            text=text,
-            language_code=lang_code,
-            provider="cached",
-            cached=True,
-            status="success",
-        )
-
-    # ──────────────────────────────────────
-    # 2. SYNTHESIZE VIA ROUTER
-    # ──────────────────────────────────────
+    # Synthétiser directement sans cache pour debug
     tts_router = get_tts_router()
     audio_bytes = await tts_router.synthesize(text, lang_code)
 
@@ -109,29 +91,18 @@ async def synthesize_mms_tts(
             notice="Audio non disponible. Veuillez utiliser la voix navigateur ou audio humain.",
         )
 
-    # ──────────────────────────────────────
-    # 3. SAVE TO CACHE + DISK
-    # ──────────────────────────────────────
-    audio_url = await cache.cache_audio(lang_code, text, audio_bytes)
+    # Return audio as data URL (no disk caching for now)
+    import base64
+    encoded = base64.b64encode(audio_bytes).decode("ascii")
+    audio_url = f"data:audio/mpeg;base64,{encoded}"
 
-    if not audio_url:
-        logger.error(f"[MMS] Cache save failed for {lang_code}")
-        raise HTTPException(500, "Failed to save audio")
-
-    logger.info(f"[MMS] Cached {lang_code}: {audio_url}")
-
-    # ──────────────────────────────────────
-    # 4. DETECT PROVIDER
-    # ──────────────────────────────────────
+    # Detect provider
     provider = "mms"  # Default
     if lang_code in {"ff", "pul", "fuc", "wol"}:
         provider = "gtts"  # Fallback languages
     elif lang_code in {"fra", "eng", "spa", "ara", "por"}:
         provider = "mms"  # Main languages
 
-    # ──────────────────────────────────────
-    # 5. RETURN SUCCESS
-    # ──────────────────────────────────────
     return SynthesizeResponse(
         audio_url=audio_url,
         text=text,
