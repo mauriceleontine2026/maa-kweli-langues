@@ -26,8 +26,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY tts_server.py .
 
 # Health check
-# start-period: Allow up to 15 minutes (900s) for model pre-load on CPU
-HEALTHCHECK --interval=30s --timeout=10s --start-period=900s --retries=3 \
+# start-period: 120s for server startup (model loads in background, doesn't block)
+HEALTHCHECK --interval=30s --timeout=10s --start-period=120s --retries=3 \
     CMD curl -f http://localhost:5000/health || exit 1
 
 # Port du serveur

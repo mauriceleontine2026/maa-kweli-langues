@@ -84,19 +84,23 @@ def get_tts():
     return tts_instance
 
 
+def _background_preload():
+    """Load TTS model in background thread to avoid blocking startup"""
+    try:
+        logger.info("🔄 [Background] Pre-loading TTS model (may take 5-15 minutes on CPU)...")
+        get_tts()
+        logger.info("✅ [Background] TTS model pre-loaded successfully!")
+    except Exception as e:
+        logger.error(f"⚠️ [Background] Failed to pre-load TTS model: {e}. Will load on first synthesis request.")
+
 @app.on_event("startup")
 async def startup():
-    """Démarrer le serveur et pré-charger le modèle TTS"""
+    """Start server immediately; load model in background"""
     logger.info("✅ Coqui TTS server starting...")
-    # Pré-charger le modèle lors du démarrage pour éviter les 502 lors des synthèses
-    try:
-        logger.info("🔄 Pre-loading TTS model during startup (may take ~5-10 minutes on CPU)...")
-        get_tts()
-        logger.info("✅ TTS model pre-loaded successfully!")
-    except Exception as e:
-        logger.error(f"⚠️ Failed to pre-load TTS model: {e}. Will load on first request.")
-        pass  # Continue startup even if pre-load fails
-    # Model will be loaded on first request (lazy loading)
+    # Start model pre-loading in background thread (non-blocking)
+    preload_thread = threading.Thread(target=_background_preload, daemon=True)
+    preload_thread.start()
+    logger.info("🔄 Background model pre-loading started (server is ready to receive requests)")
 
 
 @app.get("/health")
