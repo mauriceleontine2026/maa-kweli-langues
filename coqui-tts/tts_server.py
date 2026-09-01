@@ -93,24 +93,14 @@ async def startup():
 
 @app.get("/health")
 async def health_check():
-    """Vérifier l'état du serveur"""
-    try:
-        # Try to get TTS instance to ensure it's loaded
-        get_tts()
-        return {
-            "status": "ok",
-            "model": TTS_MODEL,
-            "device": DEVICE,
-            "model_loaded": True,
-        }
-    except Exception as e:
-        return {
-            "status": "error",
-            "model": TTS_MODEL,
-            "device": DEVICE,
-            "error": str(e),
-            "model_loaded": False,
-        }
+    """Vérifier l'état du serveur (lightweight, no model loading)"""
+    return {
+        "status": "ok",
+        "service": "coqui-tts",
+        "model": TTS_MODEL,
+        "device": DEVICE,
+        "model_cached": tts_instance is not None,
+    }
 
 
 @app.post("/tts", response_class=bytes)
