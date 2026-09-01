@@ -9,6 +9,7 @@ import os
 from pathlib import Path
 from typing import Optional
 import asyncio
+import threading
 
 # Import TTS engines
 try:
