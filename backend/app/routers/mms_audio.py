@@ -15,7 +15,6 @@ import os
 from ..services.tts_providers import get_tts_router, TTSRouter
 from ..services.mms_cache import get_mms_cache, MMSAudioCache
 from ..services.security import get_current_user_optional
-from .audio import _synthesize_rate_limiter as rate_limiter_synthesize
 
 logger = logging.getLogger(__name__)
 router = APIRouter(tags=["audio-tts"])
@@ -51,7 +50,6 @@ class SynthesizeResponse(BaseModel):
 async def synthesize_mms_tts(
     payload: SynthesizeRequest,
     current_user=Depends(get_current_user_optional),
-    _rate_limit=Depends(rate_limiter_synthesize),
     cache: MMSAudioCache = Depends(get_mms_cache),
 ):
     """
