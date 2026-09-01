@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  coqui-tts:
+    build:
+      context: ./coqui-tts
+      dockerfile: Dockerfile
+    ports:
+      - "5000:5000"
+    environment:
+      - TTS_MODEL=tts_models/multilingual/multi-dataset/xtts_v2
+      - USE_CUDA=false
+      - HOST=0.0.0.0
+      - PORT=5000
+    volumes:
+      - ./coqui-tts:/app
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 120s
+    restart: unless-stopped

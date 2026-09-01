@@ -1,6 +1,7 @@
 # Dockerfile pour serveur Coqui TTS v2
 # Utilisé pour MMS et synthèse vocale local
 # Support: sus, mnk, bam, kss, kek, yal, kno, mev, tom, mos, + 100+ langues via gTTS
+# Build cache invalidation: 2026-09-01T00:40:00Z
 
 FROM python:3.11-slim
 
@@ -32,4 +33,6 @@ HEALTHCHECK --interval=30s --timeout=10s --start-period=60s --retries=3 \
 EXPOSE 5000
 
 # Lancer le serveur
+ENV TTS_HOME=/tmp/tts_models
+ENV PYTHONUNBUFFERED=1
 CMD ["python", "tts_server.py"]

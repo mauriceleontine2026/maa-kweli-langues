@@ -17,6 +17,17 @@ except ImportError:
     print("❌ TTS library not installed. Run: pip install TTS")
     TTS = None
 
+# Pre-accept TTS terms of service to avoid interactive prompt in Docker
+os.environ['TTS_HOME'] = '/tmp/tts_models'
+os.environ['PYTHONUNBUFFERED'] = '1'
+os.environ['TTS_AGREE_CPML'] = '1'  # Auto-accept Coqui CPML terms
+
+import sys
+import io
+
+# Redirect stdin to avoid interactive prompts
+sys.stdin = io.StringIO("y\n")
+
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
@@ -54,7 +65,12 @@ def get_tts():
         if not TTS:
             raise RuntimeError("TTS library not available")
         logger.info(f"🔄 Loading {TTS_MODEL} on {DEVICE}...")
-        tts_instance = TTS(model_name=TTS_MODEL, gpu=(DEVICE == "cuda"), progress_bar=True, verbose=False)
+        try:
+            # Try loading with vocoder to avoid interactive prompt
+            tts_instance = TTS(model_name=TTS_MODEL, gpu=(DEVICE == "cuda"), progress_bar=True, in_memory=True)
+        except TypeError:
+            # Fallback if in_memory not supported
+            tts_instance = TTS(model_name=TTS_MODEL, gpu=(DEVICE == "cuda"), progress_bar=True)
         logger.info("✅ TTS model loaded")
     return tts_instance
 
