@@ -212,9 +212,9 @@ async def synthesize_text_json(request: SynthesizeRequest):
 
 if __name__ == "__main__":
     import uvicorn
-    
-    port = int(os.getenv("PORT", "5000"))
+
+    port = int(os.getenv("PORT", "8080"))
     host = os.getenv("HOST", "0.0.0.0")
-    
+
     logger.info(f"🚀 Starting Coqui TTS server on {host}:{port}")
     uvicorn.run(app, host=host, port=port)

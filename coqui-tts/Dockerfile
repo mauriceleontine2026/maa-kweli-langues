@@ -27,15 +27,16 @@ COPY tts_server.py .
 COPY init_model.py .
 
 # Health check
-# start-period: 30 minutes (1800s) for initial model pre-load on CPU
-HEALTHCHECK --interval=30s --timeout=10s --start-period=1800s --retries=5 \
-    CMD curl -f http://localhost:5000/health || exit 1
+# start-period: allow time for the first model download/load on CPU
+HEALTHCHECK --interval=30s --timeout=10s --start-period=180s --retries=5 \
+    CMD sh -c 'curl -fsS "http://localhost:${PORT:-5000}/health" >/dev/null || exit 1'
 
 # Port du serveur
-EXPOSE 5000
+ENV PORT=8080
+EXPOSE 8080
 
 # Lancer le serveur
 ENV TTS_HOME=/tmp/tts_models
 ENV PYTHONUNBUFFERED=1
-# Run model initialization, then start server
-CMD python init_model.py && python tts_server.py
+# Run model initialization but do not crash the container if it fails; the app can still lazy-load.
+CMD sh -c 'python init_model.py || echo "Preload failed; continuing to app startup"; python tts_server.py'
