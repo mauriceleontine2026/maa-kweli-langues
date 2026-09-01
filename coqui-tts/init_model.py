@@ -36,10 +36,9 @@ try:
     logger.info("   This may take 5-15 minutes on first run. Grab a coffee!")
     logger.info("   Model size: 1.87GB")
 
-    tts = TTS(model_name="tts_models/multilingual/multi-dataset/xtts_v2",
+tts = TTS(model_name="tts_models/multilingual/multi-dataset/xtts_v2",
               gpu=False,
-              progress_bar=True,
-              in_memory=False)
+              progress_bar=True)
 
     logger.info("✅ Model pre-loaded successfully!")
     logger.info("   Model is ready to use. Starting server...")

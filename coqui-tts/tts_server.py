@@ -76,10 +76,10 @@ def get_tts():
             raise RuntimeError("TTS library not available")
         logger.info(f"🔄 Loading {TTS_MODEL} on {DEVICE}...")
         try:
-            # Try loading with vocoder to avoid interactive prompt
-            tts_instance = TTS(model_name=TTS_MODEL, gpu=(DEVICE == "cuda"), progress_bar=True, in_memory=True)
+            # Some TTS versions accept `in_memory`; newer/compatible ones do not.
+            tts_instance = TTS(model_name=TTS_MODEL, gpu=(DEVICE == "cuda"), progress_bar=True)
         except TypeError:
-            # Fallback if in_memory not supported
+            # Fallback for older variants if needed.
             tts_instance = TTS(model_name=TTS_MODEL, gpu=(DEVICE == "cuda"), progress_bar=True)
         logger.info("✅ TTS model loaded")
     return tts_instance
