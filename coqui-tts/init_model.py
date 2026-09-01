@@ -39,5 +39,10 @@ try:
     TTS(model_name="tts_models/multilingual/multi-dataset/xtts_v2",
         gpu=False,
         progress_bar=True)
-    # Do not exit here: the service should stay alive and continue with lazy loading.
-    sys.exit(0)
+
+    logger.info("✅ Model pre-loaded successfully!")
+except Exception as e:
+    logger.error(f"⚠️ Failed to pre-load model: {type(e).__name__}: {e}")
+    logger.info("   Continuing startup; server will lazy-load the model on first request.")
+finally:
+    logger.info("init_model.py startup check complete.")
