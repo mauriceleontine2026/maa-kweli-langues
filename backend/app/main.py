@@ -29,7 +29,8 @@ if any(origin.strip() in {"*", "null"} for origin in allowed_origins):
         "Insecure CORS configuration detected. allow_origins must contain only explicit trusted origins when credentials are enabled."
     )
 
-Base.metadata.create_all(bind=engine)
+if os.getenv("VERCEL") != "1":
+    Base.metadata.create_all(bind=engine)
 
 from sqlalchemy import inspect, text
 
@@ -64,8 +65,9 @@ def _ensure_lesson_columns():
             conn.execute(text('ALTER TABLE lessons ADD COLUMN description TEXT'))
 
 
-_ensure_user_role_column()
-_ensure_lesson_columns()
+if os.getenv("VERCEL") != "1":
+    _ensure_user_role_column()
+    _ensure_lesson_columns()
 
 
 def _normalize_language_slug(value):
