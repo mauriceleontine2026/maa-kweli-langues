@@ -26,66 +26,109 @@ export const getAuthApiBaseUrl = () => {
   return PROD_BACKEND_FALLBACK;
 };
 
+const OAUTH_CALLBACK_KEYS = new Set([
+  "access_token",
+  "provider_token",
+  "code",
+  "state",
+  "error",
+  "error_code",
+  "error_description",
+  "error_reason",
+]);
+
+export const clearSupabaseOAuthCallback = (urlString = typeof window !== "undefined" ? window.location.href : "") => {
+  if (typeof window === "undefined" || !urlString) return null;
+
+  const url = new URL(urlString, typeof window !== "undefined" ? window.location.origin : "https://example.com");
+
+  const keepSearchParams = new URLSearchParams();
+  for (const [key, value] of url.searchParams.entries()) {
+    if (!OAUTH_CALLBACK_KEYS.has(key)) {
+      keepSearchParams.append(key, value);
+    }
+  }
+
+  const hashParams = new URLSearchParams(url.hash.startsWith("#") ? url.hash.slice(1) : url.hash || "");
+  const keepHashParams = new URLSearchParams();
+  for (const [key, value] of hashParams.entries()) {
+    if (!OAUTH_CALLBACK_KEYS.has(key)) {
+      keepHashParams.append(key, value);
+    }
+  }
+
+  url.search = keepSearchParams.toString() ? `?${keepSearchParams.toString()}` : "";
+  url.hash = keepHashParams.toString() ? `#${keepHashParams.toString()}` : "";
+
+  window.history.replaceState({}, document.title, `${url.pathname}${url.search}${url.hash}`);
+  return url.toString();
+};
+
 const clearUrlHash = () => {
   if (typeof window === "undefined") return;
-  const { pathname, search } = window.location;
-  window.history.replaceState({}, document.title, `${pathname}${search}`);
+  clearSupabaseOAuthCallback();
+};
+
+export const readSupabaseOAuthCallback = (urlString = typeof window !== "undefined" ? window.location.href : "") => {
+  if (!urlString) return { accessToken: null, code: null, errorDescription: null };
+
+  const url = new URL(urlString, typeof window !== "undefined" ? window.location.origin : "https://example.com");
+  const hashParams = new URLSearchParams(url.hash.startsWith("#") ? url.hash.slice(1) : url.hash || "");
+  const searchParams = new URLSearchParams(url.search.startsWith("?") ? url.search.slice(1) : url.search || "");
+
+  const accessToken =
+    hashParams.get("access_token") ||
+    searchParams.get("access_token") ||
+    hashParams.get("provider_token") ||
+    searchParams.get("provider_token");
+  const code = hashParams.get("code") || searchParams.get("code");
+  const errorDescription =
+    hashParams.get("error_description") ||
+    hashParams.get("error") ||
+    searchParams.get("error_description") ||
+    searchParams.get("error");
+
+  return { accessToken, code, errorDescription };
 };
 
 const getSupabaseAccessTokenFromUrl = async () => {
   if (typeof window === "undefined") return null;
 
-  const parseParams = (source) => {
-    const raw = source.startsWith("#") || source.startsWith("?") ? source.slice(1) : source;
-    return new URLSearchParams(raw);
-  };
-
-  let access_token = null;
-  let error_description = null;
-
-  const hashParams = parseParams(window.location.hash || "");
-  access_token = hashParams.get("access_token");
-  error_description = hashParams.get("error_description") || hashParams.get("error");
-
-  const searchParams = parseParams(window.location.search || "");
-  error_description = error_description || searchParams.get("error_description") || searchParams.get("error");
-  if (error_description) {
-    throw new Error(error_description);
+  const { accessToken, code, errorDescription } = readSupabaseOAuthCallback();
+  if (errorDescription) {
+    throw new Error(errorDescription);
   }
 
-  // Supabase normally exchanges the PKCE `code` automatically while the
-  // client initializes. Read that session first so the code verifier is not
-  // consumed a second time by this callback handler.
+  let access_token = accessToken;
+
   if (!access_token) {
     const { data, error } = await supabase.auth.getSession();
     if (error) {
       throw new Error(error.message || "Impossible de lire la session Google.");
     }
-    access_token = data?.session?.access_token;
+    access_token = data?.session?.access_token ?? null;
   }
 
-  const code = searchParams.get("code");
   if (!access_token && code) {
-    const { data, error } = await supabase.auth.exchangeCodeForSession(code);
-    if (error) {
-      throw new Error(error.message || "Impossible de terminer la connexion Google.");
+    try {
+      const { data, error } = await supabase.auth.exchangeCodeForSession(code);
+      if (error) throw error;
+      access_token = data?.session?.access_token ?? null;
+    } catch (exchangeError) {
+      const { data, error } = await supabase.auth.getSessionFromUrl();
+      if (error) {
+        throw new Error(error.message || exchangeError?.message || "Impossible de terminer la connexion Google.");
+      }
+      access_token = data?.session?.access_token ?? null;
     }
-    access_token = data?.session?.access_token;
   }
 
-  if (!access_token) {
-    access_token = searchParams.get("access_token");
-    error_description = error_description || searchParams.get("error_description") || searchParams.get("error");
-  }
-
-  if (!access_token) {
-    if (window.location.hash) {
+  if (!access_token && (window.location.hash || window.location.search)) {
     const { data, error } = await supabase.auth.getSessionFromUrl();
     if (error) {
-      throw new Error(error.message || error_description || "Impossible de lire la session Supabase après redirection Google.");
+      throw new Error(error.message || errorDescription || "Impossible de lire la session Supabase après redirection Google.");
     }
-    access_token = data?.session?.access_token;
-    }
+    access_token = data?.session?.access_token ?? null;
   }
 
   return access_token;

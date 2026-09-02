@@ -413,9 +413,13 @@ def _verify_supabase_access_token(access_token: str) -> dict:
         url = SUPABASE_URL.rstrip("/") + "/auth/v1/user"
         # Include the Supabase service key as `apikey` header to allow server-side
         # verification of access tokens (avoids client CORS/auth restrictions).
-        headers = {"Authorization": f"Bearer {access_token}"}
-        if SUPABASE_SERVICE_KEY:
-            headers["apikey"] = SUPABASE_SERVICE_KEY
+        api_key = SUPABASE_SERVICE_KEY or SUPABASE_ANON_KEY
+        if not api_key:
+            raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail="Supabase API key is not configured on the backend.")
+        headers = {
+            "Authorization": f"Bearer {access_token}",
+            "apikey": api_key,
+        }
         resp = httpx.get(url, headers=headers, timeout=10.0)
         resp.raise_for_status()
         payload = resp.json()
