@@ -62,6 +62,8 @@ class MMSTtsProvider(TTSProvider):
         "mev": "facebook/mms-tts-mev",
         "tom": "facebook/mms-tts-tom",
         "mos": "facebook/mms-tts-mos",
+        "yor": "facebook/mms-tts-yor",
+        "hau": "facebook/mms-tts-hau",
         "fra": "facebook/mms-tts-fra",
         "eng": "facebook/mms-tts-eng",
         "spa": "facebook/mms-tts-spa",
@@ -88,6 +90,7 @@ class MMSTtsProvider(TTSProvider):
         if not language_code:
             return None
         lang_code = language_code.strip().lower().split("-")[0]
+        lang_code = {"sw": "swa", "yo": "yor", "ig": "ibo"}.get(lang_code, lang_code)
         return self.MODEL_BY_LANGUAGE.get(lang_code)
 
     async def synthesize(self, text: str, language_code: str) -> bytes | None:
@@ -99,6 +102,7 @@ class MMSTtsProvider(TTSProvider):
             return None
 
         lang_code = language_code.strip().lower().split("-")[0]
+        lang_code = {"sw": "swa", "yo": "yor", "ig": "ibo"}.get(lang_code, lang_code)
         model_name = self.resolve_model_for_language(lang_code)
 
         # Essayer cache
@@ -156,6 +160,7 @@ class MMSTtsProvider(TTSProvider):
 
     def supports_language(self, language_code: str) -> bool:
         lang_code = language_code.strip().lower().split("-")[0]
+        lang_code = {"sw": "swa", "yo": "yor", "ig": "ibo"}.get(lang_code, lang_code)
         return lang_code in self.SUPPORTED_LANGUAGES
 
     def get_priority(self) -> int:
@@ -232,9 +237,27 @@ class GttsTtsProvider(TTSProvider):
             "mnk": "fr",  # Malinké → French
             "bam": "fr",  # Bambara → French
             "kss": "fr",  # Kissi → French
+            "bib": "fr",  # Bissa → French fallback
+            "dyu": "fr",  # Dioula → French fallback
+            "gxx": "fr",  # Guerze → French fallback
+            "kno": "fr",  # Kono/Konyanka → French fallback
+            "kek": "fr",  # Kuranko → French fallback
+            "ldu": "fr",  # Landuma → French fallback
+            "lle": "fr",  # Lele → French fallback
+            "mni": "fr",  # Mani → French fallback
+            "nlu": "fr",  # Nalu → French fallback
+            "snk": "fr",  # Sankaran → French fallback
+            "bsc": "fr",  # Badiaranke → French fallback
+            "bgo": "fr",  # Baga → French fallback
+            "bsq": "fr",  # Bassari → French fallback
+            "bdf": "fr",  # Bedik → French fallback
+            "wol": "fr",  # Wolof → French fallback
             "ff": "fr",  # Fulfulde → French
             "wol": "fr",  # Wolof → French
             "yor": "yo",  # Yoruba OK
+            "swa": "sw",  # Swahili OK
+            "ibo": "ig",  # Igbo OK
+            "hau": "ha",  # Hausa OK
             "igb": "ig",  # Igbo OK
             "hau": "ha",  # Hausa OK
             "swa": "sw",  # Swahili OK
