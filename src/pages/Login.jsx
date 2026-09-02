@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { login, loginWithGoogle, completeGoogleLogin, requestEmailVerification } from "@/api/authService";
 import AuthSplitPanel from "@/components/AuthSplitPanel";
 import { useLanguage } from "@/contexts/LanguageContext";
@@ -13,6 +14,7 @@ export default function Login() {
   const [showResendLink, setShowResendLink] = useState(false);
 
   const { t } = useLanguage();
+  const navigate = useNavigate();
 
   useEffect(() => {
     const handleOAuthRedirect = async () => {
@@ -27,7 +29,7 @@ export default function Login() {
       setError("");
       try {
         await completeGoogleLogin();
-        window.location.replace("/");
+        navigate("/", { replace: true });
       } catch (err) {
         const errorMessage = err instanceof Error ? err.message : t("invalidLogin");
         setError(isEmailVerificationError(err) ? t("googleVerification") : errorMessage);
@@ -45,7 +47,7 @@ export default function Login() {
     try {
       const user = await loginWithGoogle();
       if (user !== null) {
-        window.location.href = "/";
+        navigate("/", { replace: true });
       }
     } catch (err) {
       const errorMessage = err instanceof Error ? err.message : t("invalidLogin");
