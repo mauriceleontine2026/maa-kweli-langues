@@ -54,8 +54,8 @@ export const persistUser = (user) => {
 };
 
 export const AuthProvider = ({ children }) => {
-  const [user, setUser] = useState(getStoredUser());
-  const [isAuthenticated, setIsAuthenticated] = useState(Boolean(getStoredUser()));
+  const [user, setUser] = useState(null);
+  const [isAuthenticated, setIsAuthenticated] = useState(false);
   const [isLoadingAuth, setIsLoadingAuth] = useState(true);
   const [isLoadingPublicSettings, setIsLoadingPublicSettings] = useState(false);
   const [authError, setAuthError] = useState(null);
@@ -88,22 +88,8 @@ export const AuthProvider = ({ children }) => {
   };
 
   const checkUserAuth = async () => {
-    const cachedUser = getStoredUser();
     setIsLoadingAuth(true);
     setAuthError(null);
-
-    if (!cachedUser) {
-      setUser(null);
-      setIsAuthenticated(false);
-      persistUser(null);
-      setIsLoadingAuth(false);
-      setAuthChecked(true);
-      if (typeof window !== 'undefined') {
-        window.dispatchEvent(new Event('mbaara-user-updated'));
-        window.dispatchEvent(new Event('mbaara-progress-updated'));
-      }
-      return;
-    }
 
     try {
       let currentUser;
@@ -124,16 +110,9 @@ export const AuthProvider = ({ children }) => {
     } catch (error) {
       const status = error?.status ?? (error instanceof Error ? null : null);
       const isAuthenticationFailure = status === 401 || status === 403;
-      if (isAuthenticationFailure || !cachedUser) {
-        setUser(null);
-        setIsAuthenticated(false);
-        persistUser(null);
-      } else {
-        // Keep the cached profile during a transient network/proxy failure;
-        // the server remains authoritative and the next check can reconcile it.
-        setUser(cachedUser);
-        setIsAuthenticated(true);
-      }
+      setUser(null);
+      setIsAuthenticated(false);
+      persistUser(null);
       if (typeof window !== 'undefined') {
         window.dispatchEvent(new Event('mbaara-user-updated'));
         window.dispatchEvent(new Event('mbaara-progress-updated'));

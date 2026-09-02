@@ -370,6 +370,9 @@ export async function logout() {
       return;
     }
     throw err;
+  } finally {
+    await supabase.auth.signOut().catch(() => undefined);
+    setInMemoryAccessToken(null);
   }
 }
 
