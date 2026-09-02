@@ -22,7 +22,7 @@ from .services.security import require_admin
 app = FastAPI(title="M'baara API", version="0.1.0")
 
 allowed_origins = get_allowed_origins()
-allowed_origin_regex = r"http://localhost:\d+$|https://localhost:\d+$|http://127\.0\.0\.1:\d+$|https://127\.0\.0\.1:\d+$"
+allowed_origin_regex = r"http://localhost:\d+$|https://localhost:\d+$|http://127\.0\.0\.1:\d+$|https://127\.0\.0\.1:\d+$|https://maa-kwelilangues-[a-z0-9]+-maa-kweli-langues\.vercel\.app$"
 
 if any(origin.strip() in {"*", "null"} for origin in allowed_origins):
     raise RuntimeError(
