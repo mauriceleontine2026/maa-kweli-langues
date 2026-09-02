@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
 import { login, loginWithGoogle, completeGoogleLogin, requestEmailVerification } from "@/api/authService";
 import AuthSplitPanel from "@/components/AuthSplitPanel";
 import { useLanguage } from "@/contexts/LanguageContext";
+import { isEmailVerificationError, isInvalidCredentialsError } from "@/lib/authErrorUtils";
 
 export default function Login() {
   const [error, setError] = useState("");
@@ -12,7 +12,6 @@ export default function Login() {
   const [resendLoading, setResendLoading] = useState(false);
   const [showResendLink, setShowResendLink] = useState(false);
 
-  const navigate = useNavigate();
   const { t } = useLanguage();
 
   useEffect(() => {
@@ -28,19 +27,17 @@ export default function Login() {
       setError("");
       try {
         await completeGoogleLogin();
-        navigate("/", { replace: true });
+        window.location.replace("/");
       } catch (err) {
         const errorMessage = err instanceof Error ? err.message : t("invalidLogin");
-        setError(err?.status === 403 || errorMessage.toLowerCase().includes("email not verified")
-          ? t("googleVerification")
-          : errorMessage);
+        setError(isEmailVerificationError(err) ? t("googleVerification") : errorMessage);
       } finally {
         setLoading(false);
       }
     };
 
     handleOAuthRedirect();
-  }, [navigate]);
+  }, []);
 
   const handleGoogle = async () => {
     setError("");
@@ -52,9 +49,7 @@ export default function Login() {
       }
     } catch (err) {
       const errorMessage = err instanceof Error ? err.message : t("invalidLogin");
-      setError(err?.status === 403 || errorMessage.toLowerCase().includes("email not verified")
-        ? t("googleVerification")
-        : errorMessage);
+      setError(isEmailVerificationError(err) ? t("googleVerification") : errorMessage);
     } finally {
       setLoading(false);
     }
@@ -111,13 +106,11 @@ export default function Login() {
     } catch (err) {
       const rawMessage = err instanceof Error ? err.message : t("invalidLogin");
       const normalized = String(rawMessage || "").trim();
-      const isNotVerified = err?.status === 403 || normalized.toLowerCase().includes("email not verified") || normalized.toLowerCase().includes("email non vérifié") || normalized.toLowerCase().includes("vérifié");
-      const isInvalidCredentials = err?.status === 401 || normalized.toLowerCase().includes("invalid credentials") || normalized.toLowerCase().includes("identifiants incorrects") || normalized.toLowerCase().includes("identifiants invalides");
 
-      if (isNotVerified) {
+      if (isEmailVerificationError(err)) {
         setError(t("verificationRequired"));
         setShowResendLink(true);
-      } else if (isInvalidCredentials) {
+      } else if (isInvalidCredentialsError(err)) {
         setError(t("invalidLogin"));
       } else {
         setError(normalized || t("invalidLogin"));
