@@ -58,9 +58,10 @@ describe('audioService', () => {
 
     await Promise.resolve();
     await Promise.resolve();
+    await new Promise((resolve) => setTimeout(resolve, 0));
 
     expect(globalThis.fetch).toHaveBeenCalledWith(
-      '/api/audio/synthesize',
+      '/api/audio/synthesize-mms',
       expect.objectContaining({ method: 'POST' })
     );
     expect(window.speechSynthesis.speak).toHaveBeenCalledTimes(1);
@@ -86,7 +87,7 @@ describe('audioService', () => {
     await Promise.resolve();
 
     expect(globalThis.fetch).toHaveBeenCalledWith(
-      '/api/audio/synthesize',
+      '/api/audio/synthesize-mms',
       expect.objectContaining({
         method: 'POST',
         headers: expect.objectContaining({
@@ -150,14 +151,14 @@ describe('audioService', () => {
       json: async () => ({ error: 'not available' }),
     });
 
-    speakText('Mbote', 'lingala', { onEnd: vi.fn() });
+    const onError = vi.fn();
+    const onEnd = vi.fn();
+    const result = speakText('Mbote', 'lingala', { onError, onEnd });
 
-    expect(globalThis.fetch).toHaveBeenCalledWith(
-      '/api/audio/synthesize',
-      expect.objectContaining({
-        body: expect.stringContaining('"language_code":"fr"'),
-      })
-    );
+    expect(result).toBe(false);
+    expect(globalThis.fetch).not.toHaveBeenCalled();
+    expect(onError).toHaveBeenCalledWith(expect.any(Error));
+    expect(onEnd).toHaveBeenCalledTimes(1);
   });
 
   it('prefers a higher-quality language-matched voice over the first generic browser voice', () => {
@@ -178,6 +179,30 @@ describe('audioService', () => {
     expect(getBestVoice('pular')).toBeNull();
     expect(getBestVoice('fulfulde')).toBeNull();
     expect(getBestVoice('soussou')).toBeNull();
+  });
+
+  it('refuses French fallback voices for provisional African languages even when a French voice is available', () => {
+    globalThis.window.speechSynthesis.getVoices = vi.fn(() => [
+      { lang: 'fr-FR', name: 'Microsoft Hortense' },
+      { lang: 'en-US', name: 'Microsoft Aria' },
+    ]);
+
+    expect(getBestVoice('lingala')).toBeNull();
+    expect(getBestVoice('bissa')).toBeNull();
+    expect(getBestVoice('dioula')).toBeNull();
+  });
+
+  it('does not attempt backend or browser synthesis for provisional languages that do not have a reliable pronunciation profile', () => {
+    globalThis.fetch = vi.fn();
+    const onError = vi.fn();
+    const onEnd = vi.fn();
+
+    const result = speakText('Mbote', 'lingala', { onError, onEnd });
+
+    expect(result).toBe(false);
+    expect(globalThis.fetch).not.toHaveBeenCalled();
+    expect(onError).toHaveBeenCalledWith(expect.any(Error));
+    expect(onEnd).toHaveBeenCalledTimes(1);
   });
 
   it('resolves the central audio priority order for native/local/remote sources', () => {

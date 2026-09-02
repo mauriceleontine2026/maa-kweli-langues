@@ -138,6 +138,14 @@ TTS_LANGUAGE_MAP = {
 }
 
 
+UNRELIABLE_TTS_LANGUAGES = {
+    "lingala", "bissa", "dioula", "moore", "mossi", "soussou", "pular", "peul", "fulfulde",
+    "malinke", "maninka", "mandinka", "bambara", "wolof", "kissi", "guerze", "koniagui",
+    "konyanka", "kuranko", "landuma", "lele", "mani", "nalu", "sankaran", "yalunka",
+    "kono", "mano", "toma", "badiaranke", "baga", "bassari", "bedik", "kpele",
+}
+
+
 def normalize_tts_language_code(code: str | None) -> str:
     if not code:
         return "fr"
@@ -150,6 +158,17 @@ def normalize_tts_language_code(code: str | None) -> str:
     if normalized:
         return normalized
     return TTS_LANGUAGE_MAP.get(key.split("-")[0], "fr")
+
+
+def is_unreliable_tts_language(code: str | None) -> bool:
+    if not code:
+        return False
+    key = str(code).strip().lower()
+    key = unicodedata.normalize("NFKD", key)
+    key = "".join(ch for ch in key if not unicodedata.combining(ch))
+    key = key.replace("_", "-").replace(" ", "-")
+    key = "".join(ch for ch in key if ch.isascii() and (ch.isalnum() or ch == "-"))
+    return key in UNRELIABLE_TTS_LANGUAGES or key.split("-")[0] in UNRELIABLE_TTS_LANGUAGES
 
 
 STATIC_DIR = Path(os.environ.get("MBAARA_STATIC_DIR", "/tmp/mbaara/static"))
@@ -279,6 +298,15 @@ async def synthesize_audio(
         raise HTTPException(status_code=400, detail="No text provided")
 
     normalized_language = normalize_tts_language_code(payload.language_code)
+    if is_unreliable_tts_language(payload.language_code):
+        return {
+            "audio_url": None,
+            "text": payload.text,
+            "language_code": payload.language_code or "fr",
+            "duration_seconds": None,
+            "provider": None,
+            "note": "Cette langue n'a pas de prononciation fiable, la voix locale n'est pas disponible et la synthèse ne doit pas forcer un accent français.",
+        }
 
     allow_premium_tts = str(os.getenv("ENABLE_PREMIUM_TTS", "false")).strip().lower() in {"1", "true", "yes", "on"}
     elevenlabs_key = os.getenv("ELEVENLABS_API_KEY")

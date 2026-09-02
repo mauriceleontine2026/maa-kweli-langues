@@ -48,27 +48,28 @@ class MMSTtsProvider(TTSProvider):
     TTS via Meta MMS + Coqui XTTS-v2 wrapper
     Modèles Fairseq/MMS hébergés sur Coqui server ou API externe
 
-    Supporte ~10 langues guinéennes:
-    - sus, mnk, bam, kss, kek, yal, kno, mev, tom, mos
+    Supporte ~10 langues guinéennes + 5 langues internationales
     """
 
-    SUPPORTED_LANGUAGES = {
-        "sus",  # Soussou
-        "mnk",  # Malinké
-        "bam",  # Bambara
-        "kss",  # Kissi
-        "kek",  # Kuranko
-        "yal",  # Yalunka
-        "kno",  # Kono
-        "mev",  # Mano
-        "tom",  # Toma
-        "mos",  # Mossi/Moore
-        "fra",  # Français
-        "eng",  # English
-        "spa",  # Spanish
-        "ara",  # Arabic
-        "por",  # Portuguese
+    MODEL_BY_LANGUAGE = {
+        "sus": "facebook/mms-tts-sus",
+        "mnk": "facebook/mms-tts-mnk",
+        "bam": "facebook/mms-tts-bam",
+        "kss": "facebook/mms-tts-kss",
+        "kek": "facebook/mms-tts-kek",
+        "yal": "facebook/mms-tts-yal",
+        "kno": "facebook/mms-tts-kno",
+        "mev": "facebook/mms-tts-mev",
+        "tom": "facebook/mms-tts-tom",
+        "mos": "facebook/mms-tts-mos",
+        "fra": "facebook/mms-tts-fra",
+        "eng": "facebook/mms-tts-eng",
+        "spa": "facebook/mms-tts-spa",
+        "ara": "facebook/mms-tts-ara",
+        "por": "facebook/mms-tts-por",
     }
+
+    SUPPORTED_LANGUAGES = set(MODEL_BY_LANGUAGE.keys())
 
     def __init__(self, coqui_server_url: str | None = None, cache=None):
         """
@@ -83,6 +84,12 @@ class MMSTtsProvider(TTSProvider):
         self.cache = cache
         self.timeout = 30.0  # 30 secondes de timeout
 
+    def resolve_model_for_language(self, language_code: str) -> str | None:
+        if not language_code:
+            return None
+        lang_code = language_code.strip().lower().split("-")[0]
+        return self.MODEL_BY_LANGUAGE.get(lang_code)
+
     async def synthesize(self, text: str, language_code: str) -> bytes | None:
         """Synthétise via Coqui server (MMS models)"""
         if not self.supports_language(language_code):
@@ -91,8 +98,8 @@ class MMSTtsProvider(TTSProvider):
         if not text or not text.strip():
             return None
 
-        # Normaliser code langue
         lang_code = language_code.strip().lower().split("-")[0]
+        model_name = self.resolve_model_for_language(lang_code)
 
         # Essayer cache
         if self.cache:
@@ -108,13 +115,16 @@ class MMSTtsProvider(TTSProvider):
         # Appeler Coqui API
         try:
             async with httpx.AsyncClient(timeout=self.timeout) as client:
+                payload = {
+                    "text": text,
+                    "speaker_idx": "random",
+                    "language": lang_code,
+                }
+                if model_name:
+                    payload["model"] = model_name
                 response = await client.post(
                     f"{self.coqui_server_url}/tts",
-                    json={
-                        "text": text,
-                        "speaker_idx": "random",  # Voix aléatoire
-                        "language": lang_code,  # ISO 639-3 pour MMS
-                    },
+                    json=payload,
                 )
 
                 if response.status_code >= 300:

@@ -69,6 +69,12 @@ const fallbackBrowserSpeech = (text, languageCode = "fr", options = {}) => {
     volume = 1,
   } = options;
 
+  if (isProvisionalSyntheticLanguage(languageCode)) {
+    onError?.(new Error(getSyntheticStatusMessage(languageCode)));
+    onEnd?.();
+    return false;
+  }
+
   if (languageConfig?.tts?.status === "unavailable") {
     onError?.(new Error("Audio bientôt disponible pour cette langue."));
     onEnd?.();
@@ -220,6 +226,12 @@ export const resolveAudioSource = (source, languageCode) => {
 export const speakText = (text, languageCode = "fr", options = {}) => {
   const cleanText = normalizeSpeechText(text);
   if (!cleanText) {
+    options.onEnd?.();
+    return false;
+  }
+
+  if (isProvisionalSyntheticLanguage(languageCode)) {
+    options.onError?.(new Error(getSyntheticStatusMessage(languageCode)));
     options.onEnd?.();
     return false;
   }

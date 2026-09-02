@@ -5,13 +5,6 @@ export const getApiBaseUrl = () => {
   const configuredBaseUrl = import.meta.env.VITE_API_BASE_URL;
   const normalizedConfigured = configuredBaseUrl && String(configuredBaseUrl).trim();
 
-  if (typeof window !== "undefined") {
-    const hostname = window.location.hostname.toLowerCase();
-    if (hostname.endsWith(".vercel.app") || hostname.endsWith(".web.app")) {
-      return window.location.origin;
-    }
-  }
-
   if (normalizedConfigured) {
     try {
       return new URL(normalizedConfigured).origin.replace(/\/$/, "");
@@ -21,6 +14,10 @@ export const getApiBaseUrl = () => {
   }
 
   if (typeof window !== "undefined") {
+    const hostname = window.location.hostname.toLowerCase();
+    if (hostname.endsWith(".vercel.app") || hostname.endsWith(".web.app")) {
+      return PROD_BACKEND_FALLBACK;
+    }
     return window.location.origin;
   }
 

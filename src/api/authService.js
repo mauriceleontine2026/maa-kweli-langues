@@ -378,7 +378,7 @@ export async function logout() {
  * This bypasses XHR CORS restrictions.
  */
 export async function logoutWithForm() {
-  const url = `${import.meta.env.VITE_API_BASE_URL || window.location.origin}/api/auth/logout/form`;
+  const url = `${getAuthApiBaseUrl()}/api/auth/logout/form`;
   const formData = new FormData();
 
   const csrfCookie = getCsrfTokenFromCookie();

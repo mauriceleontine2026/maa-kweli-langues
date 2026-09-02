@@ -1,4 +1,5 @@
-import { describe, it, expect, beforeEach, afterEach } from 'vitest';
+import { describe, it, expect, beforeEach, afterEach, vi } from 'vitest';
+import { getApiBaseUrl } from '../api/backendClient';
 import { getStoredUser, persistUser } from './AuthContext';
 
 describe('Auth persistence', () => {
@@ -39,5 +40,20 @@ describe('Auth persistence', () => {
     persistUser({ id: 'user-2', email: 'next@example.com' });
 
     expect(JSON.parse(stored.mbaara_user)).toMatchObject({ id: 'user-2', email: 'next@example.com' });
+  });
+
+  it('uses the backend domain on Vercel deployments instead of the frontend origin', () => {
+    vi.stubEnv('VITE_API_BASE_URL', '');
+
+    Object.defineProperty(window, 'location', {
+      value: {
+        hostname: 'maa-kweli-langues.vercel.app',
+        origin: 'https://maa-kweli-langues.vercel.app',
+      },
+      configurable: true,
+    });
+
+    expect(getApiBaseUrl()).toBe('https://mbaara-backend.vercel.app');
+    vi.unstubAllEnvs();
   });
 });

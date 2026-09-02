@@ -453,9 +453,9 @@ const PROVISIONAL_TTS_CODES = {
 };
 
 const UNSUPPORTED_TTS_CODES = new Set([
-  "pular", "fulfulde", "soussou", "malinke", "maninka", "mandinka", "bambara", "dioula", "moore", "mossi", "wolof",
-  "kissi", "guerze", "koniagui", "konyanka", "kuranko", "landuma", "lele", "mani", "nalu", "sankaran", "yalunka",
-  "kono", "mano", "toma", "badiaranke", "baga", "bassari", "bedik", "kpele",
+  "lingala", "bissa", "dioula", "moore", "mossi", "soussou", "pular", "peul", "fulfulde", "malinke", "maninka", "mandinka",
+  "bambara", "wolof", "kissi", "guerze", "koniagui", "konyanka", "kuranko", "landuma", "lele", "mani", "nalu",
+  "sankaran", "yalunka", "kono", "mano", "toma", "badiaranke", "baga", "bassari", "bedik", "kpele",
 ]);
 
 export const getTTSLocale = (code) => {
@@ -480,6 +480,11 @@ export const getBestVoice = (code) => {
   if (typeof window === "undefined" || !("speechSynthesis" in window)) return null;
 
   const normalizedCode = String(code || "").trim();
+  const isUnsupported = isProvisionalSyntheticLanguage(normalizedCode);
+  if (isUnsupported) {
+    return null;
+  }
+
   const locale = getTTSLocale(normalizedCode);
   const voices = window.speechSynthesis.getVoices() || [];
 
@@ -487,7 +492,6 @@ export const getBestVoice = (code) => {
 
   const normalizedLocale = locale.toLowerCase();
   const prefix = locale.split("-")[0].toLowerCase();
-  const isUnsupported = isProvisionalSyntheticLanguage(normalizedCode);
 
   const getVoiceScore = (voice) => {
     if (!voice || !voice.lang) return -Infinity;
@@ -521,10 +525,6 @@ export const getBestVoice = (code) => {
   }
 
   const best = [...candidates].sort((a, b) => getVoiceScore(b) - getVoiceScore(a))[0];
-  if (isUnsupported && best && best.lang.toLowerCase() !== normalizedLocale.toLowerCase()) {
-    return null;
-  }
-
   return best || null;
 };
 
