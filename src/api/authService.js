@@ -101,6 +101,20 @@ const getSupabaseAccessTokenFromUrl = async () => {
 
   let access_token = accessToken;
 
+  if (!access_token && code) {
+    try {
+      const { data, error } = await supabase.auth.exchangeCodeForSession(code);
+      if (error) throw error;
+      access_token = data?.session?.access_token ?? null;
+    } catch (exchangeError) {
+      const { data: sessionData, error: sessionError } = await supabase.auth.getSession();
+      if (sessionError || !sessionData?.session?.access_token) {
+        throw new Error(sessionError?.message || exchangeError?.message || "Impossible de terminer la connexion Google.");
+      }
+      access_token = sessionData.session.access_token;
+    }
+  }
+
   if (!access_token) {
     const { data, error } = await supabase.auth.getSession();
     if (error) {
@@ -109,26 +123,8 @@ const getSupabaseAccessTokenFromUrl = async () => {
     access_token = data?.session?.access_token ?? null;
   }
 
-  if (!access_token && code) {
-    try {
-      const { data, error } = await supabase.auth.exchangeCodeForSession(code);
-      if (error) throw error;
-      access_token = data?.session?.access_token ?? null;
-    } catch (exchangeError) {
-      const { data, error } = await supabase.auth.getSessionFromUrl();
-      if (error) {
-        throw new Error(error.message || exchangeError?.message || "Impossible de terminer la connexion Google.");
-      }
-      access_token = data?.session?.access_token ?? null;
-    }
-  }
-
   if (!access_token && (window.location.hash || window.location.search)) {
-    const { data, error } = await supabase.auth.getSessionFromUrl();
-    if (error) {
-      throw new Error(error.message || errorDescription || "Impossible de lire la session Supabase après redirection Google.");
-    }
-    access_token = data?.session?.access_token ?? null;
+    throw new Error(errorDescription || "Impossible de lire la session Supabase après redirection Google.");
   }
 
   return access_token;
