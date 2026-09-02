@@ -4,6 +4,7 @@ import { login, loginWithGoogle, completeGoogleLogin, requestEmailVerification }
 import AuthSplitPanel from "@/components/AuthSplitPanel";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { isEmailVerificationError, isInvalidCredentialsError } from "@/lib/authErrorUtils";
+import supabase from "@/api/supabaseClient";
 
 export default function Login() {
   const [error, setError] = useState("");
@@ -21,7 +22,8 @@ export default function Login() {
       if (typeof window === "undefined") return;
       const hasHashCallback = window.location.hash.includes("access_token=") || window.location.hash.includes("provider_token=");
       const hasSearchCallback = window.location.search.includes("access_token=") || window.location.search.includes("provider_token=") || window.location.search.includes("code=");
-      if (!hasHashCallback && !hasSearchCallback) {
+      const { data: sessionData } = await supabase.auth.getSession();
+      if (!hasHashCallback && !hasSearchCallback && !sessionData?.session?.access_token) {
         return;
       }
 
