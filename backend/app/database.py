@@ -30,6 +30,8 @@ def _build_engine(url: str):
         url = url.replace("postgresql://", "postgresql+psycopg://", 1)
     elif url.startswith("postgres://"):
         url = url.replace("postgres://", "postgresql+psycopg://", 1)
+    if url.startswith("postgresql+"):
+        connect_args["prepare_threshold"] = None
     return create_engine(url, connect_args=connect_args, pool_pre_ping=True)
 
 
