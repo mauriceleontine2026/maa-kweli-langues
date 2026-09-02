@@ -1,4 +1,4 @@
-import React, { createContext, useState, useContext, useEffect } from 'react';
+import React, { createContext, useState, useContext, useEffect, useRef } from 'react';
 import { getCurrentUser, logout as logoutService, restoreBackendSession } from '@/api/authService';
 
 const AuthContext = createContext(null);
@@ -60,6 +60,7 @@ export const AuthProvider = ({ children }) => {
   const [isLoadingPublicSettings, setIsLoadingPublicSettings] = useState(false);
   const [authError, setAuthError] = useState(null);
   const [authChecked, setAuthChecked] = useState(false);
+  const authCheckId = useRef(0);
 
   useEffect(() => {
     checkAppState();
@@ -88,6 +89,7 @@ export const AuthProvider = ({ children }) => {
   };
 
   const checkUserAuth = async () => {
+    const currentCheckId = ++authCheckId.current;
     setIsLoadingAuth(true);
     setAuthError(null);
 
@@ -100,6 +102,7 @@ export const AuthProvider = ({ children }) => {
         currentUser = await restoreBackendSession();
         if (!currentUser) throw error;
       }
+      if (currentCheckId !== authCheckId.current) return;
       setUser(currentUser);
       setIsAuthenticated(Boolean(currentUser));
       persistUser(currentUser);
@@ -108,6 +111,7 @@ export const AuthProvider = ({ children }) => {
         window.dispatchEvent(new Event('mbaara-progress-updated'));
       }
     } catch (error) {
+      if (currentCheckId !== authCheckId.current) return;
       const status = error?.status ?? (error instanceof Error ? null : null);
       const isAuthenticationFailure = status === 401 || status === 403;
       setUser(null);
@@ -123,8 +127,10 @@ export const AuthProvider = ({ children }) => {
         setAuthError({ type: 'unknown', message: error?.message || 'Failed to verify authentication' });
       }
     } finally {
-      setIsLoadingAuth(false);
-      setAuthChecked(true);
+      if (currentCheckId === authCheckId.current) {
+        setIsLoadingAuth(false);
+        setAuthChecked(true);
+      }
     }
   };
 
