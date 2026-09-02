@@ -82,7 +82,7 @@ class MMSTtsProvider(TTSProvider):
             "COQUI_TTS_URL", "http://localhost:5000"
         )
         self.cache = cache
-        self.timeout = 30.0  # 30 secondes de timeout
+        self.timeout = float(os.getenv("MMS_TTS_TIMEOUT_SECONDS", "300"))
 
     def resolve_model_for_language(self, language_code: str) -> str | None:
         if not language_code:
