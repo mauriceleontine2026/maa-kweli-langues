@@ -48,22 +48,27 @@ const getSupabaseAccessTokenFromUrl = async () => {
   error_description = hashParams.get("error_description") || hashParams.get("error");
 
   const searchParams = parseParams(window.location.search || "");
-  const code = searchParams.get("code");
-  if (!access_token && code) {
-    const { data, error } = await supabase.auth.exchangeCodeForSession(code);
-    if (error) {
-      throw new Error(error.message || error_description || "Impossible de terminer la connexion Google.");
-    }
-    access_token = data?.session?.access_token;
+  error_description = error_description || searchParams.get("error_description") || searchParams.get("error");
+  if (error_description) {
+    throw new Error(error_description);
   }
 
   // Supabase normally exchanges the PKCE `code` automatically while the
-  // client initializes. Read that session first so the code is not exchanged
-  // a second time by this callback handler.
+  // client initializes. Read that session first so the code verifier is not
+  // consumed a second time by this callback handler.
   if (!access_token) {
     const { data, error } = await supabase.auth.getSession();
     if (error) {
       throw new Error(error.message || "Impossible de lire la session Google.");
+    }
+    access_token = data?.session?.access_token;
+  }
+
+  const code = searchParams.get("code");
+  if (!access_token && code) {
+    const { data, error } = await supabase.auth.exchangeCodeForSession(code);
+    if (error) {
+      throw new Error(error.message || "Impossible de terminer la connexion Google.");
     }
     access_token = data?.session?.access_token;
   }
