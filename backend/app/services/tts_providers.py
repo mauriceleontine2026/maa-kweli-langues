@@ -366,6 +366,19 @@ class TTSRouter:
         logger.warning(f"[Router] No provider available for {language_code}")
         return None
 
+    async def synthesize_with_provider(self, text: str, language_code: str):
+        """Return both generated audio and the provider that produced it."""
+        for provider in self.providers:
+            if not provider.supports_language(language_code):
+                continue
+            try:
+                audio = await provider.synthesize(text, language_code)
+                if audio:
+                    return audio, provider
+            except Exception as e:
+                logger.warning(f"[Router] Provider error: {e}")
+        return None, None
+
 
 # Singleton instance
 _router = None

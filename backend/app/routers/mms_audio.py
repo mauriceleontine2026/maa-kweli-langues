@@ -79,7 +79,7 @@ async def synthesize_mms_tts(
 
     # Synthétiser directement sans cache pour debug
     tts_router = get_tts_router()
-    audio_bytes = await tts_router.synthesize(text, lang_code)
+    audio_bytes, selected_provider = await tts_router.synthesize_with_provider(text, lang_code)
 
     if not audio_bytes:
         logger.warning(f"[MMS] Synthesis failed for {lang_code}")
@@ -97,11 +97,7 @@ async def synthesize_mms_tts(
     audio_url = f"data:audio/mpeg;base64,{encoded}"
 
     # Detect provider
-    provider = "mms"  # Default
-    if lang_code in {"ff", "pul", "fuc", "wol"}:
-        provider = "gtts"  # Fallback languages
-    elif lang_code in {"fra", "eng", "spa", "ara", "por"}:
-        provider = "mms"  # Main languages
+    provider = "mms" if selected_provider.__class__.__name__ == "MMSTtsProvider" else "gtts"
 
     return SynthesizeResponse(
         audio_url=audio_url,
