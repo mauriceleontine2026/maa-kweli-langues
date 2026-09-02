@@ -98,7 +98,7 @@ describe('audioService', () => {
     );
   });
 
-  it('normalizes all supported learning language names before sending them to speech synthesis', async () => {
+  it('normalizes learning language names and keeps a fallback synthesis path', async () => {
     const expectedMap = {
       lingala: 'fr',
       swahili: 'sw',
@@ -155,10 +155,13 @@ describe('audioService', () => {
     const onEnd = vi.fn();
     const result = speakText('Mbote', 'lingala', { onError, onEnd });
 
-    expect(result).toBe(false);
-    expect(globalThis.fetch).not.toHaveBeenCalled();
-    expect(onError).toHaveBeenCalledWith(expect.any(Error));
-    expect(onEnd).toHaveBeenCalledTimes(1);
+    expect(result).toBe(true);
+    await Promise.resolve();
+    await Promise.resolve();
+    expect(globalThis.fetch).toHaveBeenCalledWith(
+      '/api/audio/synthesize-mms',
+      expect.objectContaining({ method: 'POST' })
+    );
   });
 
   it('prefers a higher-quality language-matched voice over the first generic browser voice', () => {
@@ -192,17 +195,21 @@ describe('audioService', () => {
     expect(getBestVoice('dioula')).toBeNull();
   });
 
-  it('does not attempt backend or browser synthesis for provisional languages that do not have a reliable pronunciation profile', () => {
-    globalThis.fetch = vi.fn();
-    const onError = vi.fn();
-    const onEnd = vi.fn();
+  it('attempts backend synthesis for provisional languages without native TTS', async () => {
+    globalThis.fetch = vi.fn().mockResolvedValue({
+      ok: true,
+      json: async () => ({ audio_url: 'data:audio/mpeg;base64,AAAA' }),
+    });
 
-    const result = speakText('Mbote', 'lingala', { onError, onEnd });
+    const result = speakText('Mbote', 'lingala');
 
-    expect(result).toBe(false);
-    expect(globalThis.fetch).not.toHaveBeenCalled();
-    expect(onError).toHaveBeenCalledWith(expect.any(Error));
-    expect(onEnd).toHaveBeenCalledTimes(1);
+    expect(result).toBe(true);
+    await Promise.resolve();
+    await Promise.resolve();
+    expect(globalThis.fetch).toHaveBeenCalledWith(
+      '/api/audio/synthesize-mms',
+      expect.objectContaining({ method: 'POST' })
+    );
   });
 
   it('resolves the central audio priority order for native/local/remote sources', () => {

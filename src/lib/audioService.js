@@ -69,18 +69,6 @@ const fallbackBrowserSpeech = (text, languageCode = "fr", options = {}) => {
     volume = 1,
   } = options;
 
-  if (isProvisionalSyntheticLanguage(languageCode)) {
-    onError?.(new Error(getSyntheticStatusMessage(languageCode)));
-    onEnd?.();
-    return false;
-  }
-
-  if (languageConfig?.tts?.status === "unavailable") {
-    onError?.(new Error("Audio bientôt disponible pour cette langue."));
-    onEnd?.();
-    return false;
-  }
-
   const win = typeof window !== "undefined" ? window : globalThis;
   if (!win || !("speechSynthesis" in win) || typeof SpeechSynthesisUtterance !== "function") {
     onEnd?.();
@@ -93,7 +81,8 @@ const fallbackBrowserSpeech = (text, languageCode = "fr", options = {}) => {
     return false;
   }
 
-  const preferredVoice = getBestVoice(languageCode || "fr");
+  const useFallbackVoice = isProvisionalSyntheticLanguage(languageCode) || languageConfig?.tts?.status === "unavailable";
+  const preferredVoice = getBestVoice(useFallbackVoice ? "fr" : languageCode || "fr");
   const voices = win.speechSynthesis.getVoices ? win.speechSynthesis.getVoices() : [];
   const hasVoiceList = Array.isArray(voices) && voices.length > 0;
 
@@ -106,7 +95,7 @@ const fallbackBrowserSpeech = (text, languageCode = "fr", options = {}) => {
   stopAllAudio();
 
   const utterance = new SpeechSynthesisUtterance(cleanText);
-  const locale = getTTSLocale(languageCode || "fr");
+  const locale = getTTSLocale(useFallbackVoice ? "fr" : languageCode || "fr");
   if (locale) {
     utterance.lang = locale;
   }
@@ -226,12 +215,6 @@ export const resolveAudioSource = (source, languageCode) => {
 export const speakText = (text, languageCode = "fr", options = {}) => {
   const cleanText = normalizeSpeechText(text);
   if (!cleanText) {
-    options.onEnd?.();
-    return false;
-  }
-
-  if (isProvisionalSyntheticLanguage(languageCode)) {
-    options.onError?.(new Error(getSyntheticStatusMessage(languageCode)));
     options.onEnd?.();
     return false;
   }
