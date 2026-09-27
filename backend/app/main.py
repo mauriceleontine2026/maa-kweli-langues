@@ -8,6 +8,7 @@ from .routers import mms_audio
 from fastapi.staticfiles import StaticFiles
 from pathlib import Path
 import json
+import logging
 import os
 import re
 import secrets
@@ -29,8 +30,10 @@ if any(origin.strip() in {"*", "null"} for origin in allowed_origins):
         "Insecure CORS configuration detected. allow_origins must contain only explicit trusted origins when credentials are enabled."
     )
 
-if os.getenv("VERCEL") != "1":
+try:
     Base.metadata.create_all(bind=engine)
+except Exception:
+    logging.getLogger(__name__).exception("Failed to create database schema during startup")
 
 from sqlalchemy import inspect, text
 
@@ -633,7 +636,10 @@ def _seed_default_languages():
         db.close()
 
 
-_seed_default_languages()
+try:
+    _seed_default_languages()
+except Exception:
+    logging.getLogger(__name__).exception("Default language seeding failed during startup; continuing without seed data")
 
 app.add_middleware(
     CORSMiddleware,

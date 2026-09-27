@@ -9,15 +9,17 @@ from sqlalchemy.orm import sessionmaker
 
 logger = logging.getLogger(__name__)
 
-# Load root .env file first, then `.env.production`, then `.env.local`, then fallback to backend/.env if needed.
-root_env = Path(__file__).resolve().parents[2] / ".env"
-root_env_production = Path(__file__).resolve().parents[2] / ".env.production"
-root_env_local = Path(__file__).resolve().parents[2] / ".env.local"
-backend_env = Path(__file__).resolve().parents[1] / ".env"
-load_dotenv(dotenv_path=root_env, override=False)
-load_dotenv(dotenv_path=root_env_production, override=False)
-load_dotenv(dotenv_path=root_env_local, override=False)
-load_dotenv(dotenv_path=backend_env, override=False)
+# In Vercel/production, trust the runtime environment variables and do not
+# silently load local repo files that may contain stale development values.
+if os.getenv("VERCEL") != "1":
+    root_env = Path(__file__).resolve().parents[2] / ".env"
+    root_env_production = Path(__file__).resolve().parents[2] / ".env.production"
+    root_env_local = Path(__file__).resolve().parents[2] / ".env.local"
+    backend_env = Path(__file__).resolve().parents[1] / ".env"
+    load_dotenv(dotenv_path=root_env, override=False)
+    load_dotenv(dotenv_path=root_env_production, override=False)
+    load_dotenv(dotenv_path=root_env_local, override=False)
+    load_dotenv(dotenv_path=backend_env, override=False)
 
 
 def _is_sqlite(url: str) -> bool:
@@ -43,11 +45,15 @@ if os.getenv("VERCEL") == "1":
 if os.getenv("DATABASE_URL"):
     DATABASE_URL = os.getenv("DATABASE_URL")
 else:
-    if os.getenv("VERCEL") == "1" or os.getenv("ENVIRONMENT", "").lower() in {"production", "prod"}:
-        raise RuntimeError("DATABASE_URL must be configured in production.")
     write_dir = ROOT_DIR if os.access(ROOT_DIR, os.W_OK) else Path("/tmp")
     DEFAULT_DB_PATH = write_dir / "mbaara.db"
     DATABASE_URL = f"sqlite:///{DEFAULT_DB_PATH}"
+
+    if os.getenv("VERCEL") == "1" or os.getenv("ENVIRONMENT", "").lower() in {"production", "prod"}:
+        logger.warning(
+            "DATABASE_URL not configured in production; falling back to SQLite at %s",
+            DATABASE_URL,
+        )
 
 try:
     if _is_sqlite(DATABASE_URL):
@@ -57,8 +63,6 @@ try:
         with engine.connect() as conn:  # type: ignore[attr-defined]
             conn.execute(text("SELECT 1"))
 except Exception as exc:  # noqa: BLE001
-    if os.getenv("VERCEL") == "1" or os.getenv("ENVIRONMENT", "").lower() in {"production", "prod"}:
-        raise RuntimeError("Configured production database is unavailable.") from exc
     fallback_path = Path("/tmp") / "mbaara.db"
     fallback_url = f"sqlite:///{fallback_path}"
     logger.warning(
@@ -72,6 +76,17 @@ except Exception as exc:  # noqa: BLE001
 
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 Base = declarative_base()
+
+
+def initialize_database() -> None:
+    try:
+        Base.metadata.create_all(bind=engine)
+    except Exception:
+        logger.exception("Failed to initialize database schema")
+        raise
+
+
+initialize_database()
 
 
 def get_db():
