@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from "react";
 import { Link, useNavigate, useParams } from "react-router-dom";
 import { CheckCircle2, ArrowLeft, RotateCcw, Trophy, Sparkles, Flame, CircleHelp, Zap, Medal, ArrowRight } from "lucide-react";
 import { useAuth } from "@/lib/AuthContext";
+import { useLanguage } from "@/contexts/LanguageContext";
 import { getProgress } from "@/api/progressService";
 import { getAdaptiveSummary, orderAdaptiveExercises, recordAdaptiveAnswer } from "@/lib/adaptiveLearning";
 import {

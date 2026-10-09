@@ -66,14 +66,34 @@ class MMSTtsProvider(TTSProvider):
         "hau": "facebook/mms-tts-hau",
         "fra": "facebook/mms-tts-fra",
         "eng": "facebook/mms-tts-eng",
+        "deu": "facebook/mms-tts-deu",
         "spa": "facebook/mms-tts-spa",
         "ara": "facebook/mms-tts-ara",
         "por": "facebook/mms-tts-por",
+        "ita": "facebook/mms-tts-ita",
+        "jpn": "facebook/mms-tts-jpn",
+        "rus": "facebook/mms-tts-rus",
+        "hin": "facebook/mms-tts-hin",
+        "zho": "facebook/mms-tts-zho",
+        "bsc": "facebook/mms-tts-bsc",
+        "fuf": "facebook/mms-tts-fuf",
+        "man": "facebook/mms-tts-man",
     }
 
     SUPPORTED_LANGUAGES = set(MODEL_BY_LANGUAGE.keys())
+    LANGUAGE_ALIASES = {
+        "fr": "fra", "en": "eng", "de": "deu", "es": "spa", "ar": "ara",
+        "pt": "por", "it": "ita", "ja": "jpn", "ru": "rus", "hi": "hin",
+        "zh": "zho", "pular": "fuf", "pul": "fuf", "ff": "fuf",
+    }
 
-    def __init__(self, coqui_server_url: str | None = None, cache=None):
+    def __init__(
+        self,
+        coqui_server_url: str | None = None,
+        cache=None,
+        mms_tts_url: str | None = None,
+        api_key: str | None = None,
+    ):
         """
         Args:
             coqui_server_url: URL du serveur Coqui TTS (ex: http://localhost:5000)
@@ -83,14 +103,21 @@ class MMSTtsProvider(TTSProvider):
         self.coqui_server_url = coqui_server_url or os.getenv(
             "COQUI_TTS_URL", "http://localhost:5000"
         )
+        self.mms_tts_url = (mms_tts_url or os.getenv("MMS_TTS_URL", "")).rstrip("/")
+        self.mms_tts_api_key = api_key or os.getenv("MMS_TTS_API_KEY", "")
         self.cache = cache
         self.timeout = float(os.getenv("MMS_TTS_TIMEOUT_SECONDS", "300"))
+
+    @classmethod
+    def normalize_language_code(cls, language_code: str) -> str:
+        code = language_code.strip().lower().split("-")[0]
+        code = {"sw": "swa", "yo": "yor", "ig": "ibo"}.get(code, code)
+        return cls.LANGUAGE_ALIASES.get(code, code)
 
     def resolve_model_for_language(self, language_code: str) -> str | None:
         if not language_code:
             return None
-        lang_code = language_code.strip().lower().split("-")[0]
-        lang_code = {"sw": "swa", "yo": "yor", "ig": "ibo"}.get(lang_code, lang_code)
+        lang_code = self.normalize_language_code(language_code)
         return self.MODEL_BY_LANGUAGE.get(lang_code)
 
     async def synthesize(self, text: str, language_code: str) -> bytes | None:
@@ -101,8 +128,7 @@ class MMSTtsProvider(TTSProvider):
         if not text or not text.strip():
             return None
 
-        lang_code = language_code.strip().lower().split("-")[0]
-        lang_code = {"sw": "swa", "yo": "yor", "ig": "ibo"}.get(lang_code, lang_code)
+        lang_code = self.normalize_language_code(language_code)
         model_name = self.resolve_model_for_language(lang_code)
 
         # Essayer cache
@@ -119,17 +145,27 @@ class MMSTtsProvider(TTSProvider):
         # Appeler Coqui API
         try:
             async with httpx.AsyncClient(timeout=self.timeout) as client:
-                payload = {
-                    "text": text,
-                    "speaker_idx": "random",
-                    "language": lang_code,
-                }
-                if model_name:
-                    payload["model"] = model_name
-                response = await client.post(
-                    f"{self.coqui_server_url}/tts",
-                    json=payload,
-                )
+                if self.mms_tts_url:
+                    if not self.mms_tts_api_key:
+                        logger.error("MMS_TTS_API_KEY is required when MMS_TTS_URL is configured")
+                        return None
+                    response = await client.post(
+                        f"{self.mms_tts_url}/tts",
+                        headers={"X-TTS-API-Key": self.mms_tts_api_key},
+                        json={"text": text, "lang_iso": lang_code},
+                    )
+                else:
+                    payload = {
+                        "text": text,
+                        "speaker_idx": "random",
+                        "language": lang_code,
+                    }
+                    if model_name:
+                        payload["model"] = model_name
+                    response = await client.post(
+                        f"{self.coqui_server_url}/tts",
+                        json=payload,
+                    )
 
                 if response.status_code >= 300:
                     logger.warning(
@@ -159,8 +195,7 @@ class MMSTtsProvider(TTSProvider):
             return None
 
     def supports_language(self, language_code: str) -> bool:
-        lang_code = language_code.strip().lower().split("-")[0]
-        lang_code = {"sw": "swa", "yo": "yor", "ig": "ibo"}.get(lang_code, lang_code)
+        lang_code = self.normalize_language_code(language_code)
         return lang_code in self.SUPPORTED_LANGUAGES
 
     def get_priority(self) -> int:
@@ -223,8 +258,15 @@ class GttsTtsProvider(TTSProvider):
             return None
 
     def supports_language(self, language_code: str) -> bool:
-        """gTTS supporte pratiquement toutes les langues"""
-        return bool(language_code and language_code.strip())
+        """Report only locales present in the installed gTTS package."""
+        if not language_code or not language_code.strip():
+            return False
+        try:
+            from gtts.lang import tts_langs
+
+            return self._normalize_lang_code(language_code) in tts_langs()
+        except Exception:
+            return False
 
     def get_priority(self) -> int:
         return 1  # Priorité 1 = après MMS
@@ -233,34 +275,31 @@ class GttsTtsProvider(TTSProvider):
         """Normalise code pour gTTS (use 2-letter ISO 639-1)"""
         # Mapping spécifique gTTS
         mapping = {
-            "sus": "fr",  # Soussou → French (pas mieux)
-            "mnk": "fr",  # Malinké → French
-            "bam": "fr",  # Bambara → French
-            "kss": "fr",  # Kissi → French
-            "bib": "fr",  # Bissa → French fallback
-            "dyu": "fr",  # Dioula → French fallback
-            "gxx": "fr",  # Guerze → French fallback
-            "kno": "fr",  # Kono/Konyanka → French fallback
-            "kek": "fr",  # Kuranko → French fallback
-            "ldu": "fr",  # Landuma → French fallback
-            "lle": "fr",  # Lele → French fallback
-            "mni": "fr",  # Mani → French fallback
-            "nlu": "fr",  # Nalu → French fallback
-            "snk": "fr",  # Sankaran → French fallback
-            "bsc": "fr",  # Badiaranke → French fallback
-            "bgo": "fr",  # Baga → French fallback
-            "bsq": "fr",  # Bassari → French fallback
-            "bdf": "fr",  # Bedik → French fallback
-            "wol": "fr",  # Wolof → French fallback
-            "ff": "fr",  # Fulfulde → French
-            "wol": "fr",  # Wolof → French
-            "yor": "yo",  # Yoruba OK
-            "swa": "sw",  # Swahili OK
-            "ibo": "ig",  # Igbo OK
-            "hau": "ha",  # Hausa OK
-            "igb": "ig",  # Igbo OK
-            "hau": "ha",  # Hausa OK
-            "swa": "sw",  # Swahili OK
+            "fra": "fr",
+            "francais": "fr",
+            "eng": "en",
+            "anglais": "en",
+            "spa": "es",
+            "espagnol": "es",
+            "deu": "de",
+            "allemand": "de",
+            "ara": "ar",
+            "arabe": "ar",
+            "por": "pt",
+            "portugais": "pt",
+            "ita": "it",
+            "italien": "it",
+            "jpn": "ja",
+            "japonais": "ja",
+            "rus": "ru",
+            "russe": "ru",
+            "hin": "hi",
+            "hindi": "hi",
+            "zho": "zh-CN",
+            "chinois": "zh-CN",
+            "chinois-mandarin": "zh-CN",
+            "swa": "sw",
+            "hau": "ha",
         }
 
         lower = code.strip().lower()
@@ -269,7 +308,7 @@ class GttsTtsProvider(TTSProvider):
 
         # Essayer 2-letter code
         two_letter = lower.split("-")[0]
-        return two_letter if len(two_letter) == 2 else "en"
+        return two_letter if len(two_letter) == 2 else lower
 
     def _purge_old_files(self):
         """Supprime fichiers audio > 24h"""

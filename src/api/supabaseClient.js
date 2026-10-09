@@ -30,7 +30,7 @@ export async function signInWithGoogle() {
     window.location.href = data.url;
     return { token: null, data };
   }
-  return { token: data?.session?.access_token || null, data };
+  return { token: null, data };
 }
 
 export async function signUp(email, password, fullName) {

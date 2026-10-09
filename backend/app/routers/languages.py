@@ -1,12 +1,29 @@
 import re
 from fastapi import APIRouter, Depends, HTTPException, status
-from pydantic import BaseModel, field_validator
+from pydantic import BaseModel, Field, field_validator
+import pycountry
 from sqlalchemy.orm import Session
 from ..database import get_db
 from ..models.language import Language
+from ..models.language_adapter import LanguageCodeAdapter
 from ..services.security import require_admin
 
 router = APIRouter()
+
+
+def normalize_language_text(value: str | None) -> str | None:
+    if value is None:
+        return None
+
+    text = value.strip()
+    if not text:
+        return text
+
+    try:
+        return text.encode("latin-1").decode("utf-8")
+    except (UnicodeDecodeError, UnicodeEncodeError):
+        return text
+
 
 def _sanitize_text(value: str | None, *, max_length: int) -> str | None:
     if value is None:
@@ -15,7 +32,7 @@ def _sanitize_text(value: str | None, *, max_length: int) -> str | None:
     text = re.sub(r"[\x00-\x08\x0B\x0C\x0E-\x1F\x7F]", "", text)
     if len(text) > max_length:
         raise ValueError(f"Text exceeds maximum length of {max_length} characters")
-    return text
+    return normalize_language_text(text)
 
 
 class LanguageCreateRequest(BaseModel):
@@ -61,18 +78,40 @@ class LanguageCreateRequest(BaseModel):
         return value
 
 
+class LanguageCodeAdapterRequest(BaseModel):
+    iso639_3: str = Field(..., min_length=3, max_length=3)
+    tts_model_id: str | None = Field(default=None, max_length=255)
+
+    @field_validator("iso639_3")
+    @classmethod
+    def validate_iso639_3(cls, value: str) -> str:
+        code = value.strip().lower()
+        if not re.fullmatch(r"[a-z]{3}", code) or not pycountry.languages.get(alpha_3=code):
+            raise ValueError("iso639_3 must be a registered ISO 639-3 alpha-3 code")
+        return code
+
+    @field_validator("tts_model_id")
+    @classmethod
+    def sanitize_tts_model_id(cls, value: str | None) -> str | None:
+        return _sanitize_text(value, max_length=255)
+
+
 @router.get("")
 def list_languages(status: str | None = None, db: Session = Depends(get_db)):
     query = db.query(Language)
     if status:
         query = query.filter(Language.status == status)
     languages = query.order_by(Language.name.asc()).all()
+    adapters = {
+        adapter.language_code: adapter
+        for adapter in db.query(LanguageCodeAdapter).filter(LanguageCodeAdapter.language_code.in_([lang.code for lang in languages])).all()
+    }
     return [
         {
             "id": lang.id,
             "code": lang.code,
-            "name": lang.name,
-            "name_fr": lang.name_fr,
+            "name": normalize_language_text(lang.name),
+            "name_fr": normalize_language_text(lang.name_fr),
             "region": lang.region,
             "family": lang.family,
             "status": lang.status,
@@ -80,6 +119,8 @@ def list_languages(status: str | None = None, db: Session = Depends(get_db)):
             "flag_emoji": lang.flag_emoji,
             "total_lessons": lang.total_lessons,
             "description": lang.description,
+            "iso639_3": adapters[lang.code].iso639_3 if lang.code in adapters else None,
+            "tts_model_id": adapters[lang.code].tts_model_id if lang.code in adapters else None,
         }
         for lang in languages
     ]
@@ -90,11 +131,12 @@ def get_language(code: str, db: Session = Depends(get_db)):
     language = db.query(Language).filter(Language.code == code).first()
     if not language:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Language not found")
+    adapter = db.query(LanguageCodeAdapter).filter(LanguageCodeAdapter.language_code == code).first()
     return {
         "id": language.id,
         "code": language.code,
-        "name": language.name,
-        "name_fr": language.name_fr,
+        "name": normalize_language_text(language.name),
+        "name_fr": normalize_language_text(language.name_fr),
         "region": language.region,
         "family": language.family,
         "status": language.status,
@@ -102,7 +144,41 @@ def get_language(code: str, db: Session = Depends(get_db)):
         "flag_emoji": language.flag_emoji,
         "total_lessons": language.total_lessons,
         "description": language.description,
+        "iso639_3": adapter.iso639_3 if adapter else None,
+        "tts_model_id": adapter.tts_model_id if adapter else None,
     }
+
+
+@router.get("/{code}/adapter")
+def get_language_code_adapter(code: str, db: Session = Depends(get_db)):
+    language = db.query(Language).filter(Language.code == code).first()
+    if not language:
+        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Language not found")
+    adapter = db.query(LanguageCodeAdapter).filter(LanguageCodeAdapter.language_code == code).first()
+    if not adapter:
+        return None
+    return {"language_code": adapter.language_code, "iso639_3": adapter.iso639_3, "tts_model_id": adapter.tts_model_id}
+
+
+@router.put("/{code}/adapter")
+def save_language_code_adapter(
+    code: str,
+    payload: LanguageCodeAdapterRequest,
+    db: Session = Depends(get_db),
+    current_user=Depends(require_admin),
+):
+    if not db.query(Language.id).filter(Language.code == code).first():
+        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Language not found")
+    adapter = db.query(LanguageCodeAdapter).filter(LanguageCodeAdapter.language_code == code).first()
+    if not adapter:
+        adapter = LanguageCodeAdapter(language_code=code, verified_by_id=str(current_user.id))
+        db.add(adapter)
+    adapter.iso639_3 = payload.iso639_3
+    adapter.tts_model_id = payload.tts_model_id
+    adapter.verified_by_id = str(current_user.id)
+    db.commit()
+    db.refresh(adapter)
+    return {"language_code": adapter.language_code, "iso639_3": adapter.iso639_3, "tts_model_id": adapter.tts_model_id}
 
 
 @router.post("", status_code=status.HTTP_201_CREATED)

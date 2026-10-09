@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { auditLanguage, createLesson, getLessonsForLanguage, updateLesson } from "@/api/languageService";
+import { getLanguageLabel } from "@/lib/languageLabels";
 import { Plus, Eye, EyeOff, ChevronDown, ChevronUp, Sparkles, Loader2, Check } from "lucide-react";
 
 const normalizeLessonLevel = (value) => {
@@ -142,7 +143,7 @@ export default function AdminLessons({ languages }) {
     <div className="space-y-5">
       {/* Language selector */}
       <select value={lang} onChange={e => setLang(e.target.value)} className="w-full sm:w-auto border border-border bg-card rounded-xl px-4 py-2.5 text-sm">
-        {languages.map(l => <option key={l.code} value={l.code}>{l.flag_emoji} {l.name_fr}</option>)}
+        {languages.map(l => <option key={l.code} value={l.code}>{l.flag_emoji} {getLanguageLabel(l)}</option>)}
       </select>
 
       <div className="rounded-2xl border border-primary/30 bg-primary/5 p-5 space-y-4">
@@ -302,7 +303,7 @@ export default function AdminLessons({ languages }) {
                             type="number"
                             min="1"
                             value={editLessonDraft.order}
-                            onChange={(e) => handleEditLessonChange("order", parseInt(e.target.value || 1, 10))}
+                            onChange={(e) => handleEditLessonChange("order", parseInt(e.target.value || "1", 10))}
                             className={inputCls}
                           />
                         </div>

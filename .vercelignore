@@ -1,9 +1,15 @@
 node_modules
 dist
 .git
+.env*
+**/.env*
+vercel_envs.json
+vercel_projects.json
+vercel_prod_warnings.json
 render.yaml
 replit.*
 .venv
+.venv-*
 mobile
 mobile/**
 render-cli

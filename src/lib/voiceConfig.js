@@ -18,236 +18,92 @@
  * - uiNotice: Message discret pour l'utilisateur (optionnel)
  */
 
+const createGttsProfile = (displayName, iso6393, bcp47, country) => ({
+  displayName,
+  iso6393,
+  bcp47,
+  country,
+  tts: {
+    primaryProvider: "gtts",
+    modelId: null,
+    backendIntegration: "gtts",
+    status: "fallback-only",
+    commercialUseAllowed: "to-be-verified",
+    nativeValidated: false,
+    allowBrowserFallback: true,
+  },
+  uiNotice: "Voix gTTS provisoire; accent et conditions d'utilisation à vérifier.",
+});
+
+const createUnavailableProfile = (displayName, iso6393, bcp47, country) => ({
+  displayName,
+  iso6393,
+  bcp47,
+  country,
+  tts: {
+    primaryProvider: null,
+    modelId: null,
+    backendIntegration: null,
+    status: "unavailable",
+    commercialUseAllowed: null,
+    nativeValidated: false,
+    allowBrowserFallback: true,
+  },
+  uiNotice: "Le cours est disponible, mais aucun audio validé n’est encore ajouté pour cette langue.",
+});
+
+const createRestrictedMmsProfile = (displayName, iso6393, bcp47, country, modelId) => ({
+  displayName,
+  iso6393,
+  bcp47,
+  country,
+  tts: {
+    primaryProvider: null,
+    modelId,
+    backendIntegration: null,
+    status: "unavailable",
+    commercialUseAllowed: false,
+    nativeValidated: false,
+    allowBrowserFallback: true,
+  },
+  uiNotice: "⚫ Modèle MMS sous licence CC-BY-NC 4.0; non activé pour ce service.",
+});
+
 export const LANGUAGE_VOICE_CONFIG = {
   // ╔════════════════════════════════════════════════════════════════╗
   // ║ LANGUES GUINÉENNES — MMS via Coqui (CC-BY-NC → Coqui wrapper) ║
   // ╚════════════════════════════════════════════════════════════════╝
 
-  sus: {
-    displayName: "Soussou",
-    iso6393: "sus",
-    bcp47: "sus-GN",
-    country: "Guinea (Préfecture de Kindia)",
-    tts: {
-      primaryProvider: "mms",
-      modelId: "facebook/mms-tts-sus",
-      backendIntegration: "coqui-server", // ← Coqui XTTS-v2 wrapper
-      status: "experimental",
-      commercialUseAllowed: true, // ← Via Coqui CPML license
-      nativeValidated: false,
-      allowBrowserFallback: true
-    },
-    uiNotice: "🟡 Synthèse IA expérimentale — prononciation à valider."
-  },
+  sus: createRestrictedMmsProfile("Soussou", "sus", "sus-GN", "Guinea (Préfecture de Kindia)", "facebook/mms-tts-sus"),
 
-  mnk: {
-    displayName: "Malinké",
-    iso6393: "mnk",
-    bcp47: "mnk-GN",
-    country: "Guinea (Préfecture de Kindia, Mamou)",
-    tts: {
-      primaryProvider: "mms",
-      modelId: "facebook/mms-tts-mnk",
-      backendIntegration: "coqui-server",
-      status: "experimental",
-      commercialUseAllowed: true,
-      nativeValidated: false,
-      allowBrowserFallback: true
-    },
-    uiNotice: "🟡 Synthèse IA expérimentale — prononciation à valider."
-  },
+  mnk: createRestrictedMmsProfile("Malinké / Mandinka", "mnk", "mnk-GN", "Guinea (Préfecture de Kindia, Mamou)", "facebook/mms-tts-mnk"),
 
-  bam: {
-    displayName: "Bambara",
-    iso6393: "bam",
-    bcp47: "bam-ML",
-    country: "Mali (connecté Guinée)",
-    tts: {
-      primaryProvider: "mms",
-      modelId: "facebook/mms-tts-bam",
-      backendIntegration: "coqui-server",
-      status: "experimental",
-      commercialUseAllowed: true,
-      nativeValidated: false,
-      allowBrowserFallback: true
-    },
-    uiNotice: "🟡 Synthèse IA expérimentale — prononciation à valider."
-  },
+  bam: createRestrictedMmsProfile("Bambara / Bamanankan", "bam", "bam-ML", "Mali (connecté Guinée)", "facebook/mms-tts-bam"),
 
-  kss: {
-    displayName: "Kissi",
-    iso6393: "kss",
-    bcp47: "kss-GN",
-    country: "Guinea (Sud-Est)",
-    tts: {
-      primaryProvider: "mms",
-      modelId: "facebook/mms-tts-kss",
-      backendIntegration: "coqui-server",
-      status: "experimental",
-      commercialUseAllowed: true,
-      nativeValidated: false,
-      allowBrowserFallback: true
-    },
-    uiNotice: "🟡 Synthèse IA expérimentale — prononciation à valider."
-  },
+  kss: createRestrictedMmsProfile("Kissi du Sud", "kss", "kss-GN", "Guinea (Sud-Est)", "facebook/mms-tts-kss"),
 
-  kek: {
-    displayName: "Kuranko",
-    iso6393: "kek",
-    bcp47: "kek-SL",
-    country: "Sierra Leone (connexion Guinée)",
-    tts: {
-      primaryProvider: "mms",
-      modelId: "facebook/mms-tts-kek",
-      backendIntegration: "coqui-server",
-      status: "experimental",
-      commercialUseAllowed: true,
-      nativeValidated: false,
-      allowBrowserFallback: true
-    },
-    uiNotice: "🟡 Synthèse IA expérimentale — prononciation à valider."
-  },
+  kek: createRestrictedMmsProfile("Q’eqchi’", "kek", "kek-GT", "Guatemala", "facebook/mms-tts-kek"),
 
-  yal: {
-    displayName: "Yalunka",
-    iso6393: "yal",
-    bcp47: "yal-GN",
-    country: "Guinea (Préfecture de Mamou)",
-    tts: {
-      primaryProvider: "mms",
-      modelId: "facebook/mms-tts-yal",
-      backendIntegration: "coqui-server",
-      status: "experimental",
-      commercialUseAllowed: true,
-      nativeValidated: false,
-      allowBrowserFallback: true
-    },
-    uiNotice: "🟡 Synthèse IA expérimentale — prononciation à valider."
-  },
+  yal: createRestrictedMmsProfile("Yalunka", "yal", "yal-GN", "Guinea (Préfecture de Mamou)", "facebook/mms-tts-yal"),
 
-  kno: {
-    displayName: "Kono",
-    iso6393: "kno",
-    bcp47: "kno-SL",
-    country: "Sierra Leone (connexion Guinée)",
-    tts: {
-      primaryProvider: "mms",
-      modelId: "facebook/mms-tts-kno",
-      backendIntegration: "coqui-server",
-      status: "experimental",
-      commercialUseAllowed: true,
-      nativeValidated: false,
-      allowBrowserFallback: true
-    },
-    uiNotice: "🟡 Synthèse IA expérimentale — prononciation à valider."
-  },
+  kno: createRestrictedMmsProfile("Kono", "kno", "kno-SL", "Sierra Leone (connexion Guinée)", "facebook/mms-tts-kno"),
 
-  mev: {
-    displayName: "Mano",
-    iso6393: "mev",
-    bcp47: "mev-GN",
-    country: "Guinea/Liberia",
-    tts: {
-      primaryProvider: "mms",
-      modelId: "facebook/mms-tts-mev",
-      backendIntegration: "coqui-server",
-      status: "experimental",
-      commercialUseAllowed: true,
-      nativeValidated: false,
-      allowBrowserFallback: true
-    },
-    uiNotice: "🟡 Synthèse IA expérimentale — prononciation à valider."
-  },
+  mev: createRestrictedMmsProfile("Mano / Maan", "mev", "mev-GN", "Guinea/Liberia", "facebook/mms-tts-mev"),
 
-  tom: {
-    displayName: "Toma",
-    iso6393: "tom",
-    bcp47: "tom-GN",
-    country: "Guinea/Liberia",
-    tts: {
-      primaryProvider: "mms",
-      modelId: "facebook/mms-tts-tom",
-      backendIntegration: "coqui-server",
-      status: "experimental",
-      commercialUseAllowed: true,
-      nativeValidated: false,
-      allowBrowserFallback: true
-    },
-    uiNotice: "🟡 Synthèse IA expérimentale — prononciation à valider."
-  },
+  tom: createRestrictedMmsProfile("Tombulu", "tom", "tom-ID", "Indonesia (North Sulawesi)", "facebook/mms-tts-tom"),
 
-  mos: {
-    displayName: "Mossi / Moore",
-    iso6393: "mos",
-    bcp47: "mos-BF",
-    country: "Burkina Faso (région connectée)",
-    tts: {
-      primaryProvider: "mms",
-      modelId: "facebook/mms-tts-mos",
-      backendIntegration: "coqui-server",
-      status: "experimental",
-      commercialUseAllowed: true,
-      nativeValidated: false,
-      allowBrowserFallback: true
-    },
-    uiNotice: "🟡 Synthèse IA expérimentale — prononciation à valider."
-  },
+  mos: createRestrictedMmsProfile("Mooré", "mos", "mos-BF", "Burkina Faso", "facebook/mms-tts-mos"),
 
   // ╔════════════════════════════════════════════════════════════════╗
   // ║ LANGUES GUINÉENNES — PAS DE MODÈLE TTS OUVERT TROUVÉ          ║
   // ║ Fallback: gTTS (suboptimal) + Web Speech API                  ║
   // ╚════════════════════════════════════════════════════════════════╝
 
-  ff: {
-    displayName: "Fulfulde / Pular",
-    iso6393: "ff",
-    bcp47: "ff-GN",
-    country: "Guinea (20% population) — CRITIQUE",
-    tts: {
-      primaryProvider: null, // ← Aucun modèle open source trouvé
-      modelId: null,
-      backendIntegration: "gtts", // ← Fallback gTTS (mauvais accent)
-      status: "fallback-only",
-      commercialUseAllowed: true, // ← gTTS OK
-      nativeValidated: false,
-      allowBrowserFallback: true // ← Web Speech API si gTTS fail
-    },
-    uiNotice: "⚪ Prononciation provisoire (gTTS). Audio humain prévu."
-  },
+  ff: createUnavailableProfile("Fulfulde", "ff", "ff-GN", "Guinea"),
 
-  pul: {
-    displayName: "Pular (Fulfulde Ouest)",
-    iso6393: "pul",
-    bcp47: "pul-GN",
-    country: "Guinea/Sénégal",
-    tts: {
-      primaryProvider: null,
-      modelId: null,
-      backendIntegration: "gtts",
-      status: "fallback-only",
-      commercialUseAllowed: true,
-      nativeValidated: false,
-      allowBrowserFallback: true
-    },
-    uiNotice: "⚪ Prononciation provisoire (gTTS). Audio humain prévu."
-  },
+  pul: createUnavailableProfile("Pular", "pul", "pul-GN", "Guinea/Sénégal"),
 
-  fuc: {
-    displayName: "Fulfulde (Maaco)",
-    iso6393: "fuc",
-    bcp47: "fuc-GN",
-    country: "Guinea (dialecte Fulbe)",
-    tts: {
-      primaryProvider: null,
-      modelId: null,
-      backendIntegration: "gtts",
-      status: "fallback-only",
-      commercialUseAllowed: true,
-      nativeValidated: false,
-      allowBrowserFallback: true
-    },
-    uiNotice: "⚪ Prononciation provisoire (gTTS). Audio humain prévu."
-  },
+  fuc: createUnavailableProfile("Fulfulde (Maaco)", "fuc", "fuc-GN", "Guinea"),
 
   gxx: {
     displayName: "Guerze",
@@ -334,22 +190,7 @@ export const LANGUAGE_VOICE_CONFIG = {
     uiNotice: "⚫ Audio non disponible."
   },
 
-  nqo: {
-    displayName: "Nalu",
-    iso6393: "nqo",
-    bcp47: "nqo-GN",
-    country: "Guinea",
-    tts: {
-      primaryProvider: null,
-      modelId: null,
-      backendIntegration: null,
-      status: "unavailable",
-      commercialUseAllowed: null,
-      nativeValidated: false,
-      allowBrowserFallback: true
-    },
-    uiNotice: "⚫ Audio non disponible."
-  },
+  nlu: createUnavailableProfile("Nalu", "nlu", "nlu-GN", "Guinea"),
 
   snk: {
     displayName: "Sankaran",
@@ -453,187 +294,61 @@ export const LANGUAGE_VOICE_CONFIG = {
     uiNotice: "⚫ Audio non disponible."
   },
 
+  bib: createUnavailableProfile("Bissa", "bib", "bib-BF", "Burkina Faso"),
+  dyu: createUnavailableProfile("Dioula / Jula", "dyu", "dyu-BF", "Burkina Faso / Côte d'Ivoire"),
+  lin: createUnavailableProfile("Lingala", "lin", "lin-CD", "Congo / RDC"),
+  konyanka: createUnavailableProfile("Konyanka", null, null, "Guinea / Côte d'Ivoire"),
+  kuranko: createUnavailableProfile("Kuranko", null, null, "Guinea / Sierra Leone"),
+  toma: createUnavailableProfile("Toma", null, null, "Guinea / Liberia"),
+
   // ╔════════════════════════════════════════════════════════════════╗
   // ║ LANGUES RÉGIONALES CONNECTÉES — MMS via Coqui                ║
   // ╚════════════════════════════════════════════════════════════════╝
 
-  wol: {
-    displayName: "Wolof",
-    iso6393: "wol",
-    bcp47: "wol-SN",
-    country: "Sénégal",
-    tts: {
-      primaryProvider: null, // ← Pas de modèle MMS trouvé publiquement
-      modelId: null,
-      backendIntegration: "gtts",
-      status: "fallback-only",
-      commercialUseAllowed: true,
-      nativeValidated: false,
-      allowBrowserFallback: true
-    },
-    uiNotice: "⚪ Prononciation provisoire (gTTS)."
-  },
+  wol: createUnavailableProfile("Wolof", "wol", "wo-SN", "Sénégal"),
 
   // ╔════════════════════════════════════════════════════════════════╗
   // ║ LANGUES MAJEURES — VALIDÉES                                   ║
   // ╚════════════════════════════════════════════════════════════════╝
 
   fra: {
-    displayName: "Français",
-    iso6393: "fra",
-    bcp47: "fr-FR",
-    country: "France / Afrique Francophone",
-    tts: {
-      primaryProvider: "mms",
-      modelId: "facebook/mms-tts-fra",
-      backendIntegration: "coqui-server",
-      status: "validated",
-      commercialUseAllowed: true,
-      nativeValidated: true, // ← Excellent support
-      allowBrowserFallback: true
-    },
-    uiNotice: "🟢 Synthèse IA validée."
+    ...createGttsProfile("Français", "fra", "fr-FR", "France / Afrique Francophone"),
   },
 
   eng: {
-    displayName: "English",
-    iso6393: "eng",
-    bcp47: "en-US",
-    country: "International",
-    tts: {
-      primaryProvider: "mms",
-      modelId: "facebook/mms-tts-eng",
-      backendIntegration: "coqui-server",
-      status: "validated",
-      commercialUseAllowed: true,
-      nativeValidated: true,
-      allowBrowserFallback: true
-    },
-    uiNotice: "🟢 Synthèse IA validée."
+    ...createGttsProfile("English", "eng", "en-US", "International"),
   },
 
   spa: {
-    displayName: "Español",
-    iso6393: "spa",
-    bcp47: "es-ES",
-    country: "Spain / Spanish-speaking world",
-    tts: {
-      primaryProvider: "mms",
-      modelId: "facebook/mms-tts-spa",
-      backendIntegration: "coqui-server",
-      status: "validated",
-      commercialUseAllowed: true,
-      nativeValidated: true,
-      allowBrowserFallback: true
-    },
-    uiNotice: "🟢 Synthèse IA validée."
+    ...createGttsProfile("Español", "spa", "es-ES", "Spain / Spanish-speaking world"),
   },
 
   ara: {
-    displayName: "العربية (Arabe)",
-    iso6393: "ara",
-    bcp47: "ar-SA",
-    country: "Arab regions",
-    tts: {
-      primaryProvider: "mms",
-      modelId: "facebook/mms-tts-ara",
-      backendIntegration: "coqui-server",
-      status: "validated",
-      commercialUseAllowed: true,
-      nativeValidated: true,
-      allowBrowserFallback: true
-    },
-    uiNotice: "🟢 Synthèse IA validée."
+    ...createGttsProfile("العربية (Arabe)", "ara", "ar-SA", "Arab regions"),
   },
 
   por: {
-    displayName: "Português",
-    iso6393: "por",
-    bcp47: "pt-BR",
-    country: "Brazil / Portugal",
-    tts: {
-      primaryProvider: "mms",
-      modelId: "facebook/mms-tts-por",
-      backendIntegration: "coqui-server",
-      status: "validated",
-      commercialUseAllowed: true,
-      nativeValidated: true,
-      allowBrowserFallback: true
-    },
-    uiNotice: "🟢 Synthèse IA validée."
+    ...createGttsProfile("Português", "por", "pt-BR", "Brazil / Portugal"),
   },
+
+  deu: createGttsProfile("Deutsch", "deu", "de-DE", "Germany"),
+  ita: createGttsProfile("Italiano", "ita", "it-IT", "Italy"),
+  rus: createGttsProfile("Русский", "rus", "ru-RU", "Russia"),
+  hin: createGttsProfile("हिन्दी", "hin", "hi-IN", "India"),
+  zho: createGttsProfile("中文", "zho", "zh-CN", "China"),
+  jpn: createGttsProfile("日本語", "jpn", "ja-JP", "Japan"),
 
   // ╔════════════════════════════════════════════════════════════════╗
   // ║ LANGUES AFRICAINES — FUTURES EXPANSIONS (pas dans app encore) ║
   // ╚════════════════════════════════════════════════════════════════╝
 
-  yor: {
-    displayName: "Yorùbá",
-    iso6393: "yor",
-    bcp47: "yo-NG",
-    country: "Nigeria",
-    tts: {
-      primaryProvider: null, // ← Pas de modèle MMS public trouvé
-      modelId: null,
-      backendIntegration: "gtts",
-      status: "fallback-only",
-      commercialUseAllowed: true,
-      nativeValidated: false,
-      allowBrowserFallback: true
-    },
-    uiNotice: "⚪ Prononciation provisoire (gTTS)."
-  },
+  yor: createUnavailableProfile("Yorùbá", "yor", "yo-NG", "Nigeria"),
 
-  igb: {
-    displayName: "Igbo",
-    iso6393: "igb",
-    bcp47: "ig-NG",
-    country: "Nigeria",
-    tts: {
-      primaryProvider: null,
-      modelId: null,
-      backendIntegration: "gtts",
-      status: "fallback-only",
-      commercialUseAllowed: true,
-      nativeValidated: false,
-      allowBrowserFallback: true
-    },
-    uiNotice: "⚪ Prononciation provisoire (gTTS)."
-  },
+  igb: createUnavailableProfile("Igbo", "igb", "ig-NG", "Nigeria"),
 
-  hau: {
-    displayName: "Hausa",
-    iso6393: "hau",
-    bcp47: "ha-NG",
-    country: "Nigeria",
-    tts: {
-      primaryProvider: null,
-      modelId: null,
-      backendIntegration: "gtts",
-      status: "fallback-only",
-      commercialUseAllowed: true,
-      nativeValidated: false,
-      allowBrowserFallback: true
-    },
-    uiNotice: "⚪ Prononciation provisoire (gTTS)."
-  },
+  hau: createGttsProfile("Hausa", "hau", "ha-NG", "Nigeria"),
 
-  swa: {
-    displayName: "Kiswahili",
-    iso6393: "swa",
-    bcp47: "sw-KE",
-    country: "Kenya / East Africa",
-    tts: {
-      primaryProvider: null,
-      modelId: null,
-      backendIntegration: "gtts",
-      status: "fallback-only",
-      commercialUseAllowed: true,
-      nativeValidated: false,
-      allowBrowserFallback: true
-    },
-    uiNotice: "⚪ Prononciation provisoire (gTTS)."
-  },
+  swa: createGttsProfile("Kiswahili", "swa", "sw-KE", "Kenya / East Africa"),
 };
 
 /**
@@ -648,6 +363,77 @@ export function getLanguageConfig(languageCode) {
 export function normalizeLanguageCode(code) {
   if (!code) return "";
   const lower = String(code).trim().toLowerCase();
+  const aliases = {
+    fr: "fra",
+    francais: "fra",
+    french: "fra",
+    français: "fra",
+    en: "eng",
+    anglais: "eng",
+    english: "eng",
+    es: "spa",
+    espagnol: "spa",
+    spanish: "spa",
+    de: "deu",
+    allemand: "deu",
+    german: "deu",
+    ar: "ara",
+    arabe: "ara",
+    arabic: "ara",
+    pt: "por",
+    portugais: "por",
+    portuguese: "por",
+    it: "ita",
+    italien: "ita",
+    italian: "ita",
+    ja: "jpn",
+    japonais: "jpn",
+    japanese: "jpn",
+    ru: "rus",
+    russe: "rus",
+    russian: "rus",
+    hi: "hin",
+    hindi: "hin",
+    zh: "zho",
+    zho: "zho",
+    chinois: "zho",
+    "chinois-mandarin": "zho",
+    mandarin: "zho",
+    chinese: "zho",
+    swahili: "swa",
+    kiswahili: "swa",
+    hausa: "hau",
+    badiaranke: "bsc",
+    baga: "bgo",
+    bassari: "bsq",
+    bedik: "bif",
+    bissa: "bib",
+    dioula: "dyu",
+    guerze: "gxx",
+    igbo: "igb",
+    koniagui: "kxp",
+    kono: "kno",
+    konyanka: "konyanka",
+    kuranko: "kuranko",
+    landuma: "ldu",
+    lele: "lle",
+    lingala: "lin",
+    malinke: "mnk",
+    mani: "mni",
+    mano: "mev",
+    moore: "mos",
+    nalu: "nlu",
+    pular: "pul",
+    peul: "ff",
+    fulfulde: "ff",
+    sankaran: "snk",
+    soussou: "sus",
+    toma: "toma",
+    yalunka: "yal",
+    yoruba: "yor",
+    wolof: "wol",
+  };
+  if (aliases[lower]) return aliases[lower];
   // Essayer match exact d'abord
   if (LANGUAGE_VOICE_CONFIG[lower]) return lower;
   // Essayer 2-letter code

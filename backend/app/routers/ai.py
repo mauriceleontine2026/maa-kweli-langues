@@ -298,24 +298,62 @@ async def translate(
     current_user=Depends(get_current_user),
     _rate_limit=Depends(_ai_rate_limiter),
 ):
-    """Translate rare/local languages through a separately hosted NLLB model."""
+    """Translate content using NLLB when available, otherwise the configured AI provider."""
     nllb_url = os.getenv("NLLB_API_URL")
-    if not nllb_url:
-        raise HTTPException(status_code=501, detail="NLLB translation provider is not configured")
-    headers = {"Content-Type": "application/json"}
-    if os.getenv("HF_API_TOKEN"):
-        headers["Authorization"] = f"Bearer {os.getenv('HF_API_TOKEN')}"
-    async with httpx.AsyncClient(timeout=45.0) as client:
-        response = await client.post(
-            nllb_url,
-            headers=headers,
-            json={"inputs": payload.text, "parameters": {"src_lang": payload.source_language, "tgt_lang": payload.target_language}},
-        )
-    if response.status_code >= 300:
-        raise HTTPException(status_code=502, detail="Translation provider request failed")
-    result = response.json()
-    if isinstance(result, list) and result and isinstance(result[0], dict):
-        translated_text = result[0].get("translation_text", "")
-    else:
-        translated_text = result.get("translation_text", "") if isinstance(result, dict) else ""
-    return {"translation": translated_text, "source_language": payload.source_language, "target_language": payload.target_language, "provider": "nllb-200"}
+    providers = []
+    if nllb_url:
+        providers.append("nllb")
+
+    for name in ("openai", "anthropic", "gemini", "perplexity"):
+        if name == "openai" and _get_env_value("OPENAI_API_KEY", "OPENAI_KEY"):
+            providers.append(name)
+        elif name == "anthropic" and _get_env_value("ANTHROPIC_API_KEY", "ANTHROPIC_KEY"):
+            providers.append(name)
+        elif name == "gemini" and _get_env_value("GEMINI_API_KEY", "GOOGLE_AI_API_KEY", "GEMINI_KEY"):
+            providers.append(name)
+        elif name == "perplexity" and _get_env_value("PERPLEXITY_API_KEY"):
+            providers.append(name)
+
+    if not providers:
+        raise HTTPException(status_code=503, detail="No translation provider is configured")
+
+    last_error = None
+    for provider in providers:
+        try:
+            if provider == "nllb":
+                headers = {"Content-Type": "application/json"}
+                if os.getenv("HF_API_TOKEN"):
+                    headers["Authorization"] = f"Bearer {os.getenv('HF_API_TOKEN')}"
+                async with httpx.AsyncClient(timeout=45.0) as client:
+                    response = await client.post(
+                        nllb_url,
+                        headers=headers,
+                        json={"inputs": payload.text, "parameters": {"src_lang": payload.source_language, "tgt_lang": payload.target_language}},
+                    )
+                if response.status_code >= 300:
+                    raise HTTPException(status_code=502, detail="Translation provider request failed")
+                result = response.json()
+                if isinstance(result, list) and result and isinstance(result[0], dict):
+                    translated_text = result[0].get("translation_text", "")
+                else:
+                    translated_text = result.get("translation_text", "") if isinstance(result, dict) else ""
+                return {"translation": translated_text, "source_language": payload.source_language, "target_language": payload.target_language, "provider": "nllb-200"}
+
+            prompt = (
+                f"Translate the following text from {payload.source_language} to {payload.target_language}. "
+                f"Return only the translated text, without explanations or extra formatting.\n\nText: {payload.text}"
+            )
+            translation = await call_openai(prompt) if provider == "openai" else None
+            if provider == "anthropic":
+                translation = await call_anthropic(prompt)
+            if provider == "gemini":
+                translation = await call_gemini(prompt)
+            if provider == "perplexity":
+                translation = await call_perplexity(prompt)
+            return {"translation": translation, "source_language": payload.source_language, "target_language": payload.target_language, "provider": provider}
+        except HTTPException as error:
+            last_error = error
+        except Exception as error:
+            last_error = HTTPException(status_code=502, detail=f"{provider.title()} translation failed")
+
+    raise last_error or HTTPException(status_code=503, detail="No translation provider is available")

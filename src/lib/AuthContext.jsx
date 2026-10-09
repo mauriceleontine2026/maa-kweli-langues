@@ -1,5 +1,5 @@
 import React, { createContext, useState, useContext, useEffect, useRef } from 'react';
-import { getCurrentUser, logout as logoutService, restoreBackendSession } from '@/api/authService';
+import { getCurrentUser, hasActiveAuthSession, logout as logoutService, restoreBackendSession } from '@/api/authService';
 
 const AuthContext = createContext(null);
 
@@ -92,6 +92,20 @@ export const AuthProvider = ({ children }) => {
     const currentCheckId = ++authCheckId.current;
     setIsLoadingAuth(true);
     setAuthError(null);
+
+    if (!hasActiveAuthSession()) {
+      if (currentCheckId !== authCheckId.current) return;
+      setUser(null);
+      setIsAuthenticated(false);
+      persistUser(null);
+      if (typeof window !== 'undefined') {
+        window.dispatchEvent(new Event('mbaara-user-updated'));
+        window.dispatchEvent(new Event('mbaara-progress-updated'));
+      }
+      setIsLoadingAuth(false);
+      setAuthChecked(true);
+      return;
+    }
 
     try {
       let currentUser;

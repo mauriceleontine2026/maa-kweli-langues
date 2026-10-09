@@ -1,4 +1,4 @@
-import { describe, it, expect, beforeEach, afterEach } from 'vitest';
+import { describe, it, expect, beforeEach, afterEach, vi } from 'vitest';
 import { renderToStaticMarkup } from 'react-dom/server';
 import { MemoryRouter } from 'react-router-dom';
 import Studio from './Studio';
@@ -6,19 +6,17 @@ import AccentWorkshop from './studio/AccentWorkshop';
 import { LanguageProvider } from '@/contexts/LanguageContext';
 
 describe('Studio page', () => {
-  const originalWindow = global.window;
-
   beforeEach(() => {
-    global.window = {
+    vi.stubGlobal('window', {
       localStorage: {
         getItem: (key) => (key === 'maa-kweli-language' ? 'en' : null),
         setItem: () => {},
       },
-    };
+    });
   });
 
   afterEach(() => {
-    global.window = originalWindow;
+    vi.unstubAllGlobals();
   });
 
   it('renders English copy when the interface language is English', () => {

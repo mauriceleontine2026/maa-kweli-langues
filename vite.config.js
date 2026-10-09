@@ -25,6 +25,23 @@ export default () => {
     },
     optimizeDeps: {
       include: ['framer-motion']
+    },
+    build: {
+      rollupOptions: {
+        output: {
+          manualChunks(id) {
+            if (!id.includes('/node_modules/')) return undefined
+
+            if (/\/node_modules\/(react|react-dom|scheduler)\//.test(id)) return 'react-vendor'
+            if (/\/node_modules\/(react-router|react-router-dom)\//.test(id)) return 'router-vendor'
+            if (id.includes('/node_modules/@supabase/')) return 'supabase-vendor'
+            if (/\/node_modules\/(framer-motion|motion-dom|motion-utils)\//.test(id)) return 'motion-vendor'
+            if (id.includes('/node_modules/@tanstack/')) return 'query-vendor'
+
+            return undefined
+          },
+        },
+      },
     }
   })
 }

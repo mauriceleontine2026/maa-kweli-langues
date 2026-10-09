@@ -9,11 +9,16 @@ import {
   getVocabularyForLanguage as getLocalVocabularyForLanguage,
   getVocabularyForLesson as getLocalVocabularyForLesson,
 } from "@/lib/localLanguageData";
+import { normalizeLanguageText } from "@/lib/languageLabels";
 
 const toArray = (value) => (Array.isArray(value) ? value : []);
 
 const mergeUniqueLanguages = (languages) => {
-  const items = Array.isArray(languages) ? languages.slice() : [];
+  const items = Array.isArray(languages) ? languages.map((language) => ({
+    ...language,
+    name: normalizeLanguageText(language?.name),
+    name_fr: normalizeLanguageText(language?.name_fr),
+  })) : [];
   const existingCodes = new Set(items.map((lang) => String(lang?.code || "").trim().toLowerCase()));
   getLocalLanguages().forEach((localLang) => {
     const localCode = String(localLang?.code || "").trim().toLowerCase();
@@ -40,6 +45,16 @@ export async function getLanguages() {
   }
 }
 
+export async function getAdminLanguages() {
+  try {
+    const data = await request("GET", "/api/languages");
+    return mergeUniqueLanguages(data);
+  } catch (error) {
+    console.error("Backend languages fetch error:", error);
+    return getLocalLanguages();
+  }
+}
+
 export async function getLanguageByCode(code) {
   if (!code) {
     return null;
@@ -57,30 +72,48 @@ export async function getLanguageByCode(code) {
   }
 }
 
+export async function getLanguageCodeAdapter(code) {
+  if (!code) return null;
+  return await request("GET", `/api/languages/${encodeURIComponent(code)}/adapter`);
+}
+
+export async function saveLanguageCodeAdapter(code, payload) {
+  return await request("PUT", `/api/languages/${encodeURIComponent(code)}/adapter`, payload);
+}
+
 export async function getVocabularyForLanguage(languageCode) {
   if (!languageCode) {
     return [];
   }
 
-  if (isLocalLanguage(languageCode)) {
-    await ensureLocalLanguageDataForLanguage(languageCode);
-    return getLocalVocabularyForLanguage(languageCode);
-  }
-
   const candidates = [String(languageCode).trim(), String(languageCode).trim().toLowerCase(), String(languageCode).trim().replace(/français/g, "francais").replace(/français/g, "francais")];
   const uniqueCandidates = [...new Set(candidates.filter(Boolean))];
+  let localItems = [];
+  if (isLocalLanguage(languageCode)) {
+    await ensureLocalLanguageDataForLanguage(languageCode);
+    localItems = getLocalVocabularyForLanguage(languageCode);
+  }
 
   try {
-    const data = await request("GET", "/api/vocabulary", undefined, { language_code: languageCode });
+    const [data, approvedResources] = await Promise.all([
+      request("GET", "/api/vocabulary", undefined, { language_code: languageCode }),
+      request("GET", "/api/contributions/approved-resources"),
+    ]);
     const items = toArray(data);
     const backendItems = items.length > 0 ? items : toArray(await request("GET", "/api/vocabulary"));
     const matchingItems = backendItems.filter((item) => uniqueCandidates.includes(String(item.language_code || "")) || uniqueCandidates.some((candidate) => String(item.language_code || "").toLowerCase() === candidate.toLowerCase()));
-    const merged = new Map([]);
+    const approvedItems = toArray(approvedResources).filter((item) => String(item.language_code || "").toLowerCase() === String(languageCode).toLowerCase());
+    const merged = new Map();
     matchingItems.forEach((item) => merged.set(`${item.lesson_number || 1}:${String(item.word || "").toLowerCase()}`, item));
+    approvedItems.forEach((item) => {
+      const key = `${item.lesson_number || 1}:${String(item.word || "").toLowerCase()}`;
+      if (!merged.has(key)) merged.set(key, item);
+    });
+    localItems.forEach((item) => merged.set(`${item.lesson_number || 1}:${String(item.word || "").toLowerCase()}`, item));
     return [...merged.values()];
   } catch (error) {
     console.error("Backend vocabulary fetch error:", error);
-    return [];
+    return localItems;
   }
 }
 

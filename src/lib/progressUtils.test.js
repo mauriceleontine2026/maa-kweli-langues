@@ -1,4 +1,5 @@
 import { describe, expect, it } from 'vitest';
+import lessonCurriculum from '@/data_langues/lessonCurriculum';
 import { buildLessonProgressTree, getNextUnlockedLesson } from './progressUtils';
 
 describe('getNextUnlockedLesson', () => {
@@ -24,5 +25,35 @@ describe('buildLessonProgressTree', () => {
       { lesson_number: 3, completed: true, unlocked: true, status: 'completed', previous_lesson: 2, next_lesson: 4, is_next_available: false },
       { lesson_number: 4, completed: false, unlocked: false, status: 'locked', previous_lesson: 3, next_lesson: null, is_next_available: false },
     ]);
+  });
+});
+
+describe('lesson curriculum numbering', () => {
+  it('uses globally unique lesson numbers across all levels', () => {
+    const lessonNumbers = lessonCurriculum.levels.flatMap((level) =>
+      level.modules.flatMap((module) => module.lessons.map((lesson) => Number(lesson.lesson_number)))
+    );
+
+    expect(lessonNumbers).toHaveLength(27);
+    expect([...new Set(lessonNumbers)]).toHaveLength(27);
+    expect(lessonNumbers).toEqual(Array.from({ length: 27 }, (_, index) => index + 1));
+  });
+});
+
+describe('lesson content fallback', () => {
+  it('fills every lesson with vocabulary and exercises so the page never renders empty', () => {
+    const lessons = lessonCurriculum.levels.flatMap((level) =>
+      level.modules.flatMap((module) => module.lessons)
+    );
+
+    expect(lessons.length).toBeGreaterThan(0);
+    lessons.forEach((lesson) => {
+      expect(Array.isArray(lesson.content?.vocabulary)).toBe(true);
+      expect(lesson.content.vocabulary.length).toBeGreaterThan(0);
+      expect(Array.isArray(lesson.content?.exercises)).toBe(true);
+      expect(lesson.content.exercises.length).toBeGreaterThan(0);
+      expect(Array.isArray(lesson.learning_objectives)).toBe(true);
+      expect(lesson.learning_objectives.length).toBeGreaterThan(0);
+    });
   });
 });

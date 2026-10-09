@@ -71,9 +71,9 @@ class MMSAudioCache:
         text_hash = hashlib.md5(text.encode()).hexdigest()
         return f"tts:{language_code.lower()}:{text_hash}"
 
-    def _make_audio_filename(self) -> str:
+    def _make_audio_filename(self, extension: str) -> str:
         """Génère filename unique pour audio"""
-        return f"tts_{uuid.uuid4().hex}.mp3"
+        return f"tts_{uuid.uuid4().hex}.{extension}"
 
     async def get_audio_or_none(
         self, language_code: str, text: str
@@ -123,7 +123,10 @@ class MMSAudioCache:
         if not audio_bytes:
             return None
 
-        filename = self._make_audio_filename()
+        is_wav = audio_bytes.startswith(b"RIFF") and audio_bytes[8:12] == b"WAVE"
+        extension = "wav" if is_wav else "mp3"
+        mime_type = "audio/wav" if is_wav else "audio/mpeg"
+        filename = self._make_audio_filename(extension)
         filepath = self.audio_dir / filename
 
         try:
@@ -152,7 +155,7 @@ class MMSAudioCache:
         except Exception as e:
             logger.warning(f"[MMSCache] Disk cache unavailable, using in-memory data URL: {e}")
             encoded = base64.b64encode(audio_bytes).decode("ascii")
-            return f"data:audio/mpeg;base64,{encoded}"
+            return f"data:{mime_type};base64,{encoded}"
 
     async def prefill_cache(self, phrases_dict: dict[str, dict[str, str]]):
         """

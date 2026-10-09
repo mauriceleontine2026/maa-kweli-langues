@@ -10,6 +10,7 @@ import uuid
 from collections import defaultdict, deque
 from datetime import timedelta
 from email.message import EmailMessage
+from email.utils import formataddr, parseaddr
 
 from fastapi import APIRouter, HTTPException, Depends, Request, Response, status, Form, UploadFile, File
 from pydantic import BaseModel, EmailStr, Field, field_validator
@@ -284,7 +285,7 @@ class RegisterRequest(BaseModel):
 
 class LoginRequest(BaseModel):
     email: EmailStr
-    password: str = Field(..., min_length=1, max_length=128)
+    password: str = Field(..., min_length=12, max_length=128)
     remember: bool = False
 
 
@@ -325,6 +326,20 @@ def _is_valid_email_address(email: str) -> bool:
     return bool(re.match(r"^[A-Za-z0-9.!#$%&'*+/=?^_`{|}~-]+@[A-Za-z0-9-]+(?:\.[A-Za-z0-9-]+)+$", email.strip()))
 
 
+def _smtp_from_header() -> str:
+    configured_from = os.getenv("SMTP_FROM", "").strip()
+    detail = "Configurez SMTP_FROM avec une adresse d'expéditeur vérifiée dans Brevo, par exemple « Mǎa-kwɛ́lî Langues <adresse@domaine> »."
+    if not configured_from:
+        raise HTTPException(status_code=status.HTTP_503_SERVICE_UNAVAILABLE, detail=detail)
+
+    display_name, sender_address = parseaddr(configured_from)
+    if not _is_valid_email_address(sender_address) or sender_address.lower().endswith("@smtp-brevo.com"):
+        raise HTTPException(status_code=status.HTTP_503_SERVICE_UNAVAILABLE, detail=detail)
+    if not display_name:
+        display_name = "Mǎa-kwɛ́lî Langues"
+    return formataddr((display_name, sender_address), charset="utf-8")
+
+
 def _send_verification_email(user: User) -> None:
     smtp_host = os.getenv("SMTP_HOST")
     smtp_user = os.getenv("SMTP_USER")
@@ -337,11 +352,11 @@ def _send_verification_email(user: User) -> None:
         expires_delta=timedelta(minutes=15),
     )
     message = EmailMessage()
-    message["Subject"] = "Confirme ton adresse e-mail - M'baara Langues"
-    message["From"] = os.getenv("SMTP_FROM", smtp_user)
+    message["Subject"] = "Confirme ton adresse e-mail - Mǎa-kwɛ́lî Langues"
+    message["From"] = _smtp_from_header()
     message["To"] = user.email
     message.set_content(
-        "Bienvenue sur M'baara Langues !\n\n"
+        "Bienvenue sur Mǎa-kwɛ́lî Langues !\n\n"
         "Confirme ton adresse e-mail dans les 15 minutes :\n"
         f"{FRONTEND_URL}/verify-email?token={token}\n\n"
         "Si tu n'es pas à l'origine de cette inscription, ignore ce message."
@@ -351,6 +366,9 @@ def _send_verification_email(user: User) -> None:
             smtp.starttls()
             smtp.login(smtp_user, smtp_password)
             smtp.send_message(message)
+    except smtplib.SMTPNotSupportedError as exc:
+        logger.exception("SMTP server does not support the configured sender address")
+        raise HTTPException(status_code=status.HTTP_503_SERVICE_UNAVAILABLE, detail="Le serveur e-mail refuse le format de l'expéditeur. Vérifiez SMTP_FROM et SMTP_USER dans Vercel.") from exc
     except smtplib.SMTPAuthenticationError as exc:
         logger.exception("SMTP authentication failed while sending verification email")
         raise HTTPException(status_code=status.HTTP_503_SERVICE_UNAVAILABLE, detail="Le serveur e-mail a refusé les identifiants SMTP. Vérifiez SMTP_USER et SMTP_PASSWORD dans Vercel.") from exc
@@ -376,11 +394,11 @@ def _send_password_reset_email(user: User, token: str) -> None:
         raise HTTPException(status_code=status.HTTP_503_SERVICE_UNAVAILABLE, detail="Le service d'envoi d'e-mails n'est pas configuré.")
 
     message = EmailMessage()
-    message["Subject"] = "Réinitialise ton mot de passe - M'baara Langues"
-    message["From"] = os.getenv("SMTP_FROM", smtp_user)
+    message["Subject"] = "Réinitialise ton mot de passe - Mǎa-kwɛ́lî Langues"
+    message["From"] = _smtp_from_header()
     message["To"] = user.email
     message.set_content(
-        "Tu as demandé à réinitialiser ton mot de passe M'baara Langues.\n\n"
+        "Tu as demandé à réinitialiser ton mot de passe Mǎa-kwɛ́lî Langues.\n\n"
         "Utilise ce lien dans les 15 minutes :\n"
         f"{FRONTEND_URL}/reset-password?token={token}\n\n"
         "Si tu n'es pas à l'origine de cette demande, ignore ce message."
@@ -394,12 +412,70 @@ def _send_password_reset_email(user: User, token: str) -> None:
         raise HTTPException(status_code=status.HTTP_503_SERVICE_UNAVAILABLE, detail="Impossible d'envoyer l'e-mail de réinitialisation.") from exc
 
 
+def _is_placeholder_env_value(value: str | None) -> bool:
+    if value is None:
+        return True
+    cleaned = value.strip()
+    if not cleaned:
+        return True
+    lowered = cleaned.lower()
+    placeholder_tokens = {"[sensitive]", "replace-me", "replace-me-in-production", "change-me", "changeme", "example", "example.com", "dummy", "null", "none", "todo"}
+    return lowered in placeholder_tokens or lowered.startswith("[sensitive]") or lowered.startswith("replace-me")
+
+
+def verify_email_token(token: str, db: Session) -> User:
+    payload = security.decode_access_token(token)
+    if payload.get("purpose") != "email_verification":
+        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Token de vérification invalide.")
+
+    user_id = payload.get("sub")
+    token_email = payload.get("email")
+    if not user_id:
+        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Token de vérification incomplet.")
+
+    user = None
+    try:
+        user = db.query(User).filter(User.id == int(user_id)).first()
+    except (TypeError, ValueError):
+        user = None
+
+    if user is None and isinstance(token_email, str) and token_email.strip():
+        user = db.query(User).filter(User.email == token_email.strip().lower()).first()
+
+    if not user:
+        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Compte introuvable.")
+
+    if user.email_verified:
+        return user
+
+    user.email_verified = True
+    db.add(user)
+    db.commit()
+    db.refresh(user)
+    return user
+
+
 def _smtp_is_configured() -> bool:
-    return bool(os.getenv("SMTP_HOST") and os.getenv("SMTP_USER") and os.getenv("SMTP_PASSWORD"))
+    host = os.getenv("SMTP_HOST")
+    user = os.getenv("SMTP_USER")
+    password = os.getenv("SMTP_PASSWORD")
+    return bool(host and user and password and not _is_placeholder_env_value(host) and not _is_placeholder_env_value(user) and not _is_placeholder_env_value(password))
 
 
 def _should_auto_verify_when_smtp_unavailable() -> bool:
-    return os.getenv("AUTO_VERIFY_ON_MISSING_SMTP", "false").strip().lower() in {"1", "true", "yes"}
+    return os.getenv("AUTO_VERIFY_ON_MISSING_SMTP", "true").strip().lower() in {"1", "true", "yes", "on"}
+
+
+def _auto_verify_user_if_needed(user: User, db: Session) -> bool:
+    if user.email_verified:
+        return False
+    if _smtp_is_configured() or not _should_auto_verify_when_smtp_unavailable():
+        return False
+    user.email_verified = True
+    db.add(user)
+    db.commit()
+    db.refresh(user)
+    return True
 
 
 def _verify_supabase_access_token(access_token: str) -> dict:
@@ -495,6 +571,8 @@ def supabase_auth(request: Request, payload: SupabaseAuthRequest, response: Resp
             db.commit()
             db.refresh(user)
 
+    _auto_verify_user_if_needed(user, db)
+
     if not user.email_verified:
         raise HTTPException(
             status_code=status.HTTP_403_FORBIDDEN,
@@ -556,6 +634,8 @@ def supabase_auth_form(request: Request, access_token: str = Form(...), response
             db.commit()
             db.refresh(user)
 
+    _auto_verify_user_if_needed(user, db)
+
     if not user.email_verified:
         raise HTTPException(
             status_code=status.HTTP_403_FORBIDDEN,
@@ -573,6 +653,12 @@ def request_email_verification(request: Request, payload: ResetPasswordRequest, 
     email = _normalize_email(payload.email)
     if not _is_valid_email_address(email):
         raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Adresse e-mail invalide.")
+
+    user = db.query(User).filter(User.email == email).first()
+    if user and _smtp_is_configured():
+        _send_verification_email(user)
+        return {"status": "ok", "message": "Un e-mail de confirmation a été envoyé."}
+
     if SUPABASE_URL and SUPABASE_SERVICE_KEY:
         try:
             resend_response = httpx.post(
@@ -585,43 +671,24 @@ def request_email_verification(request: Request, payload: ResetPasswordRequest, 
                 return {"status": "ok", "message": "Si ce compte existe et n'est pas confirmé, un e-mail de confirmation a été envoyé."}
         except httpx.HTTPError:
             pass
-    user = db.query(User).filter(User.email == email).first()
+
     if user:
-        if _smtp_is_configured():
-            _send_verification_email(user)
-        elif _should_auto_verify_when_smtp_unavailable():
+        if _should_auto_verify_when_smtp_unavailable():
+            _auto_verify_user_if_needed(user, db)
             return {
                 "status": "ok",
-                "message": "Le service d'e-mail n'est pas configuré. Votre compte peut être utilisé immédiatement si l'auto-vérification est activée.",
+                "message": "Le service d'e-mail n'est pas configuré. Votre compte est automatiquement vérifié pour permettre la connexion.",
             }
-        else:
-            raise HTTPException(status_code=status.HTTP_503_SERVICE_UNAVAILABLE, detail="Le service d'envoi d'e-mails n'est pas configuré.")
+        raise HTTPException(status_code=status.HTTP_503_SERVICE_UNAVAILABLE, detail="Le service d'envoi d'e-mails n'est pas configuré.")
     return {"status": "ok", "message": "Si ce compte existe, un e-mail de vérification a été envoyé."}
 
 
 @router.post("/verify-email")
 def verify_email(request: Request, response: Response, payload: VerifyEmailRequest, db: Session = Depends(get_db)):
-    _check_rate_limit(request)
-    try:
-        token_data = security.decode_access_token(payload.resetToken)
-    except HTTPException as exc:
-        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Lien de vérification invalide ou expiré.") from exc
-    if token_data.get("purpose") != "email_verification" or not token_data.get("sub"):
-        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Lien de vérification invalide.")
-    try:
-        user = db.query(User).filter(User.id == int(token_data["sub"]), User.email == token_data.get("email")).first()
-    except (TypeError, ValueError):
-        user = None
-    if user is None and isinstance(token_data.get("email"), str):
-        user = db.query(User).filter(User.email == _normalize_email(token_data["email"])).first()
-    if not user:
-        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Compte introuvable. Demandez un nouveau lien de vérification.")
-    user.email_verified = True
-    db.add(user)
-    db.commit()
-    session_token = security.create_access_token({"sub": str(user.id), "email": user.email})
-    security.set_auth_cookies(response, session_token)
-    return {"status": "ok", "email_verified": True, "user": {"id": user.id, "email": user.email, "full_name": user.full_name}}
+    user = verify_email_token(payload.resetToken, db)
+    token = security.create_access_token({"sub": str(user.id), "email": user.email})
+    security.set_auth_cookies(response, token)
+    return {"status": "ok", "message": "Adresse e-mail vérifiée avec succès.", "user": {"id": user.id, "email": user.email, "full_name": user.full_name, "role": user.role, "email_verified": user.email_verified}}
 
 
 @router.post("/register", status_code=status.HTTP_201_CREATED)
@@ -666,15 +733,15 @@ def register(request: Request, response: Response, payload: RegisterRequest, db:
             raise HTTPException(status_code=status.HTTP_503_SERVICE_UNAVAILABLE, detail="Le compte ne peut pas être finalisé car l'e-mail de vérification n'a pas pu être envoyé. Vérifiez la configuration SMTP.") from exc
     db.commit()
 
-    response = {
+    response_payload = {
         "verification_required": not auto_verified,
         "user": {"id": user.id, "email": user.email, "full_name": user.full_name},
     }
     if auto_verified:
-        response["message"] = (
+        response_payload["message"] = (
             "Le service d'e-mail n'est pas configuré. Ton adresse est automatiquement vérifiée pour permettre la connexion."
         )
-    return response
+    return response_payload
 
 
 @router.post("/register/form", status_code=status.HTTP_201_CREATED)
@@ -736,15 +803,15 @@ def register_form(
             raise HTTPException(status_code=status.HTTP_503_SERVICE_UNAVAILABLE, detail="Le compte ne peut pas être finalisé car l'e-mail de vérification n'a pas pu être envoyé. Vérifiez la configuration SMTP.") from exc
     db.commit()
 
-    response = {
+    response_payload = {
         "verification_required": not auto_verified,
         "user": {"id": user.id, "email": user.email, "full_name": user.full_name},
     }
     if auto_verified:
-        response["message"] = (
+        response_payload["message"] = (
             "Le service d'e-mail n'est pas configuré. Ton adresse est automatiquement vérifiée pour permettre la connexion."
         )
-    return response
+    return response_payload
 
 
 @router.post("/login")
@@ -760,12 +827,15 @@ def login(request: Request, response: Response, payload: LoginRequest, db: Sessi
         _record_login_failure(normalized_email)
         raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Invalid credentials")
     if not getattr(user, "email_verified", False):
-        if _smtp_is_configured():
-            _send_verification_email(user)
-        raise HTTPException(
-            status_code=status.HTTP_403_FORBIDDEN,
-            detail="Email not verified. A confirmation link has been sent to your inbox.",
-        )
+        if not _smtp_is_configured() and _should_auto_verify_when_smtp_unavailable():
+            _auto_verify_user_if_needed(user, db)
+        if not getattr(user, "email_verified", False):
+            if _smtp_is_configured():
+                _send_verification_email(user)
+            raise HTTPException(
+                status_code=status.HTTP_403_FORBIDDEN,
+                detail="Email not verified. A confirmation link has been sent to your inbox.",
+            )
 
     _clear_login_failures(normalized_email)
 
@@ -792,9 +862,11 @@ def login_form(
 ):
     """
     Form-based login endpoint (application/x-www-form-urlencoded).
-    Useful as a fallback when XHR CORS fails or browsers block fetch.
+    Useful as a fallback when XHR/CORS fails or browsers block fetch.
     """
     _check_rate_limit(request)
+    if len(password) < 12:
+        raise HTTPException(status_code=status.HTTP_422_UNPROCESSABLE_ENTITY, detail="Le mot de passe doit contenir au moins 12 caractères.")
     normalized_email = _normalize_email(email)
 
     user = db.query(User).filter(User.email == normalized_email).first()
@@ -805,12 +877,15 @@ def login_form(
         _record_login_failure(normalized_email)
         raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Invalid credentials")
     if not getattr(user, "email_verified", False):
-        if _smtp_is_configured():
-            _send_verification_email(user)
-        raise HTTPException(
-            status_code=status.HTTP_403_FORBIDDEN,
-            detail="Email not verified. A confirmation link has been sent to your inbox.",
-        )
+        if not _smtp_is_configured() and _should_auto_verify_when_smtp_unavailable():
+            _auto_verify_user_if_needed(user, db)
+        if not getattr(user, "email_verified", False):
+            if _smtp_is_configured():
+                _send_verification_email(user)
+            raise HTTPException(
+                status_code=status.HTTP_403_FORBIDDEN,
+                detail="Email not verified. A confirmation link has been sent to your inbox.",
+            )
 
     _clear_login_failures(normalized_email)
 

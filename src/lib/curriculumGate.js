@@ -125,22 +125,22 @@ export const getAvailableState = (
 ) => {
   const currentModuleState = getModuleCompletionState(module, completedLessons, exerciseRecords);
   const beginnerStatus = getBeginnerCompletionStatus(completedLessons, exerciseRecords, 70, langCode);
+  const levelEnabled = levelIndex === 0 ? true : beginnerStatus.complete;
 
   const previousModuleComplete = moduleIndex === 0
-    ? true
+    ? levelEnabled
     : (() => {
         const previousModule = level.modules[moduleIndex - 1];
         const previousModuleState = getModuleCompletionState(previousModule, completedLessons, exerciseRecords);
         return previousModuleState.moduleLessonsDone && previousModuleState.exercisePass;
       })();
 
-  const levelEnabled = levelIndex === 0 ? true : beginnerStatus.complete;
-
   return {
     ...currentModuleState,
     available: levelEnabled && previousModuleComplete,
     previousModuleComplete,
     beginnerStatusComplete: beginnerStatus.complete,
+    levelEnabled,
   };
 };
 

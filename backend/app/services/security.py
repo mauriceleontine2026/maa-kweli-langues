@@ -93,9 +93,10 @@ def set_auth_cookies(response: Response, token: str, remember: bool = False) -> 
     # pattern). A cross-site attacker can make the browser send the auth
     # cookie automatically, but cannot read this cookie's value to forge
     # the matching header, since same-origin policy blocks that read.
+    csrf_token = secrets.token_urlsafe(32)
     response.set_cookie(
         key=CSRF_COOKIE_NAME,
-        value=secrets.token_urlsafe(32),
+        value=csrf_token,
         max_age=max_age,
         httponly=False,
         secure=secure,
@@ -103,6 +104,7 @@ def set_auth_cookies(response: Response, token: str, remember: bool = False) -> 
         domain=COOKIE_DOMAIN,
         path="/",
     )
+    response.headers[CSRF_HEADER_NAME] = csrf_token
 
 
 def clear_auth_cookies(response: Response) -> None:

@@ -8,9 +8,9 @@ import { getLanguages, getVocabularyForLanguage, getLessonsForLanguage } from "@
 import { getProgress } from "@/api/progressService";
 import { ArrowLeft, ArrowRight, Download, Trash2, WifiOff, Loader2, Search, X, BookOpen, TrendingUp, CheckCircle2, LockKeyhole, Layers3 } from "lucide-react";
 import LanguageFlag from "@/components/ui/LanguageFlag";
-import { AudioStatusBadgeInline } from "@/components/AudioStatusBadge";
+import { AudioStatusBadgeInline, getAudioStatusNarrative } from "@/components/AudioStatusBadge";
 import { useOnlineStatus } from "@/hooks/useOnlineStatus";
-import { getCountryForLanguage, getLanguageName, getLocalizedCountryForLanguage, getLocalizedCurriculumText } from "@/lib/localLanguageData";
+import { getLanguageName, getLocalizedCountryForLanguage, getLocalizedCurriculumText } from "@/lib/localLanguageData";
 import { downloadLanguageOffline, isLanguageDownloaded, removeLanguageOffline, getOfflineVocab, getOfflineLanguages } from "@/lib/offlineStorage";
 import {
   getBeginnerCompletionStatus,
@@ -424,6 +424,9 @@ export default function Learn() {
                     </span>
                   )}
                   <AudioStatusBadgeInline languageCode={lang.code} size="xs" />
+                  <span className="max-w-[130px] text-right text-[10px] leading-relaxed text-muted-foreground">
+                    {getAudioStatusNarrative(lang.code)}
+                  </span>
                 </div>
               </div>
               <p className="mb-4 line-clamp-2 min-h-[40px] text-sm text-muted-foreground">{t("Pays :")} {getLocalizedCountryForLanguage(lang, interfaceLanguage)}</p>

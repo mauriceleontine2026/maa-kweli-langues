@@ -1,11 +1,17 @@
 import { describe, it, expect, beforeEach, afterEach, vi } from 'vitest';
 import { getApiBaseUrl } from '../api/backendClient';
+import { hasActiveAuthSession } from '../api/authService';
 import { getStoredUser, persistUser } from './AuthContext';
 
 describe('Auth persistence', () => {
   const originalWindow = global.window;
+  const originalDocument = global.document;
 
   beforeEach(() => {
+    global.document = {
+      cookie: '',
+    };
+
     const sessionStorage = {
       getItem: () => null,
       setItem: () => {},
@@ -25,6 +31,7 @@ describe('Auth persistence', () => {
 
   afterEach(() => {
     global.window = originalWindow;
+    global.document = originalDocument;
   });
 
   it('reads the cached user from localStorage so the login survives a browser restart', () => {
@@ -55,5 +62,34 @@ describe('Auth persistence', () => {
 
     expect(getApiBaseUrl()).toBe('https://mbaara-backend.vercel.app');
     vi.unstubAllEnvs();
+  });
+
+  it('does not treat a logged-out browser as an active auth session', () => {
+    Object.defineProperty(document, 'cookie', {
+      value: '',
+      configurable: true,
+    });
+    global.window.localStorage.getItem = () => null;
+    global.window.sessionStorage.getItem = () => null;
+
+    expect(hasActiveAuthSession()).toBe(false);
+  });
+
+  it('checks the backend when an HttpOnly auth cookie is hidden from JavaScript', () => {
+    Object.defineProperty(document, 'cookie', {
+      value: '',
+      configurable: true,
+    });
+
+    expect(hasActiveAuthSession()).toBe(true);
+  });
+
+  it('detects a backend auth cookie when the session is active', () => {
+    Object.defineProperty(document, 'cookie', {
+      value: 'mbaara_access_token=abc123; another=value',
+      configurable: true,
+    });
+
+    expect(hasActiveAuthSession()).toBe(true);
   });
 });

@@ -16,6 +16,8 @@ import unicodedata
 from .models.language import Language
 from .models.lesson import Lesson
 from .models.vocabulary import VocabularyItem
+from .models.language_adapter import LanguageCodeAdapter
+from .models.voice_contribution import ContributorConsent, ContributionPrompt, VoiceRecording
 from .database import SessionLocal
 from .services import security
 from .services.security import require_admin
@@ -68,9 +70,21 @@ def _ensure_lesson_columns():
             conn.execute(text('ALTER TABLE lessons ADD COLUMN description TEXT'))
 
 
+def _ensure_vocabulary_recording_column():
+    inspector = inspect(engine)
+    if 'vocabulary_items' not in inspector.get_table_names():
+        return
+    columns = {column['name'] for column in inspector.get_columns('vocabulary_items')}
+    with engine.begin() as conn:
+        if 'source_recording_id' not in columns:
+            conn.execute(text('ALTER TABLE vocabulary_items ADD COLUMN source_recording_id INTEGER'))
+
+
 if os.getenv("VERCEL") != "1":
     _ensure_user_role_column()
     _ensure_lesson_columns()
+
+_ensure_vocabulary_recording_column()
 
 
 def _normalize_language_slug(value):
@@ -641,29 +655,6 @@ try:
 except Exception:
     logging.getLogger(__name__).exception("Default language seeding failed during startup; continuing without seed data")
 
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=allowed_origins,
-    allow_origin_regex=allowed_origin_regex,
-    allow_credentials=True,
-    allow_methods=["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
-    allow_headers=[
-        "Accept",
-        "Accept-Language",
-        "Authorization",
-        "Content-Language",
-        "Content-Type",
-        "Origin",
-        "X-CSRF-Token",
-        "X-Requested-With",
-        "X-HTTP-Method-Override",
-        "bypass-tunnel-reminder",
-    ],
-    expose_headers=["Content-Type"],
-    max_age=600,
-)
-
-
 @app.middleware("http")
 async def csrf_protect(request, call_next):
     # Only requests authenticated via the httpOnly cookie are exposed to
@@ -672,6 +663,7 @@ async def csrf_protect(request, call_next):
     # explicit Authorization header an attacker's page cannot set, so they
     # are not vulnerable and are exempt. See security.set_auth_cookies for
     # why the cookie has to be SameSite=None in the first place.
+    csrf_cookie = request.cookies.get(security.CSRF_COOKIE_NAME)
     if request.method in {"POST", "PUT", "PATCH", "DELETE"}:
         cookie_token = request.cookies.get(security.ACCESS_TOKEN_COOKIE_NAME)
         header_auth = request.headers.get("authorization")
@@ -709,8 +701,14 @@ async def csrf_protect(request, call_next):
             # Validate CSRF token from header or form
             csrf_provided = csrf_header or csrf_form
             if not csrf_cookie or not csrf_provided or not secrets.compare_digest(csrf_cookie, csrf_provided):
-                return JSONResponse(status_code=403, content={"detail": "CSRF token missing or invalid"})
-    return await call_next(request)
+                response = JSONResponse(status_code=403, content={"detail": "CSRF token missing or invalid"})
+                if csrf_cookie:
+                    response.headers[security.CSRF_HEADER_NAME] = csrf_cookie
+                return response
+    response = await call_next(request)
+    if csrf_cookie and request.url.path not in {"/api/auth/logout", "/api/auth/logout/form"}:
+        response.headers[security.CSRF_HEADER_NAME] = csrf_cookie
+    return response
 
 
 @app.middleware("http")
@@ -733,6 +731,29 @@ async def add_security_headers(request, call_next):
         "base-uri 'self'"
     )
     return response
+
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=allowed_origins,
+    allow_origin_regex=allowed_origin_regex,
+    allow_credentials=True,
+    allow_methods=["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
+    allow_headers=[
+        "Accept",
+        "Accept-Language",
+        "Authorization",
+        "Content-Language",
+        "Content-Type",
+        "Origin",
+        "X-CSRF-Token",
+        "X-Requested-With",
+        "X-HTTP-Method-Override",
+        "bypass-tunnel-reminder",
+    ],
+    expose_headers=["Content-Type", "X-CSRF-Token"],
+    max_age=600,
+)
 
 app.include_router(health, prefix="/api")
 app.include_router(auth, prefix="/api/auth")

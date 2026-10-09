@@ -80,7 +80,7 @@ export default function Home() {
       <motion.section
         initial={{ opacity: 0, y: 18 }}
         animate={{ opacity: 1, y: 0 }}
-        className="relative mb-8 overflow-hidden rounded-[2rem] border border-border bg-gradient-to-br from-primary/18 via-card to-card p-4 shadow-[0_30px_90px_-50px_rgba(249,115,22,0.55)] sm:p-7 lg:p-9"
+        className="relative mb-8 overflow-hidden rounded-[2rem] border border-border bg-gradient-to-br from-primary/18 via-card to-card p-4 shadow-sm sm:p-7 lg:p-9"
       >
         <div className="absolute -right-12 -top-12 h-52 w-52 rounded-full bg-primary/10 blur-3xl" />
         <div className="absolute -bottom-16 left-8 h-56 w-56 rounded-full bg-[#1554a0]/10 blur-3xl" />

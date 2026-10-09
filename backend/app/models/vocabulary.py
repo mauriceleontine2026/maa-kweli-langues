@@ -16,4 +16,5 @@ class VocabularyItem(Base):
     example_fr = Column(Text, nullable=True)
     audio_url = Column(String(1024), nullable=True)
     difficulty = Column(String(50), nullable=True)
+    source_recording_id = Column(Integer, nullable=True, unique=True, index=True)
     created_at = Column(DateTime, default=datetime.utcnow)

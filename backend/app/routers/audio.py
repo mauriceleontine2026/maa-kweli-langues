@@ -39,7 +39,9 @@ def validate_audio_upload_bytes(filename: str, contents: bytes) -> str:
         if not header.startswith(b"fLaC"):
             raise ValueError("Invalid FLAC header")
     elif suffix in {".m4a", ".aac"}:
-        if not (header.startswith(b"ftyp") or header.startswith(b"\xff\xf1") or header.startswith(b"\xff\xf9")):
+        is_mp4_container = header.startswith(b"ftyp") or header[4:8] == b"ftyp"
+        is_aac_stream = contents.startswith(b"\xff\xf1") or contents.startswith(b"\xff\xf9")
+        if not (is_mp4_container or is_aac_stream):
             raise ValueError("Invalid M4A/AAC header")
     return suffix
 
@@ -105,36 +107,36 @@ TTS_LANGUAGE_MAP = {
     "chinois-mandarin": "zh-cn",
     "mandarin": "zh-cn",
     "chinese": "zh-cn",
-    "lingala": "fr",
-    "bissa": "fr",
-    "dioula": "fr",
-    "moore": "fr",
-    "soussou": "fr",
-    "pular": "fr",
-    "malinke": "fr",
-    "kissi": "fr",
-    "guerze": "fr",
-    "koniagui": "fr",
-    "konyanka": "fr",
-    "kuranko": "fr",
-    "landuma": "fr",
-    "lele": "fr",
-    "mani": "fr",
-    "nalu": "fr",
-    "sankaran": "fr",
-    "yalunka": "fr",
-    "kono": "fr",
-    "mano": "fr",
-    "toma": "fr",
-    "badiaranke": "fr",
-    "baga": "fr",
-    "bassari": "fr",
-    "bedik": "fr",
-    "wolof": "fr",
-    "mossi": "fr",
-    "peul": "fr",
-    "fulfulde": "fr",
-    "bambara": "fr",
+    "lingala": "ln",
+    "bissa": "bsa",
+    "dioula": "dyu",
+    "moore": "mos",
+    "soussou": "sus",
+    "pular": "ff",
+    "malinke": "mnk",
+    "kissi": "kss",
+    "guerze": "gxx",
+    "koniagui": "kno",
+    "konyanka": "kno",
+    "kuranko": "kek",
+    "landuma": "ldu",
+    "lele": "lle",
+    "mani": "mni",
+    "nalu": "nlu",
+    "sankaran": "snk",
+    "yalunka": "yal",
+    "kono": "kno",
+    "mano": "mev",
+    "toma": "tom",
+    "badiaranke": "bsc",
+    "baga": "bgo",
+    "bassari": "bsq",
+    "bedik": "bdf",
+    "wolof": "wo",
+    "mossi": "mos",
+    "peul": "ff",
+    "fulfulde": "ff",
+    "bambara": "bam",
 }
 
 
@@ -148,7 +150,7 @@ UNRELIABLE_TTS_LANGUAGES = {
 
 def normalize_tts_language_code(code: str | None) -> str:
     if not code:
-        return "fr"
+        return "und"
     key = str(code).strip().lower()
     key = unicodedata.normalize("NFKD", key)
     key = "".join(ch for ch in key if not unicodedata.combining(ch))
@@ -157,7 +159,7 @@ def normalize_tts_language_code(code: str | None) -> str:
     normalized = TTS_LANGUAGE_MAP.get(key)
     if normalized:
         return normalized
-    return TTS_LANGUAGE_MAP.get(key.split("-")[0], "fr")
+    return TTS_LANGUAGE_MAP.get(key.split("-")[0], "und")
 
 
 def is_unreliable_tts_language(code: str | None) -> bool:

@@ -92,6 +92,10 @@ export default function Login() {
       setError(t("emailRequired"));
       return;
     }
+    if (password.length < 12) {
+      setError(t("passwordShort"));
+      return;
+    }
 
     const emailPattern = /^[A-Za-z0-9.!#$%&'*+/=?^_`{|}~-]+@[A-Za-z0-9-]+(?:\.[A-Za-z0-9-]+)+$/;
     if (!emailPattern.test(email)) {
@@ -106,7 +110,7 @@ export default function Login() {
     try {
       setSubmittedEmail(email);
       await login(email, password, remember);
-      window.location.href = "/";
+      navigate("/", { replace: true });
     } catch (err) {
       const rawMessage = err instanceof Error ? err.message : t("invalidLogin");
       const normalized = String(rawMessage || "").trim();

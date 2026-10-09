@@ -9,6 +9,10 @@ export default function LoginScreen(){
   const [msg,setMsg] = useState('')
 
   async function handle(){
+    if (password.length < 12) {
+      setMsg('Le mot de passe doit contenir au moins 12 caractères.')
+      return
+    }
     try{
       const res = await login(email,password)
       setMsg('Connecté')

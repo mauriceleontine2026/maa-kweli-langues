@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { getLockMessageForModule } from './curriculumGate';
+import { getAvailableState, getLockMessageForModule } from './curriculumGate';
 import { getLocalizedCurriculumText } from './localLanguageData';
 
 describe('curriculum gate lock messages', () => {
@@ -29,5 +29,21 @@ describe('curriculum gate lock messages', () => {
     expect(getLocalizedCurriculumText('Exprimer la politesse, le remerciement et prendre congé de manière simple', 'en')).toBe(
       'Express politeness, gratitude, and say goodbye simply'
     );
+  });
+
+  it('keeps higher-level modules locked until the beginner gate is completed', () => {
+    const curriculum = {
+      levels: [
+        { id: 'niveau-debutant', modules: [{ lessons: [{ lesson_number: 1 }, { lesson_number: 2 }] }] },
+        { id: 'niveau-intermediaire', modules: [{ lessons: [{ lesson_number: 3 }, { lesson_number: 4 }] }] },
+      ],
+    };
+
+    const beginnerState = getAvailableState(0, 0, curriculum.levels[0], curriculum.levels[0].modules[0], [1], {}, 'fr');
+    const blockedLevelState = getAvailableState(1, 0, curriculum.levels[1], curriculum.levels[1].modules[0], [1], {}, 'fr');
+
+    expect(beginnerState.available).toBe(true);
+    expect(blockedLevelState.available).toBe(false);
+    expect(blockedLevelState.levelEnabled).toBe(false);
   });
 });

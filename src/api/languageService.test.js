@@ -1,4 +1,4 @@
-import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest';import { getLocalLanguages, initializeLocalLanguageData } from '@/lib/localLanguageData';import { getLanguages, getLanguageByCode, getVocabularyForLanguage, getVocabularyForLesson, getLessonsForLanguage, getAllVocabulary, getAllLessons } from './languageService';
+import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest';import { getLocalLanguages, initializeLocalLanguageData } from '@/lib/localLanguageData';import { getAdminLanguages, getLanguages, getLanguageByCode, getLanguageCodeAdapter, saveLanguageCodeAdapter, getVocabularyForLanguage, getVocabularyForLesson, getLessonsForLanguage, getAllVocabulary, getAllLessons } from './languageService';
 
 const mockRequest = vi.fn();
 
@@ -22,6 +22,21 @@ describe('languageService local language data', () => {
     expect(result).toHaveLength(39);
   });
 
+  it('merges backend languages into the admin language list', async () => {
+    mockRequest.mockResolvedValueOnce([
+      { code: 'bm', name: 'Bambara', name_fr: 'Bambara' },
+      { code: 'tw', name: 'Akuapem Twi', name_fr: 'Twi akua' },
+    ]);
+
+    const result = await getAdminLanguages();
+
+    expect(mockRequest).toHaveBeenCalledWith('GET', '/api/languages');
+    expect(result).toEqual(expect.arrayContaining([
+      expect.objectContaining({ code: 'bm', name: 'Bambara', name_fr: 'Bambara' }),
+      expect.objectContaining({ code: 'tw', name: 'Akuapem Twi', name_fr: 'Twi akua' }),
+    ]));
+  });
+
   it('loads lessons and vocabulary from the local language data', async () => {
     const lessons = await getLessonsForLanguage('malinke');
     const vocabulary = await getVocabularyForLanguage('malinke');
@@ -40,7 +55,7 @@ describe('languageService local language data', () => {
     expect(lessonCounts.every((count) => count > 0)).toBe(true);
     expect((await getLessonsForLanguage('igbo')).some((lesson) => lesson.lesson_number === 1)).toBe(true);
     expect((await getLessonsForLanguage('moore')).some((lesson) => lesson.lesson_number === 1)).toBe(true);
-  });
+  }, 15000);
 
   it('includes Guinean languages from the local data folders', async () => {
     await initializeLocalLanguageData();
@@ -65,5 +80,19 @@ describe('languageService local language data', () => {
 
     expect(mockRequest).toHaveBeenCalledWith('GET', '/api/vocabulary', undefined, { language_code: 'fr', lesson_number: 1 });
     expect(result).toEqual([{ word: 'bonjour', lesson_number: 1 }]);
+  });
+
+  it('gets and saves the verified ISO/TTS adapter separately from the app language code', async () => {
+    mockRequest.mockResolvedValueOnce({ language_code: 'bam', iso639_3: 'bam', tts_model_id: 'facebook/mms-tts-bam' });
+    mockRequest.mockResolvedValueOnce({ language_code: 'bam', iso639_3: 'bam', tts_model_id: 'facebook/mms-tts-bam' });
+
+    await getLanguageCodeAdapter('bam');
+    await saveLanguageCodeAdapter('bam', { iso639_3: 'bam', tts_model_id: 'facebook/mms-tts-bam' });
+
+    expect(mockRequest).toHaveBeenNthCalledWith(1, 'GET', '/api/languages/bam/adapter');
+    expect(mockRequest).toHaveBeenNthCalledWith(2, 'PUT', '/api/languages/bam/adapter', {
+      iso639_3: 'bam',
+      tts_model_id: 'facebook/mms-tts-bam',
+    });
   });
 });

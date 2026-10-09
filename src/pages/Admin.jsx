@@ -1,9 +1,10 @@
 import { useState, useEffect } from "react";
 import { useAuth } from "@/lib/AuthContext";
-import { createLanguage, getLanguages, getAllVocabulary, getAllLessons } from "@/api/languageService";
+import { createLanguage, getAdminLanguages, getAllVocabulary, getAllLessons } from "@/api/languageService";
 import { listUsers } from "@/api/userService";
 import { listContributions } from "@/api/contributionService";
 import { getCountryForLanguage, getFlagForLanguage } from "@/lib/localLanguageData";
+import { getLanguageLabel } from "@/lib/languageLabels";
 import { Link } from "react-router-dom";
 import { Plus, Globe, BookOpen, Users, FileText, Clock, ShieldAlert, RefreshCw, Activity } from "lucide-react";
 import AdminVocabulary from "@/components/admin/AdminVocabulary";
@@ -26,7 +27,7 @@ export default function Admin() {
     if (isRefresh) setRefreshing(true);
     else setLoadingData(true);
     const [languageData, vocabularyData, userData, contributionData, lessonData] = await Promise.allSettled([
-      getLanguages(),
+      getAdminLanguages(),
       getAllVocabulary(),
       listUsers(),
       listContributions(),
@@ -47,7 +48,7 @@ export default function Admin() {
   }, []);
 
   const refreshLanguages = () => {
-    getLanguages()
+    getAdminLanguages()
       .then((data) => setLanguages(Array.isArray(data) ? data : []))
       .catch(() => setLanguages([]));
   };
@@ -142,7 +143,7 @@ export default function Admin() {
           </section>
           <section>
             <div className="mb-3 flex items-end justify-between"><div><h2 className="font-heading text-xl font-bold text-foreground">Languages and content</h2><p className="text-sm text-muted-foreground">Quick overview of available paths.</p></div><button type="button" onClick={() => setTab("langs")} className="text-sm font-semibold text-primary hover:underline">Manage languages</button></div>
-            <div className="grid gap-3 md:grid-cols-2">{languages.map(lang => <div key={lang.id} className="flex items-center gap-3 rounded-2xl border border-border bg-card p-4"><span className="text-2xl">{getFlagForLanguage(lang)}</span><div className="min-w-0 flex-1"><div className="font-semibold text-foreground">{lang.name_fr}</div><div className="truncate text-xs text-muted-foreground">{getCountryForLanguage(lang)} · {lang.status === "active" ? "Active" : "Coming soon"}</div></div><Link to={`/apprendre/${lang.code}`} className="shrink-0 rounded-lg px-2 py-1 text-xs font-semibold text-primary hover:bg-primary/10">View</Link></div>)}</div>
+            <div className="grid gap-3 md:grid-cols-2">{languages.map(lang => <div key={lang.id} className="flex items-center gap-3 rounded-2xl border border-border bg-card p-4"><span className="text-2xl">{getFlagForLanguage(lang)}</span><div className="min-w-0 flex-1"><div className="font-semibold text-foreground">{getLanguageLabel(lang)}</div><div className="truncate text-xs text-muted-foreground">{getCountryForLanguage(lang)} · {lang.status === "active" ? "Active" : "Coming soon"}</div></div><Link to={`/apprendre/${lang.code}`} className="shrink-0 rounded-lg px-2 py-1 text-xs font-semibold text-primary hover:bg-primary/10">View</Link></div>)}</div>
           </section>
         </div>
       )}
@@ -165,7 +166,7 @@ export default function Admin() {
               <div key={lang.id} className="bg-card rounded-xl p-4 border border-border flex items-center gap-3">
                 <span className="text-2xl">{getFlagForLanguage(lang)}</span>
                 <div className="flex-1">
-                  <div className="font-semibold text-foreground text-sm">{lang.name_fr}</div>
+                  <div className="font-semibold text-foreground text-sm">{getLanguageLabel(lang)}</div>
                   <div className="text-xs text-muted-foreground">{lang.code} · {lang.family} · {getCountryForLanguage(lang)}</div>
                 </div>
                 <span className={`text-xs px-2 py-0.5 rounded-full font-medium ${lang.status === "active" ? "bg-green-500/15 text-green-600 dark:text-green-400" : "bg-secondary text-muted-foreground"}`}>

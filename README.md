@@ -89,13 +89,29 @@ For frontend-only development, create or update `.env.local` in the project root
 
 This repository now includes a Capacitor native wrapper in `android/` and `ios/`.
 
-When you connect Supabase, add these keys to `.env.local`:
+For frontend Supabase authentication, keep only the public values in `.env.local`:
 
 ```bash
 VITE_SUPABASE_URL=https://xyzcompany.supabase.co
 VITE_SUPABASE_ANON_KEY=your-public-anon-key
-SUPABASE_SERVICE_KEY=your-supabase-service-role-key
 ```
+
+Keep the service-role key only in the backend environment (`backend/.env` or the deployment secret store). Voice contributions use a private Supabase Storage bucket named `voice-contributions`; configure:
+
+```bash
+SUPABASE_URL=https://xyzcompany.supabase.co
+SUPABASE_SERVICE_KEY=your-server-only-service-role-key
+SUPABASE_CONTRIBUTIONS_BUCKET=voice-contributions
+VOICE_DATASET_SPEAKER_SALT=your-server-only-random-salt
+```
+
+Create the bucket as **private** in Supabase Storage. The backend rejects a public bucket and returns only short-lived signed playback URLs. Audio validation and dataset normalization use PyAV when system `ffprobe`/`ffmpeg` are unavailable; the backend Docker image also installs FFmpeg.
+
+The existing `/contribuer` page now reads only admin-approved, native-reviewed prompts. A voice upload requires `voice-consent-v1`; internal TTS training and public dataset publication are separate, unchecked-by-default choices. Admins manage prompts and review recordings in the existing Administration screen. Approved exports are available there for internal TTS and public CC BY 4.0 data; withdrawal excludes associated recordings from later exports and requests deletion from private storage.
+
+Before publishing prompts, an admin must configure the application-language → ISO 639-3 → TTS model mapping in the existing Contributions panel. The server validates alpha-3 codes against pycountry; no mapping is inferred from the MMS/Coqui model name.
+
+The export endpoint packages normalized mono 22.05 kHz WAV files, `manifest.jsonl`, `metadata.csv`, split assignments, and statistics. It is a dataset artifact for the existing TTS workflow; it does not start model training automatically.
 
 Then build the web assets and sync Capacitor:
 

@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { createVocabulary, deleteVocabulary, enrichVocabulary, getAllVocabulary, updateVocabulary } from "@/api/languageService";
+import { getLanguageLabel } from "@/lib/languageLabels";
 import { Plus, Trash2, Search, Pencil, Check, X, Sparkles, Loader2 } from "lucide-react";
 
 export default function AdminVocabulary({ languages }) {
@@ -97,7 +98,7 @@ export default function AdminVocabulary({ languages }) {
             <label className={labelCls}>Langue *</label>
             <select value={newVocab.language_code} onChange={e => setNewVocab({ ...newVocab, language_code: e.target.value })} className={inputCls} required>
               <option value="">Choisir...</option>
-              {languages.map(l => <option key={l.code} value={l.code}>{l.name_fr}</option>)}
+              {languages.map(l => <option key={l.code} value={l.code}>{getLanguageLabel(l)}</option>)}
             </select>
           </div>
           <div>
@@ -154,7 +155,7 @@ export default function AdminVocabulary({ languages }) {
           </div>
           <select value={filterLang} onChange={e => setFilterLang(e.target.value)} className="bg-card border border-border rounded-xl px-3 py-2 text-sm">
             <option value="">Toutes</option>
-            {languages.map(l => <option key={l.code} value={l.code}>{l.name_fr}</option>)}
+            {languages.map(l => <option key={l.code} value={l.code}>{getLanguageLabel(l)}</option>)}
           </select>
         </div>
         <div className="space-y-2 max-h-96 overflow-y-auto">

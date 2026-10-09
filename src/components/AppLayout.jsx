@@ -57,7 +57,7 @@ export default function AppLayout() {
 
   return (
     <div className="min-h-screen bg-background text-foreground transition-colors duration-300">
-      <header className="fixed inset-x-0 top-0 z-40 border-b border-border/70 bg-background/85 shadow-[0_8px_30px_-24px_rgba(249,115,22,.65)] backdrop-blur-xl supports-[backdrop-filter]:bg-background/70">
+      <header className="fixed inset-x-0 top-0 z-40 border-b border-border/70 bg-background/85 backdrop-blur-xl supports-[backdrop-filter]:bg-background/70">
         <div className="mx-auto flex h-16 max-w-7xl items-center justify-between gap-2 px-3 sm:px-4">
           <div className="group flex min-w-0 items-center gap-3">
             <img src="/logo.png" alt="Mǎa-kwɛ́lî Langues" className="h-9 w-9 rounded-full object-cover ring-2 ring-primary/30" />

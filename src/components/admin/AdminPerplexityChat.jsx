@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { invokeAI } from "@/api/aiService";
 import { auditLanguage, getAdminLessonCatalog } from "@/api/languageService";
+import { getLanguageLabel } from "@/lib/languageLabels";
 import { Bot, Copy, Eraser, Loader2, MessageSquare, Send, Sparkles, UserRound } from "lucide-react";
 
 const CONTENT_TYPES = [
@@ -38,7 +39,7 @@ export default function AdminPerplexityChat({ languages }) {
   }, [messages, loading]);
 
   const selectedLanguage = languages.find((item) => item.code === language);
-  const languageLabel = selectedLanguage ? `${selectedLanguage.name_fr} (${selectedLanguage.name})` : "la langue sélectionnée";
+  const languageLabel = selectedLanguage ? getLanguageLabel(selectedLanguage) : "la langue sélectionnée";
 
   const loadCatalog = async (enabled) => {
     setCatalogAccess(enabled);

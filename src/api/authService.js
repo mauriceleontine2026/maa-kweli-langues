@@ -354,9 +354,10 @@ export async function registerWithForm(email, password, full_name) {
 
   if (!response.ok) {
     const err = await response.json().catch(() => ({}));
-    const error = new Error(err.detail || `Form register failed with status ${response.status}`);
-    error.status = response.status;
-    error.data = err;
+    const error = Object.assign(new Error(err.detail || `Form register failed with status ${response.status}`), {
+      status: response.status,
+      data: err,
+    });
     throw error;
   }
 
@@ -366,7 +367,9 @@ export async function registerWithForm(email, password, full_name) {
 
 export async function verifyEmail(token) {
   const data = await request("POST", "/api/auth/verify-email", { resetToken: token });
-  notifyAuthChanged();
+  if (data?.user?.email_verified !== true) {
+    throw new Error("L'adresse e-mail n'a pas été confirmée par le serveur.");
+  }
   return data;
 }
 
@@ -374,7 +377,36 @@ export async function requestEmailVerification(email) {
   return await request("POST", "/api/auth/verify-email-request", { email });
 }
 
+export const hasActiveAuthSession = () => {
+  if (typeof document !== "undefined") {
+    const cookies = document.cookie ? document.cookie.split(";") : [];
+    if (cookies.some((cookie) => {
+      const [name] = cookie.split("=").map((part) => part.trim());
+      return name === "mbaara_access_token";
+    })) {
+      return true;
+    }
+  }
+
+  if (typeof window === "undefined") return false;
+
+  for (const storage of [window.localStorage, window.sessionStorage]) {
+    try {
+      const cachedUser = JSON.parse(storage?.getItem("mbaara_user") || "null");
+      if (cachedUser?.id || cachedUser?.email) return true;
+    } catch {
+      // Invalid or unavailable client cache must not be treated as a session.
+    }
+  }
+
+  return false;
+};
+
 export async function getCurrentUser() {
+  if (!hasActiveAuthSession()) {
+    return null;
+  }
+
   return await request("GET", "/api/auth/me");
 }
 

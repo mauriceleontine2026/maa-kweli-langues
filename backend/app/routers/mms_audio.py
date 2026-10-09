@@ -14,10 +14,22 @@ import os
 
 from ..services.tts_providers import get_tts_router, TTSRouter
 from ..services.mms_cache import get_mms_cache, MMSAudioCache
-from ..services.security import get_current_user_optional
+from ..services.security import RateLimiter, get_current_user, require_admin
 
 logger = logging.getLogger(__name__)
 router = APIRouter(tags=["audio-tts"])
+_mms_synthesize_rate_limiter = RateLimiter(
+    name="mms-audio-synthesize", max_attempts=10, window_seconds=60
+)
+
+UNAVAILABLE_LANGUAGE_CODES = {
+    "lin", "lingala", "bsa", "bib", "bissa", "dyu", "dioula", "mos", "moore", "mossi",
+    "sus", "soussou", "ff", "fuc", "pular", "peul", "fulfulde", "mnk", "malinke", "maninka",
+    "kss", "kissi", "gxx", "guerze", "kno", "koniagui", "konyanka", "kek", "kuranko", "ldu",
+    "landuma", "lle", "lele", "mni", "mani", "nlu", "nalu", "snk", "sankaran", "yal", "yalunka",
+    "mev", "mano", "tom", "toma", "bsc", "badiaranke", "bgo", "baga", "bsq", "bassari", "bdf",
+    "bedik", "wo", "wolof", "bam", "bambara", "kpe", "kpele",
+}
 
 
 class SynthesizeRequest(BaseModel):
@@ -49,7 +61,8 @@ class SynthesizeResponse(BaseModel):
 @router.post("/synthesize-mms", response_model=SynthesizeResponse)
 async def synthesize_mms_tts(
     payload: SynthesizeRequest,
-    current_user=Depends(get_current_user_optional),
+    current_user=Depends(get_current_user),
+    _rate_limit=Depends(_mms_synthesize_rate_limiter),
 ):
     """
     Synthétise texte en audio via MMS/gTTS avec cache intelligent
@@ -65,7 +78,7 @@ async def synthesize_mms_tts(
     - ff (Fulfulde), wol (Wolof), etc. → gTTS fallback
     - fra (French), eng (English), etc. → MMS direct
 
-    Rate limiting: 10 req/min par utilisateur
+    Accès réservé aux utilisateurs connectés, avec limite de 10 requêtes/minute.
     """
 
     # Validation texte
@@ -74,10 +87,42 @@ async def synthesize_mms_tts(
 
     text = payload.text.strip()
     lang_code = (payload.language_code or "fr").strip().lower()
+    language_key = lang_code.split("-")[0]
+    generation_enabled = str(os.getenv("ENABLE_TTS_GENERATION", "false")).strip().lower() in {
+        "1", "true", "yes", "on"
+    }
+    if not generation_enabled:
+        return SynthesizeResponse(
+            audio_url=None,
+            text=text,
+            language_code=lang_code,
+            status="unavailable",
+            notice="La synthèse audio n'est pas activée. Utilisez un audio humain validé ou la voix locale disponible.",
+        )
+
+    if language_key in UNAVAILABLE_LANGUAGE_CODES:
+        return SynthesizeResponse(
+            audio_url=None,
+            text=text,
+            language_code=lang_code,
+            status="unavailable",
+            notice="Aucun moteur TTS validé n'est disponible pour cette langue.",
+        )
 
     logger.info(f"[MMS] Request: {lang_code} ({len(text)} chars)")
 
-    # Synthétiser directement sans cache pour debug
+    cache = get_mms_cache()
+    cached_url = await cache.get_audio_or_none(lang_code, text)
+    if cached_url:
+        return SynthesizeResponse(
+            audio_url=cached_url,
+            text=text,
+            language_code=lang_code,
+            provider="cache",
+            cached=True,
+            status="success",
+        )
+
     tts_router = get_tts_router()
     audio_bytes, selected_provider = await tts_router.synthesize_with_provider(text, lang_code)
 
@@ -91,10 +136,15 @@ async def synthesize_mms_tts(
             notice="Audio non disponible. Veuillez utiliser la voix navigateur ou audio humain.",
         )
 
-    # Return audio as data URL (no disk caching for now)
-    import base64
-    encoded = base64.b64encode(audio_bytes).decode("ascii")
-    audio_url = f"data:audio/mpeg;base64,{encoded}"
+    audio_url = await cache.cache_audio(lang_code, text, audio_bytes)
+    if not audio_url:
+        return SynthesizeResponse(
+            audio_url=None,
+            text=text,
+            language_code=lang_code,
+            status="unavailable",
+            notice="Audio synthétisé non disponible dans le stockage courant.",
+        )
 
     # Detect provider
     provider = "mms" if selected_provider.__class__.__name__ == "MMSTtsProvider" else "gtts"
@@ -111,7 +161,7 @@ async def synthesize_mms_tts(
 
 @router.get("/cache-stats")
 async def get_cache_statistics(
-    current_user=Depends(get_current_user_optional),
+    _admin=Depends(require_admin),
     cache: MMSAudioCache = Depends(get_mms_cache),
 ):
     """
@@ -133,7 +183,7 @@ async def get_cache_statistics(
 @router.post("/cache-invalidate/{language_code}")
 async def invalidate_language_cache(
     language_code: str,
-    current_user=Depends(get_current_user_optional),
+    _admin=Depends(require_admin),
     cache: MMSAudioCache = Depends(get_mms_cache),
 ):
     """
@@ -147,7 +197,7 @@ async def invalidate_language_cache(
 
 @router.post("/cache-clear")
 async def clear_all_cache(
-    current_user=Depends(get_current_user_optional),
+    _admin=Depends(require_admin),
     cache: MMSAudioCache = Depends(get_mms_cache),
 ):
     """
@@ -155,9 +205,5 @@ async def clear_all_cache(
 
     ⚠️ DÉSTRUCTIF - À utiliser seulement en dev/admin
     """
-    # Admin check
-    if not current_user or not getattr(current_user, "is_admin", False):
-        raise HTTPException(403, "Admin only")
-
     await cache.clear_cache()
     return {"status": "ok", "message": "Cache cleared"}

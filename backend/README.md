@@ -1,5 +1,9 @@
 Backend (FastAPI) — instructions de développement
 
+## Contributions vocales
+
+Voir `README_SETUP.md` pour la configuration Supabase Storage privée, `ffprobe`/`ffmpeg`, le consentement `voice-consent-v1` et l’export dataset. Les endpoints de contribution sont ajoutés au routeur existant `/api/contributions`; aucun écran ni route de page frontend supplémentaire n’est nécessaire.
+
 Démarrage PostgreSQL local via Docker Compose
 
 ```bash

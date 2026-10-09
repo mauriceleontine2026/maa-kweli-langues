@@ -594,7 +594,6 @@ const CURRICULUM_TEXT_EN = {
   "Les temps du récit": "Narrative tenses",
   "Interactions sociales": "Social interactions",
   "Interactions professionnelles": "Professional interactions",
-  "Culture, traditions et rhétorique": "Culture, traditions, and rhetoric",
   "Module": "Module",
   "Leçon": "Lesson",
   "Section": "Section",

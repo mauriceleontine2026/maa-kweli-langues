@@ -44,6 +44,8 @@ import {
   getLockMessageForModule,
   getCurriculumForLanguageExport,
 } from "@/lib/curriculumGate";
+import { translateLessonContent } from "@/lib/lessonTranslation";
+import { translateText } from "@/api/aiService";
 
 export default function Lesson() {
   const { t, language: interfaceLanguage } = useLanguage();
@@ -131,16 +133,43 @@ export default function Lesson() {
       allItemsPromise,
       lessonMetaPromise,
     ])
-      .then(([langRes, itemsRes, allRes, lessonsRes]) => {
+      .then(async ([langRes, itemsRes, allRes, lessonsRes]) => {
+        const curriculum = getCurriculumForLanguageExport(safeLangCode);
+        const curriculumLesson = curriculum.levels
+          .flatMap((level) => level.modules.flatMap((module) => module.lessons))
+          .find((lesson) => Number(lesson.lesson_number) === safeLessonNum) || null;
+
         const meta =
           lessonsRes.status === "fulfilled" && Array.isArray(lessonsRes.value)
-            ? lessonsRes.value.find((lesson) => lesson.lesson_number === safeLessonNum)
-            : null;
+            ? lessonsRes.value.find((lesson) => lesson.lesson_number === safeLessonNum) || curriculumLesson
+            : curriculumLesson;
 
-        setLessonMeta(meta);
+        const fallbackItems = Array.isArray(curriculumLesson?.content?.vocabulary)
+          ? curriculumLesson.content.vocabulary
+          : [];
+        const fallbackAllItems = curriculum.levels
+          .flatMap((level) => level.modules.flatMap((module) => module.lessons))
+          .flatMap((lesson) => Array.isArray(lesson.content?.vocabulary) ? lesson.content.vocabulary : []);
+
+        const resolvedItems = itemsRes.status === "fulfilled" && Array.isArray(itemsRes.value) && itemsRes.value.length > 0
+          ? itemsRes.value
+          : fallbackItems;
+        const resolvedAllItems = allRes.status === "fulfilled" && Array.isArray(allRes.value) && allRes.value.length > 0
+          ? allRes.value
+          : fallbackAllItems;
+
+        const translatedLessonMeta = await translateLessonContent(
+          meta,
+          "fr",
+          interfaceLanguage,
+          (text) => translateText(text, "fr", interfaceLanguage)
+            .then((result) => result?.translation || text)
+        );
+
+        setLessonMeta(translatedLessonMeta);
         setLanguage(langRes.status === "fulfilled" ? langRes.value ?? null : null);
-        setItems(itemsRes.status === "fulfilled" && Array.isArray(itemsRes.value) ? itemsRes.value : []);
-        setAllItems(allRes.status === "fulfilled" && Array.isArray(allRes.value) ? allRes.value : []);
+        setItems(resolvedItems);
+        setAllItems(resolvedAllItems);
         setLoading(false);
       })
       .catch((err) => {
@@ -393,6 +422,13 @@ export default function Lesson() {
     { id: "exercices", label: t("Exercices"), icon: Target, visible: (lessonMeta?.exercises?.length || 0) > 0 },
     { id: "sources", label: t("Sources"), icon: ExternalLink, visible: (lessonMeta?.sources?.length || 0) > 0 || Boolean(lessonMeta?.confidence_note) },
   ].filter((section) => section.visible);
+
+  useEffect(() => {
+    if (!lessonSections.length) return;
+    if (!lessonSections.some((section) => section.id === activeSection)) {
+      setActiveSection(lessonSections[0].id);
+    }
+  }, [activeSection, lessonSections]);
 
   if (loading) {
     return (

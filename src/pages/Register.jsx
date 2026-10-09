@@ -105,7 +105,7 @@ export default function Register() {
       {alreadyRegistered ? (
         <div className="rounded-xl border border-primary/20 bg-primary/5 p-3 text-center text-sm">
           <a href="/login" className="font-semibold text-primary hover:underline">{t("goToLoginAlt")}</a>
-          <span className="mx-2 text-muted-foreground">or</span>
+          <span className="mx-2 text-muted-foreground">{t("or")}</span>
           <a href="/forgot-password" className="font-semibold text-primary hover:underline">{t("resetPasswordAlt")}</a>
         </div>
       ) : null}

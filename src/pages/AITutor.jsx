@@ -5,9 +5,9 @@ import { getLanguages, getVocabularyForLanguage } from "@/api/languageService";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { Send, Mic, Volume2, Square, Headphones, Languages, Sparkles, MessageSquareText, ArrowUpRight, CheckCircle2, RotateCcw } from "lucide-react";
 import { moderateContent, getModerationMessage } from "@/lib/moderation";
-import { buildPhonologyContext, getTTSLocale, getBestVoice, getPhonologyProfile } from "@/lib/languagePhonology";
+import { buildPhonologyContext, getPhonologyProfile } from "@/lib/languagePhonology";
 import { getCountryForLanguage, getFlagForLanguage } from "@/lib/localLanguageData";
-import { playAudioSource, speakText, startVoiceRecognition, stopVoiceRecognition } from "@/lib/audioService";
+import { speakText, startVoiceRecognition, stopVoiceRecognition } from "@/lib/audioService";
 // public logo at /logo.png
 
 const getSuggestions = (t) => [
@@ -86,9 +86,7 @@ export default function AITutor() {
    * @param {() => void} [onEnd]
    */
   const speak = (text, onEnd) => {
-    const speechText = cleanForSpeech(text);
-    if (!speechText) { onEnd?.(); return; }
-    return speakText(speechText, lang, { onEnd });
+    return speakText(text, lang, { onEnd });
   };
 
   /**
@@ -151,6 +149,7 @@ RÈGLES:
   3. ADOPTE LA PRONONCIATION ET L'ACCENT naturels de la langue choisie en suivant fidèlement son profil phonologique : rythme, intonation, longueur vocalique, tons, voyelles, consonnes et enchaînements. Ne remplace jamais ses sons par des équivalents français lorsque tu écris ou transcris la langue cible.
 4. Pour chaque mot ou expression dans la langue cible:
   - Donne la phonétique IPA ET une prononciation simplifiée expliquée en ${explanationLanguage}
+  - Présente ces aides visuellement sous la forme « mot — IPA: /.../ ; prononciation simplifiée: ... »; elles sont pédagogiques et ne doivent pas remplacer ni être confondues avec le mot à prononcer.
    - Explique comment articuler les sons spécifiques (implosives, tons, nasales, emphatiques, etc.)
   - Compare avec les sons les plus proches de ${explanationLanguage}
    - Si la langue est tonale, indique le ton de chaque mot et explique comment le réaliser
@@ -201,16 +200,6 @@ Question actuelle de l'apprenant: ${msg}`;
     const text = typeof content === "string" ? content : String(content ?? "");
     return text.replace(/\[AUDIO:https?:\/\/[^\]]+\]/g, "🎵");
   };
-
-  /** @param {unknown} content */
-  const cleanForSpeech = (content) => cleanContent(content)
-    .replace(/https?:\/\/\S+/g, "")
-    .replace(/```[\s\S]*?```/g, "")
-    .replace(/[*_#>`~]/g, "")
-    .replace(/\[(?:IPA|phonétique)[^\]]*\]/gi, "")
-    .replace(/[🎵🎯💬🌍📝⚠️]/gu, "")
-    .replace(/\s+/g, " ")
-    .trim();
 
   // === Siri mode (hands-free conversation) ===
   const startSiriMode = () => {

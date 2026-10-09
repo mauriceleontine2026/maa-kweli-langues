@@ -23,24 +23,13 @@ const TTS_LOCALES = {
   chinois: "zh-CN", "chinois-mandarin": "zh-CN", mandarin: "zh-CN",
   francais: "fr-FR", portugais: "pt-BR", allemand: "de-DE", anglais: "en-US",
   arabe: "ar-SA", espagnol: "es-ES", italien: "it-IT", japonais: "ja-JP", russe: "ru-RU",
-  bambara: "fr-FR", dioula: "fr-FR", bissa: "fr-FR", moore: "fr-FR",
-  mossi: "fr-FR", soussou: "fr-FR", pular: "fr-FR", peul: "fr-FR", fulfulde: "fr-FR",
-  kissi: "fr-FR", guerze: "fr-FR", koniagui: "fr-FR", konyanka: "fr-FR", kuranko: "fr-FR",
-  landuma: "fr-FR", lele: "fr-FR", mani: "fr-FR", nalu: "fr-FR", sankaran: "fr-FR",
-  yalunka: "fr-FR", kono: "fr-FR", mano: "fr-FR", toma: "fr-FR", badiaranke: "fr-FR",
-  baga: "fr-FR", bassari: "fr-FR", bedik: "fr-FR", lingala: "fr-FR", wolof: "fr-FR",
-  malinke: "fr-FR", "chinese": "zh-CN", "mandarin": "zh-CN",
-  "swahili": "sw-KE", "arabe": "ar-SA", "anglais": "en-US", "francais": "fr-FR",
-  "espagnol": "es-ES", "allemand": "de-DE", "italien": "it-IT",
-  "japonais": "ja-JP", "portugais": "pt-BR", "russe": "ru-RU",
-  "hindi": "hi-IN", "yoruba": "yo-NG", "igbo": "ig-NG", "hausa": "ha-NG",
-  "swahili": "sw-KE", "lingala": "fr-FR", "bissa": "fr-FR", "moore": "fr-FR",
-  "dioula": "fr-FR", "soussou": "fr-FR", "pular": "fr-FR", "malinke": "fr-FR",
-  "kissi": "fr-FR", "guerze": "fr-FR", "konyanka": "fr-FR", "kuranko": "fr-FR",
-  "landauma": "fr-FR", "landuma": "fr-FR", "lele": "fr-FR", "mani": "fr-FR",
-  "nalu": "fr-FR", "sankaran": "fr-FR", "yalunka": "fr-FR", "kono": "fr-FR",
-  "mano": "fr-FR", "toma": "fr-FR", "badiaranke": "fr-FR", "baga": "fr-FR",
-  "bassari": "fr-FR", "bedik": "fr-FR", "koniagui": "fr-FR",
+  bambara: "und", dioula: "und", bissa: "und", moore: "und",
+  mossi: "und", soussou: "und", pular: "und", peul: "und", fulfulde: "und",
+  kissi: "und", guerze: "und", koniagui: "und", konyanka: "und", kuranko: "und",
+  landuma: "und", lele: "und", mani: "und", nalu: "und", sankaran: "und",
+  yalunka: "und", kono: "und", mano: "und", toma: "und", badiaranke: "und",
+  baga: "und", bassari: "und", bedik: "und", lingala: "und", wolof: "und",
+  malinke: "und",
 };
 
 const PROFILE_ALIASES = {
@@ -348,7 +337,7 @@ const normalizeLanguageLookupKey = (value) => {
 };
 
 export const normalizeTtsLanguageCode = (code) => {
-  if (!code) return "fr";
+  if (!code) return "und";
 
   const key = normalizeLanguageLookupKey(code);
   const africanTtsCodes = {
@@ -451,7 +440,7 @@ export const normalizeTtsLanguageCode = (code) => {
     chinese: "zho",
   };
 
-  return appLanguageAliases[key] || key.split("-")[0] || "fr";
+  return appLanguageAliases[key] || key.split("-")[0] || "und";
 };
 
 const PROVISIONAL_TTS_CODES = {

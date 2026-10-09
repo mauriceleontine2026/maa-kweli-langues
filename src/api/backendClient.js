@@ -1,5 +1,6 @@
 const PROD_BACKEND_FALLBACK = "https://mbaara-backend.vercel.app";
 let inMemoryAccessToken = null;
+let inMemoryCsrfToken = null;
 
 export const getApiBaseUrl = () => {
   const configuredBaseUrl = import.meta.env.VITE_API_BASE_URL;
@@ -33,9 +34,17 @@ export const getApiBaseUrl = () => {
 const CSRF_COOKIE_NAME = "mbaara_csrf_token";
 
 const getCsrfToken = () => {
-  if (typeof document === "undefined") return null;
-  const match = document.cookie.match(new RegExp(`(?:^|; )${CSRF_COOKIE_NAME}=([^;]*)`));
-  return match ? decodeURIComponent(match[1]) : null;
+  if (typeof document !== "undefined") {
+    const match = document.cookie.match(new RegExp(`(?:^|; )${CSRF_COOKIE_NAME}=([^;]*)`));
+    if (match) return decodeURIComponent(match[1]);
+  }
+  return inMemoryCsrfToken;
+};
+
+const captureCsrfToken = (response) => {
+  const csrfToken = response.headers.get("X-CSRF-Token");
+  if (csrfToken) inMemoryCsrfToken = csrfToken;
+  return csrfToken;
 };
 
 const notifyAuthChanged = (user = null) => {
@@ -46,6 +55,7 @@ const notifyAuthChanged = (user = null) => {
 
 const setInMemoryAccessToken = (token) => {
   inMemoryAccessToken = typeof token === "string" && token ? token : null;
+  if (!inMemoryAccessToken) inMemoryCsrfToken = null;
 };
 
 const buildApiUrl = (path) => {
@@ -149,6 +159,20 @@ const request = async (method, path, body, queryParams) => {
       mode: "cors",
       cache: "no-store",
     });
+    let responseCsrfToken = captureCsrfToken(response);
+    const isMutatingRequest = MUTATING_METHODS.has(method.toUpperCase());
+    if (isMutatingRequest && response.status === 403 && responseCsrfToken && headers["X-CSRF-Token"] !== responseCsrfToken) {
+      headers["X-CSRF-Token"] = responseCsrfToken;
+      response = await fetch(url.toString(), {
+        method,
+        headers,
+        body: bodyValue,
+        credentials: "include",
+        mode: "cors",
+        cache: "no-store",
+      });
+      responseCsrfToken = captureCsrfToken(response);
+    }
   } catch (fetchError) {
     const message =
       fetchError instanceof Error

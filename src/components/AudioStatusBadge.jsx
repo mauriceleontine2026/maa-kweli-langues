@@ -46,13 +46,21 @@ const BADGE_STYLES = {
     label: "Voix gTTS (provisoire)",
     title: "Prononciation provisoire générée par Google TTS. Audio humain natif en cours d'enregistrement.",
   },
+  fallback_only_legacy: {
+    bg: "bg-slate-50 dark:bg-slate-900",
+    text: "text-slate-600 dark:text-slate-400",
+    border: "border-slate-200 dark:border-slate-700",
+    emoji: "⚪",
+    label: "Voix gTTS (provisoire)",
+    title: "Prononciation provisoire générée par Google TTS. Audio humain natif en cours d'enregistrement.",
+  },
   unavailable: {
     bg: "bg-gray-50 dark:bg-gray-950",
     text: "text-gray-600 dark:text-gray-400",
     border: "border-gray-200 dark:border-gray-700",
     emoji: "⚫",
-    label: "Indisponible",
-    title: "Aucune prononciation disponible.",
+    label: "Cours dispo — audio non disponible",
+    title: "Le cours est disponible, mais l’audio n’a pas encore été validé ou ajouté pour cette langue.",
   },
   browser_fallback: {
     bg: "bg-blue-50 dark:bg-blue-950",
@@ -64,15 +72,30 @@ const BADGE_STYLES = {
   },
 };
 
+const normalizeStatusKey = (status) => String(status || "unavailable").trim().toLowerCase().replace(/-/g, "_");
+
+export function getAudioStatusNarrative(languageCode) {
+  const config = getLanguageConfig(languageCode);
+  if (!config) return "Cours disponible — audio à venir.";
+
+  const status = normalizeStatusKey(config.tts?.status || "unavailable");
+
+  if (status === "validated" || status === "native") return "Audio natif validé.";
+  if (status === "experimental") return "Synthèse IA expérimentale.";
+  if (status === "fallback_only" || status === "fallback_only_legacy") return "Voix de secours provisoire.";
+  if (status === "browser_fallback") return "Voix navigateur.";
+  if (status === "unavailable") return "Cours disponible — audio à venir.";
+
+  return "Statut audio inconnu.";
+}
+
 /**
  * Badge simple inline (ex: dans une liste de vocabulaire)
  */
 export function AudioStatusBadgeInline({ languageCode, size = "sm" }) {
   const config = getLanguageConfig(languageCode);
-  if (!config) return null;
-
-  const status = config.tts?.status || "unavailable";
-  const style = BADGE_STYLES[status] || BADGE_STYLES.unavailable;
+  const status = config?.tts?.status || "unavailable";
+  const style = BADGE_STYLES[normalizeStatusKey(status)] || BADGE_STYLES[normalizeStatusKey(status === "fallback-only" ? "fallback_only" : status)] || BADGE_STYLES.unavailable;
 
   const sizeClasses = {
     xs: "px-2 py-0.5 text-xs",
@@ -96,10 +119,26 @@ export function AudioStatusBadgeInline({ languageCode, size = "sm" }) {
  */
 export function AudioStatusTooltip({ languageCode, children }) {
   const config = getLanguageConfig(languageCode);
-  if (!config) return children;
+  if (!config) {
+    return (
+      <div className="group relative inline-block">
+        {children}
+        <div className="pointer-events-none absolute bottom-full left-1/2 mb-2 -translate-x-1/2 rounded-lg bg-gray-900 px-3 py-2 text-sm text-white opacity-0 transition-opacity group-hover:opacity-100 whitespace-nowrap">
+          <div className="flex items-center gap-2">
+            <span>{BADGE_STYLES.unavailable.emoji}</span>
+            <div>
+              <div className="font-semibold">{BADGE_STYLES.unavailable.label}</div>
+              <div className="text-xs text-gray-300">{BADGE_STYLES.unavailable.title}</div>
+            </div>
+          </div>
+          <div className="absolute top-full left-1/2 -translate-x-1/2 border-4 border-transparent border-t-gray-900" />
+        </div>
+      </div>
+    );
+  }
 
   const status = config.tts?.status || "unavailable";
-  const style = BADGE_STYLES[status] || BADGE_STYLES.unavailable;
+  const style = BADGE_STYLES[normalizeStatusKey(status)] || BADGE_STYLES.unavailable;
   const notice = config.uiNotice || style.title;
 
   return (
@@ -126,10 +165,9 @@ export function AudioStatusTooltip({ languageCode, children }) {
  */
 export function AudioStatusInfoBox({ languageCode }) {
   const config = getLanguageConfig(languageCode);
-  if (!config) return null;
-
-  const status = config.tts?.status || "unavailable";
-  const style = BADGE_STYLES[status] || BADGE_STYLES.unavailable;
+  const status = config?.tts?.status || "unavailable";
+  const normalizedStatus = normalizeStatusKey(status);
+  const style = BADGE_STYLES[normalizedStatus] || BADGE_STYLES.unavailable;
 
   return (
     <div
@@ -141,14 +179,14 @@ export function AudioStatusInfoBox({ languageCode }) {
           <h4 className="font-semibold">{style.label}</h4>
           <p className="text-sm mt-1">{config.uiNotice || style.title}</p>
 
-          {status === "experimental" && (
+          {normalizedStatus === "experimental" && (
             <div className="mt-3 pt-3 border-t border-current border-opacity-20 text-xs">
               <p>
                 🔧 Utilise le modèle Meta MMS via Coqui XTTS-v2. Les retours des locuteurs natifs sont les bienvenus pour améliorer la qualité.
               </p>
             </div>
           )}
-          {status === "fallback_only" && (
+          {(normalizedStatus === "fallback_only" || normalizedStatus === "fallback_only_legacy") && (
             <div className="mt-3 pt-3 border-t border-current border-opacity-20 text-xs">
               <p>
                 ⏱️ Prononciation provisoire via Google TTS. Nous enregistrons des audios natifs qui remplaceront cette version.
@@ -156,16 +194,15 @@ export function AudioStatusInfoBox({ languageCode }) {
             </div>
           )}
 
-          {status === "unavailable" && (
+          {normalizedStatus === "unavailable" && (
             <div className="mt-3 pt-3 border-t border-current border-opacity-20 text-xs">
               <p>
-                Un audio humain validé par des locuteurs natifs sera ajouté dans
-                une version future.
+                Le cours existe bien, mais aucun audio validé n’a encore été ajouté pour cette langue.
               </p>
             </div>
           )}
 
-          {status === "fallback_only" && (
+          {(normalizedStatus === "fallback_only" || normalizedStatus === "fallback_only_legacy") && (
             <div className="mt-3 pt-3 border-t border-current border-opacity-20 text-xs">
               <p>Nous recherchons un modèle TTS adapté pour cette langue.</p>
             </div>
@@ -182,10 +219,10 @@ export function AudioStatusInfoBox({ languageCode }) {
  */
 export function AudioStatusBadgeCorner({ languageCode }) {
   const config = getLanguageConfig(languageCode);
-  if (!config || config.tts?.status === "validated") return null;
+  if (config?.tts?.status === "validated") return null;
 
-  const status = config.tts?.status || "unavailable";
-  const style = BADGE_STYLES[status] || BADGE_STYLES.unavailable;
+  const status = config?.tts?.status || "unavailable";
+  const style = BADGE_STYLES[normalizeStatusKey(status)] || BADGE_STYLES.unavailable;
 
   return (
     <div
@@ -215,7 +252,7 @@ export function useAudioStatus(languageCode) {
   }
 
   const status = config.tts?.status || "unavailable";
-  const style = BADGE_STYLES[status] || BADGE_STYLES.unavailable;
+  const style = BADGE_STYLES[normalizeStatusKey(status)] || BADGE_STYLES.unavailable;
 
   return {
     status,
