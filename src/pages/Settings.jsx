@@ -4,24 +4,6 @@ import { ShieldCheck, Bell, Lock, UserRound, ChevronRight, Save, RotateCcw, Info
 import { useAuth } from "@/lib/AuthContext";
 import { useLanguage } from "@/contexts/LanguageContext";
 
-const settingsItems = [
-  {
-    title: "Account",
-    description: "Manage your profile, preferences, and personal information.",
-    icon: UserRound,
-  },
-  {
-    title: "Security",
-    description: "Enable an extra layer of protection for your account.",
-    icon: Lock,
-  },
-  {
-    title: "Notifications",
-    description: "Control alerts and learning reminders.",
-    icon: Bell,
-  },
-];
-
 const SETTINGS_STORAGE_KEY = "mbaara_user_settings";
 
 const loadSavedSettings = () => {
@@ -47,7 +29,7 @@ const saveSettings = (snapshot) => {
 export default function Settings() {
   const navigate = useNavigate();
   const { user } = useAuth();
-  const { t } = useLanguage();
+  const { language, t } = useLanguage();
   const settingsItems = [
     {
       title: t("Account"),
@@ -73,8 +55,8 @@ export default function Settings() {
   const [savedAt, setSavedAt] = useState(null);
 
   const profileSummary = useMemo(() => {
-    return user?.full_name || user?.email || "My space";
-  }, [user]);
+    return user?.full_name || user?.email || t("Mon espace");
+  }, [user, t]);
 
   useEffect(() => {
     const loaded = loadSavedSettings();
@@ -122,7 +104,7 @@ export default function Settings() {
           </div>
           <div>
             <h1 className="text-2xl font-bold text-foreground sm:text-3xl">{t("Settings and privacy")}</h1>
-            <p className="mt-1 text-sm text-muted-foreground">Centralize your preferences, security, and profile in one place.</p>
+            <p className="mt-1 text-sm text-muted-foreground">{t("Centralisez vos préférences, votre sécurité et votre profil.")}</p>
           </div>
         </div>
 
@@ -156,17 +138,17 @@ export default function Settings() {
         <div className="mb-5 flex flex-col gap-4 border-b border-border pb-5 sm:flex-row sm:items-center sm:justify-between">
           <div>
             <div className="mb-1 text-xs font-semibold uppercase tracking-[0.16em] text-primary">{activeTitle}</div>
-            <h2 className="text-xl font-bold text-foreground">Your preferences</h2>
+            <h2 className="text-xl font-bold text-foreground">{t("Vos préférences")}</h2>
             <p className="text-sm text-muted-foreground">{profileSummary}</p>
           </div>
-          <div className="flex gap-2"><button type="button" onClick={handleReset} className="inline-flex items-center gap-2 rounded-xl border border-border px-3 py-2 text-sm font-medium text-muted-foreground transition hover:bg-secondary"><RotateCcw size={15} /> Reset</button><button type="button" onClick={handleSave} className="inline-flex items-center gap-2 rounded-xl bg-primary px-3 py-2 text-sm font-semibold text-primary-foreground transition hover:opacity-90"><Save size={16} /> Save</button></div>
+          <div className="flex gap-2"><button type="button" onClick={handleReset} className="inline-flex items-center gap-2 rounded-xl border border-border px-3 py-2 text-sm font-medium text-muted-foreground transition hover:bg-secondary"><RotateCcw size={15} /> {t("Réinitialiser")}</button><button type="button" onClick={handleSave} className="inline-flex items-center gap-2 rounded-xl bg-primary px-3 py-2 text-sm font-semibold text-primary-foreground transition hover:opacity-90"><Save size={16} /> {t("Enregistrer")}</button></div>
         </div>
 
         <div className="grid gap-3 md:grid-cols-2">
           {activePanel === "notifications" && <label className="flex items-center justify-between rounded-2xl border border-border bg-secondary/40 p-4">
             <div>
-              <div className="font-medium text-foreground">Learning notifications</div>
-              <div className="text-sm text-muted-foreground">Program reminders and alerts.</div>
+              <div className="font-medium text-foreground">{t("Notifications et rappels d’apprentissage")}</div>
+              <div className="text-sm text-muted-foreground">{t("Rappels du programme et alertes.")}</div>
             </div>
             <input
               type="checkbox"
@@ -177,8 +159,8 @@ export default function Settings() {
 
           {activePanel === "security" && <label className="flex items-center justify-between rounded-2xl border border-border bg-secondary/40 p-4">
             <div>
-              <div className="font-medium text-foreground">Security alerts</div>
-              <div className="text-sm text-muted-foreground">Receive security notifications.</div>
+              <div className="font-medium text-foreground">{t("Alertes de sécurité")}</div>
+              <div className="text-sm text-muted-foreground">{t("Recevoir les notifications de sécurité.")}</div>
             </div>
             <input
               type="checkbox"
@@ -189,8 +171,8 @@ export default function Settings() {
 
           {activePanel === "security" && <label className="flex items-center justify-between rounded-2xl border border-border bg-secondary/40 p-4 md:col-span-2">
             <div>
-              <div className="font-medium text-foreground">Private mode</div>
-              <div className="text-sm text-muted-foreground">Hide some profile information in public sections.</div>
+              <div className="font-medium text-foreground">{t("Mode privé")}</div>
+              <div className="text-sm text-muted-foreground">{t("Masquer certaines informations du profil dans les sections publiques.")}</div>
             </div>
             <input
               type="checkbox"
@@ -200,7 +182,7 @@ export default function Settings() {
           </label>}
         </div>
 
-        <div className="mt-5 flex items-start gap-2 rounded-xl border border-border bg-background/70 p-3 text-xs leading-5 text-muted-foreground"><Info size={15} className="mt-0.5 shrink-0 text-primary" /><span>Preferences are saved on this device. Your account data is still managed from your profile.</span></div>
+        <div className="mt-5 flex items-start gap-2 rounded-xl border border-border bg-background/70 p-3 text-xs leading-5 text-muted-foreground"><Info size={15} className="mt-0.5 shrink-0 text-primary" /><span>{t("Les préférences sont enregistrées sur cet appareil. Les données du compte restent gérées depuis votre profil.")}</span></div>
 
         <div className="mt-4 flex flex-wrap gap-3">
           <button
@@ -208,25 +190,25 @@ export default function Settings() {
             className="inline-flex items-center gap-2 rounded-xl border border-border px-3 py-2 text-sm font-medium text-foreground"
           >
             <UserRound size={16} />
-            View my profile
+            {t("Voir mon profil")}
           </button>
           <button
             onClick={() => navigate("/support")}
             className="inline-flex items-center gap-2 rounded-xl border border-border px-3 py-2 text-sm font-medium text-foreground"
           >
             <ChevronRight size={16} />
-            Support
+            {t("Assistance")}
           </button>
         </div>
 
         {saved ? (
           <div className="mt-4 rounded-xl bg-emerald-500/10 px-3 py-2 text-sm text-emerald-700">
-            Preferences saved successfully.
+            {t("Préférences enregistrées avec succès.")}
           </div>
         ) : null}
         {savedAt ? (
           <div className="mt-3 text-xs text-muted-foreground">
-            Last saved: {new Date(savedAt).toLocaleString("en-US", {
+            {t("Dernière sauvegarde")}: {new Date(savedAt).toLocaleString(language === "fr" ? "fr-FR" : "en-US", {
               year: "numeric",
               month: "2-digit",
               day: "2-digit",

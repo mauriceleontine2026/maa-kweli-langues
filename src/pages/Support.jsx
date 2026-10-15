@@ -1,7 +1,6 @@
 import { useMemo, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { Headphones, MessageCircle, BookOpenText, ArrowRight, Mail, Settings2, Search, ChevronDown, Wifi } from "lucide-react";
-import { useOnlineStatus } from "@/hooks/useOnlineStatus";
+import { Headphones, MessageCircle, BookOpenText, ArrowRight, Mail, Settings2, Search, ChevronDown } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
 
 const SUPPORT_EMAIL = "maurice.leontine2026@gmail.com";
@@ -12,8 +11,7 @@ export default function Support() {
   const [faqQuery, setFaqQuery] = useState("");
   const [openFaq, setOpenFaq] = useState(0);
   const [copyState, setCopyState] = useState("idle");
-  const online = useOnlineStatus();
-  const { language, t } = useLanguage();
+  const { t } = useLanguage();
 
   const supportItems = [
     {
@@ -52,13 +50,12 @@ export default function Support() {
 
   const getMailParams = () => {
     const subject = activeIndex === 1 ? t("supportEmailSubject") : t("supportFeedbackSubject");
-    const body = language === "en" ? "Hello,\n\nI would like to contact you about:\n- \n\nAdditional information:\n" : "Bonjour,\n\nJe souhaite vous contacter concernant :\n- \n\nInformations supplémentaires :\n";
+    const body = t("supportEmailBody");
 
     return {
       subject,
       body,
       mailto: `mailto:${SUPPORT_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`,
-      gmail: `https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(SUPPORT_EMAIL)}&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`,
     };
   };
 
@@ -69,13 +66,7 @@ export default function Support() {
       return;
     }
 
-    const { gmail, mailto } = getMailParams();
-    const gmailWindow = window.open(gmail, "_blank", "noopener,noreferrer");
-
-    if (gmailWindow) {
-      return;
-    }
-
+    const { mailto } = getMailParams();
     window.location.href = mailto;
   };
 
@@ -84,7 +75,7 @@ export default function Support() {
       await navigator.clipboard.writeText(SUPPORT_EMAIL);
       setCopyState("copied");
       window.setTimeout(() => setCopyState("idle"), 1800);
-    } catch (error) {
+    } catch {
       setCopyState("failed");
       window.setTimeout(() => setCopyState("idle"), 1800);
     }
@@ -98,12 +89,10 @@ export default function Support() {
             <Headphones size={20} />
           </div>
           <div>
-            <h1 className="text-2xl font-bold text-foreground sm:text-3xl">{t("supportHelpCenterTitle")} & {t("supportTitle")}</h1>
+            <h1 className="text-2xl font-bold text-foreground sm:text-3xl">{t("supportPageTitle")}</h1>
             <p className="mt-1 text-sm text-muted-foreground">{t("supportHelpCenterDescription")}</p>
           </div>
         </div>
-        <div className={`inline-flex items-center gap-2 rounded-full px-3 py-1.5 text-xs font-medium ${online ? "bg-emerald-500/10 text-emerald-600" : "bg-yellow-500/10 text-yellow-600"}`}><Wifi size={13} /> {online ? t("supportOnline") : t("supportOffline")}</div>
-
         <div className="mt-5 grid gap-3 md:grid-cols-3">
           {supportItems.map(({ title, description, icon: Icon }, index) => (
             <button
@@ -125,7 +114,7 @@ export default function Support() {
       <div className="grid gap-6 lg:grid-cols-[minmax(0,1.25fr)_minmax(280px,.75fr)]">
       <section id="support-faq" className="scroll-mt-6 rounded-3xl border border-border bg-card p-5 shadow-sm sm:p-6">
         <div className="mb-4"><h2 className="text-xl font-bold text-foreground">{t("supportFaqTitle")}</h2><p className="mt-1 text-sm text-muted-foreground">{t("supportFaqDescription")}</p></div>
-        <label className="mb-4 flex items-center gap-2 rounded-xl border border-border bg-background px-3 py-2.5 text-sm text-muted-foreground focus-within:border-primary"><Search size={17} className="text-primary" /><input value={faqQuery} onChange={(event) => setFaqQuery(event.target.value)} placeholder={t("supportSearchPlaceholder")} aria-label="Search support questions" className="min-w-0 flex-1 bg-transparent text-foreground outline-none" /></label>
+        <label className="mb-4 flex items-center gap-2 rounded-xl border border-border bg-background px-3 py-2.5 text-sm text-muted-foreground focus-within:border-primary"><Search size={17} className="text-primary" /><input value={faqQuery} onChange={(event) => setFaqQuery(event.target.value)} placeholder={t("supportSearchPlaceholder")} aria-label={t("supportSearchAria")} className="min-w-0 flex-1 bg-transparent text-foreground outline-none" /></label>
         <div className="space-y-2">{filteredFaqs.map((faq, index) => <div key={faq.question} className="rounded-xl border border-border bg-secondary/30"><button type="button" onClick={() => setOpenFaq(openFaq === index ? -1 : index)} className="flex w-full items-center justify-between gap-3 px-4 py-3 text-left text-sm font-semibold text-foreground"><span>{faq.question}</span><ChevronDown size={16} className={`shrink-0 transition ${openFaq === index ? "rotate-180 text-primary" : "text-muted-foreground"}`} /></button>{openFaq === index && <p className="border-t border-border px-4 py-3 text-sm leading-6 text-muted-foreground">{faq.answer}</p>}</div>)}{filteredFaqs.length === 0 && <p className="py-6 text-center text-sm text-muted-foreground">{t("supportNoResults")}</p>}</div>
       </section>
 
@@ -136,6 +125,10 @@ export default function Support() {
         </div>
         <h2 className="text-lg font-bold text-foreground">{activeItem.title}</h2>
         <p className="mt-1 text-sm text-muted-foreground">{activeItem.details}</p>
+        <div className="mt-4 rounded-xl border border-border bg-secondary/40 p-3">
+          <div className="text-xs font-semibold text-muted-foreground">{t("supportContactAddress")}</div>
+          <a className="mt-1 inline-block text-sm font-medium text-primary underline-offset-4 hover:underline" href={`mailto:${SUPPORT_EMAIL}`}>{SUPPORT_EMAIL}</a>
+        </div>
 
         <div className="mt-5 grid gap-2">
           <button
