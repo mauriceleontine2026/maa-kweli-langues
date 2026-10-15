@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { Link, NavLink, Outlet, useLocation, useNavigate } from "react-router-dom";
 import { AnimatePresence, motion } from "framer-motion";
 import {
@@ -7,8 +8,11 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
+import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
 import {
+  Bell,
   BookOpen,
+  CheckCheck,
   CircleHelp,
   Clock,
   GraduationCap,
@@ -17,6 +21,7 @@ import {
   Languages,
   LogIn,
   LogOut,
+  Megaphone,
   Mic,
   Moon,
   Settings2,
@@ -38,12 +43,54 @@ const NAV_ITEMS = [
   { to: "/revision", key: "review", icon: Clock },
 ];
 
+const ANNOUNCEMENTS_STORAGE_KEY = "maa-kweli-announcements-read";
+
 export default function AppLayout() {
   const location = useLocation();
   const navigate = useNavigate();
   const { user, logout } = useAuth();
   const { theme, toggleTheme } = useTheme();
   const { language, toggleLanguage, t } = useLanguage();
+  const [announcementsOpen, setAnnouncementsOpen] = useState(false);
+  const [announcementFilter, setAnnouncementFilter] = useState("all");
+  const [readAnnouncementIds, setReadAnnouncementIds] = useState(() => {
+    if (typeof window === "undefined") return [];
+    try {
+      const stored = JSON.parse(window.localStorage.getItem(ANNOUNCEMENTS_STORAGE_KEY) || "[]");
+      return Array.isArray(stored) ? stored : [];
+    } catch {
+      return [];
+    }
+  });
+
+  const announcements = [
+    {
+      id: "support-center-update",
+      title: t("notificationSupportTitle"),
+      description: t("notificationSupportDescription"),
+      to: "/support",
+    },
+    {
+      id: "settings-update",
+      title: t("notificationSettingsTitle"),
+      description: t("notificationSettingsDescription"),
+      to: "/settings",
+    },
+  ];
+  const unreadCount = announcements.filter(({ id }) => !readAnnouncementIds.includes(id)).length;
+  const visibleAnnouncements = announcements.filter(({ id }) => (
+    announcementFilter !== "unread" || !readAnnouncementIds.includes(id)
+  ));
+
+  const markAnnouncementsRead = (ids) => {
+    const nextReadIds = [...new Set([...readAnnouncementIds, ...ids])];
+    setReadAnnouncementIds(nextReadIds);
+    try {
+      window.localStorage.setItem(ANNOUNCEMENTS_STORAGE_KEY, JSON.stringify(nextReadIds));
+    } catch {
+      // Keep the current session usable when browser storage is unavailable.
+    }
+  };
 
   const isActive = (to) => {
     if (to === "/") return location.pathname === "/";
@@ -173,6 +220,94 @@ export default function AppLayout() {
               )}
             </DropdownMenuContent>
               </DropdownMenu>
+              <Popover open={announcementsOpen} onOpenChange={setAnnouncementsOpen}>
+                <PopoverTrigger asChild>
+                  <button
+                    type="button"
+                    aria-label={t("notificationsTitle")}
+                    title={t("notificationsTitle")}
+                    className="relative grid h-10 w-10 shrink-0 place-items-center rounded-full border border-border bg-secondary/60 text-foreground shadow-sm transition hover:bg-secondary"
+                  >
+                    <Bell size={18} />
+                    {unreadCount > 0 && (
+                      <span className="absolute -right-1 -top-1 grid h-[18px] min-w-[18px] place-items-center rounded-full bg-primary px-1 text-[10px] font-bold leading-none text-primary-foreground ring-2 ring-background">
+                        {unreadCount}
+                      </span>
+                    )}
+                  </button>
+                </PopoverTrigger>
+                <PopoverContent align="end" sideOffset={10} className="w-[min(24rem,calc(100vw-1.5rem))] overflow-hidden p-0">
+                  <div className="flex items-center justify-between gap-3 border-b border-border px-4 py-3">
+                    <div>
+                      <h2 className="text-sm font-semibold text-foreground">{t("notificationsTitle")}</h2>
+                      <p className="mt-0.5 text-xs text-muted-foreground">
+                        {unreadCount > 0 ? t("notificationsUnreadCount", unreadCount) : t("notificationsAllRead")}
+                      </p>
+                    </div>
+                    {unreadCount > 0 && (
+                      <button
+                        type="button"
+                        onClick={() => markAnnouncementsRead(announcements.map(({ id }) => id))}
+                        className="inline-flex shrink-0 items-center gap-1.5 rounded-md px-2 py-1.5 text-xs font-medium text-primary transition hover:bg-primary/10"
+                      >
+                        <CheckCheck size={14} />
+                        {t("notificationsMarkAllRead")}
+                      </button>
+                    )}
+                  </div>
+
+                  <div role="tablist" aria-label={t("notificationsFilters")} className="flex gap-1 border-b border-border px-3 py-2">
+                    {["all", "unread"].map((filter) => (
+                      <button
+                        key={filter}
+                        type="button"
+                        role="tab"
+                        aria-selected={announcementFilter === filter}
+                        onClick={() => setAnnouncementFilter(filter)}
+                        className={`rounded-md px-3 py-1.5 text-xs font-semibold transition ${announcementFilter === filter ? "bg-primary/10 text-primary" : "text-muted-foreground hover:bg-secondary"}`}
+                      >
+                        {t(filter === "all" ? "notificationsAll" : "notificationsUnread")}
+                      </button>
+                    ))}
+                  </div>
+
+                  <div className="max-h-[min(65vh,28rem)] overflow-y-auto p-2">
+                    {visibleAnnouncements.length > 0 ? visibleAnnouncements.map((announcement) => {
+                      const isRead = readAnnouncementIds.includes(announcement.id);
+                      return (
+                        <button
+                          key={announcement.id}
+                          type="button"
+                          onClick={() => {
+                            markAnnouncementsRead([announcement.id]);
+                            setAnnouncementsOpen(false);
+                            navigate(announcement.to);
+                          }}
+                          className="flex w-full gap-3 rounded-lg p-3 text-left transition hover:bg-secondary/70"
+                        >
+                          <span className={`mt-0.5 grid h-9 w-9 shrink-0 place-items-center rounded-lg ${isRead ? "bg-secondary text-muted-foreground" : "bg-primary/10 text-primary"}`}>
+                            <Megaphone size={17} />
+                          </span>
+                          <span className="min-w-0 flex-1">
+                            <span className="flex items-start justify-between gap-2">
+                              <span className="text-sm font-semibold text-foreground">{announcement.title}</span>
+                              {!isRead && <span className="mt-1 h-2 w-2 shrink-0 rounded-full bg-primary" aria-label={t("notificationsUnread")} />}
+                            </span>
+                            <span className="mt-1 block text-xs leading-5 text-muted-foreground">{announcement.description}</span>
+                            <span className="mt-2 block text-[10px] font-semibold uppercase text-primary">{t("notificationsNews")}</span>
+                          </span>
+                        </button>
+                      );
+                    }) : (
+                      <div className="px-4 py-8 text-center">
+                        <Bell size={20} className="mx-auto mb-2 text-muted-foreground" />
+                        <p className="text-sm font-semibold text-foreground">{t("notificationsEmptyTitle")}</p>
+                        <p className="mt-1 text-xs leading-5 text-muted-foreground">{t("notificationsEmptyDescription")}</p>
+                      </div>
+                    )}
+                  </div>
+                </PopoverContent>
+              </Popover>
             </div>
         </div>
       </header>
