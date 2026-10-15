@@ -49,13 +49,18 @@ export default function Support() {
   const filteredFaqs = useMemo(() => FAQS.filter((faq) => `${faq.question} ${faq.answer}`.toLowerCase().includes(faqQuery.trim().toLowerCase())), [faqQuery, FAQS]);
 
   const getMailParams = () => {
-    const subject = activeIndex === 1 ? t("supportEmailSubject") : t("supportFeedbackSubject");
+    const subject = activeIndex === 2 ? t("supportFeedbackSubject") : t("supportEmailSubject");
     const body = t("supportEmailBody");
+    const params = new URLSearchParams({
+      view: "cm",
+      fs: "1",
+      to: SUPPORT_EMAIL,
+      su: subject,
+      body,
+    });
 
     return {
-      subject,
-      body,
-      mailto: `mailto:${SUPPORT_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`,
+      composeUrl: `https://mail.google.com/mail/?${params.toString()}`,
     };
   };
 
@@ -66,8 +71,8 @@ export default function Support() {
       return;
     }
 
-    const { mailto } = getMailParams();
-    window.location.href = mailto;
+    const { composeUrl } = getMailParams();
+    window.open(composeUrl, "_blank", "noopener,noreferrer");
   };
 
   const handleCopyEmail = async () => {
@@ -127,7 +132,7 @@ export default function Support() {
         <p className="mt-1 text-sm text-muted-foreground">{activeItem.details}</p>
         <div className="mt-4 rounded-xl border border-border bg-secondary/40 p-3">
           <div className="text-xs font-semibold text-muted-foreground">{t("supportContactAddress")}</div>
-          <a className="mt-1 inline-block text-sm font-medium text-primary underline-offset-4 hover:underline" href={`mailto:${SUPPORT_EMAIL}`}>{SUPPORT_EMAIL}</a>
+          <a className="mt-1 inline-block text-sm font-medium text-primary underline-offset-4 hover:underline" href={getMailParams().composeUrl} target="_blank" rel="noopener noreferrer">{SUPPORT_EMAIL}</a>
         </div>
 
         <div className="mt-5 grid gap-2">
