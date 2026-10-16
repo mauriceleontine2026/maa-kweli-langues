@@ -3,7 +3,7 @@ import { invokeAI } from "@/api/aiService";
 import { restoreBackendSession } from "@/api/authService";
 import { getLanguages, getVocabularyForLanguage } from "@/api/languageService";
 import { useLanguage } from "@/contexts/LanguageContext";
-import { Send, Mic, Volume2, Square, Headphones, Languages, Sparkles, MessageSquareText, ArrowUpRight, CheckCircle2, RotateCcw } from "lucide-react";
+import { Send, Mic, Volume2, Square, Headphones, Languages, GraduationCap, Sparkles, MessageSquareText, ArrowUpRight, CheckCircle2, RotateCcw } from "lucide-react";
 import { moderateContent, getModerationMessage } from "@/lib/moderation";
 import { buildPhonologyContext, getPhonologyProfile } from "@/lib/languagePhonology";
 import { getCountryForLanguage, getFlagForLanguage } from "@/lib/localLanguageData";
@@ -298,7 +298,11 @@ Question actuelle de l'apprenant: ${msg}`;
               <div>
                 <div className="flex items-center gap-2">
                   <h1 className="font-heading text-3xl font-bold text-foreground">{t("assistantLabel")}</h1>
-                  <span className="rounded-full border border-primary/20 bg-primary/10 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-[0.18em] text-primary">
+                  <span className="inline-flex items-center gap-1 rounded-full border border-primary/20 bg-primary/10 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-[0.18em] text-primary">
+                    <span className="relative inline-flex shrink-0">
+                      <GraduationCap size={18} aria-hidden="true" />
+                      <Sparkles className="absolute -right-1 -top-2" size={10} strokeWidth={2.5} aria-hidden="true" />
+                    </span>
                     {t("aiCoach")}
                   </span>
                 </div>

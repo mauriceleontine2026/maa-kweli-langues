@@ -1,5 +1,5 @@
 import { Link, useLocation } from "react-router-dom";
-import { Home, BookOpen, GraduationCap, Mic, TrendingUp, Clock, Flame, Star, Sun, Moon, User, Shield, WifiOff } from "lucide-react";
+import { Home, BookOpen, GraduationCap, Mic, TrendingUp, Clock, Flame, Star, Sun, Moon, User, Shield, Sparkles, WifiOff } from "lucide-react";
 import { useTheme } from "@/contexts/ThemeContext";
 import { useEffect, useState } from "react";
 import { useAuth } from "@/lib/AuthContext";
@@ -82,7 +82,10 @@ export default function Sidebar() {
                   ? "bg-primary/15 text-primary border-l-2 border-primary"
                   : "text-muted-foreground hover:bg-secondary hover:text-foreground"
               }`}>
-              <Icon size={18} strokeWidth={active ? 2.5 : 2} />
+              <span className="relative inline-flex shrink-0">
+                <Icon size={18} strokeWidth={active ? 2.5 : 2} />
+                {key === "tutor" && <Sparkles className="absolute -right-1 -top-1" size={10} strokeWidth={2.5} aria-hidden="true" />}
+              </span>
               {t(key)}
             </Link>
           );

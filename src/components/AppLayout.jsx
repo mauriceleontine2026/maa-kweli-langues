@@ -25,6 +25,7 @@ import {
   Mic,
   Moon,
   Settings2,
+  Sparkles,
   Shield,
   Sun,
   TrendingUp,
@@ -333,15 +334,9 @@ export default function AppLayout() {
               className={({ isActive: navActive }) => {
                 const active = navActive || isActive(to);
                 return `relative flex min-w-0 flex-col items-center justify-center gap-0.5 rounded-lg px-0.5 py-1.5 text-[9px] font-medium transition sm:text-[11px] ${
-                  featured ? "rounded-xl border border-[#1554a0]/35 bg-[#1554a0]/10 font-semibold" : ""
-                } ${
                   active
-                    ? featured
-                      ? "border-[#1554a0] bg-[#1554a0] text-white shadow-md shadow-[#1554a0]/25"
-                      : "bg-primary/15 text-primary shadow-sm"
-                    : featured
-                      ? "text-[#1554a0] hover:bg-[#1554a0]/20"
-                      : "text-muted-foreground hover:bg-secondary hover:text-foreground"
+                    ? "bg-primary/15 text-primary shadow-sm"
+                    : "text-muted-foreground hover:bg-secondary hover:text-foreground"
                 }`;
               }}
             >
@@ -349,11 +344,11 @@ export default function AppLayout() {
                 const active = navActive || isActive(to);
                 return (
                   <>
-                    <span className={`grid h-7 w-7 place-items-center rounded-lg ${featured ? "bg-[#1554a0]/15" : ""}`}>
+                    <span className="relative grid h-7 w-7 place-items-center rounded-lg">
                       <Icon size={featured ? 18 : 16} strokeWidth={active || featured ? 2.25 : 2} />
+                      {featured && <Sparkles className="absolute -right-1 -top-1" size={10} strokeWidth={2.5} />}
                     </span>
-                    <span className="max-w-full truncate text-center leading-none">{label}</span>
-                    {featured && <span className={`h-1 w-1 rounded-full ${active ? "bg-white" : "bg-[#1554a0]"}`} />}
+                    <span className={`max-w-full truncate text-center leading-none ${featured ? "font-semibold" : ""}`}>{label}</span>
                   </>
                 );
               }}

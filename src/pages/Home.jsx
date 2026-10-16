@@ -13,6 +13,7 @@ import {
   Play,
   Search,
   Star,
+  Sparkles,
   Wrench,
 } from "lucide-react";
 import LanguageFlag from "@/components/ui/LanguageFlag";
@@ -87,14 +88,6 @@ export default function Home() {
 
         <div className="relative lg:grid lg:grid-cols-[1.15fr_0.85fr] lg:items-center lg:gap-8">
           <div className="text-left">
-            <div className="mb-4 flex items-center gap-3">
-              <img src="/logo.png" alt="Mǎa-kwɛ́lî Langues" className="h-14 w-14 rounded-full object-cover shadow-md ring-2 ring-primary/30 sm:h-16 sm:w-16" />
-              <div>
-                <div className="font-heading text-lg font-bold leading-none text-foreground">Mǎa-kwɛ́lî</div>
-                <div className="text-xs font-semibold uppercase tracking-[0.18em] text-primary">Langues</div>
-              </div>
-            </div>
-
             <h1 className="mb-3 max-w-xl break-words font-heading text-2xl font-bold leading-tight text-foreground sm:mb-4 sm:text-4xl lg:text-[2.65rem]">
               {t("welcome")}{displayName ? `, ${displayName}` : ""} !
             </h1>
@@ -127,7 +120,11 @@ export default function Home() {
                 to="/tuteur"
                 className="inline-flex w-full max-w-xs items-center justify-center gap-2 rounded-xl border border-border bg-card px-4 py-3 text-sm font-semibold text-foreground transition hover:border-primary/40 hover:text-primary sm:w-auto sm:px-5"
               >
-                <GraduationCap size={18} /> {t("tutor")}
+                <span className="relative inline-flex shrink-0">
+                  <GraduationCap size={18} />
+                  <Sparkles className="absolute -right-1 -top-2" size={10} strokeWidth={2.5} aria-hidden="true" />
+                </span>
+                {t("tutor")}
               </Link>
             </div>
 
