@@ -69,55 +69,49 @@ def _get_env_value(*names: str) -> str | None:
 OPENAI_API_KEY = _get_env_value("OPENAI_API_KEY", "OPENAI_KEY")
 OPENAI_API_BASE = _get_env_value("OPENAI_API_BASE", "OPENAI_BASE_URL") or "https://api.openai.com"
 ANTHROPIC_API_KEY = _get_env_value("ANTHROPIC_API_KEY", "ANTHROPIC_KEY")
-ANTHROPIC_AGENT_ID = _get_env_value("ANTHROPIC_AGENT_ID", "CLAUDE_AGENT_ID")
 GEMINI_API_KEY = _get_env_value("GEMINI_API_KEY", "GOOGLE_AI_API_KEY", "GEMINI_KEY")
 PERPLEXITY_API_KEY = _get_env_value("PERPLEXITY_API_KEY")
 
 
-def _get_anthropic_config() -> tuple[str | None, str | None]:
-    return (
-        _get_env_value("ANTHROPIC_API_KEY", "ANTHROPIC_KEY"),
-        _get_env_value("ANTHROPIC_AGENT_ID", "CLAUDE_AGENT_ID"),
-    )
+def _get_anthropic_config() -> str | None:
+    return _get_env_value("ANTHROPIC_API_KEY", "ANTHROPIC_KEY")
 
 
-def build_anthropic_request(prompt: str, temperature: float = 0.7):
-    api_key, agent_id = _get_anthropic_config()
+def build_anthropic_request(prompt: str):
+    api_key = _get_anthropic_config()
     headers = {
         "x-api-key": api_key,
         "anthropic-version": "2023-06-01",
         "content-type": "application/json",
     }
-    model = os.getenv("ANTHROPIC_MODEL", "claude-3-5-sonnet-latest")
-
-    if agent_id:
-        url = f"https://api.anthropic.com/v1/agents/{agent_id}/messages"
-        payload = {
-            "max_tokens": 700,
-            "temperature": temperature,
-            "messages": [{"role": "user", "content": prompt}],
-        }
-    else:
-        url = "https://api.anthropic.com/v1/messages"
-        payload = {
-            "model": model,
-            "max_tokens": 700,
-            "temperature": temperature,
-            "messages": [{"role": "user", "content": prompt}],
-        }
+    model = _get_env_value("ANTHROPIC_MODEL") or "claude-sonnet-4-6"
+    url = "https://api.anthropic.com/v1/messages"
+    payload = {
+        "model": model,
+        "max_tokens": 700,
+        "messages": [{"role": "user", "content": prompt}],
+    }
 
     return url, headers, payload
 
 
-async def call_anthropic(prompt: str, temperature: float = 0.7) -> str:
-    api_key, _ = _get_anthropic_config()
+async def call_anthropic(prompt: str) -> str:
+    api_key = _get_anthropic_config()
     if not api_key:
         raise HTTPException(status_code=501, detail="Anthropic provider is not configured")
-    url, headers, payload = build_anthropic_request(prompt, temperature)
+    url, headers, payload = build_anthropic_request(prompt)
     async with httpx.AsyncClient(timeout=30.0) as client:
         response = await client.post(url, headers=headers, json=payload)
     if response.status_code >= 300:
-        raise HTTPException(status_code=502, detail="Anthropic provider request failed")
+        try:
+            error_body = response.json().get("error", {})
+        except (ValueError, AttributeError):
+            error_body = {}
+        error_message = error_body.get("message") if isinstance(error_body, dict) else None
+        detail = f"Anthropic provider request failed (HTTP {response.status_code})"
+        if isinstance(error_message, str) and error_message.strip():
+            detail += f": {error_message.strip()[:240]}"
+        raise HTTPException(status_code=502, detail=detail)
     body = response.json()
     if isinstance(body.get("content"), list) and body["content"]:
         return body["content"][0].get("text", "").strip()
@@ -238,11 +232,11 @@ async def chat(
     temperature = payload.temperature or 0.7
     provider = (os.getenv("AI_PROVIDER") or "auto").strip().lower()
     openai_api_key = _get_env_value("OPENAI_API_KEY", "OPENAI_KEY")
-    anthropic_api_key, _ = _get_anthropic_config()
+    anthropic_api_key = _get_anthropic_config()
     gemini_api_key = _get_env_value("GEMINI_API_KEY", "GOOGLE_AI_API_KEY", "GEMINI_KEY")
     providers = {
         "openai": lambda: call_openai(prompt, temperature, payload.response_json_schema),
-        "anthropic": lambda: call_anthropic(prompt, temperature),
+        "anthropic": lambda: call_anthropic(prompt),
         "gemini": lambda: call_gemini(prompt, temperature),
         "perplexity": lambda: call_perplexity(prompt, temperature, payload.image_data),
     }

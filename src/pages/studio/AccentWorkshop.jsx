@@ -4,6 +4,7 @@ import { invokeAI } from "@/api/aiService";
 import { getLanguages, getVocabularyForLanguage } from "@/api/languageService";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { Waves, Mic, Square, Play, RefreshCw, ArrowLeft, Volume2 } from "lucide-react";
+import { getSupportedAudioRecordingMimeType } from "@/lib/audioRecording";
 
 export default function AccentWorkshop() {
   const { language } = useLanguage();
@@ -24,9 +25,11 @@ export default function AccentWorkshop() {
     analyze: "Analyze",
     reRecord: "Record again",
     chooseWord: "Choose a word first",
-    analyzeError: "Analysis error: ",
+    feedbackError: "The score is ready, but AI feedback could not be generated: ",
     microError: "❌ Micro unavailable: ",
     audioNotAvailable: "Micro access is required.",
+    recordingUnsupported: "This browser cannot record audio. Open the app in Safari or Chrome over HTTPS.",
+    emptyRecording: "No audio was captured. Check microphone permission and try again.",
     spectralSimilarity: "Spectral similarity"
   } : {
     title: "Atelier d'Accent",
@@ -44,9 +47,11 @@ export default function AccentWorkshop() {
     analyze: "Analyser",
     reRecord: "Réenregistrer",
     chooseWord: "Choisis un mot d'abord",
-    analyzeError: "Erreur d'analyse : ",
+    feedbackError: "Le score est disponible, mais les conseils IA n'ont pas pu être générés : ",
     microError: "❌ Micro inaccessible : ",
     audioNotAvailable: "autorise l'accès au micro.",
+    recordingUnsupported: "Ce navigateur ne permet pas l'enregistrement audio. Ouvre l'application dans Safari ou Chrome via HTTPS.",
+    emptyRecording: "Aucun son n'a été capturé. Vérifie l'autorisation du micro puis réessaie.",
     spectralSimilarity: "Similarité spectrale"
   };
   const [languages, setLanguages] = useState(/** @type {any[]} */ ([]));
@@ -93,17 +98,30 @@ export default function AccentWorkshop() {
 
   const startRecording = async () => {
     setMsg("");
+    /** @type {MediaStream | undefined} */
+    let stream;
     try {
-      const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+      if (!navigator.mediaDevices?.getUserMedia || !window.MediaRecorder) {
+        throw new Error(labels.recordingUnsupported);
+      }
+      stream = await navigator.mediaDevices.getUserMedia({ audio: true });
       streamRef.current = stream;
-      const recorder = new MediaRecorder(stream);
+      const mimeType = getSupportedAudioRecordingMimeType(window.MediaRecorder);
+      const recorder = mimeType
+        ? new MediaRecorder(stream, { mimeType })
+        : new MediaRecorder(stream);
       chunksRef.current = [];
       recorder.ondataavailable = (e) => { if (e.data.size > 0) chunksRef.current.push(e.data); };
       recorder.onstop = () => {
-        const blob = new Blob(chunksRef.current, { type: "audio/webm" });
+        const blob = new Blob(chunksRef.current, { type: recorder.mimeType || mimeType });
+        stream?.getTracks().forEach((track) => track.stop());
+        if (streamRef.current === stream) streamRef.current = null;
+        if (!blob.size) {
+          setMsg(labels.emptyRecording);
+          return;
+        }
         setUserAudioBlob(blob);
         setUserAudioUrl(URL.createObjectURL(blob));
-        stream.getTracks().forEach((t) => t.stop());
       };
       recorder.start();
       mediaRecorderRef.current = recorder;
@@ -113,6 +131,8 @@ export default function AccentWorkshop() {
       setFeedback("");
       timerRef.current = setInterval(() => setRecordTime(t => t + 1), 1000);
     } catch (err) {
+      stream?.getTracks().forEach((track) => track.stop());
+      if (streamRef.current === stream) streamRef.current = null;
       const message = err instanceof Error ? err.message : String(err);
       setMsg(labels.microError + (message || labels.audioNotAvailable));
     }
@@ -223,7 +243,7 @@ export default function AccentWorkshop() {
       setFeedback(typeof feedbackContent === "string" ? feedbackContent : JSON.stringify(feedbackContent ?? ""));
     } catch (err) {
       const message = err instanceof Error ? err.message : String(err);
-      setFeedback(labels.analyzeError + message);
+      setFeedback(labels.feedbackError + message);
     } finally {
       setAnalyzing(false);
     }

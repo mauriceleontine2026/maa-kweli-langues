@@ -4,7 +4,8 @@ import sys
 from pathlib import Path
 
 import httpx
-from fastapi import FastAPI
+import pytest
+from fastapi import FastAPI, HTTPException
 
 sys.path.append(str(Path(__file__).resolve().parents[1]))
 
@@ -106,3 +107,40 @@ def test_translation_returns_503_when_no_provider_is_configured(monkeypatch):
 
     assert response.status_code == 503
     assert "configured" in response.json()["detail"].lower()
+
+
+def test_anthropic_request_uses_messages_api_even_with_agent_id(monkeypatch):
+    monkeypatch.setenv("ANTHROPIC_API_KEY", "test-anthropic-key")
+    monkeypatch.setenv("ANTHROPIC_AGENT_ID", "test-agent-id")
+    monkeypatch.setenv("ANTHROPIC_MODEL", "claude-sonnet-4-6")
+
+    url, headers, payload = ai_module.build_anthropic_request("Pronunciation feedback")
+
+    assert url == "https://api.anthropic.com/v1/messages"
+    assert headers["x-api-key"] == "test-anthropic-key"
+    assert payload["model"] == "claude-sonnet-4-6"
+    assert payload["messages"] == [{"role": "user", "content": "Pronunciation feedback"}]
+    assert "temperature" not in payload
+
+
+def test_anthropic_request_error_includes_upstream_reason(monkeypatch):
+    monkeypatch.setenv("ANTHROPIC_API_KEY", "test-anthropic-key")
+
+    async def fake_post(self, url, headers=None, json=None):
+        class Response:
+            status_code = 404
+
+            @staticmethod
+            def json():
+                return {"error": {"message": "model not found"}}
+
+        return Response()
+
+    monkeypatch.setattr(httpx.AsyncClient, "post", fake_post)
+
+    with pytest.raises(HTTPException) as error:
+        asyncio.run(ai_module.call_anthropic("test prompt"))
+
+    assert error.value.status_code == 502
+    assert "HTTP 404" in error.value.detail
+    assert "model not found" in error.value.detail
