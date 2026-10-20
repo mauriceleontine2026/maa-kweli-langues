@@ -9,7 +9,7 @@ import { logout as logoutService, updateMe } from "@/api/authService";
 import { listContributions } from "@/api/contributionService";
 import { uploadProfilePhoto } from "@/api/uploadService";
 import { useTheme } from "@/contexts/ThemeContext";
-import { Mail, Shield, Flame, Star, BookOpen, Globe, LogOut, Clock, CheckCircle, XCircle, Hourglass, Award, Settings, Camera, Loader2, Save, Lock, CheckCircle2 } from "lucide-react";
+import { Mail, Shield, Flame, Star, BookOpen, Globe, LogOut, Clock, CheckCircle, XCircle, Hourglass, Award, Settings, Camera, Loader2, Save, Lock, CheckCircle2, RotateCcw, ArrowRight } from "lucide-react";
 import LanguageFlag from "@/components/ui/LanguageFlag";
 // public logo at /logo.png
 
@@ -221,6 +221,14 @@ export default function Profile() {
           </div>
         ))}
       </div>
+
+      <Link to="/revision" className="group flex items-center gap-3 rounded-xl border border-border bg-card px-4 py-3 transition hover:border-primary/40 hover:bg-secondary/30">
+        <span className="grid h-10 w-10 shrink-0 place-items-center rounded-lg bg-primary/10 text-primary">
+          <RotateCcw size={18} />
+        </span>
+        <span className="flex-1 text-sm font-semibold text-foreground">{t("review")}</span>
+        <ArrowRight size={17} className="text-muted-foreground transition group-hover:translate-x-0.5 group-hover:text-primary" />
+      </Link>
 
       {/* Achievements */}
       <div className="rounded-2xl border border-border bg-card p-4 shadow-sm sm:p-5">

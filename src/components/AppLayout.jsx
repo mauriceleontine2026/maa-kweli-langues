@@ -14,7 +14,6 @@ import {
   BookOpen,
   CheckCheck,
   CircleHelp,
-  Clock,
   GraduationCap,
   Home,
   LayoutDashboard,
@@ -41,7 +40,6 @@ const NAV_ITEMS = [
   { to: "/tuteur", key: "tutor", icon: GraduationCap, featured: true },
   { to: "/contribuer", key: "contribute", icon: Mic },
   { to: "/progres", key: "progress", icon: TrendingUp },
-  { to: "/revision", key: "review", icon: Clock },
 ];
 
 const ANNOUNCEMENTS_STORAGE_KEY = "maa-kweli-announcements-read";
@@ -322,7 +320,7 @@ export default function AppLayout() {
       </main>
 
       <nav className="fixed inset-x-0 bottom-0 z-40 border-t border-border/70 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/85">
-        <div className="mx-auto grid max-w-7xl grid-cols-6 gap-0.5 px-0.5 py-1">
+        <div className="mx-auto grid max-w-7xl grid-cols-5 gap-0.5 px-0.5 py-1">
           {NAV_ITEMS.map(({ to, key, icon: Icon, featured }) => {
             const label = t(key);
             return (
