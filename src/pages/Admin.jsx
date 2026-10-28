@@ -3,7 +3,7 @@ import { useAuth } from "@/lib/AuthContext";
 import { createLanguage, getAdminLanguages, getAllVocabulary, getAllLessons } from "@/api/languageService";
 import { listUsers } from "@/api/userService";
 import { listContributions } from "@/api/contributionService";
-import { getCountryForLanguage, getFlagForLanguage } from "@/lib/localLanguageData";
+import { getCountryForLanguage, getFlagForLanguage, getLocalLanguages } from "@/lib/localLanguageData";
 import { getLanguageLabel } from "@/lib/languageLabels";
 import { Link } from "react-router-dom";
 import { useLanguage } from "@/contexts/LanguageContext";
@@ -13,15 +13,17 @@ import AdminContributions from "@/components/admin/AdminContributions";
 import AdminUsers from "@/components/admin/AdminUsers";
 import AdminLessons from "@/components/admin/AdminLessons";
 
+let cachedAdminOverview = null;
+
 export default function Admin() {
   const [tab, setTab] = useState("overview");
-  const [languages, setLanguages] = useState(/** @type {any[]} */ ([]));
-  const [vocabCount, setVocabCount] = useState(0);
-  const [users, setUsers] = useState(/** @type {any[]} */ ([]));
+  const [languages, setLanguages] = useState(() => cachedAdminOverview?.languages || getLocalLanguages());
+  const [vocabCount, setVocabCount] = useState(() => cachedAdminOverview?.vocabCount ?? 0);
+  const [userCount, setUserCount] = useState(() => cachedAdminOverview?.userCount ?? null);
   const [usersLoadError, setUsersLoadError] = useState(false);
-  const [contribCount, setContribCount] = useState(0);
-  const [lessonCount, setLessonCount] = useState(0);
-  const [loadingData, setLoadingData] = useState(true);
+  const [contribCount, setContribCount] = useState(() => cachedAdminOverview?.contribCount ?? 0);
+  const [lessonCount, setLessonCount] = useState(() => cachedAdminOverview?.lessonCount ?? 0);
+  const [loadingData, setLoadingData] = useState(() => !cachedAdminOverview);
   const [refreshing, setRefreshing] = useState(false);
   const [dataLoadError, setDataLoadError] = useState("");
   const { user, isLoadingAuth } = useAuth();
@@ -29,10 +31,10 @@ export default function Admin() {
 
   const loadAdminData = useCallback(async (isRefresh = false) => {
     if (isRefresh) setRefreshing(true);
-    else setLoadingData(true);
+    else if (!cachedAdminOverview) setLoadingData(true);
     setDataLoadError("");
 
-    const fetchOverview = () => Promise.allSettled([
+    const [languageData, vocabularyData, userData, contributionData, lessonData] = await Promise.allSettled([
       getAdminLanguages(),
       getAllVocabulary(),
       listUsers(),
@@ -41,28 +43,19 @@ export default function Admin() {
     ]);
 
     try {
-      let results = await fetchOverview();
-      const usersResult = results[2];
-      const userListMissing = usersResult.status === "fulfilled"
-        && (!Array.isArray(usersResult.value) || usersResult.value.length === 0);
-      if (results.some((result) => result.status === "rejected") || userListMissing) {
-        await new Promise((resolve) => window.setTimeout(resolve, 800));
-        results = await fetchOverview();
-      }
-
-      const [languageData, vocabularyData, userData, contributionData, lessonData] = results;
-      if (languageData.status === "fulfilled") setLanguages(Array.isArray(languageData.value) ? languageData.value : []);
-      if (vocabularyData.status === "fulfilled") setVocabCount(Array.isArray(vocabularyData.value) ? vocabularyData.value.length : 0);
+      if (languageData.status === "fulfilled" && Array.isArray(languageData.value)) setLanguages(languageData.value);
+      if (vocabularyData.status === "fulfilled" && Array.isArray(vocabularyData.value)) setVocabCount(vocabularyData.value.length);
       if (userData.status === "fulfilled" && Array.isArray(userData.value) && userData.value.length > 0) {
-        setUsers(userData.value);
+        setUserCount(userData.value.length);
         setUsersLoadError(false);
       } else {
-        setUsers([]);
+        setUserCount(null);
         setUsersLoadError(true);
       }
-      if (contributionData.status === "fulfilled") setContribCount(Array.isArray(contributionData.value) ? contributionData.value.length : 0);
-      if (lessonData.status === "fulfilled") setLessonCount(Array.isArray(lessonData.value) ? lessonData.value.length : 0);
+      if (contributionData.status === "fulfilled" && Array.isArray(contributionData.value)) setContribCount(contributionData.value.length);
+      if (lessonData.status === "fulfilled" && Array.isArray(lessonData.value)) setLessonCount(lessonData.value.length);
 
+      const results = [languageData, vocabularyData, userData, contributionData, lessonData];
       const failedRequests = results
         .map((result, index) => ({ result, label: ["langues", "vocabulaire", "utilisateurs", "contributions", "leçons"][index] }))
         .map(({ result, label }) => {
@@ -71,13 +64,30 @@ export default function Admin() {
         })
         .filter(Boolean);
       if (userData.status === "fulfilled" && (!Array.isArray(userData.value) || userData.value.length === 0)) {
-        failedRequests.push("utilisateurs : la liste est vide ou invalide après une nouvelle tentative");
+        failedRequests.push("utilisateurs : la liste est vide ou invalide");
       }
       if (failedRequests.length > 0) {
         const message = `Certaines données n'ont pas pu être chargées automatiquement. ${failedRequests.join(" · ")}`;
         setDataLoadError(message);
         console.error("Admin overview data load failed:", message);
       }
+      cachedAdminOverview = {
+        languages: languageData.status === "fulfilled" && Array.isArray(languageData.value)
+          ? languageData.value
+          : cachedAdminOverview?.languages || getLocalLanguages(),
+        vocabCount: vocabularyData.status === "fulfilled" && Array.isArray(vocabularyData.value)
+          ? vocabularyData.value.length
+          : cachedAdminOverview?.vocabCount ?? 0,
+        userCount: userData.status === "fulfilled" && Array.isArray(userData.value) && userData.value.length > 0
+          ? userData.value.length
+          : cachedAdminOverview?.userCount ?? null,
+        contribCount: contributionData.status === "fulfilled" && Array.isArray(contributionData.value)
+          ? contributionData.value.length
+          : cachedAdminOverview?.contribCount ?? 0,
+        lessonCount: lessonData.status === "fulfilled" && Array.isArray(lessonData.value)
+          ? lessonData.value.length
+          : cachedAdminOverview?.lessonCount ?? 0,
+      };
     } finally {
       setLoadingData(false);
       setRefreshing(false);
@@ -92,7 +102,11 @@ export default function Admin() {
 
   const refreshLanguages = () => {
     getAdminLanguages()
-      .then((data) => setLanguages(Array.isArray(data) ? data : []))
+      .then((data) => {
+        const nextLanguages = Array.isArray(data) ? data : [];
+        setLanguages(nextLanguages);
+        cachedAdminOverview = { ...cachedAdminOverview, languages: nextLanguages };
+      })
       .catch(() => setLanguages([]));
   };
 
@@ -153,13 +167,13 @@ export default function Admin() {
         {[
           { icon: Globe, color: "text-primary", value: languages.length, label: t("adminLanguages") },
           { icon: BookOpen, color: "text-blue-500", value: vocabCount, label: t("adminWords") },
-          { icon: Users, color: "text-green-500", value: usersLoadError ? "—" : users.length, label: t("adminUsers") },
+          { icon: Users, color: "text-green-500", value: usersLoadError ? "—" : userCount ?? "—", label: t("adminUsers") },
           { icon: FileText, color: "text-yellow-500", value: contribCount, label: t("adminContribs") },
           { icon: Clock, color: "text-purple-500", value: lessonCount, label: t("adminLessons") },
         ].map(({ icon: Icon, color, value, label }) => (
           <div key={label} className="bg-card rounded-xl p-3 text-center border border-border">
             <Icon className={`mx-auto mb-1 ${color}`} size={18} />
-            <div className="text-xl font-bold text-foreground">{loadingData ? "-" : value}</div>
+            <div className="text-xl font-bold text-foreground">{loadingData && label !== t("adminLanguages") && !cachedAdminOverview ? "-" : value}</div>
             <div className="text-[10px] text-muted-foreground">{label}</div>
           </div>
         ))}
@@ -189,7 +203,7 @@ export default function Admin() {
           <section>
             <div className="mb-3 flex items-center justify-between"><div><h2 className="font-heading text-xl font-bold text-foreground">{t("adminQuickAccess")}</h2><p className="text-sm text-muted-foreground">{t("adminQuickAccessText")}</p></div></div>
             <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
-              {[{ tab: "vocab", icon: BookOpen, label: t("adminVocabulary"), value: vocabCount, text: t("adminManageWords") }, { tab: "lessons", icon: Clock, label: t("adminLessons"), value: lessonCount, text: t("adminManageLearningPaths") }, { tab: "contributions", icon: FileText, label: t("adminContributions"), value: contribCount, text: t("adminModerateAdditions") }, { tab: "users", icon: Users, label: t("adminUsers"), value: usersLoadError ? "—" : users.length, text: t("adminManageAccounts") }].map(({ tab: targetTab, icon: Icon, label, value, text }) => <button key={targetTab} type="button" onClick={() => setTab(targetTab)} className="group rounded-2xl border border-border bg-card p-4 text-left shadow-sm transition hover:-translate-y-0.5 hover:border-primary/40 hover:shadow-md"><div className="mb-4 flex items-center justify-between"><span className="rounded-xl bg-primary/10 p-2 text-primary"><Icon size={18} /></span><span className="text-2xl font-bold text-foreground">{loadingData ? "-" : value}</span></div><div className="font-semibold text-foreground">{label}</div><div className="mt-1 text-xs text-muted-foreground">{text} <span className="text-primary transition group-hover:ml-1">→</span></div></button>)}
+              {[{ tab: "vocab", icon: BookOpen, label: t("adminVocabulary"), value: vocabCount, text: t("adminManageWords") }, { tab: "lessons", icon: Clock, label: t("adminLessons"), value: lessonCount, text: t("adminManageLearningPaths") }, { tab: "contributions", icon: FileText, label: t("adminContributions"), value: contribCount, text: t("adminModerateAdditions") }, { tab: "users", icon: Users, label: t("adminUsers"), value: usersLoadError ? "—" : userCount ?? "—", text: t("adminManageAccounts") }].map(({ tab: targetTab, icon: Icon, label, value, text }) => <button key={targetTab} type="button" onClick={() => setTab(targetTab)} className="group rounded-2xl border border-border bg-card p-4 text-left shadow-sm transition hover:-translate-y-0.5 hover:border-primary/40 hover:shadow-md"><div className="mb-4 flex items-center justify-between"><span className="rounded-xl bg-primary/10 p-2 text-primary"><Icon size={18} /></span><span className="text-2xl font-bold text-foreground">{loadingData && !cachedAdminOverview ? "-" : value}</span></div><div className="font-semibold text-foreground">{label}</div><div className="mt-1 text-xs text-muted-foreground">{text} <span className="text-primary transition group-hover:ml-1">→</span></div></button>)}
             </div>
           </section>
           <section>
