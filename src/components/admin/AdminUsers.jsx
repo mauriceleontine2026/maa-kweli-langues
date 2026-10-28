@@ -1,16 +1,33 @@
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import { listUsers, inviteUser } from "@/api/userService";
-import { UserPlus, Shield, Mail } from "lucide-react";
+import { UserPlus, Shield, Mail, RefreshCw } from "lucide-react";
 
 export default function AdminUsers() {
   const [users, setUsers] = useState([]);
+  const [loadingUsers, setLoadingUsers] = useState(true);
+  const [loadError, setLoadError] = useState("");
   const [inviteEmail, setInviteEmail] = useState("");
   const [msg, setMsg] = useState("");
 
-  const fetch = () => {
-    listUsers().then(setUsers).catch(() => setUsers([]));
-  };
-  useEffect(() => { fetch(); }, []);
+  const fetchUsers = useCallback(async () => {
+    setLoadingUsers(true);
+    setLoadError("");
+    try {
+      const result = await listUsers();
+      if (!Array.isArray(result)) {
+        throw new Error("La réponse du serveur pour la liste des utilisateurs est invalide.");
+      }
+      setUsers(result);
+    } catch (error) {
+      console.error("Admin users fetch error:", error);
+      setLoadError(error instanceof Error ? error.message : "Impossible de charger les utilisateurs.");
+      setUsers([]);
+    } finally {
+      setLoadingUsers(false);
+    }
+  }, []);
+
+  useEffect(() => { fetchUsers(); }, [fetchUsers]);
 
   const handleInvite = async (e) => {
     e.preventDefault();
@@ -22,7 +39,7 @@ export default function AdminUsers() {
         : "";
       setMsg("✅ Invitation envoyée à " + inviteEmail + tokenMessage);
       setInviteEmail("");
-      fetch();
+      await fetchUsers();
     } catch (err) {
       setMsg("❌ " + err.message);
     }
@@ -56,7 +73,16 @@ export default function AdminUsers() {
 
       {/* User list */}
       <div className="space-y-2">
-        {users.map(u => (
+        {loadingUsers && <p className="text-center text-sm text-muted-foreground py-4">Chargement des utilisateurs…</p>}
+        {!loadingUsers && loadError && (
+          <div role="alert" className="flex items-center justify-between gap-3 rounded-xl border border-red-500/30 bg-red-500/10 p-4 text-sm text-red-700 dark:text-red-300">
+            <span>Impossible de charger les utilisateurs : {loadError}</span>
+            <button type="button" onClick={fetchUsers} className="flex shrink-0 items-center gap-2 rounded-lg px-3 py-2 font-medium hover:bg-red-500/10">
+              <RefreshCw size={14} /> Réessayer
+            </button>
+          </div>
+        )}
+        {!loadingUsers && !loadError && users.map(u => (
           <div key={u.id} className="bg-card rounded-xl p-3 border border-border flex items-center gap-3">
             <div className="w-10 h-10 rounded-full bg-gradient-to-br from-primary to-purple-500 flex items-center justify-center text-white font-bold text-sm">
               {(u.full_name || u.email || "?")[0].toUpperCase()}
@@ -70,7 +96,7 @@ export default function AdminUsers() {
             </div>
           </div>
         ))}
-        {users.length === 0 && <p className="text-center text-sm text-muted-foreground py-4">Aucun utilisateur</p>}
+        {!loadingUsers && !loadError && users.length === 0 && <p className="text-center text-sm text-muted-foreground py-4">Aucun utilisateur</p>}
       </div>
     </div>
   );

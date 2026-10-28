@@ -22,19 +22,26 @@ describe('languageService local language data', () => {
     expect(result).toHaveLength(39);
   });
 
-  it('merges backend languages into the admin language list', async () => {
+  it('keeps the admin language list aligned with the application catalog', async () => {
+    const localLanguage = getLocalLanguages()[0];
     mockRequest.mockResolvedValueOnce([
-      { code: 'bm', name: 'Bambara', name_fr: 'Bambara' },
-      { code: 'tw', name: 'Akuapem Twi', name_fr: 'Twi akua' },
+      { code: localLanguage.code, name: 'Nom API', name_fr: 'Nom API FR' },
+      { code: 'legacy-language-a', name: 'Legacy A', name_fr: 'Legacy A' },
+      { code: 'legacy-language-b', name: 'Legacy B', name_fr: 'Legacy B' },
+      { code: 'legacy-language-c', name: 'Legacy C', name_fr: 'Legacy C' },
+      { code: 'legacy-language-d', name: 'Legacy D', name_fr: 'Legacy D' },
     ]);
 
     const result = await getAdminLanguages();
 
     expect(mockRequest).toHaveBeenCalledWith('GET', '/api/languages');
-    expect(result).toEqual(expect.arrayContaining([
-      expect.objectContaining({ code: 'bm', name: 'Bambara', name_fr: 'Bambara' }),
-      expect.objectContaining({ code: 'tw', name: 'Akuapem Twi', name_fr: 'Twi akua' }),
-    ]));
+    expect(result).toHaveLength(39);
+    expect(result.map((language) => language.code)).toContain(localLanguage.code);
+    expect(result.find((language) => language.code === localLanguage.code)).toMatchObject({
+      name: 'Nom API',
+      name_fr: 'Nom API FR',
+    });
+    expect(result.map((language) => language.code)).not.toContain('legacy-language-a');
   });
 
   it('loads lessons and vocabulary from the local language data', async () => {

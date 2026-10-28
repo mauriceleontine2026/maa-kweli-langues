@@ -18,6 +18,7 @@ export default function Admin() {
   const [languages, setLanguages] = useState(/** @type {any[]} */ ([]));
   const [vocabCount, setVocabCount] = useState(0);
   const [users, setUsers] = useState(/** @type {any[]} */ ([]));
+  const [usersLoadError, setUsersLoadError] = useState(false);
   const [contribCount, setContribCount] = useState(0);
   const [lessonCount, setLessonCount] = useState(0);
   const [loadingData, setLoadingData] = useState(true);
@@ -38,7 +39,13 @@ export default function Admin() {
 
     if (languageData.status === "fulfilled") setLanguages(Array.isArray(languageData.value) ? languageData.value : []);
     if (vocabularyData.status === "fulfilled") setVocabCount(Array.isArray(vocabularyData.value) ? vocabularyData.value.length : 0);
-    if (userData.status === "fulfilled") setUsers(Array.isArray(userData.value) ? userData.value : []);
+    if (userData.status === "fulfilled" && Array.isArray(userData.value)) {
+      setUsers(userData.value);
+      setUsersLoadError(false);
+    } else {
+      setUsers([]);
+      setUsersLoadError(true);
+    }
     if (contributionData.status === "fulfilled") setContribCount(Array.isArray(contributionData.value) ? contributionData.value.length : 0);
     if (lessonData.status === "fulfilled") setLessonCount(Array.isArray(lessonData.value) ? lessonData.value.length : 0);
     setLoadingData(false);
@@ -112,7 +119,7 @@ export default function Admin() {
         {[
           { icon: Globe, color: "text-primary", value: languages.length, label: t("adminLanguages") },
           { icon: BookOpen, color: "text-blue-500", value: vocabCount, label: t("adminWords") },
-          { icon: Users, color: "text-green-500", value: users.length, label: t("adminUsers") },
+          { icon: Users, color: "text-green-500", value: usersLoadError ? "—" : users.length, label: t("adminUsers") },
           { icon: FileText, color: "text-yellow-500", value: contribCount, label: t("adminContribs") },
           { icon: Clock, color: "text-purple-500", value: lessonCount, label: t("adminLessons") },
         ].map(({ icon: Icon, color, value, label }) => (
@@ -140,7 +147,7 @@ export default function Admin() {
           <section>
             <div className="mb-3 flex items-center justify-between"><div><h2 className="font-heading text-xl font-bold text-foreground">{t("adminQuickAccess")}</h2><p className="text-sm text-muted-foreground">{t("adminQuickAccessText")}</p></div></div>
             <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
-              {[{ tab: "vocab", icon: BookOpen, label: t("adminVocabulary"), value: vocabCount, text: t("adminManageWords") }, { tab: "lessons", icon: Clock, label: t("adminLessons"), value: lessonCount, text: t("adminManageLearningPaths") }, { tab: "contributions", icon: FileText, label: t("adminContributions"), value: contribCount, text: t("adminModerateAdditions") }, { tab: "users", icon: Users, label: t("adminUsers"), value: users.length, text: t("adminManageAccounts") }].map(({ tab: targetTab, icon: Icon, label, value, text }) => <button key={targetTab} type="button" onClick={() => setTab(targetTab)} className="group rounded-2xl border border-border bg-card p-4 text-left shadow-sm transition hover:-translate-y-0.5 hover:border-primary/40 hover:shadow-md"><div className="mb-4 flex items-center justify-between"><span className="rounded-xl bg-primary/10 p-2 text-primary"><Icon size={18} /></span><span className="text-2xl font-bold text-foreground">{loadingData ? "-" : value}</span></div><div className="font-semibold text-foreground">{label}</div><div className="mt-1 text-xs text-muted-foreground">{text} <span className="text-primary transition group-hover:ml-1">→</span></div></button>)}
+              {[{ tab: "vocab", icon: BookOpen, label: t("adminVocabulary"), value: vocabCount, text: t("adminManageWords") }, { tab: "lessons", icon: Clock, label: t("adminLessons"), value: lessonCount, text: t("adminManageLearningPaths") }, { tab: "contributions", icon: FileText, label: t("adminContributions"), value: contribCount, text: t("adminModerateAdditions") }, { tab: "users", icon: Users, label: t("adminUsers"), value: usersLoadError ? "—" : users.length, text: t("adminManageAccounts") }].map(({ tab: targetTab, icon: Icon, label, value, text }) => <button key={targetTab} type="button" onClick={() => setTab(targetTab)} className="group rounded-2xl border border-border bg-card p-4 text-left shadow-sm transition hover:-translate-y-0.5 hover:border-primary/40 hover:shadow-md"><div className="mb-4 flex items-center justify-between"><span className="rounded-xl bg-primary/10 p-2 text-primary"><Icon size={18} /></span><span className="text-2xl font-bold text-foreground">{loadingData ? "-" : value}</span></div><div className="font-semibold text-foreground">{label}</div><div className="mt-1 text-xs text-muted-foreground">{text} <span className="text-primary transition group-hover:ml-1">→</span></div></button>)}
             </div>
           </section>
           <section>

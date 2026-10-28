@@ -14,20 +14,24 @@ import { normalizeLanguageText } from "@/lib/languageLabels";
 const toArray = (value) => (Array.isArray(value) ? value : []);
 
 const mergeUniqueLanguages = (languages) => {
-  const items = Array.isArray(languages) ? languages.map((language) => ({
+  const backendLanguages = Array.isArray(languages) ? languages.map((language) => ({
     ...language,
     name: normalizeLanguageText(language?.name),
     name_fr: normalizeLanguageText(language?.name_fr),
   })) : [];
-  const existingCodes = new Set(items.map((lang) => String(lang?.code || "").trim().toLowerCase()));
-  getLocalLanguages().forEach((localLang) => {
-    const localCode = String(localLang?.code || "").trim().toLowerCase();
-    if (localCode && !existingCodes.has(localCode)) {
-      items.push(localLang);
-      existingCodes.add(localCode);
-    }
+  const backendByCode = new Map();
+  backendLanguages.forEach((language) => {
+    const code = String(language?.code || "").trim().toLowerCase();
+    if (code) backendByCode.set(code, language);
   });
-  return items;
+
+  return getLocalLanguages().map((localLanguage) => {
+    const localCode = String(localLanguage?.code || "").trim().toLowerCase();
+    return {
+      ...localLanguage,
+      ...(backendByCode.get(localCode) || {}),
+    };
+  });
 };
 
 export async function getLanguages() {
