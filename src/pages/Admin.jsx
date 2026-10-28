@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback } from "react";
 import { useAuth } from "@/lib/AuthContext";
 import { createLanguage, getAdminLanguages, getAllVocabulary, getAllLessons } from "@/api/languageService";
 import { listUsers } from "@/api/userService";
@@ -23,13 +23,16 @@ export default function Admin() {
   const [lessonCount, setLessonCount] = useState(0);
   const [loadingData, setLoadingData] = useState(true);
   const [refreshing, setRefreshing] = useState(false);
+  const [dataLoadError, setDataLoadError] = useState("");
   const { user, isLoadingAuth } = useAuth();
   const { t } = useLanguage();
 
-  const loadAdminData = async (isRefresh = false) => {
+  const loadAdminData = useCallback(async (isRefresh = false) => {
     if (isRefresh) setRefreshing(true);
     else setLoadingData(true);
-    const [languageData, vocabularyData, userData, contributionData, lessonData] = await Promise.allSettled([
+    setDataLoadError("");
+
+    const fetchOverview = () => Promise.allSettled([
       getAdminLanguages(),
       getAllVocabulary(),
       listUsers(),
@@ -37,24 +40,55 @@ export default function Admin() {
       getAllLessons(),
     ]);
 
-    if (languageData.status === "fulfilled") setLanguages(Array.isArray(languageData.value) ? languageData.value : []);
-    if (vocabularyData.status === "fulfilled") setVocabCount(Array.isArray(vocabularyData.value) ? vocabularyData.value.length : 0);
-    if (userData.status === "fulfilled" && Array.isArray(userData.value)) {
-      setUsers(userData.value);
-      setUsersLoadError(false);
-    } else {
-      setUsers([]);
-      setUsersLoadError(true);
+    try {
+      let results = await fetchOverview();
+      const usersResult = results[2];
+      const userListMissing = usersResult.status === "fulfilled"
+        && (!Array.isArray(usersResult.value) || usersResult.value.length === 0);
+      if (results.some((result) => result.status === "rejected") || userListMissing) {
+        await new Promise((resolve) => window.setTimeout(resolve, 800));
+        results = await fetchOverview();
+      }
+
+      const [languageData, vocabularyData, userData, contributionData, lessonData] = results;
+      if (languageData.status === "fulfilled") setLanguages(Array.isArray(languageData.value) ? languageData.value : []);
+      if (vocabularyData.status === "fulfilled") setVocabCount(Array.isArray(vocabularyData.value) ? vocabularyData.value.length : 0);
+      if (userData.status === "fulfilled" && Array.isArray(userData.value) && userData.value.length > 0) {
+        setUsers(userData.value);
+        setUsersLoadError(false);
+      } else {
+        setUsers([]);
+        setUsersLoadError(true);
+      }
+      if (contributionData.status === "fulfilled") setContribCount(Array.isArray(contributionData.value) ? contributionData.value.length : 0);
+      if (lessonData.status === "fulfilled") setLessonCount(Array.isArray(lessonData.value) ? lessonData.value.length : 0);
+
+      const failedRequests = results
+        .map((result, index) => ({ result, label: ["langues", "vocabulaire", "utilisateurs", "contributions", "leçons"][index] }))
+        .map(({ result, label }) => {
+          if (result.status !== "rejected") return "";
+          return `${label} : ${result.reason instanceof Error ? result.reason.message : "échec de la requête"}`;
+        })
+        .filter(Boolean);
+      if (userData.status === "fulfilled" && (!Array.isArray(userData.value) || userData.value.length === 0)) {
+        failedRequests.push("utilisateurs : la liste est vide ou invalide après une nouvelle tentative");
+      }
+      if (failedRequests.length > 0) {
+        const message = `Certaines données n'ont pas pu être chargées automatiquement. ${failedRequests.join(" · ")}`;
+        setDataLoadError(message);
+        console.error("Admin overview data load failed:", message);
+      }
+    } finally {
+      setLoadingData(false);
+      setRefreshing(false);
     }
-    if (contributionData.status === "fulfilled") setContribCount(Array.isArray(contributionData.value) ? contributionData.value.length : 0);
-    if (lessonData.status === "fulfilled") setLessonCount(Array.isArray(lessonData.value) ? lessonData.value.length : 0);
-    setLoadingData(false);
-    setRefreshing(false);
-  };
+  }, []);
 
   useEffect(() => {
-    loadAdminData();
-  }, []);
+    if (!isLoadingAuth && user?.role === "admin") {
+      loadAdminData();
+    }
+  }, [isLoadingAuth, user?.id, user?.role, loadAdminData]);
 
   const refreshLanguages = () => {
     getAdminLanguages()
@@ -130,6 +164,14 @@ export default function Admin() {
           </div>
         ))}
       </div>
+      {dataLoadError && (
+        <div role="alert" className="mb-5 flex flex-wrap items-center justify-between gap-3 rounded-xl border border-red-500/30 bg-red-500/10 p-4 text-sm text-red-700 dark:text-red-300">
+          <span>{dataLoadError}</span>
+          <button type="button" onClick={() => loadAdminData(true)} disabled={refreshing} className="shrink-0 rounded-lg px-3 py-2 font-medium hover:bg-red-500/10 disabled:opacity-50">
+            Réessayer
+          </button>
+        </div>
+      )}
 
       {/* Tabs */}
       <div className="flex gap-1.5 bg-secondary p-1 rounded-xl mb-5 overflow-x-auto">
@@ -152,7 +194,11 @@ export default function Admin() {
           </section>
           <section>
             <div className="mb-3 flex items-end justify-between"><div><h2 className="font-heading text-xl font-bold text-foreground">{t("adminLanguagesAndContent")}</h2><p className="text-sm text-muted-foreground">{t("adminOverviewText")}</p></div><button type="button" onClick={() => setTab("langs")} className="text-sm font-semibold text-primary hover:underline">{t("adminManageLanguages")}</button></div>
-            <div className="grid gap-3 md:grid-cols-2">{languages.map(lang => <div key={lang.id} className="flex items-center gap-3 rounded-2xl border border-border bg-card p-4"><span className="text-2xl">{getFlagForLanguage(lang)}</span><div className="min-w-0 flex-1"><div className="font-semibold text-foreground">{getLanguageLabel(lang)}</div><div className="truncate text-xs text-muted-foreground">{getCountryForLanguage(lang)} · {lang.status === "active" ? t("adminLanguageStatusActive") : t("adminLanguageStatusComingSoon")}</div></div><Link to={`/apprendre/${lang.code}`} className="shrink-0 rounded-lg px-2 py-1 text-xs font-semibold text-primary hover:bg-primary/10">{t("adminView")}</Link></div>)}</div>
+            <div className="grid gap-3 md:grid-cols-2">
+              {loadingData && languages.length === 0 && <p className="text-sm text-muted-foreground">Chargement des langues…</p>}
+              {!loadingData && languages.length === 0 && <p className="text-sm text-muted-foreground">Aucune langue n’a pu être chargée.</p>}
+              {languages.map(lang => <div key={lang.id || lang.code} className="flex items-center gap-3 rounded-2xl border border-border bg-card p-4"><span className="text-2xl">{getFlagForLanguage(lang)}</span><div className="min-w-0 flex-1"><div className="font-semibold text-foreground">{getLanguageLabel(lang)}</div><div className="truncate text-xs text-muted-foreground">{getCountryForLanguage(lang)} · {lang.status === "active" ? t("adminLanguageStatusActive") : t("adminLanguageStatusComingSoon")}</div></div><Link to={`/apprendre/${lang.code}`} className="shrink-0 rounded-lg px-2 py-1 text-xs font-semibold text-primary hover:bg-primary/10">{t("adminView")}</Link></div>)}
+            </div>
           </section>
         </div>
       )}
