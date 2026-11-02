@@ -5,6 +5,7 @@ from .progress import router as progress
 from .audio import router as audio
 from .mms_audio import router as mms_audio
 from .ai import router as ai
+from .ai_conversations import router as ai_conversations
 from .leaderboard import router as leaderboard
 from .languages import router as languages
 from .vocabulary import router as vocabulary

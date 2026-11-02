@@ -291,4 +291,157 @@ describe('audioService', () => {
     expect(rec.start).toHaveBeenCalledTimes(1);
     expect(rec.lang).toBe('fr-FR');
   });
+
+  it('records and transcribes speech when browser speech recognition is unavailable', async () => {
+    delete globalThis.window.SpeechRecognition;
+    const originalNavigator = Object.getOwnPropertyDescriptor(globalThis, 'navigator');
+    const onResult = vi.fn();
+    const onError = vi.fn();
+    const onEnd = vi.fn();
+    const track = { stop: vi.fn() };
+    const listeners = {};
+    let recorder;
+
+    class MediaRecorderMock {
+      static isTypeSupported = (type) => type === 'audio/webm;codecs=opus';
+      state = 'inactive';
+      mimeType = 'audio/webm;codecs=opus';
+
+      constructor() {
+        recorder = this;
+      }
+
+      addEventListener(event, callback) {
+        listeners[event] = callback;
+      }
+
+      start() {
+        this.state = 'recording';
+      }
+
+      stop() {
+        listeners.dataavailable({ data: new Blob([new Uint8Array(16)], { type: this.mimeType }) });
+        this.state = 'inactive';
+        listeners.stop();
+      }
+    }
+
+    Object.defineProperty(globalThis, 'navigator', {
+      configurable: true,
+      value: {
+        mediaDevices: {
+          getUserMedia: vi.fn().mockResolvedValue({ getTracks: () => [track] }),
+        },
+      },
+    });
+    globalThis.window.MediaRecorder = MediaRecorderMock;
+    globalThis.fetch = vi.fn().mockResolvedValue({
+      ok: true,
+      headers: new Headers({ 'Content-Type': 'application/json' }),
+      json: async () => ({ text: 'Bonjour Kôrô' }),
+    });
+
+    try {
+      const session = startVoiceRecognition('fr', { onResult, onError, onEnd });
+      expect(session).not.toBeNull();
+      await Promise.resolve();
+      await Promise.resolve();
+      expect(recorder.state).toBe('recording');
+
+      stopVoiceRecognition();
+      await new Promise((resolve) => setTimeout(resolve, 0));
+
+      expect(globalThis.fetch).toHaveBeenCalledWith(
+        'http://127.0.0.1:8000/api/audio/transcribe',
+        expect.objectContaining({ method: 'POST' })
+      );
+      expect(onResult).toHaveBeenCalledWith('Bonjour Kôrô');
+      expect(onError).not.toHaveBeenCalled();
+      expect(onEnd).toHaveBeenCalledTimes(1);
+      expect(track.stop).toHaveBeenCalledTimes(1);
+    } finally {
+      delete globalThis.window.MediaRecorder;
+      if (originalNavigator) {
+        Object.defineProperty(globalThis, 'navigator', originalNavigator);
+      } else {
+        delete globalThis.navigator;
+      }
+    }
+  });
+
+  it('does not restart the recording fallback when native recognition ends after an error', async () => {
+    const originalNavigator = Object.getOwnPropertyDescriptor(globalThis, 'navigator');
+    const onResult = vi.fn();
+    const onError = vi.fn();
+    const onEnd = vi.fn();
+    const getUserMedia = vi.fn().mockResolvedValue({ getTracks: () => [{ stop: vi.fn() }] });
+    const recorderListeners = {};
+    let recognition;
+    let recorder;
+
+    globalThis.window.SpeechRecognition = function RecognitionMock() {
+      recognition = this;
+      this.start = vi.fn();
+      this.stop = vi.fn();
+    };
+    globalThis.window.MediaRecorder = class MediaRecorderMock {
+      static isTypeSupported = () => true;
+      state = 'inactive';
+      mimeType = 'audio/webm';
+
+      constructor() {
+        recorder = this;
+      }
+
+      addEventListener(event, callback) {
+        recorderListeners[event] = callback;
+      }
+
+      start() {
+        this.state = 'recording';
+      }
+
+      stop() {
+        recorderListeners.dataavailable({ data: new Blob([new Uint8Array(16)], { type: this.mimeType }) });
+        this.state = 'inactive';
+        recorderListeners.stop();
+      }
+    };
+    Object.defineProperty(globalThis, 'navigator', {
+      configurable: true,
+      value: { mediaDevices: { getUserMedia } },
+    });
+    globalThis.fetch = vi.fn().mockResolvedValue({
+      ok: true,
+      headers: new Headers({ 'Content-Type': 'application/json' }),
+      json: async () => ({ text: 'Bonjour' }),
+    });
+
+    try {
+      startVoiceRecognition('fr', { onResult, onError, onEnd });
+      recognition.onerror({ error: 'no-speech' });
+      recognition.onend();
+      await Promise.resolve();
+      await Promise.resolve();
+
+      expect(getUserMedia).toHaveBeenCalledTimes(1);
+      expect(recorder.state).toBe('recording');
+      expect(onEnd).not.toHaveBeenCalled();
+
+      stopVoiceRecognition();
+      await new Promise((resolve) => setTimeout(resolve, 0));
+
+      expect(getUserMedia).toHaveBeenCalledTimes(1);
+      expect(onResult).toHaveBeenCalledWith('Bonjour');
+      expect(onError).not.toHaveBeenCalled();
+      expect(onEnd).toHaveBeenCalledTimes(1);
+    } finally {
+      delete globalThis.window.MediaRecorder;
+      if (originalNavigator) {
+        Object.defineProperty(globalThis, 'navigator', originalNavigator);
+      } else {
+        delete globalThis.navigator;
+      }
+    }
+  });
 });

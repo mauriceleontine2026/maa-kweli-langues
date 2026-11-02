@@ -3,6 +3,11 @@ let inMemoryAccessToken = null;
 let inMemoryCsrfToken = null;
 
 export const getApiBaseUrl = () => {
+  const hostname = typeof window !== "undefined" ? window.location?.hostname?.toLowerCase() : "";
+  if (hostname?.endsWith(".vercel.app")) {
+    return window.location.origin;
+  }
+
   const configuredBaseUrl = import.meta.env.VITE_API_BASE_URL;
   const normalizedConfigured = configuredBaseUrl && String(configuredBaseUrl).trim();
 

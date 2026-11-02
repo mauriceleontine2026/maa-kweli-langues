@@ -3,7 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 from .database import Base, engine
 from .config import get_allowed_origins, get_backend_proxy_target
-from .routers import health, auth, lessons, progress, audio, ai, languages, vocabulary, contributions, users, leaderboard, research
+from .routers import health, auth, lessons, progress, audio, ai, ai_conversations, languages, vocabulary, contributions, users, leaderboard, research
 from .routers import mms_audio
 from fastapi.staticfiles import StaticFiles
 from pathlib import Path
@@ -17,6 +17,7 @@ from .models.language import Language
 from .models.lesson import Lesson
 from .models.vocabulary import VocabularyItem
 from .models.language_adapter import LanguageCodeAdapter
+from .models.ai_conversation import AITutorConversation  # noqa: F401
 from .models.voice_contribution import ContributorConsent, ContributionPrompt, VoiceRecording
 from .database import SessionLocal
 from .services import security
@@ -762,6 +763,7 @@ app.include_router(progress, prefix="/api/progress")
 app.include_router(audio, prefix="/api/audio")
 app.include_router(mms_audio, prefix="/api/audio")
 app.include_router(ai, prefix="/api/ai")
+app.include_router(ai_conversations, prefix="/api/ai-conversations")
 app.include_router(leaderboard, prefix="/api/leaderboard")
 app.include_router(languages, prefix="/api/languages")
 app.include_router(vocabulary, prefix="/api/vocabulary")

@@ -1,10 +1,13 @@
 import { getTTSLocale, getBestVoice, normalizeTtsLanguageCode, isProvisionalSyntheticLanguage } from "./languagePhonology";
 import { getLanguageConfig } from "./voiceConfig";
+import { getSupportedAudioRecordingMimeType } from "./audioRecording";
 import { getApiBaseUrl, request } from "@/api/backendClient";
 
 let recognitionInstance = null;
+let mediaRecognitionInstance = null;
 let activeAudioElement = null;
 const AUDIO_CACHE = new Map();
+const VOICE_CAPTURE_MAX_DURATION_MS = 8000;
 
 /** @param {string} aiText @returns {string} */
 export const cleanTextForTTS = (aiText) => {
@@ -378,6 +381,101 @@ export const playAudioSource = (source, languageCode = "fr", options = {}) => {
   return false;
 };
 
+const getRecordingExtension = (mimeType) => {
+  if (mimeType.includes("mp4") || mimeType.includes("m4a")) return "m4a";
+  if (mimeType.includes("ogg")) return "ogg";
+  if (mimeType.includes("wav")) return "wav";
+  return "webm";
+};
+
+const startMediaRecorderRecognition = (handlers = {}) => {
+  const { onResult, onError, onEnd } = handlers;
+  const mediaDevices = typeof navigator !== "undefined" ? navigator.mediaDevices : null;
+  if (!mediaDevices?.getUserMedia || typeof window.MediaRecorder !== "function") {
+    onError?.(new Error("Speech recognition and audio recording are not supported on this device."));
+    return null;
+  }
+
+  if (mediaRecognitionInstance) stopVoiceRecognition({ transcribe: false });
+
+  const session = {
+    recorder: null,
+    stream: null,
+    chunks: [],
+    timer: null,
+    stopped: false,
+    transcribe: true,
+    stop: () => {},
+  };
+  mediaRecognitionInstance = session;
+
+  const stopCapture = () => {
+    if (session.stopped) return;
+    session.stopped = true;
+    if (session.timer) clearTimeout(session.timer);
+
+    const finalizeRecording = async () => {
+      session.stream?.getTracks().forEach((track) => track.stop());
+      if (mediaRecognitionInstance === session) mediaRecognitionInstance = null;
+
+      try {
+        if (!session.transcribe) return;
+        const mimeType = session.recorder?.mimeType || session.chunks.find((chunk) => chunk.type)?.type || "audio/webm";
+        const blob = new Blob(session.chunks, { type: mimeType });
+        if (blob.size < 12) {
+          throw new Error("No speech was recorded. Please try again.");
+        }
+        const formData = new FormData();
+        formData.append("file", blob, `voice-message.${getRecordingExtension(mimeType)}`);
+        const response = await request("POST", "/api/audio/transcribe", formData);
+        const transcript = typeof response?.text === "string" ? response.text.trim() : "";
+        if (transcript) onResult?.(transcript);
+      } catch (error) {
+        onError?.(error instanceof Error ? error : new Error("Audio transcription failed."));
+      } finally {
+        onEnd?.();
+      }
+    };
+
+    if (session.recorder?.state === "recording") {
+      session.recorder.addEventListener("stop", finalizeRecording, { once: true });
+      session.recorder.stop();
+    } else {
+      finalizeRecording();
+    }
+  };
+  session.stop = stopCapture;
+
+  mediaDevices.getUserMedia({
+    audio: { echoCancellation: true, noiseSuppression: true, autoGainControl: true, channelCount: 1 },
+  }).then((stream) => {
+    session.stream = stream;
+    if (session.stopped || mediaRecognitionInstance !== session) {
+      stream.getTracks().forEach((track) => track.stop());
+      return;
+    }
+
+    const mimeType = getSupportedAudioRecordingMimeType(window.MediaRecorder);
+    const recorder = mimeType
+      ? new window.MediaRecorder(stream, { mimeType })
+      : new window.MediaRecorder(stream);
+    session.recorder = recorder;
+    recorder.addEventListener("dataavailable", (event) => {
+      if (event.data?.size > 0) session.chunks.push(event.data);
+    });
+    recorder.start(250);
+    session.timer = setTimeout(stopCapture, VOICE_CAPTURE_MAX_DURATION_MS);
+  }).catch((error) => {
+    session.stopped = true;
+    session.stream?.getTracks().forEach((track) => track.stop());
+    if (mediaRecognitionInstance === session) mediaRecognitionInstance = null;
+    onError?.(new Error(error instanceof Error ? error.message : "Microphone access failed."));
+    onEnd?.();
+  });
+
+  return session;
+};
+
 export const startVoiceRecognition = (languageCode = "fr", handlers = {}) => {
   const {
     onResult,
@@ -393,12 +491,15 @@ export const startVoiceRecognition = (languageCode = "fr", handlers = {}) => {
   const speechWindow = /** @type {Window & { SpeechRecognition?: new () => any; webkitSpeechRecognition?: new () => any }} */ (window);
   const SpeechRecognitionCtor = speechWindow.SpeechRecognition || speechWindow.webkitSpeechRecognition;
   if (!SpeechRecognitionCtor) {
-    onError?.(new Error("Speech recognition is not supported"));
-    return null;
+    return startMediaRecorderRecognition(handlers);
   }
 
   if (recognitionInstance && typeof recognitionInstance.stop === "function") {
-    recognitionInstance.stop();
+    try {
+      recognitionInstance.stop();
+    } catch {
+      recognitionInstance = null;
+    }
   }
 
   const recognition = new SpeechRecognitionCtor();
@@ -413,25 +514,50 @@ export const startVoiceRecognition = (languageCode = "fr", handlers = {}) => {
     }
   };
 
-  recognition.onerror = () => {
-    onError?.(new Error("Speech recognition failed"));
+  recognition.onerror = (event) => {
     recognitionInstance = null;
+    if (event?.error === "aborted") return;
+    if (typeof navigator !== "undefined" &&
+      navigator.mediaDevices?.getUserMedia && typeof window.MediaRecorder === "function") {
+      startMediaRecorderRecognition(handlers);
+      return;
+    }
+    onError?.(new Error("Speech recognition failed"));
+    onEnd?.();
   };
 
   recognition.onend = () => {
+    if (recognitionInstance !== recognition) return;
     recognitionInstance = null;
     onEnd?.();
   };
 
   recognitionInstance = recognition;
-  recognition.start();
+  try {
+    recognition.start();
+  } catch (error) {
+    recognitionInstance = null;
+    if (typeof navigator !== "undefined" && navigator.mediaDevices?.getUserMedia && typeof window.MediaRecorder === "function") {
+      return startMediaRecorderRecognition(handlers);
+    }
+    onError?.(error instanceof Error ? error : new Error("Speech recognition failed."));
+    onEnd?.();
+    return null;
+  }
   return recognition;
 };
 
-export const stopVoiceRecognition = () => {
-  if (recognitionInstance && typeof recognitionInstance.stop === "function") {
-    recognitionInstance.stop();
+export const stopVoiceRecognition = ({ transcribe = true } = {}) => {
+  if (mediaRecognitionInstance) {
+    const session = mediaRecognitionInstance;
+    session.transcribe = transcribe;
+    session.stop();
+    return true;
   }
-  recognitionInstance = null;
+  if (recognitionInstance && typeof recognitionInstance.stop === "function") {
+    const recognition = recognitionInstance;
+    recognitionInstance = null;
+    recognition.stop();
+  }
   return true;
 };
